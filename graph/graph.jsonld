@@ -1236,6 +1236,83 @@
    ]
   },
   {
+   "@id": "cm:psychological-safety",
+   "@type": "cmo:Phenomenon",
+   "cmo:causes": {
+    "@id": "cm:team-learning-behavior"
+   },
+   "cmo:challengedBy": {
+    "@id": "cm:pearsall-ellis-2011"
+   },
+   "cmo:confusedWith": {
+    "@id": "cm:group-cohesiveness"
+   },
+   "cmo:demonstratedBy": {
+    "@id": "cm:edmondson-1999"
+   },
+   "cmo:domain": "meetings-and-facilitation",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:file": "articles/meetings-and-facilitation/psychological-safety.md",
+   "cmo:introducedBy": {
+    "@id": "cm:amy-edmondson"
+   },
+   "cmo:level": "introductory",
+   "cmo:supportedBy": {
+    "@id": "cm:project-aristotle"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/psychological-safety/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/psychological-safety/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/psychological-safety/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/psychological-safety/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/psychological-safety/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/psychological-safety/s6"
+    }
+   ],
+   "rdfs:label": "Psychological safety",
+   "skos:altLabel": [
+    "interpersonal risk-taking climate",
+    "team psychological safety"
+   ],
+   "skos:broader": {
+    "@id": "cm:team-climate"
+   },
+   "skos:definition": "A shared belief among members of a team that it is safe to take interpersonal risks - to ask a question, admit a mistake, raise a concern or disagree - without being embarrassed, rejected or punished for it.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/meetings-and-facilitation"
+   },
+   "skos:prefLabel": "Psychological safety",
+   "skos:related": [
+    {
+     "@id": "cm:defensiveness"
+    },
+    {
+     "@id": "cm:difficult-conversation"
+    },
+    {
+     "@id": "cm:feedback"
+    },
+    {
+     "@id": "cm:open-ended-questions"
+    }
+   ]
+  },
+  {
    "@id": "cm:situation-behavior-impact",
    "@type": "cmo:Technique",
    "cmo:addresses": {
@@ -3454,6 +3531,90 @@
    "dcterms:title": "Plain language summaries: A systematic review of theory, guidelines and empirical research",
    "schema:url": {
     "@id": "https://pubmed.ncbi.nlm.nih.gov/35666746/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/psychological-safety/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Amy Edmondson, Administrative Science Quarterly 44(2), 350-383, 1999 (course-reading copy hosted at MIT)",
+   "dcterms:title": "Psychological Safety and Learning Behavior in Work Teams",
+   "schema:url": {
+    "@id": "https://web.mit.edu/curhan/www/docs/Articles/15341_Readings/Group_Performance/Edmondson%20Psychological%20safety.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/psychological-safety/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Frazier, Fainshmidt, Klinger, Pezeshkan & Vracheva, Personnel Psychology 70, 113-165, 2017 (MD-SOAR repository record)",
+   "dcterms:title": "Psychological Safety: A Meta-Analytic Review and Extension",
+   "schema:url": {
+    "@id": "https://mdsoar.org/handle/11603/4275"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/psychological-safety/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Google re:Work",
+   "dcterms:title": "Guide: Understand team effectiveness (Project Aristotle)",
+   "schema:url": {
+    "@id": "https://rework.withgoogle.com/intl/en/guides/understand-team-effectiveness"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/psychological-safety/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Harvard T.H. Chan School of Public Health (on Edmondson & Kerrissey, Harvard Business Review, 2025)",
+   "dcterms:title": "Debunking misconceptions about workplace psychological safety",
+   "schema:url": {
+    "@id": "https://hsph.harvard.edu/news/debunking-misconceptions-about-workplace-psychological-safety/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/psychological-safety/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Pearsall & Ellis, Journal of Applied Psychology 96(2), 401-411, 2011 (University of Arizona research record)",
+   "dcterms:title": "Thick as Thieves: The Effects of Ethical Orientation and Psychological Safety on Unethical Team Behavior",
+   "schema:url": {
+    "@id": "https://experts.arizona.edu/en/publications/thick-as-thieves-the-effects-of-ethical-orientation-and-psycholog/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/psychological-safety/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "British Psychological Society Research Digest, 2011",
+   "dcterms:title": "Psychologically safe teams can incubate bad behaviour",
+   "schema:url": {
+    "@id": "https://www.bps.org.uk/research-digest/psychologically-safe-teams-can-incubate-bad-behaviour-0"
    }
   },
   {

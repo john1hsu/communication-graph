@@ -71,6 +71,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:illusion-of-transparency` | mixed |  |
 | `cm:paraphrasing` | mixed | `cm:weger-castle-emmett-2010` |
 | `cm:plain-language` | mixed |  |
+| `cm:psychological-safety` | mixed | `cm:pearsall-ellis-2011` |
 | `cm:words-of-estimative-probability` | mixed |  |
 
 ## Concepts with no recorded origin (gap)
@@ -89,5 +90,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 
 _Which written articles does nothing else in the graph point to (after inference)?_ — `queries/08-orphans.rq`
 
-_No results._
+| node |
+|---|
+| `cm:psychological-safety` |
 

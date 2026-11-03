@@ -744,6 +744,35 @@
 <https://github.com/john1hsu/communication-graph/id/plain-language> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/plain-language> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
 <https://github.com/john1hsu/communication-graph/id/plain-language> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/writing-for-dollars-writing-to-please> .
+<https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://purl.org/dc/terms/created> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Phenomenon> .
+<https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2000/01/rdf-schema#label> "Psychological safety" .
+<https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#altLabel> "interpersonal risk-taking climate" .
+<https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#altLabel> "team psychological safety" .
+<https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/team-climate> .
+<https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#definition> "A shared belief among members of a team that it is safe to take interpersonal risks - to ask a question, admit a mistake, raise a concern or disagree - without being embarrassed, rejected or punished for it." .
+<https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/meetings-and-facilitation> .
+<https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#prefLabel> "Psychological safety" .
+<https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/defensiveness> .
+<https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/difficult-conversation> .
+<https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/feedback> .
+<https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/open-ended-questions> .
+<https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/psychological-safety/s1> .
+<https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/psychological-safety/s2> .
+<https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/psychological-safety/s3> .
+<https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/psychological-safety/s4> .
+<https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/psychological-safety/s5> .
+<https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/psychological-safety/s6> .
+<https://github.com/john1hsu/communication-graph/id/psychological-safety> <https://github.com/john1hsu/communication-graph/ontology#causes> <https://github.com/john1hsu/communication-graph/id/team-learning-behavior> .
+<https://github.com/john1hsu/communication-graph/id/psychological-safety> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/pearsall-ellis-2011> .
+<https://github.com/john1hsu/communication-graph/id/psychological-safety> <https://github.com/john1hsu/communication-graph/ontology#confusedWith> <https://github.com/john1hsu/communication-graph/id/group-cohesiveness> .
+<https://github.com/john1hsu/communication-graph/id/psychological-safety> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/edmondson-1999> .
+<https://github.com/john1hsu/communication-graph/id/psychological-safety> <https://github.com/john1hsu/communication-graph/ontology#domain> "meetings-and-facilitation" .
+<https://github.com/john1hsu/communication-graph/id/psychological-safety> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/psychological-safety> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/meetings-and-facilitation/psychological-safety.md" .
+<https://github.com/john1hsu/communication-graph/id/psychological-safety> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/amy-edmondson> .
+<https://github.com/john1hsu/communication-graph/id/psychological-safety> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/psychological-safety> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/project-aristotle> .
 <https://github.com/john1hsu/communication-graph/id/scheme/barriers-and-psychology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <https://github.com/john1hsu/communication-graph/id/scheme/barriers-and-psychology> <http://www.w3.org/2004/02/skos/core#prefLabel> "Barriers and the psychology of communication" .
 <https://github.com/john1hsu/communication-graph/id/scheme/cross-cultural-communication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
@@ -1333,6 +1362,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/plain-language/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/plain-language/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/communication-graph/id/source/plain-language/s6> <https://schema.org/url> <https://pubmed.ncbi.nlm.nih.gov/35666746/> .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-safety/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-safety/s1> <http://purl.org/dc/terms/publisher> "Amy Edmondson, Administrative Science Quarterly 44(2), 350-383, 1999 (course-reading copy hosted at MIT)" .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-safety/s1> <http://purl.org/dc/terms/title> "Psychological Safety and Learning Behavior in Work Teams" .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-safety/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-safety/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-safety/s1> <https://schema.org/url> <https://web.mit.edu/curhan/www/docs/Articles/15341_Readings/Group_Performance/Edmondson%20Psychological%20safety.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-safety/s2> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-safety/s2> <http://purl.org/dc/terms/publisher> "Frazier, Fainshmidt, Klinger, Pezeshkan & Vracheva, Personnel Psychology 70, 113-165, 2017 (MD-SOAR repository record)" .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-safety/s2> <http://purl.org/dc/terms/title> "Psychological Safety: A Meta-Analytic Review and Extension" .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-safety/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-safety/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-safety/s2> <https://schema.org/url> <https://mdsoar.org/handle/11603/4275> .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-safety/s3> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-safety/s3> <http://purl.org/dc/terms/publisher> "Google re:Work" .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-safety/s3> <http://purl.org/dc/terms/title> "Guide: Understand team effectiveness (Project Aristotle)" .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-safety/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-safety/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-safety/s3> <https://schema.org/url> <https://rework.withgoogle.com/intl/en/guides/understand-team-effectiveness> .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-safety/s4> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-safety/s4> <http://purl.org/dc/terms/publisher> "Harvard T.H. Chan School of Public Health (on Edmondson & Kerrissey, Harvard Business Review, 2025)" .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-safety/s4> <http://purl.org/dc/terms/title> "Debunking misconceptions about workplace psychological safety" .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-safety/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-safety/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-safety/s4> <https://schema.org/url> <https://hsph.harvard.edu/news/debunking-misconceptions-about-workplace-psychological-safety/> .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-safety/s5> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-safety/s5> <http://purl.org/dc/terms/publisher> "Pearsall & Ellis, Journal of Applied Psychology 96(2), 401-411, 2011 (University of Arizona research record)" .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-safety/s5> <http://purl.org/dc/terms/title> "Thick as Thieves: The Effects of Ethical Orientation and Psychological Safety on Unethical Team Behavior" .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-safety/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-safety/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-safety/s5> <https://schema.org/url> <https://experts.arizona.edu/en/publications/thick-as-thieves-the-effects-of-ethical-orientation-and-psycholog/> .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-safety/s6> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-safety/s6> <http://purl.org/dc/terms/publisher> "British Psychological Society Research Digest, 2011" .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-safety/s6> <http://purl.org/dc/terms/title> "Psychologically safe teams can incubate bad behaviour" .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-safety/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-safety/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-safety/s6> <https://schema.org/url> <https://www.bps.org.uk/research-digest/psychologically-safe-teams-can-incubate-bad-behaviour-0> .
 <https://github.com/john1hsu/communication-graph/id/source/situation-behavior-impact/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/situation-behavior-impact/s1> <http://purl.org/dc/terms/publisher> "Center for Creative Leadership, 2025" .
 <https://github.com/john1hsu/communication-graph/id/source/situation-behavior-impact/s1> <http://purl.org/dc/terms/title> "Use Situation-Behavior-Impact (SBI) To Understand Intent" .
