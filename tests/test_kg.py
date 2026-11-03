@@ -130,8 +130,8 @@ def make_tree(tmp: Path, articles=ARTICLES) -> Path:
     return tmp
 
 
-def run(tmp: Path, *args: str) -> subprocess.CompletedProcess:
-    return subprocess.run([sys.executable, str(KG), *args], cwd=tmp, env={"CM_KG_ROOT": str(tmp), "PATH": ""},
+def run(tmp: Path, *args: str, hashseed: str = "random") -> subprocess.CompletedProcess:
+    return subprocess.run([sys.executable, str(KG), *args], cwd=tmp, env={"PYTHONHASHSEED": hashseed, "CM_KG_ROOT": str(tmp), "PATH": ""},
                           capture_output=True, text=True)
 
 
@@ -162,9 +162,11 @@ def test_valid_tree_builds(tmp_path):
     assert "cm:curse-of-knowledge" in comp  # barrier with no fix -> gap
     path = (g / "learning-path.md").read_text()
     assert path.index("Active listening") < path.index("Paraphrasing")
+    # deterministic: rebuilding under different hash seeds (as CI and scheduled runs do) is byte-identical
     before = {p.name: p.read_text() for p in g.iterdir()}
-    assert run(t, "build").returncode == 0
-    assert before == {p.name: p.read_text() for p in g.iterdir()}
+    for seed in ("1", "2", "3", "4"):
+        assert run(t, "build", hashseed=seed).returncode == 0
+        assert before == {p.name: p.read_text() for p in g.iterdir()}, f"output changed with PYTHONHASHSEED={seed}"
 
 
 def mutate(key, old, new):

@@ -765,6 +765,23 @@ def run_queries(store: Graph) -> list[dict]:
     return results
 
 
+def louvain(ug) -> list[set[str]]:
+    """Louvain communities that are identical on every run.
+
+    Louvain iterates over Python sets of nodes, and the order of a set of strings changes with
+    PYTHONHASHSEED (randomised per process), so a fixed `seed=` alone is not enough. Integers hash to
+    themselves, so we run it on integer labels assigned in sorted order and map the result back.
+    """
+    if not ug.number_of_edges():
+        return []
+    names = sorted(ug.nodes)
+    ig = nx.Graph()
+    ig.add_nodes_from(range(len(names)))
+    idx = {n: i for i, n in enumerate(names)}
+    ig.add_edges_from(sorted((min(idx[u], idx[v]), max(idx[u], idx[v])) for u, v in ug.edges))
+    return [{names[i] for i in c} for c in nx.algorithms.community.louvain_communities(ig, seed=42)]
+
+
 def write_analytics(arts, o, seeds, asserted, inferred) -> None:
     known = {a["id"] for a in arts}
     byid = {a["id"]: a for a in arts}
@@ -780,7 +797,7 @@ def write_analytics(arts, o, seeds, asserted, inferred) -> None:
     pr = nx.pagerank(g) if g.number_of_nodes() else {}
     ug = g.to_undirected()
     btw = nx.betweenness_centrality(ug) if ug.number_of_nodes() > 2 else {}
-    comms = nx.algorithms.community.louvain_communities(ug, seed=42) if ug.number_of_edges() else []
+    comms = louvain(ug)
     core = nx.core_number(nx.Graph(ug)) if ug.number_of_edges() else {}
 
     # expected type of frontier nodes, from range axioms the reasoner applied
