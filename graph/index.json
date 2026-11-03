@@ -172,6 +172,81 @@
   ]
  },
  {
+  "id": "cm:high-and-low-context-cultures",
+  "title": "High- and low-context cultures",
+  "aliases": [
+   "high-context and low-context communication",
+   "contexting",
+   "Hall's contexting model",
+   "high-context culture",
+   "low-context culture"
+  ],
+  "type": "Phenomenon",
+  "domain": "cross-cultural-communication",
+  "level": "introductory",
+  "evidenceStatus": "contested",
+  "file": "articles/cross-cultural-communication/high-and-low-context-cultures.md",
+  "created": "2026-11-03",
+  "summary": "Edward T. Hall's contrast between communication in which most meaning sits in shared context, relationships and nonverbal cues (high-context) and communication in which meaning is carried mainly by explicit words (low-context); widely taught for intercultural work, but its country rankings have weak empirical support.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:intercultural-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:audience-analysis"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:direct-vs-indirect-feedback"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:hofstede-cultural-dimensions"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:edward-t-hall",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedIn",
+    "object": "cm:beyond-culture",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:cardon-2008",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:kittler-rygl-mackinnon-2011",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:audience-analysis",
+    "source": "s2",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://open.maricopa.edu/com110/chapter/1-5-cultural-characteristics-and-communication/",
+   "https://textbooks.whatcom.edu/duttoncmst101/chapter/understanding-intercultural-communication",
+   "https://support.wspa.pl/wp-content/uploads/2020/12/04_Reading-Material_Topic-3.2_A-Critique-of-Halls-Contexting-Model.pdf",
+   "https://dspace.stir.ac.uk/handle/1893/3174"
+  ]
+ },
+ {
   "id": "cm:plain-language",
   "title": "Plain language",
   "aliases": [

@@ -166,6 +166,76 @@
    ]
   },
   {
+   "@id": "cm:high-and-low-context-cultures",
+   "@type": "cmo:Phenomenon",
+   "cmo:challengedBy": [
+    {
+     "@id": "cm:cardon-2008"
+    },
+    {
+     "@id": "cm:kittler-rygl-mackinnon-2011"
+    }
+   ],
+   "cmo:complements": {
+    "@id": "cm:audience-analysis"
+   },
+   "cmo:domain": "cross-cultural-communication",
+   "cmo:evidenceStatus": "contested",
+   "cmo:file": "articles/cross-cultural-communication/high-and-low-context-cultures.md",
+   "cmo:introducedBy": {
+    "@id": "cm:edward-t-hall"
+   },
+   "cmo:introducedIn": {
+    "@id": "cm:beyond-culture"
+   },
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/high-and-low-context-cultures/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/high-and-low-context-cultures/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/high-and-low-context-cultures/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/high-and-low-context-cultures/s4"
+    }
+   ],
+   "rdfs:label": "High- and low-context cultures",
+   "skos:altLabel": [
+    "Hall's contexting model",
+    "contexting",
+    "high-context and low-context communication",
+    "high-context culture",
+    "low-context culture"
+   ],
+   "skos:broader": {
+    "@id": "cm:intercultural-communication"
+   },
+   "skos:definition": "Edward T. Hall's contrast between communication in which most meaning sits in shared context, relationships and nonverbal cues (high-context) and communication in which meaning is carried mainly by explicit words (low-context); widely taught for intercultural work, but its country rankings have weak empirical support.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/cross-cultural-communication"
+   },
+   "skos:prefLabel": "High- and low-context cultures",
+   "skos:related": [
+    {
+     "@id": "cm:audience-analysis"
+    },
+    {
+     "@id": "cm:direct-vs-indirect-feedback"
+    },
+    {
+     "@id": "cm:hofstede-cultural-dimensions"
+    }
+   ]
+  },
+  {
    "@id": "cm:plain-language",
    "@type": "cmo:Principle",
    "cmo:addresses": [
@@ -640,6 +710,62 @@
    "dcterms:title": "Paraphrase testing",
    "schema:url": {
     "@id": "https://digital.gov/guides/plain-language/test/paraphrase-testing"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/high-and-low-context-cultures/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Wrench, Punyanunt-Carter & Thweatt, adapted in Exploring Relationship Dynamics (Maricopa Community College District Open Textbook, CC BY-NC-SA 4.0)",
+   "dcterms:title": "1.5 Cultural Characteristics and Communication",
+   "schema:url": {
+    "@id": "https://open.maricopa.edu/com110/chapter/1-5-cultural-characteristics-and-communication/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/high-and-low-context-cultures/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Tammera Stokes Rice, College of the Canyons OER, in Whatcom Community College Comm 101 textbook (CC BY 4.0)",
+   "dcterms:title": "Chapter 5 Culture & Communication (Intercultural Communication: Creating Intercultural Communication Competence)",
+   "schema:url": {
+    "@id": "https://textbooks.whatcom.edu/duttoncmst101/chapter/understanding-intercultural-communication"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/high-and-low-context-cultures/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Cardon, Journal of Business and Technical Communication 22(4), 2008, pp. 399-428 (course-reading copy, WSPA University)",
+   "dcterms:title": "A critique of Hall's contexting model: A meta-analysis of literature on intercultural business and technical communication",
+   "schema:url": {
+    "@id": "https://support.wspa.pl/wp-content/uploads/2020/12/04_Reading-Material_Topic-3.2_A-Critique-of-Halls-Contexting-Model.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/high-and-low-context-cultures/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Kittler, Rygl & Mackinnon, International Journal of Cross Cultural Management 11(1), 2011, pp. 63-82 (University of Stirling repository)",
+   "dcterms:title": "Beyond culture or beyond control? Reviewing the use of Hall's high-/low-context concept",
+   "schema:url": {
+    "@id": "https://dspace.stir.ac.uk/handle/1893/3174"
    }
   },
   {
