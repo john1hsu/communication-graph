@@ -978,6 +978,9 @@
      "@id": "cm:spotlight-effect"
     },
     {
+     "@id": "cm:teach-back"
+    },
+    {
      "@id": "cm:words-of-estimative-probability"
     }
    ]
@@ -1397,6 +1400,95 @@
     },
     {
      "@id": "cm:nonviolent-communication"
+    }
+   ]
+  },
+  {
+   "@id": "cm:teach-back",
+   "@type": "cmo:Technique",
+   "cmo:addresses": {
+    "@id": "cm:illusion-of-transparency"
+   },
+   "cmo:appliedIn": {
+    "@id": "cm:patient-education"
+   },
+   "cmo:complements": {
+    "@id": "cm:plain-language"
+   },
+   "cmo:demonstratedBy": {
+    "@id": "cm:schillinger-et-al-2003"
+   },
+   "cmo:domain": "questioning-and-conversation",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/teach-back/example"
+   },
+   "cmo:file": "articles/questioning-and-conversation/teach-back.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/teach-back/howto"
+   },
+   "cmo:level": "introductory",
+   "cmo:supportedBy": [
+    {
+     "@id": "cm:ha-dinh-et-al-2016"
+    },
+    {
+     "@id": "cm:talevski-et-al-2020"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/teach-back/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/teach-back/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/teach-back/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/teach-back/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/teach-back/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/teach-back/s6"
+    }
+   ],
+   "rdfs:label": "Teach-back",
+   "skos:altLabel": [
+    "closing the loop on understanding",
+    "show-me method",
+    "teach-back method"
+   ],
+   "skos:broader": {
+    "@id": "cm:checking-understanding"
+   },
+   "skos:definition": "Checking whether an explanation landed by asking the other person to explain it back, or show it, in their own words - framed as a test of how clearly you explained rather than of what they know - and re-explaining until their version is right.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/questioning-and-conversation"
+   },
+   "skos:prefLabel": "Teach-back",
+   "skos:related": [
+    {
+     "@id": "cm:curse-of-knowledge"
+    },
+    {
+     "@id": "cm:illusion-of-transparency"
+    },
+    {
+     "@id": "cm:open-ended-questions"
+    },
+    {
+     "@id": "cm:paraphrasing"
+    },
+    {
+     "@id": "cm:plain-language"
     }
    ]
   },
@@ -3702,6 +3794,90 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/teach-back/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "U.S. Agency for Healthcare Research and Quality (AHRQ)",
+   "dcterms:title": "Tool: Teach-Back (TeamSTEPPS curriculum)",
+   "schema:url": {
+    "@id": "https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/teachback.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/teach-back/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Archives of Internal Medicine 163(1), 83-90, 2003 (PubMed record)",
+   "dcterms:title": "Closing the loop: physician communication with diabetic patients who have low health literacy",
+   "schema:url": {
+    "@id": "https://pubmed.ncbi.nlm.nih.gov/12523921/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/teach-back/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Ha Dinh, Bonner, Clark, Ramsbotham & Hines, JBI Database of Systematic Reviews and Implementation Reports 14(1), 210-247, 2016 (Griffith University repository)",
+   "dcterms:title": "The effectiveness of the teach-back method on adherence and self-management in health education for people with chronic disease: a systematic review",
+   "schema:url": {
+    "@id": "https://research-repository.griffith.edu.au/items/927345b1-6c41-44c2-a409-15c5d955cd3a"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/teach-back/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Talevski, Wong Shee, Rasmussen, Kemp & Beauchamp, PLoS ONE 15(4), e0231350, 2020 (DOAJ record)",
+   "dcterms:title": "Teach-back: A systematic review of implementation and impacts",
+   "schema:url": {
+    "@id": "https://doaj.org/article/b1abc68239814afcb1efb196ce30aba8"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/teach-back/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "practitioner-journal",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Bodenheimer, Family Practice Management (American Academy of Family Physicians), July/August 2018, 20-22 (UCSF Center for Excellence in Primary Care copy)",
+   "dcterms:title": "Teach-Back: A Simple Technique to Enhance Patients' Understanding",
+   "schema:url": {
+    "@id": "https://cepc.ucsf.edu/sites/cepc.ucsf.edu/files/TeachBackArticle_0.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/teach-back/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "University of California, San Francisco (UCSF) News, January 2003",
+   "dcterms:title": "Simple communication technique may improve health outcomes among diabetes patients",
+   "schema:url": {
+    "@id": "https://www.ucsf.edu/news/2003/01/97177/simple-communication-technique-may-imrpove-health-outcomes-among-diabetes"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/source/william-strunk-jr/s1",
    "@type": "cmo:Source",
    "cmo:sourceType": "primary",
@@ -3812,6 +3988,107 @@
    "schema:url": {
     "@id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7971511/"
    }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/teach-back/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:teach-back"
+   },
+   "rdfs:label": "Did I ask them to say it in their own words, or did I accept a nod or a \"makes sense\"?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/teach-back/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:teach-back"
+   },
+   "rdfs:label": "Did I frame the check as testing my explanation, not their competence?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/teach-back/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:teach-back"
+   },
+   "rdfs:label": "Which one or two points would cause real damage if misunderstood, and did I check those?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/teach-back/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:teach-back"
+   },
+   "rdfs:label": "When their restatement was off, did I re-explain differently rather than repeat myself louder?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/teach-back/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "I've thrown a lot at you, so let me check I explained it well. If the patch fails on Thursday, what are your next two moves, and who hears from you first?",
+   "cmo:before": "So that's the background - escalate to Priya's team if the patch fails, and keep the client posted. Does that all make sense?",
+   "cmo:situation": "A team lead hands over an urgent client escalation to a colleague before going on leave.",
+   "cmo:why": "The yes/no check invites a polite \"yes\"; the open request surfaces the missing piece (who to call first) while the lead can still fix it, and frames any gap as the explainer's problem."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/teach-back/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Teach-back",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/teach-back/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/teach-back/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/teach-back/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/teach-back/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/teach-back/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/teach-back/howto/6"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/teach-back/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Pick the one to three points the other person must get right to act - a deadline, a decision, a sequence of steps - rather than checking everything."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/teach-back/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Explain each point in plain, specific language, one point at a time."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/teach-back/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Take ownership of the check out loud, for example \"I want to make sure I explained that clearly.\""
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/teach-back/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Ask an open request to restate or demonstrate (\"How will you walk the client through this?\"), never a yes/no question such as \"Does that make sense?\""
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/teach-back/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Listen for gaps or errors; if you hear one, re-explain that part differently and ask again until their version is accurate."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/teach-back/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "Close by confirming the agreed version in writing where it matters (a recap message or ticket)."
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability/check/1",

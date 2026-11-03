@@ -11,7 +11,7 @@ summary: >-
 level: introductory
 evidenceStatus: mixed
 broader: [cm:egocentric-bias]
-related: [cm:curse-of-knowledge, cm:spotlight-effect, cm:words-of-estimative-probability, cm:email, cm:paraphrasing]
+related: [cm:curse-of-knowledge, cm:spotlight-effect, cm:words-of-estimative-probability, cm:email, cm:paraphrasing, cm:teach-back]
 requires: []
 relations:
   - {predicate: demonstratedBy, object: cm:gilovich-savitsky-medvec-1998, source: s1, confidence: high}

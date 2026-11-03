@@ -178,6 +178,31 @@ Ask yourself:
 - Did I end with a genuine check ("Have I got that right?") and accept a correction without defending myself?
 - Did I hold back my own view until they agreed I had understood them?
 
+## questioning-and-conversation
+
+### [Teach-back](../articles/questioning-and-conversation/teach-back.md) — Technique
+
+1. Pick the one to three points the other person must get right to act - a deadline, a decision, a sequence of steps - rather than checking everything.
+2. Explain each point in plain, specific language, one point at a time.
+3. Take ownership of the check out loud, for example "I want to make sure I explained that clearly."
+4. Ask an open request to restate or demonstrate ("How will you walk the client through this?"), never a yes/no question such as "Does that make sense?"
+5. Listen for gaps or errors; if you hear one, re-explain that part differently and ask again until their version is accurate.
+6. Close by confirming the agreed version in writing where it matters (a recap message or ticket).
+
+*A team lead hands over an urgent client escalation to a colleague before going on leave.*
+
+| Before | After |
+|---|---|
+| So that's the background - escalate to Priya's team if the patch fails, and keep the client posted. Does that all make sense? | I've thrown a lot at you, so let me check I explained it well. If the patch fails on Thursday, what are your next two moves, and who hears from you first? |
+
+**Why:** The yes/no check invites a polite "yes"; the open request surfaces the missing piece (who to call first) while the lead can still fix it, and frames any gap as the explainer's problem.
+
+Ask yourself:
+- Did I ask them to say it in their own words, or did I accept a nod or a "makes sense"?
+- Did I frame the check as testing my explanation, not their competence?
+- Which one or two points would cause real damage if misunderstood, and did I check those?
+- When their restatement was off, did I re-explain differently rather than repeat myself louder?
+
 ## writing
 
 ### [Active voice](../articles/writing/active-voice.md) — Technique

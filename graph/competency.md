@@ -6,9 +6,7 @@ SPARQL queries in `queries/` run over the asserted graph, the OWL-RL inferences 
 
 _Which written barriers or anti-patterns have nothing in the graph that addresses them?_ — `queries/01-problems-without-fix.rq`
 
-| node | type |
-|---|---|
-| `cm:illusion-of-transparency` | cmo:Barrier |
+_No results._
 
 ## Skills with no practice technique (gap)
 
@@ -35,6 +33,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:bottom-line-up-front` | 1 | burying-the-lede |
 | `cm:paraphrasing` | 1 | active-listening |
 | `cm:situation-behavior-impact` | 1 | defensiveness |
+| `cm:teach-back` | 1 | Illusion of transparency |
 | `cm:words-of-estimative-probability` | 1 | vague-probability-language |
 
 ## Toolkit by situation
@@ -51,6 +50,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:executive-briefing` | `cm:words-of-estimative-probability` |
 | `cm:memorandum` | `cm:bottom-line-up-front` |
 | `cm:multicultural-team` | `cm:direct-vs-indirect-feedback` |
+| `cm:patient-education` | `cm:teach-back` |
 | `cm:performance-review` | `cm:situation-behavior-impact` |
 | `cm:plain-language-summary` | `cm:plain-language` |
 
@@ -72,6 +72,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:paraphrasing` | mixed | `cm:weger-castle-emmett-2010` |
 | `cm:plain-language` | mixed |  |
 | `cm:psychological-safety` | mixed | `cm:pearsall-ellis-2011` |
+| `cm:teach-back` | mixed |  |
 | `cm:words-of-estimative-probability` | mixed |  |
 
 ## Concepts with no recorded origin (gap)
@@ -85,6 +86,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:email` | cmo:Channel |
 | `cm:illusion-of-transparency` | cmo:Barrier |
 | `cm:plain-language` | cmo:Principle |
+| `cm:teach-back` | cmo:Technique |
 
 ## Orphan articles (gap)
 

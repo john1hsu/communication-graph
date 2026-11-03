@@ -1043,6 +1043,10 @@
     "object": "cm:paraphrasing"
    },
    {
+    "predicate": "skos:related",
+    "object": "cm:teach-back"
+   },
+   {
     "predicate": "cmo:demonstratedBy",
     "object": "cm:gilovich-savitsky-medvec-1998",
     "source": "s1",
@@ -1563,6 +1567,112 @@
    "https://cris.huji.ac.il/en/publications/the-effects-of-feedback-interventions-on-performance-a-historical/",
    "https://www.frontiersin.org/articles/10.3389/fpsyg.2019.03087/pdf",
    "https://www.oreilly.com/library/view/feedback-that-works/9781604911732/xhtml/09_Chapter02.xhtml"
+  ]
+ },
+ {
+  "id": "cm:teach-back",
+  "title": "Teach-back",
+  "aliases": [
+   "teach-back method",
+   "show-me method",
+   "closing the loop on understanding"
+  ],
+  "type": "Technique",
+  "domain": "questioning-and-conversation",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/questioning-and-conversation/teach-back.md",
+  "created": "2026-11-03",
+  "summary": "Checking whether an explanation landed by asking the other person to explain it back, or show it, in their own words - framed as a test of how clearly you explained rather than of what they know - and re-explaining until their version is right.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:checking-understanding"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:paraphrasing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:illusion-of-transparency"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:curse-of-knowledge"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:open-ended-questions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:plain-language"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:illusion-of-transparency",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:patient-education",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:plain-language",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:schillinger-et-al-2003",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:ha-dinh-et-al-2016",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:talevski-et-al-2020",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Did I ask them to say it in their own words, or did I accept a nod or a \"makes sense\"?",
+   "Did I frame the check as testing my explanation, not their competence?",
+   "Which one or two points would cause real damage if misunderstood, and did I check those?",
+   "When their restatement was off, did I re-explain differently rather than repeat myself louder?"
+  ],
+  "steps": [
+   "Pick the one to three points the other person must get right to act - a deadline, a decision, a sequence of steps - rather than checking everything.",
+   "Explain each point in plain, specific language, one point at a time.",
+   "Take ownership of the check out loud, for example \"I want to make sure I explained that clearly.\"",
+   "Ask an open request to restate or demonstrate (\"How will you walk the client through this?\"), never a yes/no question such as \"Does that make sense?\"",
+   "Listen for gaps or errors; if you hear one, re-explain that part differently and ask again until their version is accurate.",
+   "Close by confirming the agreed version in writing where it matters (a recap message or ticket)."
+  ],
+  "example": {
+   "situation": "A team lead hands over an urgent client escalation to a colleague before going on leave.",
+   "before": "So that's the background - escalate to Priya's team if the patch fails, and keep the client posted. Does that all make sense?",
+   "after": "I've thrown a lot at you, so let me check I explained it well. If the patch fails on Thursday, what are your next two moves, and who hears from you first?",
+   "why": "The yes/no check invites a polite \"yes\"; the open request surfaces the missing piece (who to call first) while the lead can still fix it, and frames any gap as the explainer's problem."
+  },
+  "source_urls": [
+   "https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/teachback.html",
+   "https://pubmed.ncbi.nlm.nih.gov/12523921/",
+   "https://research-repository.griffith.edu.au/items/927345b1-6c41-44c2-a409-15c5d955cd3a",
+   "https://doaj.org/article/b1abc68239814afcb1efb196ce30aba8",
+   "https://cepc.ucsf.edu/sites/cepc.ucsf.edu/files/TeachBackArticle_0.pdf",
+   "https://www.ucsf.edu/news/2003/01/97177/simple-communication-technique-may-imrpove-health-outcomes-among-diabetes"
   ]
  },
  {

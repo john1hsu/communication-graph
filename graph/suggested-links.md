@@ -4,28 +4,28 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 
 | Score | Node A | Node B | Shared neighbours |
 |---|---|---|---|
-| 2.35 | `cm:paraphrasing` | `cm:psychological-safety` | `cm:difficult-conversation`, `cm:open-ended-questions` |
-| 1.83 | `cm:illusion-of-transparency` | `cm:plain-language` | `cm:clarity`, `cm:curse-of-knowledge`, `cm:email`, `cm:words-of-estimative-probability` |
+| 2.25 | `cm:illusion-of-transparency` | `cm:plain-language` | `cm:clarity`, `cm:curse-of-knowledge`, `cm:email`, `cm:teach-back`, `cm:words-of-estimative-probability` |
 | 1.82 | `cm:i-statements` | `cm:psychological-safety` | `cm:defensiveness`, `cm:difficult-conversation` |
+| 1.82 | `cm:paraphrasing` | `cm:psychological-safety` | `cm:difficult-conversation`, `cm:open-ended-questions` |
 | 1.82 | `cm:psychological-safety` | `cm:situation-behavior-impact` | `cm:defensiveness`, `cm:feedback` |
-| 1.57 | `cm:bottom-line-up-front` | `cm:curse-of-knowledge` | `cm:audience-analysis`, `cm:channel-selection`, `cm:email`, `cm:plain-language` |
-| 1.56 | `cm:channel-selection` | `cm:plain-language` | `cm:audience-analysis`, `cm:bottom-line-up-front`, `cm:curse-of-knowledge`, `cm:email` |
-| 1.23 | `cm:bottom-line-up-front` | `cm:william-strunk-jr` | `cm:active-voice`, `cm:effective-writing-for-army-leaders`, `cm:plain-language` |
+| 1.56 | `cm:bottom-line-up-front` | `cm:curse-of-knowledge` | `cm:audience-analysis`, `cm:channel-selection`, `cm:email`, `cm:plain-language` |
+| 1.55 | `cm:channel-selection` | `cm:plain-language` | `cm:audience-analysis`, `cm:bottom-line-up-front`, `cm:curse-of-knowledge`, `cm:email` |
+| 1.22 | `cm:bottom-line-up-front` | `cm:william-strunk-jr` | `cm:active-voice`, `cm:effective-writing-for-army-leaders`, `cm:plain-language` |
 | 1.19 | `cm:bottom-line-up-front` | `cm:message-equivocality-media-selection-and-manager-performance` | `cm:audience-analysis`, `cm:channel-selection`, `cm:email` |
 | 1.19 | `cm:curse-of-knowledge` | `cm:message-equivocality-media-selection-and-manager-performance` | `cm:audience-analysis`, `cm:channel-selection`, `cm:email` |
-| 1.15 | `cm:email` | `cm:words-of-estimative-probability` | `cm:bottom-line-up-front`, `cm:illusion-of-transparency`, `cm:plain-language` |
+| 1.15 | `cm:email` | `cm:teach-back` | `cm:curse-of-knowledge`, `cm:illusion-of-transparency`, `cm:plain-language` |
+| 1.13 | `cm:email` | `cm:words-of-estimative-probability` | `cm:bottom-line-up-front`, `cm:illusion-of-transparency`, `cm:plain-language` |
 | 1.04 | `cm:aristotles-rhetoric` | `cm:curse-of-knowledge` | `cm:audience-analysis`, `cm:clarity` |
 | 1.04 | `cm:aristotles-rhetoric` | `cm:plain-language` | `cm:audience-analysis`, `cm:clarity` |
-| 1.00 | `cm:active-voice` | `cm:curse-of-knowledge` | `cm:clarity`, `cm:plain-language` |
+| 0.99 | `cm:active-voice` | `cm:curse-of-knowledge` | `cm:clarity`, `cm:plain-language` |
 | 0.91 | `cm:direct-vs-indirect-feedback` | `cm:psychological-safety` | `cm:feedback` |
+| 0.91 | `cm:psychological-safety` | `cm:teach-back` | `cm:open-ended-questions` |
+| 0.82 | `cm:curse-of-knowledge` | `cm:paraphrasing` | `cm:illusion-of-transparency`, `cm:teach-back` |
 | 0.80 | `cm:bottom-line-up-front` | `cm:illusion-of-transparency` | `cm:email`, `cm:words-of-estimative-probability` |
 | 0.79 | `cm:direct-vs-indirect-feedback` | `cm:paraphrasing` | `cm:i-statements`, `cm:situation-behavior-impact` |
 | 0.79 | `cm:channel-selection` | `cm:high-and-low-context-cultures` | `cm:audience-analysis`, `cm:bottom-line-up-front` |
 | 0.79 | `cm:email` | `cm:high-and-low-context-cultures` | `cm:audience-analysis`, `cm:bottom-line-up-front` |
 | 0.79 | `cm:high-and-low-context-cultures` | `cm:plain-language` | `cm:audience-analysis`, `cm:bottom-line-up-front` |
 | 0.79 | `cm:message-equivocality-media-selection-and-manager-performance` | `cm:plain-language` | `cm:audience-analysis`, `cm:email` |
-| 0.78 | `cm:curse-of-knowledge` | `cm:words-of-estimative-probability` | `cm:illusion-of-transparency`, `cm:plain-language` |
-| 0.77 | `cm:audience-analysis` | `cm:illusion-of-transparency` | `cm:curse-of-knowledge`, `cm:email` |
-| 0.77 | `cm:channel-selection` | `cm:illusion-of-transparency` | `cm:curse-of-knowledge`, `cm:email` |
-| 0.75 | `cm:active-voice` | `cm:audience-analysis` | `cm:bottom-line-up-front`, `cm:plain-language` |
-| 0.75 | `cm:active-voice` | `cm:email` | `cm:bottom-line-up-front`, `cm:plain-language` |
+| 0.76 | `cm:audience-analysis` | `cm:illusion-of-transparency` | `cm:curse-of-knowledge`, `cm:email` |
+| 0.76 | `cm:audience-analysis` | `cm:teach-back` | `cm:curse-of-knowledge`, `cm:plain-language` |
