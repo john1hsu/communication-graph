@@ -4,19 +4,23 @@ Nodes that existing articles point to but nobody has written yet. Score = referr
 
 | Node | Score | Expected type | Referenced by |
 |---|---|---|---|
-| `cm:audience-analysis` | 5.15 | - | `cm:curse-of-knowledge`, `cm:plain-language` |
-| `cm:clarity` | 3.60 | - | `cm:curse-of-knowledge`, `cm:plain-language` |
-| `cm:active-voice` | 2.05 | - | `cm:plain-language` |
-| `cm:bottom-line-up-front` | 2.05 | - | `cm:plain-language` |
-| `cm:illusion-of-transparency` | 2.05 | - | `cm:curse-of-knowledge` |
-| `cm:readability-formulas` | 2.05 | - | `cm:plain-language` |
-| `cm:tappers-and-listeners-study` | 2.05 | - | `cm:curse-of-knowledge` |
-| `cm:abstract-language` | 1.55 | - | `cm:curse-of-knowledge` |
-| `cm:camerer-loewenstein-weber-1989` | 1.55 | Study | `cm:curse-of-knowledge` |
-| `cm:egocentric-bias` | 1.55 | - | `cm:curse-of-knowledge` |
-| `cm:jargon` | 1.55 | - | `cm:plain-language` |
-| `cm:paraphrase-testing` | 1.55 | - | `cm:plain-language` |
-| `cm:plain-language-summary` | 1.55 | - | `cm:plain-language` |
-| `cm:ryskin-brown-schmidt-2014` | 1.55 | - | `cm:curse-of-knowledge` |
-| `cm:theory-of-mind` | 1.55 | - | `cm:curse-of-knowledge` |
-| `cm:writing-for-dollars-writing-to-please` | 1.55 | - | `cm:plain-language` |
+| `cm:clarity` | 3.44 | - | `cm:curse-of-knowledge`, `cm:plain-language` |
+| `cm:bottom-line-up-front` | 3.44 | - | `cm:audience-analysis`, `cm:plain-language` |
+| `cm:active-voice` | 1.97 | - | `cm:plain-language` |
+| `cm:illusion-of-transparency` | 1.97 | - | `cm:curse-of-knowledge` |
+| `cm:readability-formulas` | 1.97 | - | `cm:plain-language` |
+| `cm:tappers-and-listeners-study` | 1.97 | - | `cm:curse-of-knowledge` |
+| `cm:aristotles-rhetoric` | 1.96 | - | `cm:audience-analysis` |
+| `cm:stakeholder-mapping` | 1.96 | - | `cm:audience-analysis` |
+| `cm:abstract-language` | 1.47 | - | `cm:curse-of-knowledge` |
+| `cm:camerer-loewenstein-weber-1989` | 1.47 | Study | `cm:curse-of-knowledge` |
+| `cm:egocentric-bias` | 1.47 | - | `cm:curse-of-knowledge` |
+| `cm:jargon` | 1.47 | - | `cm:plain-language` |
+| `cm:paraphrase-testing` | 1.47 | - | `cm:plain-language` |
+| `cm:plain-language-summary` | 1.47 | - | `cm:plain-language` |
+| `cm:ryskin-brown-schmidt-2014` | 1.47 | - | `cm:curse-of-knowledge` |
+| `cm:theory-of-mind` | 1.47 | - | `cm:curse-of-knowledge` |
+| `cm:writing-for-dollars-writing-to-please` | 1.47 | - | `cm:plain-language` |
+| `cm:audience` | 1.46 | - | `cm:audience-analysis` |
+| `cm:audience-design` | 1.46 | - | `cm:audience-analysis` |
+| `cm:email` | 1.46 | - | `cm:audience-analysis` |

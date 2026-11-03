@@ -14,6 +14,84 @@
  },
  "@graph": [
   {
+   "@id": "cm:audience-analysis",
+   "@type": "cmo:Technique",
+   "cmo:addresses": {
+    "@id": "cm:curse-of-knowledge"
+   },
+   "cmo:appliedIn": {
+    "@id": "cm:email"
+   },
+   "cmo:domain": "foundations",
+   "cmo:evidenceStatus": "practitioner",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/audience-analysis/example"
+   },
+   "cmo:explainedBy": {
+    "@id": "cm:audience-design"
+   },
+   "cmo:file": "articles/foundations/audience-analysis.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/audience-analysis/howto"
+   },
+   "cmo:influencedBy": {
+    "@id": "cm:aristotles-rhetoric"
+   },
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/audience-analysis/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/audience-analysis/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/audience-analysis/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/audience-analysis/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/audience-analysis/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/audience-analysis/s6"
+    }
+   ],
+   "rdfs:label": "Audience analysis",
+   "skos:altLabel": [
+    "audience profiling",
+    "know your audience",
+    "reader analysis"
+   ],
+   "skos:broader": {
+    "@id": "cm:audience"
+   },
+   "skos:definition": "The practice of working out, before you write or speak, who will receive a message, what they already know, what they care about and what they need to do with it, and then shaping the content, structure, tone and channel to fit them.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/foundations"
+   },
+   "skos:prefLabel": "Audience analysis",
+   "skos:related": [
+    {
+     "@id": "cm:bottom-line-up-front"
+    },
+    {
+     "@id": "cm:curse-of-knowledge"
+    },
+    {
+     "@id": "cm:plain-language"
+    },
+    {
+     "@id": "cm:stakeholder-mapping"
+    }
+   ]
+  },
+  {
    "@id": "cm:curse-of-knowledge",
    "@type": "cmo:Barrier",
    "cmo:causes": {
@@ -168,6 +246,107 @@
    ]
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/audience-analysis/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:audience-analysis"
+   },
+   "rdfs:label": "Who will read or hear this - including people copied or forwarded to - and which of them is the one who must act?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/audience-analysis/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:audience-analysis"
+   },
+   "rdfs:label": "What does my primary audience already know, and which of my terms or steps would they not recognise?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/audience-analysis/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:audience-analysis"
+   },
+   "rdfs:label": "What is in this for them, and do they see it in the first few lines?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/audience-analysis/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:audience-analysis"
+   },
+   "rdfs:label": "Have I checked my picture of the audience against something they actually said or did, or am I only guessing?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/audience-analysis/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "Subject: Data migration finishing three weeks later than planned (no change to cost). The move to the new reporting system will finish on 4 December instead of 13 November. Your month-end reports will run on the old system as usual until then. Technical details for your IT team are in the section below.",
+   "cmo:before": "Heads up - the ETL refactor slipped because the CDC connector kept OOMing on the backfill. New ETA is sprint 14, assuming infra gets us the bigger nodes.",
+   "cmo:situation": "An engineering lead emails a delay notice about a data-platform migration to a list that includes the client's finance director.",
+   "cmo:why": "The finance director is the primary reader and needs the date, the impact on her work and the cost; the jargon and team shorthand move to a separate section for the technical secondary audience."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/audience-analysis/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Audience analysis",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/audience-analysis/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/audience-analysis/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/audience-analysis/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/audience-analysis/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/audience-analysis/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/audience-analysis/howto/6"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/audience-analysis/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "List every audience, not just the addressee - the decision maker, technical reviewers, people who are copied, people the message may be forwarded to and people affected by the outcome."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/audience-analysis/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "For the primary audience, write down what they already know, what they care about, what attitude they are likely to bring and what they must decide or do after reading."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/audience-analysis/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Check your assumptions against evidence - the questions people actually ask you, past replies, usage data or a short conversation with a typical reader."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/audience-analysis/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Choose content, order, vocabulary, tone and channel to fit the primary audience, putting what matters to them first."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/audience-analysis/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Give secondary audiences their own clearly labelled section instead of mixing material for different readers."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/audience-analysis/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "Reread the draft as each audience in turn - including someone it might be forwarded to - and fix what would confuse or alienate them."
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/curse-of-knowledge/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -294,6 +473,90 @@
    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/writing",
    "@type": "skos:ConceptScheme",
    "skos:prefLabel": "Business and professional writing"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/audience-analysis/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Purdue Online Writing Lab (Purdue University)",
+   "dcterms:title": "Audience Analysis: Overview",
+   "schema:url": {
+    "@id": "https://owl.purdue.edu/owl/subject_specific_writing/professional_technical_writing/audience_analysis"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/audience-analysis/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Digital.gov Plain Language Guide Series (U.S. General Services Administration)",
+   "dcterms:title": "Write for your reader",
+   "schema:url": {
+    "@id": "https://digital.gov/guides/plain-language/principles/write-for-reader"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/audience-analysis/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Olds College OER Development Team, Professional Communications Open Curriculum (eCampusOntario Pressbooks, CC BY 4.0)",
+   "dcterms:title": "3 Audience",
+   "schema:url": {
+    "@id": "https://ecampusontario.pressbooks.pub/profcommsontario/chapter/getting-to-know-your-audience/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/audience-analysis/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Clark & Murphy, in Le Ny & Kintsch (eds.), Language and Comprehension, North-Holland, 1982, pp. 287-299 (author's copy, Stanford)",
+   "dcterms:title": "Audience design in meaning and reference",
+   "schema:url": {
+    "@id": "https://web.stanford.edu/~clark/1980s/Clark,%20H.H.%20&%20Murphy,%20G.L.%20_Audience%20design%20in%20meaning%20and%20reference_%201982.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/audience-analysis/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Lane & Ferreira, Journal of Experimental Psychology - Learning, Memory, and Cognition 34(6), 2008 (PubMed Central)",
+   "dcterms:title": "Speaker-external versus speaker-internal forces on utterance form: Do cognitive demands override threats to referential success?",
+   "schema:url": {
+    "@id": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2654616"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/audience-analysis/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Christof Rapp, Stanford Encyclopedia of Philosophy (Spring 2026 edition; substantive revision 2022)",
+   "dcterms:title": "Aristotle's Rhetoric",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/archives/spr2026/entries/aristotle-rhetoric/"
+   }
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s1",

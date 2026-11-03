@@ -27,6 +27,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | technique | reach | targets |
 |---|---|---|
 | `cm:plain-language` | 2 | Curse of knowledge, jargon |
+| `cm:audience-analysis` | 1 | Curse of knowledge |
 
 ## Toolkit by situation
 
@@ -34,6 +35,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 
 | situation | technique |
 |---|---|
+| `cm:email` | `cm:audience-analysis` |
 | `cm:plain-language-summary` | `cm:plain-language` |
 
 ## Myths and contested advice
@@ -51,6 +53,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 
 | node | type |
 |---|---|
+| `cm:audience-analysis` | cmo:Technique |
 | `cm:curse-of-knowledge` | cmo:Barrier |
 | `cm:plain-language` | cmo:Principle |
 

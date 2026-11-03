@@ -1,3 +1,76 @@
+<https://github.com/john1hsu/communication-graph/id/audience-analysis/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Who will read or hear this - including people copied or forwarded to - and which of them is the one who must act?" .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "What does my primary audience already know, and which of my terms or steps would they not recognise?" .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "What is in this for them, and do they see it in the first few lines?" .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Have I checked my picture of the audience against something they actually said or did, or am I only guessing?" .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis/example> <https://github.com/john1hsu/communication-graph/ontology#after> "Subject: Data migration finishing three weeks later than planned (no change to cost). The move to the new reporting system will finish on 4 December instead of 13 November. Your month-end reports will run on the old system as usual until then. Technical details for your IT team are in the section below." .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis/example> <https://github.com/john1hsu/communication-graph/ontology#before> "Heads up - the ETL refactor slipped because the CDC connector kept OOMing on the backfill. New ETA is sprint 14, assuming infra gets us the bigger nodes." .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "An engineering lead emails a delay notice about a data-platform migration to a list that includes the client's finance director." .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis/example> <https://github.com/john1hsu/communication-graph/ontology#why> "The finance director is the primary reader and needs the date, the impact on her work and the cost; the jargon and team shorthand move to a separate section for the technical secondary audience." .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis/howto/1> <https://schema.org/text> "List every audience, not just the addressee - the decision maker, technical reviewers, people who are copied, people the message may be forwarded to and people affected by the outcome." .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis/howto/2> <https://schema.org/text> "For the primary audience, write down what they already know, what they care about, what attitude they are likely to bring and what they must decide or do after reading." .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis/howto/3> <https://schema.org/text> "Check your assumptions against evidence - the questions people actually ask you, past replies, usage data or a short conversation with a typical reader." .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis/howto/4> <https://schema.org/text> "Choose content, order, vocabulary, tone and channel to fit the primary audience, putting what matters to them first." .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis/howto/5> <https://schema.org/text> "Give secondary audiences their own clearly labelled section instead of mixing material for different readers." .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis/howto/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis/howto/6> <https://schema.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis/howto/6> <https://schema.org/text> "Reread the draft as each audience in turn - including someone it might be forwarded to - and fix what would confuse or alienate them." .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis/howto> <https://schema.org/name> "Audience analysis" .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/audience-analysis/howto/1> .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/audience-analysis/howto/2> .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/audience-analysis/howto/3> .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/audience-analysis/howto/4> .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/audience-analysis/howto/5> .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/audience-analysis/howto/6> .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis> <http://purl.org/dc/terms/created> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Technique> .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis> <http://www.w3.org/2000/01/rdf-schema#label> "Audience analysis" .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis> <http://www.w3.org/2004/02/skos/core#altLabel> "audience profiling" .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis> <http://www.w3.org/2004/02/skos/core#altLabel> "know your audience" .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis> <http://www.w3.org/2004/02/skos/core#altLabel> "reader analysis" .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/audience> .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis> <http://www.w3.org/2004/02/skos/core#definition> "The practice of working out, before you write or speak, who will receive a message, what they already know, what they care about and what they need to do with it, and then shaping the content, structure, tone and channel to fit them." .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/foundations> .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis> <http://www.w3.org/2004/02/skos/core#prefLabel> "Audience analysis" .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/plain-language> .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping> .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/audience-analysis/s1> .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/audience-analysis/s2> .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/audience-analysis/s3> .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/audience-analysis/s4> .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/audience-analysis/s5> .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/audience-analysis/s6> .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/email> .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#domain> "foundations" .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "practitioner" .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/audience-analysis/example> .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/audience-design> .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/foundations/audience-analysis.md" .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/audience-analysis/howto> .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Which terms, acronyms or steps in this message did I learn on the job rather than expect my reader to know?" .
 <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> .
@@ -106,6 +179,42 @@
 <https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works> <http://www.w3.org/2004/02/skos/core#prefLabel> "Thinkers, landmark works and studies" .
 <https://github.com/john1hsu/communication-graph/id/scheme/writing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <https://github.com/john1hsu/communication-graph/id/scheme/writing> <http://www.w3.org/2004/02/skos/core#prefLabel> "Business and professional writing" .
+<https://github.com/john1hsu/communication-graph/id/source/audience-analysis/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/audience-analysis/s1> <http://purl.org/dc/terms/publisher> "Purdue Online Writing Lab (Purdue University)" .
+<https://github.com/john1hsu/communication-graph/id/source/audience-analysis/s1> <http://purl.org/dc/terms/title> "Audience Analysis: Overview" .
+<https://github.com/john1hsu/communication-graph/id/source/audience-analysis/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/audience-analysis/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/audience-analysis/s1> <https://schema.org/url> <https://owl.purdue.edu/owl/subject_specific_writing/professional_technical_writing/audience_analysis> .
+<https://github.com/john1hsu/communication-graph/id/source/audience-analysis/s2> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/audience-analysis/s2> <http://purl.org/dc/terms/publisher> "Digital.gov Plain Language Guide Series (U.S. General Services Administration)" .
+<https://github.com/john1hsu/communication-graph/id/source/audience-analysis/s2> <http://purl.org/dc/terms/title> "Write for your reader" .
+<https://github.com/john1hsu/communication-graph/id/source/audience-analysis/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/audience-analysis/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/communication-graph/id/source/audience-analysis/s2> <https://schema.org/url> <https://digital.gov/guides/plain-language/principles/write-for-reader> .
+<https://github.com/john1hsu/communication-graph/id/source/audience-analysis/s3> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/audience-analysis/s3> <http://purl.org/dc/terms/publisher> "Olds College OER Development Team, Professional Communications Open Curriculum (eCampusOntario Pressbooks, CC BY 4.0)" .
+<https://github.com/john1hsu/communication-graph/id/source/audience-analysis/s3> <http://purl.org/dc/terms/title> "3 Audience" .
+<https://github.com/john1hsu/communication-graph/id/source/audience-analysis/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/audience-analysis/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/communication-graph/id/source/audience-analysis/s3> <https://schema.org/url> <https://ecampusontario.pressbooks.pub/profcommsontario/chapter/getting-to-know-your-audience/> .
+<https://github.com/john1hsu/communication-graph/id/source/audience-analysis/s4> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/audience-analysis/s4> <http://purl.org/dc/terms/publisher> "Clark & Murphy, in Le Ny & Kintsch (eds.), Language and Comprehension, North-Holland, 1982, pp. 287-299 (author's copy, Stanford)" .
+<https://github.com/john1hsu/communication-graph/id/source/audience-analysis/s4> <http://purl.org/dc/terms/title> "Audience design in meaning and reference" .
+<https://github.com/john1hsu/communication-graph/id/source/audience-analysis/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/audience-analysis/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/audience-analysis/s4> <https://schema.org/url> <https://web.stanford.edu/~clark/1980s/Clark,%20H.H.%20&%20Murphy,%20G.L.%20_Audience%20design%20in%20meaning%20and%20reference_%201982.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/audience-analysis/s5> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/audience-analysis/s5> <http://purl.org/dc/terms/publisher> "Lane & Ferreira, Journal of Experimental Psychology - Learning, Memory, and Cognition 34(6), 2008 (PubMed Central)" .
+<https://github.com/john1hsu/communication-graph/id/source/audience-analysis/s5> <http://purl.org/dc/terms/title> "Speaker-external versus speaker-internal forces on utterance form: Do cognitive demands override threats to referential success?" .
+<https://github.com/john1hsu/communication-graph/id/source/audience-analysis/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/audience-analysis/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/audience-analysis/s5> <https://schema.org/url> <https://pmc.ncbi.nlm.nih.gov/articles/PMC2654616> .
+<https://github.com/john1hsu/communication-graph/id/source/audience-analysis/s6> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/audience-analysis/s6> <http://purl.org/dc/terms/publisher> "Christof Rapp, Stanford Encyclopedia of Philosophy (Spring 2026 edition; substantive revision 2022)" .
+<https://github.com/john1hsu/communication-graph/id/source/audience-analysis/s6> <http://purl.org/dc/terms/title> "Aristotle's Rhetoric" .
+<https://github.com/john1hsu/communication-graph/id/source/audience-analysis/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/audience-analysis/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/communication-graph/id/source/audience-analysis/s6> <https://schema.org/url> <https://plato.stanford.edu/archives/spr2026/entries/aristotle-rhetoric/> .
 <https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s1> <http://purl.org/dc/terms/publisher> "Camerer, Loewenstein & Weber, Journal of Political Economy 97(5), 1989 (RePEc/IDEAS record)" .
 <https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s1> <http://purl.org/dc/terms/title> "The Curse of Knowledge in Economic Settings: An Experimental Analysis" .

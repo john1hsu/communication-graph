@@ -1,5 +1,95 @@
 [
  {
+  "id": "cm:audience-analysis",
+  "title": "Audience analysis",
+  "aliases": [
+   "know your audience",
+   "reader analysis",
+   "audience profiling"
+  ],
+  "type": "Technique",
+  "domain": "foundations",
+  "level": "introductory",
+  "evidenceStatus": "practitioner",
+  "file": "articles/foundations/audience-analysis.md",
+  "created": "2026-11-03",
+  "summary": "The practice of working out, before you write or speak, who will receive a message, what they already know, what they care about and what they need to do with it, and then shaping the content, structure, tone and channel to fit them.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:audience"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:plain-language"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:curse-of-knowledge"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:stakeholder-mapping"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:bottom-line-up-front"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:curse-of-knowledge",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:email",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:audience-design",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:influencedBy",
+    "object": "cm:aristotles-rhetoric",
+    "source": "s6",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Who will read or hear this - including people copied or forwarded to - and which of them is the one who must act?",
+   "What does my primary audience already know, and which of my terms or steps would they not recognise?",
+   "What is in this for them, and do they see it in the first few lines?",
+   "Have I checked my picture of the audience against something they actually said or did, or am I only guessing?"
+  ],
+  "steps": [
+   "List every audience, not just the addressee - the decision maker, technical reviewers, people who are copied, people the message may be forwarded to and people affected by the outcome.",
+   "For the primary audience, write down what they already know, what they care about, what attitude they are likely to bring and what they must decide or do after reading.",
+   "Check your assumptions against evidence - the questions people actually ask you, past replies, usage data or a short conversation with a typical reader.",
+   "Choose content, order, vocabulary, tone and channel to fit the primary audience, putting what matters to them first.",
+   "Give secondary audiences their own clearly labelled section instead of mixing material for different readers.",
+   "Reread the draft as each audience in turn - including someone it might be forwarded to - and fix what would confuse or alienate them."
+  ],
+  "example": {
+   "situation": "An engineering lead emails a delay notice about a data-platform migration to a list that includes the client's finance director.",
+   "before": "Heads up - the ETL refactor slipped because the CDC connector kept OOMing on the backfill. New ETA is sprint 14, assuming infra gets us the bigger nodes.",
+   "after": "Subject: Data migration finishing three weeks later than planned (no change to cost). The move to the new reporting system will finish on 4 December instead of 13 November. Your month-end reports will run on the old system as usual until then. Technical details for your IT team are in the section below.",
+   "why": "The finance director is the primary reader and needs the date, the impact on her work and the cost; the jargon and team shorthand move to a separate section for the technical secondary audience."
+  },
+  "source_urls": [
+   "https://owl.purdue.edu/owl/subject_specific_writing/professional_technical_writing/audience_analysis",
+   "https://digital.gov/guides/plain-language/principles/write-for-reader",
+   "https://ecampusontario.pressbooks.pub/profcommsontario/chapter/getting-to-know-your-audience/",
+   "https://web.stanford.edu/~clark/1980s/Clark,%20H.H.%20&%20Murphy,%20G.L.%20_Audience%20design%20in%20meaning%20and%20reference_%201982.pdf",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC2654616",
+   "https://plato.stanford.edu/archives/spr2026/entries/aristotle-rhetoric/"
+  ]
+ },
+ {
   "id": "cm:curse-of-knowledge",
   "title": "Curse of knowledge",
   "aliases": [

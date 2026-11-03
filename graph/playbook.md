@@ -11,6 +11,31 @@ Ask yourself:
 - If my reader had only this message and none of my background, what would they do next?
 - Have I asked someone outside the work to restate my point in their own words, or am I only judging clarity myself?
 
+## foundations
+
+### [Audience analysis](../articles/foundations/audience-analysis.md) — Technique
+
+1. List every audience, not just the addressee - the decision maker, technical reviewers, people who are copied, people the message may be forwarded to and people affected by the outcome.
+2. For the primary audience, write down what they already know, what they care about, what attitude they are likely to bring and what they must decide or do after reading.
+3. Check your assumptions against evidence - the questions people actually ask you, past replies, usage data or a short conversation with a typical reader.
+4. Choose content, order, vocabulary, tone and channel to fit the primary audience, putting what matters to them first.
+5. Give secondary audiences their own clearly labelled section instead of mixing material for different readers.
+6. Reread the draft as each audience in turn - including someone it might be forwarded to - and fix what would confuse or alienate them.
+
+*An engineering lead emails a delay notice about a data-platform migration to a list that includes the client's finance director.*
+
+| Before | After |
+|---|---|
+| Heads up - the ETL refactor slipped because the CDC connector kept OOMing on the backfill. New ETA is sprint 14, assuming infra gets us the bigger nodes. | Subject: Data migration finishing three weeks later than planned (no change to cost). The move to the new reporting system will finish on 4 December instead of 13 November. Your month-end reports will run on the old system as usual until then. Technical details for your IT team are in the section below. |
+
+**Why:** The finance director is the primary reader and needs the date, the impact on her work and the cost; the jargon and team shorthand move to a separate section for the technical secondary audience.
+
+Ask yourself:
+- Who will read or hear this - including people copied or forwarded to - and which of them is the one who must act?
+- What does my primary audience already know, and which of my terms or steps would they not recognise?
+- What is in this for them, and do they see it in the first few lines?
+- Have I checked my picture of the audience against something they actually said or did, or am I only guessing?
+
 ## writing
 
 ### [Plain language](../articles/writing/plain-language.md) — Principle
