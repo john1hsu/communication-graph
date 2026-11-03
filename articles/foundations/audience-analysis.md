@@ -18,6 +18,7 @@ relations:
   - {predicate: appliedIn, object: cm:email, source: s3, confidence: high}
   - {predicate: explainedBy, object: cm:audience-design, source: s4, confidence: medium}
   - {predicate: influencedBy, object: cm:aristotles-rhetoric, source: s6, confidence: medium}
+  - {predicate: introducedIn, object: cm:aristotles-rhetoric, source: s6, confidence: medium}
 steps:
   - List every audience, not just the addressee - the decision maker, technical reviewers, people who are copied, people the message may be forwarded to and people affected by the outcome.
   - For the primary audience, write down what they already know, what they care about, what attitude they are likely to bring and what they must decide or do after reading.
@@ -74,6 +75,7 @@ sources:
     type: scholarly-encyclopedia
     accessed: 2026-11-03
 created: 2026-11-03
+modified: 2026-11-03
 ---
 
 # Audience analysis
@@ -113,7 +115,7 @@ Audience analysis is long-standing expert practice in rhetoric and professional 
 - **Addresses the curse of knowledge:** asking explicitly what the reader already knows, and what information they still need, is a direct check on assuming they share your background.[^s3]
 - **Applied in email:** the textbook's worked case uses primary, secondary and hidden audiences to rewrite a workplace email.[^s3]
 - **Explained by audience design,** Clark and Murphy's account of how speakers tailor utterances to shared common ground.[^s4]
-- **Influenced by Aristotle's *Rhetoric*,** whose analysis of audience judgments, emotions and character types is an early systematic treatment of adapting to listeners.[^s6]
+- **Introduced in, and influenced by, Aristotle's *Rhetoric*,** whose analysis of audience judgments, emotions and character types is an early systematic treatment of adapting to listeners.[^s6]
 - **Related:** plain language treats writing for your audience as its first rule; stakeholder mapping extends the same thinking to who is affected by a decision; bottom line up front is one way to put what matters to the reader first.[^s2][^s1]
 
 ## Sources

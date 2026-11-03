@@ -25,6 +25,13 @@
 <https://github.com/john1hsu/communication-graph/id/audience-analysis#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/audience-analysis/s4> .
 <https://github.com/john1hsu/communication-graph/id/audience-analysis#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/audience-analysis/s5> .
 <https://github.com/john1hsu/communication-graph/id/audience-analysis#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/audience-analysis/s6> .
+<https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> .
+<https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/thinkers-and-works/aristotles-rhetoric.md" .
+<https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/aristotles-rhetoric/s1> .
+<https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/aristotles-rhetoric/s2> .
+<https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/aristotles-rhetoric/s3> .
+<https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/aristotles-rhetoric/s4> .
 <https://github.com/john1hsu/communication-graph/id/plain-language#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/plain-language#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/plain-language> .
 <https://github.com/john1hsu/communication-graph/id/plain-language#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/writing/plain-language.md" .
@@ -211,6 +218,7 @@
   <https://github.com/john1hsu/communication-graph/id/audience-analysis/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/audience-analysis/howto/5> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/audience-analysis/howto/6> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <http://purl.org/dc/terms/created> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/audience-analysis> <http://purl.org/dc/terms/modified> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Technique> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <http://www.w3.org/2000/01/rdf-schema#label> "Audience analysis" .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <http://www.w3.org/2004/02/skos/core#altLabel> "audience profiling" .
@@ -239,6 +247,7 @@
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/foundations/audience-analysis.md" .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/audience-analysis/howto> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> .
+  <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#introducedIn> <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
   <https://github.com/john1hsu/communication-graph/id/source/audience-analysis/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
   <https://github.com/john1hsu/communication-graph/id/source/audience-analysis/s1> <http://purl.org/dc/terms/publisher> "Purdue Online Writing Lab (Purdue University)" .
@@ -276,6 +285,59 @@
   <https://github.com/john1hsu/communication-graph/id/source/audience-analysis/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
   <https://github.com/john1hsu/communication-graph/id/source/audience-analysis/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "scholarly-encyclopedia" .
   <https://github.com/john1hsu/communication-graph/id/source/audience-analysis/s6> <https://schema.org/url> <https://plato.stanford.edu/archives/spr2026/entries/aristotle-rhetoric/> .
+}
+
+<https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric#graph> {
+  <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> <http://purl.org/dc/terms/created> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
+  <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> <http://www.w3.org/2000/01/rdf-schema#label> "Aristotle's Rhetoric" .
+  <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> <http://www.w3.org/2004/02/skos/core#altLabel> "Ars Rhetorica" .
+  <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> <http://www.w3.org/2004/02/skos/core#altLabel> "On Rhetoric" .
+  <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> <http://www.w3.org/2004/02/skos/core#altLabel> "Rhetoric (Aristotle)" .
+  <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> <http://www.w3.org/2004/02/skos/core#altLabel> "Techne Rhetorike" .
+  <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/rhetoric> .
+  <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> <http://www.w3.org/2004/02/skos/core#definition> "Aristotle's fourth-century BCE treatise defining rhetoric as the ability to see the available means of persuasion in a given case; it introduced the three proofs of character, emotion and argument, and the first systematic analysis of how an audience shapes a speech." .
+  <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works> .
+  <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> <http://www.w3.org/2004/02/skos/core#prefLabel> "Aristotle's Rhetoric" .
+  <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
+  <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/audience> .
+  <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/clarity> .
+  <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/rhetorical-appeals> .
+  <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/aristotles-rhetoric/s1> .
+  <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/aristotles-rhetoric/s2> .
+  <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/aristotles-rhetoric/s3> .
+  <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/aristotles-rhetoric/s4> .
+  <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> <https://github.com/john1hsu/communication-graph/ontology#authoredBy> <https://github.com/john1hsu/communication-graph/id/aristotle> .
+  <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> <https://github.com/john1hsu/communication-graph/ontology#domain> "thinkers-and-works" .
+  <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "historical" .
+  <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/thinkers-and-works/aristotles-rhetoric.md" .
+  <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/plato> .
+  <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+  <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> <https://github.com/john1hsu/communication-graph/ontology#studiedIn> <https://github.com/john1hsu/communication-graph/id/rhetoric> .
+  <https://github.com/john1hsu/communication-graph/id/source/aristotles-rhetoric/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/aristotles-rhetoric/s1> <http://purl.org/dc/terms/publisher> "Christof Rapp, Stanford Encyclopedia of Philosophy (first published 2002; substantive revision 15 March 2022)" .
+  <https://github.com/john1hsu/communication-graph/id/source/aristotles-rhetoric/s1> <http://purl.org/dc/terms/title> "Aristotle's Rhetoric" .
+  <https://github.com/john1hsu/communication-graph/id/source/aristotles-rhetoric/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/aristotles-rhetoric/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "scholarly-encyclopedia" .
+  <https://github.com/john1hsu/communication-graph/id/source/aristotles-rhetoric/s1> <https://schema.org/url> <https://plato.stanford.edu/ENTRIES/aristotle-rhetoric/> .
+  <https://github.com/john1hsu/communication-graph/id/source/aristotles-rhetoric/s2> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/aristotles-rhetoric/s2> <http://purl.org/dc/terms/publisher> "Aristotle, The Internet Classics Archive (MIT)" .
+  <https://github.com/john1hsu/communication-graph/id/source/aristotles-rhetoric/s2> <http://purl.org/dc/terms/title> "Rhetoric (Book I), translated by W. Rhys Roberts" .
+  <https://github.com/john1hsu/communication-graph/id/source/aristotles-rhetoric/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/aristotles-rhetoric/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/communication-graph/id/source/aristotles-rhetoric/s2> <https://schema.org/url> <https://classics.mit.edu/Aristotle/rhetoric.mb.txt> .
+  <https://github.com/john1hsu/communication-graph/id/source/aristotles-rhetoric/s3> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/aristotles-rhetoric/s3> <http://purl.org/dc/terms/publisher> "Bennetch, Owen & Keesey, Effective Professional Communication - A Rhetorical Approach (University of Saskatchewan; LibreTexts, CC BY-NC-SA 4.0)" .
+  <https://github.com/john1hsu/communication-graph/id/source/aristotles-rhetoric/s3> <http://purl.org/dc/terms/title> "Chapter 5: Aristotle and the Modes of Appeal" .
+  <https://github.com/john1hsu/communication-graph/id/source/aristotles-rhetoric/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/aristotles-rhetoric/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "textbook" .
+  <https://github.com/john1hsu/communication-graph/id/source/aristotles-rhetoric/s3> <https://schema.org/url> <https://socialsci.libretexts.org/Bookshelves/Communication/Introduction_to_Communication/Effective_Professional_Communication:_A_Rhetorical_Approach/02:_Rhetorical_Theory/02.01:_Chapter_5:_Aristotle_and_the_Modes_of_Appeal> .
+  <https://github.com/john1hsu/communication-graph/id/source/aristotles-rhetoric/s4> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/aristotles-rhetoric/s4> <http://purl.org/dc/terms/publisher> "IEEE Professional Communication Society (ProComm), 11 November 2022" .
+  <https://github.com/john1hsu/communication-graph/id/source/aristotles-rhetoric/s4> <http://purl.org/dc/terms/title> "Back to Basics: What Can Aristotle Teach Us About Modern Communication?" .
+  <https://github.com/john1hsu/communication-graph/id/source/aristotles-rhetoric/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/aristotles-rhetoric/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+  <https://github.com/john1hsu/communication-graph/id/source/aristotles-rhetoric/s4> <https://schema.org/url> <https://procomm.ieee.org/back-to-basics-what-can-aristotle-teach-us-about-modern-communication/> .
 }
 
 <https://github.com/john1hsu/communication-graph/id/plain-language#graph> {
@@ -359,7 +421,13 @@
 <https://github.com/john1hsu/communication-graph/id/inferred> {
   <https://github.com/john1hsu/communication-graph/id/abstract-language> <https://github.com/john1hsu/communication-graph/ontology#causedBy> <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> .
   <https://github.com/john1hsu/communication-graph/id/active-voice> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/plain-language> .
+  <https://github.com/john1hsu/communication-graph/id/aristotle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/aristotle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+  <https://github.com/john1hsu/communication-graph/id/aristotle> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> .
+  <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/rhetoric> .
   <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
+  <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> <https://github.com/john1hsu/communication-graph/ontology#introduces> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -368,12 +436,14 @@
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/audience> .
+  <https://github.com/john1hsu/communication-graph/id/audience-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/plain-language> .
   <https://github.com/john1hsu/communication-graph/id/audience-design> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
   <https://github.com/john1hsu/communication-graph/id/audience> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
   <https://github.com/john1hsu/communication-graph/id/audience> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
+  <https://github.com/john1hsu/communication-graph/id/audience> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> .
   <https://github.com/john1hsu/communication-graph/id/beyond-culture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/beyond-culture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
   <https://github.com/john1hsu/communication-graph/id/beyond-culture> <https://github.com/john1hsu/communication-graph/ontology#introduces> <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> .
@@ -385,6 +455,7 @@
   <https://github.com/john1hsu/communication-graph/id/cardon-2008> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> .
   <https://github.com/john1hsu/communication-graph/id/clarity> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/plain-language> .
   <https://github.com/john1hsu/communication-graph/id/clarity> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/plain-language> .
+  <https://github.com/john1hsu/communication-graph/id/clarity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> .
   <https://github.com/john1hsu/communication-graph/id/clarity> <https://github.com/john1hsu/communication-graph/ontology#underminedBy> <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> .
   <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -419,7 +490,14 @@
   <https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/clarity> .
   <https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> .
+  <https://github.com/john1hsu/communication-graph/id/plato> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> .
   <https://github.com/john1hsu/communication-graph/id/readability-formulas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/plain-language> .
+  <https://github.com/john1hsu/communication-graph/id/rhetoric> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+  <https://github.com/john1hsu/communication-graph/id/rhetoric> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/rhetoric> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Field> .
+  <https://github.com/john1hsu/communication-graph/id/rhetoric> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> .
+  <https://github.com/john1hsu/communication-graph/id/rhetoric> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> .
+  <https://github.com/john1hsu/communication-graph/id/rhetorical-appeals> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> .
   <https://github.com/john1hsu/communication-graph/id/ryskin-brown-schmidt-2014> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> .
   <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
   <https://github.com/john1hsu/communication-graph/id/tappers-and-listeners-study> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> .

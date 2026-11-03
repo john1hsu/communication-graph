@@ -4,30 +4,33 @@ Nodes that existing articles point to but nobody has written yet. Score = referr
 
 | Node | Score | Expected type | Referenced by |
 |---|---|---|---|
-| `cm:bottom-line-up-front` | 3.23 | - | `cm:audience-analysis`, `cm:plain-language` |
-| `cm:clarity` | 3.21 | - | `cm:curse-of-knowledge`, `cm:plain-language` |
-| `cm:aristotles-rhetoric` | 1.88 | - | `cm:audience-analysis` |
-| `cm:stakeholder-mapping` | 1.88 | - | `cm:audience-analysis` |
-| `cm:active-voice` | 1.86 | - | `cm:plain-language` |
-| `cm:illusion-of-transparency` | 1.86 | - | `cm:curse-of-knowledge` |
-| `cm:readability-formulas` | 1.86 | - | `cm:plain-language` |
-| `cm:tappers-and-listeners-study` | 1.86 | - | `cm:curse-of-knowledge` |
-| `cm:direct-vs-indirect-feedback` | 1.78 | - | `cm:high-and-low-context-cultures` |
-| `cm:edward-t-hall` | 1.78 | Person | `cm:high-and-low-context-cultures` |
-| `cm:hofstede-cultural-dimensions` | 1.78 | - | `cm:high-and-low-context-cultures` |
-| `cm:audience` | 1.38 | - | `cm:audience-analysis` |
-| `cm:audience-design` | 1.38 | - | `cm:audience-analysis` |
-| `cm:email` | 1.38 | - | `cm:audience-analysis` |
-| `cm:abstract-language` | 1.36 | - | `cm:curse-of-knowledge` |
-| `cm:camerer-loewenstein-weber-1989` | 1.36 | Study | `cm:curse-of-knowledge` |
-| `cm:egocentric-bias` | 1.36 | - | `cm:curse-of-knowledge` |
-| `cm:jargon` | 1.36 | - | `cm:plain-language` |
-| `cm:paraphrase-testing` | 1.36 | - | `cm:plain-language` |
-| `cm:plain-language-summary` | 1.36 | - | `cm:plain-language` |
-| `cm:ryskin-brown-schmidt-2014` | 1.36 | - | `cm:curse-of-knowledge` |
-| `cm:theory-of-mind` | 1.36 | - | `cm:curse-of-knowledge` |
-| `cm:writing-for-dollars-writing-to-please` | 1.36 | - | `cm:plain-language` |
-| `cm:beyond-culture` | 1.28 | Work | `cm:high-and-low-context-cultures` |
-| `cm:cardon-2008` | 1.28 | - | `cm:high-and-low-context-cultures` |
-| `cm:intercultural-communication` | 1.28 | - | `cm:high-and-low-context-cultures` |
-| `cm:kittler-rygl-mackinnon-2011` | 1.28 | - | `cm:high-and-low-context-cultures` |
+| `cm:clarity` | 4.42 | - | `cm:aristotles-rhetoric`, `cm:curse-of-knowledge`, `cm:plain-language` |
+| `cm:bottom-line-up-front` | 3.18 | - | `cm:audience-analysis`, `cm:plain-language` |
+| `cm:audience` | 2.65 | - | `cm:aristotles-rhetoric`, `cm:audience-analysis` |
+| `cm:rhetoric` | 2.57 | Field | `cm:aristotles-rhetoric` |
+| `cm:stakeholder-mapping` | 1.86 | - | `cm:audience-analysis` |
+| `cm:active-voice` | 1.81 | - | `cm:plain-language` |
+| `cm:illusion-of-transparency` | 1.81 | - | `cm:curse-of-knowledge` |
+| `cm:readability-formulas` | 1.81 | - | `cm:plain-language` |
+| `cm:tappers-and-listeners-study` | 1.81 | - | `cm:curse-of-knowledge` |
+| `cm:rhetorical-appeals` | 1.79 | - | `cm:aristotles-rhetoric` |
+| `cm:direct-vs-indirect-feedback` | 1.75 | - | `cm:high-and-low-context-cultures` |
+| `cm:edward-t-hall` | 1.75 | Person | `cm:high-and-low-context-cultures` |
+| `cm:hofstede-cultural-dimensions` | 1.75 | - | `cm:high-and-low-context-cultures` |
+| `cm:audience-design` | 1.36 | - | `cm:audience-analysis` |
+| `cm:email` | 1.36 | - | `cm:audience-analysis` |
+| `cm:abstract-language` | 1.31 | - | `cm:curse-of-knowledge` |
+| `cm:camerer-loewenstein-weber-1989` | 1.31 | Study | `cm:curse-of-knowledge` |
+| `cm:egocentric-bias` | 1.31 | - | `cm:curse-of-knowledge` |
+| `cm:jargon` | 1.31 | - | `cm:plain-language` |
+| `cm:paraphrase-testing` | 1.31 | - | `cm:plain-language` |
+| `cm:plain-language-summary` | 1.31 | - | `cm:plain-language` |
+| `cm:ryskin-brown-schmidt-2014` | 1.31 | - | `cm:curse-of-knowledge` |
+| `cm:theory-of-mind` | 1.31 | - | `cm:curse-of-knowledge` |
+| `cm:writing-for-dollars-writing-to-please` | 1.31 | - | `cm:plain-language` |
+| `cm:aristotle` | 1.29 | Person | `cm:aristotles-rhetoric` |
+| `cm:plato` | 1.29 | - | `cm:aristotles-rhetoric` |
+| `cm:beyond-culture` | 1.25 | Work | `cm:high-and-low-context-cultures` |
+| `cm:cardon-2008` | 1.25 | - | `cm:high-and-low-context-cultures` |
+| `cm:intercultural-communication` | 1.25 | - | `cm:high-and-low-context-cultures` |
+| `cm:kittler-rygl-mackinnon-2011` | 1.25 | - | `cm:high-and-low-context-cultures` |

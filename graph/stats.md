@@ -1,13 +1,13 @@
 # Graph statistics
 
-- Articles (nodes written): **4**
-- Frontier nodes (referenced, unwritten): **27**
-- Asserted edges: **39** (typed + evidenced: **18**)
-- Asserted triples: **341**; inferred by OWL-RL: **68**
-- Citations: **22**
+- Articles (nodes written): **5**
+- Frontier nodes (referenced, unwritten): **30**
+- Asserted edges: **48** (typed + evidenced: **22**)
+- Asserted triples: **393**; inferred by OWL-RL: **84**
+- Citations: **26**
 - Self-check questions: **10**; procedures: **1**; before/after rewrites: **1**
 - Weakly connected components: **1**
-- Communities (Louvain): **4**; max k-core: **2**
+- Communities (Louvain): **5**; max k-core: **2**
 
 ## Most central nodes
 
@@ -15,28 +15,29 @@ PageRank = authority; betweenness = bridges between areas.
 
 | Node | PageRank | Betweenness | Written |
 |---|---|---|---|
-| `cm:audience-analysis` | 0.0376 | 0.6322 | yes |
-| `cm:bottom-line-up-front` | 0.0355 | 0.0000 | no |
-| `cm:curse-of-knowledge` | 0.0355 | 0.4345 | yes |
-| `cm:plain-language` | 0.0355 | 0.3931 | yes |
-| `cm:clarity` | 0.0345 | 0.0000 | no |
-| `cm:aristotles-rhetoric` | 0.0325 | 0.0000 | no |
-| `cm:audience` | 0.0325 | 0.0000 | no |
-| `cm:audience-design` | 0.0325 | 0.0000 | no |
-| `cm:email` | 0.0325 | 0.0000 | no |
-| `cm:stakeholder-mapping` | 0.0325 | 0.0000 | no |
-| `cm:beyond-culture` | 0.0315 | 0.0000 | no |
-| `cm:cardon-2008` | 0.0315 | 0.0000 | no |
-| `cm:direct-vs-indirect-feedback` | 0.0315 | 0.0000 | no |
-| `cm:edward-t-hall` | 0.0315 | 0.0000 | no |
-| `cm:hofstede-cultural-dimensions` | 0.0315 | 0.0000 | no |
+| `cm:audience-analysis` | 0.0363 | 0.6105 | yes |
+| `cm:clarity` | 0.0337 | 0.0668 | no |
+| `cm:audience` | 0.0322 | 0.0000 | no |
+| `cm:bottom-line-up-front` | 0.0314 | 0.0000 | no |
+| `cm:curse-of-knowledge` | 0.0314 | 0.3815 | yes |
+| `cm:plain-language` | 0.0314 | 0.3422 | yes |
+| `cm:aristotles-rhetoric` | 0.0287 | 0.2335 | yes |
+| `cm:audience-design` | 0.0287 | 0.0000 | no |
+| `cm:email` | 0.0287 | 0.0000 | no |
+| `cm:stakeholder-mapping` | 0.0287 | 0.0000 | no |
+| `cm:aristotle` | 0.0284 | 0.0000 | no |
+| `cm:plato` | 0.0284 | 0.0000 | no |
+| `cm:rhetoric` | 0.0284 | 0.0000 | no |
+| `cm:rhetorical-appeals` | 0.0284 | 0.0000 | no |
+| `cm:abstract-language` | 0.0275 | 0.0000 | no |
 
 ## Communities
 
 1. `cm:abstract-language`, `cm:camerer-loewenstein-weber-1989`, `cm:curse-of-knowledge`, `cm:egocentric-bias`, `cm:illusion-of-transparency`, `cm:ryskin-brown-schmidt-2014`, `cm:tappers-and-listeners-study`, `cm:theory-of-mind`
-2. `cm:active-voice`, `cm:clarity`, `cm:jargon`, `cm:paraphrase-testing`, `cm:plain-language`, `cm:plain-language-summary`, `cm:readability-formulas`, `cm:writing-for-dollars-writing-to-please`
-3. `cm:beyond-culture`, `cm:cardon-2008`, `cm:direct-vs-indirect-feedback`, `cm:edward-t-hall`, `cm:high-and-low-context-cultures`, `cm:hofstede-cultural-dimensions`, `cm:intercultural-communication`, `cm:kittler-rygl-mackinnon-2011`
-4. `cm:aristotles-rhetoric`, `cm:audience`, `cm:audience-analysis`, `cm:audience-design`, `cm:bottom-line-up-front`, `cm:email`, `cm:stakeholder-mapping`
+2. `cm:beyond-culture`, `cm:cardon-2008`, `cm:direct-vs-indirect-feedback`, `cm:edward-t-hall`, `cm:high-and-low-context-cultures`, `cm:hofstede-cultural-dimensions`, `cm:intercultural-communication`, `cm:kittler-rygl-mackinnon-2011`
+3. `cm:active-voice`, `cm:jargon`, `cm:paraphrase-testing`, `cm:plain-language`, `cm:plain-language-summary`, `cm:readability-formulas`, `cm:writing-for-dollars-writing-to-please`
+4. `cm:aristotle`, `cm:aristotles-rhetoric`, `cm:clarity`, `cm:plato`, `cm:rhetoric`, `cm:rhetorical-appeals`
+5. `cm:audience`, `cm:audience-analysis`, `cm:audience-design`, `cm:bottom-line-up-front`, `cm:email`, `cm:stakeholder-mapping`
 
 ## By type
 
@@ -44,21 +45,24 @@ PageRank = authority; betweenness = bridges between areas.
 - Phenomenon: 1
 - Principle: 1
 - Technique: 1
+- Work: 1
 
 ## By domain
 
 - barriers-and-psychology: 1
 - cross-cultural-communication: 1
 - foundations: 1
+- thinkers-and-works: 1
 - writing: 1
 
 ## By level
 
-- introductory: 4
+- introductory: 5
 
 ## By evidence status
 
 - contested: 1
+- historical: 1
 - mixed: 2
 - practitioner: 1
 
@@ -75,8 +79,8 @@ PageRank = authority; betweenness = bridges between areas.
 - persuasion-and-influence: 0
 - presenting-and-public-speaking: 0
 - questioning-and-conversation: 0
-- thinkers-and-works: 0
 - barriers-and-psychology: 1
 - cross-cultural-communication: 1
 - foundations: 1
+- thinkers-and-works: 1
 - writing: 1

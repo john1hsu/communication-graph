@@ -1,5 +1,71 @@
 [
  {
+  "id": "cm:aristotles-rhetoric",
+  "title": "Aristotle's Rhetoric",
+  "aliases": [
+   "Rhetoric (Aristotle)",
+   "Ars Rhetorica",
+   "Techne Rhetorike",
+   "On Rhetoric"
+  ],
+  "type": "Work",
+  "domain": "thinkers-and-works",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/thinkers-and-works/aristotles-rhetoric.md",
+  "created": "2026-11-03",
+  "summary": "Aristotle's fourth-century BCE treatise defining rhetoric as the ability to see the available means of persuasion in a given case; it introduced the three proofs of character, emotion and argument, and the first systematic analysis of how an audience shapes a speech.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:rhetoric"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:audience-analysis"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:rhetorical-appeals"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:audience"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:clarity"
+   },
+   {
+    "predicate": "cmo:authoredBy",
+    "object": "cm:aristotle",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:studiedIn",
+    "object": "cm:rhetoric",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:influencedBy",
+    "object": "cm:plato",
+    "source": "s1",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://plato.stanford.edu/ENTRIES/aristotle-rhetoric/",
+   "https://classics.mit.edu/Aristotle/rhetoric.mb.txt",
+   "https://socialsci.libretexts.org/Bookshelves/Communication/Introduction_to_Communication/Effective_Professional_Communication:_A_Rhetorical_Approach/02:_Rhetorical_Theory/02.01:_Chapter_5:_Aristotle_and_the_Modes_of_Appeal",
+   "https://procomm.ieee.org/back-to-basics-what-can-aristotle-teach-us-about-modern-communication/"
+  ]
+ },
+ {
   "id": "cm:audience-analysis",
   "title": "Audience analysis",
   "aliases": [
@@ -55,6 +121,12 @@
    },
    {
     "predicate": "cmo:influencedBy",
+    "object": "cm:aristotles-rhetoric",
+    "source": "s6",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:introducedIn",
     "object": "cm:aristotles-rhetoric",
     "source": "s6",
     "confidence": "medium"

@@ -14,6 +14,70 @@
  },
  "@graph": [
   {
+   "@id": "cm:aristotles-rhetoric",
+   "@type": "cmo:Work",
+   "cmo:authoredBy": {
+    "@id": "cm:aristotle"
+   },
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "historical",
+   "cmo:file": "articles/thinkers-and-works/aristotles-rhetoric.md",
+   "cmo:influencedBy": {
+    "@id": "cm:plato"
+   },
+   "cmo:level": "introductory",
+   "cmo:studiedIn": {
+    "@id": "cm:rhetoric"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/aristotles-rhetoric/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/aristotles-rhetoric/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/aristotles-rhetoric/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/aristotles-rhetoric/s4"
+    }
+   ],
+   "rdfs:label": "Aristotle's Rhetoric",
+   "skos:altLabel": [
+    "Ars Rhetorica",
+    "On Rhetoric",
+    "Rhetoric (Aristotle)",
+    "Techne Rhetorike"
+   ],
+   "skos:broader": {
+    "@id": "cm:rhetoric"
+   },
+   "skos:definition": "Aristotle's fourth-century BCE treatise defining rhetoric as the ability to see the available means of persuasion in a given case; it introduced the three proofs of character, emotion and argument, and the first systematic analysis of how an audience shapes a speech.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "Aristotle's Rhetoric",
+   "skos:related": [
+    {
+     "@id": "cm:audience"
+    },
+    {
+     "@id": "cm:audience-analysis"
+    },
+    {
+     "@id": "cm:clarity"
+    },
+    {
+     "@id": "cm:rhetorical-appeals"
+    }
+   ]
+  },
+  {
    "@id": "cm:audience-analysis",
    "@type": "cmo:Technique",
    "cmo:addresses": {
@@ -37,8 +101,15 @@
    "cmo:influencedBy": {
     "@id": "cm:aristotles-rhetoric"
    },
+   "cmo:introducedIn": {
+    "@id": "cm:aristotles-rhetoric"
+   },
    "cmo:level": "introductory",
    "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:modified": {
     "@type": "xsd:date",
     "@value": "2026-11-03"
    },
@@ -543,6 +614,62 @@
    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/writing",
    "@type": "skos:ConceptScheme",
    "skos:prefLabel": "Business and professional writing"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/aristotles-rhetoric/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Christof Rapp, Stanford Encyclopedia of Philosophy (first published 2002; substantive revision 15 March 2022)",
+   "dcterms:title": "Aristotle's Rhetoric",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/ENTRIES/aristotle-rhetoric/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/aristotles-rhetoric/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Aristotle, The Internet Classics Archive (MIT)",
+   "dcterms:title": "Rhetoric (Book I), translated by W. Rhys Roberts",
+   "schema:url": {
+    "@id": "https://classics.mit.edu/Aristotle/rhetoric.mb.txt"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/aristotles-rhetoric/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Bennetch, Owen & Keesey, Effective Professional Communication - A Rhetorical Approach (University of Saskatchewan; LibreTexts, CC BY-NC-SA 4.0)",
+   "dcterms:title": "Chapter 5: Aristotle and the Modes of Appeal",
+   "schema:url": {
+    "@id": "https://socialsci.libretexts.org/Bookshelves/Communication/Introduction_to_Communication/Effective_Professional_Communication:_A_Rhetorical_Approach/02:_Rhetorical_Theory/02.01:_Chapter_5:_Aristotle_and_the_Modes_of_Appeal"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/aristotles-rhetoric/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "IEEE Professional Communication Society (ProComm), 11 November 2022",
+   "dcterms:title": "Back to Basics: What Can Aristotle Teach Us About Modern Communication?",
+   "schema:url": {
+    "@id": "https://procomm.ieee.org/back-to-basics-what-can-aristotle-teach-us-about-modern-communication/"
+   }
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/source/audience-analysis/s1",
