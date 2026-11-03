@@ -44,8 +44,8 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 
 | node | status | challenger |
 |---|---|---|
-| `cm:high-and-low-context-cultures` | contested | `cm:kittler-rygl-mackinnon-2011` |
 | `cm:high-and-low-context-cultures` | contested | `cm:cardon-2008` |
+| `cm:high-and-low-context-cultures` | contested | `cm:kittler-rygl-mackinnon-2011` |
 | `cm:curse-of-knowledge` | mixed | `cm:ryskin-brown-schmidt-2014` |
 | `cm:plain-language` | mixed |  |
 

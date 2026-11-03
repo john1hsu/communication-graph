@@ -5,4 +5,4 @@ SELECT ?node ?status ?challenger WHERE {
   ?node cmo:evidenceStatus ?status .
   FILTER(?status IN ("contested", "failed-replication", "mixed"))
   OPTIONAL { ?node cmo:challengedBy ?challenger }
-} ORDER BY ?status ?node
+} ORDER BY ?status ?node ?challenger
