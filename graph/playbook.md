@@ -38,6 +38,28 @@ Ask yourself:
 
 ## writing
 
+### [Bottom line up front](../articles/writing/bottom-line-up-front.md) — Technique
+
+1. Before drafting, write one sentence that states your conclusion, recommendation or request, including any decision and deadline you need.
+2. Make that sentence (after a short purpose statement if the format calls for one) the opening of the message, and echo it in the subject line or title.
+3. Add only the background the reader needs to act on it, most important first, and move history and method to the end or an attachment.
+4. Put any secondary requests or audiences in clearly labelled sections below the main point.
+5. Reread only the first two lines and ask whether a busy reader could act on them alone; if not, rewrite them.
+6. Decide deliberately whether this message is an exception - serious bad news or a reader who expects context first - and if so use an indirect structure on purpose rather than by habit.
+
+*A project analyst emails her director about a vendor problem that needs a decision.*
+
+| Before | After |
+|---|---|
+| Hi Sam, I wanted to give you some background on the reporting vendor. Over the last two months we have seen several late deliveries, and after a call with their account team on Tuesday it looks like their new platform will not support our quarterly export. I have looked at a few options... | Subject: Decision needed by Thursday - switch reporting vendor for Q1. Sam, I recommend we move the Q1 reports to our backup vendor; it adds about two weeks of setup but keeps the March board deadline. Please approve or decline by Thursday. Background: our current vendor's new platform cannot produce the quarterly export (confirmed on Tuesday's call), and deliveries have been late twice since September. |
+
+**Why:** The recommendation, the decision asked for and the deadline appear in the subject line and first two sentences, so the director can act without reading the history, which is still there for anyone who wants it.
+
+Ask yourself:
+- If my reader read only the subject line and first two sentences, would they know what I need from them and by when?
+- Have I stated my conclusion or recommendation, or only described the situation and left the reader to infer it?
+- Is this message an exception - serious bad news, or a reader who expects context first - and have I chosen the structure on purpose?
+
 ### [Plain language](../articles/writing/plain-language.md) — Principle
 
 Ask yourself:

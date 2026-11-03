@@ -32,6 +32,15 @@
 <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/aristotles-rhetoric/s2> .
 <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/aristotles-rhetoric/s3> .
 <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/aristotles-rhetoric/s4> .
+<https://github.com/john1hsu/communication-graph/id/bottom-line-up-front#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/bottom-line-up-front#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
+<https://github.com/john1hsu/communication-graph/id/bottom-line-up-front#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/writing/bottom-line-up-front.md" .
+<https://github.com/john1hsu/communication-graph/id/bottom-line-up-front#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/bottom-line-up-front/s1> .
+<https://github.com/john1hsu/communication-graph/id/bottom-line-up-front#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/bottom-line-up-front/s2> .
+<https://github.com/john1hsu/communication-graph/id/bottom-line-up-front#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/bottom-line-up-front/s3> .
+<https://github.com/john1hsu/communication-graph/id/bottom-line-up-front#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/bottom-line-up-front/s4> .
+<https://github.com/john1hsu/communication-graph/id/bottom-line-up-front#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/bottom-line-up-front/s5> .
+<https://github.com/john1hsu/communication-graph/id/bottom-line-up-front#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/bottom-line-up-front/s6> .
 <https://github.com/john1hsu/communication-graph/id/plain-language#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/plain-language#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/plain-language> .
 <https://github.com/john1hsu/communication-graph/id/plain-language#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/writing/plain-language.md" .
@@ -340,6 +349,119 @@
   <https://github.com/john1hsu/communication-graph/id/source/aristotles-rhetoric/s4> <https://schema.org/url> <https://procomm.ieee.org/back-to-basics-what-can-aristotle-teach-us-about-modern-communication/> .
 }
 
+<https://github.com/john1hsu/communication-graph/id/bottom-line-up-front#graph> {
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "If my reader read only the subject line and first two sentences, would they know what I need from them and by when?" .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Have I stated my conclusion or recommendation, or only described the situation and left the reader to infer it?" .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Is this message an exception - serious bad news, or a reader who expects context first - and have I chosen the structure on purpose?" .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/example> <https://github.com/john1hsu/communication-graph/ontology#after> "Subject: Decision needed by Thursday - switch reporting vendor for Q1. Sam, I recommend we move the Q1 reports to our backup vendor; it adds about two weeks of setup but keeps the March board deadline. Please approve or decline by Thursday. Background: our current vendor's new platform cannot produce the quarterly export (confirmed on Tuesday's call), and deliveries have been late twice since September." .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/example> <https://github.com/john1hsu/communication-graph/ontology#before> "Hi Sam, I wanted to give you some background on the reporting vendor. Over the last two months we have seen several late deliveries, and after a call with their account team on Tuesday it looks like their new platform will not support our quarterly export. I have looked at a few options..." .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "A project analyst emails her director about a vendor problem that needs a decision." .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/example> <https://github.com/john1hsu/communication-graph/ontology#why> "The recommendation, the decision asked for and the deadline appear in the subject line and first two sentences, so the director can act without reading the history, which is still there for anyone who wants it." .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/howto/1> <https://schema.org/text> "Before drafting, write one sentence that states your conclusion, recommendation or request, including any decision and deadline you need." .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/howto/2> <https://schema.org/text> "Make that sentence (after a short purpose statement if the format calls for one) the opening of the message, and echo it in the subject line or title." .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/howto/3> <https://schema.org/text> "Add only the background the reader needs to act on it, most important first, and move history and method to the end or an attachment." .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/howto/4> <https://schema.org/text> "Put any secondary requests or audiences in clearly labelled sections below the main point." .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/howto/5> <https://schema.org/text> "Reread only the first two lines and ask whether a busy reader could act on them alone; if not, rewrite them." .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/howto/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/howto/6> <https://schema.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/howto/6> <https://schema.org/text> "Decide deliberately whether this message is an exception - serious bad news or a reader who expects context first - and if so use an indirect structure on purpose rather than by habit." .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/howto> <https://schema.org/name> "Bottom line up front" .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/howto/1> .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/howto/2> .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/howto/3> .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/howto/4> .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/howto/5> .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/howto/6> .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <http://purl.org/dc/terms/created> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Technique> .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <http://www.w3.org/2000/01/rdf-schema#label> "Bottom line up front" .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <http://www.w3.org/2004/02/skos/core#altLabel> "BLUF" .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <http://www.w3.org/2004/02/skos/core#altLabel> "answer first" .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <http://www.w3.org/2004/02/skos/core#altLabel> "main point first" .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/message-structure> .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/plain-language> .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <http://www.w3.org/2004/02/skos/core#definition> "Opening a message with its conclusion, recommendation or request - the one thing the reader must know or do - and only then giving the background and supporting detail." .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/writing> .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bottom line up front" .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/executive-summary> .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/pyramid-principle> .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/bottom-line-up-front/s1> .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/bottom-line-up-front/s2> .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/bottom-line-up-front/s3> .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/bottom-line-up-front/s4> .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/bottom-line-up-front/s5> .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/bottom-line-up-front/s6> .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/burying-the-lede> .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/email> .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/memorandum> .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/active-voice> .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/indirect-approach> .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <https://github.com/john1hsu/communication-graph/ontology#domain> "writing" .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "practitioner" .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/example> .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/writing/bottom-line-up-front.md" .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/howto> .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/kieras-1979-initial-mention> .
+  <https://github.com/john1hsu/communication-graph/id/source/bottom-line-up-front/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/bottom-line-up-front/s1> <http://purl.org/dc/terms/publisher> "Headquarters, Department of the Army, 10 October 2020 (copy hosted by Maine Bureau of Veterans' Services)" .
+  <https://github.com/john1hsu/communication-graph/id/source/bottom-line-up-front/s1> <http://purl.org/dc/terms/title> "Army Regulation 25-50: Preparing and Managing Correspondence" .
+  <https://github.com/john1hsu/communication-graph/id/source/bottom-line-up-front/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/bottom-line-up-front/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
+  <https://github.com/john1hsu/communication-graph/id/source/bottom-line-up-front/s1> <https://schema.org/url> <https://www.maine.gov/dvem/policies/documents/AR%2025-50%20(10%20October%202020).pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/bottom-line-up-front/s2> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/bottom-line-up-front/s2> <http://purl.org/dc/terms/publisher> "Digital.gov Plain Language Guide Series (U.S. General Services Administration)" .
+  <https://github.com/john1hsu/communication-graph/id/source/bottom-line-up-front/s2> <http://purl.org/dc/terms/title> "Organize the information" .
+  <https://github.com/john1hsu/communication-graph/id/source/bottom-line-up-front/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/bottom-line-up-front/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
+  <https://github.com/john1hsu/communication-graph/id/source/bottom-line-up-front/s2> <https://schema.org/url> <https://digital.gov/guides/plain-language/principles/organize> .
+  <https://github.com/john1hsu/communication-graph/id/source/bottom-line-up-front/s3> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/bottom-line-up-front/s3> <http://purl.org/dc/terms/publisher> "Open Government at the National Archives (U.S. National Archives and Records Administration)" .
+  <https://github.com/john1hsu/communication-graph/id/source/bottom-line-up-front/s3> <http://purl.org/dc/terms/title> "Plain Writing Tips - First Things First" .
+  <https://github.com/john1hsu/communication-graph/id/source/bottom-line-up-front/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/bottom-line-up-front/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
+  <https://github.com/john1hsu/communication-graph/id/source/bottom-line-up-front/s3> <https://schema.org/url> <https://www.archives.gov/open/plain-writing/tips/first-things.html> .
+  <https://github.com/john1hsu/communication-graph/id/source/bottom-line-up-front/s4> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/bottom-line-up-front/s4> <http://purl.org/dc/terms/publisher> "David E. Kieras, University of Arizona, Technical Report No. 3 for the Office of Naval Research, 1979 (DTIC ADA073773)" .
+  <https://github.com/john1hsu/communication-graph/id/source/bottom-line-up-front/s4> <http://purl.org/dc/terms/title> "Initial Mention as a Cue to the Main Idea and the Main Item of a Technical Passage" .
+  <https://github.com/john1hsu/communication-graph/id/source/bottom-line-up-front/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/bottom-line-up-front/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/communication-graph/id/source/bottom-line-up-front/s4> <https://schema.org/url> <https://apps.dtic.mil/sti/pdfs/ADA073773.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/bottom-line-up-front/s5> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/bottom-line-up-front/s5> <http://purl.org/dc/terms/publisher> "MIT Communication Lab, Department of Aeronautics and Astronautics (Massachusetts Institute of Technology)" .
+  <https://github.com/john1hsu/communication-graph/id/source/bottom-line-up-front/s5> <http://purl.org/dc/terms/title> "How to Write Effective Emails" .
+  <https://github.com/john1hsu/communication-graph/id/source/bottom-line-up-front/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/bottom-line-up-front/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/communication-graph/id/source/bottom-line-up-front/s5> <https://schema.org/url> <https://mitcommlab.mit.edu/aeroastro/2025/03/17/how-to-write-effective-emails/> .
+  <https://github.com/john1hsu/communication-graph/id/source/bottom-line-up-front/s6> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/bottom-line-up-front/s6> <http://purl.org/dc/terms/publisher> "Williams & Sonja, Business Communication (Atlantic OER Pressbooks)" .
+  <https://github.com/john1hsu/communication-graph/id/source/bottom-line-up-front/s6> <http://purl.org/dc/terms/title> "4.6 Direct and Indirect Negative Messaging" .
+  <https://github.com/john1hsu/communication-graph/id/source/bottom-line-up-front/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/bottom-line-up-front/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "textbook" .
+  <https://github.com/john1hsu/communication-graph/id/source/bottom-line-up-front/s6> <https://schema.org/url> <https://pressbooks.atlanticoer-relatlantique.ca/businesscommunication/chapter/4-direct-and-indirect-negative-messaging/> .
+}
+
 <https://github.com/john1hsu/communication-graph/id/plain-language#graph> {
   <https://github.com/john1hsu/communication-graph/id/plain-language/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
   <https://github.com/john1hsu/communication-graph/id/plain-language/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Who exactly is reading this, and what do they already know about the subject?" .
@@ -421,6 +543,7 @@
 <https://github.com/john1hsu/communication-graph/id/inferred> {
   <https://github.com/john1hsu/communication-graph/id/abstract-language> <https://github.com/john1hsu/communication-graph/ontology#causedBy> <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> .
   <https://github.com/john1hsu/communication-graph/id/active-voice> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/plain-language> .
+  <https://github.com/john1hsu/communication-graph/id/active-voice> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
   <https://github.com/john1hsu/communication-graph/id/aristotle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/aristotle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/aristotle> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> .
@@ -439,6 +562,7 @@
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> .
+  <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/plain-language> .
   <https://github.com/john1hsu/communication-graph/id/audience-design> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
   <https://github.com/john1hsu/communication-graph/id/audience> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
@@ -447,13 +571,23 @@
   <https://github.com/john1hsu/communication-graph/id/beyond-culture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/beyond-culture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
   <https://github.com/john1hsu/communication-graph/id/beyond-culture> <https://github.com/john1hsu/communication-graph/ontology#introduces> <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> .
-  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/clarity> .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/message-structure> .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/plain-language> .
   <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/plain-language> .
+  <https://github.com/john1hsu/communication-graph/id/burying-the-lede> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
   <https://github.com/john1hsu/communication-graph/id/camerer-loewenstein-weber-1989> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/camerer-loewenstein-weber-1989> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/camerer-loewenstein-weber-1989> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> .
   <https://github.com/john1hsu/communication-graph/id/cardon-2008> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> .
   <https://github.com/john1hsu/communication-graph/id/clarity> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/plain-language> .
+  <https://github.com/john1hsu/communication-graph/id/clarity> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
   <https://github.com/john1hsu/communication-graph/id/clarity> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/plain-language> .
   <https://github.com/john1hsu/communication-graph/id/clarity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> .
   <https://github.com/john1hsu/communication-graph/id/clarity> <https://github.com/john1hsu/communication-graph/ontology#underminedBy> <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> .
@@ -472,15 +606,23 @@
   <https://github.com/john1hsu/communication-graph/id/egocentric-bias> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> .
   <https://github.com/john1hsu/communication-graph/id/egocentric-bias> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> .
   <https://github.com/john1hsu/communication-graph/id/email> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
+  <https://github.com/john1hsu/communication-graph/id/email> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
+  <https://github.com/john1hsu/communication-graph/id/executive-summary> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
   <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/intercultural-communication> .
+  <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
   <https://github.com/john1hsu/communication-graph/id/hofstede-cultural-dimensions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> .
   <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> .
+  <https://github.com/john1hsu/communication-graph/id/indirect-approach> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> .
   <https://github.com/john1hsu/communication-graph/id/jargon> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/plain-language> .
+  <https://github.com/john1hsu/communication-graph/id/kieras-1979-initial-mention> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
   <https://github.com/john1hsu/communication-graph/id/kittler-rygl-mackinnon-2011> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> .
+  <https://github.com/john1hsu/communication-graph/id/memorandum> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
+  <https://github.com/john1hsu/communication-graph/id/message-structure> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
+  <https://github.com/john1hsu/communication-graph/id/message-structure> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
   <https://github.com/john1hsu/communication-graph/id/paraphrase-testing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/plain-language> .
   <https://github.com/john1hsu/communication-graph/id/plain-language-summary> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/plain-language> .
   <https://github.com/john1hsu/communication-graph/id/plain-language/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -489,8 +631,11 @@
   <https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/clarity> .
+  <https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
+  <https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
   <https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> .
   <https://github.com/john1hsu/communication-graph/id/plato> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> .
+  <https://github.com/john1hsu/communication-graph/id/pyramid-principle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
   <https://github.com/john1hsu/communication-graph/id/readability-formulas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/plain-language> .
   <https://github.com/john1hsu/communication-graph/id/rhetoric> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/rhetoric> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .

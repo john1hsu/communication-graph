@@ -28,6 +28,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 |---|---|---|
 | `cm:plain-language` | 2 | Curse of knowledge, jargon |
 | `cm:audience-analysis` | 1 | Curse of knowledge |
+| `cm:bottom-line-up-front` | 1 | burying-the-lede |
 
 ## Toolkit by situation
 
@@ -36,6 +37,8 @@ _For each situation, channel or format, which techniques apply or give it struct
 | situation | technique |
 |---|---|
 | `cm:email` | `cm:audience-analysis` |
+| `cm:email` | `cm:bottom-line-up-front` |
+| `cm:memorandum` | `cm:bottom-line-up-front` |
 | `cm:plain-language-summary` | `cm:plain-language` |
 
 ## Myths and contested advice
@@ -55,6 +58,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 
 | node | type |
 |---|---|
+| `cm:bottom-line-up-front` | cmo:Technique |
 | `cm:curse-of-knowledge` | cmo:Barrier |
 | `cm:plain-language` | cmo:Principle |
 

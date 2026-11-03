@@ -163,6 +163,100 @@
    ]
   },
   {
+   "@id": "cm:bottom-line-up-front",
+   "@type": "cmo:Technique",
+   "cmo:addresses": {
+    "@id": "cm:burying-the-lede"
+   },
+   "cmo:appliedIn": [
+    {
+     "@id": "cm:email"
+    },
+    {
+     "@id": "cm:memorandum"
+    }
+   ],
+   "cmo:complements": {
+    "@id": "cm:active-voice"
+   },
+   "cmo:contrastsWith": {
+    "@id": "cm:indirect-approach"
+   },
+   "cmo:domain": "writing",
+   "cmo:evidenceStatus": "practitioner",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/example"
+   },
+   "cmo:file": "articles/writing/bottom-line-up-front.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/howto"
+   },
+   "cmo:level": "introductory",
+   "cmo:requires": {
+    "@id": "cm:audience-analysis"
+   },
+   "cmo:supportedBy": {
+    "@id": "cm:kieras-1979-initial-mention"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/bottom-line-up-front/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/bottom-line-up-front/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/bottom-line-up-front/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/bottom-line-up-front/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/bottom-line-up-front/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/bottom-line-up-front/s6"
+    }
+   ],
+   "rdfs:label": "Bottom line up front",
+   "skos:altLabel": [
+    "BLUF",
+    "answer first",
+    "main point first"
+   ],
+   "skos:broader": [
+    {
+     "@id": "cm:message-structure"
+    },
+    {
+     "@id": "cm:plain-language"
+    }
+   ],
+   "skos:definition": "Opening a message with its conclusion, recommendation or request - the one thing the reader must know or do - and only then giving the background and supporting detail.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/writing"
+   },
+   "skos:prefLabel": "Bottom line up front",
+   "skos:related": [
+    {
+     "@id": "cm:audience-analysis"
+    },
+    {
+     "@id": "cm:executive-summary"
+    },
+    {
+     "@id": "cm:high-and-low-context-cultures"
+    },
+    {
+     "@id": "cm:pyramid-principle"
+    }
+   ]
+  },
+  {
    "@id": "cm:curse-of-knowledge",
    "@type": "cmo:Barrier",
    "cmo:causes": {
@@ -488,6 +582,99 @@
    "schema:text": "Reread the draft as each audience in turn - including someone it might be forwarded to - and fix what would confuse or alienate them."
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:bottom-line-up-front"
+   },
+   "rdfs:label": "If my reader read only the subject line and first two sentences, would they know what I need from them and by when?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:bottom-line-up-front"
+   },
+   "rdfs:label": "Have I stated my conclusion or recommendation, or only described the situation and left the reader to infer it?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:bottom-line-up-front"
+   },
+   "rdfs:label": "Is this message an exception - serious bad news, or a reader who expects context first - and have I chosen the structure on purpose?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "Subject: Decision needed by Thursday - switch reporting vendor for Q1. Sam, I recommend we move the Q1 reports to our backup vendor; it adds about two weeks of setup but keeps the March board deadline. Please approve or decline by Thursday. Background: our current vendor's new platform cannot produce the quarterly export (confirmed on Tuesday's call), and deliveries have been late twice since September.",
+   "cmo:before": "Hi Sam, I wanted to give you some background on the reporting vendor. Over the last two months we have seen several late deliveries, and after a call with their account team on Tuesday it looks like their new platform will not support our quarterly export. I have looked at a few options...",
+   "cmo:situation": "A project analyst emails her director about a vendor problem that needs a decision.",
+   "cmo:why": "The recommendation, the decision asked for and the deadline appear in the subject line and first two sentences, so the director can act without reading the history, which is still there for anyone who wants it."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Bottom line up front",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/howto/6"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Before drafting, write one sentence that states your conclusion, recommendation or request, including any decision and deadline you need."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Make that sentence (after a short purpose statement if the format calls for one) the opening of the message, and echo it in the subject line or title."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Add only the background the reader needs to act on it, most important first, and move history and method to the end or an attachment."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Put any secondary requests or audiences in clearly labelled sections below the main point."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Reread only the first two lines and ask whether a busy reader could act on them alone; if not, rewrite them."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "Decide deliberately whether this message is an exception - serious bad news or a reader who expects context first - and if so use an indirect structure on purpose rather than by habit."
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/curse-of-knowledge/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -753,6 +940,90 @@
    "dcterms:title": "Aristotle's Rhetoric",
    "schema:url": {
     "@id": "https://plato.stanford.edu/archives/spr2026/entries/aristotle-rhetoric/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/bottom-line-up-front/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Headquarters, Department of the Army, 10 October 2020 (copy hosted by Maine Bureau of Veterans' Services)",
+   "dcterms:title": "Army Regulation 25-50: Preparing and Managing Correspondence",
+   "schema:url": {
+    "@id": "https://www.maine.gov/dvem/policies/documents/AR%2025-50%20(10%20October%202020).pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/bottom-line-up-front/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Digital.gov Plain Language Guide Series (U.S. General Services Administration)",
+   "dcterms:title": "Organize the information",
+   "schema:url": {
+    "@id": "https://digital.gov/guides/plain-language/principles/organize"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/bottom-line-up-front/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Open Government at the National Archives (U.S. National Archives and Records Administration)",
+   "dcterms:title": "Plain Writing Tips - First Things First",
+   "schema:url": {
+    "@id": "https://www.archives.gov/open/plain-writing/tips/first-things.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/bottom-line-up-front/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "David E. Kieras, University of Arizona, Technical Report No. 3 for the Office of Naval Research, 1979 (DTIC ADA073773)",
+   "dcterms:title": "Initial Mention as a Cue to the Main Idea and the Main Item of a Technical Passage",
+   "schema:url": {
+    "@id": "https://apps.dtic.mil/sti/pdfs/ADA073773.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/bottom-line-up-front/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "MIT Communication Lab, Department of Aeronautics and Astronautics (Massachusetts Institute of Technology)",
+   "dcterms:title": "How to Write Effective Emails",
+   "schema:url": {
+    "@id": "https://mitcommlab.mit.edu/aeroastro/2025/03/17/how-to-write-effective-emails/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/bottom-line-up-front/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Williams & Sonja, Business Communication (Atlantic OER Pressbooks)",
+   "dcterms:title": "4.6 Direct and Indirect Negative Messaging",
+   "schema:url": {
+    "@id": "https://pressbooks.atlanticoer-relatlantique.ca/businesscommunication/chapter/4-direct-and-indirect-negative-messaging/"
    }
   },
   {
