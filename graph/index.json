@@ -1,1 +1,84 @@
-[]
+[
+ {
+  "id": "cm:curse-of-knowledge",
+  "title": "Curse of knowledge",
+  "aliases": [
+   "curse of expertise",
+   "expert blind spot"
+  ],
+  "type": "Barrier",
+  "domain": "barriers-and-psychology",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/barriers-and-psychology/curse-of-knowledge.md",
+  "created": "2026-11-03",
+  "summary": "The difficulty of imagining what it is like not to know something you know, which leads informed people to overestimate what their audience already understands and to communicate in shorthand, abstractions and skipped steps.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:egocentric-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:illusion-of-transparency"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:audience-analysis"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:plain-language"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:tappers-and-listeners-study"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:camerer-loewenstein-weber-1989",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:theory-of-mind",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:ryskin-brown-schmidt-2014",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:causes",
+    "object": "cm:abstract-language",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:undermines",
+    "object": "cm:clarity",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Which terms, acronyms or steps in this message did I learn on the job rather than expect my reader to know?",
+   "If my reader had only this message and none of my background, what would they do next?",
+   "Have I asked someone outside the work to restate my point in their own words, or am I only judging clarity myself?"
+  ],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://ideas.repec.org/a/ucp/jpolec/v97y1989i5p1232-54.html",
+   "https://www.psychologicalscience.org/journals/psychological-science/j.1467-9280.2007.01909.x/",
+   "https://doaj.org/article/812f7980ce984f679d8029b81f55fc27",
+   "https://experts.arizona.edu/en/publications/the-curse-of-knowledge-when-predicting-others-knowledge/",
+   "https://hbr.org/2006/12/the-curse-of-knowledge",
+   "https://digital.gov/guides/plain-language/test/paraphrase-testing"
+  ]
+ }
+]

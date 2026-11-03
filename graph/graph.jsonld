@@ -14,6 +14,104 @@
  },
  "@graph": [
   {
+   "@id": "cm:curse-of-knowledge",
+   "@type": "cmo:Barrier",
+   "cmo:causes": {
+    "@id": "cm:abstract-language"
+   },
+   "cmo:challengedBy": {
+    "@id": "cm:ryskin-brown-schmidt-2014"
+   },
+   "cmo:demonstratedBy": {
+    "@id": "cm:camerer-loewenstein-weber-1989"
+   },
+   "cmo:domain": "barriers-and-psychology",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:explainedBy": {
+    "@id": "cm:theory-of-mind"
+   },
+   "cmo:file": "articles/barriers-and-psychology/curse-of-knowledge.md",
+   "cmo:level": "introductory",
+   "cmo:undermines": {
+    "@id": "cm:clarity"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s6"
+    }
+   ],
+   "rdfs:label": "Curse of knowledge",
+   "skos:altLabel": [
+    "curse of expertise",
+    "expert blind spot"
+   ],
+   "skos:broader": {
+    "@id": "cm:egocentric-bias"
+   },
+   "skos:definition": "The difficulty of imagining what it is like not to know something you know, which leads informed people to overestimate what their audience already understands and to communicate in shorthand, abstractions and skipped steps.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/barriers-and-psychology"
+   },
+   "skos:prefLabel": "Curse of knowledge",
+   "skos:related": [
+    {
+     "@id": "cm:audience-analysis"
+    },
+    {
+     "@id": "cm:illusion-of-transparency"
+    },
+    {
+     "@id": "cm:plain-language"
+    },
+    {
+     "@id": "cm:tappers-and-listeners-study"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/curse-of-knowledge/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:curse-of-knowledge"
+   },
+   "rdfs:label": "Which terms, acronyms or steps in this message did I learn on the job rather than expect my reader to know?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/curse-of-knowledge/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:curse-of-knowledge"
+   },
+   "rdfs:label": "If my reader had only this message and none of my background, what would they do next?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/curse-of-knowledge/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:curse-of-knowledge"
+   },
+   "rdfs:label": "Have I asked someone outside the work to restate my point in their own words, or am I only judging clarity myself?"
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/barriers-and-psychology",
    "@type": "skos:ConceptScheme",
    "skos:prefLabel": "Barriers and the psychology of communication"
@@ -92,6 +190,90 @@
    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/writing",
    "@type": "skos:ConceptScheme",
    "skos:prefLabel": "Business and professional writing"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Camerer, Loewenstein & Weber, Journal of Political Economy 97(5), 1989 (RePEc/IDEAS record)",
+   "dcterms:title": "The Curse of Knowledge in Economic Settings: An Experimental Analysis",
+   "schema:url": {
+    "@id": "https://ideas.repec.org/a/ucp/jpolec/v97y1989i5p1232-54.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Birch & Bloom, Psychological Science 18(5), 2007 (Association for Psychological Science)",
+   "dcterms:title": "The Curse of Knowledge in Reasoning About False Beliefs",
+   "schema:url": {
+    "@id": "https://www.psychologicalscience.org/journals/psychological-science/j.1467-9280.2007.01909.x/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Ryskin & Brown-Schmidt, PLoS ONE, 2014 (DOAJ record)",
+   "dcterms:title": "Do Adults Show a Curse of Knowledge in False-Belief Reasoning? A Robust Estimate of the True Effect Size",
+   "schema:url": {
+    "@id": "https://doaj.org/article/812f7980ce984f679d8029b81f55fc27"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Tullis & Feder, Memory & Cognition 51(5), 2023 (University of Arizona research portal)",
+   "dcterms:title": "The \"curse of knowledge\" when predicting others' knowledge",
+   "schema:url": {
+    "@id": "https://experts.arizona.edu/en/publications/the-curse-of-knowledge-when-predicting-others-knowledge/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "practitioner-journal",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Chip Heath & Dan Heath, Harvard Business Review, December 2006",
+   "dcterms:title": "The Curse of Knowledge",
+   "schema:url": {
+    "@id": "https://hbr.org/2006/12/the-curse-of-knowledge"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Digital.gov Plain Language Guide Series (U.S. General Services Administration)",
+   "dcterms:title": "Paraphrase testing",
+   "schema:url": {
+    "@id": "https://digital.gov/guides/plain-language/test/paraphrase-testing"
+   }
   }
  ]
 }

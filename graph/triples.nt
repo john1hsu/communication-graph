@@ -1,3 +1,40 @@
+<https://github.com/john1hsu/communication-graph/id/curse-of-knowledge/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/curse-of-knowledge/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Which terms, acronyms or steps in this message did I learn on the job rather than expect my reader to know?" .
+<https://github.com/john1hsu/communication-graph/id/curse-of-knowledge/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> .
+<https://github.com/john1hsu/communication-graph/id/curse-of-knowledge/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/curse-of-knowledge/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "If my reader had only this message and none of my background, what would they do next?" .
+<https://github.com/john1hsu/communication-graph/id/curse-of-knowledge/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> .
+<https://github.com/john1hsu/communication-graph/id/curse-of-knowledge/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/curse-of-knowledge/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Have I asked someone outside the work to restate my point in their own words, or am I only judging clarity myself?" .
+<https://github.com/john1hsu/communication-graph/id/curse-of-knowledge/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> .
+<https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <http://purl.org/dc/terms/created> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Barrier> .
+<https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <http://www.w3.org/2000/01/rdf-schema#label> "Curse of knowledge" .
+<https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <http://www.w3.org/2004/02/skos/core#altLabel> "curse of expertise" .
+<https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <http://www.w3.org/2004/02/skos/core#altLabel> "expert blind spot" .
+<https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/egocentric-bias> .
+<https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <http://www.w3.org/2004/02/skos/core#definition> "The difficulty of imagining what it is like not to know something you know, which leads informed people to overestimate what their audience already understands and to communicate in shorthand, abstractions and skipped steps." .
+<https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/barriers-and-psychology> .
+<https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <http://www.w3.org/2004/02/skos/core#prefLabel> "Curse of knowledge" .
+<https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
+<https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> .
+<https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/plain-language> .
+<https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/tappers-and-listeners-study> .
+<https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s1> .
+<https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s2> .
+<https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s3> .
+<https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s4> .
+<https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s5> .
+<https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s6> .
+<https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <https://github.com/john1hsu/communication-graph/ontology#causes> <https://github.com/john1hsu/communication-graph/id/abstract-language> .
+<https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/ryskin-brown-schmidt-2014> .
+<https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/camerer-loewenstein-weber-1989> .
+<https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <https://github.com/john1hsu/communication-graph/ontology#domain> "barriers-and-psychology" .
+<https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/theory-of-mind> .
+<https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/barriers-and-psychology/curse-of-knowledge.md" .
+<https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <https://github.com/john1hsu/communication-graph/ontology#undermines> <https://github.com/john1hsu/communication-graph/id/clarity> .
 <https://github.com/john1hsu/communication-graph/id/scheme/barriers-and-psychology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <https://github.com/john1hsu/communication-graph/id/scheme/barriers-and-psychology> <http://www.w3.org/2004/02/skos/core#prefLabel> "Barriers and the psychology of communication" .
 <https://github.com/john1hsu/communication-graph/id/scheme/cross-cultural-communication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
@@ -30,3 +67,39 @@
 <https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works> <http://www.w3.org/2004/02/skos/core#prefLabel> "Thinkers, landmark works and studies" .
 <https://github.com/john1hsu/communication-graph/id/scheme/writing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <https://github.com/john1hsu/communication-graph/id/scheme/writing> <http://www.w3.org/2004/02/skos/core#prefLabel> "Business and professional writing" .
+<https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s1> <http://purl.org/dc/terms/publisher> "Camerer, Loewenstein & Weber, Journal of Political Economy 97(5), 1989 (RePEc/IDEAS record)" .
+<https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s1> <http://purl.org/dc/terms/title> "The Curse of Knowledge in Economic Settings: An Experimental Analysis" .
+<https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s1> <https://schema.org/url> <https://ideas.repec.org/a/ucp/jpolec/v97y1989i5p1232-54.html> .
+<https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s2> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s2> <http://purl.org/dc/terms/publisher> "Birch & Bloom, Psychological Science 18(5), 2007 (Association for Psychological Science)" .
+<https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s2> <http://purl.org/dc/terms/title> "The Curse of Knowledge in Reasoning About False Beliefs" .
+<https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s2> <https://schema.org/url> <https://www.psychologicalscience.org/journals/psychological-science/j.1467-9280.2007.01909.x/> .
+<https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s3> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s3> <http://purl.org/dc/terms/publisher> "Ryskin & Brown-Schmidt, PLoS ONE, 2014 (DOAJ record)" .
+<https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s3> <http://purl.org/dc/terms/title> "Do Adults Show a Curse of Knowledge in False-Belief Reasoning? A Robust Estimate of the True Effect Size" .
+<https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s3> <https://schema.org/url> <https://doaj.org/article/812f7980ce984f679d8029b81f55fc27> .
+<https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s4> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s4> <http://purl.org/dc/terms/publisher> "Tullis & Feder, Memory & Cognition 51(5), 2023 (University of Arizona research portal)" .
+<https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s4> <http://purl.org/dc/terms/title> "The \"curse of knowledge\" when predicting others' knowledge" .
+<https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s4> <https://schema.org/url> <https://experts.arizona.edu/en/publications/the-curse-of-knowledge-when-predicting-others-knowledge/> .
+<https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s5> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s5> <http://purl.org/dc/terms/publisher> "Chip Heath & Dan Heath, Harvard Business Review, December 2006" .
+<https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s5> <http://purl.org/dc/terms/title> "The Curse of Knowledge" .
+<https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "practitioner-journal" .
+<https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s5> <https://schema.org/url> <https://hbr.org/2006/12/the-curse-of-knowledge> .
+<https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s6> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s6> <http://purl.org/dc/terms/publisher> "Digital.gov Plain Language Guide Series (U.S. General Services Administration)" .
+<https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s6> <http://purl.org/dc/terms/title> "Paraphrase testing" .
+<https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s6> <https://schema.org/url> <https://digital.gov/guides/plain-language/test/paraphrase-testing> .

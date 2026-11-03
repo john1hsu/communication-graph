@@ -2,4 +2,8 @@
 @prefix cmo: <https://github.com/john1hsu/communication-graph/ontology#> .
 @prefix cm: <https://github.com/john1hsu/communication-graph/id/> .
 
-
+<< <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <https://github.com/john1hsu/communication-graph/ontology#causes> <https://github.com/john1hsu/communication-graph/id/abstract-language> >> cmo:evidence <https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s5> ; cmo:confidence "medium" .
+<< <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/ryskin-brown-schmidt-2014> >> cmo:evidence <https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s3> ; cmo:confidence "medium" .
+<< <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/camerer-loewenstein-weber-1989> >> cmo:evidence <https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s1> ; cmo:confidence "high" .
+<< <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/theory-of-mind> >> cmo:evidence <https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s2> ; cmo:confidence "medium" .
+<< <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <https://github.com/john1hsu/communication-graph/ontology#undermines> <https://github.com/john1hsu/communication-graph/id/clarity> >> cmo:evidence <https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s5> ; cmo:confidence "medium" .

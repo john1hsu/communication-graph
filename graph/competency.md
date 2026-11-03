@@ -6,7 +6,9 @@ SPARQL queries in `queries/` run over the asserted graph, the OWL-RL inferences 
 
 _Which written barriers or anti-patterns have nothing in the graph that addresses them?_ — `queries/01-problems-without-fix.rq`
 
-_No results._
+| node | type |
+|---|---|
+| `cm:curse-of-knowledge` | cmo:Barrier |
 
 ## Skills with no practice technique (gap)
 
@@ -36,17 +38,23 @@ _No results._
 
 _Which pieces of communication advice are contested, mixed or failed to replicate, and what challenges them?_ — `queries/06-myths-and-contested-advice.rq`
 
-_No results._
+| node | status | challenger |
+|---|---|---|
+| `cm:curse-of-knowledge` | mixed | `cm:ryskin-brown-schmidt-2014` |
 
 ## Concepts with no recorded origin (gap)
 
 _Which written concepts have no introducedBy / introducedIn edge (who named or popularised it, where)?_ — `queries/07-unattributed.rq`
 
-_No results._
+| node | type |
+|---|---|
+| `cm:curse-of-knowledge` | cmo:Barrier |
 
 ## Orphan articles (gap)
 
 _Which written articles does nothing else in the graph point to (after inference)?_ — `queries/08-orphans.rq`
 
-_No results._
+| node |
+|---|
+| `cm:curse-of-knowledge` |
 
