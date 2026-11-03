@@ -1072,6 +1072,82 @@
    ]
   },
   {
+   "@id": "cm:mehrabian-myth",
+   "@type": "cmo:Concept",
+   "cmo:challengedBy": [
+    {
+     "@id": "cm:lapakko-2007"
+    },
+    {
+     "@id": "cm:zuckerman-et-al-1982"
+    }
+   ],
+   "cmo:domain": "nonverbal-and-voice",
+   "cmo:evidenceStatus": "contested",
+   "cmo:file": "articles/nonverbal-and-voice/mehrabian-myth.md",
+   "cmo:introducedBy": {
+    "@id": "cm:albert-mehrabian"
+   },
+   "cmo:introducedIn": {
+    "@id": "cm:silent-messages"
+   },
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/mehrabian-myth/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/mehrabian-myth/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/mehrabian-myth/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/mehrabian-myth/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/mehrabian-myth/s5"
+    }
+   ],
+   "rdfs:label": "Mehrabian's 7-38-55 rule",
+   "skos:altLabel": [
+    "7%-38%-55% rule",
+    "7-38-55 rule",
+    "93% nonverbal myth",
+    "Mehrabian myth",
+    "communication is 93% nonverbal"
+   ],
+   "skos:broader": {
+    "@id": "cm:nonverbal-communication"
+   },
+   "skos:definition": "The popular claim that only 7% of a message's meaning comes from words, 38% from tone of voice and 55% from facial expression and body language; it overgeneralises two narrow 1967 lab studies about inconsistent cues for liking, and Mehrabian himself says it does not apply to communication in general.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/nonverbal-and-voice"
+   },
+   "skos:prefLabel": "Mehrabian's 7-38-55 rule",
+   "skos:related": [
+    {
+     "@id": "cm:channel-selection"
+    },
+    {
+     "@id": "cm:facial-expressions"
+    },
+    {
+     "@id": "cm:high-and-low-context-cultures"
+    },
+    {
+     "@id": "cm:mixed-messages"
+    },
+    {
+     "@id": "cm:paralanguage"
+    }
+   ]
+  },
+  {
    "@id": "cm:message-equivocality-media-selection-and-manager-performance",
    "@type": "cmo:Work",
    "cmo:authoredBy": [
@@ -3832,6 +3908,76 @@
    "dcterms:title": "E-mail etiquette: more critical than you might think (Kruger, Epley, Parker & Ng, Egocentrism over e-mail)",
    "schema:url": {
     "@id": "https://stern.nyu.edu/experience-stern/faculty-research/justin-kruger-email-research"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/mehrabian-myth/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Albert Mehrabian, author's own site (kaaj.com) describing Silent Messages (1971; 2nd ed. 1981)",
+   "dcterms:title": "\"Silent Messages\" -- A Wealth of Information About Nonverbal Communication (Body Language)",
+   "schema:url": {
+    "@id": "https://www.kaaj.com/psych/smorder.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/mehrabian-myth/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "David Lapakko, Communication and Theater Association of Minnesota Journal 34 (2007), pp. 7-19",
+   "dcterms:title": "Communication is 93% Nonverbal: An Urban Legend Proliferates",
+   "schema:url": {
+    "@id": "https://cornerstone.lib.mnsu.edu/ctamj/vol34/iss1/2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/mehrabian-myth/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Zuckerman, Amidon, Bishop & Pomerantz, Journal of Personality and Social Psychology 43(2), 1982, pp. 347-357 (CORE open copy)",
+   "dcterms:title": "Face and Tone of Voice in the Communication of Deception",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/357397936.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/mehrabian-myth/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "MacEwan University Open Books, adapted from Wrench, Punyanunt-Carter & Thweatt and University of Minnesota Libraries Publishing (CC BY-NC-SA 4.0)",
+   "dcterms:title": "4.1 Principles and Functions of Nonverbal Communication (Professional Communication)",
+   "schema:url": {
+    "@id": "https://openbooks.macewan.ca/professionalcommunication/wp-json/pressbooks/v2/chapters/114"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/mehrabian-myth/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "community",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Gonen Dori-Hacohen, Research on Language and Social Interaction blog (rolsi.net), 24 May 2024",
+   "dcterms:title": "Guest Blog: 93% of all misinformation is nonverbal: How a zombie statistic came and stayed",
+   "schema:url": {
+    "@id": "https://rolsi.net/2024/05/24/guest-blog-93-of-all-misinformation-is-nonverbal-how-a-zombie-statistic-came-and-stayed/"
    }
   },
   {

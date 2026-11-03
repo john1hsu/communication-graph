@@ -677,6 +677,36 @@
 <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/macinnis-mackinnon-macintyre-2010> .
 <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> <https://github.com/john1hsu/communication-graph/ontology#undermines> <https://github.com/john1hsu/communication-graph/id/clarity> .
+<https://github.com/john1hsu/communication-graph/id/mehrabian-myth> <http://purl.org/dc/terms/created> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/mehrabian-myth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+<https://github.com/john1hsu/communication-graph/id/mehrabian-myth> <http://www.w3.org/2000/01/rdf-schema#label> "Mehrabian's 7-38-55 rule" .
+<https://github.com/john1hsu/communication-graph/id/mehrabian-myth> <http://www.w3.org/2004/02/skos/core#altLabel> "7%-38%-55% rule" .
+<https://github.com/john1hsu/communication-graph/id/mehrabian-myth> <http://www.w3.org/2004/02/skos/core#altLabel> "7-38-55 rule" .
+<https://github.com/john1hsu/communication-graph/id/mehrabian-myth> <http://www.w3.org/2004/02/skos/core#altLabel> "93% nonverbal myth" .
+<https://github.com/john1hsu/communication-graph/id/mehrabian-myth> <http://www.w3.org/2004/02/skos/core#altLabel> "Mehrabian myth" .
+<https://github.com/john1hsu/communication-graph/id/mehrabian-myth> <http://www.w3.org/2004/02/skos/core#altLabel> "communication is 93% nonverbal" .
+<https://github.com/john1hsu/communication-graph/id/mehrabian-myth> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> .
+<https://github.com/john1hsu/communication-graph/id/mehrabian-myth> <http://www.w3.org/2004/02/skos/core#definition> "The popular claim that only 7% of a message's meaning comes from words, 38% from tone of voice and 55% from facial expression and body language; it overgeneralises two narrow 1967 lab studies about inconsistent cues for liking, and Mehrabian himself says it does not apply to communication in general." .
+<https://github.com/john1hsu/communication-graph/id/mehrabian-myth> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/nonverbal-and-voice> .
+<https://github.com/john1hsu/communication-graph/id/mehrabian-myth> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mehrabian's 7-38-55 rule" .
+<https://github.com/john1hsu/communication-graph/id/mehrabian-myth> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/channel-selection> .
+<https://github.com/john1hsu/communication-graph/id/mehrabian-myth> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/facial-expressions> .
+<https://github.com/john1hsu/communication-graph/id/mehrabian-myth> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> .
+<https://github.com/john1hsu/communication-graph/id/mehrabian-myth> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mixed-messages> .
+<https://github.com/john1hsu/communication-graph/id/mehrabian-myth> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/paralanguage> .
+<https://github.com/john1hsu/communication-graph/id/mehrabian-myth> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/mehrabian-myth/s1> .
+<https://github.com/john1hsu/communication-graph/id/mehrabian-myth> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/mehrabian-myth/s2> .
+<https://github.com/john1hsu/communication-graph/id/mehrabian-myth> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/mehrabian-myth/s3> .
+<https://github.com/john1hsu/communication-graph/id/mehrabian-myth> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/mehrabian-myth/s4> .
+<https://github.com/john1hsu/communication-graph/id/mehrabian-myth> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/mehrabian-myth/s5> .
+<https://github.com/john1hsu/communication-graph/id/mehrabian-myth> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/lapakko-2007> .
+<https://github.com/john1hsu/communication-graph/id/mehrabian-myth> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/zuckerman-et-al-1982> .
+<https://github.com/john1hsu/communication-graph/id/mehrabian-myth> <https://github.com/john1hsu/communication-graph/ontology#domain> "nonverbal-and-voice" .
+<https://github.com/john1hsu/communication-graph/id/mehrabian-myth> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "contested" .
+<https://github.com/john1hsu/communication-graph/id/mehrabian-myth> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/nonverbal-and-voice/mehrabian-myth.md" .
+<https://github.com/john1hsu/communication-graph/id/mehrabian-myth> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/albert-mehrabian> .
+<https://github.com/john1hsu/communication-graph/id/mehrabian-myth> <https://github.com/john1hsu/communication-graph/ontology#introducedIn> <https://github.com/john1hsu/communication-graph/id/silent-messages> .
+<https://github.com/john1hsu/communication-graph/id/mehrabian-myth> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/message-equivocality-media-selection-and-manager-performance> <http://purl.org/dc/terms/created> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/message-equivocality-media-selection-and-manager-performance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
 <https://github.com/john1hsu/communication-graph/id/message-equivocality-media-selection-and-manager-performance> <http://www.w3.org/2000/01/rdf-schema#label> "Message Equivocality, Media Selection, and Manager Performance" .
@@ -1443,6 +1473,36 @@
 <https://github.com/john1hsu/communication-graph/id/source/illusion-of-transparency/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/illusion-of-transparency/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
 <https://github.com/john1hsu/communication-graph/id/source/illusion-of-transparency/s5> <https://schema.org/url> <https://stern.nyu.edu/experience-stern/faculty-research/justin-kruger-email-research> .
+<https://github.com/john1hsu/communication-graph/id/source/mehrabian-myth/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/mehrabian-myth/s1> <http://purl.org/dc/terms/publisher> "Albert Mehrabian, author's own site (kaaj.com) describing Silent Messages (1971; 2nd ed. 1981)" .
+<https://github.com/john1hsu/communication-graph/id/source/mehrabian-myth/s1> <http://purl.org/dc/terms/title> "\"Silent Messages\" -- A Wealth of Information About Nonverbal Communication (Body Language)" .
+<https://github.com/john1hsu/communication-graph/id/source/mehrabian-myth/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/mehrabian-myth/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/mehrabian-myth/s1> <https://schema.org/url> <https://www.kaaj.com/psych/smorder.html> .
+<https://github.com/john1hsu/communication-graph/id/source/mehrabian-myth/s2> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/mehrabian-myth/s2> <http://purl.org/dc/terms/publisher> "David Lapakko, Communication and Theater Association of Minnesota Journal 34 (2007), pp. 7-19" .
+<https://github.com/john1hsu/communication-graph/id/source/mehrabian-myth/s2> <http://purl.org/dc/terms/title> "Communication is 93% Nonverbal: An Urban Legend Proliferates" .
+<https://github.com/john1hsu/communication-graph/id/source/mehrabian-myth/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/mehrabian-myth/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/mehrabian-myth/s2> <https://schema.org/url> <https://cornerstone.lib.mnsu.edu/ctamj/vol34/iss1/2> .
+<https://github.com/john1hsu/communication-graph/id/source/mehrabian-myth/s3> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/mehrabian-myth/s3> <http://purl.org/dc/terms/publisher> "Zuckerman, Amidon, Bishop & Pomerantz, Journal of Personality and Social Psychology 43(2), 1982, pp. 347-357 (CORE open copy)" .
+<https://github.com/john1hsu/communication-graph/id/source/mehrabian-myth/s3> <http://purl.org/dc/terms/title> "Face and Tone of Voice in the Communication of Deception" .
+<https://github.com/john1hsu/communication-graph/id/source/mehrabian-myth/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/mehrabian-myth/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/mehrabian-myth/s3> <https://schema.org/url> <https://core.ac.uk/download/357397936.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/mehrabian-myth/s4> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/mehrabian-myth/s4> <http://purl.org/dc/terms/publisher> "MacEwan University Open Books, adapted from Wrench, Punyanunt-Carter & Thweatt and University of Minnesota Libraries Publishing (CC BY-NC-SA 4.0)" .
+<https://github.com/john1hsu/communication-graph/id/source/mehrabian-myth/s4> <http://purl.org/dc/terms/title> "4.1 Principles and Functions of Nonverbal Communication (Professional Communication)" .
+<https://github.com/john1hsu/communication-graph/id/source/mehrabian-myth/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/mehrabian-myth/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/communication-graph/id/source/mehrabian-myth/s4> <https://schema.org/url> <https://openbooks.macewan.ca/professionalcommunication/wp-json/pressbooks/v2/chapters/114> .
+<https://github.com/john1hsu/communication-graph/id/source/mehrabian-myth/s5> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/mehrabian-myth/s5> <http://purl.org/dc/terms/publisher> "Gonen Dori-Hacohen, Research on Language and Social Interaction blog (rolsi.net), 24 May 2024" .
+<https://github.com/john1hsu/communication-graph/id/source/mehrabian-myth/s5> <http://purl.org/dc/terms/title> "Guest Blog: 93% of all misinformation is nonverbal: How a zombie statistic came and stayed" .
+<https://github.com/john1hsu/communication-graph/id/source/mehrabian-myth/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/mehrabian-myth/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "community" .
+<https://github.com/john1hsu/communication-graph/id/source/mehrabian-myth/s5> <https://schema.org/url> <https://rolsi.net/2024/05/24/guest-blog-93-of-all-misinformation-is-nonverbal-how-a-zombie-statistic-came-and-stayed/> .
 <https://github.com/john1hsu/communication-graph/id/source/message-equivocality-media-selection-and-manager-performance/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/message-equivocality-media-selection-and-manager-performance/s1> <http://purl.org/dc/terms/publisher> "Daft, R. L., Lengel, R. H. & Trevino, L. K., MIS Quarterly 11(3), 355-366, 1987, doi:10.2307/248682 (Penn State research portal record)" .
 <https://github.com/john1hsu/communication-graph/id/source/message-equivocality-media-selection-and-manager-performance/s1> <http://purl.org/dc/terms/title> "Message equivocality, media selection, and manager performance: Implications for information systems" .

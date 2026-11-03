@@ -1201,6 +1201,84 @@
   ]
  },
  {
+  "id": "cm:mehrabian-myth",
+  "title": "Mehrabian's 7-38-55 rule",
+  "aliases": [
+   "Mehrabian myth",
+   "7-38-55 rule",
+   "93% nonverbal myth",
+   "7%-38%-55% rule",
+   "communication is 93% nonverbal"
+  ],
+  "type": "Concept",
+  "domain": "nonverbal-and-voice",
+  "level": "introductory",
+  "evidenceStatus": "contested",
+  "file": "articles/nonverbal-and-voice/mehrabian-myth.md",
+  "created": "2026-11-03",
+  "summary": "The popular claim that only 7% of a message's meaning comes from words, 38% from tone of voice and 55% from facial expression and body language; it overgeneralises two narrow 1967 lab studies about inconsistent cues for liking, and Mehrabian himself says it does not apply to communication in general.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:nonverbal-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:paralanguage"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:facial-expressions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:mixed-messages"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:channel-selection"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:high-and-low-context-cultures"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:albert-mehrabian",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedIn",
+    "object": "cm:silent-messages",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:lapakko-2007",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:zuckerman-et-al-1982",
+    "source": "s3",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://www.kaaj.com/psych/smorder.html",
+   "https://cornerstone.lib.mnsu.edu/ctamj/vol34/iss1/2",
+   "https://core.ac.uk/download/357397936.pdf",
+   "https://openbooks.macewan.ca/professionalcommunication/wp-json/pressbooks/v2/chapters/114",
+   "https://rolsi.net/2024/05/24/guest-blog-93-of-all-misinformation-is-nonverbal-how-a-zombie-statistic-came-and-stayed/"
+  ]
+ },
+ {
   "id": "cm:message-equivocality-media-selection-and-manager-performance",
   "title": "Message Equivocality, Media Selection, and Manager Performance",
   "aliases": [

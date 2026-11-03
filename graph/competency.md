@@ -62,6 +62,8 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 |---|---|---|
 | `cm:high-and-low-context-cultures` | contested | `cm:cardon-2008` |
 | `cm:high-and-low-context-cultures` | contested | `cm:kittler-rygl-mackinnon-2011` |
+| `cm:mehrabian-myth` | contested | `cm:lapakko-2007` |
+| `cm:mehrabian-myth` | contested | `cm:zuckerman-et-al-1982` |
 | `cm:active-voice` | mixed | `cm:fear-and-loathing-of-the-english-passive` |
 | `cm:batna` | mixed | `cm:schaerer-swaab-galinsky-2015` |
 | `cm:channel-selection` | mixed | `cm:dennis-kinney-1998` |
