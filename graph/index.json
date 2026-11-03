@@ -1077,5 +1077,100 @@
    "https://www.chronicle.com/article/50-years-of-stupid-grammar-advice/",
    "https://archive-prod.library.cornell.edu/agents/people/38936"
   ]
+ },
+ {
+  "id": "cm:words-of-estimative-probability",
+  "title": "Words of estimative probability",
+  "aliases": [
+   "estimative language",
+   "verbal probability expressions",
+   "calibrated likelihood words",
+   "probability lexicon"
+  ],
+  "type": "Technique",
+  "domain": "executive-and-client-communication",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/executive-and-client-communication/words-of-estimative-probability.md",
+  "created": "2026-11-03",
+  "summary": "Stating how likely something is with an agreed set of likelihood words, each tied to a numeric range that is shown next to the word, so that \"likely\" means the same thing to the writer and every reader.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:communicating-uncertainty"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:bottom-line-up-front"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:executive-summary"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:illusion-of-transparency"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:plain-language"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:sherman-kent",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:vague-probability-language",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:executive-briefing",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:wintle-et-al-2019",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:mandel-irwin-2021",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "If three readers each wrote down the percentage they think my likelihood word means, would their numbers land in the same range as mine?",
+   "Have I put the number next to the word, or am I relying on readers to look up a key they will probably skip?",
+   "Am I using \"could\", \"may\" or \"possible\" to hedge when I actually have an estimate I am reluctant to commit to?",
+   "Have I kept my confidence in the evidence separate from the likelihood of the event?"
+  ],
+  "steps": [
+   "Agree a short likelihood scale with your team or client before you need it - for example remote (under 5%), unlikely (20-45%), roughly even (45-55%), likely (55-80%), very likely (80-95%) - with ranges that do not overlap.",
+   "Before writing a forecast, decide your own number or range first, then pick the one word on the scale whose range contains it.",
+   "Put the numeric range in brackets right after the word in the text itself (\"likely (55-80%)\"), not in a footnote, appendix or hover text.",
+   "Keep likelihood (how probable the event is) separate from confidence (how solid your evidence is), and say each in its own sentence.",
+   "Reserve \"possible\", \"could\" and \"may\" for cases where you genuinely cannot estimate the odds, and say so rather than using them as softeners.",
+   "Use the same words with the same meanings in every report, and add a short key whenever a new reader joins the distribution."
+  ],
+  "example": {
+   "situation": "A consultant updates a client steering committee on whether a system migration will hit its go-live date.",
+   "before": "There is a real possibility we could miss the March 1 go-live, although the team is working hard and it may well still be achievable.",
+   "after": "We judge it unlikely (20-45%) that we hit the March 1 go-live; very likely (80-95%) by March 22. We have moderate confidence: the estimate rests on two weeks of test-defect data. Decision needed by Friday: hold the date with reduced scope, or move it.",
+   "why": "The before version could be read anywhere from a small risk to a probable slip; the after version gives one shared range, separates odds from confidence, and turns the forecast into a decision the committee can make."
+  },
+  "source_urls": [
+   "https://www.cia.gov/resources/csi/static/Words-of-Estimative-Probability.pdf",
+   "https://irp.fas.org/dni/icd/icd-203.pdf",
+   "https://minerva-access.unimelb.edu.au/server/api/core/bitstreams/3d6edf87-1815-5d22-95d6-0b4510f8ea6b/content",
+   "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7971511/"
+  ]
  }
 ]

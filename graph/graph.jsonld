@@ -975,6 +975,82 @@
    ]
   },
   {
+   "@id": "cm:words-of-estimative-probability",
+   "@type": "cmo:Technique",
+   "cmo:addresses": {
+    "@id": "cm:vague-probability-language"
+   },
+   "cmo:appliedIn": {
+    "@id": "cm:executive-briefing"
+   },
+   "cmo:demonstratedBy": {
+    "@id": "cm:wintle-et-al-2019"
+   },
+   "cmo:domain": "executive-and-client-communication",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability/example"
+   },
+   "cmo:file": "articles/executive-and-client-communication/words-of-estimative-probability.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability/howto"
+   },
+   "cmo:introducedBy": {
+    "@id": "cm:sherman-kent"
+   },
+   "cmo:level": "intermediate",
+   "cmo:supportedBy": {
+    "@id": "cm:mandel-irwin-2021"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/words-of-estimative-probability/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/words-of-estimative-probability/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/words-of-estimative-probability/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/words-of-estimative-probability/s4"
+    }
+   ],
+   "rdfs:label": "Words of estimative probability",
+   "skos:altLabel": [
+    "calibrated likelihood words",
+    "estimative language",
+    "probability lexicon",
+    "verbal probability expressions"
+   ],
+   "skos:broader": {
+    "@id": "cm:communicating-uncertainty"
+   },
+   "skos:definition": "Stating how likely something is with an agreed set of likelihood words, each tied to a numeric range that is shown next to the word, so that \"likely\" means the same thing to the writer and every reader.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/executive-and-client-communication"
+   },
+   "skos:prefLabel": "Words of estimative probability",
+   "skos:related": [
+    {
+     "@id": "cm:bottom-line-up-front"
+    },
+    {
+     "@id": "cm:executive-summary"
+    },
+    {
+     "@id": "cm:illusion-of-transparency"
+    },
+    {
+     "@id": "cm:plain-language"
+    }
+   ]
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/active-voice/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -2449,6 +2525,163 @@
    "schema:url": {
     "@id": "https://archive-prod.library.cornell.edu/agents/people/38936"
    }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/words-of-estimative-probability/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Sherman Kent, Studies in Intelligence vol. 8 no. 4 (1964); CIA Center for the Study of Intelligence",
+   "dcterms:title": "Words of Estimative Probability",
+   "schema:url": {
+    "@id": "https://www.cia.gov/resources/csi/static/Words-of-Estimative-Probability.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/words-of-estimative-probability/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Office of the Director of National Intelligence, signed 2 January 2015 (copy hosted by the Federation of American Scientists)",
+   "dcterms:title": "Intelligence Community Directive 203: Analytic Standards",
+   "schema:url": {
+    "@id": "https://irp.fas.org/dni/icd/icd-203.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/words-of-estimative-probability/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Wintle, Fraser, Wills, Nicholson & Fidler, PLOS ONE 14(4): e0213522 (2019), doi:10.1371/journal.pone.0213522 (University of Melbourne repository copy)",
+   "dcterms:title": "Verbal probabilities: Very likely to be somewhat more confusing than numbers",
+   "schema:url": {
+    "@id": "https://minerva-access.unimelb.edu.au/server/api/core/bitstreams/3d6edf87-1815-5d22-95d6-0b4510f8ea6b/content"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/words-of-estimative-probability/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Mandel & Irwin, PLOS ONE (2021), doi:10.1371/journal.pone.0248424",
+   "dcterms:title": "On measuring agreement with numerically bounded linguistic probability schemes: A re-analysis of data from Wintle, Fraser, Wills, Nicholson, and Fidler (2019)",
+   "schema:url": {
+    "@id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7971511/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:words-of-estimative-probability"
+   },
+   "rdfs:label": "If three readers each wrote down the percentage they think my likelihood word means, would their numbers land in the same range as mine?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:words-of-estimative-probability"
+   },
+   "rdfs:label": "Have I put the number next to the word, or am I relying on readers to look up a key they will probably skip?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:words-of-estimative-probability"
+   },
+   "rdfs:label": "Am I using \"could\", \"may\" or \"possible\" to hedge when I actually have an estimate I am reluctant to commit to?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:words-of-estimative-probability"
+   },
+   "rdfs:label": "Have I kept my confidence in the evidence separate from the likelihood of the event?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "We judge it unlikely (20-45%) that we hit the March 1 go-live; very likely (80-95%) by March 22. We have moderate confidence: the estimate rests on two weeks of test-defect data. Decision needed by Friday: hold the date with reduced scope, or move it.",
+   "cmo:before": "There is a real possibility we could miss the March 1 go-live, although the team is working hard and it may well still be achievable.",
+   "cmo:situation": "A consultant updates a client steering committee on whether a system migration will hit its go-live date.",
+   "cmo:why": "The before version could be read anywhere from a small risk to a probable slip; the after version gives one shared range, separates odds from confidence, and turns the forecast into a decision the committee can make."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Words of estimative probability",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability/howto/6"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Agree a short likelihood scale with your team or client before you need it - for example remote (under 5%), unlikely (20-45%), roughly even (45-55%), likely (55-80%), very likely (80-95%) - with ranges that do not overlap."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Before writing a forecast, decide your own number or range first, then pick the one word on the scale whose range contains it."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Put the numeric range in brackets right after the word in the text itself (\"likely (55-80%)\"), not in a footnote, appendix or hover text."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Keep likelihood (how probable the event is) separate from confidence (how solid your evidence is), and say each in its own sentence."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Reserve \"possible\", \"could\" and \"may\" for cases where you genuinely cannot estimate the odds, and say so rather than using them as softeners."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "Use the same words with the same meanings in every report, and add a short key whenever a new reader joins the distribution."
   }
  ]
 }

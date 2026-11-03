@@ -31,6 +31,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:active-voice` | 1 | unclear-ownership |
 | `cm:audience-analysis` | 1 | Curse of knowledge |
 | `cm:bottom-line-up-front` | 1 | burying-the-lede |
+| `cm:words-of-estimative-probability` | 1 | vague-probability-language |
 
 ## Toolkit by situation
 
@@ -42,6 +43,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:email` | `cm:audience-analysis` |
 | `cm:email` | `cm:bottom-line-up-front` |
 | `cm:email` | `cm:channel-selection` |
+| `cm:executive-briefing` | `cm:words-of-estimative-probability` |
 | `cm:memorandum` | `cm:bottom-line-up-front` |
 | `cm:plain-language-summary` | `cm:plain-language` |
 
@@ -59,6 +61,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:email` | mixed |  |
 | `cm:i-statements` | mixed | `cm:korobov-2020` |
 | `cm:plain-language` | mixed |  |
+| `cm:words-of-estimative-probability` | mixed |  |
 
 ## Concepts with no recorded origin (gap)
 

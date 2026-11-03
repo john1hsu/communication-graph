@@ -61,6 +61,31 @@ Ask yourself:
 - Am I choosing email or chat because it suits the message, or because it lets me avoid an awkward conversation?
 - After a live discussion, have I put the decision, owners and dates in writing?
 
+## executive-and-client-communication
+
+### [Words of estimative probability](../articles/executive-and-client-communication/words-of-estimative-probability.md) — Technique
+
+1. Agree a short likelihood scale with your team or client before you need it - for example remote (under 5%), unlikely (20-45%), roughly even (45-55%), likely (55-80%), very likely (80-95%) - with ranges that do not overlap.
+2. Before writing a forecast, decide your own number or range first, then pick the one word on the scale whose range contains it.
+3. Put the numeric range in brackets right after the word in the text itself ("likely (55-80%)"), not in a footnote, appendix or hover text.
+4. Keep likelihood (how probable the event is) separate from confidence (how solid your evidence is), and say each in its own sentence.
+5. Reserve "possible", "could" and "may" for cases where you genuinely cannot estimate the odds, and say so rather than using them as softeners.
+6. Use the same words with the same meanings in every report, and add a short key whenever a new reader joins the distribution.
+
+*A consultant updates a client steering committee on whether a system migration will hit its go-live date.*
+
+| Before | After |
+|---|---|
+| There is a real possibility we could miss the March 1 go-live, although the team is working hard and it may well still be achievable. | We judge it unlikely (20-45%) that we hit the March 1 go-live; very likely (80-95%) by March 22. We have moderate confidence: the estimate rests on two weeks of test-defect data. Decision needed by Friday: hold the date with reduced scope, or move it. |
+
+**Why:** The before version could be read anywhere from a small risk to a probable slip; the after version gives one shared range, separates odds from confidence, and turns the forecast into a decision the committee can make.
+
+Ask yourself:
+- If three readers each wrote down the percentage they think my likelihood word means, would their numbers land in the same range as mine?
+- Have I put the number next to the word, or am I relying on readers to look up a key they will probably skip?
+- Am I using "could", "may" or "possible" to hedge when I actually have an estimate I am reluctant to commit to?
+- Have I kept my confidence in the evidence separate from the likelihood of the event?
+
 ## foundations
 
 ### [Audience analysis](../articles/foundations/audience-analysis.md) — Technique
