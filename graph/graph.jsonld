@@ -233,6 +233,9 @@
      "@id": "cm:bottom-line-up-front"
     },
     {
+     "@id": "cm:channel-selection"
+    },
+    {
      "@id": "cm:curse-of-knowledge"
     },
     {
@@ -334,6 +337,97 @@
     },
     {
      "@id": "cm:pyramid-principle"
+    }
+   ]
+  },
+  {
+   "@id": "cm:channel-selection",
+   "@type": "cmo:Technique",
+   "cmo:appliedIn": {
+    "@id": "cm:email"
+   },
+   "cmo:challengedBy": {
+    "@id": "cm:dennis-kinney-1998"
+   },
+   "cmo:domain": "digital-and-async-communication",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/channel-selection/example"
+   },
+   "cmo:explainedBy": [
+    {
+     "@id": "cm:media-richness-theory"
+    },
+    {
+     "@id": "cm:media-synchronicity-theory"
+    }
+   ],
+   "cmo:file": "articles/digital-and-async-communication/channel-selection.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/channel-selection/howto"
+   },
+   "cmo:level": "introductory",
+   "cmo:requires": {
+    "@id": "cm:audience-analysis"
+   },
+   "cmo:supportedBy": [
+    {
+     "@id": "cm:ask-in-person-study"
+    },
+    {
+     "@id": "cm:egocentrism-over-email-study"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/channel-selection/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/channel-selection/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/channel-selection/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/channel-selection/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/channel-selection/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/channel-selection/s6"
+    }
+   ],
+   "rdfs:label": "Channel selection",
+   "skos:altLabel": [
+    "choosing a communication channel",
+    "media choice",
+    "medium selection"
+   ],
+   "skos:broader": {
+    "@id": "cm:communication-planning"
+   },
+   "skos:definition": "Deliberately choosing the medium for a message - in person, video, phone, chat, email or a document - according to whether the job is to transmit information or to build shared understanding, how much tone and feedback matter, and what the receiver needs to do with it.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/digital-and-async-communication"
+   },
+   "skos:prefLabel": "Channel selection",
+   "skos:related": [
+    {
+     "@id": "cm:asynchronous-communication"
+    },
+    {
+     "@id": "cm:audience-analysis"
+    },
+    {
+     "@id": "cm:bottom-line-up-front"
+    },
+    {
+     "@id": "cm:curse-of-knowledge"
     }
    ]
   },
@@ -1000,6 +1094,107 @@
    "schema:text": "Decide deliberately whether this message is an exception - serious bad news or a reader who expects context first - and if so use an indirect structure on purpose rather than by habit."
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/channel-selection/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:channel-selection"
+   },
+   "rdfs:label": "Am I mainly passing information on, or do we need to reach agreement - and does my channel fit that job?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/channel-selection/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:channel-selection"
+   },
+   "rdfs:label": "If my reader misread the tone of this text, what is the worst plausible interpretation, and would a call prevent it?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/channel-selection/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:channel-selection"
+   },
+   "rdfs:label": "Am I choosing email or chat because it suits the message, or because it lets me avoid an awkward conversation?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/channel-selection/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:channel-selection"
+   },
+   "rdfs:label": "After a live discussion, have I put the decision, owners and dates in writing?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/channel-selection/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "Short email first - Subject: Decision needed Thursday - reporting module vs. March date. Priya, I'd like 20 minutes Wednesday to talk through a trade-off: keep the March date by moving the reporting module to April, or keep the module and slip to mid-April. One-page options summary attached. Then a 20-minute call to discuss, followed the same day by a written recap of the decision, owner and new dates.",
+   "cmo:before": "Email, sent at 6 pm - Subject: Scope change. Hi Priya, given the integration issues we will need to drop the reporting module from the March release. Let me know if that works. Thanks.",
+   "cmo:situation": "A project manager needs a client's sign-off to cut a feature so the release can stay on date, and the client sponsor is known to be attached to that feature.",
+   "cmo:why": "The facts travel in writing where they can be reread, the contested decision happens live where questions and concerns surface immediately, and the written recap locks in the shared understanding the call produced."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/channel-selection/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Channel selection",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/channel-selection/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/channel-selection/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/channel-selection/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/channel-selection/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/channel-selection/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/channel-selection/howto/6"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/channel-selection/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Name the job of the message in one line - is it mainly to pass on information the receiver can absorb alone (conveyance), or to agree on meaning, resolve disagreement or decide something together (convergence)?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/channel-selection/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "For conveyance - updates, data, instructions, reference material - default to a written, asynchronous channel the receiver can reread and process in their own time."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/channel-selection/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "For convergence - an ambiguous problem, a disagreement, a sensitive or emotional message, or a request you need someone to say yes to - default to a live channel with voice and fast feedback, such as a call, video or a face-to-face conversation."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/channel-selection/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "If tone, sarcasm or humour carries part of the meaning, either move to voice or rewrite the text so the meaning survives without your tone of voice; read it aloud in a deliberately flat or opposite tone before sending."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/channel-selection/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Combine channels when the task needs both - send the facts in writing first, discuss live, then confirm the decision and owners in writing."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/channel-selection/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "Check the receiver's side - their familiarity with you and the topic, time zone, norms and access - and adjust the default; a lean channel works better between people who already share context."
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/curse-of-knowledge/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -1520,6 +1715,90 @@
    "dcterms:title": "4.6 Direct and Indirect Negative Messaging",
    "schema:url": {
     "@id": "https://pressbooks.atlanticoer-relatlantique.ca/businesscommunication/chapter/4-direct-and-indirect-negative-messaging/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/channel-selection/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Daft, R. L. & Lengel, R. H., Management Science 32(5), 554-571, 1986 (copy hosted by Northwestern University Collaboration Lab)",
+   "dcterms:title": "Organizational Information Requirements, Media Richness and Structural Design",
+   "schema:url": {
+    "@id": "https://collablab.northwestern.edu//CollabolabDistro/nucmc/DaftAndLengel-OrgInfoReq-MediaRichnessAndStructuralDesign-MngmtSci-1986.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/channel-selection/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Dennis, A. R. & Kinney, S. T., Information Systems Research 9(3), 256-274, 1998 (RePEc/IDEAS abstract page)",
+   "dcterms:title": "Testing Media Richness Theory in the New Media: The Effects of Cues, Feedback, and Task Equivocality",
+   "schema:url": {
+    "@id": "https://ideas.repec.org/a/inm/orisre/v9y1998i3p256-274.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/channel-selection/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Dennis, A. R., Fuller, R. M. & Valacich, J. S., MIS Quarterly 32(3), 575-600, 2008 (AIS eLibrary)",
+   "dcterms:title": "Media, Tasks, and Communication Processes: A Theory of Media Synchronicity",
+   "schema:url": {
+    "@id": "https://aisel.aisnet.org/misq/vol32/iss3/8/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/channel-selection/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "American Psychological Association, Monitor on Psychology, February 2006 (report of Kruger, Epley et al., Journal of Personality and Social Psychology, 2005)",
+   "dcterms:title": "Egos inflate over e-mail",
+   "schema:url": {
+    "@id": "https://www.apa.org/monitor/feb06/egos"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/channel-selection/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Association for Psychological Science (report of Roghanizad & Bohns, Journal of Experimental Social Psychology)",
+   "dcterms:title": "You're Less Persuasive Than You Think Over Email",
+   "schema:url": {
+    "@id": "https://www.psychologicalscience.org/?p=129173"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/channel-selection/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Ou, M., Carlson, J., Hu, A. & Weng, Q., Proceedings of the 59th Hawaii International Conference on System Sciences (HICSS-59), 2026 (Hong Kong Baptist University research portal)",
+   "dcterms:title": "Channel Expansion Theory: A Comprehensive Meta-Analysis, Literature Review, and Examination of Boundary Conditions",
+   "schema:url": {
+    "@id": "https://scholars.hkbu.edu.hk/en/publications/channel-expansion-theory-a-comprehensive-meta-analysis-literature/"
    }
   },
   {

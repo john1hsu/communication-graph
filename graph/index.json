@@ -201,6 +201,10 @@
     "object": "cm:bottom-line-up-front"
    },
    {
+    "predicate": "skos:related",
+    "object": "cm:channel-selection"
+   },
+   {
     "predicate": "cmo:addresses",
     "object": "cm:curse-of-knowledge",
     "source": "s3",
@@ -367,6 +371,112 @@
    "https://apps.dtic.mil/sti/pdfs/ADA073773.pdf",
    "https://mitcommlab.mit.edu/aeroastro/2025/03/17/how-to-write-effective-emails/",
    "https://pressbooks.atlanticoer-relatlantique.ca/businesscommunication/chapter/4-direct-and-indirect-negative-messaging/"
+  ]
+ },
+ {
+  "id": "cm:channel-selection",
+  "title": "Channel selection",
+  "aliases": [
+   "choosing a communication channel",
+   "media choice",
+   "medium selection"
+  ],
+  "type": "Technique",
+  "domain": "digital-and-async-communication",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/digital-and-async-communication/channel-selection.md",
+  "created": "2026-11-03",
+  "summary": "Deliberately choosing the medium for a message - in person, video, phone, chat, email or a document - according to whether the job is to transmit information or to build shared understanding, how much tone and feedback matter, and what the receiver needs to do with it.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:communication-planning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:audience-analysis"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:bottom-line-up-front"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:asynchronous-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:curse-of-knowledge"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:audience-analysis"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:media-richness-theory",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:media-synchronicity-theory",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:dennis-kinney-1998",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:egocentrism-over-email-study",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:ask-in-person-study",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:email",
+    "source": "s4",
+    "confidence": "high"
+   }
+  ],
+  "selfCheck": [
+   "Am I mainly passing information on, or do we need to reach agreement - and does my channel fit that job?",
+   "If my reader misread the tone of this text, what is the worst plausible interpretation, and would a call prevent it?",
+   "Am I choosing email or chat because it suits the message, or because it lets me avoid an awkward conversation?",
+   "After a live discussion, have I put the decision, owners and dates in writing?"
+  ],
+  "steps": [
+   "Name the job of the message in one line - is it mainly to pass on information the receiver can absorb alone (conveyance), or to agree on meaning, resolve disagreement or decide something together (convergence)?",
+   "For conveyance - updates, data, instructions, reference material - default to a written, asynchronous channel the receiver can reread and process in their own time.",
+   "For convergence - an ambiguous problem, a disagreement, a sensitive or emotional message, or a request you need someone to say yes to - default to a live channel with voice and fast feedback, such as a call, video or a face-to-face conversation.",
+   "If tone, sarcasm or humour carries part of the meaning, either move to voice or rewrite the text so the meaning survives without your tone of voice; read it aloud in a deliberately flat or opposite tone before sending.",
+   "Combine channels when the task needs both - send the facts in writing first, discuss live, then confirm the decision and owners in writing.",
+   "Check the receiver's side - their familiarity with you and the topic, time zone, norms and access - and adjust the default; a lean channel works better between people who already share context."
+  ],
+  "example": {
+   "situation": "A project manager needs a client's sign-off to cut a feature so the release can stay on date, and the client sponsor is known to be attached to that feature.",
+   "before": "Email, sent at 6 pm - Subject: Scope change. Hi Priya, given the integration issues we will need to drop the reporting module from the March release. Let me know if that works. Thanks.",
+   "after": "Short email first - Subject: Decision needed Thursday - reporting module vs. March date. Priya, I'd like 20 minutes Wednesday to talk through a trade-off: keep the March date by moving the reporting module to April, or keep the module and slip to mid-April. One-page options summary attached. Then a 20-minute call to discuss, followed the same day by a written recap of the decision, owner and new dates.",
+   "why": "The facts travel in writing where they can be reread, the contested decision happens live where questions and concerns surface immediately, and the written recap locks in the shared understanding the call produced."
+  },
+  "source_urls": [
+   "https://collablab.northwestern.edu//CollabolabDistro/nucmc/DaftAndLengel-OrgInfoReq-MediaRichnessAndStructuralDesign-MngmtSci-1986.pdf",
+   "https://ideas.repec.org/a/inm/orisre/v9y1998i3p256-274.html",
+   "https://aisel.aisnet.org/misq/vol32/iss3/8/",
+   "https://www.apa.org/monitor/feb06/egos",
+   "https://www.psychologicalscience.org/?p=129173",
+   "https://scholars.hkbu.edu.hk/en/publications/channel-expansion-theory-a-comprehensive-meta-analysis-literature/"
   ]
  },
  {

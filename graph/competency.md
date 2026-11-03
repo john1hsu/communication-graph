@@ -41,6 +41,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:difficult-conversation` | `cm:i-statements` |
 | `cm:email` | `cm:audience-analysis` |
 | `cm:email` | `cm:bottom-line-up-front` |
+| `cm:email` | `cm:channel-selection` |
 | `cm:memorandum` | `cm:bottom-line-up-front` |
 | `cm:plain-language-summary` | `cm:plain-language` |
 
@@ -53,6 +54,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:high-and-low-context-cultures` | contested | `cm:cardon-2008` |
 | `cm:high-and-low-context-cultures` | contested | `cm:kittler-rygl-mackinnon-2011` |
 | `cm:active-voice` | mixed | `cm:fear-and-loathing-of-the-english-passive` |
+| `cm:channel-selection` | mixed | `cm:dennis-kinney-1998` |
 | `cm:curse-of-knowledge` | mixed | `cm:ryskin-brown-schmidt-2014` |
 | `cm:i-statements` | mixed | `cm:korobov-2020` |
 | `cm:plain-language` | mixed |  |
@@ -64,6 +66,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | node | type |
 |---|---|
 | `cm:active-voice` | cmo:Technique |
+| `cm:channel-selection` | cmo:Technique |
 | `cm:curse-of-knowledge` | cmo:Barrier |
 | `cm:plain-language` | cmo:Principle |
 

@@ -11,7 +11,7 @@ summary: >-
 level: introductory
 evidenceStatus: practitioner
 broader: [cm:audience]
-related: [cm:plain-language, cm:curse-of-knowledge, cm:stakeholder-mapping, cm:bottom-line-up-front]
+related: [cm:plain-language, cm:curse-of-knowledge, cm:stakeholder-mapping, cm:bottom-line-up-front, cm:channel-selection]
 requires: []
 relations:
   - {predicate: addresses, object: cm:curse-of-knowledge, source: s3, confidence: medium}

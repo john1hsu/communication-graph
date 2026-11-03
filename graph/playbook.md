@@ -36,6 +36,31 @@ Ask yourself:
 - Have I said anything that shows I understand the other person's side of the situation?
 - After I speak, am I ready to listen to their reaction rather than repeat my point louder?
 
+## digital-and-async-communication
+
+### [Channel selection](../articles/digital-and-async-communication/channel-selection.md) — Technique
+
+1. Name the job of the message in one line - is it mainly to pass on information the receiver can absorb alone (conveyance), or to agree on meaning, resolve disagreement or decide something together (convergence)?
+2. For conveyance - updates, data, instructions, reference material - default to a written, asynchronous channel the receiver can reread and process in their own time.
+3. For convergence - an ambiguous problem, a disagreement, a sensitive or emotional message, or a request you need someone to say yes to - default to a live channel with voice and fast feedback, such as a call, video or a face-to-face conversation.
+4. If tone, sarcasm or humour carries part of the meaning, either move to voice or rewrite the text so the meaning survives without your tone of voice; read it aloud in a deliberately flat or opposite tone before sending.
+5. Combine channels when the task needs both - send the facts in writing first, discuss live, then confirm the decision and owners in writing.
+6. Check the receiver's side - their familiarity with you and the topic, time zone, norms and access - and adjust the default; a lean channel works better between people who already share context.
+
+*A project manager needs a client's sign-off to cut a feature so the release can stay on date, and the client sponsor is known to be attached to that feature.*
+
+| Before | After |
+|---|---|
+| Email, sent at 6 pm - Subject: Scope change. Hi Priya, given the integration issues we will need to drop the reporting module from the March release. Let me know if that works. Thanks. | Short email first - Subject: Decision needed Thursday - reporting module vs. March date. Priya, I'd like 20 minutes Wednesday to talk through a trade-off: keep the March date by moving the reporting module to April, or keep the module and slip to mid-April. One-page options summary attached. Then a 20-minute call to discuss, followed the same day by a written recap of the decision, owner and new dates. |
+
+**Why:** The facts travel in writing where they can be reread, the contested decision happens live where questions and concerns surface immediately, and the written recap locks in the shared understanding the call produced.
+
+Ask yourself:
+- Am I mainly passing information on, or do we need to reach agreement - and does my channel fit that job?
+- If my reader misread the tone of this text, what is the worst plausible interpretation, and would a call prevent it?
+- Am I choosing email or chat because it suits the message, or because it lets me avoid an awkward conversation?
+- After a live discussion, have I put the decision, owners and dates in writing?
+
 ## foundations
 
 ### [Audience analysis](../articles/foundations/audience-analysis.md) — Technique
