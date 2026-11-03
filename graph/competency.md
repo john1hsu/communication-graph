@@ -31,6 +31,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:active-voice` | 1 | unclear-ownership |
 | `cm:audience-analysis` | 1 | Curse of knowledge |
 | `cm:bottom-line-up-front` | 1 | burying-the-lede |
+| `cm:paraphrasing` | 1 | active-listening |
 | `cm:situation-behavior-impact` | 1 | defensiveness |
 | `cm:words-of-estimative-probability` | 1 | vague-probability-language |
 
@@ -41,6 +42,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | situation | technique |
 |---|---|
 | `cm:difficult-conversation` | `cm:i-statements` |
+| `cm:difficult-conversation` | `cm:paraphrasing` |
 | `cm:email` | `cm:audience-analysis` |
 | `cm:email` | `cm:bottom-line-up-front` |
 | `cm:email` | `cm:channel-selection` |
@@ -64,6 +66,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:direct-vs-indirect-feedback` | mixed | `cm:brew-cairns-2004` |
 | `cm:email` | mixed |  |
 | `cm:i-statements` | mixed | `cm:korobov-2020` |
+| `cm:paraphrasing` | mixed | `cm:weger-castle-emmett-2010` |
 | `cm:plain-language` | mixed |  |
 | `cm:words-of-estimative-probability` | mixed |  |
 

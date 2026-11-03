@@ -145,6 +145,31 @@ Ask yourself:
 - What is in this for them, and do they see it in the first few lines?
 - Have I checked my picture of the audience against something they actually said or did, or am I only guessing?
 
+## listening
+
+### [Paraphrasing](../articles/listening/paraphrasing.md) — Technique
+
+1. Listen to the whole point without planning your reply; note the facts, what the speaker seems to feel and what seems most important to them.
+2. Wait for a natural pause, then restate the core of their message in one or two sentences, using your own words rather than echoing theirs.
+3. Where feelings are clearly present, name the feeling and its cause tentatively ("it sounds like the late change left you frustrated").
+4. End with a check question such as "Have I got that right?" or "What did I miss?" and accept corrections without arguing.
+5. If they correct you, paraphrase the corrected version; follow up with an open question if something is still unclear.
+6. Only once they confirm you have understood, give your own perspective, answer or proposal.
+
+*An operations lead tells a project manager that the new vendor's delivery schedule will not work for the warehouse, and the PM's instinct is to defend the schedule.*
+
+| Before | After |
+|---|---|
+| The schedule was signed off by procurement last month, so we really can't change it now. Let's just make it work. | So if I've understood you, the Tuesday deliveries land on the same morning as the weekly stock count, which means your team either delays the count or leaves trucks waiting - and you're worried we'll start paying demurrage. Is that the main problem, or is there more to it? |
+
+**Why:** The rewrite restates the specific facts and the concern behind them in the PM's own words and invites correction, so the operations lead can confirm or fix the picture before anyone argues for a solution.
+
+Ask yourself:
+- Did I restate their point in my own words, or did I just repeat their phrases back like a parrot?
+- Did I capture what mattered to them and how they felt, not only the facts?
+- Did I end with a genuine check ("Have I got that right?") and accept a correction without defending myself?
+- Did I hold back my own view until they agreed I had understood them?
+
 ## writing
 
 ### [Active voice](../articles/writing/active-voice.md) — Technique

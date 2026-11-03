@@ -556,6 +556,80 @@
 <https://github.com/john1hsu/communication-graph/id/i-statements> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/i-statements> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/rogers-et-al-2018> .
 <https://github.com/john1hsu/communication-graph/id/i-statements> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/simmons-gordon-chambless-2005> .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Did I restate their point in my own words, or did I just repeat their phrases back like a parrot?" .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/paraphrasing> .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Did I capture what mattered to them and how they felt, not only the facts?" .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/paraphrasing> .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Did I end with a genuine check (\"Have I got that right?\") and accept a correction without defending myself?" .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/paraphrasing> .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Did I hold back my own view until they agreed I had understood them?" .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/paraphrasing> .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing/example> <https://github.com/john1hsu/communication-graph/ontology#after> "So if I've understood you, the Tuesday deliveries land on the same morning as the weekly stock count, which means your team either delays the count or leaves trucks waiting - and you're worried we'll start paying demurrage. Is that the main problem, or is there more to it?" .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing/example> <https://github.com/john1hsu/communication-graph/ontology#before> "The schedule was signed off by procurement last month, so we really can't change it now. Let's just make it work." .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "An operations lead tells a project manager that the new vendor's delivery schedule will not work for the warehouse, and the PM's instinct is to defend the schedule." .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing/example> <https://github.com/john1hsu/communication-graph/ontology#why> "The rewrite restates the specific facts and the concern behind them in the PM's own words and invites correction, so the operations lead can confirm or fix the picture before anyone argues for a solution." .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing/howto/1> <https://schema.org/text> "Listen to the whole point without planning your reply; note the facts, what the speaker seems to feel and what seems most important to them." .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing/howto/2> <https://schema.org/text> "Wait for a natural pause, then restate the core of their message in one or two sentences, using your own words rather than echoing theirs." .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing/howto/3> <https://schema.org/text> "Where feelings are clearly present, name the feeling and its cause tentatively (\"it sounds like the late change left you frustrated\")." .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing/howto/4> <https://schema.org/text> "End with a check question such as \"Have I got that right?\" or \"What did I miss?\" and accept corrections without arguing." .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing/howto/5> <https://schema.org/text> "If they correct you, paraphrase the corrected version; follow up with an open question if something is still unclear." .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing/howto/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing/howto/6> <https://schema.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing/howto/6> <https://schema.org/text> "Only once they confirm you have understood, give your own perspective, answer or proposal." .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing/howto> <https://schema.org/name> "Paraphrasing" .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/paraphrasing/howto/1> .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/paraphrasing/howto/2> .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/paraphrasing/howto/3> .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/paraphrasing/howto/4> .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/paraphrasing/howto/5> .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/paraphrasing/howto/6> .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing> <http://purl.org/dc/terms/created> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Technique> .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing> <http://www.w3.org/2000/01/rdf-schema#label> "Paraphrasing" .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing> <http://www.w3.org/2004/02/skos/core#altLabel> "empathic paraphrasing" .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing> <http://www.w3.org/2004/02/skos/core#altLabel> "message paraphrase" .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing> <http://www.w3.org/2004/02/skos/core#altLabel> "reflecting content" .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing> <http://www.w3.org/2004/02/skos/core#altLabel> "restating" .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing> <http://www.w3.org/2004/02/skos/core#definition> "Restating, in your own words, the substance of what someone has just said - and, where it matters, the feeling and priority behind it - then checking whether you have understood them correctly before you respond with your own view." .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/listening> .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing> <http://www.w3.org/2004/02/skos/core#prefLabel> "Paraphrasing" .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/i-statements> .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/open-ended-questions> .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/paraphrasing/s1> .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/paraphrasing/s2> .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/paraphrasing/s3> .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/paraphrasing/s4> .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/paraphrasing/s5> .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/difficult-conversation> .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/weger-castle-emmett-2010> .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing> <https://github.com/john1hsu/communication-graph/ontology#develops> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing> <https://github.com/john1hsu/communication-graph/ontology#domain> "listening" .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/paraphrasing/example> .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/listening/paraphrasing.md" .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/paraphrasing/howto> .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/carl-rogers> .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/seehausen-et-al-2012> .
+<https://github.com/john1hsu/communication-graph/id/paraphrasing> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> .
 <https://github.com/john1hsu/communication-graph/id/plain-language/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/plain-language/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Who exactly is reading this, and what do they already know about the subject?" .
 <https://github.com/john1hsu/communication-graph/id/plain-language/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/plain-language> .
@@ -1046,6 +1120,36 @@
 <https://github.com/john1hsu/communication-graph/id/source/i-statements/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/i-statements/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
 <https://github.com/john1hsu/communication-graph/id/source/i-statements/s6> <https://schema.org/url> <https://www.gordontraining.com/?p=69> .
+<https://github.com/john1hsu/communication-graph/id/source/paraphrasing/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/paraphrasing/s1> <http://purl.org/dc/terms/publisher> "Seehausen, Kazzer, Bajbouj & Prehn, Frontiers in Psychology 3:482 (2012), doi:10.3389/fpsyg.2012.00482" .
+<https://github.com/john1hsu/communication-graph/id/source/paraphrasing/s1> <http://purl.org/dc/terms/title> "Effects of Empathic Paraphrasing - Extrinsic Emotion Regulation in Social Conflict" .
+<https://github.com/john1hsu/communication-graph/id/source/paraphrasing/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/paraphrasing/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/paraphrasing/s1> <https://schema.org/url> <https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2012.00482/full> .
+<https://github.com/john1hsu/communication-graph/id/source/paraphrasing/s2> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/paraphrasing/s2> <http://purl.org/dc/terms/publisher> "Weger, Castle & Emmett, International Journal of Listening 24(1), 34-49 (2010), doi:10.1080/10904010903466311 (University of Central Florida STARS record)" .
+<https://github.com/john1hsu/communication-graph/id/source/paraphrasing/s2> <http://purl.org/dc/terms/title> "Active Listening in Peer Interviews: The Influence of Message Paraphrasing on Perceptions of Listening Skill" .
+<https://github.com/john1hsu/communication-graph/id/source/paraphrasing/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/paraphrasing/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/paraphrasing/s2> <https://schema.org/url> <https://stars.library.ucf.edu/scopus2010/1477> .
+<https://github.com/john1hsu/communication-graph/id/source/paraphrasing/s3> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/paraphrasing/s3> <http://purl.org/dc/terms/publisher> "REACH Families, University of Minnesota - summary of Weger, Bell, Minei & Robinson, International Journal of Listening 28(1), 13-31 (2014)" .
+<https://github.com/john1hsu/communication-graph/id/source/paraphrasing/s3> <http://purl.org/dc/terms/title> "The Relative Effectiveness of Active Listening in Initial Interactions (research summary)" .
+<https://github.com/john1hsu/communication-graph/id/source/paraphrasing/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/paraphrasing/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/paraphrasing/s3> <https://schema.org/url> <https://reachfamilies.umn.edu/sites/default/files/prtw/2021-09/Weger_2014__2021091010606.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/paraphrasing/s4> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/paraphrasing/s4> <http://purl.org/dc/terms/publisher> "Program on Negotiation at Harvard Law School (PON Staff, adapted from Robert C. Bordone, \"Listen Up! Your Talks May Depend on It\")" .
+<https://github.com/john1hsu/communication-graph/id/source/paraphrasing/s4> <http://purl.org/dc/terms/title> "Negotiation Skills for Win-Win Negotiations" .
+<https://github.com/john1hsu/communication-graph/id/source/paraphrasing/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/paraphrasing/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/paraphrasing/s4> <https://schema.org/url> <https://www.pon.harvard.edu/daily/negotiation-skills-daily/listening-skills-for-maximum-success/> .
+<https://github.com/john1hsu/communication-graph/id/source/paraphrasing/s5> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/paraphrasing/s5> <http://purl.org/dc/terms/publisher> "Kluger, Lehmann, Aguinis, Itzchakov, Gordoni, Zyberaj & Bakaç, Journal of Business and Psychology 39(2), 295-344 (2024), doi:10.1007/s10869-023-09897-5 (Hebrew University research portal)" .
+<https://github.com/john1hsu/communication-graph/id/source/paraphrasing/s5> <http://purl.org/dc/terms/title> "A Meta-analytic Systematic Review and Theory of the Effects of Perceived Listening on Work Outcomes" .
+<https://github.com/john1hsu/communication-graph/id/source/paraphrasing/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/paraphrasing/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/paraphrasing/s5> <https://schema.org/url> <https://cris.huji.ac.il/en/publications/a-meta-analytic-systematic-review-and-theory-of-the-effects-of-pe/> .
 <https://github.com/john1hsu/communication-graph/id/source/plain-language/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/plain-language/s1> <http://purl.org/dc/terms/publisher> "Digital.gov Plain Language Guide Series (U.S. General Services Administration)" .
 <https://github.com/john1hsu/communication-graph/id/source/plain-language/s1> <http://purl.org/dc/terms/title> "Principles of plain language" .

@@ -14,6 +14,7 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 0.80 | `cm:channel-selection` | `cm:high-and-low-context-cultures` | `cm:audience-analysis`, `cm:bottom-line-up-front` |
 | 0.80 | `cm:email` | `cm:high-and-low-context-cultures` | `cm:audience-analysis`, `cm:bottom-line-up-front` |
 | 0.80 | `cm:high-and-low-context-cultures` | `cm:plain-language` | `cm:audience-analysis`, `cm:bottom-line-up-front` |
+| 0.79 | `cm:direct-vs-indirect-feedback` | `cm:paraphrasing` | `cm:i-statements`, `cm:situation-behavior-impact` |
 | 0.75 | `cm:active-voice` | `cm:audience-analysis` | `cm:bottom-line-up-front`, `cm:plain-language` |
 | 0.75 | `cm:active-voice` | `cm:email` | `cm:bottom-line-up-front`, `cm:plain-language` |
 | 0.75 | `cm:active-voice` | `cm:words-of-estimative-probability` | `cm:bottom-line-up-front`, `cm:plain-language` |
@@ -28,4 +29,3 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 0.43 | `cm:aristotles-rhetoric` | `cm:bottom-line-up-front` | `cm:audience-analysis` |
 | 0.43 | `cm:aristotles-rhetoric` | `cm:channel-selection` | `cm:audience-analysis` |
 | 0.43 | `cm:aristotles-rhetoric` | `cm:email` | `cm:audience-analysis` |
-| 0.43 | `cm:aristotles-rhetoric` | `cm:high-and-low-context-cultures` | `cm:audience-analysis` |

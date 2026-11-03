@@ -1004,6 +1004,104 @@
   ]
  },
  {
+  "id": "cm:paraphrasing",
+  "title": "Paraphrasing",
+  "aliases": [
+   "restating",
+   "reflecting content",
+   "message paraphrase",
+   "empathic paraphrasing"
+  ],
+  "type": "Technique",
+  "domain": "listening",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/listening/paraphrasing.md",
+  "created": "2026-11-03",
+  "summary": "Restating, in your own words, the substance of what someone has just said - and, where it matters, the feeling and priority behind it - then checking whether you have understood them correctly before you respond with your own view.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:active-listening"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:open-ended-questions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:i-statements"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:situation-behavior-impact"
+   },
+   {
+    "predicate": "cmo:develops",
+    "object": "cm:active-listening",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:difficult-conversation",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:carl-rogers",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:seehausen-et-al-2012",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:weger-et-al-2014",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:weger-castle-emmett-2010",
+    "source": "s2",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Did I restate their point in my own words, or did I just repeat their phrases back like a parrot?",
+   "Did I capture what mattered to them and how they felt, not only the facts?",
+   "Did I end with a genuine check (\"Have I got that right?\") and accept a correction without defending myself?",
+   "Did I hold back my own view until they agreed I had understood them?"
+  ],
+  "steps": [
+   "Listen to the whole point without planning your reply; note the facts, what the speaker seems to feel and what seems most important to them.",
+   "Wait for a natural pause, then restate the core of their message in one or two sentences, using your own words rather than echoing theirs.",
+   "Where feelings are clearly present, name the feeling and its cause tentatively (\"it sounds like the late change left you frustrated\").",
+   "End with a check question such as \"Have I got that right?\" or \"What did I miss?\" and accept corrections without arguing.",
+   "If they correct you, paraphrase the corrected version; follow up with an open question if something is still unclear.",
+   "Only once they confirm you have understood, give your own perspective, answer or proposal."
+  ],
+  "example": {
+   "situation": "An operations lead tells a project manager that the new vendor's delivery schedule will not work for the warehouse, and the PM's instinct is to defend the schedule.",
+   "before": "The schedule was signed off by procurement last month, so we really can't change it now. Let's just make it work.",
+   "after": "So if I've understood you, the Tuesday deliveries land on the same morning as the weekly stock count, which means your team either delays the count or leaves trucks waiting - and you're worried we'll start paying demurrage. Is that the main problem, or is there more to it?",
+   "why": "The rewrite restates the specific facts and the concern behind them in the PM's own words and invites correction, so the operations lead can confirm or fix the picture before anyone argues for a solution."
+  },
+  "source_urls": [
+   "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2012.00482/full",
+   "https://stars.library.ucf.edu/scopus2010/1477",
+   "https://reachfamilies.umn.edu/sites/default/files/prtw/2021-09/Weger_2014__2021091010606.pdf",
+   "https://www.pon.harvard.edu/daily/negotiation-skills-daily/listening-skills-for-maximum-success/",
+   "https://cris.huji.ac.il/en/publications/a-meta-analytic-systematic-review-and-theory-of-the-effects-of-pe/"
+  ]
+ },
+ {
   "id": "cm:plain-language",
   "title": "Plain language",
   "aliases": [
