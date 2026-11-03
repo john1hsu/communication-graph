@@ -63,6 +63,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:high-and-low-context-cultures` | contested | `cm:cardon-2008` |
 | `cm:high-and-low-context-cultures` | contested | `cm:kittler-rygl-mackinnon-2011` |
 | `cm:active-voice` | mixed | `cm:fear-and-loathing-of-the-english-passive` |
+| `cm:batna` | mixed | `cm:schaerer-swaab-galinsky-2015` |
 | `cm:channel-selection` | mixed | `cm:dennis-kinney-1998` |
 | `cm:curse-of-knowledge` | mixed | `cm:ryskin-brown-schmidt-2014` |
 | `cm:direct-vs-indirect-feedback` | mixed | `cm:brew-cairns-2004` |
@@ -94,5 +95,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 
 _Which written articles does nothing else in the graph point to (after inference)?_ — `queries/08-orphans.rq`
 
-_No results._
+| node |
+|---|
+| `cm:batna` |
 

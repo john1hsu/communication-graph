@@ -201,6 +201,32 @@ Ask yourself:
 - Did I end with a genuine check ("Have I got that right?") and accept a correction without defending myself?
 - Did I hold back my own view until they agreed I had understood them?
 
+## negotiation
+
+### [BATNA](../articles/negotiation/batna.md) — Technique
+
+1. Before the first meeting, list every realistic thing you could do if no deal is reached - other vendors, other candidates, building it in-house, waiting, or doing nothing.
+2. Translate each alternative into the same terms as the deal on the table (total cost, scope, risk, timing, effort to switch) so you are comparing like with like.
+3. Pick the single best alternative - that is your BATNA - and from it set your reservation value, the worst deal you would still accept over walking away.
+4. Spend some preparation time improving the BATNA itself (get a real competing quote, line up a second option) rather than only describing it.
+5. Estimate the other side's BATNA too, and ask about their alternatives, so you know how much they need this deal.
+6. Anchor your opening ask on your goal, not on your BATNA; keep a weak BATNA to yourself and never invent an alternative you do not have.
+7. Re-check the BATNA whenever new information arrives during the talks, and walk away only when an offer is genuinely worse than it.
+
+*An operations manager is renegotiating an annual software contract after the vendor proposes a 12% price rise.*
+
+| Before | After |
+|---|---|
+| We really can't move away from you, so please do what you can on the price. What's the best you can offer? | We've priced a comparable tool that would cost us about 8% less in year one, including migration. We'd rather stay - the team knows your product - so we're looking for a renewal at last year's rate with the new reporting module included. What would make that work on your side? |
+
+**Why:** The manager did the BATNA homework first (a real, like-for-like competing quote), so the ask is anchored on a goal rather than on desperation, the alternative is mentioned truthfully without a threat, and the question invites the vendor to solve the problem with them.
+
+Ask yourself:
+- Do I know concretely what I will do tomorrow if this negotiation ends without a deal?
+- Have I compared my alternative with the offer on equivalent terms, or only on the headline price?
+- Is my opening ask set by my goal, or have I let a weak alternative drag it down?
+- Is everything I am about to say about my alternatives true?
+
 ## questioning-and-conversation
 
 ### [Teach-back](../articles/questioning-and-conversation/teach-back.md) — Technique

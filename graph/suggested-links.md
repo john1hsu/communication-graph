@@ -9,6 +9,7 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 1.82 | `cm:psychological-safety` | `cm:situation-behavior-impact` | `cm:defensiveness`, `cm:feedback` |
 | 1.56 | `cm:bottom-line-up-front` | `cm:curse-of-knowledge` | `cm:audience-analysis`, `cm:channel-selection`, `cm:email`, `cm:plain-language` |
 | 1.55 | `cm:channel-selection` | `cm:plain-language` | `cm:audience-analysis`, `cm:bottom-line-up-front`, `cm:curse-of-knowledge`, `cm:email` |
+| 1.44 | `cm:batna` | `cm:illusion-of-transparency` | `cm:anchoring-and-adjustment` |
 | 1.34 | `cm:paraphrasing` | `cm:psychological-safety` | `cm:difficult-conversation`, `cm:open-ended-questions` |
 | 1.22 | `cm:bottom-line-up-front` | `cm:william-strunk-jr` | `cm:active-voice`, `cm:effective-writing-for-army-leaders`, `cm:plain-language` |
 | 1.19 | `cm:bottom-line-up-front` | `cm:message-equivocality-media-selection-and-manager-performance` | `cm:audience-analysis`, `cm:channel-selection`, `cm:email` |
@@ -28,4 +29,3 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 0.79 | `cm:channel-selection` | `cm:high-and-low-context-cultures` | `cm:audience-analysis`, `cm:bottom-line-up-front` |
 | 0.79 | `cm:email` | `cm:high-and-low-context-cultures` | `cm:audience-analysis`, `cm:bottom-line-up-front` |
 | 0.79 | `cm:high-and-low-context-cultures` | `cm:plain-language` | `cm:audience-analysis`, `cm:bottom-line-up-front` |
-| 0.79 | `cm:message-equivocality-media-selection-and-manager-performance` | `cm:plain-language` | `cm:audience-analysis`, `cm:email` |

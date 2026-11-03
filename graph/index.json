@@ -265,6 +265,107 @@
   ]
  },
  {
+  "id": "cm:batna",
+  "title": "BATNA",
+  "aliases": [
+   "best alternative to a negotiated agreement",
+   "walk-away alternative",
+   "developing your BATNA"
+  ],
+  "type": "Technique",
+  "domain": "negotiation",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/negotiation/batna.md",
+  "created": "2026-11-03",
+  "summary": "Working out, before you negotiate, the best thing you will actually do if this negotiation fails - and using that alternative as the yardstick for every offer, the basis of your walk-away point and a source of leverage you can deliberately improve.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:principled-negotiation"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "cm:negotiation-preparation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:reservation-value"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:zone-of-possible-agreement"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:anchoring-and-adjustment"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:first-offer"
+   },
+   {
+    "predicate": "cmo:introducedIn",
+    "object": "cm:getting-to-yes",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:roger-fisher",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:brett-pinkley-jackofsky-1996",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:schaerer-swaab-galinsky-2015",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:first-offer",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Do I know concretely what I will do tomorrow if this negotiation ends without a deal?",
+   "Have I compared my alternative with the offer on equivalent terms, or only on the headline price?",
+   "Is my opening ask set by my goal, or have I let a weak alternative drag it down?",
+   "Is everything I am about to say about my alternatives true?"
+  ],
+  "steps": [
+   "Before the first meeting, list every realistic thing you could do if no deal is reached - other vendors, other candidates, building it in-house, waiting, or doing nothing.",
+   "Translate each alternative into the same terms as the deal on the table (total cost, scope, risk, timing, effort to switch) so you are comparing like with like.",
+   "Pick the single best alternative - that is your BATNA - and from it set your reservation value, the worst deal you would still accept over walking away.",
+   "Spend some preparation time improving the BATNA itself (get a real competing quote, line up a second option) rather than only describing it.",
+   "Estimate the other side's BATNA too, and ask about their alternatives, so you know how much they need this deal.",
+   "Anchor your opening ask on your goal, not on your BATNA; keep a weak BATNA to yourself and never invent an alternative you do not have.",
+   "Re-check the BATNA whenever new information arrives during the talks, and walk away only when an offer is genuinely worse than it."
+  ],
+  "example": {
+   "situation": "An operations manager is renegotiating an annual software contract after the vendor proposes a 12% price rise.",
+   "before": "We really can't move away from you, so please do what you can on the price. What's the best you can offer?",
+   "after": "We've priced a comparable tool that would cost us about 8% less in year one, including migration. We'd rather stay - the team knows your product - so we're looking for a renewal at last year's rate with the new reporting module included. What would make that work on your side?",
+   "why": "The manager did the BATNA homework first (a real, like-for-like competing quote), so the ask is anchored on a goal rather than on desperation, the alternative is mentioned truthfully without a threat, and the question invites the vendor to solve the problem with them."
+  },
+  "source_urls": [
+   "https://lawcat.berkeley.edu/record/503537",
+   "https://www.pon.harvard.edu/daily/batna/translate-your-batna-to-the-current-deal/",
+   "https://www.pon.harvard.edu/daily/batna/negotiation-research-you-can-use-should-you-brandish-your-batna-nb/",
+   "https://asu.elsevierpure.com/en/publications/alternatives-to-having-a-batna-in-dyadic-negotiation-the-influenc/",
+   "https://pubmed.ncbi.nlm.nih.gov/25502144/",
+   "https://www.psychologicalscience.org/news/minds-business/negotiating-with-nothing-holds-surprise-benefits.html"
+  ]
+ },
+ {
   "id": "cm:bottom-line-up-front",
   "title": "Bottom line up front",
   "aliases": [
