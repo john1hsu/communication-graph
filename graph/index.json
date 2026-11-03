@@ -1004,6 +1004,98 @@
   ]
  },
  {
+  "id": "cm:illusion-of-transparency",
+  "title": "Illusion of transparency",
+  "aliases": [
+   "transparency illusion",
+   "overestimating how obvious we are"
+  ],
+  "type": "Barrier",
+  "domain": "barriers-and-psychology",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/barriers-and-psychology/illusion-of-transparency.md",
+  "created": "2026-11-03",
+  "summary": "The tendency to overestimate how clearly other people can see our internal states - our nerves, feelings and intentions - and, by extension, how plainly our messages convey what we meant, so we under-signal and fail to check understanding.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:egocentric-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:curse-of-knowledge"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:spotlight-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:words-of-estimative-probability"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:email"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:paraphrasing"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:gilovich-savitsky-medvec-1998",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:anchoring-and-adjustment",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:causes",
+    "object": "cm:speaking-anxiety",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:macinnis-mackinnon-macintyre-2010",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:keysar-henly-2002",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:undermines",
+    "object": "cm:clarity",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Have I actually said the thing I am assuming they already picked up from my tone or face?",
+   "In this email, would a reader who could not hear my voice know whether I was joking, annoyed or serious?",
+   "Did I check what they understood, or did I take their nod as proof?",
+   "Before this presentation, am I treating my racing heart as something the audience can see?"
+  ],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://pubmed.ncbi.nlm.nih.gov/9731312/",
+   "https://www.sciencedirect.com/science/article/abs/pii/S0022103103000568",
+   "https://crisp.org.uiowa.edu/sites/crisp.org.uiowa.edu/files/2020-04/15.4.pdf",
+   "https://chronicle.uchicago.edu/020509/keysarresearch.shtml",
+   "https://stern.nyu.edu/experience-stern/faculty-research/justin-kruger-email-research"
+  ]
+ },
+ {
   "id": "cm:message-equivocality-media-selection-and-manager-performance",
   "title": "Message Equivocality, Media Selection, and Manager Performance",
   "aliases": [

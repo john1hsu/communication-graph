@@ -904,6 +904,85 @@
    ]
   },
   {
+   "@id": "cm:illusion-of-transparency",
+   "@type": "cmo:Barrier",
+   "cmo:causes": {
+    "@id": "cm:speaking-anxiety"
+   },
+   "cmo:demonstratedBy": [
+    {
+     "@id": "cm:gilovich-savitsky-medvec-1998"
+    },
+    {
+     "@id": "cm:keysar-henly-2002"
+    }
+   ],
+   "cmo:domain": "barriers-and-psychology",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:explainedBy": {
+    "@id": "cm:anchoring-and-adjustment"
+   },
+   "cmo:file": "articles/barriers-and-psychology/illusion-of-transparency.md",
+   "cmo:level": "introductory",
+   "cmo:supportedBy": {
+    "@id": "cm:macinnis-mackinnon-macintyre-2010"
+   },
+   "cmo:undermines": {
+    "@id": "cm:clarity"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/illusion-of-transparency/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/illusion-of-transparency/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/illusion-of-transparency/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/illusion-of-transparency/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/illusion-of-transparency/s5"
+    }
+   ],
+   "rdfs:label": "Illusion of transparency",
+   "skos:altLabel": [
+    "overestimating how obvious we are",
+    "transparency illusion"
+   ],
+   "skos:broader": {
+    "@id": "cm:egocentric-bias"
+   },
+   "skos:definition": "The tendency to overestimate how clearly other people can see our internal states - our nerves, feelings and intentions - and, by extension, how plainly our messages convey what we meant, so we under-signal and fail to check understanding.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/barriers-and-psychology"
+   },
+   "skos:prefLabel": "Illusion of transparency",
+   "skos:related": [
+    {
+     "@id": "cm:curse-of-knowledge"
+    },
+    {
+     "@id": "cm:email"
+    },
+    {
+     "@id": "cm:paraphrasing"
+    },
+    {
+     "@id": "cm:spotlight-effect"
+    },
+    {
+     "@id": "cm:words-of-estimative-probability"
+    }
+   ]
+  },
+  {
    "@id": "cm:message-equivocality-media-selection-and-manager-performance",
    "@type": "cmo:Work",
    "cmo:authoredBy": [
@@ -1918,6 +1997,38 @@
    "@type": "schema:HowToStep",
    "schema:position": 6,
    "schema:text": "Stop and listen; expect some defensiveness, reflect back what you hear, and send a clearer second I-statement only if the first one was not understood."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/illusion-of-transparency/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:illusion-of-transparency"
+   },
+   "rdfs:label": "Have I actually said the thing I am assuming they already picked up from my tone or face?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/illusion-of-transparency/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:illusion-of-transparency"
+   },
+   "rdfs:label": "In this email, would a reader who could not hear my voice know whether I was joking, annoyed or serious?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/illusion-of-transparency/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:illusion-of-transparency"
+   },
+   "rdfs:label": "Did I check what they understood, or did I take their nod as proof?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/illusion-of-transparency/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:illusion-of-transparency"
+   },
+   "rdfs:label": "Before this presentation, am I treating my racing heart as something the audience can see?"
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/paraphrasing/check/1",
@@ -3021,6 +3132,76 @@
    "dcterms:title": "About Dr. Thomas Gordon",
    "schema:url": {
     "@id": "https://www.gordontraining.com/?p=69"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/illusion-of-transparency/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Gilovich, Savitsky & Medvec, Journal of Personality and Social Psychology 75(2), 332-346, 1998 (PubMed record)",
+   "dcterms:title": "The illusion of transparency: biased assessments of others' ability to read one's emotional states",
+   "schema:url": {
+    "@id": "https://pubmed.ncbi.nlm.nih.gov/9731312/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/illusion-of-transparency/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Savitsky & Gilovich, Journal of Experimental Social Psychology 39(6), 618-625, 2003 (ScienceDirect)",
+   "dcterms:title": "The illusion of transparency and the alleviation of speech anxiety",
+   "schema:url": {
+    "@id": "https://www.sciencedirect.com/science/article/abs/pii/S0022103103000568"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/illusion-of-transparency/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "MacInnis, Mackinnon & MacIntyre, Current Research in Social Psychology 15(4), 2010 (University of Iowa)",
+   "dcterms:title": "The Illusion of Transparency and Normative Beliefs About Anxiety During Public Speaking",
+   "schema:url": {
+    "@id": "https://crisp.org.uiowa.edu/sites/crisp.org.uiowa.edu/files/2020-04/15.4.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/illusion-of-transparency/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "The University of Chicago Chronicle, May 2002",
+   "dcterms:title": "Speakers overestimate how well they are understood (Keysar & Henly, Psychological Science, 2002)",
+   "schema:url": {
+    "@id": "https://chronicle.uchicago.edu/020509/keysarresearch.shtml"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/illusion-of-transparency/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "NYU Stern School of Business, Faculty & Research",
+   "dcterms:title": "E-mail etiquette: more critical than you might think (Kruger, Epley, Parker & Ng, Egocentrism over e-mail)",
+   "schema:url": {
+    "@id": "https://stern.nyu.edu/experience-stern/faculty-research/justin-kruger-email-research"
    }
   },
   {

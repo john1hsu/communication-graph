@@ -11,6 +11,14 @@ Ask yourself:
 - If my reader had only this message and none of my background, what would they do next?
 - Have I asked someone outside the work to restate my point in their own words, or am I only judging clarity myself?
 
+### [Illusion of transparency](../articles/barriers-and-psychology/illusion-of-transparency.md) — Barrier
+
+Ask yourself:
+- Have I actually said the thing I am assuming they already picked up from my tone or face?
+- In this email, would a reader who could not hear my voice know whether I was joking, annoyed or serious?
+- Did I check what they understood, or did I take their nod as proof?
+- Before this presentation, am I treating my racing heart as something the audience can see?
+
 ## cross-cultural-communication
 
 ### [Direct vs. indirect feedback](../articles/cross-cultural-communication/direct-vs-indirect-feedback.md) — Concept

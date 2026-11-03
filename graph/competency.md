@@ -6,7 +6,9 @@ SPARQL queries in `queries/` run over the asserted graph, the OWL-RL inferences 
 
 _Which written barriers or anti-patterns have nothing in the graph that addresses them?_ — `queries/01-problems-without-fix.rq`
 
-_No results._
+| node | type |
+|---|---|
+| `cm:illusion-of-transparency` | cmo:Barrier |
 
 ## Skills with no practice technique (gap)
 
@@ -66,6 +68,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:direct-vs-indirect-feedback` | mixed | `cm:brew-cairns-2004` |
 | `cm:email` | mixed |  |
 | `cm:i-statements` | mixed | `cm:korobov-2020` |
+| `cm:illusion-of-transparency` | mixed |  |
 | `cm:paraphrasing` | mixed | `cm:weger-castle-emmett-2010` |
 | `cm:plain-language` | mixed |  |
 | `cm:words-of-estimative-probability` | mixed |  |
@@ -79,6 +82,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:curse-of-knowledge` | cmo:Barrier |
 | `cm:direct-vs-indirect-feedback` | cmo:Concept |
 | `cm:email` | cmo:Channel |
+| `cm:illusion-of-transparency` | cmo:Barrier |
 | `cm:plain-language` | cmo:Principle |
 
 ## Orphan articles (gap)

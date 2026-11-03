@@ -4,28 +4,28 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 
 | Score | Node A | Node B | Shared neighbours |
 |---|---|---|---|
-| 1.82 | `cm:curse-of-knowledge` | `cm:words-of-estimative-probability` | `cm:illusion-of-transparency`, `cm:plain-language` |
-| 1.58 | `cm:bottom-line-up-front` | `cm:curse-of-knowledge` | `cm:audience-analysis`, `cm:channel-selection`, `cm:email`, `cm:plain-language` |
-| 1.57 | `cm:channel-selection` | `cm:plain-language` | `cm:audience-analysis`, `cm:bottom-line-up-front`, `cm:curse-of-knowledge`, `cm:email` |
+| 1.83 | `cm:illusion-of-transparency` | `cm:plain-language` | `cm:clarity`, `cm:curse-of-knowledge`, `cm:email`, `cm:words-of-estimative-probability` |
+| 1.57 | `cm:bottom-line-up-front` | `cm:curse-of-knowledge` | `cm:audience-analysis`, `cm:channel-selection`, `cm:email`, `cm:plain-language` |
+| 1.56 | `cm:channel-selection` | `cm:plain-language` | `cm:audience-analysis`, `cm:bottom-line-up-front`, `cm:curse-of-knowledge`, `cm:email` |
 | 1.23 | `cm:bottom-line-up-front` | `cm:william-strunk-jr` | `cm:active-voice`, `cm:effective-writing-for-army-leaders`, `cm:plain-language` |
-| 1.20 | `cm:bottom-line-up-front` | `cm:message-equivocality-media-selection-and-manager-performance` | `cm:audience-analysis`, `cm:channel-selection`, `cm:email` |
-| 1.20 | `cm:curse-of-knowledge` | `cm:message-equivocality-media-selection-and-manager-performance` | `cm:audience-analysis`, `cm:channel-selection`, `cm:email` |
-| 1.14 | `cm:aristotles-rhetoric` | `cm:curse-of-knowledge` | `cm:audience-analysis`, `cm:clarity` |
-| 1.14 | `cm:aristotles-rhetoric` | `cm:plain-language` | `cm:audience-analysis`, `cm:clarity` |
-| 1.10 | `cm:active-voice` | `cm:curse-of-knowledge` | `cm:clarity`, `cm:plain-language` |
-| 0.80 | `cm:message-equivocality-media-selection-and-manager-performance` | `cm:plain-language` | `cm:audience-analysis`, `cm:email` |
+| 1.19 | `cm:bottom-line-up-front` | `cm:message-equivocality-media-selection-and-manager-performance` | `cm:audience-analysis`, `cm:channel-selection`, `cm:email` |
+| 1.19 | `cm:curse-of-knowledge` | `cm:message-equivocality-media-selection-and-manager-performance` | `cm:audience-analysis`, `cm:channel-selection`, `cm:email` |
+| 1.15 | `cm:email` | `cm:words-of-estimative-probability` | `cm:bottom-line-up-front`, `cm:illusion-of-transparency`, `cm:plain-language` |
+| 1.04 | `cm:aristotles-rhetoric` | `cm:curse-of-knowledge` | `cm:audience-analysis`, `cm:clarity` |
+| 1.04 | `cm:aristotles-rhetoric` | `cm:plain-language` | `cm:audience-analysis`, `cm:clarity` |
+| 1.00 | `cm:active-voice` | `cm:curse-of-knowledge` | `cm:clarity`, `cm:plain-language` |
+| 0.80 | `cm:bottom-line-up-front` | `cm:illusion-of-transparency` | `cm:email`, `cm:words-of-estimative-probability` |
 | 0.79 | `cm:direct-vs-indirect-feedback` | `cm:paraphrasing` | `cm:i-statements`, `cm:situation-behavior-impact` |
 | 0.79 | `cm:channel-selection` | `cm:high-and-low-context-cultures` | `cm:audience-analysis`, `cm:bottom-line-up-front` |
 | 0.79 | `cm:email` | `cm:high-and-low-context-cultures` | `cm:audience-analysis`, `cm:bottom-line-up-front` |
 | 0.79 | `cm:high-and-low-context-cultures` | `cm:plain-language` | `cm:audience-analysis`, `cm:bottom-line-up-front` |
+| 0.79 | `cm:message-equivocality-media-selection-and-manager-performance` | `cm:plain-language` | `cm:audience-analysis`, `cm:email` |
+| 0.78 | `cm:curse-of-knowledge` | `cm:words-of-estimative-probability` | `cm:illusion-of-transparency`, `cm:plain-language` |
+| 0.77 | `cm:audience-analysis` | `cm:illusion-of-transparency` | `cm:curse-of-knowledge`, `cm:email` |
+| 0.77 | `cm:channel-selection` | `cm:illusion-of-transparency` | `cm:curse-of-knowledge`, `cm:email` |
 | 0.75 | `cm:active-voice` | `cm:audience-analysis` | `cm:bottom-line-up-front`, `cm:plain-language` |
 | 0.75 | `cm:active-voice` | `cm:email` | `cm:bottom-line-up-front`, `cm:plain-language` |
 | 0.75 | `cm:active-voice` | `cm:words-of-estimative-probability` | `cm:bottom-line-up-front`, `cm:plain-language` |
 | 0.75 | `cm:audience-analysis` | `cm:effective-writing-for-army-leaders` | `cm:bottom-line-up-front`, `cm:plain-language` |
 | 0.75 | `cm:audience-analysis` | `cm:words-of-estimative-probability` | `cm:bottom-line-up-front`, `cm:plain-language` |
 | 0.75 | `cm:effective-writing-for-army-leaders` | `cm:email` | `cm:bottom-line-up-front`, `cm:plain-language` |
-| 0.75 | `cm:effective-writing-for-army-leaders` | `cm:words-of-estimative-probability` | `cm:bottom-line-up-front`, `cm:plain-language` |
-| 0.75 | `cm:email` | `cm:words-of-estimative-probability` | `cm:bottom-line-up-front`, `cm:plain-language` |
-| 0.72 | `cm:active-voice` | `cm:aristotles-rhetoric` | `cm:clarity` |
-| 0.46 | `cm:audience-analysis` | `cm:direct-vs-indirect-feedback` | `cm:high-and-low-context-cultures` |
-| 0.46 | `cm:bottom-line-up-front` | `cm:direct-vs-indirect-feedback` | `cm:high-and-low-context-cultures` |
