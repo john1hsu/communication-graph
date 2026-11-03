@@ -331,6 +331,74 @@
    ]
   },
   {
+   "@id": "cm:effective-writing-for-army-leaders",
+   "@type": "cmo:Work",
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "historical",
+   "cmo:file": "articles/thinkers-and-works/effective-writing-for-army-leaders.md",
+   "cmo:introduces": [
+    {
+     "@id": "cm:bottom-line-up-front"
+    },
+    {
+     "@id": "cm:clarity-index"
+    },
+    {
+     "@id": "cm:quick-screen-edit"
+    }
+   ],
+   "cmo:level": "introductory",
+   "cmo:partOf": {
+    "@id": "cm:army-writing-program"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/effective-writing-for-army-leaders/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/effective-writing-for-army-leaders/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/effective-writing-for-army-leaders/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/effective-writing-for-army-leaders/s4"
+    }
+   ],
+   "rdfs:label": "Effective Writing for Army Leaders",
+   "skos:altLabel": [
+    "DA Pam 600-67",
+    "DA Pamphlet 600-67",
+    "Department of the Army Pamphlet 600-67"
+   ],
+   "skos:broader": {
+    "@id": "cm:writing-style-guide"
+   },
+   "skos:definition": "A 1986 U.S. Department of the Army pamphlet (DA Pam 600-67) that told leaders how to enforce the Army Writing Standard - writing understood in one rapid reading - by putting the \"bottom line\" first, using active voice and short sentences, and coaching writers with a quick-screen edit.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "Effective Writing for Army Leaders",
+   "skos:related": [
+    {
+     "@id": "cm:active-voice"
+    },
+    {
+     "@id": "cm:memorandum"
+    },
+    {
+     "@id": "cm:plain-language"
+    },
+    {
+     "@id": "cm:readability-formulas"
+    }
+   ]
+  },
+  {
    "@id": "cm:high-and-low-context-cultures",
    "@type": "cmo:Phenomenon",
    "cmo:challengedBy": [
@@ -1301,6 +1369,62 @@
    "dcterms:title": "Paraphrase testing",
    "schema:url": {
     "@id": "https://digital.gov/guides/plain-language/test/paraphrase-testing"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/effective-writing-for-army-leaders/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Headquarters, Department of the Army, 2 June 1986 (GovInfo, U.S. Government Publishing Office)",
+   "dcterms:title": "DA Pamphlet 600-67: Effective Writing for Army Leaders",
+   "schema:url": {
+    "@id": "https://www.govinfo.gov/content/pkg/GOVPUB-D101-PURL-LPS69018/pdf/GOVPUB-D101-PURL-LPS69018.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/effective-writing-for-army-leaders/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "U.S. Army Command and General Staff College, Fort Leavenworth, January 2009",
+   "dcterms:title": "Writing and Speaking Skills for Army Leaders (CGSS Student Text 22-2)",
+   "schema:url": {
+    "@id": "https://home.army.mil/wood/download_file/view/6631/1525"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/effective-writing-for-army-leaders/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "practitioner-journal",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Maj. Hassan Kamara, Military Review (Army University Press), January-February 2017",
+   "dcterms:title": "Writing: A Way to Maximize Returns on the Army's Investments in Education",
+   "schema:url": {
+    "@id": "https://www.armyupress.army.mil/Journals/Military-Review/English-Edition-Archives/January-February-2017/ART-017/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/effective-writing-for-army-leaders/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "U.S. Army Training and Doctrine Command (TRADOC), hosted by Washington Headquarters Services plain-language pages",
+   "dcterms:title": "Lesson 11: Writing with Clarity (Action Officer Development Course, Staff Writing)",
+   "schema:url": {
+    "@id": "https://www.esd.whs.mil/Portals/54/Documents/DD/plain_language/ActionOfficer_StaffWriting.pdf?ver=2017-04-04-163823-647"
    }
   },
   {

@@ -61,7 +61,6 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 
 | node | type |
 |---|---|
-| `cm:bottom-line-up-front` | cmo:Technique |
 | `cm:curse-of-knowledge` | cmo:Barrier |
 | `cm:plain-language` | cmo:Principle |
 

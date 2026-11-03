@@ -353,6 +353,77 @@
   ]
  },
  {
+  "id": "cm:effective-writing-for-army-leaders",
+  "title": "Effective Writing for Army Leaders",
+  "aliases": [
+   "DA Pam 600-67",
+   "DA Pamphlet 600-67",
+   "Department of the Army Pamphlet 600-67"
+  ],
+  "type": "Work",
+  "domain": "thinkers-and-works",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/thinkers-and-works/effective-writing-for-army-leaders.md",
+  "created": "2026-11-03",
+  "summary": "A 1986 U.S. Department of the Army pamphlet (DA Pam 600-67) that told leaders how to enforce the Army Writing Standard - writing understood in one rapid reading - by putting the \"bottom line\" first, using active voice and short sentences, and coaching writers with a quick-screen edit.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:writing-style-guide"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:plain-language"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:active-voice"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:readability-formulas"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:memorandum"
+   },
+   {
+    "predicate": "cmo:introduces",
+    "object": "cm:bottom-line-up-front",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:introduces",
+    "object": "cm:quick-screen-edit",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introduces",
+    "object": "cm:clarity-index",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:partOf",
+    "object": "cm:army-writing-program",
+    "source": "s3",
+    "confidence": "high"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://www.govinfo.gov/content/pkg/GOVPUB-D101-PURL-LPS69018/pdf/GOVPUB-D101-PURL-LPS69018.pdf",
+   "https://home.army.mil/wood/download_file/view/6631/1525",
+   "https://www.armyupress.army.mil/Journals/Military-Review/English-Edition-Archives/January-February-2017/ART-017/",
+   "https://www.esd.whs.mil/Portals/54/Documents/DD/plain_language/ActionOfficer_StaffWriting.pdf?ver=2017-04-04-163823-647"
+  ]
+ },
+ {
   "id": "cm:high-and-low-context-cultures",
   "title": "High- and low-context cultures",
   "aliases": [

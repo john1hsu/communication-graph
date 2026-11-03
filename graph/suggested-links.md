@@ -7,8 +7,11 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 1.44 | `cm:high-and-low-context-cultures` | `cm:i-statements` | `cm:direct-vs-indirect-feedback` |
 | 1.37 | `cm:aristotles-rhetoric` | `cm:curse-of-knowledge` | `cm:audience-analysis`, `cm:clarity` |
 | 1.37 | `cm:aristotles-rhetoric` | `cm:plain-language` | `cm:audience-analysis`, `cm:clarity` |
-| 0.89 | `cm:bottom-line-up-front` | `cm:curse-of-knowledge` | `cm:audience-analysis`, `cm:plain-language` |
-| 0.86 | `cm:high-and-low-context-cultures` | `cm:plain-language` | `cm:audience-analysis`, `cm:bottom-line-up-front` |
+| 0.87 | `cm:bottom-line-up-front` | `cm:curse-of-knowledge` | `cm:audience-analysis`, `cm:plain-language` |
+| 0.84 | `cm:high-and-low-context-cultures` | `cm:plain-language` | `cm:audience-analysis`, `cm:bottom-line-up-front` |
+| 0.81 | `cm:audience-analysis` | `cm:effective-writing-for-army-leaders` | `cm:bottom-line-up-front`, `cm:plain-language` |
 | 0.46 | `cm:aristotles-rhetoric` | `cm:bottom-line-up-front` | `cm:audience-analysis` |
 | 0.46 | `cm:aristotles-rhetoric` | `cm:high-and-low-context-cultures` | `cm:audience-analysis` |
 | 0.46 | `cm:curse-of-knowledge` | `cm:high-and-low-context-cultures` | `cm:audience-analysis` |
+| 0.42 | `cm:curse-of-knowledge` | `cm:effective-writing-for-army-leaders` | `cm:plain-language` |
+| 0.39 | `cm:effective-writing-for-army-leaders` | `cm:high-and-low-context-cultures` | `cm:bottom-line-up-front` |
