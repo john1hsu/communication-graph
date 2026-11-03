@@ -574,6 +574,94 @@
    ]
   },
   {
+   "@id": "cm:email",
+   "@type": "cmo:Channel",
+   "cmo:alternativeTo": {
+    "@id": "cm:face-to-face-conversation"
+   },
+   "cmo:causes": {
+    "@id": "cm:information-overload"
+   },
+   "cmo:complements": {
+    "@id": "cm:bottom-line-up-front"
+   },
+   "cmo:demonstratedBy": [
+    {
+     "@id": "cm:barley-meyerson-grodal-2011"
+    },
+    {
+     "@id": "cm:email-urgency-bias-study"
+    },
+    {
+     "@id": "cm:kushlev-dunn-2015"
+    },
+    {
+     "@id": "cm:mark-et-al-2016"
+    }
+   ],
+   "cmo:domain": "digital-and-async-communication",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:file": "articles/digital-and-async-communication/email.md",
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/email/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/email/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/email/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/email/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/email/s5"
+    }
+   ],
+   "rdfs:label": "Email",
+   "skos:altLabel": [
+    "e-mail",
+    "electronic mail",
+    "work email"
+   ],
+   "skos:broader": [
+    {
+     "@id": "cm:asynchronous-communication"
+    },
+    {
+     "@id": "cm:written-communication"
+    }
+   ],
+   "skos:definition": "The asynchronous, text-based channel most organisations use for requests, updates, decisions and records; it suits messages the reader can absorb and act on alone, and works best when each message is scannable, answer-first and explicit about what is needed and by when.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/digital-and-async-communication"
+   },
+   "skos:prefLabel": "Email",
+   "skos:related": [
+    {
+     "@id": "cm:audience-analysis"
+    },
+    {
+     "@id": "cm:bottom-line-up-front"
+    },
+    {
+     "@id": "cm:channel-selection"
+    },
+    {
+     "@id": "cm:curse-of-knowledge"
+    },
+    {
+     "@id": "cm:plain-language"
+    }
+   ]
+  },
+  {
    "@id": "cm:high-and-low-context-cultures",
    "@type": "cmo:Phenomenon",
    "cmo:challengedBy": [
@@ -2010,6 +2098,76 @@
    "dcterms:title": "Lesson 11: Writing with Clarity (Action Officer Development Course, Staff Writing)",
    "schema:url": {
     "@id": "https://www.esd.whs.mil/Portals/54/Documents/DD/plain_language/ActionOfficer_StaffWriting.pdf?ver=2017-04-04-163823-647"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/email/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Kushlev, K. & Dunn, E. W., Computers in Human Behavior 43, 220-228, 2015 (author copy hosted by interruptions.net)",
+   "dcterms:title": "Checking email less frequently reduces stress",
+   "schema:url": {
+    "@id": "https://www.interruptions.net/literature/Kushlev-ComputHumBehav15.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/email/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Barley, S. R., Meyerson, D. E. & Grodal, S., Organization Science 22(4), 887-906, 2011 (RePEc/IDEAS abstract page)",
+   "dcterms:title": "E-mail as a Source and Symbol of Stress",
+   "schema:url": {
+    "@id": "https://ideas.repec.org/a/inm/ororsc/v22y2011i4p887-906.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/email/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Giurge, L. M. & Bohns, V. K., Organizational Behavior and Human Decision Processes 167, 114-128, 2021 (London Business School research repository)",
+   "dcterms:title": "You don't need to answer right away! Receivers overestimate how quickly senders expect responses to non-urgent work emails",
+   "schema:url": {
+    "@id": "https://lbsresearch.london.edu/id/eprint/1928/1/The%20email%20response%20bias.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/email/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Mark, G., Iqbal, S. T., Czerwinski, M., Johns, P. & Sano, A., Proceedings of CHI 2016 (Microsoft Research)",
+   "dcterms:title": "Email Duration, Batching and Self-interruption: Patterns of Email Use on Productivity and Stress",
+   "schema:url": {
+    "@id": "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/06/Email20Duration20Camera20Ready20submission3-1.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/email/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "The Cove, Australian Army (Education Wing, Land Warfare Centre)",
+   "dcterms:title": "Writing effective emails",
+   "schema:url": {
+    "@id": "https://cove.army.gov.au/article/writing-effective-emails"
    }
   },
   {

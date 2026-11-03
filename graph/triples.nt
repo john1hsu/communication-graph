@@ -380,6 +380,38 @@
 <https://github.com/john1hsu/communication-graph/id/effective-writing-for-army-leaders> <https://github.com/john1hsu/communication-graph/ontology#introduces> <https://github.com/john1hsu/communication-graph/id/quick-screen-edit> .
 <https://github.com/john1hsu/communication-graph/id/effective-writing-for-army-leaders> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/effective-writing-for-army-leaders> <https://github.com/john1hsu/communication-graph/ontology#partOf> <https://github.com/john1hsu/communication-graph/id/army-writing-program> .
+<https://github.com/john1hsu/communication-graph/id/email> <http://purl.org/dc/terms/created> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/email> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Channel> .
+<https://github.com/john1hsu/communication-graph/id/email> <http://www.w3.org/2000/01/rdf-schema#label> "Email" .
+<https://github.com/john1hsu/communication-graph/id/email> <http://www.w3.org/2004/02/skos/core#altLabel> "e-mail" .
+<https://github.com/john1hsu/communication-graph/id/email> <http://www.w3.org/2004/02/skos/core#altLabel> "electronic mail" .
+<https://github.com/john1hsu/communication-graph/id/email> <http://www.w3.org/2004/02/skos/core#altLabel> "work email" .
+<https://github.com/john1hsu/communication-graph/id/email> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> .
+<https://github.com/john1hsu/communication-graph/id/email> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/written-communication> .
+<https://github.com/john1hsu/communication-graph/id/email> <http://www.w3.org/2004/02/skos/core#definition> "The asynchronous, text-based channel most organisations use for requests, updates, decisions and records; it suits messages the reader can absorb and act on alone, and works best when each message is scannable, answer-first and explicit about what is needed and by when." .
+<https://github.com/john1hsu/communication-graph/id/email> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/digital-and-async-communication> .
+<https://github.com/john1hsu/communication-graph/id/email> <http://www.w3.org/2004/02/skos/core#prefLabel> "Email" .
+<https://github.com/john1hsu/communication-graph/id/email> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
+<https://github.com/john1hsu/communication-graph/id/email> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
+<https://github.com/john1hsu/communication-graph/id/email> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/channel-selection> .
+<https://github.com/john1hsu/communication-graph/id/email> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> .
+<https://github.com/john1hsu/communication-graph/id/email> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/plain-language> .
+<https://github.com/john1hsu/communication-graph/id/email> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/email/s1> .
+<https://github.com/john1hsu/communication-graph/id/email> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/email/s2> .
+<https://github.com/john1hsu/communication-graph/id/email> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/email/s3> .
+<https://github.com/john1hsu/communication-graph/id/email> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/email/s4> .
+<https://github.com/john1hsu/communication-graph/id/email> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/email/s5> .
+<https://github.com/john1hsu/communication-graph/id/email> <https://github.com/john1hsu/communication-graph/ontology#alternativeTo> <https://github.com/john1hsu/communication-graph/id/face-to-face-conversation> .
+<https://github.com/john1hsu/communication-graph/id/email> <https://github.com/john1hsu/communication-graph/ontology#causes> <https://github.com/john1hsu/communication-graph/id/information-overload> .
+<https://github.com/john1hsu/communication-graph/id/email> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
+<https://github.com/john1hsu/communication-graph/id/email> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/barley-meyerson-grodal-2011> .
+<https://github.com/john1hsu/communication-graph/id/email> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/email-urgency-bias-study> .
+<https://github.com/john1hsu/communication-graph/id/email> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> .
+<https://github.com/john1hsu/communication-graph/id/email> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/mark-et-al-2016> .
+<https://github.com/john1hsu/communication-graph/id/email> <https://github.com/john1hsu/communication-graph/ontology#domain> "digital-and-async-communication" .
+<https://github.com/john1hsu/communication-graph/id/email> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/email> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/digital-and-async-communication/email.md" .
+<https://github.com/john1hsu/communication-graph/id/email> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> <http://purl.org/dc/terms/created> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Phenomenon> .
 <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> <http://www.w3.org/2000/01/rdf-schema#label> "High- and low-context cultures" .
@@ -778,6 +810,36 @@
 <https://github.com/john1hsu/communication-graph/id/source/effective-writing-for-army-leaders/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/effective-writing-for-army-leaders/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
 <https://github.com/john1hsu/communication-graph/id/source/effective-writing-for-army-leaders/s4> <https://schema.org/url> <https://www.esd.whs.mil/Portals/54/Documents/DD/plain_language/ActionOfficer_StaffWriting.pdf?ver=2017-04-04-163823-647> .
+<https://github.com/john1hsu/communication-graph/id/source/email/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/email/s1> <http://purl.org/dc/terms/publisher> "Kushlev, K. & Dunn, E. W., Computers in Human Behavior 43, 220-228, 2015 (author copy hosted by interruptions.net)" .
+<https://github.com/john1hsu/communication-graph/id/source/email/s1> <http://purl.org/dc/terms/title> "Checking email less frequently reduces stress" .
+<https://github.com/john1hsu/communication-graph/id/source/email/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/email/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/email/s1> <https://schema.org/url> <https://www.interruptions.net/literature/Kushlev-ComputHumBehav15.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/email/s2> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/email/s2> <http://purl.org/dc/terms/publisher> "Barley, S. R., Meyerson, D. E. & Grodal, S., Organization Science 22(4), 887-906, 2011 (RePEc/IDEAS abstract page)" .
+<https://github.com/john1hsu/communication-graph/id/source/email/s2> <http://purl.org/dc/terms/title> "E-mail as a Source and Symbol of Stress" .
+<https://github.com/john1hsu/communication-graph/id/source/email/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/email/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/email/s2> <https://schema.org/url> <https://ideas.repec.org/a/inm/ororsc/v22y2011i4p887-906.html> .
+<https://github.com/john1hsu/communication-graph/id/source/email/s3> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/email/s3> <http://purl.org/dc/terms/publisher> "Giurge, L. M. & Bohns, V. K., Organizational Behavior and Human Decision Processes 167, 114-128, 2021 (London Business School research repository)" .
+<https://github.com/john1hsu/communication-graph/id/source/email/s3> <http://purl.org/dc/terms/title> "You don't need to answer right away! Receivers overestimate how quickly senders expect responses to non-urgent work emails" .
+<https://github.com/john1hsu/communication-graph/id/source/email/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/email/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/email/s3> <https://schema.org/url> <https://lbsresearch.london.edu/id/eprint/1928/1/The%20email%20response%20bias.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/email/s4> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/email/s4> <http://purl.org/dc/terms/publisher> "Mark, G., Iqbal, S. T., Czerwinski, M., Johns, P. & Sano, A., Proceedings of CHI 2016 (Microsoft Research)" .
+<https://github.com/john1hsu/communication-graph/id/source/email/s4> <http://purl.org/dc/terms/title> "Email Duration, Batching and Self-interruption: Patterns of Email Use on Productivity and Stress" .
+<https://github.com/john1hsu/communication-graph/id/source/email/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/email/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/email/s4> <https://schema.org/url> <https://www.microsoft.com/en-us/research/wp-content/uploads/2016/06/Email20Duration20Camera20Ready20submission3-1.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/email/s5> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/email/s5> <http://purl.org/dc/terms/publisher> "The Cove, Australian Army (Education Wing, Land Warfare Centre)" .
+<https://github.com/john1hsu/communication-graph/id/source/email/s5> <http://purl.org/dc/terms/title> "Writing effective emails" .
+<https://github.com/john1hsu/communication-graph/id/source/email/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/email/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/communication-graph/id/source/email/s5> <https://schema.org/url> <https://cove.army.gov.au/article/writing-effective-emails> .
 <https://github.com/john1hsu/communication-graph/id/source/high-and-low-context-cultures/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/high-and-low-context-cultures/s1> <http://purl.org/dc/terms/publisher> "Wrench, Punyanunt-Carter & Thweatt, adapted in Exploring Relationship Dynamics (Maricopa Community College District Open Textbook, CC BY-NC-SA 4.0)" .
 <https://github.com/john1hsu/communication-graph/id/source/high-and-low-context-cultures/s1> <http://purl.org/dc/terms/title> "1.5 Cultural Characteristics and Communication" .

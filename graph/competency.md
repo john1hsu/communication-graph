@@ -56,6 +56,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:active-voice` | mixed | `cm:fear-and-loathing-of-the-english-passive` |
 | `cm:channel-selection` | mixed | `cm:dennis-kinney-1998` |
 | `cm:curse-of-knowledge` | mixed | `cm:ryskin-brown-schmidt-2014` |
+| `cm:email` | mixed |  |
 | `cm:i-statements` | mixed | `cm:korobov-2020` |
 | `cm:plain-language` | mixed |  |
 
@@ -67,6 +68,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 |---|---|
 | `cm:channel-selection` | cmo:Technique |
 | `cm:curse-of-knowledge` | cmo:Barrier |
+| `cm:email` | cmo:Channel |
 | `cm:plain-language` | cmo:Principle |
 
 ## Orphan articles (gap)
