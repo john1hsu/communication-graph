@@ -1,0 +1,11 @@
+# title: Concepts with no recorded origin
+# question: Which written concepts have no introducedBy / introducedIn edge (who named or popularised it, where)?
+# gap: true
+SELECT ?node ?type WHERE {
+  ?node cmo:file ?f ; a ?type .
+  ?type rdfs:subClassOf* cmo:Concept .
+  FILTER(STRSTARTS(STR(?type), STR(cmo:)))
+  FILTER NOT EXISTS { ?node cmo:introducedBy ?p }
+  FILTER NOT EXISTS { ?node cmo:introducedIn ?w }
+  FILTER NOT EXISTS { ?node a ?sub . ?sub rdfs:subClassOf ?type . FILTER(?sub != ?type) }
+} ORDER BY ?node

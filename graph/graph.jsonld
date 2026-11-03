@@ -1,0 +1,97 @@
+{
+ "@context": {
+  "cm": "https://github.com/john1hsu/communication-graph/id/",
+  "cmo": "https://github.com/john1hsu/communication-graph/ontology#",
+  "dcterms": "http://purl.org/dc/terms/",
+  "owl": "http://www.w3.org/2002/07/owl#",
+  "prov": "http://www.w3.org/ns/prov#",
+  "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+  "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+  "schema": "https://schema.org/",
+  "skos": "http://www.w3.org/2004/02/skos/core#",
+  "wd": "http://www.wikidata.org/entity/",
+  "xsd": "http://www.w3.org/2001/XMLSchema#"
+ },
+ "@graph": [
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/scheme/barriers-and-psychology",
+   "@type": "skos:ConceptScheme",
+   "skos:prefLabel": "Barriers and the psychology of communication"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/scheme/cross-cultural-communication",
+   "@type": "skos:ConceptScheme",
+   "skos:prefLabel": "Cross-cultural communication"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/scheme/difficult-conversations-and-conflict",
+   "@type": "skos:ConceptScheme",
+   "skos:prefLabel": "Difficult conversations and conflict"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/scheme/digital-and-async-communication",
+   "@type": "skos:ConceptScheme",
+   "skos:prefLabel": "Digital and asynchronous communication"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/scheme/executive-and-client-communication",
+   "@type": "skos:ConceptScheme",
+   "skos:prefLabel": "Executive, client and consulting communication"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/scheme/feedback-and-coaching",
+   "@type": "skos:ConceptScheme",
+   "skos:prefLabel": "Feedback and coaching"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/scheme/foundations",
+   "@type": "skos:ConceptScheme",
+   "skos:prefLabel": "Foundations of communication"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/scheme/listening",
+   "@type": "skos:ConceptScheme",
+   "skos:prefLabel": "Listening and understanding"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/scheme/meetings-and-facilitation",
+   "@type": "skos:ConceptScheme",
+   "skos:prefLabel": "Meetings and facilitation"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/scheme/negotiation",
+   "@type": "skos:ConceptScheme",
+   "skos:prefLabel": "Negotiation"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/scheme/nonverbal-and-voice",
+   "@type": "skos:ConceptScheme",
+   "skos:prefLabel": "Nonverbal communication and voice"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/scheme/persuasion-and-influence",
+   "@type": "skos:ConceptScheme",
+   "skos:prefLabel": "Persuasion and influence"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/scheme/presenting-and-public-speaking",
+   "@type": "skos:ConceptScheme",
+   "skos:prefLabel": "Presenting and public speaking"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/scheme/questioning-and-conversation",
+   "@type": "skos:ConceptScheme",
+   "skos:prefLabel": "Questioning and conversation"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works",
+   "@type": "skos:ConceptScheme",
+   "skos:prefLabel": "Thinkers, landmark works and studies"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/scheme/writing",
+   "@type": "skos:ConceptScheme",
+   "skos:prefLabel": "Business and professional writing"
+  }
+ ]
+}

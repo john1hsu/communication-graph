@@ -1,0 +1,5 @@
+# Turtle-star (RDF 1.2): each typed edge annotated with the source that supports it and a confidence.
+@prefix cmo: <https://github.com/john1hsu/communication-graph/ontology#> .
+@prefix cm: <https://github.com/john1hsu/communication-graph/id/> .
+
+

@@ -1,0 +1,9 @@
+# title: Situations, channels and formats with no guidance
+# question: Which written contexts, channels or genres have no technique, framework or principle applied in them or structuring them?
+# gap: true
+SELECT ?node ?type WHERE {
+  ?node cmo:file ?f ; a ?type .
+  VALUES ?type { cmo:Context cmo:Channel cmo:Genre }
+  FILTER NOT EXISTS { ?node cmo:benefitsFrom ?x }
+  FILTER NOT EXISTS { ?node cmo:structuredBy ?y }
+} ORDER BY ?node

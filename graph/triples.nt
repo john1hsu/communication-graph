@@ -1,0 +1,32 @@
+<https://github.com/john1hsu/communication-graph/id/scheme/barriers-and-psychology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://github.com/john1hsu/communication-graph/id/scheme/barriers-and-psychology> <http://www.w3.org/2004/02/skos/core#prefLabel> "Barriers and the psychology of communication" .
+<https://github.com/john1hsu/communication-graph/id/scheme/cross-cultural-communication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://github.com/john1hsu/communication-graph/id/scheme/cross-cultural-communication> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cross-cultural communication" .
+<https://github.com/john1hsu/communication-graph/id/scheme/difficult-conversations-and-conflict> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://github.com/john1hsu/communication-graph/id/scheme/difficult-conversations-and-conflict> <http://www.w3.org/2004/02/skos/core#prefLabel> "Difficult conversations and conflict" .
+<https://github.com/john1hsu/communication-graph/id/scheme/digital-and-async-communication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://github.com/john1hsu/communication-graph/id/scheme/digital-and-async-communication> <http://www.w3.org/2004/02/skos/core#prefLabel> "Digital and asynchronous communication" .
+<https://github.com/john1hsu/communication-graph/id/scheme/executive-and-client-communication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://github.com/john1hsu/communication-graph/id/scheme/executive-and-client-communication> <http://www.w3.org/2004/02/skos/core#prefLabel> "Executive, client and consulting communication" .
+<https://github.com/john1hsu/communication-graph/id/scheme/feedback-and-coaching> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://github.com/john1hsu/communication-graph/id/scheme/feedback-and-coaching> <http://www.w3.org/2004/02/skos/core#prefLabel> "Feedback and coaching" .
+<https://github.com/john1hsu/communication-graph/id/scheme/foundations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://github.com/john1hsu/communication-graph/id/scheme/foundations> <http://www.w3.org/2004/02/skos/core#prefLabel> "Foundations of communication" .
+<https://github.com/john1hsu/communication-graph/id/scheme/listening> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://github.com/john1hsu/communication-graph/id/scheme/listening> <http://www.w3.org/2004/02/skos/core#prefLabel> "Listening and understanding" .
+<https://github.com/john1hsu/communication-graph/id/scheme/meetings-and-facilitation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://github.com/john1hsu/communication-graph/id/scheme/meetings-and-facilitation> <http://www.w3.org/2004/02/skos/core#prefLabel> "Meetings and facilitation" .
+<https://github.com/john1hsu/communication-graph/id/scheme/negotiation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://github.com/john1hsu/communication-graph/id/scheme/negotiation> <http://www.w3.org/2004/02/skos/core#prefLabel> "Negotiation" .
+<https://github.com/john1hsu/communication-graph/id/scheme/nonverbal-and-voice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://github.com/john1hsu/communication-graph/id/scheme/nonverbal-and-voice> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nonverbal communication and voice" .
+<https://github.com/john1hsu/communication-graph/id/scheme/persuasion-and-influence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://github.com/john1hsu/communication-graph/id/scheme/persuasion-and-influence> <http://www.w3.org/2004/02/skos/core#prefLabel> "Persuasion and influence" .
+<https://github.com/john1hsu/communication-graph/id/scheme/presenting-and-public-speaking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://github.com/john1hsu/communication-graph/id/scheme/presenting-and-public-speaking> <http://www.w3.org/2004/02/skos/core#prefLabel> "Presenting and public speaking" .
+<https://github.com/john1hsu/communication-graph/id/scheme/questioning-and-conversation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://github.com/john1hsu/communication-graph/id/scheme/questioning-and-conversation> <http://www.w3.org/2004/02/skos/core#prefLabel> "Questioning and conversation" .
+<https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works> <http://www.w3.org/2004/02/skos/core#prefLabel> "Thinkers, landmark works and studies" .
+<https://github.com/john1hsu/communication-graph/id/scheme/writing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://github.com/john1hsu/communication-graph/id/scheme/writing> <http://www.w3.org/2004/02/skos/core#prefLabel> "Business and professional writing" .

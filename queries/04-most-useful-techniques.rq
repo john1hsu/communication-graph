@@ -1,0 +1,8 @@
+# title: Highest-leverage techniques
+# question: Which techniques, frameworks and principles fix the most problems or build the most skills?
+# gap: false
+SELECT ?technique (COUNT(DISTINCT ?target) AS ?reach) (GROUP_CONCAT(DISTINCT STR(?label); separator=", ") AS ?targets) WHERE {
+  { ?technique cmo:addresses ?target } UNION { ?technique cmo:develops ?target }
+  OPTIONAL { ?target skos:prefLabel ?l }
+  BIND(COALESCE(?l, REPLACE(STR(?target), "^.*/", "")) AS ?label)
+} GROUP BY ?technique ORDER BY DESC(?reach) ?technique

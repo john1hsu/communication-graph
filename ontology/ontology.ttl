@@ -1,0 +1,175 @@
+@prefix cm:      <https://github.com/john1hsu/communication-graph/id/> .
+@prefix cmo:     <https://github.com/john1hsu/communication-graph/ontology#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+@prefix schema:  <https://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+# =============================================================================
+# Communication Graph ontology (OWL 2 RL profile)
+#
+#  * Every article is a node; its class comes from frontmatter `type`.
+#  * `broader` / `related`         -> skos:broader / skos:related
+#  * `relations[].predicate`       -> the typed object properties below
+#  * `requires`                    -> cmo:requires (transitive; learning paths)
+#  * `steps`                       -> schema:HowTo / schema:HowToStep
+#  * `example`                     -> cmo:Rewrite (before / after / why)
+#  * `selfCheck`                   -> cmo:SelfCheckQuestion nodes
+#  * provenance                    -> PROV-O; edge evidence -> RDF-star
+#
+# Property characteristics (inverse, symmetric, transitive) and class
+# disjointness drive OWL-RL reasoning and contradiction detection in
+# `scripts/kg.py build`. Domain/range is enforced for written targets.
+# Add a class or property here BEFORE using it. Reuse first.
+# =============================================================================
+
+cmo: a owl:Ontology ;
+    rdfs:label "Communication Graph ontology" ;
+    dcterms:description "Classes and typed relations for a citation-backed knowledge graph of communication skills: listening, speaking, writing, presenting, feedback, persuasion, negotiation, difficult conversations, executive and cross-cultural communication." ;
+    owl:versionInfo "1.0.0" .
+
+# ---- Upper classes ------------------------------------------------------------
+cmo:Entity  a owl:Class ; rdfs:label "Entity" .
+cmo:Concept a owl:Class ; rdfs:subClassOf cmo:Entity , skos:Concept ; rdfs:label "Concept" ;
+    rdfs:comment "A general communication idea: audience, message, register, rapport, clarity." .
+
+# ---- What you get better at ---------------------------------------------------
+cmo:Skill a owl:Class ; rdfs:subClassOf cmo:Concept ; rdfs:label "Skill" ;
+    rdfs:comment "A learnable communication capability: active listening, storytelling, concise writing, asking good questions, facilitation." .
+cmo:Technique a owl:Class ; rdfs:subClassOf cmo:Concept ; rdfs:label "Technique" ;
+    rdfs:comment "A concrete, repeatable method with steps: SBI feedback, BLUF, paraphrasing, labeling emotions, the pyramid principle, tactical empathy." .
+cmo:Framework a owl:Class ; rdfs:subClassOf cmo:Concept ; rdfs:label "Framework / model" ;
+    rdfs:comment "A structuring model: SCQA, Johari window, Thomas-Kilmann conflict modes, nonviolent communication, principled negotiation, the ladder of inference." .
+cmo:Principle a owl:Class ; rdfs:subClassOf cmo:Concept ; rdfs:label "Principle" ;
+    rdfs:comment "A guiding norm: know your audience, one message per slide, plain language, Grice's maxims, assume positive intent." .
+cmo:Disposition a owl:Class ; rdfs:subClassOf cmo:Concept ; rdfs:label "Disposition / trait" ;
+    rdfs:comment "A quality behind good communication: empathy, assertiveness, curiosity, candor, composure." .
+
+# ---- What gets in the way -----------------------------------------------------
+cmo:Barrier a owl:Class ; rdfs:subClassOf cmo:Concept ; rdfs:label "Barrier" ;
+    rdfs:comment "A cognitive, social or situational obstacle: curse of knowledge, illusion of transparency, defensiveness, information overload, noise." .
+cmo:AntiPattern a owl:Class ; rdfs:subClassOf cmo:Concept ; rdfs:label "Anti-pattern" ;
+    rdfs:comment "A recognisable bad habit: burying the lede, wall-of-text emails, interrupting, filler words, death by PowerPoint, the feedback sandwich (contested)." .
+
+# ---- Where it happens ---------------------------------------------------------
+cmo:Context a owl:Class ; rdfs:subClassOf cmo:Concept ; rdfs:label "Context / situation" ;
+    rdfs:comment "A recurring communication situation: executive briefing, one-on-one, job interview, difficult conversation, client workshop, cross-cultural meeting, crisis communication." .
+cmo:Channel a owl:Class ; rdfs:subClassOf cmo:Concept ; rdfs:label "Channel / medium" ;
+    rdfs:comment "A medium: email, chat (Slack/Teams), video call, phone, slide deck, written memo, in person." .
+cmo:Genre a owl:Class ; rdfs:subClassOf cmo:Concept ; rdfs:label "Genre / format" ;
+    rdfs:comment "A recognisable message format: executive summary, status report, elevator pitch, one-pager, decision memo, apology." .
+
+# ---- Understanding it ---------------------------------------------------------
+cmo:Theory a owl:Class ; rdfs:subClassOf cmo:Concept ; rdfs:label "Theory" ;
+    rdfs:comment "An academic theory: media richness theory, politeness theory, elaboration likelihood model, speech act theory, uncertainty reduction theory." .
+cmo:Phenomenon a owl:Class ; rdfs:subClassOf cmo:Concept ; rdfs:label "Phenomenon" ;
+    rdfs:comment "An observed pattern: psychological safety, mirroring, the primacy effect, high- vs low-context cultures, Zoom fatigue." .
+cmo:Field a owl:Class ; rdfs:subClassOf cmo:Concept ; rdfs:label "Field" ;
+    rdfs:comment "A discipline: rhetoric, pragmatics, organizational communication, negotiation research, intercultural communication." .
+
+# ---- Things in the world ------------------------------------------------------
+cmo:Person a owl:Class ; rdfs:subClassOf cmo:Entity , schema:Person ; rdfs:label "Person" .
+cmo:Organization a owl:Class ; rdfs:subClassOf cmo:Entity , schema:Organization ; rdfs:label "Organization" .
+cmo:Work a owl:Class ; rdfs:subClassOf cmo:Entity , schema:CreativeWork ; rdfs:label "Work" ;
+    rdfs:comment "A landmark book, paper or guide: Getting to Yes, The Minto Pyramid Principle, Crucial Conversations, Federal Plain Language Guidelines." .
+cmo:Study a owl:Class ; rdfs:subClassOf cmo:Entity , schema:ScholarlyArticle ; rdfs:label "Study / experiment" ;
+    rdfs:comment "A landmark empirical study: the tappers-and-listeners study, Google's Project Aristotle, Mehrabian's 1967 studies." .
+cmo:Event a owl:Class ; rdfs:subClassOf cmo:Entity , schema:Event ; rdfs:label "Event" .
+
+# ---- Generated (not article types) --------------------------------------------
+cmo:Source a owl:Class ; rdfs:subClassOf prov:Entity , schema:CreativeWork ; rdfs:label "Cited source" .
+cmo:SelfCheckQuestion a owl:Class ; rdfs:subClassOf cmo:Entity ; rdfs:label "Self-check question" ;
+    rdfs:comment "A reflection question to ask yourself before or after communicating. Generated from frontmatter `selfCheck`." .
+cmo:Rewrite a owl:Class ; rdfs:subClassOf cmo:Entity ; rdfs:label "Before/after rewrite" ;
+    rdfs:comment "A worked example: a weak version, an improved version, and why it is better. Generated from frontmatter `example`." .
+
+# ---- Disjointness (contradiction detection) -----------------------------------
+[] a owl:AllDisjointClasses ; owl:members ( cmo:Barrier cmo:AntiPattern cmo:Skill cmo:Technique cmo:Principle cmo:Disposition ) .
+[] a owl:AllDisjointClasses ; owl:members ( cmo:Context cmo:Channel cmo:Genre ) .
+[] a owl:AllDisjointClasses ; owl:members ( cmo:Concept cmo:Person cmo:Organization cmo:Work cmo:Study cmo:Event ) .
+
+# ---- SKOS axioms (so the reasoner materialises narrower / symmetric related) --
+skos:broader owl:inverseOf skos:narrower ; rdfs:subPropertyOf skos:broaderTransitive .
+skos:narrower rdfs:subPropertyOf skos:narrowerTransitive .
+skos:broaderTransitive a owl:TransitiveProperty ; owl:inverseOf skos:narrowerTransitive .
+skos:related a owl:SymmetricProperty .
+
+# ---- Typed relations ----------------------------------------------------------
+# Structure and learning
+cmo:partOf a owl:ObjectProperty , owl:TransitiveProperty ; owl:inverseOf cmo:hasPart ; rdfs:label "part of / component of" .
+cmo:hasPart a owl:ObjectProperty ; rdfs:label "has part" .
+cmo:requires a owl:ObjectProperty , owl:TransitiveProperty ; owl:inverseOf cmo:prerequisiteOf ;
+    rdfs:label "requires (learning prerequisite)" .
+cmo:prerequisiteOf a owl:ObjectProperty ; rdfs:label "prerequisite of" .
+cmo:instanceOf a owl:ObjectProperty ; owl:inverseOf cmo:hasInstance ; rdfs:label "instance / variant of" .
+cmo:hasInstance a owl:ObjectProperty ; rdfs:label "has instance / variant" .
+cmo:contrastsWith a owl:ObjectProperty , owl:SymmetricProperty ; rdfs:label "contrasts with" .
+cmo:confusedWith a owl:ObjectProperty , owl:SymmetricProperty ; rdfs:label "commonly confused with" .
+cmo:alternativeTo a owl:ObjectProperty , owl:SymmetricProperty ; rdfs:label "alternative to" .
+
+# Getting better
+cmo:develops a owl:ObjectProperty ; owl:inverseOf cmo:developedBy ; rdfs:label "develops / builds (skill)" ;
+    rdfs:domain [ a owl:Class ; owl:unionOf ( cmo:Technique cmo:Framework cmo:Principle ) ] ;
+    rdfs:range  [ a owl:Class ; owl:unionOf ( cmo:Skill cmo:Disposition ) ] .
+cmo:developedBy a owl:ObjectProperty ; rdfs:label "developed by (technique / practice)" .
+cmo:addresses a owl:ObjectProperty ; owl:inverseOf cmo:addressedBy ; rdfs:label "addresses / fixes" ;
+    rdfs:domain [ a owl:Class ; owl:unionOf ( cmo:Technique cmo:Framework cmo:Principle cmo:Skill cmo:Disposition ) ] ;
+    rdfs:range  [ a owl:Class ; owl:unionOf ( cmo:Barrier cmo:AntiPattern ) ] .
+cmo:addressedBy a owl:ObjectProperty ; rdfs:label "addressed by" .
+cmo:structures a owl:ObjectProperty ; owl:inverseOf cmo:structuredBy ; rdfs:label "gives structure to (format)" ;
+    rdfs:domain [ a owl:Class ; owl:unionOf ( cmo:Technique cmo:Framework cmo:Principle ) ] ;
+    rdfs:range cmo:Genre .
+cmo:structuredBy a owl:ObjectProperty ; rdfs:label "structured by" .
+cmo:appliedIn a owl:ObjectProperty ; owl:inverseOf cmo:benefitsFrom ; rdfs:label "applied in (situation, channel or format)" ;
+    rdfs:range [ a owl:Class ; owl:unionOf ( cmo:Context cmo:Channel cmo:Genre ) ] .
+cmo:benefitsFrom a owl:ObjectProperty ; rdfs:label "benefits from" .
+cmo:complements a owl:ObjectProperty , owl:SymmetricProperty ; rdfs:label "works well together with" .
+
+# What goes wrong
+cmo:causes a owl:ObjectProperty ; owl:inverseOf cmo:causedBy ; rdfs:label "causes / leads to" .
+cmo:causedBy a owl:ObjectProperty ; rdfs:label "caused by" .
+cmo:undermines a owl:ObjectProperty ; owl:inverseOf cmo:underminedBy ; rdfs:label "undermines" ;
+    rdfs:domain [ a owl:Class ; owl:unionOf ( cmo:Barrier cmo:AntiPattern ) ] .
+cmo:underminedBy a owl:ObjectProperty ; rdfs:label "undermined by" .
+cmo:explainedBy a owl:ObjectProperty ; owl:inverseOf cmo:explains ; rdfs:label "explained by (mechanism / theory)" .
+cmo:explains a owl:ObjectProperty ; rdfs:label "explains" .
+
+# Evidence
+cmo:demonstratedBy a owl:ObjectProperty ; rdfs:range cmo:Study ; owl:inverseOf cmo:demonstrates ; rdfs:label "demonstrated by (study)" .
+cmo:demonstrates a owl:ObjectProperty ; rdfs:label "demonstrates" .
+cmo:supportedBy a owl:ObjectProperty ; owl:inverseOf cmo:supports ; rdfs:label "supported by (evidence)" .
+cmo:supports a owl:ObjectProperty ; rdfs:label "supports" .
+cmo:challengedBy a owl:ObjectProperty ; owl:inverseOf cmo:challenges ; rdfs:label "challenged by (critique, failed replication, myth-busting)" .
+cmo:challenges a owl:ObjectProperty ; rdfs:label "challenges" .
+
+# History and attribution
+cmo:introducedBy a owl:ObjectProperty ; rdfs:range cmo:Person ; owl:inverseOf cmo:introduced ; rdfs:label "introduced / popularised by" .
+cmo:introduced a owl:ObjectProperty ; rdfs:label "introduced" .
+cmo:introducedIn a owl:ObjectProperty ; rdfs:range cmo:Work ; owl:inverseOf cmo:introduces ; rdfs:label "introduced in (work)" .
+cmo:introduces a owl:ObjectProperty ; rdfs:label "introduces" .
+cmo:authoredBy a owl:ObjectProperty ; rdfs:domain cmo:Work ; rdfs:range cmo:Person ; owl:inverseOf cmo:authored ; rdfs:label "authored by" .
+cmo:authored a owl:ObjectProperty ; rdfs:label "authored" .
+cmo:influencedBy a owl:ObjectProperty ; owl:inverseOf cmo:influenced ; rdfs:label "influenced by" .
+cmo:influenced a owl:ObjectProperty ; rdfs:label "influenced" .
+cmo:studiedIn a owl:ObjectProperty ; rdfs:range cmo:Field ; rdfs:label "studied in (field)" .
+
+# ---- Datatype / internal properties written by scripts/kg.py ------------------
+cmo:domain a owl:DatatypeProperty ; rdfs:label "domain" .
+cmo:level a owl:DatatypeProperty ; rdfs:label "learning level: introductory, intermediate, advanced" .
+cmo:evidenceStatus a owl:DatatypeProperty ;
+    rdfs:label "evidence status: robust, mixed, contested, failed-replication, practitioner, theoretical, historical" .
+cmo:sourceType a owl:DatatypeProperty ; rdfs:label "source type" .
+cmo:confidence a owl:DatatypeProperty ; rdfs:label "edge confidence: high, medium, low" .
+cmo:evidence a owl:ObjectProperty ; rdfs:label "edge evidence (source), used on RDF-star quoted triples" .
+cmo:file a owl:DatatypeProperty ; rdfs:label "source file in the repo" .
+cmo:questionFor a owl:ObjectProperty ; rdfs:domain cmo:SelfCheckQuestion ; rdfs:label "self-check question for" .
+cmo:example a owl:ObjectProperty ; rdfs:range cmo:Rewrite ; rdfs:label "worked before/after example" .
+cmo:howTo a owl:ObjectProperty ; rdfs:label "step-by-step procedure (schema:HowTo)" .
+cmo:situation a owl:DatatypeProperty ; rdfs:label "situation of a rewrite" .
+cmo:before a owl:DatatypeProperty ; rdfs:label "weaker version" .
+cmo:after a owl:DatatypeProperty ; rdfs:label "improved version" .
+cmo:why a owl:DatatypeProperty ; rdfs:label "why the improved version works" .

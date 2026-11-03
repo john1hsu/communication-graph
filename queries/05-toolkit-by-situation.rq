@@ -1,0 +1,6 @@
+# title: Toolkit by situation
+# question: For each situation, channel or format, which techniques apply or give it structure?
+# gap: false
+SELECT ?situation ?technique WHERE {
+  { ?technique cmo:appliedIn ?situation } UNION { ?technique cmo:structures ?situation }
+} ORDER BY ?situation ?technique

@@ -1,0 +1,8 @@
+# title: Skills with no practice technique
+# question: Which written skills or dispositions have no technique, framework or principle that develops them?
+# gap: true
+SELECT ?skill ?type WHERE {
+  ?skill cmo:file ?f ; a ?type .
+  VALUES ?type { cmo:Skill cmo:Disposition }
+  FILTER NOT EXISTS { ?skill cmo:developedBy ?t }
+} ORDER BY ?skill

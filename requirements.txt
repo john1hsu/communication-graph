@@ -1,0 +1,6 @@
+pyyaml>=6.0
+networkx>=3.2
+rdflib>=7.0
+owlrl>=6.0.2
+pyshacl>=0.25
+pytest>=8.0

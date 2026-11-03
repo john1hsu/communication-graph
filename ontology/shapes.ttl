@@ -1,0 +1,74 @@
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+@prefix schema:  <https://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix cmo:     <https://github.com/john1hsu/communication-graph/ontology#> .
+@prefix cms:     <https://github.com/john1hsu/communication-graph/shapes#> .
+
+# =============================================================================
+# SHACL shapes: the semantic contract for the exported RDF graph.
+# `scripts/kg.py build` runs these with pySHACL against the asserted graph plus
+# the ontology (RDFS inference on), so subclass membership counts.
+# =============================================================================
+
+cms:NodeShape a sh:NodeShape ;
+    sh:targetSubjectsOf cmo:file ;
+    sh:property [ sh:path skos:prefLabel ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:string ] ;
+    sh:property [ sh:path skos:definition ; sh:minCount 1 ; sh:maxCount 1 ; sh:minLength 40 ] ;
+    sh:property [ sh:path dcterms:created ; sh:minCount 1 ; sh:datatype xsd:date ] ;
+    sh:property [ sh:path dcterms:modified ; sh:maxCount 1 ; sh:datatype xsd:date ] ;
+    sh:property [ sh:path cmo:domain ; sh:minCount 1 ; sh:maxCount 1 ] ;
+    sh:property [ sh:path cmo:level ; sh:minCount 1 ; sh:in ( "introductory" "intermediate" "advanced" ) ] ;
+    sh:property [ sh:path cmo:evidenceStatus ; sh:minCount 1 ; sh:maxCount 1 ;
+                  sh:in ( "robust" "mixed" "contested" "failed-replication" "practitioner" "theoretical" "historical" ) ] ;
+    sh:property [ sh:path prov:wasDerivedFrom ; sh:minCount 3 ; sh:class cmo:Source ] ;
+    sh:property [ sh:path skos:inScheme ; sh:minCount 1 ] .
+
+cms:SourceShape a sh:NodeShape ;
+    sh:targetClass cmo:Source ;
+    sh:property [ sh:path dcterms:title ; sh:minCount 1 ] ;
+    sh:property [ sh:path dcterms:publisher ; sh:minCount 1 ] ;
+    sh:property [ sh:path schema:url ; sh:minCount 1 ; sh:nodeKind sh:IRI ; sh:pattern "^https://" ] ;
+    sh:property [ sh:path cmo:sourceType ; sh:minCount 1 ] ;
+    sh:property [ sh:path dcterms:date ; sh:minCount 1 ; sh:datatype xsd:date ] .
+
+# Practice-oriented completeness: what makes the graph useful for actually
+# communicating better, not just well-formed.
+cms:TechniqueShape a sh:NodeShape ;
+    sh:targetClass cmo:Technique ;
+    sh:property [ sh:path ( cmo:howTo schema:step ) ; sh:minCount 3 ;
+                  sh:message "A technique needs at least 3 steps." ] ;
+    sh:property [ sh:path cmo:example ; sh:minCount 1 ; sh:class cmo:Rewrite ;
+                  sh:message "A technique needs a before/after example." ] .
+
+cms:AntiPatternShape a sh:NodeShape ;
+    sh:targetClass cmo:AntiPattern ;
+    sh:property [ sh:path cmo:example ; sh:minCount 1 ; sh:class cmo:Rewrite ;
+                  sh:message "An anti-pattern needs a before/after example showing the fix." ] .
+
+cms:SelfCheckTargets a sh:NodeShape ;
+    sh:targetClass cmo:Skill , cmo:Technique , cmo:AntiPattern , cmo:Barrier ;
+    sh:property [ sh:path [ sh:inversePath cmo:questionFor ] ; sh:minCount 2 ;
+                  sh:message "Skills, techniques, anti-patterns and barriers need at least 2 selfCheck questions." ] .
+
+cms:RewriteShape a sh:NodeShape ;
+    sh:targetClass cmo:Rewrite ;
+    sh:property [ sh:path cmo:situation ; sh:minCount 1 ; sh:maxCount 1 ] ;
+    sh:property [ sh:path cmo:before ; sh:minCount 1 ; sh:maxCount 1 ] ;
+    sh:property [ sh:path cmo:after ; sh:minCount 1 ; sh:maxCount 1 ] ;
+    sh:property [ sh:path cmo:why ; sh:minCount 1 ; sh:minLength 20 ] .
+
+cms:SelfCheckShape a sh:NodeShape ;
+    sh:targetClass cmo:SelfCheckQuestion ;
+    sh:property [ sh:path rdfs:label ; sh:minCount 1 ; sh:pattern "\\?$" ;
+                  sh:message "Self-check items must be phrased as questions." ] ;
+    sh:property [ sh:path cmo:questionFor ; sh:minCount 1 ; sh:maxCount 1 ] .
+
+cms:HowToStepShape a sh:NodeShape ;
+    sh:targetClass schema:HowToStep ;
+    sh:property [ sh:path schema:position ; sh:minCount 1 ; sh:datatype xsd:integer ] ;
+    sh:property [ sh:path schema:text ; sh:minCount 1 ; sh:minLength 10 ] .

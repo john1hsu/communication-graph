@@ -1,0 +1,8 @@
+# title: Barriers and anti-patterns with no fix
+# question: Which written barriers or anti-patterns have nothing in the graph that addresses them?
+# gap: true
+SELECT ?node ?type WHERE {
+  ?node cmo:file ?f ; a ?type .
+  VALUES ?type { cmo:Barrier cmo:AntiPattern }
+  FILTER NOT EXISTS { ?node cmo:addressedBy ?x }
+} ORDER BY ?node

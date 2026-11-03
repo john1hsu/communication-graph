@@ -1,0 +1,58 @@
+# Domains the hourly run draws from. Edit freely: add domains, remove ones you
+# don't want, or add seed slugs to steer what gets written next. Seeds are
+# suggestions, not a queue: skip any that already exist.
+# Each domain becomes a SKOS ConceptScheme (cm:scheme/<domain>) in the graph.
+#
+# Goal: practical, evidence-aware help for communicating better at work —
+# with depth on consulting, executive and client communication, written
+# communication in government settings, and cross-cultural communication.
+
+domains:
+  foundations:
+    label: Foundations of communication
+    seeds: [communication-models, audience-analysis, shannon-weaver-model, transactional-model-of-communication, encoding-and-decoding, noise-in-communication, register-and-tone, clarity, rapport, grices-maxims]
+  listening:
+    label: Listening and understanding
+    seeds: [active-listening, paraphrasing, reflective-listening, open-ended-questions, labeling-emotions, mirroring, listening-to-understand-vs-respond, summarizing, silence-and-pauses, interrupting]
+  questioning-and-conversation:
+    label: Questioning and conversation
+    seeds: [socratic-questioning, follow-up-questions, small-talk, conversational-turn-taking, humble-inquiry, coaching-questions, the-grow-model, rapport-building]
+  writing:
+    label: Business and professional writing
+    seeds: [plain-language, bottom-line-up-front, pyramid-principle, scqa-framework, concise-writing, active-voice, email-etiquette, burying-the-lede, wall-of-text, executive-summary, decision-memo, editing-for-clarity, readability-formulas]
+  presenting-and-public-speaking:
+    label: Presenting and public speaking
+    seeds: [presentation-structure, storytelling, signposting, slide-design, assertion-evidence-slides, death-by-powerpoint, filler-words, vocal-variety, speaking-anxiety, handling-questions, the-rule-of-three]
+  persuasion-and-influence:
+    label: Persuasion and influence
+    seeds: [rhetorical-appeals, principles-of-persuasion, elaboration-likelihood-model, framing, narrative-persuasion, credibility, social-proof, reciprocity, stakeholder-mapping, influence-without-authority]
+  feedback-and-coaching:
+    label: Feedback and coaching
+    seeds: [situation-behavior-impact, feedback-sandwich, radical-candor, feedforward, receiving-feedback, praise-and-recognition, growth-feedback, one-on-one-meetings]
+  difficult-conversations-and-conflict:
+    label: Difficult conversations and conflict
+    seeds: [crucial-conversations, nonviolent-communication, ladder-of-inference, thomas-kilmann-conflict-modes, de-escalation, delivering-bad-news, apologizing, saying-no, defensiveness, assume-positive-intent, i-statements]
+  negotiation:
+    label: Negotiation
+    seeds: [principled-negotiation, batna, interests-vs-positions, anchoring-in-negotiation, zopa, tactical-empathy, calibrated-questions, integrative-negotiation, distributive-negotiation, concession-strategy]
+  meetings-and-facilitation:
+    label: Meetings and facilitation
+    seeds: [meeting-agendas, facilitation, brainstorming, decision-rights-and-raci, meeting-recaps, psychological-safety, inclusive-meetings, hybrid-meetings, workshop-design]
+  executive-and-client-communication:
+    label: Executive, client and consulting communication
+    seeds: [executive-presence, executive-briefing, elevator-pitch, managing-up, status-reporting, client-communication, storyline-development, answer-first-communication, escalation-communication, communicating-uncertainty]
+  digital-and-async-communication:
+    label: Digital and asynchronous communication
+    seeds: [asynchronous-communication, media-richness-theory, chat-etiquette, video-call-communication, zoom-fatigue, channel-selection, writing-for-skimmability, emoji-and-tone-in-text]
+  nonverbal-and-voice:
+    label: Nonverbal communication and voice
+    seeds: [nonverbal-communication, body-language, eye-contact, paralanguage, mehrabian-myth, power-posing, proxemics, facial-expressions]
+  cross-cultural-communication:
+    label: Cross-cultural communication
+    seeds: [high-and-low-context-cultures, hofstede-cultural-dimensions, the-culture-map, face-and-facework, politeness-theory, direct-vs-indirect-feedback, communicating-across-languages, cultural-intelligence]
+  barriers-and-psychology:
+    label: Barriers and the psychology of communication
+    seeds: [curse-of-knowledge, illusion-of-transparency, spotlight-effect, information-overload, cognitive-load, confirmation-bias-in-conversation, primacy-and-recency-effects, emotional-contagion, emotional-intelligence, empathy]
+  thinkers-and-works:
+    label: Thinkers, landmark works and studies
+    seeds: [aristotles-rhetoric, dale-carnegie, how-to-win-friends-and-influence-people, getting-to-yes, barbara-minto, robert-cialdini, influence-the-psychology-of-persuasion, marshall-rosenberg, crucial-conversations-book, never-split-the-difference, edward-t-hall, erin-meyer, project-aristotle, tappers-and-listeners-study]
