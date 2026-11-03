@@ -69,6 +69,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:email` | mixed |  |
 | `cm:i-statements` | mixed | `cm:korobov-2020` |
 | `cm:illusion-of-transparency` | mixed |  |
+| `cm:open-ended-questions` | mixed | `cm:minson-et-al-2018` |
 | `cm:paraphrasing` | mixed | `cm:weger-castle-emmett-2010` |
 | `cm:plain-language` | mixed |  |
 | `cm:psychological-safety` | mixed | `cm:pearsall-ellis-2011` |
@@ -85,6 +86,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:direct-vs-indirect-feedback` | cmo:Concept |
 | `cm:email` | cmo:Channel |
 | `cm:illusion-of-transparency` | cmo:Barrier |
+| `cm:open-ended-questions` | cmo:Technique |
 | `cm:plain-language` | cmo:Principle |
 | `cm:teach-back` | cmo:Technique |
 
@@ -92,7 +94,5 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 
 _Which written articles does nothing else in the graph point to (after inference)?_ — `queries/08-orphans.rq`
 
-| node |
-|---|
-| `cm:psychological-safety` |
+_No results._
 

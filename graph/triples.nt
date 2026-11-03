@@ -632,6 +632,79 @@
 <https://github.com/john1hsu/communication-graph/id/message-equivocality-media-selection-and-manager-performance> <https://github.com/john1hsu/communication-graph/ontology#introduces> <https://github.com/john1hsu/communication-graph/id/channel-selection> .
 <https://github.com/john1hsu/communication-graph/id/message-equivocality-media-selection-and-manager-performance> <https://github.com/john1hsu/communication-graph/ontology#introduces> <https://github.com/john1hsu/communication-graph/id/media-sensitivity> .
 <https://github.com/john1hsu/communication-graph/id/message-equivocality-media-selection-and-manager-performance> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Could the other person have answered my question with one word, and was that what I really wanted?" .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/open-ended-questions> .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Did my next question build on their answer, or did I jump to my own agenda?" .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/open-ended-questions> .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Did I ask a \"why\" question where a \"what\" or \"how\" would have felt less like a demand for justification?" .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/open-ended-questions> .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "When I needed a firm answer on a specific risk, did I ask a direct, specific question instead of a vague one?" .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/open-ended-questions> .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions/example> <https://github.com/john1hsu/communication-graph/ontology#after> "What's the part of the migration you're least confident about right now?" .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions/example> <https://github.com/john1hsu/communication-graph/ontology#before> "Is the migration still on track for the end of the month?" .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "A team lead checks in with an engineer on a database migration that has gone quiet for a week." .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions/example> <https://github.com/john1hsu/communication-graph/ontology#why> "The closed question invites a reflexive \"yes\"; the open one asks for an explanation and presumes there is some uncertainty, which makes it easier to surface a problem early." .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions/howto/1> <https://schema.org/text> "Decide what you actually need to learn - their view, the obstacles, the options - before you ask anything." .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions/howto/2> <https://schema.org/text> "Open with \"what\" or \"how\" (\"What's getting in the way?\", \"How did the client react?\") instead of \"Is\", \"Do\" or \"Did\"." .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions/howto/3> <https://schema.org/text> "Stop talking and let them answer fully; resist offering a suggested answer if they pause." .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions/howto/4> <https://schema.org/text> "Build your next question on what they just said (\"You mentioned the handover - what happened there?\") rather than switching topic." .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions/howto/5> <https://schema.org/text> "Reflect back what you heard before asking another question, so the exchange does not become an interrogation." .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions/howto/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions/howto/6> <https://schema.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions/howto/6> <https://schema.org/text> "Switch to a closed or specific question when you need a commitment, a number, or a straight answer to a known risk (\"Will this slip past the 30th?\")." .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions/howto> <https://schema.org/name> "Open-ended questions" .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/open-ended-questions/howto/1> .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/open-ended-questions/howto/2> .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/open-ended-questions/howto/3> .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/open-ended-questions/howto/4> .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/open-ended-questions/howto/5> .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/open-ended-questions/howto/6> .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://purl.org/dc/terms/created> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Technique> .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/2000/01/rdf-schema#label> "Open-ended questions" .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/2004/02/skos/core#altLabel> "invitational questions" .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/2004/02/skos/core#altLabel> "open questions" .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/2004/02/skos/core#altLabel> "open-ended questioning" .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/questioning> .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/2004/02/skos/core#definition> "Questions that cannot be answered with \"yes\", \"no\" or a single fact - typically starting with \"what\" or \"how\" - asked to let the other person explain in their own words, so you learn what they know, think and need rather than what you assumed." .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/listening> .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/2004/02/skos/core#prefLabel> "Open-ended questions" .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/follow-up-questions> .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/teach-back> .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/open-ended-questions/s1> .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/open-ended-questions/s2> .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/open-ended-questions/s3> .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/open-ended-questions/s4> .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/open-ended-questions/s5> .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/minson-et-al-2018> .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/paraphrasing> .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/closed-questions> .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions> <https://github.com/john1hsu/communication-graph/ontology#domain> "listening" .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/open-ended-questions/example> .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/listening/open-ended-questions.md" .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/open-ended-questions/howto> .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/berg-et-al-2019> .
+<https://github.com/john1hsu/communication-graph/id/open-ended-questions> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/huang-et-al-2017> .
 <https://github.com/john1hsu/communication-graph/id/paraphrasing/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/paraphrasing/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Did I restate their point in my own words, or did I just repeat their phrases back like a parrot?" .
 <https://github.com/john1hsu/communication-graph/id/paraphrasing/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/paraphrasing> .
@@ -1297,6 +1370,36 @@
 <https://github.com/john1hsu/communication-graph/id/source/message-equivocality-media-selection-and-manager-performance/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/message-equivocality-media-selection-and-manager-performance/s7> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
 <https://github.com/john1hsu/communication-graph/id/source/message-equivocality-media-selection-and-manager-performance/s7> <https://schema.org/url> <https://collablab.northwestern.edu//CollabolabDistro/nucmc/DaftAndLengel-OrgInfoReq-MediaRichnessAndStructuralDesign-MngmtSci-1986.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/open-ended-questions/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/open-ended-questions/s1> <http://purl.org/dc/terms/publisher> "Huang, Yeomans, Brooks, Minson & Gino, Journal of Personality and Social Psychology 113(3), 430-452 (2017), doi:10.1037/pspi0000097 (Harvard DASH copy via CORE)" .
+<https://github.com/john1hsu/communication-graph/id/source/open-ended-questions/s1> <http://purl.org/dc/terms/title> "It Doesn't Hurt to Ask: Question-Asking Increases Liking" .
+<https://github.com/john1hsu/communication-graph/id/source/open-ended-questions/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/open-ended-questions/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/open-ended-questions/s1> <https://schema.org/url> <https://core.ac.uk/download/154893096.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/open-ended-questions/s2> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/open-ended-questions/s2> <http://purl.org/dc/terms/publisher> "Minson, VanEpps, Yip & Schweitzer, Organizational Behavior and Human Decision Processes 147, 76-93 (2018) (Harvard Kennedy School publication page)" .
+<https://github.com/john1hsu/communication-graph/id/source/open-ended-questions/s2> <http://purl.org/dc/terms/title> "Eliciting the Truth, the Whole Truth, and Nothing but the Truth: The Effect of Question Phrasing on Deception" .
+<https://github.com/john1hsu/communication-graph/id/source/open-ended-questions/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/open-ended-questions/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/open-ended-questions/s2> <https://schema.org/url> <https://www.hks.harvard.edu/publications/eliciting-truth-whole-truth-and-nothing-truth-effect-question-phrasing-deception> .
+<https://github.com/john1hsu/communication-graph/id/source/open-ended-questions/s3> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/open-ended-questions/s3> <http://purl.org/dc/terms/publisher> "Berg, Munthe-Kaas, Baiju, Muller & Brurberg, Norwegian Institute of Public Health (2019)" .
+<https://github.com/john1hsu/communication-graph/id/source/open-ended-questions/s3> <http://purl.org/dc/terms/title> "The accuracy of using open-ended questions in structured conversations with children: a systematic review" .
+<https://github.com/john1hsu/communication-graph/id/source/open-ended-questions/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/open-ended-questions/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/communication-graph/id/source/open-ended-questions/s3> <https://schema.org/url> <https://www.fhi.no/en/publ/2019/The-accuracy-of-using-open-ended-questions-in-structured-conversations-with-children/> .
+<https://github.com/john1hsu/communication-graph/id/source/open-ended-questions/s4> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/open-ended-questions/s4> <http://purl.org/dc/terms/publisher> "Center for Health Training (2010), hosted by Oregon Health Authority; adapted from Miller & Rollnick, Motivational Interviewing, 2nd ed." .
+<https://github.com/john1hsu/communication-graph/id/source/open-ended-questions/s4> <http://purl.org/dc/terms/title> "Motivational Interviewing (OARS: essential communication techniques)" .
+<https://github.com/john1hsu/communication-graph/id/source/open-ended-questions/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/open-ended-questions/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/communication-graph/id/source/open-ended-questions/s4> <https://schema.org/url> <https://www.oregon.gov/oha/ph/healthypeoplefamilies/reproductivesexualhealth/documents/edmat/oarsessentialcommunicationtechniques.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/open-ended-questions/s5> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/open-ended-questions/s5> <http://purl.org/dc/terms/publisher> "Alison Wood Brooks & Leslie K. John, Harvard Business Review, May-June 2018, 60-67 (copy hosted by UC Merced Human Resources)" .
+<https://github.com/john1hsu/communication-graph/id/source/open-ended-questions/s5> <http://purl.org/dc/terms/title> "The Surprising Power of Questions" .
+<https://github.com/john1hsu/communication-graph/id/source/open-ended-questions/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/open-ended-questions/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "practitioner-journal" .
+<https://github.com/john1hsu/communication-graph/id/source/open-ended-questions/s5> <https://schema.org/url> <https://hr.ucmerced.edu/sites/hr.ucmerced.edu/files/documents/how_to_ask_great_questions.pdf> .
 <https://github.com/john1hsu/communication-graph/id/source/paraphrasing/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/paraphrasing/s1> <http://purl.org/dc/terms/publisher> "Seehausen, Kazzer, Bajbouj & Prehn, Frontiers in Psychology 3:482 (2012), doi:10.3389/fpsyg.2012.00482" .
 <https://github.com/john1hsu/communication-graph/id/source/paraphrasing/s1> <http://purl.org/dc/terms/title> "Effects of Empathic Paraphrasing - Extrinsic Emotion Regulation in Social Conflict" .

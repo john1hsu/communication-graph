@@ -155,6 +155,29 @@ Ask yourself:
 
 ## listening
 
+### [Open-ended questions](../articles/listening/open-ended-questions.md) — Technique
+
+1. Decide what you actually need to learn - their view, the obstacles, the options - before you ask anything.
+2. Open with "what" or "how" ("What's getting in the way?", "How did the client react?") instead of "Is", "Do" or "Did".
+3. Stop talking and let them answer fully; resist offering a suggested answer if they pause.
+4. Build your next question on what they just said ("You mentioned the handover - what happened there?") rather than switching topic.
+5. Reflect back what you heard before asking another question, so the exchange does not become an interrogation.
+6. Switch to a closed or specific question when you need a commitment, a number, or a straight answer to a known risk ("Will this slip past the 30th?").
+
+*A team lead checks in with an engineer on a database migration that has gone quiet for a week.*
+
+| Before | After |
+|---|---|
+| Is the migration still on track for the end of the month? | What's the part of the migration you're least confident about right now? |
+
+**Why:** The closed question invites a reflexive "yes"; the open one asks for an explanation and presumes there is some uncertainty, which makes it easier to surface a problem early.
+
+Ask yourself:
+- Could the other person have answered my question with one word, and was that what I really wanted?
+- Did my next question build on their answer, or did I jump to my own agenda?
+- Did I ask a "why" question where a "what" or "how" would have felt less like a demand for justification?
+- When I needed a firm answer on a specific risk, did I ask a direct, specific question instead of a vague one?
+
 ### [Paraphrasing](../articles/listening/paraphrasing.md) — Technique
 
 1. Listen to the whole point without planning your reply; note the facts, what the speaker seems to feel and what seems most important to them.
