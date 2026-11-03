@@ -11,6 +11,31 @@ Ask yourself:
 - If my reader had only this message and none of my background, what would they do next?
 - Have I asked someone outside the work to restate my point in their own words, or am I only judging clarity myself?
 
+## difficult-conversations-and-conflict
+
+### [I-statements](../articles/difficult-conversations-and-conflict/i-statements.md) — Technique
+
+1. Before speaking, name one specific, observable behaviour (what was said or done, and when) instead of a trait or a pattern word like "always" or "never".
+2. Work out the concrete, tangible effect that behaviour has on you or your work - time lost, rework, a missed commitment.
+3. Identify the feeling underneath, and check whether anger is masking something more precise such as worry or frustration.
+4. Say it in the first person in roughly this order - behaviour, effect, feeling - and, if useful, a request for what you would like instead.
+5. Add one sentence that shows you see the other person's side (their constraints, intentions or pressures) before or after your own view.
+6. Stop and listen; expect some defensiveness, reflect back what you hear, and send a clearer second I-statement only if the first one was not understood.
+
+*A project lead raises a recurring problem with a colleague who sends status updates late on the morning of the weekly client call.*
+
+| Before | After |
+|---|---|
+| You never get your updates in on time. You're making the whole team look unprepared in front of the client. | I know Mondays are packed for you with the support queue. When the status update reaches me after 9 a.m. on call days, I can't check the numbers before we present them, and I get anxious that we'll give the client something wrong. Could we agree on Friday afternoon as the cut-off? |
+
+**Why:** The rewrite replaces a character verdict ("never", "you're making") with one observable behaviour, its concrete effect and the speaker's own feeling, acknowledges the colleague's constraint, and ends with a specific request - the combination the 2018 rating study found least likely to provoke defensiveness.
+
+Ask yourself:
+- Have I described a specific behaviour I could point to, or slipped in a label, a motive or an "always"?
+- Is my "I feel…" a real feeling, or a disguised accusation such as "I feel that you don't care"?
+- Have I said anything that shows I understand the other person's side of the situation?
+- After I speak, am I ready to listen to their reaction rather than repeat my point louder?
+
 ## foundations
 
 ### [Audience analysis](../articles/foundations/audience-analysis.md) — Technique

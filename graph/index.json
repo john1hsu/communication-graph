@@ -428,6 +428,117 @@
   ]
  },
  {
+  "id": "cm:i-statements",
+  "title": "I-statements",
+  "aliases": [
+   "I-messages",
+   "I-language",
+   "I feel statements",
+   "confrontive I-message"
+  ],
+  "type": "Technique",
+  "domain": "difficult-conversations-and-conflict",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/difficult-conversations-and-conflict/i-statements.md",
+  "created": "2026-11-03",
+  "summary": "Raising a problem by describing the other person's specific behaviour, its concrete effect on you and how you feel about it, phrased from your own point of view (\"I…\") rather than as an accusation or verdict about them (\"You always…\").",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:assertive-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:nonviolent-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:direct-vs-indirect-feedback"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:situation-behavior-impact"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:defensiveness",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:accusatory-you-statements",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:difficult-conversation",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:active-listening",
+    "source": "s5",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:thomas-gordon",
+    "source": "s6",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:rogers-et-al-2018",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:simmons-gordon-chambless-2005",
+    "source": "s2",
+    "confidence": "low"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:korobov-2020",
+    "source": "s3",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Have I described a specific behaviour I could point to, or slipped in a label, a motive or an \"always\"?",
+   "Is my \"I feel…\" a real feeling, or a disguised accusation such as \"I feel that you don't care\"?",
+   "Have I said anything that shows I understand the other person's side of the situation?",
+   "After I speak, am I ready to listen to their reaction rather than repeat my point louder?"
+  ],
+  "steps": [
+   "Before speaking, name one specific, observable behaviour (what was said or done, and when) instead of a trait or a pattern word like \"always\" or \"never\".",
+   "Work out the concrete, tangible effect that behaviour has on you or your work - time lost, rework, a missed commitment.",
+   "Identify the feeling underneath, and check whether anger is masking something more precise such as worry or frustration.",
+   "Say it in the first person in roughly this order - behaviour, effect, feeling - and, if useful, a request for what you would like instead.",
+   "Add one sentence that shows you see the other person's side (their constraints, intentions or pressures) before or after your own view.",
+   "Stop and listen; expect some defensiveness, reflect back what you hear, and send a clearer second I-statement only if the first one was not understood."
+  ],
+  "example": {
+   "situation": "A project lead raises a recurring problem with a colleague who sends status updates late on the morning of the weekly client call.",
+   "before": "You never get your updates in on time. You're making the whole team look unprepared in front of the client.",
+   "after": "I know Mondays are packed for you with the support queue. When the status update reaches me after 9 a.m. on call days, I can't check the numbers before we present them, and I get anxious that we'll give the client something wrong. Could we agree on Friday afternoon as the cut-off?",
+   "why": "The rewrite replaces a character verdict (\"never\", \"you're making\") with one observable behaviour, its concrete effect and the speaker's own feeling, acknowledges the colleague's constraint, and ends with a specific request - the combination the 2018 rating study found least likely to provoke defensiveness."
+  },
+  "source_urls": [
+   "https://peerj.com/articles/4831",
+   "https://www.psychologicalscience.org/journals/psychological-science/j.1467-9280.2005.01639.x/",
+   "https://ideas.repec.org/a/rfa/smcjnl/v8y2020i2p49-60.html",
+   "https://conflictmanagement.org.uiowa.edu/i-statements",
+   "https://www.gordontraining.com/leadership/the-dos-and-donts-of-i-messages/",
+   "https://www.gordontraining.com/?p=69"
+  ]
+ },
+ {
   "id": "cm:plain-language",
   "title": "Plain language",
   "aliases": [

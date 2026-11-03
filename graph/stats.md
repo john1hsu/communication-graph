@@ -1,11 +1,11 @@
 # Graph statistics
 
-- Articles (nodes written): **6**
-- Frontier nodes (referenced, unwritten): **36**
-- Asserted edges: **61** (typed + evidenced: **28**)
-- Asserted triples: **503**; inferred by OWL-RL: **107**
-- Citations: **32**
-- Self-check questions: **13**; procedures: **2**; before/after rewrites: **2**
+- Articles (nodes written): **7**
+- Frontier nodes (referenced, unwritten): **47**
+- Asserted edges: **73** (typed + evidenced: **36**)
+- Asserted triples: **616**; inferred by OWL-RL: **130**
+- Citations: **38**
+- Self-check questions: **17**; procedures: **3**; before/after rewrites: **3**
 - Weakly connected components: **1**
 - Communities (Louvain): **6**; max k-core: **2**
 
@@ -15,61 +15,61 @@ PageRank = authority; betweenness = bridges between areas.
 
 | Node | PageRank | Betweenness | Written |
 |---|---|---|---|
-| `cm:audience-analysis` | 0.0324 | 0.4586 | yes |
-| `cm:plain-language` | 0.0281 | 0.3047 | yes |
-| `cm:clarity` | 0.0281 | 0.0447 | no |
-| `cm:audience` | 0.0269 | 0.0000 | no |
-| `cm:bottom-line-up-front` | 0.0264 | 0.3718 | yes |
-| `cm:curse-of-knowledge` | 0.0264 | 0.3198 | yes |
-| `cm:email` | 0.0259 | 0.0000 | no |
-| `cm:active-voice` | 0.0248 | 0.0000 | no |
-| `cm:aristotles-rhetoric` | 0.0240 | 0.1930 | yes |
-| `cm:audience-design` | 0.0240 | 0.0000 | no |
-| `cm:stakeholder-mapping` | 0.0240 | 0.0000 | no |
-| `cm:aristotle` | 0.0235 | 0.0000 | no |
-| `cm:plato` | 0.0235 | 0.0000 | no |
-| `cm:rhetoric` | 0.0235 | 0.0000 | no |
-| `cm:rhetorical-appeals` | 0.0235 | 0.0000 | no |
+| `cm:audience-analysis` | 0.0256 | 0.4493 | yes |
+| `cm:plain-language` | 0.0222 | 0.2292 | yes |
+| `cm:clarity` | 0.0222 | 0.0266 | no |
+| `cm:audience` | 0.0213 | 0.0000 | no |
+| `cm:bottom-line-up-front` | 0.0209 | 0.3236 | yes |
+| `cm:curse-of-knowledge` | 0.0209 | 0.2534 | yes |
+| `cm:email` | 0.0205 | 0.0000 | no |
+| `cm:active-voice` | 0.0196 | 0.0000 | no |
+| `cm:direct-vs-indirect-feedback` | 0.0193 | 0.3570 | no |
+| `cm:aristotles-rhetoric` | 0.0190 | 0.1519 | yes |
+| `cm:audience-design` | 0.0190 | 0.0000 | no |
+| `cm:stakeholder-mapping` | 0.0190 | 0.0000 | no |
+| `cm:aristotle` | 0.0186 | 0.0000 | no |
+| `cm:plato` | 0.0186 | 0.0000 | no |
+| `cm:rhetoric` | 0.0186 | 0.0000 | no |
 
 ## Communities
 
-1. `cm:abstract-language`, `cm:camerer-loewenstein-weber-1989`, `cm:curse-of-knowledge`, `cm:egocentric-bias`, `cm:illusion-of-transparency`, `cm:ryskin-brown-schmidt-2014`, `cm:tappers-and-listeners-study`, `cm:theory-of-mind`
-2. `cm:beyond-culture`, `cm:cardon-2008`, `cm:direct-vs-indirect-feedback`, `cm:edward-t-hall`, `cm:high-and-low-context-cultures`, `cm:hofstede-cultural-dimensions`, `cm:intercultural-communication`, `cm:kittler-rygl-mackinnon-2011`
-3. `cm:bottom-line-up-front`, `cm:burying-the-lede`, `cm:executive-summary`, `cm:indirect-approach`, `cm:kieras-1979-initial-mention`, `cm:memorandum`, `cm:message-structure`, `cm:pyramid-principle`
-4. `cm:active-voice`, `cm:jargon`, `cm:paraphrase-testing`, `cm:plain-language`, `cm:plain-language-summary`, `cm:readability-formulas`, `cm:writing-for-dollars-writing-to-please`
-5. `cm:aristotle`, `cm:aristotles-rhetoric`, `cm:clarity`, `cm:plato`, `cm:rhetoric`, `cm:rhetorical-appeals`
-6. `cm:audience`, `cm:audience-analysis`, `cm:audience-design`, `cm:email`, `cm:stakeholder-mapping`
+1. `cm:accusatory-you-statements`, `cm:active-listening`, `cm:assertive-communication`, `cm:defensiveness`, `cm:difficult-conversation`, `cm:i-statements`, `cm:korobov-2020`, `cm:nonviolent-communication`, `cm:rogers-et-al-2018`, `cm:simmons-gordon-chambless-2005`, `cm:situation-behavior-impact`, `cm:thomas-gordon`
+2. `cm:aristotle`, `cm:aristotles-rhetoric`, `cm:audience`, `cm:audience-analysis`, `cm:audience-design`, `cm:clarity`, `cm:email`, `cm:plato`, `cm:rhetoric`, `cm:rhetorical-appeals`, `cm:stakeholder-mapping`
+3. `cm:abstract-language`, `cm:camerer-loewenstein-weber-1989`, `cm:curse-of-knowledge`, `cm:egocentric-bias`, `cm:illusion-of-transparency`, `cm:ryskin-brown-schmidt-2014`, `cm:tappers-and-listeners-study`, `cm:theory-of-mind`
+4. `cm:beyond-culture`, `cm:cardon-2008`, `cm:direct-vs-indirect-feedback`, `cm:edward-t-hall`, `cm:high-and-low-context-cultures`, `cm:hofstede-cultural-dimensions`, `cm:intercultural-communication`, `cm:kittler-rygl-mackinnon-2011`
+5. `cm:bottom-line-up-front`, `cm:burying-the-lede`, `cm:executive-summary`, `cm:indirect-approach`, `cm:kieras-1979-initial-mention`, `cm:memorandum`, `cm:message-structure`, `cm:pyramid-principle`
+6. `cm:active-voice`, `cm:jargon`, `cm:paraphrase-testing`, `cm:plain-language`, `cm:plain-language-summary`, `cm:readability-formulas`, `cm:writing-for-dollars-writing-to-please`
 
 ## By type
 
 - Barrier: 1
 - Phenomenon: 1
 - Principle: 1
-- Technique: 2
+- Technique: 3
 - Work: 1
 
 ## By domain
 
 - barriers-and-psychology: 1
 - cross-cultural-communication: 1
+- difficult-conversations-and-conflict: 1
 - foundations: 1
 - thinkers-and-works: 1
 - writing: 2
 
 ## By level
 
-- introductory: 6
+- introductory: 7
 
 ## By evidence status
 
 - contested: 1
 - historical: 1
-- mixed: 2
+- mixed: 3
 - practitioner: 2
 
 ## Domain coverage (breadth runs pick the lowest)
 
-- difficult-conversations-and-conflict: 0
 - digital-and-async-communication: 0
 - executive-and-client-communication: 0
 - feedback-and-coaching: 0
@@ -82,6 +82,7 @@ PageRank = authority; betweenness = bridges between areas.
 - questioning-and-conversation: 0
 - barriers-and-psychology: 1
 - cross-cultural-communication: 1
+- difficult-conversations-and-conflict: 1
 - foundations: 1
 - thinkers-and-works: 1
 - writing: 2

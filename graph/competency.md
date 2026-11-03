@@ -26,6 +26,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 
 | technique | reach | targets |
 |---|---|---|
+| `cm:i-statements` | 2 | accusatory-you-statements, defensiveness |
 | `cm:plain-language` | 2 | Curse of knowledge, jargon |
 | `cm:audience-analysis` | 1 | Curse of knowledge |
 | `cm:bottom-line-up-front` | 1 | burying-the-lede |
@@ -36,6 +37,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 
 | situation | technique |
 |---|---|
+| `cm:difficult-conversation` | `cm:i-statements` |
 | `cm:email` | `cm:audience-analysis` |
 | `cm:email` | `cm:bottom-line-up-front` |
 | `cm:memorandum` | `cm:bottom-line-up-front` |
@@ -50,6 +52,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:high-and-low-context-cultures` | contested | `cm:cardon-2008` |
 | `cm:high-and-low-context-cultures` | contested | `cm:kittler-rygl-mackinnon-2011` |
 | `cm:curse-of-knowledge` | mixed | `cm:ryskin-brown-schmidt-2014` |
+| `cm:i-statements` | mixed | `cm:korobov-2020` |
 | `cm:plain-language` | mixed |  |
 
 ## Concepts with no recorded origin (gap)
@@ -66,5 +69,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 
 _Which written articles does nothing else in the graph point to (after inference)?_ — `queries/08-orphans.rq`
 
-_No results._
+| node |
+|---|
+| `cm:i-statements` |
 
