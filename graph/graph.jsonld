@@ -14,6 +14,87 @@
  },
  "@graph": [
   {
+   "@id": "cm:active-voice",
+   "@type": "cmo:Technique",
+   "cmo:addresses": {
+    "@id": "cm:unclear-ownership"
+   },
+   "cmo:challengedBy": {
+    "@id": "cm:fear-and-loathing-of-the-english-passive"
+   },
+   "cmo:contrastsWith": {
+    "@id": "cm:passive-voice"
+   },
+   "cmo:domain": "writing",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/active-voice/example"
+   },
+   "cmo:explainedBy": {
+    "@id": "cm:good-enough-processing"
+   },
+   "cmo:file": "articles/writing/active-voice.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/active-voice/howto"
+   },
+   "cmo:level": "introductory",
+   "cmo:partOf": {
+    "@id": "cm:plain-language"
+   },
+   "cmo:supportedBy": {
+    "@id": "cm:paolazzi-et-al-2019"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/active-voice/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/active-voice/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/active-voice/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/active-voice/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/active-voice/s5"
+    }
+   ],
+   "rdfs:label": "Active voice",
+   "skos:altLabel": [
+    "actor-first sentences",
+    "use the active voice",
+    "who-does-what sentences"
+   ],
+   "skos:broader": {
+    "@id": "cm:clarity"
+   },
+   "skos:definition": "Writing sentences so the person or organisation doing the action is the grammatical subject (\"The team will send the report\"), rather than the thing acted on (\"The report will be sent\"), so readers can see who does what.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/writing"
+   },
+   "skos:prefLabel": "Active voice",
+   "skos:related": [
+    {
+     "@id": "cm:bottom-line-up-front"
+    },
+    {
+     "@id": "cm:concise-writing"
+    },
+    {
+     "@id": "cm:effective-writing-for-army-leaders"
+    },
+    {
+     "@id": "cm:plain-language"
+    }
+   ]
+  },
+  {
    "@id": "cm:aristotles-rhetoric",
    "@type": "cmo:Work",
    "cmo:authoredBy": {
@@ -641,6 +722,90 @@
    ]
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/active-voice/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:active-voice"
+   },
+   "rdfs:label": "Can the reader tell, sentence by sentence, who is responsible for each action?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/active-voice/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:active-voice"
+   },
+   "rdfs:label": "Where I kept a passive, is the actor unknown, unimportant or obvious, or am I hiding who decided?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/active-voice/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:active-voice"
+   },
+   "rdfs:label": "Did I mislabel any sentence as passive just because it uses \"was\" or describes the past?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/active-voice/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "Our QA lead will review the test results by Tuesday. Your team needs to fix any open issues by Thursday, and then I will approve the release.",
+   "cmo:before": "The test results will be reviewed and any outstanding issues must be resolved before the release can be approved.",
+   "cmo:situation": "A project manager tells a client team what happens before go-live.",
+   "cmo:why": "The original names no one, so each side can assume the other owns the work; the rewrite assigns every action to a person and a date."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/active-voice/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Active voice",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/active-voice/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/active-voice/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/active-voice/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/active-voice/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/active-voice/howto/5"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/active-voice/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Find each sentence that has a form of \"to be\" plus a past participle (was sent, will be reviewed, has been approved)."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/active-voice/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Ask who does the action; if the sentence does not say, decide who should, and name them."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/active-voice/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Rewrite with that actor as the subject and a strong verb right after it (\"Finance will review the budget\")."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/active-voice/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Address the reader as \"you\" when they are the one who must act."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/active-voice/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Keep a passive only when the actor is unknown, unimportant or obvious, or when the thing acted on is what the paragraph is about."
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/audience-analysis/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -1062,6 +1227,76 @@
    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/writing",
    "@type": "skos:ConceptScheme",
    "skos:prefLabel": "Business and professional writing"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/active-voice/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Digital.gov (U.S. General Services Administration)",
+   "dcterms:title": "Writing (Plain Language Guide Series): Use active voice",
+   "schema:url": {
+    "@id": "https://digital.gov/guides/plain-language/writing"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/active-voice/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Purdue Online Writing Lab (Purdue University)",
+   "dcterms:title": "Choosing Active and Passive Voice",
+   "schema:url": {
+    "@id": "https://owl.purdue.edu/owl/general_writing/academic_writing/active_and_passive_voice/choosing_passive_voice.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/active-voice/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Geoffrey K. Pullum, University of Edinburgh (author's web version of an article in Language and Communication)",
+   "dcterms:title": "Fear and Loathing of the English Passive",
+   "schema:url": {
+    "@id": "https://pullum.ppls.ed.ac.uk/passive_loathing.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/active-voice/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Paolazzi, Grillo, Alexiadou & Santi, Language, Cognition and Neuroscience, 2019 (White Rose repository record)",
+   "dcterms:title": "Passives are not hard to interpret but hard to remember: evidence from online and offline studies",
+   "schema:url": {
+    "@id": "https://eprints.whiterose.ac.uk/145484"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/active-voice/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Ferreira, Bailey & Ferraro, Current Directions in Psychological Science 11(1), 2002 (APS abstract page)",
+   "dcterms:title": "Good-Enough Representations in Language Comprehension",
+   "schema:url": {
+    "@id": "https://www.psychologicalscience.org/journals/current-directions/1467-8721.00158/"
+   }
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/source/aristotles-rhetoric/s1",

@@ -4,54 +4,59 @@ Nodes that existing articles point to but nobody has written yet. Score = referr
 
 | Node | Score | Expected type | Referenced by |
 |---|---|---|---|
-| `cm:clarity` | 4.08 | - | `cm:aristotles-rhetoric`, `cm:curse-of-knowledge`, `cm:plain-language` |
-| `cm:active-voice` | 4.07 | - | `cm:bottom-line-up-front`, `cm:effective-writing-for-army-leaders`, `cm:plain-language` |
-| `cm:readability-formulas` | 2.87 | - | `cm:effective-writing-for-army-leaders`, `cm:plain-language` |
-| `cm:direct-vs-indirect-feedback` | 2.81 | - | `cm:high-and-low-context-cultures`, `cm:i-statements` |
-| `cm:email` | 2.44 | - | `cm:audience-analysis`, `cm:bottom-line-up-front` |
-| `cm:audience` | 2.41 | - | `cm:aristotles-rhetoric`, `cm:audience-analysis` |
+| `cm:clarity` | 5.23 | - | `cm:active-voice`, `cm:aristotles-rhetoric`, `cm:curse-of-knowledge`, `cm:plain-language` |
+| `cm:readability-formulas` | 2.86 | - | `cm:effective-writing-for-army-leaders`, `cm:plain-language` |
+| `cm:direct-vs-indirect-feedback` | 2.78 | - | `cm:high-and-low-context-cultures`, `cm:i-statements` |
+| `cm:email` | 2.42 | - | `cm:audience-analysis`, `cm:bottom-line-up-front` |
+| `cm:audience` | 2.37 | - | `cm:aristotles-rhetoric`, `cm:audience-analysis` |
 | `cm:memorandum` | 2.35 | - | `cm:bottom-line-up-front`, `cm:effective-writing-for-army-leaders` |
-| `cm:rhetoric` | 2.35 | Field | `cm:aristotles-rhetoric` |
-| `cm:stakeholder-mapping` | 1.74 | - | `cm:audience-analysis` |
-| `cm:burying-the-lede` | 1.71 | - | `cm:bottom-line-up-front` |
-| `cm:executive-summary` | 1.71 | - | `cm:bottom-line-up-front` |
-| `cm:pyramid-principle` | 1.71 | - | `cm:bottom-line-up-front` |
-| `cm:illusion-of-transparency` | 1.69 | - | `cm:curse-of-knowledge` |
-| `cm:tappers-and-listeners-study` | 1.69 | - | `cm:curse-of-knowledge` |
-| `cm:rhetorical-appeals` | 1.67 | - | `cm:aristotles-rhetoric` |
-| `cm:edward-t-hall` | 1.66 | Person | `cm:high-and-low-context-cultures` |
-| `cm:hofstede-cultural-dimensions` | 1.66 | - | `cm:high-and-low-context-cultures` |
-| `cm:active-listening` | 1.65 | - | `cm:i-statements` |
-| `cm:defensiveness` | 1.65 | - | `cm:i-statements` |
-| `cm:nonviolent-communication` | 1.65 | - | `cm:i-statements` |
-| `cm:situation-behavior-impact` | 1.65 | - | `cm:i-statements` |
-| `cm:audience-design` | 1.24 | - | `cm:audience-analysis` |
-| `cm:jargon` | 1.22 | - | `cm:plain-language` |
-| `cm:paraphrase-testing` | 1.22 | - | `cm:plain-language` |
-| `cm:plain-language-summary` | 1.22 | - | `cm:plain-language` |
-| `cm:writing-for-dollars-writing-to-please` | 1.22 | - | `cm:plain-language` |
-| `cm:indirect-approach` | 1.21 | - | `cm:bottom-line-up-front` |
-| `cm:kieras-1979-initial-mention` | 1.21 | - | `cm:bottom-line-up-front` |
-| `cm:message-structure` | 1.21 | - | `cm:bottom-line-up-front` |
-| `cm:abstract-language` | 1.19 | - | `cm:curse-of-knowledge` |
-| `cm:camerer-loewenstein-weber-1989` | 1.19 | Study | `cm:curse-of-knowledge` |
-| `cm:egocentric-bias` | 1.19 | - | `cm:curse-of-knowledge` |
-| `cm:ryskin-brown-schmidt-2014` | 1.19 | - | `cm:curse-of-knowledge` |
-| `cm:theory-of-mind` | 1.19 | - | `cm:curse-of-knowledge` |
-| `cm:aristotle` | 1.17 | Person | `cm:aristotles-rhetoric` |
-| `cm:plato` | 1.17 | - | `cm:aristotles-rhetoric` |
-| `cm:beyond-culture` | 1.16 | Work | `cm:high-and-low-context-cultures` |
-| `cm:cardon-2008` | 1.16 | - | `cm:high-and-low-context-cultures` |
-| `cm:intercultural-communication` | 1.16 | - | `cm:high-and-low-context-cultures` |
-| `cm:kittler-rygl-mackinnon-2011` | 1.16 | - | `cm:high-and-low-context-cultures` |
-| `cm:accusatory-you-statements` | 1.15 | - | `cm:i-statements` |
+| `cm:rhetoric` | 2.31 | Field | `cm:aristotles-rhetoric` |
+| `cm:stakeholder-mapping` | 1.72 | - | `cm:audience-analysis` |
+| `cm:burying-the-lede` | 1.70 | - | `cm:bottom-line-up-front` |
+| `cm:executive-summary` | 1.70 | - | `cm:bottom-line-up-front` |
+| `cm:pyramid-principle` | 1.70 | - | `cm:bottom-line-up-front` |
+| `cm:concise-writing` | 1.68 | - | `cm:active-voice` |
+| `cm:illusion-of-transparency` | 1.67 | - | `cm:curse-of-knowledge` |
+| `cm:tappers-and-listeners-study` | 1.67 | - | `cm:curse-of-knowledge` |
+| `cm:rhetorical-appeals` | 1.66 | - | `cm:aristotles-rhetoric` |
+| `cm:edward-t-hall` | 1.65 | Person | `cm:high-and-low-context-cultures` |
+| `cm:hofstede-cultural-dimensions` | 1.65 | - | `cm:high-and-low-context-cultures` |
+| `cm:active-listening` | 1.63 | - | `cm:i-statements` |
+| `cm:defensiveness` | 1.63 | - | `cm:i-statements` |
+| `cm:nonviolent-communication` | 1.63 | - | `cm:i-statements` |
+| `cm:situation-behavior-impact` | 1.63 | - | `cm:i-statements` |
+| `cm:audience-design` | 1.22 | - | `cm:audience-analysis` |
+| `cm:jargon` | 1.21 | - | `cm:plain-language` |
+| `cm:paraphrase-testing` | 1.21 | - | `cm:plain-language` |
+| `cm:plain-language-summary` | 1.21 | - | `cm:plain-language` |
+| `cm:writing-for-dollars-writing-to-please` | 1.21 | - | `cm:plain-language` |
+| `cm:indirect-approach` | 1.20 | - | `cm:bottom-line-up-front` |
+| `cm:kieras-1979-initial-mention` | 1.20 | - | `cm:bottom-line-up-front` |
+| `cm:message-structure` | 1.20 | - | `cm:bottom-line-up-front` |
+| `cm:fear-and-loathing-of-the-english-passive` | 1.18 | - | `cm:active-voice` |
+| `cm:good-enough-processing` | 1.18 | - | `cm:active-voice` |
+| `cm:paolazzi-et-al-2019` | 1.18 | - | `cm:active-voice` |
+| `cm:passive-voice` | 1.18 | - | `cm:active-voice` |
+| `cm:unclear-ownership` | 1.18 | - | `cm:active-voice` |
+| `cm:abstract-language` | 1.17 | - | `cm:curse-of-knowledge` |
+| `cm:camerer-loewenstein-weber-1989` | 1.17 | Study | `cm:curse-of-knowledge` |
+| `cm:egocentric-bias` | 1.17 | - | `cm:curse-of-knowledge` |
+| `cm:ryskin-brown-schmidt-2014` | 1.17 | - | `cm:curse-of-knowledge` |
+| `cm:theory-of-mind` | 1.17 | - | `cm:curse-of-knowledge` |
+| `cm:aristotle` | 1.16 | Person | `cm:aristotles-rhetoric` |
+| `cm:plato` | 1.16 | - | `cm:aristotles-rhetoric` |
 | `cm:army-writing-program` | 1.15 | - | `cm:effective-writing-for-army-leaders` |
-| `cm:assertive-communication` | 1.15 | - | `cm:i-statements` |
 | `cm:clarity-index` | 1.15 | - | `cm:effective-writing-for-army-leaders` |
-| `cm:difficult-conversation` | 1.15 | - | `cm:i-statements` |
-| `cm:korobov-2020` | 1.15 | - | `cm:i-statements` |
 | `cm:quick-screen-edit` | 1.15 | - | `cm:effective-writing-for-army-leaders` |
-| `cm:rogers-et-al-2018` | 1.15 | - | `cm:i-statements` |
-| `cm:simmons-gordon-chambless-2005` | 1.15 | - | `cm:i-statements` |
-| `cm:thomas-gordon` | 1.15 | Person | `cm:i-statements` |
 | `cm:writing-style-guide` | 1.15 | - | `cm:effective-writing-for-army-leaders` |
+| `cm:beyond-culture` | 1.15 | Work | `cm:high-and-low-context-cultures` |
+| `cm:cardon-2008` | 1.15 | - | `cm:high-and-low-context-cultures` |
+| `cm:intercultural-communication` | 1.15 | - | `cm:high-and-low-context-cultures` |
+| `cm:kittler-rygl-mackinnon-2011` | 1.15 | - | `cm:high-and-low-context-cultures` |
+| `cm:accusatory-you-statements` | 1.13 | - | `cm:i-statements` |
+| `cm:assertive-communication` | 1.13 | - | `cm:i-statements` |
+| `cm:difficult-conversation` | 1.13 | - | `cm:i-statements` |
+| `cm:korobov-2020` | 1.13 | - | `cm:i-statements` |
+| `cm:rogers-et-al-2018` | 1.13 | - | `cm:i-statements` |
+| `cm:simmons-gordon-chambless-2005` | 1.13 | - | `cm:i-statements` |
+| `cm:thomas-gordon` | 1.13 | Person | `cm:i-statements` |

@@ -28,6 +28,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 |---|---|---|
 | `cm:i-statements` | 2 | accusatory-you-statements, defensiveness |
 | `cm:plain-language` | 2 | Curse of knowledge, jargon |
+| `cm:active-voice` | 1 | unclear-ownership |
 | `cm:audience-analysis` | 1 | Curse of knowledge |
 | `cm:bottom-line-up-front` | 1 | burying-the-lede |
 
@@ -51,6 +52,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 |---|---|---|
 | `cm:high-and-low-context-cultures` | contested | `cm:cardon-2008` |
 | `cm:high-and-low-context-cultures` | contested | `cm:kittler-rygl-mackinnon-2011` |
+| `cm:active-voice` | mixed | `cm:fear-and-loathing-of-the-english-passive` |
 | `cm:curse-of-knowledge` | mixed | `cm:ryskin-brown-schmidt-2014` |
 | `cm:i-statements` | mixed | `cm:korobov-2020` |
 | `cm:plain-language` | mixed |  |
@@ -61,6 +63,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 
 | node | type |
 |---|---|
+| `cm:active-voice` | cmo:Technique |
 | `cm:curse-of-knowledge` | cmo:Barrier |
 | `cm:plain-language` | cmo:Principle |
 

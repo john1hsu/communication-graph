@@ -63,6 +63,27 @@ Ask yourself:
 
 ## writing
 
+### [Active voice](../articles/writing/active-voice.md) — Technique
+
+1. Find each sentence that has a form of "to be" plus a past participle (was sent, will be reviewed, has been approved).
+2. Ask who does the action; if the sentence does not say, decide who should, and name them.
+3. Rewrite with that actor as the subject and a strong verb right after it ("Finance will review the budget").
+4. Address the reader as "you" when they are the one who must act.
+5. Keep a passive only when the actor is unknown, unimportant or obvious, or when the thing acted on is what the paragraph is about.
+
+*A project manager tells a client team what happens before go-live.*
+
+| Before | After |
+|---|---|
+| The test results will be reviewed and any outstanding issues must be resolved before the release can be approved. | Our QA lead will review the test results by Tuesday. Your team needs to fix any open issues by Thursday, and then I will approve the release. |
+
+**Why:** The original names no one, so each side can assume the other owns the work; the rewrite assigns every action to a person and a date.
+
+Ask yourself:
+- Can the reader tell, sentence by sentence, who is responsible for each action?
+- Where I kept a passive, is the actor unknown, unimportant or obvious, or am I hiding who decided?
+- Did I mislabel any sentence as passive just because it uses "was" or describes the past?
+
 ### [Bottom line up front](../articles/writing/bottom-line-up-front.md) — Technique
 
 1. Before drafting, write one sentence that states your conclusion, recommendation or request, including any decision and deadline you need.

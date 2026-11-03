@@ -48,6 +48,14 @@
 <https://github.com/john1hsu/communication-graph/id/effective-writing-for-army-leaders#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/effective-writing-for-army-leaders/s2> .
 <https://github.com/john1hsu/communication-graph/id/effective-writing-for-army-leaders#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/effective-writing-for-army-leaders/s3> .
 <https://github.com/john1hsu/communication-graph/id/effective-writing-for-army-leaders#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/effective-writing-for-army-leaders/s4> .
+<https://github.com/john1hsu/communication-graph/id/active-voice#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/active-voice#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/active-voice> .
+<https://github.com/john1hsu/communication-graph/id/active-voice#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/writing/active-voice.md" .
+<https://github.com/john1hsu/communication-graph/id/active-voice#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/active-voice/s1> .
+<https://github.com/john1hsu/communication-graph/id/active-voice#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/active-voice/s2> .
+<https://github.com/john1hsu/communication-graph/id/active-voice#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/active-voice/s3> .
+<https://github.com/john1hsu/communication-graph/id/active-voice#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/active-voice/s4> .
+<https://github.com/john1hsu/communication-graph/id/active-voice#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/active-voice/s5> .
 <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
 <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/writing/bottom-line-up-front.md" .
@@ -534,6 +542,106 @@
   <https://github.com/john1hsu/communication-graph/id/source/effective-writing-for-army-leaders/s4> <https://schema.org/url> <https://www.esd.whs.mil/Portals/54/Documents/DD/plain_language/ActionOfficer_StaffWriting.pdf?ver=2017-04-04-163823-647> .
 }
 
+<https://github.com/john1hsu/communication-graph/id/active-voice#graph> {
+  <https://github.com/john1hsu/communication-graph/id/active-voice/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/active-voice/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Can the reader tell, sentence by sentence, who is responsible for each action?" .
+  <https://github.com/john1hsu/communication-graph/id/active-voice/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/active-voice> .
+  <https://github.com/john1hsu/communication-graph/id/active-voice/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/active-voice/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Where I kept a passive, is the actor unknown, unimportant or obvious, or am I hiding who decided?" .
+  <https://github.com/john1hsu/communication-graph/id/active-voice/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/active-voice> .
+  <https://github.com/john1hsu/communication-graph/id/active-voice/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/active-voice/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Did I mislabel any sentence as passive just because it uses \"was\" or describes the past?" .
+  <https://github.com/john1hsu/communication-graph/id/active-voice/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/active-voice> .
+  <https://github.com/john1hsu/communication-graph/id/active-voice/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+  <https://github.com/john1hsu/communication-graph/id/active-voice/example> <https://github.com/john1hsu/communication-graph/ontology#after> "Our QA lead will review the test results by Tuesday. Your team needs to fix any open issues by Thursday, and then I will approve the release." .
+  <https://github.com/john1hsu/communication-graph/id/active-voice/example> <https://github.com/john1hsu/communication-graph/ontology#before> "The test results will be reviewed and any outstanding issues must be resolved before the release can be approved." .
+  <https://github.com/john1hsu/communication-graph/id/active-voice/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "A project manager tells a client team what happens before go-live." .
+  <https://github.com/john1hsu/communication-graph/id/active-voice/example> <https://github.com/john1hsu/communication-graph/ontology#why> "The original names no one, so each side can assume the other owns the work; the rewrite assigns every action to a person and a date." .
+  <https://github.com/john1hsu/communication-graph/id/active-voice/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/active-voice/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/active-voice/howto/1> <https://schema.org/text> "Find each sentence that has a form of \"to be\" plus a past participle (was sent, will be reviewed, has been approved)." .
+  <https://github.com/john1hsu/communication-graph/id/active-voice/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/active-voice/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/active-voice/howto/2> <https://schema.org/text> "Ask who does the action; if the sentence does not say, decide who should, and name them." .
+  <https://github.com/john1hsu/communication-graph/id/active-voice/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/active-voice/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/active-voice/howto/3> <https://schema.org/text> "Rewrite with that actor as the subject and a strong verb right after it (\"Finance will review the budget\")." .
+  <https://github.com/john1hsu/communication-graph/id/active-voice/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/active-voice/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/active-voice/howto/4> <https://schema.org/text> "Address the reader as \"you\" when they are the one who must act." .
+  <https://github.com/john1hsu/communication-graph/id/active-voice/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/active-voice/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/active-voice/howto/5> <https://schema.org/text> "Keep a passive only when the actor is unknown, unimportant or obvious, or when the thing acted on is what the paragraph is about." .
+  <https://github.com/john1hsu/communication-graph/id/active-voice/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+  <https://github.com/john1hsu/communication-graph/id/active-voice/howto> <https://schema.org/name> "Active voice" .
+  <https://github.com/john1hsu/communication-graph/id/active-voice/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/active-voice/howto/1> .
+  <https://github.com/john1hsu/communication-graph/id/active-voice/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/active-voice/howto/2> .
+  <https://github.com/john1hsu/communication-graph/id/active-voice/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/active-voice/howto/3> .
+  <https://github.com/john1hsu/communication-graph/id/active-voice/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/active-voice/howto/4> .
+  <https://github.com/john1hsu/communication-graph/id/active-voice/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/active-voice/howto/5> .
+  <https://github.com/john1hsu/communication-graph/id/active-voice> <http://purl.org/dc/terms/created> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/active-voice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Technique> .
+  <https://github.com/john1hsu/communication-graph/id/active-voice> <http://www.w3.org/2000/01/rdf-schema#label> "Active voice" .
+  <https://github.com/john1hsu/communication-graph/id/active-voice> <http://www.w3.org/2004/02/skos/core#altLabel> "actor-first sentences" .
+  <https://github.com/john1hsu/communication-graph/id/active-voice> <http://www.w3.org/2004/02/skos/core#altLabel> "use the active voice" .
+  <https://github.com/john1hsu/communication-graph/id/active-voice> <http://www.w3.org/2004/02/skos/core#altLabel> "who-does-what sentences" .
+  <https://github.com/john1hsu/communication-graph/id/active-voice> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/clarity> .
+  <https://github.com/john1hsu/communication-graph/id/active-voice> <http://www.w3.org/2004/02/skos/core#definition> "Writing sentences so the person or organisation doing the action is the grammatical subject (\"The team will send the report\"), rather than the thing acted on (\"The report will be sent\"), so readers can see who does what." .
+  <https://github.com/john1hsu/communication-graph/id/active-voice> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/writing> .
+  <https://github.com/john1hsu/communication-graph/id/active-voice> <http://www.w3.org/2004/02/skos/core#prefLabel> "Active voice" .
+  <https://github.com/john1hsu/communication-graph/id/active-voice> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
+  <https://github.com/john1hsu/communication-graph/id/active-voice> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/concise-writing> .
+  <https://github.com/john1hsu/communication-graph/id/active-voice> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/effective-writing-for-army-leaders> .
+  <https://github.com/john1hsu/communication-graph/id/active-voice> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/plain-language> .
+  <https://github.com/john1hsu/communication-graph/id/active-voice> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/active-voice/s1> .
+  <https://github.com/john1hsu/communication-graph/id/active-voice> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/active-voice/s2> .
+  <https://github.com/john1hsu/communication-graph/id/active-voice> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/active-voice/s3> .
+  <https://github.com/john1hsu/communication-graph/id/active-voice> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/active-voice/s4> .
+  <https://github.com/john1hsu/communication-graph/id/active-voice> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/active-voice/s5> .
+  <https://github.com/john1hsu/communication-graph/id/active-voice> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/unclear-ownership> .
+  <https://github.com/john1hsu/communication-graph/id/active-voice> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/fear-and-loathing-of-the-english-passive> .
+  <https://github.com/john1hsu/communication-graph/id/active-voice> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/passive-voice> .
+  <https://github.com/john1hsu/communication-graph/id/active-voice> <https://github.com/john1hsu/communication-graph/ontology#domain> "writing" .
+  <https://github.com/john1hsu/communication-graph/id/active-voice> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+  <https://github.com/john1hsu/communication-graph/id/active-voice> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/active-voice/example> .
+  <https://github.com/john1hsu/communication-graph/id/active-voice> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/good-enough-processing> .
+  <https://github.com/john1hsu/communication-graph/id/active-voice> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/writing/active-voice.md" .
+  <https://github.com/john1hsu/communication-graph/id/active-voice> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/active-voice/howto> .
+  <https://github.com/john1hsu/communication-graph/id/active-voice> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+  <https://github.com/john1hsu/communication-graph/id/active-voice> <https://github.com/john1hsu/communication-graph/ontology#partOf> <https://github.com/john1hsu/communication-graph/id/plain-language> .
+  <https://github.com/john1hsu/communication-graph/id/active-voice> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/paolazzi-et-al-2019> .
+  <https://github.com/john1hsu/communication-graph/id/source/active-voice/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/active-voice/s1> <http://purl.org/dc/terms/publisher> "Digital.gov (U.S. General Services Administration)" .
+  <https://github.com/john1hsu/communication-graph/id/source/active-voice/s1> <http://purl.org/dc/terms/title> "Writing (Plain Language Guide Series): Use active voice" .
+  <https://github.com/john1hsu/communication-graph/id/source/active-voice/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/active-voice/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
+  <https://github.com/john1hsu/communication-graph/id/source/active-voice/s1> <https://schema.org/url> <https://digital.gov/guides/plain-language/writing> .
+  <https://github.com/john1hsu/communication-graph/id/source/active-voice/s2> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/active-voice/s2> <http://purl.org/dc/terms/publisher> "Purdue Online Writing Lab (Purdue University)" .
+  <https://github.com/john1hsu/communication-graph/id/source/active-voice/s2> <http://purl.org/dc/terms/title> "Choosing Active and Passive Voice" .
+  <https://github.com/john1hsu/communication-graph/id/source/active-voice/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/active-voice/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/communication-graph/id/source/active-voice/s2> <https://schema.org/url> <https://owl.purdue.edu/owl/general_writing/academic_writing/active_and_passive_voice/choosing_passive_voice.html> .
+  <https://github.com/john1hsu/communication-graph/id/source/active-voice/s3> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/active-voice/s3> <http://purl.org/dc/terms/publisher> "Geoffrey K. Pullum, University of Edinburgh (author's web version of an article in Language and Communication)" .
+  <https://github.com/john1hsu/communication-graph/id/source/active-voice/s3> <http://purl.org/dc/terms/title> "Fear and Loathing of the English Passive" .
+  <https://github.com/john1hsu/communication-graph/id/source/active-voice/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/active-voice/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/communication-graph/id/source/active-voice/s3> <https://schema.org/url> <https://pullum.ppls.ed.ac.uk/passive_loathing.html> .
+  <https://github.com/john1hsu/communication-graph/id/source/active-voice/s4> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/active-voice/s4> <http://purl.org/dc/terms/publisher> "Paolazzi, Grillo, Alexiadou & Santi, Language, Cognition and Neuroscience, 2019 (White Rose repository record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/active-voice/s4> <http://purl.org/dc/terms/title> "Passives are not hard to interpret but hard to remember: evidence from online and offline studies" .
+  <https://github.com/john1hsu/communication-graph/id/source/active-voice/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/active-voice/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/active-voice/s4> <https://schema.org/url> <https://eprints.whiterose.ac.uk/145484> .
+  <https://github.com/john1hsu/communication-graph/id/source/active-voice/s5> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/active-voice/s5> <http://purl.org/dc/terms/publisher> "Ferreira, Bailey & Ferraro, Current Directions in Psychological Science 11(1), 2002 (APS abstract page)" .
+  <https://github.com/john1hsu/communication-graph/id/source/active-voice/s5> <http://purl.org/dc/terms/title> "Good-Enough Representations in Language Comprehension" .
+  <https://github.com/john1hsu/communication-graph/id/source/active-voice/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/active-voice/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/active-voice/s5> <https://schema.org/url> <https://www.psychologicalscience.org/journals/current-directions/1467-8721.00158/> .
+}
+
 <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front#graph> {
   <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
   <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "If my reader read only the subject line and first two sentences, would they know what I need from them and by when?" .
@@ -729,8 +837,13 @@
   <https://github.com/john1hsu/communication-graph/id/abstract-language> <https://github.com/john1hsu/communication-graph/ontology#causedBy> <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> .
   <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/i-statements> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/i-statements> .
-  <https://github.com/john1hsu/communication-graph/id/active-voice> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/effective-writing-for-army-leaders> .
-  <https://github.com/john1hsu/communication-graph/id/active-voice> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/plain-language> .
+  <https://github.com/john1hsu/communication-graph/id/active-voice/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/active-voice/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/active-voice/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/active-voice/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/active-voice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+  <https://github.com/john1hsu/communication-graph/id/active-voice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/active-voice> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/clarity> .
   <https://github.com/john1hsu/communication-graph/id/active-voice> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
   <https://github.com/john1hsu/communication-graph/id/aristotle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/aristotle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
@@ -771,6 +884,7 @@
   <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/clarity> .
   <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/message-structure> .
   <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/plain-language> .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/active-voice> .
   <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/plain-language> .
   <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <https://github.com/john1hsu/communication-graph/ontology#introducedIn> <https://github.com/john1hsu/communication-graph/id/effective-writing-for-army-leaders> .
   <https://github.com/john1hsu/communication-graph/id/burying-the-lede> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
@@ -779,11 +893,14 @@
   <https://github.com/john1hsu/communication-graph/id/camerer-loewenstein-weber-1989> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> .
   <https://github.com/john1hsu/communication-graph/id/cardon-2008> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> .
   <https://github.com/john1hsu/communication-graph/id/clarity-index> <https://github.com/john1hsu/communication-graph/ontology#introducedIn> <https://github.com/john1hsu/communication-graph/id/effective-writing-for-army-leaders> .
+  <https://github.com/john1hsu/communication-graph/id/clarity> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/active-voice> .
   <https://github.com/john1hsu/communication-graph/id/clarity> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/plain-language> .
+  <https://github.com/john1hsu/communication-graph/id/clarity> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/active-voice> .
   <https://github.com/john1hsu/communication-graph/id/clarity> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
   <https://github.com/john1hsu/communication-graph/id/clarity> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/plain-language> .
   <https://github.com/john1hsu/communication-graph/id/clarity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> .
   <https://github.com/john1hsu/communication-graph/id/clarity> <https://github.com/john1hsu/communication-graph/ontology#underminedBy> <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> .
+  <https://github.com/john1hsu/communication-graph/id/concise-writing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/active-voice> .
   <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -806,6 +923,8 @@
   <https://github.com/john1hsu/communication-graph/id/email> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
   <https://github.com/john1hsu/communication-graph/id/email> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
   <https://github.com/john1hsu/communication-graph/id/executive-summary> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
+  <https://github.com/john1hsu/communication-graph/id/fear-and-loathing-of-the-english-passive> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/active-voice> .
+  <https://github.com/john1hsu/communication-graph/id/good-enough-processing> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/active-voice> .
   <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/intercultural-communication> .
@@ -832,7 +951,9 @@
   <https://github.com/john1hsu/communication-graph/id/message-structure> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
   <https://github.com/john1hsu/communication-graph/id/message-structure> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
   <https://github.com/john1hsu/communication-graph/id/nonviolent-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/i-statements> .
+  <https://github.com/john1hsu/communication-graph/id/paolazzi-et-al-2019> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/active-voice> .
   <https://github.com/john1hsu/communication-graph/id/paraphrase-testing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/plain-language> .
+  <https://github.com/john1hsu/communication-graph/id/passive-voice> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/active-voice> .
   <https://github.com/john1hsu/communication-graph/id/plain-language-summary> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/plain-language> .
   <https://github.com/john1hsu/communication-graph/id/plain-language/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/plain-language/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -844,6 +965,7 @@
   <https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
   <https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> .
   <https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/effective-writing-for-army-leaders> .
+  <https://github.com/john1hsu/communication-graph/id/plain-language> <https://github.com/john1hsu/communication-graph/ontology#hasPart> <https://github.com/john1hsu/communication-graph/id/active-voice> .
   <https://github.com/john1hsu/communication-graph/id/plato> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> .
   <https://github.com/john1hsu/communication-graph/id/pyramid-principle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
   <https://github.com/john1hsu/communication-graph/id/quick-screen-edit> <https://github.com/john1hsu/communication-graph/ontology#introducedIn> <https://github.com/john1hsu/communication-graph/id/effective-writing-for-army-leaders> .
@@ -865,6 +987,7 @@
   <https://github.com/john1hsu/communication-graph/id/thomas-gordon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/thomas-gordon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/thomas-gordon> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/i-statements> .
+  <https://github.com/john1hsu/communication-graph/id/unclear-ownership> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/active-voice> .
   <https://github.com/john1hsu/communication-graph/id/writing-for-dollars-writing-to-please> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/plain-language> .
   <https://github.com/john1hsu/communication-graph/id/writing-style-guide> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/effective-writing-for-army-leaders> .
   <https://github.com/john1hsu/communication-graph/id/writing-style-guide> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/effective-writing-for-army-leaders> .
