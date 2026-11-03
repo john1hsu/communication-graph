@@ -11,3 +11,12 @@ Ask yourself:
 - If my reader had only this message and none of my background, what would they do next?
 - Have I asked someone outside the work to restate my point in their own words, or am I only judging clarity myself?
 
+## writing
+
+### [Plain language](../articles/writing/plain-language.md) — Principle
+
+Ask yourself:
+- Who exactly is reading this, and what do they already know about the subject?
+- Which terms here did I learn inside my team or field, and have I replaced or defined each one where it first appears?
+- Could a reader say in their own words what I want them to do next?
+

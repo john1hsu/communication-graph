@@ -35,6 +35,45 @@
 <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/barriers-and-psychology/curse-of-knowledge.md" .
 <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <https://github.com/john1hsu/communication-graph/ontology#undermines> <https://github.com/john1hsu/communication-graph/id/clarity> .
+<https://github.com/john1hsu/communication-graph/id/plain-language/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/plain-language/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Who exactly is reading this, and what do they already know about the subject?" .
+<https://github.com/john1hsu/communication-graph/id/plain-language/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/plain-language> .
+<https://github.com/john1hsu/communication-graph/id/plain-language/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/plain-language/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Which terms here did I learn inside my team or field, and have I replaced or defined each one where it first appears?" .
+<https://github.com/john1hsu/communication-graph/id/plain-language/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/plain-language> .
+<https://github.com/john1hsu/communication-graph/id/plain-language/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/plain-language/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Could a reader say in their own words what I want them to do next?" .
+<https://github.com/john1hsu/communication-graph/id/plain-language/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/plain-language> .
+<https://github.com/john1hsu/communication-graph/id/plain-language> <http://purl.org/dc/terms/created> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Principle> .
+<https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/2000/01/rdf-schema#label> "Plain language" .
+<https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/2004/02/skos/core#altLabel> "clear language" .
+<https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/2004/02/skos/core#altLabel> "plain English" .
+<https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/2004/02/skos/core#altLabel> "plain writing" .
+<https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/clarity> .
+<https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/2004/02/skos/core#definition> "The principle of writing so that the intended readers can find what they need, understand it and use it the first time they read it, by writing for that audience in familiar words, clear structure and direct sentences." .
+<https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/writing> .
+<https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/2004/02/skos/core#prefLabel> "Plain language" .
+<https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/active-voice> .
+<https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
+<https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
+<https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/paraphrase-testing> .
+<https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/readability-formulas> .
+<https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/plain-language/s1> .
+<https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/plain-language/s2> .
+<https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/plain-language/s3> .
+<https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/plain-language/s4> .
+<https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/plain-language/s5> .
+<https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/plain-language/s6> .
+<https://github.com/john1hsu/communication-graph/id/plain-language> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> .
+<https://github.com/john1hsu/communication-graph/id/plain-language> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/jargon> .
+<https://github.com/john1hsu/communication-graph/id/plain-language> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/plain-language-summary> .
+<https://github.com/john1hsu/communication-graph/id/plain-language> <https://github.com/john1hsu/communication-graph/ontology#domain> "writing" .
+<https://github.com/john1hsu/communication-graph/id/plain-language> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/plain-language> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/writing/plain-language.md" .
+<https://github.com/john1hsu/communication-graph/id/plain-language> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/plain-language> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
+<https://github.com/john1hsu/communication-graph/id/plain-language> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/writing-for-dollars-writing-to-please> .
 <https://github.com/john1hsu/communication-graph/id/scheme/barriers-and-psychology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <https://github.com/john1hsu/communication-graph/id/scheme/barriers-and-psychology> <http://www.w3.org/2004/02/skos/core#prefLabel> "Barriers and the psychology of communication" .
 <https://github.com/john1hsu/communication-graph/id/scheme/cross-cultural-communication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
@@ -103,3 +142,39 @@
 <https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
 <https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s6> <https://schema.org/url> <https://digital.gov/guides/plain-language/test/paraphrase-testing> .
+<https://github.com/john1hsu/communication-graph/id/source/plain-language/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/plain-language/s1> <http://purl.org/dc/terms/publisher> "Digital.gov Plain Language Guide Series (U.S. General Services Administration)" .
+<https://github.com/john1hsu/communication-graph/id/source/plain-language/s1> <http://purl.org/dc/terms/title> "Principles of plain language" .
+<https://github.com/john1hsu/communication-graph/id/source/plain-language/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/plain-language/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/communication-graph/id/source/plain-language/s1> <https://schema.org/url> <https://digital.gov/guides/plain-language/principles> .
+<https://github.com/john1hsu/communication-graph/id/source/plain-language/s2> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/plain-language/s2> <http://purl.org/dc/terms/publisher> "Digital.gov Plain Language Guide Series (U.S. General Services Administration)" .
+<https://github.com/john1hsu/communication-graph/id/source/plain-language/s2> <http://purl.org/dc/terms/title> "Avoid jargon" .
+<https://github.com/john1hsu/communication-graph/id/source/plain-language/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/plain-language/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/communication-graph/id/source/plain-language/s2> <https://schema.org/url> <https://digital.gov/guides/plain-language/principles/avoid-jargon> .
+<https://github.com/john1hsu/communication-graph/id/source/plain-language/s3> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/plain-language/s3> <http://purl.org/dc/terms/publisher> "Digital.gov (U.S. General Services Administration)" .
+<https://github.com/john1hsu/communication-graph/id/source/plain-language/s3> <http://purl.org/dc/terms/title> "Plain Writing Act of 2010: Law and requirements" .
+<https://github.com/john1hsu/communication-graph/id/source/plain-language/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/plain-language/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/communication-graph/id/source/plain-language/s3> <https://schema.org/url> <https://digital.gov/resources/plain-writing-act> .
+<https://github.com/john1hsu/communication-graph/id/source/plain-language/s4> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/plain-language/s4> <http://purl.org/dc/terms/publisher> "Joseph Kimble, Michigan Bar Journal (Plain Language column), October 2016" .
+<https://github.com/john1hsu/communication-graph/id/source/plain-language/s4> <http://purl.org/dc/terms/title> "Solid Evidence That Plain Language Works Best" .
+<https://github.com/john1hsu/communication-graph/id/source/plain-language/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/plain-language/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "practitioner-journal" .
+<https://github.com/john1hsu/communication-graph/id/source/plain-language/s4> <https://schema.org/url> <https://www.michbar.org/file/barjournal/article/documents/pdf4article2972.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/plain-language/s5> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/plain-language/s5> <http://purl.org/dc/terms/publisher> "Joseph Kimble, Carolina Academic Press, 2023 (publisher's front-matter excerpt)" .
+<https://github.com/john1hsu/communication-graph/id/source/plain-language/s5> <http://purl.org/dc/terms/title> "Writing for Dollars, Writing to Please: The Case for Plain Language in Business, Government, and Law (2nd ed.)" .
+<https://github.com/john1hsu/communication-graph/id/source/plain-language/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/plain-language/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/plain-language/s5> <https://schema.org/url> <https://cap-press.com/pdf/9781531024543.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/plain-language/s6> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/plain-language/s6> <http://purl.org/dc/terms/publisher> "Stoll, Kerwer, Lieb & Chasiotis, PLoS ONE 17(6), 2022 (PubMed record)" .
+<https://github.com/john1hsu/communication-graph/id/source/plain-language/s6> <http://purl.org/dc/terms/title> "Plain language summaries: A systematic review of theory, guidelines and empirical research" .
+<https://github.com/john1hsu/communication-graph/id/source/plain-language/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/plain-language/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/plain-language/s6> <https://schema.org/url> <https://pubmed.ncbi.nlm.nih.gov/35666746/> .

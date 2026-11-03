@@ -6,9 +6,7 @@ SPARQL queries in `queries/` run over the asserted graph, the OWL-RL inferences 
 
 _Which written barriers or anti-patterns have nothing in the graph that addresses them?_ — `queries/01-problems-without-fix.rq`
 
-| node | type |
-|---|---|
-| `cm:curse-of-knowledge` | cmo:Barrier |
+_No results._
 
 ## Skills with no practice technique (gap)
 
@@ -26,13 +24,17 @@ _No results._
 
 _Which techniques, frameworks and principles fix the most problems or build the most skills?_ — `queries/04-most-useful-techniques.rq`
 
-_No results._
+| technique | reach | targets |
+|---|---|---|
+| `cm:plain-language` | 2 | Curse of knowledge, jargon |
 
 ## Toolkit by situation
 
 _For each situation, channel or format, which techniques apply or give it structure?_ — `queries/05-toolkit-by-situation.rq`
 
-_No results._
+| situation | technique |
+|---|---|
+| `cm:plain-language-summary` | `cm:plain-language` |
 
 ## Myths and contested advice
 
@@ -41,6 +43,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | node | status | challenger |
 |---|---|---|
 | `cm:curse-of-knowledge` | mixed | `cm:ryskin-brown-schmidt-2014` |
+| `cm:plain-language` | mixed |  |
 
 ## Concepts with no recorded origin (gap)
 
@@ -49,12 +52,11 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | node | type |
 |---|---|
 | `cm:curse-of-knowledge` | cmo:Barrier |
+| `cm:plain-language` | cmo:Principle |
 
 ## Orphan articles (gap)
 
 _Which written articles does nothing else in the graph point to (after inference)?_ — `queries/08-orphans.rq`
 
-| node |
-|---|
-| `cm:curse-of-knowledge` |
+_No results._
 

@@ -88,6 +88,86 @@
    ]
   },
   {
+   "@id": "cm:plain-language",
+   "@type": "cmo:Principle",
+   "cmo:addresses": [
+    {
+     "@id": "cm:curse-of-knowledge"
+    },
+    {
+     "@id": "cm:jargon"
+    }
+   ],
+   "cmo:appliedIn": {
+    "@id": "cm:plain-language-summary"
+   },
+   "cmo:domain": "writing",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:file": "articles/writing/plain-language.md",
+   "cmo:level": "introductory",
+   "cmo:requires": {
+    "@id": "cm:audience-analysis"
+   },
+   "cmo:supportedBy": {
+    "@id": "cm:writing-for-dollars-writing-to-please"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/plain-language/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/plain-language/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/plain-language/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/plain-language/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/plain-language/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/plain-language/s6"
+    }
+   ],
+   "rdfs:label": "Plain language",
+   "skos:altLabel": [
+    "clear language",
+    "plain English",
+    "plain writing"
+   ],
+   "skos:broader": {
+    "@id": "cm:clarity"
+   },
+   "skos:definition": "The principle of writing so that the intended readers can find what they need, understand it and use it the first time they read it, by writing for that audience in familiar words, clear structure and direct sentences.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/writing"
+   },
+   "skos:prefLabel": "Plain language",
+   "skos:related": [
+    {
+     "@id": "cm:active-voice"
+    },
+    {
+     "@id": "cm:audience-analysis"
+    },
+    {
+     "@id": "cm:bottom-line-up-front"
+    },
+    {
+     "@id": "cm:paraphrase-testing"
+    },
+    {
+     "@id": "cm:readability-formulas"
+    }
+   ]
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/curse-of-knowledge/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -110,6 +190,30 @@
     "@id": "cm:curse-of-knowledge"
    },
    "rdfs:label": "Have I asked someone outside the work to restate my point in their own words, or am I only judging clarity myself?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/plain-language/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:plain-language"
+   },
+   "rdfs:label": "Who exactly is reading this, and what do they already know about the subject?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/plain-language/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:plain-language"
+   },
+   "rdfs:label": "Which terms here did I learn inside my team or field, and have I replaced or defined each one where it first appears?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/plain-language/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:plain-language"
+   },
+   "rdfs:label": "Could a reader say in their own words what I want them to do next?"
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/barriers-and-psychology",
@@ -273,6 +377,90 @@
    "dcterms:title": "Paraphrase testing",
    "schema:url": {
     "@id": "https://digital.gov/guides/plain-language/test/paraphrase-testing"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/plain-language/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Digital.gov Plain Language Guide Series (U.S. General Services Administration)",
+   "dcterms:title": "Principles of plain language",
+   "schema:url": {
+    "@id": "https://digital.gov/guides/plain-language/principles"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/plain-language/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Digital.gov Plain Language Guide Series (U.S. General Services Administration)",
+   "dcterms:title": "Avoid jargon",
+   "schema:url": {
+    "@id": "https://digital.gov/guides/plain-language/principles/avoid-jargon"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/plain-language/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Digital.gov (U.S. General Services Administration)",
+   "dcterms:title": "Plain Writing Act of 2010: Law and requirements",
+   "schema:url": {
+    "@id": "https://digital.gov/resources/plain-writing-act"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/plain-language/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "practitioner-journal",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Joseph Kimble, Michigan Bar Journal (Plain Language column), October 2016",
+   "dcterms:title": "Solid Evidence That Plain Language Works Best",
+   "schema:url": {
+    "@id": "https://www.michbar.org/file/barjournal/article/documents/pdf4article2972.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/plain-language/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Joseph Kimble, Carolina Academic Press, 2023 (publisher's front-matter excerpt)",
+   "dcterms:title": "Writing for Dollars, Writing to Please: The Case for Plain Language in Business, Government, and Law (2nd ed.)",
+   "schema:url": {
+    "@id": "https://cap-press.com/pdf/9781531024543.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/plain-language/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Stoll, Kerwer, Lieb & Chasiotis, PLoS ONE 17(6), 2022 (PubMed record)",
+   "dcterms:title": "Plain language summaries: A systematic review of theory, guidelines and empirical research",
+   "schema:url": {
+    "@id": "https://pubmed.ncbi.nlm.nih.gov/35666746/"
    }
   }
  ]

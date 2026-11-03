@@ -1,13 +1,13 @@
 # Graph statistics
 
-- Articles (nodes written): **1**
-- Frontier nodes (referenced, unwritten): **10**
-- Asserted edges: **10** (typed + evidenced: **5**)
-- Asserted triples: **105**; inferred by OWL-RL: **19**
-- Citations: **6**
-- Self-check questions: **3**; procedures: **0**; before/after rewrites: **0**
+- Articles (nodes written): **2**
+- Frontier nodes (referenced, unwritten): **16**
+- Asserted edges: **21** (typed + evidenced: **9**)
+- Asserted triples: **180**; inferred by OWL-RL: **37**
+- Citations: **12**
+- Self-check questions: **6**; procedures: **0**; before/after rewrites: **0**
 - Weakly connected components: **1**
-- Communities (Louvain): **1**; max k-core: **1**
+- Communities (Louvain): **2**; max k-core: **2**
 
 ## Most central nodes
 
@@ -15,37 +15,44 @@ PageRank = authority; betweenness = bridges between areas.
 
 | Node | PageRank | Betweenness | Written |
 |---|---|---|---|
-| `cm:abstract-language` | 0.0916 | 0.0000 | no |
-| `cm:audience-analysis` | 0.0916 | 0.0000 | no |
-| `cm:camerer-loewenstein-weber-1989` | 0.0916 | 0.0000 | no |
-| `cm:clarity` | 0.0916 | 0.0000 | no |
-| `cm:egocentric-bias` | 0.0916 | 0.0000 | no |
-| `cm:illusion-of-transparency` | 0.0916 | 0.0000 | no |
-| `cm:plain-language` | 0.0916 | 0.0000 | no |
-| `cm:ryskin-brown-schmidt-2014` | 0.0916 | 0.0000 | no |
-| `cm:tappers-and-listeners-study` | 0.0916 | 0.0000 | no |
-| `cm:theory-of-mind` | 0.0916 | 0.0000 | no |
-| `cm:curse-of-knowledge` | 0.0844 | 1.0000 | yes |
+| `cm:audience-analysis` | 0.0597 | 0.0000 | no |
+| `cm:clarity` | 0.0597 | 0.0000 | no |
+| `cm:abstract-language` | 0.0550 | 0.0000 | no |
+| `cm:active-voice` | 0.0550 | 0.0000 | no |
+| `cm:bottom-line-up-front` | 0.0550 | 0.0000 | no |
+| `cm:camerer-loewenstein-weber-1989` | 0.0550 | 0.0000 | no |
+| `cm:curse-of-knowledge` | 0.0550 | 0.6728 | yes |
+| `cm:egocentric-bias` | 0.0550 | 0.0000 | no |
+| `cm:illusion-of-transparency` | 0.0550 | 0.0000 | no |
+| `cm:jargon` | 0.0550 | 0.0000 | no |
+| `cm:paraphrase-testing` | 0.0550 | 0.0000 | no |
+| `cm:plain-language` | 0.0550 | 0.6728 | yes |
+| `cm:plain-language-summary` | 0.0550 | 0.0000 | no |
+| `cm:readability-formulas` | 0.0550 | 0.0000 | no |
+| `cm:ryskin-brown-schmidt-2014` | 0.0550 | 0.0000 | no |
 
 ## Communities
 
-1. `cm:abstract-language`, `cm:audience-analysis`, `cm:camerer-loewenstein-weber-1989`, `cm:clarity`, `cm:curse-of-knowledge`, `cm:egocentric-bias`, `cm:illusion-of-transparency`, `cm:plain-language`, `cm:ryskin-brown-schmidt-2014`, `cm:tappers-and-listeners-study`, `cm:theory-of-mind`
+1. `cm:abstract-language`, `cm:audience-analysis`, `cm:camerer-loewenstein-weber-1989`, `cm:curse-of-knowledge`, `cm:egocentric-bias`, `cm:illusion-of-transparency`, `cm:ryskin-brown-schmidt-2014`, `cm:tappers-and-listeners-study`, `cm:theory-of-mind`
+2. `cm:active-voice`, `cm:bottom-line-up-front`, `cm:clarity`, `cm:jargon`, `cm:paraphrase-testing`, `cm:plain-language`, `cm:plain-language-summary`, `cm:readability-formulas`, `cm:writing-for-dollars-writing-to-please`
 
 ## By type
 
 - Barrier: 1
+- Principle: 1
 
 ## By domain
 
 - barriers-and-psychology: 1
+- writing: 1
 
 ## By level
 
-- introductory: 1
+- introductory: 2
 
 ## By evidence status
 
-- mixed: 1
+- mixed: 2
 
 ## Domain coverage (breadth runs pick the lowest)
 
@@ -63,5 +70,5 @@ PageRank = authority; betweenness = bridges between areas.
 - presenting-and-public-speaking: 0
 - questioning-and-conversation: 0
 - thinkers-and-works: 0
-- writing: 0
 - barriers-and-psychology: 1
+- writing: 1

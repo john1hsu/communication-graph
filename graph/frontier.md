@@ -4,13 +4,19 @@ Nodes that existing articles point to but nobody has written yet. Score = referr
 
 | Node | Score | Expected type | Referenced by |
 |---|---|---|---|
-| `cm:audience-analysis` | 2.34 | - | `cm:curse-of-knowledge` |
-| `cm:clarity` | 2.34 | - | `cm:curse-of-knowledge` |
-| `cm:illusion-of-transparency` | 2.34 | - | `cm:curse-of-knowledge` |
-| `cm:plain-language` | 2.34 | - | `cm:curse-of-knowledge` |
-| `cm:tappers-and-listeners-study` | 2.34 | - | `cm:curse-of-knowledge` |
-| `cm:abstract-language` | 1.84 | - | `cm:curse-of-knowledge` |
-| `cm:camerer-loewenstein-weber-1989` | 1.84 | Study | `cm:curse-of-knowledge` |
-| `cm:egocentric-bias` | 1.84 | - | `cm:curse-of-knowledge` |
-| `cm:ryskin-brown-schmidt-2014` | 1.84 | - | `cm:curse-of-knowledge` |
-| `cm:theory-of-mind` | 1.84 | - | `cm:curse-of-knowledge` |
+| `cm:audience-analysis` | 5.15 | - | `cm:curse-of-knowledge`, `cm:plain-language` |
+| `cm:clarity` | 3.60 | - | `cm:curse-of-knowledge`, `cm:plain-language` |
+| `cm:active-voice` | 2.05 | - | `cm:plain-language` |
+| `cm:bottom-line-up-front` | 2.05 | - | `cm:plain-language` |
+| `cm:illusion-of-transparency` | 2.05 | - | `cm:curse-of-knowledge` |
+| `cm:readability-formulas` | 2.05 | - | `cm:plain-language` |
+| `cm:tappers-and-listeners-study` | 2.05 | - | `cm:curse-of-knowledge` |
+| `cm:abstract-language` | 1.55 | - | `cm:curse-of-knowledge` |
+| `cm:camerer-loewenstein-weber-1989` | 1.55 | Study | `cm:curse-of-knowledge` |
+| `cm:egocentric-bias` | 1.55 | - | `cm:curse-of-knowledge` |
+| `cm:jargon` | 1.55 | - | `cm:plain-language` |
+| `cm:paraphrase-testing` | 1.55 | - | `cm:plain-language` |
+| `cm:plain-language-summary` | 1.55 | - | `cm:plain-language` |
+| `cm:ryskin-brown-schmidt-2014` | 1.55 | - | `cm:curse-of-knowledge` |
+| `cm:theory-of-mind` | 1.55 | - | `cm:curse-of-knowledge` |
+| `cm:writing-for-dollars-writing-to-please` | 1.55 | - | `cm:plain-language` |
