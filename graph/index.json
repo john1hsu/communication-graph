@@ -1002,6 +1002,112 @@
   ]
  },
  {
+  "id": "cm:situation-behavior-impact",
+  "title": "Situation-Behavior-Impact",
+  "aliases": [
+   "SBI",
+   "SBI feedback model",
+   "situation-behaviour-impact",
+   "Situation-Behavior-Impact-Intent",
+   "SBII"
+  ],
+  "type": "Technique",
+  "domain": "feedback-and-coaching",
+  "level": "introductory",
+  "evidenceStatus": "practitioner",
+  "file": "articles/feedback-and-coaching/situation-behavior-impact.md",
+  "created": "2026-11-03",
+  "summary": "A three-part way to give feedback developed at the Center for Creative Leadership: name the specific situation, describe the observable behaviour, and say what impact it had on you - optionally followed by asking about the person's intent.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:feedback"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:i-statements"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:direct-vs-indirect-feedback"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:nonviolent-communication"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:defensiveness",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:active-listening",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:alternativeTo",
+    "object": "cm:feedback-sandwich",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:performance-review",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:introducedIn",
+    "object": "cm:feedback-that-works",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:kluger-denisi-1996",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:wisniewski-zierer-hattie-2020",
+    "source": "s5",
+    "confidence": "low"
+   }
+  ],
+  "selfCheck": [
+   "Could the other person picture the exact moment I mean, or did I say something vague like \"lately\"?",
+   "Is my behaviour description something a camera could record, or did I slip in a judgement or guess at a motive?",
+   "Have I said what the impact actually was, rather than assuming they already know?",
+   "Did I leave room to ask about their intent and listen before deciding what should change?"
+  ],
+  "steps": [
+   "Pin down the situation - the specific meeting, document or moment, with a time and place (\"in Tuesday's 10 a.m. client call\"), not \"lately\" or \"last week\".",
+   "Describe the behaviour as something a camera could have recorded - words said, actions taken - and strip out labels such as \"rude\", \"lazy\" or \"great attitude\".",
+   "State the impact the behaviour had on you, the team or the work, in your own voice, naming a concrete consequence and, if useful, your reaction (frustrated, relieved, proud).",
+   "For redirecting feedback, stop and ask about intent (\"What were you aiming for there?\") and listen before proposing any fix.",
+   "Agree together on what to keep doing or what to try next time, and give the feedback close to the event while it is still fresh.",
+   "Use the same three parts for positive feedback, so the person knows exactly which behaviour to repeat."
+  ],
+  "example": {
+   "situation": "A team lead gives feedback to an analyst who presented the quarterly numbers at a leadership review.",
+   "before": "You came across as really unprepared today and kind of defensive. You need to step up your game before the next one.",
+   "after": "In this morning's quarterly review with the VPs, when Priya asked where the churn figure came from, you said 'I'd have to check' and moved on. The VPs then questioned two other numbers and we lost ten minutes of the agenda, and I was worried they'd discount the whole forecast. What was going on for you at that point?",
+   "why": "The rewrite swaps verdicts (\"unprepared\", \"defensive\") for a time-stamped situation, an observable behaviour and a concrete impact, then asks about intent - so the analyst can see exactly what to change and has room to explain instead of defending their character."
+  },
+  "source_urls": [
+   "https://www.ccl.org/articles/leading-effectively-articles/closing-the-gap-between-intent-vs-impact-sbii/",
+   "https://www.oreilly.com/library/view/-/1882197585/",
+   "https://www.ccl.org/articles/leading-effectively-articles/review-time-how-to-give-different-types-of-feedback/",
+   "https://cris.huji.ac.il/en/publications/the-effects-of-feedback-interventions-on-performance-a-historical/",
+   "https://www.frontiersin.org/articles/10.3389/fpsyg.2019.03087/pdf",
+   "https://www.oreilly.com/library/view/feedback-that-works/9781604911732/xhtml/09_Chapter02.xhtml"
+  ]
+ },
+ {
   "id": "cm:william-strunk-jr",
   "title": "William Strunk Jr.",
   "aliases": [

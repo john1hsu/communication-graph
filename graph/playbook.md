@@ -86,6 +86,31 @@ Ask yourself:
 - Am I using "could", "may" or "possible" to hedge when I actually have an estimate I am reluctant to commit to?
 - Have I kept my confidence in the evidence separate from the likelihood of the event?
 
+## feedback-and-coaching
+
+### [Situation-Behavior-Impact](../articles/feedback-and-coaching/situation-behavior-impact.md) — Technique
+
+1. Pin down the situation - the specific meeting, document or moment, with a time and place ("in Tuesday's 10 a.m. client call"), not "lately" or "last week".
+2. Describe the behaviour as something a camera could have recorded - words said, actions taken - and strip out labels such as "rude", "lazy" or "great attitude".
+3. State the impact the behaviour had on you, the team or the work, in your own voice, naming a concrete consequence and, if useful, your reaction (frustrated, relieved, proud).
+4. For redirecting feedback, stop and ask about intent ("What were you aiming for there?") and listen before proposing any fix.
+5. Agree together on what to keep doing or what to try next time, and give the feedback close to the event while it is still fresh.
+6. Use the same three parts for positive feedback, so the person knows exactly which behaviour to repeat.
+
+*A team lead gives feedback to an analyst who presented the quarterly numbers at a leadership review.*
+
+| Before | After |
+|---|---|
+| You came across as really unprepared today and kind of defensive. You need to step up your game before the next one. | In this morning's quarterly review with the VPs, when Priya asked where the churn figure came from, you said 'I'd have to check' and moved on. The VPs then questioned two other numbers and we lost ten minutes of the agenda, and I was worried they'd discount the whole forecast. What was going on for you at that point? |
+
+**Why:** The rewrite swaps verdicts ("unprepared", "defensive") for a time-stamped situation, an observable behaviour and a concrete impact, then asks about intent - so the analyst can see exactly what to change and has room to explain instead of defending their character.
+
+Ask yourself:
+- Could the other person picture the exact moment I mean, or did I say something vague like "lately"?
+- Is my behaviour description something a camera could record, or did I slip in a judgement or guess at a motive?
+- Have I said what the impact actually was, rather than assuming they already know?
+- Did I leave room to ask about their intent and listen before deciding what should change?
+
 ## foundations
 
 ### [Audience analysis](../articles/foundations/audience-analysis.md) — Technique

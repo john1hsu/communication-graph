@@ -31,6 +31,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:active-voice` | 1 | unclear-ownership |
 | `cm:audience-analysis` | 1 | Curse of knowledge |
 | `cm:bottom-line-up-front` | 1 | burying-the-lede |
+| `cm:situation-behavior-impact` | 1 | defensiveness |
 | `cm:words-of-estimative-probability` | 1 | vague-probability-language |
 
 ## Toolkit by situation
@@ -45,6 +46,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:email` | `cm:channel-selection` |
 | `cm:executive-briefing` | `cm:words-of-estimative-probability` |
 | `cm:memorandum` | `cm:bottom-line-up-front` |
+| `cm:performance-review` | `cm:situation-behavior-impact` |
 | `cm:plain-language-summary` | `cm:plain-language` |
 
 ## Myths and contested advice
@@ -78,7 +80,5 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 
 _Which written articles does nothing else in the graph point to (after inference)?_ — `queries/08-orphans.rq`
 
-| node |
-|---|
-| `cm:i-statements` |
+_No results._
 

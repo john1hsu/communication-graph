@@ -7,11 +7,12 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 1.82 | `cm:curse-of-knowledge` | `cm:words-of-estimative-probability` | `cm:illusion-of-transparency`, `cm:plain-language` |
 | 1.62 | `cm:bottom-line-up-front` | `cm:curse-of-knowledge` | `cm:audience-analysis`, `cm:channel-selection`, `cm:email`, `cm:plain-language` |
 | 1.60 | `cm:channel-selection` | `cm:plain-language` | `cm:audience-analysis`, `cm:bottom-line-up-front`, `cm:curse-of-knowledge`, `cm:email` |
-| 1.44 | `cm:high-and-low-context-cultures` | `cm:i-statements` | `cm:direct-vs-indirect-feedback` |
 | 1.23 | `cm:bottom-line-up-front` | `cm:william-strunk-jr` | `cm:active-voice`, `cm:effective-writing-for-army-leaders`, `cm:plain-language` |
 | 1.16 | `cm:aristotles-rhetoric` | `cm:curse-of-knowledge` | `cm:audience-analysis`, `cm:clarity` |
 | 1.16 | `cm:aristotles-rhetoric` | `cm:plain-language` | `cm:audience-analysis`, `cm:clarity` |
 | 1.10 | `cm:active-voice` | `cm:curse-of-knowledge` | `cm:clarity`, `cm:plain-language` |
+| 0.91 | `cm:high-and-low-context-cultures` | `cm:i-statements` | `cm:direct-vs-indirect-feedback` |
+| 0.91 | `cm:high-and-low-context-cultures` | `cm:situation-behavior-impact` | `cm:direct-vs-indirect-feedback` |
 | 0.80 | `cm:channel-selection` | `cm:high-and-low-context-cultures` | `cm:audience-analysis`, `cm:bottom-line-up-front` |
 | 0.80 | `cm:email` | `cm:high-and-low-context-cultures` | `cm:audience-analysis`, `cm:bottom-line-up-front` |
 | 0.80 | `cm:high-and-low-context-cultures` | `cm:plain-language` | `cm:audience-analysis`, `cm:bottom-line-up-front` |
@@ -28,4 +29,3 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 0.43 | `cm:aristotles-rhetoric` | `cm:channel-selection` | `cm:audience-analysis` |
 | 0.43 | `cm:aristotles-rhetoric` | `cm:email` | `cm:audience-analysis` |
 | 0.43 | `cm:aristotles-rhetoric` | `cm:high-and-low-context-cultures` | `cm:audience-analysis` |
-| 0.43 | `cm:curse-of-knowledge` | `cm:high-and-low-context-cultures` | `cm:audience-analysis` |
