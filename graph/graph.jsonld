@@ -904,6 +904,98 @@
    ]
   },
   {
+   "@id": "cm:message-equivocality-media-selection-and-manager-performance",
+   "@type": "cmo:Work",
+   "cmo:authoredBy": [
+    {
+     "@id": "cm:linda-klebe-trevino"
+    },
+    {
+     "@id": "cm:richard-l-daft"
+    },
+    {
+     "@id": "cm:robert-h-lengel"
+    }
+   ],
+   "cmo:challengedBy": {
+    "@id": "cm:paradox-of-richness"
+   },
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "historical",
+   "cmo:file": "articles/thinkers-and-works/message-equivocality-media-selection-and-manager-performance.md",
+   "cmo:influencedBy": {
+    "@id": "cm:media-richness-theory"
+   },
+   "cmo:introduces": [
+    {
+     "@id": "cm:channel-selection"
+    },
+    {
+     "@id": "cm:media-sensitivity"
+    }
+   ],
+   "cmo:level": "intermediate",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/message-equivocality-media-selection-and-manager-performance/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/message-equivocality-media-selection-and-manager-performance/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/message-equivocality-media-selection-and-manager-performance/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/message-equivocality-media-selection-and-manager-performance/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/message-equivocality-media-selection-and-manager-performance/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/message-equivocality-media-selection-and-manager-performance/s6"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/message-equivocality-media-selection-and-manager-performance/s7"
+    }
+   ],
+   "rdfs:label": "Message Equivocality, Media Selection, and Manager Performance",
+   "skos:altLabel": [
+    "Daft Lengel and Trevino 1987",
+    "Daft",
+    "Lengel & Trevino (1987)",
+    "media sensitivity study"
+   ],
+   "skos:broader": {
+    "@id": "cm:organizational-communication"
+   },
+   "skos:definition": "A 1987 MIS Quarterly article by Richard Daft, Robert Lengel and Linda Klebe Trevino that turned media richness theory into a claim about managerial skill: managers tend to send ambiguous messages through rich media and clear ones through lean media, and higher performers match the two more closely.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "Message Equivocality, Media Selection, and Manager Performance",
+   "skos:related": [
+    {
+     "@id": "cm:audience-analysis"
+    },
+    {
+     "@id": "cm:channel-selection"
+    },
+    {
+     "@id": "cm:email"
+    },
+    {
+     "@id": "cm:media-richness-theory"
+    },
+    {
+     "@id": "cm:media-synchronicity-theory"
+    }
+   ]
+  },
+  {
    "@id": "cm:paraphrasing",
    "@type": "cmo:Technique",
    "cmo:appliedIn": {
@@ -2929,6 +3021,104 @@
    "dcterms:title": "About Dr. Thomas Gordon",
    "schema:url": {
     "@id": "https://www.gordontraining.com/?p=69"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/message-equivocality-media-selection-and-manager-performance/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Daft, R. L., Lengel, R. H. & Trevino, L. K., MIS Quarterly 11(3), 355-366, 1987, doi:10.2307/248682 (Penn State research portal record)",
+   "dcterms:title": "Message equivocality, media selection, and manager performance: Implications for information systems",
+   "schema:url": {
+    "@id": "https://pure.psu.edu/en/publications/message-equivocality-media-selection-and-manager-performance-impl/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/message-equivocality-media-selection-and-manager-performance/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "MIS Quarterly (Management Information Systems Research Center, University of Minnesota), vol. 11 no. 3, 1987 - publisher's article page",
+   "dcterms:title": "Message Equivocality, Media Selection, and Manager Performance: Implications for Information Systems",
+   "schema:url": {
+    "@id": "https://misq.org/message-equivocality-media-selection-and-manager-performance-implications-for-information-systems.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/message-equivocality-media-selection-and-manager-performance/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Lengel, R. H. & Daft, R. L., Texas A&M University technical report for the Office of Naval Research, July 1984 (DTIC copy, Internet Archive)",
+   "dcterms:title": "An Exploratory Analysis of the Relationship Between Media Richness and Managerial Information Processing (TR-ONR-DG-08)",
+   "schema:url": {
+    "@id": "https://ia802909.us.archive.org/3/items/DTIC_ADA143503/DTIC_ADA143503.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/message-equivocality-media-selection-and-manager-performance/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Trevino, L. K., Lengel, R. H. & Daft, R. L., Communication Research 14(5), 553-574, 1987 (Penn State research portal record)",
+   "dcterms:title": "Media symbolism, media richness, and media choice in organizations: A symbolic interactionist perspective",
+   "schema:url": {
+    "@id": "https://pure.psu.edu/en/publications/media-symbolism-media-richness-and-media-choice-in-organizations-/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/message-equivocality-media-selection-and-manager-performance/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Capt. H. L. Adams, master's thesis AFIT/GIR/LAR/96D-1, Air Force Institute of Technology, December 1996 (DTIC)",
+   "dcterms:title": "Air Force Media Use and Conformance with Media Richness Theory: Implications for E-mail Use and Policy",
+   "schema:url": {
+    "@id": "https://apps.dtic.mil/sti/tr/pdf/ADA319728.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/message-equivocality-media-selection-and-manager-performance/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Robert, L. P. & Dennis, A. R., IEEE Transactions on Professional Communication 48(1), 2005 (University of Michigan Deep Blue repository)",
+   "dcterms:title": "Paradox of Richness: A Cognitive Model of Media Choice",
+   "schema:url": {
+    "@id": "https://deepblue.lib.umich.edu/bitstream/2027.42/116285/1/Robert%26Dennis%2c2005.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/message-equivocality-media-selection-and-manager-performance/s7",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Daft, R. L. & Lengel, R. H., Management Science 32(5), 554-571, 1986 (copy hosted by Northwestern University Collaboration Lab)",
+   "dcterms:title": "Organizational Information Requirements, Media Richness and Structural Design",
+   "schema:url": {
+    "@id": "https://collablab.northwestern.edu//CollabolabDistro/nucmc/DaftAndLengel-OrgInfoReq-MediaRichnessAndStructuralDesign-MngmtSci-1986.pdf"
    }
   },
   {
