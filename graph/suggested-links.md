@@ -5,21 +5,24 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | Score | Node A | Node B | Shared neighbours |
 |---|---|---|---|
 | 1.44 | `cm:high-and-low-context-cultures` | `cm:i-statements` | `cm:direct-vs-indirect-feedback` |
-| 1.27 | `cm:bottom-line-up-front` | `cm:curse-of-knowledge` | `cm:audience-analysis`, `cm:channel-selection`, `cm:plain-language` |
+| 1.25 | `cm:bottom-line-up-front` | `cm:curse-of-knowledge` | `cm:audience-analysis`, `cm:channel-selection`, `cm:plain-language` |
+| 1.25 | `cm:bottom-line-up-front` | `cm:william-strunk-jr` | `cm:active-voice`, `cm:effective-writing-for-army-leaders`, `cm:plain-language` |
 | 1.23 | `cm:channel-selection` | `cm:plain-language` | `cm:audience-analysis`, `cm:bottom-line-up-front`, `cm:curse-of-knowledge` |
 | 1.16 | `cm:aristotles-rhetoric` | `cm:curse-of-knowledge` | `cm:audience-analysis`, `cm:clarity` |
 | 1.16 | `cm:aristotles-rhetoric` | `cm:plain-language` | `cm:audience-analysis`, `cm:clarity` |
-| 1.14 | `cm:active-voice` | `cm:curse-of-knowledge` | `cm:clarity`, `cm:plain-language` |
+| 1.12 | `cm:active-voice` | `cm:curse-of-knowledge` | `cm:clarity`, `cm:plain-language` |
 | 0.81 | `cm:channel-selection` | `cm:high-and-low-context-cultures` | `cm:audience-analysis`, `cm:bottom-line-up-front` |
 | 0.81 | `cm:high-and-low-context-cultures` | `cm:plain-language` | `cm:audience-analysis`, `cm:bottom-line-up-front` |
-| 0.80 | `cm:active-voice` | `cm:audience-analysis` | `cm:bottom-line-up-front`, `cm:plain-language` |
-| 0.80 | `cm:audience-analysis` | `cm:effective-writing-for-army-leaders` | `cm:bottom-line-up-front`, `cm:plain-language` |
+| 0.78 | `cm:active-voice` | `cm:audience-analysis` | `cm:bottom-line-up-front`, `cm:plain-language` |
+| 0.78 | `cm:audience-analysis` | `cm:effective-writing-for-army-leaders` | `cm:bottom-line-up-front`, `cm:plain-language` |
 | 0.72 | `cm:active-voice` | `cm:aristotles-rhetoric` | `cm:clarity` |
 | 0.43 | `cm:aristotles-rhetoric` | `cm:bottom-line-up-front` | `cm:audience-analysis` |
 | 0.43 | `cm:aristotles-rhetoric` | `cm:channel-selection` | `cm:audience-analysis` |
 | 0.43 | `cm:aristotles-rhetoric` | `cm:high-and-low-context-cultures` | `cm:audience-analysis` |
 | 0.43 | `cm:curse-of-knowledge` | `cm:high-and-low-context-cultures` | `cm:audience-analysis` |
-| 0.42 | `cm:curse-of-knowledge` | `cm:effective-writing-for-army-leaders` | `cm:plain-language` |
+| 0.40 | `cm:audience-analysis` | `cm:william-strunk-jr` | `cm:plain-language` |
+| 0.40 | `cm:curse-of-knowledge` | `cm:effective-writing-for-army-leaders` | `cm:plain-language` |
+| 0.40 | `cm:curse-of-knowledge` | `cm:william-strunk-jr` | `cm:plain-language` |
 | 0.38 | `cm:active-voice` | `cm:channel-selection` | `cm:bottom-line-up-front` |
 | 0.38 | `cm:active-voice` | `cm:high-and-low-context-cultures` | `cm:bottom-line-up-front` |
 | 0.38 | `cm:channel-selection` | `cm:effective-writing-for-army-leaders` | `cm:bottom-line-up-front` |

@@ -874,3 +874,54 @@
 <https://github.com/john1hsu/communication-graph/id/source/plain-language/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/plain-language/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/communication-graph/id/source/plain-language/s6> <https://schema.org/url> <https://pubmed.ncbi.nlm.nih.gov/35666746/> .
+<https://github.com/john1hsu/communication-graph/id/source/william-strunk-jr/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/william-strunk-jr/s1> <http://purl.org/dc/terms/publisher> "William Strunk Jr., Cornell University; Project Gutenberg eBook" .
+<https://github.com/john1hsu/communication-graph/id/source/william-strunk-jr/s1> <http://purl.org/dc/terms/title> "The Elements of Style (1920 Harcourt, Brace and Howe edition; copyright 1918, 1919)" .
+<https://github.com/john1hsu/communication-graph/id/source/william-strunk-jr/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/william-strunk-jr/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/william-strunk-jr/s1> <https://schema.org/url> <https://www.gutenberg.org/ebooks/37134> .
+<https://github.com/john1hsu/communication-graph/id/source/william-strunk-jr/s2> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/william-strunk-jr/s2> <http://purl.org/dc/terms/publisher> "George Lowery, Cornell Chronicle (Cornell University), 26 March 2009" .
+<https://github.com/john1hsu/communication-graph/id/source/william-strunk-jr/s2> <http://purl.org/dc/terms/title> "Omit needless words: Strunk and White's classic, 'The Elements of Style,' turns 50" .
+<https://github.com/john1hsu/communication-graph/id/source/william-strunk-jr/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/william-strunk-jr/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/communication-graph/id/source/william-strunk-jr/s2> <https://schema.org/url> <https://news.cornell.edu/node/272696> .
+<https://github.com/john1hsu/communication-graph/id/source/william-strunk-jr/s3> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/william-strunk-jr/s3> <http://purl.org/dc/terms/publisher> "Geoffrey K. Pullum, The Chronicle Review (Chronicle of Higher Education), 17 April 2009" .
+<https://github.com/john1hsu/communication-graph/id/source/william-strunk-jr/s3> <http://purl.org/dc/terms/title> "50 Years of Stupid Grammar Advice" .
+<https://github.com/john1hsu/communication-graph/id/source/william-strunk-jr/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/william-strunk-jr/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/william-strunk-jr/s3> <https://schema.org/url> <https://www.chronicle.com/article/50-years-of-stupid-grammar-advice/> .
+<https://github.com/john1hsu/communication-graph/id/source/william-strunk-jr/s4> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/william-strunk-jr/s4> <http://purl.org/dc/terms/publisher> "Cornell University Library archival record" .
+<https://github.com/john1hsu/communication-graph/id/source/william-strunk-jr/s4> <http://purl.org/dc/terms/title> "William Strunk papers, 1891-1933 (collection 14-12-585), Division of Rare and Manuscript Collections" .
+<https://github.com/john1hsu/communication-graph/id/source/william-strunk-jr/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/william-strunk-jr/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/communication-graph/id/source/william-strunk-jr/s4> <https://schema.org/url> <https://archive-prod.library.cornell.edu/agents/people/38936> .
+<https://github.com/john1hsu/communication-graph/id/william-strunk-jr> <http://purl.org/dc/terms/created> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/william-strunk-jr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+<https://github.com/john1hsu/communication-graph/id/william-strunk-jr> <http://www.w3.org/2000/01/rdf-schema#label> "William Strunk Jr." .
+<https://github.com/john1hsu/communication-graph/id/william-strunk-jr> <http://www.w3.org/2004/02/skos/core#altLabel> "Professor Strunk" .
+<https://github.com/john1hsu/communication-graph/id/william-strunk-jr> <http://www.w3.org/2004/02/skos/core#altLabel> "Will Strunk" .
+<https://github.com/john1hsu/communication-graph/id/william-strunk-jr> <http://www.w3.org/2004/02/skos/core#altLabel> "William Strunk" .
+<https://github.com/john1hsu/communication-graph/id/william-strunk-jr> <http://www.w3.org/2004/02/skos/core#definition> "Cornell English professor (1869-1946) whose 1918 classroom handbook, The Elements of Style, set out short imperative rules such as using the active voice and omitting needless words; revised by his former student E. B. White in 1959, it became the best-known American writing guide." .
+<https://github.com/john1hsu/communication-graph/id/william-strunk-jr> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works> .
+<https://github.com/john1hsu/communication-graph/id/william-strunk-jr> <http://www.w3.org/2004/02/skos/core#prefLabel> "William Strunk Jr." .
+<https://github.com/john1hsu/communication-graph/id/william-strunk-jr> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/active-voice> .
+<https://github.com/john1hsu/communication-graph/id/william-strunk-jr> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/concise-writing> .
+<https://github.com/john1hsu/communication-graph/id/william-strunk-jr> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/effective-writing-for-army-leaders> .
+<https://github.com/john1hsu/communication-graph/id/william-strunk-jr> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/plain-language> .
+<https://github.com/john1hsu/communication-graph/id/william-strunk-jr> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/writing-style-guide> .
+<https://github.com/john1hsu/communication-graph/id/william-strunk-jr> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/william-strunk-jr/s1> .
+<https://github.com/john1hsu/communication-graph/id/william-strunk-jr> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/william-strunk-jr/s2> .
+<https://github.com/john1hsu/communication-graph/id/william-strunk-jr> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/william-strunk-jr/s3> .
+<https://github.com/john1hsu/communication-graph/id/william-strunk-jr> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/william-strunk-jr/s4> .
+<https://github.com/john1hsu/communication-graph/id/william-strunk-jr> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/the-elements-of-style> .
+<https://github.com/john1hsu/communication-graph/id/william-strunk-jr> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/fifty-years-of-stupid-grammar-advice> .
+<https://github.com/john1hsu/communication-graph/id/william-strunk-jr> <https://github.com/john1hsu/communication-graph/ontology#domain> "thinkers-and-works" .
+<https://github.com/john1hsu/communication-graph/id/william-strunk-jr> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "historical" .
+<https://github.com/john1hsu/communication-graph/id/william-strunk-jr> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/thinkers-and-works/william-strunk-jr.md" .
+<https://github.com/john1hsu/communication-graph/id/william-strunk-jr> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/e-b-white> .
+<https://github.com/john1hsu/communication-graph/id/william-strunk-jr> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/active-voice> .
+<https://github.com/john1hsu/communication-graph/id/william-strunk-jr> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/concise-writing> .
+<https://github.com/john1hsu/communication-graph/id/william-strunk-jr> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .

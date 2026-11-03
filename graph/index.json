@@ -902,5 +902,82 @@
    "https://cap-press.com/pdf/9781531024543.pdf",
    "https://pubmed.ncbi.nlm.nih.gov/35666746/"
   ]
+ },
+ {
+  "id": "cm:william-strunk-jr",
+  "title": "William Strunk Jr.",
+  "aliases": [
+   "William Strunk",
+   "Will Strunk",
+   "Professor Strunk"
+  ],
+  "type": "Person",
+  "domain": "thinkers-and-works",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/thinkers-and-works/william-strunk-jr.md",
+  "created": "2026-11-03",
+  "summary": "Cornell English professor (1869-1946) whose 1918 classroom handbook, The Elements of Style, set out short imperative rules such as using the active voice and omitting needless words; revised by his former student E. B. White in 1959, it became the best-known American writing guide.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "cm:active-voice"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:concise-writing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:plain-language"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:writing-style-guide"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:effective-writing-for-army-leaders"
+   },
+   {
+    "predicate": "cmo:authored",
+    "object": "cm:the-elements-of-style",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introduced",
+    "object": "cm:active-voice",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:introduced",
+    "object": "cm:concise-writing",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:influenced",
+    "object": "cm:e-b-white",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:fifty-years-of-stupid-grammar-advice",
+    "source": "s3",
+    "confidence": "high"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://www.gutenberg.org/ebooks/37134",
+   "https://news.cornell.edu/node/272696",
+   "https://www.chronicle.com/article/50-years-of-stupid-grammar-advice/",
+   "https://archive-prod.library.cornell.edu/agents/people/38936"
+  ]
  }
 ]

@@ -816,6 +816,77 @@
    ]
   },
   {
+   "@id": "cm:william-strunk-jr",
+   "@type": "cmo:Person",
+   "cmo:authored": {
+    "@id": "cm:the-elements-of-style"
+   },
+   "cmo:challengedBy": {
+    "@id": "cm:fifty-years-of-stupid-grammar-advice"
+   },
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "historical",
+   "cmo:file": "articles/thinkers-and-works/william-strunk-jr.md",
+   "cmo:influenced": {
+    "@id": "cm:e-b-white"
+   },
+   "cmo:introduced": [
+    {
+     "@id": "cm:active-voice"
+    },
+    {
+     "@id": "cm:concise-writing"
+    }
+   ],
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/william-strunk-jr/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/william-strunk-jr/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/william-strunk-jr/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/william-strunk-jr/s4"
+    }
+   ],
+   "rdfs:label": "William Strunk Jr.",
+   "skos:altLabel": [
+    "Professor Strunk",
+    "Will Strunk",
+    "William Strunk"
+   ],
+   "skos:definition": "Cornell English professor (1869-1946) whose 1918 classroom handbook, The Elements of Style, set out short imperative rules such as using the active voice and omitting needless words; revised by his former student E. B. White in 1959, it became the best-known American writing guide.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "William Strunk Jr.",
+   "skos:related": [
+    {
+     "@id": "cm:active-voice"
+    },
+    {
+     "@id": "cm:concise-writing"
+    },
+    {
+     "@id": "cm:effective-writing-for-army-leaders"
+    },
+    {
+     "@id": "cm:plain-language"
+    },
+    {
+     "@id": "cm:writing-style-guide"
+    }
+   ]
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/active-voice/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -2163,6 +2234,62 @@
    "dcterms:title": "Plain language summaries: A systematic review of theory, guidelines and empirical research",
    "schema:url": {
     "@id": "https://pubmed.ncbi.nlm.nih.gov/35666746/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/william-strunk-jr/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "William Strunk Jr., Cornell University; Project Gutenberg eBook",
+   "dcterms:title": "The Elements of Style (1920 Harcourt, Brace and Howe edition; copyright 1918, 1919)",
+   "schema:url": {
+    "@id": "https://www.gutenberg.org/ebooks/37134"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/william-strunk-jr/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "George Lowery, Cornell Chronicle (Cornell University), 26 March 2009",
+   "dcterms:title": "Omit needless words: Strunk and White's classic, 'The Elements of Style,' turns 50",
+   "schema:url": {
+    "@id": "https://news.cornell.edu/node/272696"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/william-strunk-jr/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Geoffrey K. Pullum, The Chronicle Review (Chronicle of Higher Education), 17 April 2009",
+   "dcterms:title": "50 Years of Stupid Grammar Advice",
+   "schema:url": {
+    "@id": "https://www.chronicle.com/article/50-years-of-stupid-grammar-advice/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/william-strunk-jr/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Cornell University Library archival record",
+   "dcterms:title": "William Strunk papers, 1891-1933 (collection 14-12-585), Division of Rare and Manuscript Collections",
+   "schema:url": {
+    "@id": "https://archive-prod.library.cornell.edu/agents/people/38936"
    }
   }
  ]
