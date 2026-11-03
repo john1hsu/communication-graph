@@ -11,6 +11,15 @@ Ask yourself:
 - If my reader had only this message and none of my background, what would they do next?
 - Have I asked someone outside the work to restate my point in their own words, or am I only judging clarity myself?
 
+## cross-cultural-communication
+
+### [Direct vs. indirect feedback](../articles/cross-cultural-communication/direct-vs-indirect-feedback.md) — Concept
+
+Ask yourself:
+- If I strip out the softeners or intensifiers, what is the core message I am sending - and would this listener decode it the same way?
+- Am I about to deliver criticism in front of people who do not need to hear it?
+- Have I checked what the person understood, rather than assuming my politeness or bluntness landed as intended?
+
 ## difficult-conversations-and-conflict
 
 ### [I-statements](../articles/difficult-conversations-and-conflict/i-statements.md) — Technique

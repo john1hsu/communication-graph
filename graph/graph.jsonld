@@ -506,6 +506,86 @@
    ]
   },
   {
+   "@id": "cm:direct-vs-indirect-feedback",
+   "@type": "cmo:Concept",
+   "cmo:appliedIn": {
+    "@id": "cm:multicultural-team"
+   },
+   "cmo:challengedBy": {
+    "@id": "cm:brew-cairns-2004"
+   },
+   "cmo:domain": "cross-cultural-communication",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:explainedBy": [
+    {
+     "@id": "cm:face-and-facework"
+    },
+    {
+     "@id": "cm:power-distance"
+    }
+   ],
+   "cmo:file": "articles/cross-cultural-communication/direct-vs-indirect-feedback.md",
+   "cmo:level": "intermediate",
+   "cmo:supportedBy": {
+    "@id": "cm:sanchez-burks-et-al-2003"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/direct-vs-indirect-feedback/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/direct-vs-indirect-feedback/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/direct-vs-indirect-feedback/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/direct-vs-indirect-feedback/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/direct-vs-indirect-feedback/s5"
+    }
+   ],
+   "rdfs:label": "Direct vs. indirect feedback",
+   "skos:altLabel": [
+    "direct and indirect negative feedback",
+    "evaluating scale",
+    "feedback directness",
+    "upgraders and downgraders"
+   ],
+   "skos:broader": [
+    {
+     "@id": "cm:feedback"
+    },
+    {
+     "@id": "cm:intercultural-communication"
+    }
+   ],
+   "skos:definition": "The contrast between stating criticism plainly, often intensified with \"upgraders\" such as \"totally\", and softening it with \"downgraders\", understatement or omission so the listener infers the problem; norms differ across cultures, but research shows the gap shifts with setting, status and urgency rather than following nationality alone.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/cross-cultural-communication"
+   },
+   "skos:prefLabel": "Direct vs. indirect feedback",
+   "skos:related": [
+    {
+     "@id": "cm:feedback-sandwich"
+    },
+    {
+     "@id": "cm:high-and-low-context-cultures"
+    },
+    {
+     "@id": "cm:i-statements"
+    },
+    {
+     "@id": "cm:situation-behavior-impact"
+    }
+   ]
+  },
+  {
    "@id": "cm:effective-writing-for-army-leaders",
    "@type": "cmo:Work",
    "cmo:domain": "thinkers-and-works",
@@ -1542,6 +1622,30 @@
    "rdfs:label": "Have I asked someone outside the work to restate my point in their own words, or am I only judging clarity myself?"
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:direct-vs-indirect-feedback"
+   },
+   "rdfs:label": "If I strip out the softeners or intensifiers, what is the core message I am sending - and would this listener decode it the same way?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:direct-vs-indirect-feedback"
+   },
+   "rdfs:label": "Am I about to deliver criticism in front of people who do not need to hear it?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:direct-vs-indirect-feedback"
+   },
+   "rdfs:label": "Have I checked what the person understood, rather than assuming my politeness or bluntness landed as intended?"
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/i-statements/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -2307,6 +2411,76 @@
    "dcterms:title": "Paraphrase testing",
    "schema:url": {
     "@id": "https://digital.gov/guides/plain-language/test/paraphrase-testing"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/direct-vs-indirect-feedback/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "practitioner-journal",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Erin Meyer, Harvard Business Review, September-October 2023 (author's reprint)",
+   "dcterms:title": "When Diversity Meets Feedback",
+   "schema:url": {
+    "@id": "https://erinmeyer.com/wp-content/uploads/2023/10/When-Diversity-Meets-Feedback.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/direct-vs-indirect-feedback/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Erin Meyer, INSEAD Knowledge (INSEAD business school), 16 September 2015",
+   "dcterms:title": "Giving Negative Feedback Across Cultures",
+   "schema:url": {
+    "@id": "https://knowledge.insead.edu/leadership-organisations/giving-negative-feedback-across-cultures"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/direct-vs-indirect-feedback/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Sanchez-Burks, Lee, Choi, Nisbett, Zhao & Koo, Journal of Personality and Social Psychology 85(2), 363-372 (2003), doi:10.1037/0022-3514.85.2.363 (author's copy, University of Michigan)",
+   "dcterms:title": "Conversing across cultures: East-West communication styles in work and nonwork contexts",
+   "schema:url": {
+    "@id": "https://webuser.bus.umich.edu/jeffrysb/Conversing%20Across.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/direct-vs-indirect-feedback/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Brew & Cairns, International Journal of Intercultural Relations 28(5), 331-352 (2004), doi:10.1016/j.ijintrel.2004.09.001",
+   "dcterms:title": "Do culture or situational constraints determine choice of direct or indirect styles in intercultural workplace conflicts?",
+   "schema:url": {
+    "@id": "https://www.sciencedirect.com/science/article/abs/pii/S0147176704000483"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/direct-vs-indirect-feedback/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Fullerton et al., BMC Medical Education 26, article 30 (2025), doi:10.1186/s12909-025-08307-z",
+   "dcterms:title": "Cultural influences on Asian health profession trainees seeking and receiving feedback: a scoping review",
+   "schema:url": {
+    "@id": "https://link.springer.com/article/10.1186/s12909-025-08307-z"
    }
   },
   {

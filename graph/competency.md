@@ -46,6 +46,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:email` | `cm:channel-selection` |
 | `cm:executive-briefing` | `cm:words-of-estimative-probability` |
 | `cm:memorandum` | `cm:bottom-line-up-front` |
+| `cm:multicultural-team` | `cm:direct-vs-indirect-feedback` |
 | `cm:performance-review` | `cm:situation-behavior-impact` |
 | `cm:plain-language-summary` | `cm:plain-language` |
 
@@ -60,6 +61,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:active-voice` | mixed | `cm:fear-and-loathing-of-the-english-passive` |
 | `cm:channel-selection` | mixed | `cm:dennis-kinney-1998` |
 | `cm:curse-of-knowledge` | mixed | `cm:ryskin-brown-schmidt-2014` |
+| `cm:direct-vs-indirect-feedback` | mixed | `cm:brew-cairns-2004` |
 | `cm:email` | mixed |  |
 | `cm:i-statements` | mixed | `cm:korobov-2020` |
 | `cm:plain-language` | mixed |  |
@@ -73,6 +75,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 |---|---|
 | `cm:channel-selection` | cmo:Technique |
 | `cm:curse-of-knowledge` | cmo:Barrier |
+| `cm:direct-vs-indirect-feedback` | cmo:Concept |
 | `cm:email` | cmo:Channel |
 | `cm:plain-language` | cmo:Principle |
 

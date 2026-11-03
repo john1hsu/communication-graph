@@ -9,6 +9,14 @@
 <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s4> .
 <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s5> .
 <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s6> .
+<https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> .
+<https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/cross-cultural-communication/direct-vs-indirect-feedback.md" .
+<https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/direct-vs-indirect-feedback/s1> .
+<https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/direct-vs-indirect-feedback/s2> .
+<https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/direct-vs-indirect-feedback/s3> .
+<https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/direct-vs-indirect-feedback/s4> .
+<https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/direct-vs-indirect-feedback/s5> .
 <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> .
 <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/cross-cultural-communication/high-and-low-context-cultures.md" .
@@ -189,6 +197,78 @@
   <https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
   <https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
   <https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s6> <https://schema.org/url> <https://digital.gov/guides/plain-language/test/paraphrase-testing> .
+}
+
+<https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback#graph> {
+  <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "If I strip out the softeners or intensifiers, what is the core message I am sending - and would this listener decode it the same way?" .
+  <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> .
+  <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Am I about to deliver criticism in front of people who do not need to hear it?" .
+  <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> .
+  <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Have I checked what the person understood, rather than assuming my politeness or bluntness landed as intended?" .
+  <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> .
+  <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> <http://purl.org/dc/terms/created> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+  <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> <http://www.w3.org/2000/01/rdf-schema#label> "Direct vs. indirect feedback" .
+  <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> <http://www.w3.org/2004/02/skos/core#altLabel> "direct and indirect negative feedback" .
+  <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> <http://www.w3.org/2004/02/skos/core#altLabel> "evaluating scale" .
+  <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> <http://www.w3.org/2004/02/skos/core#altLabel> "feedback directness" .
+  <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> <http://www.w3.org/2004/02/skos/core#altLabel> "upgraders and downgraders" .
+  <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/feedback> .
+  <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/intercultural-communication> .
+  <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> <http://www.w3.org/2004/02/skos/core#definition> "The contrast between stating criticism plainly, often intensified with \"upgraders\" such as \"totally\", and softening it with \"downgraders\", understatement or omission so the listener infers the problem; norms differ across cultures, but research shows the gap shifts with setting, status and urgency rather than following nationality alone." .
+  <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/cross-cultural-communication> .
+  <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> <http://www.w3.org/2004/02/skos/core#prefLabel> "Direct vs. indirect feedback" .
+  <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/feedback-sandwich> .
+  <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> .
+  <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/i-statements> .
+  <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> .
+  <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/direct-vs-indirect-feedback/s1> .
+  <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/direct-vs-indirect-feedback/s2> .
+  <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/direct-vs-indirect-feedback/s3> .
+  <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/direct-vs-indirect-feedback/s4> .
+  <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/direct-vs-indirect-feedback/s5> .
+  <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/multicultural-team> .
+  <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/brew-cairns-2004> .
+  <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> <https://github.com/john1hsu/communication-graph/ontology#domain> "cross-cultural-communication" .
+  <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+  <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/face-and-facework> .
+  <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/power-distance> .
+  <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/cross-cultural-communication/direct-vs-indirect-feedback.md" .
+  <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+  <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/sanchez-burks-et-al-2003> .
+  <https://github.com/john1hsu/communication-graph/id/source/direct-vs-indirect-feedback/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/direct-vs-indirect-feedback/s1> <http://purl.org/dc/terms/publisher> "Erin Meyer, Harvard Business Review, September-October 2023 (author's reprint)" .
+  <https://github.com/john1hsu/communication-graph/id/source/direct-vs-indirect-feedback/s1> <http://purl.org/dc/terms/title> "When Diversity Meets Feedback" .
+  <https://github.com/john1hsu/communication-graph/id/source/direct-vs-indirect-feedback/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/direct-vs-indirect-feedback/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "practitioner-journal" .
+  <https://github.com/john1hsu/communication-graph/id/source/direct-vs-indirect-feedback/s1> <https://schema.org/url> <https://erinmeyer.com/wp-content/uploads/2023/10/When-Diversity-Meets-Feedback.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/direct-vs-indirect-feedback/s2> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/direct-vs-indirect-feedback/s2> <http://purl.org/dc/terms/publisher> "Erin Meyer, INSEAD Knowledge (INSEAD business school), 16 September 2015" .
+  <https://github.com/john1hsu/communication-graph/id/source/direct-vs-indirect-feedback/s2> <http://purl.org/dc/terms/title> "Giving Negative Feedback Across Cultures" .
+  <https://github.com/john1hsu/communication-graph/id/source/direct-vs-indirect-feedback/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/direct-vs-indirect-feedback/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/communication-graph/id/source/direct-vs-indirect-feedback/s2> <https://schema.org/url> <https://knowledge.insead.edu/leadership-organisations/giving-negative-feedback-across-cultures> .
+  <https://github.com/john1hsu/communication-graph/id/source/direct-vs-indirect-feedback/s3> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/direct-vs-indirect-feedback/s3> <http://purl.org/dc/terms/publisher> "Sanchez-Burks, Lee, Choi, Nisbett, Zhao & Koo, Journal of Personality and Social Psychology 85(2), 363-372 (2003), doi:10.1037/0022-3514.85.2.363 (author's copy, University of Michigan)" .
+  <https://github.com/john1hsu/communication-graph/id/source/direct-vs-indirect-feedback/s3> <http://purl.org/dc/terms/title> "Conversing across cultures: East-West communication styles in work and nonwork contexts" .
+  <https://github.com/john1hsu/communication-graph/id/source/direct-vs-indirect-feedback/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/direct-vs-indirect-feedback/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/direct-vs-indirect-feedback/s3> <https://schema.org/url> <https://webuser.bus.umich.edu/jeffrysb/Conversing%20Across.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/direct-vs-indirect-feedback/s4> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/direct-vs-indirect-feedback/s4> <http://purl.org/dc/terms/publisher> "Brew & Cairns, International Journal of Intercultural Relations 28(5), 331-352 (2004), doi:10.1016/j.ijintrel.2004.09.001" .
+  <https://github.com/john1hsu/communication-graph/id/source/direct-vs-indirect-feedback/s4> <http://purl.org/dc/terms/title> "Do culture or situational constraints determine choice of direct or indirect styles in intercultural workplace conflicts?" .
+  <https://github.com/john1hsu/communication-graph/id/source/direct-vs-indirect-feedback/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/direct-vs-indirect-feedback/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/direct-vs-indirect-feedback/s4> <https://schema.org/url> <https://www.sciencedirect.com/science/article/abs/pii/S0147176704000483> .
+  <https://github.com/john1hsu/communication-graph/id/source/direct-vs-indirect-feedback/s5> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/direct-vs-indirect-feedback/s5> <http://purl.org/dc/terms/publisher> "Fullerton et al., BMC Medical Education 26, article 30 (2025), doi:10.1186/s12909-025-08307-z" .
+  <https://github.com/john1hsu/communication-graph/id/source/direct-vs-indirect-feedback/s5> <http://purl.org/dc/terms/title> "Cultural influences on Asian health profession trainees seeking and receiving feedback: a scoping review" .
+  <https://github.com/john1hsu/communication-graph/id/source/direct-vs-indirect-feedback/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/direct-vs-indirect-feedback/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/direct-vs-indirect-feedback/s5> <https://schema.org/url> <https://link.springer.com/article/10.1186/s12909-025-08307-z> .
 }
 
 <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures#graph> {
@@ -1394,6 +1474,7 @@
   <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability> .
   <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/email> .
   <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <https://github.com/john1hsu/communication-graph/ontology#introducedIn> <https://github.com/john1hsu/communication-graph/id/effective-writing-for-army-leaders> .
+  <https://github.com/john1hsu/communication-graph/id/brew-cairns-2004> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> .
   <https://github.com/john1hsu/communication-graph/id/burying-the-lede> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
   <https://github.com/john1hsu/communication-graph/id/camerer-loewenstein-weber-1989> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/camerer-loewenstein-weber-1989> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
@@ -1437,9 +1518,12 @@
   <https://github.com/john1hsu/communication-graph/id/defensiveness> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> .
   <https://github.com/john1hsu/communication-graph/id/dennis-kinney-1998> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/channel-selection> .
   <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/i-statements> .
-  <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> .
-  <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/i-statements> .
-  <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> .
+  <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/feedback> .
+  <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/intercultural-communication> .
   <https://github.com/john1hsu/communication-graph/id/e-b-white> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/william-strunk-jr> .
   <https://github.com/john1hsu/communication-graph/id/edward-t-hall> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/edward-t-hall> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
@@ -1463,13 +1547,17 @@
   <https://github.com/john1hsu/communication-graph/id/executive-briefing> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability> .
   <https://github.com/john1hsu/communication-graph/id/executive-summary> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
   <https://github.com/john1hsu/communication-graph/id/executive-summary> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability> .
+  <https://github.com/john1hsu/communication-graph/id/face-and-facework> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> .
   <https://github.com/john1hsu/communication-graph/id/face-to-face-conversation> <https://github.com/john1hsu/communication-graph/ontology#alternativeTo> <https://github.com/john1hsu/communication-graph/id/email> .
   <https://github.com/john1hsu/communication-graph/id/fear-and-loathing-of-the-english-passive> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/active-voice> .
+  <https://github.com/john1hsu/communication-graph/id/feedback-sandwich> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> .
   <https://github.com/john1hsu/communication-graph/id/feedback-sandwich> <https://github.com/john1hsu/communication-graph/ontology#alternativeTo> <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> .
   <https://github.com/john1hsu/communication-graph/id/feedback-that-works> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/feedback-that-works> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
   <https://github.com/john1hsu/communication-graph/id/feedback-that-works> <https://github.com/john1hsu/communication-graph/ontology#introduces> <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> .
+  <https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> .
   <https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> .
+  <https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> .
   <https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> .
   <https://github.com/john1hsu/communication-graph/id/fifty-years-of-stupid-grammar-advice> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/william-strunk-jr> .
   <https://github.com/john1hsu/communication-graph/id/good-enough-processing> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/active-voice> .
@@ -1490,7 +1578,9 @@
   <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability> .
   <https://github.com/john1hsu/communication-graph/id/indirect-approach> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
   <https://github.com/john1hsu/communication-graph/id/information-overload> <https://github.com/john1hsu/communication-graph/ontology#causedBy> <https://github.com/john1hsu/communication-graph/id/email> .
+  <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> .
+  <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> .
   <https://github.com/john1hsu/communication-graph/id/jargon> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/plain-language> .
   <https://github.com/john1hsu/communication-graph/id/kieras-1979-initial-mention> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
@@ -1510,6 +1600,7 @@
   <https://github.com/john1hsu/communication-graph/id/memorandum> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
   <https://github.com/john1hsu/communication-graph/id/message-structure> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
   <https://github.com/john1hsu/communication-graph/id/message-structure> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
+  <https://github.com/john1hsu/communication-graph/id/multicultural-team> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> .
   <https://github.com/john1hsu/communication-graph/id/nonviolent-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/i-statements> .
   <https://github.com/john1hsu/communication-graph/id/nonviolent-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> .
   <https://github.com/john1hsu/communication-graph/id/paolazzi-et-al-2019> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/active-voice> .
@@ -1532,6 +1623,7 @@
   <https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability> .
   <https://github.com/john1hsu/communication-graph/id/plain-language> <https://github.com/john1hsu/communication-graph/ontology#hasPart> <https://github.com/john1hsu/communication-graph/id/active-voice> .
   <https://github.com/john1hsu/communication-graph/id/plato> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> .
+  <https://github.com/john1hsu/communication-graph/id/power-distance> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> .
   <https://github.com/john1hsu/communication-graph/id/pyramid-principle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
   <https://github.com/john1hsu/communication-graph/id/quick-screen-edit> <https://github.com/john1hsu/communication-graph/ontology#introducedIn> <https://github.com/john1hsu/communication-graph/id/effective-writing-for-army-leaders> .
   <https://github.com/john1hsu/communication-graph/id/readability-formulas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/effective-writing-for-army-leaders> .
@@ -1544,6 +1636,7 @@
   <https://github.com/john1hsu/communication-graph/id/rhetorical-appeals> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> .
   <https://github.com/john1hsu/communication-graph/id/rogers-et-al-2018> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/i-statements> .
   <https://github.com/john1hsu/communication-graph/id/ryskin-brown-schmidt-2014> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> .
+  <https://github.com/john1hsu/communication-graph/id/sanchez-burks-et-al-2003> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> .
   <https://github.com/john1hsu/communication-graph/id/sherman-kent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/sherman-kent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/sherman-kent> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability> .
