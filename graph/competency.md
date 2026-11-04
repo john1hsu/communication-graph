@@ -99,6 +99,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:defensiveness` | mixed | `cm:forward-czech-lee-2011` |
 | `cm:direct-vs-indirect-feedback` | mixed | `cm:brew-cairns-2004` |
 | `cm:email` | mixed |  |
+| `cm:feedback` | mixed |  |
 | `cm:feedforward` | mixed |  |
 | `cm:i-statements` | mixed | `cm:korobov-2020` |
 | `cm:illusion-of-transparency` | mixed |  |
@@ -115,9 +116,8 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:self-distancing` | mixed |  |
 | `cm:spotlight-effect` | mixed |  |
 | `cm:teach-back` | mixed |  |
-| `cm:weger-et-al-2014` | mixed |  |
 
-…and 1 more.
+…and 2 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -125,6 +125,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 
 | node | type |
 |---|---|
+| `cm:feedback` | cmo:Concept |
 | `cm:first-offer` | cmo:Technique |
 | `cm:illusion-of-transparency` | cmo:Barrier |
 | `cm:open-ended-questions` | cmo:Technique |

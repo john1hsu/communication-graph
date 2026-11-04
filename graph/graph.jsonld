@@ -1193,6 +1193,97 @@
    ]
   },
   {
+   "@id": "cm:feedback",
+   "@type": "cmo:Concept",
+   "cmo:demonstratedBy": [
+    {
+     "@id": "cm:kluger-denisi-1996"
+    },
+    {
+     "@id": "cm:wisniewski-zierer-hattie-2020"
+    }
+   ],
+   "cmo:domain": "feedback-and-coaching",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:explainedBy": [
+    {
+     "@id": "cm:feedback-intervention-theory"
+    },
+    {
+     "@id": "cm:hattie-timperley-feedback-model"
+    }
+   ],
+   "cmo:file": "articles/feedback-and-coaching/feedback.md",
+   "cmo:level": "introductory",
+   "cmo:studiedIn": {
+    "@id": "cm:industrial-organizational-psychology"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/feedback/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/feedback/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/feedback/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/feedback/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/feedback/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/feedback/s6"
+    }
+   ],
+   "rdfs:label": "Feedback",
+   "skos:altLabel": [
+    "feedback interventions",
+    "performance feedback",
+    "workplace feedback"
+   ],
+   "skos:broader": {
+    "@id": "cm:interpersonal-communication"
+   },
+   "skos:definition": "Information given to a person about their performance or understanding, relative to a goal, so they can close the gap; on average it improves performance, but a sizeable share of feedback makes things worse, depending mainly on what it draws attention to and how much usable information it carries.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/feedback-and-coaching"
+   },
+   "skos:prefLabel": "Feedback",
+   "skos:related": [
+    {
+     "@id": "cm:defensiveness"
+    },
+    {
+     "@id": "cm:direct-vs-indirect-feedback"
+    },
+    {
+     "@id": "cm:feedforward"
+    },
+    {
+     "@id": "cm:one-on-one-meetings"
+    },
+    {
+     "@id": "cm:performance-review"
+    },
+    {
+     "@id": "cm:psychological-safety"
+    },
+    {
+     "@id": "cm:receiving-feedback"
+    },
+    {
+     "@id": "cm:situation-behavior-impact"
+    }
+   ]
+  },
+  {
    "@id": "cm:feedforward",
    "@type": "cmo:Technique",
    "cmo:addresses": {
@@ -6832,6 +6923,90 @@
    "dcterms:title": "Writing effective emails",
    "schema:url": {
     "@id": "https://cove.army.gov.au/article/writing-effective-emails"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/feedback/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Kluger & DeNisi, Psychological Bulletin 119(2), 254-284 (1996), doi:10.1037/0033-2909.119.2.254 (Hebrew University research portal)",
+   "dcterms:title": "The effects of feedback interventions on performance: a historical review, a meta-analysis, and a preliminary feedback intervention theory",
+   "schema:url": {
+    "@id": "https://cris.huji.ac.il/en/publications/the-effects-of-feedback-interventions-on-performance-a-historical/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/feedback/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Hattie & Timperley, Review of Educational Research 77(1), 81-112 (2007), doi:10.3102/003465430298487 (UC Riverside assessment office copy)",
+   "dcterms:title": "The Power of Feedback",
+   "schema:url": {
+    "@id": "https://assess.ucr.edu/media/746/download"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/feedback/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Wisniewski, Zierer & Hattie, Frontiers in Psychology 10:3087 (2020), doi:10.3389/fpsyg.2019.03087",
+   "dcterms:title": "The Power of Feedback Revisited: A Meta-Analysis of Educational Feedback Research",
+   "schema:url": {
+    "@id": "https://www.frontiersin.org/articles/10.3389/fpsyg.2019.03087/text"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/feedback/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Ilgen, Fisher & Taylor, Journal of Applied Psychology 64(4), 349-371 (1979), doi:10.1037/0021-9010.64.4.349 (Bond University research portal)",
+   "dcterms:title": "Consequences of individual feedback on behavior in organizations",
+   "schema:url": {
+    "@id": "https://research.bond.edu.au/en/publications/consequences-of-individual-feedback-on-behavior-in-organizations/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/feedback/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Program on Negotiation at Harvard Law School",
+   "dcterms:title": "Douglas Stone - faculty profile",
+   "schema:url": {
+    "@id": "https://www.pon.harvard.edu/faculty/douglas-stone/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/feedback/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "news",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "NIH Record, National Institutes of Health (2018)",
+   "dcterms:title": "Heen Discusses Art of Receiving Feedback Well",
+   "schema:url": {
+    "@id": "https://nihrecord.nih.gov/2018/06/01/heen-discusses-art-receiving-feedback-well"
    }
   },
   {

@@ -736,6 +736,39 @@
 <https://github.com/john1hsu/communication-graph/id/email> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
 <https://github.com/john1hsu/communication-graph/id/email> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/digital-and-async-communication/email.md" .
 <https://github.com/john1hsu/communication-graph/id/email> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/feedback> <http://purl.org/dc/terms/created> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+<https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2000/01/rdf-schema#label> "Feedback" .
+<https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#altLabel> "feedback interventions" .
+<https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#altLabel> "performance feedback" .
+<https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#altLabel> "workplace feedback" .
+<https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
+<https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#definition> "Information given to a person about their performance or understanding, relative to a goal, so they can close the gap; on average it improves performance, but a sizeable share of feedback makes things worse, depending mainly on what it draws attention to and how much usable information it carries." .
+<https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/feedback-and-coaching> .
+<https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#prefLabel> "Feedback" .
+<https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/defensiveness> .
+<https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> .
+<https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/feedforward> .
+<https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> .
+<https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/performance-review> .
+<https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
+<https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/receiving-feedback> .
+<https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> .
+<https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/feedback/s1> .
+<https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/feedback/s2> .
+<https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/feedback/s3> .
+<https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/feedback/s4> .
+<https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/feedback/s5> .
+<https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/feedback/s6> .
+<https://github.com/john1hsu/communication-graph/id/feedback> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996> .
+<https://github.com/john1hsu/communication-graph/id/feedback> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> .
+<https://github.com/john1hsu/communication-graph/id/feedback> <https://github.com/john1hsu/communication-graph/ontology#domain> "feedback-and-coaching" .
+<https://github.com/john1hsu/communication-graph/id/feedback> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/feedback> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/feedback-intervention-theory> .
+<https://github.com/john1hsu/communication-graph/id/feedback> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> .
+<https://github.com/john1hsu/communication-graph/id/feedback> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/feedback-and-coaching/feedback.md" .
+<https://github.com/john1hsu/communication-graph/id/feedback> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/feedback> <https://github.com/john1hsu/communication-graph/ontology#studiedIn> <https://github.com/john1hsu/communication-graph/id/industrial-organizational-psychology> .
 <https://github.com/john1hsu/communication-graph/id/feedforward/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/feedforward/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Have I named one behaviour I want to improve in the future, rather than asking for a verdict on the past?" .
 <https://github.com/john1hsu/communication-graph/id/feedforward/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/feedforward> .
@@ -2459,6 +2492,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/email/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/email/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
 <https://github.com/john1hsu/communication-graph/id/source/email/s5> <https://schema.org/url> <https://cove.army.gov.au/article/writing-effective-emails> .
+<https://github.com/john1hsu/communication-graph/id/source/feedback/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/feedback/s1> <http://purl.org/dc/terms/publisher> "Kluger & DeNisi, Psychological Bulletin 119(2), 254-284 (1996), doi:10.1037/0033-2909.119.2.254 (Hebrew University research portal)" .
+<https://github.com/john1hsu/communication-graph/id/source/feedback/s1> <http://purl.org/dc/terms/title> "The effects of feedback interventions on performance: a historical review, a meta-analysis, and a preliminary feedback intervention theory" .
+<https://github.com/john1hsu/communication-graph/id/source/feedback/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/feedback/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/feedback/s1> <https://schema.org/url> <https://cris.huji.ac.il/en/publications/the-effects-of-feedback-interventions-on-performance-a-historical/> .
+<https://github.com/john1hsu/communication-graph/id/source/feedback/s2> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/feedback/s2> <http://purl.org/dc/terms/publisher> "Hattie & Timperley, Review of Educational Research 77(1), 81-112 (2007), doi:10.3102/003465430298487 (UC Riverside assessment office copy)" .
+<https://github.com/john1hsu/communication-graph/id/source/feedback/s2> <http://purl.org/dc/terms/title> "The Power of Feedback" .
+<https://github.com/john1hsu/communication-graph/id/source/feedback/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/feedback/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/feedback/s2> <https://schema.org/url> <https://assess.ucr.edu/media/746/download> .
+<https://github.com/john1hsu/communication-graph/id/source/feedback/s3> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/feedback/s3> <http://purl.org/dc/terms/publisher> "Wisniewski, Zierer & Hattie, Frontiers in Psychology 10:3087 (2020), doi:10.3389/fpsyg.2019.03087" .
+<https://github.com/john1hsu/communication-graph/id/source/feedback/s3> <http://purl.org/dc/terms/title> "The Power of Feedback Revisited: A Meta-Analysis of Educational Feedback Research" .
+<https://github.com/john1hsu/communication-graph/id/source/feedback/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/feedback/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/feedback/s3> <https://schema.org/url> <https://www.frontiersin.org/articles/10.3389/fpsyg.2019.03087/text> .
+<https://github.com/john1hsu/communication-graph/id/source/feedback/s4> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/feedback/s4> <http://purl.org/dc/terms/publisher> "Ilgen, Fisher & Taylor, Journal of Applied Psychology 64(4), 349-371 (1979), doi:10.1037/0021-9010.64.4.349 (Bond University research portal)" .
+<https://github.com/john1hsu/communication-graph/id/source/feedback/s4> <http://purl.org/dc/terms/title> "Consequences of individual feedback on behavior in organizations" .
+<https://github.com/john1hsu/communication-graph/id/source/feedback/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/feedback/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/feedback/s4> <https://schema.org/url> <https://research.bond.edu.au/en/publications/consequences-of-individual-feedback-on-behavior-in-organizations/> .
+<https://github.com/john1hsu/communication-graph/id/source/feedback/s5> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/feedback/s5> <http://purl.org/dc/terms/publisher> "Program on Negotiation at Harvard Law School" .
+<https://github.com/john1hsu/communication-graph/id/source/feedback/s5> <http://purl.org/dc/terms/title> "Douglas Stone - faculty profile" .
+<https://github.com/john1hsu/communication-graph/id/source/feedback/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/feedback/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/feedback/s5> <https://schema.org/url> <https://www.pon.harvard.edu/faculty/douglas-stone/> .
+<https://github.com/john1hsu/communication-graph/id/source/feedback/s6> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/feedback/s6> <http://purl.org/dc/terms/publisher> "NIH Record, National Institutes of Health (2018)" .
+<https://github.com/john1hsu/communication-graph/id/source/feedback/s6> <http://purl.org/dc/terms/title> "Heen Discusses Art of Receiving Feedback Well" .
+<https://github.com/john1hsu/communication-graph/id/source/feedback/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/feedback/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "news" .
+<https://github.com/john1hsu/communication-graph/id/source/feedback/s6> <https://schema.org/url> <https://nihrecord.nih.gov/2018/06/01/heen-discusses-art-receiving-feedback-well> .
 <https://github.com/john1hsu/communication-graph/id/source/feedforward/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/feedforward/s1> <http://purl.org/dc/terms/publisher> "Marshall Goldsmith, marshallgoldsmith.com (2025 web edition)" .
 <https://github.com/john1hsu/communication-graph/id/source/feedforward/s1> <http://purl.org/dc/terms/title> "Try Feedforward Instead of Feedback" .
