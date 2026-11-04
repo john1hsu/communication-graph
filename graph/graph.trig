@@ -134,6 +134,14 @@
 <https://github.com/john1hsu/communication-graph/id/mehrabian-myth#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/mehrabian-myth/s3> .
 <https://github.com/john1hsu/communication-graph/id/mehrabian-myth#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/mehrabian-myth/s4> .
 <https://github.com/john1hsu/communication-graph/id/mehrabian-myth#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/mehrabian-myth/s5> .
+<https://github.com/john1hsu/communication-graph/id/influence-without-authority#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/influence-without-authority#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/influence-without-authority> .
+<https://github.com/john1hsu/communication-graph/id/influence-without-authority#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/persuasion-and-influence/influence-without-authority.md" .
+<https://github.com/john1hsu/communication-graph/id/influence-without-authority#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/influence-without-authority/s1> .
+<https://github.com/john1hsu/communication-graph/id/influence-without-authority#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/influence-without-authority/s2> .
+<https://github.com/john1hsu/communication-graph/id/influence-without-authority#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/influence-without-authority/s3> .
+<https://github.com/john1hsu/communication-graph/id/influence-without-authority#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/influence-without-authority/s4> .
+<https://github.com/john1hsu/communication-graph/id/influence-without-authority#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/influence-without-authority/s5> .
 <https://github.com/john1hsu/communication-graph/id/teach-back#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/teach-back#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/teach-back> .
 <https://github.com/john1hsu/communication-graph/id/teach-back#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/questioning-and-conversation/teach-back.md" .
@@ -1641,6 +1649,116 @@
   <https://github.com/john1hsu/communication-graph/id/source/mehrabian-myth/s5> <https://schema.org/url> <https://rolsi.net/2024/05/24/guest-blog-93-of-all-misinformation-is-nonverbal-how-a-zombie-statistic-came-and-stayed/> .
 }
 
+<https://github.com/john1hsu/communication-graph/id/influence-without-authority#graph> {
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Do I know what this person is measured on and worried about right now, or am I guessing?" .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/influence-without-authority> .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "What can I offer that they would value, and is it something I can genuinely deliver?" .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/influence-without-authority> .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Have I separated what I must have from what would merely be nice?" .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/influence-without-authority> .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Would I be comfortable if they saw exactly how I planned this request, or does it rely on spin?" .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/influence-without-authority> .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority/example> <https://github.com/john1hsu/communication-graph/ontology#after> "Hi - I know your team is measured on the release shipping cleanly, so I don't want to add risk. Of the six events, two are essential for the launch review (sign-up and first purchase); the rest can wait a sprint. I've written the event specs and test cases so it should be about an hour of work, and I'll credit your team in the launch metrics readout to the VP. Would Wednesday morning work, or is there a better slot?" .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority/example> <https://github.com/john1hsu/communication-graph/ontology#before> "Hi, I need these six tracking events added before Thursday's release. It's important for the launch, so please prioritise it. Thanks!" .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "A product analyst needs an engineer on another team to add tracking events before a launch, but has no authority over the engineer's priorities." .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority/example> <https://github.com/john1hsu/communication-graph/ontology#why> "The rewrite shows an understanding of the engineer's goals, cuts the ask to what is essential, lowers the cost by doing the preparatory work, and offers currencies the engineer may value (less effort, visibility with leadership) instead of borrowing urgency the analyst has no standing to impose." .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority/howto/1> <https://schema.org/text> "Treat the person whose help you need as a potential ally, even if past dealings were tense, and drop any story that they are simply difficult." .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority/howto/2> <https://schema.org/text> "Write down exactly what you need from them, which parts are essential and which are nice to have, and check that the request serves the work rather than only your own ambitions." .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority/howto/3> <https://schema.org/text> "Diagnose their world - how they are measured and rewarded, what their boss expects, what their workload and pressures are this quarter." .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority/howto/4> <https://schema.org/text> "List the currencies they are likely to value (resources, information, help, recognition, visibility, a link to a larger purpose) and the ones you can actually offer, including cheap ones you control yourself." .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority/howto/5> <https://schema.org/text> "Assess the relationship; if trust is low, repair it first, and adapt to how they prefer to work (data or story, email or a quick call)." .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority/howto/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority/howto/6> <https://schema.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority/howto/6> <https://schema.org/text> "Make a concrete, honest offer that trades something they value for what you need, then deliver on it and keep in touch afterwards so the relationship exists before you need it again." .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority/howto> <https://schema.org/name> "Influence without authority" .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/influence-without-authority/howto/1> .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/influence-without-authority/howto/2> .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/influence-without-authority/howto/3> .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/influence-without-authority/howto/4> .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/influence-without-authority/howto/5> .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/influence-without-authority/howto/6> .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority> <http://purl.org/dc/terms/created> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Technique> .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority> <http://www.w3.org/2000/01/rdf-schema#label> "Influence without authority" .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority> <http://www.w3.org/2004/02/skos/core#altLabel> "Cohen-Bradford influence model" .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority> <http://www.w3.org/2004/02/skos/core#altLabel> "currencies of exchange" .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority> <http://www.w3.org/2004/02/skos/core#altLabel> "influencing without formal power" .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority> <http://www.w3.org/2004/02/skos/core#altLabel> "lateral influence" .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/persuasion> .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority> <http://www.w3.org/2004/02/skos/core#definition> "Getting help from colleagues, other teams, bosses or clients you cannot direct by treating them as potential allies, learning what they care about and offering something they value in return - the reciprocity-based \"influence model\" of Allan R. Cohen and David L. Bradford." .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/persuasion-and-influence> .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority> <http://www.w3.org/2004/02/skos/core#prefLabel> "Influence without authority" .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/principled-negotiation> .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/reciprocity> .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping> .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/influence-without-authority/s1> .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/influence-without-authority/s2> .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/influence-without-authority/s3> .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/influence-without-authority/s4> .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/influence-without-authority/s5> .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/cross-functional-collaboration> .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority> <https://github.com/john1hsu/communication-graph/ontology#domain> "persuasion-and-influence" .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/influence-without-authority/example> .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/norm-of-reciprocity> .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/persuasion-and-influence/influence-without-authority.md" .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/influence-without-authority/howto> .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/allan-r-cohen> .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/david-l-bradford> .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority> <https://github.com/john1hsu/communication-graph/ontology#introducedIn> <https://github.com/john1hsu/communication-graph/id/influence-without-authority-book> .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/lee-et-al-2017> .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/yukl-tracey-1992> .
+  <https://github.com/john1hsu/communication-graph/id/source/influence-without-authority/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/influence-without-authority/s1> <http://purl.org/dc/terms/publisher> "Allan R. Cohen & David L. Bradford, Journal of Organizational Excellence, Winter 2005, 57-79, doi:10.1002/joe.20080 (reprinted from Influence Without Authority, 2nd ed.; University of Washington hosted copy)" .
+  <https://github.com/john1hsu/communication-graph/id/source/influence-without-authority/s1> <http://purl.org/dc/terms/title> "The influence model: Using reciprocity and exchange to get what you need" .
+  <https://github.com/john1hsu/communication-graph/id/source/influence-without-authority/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/influence-without-authority/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/communication-graph/id/source/influence-without-authority/s1> <https://schema.org/url> <https://depts.washington.edu/edgh/namibia-lio/files/influence_article_j_org_excellence.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/influence-without-authority/s2> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/influence-without-authority/s2> <http://purl.org/dc/terms/publisher> "Allan R. Cohen & David L. Bradford, John Wiley & Sons, 2017 (publisher excerpt via e-bookshelf)" .
+  <https://github.com/john1hsu/communication-graph/id/source/influence-without-authority/s2> <http://purl.org/dc/terms/title> "Influence Without Authority, Third Edition (sample chapter)" .
+  <https://github.com/john1hsu/communication-graph/id/source/influence-without-authority/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/influence-without-authority/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/communication-graph/id/source/influence-without-authority/s2> <https://schema.org/url> <https://content.e-bookshelf.de/media/reading/L-10282574-402599edf0.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/influence-without-authority/s3> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/influence-without-authority/s3> <http://purl.org/dc/terms/publisher> "Gary Yukl & J. Bruce Tracey, Journal of Applied Psychology 77(4), 525-535, 1992 (Cornell eCommons author copy)" .
+  <https://github.com/john1hsu/communication-graph/id/source/influence-without-authority/s3> <http://purl.org/dc/terms/title> "Consequences of influence tactics used with subordinates, peers, and the boss" .
+  <https://github.com/john1hsu/communication-graph/id/source/influence-without-authority/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/influence-without-authority/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/influence-without-authority/s3> <https://schema.org/url> <https://ecommons.cornell.edu/bitstream/handle/1813/71422/Tracey42_Consequences_of_influence.pdf?sequence=1> .
+  <https://github.com/john1hsu/communication-graph/id/source/influence-without-authority/s4> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/influence-without-authority/s4> <http://purl.org/dc/terms/publisher> "Lee, Han, Cheong, Kim & Yun, The Leadership Quarterly 28(1), 210-228, 2017, doi:10.1016/j.leaqua.2016.11.001 (Penn State research portal record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/influence-without-authority/s4> <http://purl.org/dc/terms/title> "How do I get my way? A meta-analytic review of research on influence tactics" .
+  <https://github.com/john1hsu/communication-graph/id/source/influence-without-authority/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/influence-without-authority/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/influence-without-authority/s4> <https://schema.org/url> <https://pure.psu.edu/en/publications/how-do-i-get-my-way-a-meta-analytic-review-of-research-on-influen/> .
+  <https://github.com/john1hsu/communication-graph/id/source/influence-without-authority/s5> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/influence-without-authority/s5> <http://purl.org/dc/terms/publisher> "Newswise (Babson College announcement), November 2017" .
+  <https://github.com/john1hsu/communication-graph/id/source/influence-without-authority/s5> <http://purl.org/dc/terms/title> "Third Edition of 'Influence Without Authority' Released" .
+  <https://github.com/john1hsu/communication-graph/id/source/influence-without-authority/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/influence-without-authority/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "news" .
+  <https://github.com/john1hsu/communication-graph/id/source/influence-without-authority/s5> <https://schema.org/url> <https://www.newswise.com/articles/third-edition-of-influence-without-authority-released> .
+}
+
 <https://github.com/john1hsu/communication-graph/id/teach-back#graph> {
   <https://github.com/john1hsu/communication-graph/id/source/teach-back/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
   <https://github.com/john1hsu/communication-graph/id/source/teach-back/s1> <http://purl.org/dc/terms/publisher> "U.S. Agency for Healthcare Research and Quality (AHRQ)" .
@@ -2309,6 +2427,9 @@
   <https://github.com/john1hsu/communication-graph/id/albert-mehrabian> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/albert-mehrabian> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/albert-mehrabian> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> .
+  <https://github.com/john1hsu/communication-graph/id/allan-r-cohen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/allan-r-cohen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+  <https://github.com/john1hsu/communication-graph/id/allan-r-cohen> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/influence-without-authority> .
   <https://github.com/john1hsu/communication-graph/id/amy-edmondson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/amy-edmondson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/amy-edmondson> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
@@ -2339,10 +2460,12 @@
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/email> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> .
+  <https://github.com/john1hsu/communication-graph/id/audience-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/influence-without-authority> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/message-equivocality-media-selection-and-manager-performance> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/channel-selection> .
+  <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/influence-without-authority> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/plain-language> .
   <https://github.com/john1hsu/communication-graph/id/audience-design> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
   <https://github.com/john1hsu/communication-graph/id/audience> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
@@ -2426,6 +2549,7 @@
   <https://github.com/john1hsu/communication-graph/id/conflict-resolution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/conflict-resolution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/conflict-resolution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Field> .
+  <https://github.com/john1hsu/communication-graph/id/cross-functional-collaboration> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/influence-without-authority> .
   <https://github.com/john1hsu/communication-graph/id/crucial-conversations> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/difficult-conversation> .
   <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -2438,6 +2562,9 @@
   <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/teach-back> .
   <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
   <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/plain-language> .
+  <https://github.com/john1hsu/communication-graph/id/david-l-bradford> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/david-l-bradford> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+  <https://github.com/john1hsu/communication-graph/id/david-l-bradford> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/influence-without-authority> .
   <https://github.com/john1hsu/communication-graph/id/defensiveness> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/difficult-conversation> .
   <https://github.com/john1hsu/communication-graph/id/defensiveness> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
   <https://github.com/john1hsu/communication-graph/id/defensiveness> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/i-statements> .
@@ -2541,6 +2668,17 @@
   <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/egocentric-bias> .
   <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/teach-back> .
   <https://github.com/john1hsu/communication-graph/id/indirect-approach> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority-book> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority-book> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority-book> <https://github.com/john1hsu/communication-graph/ontology#introduces> <https://github.com/john1hsu/communication-graph/id/influence-without-authority> .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/persuasion> .
   <https://github.com/john1hsu/communication-graph/id/information-overload> <https://github.com/john1hsu/communication-graph/ontology#causedBy> <https://github.com/john1hsu/communication-graph/id/email> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> .
@@ -2563,6 +2701,7 @@
   <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/email> .
   <https://github.com/john1hsu/communication-graph/id/lapakko-2007> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> .
+  <https://github.com/john1hsu/communication-graph/id/lee-et-al-2017> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/influence-without-authority> .
   <https://github.com/john1hsu/communication-graph/id/levine-cohen-2018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/levine-cohen-2018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/levine-cohen-2018> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/difficult-conversation> .
@@ -2601,6 +2740,7 @@
   <https://github.com/john1hsu/communication-graph/id/nonviolent-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/difficult-conversation> .
   <https://github.com/john1hsu/communication-graph/id/nonviolent-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/i-statements> .
   <https://github.com/john1hsu/communication-graph/id/nonviolent-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> .
+  <https://github.com/john1hsu/communication-graph/id/norm-of-reciprocity> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/influence-without-authority> .
   <https://github.com/john1hsu/communication-graph/id/open-ended-questions/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/open-ended-questions/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/open-ended-questions/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -2631,6 +2771,8 @@
   <https://github.com/john1hsu/communication-graph/id/patient-education> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/teach-back> .
   <https://github.com/john1hsu/communication-graph/id/pearsall-ellis-2011> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
   <https://github.com/john1hsu/communication-graph/id/performance-review> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> .
+  <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/influence-without-authority> .
+  <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/influence-without-authority> .
   <https://github.com/john1hsu/communication-graph/id/plain-language-summary> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/plain-language> .
   <https://github.com/john1hsu/communication-graph/id/plain-language/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/plain-language/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -2652,6 +2794,7 @@
   <https://github.com/john1hsu/communication-graph/id/power-distance> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> .
   <https://github.com/john1hsu/communication-graph/id/principled-negotiation> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/batna> .
   <https://github.com/john1hsu/communication-graph/id/principled-negotiation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/batna> .
+  <https://github.com/john1hsu/communication-graph/id/principled-negotiation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/influence-without-authority> .
   <https://github.com/john1hsu/communication-graph/id/project-aristotle> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -2662,6 +2805,7 @@
   <https://github.com/john1hsu/communication-graph/id/quick-screen-edit> <https://github.com/john1hsu/communication-graph/ontology#introducedIn> <https://github.com/john1hsu/communication-graph/id/effective-writing-for-army-leaders> .
   <https://github.com/john1hsu/communication-graph/id/readability-formulas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/effective-writing-for-army-leaders> .
   <https://github.com/john1hsu/communication-graph/id/readability-formulas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/plain-language> .
+  <https://github.com/john1hsu/communication-graph/id/reciprocity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/influence-without-authority> .
   <https://github.com/john1hsu/communication-graph/id/reservation-value> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/batna> .
   <https://github.com/john1hsu/communication-graph/id/rhetoric> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/rhetoric> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -2705,6 +2849,7 @@
   <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> <https://github.com/john1hsu/communication-graph/ontology#causedBy> <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> .
   <https://github.com/john1hsu/communication-graph/id/spotlight-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> .
   <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
+  <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/influence-without-authority> .
   <https://github.com/john1hsu/communication-graph/id/talevski-et-al-2020> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/teach-back> .
   <https://github.com/john1hsu/communication-graph/id/tappers-and-listeners-study> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> .
   <https://github.com/john1hsu/communication-graph/id/teach-back/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -2749,6 +2894,7 @@
   <https://github.com/john1hsu/communication-graph/id/writing-style-guide> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/william-strunk-jr> .
   <https://github.com/john1hsu/communication-graph/id/written-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/email> .
   <https://github.com/john1hsu/communication-graph/id/written-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/email> .
+  <https://github.com/john1hsu/communication-graph/id/yukl-tracey-1992> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/influence-without-authority> .
   <https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/batna> .
   <https://github.com/john1hsu/communication-graph/id/zuckerman-et-al-1982> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> .
 }

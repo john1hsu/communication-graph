@@ -227,6 +227,31 @@ Ask yourself:
 - Is my opening ask set by my goal, or have I let a weak alternative drag it down?
 - Is everything I am about to say about my alternatives true?
 
+## persuasion-and-influence
+
+### [Influence without authority](../articles/persuasion-and-influence/influence-without-authority.md) — Technique
+
+1. Treat the person whose help you need as a potential ally, even if past dealings were tense, and drop any story that they are simply difficult.
+2. Write down exactly what you need from them, which parts are essential and which are nice to have, and check that the request serves the work rather than only your own ambitions.
+3. Diagnose their world - how they are measured and rewarded, what their boss expects, what their workload and pressures are this quarter.
+4. List the currencies they are likely to value (resources, information, help, recognition, visibility, a link to a larger purpose) and the ones you can actually offer, including cheap ones you control yourself.
+5. Assess the relationship; if trust is low, repair it first, and adapt to how they prefer to work (data or story, email or a quick call).
+6. Make a concrete, honest offer that trades something they value for what you need, then deliver on it and keep in touch afterwards so the relationship exists before you need it again.
+
+*A product analyst needs an engineer on another team to add tracking events before a launch, but has no authority over the engineer's priorities.*
+
+| Before | After |
+|---|---|
+| Hi, I need these six tracking events added before Thursday's release. It's important for the launch, so please prioritise it. Thanks! | Hi - I know your team is measured on the release shipping cleanly, so I don't want to add risk. Of the six events, two are essential for the launch review (sign-up and first purchase); the rest can wait a sprint. I've written the event specs and test cases so it should be about an hour of work, and I'll credit your team in the launch metrics readout to the VP. Would Wednesday morning work, or is there a better slot? |
+
+**Why:** The rewrite shows an understanding of the engineer's goals, cuts the ask to what is essential, lowers the cost by doing the preparatory work, and offers currencies the engineer may value (less effort, visibility with leadership) instead of borrowing urgency the analyst has no standing to impose.
+
+Ask yourself:
+- Do I know what this person is measured on and worried about right now, or am I guessing?
+- What can I offer that they would value, and is it something I can genuinely deliver?
+- Have I separated what I must have from what would merely be nice?
+- Would I be comfortable if they saw exactly how I planned this request, or does it rely on spin?
+
 ## questioning-and-conversation
 
 ### [Teach-back](../articles/questioning-and-conversation/teach-back.md) — Technique

@@ -1162,6 +1162,98 @@
    ]
   },
   {
+   "@id": "cm:influence-without-authority",
+   "@type": "cmo:Technique",
+   "cmo:appliedIn": {
+    "@id": "cm:cross-functional-collaboration"
+   },
+   "cmo:domain": "persuasion-and-influence",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/influence-without-authority/example"
+   },
+   "cmo:explainedBy": {
+    "@id": "cm:norm-of-reciprocity"
+   },
+   "cmo:file": "articles/persuasion-and-influence/influence-without-authority.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/influence-without-authority/howto"
+   },
+   "cmo:introducedBy": [
+    {
+     "@id": "cm:allan-r-cohen"
+    },
+    {
+     "@id": "cm:david-l-bradford"
+    }
+   ],
+   "cmo:introducedIn": {
+    "@id": "cm:influence-without-authority-book"
+   },
+   "cmo:level": "intermediate",
+   "cmo:requires": {
+    "@id": "cm:audience-analysis"
+   },
+   "cmo:supportedBy": [
+    {
+     "@id": "cm:lee-et-al-2017"
+    },
+    {
+     "@id": "cm:yukl-tracey-1992"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/influence-without-authority/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/influence-without-authority/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/influence-without-authority/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/influence-without-authority/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/influence-without-authority/s5"
+    }
+   ],
+   "rdfs:label": "Influence without authority",
+   "skos:altLabel": [
+    "Cohen-Bradford influence model",
+    "currencies of exchange",
+    "influencing without formal power",
+    "lateral influence"
+   ],
+   "skos:broader": {
+    "@id": "cm:persuasion"
+   },
+   "skos:definition": "Getting help from colleagues, other teams, bosses or clients you cannot direct by treating them as potential allies, learning what they care about and offering something they value in return - the reciprocity-based \"influence model\" of Allan R. Cohen and David L. Bradford.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/persuasion-and-influence"
+   },
+   "skos:prefLabel": "Influence without authority",
+   "skos:related": [
+    {
+     "@id": "cm:audience-analysis"
+    },
+    {
+     "@id": "cm:principled-negotiation"
+    },
+    {
+     "@id": "cm:reciprocity"
+    },
+    {
+     "@id": "cm:stakeholder-mapping"
+    }
+   ]
+  },
+  {
    "@id": "cm:mehrabian-myth",
    "@type": "cmo:Concept",
    "cmo:challengedBy": [
@@ -2642,6 +2734,107 @@
    "rdfs:label": "Before this presentation, am I treating my racing heart as something the audience can see?"
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/influence-without-authority/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:influence-without-authority"
+   },
+   "rdfs:label": "Do I know what this person is measured on and worried about right now, or am I guessing?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/influence-without-authority/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:influence-without-authority"
+   },
+   "rdfs:label": "What can I offer that they would value, and is it something I can genuinely deliver?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/influence-without-authority/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:influence-without-authority"
+   },
+   "rdfs:label": "Have I separated what I must have from what would merely be nice?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/influence-without-authority/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:influence-without-authority"
+   },
+   "rdfs:label": "Would I be comfortable if they saw exactly how I planned this request, or does it rely on spin?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/influence-without-authority/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "Hi - I know your team is measured on the release shipping cleanly, so I don't want to add risk. Of the six events, two are essential for the launch review (sign-up and first purchase); the rest can wait a sprint. I've written the event specs and test cases so it should be about an hour of work, and I'll credit your team in the launch metrics readout to the VP. Would Wednesday morning work, or is there a better slot?",
+   "cmo:before": "Hi, I need these six tracking events added before Thursday's release. It's important for the launch, so please prioritise it. Thanks!",
+   "cmo:situation": "A product analyst needs an engineer on another team to add tracking events before a launch, but has no authority over the engineer's priorities.",
+   "cmo:why": "The rewrite shows an understanding of the engineer's goals, cuts the ask to what is essential, lowers the cost by doing the preparatory work, and offers currencies the engineer may value (less effort, visibility with leadership) instead of borrowing urgency the analyst has no standing to impose."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/influence-without-authority/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Influence without authority",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/influence-without-authority/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/influence-without-authority/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/influence-without-authority/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/influence-without-authority/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/influence-without-authority/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/influence-without-authority/howto/6"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/influence-without-authority/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Treat the person whose help you need as a potential ally, even if past dealings were tense, and drop any story that they are simply difficult."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/influence-without-authority/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Write down exactly what you need from them, which parts are essential and which are nice to have, and check that the request serves the work rather than only your own ambitions."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/influence-without-authority/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Diagnose their world - how they are measured and rewarded, what their boss expects, what their workload and pressures are this quarter."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/influence-without-authority/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "List the currencies they are likely to value (resources, information, help, recognition, visibility, a link to a larger purpose) and the ones you can actually offer, including cheap ones you control yourself."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/influence-without-authority/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Assess the relationship; if trust is low, repair it first, and adapt to how they prefer to work (data or story, email or a quick call)."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/influence-without-authority/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "Make a concrete, honest offer that trades something they value for what you need, then deliver on it and keep in touch afterwards so the relationship exists before you need it again."
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/open-ended-questions/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -4082,6 +4275,76 @@
    "dcterms:title": "E-mail etiquette: more critical than you might think (Kruger, Epley, Parker & Ng, Egocentrism over e-mail)",
    "schema:url": {
     "@id": "https://stern.nyu.edu/experience-stern/faculty-research/justin-kruger-email-research"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/influence-without-authority/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Allan R. Cohen & David L. Bradford, Journal of Organizational Excellence, Winter 2005, 57-79, doi:10.1002/joe.20080 (reprinted from Influence Without Authority, 2nd ed.; University of Washington hosted copy)",
+   "dcterms:title": "The influence model: Using reciprocity and exchange to get what you need",
+   "schema:url": {
+    "@id": "https://depts.washington.edu/edgh/namibia-lio/files/influence_article_j_org_excellence.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/influence-without-authority/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Allan R. Cohen & David L. Bradford, John Wiley & Sons, 2017 (publisher excerpt via e-bookshelf)",
+   "dcterms:title": "Influence Without Authority, Third Edition (sample chapter)",
+   "schema:url": {
+    "@id": "https://content.e-bookshelf.de/media/reading/L-10282574-402599edf0.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/influence-without-authority/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Gary Yukl & J. Bruce Tracey, Journal of Applied Psychology 77(4), 525-535, 1992 (Cornell eCommons author copy)",
+   "dcterms:title": "Consequences of influence tactics used with subordinates, peers, and the boss",
+   "schema:url": {
+    "@id": "https://ecommons.cornell.edu/bitstream/handle/1813/71422/Tracey42_Consequences_of_influence.pdf?sequence=1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/influence-without-authority/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Lee, Han, Cheong, Kim & Yun, The Leadership Quarterly 28(1), 210-228, 2017, doi:10.1016/j.leaqua.2016.11.001 (Penn State research portal record)",
+   "dcterms:title": "How do I get my way? A meta-analytic review of research on influence tactics",
+   "schema:url": {
+    "@id": "https://pure.psu.edu/en/publications/how-do-i-get-my-way-a-meta-analytic-review-of-research-on-influen/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/influence-without-authority/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "news",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Newswise (Babson College announcement), November 2017",
+   "dcterms:title": "Third Edition of 'Influence Without Authority' Released",
+   "schema:url": {
+    "@id": "https://www.newswise.com/articles/third-edition-of-influence-without-authority-released"
    }
   },
   {

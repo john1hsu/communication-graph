@@ -1299,6 +1299,118 @@
   ]
  },
  {
+  "id": "cm:influence-without-authority",
+  "title": "Influence without authority",
+  "aliases": [
+   "Cohen-Bradford influence model",
+   "currencies of exchange",
+   "lateral influence",
+   "influencing without formal power"
+  ],
+  "type": "Technique",
+  "domain": "persuasion-and-influence",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/persuasion-and-influence/influence-without-authority.md",
+  "created": "2026-11-04",
+  "summary": "Getting help from colleagues, other teams, bosses or clients you cannot direct by treating them as potential allies, learning what they care about and offering something they value in return - the reciprocity-based \"influence model\" of Allan R. Cohen and David L. Bradford.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:persuasion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:stakeholder-mapping"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:audience-analysis"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:principled-negotiation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:reciprocity"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:audience-analysis"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:allan-r-cohen",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:david-l-bradford",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedIn",
+    "object": "cm:influence-without-authority-book",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:norm-of-reciprocity",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:cross-functional-collaboration",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:yukl-tracey-1992",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:lee-et-al-2017",
+    "source": "s4",
+    "confidence": "low"
+   }
+  ],
+  "selfCheck": [
+   "Do I know what this person is measured on and worried about right now, or am I guessing?",
+   "What can I offer that they would value, and is it something I can genuinely deliver?",
+   "Have I separated what I must have from what would merely be nice?",
+   "Would I be comfortable if they saw exactly how I planned this request, or does it rely on spin?"
+  ],
+  "steps": [
+   "Treat the person whose help you need as a potential ally, even if past dealings were tense, and drop any story that they are simply difficult.",
+   "Write down exactly what you need from them, which parts are essential and which are nice to have, and check that the request serves the work rather than only your own ambitions.",
+   "Diagnose their world - how they are measured and rewarded, what their boss expects, what their workload and pressures are this quarter.",
+   "List the currencies they are likely to value (resources, information, help, recognition, visibility, a link to a larger purpose) and the ones you can actually offer, including cheap ones you control yourself.",
+   "Assess the relationship; if trust is low, repair it first, and adapt to how they prefer to work (data or story, email or a quick call).",
+   "Make a concrete, honest offer that trades something they value for what you need, then deliver on it and keep in touch afterwards so the relationship exists before you need it again."
+  ],
+  "example": {
+   "situation": "A product analyst needs an engineer on another team to add tracking events before a launch, but has no authority over the engineer's priorities.",
+   "before": "Hi, I need these six tracking events added before Thursday's release. It's important for the launch, so please prioritise it. Thanks!",
+   "after": "Hi - I know your team is measured on the release shipping cleanly, so I don't want to add risk. Of the six events, two are essential for the launch review (sign-up and first purchase); the rest can wait a sprint. I've written the event specs and test cases so it should be about an hour of work, and I'll credit your team in the launch metrics readout to the VP. Would Wednesday morning work, or is there a better slot?",
+   "why": "The rewrite shows an understanding of the engineer's goals, cuts the ask to what is essential, lowers the cost by doing the preparatory work, and offers currencies the engineer may value (less effort, visibility with leadership) instead of borrowing urgency the analyst has no standing to impose."
+  },
+  "source_urls": [
+   "https://depts.washington.edu/edgh/namibia-lio/files/influence_article_j_org_excellence.pdf",
+   "https://content.e-bookshelf.de/media/reading/L-10282574-402599edf0.pdf",
+   "https://ecommons.cornell.edu/bitstream/handle/1813/71422/Tracey42_Consequences_of_influence.pdf?sequence=1",
+   "https://pure.psu.edu/en/publications/how-do-i-get-my-way-a-meta-analytic-review-of-research-on-influen/",
+   "https://www.newswise.com/articles/third-edition-of-influence-without-authority-released"
+  ]
+ },
+ {
   "id": "cm:mehrabian-myth",
   "title": "Mehrabian's 7-38-55 rule",
   "aliases": [

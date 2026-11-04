@@ -42,6 +42,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 
 | situation | technique |
 |---|---|
+| `cm:cross-functional-collaboration` | `cm:influence-without-authority` |
 | `cm:difficult-conversation` | `cm:i-statements` |
 | `cm:difficult-conversation` | `cm:paraphrasing` |
 | `cm:email` | `cm:audience-analysis` |
@@ -72,6 +73,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:email` | mixed |  |
 | `cm:i-statements` | mixed | `cm:korobov-2020` |
 | `cm:illusion-of-transparency` | mixed |  |
+| `cm:influence-without-authority` | mixed |  |
 | `cm:open-ended-questions` | mixed | `cm:minson-et-al-2018` |
 | `cm:paraphrasing` | mixed | `cm:weger-castle-emmett-2010` |
 | `cm:plain-language` | mixed |  |
