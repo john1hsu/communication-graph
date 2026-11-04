@@ -2774,6 +2774,116 @@
   ]
  },
  {
+  "id": "cm:stakeholder-mapping",
+  "title": "Stakeholder mapping",
+  "aliases": [
+   "stakeholder analysis",
+   "power-interest grid",
+   "influence-interest matrix",
+   "stakeholder map"
+  ],
+  "type": "Technique",
+  "domain": "persuasion-and-influence",
+  "level": "intermediate",
+  "evidenceStatus": "practitioner",
+  "file": "articles/persuasion-and-influence/stakeholder-mapping.md",
+  "created": "2026-11-04",
+  "summary": "A planning technique for listing everyone who can affect or is affected by a decision or change, sorting them by how much power and interest they have, and using that picture to decide whom to involve, consult or inform, and with what message.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:persuasion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:influence-without-authority"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:issue-selling"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:managing-up"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:audience-analysis"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:channel-selection"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:audience-analysis"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:ignoring-stakeholders",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:stakeholder-salience-theory",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:influencedBy",
+    "object": "cm:stakeholder-theory",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:communication-plan",
+    "source": "s5",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:influence-without-authority",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:nutt-1999",
+    "source": "s4",
+    "confidence": "low"
+   }
+  ],
+  "selfCheck": [
+   "Who could stop or slow this, and have I spoken to them directly rather than assuming their view?",
+   "Who will be most affected but has the least say, and how will they hear about it before it lands?",
+   "Does each group's message answer their concern, or is it the same message I would send everyone?",
+   "When did I last update this map, and has anyone's stance or influence changed since?"
+  ],
+  "steps": [
+   "Write down the decision or change in one sentence and set the boundary - which teams, customers, regulators and time frame are in scope.",
+   "List everyone who can affect it or will be affected by it, then ask two or three colleagues outside your team who is missing, including people with little voice.",
+   "For each stakeholder, note their main interest or concern, whether they currently support, oppose or are undecided, and what power they hold (budget, sign-off, expertise, reputation, ability to block).",
+   "Place each one on a power-versus-interest grid and pick an engagement level - partner closely, keep satisfied, consult, or keep informed.",
+   "For each group, decide who will talk to them, the one message that speaks to their interest, the channel and how often - then put that in a communication plan.",
+   "Test the map by talking to the stakeholders themselves, and revisit it at each milestone, because power, interest and stance shift."
+  ],
+  "example": {
+   "situation": "An operations manager is replacing the team's expense-claims tool and has a go-live date in six weeks.",
+   "before": "Plan: send one all-staff email two weeks before go-live announcing the new tool, with a link to the user guide.",
+   "after": "Map: Finance director (high power, high interest, undecided) - weekly check-in, co-own the cut-over date. Payroll lead (high power, low interest) - one briefing on the export file, sign-off by week 3. Frequent travellers in sales (low power, high interest, worried about slower refunds) - invite two to test in week 2, answer the refund-time question in every message. Everyone else - short email at go-live and a two-minute video.",
+   "why": "The single email treated everyone as one audience; the map shows who can block the launch, who will feel it most and what each needs to hear, so the manager spends attention where a surprise would be costly."
+  },
+  "source_urls": [
+   "https://www.sog.unc.edu/sites/www.sog.unc.edu/files/course_materials/Bryson%20PMR%202004.pdf",
+   "https://fenix.iseg.ulisboa.pt/downloadFile/563083097458401/Mitchell%20et%20al.%201997%20(AMR)%20Toward%20a%20theory%20of%20stakeholder%20identification%20and%20salience%20Defining%20the%20principle%20of%20who%20and%20what%20really%20counts.pdf",
+   "https://mycourses.aalto.fi/pluginfile.php/1804646/mod_label/intro/ReedEtAl.pdf",
+   "https://cebma.org/assets/Uploads/Nutt-1999-gecomprimeerd.pdf",
+   "https://www.essex.ac.uk/staff/strategic-project-delivery/stakeholder-analysis-comms-plan"
+  ]
+ },
+ {
   "id": "cm:teach-back",
   "title": "Teach-back",
   "aliases": [

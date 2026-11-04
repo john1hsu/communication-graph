@@ -36,6 +36,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:issue-selling` | 1 | Managing up |
 | `cm:paraphrasing` | 1 | Active listening |
 | `cm:situation-behavior-impact` | 1 | Defensiveness |
+| `cm:stakeholder-mapping` | 1 | ignoring-stakeholders |
 | `cm:teach-back` | 1 | Illusion of transparency |
 | `cm:words-of-estimative-probability` | 1 | vague-probability-language |
 
@@ -45,6 +46,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 
 | situation | technique |
 |---|---|
+| `cm:communication-plan` | `cm:stakeholder-mapping` |
 | `cm:cross-functional-collaboration` | `cm:influence-without-authority` |
 | `cm:difficult-conversation` | `cm:active-listening` |
 | `cm:difficult-conversation` | `cm:i-statements` |
@@ -106,6 +108,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:open-ended-questions` | cmo:Technique |
 | `cm:plain-language` | cmo:Principle |
 | `cm:speaking-anxiety` | cmo:Barrier |
+| `cm:stakeholder-mapping` | cmo:Technique |
 | `cm:teach-back` | cmo:Technique |
 
 ## Orphan articles (gap)

@@ -6,11 +6,13 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 |---|---|---|---|
 | 3.13 | `cm:difficult-conversation` | `cm:situation-behavior-impact` | `cm:active-listening`, `cm:defensiveness`, `cm:feedback`, `cm:i-statements`, `cm:nonviolent-communication` |
 | 2.24 | `cm:illusion-of-transparency` | `cm:plain-language` | `cm:clarity`, `cm:curse-of-knowledge`, `cm:email`, `cm:teach-back`, `cm:words-of-estimative-probability` |
-| 2.19 | `cm:managing-up` | `cm:message-equivocality-media-selection-and-manager-performance` | `cm:audience-analysis`, `cm:channel-selection`, `cm:organizational-communication` |
+| 2.18 | `cm:managing-up` | `cm:message-equivocality-media-selection-and-manager-performance` | `cm:audience-analysis`, `cm:channel-selection`, `cm:organizational-communication` |
 | 1.81 | `cm:active-listening` | `cm:managing-up` | `cm:one-on-one-meetings`, `cm:psychological-safety` |
 | 1.80 | `cm:issue-selling` | `cm:words-of-estimative-probability` | `cm:bottom-line-up-front`, `cm:executive-briefing` |
 | 1.54 | `cm:defensiveness` | `cm:paraphrasing` | `cm:active-listening`, `cm:difficult-conversation`, `cm:i-statements`, `cm:situation-behavior-impact` |
-| 1.49 | `cm:bottom-line-up-front` | `cm:curse-of-knowledge` | `cm:audience-analysis`, `cm:channel-selection`, `cm:email`, `cm:plain-language` |
+| 1.51 | `cm:channel-selection` | `cm:issue-selling` | `cm:audience-analysis`, `cm:bottom-line-up-front`, `cm:managing-up`, `cm:stakeholder-mapping` |
+| 1.49 | `cm:bottom-line-up-front` | `cm:stakeholder-mapping` | `cm:audience-analysis`, `cm:channel-selection`, `cm:issue-selling`, `cm:managing-up` |
+| 1.48 | `cm:bottom-line-up-front` | `cm:curse-of-knowledge` | `cm:audience-analysis`, `cm:channel-selection`, `cm:email`, `cm:plain-language` |
 | 1.47 | `cm:channel-selection` | `cm:plain-language` | `cm:audience-analysis`, `cm:bottom-line-up-front`, `cm:curse-of-knowledge`, `cm:email` |
 | 1.44 | `cm:batna` | `cm:illusion-of-transparency` | `cm:anchoring-and-adjustment` |
 | 1.44 | `cm:batna` | `cm:influence-without-authority` | `cm:principled-negotiation` |
@@ -21,11 +23,9 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 1.18 | `cm:paraphrasing` | `cm:psychological-safety` | `cm:active-listening`, `cm:difficult-conversation`, `cm:open-ended-questions` |
 | 1.18 | `cm:difficult-conversation` | `cm:open-ended-questions` | `cm:active-listening`, `cm:paraphrasing`, `cm:psychological-safety` |
 | 1.16 | `cm:channel-selection` | `cm:high-and-low-context-cultures` | `cm:audience-analysis`, `cm:bottom-line-up-front`, `cm:mehrabian-myth` |
+| 1.16 | `cm:channel-selection` | `cm:influence-without-authority` | `cm:audience-analysis`, `cm:managing-up`, `cm:stakeholder-mapping` |
 | 1.15 | `cm:i-statements` | `cm:psychological-safety` | `cm:active-listening`, `cm:defensiveness`, `cm:difficult-conversation` |
 | 1.12 | `cm:bottom-line-up-front` | `cm:influence-without-authority` | `cm:audience-analysis`, `cm:issue-selling`, `cm:managing-up` |
-| 1.12 | `cm:bottom-line-up-front` | `cm:message-equivocality-media-selection-and-manager-performance` | `cm:audience-analysis`, `cm:channel-selection`, `cm:email` |
-| 1.12 | `cm:curse-of-knowledge` | `cm:message-equivocality-media-selection-and-manager-performance` | `cm:audience-analysis`, `cm:channel-selection`, `cm:email` |
 | 1.12 | `cm:email` | `cm:george-loewenstein` | `cm:audience-analysis`, `cm:curse-of-knowledge`, `cm:illusion-of-transparency` |
 | 1.12 | `cm:email` | `cm:teach-back` | `cm:curse-of-knowledge`, `cm:illusion-of-transparency`, `cm:plain-language` |
-| 1.10 | `cm:email` | `cm:managing-up` | `cm:audience-analysis`, `cm:bottom-line-up-front`, `cm:channel-selection` |
-| 1.09 | `cm:channel-selection` | `cm:issue-selling` | `cm:audience-analysis`, `cm:bottom-line-up-front`, `cm:managing-up` |
+| 1.11 | `cm:bottom-line-up-front` | `cm:message-equivocality-media-selection-and-manager-performance` | `cm:audience-analysis`, `cm:channel-selection`, `cm:email` |

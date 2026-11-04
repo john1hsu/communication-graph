@@ -304,6 +304,29 @@ Ask yourself:
 - Is this the right moment and forum, or am I raising it because I am frustrated right now?
 - If they say no, what will I do next - and am I prepared to accept that answer?
 
+### [Stakeholder mapping](../articles/persuasion-and-influence/stakeholder-mapping.md) — Technique
+
+1. Write down the decision or change in one sentence and set the boundary - which teams, customers, regulators and time frame are in scope.
+2. List everyone who can affect it or will be affected by it, then ask two or three colleagues outside your team who is missing, including people with little voice.
+3. For each stakeholder, note their main interest or concern, whether they currently support, oppose or are undecided, and what power they hold (budget, sign-off, expertise, reputation, ability to block).
+4. Place each one on a power-versus-interest grid and pick an engagement level - partner closely, keep satisfied, consult, or keep informed.
+5. For each group, decide who will talk to them, the one message that speaks to their interest, the channel and how often - then put that in a communication plan.
+6. Test the map by talking to the stakeholders themselves, and revisit it at each milestone, because power, interest and stance shift.
+
+*An operations manager is replacing the team's expense-claims tool and has a go-live date in six weeks.*
+
+| Before | After |
+|---|---|
+| Plan: send one all-staff email two weeks before go-live announcing the new tool, with a link to the user guide. | Map: Finance director (high power, high interest, undecided) - weekly check-in, co-own the cut-over date. Payroll lead (high power, low interest) - one briefing on the export file, sign-off by week 3. Frequent travellers in sales (low power, high interest, worried about slower refunds) - invite two to test in week 2, answer the refund-time question in every message. Everyone else - short email at go-live and a two-minute video. |
+
+**Why:** The single email treated everyone as one audience; the map shows who can block the launch, who will feel it most and what each needs to hear, so the manager spends attention where a surprise would be costly.
+
+Ask yourself:
+- Who could stop or slow this, and have I spoken to them directly rather than assuming their view?
+- Who will be most affected but has the least say, and how will they hear about it before it lands?
+- Does each group's message answer their concern, or is it the same message I would send everyone?
+- When did I last update this map, and has anyone's stance or influence changed since?
+
 ## presenting-and-public-speaking
 
 ### [Anxiety reappraisal](../articles/presenting-and-public-speaking/anxiety-reappraisal.md) — Technique
