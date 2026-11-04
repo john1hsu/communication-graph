@@ -155,6 +155,15 @@ Ask yourself:
 
 ## listening
 
+### [Active listening](../articles/listening/active-listening.md) — Skill
+
+Ask yourself:
+- Could I state their point, and how they feel about it, well enough that they would say "yes, exactly"?
+- Did I hold back advice, reassurance and my own counter-argument until they confirmed I understood?
+- Was my attention on them, or was I rehearsing my reply or glancing at a screen?
+- Did I ask at least one question that drew out something they had not yet said?
+- Would they leave this conversation feeling heard, even if I did not agree with them?
+
 ### [Open-ended questions](../articles/listening/open-ended-questions.md) — Technique
 
 1. Decide what you actually need to learn - their view, the obstacles, the options - before you ask anything.

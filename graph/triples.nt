@@ -1,3 +1,49 @@
+<https://github.com/john1hsu/communication-graph/id/active-listening/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/active-listening/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Could I state their point, and how they feel about it, well enough that they would say \"yes, exactly\"?" .
+<https://github.com/john1hsu/communication-graph/id/active-listening/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+<https://github.com/john1hsu/communication-graph/id/active-listening/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/active-listening/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Did I hold back advice, reassurance and my own counter-argument until they confirmed I understood?" .
+<https://github.com/john1hsu/communication-graph/id/active-listening/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+<https://github.com/john1hsu/communication-graph/id/active-listening/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/active-listening/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Was my attention on them, or was I rehearsing my reply or glancing at a screen?" .
+<https://github.com/john1hsu/communication-graph/id/active-listening/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+<https://github.com/john1hsu/communication-graph/id/active-listening/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/active-listening/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Did I ask at least one question that drew out something they had not yet said?" .
+<https://github.com/john1hsu/communication-graph/id/active-listening/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+<https://github.com/john1hsu/communication-graph/id/active-listening/check/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/active-listening/check/5> <http://www.w3.org/2000/01/rdf-schema#label> "Would they leave this conversation feeling heard, even if I did not agree with them?" .
+<https://github.com/john1hsu/communication-graph/id/active-listening/check/5> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+<https://github.com/john1hsu/communication-graph/id/active-listening> <http://purl.org/dc/terms/created> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Skill> .
+<https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2000/01/rdf-schema#label> "Active listening" .
+<https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#altLabel> "Rogerian listening" .
+<https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#altLabel> "empathic listening" .
+<https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#altLabel> "high-quality listening" .
+<https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/listening> .
+<https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#definition> "The learnable skill of listening to understand another person's full meaning - the content and the feeling behind it - and showing that understanding back to them, while holding off judgment, advice and persuasion until they confirm you have understood." .
+<https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/listening> .
+<https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#prefLabel> "Active listening" .
+<https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/i-statements> .
+<https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/open-ended-questions> .
+<https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/paraphrasing> .
+<https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
+<https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/reflective-listening> .
+<https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/active-listening/s1> .
+<https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/active-listening/s2> .
+<https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/active-listening/s3> .
+<https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/active-listening/s4> .
+<https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/active-listening/s5> .
+<https://github.com/john1hsu/communication-graph/id/active-listening> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/defensiveness> .
+<https://github.com/john1hsu/communication-graph/id/active-listening> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/difficult-conversation> .
+<https://github.com/john1hsu/communication-graph/id/active-listening> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> .
+<https://github.com/john1hsu/communication-graph/id/active-listening> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/open-ended-questions> .
+<https://github.com/john1hsu/communication-graph/id/active-listening> <https://github.com/john1hsu/communication-graph/ontology#domain> "listening" .
+<https://github.com/john1hsu/communication-graph/id/active-listening> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/active-listening> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/listening/active-listening.md" .
+<https://github.com/john1hsu/communication-graph/id/active-listening> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/carl-rogers> .
+<https://github.com/john1hsu/communication-graph/id/active-listening> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/active-listening> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/kluger-et-al-2024> .
+<https://github.com/john1hsu/communication-graph/id/active-listening> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> .
 <https://github.com/john1hsu/communication-graph/id/active-voice/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/active-voice/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Can the reader tell, sentence by sentence, who is responsible for each action?" .
 <https://github.com/john1hsu/communication-graph/id/active-voice/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/active-voice> .
@@ -1202,6 +1248,36 @@
 <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996> .
 <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> .
+<https://github.com/john1hsu/communication-graph/id/source/active-listening/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/active-listening/s1> <http://purl.org/dc/terms/publisher> "Carl R. Rogers & Richard E. Farson, University of Chicago Industrial Relations Center (1957); reprinted in Newman, Danziger & Cohen (eds.), Communication in Business Today (1987); copy hosted by Gordon Training International" .
+<https://github.com/john1hsu/communication-graph/id/source/active-listening/s1> <http://purl.org/dc/terms/title> "Active Listening (excerpt)" .
+<https://github.com/john1hsu/communication-graph/id/source/active-listening/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/active-listening/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/active-listening/s1> <https://schema.org/url> <https://www.gordontraining.com/wp-content/uploads/Active_Listening.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/active-listening/s2> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/active-listening/s2> <http://purl.org/dc/terms/publisher> "Kluger & Itzchakov, Annual Review of Organizational Psychology and Organizational Behavior 9, 121-146 (2022), doi:10.1146/annurev-orgpsych-012420-091013 (author manuscript hosted by the Leibniz Institute for Psychology)" .
+<https://github.com/john1hsu/communication-graph/id/source/active-listening/s2> <http://purl.org/dc/terms/title> "The Power of Listening at Work (accepted manuscript)" .
+<https://github.com/john1hsu/communication-graph/id/source/active-listening/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/active-listening/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/active-listening/s2> <https://schema.org/url> <https://leibniz-psychology.org/fileadmin/user_upload/pdf/il_Kluger-and-Itzchakov-OPOB-RR.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/active-listening/s3> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/active-listening/s3> <http://purl.org/dc/terms/publisher> "Weger, Castle Bell, Minei & Robinson, International Journal of Listening 28(1), 13-31 (2014), doi:10.1080/10904018.2013.813234 (University of Central Florida STARS record)" .
+<https://github.com/john1hsu/communication-graph/id/source/active-listening/s3> <http://purl.org/dc/terms/title> "The Relative Effectiveness of Active Listening in Initial Interactions" .
+<https://github.com/john1hsu/communication-graph/id/source/active-listening/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/active-listening/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/active-listening/s3> <https://schema.org/url> <https://stars.library.ucf.edu/scopus2010/9657/> .
+<https://github.com/john1hsu/communication-graph/id/source/active-listening/s4> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/active-listening/s4> <http://purl.org/dc/terms/publisher> "Kluger, Lehmann, Aguinis, Itzchakov, Gordoni, Zyberaj & Bakaç, Journal of Business and Psychology 39, 295-344 (2024), doi:10.1007/s10869-023-09897-5 (author copy)" .
+<https://github.com/john1hsu/communication-graph/id/source/active-listening/s4> <http://purl.org/dc/terms/title> "A Meta-analytic Systematic Review and Theory of the Effects of Perceived Listening on Work Outcomes" .
+<https://github.com/john1hsu/communication-graph/id/source/active-listening/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/active-listening/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/active-listening/s4> <https://schema.org/url> <https://www.hermanaguinis.com/pdf/JBPlistening.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/active-listening/s5> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/active-listening/s5> <http://purl.org/dc/terms/publisher> "Program on Negotiation at Harvard Law School, citing Fisher & Ury, Getting to Yes" .
+<https://github.com/john1hsu/communication-graph/id/source/active-listening/s5> <http://purl.org/dc/terms/title> "Active listening (glossary)" .
+<https://github.com/john1hsu/communication-graph/id/source/active-listening/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/active-listening/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/active-listening/s5> <https://schema.org/url> <https://www.pon.harvard.edu/glossary/active-listening/> .
 <https://github.com/john1hsu/communication-graph/id/source/active-voice/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/active-voice/s1> <http://purl.org/dc/terms/publisher> "Digital.gov (U.S. General Services Administration)" .
 <https://github.com/john1hsu/communication-graph/id/source/active-voice/s1> <http://purl.org/dc/terms/title> "Writing (Plain Language Guide Series): Use active voice" .

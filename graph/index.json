@@ -1,5 +1,105 @@
 [
  {
+  "id": "cm:active-listening",
+  "title": "Active listening",
+  "aliases": [
+   "empathic listening",
+   "Rogerian listening",
+   "high-quality listening"
+  ],
+  "type": "Skill",
+  "domain": "listening",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/listening/active-listening.md",
+  "created": "2026-11-04",
+  "summary": "The learnable skill of listening to understand another person's full meaning - the content and the feeling behind it - and showing that understanding back to them, while holding off judgment, advice and persuasion until they confirm you have understood.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:listening"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:paraphrasing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:open-ended-questions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:reflective-listening"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:psychological-safety"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:i-statements"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:carl-rogers",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:defensiveness",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:one-on-one-meetings",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:difficult-conversation",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:open-ended-questions",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:weger-et-al-2014",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:kluger-et-al-2024",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Could I state their point, and how they feel about it, well enough that they would say \"yes, exactly\"?",
+   "Did I hold back advice, reassurance and my own counter-argument until they confirmed I understood?",
+   "Was my attention on them, or was I rehearsing my reply or glancing at a screen?",
+   "Did I ask at least one question that drew out something they had not yet said?",
+   "Would they leave this conversation feeling heard, even if I did not agree with them?"
+  ],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://www.gordontraining.com/wp-content/uploads/Active_Listening.pdf",
+   "https://leibniz-psychology.org/fileadmin/user_upload/pdf/il_Kluger-and-Itzchakov-OPOB-RR.pdf",
+   "https://stars.library.ucf.edu/scopus2010/9657/",
+   "https://www.hermanaguinis.com/pdf/JBPlistening.pdf",
+   "https://www.pon.harvard.edu/glossary/active-listening/"
+  ]
+ },
+ {
   "id": "cm:active-voice",
   "title": "Active voice",
   "aliases": [

@@ -28,10 +28,11 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 |---|---|---|
 | `cm:i-statements` | 2 | accusatory-you-statements, defensiveness |
 | `cm:plain-language` | 2 | Curse of knowledge, jargon |
+| `cm:active-listening` | 1 | defensiveness |
 | `cm:active-voice` | 1 | unclear-ownership |
 | `cm:audience-analysis` | 1 | Curse of knowledge |
 | `cm:bottom-line-up-front` | 1 | burying-the-lede |
-| `cm:paraphrasing` | 1 | active-listening |
+| `cm:paraphrasing` | 1 | Active listening |
 | `cm:situation-behavior-impact` | 1 | defensiveness |
 | `cm:teach-back` | 1 | Illusion of transparency |
 | `cm:words-of-estimative-probability` | 1 | vague-probability-language |
@@ -43,6 +44,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | situation | technique |
 |---|---|
 | `cm:cross-functional-collaboration` | `cm:influence-without-authority` |
+| `cm:difficult-conversation` | `cm:active-listening` |
 | `cm:difficult-conversation` | `cm:i-statements` |
 | `cm:difficult-conversation` | `cm:paraphrasing` |
 | `cm:email` | `cm:audience-analysis` |
@@ -51,6 +53,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:executive-briefing` | `cm:words-of-estimative-probability` |
 | `cm:memorandum` | `cm:bottom-line-up-front` |
 | `cm:multicultural-team` | `cm:direct-vs-indirect-feedback` |
+| `cm:one-on-one-meetings` | `cm:active-listening` |
 | `cm:patient-education` | `cm:teach-back` |
 | `cm:performance-review` | `cm:situation-behavior-impact` |
 | `cm:plain-language-summary` | `cm:plain-language` |
@@ -65,6 +68,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:high-and-low-context-cultures` | contested | `cm:kittler-rygl-mackinnon-2011` |
 | `cm:mehrabian-myth` | contested | `cm:lapakko-2007` |
 | `cm:mehrabian-myth` | contested | `cm:zuckerman-et-al-1982` |
+| `cm:active-listening` | mixed |  |
 | `cm:active-voice` | mixed | `cm:fear-and-loathing-of-the-english-passive` |
 | `cm:batna` | mixed | `cm:schaerer-swaab-galinsky-2015` |
 | `cm:channel-selection` | mixed | `cm:dennis-kinney-1998` |

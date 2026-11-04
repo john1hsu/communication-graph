@@ -14,6 +14,91 @@
  },
  "@graph": [
   {
+   "@id": "cm:active-listening",
+   "@type": "cmo:Skill",
+   "cmo:addresses": {
+    "@id": "cm:defensiveness"
+   },
+   "cmo:appliedIn": [
+    {
+     "@id": "cm:difficult-conversation"
+    },
+    {
+     "@id": "cm:one-on-one-meetings"
+    }
+   ],
+   "cmo:complements": {
+    "@id": "cm:open-ended-questions"
+   },
+   "cmo:domain": "listening",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:file": "articles/listening/active-listening.md",
+   "cmo:introducedBy": {
+    "@id": "cm:carl-rogers"
+   },
+   "cmo:level": "introductory",
+   "cmo:supportedBy": [
+    {
+     "@id": "cm:kluger-et-al-2024"
+    },
+    {
+     "@id": "cm:weger-et-al-2014"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/active-listening/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/active-listening/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/active-listening/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/active-listening/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/active-listening/s5"
+    }
+   ],
+   "rdfs:label": "Active listening",
+   "skos:altLabel": [
+    "Rogerian listening",
+    "empathic listening",
+    "high-quality listening"
+   ],
+   "skos:broader": {
+    "@id": "cm:listening"
+   },
+   "skos:definition": "The learnable skill of listening to understand another person's full meaning - the content and the feeling behind it - and showing that understanding back to them, while holding off judgment, advice and persuasion until they confirm you have understood.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/listening"
+   },
+   "skos:prefLabel": "Active listening",
+   "skos:related": [
+    {
+     "@id": "cm:i-statements"
+    },
+    {
+     "@id": "cm:open-ended-questions"
+    },
+    {
+     "@id": "cm:paraphrasing"
+    },
+    {
+     "@id": "cm:psychological-safety"
+    },
+    {
+     "@id": "cm:reflective-listening"
+    }
+   ]
+  },
+  {
    "@id": "cm:active-voice",
    "@type": "cmo:Technique",
    "cmo:addresses": {
@@ -2134,6 +2219,46 @@
    ]
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/active-listening/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:active-listening"
+   },
+   "rdfs:label": "Could I state their point, and how they feel about it, well enough that they would say \"yes, exactly\"?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/active-listening/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:active-listening"
+   },
+   "rdfs:label": "Did I hold back advice, reassurance and my own counter-argument until they confirmed I understood?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/active-listening/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:active-listening"
+   },
+   "rdfs:label": "Was my attention on them, or was I rehearsing my reply or glancing at a screen?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/active-listening/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:active-listening"
+   },
+   "rdfs:label": "Did I ask at least one question that drew out something they had not yet said?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/active-listening/check/5",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:active-listening"
+   },
+   "rdfs:label": "Would they leave this conversation feeling heard, even if I did not agree with them?"
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/active-voice/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -3310,6 +3435,76 @@
    "@type": "schema:HowToStep",
    "schema:position": 6,
    "schema:text": "Use the same three parts for positive feedback, so the person knows exactly which behaviour to repeat."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/active-listening/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Carl R. Rogers & Richard E. Farson, University of Chicago Industrial Relations Center (1957); reprinted in Newman, Danziger & Cohen (eds.), Communication in Business Today (1987); copy hosted by Gordon Training International",
+   "dcterms:title": "Active Listening (excerpt)",
+   "schema:url": {
+    "@id": "https://www.gordontraining.com/wp-content/uploads/Active_Listening.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/active-listening/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Kluger & Itzchakov, Annual Review of Organizational Psychology and Organizational Behavior 9, 121-146 (2022), doi:10.1146/annurev-orgpsych-012420-091013 (author manuscript hosted by the Leibniz Institute for Psychology)",
+   "dcterms:title": "The Power of Listening at Work (accepted manuscript)",
+   "schema:url": {
+    "@id": "https://leibniz-psychology.org/fileadmin/user_upload/pdf/il_Kluger-and-Itzchakov-OPOB-RR.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/active-listening/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Weger, Castle Bell, Minei & Robinson, International Journal of Listening 28(1), 13-31 (2014), doi:10.1080/10904018.2013.813234 (University of Central Florida STARS record)",
+   "dcterms:title": "The Relative Effectiveness of Active Listening in Initial Interactions",
+   "schema:url": {
+    "@id": "https://stars.library.ucf.edu/scopus2010/9657/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/active-listening/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Kluger, Lehmann, Aguinis, Itzchakov, Gordoni, Zyberaj & Bakaç, Journal of Business and Psychology 39, 295-344 (2024), doi:10.1007/s10869-023-09897-5 (author copy)",
+   "dcterms:title": "A Meta-analytic Systematic Review and Theory of the Effects of Perceived Listening on Work Outcomes",
+   "schema:url": {
+    "@id": "https://www.hermanaguinis.com/pdf/JBPlistening.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/active-listening/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Program on Negotiation at Harvard Law School, citing Fisher & Ury, Getting to Yes",
+   "dcterms:title": "Active listening (glossary)",
+   "schema:url": {
+    "@id": "https://www.pon.harvard.edu/glossary/active-listening/"
+   }
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/source/active-voice/s1",

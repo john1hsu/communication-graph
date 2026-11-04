@@ -4,28 +4,28 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 
 | Score | Node A | Node B | Shared neighbours |
 |---|---|---|---|
-| 3.78 | `cm:difficult-conversation` | `cm:situation-behavior-impact` | `cm:active-listening`, `cm:defensiveness`, `cm:feedback`, `cm:i-statements`, `cm:nonviolent-communication` |
+| 3.45 | `cm:difficult-conversation` | `cm:situation-behavior-impact` | `cm:active-listening`, `cm:defensiveness`, `cm:feedback`, `cm:i-statements`, `cm:nonviolent-communication` |
 | 2.24 | `cm:illusion-of-transparency` | `cm:plain-language` | `cm:clarity`, `cm:curse-of-knowledge`, `cm:email`, `cm:teach-back`, `cm:words-of-estimative-probability` |
+| 1.73 | `cm:psychological-safety` | `cm:situation-behavior-impact` | `cm:active-listening`, `cm:defensiveness`, `cm:feedback` |
 | 1.52 | `cm:bottom-line-up-front` | `cm:curse-of-knowledge` | `cm:audience-analysis`, `cm:channel-selection`, `cm:email`, `cm:plain-language` |
 | 1.51 | `cm:channel-selection` | `cm:plain-language` | `cm:audience-analysis`, `cm:bottom-line-up-front`, `cm:curse-of-knowledge`, `cm:email` |
-| 1.46 | `cm:difficult-conversation` | `cm:open-ended-questions` | `cm:active-listening`, `cm:paraphrasing`, `cm:psychological-safety` |
 | 1.44 | `cm:batna` | `cm:illusion-of-transparency` | `cm:anchoring-and-adjustment` |
 | 1.44 | `cm:batna` | `cm:influence-without-authority` | `cm:principled-negotiation` |
-| 1.44 | `cm:psychological-safety` | `cm:situation-behavior-impact` | `cm:defensiveness`, `cm:feedback` |
+| 1.37 | `cm:i-statements` | `cm:psychological-safety` | `cm:active-listening`, `cm:defensiveness`, `cm:difficult-conversation` |
 | 1.23 | `cm:audience-analysis` | `cm:illusion-of-transparency` | `cm:curse-of-knowledge`, `cm:email`, `cm:george-loewenstein` |
 | 1.22 | `cm:bottom-line-up-front` | `cm:william-strunk-jr` | `cm:active-voice`, `cm:effective-writing-for-army-leaders`, `cm:plain-language` |
+| 1.21 | `cm:difficult-conversation` | `cm:open-ended-questions` | `cm:active-listening`, `cm:paraphrasing`, `cm:psychological-safety` |
 | 1.19 | `cm:channel-selection` | `cm:high-and-low-context-cultures` | `cm:audience-analysis`, `cm:bottom-line-up-front`, `cm:mehrabian-myth` |
+| 1.18 | `cm:paraphrasing` | `cm:psychological-safety` | `cm:active-listening`, `cm:difficult-conversation`, `cm:open-ended-questions` |
 | 1.15 | `cm:bottom-line-up-front` | `cm:message-equivocality-media-selection-and-manager-performance` | `cm:audience-analysis`, `cm:channel-selection`, `cm:email` |
 | 1.15 | `cm:curse-of-knowledge` | `cm:message-equivocality-media-selection-and-manager-performance` | `cm:audience-analysis`, `cm:channel-selection`, `cm:email` |
 | 1.15 | `cm:email` | `cm:george-loewenstein` | `cm:audience-analysis`, `cm:curse-of-knowledge`, `cm:illusion-of-transparency` |
 | 1.13 | `cm:email` | `cm:teach-back` | `cm:curse-of-knowledge`, `cm:illusion-of-transparency`, `cm:plain-language` |
 | 1.12 | `cm:email` | `cm:words-of-estimative-probability` | `cm:bottom-line-up-front`, `cm:illusion-of-transparency`, `cm:plain-language` |
 | 1.11 | `cm:difficult-conversation` | `cm:direct-vs-indirect-feedback` | `cm:feedback`, `cm:i-statements` |
-| 1.08 | `cm:i-statements` | `cm:psychological-safety` | `cm:defensiveness`, `cm:difficult-conversation` |
-| 1.04 | `cm:i-statements` | `cm:open-ended-questions` | `cm:active-listening`, `cm:paraphrasing` |
-| 1.04 | `cm:open-ended-questions` | `cm:situation-behavior-impact` | `cm:active-listening`, `cm:paraphrasing` |
 | 1.01 | `cm:aristotles-rhetoric` | `cm:curse-of-knowledge` | `cm:audience-analysis`, `cm:clarity` |
 | 1.01 | `cm:aristotles-rhetoric` | `cm:plain-language` | `cm:audience-analysis`, `cm:clarity` |
 | 0.99 | `cm:active-voice` | `cm:curse-of-knowledge` | `cm:clarity`, `cm:plain-language` |
+| 0.85 | `cm:active-listening` | `cm:teach-back` | `cm:open-ended-questions`, `cm:paraphrasing` |
 | 0.85 | `cm:illusion-of-transparency` | `cm:open-ended-questions` | `cm:paraphrasing`, `cm:teach-back` |
 | 0.82 | `cm:audience-analysis` | `cm:mehrabian-myth` | `cm:channel-selection`, `cm:high-and-low-context-cultures` |
