@@ -19,6 +19,14 @@ Ask yourself:
 - Did I check what they understood, or did I take their nod as proof?
 - Before this presentation, am I treating my racing heart as something the audience can see?
 
+### [Spotlight effect](../articles/barriers-and-psychology/spotlight-effect.md) — Barrier
+
+Ask yourself:
+- Am I staying quiet because I think everyone will remember this one comment, when they are mostly thinking about their own contributions?
+- If a colleague had made the slip I just made, would I still be thinking about it tomorrow?
+- Am I about to spend the first minute of my talk apologising for something the audience has not noticed?
+- If I picture this meeting from the back of the room instead of through my own eyes, how big does my moment really look?
+
 ## cross-cultural-communication
 
 ### [Direct vs. indirect feedback](../articles/cross-cultural-communication/direct-vs-indirect-feedback.md) — Concept

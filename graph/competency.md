@@ -6,7 +6,9 @@ SPARQL queries in `queries/` run over the asserted graph, the OWL-RL inferences 
 
 _Which written barriers or anti-patterns have nothing in the graph that addresses them?_ — `queries/01-problems-without-fix.rq`
 
-_No results._
+| node | type |
+|---|---|
+| `cm:spotlight-effect` | cmo:Barrier |
 
 ## Skills with no practice technique (gap)
 
@@ -97,6 +99,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:paraphrasing` | mixed | `cm:weger-castle-emmett-2010` |
 | `cm:plain-language` | mixed |  |
 | `cm:psychological-safety` | mixed | `cm:pearsall-ellis-2011` |
+| `cm:spotlight-effect` | mixed |  |
 | `cm:teach-back` | mixed |  |
 | `cm:words-of-estimative-probability` | mixed |  |
 
@@ -111,6 +114,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:open-ended-questions` | cmo:Technique |
 | `cm:plain-language` | cmo:Principle |
 | `cm:speaking-anxiety` | cmo:Barrier |
+| `cm:spotlight-effect` | cmo:Barrier |
 | `cm:stakeholder-mapping` | cmo:Technique |
 | `cm:teach-back` | cmo:Technique |
 

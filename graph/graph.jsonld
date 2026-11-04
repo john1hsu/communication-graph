@@ -2540,6 +2540,82 @@
    ]
   },
   {
+   "@id": "cm:spotlight-effect",
+   "@type": "cmo:Barrier",
+   "cmo:causes": {
+    "@id": "cm:social-anxiety"
+   },
+   "cmo:confusedWith": {
+    "@id": "cm:illusion-of-transparency"
+   },
+   "cmo:demonstratedBy": [
+    {
+     "@id": "cm:gilovich-kruger-medvec-2002"
+    },
+    {
+     "@id": "cm:gilovich-medvec-savitsky-2000"
+    }
+   ],
+   "cmo:domain": "barriers-and-psychology",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:explainedBy": {
+    "@id": "cm:anchoring-and-adjustment"
+   },
+   "cmo:file": "articles/barriers-and-psychology/spotlight-effect.md",
+   "cmo:level": "introductory",
+   "cmo:supportedBy": {
+    "@id": "cm:macrae-et-al-2016"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/spotlight-effect/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/spotlight-effect/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/spotlight-effect/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/spotlight-effect/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/spotlight-effect/s5"
+    }
+   ],
+   "rdfs:label": "Spotlight effect",
+   "skos:altLabel": [
+    "overestimating how much others notice us",
+    "spotlighting"
+   ],
+   "skos:broader": {
+    "@id": "cm:egocentric-bias"
+   },
+   "skos:definition": "The tendency to overestimate how much other people notice, remember and judge our appearance, words and slip-ups, which makes communicators hold back, over-apologise and dwell on small mistakes that the audience barely registered.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/barriers-and-psychology"
+   },
+   "skos:prefLabel": "Spotlight effect",
+   "skos:related": [
+    {
+     "@id": "cm:curse-of-knowledge"
+    },
+    {
+     "@id": "cm:illusion-of-transparency"
+    },
+    {
+     "@id": "cm:psychological-safety"
+    },
+    {
+     "@id": "cm:speaking-anxiety"
+    }
+   ]
+  },
+  {
    "@id": "cm:stakeholder-mapping",
    "@type": "cmo:Technique",
    "cmo:addresses": {
@@ -6856,6 +6932,76 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/spotlight-effect/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Gilovich, Medvec & Savitsky, Journal of Personality and Social Psychology 78(2), 211-222, 2000 (ResearchGate record)",
+   "dcterms:title": "The Spotlight Effect in Social Judgment: An Egocentric Bias in Estimates of the Salience of One's Own Actions and Appearance",
+   "schema:url": {
+    "@id": "https://www.researchgate.net/publication/12609065_The_Spotlight_Effect_in_Social_Judgment_An_Egocentric_Bias_in_Estimates_of_the_Salience_of_One's_Own_Actions_and_Appearance"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/spotlight-effect/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Gilovich, Kruger & Medvec, Journal of Experimental Social Psychology, 93-99, 2002 (Kellogg School of Management faculty research record)",
+   "dcterms:title": "The spotlight effect revisited: Overestimating the manifest variability of our actions and appearance",
+   "schema:url": {
+    "@id": "https://www.kellogg.northwestern.edu/faculty/research/detail/2002/the-spotlight-effect-revisited-overestimating-the-manifest-variability-of"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/spotlight-effect/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Savitsky, Epley & Gilovich, Journal of Personality and Social Psychology 81(1), 44-56, 2001 (Scilit record)",
+   "dcterms:title": "Do others judge us as harshly as we think? Overestimating the impact of our failures, shortcomings, and mishaps",
+   "schema:url": {
+    "@id": "https://scilit.com/publications/ae7299e02ac8f7109eb9163cdae8babd"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/spotlight-effect/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Macrae et al., Personality and Social Psychology Bulletin 42(7), 855-863, 2016 (author manuscript via CORE)",
+   "dcterms:title": "Noticing Future Me: Reducing Egocentrism Through Mental Imagery",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/300057876.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/spotlight-effect/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Journal of Anxiety Disorders 21(6), 804-819, 2007 (PubMed record)",
+   "dcterms:title": "The spotlight effect and the illusion of transparency in social anxiety",
+   "schema:url": {
+    "@id": "https://pubmed.ncbi.nlm.nih.gov/17166695/"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/source/stakeholder-mapping/s1",
    "@type": "cmo:Source",
    "cmo:sourceType": "peer-reviewed",
@@ -7244,6 +7390,38 @@
     "@id": "cm:speaking-anxiety"
    },
    "rdfs:label": "Afterwards, am I judging the talk by how I felt or by what the audience actually did with it?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/spotlight-effect/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:spotlight-effect"
+   },
+   "rdfs:label": "Am I staying quiet because I think everyone will remember this one comment, when they are mostly thinking about their own contributions?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/spotlight-effect/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:spotlight-effect"
+   },
+   "rdfs:label": "If a colleague had made the slip I just made, would I still be thinking about it tomorrow?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/spotlight-effect/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:spotlight-effect"
+   },
+   "rdfs:label": "Am I about to spend the first minute of my talk apologising for something the audience has not noticed?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/spotlight-effect/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:spotlight-effect"
+   },
+   "rdfs:label": "If I picture this meeting from the back of the room instead of through my own eyes, how big does my moment really look?"
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/stakeholder-mapping/check/1",
