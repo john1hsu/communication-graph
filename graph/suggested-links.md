@@ -19,7 +19,6 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 1.46 | `cm:bottom-line-up-front` | `cm:curse-of-knowledge` | `cm:audience-analysis`, `cm:channel-selection`, `cm:email`, `cm:plain-language` |
 | 1.45 | `cm:channel-selection` | `cm:plain-language` | `cm:audience-analysis`, `cm:bottom-line-up-front`, `cm:curse-of-knowledge`, `cm:email` |
 | 1.45 | `cm:george-loewenstein` | `cm:spotlight-effect` | `cm:curse-of-knowledge`, `cm:egocentric-bias`, `cm:illusion-of-transparency` |
-| 1.44 | `cm:batna` | `cm:influence-without-authority` | `cm:principled-negotiation` |
 | 1.32 | `cm:difficult-conversation` | `cm:feedforward` | `cm:active-listening`, `cm:defensiveness`, `cm:feedback` |
 | 1.32 | `cm:feedforward` | `cm:psychological-safety` | `cm:active-listening`, `cm:defensiveness`, `cm:feedback` |
 | 1.32 | `cm:psychological-safety` | `cm:situation-behavior-impact` | `cm:active-listening`, `cm:defensiveness`, `cm:feedback` |
@@ -29,3 +28,4 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 1.20 | `cm:active-listening` | `cm:direct-vs-indirect-feedback` | `cm:feedforward`, `cm:i-statements`, `cm:situation-behavior-impact` |
 | 1.16 | `cm:channel-selection` | `cm:high-and-low-context-cultures` | `cm:audience-analysis`, `cm:bottom-line-up-front`, `cm:mehrabian-myth` |
 | 1.14 | `cm:channel-selection` | `cm:influence-without-authority` | `cm:audience-analysis`, `cm:managing-up`, `cm:stakeholder-mapping` |
+| 1.14 | `cm:psychological-safety` | `cm:stakeholder-mapping` | `cm:issue-selling`, `cm:managing-up`, `cm:nominal-group-technique` |

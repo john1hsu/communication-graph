@@ -37,6 +37,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:bottom-line-up-front` | 1 | burying-the-lede |
 | `cm:feedforward` | 1 | Defensiveness |
 | `cm:issue-selling` | 1 | Managing up |
+| `cm:multiple-equivalent-simultaneous-offers` | 1 | negotiator-dilemma |
 | `cm:paraphrasing` | 1 | Active listening |
 | `cm:situation-behavior-impact` | 1 | Defensiveness |
 | `cm:stakeholder-mapping` | 1 | ignoring-stakeholders |
@@ -72,6 +73,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:plain-language-summary` | `cm:plain-language` |
 | `cm:presentation` | `cm:anxiety-reappraisal` |
 | `cm:presentation` | `cm:self-distancing` |
+| `cm:salary-negotiation` | `cm:multiple-equivalent-simultaneous-offers` |
 | `cm:stakeholder-consultation` | `cm:nominal-group-technique` |
 | `cm:status-reporting` | `cm:managing-up` |
 
@@ -99,6 +101,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:illusion-of-transparency` | mixed |  |
 | `cm:influence-without-authority` | mixed |  |
 | `cm:issue-selling` | mixed |  |
+| `cm:multiple-equivalent-simultaneous-offers` | mixed |  |
 | `cm:nominal-group-technique` | mixed |  |
 | `cm:open-ended-questions` | mixed | `cm:minson-et-al-2018` |
 | `cm:paraphrasing` | mixed | `cm:weger-castle-emmett-2010` |
@@ -132,7 +135,5 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 
 _Which written articles does nothing else in the graph point to (after inference)?_ — `queries/08-orphans.rq`
 
-| node |
-|---|
-| `cm:batna` |
+_No results._
 

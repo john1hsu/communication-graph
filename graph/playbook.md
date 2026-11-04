@@ -341,6 +341,30 @@ Ask yourself:
 - Is my opening ask set by my goal, or have I let a weak alternative drag it down?
 - Is everything I am about to say about my alternatives true?
 
+### [Multiple equivalent simultaneous offers](../articles/negotiation/multiple-equivalent-simultaneous-offers.md) — Technique
+
+1. List every issue that is genuinely negotiable (price, scope, timing, payment terms, support, duration) and give each a weight that reflects how much it matters to you.
+2. For each issue, write the realistic range of options and score them so that options you prefer earn more points.
+3. Build two or three complete packages that score about the same in total for you but trade the issues off differently - for example, higher price with faster delivery versus lower price with a longer commitment.
+4. Check every package against your BATNA and make all of them more ambitious than your target, so there is still room to move.
+5. Present the packages together, say you would be comfortable with any of them, and ask which one fits the other side best - or, if none does, which is closest and why.
+6. Treat their choice as information about their priorities; if they combine the best parts of different packages, reply with a fresh set of equivalent packages rather than conceding piece by piece.
+
+*A consulting manager is proposing terms for a follow-on analytics engagement to a client's procurement lead.*
+
+| Before | After |
+|---|---|
+| Our proposal is a 12-week engagement at $240K, paid monthly, with two analysts on site. Let us know if that works. | We've put together three options we'd be glad to do. A: 12 weeks, $240K, two analysts on site, monthly billing. B: 16 weeks, $255K, one analyst on site plus remote support, quarterly billing. C: 10 weeks, $215K, two analysts, with your team owning the dashboard build. Which of these fits your budget cycle and team best - or which is closest? |
+
+**Why:** Each package is worth roughly the same to the firm, so any choice is acceptable; the client gets a real choice instead of a take-it-or-counter offer, and their pick reveals whether they care most about price, duration or internal capacity.
+
+Ask yourself:
+- Are my packages really equivalent in value to me, or have I hidden a preferred option among decoys?
+- Is every package above my walk-away point and more ambitious than my target?
+- Have I kept it to two or three options so the other side can compare them?
+- Am I ready to respond to cherry-picking with new packages instead of single concessions?
+- Is everything I say about the packages - including that I would accept any of them - true?
+
 ## persuasion-and-influence
 
 ### [Influence without authority](../articles/persuasion-and-influence/influence-without-authority.md) — Technique

@@ -2047,6 +2047,89 @@
    ]
   },
   {
+   "@id": "cm:multiple-equivalent-simultaneous-offers",
+   "@type": "cmo:Technique",
+   "cmo:addresses": {
+    "@id": "cm:negotiator-dilemma"
+   },
+   "cmo:appliedIn": {
+    "@id": "cm:salary-negotiation"
+   },
+   "cmo:demonstratedBy": {
+    "@id": "cm:leonardelli-et-al-2019"
+   },
+   "cmo:domain": "negotiation",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers/example"
+   },
+   "cmo:explainedBy": {
+    "@id": "cm:anchoring-and-adjustment"
+   },
+   "cmo:file": "articles/negotiation/multiple-equivalent-simultaneous-offers.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers/howto"
+   },
+   "cmo:introducedBy": {
+    "@id": "cm:victoria-medvec"
+   },
+   "cmo:level": "intermediate",
+   "cmo:requires": {
+    "@id": "cm:batna"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/multiple-equivalent-simultaneous-offers/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/multiple-equivalent-simultaneous-offers/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/multiple-equivalent-simultaneous-offers/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/multiple-equivalent-simultaneous-offers/s4"
+    }
+   ],
+   "rdfs:label": "Multiple equivalent simultaneous offers",
+   "skos:altLabel": [
+    "MESO negotiation",
+    "MESOs",
+    "making several offers at once"
+   ],
+   "skos:broader": [
+    {
+     "@id": "cm:first-offer"
+    },
+    {
+     "@id": "cm:integrative-negotiation"
+    }
+   ],
+   "skos:definition": "Opening or moving a multi-issue negotiation by putting two or three complete packages on the table at the same time, each worth about the same to you but built differently, and asking the other side which one works best for them.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/negotiation"
+   },
+   "skos:prefLabel": "Multiple equivalent simultaneous offers",
+   "skos:related": [
+    {
+     "@id": "cm:batna"
+    },
+    {
+     "@id": "cm:negotiation-preparation"
+    },
+    {
+     "@id": "cm:principled-negotiation"
+    },
+    {
+     "@id": "cm:zone-of-possible-agreement"
+    }
+   ]
+  },
+  {
    "@id": "cm:nominal-group-technique",
    "@type": "cmo:Technique",
    "cmo:addresses": [
@@ -4573,6 +4656,115 @@
    "rdfs:label": "Would I be comfortable if my manager saw exactly how I prepared for this conversation, or does it rely on flattery or spin?"
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:multiple-equivalent-simultaneous-offers"
+   },
+   "rdfs:label": "Are my packages really equivalent in value to me, or have I hidden a preferred option among decoys?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:multiple-equivalent-simultaneous-offers"
+   },
+   "rdfs:label": "Is every package above my walk-away point and more ambitious than my target?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:multiple-equivalent-simultaneous-offers"
+   },
+   "rdfs:label": "Have I kept it to two or three options so the other side can compare them?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:multiple-equivalent-simultaneous-offers"
+   },
+   "rdfs:label": "Am I ready to respond to cherry-picking with new packages instead of single concessions?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers/check/5",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:multiple-equivalent-simultaneous-offers"
+   },
+   "rdfs:label": "Is everything I say about the packages - including that I would accept any of them - true?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "We've put together three options we'd be glad to do. A: 12 weeks, $240K, two analysts on site, monthly billing. B: 16 weeks, $255K, one analyst on site plus remote support, quarterly billing. C: 10 weeks, $215K, two analysts, with your team owning the dashboard build. Which of these fits your budget cycle and team best - or which is closest?",
+   "cmo:before": "Our proposal is a 12-week engagement at $240K, paid monthly, with two analysts on site. Let us know if that works.",
+   "cmo:situation": "A consulting manager is proposing terms for a follow-on analytics engagement to a client's procurement lead.",
+   "cmo:why": "Each package is worth roughly the same to the firm, so any choice is acceptable; the client gets a real choice instead of a take-it-or-counter offer, and their pick reveals whether they care most about price, duration or internal capacity."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Multiple equivalent simultaneous offers",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers/howto/6"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "List every issue that is genuinely negotiable (price, scope, timing, payment terms, support, duration) and give each a weight that reflects how much it matters to you."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "For each issue, write the realistic range of options and score them so that options you prefer earn more points."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Build two or three complete packages that score about the same in total for you but trade the issues off differently - for example, higher price with faster delivery versus lower price with a longer commitment."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Check every package against your BATNA and make all of them more ambitious than your target, so there is still room to move."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Present the packages together, say you would be comfortable with any of them, and ask which one fits the other side best - or, if none does, which is closest and why."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "Treat their choice as information about their priorities; if they combine the best parts of different packages, reply with a fresh set of equivalent packages rather than conceding piece by piece."
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/nominal-group-technique/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -7030,6 +7222,62 @@
    "dcterms:title": "Organizational Information Requirements, Media Richness and Structural Design",
    "schema:url": {
     "@id": "https://collablab.northwestern.edu//CollabolabDistro/nucmc/DaftAndLengel-OrgInfoReq-MediaRichnessAndStructuralDesign-MngmtSci-1986.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/multiple-equivalent-simultaneous-offers/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Leonardelli, Gu, McRuer, Medvec and Galinsky, Organizational Behavior and Human Decision Processes 152, 64-83, 2019 (doi:10.1016/j.obhdp.2019.01.007; Monash University open-access copy)",
+   "dcterms:title": "Multiple equivalent simultaneous offers (MESOs) reduce the negotiator dilemma: How a choice of first offers increases economic and relational outcomes",
+   "schema:url": {
+    "@id": "https://researchmgt.monash.edu/ws/portalfiles/portal/274825846/274619042_oa.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/multiple-equivalent-simultaneous-offers/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Medvec and Galinsky, Negotiation (Program on Negotiation newsletter), 2005 (Kellogg School of Management faculty research record)",
+   "dcterms:title": "Putting More on the Table: How Making Multiple Offers can Increase the Final Value of the Deal",
+   "schema:url": {
+    "@id": "https://www.kellogg.northwestern.edu/faculty/research/detail/2005/putting-more-on-the-table-how-making-multiple-offers/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/multiple-equivalent-simultaneous-offers/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Katie Shonk, Program on Negotiation at Harvard Law School, 2020",
+   "dcterms:title": "How to Use MESOs in Business Negotiations",
+   "schema:url": {
+    "@id": "https://www.pon.harvard.edu/daily/business-negotiations/how-to-use-mesos-in-business-negotiations"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/multiple-equivalent-simultaneous-offers/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "IMPACT, Monash Business School, Monash University, 2019",
+   "dcterms:title": "The art of the deal: Negotiate like a pro",
+   "schema:url": {
+    "@id": "https://impact.monash.edu/management/the-art-of-the-deal-negotiate-like-a-pro/"
    }
   },
   {

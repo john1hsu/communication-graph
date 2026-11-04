@@ -2318,6 +2318,109 @@
   ]
  },
  {
+  "id": "cm:multiple-equivalent-simultaneous-offers",
+  "title": "Multiple equivalent simultaneous offers",
+  "aliases": [
+   "MESOs",
+   "MESO negotiation",
+   "making several offers at once"
+  ],
+  "type": "Technique",
+  "domain": "negotiation",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/negotiation/multiple-equivalent-simultaneous-offers.md",
+  "created": "2026-11-04",
+  "summary": "Opening or moving a multi-issue negotiation by putting two or three complete packages on the table at the same time, each worth about the same to you but built differently, and asking the other side which one works best for them.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:integrative-negotiation"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "cm:first-offer"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:batna"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:zone-of-possible-agreement"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:principled-negotiation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:negotiation-preparation"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:batna"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:victoria-medvec",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:leonardelli-et-al-2019",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:anchoring-and-adjustment",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:negotiator-dilemma",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:salary-negotiation",
+    "source": "s3",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Are my packages really equivalent in value to me, or have I hidden a preferred option among decoys?",
+   "Is every package above my walk-away point and more ambitious than my target?",
+   "Have I kept it to two or three options so the other side can compare them?",
+   "Am I ready to respond to cherry-picking with new packages instead of single concessions?",
+   "Is everything I say about the packages - including that I would accept any of them - true?"
+  ],
+  "steps": [
+   "List every issue that is genuinely negotiable (price, scope, timing, payment terms, support, duration) and give each a weight that reflects how much it matters to you.",
+   "For each issue, write the realistic range of options and score them so that options you prefer earn more points.",
+   "Build two or three complete packages that score about the same in total for you but trade the issues off differently - for example, higher price with faster delivery versus lower price with a longer commitment.",
+   "Check every package against your BATNA and make all of them more ambitious than your target, so there is still room to move.",
+   "Present the packages together, say you would be comfortable with any of them, and ask which one fits the other side best - or, if none does, which is closest and why.",
+   "Treat their choice as information about their priorities; if they combine the best parts of different packages, reply with a fresh set of equivalent packages rather than conceding piece by piece."
+  ],
+  "example": {
+   "situation": "A consulting manager is proposing terms for a follow-on analytics engagement to a client's procurement lead.",
+   "before": "Our proposal is a 12-week engagement at $240K, paid monthly, with two analysts on site. Let us know if that works.",
+   "after": "We've put together three options we'd be glad to do. A: 12 weeks, $240K, two analysts on site, monthly billing. B: 16 weeks, $255K, one analyst on site plus remote support, quarterly billing. C: 10 weeks, $215K, two analysts, with your team owning the dashboard build. Which of these fits your budget cycle and team best - or which is closest?",
+   "why": "Each package is worth roughly the same to the firm, so any choice is acceptable; the client gets a real choice instead of a take-it-or-counter offer, and their pick reveals whether they care most about price, duration or internal capacity."
+  },
+  "source_urls": [
+   "https://researchmgt.monash.edu/ws/portalfiles/portal/274825846/274619042_oa.pdf",
+   "https://www.kellogg.northwestern.edu/faculty/research/detail/2005/putting-more-on-the-table-how-making-multiple-offers/",
+   "https://www.pon.harvard.edu/daily/business-negotiations/how-to-use-mesos-in-business-negotiations",
+   "https://impact.monash.edu/management/the-art-of-the-deal-negotiate-like-a-pro/"
+  ]
+ },
+ {
   "id": "cm:nominal-group-technique",
   "title": "Nominal group technique",
   "aliases": [
