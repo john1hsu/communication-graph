@@ -1559,6 +1559,78 @@
 <https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works> <http://www.w3.org/2004/02/skos/core#prefLabel> "Thinkers, landmark works and studies" .
 <https://github.com/john1hsu/communication-graph/id/scheme/writing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <https://github.com/john1hsu/communication-graph/id/scheme/writing> <http://www.w3.org/2004/02/skos/core#prefLabel> "Business and professional writing" .
+<https://github.com/john1hsu/communication-graph/id/self-distancing/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/self-distancing/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "If I described this moment to myself by name, what would I tell me to do next?" .
+<https://github.com/john1hsu/communication-graph/id/self-distancing/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/self-distancing> .
+<https://github.com/john1hsu/communication-graph/id/self-distancing/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/self-distancing/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "From a colleague's seat, how much of this meeting is actually about me?" .
+<https://github.com/john1hsu/communication-graph/id/self-distancing/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/self-distancing> .
+<https://github.com/john1hsu/communication-graph/id/self-distancing/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/self-distancing/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Am I replaying this slip in the first person, and what would an observer say mattered instead?" .
+<https://github.com/john1hsu/communication-graph/id/self-distancing/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/self-distancing> .
+<https://github.com/john1hsu/communication-graph/id/self-distancing/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/self-distancing/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Have I turned the distanced view into one concrete next action?" .
+<https://github.com/john1hsu/communication-graph/id/self-distancing/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/self-distancing> .
+<https://github.com/john1hsu/communication-graph/id/self-distancing/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+<https://github.com/john1hsu/communication-graph/id/self-distancing/example> <https://github.com/john1hsu/communication-graph/ontology#after> "Priya, picture this from the back of the room: eight people focused on their own slides. You spotted a real gap. Ask one short question about the churn assumption, then let the lead answer." .
+<https://github.com/john1hsu/communication-graph/id/self-distancing/example> <https://github.com/john1hsu/communication-graph/ontology#before> "I'm going to sound naive. Everyone will remember that I'm the one who didn't get the model. I'll just keep quiet and email the lead later." .
+<https://github.com/john1hsu/communication-graph/id/self-distancing/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "An analyst is about to raise a concern about a vendor's numbers in a cross-team review where she is the most junior person." .
+<https://github.com/john1hsu/communication-graph/id/self-distancing/example> <https://github.com/john1hsu/communication-graph/ontology#why> "Naming herself and taking an observer's view shrinks the imagined spotlight and turns vague dread into one specific, low-cost contribution, which is the pattern lab studies link to less distress and better performance." .
+<https://github.com/john1hsu/communication-graph/id/self-distancing/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/self-distancing/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/self-distancing/howto/1> <https://schema.org/text> "Before the meeting or talk, write or say two or three sentences of self-talk using your own name or \"you\" instead of \"I\" (for example, \"Sam, you know this material; your job is to explain it\")." .
+<https://github.com/john1hsu/communication-graph/id/self-distancing/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/self-distancing/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/self-distancing/howto/2> <https://schema.org/text> "Picture the room from the back row or from a colleague's seat, not through your own eyes, and ask what that observer would actually notice." .
+<https://github.com/john1hsu/communication-graph/id/self-distancing/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/self-distancing/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/self-distancing/howto/3> <https://schema.org/text> "Notice what the observer is busy with - their own agenda, notes and next point - and adjust your estimate of how much attention you will get." .
+<https://github.com/john1hsu/communication-graph/id/self-distancing/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/self-distancing/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/self-distancing/howto/4> <https://schema.org/text> "Turn the distanced view into one concrete action, such as the opening line, the one question you will ask or the one-sentence correction you will use if you slip." .
+<https://github.com/john1hsu/communication-graph/id/self-distancing/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/self-distancing/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/self-distancing/howto/5> <https://schema.org/text> "Afterwards, review the moment the same way (\"What did Sam do well? What would Sam change?\") instead of replaying it in the first person." .
+<https://github.com/john1hsu/communication-graph/id/self-distancing/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+<https://github.com/john1hsu/communication-graph/id/self-distancing/howto> <https://schema.org/name> "Self-distancing strategies" .
+<https://github.com/john1hsu/communication-graph/id/self-distancing/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/self-distancing/howto/1> .
+<https://github.com/john1hsu/communication-graph/id/self-distancing/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/self-distancing/howto/2> .
+<https://github.com/john1hsu/communication-graph/id/self-distancing/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/self-distancing/howto/3> .
+<https://github.com/john1hsu/communication-graph/id/self-distancing/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/self-distancing/howto/4> .
+<https://github.com/john1hsu/communication-graph/id/self-distancing/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/self-distancing/howto/5> .
+<https://github.com/john1hsu/communication-graph/id/self-distancing> <http://purl.org/dc/terms/created> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/self-distancing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Technique> .
+<https://github.com/john1hsu/communication-graph/id/self-distancing> <http://www.w3.org/2000/01/rdf-schema#label> "Self-distancing strategies" .
+<https://github.com/john1hsu/communication-graph/id/self-distancing> <http://www.w3.org/2004/02/skos/core#altLabel> "distanced self-talk" .
+<https://github.com/john1hsu/communication-graph/id/self-distancing> <http://www.w3.org/2004/02/skos/core#altLabel> "observer-perspective imagery" .
+<https://github.com/john1hsu/communication-graph/id/self-distancing> <http://www.w3.org/2004/02/skos/core#altLabel> "self-distancing" .
+<https://github.com/john1hsu/communication-graph/id/self-distancing> <http://www.w3.org/2004/02/skos/core#altLabel> "third-person self-talk" .
+<https://github.com/john1hsu/communication-graph/id/self-distancing> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/emotion-regulation> .
+<https://github.com/john1hsu/communication-graph/id/self-distancing> <http://www.w3.org/2004/02/skos/core#definition> "Stepping back from your own point of view before or after a nerve-racking moment - by talking to yourself by name or as \"you\", or by picturing the scene as an outside observer would - so that you judge the stakes and your own salience more like the audience does." .
+<https://github.com/john1hsu/communication-graph/id/self-distancing> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/barriers-and-psychology> .
+<https://github.com/john1hsu/communication-graph/id/self-distancing> <http://www.w3.org/2004/02/skos/core#prefLabel> "Self-distancing strategies" .
+<https://github.com/john1hsu/communication-graph/id/self-distancing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> .
+<https://github.com/john1hsu/communication-graph/id/self-distancing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> .
+<https://github.com/john1hsu/communication-graph/id/self-distancing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mindfulness> .
+<https://github.com/john1hsu/communication-graph/id/self-distancing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> .
+<https://github.com/john1hsu/communication-graph/id/self-distancing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/self-distancing/s1> .
+<https://github.com/john1hsu/communication-graph/id/self-distancing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/self-distancing/s2> .
+<https://github.com/john1hsu/communication-graph/id/self-distancing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/self-distancing/s3> .
+<https://github.com/john1hsu/communication-graph/id/self-distancing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/self-distancing/s4> .
+<https://github.com/john1hsu/communication-graph/id/self-distancing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/self-distancing/s5> .
+<https://github.com/john1hsu/communication-graph/id/self-distancing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/self-distancing/s6> .
+<https://github.com/john1hsu/communication-graph/id/self-distancing> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> .
+<https://github.com/john1hsu/communication-graph/id/self-distancing> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/spotlight-effect> .
+<https://github.com/john1hsu/communication-graph/id/self-distancing> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/presentation> .
+<https://github.com/john1hsu/communication-graph/id/self-distancing> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> .
+<https://github.com/john1hsu/communication-graph/id/self-distancing> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/kross-et-al-2014> .
+<https://github.com/john1hsu/communication-graph/id/self-distancing> <https://github.com/john1hsu/communication-graph/ontology#domain> "barriers-and-psychology" .
+<https://github.com/john1hsu/communication-graph/id/self-distancing> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/self-distancing> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/self-distancing/example> .
+<https://github.com/john1hsu/communication-graph/id/self-distancing> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/barriers-and-psychology/self-distancing.md" .
+<https://github.com/john1hsu/communication-graph/id/self-distancing> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/self-distancing/howto> .
+<https://github.com/john1hsu/communication-graph/id/self-distancing> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/self-distancing> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/orvell-et-al-2021> .
 <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Could the other person picture the exact moment I mean, or did I say something vague like \"lately\"?" .
 <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> .
@@ -2585,6 +2657,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/rapport/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/rapport/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
 <https://github.com/john1hsu/communication-graph/id/source/rapport/s6> <https://schema.org/url> <https://www.pon.harvard.edu/daily/business-negotiations/small-talk-big-gains/> .
+<https://github.com/john1hsu/communication-graph/id/source/self-distancing/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/self-distancing/s1> <http://purl.org/dc/terms/publisher> "Kross et al., Journal of Personality and Social Psychology 106(2), 304-324, 2014 (PubMed record)" .
+<https://github.com/john1hsu/communication-graph/id/source/self-distancing/s1> <http://purl.org/dc/terms/title> "Self-talk as a regulatory mechanism: How you do it matters" .
+<https://github.com/john1hsu/communication-graph/id/source/self-distancing/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/self-distancing/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/self-distancing/s1> <https://schema.org/url> <https://pubmed.ncbi.nlm.nih.gov/24467424/> .
+<https://github.com/john1hsu/communication-graph/id/source/self-distancing/s2> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/self-distancing/s2> <http://purl.org/dc/terms/publisher> "Macrae et al., Personality and Social Psychology Bulletin 42(7), 2016 (author manuscript via CORE)" .
+<https://github.com/john1hsu/communication-graph/id/source/self-distancing/s2> <http://purl.org/dc/terms/title> "Noticing Future Me: Reducing Egocentrism Through Mental Imagery" .
+<https://github.com/john1hsu/communication-graph/id/source/self-distancing/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/self-distancing/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/self-distancing/s2> <https://schema.org/url> <https://core.ac.uk/download/300057876.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/self-distancing/s3> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/self-distancing/s3> <http://purl.org/dc/terms/publisher> "Golubickis, Tan, Falben & Macrae, European Journal of Social Psychology 46(4), 521-527, 2016 (James Cook University repository)" .
+<https://github.com/john1hsu/communication-graph/id/source/self-distancing/s3> <http://purl.org/dc/terms/title> "The observing self: Diminishing egocentrism through brief mindfulness meditation" .
+<https://github.com/john1hsu/communication-graph/id/source/self-distancing/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/self-distancing/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/self-distancing/s3> <https://schema.org/url> <https://researchonline.jcu.edu.au/80475/> .
+<https://github.com/john1hsu/communication-graph/id/source/self-distancing/s4> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/self-distancing/s4> <http://purl.org/dc/terms/publisher> "Orvell, Vickers, Drake, Verduyn, Ayduk, Moser, Jonides & Kross, Clinical Psychological Science 9(1), 68-78, 2021 (Maastricht University record)" .
+<https://github.com/john1hsu/communication-graph/id/source/self-distancing/s4> <http://purl.org/dc/terms/title> "Does Distanced Self-Talk Facilitate Emotion Regulation Across a Range of Emotionally Intense Experiences?" .
+<https://github.com/john1hsu/communication-graph/id/source/self-distancing/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/self-distancing/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/self-distancing/s4> <https://schema.org/url> <https://cris.maastrichtuniversity.nl/en/publications/does-distanced-self-talk-facilitate-emotion-regulation-across-a-r> .
+<https://github.com/john1hsu/communication-graph/id/source/self-distancing/s5> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/self-distancing/s5> <http://purl.org/dc/terms/publisher> "International Journal of Psychophysiology 177, 122-132, 2022 (PubMed record)" .
+<https://github.com/john1hsu/communication-graph/id/source/self-distancing/s5> <http://purl.org/dc/terms/title> "An event-related potential investigation of distanced self-talk: Replication and comparison to detached reappraisal" .
+<https://github.com/john1hsu/communication-graph/id/source/self-distancing/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/self-distancing/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/self-distancing/s5> <https://schema.org/url> <https://pubmed.ncbi.nlm.nih.gov/35568270/> .
+<https://github.com/john1hsu/communication-graph/id/source/self-distancing/s6> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/self-distancing/s6> <http://purl.org/dc/terms/publisher> "Jessica L. Jones, doctoral dissertation, University of California, Berkeley, 2020 (eScholarship)" .
+<https://github.com/john1hsu/communication-graph/id/source/self-distancing/s6> <http://purl.org/dc/terms/title> "Self-Talk and Self-Esteem: Do Non-First Person Parts of Speech Influence Affective Components of the Self-Concept?" .
+<https://github.com/john1hsu/communication-graph/id/source/self-distancing/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/self-distancing/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/self-distancing/s6> <https://schema.org/url> <https://escholarship.org/uc/item/8b4624vm> .
 <https://github.com/john1hsu/communication-graph/id/source/situation-behavior-impact/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/situation-behavior-impact/s1> <http://purl.org/dc/terms/publisher> "Center for Creative Leadership, 2025" .
 <https://github.com/john1hsu/communication-graph/id/source/situation-behavior-impact/s1> <http://purl.org/dc/terms/title> "Use Situation-Behavior-Impact (SBI) To Understand Intent" .

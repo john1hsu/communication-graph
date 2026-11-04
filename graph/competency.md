@@ -6,9 +6,7 @@ SPARQL queries in `queries/` run over the asserted graph, the OWL-RL inferences 
 
 _Which written barriers or anti-patterns have nothing in the graph that addresses them?_ — `queries/01-problems-without-fix.rq`
 
-| node | type |
-|---|---|
-| `cm:spotlight-effect` | cmo:Barrier |
+_No results._
 
 ## Skills with no practice technique (gap)
 
@@ -30,6 +28,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 |---|---|---|
 | `cm:i-statements` | 2 | Defensiveness, accusatory-you-statements |
 | `cm:plain-language` | 2 | Curse of knowledge, jargon |
+| `cm:self-distancing` | 2 | Public speaking anxiety, Spotlight effect |
 | `cm:active-listening` | 1 | Defensiveness |
 | `cm:active-voice` | 1 | unclear-ownership |
 | `cm:anxiety-reappraisal` | 1 | Public speaking anxiety |
@@ -71,6 +70,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:performance-review` | `cm:situation-behavior-impact` |
 | `cm:plain-language-summary` | `cm:plain-language` |
 | `cm:presentation` | `cm:anxiety-reappraisal` |
+| `cm:presentation` | `cm:self-distancing` |
 | `cm:status-reporting` | `cm:managing-up` |
 
 ## Myths and contested advice
@@ -102,6 +102,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:plain-language` | mixed |  |
 | `cm:psychological-safety` | mixed | `cm:pearsall-ellis-2011` |
 | `cm:rapport` | mixed |  |
+| `cm:self-distancing` | mixed |  |
 | `cm:spotlight-effect` | mixed |  |
 | `cm:teach-back` | mixed |  |
 | `cm:words-of-estimative-probability` | mixed |  |
@@ -117,6 +118,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:open-ended-questions` | cmo:Technique |
 | `cm:plain-language` | cmo:Principle |
 | `cm:rapport` | cmo:Concept |
+| `cm:self-distancing` | cmo:Technique |
 | `cm:speaking-anxiety` | cmo:Barrier |
 | `cm:spotlight-effect` | cmo:Barrier |
 | `cm:stakeholder-mapping` | cmo:Technique |

@@ -2786,6 +2786,108 @@
   ]
  },
  {
+  "id": "cm:self-distancing",
+  "title": "Self-distancing strategies",
+  "aliases": [
+   "self-distancing",
+   "distanced self-talk",
+   "third-person self-talk",
+   "observer-perspective imagery"
+  ],
+  "type": "Technique",
+  "domain": "barriers-and-psychology",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/barriers-and-psychology/self-distancing.md",
+  "created": "2026-11-04",
+  "summary": "Stepping back from your own point of view before or after a nerve-racking moment - by talking to yourself by name or as \"you\", or by picturing the scene as an outside observer would - so that you judge the stakes and your own salience more like the audience does.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:emotion-regulation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:anxiety-reappraisal"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:illusion-of-transparency"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:presentation-rehearsal"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:mindfulness"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:spotlight-effect",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:speaking-anxiety",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:presentation",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:kross-et-al-2014",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:orvell-et-al-2021",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:contrastsWith",
+    "object": "cm:cognitive-reappraisal",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "If I described this moment to myself by name, what would I tell me to do next?",
+   "From a colleague's seat, how much of this meeting is actually about me?",
+   "Am I replaying this slip in the first person, and what would an observer say mattered instead?",
+   "Have I turned the distanced view into one concrete next action?"
+  ],
+  "steps": [
+   "Before the meeting or talk, write or say two or three sentences of self-talk using your own name or \"you\" instead of \"I\" (for example, \"Sam, you know this material; your job is to explain it\").",
+   "Picture the room from the back row or from a colleague's seat, not through your own eyes, and ask what that observer would actually notice.",
+   "Notice what the observer is busy with - their own agenda, notes and next point - and adjust your estimate of how much attention you will get.",
+   "Turn the distanced view into one concrete action, such as the opening line, the one question you will ask or the one-sentence correction you will use if you slip.",
+   "Afterwards, review the moment the same way (\"What did Sam do well? What would Sam change?\") instead of replaying it in the first person."
+  ],
+  "example": {
+   "situation": "An analyst is about to raise a concern about a vendor's numbers in a cross-team review where she is the most junior person.",
+   "before": "I'm going to sound naive. Everyone will remember that I'm the one who didn't get the model. I'll just keep quiet and email the lead later.",
+   "after": "Priya, picture this from the back of the room: eight people focused on their own slides. You spotted a real gap. Ask one short question about the churn assumption, then let the lead answer.",
+   "why": "Naming herself and taking an observer's view shrinks the imagined spotlight and turns vague dread into one specific, low-cost contribution, which is the pattern lab studies link to less distress and better performance."
+  },
+  "source_urls": [
+   "https://pubmed.ncbi.nlm.nih.gov/24467424/",
+   "https://core.ac.uk/download/300057876.pdf",
+   "https://researchonline.jcu.edu.au/80475/",
+   "https://cris.maastrichtuniversity.nl/en/publications/does-distanced-self-talk-facilitate-emotion-regulation-across-a-r",
+   "https://pubmed.ncbi.nlm.nih.gov/35568270/",
+   "https://escholarship.org/uc/item/8b4624vm"
+  ]
+ },
+ {
   "id": "cm:situation-behavior-impact",
   "title": "Situation-Behavior-Impact",
   "aliases": [

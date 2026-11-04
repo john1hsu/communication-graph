@@ -19,6 +19,28 @@ Ask yourself:
 - Did I check what they understood, or did I take their nod as proof?
 - Before this presentation, am I treating my racing heart as something the audience can see?
 
+### [Self-distancing strategies](../articles/barriers-and-psychology/self-distancing.md) — Technique
+
+1. Before the meeting or talk, write or say two or three sentences of self-talk using your own name or "you" instead of "I" (for example, "Sam, you know this material; your job is to explain it").
+2. Picture the room from the back row or from a colleague's seat, not through your own eyes, and ask what that observer would actually notice.
+3. Notice what the observer is busy with - their own agenda, notes and next point - and adjust your estimate of how much attention you will get.
+4. Turn the distanced view into one concrete action, such as the opening line, the one question you will ask or the one-sentence correction you will use if you slip.
+5. Afterwards, review the moment the same way ("What did Sam do well? What would Sam change?") instead of replaying it in the first person.
+
+*An analyst is about to raise a concern about a vendor's numbers in a cross-team review where she is the most junior person.*
+
+| Before | After |
+|---|---|
+| I'm going to sound naive. Everyone will remember that I'm the one who didn't get the model. I'll just keep quiet and email the lead later. | Priya, picture this from the back of the room: eight people focused on their own slides. You spotted a real gap. Ask one short question about the churn assumption, then let the lead answer. |
+
+**Why:** Naming herself and taking an observer's view shrinks the imagined spotlight and turns vague dread into one specific, low-cost contribution, which is the pattern lab studies link to less distress and better performance.
+
+Ask yourself:
+- If I described this moment to myself by name, what would I tell me to do next?
+- From a colleague's seat, how much of this meeting is actually about me?
+- Am I replaying this slip in the first person, and what would an observer say mattered instead?
+- Have I turned the distanced view into one concrete next action?
+
 ### [Spotlight effect](../articles/barriers-and-psychology/spotlight-effect.md) — Barrier
 
 Ask yourself:
