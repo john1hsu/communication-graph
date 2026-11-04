@@ -772,6 +772,91 @@
    ]
   },
   {
+   "@id": "cm:defensiveness",
+   "@type": "cmo:Barrier",
+   "cmo:challengedBy": {
+    "@id": "cm:forward-czech-lee-2011"
+   },
+   "cmo:domain": "difficult-conversations-and-conflict",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:explainedBy": {
+    "@id": "cm:self-affirmation-theory"
+   },
+   "cmo:file": "articles/difficult-conversations-and-conflict/defensiveness.md",
+   "cmo:introducedBy": {
+    "@id": "cm:jack-gibb"
+   },
+   "cmo:level": "introductory",
+   "cmo:supportedBy": {
+    "@id": "cm:czech-forward-2013"
+   },
+   "cmo:undermines": {
+    "@id": "cm:active-listening"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/defensiveness/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/defensiveness/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/defensiveness/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/defensiveness/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/defensiveness/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/defensiveness/s6"
+    }
+   ],
+   "rdfs:label": "Defensiveness",
+   "skos:altLabel": [
+    "defensive climate",
+    "defensive communication",
+    "defensive reaction",
+    "getting defensive"
+   ],
+   "skos:broader": {
+    "@id": "cm:communication-climate"
+   },
+   "skos:definition": "A self-protective reaction to perceived or anticipated threat in a conversation, in which a person spends energy guarding their image instead of taking in the message - and in which the listener's distorted hearing tends to make the speaker defensive in turn.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/difficult-conversations-and-conflict"
+   },
+   "skos:prefLabel": "Defensiveness",
+   "skos:related": [
+    {
+     "@id": "cm:accusatory-you-statements"
+    },
+    {
+     "@id": "cm:active-listening"
+    },
+    {
+     "@id": "cm:difficult-conversation"
+    },
+    {
+     "@id": "cm:feedback"
+    },
+    {
+     "@id": "cm:i-statements"
+    },
+    {
+     "@id": "cm:psychological-safety"
+    },
+    {
+     "@id": "cm:situation-behavior-impact"
+    }
+   ]
+  },
+  {
    "@id": "cm:difficult-conversation",
    "@type": "cmo:Context",
    "cmo:demonstratedBy": [
@@ -3052,6 +3137,38 @@
    "rdfs:label": "Have I asked someone outside the work to restate my point in their own words, or am I only judging clarity myself?"
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/defensiveness/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:defensiveness"
+   },
+   "rdfs:label": "Am I about to describe what happened, or to deliver a verdict on the person who did it?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/defensiveness/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:defensiveness"
+   },
+   "rdfs:label": "Have I signalled that the outcome is still open, or does my message sound like the decision is already made?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/defensiveness/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:defensiveness"
+   },
+   "rdfs:label": "When I felt criticised just now, did I restate their point before I explained or justified myself?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/defensiveness/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:defensiveness"
+   },
+   "rdfs:label": "Is the other person reacting to my content, or to a tone of superiority, certainty or hidden agenda they are picking up?"
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -4400,6 +4517,90 @@
    "dcterms:title": "Paraphrase testing",
    "schema:url": {
     "@id": "https://digital.gov/guides/plain-language/test/paraphrase-testing"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/defensiveness/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Jack R. Gibb (text of the paper based on his Office of Naval Research group studies; transcription hosted by Joseph Reagle, Northeastern University)",
+   "dcterms:title": "Defensive Communication",
+   "schema:url": {
+    "@id": "https://reagle.org/joseph/2010/conflict/media/gibb-defensive-communication.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/defensiveness/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Jack Gibb, reprinted as a chapter by Routledge (Taylor & Francis), DOI 10.4324/9781315080918-16",
+   "dcterms:title": "Defensive Communication (chapter abstract)",
+   "schema:url": {
+    "@id": "https://www.taylorfrancis.com/chapters/edit/10.4324/9781315080918-16/defensive-communication-jack-gibb"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/defensiveness/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Forward, Czech & Lee, Communication Research Reports, 2011 (Taylor & Francis abstract page, DOI 10.1080/08824096.2011.541360)",
+   "dcterms:title": "Assessing Gibb's Supportive and Defensive Communication Climate: An Examination of Measurement and Construct Validity",
+   "schema:url": {
+    "@id": "https://informahealthcare.com/doi/abs/10.1080/08824096.2011.541360"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/defensiveness/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Czech & Forward, Studies in Media and Communication 1(2), 2013 (CORE open-access copy)",
+   "dcterms:title": "Communication, Leadership, and Job Satisfaction: Perspectives on Supervisor-Subordinate Relationships",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/228084366.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/defensiveness/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Xiaofei He, PhD dissertation, University of Minnesota, 2016 (University Digital Conservancy)",
+   "dcterms:title": "The impact of self-affirmation on defensive processing of health messages: A meta-analysis",
+   "schema:url": {
+    "@id": "https://conservancy.umn.edu/items/c7d763b6-a8a9-4a91-aa2a-57536504f27b"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/defensiveness/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Health Psychology 34(3), 2015, DOI 10.1037/hea0000116 (PubMed record)",
+   "dcterms:title": "The impact of self-affirmation on health-behavior change: a meta-analysis",
+   "schema:url": {
+    "@id": "https://pubmed.ncbi.nlm.nih.gov/25133846/"
    }
   },
   {

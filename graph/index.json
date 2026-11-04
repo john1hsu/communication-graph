@@ -883,6 +883,103 @@
   ]
  },
  {
+  "id": "cm:defensiveness",
+  "title": "Defensiveness",
+  "aliases": [
+   "defensive communication",
+   "defensive climate",
+   "defensive reaction",
+   "getting defensive"
+  ],
+  "type": "Barrier",
+  "domain": "difficult-conversations-and-conflict",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/difficult-conversations-and-conflict/defensiveness.md",
+  "created": "2026-11-04",
+  "summary": "A self-protective reaction to perceived or anticipated threat in a conversation, in which a person spends energy guarding their image instead of taking in the message - and in which the listener's distorted hearing tends to make the speaker defensive in turn.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:communication-climate"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:i-statements"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:situation-behavior-impact"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:active-listening"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:psychological-safety"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:difficult-conversation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:feedback"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:accusatory-you-statements"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:jack-gibb",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:undermines",
+    "object": "cm:active-listening",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:czech-forward-2013",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:forward-czech-lee-2011",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:self-affirmation-theory",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Am I about to describe what happened, or to deliver a verdict on the person who did it?",
+   "Have I signalled that the outcome is still open, or does my message sound like the decision is already made?",
+   "When I felt criticised just now, did I restate their point before I explained or justified myself?",
+   "Is the other person reacting to my content, or to a tone of superiority, certainty or hidden agenda they are picking up?"
+  ],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://reagle.org/joseph/2010/conflict/media/gibb-defensive-communication.html",
+   "https://www.taylorfrancis.com/chapters/edit/10.4324/9781315080918-16/defensive-communication-jack-gibb",
+   "https://informahealthcare.com/doi/abs/10.1080/08824096.2011.541360",
+   "https://core.ac.uk/download/228084366.pdf",
+   "https://conservancy.umn.edu/items/c7d763b6-a8a9-4a91-aa2a-57536504f27b",
+   "https://pubmed.ncbi.nlm.nih.gov/25133846/"
+  ]
+ },
+ {
   "id": "cm:difficult-conversation",
   "title": "Difficult conversation",
   "aliases": [

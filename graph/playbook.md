@@ -30,6 +30,14 @@ Ask yourself:
 
 ## difficult-conversations-and-conflict
 
+### [Defensiveness](../articles/difficult-conversations-and-conflict/defensiveness.md) — Barrier
+
+Ask yourself:
+- Am I about to describe what happened, or to deliver a verdict on the person who did it?
+- Have I signalled that the outcome is still open, or does my message sound like the decision is already made?
+- When I felt criticised just now, did I restate their point before I explained or justified myself?
+- Is the other person reacting to my content, or to a tone of superiority, certainty or hidden agenda they are picking up?
+
 ### [I-statements](../articles/difficult-conversations-and-conflict/i-statements.md) — Technique
 
 1. Before speaking, name one specific, observable behaviour (what was said or done, and when) instead of a trait or a pattern word like "always" or "never".

@@ -26,15 +26,15 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 
 | technique | reach | targets |
 |---|---|---|
-| `cm:i-statements` | 2 | accusatory-you-statements, defensiveness |
+| `cm:i-statements` | 2 | Defensiveness, accusatory-you-statements |
 | `cm:plain-language` | 2 | Curse of knowledge, jargon |
-| `cm:active-listening` | 1 | defensiveness |
+| `cm:active-listening` | 1 | Defensiveness |
 | `cm:active-voice` | 1 | unclear-ownership |
 | `cm:anxiety-reappraisal` | 1 | Public speaking anxiety |
 | `cm:audience-analysis` | 1 | Curse of knowledge |
 | `cm:bottom-line-up-front` | 1 | burying-the-lede |
 | `cm:paraphrasing` | 1 | Active listening |
-| `cm:situation-behavior-impact` | 1 | defensiveness |
+| `cm:situation-behavior-impact` | 1 | Defensiveness |
 | `cm:teach-back` | 1 | Illusion of transparency |
 | `cm:words-of-estimative-probability` | 1 | vague-probability-language |
 
@@ -76,6 +76,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:batna` | mixed | `cm:schaerer-swaab-galinsky-2015` |
 | `cm:channel-selection` | mixed | `cm:dennis-kinney-1998` |
 | `cm:curse-of-knowledge` | mixed | `cm:ryskin-brown-schmidt-2014` |
+| `cm:defensiveness` | mixed | `cm:forward-czech-lee-2011` |
 | `cm:direct-vs-indirect-feedback` | mixed | `cm:brew-cairns-2004` |
 | `cm:email` | mixed |  |
 | `cm:i-statements` | mixed | `cm:korobov-2020` |
