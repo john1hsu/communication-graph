@@ -20,6 +20,7 @@ relations:
   - {predicate: explainedBy, object: cm:power-distance, source: s4, confidence: medium}
   - {predicate: explainedBy, object: cm:face-and-facework, source: s5, confidence: medium}
   - {predicate: appliedIn, object: cm:multicultural-team, source: s1, confidence: medium}
+  - {predicate: introducedIn, object: cm:the-culture-map, source: s6, confidence: medium}
 selfCheck:
   - If I strip out the softeners or intensifiers, what is the core message I am sending - and would this listener decode it the same way?
   - Am I about to deliver criticism in front of people who do not need to hear it?
@@ -56,7 +57,14 @@ sources:
     url: https://link.springer.com/article/10.1186/s12909-025-08307-z
     type: peer-reviewed
     accessed: 2026-11-03
+  - id: s6
+    title: "Book Review: The Culture Map by Erin Meyer"
+    publisher: Kenneth Nehrbass, Great Commission Research Journal 13(2), 109-110 (2021), Asbury Theological Seminary (via CORE)
+    url: https://core.ac.uk/download/519795669.pdf
+    type: academic
+    accessed: 2026-11-04
 created: 2026-11-03
+modified: 2026-11-04
 ---
 
 # Direct vs. indirect feedback
@@ -65,7 +73,7 @@ Direct feedback states a problem plainly - "this draft isn't ready" - and in som
 
 ## Origin
 
-The contrast between explicit and implicit messages has long roots in intercultural communication research, and it was popularised for managers by INSEAD professor Erin Meyer, who sorted cultures by how plainly they deliver negative feedback and borrowed the linguists' terms upgraders and downgraders to describe how they do it.[^s1][^s2] Meyer places managers from countries such as the Netherlands, Germany, Denmark, Israel, Russia and France toward the direct end, and notes a twist: Americans, often seen as direct, tend to cushion criticism with several positives and superlatives.[^s1] Her examples are drawn from executives' experiences rather than systematic measurement.[^s1][^s2]
+The contrast between explicit and implicit messages has long roots in intercultural communication research, and it was popularised for managers by INSEAD professor Erin Meyer, who sorted cultures by how plainly they deliver negative feedback and borrowed the linguists' terms upgraders and downgraders to describe how they do it.[^s1][^s2] Meyer places managers from countries such as the Netherlands, Germany, Denmark, Israel, Russia and France toward the direct end, and notes a twist: Americans, often seen as direct, tend to cushion criticism with several positives and superlatives.[^s1] Her examples are drawn from executives' experiences rather than systematic measurement.[^s1][^s2] The distinction appears as the Evaluating scale in her 2014 book *The Culture Map*, which treats directness in criticism separately from directness in general.[^s6]
 
 ## Why it matters
 
@@ -89,6 +97,7 @@ Limits: much popular guidance, including the national rankings, rests on anecdot
 - **Challenged by** Brew and Cairns (2004), whose finding that status and urgency override cultural predictions cautions against nationality-based rules.[^s4]
 - **Explained by** power distance, which Brew and Cairns identify as the main driver of the differences they found, and by face concerns, which the 2025 review links to how hard negative feedback is to receive.[^s4][^s5]
 - **Applied in** multicultural teams, the setting Meyer's advice targets.[^s1]
+- **Introduced in** Meyer's *The Culture Map* (2014), where it forms the Evaluating scale.[^s6]
 - **Broader / related:** it is a dimension of feedback and of intercultural communication; it overlaps with Hall's high- and low-context cultures, and specific-behaviour methods such as Situation-Behavior-Impact and I-statements can be dialled up or down in directness. Meyer's advice to open with positives in indirect settings sits in tension with warnings against the feedback sandwich, so use positives that are sincere and specific rather than a formula.[^s1][^s2]
 
 ## Sources
@@ -98,3 +107,4 @@ Limits: much popular guidance, including the national rankings, rests on anecdot
 [^s3]: Sanchez-Burks et al., "Conversing across cultures: East-West communication styles in work and nonwork contexts", Journal of Personality and Social Psychology 85(2) (2003). https://webuser.bus.umich.edu/jeffrysb/Conversing%20Across.pdf (accessed 2026-11-03)
 [^s4]: Brew & Cairns, "Do culture or situational constraints determine choice of direct or indirect styles in intercultural workplace conflicts?", International Journal of Intercultural Relations 28(5) (2004). https://www.sciencedirect.com/science/article/abs/pii/S0147176704000483 (accessed 2026-11-03)
 [^s5]: Fullerton et al., "Cultural influences on Asian health profession trainees seeking and receiving feedback: a scoping review", BMC Medical Education 26:30 (2025). https://link.springer.com/article/10.1186/s12909-025-08307-z (accessed 2026-11-03)
+[^s6]: Kenneth Nehrbass, "Book Review: The Culture Map by Erin Meyer", Great Commission Research Journal 13(2) (2021). https://core.ac.uk/download/519795669.pdf (accessed 2026-11-04)

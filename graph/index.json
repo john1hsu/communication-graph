@@ -1147,6 +1147,12 @@
     "object": "cm:multicultural-team",
     "source": "s1",
     "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:introducedIn",
+    "object": "cm:the-culture-map",
+    "source": "s6",
+    "confidence": "medium"
    }
   ],
   "selfCheck": [
@@ -1161,7 +1167,8 @@
    "https://knowledge.insead.edu/leadership-organisations/giving-negative-feedback-across-cultures",
    "https://webuser.bus.umich.edu/jeffrysb/Conversing%20Across.pdf",
    "https://www.sciencedirect.com/science/article/abs/pii/S0147176704000483",
-   "https://link.springer.com/article/10.1186/s12909-025-08307-z"
+   "https://link.springer.com/article/10.1186/s12909-025-08307-z",
+   "https://core.ac.uk/download/519795669.pdf"
   ]
  },
  {
@@ -3090,6 +3097,86 @@
    "https://doaj.org/article/b1abc68239814afcb1efb196ce30aba8",
    "https://cepc.ucsf.edu/sites/cepc.ucsf.edu/files/TeachBackArticle_0.pdf",
    "https://www.ucsf.edu/news/2003/01/97177/simple-communication-technique-may-imrpove-health-outcomes-among-diabetes"
+  ]
+ },
+ {
+  "id": "cm:the-culture-map",
+  "title": "The Culture Map",
+  "aliases": [
+   "The Culture Map (Meyer)",
+   "Culture Map framework",
+   "Meyer's eight culture scales",
+   "Breaking Through the Invisible Boundaries of Global Business"
+  ],
+  "type": "Work",
+  "domain": "thinkers-and-works",
+  "level": "introductory",
+  "evidenceStatus": "practitioner",
+  "file": "articles/thinkers-and-works/the-culture-map.md",
+  "created": "2026-11-04",
+  "summary": "Erin Meyer's 2014 business book and framework that compares national cultures on eight workplace scales - communicating, evaluating, persuading, leading, deciding, trusting, disagreeing and scheduling - and asks managers to read differences relative to their own position rather than in absolute terms.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:intercultural-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:direct-vs-indirect-feedback"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:high-and-low-context-cultures"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:multicultural-team"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:power-distance"
+   },
+   {
+    "predicate": "cmo:authoredBy",
+    "object": "cm:erin-meyer",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:influencedBy",
+    "object": "cm:edward-t-hall",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:influencedBy",
+    "object": "cm:hofstede-cultural-dimensions",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:multicultural-team",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:taras-steel-kirkman-2016",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://www.insead.edu/faculty-research/publications/journal-articles/navigating-cultural-minefield",
+   "https://www.insead.edu/news/new-insead-book-reveals-eight-scale-framework-decoding-cultural-differences-impacting-international",
+   "https://www.hachettebookgroup.com/titles/erin-meyer/the-culture-map/9781610392594/",
+   "https://core.ac.uk/download/519795669.pdf",
+   "https://core.ac.uk/download/345085409.pdf",
+   "https://www.insead.edu/faculty/erin-meyer"
   ]
  },
  {

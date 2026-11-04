@@ -59,6 +59,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:executive-briefing` | `cm:words-of-estimative-probability` |
 | `cm:memorandum` | `cm:bottom-line-up-front` |
 | `cm:multicultural-team` | `cm:direct-vs-indirect-feedback` |
+| `cm:multicultural-team` | `cm:the-culture-map` |
 | `cm:one-on-one-meetings` | `cm:active-listening` |
 | `cm:one-on-one-meetings` | `cm:managing-up` |
 | `cm:patient-education` | `cm:teach-back` |
@@ -105,7 +106,6 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 
 | node | type |
 |---|---|
-| `cm:direct-vs-indirect-feedback` | cmo:Concept |
 | `cm:email` | cmo:Channel |
 | `cm:illusion-of-transparency` | cmo:Barrier |
 | `cm:open-ended-questions` | cmo:Technique |

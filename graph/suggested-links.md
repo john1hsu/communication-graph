@@ -9,7 +9,7 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 2.18 | `cm:managing-up` | `cm:message-equivocality-media-selection-and-manager-performance` | `cm:audience-analysis`, `cm:channel-selection`, `cm:organizational-communication` |
 | 1.80 | `cm:issue-selling` | `cm:words-of-estimative-probability` | `cm:bottom-line-up-front`, `cm:executive-briefing` |
 | 1.75 | `cm:defensiveness` | `cm:direct-vs-indirect-feedback` | `cm:feedback`, `cm:feedforward`, `cm:i-statements`, `cm:situation-behavior-impact` |
-| 1.56 | `cm:feedforward` | `cm:i-statements` | `cm:active-listening`, `cm:defensiveness`, `cm:direct-vs-indirect-feedback`, `cm:situation-behavior-impact` |
+| 1.55 | `cm:feedforward` | `cm:i-statements` | `cm:active-listening`, `cm:defensiveness`, `cm:direct-vs-indirect-feedback`, `cm:situation-behavior-impact` |
 | 1.52 | `cm:defensiveness` | `cm:paraphrasing` | `cm:active-listening`, `cm:difficult-conversation`, `cm:i-statements`, `cm:situation-behavior-impact` |
 | 1.51 | `cm:channel-selection` | `cm:issue-selling` | `cm:audience-analysis`, `cm:bottom-line-up-front`, `cm:managing-up`, `cm:stakeholder-mapping` |
 | 1.49 | `cm:bottom-line-up-front` | `cm:stakeholder-mapping` | `cm:audience-analysis`, `cm:channel-selection`, `cm:issue-selling`, `cm:managing-up` |

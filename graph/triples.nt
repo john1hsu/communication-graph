@@ -646,6 +646,7 @@
 <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Have I checked what the person understood, rather than assuming my politeness or bluntness landed as intended?" .
 <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> .
 <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> <http://purl.org/dc/terms/created> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> <http://purl.org/dc/terms/modified> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
 <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> <http://www.w3.org/2000/01/rdf-schema#label> "Direct vs. indirect feedback" .
 <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> <http://www.w3.org/2004/02/skos/core#altLabel> "direct and indirect negative feedback" .
@@ -666,6 +667,7 @@
 <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/direct-vs-indirect-feedback/s3> .
 <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/direct-vs-indirect-feedback/s4> .
 <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/direct-vs-indirect-feedback/s5> .
+<https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/direct-vs-indirect-feedback/s6> .
 <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/multicultural-team> .
 <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/brew-cairns-2004> .
 <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> <https://github.com/john1hsu/communication-graph/ontology#domain> "cross-cultural-communication" .
@@ -673,6 +675,7 @@
 <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/face-and-facework> .
 <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/power-distance> .
 <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/cross-cultural-communication/direct-vs-indirect-feedback.md" .
+<https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> <https://github.com/john1hsu/communication-graph/ontology#introducedIn> <https://github.com/john1hsu/communication-graph/id/the-culture-map> .
 <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/sanchez-burks-et-al-2003> .
 <https://github.com/john1hsu/communication-graph/id/effective-writing-for-army-leaders> <http://purl.org/dc/terms/created> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -1981,6 +1984,12 @@
 <https://github.com/john1hsu/communication-graph/id/source/direct-vs-indirect-feedback/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/direct-vs-indirect-feedback/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/communication-graph/id/source/direct-vs-indirect-feedback/s5> <https://schema.org/url> <https://link.springer.com/article/10.1186/s12909-025-08307-z> .
+<https://github.com/john1hsu/communication-graph/id/source/direct-vs-indirect-feedback/s6> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/direct-vs-indirect-feedback/s6> <http://purl.org/dc/terms/publisher> "Kenneth Nehrbass, Great Commission Research Journal 13(2), 109-110 (2021), Asbury Theological Seminary (via CORE)" .
+<https://github.com/john1hsu/communication-graph/id/source/direct-vs-indirect-feedback/s6> <http://purl.org/dc/terms/title> "Book Review: The Culture Map by Erin Meyer" .
+<https://github.com/john1hsu/communication-graph/id/source/direct-vs-indirect-feedback/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/direct-vs-indirect-feedback/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/direct-vs-indirect-feedback/s6> <https://schema.org/url> <https://core.ac.uk/download/519795669.pdf> .
 <https://github.com/john1hsu/communication-graph/id/source/effective-writing-for-army-leaders/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/effective-writing-for-army-leaders/s1> <http://purl.org/dc/terms/publisher> "Headquarters, Department of the Army, 2 June 1986 (GovInfo, U.S. Government Publishing Office)" .
 <https://github.com/john1hsu/communication-graph/id/source/effective-writing-for-army-leaders/s1> <http://purl.org/dc/terms/title> "DA Pamphlet 600-67: Effective Writing for Army Leaders" .
@@ -2629,6 +2638,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/teach-back/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/teach-back/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
 <https://github.com/john1hsu/communication-graph/id/source/teach-back/s6> <https://schema.org/url> <https://www.ucsf.edu/news/2003/01/97177/simple-communication-technique-may-imrpove-health-outcomes-among-diabetes> .
+<https://github.com/john1hsu/communication-graph/id/source/the-culture-map/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/the-culture-map/s1> <http://purl.org/dc/terms/publisher> "Erin Meyer, Harvard Business Review 92(5), 119-123 (May 2014); INSEAD faculty publications listing" .
+<https://github.com/john1hsu/communication-graph/id/source/the-culture-map/s1> <http://purl.org/dc/terms/title> "Navigating the Cultural Minefield (publication record and abstract)" .
+<https://github.com/john1hsu/communication-graph/id/source/the-culture-map/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/the-culture-map/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/the-culture-map/s1> <https://schema.org/url> <https://www.insead.edu/faculty-research/publications/journal-articles/navigating-cultural-minefield> .
+<https://github.com/john1hsu/communication-graph/id/source/the-culture-map/s2> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/the-culture-map/s2> <http://purl.org/dc/terms/publisher> "INSEAD (business school) news release, 11 June 2014" .
+<https://github.com/john1hsu/communication-graph/id/source/the-culture-map/s2> <http://purl.org/dc/terms/title> "New INSEAD Book Reveals Eight-Scale Framework Decoding Cultural Differences Impacting International Business" .
+<https://github.com/john1hsu/communication-graph/id/source/the-culture-map/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/the-culture-map/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/the-culture-map/s2> <https://schema.org/url> <https://www.insead.edu/news/new-insead-book-reveals-eight-scale-framework-decoding-cultural-differences-impacting-international> .
+<https://github.com/john1hsu/communication-graph/id/source/the-culture-map/s3> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/the-culture-map/s3> <http://purl.org/dc/terms/publisher> "Erin Meyer, PublicAffairs (Hachette Book Group), 27 May 2014 - publisher's book page" .
+<https://github.com/john1hsu/communication-graph/id/source/the-culture-map/s3> <http://purl.org/dc/terms/title> "The Culture Map: Breaking Through the Invisible Boundaries of Global Business" .
+<https://github.com/john1hsu/communication-graph/id/source/the-culture-map/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/the-culture-map/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/the-culture-map/s3> <https://schema.org/url> <https://www.hachettebookgroup.com/titles/erin-meyer/the-culture-map/9781610392594/> .
+<https://github.com/john1hsu/communication-graph/id/source/the-culture-map/s4> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/the-culture-map/s4> <http://purl.org/dc/terms/publisher> "Kenneth Nehrbass, Great Commission Research Journal 13(2), 109-110 (2021), Asbury Theological Seminary (via CORE)" .
+<https://github.com/john1hsu/communication-graph/id/source/the-culture-map/s4> <http://purl.org/dc/terms/title> "Book Review: The Culture Map by Erin Meyer" .
+<https://github.com/john1hsu/communication-graph/id/source/the-culture-map/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/the-culture-map/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/the-culture-map/s4> <https://schema.org/url> <https://core.ac.uk/download/519795669.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/the-culture-map/s5> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/the-culture-map/s5> <http://purl.org/dc/terms/publisher> "Taras, Steel & Kirkman, Management International Review 56(4), 455-472 (2016), doi:10.1007/s11575-016-0283-x (open-access copy via CORE)" .
+<https://github.com/john1hsu/communication-graph/id/source/the-culture-map/s5> <http://purl.org/dc/terms/title> "Does Country Equate with Culture? Beyond Geography in the Search for Cultural Boundaries" .
+<https://github.com/john1hsu/communication-graph/id/source/the-culture-map/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/the-culture-map/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/the-culture-map/s5> <https://schema.org/url> <https://core.ac.uk/download/345085409.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/the-culture-map/s6> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/the-culture-map/s6> <http://purl.org/dc/terms/publisher> "INSEAD (business school)" .
+<https://github.com/john1hsu/communication-graph/id/source/the-culture-map/s6> <http://purl.org/dc/terms/title> "Erin Meyer - faculty profile" .
+<https://github.com/john1hsu/communication-graph/id/source/the-culture-map/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/the-culture-map/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/the-culture-map/s6> <https://schema.org/url> <https://www.insead.edu/faculty/erin-meyer> .
 <https://github.com/john1hsu/communication-graph/id/source/william-strunk-jr/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/william-strunk-jr/s1> <http://purl.org/dc/terms/publisher> "William Strunk Jr., Cornell University; Project Gutenberg eBook" .
 <https://github.com/john1hsu/communication-graph/id/source/william-strunk-jr/s1> <http://purl.org/dc/terms/title> "The Elements of Style (1920 Harcourt, Brace and Howe edition; copyright 1918, 1919)" .
@@ -2877,6 +2922,36 @@
 <https://github.com/john1hsu/communication-graph/id/teach-back> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/teach-back> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/ha-dinh-et-al-2016> .
 <https://github.com/john1hsu/communication-graph/id/teach-back> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/talevski-et-al-2020> .
+<https://github.com/john1hsu/communication-graph/id/the-culture-map> <http://purl.org/dc/terms/created> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/the-culture-map> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
+<https://github.com/john1hsu/communication-graph/id/the-culture-map> <http://www.w3.org/2000/01/rdf-schema#label> "The Culture Map" .
+<https://github.com/john1hsu/communication-graph/id/the-culture-map> <http://www.w3.org/2004/02/skos/core#altLabel> "Breaking Through the Invisible Boundaries of Global Business" .
+<https://github.com/john1hsu/communication-graph/id/the-culture-map> <http://www.w3.org/2004/02/skos/core#altLabel> "Culture Map framework" .
+<https://github.com/john1hsu/communication-graph/id/the-culture-map> <http://www.w3.org/2004/02/skos/core#altLabel> "Meyer's eight culture scales" .
+<https://github.com/john1hsu/communication-graph/id/the-culture-map> <http://www.w3.org/2004/02/skos/core#altLabel> "The Culture Map (Meyer)" .
+<https://github.com/john1hsu/communication-graph/id/the-culture-map> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/intercultural-communication> .
+<https://github.com/john1hsu/communication-graph/id/the-culture-map> <http://www.w3.org/2004/02/skos/core#definition> "Erin Meyer's 2014 business book and framework that compares national cultures on eight workplace scales - communicating, evaluating, persuading, leading, deciding, trusting, disagreeing and scheduling - and asks managers to read differences relative to their own position rather than in absolute terms." .
+<https://github.com/john1hsu/communication-graph/id/the-culture-map> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works> .
+<https://github.com/john1hsu/communication-graph/id/the-culture-map> <http://www.w3.org/2004/02/skos/core#prefLabel> "The Culture Map" .
+<https://github.com/john1hsu/communication-graph/id/the-culture-map> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> .
+<https://github.com/john1hsu/communication-graph/id/the-culture-map> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> .
+<https://github.com/john1hsu/communication-graph/id/the-culture-map> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/multicultural-team> .
+<https://github.com/john1hsu/communication-graph/id/the-culture-map> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/power-distance> .
+<https://github.com/john1hsu/communication-graph/id/the-culture-map> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/the-culture-map/s1> .
+<https://github.com/john1hsu/communication-graph/id/the-culture-map> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/the-culture-map/s2> .
+<https://github.com/john1hsu/communication-graph/id/the-culture-map> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/the-culture-map/s3> .
+<https://github.com/john1hsu/communication-graph/id/the-culture-map> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/the-culture-map/s4> .
+<https://github.com/john1hsu/communication-graph/id/the-culture-map> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/the-culture-map/s5> .
+<https://github.com/john1hsu/communication-graph/id/the-culture-map> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/the-culture-map/s6> .
+<https://github.com/john1hsu/communication-graph/id/the-culture-map> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/multicultural-team> .
+<https://github.com/john1hsu/communication-graph/id/the-culture-map> <https://github.com/john1hsu/communication-graph/ontology#authoredBy> <https://github.com/john1hsu/communication-graph/id/erin-meyer> .
+<https://github.com/john1hsu/communication-graph/id/the-culture-map> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/taras-steel-kirkman-2016> .
+<https://github.com/john1hsu/communication-graph/id/the-culture-map> <https://github.com/john1hsu/communication-graph/ontology#domain> "thinkers-and-works" .
+<https://github.com/john1hsu/communication-graph/id/the-culture-map> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "practitioner" .
+<https://github.com/john1hsu/communication-graph/id/the-culture-map> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/thinkers-and-works/the-culture-map.md" .
+<https://github.com/john1hsu/communication-graph/id/the-culture-map> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/edward-t-hall> .
+<https://github.com/john1hsu/communication-graph/id/the-culture-map> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/hofstede-cultural-dimensions> .
+<https://github.com/john1hsu/communication-graph/id/the-culture-map> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/william-strunk-jr> <http://purl.org/dc/terms/created> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/william-strunk-jr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
 <https://github.com/john1hsu/communication-graph/id/william-strunk-jr> <http://www.w3.org/2000/01/rdf-schema#label> "William Strunk Jr." .

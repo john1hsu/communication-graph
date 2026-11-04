@@ -966,6 +966,9 @@
     }
    ],
    "cmo:file": "articles/cross-cultural-communication/direct-vs-indirect-feedback.md",
+   "cmo:introducedIn": {
+    "@id": "cm:the-culture-map"
+   },
    "cmo:level": "intermediate",
    "cmo:supportedBy": {
     "@id": "cm:sanchez-burks-et-al-2003"
@@ -973,6 +976,10 @@
    "dcterms:created": {
     "@type": "xsd:date",
     "@value": "2026-11-03"
+   },
+   "dcterms:modified": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
    },
    "prov:wasDerivedFrom": [
     {
@@ -989,6 +996,9 @@
     },
     {
      "@id": "https://github.com/john1hsu/communication-graph/id/source/direct-vs-indirect-feedback/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/direct-vs-indirect-feedback/s6"
     }
    ],
    "rdfs:label": "Direct vs. indirect feedback",
@@ -2703,6 +2713,84 @@
     },
     {
      "@id": "cm:plain-language"
+    }
+   ]
+  },
+  {
+   "@id": "cm:the-culture-map",
+   "@type": "cmo:Work",
+   "cmo:appliedIn": {
+    "@id": "cm:multicultural-team"
+   },
+   "cmo:authoredBy": {
+    "@id": "cm:erin-meyer"
+   },
+   "cmo:challengedBy": {
+    "@id": "cm:taras-steel-kirkman-2016"
+   },
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "practitioner",
+   "cmo:file": "articles/thinkers-and-works/the-culture-map.md",
+   "cmo:influencedBy": [
+    {
+     "@id": "cm:edward-t-hall"
+    },
+    {
+     "@id": "cm:hofstede-cultural-dimensions"
+    }
+   ],
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/the-culture-map/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/the-culture-map/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/the-culture-map/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/the-culture-map/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/the-culture-map/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/the-culture-map/s6"
+    }
+   ],
+   "rdfs:label": "The Culture Map",
+   "skos:altLabel": [
+    "Breaking Through the Invisible Boundaries of Global Business",
+    "Culture Map framework",
+    "Meyer's eight culture scales",
+    "The Culture Map (Meyer)"
+   ],
+   "skos:broader": {
+    "@id": "cm:intercultural-communication"
+   },
+   "skos:definition": "Erin Meyer's 2014 business book and framework that compares national cultures on eight workplace scales - communicating, evaluating, persuading, leading, deciding, trusting, disagreeing and scheduling - and asks managers to read differences relative to their own position rather than in absolute terms.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "The Culture Map",
+   "skos:related": [
+    {
+     "@id": "cm:direct-vs-indirect-feedback"
+    },
+    {
+     "@id": "cm:high-and-low-context-cultures"
+    },
+    {
+     "@id": "cm:multicultural-team"
+    },
+    {
+     "@id": "cm:power-distance"
     }
    ]
   },
@@ -5396,6 +5484,20 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/direct-vs-indirect-feedback/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Kenneth Nehrbass, Great Commission Research Journal 13(2), 109-110 (2021), Asbury Theological Seminary (via CORE)",
+   "dcterms:title": "Book Review: The Culture Map by Erin Meyer",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/519795669.pdf"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/source/effective-writing-for-army-leaders/s1",
    "@type": "cmo:Source",
    "cmo:sourceType": "primary",
@@ -6905,6 +7007,90 @@
    "dcterms:title": "Simple communication technique may improve health outcomes among diabetes patients",
    "schema:url": {
     "@id": "https://www.ucsf.edu/news/2003/01/97177/simple-communication-technique-may-imrpove-health-outcomes-among-diabetes"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/the-culture-map/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Erin Meyer, Harvard Business Review 92(5), 119-123 (May 2014); INSEAD faculty publications listing",
+   "dcterms:title": "Navigating the Cultural Minefield (publication record and abstract)",
+   "schema:url": {
+    "@id": "https://www.insead.edu/faculty-research/publications/journal-articles/navigating-cultural-minefield"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/the-culture-map/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "INSEAD (business school) news release, 11 June 2014",
+   "dcterms:title": "New INSEAD Book Reveals Eight-Scale Framework Decoding Cultural Differences Impacting International Business",
+   "schema:url": {
+    "@id": "https://www.insead.edu/news/new-insead-book-reveals-eight-scale-framework-decoding-cultural-differences-impacting-international"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/the-culture-map/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Erin Meyer, PublicAffairs (Hachette Book Group), 27 May 2014 - publisher's book page",
+   "dcterms:title": "The Culture Map: Breaking Through the Invisible Boundaries of Global Business",
+   "schema:url": {
+    "@id": "https://www.hachettebookgroup.com/titles/erin-meyer/the-culture-map/9781610392594/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/the-culture-map/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Kenneth Nehrbass, Great Commission Research Journal 13(2), 109-110 (2021), Asbury Theological Seminary (via CORE)",
+   "dcterms:title": "Book Review: The Culture Map by Erin Meyer",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/519795669.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/the-culture-map/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Taras, Steel & Kirkman, Management International Review 56(4), 455-472 (2016), doi:10.1007/s11575-016-0283-x (open-access copy via CORE)",
+   "dcterms:title": "Does Country Equate with Culture? Beyond Geography in the Search for Cultural Boundaries",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/345085409.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/the-culture-map/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "INSEAD (business school)",
+   "dcterms:title": "Erin Meyer - faculty profile",
+   "schema:url": {
+    "@id": "https://www.insead.edu/faculty/erin-meyer"
    }
   },
   {
