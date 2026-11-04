@@ -2817,6 +2817,77 @@
    ]
   },
   {
+   "@id": "cm:ray-tomlinson",
+   "@type": "cmo:Person",
+   "cmo:authored": {
+    "@id": "cm:rfc-561"
+   },
+   "cmo:contrastsWith": {
+    "@id": "cm:ctss-mail"
+   },
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "historical",
+   "cmo:file": "articles/thinkers-and-works/ray-tomlinson.md",
+   "cmo:introduced": [
+    {
+     "@id": "cm:email"
+    },
+    {
+     "@id": "cm:email-address"
+    }
+   ],
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/ray-tomlinson/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/ray-tomlinson/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/ray-tomlinson/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/ray-tomlinson/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/ray-tomlinson/s5"
+    }
+   ],
+   "rdfs:label": "Ray Tomlinson",
+   "skos:altLabel": [
+    "Raymond S. Tomlinson",
+    "Raymond Tomlinson",
+    "Tomlinson"
+   ],
+   "skos:definition": "BBN engineer (1941-2016) who in 1971 sent the first messages between users on different ARPANET computers, chose the \"@\" that still separates user from host in every address, and co-wrote the 1973 header standard that made From, Subject and Date part of every message.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "Ray Tomlinson",
+   "skos:related": [
+    {
+     "@id": "cm:asynchronous-communication"
+    },
+    {
+     "@id": "cm:bottom-line-up-front"
+    },
+    {
+     "@id": "cm:channel-selection"
+    },
+    {
+     "@id": "cm:email"
+    },
+    {
+     "@id": "cm:information-overload"
+    }
+   ]
+  },
+  {
    "@id": "cm:self-distancing",
    "@type": "cmo:Technique",
    "cmo:addresses": [
@@ -8189,6 +8260,76 @@
    "dcterms:title": "Does Small Talk in Negotiation Offer Big Gains?",
    "schema:url": {
     "@id": "https://www.pon.harvard.edu/daily/business-negotiations/small-talk-big-gains/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/ray-tomlinson/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Partridge, C., IEEE Annals of the History of Computing, April-June 2008 (author's copy hosted by gwern.net)",
+   "dcterms:title": "The Technical Development of Internet Email",
+   "schema:url": {
+    "@id": "https://www.Gwern.net/doc/cs/2008-partridge.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/ray-tomlinson/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Lemelson-MIT Program, Massachusetts Institute of Technology",
+   "dcterms:title": "Ray Tomlinson",
+   "schema:url": {
+    "@id": "https://lemelson.mit.edu/resources/ray-tomlinson"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/ray-tomlinson/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Internet Hall of Fame (Internet Society), 2012",
+   "dcterms:title": "Meet the Man Who Put the '@' in Your E-Mail",
+   "schema:url": {
+    "@id": "https://internethalloffame.org/?p=260"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/ray-tomlinson/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Van Vleck, T., co-author of CTSS MAIL (multicians.org, first posted 2001, updated 2026)",
+   "dcterms:title": "The History of Electronic Mail",
+   "schema:url": {
+    "@id": "https://multicians.org/thvv/mail-history.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/ray-tomlinson/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "School of Engineering, Rensselaer Polytechnic Institute",
+   "dcterms:title": "Raymond S. Tomlinson - 1963",
+   "schema:url": {
+    "@id": "https://eng.rpi.edu/person/raymond-s-tomlinson-1963"
    }
   },
   {

@@ -3211,6 +3211,78 @@
   ]
  },
  {
+  "id": "cm:ray-tomlinson",
+  "title": "Ray Tomlinson",
+  "aliases": [
+   "Raymond S. Tomlinson",
+   "Raymond Tomlinson",
+   "Tomlinson"
+  ],
+  "type": "Person",
+  "domain": "thinkers-and-works",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/thinkers-and-works/ray-tomlinson.md",
+  "created": "2026-11-04",
+  "summary": "BBN engineer (1941-2016) who in 1971 sent the first messages between users on different ARPANET computers, chose the \"@\" that still separates user from host in every address, and co-wrote the 1973 header standard that made From, Subject and Date part of every message.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "cm:email"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:asynchronous-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:channel-selection"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:information-overload"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:bottom-line-up-front"
+   },
+   {
+    "predicate": "cmo:introduced",
+    "object": "cm:email",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:introduced",
+    "object": "cm:email-address",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:authored",
+    "object": "cm:rfc-561",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:contrastsWith",
+    "object": "cm:ctss-mail",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://www.Gwern.net/doc/cs/2008-partridge.pdf",
+   "https://lemelson.mit.edu/resources/ray-tomlinson",
+   "https://internethalloffame.org/?p=260",
+   "https://multicians.org/thvv/mail-history.html",
+   "https://eng.rpi.edu/person/raymond-s-tomlinson-1963"
+  ]
+ },
+ {
   "id": "cm:self-distancing",
   "title": "Self-distancing strategies",
   "aliases": [

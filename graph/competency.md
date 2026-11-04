@@ -125,7 +125,6 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 
 | node | type |
 |---|---|
-| `cm:email` | cmo:Channel |
 | `cm:first-offer` | cmo:Technique |
 | `cm:illusion-of-transparency` | cmo:Barrier |
 | `cm:open-ended-questions` | cmo:Technique |
