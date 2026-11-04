@@ -498,6 +498,29 @@ Ask yourself:
 
 ## questioning-and-conversation
 
+### [Humble inquiry](../articles/questioning-and-conversation/humble-inquiry.md) — Technique
+
+1. Before the conversation, write down what you are assuming about the situation and the person, and mark which parts you have not actually checked.
+2. Open with a question you do not know the answer to ("Walk me through how you approached this") instead of your verdict or fix.
+3. Stop after the question and let the other person talk; resist filling the first silence with your own view.
+4. Ask one genuine follow-up that builds on what they just said, rather than steering back to your agenda.
+5. Acknowledge what you heard in your own words before you add any opinion, request or decision.
+6. Only then tell - share your view or ask for what you need - and invite them to correct or add to it.
+
+*A team lead notices a direct report delivered a client analysis in an unexpected format, a day before the client review.*
+
+| Before | After |
+|---|---|
+| This isn't the template we use. Please redo it in the standard deck format tonight so we're ready for tomorrow. | You built this differently from our usual deck - I'd like to understand why. Can you walk me through what you were going for and what you know about this client that I might not? |
+
+**Why:** The first version assumes the lead already knows everything relevant and shuts the report down; the second surfaces their reasoning (perhaps the client asked for it), keeps them engaged, and still leaves time to agree a format together.
+
+Ask yourself:
+- Did I ask at least one question I did not already know the answer to?
+- Was my question a real question, or a suggestion or a test dressed up as one?
+- Who talked more in that conversation, and did I learn anything that changed my view?
+- Did I acknowledge what they said before telling them what I think?
+
 ### [Teach-back](../articles/questioning-and-conversation/teach-back.md) — Technique
 
 1. Pick the one to three points the other person must get right to act - a deadline, a decision, a sequence of steps - rather than checking everything.

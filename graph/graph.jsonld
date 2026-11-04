@@ -1606,6 +1606,100 @@
    ]
   },
   {
+   "@id": "cm:humble-inquiry",
+   "@type": "cmo:Technique",
+   "cmo:addresses": {
+    "@id": "cm:telling-instead-of-asking"
+   },
+   "cmo:appliedIn": {
+    "@id": "cm:one-on-one-meetings"
+   },
+   "cmo:complements": {
+    "@id": "cm:psychological-safety"
+   },
+   "cmo:domain": "questioning-and-conversation",
+   "cmo:evidenceStatus": "practitioner",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/humble-inquiry/example"
+   },
+   "cmo:file": "articles/questioning-and-conversation/humble-inquiry.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/humble-inquiry/howto"
+   },
+   "cmo:introducedBy": {
+    "@id": "cm:edgar-schein"
+   },
+   "cmo:introducedIn": {
+    "@id": "cm:humble-inquiry-the-gentle-art-of-asking-instead-of-telling"
+   },
+   "cmo:level": "intermediate",
+   "cmo:supportedBy": [
+    {
+     "@id": "cm:detert-burris-2007"
+    },
+    {
+     "@id": "cm:huang-et-al-2017"
+    },
+    {
+     "@id": "cm:owens-johnson-mitchell-2013"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/humble-inquiry/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/humble-inquiry/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/humble-inquiry/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/humble-inquiry/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/humble-inquiry/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/humble-inquiry/s6"
+    }
+   ],
+   "rdfs:label": "Humble inquiry",
+   "skos:altLabel": [
+    "Schein's humble inquiry",
+    "asking instead of telling"
+   ],
+   "skos:broader": {
+    "@id": "cm:questioning"
+   },
+   "skos:definition": "Edgar Schein's practice of drawing another person out by asking questions you do not already know the answer to, out of real curiosity about them, instead of opening with your own diagnosis, advice or instructions - especially when you hold the higher status.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/questioning-and-conversation"
+   },
+   "skos:prefLabel": "Humble inquiry",
+   "skos:related": [
+    {
+     "@id": "cm:active-listening"
+    },
+    {
+     "@id": "cm:advice-giving"
+    },
+    {
+     "@id": "cm:follow-up-questions"
+    },
+    {
+     "@id": "cm:managing-up"
+    },
+    {
+     "@id": "cm:open-ended-questions"
+    }
+   ]
+  },
+  {
    "@id": "cm:i-statements",
    "@type": "cmo:Technique",
    "cmo:addresses": [
@@ -2484,6 +2578,9 @@
     },
     {
      "@id": "cm:follow-up-questions"
+    },
+    {
+     "@id": "cm:humble-inquiry"
     },
     {
      "@id": "cm:psychological-safety"
@@ -4711,6 +4808,107 @@
    "@type": "schema:HowToStep",
    "schema:position": 6,
    "schema:text": "If they open first, do not respond to their number straight away - restate your own target, their likely limits and your alternatives to yourself, then counter from your plan rather than from their anchor."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/humble-inquiry/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:humble-inquiry"
+   },
+   "rdfs:label": "Did I ask at least one question I did not already know the answer to?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/humble-inquiry/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:humble-inquiry"
+   },
+   "rdfs:label": "Was my question a real question, or a suggestion or a test dressed up as one?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/humble-inquiry/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:humble-inquiry"
+   },
+   "rdfs:label": "Who talked more in that conversation, and did I learn anything that changed my view?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/humble-inquiry/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:humble-inquiry"
+   },
+   "rdfs:label": "Did I acknowledge what they said before telling them what I think?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/humble-inquiry/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "You built this differently from our usual deck - I'd like to understand why. Can you walk me through what you were going for and what you know about this client that I might not?",
+   "cmo:before": "This isn't the template we use. Please redo it in the standard deck format tonight so we're ready for tomorrow.",
+   "cmo:situation": "A team lead notices a direct report delivered a client analysis in an unexpected format, a day before the client review.",
+   "cmo:why": "The first version assumes the lead already knows everything relevant and shuts the report down; the second surfaces their reasoning (perhaps the client asked for it), keeps them engaged, and still leaves time to agree a format together."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/humble-inquiry/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Humble inquiry",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/humble-inquiry/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/humble-inquiry/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/humble-inquiry/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/humble-inquiry/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/humble-inquiry/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/humble-inquiry/howto/6"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/humble-inquiry/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Before the conversation, write down what you are assuming about the situation and the person, and mark which parts you have not actually checked."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/humble-inquiry/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Open with a question you do not know the answer to (\"Walk me through how you approached this\") instead of your verdict or fix."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/humble-inquiry/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Stop after the question and let the other person talk; resist filling the first silence with your own view."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/humble-inquiry/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Ask one genuine follow-up that builds on what they just said, rather than steering back to your agenda."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/humble-inquiry/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Acknowledge what you heard in your own words before you add any opinion, request or decision."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/humble-inquiry/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "Only then tell - share your view or ask for what you need - and invite them to correct or add to it."
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/i-statements/check/1",
@@ -7287,6 +7485,90 @@
    "dcterms:title": "Beyond culture or beyond control? Reviewing the use of Hall's high-/low-context concept",
    "schema:url": {
     "@id": "https://dspace.stir.ac.uk/handle/1893/3174"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/humble-inquiry/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Edgar H. Schein, Berrett-Koehler Publishers, 2013 (MIT Press Bookstore listing)",
+   "dcterms:title": "Humble Inquiry: The Gentle Art of Asking Instead of Telling (publisher description)",
+   "schema:url": {
+    "@id": "https://mitpressbookstore.mit.edu/book/9781609949815"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/humble-inquiry/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Edgar H. Schein & Peter A. Schein, 2021 (Penguin Random House listing)",
+   "dcterms:title": "Humble Inquiry, Second Edition: The Gentle Art of Asking Instead of Telling",
+   "schema:url": {
+    "@id": "https://penguinrandomhouse.com/books/isbn/9781523092628"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/humble-inquiry/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Berrett-Koehler Publishers (Zoe Mackey), 2018",
+   "dcterms:title": "Using Humble Inquiry to Lead, a Manager's Guide",
+   "schema:url": {
+    "@id": "https://ideas.bkconnection.com/using-humble-inquiry-to-lead-a-managers-guide"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/humble-inquiry/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Huang, Yeomans, Brooks, Minson & Gino, Journal of Personality and Social Psychology 113(3), 430-452, 2017 (author manuscript via CORE)",
+   "dcterms:title": "It doesn't hurt to ask: Question-asking increases liking",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/154893096.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/humble-inquiry/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Detert & Burris, Academy of Management Journal 50(4), 869-884, 2007 (Scilit record)",
+   "dcterms:title": "Leadership Behavior and Employee Voice: Is the Door Really Open?",
+   "schema:url": {
+    "@id": "https://www.scilit.net/publications/90709f08d2f79393da7d4209eedda5ae"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/humble-inquiry/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Owens, Johnson & Mitchell, Organization Science 24(5), 1517-1538, 2013 (RePEc/IDEAS record)",
+   "dcterms:title": "Expressed Humility in Organizations: Implications for Performance, Teams, and Leadership",
+   "schema:url": {
+    "@id": "https://ideas.repec.org/a/inm/ororsc/v24y2013i5p1517-1538.html"
    }
   },
   {

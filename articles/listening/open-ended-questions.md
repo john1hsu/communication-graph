@@ -11,7 +11,7 @@ summary: >-
 level: introductory
 evidenceStatus: mixed
 broader: [cm:questioning]
-related: [cm:active-listening, cm:follow-up-questions, cm:teach-back, cm:psychological-safety]
+related: [cm:active-listening, cm:follow-up-questions, cm:teach-back, cm:psychological-safety, cm:humble-inquiry]
 requires: []
 relations:
   - {predicate: contrastsWith, object: cm:closed-questions, source: s5, confidence: high}

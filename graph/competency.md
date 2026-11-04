@@ -36,6 +36,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:audience-analysis` | 1 | Curse of knowledge |
 | `cm:bottom-line-up-front` | 1 | burying-the-lede |
 | `cm:feedforward` | 1 | Defensiveness |
+| `cm:humble-inquiry` | 1 | telling-instead-of-asking |
 | `cm:issue-selling` | 1 | Managing up |
 | `cm:multiple-equivalent-simultaneous-offers` | 1 | negotiator-dilemma |
 | `cm:paraphrasing` | 1 | Active listening |
@@ -67,6 +68,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:multicultural-team` | `cm:direct-vs-indirect-feedback` |
 | `cm:multicultural-team` | `cm:the-culture-map` |
 | `cm:one-on-one-meetings` | `cm:active-listening` |
+| `cm:one-on-one-meetings` | `cm:humble-inquiry` |
 | `cm:one-on-one-meetings` | `cm:managing-up` |
 | `cm:patient-education` | `cm:teach-back` |
 | `cm:performance-review` | `cm:feedforward` |

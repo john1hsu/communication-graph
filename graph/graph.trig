@@ -278,6 +278,15 @@
 <https://github.com/john1hsu/communication-graph/id/speaking-anxiety#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/speaking-anxiety/s4> .
 <https://github.com/john1hsu/communication-graph/id/speaking-anxiety#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/speaking-anxiety/s5> .
 <https://github.com/john1hsu/communication-graph/id/speaking-anxiety#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/speaking-anxiety/s6> .
+<https://github.com/john1hsu/communication-graph/id/humble-inquiry#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/humble-inquiry#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/humble-inquiry> .
+<https://github.com/john1hsu/communication-graph/id/humble-inquiry#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/questioning-and-conversation/humble-inquiry.md" .
+<https://github.com/john1hsu/communication-graph/id/humble-inquiry#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/humble-inquiry/s1> .
+<https://github.com/john1hsu/communication-graph/id/humble-inquiry#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/humble-inquiry/s2> .
+<https://github.com/john1hsu/communication-graph/id/humble-inquiry#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/humble-inquiry/s3> .
+<https://github.com/john1hsu/communication-graph/id/humble-inquiry#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/humble-inquiry/s4> .
+<https://github.com/john1hsu/communication-graph/id/humble-inquiry#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/humble-inquiry/s5> .
+<https://github.com/john1hsu/communication-graph/id/humble-inquiry#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/humble-inquiry/s6> .
 <https://github.com/john1hsu/communication-graph/id/teach-back#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/teach-back#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/teach-back> .
 <https://github.com/john1hsu/communication-graph/id/teach-back#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/questioning-and-conversation/teach-back.md" .
@@ -2129,6 +2138,7 @@
   <https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/2004/02/skos/core#prefLabel> "Open-ended questions" .
   <https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/active-listening> .
   <https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/follow-up-questions> .
+  <https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/humble-inquiry> .
   <https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
   <https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/teach-back> .
   <https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/open-ended-questions/s1> .
@@ -3476,6 +3486,122 @@
   <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/macinnis-mackinnon-macintyre-2010> .
 }
 
+<https://github.com/john1hsu/communication-graph/id/humble-inquiry#graph> {
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Did I ask at least one question I did not already know the answer to?" .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/humble-inquiry> .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Was my question a real question, or a suggestion or a test dressed up as one?" .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/humble-inquiry> .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Who talked more in that conversation, and did I learn anything that changed my view?" .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/humble-inquiry> .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Did I acknowledge what they said before telling them what I think?" .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/humble-inquiry> .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry/example> <https://github.com/john1hsu/communication-graph/ontology#after> "You built this differently from our usual deck - I'd like to understand why. Can you walk me through what you were going for and what you know about this client that I might not?" .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry/example> <https://github.com/john1hsu/communication-graph/ontology#before> "This isn't the template we use. Please redo it in the standard deck format tonight so we're ready for tomorrow." .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "A team lead notices a direct report delivered a client analysis in an unexpected format, a day before the client review." .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry/example> <https://github.com/john1hsu/communication-graph/ontology#why> "The first version assumes the lead already knows everything relevant and shuts the report down; the second surfaces their reasoning (perhaps the client asked for it), keeps them engaged, and still leaves time to agree a format together." .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry/howto/1> <https://schema.org/text> "Before the conversation, write down what you are assuming about the situation and the person, and mark which parts you have not actually checked." .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry/howto/2> <https://schema.org/text> "Open with a question you do not know the answer to (\"Walk me through how you approached this\") instead of your verdict or fix." .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry/howto/3> <https://schema.org/text> "Stop after the question and let the other person talk; resist filling the first silence with your own view." .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry/howto/4> <https://schema.org/text> "Ask one genuine follow-up that builds on what they just said, rather than steering back to your agenda." .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry/howto/5> <https://schema.org/text> "Acknowledge what you heard in your own words before you add any opinion, request or decision." .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry/howto/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry/howto/6> <https://schema.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry/howto/6> <https://schema.org/text> "Only then tell - share your view or ask for what you need - and invite them to correct or add to it." .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry/howto> <https://schema.org/name> "Humble inquiry" .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/humble-inquiry/howto/1> .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/humble-inquiry/howto/2> .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/humble-inquiry/howto/3> .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/humble-inquiry/howto/4> .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/humble-inquiry/howto/5> .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/humble-inquiry/howto/6> .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry> <http://purl.org/dc/terms/created> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Technique> .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry> <http://www.w3.org/2000/01/rdf-schema#label> "Humble inquiry" .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry> <http://www.w3.org/2004/02/skos/core#altLabel> "Schein's humble inquiry" .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry> <http://www.w3.org/2004/02/skos/core#altLabel> "asking instead of telling" .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/questioning> .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry> <http://www.w3.org/2004/02/skos/core#definition> "Edgar Schein's practice of drawing another person out by asking questions you do not already know the answer to, out of real curiosity about them, instead of opening with your own diagnosis, advice or instructions - especially when you hold the higher status." .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/questioning-and-conversation> .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry> <http://www.w3.org/2004/02/skos/core#prefLabel> "Humble inquiry" .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/advice-giving> .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/follow-up-questions> .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/managing-up> .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/open-ended-questions> .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/humble-inquiry/s1> .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/humble-inquiry/s2> .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/humble-inquiry/s3> .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/humble-inquiry/s4> .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/humble-inquiry/s5> .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/humble-inquiry/s6> .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/telling-instead-of-asking> .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry> <https://github.com/john1hsu/communication-graph/ontology#domain> "questioning-and-conversation" .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "practitioner" .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/humble-inquiry/example> .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/questioning-and-conversation/humble-inquiry.md" .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/humble-inquiry/howto> .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/edgar-schein> .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry> <https://github.com/john1hsu/communication-graph/ontology#introducedIn> <https://github.com/john1hsu/communication-graph/id/humble-inquiry-the-gentle-art-of-asking-instead-of-telling> .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/detert-burris-2007> .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/huang-et-al-2017> .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/owens-johnson-mitchell-2013> .
+  <https://github.com/john1hsu/communication-graph/id/source/humble-inquiry/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/humble-inquiry/s1> <http://purl.org/dc/terms/publisher> "Edgar H. Schein, Berrett-Koehler Publishers, 2013 (MIT Press Bookstore listing)" .
+  <https://github.com/john1hsu/communication-graph/id/source/humble-inquiry/s1> <http://purl.org/dc/terms/title> "Humble Inquiry: The Gentle Art of Asking Instead of Telling (publisher description)" .
+  <https://github.com/john1hsu/communication-graph/id/source/humble-inquiry/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/humble-inquiry/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/communication-graph/id/source/humble-inquiry/s1> <https://schema.org/url> <https://mitpressbookstore.mit.edu/book/9781609949815> .
+  <https://github.com/john1hsu/communication-graph/id/source/humble-inquiry/s2> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/humble-inquiry/s2> <http://purl.org/dc/terms/publisher> "Edgar H. Schein & Peter A. Schein, 2021 (Penguin Random House listing)" .
+  <https://github.com/john1hsu/communication-graph/id/source/humble-inquiry/s2> <http://purl.org/dc/terms/title> "Humble Inquiry, Second Edition: The Gentle Art of Asking Instead of Telling" .
+  <https://github.com/john1hsu/communication-graph/id/source/humble-inquiry/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/humble-inquiry/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/communication-graph/id/source/humble-inquiry/s2> <https://schema.org/url> <https://penguinrandomhouse.com/books/isbn/9781523092628> .
+  <https://github.com/john1hsu/communication-graph/id/source/humble-inquiry/s3> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/humble-inquiry/s3> <http://purl.org/dc/terms/publisher> "Berrett-Koehler Publishers (Zoe Mackey), 2018" .
+  <https://github.com/john1hsu/communication-graph/id/source/humble-inquiry/s3> <http://purl.org/dc/terms/title> "Using Humble Inquiry to Lead, a Manager's Guide" .
+  <https://github.com/john1hsu/communication-graph/id/source/humble-inquiry/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/humble-inquiry/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+  <https://github.com/john1hsu/communication-graph/id/source/humble-inquiry/s3> <https://schema.org/url> <https://ideas.bkconnection.com/using-humble-inquiry-to-lead-a-managers-guide> .
+  <https://github.com/john1hsu/communication-graph/id/source/humble-inquiry/s4> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/humble-inquiry/s4> <http://purl.org/dc/terms/publisher> "Huang, Yeomans, Brooks, Minson & Gino, Journal of Personality and Social Psychology 113(3), 430-452, 2017 (author manuscript via CORE)" .
+  <https://github.com/john1hsu/communication-graph/id/source/humble-inquiry/s4> <http://purl.org/dc/terms/title> "It doesn't hurt to ask: Question-asking increases liking" .
+  <https://github.com/john1hsu/communication-graph/id/source/humble-inquiry/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/humble-inquiry/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/humble-inquiry/s4> <https://schema.org/url> <https://core.ac.uk/download/154893096.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/humble-inquiry/s5> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/humble-inquiry/s5> <http://purl.org/dc/terms/publisher> "Detert & Burris, Academy of Management Journal 50(4), 869-884, 2007 (Scilit record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/humble-inquiry/s5> <http://purl.org/dc/terms/title> "Leadership Behavior and Employee Voice: Is the Door Really Open?" .
+  <https://github.com/john1hsu/communication-graph/id/source/humble-inquiry/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/humble-inquiry/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/humble-inquiry/s5> <https://schema.org/url> <https://www.scilit.net/publications/90709f08d2f79393da7d4209eedda5ae> .
+  <https://github.com/john1hsu/communication-graph/id/source/humble-inquiry/s6> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/humble-inquiry/s6> <http://purl.org/dc/terms/publisher> "Owens, Johnson & Mitchell, Organization Science 24(5), 1517-1538, 2013 (RePEc/IDEAS record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/humble-inquiry/s6> <http://purl.org/dc/terms/title> "Expressed Humility in Organizations: Implications for Performance, Teams, and Leadership" .
+  <https://github.com/john1hsu/communication-graph/id/source/humble-inquiry/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/humble-inquiry/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/humble-inquiry/s6> <https://schema.org/url> <https://ideas.repec.org/a/inm/ororsc/v24y2013i5p1517-1538.html> .
+}
+
 <https://github.com/john1hsu/communication-graph/id/teach-back#graph> {
   <https://github.com/john1hsu/communication-graph/id/source/teach-back/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
   <https://github.com/john1hsu/communication-graph/id/source/teach-back/s1> <http://purl.org/dc/terms/publisher> "U.S. Agency for Healthcare Research and Quality (AHRQ)" .
@@ -4393,6 +4519,7 @@
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/paraphrasing> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/defensiveness> .
+  <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/humble-inquiry> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/rapport> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/i-statements> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/rapport> .
@@ -4411,6 +4538,7 @@
   <https://github.com/john1hsu/communication-graph/id/active-voice> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/william-strunk-jr> .
   <https://github.com/john1hsu/communication-graph/id/active-voice> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
   <https://github.com/john1hsu/communication-graph/id/active-voice> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/william-strunk-jr> .
+  <https://github.com/john1hsu/communication-graph/id/advice-giving> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/humble-inquiry> .
   <https://github.com/john1hsu/communication-graph/id/advice-giving> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> .
   <https://github.com/john1hsu/communication-graph/id/albert-mehrabian> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/albert-mehrabian> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
@@ -4629,6 +4757,7 @@
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/difficult-conversation> .
   <https://github.com/john1hsu/communication-graph/id/delphi-technique> <https://github.com/john1hsu/communication-graph/ontology#alternativeTo> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> .
   <https://github.com/john1hsu/communication-graph/id/dennis-kinney-1998> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/channel-selection> .
+  <https://github.com/john1hsu/communication-graph/id/detert-burris-2007> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/humble-inquiry> .
   <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-conflict> .
@@ -4661,6 +4790,9 @@
   <https://github.com/john1hsu/communication-graph/id/dutton-et-al-2001> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/managing-up> .
   <https://github.com/john1hsu/communication-graph/id/e-b-white> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/william-strunk-jr> .
   <https://github.com/john1hsu/communication-graph/id/ebrahimi-et-al-2019> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> .
+  <https://github.com/john1hsu/communication-graph/id/edgar-schein> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/edgar-schein> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+  <https://github.com/john1hsu/communication-graph/id/edgar-schein> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/humble-inquiry> .
   <https://github.com/john1hsu/communication-graph/id/edmondson-1999> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/edmondson-1999> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/edmondson-1999> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
@@ -4754,6 +4886,7 @@
   <https://github.com/john1hsu/communication-graph/id/first-offer> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers> .
   <https://github.com/john1hsu/communication-graph/id/first-offer> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers> .
   <https://github.com/john1hsu/communication-graph/id/first-offer> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/batna> .
+  <https://github.com/john1hsu/communication-graph/id/follow-up-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/humble-inquiry> .
   <https://github.com/john1hsu/communication-graph/id/follow-up-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/open-ended-questions> .
   <https://github.com/john1hsu/communication-graph/id/forward-czech-lee-2011> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/defensiveness> .
   <https://github.com/john1hsu/communication-graph/id/gabbert-et-al-2021> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/rapport> .
@@ -4792,7 +4925,19 @@
   <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/the-culture-map> .
   <https://github.com/john1hsu/communication-graph/id/hofstede-cultural-dimensions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> .
   <https://github.com/john1hsu/communication-graph/id/hofstede-cultural-dimensions> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/the-culture-map> .
+  <https://github.com/john1hsu/communication-graph/id/huang-et-al-2017> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/humble-inquiry> .
   <https://github.com/john1hsu/communication-graph/id/huang-et-al-2017> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/open-ended-questions> .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry-the-gentle-art-of-asking-instead-of-telling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry-the-gentle-art-of-asking-instead-of-telling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry-the-gentle-art-of-asking-instead-of-telling> <https://github.com/john1hsu/communication-graph/ontology#introduces> <https://github.com/john1hsu/communication-graph/id/humble-inquiry> .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/humble-inquiry> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/questioning> .
   <https://github.com/john1hsu/communication-graph/id/i-statements/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/i-statements/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/i-statements/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -4938,6 +5083,7 @@
   <https://github.com/john1hsu/communication-graph/id/managing-up> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/managing-up> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/managing-up> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
+  <https://github.com/john1hsu/communication-graph/id/managing-up> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/humble-inquiry> .
   <https://github.com/john1hsu/communication-graph/id/managing-up> <https://github.com/john1hsu/communication-graph/ontology#developedBy> <https://github.com/john1hsu/communication-graph/id/issue-selling> .
   <https://github.com/john1hsu/communication-graph/id/managing-your-boss> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/managing-your-boss> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
@@ -5017,6 +5163,7 @@
   <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/feedback> .
   <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/feedforward> .
   <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+  <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/humble-inquiry> .
   <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/managing-up> .
   <https://github.com/john1hsu/communication-graph/id/open-ended-questions/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/open-ended-questions/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -5035,6 +5182,7 @@
   <https://github.com/john1hsu/communication-graph/id/organizational-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/managing-up> .
   <https://github.com/john1hsu/communication-graph/id/organizational-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/message-equivocality-media-selection-and-manager-performance> .
   <https://github.com/john1hsu/communication-graph/id/orvell-et-al-2021> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/self-distancing> .
+  <https://github.com/john1hsu/communication-graph/id/owens-johnson-mitchell-2013> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/humble-inquiry> .
   <https://github.com/john1hsu/communication-graph/id/paolazzi-et-al-2019> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/active-voice> .
   <https://github.com/john1hsu/communication-graph/id/paradox-of-richness> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/message-equivocality-media-selection-and-manager-performance> .
   <https://github.com/john1hsu/communication-graph/id/paralanguage> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> .
@@ -5110,8 +5258,11 @@
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/rapport> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/spotlight-effect> .
+  <https://github.com/john1hsu/communication-graph/id/psychological-safety> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/humble-inquiry> .
   <https://github.com/john1hsu/communication-graph/id/pyramid-principle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
+  <https://github.com/john1hsu/communication-graph/id/questioning> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/humble-inquiry> .
   <https://github.com/john1hsu/communication-graph/id/questioning> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/open-ended-questions> .
+  <https://github.com/john1hsu/communication-graph/id/questioning> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/humble-inquiry> .
   <https://github.com/john1hsu/communication-graph/id/questioning> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/open-ended-questions> .
   <https://github.com/john1hsu/communication-graph/id/quick-screen-edit> <https://github.com/john1hsu/communication-graph/ontology#introducedIn> <https://github.com/john1hsu/communication-graph/id/effective-writing-for-army-leaders> .
   <https://github.com/john1hsu/communication-graph/id/rapport/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -5249,6 +5400,7 @@
   <https://github.com/john1hsu/communication-graph/id/team-climate> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
   <https://github.com/john1hsu/communication-graph/id/team-climate> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
   <https://github.com/john1hsu/communication-graph/id/team-learning-behavior> <https://github.com/john1hsu/communication-graph/ontology#causedBy> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
+  <https://github.com/john1hsu/communication-graph/id/telling-instead-of-asking> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/humble-inquiry> .
   <https://github.com/john1hsu/communication-graph/id/territoriality> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/proxemics> .
   <https://github.com/john1hsu/communication-graph/id/the-culture-map> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/the-culture-map> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/intercultural-communication> .

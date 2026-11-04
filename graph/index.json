@@ -1798,6 +1798,123 @@
   ]
  },
  {
+  "id": "cm:humble-inquiry",
+  "title": "Humble inquiry",
+  "aliases": [
+   "asking instead of telling",
+   "Schein's humble inquiry"
+  ],
+  "type": "Technique",
+  "domain": "questioning-and-conversation",
+  "level": "intermediate",
+  "evidenceStatus": "practitioner",
+  "file": "articles/questioning-and-conversation/humble-inquiry.md",
+  "created": "2026-11-04",
+  "summary": "Edgar Schein's practice of drawing another person out by asking questions you do not already know the answer to, out of real curiosity about them, instead of opening with your own diagnosis, advice or instructions - especially when you hold the higher status.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:questioning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:open-ended-questions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:active-listening"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:follow-up-questions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:advice-giving"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:managing-up"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:telling-instead-of-asking",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:edgar-schein",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedIn",
+    "object": "cm:humble-inquiry-the-gentle-art-of-asking-instead-of-telling",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:one-on-one-meetings",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:psychological-safety",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:huang-et-al-2017",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:detert-burris-2007",
+    "source": "s5",
+    "confidence": "low"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:owens-johnson-mitchell-2013",
+    "source": "s6",
+    "confidence": "low"
+   }
+  ],
+  "selfCheck": [
+   "Did I ask at least one question I did not already know the answer to?",
+   "Was my question a real question, or a suggestion or a test dressed up as one?",
+   "Who talked more in that conversation, and did I learn anything that changed my view?",
+   "Did I acknowledge what they said before telling them what I think?"
+  ],
+  "steps": [
+   "Before the conversation, write down what you are assuming about the situation and the person, and mark which parts you have not actually checked.",
+   "Open with a question you do not know the answer to (\"Walk me through how you approached this\") instead of your verdict or fix.",
+   "Stop after the question and let the other person talk; resist filling the first silence with your own view.",
+   "Ask one genuine follow-up that builds on what they just said, rather than steering back to your agenda.",
+   "Acknowledge what you heard in your own words before you add any opinion, request or decision.",
+   "Only then tell - share your view or ask for what you need - and invite them to correct or add to it."
+  ],
+  "example": {
+   "situation": "A team lead notices a direct report delivered a client analysis in an unexpected format, a day before the client review.",
+   "before": "This isn't the template we use. Please redo it in the standard deck format tonight so we're ready for tomorrow.",
+   "after": "You built this differently from our usual deck - I'd like to understand why. Can you walk me through what you were going for and what you know about this client that I might not?",
+   "why": "The first version assumes the lead already knows everything relevant and shuts the report down; the second surfaces their reasoning (perhaps the client asked for it), keeps them engaged, and still leaves time to agree a format together."
+  },
+  "source_urls": [
+   "https://mitpressbookstore.mit.edu/book/9781609949815",
+   "https://penguinrandomhouse.com/books/isbn/9781523092628",
+   "https://ideas.bkconnection.com/using-humble-inquiry-to-lead-a-managers-guide",
+   "https://core.ac.uk/download/154893096.pdf",
+   "https://www.scilit.net/publications/90709f08d2f79393da7d4209eedda5ae",
+   "https://ideas.repec.org/a/inm/ororsc/v24y2013i5p1517-1538.html"
+  ]
+ },
+ {
   "id": "cm:i-statements",
   "title": "I-statements",
   "aliases": [
@@ -2784,6 +2901,10 @@
    {
     "predicate": "skos:related",
     "object": "cm:psychological-safety"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:humble-inquiry"
    },
    {
     "predicate": "cmo:contrastsWith",
