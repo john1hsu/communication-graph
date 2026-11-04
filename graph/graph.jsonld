@@ -918,6 +918,76 @@
    ]
   },
   {
+   "@id": "cm:george-loewenstein",
+   "@type": "cmo:Person",
+   "cmo:authored": {
+    "@id": "cm:the-psychology-of-curiosity"
+   },
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "historical",
+   "cmo:file": "articles/thinkers-and-works/george-loewenstein.md",
+   "cmo:introduced": [
+    {
+     "@id": "cm:curse-of-knowledge"
+    },
+    {
+     "@id": "cm:information-gap-theory"
+    }
+   ],
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/george-loewenstein/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/george-loewenstein/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/george-loewenstein/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/george-loewenstein/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/george-loewenstein/s5"
+    }
+   ],
+   "rdfs:label": "George Loewenstein",
+   "skos:altLabel": [
+    "George F. Loewenstein",
+    "Loewenstein"
+   ],
+   "skos:definition": "Carnegie Mellon behavioural economist and psychologist who, with Colin Camerer and Martin Weber, put the \"curse of knowledge\" on the research map in 1989 and later proposed the information-gap theory of curiosity; both ideas explain why experts misjudge audiences and how to hold attention.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "George Loewenstein",
+   "skos:related": [
+    {
+     "@id": "cm:audience-analysis"
+    },
+    {
+     "@id": "cm:camerer-loewenstein-weber-1989"
+    },
+    {
+     "@id": "cm:curse-of-knowledge"
+    },
+    {
+     "@id": "cm:egocentric-bias"
+    },
+    {
+     "@id": "cm:empathy-gap"
+    },
+    {
+     "@id": "cm:illusion-of-transparency"
+    }
+   ]
+  },
+  {
    "@id": "cm:high-and-low-context-cultures",
    "@type": "cmo:Phenomenon",
    "cmo:challengedBy": [
@@ -4065,6 +4135,76 @@
    "dcterms:title": "Writing effective emails",
    "schema:url": {
     "@id": "https://cove.army.gov.au/article/writing-effective-emails"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/george-loewenstein/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Department of Social and Decision Sciences, Dietrich College, Carnegie Mellon University",
+   "dcterms:title": "George Loewenstein - faculty profile",
+   "schema:url": {
+    "@id": "https://www.cmu.edu/dietrich/sds/people/faculty/george-loewenstein.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/george-loewenstein/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Camerer, C., Loewenstein, G. & Weber, M., Journal of Political Economy 97(5), 1232-1254, 1989 (author's copy, Carnegie Mellon University)",
+   "dcterms:title": "The Curse of Knowledge in Economic Settings: An Experimental Analysis",
+   "schema:url": {
+    "@id": "https://www.cmu.edu/dietrich/sds/docs/loewenstein/CurseknowledgeEconSet.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/george-loewenstein/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Van Boven, L., Loewenstein, G., Dunning, D. & Nordgren, L. F., Advances in Experimental Social Psychology 48, 2013 (author's copy, Carnegie Mellon University)",
+   "dcterms:title": "Changing Places: A Dual Judgment Model of Empathy Gaps in Emotional Perspective Taking",
+   "schema:url": {
+    "@id": "https://www.cmu.edu/dietrich/sds/docs/loewenstein/ChangingPlaces.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/george-loewenstein/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Shin, D. D. & Kim, S., Educational Psychology Review 31, 853-874, 2019 (Springer)",
+   "dcterms:title": "Homo Curious: Curious or Interested?",
+   "schema:url": {
+    "@id": "https://link.springer.com/content/pdf/10.1007/s10648-019-09497-x.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/george-loewenstein/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Gruber, M. J. & Ranganath, C., Trends in Cognitive Sciences 23(12), 1014-1025, 2019 (PubMed Central)",
+   "dcterms:title": "How Curiosity Enhances Hippocampus-Dependent Memory: The Prediction, Appraisal, Curiosity, and Exploration (PACE) Framework",
+   "schema:url": {
+    "@id": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6891259"
    }
   },
   {

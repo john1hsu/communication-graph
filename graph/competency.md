@@ -87,7 +87,6 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 
 | node | type |
 |---|---|
-| `cm:curse-of-knowledge` | cmo:Barrier |
 | `cm:direct-vs-indirect-feedback` | cmo:Concept |
 | `cm:email` | cmo:Channel |
 | `cm:illusion-of-transparency` | cmo:Barrier |
