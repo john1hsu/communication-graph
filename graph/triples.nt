@@ -810,6 +810,89 @@
 <https://github.com/john1hsu/communication-graph/id/feedforward> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/active-listening> .
 <https://github.com/john1hsu/communication-graph/id/feedforward> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/budworth-latham-manroop-2015> .
 <https://github.com/john1hsu/communication-graph/id/feedforward> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/gnepp-et-al-2020> .
+<https://github.com/john1hsu/communication-graph/id/first-offer/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/first-offer/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Do I know the likely range of agreement better than, as well as, or worse than the other side?" .
+<https://github.com/john1hsu/communication-graph/id/first-offer/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/first-offer> .
+<https://github.com/john1hsu/communication-graph/id/first-offer/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/first-offer/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Is my opening based on my target and a reason I can say out loud, rather than on my walk-away point?" .
+<https://github.com/john1hsu/communication-graph/id/first-offer/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/first-offer> .
+<https://github.com/john1hsu/communication-graph/id/first-offer/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/first-offer/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Is it ambitious enough to leave room to move but not so extreme that it could offend or end the talks?" .
+<https://github.com/john1hsu/communication-graph/id/first-offer/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/first-offer> .
+<https://github.com/john1hsu/communication-graph/id/first-offer/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/first-offer/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Am I about to reveal a preference we probably share, which they could trade back to me as a concession?" .
+<https://github.com/john1hsu/communication-graph/id/first-offer/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/first-offer> .
+<https://github.com/john1hsu/communication-graph/id/first-offer/check/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/first-offer/check/5> <http://www.w3.org/2000/01/rdf-schema#label> "If they opened first, have I re-anchored on my own numbers before replying?" .
+<https://github.com/john1hsu/communication-graph/id/first-offer/check/5> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/first-offer> .
+<https://github.com/john1hsu/communication-graph/id/first-offer/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+<https://github.com/john1hsu/communication-graph/id/first-offer/example> <https://github.com/john1hsu/communication-graph/ontology#after> "Based on the three proposals we reviewed for similar scope, we'd like to propose $8,500 a month for six months, with the weekly dashboard and quarterly review included. That reflects the market and a six-month commitment from us. How does that sit with you?" .
+<https://github.com/john1hsu/communication-graph/id/first-offer/example> <https://github.com/john1hsu/communication-graph/ontology#before> "We don't have a fixed budget yet - what would you normally charge for something like this?" .
+<https://github.com/john1hsu/communication-graph/id/first-offer/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "A marketing team lead is buying a six-month analytics retainer from a small agency she has researched; similar retainers she found ranged from $8K to $11K a month." .
+<https://github.com/john1hsu/communication-graph/id/first-offer/example> <https://github.com/john1hsu/communication-graph/ontology#why> "She knows the market range at least as well as the agency, so moving first lets her set the reference point near the low end with a stated rationale, instead of inviting the agency to anchor at the top of the range." .
+<https://github.com/john1hsu/communication-graph/id/first-offer/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/first-offer/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/first-offer/howto/1> <https://schema.org/text> "Before the conversation, research the market and estimate the zone of possible agreement - your walk-away point, the other side's likely walk-away point, and what comparable deals settled at." .
+<https://github.com/john1hsu/communication-graph/id/first-offer/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/first-offer/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/first-offer/howto/2> <https://schema.org/text> "Decide whether to move first - do so when you know the range at least as well as the other side; if they clearly know more, ask questions and let them open." .
+<https://github.com/john1hsu/communication-graph/id/first-offer/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/first-offer/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/first-offer/howto/3> <https://schema.org/text> "Set the offer from your ambitious target, not from your walk-away point, and make sure it is one you can justify with a real reason." .
+<https://github.com/john1hsu/communication-graph/id/first-offer/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/first-offer/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/first-offer/howto/4> <https://schema.org/text> "Limit the opening to the issues where your interests conflict; hold back terms you suspect both sides want anyway until you have learned their preferences." .
+<https://github.com/john1hsu/communication-graph/id/first-offer/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/first-offer/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/first-offer/howto/5> <https://schema.org/text> "State the number precisely and confidently, give the reason in one or two sentences, then stop talking and listen." .
+<https://github.com/john1hsu/communication-graph/id/first-offer/howto/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/first-offer/howto/6> <https://schema.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/first-offer/howto/6> <https://schema.org/text> "If they open first, do not respond to their number straight away - restate your own target, their likely limits and your alternatives to yourself, then counter from your plan rather than from their anchor." .
+<https://github.com/john1hsu/communication-graph/id/first-offer/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+<https://github.com/john1hsu/communication-graph/id/first-offer/howto> <https://schema.org/name> "First offer" .
+<https://github.com/john1hsu/communication-graph/id/first-offer/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/first-offer/howto/1> .
+<https://github.com/john1hsu/communication-graph/id/first-offer/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/first-offer/howto/2> .
+<https://github.com/john1hsu/communication-graph/id/first-offer/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/first-offer/howto/3> .
+<https://github.com/john1hsu/communication-graph/id/first-offer/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/first-offer/howto/4> .
+<https://github.com/john1hsu/communication-graph/id/first-offer/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/first-offer/howto/5> .
+<https://github.com/john1hsu/communication-graph/id/first-offer/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/first-offer/howto/6> .
+<https://github.com/john1hsu/communication-graph/id/first-offer> <http://purl.org/dc/terms/created> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/first-offer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Technique> .
+<https://github.com/john1hsu/communication-graph/id/first-offer> <http://www.w3.org/2000/01/rdf-schema#label> "First offer" .
+<https://github.com/john1hsu/communication-graph/id/first-offer> <http://www.w3.org/2004/02/skos/core#altLabel> "anchoring in negotiation" .
+<https://github.com/john1hsu/communication-graph/id/first-offer> <http://www.w3.org/2004/02/skos/core#altLabel> "first-mover advantage" .
+<https://github.com/john1hsu/communication-graph/id/first-offer> <http://www.w3.org/2004/02/skos/core#altLabel> "first-offer effect" .
+<https://github.com/john1hsu/communication-graph/id/first-offer> <http://www.w3.org/2004/02/skos/core#altLabel> "making the first offer" .
+<https://github.com/john1hsu/communication-graph/id/first-offer> <http://www.w3.org/2004/02/skos/core#altLabel> "opening offer" .
+<https://github.com/john1hsu/communication-graph/id/first-offer> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/distributive-negotiation> .
+<https://github.com/john1hsu/communication-graph/id/first-offer> <http://www.w3.org/2004/02/skos/core#definition> "Deliberately naming the opening number or package in a negotiation so that it anchors the other side's expectations, and deciding - based on who knows more about the zone of possible agreement - whether to move first at all and how ambitious to be." .
+<https://github.com/john1hsu/communication-graph/id/first-offer> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/negotiation> .
+<https://github.com/john1hsu/communication-graph/id/first-offer> <http://www.w3.org/2004/02/skos/core#prefLabel> "First offer" .
+<https://github.com/john1hsu/communication-graph/id/first-offer> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/batna> .
+<https://github.com/john1hsu/communication-graph/id/first-offer> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers> .
+<https://github.com/john1hsu/communication-graph/id/first-offer> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/negotiation-preparation> .
+<https://github.com/john1hsu/communication-graph/id/first-offer> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/reservation-value> .
+<https://github.com/john1hsu/communication-graph/id/first-offer> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> .
+<https://github.com/john1hsu/communication-graph/id/first-offer> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/first-offer/s1> .
+<https://github.com/john1hsu/communication-graph/id/first-offer> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/first-offer/s2> .
+<https://github.com/john1hsu/communication-graph/id/first-offer> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/first-offer/s3> .
+<https://github.com/john1hsu/communication-graph/id/first-offer> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/first-offer/s4> .
+<https://github.com/john1hsu/communication-graph/id/first-offer> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/first-offer/s5> .
+<https://github.com/john1hsu/communication-graph/id/first-offer> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/first-offer/s6> .
+<https://github.com/john1hsu/communication-graph/id/first-offer> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/salary-negotiation> .
+<https://github.com/john1hsu/communication-graph/id/first-offer> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/loschelder-et-al-2014> .
+<https://github.com/john1hsu/communication-graph/id/first-offer> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/maaravi-levy-2017> .
+<https://github.com/john1hsu/communication-graph/id/first-offer> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/galinsky-mussweiler-2001> .
+<https://github.com/john1hsu/communication-graph/id/first-offer> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/gunia-et-al-2013> .
+<https://github.com/john1hsu/communication-graph/id/first-offer> <https://github.com/john1hsu/communication-graph/ontology#domain> "negotiation" .
+<https://github.com/john1hsu/communication-graph/id/first-offer> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "robust" .
+<https://github.com/john1hsu/communication-graph/id/first-offer> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/first-offer/example> .
+<https://github.com/john1hsu/communication-graph/id/first-offer> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> .
+<https://github.com/john1hsu/communication-graph/id/first-offer> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/negotiation/first-offer.md" .
+<https://github.com/john1hsu/communication-graph/id/first-offer> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/first-offer/howto> .
+<https://github.com/john1hsu/communication-graph/id/first-offer> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/communication-graph/id/first-offer> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/batna> .
+<https://github.com/john1hsu/communication-graph/id/first-offer> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/petrowsky-et-al-2025> .
 <https://github.com/john1hsu/communication-graph/id/george-loewenstein> <http://purl.org/dc/terms/created> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/george-loewenstein> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
 <https://github.com/john1hsu/communication-graph/id/george-loewenstein> <http://www.w3.org/2000/01/rdf-schema#label> "George Loewenstein" .
@@ -2346,6 +2429,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/feedforward/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/feedforward/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
 <https://github.com/john1hsu/communication-graph/id/source/feedforward/s5> <https://schema.org/url> <https://www-2.rotman.utoronto.ca/insightshub/talent-management-inclusion/feedforward-reviews> .
+<https://github.com/john1hsu/communication-graph/id/source/first-offer/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/first-offer/s1> <http://purl.org/dc/terms/publisher> "Galinsky and Mussweiler, Journal of Personality and Social Psychology 81(4), 657-669, 2001 (PubMed record)" .
+<https://github.com/john1hsu/communication-graph/id/source/first-offer/s1> <http://purl.org/dc/terms/title> "First offers as anchors: the role of perspective-taking and negotiator focus" .
+<https://github.com/john1hsu/communication-graph/id/source/first-offer/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/first-offer/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/first-offer/s1> <https://schema.org/url> <https://pubmed.ncbi.nlm.nih.gov/11642352> .
+<https://github.com/john1hsu/communication-graph/id/source/first-offer/s2> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/first-offer/s2> <http://purl.org/dc/terms/publisher> "Petrowsky, Loschelder, Galinsky, Gunia, Schaerer, Swaab and colleagues, Organizational Behavior and Human Decision Processes 191, 104448, 2025 (Leuphana University research portal)" .
+<https://github.com/john1hsu/communication-graph/id/source/first-offer/s2> <http://purl.org/dc/terms/title> "The power and peril of first offers in negotiations: A conceptual, meta-analytic, and experimental synthesis" .
+<https://github.com/john1hsu/communication-graph/id/source/first-offer/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/first-offer/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/first-offer/s2> <https://schema.org/url> <https://fis.leuphana.de/en/publications/the-power-and-peril-of-first-offers-in-negotiations-a-conceptual-/> .
+<https://github.com/john1hsu/communication-graph/id/source/first-offer/s3> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/first-offer/s3> <http://purl.org/dc/terms/publisher> "Loschelder and colleagues, Psychological Science 25(4), 954-962, 2014 (doi:10.1177/0956797613520168; PubMed record)" .
+<https://github.com/john1hsu/communication-graph/id/source/first-offer/s3> <http://purl.org/dc/terms/title> "The first-mover disadvantage: the folly of revealing compatible preferences" .
+<https://github.com/john1hsu/communication-graph/id/source/first-offer/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/first-offer/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/first-offer/s3> <https://schema.org/url> <https://pubmed.ncbi.nlm.nih.gov/24525264/> .
+<https://github.com/john1hsu/communication-graph/id/source/first-offer/s4> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/first-offer/s4> <http://purl.org/dc/terms/publisher> "Maaravi and Levy, Judgment and Decision Making 12(5), 420-429, 2017" .
+<https://github.com/john1hsu/communication-graph/id/source/first-offer/s4> <http://purl.org/dc/terms/title> "When your anchor sinks your boat: Information asymmetry in distributive negotiations and the disadvantage of making the first offer" .
+<https://github.com/john1hsu/communication-graph/id/source/first-offer/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/first-offer/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/first-offer/s4> <https://schema.org/url> <https://dlab.sauder.ubc.ca/sjdm/journal/17/17327a/jdm17327a.html> .
+<https://github.com/john1hsu/communication-graph/id/source/first-offer/s5> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/first-offer/s5> <http://purl.org/dc/terms/publisher> "Katie Shonk, Program on Negotiation at Harvard Law School, 2026" .
+<https://github.com/john1hsu/communication-graph/id/source/first-offer/s5> <http://purl.org/dc/terms/title> "Negotiation Advice: When to Make the First Offer in Negotiation" .
+<https://github.com/john1hsu/communication-graph/id/source/first-offer/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/first-offer/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/first-offer/s5> <https://schema.org/url> <https://www.pon.harvard.edu/daily/negotiation-skills-daily/when-to-make-the-first-offer-in-negotiation> .
+<https://github.com/john1hsu/communication-graph/id/source/first-offer/s6> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/first-offer/s6> <http://purl.org/dc/terms/publisher> "Gunia, Swaab, Sivanathan and Galinsky, Personality and Social Psychology Bulletin, 2013 (London Business School research record)" .
+<https://github.com/john1hsu/communication-graph/id/source/first-offer/s6> <http://purl.org/dc/terms/title> "The remarkable robustness of the first-offer effect: Across culture, power, and issues" .
+<https://github.com/john1hsu/communication-graph/id/source/first-offer/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/first-offer/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/first-offer/s6> <https://schema.org/url> <https://www.london.edu/faculty-and-research/academic-research/t/the-remarkable-robustness-of-the-first-offer-effect-across-culture-power-and-issues> .
 <https://github.com/john1hsu/communication-graph/id/source/george-loewenstein/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/george-loewenstein/s1> <http://purl.org/dc/terms/publisher> "Department of Social and Decision Sciences, Dietrich College, Carnegie Mellon University" .
 <https://github.com/john1hsu/communication-graph/id/source/george-loewenstein/s1> <http://purl.org/dc/terms/title> "George Loewenstein - faculty profile" .

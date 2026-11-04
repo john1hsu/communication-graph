@@ -1,11 +1,11 @@
 # Graph statistics
 
-- Articles (nodes written): **41**
-- Frontier nodes (referenced, unwritten): **225**
-- Asserted edges: **477** (typed + evidenced: **237**)
-- Asserted triples: **3580**; inferred by OWL-RL: **852**
-- Citations: **220**
-- Self-check questions: **118**; procedures: **19**; before/after rewrites: **19**
+- Articles (nodes written): **42**
+- Frontier nodes (referenced, unwritten): **230**
+- Asserted edges: **491** (typed + evidenced: **244**)
+- Asserted triples: **3699**; inferred by OWL-RL: **880**
+- Citations: **226**
+- Self-check questions: **123**; procedures: **20**; before/after rewrites: **20**
 - Weakly connected components: **1**
 - Communities (Louvain): **10**; max k-core: **4**
 
@@ -15,32 +15,32 @@ PageRank = authority; betweenness = bridges between areas.
 
 | Node | PageRank | Betweenness | Written |
 |---|---|---|---|
-| `cm:audience-analysis` | 0.0083 | 0.1442 | yes |
-| `cm:plain-language` | 0.0071 | 0.0980 | yes |
-| `cm:bottom-line-up-front` | 0.0069 | 0.1283 | yes |
-| `cm:curse-of-knowledge` | 0.0068 | 0.0788 | yes |
-| `cm:active-listening` | 0.0065 | 0.0765 | yes |
-| `cm:psychological-safety` | 0.0064 | 0.2262 | yes |
-| `cm:illusion-of-transparency` | 0.0059 | 0.1913 | yes |
-| `cm:email` | 0.0057 | 0.1034 | yes |
-| `cm:clarity` | 0.0056 | 0.0270 | no |
-| `cm:channel-selection` | 0.0056 | 0.1092 | yes |
-| `cm:open-ended-questions` | 0.0056 | 0.0649 | yes |
-| `cm:defensiveness` | 0.0054 | 0.0495 | yes |
-| `cm:difficult-conversation` | 0.0054 | 0.0745 | yes |
-| `cm:feedback` | 0.0053 | 0.0206 | no |
-| `cm:paraphrasing` | 0.0053 | 0.0985 | yes |
+| `cm:audience-analysis` | 0.0081 | 0.1383 | yes |
+| `cm:plain-language` | 0.0070 | 0.0957 | yes |
+| `cm:bottom-line-up-front` | 0.0067 | 0.1242 | yes |
+| `cm:curse-of-knowledge` | 0.0066 | 0.0794 | yes |
+| `cm:active-listening` | 0.0063 | 0.0740 | yes |
+| `cm:psychological-safety` | 0.0062 | 0.2249 | yes |
+| `cm:illusion-of-transparency` | 0.0058 | 0.2084 | yes |
+| `cm:email` | 0.0056 | 0.1048 | yes |
+| `cm:clarity` | 0.0055 | 0.0285 | no |
+| `cm:channel-selection` | 0.0055 | 0.1067 | yes |
+| `cm:open-ended-questions` | 0.0055 | 0.0630 | yes |
+| `cm:defensiveness` | 0.0053 | 0.0484 | yes |
+| `cm:difficult-conversation` | 0.0052 | 0.0728 | yes |
+| `cm:feedback` | 0.0052 | 0.0203 | no |
+| `cm:paraphrasing` | 0.0051 | 0.1000 | yes |
 
 ## Communities
 
-1. `cm:accusatory-you-statements`, `cm:active-listening`, `cm:advice-giving`, `cm:assertive-communication`, `cm:berg-et-al-2019`, `cm:budworth-latham-manroop-2015`, `cm:carl-rogers`, `cm:closed-questions`, `cm:communication-climate`, `cm:conflict-resolution`, `cm:crucial-conversations`, `cm:czech-forward-2013` …
-2. `cm:active-voice`, `cm:army-writing-program`, `cm:bottom-line-up-front`, `cm:burying-the-lede`, `cm:clarity`, `cm:clarity-index`, `cm:communicating-uncertainty`, `cm:concise-writing`, `cm:e-b-white`, `cm:effective-writing-for-army-leaders`, `cm:executive-briefing`, `cm:executive-summary` …
-3. `cm:allan-r-cohen`, `cm:aristotle`, `cm:aristotles-rhetoric`, `cm:audience`, `cm:audience-analysis`, `cm:audience-design`, `cm:communication-plan`, `cm:cross-functional-collaboration`, `cm:david-l-bradford`, `cm:dutton-et-al-1997`, `cm:dutton-et-al-2001`, `cm:ignoring-stakeholders` …
-4. `cm:alison-wood-brooks`, `cm:anchoring-and-adjustment`, `cm:anxiety-reappraisal`, `cm:beltzer-et-al-2014`, `cm:brooks-2014`, `cm:cognitive-reappraisal`, `cm:communication-apprehension`, `cm:ebrahimi-et-al-2019`, `cm:emotion-regulation`, `cm:gilovich-kruger-medvec-2002`, `cm:gilovich-medvec-savitsky-2000`, `cm:gilovich-savitsky-medvec-1998` …
+1. `cm:abstract-language`, `cm:alison-wood-brooks`, `cm:anxiety-reappraisal`, `cm:beltzer-et-al-2014`, `cm:brooks-2014`, `cm:camerer-loewenstein-weber-1989`, `cm:cognitive-reappraisal`, `cm:communication-apprehension`, `cm:curse-of-knowledge`, `cm:ebrahimi-et-al-2019`, `cm:egocentric-bias`, `cm:emotion-regulation` …
+2. `cm:active-voice`, `cm:army-writing-program`, `cm:bottom-line-up-front`, `cm:burying-the-lede`, `cm:clarity`, `cm:clarity-index`, `cm:communicating-uncertainty`, `cm:concise-writing`, `cm:e-b-white`, `cm:effective-writing-for-army-leaders`, `cm:executive-summary`, `cm:fear-and-loathing-of-the-english-passive` …
+3. `cm:allan-r-cohen`, `cm:aristotle`, `cm:aristotles-rhetoric`, `cm:audience`, `cm:audience-analysis`, `cm:audience-design`, `cm:communication-plan`, `cm:cross-functional-collaboration`, `cm:david-l-bradford`, `cm:dutton-et-al-1997`, `cm:dutton-et-al-2001`, `cm:executive-briefing` …
+4. `cm:accusatory-you-statements`, `cm:assertive-communication`, `cm:budworth-latham-manroop-2015`, `cm:communication-climate`, `cm:conflict-resolution`, `cm:crucial-conversations`, `cm:czech-forward-2013`, `cm:defensiveness`, `cm:delivering-bad-news`, `cm:difficult-conversation`, `cm:difficult-conversations-book`, `cm:feedback` …
 5. `cm:ask-in-person-study`, `cm:asynchronous-communication`, `cm:barley-meyerson-grodal-2011`, `cm:channel-selection`, `cm:communication-planning`, `cm:dennis-kinney-1998`, `cm:drolet-morris-2000`, `cm:egocentrism-over-email-study`, `cm:email`, `cm:email-urgency-bias-study`, `cm:face-to-face-conversation`, `cm:gabbert-et-al-2021` …
-6. `cm:amy-edmondson`, `cm:andre-delbecq`, `cm:andrew-van-de-ven`, `cm:brainstorming`, `cm:delphi-technique`, `cm:edmondson-1999`, `cm:facilitation`, `cm:group-cohesiveness`, `cm:group-decision-making`, `cm:nominal-group-technique`, `cm:pearsall-ellis-2011`, `cm:production-blocking` …
-7. `cm:abstract-language`, `cm:camerer-loewenstein-weber-1989`, `cm:checking-understanding`, `cm:curse-of-knowledge`, `cm:egocentric-bias`, `cm:empathy-gap`, `cm:george-loewenstein`, `cm:ha-dinh-et-al-2016`, `cm:information-gap-theory`, `cm:patient-education`, `cm:ryskin-brown-schmidt-2014`, `cm:schillinger-et-al-2003` …
-8. `cm:batna`, `cm:brett-pinkley-jackofsky-1996`, `cm:first-offer`, `cm:getting-to-yes`, `cm:integrative-negotiation`, `cm:leonardelli-et-al-2019`, `cm:multiple-equivalent-simultaneous-offers`, `cm:negotiation-preparation`, `cm:negotiator-dilemma`, `cm:principled-negotiation`, `cm:reservation-value`, `cm:roger-fisher` …
+6. `cm:active-listening`, `cm:advice-giving`, `cm:berg-et-al-2019`, `cm:carl-rogers`, `cm:checking-understanding`, `cm:closed-questions`, `cm:follow-up-questions`, `cm:ha-dinh-et-al-2016`, `cm:huang-et-al-2017`, `cm:kluger-et-al-2024`, `cm:listening`, `cm:minson-et-al-2018` …
+7. `cm:anchoring-and-adjustment`, `cm:batna`, `cm:brett-pinkley-jackofsky-1996`, `cm:distributive-negotiation`, `cm:first-offer`, `cm:galinsky-mussweiler-2001`, `cm:getting-to-yes`, `cm:gunia-et-al-2013`, `cm:integrative-negotiation`, `cm:leonardelli-et-al-2019`, `cm:loschelder-et-al-2014`, `cm:maaravi-levy-2017` …
+8. `cm:amy-edmondson`, `cm:andre-delbecq`, `cm:andrew-van-de-ven`, `cm:brainstorming`, `cm:delphi-technique`, `cm:edmondson-1999`, `cm:facilitation`, `cm:group-cohesiveness`, `cm:group-decision-making`, `cm:nominal-group-technique`, `cm:pearsall-ellis-2011`, `cm:production-blocking` …
 9. `cm:beyond-culture`, `cm:brew-cairns-2004`, `cm:cardon-2008`, `cm:direct-vs-indirect-feedback`, `cm:edward-t-hall`, `cm:erin-meyer`, `cm:face-and-facework`, `cm:high-and-low-context-cultures`, `cm:hofstede-cultural-dimensions`, `cm:intercultural-communication`, `cm:kittler-rygl-mackinnon-2011`, `cm:multicultural-team` …
 10. `cm:albert-mehrabian`, `cm:facial-expressions`, `cm:lapakko-2007`, `cm:mehrabian-myth`, `cm:mixed-messages`, `cm:nonverbal-communication`, `cm:paralanguage`, `cm:silent-messages`, `cm:zuckerman-et-al-1982`
 
@@ -55,7 +55,7 @@ PageRank = authority; betweenness = bridges between areas.
 - Principle: 1
 - Skill: 2
 - Study: 1
-- Technique: 19
+- Technique: 20
 - Work: 4
 
 ## By domain
@@ -69,7 +69,7 @@ PageRank = authority; betweenness = bridges between areas.
 - foundations: 2
 - listening: 3
 - meetings-and-facilitation: 2
-- negotiation: 2
+- negotiation: 3
 - nonverbal-and-voice: 1
 - persuasion-and-influence: 3
 - presenting-and-public-speaking: 2
@@ -79,7 +79,7 @@ PageRank = authority; betweenness = bridges between areas.
 
 ## By level
 
-- intermediate: 11
+- intermediate: 12
 - introductory: 30
 
 ## By evidence status
@@ -88,7 +88,7 @@ PageRank = authority; betweenness = bridges between areas.
 - historical: 5
 - mixed: 25
 - practitioner: 7
-- robust: 1
+- robust: 2
 
 ## Domain coverage (breadth runs pick the lowest)
 
@@ -100,10 +100,10 @@ PageRank = authority; betweenness = bridges between areas.
 - feedback-and-coaching: 2
 - foundations: 2
 - meetings-and-facilitation: 2
-- negotiation: 2
 - presenting-and-public-speaking: 2
 - difficult-conversations-and-conflict: 3
 - listening: 3
+- negotiation: 3
 - persuasion-and-influence: 3
 - writing: 3
 - barriers-and-psychology: 4

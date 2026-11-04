@@ -341,6 +341,30 @@ Ask yourself:
 - Is my opening ask set by my goal, or have I let a weak alternative drag it down?
 - Is everything I am about to say about my alternatives true?
 
+### [First offer](../articles/negotiation/first-offer.md) — Technique
+
+1. Before the conversation, research the market and estimate the zone of possible agreement - your walk-away point, the other side's likely walk-away point, and what comparable deals settled at.
+2. Decide whether to move first - do so when you know the range at least as well as the other side; if they clearly know more, ask questions and let them open.
+3. Set the offer from your ambitious target, not from your walk-away point, and make sure it is one you can justify with a real reason.
+4. Limit the opening to the issues where your interests conflict; hold back terms you suspect both sides want anyway until you have learned their preferences.
+5. State the number precisely and confidently, give the reason in one or two sentences, then stop talking and listen.
+6. If they open first, do not respond to their number straight away - restate your own target, their likely limits and your alternatives to yourself, then counter from your plan rather than from their anchor.
+
+*A marketing team lead is buying a six-month analytics retainer from a small agency she has researched; similar retainers she found ranged from $8K to $11K a month.*
+
+| Before | After |
+|---|---|
+| We don't have a fixed budget yet - what would you normally charge for something like this? | Based on the three proposals we reviewed for similar scope, we'd like to propose $8,500 a month for six months, with the weekly dashboard and quarterly review included. That reflects the market and a six-month commitment from us. How does that sit with you? |
+
+**Why:** She knows the market range at least as well as the agency, so moving first lets her set the reference point near the low end with a stated rationale, instead of inviting the agency to anchor at the top of the range.
+
+Ask yourself:
+- Do I know the likely range of agreement better than, as well as, or worse than the other side?
+- Is my opening based on my target and a reason I can say out loud, rather than on my walk-away point?
+- Is it ambitious enough to leave room to move but not so extreme that it could offend or end the talks?
+- Am I about to reveal a preference we probably share, which they could trade back to me as a concession?
+- If they opened first, have I re-anchored on my own numbers before replying?
+
 ### [Multiple equivalent simultaneous offers](../articles/negotiation/multiple-equivalent-simultaneous-offers.md) — Technique
 
 1. List every issue that is genuinely negotiable (price, scope, timing, payment terms, support, duration) and give each a weight that reflects how much it matters to you.

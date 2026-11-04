@@ -73,6 +73,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:plain-language-summary` | `cm:plain-language` |
 | `cm:presentation` | `cm:anxiety-reappraisal` |
 | `cm:presentation` | `cm:self-distancing` |
+| `cm:salary-negotiation` | `cm:first-offer` |
 | `cm:salary-negotiation` | `cm:multiple-equivalent-simultaneous-offers` |
 | `cm:stakeholder-consultation` | `cm:nominal-group-technique` |
 | `cm:status-reporting` | `cm:managing-up` |
@@ -121,6 +122,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | node | type |
 |---|---|
 | `cm:email` | cmo:Channel |
+| `cm:first-offer` | cmo:Technique |
 | `cm:illusion-of-transparency` | cmo:Barrier |
 | `cm:open-ended-questions` | cmo:Technique |
 | `cm:plain-language` | cmo:Principle |

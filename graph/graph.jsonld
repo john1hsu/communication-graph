@@ -1276,6 +1276,105 @@
    ]
   },
   {
+   "@id": "cm:first-offer",
+   "@type": "cmo:Technique",
+   "cmo:appliedIn": {
+    "@id": "cm:salary-negotiation"
+   },
+   "cmo:challengedBy": [
+    {
+     "@id": "cm:loschelder-et-al-2014"
+    },
+    {
+     "@id": "cm:maaravi-levy-2017"
+    }
+   ],
+   "cmo:demonstratedBy": [
+    {
+     "@id": "cm:galinsky-mussweiler-2001"
+    },
+    {
+     "@id": "cm:gunia-et-al-2013"
+    }
+   ],
+   "cmo:domain": "negotiation",
+   "cmo:evidenceStatus": "robust",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/first-offer/example"
+   },
+   "cmo:explainedBy": {
+    "@id": "cm:anchoring-and-adjustment"
+   },
+   "cmo:file": "articles/negotiation/first-offer.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/first-offer/howto"
+   },
+   "cmo:level": "intermediate",
+   "cmo:requires": {
+    "@id": "cm:batna"
+   },
+   "cmo:supportedBy": {
+    "@id": "cm:petrowsky-et-al-2025"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/first-offer/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/first-offer/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/first-offer/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/first-offer/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/first-offer/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/first-offer/s6"
+    }
+   ],
+   "rdfs:label": "First offer",
+   "skos:altLabel": [
+    "anchoring in negotiation",
+    "first-mover advantage",
+    "first-offer effect",
+    "making the first offer",
+    "opening offer"
+   ],
+   "skos:broader": {
+    "@id": "cm:distributive-negotiation"
+   },
+   "skos:definition": "Deliberately naming the opening number or package in a negotiation so that it anchors the other side's expectations, and deciding - based on who knows more about the zone of possible agreement - whether to move first at all and how ambitious to be.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/negotiation"
+   },
+   "skos:prefLabel": "First offer",
+   "skos:related": [
+    {
+     "@id": "cm:batna"
+    },
+    {
+     "@id": "cm:multiple-equivalent-simultaneous-offers"
+    },
+    {
+     "@id": "cm:negotiation-preparation"
+    },
+    {
+     "@id": "cm:reservation-value"
+    },
+    {
+     "@id": "cm:zone-of-possible-agreement"
+    }
+   ]
+  },
+  {
    "@id": "cm:george-loewenstein",
    "@type": "cmo:Person",
    "cmo:authored": {
@@ -4256,6 +4355,115 @@
    "schema:text": "Repeat with a few different people, then choose the suggestions you will actually try and tell those colleagues what you changed."
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/first-offer/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:first-offer"
+   },
+   "rdfs:label": "Do I know the likely range of agreement better than, as well as, or worse than the other side?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/first-offer/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:first-offer"
+   },
+   "rdfs:label": "Is my opening based on my target and a reason I can say out loud, rather than on my walk-away point?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/first-offer/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:first-offer"
+   },
+   "rdfs:label": "Is it ambitious enough to leave room to move but not so extreme that it could offend or end the talks?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/first-offer/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:first-offer"
+   },
+   "rdfs:label": "Am I about to reveal a preference we probably share, which they could trade back to me as a concession?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/first-offer/check/5",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:first-offer"
+   },
+   "rdfs:label": "If they opened first, have I re-anchored on my own numbers before replying?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/first-offer/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "Based on the three proposals we reviewed for similar scope, we'd like to propose $8,500 a month for six months, with the weekly dashboard and quarterly review included. That reflects the market and a six-month commitment from us. How does that sit with you?",
+   "cmo:before": "We don't have a fixed budget yet - what would you normally charge for something like this?",
+   "cmo:situation": "A marketing team lead is buying a six-month analytics retainer from a small agency she has researched; similar retainers she found ranged from $8K to $11K a month.",
+   "cmo:why": "She knows the market range at least as well as the agency, so moving first lets her set the reference point near the low end with a stated rationale, instead of inviting the agency to anchor at the top of the range."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/first-offer/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "First offer",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/first-offer/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/first-offer/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/first-offer/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/first-offer/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/first-offer/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/first-offer/howto/6"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/first-offer/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Before the conversation, research the market and estimate the zone of possible agreement - your walk-away point, the other side's likely walk-away point, and what comparable deals settled at."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/first-offer/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Decide whether to move first - do so when you know the range at least as well as the other side; if they clearly know more, ask questions and let them open."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/first-offer/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Set the offer from your ambitious target, not from your walk-away point, and make sure it is one you can justify with a real reason."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/first-offer/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Limit the opening to the issues where your interests conflict; hold back terms you suspect both sides want anyway until you have learned their preferences."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/first-offer/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "State the number precisely and confidently, give the reason in one or two sentences, then stop talking and listen."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/first-offer/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "If they open first, do not respond to their number straight away - restate your own target, their likely limits and your alternatives to yourself, then counter from your plan rather than from their anchor."
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/i-statements/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -6536,6 +6744,90 @@
    "dcterms:title": "Feedforward reviews",
    "schema:url": {
     "@id": "https://www-2.rotman.utoronto.ca/insightshub/talent-management-inclusion/feedforward-reviews"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/first-offer/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Galinsky and Mussweiler, Journal of Personality and Social Psychology 81(4), 657-669, 2001 (PubMed record)",
+   "dcterms:title": "First offers as anchors: the role of perspective-taking and negotiator focus",
+   "schema:url": {
+    "@id": "https://pubmed.ncbi.nlm.nih.gov/11642352"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/first-offer/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Petrowsky, Loschelder, Galinsky, Gunia, Schaerer, Swaab and colleagues, Organizational Behavior and Human Decision Processes 191, 104448, 2025 (Leuphana University research portal)",
+   "dcterms:title": "The power and peril of first offers in negotiations: A conceptual, meta-analytic, and experimental synthesis",
+   "schema:url": {
+    "@id": "https://fis.leuphana.de/en/publications/the-power-and-peril-of-first-offers-in-negotiations-a-conceptual-/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/first-offer/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Loschelder and colleagues, Psychological Science 25(4), 954-962, 2014 (doi:10.1177/0956797613520168; PubMed record)",
+   "dcterms:title": "The first-mover disadvantage: the folly of revealing compatible preferences",
+   "schema:url": {
+    "@id": "https://pubmed.ncbi.nlm.nih.gov/24525264/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/first-offer/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Maaravi and Levy, Judgment and Decision Making 12(5), 420-429, 2017",
+   "dcterms:title": "When your anchor sinks your boat: Information asymmetry in distributive negotiations and the disadvantage of making the first offer",
+   "schema:url": {
+    "@id": "https://dlab.sauder.ubc.ca/sjdm/journal/17/17327a/jdm17327a.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/first-offer/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Katie Shonk, Program on Negotiation at Harvard Law School, 2026",
+   "dcterms:title": "Negotiation Advice: When to Make the First Offer in Negotiation",
+   "schema:url": {
+    "@id": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/when-to-make-the-first-offer-in-negotiation"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/first-offer/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Gunia, Swaab, Sivanathan and Galinsky, Personality and Social Psychology Bulletin, 2013 (London Business School research record)",
+   "dcterms:title": "The remarkable robustness of the first-offer effect: Across culture, power, and issues",
+   "schema:url": {
+    "@id": "https://www.london.edu/faculty-and-research/academic-research/t/the-remarkable-robustness-of-the-first-offer-effect-across-culture-power-and-issues"
    }
   },
   {

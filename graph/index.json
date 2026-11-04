@@ -1440,6 +1440,125 @@
   ]
  },
  {
+  "id": "cm:first-offer",
+  "title": "First offer",
+  "aliases": [
+   "opening offer",
+   "making the first offer",
+   "first-offer effect",
+   "first-mover advantage",
+   "anchoring in negotiation"
+  ],
+  "type": "Technique",
+  "domain": "negotiation",
+  "level": "intermediate",
+  "evidenceStatus": "robust",
+  "file": "articles/negotiation/first-offer.md",
+  "created": "2026-11-04",
+  "summary": "Deliberately naming the opening number or package in a negotiation so that it anchors the other side's expectations, and deciding - based on who knows more about the zone of possible agreement - whether to move first at all and how ambitious to be.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:distributive-negotiation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:batna"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:zone-of-possible-agreement"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:reservation-value"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:multiple-equivalent-simultaneous-offers"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:negotiation-preparation"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:batna"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:anchoring-and-adjustment",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:galinsky-mussweiler-2001",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:gunia-et-al-2013",
+    "source": "s6",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:petrowsky-et-al-2025",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:loschelder-et-al-2014",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:maaravi-levy-2017",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:salary-negotiation",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Do I know the likely range of agreement better than, as well as, or worse than the other side?",
+   "Is my opening based on my target and a reason I can say out loud, rather than on my walk-away point?",
+   "Is it ambitious enough to leave room to move but not so extreme that it could offend or end the talks?",
+   "Am I about to reveal a preference we probably share, which they could trade back to me as a concession?",
+   "If they opened first, have I re-anchored on my own numbers before replying?"
+  ],
+  "steps": [
+   "Before the conversation, research the market and estimate the zone of possible agreement - your walk-away point, the other side's likely walk-away point, and what comparable deals settled at.",
+   "Decide whether to move first - do so when you know the range at least as well as the other side; if they clearly know more, ask questions and let them open.",
+   "Set the offer from your ambitious target, not from your walk-away point, and make sure it is one you can justify with a real reason.",
+   "Limit the opening to the issues where your interests conflict; hold back terms you suspect both sides want anyway until you have learned their preferences.",
+   "State the number precisely and confidently, give the reason in one or two sentences, then stop talking and listen.",
+   "If they open first, do not respond to their number straight away - restate your own target, their likely limits and your alternatives to yourself, then counter from your plan rather than from their anchor."
+  ],
+  "example": {
+   "situation": "A marketing team lead is buying a six-month analytics retainer from a small agency she has researched; similar retainers she found ranged from $8K to $11K a month.",
+   "before": "We don't have a fixed budget yet - what would you normally charge for something like this?",
+   "after": "Based on the three proposals we reviewed for similar scope, we'd like to propose $8,500 a month for six months, with the weekly dashboard and quarterly review included. That reflects the market and a six-month commitment from us. How does that sit with you?",
+   "why": "She knows the market range at least as well as the agency, so moving first lets her set the reference point near the low end with a stated rationale, instead of inviting the agency to anchor at the top of the range."
+  },
+  "source_urls": [
+   "https://pubmed.ncbi.nlm.nih.gov/11642352",
+   "https://fis.leuphana.de/en/publications/the-power-and-peril-of-first-offers-in-negotiations-a-conceptual-/",
+   "https://pubmed.ncbi.nlm.nih.gov/24525264/",
+   "https://dlab.sauder.ubc.ca/sjdm/journal/17/17327a/jdm17327a.html",
+   "https://www.pon.harvard.edu/daily/negotiation-skills-daily/when-to-make-the-first-offer-in-negotiation",
+   "https://www.london.edu/faculty-and-research/academic-research/t/the-remarkable-robustness-of-the-first-offer-effect-across-culture-power-and-issues"
+  ]
+ },
+ {
   "id": "cm:george-loewenstein",
   "title": "George Loewenstein",
   "aliases": [
