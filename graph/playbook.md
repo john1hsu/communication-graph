@@ -263,6 +263,29 @@ Ask yourself:
 
 ## presenting-and-public-speaking
 
+### [Anxiety reappraisal](../articles/presenting-and-public-speaking/anxiety-reappraisal.md) — Technique
+
+1. Expect your heart rate, breathing and alertness to rise before the talk, and stop treating that as proof that something is wrong.
+2. Remind yourself, in a sentence, what the arousal is for - it moves oxygen and attention to where you need them for the task.
+3. Just before you start, say "I am excited" (aloud or under your breath) instead of telling yourself to calm down.
+4. Turn the excitement toward the opportunity - name one thing that could go well, such as the decision you want the audience to make.
+5. Pair the reframe with preparation and rehearsal; it changes how the nerves feel, not whether you know your material.
+6. Afterwards, judge the talk by what the audience understood or decided, not by how anxious you felt.
+
+*A finance analyst is about to present a quarterly variance review to the leadership team for the first time and notices her hands shaking in the corridor.*
+
+| Before | After |
+|---|---|
+| Calm down, calm down. They'll see I'm nervous. Just get through the slides without messing up. | My heart's racing because this matters - that's energy I can use. I'm excited to show them why the logistics overspend is a one-off and get the forecast approved. |
+
+**Why:** The first version fights the arousal, which rarely works, and keeps attention on what could go wrong. The second accepts the arousal, labels it as excitement and points it at a concrete opportunity - the shift the reappraisal studies tested.
+
+Ask yourself:
+- Am I trying to force myself to feel calm, or accepting that being keyed up is normal before something that matters?
+- What is one thing that could go well in this talk, and have I pointed my energy at it?
+- Am I using the reframe as a substitute for preparing and rehearsing out loud?
+- After the talk, am I judging it by what the audience did, or by how nervous I felt?
+
 ### [Public speaking anxiety](../articles/presenting-and-public-speaking/speaking-anxiety.md) — Barrier
 
 Ask yourself:

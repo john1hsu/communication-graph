@@ -111,6 +111,84 @@
 <https://github.com/john1hsu/communication-graph/id/active-voice> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/active-voice> <https://github.com/john1hsu/communication-graph/ontology#partOf> <https://github.com/john1hsu/communication-graph/id/plain-language> .
 <https://github.com/john1hsu/communication-graph/id/active-voice> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/paolazzi-et-al-2019> .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Am I trying to force myself to feel calm, or accepting that being keyed up is normal before something that matters?" .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "What is one thing that could go well in this talk, and have I pointed my energy at it?" .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Am I using the reframe as a substitute for preparing and rehearsing out loud?" .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "After the talk, am I judging it by what the audience did, or by how nervous I felt?" .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal/example> <https://github.com/john1hsu/communication-graph/ontology#after> "My heart's racing because this matters - that's energy I can use. I'm excited to show them why the logistics overspend is a one-off and get the forecast approved." .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal/example> <https://github.com/john1hsu/communication-graph/ontology#before> "Calm down, calm down. They'll see I'm nervous. Just get through the slides without messing up." .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "A finance analyst is about to present a quarterly variance review to the leadership team for the first time and notices her hands shaking in the corridor." .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal/example> <https://github.com/john1hsu/communication-graph/ontology#why> "The first version fights the arousal, which rarely works, and keeps attention on what could go wrong. The second accepts the arousal, labels it as excitement and points it at a concrete opportunity - the shift the reappraisal studies tested." .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal/howto/1> <https://schema.org/text> "Expect your heart rate, breathing and alertness to rise before the talk, and stop treating that as proof that something is wrong." .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal/howto/2> <https://schema.org/text> "Remind yourself, in a sentence, what the arousal is for - it moves oxygen and attention to where you need them for the task." .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal/howto/3> <https://schema.org/text> "Just before you start, say \"I am excited\" (aloud or under your breath) instead of telling yourself to calm down." .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal/howto/4> <https://schema.org/text> "Turn the excitement toward the opportunity - name one thing that could go well, such as the decision you want the audience to make." .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal/howto/5> <https://schema.org/text> "Pair the reframe with preparation and rehearsal; it changes how the nerves feel, not whether you know your material." .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal/howto/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal/howto/6> <https://schema.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal/howto/6> <https://schema.org/text> "Afterwards, judge the talk by what the audience understood or decided, not by how anxious you felt." .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal/howto> <https://schema.org/name> "Anxiety reappraisal" .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal/howto/1> .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal/howto/2> .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal/howto/3> .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal/howto/4> .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal/howto/5> .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal/howto/6> .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <http://purl.org/dc/terms/created> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Technique> .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <http://www.w3.org/2000/01/rdf-schema#label> "Anxiety reappraisal" .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <http://www.w3.org/2004/02/skos/core#altLabel> "arousal reappraisal" .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <http://www.w3.org/2004/02/skos/core#altLabel> "excitement reappraisal" .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <http://www.w3.org/2004/02/skos/core#altLabel> "get-excited reframe" .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <http://www.w3.org/2004/02/skos/core#altLabel> "reappraising anxiety as excitement" .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <http://www.w3.org/2004/02/skos/core#definition> "Reinterpreting the racing heart and jitters before a talk, interview or other evaluated performance as useful energy or excitement - rather than trying to calm down - so that the arousal is treated as a resource for the task instead of a sign of threat." .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/presenting-and-public-speaking> .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <http://www.w3.org/2004/02/skos/core#prefLabel> "Anxiety reappraisal" .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/social-anxiety> .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/anxiety-reappraisal/s1> .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/anxiety-reappraisal/s2> .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/anxiety-reappraisal/s3> .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/anxiety-reappraisal/s4> .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/anxiety-reappraisal/s5> .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/presentation> .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/poynter-smith-pasqualini-2025> .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/brooks-2014> .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <https://github.com/john1hsu/communication-graph/ontology#domain> "presenting-and-public-speaking" .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "contested" .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal/example> .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/presenting-and-public-speaking/anxiety-reappraisal.md" .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal/howto> .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/alison-wood-brooks> .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/jeremy-jamieson> .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/beltzer-et-al-2014> .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/jamieson-et-al-2016> .
+<https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/jamieson-nock-mendes-2013> .
 <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> <http://purl.org/dc/terms/created> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
 <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> <http://www.w3.org/2000/01/rdf-schema#label> "Aristotle's Rhetoric" .
@@ -1308,6 +1386,36 @@
 <https://github.com/john1hsu/communication-graph/id/source/active-voice/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/active-voice/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/communication-graph/id/source/active-voice/s5> <https://schema.org/url> <https://www.psychologicalscience.org/journals/current-directions/1467-8721.00158/> .
+<https://github.com/john1hsu/communication-graph/id/source/anxiety-reappraisal/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/anxiety-reappraisal/s1> <http://purl.org/dc/terms/publisher> "Brooks, A. W., Journal of Experimental Psychology General 143(1), 2014, doi:10.1037/a0035325 (author's copy, Harvard Business School)" .
+<https://github.com/john1hsu/communication-graph/id/source/anxiety-reappraisal/s1> <http://purl.org/dc/terms/title> "Get Excited: Reappraising Pre-Performance Anxiety as Excitement" .
+<https://github.com/john1hsu/communication-graph/id/source/anxiety-reappraisal/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/anxiety-reappraisal/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/anxiety-reappraisal/s1> <https://schema.org/url> <https://www.hbs.edu/ris/Publication%20Files/xge-a0035325%20(2)_0287835d-9e25-4f92-9661-c5b54dbbcb39.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/anxiety-reappraisal/s2> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/anxiety-reappraisal/s2> <http://purl.org/dc/terms/publisher> "Jamieson, Nock & Mendes, Clinical Psychological Science, 2013 (eScholarship, University of California)" .
+<https://github.com/john1hsu/communication-graph/id/source/anxiety-reappraisal/s2> <http://purl.org/dc/terms/title> "Changing the Conceptualization of Stress in Social Anxiety Disorder: Affective and Physiological Consequences" .
+<https://github.com/john1hsu/communication-graph/id/source/anxiety-reappraisal/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/anxiety-reappraisal/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/anxiety-reappraisal/s2> <https://schema.org/url> <https://escholarship.org/content/qt9n46p04q/qt9n46p04q_noSplash_350ecfb9ba8515f86d07f5bb36a8f8d5.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/anxiety-reappraisal/s3> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/anxiety-reappraisal/s3> <http://purl.org/dc/terms/publisher> "Beltzer, Nock, Peters & Jamieson, Emotion 14(4), 761-768, 2014 (Nock Lab, Harvard University)" .
+<https://github.com/john1hsu/communication-graph/id/source/anxiety-reappraisal/s3> <http://purl.org/dc/terms/title> "Rethinking Butterflies: The Affective, Physiological, and Performance Effects of Reappraising Arousal During Social Evaluation" .
+<https://github.com/john1hsu/communication-graph/id/source/anxiety-reappraisal/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/anxiety-reappraisal/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/anxiety-reappraisal/s3> <https://schema.org/url> <https://nocklab.fas.harvard.edu/file_url/175> .
+<https://github.com/john1hsu/communication-graph/id/source/anxiety-reappraisal/s4> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/anxiety-reappraisal/s4> <http://purl.org/dc/terms/publisher> "Jamieson, Peters, Greenwood & Altose, Social Psychological and Personality Science, 2016, doi:10.1177/1948550616644656 (ERIC full text)" .
+<https://github.com/john1hsu/communication-graph/id/source/anxiety-reappraisal/s4> <http://purl.org/dc/terms/title> "Reappraising Stress Arousal Improves Performance and Reduces Evaluation Anxiety in Classroom Exam Situations" .
+<https://github.com/john1hsu/communication-graph/id/source/anxiety-reappraisal/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/anxiety-reappraisal/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/anxiety-reappraisal/s4> <https://schema.org/url> <https://files.eric.ed.gov/fulltext/ED566260.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/anxiety-reappraisal/s5> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/anxiety-reappraisal/s5> <http://purl.org/dc/terms/publisher> "Poynter & Smith Pasqualini, Psychology of Language and Communication 29(1), 254-265, 2025" .
+<https://github.com/john1hsu/communication-graph/id/source/anxiety-reappraisal/s5> <http://purl.org/dc/terms/title> "Getting Excited About Public Speaking: A Replication" .
+<https://github.com/john1hsu/communication-graph/id/source/anxiety-reappraisal/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/anxiety-reappraisal/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/anxiety-reappraisal/s5> <https://schema.org/url> <https://reference-global.com/article/10.58734/plc-2025-0011> .
 <https://github.com/john1hsu/communication-graph/id/source/aristotles-rhetoric/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/aristotles-rhetoric/s1> <http://purl.org/dc/terms/publisher> "Christof Rapp, Stanford Encyclopedia of Philosophy (first published 2002; substantive revision 15 March 2022)" .
 <https://github.com/john1hsu/communication-graph/id/source/aristotles-rhetoric/s1> <http://purl.org/dc/terms/title> "Aristotle's Rhetoric" .

@@ -199,6 +199,126 @@
   ]
  },
  {
+  "id": "cm:anxiety-reappraisal",
+  "title": "Anxiety reappraisal",
+  "aliases": [
+   "arousal reappraisal",
+   "reappraising anxiety as excitement",
+   "excitement reappraisal",
+   "get-excited reframe"
+  ],
+  "type": "Technique",
+  "domain": "presenting-and-public-speaking",
+  "level": "introductory",
+  "evidenceStatus": "contested",
+  "file": "articles/presenting-and-public-speaking/anxiety-reappraisal.md",
+  "created": "2026-11-04",
+  "summary": "Reinterpreting the racing heart and jitters before a talk, interview or other evaluated performance as useful energy or excitement - rather than trying to calm down - so that the arousal is treated as a resource for the task instead of a sign of threat.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:cognitive-reappraisal"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:speaking-anxiety"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:presentation-rehearsal"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:illusion-of-transparency"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:social-anxiety"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:speaking-anxiety",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:presentation",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:alison-wood-brooks",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:jeremy-jamieson",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:brooks-2014",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:jamieson-nock-mendes-2013",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:beltzer-et-al-2014",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:jamieson-et-al-2016",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:poynter-smith-pasqualini-2025",
+    "source": "s5",
+    "confidence": "high"
+   }
+  ],
+  "selfCheck": [
+   "Am I trying to force myself to feel calm, or accepting that being keyed up is normal before something that matters?",
+   "What is one thing that could go well in this talk, and have I pointed my energy at it?",
+   "Am I using the reframe as a substitute for preparing and rehearsing out loud?",
+   "After the talk, am I judging it by what the audience did, or by how nervous I felt?"
+  ],
+  "steps": [
+   "Expect your heart rate, breathing and alertness to rise before the talk, and stop treating that as proof that something is wrong.",
+   "Remind yourself, in a sentence, what the arousal is for - it moves oxygen and attention to where you need them for the task.",
+   "Just before you start, say \"I am excited\" (aloud or under your breath) instead of telling yourself to calm down.",
+   "Turn the excitement toward the opportunity - name one thing that could go well, such as the decision you want the audience to make.",
+   "Pair the reframe with preparation and rehearsal; it changes how the nerves feel, not whether you know your material.",
+   "Afterwards, judge the talk by what the audience understood or decided, not by how anxious you felt."
+  ],
+  "example": {
+   "situation": "A finance analyst is about to present a quarterly variance review to the leadership team for the first time and notices her hands shaking in the corridor.",
+   "before": "Calm down, calm down. They'll see I'm nervous. Just get through the slides without messing up.",
+   "after": "My heart's racing because this matters - that's energy I can use. I'm excited to show them why the logistics overspend is a one-off and get the forecast approved.",
+   "why": "The first version fights the arousal, which rarely works, and keeps attention on what could go wrong. The second accepts the arousal, labels it as excitement and points it at a concrete opportunity - the shift the reappraisal studies tested."
+  },
+  "source_urls": [
+   "https://www.hbs.edu/ris/Publication%20Files/xge-a0035325%20(2)_0287835d-9e25-4f92-9661-c5b54dbbcb39.pdf",
+   "https://escholarship.org/content/qt9n46p04q/qt9n46p04q_noSplash_350ecfb9ba8515f86d07f5bb36a8f8d5.pdf",
+   "https://nocklab.fas.harvard.edu/file_url/175",
+   "https://files.eric.ed.gov/fulltext/ED566260.pdf",
+   "https://reference-global.com/article/10.58734/plc-2025-0011"
+  ]
+ },
+ {
   "id": "cm:aristotles-rhetoric",
   "title": "Aristotle's Rhetoric",
   "aliases": [

@@ -19,10 +19,10 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 1.18 | `cm:paraphrasing` | `cm:psychological-safety` | `cm:active-listening`, `cm:difficult-conversation`, `cm:open-ended-questions` |
 | 1.15 | `cm:bottom-line-up-front` | `cm:message-equivocality-media-selection-and-manager-performance` | `cm:audience-analysis`, `cm:channel-selection`, `cm:email` |
 | 1.15 | `cm:curse-of-knowledge` | `cm:message-equivocality-media-selection-and-manager-performance` | `cm:audience-analysis`, `cm:channel-selection`, `cm:email` |
-| 1.15 | `cm:email` | `cm:george-loewenstein` | `cm:audience-analysis`, `cm:curse-of-knowledge`, `cm:illusion-of-transparency` |
-| 1.13 | `cm:email` | `cm:teach-back` | `cm:curse-of-knowledge`, `cm:illusion-of-transparency`, `cm:plain-language` |
-| 1.12 | `cm:email` | `cm:words-of-estimative-probability` | `cm:bottom-line-up-front`, `cm:illusion-of-transparency`, `cm:plain-language` |
+| 1.14 | `cm:email` | `cm:george-loewenstein` | `cm:audience-analysis`, `cm:curse-of-knowledge`, `cm:illusion-of-transparency` |
+| 1.12 | `cm:email` | `cm:teach-back` | `cm:curse-of-knowledge`, `cm:illusion-of-transparency`, `cm:plain-language` |
 | 1.11 | `cm:difficult-conversation` | `cm:direct-vs-indirect-feedback` | `cm:feedback`, `cm:i-statements` |
+| 1.11 | `cm:email` | `cm:words-of-estimative-probability` | `cm:bottom-line-up-front`, `cm:illusion-of-transparency`, `cm:plain-language` |
 | 1.01 | `cm:aristotles-rhetoric` | `cm:curse-of-knowledge` | `cm:audience-analysis`, `cm:clarity` |
 | 1.01 | `cm:aristotles-rhetoric` | `cm:plain-language` | `cm:audience-analysis`, `cm:clarity` |
 | 0.99 | `cm:active-voice` | `cm:curse-of-knowledge` | `cm:clarity`, `cm:plain-language` |

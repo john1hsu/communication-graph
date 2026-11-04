@@ -6,9 +6,7 @@ SPARQL queries in `queries/` run over the asserted graph, the OWL-RL inferences 
 
 _Which written barriers or anti-patterns have nothing in the graph that addresses them?_ — `queries/01-problems-without-fix.rq`
 
-| node | type |
-|---|---|
-| `cm:speaking-anxiety` | cmo:Barrier |
+_No results._
 
 ## Skills with no practice technique (gap)
 
@@ -32,6 +30,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:plain-language` | 2 | Curse of knowledge, jargon |
 | `cm:active-listening` | 1 | defensiveness |
 | `cm:active-voice` | 1 | unclear-ownership |
+| `cm:anxiety-reappraisal` | 1 | Public speaking anxiety |
 | `cm:audience-analysis` | 1 | Curse of knowledge |
 | `cm:bottom-line-up-front` | 1 | burying-the-lede |
 | `cm:paraphrasing` | 1 | Active listening |
@@ -59,6 +58,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:patient-education` | `cm:teach-back` |
 | `cm:performance-review` | `cm:situation-behavior-impact` |
 | `cm:plain-language-summary` | `cm:plain-language` |
+| `cm:presentation` | `cm:anxiety-reappraisal` |
 
 ## Myths and contested advice
 
@@ -66,6 +66,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 
 | node | status | challenger |
 |---|---|---|
+| `cm:anxiety-reappraisal` | contested | `cm:poynter-smith-pasqualini-2025` |
 | `cm:high-and-low-context-cultures` | contested | `cm:cardon-2008` |
 | `cm:high-and-low-context-cultures` | contested | `cm:kittler-rygl-mackinnon-2011` |
 | `cm:mehrabian-myth` | contested | `cm:lapakko-2007` |
