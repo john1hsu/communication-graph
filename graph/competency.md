@@ -57,8 +57,10 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:email` | `cm:audience-analysis` |
 | `cm:email` | `cm:bottom-line-up-front` |
 | `cm:email` | `cm:channel-selection` |
+| `cm:email` | `cm:rapport` |
 | `cm:executive-briefing` | `cm:issue-selling` |
 | `cm:executive-briefing` | `cm:words-of-estimative-probability` |
+| `cm:face-to-face-conversation` | `cm:rapport` |
 | `cm:memorandum` | `cm:bottom-line-up-front` |
 | `cm:multicultural-team` | `cm:direct-vs-indirect-feedback` |
 | `cm:multicultural-team` | `cm:the-culture-map` |
@@ -99,6 +101,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:paraphrasing` | mixed | `cm:weger-castle-emmett-2010` |
 | `cm:plain-language` | mixed |  |
 | `cm:psychological-safety` | mixed | `cm:pearsall-ellis-2011` |
+| `cm:rapport` | mixed |  |
 | `cm:spotlight-effect` | mixed |  |
 | `cm:teach-back` | mixed |  |
 | `cm:words-of-estimative-probability` | mixed |  |
@@ -113,6 +116,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:illusion-of-transparency` | cmo:Barrier |
 | `cm:open-ended-questions` | cmo:Technique |
 | `cm:plain-language` | cmo:Principle |
+| `cm:rapport` | cmo:Concept |
 | `cm:speaking-anxiety` | cmo:Barrier |
 | `cm:spotlight-effect` | cmo:Barrier |
 | `cm:stakeholder-mapping` | cmo:Technique |

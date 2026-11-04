@@ -1478,6 +1478,55 @@
 <https://github.com/john1hsu/communication-graph/id/psychological-safety> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/amy-edmondson> .
 <https://github.com/john1hsu/communication-graph/id/psychological-safety> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/psychological-safety> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/project-aristotle> .
+<https://github.com/john1hsu/communication-graph/id/rapport/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/rapport/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Did I give this person my full attention, or was part of me on my screen or my next point?" .
+<https://github.com/john1hsu/communication-graph/id/rapport/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/rapport> .
+<https://github.com/john1hsu/communication-graph/id/rapport/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/rapport/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Did I learn one thing about them as a person before we got into the business?" .
+<https://github.com/john1hsu/communication-graph/id/rapport/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/rapport> .
+<https://github.com/john1hsu/communication-graph/id/rapport/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/rapport/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Before a hard negotiation or tense thread, have we ever spoken live, even for five minutes?" .
+<https://github.com/john1hsu/communication-graph/id/rapport/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/rapport> .
+<https://github.com/john1hsu/communication-graph/id/rapport/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/rapport/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Did the setting and their cues invite small talk, or did they signal they wanted to get straight to work?" .
+<https://github.com/john1hsu/communication-graph/id/rapport/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/rapport> .
+<https://github.com/john1hsu/communication-graph/id/rapport/check/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/rapport/check/5> <http://www.w3.org/2000/01/rdf-schema#label> "Am I trying to connect, or performing techniques such as copying their posture?" .
+<https://github.com/john1hsu/communication-graph/id/rapport/check/5> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/rapport> .
+<https://github.com/john1hsu/communication-graph/id/rapport> <http://purl.org/dc/terms/created> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/rapport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+<https://github.com/john1hsu/communication-graph/id/rapport> <http://www.w3.org/2000/01/rdf-schema#label> "Rapport" .
+<https://github.com/john1hsu/communication-graph/id/rapport> <http://www.w3.org/2004/02/skos/core#altLabel> "being in sync" .
+<https://github.com/john1hsu/communication-graph/id/rapport> <http://www.w3.org/2004/02/skos/core#altLabel> "building rapport" .
+<https://github.com/john1hsu/communication-graph/id/rapport> <http://www.w3.org/2004/02/skos/core#altLabel> "interpersonal rapport" .
+<https://github.com/john1hsu/communication-graph/id/rapport> <http://www.w3.org/2004/02/skos/core#altLabel> "rapport building" .
+<https://github.com/john1hsu/communication-graph/id/rapport> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
+<https://github.com/john1hsu/communication-graph/id/rapport> <http://www.w3.org/2004/02/skos/core#definition> "A shared, momentary quality of an interaction in which both people are attentive to each other, feel mutual warmth and move in coordination; it belongs to the pair rather than to either person, and it makes disclosure and cooperation easier." .
+<https://github.com/john1hsu/communication-graph/id/rapport> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/foundations> .
+<https://github.com/john1hsu/communication-graph/id/rapport> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rapport" .
+<https://github.com/john1hsu/communication-graph/id/rapport> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+<https://github.com/john1hsu/communication-graph/id/rapport> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/channel-selection> .
+<https://github.com/john1hsu/communication-graph/id/rapport> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> .
+<https://github.com/john1hsu/communication-graph/id/rapport> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
+<https://github.com/john1hsu/communication-graph/id/rapport> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/self-disclosure> .
+<https://github.com/john1hsu/communication-graph/id/rapport> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/small-talk> .
+<https://github.com/john1hsu/communication-graph/id/rapport> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/rapport/s1> .
+<https://github.com/john1hsu/communication-graph/id/rapport> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/rapport/s2> .
+<https://github.com/john1hsu/communication-graph/id/rapport> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/rapport/s3> .
+<https://github.com/john1hsu/communication-graph/id/rapport> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/rapport/s4> .
+<https://github.com/john1hsu/communication-graph/id/rapport> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/rapport/s5> .
+<https://github.com/john1hsu/communication-graph/id/rapport> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/rapport/s6> .
+<https://github.com/john1hsu/communication-graph/id/rapport> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/email> .
+<https://github.com/john1hsu/communication-graph/id/rapport> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/face-to-face-conversation> .
+<https://github.com/john1hsu/communication-graph/id/rapport> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+<https://github.com/john1hsu/communication-graph/id/rapport> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/drolet-morris-2000> .
+<https://github.com/john1hsu/communication-graph/id/rapport> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/moore-et-al-1999> .
+<https://github.com/john1hsu/communication-graph/id/rapport> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/morris-et-al-2000> .
+<https://github.com/john1hsu/communication-graph/id/rapport> <https://github.com/john1hsu/communication-graph/ontology#domain> "foundations" .
+<https://github.com/john1hsu/communication-graph/id/rapport> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/rapport> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/foundations/rapport.md" .
+<https://github.com/john1hsu/communication-graph/id/rapport> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/rapport> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/gabbert-et-al-2021> .
 <https://github.com/john1hsu/communication-graph/id/scheme/barriers-and-psychology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <https://github.com/john1hsu/communication-graph/id/scheme/barriers-and-psychology> <http://www.w3.org/2004/02/skos/core#prefLabel> "Barriers and the psychology of communication" .
 <https://github.com/john1hsu/communication-graph/id/scheme/cross-cultural-communication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
@@ -2500,6 +2549,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/psychological-safety/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/psychological-safety/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
 <https://github.com/john1hsu/communication-graph/id/source/psychological-safety/s6> <https://schema.org/url> <https://www.bps.org.uk/research-digest/psychologically-safe-teams-can-incubate-bad-behaviour-0> .
+<https://github.com/john1hsu/communication-graph/id/source/rapport/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/rapport/s1> <http://purl.org/dc/terms/publisher> "Tickle-Degnen & Rosenthal, Psychological Inquiry 1(4), 285-293 (1990) (copy hosted by the National Children's Advocacy Center)" .
+<https://github.com/john1hsu/communication-graph/id/source/rapport/s1> <http://purl.org/dc/terms/title> "The Nature of Rapport and Its Nonverbal Correlates" .
+<https://github.com/john1hsu/communication-graph/id/source/rapport/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/rapport/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/rapport/s1> <https://schema.org/url> <https://www.nationalcac.org/wp-content/uploads/2016/10/The-nature-of-rapport-and-its-nonverbal-correlates.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/rapport/s2> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/rapport/s2> <http://purl.org/dc/terms/publisher> "Drolet & Morris, Journal of Experimental Social Psychology 36, 26-50 (2000) (copy hosted at UCLA Anderson)" .
+<https://github.com/john1hsu/communication-graph/id/source/rapport/s2> <http://purl.org/dc/terms/title> "Rapport in Conflict Resolution: Accounting for How Face-to-Face Contact Fosters Mutual Cooperation in Mixed-Motive Conflicts" .
+<https://github.com/john1hsu/communication-graph/id/source/rapport/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/rapport/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/rapport/s2> <https://schema.org/url> <https://www.anderson.ucla.edu/faculty/keith.chen/negot.%2520papers/DroletMorris_RaportBarg00.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/rapport/s3> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/rapport/s3> <http://purl.org/dc/terms/publisher> "Moore, Kurtzberg, Thompson & Morris, Organizational Behavior and Human Decision Processes, issue 1, 22-43 (1999) (Kellogg School of Management research record)" .
+<https://github.com/john1hsu/communication-graph/id/source/rapport/s3> <http://purl.org/dc/terms/title> "Long and Short Routes to Success in Electronically Mediated Negotiations: Group Affiliations and Good Vibrations" .
+<https://github.com/john1hsu/communication-graph/id/source/rapport/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/rapport/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/rapport/s3> <https://schema.org/url> <https://www.kellogg.northwestern.edu/faculty/research/detail/1999/long-and-short-routes-to-success-in-electronically-mediated> .
+<https://github.com/john1hsu/communication-graph/id/source/rapport/s4> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/rapport/s4> <http://purl.org/dc/terms/publisher> "Morris, Nadler, Kurtzberg & Thompson, Stanford Graduate School of Business Working Paper No. 1639 (2000)" .
+<https://github.com/john1hsu/communication-graph/id/source/rapport/s4> <http://purl.org/dc/terms/title> "Schmooze or Lose: Social Friction and Lubrication in E-mail Negotiations" .
+<https://github.com/john1hsu/communication-graph/id/source/rapport/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/rapport/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/rapport/s4> <https://schema.org/url> <https://www.gsb.stanford.edu/faculty-research/working-papers/schmooze-or-lose-social-friction-lubrication-e-mail-negotiations> .
+<https://github.com/john1hsu/communication-graph/id/source/rapport/s5> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/rapport/s5> <http://purl.org/dc/terms/publisher> "Gabbert, Hope, Luther, Wright, Ng & Oxburgh, Applied Cognitive Psychology 35(2), 329-341 (2021) (Goldsmiths, University of London repository record)" .
+<https://github.com/john1hsu/communication-graph/id/source/rapport/s5> <http://purl.org/dc/terms/title> "Exploring the Use of Rapport in Professional Information-Gathering Contexts by Systematically Mapping the Evidence Base" .
+<https://github.com/john1hsu/communication-graph/id/source/rapport/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/rapport/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/rapport/s5> <https://schema.org/url> <https://research.gold.ac.uk/id/eprint/29570> .
+<https://github.com/john1hsu/communication-graph/id/source/rapport/s6> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/rapport/s6> <http://purl.org/dc/terms/publisher> "Program on Negotiation at Harvard Law School, adapted from Guhan Subramanian, Negotiation newsletter" .
+<https://github.com/john1hsu/communication-graph/id/source/rapport/s6> <http://purl.org/dc/terms/title> "Does Small Talk in Negotiation Offer Big Gains?" .
+<https://github.com/john1hsu/communication-graph/id/source/rapport/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/rapport/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/rapport/s6> <https://schema.org/url> <https://www.pon.harvard.edu/daily/business-negotiations/small-talk-big-gains/> .
 <https://github.com/john1hsu/communication-graph/id/source/situation-behavior-impact/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/situation-behavior-impact/s1> <http://purl.org/dc/terms/publisher> "Center for Creative Leadership, 2025" .
 <https://github.com/john1hsu/communication-graph/id/source/situation-behavior-impact/s1> <http://purl.org/dc/terms/title> "Use Situation-Behavior-Impact (SBI) To Understand Intent" .

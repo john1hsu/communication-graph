@@ -2365,6 +2365,98 @@
    ]
   },
   {
+   "@id": "cm:rapport",
+   "@type": "cmo:Concept",
+   "cmo:appliedIn": [
+    {
+     "@id": "cm:email"
+    },
+    {
+     "@id": "cm:face-to-face-conversation"
+    }
+   ],
+   "cmo:complements": {
+    "@id": "cm:active-listening"
+   },
+   "cmo:demonstratedBy": [
+    {
+     "@id": "cm:drolet-morris-2000"
+    },
+    {
+     "@id": "cm:moore-et-al-1999"
+    },
+    {
+     "@id": "cm:morris-et-al-2000"
+    }
+   ],
+   "cmo:domain": "foundations",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:file": "articles/foundations/rapport.md",
+   "cmo:level": "introductory",
+   "cmo:supportedBy": {
+    "@id": "cm:gabbert-et-al-2021"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/rapport/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/rapport/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/rapport/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/rapport/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/rapport/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/rapport/s6"
+    }
+   ],
+   "rdfs:label": "Rapport",
+   "skos:altLabel": [
+    "being in sync",
+    "building rapport",
+    "interpersonal rapport",
+    "rapport building"
+   ],
+   "skos:broader": {
+    "@id": "cm:interpersonal-communication"
+   },
+   "skos:definition": "A shared, momentary quality of an interaction in which both people are attentive to each other, feel mutual warmth and move in coordination; it belongs to the pair rather than to either person, and it makes disclosure and cooperation easier.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/foundations"
+   },
+   "skos:prefLabel": "Rapport",
+   "skos:related": [
+    {
+     "@id": "cm:active-listening"
+    },
+    {
+     "@id": "cm:channel-selection"
+    },
+    {
+     "@id": "cm:nonverbal-communication"
+    },
+    {
+     "@id": "cm:psychological-safety"
+    },
+    {
+     "@id": "cm:self-disclosure"
+    },
+    {
+     "@id": "cm:small-talk"
+    }
+   ]
+  },
+  {
    "@id": "cm:situation-behavior-impact",
    "@type": "cmo:Technique",
    "cmo:addresses": {
@@ -4453,6 +4545,46 @@
     "@id": "cm:plain-language"
    },
    "rdfs:label": "Could a reader say in their own words what I want them to do next?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/rapport/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:rapport"
+   },
+   "rdfs:label": "Did I give this person my full attention, or was part of me on my screen or my next point?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/rapport/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:rapport"
+   },
+   "rdfs:label": "Did I learn one thing about them as a person before we got into the business?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/rapport/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:rapport"
+   },
+   "rdfs:label": "Before a hard negotiation or tense thread, have we ever spoken live, even for five minutes?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/rapport/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:rapport"
+   },
+   "rdfs:label": "Did the setting and their cues invite small talk, or did they signal they wanted to get straight to work?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/rapport/check/5",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:rapport"
+   },
+   "rdfs:label": "Am I trying to connect, or performing techniques such as copying their posture?"
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/barriers-and-psychology",
@@ -6761,6 +6893,90 @@
    "dcterms:title": "Psychologically safe teams can incubate bad behaviour",
    "schema:url": {
     "@id": "https://www.bps.org.uk/research-digest/psychologically-safe-teams-can-incubate-bad-behaviour-0"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/rapport/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Tickle-Degnen & Rosenthal, Psychological Inquiry 1(4), 285-293 (1990) (copy hosted by the National Children's Advocacy Center)",
+   "dcterms:title": "The Nature of Rapport and Its Nonverbal Correlates",
+   "schema:url": {
+    "@id": "https://www.nationalcac.org/wp-content/uploads/2016/10/The-nature-of-rapport-and-its-nonverbal-correlates.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/rapport/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Drolet & Morris, Journal of Experimental Social Psychology 36, 26-50 (2000) (copy hosted at UCLA Anderson)",
+   "dcterms:title": "Rapport in Conflict Resolution: Accounting for How Face-to-Face Contact Fosters Mutual Cooperation in Mixed-Motive Conflicts",
+   "schema:url": {
+    "@id": "https://www.anderson.ucla.edu/faculty/keith.chen/negot.%2520papers/DroletMorris_RaportBarg00.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/rapport/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Moore, Kurtzberg, Thompson & Morris, Organizational Behavior and Human Decision Processes, issue 1, 22-43 (1999) (Kellogg School of Management research record)",
+   "dcterms:title": "Long and Short Routes to Success in Electronically Mediated Negotiations: Group Affiliations and Good Vibrations",
+   "schema:url": {
+    "@id": "https://www.kellogg.northwestern.edu/faculty/research/detail/1999/long-and-short-routes-to-success-in-electronically-mediated"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/rapport/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Morris, Nadler, Kurtzberg & Thompson, Stanford Graduate School of Business Working Paper No. 1639 (2000)",
+   "dcterms:title": "Schmooze or Lose: Social Friction and Lubrication in E-mail Negotiations",
+   "schema:url": {
+    "@id": "https://www.gsb.stanford.edu/faculty-research/working-papers/schmooze-or-lose-social-friction-lubrication-e-mail-negotiations"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/rapport/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Gabbert, Hope, Luther, Wright, Ng & Oxburgh, Applied Cognitive Psychology 35(2), 329-341 (2021) (Goldsmiths, University of London repository record)",
+   "dcterms:title": "Exploring the Use of Rapport in Professional Information-Gathering Contexts by Systematically Mapping the Evidence Base",
+   "schema:url": {
+    "@id": "https://research.gold.ac.uk/id/eprint/29570"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/rapport/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Program on Negotiation at Harvard Law School, adapted from Guhan Subramanian, Negotiation newsletter",
+   "dcterms:title": "Does Small Talk in Negotiation Offer Big Gains?",
+   "schema:url": {
+    "@id": "https://www.pon.harvard.edu/daily/business-negotiations/small-talk-big-gains/"
    }
   },
   {

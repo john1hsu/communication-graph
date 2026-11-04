@@ -4,63 +4,65 @@ Nodes that existing articles point to but nobody has written yet. Score = referr
 
 | Node | Score | Expected type | Referenced by |
 |---|---|---|---|
-| `cm:feedback` | 6.34 | - | `cm:defensiveness`, `cm:difficult-conversation`, `cm:direct-vs-indirect-feedback`, `cm:feedforward`, `cm:psychological-safety`, `cm:situation-behavior-impact` |
-| `cm:clarity` | 5.82 | - | `cm:active-voice`, `cm:aristotles-rhetoric`, `cm:curse-of-knowledge`, `cm:illusion-of-transparency`, `cm:plain-language` |
-| `cm:egocentric-bias` | 4.22 | - | `cm:curse-of-knowledge`, `cm:george-loewenstein`, `cm:illusion-of-transparency`, `cm:spotlight-effect` |
+| `cm:feedback` | 6.33 | - | `cm:defensiveness`, `cm:difficult-conversation`, `cm:direct-vs-indirect-feedback`, `cm:feedforward`, `cm:psychological-safety`, `cm:situation-behavior-impact` |
+| `cm:clarity` | 5.81 | - | `cm:active-voice`, `cm:aristotles-rhetoric`, `cm:curse-of-knowledge`, `cm:illusion-of-transparency`, `cm:plain-language` |
+| `cm:egocentric-bias` | 4.21 | - | `cm:curse-of-knowledge`, `cm:george-loewenstein`, `cm:illusion-of-transparency`, `cm:spotlight-effect` |
 | `cm:nonviolent-communication` | 3.67 | - | `cm:difficult-conversation`, `cm:i-statements`, `cm:situation-behavior-impact` |
-| `cm:one-on-one-meetings` | 3.65 | - | `cm:active-listening`, `cm:feedforward`, `cm:managing-up` |
+| `cm:one-on-one-meetings` | 3.64 | - | `cm:active-listening`, `cm:feedforward`, `cm:managing-up` |
 | `cm:media-richness-theory` | 3.63 | - | `cm:channel-selection`, `cm:message-equivocality-media-selection-and-manager-performance` |
-| `cm:concise-writing` | 3.63 | - | `cm:active-voice`, `cm:william-strunk-jr` |
-| `cm:intercultural-communication` | 3.15 | - | `cm:direct-vs-indirect-feedback`, `cm:high-and-low-context-cultures`, `cm:the-culture-map` |
+| `cm:concise-writing` | 3.62 | - | `cm:active-voice`, `cm:william-strunk-jr` |
+| `cm:intercultural-communication` | 3.14 | - | `cm:direct-vs-indirect-feedback`, `cm:high-and-low-context-cultures`, `cm:the-culture-map` |
 | `cm:anchoring-and-adjustment` | 3.14 | - | `cm:batna`, `cm:illusion-of-transparency`, `cm:spotlight-effect` |
 | `cm:persuasion` | 3.14 | - | `cm:influence-without-authority`, `cm:issue-selling`, `cm:stakeholder-mapping` |
-| `cm:multicultural-team` | 3.14 | - | `cm:direct-vs-indirect-feedback`, `cm:the-culture-map` |
+| `cm:multicultural-team` | 3.13 | - | `cm:direct-vs-indirect-feedback`, `cm:the-culture-map` |
 | `cm:social-anxiety` | 3.13 | - | `cm:anxiety-reappraisal`, `cm:speaking-anxiety`, `cm:spotlight-effect` |
-| `cm:readability-formulas` | 2.62 | - | `cm:effective-writing-for-army-leaders`, `cm:plain-language` |
 | `cm:asynchronous-communication` | 2.62 | - | `cm:channel-selection`, `cm:email` |
-| `cm:executive-summary` | 2.62 | - | `cm:bottom-line-up-front`, `cm:words-of-estimative-probability` |
+| `cm:readability-formulas` | 2.62 | - | `cm:effective-writing-for-army-leaders`, `cm:plain-language` |
+| `cm:executive-summary` | 2.61 | - | `cm:bottom-line-up-front`, `cm:words-of-estimative-probability` |
 | `cm:feedback-sandwich` | 2.61 | - | `cm:direct-vs-indirect-feedback`, `cm:situation-behavior-impact` |
 | `cm:edward-t-hall` | 2.59 | Person | `cm:high-and-low-context-cultures`, `cm:the-culture-map` |
 | `cm:hofstede-cultural-dimensions` | 2.59 | - | `cm:high-and-low-context-cultures`, `cm:the-culture-map` |
 | `cm:executive-briefing` | 2.58 | - | `cm:issue-selling`, `cm:words-of-estimative-probability` |
 | `cm:principled-negotiation` | 2.58 | - | `cm:batna`, `cm:influence-without-authority` |
-| `cm:audience` | 2.14 | - | `cm:aristotles-rhetoric`, `cm:audience-analysis` |
+| `cm:nonverbal-communication` | 2.57 | - | `cm:mehrabian-myth`, `cm:rapport` |
+| `cm:audience` | 2.13 | - | `cm:aristotles-rhetoric`, `cm:audience-analysis` |
 | `cm:memorandum` | 2.12 | - | `cm:bottom-line-up-front`, `cm:effective-writing-for-army-leaders` |
-| `cm:accusatory-you-statements` | 2.12 | - | `cm:defensiveness`, `cm:i-statements` |
 | `cm:carl-rogers` | 2.12 | Person | `cm:active-listening`, `cm:paraphrasing` |
 | `cm:weger-et-al-2014` | 2.12 | - | `cm:active-listening`, `cm:paraphrasing` |
+| `cm:accusatory-you-statements` | 2.11 | - | `cm:defensiveness`, `cm:i-statements` |
 | `cm:camerer-loewenstein-weber-1989` | 2.11 | Study | `cm:curse-of-knowledge`, `cm:george-loewenstein` |
 | `cm:macinnis-mackinnon-macintyre-2010` | 2.11 | - | `cm:illusion-of-transparency`, `cm:speaking-anxiety` |
+| `cm:face-to-face-conversation` | 2.10 | - | `cm:email`, `cm:rapport` |
 | `cm:media-synchronicity-theory` | 2.10 | - | `cm:channel-selection`, `cm:message-equivocality-media-selection-and-manager-performance` |
-| `cm:power-distance` | 2.10 | - | `cm:direct-vs-indirect-feedback`, `cm:the-culture-map` |
-| `cm:performance-review` | 2.10 | - | `cm:feedforward`, `cm:situation-behavior-impact` |
+| `cm:performance-review` | 2.09 | - | `cm:feedforward`, `cm:situation-behavior-impact` |
+| `cm:power-distance` | 2.09 | - | `cm:direct-vs-indirect-feedback`, `cm:the-culture-map` |
 | `cm:communication-apprehension` | 2.09 | - | `cm:speaking-anxiety` |
 | `cm:rhetoric` | 2.09 | Field | `cm:aristotles-rhetoric` |
-| `cm:lee-et-al-2017` | 2.09 | - | `cm:influence-without-authority`, `cm:managing-up` |
-| `cm:presentation-rehearsal` | 2.09 | - | `cm:anxiety-reappraisal`, `cm:speaking-anxiety` |
+| `cm:lee-et-al-2017` | 2.08 | - | `cm:influence-without-authority`, `cm:managing-up` |
+| `cm:presentation-rehearsal` | 2.08 | - | `cm:anxiety-reappraisal`, `cm:speaking-anxiety` |
 | `cm:dutton-et-al-2001` | 2.08 | Study | `cm:issue-selling`, `cm:managing-up` |
 | `cm:writing-style-guide` | 2.08 | - | `cm:effective-writing-for-army-leaders`, `cm:william-strunk-jr` |
 | `cm:organizational-communication` | 2.08 | - | `cm:managing-up`, `cm:message-equivocality-media-selection-and-manager-performance` |
 | `cm:first-offer` | 2.07 | - | `cm:batna` |
 | `cm:burying-the-lede` | 1.58 | - | `cm:bottom-line-up-front` |
 | `cm:pyramid-principle` | 1.58 | - | `cm:bottom-line-up-front` |
-| `cm:tappers-and-listeners-study` | 1.58 | - | `cm:curse-of-knowledge` |
+| `cm:tappers-and-listeners-study` | 1.57 | - | `cm:curse-of-knowledge` |
 | `cm:project-aristotle` | 1.57 | - | `cm:psychological-safety` |
 | `cm:reflective-listening` | 1.56 | - | `cm:active-listening` |
 | `cm:information-overload` | 1.56 | - | `cm:email` |
 | `cm:crucial-conversations` | 1.56 | - | `cm:difficult-conversation` |
 | `cm:delivering-bad-news` | 1.56 | - | `cm:difficult-conversation` |
-| `cm:face-and-facework` | 1.56 | - | `cm:direct-vs-indirect-feedback` |
+| `cm:face-and-facework` | 1.55 | - | `cm:direct-vs-indirect-feedback` |
 | `cm:follow-up-questions` | 1.55 | - | `cm:open-ended-questions` |
 | `cm:reciprocity` | 1.54 | - | `cm:influence-without-authority` |
 | `cm:rhetorical-appeals` | 1.54 | - | `cm:aristotles-rhetoric` |
 | `cm:status-reporting` | 1.54 | - | `cm:managing-up` |
 | `cm:communicating-uncertainty` | 1.54 | - | `cm:words-of-estimative-probability` |
 | `cm:erin-meyer` | 1.54 | Person | `cm:the-culture-map` |
-| `cm:facial-expressions` | 1.54 | - | `cm:mehrabian-myth` |
-| `cm:getting-to-yes` | 1.54 | Work | `cm:batna` |
-| `cm:nonverbal-communication` | 1.54 | - | `cm:mehrabian-myth` |
-| `cm:paralanguage` | 1.54 | - | `cm:mehrabian-myth` |
+| `cm:facial-expressions` | 1.53 | - | `cm:mehrabian-myth` |
+| `cm:getting-to-yes` | 1.53 | Work | `cm:batna` |
+| `cm:paralanguage` | 1.53 | - | `cm:mehrabian-myth` |
+| `cm:small-talk` | 1.53 | - | `cm:rapport` |
 | `cm:audience-design` | 1.09 | - | `cm:audience-analysis` |
 | `cm:jargon` | 1.08 | - | `cm:plain-language` |
 | `cm:paraphrase-testing` | 1.08 | - | `cm:plain-language` |
@@ -69,9 +71,9 @@ Nodes that existing articles point to but nobody has written yet. Score = referr
 | `cm:indirect-approach` | 1.08 | - | `cm:bottom-line-up-front` |
 | `cm:kieras-1979-initial-mention` | 1.08 | - | `cm:bottom-line-up-front` |
 | `cm:message-structure` | 1.08 | - | `cm:bottom-line-up-front` |
-| `cm:abstract-language` | 1.08 | - | `cm:curse-of-knowledge` |
-| `cm:ryskin-brown-schmidt-2014` | 1.08 | - | `cm:curse-of-knowledge` |
-| `cm:theory-of-mind` | 1.08 | - | `cm:curse-of-knowledge` |
+| `cm:abstract-language` | 1.07 | - | `cm:curse-of-knowledge` |
+| `cm:ryskin-brown-schmidt-2014` | 1.07 | - | `cm:curse-of-knowledge` |
+| `cm:theory-of-mind` | 1.07 | - | `cm:curse-of-knowledge` |
 | `cm:amy-edmondson` | 1.07 | Person | `cm:psychological-safety` |
 | `cm:edmondson-1999` | 1.07 | Study | `cm:psychological-safety` |
 | `cm:group-cohesiveness` | 1.07 | - | `cm:psychological-safety` |
@@ -80,14 +82,13 @@ Nodes that existing articles point to but nobody has written yet. Score = referr
 | `cm:team-learning-behavior` | 1.07 | - | `cm:psychological-safety` |
 | `cm:kluger-et-al-2024` | 1.06 | - | `cm:active-listening` |
 | `cm:listening` | 1.06 | - | `cm:active-listening` |
-| `cm:gilovich-savitsky-medvec-1998` | 1.06 | Study | `cm:illusion-of-transparency` |
-| `cm:keysar-henly-2002` | 1.06 | Study | `cm:illusion-of-transparency` |
 | `cm:barley-meyerson-grodal-2011` | 1.06 | Study | `cm:email` |
 | `cm:email-urgency-bias-study` | 1.06 | Study | `cm:email` |
-| `cm:face-to-face-conversation` | 1.06 | - | `cm:email` |
 | `cm:kushlev-dunn-2015` | 1.06 | Study | `cm:email` |
 | `cm:mark-et-al-2016` | 1.06 | Study | `cm:email` |
 | `cm:written-communication` | 1.06 | - | `cm:email` |
+| `cm:gilovich-savitsky-medvec-1998` | 1.06 | Study | `cm:illusion-of-transparency` |
+| `cm:keysar-henly-2002` | 1.06 | Study | `cm:illusion-of-transparency` |
 | `cm:ask-in-person-study` | 1.06 | - | `cm:channel-selection` |
 | `cm:communication-planning` | 1.06 | - | `cm:channel-selection` |
 | `cm:dennis-kinney-1998` | 1.06 | - | `cm:channel-selection` |
@@ -109,16 +110,16 @@ Nodes that existing articles point to but nobody has written yet. Score = referr
 | `cm:rogers-et-al-2018` | 1.06 | - | `cm:i-statements` |
 | `cm:simmons-gordon-chambless-2005` | 1.06 | - | `cm:i-statements` |
 | `cm:thomas-gordon` | 1.06 | Person | `cm:i-statements` |
-| `cm:brew-cairns-2004` | 1.06 | - | `cm:direct-vs-indirect-feedback` |
-| `cm:sanchez-burks-et-al-2003` | 1.06 | - | `cm:direct-vs-indirect-feedback` |
-| `cm:feedback-that-works` | 1.06 | Work | `cm:situation-behavior-impact` |
-| `cm:kluger-denisi-1996` | 1.06 | - | `cm:situation-behavior-impact` |
-| `cm:wisniewski-zierer-hattie-2020` | 1.06 | - | `cm:situation-behavior-impact` |
-| `cm:fear-and-loathing-of-the-english-passive` | 1.06 | - | `cm:active-voice` |
-| `cm:good-enough-processing` | 1.06 | - | `cm:active-voice` |
-| `cm:paolazzi-et-al-2019` | 1.06 | - | `cm:active-voice` |
-| `cm:passive-voice` | 1.06 | - | `cm:active-voice` |
-| `cm:unclear-ownership` | 1.06 | - | `cm:active-voice` |
+| `cm:feedback-that-works` | 1.05 | Work | `cm:situation-behavior-impact` |
+| `cm:kluger-denisi-1996` | 1.05 | - | `cm:situation-behavior-impact` |
+| `cm:wisniewski-zierer-hattie-2020` | 1.05 | - | `cm:situation-behavior-impact` |
+| `cm:brew-cairns-2004` | 1.05 | - | `cm:direct-vs-indirect-feedback` |
+| `cm:sanchez-burks-et-al-2003` | 1.05 | - | `cm:direct-vs-indirect-feedback` |
+| `cm:fear-and-loathing-of-the-english-passive` | 1.05 | - | `cm:active-voice` |
+| `cm:good-enough-processing` | 1.05 | - | `cm:active-voice` |
+| `cm:paolazzi-et-al-2019` | 1.05 | - | `cm:active-voice` |
+| `cm:passive-voice` | 1.05 | - | `cm:active-voice` |
+| `cm:unclear-ownership` | 1.05 | - | `cm:active-voice` |
 | `cm:berg-et-al-2019` | 1.05 | - | `cm:open-ended-questions` |
 | `cm:closed-questions` | 1.05 | - | `cm:open-ended-questions` |
 | `cm:huang-et-al-2017` | 1.05 | - | `cm:open-ended-questions` |
@@ -134,8 +135,8 @@ Nodes that existing articles point to but nobody has written yet. Score = referr
 | `cm:beyond-culture` | 1.05 | Work | `cm:high-and-low-context-cultures` |
 | `cm:cardon-2008` | 1.05 | - | `cm:high-and-low-context-cultures` |
 | `cm:kittler-rygl-mackinnon-2011` | 1.05 | - | `cm:high-and-low-context-cultures` |
-| `cm:ebrahimi-et-al-2019` | 1.05 | - | `cm:speaking-anxiety` |
-| `cm:savitsky-gilovich-2003` | 1.05 | Study | `cm:speaking-anxiety` |
+| `cm:ebrahimi-et-al-2019` | 1.04 | - | `cm:speaking-anxiety` |
+| `cm:savitsky-gilovich-2003` | 1.04 | Study | `cm:speaking-anxiety` |
 | `cm:allan-r-cohen` | 1.04 | Person | `cm:influence-without-authority` |
 | `cm:cross-functional-collaboration` | 1.04 | - | `cm:influence-without-authority` |
 | `cm:david-l-bradford` | 1.04 | Person | `cm:influence-without-authority` |
@@ -167,11 +168,11 @@ Nodes that existing articles point to but nobody has written yet. Score = referr
 | `cm:sherman-kent` | 1.04 | Person | `cm:words-of-estimative-probability` |
 | `cm:vague-probability-language` | 1.04 | - | `cm:words-of-estimative-probability` |
 | `cm:wintle-et-al-2019` | 1.04 | Study | `cm:words-of-estimative-probability` |
-| `cm:taras-steel-kirkman-2016` | 1.04 | - | `cm:the-culture-map` |
 | `cm:budworth-latham-manroop-2015` | 1.04 | - | `cm:feedforward` |
 | `cm:feedforward-interview` | 1.04 | - | `cm:feedforward` |
 | `cm:gnepp-et-al-2020` | 1.04 | - | `cm:feedforward` |
 | `cm:marshall-goldsmith` | 1.04 | Person | `cm:feedforward` |
+| `cm:taras-steel-kirkman-2016` | 1.04 | - | `cm:the-culture-map` |
 | `cm:alison-wood-brooks` | 1.04 | Person | `cm:anxiety-reappraisal` |
 | `cm:beltzer-et-al-2014` | 1.04 | - | `cm:anxiety-reappraisal` |
 | `cm:brooks-2014` | 1.04 | Study | `cm:anxiety-reappraisal` |
@@ -181,25 +182,31 @@ Nodes that existing articles point to but nobody has written yet. Score = referr
 | `cm:jeremy-jamieson` | 1.04 | Person | `cm:anxiety-reappraisal` |
 | `cm:poynter-smith-pasqualini-2025` | 1.04 | - | `cm:anxiety-reappraisal` |
 | `cm:presentation` | 1.04 | - | `cm:anxiety-reappraisal` |
-| `cm:albert-mehrabian` | 1.04 | Person | `cm:mehrabian-myth` |
-| `cm:brett-pinkley-jackofsky-1996` | 1.04 | Study | `cm:batna` |
-| `cm:e-b-white` | 1.04 | - | `cm:william-strunk-jr` |
-| `cm:empathy-gap` | 1.04 | - | `cm:george-loewenstein` |
-| `cm:fifty-years-of-stupid-grammar-advice` | 1.04 | - | `cm:william-strunk-jr` |
-| `cm:information-gap-theory` | 1.04 | - | `cm:george-loewenstein` |
-| `cm:lapakko-2007` | 1.04 | - | `cm:mehrabian-myth` |
-| `cm:linda-klebe-trevino` | 1.04 | Person | `cm:message-equivocality-media-selection-and-manager-performance` |
-| `cm:media-sensitivity` | 1.04 | - | `cm:message-equivocality-media-selection-and-manager-performance` |
-| `cm:mixed-messages` | 1.04 | - | `cm:mehrabian-myth` |
-| `cm:negotiation-preparation` | 1.04 | - | `cm:batna` |
-| `cm:paradox-of-richness` | 1.04 | - | `cm:message-equivocality-media-selection-and-manager-performance` |
-| `cm:reservation-value` | 1.04 | - | `cm:batna` |
-| `cm:richard-l-daft` | 1.04 | Person | `cm:message-equivocality-media-selection-and-manager-performance` |
-| `cm:robert-h-lengel` | 1.04 | Person | `cm:message-equivocality-media-selection-and-manager-performance` |
-| `cm:roger-fisher` | 1.04 | Person | `cm:batna` |
-| `cm:schaerer-swaab-galinsky-2015` | 1.04 | - | `cm:batna` |
-| `cm:silent-messages` | 1.04 | Work | `cm:mehrabian-myth` |
-| `cm:the-elements-of-style` | 1.04 | Work | `cm:william-strunk-jr` |
-| `cm:the-psychology-of-curiosity` | 1.04 | Work | `cm:george-loewenstein` |
-| `cm:zone-of-possible-agreement` | 1.04 | - | `cm:batna` |
-| `cm:zuckerman-et-al-1982` | 1.04 | - | `cm:mehrabian-myth` |
+| `cm:albert-mehrabian` | 1.03 | Person | `cm:mehrabian-myth` |
+| `cm:brett-pinkley-jackofsky-1996` | 1.03 | Study | `cm:batna` |
+| `cm:drolet-morris-2000` | 1.03 | Study | `cm:rapport` |
+| `cm:e-b-white` | 1.03 | - | `cm:william-strunk-jr` |
+| `cm:empathy-gap` | 1.03 | - | `cm:george-loewenstein` |
+| `cm:fifty-years-of-stupid-grammar-advice` | 1.03 | - | `cm:william-strunk-jr` |
+| `cm:gabbert-et-al-2021` | 1.03 | - | `cm:rapport` |
+| `cm:information-gap-theory` | 1.03 | - | `cm:george-loewenstein` |
+| `cm:interpersonal-communication` | 1.03 | - | `cm:rapport` |
+| `cm:lapakko-2007` | 1.03 | - | `cm:mehrabian-myth` |
+| `cm:linda-klebe-trevino` | 1.03 | Person | `cm:message-equivocality-media-selection-and-manager-performance` |
+| `cm:media-sensitivity` | 1.03 | - | `cm:message-equivocality-media-selection-and-manager-performance` |
+| `cm:mixed-messages` | 1.03 | - | `cm:mehrabian-myth` |
+| `cm:moore-et-al-1999` | 1.03 | Study | `cm:rapport` |
+| `cm:morris-et-al-2000` | 1.03 | Study | `cm:rapport` |
+| `cm:negotiation-preparation` | 1.03 | - | `cm:batna` |
+| `cm:paradox-of-richness` | 1.03 | - | `cm:message-equivocality-media-selection-and-manager-performance` |
+| `cm:reservation-value` | 1.03 | - | `cm:batna` |
+| `cm:richard-l-daft` | 1.03 | Person | `cm:message-equivocality-media-selection-and-manager-performance` |
+| `cm:robert-h-lengel` | 1.03 | Person | `cm:message-equivocality-media-selection-and-manager-performance` |
+| `cm:roger-fisher` | 1.03 | Person | `cm:batna` |
+| `cm:schaerer-swaab-galinsky-2015` | 1.03 | - | `cm:batna` |
+| `cm:self-disclosure` | 1.03 | - | `cm:rapport` |
+| `cm:silent-messages` | 1.03 | Work | `cm:mehrabian-myth` |
+| `cm:the-elements-of-style` | 1.03 | Work | `cm:william-strunk-jr` |
+| `cm:the-psychology-of-curiosity` | 1.03 | Work | `cm:george-loewenstein` |
+| `cm:zone-of-possible-agreement` | 1.03 | - | `cm:batna` |
+| `cm:zuckerman-et-al-1982` | 1.03 | - | `cm:mehrabian-myth` |

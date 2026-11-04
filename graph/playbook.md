@@ -202,6 +202,15 @@ Ask yourself:
 - What is in this for them, and do they see it in the first few lines?
 - Have I checked my picture of the audience against something they actually said or did, or am I only guessing?
 
+### [Rapport](../articles/foundations/rapport.md) — Concept
+
+Ask yourself:
+- Did I give this person my full attention, or was part of me on my screen or my next point?
+- Did I learn one thing about them as a person before we got into the business?
+- Before a hard negotiation or tense thread, have we ever spoken live, even for five minutes?
+- Did the setting and their cues invite small talk, or did they signal they wanted to get straight to work?
+- Am I trying to connect, or performing techniques such as copying their posture?
+
 ## listening
 
 ### [Active listening](../articles/listening/active-listening.md) — Skill
