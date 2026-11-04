@@ -983,6 +983,92 @@
 <https://github.com/john1hsu/communication-graph/id/influence-without-authority> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
 <https://github.com/john1hsu/communication-graph/id/influence-without-authority> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/lee-et-al-2017> .
 <https://github.com/john1hsu/communication-graph/id/influence-without-authority> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/yukl-tracey-1992> .
+<https://github.com/john1hsu/communication-graph/id/issue-selling/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/issue-selling/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Can I state in one sentence which of leadership's existing goals this issue helps, and is that link honest?" .
+<https://github.com/john1hsu/communication-graph/id/issue-selling/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/issue-selling> .
+<https://github.com/john1hsu/communication-graph/id/issue-selling/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/issue-selling/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Am I bringing a proposed solution and the evidence my leaders usually ask for, or only a complaint?" .
+<https://github.com/john1hsu/communication-graph/id/issue-selling/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/issue-selling> .
+<https://github.com/john1hsu/communication-graph/id/issue-selling/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/issue-selling/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Who else have I involved, and would any of them be surprised to hear me raise it?" .
+<https://github.com/john1hsu/communication-graph/id/issue-selling/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/issue-selling> .
+<https://github.com/john1hsu/communication-graph/id/issue-selling/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/issue-selling/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Is this the right moment and forum, or am I raising it because I am frustrated right now?" .
+<https://github.com/john1hsu/communication-graph/id/issue-selling/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/issue-selling> .
+<https://github.com/john1hsu/communication-graph/id/issue-selling/check/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/issue-selling/check/5> <http://www.w3.org/2000/01/rdf-schema#label> "If they say no, what will I do next - and am I prepared to accept that answer?" .
+<https://github.com/john1hsu/communication-graph/id/issue-selling/check/5> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/issue-selling> .
+<https://github.com/john1hsu/communication-graph/id/issue-selling/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+<https://github.com/john1hsu/communication-graph/id/issue-selling/example> <https://github.com/john1hsu/communication-graph/ontology#after> "Proposal for Thursday's ops review: about a third of last month's support tickets trace to the billing page. A two-sprint redesign, already scoped with product, would cut handling costs and supports this year's customer-retention goal. I'd like a decision on adding it to Q1. One-page case attached; finance has checked the numbers." .
+<https://github.com/john1hsu/communication-graph/id/issue-selling/example> <https://github.com/john1hsu/communication-graph/ontology#before> "Hi all, I wanted to flag (again) that the billing page is a mess. My team is drowning in tickets and nobody seems to care. Can we please prioritise this?" .
+<https://github.com/john1hsu/communication-graph/id/issue-selling/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "A support team lead wants leadership to fund a fix for a confusing billing page that drives a large share of tickets." .
+<https://github.com/john1hsu/communication-graph/id/issue-selling/example> <https://github.com/john1hsu/communication-graph/ontology#why> "The rewrite ties the issue to a goal leaders own, brings data and a solution, shows peers are already involved, and uses a scheduled forum - the packaging, involvement and process moves the research links to success - instead of venting frustration." .
+<https://github.com/john1hsu/communication-graph/id/issue-selling/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/issue-selling/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/issue-selling/howto/1> <https://schema.org/text> "Write the issue in one sentence and link it to a goal, metric or priority your leaders already own, framed as an opportunity where honestly possible." .
+<https://github.com/john1hsu/communication-graph/id/issue-selling/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/issue-selling/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/issue-selling/howto/2> <https://schema.org/text> "Find out how the decision maker likes to receive proposals - data or story, a written pre-read or a conversation - and what evidence counts in your organisation." .
+<https://github.com/john1hsu/communication-graph/id/issue-selling/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/issue-selling/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/issue-selling/howto/3> <https://schema.org/text> "Build a short business case - cost, benefit, risk and what happens if nothing changes - and bring at least one concrete proposed solution, not only the problem." .
+<https://github.com/john1hsu/communication-graph/id/issue-selling/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/issue-selling/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/issue-selling/howto/4> <https://schema.org/text> "Test the idea with peers and one or two respected senior people first; fold in their objections and ask who should be involved or informed." .
+<https://github.com/john1hsu/communication-graph/id/issue-selling/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/issue-selling/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/issue-selling/howto/5> <https://schema.org/text> "Read the context before you raise it - is leadership listening, under pressure, or recently burned by a similar idea? - and pick a moment and channel that fit." .
+<https://github.com/john1hsu/communication-graph/id/issue-selling/howto/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/issue-selling/howto/6> <https://schema.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/issue-selling/howto/6> <https://schema.org/text> "Raise it calmly, acknowledge any past decision you are revisiting without blaming whoever made it, and ask for one specific next step." .
+<https://github.com/john1hsu/communication-graph/id/issue-selling/howto/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/issue-selling/howto/7> <https://schema.org/position> "7"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/issue-selling/howto/7> <https://schema.org/text> "Follow up, report what happened, and decide deliberately whether to persist, re-bundle the issue with another priority, or let it go for now." .
+<https://github.com/john1hsu/communication-graph/id/issue-selling/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+<https://github.com/john1hsu/communication-graph/id/issue-selling/howto> <https://schema.org/name> "Selling issues to leadership" .
+<https://github.com/john1hsu/communication-graph/id/issue-selling/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/issue-selling/howto/1> .
+<https://github.com/john1hsu/communication-graph/id/issue-selling/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/issue-selling/howto/2> .
+<https://github.com/john1hsu/communication-graph/id/issue-selling/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/issue-selling/howto/3> .
+<https://github.com/john1hsu/communication-graph/id/issue-selling/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/issue-selling/howto/4> .
+<https://github.com/john1hsu/communication-graph/id/issue-selling/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/issue-selling/howto/5> .
+<https://github.com/john1hsu/communication-graph/id/issue-selling/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/issue-selling/howto/6> .
+<https://github.com/john1hsu/communication-graph/id/issue-selling/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/issue-selling/howto/7> .
+<https://github.com/john1hsu/communication-graph/id/issue-selling> <http://purl.org/dc/terms/created> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/issue-selling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Technique> .
+<https://github.com/john1hsu/communication-graph/id/issue-selling> <http://www.w3.org/2000/01/rdf-schema#label> "Selling issues to leadership" .
+<https://github.com/john1hsu/communication-graph/id/issue-selling> <http://www.w3.org/2004/02/skos/core#altLabel> "getting the boss to buy in" .
+<https://github.com/john1hsu/communication-graph/id/issue-selling> <http://www.w3.org/2004/02/skos/core#altLabel> "issue selling" .
+<https://github.com/john1hsu/communication-graph/id/issue-selling> <http://www.w3.org/2004/02/skos/core#altLabel> "selling ideas upward" .
+<https://github.com/john1hsu/communication-graph/id/issue-selling> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/persuasion> .
+<https://github.com/john1hsu/communication-graph/id/issue-selling> <http://www.w3.org/2004/02/skos/core#definition> "Deliberately getting senior leaders to notice, understand and act on an issue, idea or risk you see from below - by framing it in terms of goals they already own, involving allies, and choosing the timing and channel - as described in Jane E. Dutton and Susan J. Ashford's research on issue selling." .
+<https://github.com/john1hsu/communication-graph/id/issue-selling> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/persuasion-and-influence> .
+<https://github.com/john1hsu/communication-graph/id/issue-selling> <http://www.w3.org/2004/02/skos/core#prefLabel> "Selling issues to leadership" .
+<https://github.com/john1hsu/communication-graph/id/issue-selling> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
+<https://github.com/john1hsu/communication-graph/id/issue-selling> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
+<https://github.com/john1hsu/communication-graph/id/issue-selling> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/influence-without-authority> .
+<https://github.com/john1hsu/communication-graph/id/issue-selling> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
+<https://github.com/john1hsu/communication-graph/id/issue-selling> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping> .
+<https://github.com/john1hsu/communication-graph/id/issue-selling> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/issue-selling/s1> .
+<https://github.com/john1hsu/communication-graph/id/issue-selling> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/issue-selling/s2> .
+<https://github.com/john1hsu/communication-graph/id/issue-selling> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/issue-selling/s3> .
+<https://github.com/john1hsu/communication-graph/id/issue-selling> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/issue-selling/s4> .
+<https://github.com/john1hsu/communication-graph/id/issue-selling> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/issue-selling/s5> .
+<https://github.com/john1hsu/communication-graph/id/issue-selling> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/issue-selling/s6> .
+<https://github.com/john1hsu/communication-graph/id/issue-selling> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/executive-briefing> .
+<https://github.com/john1hsu/communication-graph/id/issue-selling> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/dutton-et-al-2001> .
+<https://github.com/john1hsu/communication-graph/id/issue-selling> <https://github.com/john1hsu/communication-graph/ontology#develops> <https://github.com/john1hsu/communication-graph/id/managing-up> .
+<https://github.com/john1hsu/communication-graph/id/issue-selling> <https://github.com/john1hsu/communication-graph/ontology#domain> "persuasion-and-influence" .
+<https://github.com/john1hsu/communication-graph/id/issue-selling> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/issue-selling> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/issue-selling/example> .
+<https://github.com/john1hsu/communication-graph/id/issue-selling> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/impression-management> .
+<https://github.com/john1hsu/communication-graph/id/issue-selling> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/persuasion-and-influence/issue-selling.md" .
+<https://github.com/john1hsu/communication-graph/id/issue-selling> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/issue-selling/howto> .
+<https://github.com/john1hsu/communication-graph/id/issue-selling> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/jane-e-dutton> .
+<https://github.com/john1hsu/communication-graph/id/issue-selling> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/susan-j-ashford> .
+<https://github.com/john1hsu/communication-graph/id/issue-selling> <https://github.com/john1hsu/communication-graph/ontology#introducedIn> <https://github.com/john1hsu/communication-graph/id/selling-issues-to-top-management> .
+<https://github.com/john1hsu/communication-graph/id/issue-selling> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/communication-graph/id/issue-selling> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
+<https://github.com/john1hsu/communication-graph/id/issue-selling> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/dutton-et-al-1997> .
 <https://github.com/john1hsu/communication-graph/id/managing-up/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/managing-up/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Can I name my manager's top two goals and the pressure they are under this quarter, from what they have told me rather than my guess?" .
 <https://github.com/john1hsu/communication-graph/id/managing-up/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/managing-up> .
@@ -2024,6 +2110,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/influence-without-authority/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/influence-without-authority/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "news" .
 <https://github.com/john1hsu/communication-graph/id/source/influence-without-authority/s5> <https://schema.org/url> <https://www.newswise.com/articles/third-edition-of-influence-without-authority-released> .
+<https://github.com/john1hsu/communication-graph/id/source/issue-selling/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/issue-selling/s1> <http://purl.org/dc/terms/publisher> "Jane E. Dutton & Susan J. Ashford, Academy of Management Review 18(3), 397-428, 1993, doi:10.2307/258903 (abstract record, Shanghai University of Finance and Economics academic newsletter)" .
+<https://github.com/john1hsu/communication-graph/id/source/issue-selling/s1> <http://purl.org/dc/terms/title> "Selling Issues to Top Management" .
+<https://github.com/john1hsu/communication-graph/id/source/issue-selling/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/issue-selling/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/issue-selling/s1> <https://schema.org/url> <https://academicnewsletter.sufe.edu.cn/info/368269> .
+<https://github.com/john1hsu/communication-graph/id/source/issue-selling/s2> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/issue-selling/s2> <http://purl.org/dc/terms/publisher> "Dutton, Ashford, O'Neill & Lawrence, Academy of Management Journal 44(4), 716-736, 2001, doi:10.5465/3069412 (abstract record, Shanghai University of Finance and Economics academic newsletter)" .
+<https://github.com/john1hsu/communication-graph/id/source/issue-selling/s2> <http://purl.org/dc/terms/title> "Moves that matter: Issue selling and organizational change" .
+<https://github.com/john1hsu/communication-graph/id/source/issue-selling/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/issue-selling/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/issue-selling/s2> <https://schema.org/url> <https://academicnewsletter.sufe.edu.cn/info/362966> .
+<https://github.com/john1hsu/communication-graph/id/source/issue-selling/s3> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/issue-selling/s3> <http://purl.org/dc/terms/publisher> "MIT Sloan Management Review (research summary of Dutton et al., 2001)" .
+<https://github.com/john1hsu/communication-graph/id/source/issue-selling/s3> <http://purl.org/dc/terms/title> "Issue Selling in the Organization" .
+<https://github.com/john1hsu/communication-graph/id/source/issue-selling/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/issue-selling/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "practitioner-journal" .
+<https://github.com/john1hsu/communication-graph/id/source/issue-selling/s3> <https://schema.org/url> <https://sloanreview.mit.edu/article/strategy-issue-selling-in-the-organization/amp/> .
+<https://github.com/john1hsu/communication-graph/id/source/issue-selling/s4> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/issue-selling/s4> <http://purl.org/dc/terms/publisher> "Dutton, Ashford, O'Neill, Hayes & Wierba, Strategic Management Journal 18(5), 407-423, 1997 (RePEc/IDEAS abstract record)" .
+<https://github.com/john1hsu/communication-graph/id/source/issue-selling/s4> <http://purl.org/dc/terms/title> "Reading the wind: How middle managers assess the context for selling issues to top managers" .
+<https://github.com/john1hsu/communication-graph/id/source/issue-selling/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/issue-selling/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/issue-selling/s4> <https://schema.org/url> <https://ideas.repec.org/a/bla/stratm/v18y1997i5p407-423.html> .
+<https://github.com/john1hsu/communication-graph/id/source/issue-selling/s5> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/issue-selling/s5> <http://purl.org/dc/terms/publisher> "University of Michigan News (on Susan Ashford & James Detert, \"Get the Boss to Buy In\", Harvard Business Review, 2015)" .
+<https://github.com/john1hsu/communication-graph/id/source/issue-selling/s5> <http://purl.org/dc/terms/title> "Seven steps to selling your idea to the boss" .
+<https://github.com/john1hsu/communication-graph/id/source/issue-selling/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/issue-selling/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/issue-selling/s5> <https://schema.org/url> <https://news.umich.edu/?p=22591> .
+<https://github.com/john1hsu/communication-graph/id/source/issue-selling/s6> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/issue-selling/s6> <http://purl.org/dc/terms/publisher> "Dutton, Ashford, Lawrence & Miner-Rubino, Organization Science 13(4), 355-369, 2002, doi:10.1287/orsc.13.4.355.2949 (RePEc/IDEAS abstract record)" .
+<https://github.com/john1hsu/communication-graph/id/source/issue-selling/s6> <http://purl.org/dc/terms/title> "Red Light, Green Light: Making Sense of the Organizational Context for Issue Selling" .
+<https://github.com/john1hsu/communication-graph/id/source/issue-selling/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/issue-selling/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/issue-selling/s6> <https://schema.org/url> <https://ideas.repec.org/a/inm/ororsc/v13y2002i4p355-369.html> .
 <https://github.com/john1hsu/communication-graph/id/source/managing-up/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/managing-up/s1> <http://purl.org/dc/terms/publisher> "John J. Gabarro & John P. Kotter, Harvard Business Review, January 2005 (reprint of the 1980 HBR article), pp. 92-99 (reading copy hosted on pedsanesthesia.org for its WELI leadership program)" .
 <https://github.com/john1hsu/communication-graph/id/source/managing-up/s1> <http://purl.org/dc/terms/title> "Managing Your Boss" .

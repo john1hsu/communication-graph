@@ -6,26 +6,26 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 |---|---|---|---|
 | 3.13 | `cm:difficult-conversation` | `cm:situation-behavior-impact` | `cm:active-listening`, `cm:defensiveness`, `cm:feedback`, `cm:i-statements`, `cm:nonviolent-communication` |
 | 2.24 | `cm:illusion-of-transparency` | `cm:plain-language` | `cm:clarity`, `cm:curse-of-knowledge`, `cm:email`, `cm:teach-back`, `cm:words-of-estimative-probability` |
-| 2.20 | `cm:managing-up` | `cm:message-equivocality-media-selection-and-manager-performance` | `cm:audience-analysis`, `cm:channel-selection`, `cm:organizational-communication` |
-| 1.82 | `cm:active-listening` | `cm:managing-up` | `cm:one-on-one-meetings`, `cm:psychological-safety` |
+| 2.19 | `cm:managing-up` | `cm:message-equivocality-media-selection-and-manager-performance` | `cm:audience-analysis`, `cm:channel-selection`, `cm:organizational-communication` |
+| 1.81 | `cm:active-listening` | `cm:managing-up` | `cm:one-on-one-meetings`, `cm:psychological-safety` |
+| 1.80 | `cm:issue-selling` | `cm:words-of-estimative-probability` | `cm:bottom-line-up-front`, `cm:executive-briefing` |
 | 1.54 | `cm:defensiveness` | `cm:paraphrasing` | `cm:active-listening`, `cm:difficult-conversation`, `cm:i-statements`, `cm:situation-behavior-impact` |
-| 1.50 | `cm:bottom-line-up-front` | `cm:curse-of-knowledge` | `cm:audience-analysis`, `cm:channel-selection`, `cm:email`, `cm:plain-language` |
-| 1.49 | `cm:channel-selection` | `cm:plain-language` | `cm:audience-analysis`, `cm:bottom-line-up-front`, `cm:curse-of-knowledge`, `cm:email` |
+| 1.49 | `cm:bottom-line-up-front` | `cm:curse-of-knowledge` | `cm:audience-analysis`, `cm:channel-selection`, `cm:email`, `cm:plain-language` |
+| 1.47 | `cm:channel-selection` | `cm:plain-language` | `cm:audience-analysis`, `cm:bottom-line-up-front`, `cm:curse-of-knowledge`, `cm:email` |
 | 1.44 | `cm:batna` | `cm:illusion-of-transparency` | `cm:anchoring-and-adjustment` |
 | 1.44 | `cm:batna` | `cm:influence-without-authority` | `cm:principled-negotiation` |
 | 1.41 | `cm:defensiveness` | `cm:direct-vs-indirect-feedback` | `cm:feedback`, `cm:i-statements`, `cm:situation-behavior-impact` |
 | 1.41 | `cm:psychological-safety` | `cm:situation-behavior-impact` | `cm:active-listening`, `cm:defensiveness`, `cm:feedback` |
 | 1.23 | `cm:audience-analysis` | `cm:illusion-of-transparency` | `cm:curse-of-knowledge`, `cm:email`, `cm:george-loewenstein` |
 | 1.22 | `cm:bottom-line-up-front` | `cm:william-strunk-jr` | `cm:active-voice`, `cm:effective-writing-for-army-leaders`, `cm:plain-language` |
-| 1.19 | `cm:difficult-conversation` | `cm:open-ended-questions` | `cm:active-listening`, `cm:paraphrasing`, `cm:psychological-safety` |
 | 1.18 | `cm:paraphrasing` | `cm:psychological-safety` | `cm:active-listening`, `cm:difficult-conversation`, `cm:open-ended-questions` |
-| 1.17 | `cm:channel-selection` | `cm:high-and-low-context-cultures` | `cm:audience-analysis`, `cm:bottom-line-up-front`, `cm:mehrabian-myth` |
+| 1.18 | `cm:difficult-conversation` | `cm:open-ended-questions` | `cm:active-listening`, `cm:paraphrasing`, `cm:psychological-safety` |
+| 1.16 | `cm:channel-selection` | `cm:high-and-low-context-cultures` | `cm:audience-analysis`, `cm:bottom-line-up-front`, `cm:mehrabian-myth` |
 | 1.15 | `cm:i-statements` | `cm:psychological-safety` | `cm:active-listening`, `cm:defensiveness`, `cm:difficult-conversation` |
-| 1.13 | `cm:bottom-line-up-front` | `cm:message-equivocality-media-selection-and-manager-performance` | `cm:audience-analysis`, `cm:channel-selection`, `cm:email` |
-| 1.13 | `cm:curse-of-knowledge` | `cm:message-equivocality-media-selection-and-manager-performance` | `cm:audience-analysis`, `cm:channel-selection`, `cm:email` |
-| 1.13 | `cm:email` | `cm:george-loewenstein` | `cm:audience-analysis`, `cm:curse-of-knowledge`, `cm:illusion-of-transparency` |
-| 1.12 | `cm:email` | `cm:managing-up` | `cm:audience-analysis`, `cm:bottom-line-up-front`, `cm:channel-selection` |
+| 1.12 | `cm:bottom-line-up-front` | `cm:influence-without-authority` | `cm:audience-analysis`, `cm:issue-selling`, `cm:managing-up` |
+| 1.12 | `cm:bottom-line-up-front` | `cm:message-equivocality-media-selection-and-manager-performance` | `cm:audience-analysis`, `cm:channel-selection`, `cm:email` |
+| 1.12 | `cm:curse-of-knowledge` | `cm:message-equivocality-media-selection-and-manager-performance` | `cm:audience-analysis`, `cm:channel-selection`, `cm:email` |
+| 1.12 | `cm:email` | `cm:george-loewenstein` | `cm:audience-analysis`, `cm:curse-of-knowledge`, `cm:illusion-of-transparency` |
 | 1.12 | `cm:email` | `cm:teach-back` | `cm:curse-of-knowledge`, `cm:illusion-of-transparency`, `cm:plain-language` |
-| 1.10 | `cm:email` | `cm:words-of-estimative-probability` | `cm:bottom-line-up-front`, `cm:illusion-of-transparency`, `cm:plain-language` |
-| 1.01 | `cm:difficult-conversation` | `cm:direct-vs-indirect-feedback` | `cm:feedback`, `cm:i-statements` |
-| 1.00 | `cm:aristotles-rhetoric` | `cm:curse-of-knowledge` | `cm:audience-analysis`, `cm:clarity` |
+| 1.10 | `cm:email` | `cm:managing-up` | `cm:audience-analysis`, `cm:bottom-line-up-front`, `cm:channel-selection` |
+| 1.09 | `cm:channel-selection` | `cm:issue-selling` | `cm:audience-analysis`, `cm:bottom-line-up-front`, `cm:managing-up` |

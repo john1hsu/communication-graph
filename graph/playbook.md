@@ -279,6 +279,31 @@ Ask yourself:
 - Have I separated what I must have from what would merely be nice?
 - Would I be comfortable if they saw exactly how I planned this request, or does it rely on spin?
 
+### [Selling issues to leadership](../articles/persuasion-and-influence/issue-selling.md) — Technique
+
+1. Write the issue in one sentence and link it to a goal, metric or priority your leaders already own, framed as an opportunity where honestly possible.
+2. Find out how the decision maker likes to receive proposals - data or story, a written pre-read or a conversation - and what evidence counts in your organisation.
+3. Build a short business case - cost, benefit, risk and what happens if nothing changes - and bring at least one concrete proposed solution, not only the problem.
+4. Test the idea with peers and one or two respected senior people first; fold in their objections and ask who should be involved or informed.
+5. Read the context before you raise it - is leadership listening, under pressure, or recently burned by a similar idea? - and pick a moment and channel that fit.
+6. Raise it calmly, acknowledge any past decision you are revisiting without blaming whoever made it, and ask for one specific next step.
+7. Follow up, report what happened, and decide deliberately whether to persist, re-bundle the issue with another priority, or let it go for now.
+
+*A support team lead wants leadership to fund a fix for a confusing billing page that drives a large share of tickets.*
+
+| Before | After |
+|---|---|
+| Hi all, I wanted to flag (again) that the billing page is a mess. My team is drowning in tickets and nobody seems to care. Can we please prioritise this? | Proposal for Thursday's ops review: about a third of last month's support tickets trace to the billing page. A two-sprint redesign, already scoped with product, would cut handling costs and supports this year's customer-retention goal. I'd like a decision on adding it to Q1. One-page case attached; finance has checked the numbers. |
+
+**Why:** The rewrite ties the issue to a goal leaders own, brings data and a solution, shows peers are already involved, and uses a scheduled forum - the packaging, involvement and process moves the research links to success - instead of venting frustration.
+
+Ask yourself:
+- Can I state in one sentence which of leadership's existing goals this issue helps, and is that link honest?
+- Am I bringing a proposed solution and the evidence my leaders usually ask for, or only a complaint?
+- Who else have I involved, and would any of them be surprised to hear me raise it?
+- Is this the right moment and forum, or am I raising it because I am frustrated right now?
+- If they say no, what will I do next - and am I prepared to accept that answer?
+
 ## presenting-and-public-speaking
 
 ### [Anxiety reappraisal](../articles/presenting-and-public-speaking/anxiety-reappraisal.md) — Technique

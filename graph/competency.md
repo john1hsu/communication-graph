@@ -12,9 +12,7 @@ _No results._
 
 _Which written skills or dispositions have no technique, framework or principle that develops them?_ — `queries/02-skills-without-practice.rq`
 
-| skill | type |
-|---|---|
-| `cm:managing-up` | cmo:Skill |
+_No results._
 
 ## Situations, channels and formats with no guidance (gap)
 
@@ -35,6 +33,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:anxiety-reappraisal` | 1 | Public speaking anxiety |
 | `cm:audience-analysis` | 1 | Curse of knowledge |
 | `cm:bottom-line-up-front` | 1 | burying-the-lede |
+| `cm:issue-selling` | 1 | Managing up |
 | `cm:paraphrasing` | 1 | Active listening |
 | `cm:situation-behavior-impact` | 1 | Defensiveness |
 | `cm:teach-back` | 1 | Illusion of transparency |
@@ -53,6 +52,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:email` | `cm:audience-analysis` |
 | `cm:email` | `cm:bottom-line-up-front` |
 | `cm:email` | `cm:channel-selection` |
+| `cm:executive-briefing` | `cm:issue-selling` |
 | `cm:executive-briefing` | `cm:words-of-estimative-probability` |
 | `cm:memorandum` | `cm:bottom-line-up-front` |
 | `cm:multicultural-team` | `cm:direct-vs-indirect-feedback` |
@@ -86,6 +86,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:i-statements` | mixed | `cm:korobov-2020` |
 | `cm:illusion-of-transparency` | mixed |  |
 | `cm:influence-without-authority` | mixed |  |
+| `cm:issue-selling` | mixed |  |
 | `cm:open-ended-questions` | mixed | `cm:minson-et-al-2018` |
 | `cm:paraphrasing` | mixed | `cm:weger-castle-emmett-2010` |
 | `cm:plain-language` | mixed |  |

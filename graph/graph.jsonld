@@ -1589,6 +1589,104 @@
    ]
   },
   {
+   "@id": "cm:issue-selling",
+   "@type": "cmo:Technique",
+   "cmo:appliedIn": {
+    "@id": "cm:executive-briefing"
+   },
+   "cmo:demonstratedBy": {
+    "@id": "cm:dutton-et-al-2001"
+   },
+   "cmo:develops": {
+    "@id": "cm:managing-up"
+   },
+   "cmo:domain": "persuasion-and-influence",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/issue-selling/example"
+   },
+   "cmo:explainedBy": {
+    "@id": "cm:impression-management"
+   },
+   "cmo:file": "articles/persuasion-and-influence/issue-selling.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/issue-selling/howto"
+   },
+   "cmo:introducedBy": [
+    {
+     "@id": "cm:jane-e-dutton"
+    },
+    {
+     "@id": "cm:susan-j-ashford"
+    }
+   ],
+   "cmo:introducedIn": {
+    "@id": "cm:selling-issues-to-top-management"
+   },
+   "cmo:level": "intermediate",
+   "cmo:requires": {
+    "@id": "cm:audience-analysis"
+   },
+   "cmo:supportedBy": {
+    "@id": "cm:dutton-et-al-1997"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/issue-selling/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/issue-selling/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/issue-selling/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/issue-selling/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/issue-selling/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/issue-selling/s6"
+    }
+   ],
+   "rdfs:label": "Selling issues to leadership",
+   "skos:altLabel": [
+    "getting the boss to buy in",
+    "issue selling",
+    "selling ideas upward"
+   ],
+   "skos:broader": {
+    "@id": "cm:persuasion"
+   },
+   "skos:definition": "Deliberately getting senior leaders to notice, understand and act on an issue, idea or risk you see from below - by framing it in terms of goals they already own, involving allies, and choosing the timing and channel - as described in Jane E. Dutton and Susan J. Ashford's research on issue selling.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/persuasion-and-influence"
+   },
+   "skos:prefLabel": "Selling issues to leadership",
+   "skos:related": [
+    {
+     "@id": "cm:audience-analysis"
+    },
+    {
+     "@id": "cm:bottom-line-up-front"
+    },
+    {
+     "@id": "cm:influence-without-authority"
+    },
+    {
+     "@id": "cm:psychological-safety"
+    },
+    {
+     "@id": "cm:stakeholder-mapping"
+    }
+   ]
+  },
+  {
    "@id": "cm:managing-up",
    "@type": "cmo:Skill",
    "cmo:appliedIn": [
@@ -3526,6 +3624,124 @@
    "schema:text": "Make a concrete, honest offer that trades something they value for what you need, then deliver on it and keep in touch afterwards so the relationship exists before you need it again."
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/issue-selling/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:issue-selling"
+   },
+   "rdfs:label": "Can I state in one sentence which of leadership's existing goals this issue helps, and is that link honest?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/issue-selling/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:issue-selling"
+   },
+   "rdfs:label": "Am I bringing a proposed solution and the evidence my leaders usually ask for, or only a complaint?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/issue-selling/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:issue-selling"
+   },
+   "rdfs:label": "Who else have I involved, and would any of them be surprised to hear me raise it?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/issue-selling/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:issue-selling"
+   },
+   "rdfs:label": "Is this the right moment and forum, or am I raising it because I am frustrated right now?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/issue-selling/check/5",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:issue-selling"
+   },
+   "rdfs:label": "If they say no, what will I do next - and am I prepared to accept that answer?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/issue-selling/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "Proposal for Thursday's ops review: about a third of last month's support tickets trace to the billing page. A two-sprint redesign, already scoped with product, would cut handling costs and supports this year's customer-retention goal. I'd like a decision on adding it to Q1. One-page case attached; finance has checked the numbers.",
+   "cmo:before": "Hi all, I wanted to flag (again) that the billing page is a mess. My team is drowning in tickets and nobody seems to care. Can we please prioritise this?",
+   "cmo:situation": "A support team lead wants leadership to fund a fix for a confusing billing page that drives a large share of tickets.",
+   "cmo:why": "The rewrite ties the issue to a goal leaders own, brings data and a solution, shows peers are already involved, and uses a scheduled forum - the packaging, involvement and process moves the research links to success - instead of venting frustration."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/issue-selling/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Selling issues to leadership",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/issue-selling/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/issue-selling/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/issue-selling/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/issue-selling/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/issue-selling/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/issue-selling/howto/6"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/issue-selling/howto/7"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/issue-selling/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Write the issue in one sentence and link it to a goal, metric or priority your leaders already own, framed as an opportunity where honestly possible."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/issue-selling/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Find out how the decision maker likes to receive proposals - data or story, a written pre-read or a conversation - and what evidence counts in your organisation."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/issue-selling/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Build a short business case - cost, benefit, risk and what happens if nothing changes - and bring at least one concrete proposed solution, not only the problem."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/issue-selling/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Test the idea with peers and one or two respected senior people first; fold in their objections and ask who should be involved or informed."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/issue-selling/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Read the context before you raise it - is leadership listening, under pressure, or recently burned by a similar idea? - and pick a moment and channel that fit."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/issue-selling/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "Raise it calmly, acknowledge any past decision you are revisiting without blaming whoever made it, and ask for one specific next step."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/issue-selling/howto/7",
+   "@type": "schema:HowToStep",
+   "schema:position": 7,
+   "schema:text": "Follow up, report what happened, and decide deliberately whether to persist, re-bundle the issue with another priority, or let it go for now."
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/managing-up/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -5378,6 +5594,90 @@
    "dcterms:title": "Third Edition of 'Influence Without Authority' Released",
    "schema:url": {
     "@id": "https://www.newswise.com/articles/third-edition-of-influence-without-authority-released"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/issue-selling/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Jane E. Dutton & Susan J. Ashford, Academy of Management Review 18(3), 397-428, 1993, doi:10.2307/258903 (abstract record, Shanghai University of Finance and Economics academic newsletter)",
+   "dcterms:title": "Selling Issues to Top Management",
+   "schema:url": {
+    "@id": "https://academicnewsletter.sufe.edu.cn/info/368269"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/issue-selling/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Dutton, Ashford, O'Neill & Lawrence, Academy of Management Journal 44(4), 716-736, 2001, doi:10.5465/3069412 (abstract record, Shanghai University of Finance and Economics academic newsletter)",
+   "dcterms:title": "Moves that matter: Issue selling and organizational change",
+   "schema:url": {
+    "@id": "https://academicnewsletter.sufe.edu.cn/info/362966"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/issue-selling/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "practitioner-journal",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "MIT Sloan Management Review (research summary of Dutton et al., 2001)",
+   "dcterms:title": "Issue Selling in the Organization",
+   "schema:url": {
+    "@id": "https://sloanreview.mit.edu/article/strategy-issue-selling-in-the-organization/amp/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/issue-selling/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Dutton, Ashford, O'Neill, Hayes & Wierba, Strategic Management Journal 18(5), 407-423, 1997 (RePEc/IDEAS abstract record)",
+   "dcterms:title": "Reading the wind: How middle managers assess the context for selling issues to top managers",
+   "schema:url": {
+    "@id": "https://ideas.repec.org/a/bla/stratm/v18y1997i5p407-423.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/issue-selling/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "University of Michigan News (on Susan Ashford & James Detert, \"Get the Boss to Buy In\", Harvard Business Review, 2015)",
+   "dcterms:title": "Seven steps to selling your idea to the boss",
+   "schema:url": {
+    "@id": "https://news.umich.edu/?p=22591"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/issue-selling/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Dutton, Ashford, Lawrence & Miner-Rubino, Organization Science 13(4), 355-369, 2002, doi:10.1287/orsc.13.4.355.2949 (RePEc/IDEAS abstract record)",
+   "dcterms:title": "Red Light, Green Light: Making Sense of the Organizational Context for Issue Selling",
+   "schema:url": {
+    "@id": "https://ideas.repec.org/a/inm/ororsc/v13y2002i4p355-369.html"
    }
   },
   {
