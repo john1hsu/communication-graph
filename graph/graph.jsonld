@@ -1983,6 +1983,90 @@
    ]
   },
   {
+   "@id": "cm:speaking-anxiety",
+   "@type": "cmo:Barrier",
+   "cmo:demonstratedBy": {
+    "@id": "cm:savitsky-gilovich-2003"
+   },
+   "cmo:domain": "presenting-and-public-speaking",
+   "cmo:evidenceStatus": "robust",
+   "cmo:explainedBy": {
+    "@id": "cm:illusion-of-transparency"
+   },
+   "cmo:file": "articles/presenting-and-public-speaking/speaking-anxiety.md",
+   "cmo:instanceOf": {
+    "@id": "cm:communication-apprehension"
+   },
+   "cmo:level": "introductory",
+   "cmo:supportedBy": [
+    {
+     "@id": "cm:ebrahimi-et-al-2019"
+    },
+    {
+     "@id": "cm:macinnis-mackinnon-macintyre-2010"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/speaking-anxiety/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/speaking-anxiety/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/speaking-anxiety/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/speaking-anxiety/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/speaking-anxiety/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/speaking-anxiety/s6"
+    }
+   ],
+   "rdfs:label": "Public speaking anxiety",
+   "skos:altLabel": [
+    "fear of public speaking",
+    "glossophobia",
+    "speech anxiety",
+    "stage fright"
+   ],
+   "skos:broader": {
+    "@id": "cm:communication-apprehension"
+   },
+   "skos:definition": "Fear and physical arousal triggered by having to speak in front of others - from a team update to a conference talk - that pushes people to avoid speaking, over-script, or deliver less well than they could.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/presenting-and-public-speaking"
+   },
+   "skos:prefLabel": "Public speaking anxiety",
+   "skos:related": [
+    {
+     "@id": "cm:anxiety-reappraisal"
+    },
+    {
+     "@id": "cm:illusion-of-transparency"
+    },
+    {
+     "@id": "cm:presentation-rehearsal"
+    },
+    {
+     "@id": "cm:psychological-safety"
+    },
+    {
+     "@id": "cm:social-anxiety"
+    },
+    {
+     "@id": "cm:spotlight-effect"
+    }
+   ]
+  },
+  {
    "@id": "cm:teach-back",
    "@type": "cmo:Technique",
    "cmo:addresses": {
@@ -5243,6 +5327,90 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/speaking-anxiety/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Ebrahimi, Pallesen, Kenter & Nordgreen, Frontiers in Psychology 10:488, 2019",
+   "dcterms:title": "Psychological Interventions for the Fear of Public Speaking: A Meta-Analysis",
+   "schema:url": {
+    "@id": "https://www.frontiersin.org/articles/10.3389/fpsyg.2019.00488/full"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/speaking-anxiety/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "American Psychological Association press release, December 2013",
+   "dcterms:title": "Getting excited helps with performance anxiety more than trying to calm down, study finds (Brooks, Journal of Experimental Psychology: General)",
+   "schema:url": {
+    "@id": "https://www.apa.org/news/press/releases/2013/12/performance-anxiety"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/speaking-anxiety/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Poynter & Smith Pasqualini, Psychology of Language and Communication 29(1), 254-265, 2025",
+   "dcterms:title": "Getting Excited About Public Speaking: A Replication",
+   "schema:url": {
+    "@id": "https://reference-global.com/article/10.58734/plc-2025-0011"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/speaking-anxiety/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "MacInnis, Mackinnon & MacIntyre, Current Research in Social Psychology 15(4), 2010 (University of Iowa)",
+   "dcterms:title": "The Illusion of Transparency and Normative Beliefs About Anxiety During Public Speaking",
+   "schema:url": {
+    "@id": "https://crisp.org.uiowa.edu/sites/crisp.org.uiowa.edu/files/2020-04/15.4.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/speaking-anxiety/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "James C. McCroskey (author's measures archive; McCroskey 1970, Speech Monographs 37, 269-277)",
+   "dcterms:title": "Personal Report of Public Speaking Anxiety (PRPSA)",
+   "schema:url": {
+    "@id": "https://www.jamescmccroskey.com/measures/prpsa.htm"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/speaking-anxiety/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Hamilton College Oral Communication Center",
+   "dcterms:title": "Dealing with Speech Anxiety",
+   "schema:url": {
+    "@id": "https://hamilton.edu/academics/centers/oralcommunication/guides/dealing-with-speech-anxiety-1"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/source/teach-back/s1",
    "@type": "cmo:Source",
    "cmo:sourceType": "government",
@@ -5437,6 +5605,46 @@
    "schema:url": {
     "@id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7971511/"
    }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/speaking-anxiety/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:speaking-anxiety"
+   },
+   "rdfs:label": "Am I declining this presentation because it is not my job, or because I am afraid of it?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/speaking-anxiety/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:speaking-anxiety"
+   },
+   "rdfs:label": "Have I rehearsed this out loud, standing, at least once - or only read my notes silently?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/speaking-anxiety/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:speaking-anxiety"
+   },
+   "rdfs:label": "Am I assuming the audience can see my nerves as clearly as I can feel them?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/speaking-anxiety/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:speaking-anxiety"
+   },
+   "rdfs:label": "What is the one point I need them to leave with, if everything else goes badly?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/speaking-anxiety/check/5",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:speaking-anxiety"
+   },
+   "rdfs:label": "Afterwards, am I judging the talk by how I felt or by what the audience actually did with it?"
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/teach-back/check/1",

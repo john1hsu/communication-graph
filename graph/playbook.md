@@ -261,6 +261,17 @@ Ask yourself:
 - Have I separated what I must have from what would merely be nice?
 - Would I be comfortable if they saw exactly how I planned this request, or does it rely on spin?
 
+## presenting-and-public-speaking
+
+### [Public speaking anxiety](../articles/presenting-and-public-speaking/speaking-anxiety.md) — Barrier
+
+Ask yourself:
+- Am I declining this presentation because it is not my job, or because I am afraid of it?
+- Have I rehearsed this out loud, standing, at least once - or only read my notes silently?
+- Am I assuming the audience can see my nerves as clearly as I can feel them?
+- What is the one point I need them to leave with, if everything else goes badly?
+- Afterwards, am I judging the talk by how I felt or by what the audience actually did with it?
+
 ## questioning-and-conversation
 
 ### [Teach-back](../articles/questioning-and-conversation/teach-back.md) — Technique

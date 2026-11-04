@@ -14,7 +14,7 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 1.37 | `cm:i-statements` | `cm:psychological-safety` | `cm:active-listening`, `cm:defensiveness`, `cm:difficult-conversation` |
 | 1.23 | `cm:audience-analysis` | `cm:illusion-of-transparency` | `cm:curse-of-knowledge`, `cm:email`, `cm:george-loewenstein` |
 | 1.22 | `cm:bottom-line-up-front` | `cm:william-strunk-jr` | `cm:active-voice`, `cm:effective-writing-for-army-leaders`, `cm:plain-language` |
-| 1.21 | `cm:difficult-conversation` | `cm:open-ended-questions` | `cm:active-listening`, `cm:paraphrasing`, `cm:psychological-safety` |
+| 1.20 | `cm:difficult-conversation` | `cm:open-ended-questions` | `cm:active-listening`, `cm:paraphrasing`, `cm:psychological-safety` |
 | 1.19 | `cm:channel-selection` | `cm:high-and-low-context-cultures` | `cm:audience-analysis`, `cm:bottom-line-up-front`, `cm:mehrabian-myth` |
 | 1.18 | `cm:paraphrasing` | `cm:psychological-safety` | `cm:active-listening`, `cm:difficult-conversation`, `cm:open-ended-questions` |
 | 1.15 | `cm:bottom-line-up-front` | `cm:message-equivocality-media-selection-and-manager-performance` | `cm:audience-analysis`, `cm:channel-selection`, `cm:email` |
