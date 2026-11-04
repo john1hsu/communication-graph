@@ -105,6 +105,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:self-distancing` | mixed |  |
 | `cm:spotlight-effect` | mixed |  |
 | `cm:teach-back` | mixed |  |
+| `cm:weger-et-al-2014` | mixed |  |
 | `cm:words-of-estimative-probability` | mixed |  |
 
 ## Concepts with no recorded origin (gap)

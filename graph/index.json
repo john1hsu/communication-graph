@@ -3476,6 +3476,79 @@
   ]
  },
  {
+  "id": "cm:weger-et-al-2014",
+  "title": "The Relative Effectiveness of Active Listening in Initial Interactions",
+  "aliases": [
+   "Weger et al. 2014",
+   "Weger, Castle Bell, Minei & Robinson (2014)",
+   "active listening vs. advice experiment"
+  ],
+  "type": "Study",
+  "domain": "thinkers-and-works",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/thinkers-and-works/weger-et-al-2014.md",
+  "created": "2026-11-04",
+  "summary": "A 2014 International Journal of Listening experiment in which 115 students talked with trained partners who either paraphrased and asked follow-up questions, gave advice, or simply acknowledged; active listening made speakers feel more understood, but it was not liked more than advice.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:active-listening"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:paraphrasing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:open-ended-questions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:kluger-et-al-2024"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:weger-castle-emmett-2010"
+   },
+   {
+    "predicate": "cmo:influencedBy",
+    "object": "cm:weger-castle-emmett-2010",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:influencedBy",
+    "object": "cm:carl-rogers",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:influencedBy",
+    "object": "cm:thomas-gordon",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:contrastsWith",
+    "object": "cm:advice-giving",
+    "source": "s2",
+    "confidence": "high"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://informahealthcare.com/doi/full/10.1080/10904018.2013.813234",
+   "https://stars.library.ucf.edu/scopus2010/9657/",
+   "https://reachfamilies.umn.edu/sites/default/files/prtw/2021-09/Weger_2014__2021091010606.pdf",
+   "https://stars.library.ucf.edu/scopus2010/1477",
+   "https://cris.huji.ac.il/en/publications/a-meta-analytic-systematic-review-and-theory-of-the-effects-of-pe/",
+   "https://cris.huji.ac.il/en/publications/the-listener-sets-the-tone-high-quality-listening-increases-attit/"
+  ]
+ },
+ {
   "id": "cm:william-strunk-jr",
   "title": "William Strunk Jr.",
   "aliases": [
