@@ -592,6 +592,96 @@
    ]
   },
   {
+   "@id": "cm:difficult-conversation",
+   "@type": "cmo:Context",
+   "cmo:demonstratedBy": [
+    {
+     "@id": "cm:kardas-kumar-epley-2021"
+    },
+    {
+     "@id": "cm:levine-cohen-2018"
+    },
+    {
+     "@id": "cm:milliken-morrison-hewlin-2003"
+    }
+   ],
+   "cmo:domain": "difficult-conversations-and-conflict",
+   "cmo:evidenceStatus": "practitioner",
+   "cmo:explainedBy": {
+    "@id": "cm:three-conversations-framework"
+   },
+   "cmo:file": "articles/difficult-conversations-and-conflict/difficult-conversation.md",
+   "cmo:introducedIn": {
+    "@id": "cm:difficult-conversations-book"
+   },
+   "cmo:level": "intermediate",
+   "cmo:requires": {
+    "@id": "cm:active-listening"
+   },
+   "cmo:studiedIn": {
+    "@id": "cm:conflict-resolution"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/difficult-conversation/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/difficult-conversation/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/difficult-conversation/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/difficult-conversation/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/difficult-conversation/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/difficult-conversation/s6"
+    }
+   ],
+   "rdfs:label": "Difficult conversation",
+   "skos:altLabel": [
+    "difficult conversations",
+    "hard conversation",
+    "tough conversation",
+    "uncomfortable conversation"
+   ],
+   "skos:broader": {
+    "@id": "cm:interpersonal-conflict"
+   },
+   "skos:definition": "A conversation you are tempted to avoid because the topic threatens the relationship, the other person's or your own self-image, or strong feelings on either side - raising a performance problem, disagreeing with a decision, delivering bad news or repairing a falling-out. It goes best when approached as a shared attempt to learn what happened, not a contest over who is right.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/difficult-conversations-and-conflict"
+   },
+   "skos:prefLabel": "Difficult conversation",
+   "skos:related": [
+    {
+     "@id": "cm:crucial-conversations"
+    },
+    {
+     "@id": "cm:defensiveness"
+    },
+    {
+     "@id": "cm:delivering-bad-news"
+    },
+    {
+     "@id": "cm:feedback"
+    },
+    {
+     "@id": "cm:nonviolent-communication"
+    },
+    {
+     "@id": "cm:psychological-safety"
+    }
+   ]
+  },
+  {
    "@id": "cm:direct-vs-indirect-feedback",
    "@type": "cmo:Concept",
    "cmo:appliedIn": {
@@ -3502,6 +3592,90 @@
    "dcterms:title": "Paraphrase testing",
    "schema:url": {
     "@id": "https://digital.gov/guides/plain-language/test/paraphrase-testing"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/difficult-conversation/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Triad Consulting Group (firm founded by the book's authors Douglas Stone and Sheila Heen), 2018",
+   "dcterms:title": "Difficult Conversations Preparation Worksheet: Instructions",
+   "schema:url": {
+    "@id": "https://static1.squarespace.com/static/5efcf9e8e5581b6e352cc11b/t/5f33275f510f161d7050b2e0/1597187935915/Triad_Consulting_Group_Diffcon_Preparation_Worksheet_Insructions_2018.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/difficult-conversation/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Program on Negotiation at Harvard Law School, PON Daily (PON Staff, adapted from Susan Hackley)",
+   "dcterms:title": "Case Study of Conflict Management: To Resolve Disputes and Manage Conflicts, Assume a Neutral 3rd Party Role",
+   "schema:url": {
+    "@id": "https://www.pon.harvard.edu/daily/conflict-resolution/telling-the-third-story"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/difficult-conversation/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Levine, E. E. & Cohen, T. R., Journal of Experimental Psychology - General 147(9), 1400-1429, 2018 (author copy, University of Chicago)",
+   "dcterms:title": "You can handle the truth: Mispredicting the consequences of honest communication",
+   "schema:url": {
+    "@id": "https://bpb-us-w2.wpmucdn.com/voices.uchicago.edu/dist/c/3234/files/2023/07/12.-Handle-the-Truth-2018.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/difficult-conversation/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Milliken, F. J., Morrison, E. W. & Hewlin, P. F., Journal of Management Studies 40(6), 1453-1476, 2003, doi:10.1111/1467-6486.00387 (authors' manuscript hosted by Southeastern Oklahoma State University)",
+   "dcterms:title": "An Exploratory Study of Employee Silence: Issues that Employees Don't Communicate Upward and Why",
+   "schema:url": {
+    "@id": "https://homepages.se.edu/cvonbergen/files/2012/12/AN-EXPLORATORY-STUDY-OF-EMPLOYEE-SILENCE_IISSUES-THAT-EMPLOYEES-DONT-COMMUNICATE-UPWARD-AND-WHY.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/difficult-conversation/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Stone, D., Patton, B. & Heen, S., Penguin Books, 2023 (publisher description via MIT Press Bookstore)",
+   "dcterms:title": "Difficult Conversations: How to Discuss What Matters Most (third edition)",
+   "schema:url": {
+    "@id": "https://mitpressbookstore.mit.edu/book/9780143137597"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/difficult-conversation/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "American Psychological Association press release on Kardas, Kumar & Epley, Journal of Personality and Social Psychology, 2021",
+   "dcterms:title": "Getting beyond small talk: Study finds people enjoy deep conversations with strangers",
+   "schema:url": {
+    "@id": "https://www.apa.org/news/press/releases/2021/09/deep-conversations-strangers"
    }
   },
   {
