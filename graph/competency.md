@@ -33,6 +33,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:anxiety-reappraisal` | 1 | Public speaking anxiety |
 | `cm:audience-analysis` | 1 | Curse of knowledge |
 | `cm:bottom-line-up-front` | 1 | burying-the-lede |
+| `cm:feedforward` | 1 | Defensiveness |
 | `cm:issue-selling` | 1 | Managing up |
 | `cm:paraphrasing` | 1 | Active listening |
 | `cm:situation-behavior-impact` | 1 | Defensiveness |
@@ -61,6 +62,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:one-on-one-meetings` | `cm:active-listening` |
 | `cm:one-on-one-meetings` | `cm:managing-up` |
 | `cm:patient-education` | `cm:teach-back` |
+| `cm:performance-review` | `cm:feedforward` |
 | `cm:performance-review` | `cm:situation-behavior-impact` |
 | `cm:plain-language-summary` | `cm:plain-language` |
 | `cm:presentation` | `cm:anxiety-reappraisal` |
@@ -85,6 +87,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:defensiveness` | mixed | `cm:forward-czech-lee-2011` |
 | `cm:direct-vs-indirect-feedback` | mixed | `cm:brew-cairns-2004` |
 | `cm:email` | mixed |  |
+| `cm:feedforward` | mixed |  |
 | `cm:i-statements` | mixed | `cm:korobov-2020` |
 | `cm:illusion-of-transparency` | mixed |  |
 | `cm:influence-without-authority` | mixed |  |

@@ -123,6 +123,29 @@ Ask yourself:
 
 ## feedback-and-coaching
 
+### [Feedforward](../articles/feedback-and-coaching/feedforward.md) — Technique
+
+1. Pick one specific behaviour you want to get better at, phrased as a future goal ("run tighter project kick-offs"), not a past failure.
+2. Describe that goal briefly to a colleague who has seen you work or who knows the subject - they do not need to be your manager.
+3. Ask for two concrete suggestions for the future, and make clear you are not asking for a review of anything that already happened.
+4. Listen and write the suggestions down without judging, explaining or defending - the only permitted reply is "thank you".
+5. Offer to return the favour - ask what they want to improve and give them two forward-looking suggestions in turn.
+6. Repeat with a few different people, then choose the suggestions you will actually try and tell those colleagues what you changed.
+
+*A project manager whose kick-off meetings regularly overrun wants to improve before the next quarter's projects start.*
+
+| Before | After |
+|---|---|
+| Can you give me some feedback on last week's kick-off? I know it ran 40 minutes over, but the client kept raising scope questions, so honestly I'm not sure what I could have done differently. | I'm working on running kick-offs that finish on time. Could you give me two ideas I could try at the next one? I'll just note them down - no need to go back over last week. |
+
+**Why:** The first version invites a debate about a past meeting and opens with a defence, so the colleague has to argue to be helpful; the rewrite names a future goal, asks for a bounded number of ideas and promises not to argue, which makes it easy to offer useful suggestions.
+
+Ask yourself:
+- Have I named one behaviour I want to improve in the future, rather than asking for a verdict on the past?
+- When a suggestion arrived, did I say "thank you" - or did I explain why it would not work?
+- Am I using feedforward to avoid a conversation about a real problem that still needs to be discussed?
+- Which of the suggestions will I actually try, and have I told the people who gave them?
+
 ### [Situation-Behavior-Impact](../articles/feedback-and-coaching/situation-behavior-impact.md) — Technique
 
 1. Pin down the situation - the specific meeting, document or moment, with a time and place ("in Tuesday's 10 a.m. client call"), not "lately" or "last week".

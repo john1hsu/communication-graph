@@ -92,6 +92,14 @@
 <https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/words-of-estimative-probability/s2> .
 <https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/words-of-estimative-probability/s3> .
 <https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/words-of-estimative-probability/s4> .
+<https://github.com/john1hsu/communication-graph/id/feedforward#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/feedforward#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/feedforward> .
+<https://github.com/john1hsu/communication-graph/id/feedforward#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/feedback-and-coaching/feedforward.md" .
+<https://github.com/john1hsu/communication-graph/id/feedforward#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/feedforward/s1> .
+<https://github.com/john1hsu/communication-graph/id/feedforward#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/feedforward/s2> .
+<https://github.com/john1hsu/communication-graph/id/feedforward#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/feedforward/s3> .
+<https://github.com/john1hsu/communication-graph/id/feedforward#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/feedforward/s4> .
+<https://github.com/john1hsu/communication-graph/id/feedforward#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/feedforward/s5> .
 <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> .
 <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/feedback-and-coaching/situation-behavior-impact.md" .
@@ -1200,6 +1208,113 @@
   <https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/mandel-irwin-2021> .
 }
 
+<https://github.com/john1hsu/communication-graph/id/feedforward#graph> {
+  <https://github.com/john1hsu/communication-graph/id/feedforward/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/feedforward/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Have I named one behaviour I want to improve in the future, rather than asking for a verdict on the past?" .
+  <https://github.com/john1hsu/communication-graph/id/feedforward/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/feedforward> .
+  <https://github.com/john1hsu/communication-graph/id/feedforward/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/feedforward/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "When a suggestion arrived, did I say \"thank you\" - or did I explain why it would not work?" .
+  <https://github.com/john1hsu/communication-graph/id/feedforward/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/feedforward> .
+  <https://github.com/john1hsu/communication-graph/id/feedforward/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/feedforward/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Am I using feedforward to avoid a conversation about a real problem that still needs to be discussed?" .
+  <https://github.com/john1hsu/communication-graph/id/feedforward/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/feedforward> .
+  <https://github.com/john1hsu/communication-graph/id/feedforward/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/feedforward/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Which of the suggestions will I actually try, and have I told the people who gave them?" .
+  <https://github.com/john1hsu/communication-graph/id/feedforward/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/feedforward> .
+  <https://github.com/john1hsu/communication-graph/id/feedforward/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+  <https://github.com/john1hsu/communication-graph/id/feedforward/example> <https://github.com/john1hsu/communication-graph/ontology#after> "I'm working on running kick-offs that finish on time. Could you give me two ideas I could try at the next one? I'll just note them down - no need to go back over last week." .
+  <https://github.com/john1hsu/communication-graph/id/feedforward/example> <https://github.com/john1hsu/communication-graph/ontology#before> "Can you give me some feedback on last week's kick-off? I know it ran 40 minutes over, but the client kept raising scope questions, so honestly I'm not sure what I could have done differently." .
+  <https://github.com/john1hsu/communication-graph/id/feedforward/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "A project manager whose kick-off meetings regularly overrun wants to improve before the next quarter's projects start." .
+  <https://github.com/john1hsu/communication-graph/id/feedforward/example> <https://github.com/john1hsu/communication-graph/ontology#why> "The first version invites a debate about a past meeting and opens with a defence, so the colleague has to argue to be helpful; the rewrite names a future goal, asks for a bounded number of ideas and promises not to argue, which makes it easy to offer useful suggestions." .
+  <https://github.com/john1hsu/communication-graph/id/feedforward/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/feedforward/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/feedforward/howto/1> <https://schema.org/text> "Pick one specific behaviour you want to get better at, phrased as a future goal (\"run tighter project kick-offs\"), not a past failure." .
+  <https://github.com/john1hsu/communication-graph/id/feedforward/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/feedforward/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/feedforward/howto/2> <https://schema.org/text> "Describe that goal briefly to a colleague who has seen you work or who knows the subject - they do not need to be your manager." .
+  <https://github.com/john1hsu/communication-graph/id/feedforward/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/feedforward/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/feedforward/howto/3> <https://schema.org/text> "Ask for two concrete suggestions for the future, and make clear you are not asking for a review of anything that already happened." .
+  <https://github.com/john1hsu/communication-graph/id/feedforward/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/feedforward/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/feedforward/howto/4> <https://schema.org/text> "Listen and write the suggestions down without judging, explaining or defending - the only permitted reply is \"thank you\"." .
+  <https://github.com/john1hsu/communication-graph/id/feedforward/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/feedforward/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/feedforward/howto/5> <https://schema.org/text> "Offer to return the favour - ask what they want to improve and give them two forward-looking suggestions in turn." .
+  <https://github.com/john1hsu/communication-graph/id/feedforward/howto/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/feedforward/howto/6> <https://schema.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/feedforward/howto/6> <https://schema.org/text> "Repeat with a few different people, then choose the suggestions you will actually try and tell those colleagues what you changed." .
+  <https://github.com/john1hsu/communication-graph/id/feedforward/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+  <https://github.com/john1hsu/communication-graph/id/feedforward/howto> <https://schema.org/name> "Feedforward" .
+  <https://github.com/john1hsu/communication-graph/id/feedforward/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/feedforward/howto/1> .
+  <https://github.com/john1hsu/communication-graph/id/feedforward/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/feedforward/howto/2> .
+  <https://github.com/john1hsu/communication-graph/id/feedforward/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/feedforward/howto/3> .
+  <https://github.com/john1hsu/communication-graph/id/feedforward/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/feedforward/howto/4> .
+  <https://github.com/john1hsu/communication-graph/id/feedforward/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/feedforward/howto/5> .
+  <https://github.com/john1hsu/communication-graph/id/feedforward/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/feedforward/howto/6> .
+  <https://github.com/john1hsu/communication-graph/id/feedforward> <http://purl.org/dc/terms/created> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/feedforward> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Technique> .
+  <https://github.com/john1hsu/communication-graph/id/feedforward> <http://www.w3.org/2000/01/rdf-schema#label> "Feedforward" .
+  <https://github.com/john1hsu/communication-graph/id/feedforward> <http://www.w3.org/2004/02/skos/core#altLabel> "feed-forward" .
+  <https://github.com/john1hsu/communication-graph/id/feedforward> <http://www.w3.org/2004/02/skos/core#altLabel> "future-focused feedback" .
+  <https://github.com/john1hsu/communication-graph/id/feedforward> <http://www.w3.org/2004/02/skos/core#altLabel> "try feedforward instead of feedback" .
+  <https://github.com/john1hsu/communication-graph/id/feedforward> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/feedback> .
+  <https://github.com/john1hsu/communication-graph/id/feedforward> <http://www.w3.org/2004/02/skos/core#definition> "A development technique popularised by executive coach Marshall Goldsmith: instead of reviewing what someone did wrong, you name one behaviour you want to improve and ask others for a couple of concrete suggestions for the future, which you listen to and thank them for without debate." .
+  <https://github.com/john1hsu/communication-graph/id/feedforward> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/feedback-and-coaching> .
+  <https://github.com/john1hsu/communication-graph/id/feedforward> <http://www.w3.org/2004/02/skos/core#prefLabel> "Feedforward" .
+  <https://github.com/john1hsu/communication-graph/id/feedforward> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> .
+  <https://github.com/john1hsu/communication-graph/id/feedforward> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/feedforward-interview> .
+  <https://github.com/john1hsu/communication-graph/id/feedforward> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> .
+  <https://github.com/john1hsu/communication-graph/id/feedforward> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> .
+  <https://github.com/john1hsu/communication-graph/id/feedforward> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/feedforward/s1> .
+  <https://github.com/john1hsu/communication-graph/id/feedforward> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/feedforward/s2> .
+  <https://github.com/john1hsu/communication-graph/id/feedforward> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/feedforward/s3> .
+  <https://github.com/john1hsu/communication-graph/id/feedforward> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/feedforward/s4> .
+  <https://github.com/john1hsu/communication-graph/id/feedforward> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/feedforward/s5> .
+  <https://github.com/john1hsu/communication-graph/id/feedforward> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/defensiveness> .
+  <https://github.com/john1hsu/communication-graph/id/feedforward> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/performance-review> .
+  <https://github.com/john1hsu/communication-graph/id/feedforward> <https://github.com/john1hsu/communication-graph/ontology#domain> "feedback-and-coaching" .
+  <https://github.com/john1hsu/communication-graph/id/feedforward> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+  <https://github.com/john1hsu/communication-graph/id/feedforward> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/feedforward/example> .
+  <https://github.com/john1hsu/communication-graph/id/feedforward> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/feedback-and-coaching/feedforward.md" .
+  <https://github.com/john1hsu/communication-graph/id/feedforward> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/feedforward/howto> .
+  <https://github.com/john1hsu/communication-graph/id/feedforward> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/marshall-goldsmith> .
+  <https://github.com/john1hsu/communication-graph/id/feedforward> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+  <https://github.com/john1hsu/communication-graph/id/feedforward> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+  <https://github.com/john1hsu/communication-graph/id/feedforward> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/budworth-latham-manroop-2015> .
+  <https://github.com/john1hsu/communication-graph/id/feedforward> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/gnepp-et-al-2020> .
+  <https://github.com/john1hsu/communication-graph/id/source/feedforward/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/feedforward/s1> <http://purl.org/dc/terms/publisher> "Marshall Goldsmith, marshallgoldsmith.com (2025 web edition)" .
+  <https://github.com/john1hsu/communication-graph/id/source/feedforward/s1> <http://purl.org/dc/terms/title> "Try Feedforward Instead of Feedback" .
+  <https://github.com/john1hsu/communication-graph/id/source/feedforward/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/feedforward/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/communication-graph/id/source/feedforward/s1> <https://schema.org/url> <https://www.marshallgoldsmith.com/post/try-feedforward-instead-of-feedback> .
+  <https://github.com/john1hsu/communication-graph/id/source/feedforward/s2> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/feedforward/s2> <http://purl.org/dc/terms/publisher> "Kluger & Nir, Human Resource Management Review 20(3), 235-246 (2010), Hebrew University research portal" .
+  <https://github.com/john1hsu/communication-graph/id/source/feedforward/s2> <http://purl.org/dc/terms/title> "The feedforward interview" .
+  <https://github.com/john1hsu/communication-graph/id/source/feedforward/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/feedforward/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/feedforward/s2> <https://schema.org/url> <https://cris.huji.ac.il/en/publications/the-feedforward-interview/> .
+  <https://github.com/john1hsu/communication-graph/id/source/feedforward/s3> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/feedforward/s3> <http://purl.org/dc/terms/publisher> "Gnepp, Klayman, Williamson & Barlas, PLoS ONE 15(6) e0234444 (2020), DOAJ record" .
+  <https://github.com/john1hsu/communication-graph/id/source/feedforward/s3> <http://purl.org/dc/terms/title> "The future of feedback: Motivating performance improvement through future-focused feedback" .
+  <https://github.com/john1hsu/communication-graph/id/source/feedforward/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/feedforward/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/feedforward/s3> <https://schema.org/url> <https://doaj.org/article/820b1f29c266446da21677ec16489c12> .
+  <https://github.com/john1hsu/communication-graph/id/source/feedforward/s4> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/feedforward/s4> <http://purl.org/dc/terms/publisher> "Bridget, Human Resource Management International Digest 25(5), 7-9 (2017), University of New England repository" .
+  <https://github.com/john1hsu/communication-graph/id/source/feedforward/s4> <http://purl.org/dc/terms/title> "Feedforward or feedback - reframing positive performance management" .
+  <https://github.com/john1hsu/communication-graph/id/source/feedforward/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/feedforward/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "practitioner-journal" .
+  <https://github.com/john1hsu/communication-graph/id/source/feedforward/s4> <https://schema.org/url> <https://rune.une.edu.au/web/retrieve/3c84fa1c-4103-4326-8827-67c2ea1b1404> .
+  <https://github.com/john1hsu/communication-graph/id/source/feedforward/s5> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/feedforward/s5> <http://purl.org/dc/terms/publisher> "Rotman Insights Hub, Rotman School of Management, University of Toronto" .
+  <https://github.com/john1hsu/communication-graph/id/source/feedforward/s5> <http://purl.org/dc/terms/title> "Feedforward reviews" .
+  <https://github.com/john1hsu/communication-graph/id/source/feedforward/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/feedforward/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/communication-graph/id/source/feedforward/s5> <https://schema.org/url> <https://www-2.rotman.utoronto.ca/insightshub/talent-management-inclusion/feedforward-reviews> .
+}
+
 <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact#graph> {
   <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
   <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Could the other person picture the exact moment I mean, or did I say something vague like \"lately\"?" .
@@ -1257,6 +1372,7 @@
   <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/feedback-and-coaching> .
   <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> <http://www.w3.org/2004/02/skos/core#prefLabel> "Situation-Behavior-Impact" .
   <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> .
+  <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/feedforward> .
   <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/i-statements> .
   <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/nonviolent-communication> .
   <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/situation-behavior-impact/s1> .
@@ -3237,6 +3353,7 @@
   <https://github.com/john1hsu/communication-graph/id/active-listening> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <https://github.com/john1hsu/communication-graph/ontology#developedBy> <https://github.com/john1hsu/communication-graph/id/paraphrasing> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/difficult-conversation> .
+  <https://github.com/john1hsu/communication-graph/id/active-listening> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/feedforward> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <https://github.com/john1hsu/communication-graph/ontology#underminedBy> <https://github.com/john1hsu/communication-graph/id/defensiveness> .
   <https://github.com/john1hsu/communication-graph/id/active-voice/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/active-voice/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -3354,6 +3471,7 @@
   <https://github.com/john1hsu/communication-graph/id/brooks-2014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/brooks-2014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/brooks-2014> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> .
+  <https://github.com/john1hsu/communication-graph/id/budworth-latham-manroop-2015> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/feedforward> .
   <https://github.com/john1hsu/communication-graph/id/burying-the-lede> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
   <https://github.com/john1hsu/communication-graph/id/camerer-loewenstein-weber-1989> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/camerer-loewenstein-weber-1989> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
@@ -3435,6 +3553,7 @@
   <https://github.com/john1hsu/communication-graph/id/defensiveness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/defensiveness> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-climate> .
   <https://github.com/john1hsu/communication-graph/id/defensiveness> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+  <https://github.com/john1hsu/communication-graph/id/defensiveness> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/feedforward> .
   <https://github.com/john1hsu/communication-graph/id/defensiveness> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/i-statements> .
   <https://github.com/john1hsu/communication-graph/id/defensiveness> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> .
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/difficult-conversation> .
@@ -3454,6 +3573,7 @@
   <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/feedback> .
   <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/intercultural-communication> .
+  <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/feedforward> .
   <https://github.com/john1hsu/communication-graph/id/dutton-et-al-1997> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/issue-selling> .
   <https://github.com/john1hsu/communication-graph/id/dutton-et-al-2001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/dutton-et-al-2001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
@@ -3503,12 +3623,23 @@
   <https://github.com/john1hsu/communication-graph/id/feedback-that-works> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
   <https://github.com/john1hsu/communication-graph/id/feedback-that-works> <https://github.com/john1hsu/communication-graph/ontology#introduces> <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> .
   <https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> .
+  <https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/feedforward> .
   <https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> .
   <https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> .
+  <https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/feedforward> .
   <https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> .
   <https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/defensiveness> .
   <https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/difficult-conversation> .
   <https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
+  <https://github.com/john1hsu/communication-graph/id/feedforward-interview> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/feedforward> .
+  <https://github.com/john1hsu/communication-graph/id/feedforward/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/feedforward/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/feedforward/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/feedforward/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/feedforward/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/feedforward> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+  <https://github.com/john1hsu/communication-graph/id/feedforward> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/feedforward> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/feedback> .
   <https://github.com/john1hsu/communication-graph/id/fifty-years-of-stupid-grammar-advice> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/william-strunk-jr> .
   <https://github.com/john1hsu/communication-graph/id/first-offer> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/batna> .
   <https://github.com/john1hsu/communication-graph/id/first-offer> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/batna> .
@@ -3521,6 +3652,7 @@
   <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> .
+  <https://github.com/john1hsu/communication-graph/id/gnepp-et-al-2020> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/feedforward> .
   <https://github.com/john1hsu/communication-graph/id/good-enough-processing> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/active-voice> .
   <https://github.com/john1hsu/communication-graph/id/group-cohesiveness> <https://github.com/john1hsu/communication-graph/ontology#confusedWith> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
   <https://github.com/john1hsu/communication-graph/id/ha-dinh-et-al-2016> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/teach-back> .
@@ -3652,6 +3784,9 @@
   <https://github.com/john1hsu/communication-graph/id/mark-et-al-2016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/mark-et-al-2016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/mark-et-al-2016> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/email> .
+  <https://github.com/john1hsu/communication-graph/id/marshall-goldsmith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/marshall-goldsmith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+  <https://github.com/john1hsu/communication-graph/id/marshall-goldsmith> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/feedforward> .
   <https://github.com/john1hsu/communication-graph/id/media-richness-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/message-equivocality-media-selection-and-manager-performance> .
   <https://github.com/john1hsu/communication-graph/id/media-richness-theory> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/channel-selection> .
   <https://github.com/john1hsu/communication-graph/id/media-richness-theory> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/message-equivocality-media-selection-and-manager-performance> .
@@ -3681,6 +3816,7 @@
   <https://github.com/john1hsu/communication-graph/id/nonviolent-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> .
   <https://github.com/john1hsu/communication-graph/id/norm-of-reciprocity> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/influence-without-authority> .
   <https://github.com/john1hsu/communication-graph/id/nutt-1999> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping> .
+  <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/feedforward> .
   <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/active-listening> .
   <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/managing-up> .
   <https://github.com/john1hsu/communication-graph/id/open-ended-questions/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -3717,6 +3853,7 @@
   <https://github.com/john1hsu/communication-graph/id/passive-voice> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/active-voice> .
   <https://github.com/john1hsu/communication-graph/id/patient-education> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/teach-back> .
   <https://github.com/john1hsu/communication-graph/id/pearsall-ellis-2011> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
+  <https://github.com/john1hsu/communication-graph/id/performance-review> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/feedforward> .
   <https://github.com/john1hsu/communication-graph/id/performance-review> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> .
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/influence-without-authority> .
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/issue-selling> .

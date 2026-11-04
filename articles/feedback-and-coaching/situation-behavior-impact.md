@@ -11,7 +11,7 @@ summary: >-
 level: introductory
 evidenceStatus: practitioner
 broader: [cm:feedback]
-related: [cm:i-statements, cm:direct-vs-indirect-feedback, cm:nonviolent-communication]
+related: [cm:i-statements, cm:direct-vs-indirect-feedback, cm:nonviolent-communication, cm:feedforward]
 requires: []
 relations:
   - {predicate: addresses, object: cm:defensiveness, source: s1, confidence: medium}

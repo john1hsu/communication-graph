@@ -1334,6 +1334,105 @@
   ]
  },
  {
+  "id": "cm:feedforward",
+  "title": "Feedforward",
+  "aliases": [
+   "feed-forward",
+   "future-focused feedback",
+   "try feedforward instead of feedback"
+  ],
+  "type": "Technique",
+  "domain": "feedback-and-coaching",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/feedback-and-coaching/feedforward.md",
+  "created": "2026-11-04",
+  "summary": "A development technique popularised by executive coach Marshall Goldsmith: instead of reviewing what someone did wrong, you name one behaviour you want to improve and ask others for a couple of concrete suggestions for the future, which you listen to and thank them for without debate.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:feedback"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:feedforward-interview"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:situation-behavior-impact"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:direct-vs-indirect-feedback"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:one-on-one-meetings"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:active-listening"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:marshall-goldsmith",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:defensiveness",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:performance-review",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:gnepp-et-al-2020",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:budworth-latham-manroop-2015",
+    "source": "s4",
+    "confidence": "low"
+   }
+  ],
+  "selfCheck": [
+   "Have I named one behaviour I want to improve in the future, rather than asking for a verdict on the past?",
+   "When a suggestion arrived, did I say \"thank you\" - or did I explain why it would not work?",
+   "Am I using feedforward to avoid a conversation about a real problem that still needs to be discussed?",
+   "Which of the suggestions will I actually try, and have I told the people who gave them?"
+  ],
+  "steps": [
+   "Pick one specific behaviour you want to get better at, phrased as a future goal (\"run tighter project kick-offs\"), not a past failure.",
+   "Describe that goal briefly to a colleague who has seen you work or who knows the subject - they do not need to be your manager.",
+   "Ask for two concrete suggestions for the future, and make clear you are not asking for a review of anything that already happened.",
+   "Listen and write the suggestions down without judging, explaining or defending - the only permitted reply is \"thank you\".",
+   "Offer to return the favour - ask what they want to improve and give them two forward-looking suggestions in turn.",
+   "Repeat with a few different people, then choose the suggestions you will actually try and tell those colleagues what you changed."
+  ],
+  "example": {
+   "situation": "A project manager whose kick-off meetings regularly overrun wants to improve before the next quarter's projects start.",
+   "before": "Can you give me some feedback on last week's kick-off? I know it ran 40 minutes over, but the client kept raising scope questions, so honestly I'm not sure what I could have done differently.",
+   "after": "I'm working on running kick-offs that finish on time. Could you give me two ideas I could try at the next one? I'll just note them down - no need to go back over last week.",
+   "why": "The first version invites a debate about a past meeting and opens with a defence, so the colleague has to argue to be helpful; the rewrite names a future goal, asks for a bounded number of ideas and promises not to argue, which makes it easy to offer useful suggestions."
+  },
+  "source_urls": [
+   "https://www.marshallgoldsmith.com/post/try-feedforward-instead-of-feedback",
+   "https://cris.huji.ac.il/en/publications/the-feedforward-interview/",
+   "https://doaj.org/article/820b1f29c266446da21677ec16489c12",
+   "https://rune.une.edu.au/web/retrieve/3c84fa1c-4103-4326-8827-67c2ea1b1404",
+   "https://www-2.rotman.utoronto.ca/insightshub/talent-management-inclusion/feedforward-reviews"
+  ]
+ },
+ {
   "id": "cm:george-loewenstein",
   "title": "George Loewenstein",
   "aliases": [
@@ -2606,6 +2705,10 @@
    {
     "predicate": "skos:related",
     "object": "cm:nonviolent-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:feedforward"
    },
    {
     "predicate": "cmo:addresses",
