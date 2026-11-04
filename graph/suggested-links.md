@@ -14,7 +14,7 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 1.75 | `cm:defensiveness` | `cm:direct-vs-indirect-feedback` | `cm:feedback`, `cm:feedforward`, `cm:i-statements`, `cm:situation-behavior-impact` |
 | 1.54 | `cm:feedforward` | `cm:i-statements` | `cm:active-listening`, `cm:defensiveness`, `cm:direct-vs-indirect-feedback`, `cm:situation-behavior-impact` |
 | 1.51 | `cm:defensiveness` | `cm:paraphrasing` | `cm:active-listening`, `cm:difficult-conversation`, `cm:i-statements`, `cm:situation-behavior-impact` |
-| 1.51 | `cm:channel-selection` | `cm:issue-selling` | `cm:audience-analysis`, `cm:bottom-line-up-front`, `cm:managing-up`, `cm:stakeholder-mapping` |
+| 1.49 | `cm:channel-selection` | `cm:issue-selling` | `cm:audience-analysis`, `cm:bottom-line-up-front`, `cm:managing-up`, `cm:stakeholder-mapping` |
 | 1.48 | `cm:bottom-line-up-front` | `cm:stakeholder-mapping` | `cm:audience-analysis`, `cm:channel-selection`, `cm:issue-selling`, `cm:managing-up` |
 | 1.46 | `cm:bottom-line-up-front` | `cm:curse-of-knowledge` | `cm:audience-analysis`, `cm:channel-selection`, `cm:email`, `cm:plain-language` |
 | 1.45 | `cm:channel-selection` | `cm:plain-language` | `cm:audience-analysis`, `cm:bottom-line-up-front`, `cm:curse-of-knowledge`, `cm:email` |
@@ -28,4 +28,4 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 1.21 | `cm:audience-analysis` | `cm:illusion-of-transparency` | `cm:curse-of-knowledge`, `cm:email`, `cm:george-loewenstein` |
 | 1.20 | `cm:active-listening` | `cm:direct-vs-indirect-feedback` | `cm:feedforward`, `cm:i-statements`, `cm:situation-behavior-impact` |
 | 1.16 | `cm:channel-selection` | `cm:high-and-low-context-cultures` | `cm:audience-analysis`, `cm:bottom-line-up-front`, `cm:mehrabian-myth` |
-| 1.16 | `cm:channel-selection` | `cm:influence-without-authority` | `cm:audience-analysis`, `cm:managing-up`, `cm:stakeholder-mapping` |
+| 1.14 | `cm:channel-selection` | `cm:influence-without-authority` | `cm:audience-analysis`, `cm:managing-up`, `cm:stakeholder-mapping` |

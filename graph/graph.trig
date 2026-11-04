@@ -169,6 +169,13 @@
 <https://github.com/john1hsu/communication-graph/id/paraphrasing#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/paraphrasing/s3> .
 <https://github.com/john1hsu/communication-graph/id/paraphrasing#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/paraphrasing/s4> .
 <https://github.com/john1hsu/communication-graph/id/paraphrasing#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/paraphrasing/s5> .
+<https://github.com/john1hsu/communication-graph/id/nominal-group-technique#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/nominal-group-technique#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> .
+<https://github.com/john1hsu/communication-graph/id/nominal-group-technique#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/meetings-and-facilitation/nominal-group-technique.md" .
+<https://github.com/john1hsu/communication-graph/id/nominal-group-technique#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/nominal-group-technique/s1> .
+<https://github.com/john1hsu/communication-graph/id/nominal-group-technique#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/nominal-group-technique/s2> .
+<https://github.com/john1hsu/communication-graph/id/nominal-group-technique#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/nominal-group-technique/s3> .
+<https://github.com/john1hsu/communication-graph/id/nominal-group-technique#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/nominal-group-technique/s4> .
 <https://github.com/john1hsu/communication-graph/id/psychological-safety#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/psychological-safety#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
 <https://github.com/john1hsu/communication-graph/id/psychological-safety#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/meetings-and-facilitation/psychological-safety.md" .
@@ -2165,6 +2172,107 @@
   <https://github.com/john1hsu/communication-graph/id/source/paraphrasing/s5> <https://schema.org/url> <https://cris.huji.ac.il/en/publications/a-meta-analytic-systematic-review-and-theory-of-the-effects-of-pe/> .
 }
 
+<https://github.com/john1hsu/communication-graph/id/nominal-group-technique#graph> {
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Is my question specific enough that people could write concrete answers to it on their own?" .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Did I protect the silent-writing and round-robin phases from early debate or evaluation, including my own?" .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Did each person rank privately, so seniors' preferences were not visible before others voted?" .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Is this really a single-question, prioritise-and-decide meeting, or does the topic need open exploration first?" .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique/example> <https://github.com/john1hsu/communication-graph/ontology#after> "Take ten minutes and write down, on your own, every process problem that slows you down. Then we'll go round the table one idea at a time, I'll number them, and everyone ranks their top five privately before we talk priorities." .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique/example> <https://github.com/john1hsu/communication-graph/ontology#before> "Okay, open floor - what should we fix first? ... Great point, Sam [senior lead], the ticketing tool is a mess. Anyone disagree? No? Let's go with that." .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "An operations manager runs a one-hour meeting with eight team members, including two senior leads, to decide which process problems to fix first next quarter." .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique/example> <https://github.com/john1hsu/communication-graph/ontology#why> "The open floor lets the first senior voice anchor the room and blocks quieter people from offering ideas; silent writing and private ranking let every member contribute and weigh in equally before status and conversation shape the outcome." .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique/howto/1> <https://schema.org/text> "Write one specific, open question on the board or shared screen and read it aloud, for example \"What are the biggest obstacles to closing month-end two days faster?\"" .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique/howto/2> <https://schema.org/text> "Give everyone 10-20 minutes of silent, individual writing to list as many answers as they can, with no talking." .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique/howto/3> <https://schema.org/text> "Run a round robin - each person reads out one idea per turn, which you record verbatim and number - and keep going until the lists are exhausted; allow no debate yet." .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique/howto/4> <https://schema.org/text> "Walk through the numbered list for clarification only, letting anyone explain an item, and merge true duplicates with the agreement of the people who raised them." .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique/howto/5> <https://schema.org/text> "Ask each person to privately pick and rank their top five items (5 points for the most important down to 1), then tally the scores in front of the group." .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique/howto/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique/howto/6> <https://schema.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique/howto/6> <https://schema.org/text> "Discuss the top-ranked items and the surprises in the tally, and, if the scores are close, run a second private vote before you commit to next steps." .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique/howto> <https://schema.org/name> "Nominal group technique" .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique/howto/1> .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique/howto/2> .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique/howto/3> .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique/howto/4> .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique/howto/5> .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique/howto/6> .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> <http://purl.org/dc/terms/created> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Technique> .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> <http://www.w3.org/2000/01/rdf-schema#label> "Nominal group technique" .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> <http://www.w3.org/2004/02/skos/core#altLabel> "NGT" .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> <http://www.w3.org/2004/02/skos/core#altLabel> "nominal group process" .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/facilitation> .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/group-decision-making> .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> <http://www.w3.org/2004/02/skos/core#definition> "A structured meeting method for generating and prioritising ideas in which people first write ideas silently and alone, then share them one at a time in a round robin, clarify them, and finally rank them privately so the group's priorities come from pooled individual votes." .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/meetings-and-facilitation> .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nominal group technique" .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/open-ended-questions> .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping> .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/nominal-group-technique/s1> .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/nominal-group-technique/s2> .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/nominal-group-technique/s3> .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/nominal-group-technique/s4> .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/production-blocking> .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/unequal-participation> .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> <https://github.com/john1hsu/communication-graph/ontology#alternativeTo> <https://github.com/john1hsu/communication-graph/id/brainstorming> .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> <https://github.com/john1hsu/communication-graph/ontology#alternativeTo> <https://github.com/john1hsu/communication-graph/id/delphi-technique> .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/stakeholder-consultation> .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/van-de-ven-delbecq-1974> .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> <https://github.com/john1hsu/communication-graph/ontology#domain> "meetings-and-facilitation" .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique/example> .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/meetings-and-facilitation/nominal-group-technique.md" .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique/howto> .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/andre-delbecq> .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/andrew-van-de-ven> .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+  <https://github.com/john1hsu/communication-graph/id/source/nominal-group-technique/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/nominal-group-technique/s1> <http://purl.org/dc/terms/publisher> "Andrew H. Van de Ven & André L. Delbecq, Academy of Management Journal 17(4), 605-621, 1974, doi:10.5465/255641 (Scilit record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/nominal-group-technique/s1> <http://purl.org/dc/terms/title> "The Effectiveness of Nominal, Delphi, and Interacting Group Decision Making Processes" .
+  <https://github.com/john1hsu/communication-graph/id/source/nominal-group-technique/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/nominal-group-technique/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/nominal-group-technique/s1> <https://schema.org/url> <https://scilit.com/publications/4bd938e9ada1063d87729b39177e81b9> .
+  <https://github.com/john1hsu/communication-graph/id/source/nominal-group-technique/s2> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/nominal-group-technique/s2> <http://purl.org/dc/terms/publisher> "Sara S. McMillan, Michelle King & Mary P. Tully, International Journal of Clinical Pharmacy 38, 655-662, 2016 (Springer)" .
+  <https://github.com/john1hsu/communication-graph/id/source/nominal-group-technique/s2> <http://purl.org/dc/terms/title> "How to use the nominal group and Delphi techniques" .
+  <https://github.com/john1hsu/communication-graph/id/source/nominal-group-technique/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/nominal-group-technique/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/nominal-group-technique/s2> <https://schema.org/url> <https://rd.springer.com/content/pdf/10.1007/s11096-016-0257-x.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/nominal-group-technique/s3> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/nominal-group-technique/s3> <http://purl.org/dc/terms/publisher> "Michael Diehl & Wolfgang Stroebe, Journal of Personality and Social Psychology 53(3), 497-509, 1987 (course copy hosted at Universität Münster)" .
+  <https://github.com/john1hsu/communication-graph/id/source/nominal-group-technique/s3> <http://purl.org/dc/terms/title> "Productivity Loss in Brainstorming Groups: Toward the Solution of a Riddle" .
+  <https://github.com/john1hsu/communication-graph/id/source/nominal-group-technique/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/nominal-group-technique/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/nominal-group-technique/s3> <https://schema.org/url> <https://www.uni-muenster.de/imperia/md/content/psyifp/aeechterhoff/wintersemester2011-12/seminarthemenfelderdersozialpsychologie/08_diehl_stoebe_productivityloss-brainstorming_jpsp1987.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/nominal-group-technique/s4> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/nominal-group-technique/s4> <http://purl.org/dc/terms/publisher> "Cetin-Sahin, Arsenault-Lapierre, Bolster-Foucault et al., Annals of Family Medicine 22(6), 525-532, 2024, doi:10.1370/afm.3166" .
+  <https://github.com/john1hsu/communication-graph/id/source/nominal-group-technique/s4> <http://purl.org/dc/terms/title> "Building Timely Consensus Among Diverse Stakeholders: An Adapted Nominal Group Technique" .
+  <https://github.com/john1hsu/communication-graph/id/source/nominal-group-technique/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/nominal-group-technique/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/nominal-group-technique/s4> <https://schema.org/url> <https://www.annfammed.org/content/22/6/525.abstract> .
+}
+
 <https://github.com/john1hsu/communication-graph/id/psychological-safety#graph> {
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://purl.org/dc/terms/created> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Phenomenon> .
@@ -3847,6 +3955,12 @@
   <https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/batna> .
   <https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> .
   <https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/spotlight-effect> .
+  <https://github.com/john1hsu/communication-graph/id/andre-delbecq> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/andre-delbecq> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+  <https://github.com/john1hsu/communication-graph/id/andre-delbecq> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> .
+  <https://github.com/john1hsu/communication-graph/id/andrew-van-de-ven> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/andrew-van-de-ven> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+  <https://github.com/john1hsu/communication-graph/id/andrew-van-de-ven> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> .
   <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -3933,6 +4047,7 @@
   <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability> .
   <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/email> .
   <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <https://github.com/john1hsu/communication-graph/ontology#introducedIn> <https://github.com/john1hsu/communication-graph/id/effective-writing-for-army-leaders> .
+  <https://github.com/john1hsu/communication-graph/id/brainstorming> <https://github.com/john1hsu/communication-graph/ontology#alternativeTo> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> .
   <https://github.com/john1hsu/communication-graph/id/brett-pinkley-jackofsky-1996> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/brett-pinkley-jackofsky-1996> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/brett-pinkley-jackofsky-1996> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/batna> .
@@ -4030,6 +4145,7 @@
   <https://github.com/john1hsu/communication-graph/id/defensiveness> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/i-statements> .
   <https://github.com/john1hsu/communication-graph/id/defensiveness> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> .
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/difficult-conversation> .
+  <https://github.com/john1hsu/communication-graph/id/delphi-technique> <https://github.com/john1hsu/communication-graph/ontology#alternativeTo> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> .
   <https://github.com/john1hsu/communication-graph/id/dennis-kinney-1998> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/channel-selection> .
   <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -4103,6 +4219,8 @@
   <https://github.com/john1hsu/communication-graph/id/face-to-face-conversation> <https://github.com/john1hsu/communication-graph/ontology#alternativeTo> <https://github.com/john1hsu/communication-graph/id/email> .
   <https://github.com/john1hsu/communication-graph/id/face-to-face-conversation> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/rapport> .
   <https://github.com/john1hsu/communication-graph/id/facial-expressions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> .
+  <https://github.com/john1hsu/communication-graph/id/facilitation> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> .
+  <https://github.com/john1hsu/communication-graph/id/facilitation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> .
   <https://github.com/john1hsu/communication-graph/id/fear-and-loathing-of-the-english-passive> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/active-voice> .
   <https://github.com/john1hsu/communication-graph/id/feedback-sandwich> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> .
   <https://github.com/john1hsu/communication-graph/id/feedback-sandwich> <https://github.com/john1hsu/communication-graph/ontology#alternativeTo> <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> .
@@ -4149,6 +4267,8 @@
   <https://github.com/john1hsu/communication-graph/id/gnepp-et-al-2020> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/feedforward> .
   <https://github.com/john1hsu/communication-graph/id/good-enough-processing> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/active-voice> .
   <https://github.com/john1hsu/communication-graph/id/group-cohesiveness> <https://github.com/john1hsu/communication-graph/ontology#confusedWith> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
+  <https://github.com/john1hsu/communication-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> .
+  <https://github.com/john1hsu/communication-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> .
   <https://github.com/john1hsu/communication-graph/id/ha-dinh-et-al-2016> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/teach-back> .
   <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -4326,6 +4446,15 @@
   <https://github.com/john1hsu/communication-graph/id/multicultural-team> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/the-culture-map> .
   <https://github.com/john1hsu/communication-graph/id/negotiation-preparation> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/batna> .
   <https://github.com/john1hsu/communication-graph/id/negotiation-preparation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/batna> .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/facilitation> .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/group-decision-making> .
   <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> .
   <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> .
   <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/rapport> .
@@ -4345,6 +4474,7 @@
   <https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/questioning> .
+  <https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> .
   <https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/paraphrasing> .
   <https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> .
   <https://github.com/john1hsu/communication-graph/id/open-ended-questions> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/active-listening> .
@@ -4411,6 +4541,7 @@
   <https://github.com/john1hsu/communication-graph/id/principled-negotiation> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/batna> .
   <https://github.com/john1hsu/communication-graph/id/principled-negotiation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/batna> .
   <https://github.com/john1hsu/communication-graph/id/principled-negotiation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/influence-without-authority> .
+  <https://github.com/john1hsu/communication-graph/id/production-blocking> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> .
   <https://github.com/john1hsu/communication-graph/id/project-aristotle> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -4418,6 +4549,7 @@
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/active-listening> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/issue-selling> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/managing-up> .
+  <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/rapport> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/spotlight-effect> .
@@ -4516,6 +4648,7 @@
   <https://github.com/john1hsu/communication-graph/id/spotlight-effect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/spotlight-effect> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/egocentric-bias> .
   <https://github.com/john1hsu/communication-graph/id/spotlight-effect> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/self-distancing> .
+  <https://github.com/john1hsu/communication-graph/id/stakeholder-consultation> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> .
   <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -4524,6 +4657,7 @@
   <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/persuasion> .
+  <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> .
   <https://github.com/john1hsu/communication-graph/id/stakeholder-salience-theory> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping> .
   <https://github.com/john1hsu/communication-graph/id/stakeholder-theory> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping> .
   <https://github.com/john1hsu/communication-graph/id/status-reporting> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/managing-up> .
@@ -4560,7 +4694,11 @@
   <https://github.com/john1hsu/communication-graph/id/thomas-gordon> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/i-statements> .
   <https://github.com/john1hsu/communication-graph/id/three-conversations-framework> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/difficult-conversation> .
   <https://github.com/john1hsu/communication-graph/id/unclear-ownership> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/active-voice> .
+  <https://github.com/john1hsu/communication-graph/id/unequal-participation> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> .
   <https://github.com/john1hsu/communication-graph/id/vague-probability-language> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability> .
+  <https://github.com/john1hsu/communication-graph/id/van-de-ven-delbecq-1974> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/van-de-ven-delbecq-1974> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
+  <https://github.com/john1hsu/communication-graph/id/van-de-ven-delbecq-1974> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> .
   <https://github.com/john1hsu/communication-graph/id/weger-castle-emmett-2010> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> .
   <https://github.com/john1hsu/communication-graph/id/weger-castle-emmett-2010> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/paraphrasing> .
   <https://github.com/john1hsu/communication-graph/id/weger-castle-emmett-2010> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> .

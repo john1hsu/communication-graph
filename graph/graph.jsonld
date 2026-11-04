@@ -2047,6 +2047,97 @@
    ]
   },
   {
+   "@id": "cm:nominal-group-technique",
+   "@type": "cmo:Technique",
+   "cmo:addresses": [
+    {
+     "@id": "cm:production-blocking"
+    },
+    {
+     "@id": "cm:unequal-participation"
+    }
+   ],
+   "cmo:alternativeTo": [
+    {
+     "@id": "cm:brainstorming"
+    },
+    {
+     "@id": "cm:delphi-technique"
+    }
+   ],
+   "cmo:appliedIn": {
+    "@id": "cm:stakeholder-consultation"
+   },
+   "cmo:demonstratedBy": {
+    "@id": "cm:van-de-ven-delbecq-1974"
+   },
+   "cmo:domain": "meetings-and-facilitation",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/nominal-group-technique/example"
+   },
+   "cmo:file": "articles/meetings-and-facilitation/nominal-group-technique.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/nominal-group-technique/howto"
+   },
+   "cmo:introducedBy": [
+    {
+     "@id": "cm:andre-delbecq"
+    },
+    {
+     "@id": "cm:andrew-van-de-ven"
+    }
+   ],
+   "cmo:level": "intermediate",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/nominal-group-technique/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/nominal-group-technique/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/nominal-group-technique/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/nominal-group-technique/s4"
+    }
+   ],
+   "rdfs:label": "Nominal group technique",
+   "skos:altLabel": [
+    "NGT",
+    "nominal group process"
+   ],
+   "skos:broader": [
+    {
+     "@id": "cm:facilitation"
+    },
+    {
+     "@id": "cm:group-decision-making"
+    }
+   ],
+   "skos:definition": "A structured meeting method for generating and prioritising ideas in which people first write ideas silently and alone, then share them one at a time in a round robin, clarify them, and finally rank them privately so the group's priorities come from pooled individual votes.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/meetings-and-facilitation"
+   },
+   "skos:prefLabel": "Nominal group technique",
+   "skos:related": [
+    {
+     "@id": "cm:open-ended-questions"
+    },
+    {
+     "@id": "cm:psychological-safety"
+    },
+    {
+     "@id": "cm:stakeholder-mapping"
+    }
+   ]
+  },
+  {
    "@id": "cm:open-ended-questions",
    "@type": "cmo:Technique",
    "cmo:challengedBy": {
@@ -4482,6 +4573,107 @@
    "rdfs:label": "Would I be comfortable if my manager saw exactly how I prepared for this conversation, or does it rely on flattery or spin?"
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/nominal-group-technique/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:nominal-group-technique"
+   },
+   "rdfs:label": "Is my question specific enough that people could write concrete answers to it on their own?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/nominal-group-technique/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:nominal-group-technique"
+   },
+   "rdfs:label": "Did I protect the silent-writing and round-robin phases from early debate or evaluation, including my own?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/nominal-group-technique/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:nominal-group-technique"
+   },
+   "rdfs:label": "Did each person rank privately, so seniors' preferences were not visible before others voted?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/nominal-group-technique/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:nominal-group-technique"
+   },
+   "rdfs:label": "Is this really a single-question, prioritise-and-decide meeting, or does the topic need open exploration first?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/nominal-group-technique/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "Take ten minutes and write down, on your own, every process problem that slows you down. Then we'll go round the table one idea at a time, I'll number them, and everyone ranks their top five privately before we talk priorities.",
+   "cmo:before": "Okay, open floor - what should we fix first? ... Great point, Sam [senior lead], the ticketing tool is a mess. Anyone disagree? No? Let's go with that.",
+   "cmo:situation": "An operations manager runs a one-hour meeting with eight team members, including two senior leads, to decide which process problems to fix first next quarter.",
+   "cmo:why": "The open floor lets the first senior voice anchor the room and blocks quieter people from offering ideas; silent writing and private ranking let every member contribute and weigh in equally before status and conversation shape the outcome."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/nominal-group-technique/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Nominal group technique",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/nominal-group-technique/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/nominal-group-technique/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/nominal-group-technique/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/nominal-group-technique/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/nominal-group-technique/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/nominal-group-technique/howto/6"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/nominal-group-technique/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Write one specific, open question on the board or shared screen and read it aloud, for example \"What are the biggest obstacles to closing month-end two days faster?\""
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/nominal-group-technique/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Give everyone 10-20 minutes of silent, individual writing to list as many answers as they can, with no talking."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/nominal-group-technique/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Run a round robin - each person reads out one idea per turn, which you record verbatim and number - and keep going until the lists are exhausted; allow no debate yet."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/nominal-group-technique/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Walk through the numbered list for clarification only, letting anyone explain an item, and merge true duplicates with the agreement of the people who raised them."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/nominal-group-technique/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Ask each person to privately pick and rank their top five items (5 points for the most important down to 1), then tally the scores in front of the group."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/nominal-group-technique/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "Discuss the top-ranked items and the surprises in the tally, and, if the scores are close, run a second private vote before you commit to next steps."
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/open-ended-questions/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -6838,6 +7030,62 @@
    "dcterms:title": "Organizational Information Requirements, Media Richness and Structural Design",
    "schema:url": {
     "@id": "https://collablab.northwestern.edu//CollabolabDistro/nucmc/DaftAndLengel-OrgInfoReq-MediaRichnessAndStructuralDesign-MngmtSci-1986.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/nominal-group-technique/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Andrew H. Van de Ven & André L. Delbecq, Academy of Management Journal 17(4), 605-621, 1974, doi:10.5465/255641 (Scilit record)",
+   "dcterms:title": "The Effectiveness of Nominal, Delphi, and Interacting Group Decision Making Processes",
+   "schema:url": {
+    "@id": "https://scilit.com/publications/4bd938e9ada1063d87729b39177e81b9"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/nominal-group-technique/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Sara S. McMillan, Michelle King & Mary P. Tully, International Journal of Clinical Pharmacy 38, 655-662, 2016 (Springer)",
+   "dcterms:title": "How to use the nominal group and Delphi techniques",
+   "schema:url": {
+    "@id": "https://rd.springer.com/content/pdf/10.1007/s11096-016-0257-x.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/nominal-group-technique/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Michael Diehl & Wolfgang Stroebe, Journal of Personality and Social Psychology 53(3), 497-509, 1987 (course copy hosted at Universität Münster)",
+   "dcterms:title": "Productivity Loss in Brainstorming Groups: Toward the Solution of a Riddle",
+   "schema:url": {
+    "@id": "https://www.uni-muenster.de/imperia/md/content/psyifp/aeechterhoff/wintersemester2011-12/seminarthemenfelderdersozialpsychologie/08_diehl_stoebe_productivityloss-brainstorming_jpsp1987.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/nominal-group-technique/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Cetin-Sahin, Arsenault-Lapierre, Bolster-Foucault et al., Annals of Family Medicine 22(6), 525-532, 2024, doi:10.1370/afm.3166",
+   "dcterms:title": "Building Timely Consensus Among Diverse Stakeholders: An Adapted Nominal Group Technique",
+   "schema:url": {
+    "@id": "https://www.annfammed.org/content/22/6/525.abstract"
    }
   },
   {

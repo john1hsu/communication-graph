@@ -2318,6 +2318,117 @@
   ]
  },
  {
+  "id": "cm:nominal-group-technique",
+  "title": "Nominal group technique",
+  "aliases": [
+   "NGT",
+   "nominal group process"
+  ],
+  "type": "Technique",
+  "domain": "meetings-and-facilitation",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/meetings-and-facilitation/nominal-group-technique.md",
+  "created": "2026-11-04",
+  "summary": "A structured meeting method for generating and prioritising ideas in which people first write ideas silently and alone, then share them one at a time in a round robin, clarify them, and finally rank them privately so the group's priorities come from pooled individual votes.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:facilitation"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "cm:group-decision-making"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:psychological-safety"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:stakeholder-mapping"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:open-ended-questions"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:andre-delbecq",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:andrew-van-de-ven",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:van-de-ven-delbecq-1974",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:production-blocking",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:unequal-participation",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:alternativeTo",
+    "object": "cm:delphi-technique",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:alternativeTo",
+    "object": "cm:brainstorming",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:stakeholder-consultation",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Is my question specific enough that people could write concrete answers to it on their own?",
+   "Did I protect the silent-writing and round-robin phases from early debate or evaluation, including my own?",
+   "Did each person rank privately, so seniors' preferences were not visible before others voted?",
+   "Is this really a single-question, prioritise-and-decide meeting, or does the topic need open exploration first?"
+  ],
+  "steps": [
+   "Write one specific, open question on the board or shared screen and read it aloud, for example \"What are the biggest obstacles to closing month-end two days faster?\"",
+   "Give everyone 10-20 minutes of silent, individual writing to list as many answers as they can, with no talking.",
+   "Run a round robin - each person reads out one idea per turn, which you record verbatim and number - and keep going until the lists are exhausted; allow no debate yet.",
+   "Walk through the numbered list for clarification only, letting anyone explain an item, and merge true duplicates with the agreement of the people who raised them.",
+   "Ask each person to privately pick and rank their top five items (5 points for the most important down to 1), then tally the scores in front of the group.",
+   "Discuss the top-ranked items and the surprises in the tally, and, if the scores are close, run a second private vote before you commit to next steps."
+  ],
+  "example": {
+   "situation": "An operations manager runs a one-hour meeting with eight team members, including two senior leads, to decide which process problems to fix first next quarter.",
+   "before": "Okay, open floor - what should we fix first? ... Great point, Sam [senior lead], the ticketing tool is a mess. Anyone disagree? No? Let's go with that.",
+   "after": "Take ten minutes and write down, on your own, every process problem that slows you down. Then we'll go round the table one idea at a time, I'll number them, and everyone ranks their top five privately before we talk priorities.",
+   "why": "The open floor lets the first senior voice anchor the room and blocks quieter people from offering ideas; silent writing and private ranking let every member contribute and weigh in equally before status and conversation shape the outcome."
+  },
+  "source_urls": [
+   "https://scilit.com/publications/4bd938e9ada1063d87729b39177e81b9",
+   "https://rd.springer.com/content/pdf/10.1007/s11096-016-0257-x.pdf",
+   "https://www.uni-muenster.de/imperia/md/content/psyifp/aeechterhoff/wintersemester2011-12/seminarthemenfelderdersozialpsychologie/08_diehl_stoebe_productivityloss-brainstorming_jpsp1987.pdf",
+   "https://www.annfammed.org/content/22/6/525.abstract"
+  ]
+ },
+ {
   "id": "cm:open-ended-questions",
   "title": "Open-ended questions",
   "aliases": [

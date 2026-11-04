@@ -290,6 +290,31 @@ Ask yourself:
 - Did I end with a genuine check ("Have I got that right?") and accept a correction without defending myself?
 - Did I hold back my own view until they agreed I had understood them?
 
+## meetings-and-facilitation
+
+### [Nominal group technique](../articles/meetings-and-facilitation/nominal-group-technique.md) — Technique
+
+1. Write one specific, open question on the board or shared screen and read it aloud, for example "What are the biggest obstacles to closing month-end two days faster?"
+2. Give everyone 10-20 minutes of silent, individual writing to list as many answers as they can, with no talking.
+3. Run a round robin - each person reads out one idea per turn, which you record verbatim and number - and keep going until the lists are exhausted; allow no debate yet.
+4. Walk through the numbered list for clarification only, letting anyone explain an item, and merge true duplicates with the agreement of the people who raised them.
+5. Ask each person to privately pick and rank their top five items (5 points for the most important down to 1), then tally the scores in front of the group.
+6. Discuss the top-ranked items and the surprises in the tally, and, if the scores are close, run a second private vote before you commit to next steps.
+
+*An operations manager runs a one-hour meeting with eight team members, including two senior leads, to decide which process problems to fix first next quarter.*
+
+| Before | After |
+|---|---|
+| Okay, open floor - what should we fix first? ... Great point, Sam [senior lead], the ticketing tool is a mess. Anyone disagree? No? Let's go with that. | Take ten minutes and write down, on your own, every process problem that slows you down. Then we'll go round the table one idea at a time, I'll number them, and everyone ranks their top five privately before we talk priorities. |
+
+**Why:** The open floor lets the first senior voice anchor the room and blocks quieter people from offering ideas; silent writing and private ranking let every member contribute and weigh in equally before status and conversation shape the outcome.
+
+Ask yourself:
+- Is my question specific enough that people could write concrete answers to it on their own?
+- Did I protect the silent-writing and round-robin phases from early debate or evaluation, including my own?
+- Did each person rank privately, so seniors' preferences were not visible before others voted?
+- Is this really a single-question, prioritise-and-decide meeting, or does the topic need open exploration first?
+
 ## negotiation
 
 ### [BATNA](../articles/negotiation/batna.md) — Technique

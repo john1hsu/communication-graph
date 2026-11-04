@@ -27,6 +27,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | technique | reach | targets |
 |---|---|---|
 | `cm:i-statements` | 2 | Defensiveness, accusatory-you-statements |
+| `cm:nominal-group-technique` | 2 | production-blocking, unequal-participation |
 | `cm:plain-language` | 2 | Curse of knowledge, jargon |
 | `cm:self-distancing` | 2 | Public speaking anxiety, Spotlight effect |
 | `cm:active-listening` | 1 | Defensiveness |
@@ -71,6 +72,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:plain-language-summary` | `cm:plain-language` |
 | `cm:presentation` | `cm:anxiety-reappraisal` |
 | `cm:presentation` | `cm:self-distancing` |
+| `cm:stakeholder-consultation` | `cm:nominal-group-technique` |
 | `cm:status-reporting` | `cm:managing-up` |
 
 ## Myths and contested advice
@@ -97,6 +99,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:illusion-of-transparency` | mixed |  |
 | `cm:influence-without-authority` | mixed |  |
 | `cm:issue-selling` | mixed |  |
+| `cm:nominal-group-technique` | mixed |  |
 | `cm:open-ended-questions` | mixed | `cm:minson-et-al-2018` |
 | `cm:paraphrasing` | mixed | `cm:weger-castle-emmett-2010` |
 | `cm:plain-language` | mixed |  |
