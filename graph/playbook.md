@@ -88,6 +88,16 @@ Ask yourself:
 
 ## executive-and-client-communication
 
+### [Managing up](../articles/executive-and-client-communication/managing-up.md) — Skill
+
+Ask yourself:
+- Can I name my manager's top two goals and the pressure they are under this quarter, from what they have told me rather than my guess?
+- Do I know whether my manager would rather read this in writing first or hear it live, and am I using that format?
+- Have we explicitly agreed what "done" looks like and when they want to hear from me, or am I assuming?
+- Is there a problem or slipping date I have not told them about yet, and why am I waiting?
+- Am I spending their time and goodwill on something that truly needs them, and have I brought a proposed solution?
+- Would I be comfortable if my manager saw exactly how I prepared for this conversation, or does it rely on flattery or spin?
+
 ### [Words of estimative probability](../articles/executive-and-client-communication/words-of-estimative-probability.md) — Technique
 
 1. Agree a short likelihood scale with your team or client before you need it - for example remote (under 5%), unlikely (20-45%), roughly even (45-55%), likely (55-80%), very likely (80-95%) - with ranges that do not overlap.

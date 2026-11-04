@@ -1589,6 +1589,105 @@
    ]
   },
   {
+   "@id": "cm:managing-up",
+   "@type": "cmo:Skill",
+   "cmo:appliedIn": [
+    {
+     "@id": "cm:one-on-one-meetings"
+    },
+    {
+     "@id": "cm:status-reporting"
+    }
+   ],
+   "cmo:complements": {
+    "@id": "cm:issue-selling"
+   },
+   "cmo:domain": "executive-and-client-communication",
+   "cmo:evidenceStatus": "practitioner",
+   "cmo:file": "articles/executive-and-client-communication/managing-up.md",
+   "cmo:introducedBy": [
+    {
+     "@id": "cm:john-j-gabarro"
+    },
+    {
+     "@id": "cm:john-p-kotter"
+    }
+   ],
+   "cmo:introducedIn": {
+    "@id": "cm:managing-your-boss"
+   },
+   "cmo:level": "intermediate",
+   "cmo:requires": {
+    "@id": "cm:audience-analysis"
+   },
+   "cmo:supportedBy": [
+    {
+     "@id": "cm:dutton-et-al-2001"
+    },
+    {
+     "@id": "cm:lee-et-al-2017"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/managing-up/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/managing-up/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/managing-up/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/managing-up/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/managing-up/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/managing-up/s6"
+    }
+   ],
+   "rdfs:label": "Managing up",
+   "skos:altLabel": [
+    "managing your boss",
+    "managing your manager",
+    "upward relationship management"
+   ],
+   "skos:broader": {
+    "@id": "cm:organizational-communication"
+   },
+   "skos:definition": "The learnable skill of deliberately building a working relationship with your manager (or a senior client) that gets the best results for both of you and the organisation - by understanding their goals, pressures and preferred style, agreeing expectations, keeping them informed and being dependable - as framed by John J. Gabarro and John P. Kotter.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/executive-and-client-communication"
+   },
+   "skos:prefLabel": "Managing up",
+   "skos:related": [
+    {
+     "@id": "cm:audience-analysis"
+    },
+    {
+     "@id": "cm:bottom-line-up-front"
+    },
+    {
+     "@id": "cm:channel-selection"
+    },
+    {
+     "@id": "cm:influence-without-authority"
+    },
+    {
+     "@id": "cm:psychological-safety"
+    },
+    {
+     "@id": "cm:stakeholder-mapping"
+    }
+   ]
+  },
+  {
    "@id": "cm:mehrabian-myth",
    "@type": "cmo:Concept",
    "cmo:challengedBy": [
@@ -3427,6 +3526,54 @@
    "schema:text": "Make a concrete, honest offer that trades something they value for what you need, then deliver on it and keep in touch afterwards so the relationship exists before you need it again."
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/managing-up/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:managing-up"
+   },
+   "rdfs:label": "Can I name my manager's top two goals and the pressure they are under this quarter, from what they have told me rather than my guess?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/managing-up/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:managing-up"
+   },
+   "rdfs:label": "Do I know whether my manager would rather read this in writing first or hear it live, and am I using that format?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/managing-up/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:managing-up"
+   },
+   "rdfs:label": "Have we explicitly agreed what \"done\" looks like and when they want to hear from me, or am I assuming?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/managing-up/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:managing-up"
+   },
+   "rdfs:label": "Is there a problem or slipping date I have not told them about yet, and why am I waiting?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/managing-up/check/5",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:managing-up"
+   },
+   "rdfs:label": "Am I spending their time and goodwill on something that truly needs them, and have I brought a proposed solution?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/managing-up/check/6",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:managing-up"
+   },
+   "rdfs:label": "Would I be comfortable if my manager saw exactly how I prepared for this conversation, or does it rely on flattery or spin?"
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/open-ended-questions/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -5231,6 +5378,90 @@
    "dcterms:title": "Third Edition of 'Influence Without Authority' Released",
    "schema:url": {
     "@id": "https://www.newswise.com/articles/third-edition-of-influence-without-authority-released"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/managing-up/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "practitioner-journal",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "John J. Gabarro & John P. Kotter, Harvard Business Review, January 2005 (reprint of the 1980 HBR article), pp. 92-99 (reading copy hosted on pedsanesthesia.org for its WELI leadership program)",
+   "dcterms:title": "Managing Your Boss",
+   "schema:url": {
+    "@id": "https://weli.pedsanesthesia.org/wp-content/uploads/2020/03/Gabarro-and-Kotter-2005-Managing-your-boss.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/managing-up/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Jane E. Dutton & Susan J. Ashford, Academy of Management Review 18(3), 397-428, 1993, doi:10.5465/AMR.1993.9309035145 (BibBase record)",
+   "dcterms:title": "Selling Issues to Top Management",
+   "schema:url": {
+    "@id": "https://bibbase.org/network/publication/dutton-ashford-sellingissuestotopmanagement-1993"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/managing-up/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Dutton, Ashford, O'Neill & Lawrence, Academy of Management Journal 44(4), 716-736, 2001, doi:10.5465/3069412 (abstract record, Shanghai University of Finance and Economics academic newsletter)",
+   "dcterms:title": "Moves that matter: Issue selling and organizational change",
+   "schema:url": {
+    "@id": "https://academicnewsletter.sufe.edu.cn/info/362966"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/managing-up/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "practitioner-journal",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "MIT Sloan Management Review (research summary of Dutton et al., 2001)",
+   "dcterms:title": "Issue Selling in the Organization",
+   "schema:url": {
+    "@id": "https://sloanreview.mit.edu/article/strategy-issue-selling-in-the-organization/amp/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/managing-up/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "University of Michigan News (on Susan Ashford & James Detert, \"Get the Boss to Buy In\", Harvard Business Review, 2015)",
+   "dcterms:title": "Seven steps to selling your idea to the boss",
+   "schema:url": {
+    "@id": "https://news.umich.edu/?p=22591"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/managing-up/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Lee, Han, Cheong, Kim & Yun, The Leadership Quarterly 28(1), 210-228, 2017, doi:10.1016/j.leaqua.2016.11.001 (Penn State research portal record)",
+   "dcterms:title": "How do I get my way? A meta-analytic review of research on influence tactics",
+   "schema:url": {
+    "@id": "https://pure.psu.edu/en/publications/how-do-i-get-my-way-a-meta-analytic-review-of-research-on-influen/"
    }
   },
   {

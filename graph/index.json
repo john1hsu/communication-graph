@@ -1797,6 +1797,122 @@
   ]
  },
  {
+  "id": "cm:managing-up",
+  "title": "Managing up",
+  "aliases": [
+   "managing your boss",
+   "upward relationship management",
+   "managing your manager"
+  ],
+  "type": "Skill",
+  "domain": "executive-and-client-communication",
+  "level": "intermediate",
+  "evidenceStatus": "practitioner",
+  "file": "articles/executive-and-client-communication/managing-up.md",
+  "created": "2026-11-04",
+  "summary": "The learnable skill of deliberately building a working relationship with your manager (or a senior client) that gets the best results for both of you and the organisation - by understanding their goals, pressures and preferred style, agreeing expectations, keeping them informed and being dependable - as framed by John J. Gabarro and John P. Kotter.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:organizational-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:influence-without-authority"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:audience-analysis"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:bottom-line-up-front"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:channel-selection"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:psychological-safety"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:stakeholder-mapping"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:audience-analysis"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:john-j-gabarro",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:john-p-kotter",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedIn",
+    "object": "cm:managing-your-boss",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:one-on-one-meetings",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:status-reporting",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:issue-selling",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:dutton-et-al-2001",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:lee-et-al-2017",
+    "source": "s6",
+    "confidence": "low"
+   }
+  ],
+  "selfCheck": [
+   "Can I name my manager's top two goals and the pressure they are under this quarter, from what they have told me rather than my guess?",
+   "Do I know whether my manager would rather read this in writing first or hear it live, and am I using that format?",
+   "Have we explicitly agreed what \"done\" looks like and when they want to hear from me, or am I assuming?",
+   "Is there a problem or slipping date I have not told them about yet, and why am I waiting?",
+   "Am I spending their time and goodwill on something that truly needs them, and have I brought a proposed solution?",
+   "Would I be comfortable if my manager saw exactly how I prepared for this conversation, or does it rely on flattery or spin?"
+  ],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://weli.pedsanesthesia.org/wp-content/uploads/2020/03/Gabarro-and-Kotter-2005-Managing-your-boss.pdf",
+   "https://bibbase.org/network/publication/dutton-ashford-sellingissuestotopmanagement-1993",
+   "https://academicnewsletter.sufe.edu.cn/info/362966",
+   "https://sloanreview.mit.edu/article/strategy-issue-selling-in-the-organization/amp/",
+   "https://news.umich.edu/?p=22591",
+   "https://pure.psu.edu/en/publications/how-do-i-get-my-way-a-meta-analytic-review-of-research-on-influen/"
+  ]
+ },
+ {
   "id": "cm:mehrabian-myth",
   "title": "Mehrabian's 7-38-55 rule",
   "aliases": [

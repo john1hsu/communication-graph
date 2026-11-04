@@ -12,7 +12,9 @@ _No results._
 
 _Which written skills or dispositions have no technique, framework or principle that develops them?_ — `queries/02-skills-without-practice.rq`
 
-_No results._
+| skill | type |
+|---|---|
+| `cm:managing-up` | cmo:Skill |
 
 ## Situations, channels and formats with no guidance (gap)
 
@@ -55,10 +57,12 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:memorandum` | `cm:bottom-line-up-front` |
 | `cm:multicultural-team` | `cm:direct-vs-indirect-feedback` |
 | `cm:one-on-one-meetings` | `cm:active-listening` |
+| `cm:one-on-one-meetings` | `cm:managing-up` |
 | `cm:patient-education` | `cm:teach-back` |
 | `cm:performance-review` | `cm:situation-behavior-impact` |
 | `cm:plain-language-summary` | `cm:plain-language` |
 | `cm:presentation` | `cm:anxiety-reappraisal` |
+| `cm:status-reporting` | `cm:managing-up` |
 
 ## Myths and contested advice
 
