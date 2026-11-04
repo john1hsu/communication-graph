@@ -3669,6 +3669,89 @@
    ]
   },
   {
+   "@id": "cm:thomas-gilovich",
+   "@type": "cmo:Person",
+   "cmo:authored": {
+    "@id": "cm:how-we-know-what-isnt-so"
+   },
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "historical",
+   "cmo:file": "articles/thinkers-and-works/thomas-gilovich.md",
+   "cmo:influencedBy": {
+    "@id": "cm:lee-ross"
+   },
+   "cmo:introduced": [
+    {
+     "@id": "cm:illusion-of-transparency"
+    },
+    {
+     "@id": "cm:spotlight-effect"
+    }
+   ],
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/thomas-gilovich/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/thomas-gilovich/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/thomas-gilovich/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/thomas-gilovich/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/thomas-gilovich/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/thomas-gilovich/s6"
+    }
+   ],
+   "rdfs:label": "Thomas Gilovich",
+   "skos:altLabel": [
+    "Gilovich",
+    "Thomas D. Gilovich",
+    "Tom Gilovich"
+   ],
+   "skos:definition": "Cornell social psychologist who, with Kenneth Savitsky and Victoria Medvec, named and tested the illusion of transparency (1998) and the spotlight effect (2000), the two egocentric biases that make speakers think their nerves, slips and intentions are far more visible than they are.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "Thomas Gilovich",
+   "skos:related": [
+    {
+     "@id": "cm:curse-of-knowledge"
+    },
+    {
+     "@id": "cm:egocentric-bias"
+    },
+    {
+     "@id": "cm:george-loewenstein"
+    },
+    {
+     "@id": "cm:gilovich-medvec-savitsky-2000"
+    },
+    {
+     "@id": "cm:gilovich-savitsky-medvec-1998"
+    },
+    {
+     "@id": "cm:savitsky-gilovich-2003"
+    },
+    {
+     "@id": "cm:speaking-anxiety"
+    },
+    {
+     "@id": "cm:victoria-medvec"
+    }
+   ]
+  },
+  {
    "@id": "cm:weger-et-al-2014",
    "@type": "cmo:Study",
    "cmo:contrastsWith": {
@@ -9347,6 +9430,90 @@
    "dcterms:title": "Erin Meyer - faculty profile",
    "schema:url": {
     "@id": "https://www.insead.edu/faculty/erin-meyer"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/thomas-gilovich/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Gilovich, Savitsky & Medvec, Journal of Personality and Social Psychology 75(2), 332-346, 1998 (Kellogg School of Management research record)",
+   "dcterms:title": "The illusion of transparency: Biased assessments of others' ability to read our emotional states",
+   "schema:url": {
+    "@id": "https://www.kellogg.northwestern.edu/academics-research/research/detail/1998/the-illusion-of-transparency-biased-assessments-of-others-ability/?p=1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/thomas-gilovich/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Van Boven, Gilovich & Medvec, Negotiation Journal 19(2), 117-131, 2003 (Kellogg School of Management research record)",
+   "dcterms:title": "The Illusion of Transparency in Negotiations",
+   "schema:url": {
+    "@id": "https://www.kellogg.northwestern.edu/academics-research/research/detail/2003/the-illusion-of-transparency-in-negotiations/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/thomas-gilovich/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "MacInnis, Mackinnon & MacIntyre, Current Research in Social Psychology 15(4), 2010 (University of Iowa CRISP)",
+   "dcterms:title": "The Illusion of Transparency and Normative Beliefs About Anxiety During Public Speaking",
+   "schema:url": {
+    "@id": "https://crisp.org.uiowa.edu/sites/crisp.org.uiowa.edu/files/2020-04/15.4.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/thomas-gilovich/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "news",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Saulnier, B., Cornell Alumni Magazine, September/October 2017",
+   "dcterms:title": "Things That Make You Go Hmm",
+   "schema:url": {
+    "@id": "https://cornellalumnimagazine.com/things-that-make-you-go-hmm"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/thomas-gilovich/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "news",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Social Science Bites podcast (David Edmonds), Social Science Space, SAGE Publishing, 4 May 2026",
+   "dcterms:title": "Tom Gilovich on the Spotlight Effect",
+   "schema:url": {
+    "@id": "https://www.socialsciencespace.com/2026/05/tom-gilovich-on-the-spotlight-effect/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/thomas-gilovich/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "American Academy of Arts & Sciences",
+   "dcterms:title": "Thomas D. Gilovich - member profile",
+   "schema:url": {
+    "@id": "https://www.amacad.org/person/thomas-d-gilovich"
    }
   },
   {

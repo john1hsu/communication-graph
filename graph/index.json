@@ -4189,6 +4189,91 @@
   ]
  },
  {
+  "id": "cm:thomas-gilovich",
+  "title": "Thomas Gilovich",
+  "aliases": [
+   "Tom Gilovich",
+   "Thomas D. Gilovich",
+   "Gilovich"
+  ],
+  "type": "Person",
+  "domain": "thinkers-and-works",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/thinkers-and-works/thomas-gilovich.md",
+  "created": "2026-11-04",
+  "summary": "Cornell social psychologist who, with Kenneth Savitsky and Victoria Medvec, named and tested the illusion of transparency (1998) and the spotlight effect (2000), the two egocentric biases that make speakers think their nerves, slips and intentions are far more visible than they are.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "cm:victoria-medvec"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:egocentric-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:speaking-anxiety"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:curse-of-knowledge"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:george-loewenstein"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:gilovich-savitsky-medvec-1998"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:gilovich-medvec-savitsky-2000"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:savitsky-gilovich-2003"
+   },
+   {
+    "predicate": "cmo:introduced",
+    "object": "cm:illusion-of-transparency",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introduced",
+    "object": "cm:spotlight-effect",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:authored",
+    "object": "cm:how-we-know-what-isnt-so",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:influencedBy",
+    "object": "cm:lee-ross",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://www.kellogg.northwestern.edu/academics-research/research/detail/1998/the-illusion-of-transparency-biased-assessments-of-others-ability/?p=1",
+   "https://www.kellogg.northwestern.edu/academics-research/research/detail/2003/the-illusion-of-transparency-in-negotiations/",
+   "https://crisp.org.uiowa.edu/sites/crisp.org.uiowa.edu/files/2020-04/15.4.pdf",
+   "https://cornellalumnimagazine.com/things-that-make-you-go-hmm",
+   "https://www.socialsciencespace.com/2026/05/tom-gilovich-on-the-spotlight-effect/",
+   "https://www.amacad.org/person/thomas-d-gilovich"
+  ]
+ },
+ {
   "id": "cm:weger-et-al-2014",
   "title": "The Relative Effectiveness of Active Listening in Initial Interactions",
   "aliases": [

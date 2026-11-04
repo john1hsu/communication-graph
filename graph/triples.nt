@@ -3524,6 +3524,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/the-culture-map/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/the-culture-map/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
 <https://github.com/john1hsu/communication-graph/id/source/the-culture-map/s6> <https://schema.org/url> <https://www.insead.edu/faculty/erin-meyer> .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gilovich/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gilovich/s1> <http://purl.org/dc/terms/publisher> "Gilovich, Savitsky & Medvec, Journal of Personality and Social Psychology 75(2), 332-346, 1998 (Kellogg School of Management research record)" .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gilovich/s1> <http://purl.org/dc/terms/title> "The illusion of transparency: Biased assessments of others' ability to read our emotional states" .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gilovich/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gilovich/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gilovich/s1> <https://schema.org/url> <https://www.kellogg.northwestern.edu/academics-research/research/detail/1998/the-illusion-of-transparency-biased-assessments-of-others-ability/?p=1> .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gilovich/s2> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gilovich/s2> <http://purl.org/dc/terms/publisher> "Van Boven, Gilovich & Medvec, Negotiation Journal 19(2), 117-131, 2003 (Kellogg School of Management research record)" .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gilovich/s2> <http://purl.org/dc/terms/title> "The Illusion of Transparency in Negotiations" .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gilovich/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gilovich/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gilovich/s2> <https://schema.org/url> <https://www.kellogg.northwestern.edu/academics-research/research/detail/2003/the-illusion-of-transparency-in-negotiations/> .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gilovich/s3> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gilovich/s3> <http://purl.org/dc/terms/publisher> "MacInnis, Mackinnon & MacIntyre, Current Research in Social Psychology 15(4), 2010 (University of Iowa CRISP)" .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gilovich/s3> <http://purl.org/dc/terms/title> "The Illusion of Transparency and Normative Beliefs About Anxiety During Public Speaking" .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gilovich/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gilovich/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gilovich/s3> <https://schema.org/url> <https://crisp.org.uiowa.edu/sites/crisp.org.uiowa.edu/files/2020-04/15.4.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gilovich/s4> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gilovich/s4> <http://purl.org/dc/terms/publisher> "Saulnier, B., Cornell Alumni Magazine, September/October 2017" .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gilovich/s4> <http://purl.org/dc/terms/title> "Things That Make You Go Hmm" .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gilovich/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gilovich/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "news" .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gilovich/s4> <https://schema.org/url> <https://cornellalumnimagazine.com/things-that-make-you-go-hmm> .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gilovich/s5> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gilovich/s5> <http://purl.org/dc/terms/publisher> "Social Science Bites podcast (David Edmonds), Social Science Space, SAGE Publishing, 4 May 2026" .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gilovich/s5> <http://purl.org/dc/terms/title> "Tom Gilovich on the Spotlight Effect" .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gilovich/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gilovich/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "news" .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gilovich/s5> <https://schema.org/url> <https://www.socialsciencespace.com/2026/05/tom-gilovich-on-the-spotlight-effect/> .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gilovich/s6> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gilovich/s6> <http://purl.org/dc/terms/publisher> "American Academy of Arts & Sciences" .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gilovich/s6> <http://purl.org/dc/terms/title> "Thomas D. Gilovich - member profile" .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gilovich/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gilovich/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gilovich/s6> <https://schema.org/url> <https://www.amacad.org/person/thomas-d-gilovich> .
 <https://github.com/john1hsu/communication-graph/id/source/weger-et-al-2014/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/weger-et-al-2014/s1> <http://purl.org/dc/terms/publisher> "Weger, Castle Bell, Minei & Robinson, International Journal of Listening 28(1), 13-31 (2014), doi:10.1080/10904018.2013.813234 (Taylor & Francis full text)" .
 <https://github.com/john1hsu/communication-graph/id/source/weger-et-al-2014/s1> <http://purl.org/dc/terms/title> "The Relative Effectiveness of Active Listening in Initial Interactions" .
@@ -3878,6 +3914,37 @@
 <https://github.com/john1hsu/communication-graph/id/the-culture-map> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/edward-t-hall> .
 <https://github.com/john1hsu/communication-graph/id/the-culture-map> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/hofstede-cultural-dimensions> .
 <https://github.com/john1hsu/communication-graph/id/the-culture-map> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/thomas-gilovich> <http://purl.org/dc/terms/created> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/thomas-gilovich> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+<https://github.com/john1hsu/communication-graph/id/thomas-gilovich> <http://www.w3.org/2000/01/rdf-schema#label> "Thomas Gilovich" .
+<https://github.com/john1hsu/communication-graph/id/thomas-gilovich> <http://www.w3.org/2004/02/skos/core#altLabel> "Gilovich" .
+<https://github.com/john1hsu/communication-graph/id/thomas-gilovich> <http://www.w3.org/2004/02/skos/core#altLabel> "Thomas D. Gilovich" .
+<https://github.com/john1hsu/communication-graph/id/thomas-gilovich> <http://www.w3.org/2004/02/skos/core#altLabel> "Tom Gilovich" .
+<https://github.com/john1hsu/communication-graph/id/thomas-gilovich> <http://www.w3.org/2004/02/skos/core#definition> "Cornell social psychologist who, with Kenneth Savitsky and Victoria Medvec, named and tested the illusion of transparency (1998) and the spotlight effect (2000), the two egocentric biases that make speakers think their nerves, slips and intentions are far more visible than they are." .
+<https://github.com/john1hsu/communication-graph/id/thomas-gilovich> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works> .
+<https://github.com/john1hsu/communication-graph/id/thomas-gilovich> <http://www.w3.org/2004/02/skos/core#prefLabel> "Thomas Gilovich" .
+<https://github.com/john1hsu/communication-graph/id/thomas-gilovich> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> .
+<https://github.com/john1hsu/communication-graph/id/thomas-gilovich> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/egocentric-bias> .
+<https://github.com/john1hsu/communication-graph/id/thomas-gilovich> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/george-loewenstein> .
+<https://github.com/john1hsu/communication-graph/id/thomas-gilovich> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/gilovich-medvec-savitsky-2000> .
+<https://github.com/john1hsu/communication-graph/id/thomas-gilovich> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> .
+<https://github.com/john1hsu/communication-graph/id/thomas-gilovich> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/savitsky-gilovich-2003> .
+<https://github.com/john1hsu/communication-graph/id/thomas-gilovich> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> .
+<https://github.com/john1hsu/communication-graph/id/thomas-gilovich> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/victoria-medvec> .
+<https://github.com/john1hsu/communication-graph/id/thomas-gilovich> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/thomas-gilovich/s1> .
+<https://github.com/john1hsu/communication-graph/id/thomas-gilovich> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/thomas-gilovich/s2> .
+<https://github.com/john1hsu/communication-graph/id/thomas-gilovich> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/thomas-gilovich/s3> .
+<https://github.com/john1hsu/communication-graph/id/thomas-gilovich> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/thomas-gilovich/s4> .
+<https://github.com/john1hsu/communication-graph/id/thomas-gilovich> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/thomas-gilovich/s5> .
+<https://github.com/john1hsu/communication-graph/id/thomas-gilovich> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/thomas-gilovich/s6> .
+<https://github.com/john1hsu/communication-graph/id/thomas-gilovich> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/how-we-know-what-isnt-so> .
+<https://github.com/john1hsu/communication-graph/id/thomas-gilovich> <https://github.com/john1hsu/communication-graph/ontology#domain> "thinkers-and-works" .
+<https://github.com/john1hsu/communication-graph/id/thomas-gilovich> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "historical" .
+<https://github.com/john1hsu/communication-graph/id/thomas-gilovich> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/thinkers-and-works/thomas-gilovich.md" .
+<https://github.com/john1hsu/communication-graph/id/thomas-gilovich> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/lee-ross> .
+<https://github.com/john1hsu/communication-graph/id/thomas-gilovich> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> .
+<https://github.com/john1hsu/communication-graph/id/thomas-gilovich> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/spotlight-effect> .
+<https://github.com/john1hsu/communication-graph/id/thomas-gilovich> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> <http://purl.org/dc/terms/created> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
 <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> <http://www.w3.org/2000/01/rdf-schema#label> "The Relative Effectiveness of Active Listening in Initial Interactions" .

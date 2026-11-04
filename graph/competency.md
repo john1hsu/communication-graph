@@ -129,13 +129,11 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 |---|---|
 | `cm:feedback` | cmo:Concept |
 | `cm:first-offer` | cmo:Technique |
-| `cm:illusion-of-transparency` | cmo:Barrier |
 | `cm:open-ended-questions` | cmo:Technique |
 | `cm:plain-language` | cmo:Principle |
 | `cm:rapport` | cmo:Concept |
 | `cm:self-distancing` | cmo:Technique |
 | `cm:speaking-anxiety` | cmo:Barrier |
-| `cm:spotlight-effect` | cmo:Barrier |
 | `cm:stakeholder-mapping` | cmo:Technique |
 | `cm:teach-back` | cmo:Technique |
 
