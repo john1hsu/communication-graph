@@ -61,6 +61,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:email` | `cm:rapport` |
 | `cm:executive-briefing` | `cm:issue-selling` |
 | `cm:executive-briefing` | `cm:words-of-estimative-probability` |
+| `cm:face-to-face-conversation` | `cm:proxemics` |
 | `cm:face-to-face-conversation` | `cm:rapport` |
 | `cm:memorandum` | `cm:bottom-line-up-front` |
 | `cm:multicultural-team` | `cm:direct-vs-indirect-feedback` |
@@ -77,6 +78,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:salary-negotiation` | `cm:multiple-equivalent-simultaneous-offers` |
 | `cm:stakeholder-consultation` | `cm:nominal-group-technique` |
 | `cm:status-reporting` | `cm:managing-up` |
+| `cm:video-call-communication` | `cm:proxemics` |
 
 ## Myths and contested advice
 
@@ -107,13 +109,15 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:open-ended-questions` | mixed | `cm:minson-et-al-2018` |
 | `cm:paraphrasing` | mixed | `cm:weger-castle-emmett-2010` |
 | `cm:plain-language` | mixed |  |
+| `cm:proxemics` | mixed |  |
 | `cm:psychological-safety` | mixed | `cm:pearsall-ellis-2011` |
 | `cm:rapport` | mixed |  |
 | `cm:self-distancing` | mixed |  |
 | `cm:spotlight-effect` | mixed |  |
 | `cm:teach-back` | mixed |  |
 | `cm:weger-et-al-2014` | mixed |  |
-| `cm:words-of-estimative-probability` | mixed |  |
+
+…and 1 more.
 
 ## Concepts with no recorded origin (gap)
 

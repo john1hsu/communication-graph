@@ -1299,6 +1299,7 @@
 <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> .
 <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mixed-messages> .
 <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/paralanguage> .
+<https://github.com/john1hsu/communication-graph/id/mehrabian-myth> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/proxemics> .
 <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/mehrabian-myth/s1> .
 <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/mehrabian-myth/s2> .
 <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/mehrabian-myth/s3> .
@@ -1683,6 +1684,38 @@
 <https://github.com/john1hsu/communication-graph/id/plain-language> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/plain-language> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
 <https://github.com/john1hsu/communication-graph/id/plain-language> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/writing-for-dollars-writing-to-please> .
+<https://github.com/john1hsu/communication-graph/id/proxemics> <http://purl.org/dc/terms/created> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/proxemics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+<https://github.com/john1hsu/communication-graph/id/proxemics> <http://www.w3.org/2000/01/rdf-schema#label> "Proxemics" .
+<https://github.com/john1hsu/communication-graph/id/proxemics> <http://www.w3.org/2004/02/skos/core#altLabel> "Hall's distance zones" .
+<https://github.com/john1hsu/communication-graph/id/proxemics> <http://www.w3.org/2004/02/skos/core#altLabel> "interpersonal distance" .
+<https://github.com/john1hsu/communication-graph/id/proxemics> <http://www.w3.org/2004/02/skos/core#altLabel> "personal space" .
+<https://github.com/john1hsu/communication-graph/id/proxemics> <http://www.w3.org/2004/02/skos/core#altLabel> "proxemic zones" .
+<https://github.com/john1hsu/communication-graph/id/proxemics> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> .
+<https://github.com/john1hsu/communication-graph/id/proxemics> <http://www.w3.org/2004/02/skos/core#definition> "The study of how people use and interpret physical space in communication, above all the distance they keep from one another; anthropologist Edward T. Hall described intimate, personal, social and public zones whose comfortable size varies by culture, relationship, gender and age." .
+<https://github.com/john1hsu/communication-graph/id/proxemics> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/nonverbal-and-voice> .
+<https://github.com/john1hsu/communication-graph/id/proxemics> <http://www.w3.org/2004/02/skos/core#prefLabel> "Proxemics" .
+<https://github.com/john1hsu/communication-graph/id/proxemics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/expectancy-violations-theory> .
+<https://github.com/john1hsu/communication-graph/id/proxemics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> .
+<https://github.com/john1hsu/communication-graph/id/proxemics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/intercultural-communication> .
+<https://github.com/john1hsu/communication-graph/id/proxemics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> .
+<https://github.com/john1hsu/communication-graph/id/proxemics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/rapport> .
+<https://github.com/john1hsu/communication-graph/id/proxemics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/territoriality> .
+<https://github.com/john1hsu/communication-graph/id/proxemics> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/proxemics/s1> .
+<https://github.com/john1hsu/communication-graph/id/proxemics> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/proxemics/s2> .
+<https://github.com/john1hsu/communication-graph/id/proxemics> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/proxemics/s3> .
+<https://github.com/john1hsu/communication-graph/id/proxemics> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/proxemics/s4> .
+<https://github.com/john1hsu/communication-graph/id/proxemics> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/proxemics/s5> .
+<https://github.com/john1hsu/communication-graph/id/proxemics> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/proxemics/s6> .
+<https://github.com/john1hsu/communication-graph/id/proxemics> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/face-to-face-conversation> .
+<https://github.com/john1hsu/communication-graph/id/proxemics> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/video-call-communication> .
+<https://github.com/john1hsu/communication-graph/id/proxemics> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/sorokowska-et-al-2017> .
+<https://github.com/john1hsu/communication-graph/id/proxemics> <https://github.com/john1hsu/communication-graph/ontology#domain> "nonverbal-and-voice" .
+<https://github.com/john1hsu/communication-graph/id/proxemics> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/proxemics> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/nonverbal-and-voice/proxemics.md" .
+<https://github.com/john1hsu/communication-graph/id/proxemics> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/edward-t-hall> .
+<https://github.com/john1hsu/communication-graph/id/proxemics> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/proxemics> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/burgoon-1978> .
 <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://purl.org/dc/terms/created> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Phenomenon> .
 <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2000/01/rdf-schema#label> "Psychological safety" .
@@ -2903,6 +2936,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/plain-language/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/plain-language/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/communication-graph/id/source/plain-language/s6> <https://schema.org/url> <https://pubmed.ncbi.nlm.nih.gov/35666746/> .
+<https://github.com/john1hsu/communication-graph/id/source/proxemics/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/proxemics/s1> <http://purl.org/dc/terms/publisher> "Edward T. Hall, American Anthropologist 65(5), 1963, pp. 1003-1026 (New Bulgarian University course copy)" .
+<https://github.com/john1hsu/communication-graph/id/source/proxemics/s1> <http://purl.org/dc/terms/title> "A System for the Notation of Proxemic Behavior" .
+<https://github.com/john1hsu/communication-graph/id/source/proxemics/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/proxemics/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/proxemics/s1> <https://schema.org/url> <https://e-edu.nbu.bg/pluginfile.php/1261108/mod_resource/content/1/Edward%20Hall%20-%20A%20System%20for%20the%20Notation%20of%20Proxemic%20Behavior%201963.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/proxemics/s2> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/proxemics/s2> <http://purl.org/dc/terms/publisher> "Sorokowska, Sorokowski, Hilpert et al., Journal of Cross-Cultural Psychology 48(4), 2017, pp. 577-592 (CORE open copy)" .
+<https://github.com/john1hsu/communication-graph/id/source/proxemics/s2> <http://purl.org/dc/terms/title> "Preferred Interpersonal Distances: A Global Comparison" .
+<https://github.com/john1hsu/communication-graph/id/source/proxemics/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/proxemics/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/proxemics/s2> <https://schema.org/url> <https://core.ac.uk/download/270293463.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/proxemics/s3> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/proxemics/s3> <http://purl.org/dc/terms/publisher> "Macmillan Learning interpersonal communication textbook e-book" .
+<https://github.com/john1hsu/communication-graph/id/source/proxemics/s3> <http://purl.org/dc/terms/title> "7.3.5 Communicating Through Personal Space (Reflect & Relate, 3rd ed.)" .
+<https://github.com/john1hsu/communication-graph/id/source/proxemics/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/proxemics/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/communication-graph/id/source/proxemics/s3> <https://schema.org/url> <https://digfir-published.macmillanusa.com/reflect3e/reflect3e_ch7_16.html> .
+<https://github.com/john1hsu/communication-graph/id/source/proxemics/s4> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/proxemics/s4> <http://purl.org/dc/terms/publisher> "Judee K. Burgoon, Human Communication Research 4(2), 1978, pp. 129-142 (University of Arizona research portal)" .
+<https://github.com/john1hsu/communication-graph/id/source/proxemics/s4> <http://purl.org/dc/terms/title> "A Communication Model of Personal Space Violations: Explication and an Initial Test" .
+<https://github.com/john1hsu/communication-graph/id/source/proxemics/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/proxemics/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/proxemics/s4> <https://schema.org/url> <https://experts.arizona.edu/en/publications/a-communication-model-of-personal-space-violations-explication-an/> .
+<https://github.com/john1hsu/communication-graph/id/source/proxemics/s5> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/proxemics/s5> <http://purl.org/dc/terms/publisher> "Jeremy N. Bailenson, Technology, Mind, and Behavior (APA), 2021, Stanford Virtual Human Interaction Lab copy" .
+<https://github.com/john1hsu/communication-graph/id/source/proxemics/s5> <http://purl.org/dc/terms/title> "Nonverbal Overload: A Theoretical Argument for the Causes of Zoom Fatigue" .
+<https://github.com/john1hsu/communication-graph/id/source/proxemics/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/proxemics/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/proxemics/s5> <https://schema.org/url> <https://vhil.stanford.edu/sites/g/files/sbiybj29011/files/media/file/bailenson-apa-nonverbal-overload.pdf?> .
+<https://github.com/john1hsu/communication-graph/id/source/proxemics/s6> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/proxemics/s6> <http://purl.org/dc/terms/publisher> "Roger Kreuz & Richard Roberts, The MIT Press Reader, 2019 (adapted from Getting Through, MIT Press)" .
+<https://github.com/john1hsu/communication-graph/id/source/proxemics/s6> <http://purl.org/dc/terms/title> "Proxemics 101: Understanding Personal Space Across Cultures" .
+<https://github.com/john1hsu/communication-graph/id/source/proxemics/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/proxemics/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/proxemics/s6> <https://schema.org/url> <https://thereader.mitpress.mit.edu/understanding-personal-space-proxemics> .
 <https://github.com/john1hsu/communication-graph/id/source/psychological-safety/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/psychological-safety/s1> <http://purl.org/dc/terms/publisher> "Amy Edmondson, Administrative Science Quarterly 44(2), 350-383, 1999 (course-reading copy hosted at MIT)" .
 <https://github.com/john1hsu/communication-graph/id/source/psychological-safety/s1> <http://purl.org/dc/terms/title> "Psychological Safety and Learning Behavior in Work Teams" .

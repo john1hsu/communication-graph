@@ -9,9 +9,10 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 2.22 | `cm:illusion-of-transparency` | `cm:plain-language` | `cm:clarity`, `cm:curse-of-knowledge`, `cm:email`, `cm:teach-back`, `cm:words-of-estimative-probability` |
 | 2.17 | `cm:managing-up` | `cm:message-equivocality-media-selection-and-manager-performance` | `cm:audience-analysis`, `cm:channel-selection`, `cm:organizational-communication` |
 | 2.10 | `cm:anxiety-reappraisal` | `cm:spotlight-effect` | `cm:illusion-of-transparency`, `cm:self-distancing`, `cm:social-anxiety`, `cm:speaking-anxiety` |
-| 1.80 | `cm:mehrabian-myth` | `cm:rapport` | `cm:channel-selection`, `cm:nonverbal-communication` |
+| 2.03 | `cm:proxemics` | `cm:the-culture-map` | `cm:edward-t-hall`, `cm:high-and-low-context-cultures`, `cm:intercultural-communication` |
 | 1.80 | `cm:issue-selling` | `cm:words-of-estimative-probability` | `cm:bottom-line-up-front`, `cm:executive-briefing` |
 | 1.75 | `cm:defensiveness` | `cm:direct-vs-indirect-feedback` | `cm:feedback`, `cm:feedforward`, `cm:i-statements`, `cm:situation-behavior-impact` |
+| 1.67 | `cm:mehrabian-myth` | `cm:rapport` | `cm:channel-selection`, `cm:nonverbal-communication`, `cm:proxemics` |
 | 1.54 | `cm:feedforward` | `cm:i-statements` | `cm:active-listening`, `cm:defensiveness`, `cm:direct-vs-indirect-feedback`, `cm:situation-behavior-impact` |
 | 1.51 | `cm:defensiveness` | `cm:paraphrasing` | `cm:active-listening`, `cm:difficult-conversation`, `cm:i-statements`, `cm:situation-behavior-impact` |
 | 1.49 | `cm:channel-selection` | `cm:issue-selling` | `cm:audience-analysis`, `cm:bottom-line-up-front`, `cm:managing-up`, `cm:stakeholder-mapping` |
@@ -22,10 +23,9 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 1.32 | `cm:difficult-conversation` | `cm:feedforward` | `cm:active-listening`, `cm:defensiveness`, `cm:feedback` |
 | 1.32 | `cm:feedforward` | `cm:psychological-safety` | `cm:active-listening`, `cm:defensiveness`, `cm:feedback` |
 | 1.32 | `cm:psychological-safety` | `cm:situation-behavior-impact` | `cm:active-listening`, `cm:defensiveness`, `cm:feedback` |
+| 1.29 | `cm:email` | `cm:proxemics` | `cm:face-to-face-conversation`, `cm:rapport` |
 | 1.26 | `cm:active-listening` | `cm:managing-up` | `cm:one-on-one-meetings`, `cm:psychological-safety` |
 | 1.22 | `cm:bottom-line-up-front` | `cm:william-strunk-jr` | `cm:active-voice`, `cm:effective-writing-for-army-leaders`, `cm:plain-language` |
 | 1.21 | `cm:audience-analysis` | `cm:illusion-of-transparency` | `cm:curse-of-knowledge`, `cm:email`, `cm:george-loewenstein` |
 | 1.20 | `cm:active-listening` | `cm:direct-vs-indirect-feedback` | `cm:feedforward`, `cm:i-statements`, `cm:situation-behavior-impact` |
-| 1.16 | `cm:channel-selection` | `cm:high-and-low-context-cultures` | `cm:audience-analysis`, `cm:bottom-line-up-front`, `cm:mehrabian-myth` |
 | 1.14 | `cm:channel-selection` | `cm:influence-without-authority` | `cm:audience-analysis`, `cm:managing-up`, `cm:stakeholder-mapping` |
-| 1.14 | `cm:psychological-safety` | `cm:stakeholder-mapping` | `cm:issue-selling`, `cm:managing-up`, `cm:nominal-group-technique` |

@@ -12,7 +12,7 @@ summary: >-
 level: introductory
 evidenceStatus: contested
 broader: [cm:nonverbal-communication]
-related: [cm:paralanguage, cm:facial-expressions, cm:mixed-messages, cm:channel-selection, cm:high-and-low-context-cultures]
+related: [cm:paralanguage, cm:facial-expressions, cm:mixed-messages, cm:channel-selection, cm:high-and-low-context-cultures, cm:proxemics]
 requires: []
 relations:
   - {predicate: introducedBy, object: cm:albert-mehrabian, source: s1, confidence: high}

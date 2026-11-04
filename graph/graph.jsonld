@@ -2050,6 +2050,9 @@
     },
     {
      "@id": "cm:paralanguage"
+    },
+    {
+     "@id": "cm:proxemics"
     }
    ]
   },
@@ -2557,6 +2560,90 @@
     },
     {
      "@id": "cm:readability-formulas"
+    }
+   ]
+  },
+  {
+   "@id": "cm:proxemics",
+   "@type": "cmo:Concept",
+   "cmo:appliedIn": [
+    {
+     "@id": "cm:face-to-face-conversation"
+    },
+    {
+     "@id": "cm:video-call-communication"
+    }
+   ],
+   "cmo:demonstratedBy": {
+    "@id": "cm:sorokowska-et-al-2017"
+   },
+   "cmo:domain": "nonverbal-and-voice",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:file": "articles/nonverbal-and-voice/proxemics.md",
+   "cmo:introducedBy": {
+    "@id": "cm:edward-t-hall"
+   },
+   "cmo:level": "introductory",
+   "cmo:supportedBy": {
+    "@id": "cm:burgoon-1978"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/proxemics/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/proxemics/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/proxemics/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/proxemics/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/proxemics/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/proxemics/s6"
+    }
+   ],
+   "rdfs:label": "Proxemics",
+   "skos:altLabel": [
+    "Hall's distance zones",
+    "interpersonal distance",
+    "personal space",
+    "proxemic zones"
+   ],
+   "skos:broader": {
+    "@id": "cm:nonverbal-communication"
+   },
+   "skos:definition": "The study of how people use and interpret physical space in communication, above all the distance they keep from one another; anthropologist Edward T. Hall described intimate, personal, social and public zones whose comfortable size varies by culture, relationship, gender and age.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/nonverbal-and-voice"
+   },
+   "skos:prefLabel": "Proxemics",
+   "skos:related": [
+    {
+     "@id": "cm:expectancy-violations-theory"
+    },
+    {
+     "@id": "cm:high-and-low-context-cultures"
+    },
+    {
+     "@id": "cm:intercultural-communication"
+    },
+    {
+     "@id": "cm:mehrabian-myth"
+    },
+    {
+     "@id": "cm:rapport"
+    },
+    {
+     "@id": "cm:territoriality"
     }
    ]
   },
@@ -7850,6 +7937,90 @@
    "dcterms:title": "Plain language summaries: A systematic review of theory, guidelines and empirical research",
    "schema:url": {
     "@id": "https://pubmed.ncbi.nlm.nih.gov/35666746/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/proxemics/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Edward T. Hall, American Anthropologist 65(5), 1963, pp. 1003-1026 (New Bulgarian University course copy)",
+   "dcterms:title": "A System for the Notation of Proxemic Behavior",
+   "schema:url": {
+    "@id": "https://e-edu.nbu.bg/pluginfile.php/1261108/mod_resource/content/1/Edward%20Hall%20-%20A%20System%20for%20the%20Notation%20of%20Proxemic%20Behavior%201963.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/proxemics/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Sorokowska, Sorokowski, Hilpert et al., Journal of Cross-Cultural Psychology 48(4), 2017, pp. 577-592 (CORE open copy)",
+   "dcterms:title": "Preferred Interpersonal Distances: A Global Comparison",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/270293463.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/proxemics/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Macmillan Learning interpersonal communication textbook e-book",
+   "dcterms:title": "7.3.5 Communicating Through Personal Space (Reflect & Relate, 3rd ed.)",
+   "schema:url": {
+    "@id": "https://digfir-published.macmillanusa.com/reflect3e/reflect3e_ch7_16.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/proxemics/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Judee K. Burgoon, Human Communication Research 4(2), 1978, pp. 129-142 (University of Arizona research portal)",
+   "dcterms:title": "A Communication Model of Personal Space Violations: Explication and an Initial Test",
+   "schema:url": {
+    "@id": "https://experts.arizona.edu/en/publications/a-communication-model-of-personal-space-violations-explication-an/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/proxemics/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Jeremy N. Bailenson, Technology, Mind, and Behavior (APA), 2021, Stanford Virtual Human Interaction Lab copy",
+   "dcterms:title": "Nonverbal Overload: A Theoretical Argument for the Causes of Zoom Fatigue",
+   "schema:url": {
+    "@id": "https://vhil.stanford.edu/sites/g/files/sbiybj29011/files/media/file/bailenson-apa-nonverbal-overload.pdf?"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/proxemics/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Roger Kreuz & Richard Roberts, The MIT Press Reader, 2019 (adapted from Getting Through, MIT Press)",
+   "dcterms:title": "Proxemics 101: Understanding Personal Space Across Cultures",
+   "schema:url": {
+    "@id": "https://thereader.mitpress.mit.edu/understanding-personal-space-proxemics"
    }
   },
   {

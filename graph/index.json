@@ -2304,6 +2304,10 @@
     "object": "cm:high-and-low-context-cultures"
    },
    {
+    "predicate": "skos:related",
+    "object": "cm:proxemics"
+   },
+   {
     "predicate": "cmo:introducedBy",
     "object": "cm:albert-mehrabian",
     "source": "s1",
@@ -2926,6 +2930,94 @@
    "https://www.michbar.org/file/barjournal/article/documents/pdf4article2972.pdf",
    "https://cap-press.com/pdf/9781531024543.pdf",
    "https://pubmed.ncbi.nlm.nih.gov/35666746/"
+  ]
+ },
+ {
+  "id": "cm:proxemics",
+  "title": "Proxemics",
+  "aliases": [
+   "personal space",
+   "interpersonal distance",
+   "Hall's distance zones",
+   "proxemic zones"
+  ],
+  "type": "Concept",
+  "domain": "nonverbal-and-voice",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/nonverbal-and-voice/proxemics.md",
+  "created": "2026-11-04",
+  "summary": "The study of how people use and interpret physical space in communication, above all the distance they keep from one another; anthropologist Edward T. Hall described intimate, personal, social and public zones whose comfortable size varies by culture, relationship, gender and age.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:nonverbal-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:high-and-low-context-cultures"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:intercultural-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:expectancy-violations-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:mehrabian-myth"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:rapport"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:territoriality"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:edward-t-hall",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:sorokowska-et-al-2017",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:burgoon-1978",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:video-call-communication",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:face-to-face-conversation",
+    "source": "s3",
+    "confidence": "high"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://e-edu.nbu.bg/pluginfile.php/1261108/mod_resource/content/1/Edward%20Hall%20-%20A%20System%20for%20the%20Notation%20of%20Proxemic%20Behavior%201963.pdf",
+   "https://core.ac.uk/download/270293463.pdf",
+   "https://digfir-published.macmillanusa.com/reflect3e/reflect3e_ch7_16.html",
+   "https://experts.arizona.edu/en/publications/a-communication-model-of-personal-space-violations-explication-an/",
+   "https://vhil.stanford.edu/sites/g/files/sbiybj29011/files/media/file/bailenson-apa-nonverbal-overload.pdf?",
+   "https://thereader.mitpress.mit.edu/understanding-personal-space-proxemics"
   ]
  },
  {
