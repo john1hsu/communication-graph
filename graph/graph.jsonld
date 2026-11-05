@@ -513,6 +513,94 @@
    ]
   },
   {
+   "@id": "cm:assertion-evidence-slides",
+   "@type": "cmo:Technique",
+   "cmo:addresses": {
+    "@id": "cm:death-by-powerpoint"
+   },
+   "cmo:appliedIn": {
+    "@id": "cm:presentation"
+   },
+   "cmo:challengedBy": {
+    "@id": "cm:alzayed-alzamel-2023"
+   },
+   "cmo:demonstratedBy": {
+    "@id": "cm:garner-alley-2013"
+   },
+   "cmo:domain": "presenting-and-public-speaking",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides/example"
+   },
+   "cmo:explainedBy": {
+    "@id": "cm:cognitive-load"
+   },
+   "cmo:file": "articles/presenting-and-public-speaking/assertion-evidence-slides.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides/howto"
+   },
+   "cmo:introducedBy": {
+    "@id": "cm:michael-alley"
+   },
+   "cmo:level": "introductory",
+   "cmo:supportedBy": {
+    "@id": "cm:garner-alley-2016"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/assertion-evidence-slides/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/assertion-evidence-slides/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/assertion-evidence-slides/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/assertion-evidence-slides/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/assertion-evidence-slides/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/assertion-evidence-slides/s6"
+    }
+   ],
+   "rdfs:label": "Assertion-evidence slides",
+   "skos:altLabel": [
+    "AE slides",
+    "assertion-evidence approach",
+    "assertion-evidence structure",
+    "sentence-headline slides"
+   ],
+   "skos:broader": {
+    "@id": "cm:slide-design"
+   },
+   "skos:definition": "A slide design in which each slide's headline is a full sentence stating the one point the slide makes, and the body is visual evidence for that point (a chart, diagram, photo or equation) instead of a topic phrase followed by bullet points.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/presenting-and-public-speaking"
+   },
+   "skos:prefLabel": "Assertion-evidence slides",
+   "skos:related": [
+    {
+     "@id": "cm:bottom-line-up-front"
+    },
+    {
+     "@id": "cm:curse-of-knowledge"
+    },
+    {
+     "@id": "cm:presentation-rehearsal"
+    },
+    {
+     "@id": "cm:presentation-structure"
+    }
+   ]
+  },
+  {
    "@id": "cm:audience-analysis",
    "@type": "cmo:Technique",
    "cmo:addresses": {
@@ -5817,6 +5905,107 @@
    "schema:text": "Afterwards, judge the talk by what the audience understood or decided, not by how anxious you felt."
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:assertion-evidence-slides"
+   },
+   "rdfs:label": "If someone read only my slide headlines, would they get my argument and my conclusion?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:assertion-evidence-slides"
+   },
+   "rdfs:label": "Does each slide make exactly one point, and does the visual actually prove that point rather than decorate it?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:assertion-evidence-slides"
+   },
+   "rdfs:label": "Am I planning to explain each visual, or am I going to read the headline and bullets aloud?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:assertion-evidence-slides"
+   },
+   "rdfs:label": "Is the material complex enough to need visual evidence, or would a simple spoken point serve the audience better?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "Headline: 'Late deliveries doubled after July because Warehouse B lost its night shift'. Body: a line chart of weekly on-time rate for each warehouse, with Warehouse B's drop marked at the week the night shift ended.",
+   "cmo:before": "Headline: 'Q3 delivery performance'. Bullets: 'On-time rate down', 'Carrier changes in July', 'Warehouse B staffing', 'Weather events', 'Next steps'.",
+   "cmo:situation": "An operations analyst is presenting the cause of a rise in late deliveries to the regional leadership team.",
+   "cmo:why": "The first slide names a topic and leaves the audience to work out which bullet matters. The second states the conclusion in the headline and shows the one chart that proves it, so leaders who only glance at the slide still take away the cause."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Assertion-evidence slides",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides/howto/6"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Before opening the slide software, write the talk's main message, then list the three to six points the audience must accept to believe it."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Turn each point into one slide whose headline is a complete sentence of no more than two lines that states the point, not the topic."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Under each headline, place the visual that best proves the sentence - a chart, diagram, photo, table or equation - and delete decorative images."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Strip the body text down to short labels on the visual; move anything you would have bulleted into what you say aloud or into a handout."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Read only the headlines in order and check that they tell the whole argument; fix any slide whose headline could not stand on its own."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "Rehearse explaining each visual in your own words rather than reading the headline back to the audience."
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/audience-analysis/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -8835,6 +9024,90 @@
    "dcterms:title": "Back to Basics: What Can Aristotle Teach Us About Modern Communication?",
    "schema:url": {
     "@id": "https://procomm.ieee.org/back-to-basics-what-can-aristotle-teach-us-about-modern-communication/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/assertion-evidence-slides/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Garner, J. K. & Alley, M. P., International Journal of Engineering Education 29(6), 1564-1579, 2013",
+   "dcterms:title": "How the Design of Presentation Slides Affects Audience Comprehension: A Case for the Assertion-Evidence Approach",
+   "schema:url": {
+    "@id": "https://www.ijee.ie/articles/Vol29-6/23_ijee2791ns.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/assertion-evidence-slides/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Garner, J. K. & Alley, M. P., International Journal of Engineering Education 32(1), 39-54, 2016 (Penn State research portal)",
+   "dcterms:title": "Slide structure can influence the presenter's understanding of the presentation's content",
+   "schema:url": {
+    "@id": "https://pure.psu.edu/en/publications/slide-structure-can-influence-the-presenters-understanding-of-the/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/assertion-evidence-slides/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Alzayed, M. A. & Alzamel, D., Journal of Engineering Research 11(1A), Kuwait University, 2023",
+   "dcterms:title": "Assertion evidence versus traditional PowerPoint: an investigation of the impact of slide structure on engineering students' cognitive load, motivation, and performance",
+   "schema:url": {
+    "@id": "https://journals.ku.edu.kw/jer/index.php/JER/article/view/16963"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/assertion-evidence-slides/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Alley, M., College of Engineering, Pennsylvania State University (ASME-EYE workshop handout), 2010",
+   "dcterms:title": "The Craft of Engineering Presentations: A Workshop on Presenting Engineering",
+   "schema:url": {
+    "@id": "https://writing.engr.psu.edu/eye_presenting.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/assertion-evidence-slides/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Center for Teaching and Learning, Washington University in St. Louis (Nordell, S., 2016)",
+   "dcterms:title": "In PowerPoint, It's the Headline that Makes the Difference",
+   "schema:url": {
+    "@id": "https://ctl.wustl.edu/in-powerpoint-its-the-headline-that-makes-the-difference/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/assertion-evidence-slides/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "community",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Farkas, D. K., University of Washington (informal, unpublished assessment), 2010",
+   "dcterms:title": "A brief assessment of Michael Alley's ideas regarding the design of PowerPoint slides",
+   "schema:url": {
+    "@id": "https://faculty.washington.edu/farkas/dfpubs/Farkas-Assessment%20Of%20Alleys%20Slide%20Design.pdf"
    }
   },
   {

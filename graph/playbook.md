@@ -655,6 +655,29 @@ Ask yourself:
 - Am I using the reframe as a substitute for preparing and rehearsing out loud?
 - After the talk, am I judging it by what the audience did, or by how nervous I felt?
 
+### [Assertion-evidence slides](../articles/presenting-and-public-speaking/assertion-evidence-slides.md) — Technique
+
+1. Before opening the slide software, write the talk's main message, then list the three to six points the audience must accept to believe it.
+2. Turn each point into one slide whose headline is a complete sentence of no more than two lines that states the point, not the topic.
+3. Under each headline, place the visual that best proves the sentence - a chart, diagram, photo, table or equation - and delete decorative images.
+4. Strip the body text down to short labels on the visual; move anything you would have bulleted into what you say aloud or into a handout.
+5. Read only the headlines in order and check that they tell the whole argument; fix any slide whose headline could not stand on its own.
+6. Rehearse explaining each visual in your own words rather than reading the headline back to the audience.
+
+*An operations analyst is presenting the cause of a rise in late deliveries to the regional leadership team.*
+
+| Before | After |
+|---|---|
+| Headline: 'Q3 delivery performance'. Bullets: 'On-time rate down', 'Carrier changes in July', 'Warehouse B staffing', 'Weather events', 'Next steps'. | Headline: 'Late deliveries doubled after July because Warehouse B lost its night shift'. Body: a line chart of weekly on-time rate for each warehouse, with Warehouse B's drop marked at the week the night shift ended. |
+
+**Why:** The first slide names a topic and leaves the audience to work out which bullet matters. The second states the conclusion in the headline and shows the one chart that proves it, so leaders who only glance at the slide still take away the cause.
+
+Ask yourself:
+- If someone read only my slide headlines, would they get my argument and my conclusion?
+- Does each slide make exactly one point, and does the visual actually prove that point rather than decorate it?
+- Am I planning to explain each visual, or am I going to read the headline and bullets aloud?
+- Is the material complex enough to need visual evidence, or would a simple spoken point serve the audience better?
+
 ### [Public speaking anxiety](../articles/presenting-and-public-speaking/speaking-anxiety.md) — Barrier
 
 Ask yourself:

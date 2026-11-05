@@ -35,6 +35,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:active-listening` | 1 | Defensiveness |
 | `cm:active-voice` | 1 | unclear-ownership |
 | `cm:anxiety-reappraisal` | 1 | Public speaking anxiety |
+| `cm:assertion-evidence-slides` | 1 | death-by-powerpoint |
 | `cm:audience-analysis` | 1 | Curse of knowledge |
 | `cm:bottom-line-up-front` | 1 | burying-the-lede |
 | `cm:camera-level-gaze` | 1 | Gaze and eye contact |
@@ -86,9 +87,9 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:performance-review` | `cm:situation-behavior-impact` |
 | `cm:plain-language-summary` | `cm:plain-language` |
 | `cm:presentation` | `cm:anxiety-reappraisal` |
-| `cm:presentation` | `cm:self-distancing` |
+| `cm:presentation` | `cm:assertion-evidence-slides` |
 
-…and 8 more.
+…and 9 more.
 
 ## Myths and contested advice
 
@@ -103,6 +104,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:mehrabian-myth` | contested | `cm:zuckerman-et-al-1982` |
 | `cm:active-listening` | mixed |  |
 | `cm:active-voice` | mixed | `cm:fear-and-loathing-of-the-english-passive` |
+| `cm:assertion-evidence-slides` | mixed | `cm:alzayed-alzamel-2023` |
 | `cm:batna` | mixed | `cm:schaerer-swaab-galinsky-2015` |
 | `cm:camera-level-gaze` | mixed |  |
 | `cm:camera-optional-norm` | mixed | `cm:bennett-et-al-2021` |
@@ -125,9 +127,8 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:meeting-agendas` | mixed |  |
 | `cm:multiple-equivalent-simultaneous-offers` | mixed |  |
 | `cm:nominal-group-technique` | mixed |  |
-| `cm:one-on-one-meetings` | mixed |  |
 
-…and 14 more.
+…and 15 more.
 
 ## Concepts with no recorded origin (gap)
 
