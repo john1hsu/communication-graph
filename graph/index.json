@@ -1923,6 +1923,112 @@
   ]
  },
  {
+  "id": "cm:eye-contact",
+  "title": "Gaze and eye contact",
+  "aliases": [
+   "eye contact",
+   "mutual gaze",
+   "looking people in the eye"
+  ],
+  "type": "Skill",
+  "domain": "nonverbal-and-voice",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/nonverbal-and-voice/eye-contact.md",
+  "created": "2026-11-05",
+  "summary": "The skill of using where and how long you look at someone to signal attention, manage turn-taking and build connection in conversation; research suggests moderate, well-timed eye contact helps, while more eye contact is not always better and its meaning varies by culture and situation.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:nonverbal-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:active-listening"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:rapport"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:proxemics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:high-and-low-context-cultures"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:intercultural-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:mehrabian-myth"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:persuasion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:speaking-anxiety"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:wohltjen-wheatley-2021",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:chen-et-al-2013",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:binetti-et-al-2016",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:cognitive-load",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:active-listening",
+    "source": "s6",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:face-to-face-conversation",
+    "source": "s3",
+    "confidence": "high"
+   }
+  ],
+  "selfCheck": [
+   "Was I looking at the other person mostly while they were speaking, and letting my gaze move while I was thinking?",
+   "Did I hold anyone's gaze long enough that it might have felt like a stare or a challenge?",
+   "Did I share my eye contact around the room, or did I keep looking only at the most senior person?",
+   "Is this person's comfort with direct gaze likely to differ from mine, and did I adjust to what they did?"
+  ],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://www.hks.harvard.edu/publications/eye-beholder-eye-contact-increases-resistance-persuasion",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC3596353",
+   "https://fermatslibrary.com/s/d4a90-eye-contact-marks-the-rise-and-fall-of-shared-attention-in-conversation",
+   "https://www.bps.org.uk/research-digest/psychologists-have-identified-length-eye-contact-people-find-most-comfortable",
+   "https://bps.org.uk/research-digest/why-its-hard-talk-and-make-eye-contact-same-time",
+   "https://una.pressbooks.pub/nonverbal-communication/?p=69"
+  ]
+ },
+ {
   "id": "cm:feedback",
   "title": "Feedback",
   "aliases": [

@@ -1043,6 +1043,52 @@
 <https://github.com/john1hsu/communication-graph/id/ethnocentrism> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/ethnocentrism> <https://github.com/john1hsu/communication-graph/ontology#undermines> <https://github.com/john1hsu/communication-graph/id/credibility> .
 <https://github.com/john1hsu/communication-graph/id/ethnocentrism> <https://github.com/john1hsu/communication-graph/ontology#undermines> <https://github.com/john1hsu/communication-graph/id/intercultural-willingness-to-communicate> .
+<https://github.com/john1hsu/communication-graph/id/eye-contact/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/eye-contact/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Was I looking at the other person mostly while they were speaking, and letting my gaze move while I was thinking?" .
+<https://github.com/john1hsu/communication-graph/id/eye-contact/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/eye-contact> .
+<https://github.com/john1hsu/communication-graph/id/eye-contact/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/eye-contact/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Did I hold anyone's gaze long enough that it might have felt like a stare or a challenge?" .
+<https://github.com/john1hsu/communication-graph/id/eye-contact/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/eye-contact> .
+<https://github.com/john1hsu/communication-graph/id/eye-contact/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/eye-contact/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Did I share my eye contact around the room, or did I keep looking only at the most senior person?" .
+<https://github.com/john1hsu/communication-graph/id/eye-contact/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/eye-contact> .
+<https://github.com/john1hsu/communication-graph/id/eye-contact/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/eye-contact/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Is this person's comfort with direct gaze likely to differ from mine, and did I adjust to what they did?" .
+<https://github.com/john1hsu/communication-graph/id/eye-contact/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/eye-contact> .
+<https://github.com/john1hsu/communication-graph/id/eye-contact> <http://purl.org/dc/terms/created> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/eye-contact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Skill> .
+<https://github.com/john1hsu/communication-graph/id/eye-contact> <http://www.w3.org/2000/01/rdf-schema#label> "Gaze and eye contact" .
+<https://github.com/john1hsu/communication-graph/id/eye-contact> <http://www.w3.org/2004/02/skos/core#altLabel> "eye contact" .
+<https://github.com/john1hsu/communication-graph/id/eye-contact> <http://www.w3.org/2004/02/skos/core#altLabel> "looking people in the eye" .
+<https://github.com/john1hsu/communication-graph/id/eye-contact> <http://www.w3.org/2004/02/skos/core#altLabel> "mutual gaze" .
+<https://github.com/john1hsu/communication-graph/id/eye-contact> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> .
+<https://github.com/john1hsu/communication-graph/id/eye-contact> <http://www.w3.org/2004/02/skos/core#definition> "The skill of using where and how long you look at someone to signal attention, manage turn-taking and build connection in conversation; research suggests moderate, well-timed eye contact helps, while more eye contact is not always better and its meaning varies by culture and situation." .
+<https://github.com/john1hsu/communication-graph/id/eye-contact> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/nonverbal-and-voice> .
+<https://github.com/john1hsu/communication-graph/id/eye-contact> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gaze and eye contact" .
+<https://github.com/john1hsu/communication-graph/id/eye-contact> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+<https://github.com/john1hsu/communication-graph/id/eye-contact> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> .
+<https://github.com/john1hsu/communication-graph/id/eye-contact> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/intercultural-communication> .
+<https://github.com/john1hsu/communication-graph/id/eye-contact> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> .
+<https://github.com/john1hsu/communication-graph/id/eye-contact> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/persuasion> .
+<https://github.com/john1hsu/communication-graph/id/eye-contact> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/proxemics> .
+<https://github.com/john1hsu/communication-graph/id/eye-contact> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/rapport> .
+<https://github.com/john1hsu/communication-graph/id/eye-contact> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> .
+<https://github.com/john1hsu/communication-graph/id/eye-contact> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/eye-contact/s1> .
+<https://github.com/john1hsu/communication-graph/id/eye-contact> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/eye-contact/s2> .
+<https://github.com/john1hsu/communication-graph/id/eye-contact> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/eye-contact/s3> .
+<https://github.com/john1hsu/communication-graph/id/eye-contact> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/eye-contact/s4> .
+<https://github.com/john1hsu/communication-graph/id/eye-contact> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/eye-contact/s5> .
+<https://github.com/john1hsu/communication-graph/id/eye-contact> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/eye-contact/s6> .
+<https://github.com/john1hsu/communication-graph/id/eye-contact> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/face-to-face-conversation> .
+<https://github.com/john1hsu/communication-graph/id/eye-contact> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/chen-et-al-2013> .
+<https://github.com/john1hsu/communication-graph/id/eye-contact> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+<https://github.com/john1hsu/communication-graph/id/eye-contact> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/wohltjen-wheatley-2021> .
+<https://github.com/john1hsu/communication-graph/id/eye-contact> <https://github.com/john1hsu/communication-graph/ontology#domain> "nonverbal-and-voice" .
+<https://github.com/john1hsu/communication-graph/id/eye-contact> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/eye-contact> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/cognitive-load> .
+<https://github.com/john1hsu/communication-graph/id/eye-contact> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/nonverbal-and-voice/eye-contact.md" .
+<https://github.com/john1hsu/communication-graph/id/eye-contact> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/eye-contact> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/binetti-et-al-2016> .
 <https://github.com/john1hsu/communication-graph/id/feedback> <http://purl.org/dc/terms/created> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
 <https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2000/01/rdf-schema#label> "Feedback" .
@@ -3416,6 +3462,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/ethnocentrism/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/ethnocentrism/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/communication-graph/id/source/ethnocentrism/s6> <https://schema.org/url> <https://courses.washington.edu/pbafhall/563/Readings/pettigrew.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/eye-contact/s1> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/eye-contact/s1> <http://purl.org/dc/terms/publisher> "Frances S. Chen, Julia A. Minson, Maren Schöne & Markus Heinrichs, Psychological Science 24(11), 2013, pp. 2254-2261 (Harvard Kennedy School publication page)" .
+<https://github.com/john1hsu/communication-graph/id/source/eye-contact/s1> <http://purl.org/dc/terms/title> "In the Eye of the Beholder: Eye Contact Increases Resistance to Persuasion" .
+<https://github.com/john1hsu/communication-graph/id/source/eye-contact/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/eye-contact/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/eye-contact/s1> <https://schema.org/url> <https://www.hks.harvard.edu/publications/eye-beholder-eye-contact-increases-resistance-persuasion> .
+<https://github.com/john1hsu/communication-graph/id/source/eye-contact/s2> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/eye-contact/s2> <http://purl.org/dc/terms/publisher> "Akechi, Senju, Uibo, Kikuchi, Hasegawa & Hietanen, PLoS ONE 8(3) e59312, 2013 (PubMed Central)" .
+<https://github.com/john1hsu/communication-graph/id/source/eye-contact/s2> <http://purl.org/dc/terms/title> "Attention to Eye Contact in the West and East: Autonomic Responses and Evaluative Ratings" .
+<https://github.com/john1hsu/communication-graph/id/source/eye-contact/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/eye-contact/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/eye-contact/s2> <https://schema.org/url> <https://pmc.ncbi.nlm.nih.gov/articles/PMC3596353> .
+<https://github.com/john1hsu/communication-graph/id/source/eye-contact/s3> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/eye-contact/s3> <http://purl.org/dc/terms/publisher> "Sophie Wohltjen & Thalia Wheatley, PNAS 118(37) e2106645118, 2021 (Fermat's Library copy)" .
+<https://github.com/john1hsu/communication-graph/id/source/eye-contact/s3> <http://purl.org/dc/terms/title> "Eye contact marks the rise and fall of shared attention in conversation" .
+<https://github.com/john1hsu/communication-graph/id/source/eye-contact/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/eye-contact/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/eye-contact/s3> <https://schema.org/url> <https://fermatslibrary.com/s/d4a90-eye-contact-marks-the-rise-and-fall-of-shared-attention-in-conversation> .
+<https://github.com/john1hsu/communication-graph/id/source/eye-contact/s4> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/eye-contact/s4> <http://purl.org/dc/terms/publisher> "British Psychological Society Research Digest, summarising Binetti et al., Royal Society Open Science 3(7), 2016" .
+<https://github.com/john1hsu/communication-graph/id/source/eye-contact/s4> <http://purl.org/dc/terms/title> "Psychologists have identified the length of eye contact people find most comfortable" .
+<https://github.com/john1hsu/communication-graph/id/source/eye-contact/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/eye-contact/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/communication-graph/id/source/eye-contact/s4> <https://schema.org/url> <https://www.bps.org.uk/research-digest/psychologists-have-identified-length-eye-contact-people-find-most-comfortable> .
+<https://github.com/john1hsu/communication-graph/id/source/eye-contact/s5> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/eye-contact/s5> <http://purl.org/dc/terms/publisher> "Christian Jarrett, British Psychological Society Research Digest, 2016, summarising Kajimura & Nomura, Cognition, 2016" .
+<https://github.com/john1hsu/communication-graph/id/source/eye-contact/s5> <http://purl.org/dc/terms/title> "Why it's hard to talk and make eye contact at the same time" .
+<https://github.com/john1hsu/communication-graph/id/source/eye-contact/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/eye-contact/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/communication-graph/id/source/eye-contact/s5> <https://schema.org/url> <https://bps.org.uk/research-digest/why-its-hard-talk-and-make-eye-contact-same-time> .
+<https://github.com/john1hsu/communication-graph/id/source/eye-contact/s6> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/eye-contact/s6> <http://purl.org/dc/terms/publisher> "Stephanie Montgomery, open textbook, University of North Alabama Pressbooks" .
+<https://github.com/john1hsu/communication-graph/id/source/eye-contact/s6> <http://purl.org/dc/terms/title> "Chapter 5: Oculesics (More than what you say: Nonverbal communication in the 21st century)" .
+<https://github.com/john1hsu/communication-graph/id/source/eye-contact/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/eye-contact/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/communication-graph/id/source/eye-contact/s6> <https://schema.org/url> <https://una.pressbooks.pub/nonverbal-communication/?p=69> .
 <https://github.com/john1hsu/communication-graph/id/source/feedback/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/feedback/s1> <http://purl.org/dc/terms/publisher> "Kluger & DeNisi, Psychological Bulletin 119(2), 254-284 (1996), doi:10.1037/0033-2909.119.2.254 (Hebrew University research portal)" .
 <https://github.com/john1hsu/communication-graph/id/source/feedback/s1> <http://purl.org/dc/terms/title> "The effects of feedback interventions on performance: a historical review, a meta-analysis, and a preliminary feedback intervention theory" .

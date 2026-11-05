@@ -12,7 +12,9 @@ _No results._
 
 _Which written skills or dispositions have no technique, framework or principle that develops them?_ — `queries/02-skills-without-practice.rq`
 
-_No results._
+| skill | type |
+|---|---|
+| `cm:eye-contact` | cmo:Skill |
 
 ## Situations, channels and formats with no guidance (gap)
 
@@ -68,6 +70,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:email` | `cm:rapport` |
 | `cm:executive-briefing` | `cm:issue-selling` |
 | `cm:executive-briefing` | `cm:words-of-estimative-probability` |
+| `cm:face-to-face-conversation` | `cm:eye-contact` |
 | `cm:face-to-face-conversation` | `cm:proxemics` |
 | `cm:face-to-face-conversation` | `cm:rapport` |
 | `cm:memorandum` | `cm:bottom-line-up-front` |
@@ -85,9 +88,8 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:presentation` | `cm:anxiety-reappraisal` |
 | `cm:presentation` | `cm:self-distancing` |
 | `cm:salary-negotiation` | `cm:first-offer` |
-| `cm:salary-negotiation` | `cm:multiple-equivalent-simultaneous-offers` |
 
-…and 5 more.
+…and 6 more.
 
 ## Myths and contested advice
 
@@ -111,6 +113,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:direct-vs-indirect-feedback` | mixed | `cm:brew-cairns-2004` |
 | `cm:email` | mixed |  |
 | `cm:ethnocentrism` | mixed |  |
+| `cm:eye-contact` | mixed | `cm:chen-et-al-2013` |
 | `cm:feedback` | mixed |  |
 | `cm:feedforward` | mixed |  |
 | `cm:i-statements` | mixed | `cm:korobov-2020` |
@@ -124,9 +127,8 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:one-on-one-meetings` | mixed |  |
 | `cm:open-ended-questions` | mixed | `cm:minson-et-al-2018` |
 | `cm:paraphrasing` | mixed | `cm:weger-castle-emmett-2010` |
-| `cm:plain-language` | mixed |  |
 
-…and 11 more.
+…and 12 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -134,6 +136,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 
 | node | type |
 |---|---|
+| `cm:eye-contact` | cmo:Skill |
 | `cm:meeting-agendas` | cmo:Technique |
 | `cm:one-on-one-meetings` | cmo:Context |
 | `cm:open-ended-questions` | cmo:Technique |

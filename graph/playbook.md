@@ -524,6 +524,16 @@ Ask yourself:
 - Am I ready to respond to cherry-picking with new packages instead of single concessions?
 - Is everything I say about the packages - including that I would accept any of them - true?
 
+## nonverbal-and-voice
+
+### [Gaze and eye contact](../articles/nonverbal-and-voice/eye-contact.md) — Skill
+
+Ask yourself:
+- Was I looking at the other person mostly while they were speaking, and letting my gaze move while I was thinking?
+- Did I hold anyone's gaze long enough that it might have felt like a stare or a challenge?
+- Did I share my eye contact around the room, or did I keep looking only at the most senior person?
+- Is this person's comfort with direct gaze likely to differ from mine, and did I adjust to what they did?
+
 ## persuasion-and-influence
 
 ### [Influence without authority](../articles/persuasion-and-influence/influence-without-authority.md) — Technique

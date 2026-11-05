@@ -1704,6 +1704,96 @@
    ]
   },
   {
+   "@id": "cm:eye-contact",
+   "@type": "cmo:Skill",
+   "cmo:appliedIn": {
+    "@id": "cm:face-to-face-conversation"
+   },
+   "cmo:challengedBy": {
+    "@id": "cm:chen-et-al-2013"
+   },
+   "cmo:complements": {
+    "@id": "cm:active-listening"
+   },
+   "cmo:demonstratedBy": {
+    "@id": "cm:wohltjen-wheatley-2021"
+   },
+   "cmo:domain": "nonverbal-and-voice",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:explainedBy": {
+    "@id": "cm:cognitive-load"
+   },
+   "cmo:file": "articles/nonverbal-and-voice/eye-contact.md",
+   "cmo:level": "introductory",
+   "cmo:supportedBy": {
+    "@id": "cm:binetti-et-al-2016"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/eye-contact/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/eye-contact/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/eye-contact/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/eye-contact/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/eye-contact/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/eye-contact/s6"
+    }
+   ],
+   "rdfs:label": "Gaze and eye contact",
+   "skos:altLabel": [
+    "eye contact",
+    "looking people in the eye",
+    "mutual gaze"
+   ],
+   "skos:broader": {
+    "@id": "cm:nonverbal-communication"
+   },
+   "skos:definition": "The skill of using where and how long you look at someone to signal attention, manage turn-taking and build connection in conversation; research suggests moderate, well-timed eye contact helps, while more eye contact is not always better and its meaning varies by culture and situation.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/nonverbal-and-voice"
+   },
+   "skos:prefLabel": "Gaze and eye contact",
+   "skos:related": [
+    {
+     "@id": "cm:active-listening"
+    },
+    {
+     "@id": "cm:high-and-low-context-cultures"
+    },
+    {
+     "@id": "cm:intercultural-communication"
+    },
+    {
+     "@id": "cm:mehrabian-myth"
+    },
+    {
+     "@id": "cm:persuasion"
+    },
+    {
+     "@id": "cm:proxemics"
+    },
+    {
+     "@id": "cm:rapport"
+    },
+    {
+     "@id": "cm:speaking-anxiety"
+    }
+   ]
+  },
+  {
    "@id": "cm:feedback",
    "@type": "cmo:Concept",
    "cmo:demonstratedBy": [
@@ -6301,6 +6391,38 @@
    "rdfs:label": "Who on this team have I quietly been avoiding or routing around, and is the real reason a difference in style?"
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/eye-contact/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:eye-contact"
+   },
+   "rdfs:label": "Was I looking at the other person mostly while they were speaking, and letting my gaze move while I was thinking?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/eye-contact/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:eye-contact"
+   },
+   "rdfs:label": "Did I hold anyone's gaze long enough that it might have felt like a stare or a challenge?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/eye-contact/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:eye-contact"
+   },
+   "rdfs:label": "Did I share my eye contact around the room, or did I keep looking only at the most senior person?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/eye-contact/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:eye-contact"
+   },
+   "rdfs:label": "Is this person's comfort with direct gaze likely to differ from mine, and did I adjust to what they did?"
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/feedforward/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -9506,6 +9628,90 @@
    "dcterms:title": "How does intergroup contact reduce prejudice? Meta-analytic tests of three mediators",
    "schema:url": {
     "@id": "https://courses.washington.edu/pbafhall/563/Readings/pettigrew.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/eye-contact/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Frances S. Chen, Julia A. Minson, Maren Schöne & Markus Heinrichs, Psychological Science 24(11), 2013, pp. 2254-2261 (Harvard Kennedy School publication page)",
+   "dcterms:title": "In the Eye of the Beholder: Eye Contact Increases Resistance to Persuasion",
+   "schema:url": {
+    "@id": "https://www.hks.harvard.edu/publications/eye-beholder-eye-contact-increases-resistance-persuasion"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/eye-contact/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Akechi, Senju, Uibo, Kikuchi, Hasegawa & Hietanen, PLoS ONE 8(3) e59312, 2013 (PubMed Central)",
+   "dcterms:title": "Attention to Eye Contact in the West and East: Autonomic Responses and Evaluative Ratings",
+   "schema:url": {
+    "@id": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3596353"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/eye-contact/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Sophie Wohltjen & Thalia Wheatley, PNAS 118(37) e2106645118, 2021 (Fermat's Library copy)",
+   "dcterms:title": "Eye contact marks the rise and fall of shared attention in conversation",
+   "schema:url": {
+    "@id": "https://fermatslibrary.com/s/d4a90-eye-contact-marks-the-rise-and-fall-of-shared-attention-in-conversation"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/eye-contact/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "British Psychological Society Research Digest, summarising Binetti et al., Royal Society Open Science 3(7), 2016",
+   "dcterms:title": "Psychologists have identified the length of eye contact people find most comfortable",
+   "schema:url": {
+    "@id": "https://www.bps.org.uk/research-digest/psychologists-have-identified-length-eye-contact-people-find-most-comfortable"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/eye-contact/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Christian Jarrett, British Psychological Society Research Digest, 2016, summarising Kajimura & Nomura, Cognition, 2016",
+   "dcterms:title": "Why it's hard to talk and make eye contact at the same time",
+   "schema:url": {
+    "@id": "https://bps.org.uk/research-digest/why-its-hard-talk-and-make-eye-contact-same-time"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/eye-contact/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Stephanie Montgomery, open textbook, University of North Alabama Pressbooks",
+   "dcterms:title": "Chapter 5: Oculesics (More than what you say: Nonverbal communication in the 21st century)",
+   "schema:url": {
+    "@id": "https://una.pressbooks.pub/nonverbal-communication/?p=69"
    }
   },
   {
