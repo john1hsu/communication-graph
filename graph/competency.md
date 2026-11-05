@@ -109,6 +109,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:issue-selling` | mixed |  |
 | `cm:multiple-equivalent-simultaneous-offers` | mixed |  |
 | `cm:nominal-group-technique` | mixed |  |
+| `cm:one-on-one-meetings` | mixed |  |
 | `cm:open-ended-questions` | mixed | `cm:minson-et-al-2018` |
 | `cm:paraphrasing` | mixed | `cm:weger-castle-emmett-2010` |
 | `cm:plain-language` | mixed |  |
@@ -117,9 +118,8 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:rapport` | mixed |  |
 | `cm:self-distancing` | mixed |  |
 | `cm:spotlight-effect` | mixed |  |
-| `cm:teach-back` | mixed |  |
 
-…and 2 more.
+…and 3 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -129,6 +129,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 |---|---|
 | `cm:feedback` | cmo:Concept |
 | `cm:first-offer` | cmo:Technique |
+| `cm:one-on-one-meetings` | cmo:Context |
 | `cm:open-ended-questions` | cmo:Technique |
 | `cm:plain-language` | cmo:Principle |
 | `cm:rapport` | cmo:Concept |

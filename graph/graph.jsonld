@@ -2508,6 +2508,93 @@
    ]
   },
   {
+   "@id": "cm:one-on-one-meetings",
+   "@type": "cmo:Context",
+   "cmo:causes": {
+    "@id": "cm:employee-engagement"
+   },
+   "cmo:complements": {
+    "@id": "cm:feedback"
+   },
+   "cmo:contrastsWith": {
+    "@id": "cm:team-meetings"
+   },
+   "cmo:domain": "feedback-and-coaching",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:explainedBy": {
+    "@id": "cm:self-determination-theory"
+   },
+   "cmo:file": "articles/feedback-and-coaching/one-on-one-meetings.md",
+   "cmo:level": "introductory",
+   "cmo:supportedBy": {
+    "@id": "cm:flinchum-2022"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/one-on-one-meetings/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/one-on-one-meetings/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/one-on-one-meetings/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/one-on-one-meetings/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/one-on-one-meetings/s5"
+    }
+   ],
+   "rdfs:label": "Manager one-on-one meetings",
+   "skos:altLabel": [
+    "1:1 meetings",
+    "manager-direct report check-ins",
+    "one-on-ones",
+    "one-to-one meetings"
+   ],
+   "skos:broader": [
+    {
+     "@id": "cm:interpersonal-communication"
+    },
+    {
+     "@id": "cm:workplace-meetings"
+    }
+   ],
+   "skos:definition": "Recurring, scheduled conversations between a manager and one direct report, held live and focused mainly on the direct report's needs - priorities, roadblocks, feedback, wellbeing and development - rather than on the manager's status updates.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/feedback-and-coaching"
+   },
+   "skos:prefLabel": "Manager one-on-one meetings",
+   "skos:related": [
+    {
+     "@id": "cm:active-listening"
+    },
+    {
+     "@id": "cm:feedforward"
+    },
+    {
+     "@id": "cm:humble-inquiry"
+    },
+    {
+     "@id": "cm:managing-up"
+    },
+    {
+     "@id": "cm:open-ended-questions"
+    },
+    {
+     "@id": "cm:performance-review"
+    },
+    {
+     "@id": "cm:psychological-safety"
+    }
+   ]
+  },
+  {
    "@id": "cm:open-ended-questions",
    "@type": "cmo:Technique",
    "cmo:challengedBy": {
@@ -8324,6 +8411,76 @@
    "dcterms:title": "Building Timely Consensus Among Diverse Stakeholders: An Adapted Nominal Group Technique",
    "schema:url": {
     "@id": "https://www.annfammed.org/content/22/6/525.abstract"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/one-on-one-meetings/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Flinchum, J. R., PhD dissertation in Organizational Science, University of North Carolina at Charlotte (chair S. G. Rogelberg), 2022 (Niner Commons repository)",
+   "dcterms:title": "A New Approach to Promote Employee Engagement: One-on-One Meetings Between Managers and Direct Reports",
+   "schema:url": {
+    "@id": "https://ninercommons.charlotte.edu/record/2294/files/Flinchum_uncc_0694D_13278.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/one-on-one-meetings/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "practitioner-journal",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Rogelberg, S. G., Harvard Business Review, November 2022",
+   "dcterms:title": "Make the Most of Your One-on-One Meetings",
+   "schema:url": {
+    "@id": "https://hbr.org/2022/11/make-the-most-of-your-one-on-one-meetings"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/one-on-one-meetings/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Gallup, Inc. (Gallup Workplace), 2023, updated 2026",
+   "dcterms:title": "A Great Manager's Most Important Habit",
+   "schema:url": {
+    "@id": "https://www.gallup.com/workplace/505370/great-manager-important-habit.aspx"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/one-on-one-meetings/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "University of Greenwich, staff guidance on good management practice",
+   "dcterms:title": "One to One Meetings: Guidance for Managers",
+   "schema:url": {
+    "@id": "https://gre.ac.uk/__data/assets/pdf_file/0027/132759/One-to-One-Meetings-Guidance-for-Managers.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/one-on-one-meetings/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Leadership Science, University of North Carolina at Charlotte",
+   "dcterms:title": "Steven Rogelberg - faculty profile",
+   "schema:url": {
+    "@id": "https://leadershipscience.charlotte.edu/?p=613"
    }
   },
   {
