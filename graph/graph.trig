@@ -468,6 +468,13 @@
 <https://github.com/john1hsu/communication-graph/id/william-strunk-jr#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/william-strunk-jr/s2> .
 <https://github.com/john1hsu/communication-graph/id/william-strunk-jr#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/william-strunk-jr/s3> .
 <https://github.com/john1hsu/communication-graph/id/william-strunk-jr#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/william-strunk-jr/s4> .
+<https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> .
+<https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/thinkers-and-works/wisniewski-zierer-hattie-2020.md" .
+<https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/wisniewski-zierer-hattie-2020/s1> .
+<https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/wisniewski-zierer-hattie-2020/s2> .
+<https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/wisniewski-zierer-hattie-2020/s3> .
+<https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/wisniewski-zierer-hattie-2020/s4> .
 <https://github.com/john1hsu/communication-graph/id/active-voice#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/active-voice#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/active-voice> .
 <https://github.com/john1hsu/communication-graph/id/active-voice#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/writing/active-voice.md" .
@@ -5367,6 +5374,63 @@
   <https://github.com/john1hsu/communication-graph/id/william-strunk-jr> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 }
 
+<https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020#graph> {
+  <https://github.com/john1hsu/communication-graph/id/source/wisniewski-zierer-hattie-2020/s1> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/wisniewski-zierer-hattie-2020/s1> <http://purl.org/dc/terms/publisher> "Wisniewski, Zierer & Hattie, Frontiers in Psychology 10:3087 (published 22 January 2020), doi:10.3389/fpsyg.2019.03087" .
+  <https://github.com/john1hsu/communication-graph/id/source/wisniewski-zierer-hattie-2020/s1> <http://purl.org/dc/terms/title> "The Power of Feedback Revisited: A Meta-Analysis of Educational Feedback Research" .
+  <https://github.com/john1hsu/communication-graph/id/source/wisniewski-zierer-hattie-2020/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/wisniewski-zierer-hattie-2020/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/wisniewski-zierer-hattie-2020/s1> <https://schema.org/url> <https://www.frontiersin.org/articles/10.3389/fpsyg.2019.03087> .
+  <https://github.com/john1hsu/communication-graph/id/source/wisniewski-zierer-hattie-2020/s2> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/wisniewski-zierer-hattie-2020/s2> <http://purl.org/dc/terms/publisher> "University of Augsburg OPUS repository - full text of Wisniewski, Zierer & Hattie, Frontiers in Psychology 10:3087" .
+  <https://github.com/john1hsu/communication-graph/id/source/wisniewski-zierer-hattie-2020/s2> <http://purl.org/dc/terms/title> "The Power of Feedback Revisited (author repository copy)" .
+  <https://github.com/john1hsu/communication-graph/id/source/wisniewski-zierer-hattie-2020/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/wisniewski-zierer-hattie-2020/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/communication-graph/id/source/wisniewski-zierer-hattie-2020/s2> <https://schema.org/url> <https://opus.bibliothek.uni-augsburg.de/opus4/frontdoor/deliver/index/docId/71009/file/fpsyg-10-03087.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/wisniewski-zierer-hattie-2020/s3> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/wisniewski-zierer-hattie-2020/s3> <http://purl.org/dc/terms/publisher> "Hattie & Timperley, Review of Educational Research 77(1), 81-112 (2007), doi:10.3102/003465430298487 (University of California, Riverside assessment office copy)" .
+  <https://github.com/john1hsu/communication-graph/id/source/wisniewski-zierer-hattie-2020/s3> <http://purl.org/dc/terms/title> "The Power of Feedback" .
+  <https://github.com/john1hsu/communication-graph/id/source/wisniewski-zierer-hattie-2020/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/wisniewski-zierer-hattie-2020/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/wisniewski-zierer-hattie-2020/s3> <https://schema.org/url> <https://assess.ucr.edu/media/746/download> .
+  <https://github.com/john1hsu/communication-graph/id/source/wisniewski-zierer-hattie-2020/s4> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/wisniewski-zierer-hattie-2020/s4> <http://purl.org/dc/terms/publisher> "Bergeron, McGill Journal of Education 51(2) (2016)" .
+  <https://github.com/john1hsu/communication-graph/id/source/wisniewski-zierer-hattie-2020/s4> <http://purl.org/dc/terms/title> "How to Engage in Pseudoscience with Real Data: A Criticism of John Hattie's Arguments in Visible Learning from the Perspective of a Statistician" .
+  <https://github.com/john1hsu/communication-graph/id/source/wisniewski-zierer-hattie-2020/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/wisniewski-zierer-hattie-2020/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/wisniewski-zierer-hattie-2020/s4> <https://schema.org/url> <https://mje.mcgill.ca/article/view/9394> .
+  <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> <http://purl.org/dc/terms/created> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
+  <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> <http://www.w3.org/2000/01/rdf-schema#label> "The Power of Feedback Revisited" .
+  <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> <http://www.w3.org/2004/02/skos/core#altLabel> "Wisniewski et al. 2020" .
+  <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> <http://www.w3.org/2004/02/skos/core#altLabel> "Wisniewski" .
+  <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> <http://www.w3.org/2004/02/skos/core#altLabel> "Zierer & Hattie 2020" .
+  <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> <http://www.w3.org/2004/02/skos/core#altLabel> "educational feedback meta-analysis" .
+  <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/feedback> .
+  <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> <http://www.w3.org/2004/02/skos/core#definition> "Benedikt Wisniewski, Klaus Zierer and John Hattie's 2020 Frontiers in Psychology meta-analysis of 435 studies (994 effects, about 61,000 learners), which found a medium average effect of feedback (d = 0.48) with very large variation, and much stronger effects for feedback rich in information." .
+  <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works> .
+  <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> <http://www.w3.org/2004/02/skos/core#prefLabel> "The Power of Feedback Revisited" .
+  <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/feedforward> .
+  <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> .
+  <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996> .
+  <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> .
+  <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/visible-learning> .
+  <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/wisniewski-zierer-hattie-2020/s1> .
+  <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/wisniewski-zierer-hattie-2020/s2> .
+  <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/wisniewski-zierer-hattie-2020/s3> .
+  <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/wisniewski-zierer-hattie-2020/s4> .
+  <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996> .
+  <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> <https://github.com/john1hsu/communication-graph/ontology#domain> "thinkers-and-works" .
+  <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+  <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/thinkers-and-works/wisniewski-zierer-hattie-2020.md" .
+  <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> .
+  <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/benedikt-wisniewski> .
+  <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/john-hattie> .
+  <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/klaus-zierer> .
+  <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+  <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/feedback> .
+}
+
 <https://github.com/john1hsu/communication-graph/id/active-voice#graph> {
   <https://github.com/john1hsu/communication-graph/id/active-voice/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
   <https://github.com/john1hsu/communication-graph/id/active-voice/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Can the reader tell, sentence by sentence, who is responsible for each action?" .
@@ -5805,6 +5869,9 @@
   <https://github.com/john1hsu/communication-graph/id/behavior-purpose-and-teleology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
   <https://github.com/john1hsu/communication-graph/id/behavior-purpose-and-teleology> <https://github.com/john1hsu/communication-graph/ontology#authoredBy> <https://github.com/john1hsu/communication-graph/id/norbert-wiener> .
   <https://github.com/john1hsu/communication-graph/id/beltzer-et-al-2014> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> .
+  <https://github.com/john1hsu/communication-graph/id/benedikt-wisniewski> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/benedikt-wisniewski> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+  <https://github.com/john1hsu/communication-graph/id/benedikt-wisniewski> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> .
   <https://github.com/john1hsu/communication-graph/id/bennett-et-al-2021> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> .
   <https://github.com/john1hsu/communication-graph/id/bennett-et-al-2021> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> .
   <https://github.com/john1hsu/communication-graph/id/berg-et-al-2019> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/open-ended-questions> .
@@ -6107,15 +6174,18 @@
   <https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/feedforward> .
   <https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996> .
   <https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> .
+  <https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> .
   <https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> .
   <https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/feedforward> .
   <https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996> .
   <https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> .
+  <https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> .
   <https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/difficult-conversation> .
   <https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/norbert-wiener> .
   <https://github.com/john1hsu/communication-graph/id/feedback> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> .
   <https://github.com/john1hsu/communication-graph/id/feedback> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/norbert-wiener> .
   <https://github.com/john1hsu/communication-graph/id/feedback> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996> .
+  <https://github.com/john1hsu/communication-graph/id/feedback> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> .
   <https://github.com/john1hsu/communication-graph/id/feedforward-interview> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/feedforward> .
   <https://github.com/john1hsu/communication-graph/id/feedforward/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/feedforward/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -6129,6 +6199,7 @@
   <https://github.com/john1hsu/communication-graph/id/feedforward> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/feedback> .
   <https://github.com/john1hsu/communication-graph/id/feedforward> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996> .
   <https://github.com/john1hsu/communication-graph/id/feedforward> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/norbert-wiener> .
+  <https://github.com/john1hsu/communication-graph/id/feedforward> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> .
   <https://github.com/john1hsu/communication-graph/id/fifty-years-of-stupid-grammar-advice> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/william-strunk-jr> .
   <https://github.com/john1hsu/communication-graph/id/first-offer/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/first-offer/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -6193,7 +6264,9 @@
   <https://github.com/john1hsu/communication-graph/id/gustafson-rice-2020> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/communicating-uncertainty> .
   <https://github.com/john1hsu/communication-graph/id/ha-dinh-et-al-2016> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/teach-back> .
   <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996> .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> .
   <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/feedback> .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> .
   <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
@@ -6311,6 +6384,7 @@
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/rapport> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> .
+  <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-conflict> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/difficult-conversation> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-conflict> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/difficult-conversation> .
   <https://github.com/john1hsu/communication-graph/id/issue-selling/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -6342,6 +6416,9 @@
   <https://github.com/john1hsu/communication-graph/id/jeremy-jamieson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/jeremy-jamieson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/jeremy-jamieson> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> .
+  <https://github.com/john1hsu/communication-graph/id/john-hattie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/john-hattie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+  <https://github.com/john1hsu/communication-graph/id/john-hattie> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> .
   <https://github.com/john1hsu/communication-graph/id/john-j-gabarro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/john-j-gabarro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/john-j-gabarro> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/managing-up> .
@@ -6357,10 +6434,15 @@
   <https://github.com/john1hsu/communication-graph/id/keysar-henly-2002> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> .
   <https://github.com/john1hsu/communication-graph/id/kieras-1979-initial-mention> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
   <https://github.com/john1hsu/communication-graph/id/kittler-rygl-mackinnon-2011> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> .
+  <https://github.com/john1hsu/communication-graph/id/klaus-zierer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/klaus-zierer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+  <https://github.com/john1hsu/communication-graph/id/klaus-zierer> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> .
   <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/feedback> .
   <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
   <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/norbert-wiener> .
+  <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> .
+  <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> .
   <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/feedback> .
   <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> .
   <https://github.com/john1hsu/communication-graph/id/kluger-et-al-2024> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> .
@@ -6744,6 +6826,7 @@
   <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/feedback> .
   <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996> .
   <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/paraphrasing> .
+  <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> .
   <https://github.com/john1hsu/communication-graph/id/small-talk> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/rapport> .
   <https://github.com/john1hsu/communication-graph/id/social-anxiety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> .
   <https://github.com/john1hsu/communication-graph/id/social-anxiety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> .
@@ -6863,6 +6946,7 @@
   <https://github.com/john1hsu/communication-graph/id/video-call-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> .
   <https://github.com/john1hsu/communication-graph/id/video-call-communication> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> .
   <https://github.com/john1hsu/communication-graph/id/video-call-communication> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/proxemics> .
+  <https://github.com/john1hsu/communication-graph/id/visible-learning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> .
   <https://github.com/john1hsu/communication-graph/id/weger-castle-emmett-2010> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> .
   <https://github.com/john1hsu/communication-graph/id/weger-castle-emmett-2010> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/paraphrasing> .
   <https://github.com/john1hsu/communication-graph/id/weger-castle-emmett-2010> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> .
@@ -6876,7 +6960,8 @@
   <https://github.com/john1hsu/communication-graph/id/wintle-et-al-2019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/wintle-et-al-2019> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability> .
   <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
-  <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
+  <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/feedback> .
+  <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
   <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/feedback> .
   <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996> .
   <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> .

@@ -4819,6 +4819,84 @@
    ]
   },
   {
+   "@id": "cm:wisniewski-zierer-hattie-2020",
+   "@type": "cmo:Study",
+   "cmo:complements": {
+    "@id": "cm:kluger-denisi-1996"
+   },
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:file": "articles/thinkers-and-works/wisniewski-zierer-hattie-2020.md",
+   "cmo:influencedBy": {
+    "@id": "cm:hattie-timperley-feedback-model"
+   },
+   "cmo:introducedBy": [
+    {
+     "@id": "cm:benedikt-wisniewski"
+    },
+    {
+     "@id": "cm:john-hattie"
+    },
+    {
+     "@id": "cm:klaus-zierer"
+    }
+   ],
+   "cmo:level": "intermediate",
+   "cmo:requires": {
+    "@id": "cm:feedback"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/wisniewski-zierer-hattie-2020/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/wisniewski-zierer-hattie-2020/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/wisniewski-zierer-hattie-2020/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/wisniewski-zierer-hattie-2020/s4"
+    }
+   ],
+   "rdfs:label": "The Power of Feedback Revisited",
+   "skos:altLabel": [
+    "Wisniewski et al. 2020",
+    "Wisniewski",
+    "Zierer & Hattie 2020",
+    "educational feedback meta-analysis"
+   ],
+   "skos:broader": {
+    "@id": "cm:feedback"
+   },
+   "skos:definition": "Benedikt Wisniewski, Klaus Zierer and John Hattie's 2020 Frontiers in Psychology meta-analysis of 435 studies (994 effects, about 61,000 learners), which found a medium average effect of feedback (d = 0.48) with very large variation, and much stronger effects for feedback rich in information.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "The Power of Feedback Revisited",
+   "skos:related": [
+    {
+     "@id": "cm:feedforward"
+    },
+    {
+     "@id": "cm:hattie-timperley-feedback-model"
+    },
+    {
+     "@id": "cm:kluger-denisi-1996"
+    },
+    {
+     "@id": "cm:situation-behavior-impact"
+    },
+    {
+     "@id": "cm:visible-learning"
+    }
+   ]
+  },
+  {
    "@id": "cm:words-of-estimative-probability",
    "@type": "cmo:Technique",
    "cmo:addresses": {
@@ -11873,6 +11951,62 @@
    "dcterms:title": "William Strunk papers, 1891-1933 (collection 14-12-585), Division of Rare and Manuscript Collections",
    "schema:url": {
     "@id": "https://archive-prod.library.cornell.edu/agents/people/38936"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/wisniewski-zierer-hattie-2020/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Wisniewski, Zierer & Hattie, Frontiers in Psychology 10:3087 (published 22 January 2020), doi:10.3389/fpsyg.2019.03087",
+   "dcterms:title": "The Power of Feedback Revisited: A Meta-Analysis of Educational Feedback Research",
+   "schema:url": {
+    "@id": "https://www.frontiersin.org/articles/10.3389/fpsyg.2019.03087"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/wisniewski-zierer-hattie-2020/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "University of Augsburg OPUS repository - full text of Wisniewski, Zierer & Hattie, Frontiers in Psychology 10:3087",
+   "dcterms:title": "The Power of Feedback Revisited (author repository copy)",
+   "schema:url": {
+    "@id": "https://opus.bibliothek.uni-augsburg.de/opus4/frontdoor/deliver/index/docId/71009/file/fpsyg-10-03087.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/wisniewski-zierer-hattie-2020/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Hattie & Timperley, Review of Educational Research 77(1), 81-112 (2007), doi:10.3102/003465430298487 (University of California, Riverside assessment office copy)",
+   "dcterms:title": "The Power of Feedback",
+   "schema:url": {
+    "@id": "https://assess.ucr.edu/media/746/download"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/wisniewski-zierer-hattie-2020/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Bergeron, McGill Journal of Education 51(2) (2016)",
+   "dcterms:title": "How to Engage in Pseudoscience with Real Data: A Criticism of John Hattie's Arguments in Visible Learning from the Perspective of a Statistician",
+   "schema:url": {
+    "@id": "https://mje.mcgill.ca/article/view/9394"
    }
   },
   {

@@ -7,11 +7,11 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 2.83 | `cm:difficult-conversation` | `cm:situation-behavior-impact` | `cm:active-listening`, `cm:defensiveness`, `cm:feedback`, `cm:i-statements`, `cm:nonviolent-communication` |
 | 2.51 | `cm:anxiety-reappraisal` | `cm:spotlight-effect` | `cm:illusion-of-transparency`, `cm:macinnis-mackinnon-macintyre-2010`, `cm:self-distancing`, `cm:social-anxiety`, `cm:speaking-anxiety` |
 | 2.35 | `cm:one-on-one-meetings` | `cm:zoom-fatigue` | `cm:employee-engagement`, `cm:workplace-meetings` |
-| 2.23 | `cm:active-listening` | `cm:feedback` | `cm:defensiveness`, `cm:difficult-conversation`, `cm:feedforward`, `cm:one-on-one-meetings`, `cm:psychological-safety` |
 | 2.22 | `cm:i-statements` | `cm:weger-et-al-2014` | `cm:active-listening`, `cm:paraphrasing`, `cm:thomas-gordon` |
+| 2.22 | `cm:active-listening` | `cm:feedback` | `cm:defensiveness`, `cm:difficult-conversation`, `cm:feedforward`, `cm:one-on-one-meetings`, `cm:psychological-safety` |
 | 2.18 | `cm:humble-inquiry` | `cm:weger-et-al-2014` | `cm:active-listening`, `cm:advice-giving`, `cm:open-ended-questions` |
 | 2.14 | `cm:managing-up` | `cm:message-equivocality-media-selection-and-manager-performance` | `cm:audience-analysis`, `cm:channel-selection`, `cm:organizational-communication` |
-| 2.13 | `cm:one-on-one-meetings` | `cm:situation-behavior-impact` | `cm:active-listening`, `cm:feedback`, `cm:feedforward`, `cm:kluger-denisi-1996`, `cm:performance-review` |
+| 2.12 | `cm:one-on-one-meetings` | `cm:situation-behavior-impact` | `cm:active-listening`, `cm:feedback`, `cm:feedforward`, `cm:kluger-denisi-1996`, `cm:performance-review` |
 | 2.11 | `cm:illusion-of-transparency` | `cm:plain-language` | `cm:clarity`, `cm:curse-of-knowledge`, `cm:email`, `cm:teach-back`, `cm:words-of-estimative-probability` |
 | 1.97 | `cm:email` | `cm:zoom-fatigue` | `cm:asynchronous-communication`, `cm:channel-selection`, `cm:information-overload` |
 | 1.97 | `cm:ray-tomlinson` | `cm:zoom-fatigue` | `cm:asynchronous-communication`, `cm:channel-selection`, `cm:information-overload` |
@@ -20,8 +20,8 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 1.64 | `cm:mehrabian-myth` | `cm:rapport` | `cm:channel-selection`, `cm:nonverbal-communication`, `cm:proxemics` |
 | 1.60 | `cm:one-on-one-meetings` | `cm:rapport` | `cm:active-listening`, `cm:interpersonal-communication`, `cm:psychological-safety` |
 | 1.54 | `cm:audience-analysis` | `cm:illusion-of-transparency` | `cm:communicating-uncertainty`, `cm:curse-of-knowledge`, `cm:email`, `cm:george-loewenstein` |
-| 1.53 | `cm:defensiveness` | `cm:direct-vs-indirect-feedback` | `cm:feedback`, `cm:feedforward`, `cm:i-statements`, `cm:situation-behavior-impact` |
 | 1.52 | `cm:communicating-uncertainty` | `cm:plain-language` | `cm:audience-analysis`, `cm:bottom-line-up-front`, `cm:risk-numbers-as-natural-frequencies`, `cm:words-of-estimative-probability` |
+| 1.52 | `cm:defensiveness` | `cm:direct-vs-indirect-feedback` | `cm:feedback`, `cm:feedforward`, `cm:i-statements`, `cm:situation-behavior-impact` |
 | 1.51 | `cm:describe-analyze-evaluate` | `cm:the-culture-map` | `cm:direct-vs-indirect-feedback`, `cm:ethnocentrism`, `cm:high-and-low-context-cultures`, `cm:intercultural-communication` |
 | 1.51 | `cm:feedback` | `cm:i-statements` | `cm:defensiveness`, `cm:difficult-conversation`, `cm:direct-vs-indirect-feedback`, `cm:situation-behavior-impact` |
 | 1.51 | `cm:feedforward` | `cm:i-statements` | `cm:active-listening`, `cm:defensiveness`, `cm:direct-vs-indirect-feedback`, `cm:situation-behavior-impact` |

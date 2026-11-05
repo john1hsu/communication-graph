@@ -5471,6 +5471,92 @@
   ]
  },
  {
+  "id": "cm:wisniewski-zierer-hattie-2020",
+  "title": "The Power of Feedback Revisited",
+  "aliases": [
+   "Wisniewski",
+   "Zierer & Hattie 2020",
+   "Wisniewski et al. 2020",
+   "educational feedback meta-analysis"
+  ],
+  "type": "Study",
+  "domain": "thinkers-and-works",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/thinkers-and-works/wisniewski-zierer-hattie-2020.md",
+  "created": "2026-11-05",
+  "summary": "Benedikt Wisniewski, Klaus Zierer and John Hattie's 2020 Frontiers in Psychology meta-analysis of 435 studies (994 effects, about 61,000 learners), which found a medium average effect of feedback (d = 0.48) with very large variation, and much stronger effects for feedback rich in information.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:feedback"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:kluger-denisi-1996"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:hattie-timperley-feedback-model"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:situation-behavior-impact"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:feedforward"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:visible-learning"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:feedback"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:benedikt-wisniewski",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:klaus-zierer",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:john-hattie",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:influencedBy",
+    "object": "cm:hattie-timperley-feedback-model",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:kluger-denisi-1996",
+    "source": "s2",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://www.frontiersin.org/articles/10.3389/fpsyg.2019.03087",
+   "https://opus.bibliothek.uni-augsburg.de/opus4/frontdoor/deliver/index/docId/71009/file/fpsyg-10-03087.pdf",
+   "https://assess.ucr.edu/media/746/download",
+   "https://mje.mcgill.ca/article/view/9394"
+  ]
+ },
+ {
   "id": "cm:words-of-estimative-probability",
   "title": "Words of estimative probability",
   "aliases": [

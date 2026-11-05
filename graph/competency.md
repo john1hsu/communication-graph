@@ -125,7 +125,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:plain-language` | mixed |  |
 | `cm:proxemics` | mixed |  |
 
-…and 9 more.
+…and 10 more.
 
 ## Concepts with no recorded origin (gap)
 
