@@ -526,6 +526,29 @@ Ask yourself:
 
 ## nonverbal-and-voice
 
+### [Camera-level gaze on video calls](../articles/nonverbal-and-voice/camera-level-gaze.md) — Technique
+
+1. Raise the camera to your eye level or slightly above, propping a laptop on books if you need to.
+2. Sit about an arm's length back so you are framed from the chest up with your eyes roughly a third of the way down the frame.
+3. Drag the video window of the person you are talking to up to the top centre of your screen, directly under the lens, rather than off to one side.
+4. Look into the lens when you state your main point, make a request or ask a question, using a small sticker beside the lens as a reminder.
+5. While the other person is talking, watch their face in the window under the lens so you can read their reaction.
+6. If you need to glance at notes, keep them just below the camera so you look down briefly rather than sideways.
+
+*A project manager presents a schedule change to a client on a video call.*
+
+| Before | After |
+|---|---|
+| The laptop sits flat on the desk, the client's video is on a second monitor to the right, and the manager reads from notes on that monitor; the client sees someone looking down and away while asking for a two-week extension. | The laptop is raised to eye level, the client's window sits just under the lens with brief notes beneath it, and the manager looks into the lens to say: we need two more weeks, and here is what you get for it. Then the manager watches the client's face while the client responds. |
+
+**Why:** Gaze below the lens is barely noticed while sideways gaze reads as looking away, and looking into the camera makes a speaker seem more sociable, so the request lands as direct and attentive.
+
+Ask yourself:
+- Is my camera at or slightly above eye level, and is the other person's window right under it?
+- When I made my main point or my request, was I looking into the lens?
+- Was I watching the other person's face while they spoke, rather than my own self-view or another screen?
+- Am I forcing myself to stare at the lens so hard that I am losing track of what people are saying?
+
 ### [Gaze and eye contact](../articles/nonverbal-and-voice/eye-contact.md) — Skill
 
 Ask yourself:

@@ -781,6 +781,99 @@
    ]
   },
   {
+   "@id": "cm:camera-level-gaze",
+   "@type": "cmo:Technique",
+   "cmo:appliedIn": [
+    {
+     "@id": "cm:job-interview"
+    },
+    {
+     "@id": "cm:video-call-communication"
+    }
+   ],
+   "cmo:develops": {
+    "@id": "cm:eye-contact"
+   },
+   "cmo:domain": "nonverbal-and-voice",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/camera-level-gaze/example"
+   },
+   "cmo:file": "articles/nonverbal-and-voice/camera-level-gaze.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/camera-level-gaze/howto"
+   },
+   "cmo:level": "introductory",
+   "cmo:supportedBy": [
+    {
+     "@id": "cm:chen-2002"
+    },
+    {
+     "@id": "cm:fauville-et-al-2022"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/camera-level-gaze/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/camera-level-gaze/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/camera-level-gaze/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/camera-level-gaze/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/camera-level-gaze/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/camera-level-gaze/s6"
+    }
+   ],
+   "rdfs:label": "Camera-level gaze on video calls",
+   "skos:altLabel": [
+    "camera gaze",
+    "looking into the lens",
+    "webcam eye contact"
+   ],
+   "skos:broader": [
+    {
+     "@id": "cm:nonverbal-communication"
+    },
+    {
+     "@id": "cm:video-call-communication"
+    }
+   ],
+   "skos:definition": "Setting up your webcam and screen so that your gaze reads as eye contact on a video call, by raising the camera to eye level, placing the other person's video just below the lens, and looking into the lens at the moments that matter most.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/nonverbal-and-voice"
+   },
+   "skos:prefLabel": "Camera-level gaze on video calls",
+   "skos:related": [
+    {
+     "@id": "cm:camera-optional-norm"
+    },
+    {
+     "@id": "cm:cognitive-load"
+    },
+    {
+     "@id": "cm:eye-contact"
+    },
+    {
+     "@id": "cm:rapport"
+    },
+    {
+     "@id": "cm:zoom-fatigue"
+    }
+   ]
+  },
+  {
    "@id": "cm:camera-optional-norm",
    "@type": "cmo:Technique",
    "cmo:addresses": {
@@ -5937,6 +6030,107 @@
    "schema:text": "Decide deliberately whether this message is an exception - serious bad news or a reader who expects context first - and if so use an indirect structure on purpose rather than by habit."
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/camera-level-gaze/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:camera-level-gaze"
+   },
+   "rdfs:label": "Is my camera at or slightly above eye level, and is the other person's window right under it?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/camera-level-gaze/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:camera-level-gaze"
+   },
+   "rdfs:label": "When I made my main point or my request, was I looking into the lens?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/camera-level-gaze/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:camera-level-gaze"
+   },
+   "rdfs:label": "Was I watching the other person's face while they spoke, rather than my own self-view or another screen?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/camera-level-gaze/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:camera-level-gaze"
+   },
+   "rdfs:label": "Am I forcing myself to stare at the lens so hard that I am losing track of what people are saying?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/camera-level-gaze/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "The laptop is raised to eye level, the client's window sits just under the lens with brief notes beneath it, and the manager looks into the lens to say: we need two more weeks, and here is what you get for it. Then the manager watches the client's face while the client responds.",
+   "cmo:before": "The laptop sits flat on the desk, the client's video is on a second monitor to the right, and the manager reads from notes on that monitor; the client sees someone looking down and away while asking for a two-week extension.",
+   "cmo:situation": "A project manager presents a schedule change to a client on a video call.",
+   "cmo:why": "Gaze below the lens is barely noticed while sideways gaze reads as looking away, and looking into the camera makes a speaker seem more sociable, so the request lands as direct and attentive."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/camera-level-gaze/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Camera-level gaze on video calls",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/camera-level-gaze/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/camera-level-gaze/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/camera-level-gaze/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/camera-level-gaze/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/camera-level-gaze/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/camera-level-gaze/howto/6"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/camera-level-gaze/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Raise the camera to your eye level or slightly above, propping a laptop on books if you need to."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/camera-level-gaze/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Sit about an arm's length back so you are framed from the chest up with your eyes roughly a third of the way down the frame."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/camera-level-gaze/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Drag the video window of the person you are talking to up to the top centre of your screen, directly under the lens, rather than off to one side."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/camera-level-gaze/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Look into the lens when you state your main point, make a request or ask a question, using a small sticker beside the lens as a reminder."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/camera-level-gaze/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "While the other person is talking, watch their face in the window under the lens so you can read their reaction."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/camera-level-gaze/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "If you need to glance at notes, keep them just below the camera so you look down briefly rather than sideways."
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/camera-optional-norm/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -8802,6 +8996,90 @@
    "dcterms:title": "4.6 Direct and Indirect Negative Messaging",
    "schema:url": {
     "@id": "https://pressbooks.atlanticoer-relatlantique.ca/businesscommunication/chapter/4-direct-and-indirect-negative-messaging/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/camera-level-gaze/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Milton Chen, Proceedings of CHI 2002 (Stanford Computer Graphics Laboratory paper page)",
+   "dcterms:title": "Leveraging the Asymmetric Sensitivity of Eye Contact for Videoconferencing",
+   "schema:url": {
+    "@id": "https://graphics.stanford.edu/papers/eye_contact/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/camera-level-gaze/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Wharton Undergraduate Communication Program, University of Pennsylvania (from the Wharton On-Camera Interviewing Workshop, 2019)",
+   "dcterms:title": "How to Look and Sound Your Best in Video Interviews",
+   "schema:url": {
+    "@id": "https://communicationprogram.wharton.upenn.edu/wp-content/uploads/2023/02/How-to-Look-and-Sound-Your-Best-in-Video-Interviews.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/camera-level-gaze/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "University of Gothenburg news, 2022, on Fauville et al., \"Impression Formation From Video Conference Screenshots\", Technology, Mind, and Behavior",
+   "dcterms:title": "Look into the camera during video meetings",
+   "schema:url": {
+    "@id": "https://www.gu.se/en/news/look-into-the-camera-during-video-meetings"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/camera-level-gaze/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Jan Holub, Scott Isabelle, Adéla Krylová & Hakob Avetisyan, IEEE Access 10, 2022 (Amazon Science author copy)",
+   "dcterms:title": "Subjective Influence of Camera-Gaze Angular Offset",
+   "schema:url": {
+    "@id": "https://cdn.amazon.science/cd/56/094c9e5444a38a799153642d6cc1/subjective-influence-of-camera-gaze-angular-offset.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/camera-level-gaze/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Jeremy N. Bailenson, Technology, Mind, and Behavior, 2021 (Stanford Virtual Human Interaction Lab copy)",
+   "dcterms:title": "Nonverbal Overload: A Theoretical Argument for the Causes of Zoom Fatigue",
+   "schema:url": {
+    "@id": "https://vhil.stanford.edu/sites/g/files/sbiybj29011/files/media/file/bailenson-apa-nonverbal-overload.pdf?"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/camera-level-gaze/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Jayakumar, Maniglia, Gao, Curless, Kemelmacher, Seitz & Seitz, Vision Sciences Society annual meeting poster abstract, 2024",
+   "dcterms:title": "Don't Look at the Camera: Achieving eye contact in video conferencing platforms",
+   "schema:url": {
+    "@id": "https://www.visionsciences.org/presentation/?id=1094"
    }
   },
   {

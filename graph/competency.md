@@ -12,9 +12,7 @@ _No results._
 
 _Which written skills or dispositions have no technique, framework or principle that develops them?_ — `queries/02-skills-without-practice.rq`
 
-| skill | type |
-|---|---|
-| `cm:eye-contact` | cmo:Skill |
+_No results._
 
 ## Situations, channels and formats with no guidance (gap)
 
@@ -39,6 +37,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:anxiety-reappraisal` | 1 | Public speaking anxiety |
 | `cm:audience-analysis` | 1 | Curse of knowledge |
 | `cm:bottom-line-up-front` | 1 | burying-the-lede |
+| `cm:camera-level-gaze` | 1 | Gaze and eye contact |
 | `cm:camera-optional-norm` | 1 | Zoom fatigue |
 | `cm:communicating-uncertainty` | 1 | vague-probability-language |
 | `cm:feedforward` | 1 | Defensiveness |
@@ -73,6 +72,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:face-to-face-conversation` | `cm:eye-contact` |
 | `cm:face-to-face-conversation` | `cm:proxemics` |
 | `cm:face-to-face-conversation` | `cm:rapport` |
+| `cm:job-interview` | `cm:camera-level-gaze` |
 | `cm:memorandum` | `cm:bottom-line-up-front` |
 | `cm:multicultural-team` | `cm:direct-vs-indirect-feedback` |
 | `cm:multicultural-team` | `cm:the-culture-map` |
@@ -87,9 +87,8 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:plain-language-summary` | `cm:plain-language` |
 | `cm:presentation` | `cm:anxiety-reappraisal` |
 | `cm:presentation` | `cm:self-distancing` |
-| `cm:salary-negotiation` | `cm:first-offer` |
 
-…and 6 more.
+…and 8 more.
 
 ## Myths and contested advice
 
@@ -105,6 +104,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:active-listening` | mixed |  |
 | `cm:active-voice` | mixed | `cm:fear-and-loathing-of-the-english-passive` |
 | `cm:batna` | mixed | `cm:schaerer-swaab-galinsky-2015` |
+| `cm:camera-level-gaze` | mixed |  |
 | `cm:camera-optional-norm` | mixed | `cm:bennett-et-al-2021` |
 | `cm:channel-selection` | mixed | `cm:dennis-kinney-1998` |
 | `cm:communicating-uncertainty` | mixed |  |
@@ -126,9 +126,8 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:nominal-group-technique` | mixed |  |
 | `cm:one-on-one-meetings` | mixed |  |
 | `cm:open-ended-questions` | mixed | `cm:minson-et-al-2018` |
-| `cm:paraphrasing` | mixed | `cm:weger-castle-emmett-2010` |
 
-…and 12 more.
+…and 13 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -136,6 +135,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 
 | node | type |
 |---|---|
+| `cm:camera-level-gaze` | cmo:Technique |
 | `cm:eye-contact` | cmo:Skill |
 | `cm:meeting-agendas` | cmo:Technique |
 | `cm:one-on-one-meetings` | cmo:Context |

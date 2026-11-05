@@ -877,6 +877,110 @@
   ]
  },
  {
+  "id": "cm:camera-level-gaze",
+  "title": "Camera-level gaze on video calls",
+  "aliases": [
+   "looking into the lens",
+   "webcam eye contact",
+   "camera gaze"
+  ],
+  "type": "Technique",
+  "domain": "nonverbal-and-voice",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/nonverbal-and-voice/camera-level-gaze.md",
+  "created": "2026-11-05",
+  "summary": "Setting up your webcam and screen so that your gaze reads as eye contact on a video call, by raising the camera to eye level, placing the other person's video just below the lens, and looking into the lens at the moments that matter most.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:video-call-communication"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "cm:nonverbal-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:eye-contact"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:zoom-fatigue"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:camera-optional-norm"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:rapport"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:cognitive-load"
+   },
+   {
+    "predicate": "cmo:develops",
+    "object": "cm:eye-contact",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:video-call-communication",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:job-interview",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:fauville-et-al-2022",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:chen-2002",
+    "source": "s1",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Is my camera at or slightly above eye level, and is the other person's window right under it?",
+   "When I made my main point or my request, was I looking into the lens?",
+   "Was I watching the other person's face while they spoke, rather than my own self-view or another screen?",
+   "Am I forcing myself to stare at the lens so hard that I am losing track of what people are saying?"
+  ],
+  "steps": [
+   "Raise the camera to your eye level or slightly above, propping a laptop on books if you need to.",
+   "Sit about an arm's length back so you are framed from the chest up with your eyes roughly a third of the way down the frame.",
+   "Drag the video window of the person you are talking to up to the top centre of your screen, directly under the lens, rather than off to one side.",
+   "Look into the lens when you state your main point, make a request or ask a question, using a small sticker beside the lens as a reminder.",
+   "While the other person is talking, watch their face in the window under the lens so you can read their reaction.",
+   "If you need to glance at notes, keep them just below the camera so you look down briefly rather than sideways."
+  ],
+  "example": {
+   "situation": "A project manager presents a schedule change to a client on a video call.",
+   "before": "The laptop sits flat on the desk, the client's video is on a second monitor to the right, and the manager reads from notes on that monitor; the client sees someone looking down and away while asking for a two-week extension.",
+   "after": "The laptop is raised to eye level, the client's window sits just under the lens with brief notes beneath it, and the manager looks into the lens to say: we need two more weeks, and here is what you get for it. Then the manager watches the client's face while the client responds.",
+   "why": "Gaze below the lens is barely noticed while sideways gaze reads as looking away, and looking into the camera makes a speaker seem more sociable, so the request lands as direct and attentive."
+  },
+  "source_urls": [
+   "https://graphics.stanford.edu/papers/eye_contact/",
+   "https://communicationprogram.wharton.upenn.edu/wp-content/uploads/2023/02/How-to-Look-and-Sound-Your-Best-in-Video-Interviews.pdf",
+   "https://www.gu.se/en/news/look-into-the-camera-during-video-meetings",
+   "https://cdn.amazon.science/cd/56/094c9e5444a38a799153642d6cc1/subjective-influence-of-camera-gaze-angular-offset.pdf",
+   "https://vhil.stanford.edu/sites/g/files/sbiybj29011/files/media/file/bailenson-apa-nonverbal-overload.pdf?",
+   "https://www.visionsciences.org/presentation/?id=1094"
+  ]
+ },
+ {
   "id": "cm:camera-optional-norm",
   "title": "Camera-optional norm",
   "aliases": [
