@@ -116,6 +116,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:eye-contact` | mixed | `cm:chen-et-al-2013` |
 | `cm:feedback` | mixed |  |
 | `cm:feedforward` | mixed |  |
+| `cm:gilovich-savitsky-medvec-1998` | mixed |  |
 | `cm:i-statements` | mixed | `cm:korobov-2020` |
 | `cm:illusion-of-transparency` | mixed |  |
 | `cm:influence-without-authority` | mixed |  |
@@ -125,9 +126,8 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:multiple-equivalent-simultaneous-offers` | mixed |  |
 | `cm:nominal-group-technique` | mixed |  |
 | `cm:one-on-one-meetings` | mixed |  |
-| `cm:open-ended-questions` | mixed | `cm:minson-et-al-2018` |
 
-…and 13 more.
+…and 14 more.
 
 ## Concepts with no recorded origin (gap)
 

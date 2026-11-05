@@ -435,6 +435,14 @@
 <https://github.com/john1hsu/communication-graph/id/george-loewenstein#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/george-loewenstein/s3> .
 <https://github.com/john1hsu/communication-graph/id/george-loewenstein#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/george-loewenstein/s4> .
 <https://github.com/john1hsu/communication-graph/id/george-loewenstein#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/george-loewenstein/s5> .
+<https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> .
+<https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/thinkers-and-works/gilovich-savitsky-medvec-1998.md" .
+<https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/gilovich-savitsky-medvec-1998/s1> .
+<https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/gilovich-savitsky-medvec-1998/s2> .
+<https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/gilovich-savitsky-medvec-1998/s3> .
+<https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/gilovich-savitsky-medvec-1998/s4> .
+<https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/gilovich-savitsky-medvec-1998/s5> .
 <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996> .
 <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/thinkers-and-works/kluger-denisi-1996.md" .
@@ -5275,6 +5283,72 @@
   <https://github.com/john1hsu/communication-graph/id/source/george-loewenstein/s5> <https://schema.org/url> <https://pmc.ncbi.nlm.nih.gov/articles/PMC6891259> .
 }
 
+<https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998#graph> {
+  <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> <http://purl.org/dc/terms/created> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
+  <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> <http://www.w3.org/2000/01/rdf-schema#label> "The illusion of transparency: Biased assessments of others' ability to read one's emotional states" .
+  <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> <http://www.w3.org/2004/02/skos/core#altLabel> "Gilovich Savitsky & Medvec 1998" .
+  <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> <http://www.w3.org/2004/02/skos/core#altLabel> "Gilovich et al. 1998" .
+  <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> <http://www.w3.org/2004/02/skos/core#altLabel> "original illusion of transparency experiments" .
+  <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> .
+  <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> <http://www.w3.org/2004/02/skos/core#definition> "Thomas Gilovich, Kenneth Savitsky and Victoria Husted Medvec's 1998 Journal of Personality and Social Psychology paper, whose lying, disgust-tasting and bystander experiments showed that people overestimate how readable their inner states are to others, and which named that bias." .
+  <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works> .
+  <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> <http://www.w3.org/2004/02/skos/core#prefLabel> "The illusion of transparency: Biased assessments of others' ability to read one's emotional states" .
+  <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> .
+  <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/egocentric-bias> .
+  <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/gilovich-medvec-savitsky-2000> .
+  <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/macinnis-mackinnon-macintyre-2010> .
+  <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/savitsky-gilovich-2003> .
+  <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> .
+  <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/spotlight-effect> .
+  <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/gilovich-savitsky-medvec-1998/s1> .
+  <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/gilovich-savitsky-medvec-1998/s2> .
+  <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/gilovich-savitsky-medvec-1998/s3> .
+  <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/gilovich-savitsky-medvec-1998/s4> .
+  <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/gilovich-savitsky-medvec-1998/s5> .
+  <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> <https://github.com/john1hsu/communication-graph/ontology#domain> "thinkers-and-works" .
+  <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+  <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> .
+  <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/thinkers-and-works/gilovich-savitsky-medvec-1998.md" .
+  <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/kenneth-savitsky> .
+  <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/thomas-gilovich> .
+  <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/victoria-medvec> .
+  <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+  <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> .
+  <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/rai-mitchell-faelling-2012> .
+  <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/van-boven-gilovich-medvec-2003> .
+  <https://github.com/john1hsu/communication-graph/id/source/gilovich-savitsky-medvec-1998/s1> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/gilovich-savitsky-medvec-1998/s1> <http://purl.org/dc/terms/publisher> "Gilovich, Savitsky & Medvec, Journal of Personality and Social Psychology 75(2), 332-346 (1998) - author-deposited copy on ResearchGate" .
+  <https://github.com/john1hsu/communication-graph/id/source/gilovich-savitsky-medvec-1998/s1> <http://purl.org/dc/terms/title> "The Illusion of Transparency: Biased Assessments of Others' Ability to Read One's Emotional States (full text)" .
+  <https://github.com/john1hsu/communication-graph/id/source/gilovich-savitsky-medvec-1998/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/gilovich-savitsky-medvec-1998/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/communication-graph/id/source/gilovich-savitsky-medvec-1998/s1> <https://schema.org/url> <https://www.researchgate.net/publication/13555041_The_Illusion_of_Transparency_Biased_Assessments_of_Others'_Ability_to_Read_One's_Emotional_States> .
+  <https://github.com/john1hsu/communication-graph/id/source/gilovich-savitsky-medvec-1998/s2> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/gilovich-savitsky-medvec-1998/s2> <http://purl.org/dc/terms/publisher> "Journal of Personality and Social Psychology 75(2), 332-346 (1998), doi:10.1037//0022-3514.75.2.332 (PubMed record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/gilovich-savitsky-medvec-1998/s2> <http://purl.org/dc/terms/title> "The illusion of transparency: biased assessments of others' ability to read one's emotional states" .
+  <https://github.com/john1hsu/communication-graph/id/source/gilovich-savitsky-medvec-1998/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/gilovich-savitsky-medvec-1998/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/gilovich-savitsky-medvec-1998/s2> <https://schema.org/url> <https://pubmed.ncbi.nlm.nih.gov/9731312/> .
+  <https://github.com/john1hsu/communication-graph/id/source/gilovich-savitsky-medvec-1998/s3> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/gilovich-savitsky-medvec-1998/s3> <http://purl.org/dc/terms/publisher> "Van Boven, Gilovich & Medvec, Negotiation Journal 19(2), 117-131 (2003), doi:10.1023/a:1023693700484 (Kellogg School of Management research record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/gilovich-savitsky-medvec-1998/s3> <http://purl.org/dc/terms/title> "The illusion of transparency in negotiations" .
+  <https://github.com/john1hsu/communication-graph/id/source/gilovich-savitsky-medvec-1998/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/gilovich-savitsky-medvec-1998/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/communication-graph/id/source/gilovich-savitsky-medvec-1998/s3> <https://schema.org/url> <https://www.kellogg.northwestern.edu/academics-research/research/detail/2003/the-illusion-of-transparency-in-negotiations/> .
+  <https://github.com/john1hsu/communication-graph/id/source/gilovich-savitsky-medvec-1998/s4> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/gilovich-savitsky-medvec-1998/s4> <http://purl.org/dc/terms/publisher> "Rai, Mitchell & Faelling, Psychological Studies 57, 58-66 (2012), Springer" .
+  <https://github.com/john1hsu/communication-graph/id/source/gilovich-savitsky-medvec-1998/s4> <http://purl.org/dc/terms/title> "The Illusion-of-Transparency and Episodic Memory: Are People Egocentric or Do People Think that Lies are Easy to Detect?" .
+  <https://github.com/john1hsu/communication-graph/id/source/gilovich-savitsky-medvec-1998/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/gilovich-savitsky-medvec-1998/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/gilovich-savitsky-medvec-1998/s4> <https://schema.org/url> <https://link.springer.com/doi/10.1007/s12646-011-0138-2> .
+  <https://github.com/john1hsu/communication-graph/id/source/gilovich-savitsky-medvec-1998/s5> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/gilovich-savitsky-medvec-1998/s5> <http://purl.org/dc/terms/publisher> "Benedetti, Dawson, Staranko, Swanson & Horton, Modern Psychological Studies 15(1), Article 4 (2009), Grove City College (CORE repository)" .
+  <https://github.com/john1hsu/communication-graph/id/source/gilovich-savitsky-medvec-1998/s5> <http://purl.org/dc/terms/title> "The Effect of Display Rules on Illusion of Transparency in Children" .
+  <https://github.com/john1hsu/communication-graph/id/source/gilovich-savitsky-medvec-1998/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/gilovich-savitsky-medvec-1998/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/communication-graph/id/source/gilovich-savitsky-medvec-1998/s5> <https://schema.org/url> <https://core.ac.uk/download/86409555.pdf> .
+}
+
 <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996#graph> {
   <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996> <http://purl.org/dc/terms/created> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
   <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
@@ -6269,6 +6343,7 @@
   <https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/cognitive-bias> .
   <https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/adam-galinsky> .
   <https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/first-offer> .
+  <https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> .
   <https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> .
   <https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/macinnis-mackinnon-macintyre-2010> .
   <https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers> .
@@ -6526,6 +6601,7 @@
   <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/channel-selection> .
   <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/email> .
   <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/george-loewenstein> .
+  <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> .
   <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/spotlight-effect> .
   <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/teach-back> .
   <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/thomas-gilovich> .
@@ -6622,11 +6698,13 @@
   <https://github.com/john1hsu/communication-graph/id/egocentric-bias> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> .
   <https://github.com/john1hsu/communication-graph/id/egocentric-bias> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/spotlight-effect> .
   <https://github.com/john1hsu/communication-graph/id/egocentric-bias> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> .
+  <https://github.com/john1hsu/communication-graph/id/egocentric-bias> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> .
   <https://github.com/john1hsu/communication-graph/id/egocentric-bias> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> .
   <https://github.com/john1hsu/communication-graph/id/egocentric-bias> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/macinnis-mackinnon-macintyre-2010> .
   <https://github.com/john1hsu/communication-graph/id/egocentric-bias> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/spotlight-effect> .
   <https://github.com/john1hsu/communication-graph/id/egocentric-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> .
   <https://github.com/john1hsu/communication-graph/id/egocentric-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/george-loewenstein> .
+  <https://github.com/john1hsu/communication-graph/id/egocentric-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> .
   <https://github.com/john1hsu/communication-graph/id/egocentric-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/thomas-gilovich> .
   <https://github.com/john1hsu/communication-graph/id/egocentrism-over-email-study> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/channel-selection> .
   <https://github.com/john1hsu/communication-graph/id/email-address> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/ray-tomlinson> .
@@ -6780,10 +6858,12 @@
   <https://github.com/john1hsu/communication-graph/id/gilovich-kruger-medvec-2002> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/spotlight-effect> .
   <https://github.com/john1hsu/communication-graph/id/gilovich-medvec-savitsky-2000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/gilovich-medvec-savitsky-2000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
+  <https://github.com/john1hsu/communication-graph/id/gilovich-medvec-savitsky-2000> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> .
   <https://github.com/john1hsu/communication-graph/id/gilovich-medvec-savitsky-2000> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/thomas-gilovich> .
   <https://github.com/john1hsu/communication-graph/id/gilovich-medvec-savitsky-2000> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/spotlight-effect> .
   <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
-  <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
+  <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/egocentric-bias> .
+  <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> .
   <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/thomas-gilovich> .
   <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> .
   <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/macinnis-mackinnon-macintyre-2010> .
@@ -6863,7 +6943,9 @@
   <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/egocentric-bias> .
+  <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> .
   <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/macinnis-mackinnon-macintyre-2010> .
+  <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> .
   <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/macinnis-mackinnon-macintyre-2010> .
   <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> .
   <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> .
@@ -6875,6 +6957,7 @@
   <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> <https://github.com/john1hsu/communication-graph/ontology#confusedWith> <https://github.com/john1hsu/communication-graph/id/spotlight-effect> .
   <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> .
   <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/thomas-gilovich> .
+  <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> .
   <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/macinnis-mackinnon-macintyre-2010> .
   <https://github.com/john1hsu/communication-graph/id/impression-management> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/issue-selling> .
   <https://github.com/john1hsu/communication-graph/id/indirect-approach> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
@@ -6979,6 +7062,9 @@
   <https://github.com/john1hsu/communication-graph/id/kardas-kumar-epley-2021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/kardas-kumar-epley-2021> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/difficult-conversation> .
   <https://github.com/john1hsu/communication-graph/id/keenan-1976> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/grices-maxims> .
+  <https://github.com/john1hsu/communication-graph/id/kenneth-savitsky> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/kenneth-savitsky> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+  <https://github.com/john1hsu/communication-graph/id/kenneth-savitsky> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> .
   <https://github.com/john1hsu/communication-graph/id/keysar-henly-2002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/keysar-henly-2002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/keysar-henly-2002> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> .
@@ -7041,6 +7127,7 @@
   <https://github.com/john1hsu/communication-graph/id/macinnis-mackinnon-macintyre-2010> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/egocentric-bias> .
   <https://github.com/john1hsu/communication-graph/id/macinnis-mackinnon-macintyre-2010> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> .
   <https://github.com/john1hsu/communication-graph/id/macinnis-mackinnon-macintyre-2010> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> .
+  <https://github.com/john1hsu/communication-graph/id/macinnis-mackinnon-macintyre-2010> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> .
   <https://github.com/john1hsu/communication-graph/id/macinnis-mackinnon-macintyre-2010> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> .
   <https://github.com/john1hsu/communication-graph/id/macinnis-mackinnon-macintyre-2010> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> .
   <https://github.com/john1hsu/communication-graph/id/macrae-et-al-2016> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/spotlight-effect> .
@@ -7297,6 +7384,7 @@
   <https://github.com/john1hsu/communication-graph/id/questioning> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/humble-inquiry> .
   <https://github.com/john1hsu/communication-graph/id/questioning> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/open-ended-questions> .
   <https://github.com/john1hsu/communication-graph/id/quick-screen-edit> <https://github.com/john1hsu/communication-graph/ontology#introducedIn> <https://github.com/john1hsu/communication-graph/id/effective-writing-for-army-leaders> .
+  <https://github.com/john1hsu/communication-graph/id/rai-mitchell-faelling-2012> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> .
   <https://github.com/john1hsu/communication-graph/id/range-of-acceptable-behavior> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/adam-galinsky> .
   <https://github.com/john1hsu/communication-graph/id/rapport/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/rapport/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -7360,6 +7448,7 @@
   <https://github.com/john1hsu/communication-graph/id/sanchez-burks-et-al-2003> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> .
   <https://github.com/john1hsu/communication-graph/id/savitsky-gilovich-2003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/savitsky-gilovich-2003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
+  <https://github.com/john1hsu/communication-graph/id/savitsky-gilovich-2003> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> .
   <https://github.com/john1hsu/communication-graph/id/savitsky-gilovich-2003> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/thomas-gilovich> .
   <https://github.com/john1hsu/communication-graph/id/savitsky-gilovich-2003> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> .
   <https://github.com/john1hsu/communication-graph/id/savitsky-gilovich-2003> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/macinnis-mackinnon-macintyre-2010> .
@@ -7431,6 +7520,7 @@
   <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/macinnis-mackinnon-macintyre-2010> .
   <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/macinnis-mackinnon-macintyre-2010> .
   <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/eye-contact> .
+  <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> .
   <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/thomas-gilovich> .
   <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> .
   <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/self-distancing> .
@@ -7444,6 +7534,7 @@
   <https://github.com/john1hsu/communication-graph/id/spotlight-effect> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/egocentric-bias> .
   <https://github.com/john1hsu/communication-graph/id/spotlight-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> .
   <https://github.com/john1hsu/communication-graph/id/spotlight-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> .
+  <https://github.com/john1hsu/communication-graph/id/spotlight-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> .
   <https://github.com/john1hsu/communication-graph/id/spotlight-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/macinnis-mackinnon-macintyre-2010> .
   <https://github.com/john1hsu/communication-graph/id/spotlight-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> .
   <https://github.com/john1hsu/communication-graph/id/spotlight-effect> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/self-distancing> .
@@ -7505,6 +7596,7 @@
   <https://github.com/john1hsu/communication-graph/id/theory-of-mind> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> .
   <https://github.com/john1hsu/communication-graph/id/thomas-gilovich> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/thomas-gilovich> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/macinnis-mackinnon-macintyre-2010> .
+  <https://github.com/john1hsu/communication-graph/id/thomas-gilovich> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> .
   <https://github.com/john1hsu/communication-graph/id/thomas-gordon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/thomas-gordon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/thomas-gordon> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> .
@@ -7515,6 +7607,7 @@
   <https://github.com/john1hsu/communication-graph/id/unnecessary-meetings> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/meeting-agendas> .
   <https://github.com/john1hsu/communication-graph/id/vague-probability-language> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/communicating-uncertainty> .
   <https://github.com/john1hsu/communication-graph/id/vague-probability-language> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability> .
+  <https://github.com/john1hsu/communication-graph/id/van-boven-gilovich-medvec-2003> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> .
   <https://github.com/john1hsu/communication-graph/id/van-de-ven-delbecq-1974> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/van-de-ven-delbecq-1974> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/van-de-ven-delbecq-1974> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> .
@@ -7527,6 +7620,7 @@
   <https://github.com/john1hsu/communication-graph/id/victoria-medvec> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/victoria-medvec> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/victoria-medvec> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/thomas-gilovich> .
+  <https://github.com/john1hsu/communication-graph/id/victoria-medvec> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> .
   <https://github.com/john1hsu/communication-graph/id/victoria-medvec> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers> .
   <https://github.com/john1hsu/communication-graph/id/video-call-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/camera-level-gaze> .
   <https://github.com/john1hsu/communication-graph/id/video-call-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> .

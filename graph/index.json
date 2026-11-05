@@ -2515,6 +2515,106 @@
   ]
  },
  {
+  "id": "cm:gilovich-savitsky-medvec-1998",
+  "title": "The illusion of transparency: Biased assessments of others' ability to read one's emotional states",
+  "aliases": [
+   "Gilovich Savitsky & Medvec 1998",
+   "Gilovich et al. 1998",
+   "original illusion of transparency experiments"
+  ],
+  "type": "Study",
+  "domain": "thinkers-and-works",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/thinkers-and-works/gilovich-savitsky-medvec-1998.md",
+  "created": "2026-11-05",
+  "summary": "Thomas Gilovich, Kenneth Savitsky and Victoria Husted Medvec's 1998 Journal of Personality and Social Psychology paper, whose lying, disgust-tasting and bystander experiments showed that people overestimate how readable their inner states are to others, and which named that bias.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:illusion-of-transparency"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:egocentric-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:curse-of-knowledge"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:spotlight-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:speaking-anxiety"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:savitsky-gilovich-2003"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:macinnis-mackinnon-macintyre-2010"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:gilovich-medvec-savitsky-2000"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:illusion-of-transparency"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:thomas-gilovich",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:kenneth-savitsky",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:victoria-medvec",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:anchoring-and-adjustment",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:van-boven-gilovich-medvec-2003",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:rai-mitchell-faelling-2012",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://www.researchgate.net/publication/13555041_The_Illusion_of_Transparency_Biased_Assessments_of_Others'_Ability_to_Read_One's_Emotional_States",
+   "https://pubmed.ncbi.nlm.nih.gov/9731312/",
+   "https://www.kellogg.northwestern.edu/academics-research/research/detail/2003/the-illusion-of-transparency-in-negotiations/",
+   "https://link.springer.com/doi/10.1007/s12646-011-0138-2",
+   "https://core.ac.uk/download/86409555.pdf"
+  ]
+ },
+ {
   "id": "cm:grices-maxims",
   "title": "Grice's cooperative principle",
   "aliases": [
