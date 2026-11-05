@@ -12,9 +12,7 @@ _No results._
 
 _Which written skills or dispositions have no technique, framework or principle that develops them?_ — `queries/02-skills-without-practice.rq`
 
-| skill | type |
-|---|---|
-| `cm:communicating-uncertainty` | cmo:Skill |
+_No results._
 
 ## Situations, channels and formats with no guidance (gap)
 
@@ -32,6 +30,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:i-statements` | 2 | Defensiveness, accusatory-you-statements |
 | `cm:nominal-group-technique` | 2 | production-blocking, unequal-participation |
 | `cm:plain-language` | 2 | Curse of knowledge, jargon |
+| `cm:risk-numbers-as-natural-frequencies` | 2 | Communicating uncertainty to decision makers, base-rate-neglect |
 | `cm:self-distancing` | 2 | Public speaking anxiety, Spotlight effect |
 | `cm:active-listening` | 1 | Defensiveness |
 | `cm:active-voice` | 1 | unclear-ownership |
@@ -76,6 +75,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:one-on-one-meetings` | `cm:active-listening` |
 | `cm:one-on-one-meetings` | `cm:humble-inquiry` |
 | `cm:one-on-one-meetings` | `cm:managing-up` |
+| `cm:patient-education` | `cm:risk-numbers-as-natural-frequencies` |
 | `cm:patient-education` | `cm:teach-back` |
 | `cm:performance-review` | `cm:feedforward` |
 | `cm:performance-review` | `cm:kluger-denisi-1996` |
@@ -85,9 +85,8 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:presentation` | `cm:self-distancing` |
 | `cm:salary-negotiation` | `cm:first-offer` |
 | `cm:salary-negotiation` | `cm:multiple-equivalent-simultaneous-offers` |
-| `cm:stakeholder-consultation` | `cm:nominal-group-technique` |
 
-…and 3 more.
+…and 4 more.
 
 ## Myths and contested advice
 
@@ -126,7 +125,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:plain-language` | mixed |  |
 | `cm:proxemics` | mixed |  |
 
-…and 8 more.
+…and 9 more.
 
 ## Concepts with no recorded origin (gap)
 

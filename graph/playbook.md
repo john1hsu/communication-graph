@@ -207,6 +207,30 @@ Ask yourself:
 - Am I spending their time and goodwill on something that truly needs them, and have I brought a proposed solution?
 - Would I be comfortable if my manager saw exactly how I prepared for this conversation, or does it rely on flattery or spin?
 
+### [Risk numbers as natural frequencies](../articles/executive-and-client-communication/risk-numbers-as-natural-frequencies.md) — Technique
+
+1. Pick one reference group large enough that every count comes out as a whole number (1,000 or 10,000 is usual) and name it in the first sentence.
+2. Split that group by the base rate first - how many have the condition, defect or event and how many do not.
+3. Apply the detection or hit rate inside the first subgroup and the false-alarm rate inside the second, and write each result as a count.
+4. Answer the decision question as "X out of Y" - for example, how many of all flagged cases are real - instead of quoting the test's accuracy.
+5. Keep the same denominator for every option you compare, and give absolute changes ("from 20 to 10 in 1,000") rather than relative ones ("halved").
+6. Tie every number to its group in the wording ("of the 9,980 legitimate orders, about 500 are flagged") and, for a live audience, sketch the counts as a simple frequency tree.
+
+*A risk analyst briefs the head of operations on whether to auto-cancel every order a new fraud model flags.*
+
+| Before | After |
+|---|---|
+| The model catches 90% of fraud with only a 5% false-positive rate, so a flagged order is very likely fraudulent - I'd auto-cancel them. | Out of every 10,000 orders, about 20 are fraudulent and the model flags 18 of them. Of the other 9,980 legitimate orders it also flags about 500. So of roughly 518 flagged orders, only 18 - about 1 in 30 - are fraud. Auto-cancelling would block about 500 good customers to stop 18 bad ones; I suggest manual review instead. |
+
+**Why:** The before version quotes the model's accuracy and invites the listener to ignore how rare fraud is; the counts make the base rate and the false alarms visible, so the leader can see that most flags are wrong and decide on that basis.
+
+Ask yourself:
+- Have I stated the reference group ("out of every 1,000 ...") before giving any count?
+- Can my listener see how many cases are false alarms, not just how many real cases are caught?
+- Am I comparing options with the same denominator and in absolute terms rather than "doubled" or "halved"?
+- Does every number in my sentence clearly belong to one named group?
+- If someone asked "so of the ones flagged, how many are real?", have I already answered it?
+
 ### [Words of estimative probability](../articles/executive-and-client-communication/words-of-estimative-probability.md) — Technique
 
 1. Agree a short likelihood scale with your team or client before you need it - for example remote (under 5%), unlikely (20-45%), roughly even (45-55%), likely (55-80%), very likely (80-95%) - with ranges that do not overlap.

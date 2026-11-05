@@ -3661,6 +3661,91 @@
    ]
   },
   {
+   "@id": "cm:risk-numbers-as-natural-frequencies",
+   "@type": "cmo:Technique",
+   "cmo:addresses": {
+    "@id": "cm:base-rate-neglect"
+   },
+   "cmo:appliedIn": {
+    "@id": "cm:patient-education"
+   },
+   "cmo:challengedBy": {
+    "@id": "cm:sirota-navarrete-juanchich-2024"
+   },
+   "cmo:demonstratedBy": {
+    "@id": "cm:gigerenzer-hoffrage-1995"
+   },
+   "cmo:develops": {
+    "@id": "cm:communicating-uncertainty"
+   },
+   "cmo:domain": "executive-and-client-communication",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies/example"
+   },
+   "cmo:file": "articles/executive-and-client-communication/risk-numbers-as-natural-frequencies.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies/howto"
+   },
+   "cmo:introducedBy": {
+    "@id": "cm:gerd-gigerenzer"
+   },
+   "cmo:level": "intermediate",
+   "cmo:supportedBy": {
+    "@id": "cm:mcdowell-jacobs-2017"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/risk-numbers-as-natural-frequencies/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/risk-numbers-as-natural-frequencies/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/risk-numbers-as-natural-frequencies/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/risk-numbers-as-natural-frequencies/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/risk-numbers-as-natural-frequencies/s5"
+    }
+   ],
+   "rdfs:label": "Risk numbers as natural frequencies",
+   "skos:altLabel": [
+    "count-based risk statements",
+    "frequency format",
+    "natural frequencies",
+    "natural frequency format"
+   ],
+   "skos:broader": {
+    "@id": "cm:risk-communication"
+   },
+   "skos:definition": "Restating percentages and conditional probabilities as whole-number counts drawn from one stated group (\"of 10,000 orders, 20 are fraudulent and 18 of those get flagged\"), so listeners can see base rates, hits and false alarms and work out what a result actually means.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/executive-and-client-communication"
+   },
+   "skos:prefLabel": "Risk numbers as natural frequencies",
+   "skos:related": [
+    {
+     "@id": "cm:communicating-uncertainty"
+    },
+    {
+     "@id": "cm:executive-briefing"
+    },
+    {
+     "@id": "cm:plain-language"
+    },
+    {
+     "@id": "cm:words-of-estimative-probability"
+    }
+   ]
+  },
+  {
    "@id": "cm:self-distancing",
    "@type": "cmo:Technique",
    "cmo:addresses": [
@@ -6817,6 +6902,115 @@
     "@id": "cm:rapport"
    },
    "rdfs:label": "Am I trying to connect, or performing techniques such as copying their posture?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:risk-numbers-as-natural-frequencies"
+   },
+   "rdfs:label": "Have I stated the reference group (\"out of every 1,000 ...\") before giving any count?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:risk-numbers-as-natural-frequencies"
+   },
+   "rdfs:label": "Can my listener see how many cases are false alarms, not just how many real cases are caught?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:risk-numbers-as-natural-frequencies"
+   },
+   "rdfs:label": "Am I comparing options with the same denominator and in absolute terms rather than \"doubled\" or \"halved\"?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:risk-numbers-as-natural-frequencies"
+   },
+   "rdfs:label": "Does every number in my sentence clearly belong to one named group?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies/check/5",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:risk-numbers-as-natural-frequencies"
+   },
+   "rdfs:label": "If someone asked \"so of the ones flagged, how many are real?\", have I already answered it?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "Out of every 10,000 orders, about 20 are fraudulent and the model flags 18 of them. Of the other 9,980 legitimate orders it also flags about 500. So of roughly 518 flagged orders, only 18 - about 1 in 30 - are fraud. Auto-cancelling would block about 500 good customers to stop 18 bad ones; I suggest manual review instead.",
+   "cmo:before": "The model catches 90% of fraud with only a 5% false-positive rate, so a flagged order is very likely fraudulent - I'd auto-cancel them.",
+   "cmo:situation": "A risk analyst briefs the head of operations on whether to auto-cancel every order a new fraud model flags.",
+   "cmo:why": "The before version quotes the model's accuracy and invites the listener to ignore how rare fraud is; the counts make the base rate and the false alarms visible, so the leader can see that most flags are wrong and decide on that basis."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Risk numbers as natural frequencies",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies/howto/6"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Pick one reference group large enough that every count comes out as a whole number (1,000 or 10,000 is usual) and name it in the first sentence."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Split that group by the base rate first - how many have the condition, defect or event and how many do not."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Apply the detection or hit rate inside the first subgroup and the false-alarm rate inside the second, and write each result as a count."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Answer the decision question as \"X out of Y\" - for example, how many of all flagged cases are real - instead of quoting the test's accuracy."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Keep the same denominator for every option you compare, and give absolute changes (\"from 20 to 10 in 1,000\") rather than relative ones (\"halved\")."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "Tie every number to its group in the wording (\"of the 9,980 legitimate orders, about 500 are flagged\") and, for a live audience, sketch the counts as a simple frequency tree."
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/barriers-and-psychology",
@@ -10309,6 +10503,76 @@
    "dcterms:title": "Raymond S. Tomlinson - 1963",
    "schema:url": {
     "@id": "https://eng.rpi.edu/person/raymond-s-tomlinson-1963"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/risk-numbers-as-natural-frequencies/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Gigerenzer & Hoffrage, Psychological Review 102(4): 684-704 (1995) (course copy, UC San Diego)",
+   "dcterms:title": "How to improve Bayesian reasoning without instruction: Frequency formats",
+   "schema:url": {
+    "@id": "https://pages.ucsd.edu/~scoulson/203/GG_How_1995.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/risk-numbers-as-natural-frequencies/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Gigerenzer, Gaissmaier, Kurz-Milcke, Schwartz & Woloshin, Psychological Science in the Public Interest 8(2): 53-96 (2007) (copy hosted by UC Berkeley Statistics)",
+   "dcterms:title": "Helping doctors and patients make sense of health statistics",
+   "schema:url": {
+    "@id": "https://www.stat.berkeley.edu/~aldous/157/Papers/health_stats.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/risk-numbers-as-natural-frequencies/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Weber, Binder & Krauss, Frontiers in Psychology 9: 1833 (2018), doi:10.3389/fpsyg.2018.01833",
+   "dcterms:title": "Why can only 24% solve Bayesian reasoning problems in natural frequencies: Frequency phobia in spite of probability blindness",
+   "schema:url": {
+    "@id": "https://www.frontiersin.org/articles/10.3389/fpsyg.2018.01833/pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/risk-numbers-as-natural-frequencies/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "McDowell & Jacobs (Max Planck Institute for Human Development), Society for Medical Decision Making meeting abstract",
+   "dcterms:title": "When, why, and for whom are natural frequency formats most effective? A meta-analysis",
+   "schema:url": {
+    "@id": "https://smdm.confex.com/smdm/16BEC/webprogram/Paper9915.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/risk-numbers-as-natural-frequencies/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Sirota, Navarrete & Juanchich, Cognition 245: 105722 (2024), doi:10.1016/j.cognition.2024.105722 (University of Essex repository copy)",
+   "dcterms:title": "When intuitive Bayesians need to be good readers: The problem-wording effect on Bayesian reasoning",
+   "schema:url": {
+    "@id": "https://repository.essex.ac.uk/37751/1/1-s2.0-S0010027724000088-main.pdf"
    }
   },
   {

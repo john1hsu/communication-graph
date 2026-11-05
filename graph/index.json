@@ -4160,6 +4160,115 @@
   ]
  },
  {
+  "id": "cm:risk-numbers-as-natural-frequencies",
+  "title": "Risk numbers as natural frequencies",
+  "aliases": [
+   "natural frequencies",
+   "natural frequency format",
+   "frequency format",
+   "count-based risk statements"
+  ],
+  "type": "Technique",
+  "domain": "executive-and-client-communication",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/executive-and-client-communication/risk-numbers-as-natural-frequencies.md",
+  "created": "2026-11-05",
+  "summary": "Restating percentages and conditional probabilities as whole-number counts drawn from one stated group (\"of 10,000 orders, 20 are fraudulent and 18 of those get flagged\"), so listeners can see base rates, hits and false alarms and work out what a result actually means.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:risk-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:communicating-uncertainty"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:words-of-estimative-probability"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:plain-language"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:executive-briefing"
+   },
+   {
+    "predicate": "cmo:develops",
+    "object": "cm:communicating-uncertainty",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:base-rate-neglect",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:gerd-gigerenzer",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:gigerenzer-hoffrage-1995",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:mcdowell-jacobs-2017",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:sirota-navarrete-juanchich-2024",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:patient-education",
+    "source": "s2",
+    "confidence": "high"
+   }
+  ],
+  "selfCheck": [
+   "Have I stated the reference group (\"out of every 1,000 ...\") before giving any count?",
+   "Can my listener see how many cases are false alarms, not just how many real cases are caught?",
+   "Am I comparing options with the same denominator and in absolute terms rather than \"doubled\" or \"halved\"?",
+   "Does every number in my sentence clearly belong to one named group?",
+   "If someone asked \"so of the ones flagged, how many are real?\", have I already answered it?"
+  ],
+  "steps": [
+   "Pick one reference group large enough that every count comes out as a whole number (1,000 or 10,000 is usual) and name it in the first sentence.",
+   "Split that group by the base rate first - how many have the condition, defect or event and how many do not.",
+   "Apply the detection or hit rate inside the first subgroup and the false-alarm rate inside the second, and write each result as a count.",
+   "Answer the decision question as \"X out of Y\" - for example, how many of all flagged cases are real - instead of quoting the test's accuracy.",
+   "Keep the same denominator for every option you compare, and give absolute changes (\"from 20 to 10 in 1,000\") rather than relative ones (\"halved\").",
+   "Tie every number to its group in the wording (\"of the 9,980 legitimate orders, about 500 are flagged\") and, for a live audience, sketch the counts as a simple frequency tree."
+  ],
+  "example": {
+   "situation": "A risk analyst briefs the head of operations on whether to auto-cancel every order a new fraud model flags.",
+   "before": "The model catches 90% of fraud with only a 5% false-positive rate, so a flagged order is very likely fraudulent - I'd auto-cancel them.",
+   "after": "Out of every 10,000 orders, about 20 are fraudulent and the model flags 18 of them. Of the other 9,980 legitimate orders it also flags about 500. So of roughly 518 flagged orders, only 18 - about 1 in 30 - are fraud. Auto-cancelling would block about 500 good customers to stop 18 bad ones; I suggest manual review instead.",
+   "why": "The before version quotes the model's accuracy and invites the listener to ignore how rare fraud is; the counts make the base rate and the false alarms visible, so the leader can see that most flags are wrong and decide on that basis."
+  },
+  "source_urls": [
+   "https://pages.ucsd.edu/~scoulson/203/GG_How_1995.pdf",
+   "https://www.stat.berkeley.edu/~aldous/157/Papers/health_stats.pdf",
+   "https://www.frontiersin.org/articles/10.3389/fpsyg.2018.01833/pdf",
+   "https://smdm.confex.com/smdm/16BEC/webprogram/Paper9915.html",
+   "https://repository.essex.ac.uk/37751/1/1-s2.0-S0010027724000088-main.pdf"
+  ]
+ },
+ {
   "id": "cm:self-distancing",
   "title": "Self-distancing strategies",
   "aliases": [
