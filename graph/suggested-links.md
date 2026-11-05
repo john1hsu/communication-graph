@@ -15,17 +15,17 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 2.14 | `cm:managing-up` | `cm:message-equivocality-media-selection-and-manager-performance` | `cm:audience-analysis`, `cm:channel-selection`, `cm:organizational-communication` |
 | 1.97 | `cm:email` | `cm:zoom-fatigue` | `cm:asynchronous-communication`, `cm:channel-selection`, `cm:information-overload` |
 | 1.97 | `cm:ray-tomlinson` | `cm:zoom-fatigue` | `cm:asynchronous-communication`, `cm:channel-selection`, `cm:information-overload` |
-| 1.85 | `cm:proxemics` | `cm:the-culture-map` | `cm:edward-t-hall`, `cm:high-and-low-context-cultures`, `cm:intercultural-communication` |
 | 1.80 | `cm:risk-numbers-as-natural-frequencies` | `cm:teach-back` | `cm:patient-education`, `cm:plain-language` |
 | 1.72 | `cm:george-loewenstein` | `cm:spotlight-effect` | `cm:curse-of-knowledge`, `cm:egocentric-bias`, `cm:illusion-of-transparency`, `cm:thomas-gilovich` |
-| 1.71 | `cm:describe-analyze-evaluate` | `cm:the-culture-map` | `cm:direct-vs-indirect-feedback`, `cm:ethnocentrism`, `cm:high-and-low-context-cultures`, `cm:intercultural-communication` |
 | 1.64 | `cm:mehrabian-myth` | `cm:rapport` | `cm:channel-selection`, `cm:nonverbal-communication`, `cm:proxemics` |
 | 1.60 | `cm:one-on-one-meetings` | `cm:rapport` | `cm:active-listening`, `cm:interpersonal-communication`, `cm:psychological-safety` |
 | 1.55 | `cm:defensiveness` | `cm:direct-vs-indirect-feedback` | `cm:feedback`, `cm:feedforward`, `cm:i-statements`, `cm:situation-behavior-impact` |
 | 1.54 | `cm:audience-analysis` | `cm:illusion-of-transparency` | `cm:communicating-uncertainty`, `cm:curse-of-knowledge`, `cm:email`, `cm:george-loewenstein` |
 | 1.53 | `cm:communicating-uncertainty` | `cm:plain-language` | `cm:audience-analysis`, `cm:bottom-line-up-front`, `cm:risk-numbers-as-natural-frequencies`, `cm:words-of-estimative-probability` |
+| 1.52 | `cm:describe-analyze-evaluate` | `cm:the-culture-map` | `cm:direct-vs-indirect-feedback`, `cm:ethnocentrism`, `cm:high-and-low-context-cultures`, `cm:intercultural-communication` |
 | 1.51 | `cm:feedback` | `cm:i-statements` | `cm:defensiveness`, `cm:difficult-conversation`, `cm:direct-vs-indirect-feedback`, `cm:situation-behavior-impact` |
 | 1.51 | `cm:feedforward` | `cm:i-statements` | `cm:active-listening`, `cm:defensiveness`, `cm:direct-vs-indirect-feedback`, `cm:situation-behavior-impact` |
 | 1.50 | `cm:defensiveness` | `cm:paraphrasing` | `cm:active-listening`, `cm:difficult-conversation`, `cm:i-statements`, `cm:situation-behavior-impact` |
 | 1.49 | `cm:feedforward` | `cm:psychological-safety` | `cm:active-listening`, `cm:defensiveness`, `cm:feedback`, `cm:one-on-one-meetings` |
 | 1.49 | `cm:macinnis-mackinnon-macintyre-2010` | `cm:self-distancing` | `cm:anxiety-reappraisal`, `cm:illusion-of-transparency`, `cm:speaking-anxiety`, `cm:spotlight-effect` |
+| 1.47 | `cm:proxemics` | `cm:the-culture-map` | `cm:edward-t-hall`, `cm:high-and-low-context-cultures`, `cm:intercultural-communication` |

@@ -2634,6 +2634,104 @@
   ]
  },
  {
+  "id": "cm:intercultural-communication",
+  "title": "Intercultural communication",
+  "aliases": [
+   "intercultural communication studies",
+   "communication between cultures"
+  ],
+  "type": "Field",
+  "domain": "cross-cultural-communication",
+  "level": "introductory",
+  "evidenceStatus": "theoretical",
+  "file": "articles/cross-cultural-communication/intercultural-communication.md",
+  "created": "2026-11-05",
+  "summary": "The study and practice of communication between people whose cultural backgrounds lead them to different interpretations and expectations about what competent communication looks like; at work it supplies the concepts, barriers and training methods used to collaborate across national, regional, occupational and other cultural lines.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:communication-studies"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:high-and-low-context-cultures"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:proxemics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:ethnocentrism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:the-culture-map"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:direct-vs-indirect-feedback"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:describe-analyze-evaluate"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:intercultural-competence"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:multicultural-team"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:hofstede-cultural-dimensions"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:edward-t-hall",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedIn",
+    "object": "cm:the-silent-language",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:influencedBy",
+    "object": "cm:linguistic-anthropology",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:taras-steel-kirkman-2016",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:li-2021-cross-cultural-training-meta-analysis",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://www.scilit.net/publications/1346d6fba6cfbbb33bfeac5977ed47b4",
+   "https://textbooks.whatcom.edu/intercommcomptence/?p=40",
+   "https://core.ac.uk/download/345085409.pdf",
+   "https://niloaweb.sitehost.iu.edu/wp-content/uploads/2019/08/Viewpoint-Deardorff.pdf",
+   "https://ouci.dntb.gov.ua/works/4NGM3Wjl",
+   "https://www.sciencedaily.com/releases/2016/05/160513112140.htm"
+  ]
+ },
+ {
   "id": "cm:issue-selling",
   "title": "Selling issues to leadership",
   "aliases": [

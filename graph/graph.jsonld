@@ -2303,6 +2303,95 @@
    ]
   },
   {
+   "@id": "cm:intercultural-communication",
+   "@type": "cmo:Field",
+   "cmo:challengedBy": {
+    "@id": "cm:taras-steel-kirkman-2016"
+   },
+   "cmo:domain": "cross-cultural-communication",
+   "cmo:evidenceStatus": "theoretical",
+   "cmo:file": "articles/cross-cultural-communication/intercultural-communication.md",
+   "cmo:influencedBy": {
+    "@id": "cm:linguistic-anthropology"
+   },
+   "cmo:introducedBy": {
+    "@id": "cm:edward-t-hall"
+   },
+   "cmo:introducedIn": {
+    "@id": "cm:the-silent-language"
+   },
+   "cmo:level": "introductory",
+   "cmo:supportedBy": {
+    "@id": "cm:li-2021-cross-cultural-training-meta-analysis"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/intercultural-communication/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/intercultural-communication/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/intercultural-communication/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/intercultural-communication/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/intercultural-communication/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/intercultural-communication/s6"
+    }
+   ],
+   "rdfs:label": "Intercultural communication",
+   "skos:altLabel": [
+    "communication between cultures",
+    "intercultural communication studies"
+   ],
+   "skos:broader": {
+    "@id": "cm:communication-studies"
+   },
+   "skos:definition": "The study and practice of communication between people whose cultural backgrounds lead them to different interpretations and expectations about what competent communication looks like; at work it supplies the concepts, barriers and training methods used to collaborate across national, regional, occupational and other cultural lines.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/cross-cultural-communication"
+   },
+   "skos:prefLabel": "Intercultural communication",
+   "skos:related": [
+    {
+     "@id": "cm:describe-analyze-evaluate"
+    },
+    {
+     "@id": "cm:direct-vs-indirect-feedback"
+    },
+    {
+     "@id": "cm:ethnocentrism"
+    },
+    {
+     "@id": "cm:high-and-low-context-cultures"
+    },
+    {
+     "@id": "cm:hofstede-cultural-dimensions"
+    },
+    {
+     "@id": "cm:intercultural-competence"
+    },
+    {
+     "@id": "cm:multicultural-team"
+    },
+    {
+     "@id": "cm:proxemics"
+    },
+    {
+     "@id": "cm:the-culture-map"
+    }
+   ]
+  },
+  {
    "@id": "cm:issue-selling",
    "@type": "cmo:Technique",
    "cmo:appliedIn": {
@@ -9299,6 +9388,90 @@
    "dcterms:title": "Third Edition of 'Influence Without Authority' Released",
    "schema:url": {
     "@id": "https://www.newswise.com/articles/third-edition-of-influence-without-authority-released"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/intercultural-communication/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Leeds-Hurwitz, Quarterly Journal of Speech 76(3), 1990, pp. 262-281, doi:10.1080/00335639009383919 (Scilit record)",
+   "dcterms:title": "Notes in the history of intercultural communication: The Foreign Service Institute and the mandate for intercultural training",
+   "schema:url": {
+    "@id": "https://www.scilit.net/publications/1346d6fba6cfbbb33bfeac5977ed47b4"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/intercultural-communication/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Halverson-Wente & H-W, Intercultural Communication Competence open coursebook (Whatcom Community College), adapting Samovar et al., Martin & Nakayama and others",
+   "dcterms:title": "Chapter 1 - Introduction to Intercultural Communication",
+   "schema:url": {
+    "@id": "https://textbooks.whatcom.edu/intercommcomptence/?p=40"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/intercultural-communication/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Taras, Steel & Kirkman, Management International Review 56(4), 2016, pp. 455-472, doi:10.1007/s11575-016-0283-x (author manuscript via CORE)",
+   "dcterms:title": "Does Country Equate with Culture? Beyond Geography in the Search for Cultural Boundaries",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/345085409.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/intercultural-communication/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Darla K. Deardorff, National Institute for Learning Outcomes Assessment (NILOA) Viewpoint, 2014",
+   "dcterms:title": "Some thoughts on assessing intercultural competence",
+   "schema:url": {
+    "@id": "https://niloaweb.sitehost.iu.edu/wp-content/uploads/2019/08/Viewpoint-Deardorff.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/intercultural-communication/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Li, Career Development International, 2021, pp. 185-200 (OUCI record)",
+   "dcterms:title": "Meta-analysis of the impact of cross-cultural training on adjustment, cultural intelligence, and job performance",
+   "schema:url": {
+    "@id": "https://ouci.dntb.gov.ua/works/4NGM3Wjl"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/intercultural-communication/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "news",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "ScienceDaily (news release from North Carolina State University on Taras, Steel & Kirkman 2016)",
+   "dcterms:title": "Study finds nationality is not a good indicator of work-related cultural values",
+   "schema:url": {
+    "@id": "https://www.sciencedaily.com/releases/2016/05/160513112140.htm"
    }
   },
   {
