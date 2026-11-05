@@ -327,6 +327,15 @@ Ask yourself:
 - What is in this for them, and do they see it in the first few lines?
 - Have I checked my picture of the audience against something they actually said or did, or am I only guessing?
 
+### [Grice's cooperative principle](../articles/foundations/grices-maxims.md) — Principle
+
+Ask yourself:
+- If my reader took every word literally and also read between the lines, what would they conclude that I did not intend?
+- Did I use a weaker word such as "some", "most" or "should" where a stronger one was true, and so imply the stronger one is false?
+- Does every sentence I am about to send answer the question that was actually asked?
+- Have I stated anything I believe but cannot back up, without flagging it as a belief?
+- Is there detail here the reader does not need to act, and detail they need that I left out?
+
 ### [Rapport](../articles/foundations/rapport.md) — Concept
 
 Ask yourself:

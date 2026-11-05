@@ -1873,6 +1873,94 @@
    ]
   },
   {
+   "@id": "cm:grices-maxims",
+   "@type": "cmo:Principle",
+   "cmo:challengedBy": [
+    {
+     "@id": "cm:engelhardt-bailey-ferreira-2006"
+    },
+    {
+     "@id": "cm:keenan-1976"
+    },
+    {
+     "@id": "cm:relevance-theory"
+    }
+   ],
+   "cmo:domain": "foundations",
+   "cmo:evidenceStatus": "theoretical",
+   "cmo:file": "articles/foundations/grices-maxims.md",
+   "cmo:introducedBy": {
+    "@id": "cm:paul-grice"
+   },
+   "cmo:introducedIn": {
+    "@id": "cm:logic-and-conversation"
+   },
+   "cmo:level": "intermediate",
+   "cmo:requires": {
+    "@id": "cm:audience-analysis"
+   },
+   "cmo:studiedIn": {
+    "@id": "cm:pragmatics"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/grices-maxims/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/grices-maxims/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/grices-maxims/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/grices-maxims/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/grices-maxims/s5"
+    }
+   ],
+   "rdfs:label": "Grice's cooperative principle",
+   "skos:altLabel": [
+    "Grice's maxims",
+    "Gricean maxims",
+    "conversational maxims",
+    "cooperative principle",
+    "maxims of conversation"
+   ],
+   "skos:broader": {
+    "@id": "cm:pragmatics"
+   },
+   "skos:definition": "Philosopher Paul Grice's account of how conversation works: listeners assume a speaker is trying to contribute what the exchange needs, and expect contributions to be true (Quality), as informative as needed and no more (Quantity), relevant (Relation) and clear (Manner); departures from these expectations are read as signals of unstated meaning.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/foundations"
+   },
+   "skos:prefLabel": "Grice's cooperative principle",
+   "skos:related": [
+    {
+     "@id": "cm:audience-analysis"
+    },
+    {
+     "@id": "cm:bottom-line-up-front"
+    },
+    {
+     "@id": "cm:clarity"
+    },
+    {
+     "@id": "cm:high-and-low-context-cultures"
+    },
+    {
+     "@id": "cm:plain-language"
+    },
+    {
+     "@id": "cm:politeness-theory"
+    }
+   ]
+  },
+  {
    "@id": "cm:high-and-low-context-cultures",
    "@type": "cmo:Phenomenon",
    "cmo:challengedBy": [
@@ -6016,6 +6104,46 @@
    "schema:text": "If they open first, do not respond to their number straight away - restate your own target, their likely limits and your alternatives to yourself, then counter from your plan rather than from their anchor."
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/grices-maxims/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:grices-maxims"
+   },
+   "rdfs:label": "If my reader took every word literally and also read between the lines, what would they conclude that I did not intend?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/grices-maxims/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:grices-maxims"
+   },
+   "rdfs:label": "Did I use a weaker word such as \"some\", \"most\" or \"should\" where a stronger one was true, and so imply the stronger one is false?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/grices-maxims/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:grices-maxims"
+   },
+   "rdfs:label": "Does every sentence I am about to send answer the question that was actually asked?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/grices-maxims/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:grices-maxims"
+   },
+   "rdfs:label": "Have I stated anything I believe but cannot back up, without flagging it as a belief?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/grices-maxims/check/5",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:grices-maxims"
+   },
+   "rdfs:label": "Is there detail here the reader does not need to act, and detail they need that I left out?"
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/humble-inquiry/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -9024,6 +9152,76 @@
    "dcterms:title": "How Curiosity Enhances Hippocampus-Dependent Memory: The Prediction, Appraisal, Curiosity, and Exploration (PACE) Framework",
    "schema:url": {
     "@id": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6891259"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/grices-maxims/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Richard Warner, Stanford Encyclopedia of Philosophy (first published 2005, substantive revision 2026)",
+   "dcterms:title": "Paul Grice",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/ENTRIES/grice/index.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/grices-maxims/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Wayne Davis, Stanford Encyclopedia of Philosophy (Spring 2014 edition; substantive revision 2010)",
+   "dcterms:title": "Implicature",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/archives/spr2014/entries/implicature/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/grices-maxims/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Engelhardt, Bailey & Ferreira, Journal of Memory and Language 54, 554-573 (2006) (copy hosted by the Ferreira Lab, UC Davis)",
+   "dcterms:title": "Do speakers and listeners observe the Gricean Maxim of Quantity?",
+   "schema:url": {
+    "@id": "https://ferreiralab.faculty.ucdavis.edu/wp-content/uploads/sites/222/2015/05/Engelhardt-et-al.-2006_GriceanMaximQuantity_JML.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/grices-maxims/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Bethan Davies, Leeds Working Papers in Linguistics 8, 1-26 (2000), University of Leeds",
+   "dcterms:title": "Grice's Cooperative Principle: Getting the Meaning Across",
+   "schema:url": {
+    "@id": "https://www.latl.leeds.ac.uk/wp-content/uploads/sites/49/2019/05/Davies_2000.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/grices-maxims/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Ellen F. Prince, University of Pennsylvania, Penn Linguistics Colloquium paper (1982) (CORE open-access copy)",
+   "dcterms:title": "Grice and Universality: a Reappraisal",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/357524645.pdf"
    }
   },
   {
