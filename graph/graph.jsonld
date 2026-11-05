@@ -3183,6 +3183,81 @@
    ]
   },
   {
+   "@id": "cm:norbert-wiener",
+   "@type": "cmo:Person",
+   "cmo:authored": [
+    {
+     "@id": "cm:behavior-purpose-and-teleology"
+    },
+    {
+     "@id": "cm:the-human-use-of-human-beings"
+    }
+   ],
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "historical",
+   "cmo:file": "articles/thinkers-and-works/norbert-wiener.md",
+   "cmo:introduced": [
+    {
+     "@id": "cm:cybernetics"
+    },
+    {
+     "@id": "cm:feedback"
+    }
+   ],
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/norbert-wiener/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/norbert-wiener/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/norbert-wiener/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/norbert-wiener/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/norbert-wiener/s5"
+    }
+   ],
+   "rdfs:label": "Norbert Wiener",
+   "skos:altLabel": [
+    "Wiener",
+    "father of cybernetics"
+   ],
+   "skos:definition": "MIT mathematician (1894-1964) who founded cybernetics, the study of control and communication in animals and machines, and carried the engineering idea of feedback - correcting action by the gap between actual result and goal - into the behavioural and social sciences.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "Norbert Wiener",
+   "skos:related": [
+    {
+     "@id": "cm:arturo-rosenblueth"
+    },
+    {
+     "@id": "cm:claude-shannon"
+    },
+    {
+     "@id": "cm:feedback"
+    },
+    {
+     "@id": "cm:feedforward"
+    },
+    {
+     "@id": "cm:kluger-denisi-1996"
+    },
+    {
+     "@id": "cm:teach-back"
+    }
+   ]
+  },
+  {
    "@id": "cm:one-on-one-meetings",
    "@type": "cmo:Context",
    "cmo:causes": {
@@ -10258,6 +10333,76 @@
    "dcterms:title": "Building Timely Consensus Among Diverse Stakeholders: An Adapted Nominal Group Technique",
    "schema:url": {
     "@id": "https://www.annfammed.org/content/22/6/525.abstract"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/norbert-wiener/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Rosenblueth, Wiener & Bigelow, Philosophy of Science 10(1), 18-24 (1943) (California State University Long Beach course copy)",
+   "dcterms:title": "Behavior, Purpose and Teleology",
+   "schema:url": {
+    "@id": "https://home.csulb.edu/~cwallis/382/readings/482/wiener.behavior.purpose.teleology.1943.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/norbert-wiener/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Wiener, 2nd edition (1954), Free Association Books reprint 1989 (UC Davis course copy)",
+   "dcterms:title": "The Human Use of Human Beings: Cybernetics and Society - Preface and Chapter I, Cybernetics in History",
+   "schema:url": {
+    "@id": "https://bob.cs.ucdavis.edu/assets/ecs188/weiner_humanuse.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/norbert-wiener/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "John H. Lienhard, The Engines of Our Ingenuity, University of Houston College of Engineering",
+   "dcterms:title": "No. 977: Feedback",
+   "schema:url": {
+    "@id": "https://engines.egr.uh.edu/episode/977"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/norbert-wiener/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "American Society for Cybernetics",
+   "dcterms:title": "Summary: The Macy Conferences",
+   "schema:url": {
+    "@id": "https://asc-cybernetics.org/foundations/history/MacySummary.htm"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/norbert-wiener/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Littlejohn & Foss (eds.), Encyclopedia of Communication Theory, SAGE (2009), pp. 286-290",
+   "dcterms:title": "Cybernetics",
+   "schema:url": {
+    "@id": "https://sk.sagepub.com/ency/edvol/embed/communicationtheory/chpt/cybernetics"
    }
   },
   {
