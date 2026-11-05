@@ -2405,6 +2405,82 @@
    ]
   },
   {
+   "@id": "cm:macinnis-mackinnon-macintyre-2010",
+   "@type": "cmo:Study",
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:explainedBy": {
+    "@id": "cm:anchoring-and-adjustment"
+   },
+   "cmo:file": "articles/thinkers-and-works/macinnis-mackinnon-macintyre-2010.md",
+   "cmo:influencedBy": [
+    {
+     "@id": "cm:gilovich-savitsky-medvec-1998"
+    },
+    {
+     "@id": "cm:savitsky-gilovich-2003"
+    }
+   ],
+   "cmo:level": "intermediate",
+   "cmo:requires": {
+    "@id": "cm:illusion-of-transparency"
+   },
+   "cmo:studiedIn": {
+    "@id": "cm:social-psychology"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/macinnis-mackinnon-macintyre-2010/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/macinnis-mackinnon-macintyre-2010/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/macinnis-mackinnon-macintyre-2010/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/macinnis-mackinnon-macintyre-2010/s4"
+    }
+   ],
+   "rdfs:label": "The Illusion of Transparency and Normative Beliefs About Anxiety During Public Speaking",
+   "skos:altLabel": [
+    "MacInnis et al. 2010",
+    "MacInnis, Mackinnon & MacIntyre (2010)",
+    "classroom illusion-of-transparency replication"
+   ],
+   "skos:broader": [
+    {
+     "@id": "cm:illusion-of-transparency"
+    },
+    {
+     "@id": "cm:speaking-anxiety"
+    }
+   ],
+   "skos:definition": "A 2010 Current Research in Social Psychology paper in which students in a public-speaking course believed their audience saw far more nervousness than it reported, and a second survey showed that people expect high speaking anxiety to be normal.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "The Illusion of Transparency and Normative Beliefs About Anxiety During Public Speaking",
+   "skos:related": [
+    {
+     "@id": "cm:anxiety-reappraisal"
+    },
+    {
+     "@id": "cm:communication-apprehension"
+    },
+    {
+     "@id": "cm:spotlight-effect"
+    },
+    {
+     "@id": "cm:thomas-gilovich"
+    }
+   ]
+  },
+  {
    "@id": "cm:managing-up",
    "@type": "cmo:Skill",
    "cmo:appliedIn": [
@@ -9012,6 +9088,62 @@
    "dcterms:title": "Audit and feedback: effects on professional practice",
    "schema:url": {
     "@id": "https://researchers.mq.edu.au/en/publications/audit-and-feedback-effects-on-professional-practice/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/macinnis-mackinnon-macintyre-2010/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "MacInnis, Mackinnon & MacIntyre, Current Research in Social Psychology 15(4) (2010), University of Iowa (full text)",
+   "dcterms:title": "The Illusion of Transparency and Normative Beliefs About Anxiety During Public Speaking",
+   "schema:url": {
+    "@id": "https://crisp.org.uiowa.edu/sites/crisp.org.uiowa.edu/files/2020-04/15.4.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/macinnis-mackinnon-macintyre-2010/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Center for the Study of Group Processes, University of Iowa",
+   "dcterms:title": "Current Research in Social Psychology (journal home page)",
+   "schema:url": {
+    "@id": "https://crisp.org.uiowa.edu"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/macinnis-mackinnon-macintyre-2010/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Gilovich, Savitsky & Medvec, Journal of Personality and Social Psychology 75(2), 332-346 (1998) (PubMed record)",
+   "dcterms:title": "The illusion of transparency: biased assessments of others' ability to read one's emotional states",
+   "schema:url": {
+    "@id": "https://pubmed.ncbi.nlm.nih.gov/9731312/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/macinnis-mackinnon-macintyre-2010/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Universität Mannheim, Forschung erleben (2008) - research summary of Savitsky & Gilovich (2003), Journal of Experimental Social Psychology 39, 618-625",
+   "dcterms:title": "Nie wieder Angst vor Vorträgen (Never again afraid of presentations)",
+   "schema:url": {
+    "@id": "https://www.uni-mannheim.de/forschung-erleben/artikel/nie-wieder-angst-vor-vortraegen"
    }
   },
   {

@@ -113,6 +113,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:illusion-of-transparency` | mixed |  |
 | `cm:influence-without-authority` | mixed |  |
 | `cm:issue-selling` | mixed |  |
+| `cm:macinnis-mackinnon-macintyre-2010` | mixed |  |
 | `cm:multiple-equivalent-simultaneous-offers` | mixed |  |
 | `cm:nominal-group-technique` | mixed |  |
 | `cm:one-on-one-meetings` | mixed |  |
@@ -121,9 +122,8 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:plain-language` | mixed |  |
 | `cm:proxemics` | mixed |  |
 | `cm:psychological-safety` | mixed | `cm:pearsall-ellis-2011` |
-| `cm:rapport` | mixed |  |
 
-…and 6 more.
+…and 7 more.
 
 ## Concepts with no recorded origin (gap)
 

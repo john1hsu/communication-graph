@@ -2745,6 +2745,85 @@
   ]
  },
  {
+  "id": "cm:macinnis-mackinnon-macintyre-2010",
+  "title": "The Illusion of Transparency and Normative Beliefs About Anxiety During Public Speaking",
+  "aliases": [
+   "MacInnis et al. 2010",
+   "MacInnis, Mackinnon & MacIntyre (2010)",
+   "classroom illusion-of-transparency replication"
+  ],
+  "type": "Study",
+  "domain": "thinkers-and-works",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/thinkers-and-works/macinnis-mackinnon-macintyre-2010.md",
+  "created": "2026-11-05",
+  "summary": "A 2010 Current Research in Social Psychology paper in which students in a public-speaking course believed their audience saw far more nervousness than it reported, and a second survey showed that people expect high speaking anxiety to be normal.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:illusion-of-transparency"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "cm:speaking-anxiety"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:thomas-gilovich"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:spotlight-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:anxiety-reappraisal"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:communication-apprehension"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:illusion-of-transparency"
+   },
+   {
+    "predicate": "cmo:influencedBy",
+    "object": "cm:savitsky-gilovich-2003",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:influencedBy",
+    "object": "cm:gilovich-savitsky-medvec-1998",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:anchoring-and-adjustment",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:studiedIn",
+    "object": "cm:social-psychology",
+    "source": "s2",
+    "confidence": "high"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://crisp.org.uiowa.edu/sites/crisp.org.uiowa.edu/files/2020-04/15.4.pdf",
+   "https://crisp.org.uiowa.edu",
+   "https://pubmed.ncbi.nlm.nih.gov/9731312/",
+   "https://www.uni-mannheim.de/forschung-erleben/artikel/nie-wieder-angst-vor-vortraegen"
+  ]
+ },
+ {
   "id": "cm:managing-up",
   "title": "Managing up",
   "aliases": [
