@@ -1193,6 +1193,86 @@
    ]
   },
   {
+   "@id": "cm:ethnocentrism",
+   "@type": "cmo:Barrier",
+   "cmo:demonstratedBy": {
+    "@id": "cm:neuliep-hintz-mccroskey-2005"
+   },
+   "cmo:domain": "cross-cultural-communication",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:file": "articles/cross-cultural-communication/ethnocentrism.md",
+   "cmo:introducedBy": {
+    "@id": "cm:ludwig-gumplowicz"
+   },
+   "cmo:level": "introductory",
+   "cmo:undermines": [
+    {
+     "@id": "cm:credibility"
+    },
+    {
+     "@id": "cm:intercultural-willingness-to-communicate"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/ethnocentrism/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/ethnocentrism/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/ethnocentrism/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/ethnocentrism/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/ethnocentrism/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/ethnocentrism/s6"
+    }
+   ],
+   "rdfs:label": "Ethnocentrism",
+   "skos:altLabel": [
+    "cultural ethnocentrism",
+    "ethnocentric bias",
+    "generalized ethnocentrism"
+   ],
+   "skos:broader": {
+    "@id": "cm:intercultural-communication"
+   },
+   "skos:definition": "Treating your own culture's habits, values and ways of communicating as the normal, correct standard and judging other people's messages and behaviour against it; in workplace research it goes with lower willingness to talk across cultures and harsher judgements of out-group colleagues' competence and credibility.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/cross-cultural-communication"
+   },
+   "skos:prefLabel": "Ethnocentrism",
+   "skos:related": [
+    {
+     "@id": "cm:direct-vs-indirect-feedback"
+    },
+    {
+     "@id": "cm:high-and-low-context-cultures"
+    },
+    {
+     "@id": "cm:humble-inquiry"
+    },
+    {
+     "@id": "cm:intergroup-contact"
+    },
+    {
+     "@id": "cm:multicultural-team"
+    },
+    {
+     "@id": "cm:the-culture-map"
+    }
+   ]
+  },
+  {
    "@id": "cm:feedback",
    "@type": "cmo:Concept",
    "cmo:demonstratedBy": [
@@ -4770,6 +4850,38 @@
    "rdfs:label": "Have I checked what the person understood, rather than assuming my politeness or bluntness landed as intended?"
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/ethnocentrism/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:ethnocentrism"
+   },
+   "rdfs:label": "When I called a colleague's message rude, vague or odd, was I measuring it against how people communicate where I learned to work?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/ethnocentrism/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:ethnocentrism"
+   },
+   "rdfs:label": "Would I rate this candidate's or manager's competence the same if their accent, style and background matched mine?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/ethnocentrism/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:ethnocentrism"
+   },
+   "rdfs:label": "Have I asked what this behaviour means in the other person's context before deciding what it means?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/ethnocentrism/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:ethnocentrism"
+   },
+   "rdfs:label": "Who on this team have I quietly been avoiding or routing around, and is the real reason a difference in style?"
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/feedforward/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -7291,6 +7403,90 @@
    "dcterms:title": "Writing effective emails",
    "schema:url": {
     "@id": "https://cove.army.gov.au/article/writing-effective-emails"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/ethnocentrism/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "James C. McCroskey (author's measures archive), scale from Neuliep & McCroskey, Communication Research Reports 14, 1997, pp. 385-398",
+   "dcterms:title": "Revised Ethnocentrism Scale (Generalized Ethnocentrism Scale, GENE)",
+   "schema:url": {
+    "@id": "https://www.jamescmccroskey.com/measures/ethnocentrism_scale.htm"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/ethnocentrism/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Neuliep, Hintz & McCroskey, Communication Quarterly 53(1), 2005, pp. 41-56 (Taylor & Francis abstract)",
+   "dcterms:title": "The influence of ethnocentrism in organizational contexts: Perceptions of interviewee and managerial attractiveness, credibility, and effectiveness",
+   "schema:url": {
+    "@id": "https://informahealthcare.com/doi/abs/10.1080/01463370500055954"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/ethnocentrism/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Campbell, Journal of Intercultural Communication 16(1), 2016, pp. 1-15",
+   "dcterms:title": "Ethnocentrism and intercultural willingness to communicate: A study of New Zealand management students",
+   "schema:url": {
+    "@id": "https://immi.se/index.php/intercultural/article/download/Campbell-2016-1/756/3936"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/ethnocentrism/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Bizumic, Journal of Social and Political Psychology 2(1), 2014, pp. 3-10 (DOAJ record)",
+   "dcterms:title": "Who coined the concept of ethnocentrism? A brief report",
+   "schema:url": {
+    "@id": "https://doaj.org/article/1a98efa4f2be48e08604aa689ba05722"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/ethnocentrism/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Talita Pruett, Intercultural Communication (Bakersfield College), LibreTexts, adapted from Grothe, Exploring Intercultural Communication (CC BY-NC-SA)",
+   "dcterms:title": "3.01: Ethnocentrism and Stereotypes",
+   "schema:url": {
+    "@id": "https://socialsci.libretexts.org/Courses/Bakersfield_College/Intercultural_Communication_(Pruett-Bakersfield_College)/03%3A_Barriers_to_Intercultural_Communication/3.01%3A_Ethnocentrism_and_Stereotypes"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/ethnocentrism/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Pettigrew & Tropp, European Journal of Social Psychology 38, 2008, pp. 922-934 (University of Washington course copy)",
+   "dcterms:title": "How does intergroup contact reduce prejudice? Meta-analytic tests of three mediators",
+   "schema:url": {
+    "@id": "https://courses.washington.edu/pbafhall/563/Readings/pettigrew.pdf"
    }
   },
   {

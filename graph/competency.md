@@ -6,7 +6,9 @@ SPARQL queries in `queries/` run over the asserted graph, the OWL-RL inferences 
 
 _Which written barriers or anti-patterns have nothing in the graph that addresses them?_ — `queries/01-problems-without-fix.rq`
 
-_No results._
+| node | type |
+|---|---|
+| `cm:ethnocentrism` | cmo:Barrier |
 
 ## Skills with no practice technique (gap)
 
@@ -101,6 +103,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:defensiveness` | mixed | `cm:forward-czech-lee-2011` |
 | `cm:direct-vs-indirect-feedback` | mixed | `cm:brew-cairns-2004` |
 | `cm:email` | mixed |  |
+| `cm:ethnocentrism` | mixed |  |
 | `cm:feedback` | mixed |  |
 | `cm:feedforward` | mixed |  |
 | `cm:i-statements` | mixed | `cm:korobov-2020` |
@@ -117,9 +120,8 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:psychological-safety` | mixed | `cm:pearsall-ellis-2011` |
 | `cm:rapport` | mixed |  |
 | `cm:self-distancing` | mixed |  |
-| `cm:spotlight-effect` | mixed |  |
 
-…and 3 more.
+…and 4 more.
 
 ## Concepts with no recorded origin (gap)
 

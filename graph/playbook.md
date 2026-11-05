@@ -58,6 +58,14 @@ Ask yourself:
 - Am I about to deliver criticism in front of people who do not need to hear it?
 - Have I checked what the person understood, rather than assuming my politeness or bluntness landed as intended?
 
+### [Ethnocentrism](../articles/cross-cultural-communication/ethnocentrism.md) — Barrier
+
+Ask yourself:
+- When I called a colleague's message rude, vague or odd, was I measuring it against how people communicate where I learned to work?
+- Would I rate this candidate's or manager's competence the same if their accent, style and background matched mine?
+- Have I asked what this behaviour means in the other person's context before deciding what it means?
+- Who on this team have I quietly been avoiding or routing around, and is the real reason a difference in style?
+
 ## difficult-conversations-and-conflict
 
 ### [Defensiveness](../articles/difficult-conversations-and-conflict/defensiveness.md) — Barrier
