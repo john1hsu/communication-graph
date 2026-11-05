@@ -42,6 +42,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:feedforward` | 1 | Defensiveness |
 | `cm:humble-inquiry` | 1 | telling-instead-of-asking |
 | `cm:issue-selling` | 1 | Managing up |
+| `cm:meeting-agendas` | 1 | unnecessary-meetings |
 | `cm:multiple-equivalent-simultaneous-offers` | 1 | negotiator-dilemma |
 | `cm:paraphrasing` | 1 | Active listening |
 | `cm:situation-behavior-impact` | 1 | Defensiveness |
@@ -86,7 +87,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:salary-negotiation` | `cm:first-offer` |
 | `cm:salary-negotiation` | `cm:multiple-equivalent-simultaneous-offers` |
 
-…and 4 more.
+…and 5 more.
 
 ## Myths and contested advice
 
@@ -117,15 +118,15 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:influence-without-authority` | mixed |  |
 | `cm:issue-selling` | mixed |  |
 | `cm:macinnis-mackinnon-macintyre-2010` | mixed |  |
+| `cm:meeting-agendas` | mixed |  |
 | `cm:multiple-equivalent-simultaneous-offers` | mixed |  |
 | `cm:nominal-group-technique` | mixed |  |
 | `cm:one-on-one-meetings` | mixed |  |
 | `cm:open-ended-questions` | mixed | `cm:minson-et-al-2018` |
 | `cm:paraphrasing` | mixed | `cm:weger-castle-emmett-2010` |
 | `cm:plain-language` | mixed |  |
-| `cm:proxemics` | mixed |  |
 
-…and 10 more.
+…and 11 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -134,6 +135,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | node | type |
 |---|---|
 | `cm:first-offer` | cmo:Technique |
+| `cm:meeting-agendas` | cmo:Technique |
 | `cm:one-on-one-meetings` | cmo:Context |
 | `cm:open-ended-questions` | cmo:Technique |
 | `cm:plain-language` | cmo:Principle |

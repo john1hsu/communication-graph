@@ -404,6 +404,29 @@ Ask yourself:
 
 ## meetings-and-facilitation
 
+### [Meeting agendas](../articles/meetings-and-facilitation/meeting-agendas.md) — Technique
+
+1. Ask the people who will attend what they need the meeting to settle, and include only items that need this whole group.
+2. Write each item as a question the group must answer, not a topic label.
+3. Mark each item as share, seek input or decide, and name who leads it and how many minutes it gets.
+4. Use the questions to set the invite list - invite only the people needed to answer them - and cancel if you cannot write any questions.
+5. Circulate the written agenda, with any pre-reading, far enough ahead for people to prepare.
+6. Open the meeting by restating its purpose, follow the agenda, and end when the questions are answered.
+
+*A team lead schedules a 45-minute meeting with six colleagues about next quarter's office move.*
+
+| Before | After |
+|---|---|
+| Agenda: 1. Office move update 2. Desk allocation 3. AOB | Purpose: agree the move plan. 1. (Decide, Priya, 15 min) Which two weeks in March should we move? 2. (Seek input, Tom, 20 min) Under what conditions should we reallocate desks to hybrid staff? 3. (Share, me, 5 min) What changes for parking? Please read the floor plan before Tuesday. |
+
+**Why:** Questions show what counts as done, the labels tell people whether they are deciding or just listening, and the named owners and pre-reading let them arrive prepared instead of reacting cold.
+
+Ask yourself:
+- Could each attendee tell from the agenda alone what the meeting must decide and what they should prepare?
+- Is every item phrased as a question that needs this whole group, or could some be handled by email?
+- Did the agenda reach people early enough for them to actually prepare?
+- At the end, can I point to an answer for each question on the agenda?
+
 ### [Nominal group technique](../articles/meetings-and-facilitation/nominal-group-technique.md) — Technique
 
 1. Write one specific, open question on the board or shared screen and read it aloud, for example "What are the biggest obstacles to closing month-end two days faster?"

@@ -3242,6 +3242,101 @@
   ]
  },
  {
+  "id": "cm:meeting-agendas",
+  "title": "Meeting agendas",
+  "aliases": [
+   "meeting agenda",
+   "question-based agenda",
+   "agenda design"
+  ],
+  "type": "Technique",
+  "domain": "meetings-and-facilitation",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/meetings-and-facilitation/meeting-agendas.md",
+  "created": "2026-11-05",
+  "summary": "Planning and circulating, before a meeting, a short written list of the questions the group must answer, with the purpose, owner and time for each, so attendees can prepare and the meeting can be steered and ended against it.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:meeting-design"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:nominal-group-technique"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:bottom-line-up-front"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:open-ended-questions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:meeting-recaps"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:leach-et-al-2009",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:workplace-meetings",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:unnecessary-meetings",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:facilitation",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:meeting-recaps",
+    "source": "s2",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Could each attendee tell from the agenda alone what the meeting must decide and what they should prepare?",
+   "Is every item phrased as a question that needs this whole group, or could some be handled by email?",
+   "Did the agenda reach people early enough for them to actually prepare?",
+   "At the end, can I point to an answer for each question on the agenda?"
+  ],
+  "steps": [
+   "Ask the people who will attend what they need the meeting to settle, and include only items that need this whole group.",
+   "Write each item as a question the group must answer, not a topic label.",
+   "Mark each item as share, seek input or decide, and name who leads it and how many minutes it gets.",
+   "Use the questions to set the invite list - invite only the people needed to answer them - and cancel if you cannot write any questions.",
+   "Circulate the written agenda, with any pre-reading, far enough ahead for people to prepare.",
+   "Open the meeting by restating its purpose, follow the agenda, and end when the questions are answered."
+  ],
+  "example": {
+   "situation": "A team lead schedules a 45-minute meeting with six colleagues about next quarter's office move.",
+   "before": "Agenda: 1. Office move update 2. Desk allocation 3. AOB",
+   "after": "Purpose: agree the move plan. 1. (Decide, Priya, 15 min) Which two weeks in March should we move? 2. (Seek input, Tom, 20 min) Under what conditions should we reallocate desks to hybrid staff? 3. (Share, me, 5 min) What changes for parking? Please read the floor plan before Tuesday.",
+   "why": "Questions show what counts as done, the labels tell people whether they are deciding or just listening, and the named owners and pre-reading let them arrive prepared instead of reacting cold."
+  },
+  "source_urls": [
+   "https://www.researchgate.net/profile/Peter_Warr3/publication/227024372_Perceived_Meeting_Effectiveness_The_Role_of_Design_Characteristics/links/0c96053c028f3e9b69000000/Perceived-Meeting-Effectiveness-The-Role-of-Design-Characteristics.pdf",
+   "https://par.nsf.gov/servlets/purl/10086888",
+   "https://www.cambridge.org/core/books/cambridge-handbook-of-meeting-science/meeting-preparation-and-design-characteristics/452AA4D47AF03B99283DC3F7EE4267A4",
+   "https://hbr.org/2020/02/how-to-create-the-perfect-meeting-agenda",
+   "https://hbr.org/2015/03/how-to-design-an-agenda-for-an-effective-meeting"
+  ]
+ },
+ {
   "id": "cm:mehrabian-myth",
   "title": "Mehrabian's 7-38-55 rule",
   "aliases": [
