@@ -731,6 +731,10 @@
     "object": "cm:curse-of-knowledge"
    },
    {
+    "predicate": "skos:related",
+    "object": "cm:zoom-fatigue"
+   },
+   {
     "predicate": "cmo:requires",
     "object": "cm:audience-analysis"
    },
@@ -4889,6 +4893,109 @@
    "https://irp.fas.org/dni/icd/icd-203.pdf",
    "https://minerva-access.unimelb.edu.au/server/api/core/bitstreams/3d6edf87-1815-5d22-95d6-0b4510f8ea6b/content",
    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7971511/"
+  ]
+ },
+ {
+  "id": "cm:zoom-fatigue",
+  "title": "Zoom fatigue",
+  "aliases": [
+   "videoconference fatigue",
+   "video call fatigue",
+   "videoconferencing fatigue"
+  ],
+  "type": "Barrier",
+  "domain": "digital-and-async-communication",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/digital-and-async-communication/zoom-fatigue.md",
+  "created": "2026-11-05",
+  "summary": "The tiredness and depletion people report after video meetings, linked to sustained close-up eye contact, the extra effort of sending and reading nonverbal cues on screen, watching a self-view and being kept still in front of a camera; it drains the energy people bring to later meetings and makes them less likely to speak up.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:video-call-communication"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "cm:workplace-meetings"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:channel-selection"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:proxemics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:spotlight-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:media-richness-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:asynchronous-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:information-overload"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:nonverbal-overload",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:shockley-et-al-2021",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:fauville-et-al-2023",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:riedl-et-al-2023",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:bennett-et-al-2021",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:undermines",
+    "object": "cm:employee-engagement",
+    "source": "s2",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Does this conversation need video at all, or would a phone call, a shared document or a written update do the job?",
+   "Have I booked video meetings back to back with no break to stand up, move or look away from the screen?",
+   "Am I watching my own tile more than the people I am talking to, and could I hide self-view?",
+   "Did I make it clear that cameras are optional for this meeting, especially for newer team members?",
+   "Did people have a moment to connect as a group, or did we go straight into a wall of faces and slides?"
+  ],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://vhil.stanford.edu/sites/g/files/sbiybj29011/files/media/file/bailenson-apa-nonverbal-overload.pdf?",
+   "https://experts.arizona.edu/en/publications/the-fatiguing-effects-of-camera-use-in-virtual-meetings-a-within-/",
+   "https://sml.stanford.edu/publications/2023/video-conferencing-usage-dynamics-and-nonverbal-mechanisms-exacerbate-zoom",
+   "https://www.apa.org/news/press/releases/2021/04/videoconferences-fatigue",
+   "https://pure.fh-ooe.at/en/publications/videoconference-fatigue-from-a-neurophysiological-perspective-exp/",
+   "https://www.emerald.com/insight/content/doi/10.1108/INTR-07-2021-0499"
   ]
  }
 ]

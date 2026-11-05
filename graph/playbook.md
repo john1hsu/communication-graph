@@ -146,6 +146,15 @@ Ask yourself:
 - Am I choosing email or chat because it suits the message, or because it lets me avoid an awkward conversation?
 - After a live discussion, have I put the decision, owners and dates in writing?
 
+### [Zoom fatigue](../articles/digital-and-async-communication/zoom-fatigue.md) — Barrier
+
+Ask yourself:
+- Does this conversation need video at all, or would a phone call, a shared document or a written update do the job?
+- Have I booked video meetings back to back with no break to stand up, move or look away from the screen?
+- Am I watching my own tile more than the people I am talking to, and could I hide self-view?
+- Did I make it clear that cameras are optional for this meeting, especially for newer team members?
+- Did people have a moment to connect as a group, or did we go straight into a wall of faces and slides?
+
 ## executive-and-client-communication
 
 ### [Managing up](../articles/executive-and-client-communication/managing-up.md) — Skill

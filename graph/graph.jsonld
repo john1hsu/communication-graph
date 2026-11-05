@@ -694,6 +694,9 @@
     },
     {
      "@id": "cm:curse-of-knowledge"
+    },
+    {
+     "@id": "cm:zoom-fatigue"
     }
    ]
   },
@@ -4310,6 +4313,97 @@
     },
     {
      "@id": "cm:plain-language"
+    }
+   ]
+  },
+  {
+   "@id": "cm:zoom-fatigue",
+   "@type": "cmo:Barrier",
+   "cmo:challengedBy": {
+    "@id": "cm:bennett-et-al-2021"
+   },
+   "cmo:demonstratedBy": [
+    {
+     "@id": "cm:riedl-et-al-2023"
+    },
+    {
+     "@id": "cm:shockley-et-al-2021"
+    }
+   ],
+   "cmo:domain": "digital-and-async-communication",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:explainedBy": {
+    "@id": "cm:nonverbal-overload"
+   },
+   "cmo:file": "articles/digital-and-async-communication/zoom-fatigue.md",
+   "cmo:level": "introductory",
+   "cmo:supportedBy": {
+    "@id": "cm:fauville-et-al-2023"
+   },
+   "cmo:undermines": {
+    "@id": "cm:employee-engagement"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/zoom-fatigue/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/zoom-fatigue/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/zoom-fatigue/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/zoom-fatigue/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/zoom-fatigue/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/zoom-fatigue/s6"
+    }
+   ],
+   "rdfs:label": "Zoom fatigue",
+   "skos:altLabel": [
+    "video call fatigue",
+    "videoconference fatigue",
+    "videoconferencing fatigue"
+   ],
+   "skos:broader": [
+    {
+     "@id": "cm:video-call-communication"
+    },
+    {
+     "@id": "cm:workplace-meetings"
+    }
+   ],
+   "skos:definition": "The tiredness and depletion people report after video meetings, linked to sustained close-up eye contact, the extra effort of sending and reading nonverbal cues on screen, watching a self-view and being kept still in front of a camera; it drains the energy people bring to later meetings and makes them less likely to speak up.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/digital-and-async-communication"
+   },
+   "skos:prefLabel": "Zoom fatigue",
+   "skos:related": [
+    {
+     "@id": "cm:asynchronous-communication"
+    },
+    {
+     "@id": "cm:channel-selection"
+    },
+    {
+     "@id": "cm:information-overload"
+    },
+    {
+     "@id": "cm:media-richness-theory"
+    },
+    {
+     "@id": "cm:proxemics"
+    },
+    {
+     "@id": "cm:spotlight-effect"
     }
    ]
   },
@@ -10486,6 +10580,90 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/zoom-fatigue/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Jeremy N. Bailenson, Technology, Mind, and Behavior (American Psychological Association), 2021 (Stanford Virtual Human Interaction Lab author copy)",
+   "dcterms:title": "Nonverbal Overload: A Theoretical Argument for the Causes of Zoom Fatigue",
+   "schema:url": {
+    "@id": "https://vhil.stanford.edu/sites/g/files/sbiybj29011/files/media/file/bailenson-apa-nonverbal-overload.pdf?"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/zoom-fatigue/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Shockley, Gabriel, Robertson, Rosen, Chawla, Ganster & Ezerins, Journal of Applied Psychology 106(8), 1137-1155, 2021 (University of Arizona research record)",
+   "dcterms:title": "The fatiguing effects of camera use in virtual meetings: A within-person field experiment",
+   "schema:url": {
+    "@id": "https://experts.arizona.edu/en/publications/the-fatiguing-effects-of-camera-use-in-virtual-meetings-a-within-/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/zoom-fatigue/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Fauville, Luo, Queiroz, Lee, Bailenson & Hancock, Computers in Human Behavior Reports, 2023 (Stanford Social Media Lab record)",
+   "dcterms:title": "Video-conferencing usage dynamics and nonverbal mechanisms exacerbate Zoom Fatigue, particularly for women",
+   "schema:url": {
+    "@id": "https://sml.stanford.edu/publications/2023/video-conferencing-usage-dynamics-and-nonverbal-mechanisms-exacerbate-zoom"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/zoom-fatigue/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "American Psychological Association press release on Bennett, Campion, Keener & Keeler, Journal of Applied Psychology, 2021",
+   "dcterms:title": "Videoconferences more exhausting when participants don't feel group belonging",
+   "schema:url": {
+    "@id": "https://www.apa.org/news/press/releases/2021/04/videoconferences-fatigue"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/zoom-fatigue/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Riedl, Kostoglou, Wriessnegger & Müller-Putz, Scientific Reports 13, 18371, 2023 (University of Applied Sciences Upper Austria research record)",
+   "dcterms:title": "Videoconference Fatigue from a Neurophysiological Perspective: Experimental Evidence based on Electroencephalography (EEG) and Electrocardiography (ECG)",
+   "schema:url": {
+    "@id": "https://pure.fh-ooe.at/en/publications/videoconference-fatigue-from-a-neurophysiological-perspective-exp/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/zoom-fatigue/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Li & Yee, Internet Research 33(2), 796-819, 2023 (Emerald)",
+   "dcterms:title": "Understanding videoconference fatigue: a systematic review of dimensions, antecedents and theories",
+   "schema:url": {
+    "@id": "https://www.emerald.com/insight/content/doi/10.1108/INTR-07-2021-0499"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/speaking-anxiety/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -10859,6 +11037,46 @@
    "@type": "schema:HowToStep",
    "schema:position": 6,
    "schema:text": "Use the same words with the same meanings in every report, and add a short key whenever a new reader joins the distribution."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/zoom-fatigue/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:zoom-fatigue"
+   },
+   "rdfs:label": "Does this conversation need video at all, or would a phone call, a shared document or a written update do the job?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/zoom-fatigue/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:zoom-fatigue"
+   },
+   "rdfs:label": "Have I booked video meetings back to back with no break to stand up, move or look away from the screen?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/zoom-fatigue/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:zoom-fatigue"
+   },
+   "rdfs:label": "Am I watching my own tile more than the people I am talking to, and could I hide self-view?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/zoom-fatigue/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:zoom-fatigue"
+   },
+   "rdfs:label": "Did I make it clear that cameras are optional for this meeting, especially for newer team members?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/zoom-fatigue/check/5",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:zoom-fatigue"
+   },
+   "rdfs:label": "Did people have a moment to connect as a group, or did we go straight into a wall of faces and slides?"
   }
  ]
 }

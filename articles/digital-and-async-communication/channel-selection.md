@@ -11,7 +11,7 @@ summary: >-
 level: introductory
 evidenceStatus: mixed
 broader: [cm:communication-planning]
-related: [cm:audience-analysis, cm:bottom-line-up-front, cm:asynchronous-communication, cm:curse-of-knowledge]
+related: [cm:audience-analysis, cm:bottom-line-up-front, cm:asynchronous-communication, cm:curse-of-knowledge, cm:zoom-fatigue]
 requires: [cm:audience-analysis]
 relations:
   - {predicate: explainedBy, object: cm:media-richness-theory, source: s1, confidence: high}

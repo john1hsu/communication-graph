@@ -111,6 +111,15 @@
 <https://github.com/john1hsu/communication-graph/id/email#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/email/s3> .
 <https://github.com/john1hsu/communication-graph/id/email#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/email/s4> .
 <https://github.com/john1hsu/communication-graph/id/email#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/email/s5> .
+<https://github.com/john1hsu/communication-graph/id/zoom-fatigue#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/zoom-fatigue#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> .
+<https://github.com/john1hsu/communication-graph/id/zoom-fatigue#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/digital-and-async-communication/zoom-fatigue.md" .
+<https://github.com/john1hsu/communication-graph/id/zoom-fatigue#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/zoom-fatigue/s1> .
+<https://github.com/john1hsu/communication-graph/id/zoom-fatigue#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/zoom-fatigue/s2> .
+<https://github.com/john1hsu/communication-graph/id/zoom-fatigue#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/zoom-fatigue/s3> .
+<https://github.com/john1hsu/communication-graph/id/zoom-fatigue#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/zoom-fatigue/s4> .
+<https://github.com/john1hsu/communication-graph/id/zoom-fatigue#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/zoom-fatigue/s5> .
+<https://github.com/john1hsu/communication-graph/id/zoom-fatigue#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/zoom-fatigue/s6> .
 <https://github.com/john1hsu/communication-graph/id/managing-up#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/managing-up#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/managing-up> .
 <https://github.com/john1hsu/communication-graph/id/managing-up#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/executive-and-client-communication/managing-up.md" .
@@ -1421,6 +1430,7 @@
   <https://github.com/john1hsu/communication-graph/id/channel-selection> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
   <https://github.com/john1hsu/communication-graph/id/channel-selection> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
   <https://github.com/john1hsu/communication-graph/id/channel-selection> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> .
+  <https://github.com/john1hsu/communication-graph/id/channel-selection> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> .
   <https://github.com/john1hsu/communication-graph/id/channel-selection> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/channel-selection/s1> .
   <https://github.com/john1hsu/communication-graph/id/channel-selection> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/channel-selection/s2> .
   <https://github.com/john1hsu/communication-graph/id/channel-selection> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/channel-selection/s3> .
@@ -1541,6 +1551,93 @@
   <https://github.com/john1hsu/communication-graph/id/source/email/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
   <https://github.com/john1hsu/communication-graph/id/source/email/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
   <https://github.com/john1hsu/communication-graph/id/source/email/s5> <https://schema.org/url> <https://cove.army.gov.au/article/writing-effective-emails> .
+}
+
+<https://github.com/john1hsu/communication-graph/id/zoom-fatigue#graph> {
+  <https://github.com/john1hsu/communication-graph/id/source/zoom-fatigue/s1> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/zoom-fatigue/s1> <http://purl.org/dc/terms/publisher> "Jeremy N. Bailenson, Technology, Mind, and Behavior (American Psychological Association), 2021 (Stanford Virtual Human Interaction Lab author copy)" .
+  <https://github.com/john1hsu/communication-graph/id/source/zoom-fatigue/s1> <http://purl.org/dc/terms/title> "Nonverbal Overload: A Theoretical Argument for the Causes of Zoom Fatigue" .
+  <https://github.com/john1hsu/communication-graph/id/source/zoom-fatigue/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/zoom-fatigue/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/zoom-fatigue/s1> <https://schema.org/url> <https://vhil.stanford.edu/sites/g/files/sbiybj29011/files/media/file/bailenson-apa-nonverbal-overload.pdf?> .
+  <https://github.com/john1hsu/communication-graph/id/source/zoom-fatigue/s2> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/zoom-fatigue/s2> <http://purl.org/dc/terms/publisher> "Shockley, Gabriel, Robertson, Rosen, Chawla, Ganster & Ezerins, Journal of Applied Psychology 106(8), 1137-1155, 2021 (University of Arizona research record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/zoom-fatigue/s2> <http://purl.org/dc/terms/title> "The fatiguing effects of camera use in virtual meetings: A within-person field experiment" .
+  <https://github.com/john1hsu/communication-graph/id/source/zoom-fatigue/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/zoom-fatigue/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/zoom-fatigue/s2> <https://schema.org/url> <https://experts.arizona.edu/en/publications/the-fatiguing-effects-of-camera-use-in-virtual-meetings-a-within-/> .
+  <https://github.com/john1hsu/communication-graph/id/source/zoom-fatigue/s3> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/zoom-fatigue/s3> <http://purl.org/dc/terms/publisher> "Fauville, Luo, Queiroz, Lee, Bailenson & Hancock, Computers in Human Behavior Reports, 2023 (Stanford Social Media Lab record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/zoom-fatigue/s3> <http://purl.org/dc/terms/title> "Video-conferencing usage dynamics and nonverbal mechanisms exacerbate Zoom Fatigue, particularly for women" .
+  <https://github.com/john1hsu/communication-graph/id/source/zoom-fatigue/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/zoom-fatigue/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/zoom-fatigue/s3> <https://schema.org/url> <https://sml.stanford.edu/publications/2023/video-conferencing-usage-dynamics-and-nonverbal-mechanisms-exacerbate-zoom> .
+  <https://github.com/john1hsu/communication-graph/id/source/zoom-fatigue/s4> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/zoom-fatigue/s4> <http://purl.org/dc/terms/publisher> "American Psychological Association press release on Bennett, Campion, Keener & Keeler, Journal of Applied Psychology, 2021" .
+  <https://github.com/john1hsu/communication-graph/id/source/zoom-fatigue/s4> <http://purl.org/dc/terms/title> "Videoconferences more exhausting when participants don't feel group belonging" .
+  <https://github.com/john1hsu/communication-graph/id/source/zoom-fatigue/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/zoom-fatigue/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+  <https://github.com/john1hsu/communication-graph/id/source/zoom-fatigue/s4> <https://schema.org/url> <https://www.apa.org/news/press/releases/2021/04/videoconferences-fatigue> .
+  <https://github.com/john1hsu/communication-graph/id/source/zoom-fatigue/s5> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/zoom-fatigue/s5> <http://purl.org/dc/terms/publisher> "Riedl, Kostoglou, Wriessnegger & Müller-Putz, Scientific Reports 13, 18371, 2023 (University of Applied Sciences Upper Austria research record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/zoom-fatigue/s5> <http://purl.org/dc/terms/title> "Videoconference Fatigue from a Neurophysiological Perspective: Experimental Evidence based on Electroencephalography (EEG) and Electrocardiography (ECG)" .
+  <https://github.com/john1hsu/communication-graph/id/source/zoom-fatigue/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/zoom-fatigue/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/zoom-fatigue/s5> <https://schema.org/url> <https://pure.fh-ooe.at/en/publications/videoconference-fatigue-from-a-neurophysiological-perspective-exp/> .
+  <https://github.com/john1hsu/communication-graph/id/source/zoom-fatigue/s6> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/zoom-fatigue/s6> <http://purl.org/dc/terms/publisher> "Li & Yee, Internet Research 33(2), 796-819, 2023 (Emerald)" .
+  <https://github.com/john1hsu/communication-graph/id/source/zoom-fatigue/s6> <http://purl.org/dc/terms/title> "Understanding videoconference fatigue: a systematic review of dimensions, antecedents and theories" .
+  <https://github.com/john1hsu/communication-graph/id/source/zoom-fatigue/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/zoom-fatigue/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/zoom-fatigue/s6> <https://schema.org/url> <https://www.emerald.com/insight/content/doi/10.1108/INTR-07-2021-0499> .
+  <https://github.com/john1hsu/communication-graph/id/zoom-fatigue/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/zoom-fatigue/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Does this conversation need video at all, or would a phone call, a shared document or a written update do the job?" .
+  <https://github.com/john1hsu/communication-graph/id/zoom-fatigue/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> .
+  <https://github.com/john1hsu/communication-graph/id/zoom-fatigue/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/zoom-fatigue/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Have I booked video meetings back to back with no break to stand up, move or look away from the screen?" .
+  <https://github.com/john1hsu/communication-graph/id/zoom-fatigue/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> .
+  <https://github.com/john1hsu/communication-graph/id/zoom-fatigue/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/zoom-fatigue/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Am I watching my own tile more than the people I am talking to, and could I hide self-view?" .
+  <https://github.com/john1hsu/communication-graph/id/zoom-fatigue/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> .
+  <https://github.com/john1hsu/communication-graph/id/zoom-fatigue/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/zoom-fatigue/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Did I make it clear that cameras are optional for this meeting, especially for newer team members?" .
+  <https://github.com/john1hsu/communication-graph/id/zoom-fatigue/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> .
+  <https://github.com/john1hsu/communication-graph/id/zoom-fatigue/check/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/zoom-fatigue/check/5> <http://www.w3.org/2000/01/rdf-schema#label> "Did people have a moment to connect as a group, or did we go straight into a wall of faces and slides?" .
+  <https://github.com/john1hsu/communication-graph/id/zoom-fatigue/check/5> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> .
+  <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> <http://purl.org/dc/terms/created> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Barrier> .
+  <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> <http://www.w3.org/2000/01/rdf-schema#label> "Zoom fatigue" .
+  <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> <http://www.w3.org/2004/02/skos/core#altLabel> "video call fatigue" .
+  <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> <http://www.w3.org/2004/02/skos/core#altLabel> "videoconference fatigue" .
+  <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> <http://www.w3.org/2004/02/skos/core#altLabel> "videoconferencing fatigue" .
+  <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/video-call-communication> .
+  <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/workplace-meetings> .
+  <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> <http://www.w3.org/2004/02/skos/core#definition> "The tiredness and depletion people report after video meetings, linked to sustained close-up eye contact, the extra effort of sending and reading nonverbal cues on screen, watching a self-view and being kept still in front of a camera; it drains the energy people bring to later meetings and makes them less likely to speak up." .
+  <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/digital-and-async-communication> .
+  <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zoom fatigue" .
+  <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> .
+  <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/channel-selection> .
+  <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/information-overload> .
+  <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/media-richness-theory> .
+  <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/proxemics> .
+  <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/spotlight-effect> .
+  <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/zoom-fatigue/s1> .
+  <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/zoom-fatigue/s2> .
+  <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/zoom-fatigue/s3> .
+  <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/zoom-fatigue/s4> .
+  <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/zoom-fatigue/s5> .
+  <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/zoom-fatigue/s6> .
+  <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/bennett-et-al-2021> .
+  <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/riedl-et-al-2023> .
+  <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/shockley-et-al-2021> .
+  <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> <https://github.com/john1hsu/communication-graph/ontology#domain> "digital-and-async-communication" .
+  <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+  <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/nonverbal-overload> .
+  <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/digital-and-async-communication/zoom-fatigue.md" .
+  <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+  <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/fauville-et-al-2023> .
+  <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> <https://github.com/john1hsu/communication-graph/ontology#undermines> <https://github.com/john1hsu/communication-graph/id/employee-engagement> .
 }
 
 <https://github.com/john1hsu/communication-graph/id/managing-up#graph> {
@@ -5028,6 +5125,7 @@
   <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/email> .
   <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/channel-selection> .
   <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/ray-tomlinson> .
+  <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -5075,6 +5173,7 @@
   <https://github.com/john1hsu/communication-graph/id/batna> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/first-offer> .
   <https://github.com/john1hsu/communication-graph/id/batna> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers> .
   <https://github.com/john1hsu/communication-graph/id/beltzer-et-al-2014> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> .
+  <https://github.com/john1hsu/communication-graph/id/bennett-et-al-2021> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> .
   <https://github.com/john1hsu/communication-graph/id/berg-et-al-2019> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/open-ended-questions> .
   <https://github.com/john1hsu/communication-graph/id/beyond-culture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/beyond-culture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
@@ -5289,6 +5388,7 @@
   <https://github.com/john1hsu/communication-graph/id/emotion-regulation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/self-distancing> .
   <https://github.com/john1hsu/communication-graph/id/empathy-gap> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/george-loewenstein> .
   <https://github.com/john1hsu/communication-graph/id/employee-engagement> <https://github.com/john1hsu/communication-graph/ontology#causedBy> <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> .
+  <https://github.com/john1hsu/communication-graph/id/employee-engagement> <https://github.com/john1hsu/communication-graph/ontology#underminedBy> <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> .
   <https://github.com/john1hsu/communication-graph/id/erin-meyer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/erin-meyer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/erin-meyer> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/the-culture-map> .
@@ -5312,6 +5412,7 @@
   <https://github.com/john1hsu/communication-graph/id/facial-expressions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> .
   <https://github.com/john1hsu/communication-graph/id/facilitation> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> .
   <https://github.com/john1hsu/communication-graph/id/facilitation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> .
+  <https://github.com/john1hsu/communication-graph/id/fauville-et-al-2023> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> .
   <https://github.com/john1hsu/communication-graph/id/fear-and-loathing-of-the-english-passive> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/active-voice> .
   <https://github.com/john1hsu/communication-graph/id/feedback-intervention-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996> .
   <https://github.com/john1hsu/communication-graph/id/feedback-intervention-theory> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/feedback> .
@@ -5472,6 +5573,7 @@
   <https://github.com/john1hsu/communication-graph/id/influence-without-authority> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping> .
   <https://github.com/john1hsu/communication-graph/id/information-gap-theory> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/george-loewenstein> .
   <https://github.com/john1hsu/communication-graph/id/information-overload> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/ray-tomlinson> .
+  <https://github.com/john1hsu/communication-graph/id/information-overload> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> .
   <https://github.com/john1hsu/communication-graph/id/information-overload> <https://github.com/john1hsu/communication-graph/ontology#causedBy> <https://github.com/john1hsu/communication-graph/id/email> .
   <https://github.com/john1hsu/communication-graph/id/integrative-negotiation> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers> .
   <https://github.com/john1hsu/communication-graph/id/integrative-negotiation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers> .
@@ -5604,6 +5706,7 @@
   <https://github.com/john1hsu/communication-graph/id/marshall-goldsmith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/marshall-goldsmith> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/feedforward> .
   <https://github.com/john1hsu/communication-graph/id/media-richness-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/message-equivocality-media-selection-and-manager-performance> .
+  <https://github.com/john1hsu/communication-graph/id/media-richness-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> .
   <https://github.com/john1hsu/communication-graph/id/media-richness-theory> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/channel-selection> .
   <https://github.com/john1hsu/communication-graph/id/media-richness-theory> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/message-equivocality-media-selection-and-manager-performance> .
   <https://github.com/john1hsu/communication-graph/id/media-sensitivity> <https://github.com/john1hsu/communication-graph/ontology#introducedIn> <https://github.com/john1hsu/communication-graph/id/message-equivocality-media-selection-and-manager-performance> .
@@ -5670,6 +5773,7 @@
   <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> .
   <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/proxemics> .
   <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/rapport> .
+  <https://github.com/john1hsu/communication-graph/id/nonverbal-overload> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> .
   <https://github.com/john1hsu/communication-graph/id/nonviolent-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/difficult-conversation> .
   <https://github.com/john1hsu/communication-graph/id/nonviolent-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/i-statements> .
   <https://github.com/john1hsu/communication-graph/id/nonviolent-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> .
@@ -5770,6 +5874,7 @@
   <https://github.com/john1hsu/communication-graph/id/project-aristotle> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
   <https://github.com/john1hsu/communication-graph/id/proxemics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/proxemics> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> .
+  <https://github.com/john1hsu/communication-graph/id/proxemics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/team-climate> .
@@ -5816,6 +5921,9 @@
   <https://github.com/john1hsu/communication-graph/id/richard-l-daft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/richard-l-daft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/richard-l-daft> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/message-equivocality-media-selection-and-manager-performance> .
+  <https://github.com/john1hsu/communication-graph/id/riedl-et-al-2023> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/riedl-et-al-2023> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
+  <https://github.com/john1hsu/communication-graph/id/riedl-et-al-2023> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> .
   <https://github.com/john1hsu/communication-graph/id/robert-h-lengel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/robert-h-lengel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/robert-h-lengel> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/message-equivocality-media-selection-and-manager-performance> .
@@ -5853,6 +5961,9 @@
   <https://github.com/john1hsu/communication-graph/id/sherman-kent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/sherman-kent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/sherman-kent> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability> .
+  <https://github.com/john1hsu/communication-graph/id/shockley-et-al-2021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/shockley-et-al-2021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
+  <https://github.com/john1hsu/communication-graph/id/shockley-et-al-2021> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> .
   <https://github.com/john1hsu/communication-graph/id/silent-messages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/silent-messages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
   <https://github.com/john1hsu/communication-graph/id/silent-messages> <https://github.com/john1hsu/communication-graph/ontology#introduces> <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> .
@@ -5896,6 +6007,7 @@
   <https://github.com/john1hsu/communication-graph/id/spotlight-effect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/spotlight-effect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/spotlight-effect> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/egocentric-bias> .
+  <https://github.com/john1hsu/communication-graph/id/spotlight-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> .
   <https://github.com/john1hsu/communication-graph/id/spotlight-effect> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/self-distancing> .
   <https://github.com/john1hsu/communication-graph/id/spotlight-effect> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/thomas-gilovich> .
   <https://github.com/john1hsu/communication-graph/id/stakeholder-consultation> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> .
@@ -5958,6 +6070,8 @@
   <https://github.com/john1hsu/communication-graph/id/victoria-medvec> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/victoria-medvec> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/thomas-gilovich> .
   <https://github.com/john1hsu/communication-graph/id/victoria-medvec> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers> .
+  <https://github.com/john1hsu/communication-graph/id/video-call-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> .
+  <https://github.com/john1hsu/communication-graph/id/video-call-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> .
   <https://github.com/john1hsu/communication-graph/id/video-call-communication> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/proxemics> .
   <https://github.com/john1hsu/communication-graph/id/weger-castle-emmett-2010> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> .
   <https://github.com/john1hsu/communication-graph/id/weger-castle-emmett-2010> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/paraphrasing> .
@@ -5985,7 +6099,9 @@
   <https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communicating-uncertainty> .
   <https://github.com/john1hsu/communication-graph/id/workplace-meetings> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> .
+  <https://github.com/john1hsu/communication-graph/id/workplace-meetings> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> .
   <https://github.com/john1hsu/communication-graph/id/workplace-meetings> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> .
+  <https://github.com/john1hsu/communication-graph/id/workplace-meetings> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> .
   <https://github.com/john1hsu/communication-graph/id/writing-for-dollars-writing-to-please> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/plain-language> .
   <https://github.com/john1hsu/communication-graph/id/writing-style-guide> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/effective-writing-for-army-leaders> .
   <https://github.com/john1hsu/communication-graph/id/writing-style-guide> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/effective-writing-for-army-leaders> .
@@ -5996,5 +6112,14 @@
   <https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/batna> .
   <https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/first-offer> .
   <https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers> .
+  <https://github.com/john1hsu/communication-graph/id/zoom-fatigue/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/zoom-fatigue/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/zoom-fatigue/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/zoom-fatigue/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/zoom-fatigue/check/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+  <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/video-call-communication> .
+  <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/workplace-meetings> .
   <https://github.com/john1hsu/communication-graph/id/zuckerman-et-al-1982> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> .
 }
