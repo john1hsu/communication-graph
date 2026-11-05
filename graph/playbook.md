@@ -123,6 +123,29 @@ Ask yourself:
 
 ## digital-and-async-communication
 
+### [Camera-optional norm](../articles/digital-and-async-communication/camera-optional-norm.md) — Technique
+
+1. List your recurring video meetings and decide for each whether faces add value - small working sessions, sensitive one-to-ones and first meetings with new people usually benefit; large updates, webinars and long all-hands rarely do.
+2. Agree the camera expectation for each meeting type with the team, write it in the invite or team charter, and say plainly that cameras-off is fine wherever video is not needed.
+3. Tell newer colleagues directly, in person or one-to-one, that turning the camera off will not count against them.
+4. Model it as the organiser - switch your own camera off for part of a long meeting or for audio-only segments, because people follow what they see others doing.
+5. Keep participation visible without video - ask people by name, use chat, reactions or a shared document, and agree that cameras-off still means no multitasking.
+6. When video is used, suggest hiding self-view once framing is set, and build in short audio-only breaks in meetings longer than about 45 minutes.
+
+*A team lead runs a daily 30-minute stand-up and two weekly hour-long planning calls for eight people, several of whom joined in the last three months.*
+
+| Before | After |
+|---|---|
+| Invite text - 'Cameras on please, it helps us stay connected.' The lead keeps a full gallery view, comments when a tile is dark, and the newest analysts never switch off even on their fourth call of the day. | Team charter line - 'Stand-up: cameras optional. Planning: cameras on for the first 10 minutes of check-in, optional after. 1:1s: your call.' The lead turns their own camera off after the check-in, calls on people by name, and tells new joiners in their first 1:1 that cameras-off is normal here. |
+
+**Why:** The expectation is explicit and tied to the purpose of each meeting, the lead's behaviour shows the norm is real, and the people under the most self-presentation pressure hear it said to them directly, while the check-in keeps the group connection that buffers fatigue.
+
+Ask yourself:
+- Have I said out loud, or written in the invite, whether cameras are expected in this meeting and why?
+- Would a new team member feel safe turning their camera off here, and have I told them so?
+- Am I modelling the norm, or does my own always-on camera quietly signal that video is required?
+- When cameras are off, do I still give everyone a clear way to contribute?
+
 ### [Channel selection](../articles/digital-and-async-communication/channel-selection.md) — Technique
 
 1. Name the job of the message in one line - is it mainly to pass on information the receiver can absorb alone (conveyance), or to agree on meaning, resolve disagreement or decide something together (convergence)?

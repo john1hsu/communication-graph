@@ -6,9 +6,7 @@ SPARQL queries in `queries/` run over the asserted graph, the OWL-RL inferences 
 
 _Which written barriers or anti-patterns have nothing in the graph that addresses them?_ — `queries/01-problems-without-fix.rq`
 
-| node | type |
-|---|---|
-| `cm:zoom-fatigue` | cmo:Barrier |
+_No results._
 
 ## Skills with no practice technique (gap)
 
@@ -38,6 +36,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:anxiety-reappraisal` | 1 | Public speaking anxiety |
 | `cm:audience-analysis` | 1 | Curse of knowledge |
 | `cm:bottom-line-up-front` | 1 | burying-the-lede |
+| `cm:camera-optional-norm` | 1 | Zoom fatigue |
 | `cm:feedforward` | 1 | Defensiveness |
 | `cm:humble-inquiry` | 1 | telling-instead-of-asking |
 | `cm:issue-selling` | 1 | Managing up |
@@ -85,7 +84,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:stakeholder-consultation` | `cm:nominal-group-technique` |
 | `cm:status-reporting` | `cm:managing-up` |
 
-…and 1 more.
+…and 2 more.
 
 ## Myths and contested advice
 
@@ -101,6 +100,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:active-listening` | mixed |  |
 | `cm:active-voice` | mixed | `cm:fear-and-loathing-of-the-english-passive` |
 | `cm:batna` | mixed | `cm:schaerer-swaab-galinsky-2015` |
+| `cm:camera-optional-norm` | mixed | `cm:bennett-et-al-2021` |
 | `cm:channel-selection` | mixed | `cm:dennis-kinney-1998` |
 | `cm:curse-of-knowledge` | mixed | `cm:ryskin-brown-schmidt-2014` |
 | `cm:defensiveness` | mixed | `cm:forward-czech-lee-2011` |
@@ -122,9 +122,8 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:proxemics` | mixed |  |
 | `cm:psychological-safety` | mixed | `cm:pearsall-ellis-2011` |
 | `cm:rapport` | mixed |  |
-| `cm:self-distancing` | mixed |  |
 
-…and 5 more.
+…and 6 more.
 
 ## Concepts with no recorded origin (gap)
 

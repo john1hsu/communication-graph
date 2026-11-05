@@ -607,6 +607,90 @@
    ]
   },
   {
+   "@id": "cm:camera-optional-norm",
+   "@type": "cmo:Technique",
+   "cmo:addresses": {
+    "@id": "cm:zoom-fatigue"
+   },
+   "cmo:appliedIn": {
+    "@id": "cm:video-call-communication"
+   },
+   "cmo:challengedBy": {
+    "@id": "cm:bennett-et-al-2021"
+   },
+   "cmo:domain": "digital-and-async-communication",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/camera-optional-norm/example"
+   },
+   "cmo:explainedBy": {
+    "@id": "cm:self-presentation-theory"
+   },
+   "cmo:file": "articles/digital-and-async-communication/camera-optional-norm.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/camera-optional-norm/howto"
+   },
+   "cmo:introducedBy": {
+    "@id": "cm:jeremy-bailenson"
+   },
+   "cmo:level": "introductory",
+   "cmo:supportedBy": {
+    "@id": "cm:shockley-et-al-2021"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/camera-optional-norm/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/camera-optional-norm/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/camera-optional-norm/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/camera-optional-norm/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/camera-optional-norm/s5"
+    }
+   ],
+   "rdfs:label": "Camera-optional norm",
+   "skos:altLabel": [
+    "camera-optional meetings",
+    "cameras-optional policy",
+    "video-off option"
+   ],
+   "skos:broader": {
+    "@id": "cm:meeting-norms"
+   },
+   "skos:definition": "An explicit team agreement that webcams are a choice rather than a requirement in video meetings, set per meeting type and modelled by the person running the meeting, so people can rest from being on camera without being judged for it.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/digital-and-async-communication"
+   },
+   "skos:prefLabel": "Camera-optional norm",
+   "skos:related": [
+    {
+     "@id": "cm:channel-selection"
+    },
+    {
+     "@id": "cm:psychological-safety"
+    },
+    {
+     "@id": "cm:spotlight-effect"
+    },
+    {
+     "@id": "cm:workplace-meetings"
+    },
+    {
+     "@id": "cm:zoom-fatigue"
+    }
+   ]
+  },
+  {
    "@id": "cm:channel-selection",
    "@type": "cmo:Technique",
    "cmo:appliedIn": {
@@ -4937,6 +5021,107 @@
    "schema:text": "Decide deliberately whether this message is an exception - serious bad news or a reader who expects context first - and if so use an indirect structure on purpose rather than by habit."
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/camera-optional-norm/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:camera-optional-norm"
+   },
+   "rdfs:label": "Have I said out loud, or written in the invite, whether cameras are expected in this meeting and why?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/camera-optional-norm/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:camera-optional-norm"
+   },
+   "rdfs:label": "Would a new team member feel safe turning their camera off here, and have I told them so?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/camera-optional-norm/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:camera-optional-norm"
+   },
+   "rdfs:label": "Am I modelling the norm, or does my own always-on camera quietly signal that video is required?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/camera-optional-norm/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:camera-optional-norm"
+   },
+   "rdfs:label": "When cameras are off, do I still give everyone a clear way to contribute?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/camera-optional-norm/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "Team charter line - 'Stand-up: cameras optional. Planning: cameras on for the first 10 minutes of check-in, optional after. 1:1s: your call.' The lead turns their own camera off after the check-in, calls on people by name, and tells new joiners in their first 1:1 that cameras-off is normal here.",
+   "cmo:before": "Invite text - 'Cameras on please, it helps us stay connected.' The lead keeps a full gallery view, comments when a tile is dark, and the newest analysts never switch off even on their fourth call of the day.",
+   "cmo:situation": "A team lead runs a daily 30-minute stand-up and two weekly hour-long planning calls for eight people, several of whom joined in the last three months.",
+   "cmo:why": "The expectation is explicit and tied to the purpose of each meeting, the lead's behaviour shows the norm is real, and the people under the most self-presentation pressure hear it said to them directly, while the check-in keeps the group connection that buffers fatigue."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/camera-optional-norm/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Camera-optional norm",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/camera-optional-norm/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/camera-optional-norm/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/camera-optional-norm/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/camera-optional-norm/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/camera-optional-norm/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/camera-optional-norm/howto/6"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/camera-optional-norm/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "List your recurring video meetings and decide for each whether faces add value - small working sessions, sensitive one-to-ones and first meetings with new people usually benefit; large updates, webinars and long all-hands rarely do."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/camera-optional-norm/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Agree the camera expectation for each meeting type with the team, write it in the invite or team charter, and say plainly that cameras-off is fine wherever video is not needed."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/camera-optional-norm/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Tell newer colleagues directly, in person or one-to-one, that turning the camera off will not count against them."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/camera-optional-norm/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Model it as the organiser - switch your own camera off for part of a long meeting or for audio-only segments, because people follow what they see others doing."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/camera-optional-norm/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Keep participation visible without video - ask people by name, use chat, reactions or a shared document, and agree that cameras-off still means no multitasking."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/camera-optional-norm/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "When video is used, suggest hiding self-view once framing is set, and build in short audio-only breaks in meetings longer than about 45 minutes."
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/channel-selection/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -7217,6 +7402,76 @@
    "dcterms:title": "4.6 Direct and Indirect Negative Messaging",
    "schema:url": {
     "@id": "https://pressbooks.atlanticoer-relatlantique.ca/businesscommunication/chapter/4-direct-and-indirect-negative-messaging/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/camera-optional-norm/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Shockley, Gabriel, Robertson, Rosen, Chawla, Ganster & Ezerins, Journal of Applied Psychology 106(8), 1137-1155, 2021 (University of Arizona research record)",
+   "dcterms:title": "The fatiguing effects of camera use in virtual meetings: A within-person field experiment",
+   "schema:url": {
+    "@id": "https://experts.arizona.edu/en/publications/the-fatiguing-effects-of-camera-use-in-virtual-meetings-a-within-/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/camera-optional-norm/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Stanford University News, February 2021 (on Bailenson, Technology, Mind, and Behavior, 2021)",
+   "dcterms:title": "Stanford researchers identify four causes for 'Zoom fatigue' and their simple fixes",
+   "schema:url": {
+    "@id": "https://news.stanford.edu/2021/02/23/four-causes-zoom-fatigue-solutions/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/camera-optional-norm/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Roy Maurer, Society for Human Resource Management (SHRM), November 2021",
+   "dcterms:title": "Study: Camera Use in Virtual Meetings Leads to Fatigue, Disengagement",
+   "schema:url": {
+    "@id": "https://shrm.org/topics-tools/news/study-camera-use-virtual-meetings-leads-to-fatigue-disengagement"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/camera-optional-norm/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "American Psychological Association press release on Bennett, Campion, Keener & Keeler, Journal of Applied Psychology, April 2021",
+   "dcterms:title": "Videoconferences more exhausting when participants don't feel group belonging",
+   "schema:url": {
+    "@id": "https://www.apa.org/news/press/releases/2021/04/videoconferences-fatigue"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/camera-optional-norm/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Zabel, Vinan Navas & Otto, Frontiers in Psychology, 2022",
+   "dcterms:title": "Social norms and webcam use in online meetings",
+   "schema:url": {
+    "@id": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2022.907405/pdf"
    }
   },
   {

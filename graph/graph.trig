@@ -94,6 +94,14 @@
 <https://github.com/john1hsu/communication-graph/id/i-statements#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/i-statements/s4> .
 <https://github.com/john1hsu/communication-graph/id/i-statements#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/i-statements/s5> .
 <https://github.com/john1hsu/communication-graph/id/i-statements#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/i-statements/s6> .
+<https://github.com/john1hsu/communication-graph/id/camera-optional-norm#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/camera-optional-norm#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> .
+<https://github.com/john1hsu/communication-graph/id/camera-optional-norm#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/digital-and-async-communication/camera-optional-norm.md" .
+<https://github.com/john1hsu/communication-graph/id/camera-optional-norm#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/camera-optional-norm/s1> .
+<https://github.com/john1hsu/communication-graph/id/camera-optional-norm#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/camera-optional-norm/s2> .
+<https://github.com/john1hsu/communication-graph/id/camera-optional-norm#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/camera-optional-norm/s3> .
+<https://github.com/john1hsu/communication-graph/id/camera-optional-norm#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/camera-optional-norm/s4> .
+<https://github.com/john1hsu/communication-graph/id/camera-optional-norm#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/camera-optional-norm/s5> .
 <https://github.com/john1hsu/communication-graph/id/channel-selection#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/channel-selection#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/channel-selection> .
 <https://github.com/john1hsu/communication-graph/id/channel-selection#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/digital-and-async-communication/channel-selection.md" .
@@ -1370,6 +1378,114 @@
   <https://github.com/john1hsu/communication-graph/id/source/i-statements/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
   <https://github.com/john1hsu/communication-graph/id/source/i-statements/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
   <https://github.com/john1hsu/communication-graph/id/source/i-statements/s6> <https://schema.org/url> <https://www.gordontraining.com/?p=69> .
+}
+
+<https://github.com/john1hsu/communication-graph/id/camera-optional-norm#graph> {
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Have I said out loud, or written in the invite, whether cameras are expected in this meeting and why?" .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Would a new team member feel safe turning their camera off here, and have I told them so?" .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Am I modelling the norm, or does my own always-on camera quietly signal that video is required?" .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "When cameras are off, do I still give everyone a clear way to contribute?" .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm/example> <https://github.com/john1hsu/communication-graph/ontology#after> "Team charter line - 'Stand-up: cameras optional. Planning: cameras on for the first 10 minutes of check-in, optional after. 1:1s: your call.' The lead turns their own camera off after the check-in, calls on people by name, and tells new joiners in their first 1:1 that cameras-off is normal here." .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm/example> <https://github.com/john1hsu/communication-graph/ontology#before> "Invite text - 'Cameras on please, it helps us stay connected.' The lead keeps a full gallery view, comments when a tile is dark, and the newest analysts never switch off even on their fourth call of the day." .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "A team lead runs a daily 30-minute stand-up and two weekly hour-long planning calls for eight people, several of whom joined in the last three months." .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm/example> <https://github.com/john1hsu/communication-graph/ontology#why> "The expectation is explicit and tied to the purpose of each meeting, the lead's behaviour shows the norm is real, and the people under the most self-presentation pressure hear it said to them directly, while the check-in keeps the group connection that buffers fatigue." .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm/howto/1> <https://schema.org/text> "List your recurring video meetings and decide for each whether faces add value - small working sessions, sensitive one-to-ones and first meetings with new people usually benefit; large updates, webinars and long all-hands rarely do." .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm/howto/2> <https://schema.org/text> "Agree the camera expectation for each meeting type with the team, write it in the invite or team charter, and say plainly that cameras-off is fine wherever video is not needed." .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm/howto/3> <https://schema.org/text> "Tell newer colleagues directly, in person or one-to-one, that turning the camera off will not count against them." .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm/howto/4> <https://schema.org/text> "Model it as the organiser - switch your own camera off for part of a long meeting or for audio-only segments, because people follow what they see others doing." .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm/howto/5> <https://schema.org/text> "Keep participation visible without video - ask people by name, use chat, reactions or a shared document, and agree that cameras-off still means no multitasking." .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm/howto/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm/howto/6> <https://schema.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm/howto/6> <https://schema.org/text> "When video is used, suggest hiding self-view once framing is set, and build in short audio-only breaks in meetings longer than about 45 minutes." .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm/howto> <https://schema.org/name> "Camera-optional norm" .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/camera-optional-norm/howto/1> .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/camera-optional-norm/howto/2> .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/camera-optional-norm/howto/3> .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/camera-optional-norm/howto/4> .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/camera-optional-norm/howto/5> .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/camera-optional-norm/howto/6> .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> <http://purl.org/dc/terms/created> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Technique> .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> <http://www.w3.org/2000/01/rdf-schema#label> "Camera-optional norm" .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> <http://www.w3.org/2004/02/skos/core#altLabel> "camera-optional meetings" .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> <http://www.w3.org/2004/02/skos/core#altLabel> "cameras-optional policy" .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> <http://www.w3.org/2004/02/skos/core#altLabel> "video-off option" .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/meeting-norms> .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> <http://www.w3.org/2004/02/skos/core#definition> "An explicit team agreement that webcams are a choice rather than a requirement in video meetings, set per meeting type and modelled by the person running the meeting, so people can rest from being on camera without being judged for it." .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/digital-and-async-communication> .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> <http://www.w3.org/2004/02/skos/core#prefLabel> "Camera-optional norm" .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/channel-selection> .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/spotlight-effect> .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/workplace-meetings> .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/camera-optional-norm/s1> .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/camera-optional-norm/s2> .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/camera-optional-norm/s3> .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/camera-optional-norm/s4> .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/camera-optional-norm/s5> .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/video-call-communication> .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/bennett-et-al-2021> .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> <https://github.com/john1hsu/communication-graph/ontology#domain> "digital-and-async-communication" .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/camera-optional-norm/example> .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/self-presentation-theory> .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/digital-and-async-communication/camera-optional-norm.md" .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/camera-optional-norm/howto> .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/jeremy-bailenson> .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/shockley-et-al-2021> .
+  <https://github.com/john1hsu/communication-graph/id/source/camera-optional-norm/s1> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/camera-optional-norm/s1> <http://purl.org/dc/terms/publisher> "Shockley, Gabriel, Robertson, Rosen, Chawla, Ganster & Ezerins, Journal of Applied Psychology 106(8), 1137-1155, 2021 (University of Arizona research record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/camera-optional-norm/s1> <http://purl.org/dc/terms/title> "The fatiguing effects of camera use in virtual meetings: A within-person field experiment" .
+  <https://github.com/john1hsu/communication-graph/id/source/camera-optional-norm/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/camera-optional-norm/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/camera-optional-norm/s1> <https://schema.org/url> <https://experts.arizona.edu/en/publications/the-fatiguing-effects-of-camera-use-in-virtual-meetings-a-within-/> .
+  <https://github.com/john1hsu/communication-graph/id/source/camera-optional-norm/s2> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/camera-optional-norm/s2> <http://purl.org/dc/terms/publisher> "Stanford University News, February 2021 (on Bailenson, Technology, Mind, and Behavior, 2021)" .
+  <https://github.com/john1hsu/communication-graph/id/source/camera-optional-norm/s2> <http://purl.org/dc/terms/title> "Stanford researchers identify four causes for 'Zoom fatigue' and their simple fixes" .
+  <https://github.com/john1hsu/communication-graph/id/source/camera-optional-norm/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/camera-optional-norm/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/communication-graph/id/source/camera-optional-norm/s2> <https://schema.org/url> <https://news.stanford.edu/2021/02/23/four-causes-zoom-fatigue-solutions/> .
+  <https://github.com/john1hsu/communication-graph/id/source/camera-optional-norm/s3> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/camera-optional-norm/s3> <http://purl.org/dc/terms/publisher> "Roy Maurer, Society for Human Resource Management (SHRM), November 2021" .
+  <https://github.com/john1hsu/communication-graph/id/source/camera-optional-norm/s3> <http://purl.org/dc/terms/title> "Study: Camera Use in Virtual Meetings Leads to Fatigue, Disengagement" .
+  <https://github.com/john1hsu/communication-graph/id/source/camera-optional-norm/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/camera-optional-norm/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+  <https://github.com/john1hsu/communication-graph/id/source/camera-optional-norm/s3> <https://schema.org/url> <https://shrm.org/topics-tools/news/study-camera-use-virtual-meetings-leads-to-fatigue-disengagement> .
+  <https://github.com/john1hsu/communication-graph/id/source/camera-optional-norm/s4> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/camera-optional-norm/s4> <http://purl.org/dc/terms/publisher> "American Psychological Association press release on Bennett, Campion, Keener & Keeler, Journal of Applied Psychology, April 2021" .
+  <https://github.com/john1hsu/communication-graph/id/source/camera-optional-norm/s4> <http://purl.org/dc/terms/title> "Videoconferences more exhausting when participants don't feel group belonging" .
+  <https://github.com/john1hsu/communication-graph/id/source/camera-optional-norm/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/camera-optional-norm/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+  <https://github.com/john1hsu/communication-graph/id/source/camera-optional-norm/s4> <https://schema.org/url> <https://www.apa.org/news/press/releases/2021/04/videoconferences-fatigue> .
+  <https://github.com/john1hsu/communication-graph/id/source/camera-optional-norm/s5> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/camera-optional-norm/s5> <http://purl.org/dc/terms/publisher> "Zabel, Vinan Navas & Otto, Frontiers in Psychology, 2022" .
+  <https://github.com/john1hsu/communication-graph/id/source/camera-optional-norm/s5> <http://purl.org/dc/terms/title> "Social norms and webcam use in online meetings" .
+  <https://github.com/john1hsu/communication-graph/id/source/camera-optional-norm/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/camera-optional-norm/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/camera-optional-norm/s5> <https://schema.org/url> <https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2022.907405/pdf> .
 }
 
 <https://github.com/john1hsu/communication-graph/id/channel-selection#graph> {
@@ -5173,6 +5289,7 @@
   <https://github.com/john1hsu/communication-graph/id/batna> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/first-offer> .
   <https://github.com/john1hsu/communication-graph/id/batna> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers> .
   <https://github.com/john1hsu/communication-graph/id/beltzer-et-al-2014> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> .
+  <https://github.com/john1hsu/communication-graph/id/bennett-et-al-2021> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> .
   <https://github.com/john1hsu/communication-graph/id/bennett-et-al-2021> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> .
   <https://github.com/john1hsu/communication-graph/id/berg-et-al-2019> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/open-ended-questions> .
   <https://github.com/john1hsu/communication-graph/id/beyond-culture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -5208,6 +5325,14 @@
   <https://github.com/john1hsu/communication-graph/id/budworth-latham-manroop-2015> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/feedforward> .
   <https://github.com/john1hsu/communication-graph/id/burgoon-1978> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/proxemics> .
   <https://github.com/john1hsu/communication-graph/id/burying-the-lede> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/meeting-norms> .
   <https://github.com/john1hsu/communication-graph/id/camerer-loewenstein-weber-1989> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/camerer-loewenstein-weber-1989> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/camerer-loewenstein-weber-1989> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/george-loewenstein> .
@@ -5226,6 +5351,7 @@
   <https://github.com/john1hsu/communication-graph/id/channel-selection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/channel-selection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/channel-selection> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-planning> .
+  <https://github.com/john1hsu/communication-graph/id/channel-selection> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> .
   <https://github.com/john1hsu/communication-graph/id/channel-selection> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/email> .
   <https://github.com/john1hsu/communication-graph/id/channel-selection> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/managing-up> .
   <https://github.com/john1hsu/communication-graph/id/channel-selection> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> .
@@ -5626,6 +5752,9 @@
   <https://github.com/john1hsu/communication-graph/id/janet-bennett> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/janet-bennett> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate> .
   <https://github.com/john1hsu/communication-graph/id/jargon> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/plain-language> .
+  <https://github.com/john1hsu/communication-graph/id/jeremy-bailenson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/jeremy-bailenson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+  <https://github.com/john1hsu/communication-graph/id/jeremy-bailenson> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> .
   <https://github.com/john1hsu/communication-graph/id/jeremy-jamieson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/jeremy-jamieson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/jeremy-jamieson> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> .
@@ -5712,6 +5841,8 @@
   <https://github.com/john1hsu/communication-graph/id/media-sensitivity> <https://github.com/john1hsu/communication-graph/ontology#introducedIn> <https://github.com/john1hsu/communication-graph/id/message-equivocality-media-selection-and-manager-performance> .
   <https://github.com/john1hsu/communication-graph/id/media-synchronicity-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/message-equivocality-media-selection-and-manager-performance> .
   <https://github.com/john1hsu/communication-graph/id/media-synchronicity-theory> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/channel-selection> .
+  <https://github.com/john1hsu/communication-graph/id/meeting-norms> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> .
+  <https://github.com/john1hsu/communication-graph/id/meeting-norms> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> .
   <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> .
   <https://github.com/john1hsu/communication-graph/id/memorandum> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/effective-writing-for-army-leaders> .
@@ -5879,6 +6010,7 @@
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/team-climate> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+  <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/issue-selling> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/managing-up> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> .
@@ -5955,6 +6087,7 @@
   <https://github.com/john1hsu/communication-graph/id/self-distancing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/self-distancing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/self-distancing> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/emotion-regulation> .
+  <https://github.com/john1hsu/communication-graph/id/self-presentation-theory> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> .
   <https://github.com/john1hsu/communication-graph/id/selling-issues-to-top-management> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/selling-issues-to-top-management> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
   <https://github.com/john1hsu/communication-graph/id/selling-issues-to-top-management> <https://github.com/john1hsu/communication-graph/ontology#introduces> <https://github.com/john1hsu/communication-graph/id/issue-selling> .
@@ -5964,6 +6097,7 @@
   <https://github.com/john1hsu/communication-graph/id/shockley-et-al-2021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/shockley-et-al-2021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/shockley-et-al-2021> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> .
+  <https://github.com/john1hsu/communication-graph/id/shockley-et-al-2021> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> .
   <https://github.com/john1hsu/communication-graph/id/silent-messages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/silent-messages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
   <https://github.com/john1hsu/communication-graph/id/silent-messages> <https://github.com/john1hsu/communication-graph/ontology#introduces> <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> .
@@ -6007,6 +6141,7 @@
   <https://github.com/john1hsu/communication-graph/id/spotlight-effect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/spotlight-effect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/spotlight-effect> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/egocentric-bias> .
+  <https://github.com/john1hsu/communication-graph/id/spotlight-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> .
   <https://github.com/john1hsu/communication-graph/id/spotlight-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> .
   <https://github.com/john1hsu/communication-graph/id/spotlight-effect> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/self-distancing> .
   <https://github.com/john1hsu/communication-graph/id/spotlight-effect> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/thomas-gilovich> .
@@ -6072,6 +6207,7 @@
   <https://github.com/john1hsu/communication-graph/id/victoria-medvec> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers> .
   <https://github.com/john1hsu/communication-graph/id/video-call-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> .
   <https://github.com/john1hsu/communication-graph/id/video-call-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> .
+  <https://github.com/john1hsu/communication-graph/id/video-call-communication> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> .
   <https://github.com/john1hsu/communication-graph/id/video-call-communication> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/proxemics> .
   <https://github.com/john1hsu/communication-graph/id/weger-castle-emmett-2010> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> .
   <https://github.com/john1hsu/communication-graph/id/weger-castle-emmett-2010> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/paraphrasing> .
@@ -6102,6 +6238,7 @@
   <https://github.com/john1hsu/communication-graph/id/workplace-meetings> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> .
   <https://github.com/john1hsu/communication-graph/id/workplace-meetings> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> .
   <https://github.com/john1hsu/communication-graph/id/workplace-meetings> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> .
+  <https://github.com/john1hsu/communication-graph/id/workplace-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> .
   <https://github.com/john1hsu/communication-graph/id/writing-for-dollars-writing-to-please> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/plain-language> .
   <https://github.com/john1hsu/communication-graph/id/writing-style-guide> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/effective-writing-for-army-leaders> .
   <https://github.com/john1hsu/communication-graph/id/writing-style-guide> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/effective-writing-for-army-leaders> .
@@ -6121,5 +6258,7 @@
   <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/video-call-communication> .
   <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/workplace-meetings> .
+  <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> .
+  <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> .
   <https://github.com/john1hsu/communication-graph/id/zuckerman-et-al-1982> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> .
 }
