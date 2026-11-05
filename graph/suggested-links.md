@@ -5,27 +5,27 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | Score | Node A | Node B | Shared neighbours |
 |---|---|---|---|
 | 2.84 | `cm:difficult-conversation` | `cm:situation-behavior-impact` | `cm:active-listening`, `cm:defensiveness`, `cm:feedback`, `cm:i-statements`, `cm:nonviolent-communication` |
-| 2.52 | `cm:anxiety-reappraisal` | `cm:spotlight-effect` | `cm:illusion-of-transparency`, `cm:macinnis-mackinnon-macintyre-2010`, `cm:self-distancing`, `cm:social-anxiety`, `cm:speaking-anxiety` |
+| 2.51 | `cm:anxiety-reappraisal` | `cm:spotlight-effect` | `cm:illusion-of-transparency`, `cm:macinnis-mackinnon-macintyre-2010`, `cm:self-distancing`, `cm:social-anxiety`, `cm:speaking-anxiety` |
 | 2.35 | `cm:one-on-one-meetings` | `cm:zoom-fatigue` | `cm:employee-engagement`, `cm:workplace-meetings` |
 | 2.24 | `cm:active-listening` | `cm:feedback` | `cm:defensiveness`, `cm:difficult-conversation`, `cm:feedforward`, `cm:one-on-one-meetings`, `cm:psychological-safety` |
 | 2.22 | `cm:i-statements` | `cm:weger-et-al-2014` | `cm:active-listening`, `cm:paraphrasing`, `cm:thomas-gordon` |
 | 2.20 | `cm:illusion-of-transparency` | `cm:plain-language` | `cm:clarity`, `cm:curse-of-knowledge`, `cm:email`, `cm:teach-back`, `cm:words-of-estimative-probability` |
 | 2.18 | `cm:humble-inquiry` | `cm:weger-et-al-2014` | `cm:active-listening`, `cm:advice-giving`, `cm:open-ended-questions` |
 | 2.17 | `cm:one-on-one-meetings` | `cm:situation-behavior-impact` | `cm:active-listening`, `cm:feedback`, `cm:feedforward`, `cm:kluger-denisi-1996`, `cm:performance-review` |
-| 2.15 | `cm:managing-up` | `cm:message-equivocality-media-selection-and-manager-performance` | `cm:audience-analysis`, `cm:channel-selection`, `cm:organizational-communication` |
+| 2.14 | `cm:managing-up` | `cm:message-equivocality-media-selection-and-manager-performance` | `cm:audience-analysis`, `cm:channel-selection`, `cm:organizational-communication` |
 | 1.97 | `cm:email` | `cm:zoom-fatigue` | `cm:asynchronous-communication`, `cm:channel-selection`, `cm:information-overload` |
 | 1.97 | `cm:ray-tomlinson` | `cm:zoom-fatigue` | `cm:asynchronous-communication`, `cm:channel-selection`, `cm:information-overload` |
 | 1.85 | `cm:proxemics` | `cm:the-culture-map` | `cm:edward-t-hall`, `cm:high-and-low-context-cultures`, `cm:intercultural-communication` |
-| 1.79 | `cm:issue-selling` | `cm:words-of-estimative-probability` | `cm:bottom-line-up-front`, `cm:executive-briefing` |
+| 1.78 | `cm:issue-selling` | `cm:words-of-estimative-probability` | `cm:bottom-line-up-front`, `cm:executive-briefing` |
 | 1.72 | `cm:george-loewenstein` | `cm:spotlight-effect` | `cm:curse-of-knowledge`, `cm:egocentric-bias`, `cm:illusion-of-transparency`, `cm:thomas-gilovich` |
 | 1.71 | `cm:describe-analyze-evaluate` | `cm:the-culture-map` | `cm:direct-vs-indirect-feedback`, `cm:ethnocentrism`, `cm:high-and-low-context-cultures`, `cm:intercultural-communication` |
 | 1.64 | `cm:mehrabian-myth` | `cm:rapport` | `cm:channel-selection`, `cm:nonverbal-communication`, `cm:proxemics` |
 | 1.60 | `cm:one-on-one-meetings` | `cm:rapport` | `cm:active-listening`, `cm:interpersonal-communication`, `cm:psychological-safety` |
 | 1.55 | `cm:defensiveness` | `cm:direct-vs-indirect-feedback` | `cm:feedback`, `cm:feedforward`, `cm:i-statements`, `cm:situation-behavior-impact` |
+| 1.55 | `cm:audience-analysis` | `cm:illusion-of-transparency` | `cm:communicating-uncertainty`, `cm:curse-of-knowledge`, `cm:email`, `cm:george-loewenstein` |
 | 1.51 | `cm:feedback` | `cm:i-statements` | `cm:defensiveness`, `cm:difficult-conversation`, `cm:direct-vs-indirect-feedback`, `cm:situation-behavior-impact` |
 | 1.51 | `cm:feedforward` | `cm:i-statements` | `cm:active-listening`, `cm:defensiveness`, `cm:direct-vs-indirect-feedback`, `cm:situation-behavior-impact` |
 | 1.50 | `cm:defensiveness` | `cm:paraphrasing` | `cm:active-listening`, `cm:difficult-conversation`, `cm:i-statements`, `cm:situation-behavior-impact` |
-| 1.49 | `cm:macinnis-mackinnon-macintyre-2010` | `cm:self-distancing` | `cm:anxiety-reappraisal`, `cm:illusion-of-transparency`, `cm:speaking-anxiety`, `cm:spotlight-effect` |
 | 1.49 | `cm:feedforward` | `cm:psychological-safety` | `cm:active-listening`, `cm:defensiveness`, `cm:feedback`, `cm:one-on-one-meetings` |
-| 1.48 | `cm:channel-selection` | `cm:issue-selling` | `cm:audience-analysis`, `cm:bottom-line-up-front`, `cm:managing-up`, `cm:stakeholder-mapping` |
+| 1.49 | `cm:macinnis-mackinnon-macintyre-2010` | `cm:self-distancing` | `cm:anxiety-reappraisal`, `cm:illusion-of-transparency`, `cm:speaking-anxiety`, `cm:spotlight-effect` |
 | 1.46 | `cm:defensiveness` | `cm:one-on-one-meetings` | `cm:active-listening`, `cm:feedback`, `cm:feedforward`, `cm:psychological-safety` |

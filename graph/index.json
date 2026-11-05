@@ -910,6 +910,106 @@
   ]
  },
  {
+  "id": "cm:communicating-uncertainty",
+  "title": "Communicating uncertainty to decision makers",
+  "aliases": [
+   "uncertainty communication",
+   "expressing uncertainty",
+   "conveying what is and is not known"
+  ],
+  "type": "Skill",
+  "domain": "executive-and-client-communication",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/executive-and-client-communication/communicating-uncertainty.md",
+  "created": "2026-11-05",
+  "summary": "The skill of telling the people who must decide what you know, how precisely you know it, how solid the evidence is and what you are doing to learn more - stated as specifically as your knowledge allows rather than hidden, hedged into vagueness or inflated into false certainty.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:risk-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:credibility"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:bottom-line-up-front"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:managing-up"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:delivering-bad-news"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:illusion-of-transparency"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:status-reporting"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:audience-analysis"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:vague-probability-language",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:van-der-bles-et-al-2020",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:gustafson-rice-2020",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:crisis-communication",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedIn",
+    "object": "cm:van-der-bles-et-al-2019",
+    "source": "s1",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Have I given a number or range where I have one, instead of a word like \"probably\" or \"should be fine\"?",
+   "Have I said separately how good the evidence behind my estimate is?",
+   "Have I told them what we do not yet know, what we are doing to find out and when we will know?",
+   "Am I presenting real disagreement among experts or data as such, rather than smoothing it over or overplaying it?",
+   "Is the uncertainty in the sentence that carries the estimate, not in a footnote or a later slide?"
+  ],
+  "steps": [],
+  "example": {
+   "situation": "A product lead tells the leadership team how many customers a pricing change will cost.",
+   "before": "Churn should be fine - we don't expect much impact, though obviously nobody can be sure.",
+   "after": "Our best estimate is that 3% of accounts cancel in the first quarter, with a plausible range of 1-6%. The estimate rests on a four-week pilot in one region, so confidence is moderate. We will know much more after the second region's renewals on 15 March; until then I'd budget for 6%.",
+   "why": "The before version mixes false reassurance with a blanket hedge, so leaders can neither plan nor challenge it; the after version gives a point estimate, a range, the quality of the evidence and when it will improve, which is what a decision needs."
+  },
+  "source_urls": [
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC6549952",
+   "https://core.ac.uk/download/305110478.pdf",
+   "https://rrice.faculty.comm.ucsb.edu/A149GustafsonRice2020ReviewEffectsUncertaintyPublicScienceCommunication.pdf",
+   "https://emergency-origin.cdc.gov/cerc/training/pdf/COVID19_CERC.pdf"
+  ]
+ },
+ {
   "id": "cm:curse-of-knowledge",
   "title": "Curse of knowledge",
   "aliases": [

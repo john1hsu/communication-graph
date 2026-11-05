@@ -12,7 +12,9 @@ _No results._
 
 _Which written skills or dispositions have no technique, framework or principle that develops them?_ — `queries/02-skills-without-practice.rq`
 
-_No results._
+| skill | type |
+|---|---|
+| `cm:communicating-uncertainty` | cmo:Skill |
 
 ## Situations, channels and formats with no guidance (gap)
 
@@ -37,6 +39,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:audience-analysis` | 1 | Curse of knowledge |
 | `cm:bottom-line-up-front` | 1 | burying-the-lede |
 | `cm:camera-optional-norm` | 1 | Zoom fatigue |
+| `cm:communicating-uncertainty` | 1 | vague-probability-language |
 | `cm:feedforward` | 1 | Defensiveness |
 | `cm:humble-inquiry` | 1 | telling-instead-of-asking |
 | `cm:issue-selling` | 1 | Managing up |
@@ -54,6 +57,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | situation | technique |
 |---|---|
 | `cm:communication-plan` | `cm:stakeholder-mapping` |
+| `cm:crisis-communication` | `cm:communicating-uncertainty` |
 | `cm:cross-functional-collaboration` | `cm:influence-without-authority` |
 | `cm:difficult-conversation` | `cm:active-listening` |
 | `cm:difficult-conversation` | `cm:i-statements` |
@@ -82,9 +86,8 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:salary-negotiation` | `cm:first-offer` |
 | `cm:salary-negotiation` | `cm:multiple-equivalent-simultaneous-offers` |
 | `cm:stakeholder-consultation` | `cm:nominal-group-technique` |
-| `cm:status-reporting` | `cm:managing-up` |
 
-…and 2 more.
+…and 3 more.
 
 ## Myths and contested advice
 
@@ -102,6 +105,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:batna` | mixed | `cm:schaerer-swaab-galinsky-2015` |
 | `cm:camera-optional-norm` | mixed | `cm:bennett-et-al-2021` |
 | `cm:channel-selection` | mixed | `cm:dennis-kinney-1998` |
+| `cm:communicating-uncertainty` | mixed |  |
 | `cm:curse-of-knowledge` | mixed | `cm:ryskin-brown-schmidt-2014` |
 | `cm:defensiveness` | mixed | `cm:forward-czech-lee-2011` |
 | `cm:direct-vs-indirect-feedback` | mixed | `cm:brew-cairns-2004` |
@@ -121,9 +125,8 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:paraphrasing` | mixed | `cm:weger-castle-emmett-2010` |
 | `cm:plain-language` | mixed |  |
 | `cm:proxemics` | mixed |  |
-| `cm:psychological-safety` | mixed | `cm:pearsall-ellis-2011` |
 
-…and 7 more.
+…and 8 more.
 
 ## Concepts with no recorded origin (gap)
 

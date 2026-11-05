@@ -785,6 +785,87 @@
    ]
   },
   {
+   "@id": "cm:communicating-uncertainty",
+   "@type": "cmo:Skill",
+   "cmo:addresses": {
+    "@id": "cm:vague-probability-language"
+   },
+   "cmo:appliedIn": {
+    "@id": "cm:crisis-communication"
+   },
+   "cmo:demonstratedBy": {
+    "@id": "cm:van-der-bles-et-al-2020"
+   },
+   "cmo:domain": "executive-and-client-communication",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/communicating-uncertainty/example"
+   },
+   "cmo:file": "articles/executive-and-client-communication/communicating-uncertainty.md",
+   "cmo:introducedIn": {
+    "@id": "cm:van-der-bles-et-al-2019"
+   },
+   "cmo:level": "intermediate",
+   "cmo:requires": {
+    "@id": "cm:audience-analysis"
+   },
+   "cmo:supportedBy": {
+    "@id": "cm:gustafson-rice-2020"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/communicating-uncertainty/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/communicating-uncertainty/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/communicating-uncertainty/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/communicating-uncertainty/s4"
+    }
+   ],
+   "rdfs:label": "Communicating uncertainty to decision makers",
+   "skos:altLabel": [
+    "conveying what is and is not known",
+    "expressing uncertainty",
+    "uncertainty communication"
+   ],
+   "skos:broader": {
+    "@id": "cm:risk-communication"
+   },
+   "skos:definition": "The skill of telling the people who must decide what you know, how precisely you know it, how solid the evidence is and what you are doing to learn more - stated as specifically as your knowledge allows rather than hidden, hedged into vagueness or inflated into false certainty.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/executive-and-client-communication"
+   },
+   "skos:prefLabel": "Communicating uncertainty to decision makers",
+   "skos:related": [
+    {
+     "@id": "cm:bottom-line-up-front"
+    },
+    {
+     "@id": "cm:credibility"
+    },
+    {
+     "@id": "cm:delivering-bad-news"
+    },
+    {
+     "@id": "cm:illusion-of-transparency"
+    },
+    {
+     "@id": "cm:managing-up"
+    },
+    {
+     "@id": "cm:status-reporting"
+    }
+   ]
+  },
+  {
    "@id": "cm:curse-of-knowledge",
    "@type": "cmo:Barrier",
    "cmo:causes": {
@@ -5299,6 +5380,54 @@
    "schema:text": "Check the receiver's side - their familiarity with you and the topic, time zone, norms and access - and adjust the default; a lean channel works better between people who already share context."
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/communicating-uncertainty/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:communicating-uncertainty"
+   },
+   "rdfs:label": "Have I given a number or range where I have one, instead of a word like \"probably\" or \"should be fine\"?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/communicating-uncertainty/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:communicating-uncertainty"
+   },
+   "rdfs:label": "Have I said separately how good the evidence behind my estimate is?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/communicating-uncertainty/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:communicating-uncertainty"
+   },
+   "rdfs:label": "Have I told them what we do not yet know, what we are doing to find out and when we will know?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/communicating-uncertainty/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:communicating-uncertainty"
+   },
+   "rdfs:label": "Am I presenting real disagreement among experts or data as such, rather than smoothing it over or overplaying it?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/communicating-uncertainty/check/5",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:communicating-uncertainty"
+   },
+   "rdfs:label": "Is the uncertainty in the sentence that carries the estimate, not in a footnote or a later slide?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/communicating-uncertainty/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "Our best estimate is that 3% of accounts cancel in the first quarter, with a plausible range of 1-6%. The estimate rests on a four-week pilot in one region, so confidence is moderate. We will know much more after the second region's renewals on 15 March; until then I'd budget for 6%.",
+   "cmo:before": "Churn should be fine - we don't expect much impact, though obviously nobody can be sure.",
+   "cmo:situation": "A product lead tells the leadership team how many customers a pricing change will cost.",
+   "cmo:why": "The before version mixes false reassurance with a blanket hedge, so leaders can neither plan nor challenge it; the after version gives a point estimate, a range, the quality of the evidence and when it will improve, which is what a decision needs."
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/curse-of-knowledge/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -7632,6 +7761,62 @@
    "dcterms:title": "Channel Expansion Theory: A Comprehensive Meta-Analysis, Literature Review, and Examination of Boundary Conditions",
    "schema:url": {
     "@id": "https://scholars.hkbu.edu.hk/en/publications/channel-expansion-theory-a-comprehensive-meta-analysis-literature/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/communicating-uncertainty/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "van der Bles, van der Linden, Freeman, Mitchell, Galvao, Zaval & Spiegelhalter, Royal Society Open Science 6(5): 181870 (2019), doi:10.1098/rsos.181870 (PubMed Central copy)",
+   "dcterms:title": "Communicating uncertainty about facts, numbers and science",
+   "schema:url": {
+    "@id": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6549952"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/communicating-uncertainty/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "van der Bles, van der Linden, Freeman & Spiegelhalter, PNAS 117(14): 7672-7683 (2020), doi:10.1073/pnas.1913678117 (CORE open-access copy)",
+   "dcterms:title": "The effects of communicating uncertainty on public trust in facts and numbers",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/305110478.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/communicating-uncertainty/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Gustafson & Rice, Public Understanding of Science 29(6): 614-633 (2020), doi:10.1177/0963662520942122 (author's copy, UC Santa Barbara)",
+   "dcterms:title": "A review of the effects of uncertainty in public science communication",
+   "schema:url": {
+    "@id": "https://rrice.faculty.comm.ucsb.edu/A149GustafsonRice2020ReviewEffectsUncertaintyPublicScienceCommunication.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/communicating-uncertainty/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "U.S. Centers for Disease Control and Prevention, Center for Preparedness and Response (Crisis and Emergency Risk Communication), April 2020",
+   "dcterms:title": "CERC Overview for COVID-19",
+   "schema:url": {
+    "@id": "https://emergency-origin.cdc.gov/cerc/training/pdf/COVID19_CERC.pdf"
    }
   },
   {

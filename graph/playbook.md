@@ -180,6 +180,23 @@ Ask yourself:
 
 ## executive-and-client-communication
 
+### [Communicating uncertainty to decision makers](../articles/executive-and-client-communication/communicating-uncertainty.md) — Skill
+
+*A product lead tells the leadership team how many customers a pricing change will cost.*
+
+| Before | After |
+|---|---|
+| Churn should be fine - we don't expect much impact, though obviously nobody can be sure. | Our best estimate is that 3% of accounts cancel in the first quarter, with a plausible range of 1-6%. The estimate rests on a four-week pilot in one region, so confidence is moderate. We will know much more after the second region's renewals on 15 March; until then I'd budget for 6%. |
+
+**Why:** The before version mixes false reassurance with a blanket hedge, so leaders can neither plan nor challenge it; the after version gives a point estimate, a range, the quality of the evidence and when it will improve, which is what a decision needs.
+
+Ask yourself:
+- Have I given a number or range where I have one, instead of a word like "probably" or "should be fine"?
+- Have I said separately how good the evidence behind my estimate is?
+- Have I told them what we do not yet know, what we are doing to find out and when we will know?
+- Am I presenting real disagreement among experts or data as such, rather than smoothing it over or overplaying it?
+- Is the uncertainty in the sentence that carries the estimate, not in a footnote or a later slide?
+
 ### [Managing up](../articles/executive-and-client-communication/managing-up.md) — Skill
 
 Ask yourself:
