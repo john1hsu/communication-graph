@@ -256,6 +256,104 @@
    ]
   },
   {
+   "@id": "cm:anchoring-and-adjustment",
+   "@type": "cmo:Phenomenon",
+   "cmo:causes": {
+    "@id": "cm:curse-of-knowledge"
+   },
+   "cmo:challengedBy": {
+    "@id": "cm:roseler-et-al-2025"
+   },
+   "cmo:contrastsWith": {
+    "@id": "cm:selective-accessibility-model"
+   },
+   "cmo:demonstratedBy": [
+    {
+     "@id": "cm:epley-et-al-2004"
+    },
+    {
+     "@id": "cm:epley-gilovich-2006"
+    }
+   ],
+   "cmo:domain": "barriers-and-psychology",
+   "cmo:evidenceStatus": "robust",
+   "cmo:file": "articles/barriers-and-psychology/anchoring-and-adjustment.md",
+   "cmo:introducedBy": [
+    {
+     "@id": "cm:amos-tversky"
+    },
+    {
+     "@id": "cm:daniel-kahneman"
+    }
+   ],
+   "cmo:level": "intermediate",
+   "cmo:supportedBy": {
+    "@id": "cm:klein-et-al-2014"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/anchoring-and-adjustment/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/anchoring-and-adjustment/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/anchoring-and-adjustment/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/anchoring-and-adjustment/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/anchoring-and-adjustment/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/anchoring-and-adjustment/s6"
+    }
+   ],
+   "rdfs:label": "Anchoring and adjustment",
+   "skos:altLabel": [
+    "anchoring bias",
+    "anchoring effect",
+    "anchoring heuristic",
+    "egocentric anchoring"
+   ],
+   "skos:broader": {
+    "@id": "cm:cognitive-bias"
+   },
+   "skos:definition": "The tendency for an estimate or judgment to stay too close to a starting value - a number someone mentioned first, last year's figure, or our own point of view - because people adjust away from that starting point only until the answer feels plausible.",
+   "skos:exactMatch": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect"
+   },
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/barriers-and-psychology"
+   },
+   "skos:prefLabel": "Anchoring and adjustment",
+   "skos:related": [
+    {
+     "@id": "cm:batna"
+    },
+    {
+     "@id": "cm:egocentric-bias"
+    },
+    {
+     "@id": "cm:first-offer"
+    },
+    {
+     "@id": "cm:illusion-of-transparency"
+    },
+    {
+     "@id": "cm:perspective-taking"
+    },
+    {
+     "@id": "cm:spotlight-effect"
+    }
+   ]
+  },
+  {
    "@id": "cm:anxiety-reappraisal",
    "@type": "cmo:Technique",
    "cmo:addresses": {
@@ -8120,6 +8218,90 @@
    "dcterms:title": "Adam Galinsky (contributor profile)",
    "schema:url": {
     "@id": "https://greatergood.berkeley.edu/profile/adam_galinsky"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/anchoring-and-adjustment/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Tversky & Kahneman, Science 185(4157), 1124-1131, 1974 (PubMed record)",
+   "dcterms:title": "Judgment under Uncertainty: Heuristics and Biases",
+   "schema:url": {
+    "@id": "https://pubmed.ncbi.nlm.nih.gov/17835457/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/anchoring-and-adjustment/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Epley & Gilovich, Psychological Science 17(4), 2006 (Association for Psychological Science journal page)",
+   "dcterms:title": "The Anchoring-and-Adjustment Heuristic: Why the Adjustments Are Insufficient",
+   "schema:url": {
+    "@id": "https://www.psychologicalscience.org/journals/psychological-science/j.1467-9280.2006.01704.x/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/anchoring-and-adjustment/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Epley, Keysar, Van Boven & Gilovich, Journal of Personality and Social Psychology 87(3), 327-339, 2004 (author copy)",
+   "dcterms:title": "Perspective Taking as Egocentric Anchoring and Adjustment",
+   "schema:url": {
+    "@id": "https://static1.squarespace.com/static/55917f64e4b0cd3b4705b68c/t/5cc740f9c83025f2a99f255a/1556562170358/Epley+2004.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/anchoring-and-adjustment/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Klein, Ratliff, Vianello et al., Social Psychology 45(3), 142-152, 2014 (University of Padova repository full text)",
+   "dcterms:title": "Investigating Variation in Replicability: A \"Many Labs\" Replication Project",
+   "schema:url": {
+    "@id": "https://research.unipd.it/bitstream/11577/2688304/1/ManyLabs.2014.SP.fulltext.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/anchoring-and-adjustment/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Mussweiler, Strack & Pfeiffer, Personality and Social Psychology Bulletin 26(9), 1142-1150, 2000 (Scilit record)",
+   "dcterms:title": "Overcoming the Inevitable Anchoring Effect: Considering the Opposite Compensates for Selective Accessibility",
+   "schema:url": {
+    "@id": "https://scilit.com/publications/0fc711aa2368237e93a63da61fff9a4c"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/anchoring-and-adjustment/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Röseler, Incerti, Rebholz, Seida & Papenmeier, Meta-Psychology 9, 2025",
+   "dcterms:title": "Falsifying the Insufficient Adjustment Model: No Evidence for Unidirectional Adjustment from Anchors",
+   "schema:url": {
+    "@id": "https://open.lnu.se/index.php/metapsychology/article/view/4137/4300"
    }
   },
   {

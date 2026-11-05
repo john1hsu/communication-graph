@@ -139,6 +139,42 @@
 <https://github.com/john1hsu/communication-graph/id/adam-galinsky> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/first-offer> .
 <https://github.com/john1hsu/communication-graph/id/adam-galinsky> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/range-of-acceptable-behavior> .
 <https://github.com/john1hsu/communication-graph/id/adam-galinsky> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> <http://purl.org/dc/terms/created> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Phenomenon> .
+<https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> <http://www.w3.org/2000/01/rdf-schema#label> "Anchoring and adjustment" .
+<https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> <http://www.w3.org/2004/02/skos/core#altLabel> "anchoring bias" .
+<https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> <http://www.w3.org/2004/02/skos/core#altLabel> "anchoring effect" .
+<https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> <http://www.w3.org/2004/02/skos/core#altLabel> "anchoring heuristic" .
+<https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> <http://www.w3.org/2004/02/skos/core#altLabel> "egocentric anchoring" .
+<https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/cognitive-bias> .
+<https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> <http://www.w3.org/2004/02/skos/core#definition> "The tendency for an estimate or judgment to stay too close to a starting value - a number someone mentioned first, last year's figure, or our own point of view - because people adjust away from that starting point only until the answer feels plausible." .
+<https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> <http://www.w3.org/2004/02/skos/core#exactMatch> <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> .
+<https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/barriers-and-psychology> .
+<https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> <http://www.w3.org/2004/02/skos/core#prefLabel> "Anchoring and adjustment" .
+<https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/batna> .
+<https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/egocentric-bias> .
+<https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/first-offer> .
+<https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> .
+<https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/perspective-taking> .
+<https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/spotlight-effect> .
+<https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/anchoring-and-adjustment/s1> .
+<https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/anchoring-and-adjustment/s2> .
+<https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/anchoring-and-adjustment/s3> .
+<https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/anchoring-and-adjustment/s4> .
+<https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/anchoring-and-adjustment/s5> .
+<https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/anchoring-and-adjustment/s6> .
+<https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> <https://github.com/john1hsu/communication-graph/ontology#causes> <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> .
+<https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/roseler-et-al-2025> .
+<https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/selective-accessibility-model> .
+<https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/epley-et-al-2004> .
+<https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/epley-gilovich-2006> .
+<https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> <https://github.com/john1hsu/communication-graph/ontology#domain> "barriers-and-psychology" .
+<https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "robust" .
+<https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/barriers-and-psychology/anchoring-and-adjustment.md" .
+<https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/amos-tversky> .
+<https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/daniel-kahneman> .
+<https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/klein-et-al-2014> .
 <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Am I trying to force myself to feel calm, or accepting that being keyed up is normal before something that matters?" .
 <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> .
@@ -2828,6 +2864,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/adam-galinsky/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/adam-galinsky/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
 <https://github.com/john1hsu/communication-graph/id/source/adam-galinsky/s5> <https://schema.org/url> <https://greatergood.berkeley.edu/profile/adam_galinsky> .
+<https://github.com/john1hsu/communication-graph/id/source/anchoring-and-adjustment/s1> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/anchoring-and-adjustment/s1> <http://purl.org/dc/terms/publisher> "Tversky & Kahneman, Science 185(4157), 1124-1131, 1974 (PubMed record)" .
+<https://github.com/john1hsu/communication-graph/id/source/anchoring-and-adjustment/s1> <http://purl.org/dc/terms/title> "Judgment under Uncertainty: Heuristics and Biases" .
+<https://github.com/john1hsu/communication-graph/id/source/anchoring-and-adjustment/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/anchoring-and-adjustment/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/anchoring-and-adjustment/s1> <https://schema.org/url> <https://pubmed.ncbi.nlm.nih.gov/17835457/> .
+<https://github.com/john1hsu/communication-graph/id/source/anchoring-and-adjustment/s2> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/anchoring-and-adjustment/s2> <http://purl.org/dc/terms/publisher> "Epley & Gilovich, Psychological Science 17(4), 2006 (Association for Psychological Science journal page)" .
+<https://github.com/john1hsu/communication-graph/id/source/anchoring-and-adjustment/s2> <http://purl.org/dc/terms/title> "The Anchoring-and-Adjustment Heuristic: Why the Adjustments Are Insufficient" .
+<https://github.com/john1hsu/communication-graph/id/source/anchoring-and-adjustment/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/anchoring-and-adjustment/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/anchoring-and-adjustment/s2> <https://schema.org/url> <https://www.psychologicalscience.org/journals/psychological-science/j.1467-9280.2006.01704.x/> .
+<https://github.com/john1hsu/communication-graph/id/source/anchoring-and-adjustment/s3> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/anchoring-and-adjustment/s3> <http://purl.org/dc/terms/publisher> "Epley, Keysar, Van Boven & Gilovich, Journal of Personality and Social Psychology 87(3), 327-339, 2004 (author copy)" .
+<https://github.com/john1hsu/communication-graph/id/source/anchoring-and-adjustment/s3> <http://purl.org/dc/terms/title> "Perspective Taking as Egocentric Anchoring and Adjustment" .
+<https://github.com/john1hsu/communication-graph/id/source/anchoring-and-adjustment/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/anchoring-and-adjustment/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/anchoring-and-adjustment/s3> <https://schema.org/url> <https://static1.squarespace.com/static/55917f64e4b0cd3b4705b68c/t/5cc740f9c83025f2a99f255a/1556562170358/Epley+2004.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/anchoring-and-adjustment/s4> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/anchoring-and-adjustment/s4> <http://purl.org/dc/terms/publisher> "Klein, Ratliff, Vianello et al., Social Psychology 45(3), 142-152, 2014 (University of Padova repository full text)" .
+<https://github.com/john1hsu/communication-graph/id/source/anchoring-and-adjustment/s4> <http://purl.org/dc/terms/title> "Investigating Variation in Replicability: A \"Many Labs\" Replication Project" .
+<https://github.com/john1hsu/communication-graph/id/source/anchoring-and-adjustment/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/anchoring-and-adjustment/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/anchoring-and-adjustment/s4> <https://schema.org/url> <https://research.unipd.it/bitstream/11577/2688304/1/ManyLabs.2014.SP.fulltext.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/anchoring-and-adjustment/s5> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/anchoring-and-adjustment/s5> <http://purl.org/dc/terms/publisher> "Mussweiler, Strack & Pfeiffer, Personality and Social Psychology Bulletin 26(9), 1142-1150, 2000 (Scilit record)" .
+<https://github.com/john1hsu/communication-graph/id/source/anchoring-and-adjustment/s5> <http://purl.org/dc/terms/title> "Overcoming the Inevitable Anchoring Effect: Considering the Opposite Compensates for Selective Accessibility" .
+<https://github.com/john1hsu/communication-graph/id/source/anchoring-and-adjustment/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/anchoring-and-adjustment/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/anchoring-and-adjustment/s5> <https://schema.org/url> <https://scilit.com/publications/0fc711aa2368237e93a63da61fff9a4c> .
+<https://github.com/john1hsu/communication-graph/id/source/anchoring-and-adjustment/s6> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/anchoring-and-adjustment/s6> <http://purl.org/dc/terms/publisher> "Röseler, Incerti, Rebholz, Seida & Papenmeier, Meta-Psychology 9, 2025" .
+<https://github.com/john1hsu/communication-graph/id/source/anchoring-and-adjustment/s6> <http://purl.org/dc/terms/title> "Falsifying the Insufficient Adjustment Model: No Evidence for Unidirectional Adjustment from Anchors" .
+<https://github.com/john1hsu/communication-graph/id/source/anchoring-and-adjustment/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/anchoring-and-adjustment/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/anchoring-and-adjustment/s6> <https://schema.org/url> <https://open.lnu.se/index.php/metapsychology/article/view/4137/4300> .
 <https://github.com/john1hsu/communication-graph/id/source/anxiety-reappraisal/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/anxiety-reappraisal/s1> <http://purl.org/dc/terms/publisher> "Brooks, A. W., Journal of Experimental Psychology General 143(1), 2014, doi:10.1037/a0035325 (author's copy, Harvard Business School)" .
 <https://github.com/john1hsu/communication-graph/id/source/anxiety-reappraisal/s1> <http://purl.org/dc/terms/title> "Get Excited: Reappraising Pre-Performance Anxiety as Excitement" .
