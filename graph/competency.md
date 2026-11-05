@@ -73,6 +73,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:one-on-one-meetings` | `cm:managing-up` |
 | `cm:patient-education` | `cm:teach-back` |
 | `cm:performance-review` | `cm:feedforward` |
+| `cm:performance-review` | `cm:kluger-denisi-1996` |
 | `cm:performance-review` | `cm:situation-behavior-impact` |
 | `cm:plain-language-summary` | `cm:plain-language` |
 | `cm:presentation` | `cm:anxiety-reappraisal` |
@@ -81,7 +82,8 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:salary-negotiation` | `cm:multiple-equivalent-simultaneous-offers` |
 | `cm:stakeholder-consultation` | `cm:nominal-group-technique` |
 | `cm:status-reporting` | `cm:managing-up` |
-| `cm:video-call-communication` | `cm:proxemics` |
+
+…and 1 more.
 
 ## Myths and contested advice
 

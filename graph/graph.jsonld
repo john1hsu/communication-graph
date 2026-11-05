@@ -2233,6 +2233,91 @@
    ]
   },
   {
+   "@id": "cm:kluger-denisi-1996",
+   "@type": "cmo:Study",
+   "cmo:appliedIn": {
+    "@id": "cm:performance-review"
+   },
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "robust",
+   "cmo:file": "articles/thinkers-and-works/kluger-denisi-1996.md",
+   "cmo:introducedBy": [
+    {
+     "@id": "cm:angelo-denisi"
+    },
+    {
+     "@id": "cm:avraham-n-kluger"
+    }
+   ],
+   "cmo:level": "intermediate",
+   "cmo:requires": {
+    "@id": "cm:feedback"
+   },
+   "cmo:supportedBy": [
+    {
+     "@id": "cm:ivers-et-al-2025"
+    },
+    {
+     "@id": "cm:wisniewski-zierer-hattie-2020"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/kluger-denisi-1996/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/kluger-denisi-1996/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/kluger-denisi-1996/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/kluger-denisi-1996/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/kluger-denisi-1996/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/kluger-denisi-1996/s6"
+    }
+   ],
+   "rdfs:label": "The Effects of Feedback Interventions on Performance",
+   "skos:altLabel": [
+    "Kluger & DeNisi 1996",
+    "Kluger and DeNisi meta-analysis",
+    "feedback intervention meta-analysis"
+   ],
+   "skos:broader": {
+    "@id": "cm:feedback"
+   },
+   "skos:definition": "Avraham Kluger and Angelo DeNisi's 1996 Psychological Bulletin meta-analysis of 607 effect sizes, which found that feedback raises performance on average (d = 0.41) yet lowers it in more than a third of cases, and proposed feedback intervention theory to explain why.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "The Effects of Feedback Interventions on Performance",
+   "skos:related": [
+    {
+     "@id": "cm:feedback-intervention-theory"
+    },
+    {
+     "@id": "cm:feedforward"
+    },
+    {
+     "@id": "cm:hattie-timperley-feedback-model"
+    },
+    {
+     "@id": "cm:one-on-one-meetings"
+    },
+    {
+     "@id": "cm:situation-behavior-impact"
+    }
+   ]
+  },
+  {
    "@id": "cm:managing-up",
    "@type": "cmo:Skill",
    "cmo:appliedIn": [
@@ -8494,6 +8579,90 @@
    "dcterms:title": "Red Light, Green Light: Making Sense of the Organizational Context for Issue Selling",
    "schema:url": {
     "@id": "https://ideas.repec.org/a/inm/ororsc/v13y2002i4p355-369.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/kluger-denisi-1996/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Kluger & DeNisi, Psychological Bulletin 119(2), 254-284 (1996), doi:10.1037/0033-2909.119.2.254 (Hebrew University research portal)",
+   "dcterms:title": "The effects of feedback interventions on performance: a historical review, a meta-analysis, and a preliminary feedback intervention theory",
+   "schema:url": {
+    "@id": "https://cris.huji.ac.il/en/publications/the-effects-of-feedback-interventions-on-performance-a-historical/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/kluger-denisi-1996/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Kluger & DeNisi, Psychological Bulletin 119(2), 254-284 (1996) - copy of the original article hosted in a teacher research library",
+   "dcterms:title": "The effects of feedback interventions on performance (full text)",
+   "schema:url": {
+    "@id": "https://mrbartonmaths.com/resourcesnew/8.%20Research/Marking%20and%20Feedback/The%20effects%20of%20feedback%20interventions.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/kluger-denisi-1996/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Kluger & DeNisi, Current Directions in Psychological Science 7(3), 67-72 (1998), doi:10.1111/1467-8721.ep10772989 (University at Albany course copy)",
+   "dcterms:title": "Feedback Interventions: Toward the Understanding of a Double-Edged Sword",
+   "schema:url": {
+    "@id": "https://albany.edu/faculty/ts460/pad634/Files/2361-KlugerDeNisiFeedbackcapHighlighted.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/kluger-denisi-1996/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "DeNisi & Kluger, Academy of Management Executive 14(1), 129-138 (2000), doi:10.5465/ame.2000.2909845 (Hebrew University research portal)",
+   "dcterms:title": "Feedback effectiveness: Can 360-degree appraisals be improved?",
+   "schema:url": {
+    "@id": "https://cris.huji.ac.il/en/publications/feedback-effectiveness-can-360-degree-appraisals-be-improved/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/kluger-denisi-1996/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Wisniewski, Zierer & Hattie, Frontiers in Psychology 10:3087 (2020), doi:10.3389/fpsyg.2019.03087",
+   "dcterms:title": "The Power of Feedback Revisited: A Meta-Analysis of Educational Feedback Research",
+   "schema:url": {
+    "@id": "https://www.frontiersin.org/articles/10.3389/fpsyg.2019.03087/full"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/kluger-denisi-1996/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Ivers et al., Cochrane Database of Systematic Reviews 2025(3):CD000259, doi:10.1002/14651858.CD000259.pub4 (Macquarie University research portal)",
+   "dcterms:title": "Audit and feedback: effects on professional practice",
+   "schema:url": {
+    "@id": "https://researchers.mq.edu.au/en/publications/audit-and-feedback-effects-on-professional-practice/"
    }
   },
   {

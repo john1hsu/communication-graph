@@ -2549,6 +2549,93 @@
   ]
  },
  {
+  "id": "cm:kluger-denisi-1996",
+  "title": "The Effects of Feedback Interventions on Performance",
+  "aliases": [
+   "Kluger & DeNisi 1996",
+   "Kluger and DeNisi meta-analysis",
+   "feedback intervention meta-analysis"
+  ],
+  "type": "Study",
+  "domain": "thinkers-and-works",
+  "level": "intermediate",
+  "evidenceStatus": "robust",
+  "file": "articles/thinkers-and-works/kluger-denisi-1996.md",
+  "created": "2026-11-05",
+  "summary": "Avraham Kluger and Angelo DeNisi's 1996 Psychological Bulletin meta-analysis of 607 effect sizes, which found that feedback raises performance on average (d = 0.41) yet lowers it in more than a third of cases, and proposed feedback intervention theory to explain why.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:feedback"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:feedback-intervention-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:situation-behavior-impact"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:feedforward"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:hattie-timperley-feedback-model"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:one-on-one-meetings"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:feedback"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:avraham-n-kluger",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:angelo-denisi",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:wisniewski-zierer-hattie-2020",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:ivers-et-al-2025",
+    "source": "s6",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:performance-review",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://cris.huji.ac.il/en/publications/the-effects-of-feedback-interventions-on-performance-a-historical/",
+   "https://mrbartonmaths.com/resourcesnew/8.%20Research/Marking%20and%20Feedback/The%20effects%20of%20feedback%20interventions.pdf",
+   "https://albany.edu/faculty/ts460/pad634/Files/2361-KlugerDeNisiFeedbackcapHighlighted.pdf",
+   "https://cris.huji.ac.il/en/publications/feedback-effectiveness-can-360-degree-appraisals-be-improved/",
+   "https://www.frontiersin.org/articles/10.3389/fpsyg.2019.03087/full",
+   "https://researchers.mq.edu.au/en/publications/audit-and-feedback-effects-on-professional-practice/"
+  ]
+ },
+ {
   "id": "cm:managing-up",
   "title": "Managing up",
   "aliases": [
