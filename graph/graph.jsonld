@@ -180,6 +180,82 @@
    ]
   },
   {
+   "@id": "cm:adam-galinsky",
+   "@type": "cmo:Person",
+   "cmo:authored": [
+    {
+     "@id": "cm:friend-and-foe"
+    },
+    {
+     "@id": "cm:inspire-galinsky"
+    }
+   ],
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "historical",
+   "cmo:file": "articles/thinkers-and-works/adam-galinsky.md",
+   "cmo:introduced": [
+    {
+     "@id": "cm:first-offer"
+    },
+    {
+     "@id": "cm:range-of-acceptable-behavior"
+    }
+   ],
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/adam-galinsky/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/adam-galinsky/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/adam-galinsky/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/adam-galinsky/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/adam-galinsky/s5"
+    }
+   ],
+   "rdfs:label": "Adam Galinsky",
+   "skos:altLabel": [
+    "Adam D. Galinsky",
+    "Adam Daniel Galinsky",
+    "Galinsky"
+   ],
+   "skos:definition": "Social psychologist and Columbia Business School professor whose 2001 experiments with Thomas Mussweiler established the first-offer advantage in negotiation, whose 2008 studies separated perspective-taking from empathy at the bargaining table, and who popularised the \"range of acceptable behavior\" idea for speaking up.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "Adam Galinsky",
+   "skos:related": [
+    {
+     "@id": "cm:anchoring-and-adjustment"
+    },
+    {
+     "@id": "cm:batna"
+    },
+    {
+     "@id": "cm:galinsky-mussweiler-2001"
+    },
+    {
+     "@id": "cm:influence-without-authority"
+    },
+    {
+     "@id": "cm:managing-up"
+    },
+    {
+     "@id": "cm:perspective-taking"
+    }
+   ]
+  },
+  {
    "@id": "cm:anxiety-reappraisal",
    "@type": "cmo:Technique",
    "cmo:addresses": {
@@ -7974,6 +8050,76 @@
    "dcterms:title": "Good-Enough Representations in Language Comprehension",
    "schema:url": {
     "@id": "https://www.psychologicalscience.org/journals/current-directions/1467-8721.00158/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/adam-galinsky/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Galinsky and Mussweiler, Journal of Personality and Social Psychology 81(4), 657-669, 2001 (PubMed record)",
+   "dcterms:title": "First offers as anchors: the role of perspective-taking and negotiator focus",
+   "schema:url": {
+    "@id": "https://pubmed.ncbi.nlm.nih.gov/11642352"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/adam-galinsky/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Galinsky, Maddux, Gilin and White, Psychological Science 19(4), 378-384, 2008 (author copy, University of North Carolina)",
+   "dcterms:title": "Why It Pays to Get Inside the Head of Your Opponent: The Differential Effects of Perspective Taking and Empathy in Negotiations",
+   "schema:url": {
+    "@id": "https://willmaddux.web.unc.edu/wp-content/uploads/sites/15846/2019/01/Psych-Science-PT-Negotiations.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/adam-galinsky/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Kellogg Insight, Kellogg School of Management, Northwestern University, 2011",
+   "dcterms:title": "When to Come Out Swinging",
+   "schema:url": {
+    "@id": "https://insight.kellogg.northwestern.edu/article/when_to_come_out_swinging"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/adam-galinsky/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Columbia Business School Newsroom, 13 December 2016",
+   "dcterms:title": "Five Steps to Become More Confident and Assertive",
+   "schema:url": {
+    "@id": "https://business.columbia.edu/press-release/cbs-press-releases/five-steps-become-more-confident-and-assertive"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/adam-galinsky/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Greater Good Science Center, University of California, Berkeley",
+   "dcterms:title": "Adam Galinsky (contributor profile)",
+   "schema:url": {
+    "@id": "https://greatergood.berkeley.edu/profile/adam_galinsky"
    }
   },
   {

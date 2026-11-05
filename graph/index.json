@@ -199,6 +199,82 @@
   ]
  },
  {
+  "id": "cm:adam-galinsky",
+  "title": "Adam Galinsky",
+  "aliases": [
+   "Adam D. Galinsky",
+   "Adam Daniel Galinsky",
+   "Galinsky"
+  ],
+  "type": "Person",
+  "domain": "thinkers-and-works",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/thinkers-and-works/adam-galinsky.md",
+  "created": "2026-11-05",
+  "summary": "Social psychologist and Columbia Business School professor whose 2001 experiments with Thomas Mussweiler established the first-offer advantage in negotiation, whose 2008 studies separated perspective-taking from empathy at the bargaining table, and who popularised the \"range of acceptable behavior\" idea for speaking up.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "cm:galinsky-mussweiler-2001"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:perspective-taking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:anchoring-and-adjustment"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:batna"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:influence-without-authority"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:managing-up"
+   },
+   {
+    "predicate": "cmo:introduced",
+    "object": "cm:first-offer",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:introduced",
+    "object": "cm:range-of-acceptable-behavior",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:authored",
+    "object": "cm:friend-and-foe",
+    "source": "s5",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:authored",
+    "object": "cm:inspire-galinsky",
+    "source": "s5",
+    "confidence": "high"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://pubmed.ncbi.nlm.nih.gov/11642352",
+   "https://willmaddux.web.unc.edu/wp-content/uploads/sites/15846/2019/01/Psych-Science-PT-Negotiations.pdf",
+   "https://insight.kellogg.northwestern.edu/article/when_to_come_out_swinging",
+   "https://business.columbia.edu/press-release/cbs-press-releases/five-steps-become-more-confident-and-assertive",
+   "https://greatergood.berkeley.edu/profile/adam_galinsky"
+  ]
+ },
+ {
   "id": "cm:anxiety-reappraisal",
   "title": "Anxiety reappraisal",
   "aliases": [
