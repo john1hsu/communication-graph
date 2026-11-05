@@ -22,7 +22,9 @@ _Which written skills or dispositions have no technique, framework or principle 
 
 _Which written contexts, channels or genres have no technique, framework or principle applied in them or structuring them?_ — `queries/03-situations-without-guidance.rq`
 
-_No results._
+| node | type |
+|---|---|
+| `cm:apology` | cmo:Genre |
 
 ## Highest-leverage techniques
 
@@ -108,6 +110,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:mehrabian-myth` | contested | `cm:zuckerman-et-al-1982` |
 | `cm:active-listening` | mixed |  |
 | `cm:active-voice` | mixed | `cm:fear-and-loathing-of-the-english-passive` |
+| `cm:apology` | mixed |  |
 | `cm:assertion-evidence-slides` | mixed | `cm:alzayed-alzamel-2023` |
 | `cm:batna` | mixed | `cm:schaerer-swaab-galinsky-2015` |
 | `cm:camera-level-gaze` | mixed |  |
@@ -130,9 +133,8 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:macinnis-mackinnon-macintyre-2010` | mixed |  |
 | `cm:meeting-agendas` | mixed |  |
 | `cm:multiple-equivalent-simultaneous-offers` | mixed |  |
-| `cm:nominal-group-technique` | mixed |  |
 
-…and 16 more.
+…and 17 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -140,6 +142,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 
 | node | type |
 |---|---|
+| `cm:apology` | cmo:Genre |
 | `cm:camera-level-gaze` | cmo:Technique |
 | `cm:egocentric-bias` | cmo:Barrier |
 | `cm:eye-contact` | cmo:Skill |

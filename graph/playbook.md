@@ -98,6 +98,30 @@ Ask yourself:
 
 ## difficult-conversations-and-conflict
 
+### [Apology](../articles/difficult-conversations-and-conflict/apology.md) — Genre
+
+1. Apologize as soon as you know you caused the problem; do not wait until legal, political or face-saving worries have shaped the message.
+2. Name the specific thing you did and say plainly that it was your responsibility, without "if anyone was offended" or a passive "mistakes were made".
+3. State the concrete effect on the other person (lost time, rework, an embarrassing moment with their client) so they can see you understand the cost to them.
+4. Give a short explanation of what went wrong only if it helps them trust the fix, and stop before it turns into an excuse.
+5. Offer a specific repair for this instance and a change that prevents a repeat, with an owner and a date.
+6. Leave out the demand for forgiveness; then listen to their reaction and follow through visibly on what you promised.
+
+*A project analyst sent a client the wrong version of a cost model, and the client's finance director presented outdated numbers to her own leadership team.*
+
+| Before | After |
+|---|---|
+| Hi Priya, apologies for any confusion around the model - there were a few version-control issues on our side this week. Hope you can forgive the mix-up! Updated file attached. | Priya, I sent you last month's cost model instead of the final one, and that's on me - it meant you presented figures to your leadership that were about 8% too low. The correct file is attached with the changes highlighted, and I can join a 15-minute call with your CFO tomorrow to walk through the difference. From now on every client file will go out only from the release folder after a second-person check, starting today. |
+
+**Why:** The rewrite names the specific error, takes responsibility in the first person and acknowledges the client's cost, then offers an immediate repair and a preventive change - the two components rated most effective - and drops the request for forgiveness, rated least effective.
+
+Ask yourself:
+- Have I said exactly what I did, in the first person, without "if", "but" or a passive construction?
+- Does my apology show that I understand what this cost the other person, not just how bad I feel?
+- Is my explanation short enough that it cannot be read as an excuse?
+- Have I offered a concrete repair and a change with a date, and will I actually follow through?
+- Is this a lapse of skill, where apologizing helps, or an accusation about my honesty that I believe is false, where admitting it could backfire?
+
 ### [Defensiveness](../articles/difficult-conversations-and-conflict/defensiveness.md) — Barrier
 
 Ask yourself:

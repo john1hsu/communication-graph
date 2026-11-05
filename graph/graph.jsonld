@@ -449,6 +449,98 @@
    ]
   },
   {
+   "@id": "cm:apology",
+   "@type": "cmo:Genre",
+   "cmo:contrastsWith": {
+    "@id": "cm:denial"
+   },
+   "cmo:demonstratedBy": [
+    {
+     "@id": "cm:brooks-dai-schweitzer-2013"
+    },
+    {
+     "@id": "cm:kim-et-al-2004"
+    },
+    {
+     "@id": "cm:lewicki-polin-lount-2016"
+    }
+   ],
+   "cmo:domain": "difficult-conversations-and-conflict",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/apology/example"
+   },
+   "cmo:explainedBy": {
+    "@id": "cm:empathic-concern"
+   },
+   "cmo:file": "articles/difficult-conversations-and-conflict/apology.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/apology/howto"
+   },
+   "cmo:level": "introductory",
+   "cmo:supportedBy": {
+    "@id": "cm:fehr-gelfand-nag-2010"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/apology/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/apology/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/apology/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/apology/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/apology/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/apology/s6"
+    }
+   ],
+   "rdfs:label": "Apology",
+   "skos:altLabel": [
+    "apologizing at work",
+    "effective apology",
+    "workplace apology"
+   ],
+   "skos:broader": {
+    "@id": "cm:trust-repair"
+   },
+   "skos:definition": "A message, spoken or written, in which a person or organization takes responsibility for a specific harm or mistake, expresses regret and commits to repair it, with the aim of restoring trust and the working relationship.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/difficult-conversations-and-conflict"
+   },
+   "skos:prefLabel": "Apology",
+   "skos:related": [
+    {
+     "@id": "cm:defensiveness"
+    },
+    {
+     "@id": "cm:delivering-bad-news"
+    },
+    {
+     "@id": "cm:difficult-conversation"
+    },
+    {
+     "@id": "cm:face-and-facework"
+    },
+    {
+     "@id": "cm:i-statements"
+    },
+    {
+     "@id": "cm:spotlight-effect"
+    }
+   ]
+  },
+  {
    "@id": "cm:aristotles-rhetoric",
    "@type": "cmo:Work",
    "cmo:authoredBy": {
@@ -6076,6 +6168,115 @@
    "schema:text": "Afterwards, judge the talk by what the audience understood or decided, not by how anxious you felt."
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/apology/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:apology"
+   },
+   "rdfs:label": "Have I said exactly what I did, in the first person, without \"if\", \"but\" or a passive construction?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/apology/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:apology"
+   },
+   "rdfs:label": "Does my apology show that I understand what this cost the other person, not just how bad I feel?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/apology/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:apology"
+   },
+   "rdfs:label": "Is my explanation short enough that it cannot be read as an excuse?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/apology/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:apology"
+   },
+   "rdfs:label": "Have I offered a concrete repair and a change with a date, and will I actually follow through?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/apology/check/5",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:apology"
+   },
+   "rdfs:label": "Is this a lapse of skill, where apologizing helps, or an accusation about my honesty that I believe is false, where admitting it could backfire?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/apology/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "Priya, I sent you last month's cost model instead of the final one, and that's on me - it meant you presented figures to your leadership that were about 8% too low. The correct file is attached with the changes highlighted, and I can join a 15-minute call with your CFO tomorrow to walk through the difference. From now on every client file will go out only from the release folder after a second-person check, starting today.",
+   "cmo:before": "Hi Priya, apologies for any confusion around the model - there were a few version-control issues on our side this week. Hope you can forgive the mix-up! Updated file attached.",
+   "cmo:situation": "A project analyst sent a client the wrong version of a cost model, and the client's finance director presented outdated numbers to her own leadership team.",
+   "cmo:why": "The rewrite names the specific error, takes responsibility in the first person and acknowledges the client's cost, then offers an immediate repair and a preventive change - the two components rated most effective - and drops the request for forgiveness, rated least effective."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/apology/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Apology",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/apology/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/apology/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/apology/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/apology/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/apology/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/apology/howto/6"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/apology/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Apologize as soon as you know you caused the problem; do not wait until legal, political or face-saving worries have shaped the message."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/apology/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Name the specific thing you did and say plainly that it was your responsibility, without \"if anyone was offended\" or a passive \"mistakes were made\"."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/apology/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "State the concrete effect on the other person (lost time, rework, an embarrassing moment with their client) so they can see you understand the cost to them."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/apology/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Give a short explanation of what went wrong only if it helps them trust the fix, and stop before it turns into an excuse."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/apology/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Offer a specific repair for this instance and a change that prevents a repeat, with an owner and a date."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/apology/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "Leave out the demand for forgiveness; then listen to their reaction and follow through visibly on what you promised."
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -9211,6 +9412,90 @@
    "dcterms:title": "Getting Excited About Public Speaking: A Replication",
    "schema:url": {
     "@id": "https://reference-global.com/article/10.58734/plc-2025-0011"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/apology/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Lewicki, Polin & Lount, Negotiation and Conflict Management Research 9(2), 177-196 (2016), doi:10.1111/ncmr.12073 (Eastern Kentucky University repository)",
+   "dcterms:title": "An Exploration of the Structure of Effective Apologies",
+   "schema:url": {
+    "@id": "https://encompass.eku.edu/fs_research/92"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/apology/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Kim, Ferrin, Cooper & Dirks, Journal of Applied Psychology 89(1), 104-118 (2004), doi:10.1037/0021-9010.89.1.104 (Singapore Management University author version)",
+   "dcterms:title": "Removing the shadow of suspicion: The effects of apology versus denial for repairing competence- versus integrity-based trust violations",
+   "schema:url": {
+    "@id": "https://ink.library.smu.edu.sg/context/lkcsb_research/article/3367/viewcontent/RemovingShadowSuspicion_afv.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/apology/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Fehr, Gelfand & Nag, Psychological Bulletin 136(5), 894-914 (2010), doi:10.1037/a0019993 (Greater Good Science Center, UC Berkeley copy)",
+   "dcterms:title": "The road to forgiveness: A meta-analytic synthesis of its situational and dispositional correlates",
+   "schema:url": {
+    "@id": "https://ggsc.berkeley.edu/images/uploads/Fehr_et_al_2010_The_road_to_forgiveness-_A_meta-analytic_synthesis_of_its_situational_and_dispositional_correlates.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/apology/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Adam Galinsky & Maurice Schweitzer, Wharton@Work Nano Tools, Wharton Executive Education, University of Pennsylvania (2017)",
+   "dcterms:title": "The Good Apology",
+   "schema:url": {
+    "@id": "https://executiveeducation.wharton.upenn.edu/thought-leadership/wharton-at-work/2017/08/the-good-apology/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/apology/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "British Psychological Society Research Digest, reporting Brooks, Dai & Schweitzer, Social Psychological and Personality Science (2013), doi:10.1177/1948550613506122",
+   "dcterms:title": "Want people to trust you? Try apologising for the rain",
+   "schema:url": {
+    "@id": "https://bps.org.uk/research-digest/want-people-trust-you-try-apologising-rain"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/apology/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Association for Psychological Science, Minds for Business (2016)",
+   "dcterms:title": "Effective Apologies Include Six Elements",
+   "schema:url": {
+    "@id": "https://www.psychologicalscience.org/news/minds-business/effective-apologies-include-six-elements.html"
    }
   },
   {
