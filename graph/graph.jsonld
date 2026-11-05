@@ -4792,6 +4792,86 @@
    ]
   },
   {
+   "@id": "cm:small-talk",
+   "@type": "cmo:Skill",
+   "cmo:complements": {
+    "@id": "cm:follow-up-questions"
+   },
+   "cmo:demonstratedBy": {
+    "@id": "cm:methot-et-al-2021"
+   },
+   "cmo:domain": "questioning-and-conversation",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:file": "articles/questioning-and-conversation/small-talk.md",
+   "cmo:level": "introductory",
+   "cmo:supportedBy": [
+    {
+     "@id": "cm:kardas-kumar-epley-2021"
+    },
+    {
+     "@id": "cm:sandstrom-boothby-cooney-2022"
+    },
+    {
+     "@id": "cm:sandstrom-dunn-2014"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/small-talk/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/small-talk/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/small-talk/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/small-talk/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/small-talk/s5"
+    }
+   ],
+   "rdfs:label": "Small talk at work",
+   "skos:altLabel": [
+    "office chit-chat",
+    "small talk",
+    "workplace chitchat"
+   ],
+   "skos:broader": {
+    "@id": "cm:interpersonal-communication"
+   },
+   "skos:definition": "The skill of opening and sustaining brief, light, non-task conversation with colleagues, clients and acquaintances - and knowing when to deepen it, steer it back to work, or end it gracefully.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/questioning-and-conversation"
+   },
+   "skos:prefLabel": "Small talk at work",
+   "skos:related": [
+    {
+     "@id": "cm:active-listening"
+    },
+    {
+     "@id": "cm:humble-inquiry"
+    },
+    {
+     "@id": "cm:open-ended-questions"
+    },
+    {
+     "@id": "cm:psychological-safety"
+    },
+    {
+     "@id": "cm:rapport"
+    },
+    {
+     "@id": "cm:self-disclosure"
+    }
+   ]
+  },
+  {
    "@id": "cm:speaking-anxiety",
    "@type": "cmo:Barrier",
    "cmo:demonstratedBy": {
@@ -8605,6 +8685,46 @@
    "@type": "schema:HowToStep",
    "schema:position": 6,
    "schema:text": "Use the same three parts for positive feedback, so the person knows exactly which behaviour to repeat."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/small-talk/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:small-talk"
+   },
+   "rdfs:label": "Did I ask at least one follow-up question that built on something they actually said?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/small-talk/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:small-talk"
+   },
+   "rdfs:label": "Did I share something about myself too, or did the exchange feel like an interview?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/small-talk/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:small-talk"
+   },
+   "rdfs:label": "Did I go one step deeper than the weather or the commute when the moment allowed it?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/small-talk/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:small-talk"
+   },
+   "rdfs:label": "Was this a good time for them, or did I pull a focused colleague out of deep work?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/small-talk/check/5",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:small-talk"
+   },
+   "rdfs:label": "Did I end the chat cleanly, with a warm close or a link back to the work?"
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/source/active-listening/s1",
@@ -12832,6 +12952,76 @@
    "dcterms:title": "Feedback That Works for Nonprofit Organizations - Delivering Effective Feedback",
    "schema:url": {
     "@id": "https://www.oreilly.com/library/view/feedback-that-works/9781604911732/xhtml/09_Chapter02.xhtml"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/small-talk/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Methot, Rosado-Solomon, Downes & Gabriel, Academy of Management Journal (published online 2020; 2021 issue) (University of Exeter repository record)",
+   "dcterms:title": "Office Chit-Chat as a Social Ritual: The Uplifting Yet Distracting Effects of Daily Small Talk at Work",
+   "schema:url": {
+    "@id": "https://ore.exeter.ac.uk/repository/handle/10871/123633"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/small-talk/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Sandstrom & Dunn, Personality and Social Psychology Bulletin 40(7), 910-922 (2014), doi:10.1177/0146167214529799 (University of Essex repository record)",
+   "dcterms:title": "Social Interactions and Well-Being: The Surprising Power of Weak Ties",
+   "schema:url": {
+    "@id": "https://repository.essex.ac.uk/15300/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/small-talk/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "American Psychological Association",
+   "dcterms:title": "Deep conversations with strangers are more enjoyable than people expect (press release on Kardas, Kumar & Epley, Journal of Personality and Social Psychology, 2021)",
+   "schema:url": {
+    "@id": "https://www.apa.org/news/press/releases/2021/09/deep-conversations-strangers"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/small-talk/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Harvard Business School Working Knowledge, on Huang, Yeomans, Brooks, Minson & Gino, Journal of Personality and Social Psychology (2017)",
+   "dcterms:title": "Asking Questions Can Get You a Better Job or a Second Date",
+   "schema:url": {
+    "@id": "https://www.library.hbs.edu/working-knowledge/asking-questions-can-get-you-a-better-job-or-a-second-date"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/small-talk/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Society for Personality and Social Psychology, Character & Context blog, by the authors of Sandstrom, Boothby & Cooney, Journal of Experimental Social Psychology 102, 104356 (2022)",
+   "dcterms:title": "Talking to Strangers: A Week-Long Intervention Reduces Psychological Barriers to Social Connection",
+   "schema:url": {
+    "@id": "https://spsp.org/news/character-and-context-blog/sandstrom-boothby-cooney-talking-to-strangers"
    }
   },
   {

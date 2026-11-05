@@ -712,6 +712,15 @@ Ask yourself:
 - Who talked more in that conversation, and did I learn anything that changed my view?
 - Did I acknowledge what they said before telling them what I think?
 
+### [Small talk at work](../articles/questioning-and-conversation/small-talk.md) — Skill
+
+Ask yourself:
+- Did I ask at least one follow-up question that built on something they actually said?
+- Did I share something about myself too, or did the exchange feel like an interview?
+- Did I go one step deeper than the weather or the commute when the moment allowed it?
+- Was this a good time for them, or did I pull a focused colleague out of deep work?
+- Did I end the chat cleanly, with a warm close or a link back to the work?
+
 ### [Teach-back](../articles/questioning-and-conversation/teach-back.md) — Technique
 
 1. Pick the one to three points the other person must get right to act - a deadline, a decision, a sequence of steps - rather than checking everything.

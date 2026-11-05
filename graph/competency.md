@@ -12,7 +12,9 @@ _No results._
 
 _Which written skills or dispositions have no technique, framework or principle that develops them?_ — `queries/02-skills-without-practice.rq`
 
-_No results._
+| skill | type |
+|---|---|
+| `cm:small-talk` | cmo:Skill |
 
 ## Situations, channels and formats with no guidance (gap)
 
@@ -128,7 +130,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:multiple-equivalent-simultaneous-offers` | mixed |  |
 | `cm:nominal-group-technique` | mixed |  |
 
-…and 15 more.
+…and 16 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -144,6 +146,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:plain-language` | cmo:Principle |
 | `cm:rapport` | cmo:Concept |
 | `cm:self-distancing` | cmo:Technique |
+| `cm:small-talk` | cmo:Skill |
 | `cm:speaking-anxiety` | cmo:Barrier |
 | `cm:stakeholder-mapping` | cmo:Technique |
 | `cm:teach-back` | cmo:Technique |
