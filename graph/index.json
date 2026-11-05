@@ -980,6 +980,107 @@
   ]
  },
  {
+  "id": "cm:describe-analyze-evaluate",
+  "title": "Describe-analyze-evaluate",
+  "aliases": [
+   "D.A.E.",
+   "DAE model",
+   "describe-interpret-evaluate",
+   "D.I.E. model",
+   "DIE exercise",
+   "description-interpretation-evaluation"
+  ],
+  "type": "Technique",
+  "domain": "cross-cultural-communication",
+  "level": "introductory",
+  "evidenceStatus": "practitioner",
+  "file": "articles/cross-cultural-communication/describe-analyze-evaluate.md",
+  "created": "2026-11-05",
+  "summary": "A three-step habit for unfamiliar or puzzling behaviour: first describe only what you observed, then list several possible explanations, and only then notice your own evaluation, so that a culture-bound judgement does not masquerade as a fact.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:intercultural-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:ethnocentrism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:high-and-low-context-cultures"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:direct-vs-indirect-feedback"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:humble-inquiry"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:ladder-of-inference"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:ethnocentrism",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:develops",
+    "object": "cm:intercultural-competence",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:janet-bennett",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:milton-bennett",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:influencedBy",
+    "object": "cm:general-semantics",
+    "source": "s1",
+    "confidence": "high"
+   }
+  ],
+  "selfCheck": [
+   "Could someone who disagrees with me still accept my description of what happened as accurate?",
+   "Have I written down more than one explanation, including one that would make this behaviour sensible where they come from?",
+   "Which of my own norms am I using to judge this, and where did I learn it?",
+   "Am I about to give feedback that starts with my verdict instead of what I observed?"
+  ],
+  "steps": [
+   "When a colleague's behaviour surprises or irritates you, pause before replying and write down only what you saw or heard, in words a camera could confirm.",
+   "List at least two or three different explanations for that behaviour, including at least one that would make it reasonable in the other person's context.",
+   "Name your own evaluation and its source - what you feel about the behaviour and which norm you are measuring it against.",
+   "Check the most important explanation with the person or a cultural informant using a neutral question built on your description.",
+   "Only then decide how to respond, and if you give feedback, lead with the description rather than the evaluation."
+  ],
+  "example": {
+   "situation": "A team lead in a global project notices that a newly transferred engineer never raises objections in design reviews and later sends concerns privately by email.",
+   "before": "You're not engaging in reviews. If you disagree, say it in the room - sending emails afterwards looks like you're going around the team.",
+   "after": "In the last three reviews you didn't comment during the meeting, then emailed me concerns afterwards - and they were good ones. I can think of a few reasons that might happen. How do design disagreements usually get raised on teams you've worked on?",
+   "why": "The first version presents an evaluation (\"not engaging\", \"going around the team\") as fact; the second states the observable pattern, admits several possible explanations and asks before judging, so the engineer can explain a norm the lead may not share."
+  },
+  "source_urls": [
+   "https://prod.wp.cdn.aws.wfu.edu/sites/18/2015/02/DAE-Article_NamCondon_IJIR_2010_v34.pdf",
+   "https://www.uwindsor.ca/ctl/sites/uwindsor.ca.ctl/files/activity-for-intercultural-awareness-in-description-interpretatione-evaluation.pdf",
+   "https://frontiersjournal.org/index.php/Frontiers/article/download/324/288/",
+   "https://www.cambridge.org/core/books/cambridge-handbook-of-intercultural-training/evaluation-of-crosscultural-training/EBE801E37C7563191B6CDCF2E4347764",
+   "https://stlhe.ca/teaching-tip-tuesday/june-2022-tip-2-use-the-d-i-e-d-a-e-tool-to-interpret-intercultural-miscommunication/"
+  ]
+ },
+ {
   "id": "cm:difficult-conversation",
   "title": "Difficult conversation",
   "aliases": [
@@ -1383,6 +1484,10 @@
    {
     "predicate": "skos:related",
     "object": "cm:intergroup-contact"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:describe-analyze-evaluate"
    },
    {
     "predicate": "cmo:demonstratedBy",

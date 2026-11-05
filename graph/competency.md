@@ -6,9 +6,7 @@ SPARQL queries in `queries/` run over the asserted graph, the OWL-RL inferences 
 
 _Which written barriers or anti-patterns have nothing in the graph that addresses them?_ — `queries/01-problems-without-fix.rq`
 
-| node | type |
-|---|---|
-| `cm:ethnocentrism` | cmo:Barrier |
+_No results._
 
 ## Skills with no practice technique (gap)
 
@@ -28,6 +26,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 
 | technique | reach | targets |
 |---|---|---|
+| `cm:describe-analyze-evaluate` | 2 | Ethnocentrism, intercultural-competence |
 | `cm:i-statements` | 2 | Defensiveness, accusatory-you-statements |
 | `cm:nominal-group-technique` | 2 | production-blocking, unequal-participation |
 | `cm:plain-language` | 2 | Curse of knowledge, jargon |

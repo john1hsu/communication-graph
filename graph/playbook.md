@@ -51,6 +51,28 @@ Ask yourself:
 
 ## cross-cultural-communication
 
+### [Describe-analyze-evaluate](../articles/cross-cultural-communication/describe-analyze-evaluate.md) — Technique
+
+1. When a colleague's behaviour surprises or irritates you, pause before replying and write down only what you saw or heard, in words a camera could confirm.
+2. List at least two or three different explanations for that behaviour, including at least one that would make it reasonable in the other person's context.
+3. Name your own evaluation and its source - what you feel about the behaviour and which norm you are measuring it against.
+4. Check the most important explanation with the person or a cultural informant using a neutral question built on your description.
+5. Only then decide how to respond, and if you give feedback, lead with the description rather than the evaluation.
+
+*A team lead in a global project notices that a newly transferred engineer never raises objections in design reviews and later sends concerns privately by email.*
+
+| Before | After |
+|---|---|
+| You're not engaging in reviews. If you disagree, say it in the room - sending emails afterwards looks like you're going around the team. | In the last three reviews you didn't comment during the meeting, then emailed me concerns afterwards - and they were good ones. I can think of a few reasons that might happen. How do design disagreements usually get raised on teams you've worked on? |
+
+**Why:** The first version presents an evaluation ("not engaging", "going around the team") as fact; the second states the observable pattern, admits several possible explanations and asks before judging, so the engineer can explain a norm the lead may not share.
+
+Ask yourself:
+- Could someone who disagrees with me still accept my description of what happened as accurate?
+- Have I written down more than one explanation, including one that would make this behaviour sensible where they come from?
+- Which of my own norms am I using to judge this, and where did I learn it?
+- Am I about to give feedback that starts with my verdict instead of what I observed?
+
 ### [Direct vs. indirect feedback](../articles/cross-cultural-communication/direct-vs-indirect-feedback.md) — Concept
 
 Ask yourself:

@@ -857,6 +857,92 @@
    ]
   },
   {
+   "@id": "cm:describe-analyze-evaluate",
+   "@type": "cmo:Technique",
+   "cmo:addresses": {
+    "@id": "cm:ethnocentrism"
+   },
+   "cmo:develops": {
+    "@id": "cm:intercultural-competence"
+   },
+   "cmo:domain": "cross-cultural-communication",
+   "cmo:evidenceStatus": "practitioner",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate/example"
+   },
+   "cmo:file": "articles/cross-cultural-communication/describe-analyze-evaluate.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate/howto"
+   },
+   "cmo:influencedBy": {
+    "@id": "cm:general-semantics"
+   },
+   "cmo:introducedBy": [
+    {
+     "@id": "cm:janet-bennett"
+    },
+    {
+     "@id": "cm:milton-bennett"
+    }
+   ],
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/describe-analyze-evaluate/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/describe-analyze-evaluate/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/describe-analyze-evaluate/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/describe-analyze-evaluate/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/describe-analyze-evaluate/s5"
+    }
+   ],
+   "rdfs:label": "Describe-analyze-evaluate",
+   "skos:altLabel": [
+    "D.A.E.",
+    "D.I.E. model",
+    "DAE model",
+    "DIE exercise",
+    "describe-interpret-evaluate",
+    "description-interpretation-evaluation"
+   ],
+   "skos:broader": {
+    "@id": "cm:intercultural-communication"
+   },
+   "skos:definition": "A three-step habit for unfamiliar or puzzling behaviour: first describe only what you observed, then list several possible explanations, and only then notice your own evaluation, so that a culture-bound judgement does not masquerade as a fact.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/cross-cultural-communication"
+   },
+   "skos:prefLabel": "Describe-analyze-evaluate",
+   "skos:related": [
+    {
+     "@id": "cm:direct-vs-indirect-feedback"
+    },
+    {
+     "@id": "cm:ethnocentrism"
+    },
+    {
+     "@id": "cm:high-and-low-context-cultures"
+    },
+    {
+     "@id": "cm:humble-inquiry"
+    },
+    {
+     "@id": "cm:ladder-of-inference"
+    }
+   ]
+  },
+  {
    "@id": "cm:difficult-conversation",
    "@type": "cmo:Context",
    "cmo:demonstratedBy": [
@@ -1252,6 +1338,9 @@
    },
    "skos:prefLabel": "Ethnocentrism",
    "skos:related": [
+    {
+     "@id": "cm:describe-analyze-evaluate"
+    },
     {
      "@id": "cm:direct-vs-indirect-feedback"
     },
@@ -4826,6 +4915,98 @@
    "rdfs:label": "Is the other person reacting to my content, or to a tone of superiority, certainty or hidden agenda they are picking up?"
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:describe-analyze-evaluate"
+   },
+   "rdfs:label": "Could someone who disagrees with me still accept my description of what happened as accurate?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:describe-analyze-evaluate"
+   },
+   "rdfs:label": "Have I written down more than one explanation, including one that would make this behaviour sensible where they come from?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:describe-analyze-evaluate"
+   },
+   "rdfs:label": "Which of my own norms am I using to judge this, and where did I learn it?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:describe-analyze-evaluate"
+   },
+   "rdfs:label": "Am I about to give feedback that starts with my verdict instead of what I observed?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "In the last three reviews you didn't comment during the meeting, then emailed me concerns afterwards - and they were good ones. I can think of a few reasons that might happen. How do design disagreements usually get raised on teams you've worked on?",
+   "cmo:before": "You're not engaging in reviews. If you disagree, say it in the room - sending emails afterwards looks like you're going around the team.",
+   "cmo:situation": "A team lead in a global project notices that a newly transferred engineer never raises objections in design reviews and later sends concerns privately by email.",
+   "cmo:why": "The first version presents an evaluation (\"not engaging\", \"going around the team\") as fact; the second states the observable pattern, admits several possible explanations and asks before judging, so the engineer can explain a norm the lead may not share."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Describe-analyze-evaluate",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate/howto/5"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "When a colleague's behaviour surprises or irritates you, pause before replying and write down only what you saw or heard, in words a camera could confirm."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "List at least two or three different explanations for that behaviour, including at least one that would make it reasonable in the other person's context."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Name your own evaluation and its source - what you feel about the behaviour and which norm you are measuring it against."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Check the most important explanation with the person or a cultural informant using a neutral question built on your description."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Only then decide how to respond, and if you give feedback, lead with the description rather than the evaluation."
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -7109,6 +7290,76 @@
    "dcterms:title": "The impact of self-affirmation on health-behavior change: a meta-analysis",
    "schema:url": {
     "@id": "https://pubmed.ncbi.nlm.nih.gov/25133846/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/describe-analyze-evaluate/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Nam & Condon, International Journal of Intercultural Relations 34, 2010, pp. 81-87 (Wake Forest University copy)",
+   "dcterms:title": "The DIE is cast: The continuing evolution of intercultural communication's favorite classroom exercise",
+   "schema:url": {
+    "@id": "https://prod.wp.cdn.aws.wfu.edu/sites/18/2015/02/DAE-Article_NamCondon_IJIR_2010_v34.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/describe-analyze-evaluate/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Janet M. Bennett, Intercultural Communication Institute (University of Windsor Centre for Teaching and Learning copy)",
+   "dcterms:title": "Description, Interpretation, Evaluation: activity for intercultural awareness (facilitator's guide and handout)",
+   "schema:url": {
+    "@id": "https://www.uwindsor.ca/ctl/sites/uwindsor.ca.ctl/files/activity-for-intercultural-awareness-in-description-interpretatione-evaluation.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/describe-analyze-evaluate/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Tracy Rundstrom Williams, Frontiers - The Interdisciplinary Journal of Study Abroad (Forum on Education Abroad), 2015, pp. 148-165",
+   "dcterms:title": "Examine your LENS: A Tool for Interpreting Cultural Differences",
+   "schema:url": {
+    "@id": "https://frontiersjournal.org/index.php/Frontiers/article/download/324/288/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/describe-analyze-evaluate/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Kallschmidt, Mesmer-Magnus, Viswesvaran & Deshpande, in Landis & Bhawuk (eds.), The Cambridge Handbook of Intercultural Training, Cambridge University Press, 2020, pp. 334-354",
+   "dcterms:title": "Evaluation of cross-cultural training",
+   "schema:url": {
+    "@id": "https://www.cambridge.org/core/books/cambridge-handbook-of-intercultural-training/evaluation-of-crosscultural-training/EBE801E37C7563191B6CDCF2E4347764"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/describe-analyze-evaluate/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Society for Teaching and Learning in Higher Education (STLHE), Teaching Tip Tuesday, June 2022",
+   "dcterms:title": "June 2022 Tip #2: Use the D.I.E./D.A.E. tool to interpret intercultural miscommunication",
+   "schema:url": {
+    "@id": "https://stlhe.ca/teaching-tip-tuesday/june-2022-tip-2-use-the-d-i-e-d-a-e-tool-to-interpret-intercultural-miscommunication/"
    }
   },
   {

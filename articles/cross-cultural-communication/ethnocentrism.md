@@ -12,7 +12,7 @@ summary: >-
 level: introductory
 evidenceStatus: mixed
 broader: [cm:intercultural-communication]
-related: [cm:high-and-low-context-cultures, cm:direct-vs-indirect-feedback, cm:the-culture-map, cm:humble-inquiry, cm:multicultural-team, cm:intergroup-contact]
+related: [cm:high-and-low-context-cultures, cm:direct-vs-indirect-feedback, cm:the-culture-map, cm:humble-inquiry, cm:multicultural-team, cm:intergroup-contact, cm:describe-analyze-evaluate]
 requires: []
 relations:
   - {predicate: demonstratedBy, object: cm:neuliep-hintz-mccroskey-2005, source: s2, confidence: high}
