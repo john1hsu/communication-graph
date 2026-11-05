@@ -1714,6 +1714,97 @@
    ]
   },
   {
+   "@id": "cm:egocentric-bias",
+   "@type": "cmo:Barrier",
+   "cmo:demonstratedBy": [
+    {
+     "@id": "cm:egocentrism-over-email-study"
+    },
+    {
+     "@id": "cm:ross-sicoly-1979"
+    },
+    {
+     "@id": "cm:schroeder-caruso-epley-2016"
+    }
+   ],
+   "cmo:domain": "barriers-and-psychology",
+   "cmo:evidenceStatus": "robust",
+   "cmo:file": "articles/barriers-and-psychology/egocentric-bias.md",
+   "cmo:level": "introductory",
+   "cmo:supportedBy": {
+    "@id": "cm:many-labs-2"
+   },
+   "cmo:undermines": {
+    "@id": "cm:clarity"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/egocentric-bias/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/egocentric-bias/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/egocentric-bias/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/egocentric-bias/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/egocentric-bias/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/egocentric-bias/s6"
+    }
+   ],
+   "rdfs:label": "Egocentric bias",
+   "skos:altLabel": [
+    "egocentrism in social judgment",
+    "own-perspective bias"
+   ],
+   "skos:broader": {
+    "@id": "cm:cognitive-bias"
+   },
+   "skos:definition": "The tendency to use our own knowledge, intentions and experience as the default for judging what other people know, notice, think or contributed, so that we overestimate how clear our messages are and how central our role was.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/barriers-and-psychology"
+   },
+   "skos:prefLabel": "Egocentric bias",
+   "skos:related": [
+    {
+     "@id": "cm:anchoring-and-adjustment"
+    },
+    {
+     "@id": "cm:checking-understanding"
+    },
+    {
+     "@id": "cm:curse-of-knowledge"
+    },
+    {
+     "@id": "cm:empathy-gap"
+    },
+    {
+     "@id": "cm:false-consensus-effect"
+    },
+    {
+     "@id": "cm:illusion-of-transparency"
+    },
+    {
+     "@id": "cm:perspective-getting"
+    },
+    {
+     "@id": "cm:perspective-taking"
+    },
+    {
+     "@id": "cm:spotlight-effect"
+    }
+   ]
+  },
+  {
    "@id": "cm:email",
    "@type": "cmo:Channel",
    "cmo:alternativeTo": {
@@ -6913,6 +7004,38 @@
    "rdfs:label": "Have I checked what the person understood, rather than assuming my politeness or bluntness landed as intended?"
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/egocentric-bias/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:egocentric-bias"
+   },
+   "rdfs:label": "If someone outside my team read this message cold, what would they need that I am carrying only in my head?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/egocentric-bias/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:egocentric-bias"
+   },
+   "rdfs:label": "Have I asked the other person what they think, or am I just imagining their view and trusting my guess?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/egocentric-bias/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:egocentric-bias"
+   },
+   "rdfs:label": "Before I say how much I did on this project, have I listed what each other person contributed?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/egocentric-bias/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:egocentric-bias"
+   },
+   "rdfs:label": "Am I assuming my tone is obvious in this email because I can hear it in my own head?"
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/ethnocentrism/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -10236,6 +10359,90 @@
    "dcterms:title": "Lesson 11: Writing with Clarity (Action Officer Development Course, Staff Writing)",
    "schema:url": {
     "@id": "https://www.esd.whs.mil/Portals/54/Documents/DD/plain_language/ActionOfficer_StaffWriting.pdf?ver=2017-04-04-163823-647"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/egocentric-bias/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Ross, M. & Sicoly, F., chapter 12 in Kahneman, Slovic & Tversky (eds.), Judgment under Uncertainty, Cambridge University Press, 1982 (Cambridge Core)",
+   "dcterms:title": "Egocentric biases in availability and attribution",
+   "schema:url": {
+    "@id": "https://www.cambridge.org/core/product/identifier/CBO9780511809477A024/type/BOOK_PART"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/egocentric-bias/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "NYU Stern School of Business, Faculty Research Highlights",
+   "dcterms:title": "E-mail Etiquette: More Critical than You Might Think (on Kruger, Epley, Parker & Ng, Egocentrism over e-mail)",
+   "schema:url": {
+    "@id": "https://stern.nyu.edu/experience-stern/faculty-research/justin-kruger-email-research"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/egocentric-bias/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Eyal, Steffel & Epley, Journal of Personality and Social Psychology 114(4), 547-571, 2018 (author copy)",
+   "dcterms:title": "Perspective mistaking: Accurately understanding the mind of another requires getting perspective, not taking perspective",
+   "schema:url": {
+    "@id": "https://static1.squarespace.com/static/55917f64e4b0cd3b4705b68c/t/5cbe54fb71c10bbdc16e0dbc/1555977471661/eyal.steffel.epley.2018.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/egocentric-bias/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Schroeder, Caruso & Epley, Journal of Experimental Psychology: Applied 22(2), 238-246, 2016 (eScholarship, University of California)",
+   "dcterms:title": "Many hands make overlooked work: Over-claiming of responsibility increases with group size",
+   "schema:url": {
+    "@id": "https://escholarship.org/uc/item/4ps6948f"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/egocentric-bias/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Association for Psychological Science, APS Observer",
+   "dcterms:title": "Replications Don't Hinge on Sample and Setting Differences, Multilab Project Shows",
+   "schema:url": {
+    "@id": "https://www.psychologicalscience.org/observer/replications-dont-hinge-on-sample-and-setting-differences-multilab-project-shows"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/egocentric-bias/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Klein, Vianello, Hasselman et al., Advances in Methods and Practices in Psychological Science 1(4), 443-490, 2018 (Leiden University repository)",
+   "dcterms:title": "Many Labs 2: Investigating Variation in Replicability Across Samples and Settings",
+   "schema:url": {
+    "@id": "https://scholarlypublications.universiteitleiden.nl/handle/1887/74652"
    }
   },
   {

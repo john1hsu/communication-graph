@@ -1948,6 +1948,109 @@
   ]
  },
  {
+  "id": "cm:egocentric-bias",
+  "title": "Egocentric bias",
+  "aliases": [
+   "egocentrism in social judgment",
+   "own-perspective bias"
+  ],
+  "type": "Barrier",
+  "domain": "barriers-and-psychology",
+  "level": "introductory",
+  "evidenceStatus": "robust",
+  "file": "articles/barriers-and-psychology/egocentric-bias.md",
+  "created": "2026-11-05",
+  "summary": "The tendency to use our own knowledge, intentions and experience as the default for judging what other people know, notice, think or contributed, so that we overestimate how clear our messages are and how central our role was.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:cognitive-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:curse-of-knowledge"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:illusion-of-transparency"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:spotlight-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:anchoring-and-adjustment"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:perspective-taking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:perspective-getting"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:false-consensus-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:empathy-gap"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:checking-understanding"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:ross-sicoly-1979",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:egocentrism-over-email-study",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:schroeder-caruso-epley-2016",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:many-labs-2",
+    "source": "s6",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:undermines",
+    "object": "cm:clarity",
+    "source": "s2",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "If someone outside my team read this message cold, what would they need that I am carrying only in my head?",
+   "Have I asked the other person what they think, or am I just imagining their view and trusting my guess?",
+   "Before I say how much I did on this project, have I listed what each other person contributed?",
+   "Am I assuming my tone is obvious in this email because I can hear it in my own head?"
+  ],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://www.cambridge.org/core/product/identifier/CBO9780511809477A024/type/BOOK_PART",
+   "https://stern.nyu.edu/experience-stern/faculty-research/justin-kruger-email-research",
+   "https://static1.squarespace.com/static/55917f64e4b0cd3b4705b68c/t/5cbe54fb71c10bbdc16e0dbc/1555977471661/eyal.steffel.epley.2018.pdf",
+   "https://escholarship.org/uc/item/4ps6948f",
+   "https://www.psychologicalscience.org/observer/replications-dont-hinge-on-sample-and-setting-differences-multilab-project-shows",
+   "https://scholarlypublications.universiteitleiden.nl/handle/1887/74652"
+  ]
+ },
+ {
   "id": "cm:email",
   "title": "Email",
   "aliases": [

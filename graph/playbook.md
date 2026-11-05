@@ -11,6 +11,14 @@ Ask yourself:
 - If my reader had only this message and none of my background, what would they do next?
 - Have I asked someone outside the work to restate my point in their own words, or am I only judging clarity myself?
 
+### [Egocentric bias](../articles/barriers-and-psychology/egocentric-bias.md) — Barrier
+
+Ask yourself:
+- If someone outside my team read this message cold, what would they need that I am carrying only in my head?
+- Have I asked the other person what they think, or am I just imagining their view and trusting my guess?
+- Before I say how much I did on this project, have I listed what each other person contributed?
+- Am I assuming my tone is obvious in this email because I can hear it in my own head?
+
 ### [Illusion of transparency](../articles/barriers-and-psychology/illusion-of-transparency.md) — Barrier
 
 Ask yourself:
