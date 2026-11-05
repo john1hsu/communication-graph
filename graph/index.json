@@ -1516,6 +1516,93 @@
   ]
  },
  {
+  "id": "cm:considering-others-contributions-first",
+  "title": "Considering others' contributions first",
+  "aliases": [
+   "unpacking others' contributions",
+   "other-focused responsibility assessment",
+   "others-first credit check"
+  ],
+  "type": "Technique",
+  "domain": "barriers-and-psychology",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/barriers-and-psychology/considering-others-contributions-first.md",
+  "created": "2026-11-05",
+  "summary": "Before judging or describing your own share of a team's work, deliberately listing each collaborator and what they did, which curbs the habit of over-claiming credit that comes from remembering your own work best.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:perspective-taking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:egocentric-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:perspective-getting"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:feedback"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:one-on-one-meetings"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:egocentric-bias",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:caruso-epley-bazerman-2006",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:schroeder-caruso-epley-2016",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:team-project",
+    "source": "s1",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Before I describe what I did on this project, have I named everyone else and what they did?",
+   "If each person on the team wrote down their share, would our numbers add up to more than 100%?",
+   "Whose work am I least likely to remember because it happened out of my sight?",
+   "If the list shows I carried more than others, am I raising the workload split for next time instead of keeping score?"
+  ],
+  "steps": [
+   "Before anyone states or estimates their own share of a piece of team work, write down the name of every person who contributed, including people outside the core team.",
+   "Next to each name, note one or two concrete things that person did, such as drafts written, analysis run, approvals chased or customers handled.",
+   "Only after the list is done, write your own contributions in the same concrete terms and estimate your share.",
+   "If people give percentages, add them up; a total well above 100% is a signal that someone's work is being overlooked, not that someone is lying.",
+   "In large teams, split the review by sub-team or workstream and make assignments explicit, so each person has fewer colleagues' contributions to recall.",
+   "When the list shows an uneven split, talk about how work will be divided next time rather than letting the person who carried more quietly resent it."
+  ],
+  "example": {
+   "situation": "A project lead is drafting the end-of-quarter update to a director about a launch that five people worked on.",
+   "before": "I drove the launch end to end: I built the rollout plan, fixed the pricing page and got legal sign-off. Shipped on time.",
+   "after": "The launch shipped on time. Ana built the analytics dashboard, Raj rewrote the pricing page, Mei ran the legal review, and Tom handled the support handoff. I owned the rollout plan and coordinated the go/no-go calls.",
+   "why": "Listing colleagues first surfaces work the lead had half forgotten, gives the director an accurate picture of who to recognise, and still states the lead's real role plainly."
+  },
+  "source_urls": [
+   "https://anderson-review.ucla.edu/wp-content/uploads/2021/03/Caruso-et_al_Undoing_Egocentrism_JPSP2006.pdf",
+   "https://escholarship.org/uc/item/4ps6948f",
+   "https://newsroom.haas.berkeley.edu/research/like-to-thank-myself-2/"
+  ]
+ },
+ {
   "id": "cm:curse-of-knowledge",
   "title": "Curse of knowledge",
   "aliases": [

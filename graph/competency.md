@@ -6,9 +6,7 @@ SPARQL queries in `queries/` run over the asserted graph, the OWL-RL inferences 
 
 _Which written barriers or anti-patterns have nothing in the graph that addresses them?_ — `queries/01-problems-without-fix.rq`
 
-| node | type |
-|---|---|
-| `cm:egocentric-bias` | cmo:Barrier |
+_No results._
 
 ## Skills with no practice technique (gap)
 
@@ -47,6 +45,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:camera-level-gaze` | 1 | Gaze and eye contact |
 | `cm:camera-optional-norm` | 1 | Zoom fatigue |
 | `cm:communicating-uncertainty` | 1 | vague-probability-language |
+| `cm:considering-others-contributions-first` | 1 | Egocentric bias |
 | `cm:feedforward` | 1 | Defensiveness |
 | `cm:humble-inquiry` | 1 | telling-instead-of-asking |
 | `cm:issue-selling` | 1 | Managing up |
@@ -95,7 +94,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:presentation` | `cm:anxiety-reappraisal` |
 | `cm:presentation` | `cm:assertion-evidence-slides` |
 
-…and 9 more.
+…and 10 more.
 
 ## Myths and contested advice
 
@@ -117,6 +116,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:camera-optional-norm` | mixed | `cm:bennett-et-al-2021` |
 | `cm:channel-selection` | mixed | `cm:dennis-kinney-1998` |
 | `cm:communicating-uncertainty` | mixed |  |
+| `cm:considering-others-contributions-first` | mixed |  |
 | `cm:curse-of-knowledge` | mixed | `cm:ryskin-brown-schmidt-2014` |
 | `cm:defensiveness` | mixed | `cm:forward-czech-lee-2011` |
 | `cm:direct-vs-indirect-feedback` | mixed | `cm:brew-cairns-2004` |
@@ -132,9 +132,8 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:issue-selling` | mixed |  |
 | `cm:macinnis-mackinnon-macintyre-2010` | mixed |  |
 | `cm:meeting-agendas` | mixed |  |
-| `cm:multiple-equivalent-simultaneous-offers` | mixed |  |
 
-…and 17 more.
+…and 18 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -144,6 +143,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 |---|---|
 | `cm:apology` | cmo:Genre |
 | `cm:camera-level-gaze` | cmo:Technique |
+| `cm:considering-others-contributions-first` | cmo:Technique |
 | `cm:egocentric-bias` | cmo:Barrier |
 | `cm:eye-contact` | cmo:Skill |
 | `cm:meeting-agendas` | cmo:Technique |

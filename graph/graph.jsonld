@@ -1313,6 +1313,75 @@
    ]
   },
   {
+   "@id": "cm:considering-others-contributions-first",
+   "@type": "cmo:Technique",
+   "cmo:addresses": {
+    "@id": "cm:egocentric-bias"
+   },
+   "cmo:appliedIn": {
+    "@id": "cm:team-project"
+   },
+   "cmo:demonstratedBy": {
+    "@id": "cm:caruso-epley-bazerman-2006"
+   },
+   "cmo:domain": "barriers-and-psychology",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/considering-others-contributions-first/example"
+   },
+   "cmo:file": "articles/barriers-and-psychology/considering-others-contributions-first.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/considering-others-contributions-first/howto"
+   },
+   "cmo:level": "introductory",
+   "cmo:supportedBy": {
+    "@id": "cm:schroeder-caruso-epley-2016"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/considering-others-contributions-first/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/considering-others-contributions-first/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/considering-others-contributions-first/s3"
+    }
+   ],
+   "rdfs:label": "Considering others' contributions first",
+   "skos:altLabel": [
+    "other-focused responsibility assessment",
+    "others-first credit check",
+    "unpacking others' contributions"
+   ],
+   "skos:broader": {
+    "@id": "cm:perspective-taking"
+   },
+   "skos:definition": "Before judging or describing your own share of a team's work, deliberately listing each collaborator and what they did, which curbs the habit of over-claiming credit that comes from remembering your own work best.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/barriers-and-psychology"
+   },
+   "skos:prefLabel": "Considering others' contributions first",
+   "skos:related": [
+    {
+     "@id": "cm:egocentric-bias"
+    },
+    {
+     "@id": "cm:feedback"
+    },
+    {
+     "@id": "cm:one-on-one-meetings"
+    },
+    {
+     "@id": "cm:perspective-getting"
+    }
+   ]
+  },
+  {
    "@id": "cm:curse-of-knowledge",
    "@type": "cmo:Barrier",
    "cmo:causes": {
@@ -7033,6 +7102,107 @@
    "cmo:why": "The before version mixes false reassurance with a blanket hedge, so leaders can neither plan nor challenge it; the after version gives a point estimate, a range, the quality of the evidence and when it will improve, which is what a decision needs."
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/considering-others-contributions-first/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:considering-others-contributions-first"
+   },
+   "rdfs:label": "Before I describe what I did on this project, have I named everyone else and what they did?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/considering-others-contributions-first/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:considering-others-contributions-first"
+   },
+   "rdfs:label": "If each person on the team wrote down their share, would our numbers add up to more than 100%?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/considering-others-contributions-first/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:considering-others-contributions-first"
+   },
+   "rdfs:label": "Whose work am I least likely to remember because it happened out of my sight?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/considering-others-contributions-first/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:considering-others-contributions-first"
+   },
+   "rdfs:label": "If the list shows I carried more than others, am I raising the workload split for next time instead of keeping score?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/considering-others-contributions-first/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "The launch shipped on time. Ana built the analytics dashboard, Raj rewrote the pricing page, Mei ran the legal review, and Tom handled the support handoff. I owned the rollout plan and coordinated the go/no-go calls.",
+   "cmo:before": "I drove the launch end to end: I built the rollout plan, fixed the pricing page and got legal sign-off. Shipped on time.",
+   "cmo:situation": "A project lead is drafting the end-of-quarter update to a director about a launch that five people worked on.",
+   "cmo:why": "Listing colleagues first surfaces work the lead had half forgotten, gives the director an accurate picture of who to recognise, and still states the lead's real role plainly."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/considering-others-contributions-first/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Considering others' contributions first",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/considering-others-contributions-first/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/considering-others-contributions-first/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/considering-others-contributions-first/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/considering-others-contributions-first/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/considering-others-contributions-first/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/considering-others-contributions-first/howto/6"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/considering-others-contributions-first/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Before anyone states or estimates their own share of a piece of team work, write down the name of every person who contributed, including people outside the core team."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/considering-others-contributions-first/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Next to each name, note one or two concrete things that person did, such as drafts written, analysis run, approvals chased or customers handled."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/considering-others-contributions-first/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Only after the list is done, write your own contributions in the same concrete terms and estimate your share."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/considering-others-contributions-first/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "If people give percentages, add them up; a total well above 100% is a signal that someone's work is being overlooked, not that someone is lying."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/considering-others-contributions-first/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "In large teams, split the review by sub-team or workstream and make assignments explicit, so each person has fewer colleagues' contributions to recall."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/considering-others-contributions-first/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "When the list shows an uneven split, talk about how work will be divided next time rather than letting the person who carried more quietly resent it."
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/curse-of-knowledge/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -10182,6 +10352,48 @@
    "dcterms:title": "CERC Overview for COVID-19",
    "schema:url": {
     "@id": "https://emergency-origin.cdc.gov/cerc/training/pdf/COVID19_CERC.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/considering-others-contributions-first/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Caruso, Epley & Bazerman, Journal of Personality and Social Psychology 91(5), 857-871, 2006 (author copy, UCLA Anderson Review)",
+   "dcterms:title": "The costs and benefits of undoing egocentric responsibility assessments in groups",
+   "schema:url": {
+    "@id": "https://anderson-review.ucla.edu/wp-content/uploads/2021/03/Caruso-et_al_Undoing_Egocentrism_JPSP2006.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/considering-others-contributions-first/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Schroeder, Caruso & Epley, Journal of Experimental Psychology: Applied 22(2), 238-246, 2016 (eScholarship, University of California)",
+   "dcterms:title": "Many hands make overlooked work: Over-claiming of responsibility increases with group size",
+   "schema:url": {
+    "@id": "https://escholarship.org/uc/item/4ps6948f"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/considering-others-contributions-first/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Berkeley Haas School of Business, Haas Newsroom (on Schroeder, Caruso & Epley, 2016)",
+   "dcterms:title": "I'd Like to Thank...Myself",
+   "schema:url": {
+    "@id": "https://newsroom.haas.berkeley.edu/research/like-to-thank-myself-2/"
    }
   },
   {

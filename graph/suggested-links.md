@@ -4,19 +4,19 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 
 | Score | Node A | Node B | Shared neighbours |
 |---|---|---|---|
-| 2.79 | `cm:difficult-conversation` | `cm:situation-behavior-impact` | `cm:active-listening`, `cm:defensiveness`, `cm:feedback`, `cm:i-statements`, `cm:nonviolent-communication` |
+| 2.78 | `cm:difficult-conversation` | `cm:situation-behavior-impact` | `cm:active-listening`, `cm:defensiveness`, `cm:feedback`, `cm:i-statements`, `cm:nonviolent-communication` |
 | 2.49 | `cm:anxiety-reappraisal` | `cm:spotlight-effect` | `cm:illusion-of-transparency`, `cm:macinnis-mackinnon-macintyre-2010`, `cm:self-distancing`, `cm:social-anxiety`, `cm:speaking-anxiety` |
 | 2.43 | `cm:camera-level-gaze` | `cm:proxemics` | `cm:eye-contact`, `cm:nonverbal-communication`, `cm:rapport`, `cm:video-call-communication`, `cm:zoom-fatigue` |
 | 2.21 | `cm:i-statements` | `cm:weger-et-al-2014` | `cm:active-listening`, `cm:paraphrasing`, `cm:thomas-gordon` |
-| 2.20 | `cm:anchoring-and-adjustment` | `cm:thomas-gilovich` | `cm:curse-of-knowledge`, `cm:egocentric-bias`, `cm:gilovich-savitsky-medvec-1998`, `cm:illusion-of-transparency`, `cm:macinnis-mackinnon-macintyre-2010` |
-| 2.19 | `cm:active-listening` | `cm:feedback` | `cm:defensiveness`, `cm:difficult-conversation`, `cm:feedforward`, `cm:one-on-one-meetings`, `cm:psychological-safety` |
+| 2.19 | `cm:anchoring-and-adjustment` | `cm:thomas-gilovich` | `cm:curse-of-knowledge`, `cm:egocentric-bias`, `cm:gilovich-savitsky-medvec-1998`, `cm:illusion-of-transparency`, `cm:macinnis-mackinnon-macintyre-2010` |
+| 2.18 | `cm:active-listening` | `cm:feedback` | `cm:defensiveness`, `cm:difficult-conversation`, `cm:feedforward`, `cm:one-on-one-meetings`, `cm:psychological-safety` |
 | 2.16 | `cm:one-on-one-meetings` | `cm:zoom-fatigue` | `cm:employee-engagement`, `cm:workplace-meetings` |
 | 2.15 | `cm:humble-inquiry` | `cm:weger-et-al-2014` | `cm:active-listening`, `cm:advice-giving`, `cm:open-ended-questions` |
 | 2.14 | `cm:managing-up` | `cm:message-equivocality-media-selection-and-manager-performance` | `cm:audience-analysis`, `cm:channel-selection`, `cm:organizational-communication` |
 | 2.13 | `cm:egocentric-bias` | `cm:teach-back` | `cm:checking-understanding`, `cm:curse-of-knowledge`, `cm:illusion-of-transparency` |
 | 2.11 | `cm:difficult-conversation` | `cm:small-talk` | `cm:active-listening`, `cm:kardas-kumar-epley-2021`, `cm:psychological-safety` |
-| 2.11 | `cm:one-on-one-meetings` | `cm:situation-behavior-impact` | `cm:active-listening`, `cm:feedback`, `cm:feedforward`, `cm:kluger-denisi-1996`, `cm:performance-review` |
 | 2.10 | `cm:one-on-one-meetings` | `cm:small-talk` | `cm:active-listening`, `cm:humble-inquiry`, `cm:interpersonal-communication`, `cm:open-ended-questions`, `cm:psychological-safety` |
+| 2.10 | `cm:one-on-one-meetings` | `cm:situation-behavior-impact` | `cm:active-listening`, `cm:feedback`, `cm:feedforward`, `cm:kluger-denisi-1996`, `cm:performance-review` |
 | 2.04 | `cm:illusion-of-transparency` | `cm:plain-language` | `cm:clarity`, `cm:curse-of-knowledge`, `cm:email`, `cm:teach-back`, `cm:words-of-estimative-probability` |
 | 1.97 | `cm:email` | `cm:zoom-fatigue` | `cm:asynchronous-communication`, `cm:channel-selection`, `cm:information-overload` |
 | 1.97 | `cm:ray-tomlinson` | `cm:zoom-fatigue` | `cm:asynchronous-communication`, `cm:channel-selection`, `cm:information-overload` |

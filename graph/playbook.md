@@ -4,6 +4,29 @@ Every before/after rewrite, step-by-step procedure and self-check question in th
 
 ## barriers-and-psychology
 
+### [Considering others' contributions first](../articles/barriers-and-psychology/considering-others-contributions-first.md) — Technique
+
+1. Before anyone states or estimates their own share of a piece of team work, write down the name of every person who contributed, including people outside the core team.
+2. Next to each name, note one or two concrete things that person did, such as drafts written, analysis run, approvals chased or customers handled.
+3. Only after the list is done, write your own contributions in the same concrete terms and estimate your share.
+4. If people give percentages, add them up; a total well above 100% is a signal that someone's work is being overlooked, not that someone is lying.
+5. In large teams, split the review by sub-team or workstream and make assignments explicit, so each person has fewer colleagues' contributions to recall.
+6. When the list shows an uneven split, talk about how work will be divided next time rather than letting the person who carried more quietly resent it.
+
+*A project lead is drafting the end-of-quarter update to a director about a launch that five people worked on.*
+
+| Before | After |
+|---|---|
+| I drove the launch end to end: I built the rollout plan, fixed the pricing page and got legal sign-off. Shipped on time. | The launch shipped on time. Ana built the analytics dashboard, Raj rewrote the pricing page, Mei ran the legal review, and Tom handled the support handoff. I owned the rollout plan and coordinated the go/no-go calls. |
+
+**Why:** Listing colleagues first surfaces work the lead had half forgotten, gives the director an accurate picture of who to recognise, and still states the lead's real role plainly.
+
+Ask yourself:
+- Before I describe what I did on this project, have I named everyone else and what they did?
+- If each person on the team wrote down their share, would our numbers add up to more than 100%?
+- Whose work am I least likely to remember because it happened out of my sight?
+- If the list shows I carried more than others, am I raising the workload split for next time instead of keeping score?
+
 ### [Curse of knowledge](../articles/barriers-and-psychology/curse-of-knowledge.md) — Barrier
 
 Ask yourself:
