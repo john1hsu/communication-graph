@@ -124,15 +124,15 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:credibility` | mixed |  |
 | `cm:curse-of-knowledge` | mixed | `cm:ryskin-brown-schmidt-2014` |
 | `cm:defensiveness` | mixed | `cm:forward-czech-lee-2011` |
+| `cm:delivering-bad-news` | mixed |  |
 | `cm:direct-vs-indirect-feedback` | mixed | `cm:brew-cairns-2004` |
 | `cm:email` | mixed |  |
 | `cm:ethnocentrism` | mixed |  |
 | `cm:eye-contact` | mixed | `cm:chen-et-al-2013` |
 | `cm:feedback` | mixed |  |
 | `cm:feedforward` | mixed |  |
-| `cm:gilovich-savitsky-medvec-1998` | mixed |  |
 
-…and 28 more.
+…and 29 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -145,6 +145,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:clarity` | cmo:Concept |
 | `cm:considering-others-contributions-first` | cmo:Technique |
 | `cm:credibility` | cmo:Concept |
+| `cm:delivering-bad-news` | cmo:Context |
 | `cm:egocentric-bias` | cmo:Barrier |
 | `cm:eye-contact` | cmo:Skill |
 | `cm:meeting-agendas` | cmo:Technique |

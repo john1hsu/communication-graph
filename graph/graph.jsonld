@@ -1906,6 +1906,96 @@
    ]
   },
   {
+   "@id": "cm:delivering-bad-news",
+   "@type": "cmo:Context",
+   "cmo:demonstratedBy": [
+    {
+     "@id": "cm:dibble-2017"
+    },
+    {
+     "@id": "cm:johnson-panagioti-2018"
+    },
+    {
+     "@id": "cm:legg-sweeny-2013"
+    }
+   ],
+   "cmo:domain": "difficult-conversations-and-conflict",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:explainedBy": {
+    "@id": "cm:mum-effect"
+   },
+   "cmo:file": "articles/difficult-conversations-and-conflict/delivering-bad-news.md",
+   "cmo:level": "intermediate",
+   "cmo:requires": {
+    "@id": "cm:active-listening"
+   },
+   "cmo:studiedIn": {
+    "@id": "cm:organizational-communication"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/delivering-bad-news/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/delivering-bad-news/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/delivering-bad-news/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/delivering-bad-news/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/delivering-bad-news/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/delivering-bad-news/s6"
+    }
+   ],
+   "rdfs:label": "Delivering bad news",
+   "skos:altLabel": [
+    "breaking bad news",
+    "communicating bad news",
+    "delivering difficult news",
+    "giving bad news"
+   ],
+   "skos:broader": {
+    "@id": "cm:difficult-conversation"
+   },
+   "skos:definition": "The recurring situation of telling someone about an outcome that will disappoint, worry or cost them - a cancelled project, a rejected proposal, a missed deadline, a layoff, a price rise. It goes best when the messenger prepares, states the news early and plainly, makes room for the reaction, and ends with what happens next.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/difficult-conversations-and-conflict"
+   },
+   "skos:prefLabel": "Delivering bad news",
+   "skos:related": [
+    {
+     "@id": "cm:apology"
+    },
+    {
+     "@id": "cm:bottom-line-up-front"
+    },
+    {
+     "@id": "cm:channel-selection"
+    },
+    {
+     "@id": "cm:communicating-uncertainty"
+    },
+    {
+     "@id": "cm:feedback-sandwich"
+    },
+    {
+     "@id": "cm:social-accounts"
+    },
+    {
+     "@id": "cm:spikes-protocol"
+    }
+   ]
+  },
+  {
    "@id": "cm:describe-analyze-evaluate",
    "@type": "cmo:Technique",
    "cmo:addresses": {
@@ -12273,6 +12363,90 @@
    "dcterms:title": "The impact of self-affirmation on health-behavior change: a meta-analysis",
    "schema:url": {
     "@id": "https://pubmed.ncbi.nlm.nih.gov/25133846/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/delivering-bad-news/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Baile, W. F. et al., The Oncologist 5(4), 302-311, 2000 (copy hosted by Koc University)",
+   "dcterms:title": "SPIKES - A Six-Step Protocol for Delivering Bad News: Application to the Patient with Cancer",
+   "schema:url": {
+    "@id": "https://kamer.ku.edu.tr/wp-content/uploads/2022/03/2000-SPIKES-Giving-patients-bad-news.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/delivering-bad-news/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Johnson, J. & Panagioti, M., Academic Medicine 93(9), 1400-1412, 2018 (White Rose Research Online accepted manuscript)",
+   "dcterms:title": "Interventions to Improve the Breaking of Bad or Difficult News by Physicians, Medical Students, and Interns/Residents: A Systematic Review and Meta-Analysis",
+   "schema:url": {
+    "@id": "https://eprints.whiterose.ac.uk/131932/1/Interventions_to_Improve_the_Breaking_of_Bad_or.97887.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/delivering-bad-news/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Dibble, J. L., Communication Research Reports 35(2), 112-120 (2017) (author copy via CORE, Hope College)",
+   "dcterms:title": "It's More Than Self-Presentation: MUM Effects Can Reflect Private Discomfort and Concern for the Recipient",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/268392421.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/delivering-bad-news/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "National Center for Principled Leadership & Research Ethics (NCPRE), University of Illinois Urbana-Champaign, Leadership Collection",
+   "dcterms:title": "Delivering Difficult News",
+   "schema:url": {
+    "@id": "https://lcpathways.web.illinois.edu/communication/delivering-difficult-news/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/delivering-bad-news/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "news",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Science News (Bethany Brookshire), 14 November 2013, on Legg, A. M. & Sweeny, K., Personality and Social Psychology Bulletin, published online 2013",
+   "dcterms:title": "Do you want the good news or the bad news first?",
+   "schema:url": {
+    "@id": "https://www.sciencenews.org/blog/scicurious/do-you-want-good-news-or-bad-news-first"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/delivering-bad-news/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Journal of Management 39(1), 136-162, SAGE, 2013, doi:10.1177/0149206312461053 (Scilit record and abstract)",
+   "dcterms:title": "The Delivery of Bad News in Organizations",
+   "schema:url": {
+    "@id": "https://www.scilit.net/publications/1ddb310ceca6a5b5e243da3d2ae23c81"
    }
   },
   {
