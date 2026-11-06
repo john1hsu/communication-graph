@@ -881,6 +881,29 @@ Ask yourself:
 - When I felt a filler coming in that talk, did I pause silently instead?
 - Have I tested the new habit in front of a real audience, not just alone with a recorder?
 
+### [Presentation rehearsal](../articles/presenting-and-public-speaking/presentation-rehearsal.md) — Technique
+
+1. Start at least several days ahead and split practice into short sessions (opening, body, close) rather than one late-night cram.
+2. Rehearse the whole talk out loud, standing, at full volume, with the slides or notes you will actually use.
+3. Time every full run-through and cut material until you finish comfortably inside the slot.
+4. Record one run on your phone, watch it back, and note one or two specific delivery habits to fix.
+5. Give at least one run-through to a small live audience - three or four colleagues - and ask each for one thing that was unclear and one thing to keep.
+6. Do a final rehearsal in the real room or on the real video setup, then stop practising and sleep.
+
+*A product manager has a 10-minute slot to propose a pricing change to the leadership team on Thursday.*
+
+| Before | After |
+|---|---|
+| She builds the deck on Wednesday night, clicks through it silently twice at her desk, and on Thursday runs four minutes over, loses her place on slide 6 and has no answer when the CFO asks about churn. | On Monday she talks the deck through aloud and finds it runs 14 minutes, so she cuts two slides. On Tuesday she records a run, notices she reads the slides with her back to the camera, and fixes it. On Wednesday three peers sit in; one asks about churn, so she adds a backup slide. Thursday's talk ends at nine minutes. |
+
+**Why:** Rehearsing aloud exposed the timing problem, the recording exposed a delivery habit she could not feel, and a live audience surfaced the question leadership was likely to ask - none of which silent clicking would reveal.
+
+Ask yourself:
+- Have I said the whole talk out loud, standing, at least once from start to finish?
+- Do I know how long it actually runs, from a timed run-through rather than a guess?
+- Has anyone other than me heard it and told me what was unclear?
+- Did I rehearse with the same slides, notes and setup I will use on the day?
+
 ### [Public speaking anxiety](../articles/presenting-and-public-speaking/speaking-anxiety.md) — Barrier
 
 Ask yourself:

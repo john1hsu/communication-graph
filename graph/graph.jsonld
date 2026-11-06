@@ -5350,6 +5350,99 @@
    ]
   },
   {
+   "@id": "cm:presentation-rehearsal",
+   "@type": "cmo:Technique",
+   "cmo:addresses": {
+    "@id": "cm:speaking-anxiety"
+   },
+   "cmo:appliedIn": {
+    "@id": "cm:presentation"
+   },
+   "cmo:develops": {
+    "@id": "cm:public-speaking"
+   },
+   "cmo:domain": "presenting-and-public-speaking",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/example"
+   },
+   "cmo:file": "articles/presenting-and-public-speaking/presentation-rehearsal.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/howto"
+   },
+   "cmo:level": "introductory",
+   "cmo:supportedBy": [
+    {
+     "@id": "cm:menzel-carrell-1994"
+    },
+    {
+     "@id": "cm:smith-frymier-2006"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/presentation-rehearsal/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/presentation-rehearsal/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/presentation-rehearsal/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/presentation-rehearsal/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/presentation-rehearsal/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/presentation-rehearsal/s6"
+    }
+   ],
+   "rdfs:label": "Presentation rehearsal",
+   "skos:altLabel": [
+    "dry run",
+    "practice run-through",
+    "rehearsing a presentation",
+    "speech rehearsal"
+   ],
+   "skos:broader": {
+    "@id": "cm:public-speaking"
+   },
+   "skos:definition": "Practising a talk out loud, on your feet and in conditions close to the real event - ideally in front of a few listeners who give feedback - before you deliver it. Time spent rehearsing aloud and before an audience is linked to better-rated speeches.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/presenting-and-public-speaking"
+   },
+   "skos:prefLabel": "Presentation rehearsal",
+   "skos:related": [
+    {
+     "@id": "cm:anxiety-reappraisal"
+    },
+    {
+     "@id": "cm:assertion-evidence-slides"
+    },
+    {
+     "@id": "cm:deliberate-practice"
+    },
+    {
+     "@id": "cm:feedback"
+    },
+    {
+     "@id": "cm:filled-pauses"
+    },
+    {
+     "@id": "cm:habit-reversal-training"
+    },
+    {
+     "@id": "cm:speaking-anxiety"
+    }
+   ]
+  },
+  {
    "@id": "cm:proxemics",
    "@type": "cmo:Concept",
    "cmo:appliedIn": [
@@ -10490,6 +10583,107 @@
     "@id": "cm:plain-language"
    },
    "rdfs:label": "Could a reader say in their own words what I want them to do next?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:presentation-rehearsal"
+   },
+   "rdfs:label": "Have I said the whole talk out loud, standing, at least once from start to finish?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:presentation-rehearsal"
+   },
+   "rdfs:label": "Do I know how long it actually runs, from a timed run-through rather than a guess?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:presentation-rehearsal"
+   },
+   "rdfs:label": "Has anyone other than me heard it and told me what was unclear?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:presentation-rehearsal"
+   },
+   "rdfs:label": "Did I rehearse with the same slides, notes and setup I will use on the day?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "On Monday she talks the deck through aloud and finds it runs 14 minutes, so she cuts two slides. On Tuesday she records a run, notices she reads the slides with her back to the camera, and fixes it. On Wednesday three peers sit in; one asks about churn, so she adds a backup slide. Thursday's talk ends at nine minutes.",
+   "cmo:before": "She builds the deck on Wednesday night, clicks through it silently twice at her desk, and on Thursday runs four minutes over, loses her place on slide 6 and has no answer when the CFO asks about churn.",
+   "cmo:situation": "A product manager has a 10-minute slot to propose a pricing change to the leadership team on Thursday.",
+   "cmo:why": "Rehearsing aloud exposed the timing problem, the recording exposed a delivery habit she could not feel, and a live audience surfaced the question leadership was likely to ask - none of which silent clicking would reveal."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Presentation rehearsal",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/howto/6"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Start at least several days ahead and split practice into short sessions (opening, body, close) rather than one late-night cram."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Rehearse the whole talk out loud, standing, at full volume, with the slides or notes you will actually use."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Time every full run-through and cut material until you finish comfortably inside the slot."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Record one run on your phone, watch it back, and note one or two specific delivery habits to fix."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Give at least one run-through to a small live audience - three or four colleagues - and ask each for one thing that was unclear and one thing to keep."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "Do a final rehearsal in the real room or on the real video setup, then stop practising and sleep."
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/pyramid-principle/check/1",
@@ -16093,6 +16287,90 @@
    "dcterms:title": "Plain language summaries: A systematic review of theory, guidelines and empirical research",
    "schema:url": {
     "@id": "https://pubmed.ncbi.nlm.nih.gov/35666746/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/presentation-rehearsal/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Menzel & Carrell, Communication Education 43(1), 17-26, 1994 (Taylor & Francis abstract)",
+   "dcterms:title": "The relationship between preparation and performance in public speaking",
+   "schema:url": {
+    "@id": "https://informahealthcare.com/doi/abs/10.1080/03634529409378958"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/presentation-rehearsal/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Smith & Frymier, Communication Quarterly 54(1), 2006 (Taylor & Francis abstract)",
+   "dcterms:title": "Get 'real': Does practicing speeches before an audience improve performance?",
+   "schema:url": {
+    "@id": "https://informahealthcare.com/doi/abs/10.1080/01463370500270538"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/presentation-rehearsal/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Pearson, Child & Kahl, Communication Quarterly 54(3), 351-366, 2006 (Penn State research portal)",
+   "dcterms:title": "Preparation meeting opportunity: How do college students prepare for public speeches?",
+   "schema:url": {
+    "@id": "https://pure.psu.edu/en/publications/preparation-meeting-opportunity-how-do-college-students-prepare-f/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/presentation-rehearsal/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Macnamara, Hambrick & Oswald, Psychological Science 25(8), 1608-1618, 2014 (PubMed record)",
+   "dcterms:title": "Deliberate practice and performance in music, games, sports, education, and professions: a meta-analysis",
+   "schema:url": {
+    "@id": "https://pubmed.ncbi.nlm.nih.gov/24986855/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/presentation-rehearsal/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Takac, Collett, Blom, Conduit, Rehm & De Foe, PLoS ONE 14(5), e0216288, 2019 (PubMed Central)",
+   "dcterms:title": "Public speaking anxiety decreases within repeated virtual reality training sessions",
+   "schema:url": {
+    "@id": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6544213"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/presentation-rehearsal/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "The Speech Lab, Grand Valley State University",
+   "dcterms:title": "Practicing Presentations",
+   "schema:url": {
+    "@id": "https://www.gvsu.edu/speechlab/practicing-presentations-18"
    }
   },
   {

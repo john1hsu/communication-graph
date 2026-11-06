@@ -532,6 +532,15 @@
 <https://github.com/john1hsu/communication-graph/id/habit-reversal-training#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/habit-reversal-training/s4> .
 <https://github.com/john1hsu/communication-graph/id/habit-reversal-training#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/habit-reversal-training/s5> .
 <https://github.com/john1hsu/communication-graph/id/habit-reversal-training#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/habit-reversal-training/s6> .
+<https://github.com/john1hsu/communication-graph/id/presentation-rehearsal#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/presentation-rehearsal#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> .
+<https://github.com/john1hsu/communication-graph/id/presentation-rehearsal#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/presenting-and-public-speaking/presentation-rehearsal.md" .
+<https://github.com/john1hsu/communication-graph/id/presentation-rehearsal#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/presentation-rehearsal/s1> .
+<https://github.com/john1hsu/communication-graph/id/presentation-rehearsal#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/presentation-rehearsal/s2> .
+<https://github.com/john1hsu/communication-graph/id/presentation-rehearsal#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/presentation-rehearsal/s3> .
+<https://github.com/john1hsu/communication-graph/id/presentation-rehearsal#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/presentation-rehearsal/s4> .
+<https://github.com/john1hsu/communication-graph/id/presentation-rehearsal#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/presentation-rehearsal/s5> .
+<https://github.com/john1hsu/communication-graph/id/presentation-rehearsal#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/presentation-rehearsal/s6> .
 <https://github.com/john1hsu/communication-graph/id/speaking-anxiety#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/speaking-anxiety#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> .
 <https://github.com/john1hsu/communication-graph/id/speaking-anxiety#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/presenting-and-public-speaking/speaking-anxiety.md" .
@@ -6582,6 +6591,123 @@
   <https://github.com/john1hsu/communication-graph/id/source/habit-reversal-training/s6> <https://schema.org/url> <https://eld.bl.uk/catalog/100148994070_0x000001> .
 }
 
+<https://github.com/john1hsu/communication-graph/id/presentation-rehearsal#graph> {
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Have I said the whole talk out loud, standing, at least once from start to finish?" .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Do I know how long it actually runs, from a timed run-through rather than a guess?" .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Has anyone other than me heard it and told me what was unclear?" .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Did I rehearse with the same slides, notes and setup I will use on the day?" .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/example> <https://github.com/john1hsu/communication-graph/ontology#after> "On Monday she talks the deck through aloud and finds it runs 14 minutes, so she cuts two slides. On Tuesday she records a run, notices she reads the slides with her back to the camera, and fixes it. On Wednesday three peers sit in; one asks about churn, so she adds a backup slide. Thursday's talk ends at nine minutes." .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/example> <https://github.com/john1hsu/communication-graph/ontology#before> "She builds the deck on Wednesday night, clicks through it silently twice at her desk, and on Thursday runs four minutes over, loses her place on slide 6 and has no answer when the CFO asks about churn." .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "A product manager has a 10-minute slot to propose a pricing change to the leadership team on Thursday." .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/example> <https://github.com/john1hsu/communication-graph/ontology#why> "Rehearsing aloud exposed the timing problem, the recording exposed a delivery habit she could not feel, and a live audience surfaced the question leadership was likely to ask - none of which silent clicking would reveal." .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/howto/1> <https://schema.org/text> "Start at least several days ahead and split practice into short sessions (opening, body, close) rather than one late-night cram." .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/howto/2> <https://schema.org/text> "Rehearse the whole talk out loud, standing, at full volume, with the slides or notes you will actually use." .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/howto/3> <https://schema.org/text> "Time every full run-through and cut material until you finish comfortably inside the slot." .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/howto/4> <https://schema.org/text> "Record one run on your phone, watch it back, and note one or two specific delivery habits to fix." .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/howto/5> <https://schema.org/text> "Give at least one run-through to a small live audience - three or four colleagues - and ask each for one thing that was unclear and one thing to keep." .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/howto/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/howto/6> <https://schema.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/howto/6> <https://schema.org/text> "Do a final rehearsal in the real room or on the real video setup, then stop practising and sleep." .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/howto> <https://schema.org/name> "Presentation rehearsal" .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/howto/1> .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/howto/2> .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/howto/3> .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/howto/4> .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/howto/5> .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/howto/6> .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <http://purl.org/dc/terms/created> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Technique> .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <http://www.w3.org/2000/01/rdf-schema#label> "Presentation rehearsal" .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <http://www.w3.org/2004/02/skos/core#altLabel> "dry run" .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <http://www.w3.org/2004/02/skos/core#altLabel> "practice run-through" .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <http://www.w3.org/2004/02/skos/core#altLabel> "rehearsing a presentation" .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <http://www.w3.org/2004/02/skos/core#altLabel> "speech rehearsal" .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/public-speaking> .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <http://www.w3.org/2004/02/skos/core#definition> "Practising a talk out loud, on your feet and in conditions close to the real event - ideally in front of a few listeners who give feedback - before you deliver it. Time spent rehearsing aloud and before an audience is linked to better-rated speeches." .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/presenting-and-public-speaking> .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <http://www.w3.org/2004/02/skos/core#prefLabel> "Presentation rehearsal" .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/deliberate-practice> .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/feedback> .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/filled-pauses> .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/presentation-rehearsal/s1> .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/presentation-rehearsal/s2> .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/presentation-rehearsal/s3> .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/presentation-rehearsal/s4> .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/presentation-rehearsal/s5> .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/presentation-rehearsal/s6> .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/presentation> .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <https://github.com/john1hsu/communication-graph/ontology#develops> <https://github.com/john1hsu/communication-graph/id/public-speaking> .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <https://github.com/john1hsu/communication-graph/ontology#domain> "presenting-and-public-speaking" .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/example> .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/presenting-and-public-speaking/presentation-rehearsal.md" .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/howto> .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/menzel-carrell-1994> .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/smith-frymier-2006> .
+  <https://github.com/john1hsu/communication-graph/id/source/presentation-rehearsal/s1> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/presentation-rehearsal/s1> <http://purl.org/dc/terms/publisher> "Menzel & Carrell, Communication Education 43(1), 17-26, 1994 (Taylor & Francis abstract)" .
+  <https://github.com/john1hsu/communication-graph/id/source/presentation-rehearsal/s1> <http://purl.org/dc/terms/title> "The relationship between preparation and performance in public speaking" .
+  <https://github.com/john1hsu/communication-graph/id/source/presentation-rehearsal/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/presentation-rehearsal/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/presentation-rehearsal/s1> <https://schema.org/url> <https://informahealthcare.com/doi/abs/10.1080/03634529409378958> .
+  <https://github.com/john1hsu/communication-graph/id/source/presentation-rehearsal/s2> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/presentation-rehearsal/s2> <http://purl.org/dc/terms/publisher> "Smith & Frymier, Communication Quarterly 54(1), 2006 (Taylor & Francis abstract)" .
+  <https://github.com/john1hsu/communication-graph/id/source/presentation-rehearsal/s2> <http://purl.org/dc/terms/title> "Get 'real': Does practicing speeches before an audience improve performance?" .
+  <https://github.com/john1hsu/communication-graph/id/source/presentation-rehearsal/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/presentation-rehearsal/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/presentation-rehearsal/s2> <https://schema.org/url> <https://informahealthcare.com/doi/abs/10.1080/01463370500270538> .
+  <https://github.com/john1hsu/communication-graph/id/source/presentation-rehearsal/s3> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/presentation-rehearsal/s3> <http://purl.org/dc/terms/publisher> "Pearson, Child & Kahl, Communication Quarterly 54(3), 351-366, 2006 (Penn State research portal)" .
+  <https://github.com/john1hsu/communication-graph/id/source/presentation-rehearsal/s3> <http://purl.org/dc/terms/title> "Preparation meeting opportunity: How do college students prepare for public speeches?" .
+  <https://github.com/john1hsu/communication-graph/id/source/presentation-rehearsal/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/presentation-rehearsal/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/presentation-rehearsal/s3> <https://schema.org/url> <https://pure.psu.edu/en/publications/preparation-meeting-opportunity-how-do-college-students-prepare-f/> .
+  <https://github.com/john1hsu/communication-graph/id/source/presentation-rehearsal/s4> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/presentation-rehearsal/s4> <http://purl.org/dc/terms/publisher> "Macnamara, Hambrick & Oswald, Psychological Science 25(8), 1608-1618, 2014 (PubMed record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/presentation-rehearsal/s4> <http://purl.org/dc/terms/title> "Deliberate practice and performance in music, games, sports, education, and professions: a meta-analysis" .
+  <https://github.com/john1hsu/communication-graph/id/source/presentation-rehearsal/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/presentation-rehearsal/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/presentation-rehearsal/s4> <https://schema.org/url> <https://pubmed.ncbi.nlm.nih.gov/24986855/> .
+  <https://github.com/john1hsu/communication-graph/id/source/presentation-rehearsal/s5> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/presentation-rehearsal/s5> <http://purl.org/dc/terms/publisher> "Takac, Collett, Blom, Conduit, Rehm & De Foe, PLoS ONE 14(5), e0216288, 2019 (PubMed Central)" .
+  <https://github.com/john1hsu/communication-graph/id/source/presentation-rehearsal/s5> <http://purl.org/dc/terms/title> "Public speaking anxiety decreases within repeated virtual reality training sessions" .
+  <https://github.com/john1hsu/communication-graph/id/source/presentation-rehearsal/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/presentation-rehearsal/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/presentation-rehearsal/s5> <https://schema.org/url> <https://pmc.ncbi.nlm.nih.gov/articles/PMC6544213> .
+  <https://github.com/john1hsu/communication-graph/id/source/presentation-rehearsal/s6> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/presentation-rehearsal/s6> <http://purl.org/dc/terms/publisher> "The Speech Lab, Grand Valley State University" .
+  <https://github.com/john1hsu/communication-graph/id/source/presentation-rehearsal/s6> <http://purl.org/dc/terms/title> "Practicing Presentations" .
+  <https://github.com/john1hsu/communication-graph/id/source/presentation-rehearsal/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/presentation-rehearsal/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/communication-graph/id/source/presentation-rehearsal/s6> <https://schema.org/url> <https://www.gvsu.edu/speechlab/practicing-presentations-18> .
+}
+
 <https://github.com/john1hsu/communication-graph/id/speaking-anxiety#graph> {
   <https://github.com/john1hsu/communication-graph/id/source/speaking-anxiety/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
   <https://github.com/john1hsu/communication-graph/id/source/speaking-anxiety/s1> <http://purl.org/dc/terms/publisher> "Ebrahimi, Pallesen, Kenter & Nordgreen, Frontiers in Psychology 10:488, 2019" .
@@ -8974,6 +9100,7 @@
   <https://github.com/john1hsu/communication-graph/id/defensiveness> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/feedforward> .
   <https://github.com/john1hsu/communication-graph/id/defensiveness> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/i-statements> .
   <https://github.com/john1hsu/communication-graph/id/defensiveness> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> .
+  <https://github.com/john1hsu/communication-graph/id/deliberate-practice> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> .
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/difficult-conversation> .
@@ -9198,6 +9325,7 @@
   <https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/considering-others-contributions-first> .
   <https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/difficult-conversation> .
   <https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/norbert-wiener> .
+  <https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> .
   <https://github.com/john1hsu/communication-graph/id/feedback> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> .
   <https://github.com/john1hsu/communication-graph/id/feedback> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/norbert-wiener> .
   <https://github.com/john1hsu/communication-graph/id/feedback> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996> .
@@ -9687,6 +9815,7 @@
   <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/eye-contact> .
   <https://github.com/john1hsu/communication-graph/id/memorandum> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/effective-writing-for-army-leaders> .
   <https://github.com/john1hsu/communication-graph/id/memorandum> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
+  <https://github.com/john1hsu/communication-graph/id/menzel-carrell-1994> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> .
   <https://github.com/john1hsu/communication-graph/id/message-equivocality-media-selection-and-manager-performance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/message-equivocality-media-selection-and-manager-performance> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
   <https://github.com/john1hsu/communication-graph/id/message-structure> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
@@ -9903,17 +10032,21 @@
   <https://github.com/john1hsu/communication-graph/id/pragmatics> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/grices-maxims> .
   <https://github.com/john1hsu/communication-graph/id/pragmatics> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/common-ground> .
   <https://github.com/john1hsu/communication-graph/id/pragmatics> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/grices-maxims> .
-  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> .
-  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> .
-  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/filled-pauses> .
-  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/public-speaking> .
   <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/self-distancing> .
-  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> .
   <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> .
   <https://github.com/john1hsu/communication-graph/id/presentation-structure> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> .
   <https://github.com/john1hsu/communication-graph/id/presentation> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> .
   <https://github.com/john1hsu/communication-graph/id/presentation> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> .
   <https://github.com/john1hsu/communication-graph/id/presentation> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> .
+  <https://github.com/john1hsu/communication-graph/id/presentation> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> .
   <https://github.com/john1hsu/communication-graph/id/presentation> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/self-distancing> .
   <https://github.com/john1hsu/communication-graph/id/principled-negotiation> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/batna> .
   <https://github.com/john1hsu/communication-graph/id/principled-negotiation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/batna> .
@@ -9942,6 +10075,9 @@
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/spotlight-effect> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/wait-time> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/humble-inquiry> .
+  <https://github.com/john1hsu/communication-graph/id/public-speaking> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> .
+  <https://github.com/john1hsu/communication-graph/id/public-speaking> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> .
+  <https://github.com/john1hsu/communication-graph/id/public-speaking> <https://github.com/john1hsu/communication-graph/ontology#developedBy> <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> .
   <https://github.com/john1hsu/communication-graph/id/pyramid-principle/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/pyramid-principle/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/pyramid-principle/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -10141,6 +10277,7 @@
   <https://github.com/john1hsu/communication-graph/id/small-talk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/small-talk> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
   <https://github.com/john1hsu/communication-graph/id/small-talk> <https://github.com/john1hsu/communication-graph/ontology#developedBy> <https://github.com/john1hsu/communication-graph/id/reciprocal-self-disclosure> .
+  <https://github.com/john1hsu/communication-graph/id/smith-frymier-2006> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> .
   <https://github.com/john1hsu/communication-graph/id/social-accounts/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/social-accounts/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/social-accounts/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -10176,6 +10313,7 @@
   <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> .
   <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/thomas-gilovich> .
   <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> .
+  <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> .
   <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/self-distancing> .
   <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> <https://github.com/john1hsu/communication-graph/ontology#causedBy> <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> .
   <https://github.com/john1hsu/communication-graph/id/spikes-protocol> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> .

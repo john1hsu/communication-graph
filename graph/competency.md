@@ -32,6 +32,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:i-statements` | 2 | Defensiveness, accusatory-you-statements |
 | `cm:nominal-group-technique` | 2 | production-blocking, unequal-participation |
 | `cm:plain-language` | 2 | Curse of knowledge, jargon |
+| `cm:presentation-rehearsal` | 2 | Public speaking anxiety, public-speaking |
 | `cm:risk-numbers-as-natural-frequencies` | 2 | Communicating uncertainty to decision makers, base-rate-neglect |
 | `cm:self-distancing` | 2 | Public speaking anxiety, Spotlight effect |
 | `cm:active-listening` | 1 | Defensiveness |
@@ -57,9 +58,8 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:setting-reply-time-expectations` | 1 | email-urgency-bias |
 | `cm:situation-behavior-impact` | 1 | Defensiveness |
 | `cm:stakeholder-mapping` | 1 | ignoring-stakeholders |
-| `cm:teach-back` | 1 | Illusion of transparency |
 
-…and 1 more.
+…and 2 more.
 
 ## Toolkit by situation
 
@@ -98,7 +98,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:one-on-one-meetings` | `cm:humble-inquiry` |
 | `cm:one-on-one-meetings` | `cm:managing-up` |
 
-…and 21 more.
+…and 22 more.
 
 ## Myths and contested advice
 
@@ -137,7 +137,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:ethnocentrism` | mixed |  |
 | `cm:eye-contact` | mixed | `cm:chen-et-al-2013` |
 
-…and 33 more.
+…and 34 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -159,6 +159,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:one-on-one-meetings` | cmo:Context |
 | `cm:open-ended-questions` | cmo:Technique |
 | `cm:plain-language` | cmo:Principle |
+| `cm:presentation-rehearsal` | cmo:Technique |
 | `cm:raci-matrix` | cmo:Technique |
 | `cm:rapport` | cmo:Concept |
 | `cm:reciprocal-self-disclosure` | cmo:Technique |

@@ -17,7 +17,7 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 2.12 | `cm:humble-inquiry` | `cm:weger-et-al-2014` | `cm:active-listening`, `cm:advice-giving`, `cm:open-ended-questions` |
 | 2.08 | `cm:bottom-line-up-front` | `cm:curse-of-knowledge` | `cm:assertion-evidence-slides`, `cm:audience-analysis`, `cm:channel-selection`, `cm:clarity`, `cm:email` |
 | 2.08 | `cm:difficult-conversation` | `cm:small-talk` | `cm:active-listening`, `cm:kardas-kumar-epley-2021`, `cm:psychological-safety` |
-| 2.08 | `cm:one-on-one-meetings` | `cm:situation-behavior-impact` | `cm:active-listening`, `cm:feedback`, `cm:feedforward`, `cm:kluger-denisi-1996`, `cm:performance-review` |
+| 2.07 | `cm:one-on-one-meetings` | `cm:situation-behavior-impact` | `cm:active-listening`, `cm:feedback`, `cm:feedforward`, `cm:kluger-denisi-1996`, `cm:performance-review` |
 | 2.07 | `cm:common-ground` | `cm:email` | `cm:asynchronous-communication`, `cm:audience-analysis`, `cm:channel-selection`, `cm:curse-of-knowledge`, `cm:illusion-of-transparency` |
 | 2.07 | `cm:one-on-one-meetings` | `cm:small-talk` | `cm:active-listening`, `cm:humble-inquiry`, `cm:interpersonal-communication`, `cm:open-ended-questions`, `cm:psychological-safety` |
 | 2.06 | `cm:one-on-one-meetings` | `cm:zoom-fatigue` | `cm:employee-engagement`, `cm:workplace-meetings` |

@@ -6090,6 +6090,115 @@
   ]
  },
  {
+  "id": "cm:presentation-rehearsal",
+  "title": "Presentation rehearsal",
+  "aliases": [
+   "rehearsing a presentation",
+   "speech rehearsal",
+   "practice run-through",
+   "dry run"
+  ],
+  "type": "Technique",
+  "domain": "presenting-and-public-speaking",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/presenting-and-public-speaking/presentation-rehearsal.md",
+  "created": "2026-11-06",
+  "summary": "Practising a talk out loud, on your feet and in conditions close to the real event - ideally in front of a few listeners who give feedback - before you deliver it. Time spent rehearsing aloud and before an audience is linked to better-rated speeches.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:public-speaking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:speaking-anxiety"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:habit-reversal-training"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:filled-pauses"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:assertion-evidence-slides"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:anxiety-reappraisal"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:feedback"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:deliberate-practice"
+   },
+   {
+    "predicate": "cmo:develops",
+    "object": "cm:public-speaking",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:speaking-anxiety",
+    "source": "s5",
+    "confidence": "low"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:presentation",
+    "source": "s6",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:menzel-carrell-1994",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:smith-frymier-2006",
+    "source": "s2",
+    "confidence": "high"
+   }
+  ],
+  "selfCheck": [
+   "Have I said the whole talk out loud, standing, at least once from start to finish?",
+   "Do I know how long it actually runs, from a timed run-through rather than a guess?",
+   "Has anyone other than me heard it and told me what was unclear?",
+   "Did I rehearse with the same slides, notes and setup I will use on the day?"
+  ],
+  "steps": [
+   "Start at least several days ahead and split practice into short sessions (opening, body, close) rather than one late-night cram.",
+   "Rehearse the whole talk out loud, standing, at full volume, with the slides or notes you will actually use.",
+   "Time every full run-through and cut material until you finish comfortably inside the slot.",
+   "Record one run on your phone, watch it back, and note one or two specific delivery habits to fix.",
+   "Give at least one run-through to a small live audience - three or four colleagues - and ask each for one thing that was unclear and one thing to keep.",
+   "Do a final rehearsal in the real room or on the real video setup, then stop practising and sleep."
+  ],
+  "example": {
+   "situation": "A product manager has a 10-minute slot to propose a pricing change to the leadership team on Thursday.",
+   "before": "She builds the deck on Wednesday night, clicks through it silently twice at her desk, and on Thursday runs four minutes over, loses her place on slide 6 and has no answer when the CFO asks about churn.",
+   "after": "On Monday she talks the deck through aloud and finds it runs 14 minutes, so she cuts two slides. On Tuesday she records a run, notices she reads the slides with her back to the camera, and fixes it. On Wednesday three peers sit in; one asks about churn, so she adds a backup slide. Thursday's talk ends at nine minutes.",
+   "why": "Rehearsing aloud exposed the timing problem, the recording exposed a delivery habit she could not feel, and a live audience surfaced the question leadership was likely to ask - none of which silent clicking would reveal."
+  },
+  "source_urls": [
+   "https://informahealthcare.com/doi/abs/10.1080/03634529409378958",
+   "https://informahealthcare.com/doi/abs/10.1080/01463370500270538",
+   "https://pure.psu.edu/en/publications/preparation-meeting-opportunity-how-do-college-students-prepare-f/",
+   "https://pubmed.ncbi.nlm.nih.gov/24986855/",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC6544213",
+   "https://www.gvsu.edu/speechlab/practicing-presentations-18"
+  ]
+ },
+ {
   "id": "cm:proxemics",
   "title": "Proxemics",
   "aliases": [
