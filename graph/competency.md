@@ -140,7 +140,6 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 
 | node | type |
 |---|---|
-| `cm:apology` | cmo:Genre |
 | `cm:asynchronous-communication` | cmo:Channel |
 | `cm:camera-level-gaze` | cmo:Technique |
 | `cm:clarity` | cmo:Concept |

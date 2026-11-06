@@ -3991,6 +3991,90 @@
    ]
   },
   {
+   "@id": "cm:mea-culpa",
+   "@type": "cmo:Work",
+   "cmo:authoredBy": {
+    "@id": "cm:nicholas-tavuchis"
+   },
+   "cmo:challengedBy": {
+    "@id": "cm:i-was-wrong"
+   },
+   "cmo:contrastsWith": {
+    "@id": "cm:social-accounts"
+   },
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "historical",
+   "cmo:file": "articles/thinkers-and-works/mea-culpa.md",
+   "cmo:influencedBy": {
+    "@id": "cm:erving-goffman"
+   },
+   "cmo:introduces": {
+    "@id": "cm:apology"
+   },
+   "cmo:level": "intermediate",
+   "cmo:requires": {
+    "@id": "cm:apology"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/mea-culpa/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/mea-culpa/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/mea-culpa/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/mea-culpa/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/mea-culpa/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/mea-culpa/s6"
+    }
+   ],
+   "rdfs:label": "Mea Culpa: A Sociology of Apology and Reconciliation",
+   "skos:altLabel": [
+    "Mea Culpa (Tavuchis)",
+    "Tavuchis 1991",
+    "sociology of apology"
+   ],
+   "skos:broader": {
+    "@id": "cm:apology"
+   },
+   "skos:definition": "Nicholas Tavuchis's 1991 Stanford University Press book, a landmark sociological account of apology, which treats it as a two-party moral exchange of admitted fault and regret, separates it from excuses and justifications, and compares interpersonal, institutional and cross-cultural forms.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "Mea Culpa: A Sociology of Apology and Reconciliation",
+   "skos:related": [
+    {
+     "@id": "cm:delivering-bad-news"
+    },
+    {
+     "@id": "cm:denial"
+    },
+    {
+     "@id": "cm:face-and-facework"
+    },
+    {
+     "@id": "cm:lewicki-polin-lount-2016"
+    },
+    {
+     "@id": "cm:social-accounts"
+    },
+    {
+     "@id": "cm:trust-repair"
+    }
+   ]
+  },
+  {
    "@id": "cm:media-richness-theory",
    "@type": "cmo:Theory",
    "cmo:appliedIn": {
@@ -14009,6 +14093,90 @@
    "dcterms:title": "How do I get my way? A meta-analytic review of research on influence tactics",
    "schema:url": {
     "@id": "https://pure.psu.edu/en/publications/how-do-i-get-my-way-a-meta-analytic-review-of-research-on-influen/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/mea-culpa/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Stanford University Press",
+   "dcterms:title": "Mea Culpa: A Sociology of Apology and Reconciliation (book page)",
+   "schema:url": {
+    "@id": "https://www.sup.org/books/title/?id=3130"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/mea-culpa/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "De Gruyter Brill (Stanford University Press partner listing)",
+   "dcterms:title": "Mea Culpa: A Sociology of Apology and Reconciliation (Redwood City: Stanford University Press, 1991; eBook 2022), doi:10.1515/9780804766739",
+   "schema:url": {
+    "@id": "https://www.degruyterbrill.com/document/doi/10.1515/9780804766739/html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/mea-culpa/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Judith Renner, Review of International Studies 37(4), 1579-1597 (2011), doi:10.1017/S0260210510001129 (LMU Munich open-access copy)",
+   "dcterms:title": "'I'm sorry for apologising': Czech and German apologies and their perlocutionary effects",
+   "schema:url": {
+    "@id": "https://epub.ub.uni-muenchen.de/23163/1/Renner_S0260210510001129a.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/mea-culpa/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Nick Smith, Cambridge University Press (2008), chapter 10",
+   "dcterms:title": "Issues Specific to Collective Apologies, in I Was Wrong: The Meanings of Apologies",
+   "schema:url": {
+    "@id": "https://www.cambridge.org/core/books/i-was-wrong/issues-specific-to-collective-apologies/73C46128876A601A754FE01DF1A5574D"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/mea-culpa/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Restorative Justice Exchange, Prison Fellowship International",
+   "dcterms:title": "Mea Culpa: A Sociology of Apology and Reconciliation (archive summary)",
+   "schema:url": {
+    "@id": "https://restorativejustice.org/?p=28216"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/mea-culpa/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "community",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Vitomir Lučić, review hosted on Hrčak, the portal of Croatian scientific journals",
+   "dcterms:title": "Recenzije i prikazi: Nicholas Tavuchis, Mea Culpa (book review, in Croatian)",
+   "schema:url": {
+    "@id": "https://hrcak.srce.hr/file/228297"
    }
   },
   {

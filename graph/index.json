@@ -4559,6 +4559,97 @@
   ]
  },
  {
+  "id": "cm:mea-culpa",
+  "title": "Mea Culpa: A Sociology of Apology and Reconciliation",
+  "aliases": [
+   "Mea Culpa (Tavuchis)",
+   "Tavuchis 1991",
+   "sociology of apology"
+  ],
+  "type": "Work",
+  "domain": "thinkers-and-works",
+  "level": "intermediate",
+  "evidenceStatus": "historical",
+  "file": "articles/thinkers-and-works/mea-culpa.md",
+  "created": "2026-11-06",
+  "summary": "Nicholas Tavuchis's 1991 Stanford University Press book, a landmark sociological account of apology, which treats it as a two-party moral exchange of admitted fault and regret, separates it from excuses and justifications, and compares interpersonal, institutional and cross-cultural forms.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:apology"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:social-accounts"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:trust-repair"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:face-and-facework"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:denial"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:delivering-bad-news"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:lewicki-polin-lount-2016"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:apology"
+   },
+   {
+    "predicate": "cmo:introduces",
+    "object": "cm:apology",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:authoredBy",
+    "object": "cm:nicholas-tavuchis",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:influencedBy",
+    "object": "cm:erving-goffman",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:contrastsWith",
+    "object": "cm:social-accounts",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:i-was-wrong",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://www.sup.org/books/title/?id=3130",
+   "https://www.degruyterbrill.com/document/doi/10.1515/9780804766739/html",
+   "https://epub.ub.uni-muenchen.de/23163/1/Renner_S0260210510001129a.pdf",
+   "https://www.cambridge.org/core/books/i-was-wrong/issues-specific-to-collective-apologies/73C46128876A601A754FE01DF1A5574D",
+   "https://restorativejustice.org/?p=28216",
+   "https://hrcak.srce.hr/file/228297"
+  ]
+ },
+ {
   "id": "cm:media-richness-theory",
   "title": "Media richness theory",
   "aliases": [

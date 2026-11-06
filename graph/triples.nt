@@ -2419,6 +2419,38 @@
 <https://github.com/john1hsu/communication-graph/id/managing-up> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
 <https://github.com/john1hsu/communication-graph/id/managing-up> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/dutton-et-al-2001> .
 <https://github.com/john1hsu/communication-graph/id/managing-up> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/lee-et-al-2017> .
+<https://github.com/john1hsu/communication-graph/id/mea-culpa> <http://purl.org/dc/terms/created> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/mea-culpa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
+<https://github.com/john1hsu/communication-graph/id/mea-culpa> <http://www.w3.org/2000/01/rdf-schema#label> "Mea Culpa: A Sociology of Apology and Reconciliation" .
+<https://github.com/john1hsu/communication-graph/id/mea-culpa> <http://www.w3.org/2004/02/skos/core#altLabel> "Mea Culpa (Tavuchis)" .
+<https://github.com/john1hsu/communication-graph/id/mea-culpa> <http://www.w3.org/2004/02/skos/core#altLabel> "Tavuchis 1991" .
+<https://github.com/john1hsu/communication-graph/id/mea-culpa> <http://www.w3.org/2004/02/skos/core#altLabel> "sociology of apology" .
+<https://github.com/john1hsu/communication-graph/id/mea-culpa> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/apology> .
+<https://github.com/john1hsu/communication-graph/id/mea-culpa> <http://www.w3.org/2004/02/skos/core#definition> "Nicholas Tavuchis's 1991 Stanford University Press book, a landmark sociological account of apology, which treats it as a two-party moral exchange of admitted fault and regret, separates it from excuses and justifications, and compares interpersonal, institutional and cross-cultural forms." .
+<https://github.com/john1hsu/communication-graph/id/mea-culpa> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works> .
+<https://github.com/john1hsu/communication-graph/id/mea-culpa> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mea Culpa: A Sociology of Apology and Reconciliation" .
+<https://github.com/john1hsu/communication-graph/id/mea-culpa> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> .
+<https://github.com/john1hsu/communication-graph/id/mea-culpa> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/denial> .
+<https://github.com/john1hsu/communication-graph/id/mea-culpa> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/face-and-facework> .
+<https://github.com/john1hsu/communication-graph/id/mea-culpa> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/lewicki-polin-lount-2016> .
+<https://github.com/john1hsu/communication-graph/id/mea-culpa> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/social-accounts> .
+<https://github.com/john1hsu/communication-graph/id/mea-culpa> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/trust-repair> .
+<https://github.com/john1hsu/communication-graph/id/mea-culpa> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/mea-culpa/s1> .
+<https://github.com/john1hsu/communication-graph/id/mea-culpa> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/mea-culpa/s2> .
+<https://github.com/john1hsu/communication-graph/id/mea-culpa> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/mea-culpa/s3> .
+<https://github.com/john1hsu/communication-graph/id/mea-culpa> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/mea-culpa/s4> .
+<https://github.com/john1hsu/communication-graph/id/mea-culpa> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/mea-culpa/s5> .
+<https://github.com/john1hsu/communication-graph/id/mea-culpa> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/mea-culpa/s6> .
+<https://github.com/john1hsu/communication-graph/id/mea-culpa> <https://github.com/john1hsu/communication-graph/ontology#authoredBy> <https://github.com/john1hsu/communication-graph/id/nicholas-tavuchis> .
+<https://github.com/john1hsu/communication-graph/id/mea-culpa> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/i-was-wrong> .
+<https://github.com/john1hsu/communication-graph/id/mea-culpa> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/social-accounts> .
+<https://github.com/john1hsu/communication-graph/id/mea-culpa> <https://github.com/john1hsu/communication-graph/ontology#domain> "thinkers-and-works" .
+<https://github.com/john1hsu/communication-graph/id/mea-culpa> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "historical" .
+<https://github.com/john1hsu/communication-graph/id/mea-culpa> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/thinkers-and-works/mea-culpa.md" .
+<https://github.com/john1hsu/communication-graph/id/mea-culpa> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/erving-goffman> .
+<https://github.com/john1hsu/communication-graph/id/mea-culpa> <https://github.com/john1hsu/communication-graph/ontology#introduces> <https://github.com/john1hsu/communication-graph/id/apology> .
+<https://github.com/john1hsu/communication-graph/id/mea-culpa> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/communication-graph/id/mea-culpa> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/apology> .
 <https://github.com/john1hsu/communication-graph/id/media-richness-theory> <http://purl.org/dc/terms/created> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/media-richness-theory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Theory> .
 <https://github.com/john1hsu/communication-graph/id/media-richness-theory> <http://www.w3.org/2000/01/rdf-schema#label> "Media richness theory" .
@@ -5212,6 +5244,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/managing-up/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/managing-up/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/communication-graph/id/source/managing-up/s6> <https://schema.org/url> <https://pure.psu.edu/en/publications/how-do-i-get-my-way-a-meta-analytic-review-of-research-on-influen/> .
+<https://github.com/john1hsu/communication-graph/id/source/mea-culpa/s1> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/mea-culpa/s1> <http://purl.org/dc/terms/publisher> "Stanford University Press" .
+<https://github.com/john1hsu/communication-graph/id/source/mea-culpa/s1> <http://purl.org/dc/terms/title> "Mea Culpa: A Sociology of Apology and Reconciliation (book page)" .
+<https://github.com/john1hsu/communication-graph/id/source/mea-culpa/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/mea-culpa/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/mea-culpa/s1> <https://schema.org/url> <https://www.sup.org/books/title/?id=3130> .
+<https://github.com/john1hsu/communication-graph/id/source/mea-culpa/s2> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/mea-culpa/s2> <http://purl.org/dc/terms/publisher> "De Gruyter Brill (Stanford University Press partner listing)" .
+<https://github.com/john1hsu/communication-graph/id/source/mea-culpa/s2> <http://purl.org/dc/terms/title> "Mea Culpa: A Sociology of Apology and Reconciliation (Redwood City: Stanford University Press, 1991; eBook 2022), doi:10.1515/9780804766739" .
+<https://github.com/john1hsu/communication-graph/id/source/mea-culpa/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/mea-culpa/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/mea-culpa/s2> <https://schema.org/url> <https://www.degruyterbrill.com/document/doi/10.1515/9780804766739/html> .
+<https://github.com/john1hsu/communication-graph/id/source/mea-culpa/s3> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/mea-culpa/s3> <http://purl.org/dc/terms/publisher> "Judith Renner, Review of International Studies 37(4), 1579-1597 (2011), doi:10.1017/S0260210510001129 (LMU Munich open-access copy)" .
+<https://github.com/john1hsu/communication-graph/id/source/mea-culpa/s3> <http://purl.org/dc/terms/title> "'I'm sorry for apologising': Czech and German apologies and their perlocutionary effects" .
+<https://github.com/john1hsu/communication-graph/id/source/mea-culpa/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/mea-culpa/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/mea-culpa/s3> <https://schema.org/url> <https://epub.ub.uni-muenchen.de/23163/1/Renner_S0260210510001129a.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/mea-culpa/s4> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/mea-culpa/s4> <http://purl.org/dc/terms/publisher> "Nick Smith, Cambridge University Press (2008), chapter 10" .
+<https://github.com/john1hsu/communication-graph/id/source/mea-culpa/s4> <http://purl.org/dc/terms/title> "Issues Specific to Collective Apologies, in I Was Wrong: The Meanings of Apologies" .
+<https://github.com/john1hsu/communication-graph/id/source/mea-culpa/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/mea-culpa/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/mea-culpa/s4> <https://schema.org/url> <https://www.cambridge.org/core/books/i-was-wrong/issues-specific-to-collective-apologies/73C46128876A601A754FE01DF1A5574D> .
+<https://github.com/john1hsu/communication-graph/id/source/mea-culpa/s5> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/mea-culpa/s5> <http://purl.org/dc/terms/publisher> "Restorative Justice Exchange, Prison Fellowship International" .
+<https://github.com/john1hsu/communication-graph/id/source/mea-culpa/s5> <http://purl.org/dc/terms/title> "Mea Culpa: A Sociology of Apology and Reconciliation (archive summary)" .
+<https://github.com/john1hsu/communication-graph/id/source/mea-culpa/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/mea-culpa/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/communication-graph/id/source/mea-culpa/s5> <https://schema.org/url> <https://restorativejustice.org/?p=28216> .
+<https://github.com/john1hsu/communication-graph/id/source/mea-culpa/s6> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/mea-culpa/s6> <http://purl.org/dc/terms/publisher> "Vitomir Lučić, review hosted on Hrčak, the portal of Croatian scientific journals" .
+<https://github.com/john1hsu/communication-graph/id/source/mea-culpa/s6> <http://purl.org/dc/terms/title> "Recenzije i prikazi: Nicholas Tavuchis, Mea Culpa (book review, in Croatian)" .
+<https://github.com/john1hsu/communication-graph/id/source/mea-culpa/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/mea-culpa/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "community" .
+<https://github.com/john1hsu/communication-graph/id/source/mea-culpa/s6> <https://schema.org/url> <https://hrcak.srce.hr/file/228297> .
 <https://github.com/john1hsu/communication-graph/id/source/media-richness-theory/s1> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/media-richness-theory/s1> <http://purl.org/dc/terms/publisher> "Daft, R. L. & Lengel, R. H., Management Science 32(5), 554-571, 1986 (copy hosted by Northwestern University Collaboration Lab)" .
 <https://github.com/john1hsu/communication-graph/id/source/media-richness-theory/s1> <http://purl.org/dc/terms/title> "Organizational Information Requirements, Media Richness and Structural Design" .
