@@ -5911,6 +5911,104 @@
   ]
  },
  {
+  "id": "cm:organizational-communication",
+  "title": "Organizational communication",
+  "aliases": [
+   "organisational communication",
+   "org comm",
+   "communication in organizations"
+  ],
+  "type": "Field",
+  "domain": "foundations",
+  "level": "introductory",
+  "evidenceStatus": "theoretical",
+  "file": "articles/foundations/organizational-communication.md",
+  "created": "2026-11-06",
+  "summary": "The academic field that studies how people in organizations create shared meaning through verbal, nonverbal and mediated messages, and how that communication coordinates work, shapes culture and, in some views, constitutes the organization itself; it supplies the research behind much workplace advice on channels, upward communication, supervisor talk and information flow.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:communication-studies"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:media-richness-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:information-overload"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:managing-up"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:status-reporting"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:delivering-bad-news"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:channel-selection"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:intercultural-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:communicative-constitution-of-organizations"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:motivating-language-theory"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:w-charles-redding",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedIn",
+    "object": "cm:business-and-industrial-communication-a-source-book",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:influencedBy",
+    "object": "cm:rhetoric",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:influencedBy",
+    "object": "cm:chester-barnard",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:mayfield-mayfield-2010",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://open.library.okstate.edu/orgcomm/?p=44",
+   "https://core.ac.uk/download/213082139.pdf",
+   "https://durham-repository.worktribe.com/OutputFile/1509586",
+   "https://emerald.com/insight/content/doi/10.1108/10595421011080788/full/html",
+   "https://instituteforpr.org/motivating-language-exploring-theory-with-scale-development"
+  ]
+ },
+ {
   "id": "cm:paraphrasing",
   "title": "Paraphrasing",
   "aliases": [

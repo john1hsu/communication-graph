@@ -5192,6 +5192,95 @@
    ]
   },
   {
+   "@id": "cm:organizational-communication",
+   "@type": "cmo:Field",
+   "cmo:domain": "foundations",
+   "cmo:evidenceStatus": "theoretical",
+   "cmo:file": "articles/foundations/organizational-communication.md",
+   "cmo:influencedBy": [
+    {
+     "@id": "cm:chester-barnard"
+    },
+    {
+     "@id": "cm:rhetoric"
+    }
+   ],
+   "cmo:introducedBy": {
+    "@id": "cm:w-charles-redding"
+   },
+   "cmo:introducedIn": {
+    "@id": "cm:business-and-industrial-communication-a-source-book"
+   },
+   "cmo:level": "introductory",
+   "cmo:supportedBy": {
+    "@id": "cm:mayfield-mayfield-2010"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/organizational-communication/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/organizational-communication/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/organizational-communication/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/organizational-communication/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/organizational-communication/s5"
+    }
+   ],
+   "rdfs:label": "Organizational communication",
+   "skos:altLabel": [
+    "communication in organizations",
+    "org comm",
+    "organisational communication"
+   ],
+   "skos:broader": {
+    "@id": "cm:communication-studies"
+   },
+   "skos:definition": "The academic field that studies how people in organizations create shared meaning through verbal, nonverbal and mediated messages, and how that communication coordinates work, shapes culture and, in some views, constitutes the organization itself; it supplies the research behind much workplace advice on channels, upward communication, supervisor talk and information flow.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/foundations"
+   },
+   "skos:prefLabel": "Organizational communication",
+   "skos:related": [
+    {
+     "@id": "cm:channel-selection"
+    },
+    {
+     "@id": "cm:communicative-constitution-of-organizations"
+    },
+    {
+     "@id": "cm:delivering-bad-news"
+    },
+    {
+     "@id": "cm:information-overload"
+    },
+    {
+     "@id": "cm:intercultural-communication"
+    },
+    {
+     "@id": "cm:managing-up"
+    },
+    {
+     "@id": "cm:media-richness-theory"
+    },
+    {
+     "@id": "cm:motivating-language-theory"
+    },
+    {
+     "@id": "cm:status-reporting"
+    }
+   ]
+  },
+  {
    "@id": "cm:paraphrasing",
    "@type": "cmo:Technique",
    "cmo:appliedIn": {
@@ -16440,6 +16529,76 @@
    "dcterms:title": "The Surprising Power of Questions",
    "schema:url": {
     "@id": "https://hr.ucmerced.edu/sites/hr.ucmerced.edu/files/documents/how_to_ask_great_questions.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/organizational-communication/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Open organizational communication textbook hosted by Oklahoma State University Libraries (OSU Open Textbooks)",
+   "dcterms:title": "1.4 History of Organizational Communication",
+   "schema:url": {
+    "@id": "https://open.library.okstate.edu/orgcomm/?p=44"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/organizational-communication/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Feldner & D'Urso (Marquette University), Communication Research Trends 29(1), 2010, pp. 4-28 (CORE full text)",
+   "dcterms:title": "Threads of Intersection and Distinction: Joining an Ongoing Conversation within Organizational Communication Research",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/213082139.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/organizational-communication/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Cooren, Kuhn, Cornelissen & Clark, Organization Studies, 2011 (author manuscript, Durham Research Online)",
+   "dcterms:title": "Communication, Organizing and Organization: An Overview and Introduction to the Special Issue",
+   "schema:url": {
+    "@id": "https://durham-repository.worktribe.com/OutputFile/1509586"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/organizational-communication/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Mayfield & Mayfield, Competitiveness Review 20(5), 2010, pp. 407-422, doi:10.1108/10595421011080788",
+   "dcterms:title": "Leader-level influence on motivating language: A two-level model investigation on worker performance and job satisfaction",
+   "schema:url": {
+    "@id": "https://emerald.com/insight/content/doi/10.1108/10595421011080788/full/html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/organizational-communication/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Institute for Public Relations research summary of Mayfield, Mayfield & Kopf, Journal of Business Communication 32(4), 1995",
+   "dcterms:title": "Motivating Language: Exploring Theory with Scale Development",
+   "schema:url": {
+    "@id": "https://instituteforpr.org/motivating-language-exploring-theory-with-scale-development"
    }
   },
   {

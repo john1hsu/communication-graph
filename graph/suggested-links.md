@@ -18,14 +18,14 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 2.12 | `cm:humble-inquiry` | `cm:weger-et-al-2014` | `cm:active-listening`, `cm:advice-giving`, `cm:open-ended-questions` |
 | 2.08 | `cm:difficult-conversation` | `cm:small-talk` | `cm:active-listening`, `cm:kardas-kumar-epley-2021`, `cm:psychological-safety` |
 | 2.07 | `cm:one-on-one-meetings` | `cm:situation-behavior-impact` | `cm:active-listening`, `cm:feedback`, `cm:feedforward`, `cm:kluger-denisi-1996`, `cm:performance-review` |
-| 2.07 | `cm:bottom-line-up-front` | `cm:curse-of-knowledge` | `cm:assertion-evidence-slides`, `cm:audience-analysis`, `cm:channel-selection`, `cm:clarity`, `cm:email` |
+| 2.06 | `cm:bottom-line-up-front` | `cm:curse-of-knowledge` | `cm:assertion-evidence-slides`, `cm:audience-analysis`, `cm:channel-selection`, `cm:clarity`, `cm:email` |
 | 2.06 | `cm:one-on-one-meetings` | `cm:zoom-fatigue` | `cm:employee-engagement`, `cm:workplace-meetings` |
 | 2.06 | `cm:one-on-one-meetings` | `cm:small-talk` | `cm:active-listening`, `cm:humble-inquiry`, `cm:interpersonal-communication`, `cm:open-ended-questions`, `cm:psychological-safety` |
-| 2.05 | `cm:common-ground` | `cm:email` | `cm:asynchronous-communication`, `cm:audience-analysis`, `cm:channel-selection`, `cm:curse-of-knowledge`, `cm:illusion-of-transparency` |
-| 1.91 | `cm:information-overload` | `cm:media-richness-theory` | `cm:asynchronous-communication`, `cm:channel-selection`, `cm:email`, `cm:organizational-communication`, `cm:zoom-fatigue` |
-| 1.90 | `cm:delivering-bad-news` | `cm:managing-up` | `cm:bottom-line-up-front`, `cm:channel-selection`, `cm:communicating-uncertainty`, `cm:organizational-communication`, `cm:status-reporting` |
+| 2.04 | `cm:common-ground` | `cm:email` | `cm:asynchronous-communication`, `cm:audience-analysis`, `cm:channel-selection`, `cm:curse-of-knowledge`, `cm:illusion-of-transparency` |
 | 1.90 | `cm:issue-selling` | `cm:status-reporting` | `cm:audience-analysis`, `cm:bottom-line-up-front`, `cm:executive-briefing`, `cm:managing-up`, `cm:psychological-safety` |
 | 1.90 | `cm:humble-inquiry` | `cm:wait-time` | `cm:active-listening`, `cm:open-ended-questions`, `cm:psychological-safety`, `cm:questioning` |
 | 1.88 | `cm:bottom-line-up-front` | `cm:illusion-of-transparency` | `cm:clarity`, `cm:communicating-uncertainty`, `cm:email`, `cm:setting-reply-time-expectations`, `cm:words-of-estimative-probability` |
 | 1.85 | `cm:email` | `cm:zoom-fatigue` | `cm:asynchronous-communication`, `cm:channel-selection`, `cm:information-overload`, `cm:media-richness-theory`, `cm:scheduled-inbox-checks` |
 | 1.83 | `cm:pyramid-principle` | `cm:words-of-estimative-probability` | `cm:bottom-line-up-front`, `cm:executive-briefing`, `cm:executive-summary` |
+| 1.82 | `cm:illusion-of-transparency` | `cm:plain-language` | `cm:clarity`, `cm:curse-of-knowledge`, `cm:email`, `cm:teach-back`, `cm:words-of-estimative-probability` |
+| 1.80 | `cm:common-ground` | `cm:plain-language` | `cm:audience-analysis`, `cm:clarity`, `cm:curse-of-knowledge`, `cm:grices-maxims`, `cm:teach-back` |
