@@ -1603,6 +1603,102 @@
   ]
  },
  {
+  "id": "cm:credibility",
+  "title": "Credibility",
+  "aliases": [
+   "source credibility",
+   "speaker credibility",
+   "communicator credibility"
+  ],
+  "type": "Concept",
+  "domain": "persuasion-and-influence",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/persuasion-and-influence/credibility.md",
+  "created": "2026-11-06",
+  "summary": "The audience's judgement of whether a speaker or writer is worth believing, usually broken into perceived competence, trustworthiness and goodwill; it belongs to the listener's perception, not the speaker, and it shapes how much the same message persuades.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:persuasion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:aristotles-rhetoric"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:influence-without-authority"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:rapport"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:communicating-uncertainty"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:ethnocentrism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:sleeper-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:issue-selling"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:hovland-weiss-1951",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:influencedBy",
+    "object": "cm:aristotles-rhetoric",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:kumkale-albarracin-2004",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:influence-without-authority",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:rapport",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "If I asked two trusted colleagues how credible I am on this topic, would their answer match mine?",
+   "Does this audience doubt my expertise, my motives, or whether I care about their interests, and which one am I addressing?",
+   "Where I lack a track record, have I borrowed one through data, a pilot or a respected expert?",
+   "Have I met the key people one-on-one to listen before asking them for anything?",
+   "Am I stating limits and uncertainty plainly, or overselling in a way that will cost me trust later?"
+  ],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://fbaum.unc.edu/teaching/articles/HovlandWeiss-POQ-1951.pdf",
+   "https://www.jamescmccroskey.com/measures/source_credibility.htm",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC3100161",
+   "https://www.gsb.stanford.edu/faculty-research/publications/multiple-roles-source-credibility-under-high-elaboration-its-all",
+   "https://depts.washington.edu/edgh/namibia-lio/files/necessary_art_of_persuasion.pdf"
+  ]
+ },
+ {
   "id": "cm:curse-of-knowledge",
   "title": "Curse of knowledge",
   "aliases": [

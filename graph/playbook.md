@@ -614,6 +614,15 @@ Ask yourself:
 
 ## persuasion-and-influence
 
+### [Credibility](../articles/persuasion-and-influence/credibility.md) — Concept
+
+Ask yourself:
+- If I asked two trusted colleagues how credible I am on this topic, would their answer match mine?
+- Does this audience doubt my expertise, my motives, or whether I care about their interests, and which one am I addressing?
+- Where I lack a track record, have I borrowed one through data, a pilot or a respected expert?
+- Have I met the key people one-on-one to listen before asking them for anything?
+- Am I stating limits and uncertainty plainly, or overselling in a way that will cost me trust later?
+
 ### [Influence without authority](../articles/persuasion-and-influence/influence-without-authority.md) — Technique
 
 1. Treat the person whose help you need as a potential ally, even if past dealings were tense, and drop any story that they are simply difficult.

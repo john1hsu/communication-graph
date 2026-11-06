@@ -117,6 +117,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:channel-selection` | mixed | `cm:dennis-kinney-1998` |
 | `cm:communicating-uncertainty` | mixed |  |
 | `cm:considering-others-contributions-first` | mixed |  |
+| `cm:credibility` | mixed |  |
 | `cm:curse-of-knowledge` | mixed | `cm:ryskin-brown-schmidt-2014` |
 | `cm:defensiveness` | mixed | `cm:forward-czech-lee-2011` |
 | `cm:direct-vs-indirect-feedback` | mixed | `cm:brew-cairns-2004` |
@@ -131,9 +132,8 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:influence-without-authority` | mixed |  |
 | `cm:issue-selling` | mixed |  |
 | `cm:macinnis-mackinnon-macintyre-2010` | mixed |  |
-| `cm:meeting-agendas` | mixed |  |
 
-…and 18 more.
+…and 19 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -144,6 +144,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:apology` | cmo:Genre |
 | `cm:camera-level-gaze` | cmo:Technique |
 | `cm:considering-others-contributions-first` | cmo:Technique |
+| `cm:credibility` | cmo:Concept |
 | `cm:egocentric-bias` | cmo:Barrier |
 | `cm:eye-contact` | cmo:Skill |
 | `cm:meeting-agendas` | cmo:Technique |

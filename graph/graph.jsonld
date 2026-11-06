@@ -1382,6 +1382,89 @@
    ]
   },
   {
+   "@id": "cm:credibility",
+   "@type": "cmo:Concept",
+   "cmo:complements": [
+    {
+     "@id": "cm:influence-without-authority"
+    },
+    {
+     "@id": "cm:rapport"
+    }
+   ],
+   "cmo:demonstratedBy": {
+    "@id": "cm:hovland-weiss-1951"
+   },
+   "cmo:domain": "persuasion-and-influence",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:file": "articles/persuasion-and-influence/credibility.md",
+   "cmo:influencedBy": {
+    "@id": "cm:aristotles-rhetoric"
+   },
+   "cmo:level": "introductory",
+   "cmo:supportedBy": {
+    "@id": "cm:kumkale-albarracin-2004"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/credibility/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/credibility/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/credibility/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/credibility/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/credibility/s5"
+    }
+   ],
+   "rdfs:label": "Credibility",
+   "skos:altLabel": [
+    "communicator credibility",
+    "source credibility",
+    "speaker credibility"
+   ],
+   "skos:broader": {
+    "@id": "cm:persuasion"
+   },
+   "skos:definition": "The audience's judgement of whether a speaker or writer is worth believing, usually broken into perceived competence, trustworthiness and goodwill; it belongs to the listener's perception, not the speaker, and it shapes how much the same message persuades.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/persuasion-and-influence"
+   },
+   "skos:prefLabel": "Credibility",
+   "skos:related": [
+    {
+     "@id": "cm:aristotles-rhetoric"
+    },
+    {
+     "@id": "cm:communicating-uncertainty"
+    },
+    {
+     "@id": "cm:ethnocentrism"
+    },
+    {
+     "@id": "cm:influence-without-authority"
+    },
+    {
+     "@id": "cm:issue-selling"
+    },
+    {
+     "@id": "cm:rapport"
+    },
+    {
+     "@id": "cm:sleeper-effect"
+    }
+   ]
+  },
+  {
    "@id": "cm:curse-of-knowledge",
    "@type": "cmo:Barrier",
    "cmo:causes": {
@@ -7203,6 +7286,46 @@
    "schema:text": "When the list shows an uneven split, talk about how work will be divided next time rather than letting the person who carried more quietly resent it."
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/credibility/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:credibility"
+   },
+   "rdfs:label": "If I asked two trusted colleagues how credible I am on this topic, would their answer match mine?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/credibility/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:credibility"
+   },
+   "rdfs:label": "Does this audience doubt my expertise, my motives, or whether I care about their interests, and which one am I addressing?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/credibility/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:credibility"
+   },
+   "rdfs:label": "Where I lack a track record, have I borrowed one through data, a pilot or a respected expert?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/credibility/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:credibility"
+   },
+   "rdfs:label": "Have I met the key people one-on-one to listen before asking them for anything?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/credibility/check/5",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:credibility"
+   },
+   "rdfs:label": "Am I stating limits and uncertainty plainly, or overselling in a way that will cost me trust later?"
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/curse-of-knowledge/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -10394,6 +10517,76 @@
    "dcterms:title": "I'd Like to Thank...Myself",
    "schema:url": {
     "@id": "https://newsroom.haas.berkeley.edu/research/like-to-thank-myself-2/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/credibility/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Hovland & Weiss, Public Opinion Quarterly 15(4), 635-650 (1951) (copy hosted by the University of North Carolina)",
+   "dcterms:title": "The Influence of Source Credibility on Communication Effectiveness",
+   "schema:url": {
+    "@id": "https://fbaum.unc.edu/teaching/articles/HovlandWeiss-POQ-1951.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/credibility/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "James C. McCroskey (author's measures page for Communication Monographs 66, 90-103)",
+   "dcterms:title": "Source Credibility Measures (McCroskey & Teven, 1999)",
+   "schema:url": {
+    "@id": "https://www.jamescmccroskey.com/measures/source_credibility.htm"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/credibility/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Kumkale & Albarracín, Psychological Bulletin 130(1), 143-172 (2004) (PubMed Central)",
+   "dcterms:title": "The Sleeper Effect in Persuasion: A Meta-Analytic Review",
+   "schema:url": {
+    "@id": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3100161"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/credibility/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Tormala, Briñol & Petty, Social Cognition 25(4), 536-552 (2007) (Stanford GSB publication record)",
+   "dcterms:title": "Multiple Roles for Source Credibility Under High Elaboration: It's All in the Timing",
+   "schema:url": {
+    "@id": "https://www.gsb.stanford.edu/faculty-research/publications/multiple-roles-source-credibility-under-high-elaboration-its-all"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/credibility/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "practitioner-journal",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Jay A. Conger, Harvard Business Review, May-June 1998 (copy hosted by the University of Washington)",
+   "dcterms:title": "The Necessary Art of Persuasion",
+   "schema:url": {
+    "@id": "https://depts.washington.edu/edgh/namibia-lio/files/necessary_art_of_persuasion.pdf"
    }
   },
   {

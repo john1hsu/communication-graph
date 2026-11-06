@@ -1014,6 +1014,52 @@
 <https://github.com/john1hsu/communication-graph/id/considering-others-contributions-first> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/considering-others-contributions-first/howto> .
 <https://github.com/john1hsu/communication-graph/id/considering-others-contributions-first> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/considering-others-contributions-first> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/schroeder-caruso-epley-2016> .
+<https://github.com/john1hsu/communication-graph/id/credibility/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/credibility/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "If I asked two trusted colleagues how credible I am on this topic, would their answer match mine?" .
+<https://github.com/john1hsu/communication-graph/id/credibility/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/credibility> .
+<https://github.com/john1hsu/communication-graph/id/credibility/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/credibility/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Does this audience doubt my expertise, my motives, or whether I care about their interests, and which one am I addressing?" .
+<https://github.com/john1hsu/communication-graph/id/credibility/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/credibility> .
+<https://github.com/john1hsu/communication-graph/id/credibility/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/credibility/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Where I lack a track record, have I borrowed one through data, a pilot or a respected expert?" .
+<https://github.com/john1hsu/communication-graph/id/credibility/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/credibility> .
+<https://github.com/john1hsu/communication-graph/id/credibility/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/credibility/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Have I met the key people one-on-one to listen before asking them for anything?" .
+<https://github.com/john1hsu/communication-graph/id/credibility/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/credibility> .
+<https://github.com/john1hsu/communication-graph/id/credibility/check/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/credibility/check/5> <http://www.w3.org/2000/01/rdf-schema#label> "Am I stating limits and uncertainty plainly, or overselling in a way that will cost me trust later?" .
+<https://github.com/john1hsu/communication-graph/id/credibility/check/5> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/credibility> .
+<https://github.com/john1hsu/communication-graph/id/credibility> <http://purl.org/dc/terms/created> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+<https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2000/01/rdf-schema#label> "Credibility" .
+<https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2004/02/skos/core#altLabel> "communicator credibility" .
+<https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2004/02/skos/core#altLabel> "source credibility" .
+<https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2004/02/skos/core#altLabel> "speaker credibility" .
+<https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/persuasion> .
+<https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2004/02/skos/core#definition> "The audience's judgement of whether a speaker or writer is worth believing, usually broken into perceived competence, trustworthiness and goodwill; it belongs to the listener's perception, not the speaker, and it shapes how much the same message persuades." .
+<https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/persuasion-and-influence> .
+<https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2004/02/skos/core#prefLabel> "Credibility" .
+<https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> .
+<https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communicating-uncertainty> .
+<https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/ethnocentrism> .
+<https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/influence-without-authority> .
+<https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/issue-selling> .
+<https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/rapport> .
+<https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/sleeper-effect> .
+<https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/credibility/s1> .
+<https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/credibility/s2> .
+<https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/credibility/s3> .
+<https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/credibility/s4> .
+<https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/credibility/s5> .
+<https://github.com/john1hsu/communication-graph/id/credibility> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/influence-without-authority> .
+<https://github.com/john1hsu/communication-graph/id/credibility> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/rapport> .
+<https://github.com/john1hsu/communication-graph/id/credibility> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/hovland-weiss-1951> .
+<https://github.com/john1hsu/communication-graph/id/credibility> <https://github.com/john1hsu/communication-graph/ontology#domain> "persuasion-and-influence" .
+<https://github.com/john1hsu/communication-graph/id/credibility> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/credibility> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/persuasion-and-influence/credibility.md" .
+<https://github.com/john1hsu/communication-graph/id/credibility> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> .
+<https://github.com/john1hsu/communication-graph/id/credibility> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/credibility> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/kumkale-albarracin-2004> .
 <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Which terms, acronyms or steps in this message did I learn on the job rather than expect my reader to know?" .
 <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> .
@@ -3750,6 +3796,36 @@
 <https://github.com/john1hsu/communication-graph/id/source/considering-others-contributions-first/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/considering-others-contributions-first/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
 <https://github.com/john1hsu/communication-graph/id/source/considering-others-contributions-first/s3> <https://schema.org/url> <https://newsroom.haas.berkeley.edu/research/like-to-thank-myself-2/> .
+<https://github.com/john1hsu/communication-graph/id/source/credibility/s1> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/credibility/s1> <http://purl.org/dc/terms/publisher> "Hovland & Weiss, Public Opinion Quarterly 15(4), 635-650 (1951) (copy hosted by the University of North Carolina)" .
+<https://github.com/john1hsu/communication-graph/id/source/credibility/s1> <http://purl.org/dc/terms/title> "The Influence of Source Credibility on Communication Effectiveness" .
+<https://github.com/john1hsu/communication-graph/id/source/credibility/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/credibility/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/credibility/s1> <https://schema.org/url> <https://fbaum.unc.edu/teaching/articles/HovlandWeiss-POQ-1951.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/credibility/s2> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/credibility/s2> <http://purl.org/dc/terms/publisher> "James C. McCroskey (author's measures page for Communication Monographs 66, 90-103)" .
+<https://github.com/john1hsu/communication-graph/id/source/credibility/s2> <http://purl.org/dc/terms/title> "Source Credibility Measures (McCroskey & Teven, 1999)" .
+<https://github.com/john1hsu/communication-graph/id/source/credibility/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/credibility/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/credibility/s2> <https://schema.org/url> <https://www.jamescmccroskey.com/measures/source_credibility.htm> .
+<https://github.com/john1hsu/communication-graph/id/source/credibility/s3> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/credibility/s3> <http://purl.org/dc/terms/publisher> "Kumkale & Albarracín, Psychological Bulletin 130(1), 143-172 (2004) (PubMed Central)" .
+<https://github.com/john1hsu/communication-graph/id/source/credibility/s3> <http://purl.org/dc/terms/title> "The Sleeper Effect in Persuasion: A Meta-Analytic Review" .
+<https://github.com/john1hsu/communication-graph/id/source/credibility/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/credibility/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/credibility/s3> <https://schema.org/url> <https://pmc.ncbi.nlm.nih.gov/articles/PMC3100161> .
+<https://github.com/john1hsu/communication-graph/id/source/credibility/s4> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/credibility/s4> <http://purl.org/dc/terms/publisher> "Tormala, Briñol & Petty, Social Cognition 25(4), 536-552 (2007) (Stanford GSB publication record)" .
+<https://github.com/john1hsu/communication-graph/id/source/credibility/s4> <http://purl.org/dc/terms/title> "Multiple Roles for Source Credibility Under High Elaboration: It's All in the Timing" .
+<https://github.com/john1hsu/communication-graph/id/source/credibility/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/credibility/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/credibility/s4> <https://schema.org/url> <https://www.gsb.stanford.edu/faculty-research/publications/multiple-roles-source-credibility-under-high-elaboration-its-all> .
+<https://github.com/john1hsu/communication-graph/id/source/credibility/s5> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/credibility/s5> <http://purl.org/dc/terms/publisher> "Jay A. Conger, Harvard Business Review, May-June 1998 (copy hosted by the University of Washington)" .
+<https://github.com/john1hsu/communication-graph/id/source/credibility/s5> <http://purl.org/dc/terms/title> "The Necessary Art of Persuasion" .
+<https://github.com/john1hsu/communication-graph/id/source/credibility/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/credibility/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "practitioner-journal" .
+<https://github.com/john1hsu/communication-graph/id/source/credibility/s5> <https://schema.org/url> <https://depts.washington.edu/edgh/namibia-lio/files/necessary_art_of_persuasion.pdf> .
 <https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s1> <http://purl.org/dc/terms/publisher> "Camerer, Loewenstein & Weber, Journal of Political Economy 97(5), 1989 (RePEc/IDEAS record)" .
 <https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s1> <http://purl.org/dc/terms/title> "The Curse of Knowledge in Economic Settings: An Experimental Analysis" .
