@@ -10,6 +10,7 @@ Theme and copy come from site/site.yaml. Never writes to articles/ or graph/.
 """
 from __future__ import annotations
 
+import hashlib
 import html
 import json
 import re
@@ -169,6 +170,8 @@ def render_body(node_id: str, body: str) -> str:
 
 # ---------------------------------------------------------------- page shell
 FONTS = CFG["fonts_url"]
+# Content hash of the site assets, so browsers never pair new pages with a cached old stylesheet.
+ASSET_V = hashlib.sha256(b"".join(f.read_bytes() for f in sorted((SITE / "assets").iterdir())) + (SITE / "site.yaml").read_bytes()).hexdigest()[:10]
 
 
 def page(title: str, body: str, depth: int, *, desc: str = "", extra_head: str = "", page_class: str = "") -> str:
@@ -184,7 +187,7 @@ def page(title: str, body: str, depth: int, *, desc: str = "", extra_head: str =
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="{esc(FONTS)}">
-<link rel="stylesheet" href="{up}assets/style.css">
+<link rel="stylesheet" href="{up}assets/style.css?v={ASSET_V}">
 <link rel="icon" href="{up}assets/icon.svg" type="image/svg+xml">
 {extra_head}
 </head>
@@ -473,7 +476,7 @@ def home() -> str:
 
 <script id="kg-data" type="application/json">{data}</script>
 <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
-<script src="assets/home.js"></script>"""
+<script src="assets/home.js?v={ASSET_V}"></script>"""
     return page(CFG["title"], body, 0, page_class="p-home")
 
 
