@@ -50,6 +50,15 @@ Ask yourself:
 - Did I check what they understood, or did I take their nod as proof?
 - Before this presentation, am I treating my racing heart as something the audience can see?
 
+### [Information overload](../articles/barriers-and-psychology/information-overload.md) — Barrier
+
+Ask yourself:
+- Does every person on this distribution list need to act on or know this, or am I copying them to cover myself?
+- Could the reader act on my first two lines without opening the attachment?
+- Am I adding a fifth channel or thread for something that already has a home?
+- Have I told my team when I do and do not expect replies, so nobody feels they must watch the inbox all day?
+- When I feel swamped, is it the volume of messages, or a lack of clear priorities behind them?
+
 ### [Self-distancing strategies](../articles/barriers-and-psychology/self-distancing.md) — Technique
 
 1. Before the meeting or talk, write or say two or three sentences of self-talk using your own name or "you" instead of "I" (for example, "Sam, you know this material; your job is to explain it").

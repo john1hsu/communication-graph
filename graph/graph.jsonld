@@ -3724,6 +3724,94 @@
    ]
   },
   {
+   "@id": "cm:information-overload",
+   "@type": "cmo:Barrier",
+   "cmo:causes": {
+    "@id": "cm:workplace-stress"
+   },
+   "cmo:demonstratedBy": {
+    "@id": "cm:barley-meyerson-grodal-2011"
+   },
+   "cmo:domain": "barriers-and-psychology",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:explainedBy": {
+    "@id": "cm:cognitive-load"
+   },
+   "cmo:file": "articles/barriers-and-psychology/information-overload.md",
+   "cmo:level": "introductory",
+   "cmo:supportedBy": {
+    "@id": "cm:kushlev-dunn-2015"
+   },
+   "cmo:undermines": {
+    "@id": "cm:decision-quality"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/information-overload/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/information-overload/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/information-overload/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/information-overload/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/information-overload/s5"
+    }
+   ],
+   "rdfs:label": "Information overload",
+   "skos:altLabel": [
+    "communication overload",
+    "email overload",
+    "infobesity",
+    "information overload at work"
+   ],
+   "skos:broader": {
+    "@id": "cm:organizational-communication"
+   },
+   "skos:definition": "The state in which the volume, pace or complexity of incoming messages and information exceeds what a person can process in the time available, so decisions get slower and worse, important messages are skimmed or missed, and people feel stressed and behind.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/barriers-and-psychology"
+   },
+   "skos:prefLabel": "Information overload",
+   "skos:related": [
+    {
+     "@id": "cm:asynchronous-communication"
+    },
+    {
+     "@id": "cm:bottom-line-up-front"
+    },
+    {
+     "@id": "cm:channel-selection"
+    },
+    {
+     "@id": "cm:email"
+    },
+    {
+     "@id": "cm:meeting-agendas"
+    },
+    {
+     "@id": "cm:plain-language"
+    },
+    {
+     "@id": "cm:ray-tomlinson"
+    },
+    {
+     "@id": "cm:setting-reply-time-expectations"
+    },
+    {
+     "@id": "cm:zoom-fatigue"
+    }
+   ]
+  },
+  {
    "@id": "cm:intercultural-communication",
    "@type": "cmo:Field",
    "cmo:challengedBy": {
@@ -9388,6 +9476,46 @@
    "schema:text": "Make a concrete, honest offer that trades something they value for what you need, then deliver on it and keep in touch afterwards so the relationship exists before you need it again."
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/information-overload/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:information-overload"
+   },
+   "rdfs:label": "Does every person on this distribution list need to act on or know this, or am I copying them to cover myself?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/information-overload/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:information-overload"
+   },
+   "rdfs:label": "Could the reader act on my first two lines without opening the attachment?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/information-overload/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:information-overload"
+   },
+   "rdfs:label": "Am I adding a fifth channel or thread for something that already has a home?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/information-overload/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:information-overload"
+   },
+   "rdfs:label": "Have I told my team when I do and do not expect replies, so nobody feels they must watch the inbox all day?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/information-overload/check/5",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:information-overload"
+   },
+   "rdfs:label": "When I feel swamped, is it the volume of messages, or a lack of clear priorities behind them?"
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/issue-selling/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -14180,6 +14308,76 @@
    "dcterms:title": "Third Edition of 'Influence Without Authority' Released",
    "schema:url": {
     "@id": "https://www.newswise.com/articles/third-edition-of-influence-without-authority-released"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/information-overload/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Martin J. Eppler & Jeanne Mengis, Università della Svizzera italiana working paper 1/2003 (published as \"The Concept of Information Overload\", The Information Society 20(5), 2004), RERO DOC",
+   "dcterms:title": "A Framework for Information Overload Research in Organizations: Insights from Organization Science, Accounting, Marketing, MIS, and Related Disciplines",
+   "schema:url": {
+    "@id": "https://doc.rero.ch/record/5206/files/1_wpca0301.pdf?version=1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/information-overload/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Peter Gordon Roetzel, Business Research 12(2), 479-522, 2019 (RePEc/IDEAS record)",
+   "dcterms:title": "Information overload in the information age: a review of the literature from business administration, business psychology, and related disciplines with a bibliometric approach and framework development",
+   "schema:url": {
+    "@id": "https://ideas.repec.org/a/spr/busres/v12y2019i2d10.1007_s40685-018-0069-z.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/information-overload/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Barley, Meyerson & Grodal, Organization Science 22(4), 887-906, 2011 (RePEc/IDEAS record)",
+   "dcterms:title": "E-mail as a Source and Symbol of Stress",
+   "schema:url": {
+    "@id": "https://ideas.repec.org/a/inm/ororsc/v22y2011i4p887-906.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/information-overload/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Boston University Research magazine, 2011 (on Grodal, Barley & Meyerson)",
+   "dcterms:title": "Inbox Inundation",
+   "schema:url": {
+    "@id": "https://www.bu.edu/research/magazine/2011/02-2-inbox.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/information-overload/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Kostadin Kushlev & Elizabeth W. Dunn, Computers in Human Behavior 43, 220-228, 2015 (author copy, interruptions.net)",
+   "dcterms:title": "Checking email less frequently reduces stress",
+   "schema:url": {
+    "@id": "https://www.interruptions.net/literature/Kushlev-ComputHumBehav15.pdf"
    }
   },
   {

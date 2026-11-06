@@ -9,6 +9,7 @@ _Which written barriers or anti-patterns have nothing in the graph that addresse
 | node | type |
 |---|---|
 | `cm:filled-pauses` | cmo:AntiPattern |
+| `cm:information-overload` | cmo:Barrier |
 
 ## Skills with no practice technique (gap)
 
@@ -134,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:ethnocentrism` | mixed |  |
 | `cm:eye-contact` | mixed | `cm:chen-et-al-2013` |
 
-…and 31 more.
+…and 32 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -151,6 +152,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:egocentric-bias` | cmo:Barrier |
 | `cm:eye-contact` | cmo:Skill |
 | `cm:filled-pauses` | cmo:AntiPattern |
+| `cm:information-overload` | cmo:Barrier |
 | `cm:meeting-agendas` | cmo:Technique |
 | `cm:one-on-one-meetings` | cmo:Context |
 | `cm:open-ended-questions` | cmo:Technique |
