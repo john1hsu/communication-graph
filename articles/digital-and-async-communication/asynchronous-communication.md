@@ -12,7 +12,7 @@ summary: >-
 level: introductory
 evidenceStatus: mixed
 broader: [cm:digital-communication]
-related: [cm:email, cm:channel-selection, cm:media-richness-theory, cm:zoom-fatigue, cm:common-ground, cm:bottom-line-up-front, cm:meeting-agendas, cm:information-overload, cm:setting-reply-time-expectations]
+related: [cm:email, cm:channel-selection, cm:media-richness-theory, cm:zoom-fatigue, cm:common-ground, cm:bottom-line-up-front, cm:meeting-agendas, cm:information-overload, cm:setting-reply-time-expectations, cm:murray-turoff]
 requires: []
 relations:
   - {predicate: explainedBy, object: cm:media-synchronicity-theory, source: s1, confidence: high}

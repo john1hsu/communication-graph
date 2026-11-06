@@ -689,6 +689,15 @@
 <https://github.com/john1hsu/communication-graph/id/message-equivocality-media-selection-and-manager-performance#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/message-equivocality-media-selection-and-manager-performance/s5> .
 <https://github.com/john1hsu/communication-graph/id/message-equivocality-media-selection-and-manager-performance#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/message-equivocality-media-selection-and-manager-performance/s6> .
 <https://github.com/john1hsu/communication-graph/id/message-equivocality-media-selection-and-manager-performance#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/message-equivocality-media-selection-and-manager-performance/s7> .
+<https://github.com/john1hsu/communication-graph/id/murray-turoff#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/murray-turoff#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/murray-turoff> .
+<https://github.com/john1hsu/communication-graph/id/murray-turoff#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/thinkers-and-works/murray-turoff.md" .
+<https://github.com/john1hsu/communication-graph/id/murray-turoff#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/murray-turoff/s1> .
+<https://github.com/john1hsu/communication-graph/id/murray-turoff#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/murray-turoff/s2> .
+<https://github.com/john1hsu/communication-graph/id/murray-turoff#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/murray-turoff/s3> .
+<https://github.com/john1hsu/communication-graph/id/murray-turoff#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/murray-turoff/s4> .
+<https://github.com/john1hsu/communication-graph/id/murray-turoff#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/murray-turoff/s5> .
+<https://github.com/john1hsu/communication-graph/id/murray-turoff#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/murray-turoff/s6> .
 <https://github.com/john1hsu/communication-graph/id/norbert-wiener#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/norbert-wiener#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/norbert-wiener> .
 <https://github.com/john1hsu/communication-graph/id/norbert-wiener#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/thinkers-and-works/norbert-wiener.md" .
@@ -2437,6 +2446,7 @@
   <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/information-overload> .
   <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/media-richness-theory> .
   <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/meeting-agendas> .
+  <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/murray-turoff> .
   <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations> .
   <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> .
   <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/asynchronous-communication/s1> .
@@ -8215,6 +8225,76 @@
   <https://github.com/john1hsu/communication-graph/id/source/message-equivocality-media-selection-and-manager-performance/s7> <https://schema.org/url> <https://collablab.northwestern.edu//CollabolabDistro/nucmc/DaftAndLengel-OrgInfoReq-MediaRichnessAndStructuralDesign-MngmtSci-1986.pdf> .
 }
 
+<https://github.com/john1hsu/communication-graph/id/murray-turoff#graph> {
+  <https://github.com/john1hsu/communication-graph/id/murray-turoff> <http://purl.org/dc/terms/created> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/murray-turoff> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+  <https://github.com/john1hsu/communication-graph/id/murray-turoff> <http://www.w3.org/2000/01/rdf-schema#label> "Murray Turoff" .
+  <https://github.com/john1hsu/communication-graph/id/murray-turoff> <http://www.w3.org/2004/02/skos/core#altLabel> "Murray Turoff (NJIT)" .
+  <https://github.com/john1hsu/communication-graph/id/murray-turoff> <http://www.w3.org/2004/02/skos/core#altLabel> "Turoff" .
+  <https://github.com/john1hsu/communication-graph/id/murray-turoff> <http://www.w3.org/2004/02/skos/core#definition> "Computer scientist (died 2022) at the New Jersey Institute of Technology who built EMISARI (1971) and EIES, early computer conferencing systems that let groups discuss and decide in writing without meeting at the same place or time, and who co-wrote The Network Nation (1978), the standard early reference on computer-mediated communication." .
+  <https://github.com/john1hsu/communication-graph/id/murray-turoff> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works> .
+  <https://github.com/john1hsu/communication-graph/id/murray-turoff> <http://www.w3.org/2004/02/skos/core#prefLabel> "Murray Turoff" .
+  <https://github.com/john1hsu/communication-graph/id/murray-turoff> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> .
+  <https://github.com/john1hsu/communication-graph/id/murray-turoff> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/delphi-technique> .
+  <https://github.com/john1hsu/communication-graph/id/murray-turoff> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/digital-communication> .
+  <https://github.com/john1hsu/communication-graph/id/murray-turoff> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/email> .
+  <https://github.com/john1hsu/communication-graph/id/murray-turoff> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/group-decision-making> .
+  <https://github.com/john1hsu/communication-graph/id/murray-turoff> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/information-overload> .
+  <https://github.com/john1hsu/communication-graph/id/murray-turoff> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> .
+  <https://github.com/john1hsu/communication-graph/id/murray-turoff> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/ray-tomlinson> .
+  <https://github.com/john1hsu/communication-graph/id/murray-turoff> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/murray-turoff/s1> .
+  <https://github.com/john1hsu/communication-graph/id/murray-turoff> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/murray-turoff/s2> .
+  <https://github.com/john1hsu/communication-graph/id/murray-turoff> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/murray-turoff/s3> .
+  <https://github.com/john1hsu/communication-graph/id/murray-turoff> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/murray-turoff/s4> .
+  <https://github.com/john1hsu/communication-graph/id/murray-turoff> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/murray-turoff/s5> .
+  <https://github.com/john1hsu/communication-graph/id/murray-turoff> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/murray-turoff/s6> .
+  <https://github.com/john1hsu/communication-graph/id/murray-turoff> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/the-delphi-method> .
+  <https://github.com/john1hsu/communication-graph/id/murray-turoff> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/the-network-nation> .
+  <https://github.com/john1hsu/communication-graph/id/murray-turoff> <https://github.com/john1hsu/communication-graph/ontology#domain> "thinkers-and-works" .
+  <https://github.com/john1hsu/communication-graph/id/murray-turoff> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "historical" .
+  <https://github.com/john1hsu/communication-graph/id/murray-turoff> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/thinkers-and-works/murray-turoff.md" .
+  <https://github.com/john1hsu/communication-graph/id/murray-turoff> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/starr-roxanne-hiltz> .
+  <https://github.com/john1hsu/communication-graph/id/murray-turoff> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> .
+  <https://github.com/john1hsu/communication-graph/id/murray-turoff> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/computer-conferencing> .
+  <https://github.com/john1hsu/communication-graph/id/murray-turoff> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+  <https://github.com/john1hsu/communication-graph/id/source/murray-turoff/s1> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/murray-turoff/s1> <http://purl.org/dc/terms/publisher> "Michael Giorgio, NJIT News (New Jersey Institute of Technology), 20 October 2022" .
+  <https://github.com/john1hsu/communication-graph/id/source/murray-turoff/s1> <http://purl.org/dc/terms/title> "Murray Turoff: A Pioneer of Instant Messaging" .
+  <https://github.com/john1hsu/communication-graph/id/source/murray-turoff/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/murray-turoff/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+  <https://github.com/john1hsu/communication-graph/id/source/murray-turoff/s1> <https://schema.org/url> <https://news.njit.edu/murray-turoff-pioneer-instant-messaging> .
+  <https://github.com/john1hsu/communication-graph/id/source/murray-turoff/s2> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/murray-turoff/s2> <http://purl.org/dc/terms/publisher> "Subramanian, R. & Haigh, T., IEEE Annals of the History of Computing 35(1), 2013 (Project MUSE)" .
+  <https://github.com/john1hsu/communication-graph/id/source/murray-turoff/s2> <http://purl.org/dc/terms/title> "Starr Roxanne Hiltz: Pioneer Digital Sociologist" .
+  <https://github.com/john1hsu/communication-graph/id/source/murray-turoff/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/murray-turoff/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/murray-turoff/s2> <https://schema.org/url> <https://muse.jhu.edu/journals/ieee_annals_of_the_history_of_computing/v035/35.1.subramanian01.html> .
+  <https://github.com/john1hsu/communication-graph/id/source/murray-turoff/s3> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/murray-turoff/s3> <http://purl.org/dc/terms/publisher> "Turoff, M., Enslow, P., Hiltz, S. R., McKendree, J., Panko, R., Snyder, D. & Wilcox, R., Computerized Conferencing and Communications Center, NJIT, Report No. 9, 1978 (NJIT Digital Commons via CORE)" .
+  <https://github.com/john1hsu/communication-graph/id/source/murray-turoff/s3> <http://purl.org/dc/terms/title> "Research Options and Imperatives in Computerized Conferencing (Final report, NSF grant MCS76-80514)" .
+  <https://github.com/john1hsu/communication-graph/id/source/murray-turoff/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/murray-turoff/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/communication-graph/id/source/murray-turoff/s3> <https://schema.org/url> <https://core.ac.uk/download/232277536.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/murray-turoff/s4> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/murray-turoff/s4> <http://purl.org/dc/terms/publisher> "Hiltz, S. R., Johnson, K. & Turoff, M., Human Communication Research 13(2), 225-252, 1986, doi:10.1111/j.1468-2958.1986.tb00104.x (NJIT Digital Commons record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/murray-turoff/s4> <http://purl.org/dc/terms/title> "Experiments in Group Decision Making: Communication Process and Outcome in Face-to-Face Versus Computerized Conferences" .
+  <https://github.com/john1hsu/communication-graph/id/source/murray-turoff/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/murray-turoff/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/murray-turoff/s4> <https://schema.org/url> <https://digitalcommons.njit.edu/fac_pubs/21065> .
+  <https://github.com/john1hsu/communication-graph/id/source/murray-turoff/s5> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/murray-turoff/s5> <http://purl.org/dc/terms/publisher> "Office of Justice Programs, NCJRS Virtual Library abstract (NCJ 234129)" .
+  <https://github.com/john1hsu/communication-graph/id/source/murray-turoff/s5> <http://purl.org/dc/terms/title> "The Delphi Method: Techniques and Applications (Linstone, H. A. & Turoff, M., eds., 1975)" .
+  <https://github.com/john1hsu/communication-graph/id/source/murray-turoff/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/murray-turoff/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/communication-graph/id/source/murray-turoff/s5> <https://schema.org/url> <https://ojp.gov/ncjrs/virtual-library/abstracts/delphi-method-techniques-and-applications> .
+  <https://github.com/john1hsu/communication-graph/id/source/murray-turoff/s6> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/murray-turoff/s6> <http://purl.org/dc/terms/publisher> "Shydale James, NJIT News (New Jersey Institute of Technology), 13 January 2017" .
+  <https://github.com/john1hsu/communication-graph/id/source/murray-turoff/s6> <http://purl.org/dc/terms/title> "Influential Scholar" .
+  <https://github.com/john1hsu/communication-graph/id/source/murray-turoff/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/murray-turoff/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+  <https://github.com/john1hsu/communication-graph/id/source/murray-turoff/s6> <https://schema.org/url> <https://news.njit.edu/node/310> .
+}
+
 <https://github.com/john1hsu/communication-graph/id/norbert-wiener#graph> {
   <https://github.com/john1hsu/communication-graph/id/norbert-wiener> <http://purl.org/dc/terms/created> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
   <https://github.com/john1hsu/communication-graph/id/norbert-wiener> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
@@ -9186,6 +9266,7 @@
   <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/ray-tomlinson> .
   <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/scheduled-inbox-checks> .
   <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations> .
+  <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/murray-turoff> .
   <https://github.com/john1hsu/communication-graph/id/attention-management> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/scheduled-inbox-checks> .
   <https://github.com/john1hsu/communication-graph/id/attention-management> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/scheduled-inbox-checks> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -9477,6 +9558,7 @@
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/status-reporting> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/the-culture-map> .
   <https://github.com/john1hsu/communication-graph/id/communicative-constitution-of-organizations> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
+  <https://github.com/john1hsu/communication-graph/id/computer-conferencing> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/murray-turoff> .
   <https://github.com/john1hsu/communication-graph/id/concise-writing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/active-voice> .
   <https://github.com/john1hsu/communication-graph/id/concise-writing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/william-strunk-jr> .
   <https://github.com/john1hsu/communication-graph/id/concise-writing> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/clarity> .
@@ -9574,6 +9656,7 @@
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/social-accounts> .
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/status-reporting> .
   <https://github.com/john1hsu/communication-graph/id/delivery-confidence-assessment> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/status-reporting> .
+  <https://github.com/john1hsu/communication-graph/id/delphi-technique> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/murray-turoff> .
   <https://github.com/john1hsu/communication-graph/id/delphi-technique> <https://github.com/john1hsu/communication-graph/ontology#alternativeTo> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> .
   <https://github.com/john1hsu/communication-graph/id/denial> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mea-culpa> .
   <https://github.com/john1hsu/communication-graph/id/denial> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/apology> .
@@ -9609,6 +9692,7 @@
   <https://github.com/john1hsu/communication-graph/id/digital-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> .
   <https://github.com/john1hsu/communication-graph/id/digital-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> .
   <https://github.com/john1hsu/communication-graph/id/digital-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/email> .
+  <https://github.com/john1hsu/communication-graph/id/digital-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/murray-turoff> .
   <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -9697,6 +9781,7 @@
   <https://github.com/john1hsu/communication-graph/id/email> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/information-overload> .
   <https://github.com/john1hsu/communication-graph/id/email> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/media-richness-theory> .
   <https://github.com/john1hsu/communication-graph/id/email> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/message-equivocality-media-selection-and-manager-performance> .
+  <https://github.com/john1hsu/communication-graph/id/email> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/murray-turoff> .
   <https://github.com/john1hsu/communication-graph/id/email> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/ray-tomlinson> .
   <https://github.com/john1hsu/communication-graph/id/email> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/scheduled-inbox-checks> .
   <https://github.com/john1hsu/communication-graph/id/email> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations> .
@@ -9917,6 +10002,7 @@
   <https://github.com/john1hsu/communication-graph/id/group-cohesiveness> <https://github.com/john1hsu/communication-graph/ontology#confusedWith> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
   <https://github.com/john1hsu/communication-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> .
   <https://github.com/john1hsu/communication-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> .
+  <https://github.com/john1hsu/communication-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/murray-turoff> .
   <https://github.com/john1hsu/communication-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/raci-matrix> .
   <https://github.com/john1hsu/communication-graph/id/gunia-et-al-2013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/gunia-et-al-2013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
@@ -10055,6 +10141,7 @@
   <https://github.com/john1hsu/communication-graph/id/information-overload> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/information-overload> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
   <https://github.com/john1hsu/communication-graph/id/information-overload> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
+  <https://github.com/john1hsu/communication-graph/id/information-overload> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/murray-turoff> .
   <https://github.com/john1hsu/communication-graph/id/information-overload> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
   <https://github.com/john1hsu/communication-graph/id/information-overload> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/scheduled-inbox-checks> .
   <https://github.com/john1hsu/communication-graph/id/information-overload> <https://github.com/john1hsu/communication-graph/ontology#causedBy> <https://github.com/john1hsu/communication-graph/id/email> .
@@ -10364,6 +10451,7 @@
   <https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/first-offer> .
   <https://github.com/john1hsu/communication-graph/id/mum-effect> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> .
   <https://github.com/john1hsu/communication-graph/id/mum-effect> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/status-reporting> .
+  <https://github.com/john1hsu/communication-graph/id/murray-turoff> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/mythical-fixed-pie> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> .
   <https://github.com/john1hsu/communication-graph/id/nathan-azrin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/nathan-azrin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
@@ -10391,6 +10479,7 @@
   <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/facilitation> .
   <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/group-decision-making> .
   <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/meeting-agendas> .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/murray-turoff> .
   <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/camera-level-gaze> .
   <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/eye-contact> .
   <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> .
@@ -10626,6 +10715,7 @@
   <https://github.com/john1hsu/communication-graph/id/rapport> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/reciprocal-self-disclosure> .
   <https://github.com/john1hsu/communication-graph/id/rapport> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/credibility> .
   <https://github.com/john1hsu/communication-graph/id/ray-tomlinson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/ray-tomlinson> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/murray-turoff> .
   <https://github.com/john1hsu/communication-graph/id/readability-formulas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/effective-writing-for-army-leaders> .
   <https://github.com/john1hsu/communication-graph/id/readability-formulas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/plain-language> .
   <https://github.com/john1hsu/communication-graph/id/receiving-feedback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/feedback> .
@@ -10875,6 +10965,7 @@
   <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/raci-matrix> .
   <https://github.com/john1hsu/communication-graph/id/stakeholder-salience-theory> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping> .
   <https://github.com/john1hsu/communication-graph/id/stakeholder-theory> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping> .
+  <https://github.com/john1hsu/communication-graph/id/starr-roxanne-hiltz> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/murray-turoff> .
   <https://github.com/john1hsu/communication-graph/id/status-reporting/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/status-reporting/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/status-reporting/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -10923,12 +11014,18 @@
   <https://github.com/john1hsu/communication-graph/id/the-culture-map> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/ethnocentrism> .
   <https://github.com/john1hsu/communication-graph/id/the-culture-map> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/intercultural-communication> .
   <https://github.com/john1hsu/communication-graph/id/the-culture-map> <https://github.com/john1hsu/communication-graph/ontology#introduces> <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> .
+  <https://github.com/john1hsu/communication-graph/id/the-delphi-method> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/the-delphi-method> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
+  <https://github.com/john1hsu/communication-graph/id/the-delphi-method> <https://github.com/john1hsu/communication-graph/ontology#authoredBy> <https://github.com/john1hsu/communication-graph/id/murray-turoff> .
   <https://github.com/john1hsu/communication-graph/id/the-elements-of-style> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/the-elements-of-style> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
   <https://github.com/john1hsu/communication-graph/id/the-elements-of-style> <https://github.com/john1hsu/communication-graph/ontology#authoredBy> <https://github.com/john1hsu/communication-graph/id/william-strunk-jr> .
   <https://github.com/john1hsu/communication-graph/id/the-human-use-of-human-beings> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/the-human-use-of-human-beings> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
   <https://github.com/john1hsu/communication-graph/id/the-human-use-of-human-beings> <https://github.com/john1hsu/communication-graph/ontology#authoredBy> <https://github.com/john1hsu/communication-graph/id/norbert-wiener> .
+  <https://github.com/john1hsu/communication-graph/id/the-network-nation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/the-network-nation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
+  <https://github.com/john1hsu/communication-graph/id/the-network-nation> <https://github.com/john1hsu/communication-graph/ontology#authoredBy> <https://github.com/john1hsu/communication-graph/id/murray-turoff> .
   <https://github.com/john1hsu/communication-graph/id/the-psychology-of-curiosity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/the-psychology-of-curiosity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
   <https://github.com/john1hsu/communication-graph/id/the-psychology-of-curiosity> <https://github.com/john1hsu/communication-graph/ontology#authoredBy> <https://github.com/john1hsu/communication-graph/id/george-loewenstein> .

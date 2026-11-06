@@ -777,6 +777,9 @@
      "@id": "cm:meeting-agendas"
     },
     {
+     "@id": "cm:murray-turoff"
+    },
+    {
      "@id": "cm:setting-reply-time-expectations"
     },
     {
@@ -4942,6 +4945,93 @@
     },
     {
      "@id": "cm:zone-of-possible-agreement"
+    }
+   ]
+  },
+  {
+   "@id": "cm:murray-turoff",
+   "@type": "cmo:Person",
+   "cmo:authored": [
+    {
+     "@id": "cm:the-delphi-method"
+    },
+    {
+     "@id": "cm:the-network-nation"
+    }
+   ],
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "historical",
+   "cmo:file": "articles/thinkers-and-works/murray-turoff.md",
+   "cmo:influenced": {
+    "@id": "cm:starr-roxanne-hiltz"
+   },
+   "cmo:introduced": [
+    {
+     "@id": "cm:asynchronous-communication"
+    },
+    {
+     "@id": "cm:computer-conferencing"
+    }
+   ],
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/murray-turoff/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/murray-turoff/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/murray-turoff/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/murray-turoff/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/murray-turoff/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/murray-turoff/s6"
+    }
+   ],
+   "rdfs:label": "Murray Turoff",
+   "skos:altLabel": [
+    "Murray Turoff (NJIT)",
+    "Turoff"
+   ],
+   "skos:definition": "Computer scientist (died 2022) at the New Jersey Institute of Technology who built EMISARI (1971) and EIES, early computer conferencing systems that let groups discuss and decide in writing without meeting at the same place or time, and who co-wrote The Network Nation (1978), the standard early reference on computer-mediated communication.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "Murray Turoff",
+   "skos:related": [
+    {
+     "@id": "cm:asynchronous-communication"
+    },
+    {
+     "@id": "cm:delphi-technique"
+    },
+    {
+     "@id": "cm:digital-communication"
+    },
+    {
+     "@id": "cm:email"
+    },
+    {
+     "@id": "cm:group-decision-making"
+    },
+    {
+     "@id": "cm:information-overload"
+    },
+    {
+     "@id": "cm:nominal-group-technique"
+    },
+    {
+     "@id": "cm:ray-tomlinson"
     }
    ]
   },
@@ -16524,6 +16614,90 @@
    "dcterms:title": "The art of the deal: Negotiate like a pro",
    "schema:url": {
     "@id": "https://impact.monash.edu/management/the-art-of-the-deal-negotiate-like-a-pro/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/murray-turoff/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Michael Giorgio, NJIT News (New Jersey Institute of Technology), 20 October 2022",
+   "dcterms:title": "Murray Turoff: A Pioneer of Instant Messaging",
+   "schema:url": {
+    "@id": "https://news.njit.edu/murray-turoff-pioneer-instant-messaging"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/murray-turoff/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Subramanian, R. & Haigh, T., IEEE Annals of the History of Computing 35(1), 2013 (Project MUSE)",
+   "dcterms:title": "Starr Roxanne Hiltz: Pioneer Digital Sociologist",
+   "schema:url": {
+    "@id": "https://muse.jhu.edu/journals/ieee_annals_of_the_history_of_computing/v035/35.1.subramanian01.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/murray-turoff/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Turoff, M., Enslow, P., Hiltz, S. R., McKendree, J., Panko, R., Snyder, D. & Wilcox, R., Computerized Conferencing and Communications Center, NJIT, Report No. 9, 1978 (NJIT Digital Commons via CORE)",
+   "dcterms:title": "Research Options and Imperatives in Computerized Conferencing (Final report, NSF grant MCS76-80514)",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/232277536.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/murray-turoff/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Hiltz, S. R., Johnson, K. & Turoff, M., Human Communication Research 13(2), 225-252, 1986, doi:10.1111/j.1468-2958.1986.tb00104.x (NJIT Digital Commons record)",
+   "dcterms:title": "Experiments in Group Decision Making: Communication Process and Outcome in Face-to-Face Versus Computerized Conferences",
+   "schema:url": {
+    "@id": "https://digitalcommons.njit.edu/fac_pubs/21065"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/murray-turoff/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Office of Justice Programs, NCJRS Virtual Library abstract (NCJ 234129)",
+   "dcterms:title": "The Delphi Method: Techniques and Applications (Linstone, H. A. & Turoff, M., eds., 1975)",
+   "schema:url": {
+    "@id": "https://ojp.gov/ncjrs/virtual-library/abstracts/delphi-method-techniques-and-applications"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/murray-turoff/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Shydale James, NJIT News (New Jersey Institute of Technology), 13 January 2017",
+   "dcterms:title": "Influential Scholar",
+   "schema:url": {
+    "@id": "https://news.njit.edu/node/310"
    }
   },
   {
