@@ -436,6 +436,39 @@
 <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/michael-alley> .
 <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/garner-alley-2016> .
+<https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <http://purl.org/dc/terms/created> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Channel> .
+<https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <http://www.w3.org/2000/01/rdf-schema#label> "Asynchronous communication" .
+<https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <http://www.w3.org/2004/02/skos/core#altLabel> "async communication" .
+<https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <http://www.w3.org/2004/02/skos/core#altLabel> "async work" .
+<https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <http://www.w3.org/2004/02/skos/core#altLabel> "asynchronous messaging" .
+<https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/digital-communication> .
+<https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <http://www.w3.org/2004/02/skos/core#definition> "Communication in which sender and receiver are not engaged at the same moment - email, chat threads, shared documents, recorded video - so each side can compose and respond in its own time; it suits conveying information and protecting focus, but needs complete, self-contained messages and a switch to live conversation when people must converge on a shared meaning." .
+<https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/digital-and-async-communication> .
+<https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <http://www.w3.org/2004/02/skos/core#prefLabel> "Asynchronous communication" .
+<https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
+<https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/channel-selection> .
+<https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/common-ground> .
+<https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/email> .
+<https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/information-overload> .
+<https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/media-richness-theory> .
+<https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/meeting-agendas> .
+<https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> .
+<https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/asynchronous-communication/s1> .
+<https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/asynchronous-communication/s2> .
+<https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/asynchronous-communication/s3> .
+<https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/asynchronous-communication/s4> .
+<https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/asynchronous-communication/s5> .
+<https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/asynchronous-communication/s6> .
+<https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <https://github.com/john1hsu/communication-graph/ontology#alternativeTo> <https://github.com/john1hsu/communication-graph/id/workplace-meetings> .
+<https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/email-urgency-bias-study> .
+<https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/perlow-1999> .
+<https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/yang-et-al-2022> .
+<https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <https://github.com/john1hsu/communication-graph/ontology#domain> "digital-and-async-communication" .
+<https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/media-synchronicity-theory> .
+<https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/digital-and-async-communication/asynchronous-communication.md" .
+<https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/audience-analysis/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/audience-analysis/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Who will read or hear this - including people copied or forwarded to - and which of them is the one who must act?" .
 <https://github.com/john1hsu/communication-graph/id/audience-analysis/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
@@ -3767,6 +3800,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/assertion-evidence-slides/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/assertion-evidence-slides/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "community" .
 <https://github.com/john1hsu/communication-graph/id/source/assertion-evidence-slides/s6> <https://schema.org/url> <https://faculty.washington.edu/farkas/dfpubs/Farkas-Assessment%20Of%20Alleys%20Slide%20Design.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/asynchronous-communication/s1> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/asynchronous-communication/s1> <http://purl.org/dc/terms/publisher> "Dennis, A. R., Fuller, R. M. & Valacich, J. S., MIS Quarterly 32(3), 575-600, 2008 (AIS eLibrary abstract page)" .
+<https://github.com/john1hsu/communication-graph/id/source/asynchronous-communication/s1> <http://purl.org/dc/terms/title> "Media, Tasks, and Communication Processes: A Theory of Media Synchronicity" .
+<https://github.com/john1hsu/communication-graph/id/source/asynchronous-communication/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/asynchronous-communication/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/asynchronous-communication/s1> <https://schema.org/url> <https://aisel.aisnet.org/misq/vol32/iss3/8/> .
+<https://github.com/john1hsu/communication-graph/id/source/asynchronous-communication/s2> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/asynchronous-communication/s2> <http://purl.org/dc/terms/publisher> "Yang, L., Holtz, D., Jaffe, S., Suri, S., Sinha, S., Weston, J., Joyce, C., Shah, N. P., Sherman, K., Hecht, B. & Teevan, J., Nature Human Behaviour (Microsoft Research publication page)" .
+<https://github.com/john1hsu/communication-graph/id/source/asynchronous-communication/s2> <http://purl.org/dc/terms/title> "The effects of remote work on collaboration among information workers" .
+<https://github.com/john1hsu/communication-graph/id/source/asynchronous-communication/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/asynchronous-communication/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/asynchronous-communication/s2> <https://schema.org/url> <https://www.microsoft.com/en-us/research/?p=772330> .
+<https://github.com/john1hsu/communication-graph/id/source/asynchronous-communication/s3> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/asynchronous-communication/s3> <http://purl.org/dc/terms/publisher> "Nature Human Behaviour 6(1), 43-54, 2022 (PubMed record 34504299)" .
+<https://github.com/john1hsu/communication-graph/id/source/asynchronous-communication/s3> <http://purl.org/dc/terms/title> "The effects of remote work on collaboration among information workers" .
+<https://github.com/john1hsu/communication-graph/id/source/asynchronous-communication/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/asynchronous-communication/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/asynchronous-communication/s3> <https://schema.org/url> <https://www.pubmed.gov/34504299/> .
+<https://github.com/john1hsu/communication-graph/id/source/asynchronous-communication/s4> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/asynchronous-communication/s4> <http://purl.org/dc/terms/publisher> "Perlow, L. A., Administrative Science Quarterly 44(1), 57-81, 1999 (author copy hosted by interruptions.net)" .
+<https://github.com/john1hsu/communication-graph/id/source/asynchronous-communication/s4> <http://purl.org/dc/terms/title> "The Time Famine: Toward a Sociology of Work Time" .
+<https://github.com/john1hsu/communication-graph/id/source/asynchronous-communication/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/asynchronous-communication/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/asynchronous-communication/s4> <https://schema.org/url> <https://www.interruptions.net/literature/Perlow-ASQ99.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/asynchronous-communication/s5> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/asynchronous-communication/s5> <http://purl.org/dc/terms/publisher> "Giurge, L. M. & Bohns, V. K., Organizational Behavior and Human Decision Processes 167, 114-128, 2021 (RePEc/IDEAS abstract page)" .
+<https://github.com/john1hsu/communication-graph/id/source/asynchronous-communication/s5> <http://purl.org/dc/terms/title> "You don't need to answer right away! Receivers overestimate how quickly senders expect responses to non-urgent work emails" .
+<https://github.com/john1hsu/communication-graph/id/source/asynchronous-communication/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/asynchronous-communication/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/asynchronous-communication/s5> <https://schema.org/url> <https://ideas.repec.org/a/eee/jobhdp/v167y2021icp114-128.html> .
+<https://github.com/john1hsu/communication-graph/id/source/asynchronous-communication/s6> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/asynchronous-communication/s6> <http://purl.org/dc/terms/publisher> "GitLab Handbook (GitLab Inc.)" .
+<https://github.com/john1hsu/communication-graph/id/source/asynchronous-communication/s6> <http://purl.org/dc/terms/title> "How to embrace asynchronous communication for remote work" .
+<https://github.com/john1hsu/communication-graph/id/source/asynchronous-communication/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/asynchronous-communication/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/communication-graph/id/source/asynchronous-communication/s6> <https://schema.org/url> <https://handbook.gitlab.com/handbook/company/culture/all-remote/asynchronous/> .
 <https://github.com/john1hsu/communication-graph/id/source/audience-analysis/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/audience-analysis/s1> <http://purl.org/dc/terms/publisher> "Purdue Online Writing Lab (Purdue University)" .
 <https://github.com/john1hsu/communication-graph/id/source/audience-analysis/s1> <http://purl.org/dc/terms/title> "Audience Analysis: Overview" .

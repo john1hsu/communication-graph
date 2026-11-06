@@ -693,6 +693,95 @@
    ]
   },
   {
+   "@id": "cm:asynchronous-communication",
+   "@type": "cmo:Channel",
+   "cmo:alternativeTo": {
+    "@id": "cm:workplace-meetings"
+   },
+   "cmo:demonstratedBy": [
+    {
+     "@id": "cm:email-urgency-bias-study"
+    },
+    {
+     "@id": "cm:perlow-1999"
+    },
+    {
+     "@id": "cm:yang-et-al-2022"
+    }
+   ],
+   "cmo:domain": "digital-and-async-communication",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:explainedBy": {
+    "@id": "cm:media-synchronicity-theory"
+   },
+   "cmo:file": "articles/digital-and-async-communication/asynchronous-communication.md",
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/asynchronous-communication/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/asynchronous-communication/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/asynchronous-communication/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/asynchronous-communication/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/asynchronous-communication/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/asynchronous-communication/s6"
+    }
+   ],
+   "rdfs:label": "Asynchronous communication",
+   "skos:altLabel": [
+    "async communication",
+    "async work",
+    "asynchronous messaging"
+   ],
+   "skos:broader": {
+    "@id": "cm:digital-communication"
+   },
+   "skos:definition": "Communication in which sender and receiver are not engaged at the same moment - email, chat threads, shared documents, recorded video - so each side can compose and respond in its own time; it suits conveying information and protecting focus, but needs complete, self-contained messages and a switch to live conversation when people must converge on a shared meaning.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/digital-and-async-communication"
+   },
+   "skos:prefLabel": "Asynchronous communication",
+   "skos:related": [
+    {
+     "@id": "cm:bottom-line-up-front"
+    },
+    {
+     "@id": "cm:channel-selection"
+    },
+    {
+     "@id": "cm:common-ground"
+    },
+    {
+     "@id": "cm:email"
+    },
+    {
+     "@id": "cm:information-overload"
+    },
+    {
+     "@id": "cm:media-richness-theory"
+    },
+    {
+     "@id": "cm:meeting-agendas"
+    },
+    {
+     "@id": "cm:zoom-fatigue"
+    }
+   ]
+  },
+  {
    "@id": "cm:audience-analysis",
    "@type": "cmo:Technique",
    "cmo:addresses": {
@@ -10589,6 +10678,90 @@
    "dcterms:title": "A brief assessment of Michael Alley's ideas regarding the design of PowerPoint slides",
    "schema:url": {
     "@id": "https://faculty.washington.edu/farkas/dfpubs/Farkas-Assessment%20Of%20Alleys%20Slide%20Design.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/asynchronous-communication/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Dennis, A. R., Fuller, R. M. & Valacich, J. S., MIS Quarterly 32(3), 575-600, 2008 (AIS eLibrary abstract page)",
+   "dcterms:title": "Media, Tasks, and Communication Processes: A Theory of Media Synchronicity",
+   "schema:url": {
+    "@id": "https://aisel.aisnet.org/misq/vol32/iss3/8/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/asynchronous-communication/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Yang, L., Holtz, D., Jaffe, S., Suri, S., Sinha, S., Weston, J., Joyce, C., Shah, N. P., Sherman, K., Hecht, B. & Teevan, J., Nature Human Behaviour (Microsoft Research publication page)",
+   "dcterms:title": "The effects of remote work on collaboration among information workers",
+   "schema:url": {
+    "@id": "https://www.microsoft.com/en-us/research/?p=772330"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/asynchronous-communication/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Nature Human Behaviour 6(1), 43-54, 2022 (PubMed record 34504299)",
+   "dcterms:title": "The effects of remote work on collaboration among information workers",
+   "schema:url": {
+    "@id": "https://www.pubmed.gov/34504299/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/asynchronous-communication/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Perlow, L. A., Administrative Science Quarterly 44(1), 57-81, 1999 (author copy hosted by interruptions.net)",
+   "dcterms:title": "The Time Famine: Toward a Sociology of Work Time",
+   "schema:url": {
+    "@id": "https://www.interruptions.net/literature/Perlow-ASQ99.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/asynchronous-communication/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Giurge, L. M. & Bohns, V. K., Organizational Behavior and Human Decision Processes 167, 114-128, 2021 (RePEc/IDEAS abstract page)",
+   "dcterms:title": "You don't need to answer right away! Receivers overestimate how quickly senders expect responses to non-urgent work emails",
+   "schema:url": {
+    "@id": "https://ideas.repec.org/a/eee/jobhdp/v167y2021icp114-128.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/asynchronous-communication/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "GitLab Handbook (GitLab Inc.)",
+   "dcterms:title": "How to embrace asynchronous communication for remote work",
+   "schema:url": {
+    "@id": "https://handbook.gitlab.com/handbook/company/culture/all-remote/asynchronous/"
    }
   },
   {

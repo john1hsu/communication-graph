@@ -18,7 +18,9 @@ _No results._
 
 _Which written contexts, channels or genres have no technique, framework or principle applied in them or structuring them?_ — `queries/03-situations-without-guidance.rq`
 
-_No results._
+| node | type |
+|---|---|
+| `cm:asynchronous-communication` | cmo:Channel |
 
 ## Highest-leverage techniques
 
@@ -108,6 +110,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:active-voice` | mixed | `cm:fear-and-loathing-of-the-english-passive` |
 | `cm:apology` | mixed |  |
 | `cm:assertion-evidence-slides` | mixed | `cm:alzayed-alzamel-2023` |
+| `cm:asynchronous-communication` | mixed |  |
 | `cm:batna` | mixed | `cm:schaerer-swaab-galinsky-2015` |
 | `cm:camera-level-gaze` | mixed |  |
 | `cm:camera-optional-norm` | mixed | `cm:bennett-et-al-2021` |
@@ -128,9 +131,8 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:gilovich-savitsky-medvec-1998` | mixed |  |
 | `cm:i-statements` | mixed | `cm:korobov-2020` |
 | `cm:illusion-of-transparency` | mixed |  |
-| `cm:influence-without-authority` | mixed |  |
 
-…and 24 more.
+…and 25 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -139,6 +141,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | node | type |
 |---|---|
 | `cm:apology` | cmo:Genre |
+| `cm:asynchronous-communication` | cmo:Channel |
 | `cm:camera-level-gaze` | cmo:Technique |
 | `cm:clarity` | cmo:Concept |
 | `cm:considering-others-contributions-first` | cmo:Technique |
