@@ -492,6 +492,7 @@
 <https://github.com/john1hsu/communication-graph/id/audience-analysis> <http://www.w3.org/2004/02/skos/core#prefLabel> "Audience analysis" .
 <https://github.com/john1hsu/communication-graph/id/audience-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
 <https://github.com/john1hsu/communication-graph/id/audience-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/channel-selection> .
+<https://github.com/john1hsu/communication-graph/id/audience-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/common-ground> .
 <https://github.com/john1hsu/communication-graph/id/audience-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> .
 <https://github.com/john1hsu/communication-graph/id/audience-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/plain-language> .
 <https://github.com/john1hsu/communication-graph/id/audience-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping> .
@@ -893,6 +894,47 @@
 <https://github.com/john1hsu/communication-graph/id/channel-selection> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
 <https://github.com/john1hsu/communication-graph/id/channel-selection> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/ask-in-person-study> .
 <https://github.com/john1hsu/communication-graph/id/channel-selection> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/egocentrism-over-email-study> .
+<https://github.com/john1hsu/communication-graph/id/common-ground> <http://purl.org/dc/terms/created> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/common-ground> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Theory> .
+<https://github.com/john1hsu/communication-graph/id/common-ground> <http://www.w3.org/2000/01/rdf-schema#label> "Common ground and grounding theory" .
+<https://github.com/john1hsu/communication-graph/id/common-ground> <http://www.w3.org/2004/02/skos/core#altLabel> "collaborative model of communication" .
+<https://github.com/john1hsu/communication-graph/id/common-ground> <http://www.w3.org/2004/02/skos/core#altLabel> "common ground" .
+<https://github.com/john1hsu/communication-graph/id/common-ground> <http://www.w3.org/2004/02/skos/core#altLabel> "contribution theory" .
+<https://github.com/john1hsu/communication-graph/id/common-ground> <http://www.w3.org/2004/02/skos/core#altLabel> "grounding in communication" .
+<https://github.com/john1hsu/communication-graph/id/common-ground> <http://www.w3.org/2004/02/skos/core#altLabel> "grounding" .
+<https://github.com/john1hsu/communication-graph/id/common-ground> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/pragmatics> .
+<https://github.com/john1hsu/communication-graph/id/common-ground> <http://www.w3.org/2004/02/skos/core#definition> "Herbert Clark's account of conversation as joint action: people communicate by drawing on common ground (the knowledge, beliefs and assumptions they mutually take to be shared) and by grounding, the collaborative work of presenting a message and getting evidence it was understood well enough for the current purpose." .
+<https://github.com/john1hsu/communication-graph/id/common-ground> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/foundations> .
+<https://github.com/john1hsu/communication-graph/id/common-ground> <http://www.w3.org/2004/02/skos/core#prefLabel> "Common ground and grounding theory" .
+<https://github.com/john1hsu/communication-graph/id/common-ground> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+<https://github.com/john1hsu/communication-graph/id/common-ground> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> .
+<https://github.com/john1hsu/communication-graph/id/common-ground> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
+<https://github.com/john1hsu/communication-graph/id/common-ground> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/audience-design> .
+<https://github.com/john1hsu/communication-graph/id/common-ground> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/checking-understanding> .
+<https://github.com/john1hsu/communication-graph/id/common-ground> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> .
+<https://github.com/john1hsu/communication-graph/id/common-ground> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/egocentric-bias> .
+<https://github.com/john1hsu/communication-graph/id/common-ground> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> .
+<https://github.com/john1hsu/communication-graph/id/common-ground> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/media-richness-theory> .
+<https://github.com/john1hsu/communication-graph/id/common-ground> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/paraphrasing> .
+<https://github.com/john1hsu/communication-graph/id/common-ground> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/teach-back> .
+<https://github.com/john1hsu/communication-graph/id/common-ground> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/common-ground/s1> .
+<https://github.com/john1hsu/communication-graph/id/common-ground> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/common-ground/s2> .
+<https://github.com/john1hsu/communication-graph/id/common-ground> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/common-ground/s3> .
+<https://github.com/john1hsu/communication-graph/id/common-ground> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/common-ground/s4> .
+<https://github.com/john1hsu/communication-graph/id/common-ground> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/common-ground/s5> .
+<https://github.com/john1hsu/communication-graph/id/common-ground> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/common-ground/s6> .
+<https://github.com/john1hsu/communication-graph/id/common-ground> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/keysar-et-al-2000> .
+<https://github.com/john1hsu/communication-graph/id/common-ground> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/channel-selection> .
+<https://github.com/john1hsu/communication-graph/id/common-ground> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/clark-wilkes-gibbs-1986> .
+<https://github.com/john1hsu/communication-graph/id/common-ground> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/cramton-2001> .
+<https://github.com/john1hsu/communication-graph/id/common-ground> <https://github.com/john1hsu/communication-graph/ontology#domain> "foundations" .
+<https://github.com/john1hsu/communication-graph/id/common-ground> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/common-ground> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/foundations/common-ground.md" .
+<https://github.com/john1hsu/communication-graph/id/common-ground> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/grices-maxims> .
+<https://github.com/john1hsu/communication-graph/id/common-ground> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/herbert-h-clark> .
+<https://github.com/john1hsu/communication-graph/id/common-ground> <https://github.com/john1hsu/communication-graph/ontology#introducedIn> <https://github.com/john1hsu/communication-graph/id/grounding-in-communication> .
+<https://github.com/john1hsu/communication-graph/id/common-ground> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/communication-graph/id/common-ground> <https://github.com/john1hsu/communication-graph/ontology#studiedIn> <https://github.com/john1hsu/communication-graph/id/pragmatics> .
 <https://github.com/john1hsu/communication-graph/id/communicating-uncertainty/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/communicating-uncertainty/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Have I given a number or range where I have one, instead of a word like \"probably\" or \"should be fine\"?" .
 <https://github.com/john1hsu/communication-graph/id/communicating-uncertainty/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/communicating-uncertainty> .
@@ -3754,6 +3796,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/channel-selection/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/channel-selection/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/communication-graph/id/source/channel-selection/s6> <https://schema.org/url> <https://scholars.hkbu.edu.hk/en/publications/channel-expansion-theory-a-comprehensive-meta-analysis-literature/> .
+<https://github.com/john1hsu/communication-graph/id/source/common-ground/s1> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/common-ground/s1> <http://purl.org/dc/terms/publisher> "Herbert H. Clark & Susan E. Brennan, in Resnick, Levine & Teasley (eds.), Perspectives on Socially Shared Cognition, APA Books, 127-149 (1991) (author's copy, Stanford University)" .
+<https://github.com/john1hsu/communication-graph/id/source/common-ground/s1> <http://purl.org/dc/terms/title> "Grounding in communication" .
+<https://github.com/john1hsu/communication-graph/id/source/common-ground/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/common-ground/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/common-ground/s1> <https://schema.org/url> <https://web.stanford.edu/%7Eclark/1990s/Clark,%20H.H.%20_%20Brennan,%20S.E.%20_Grounding%20in%20communication_%201991.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/common-ground/s2> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/common-ground/s2> <http://purl.org/dc/terms/publisher> "Herbert H. Clark & Deanna Wilkes-Gibbs, Cognition 22, 1-39 (1986) (author's copy, Stanford University)" .
+<https://github.com/john1hsu/communication-graph/id/source/common-ground/s2> <http://purl.org/dc/terms/title> "Referring as a collaborative process" .
+<https://github.com/john1hsu/communication-graph/id/source/common-ground/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/common-ground/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/common-ground/s2> <https://schema.org/url> <https://web.stanford.edu/~clark/1980s/Clark.Wilkes-Gibbs.86.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/common-ground/s3> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/common-ground/s3> <http://purl.org/dc/terms/publisher> "Catherine Durnell Cramton, Organization Science 12(3), 346-371 (2001) (course copy)" .
+<https://github.com/john1hsu/communication-graph/id/source/common-ground/s3> <http://purl.org/dc/terms/title> "The Mutual Knowledge Problem and Its Consequences for Dispersed Collaboration" .
+<https://github.com/john1hsu/communication-graph/id/source/common-ground/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/common-ground/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/common-ground/s3> <https://schema.org/url> <https://www.jimelwood.net/students/grips/man_group_comm/cramton_2001.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/common-ground/s4> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/common-ground/s4> <http://purl.org/dc/terms/publisher> "Bart Geurts, Stanford Encyclopedia of Philosophy (first published 2024)" .
+<https://github.com/john1hsu/communication-graph/id/source/common-ground/s4> <http://purl.org/dc/terms/title> "Common Ground in Pragmatics" .
+<https://github.com/john1hsu/communication-graph/id/source/common-ground/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/common-ground/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/communication-graph/id/source/common-ground/s4> <https://schema.org/url> <https://plato.stanford.edu/entries/common-ground-pragmatics> .
+<https://github.com/john1hsu/communication-graph/id/source/common-ground/s5> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/common-ground/s5> <http://purl.org/dc/terms/publisher> "Keysar, Barr, Balin & Brauner, Psychological Science 11(1), 32-38 (2000) (University of Glasgow Enlighten record)" .
+<https://github.com/john1hsu/communication-graph/id/source/common-ground/s5> <http://purl.org/dc/terms/title> "Taking Perspective in Conversation: The Role of Mutual Knowledge in Comprehension" .
+<https://github.com/john1hsu/communication-graph/id/source/common-ground/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/common-ground/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/common-ground/s5> <https://schema.org/url> <https://eprints.gla.ac.uk/45627> .
+<https://github.com/john1hsu/communication-graph/id/source/common-ground/s6> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/common-ground/s6> <http://purl.org/dc/terms/publisher> "Luce & Almor, Psychonomic Bulletin & Review 30(6), 2351-2362 (2023)" .
+<https://github.com/john1hsu/communication-graph/id/source/common-ground/s6> <http://purl.org/dc/terms/title> "Inconsistency in perspective-taking during comprehension" .
+<https://github.com/john1hsu/communication-graph/id/source/common-ground/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/common-ground/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/common-ground/s6> <https://schema.org/url> <https://link.springer.com/article/10.3758/s13423-023-02315-0> .
 <https://github.com/john1hsu/communication-graph/id/source/communicating-uncertainty/s1> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/communicating-uncertainty/s1> <http://purl.org/dc/terms/publisher> "van der Bles, van der Linden, Freeman, Mitchell, Galvao, Zaval & Spiegelhalter, Royal Society Open Science 6(5): 181870 (2019), doi:10.1098/rsos.181870 (PubMed Central copy)" .
 <https://github.com/john1hsu/communication-graph/id/source/communicating-uncertainty/s1> <http://purl.org/dc/terms/title> "Communicating uncertainty about facts, numbers and science" .

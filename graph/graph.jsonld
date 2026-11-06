@@ -770,6 +770,9 @@
      "@id": "cm:channel-selection"
     },
     {
+     "@id": "cm:common-ground"
+    },
+    {
      "@id": "cm:curse-of-knowledge"
     },
     {
@@ -1228,6 +1231,115 @@
     },
     {
      "@id": "cm:zoom-fatigue"
+    }
+   ]
+  },
+  {
+   "@id": "cm:common-ground",
+   "@type": "cmo:Theory",
+   "cmo:challengedBy": {
+    "@id": "cm:keysar-et-al-2000"
+   },
+   "cmo:complements": {
+    "@id": "cm:channel-selection"
+   },
+   "cmo:demonstratedBy": [
+    {
+     "@id": "cm:clark-wilkes-gibbs-1986"
+    },
+    {
+     "@id": "cm:cramton-2001"
+    }
+   ],
+   "cmo:domain": "foundations",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:file": "articles/foundations/common-ground.md",
+   "cmo:influencedBy": {
+    "@id": "cm:grices-maxims"
+   },
+   "cmo:introducedBy": {
+    "@id": "cm:herbert-h-clark"
+   },
+   "cmo:introducedIn": {
+    "@id": "cm:grounding-in-communication"
+   },
+   "cmo:level": "intermediate",
+   "cmo:studiedIn": {
+    "@id": "cm:pragmatics"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/common-ground/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/common-ground/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/common-ground/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/common-ground/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/common-ground/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/common-ground/s6"
+    }
+   ],
+   "rdfs:label": "Common ground and grounding theory",
+   "skos:altLabel": [
+    "collaborative model of communication",
+    "common ground",
+    "contribution theory",
+    "grounding in communication",
+    "grounding"
+   ],
+   "skos:broader": {
+    "@id": "cm:pragmatics"
+   },
+   "skos:definition": "Herbert Clark's account of conversation as joint action: people communicate by drawing on common ground (the knowledge, beliefs and assumptions they mutually take to be shared) and by grounding, the collaborative work of presenting a message and getting evidence it was understood well enough for the current purpose.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/foundations"
+   },
+   "skos:prefLabel": "Common ground and grounding theory",
+   "skos:related": [
+    {
+     "@id": "cm:active-listening"
+    },
+    {
+     "@id": "cm:asynchronous-communication"
+    },
+    {
+     "@id": "cm:audience-analysis"
+    },
+    {
+     "@id": "cm:audience-design"
+    },
+    {
+     "@id": "cm:checking-understanding"
+    },
+    {
+     "@id": "cm:curse-of-knowledge"
+    },
+    {
+     "@id": "cm:egocentric-bias"
+    },
+    {
+     "@id": "cm:illusion-of-transparency"
+    },
+    {
+     "@id": "cm:media-richness-theory"
+    },
+    {
+     "@id": "cm:paraphrasing"
+    },
+    {
+     "@id": "cm:teach-back"
     }
    ]
   },
@@ -10419,6 +10531,90 @@
    "dcterms:title": "Channel Expansion Theory: A Comprehensive Meta-Analysis, Literature Review, and Examination of Boundary Conditions",
    "schema:url": {
     "@id": "https://scholars.hkbu.edu.hk/en/publications/channel-expansion-theory-a-comprehensive-meta-analysis-literature/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/common-ground/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Herbert H. Clark & Susan E. Brennan, in Resnick, Levine & Teasley (eds.), Perspectives on Socially Shared Cognition, APA Books, 127-149 (1991) (author's copy, Stanford University)",
+   "dcterms:title": "Grounding in communication",
+   "schema:url": {
+    "@id": "https://web.stanford.edu/%7Eclark/1990s/Clark,%20H.H.%20_%20Brennan,%20S.E.%20_Grounding%20in%20communication_%201991.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/common-ground/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Herbert H. Clark & Deanna Wilkes-Gibbs, Cognition 22, 1-39 (1986) (author's copy, Stanford University)",
+   "dcterms:title": "Referring as a collaborative process",
+   "schema:url": {
+    "@id": "https://web.stanford.edu/~clark/1980s/Clark.Wilkes-Gibbs.86.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/common-ground/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Catherine Durnell Cramton, Organization Science 12(3), 346-371 (2001) (course copy)",
+   "dcterms:title": "The Mutual Knowledge Problem and Its Consequences for Dispersed Collaboration",
+   "schema:url": {
+    "@id": "https://www.jimelwood.net/students/grips/man_group_comm/cramton_2001.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/common-ground/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Bart Geurts, Stanford Encyclopedia of Philosophy (first published 2024)",
+   "dcterms:title": "Common Ground in Pragmatics",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/entries/common-ground-pragmatics"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/common-ground/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Keysar, Barr, Balin & Brauner, Psychological Science 11(1), 32-38 (2000) (University of Glasgow Enlighten record)",
+   "dcterms:title": "Taking Perspective in Conversation: The Role of Mutual Knowledge in Comprehension",
+   "schema:url": {
+    "@id": "https://eprints.gla.ac.uk/45627"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/common-ground/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Luce & Almor, Psychonomic Bulletin & Review 30(6), 2351-2362 (2023)",
+   "dcterms:title": "Inconsistency in perspective-taking during comprehension",
+   "schema:url": {
+    "@id": "https://link.springer.com/article/10.3758/s13423-023-02315-0"
    }
   },
   {
