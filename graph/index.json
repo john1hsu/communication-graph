@@ -3149,6 +3149,116 @@
   ]
  },
  {
+  "id": "cm:feedback-sandwich",
+  "title": "Feedback sandwich",
+  "aliases": [
+   "praise sandwich",
+   "compliment sandwich",
+   "positive-corrective-positive feedback",
+   "PCP feedback"
+  ],
+  "type": "Technique",
+  "domain": "feedback-and-coaching",
+  "level": "introductory",
+  "evidenceStatus": "contested",
+  "file": "articles/feedback-and-coaching/feedback-sandwich.md",
+  "created": "2026-11-06",
+  "summary": "A widely taught way of delivering criticism by placing one piece of corrective feedback between two pieces of praise (positive, corrective, positive); popular in medicine, education and management, but controlled studies find it mostly changes how feedback feels rather than how people perform.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:feedback"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:situation-behavior-impact"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:direct-vs-indirect-feedback"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:delivering-bad-news"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:feedforward"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:defensiveness"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:legg-sweeny-2013"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:defensiveness",
+    "source": "s1",
+    "confidence": "low"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:performance-review",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:parkes-abercrombie-mccarty-2013",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:henley-digennaro-reed-2015",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:bottini-gillis-2021",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:prochazka-ovcari-durinik-2020",
+    "source": "s5",
+    "confidence": "low"
+   }
+  ],
+  "selfCheck": [
+   "Is my praise specific and sincere, or am I using it only to cushion the criticism?",
+   "If the person repeated back only one sentence from this conversation, would it be the correction?",
+   "Am I sandwiching because the feedback needs it, or because I am uncomfortable saying it?",
+   "Do the people I manage now brace for a \"but\" whenever I praise them?"
+  ],
+  "steps": [
+   "Decide whether a sandwich is needed at all - routine corrections in a healthy working relationship can be given on their own, and praise can be given separately when it is earned.",
+   "Pick one specific, important correction; if there are several, the issue is bigger than a sandwich and needs a fuller conversation.",
+   "Open with sincere praise for a specific behaviour you want the person to keep, ideally related to the same piece of work.",
+   "State the correction plainly as an observable behaviour, not a judgement of the person, and offer a concrete alternative.",
+   "Close with genuine, specific encouragement - not a generic compliment - and invite the person to respond, then paraphrase what they say.",
+   "Afterwards, check that the correction was heard by asking what they will do differently next time."
+  ],
+  "example": {
+   "situation": "A team lead reviewing an analyst's first client slide deck, which is well researched but hides the recommendation on slide 14.",
+   "before": "Great job overall, really nice work! Just one tiny thing, maybe think about the order a bit? But honestly it's great, the client will love it.",
+   "after": "Your market-sizing section is the strongest I've seen from a new analyst - the sources are solid. The main fix: the recommendation is on slide 14, so the client won't see it until the end; move it to slide 2 and let the rest support it. Your data work makes that recommendation easy to defend. What do you think of moving it?",
+   "why": "The first version wraps a vague correction in generic praise, so the analyst may hear only \"great job\"; the rewrite keeps the positive-corrective-positive shape but makes every part specific, states the fix as an action, and checks it landed."
+  },
+  "source_urls": [
+   "https://www.aafp.org/pubs/fpm/issues/2002/1100/p43.pdf",
+   "https://experts.nau.edu/en/publications/feedback-sandwiches-affect-perceptions-but-not-performance/",
+   "https://foxylearning.com/wp-content/uploads/2021/11/HenleyDiGennaroReed2015.pdf",
+   "https://researchconnect.suny.edu/en/publications/a-comparison-of-the-feedback-sandwich-constructive-positive-feedb/",
+   "https://researchers.mq.edu.au/en/publications/sandwich-feedback-the-empirical-evidence-of-its-effectiveness/"
+  ]
+ },
+ {
   "id": "cm:feedforward",
   "title": "Feedforward",
   "aliases": [

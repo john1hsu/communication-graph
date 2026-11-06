@@ -413,6 +413,29 @@ Ask yourself:
 
 ## feedback-and-coaching
 
+### [Feedback sandwich](../articles/feedback-and-coaching/feedback-sandwich.md) — Technique
+
+1. Decide whether a sandwich is needed at all - routine corrections in a healthy working relationship can be given on their own, and praise can be given separately when it is earned.
+2. Pick one specific, important correction; if there are several, the issue is bigger than a sandwich and needs a fuller conversation.
+3. Open with sincere praise for a specific behaviour you want the person to keep, ideally related to the same piece of work.
+4. State the correction plainly as an observable behaviour, not a judgement of the person, and offer a concrete alternative.
+5. Close with genuine, specific encouragement - not a generic compliment - and invite the person to respond, then paraphrase what they say.
+6. Afterwards, check that the correction was heard by asking what they will do differently next time.
+
+*A team lead reviewing an analyst's first client slide deck, which is well researched but hides the recommendation on slide 14.*
+
+| Before | After |
+|---|---|
+| Great job overall, really nice work! Just one tiny thing, maybe think about the order a bit? But honestly it's great, the client will love it. | Your market-sizing section is the strongest I've seen from a new analyst - the sources are solid. The main fix: the recommendation is on slide 14, so the client won't see it until the end; move it to slide 2 and let the rest support it. Your data work makes that recommendation easy to defend. What do you think of moving it? |
+
+**Why:** The first version wraps a vague correction in generic praise, so the analyst may hear only "great job"; the rewrite keeps the positive-corrective-positive shape but makes every part specific, states the fix as an action, and checks it landed.
+
+Ask yourself:
+- Is my praise specific and sincere, or am I using it only to cushion the criticism?
+- If the person repeated back only one sentence from this conversation, would it be the correction?
+- Am I sandwiching because the feedback needs it, or because I am uncomfortable saying it?
+- Do the people I manage now brace for a "but" whenever I praise them?
+
 ### [Feedforward](../articles/feedback-and-coaching/feedforward.md) — Technique
 
 1. Pick one specific behaviour you want to get better at, phrased as a future goal ("run tighter project kick-offs"), not a past failure.

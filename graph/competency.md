@@ -43,6 +43,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:camera-optional-norm` | 1 | Zoom fatigue |
 | `cm:communicating-uncertainty` | 1 | vague-probability-language |
 | `cm:considering-others-contributions-first` | 1 | Egocentric bias |
+| `cm:feedback-sandwich` | 1 | Defensiveness |
 | `cm:feedforward` | 1 | Defensiveness |
 | `cm:habit-reversal-training` | 1 | Filled pauses |
 | `cm:humble-inquiry` | 1 | telling-instead-of-asking |
@@ -55,9 +56,8 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:reciprocal-self-disclosure` | 1 | Small talk at work |
 | `cm:scheduled-inbox-checks` | 1 | Information overload |
 | `cm:setting-reply-time-expectations` | 1 | email-urgency-bias |
-| `cm:situation-behavior-impact` | 1 | Defensiveness |
 
-…and 3 more.
+…and 4 more.
 
 ## Toolkit by situation
 
@@ -96,7 +96,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:one-on-one-meetings` | `cm:active-listening` |
 | `cm:one-on-one-meetings` | `cm:humble-inquiry` |
 
-…and 23 more.
+…and 24 more.
 
 ## Myths and contested advice
 
@@ -105,6 +105,9 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | node | status | challenger |
 |---|---|---|
 | `cm:anxiety-reappraisal` | contested | `cm:poynter-smith-pasqualini-2025` |
+| `cm:feedback-sandwich` | contested | `cm:bottini-gillis-2021` |
+| `cm:feedback-sandwich` | contested | `cm:henley-digennaro-reed-2015` |
+| `cm:feedback-sandwich` | contested | `cm:parkes-abercrombie-mccarty-2013` |
 | `cm:filled-pauses` | contested | `cm:clark-fox-tree-2002` |
 | `cm:filled-pauses` | contested | `cm:fraundorf-watson-2011` |
 | `cm:high-and-low-context-cultures` | contested | `cm:cardon-2008` |
@@ -131,11 +134,8 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:defensiveness` | mixed | `cm:forward-czech-lee-2011` |
 | `cm:delivering-bad-news` | mixed |  |
 | `cm:direct-vs-indirect-feedback` | mixed | `cm:brew-cairns-2004` |
-| `cm:email` | mixed |  |
-| `cm:ethnocentrism` | mixed |  |
-| `cm:eye-contact` | mixed | `cm:chen-et-al-2013` |
 
-…and 35 more.
+…and 38 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -151,6 +151,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:delivering-bad-news` | cmo:Context |
 | `cm:egocentric-bias` | cmo:Barrier |
 | `cm:eye-contact` | cmo:Skill |
+| `cm:feedback-sandwich` | cmo:Technique |
 | `cm:filled-pauses` | cmo:AntiPattern |
 | `cm:information-overload` | cmo:Barrier |
 | `cm:meeting-agendas` | cmo:Technique |
