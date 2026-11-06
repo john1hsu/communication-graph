@@ -574,6 +574,28 @@ Ask yourself:
 - Did each person rank privately, so seniors' preferences were not visible before others voted?
 - Is this really a single-question, prioritise-and-decide meeting, or does the topic need open exploration first?
 
+### [RACI matrix](../articles/meetings-and-facilitation/raci-matrix.md) — Technique
+
+1. List the recurring tasks and decisions that cause confusion as rows, and the roles involved as columns.
+2. For each row, name exactly one Accountable owner - the person who signs off or makes the call.
+3. Mark who is Responsible for doing the work, keeping it to as few people as possible.
+4. Mark Consulted only for people whose input must be heard before the work is finished, and Informed for people who need the outcome afterwards.
+5. Scan the finished grid for rows with no A, several As, many Rs or a long list of Cs, and fix them.
+6. Share the grid with everyone named, agree it together, and use the C and I columns as the contact list for updates.
+
+*A product team keeps arguing about who signs off on customer-facing release notes; marketing, support and engineering all edit them and the notes ship late.*
+
+| Before | After |
+|---|---|
+| Release notes - owners: Eng, Marketing, Support (everyone please review before we publish). | Release notes - R: tech writer drafts. A: product manager approves and publishes. C: lead engineer checks accuracy by Wednesday. I: support team gets the final text on release day. |
+
+**Why:** One named approver ends the circular edits, the single consulted reviewer has a deadline, and support knows it will be told rather than needing to chase or review.
+
+Ask yourself:
+- For this decision, can everyone involved name the one person who makes the final call?
+- Is each person I have marked Consulted someone whose input could actually change the outcome?
+- Do the people marked Informed know when and how they will hear the result?
+
 ## negotiation
 
 ### [BATNA](../articles/negotiation/batna.md) — Technique

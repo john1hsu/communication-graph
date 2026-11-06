@@ -3050,6 +3050,76 @@
 <https://github.com/john1hsu/communication-graph/id/psychological-safety> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/amy-edmondson> .
 <https://github.com/john1hsu/communication-graph/id/psychological-safety> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/psychological-safety> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/project-aristotle> .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "For this decision, can everyone involved name the one person who makes the final call?" .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/raci-matrix> .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Is each person I have marked Consulted someone whose input could actually change the outcome?" .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/raci-matrix> .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Do the people marked Informed know when and how they will hear the result?" .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/raci-matrix> .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix/example> <https://github.com/john1hsu/communication-graph/ontology#after> "Release notes - R: tech writer drafts. A: product manager approves and publishes. C: lead engineer checks accuracy by Wednesday. I: support team gets the final text on release day." .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix/example> <https://github.com/john1hsu/communication-graph/ontology#before> "Release notes - owners: Eng, Marketing, Support (everyone please review before we publish)." .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "A product team keeps arguing about who signs off on customer-facing release notes; marketing, support and engineering all edit them and the notes ship late." .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix/example> <https://github.com/john1hsu/communication-graph/ontology#why> "One named approver ends the circular edits, the single consulted reviewer has a deadline, and support knows it will be told rather than needing to chase or review." .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix/howto/1> <https://schema.org/text> "List the recurring tasks and decisions that cause confusion as rows, and the roles involved as columns." .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix/howto/2> <https://schema.org/text> "For each row, name exactly one Accountable owner - the person who signs off or makes the call." .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix/howto/3> <https://schema.org/text> "Mark who is Responsible for doing the work, keeping it to as few people as possible." .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix/howto/4> <https://schema.org/text> "Mark Consulted only for people whose input must be heard before the work is finished, and Informed for people who need the outcome afterwards." .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix/howto/5> <https://schema.org/text> "Scan the finished grid for rows with no A, several As, many Rs or a long list of Cs, and fix them." .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix/howto/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix/howto/6> <https://schema.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix/howto/6> <https://schema.org/text> "Share the grid with everyone named, agree it together, and use the C and I columns as the contact list for updates." .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix/howto> <https://schema.org/name> "RACI matrix" .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/raci-matrix/howto/1> .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/raci-matrix/howto/2> .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/raci-matrix/howto/3> .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/raci-matrix/howto/4> .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/raci-matrix/howto/5> .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/raci-matrix/howto/6> .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix> <http://purl.org/dc/terms/created> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Technique> .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix> <http://www.w3.org/2000/01/rdf-schema#label> "RACI matrix" .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix> <http://www.w3.org/2004/02/skos/core#altLabel> "RACI chart" .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix> <http://www.w3.org/2004/02/skos/core#altLabel> "responsibility assignment matrix" .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix> <http://www.w3.org/2004/02/skos/core#altLabel> "responsible accountable consulted informed" .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/decision-rights> .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix> <http://www.w3.org/2004/02/skos/core#definition> "A grid that lists a piece of work's tasks or decisions down one side and the people or roles across the top, marking for each who is Responsible for doing it, who is Accountable for it, who must be Consulted before it is done and who must be Informed after." .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/meetings-and-facilitation> .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix> <http://www.w3.org/2004/02/skos/core#prefLabel> "RACI matrix" .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/group-decision-making> .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/meeting-agendas> .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/meeting-recaps> .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/raci-matrix/s1> .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/raci-matrix/s2> .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/raci-matrix/s3> .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/raci-matrix/s4> .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/raci-matrix/s5> .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/raci-matrix/s6> .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/role-ambiguity> .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix> <https://github.com/john1hsu/communication-graph/ontology#alternativeTo> <https://github.com/john1hsu/communication-graph/id/dare-decision-roles> .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/communication-plan> .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/project-planning> .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping> .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix> <https://github.com/john1hsu/communication-graph/ontology#domain> "meetings-and-facilitation" .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "practitioner" .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/raci-matrix/example> .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/meetings-and-facilitation/raci-matrix.md" .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/raci-matrix/howto> .
+<https://github.com/john1hsu/communication-graph/id/raci-matrix> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/rapport/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/rapport/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Did I give this person my full attention, or was part of me on my screen or my next point?" .
 <https://github.com/john1hsu/communication-graph/id/rapport/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/rapport> .
@@ -5556,6 +5626,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/psychological-safety/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/psychological-safety/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
 <https://github.com/john1hsu/communication-graph/id/source/psychological-safety/s6> <https://schema.org/url> <https://www.bps.org.uk/research-digest/psychologically-safe-teams-can-incubate-bad-behaviour-0> .
+<https://github.com/john1hsu/communication-graph/id/source/raci-matrix/s1> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/raci-matrix/s1> <http://purl.org/dc/terms/publisher> "Simona Gilboa, Arie Shirom, Yitzhak Fried & Cary L. Cooper, Personnel Psychology 61(2), 227-271, 2008 (Lancaster University repository author copy)" .
+<https://github.com/john1hsu/communication-graph/id/source/raci-matrix/s1> <http://purl.org/dc/terms/title> "A meta-analysis of work demand stressors and job performance: examining main and moderating effects" .
+<https://github.com/john1hsu/communication-graph/id/source/raci-matrix/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/raci-matrix/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/raci-matrix/s1> <https://schema.org/url> <https://eprints.lancs.ac.uk/id/eprint/45119/1/10.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/raci-matrix/s2> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/raci-matrix/s2> <http://purl.org/dc/terms/publisher> "Focus Online Toolkit, University of Oxford, v1, July 2020" .
+<https://github.com/john1hsu/communication-graph/id/source/raci-matrix/s2> <http://purl.org/dc/terms/title> "RACI responsibility matrix" .
+<https://github.com/john1hsu/communication-graph/id/source/raci-matrix/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/raci-matrix/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/raci-matrix/s2> <https://schema.org/url> <https://focus.admin.ox.ac.uk/files/racipdf> .
+<https://github.com/john1hsu/communication-graph/id/source/raci-matrix/s3> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/raci-matrix/s3> <http://purl.org/dc/terms/publisher> "Agency for Healthcare Research and Quality (AHRQ), U.S. Department of Health and Human Services" .
+<https://github.com/john1hsu/communication-graph/id/source/raci-matrix/s3> <http://purl.org/dc/terms/title> "Appendix A. RACI Chart (Pressure Injury Prevention Program Implementation Guide)" .
+<https://github.com/john1hsu/communication-graph/id/source/raci-matrix/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/raci-matrix/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/communication-graph/id/source/raci-matrix/s3> <https://schema.org/url> <https://www.ahrq.gov/patient-safety/settings/hospital/resource/pressureinjury/guide/apa.html> .
+<https://github.com/john1hsu/communication-graph/id/source/raci-matrix/s4> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/raci-matrix/s4> <http://purl.org/dc/terms/publisher> "Aged Care Quality and Safety Commission (Australian Government), governance toolkit" .
+<https://github.com/john1hsu/communication-graph/id/source/raci-matrix/s4> <http://purl.org/dc/terms/title> "Topic resource 14: RACI matrix" .
+<https://github.com/john1hsu/communication-graph/id/source/raci-matrix/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/raci-matrix/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/communication-graph/id/source/raci-matrix/s4> <https://schema.org/url> <https://www.agedcarequality.gov.au/sites/default/files/media/topic-resource-14-raci-matrix.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/raci-matrix/s5> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/raci-matrix/s5> <http://purl.org/dc/terms/publisher> "Aaron De Smet, Caitlin Hewes & Mengwei Luo, McKinsey & Company Organization Blog, July 2022" .
+<https://github.com/john1hsu/communication-graph/id/source/raci-matrix/s5> <http://purl.org/dc/terms/title> "The limits of RACI - and a better way to make decisions" .
+<https://github.com/john1hsu/communication-graph/id/source/raci-matrix/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/raci-matrix/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/communication-graph/id/source/raci-matrix/s5> <https://schema.org/url> <https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/the-organization-blog/the-limits-of-raci-and-a-better-way-to-make-decisions> .
+<https://github.com/john1hsu/communication-graph/id/source/raci-matrix/s6> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/raci-matrix/s6> <http://purl.org/dc/terms/publisher> "Paul Rogers & Marcia Blenko, Bain & Company (summary of the Harvard Business Review article, January 2006)" .
+<https://github.com/john1hsu/communication-graph/id/source/raci-matrix/s6> <http://purl.org/dc/terms/title> "Who has the 'D'? How clear decision roles enhance organizational performance" .
+<https://github.com/john1hsu/communication-graph/id/source/raci-matrix/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/raci-matrix/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/communication-graph/id/source/raci-matrix/s6> <https://schema.org/url> <https://www.bain.com/insights/who-has-the-d> .
 <https://github.com/john1hsu/communication-graph/id/source/rapport/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/rapport/s1> <http://purl.org/dc/terms/publisher> "Tickle-Degnen & Rosenthal, Psychological Inquiry 1(4), 285-293 (1990) (copy hosted by the National Children's Advocacy Center)" .
 <https://github.com/john1hsu/communication-graph/id/source/rapport/s1> <http://purl.org/dc/terms/title> "The Nature of Rapport and Its Nonverbal Correlates" .

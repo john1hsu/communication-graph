@@ -10,6 +10,7 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 2.42 | `cm:camera-level-gaze` | `cm:proxemics` | `cm:eye-contact`, `cm:nonverbal-communication`, `cm:rapport`, `cm:video-call-communication`, `cm:zoom-fatigue` |
 | 2.35 | `cm:multiple-equivalent-simultaneous-offers` | `cm:wait-time` | `cm:integrative-negotiation`, `cm:salary-negotiation` |
 | 2.27 | `cm:egocentric-bias` | `cm:teach-back` | `cm:checking-understanding`, `cm:clarity`, `cm:common-ground`, `cm:curse-of-knowledge`, `cm:illusion-of-transparency` |
+| 2.23 | `cm:nominal-group-technique` | `cm:raci-matrix` | `cm:group-decision-making`, `cm:meeting-agendas`, `cm:stakeholder-mapping` |
 | 2.19 | `cm:audience-analysis` | `cm:illusion-of-transparency` | `cm:clarity`, `cm:common-ground`, `cm:communicating-uncertainty`, `cm:curse-of-knowledge`, `cm:email` |
 | 2.16 | `cm:anchoring-and-adjustment` | `cm:thomas-gilovich` | `cm:curse-of-knowledge`, `cm:egocentric-bias`, `cm:gilovich-savitsky-medvec-1998`, `cm:illusion-of-transparency`, `cm:macinnis-mackinnon-macintyre-2010` |
 | 2.16 | `cm:i-statements` | `cm:weger-et-al-2014` | `cm:active-listening`, `cm:paraphrasing`, `cm:thomas-gordon` |
@@ -28,4 +29,3 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 1.82 | `cm:apology` | `cm:direct-vs-indirect-feedback` | `cm:face-and-facework`, `cm:i-statements` |
 | 1.81 | `cm:common-ground` | `cm:plain-language` | `cm:audience-analysis`, `cm:clarity`, `cm:curse-of-knowledge`, `cm:grices-maxims`, `cm:teach-back` |
 | 1.80 | `cm:risk-numbers-as-natural-frequencies` | `cm:teach-back` | `cm:patient-education`, `cm:plain-language` |
-| 1.80 | `cm:curse-of-knowledge` | `cm:macinnis-mackinnon-macintyre-2010` | `cm:anchoring-and-adjustment`, `cm:gilovich-savitsky-medvec-1998`, `cm:illusion-of-transparency`, `cm:spotlight-effect`, `cm:thomas-gilovich` |

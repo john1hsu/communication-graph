@@ -48,6 +48,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:meeting-agendas` | 1 | unnecessary-meetings |
 | `cm:multiple-equivalent-simultaneous-offers` | 1 | negotiator-dilemma |
 | `cm:paraphrasing` | 1 | Active listening |
+| `cm:raci-matrix` | 1 | role-ambiguity |
 | `cm:reciprocal-self-disclosure` | 1 | Small talk at work |
 | `cm:setting-reply-time-expectations` | 1 | email-urgency-bias |
 | `cm:situation-behavior-impact` | 1 | Defensiveness |
@@ -63,6 +64,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 |---|---|
 | `cm:apology` | `cm:social-accounts` |
 | `cm:asynchronous-communication` | `cm:setting-reply-time-expectations` |
+| `cm:communication-plan` | `cm:raci-matrix` |
 | `cm:communication-plan` | `cm:stakeholder-mapping` |
 | `cm:crisis-communication` | `cm:communicating-uncertainty` |
 | `cm:cross-functional-collaboration` | `cm:influence-without-authority` |
@@ -90,9 +92,8 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:one-on-one-meetings` | `cm:managing-up` |
 | `cm:patient-education` | `cm:risk-numbers-as-natural-frequencies` |
 | `cm:patient-education` | `cm:teach-back` |
-| `cm:performance-review` | `cm:feedforward` |
 
-…and 16 more.
+…and 18 more.
 
 ## Myths and contested advice
 
@@ -151,6 +152,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:one-on-one-meetings` | cmo:Context |
 | `cm:open-ended-questions` | cmo:Technique |
 | `cm:plain-language` | cmo:Principle |
+| `cm:raci-matrix` | cmo:Technique |
 | `cm:rapport` | cmo:Concept |
 | `cm:reciprocal-self-disclosure` | cmo:Technique |
 | `cm:self-distancing` | cmo:Technique |
