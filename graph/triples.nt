@@ -2419,6 +2419,40 @@
 <https://github.com/john1hsu/communication-graph/id/managing-up> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
 <https://github.com/john1hsu/communication-graph/id/managing-up> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/dutton-et-al-2001> .
 <https://github.com/john1hsu/communication-graph/id/managing-up> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/lee-et-al-2017> .
+<https://github.com/john1hsu/communication-graph/id/media-richness-theory> <http://purl.org/dc/terms/created> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/media-richness-theory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Theory> .
+<https://github.com/john1hsu/communication-graph/id/media-richness-theory> <http://www.w3.org/2000/01/rdf-schema#label> "Media richness theory" .
+<https://github.com/john1hsu/communication-graph/id/media-richness-theory> <http://www.w3.org/2004/02/skos/core#altLabel> "Daft and Lengel's media richness model" .
+<https://github.com/john1hsu/communication-graph/id/media-richness-theory> <http://www.w3.org/2004/02/skos/core#altLabel> "MRT" .
+<https://github.com/john1hsu/communication-graph/id/media-richness-theory> <http://www.w3.org/2004/02/skos/core#altLabel> "information richness theory" .
+<https://github.com/john1hsu/communication-graph/id/media-richness-theory> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
+<https://github.com/john1hsu/communication-graph/id/media-richness-theory> <http://www.w3.org/2004/02/skos/core#definition> "Daft and Lengel's 1980s theory that communication media differ in their capacity to change understanding quickly (\"richness\") and that work goes best when ambiguous, equivocal messages travel through rich media and routine, unambiguous ones through lean media." .
+<https://github.com/john1hsu/communication-graph/id/media-richness-theory> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/digital-and-async-communication> .
+<https://github.com/john1hsu/communication-graph/id/media-richness-theory> <http://www.w3.org/2004/02/skos/core#prefLabel> "Media richness theory" .
+<https://github.com/john1hsu/communication-graph/id/media-richness-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> .
+<https://github.com/john1hsu/communication-graph/id/media-richness-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/channel-selection> .
+<https://github.com/john1hsu/communication-graph/id/media-richness-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/common-ground> .
+<https://github.com/john1hsu/communication-graph/id/media-richness-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/email> .
+<https://github.com/john1hsu/communication-graph/id/media-richness-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/media-synchronicity-theory> .
+<https://github.com/john1hsu/communication-graph/id/media-richness-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/message-equivocality-media-selection-and-manager-performance> .
+<https://github.com/john1hsu/communication-graph/id/media-richness-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> .
+<https://github.com/john1hsu/communication-graph/id/media-richness-theory> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/media-richness-theory/s1> .
+<https://github.com/john1hsu/communication-graph/id/media-richness-theory> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/media-richness-theory/s2> .
+<https://github.com/john1hsu/communication-graph/id/media-richness-theory> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/media-richness-theory/s3> .
+<https://github.com/john1hsu/communication-graph/id/media-richness-theory> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/media-richness-theory/s4> .
+<https://github.com/john1hsu/communication-graph/id/media-richness-theory> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/media-richness-theory/s5> .
+<https://github.com/john1hsu/communication-graph/id/media-richness-theory> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/media-richness-theory/s6> .
+<https://github.com/john1hsu/communication-graph/id/media-richness-theory> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/email> .
+<https://github.com/john1hsu/communication-graph/id/media-richness-theory> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/dennis-kinney-1998> .
+<https://github.com/john1hsu/communication-graph/id/media-richness-theory> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/paradox-of-richness> .
+<https://github.com/john1hsu/communication-graph/id/media-richness-theory> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/channel-expansion-theory> .
+<https://github.com/john1hsu/communication-graph/id/media-richness-theory> <https://github.com/john1hsu/communication-graph/ontology#domain> "digital-and-async-communication" .
+<https://github.com/john1hsu/communication-graph/id/media-richness-theory> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "contested" .
+<https://github.com/john1hsu/communication-graph/id/media-richness-theory> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/digital-and-async-communication/media-richness-theory.md" .
+<https://github.com/john1hsu/communication-graph/id/media-richness-theory> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/richard-l-daft> .
+<https://github.com/john1hsu/communication-graph/id/media-richness-theory> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/robert-h-lengel> .
+<https://github.com/john1hsu/communication-graph/id/media-richness-theory> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/communication-graph/id/media-richness-theory> <https://github.com/john1hsu/communication-graph/ontology#studiedIn> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
 <https://github.com/john1hsu/communication-graph/id/meeting-agendas/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/meeting-agendas/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Could each attendee tell from the agenda alone what the meeting must decide and what they should prepare?" .
 <https://github.com/john1hsu/communication-graph/id/meeting-agendas/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/meeting-agendas> .
@@ -5108,6 +5142,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/managing-up/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/managing-up/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/communication-graph/id/source/managing-up/s6> <https://schema.org/url> <https://pure.psu.edu/en/publications/how-do-i-get-my-way-a-meta-analytic-review-of-research-on-influen/> .
+<https://github.com/john1hsu/communication-graph/id/source/media-richness-theory/s1> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/media-richness-theory/s1> <http://purl.org/dc/terms/publisher> "Daft, R. L. & Lengel, R. H., Management Science 32(5), 554-571, 1986 (copy hosted by Northwestern University Collaboration Lab)" .
+<https://github.com/john1hsu/communication-graph/id/source/media-richness-theory/s1> <http://purl.org/dc/terms/title> "Organizational Information Requirements, Media Richness and Structural Design" .
+<https://github.com/john1hsu/communication-graph/id/source/media-richness-theory/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/media-richness-theory/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/media-richness-theory/s1> <https://schema.org/url> <https://collablab.northwestern.edu//CollabolabDistro/nucmc/DaftAndLengel-OrgInfoReq-MediaRichnessAndStructuralDesign-MngmtSci-1986.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/media-richness-theory/s2> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/media-richness-theory/s2> <http://purl.org/dc/terms/publisher> "Dennis, A. R. & Kinney, S. T., Information Systems Research 9(3), 256-274, 1998, doi:10.1287/isre.9.3.256 (RePEc/IDEAS abstract page)" .
+<https://github.com/john1hsu/communication-graph/id/source/media-richness-theory/s2> <http://purl.org/dc/terms/title> "Testing Media Richness Theory in the New Media: The Effects of Cues, Feedback, and Task Equivocality" .
+<https://github.com/john1hsu/communication-graph/id/source/media-richness-theory/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/media-richness-theory/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/media-richness-theory/s2> <https://schema.org/url> <https://ideas.repec.org/a/inm/orisre/v9y1998i3p256-274.html> .
+<https://github.com/john1hsu/communication-graph/id/source/media-richness-theory/s3> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/media-richness-theory/s3> <http://purl.org/dc/terms/publisher> "Sheer, V. C., The International Encyclopedia of Media Psychology, Wiley, 2020, doi:10.1002/9781119011071.iemp0118 (Hong Kong Baptist University research portal record)" .
+<https://github.com/john1hsu/communication-graph/id/source/media-richness-theory/s3> <http://purl.org/dc/terms/title> "Media Richness Theory" .
+<https://github.com/john1hsu/communication-graph/id/source/media-richness-theory/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/media-richness-theory/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/media-richness-theory/s3> <https://schema.org/url> <https://scholars.hkbu.edu.hk/en/publications/media-richness-theory/> .
+<https://github.com/john1hsu/communication-graph/id/source/media-richness-theory/s4> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/media-richness-theory/s4> <http://purl.org/dc/terms/publisher> "Robert, L. P. & Dennis, A. R., IEEE Transactions on Professional Communication 48(1), 10-21, 2005 (University of Michigan Deep Blue repository record)" .
+<https://github.com/john1hsu/communication-graph/id/source/media-richness-theory/s4> <http://purl.org/dc/terms/title> "Paradox of Richness: A Cognitive Model of Media Choice" .
+<https://github.com/john1hsu/communication-graph/id/source/media-richness-theory/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/media-richness-theory/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/media-richness-theory/s4> <https://schema.org/url> <https://deepblue.lib.umich.edu/handle/2027.42/116285?show=full> .
+<https://github.com/john1hsu/communication-graph/id/source/media-richness-theory/s5> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/media-richness-theory/s5> <http://purl.org/dc/terms/publisher> "Carlson, J. R. & Zmud, R. W., Academy of Management Journal 42(2), 153-170, 1999, doi:10.2307/257090 (Scilit record)" .
+<https://github.com/john1hsu/communication-graph/id/source/media-richness-theory/s5> <http://purl.org/dc/terms/title> "Channel Expansion Theory and the Experiential Nature of Media Richness Perceptions" .
+<https://github.com/john1hsu/communication-graph/id/source/media-richness-theory/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/media-richness-theory/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/media-richness-theory/s5> <https://schema.org/url> <https://scilit.com/publications/6c7413e10ef66d1046a032c28527352c> .
+<https://github.com/john1hsu/communication-graph/id/source/media-richness-theory/s6> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/media-richness-theory/s6> <http://purl.org/dc/terms/publisher> "Carlson, P. J. & Davis, G. B., MIS Quarterly 22(3), 1998 (AIS eLibrary)" .
+<https://github.com/john1hsu/communication-graph/id/source/media-richness-theory/s6> <http://purl.org/dc/terms/title> "An Investigation of Media Selection Among Directors and Managers: From \"Self\" to \"Other\" Orientation" .
+<https://github.com/john1hsu/communication-graph/id/source/media-richness-theory/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/media-richness-theory/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/media-richness-theory/s6> <https://schema.org/url> <https://aisel.aisnet.org/misq/vol22/iss3/5> .
 <https://github.com/john1hsu/communication-graph/id/source/meeting-agendas/s1> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/meeting-agendas/s1> <http://purl.org/dc/terms/publisher> "Desmond J. Leach, Steven G. Rogelberg, Peter B. Warr & Jennifer L. Burnfield, Journal of Business and Psychology 24, 65-76, 2009, doi:10.1007/s10869-009-9092-6 (author copy)" .
 <https://github.com/john1hsu/communication-graph/id/source/meeting-agendas/s1> <http://purl.org/dc/terms/title> "Perceived Meeting Effectiveness: The Role of Design Characteristics" .

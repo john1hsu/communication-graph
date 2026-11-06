@@ -3991,6 +3991,100 @@
    ]
   },
   {
+   "@id": "cm:media-richness-theory",
+   "@type": "cmo:Theory",
+   "cmo:appliedIn": {
+    "@id": "cm:email"
+   },
+   "cmo:challengedBy": [
+    {
+     "@id": "cm:dennis-kinney-1998"
+    },
+    {
+     "@id": "cm:paradox-of-richness"
+    }
+   ],
+   "cmo:complements": {
+    "@id": "cm:channel-expansion-theory"
+   },
+   "cmo:domain": "digital-and-async-communication",
+   "cmo:evidenceStatus": "contested",
+   "cmo:file": "articles/digital-and-async-communication/media-richness-theory.md",
+   "cmo:introducedBy": [
+    {
+     "@id": "cm:richard-l-daft"
+    },
+    {
+     "@id": "cm:robert-h-lengel"
+    }
+   ],
+   "cmo:level": "intermediate",
+   "cmo:studiedIn": {
+    "@id": "cm:organizational-communication"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/media-richness-theory/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/media-richness-theory/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/media-richness-theory/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/media-richness-theory/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/media-richness-theory/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/media-richness-theory/s6"
+    }
+   ],
+   "rdfs:label": "Media richness theory",
+   "skos:altLabel": [
+    "Daft and Lengel's media richness model",
+    "MRT",
+    "information richness theory"
+   ],
+   "skos:broader": {
+    "@id": "cm:organizational-communication"
+   },
+   "skos:definition": "Daft and Lengel's 1980s theory that communication media differ in their capacity to change understanding quickly (\"richness\") and that work goes best when ambiguous, equivocal messages travel through rich media and routine, unambiguous ones through lean media.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/digital-and-async-communication"
+   },
+   "skos:prefLabel": "Media richness theory",
+   "skos:related": [
+    {
+     "@id": "cm:asynchronous-communication"
+    },
+    {
+     "@id": "cm:channel-selection"
+    },
+    {
+     "@id": "cm:common-ground"
+    },
+    {
+     "@id": "cm:email"
+    },
+    {
+     "@id": "cm:media-synchronicity-theory"
+    },
+    {
+     "@id": "cm:message-equivocality-media-selection-and-manager-performance"
+    },
+    {
+     "@id": "cm:zoom-fatigue"
+    }
+   ]
+  },
+  {
    "@id": "cm:meeting-agendas",
    "@type": "cmo:Technique",
    "cmo:addresses": {
@@ -13742,6 +13836,90 @@
    "dcterms:title": "How do I get my way? A meta-analytic review of research on influence tactics",
    "schema:url": {
     "@id": "https://pure.psu.edu/en/publications/how-do-i-get-my-way-a-meta-analytic-review-of-research-on-influen/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/media-richness-theory/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Daft, R. L. & Lengel, R. H., Management Science 32(5), 554-571, 1986 (copy hosted by Northwestern University Collaboration Lab)",
+   "dcterms:title": "Organizational Information Requirements, Media Richness and Structural Design",
+   "schema:url": {
+    "@id": "https://collablab.northwestern.edu//CollabolabDistro/nucmc/DaftAndLengel-OrgInfoReq-MediaRichnessAndStructuralDesign-MngmtSci-1986.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/media-richness-theory/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Dennis, A. R. & Kinney, S. T., Information Systems Research 9(3), 256-274, 1998, doi:10.1287/isre.9.3.256 (RePEc/IDEAS abstract page)",
+   "dcterms:title": "Testing Media Richness Theory in the New Media: The Effects of Cues, Feedback, and Task Equivocality",
+   "schema:url": {
+    "@id": "https://ideas.repec.org/a/inm/orisre/v9y1998i3p256-274.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/media-richness-theory/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Sheer, V. C., The International Encyclopedia of Media Psychology, Wiley, 2020, doi:10.1002/9781119011071.iemp0118 (Hong Kong Baptist University research portal record)",
+   "dcterms:title": "Media Richness Theory",
+   "schema:url": {
+    "@id": "https://scholars.hkbu.edu.hk/en/publications/media-richness-theory/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/media-richness-theory/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Robert, L. P. & Dennis, A. R., IEEE Transactions on Professional Communication 48(1), 10-21, 2005 (University of Michigan Deep Blue repository record)",
+   "dcterms:title": "Paradox of Richness: A Cognitive Model of Media Choice",
+   "schema:url": {
+    "@id": "https://deepblue.lib.umich.edu/handle/2027.42/116285?show=full"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/media-richness-theory/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Carlson, J. R. & Zmud, R. W., Academy of Management Journal 42(2), 153-170, 1999, doi:10.2307/257090 (Scilit record)",
+   "dcterms:title": "Channel Expansion Theory and the Experiential Nature of Media Richness Perceptions",
+   "schema:url": {
+    "@id": "https://scilit.com/publications/6c7413e10ef66d1046a032c28527352c"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/media-richness-theory/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Carlson, P. J. & Davis, G. B., MIS Quarterly 22(3), 1998 (AIS eLibrary)",
+   "dcterms:title": "An Investigation of Media Selection Among Directors and Managers: From \"Self\" to \"Other\" Orientation",
+   "schema:url": {
+    "@id": "https://aisel.aisnet.org/misq/vol22/iss3/5"
    }
   },
   {

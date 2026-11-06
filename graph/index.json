@@ -4559,6 +4559,109 @@
   ]
  },
  {
+  "id": "cm:media-richness-theory",
+  "title": "Media richness theory",
+  "aliases": [
+   "MRT",
+   "information richness theory",
+   "Daft and Lengel's media richness model"
+  ],
+  "type": "Theory",
+  "domain": "digital-and-async-communication",
+  "level": "intermediate",
+  "evidenceStatus": "contested",
+  "file": "articles/digital-and-async-communication/media-richness-theory.md",
+  "created": "2026-11-06",
+  "summary": "Daft and Lengel's 1980s theory that communication media differ in their capacity to change understanding quickly (\"richness\") and that work goes best when ambiguous, equivocal messages travel through rich media and routine, unambiguous ones through lean media.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:organizational-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:channel-selection"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:media-synchronicity-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:message-equivocality-media-selection-and-manager-performance"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:asynchronous-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:email"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:zoom-fatigue"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:common-ground"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:richard-l-daft",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:robert-h-lengel",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:studiedIn",
+    "object": "cm:organizational-communication",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:dennis-kinney-1998",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:paradox-of-richness",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:channel-expansion-theory",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:email",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://collablab.northwestern.edu//CollabolabDistro/nucmc/DaftAndLengel-OrgInfoReq-MediaRichnessAndStructuralDesign-MngmtSci-1986.pdf",
+   "https://ideas.repec.org/a/inm/orisre/v9y1998i3p256-274.html",
+   "https://scholars.hkbu.edu.hk/en/publications/media-richness-theory/",
+   "https://deepblue.lib.umich.edu/handle/2027.42/116285?show=full",
+   "https://scilit.com/publications/6c7413e10ef66d1046a032c28527352c",
+   "https://aisel.aisnet.org/misq/vol22/iss3/5"
+  ]
+ },
+ {
   "id": "cm:meeting-agendas",
   "title": "Meeting agendas",
   "aliases": [

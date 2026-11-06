@@ -73,6 +73,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:email` | `cm:audience-analysis` |
 | `cm:email` | `cm:bottom-line-up-front` |
 | `cm:email` | `cm:channel-selection` |
+| `cm:email` | `cm:media-richness-theory` |
 | `cm:email` | `cm:rapport` |
 | `cm:email` | `cm:setting-reply-time-expectations` |
 | `cm:executive-briefing` | `cm:issue-selling` |
@@ -90,9 +91,8 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:patient-education` | `cm:risk-numbers-as-natural-frequencies` |
 | `cm:patient-education` | `cm:teach-back` |
 | `cm:performance-review` | `cm:feedforward` |
-| `cm:performance-review` | `cm:kluger-denisi-1996` |
 
-…and 15 more.
+…and 16 more.
 
 ## Myths and contested advice
 
@@ -103,6 +103,8 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:anxiety-reappraisal` | contested | `cm:poynter-smith-pasqualini-2025` |
 | `cm:high-and-low-context-cultures` | contested | `cm:cardon-2008` |
 | `cm:high-and-low-context-cultures` | contested | `cm:kittler-rygl-mackinnon-2011` |
+| `cm:media-richness-theory` | contested | `cm:dennis-kinney-1998` |
+| `cm:media-richness-theory` | contested | `cm:paradox-of-richness` |
 | `cm:mehrabian-myth` | contested | `cm:lapakko-2007` |
 | `cm:mehrabian-myth` | contested | `cm:zuckerman-et-al-1982` |
 | `cm:active-listening` | mixed |  |
@@ -128,10 +130,8 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:feedback` | mixed |  |
 | `cm:feedforward` | mixed |  |
 | `cm:gilovich-savitsky-medvec-1998` | mixed |  |
-| `cm:i-statements` | mixed | `cm:korobov-2020` |
-| `cm:illusion-of-transparency` | mixed |  |
 
-…and 26 more.
+…and 28 more.
 
 ## Concepts with no recorded origin (gap)
 
