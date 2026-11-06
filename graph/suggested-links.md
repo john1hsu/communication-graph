@@ -8,7 +8,6 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 2.54 | `cm:channel-selection` | `cm:egocentric-bias` | `cm:common-ground`, `cm:curse-of-knowledge`, `cm:egocentrism-over-email-study`, `cm:setting-reply-time-expectations` |
 | 2.47 | `cm:anxiety-reappraisal` | `cm:spotlight-effect` | `cm:illusion-of-transparency`, `cm:macinnis-mackinnon-macintyre-2010`, `cm:self-distancing`, `cm:social-anxiety`, `cm:speaking-anxiety` |
 | 2.42 | `cm:camera-level-gaze` | `cm:proxemics` | `cm:eye-contact`, `cm:nonverbal-communication`, `cm:rapport`, `cm:video-call-communication`, `cm:zoom-fatigue` |
-| 2.35 | `cm:multiple-equivalent-simultaneous-offers` | `cm:wait-time` | `cm:integrative-negotiation`, `cm:salary-negotiation` |
 | 2.27 | `cm:egocentric-bias` | `cm:teach-back` | `cm:checking-understanding`, `cm:clarity`, `cm:common-ground`, `cm:curse-of-knowledge`, `cm:illusion-of-transparency` |
 | 2.23 | `cm:nominal-group-technique` | `cm:raci-matrix` | `cm:group-decision-making`, `cm:meeting-agendas`, `cm:stakeholder-mapping` |
 | 2.19 | `cm:audience-analysis` | `cm:illusion-of-transparency` | `cm:clarity`, `cm:common-ground`, `cm:communicating-uncertainty`, `cm:curse-of-knowledge`, `cm:email` |
@@ -29,3 +28,4 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 1.81 | `cm:common-ground` | `cm:plain-language` | `cm:audience-analysis`, `cm:clarity`, `cm:curse-of-knowledge`, `cm:grices-maxims`, `cm:teach-back` |
 | 1.80 | `cm:risk-numbers-as-natural-frequencies` | `cm:teach-back` | `cm:patient-education`, `cm:plain-language` |
 | 1.80 | `cm:curse-of-knowledge` | `cm:macinnis-mackinnon-macintyre-2010` | `cm:anchoring-and-adjustment`, `cm:gilovich-savitsky-medvec-1998`, `cm:illusion-of-transparency`, `cm:spotlight-effect`, `cm:thomas-gilovich` |
+| 1.80 | `cm:egocentric-bias` | `cm:macinnis-mackinnon-macintyre-2010` | `cm:anchoring-and-adjustment`, `cm:gilovich-savitsky-medvec-1998`, `cm:illusion-of-transparency`, `cm:spotlight-effect`, `cm:thomas-gilovich` |

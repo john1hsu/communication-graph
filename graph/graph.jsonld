@@ -6992,6 +6992,97 @@
    ]
   },
   {
+   "@id": "cm:zone-of-possible-agreement",
+   "@type": "cmo:Concept",
+   "cmo:complements": {
+    "@id": "cm:batna"
+   },
+   "cmo:contrastsWith": {
+    "@id": "cm:mythical-fixed-pie"
+   },
+   "cmo:demonstratedBy": [
+    {
+     "@id": "cm:larrick-wu-2007"
+    },
+    {
+     "@id": "cm:schaerer-loschelder-swaab-2016"
+    }
+   ],
+   "cmo:domain": "negotiation",
+   "cmo:evidenceStatus": "theoretical",
+   "cmo:file": "articles/negotiation/zone-of-possible-agreement.md",
+   "cmo:introducedBy": {
+    "@id": "cm:howard-raiffa"
+   },
+   "cmo:level": "introductory",
+   "cmo:requires": {
+    "@id": "cm:batna"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/zone-of-possible-agreement/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/zone-of-possible-agreement/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/zone-of-possible-agreement/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/zone-of-possible-agreement/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/zone-of-possible-agreement/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/zone-of-possible-agreement/s6"
+    }
+   ],
+   "rdfs:label": "Zone of possible agreement",
+   "skos:altLabel": [
+    "ZOPA",
+    "bargaining zone",
+    "contract zone"
+   ],
+   "skos:broader": [
+    {
+     "@id": "cm:distributive-negotiation"
+    },
+    {
+     "@id": "cm:negotiation-preparation"
+    }
+   ],
+   "skos:definition": "The range of deals that both sides would prefer to walking away - the overlap between each party's reservation point. If the ranges overlap a deal is possible; if they do not, no amount of haggling will produce one and both sides should turn to their alternatives.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/negotiation"
+   },
+   "skos:prefLabel": "Zone of possible agreement",
+   "skos:related": [
+    {
+     "@id": "cm:batna"
+    },
+    {
+     "@id": "cm:first-offer"
+    },
+    {
+     "@id": "cm:integrative-negotiation"
+    },
+    {
+     "@id": "cm:multiple-equivalent-simultaneous-offers"
+    },
+    {
+     "@id": "cm:reservation-value"
+    },
+    {
+     "@id": "cm:salary-negotiation"
+    }
+   ]
+  },
+  {
    "@id": "cm:zoom-fatigue",
    "@type": "cmo:Barrier",
    "cmo:challengedBy": {
@@ -16899,6 +16990,90 @@
    "dcterms:title": "On measuring agreement with numerically bounded linguistic probability schemes: A re-analysis of data from Wintle, Fraser, Wills, Nicholson, and Fidler (2019)",
    "schema:url": {
     "@id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7971511/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/zone-of-possible-agreement/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Katie Shonk, Program on Negotiation at Harvard Law School, 2026",
+   "dcterms:title": "How to Find the ZOPA in Business Negotiations",
+   "schema:url": {
+    "@id": "https://www.pon.harvard.edu/daily/business-negotiations/how-to-find-the-zopa-in-business-negotiations/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/zone-of-possible-agreement/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Howard Raiffa, Harvard University Press, 1982 (Program on Negotiation bookstore listing)",
+   "dcterms:title": "The Art and Science of Negotiation",
+   "schema:url": {
+    "@id": "https://www.pon.harvard.edu/shop/art-science-of-negotiation-the/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/zone-of-possible-agreement/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Ahlert and Sträter, German Economic Review 17(3), 298-315, 2016 (doi:10.1111/geer.12096)",
+   "dcterms:title": "Refining Raiffa: Aspiration Adaptation within the Zone of Possible Agreements",
+   "schema:url": {
+    "@id": "https://ideas.repec.org/a/bpj/germec/v17y2016i3p298-315.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/zone-of-possible-agreement/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Larrick and Wu, Journal of Personality and Social Psychology 93(2), 212-233, 2007 (doi:10.1037/0022-3514.93.2.212)",
+   "dcterms:title": "Claiming a large slice of a small pie: Asymmetric disconfirmation in negotiation",
+   "schema:url": {
+    "@id": "https://scholars.duke.edu/publication/782618"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/zone-of-possible-agreement/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Schaerer, Loschelder and Swaab, Organizational Behavior and Human Decision Processes, 2016 (doi:10.1016/j.obhdp.2016.09.001)",
+   "dcterms:title": "Bargaining zone distortion in negotiations: The elusive power of multiple alternatives",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/111758976.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/zone-of-possible-agreement/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Thompson and Hastie, Organizational Behavior and Human Decision Processes, 98-123, 1990 (doi:10.1016/0749-5978(90)90048-E)",
+   "dcterms:title": "Social perception in negotiation",
+   "schema:url": {
+    "@id": "https://www.kellogg.northwestern.edu/academics-research/research/detail/1990/social-perception-in-negotiation/"
    }
   },
   {

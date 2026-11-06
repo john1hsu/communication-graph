@@ -6442,6 +6442,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/words-of-estimative-probability/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/words-of-estimative-probability/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/communication-graph/id/source/words-of-estimative-probability/s4> <https://schema.org/url> <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7971511/> .
+<https://github.com/john1hsu/communication-graph/id/source/zone-of-possible-agreement/s1> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/zone-of-possible-agreement/s1> <http://purl.org/dc/terms/publisher> "Katie Shonk, Program on Negotiation at Harvard Law School, 2026" .
+<https://github.com/john1hsu/communication-graph/id/source/zone-of-possible-agreement/s1> <http://purl.org/dc/terms/title> "How to Find the ZOPA in Business Negotiations" .
+<https://github.com/john1hsu/communication-graph/id/source/zone-of-possible-agreement/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/zone-of-possible-agreement/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/zone-of-possible-agreement/s1> <https://schema.org/url> <https://www.pon.harvard.edu/daily/business-negotiations/how-to-find-the-zopa-in-business-negotiations/> .
+<https://github.com/john1hsu/communication-graph/id/source/zone-of-possible-agreement/s2> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/zone-of-possible-agreement/s2> <http://purl.org/dc/terms/publisher> "Howard Raiffa, Harvard University Press, 1982 (Program on Negotiation bookstore listing)" .
+<https://github.com/john1hsu/communication-graph/id/source/zone-of-possible-agreement/s2> <http://purl.org/dc/terms/title> "The Art and Science of Negotiation" .
+<https://github.com/john1hsu/communication-graph/id/source/zone-of-possible-agreement/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/zone-of-possible-agreement/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/zone-of-possible-agreement/s2> <https://schema.org/url> <https://www.pon.harvard.edu/shop/art-science-of-negotiation-the/> .
+<https://github.com/john1hsu/communication-graph/id/source/zone-of-possible-agreement/s3> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/zone-of-possible-agreement/s3> <http://purl.org/dc/terms/publisher> "Ahlert and Sträter, German Economic Review 17(3), 298-315, 2016 (doi:10.1111/geer.12096)" .
+<https://github.com/john1hsu/communication-graph/id/source/zone-of-possible-agreement/s3> <http://purl.org/dc/terms/title> "Refining Raiffa: Aspiration Adaptation within the Zone of Possible Agreements" .
+<https://github.com/john1hsu/communication-graph/id/source/zone-of-possible-agreement/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/zone-of-possible-agreement/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/zone-of-possible-agreement/s3> <https://schema.org/url> <https://ideas.repec.org/a/bpj/germec/v17y2016i3p298-315.html> .
+<https://github.com/john1hsu/communication-graph/id/source/zone-of-possible-agreement/s4> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/zone-of-possible-agreement/s4> <http://purl.org/dc/terms/publisher> "Larrick and Wu, Journal of Personality and Social Psychology 93(2), 212-233, 2007 (doi:10.1037/0022-3514.93.2.212)" .
+<https://github.com/john1hsu/communication-graph/id/source/zone-of-possible-agreement/s4> <http://purl.org/dc/terms/title> "Claiming a large slice of a small pie: Asymmetric disconfirmation in negotiation" .
+<https://github.com/john1hsu/communication-graph/id/source/zone-of-possible-agreement/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/zone-of-possible-agreement/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/zone-of-possible-agreement/s4> <https://schema.org/url> <https://scholars.duke.edu/publication/782618> .
+<https://github.com/john1hsu/communication-graph/id/source/zone-of-possible-agreement/s5> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/zone-of-possible-agreement/s5> <http://purl.org/dc/terms/publisher> "Schaerer, Loschelder and Swaab, Organizational Behavior and Human Decision Processes, 2016 (doi:10.1016/j.obhdp.2016.09.001)" .
+<https://github.com/john1hsu/communication-graph/id/source/zone-of-possible-agreement/s5> <http://purl.org/dc/terms/title> "Bargaining zone distortion in negotiations: The elusive power of multiple alternatives" .
+<https://github.com/john1hsu/communication-graph/id/source/zone-of-possible-agreement/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/zone-of-possible-agreement/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/zone-of-possible-agreement/s5> <https://schema.org/url> <https://core.ac.uk/download/111758976.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/zone-of-possible-agreement/s6> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/zone-of-possible-agreement/s6> <http://purl.org/dc/terms/publisher> "Thompson and Hastie, Organizational Behavior and Human Decision Processes, 98-123, 1990 (doi:10.1016/0749-5978(90)90048-E)" .
+<https://github.com/john1hsu/communication-graph/id/source/zone-of-possible-agreement/s6> <http://purl.org/dc/terms/title> "Social perception in negotiation" .
+<https://github.com/john1hsu/communication-graph/id/source/zone-of-possible-agreement/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/zone-of-possible-agreement/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/zone-of-possible-agreement/s6> <https://schema.org/url> <https://www.kellogg.northwestern.edu/academics-research/research/detail/1990/social-perception-in-negotiation/> .
 <https://github.com/john1hsu/communication-graph/id/source/zoom-fatigue/s1> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/zoom-fatigue/s1> <http://purl.org/dc/terms/publisher> "Jeremy N. Bailenson, Technology, Mind, and Behavior (American Psychological Association), 2021 (Stanford Virtual Human Interaction Lab author copy)" .
 <https://github.com/john1hsu/communication-graph/id/source/zoom-fatigue/s1> <http://purl.org/dc/terms/title> "Nonverbal Overload: A Theoretical Argument for the Causes of Zoom Fatigue" .
@@ -7015,6 +7051,39 @@
 <https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/sherman-kent> .
 <https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/mandel-irwin-2021> .
+<https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> <http://purl.org/dc/terms/created> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+<https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> <http://www.w3.org/2000/01/rdf-schema#label> "Zone of possible agreement" .
+<https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> <http://www.w3.org/2004/02/skos/core#altLabel> "ZOPA" .
+<https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> <http://www.w3.org/2004/02/skos/core#altLabel> "bargaining zone" .
+<https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> <http://www.w3.org/2004/02/skos/core#altLabel> "contract zone" .
+<https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/distributive-negotiation> .
+<https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/negotiation-preparation> .
+<https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> <http://www.w3.org/2004/02/skos/core#definition> "The range of deals that both sides would prefer to walking away - the overlap between each party's reservation point. If the ranges overlap a deal is possible; if they do not, no amount of haggling will produce one and both sides should turn to their alternatives." .
+<https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/negotiation> .
+<https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zone of possible agreement" .
+<https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/batna> .
+<https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/first-offer> .
+<https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/integrative-negotiation> .
+<https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers> .
+<https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/reservation-value> .
+<https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/salary-negotiation> .
+<https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/zone-of-possible-agreement/s1> .
+<https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/zone-of-possible-agreement/s2> .
+<https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/zone-of-possible-agreement/s3> .
+<https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/zone-of-possible-agreement/s4> .
+<https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/zone-of-possible-agreement/s5> .
+<https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/zone-of-possible-agreement/s6> .
+<https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/batna> .
+<https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/mythical-fixed-pie> .
+<https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/larrick-wu-2007> .
+<https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/schaerer-loschelder-swaab-2016> .
+<https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> <https://github.com/john1hsu/communication-graph/ontology#domain> "negotiation" .
+<https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "theoretical" .
+<https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/negotiation/zone-of-possible-agreement.md" .
+<https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/howard-raiffa> .
+<https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/batna> .
 <https://github.com/john1hsu/communication-graph/id/zoom-fatigue/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/zoom-fatigue/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Does this conversation need video at all, or would a phone call, a shared document or a written update do the job?" .
 <https://github.com/john1hsu/communication-graph/id/zoom-fatigue/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> .
