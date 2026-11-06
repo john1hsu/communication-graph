@@ -453,7 +453,7 @@ def home() -> str:
   </div>
   <figure class="graph-wrap">
     <div id="graph" role="img" aria-label="Map of every article and the links between them. Use the list below to browse the same articles."></div>
-    <figcaption id="graph-cap">Each dot is an article, coloured by area. Hover to read it, click to open it, drag to rearrange.</figcaption>
+    <figcaption id="graph-cap">Each dot is an article, coloured by area. Click a dot to open it, drag it to move it, and scroll or pinch to zoom.</figcaption>
   </figure>
 </section>
 
