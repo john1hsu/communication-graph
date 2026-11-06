@@ -11,7 +11,7 @@ summary: >-
 level: introductory
 evidenceStatus: mixed
 broader: [cm:organizational-communication]
-related: [cm:email, cm:asynchronous-communication, cm:setting-reply-time-expectations, cm:bottom-line-up-front, cm:plain-language, cm:channel-selection, cm:zoom-fatigue, cm:meeting-agendas, cm:ray-tomlinson]
+related: [cm:email, cm:asynchronous-communication, cm:setting-reply-time-expectations, cm:scheduled-inbox-checks, cm:bottom-line-up-front, cm:plain-language, cm:channel-selection, cm:zoom-fatigue, cm:meeting-agendas, cm:ray-tomlinson]
 requires: []
 relations:
   - {predicate: explainedBy, object: cm:cognitive-load, source: s1, confidence: medium}

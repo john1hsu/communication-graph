@@ -4381,6 +4381,10 @@
    },
    {
     "predicate": "skos:related",
+    "object": "cm:scheduled-inbox-checks"
+   },
+   {
+    "predicate": "skos:related",
     "object": "cm:bottom-line-up-front"
    },
    {
@@ -6958,6 +6962,117 @@
    "https://www.frontiersin.org/articles/10.3389/fpsyg.2018.01833/pdf",
    "https://smdm.confex.com/smdm/16BEC/webprogram/Paper9915.html",
    "https://repository.essex.ac.uk/37751/1/1-s2.0-S0010027724000088-main.pdf"
+  ]
+ },
+ {
+  "id": "cm:scheduled-inbox-checks",
+  "title": "Scheduled inbox checks",
+  "aliases": [
+   "email batching",
+   "batching email",
+   "checking email in batches",
+   "notification batching",
+   "batched notifications"
+  ],
+  "type": "Technique",
+  "domain": "digital-and-async-communication",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/digital-and-async-communication/scheduled-inbox-checks.md",
+  "created": "2026-11-06",
+  "summary": "Processing email and message notifications at a few planned times a day, with the inbox closed and alerts off in between, instead of reacting to each message as it arrives - a way to cut interruptions and the stress of a constant stream of incoming information.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:attention-management"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:information-overload"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:email"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:asynchronous-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:setting-reply-time-expectations"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:channel-selection"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:zoom-fatigue"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:information-overload",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:email",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:kushlev-dunn-2015",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:fitz-et-al-2019",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:mark-et-al-2016",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:setting-reply-time-expectations",
+    "source": "s1",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Do the people who depend on me know when I will see their message and how to reach me if it cannot wait?",
+   "Did I actually close the inbox and turn off alerts between check-ins, or just check less while staying distracted?",
+   "In this check-in, did I decide what to do with each message, or did I just read and leave them?",
+   "Is my message volume high enough that batching helps, or am I adding rigidity for little gain?",
+   "Has turning alerts off made me more anxious about missing something, and if so would hourly checks suit me better?"
+  ],
+  "steps": [
+   "Look at how often you check messages today and what your role genuinely needs; if you are on call or in a live-support role, agree an exception path before you change anything.",
+   "Pick a small number of fixed check-in times (three a day is the most-tested dose) and block them in your calendar, sized to your usual volume.",
+   "Between check-ins, close the email tab or app and switch off desktop and phone alerts for email and non-urgent chat.",
+   "During each check-in, triage in one pass - reply, delegate, schedule or archive - rather than reading messages and leaving them for later.",
+   "Tell your team and key stakeholders when you check messages and how to reach you for anything genuinely urgent (a phone call or a named chat channel).",
+   "Review after two weeks - stress, missed items, response complaints - and adjust the number of check-ins rather than abandoning the routine."
+  ],
+  "example": {
+   "situation": "A finance analyst gets 120 emails and a steady flow of chat pings a day and is preparing a quarterly forecast that needs long stretches of concentration.",
+   "before": "Outlook open all day with pop-up alerts on; the analyst answers each message within minutes and does forecast work in the gaps between replies.",
+   "after": "Email and chat alerts off; inbox processed at 9:00, 13:00 and 16:30. The analyst's status and email signature say: 'I check messages three times a day - for anything urgent on the forecast, call my desk line.'",
+   "why": "Fewer checks cut the interruptions that fragment the forecast work, and the stated urgent path stops colleagues guessing or escalating, which addresses the co-worker expectations the original study could not control."
+  },
+  "source_urls": [
+   "https://www.interruptions.net/literature/Kushlev-ComputHumBehav15.pdf",
+   "https://static1.squarespace.com/static/57a40c19414fb54f51f8095f/t/614a55faa7b89e25f4e48ad1/1632261627146/2019+Fitz+Batching.pdf",
+   "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/06/Email20Duration20Camera20Ready20submission3-1.pdf",
+   "https://work21.gatech.edu/?p=402"
   ]
  },
  {

@@ -256,6 +256,30 @@ Ask yourself:
 - Am I choosing email or chat because it suits the message, or because it lets me avoid an awkward conversation?
 - After a live discussion, have I put the decision, owners and dates in writing?
 
+### [Scheduled inbox checks](../articles/digital-and-async-communication/scheduled-inbox-checks.md) — Technique
+
+1. Look at how often you check messages today and what your role genuinely needs; if you are on call or in a live-support role, agree an exception path before you change anything.
+2. Pick a small number of fixed check-in times (three a day is the most-tested dose) and block them in your calendar, sized to your usual volume.
+3. Between check-ins, close the email tab or app and switch off desktop and phone alerts for email and non-urgent chat.
+4. During each check-in, triage in one pass - reply, delegate, schedule or archive - rather than reading messages and leaving them for later.
+5. Tell your team and key stakeholders when you check messages and how to reach you for anything genuinely urgent (a phone call or a named chat channel).
+6. Review after two weeks - stress, missed items, response complaints - and adjust the number of check-ins rather than abandoning the routine.
+
+*A finance analyst gets 120 emails and a steady flow of chat pings a day and is preparing a quarterly forecast that needs long stretches of concentration.*
+
+| Before | After |
+|---|---|
+| Outlook open all day with pop-up alerts on; the analyst answers each message within minutes and does forecast work in the gaps between replies. | Email and chat alerts off; inbox processed at 9:00, 13:00 and 16:30. The analyst's status and email signature say: 'I check messages three times a day - for anything urgent on the forecast, call my desk line.' |
+
+**Why:** Fewer checks cut the interruptions that fragment the forecast work, and the stated urgent path stops colleagues guessing or escalating, which addresses the co-worker expectations the original study could not control.
+
+Ask yourself:
+- Do the people who depend on me know when I will see their message and how to reach me if it cannot wait?
+- Did I actually close the inbox and turn off alerts between check-ins, or just check less while staying distracted?
+- In this check-in, did I decide what to do with each message, or did I just read and leave them?
+- Is my message volume high enough that batching helps, or am I adding rigidity for little gain?
+- Has turning alerts off made me more anxious about missing something, and if so would hourly checks suit me better?
+
 ### [Setting reply-time expectations](../articles/digital-and-async-communication/setting-reply-time-expectations.md) — Technique
 
 1. Before sending, decide when you truly need an answer - a date and time, or "no deadline" - and whether you need a reply at all or the message is for information only.

@@ -6,9 +6,7 @@ SPARQL queries in `queries/` run over the asserted graph, the OWL-RL inferences 
 
 _Which written barriers or anti-patterns have nothing in the graph that addresses them?_ — `queries/01-problems-without-fix.rq`
 
-| node | type |
-|---|---|
-| `cm:information-overload` | cmo:Barrier |
+_No results._
 
 ## Skills with no practice technique (gap)
 
@@ -55,11 +53,11 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:pyramid-principle` | 1 | burying-the-lede |
 | `cm:raci-matrix` | 1 | role-ambiguity |
 | `cm:reciprocal-self-disclosure` | 1 | Small talk at work |
+| `cm:scheduled-inbox-checks` | 1 | Information overload |
 | `cm:setting-reply-time-expectations` | 1 | email-urgency-bias |
 | `cm:situation-behavior-impact` | 1 | Defensiveness |
-| `cm:stakeholder-mapping` | 1 | ignoring-stakeholders |
 
-…and 2 more.
+…and 3 more.
 
 ## Toolkit by situation
 
@@ -83,6 +81,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:email` | `cm:channel-selection` |
 | `cm:email` | `cm:media-richness-theory` |
 | `cm:email` | `cm:rapport` |
+| `cm:email` | `cm:scheduled-inbox-checks` |
 | `cm:email` | `cm:setting-reply-time-expectations` |
 | `cm:executive-briefing` | `cm:issue-selling` |
 | `cm:executive-briefing` | `cm:pyramid-principle` |
@@ -96,9 +95,8 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:multicultural-team` | `cm:the-culture-map` |
 | `cm:one-on-one-meetings` | `cm:active-listening` |
 | `cm:one-on-one-meetings` | `cm:humble-inquiry` |
-| `cm:one-on-one-meetings` | `cm:managing-up` |
 
-…and 22 more.
+…and 23 more.
 
 ## Myths and contested advice
 
@@ -137,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:ethnocentrism` | mixed |  |
 | `cm:eye-contact` | mixed | `cm:chen-et-al-2013` |
 
-…and 34 more.
+…and 35 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -163,6 +161,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:raci-matrix` | cmo:Technique |
 | `cm:rapport` | cmo:Concept |
 | `cm:reciprocal-self-disclosure` | cmo:Technique |
+| `cm:scheduled-inbox-checks` | cmo:Technique |
 | `cm:self-distancing` | cmo:Technique |
 | `cm:setting-reply-time-expectations` | cmo:Technique |
 | `cm:small-talk` | cmo:Skill |
