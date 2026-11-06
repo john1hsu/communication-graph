@@ -169,6 +169,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:social-accounts` | cmo:Technique |
 | `cm:speaking-anxiety` | cmo:Barrier |
 | `cm:stakeholder-mapping` | cmo:Technique |
+| `cm:status-reporting` | cmo:Genre |
 | `cm:teach-back` | cmo:Technique |
 | `cm:zoom-fatigue` | cmo:Barrier |
 

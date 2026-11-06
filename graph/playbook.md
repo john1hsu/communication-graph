@@ -317,6 +317,29 @@ Ask yourself:
 - Am I spending their time and goodwill on something that truly needs them, and have I brought a proposed solution?
 - Would I be comfortable if my manager saw exactly how I prepared for this conversation, or does it rely on flattery or spin?
 
+### [Project status reporting](../articles/executive-and-client-communication/status-reporting.md) — Genre
+
+1. Agree with the sponsor, in writing, what each status rating means (for example what turns a project amber or red) before the first report goes out.
+2. Open with the overall rating, the one-line reason for it and any decision you need, with a date.
+3. Report against the approved baseline for time, cost, scope and benefits, and show the change since the last report rather than only the current position.
+4. For each significant issue, state the cause, what you have already done, the options and your recommendation.
+5. Raise a slipping milestone in the first report where you believe it is at risk, not the one where it is missed.
+6. After each review, ask the reader whether the report gave them what they needed and adjust the format, not the facts.
+
+*A team lead on a six-month CRM migration sends a fortnightly status report to the steering group; a data-quality problem has put the go-live date at risk.*
+
+| Before | After |
+|---|---|
+| Status: GREEN. Good progress this sprint - 14 of 18 integration tests passing. Some data-quality items being worked through with the vendor; we remain confident about the timeline and will update next report. | Status: AMBER (was GREEN). Go-live on 2 March is at risk: 22% of migrated customer records fail validation, and at the current fix rate cleanup finishes about three weeks late. Done so far: vendor engaged, root cause traced to duplicate legacy IDs. Options: (a) add two analysts for four weeks (about $18K) and hold the date; (b) move go-live to 23 March at no extra cost. Recommendation: (a). Decision needed from the steering group by Friday. |
+
+**Why:** The rewrite applies the agreed rating honestly, quantifies the problem instead of hiding it in reassurance, shows what has already been done, and turns the bad news into a decision the readers can make while there is still time to act.
+
+Ask yourself:
+- Would someone who knew everything I know give this project the same rating I have?
+- Is there a risk I am privately worried about that does not appear in this report, and why have I left it out?
+- Does the first line tell a busy sponsor whether they need to act, and by when?
+- Am I reporting change against the approved baseline, or only selecting the numbers that look good this week?
+
 ### [Risk numbers as natural frequencies](../articles/executive-and-client-communication/risk-numbers-as-natural-frequencies.md) — Technique
 
 1. Pick one reference group large enough that every count comes out as a whole number (1,000 or 10,000 is usual) and name it in the first sentence.

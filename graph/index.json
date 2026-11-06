@@ -7772,6 +7772,131 @@
   ]
  },
  {
+  "id": "cm:status-reporting",
+  "title": "Project status reporting",
+  "aliases": [
+   "status report",
+   "project status report",
+   "RAG status report",
+   "progress report"
+  ],
+  "type": "Genre",
+  "domain": "executive-and-client-communication",
+  "level": "intermediate",
+  "evidenceStatus": "practitioner",
+  "file": "articles/executive-and-client-communication/status-reporting.md",
+  "created": "2026-11-06",
+  "summary": "The recurring written or spoken update in which a project team tells its sponsor, client or oversight body where the work stands against its agreed time, cost, scope and benefits, what has changed, which risks and issues need attention, and what decisions are needed. Research on IT projects shows such reports are often selectively optimistic, so the genre only works when the rating criteria are shared and bad news is safe to send early.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:business-report"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "cm:organizational-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:managing-up"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:communicating-uncertainty"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:words-of-estimative-probability"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:bottom-line-up-front"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:delivering-bad-news"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:psychological-safety"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:executive-briefing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:deaf-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:delivery-confidence-assessment"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:audience-analysis"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:mum-effect",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:smith-keil-depledge-2001",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:keil-et-al-2014",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:tan-et-al-2003",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:delivering-bad-news",
+    "source": "s6",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Would someone who knew everything I know give this project the same rating I have?",
+   "Is there a risk I am privately worried about that does not appear in this report, and why have I left it out?",
+   "Does the first line tell a busy sponsor whether they need to act, and by when?",
+   "Am I reporting change against the approved baseline, or only selecting the numbers that look good this week?"
+  ],
+  "steps": [
+   "Agree with the sponsor, in writing, what each status rating means (for example what turns a project amber or red) before the first report goes out.",
+   "Open with the overall rating, the one-line reason for it and any decision you need, with a date.",
+   "Report against the approved baseline for time, cost, scope and benefits, and show the change since the last report rather than only the current position.",
+   "For each significant issue, state the cause, what you have already done, the options and your recommendation.",
+   "Raise a slipping milestone in the first report where you believe it is at risk, not the one where it is missed.",
+   "After each review, ask the reader whether the report gave them what they needed and adjust the format, not the facts."
+  ],
+  "example": {
+   "situation": "A team lead on a six-month CRM migration sends a fortnightly status report to the steering group; a data-quality problem has put the go-live date at risk.",
+   "before": "Status: GREEN. Good progress this sprint - 14 of 18 integration tests passing. Some data-quality items being worked through with the vendor; we remain confident about the timeline and will update next report.",
+   "after": "Status: AMBER (was GREEN). Go-live on 2 March is at risk: 22% of migrated customer records fail validation, and at the current fix rate cleanup finishes about three weeks late. Done so far: vendor engaged, root cause traced to duplicate legacy IDs. Options: (a) add two analysts for four weeks (about $18K) and hold the date; (b) move go-live to 23 March at no extra cost. Recommendation: (a). Decision needed from the steering group by Friday.",
+   "why": "The rewrite applies the agreed rating honestly, quantifies the problem instead of hiding it in reassurance, shows what has already been done, and turns the bad news into a decision the readers can make while there is still time to act."
+  },
+  "source_urls": [
+   "https://core.ac.uk/download/301380673.pdf",
+   "https://jmis-web.org/articles/885",
+   "https://manuscript.isc.ac/Inventory/49/1180559.htm",
+   "https://www.eis.mdx.ac.uk/research/SFC/Papers/BlowingWhistle.pdf",
+   "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/638436/delivery_confidence_guide_for_review_teams.pdf",
+   "https://www.pmi.org/learning/library/bearer-bad-news-9840"
+  ]
+ },
+ {
   "id": "cm:teach-back",
   "title": "Teach-back",
   "aliases": [

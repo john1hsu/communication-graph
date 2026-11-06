@@ -6681,6 +6681,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/stakeholder-mapping/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/stakeholder-mapping/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
 <https://github.com/john1hsu/communication-graph/id/source/stakeholder-mapping/s5> <https://schema.org/url> <https://www.essex.ac.uk/staff/strategic-project-delivery/stakeholder-analysis-comms-plan> .
+<https://github.com/john1hsu/communication-graph/id/source/status-reporting/s1> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/status-reporting/s1> <http://purl.org/dc/terms/publisher> "Mark Keil, H. Jeff Smith, Charalambos L. Iacovou & Ronald L. Thompson, Journal of the Association for Information Systems 15(12), 879-912, 2014, doi:10.17705/1jais.00383 (author copy via CORE)" .
+<https://github.com/john1hsu/communication-graph/id/source/status-reporting/s1> <http://purl.org/dc/terms/title> "The Dynamics of IT Project Status Reporting: A Self-Reinforcing Cycle of Distrust" .
+<https://github.com/john1hsu/communication-graph/id/source/status-reporting/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/status-reporting/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/status-reporting/s1> <https://schema.org/url> <https://core.ac.uk/download/301380673.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/status-reporting/s2> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/status-reporting/s2> <http://purl.org/dc/terms/publisher> "H. Jeff Smith, Mark Keil & Gordon Depledge, Journal of Management Information Systems 18(2), 189-227, 2001" .
+<https://github.com/john1hsu/communication-graph/id/source/status-reporting/s2> <http://purl.org/dc/terms/title> "Keeping Mum as the Project Goes Under: Toward an Explanatory Model" .
+<https://github.com/john1hsu/communication-graph/id/source/status-reporting/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/status-reporting/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/status-reporting/s2> <https://schema.org/url> <https://jmis-web.org/articles/885> .
+<https://github.com/john1hsu/communication-graph/id/source/status-reporting/s3> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/status-reporting/s3> <http://purl.org/dc/terms/publisher> "Bernard C. Y. Tan, H. Jeff Smith, Mark Keil & Ramiro Montealegre, IEEE Transactions on Engineering Management 50(1), 64-77, 2003, doi:10.1109/TEM.2002.808292 (bibliographic record)" .
+<https://github.com/john1hsu/communication-graph/id/source/status-reporting/s3> <http://purl.org/dc/terms/title> "Reporting Bad News About Software Projects: Impact of Organizational Climate and Information Asymmetry in an Individualistic and a Collectivistic Culture" .
+<https://github.com/john1hsu/communication-graph/id/source/status-reporting/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/status-reporting/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/status-reporting/s3> <https://schema.org/url> <https://manuscript.isc.ac/Inventory/49/1180559.htm> .
+<https://github.com/john1hsu/communication-graph/id/source/status-reporting/s4> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/status-reporting/s4> <http://purl.org/dc/terms/publisher> "Mark Keil, manuscript for IS Audit and Control Journal, 1998 (author copy, Middlesex University research archive)" .
+<https://github.com/john1hsu/communication-graph/id/source/status-reporting/s4> <http://purl.org/dc/terms/title> "Blowing the Whistle: How IS Auditors Can Turnaround Troubled Software Projects - And Why They Sometimes Don't!" .
+<https://github.com/john1hsu/communication-graph/id/source/status-reporting/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/status-reporting/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/status-reporting/s4> <https://schema.org/url> <https://www.eis.mdx.ac.uk/research/SFC/Papers/BlowingWhistle.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/status-reporting/s5> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/status-reporting/s5> <http://purl.org/dc/terms/publisher> "Infrastructure and Projects Authority, UK Government (GOV.UK)" .
+<https://github.com/john1hsu/communication-graph/id/source/status-reporting/s5> <http://purl.org/dc/terms/title> "Delivery Confidence Assessment: Guide for Review Teams" .
+<https://github.com/john1hsu/communication-graph/id/source/status-reporting/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/status-reporting/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/communication-graph/id/source/status-reporting/s5> <https://schema.org/url> <https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/638436/delivery_confidence_guide_for_review_teams.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/status-reporting/s6> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/status-reporting/s6> <http://purl.org/dc/terms/publisher> "PM Network 30(1), 20-21, Project Management Institute, January 2016" .
+<https://github.com/john1hsu/communication-graph/id/source/status-reporting/s6> <http://purl.org/dc/terms/title> "Bearer of Bad News" .
+<https://github.com/john1hsu/communication-graph/id/source/status-reporting/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/status-reporting/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/communication-graph/id/source/status-reporting/s6> <https://schema.org/url> <https://www.pmi.org/learning/library/bearer-bad-news-9840> .
 <https://github.com/john1hsu/communication-graph/id/source/teach-back/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/teach-back/s1> <http://purl.org/dc/terms/publisher> "U.S. Agency for Healthcare Research and Quality (AHRQ)" .
 <https://github.com/john1hsu/communication-graph/id/source/teach-back/s1> <http://purl.org/dc/terms/title> "Tool: Teach-Back (TeamSTEPPS curriculum)" .
@@ -7169,6 +7205,88 @@
 <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
 <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/nutt-1999> .
+<https://github.com/john1hsu/communication-graph/id/status-reporting/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/status-reporting/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Would someone who knew everything I know give this project the same rating I have?" .
+<https://github.com/john1hsu/communication-graph/id/status-reporting/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/status-reporting> .
+<https://github.com/john1hsu/communication-graph/id/status-reporting/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/status-reporting/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Is there a risk I am privately worried about that does not appear in this report, and why have I left it out?" .
+<https://github.com/john1hsu/communication-graph/id/status-reporting/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/status-reporting> .
+<https://github.com/john1hsu/communication-graph/id/status-reporting/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/status-reporting/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Does the first line tell a busy sponsor whether they need to act, and by when?" .
+<https://github.com/john1hsu/communication-graph/id/status-reporting/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/status-reporting> .
+<https://github.com/john1hsu/communication-graph/id/status-reporting/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/status-reporting/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Am I reporting change against the approved baseline, or only selecting the numbers that look good this week?" .
+<https://github.com/john1hsu/communication-graph/id/status-reporting/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/status-reporting> .
+<https://github.com/john1hsu/communication-graph/id/status-reporting/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+<https://github.com/john1hsu/communication-graph/id/status-reporting/example> <https://github.com/john1hsu/communication-graph/ontology#after> "Status: AMBER (was GREEN). Go-live on 2 March is at risk: 22% of migrated customer records fail validation, and at the current fix rate cleanup finishes about three weeks late. Done so far: vendor engaged, root cause traced to duplicate legacy IDs. Options: (a) add two analysts for four weeks (about $18K) and hold the date; (b) move go-live to 23 March at no extra cost. Recommendation: (a). Decision needed from the steering group by Friday." .
+<https://github.com/john1hsu/communication-graph/id/status-reporting/example> <https://github.com/john1hsu/communication-graph/ontology#before> "Status: GREEN. Good progress this sprint - 14 of 18 integration tests passing. Some data-quality items being worked through with the vendor; we remain confident about the timeline and will update next report." .
+<https://github.com/john1hsu/communication-graph/id/status-reporting/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "A team lead on a six-month CRM migration sends a fortnightly status report to the steering group; a data-quality problem has put the go-live date at risk." .
+<https://github.com/john1hsu/communication-graph/id/status-reporting/example> <https://github.com/john1hsu/communication-graph/ontology#why> "The rewrite applies the agreed rating honestly, quantifies the problem instead of hiding it in reassurance, shows what has already been done, and turns the bad news into a decision the readers can make while there is still time to act." .
+<https://github.com/john1hsu/communication-graph/id/status-reporting/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/status-reporting/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/status-reporting/howto/1> <https://schema.org/text> "Agree with the sponsor, in writing, what each status rating means (for example what turns a project amber or red) before the first report goes out." .
+<https://github.com/john1hsu/communication-graph/id/status-reporting/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/status-reporting/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/status-reporting/howto/2> <https://schema.org/text> "Open with the overall rating, the one-line reason for it and any decision you need, with a date." .
+<https://github.com/john1hsu/communication-graph/id/status-reporting/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/status-reporting/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/status-reporting/howto/3> <https://schema.org/text> "Report against the approved baseline for time, cost, scope and benefits, and show the change since the last report rather than only the current position." .
+<https://github.com/john1hsu/communication-graph/id/status-reporting/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/status-reporting/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/status-reporting/howto/4> <https://schema.org/text> "For each significant issue, state the cause, what you have already done, the options and your recommendation." .
+<https://github.com/john1hsu/communication-graph/id/status-reporting/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/status-reporting/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/status-reporting/howto/5> <https://schema.org/text> "Raise a slipping milestone in the first report where you believe it is at risk, not the one where it is missed." .
+<https://github.com/john1hsu/communication-graph/id/status-reporting/howto/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/status-reporting/howto/6> <https://schema.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/status-reporting/howto/6> <https://schema.org/text> "After each review, ask the reader whether the report gave them what they needed and adjust the format, not the facts." .
+<https://github.com/john1hsu/communication-graph/id/status-reporting/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+<https://github.com/john1hsu/communication-graph/id/status-reporting/howto> <https://schema.org/name> "Project status reporting" .
+<https://github.com/john1hsu/communication-graph/id/status-reporting/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/status-reporting/howto/1> .
+<https://github.com/john1hsu/communication-graph/id/status-reporting/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/status-reporting/howto/2> .
+<https://github.com/john1hsu/communication-graph/id/status-reporting/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/status-reporting/howto/3> .
+<https://github.com/john1hsu/communication-graph/id/status-reporting/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/status-reporting/howto/4> .
+<https://github.com/john1hsu/communication-graph/id/status-reporting/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/status-reporting/howto/5> .
+<https://github.com/john1hsu/communication-graph/id/status-reporting/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/status-reporting/howto/6> .
+<https://github.com/john1hsu/communication-graph/id/status-reporting> <http://purl.org/dc/terms/created> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/status-reporting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Genre> .
+<https://github.com/john1hsu/communication-graph/id/status-reporting> <http://www.w3.org/2000/01/rdf-schema#label> "Project status reporting" .
+<https://github.com/john1hsu/communication-graph/id/status-reporting> <http://www.w3.org/2004/02/skos/core#altLabel> "RAG status report" .
+<https://github.com/john1hsu/communication-graph/id/status-reporting> <http://www.w3.org/2004/02/skos/core#altLabel> "progress report" .
+<https://github.com/john1hsu/communication-graph/id/status-reporting> <http://www.w3.org/2004/02/skos/core#altLabel> "project status report" .
+<https://github.com/john1hsu/communication-graph/id/status-reporting> <http://www.w3.org/2004/02/skos/core#altLabel> "status report" .
+<https://github.com/john1hsu/communication-graph/id/status-reporting> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/business-report> .
+<https://github.com/john1hsu/communication-graph/id/status-reporting> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
+<https://github.com/john1hsu/communication-graph/id/status-reporting> <http://www.w3.org/2004/02/skos/core#definition> "The recurring written or spoken update in which a project team tells its sponsor, client or oversight body where the work stands against its agreed time, cost, scope and benefits, what has changed, which risks and issues need attention, and what decisions are needed. Research on IT projects shows such reports are often selectively optimistic, so the genre only works when the rating criteria are shared and bad news is safe to send early." .
+<https://github.com/john1hsu/communication-graph/id/status-reporting> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/executive-and-client-communication> .
+<https://github.com/john1hsu/communication-graph/id/status-reporting> <http://www.w3.org/2004/02/skos/core#prefLabel> "Project status reporting" .
+<https://github.com/john1hsu/communication-graph/id/status-reporting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
+<https://github.com/john1hsu/communication-graph/id/status-reporting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communicating-uncertainty> .
+<https://github.com/john1hsu/communication-graph/id/status-reporting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/deaf-effect> .
+<https://github.com/john1hsu/communication-graph/id/status-reporting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> .
+<https://github.com/john1hsu/communication-graph/id/status-reporting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/delivery-confidence-assessment> .
+<https://github.com/john1hsu/communication-graph/id/status-reporting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/executive-briefing> .
+<https://github.com/john1hsu/communication-graph/id/status-reporting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/managing-up> .
+<https://github.com/john1hsu/communication-graph/id/status-reporting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
+<https://github.com/john1hsu/communication-graph/id/status-reporting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability> .
+<https://github.com/john1hsu/communication-graph/id/status-reporting> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/status-reporting/s1> .
+<https://github.com/john1hsu/communication-graph/id/status-reporting> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/status-reporting/s2> .
+<https://github.com/john1hsu/communication-graph/id/status-reporting> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/status-reporting/s3> .
+<https://github.com/john1hsu/communication-graph/id/status-reporting> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/status-reporting/s4> .
+<https://github.com/john1hsu/communication-graph/id/status-reporting> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/status-reporting/s5> .
+<https://github.com/john1hsu/communication-graph/id/status-reporting> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/status-reporting/s6> .
+<https://github.com/john1hsu/communication-graph/id/status-reporting> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> .
+<https://github.com/john1hsu/communication-graph/id/status-reporting> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/keil-et-al-2014> .
+<https://github.com/john1hsu/communication-graph/id/status-reporting> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/smith-keil-depledge-2001> .
+<https://github.com/john1hsu/communication-graph/id/status-reporting> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/tan-et-al-2003> .
+<https://github.com/john1hsu/communication-graph/id/status-reporting> <https://github.com/john1hsu/communication-graph/ontology#domain> "executive-and-client-communication" .
+<https://github.com/john1hsu/communication-graph/id/status-reporting> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "practitioner" .
+<https://github.com/john1hsu/communication-graph/id/status-reporting> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/status-reporting/example> .
+<https://github.com/john1hsu/communication-graph/id/status-reporting> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/mum-effect> .
+<https://github.com/john1hsu/communication-graph/id/status-reporting> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/executive-and-client-communication/status-reporting.md" .
+<https://github.com/john1hsu/communication-graph/id/status-reporting> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/status-reporting/howto> .
+<https://github.com/john1hsu/communication-graph/id/status-reporting> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/communication-graph/id/status-reporting> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
 <https://github.com/john1hsu/communication-graph/id/teach-back/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/teach-back/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Did I ask them to say it in their own words, or did I accept a nod or a \"makes sense\"?" .
 <https://github.com/john1hsu/communication-graph/id/teach-back/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/teach-back> .
