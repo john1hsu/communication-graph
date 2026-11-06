@@ -51,6 +51,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:meeting-agendas` | 1 | unnecessary-meetings |
 | `cm:multiple-equivalent-simultaneous-offers` | 1 | negotiator-dilemma |
 | `cm:paraphrasing` | 1 | Active listening |
+| `cm:pyramid-principle` | 1 | burying-the-lede |
 | `cm:raci-matrix` | 1 | role-ambiguity |
 | `cm:reciprocal-self-disclosure` | 1 | Small talk at work |
 | `cm:setting-reply-time-expectations` | 1 | email-urgency-bias |
@@ -67,6 +68,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 |---|---|
 | `cm:apology` | `cm:social-accounts` |
 | `cm:asynchronous-communication` | `cm:setting-reply-time-expectations` |
+| `cm:business-report` | `cm:pyramid-principle` |
 | `cm:communication-plan` | `cm:raci-matrix` |
 | `cm:communication-plan` | `cm:stakeholder-mapping` |
 | `cm:crisis-communication` | `cm:communicating-uncertainty` |
@@ -82,6 +84,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:email` | `cm:rapport` |
 | `cm:email` | `cm:setting-reply-time-expectations` |
 | `cm:executive-briefing` | `cm:issue-selling` |
+| `cm:executive-briefing` | `cm:pyramid-principle` |
 | `cm:executive-briefing` | `cm:words-of-estimative-probability` |
 | `cm:face-to-face-conversation` | `cm:eye-contact` |
 | `cm:face-to-face-conversation` | `cm:proxemics` |
@@ -93,10 +96,8 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:one-on-one-meetings` | `cm:active-listening` |
 | `cm:one-on-one-meetings` | `cm:humble-inquiry` |
 | `cm:one-on-one-meetings` | `cm:managing-up` |
-| `cm:patient-education` | `cm:risk-numbers-as-natural-frequencies` |
-| `cm:patient-education` | `cm:teach-back` |
 
-…and 18 more.
+…and 20 more.
 
 ## Myths and contested advice
 

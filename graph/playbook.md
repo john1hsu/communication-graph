@@ -999,3 +999,24 @@ Ask yourself:
 - Which terms here did I learn inside my team or field, and have I replaced or defined each one where it first appears?
 - Could a reader say in their own words what I want them to do next?
 
+### [Pyramid principle](../articles/writing/pyramid-principle.md) — Framework
+
+1. Before drafting, write the single sentence you want the reader to accept or act on - your answer, not your topic.
+2. Write the question that sentence answers, and the situation and complication that make the reader ask it.
+3. List every supporting point, then sort them into two to four groups that each answer "why?" or "how?" about the top sentence.
+4. Check each group - its points should be the same kind of idea, not overlap, and together cover the claim - and put them in a deliberate order (time, structure or importance).
+5. Turn each group into a summary sentence and a heading, place the evidence under it, and reread the top sentence and headings alone to see whether they tell the whole story.
+
+*An operations analyst writes up a three-week investigation into rising machine-tooling costs for the plant manager.*
+
+| Before | After |
+|---|---|
+| Report on tooling costs. Week 1: we collected cost data from all six machines. Week 2: we ran tests on feed rates and coolant. Week 3: we analysed the results and found several interesting patterns, which are described below, followed by some options we considered... | Recommendation: standardise coolant pressure on all six machines; we expect tooling costs to return to last year's level within a quarter. Situation: the machines ran within budget until spring. Complication: tooling costs have since risen sharply. Question: what should we change? Three findings support the answer - 1) the cost rise tracks the machines with low coolant pressure, 2) a two-week trial at higher pressure cut tool wear, 3) the change needs no new equipment. Data for each is in the sections below. |
+
+**Why:** The rewrite moves from the order the analyst worked in to the order the reader thinks in - answer, then grouped reasons, then evidence - so the manager can decide from the first paragraph and check any reason in its own section.
+
+Ask yourself:
+- Could my reader state my conclusion after reading only the first paragraph and the headings?
+- Does every point under a heading actually support that heading, and are my groups free of overlaps and gaps?
+- Am I presenting the order in which I did the work, or the order in which my reader needs the answer?
+
