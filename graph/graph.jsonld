@@ -2856,6 +2856,96 @@
    ]
   },
   {
+   "@id": "cm:filled-pauses",
+   "@type": "cmo:AntiPattern",
+   "cmo:challengedBy": [
+    {
+     "@id": "cm:clark-fox-tree-2002"
+    },
+    {
+     "@id": "cm:fraundorf-watson-2011"
+    }
+   ],
+   "cmo:contrastsWith": {
+    "@id": "cm:silence-and-pauses"
+   },
+   "cmo:demonstratedBy": {
+    "@id": "cm:christenfeld-1995"
+   },
+   "cmo:domain": "presenting-and-public-speaking",
+   "cmo:evidenceStatus": "contested",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/filled-pauses/example"
+   },
+   "cmo:file": "articles/presenting-and-public-speaking/filled-pauses.md",
+   "cmo:level": "introductory",
+   "cmo:undermines": {
+    "@id": "cm:credibility"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/filled-pauses/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/filled-pauses/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/filled-pauses/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/filled-pauses/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/filled-pauses/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/filled-pauses/s6"
+    }
+   ],
+   "rdfs:label": "Filled pauses",
+   "skos:altLabel": [
+    "filler sounds",
+    "filler words",
+    "um and uh",
+    "verbal fillers",
+    "vocal fillers"
+   ],
+   "skos:broader": [
+    {
+     "@id": "cm:paralanguage"
+    },
+    {
+     "@id": "cm:vocal-delivery"
+    }
+   ],
+   "skos:definition": "Sounds and words such as \"um\", \"uh\", \"like\" and \"so\" that a speaker uses to fill a gap while planning what to say next. A few are normal and even useful to listeners; a high rate in a presentation or briefing makes the speaker sound less prepared and less effective.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/presenting-and-public-speaking"
+   },
+   "skos:prefLabel": "Filled pauses",
+   "skos:related": [
+    {
+     "@id": "cm:credibility"
+    },
+    {
+     "@id": "cm:habit-reversal-training"
+    },
+    {
+     "@id": "cm:presentation-rehearsal"
+    },
+    {
+     "@id": "cm:silence-and-pauses"
+    },
+    {
+     "@id": "cm:speaking-anxiety"
+    }
+   ]
+  },
+  {
    "@id": "cm:first-offer",
    "@type": "cmo:Technique",
    "cmo:appliedIn": {
@@ -8774,6 +8864,46 @@
    "schema:text": "Repeat with a few different people, then choose the suggestions you will actually try and tell those colleagues what you changed."
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/filled-pauses/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:filled-pauses"
+   },
+   "rdfs:label": "In my last recorded talk, how many \"ums\" and \"uhs\" did I use per minute - closer to two or to twelve?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/filled-pauses/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:filled-pauses"
+   },
+   "rdfs:label": "Do my fillers cluster at the start of answers to questions, where a planned first sentence would remove them?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/filled-pauses/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:filled-pauses"
+   },
+   "rdfs:label": "When I lose my place, can I let two seconds of silence pass instead of filling it?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/filled-pauses/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:filled-pauses"
+   },
+   "rdfs:label": "Am I trying to remove every single filler, when a few are normal and cost me little?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/filled-pauses/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "The launch moves to the 20th. [pause] The cause is a late security review from our vendor. [pause] It finished yesterday, so the 20th is firm.",
+   "cmo:before": "So, um, basically the, uh, launch is, like, moving out a bit, um, because of, uh, the vendor thing, so, um, yeah, we're, uh, looking at maybe the 20th.",
+   "cmo:situation": "A product manager gives a two-minute status update to a leadership meeting and is asked why the launch slipped.",
+   "cmo:why": "The speaker replaces each filler with a short silent pause and plans one sentence at a time, so the answer is shorter, the date comes first, and the hesitation that suggested doubt is gone."
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/first-offer/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -13308,6 +13438,90 @@
    "dcterms:title": "Feedforward reviews",
    "schema:url": {
     "@id": "https://www-2.rotman.utoronto.ca/insightshub/talent-management-inclusion/feedforward-reviews"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/filled-pauses/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Clark & Fox Tree, Cognition 84(1), 73-111, 2002",
+   "dcterms:title": "Using uh and um in spontaneous speaking",
+   "schema:url": {
+    "@id": "https://gwern.net/doc/psychology/linguistics/2002-clark-2.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/filled-pauses/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Christenfeld, Journal of Nonverbal Behavior 19, 171-186, 1995",
+   "dcterms:title": "Does it hurt to say um?",
+   "schema:url": {
+    "@id": "https://link.springer.com/article/10.1007/BF02175503"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/filled-pauses/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Journal of Applied Behavior Analysis 57(3), 574-583, 2024 (MEDLINE record via BVS)",
+   "dcterms:title": "Um, so, like, do speech disfluencies matter? A parametric evaluation of filler sounds and words",
+   "schema:url": {
+    "@id": "https://pesquisa.bvsalud.org/portal/resource/es/mdl-38819033"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/filled-pauses/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Mancuso & Miltenberger, Journal of Applied Behavior Analysis 49(1), 188-192, 2016",
+   "dcterms:title": "Using habit reversal to decrease filled pauses in public speaking",
+   "schema:url": {
+    "@id": "https://bvbvf1.bib-bvb.de/vufind/PrimoRecord/cdi_proquest_miscellaneous_1771448911"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/filled-pauses/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Beckman Institute, University of Illinois Urbana-Champaign, January 2012",
+   "dcterms:title": "Speech fillers help listeners remember (Fraundorf & Watson, Journal of Memory and Language)",
+   "schema:url": {
+    "@id": "https://beckman.illinois.edu/news/2012/01/watsonspeechfillers"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/filled-pauses/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Niebuhr & Fischer, Proc. Interspeech 2019, 544-548 (ISCA Archive)",
+   "dcterms:title": "Do not Hesitate! - Unless You Do it Shortly or Nasally: How the Phonetics of Filled Pauses Determine Their Subjective Frequency and Perceived Speaker Performance",
+   "schema:url": {
+    "@id": "https://www.isca-archive.org/interspeech_2019/niebuhr19c_interspeech.html"
    }
   },
   {

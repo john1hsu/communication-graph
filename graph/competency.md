@@ -6,7 +6,9 @@ SPARQL queries in `queries/` run over the asserted graph, the OWL-RL inferences 
 
 _Which written barriers or anti-patterns have nothing in the graph that addresses them?_ — `queries/01-problems-without-fix.rq`
 
-_No results._
+| node | type |
+|---|---|
+| `cm:filled-pauses` | cmo:AntiPattern |
 
 ## Skills with no practice technique (gap)
 
@@ -102,6 +104,8 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | node | status | challenger |
 |---|---|---|
 | `cm:anxiety-reappraisal` | contested | `cm:poynter-smith-pasqualini-2025` |
+| `cm:filled-pauses` | contested | `cm:clark-fox-tree-2002` |
+| `cm:filled-pauses` | contested | `cm:fraundorf-watson-2011` |
 | `cm:high-and-low-context-cultures` | contested | `cm:cardon-2008` |
 | `cm:high-and-low-context-cultures` | contested | `cm:kittler-rygl-mackinnon-2011` |
 | `cm:media-richness-theory` | contested | `cm:dennis-kinney-1998` |
@@ -129,10 +133,8 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:email` | mixed |  |
 | `cm:ethnocentrism` | mixed |  |
 | `cm:eye-contact` | mixed | `cm:chen-et-al-2013` |
-| `cm:feedback` | mixed |  |
-| `cm:feedforward` | mixed |  |
 
-…and 29 more.
+…and 31 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -148,6 +150,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:delivering-bad-news` | cmo:Context |
 | `cm:egocentric-bias` | cmo:Barrier |
 | `cm:eye-contact` | cmo:Skill |
+| `cm:filled-pauses` | cmo:AntiPattern |
 | `cm:meeting-agendas` | cmo:Technique |
 | `cm:one-on-one-meetings` | cmo:Context |
 | `cm:open-ended-questions` | cmo:Technique |

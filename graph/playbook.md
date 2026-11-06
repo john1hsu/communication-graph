@@ -833,6 +833,22 @@ Ask yourself:
 - Am I planning to explain each visual, or am I going to read the headline and bullets aloud?
 - Is the material complex enough to need visual evidence, or would a simple spoken point serve the audience better?
 
+### [Filled pauses](../articles/presenting-and-public-speaking/filled-pauses.md) — AntiPattern
+
+*A product manager gives a two-minute status update to a leadership meeting and is asked why the launch slipped.*
+
+| Before | After |
+|---|---|
+| So, um, basically the, uh, launch is, like, moving out a bit, um, because of, uh, the vendor thing, so, um, yeah, we're, uh, looking at maybe the 20th. | The launch moves to the 20th. [pause] The cause is a late security review from our vendor. [pause] It finished yesterday, so the 20th is firm. |
+
+**Why:** The speaker replaces each filler with a short silent pause and plans one sentence at a time, so the answer is shorter, the date comes first, and the hesitation that suggested doubt is gone.
+
+Ask yourself:
+- In my last recorded talk, how many "ums" and "uhs" did I use per minute - closer to two or to twelve?
+- Do my fillers cluster at the start of answers to questions, where a planned first sentence would remove them?
+- When I lose my place, can I let two seconds of silence pass instead of filling it?
+- Am I trying to remove every single filler, when a few are normal and cost me little?
+
 ### [Public speaking anxiety](../articles/presenting-and-public-speaking/speaking-anxiety.md) — Barrier
 
 Ask yourself:

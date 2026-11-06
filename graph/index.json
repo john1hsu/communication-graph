@@ -3248,6 +3248,105 @@
   ]
  },
  {
+  "id": "cm:filled-pauses",
+  "title": "Filled pauses",
+  "aliases": [
+   "filler words",
+   "um and uh",
+   "verbal fillers",
+   "vocal fillers",
+   "filler sounds"
+  ],
+  "type": "AntiPattern",
+  "domain": "presenting-and-public-speaking",
+  "level": "introductory",
+  "evidenceStatus": "contested",
+  "file": "articles/presenting-and-public-speaking/filled-pauses.md",
+  "created": "2026-11-06",
+  "summary": "Sounds and words such as \"um\", \"uh\", \"like\" and \"so\" that a speaker uses to fill a gap while planning what to say next. A few are normal and even useful to listeners; a high rate in a presentation or briefing makes the speaker sound less prepared and less effective.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:paralanguage"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "cm:vocal-delivery"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:silence-and-pauses"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:speaking-anxiety"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:presentation-rehearsal"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:habit-reversal-training"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:credibility"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:christenfeld-1995",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:clark-fox-tree-2002",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:fraundorf-watson-2011",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:undermines",
+    "object": "cm:credibility",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:contrastsWith",
+    "object": "cm:silence-and-pauses",
+    "source": "s2",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "In my last recorded talk, how many \"ums\" and \"uhs\" did I use per minute - closer to two or to twelve?",
+   "Do my fillers cluster at the start of answers to questions, where a planned first sentence would remove them?",
+   "When I lose my place, can I let two seconds of silence pass instead of filling it?",
+   "Am I trying to remove every single filler, when a few are normal and cost me little?"
+  ],
+  "steps": [],
+  "example": {
+   "situation": "A product manager gives a two-minute status update to a leadership meeting and is asked why the launch slipped.",
+   "before": "So, um, basically the, uh, launch is, like, moving out a bit, um, because of, uh, the vendor thing, so, um, yeah, we're, uh, looking at maybe the 20th.",
+   "after": "The launch moves to the 20th. [pause] The cause is a late security review from our vendor. [pause] It finished yesterday, so the 20th is firm.",
+   "why": "The speaker replaces each filler with a short silent pause and plans one sentence at a time, so the answer is shorter, the date comes first, and the hesitation that suggested doubt is gone."
+  },
+  "source_urls": [
+   "https://gwern.net/doc/psychology/linguistics/2002-clark-2.pdf",
+   "https://link.springer.com/article/10.1007/BF02175503",
+   "https://pesquisa.bvsalud.org/portal/resource/es/mdl-38819033",
+   "https://bvbvf1.bib-bvb.de/vufind/PrimoRecord/cdi_proquest_miscellaneous_1771448911",
+   "https://beckman.illinois.edu/news/2012/01/watsonspeechfillers",
+   "https://www.isca-archive.org/interspeech_2019/niebuhr19c_interspeech.html"
+  ]
+ },
+ {
   "id": "cm:first-offer",
   "title": "First offer",
   "aliases": [
