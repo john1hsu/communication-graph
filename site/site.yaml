@@ -1,0 +1,58 @@
+# Settings for the GitHub Pages site built by site/build.py.
+title: Communication Graph
+repo: john1hsu/communication-graph
+repo_url: https://github.com/john1hsu/communication-graph
+prefix: cm
+headline: Say it so it lands
+intro: >-
+  Evidence-checked techniques for listening, writing, presenting, giving
+  feedback, running meetings and handling hard conversations at work. Each
+  article gives you the steps, a before-and-after rewrite, questions to ask
+  yourself, and the sources behind every claim.
+search_example: paraphrasing
+tagline: Evidence-checked techniques for listening, writing, presenting, feedback, meetings and hard conversations at work.
+footer: A new article is researched, checked and added every hour.
+fonts_url: https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400..700;1,8..60,400..700&display=swap
+evidence:
+  normative: Normative
+  historical: Historical record
+  mixed: Mixed evidence
+  robust: Robust evidence
+  contested: Contested
+  failed-replication: Failed to replicate
+  practitioner: Practitioner advice
+  theoretical: Theoretical
+domains: {}
+theme:
+  font_body: "'Source Serif 4', Georgia, serif"
+  font_display: "'Bricolage Grotesque', system-ui, sans-serif"
+  font_ui: "'Bricolage Grotesque', system-ui, sans-serif"
+  hue_start: 165
+  light:
+    paper: "#EEF3EF"
+    panel: "#F9FBF9"
+    ink: "#18241E"
+    ink-soft: "#34443B"
+    muted: "#5C6B62"
+    rule: "#D2DDD5"
+    rule-strong: "#ABBCB0"
+    accent: "#0C6A62"
+    accent-wash: "#D4EAE6"
+    warn: "#8E3A67"
+    warn-wash: "#F1DDE8"
+    good: "#0C6A62"
+    good-wash: "#D4EAE6"
+  dark:
+    paper: "#0F1613"
+    panel: "#17211C"
+    ink: "#E4EEE8"
+    ink-soft: "#C0CEC5"
+    muted: "#8C9D93"
+    rule: "#26332C"
+    rule-strong: "#3D4E44"
+    accent: "#6FCFC2"
+    accent-wash: "#1D3532"
+    warn: "#E39BC2"
+    warn-wash: "#3A2230"
+    good: "#6FCFC2"
+    good-wash: "#1D3532"

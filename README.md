@@ -2,6 +2,8 @@
 
 A growing, citation-backed knowledge graph for communicating better at work: listening, questioning, writing, presenting, persuasion, feedback, difficult conversations, negotiation, facilitation, executive and client communication, async and digital communication, nonverbal and cross-cultural communication, and the psychology of what gets in the way. A scheduled run researches one new topic, writes it as a practice-ready node with evidenced, typed edges, and only commits it if the validator, the OWL reasoner and the SHACL shapes all agree it is sound.
 
+**Read it online: https://john1hsu.github.io/communication-graph/** (rebuilt automatically on every new article by `.github/workflows/pages.yml` from `site/build.py`).
+
 Start with **[`graph/playbook.md`](graph/playbook.md)**: every step-by-step technique, before/after rewrite and self-check question in the graph, grouped by domain.
 
 ## Architecture
