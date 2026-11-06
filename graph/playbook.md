@@ -776,6 +776,29 @@ Ask yourself:
 - Who talked more in that conversation, and did I learn anything that changed my view?
 - Did I acknowledge what they said before telling them what I think?
 
+### [Self-disclosure reciprocity](../articles/questioning-and-conversation/reciprocal-self-disclosure.md) — Technique
+
+1. Open with a light question tied to the shared situation, then listen for what the other person chooses to reveal.
+2. Answer their disclosure with one of your own at a similar level of personal detail - not a bigger story, not a deflection.
+3. Hand the turn back with a question that builds on what they just said, so speaking and listening alternate in short exchanges.
+4. Deepen one notch at a time (facts, then preferences, then experiences) only after the other person has matched the previous level.
+5. If you are senior to the other person, share interests, experiences or lessons learned rather than current weaknesses or anxieties, and keep task-relevant shortcomings for settings that call for them.
+6. Close the exchange while it is still balanced, and note one thing they told you to follow up on next time.
+
+*A team lead's first coffee chat with a contractor who has just joined the project.*
+
+| Before | After |
+|---|---|
+| The lead asks eight questions in a row - background, tools, location, weekend plans - and shares nothing. Or, in the opposite version, spends fifteen minutes on their own career story and a stressful family week. | Lead: 'How's the first week landing?' Contractor: 'Good - still learning the codebase, it's huge.' Lead: 'It took me a month to stop getting lost in it; the billing module was my nemesis. Which part has been hardest so far?' The contractor names one, adds that they're new to the city, and the lead mentions a lunch spot the team likes before heading to the stand-up. |
+
+**Why:** Each person shares a little and then gets the floor back, the lead matches the contractor's level of detail, and the lead's disclosure is a past struggle that is now solved rather than a current weakness.
+
+Ask yourself:
+- Did we take roughly equal turns, or did one of us do almost all the talking or all the asking?
+- When they shared something, did I answer at about the same depth before asking my next question?
+- Did I go deeper only after they matched the last level, or did I jump ahead to something too personal?
+- Given my status relative to them, was what I shared likely to build connection rather than cost me credibility?
+
 ### [Small talk at work](../articles/questioning-and-conversation/small-talk.md) — Skill
 
 Ask yourself:

@@ -5661,6 +5661,105 @@
   ]
  },
  {
+  "id": "cm:reciprocal-self-disclosure",
+  "title": "Self-disclosure reciprocity",
+  "aliases": [
+   "reciprocal self-disclosure",
+   "disclosure turn-taking",
+   "matching disclosure"
+  ],
+  "type": "Technique",
+  "domain": "questioning-and-conversation",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/questioning-and-conversation/reciprocal-self-disclosure.md",
+  "created": "2026-11-06",
+  "summary": "Building a new working relationship by trading small, personal but appropriate disclosures in alternating turns - matching the other person's level of openness and deepening it gradually - rather than one person doing all the sharing or all the asking.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:self-disclosure"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:small-talk"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:rapport"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:active-listening"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:follow-up-questions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:psychological-safety"
+   },
+   {
+    "predicate": "cmo:develops",
+    "object": "cm:small-talk",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:collins-miller-1994",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:sprecher-et-al-2013",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:active-listening",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:gibson-harari-marr-2018",
+    "source": "s4",
+    "confidence": "high"
+   }
+  ],
+  "selfCheck": [
+   "Did we take roughly equal turns, or did one of us do almost all the talking or all the asking?",
+   "When they shared something, did I answer at about the same depth before asking my next question?",
+   "Did I go deeper only after they matched the last level, or did I jump ahead to something too personal?",
+   "Given my status relative to them, was what I shared likely to build connection rather than cost me credibility?"
+  ],
+  "steps": [
+   "Open with a light question tied to the shared situation, then listen for what the other person chooses to reveal.",
+   "Answer their disclosure with one of your own at a similar level of personal detail - not a bigger story, not a deflection.",
+   "Hand the turn back with a question that builds on what they just said, so speaking and listening alternate in short exchanges.",
+   "Deepen one notch at a time (facts, then preferences, then experiences) only after the other person has matched the previous level.",
+   "If you are senior to the other person, share interests, experiences or lessons learned rather than current weaknesses or anxieties, and keep task-relevant shortcomings for settings that call for them.",
+   "Close the exchange while it is still balanced, and note one thing they told you to follow up on next time."
+  ],
+  "example": {
+   "situation": "A team lead's first coffee chat with a contractor who has just joined the project.",
+   "before": "The lead asks eight questions in a row - background, tools, location, weekend plans - and shares nothing. Or, in the opposite version, spends fifteen minutes on their own career story and a stressful family week.",
+   "after": "Lead: 'How's the first week landing?' Contractor: 'Good - still learning the codebase, it's huge.' Lead: 'It took me a month to stop getting lost in it; the billing module was my nemesis. Which part has been hardest so far?' The contractor names one, adds that they're new to the city, and the lead mentions a lunch spot the team likes before heading to the stand-up.",
+   "why": "Each person shares a little and then gets the floor back, the lead matches the contractor's level of detail, and the lead's disclosure is a past struggle that is now solved rather than a current weakness."
+  },
+  "source_urls": [
+   "https://pubmed.ncbi.nlm.nih.gov/7809308/",
+   "https://www.uni-mannheim.de/forschung-erleben/artikel/komm-wir-erzaehlen-uns-was",
+   "https://journals.sagepub.com/doi/10.1177/0265407512459033",
+   "https://faculty.wharton.upenn.edu/wp-content/uploads/2019/10/when_sharing_hurts.pdf",
+   "https://rhsmith.umd.edu/research/avoid-oversharing-work"
+  ]
+ },
+ {
   "id": "cm:risk-numbers-as-natural-frequencies",
   "title": "Risk numbers as natural frequencies",
   "aliases": [
@@ -6020,6 +6119,10 @@
    {
     "predicate": "skos:related",
     "object": "cm:self-disclosure"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:reciprocal-self-disclosure"
    },
    {
     "predicate": "skos:related",

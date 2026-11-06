@@ -12,9 +12,7 @@ _No results._
 
 _Which written skills or dispositions have no technique, framework or principle that develops them?_ — `queries/02-skills-without-practice.rq`
 
-| skill | type |
-|---|---|
-| `cm:small-talk` | cmo:Skill |
+_No results._
 
 ## Situations, channels and formats with no guidance (gap)
 
@@ -52,6 +50,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:meeting-agendas` | 1 | unnecessary-meetings |
 | `cm:multiple-equivalent-simultaneous-offers` | 1 | negotiator-dilemma |
 | `cm:paraphrasing` | 1 | Active listening |
+| `cm:reciprocal-self-disclosure` | 1 | Small talk at work |
 | `cm:situation-behavior-impact` | 1 | Defensiveness |
 | `cm:stakeholder-mapping` | 1 | ignoring-stakeholders |
 | `cm:teach-back` | 1 | Illusion of transparency |
@@ -133,7 +132,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:influence-without-authority` | mixed |  |
 | `cm:issue-selling` | mixed |  |
 
-…and 20 more.
+…and 21 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -152,6 +151,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:open-ended-questions` | cmo:Technique |
 | `cm:plain-language` | cmo:Principle |
 | `cm:rapport` | cmo:Concept |
+| `cm:reciprocal-self-disclosure` | cmo:Technique |
 | `cm:self-distancing` | cmo:Technique |
 | `cm:small-talk` | cmo:Skill |
 | `cm:speaking-anxiety` | cmo:Barrier |

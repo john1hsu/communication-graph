@@ -10,7 +10,7 @@ summary: >-
 level: introductory
 evidenceStatus: mixed
 broader: [cm:interpersonal-communication]
-related: [cm:rapport, cm:humble-inquiry, cm:open-ended-questions, cm:active-listening, cm:self-disclosure, cm:psychological-safety]
+related: [cm:rapport, cm:humble-inquiry, cm:open-ended-questions, cm:active-listening, cm:self-disclosure, cm:reciprocal-self-disclosure, cm:psychological-safety]
 requires: []
 relations:
   - {predicate: demonstratedBy, object: cm:methot-et-al-2021, source: s1, confidence: high}
