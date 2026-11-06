@@ -894,6 +894,36 @@
 <https://github.com/john1hsu/communication-graph/id/channel-selection> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
 <https://github.com/john1hsu/communication-graph/id/channel-selection> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/ask-in-person-study> .
 <https://github.com/john1hsu/communication-graph/id/channel-selection> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/egocentrism-over-email-study> .
+<https://github.com/john1hsu/communication-graph/id/clarity> <http://purl.org/dc/terms/created> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/clarity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+<https://github.com/john1hsu/communication-graph/id/clarity> <http://www.w3.org/2000/01/rdf-schema#label> "Clarity" .
+<https://github.com/john1hsu/communication-graph/id/clarity> <http://www.w3.org/2004/02/skos/core#altLabel> "clear communication" .
+<https://github.com/john1hsu/communication-graph/id/clarity> <http://www.w3.org/2004/02/skos/core#altLabel> "message clarity" .
+<https://github.com/john1hsu/communication-graph/id/clarity> <http://www.w3.org/2004/02/skos/core#altLabel> "perspicuity" .
+<https://github.com/john1hsu/communication-graph/id/clarity> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/communication-competence> .
+<https://github.com/john1hsu/communication-graph/id/clarity> <http://www.w3.org/2004/02/skos/core#definition> "The quality of a message that lets its intended audience grasp what the sender means, and what (if anything) they are expected to do, quickly, accurately and without having to guess." .
+<https://github.com/john1hsu/communication-graph/id/clarity> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/foundations> .
+<https://github.com/john1hsu/communication-graph/id/clarity> <http://www.w3.org/2004/02/skos/core#prefLabel> "Clarity" .
+<https://github.com/john1hsu/communication-graph/id/clarity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
+<https://github.com/john1hsu/communication-graph/id/clarity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/common-ground> .
+<https://github.com/john1hsu/communication-graph/id/clarity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> .
+<https://github.com/john1hsu/communication-graph/id/clarity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/egocentric-bias> .
+<https://github.com/john1hsu/communication-graph/id/clarity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> .
+<https://github.com/john1hsu/communication-graph/id/clarity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/teach-back> .
+<https://github.com/john1hsu/communication-graph/id/clarity> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/clarity/s1> .
+<https://github.com/john1hsu/communication-graph/id/clarity> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/clarity/s2> .
+<https://github.com/john1hsu/communication-graph/id/clarity> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/clarity/s3> .
+<https://github.com/john1hsu/communication-graph/id/clarity> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/clarity/s4> .
+<https://github.com/john1hsu/communication-graph/id/clarity> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/concise-writing> .
+<https://github.com/john1hsu/communication-graph/id/clarity> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/titsworth-et-al-2015> .
+<https://github.com/john1hsu/communication-graph/id/clarity> <https://github.com/john1hsu/communication-graph/ontology#domain> "foundations" .
+<https://github.com/john1hsu/communication-graph/id/clarity> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/clarity> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/grices-maxims> .
+<https://github.com/john1hsu/communication-graph/id/clarity> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/foundations/clarity.md" .
+<https://github.com/john1hsu/communication-graph/id/clarity> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/clarity> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
+<https://github.com/john1hsu/communication-graph/id/clarity> <https://github.com/john1hsu/communication-graph/ontology#studiedIn> <https://github.com/john1hsu/communication-graph/id/pragmatics> .
+<https://github.com/john1hsu/communication-graph/id/clarity> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/oppenheimer-2006> .
 <https://github.com/john1hsu/communication-graph/id/common-ground> <http://purl.org/dc/terms/created> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/common-ground> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Theory> .
 <https://github.com/john1hsu/communication-graph/id/common-ground> <http://www.w3.org/2000/01/rdf-schema#label> "Common ground and grounding theory" .
@@ -3871,6 +3901,30 @@
 <https://github.com/john1hsu/communication-graph/id/source/channel-selection/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/channel-selection/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/communication-graph/id/source/channel-selection/s6> <https://schema.org/url> <https://scholars.hkbu.edu.hk/en/publications/channel-expansion-theory-a-comprehensive-meta-analysis-literature/> .
+<https://github.com/john1hsu/communication-graph/id/source/clarity/s1> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/clarity/s1> <http://purl.org/dc/terms/publisher> "Scott Titsworth and colleagues, Communication Education 64(4), 385-418 (2015), Taylor & Francis" .
+<https://github.com/john1hsu/communication-graph/id/source/clarity/s1> <http://purl.org/dc/terms/title> "Two Meta-analyses Exploring the Relationship between Teacher Clarity and Student Learning" .
+<https://github.com/john1hsu/communication-graph/id/source/clarity/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/clarity/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/clarity/s1> <https://schema.org/url> <https://informahealthcare.com/doi/abs/10.1080/03634523.2015.1041998> .
+<https://github.com/john1hsu/communication-graph/id/source/clarity/s2> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/clarity/s2> <http://purl.org/dc/terms/publisher> "Wayne Davis, Stanford Encyclopedia of Philosophy (Winter 2020 edition)" .
+<https://github.com/john1hsu/communication-graph/id/source/clarity/s2> <http://purl.org/dc/terms/title> "Implicature" .
+<https://github.com/john1hsu/communication-graph/id/source/clarity/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/clarity/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/communication-graph/id/source/clarity/s2> <https://schema.org/url> <https://plato.stanford.edu/archives/win2020/entries/implicature/> .
+<https://github.com/john1hsu/communication-graph/id/source/clarity/s3> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/clarity/s3> <http://purl.org/dc/terms/publisher> "Purdue Online Writing Lab (Purdue University)" .
+<https://github.com/john1hsu/communication-graph/id/source/clarity/s3> <http://purl.org/dc/terms/title> "Revising for Clarity" .
+<https://github.com/john1hsu/communication-graph/id/source/clarity/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/clarity/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/clarity/s3> <https://schema.org/url> <https://owl.purdue.edu/owl/subject_specific_writing/professional_technical_writing/revision_in_business_writing/revising_for_clarity.html> .
+<https://github.com/john1hsu/communication-graph/id/source/clarity/s4> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/clarity/s4> <http://purl.org/dc/terms/publisher> "Wiley via EurekAlert! (AAAS), 31 October 2005" .
+<https://github.com/john1hsu/communication-graph/id/source/clarity/s4> <http://purl.org/dc/terms/title> "Study: Writers who use long words needlessly are seen as less intelligent (press release on Oppenheimer, Applied Cognitive Psychology, doi:10.1002/acp.1178)" .
+<https://github.com/john1hsu/communication-graph/id/source/clarity/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/clarity/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "news" .
+<https://github.com/john1hsu/communication-graph/id/source/clarity/s4> <https://schema.org/url> <https://www.eurekalert.org/news-releases/808085> .
 <https://github.com/john1hsu/communication-graph/id/source/common-ground/s1> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/common-ground/s1> <http://purl.org/dc/terms/publisher> "Herbert H. Clark & Susan E. Brennan, in Resnick, Levine & Teasley (eds.), Perspectives on Socially Shared Cognition, APA Books, 127-149 (1991) (author's copy, Stanford University)" .
 <https://github.com/john1hsu/communication-graph/id/source/common-ground/s1> <http://purl.org/dc/terms/title> "Grounding in communication" .

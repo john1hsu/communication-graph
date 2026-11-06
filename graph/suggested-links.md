@@ -7,25 +7,25 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 2.76 | `cm:difficult-conversation` | `cm:situation-behavior-impact` | `cm:active-listening`, `cm:defensiveness`, `cm:feedback`, `cm:i-statements`, `cm:nonviolent-communication` |
 | 2.48 | `cm:anxiety-reappraisal` | `cm:spotlight-effect` | `cm:illusion-of-transparency`, `cm:macinnis-mackinnon-macintyre-2010`, `cm:self-distancing`, `cm:social-anxiety`, `cm:speaking-anxiety` |
 | 2.42 | `cm:camera-level-gaze` | `cm:proxemics` | `cm:eye-contact`, `cm:nonverbal-communication`, `cm:rapport`, `cm:video-call-communication`, `cm:zoom-fatigue` |
+| 2.28 | `cm:egocentric-bias` | `cm:teach-back` | `cm:checking-understanding`, `cm:clarity`, `cm:common-ground`, `cm:curse-of-knowledge`, `cm:illusion-of-transparency` |
+| 2.21 | `cm:audience-analysis` | `cm:illusion-of-transparency` | `cm:clarity`, `cm:common-ground`, `cm:communicating-uncertainty`, `cm:curse-of-knowledge`, `cm:email` |
 | 2.18 | `cm:active-listening` | `cm:feedback` | `cm:defensiveness`, `cm:difficult-conversation`, `cm:feedforward`, `cm:one-on-one-meetings`, `cm:psychological-safety` |
 | 2.18 | `cm:i-statements` | `cm:weger-et-al-2014` | `cm:active-listening`, `cm:paraphrasing`, `cm:thomas-gordon` |
 | 2.17 | `cm:anchoring-and-adjustment` | `cm:thomas-gilovich` | `cm:curse-of-knowledge`, `cm:egocentric-bias`, `cm:gilovich-savitsky-medvec-1998`, `cm:illusion-of-transparency`, `cm:macinnis-mackinnon-macintyre-2010` |
 | 2.16 | `cm:one-on-one-meetings` | `cm:zoom-fatigue` | `cm:employee-engagement`, `cm:workplace-meetings` |
+| 2.14 | `cm:bottom-line-up-front` | `cm:curse-of-knowledge` | `cm:assertion-evidence-slides`, `cm:audience-analysis`, `cm:channel-selection`, `cm:clarity`, `cm:email` |
 | 2.14 | `cm:humble-inquiry` | `cm:weger-et-al-2014` | `cm:active-listening`, `cm:advice-giving`, `cm:open-ended-questions` |
 | 2.12 | `cm:managing-up` | `cm:message-equivocality-media-selection-and-manager-performance` | `cm:audience-analysis`, `cm:channel-selection`, `cm:organizational-communication` |
-| 2.12 | `cm:channel-selection` | `cm:egocentric-bias` | `cm:common-ground`, `cm:curse-of-knowledge`, `cm:egocentrism-over-email-study` |
+| 2.11 | `cm:channel-selection` | `cm:egocentric-bias` | `cm:common-ground`, `cm:curse-of-knowledge`, `cm:egocentrism-over-email-study` |
 | 2.10 | `cm:difficult-conversation` | `cm:small-talk` | `cm:active-listening`, `cm:kardas-kumar-epley-2021`, `cm:psychological-safety` |
 | 2.09 | `cm:one-on-one-meetings` | `cm:situation-behavior-impact` | `cm:active-listening`, `cm:feedback`, `cm:feedforward`, `cm:kluger-denisi-1996`, `cm:performance-review` |
 | 2.09 | `cm:one-on-one-meetings` | `cm:small-talk` | `cm:active-listening`, `cm:humble-inquiry`, `cm:interpersonal-communication`, `cm:open-ended-questions`, `cm:psychological-safety` |
-| 2.02 | `cm:illusion-of-transparency` | `cm:plain-language` | `cm:clarity`, `cm:curse-of-knowledge`, `cm:email`, `cm:teach-back`, `cm:words-of-estimative-probability` |
 | 1.97 | `cm:common-ground` | `cm:email` | `cm:asynchronous-communication`, `cm:audience-analysis`, `cm:channel-selection`, `cm:curse-of-knowledge`, `cm:illusion-of-transparency` |
-| 1.92 | `cm:egocentric-bias` | `cm:teach-back` | `cm:checking-understanding`, `cm:common-ground`, `cm:curse-of-knowledge`, `cm:illusion-of-transparency` |
 | 1.87 | `cm:email` | `cm:zoom-fatigue` | `cm:asynchronous-communication`, `cm:channel-selection`, `cm:information-overload` |
 | 1.87 | `cm:ray-tomlinson` | `cm:zoom-fatigue` | `cm:asynchronous-communication`, `cm:channel-selection`, `cm:information-overload` |
-| 1.85 | `cm:audience-analysis` | `cm:illusion-of-transparency` | `cm:common-ground`, `cm:communicating-uncertainty`, `cm:curse-of-knowledge`, `cm:email`, `cm:george-loewenstein` |
+| 1.85 | `cm:illusion-of-transparency` | `cm:plain-language` | `cm:clarity`, `cm:curse-of-knowledge`, `cm:email`, `cm:teach-back`, `cm:words-of-estimative-probability` |
 | 1.82 | `cm:apology` | `cm:direct-vs-indirect-feedback` | `cm:face-and-facework`, `cm:i-statements` |
+| 1.81 | `cm:common-ground` | `cm:plain-language` | `cm:audience-analysis`, `cm:clarity`, `cm:curse-of-knowledge`, `cm:grices-maxims`, `cm:teach-back` |
 | 1.80 | `cm:curse-of-knowledge` | `cm:macinnis-mackinnon-macintyre-2010` | `cm:anchoring-and-adjustment`, `cm:gilovich-savitsky-medvec-1998`, `cm:illusion-of-transparency`, `cm:spotlight-effect`, `cm:thomas-gilovich` |
 | 1.80 | `cm:egocentric-bias` | `cm:macinnis-mackinnon-macintyre-2010` | `cm:anchoring-and-adjustment`, `cm:gilovich-savitsky-medvec-1998`, `cm:illusion-of-transparency`, `cm:spotlight-effect`, `cm:thomas-gilovich` |
 | 1.80 | `cm:risk-numbers-as-natural-frequencies` | `cm:teach-back` | `cm:patient-education`, `cm:plain-language` |
-| 1.79 | `cm:bottom-line-up-front` | `cm:curse-of-knowledge` | `cm:assertion-evidence-slides`, `cm:audience-analysis`, `cm:channel-selection`, `cm:email`, `cm:plain-language` |
-| 1.76 | `cm:humble-inquiry` | `cm:reciprocal-self-disclosure` | `cm:active-listening`, `cm:follow-up-questions`, `cm:psychological-safety`, `cm:small-talk` |

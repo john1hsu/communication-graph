@@ -1235,6 +1235,84 @@
    ]
   },
   {
+   "@id": "cm:clarity",
+   "@type": "cmo:Concept",
+   "cmo:complements": {
+    "@id": "cm:concise-writing"
+   },
+   "cmo:demonstratedBy": {
+    "@id": "cm:titsworth-et-al-2015"
+   },
+   "cmo:domain": "foundations",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:explainedBy": {
+    "@id": "cm:grices-maxims"
+   },
+   "cmo:file": "articles/foundations/clarity.md",
+   "cmo:level": "introductory",
+   "cmo:requires": {
+    "@id": "cm:audience-analysis"
+   },
+   "cmo:studiedIn": {
+    "@id": "cm:pragmatics"
+   },
+   "cmo:supportedBy": {
+    "@id": "cm:oppenheimer-2006"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/clarity/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/clarity/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/clarity/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/clarity/s4"
+    }
+   ],
+   "rdfs:label": "Clarity",
+   "skos:altLabel": [
+    "clear communication",
+    "message clarity",
+    "perspicuity"
+   ],
+   "skos:broader": {
+    "@id": "cm:communication-competence"
+   },
+   "skos:definition": "The quality of a message that lets its intended audience grasp what the sender means, and what (if anything) they are expected to do, quickly, accurately and without having to guess.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/foundations"
+   },
+   "skos:prefLabel": "Clarity",
+   "skos:related": [
+    {
+     "@id": "cm:bottom-line-up-front"
+    },
+    {
+     "@id": "cm:common-ground"
+    },
+    {
+     "@id": "cm:curse-of-knowledge"
+    },
+    {
+     "@id": "cm:egocentric-bias"
+    },
+    {
+     "@id": "cm:illusion-of-transparency"
+    },
+    {
+     "@id": "cm:teach-back"
+    }
+   ]
+  },
+  {
    "@id": "cm:common-ground",
    "@type": "cmo:Theory",
    "cmo:challengedBy": {
@@ -10716,6 +10794,62 @@
    "dcterms:title": "Channel Expansion Theory: A Comprehensive Meta-Analysis, Literature Review, and Examination of Boundary Conditions",
    "schema:url": {
     "@id": "https://scholars.hkbu.edu.hk/en/publications/channel-expansion-theory-a-comprehensive-meta-analysis-literature/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/clarity/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Scott Titsworth and colleagues, Communication Education 64(4), 385-418 (2015), Taylor & Francis",
+   "dcterms:title": "Two Meta-analyses Exploring the Relationship between Teacher Clarity and Student Learning",
+   "schema:url": {
+    "@id": "https://informahealthcare.com/doi/abs/10.1080/03634523.2015.1041998"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/clarity/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Wayne Davis, Stanford Encyclopedia of Philosophy (Winter 2020 edition)",
+   "dcterms:title": "Implicature",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/archives/win2020/entries/implicature/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/clarity/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Purdue Online Writing Lab (Purdue University)",
+   "dcterms:title": "Revising for Clarity",
+   "schema:url": {
+    "@id": "https://owl.purdue.edu/owl/subject_specific_writing/professional_technical_writing/revision_in_business_writing/revising_for_clarity.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/clarity/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "news",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Wiley via EurekAlert! (AAAS), 31 October 2005",
+   "dcterms:title": "Study: Writers who use long words needlessly are seen as less intelligent (press release on Oppenheimer, Applied Cognitive Psychology, doi:10.1002/acp.1178)",
+   "schema:url": {
+    "@id": "https://www.eurekalert.org/news-releases/808085"
    }
   },
   {

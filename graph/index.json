@@ -1420,6 +1420,95 @@
   ]
  },
  {
+  "id": "cm:clarity",
+  "title": "Clarity",
+  "aliases": [
+   "clear communication",
+   "message clarity",
+   "perspicuity"
+  ],
+  "type": "Concept",
+  "domain": "foundations",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/foundations/clarity.md",
+  "created": "2026-11-06",
+  "summary": "The quality of a message that lets its intended audience grasp what the sender means, and what (if anything) they are expected to do, quickly, accurately and without having to guess.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:communication-competence"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:curse-of-knowledge"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:illusion-of-transparency"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:egocentric-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:bottom-line-up-front"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:teach-back"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:common-ground"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:audience-analysis"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:grices-maxims",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:studiedIn",
+    "object": "cm:pragmatics",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:titsworth-et-al-2015",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:oppenheimer-2006",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:concise-writing",
+    "source": "s3",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://informahealthcare.com/doi/abs/10.1080/03634523.2015.1041998",
+   "https://plato.stanford.edu/archives/win2020/entries/implicature/",
+   "https://owl.purdue.edu/owl/subject_specific_writing/professional_technical_writing/revision_in_business_writing/revising_for_clarity.html",
+   "https://www.eurekalert.org/news-releases/808085"
+  ]
+ },
+ {
   "id": "cm:common-ground",
   "title": "Common ground and grounding theory",
   "aliases": [

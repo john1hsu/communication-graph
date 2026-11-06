@@ -114,6 +114,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:camera-level-gaze` | mixed |  |
 | `cm:camera-optional-norm` | mixed | `cm:bennett-et-al-2021` |
 | `cm:channel-selection` | mixed | `cm:dennis-kinney-1998` |
+| `cm:clarity` | mixed |  |
 | `cm:common-ground` | mixed | `cm:keysar-et-al-2000` |
 | `cm:communicating-uncertainty` | mixed |  |
 | `cm:considering-others-contributions-first` | mixed |  |
@@ -130,9 +131,8 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:i-statements` | mixed | `cm:korobov-2020` |
 | `cm:illusion-of-transparency` | mixed |  |
 | `cm:influence-without-authority` | mixed |  |
-| `cm:issue-selling` | mixed |  |
 
-…and 21 more.
+…and 22 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -142,6 +142,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 |---|---|
 | `cm:apology` | cmo:Genre |
 | `cm:camera-level-gaze` | cmo:Technique |
+| `cm:clarity` | cmo:Concept |
 | `cm:considering-others-contributions-first` | cmo:Technique |
 | `cm:credibility` | cmo:Concept |
 | `cm:egocentric-bias` | cmo:Barrier |
