@@ -8,7 +8,6 @@ _Which written barriers or anti-patterns have nothing in the graph that addresse
 
 | node | type |
 |---|---|
-| `cm:filled-pauses` | cmo:AntiPattern |
 | `cm:information-overload` | cmo:Barrier |
 
 ## Skills with no practice technique (gap)
@@ -46,6 +45,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:communicating-uncertainty` | 1 | vague-probability-language |
 | `cm:considering-others-contributions-first` | 1 | Egocentric bias |
 | `cm:feedforward` | 1 | Defensiveness |
+| `cm:habit-reversal-training` | 1 | Filled pauses |
 | `cm:humble-inquiry` | 1 | telling-instead-of-asking |
 | `cm:issue-selling` | 1 | Managing up |
 | `cm:meeting-agendas` | 1 | unnecessary-meetings |
@@ -58,7 +58,8 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:situation-behavior-impact` | 1 | Defensiveness |
 | `cm:stakeholder-mapping` | 1 | ignoring-stakeholders |
 | `cm:teach-back` | 1 | Illusion of transparency |
-| `cm:words-of-estimative-probability` | 1 | vague-probability-language |
+
+…and 1 more.
 
 ## Toolkit by situation
 
@@ -97,7 +98,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:one-on-one-meetings` | `cm:humble-inquiry` |
 | `cm:one-on-one-meetings` | `cm:managing-up` |
 
-…and 20 more.
+…and 21 more.
 
 ## Myths and contested advice
 
@@ -136,7 +137,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:ethnocentrism` | mixed |  |
 | `cm:eye-contact` | mixed | `cm:chen-et-al-2013` |
 
-…and 32 more.
+…and 33 more.
 
 ## Concepts with no recorded origin (gap)
 

@@ -523,6 +523,15 @@
 <https://github.com/john1hsu/communication-graph/id/filled-pauses#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/filled-pauses/s4> .
 <https://github.com/john1hsu/communication-graph/id/filled-pauses#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/filled-pauses/s5> .
 <https://github.com/john1hsu/communication-graph/id/filled-pauses#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/filled-pauses/s6> .
+<https://github.com/john1hsu/communication-graph/id/habit-reversal-training#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/habit-reversal-training#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> .
+<https://github.com/john1hsu/communication-graph/id/habit-reversal-training#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/presenting-and-public-speaking/habit-reversal-training.md" .
+<https://github.com/john1hsu/communication-graph/id/habit-reversal-training#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/habit-reversal-training/s1> .
+<https://github.com/john1hsu/communication-graph/id/habit-reversal-training#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/habit-reversal-training/s2> .
+<https://github.com/john1hsu/communication-graph/id/habit-reversal-training#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/habit-reversal-training/s3> .
+<https://github.com/john1hsu/communication-graph/id/habit-reversal-training#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/habit-reversal-training/s4> .
+<https://github.com/john1hsu/communication-graph/id/habit-reversal-training#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/habit-reversal-training/s5> .
+<https://github.com/john1hsu/communication-graph/id/habit-reversal-training#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/habit-reversal-training/s6> .
 <https://github.com/john1hsu/communication-graph/id/speaking-anxiety#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/speaking-anxiety#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> .
 <https://github.com/john1hsu/communication-graph/id/speaking-anxiety#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/presenting-and-public-speaking/speaking-anxiety.md" .
@@ -6459,6 +6468,120 @@
   <https://github.com/john1hsu/communication-graph/id/source/filled-pauses/s6> <https://schema.org/url> <https://www.isca-archive.org/interspeech_2019/niebuhr19c_interspeech.html> .
 }
 
+<https://github.com/john1hsu/communication-graph/id/habit-reversal-training#graph> {
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Do I know my actual filler rate from a recording, or am I guessing?" .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Can I name the exact sound or word I am trying to replace, and where it usually appears?" .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "When I felt a filler coming in that talk, did I pause silently instead?" .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Have I tested the new habit in front of a real audience, not just alone with a recorder?" .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training/example> <https://github.com/john1hsu/communication-graph/ontology#after> "Revenue was up 8% this quarter. [brief pause] The main driver was renewals." .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training/example> <https://github.com/john1hsu/communication-graph/ontology#before> "Um, so revenue was, uh, up this quarter, um, about 8%, and, uh, the main driver was, um, the renewals." .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "A team lead must present quarterly results to a department of 40 and has noticed she says \"um\" constantly in rehearsals." .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training/example> <https://github.com/john1hsu/communication-graph/ontology#why> "After three 15-minute sessions of spotting her fillers on recordings and practising a silent pause instead, she catches the urge before it becomes a sound, so each sentence starts clean and the number lands first." .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training/howto/1> <https://schema.org/text> "Record two or three short practice talks and count your fillers per minute to get a baseline." .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training/howto/2> <https://schema.org/text> "Write a one-line description of the habit you are targeting, such as \"um\" or \"uh\" at the start of a sentence." .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training/howto/3> <https://schema.org/text> "Replay a recording and mark every filler the moment you hear it, until you catch nearly all of them." .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training/howto/4> <https://schema.org/text> "Practise the competing response - close your mouth and take a brief silent pause - each time you feel a filler coming." .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training/howto/5> <https://schema.org/text> "Give a new practice talk, ideally with a colleague tapping the table when you miss one, and recount your rate." .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training/howto/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training/howto/6> <https://schema.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training/howto/6> <https://schema.org/text> "Repeat a short booster session before high-stakes talks if your rate drifts back up." .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training/howto> <https://schema.org/name> "Habit reversal training" .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/habit-reversal-training/howto/1> .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/habit-reversal-training/howto/2> .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/habit-reversal-training/howto/3> .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/habit-reversal-training/howto/4> .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/habit-reversal-training/howto/5> .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/habit-reversal-training/howto/6> .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> <http://purl.org/dc/terms/created> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Technique> .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> <http://www.w3.org/2000/01/rdf-schema#label> "Habit reversal training" .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> <http://www.w3.org/2004/02/skos/core#altLabel> "HRT" .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> <http://www.w3.org/2004/02/skos/core#altLabel> "awareness and competing-response training" .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> <http://www.w3.org/2004/02/skos/core#altLabel> "habit reversal therapy" .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> <http://www.w3.org/2004/02/skos/core#altLabel> "habit reversal" .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/vocal-delivery> .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> <http://www.w3.org/2004/02/skos/core#definition> "A behavioural method for breaking an unwanted speaking habit, such as \"um\" and \"uh\": learn to notice each occurrence as it happens, then replace it with an incompatible response, usually a brief silent pause. Short versions of it cut filler rates in public speaking studies." .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/presenting-and-public-speaking> .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> <http://www.w3.org/2004/02/skos/core#prefLabel> "Habit reversal training" .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/filled-pauses> .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/silence-and-pauses> .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/habit-reversal-training/s1> .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/habit-reversal-training/s2> .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/habit-reversal-training/s3> .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/habit-reversal-training/s4> .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/habit-reversal-training/s5> .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/habit-reversal-training/s6> .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/filled-pauses> .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/presentation> .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> <https://github.com/john1hsu/communication-graph/ontology#domain> "presenting-and-public-speaking" .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/habit-reversal-training/example> .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/presenting-and-public-speaking/habit-reversal-training.md" .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/habit-reversal-training/howto> .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/nathan-azrin> .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/bate-et-al-2011> .
+  <https://github.com/john1hsu/communication-graph/id/source/habit-reversal-training/s1> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/habit-reversal-training/s1> <http://purl.org/dc/terms/publisher> "Azrin & Nunn, Behaviour Research and Therapy 11(4), 619-628, 1973 (library record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/habit-reversal-training/s1> <http://purl.org/dc/terms/title> "Habit-reversal: A method of eliminating nervous habits and tics" .
+  <https://github.com/john1hsu/communication-graph/id/source/habit-reversal-training/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/habit-reversal-training/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/communication-graph/id/source/habit-reversal-training/s1> <https://schema.org/url> <https://bvbvf1.bib-bvb.de/vufind/PrimoRecord/cdi_proquest_miscellaneous_82172965> .
+  <https://github.com/john1hsu/communication-graph/id/source/habit-reversal-training/s2> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/habit-reversal-training/s2> <http://purl.org/dc/terms/publisher> "Bate, Malouff, Thorsteinsson & Bhullar, Clinical Psychology Review 31(5), 865-871, 2011 (University of New England repository)" .
+  <https://github.com/john1hsu/communication-graph/id/source/habit-reversal-training/s2> <http://purl.org/dc/terms/title> "The efficacy of habit reversal therapy for tics, habit disorders, and stuttering: A meta-analytic review" .
+  <https://github.com/john1hsu/communication-graph/id/source/habit-reversal-training/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/habit-reversal-training/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/habit-reversal-training/s2> <https://schema.org/url> <https://rune.une.edu.au/web/handle/1959.11/9765> .
+  <https://github.com/john1hsu/communication-graph/id/source/habit-reversal-training/s3> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/habit-reversal-training/s3> <http://purl.org/dc/terms/publisher> "Mancuso & Miltenberger, Journal of Applied Behavior Analysis 49(1), 188-192, 2016 (library record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/habit-reversal-training/s3> <http://purl.org/dc/terms/title> "Using habit reversal to decrease filled pauses in public speaking" .
+  <https://github.com/john1hsu/communication-graph/id/source/habit-reversal-training/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/habit-reversal-training/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/habit-reversal-training/s3> <https://schema.org/url> <https://bvbvf1.bib-bvb.de/vufind/PrimoRecord/cdi_proquest_miscellaneous_1771448911> .
+  <https://github.com/john1hsu/communication-graph/id/source/habit-reversal-training/s4> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/habit-reversal-training/s4> <http://purl.org/dc/terms/publisher> "Journal of Applied Behavior Analysis 50(1), 38-47, 2017 (PubMed record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/habit-reversal-training/s4> <http://purl.org/dc/terms/title> "Using awareness training to decrease nervous habits during public speaking" .
+  <https://github.com/john1hsu/communication-graph/id/source/habit-reversal-training/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/habit-reversal-training/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/habit-reversal-training/s4> <https://schema.org/url> <https://pubmed.ncbi.nlm.nih.gov/27766654/> .
+  <https://github.com/john1hsu/communication-graph/id/source/habit-reversal-training/s5> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/habit-reversal-training/s5> <http://purl.org/dc/terms/publisher> "Pawlik & Perrin, Journal of Applied Behavior Analysis 53(2), 1080-1088, 2020 (library record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/habit-reversal-training/s5> <http://purl.org/dc/terms/title> "Reducing speech disfluencies during public speaking using brief habit reversal" .
+  <https://github.com/john1hsu/communication-graph/id/source/habit-reversal-training/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/habit-reversal-training/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/habit-reversal-training/s5> <https://schema.org/url> <https://bvbvf1.bib-bvb.de/vufind/PrimoRecord/cdi_proquest_miscellaneous_2283292841> .
+  <https://github.com/john1hsu/communication-graph/id/source/habit-reversal-training/s6> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/habit-reversal-training/s6> <http://purl.org/dc/terms/publisher> "Ortiz, Deshais, Miltenberger & Reeve, Journal of Applied Behavior Analysis 55(1), 230-248, 2022 (British Library record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/habit-reversal-training/s6> <http://purl.org/dc/terms/title> "Decreasing nervous habits during public speaking: A component analysis of awareness training" .
+  <https://github.com/john1hsu/communication-graph/id/source/habit-reversal-training/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/habit-reversal-training/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/habit-reversal-training/s6> <https://schema.org/url> <https://eld.bl.uk/catalog/100148994070_0x000001> .
+}
+
 <https://github.com/john1hsu/communication-graph/id/speaking-anxiety#graph> {
   <https://github.com/john1hsu/communication-graph/id/source/speaking-anxiety/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
   <https://github.com/john1hsu/communication-graph/id/source/speaking-anxiety/s1> <http://purl.org/dc/terms/publisher> "Ebrahimi, Pallesen, Kenter & Nordgreen, Frontiers in Psychology 10:488, 2019" .
@@ -8546,6 +8669,7 @@
   <https://github.com/john1hsu/communication-graph/id/barley-meyerson-grodal-2011> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/email> .
   <https://github.com/john1hsu/communication-graph/id/barley-meyerson-grodal-2011> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/information-overload> .
   <https://github.com/john1hsu/communication-graph/id/base-rate-neglect> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies> .
+  <https://github.com/john1hsu/communication-graph/id/bate-et-al-2011> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> .
   <https://github.com/john1hsu/communication-graph/id/batna/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/batna/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/batna/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -9103,6 +9227,7 @@
   <https://github.com/john1hsu/communication-graph/id/filled-pauses> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/filled-pauses> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/paralanguage> .
   <https://github.com/john1hsu/communication-graph/id/filled-pauses> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/vocal-delivery> .
+  <https://github.com/john1hsu/communication-graph/id/filled-pauses> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> .
   <https://github.com/john1hsu/communication-graph/id/first-offer/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/first-offer/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/first-offer/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -9188,7 +9313,14 @@
   <https://github.com/john1hsu/communication-graph/id/gunia-et-al-2013> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/first-offer> .
   <https://github.com/john1hsu/communication-graph/id/gustafson-rice-2020> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/communicating-uncertainty> .
   <https://github.com/john1hsu/communication-graph/id/ha-dinh-et-al-2016> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/teach-back> .
-  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/filled-pauses> .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/vocal-delivery> .
   <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996> .
   <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> .
   <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/feedback> .
@@ -9601,6 +9733,9 @@
   <https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/first-offer> .
   <https://github.com/john1hsu/communication-graph/id/mum-effect> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> .
   <https://github.com/john1hsu/communication-graph/id/mythical-fixed-pie> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> .
+  <https://github.com/john1hsu/communication-graph/id/nathan-azrin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/nathan-azrin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+  <https://github.com/john1hsu/communication-graph/id/nathan-azrin> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> .
   <https://github.com/john1hsu/communication-graph/id/negotiation-preparation> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/batna> .
   <https://github.com/john1hsu/communication-graph/id/negotiation-preparation> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> .
   <https://github.com/john1hsu/communication-graph/id/negotiation-preparation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/batna> .
@@ -9771,11 +9906,14 @@
   <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> .
   <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> .
   <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/filled-pauses> .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> .
   <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/self-distancing> .
   <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> .
   <https://github.com/john1hsu/communication-graph/id/presentation-structure> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> .
   <https://github.com/john1hsu/communication-graph/id/presentation> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> .
   <https://github.com/john1hsu/communication-graph/id/presentation> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> .
+  <https://github.com/john1hsu/communication-graph/id/presentation> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> .
   <https://github.com/john1hsu/communication-graph/id/presentation> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/self-distancing> .
   <https://github.com/john1hsu/communication-graph/id/principled-negotiation> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/batna> .
   <https://github.com/john1hsu/communication-graph/id/principled-negotiation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/batna> .
@@ -9970,6 +10108,7 @@
   <https://github.com/john1hsu/communication-graph/id/silence-and-pauses> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/wait-time> .
   <https://github.com/john1hsu/communication-graph/id/silence-and-pauses> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/wait-time> .
   <https://github.com/john1hsu/communication-graph/id/silence-and-pauses> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/filled-pauses> .
+  <https://github.com/john1hsu/communication-graph/id/silence-and-pauses> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> .
   <https://github.com/john1hsu/communication-graph/id/silence-and-pauses> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/filled-pauses> .
   <https://github.com/john1hsu/communication-graph/id/silent-messages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/silent-messages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
@@ -10034,6 +10173,7 @@
   <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/eye-contact> .
   <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/filled-pauses> .
   <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> .
+  <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> .
   <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/thomas-gilovich> .
   <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> .
   <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/self-distancing> .
@@ -10170,7 +10310,9 @@
   <https://github.com/john1hsu/communication-graph/id/video-call-communication> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/proxemics> .
   <https://github.com/john1hsu/communication-graph/id/visible-learning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> .
   <https://github.com/john1hsu/communication-graph/id/vocal-delivery> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/filled-pauses> .
+  <https://github.com/john1hsu/communication-graph/id/vocal-delivery> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> .
   <https://github.com/john1hsu/communication-graph/id/vocal-delivery> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/filled-pauses> .
+  <https://github.com/john1hsu/communication-graph/id/vocal-delivery> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> .
   <https://github.com/john1hsu/communication-graph/id/wait-time/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/wait-time/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/wait-time/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .

@@ -858,6 +858,29 @@ Ask yourself:
 - When I lose my place, can I let two seconds of silence pass instead of filling it?
 - Am I trying to remove every single filler, when a few are normal and cost me little?
 
+### [Habit reversal training](../articles/presenting-and-public-speaking/habit-reversal-training.md) — Technique
+
+1. Record two or three short practice talks and count your fillers per minute to get a baseline.
+2. Write a one-line description of the habit you are targeting, such as "um" or "uh" at the start of a sentence.
+3. Replay a recording and mark every filler the moment you hear it, until you catch nearly all of them.
+4. Practise the competing response - close your mouth and take a brief silent pause - each time you feel a filler coming.
+5. Give a new practice talk, ideally with a colleague tapping the table when you miss one, and recount your rate.
+6. Repeat a short booster session before high-stakes talks if your rate drifts back up.
+
+*A team lead must present quarterly results to a department of 40 and has noticed she says "um" constantly in rehearsals.*
+
+| Before | After |
+|---|---|
+| Um, so revenue was, uh, up this quarter, um, about 8%, and, uh, the main driver was, um, the renewals. | Revenue was up 8% this quarter. [brief pause] The main driver was renewals. |
+
+**Why:** After three 15-minute sessions of spotting her fillers on recordings and practising a silent pause instead, she catches the urge before it becomes a sound, so each sentence starts clean and the number lands first.
+
+Ask yourself:
+- Do I know my actual filler rate from a recording, or am I guessing?
+- Can I name the exact sound or word I am trying to replace, and where it usually appears?
+- When I felt a filler coming in that talk, did I pause silently instead?
+- Have I tested the new habit in front of a real audience, not just alone with a recorder?
+
 ### [Public speaking anxiety](../articles/presenting-and-public-speaking/speaking-anxiety.md) — Barrier
 
 Ask yourself:

@@ -3294,6 +3294,88 @@
    ]
   },
   {
+   "@id": "cm:habit-reversal-training",
+   "@type": "cmo:Technique",
+   "cmo:addresses": {
+    "@id": "cm:filled-pauses"
+   },
+   "cmo:appliedIn": {
+    "@id": "cm:presentation"
+   },
+   "cmo:complements": {
+    "@id": "cm:presentation-rehearsal"
+   },
+   "cmo:domain": "presenting-and-public-speaking",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/habit-reversal-training/example"
+   },
+   "cmo:file": "articles/presenting-and-public-speaking/habit-reversal-training.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/habit-reversal-training/howto"
+   },
+   "cmo:introducedBy": {
+    "@id": "cm:nathan-azrin"
+   },
+   "cmo:level": "intermediate",
+   "cmo:supportedBy": {
+    "@id": "cm:bate-et-al-2011"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/habit-reversal-training/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/habit-reversal-training/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/habit-reversal-training/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/habit-reversal-training/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/habit-reversal-training/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/habit-reversal-training/s6"
+    }
+   ],
+   "rdfs:label": "Habit reversal training",
+   "skos:altLabel": [
+    "HRT",
+    "awareness and competing-response training",
+    "habit reversal therapy",
+    "habit reversal"
+   ],
+   "skos:broader": {
+    "@id": "cm:vocal-delivery"
+   },
+   "skos:definition": "A behavioural method for breaking an unwanted speaking habit, such as \"um\" and \"uh\": learn to notice each occurrence as it happens, then replace it with an incompatible response, usually a brief silent pause. Short versions of it cut filler rates in public speaking studies.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/presenting-and-public-speaking"
+   },
+   "skos:prefLabel": "Habit reversal training",
+   "skos:related": [
+    {
+     "@id": "cm:filled-pauses"
+    },
+    {
+     "@id": "cm:presentation-rehearsal"
+    },
+    {
+     "@id": "cm:silence-and-pauses"
+    },
+    {
+     "@id": "cm:speaking-anxiety"
+    }
+   ]
+  },
+  {
    "@id": "cm:high-and-low-context-cultures",
    "@type": "cmo:Phenomenon",
    "cmo:challengedBy": [
@@ -9231,6 +9313,107 @@
    "rdfs:label": "Is there detail here the reader does not need to act, and detail they need that I left out?"
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/habit-reversal-training/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:habit-reversal-training"
+   },
+   "rdfs:label": "Do I know my actual filler rate from a recording, or am I guessing?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/habit-reversal-training/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:habit-reversal-training"
+   },
+   "rdfs:label": "Can I name the exact sound or word I am trying to replace, and where it usually appears?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/habit-reversal-training/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:habit-reversal-training"
+   },
+   "rdfs:label": "When I felt a filler coming in that talk, did I pause silently instead?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/habit-reversal-training/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:habit-reversal-training"
+   },
+   "rdfs:label": "Have I tested the new habit in front of a real audience, not just alone with a recorder?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/habit-reversal-training/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "Revenue was up 8% this quarter. [brief pause] The main driver was renewals.",
+   "cmo:before": "Um, so revenue was, uh, up this quarter, um, about 8%, and, uh, the main driver was, um, the renewals.",
+   "cmo:situation": "A team lead must present quarterly results to a department of 40 and has noticed she says \"um\" constantly in rehearsals.",
+   "cmo:why": "After three 15-minute sessions of spotting her fillers on recordings and practising a silent pause instead, she catches the urge before it becomes a sound, so each sentence starts clean and the number lands first."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/habit-reversal-training/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Habit reversal training",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/habit-reversal-training/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/habit-reversal-training/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/habit-reversal-training/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/habit-reversal-training/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/habit-reversal-training/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/habit-reversal-training/howto/6"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/habit-reversal-training/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Record two or three short practice talks and count your fillers per minute to get a baseline."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/habit-reversal-training/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Write a one-line description of the habit you are targeting, such as \"um\" or \"uh\" at the start of a sentence."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/habit-reversal-training/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Replay a recording and mark every filler the moment you hear it, until you catch nearly all of them."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/habit-reversal-training/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Practise the competing response - close your mouth and take a brief silent pause - each time you feel a filler coming."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/habit-reversal-training/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Give a new practice talk, ideally with a colleague tapping the table when you miss one, and recount your rate."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/habit-reversal-training/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "Repeat a short booster session before high-stakes talks if your rate drifts back up."
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/humble-inquiry/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -14118,6 +14301,90 @@
    "dcterms:title": "Grice and Universality: a Reappraisal",
    "schema:url": {
     "@id": "https://core.ac.uk/download/357524645.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/habit-reversal-training/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Azrin & Nunn, Behaviour Research and Therapy 11(4), 619-628, 1973 (library record)",
+   "dcterms:title": "Habit-reversal: A method of eliminating nervous habits and tics",
+   "schema:url": {
+    "@id": "https://bvbvf1.bib-bvb.de/vufind/PrimoRecord/cdi_proquest_miscellaneous_82172965"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/habit-reversal-training/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Bate, Malouff, Thorsteinsson & Bhullar, Clinical Psychology Review 31(5), 865-871, 2011 (University of New England repository)",
+   "dcterms:title": "The efficacy of habit reversal therapy for tics, habit disorders, and stuttering: A meta-analytic review",
+   "schema:url": {
+    "@id": "https://rune.une.edu.au/web/handle/1959.11/9765"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/habit-reversal-training/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Mancuso & Miltenberger, Journal of Applied Behavior Analysis 49(1), 188-192, 2016 (library record)",
+   "dcterms:title": "Using habit reversal to decrease filled pauses in public speaking",
+   "schema:url": {
+    "@id": "https://bvbvf1.bib-bvb.de/vufind/PrimoRecord/cdi_proquest_miscellaneous_1771448911"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/habit-reversal-training/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Journal of Applied Behavior Analysis 50(1), 38-47, 2017 (PubMed record)",
+   "dcterms:title": "Using awareness training to decrease nervous habits during public speaking",
+   "schema:url": {
+    "@id": "https://pubmed.ncbi.nlm.nih.gov/27766654/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/habit-reversal-training/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Pawlik & Perrin, Journal of Applied Behavior Analysis 53(2), 1080-1088, 2020 (library record)",
+   "dcterms:title": "Reducing speech disfluencies during public speaking using brief habit reversal",
+   "schema:url": {
+    "@id": "https://bvbvf1.bib-bvb.de/vufind/PrimoRecord/cdi_proquest_miscellaneous_2283292841"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/habit-reversal-training/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Ortiz, Deshais, Miltenberger & Reeve, Journal of Applied Behavior Analysis 55(1), 230-248, 2022 (British Library record)",
+   "dcterms:title": "Decreasing nervous habits during public speaking: A component analysis of awareness training",
+   "schema:url": {
+    "@id": "https://eld.bl.uk/catalog/100148994070_0x000001"
    }
   },
   {

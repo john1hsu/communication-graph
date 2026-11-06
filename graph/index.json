@@ -3739,6 +3739,103 @@
   ]
  },
  {
+  "id": "cm:habit-reversal-training",
+  "title": "Habit reversal training",
+  "aliases": [
+   "habit reversal",
+   "HRT",
+   "habit reversal therapy",
+   "awareness and competing-response training"
+  ],
+  "type": "Technique",
+  "domain": "presenting-and-public-speaking",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/presenting-and-public-speaking/habit-reversal-training.md",
+  "created": "2026-11-06",
+  "summary": "A behavioural method for breaking an unwanted speaking habit, such as \"um\" and \"uh\": learn to notice each occurrence as it happens, then replace it with an incompatible response, usually a brief silent pause. Short versions of it cut filler rates in public speaking studies.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:vocal-delivery"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:filled-pauses"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:presentation-rehearsal"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:silence-and-pauses"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:speaking-anxiety"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:filled-pauses",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:nathan-azrin",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:bate-et-al-2011",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:presentation",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:presentation-rehearsal",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Do I know my actual filler rate from a recording, or am I guessing?",
+   "Can I name the exact sound or word I am trying to replace, and where it usually appears?",
+   "When I felt a filler coming in that talk, did I pause silently instead?",
+   "Have I tested the new habit in front of a real audience, not just alone with a recorder?"
+  ],
+  "steps": [
+   "Record two or three short practice talks and count your fillers per minute to get a baseline.",
+   "Write a one-line description of the habit you are targeting, such as \"um\" or \"uh\" at the start of a sentence.",
+   "Replay a recording and mark every filler the moment you hear it, until you catch nearly all of them.",
+   "Practise the competing response - close your mouth and take a brief silent pause - each time you feel a filler coming.",
+   "Give a new practice talk, ideally with a colleague tapping the table when you miss one, and recount your rate.",
+   "Repeat a short booster session before high-stakes talks if your rate drifts back up."
+  ],
+  "example": {
+   "situation": "A team lead must present quarterly results to a department of 40 and has noticed she says \"um\" constantly in rehearsals.",
+   "before": "Um, so revenue was, uh, up this quarter, um, about 8%, and, uh, the main driver was, um, the renewals.",
+   "after": "Revenue was up 8% this quarter. [brief pause] The main driver was renewals.",
+   "why": "After three 15-minute sessions of spotting her fillers on recordings and practising a silent pause instead, she catches the urge before it becomes a sound, so each sentence starts clean and the number lands first."
+  },
+  "source_urls": [
+   "https://bvbvf1.bib-bvb.de/vufind/PrimoRecord/cdi_proquest_miscellaneous_82172965",
+   "https://rune.une.edu.au/web/handle/1959.11/9765",
+   "https://bvbvf1.bib-bvb.de/vufind/PrimoRecord/cdi_proquest_miscellaneous_1771448911",
+   "https://pubmed.ncbi.nlm.nih.gov/27766654/",
+   "https://bvbvf1.bib-bvb.de/vufind/PrimoRecord/cdi_proquest_miscellaneous_2283292841",
+   "https://eld.bl.uk/catalog/100148994070_0x000001"
+  ]
+ },
+ {
   "id": "cm:high-and-low-context-cultures",
   "title": "High- and low-context cultures",
   "aliases": [
