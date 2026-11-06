@@ -777,6 +777,9 @@
      "@id": "cm:meeting-agendas"
     },
     {
+     "@id": "cm:setting-reply-time-expectations"
+    },
+    {
      "@id": "cm:zoom-fatigue"
     }
    ]
@@ -5396,6 +5399,96 @@
    ]
   },
   {
+   "@id": "cm:setting-reply-time-expectations",
+   "@type": "cmo:Technique",
+   "cmo:addresses": {
+    "@id": "cm:email-urgency-bias"
+   },
+   "cmo:appliedIn": [
+    {
+     "@id": "cm:asynchronous-communication"
+    },
+    {
+     "@id": "cm:email"
+    }
+   ],
+   "cmo:demonstratedBy": {
+    "@id": "cm:email-urgency-bias-study"
+   },
+   "cmo:domain": "digital-and-async-communication",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations/example"
+   },
+   "cmo:explainedBy": {
+    "@id": "cm:egocentric-bias"
+   },
+   "cmo:file": "articles/digital-and-async-communication/setting-reply-time-expectations.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations/howto"
+   },
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/setting-reply-time-expectations/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/setting-reply-time-expectations/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/setting-reply-time-expectations/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/setting-reply-time-expectations/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/setting-reply-time-expectations/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/setting-reply-time-expectations/s6"
+    }
+   ],
+   "rdfs:label": "Setting reply-time expectations",
+   "skos:altLabel": [
+    "no-rush note",
+    "reply-by dates",
+    "response-time expectations",
+    "stating response expectations"
+   ],
+   "skos:broader": {
+    "@id": "cm:team-communication-norms"
+   },
+   "skos:definition": "Telling the recipient of an email or chat message, in the message itself or in an agreed team norm, how soon you actually need a reply - a specific reply-by time for real deadlines, and an explicit \"no rush\" for everything else - so that receivers do not have to guess at urgency.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/digital-and-async-communication"
+   },
+   "skos:prefLabel": "Setting reply-time expectations",
+   "skos:related": [
+    {
+     "@id": "cm:asynchronous-communication"
+    },
+    {
+     "@id": "cm:bottom-line-up-front"
+    },
+    {
+     "@id": "cm:channel-selection"
+    },
+    {
+     "@id": "cm:email"
+    },
+    {
+     "@id": "cm:illusion-of-transparency"
+    },
+    {
+     "@id": "cm:information-overload"
+    }
+   ]
+  },
+  {
    "@id": "cm:situation-behavior-impact",
    "@type": "cmo:Technique",
    "cmo:addresses": {
@@ -9849,6 +9942,107 @@
    "@type": "schema:HowToStep",
    "schema:position": 5,
    "schema:text": "Afterwards, review the moment the same way (\"What did Sam do well? What would Sam change?\") instead of replaying it in the first person."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:setting-reply-time-expectations"
+   },
+   "rdfs:label": "Does this message say when I need a reply, or would the reader have to guess?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:setting-reply-time-expectations"
+   },
+   "rdfs:label": "Am I sending outside the recipient's working hours, and if so have I said it can wait or scheduled it?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:setting-reply-time-expectations"
+   },
+   "rdfs:label": "Is the urgency I am signalling the urgency I actually have?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:setting-reply-time-expectations"
+   },
+   "rdfs:label": "Would my team know our default reply window for this channel without asking?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "Hi Sam - comments on the report below. No need to look at this before Monday; I need the revised version by Wednesday noon for Thursday's client meeting. Enjoy your weekend.",
+   "cmo:before": "Hi Sam - a few comments on the report below. Can you take a look?",
+   "cmo:situation": "A team lead reviewing a draft report on Saturday morning emails comments to an analyst; the comments are needed for a client meeting the following Thursday.",
+   "cmo:why": "The original leaves Sam to guess whether a Saturday email means 'reply today'; the rewrite gives the real deadline and its reason and says the weekend is free, the kind of sender-side note that removed receivers' overestimate of urgency in experiments."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Setting reply-time expectations",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations/howto/6"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Before sending, decide when you truly need an answer - a date and time, or \"no deadline\" - and whether you need a reply at all or the message is for information only."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "For real deadlines, state the reply-by time and the reason in the first lines or the subject line (for example \"[Action by Thu 3pm]\"), not only at the end."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "For anything non-urgent, add one plain sentence saying so, especially when you send outside normal working hours or across time zones."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Reserve urgent labels for messages that genuinely need fast action, and use a phone call or chat ping for true emergencies instead of a late-night email."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "If you work odd hours, schedule-send to the recipient's working hours or add a standing signature line saying you do not expect replies outside them."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "Agree default reply windows for each channel with your team (for example chat same day, email within two working days) and write them in the team charter so individual messages only need to flag exceptions."
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/situation-behavior-impact/check/1",
@@ -14808,6 +15002,90 @@
    "dcterms:title": "Self-Talk and Self-Esteem: Do Non-First Person Parts of Speech Influence Affective Components of the Self-Concept?",
    "schema:url": {
     "@id": "https://escholarship.org/uc/item/8b4624vm"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/setting-reply-time-expectations/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Giurge, L. M. & Bohns, V. K., Organizational Behavior and Human Decision Processes 167, 114-128, 2021 (Cornell eCommons record)",
+   "dcterms:title": "You Don't Need to Answer Right Away! Receivers Overestimate how Quickly Senders Expect Responses to Non-Urgent Work Emails",
+   "schema:url": {
+    "@id": "https://ecommons.cornell.edu/entities/publication/0ace228b-a1d7-42c4-9b4d-ac6b60655062"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/setting-reply-time-expectations/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Giurge, L. M. & Bohns, V. K., London Business School Research Online",
+   "dcterms:title": "You don't need to answer right away! Receivers overestimate how quickly senders expect responses to non-urgent work emails (accepted manuscript)",
+   "schema:url": {
+    "@id": "https://lbsresearch.london.edu/id/eprint/1928/1/The%20email%20response%20bias.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/setting-reply-time-expectations/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Becker, W. J., Belkin, L. Y., Conroy, S. A. & Tuskey, S., Journal of Management, 2019 (Virginia Tech VTechWorks record)",
+   "dcterms:title": "Killing Me Softly: Organizational E-mail Monitoring Expectations' Impact on Employee and Significant Other Well-Being",
+   "schema:url": {
+    "@id": "https://vtechworks.lib.vt.edu/items/4cd5ca58-e780-4d07-90a0-d7cd365a5c6a/full"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/setting-reply-time-expectations/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Cox, A. L., Bird, J., Brumby, D. P., Cecchinato, M. E. & Gould, S. J. J., Human-Computer Interaction 36(5-6), 511-534, 2021 (UCL Discovery accepted manuscript)",
+   "dcterms:title": "Prioritizing unread e-mails: People send urgent responses before important or short ones",
+   "schema:url": {
+    "@id": "https://discovery.ucl.ac.uk/10115257/3/Cox_HCIJnl_Prioritizing%20Unread%20Emails_minors_v4.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/setting-reply-time-expectations/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "University of Bristol, Human Resources (staff wellbeing)",
+   "dcterms:title": "Email Charter",
+   "schema:url": {
+    "@id": "https://bristol.ac.uk/media-library/sites/hr/documents/wellbeing/email-charter.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/setting-reply-time-expectations/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "University of Glasgow, Institute of Health and Wellbeing",
+   "dcterms:title": "Answering emails out of hours: important addition to our email signatures",
+   "schema:url": {
+    "@id": "https://www.gla.ac.uk/schools/healthwellbeing/news/hawkeye2018onwards/july2019/headline_653845_en.html"
    }
   },
   {

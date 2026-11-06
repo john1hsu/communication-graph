@@ -247,6 +247,29 @@ Ask yourself:
 - Am I choosing email or chat because it suits the message, or because it lets me avoid an awkward conversation?
 - After a live discussion, have I put the decision, owners and dates in writing?
 
+### [Setting reply-time expectations](../articles/digital-and-async-communication/setting-reply-time-expectations.md) — Technique
+
+1. Before sending, decide when you truly need an answer - a date and time, or "no deadline" - and whether you need a reply at all or the message is for information only.
+2. For real deadlines, state the reply-by time and the reason in the first lines or the subject line (for example "[Action by Thu 3pm]"), not only at the end.
+3. For anything non-urgent, add one plain sentence saying so, especially when you send outside normal working hours or across time zones.
+4. Reserve urgent labels for messages that genuinely need fast action, and use a phone call or chat ping for true emergencies instead of a late-night email.
+5. If you work odd hours, schedule-send to the recipient's working hours or add a standing signature line saying you do not expect replies outside them.
+6. Agree default reply windows for each channel with your team (for example chat same day, email within two working days) and write them in the team charter so individual messages only need to flag exceptions.
+
+*A team lead reviewing a draft report on Saturday morning emails comments to an analyst; the comments are needed for a client meeting the following Thursday.*
+
+| Before | After |
+|---|---|
+| Hi Sam - a few comments on the report below. Can you take a look? | Hi Sam - comments on the report below. No need to look at this before Monday; I need the revised version by Wednesday noon for Thursday's client meeting. Enjoy your weekend. |
+
+**Why:** The original leaves Sam to guess whether a Saturday email means 'reply today'; the rewrite gives the real deadline and its reason and says the weekend is free, the kind of sender-side note that removed receivers' overestimate of urgency in experiments.
+
+Ask yourself:
+- Does this message say when I need a reply, or would the reader have to guess?
+- Am I sending outside the recipient's working hours, and if so have I said it can wait or scheduled it?
+- Is the urgency I am signalling the urgency I actually have?
+- Would my team know our default reply window for this channel without asking?
+
 ### [Zoom fatigue](../articles/digital-and-async-communication/zoom-fatigue.md) — Barrier
 
 Ask yourself:

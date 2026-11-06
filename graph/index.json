@@ -839,6 +839,10 @@
     "object": "cm:information-overload"
    },
    {
+    "predicate": "skos:related",
+    "object": "cm:setting-reply-time-expectations"
+   },
+   {
     "predicate": "cmo:explainedBy",
     "object": "cm:media-synchronicity-theory",
     "source": "s1",
@@ -6152,6 +6156,111 @@
    "https://cris.maastrichtuniversity.nl/en/publications/does-distanced-self-talk-facilitate-emotion-regulation-across-a-r",
    "https://pubmed.ncbi.nlm.nih.gov/35568270/",
    "https://escholarship.org/uc/item/8b4624vm"
+  ]
+ },
+ {
+  "id": "cm:setting-reply-time-expectations",
+  "title": "Setting reply-time expectations",
+  "aliases": [
+   "stating response expectations",
+   "reply-by dates",
+   "no-rush note",
+   "response-time expectations"
+  ],
+  "type": "Technique",
+  "domain": "digital-and-async-communication",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/digital-and-async-communication/setting-reply-time-expectations.md",
+  "created": "2026-11-06",
+  "summary": "Telling the recipient of an email or chat message, in the message itself or in an agreed team norm, how soon you actually need a reply - a specific reply-by time for real deadlines, and an explicit \"no rush\" for everything else - so that receivers do not have to guess at urgency.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:team-communication-norms"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:asynchronous-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:email"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:bottom-line-up-front"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:illusion-of-transparency"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:information-overload"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:channel-selection"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:email-urgency-bias",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:asynchronous-communication",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:email",
+    "source": "s5",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:email-urgency-bias-study",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:egocentric-bias",
+    "source": "s1",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Does this message say when I need a reply, or would the reader have to guess?",
+   "Am I sending outside the recipient's working hours, and if so have I said it can wait or scheduled it?",
+   "Is the urgency I am signalling the urgency I actually have?",
+   "Would my team know our default reply window for this channel without asking?"
+  ],
+  "steps": [
+   "Before sending, decide when you truly need an answer - a date and time, or \"no deadline\" - and whether you need a reply at all or the message is for information only.",
+   "For real deadlines, state the reply-by time and the reason in the first lines or the subject line (for example \"[Action by Thu 3pm]\"), not only at the end.",
+   "For anything non-urgent, add one plain sentence saying so, especially when you send outside normal working hours or across time zones.",
+   "Reserve urgent labels for messages that genuinely need fast action, and use a phone call or chat ping for true emergencies instead of a late-night email.",
+   "If you work odd hours, schedule-send to the recipient's working hours or add a standing signature line saying you do not expect replies outside them.",
+   "Agree default reply windows for each channel with your team (for example chat same day, email within two working days) and write them in the team charter so individual messages only need to flag exceptions."
+  ],
+  "example": {
+   "situation": "A team lead reviewing a draft report on Saturday morning emails comments to an analyst; the comments are needed for a client meeting the following Thursday.",
+   "before": "Hi Sam - a few comments on the report below. Can you take a look?",
+   "after": "Hi Sam - comments on the report below. No need to look at this before Monday; I need the revised version by Wednesday noon for Thursday's client meeting. Enjoy your weekend.",
+   "why": "The original leaves Sam to guess whether a Saturday email means 'reply today'; the rewrite gives the real deadline and its reason and says the weekend is free, the kind of sender-side note that removed receivers' overestimate of urgency in experiments."
+  },
+  "source_urls": [
+   "https://ecommons.cornell.edu/entities/publication/0ace228b-a1d7-42c4-9b4d-ac6b60655062",
+   "https://lbsresearch.london.edu/id/eprint/1928/1/The%20email%20response%20bias.pdf",
+   "https://vtechworks.lib.vt.edu/items/4cd5ca58-e780-4d07-90a0-d7cd365a5c6a/full",
+   "https://discovery.ucl.ac.uk/10115257/3/Cox_HCIJnl_Prioritizing%20Unread%20Emails_minors_v4.pdf",
+   "https://bristol.ac.uk/media-library/sites/hr/documents/wellbeing/email-charter.pdf",
+   "https://www.gla.ac.uk/schools/healthwellbeing/news/hawkeye2018onwards/july2019/headline_653845_en.html"
   ]
  },
  {

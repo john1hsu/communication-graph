@@ -18,9 +18,7 @@ _No results._
 
 _Which written contexts, channels or genres have no technique, framework or principle applied in them or structuring them?_ — `queries/03-situations-without-guidance.rq`
 
-| node | type |
-|---|---|
-| `cm:asynchronous-communication` | cmo:Channel |
+_No results._
 
 ## Highest-leverage techniques
 
@@ -51,6 +49,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:multiple-equivalent-simultaneous-offers` | 1 | negotiator-dilemma |
 | `cm:paraphrasing` | 1 | Active listening |
 | `cm:reciprocal-self-disclosure` | 1 | Small talk at work |
+| `cm:setting-reply-time-expectations` | 1 | email-urgency-bias |
 | `cm:situation-behavior-impact` | 1 | Defensiveness |
 | `cm:stakeholder-mapping` | 1 | ignoring-stakeholders |
 | `cm:teach-back` | 1 | Illusion of transparency |
@@ -63,6 +62,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | situation | technique |
 |---|---|
 | `cm:apology` | `cm:social-accounts` |
+| `cm:asynchronous-communication` | `cm:setting-reply-time-expectations` |
 | `cm:communication-plan` | `cm:stakeholder-mapping` |
 | `cm:crisis-communication` | `cm:communicating-uncertainty` |
 | `cm:cross-functional-collaboration` | `cm:influence-without-authority` |
@@ -74,6 +74,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:email` | `cm:bottom-line-up-front` |
 | `cm:email` | `cm:channel-selection` |
 | `cm:email` | `cm:rapport` |
+| `cm:email` | `cm:setting-reply-time-expectations` |
 | `cm:executive-briefing` | `cm:issue-selling` |
 | `cm:executive-briefing` | `cm:words-of-estimative-probability` |
 | `cm:face-to-face-conversation` | `cm:eye-contact` |
@@ -90,10 +91,8 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:patient-education` | `cm:teach-back` |
 | `cm:performance-review` | `cm:feedforward` |
 | `cm:performance-review` | `cm:kluger-denisi-1996` |
-| `cm:performance-review` | `cm:situation-behavior-impact` |
-| `cm:plain-language-summary` | `cm:plain-language` |
 
-…and 13 more.
+…and 15 more.
 
 ## Myths and contested advice
 
@@ -132,7 +131,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:i-statements` | mixed | `cm:korobov-2020` |
 | `cm:illusion-of-transparency` | mixed |  |
 
-…and 25 more.
+…and 26 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -155,6 +154,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:rapport` | cmo:Concept |
 | `cm:reciprocal-self-disclosure` | cmo:Technique |
 | `cm:self-distancing` | cmo:Technique |
+| `cm:setting-reply-time-expectations` | cmo:Technique |
 | `cm:small-talk` | cmo:Skill |
 | `cm:social-accounts` | cmo:Technique |
 | `cm:speaking-anxiety` | cmo:Barrier |
