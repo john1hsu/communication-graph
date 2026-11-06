@@ -457,6 +457,29 @@ Ask yourself:
 - Did I end with a genuine check ("Have I got that right?") and accept a correction without defending myself?
 - Did I hold back my own view until they agreed I had understood them?
 
+### [Wait time](../articles/listening/wait-time.md) — Technique
+
+1. Ask one question, then stop talking - do not rephrase it, add a second question or offer a sample answer.
+2. Count silently to at least three (longer for a hard or open question, or when a group is involved) before saying anything else.
+3. If the silence runs on, re-invite rather than rescue - "Take a moment; I'd rather hear a considered answer" - and keep waiting.
+4. When the person finishes answering, pause again for a few seconds before you reply, so they can add the second thought that often matters most.
+5. In a meeting, say up front that you will wait before taking answers, so the first fast voice does not set the direction.
+6. When you are asked a hard question, give yourself the same pause - say you want a moment to think - instead of filling the gap with the first answer that comes to mind.
+
+*A product manager runs a project retrospective with six engineers and wants to hear what really slowed the release.*
+
+| Before | After |
+|---|---|
+| So, what slowed us down? ... Was it the test environment? Or maybe the late spec changes? OK, Priya, the environment, right? Great - next item. | What slowed us down most on this release? I'll give everyone a few seconds to think before we start. [silent count to five] ... [after Priya answers, another three-second pause] ... Anything else behind that? |
+
+**Why:** In the first version the manager fills the silence with guesses and accepts the first answer, so the group responds to his options; the pauses in the second version give quieter people time to form a view and give the first speaker room to add the underlying cause.
+
+Ask yourself:
+- After my last question, did I actually stay silent for at least three seconds, or did I rephrase, add options or answer it myself?
+- When someone finished speaking, did I pause before replying, or did I jump straight to my next point?
+- Did the answers I got come mostly from the fastest speakers, and would more think time have widened who spoke?
+- When I was asked something difficult, did I take a moment to think, or did I answer to escape the silence?
+
 ## meetings-and-facilitation
 
 ### [Meeting agendas](../articles/meetings-and-facilitation/meeting-agendas.md) — Technique

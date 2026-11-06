@@ -5979,6 +5979,101 @@
    ]
   },
   {
+   "@id": "cm:wait-time",
+   "@type": "cmo:Technique",
+   "cmo:appliedIn": {
+    "@id": "cm:salary-negotiation"
+   },
+   "cmo:domain": "listening",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/wait-time/example"
+   },
+   "cmo:explainedBy": {
+    "@id": "cm:conversational-turn-taking"
+   },
+   "cmo:file": "articles/listening/wait-time.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/wait-time/howto"
+   },
+   "cmo:introducedBy": {
+    "@id": "cm:mary-budd-rowe"
+   },
+   "cmo:level": "introductory",
+   "cmo:supportedBy": [
+    {
+     "@id": "cm:curhan-et-al-2022"
+    },
+    {
+     "@id": "cm:tobin-1987"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/wait-time/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/wait-time/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/wait-time/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/wait-time/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/wait-time/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/wait-time/s6"
+    }
+   ],
+   "rdfs:label": "Wait time",
+   "skos:altLabel": [
+    "deliberate pause before responding",
+    "pausing after a question",
+    "think time",
+    "wait time 1 and wait time 2"
+   ],
+   "skos:broader": [
+    {
+     "@id": "cm:questioning"
+    },
+    {
+     "@id": "cm:silence-and-pauses"
+    }
+   ],
+   "skos:definition": "Deliberately leaving a pause of a few seconds after you ask a question (wait time 1) and again after the other person finishes answering (wait time 2), so people have time to think and to add to what they said, instead of the conversation snapping to the fastest or loudest reply.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/listening"
+   },
+   "skos:prefLabel": "Wait time",
+   "skos:related": [
+    {
+     "@id": "cm:active-listening"
+    },
+    {
+     "@id": "cm:integrative-negotiation"
+    },
+    {
+     "@id": "cm:meeting-agendas"
+    },
+    {
+     "@id": "cm:open-ended-questions"
+    },
+    {
+     "@id": "cm:paraphrasing"
+    },
+    {
+     "@id": "cm:psychological-safety"
+    }
+   ]
+  },
+  {
    "@id": "cm:weger-et-al-2014",
    "@type": "cmo:Study",
    "cmo:contrastsWith": {
@@ -14983,6 +15078,90 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/wait-time/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Mary Budd Rowe, Journal of Teacher Education 37(1), 43-50 (1986), doi:10.1177/002248718603700110 (Scilit record)",
+   "dcterms:title": "Wait Time: Slowing Down May Be a Way of Speeding Up!",
+   "schema:url": {
+    "@id": "https://scilit.com/publications/5ad93e98281f013a3186d6b77336d32b"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/wait-time/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Kenneth Tobin, Review of Educational Research 57(1), 69-95 (1987), SAGE",
+   "dcterms:title": "The Role of Wait Time in Higher Cognitive Level Learning",
+   "schema:url": {
+    "@id": "https://journals.sagepub.com/doi/10.3102/00346543057001069"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/wait-time/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Curhan, Overbeck, Cho, Zhang & Yang, Journal of Applied Psychology 107(1) (2022), doi:10.1037/apl0000877 (DSpace@MIT record)",
+   "dcterms:title": "Silence Is Golden: Extended Silence, Deliberative Mindset, and Value Creation in Negotiation",
+   "schema:url": {
+    "@id": "https://dspace.mit.edu/handle/1721.1/144112"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/wait-time/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Dylan Walsh, MIT Sloan School of Management, Ideas Made to Matter (27 April 2021)",
+   "dcterms:title": "In negotiation, use silence to improve outcomes for all",
+   "schema:url": {
+    "@id": "https://mitsloan.mit.edu/ideas-made-to-matter/negotiation-use-silence-to-improve-outcomes-all"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/wait-time/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Stivers, Enfield, Brown et al., Proceedings of the National Academy of Sciences 106(26), 10587-10592 (2009), doi:10.1073/pnas.0903616106 (PMC copy)",
+   "dcterms:title": "Universals and cultural variation in turn-taking in conversation",
+   "schema:url": {
+    "@id": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2705608"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/wait-time/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "University of Nebraska-Lincoln, Center for Transformative Teaching",
+   "dcterms:title": "Wait Time (Active Learning Strategies for Interactive Lecture)",
+   "schema:url": {
+    "@id": "https://teaching.unl.edu/resources/interactive-lecture/wait-time"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/source/weger-et-al-2014/s1",
    "@type": "cmo:Source",
    "cmo:sourceType": "primary",
@@ -15591,6 +15770,107 @@
    "@type": "schema:HowToStep",
    "schema:position": 6,
    "schema:text": "Close by confirming the agreed version in writing where it matters (a recap message or ticket)."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/wait-time/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:wait-time"
+   },
+   "rdfs:label": "After my last question, did I actually stay silent for at least three seconds, or did I rephrase, add options or answer it myself?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/wait-time/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:wait-time"
+   },
+   "rdfs:label": "When someone finished speaking, did I pause before replying, or did I jump straight to my next point?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/wait-time/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:wait-time"
+   },
+   "rdfs:label": "Did the answers I got come mostly from the fastest speakers, and would more think time have widened who spoke?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/wait-time/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:wait-time"
+   },
+   "rdfs:label": "When I was asked something difficult, did I take a moment to think, or did I answer to escape the silence?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/wait-time/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "What slowed us down most on this release? I'll give everyone a few seconds to think before we start. [silent count to five] ... [after Priya answers, another three-second pause] ... Anything else behind that?",
+   "cmo:before": "So, what slowed us down? ... Was it the test environment? Or maybe the late spec changes? OK, Priya, the environment, right? Great - next item.",
+   "cmo:situation": "A product manager runs a project retrospective with six engineers and wants to hear what really slowed the release.",
+   "cmo:why": "In the first version the manager fills the silence with guesses and accepts the first answer, so the group responds to his options; the pauses in the second version give quieter people time to form a view and give the first speaker room to add the underlying cause."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/wait-time/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Wait time",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/wait-time/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/wait-time/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/wait-time/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/wait-time/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/wait-time/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/wait-time/howto/6"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/wait-time/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Ask one question, then stop talking - do not rephrase it, add a second question or offer a sample answer."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/wait-time/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Count silently to at least three (longer for a hard or open question, or when a group is involved) before saying anything else."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/wait-time/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "If the silence runs on, re-invite rather than rescue - \"Take a moment; I'd rather hear a considered answer\" - and keep waiting."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/wait-time/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "When the person finishes answering, pause again for a few seconds before you reply, so they can add the second thought that often matters most."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/wait-time/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "In a meeting, say up front that you will wait before taking answers, so the first fast voice does not set the direction."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/wait-time/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "When you are asked a hard question, give yourself the same pause - say you want a moment to think - instead of filling the gap with the first answer that comes to mind."
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability/check/1",

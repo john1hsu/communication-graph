@@ -6829,6 +6829,115 @@
   ]
  },
  {
+  "id": "cm:wait-time",
+  "title": "Wait time",
+  "aliases": [
+   "think time",
+   "wait time 1 and wait time 2",
+   "pausing after a question",
+   "deliberate pause before responding"
+  ],
+  "type": "Technique",
+  "domain": "listening",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/listening/wait-time.md",
+  "created": "2026-11-06",
+  "summary": "Deliberately leaving a pause of a few seconds after you ask a question (wait time 1) and again after the other person finishes answering (wait time 2), so people have time to think and to add to what they said, instead of the conversation snapping to the fastest or loudest reply.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:questioning"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "cm:silence-and-pauses"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:open-ended-questions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:active-listening"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:paraphrasing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:psychological-safety"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:meeting-agendas"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:integrative-negotiation"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:mary-budd-rowe",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:tobin-1987",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:curhan-et-al-2022",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:salary-negotiation",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:conversational-turn-taking",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "After my last question, did I actually stay silent for at least three seconds, or did I rephrase, add options or answer it myself?",
+   "When someone finished speaking, did I pause before replying, or did I jump straight to my next point?",
+   "Did the answers I got come mostly from the fastest speakers, and would more think time have widened who spoke?",
+   "When I was asked something difficult, did I take a moment to think, or did I answer to escape the silence?"
+  ],
+  "steps": [
+   "Ask one question, then stop talking - do not rephrase it, add a second question or offer a sample answer.",
+   "Count silently to at least three (longer for a hard or open question, or when a group is involved) before saying anything else.",
+   "If the silence runs on, re-invite rather than rescue - \"Take a moment; I'd rather hear a considered answer\" - and keep waiting.",
+   "When the person finishes answering, pause again for a few seconds before you reply, so they can add the second thought that often matters most.",
+   "In a meeting, say up front that you will wait before taking answers, so the first fast voice does not set the direction.",
+   "When you are asked a hard question, give yourself the same pause - say you want a moment to think - instead of filling the gap with the first answer that comes to mind."
+  ],
+  "example": {
+   "situation": "A product manager runs a project retrospective with six engineers and wants to hear what really slowed the release.",
+   "before": "So, what slowed us down? ... Was it the test environment? Or maybe the late spec changes? OK, Priya, the environment, right? Great - next item.",
+   "after": "What slowed us down most on this release? I'll give everyone a few seconds to think before we start. [silent count to five] ... [after Priya answers, another three-second pause] ... Anything else behind that?",
+   "why": "In the first version the manager fills the silence with guesses and accepts the first answer, so the group responds to his options; the pauses in the second version give quieter people time to form a view and give the first speaker room to add the underlying cause."
+  },
+  "source_urls": [
+   "https://scilit.com/publications/5ad93e98281f013a3186d6b77336d32b",
+   "https://journals.sagepub.com/doi/10.3102/00346543057001069",
+   "https://dspace.mit.edu/handle/1721.1/144112",
+   "https://mitsloan.mit.edu/ideas-made-to-matter/negotiation-use-silence-to-improve-outcomes-all",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC2705608",
+   "https://teaching.unl.edu/resources/interactive-lecture/wait-time"
+  ]
+ },
+ {
   "id": "cm:weger-et-al-2014",
   "title": "The Relative Effectiveness of Active Listening in Initial Interactions",
   "aliases": [

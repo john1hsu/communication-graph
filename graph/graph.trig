@@ -301,6 +301,15 @@
 <https://github.com/john1hsu/communication-graph/id/paraphrasing#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/paraphrasing/s3> .
 <https://github.com/john1hsu/communication-graph/id/paraphrasing#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/paraphrasing/s4> .
 <https://github.com/john1hsu/communication-graph/id/paraphrasing#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/paraphrasing/s5> .
+<https://github.com/john1hsu/communication-graph/id/wait-time#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/wait-time#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/wait-time> .
+<https://github.com/john1hsu/communication-graph/id/wait-time#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/listening/wait-time.md" .
+<https://github.com/john1hsu/communication-graph/id/wait-time#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/wait-time/s1> .
+<https://github.com/john1hsu/communication-graph/id/wait-time#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/wait-time/s2> .
+<https://github.com/john1hsu/communication-graph/id/wait-time#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/wait-time/s3> .
+<https://github.com/john1hsu/communication-graph/id/wait-time#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/wait-time/s4> .
+<https://github.com/john1hsu/communication-graph/id/wait-time#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/wait-time/s5> .
+<https://github.com/john1hsu/communication-graph/id/wait-time#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/wait-time/s6> .
 <https://github.com/john1hsu/communication-graph/id/meeting-agendas#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/meeting-agendas#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/meeting-agendas> .
 <https://github.com/john1hsu/communication-graph/id/meeting-agendas#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/meetings-and-facilitation/meeting-agendas.md" .
@@ -3835,6 +3844,123 @@
   <https://github.com/john1hsu/communication-graph/id/source/paraphrasing/s5> <https://schema.org/url> <https://cris.huji.ac.il/en/publications/a-meta-analytic-systematic-review-and-theory-of-the-effects-of-pe/> .
 }
 
+<https://github.com/john1hsu/communication-graph/id/wait-time#graph> {
+  <https://github.com/john1hsu/communication-graph/id/source/wait-time/s1> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/wait-time/s1> <http://purl.org/dc/terms/publisher> "Mary Budd Rowe, Journal of Teacher Education 37(1), 43-50 (1986), doi:10.1177/002248718603700110 (Scilit record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/wait-time/s1> <http://purl.org/dc/terms/title> "Wait Time: Slowing Down May Be a Way of Speeding Up!" .
+  <https://github.com/john1hsu/communication-graph/id/source/wait-time/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/wait-time/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/wait-time/s1> <https://schema.org/url> <https://scilit.com/publications/5ad93e98281f013a3186d6b77336d32b> .
+  <https://github.com/john1hsu/communication-graph/id/source/wait-time/s2> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/wait-time/s2> <http://purl.org/dc/terms/publisher> "Kenneth Tobin, Review of Educational Research 57(1), 69-95 (1987), SAGE" .
+  <https://github.com/john1hsu/communication-graph/id/source/wait-time/s2> <http://purl.org/dc/terms/title> "The Role of Wait Time in Higher Cognitive Level Learning" .
+  <https://github.com/john1hsu/communication-graph/id/source/wait-time/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/wait-time/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/wait-time/s2> <https://schema.org/url> <https://journals.sagepub.com/doi/10.3102/00346543057001069> .
+  <https://github.com/john1hsu/communication-graph/id/source/wait-time/s3> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/wait-time/s3> <http://purl.org/dc/terms/publisher> "Curhan, Overbeck, Cho, Zhang & Yang, Journal of Applied Psychology 107(1) (2022), doi:10.1037/apl0000877 (DSpace@MIT record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/wait-time/s3> <http://purl.org/dc/terms/title> "Silence Is Golden: Extended Silence, Deliberative Mindset, and Value Creation in Negotiation" .
+  <https://github.com/john1hsu/communication-graph/id/source/wait-time/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/wait-time/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/wait-time/s3> <https://schema.org/url> <https://dspace.mit.edu/handle/1721.1/144112> .
+  <https://github.com/john1hsu/communication-graph/id/source/wait-time/s4> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/wait-time/s4> <http://purl.org/dc/terms/publisher> "Dylan Walsh, MIT Sloan School of Management, Ideas Made to Matter (27 April 2021)" .
+  <https://github.com/john1hsu/communication-graph/id/source/wait-time/s4> <http://purl.org/dc/terms/title> "In negotiation, use silence to improve outcomes for all" .
+  <https://github.com/john1hsu/communication-graph/id/source/wait-time/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/wait-time/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/communication-graph/id/source/wait-time/s4> <https://schema.org/url> <https://mitsloan.mit.edu/ideas-made-to-matter/negotiation-use-silence-to-improve-outcomes-all> .
+  <https://github.com/john1hsu/communication-graph/id/source/wait-time/s5> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/wait-time/s5> <http://purl.org/dc/terms/publisher> "Stivers, Enfield, Brown et al., Proceedings of the National Academy of Sciences 106(26), 10587-10592 (2009), doi:10.1073/pnas.0903616106 (PMC copy)" .
+  <https://github.com/john1hsu/communication-graph/id/source/wait-time/s5> <http://purl.org/dc/terms/title> "Universals and cultural variation in turn-taking in conversation" .
+  <https://github.com/john1hsu/communication-graph/id/source/wait-time/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/wait-time/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/wait-time/s5> <https://schema.org/url> <https://pmc.ncbi.nlm.nih.gov/articles/PMC2705608> .
+  <https://github.com/john1hsu/communication-graph/id/source/wait-time/s6> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/wait-time/s6> <http://purl.org/dc/terms/publisher> "University of Nebraska-Lincoln, Center for Transformative Teaching" .
+  <https://github.com/john1hsu/communication-graph/id/source/wait-time/s6> <http://purl.org/dc/terms/title> "Wait Time (Active Learning Strategies for Interactive Lecture)" .
+  <https://github.com/john1hsu/communication-graph/id/source/wait-time/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/wait-time/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/communication-graph/id/source/wait-time/s6> <https://schema.org/url> <https://teaching.unl.edu/resources/interactive-lecture/wait-time> .
+  <https://github.com/john1hsu/communication-graph/id/wait-time/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/wait-time/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "After my last question, did I actually stay silent for at least three seconds, or did I rephrase, add options or answer it myself?" .
+  <https://github.com/john1hsu/communication-graph/id/wait-time/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/wait-time> .
+  <https://github.com/john1hsu/communication-graph/id/wait-time/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/wait-time/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "When someone finished speaking, did I pause before replying, or did I jump straight to my next point?" .
+  <https://github.com/john1hsu/communication-graph/id/wait-time/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/wait-time> .
+  <https://github.com/john1hsu/communication-graph/id/wait-time/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/wait-time/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Did the answers I got come mostly from the fastest speakers, and would more think time have widened who spoke?" .
+  <https://github.com/john1hsu/communication-graph/id/wait-time/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/wait-time> .
+  <https://github.com/john1hsu/communication-graph/id/wait-time/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/wait-time/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "When I was asked something difficult, did I take a moment to think, or did I answer to escape the silence?" .
+  <https://github.com/john1hsu/communication-graph/id/wait-time/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/wait-time> .
+  <https://github.com/john1hsu/communication-graph/id/wait-time/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+  <https://github.com/john1hsu/communication-graph/id/wait-time/example> <https://github.com/john1hsu/communication-graph/ontology#after> "What slowed us down most on this release? I'll give everyone a few seconds to think before we start. [silent count to five] ... [after Priya answers, another three-second pause] ... Anything else behind that?" .
+  <https://github.com/john1hsu/communication-graph/id/wait-time/example> <https://github.com/john1hsu/communication-graph/ontology#before> "So, what slowed us down? ... Was it the test environment? Or maybe the late spec changes? OK, Priya, the environment, right? Great - next item." .
+  <https://github.com/john1hsu/communication-graph/id/wait-time/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "A product manager runs a project retrospective with six engineers and wants to hear what really slowed the release." .
+  <https://github.com/john1hsu/communication-graph/id/wait-time/example> <https://github.com/john1hsu/communication-graph/ontology#why> "In the first version the manager fills the silence with guesses and accepts the first answer, so the group responds to his options; the pauses in the second version give quieter people time to form a view and give the first speaker room to add the underlying cause." .
+  <https://github.com/john1hsu/communication-graph/id/wait-time/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/wait-time/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/wait-time/howto/1> <https://schema.org/text> "Ask one question, then stop talking - do not rephrase it, add a second question or offer a sample answer." .
+  <https://github.com/john1hsu/communication-graph/id/wait-time/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/wait-time/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/wait-time/howto/2> <https://schema.org/text> "Count silently to at least three (longer for a hard or open question, or when a group is involved) before saying anything else." .
+  <https://github.com/john1hsu/communication-graph/id/wait-time/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/wait-time/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/wait-time/howto/3> <https://schema.org/text> "If the silence runs on, re-invite rather than rescue - \"Take a moment; I'd rather hear a considered answer\" - and keep waiting." .
+  <https://github.com/john1hsu/communication-graph/id/wait-time/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/wait-time/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/wait-time/howto/4> <https://schema.org/text> "When the person finishes answering, pause again for a few seconds before you reply, so they can add the second thought that often matters most." .
+  <https://github.com/john1hsu/communication-graph/id/wait-time/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/wait-time/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/wait-time/howto/5> <https://schema.org/text> "In a meeting, say up front that you will wait before taking answers, so the first fast voice does not set the direction." .
+  <https://github.com/john1hsu/communication-graph/id/wait-time/howto/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/wait-time/howto/6> <https://schema.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/wait-time/howto/6> <https://schema.org/text> "When you are asked a hard question, give yourself the same pause - say you want a moment to think - instead of filling the gap with the first answer that comes to mind." .
+  <https://github.com/john1hsu/communication-graph/id/wait-time/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+  <https://github.com/john1hsu/communication-graph/id/wait-time/howto> <https://schema.org/name> "Wait time" .
+  <https://github.com/john1hsu/communication-graph/id/wait-time/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/wait-time/howto/1> .
+  <https://github.com/john1hsu/communication-graph/id/wait-time/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/wait-time/howto/2> .
+  <https://github.com/john1hsu/communication-graph/id/wait-time/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/wait-time/howto/3> .
+  <https://github.com/john1hsu/communication-graph/id/wait-time/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/wait-time/howto/4> .
+  <https://github.com/john1hsu/communication-graph/id/wait-time/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/wait-time/howto/5> .
+  <https://github.com/john1hsu/communication-graph/id/wait-time/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/wait-time/howto/6> .
+  <https://github.com/john1hsu/communication-graph/id/wait-time> <http://purl.org/dc/terms/created> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/wait-time> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Technique> .
+  <https://github.com/john1hsu/communication-graph/id/wait-time> <http://www.w3.org/2000/01/rdf-schema#label> "Wait time" .
+  <https://github.com/john1hsu/communication-graph/id/wait-time> <http://www.w3.org/2004/02/skos/core#altLabel> "deliberate pause before responding" .
+  <https://github.com/john1hsu/communication-graph/id/wait-time> <http://www.w3.org/2004/02/skos/core#altLabel> "pausing after a question" .
+  <https://github.com/john1hsu/communication-graph/id/wait-time> <http://www.w3.org/2004/02/skos/core#altLabel> "think time" .
+  <https://github.com/john1hsu/communication-graph/id/wait-time> <http://www.w3.org/2004/02/skos/core#altLabel> "wait time 1 and wait time 2" .
+  <https://github.com/john1hsu/communication-graph/id/wait-time> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/questioning> .
+  <https://github.com/john1hsu/communication-graph/id/wait-time> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/silence-and-pauses> .
+  <https://github.com/john1hsu/communication-graph/id/wait-time> <http://www.w3.org/2004/02/skos/core#definition> "Deliberately leaving a pause of a few seconds after you ask a question (wait time 1) and again after the other person finishes answering (wait time 2), so people have time to think and to add to what they said, instead of the conversation snapping to the fastest or loudest reply." .
+  <https://github.com/john1hsu/communication-graph/id/wait-time> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/listening> .
+  <https://github.com/john1hsu/communication-graph/id/wait-time> <http://www.w3.org/2004/02/skos/core#prefLabel> "Wait time" .
+  <https://github.com/john1hsu/communication-graph/id/wait-time> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+  <https://github.com/john1hsu/communication-graph/id/wait-time> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/integrative-negotiation> .
+  <https://github.com/john1hsu/communication-graph/id/wait-time> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/meeting-agendas> .
+  <https://github.com/john1hsu/communication-graph/id/wait-time> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/open-ended-questions> .
+  <https://github.com/john1hsu/communication-graph/id/wait-time> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/paraphrasing> .
+  <https://github.com/john1hsu/communication-graph/id/wait-time> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
+  <https://github.com/john1hsu/communication-graph/id/wait-time> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/wait-time/s1> .
+  <https://github.com/john1hsu/communication-graph/id/wait-time> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/wait-time/s2> .
+  <https://github.com/john1hsu/communication-graph/id/wait-time> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/wait-time/s3> .
+  <https://github.com/john1hsu/communication-graph/id/wait-time> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/wait-time/s4> .
+  <https://github.com/john1hsu/communication-graph/id/wait-time> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/wait-time/s5> .
+  <https://github.com/john1hsu/communication-graph/id/wait-time> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/wait-time/s6> .
+  <https://github.com/john1hsu/communication-graph/id/wait-time> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/salary-negotiation> .
+  <https://github.com/john1hsu/communication-graph/id/wait-time> <https://github.com/john1hsu/communication-graph/ontology#domain> "listening" .
+  <https://github.com/john1hsu/communication-graph/id/wait-time> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+  <https://github.com/john1hsu/communication-graph/id/wait-time> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/wait-time/example> .
+  <https://github.com/john1hsu/communication-graph/id/wait-time> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> .
+  <https://github.com/john1hsu/communication-graph/id/wait-time> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/listening/wait-time.md" .
+  <https://github.com/john1hsu/communication-graph/id/wait-time> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/wait-time/howto> .
+  <https://github.com/john1hsu/communication-graph/id/wait-time> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/mary-budd-rowe> .
+  <https://github.com/john1hsu/communication-graph/id/wait-time> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+  <https://github.com/john1hsu/communication-graph/id/wait-time> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/curhan-et-al-2022> .
+  <https://github.com/john1hsu/communication-graph/id/wait-time> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/tobin-1987> .
+}
+
 <https://github.com/john1hsu/communication-graph/id/meeting-agendas#graph> {
   <https://github.com/john1hsu/communication-graph/id/meeting-agendas/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
   <https://github.com/john1hsu/communication-graph/id/meeting-agendas/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Could each attendee tell from the agenda alone what the meeting must decide and what they should prepare?" .
@@ -7191,6 +7317,7 @@
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/rapport> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/reciprocal-self-disclosure> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/small-talk> .
+  <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/wait-time> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/eye-contact> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/i-statements> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/rapport> .
@@ -7545,6 +7672,7 @@
   <https://github.com/john1hsu/communication-graph/id/considering-others-contributions-first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/considering-others-contributions-first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/considering-others-contributions-first> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/perspective-taking> .
+  <https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/wait-time> .
   <https://github.com/john1hsu/communication-graph/id/cramton-2001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/cramton-2001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/cramton-2001> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/common-ground> .
@@ -7560,6 +7688,7 @@
   <https://github.com/john1hsu/communication-graph/id/cross-functional-collaboration> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/influence-without-authority> .
   <https://github.com/john1hsu/communication-graph/id/crucial-conversations> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/difficult-conversation> .
   <https://github.com/john1hsu/communication-graph/id/ctss-mail> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/ray-tomlinson> .
+  <https://github.com/john1hsu/communication-graph/id/curhan-et-al-2022> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/wait-time> .
   <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -8013,6 +8142,7 @@
   <https://github.com/john1hsu/communication-graph/id/inspire-galinsky> <https://github.com/john1hsu/communication-graph/ontology#authoredBy> <https://github.com/john1hsu/communication-graph/id/adam-galinsky> .
   <https://github.com/john1hsu/communication-graph/id/integrative-negotiation> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers> .
   <https://github.com/john1hsu/communication-graph/id/integrative-negotiation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers> .
+  <https://github.com/john1hsu/communication-graph/id/integrative-negotiation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/wait-time> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
@@ -8194,6 +8324,9 @@
   <https://github.com/john1hsu/communication-graph/id/marshall-goldsmith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/marshall-goldsmith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/marshall-goldsmith> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/feedforward> .
+  <https://github.com/john1hsu/communication-graph/id/mary-budd-rowe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/mary-budd-rowe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+  <https://github.com/john1hsu/communication-graph/id/mary-budd-rowe> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/wait-time> .
   <https://github.com/john1hsu/communication-graph/id/mcdowell-jacobs-2017> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies> .
   <https://github.com/john1hsu/communication-graph/id/media-richness-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/common-ground> .
   <https://github.com/john1hsu/communication-graph/id/media-richness-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/message-equivocality-media-selection-and-manager-performance> .
@@ -8211,6 +8344,7 @@
   <https://github.com/john1hsu/communication-graph/id/meeting-agendas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/meeting-agendas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/meeting-agendas> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/meeting-design> .
+  <https://github.com/john1hsu/communication-graph/id/meeting-agendas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/wait-time> .
   <https://github.com/john1hsu/communication-graph/id/meeting-design> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/meeting-agendas> .
   <https://github.com/john1hsu/communication-graph/id/meeting-design> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/meeting-agendas> .
   <https://github.com/john1hsu/communication-graph/id/meeting-norms> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> .
@@ -8321,6 +8455,7 @@
   <https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> .
   <https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/paraphrasing> .
   <https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/small-talk> .
+  <https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/wait-time> .
   <https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> .
   <https://github.com/john1hsu/communication-graph/id/open-ended-questions> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/active-listening> .
   <https://github.com/john1hsu/communication-graph/id/oppenheimer-2006> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/clarity> .
@@ -8347,6 +8482,7 @@
   <https://github.com/john1hsu/communication-graph/id/paraphrasing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/common-ground> .
   <https://github.com/john1hsu/communication-graph/id/paraphrasing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> .
   <https://github.com/john1hsu/communication-graph/id/paraphrasing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/teach-back> .
+  <https://github.com/john1hsu/communication-graph/id/paraphrasing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/wait-time> .
   <https://github.com/john1hsu/communication-graph/id/paraphrasing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> .
   <https://github.com/john1hsu/communication-graph/id/paraphrasing> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/open-ended-questions> .
   <https://github.com/john1hsu/communication-graph/id/passive-voice> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/active-voice> .
@@ -8442,12 +8578,15 @@
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/small-talk> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/spotlight-effect> .
+  <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/wait-time> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/humble-inquiry> .
   <https://github.com/john1hsu/communication-graph/id/pyramid-principle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
   <https://github.com/john1hsu/communication-graph/id/questioning> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/humble-inquiry> .
   <https://github.com/john1hsu/communication-graph/id/questioning> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/open-ended-questions> .
+  <https://github.com/john1hsu/communication-graph/id/questioning> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/wait-time> .
   <https://github.com/john1hsu/communication-graph/id/questioning> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/humble-inquiry> .
   <https://github.com/john1hsu/communication-graph/id/questioning> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/open-ended-questions> .
+  <https://github.com/john1hsu/communication-graph/id/questioning> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/wait-time> .
   <https://github.com/john1hsu/communication-graph/id/quick-screen-edit> <https://github.com/john1hsu/communication-graph/ontology#introducedIn> <https://github.com/john1hsu/communication-graph/id/effective-writing-for-army-leaders> .
   <https://github.com/john1hsu/communication-graph/id/rai-mitchell-faelling-2012> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> .
   <https://github.com/john1hsu/communication-graph/id/range-of-acceptable-behavior> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/adam-galinsky> .
@@ -8524,6 +8663,7 @@
   <https://github.com/john1hsu/communication-graph/id/ryskin-brown-schmidt-2014> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> .
   <https://github.com/john1hsu/communication-graph/id/salary-negotiation> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/first-offer> .
   <https://github.com/john1hsu/communication-graph/id/salary-negotiation> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers> .
+  <https://github.com/john1hsu/communication-graph/id/salary-negotiation> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/wait-time> .
   <https://github.com/john1hsu/communication-graph/id/sanchez-burks-et-al-2003> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> .
   <https://github.com/john1hsu/communication-graph/id/sandstrom-boothby-cooney-2022> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/small-talk> .
   <https://github.com/john1hsu/communication-graph/id/sandstrom-dunn-2014> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/small-talk> .
@@ -8568,6 +8708,8 @@
   <https://github.com/john1hsu/communication-graph/id/shockley-et-al-2021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/shockley-et-al-2021> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> .
   <https://github.com/john1hsu/communication-graph/id/shockley-et-al-2021> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> .
+  <https://github.com/john1hsu/communication-graph/id/silence-and-pauses> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/wait-time> .
+  <https://github.com/john1hsu/communication-graph/id/silence-and-pauses> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/wait-time> .
   <https://github.com/john1hsu/communication-graph/id/silent-messages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/silent-messages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
   <https://github.com/john1hsu/communication-graph/id/silent-messages> <https://github.com/john1hsu/communication-graph/ontology#introduces> <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> .
@@ -8713,6 +8855,7 @@
   <https://github.com/john1hsu/communication-graph/id/titsworth-et-al-2015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/titsworth-et-al-2015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/titsworth-et-al-2015> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/clarity> .
+  <https://github.com/john1hsu/communication-graph/id/tobin-1987> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/wait-time> .
   <https://github.com/john1hsu/communication-graph/id/trust-repair> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/apology> .
   <https://github.com/john1hsu/communication-graph/id/trust-repair> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/apology> .
   <https://github.com/john1hsu/communication-graph/id/unclear-ownership> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/active-voice> .
@@ -8743,6 +8886,15 @@
   <https://github.com/john1hsu/communication-graph/id/video-call-communication> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> .
   <https://github.com/john1hsu/communication-graph/id/video-call-communication> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/proxemics> .
   <https://github.com/john1hsu/communication-graph/id/visible-learning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> .
+  <https://github.com/john1hsu/communication-graph/id/wait-time/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/wait-time/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/wait-time/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/wait-time/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/wait-time/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/wait-time> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+  <https://github.com/john1hsu/communication-graph/id/wait-time> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/wait-time> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/questioning> .
+  <https://github.com/john1hsu/communication-graph/id/wait-time> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/silence-and-pauses> .
   <https://github.com/john1hsu/communication-graph/id/weger-castle-emmett-2010> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> .
   <https://github.com/john1hsu/communication-graph/id/weger-castle-emmett-2010> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/paraphrasing> .
   <https://github.com/john1hsu/communication-graph/id/weger-castle-emmett-2010> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> .

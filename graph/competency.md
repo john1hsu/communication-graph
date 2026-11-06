@@ -93,7 +93,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:presentation` | `cm:anxiety-reappraisal` |
 | `cm:presentation` | `cm:assertion-evidence-slides` |
 
-…and 10 more.
+…and 11 more.
 
 ## Myths and contested advice
 
@@ -132,7 +132,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:illusion-of-transparency` | mixed |  |
 | `cm:influence-without-authority` | mixed |  |
 
-…and 22 more.
+…and 23 more.
 
 ## Concepts with no recorded origin (gap)
 
