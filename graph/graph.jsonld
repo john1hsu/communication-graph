@@ -5481,6 +5481,95 @@
    ]
   },
   {
+   "@id": "cm:social-accounts",
+   "@type": "cmo:Technique",
+   "cmo:appliedIn": [
+    {
+     "@id": "cm:apology"
+    },
+    {
+     "@id": "cm:delivering-bad-news"
+    }
+   ],
+   "cmo:demonstratedBy": [
+    {
+     "@id": "cm:bies-shapiro-1987"
+    },
+    {
+     "@id": "cm:shaw-wild-colquitt-2003"
+    }
+   ],
+   "cmo:domain": "difficult-conversations-and-conflict",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/social-accounts/example"
+   },
+   "cmo:explainedBy": {
+    "@id": "cm:fairness-theory"
+   },
+   "cmo:file": "articles/difficult-conversations-and-conflict/social-accounts.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/social-accounts/howto"
+   },
+   "cmo:level": "intermediate",
+   "cmo:supportedBy": {
+    "@id": "cm:brockner-wiesenfeld-1996"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/social-accounts/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/social-accounts/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/social-accounts/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/social-accounts/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/social-accounts/s5"
+    }
+   ],
+   "rdfs:label": "Social accounts",
+   "skos:altLabel": [
+    "causal accounts",
+    "excuses and justifications",
+    "explaining unfavourable decisions",
+    "explanations for bad news"
+   ],
+   "skos:broader": {
+    "@id": "cm:trust-repair"
+   },
+   "skos:definition": "Giving the people affected by a mistake or an unwelcome decision a clear, adequate and honest explanation of why it happened and how it will be handled, so that they judge the outcome and the person behind it more fairly.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/difficult-conversations-and-conflict"
+   },
+   "skos:prefLabel": "Social accounts",
+   "skos:related": [
+    {
+     "@id": "cm:apology"
+    },
+    {
+     "@id": "cm:audience-analysis"
+    },
+    {
+     "@id": "cm:defensiveness"
+    },
+    {
+     "@id": "cm:delivering-bad-news"
+    },
+    {
+     "@id": "cm:difficult-conversation"
+    }
+   ]
+  },
+  {
    "@id": "cm:speaking-anxiety",
    "@type": "cmo:Barrier",
    "cmo:demonstratedBy": {
@@ -9812,6 +9901,107 @@
     "@id": "cm:small-talk"
    },
    "rdfs:label": "Did I end the chat cleanly, with a warm close or a link back to the work?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/social-accounts/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:social-accounts"
+   },
+   "rdfs:label": "Could the people affected repeat the actual reason for this outcome after hearing my explanation?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/social-accounts/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:social-accounts"
+   },
+   "rdfs:label": "Have I named only causes that are true and that I would be comfortable having checked?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/social-accounts/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:social-accounts"
+   },
+   "rdfs:label": "Did I explain how they will be treated from here, not only why it happened?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/social-accounts/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:social-accounts"
+   },
+   "rdfs:label": "Is my explanation a short context for an apology, or has it become an excuse that replaces one?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/social-accounts/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "I have to take back the conference places I promised you. Q3 revenue came in 12% under plan, and finance has frozen all non-customer travel across the division until March - I argued to keep two places and lost that argument. Registrations will be refunded by Friday, so none of you are out of pocket, and I've booked 15 minutes with each of you this week to agree what we do instead for your development goals. If any part of that still doesn't add up, ask me directly.",
+   "cmo:before": "Hi all, due to business reasons the conference budget has been cut for this year. Thanks for understanding.",
+   "cmo:situation": "A team lead has to tell five analysts that the conference places she had promised them this year have been cancelled.",
+   "cmo:why": "The vague original gives no reason anyone could judge, so it invites cynicism; the rewrite names a specific, checkable cause outside the lead's control, owns the lead's own role, explains how people will be treated, and invites the questions that test whether the account was adequate."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/social-accounts/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Social accounts",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/social-accounts/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/social-accounts/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/social-accounts/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/social-accounts/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/social-accounts/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/social-accounts/howto/6"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/social-accounts/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Give the explanation at the same moment as the bad news or the admission, before people fill the silence with their own story."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/social-accounts/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "State the real reason - the constraint, trade-off or goal that drove the outcome - in concrete terms rather than \"business reasons\"."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/social-accounts/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Separate honestly what was outside your control from what was your call, and own your part; never invent a mitigating factor."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/social-accounts/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Say how the decision will be carried out and how the people affected will be treated, not only why it was made."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/social-accounts/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Make the detail proportional to the loss, then ask what still does not make sense and answer it."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/social-accounts/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "If you caused the harm, put the account inside an apology - responsibility and repair first, explanation kept short."
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/source/active-listening/s1",
@@ -14599,6 +14789,76 @@
    "dcterms:title": "Talking to Strangers: A Week-Long Intervention Reduces Psychological Barriers to Social Connection",
    "schema:url": {
     "@id": "https://spsp.org/news/character-and-context-blog/sandstrom-boothby-cooney-talking-to-strangers"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/social-accounts/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Shaw, Wild & Colquitt, Journal of Applied Psychology 88(3), 444-458 (2003), doi:10.1037/0021-9010.88.3.444 (Scilit record)",
+   "dcterms:title": "To justify or excuse?: A meta-analytic review of the effects of explanations",
+   "schema:url": {
+    "@id": "https://www.scilit.net/publications/38932700bbe661b5d5e03e22257e1d97"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/social-accounts/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Bies & Shapiro, Social Justice Research 1, 199-218 (1987), doi:10.1007/BF01048016 (Springer)",
+   "dcterms:title": "Interactional fairness judgments: The influence of causal accounts",
+   "schema:url": {
+    "@id": "https://link.springer.com/doi/10.1007/BF01048016"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/social-accounts/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Mroz & Allen, Journal of Business and Psychology 35, 187-201 (2020), doi:10.1007/s10869-019-09622-1 (open-access copy, CORE)",
+   "dcterms:title": "To Excuse or Not to Excuse: Effect of Explanation Type and Provision on Reactions to a Workplace Behavioral Transgression",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/232778947.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/social-accounts/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Carter, Bobocel & Brockner, Journal of Experimental Psychology - Applied 26(1), 158-170 (2020), doi:10.1037/xap0000236 (University of Waterloo Fairness at Work Lab copy)",
+   "dcterms:title": "When to Explain Why or How It Happened: Tailoring Accounts to Fit Observers' Construal Level",
+   "schema:url": {
+    "@id": "https://uwaterloo.ca/fairness-at-work-lab/sites/default/files/uploads/files/when_to_explain_why_or_how_it_happened_tailoring_accounts_to_fit_observers_construal_level.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/social-accounts/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Brockner & Wiesenfeld, Psychological Bulletin 120(2), 189-208 (1996) (MIT course-readings copy)",
+   "dcterms:title": "An Integrative Framework for Explaining Reactions to Decisions: Interactive Effects of Outcomes and Procedures",
+   "schema:url": {
+    "@id": "https://web.mit.edu/curhan/www/docs/Articles/15341_Readings/Justice/Brockner_Wiesenfeld_1996_An_integrative_framework.pdf"
    }
   },
   {

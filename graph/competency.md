@@ -18,9 +18,7 @@ _No results._
 
 _Which written contexts, channels or genres have no technique, framework or principle applied in them or structuring them?_ — `queries/03-situations-without-guidance.rq`
 
-| node | type |
-|---|---|
-| `cm:apology` | cmo:Genre |
+_No results._
 
 ## Highest-leverage techniques
 
@@ -62,9 +60,11 @@ _For each situation, channel or format, which techniques apply or give it struct
 
 | situation | technique |
 |---|---|
+| `cm:apology` | `cm:social-accounts` |
 | `cm:communication-plan` | `cm:stakeholder-mapping` |
 | `cm:crisis-communication` | `cm:communicating-uncertainty` |
 | `cm:cross-functional-collaboration` | `cm:influence-without-authority` |
+| `cm:delivering-bad-news` | `cm:social-accounts` |
 | `cm:difficult-conversation` | `cm:active-listening` |
 | `cm:difficult-conversation` | `cm:i-statements` |
 | `cm:difficult-conversation` | `cm:paraphrasing` |
@@ -90,10 +90,8 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:performance-review` | `cm:kluger-denisi-1996` |
 | `cm:performance-review` | `cm:situation-behavior-impact` |
 | `cm:plain-language-summary` | `cm:plain-language` |
-| `cm:presentation` | `cm:anxiety-reappraisal` |
-| `cm:presentation` | `cm:assertion-evidence-slides` |
 
-…and 11 more.
+…and 13 more.
 
 ## Myths and contested advice
 
@@ -132,7 +130,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:illusion-of-transparency` | mixed |  |
 | `cm:influence-without-authority` | mixed |  |
 
-…and 23 more.
+…and 24 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -155,6 +153,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:reciprocal-self-disclosure` | cmo:Technique |
 | `cm:self-distancing` | cmo:Technique |
 | `cm:small-talk` | cmo:Skill |
+| `cm:social-accounts` | cmo:Technique |
 | `cm:speaking-anxiety` | cmo:Barrier |
 | `cm:stakeholder-mapping` | cmo:Technique |
 | `cm:teach-back` | cmo:Technique |

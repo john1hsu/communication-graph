@@ -176,6 +176,29 @@ Ask yourself:
 - Have I said anything that shows I understand the other person's side of the situation?
 - After I speak, am I ready to listen to their reaction rather than repeat my point louder?
 
+### [Social accounts](../articles/difficult-conversations-and-conflict/social-accounts.md) — Technique
+
+1. Give the explanation at the same moment as the bad news or the admission, before people fill the silence with their own story.
+2. State the real reason - the constraint, trade-off or goal that drove the outcome - in concrete terms rather than "business reasons".
+3. Separate honestly what was outside your control from what was your call, and own your part; never invent a mitigating factor.
+4. Say how the decision will be carried out and how the people affected will be treated, not only why it was made.
+5. Make the detail proportional to the loss, then ask what still does not make sense and answer it.
+6. If you caused the harm, put the account inside an apology - responsibility and repair first, explanation kept short.
+
+*A team lead has to tell five analysts that the conference places she had promised them this year have been cancelled.*
+
+| Before | After |
+|---|---|
+| Hi all, due to business reasons the conference budget has been cut for this year. Thanks for understanding. | I have to take back the conference places I promised you. Q3 revenue came in 12% under plan, and finance has frozen all non-customer travel across the division until March - I argued to keep two places and lost that argument. Registrations will be refunded by Friday, so none of you are out of pocket, and I've booked 15 minutes with each of you this week to agree what we do instead for your development goals. If any part of that still doesn't add up, ask me directly. |
+
+**Why:** The vague original gives no reason anyone could judge, so it invites cynicism; the rewrite names a specific, checkable cause outside the lead's control, owns the lead's own role, explains how people will be treated, and invites the questions that test whether the account was adequate.
+
+Ask yourself:
+- Could the people affected repeat the actual reason for this outcome after hearing my explanation?
+- Have I named only causes that are true and that I would be comfortable having checked?
+- Did I explain how they will be treated from here, not only why it happened?
+- Is my explanation a short context for an apology, or has it become an excuse that replaces one?
+
 ## digital-and-async-communication
 
 ### [Camera-optional norm](../articles/digital-and-async-communication/camera-optional-norm.md) — Technique
