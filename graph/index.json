@@ -6288,6 +6288,118 @@
   ]
  },
  {
+  "id": "cm:nonverbal-communication",
+  "title": "Nonverbal communication",
+  "aliases": [
+   "nonverbal cues",
+   "nonverbal behavior",
+   "nonverbal behaviour",
+   "body language and tone"
+  ],
+  "type": "Concept",
+  "domain": "nonverbal-and-voice",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/nonverbal-and-voice/nonverbal-communication.md",
+  "created": "2026-11-07",
+  "summary": "Creating and reading meaning through behaviour other than words, such as facial movement, gesture, posture, gaze, voice, touch, space and time; it shapes impressions and relationships at work, but single cues are ambiguous and people are far worse at reading lies or exact emotions from them than popular \"body language\" advice claims.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:interpersonal-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:eye-contact"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:proxemics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:paralanguage"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:facial-expressions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:mehrabian-myth"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:mixed-messages"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:camera-level-gaze"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:rapport"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:video-call-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:filled-pauses"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:nonverbal-overload"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:zoom-fatigue"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:ambady-rosenthal-1993",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:bond-depaulo-2006",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:barrett-et-al-2019",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:face-to-face-conversation",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:studiedIn",
+    "object": "cm:social-psychology",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://pressbooks.pub/umcoms101/?p=699",
+   "https://journals.sagepub.com/doi/10.1207/s15327957pspr1003_2",
+   "https://www.math.stonybrook.edu/~bishop/classes/math598.F25/Half_a_Minute.pdf",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC6640856/",
+   "https://escholarship.org/content/qt6w74s809/qt6w74s809.pdf?t=r2d4bw",
+   "https://core.ac.uk/download/212360777.pdf"
+  ]
+ },
+ {
   "id": "cm:norbert-wiener",
   "title": "Norbert Wiener",
   "aliases": [

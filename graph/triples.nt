@@ -3355,6 +3355,44 @@
 <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/andre-delbecq> .
 <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/andrew-van-de-ven> .
 <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://purl.org/dc/terms/created> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2000/01/rdf-schema#label> "Nonverbal communication" .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#altLabel> "body language and tone" .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#altLabel> "nonverbal behavior" .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#altLabel> "nonverbal behaviour" .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#altLabel> "nonverbal cues" .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#definition> "Creating and reading meaning through behaviour other than words, such as facial movement, gesture, posture, gaze, voice, touch, space and time; it shapes impressions and relationships at work, but single cues are ambiguous and people are far worse at reading lies or exact emotions from them than popular \"body language\" advice claims." .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/nonverbal-and-voice> .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nonverbal communication" .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/camera-level-gaze> .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/eye-contact> .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/facial-expressions> .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/filled-pauses> .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mixed-messages> .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/nonverbal-overload> .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/paralanguage> .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/proxemics> .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/rapport> .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/video-call-communication> .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/nonverbal-communication/s1> .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/nonverbal-communication/s2> .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/nonverbal-communication/s3> .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/nonverbal-communication/s4> .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/nonverbal-communication/s5> .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/nonverbal-communication/s6> .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/face-to-face-conversation> .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/barrett-et-al-2019> .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/bond-depaulo-2006> .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/ambady-rosenthal-1993> .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <https://github.com/john1hsu/communication-graph/ontology#domain> "nonverbal-and-voice" .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/nonverbal-and-voice/nonverbal-communication.md" .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <https://github.com/john1hsu/communication-graph/ontology#studiedIn> <https://github.com/john1hsu/communication-graph/id/social-psychology> .
 <https://github.com/john1hsu/communication-graph/id/norbert-wiener> <http://purl.org/dc/terms/created> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/norbert-wiener> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
 <https://github.com/john1hsu/communication-graph/id/norbert-wiener> <http://www.w3.org/2000/01/rdf-schema#label> "Norbert Wiener" .
@@ -6669,6 +6707,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/nominal-group-technique/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/nominal-group-technique/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/communication-graph/id/source/nominal-group-technique/s4> <https://schema.org/url> <https://www.annfammed.org/content/22/6/525.abstract> .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-communication/s1> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-communication/s1> <http://purl.org/dc/terms/publisher> "University of Montevallo Department of Communication, open textbook (CC BY-NC-SA), 2023, adapted from Communication in the Real World (2013)" .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-communication/s1> <http://purl.org/dc/terms/title> "Chapter 4: Nonverbal Communication (Keys to Communication: An Essential Guide to Communication in the Real World)" .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-communication/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-communication/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-communication/s1> <https://schema.org/url> <https://pressbooks.pub/umcoms101/?p=699> .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-communication/s2> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-communication/s2> <http://purl.org/dc/terms/publisher> "Charles F. Bond Jr. & Bella M. DePaulo, Personality and Social Psychology Review 10(3), 2006 (SAGE DOI page)" .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-communication/s2> <http://purl.org/dc/terms/title> "Accuracy of Deception Judgments" .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-communication/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-communication/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-communication/s2> <https://schema.org/url> <https://journals.sagepub.com/doi/10.1207/s15327957pspr1003_2> .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-communication/s3> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-communication/s3> <http://purl.org/dc/terms/publisher> "Nalini Ambady & Robert Rosenthal, Journal of Personality and Social Psychology 64(3), 1993, pp. 431-441 (course-reading copy, Stony Brook University)" .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-communication/s3> <http://purl.org/dc/terms/title> "Half a Minute: Predicting Teacher Evaluations From Thin Slices of Nonverbal Behavior and Physical Attractiveness" .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-communication/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-communication/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-communication/s3> <https://schema.org/url> <https://www.math.stonybrook.edu/~bishop/classes/math598.F25/Half_a_Minute.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-communication/s4> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-communication/s4> <http://purl.org/dc/terms/publisher> "Barrett, Adolphs, Marsella, Martinez & Pollak, Psychological Science in the Public Interest 20(1), 2019, pp. 1-68 (PubMed Central)" .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-communication/s4> <http://purl.org/dc/terms/title> "Emotional Expressions Reconsidered: Challenges to Inferring Emotion From Human Facial Movements" .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-communication/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-communication/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-communication/s4> <https://schema.org/url> <https://pmc.ncbi.nlm.nih.gov/articles/PMC6640856/> .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-communication/s5> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-communication/s5> <http://purl.org/dc/terms/publisher> "Patterson, Dunbar, Schmid Mast & Fernández-Dols, Frontiers in Psychology 12, 2021 (eScholarship copy)" .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-communication/s5> <http://purl.org/dc/terms/title> "Editorial: Advances and Obstacles in Contemporary Nonverbal Communication Research" .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-communication/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-communication/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-communication/s5> <https://schema.org/url> <https://escholarship.org/content/qt6w74s809/qt6w74s809.pdf?t=r2d4bw> .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-communication/s6> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-communication/s6> <http://purl.org/dc/terms/publisher> "Schlegel, Vicaria, Isaacowitz & Hall, University of Bern and Northeastern University (author manuscript via CORE)" .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-communication/s6> <http://purl.org/dc/terms/title> "Effectiveness of a short audiovisual emotion recognition training program in adults" .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-communication/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-communication/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-communication/s6> <https://schema.org/url> <https://core.ac.uk/download/212360777.pdf> .
 <https://github.com/john1hsu/communication-graph/id/source/norbert-wiener/s1> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/norbert-wiener/s1> <http://purl.org/dc/terms/publisher> "Rosenblueth, Wiener & Bigelow, Philosophy of Science 10(1), 18-24 (1943) (California State University Long Beach course copy)" .
 <https://github.com/john1hsu/communication-graph/id/source/norbert-wiener/s1> <http://purl.org/dc/terms/title> "Behavior, Purpose and Teleology" .

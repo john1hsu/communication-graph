@@ -87,6 +87,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:executive-briefing` | `cm:pyramid-principle` |
 | `cm:executive-briefing` | `cm:words-of-estimative-probability` |
 | `cm:face-to-face-conversation` | `cm:eye-contact` |
+| `cm:face-to-face-conversation` | `cm:nonverbal-communication` |
 | `cm:face-to-face-conversation` | `cm:proxemics` |
 | `cm:face-to-face-conversation` | `cm:rapport` |
 | `cm:job-interview` | `cm:camera-level-gaze` |
@@ -94,9 +95,8 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:multicultural-team` | `cm:direct-vs-indirect-feedback` |
 | `cm:multicultural-team` | `cm:the-culture-map` |
 | `cm:one-on-one-meetings` | `cm:active-listening` |
-| `cm:one-on-one-meetings` | `cm:humble-inquiry` |
 
-…and 27 more.
+…and 28 more.
 
 ## Myths and contested advice
 
@@ -135,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:delivering-bad-news` | mixed |  |
 | `cm:direct-vs-indirect-feedback` | mixed | `cm:brew-cairns-2004` |
 
-…and 44 more.
+…and 46 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -156,6 +156,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:information-overload` | cmo:Barrier |
 | `cm:interrupting` | cmo:AntiPattern |
 | `cm:meeting-agendas` | cmo:Technique |
+| `cm:nonverbal-communication` | cmo:Concept |
 | `cm:one-on-one-meetings` | cmo:Context |
 | `cm:open-ended-questions` | cmo:Technique |
 | `cm:performance-review` | cmo:Context |
@@ -172,9 +173,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:speaking-anxiety` | cmo:Barrier |
 | `cm:stakeholder-mapping` | cmo:Technique |
 | `cm:status-reporting` | cmo:Genre |
-| `cm:teach-back` | cmo:Technique |
 
-…and 3 more.
+…and 4 more.
 
 ## Orphan articles (gap)
 

@@ -5494,6 +5494,108 @@
    ]
   },
   {
+   "@id": "cm:nonverbal-communication",
+   "@type": "cmo:Concept",
+   "cmo:appliedIn": {
+    "@id": "cm:face-to-face-conversation"
+   },
+   "cmo:challengedBy": [
+    {
+     "@id": "cm:barrett-et-al-2019"
+    },
+    {
+     "@id": "cm:bond-depaulo-2006"
+    }
+   ],
+   "cmo:demonstratedBy": {
+    "@id": "cm:ambady-rosenthal-1993"
+   },
+   "cmo:domain": "nonverbal-and-voice",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:file": "articles/nonverbal-and-voice/nonverbal-communication.md",
+   "cmo:level": "introductory",
+   "cmo:studiedIn": {
+    "@id": "cm:social-psychology"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/nonverbal-communication/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/nonverbal-communication/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/nonverbal-communication/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/nonverbal-communication/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/nonverbal-communication/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/nonverbal-communication/s6"
+    }
+   ],
+   "rdfs:label": "Nonverbal communication",
+   "skos:altLabel": [
+    "body language and tone",
+    "nonverbal behavior",
+    "nonverbal behaviour",
+    "nonverbal cues"
+   ],
+   "skos:broader": {
+    "@id": "cm:interpersonal-communication"
+   },
+   "skos:definition": "Creating and reading meaning through behaviour other than words, such as facial movement, gesture, posture, gaze, voice, touch, space and time; it shapes impressions and relationships at work, but single cues are ambiguous and people are far worse at reading lies or exact emotions from them than popular \"body language\" advice claims.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/nonverbal-and-voice"
+   },
+   "skos:prefLabel": "Nonverbal communication",
+   "skos:related": [
+    {
+     "@id": "cm:camera-level-gaze"
+    },
+    {
+     "@id": "cm:eye-contact"
+    },
+    {
+     "@id": "cm:facial-expressions"
+    },
+    {
+     "@id": "cm:filled-pauses"
+    },
+    {
+     "@id": "cm:mehrabian-myth"
+    },
+    {
+     "@id": "cm:mixed-messages"
+    },
+    {
+     "@id": "cm:nonverbal-overload"
+    },
+    {
+     "@id": "cm:paralanguage"
+    },
+    {
+     "@id": "cm:proxemics"
+    },
+    {
+     "@id": "cm:rapport"
+    },
+    {
+     "@id": "cm:video-call-communication"
+    },
+    {
+     "@id": "cm:zoom-fatigue"
+    }
+   ]
+  },
+  {
    "@id": "cm:norbert-wiener",
    "@type": "cmo:Person",
    "cmo:authored": [
@@ -18006,6 +18108,90 @@
    "dcterms:title": "Building Timely Consensus Among Diverse Stakeholders: An Adapted Nominal Group Technique",
    "schema:url": {
     "@id": "https://www.annfammed.org/content/22/6/525.abstract"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/nonverbal-communication/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "University of Montevallo Department of Communication, open textbook (CC BY-NC-SA), 2023, adapted from Communication in the Real World (2013)",
+   "dcterms:title": "Chapter 4: Nonverbal Communication (Keys to Communication: An Essential Guide to Communication in the Real World)",
+   "schema:url": {
+    "@id": "https://pressbooks.pub/umcoms101/?p=699"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/nonverbal-communication/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Charles F. Bond Jr. & Bella M. DePaulo, Personality and Social Psychology Review 10(3), 2006 (SAGE DOI page)",
+   "dcterms:title": "Accuracy of Deception Judgments",
+   "schema:url": {
+    "@id": "https://journals.sagepub.com/doi/10.1207/s15327957pspr1003_2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/nonverbal-communication/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Nalini Ambady & Robert Rosenthal, Journal of Personality and Social Psychology 64(3), 1993, pp. 431-441 (course-reading copy, Stony Brook University)",
+   "dcterms:title": "Half a Minute: Predicting Teacher Evaluations From Thin Slices of Nonverbal Behavior and Physical Attractiveness",
+   "schema:url": {
+    "@id": "https://www.math.stonybrook.edu/~bishop/classes/math598.F25/Half_a_Minute.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/nonverbal-communication/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Barrett, Adolphs, Marsella, Martinez & Pollak, Psychological Science in the Public Interest 20(1), 2019, pp. 1-68 (PubMed Central)",
+   "dcterms:title": "Emotional Expressions Reconsidered: Challenges to Inferring Emotion From Human Facial Movements",
+   "schema:url": {
+    "@id": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6640856/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/nonverbal-communication/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Patterson, Dunbar, Schmid Mast & Fernández-Dols, Frontiers in Psychology 12, 2021 (eScholarship copy)",
+   "dcterms:title": "Editorial: Advances and Obstacles in Contemporary Nonverbal Communication Research",
+   "schema:url": {
+    "@id": "https://escholarship.org/content/qt6w74s809/qt6w74s809.pdf?t=r2d4bw"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/nonverbal-communication/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Schlegel, Vicaria, Isaacowitz & Hall, University of Bern and Northeastern University (author manuscript via CORE)",
+   "dcterms:title": "Effectiveness of a short audiovisual emotion recognition training program in adults",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/212360777.pdf"
    }
   },
   {
