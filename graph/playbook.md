@@ -1155,6 +1155,30 @@ Ask yourself:
 - Who talked more in that conversation, and did I learn anything that changed my view?
 - Did I acknowledge what they said before telling them what I think?
 
+### [Perspective-getting](../articles/questioning-and-conversation/perspective-getting.md) — Technique
+
+1. Before a decision that depends on someone else's view, write down your best guess of what they think and how confident you are.
+2. Turn each guess into a short, neutral question you can put to them directly, covering every point that matters rather than one or two.
+3. Ask, then listen to the whole answer without arguing, and note anything that contradicts your guess.
+4. Restate what you heard in your own words and ask whether you have it right.
+5. Make an honest answer safe - say why you are asking, show you can hear an unwelcome reply, and never penalise one.
+6. Where you cannot ask, get the information another way - a survey, their written priorities, or someone who has been in their position - and treat any remaining guess as a hypothesis.
+
+*A team lead is planning next quarter's on-call rota and assumes the senior engineers want fewer weekend shifts in exchange for more weekday nights.*
+
+| Before | After |
+|---|---|
+| Team lead (to their manager) - I've redone the rota so seniors get fewer weekends. I know they'd rather take extra weeknights; they've got families. | Team lead (to each engineer, in one-on-ones) - I'm redrawing the on-call rota. Which matters more to you, fewer weekends or fewer weeknights, and is there anything about the current set-up I'm not seeing? So, if I've got it right, weekends are fine but back-to-back nights are the real problem? |
+
+**Why:** The lead swaps a confident guess for a quick question about each point that matters and a check of the answer, and finds that the actual complaint (consecutive nights) is not the one they had planned to fix.
+
+Ask yourself:
+- Which of my beliefs about this person's view did I hear from them, and which did I only imagine?
+- Have I asked about every point my decision depends on, or only the one I was least sure of?
+- Did I restate their answer and let them correct it?
+- Would they feel safe telling me something I don't want to hear?
+- Am I skipping the question because I feel sure - and is that certainty based on anything they told me?
+
 ### [Self-disclosure reciprocity](../articles/questioning-and-conversation/reciprocal-self-disclosure.md) — Technique
 
 1. Open with a light question tied to the shared situation, then listen for what the other person chooses to reveal.

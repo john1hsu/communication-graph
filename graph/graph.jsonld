@@ -6906,6 +6906,97 @@
    ]
   },
   {
+   "@id": "cm:perspective-getting",
+   "@type": "cmo:Technique",
+   "cmo:addresses": {
+    "@id": "cm:egocentric-bias"
+   },
+   "cmo:appliedIn": {
+    "@id": "cm:one-on-one-meetings"
+   },
+   "cmo:contrastsWith": {
+    "@id": "cm:perspective-taking"
+   },
+   "cmo:demonstratedBy": {
+    "@id": "cm:eyal-steffel-epley-2018"
+   },
+   "cmo:domain": "questioning-and-conversation",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/perspective-getting/example"
+   },
+   "cmo:file": "articles/questioning-and-conversation/perspective-getting.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/perspective-getting/howto"
+   },
+   "cmo:introducedBy": {
+    "@id": "cm:nicholas-epley"
+   },
+   "cmo:level": "introductory",
+   "cmo:requires": {
+    "@id": "cm:active-listening"
+   },
+   "cmo:supportedBy": {
+    "@id": "cm:damen-pollmann-grassow-2021"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/perspective-getting/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/perspective-getting/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/perspective-getting/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/perspective-getting/s4"
+    }
+   ],
+   "rdfs:label": "Perspective-getting",
+   "skos:altLabel": [
+    "ask don't guess",
+    "asking instead of assuming",
+    "getting perspective",
+    "perspective getting"
+   ],
+   "skos:broader": {
+    "@id": "cm:questioning"
+   },
+   "skos:definition": "Finding out what another person thinks, wants or feels by asking them directly and listening to the answer, instead of imagining their view from your own position - the method that research finds actually improves accuracy about other minds.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/questioning-and-conversation"
+   },
+   "skos:prefLabel": "Perspective-getting",
+   "skos:related": [
+    {
+     "@id": "cm:checking-understanding"
+    },
+    {
+     "@id": "cm:egocentric-bias"
+    },
+    {
+     "@id": "cm:huang-et-al-2017"
+    },
+    {
+     "@id": "cm:humble-inquiry"
+    },
+    {
+     "@id": "cm:open-ended-questions"
+    },
+    {
+     "@id": "cm:perspective-taking"
+    },
+    {
+     "@id": "cm:psychological-safety"
+    }
+   ]
+  },
+  {
    "@id": "cm:perspective-taking",
    "@type": "cmo:Skill",
    "cmo:addresses": {
@@ -13483,6 +13574,115 @@
    "@type": "schema:HowToStep",
    "schema:position": 6,
    "schema:text": "Only once they confirm you have understood, give your own perspective, answer or proposal."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/perspective-getting/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:perspective-getting"
+   },
+   "rdfs:label": "Which of my beliefs about this person's view did I hear from them, and which did I only imagine?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/perspective-getting/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:perspective-getting"
+   },
+   "rdfs:label": "Have I asked about every point my decision depends on, or only the one I was least sure of?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/perspective-getting/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:perspective-getting"
+   },
+   "rdfs:label": "Did I restate their answer and let them correct it?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/perspective-getting/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:perspective-getting"
+   },
+   "rdfs:label": "Would they feel safe telling me something I don't want to hear?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/perspective-getting/check/5",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:perspective-getting"
+   },
+   "rdfs:label": "Am I skipping the question because I feel sure - and is that certainty based on anything they told me?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/perspective-getting/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "Team lead (to each engineer, in one-on-ones) - I'm redrawing the on-call rota. Which matters more to you, fewer weekends or fewer weeknights, and is there anything about the current set-up I'm not seeing? So, if I've got it right, weekends are fine but back-to-back nights are the real problem?",
+   "cmo:before": "Team lead (to their manager) - I've redone the rota so seniors get fewer weekends. I know they'd rather take extra weeknights; they've got families.",
+   "cmo:situation": "A team lead is planning next quarter's on-call rota and assumes the senior engineers want fewer weekend shifts in exchange for more weekday nights.",
+   "cmo:why": "The lead swaps a confident guess for a quick question about each point that matters and a check of the answer, and finds that the actual complaint (consecutive nights) is not the one they had planned to fix."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/perspective-getting/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Perspective-getting",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/perspective-getting/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/perspective-getting/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/perspective-getting/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/perspective-getting/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/perspective-getting/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/perspective-getting/howto/6"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/perspective-getting/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Before a decision that depends on someone else's view, write down your best guess of what they think and how confident you are."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/perspective-getting/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Turn each guess into a short, neutral question you can put to them directly, covering every point that matters rather than one or two."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/perspective-getting/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Ask, then listen to the whole answer without arguing, and note anything that contradicts your guess."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/perspective-getting/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Restate what you heard in your own words and ask whether you have it right."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/perspective-getting/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Make an honest answer safe - say why you are asking, show you can hear an unwelcome reply, and never penalise one."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/perspective-getting/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "Where you cannot ask, get the information another way - a survey, their written priorities, or someone who has been in their position - and treat any remaining guess as a hypothesis."
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/perspective-taking/check/1",
@@ -20808,6 +21008,62 @@
    "dcterms:title": "Monitoring and Developing - Performance Management and Accountability Playbook",
    "schema:url": {
     "@id": "https://www.opm.gov/policy-data-oversight/performance-management/performance-management-and-accountability-playbook/monitoring-and-developing/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/perspective-getting/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Eyal, Steffel and Epley, Journal of Personality and Social Psychology 114(4), 547-571, 2018 (posted PDF copy of the APA article)",
+   "dcterms:title": "Perspective mistaking: Accurately understanding the mind of another requires getting perspective, not taking perspective",
+   "schema:url": {
+    "@id": "https://static1.squarespace.com/static/55917f64e4b0cd3b4705b68c/t/5cbe54fb71c10bbdc16e0dbc/1555977471661/eyal.steffel.epley.2018.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/perspective-getting/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Damen, Pollmann and Grassow, Frontiers in Communication 6 (Psychology of Language), 2021, Tilburg University",
+   "dcterms:title": "The Benefits and Obstacles to Perspective Getting",
+   "schema:url": {
+    "@id": "https://www.frontiersin.org/articles/10.3389/fcomm.2021.611187"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/perspective-getting/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Nicholas Epley, excerpt from his book Mindwise (2014), published in Behavioral Scientist",
+   "dcterms:title": "Be Mindwise: Perspective Taking vs. Perspective Getting",
+   "schema:url": {
+    "@id": "https://behavioralscientist.org/be-mindwise-perspective-taking-vs-perspective-getting/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/perspective-getting/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Huang, Yeomans, Brooks, Minson and Gino, Journal of Personality and Social Psychology 113(3), 430-452, 2017 (manuscript via CORE)",
+   "dcterms:title": "It Doesn't Hurt to Ask: Question-Asking Increases Liking",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/154893096.pdf"
    }
   },
   {

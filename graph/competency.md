@@ -54,10 +54,10 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:meeting-agendas` | 1 | unnecessary-meetings |
 | `cm:multiple-equivalent-simultaneous-offers` | 1 | negotiator-dilemma |
 | `cm:paraphrasing` | 1 | Active listening |
+| `cm:perspective-getting` | 1 | Egocentric bias |
 | `cm:perspective-taking` | 1 | Egocentric bias |
-| `cm:pyramid-principle` | 1 | burying-the-lede |
 
-…and 9 more.
+…and 10 more.
 
 ## Toolkit by situation
 
@@ -96,7 +96,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:multicultural-team` | `cm:direct-vs-indirect-feedback` |
 | `cm:multicultural-team` | `cm:the-culture-map` |
 
-…and 31 more.
+…and 32 more.
 
 ## Myths and contested advice
 
@@ -135,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:communicating-uncertainty` | mixed |  |
 | `cm:concession-strategy` | mixed |  |
 
-…and 59 more.
+…and 60 more.
 
 ## Concepts with no recorded origin (gap)
 
