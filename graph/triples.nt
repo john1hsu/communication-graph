@@ -4092,6 +4092,34 @@
 <https://github.com/john1hsu/communication-graph/id/pyramid-principle> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
 <https://github.com/john1hsu/communication-graph/id/pyramid-principle> <https://github.com/john1hsu/communication-graph/ontology#structures> <https://github.com/john1hsu/communication-graph/id/business-report> .
 <https://github.com/john1hsu/communication-graph/id/pyramid-principle> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/lorch-lorch-1996> .
+<https://github.com/john1hsu/communication-graph/id/quintilian> <http://purl.org/dc/terms/created> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/quintilian> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+<https://github.com/john1hsu/communication-graph/id/quintilian> <http://www.w3.org/2000/01/rdf-schema#label> "Quintilian" .
+<https://github.com/john1hsu/communication-graph/id/quintilian> <http://www.w3.org/2004/02/skos/core#altLabel> "Marcus Fabius Quintilianus" .
+<https://github.com/john1hsu/communication-graph/id/quintilian> <http://www.w3.org/2004/02/skos/core#altLabel> "Quintilianus" .
+<https://github.com/john1hsu/communication-graph/id/quintilian> <http://www.w3.org/2004/02/skos/core#definition> "Roman teacher of rhetoric (c. AD 35 - after 96) whose twelve-book Institutio oratoria made clarity (perspicuitas) the first virtue of style and set its classic test: speak so that the listener cannot fail to understand you, not merely so that they can." .
+<https://github.com/john1hsu/communication-graph/id/quintilian> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works> .
+<https://github.com/john1hsu/communication-graph/id/quintilian> <http://www.w3.org/2004/02/skos/core#prefLabel> "Quintilian" .
+<https://github.com/john1hsu/communication-graph/id/quintilian> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> .
+<https://github.com/john1hsu/communication-graph/id/quintilian> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
+<https://github.com/john1hsu/communication-graph/id/quintilian> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/clarity> .
+<https://github.com/john1hsu/communication-graph/id/quintilian> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/concise-writing> .
+<https://github.com/john1hsu/communication-graph/id/quintilian> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/plain-language> .
+<https://github.com/john1hsu/communication-graph/id/quintilian> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/william-strunk-jr> .
+<https://github.com/john1hsu/communication-graph/id/quintilian> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/quintilian/s1> .
+<https://github.com/john1hsu/communication-graph/id/quintilian> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/quintilian/s2> .
+<https://github.com/john1hsu/communication-graph/id/quintilian> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/quintilian/s3> .
+<https://github.com/john1hsu/communication-graph/id/quintilian> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/quintilian/s4> .
+<https://github.com/john1hsu/communication-graph/id/quintilian> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/quintilian/s5> .
+<https://github.com/john1hsu/communication-graph/id/quintilian> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/quintilian/s6> .
+<https://github.com/john1hsu/communication-graph/id/quintilian> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/institutio-oratoria> .
+<https://github.com/john1hsu/communication-graph/id/quintilian> <https://github.com/john1hsu/communication-graph/ontology#domain> "thinkers-and-works" .
+<https://github.com/john1hsu/communication-graph/id/quintilian> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "historical" .
+<https://github.com/john1hsu/communication-graph/id/quintilian> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/thinkers-and-works/quintilian.md" .
+<https://github.com/john1hsu/communication-graph/id/quintilian> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/cicero> .
+<https://github.com/john1hsu/communication-graph/id/quintilian> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/clarity> .
+<https://github.com/john1hsu/communication-graph/id/quintilian> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/quintilian> <https://github.com/john1hsu/communication-graph/ontology#studiedIn> <https://github.com/john1hsu/communication-graph/id/rhetoric> .
 <https://github.com/john1hsu/communication-graph/id/raci-matrix/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/raci-matrix/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "For this decision, can everyone involved name the one person who makes the final call?" .
 <https://github.com/john1hsu/communication-graph/id/raci-matrix/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/raci-matrix> .
@@ -7505,6 +7533,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/pyramid-principle/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/pyramid-principle/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/communication-graph/id/source/pyramid-principle/s5> <https://schema.org/url> <https://scholars.uky.edu/es/publications/effects-of-organizational-signals-on-free-recall-of-expository-te/> .
+<https://github.com/john1hsu/communication-graph/id/source/quintilian/s1> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/quintilian/s1> <http://purl.org/dc/terms/publisher> "Quintilian; Watson translation edited by Lee Honeycutt, hosted by Kairos - A Journal of Rhetoric, Technology, and Pedagogy" .
+<https://github.com/john1hsu/communication-graph/id/source/quintilian/s1> <http://purl.org/dc/terms/title> "Institutes of Oratory, Book 8, Chapter 2 (On perspicuity), trans. John Selby Watson" .
+<https://github.com/john1hsu/communication-graph/id/source/quintilian/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/quintilian/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/quintilian/s1> <https://schema.org/url> <https://kairos.technorhetoric.net/stasis/2017/honeycutt/quintilian/8/chapter2.html> .
+<https://github.com/john1hsu/communication-graph/id/source/quintilian/s2> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/quintilian/s2> <http://purl.org/dc/terms/publisher> "Encyclopaedia Britannica" .
+<https://github.com/john1hsu/communication-graph/id/source/quintilian/s2> <http://purl.org/dc/terms/title> "Quintilian: Roman rhetorician" .
+<https://github.com/john1hsu/communication-graph/id/source/quintilian/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/quintilian/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "encyclopedia" .
+<https://github.com/john1hsu/communication-graph/id/source/quintilian/s2> <https://schema.org/url> <https://www.britannica.com/biography/Quintilian> .
+<https://github.com/john1hsu/communication-graph/id/source/quintilian/s3> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/quintilian/s3> <http://purl.org/dc/terms/publisher> "Silva Rhetoricae, Brigham Young University" .
+<https://github.com/john1hsu/communication-graph/id/source/quintilian/s3> <http://purl.org/dc/terms/title> "Virtues of style (Silva Rhetoricae)" .
+<https://github.com/john1hsu/communication-graph/id/source/quintilian/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/quintilian/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/quintilian/s3> <https://schema.org/url> <https://rhetoric.byu.edu/Canons/Style/Style-Virtues.htm> .
+<https://github.com/john1hsu/communication-graph/id/source/quintilian/s4> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/quintilian/s4> <http://purl.org/dc/terms/publisher> "Margarida Lopes de Miranda, Humanitas 66 (2014), 257-267, University of Coimbra, doi:10.14195/2183-1718_66_13" .
+<https://github.com/john1hsu/communication-graph/id/source/quintilian/s4> <http://purl.org/dc/terms/title> "From sheathed to wielded sword: About Quintilian's doctrine on style" .
+<https://github.com/john1hsu/communication-graph/id/source/quintilian/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/quintilian/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/quintilian/s4> <https://schema.org/url> <https://impactum-journals.uc.pt/humanitas/article/view/_66_13> .
+<https://github.com/john1hsu/communication-graph/id/source/quintilian/s5> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/quintilian/s5> <http://purl.org/dc/terms/publisher> "Jerzy Styka, Classica Cracoviensia 20 (2017), 119-139, doi:10.12797/CC.20.2017.20.07" .
+<https://github.com/john1hsu/communication-graph/id/source/quintilian/s5> <http://purl.org/dc/terms/title> "The Stylistic Category of Clarity in the Eyes of Greek and Roman Writers" .
+<https://github.com/john1hsu/communication-graph/id/source/quintilian/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/quintilian/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/quintilian/s5> <https://schema.org/url> <https://journals.akademicka.pl/cc/article/view/83> .
+<https://github.com/john1hsu/communication-graph/id/source/quintilian/s6> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/quintilian/s6> <http://purl.org/dc/terms/publisher> "Bill Thayer, LacusCurtius, University of Chicago" .
+<https://github.com/john1hsu/communication-graph/id/source/quintilian/s6> <http://purl.org/dc/terms/title> "Institutio Oratoria (Loeb Classical Library text and translation by H. E. Butler, 1920-1922), contents" .
+<https://github.com/john1hsu/communication-graph/id/source/quintilian/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/quintilian/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/quintilian/s6> <https://schema.org/url> <https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Quintilian/Institutio_Oratoria/home.html> .
 <https://github.com/john1hsu/communication-graph/id/source/raci-matrix/s1> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/raci-matrix/s1> <http://purl.org/dc/terms/publisher> "Simona Gilboa, Arie Shirom, Yitzhak Fried & Cary L. Cooper, Personnel Psychology 61(2), 227-271, 2008 (Lancaster University repository author copy)" .
 <https://github.com/john1hsu/communication-graph/id/source/raci-matrix/s1> <http://purl.org/dc/terms/title> "A meta-analysis of work demand stressors and job performance: examining main and moderating effects" .

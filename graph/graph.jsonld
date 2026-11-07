@@ -6965,6 +6965,80 @@
    ]
   },
   {
+   "@id": "cm:quintilian",
+   "@type": "cmo:Person",
+   "cmo:authored": {
+    "@id": "cm:institutio-oratoria"
+   },
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "historical",
+   "cmo:file": "articles/thinkers-and-works/quintilian.md",
+   "cmo:influencedBy": {
+    "@id": "cm:cicero"
+   },
+   "cmo:introduced": {
+    "@id": "cm:clarity"
+   },
+   "cmo:level": "introductory",
+   "cmo:studiedIn": {
+    "@id": "cm:rhetoric"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/quintilian/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/quintilian/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/quintilian/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/quintilian/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/quintilian/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/quintilian/s6"
+    }
+   ],
+   "rdfs:label": "Quintilian",
+   "skos:altLabel": [
+    "Marcus Fabius Quintilianus",
+    "Quintilianus"
+   ],
+   "skos:definition": "Roman teacher of rhetoric (c. AD 35 - after 96) whose twelve-book Institutio oratoria made clarity (perspicuitas) the first virtue of style and set its classic test: speak so that the listener cannot fail to understand you, not merely so that they can.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "Quintilian",
+   "skos:related": [
+    {
+     "@id": "cm:aristotles-rhetoric"
+    },
+    {
+     "@id": "cm:audience-analysis"
+    },
+    {
+     "@id": "cm:clarity"
+    },
+    {
+     "@id": "cm:concise-writing"
+    },
+    {
+     "@id": "cm:plain-language"
+    },
+    {
+     "@id": "cm:william-strunk-jr"
+    }
+   ]
+  },
+  {
    "@id": "cm:raci-matrix",
    "@type": "cmo:Technique",
    "cmo:addresses": {
@@ -20037,6 +20111,90 @@
    "dcterms:title": "Effects of organizational signals on free recall of expository text",
    "schema:url": {
     "@id": "https://scholars.uky.edu/es/publications/effects-of-organizational-signals-on-free-recall-of-expository-te/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/quintilian/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Quintilian; Watson translation edited by Lee Honeycutt, hosted by Kairos - A Journal of Rhetoric, Technology, and Pedagogy",
+   "dcterms:title": "Institutes of Oratory, Book 8, Chapter 2 (On perspicuity), trans. John Selby Watson",
+   "schema:url": {
+    "@id": "https://kairos.technorhetoric.net/stasis/2017/honeycutt/quintilian/8/chapter2.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/quintilian/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Encyclopaedia Britannica",
+   "dcterms:title": "Quintilian: Roman rhetorician",
+   "schema:url": {
+    "@id": "https://www.britannica.com/biography/Quintilian"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/quintilian/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Silva Rhetoricae, Brigham Young University",
+   "dcterms:title": "Virtues of style (Silva Rhetoricae)",
+   "schema:url": {
+    "@id": "https://rhetoric.byu.edu/Canons/Style/Style-Virtues.htm"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/quintilian/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Margarida Lopes de Miranda, Humanitas 66 (2014), 257-267, University of Coimbra, doi:10.14195/2183-1718_66_13",
+   "dcterms:title": "From sheathed to wielded sword: About Quintilian's doctrine on style",
+   "schema:url": {
+    "@id": "https://impactum-journals.uc.pt/humanitas/article/view/_66_13"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/quintilian/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Jerzy Styka, Classica Cracoviensia 20 (2017), 119-139, doi:10.12797/CC.20.2017.20.07",
+   "dcterms:title": "The Stylistic Category of Clarity in the Eyes of Greek and Roman Writers",
+   "schema:url": {
+    "@id": "https://journals.akademicka.pl/cc/article/view/83"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/quintilian/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Bill Thayer, LacusCurtius, University of Chicago",
+   "dcterms:title": "Institutio Oratoria (Loeb Classical Library text and translation by H. E. Butler, 1920-1922), contents",
+   "schema:url": {
+    "@id": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Quintilian/Institutio_Oratoria/home.html"
    }
   },
   {

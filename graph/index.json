@@ -7917,6 +7917,82 @@
   ]
  },
  {
+  "id": "cm:quintilian",
+  "title": "Quintilian",
+  "aliases": [
+   "Marcus Fabius Quintilianus",
+   "Quintilianus"
+  ],
+  "type": "Person",
+  "domain": "thinkers-and-works",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/thinkers-and-works/quintilian.md",
+  "created": "2026-11-07",
+  "summary": "Roman teacher of rhetoric (c. AD 35 - after 96) whose twelve-book Institutio oratoria made clarity (perspicuitas) the first virtue of style and set its classic test: speak so that the listener cannot fail to understand you, not merely so that they can.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "cm:clarity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:aristotles-rhetoric"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:plain-language"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:audience-analysis"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:william-strunk-jr"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:concise-writing"
+   },
+   {
+    "predicate": "cmo:introduced",
+    "object": "cm:clarity",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:authored",
+    "object": "cm:institutio-oratoria",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:influencedBy",
+    "object": "cm:cicero",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:studiedIn",
+    "object": "cm:rhetoric",
+    "source": "s3",
+    "confidence": "high"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://kairos.technorhetoric.net/stasis/2017/honeycutt/quintilian/8/chapter2.html",
+   "https://www.britannica.com/biography/Quintilian",
+   "https://rhetoric.byu.edu/Canons/Style/Style-Virtues.htm",
+   "https://impactum-journals.uc.pt/humanitas/article/view/_66_13",
+   "https://journals.akademicka.pl/cc/article/view/83",
+   "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Quintilian/Institutio_Oratoria/home.html"
+  ]
+ },
+ {
   "id": "cm:raci-matrix",
   "title": "RACI matrix",
   "aliases": [
