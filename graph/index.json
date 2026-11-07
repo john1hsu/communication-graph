@@ -9343,6 +9343,108 @@
   ]
  },
  {
+  "id": "cm:workplace-meetings",
+  "title": "Workplace meetings",
+  "aliases": [
+   "work meetings",
+   "team meetings",
+   "business meetings",
+   "meeting science"
+  ],
+  "type": "Context",
+  "domain": "meetings-and-facilitation",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/meetings-and-facilitation/workplace-meetings.md",
+  "created": "2026-11-07",
+  "summary": "Planned gatherings of two or more colleagues, in person or online, held to share information, solve problems or make decisions together; the recurring situation that meeting science studies and that agendas, facilitation and recaps are designed for.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:group-communication"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "cm:organizational-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:asynchronous-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:meeting-agendas"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:facilitation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:one-on-one-meetings"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:meeting-recaps"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:psychological-safety"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:raci-matrix"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:nominal-group-technique"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:zoom-fatigue"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:camera-optional-norm"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:kauffeld-lehmann-willenbrock-2012",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:rogelberg-leach-burnfield-2006",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:causes",
+    "object": "cm:meeting-recovery-syndrome",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:studiedIn",
+    "object": "cm:meeting-science",
+    "source": "s1",
+    "confidence": "high"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://core.ac.uk/download/232773004.pdf",
+   "https://www.mangold-international.com/research/publications/human-behavior/meetings-matter-effects-of-work-group-communication-on-organizational-success",
+   "https://www.apa.org/monitor/2016/12/great-meetings",
+   "https://eurekalert.org/pub_releases/2006-02/uonc-ssf022406.php",
+   "https://sloanreview.mit.edu/?p=97686",
+   "https://www.cambridge.org/core/books/abs/cambridge-handbook-of-meeting-science/an-introduction-tothe-cambridge-handbook-of-meeting-science/2F57199A6F89BCC3A4442B16893022A6"
+  ]
+ },
+ {
   "id": "cm:zone-of-possible-agreement",
   "title": "Zone of possible agreement",
   "aliases": [

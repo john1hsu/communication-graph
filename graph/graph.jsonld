@@ -8180,6 +8180,104 @@
    ]
   },
   {
+   "@id": "cm:workplace-meetings",
+   "@type": "cmo:Context",
+   "cmo:causes": {
+    "@id": "cm:meeting-recovery-syndrome"
+   },
+   "cmo:demonstratedBy": [
+    {
+     "@id": "cm:kauffeld-lehmann-willenbrock-2012"
+    },
+    {
+     "@id": "cm:rogelberg-leach-burnfield-2006"
+    }
+   ],
+   "cmo:domain": "meetings-and-facilitation",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:file": "articles/meetings-and-facilitation/workplace-meetings.md",
+   "cmo:level": "introductory",
+   "cmo:studiedIn": {
+    "@id": "cm:meeting-science"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/workplace-meetings/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/workplace-meetings/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/workplace-meetings/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/workplace-meetings/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/workplace-meetings/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/workplace-meetings/s6"
+    }
+   ],
+   "rdfs:label": "Workplace meetings",
+   "skos:altLabel": [
+    "business meetings",
+    "meeting science",
+    "team meetings",
+    "work meetings"
+   ],
+   "skos:broader": [
+    {
+     "@id": "cm:group-communication"
+    },
+    {
+     "@id": "cm:organizational-communication"
+    }
+   ],
+   "skos:definition": "Planned gatherings of two or more colleagues, in person or online, held to share information, solve problems or make decisions together; the recurring situation that meeting science studies and that agendas, facilitation and recaps are designed for.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/meetings-and-facilitation"
+   },
+   "skos:prefLabel": "Workplace meetings",
+   "skos:related": [
+    {
+     "@id": "cm:asynchronous-communication"
+    },
+    {
+     "@id": "cm:camera-optional-norm"
+    },
+    {
+     "@id": "cm:facilitation"
+    },
+    {
+     "@id": "cm:meeting-agendas"
+    },
+    {
+     "@id": "cm:meeting-recaps"
+    },
+    {
+     "@id": "cm:nominal-group-technique"
+    },
+    {
+     "@id": "cm:one-on-one-meetings"
+    },
+    {
+     "@id": "cm:psychological-safety"
+    },
+    {
+     "@id": "cm:raci-matrix"
+    },
+    {
+     "@id": "cm:zoom-fatigue"
+    }
+   ]
+  },
+  {
    "@id": "cm:zone-of-possible-agreement",
    "@type": "cmo:Concept",
    "cmo:complements": {
@@ -19800,6 +19898,90 @@
    "dcterms:title": "On measuring agreement with numerically bounded linguistic probability schemes: A re-analysis of data from Wintle, Fraser, Wills, Nicholson, and Fidler (2019)",
    "schema:url": {
     "@id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7971511/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/workplace-meetings/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Nale Lehmann-Willenbrock, Steven G. Rogelberg, Joseph A. Allen & John E. Kello, Organizational Dynamics 47(1), 32-36 (2018), doi:10.1016/j.orgdyn.2017.07.005 (University of Nebraska Omaha repository copy via CORE)",
+   "dcterms:title": "The critical importance of meetings to leader and organizational success: Evidence-based insights and implications for key stakeholders",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/232773004.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/workplace-meetings/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Simone Kauffeld & Nale Lehmann-Willenbrock, Small Group Research, doi:10.1177/1046496411429599 (study summary on Mangold International's research publications page)",
+   "dcterms:title": "Meetings Matter: Effects of Work Group Communication on Organizational Success",
+   "schema:url": {
+    "@id": "https://www.mangold-international.com/research/publications/human-behavior/meetings-matter-effects-of-work-group-communication-on-organizational-success"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/workplace-meetings/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Jamie Chamberlin, Monitor on Psychology 47(11), American Psychological Association (December 2016)",
+   "dcterms:title": "Stop wasting time: Keys to great meetings",
+   "schema:url": {
+    "@id": "https://www.apa.org/monitor/2016/12/great-meetings"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/workplace-meetings/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "news",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "University of North Carolina at Charlotte news release via EurekAlert! (AAAS), February 2006",
+   "dcterms:title": "News release on Rogelberg, Leach & Burnfield, 'Not another meeting': Are meeting time demands related to employee well-being? (Journal of Applied Psychology 91(2), 2006)",
+   "schema:url": {
+    "@id": "https://eurekalert.org/pub_releases/2006-02/uonc-ssf022406.php"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/workplace-meetings/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "practitioner-journal",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "MIT Sloan Management Review",
+   "dcterms:title": "The Surprising Impact of Meeting-Free Days",
+   "schema:url": {
+    "@id": "https://sloanreview.mit.edu/?p=97686"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/workplace-meetings/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Joseph A. Allen, Nale Lehmann-Willenbrock & Steven G. Rogelberg, in The Cambridge Handbook of Meeting Science, Cambridge University Press, pp. 3-11 (2015), doi:10.1017/CBO9781107589735.001",
+   "dcterms:title": "An Introduction to The Cambridge Handbook of Meeting Science: Why Now?",
+   "schema:url": {
+    "@id": "https://www.cambridge.org/core/books/abs/cambridge-handbook-of-meeting-science/an-introduction-tothe-cambridge-handbook-of-meeting-science/2F57199A6F89BCC3A4442B16893022A6"
    }
   },
   {

@@ -7537,6 +7537,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/words-of-estimative-probability/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/words-of-estimative-probability/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/communication-graph/id/source/words-of-estimative-probability/s4> <https://schema.org/url> <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7971511/> .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-meetings/s1> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-meetings/s1> <http://purl.org/dc/terms/publisher> "Nale Lehmann-Willenbrock, Steven G. Rogelberg, Joseph A. Allen & John E. Kello, Organizational Dynamics 47(1), 32-36 (2018), doi:10.1016/j.orgdyn.2017.07.005 (University of Nebraska Omaha repository copy via CORE)" .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-meetings/s1> <http://purl.org/dc/terms/title> "The critical importance of meetings to leader and organizational success: Evidence-based insights and implications for key stakeholders" .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-meetings/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-meetings/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-meetings/s1> <https://schema.org/url> <https://core.ac.uk/download/232773004.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-meetings/s2> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-meetings/s2> <http://purl.org/dc/terms/publisher> "Simone Kauffeld & Nale Lehmann-Willenbrock, Small Group Research, doi:10.1177/1046496411429599 (study summary on Mangold International's research publications page)" .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-meetings/s2> <http://purl.org/dc/terms/title> "Meetings Matter: Effects of Work Group Communication on Organizational Success" .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-meetings/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-meetings/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-meetings/s2> <https://schema.org/url> <https://www.mangold-international.com/research/publications/human-behavior/meetings-matter-effects-of-work-group-communication-on-organizational-success> .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-meetings/s3> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-meetings/s3> <http://purl.org/dc/terms/publisher> "Jamie Chamberlin, Monitor on Psychology 47(11), American Psychological Association (December 2016)" .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-meetings/s3> <http://purl.org/dc/terms/title> "Stop wasting time: Keys to great meetings" .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-meetings/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-meetings/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-meetings/s3> <https://schema.org/url> <https://www.apa.org/monitor/2016/12/great-meetings> .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-meetings/s4> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-meetings/s4> <http://purl.org/dc/terms/publisher> "University of North Carolina at Charlotte news release via EurekAlert! (AAAS), February 2006" .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-meetings/s4> <http://purl.org/dc/terms/title> "News release on Rogelberg, Leach & Burnfield, 'Not another meeting': Are meeting time demands related to employee well-being? (Journal of Applied Psychology 91(2), 2006)" .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-meetings/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-meetings/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "news" .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-meetings/s4> <https://schema.org/url> <https://eurekalert.org/pub_releases/2006-02/uonc-ssf022406.php> .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-meetings/s5> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-meetings/s5> <http://purl.org/dc/terms/publisher> "MIT Sloan Management Review" .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-meetings/s5> <http://purl.org/dc/terms/title> "The Surprising Impact of Meeting-Free Days" .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-meetings/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-meetings/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "practitioner-journal" .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-meetings/s5> <https://schema.org/url> <https://sloanreview.mit.edu/?p=97686> .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-meetings/s6> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-meetings/s6> <http://purl.org/dc/terms/publisher> "Joseph A. Allen, Nale Lehmann-Willenbrock & Steven G. Rogelberg, in The Cambridge Handbook of Meeting Science, Cambridge University Press, pp. 3-11 (2015), doi:10.1017/CBO9781107589735.001" .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-meetings/s6> <http://purl.org/dc/terms/title> "An Introduction to The Cambridge Handbook of Meeting Science: Why Now?" .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-meetings/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-meetings/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-meetings/s6> <https://schema.org/url> <https://www.cambridge.org/core/books/abs/cambridge-handbook-of-meeting-science/an-introduction-tothe-cambridge-handbook-of-meeting-science/2F57199A6F89BCC3A4442B16893022A6> .
 <https://github.com/john1hsu/communication-graph/id/source/zone-of-possible-agreement/s1> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/zone-of-possible-agreement/s1> <http://purl.org/dc/terms/publisher> "Katie Shonk, Program on Negotiation at Harvard Law School, 2026" .
 <https://github.com/john1hsu/communication-graph/id/source/zone-of-possible-agreement/s1> <http://purl.org/dc/terms/title> "How to Find the ZOPA in Business Negotiations" .
@@ -8229,6 +8265,42 @@
 <https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/sherman-kent> .
 <https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/mandel-irwin-2021> .
+<https://github.com/john1hsu/communication-graph/id/workplace-meetings> <http://purl.org/dc/terms/created> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/workplace-meetings> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Context> .
+<https://github.com/john1hsu/communication-graph/id/workplace-meetings> <http://www.w3.org/2000/01/rdf-schema#label> "Workplace meetings" .
+<https://github.com/john1hsu/communication-graph/id/workplace-meetings> <http://www.w3.org/2004/02/skos/core#altLabel> "business meetings" .
+<https://github.com/john1hsu/communication-graph/id/workplace-meetings> <http://www.w3.org/2004/02/skos/core#altLabel> "meeting science" .
+<https://github.com/john1hsu/communication-graph/id/workplace-meetings> <http://www.w3.org/2004/02/skos/core#altLabel> "team meetings" .
+<https://github.com/john1hsu/communication-graph/id/workplace-meetings> <http://www.w3.org/2004/02/skos/core#altLabel> "work meetings" .
+<https://github.com/john1hsu/communication-graph/id/workplace-meetings> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/group-communication> .
+<https://github.com/john1hsu/communication-graph/id/workplace-meetings> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
+<https://github.com/john1hsu/communication-graph/id/workplace-meetings> <http://www.w3.org/2004/02/skos/core#definition> "Planned gatherings of two or more colleagues, in person or online, held to share information, solve problems or make decisions together; the recurring situation that meeting science studies and that agendas, facilitation and recaps are designed for." .
+<https://github.com/john1hsu/communication-graph/id/workplace-meetings> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/meetings-and-facilitation> .
+<https://github.com/john1hsu/communication-graph/id/workplace-meetings> <http://www.w3.org/2004/02/skos/core#prefLabel> "Workplace meetings" .
+<https://github.com/john1hsu/communication-graph/id/workplace-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> .
+<https://github.com/john1hsu/communication-graph/id/workplace-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> .
+<https://github.com/john1hsu/communication-graph/id/workplace-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/facilitation> .
+<https://github.com/john1hsu/communication-graph/id/workplace-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/meeting-agendas> .
+<https://github.com/john1hsu/communication-graph/id/workplace-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/meeting-recaps> .
+<https://github.com/john1hsu/communication-graph/id/workplace-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> .
+<https://github.com/john1hsu/communication-graph/id/workplace-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> .
+<https://github.com/john1hsu/communication-graph/id/workplace-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
+<https://github.com/john1hsu/communication-graph/id/workplace-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/raci-matrix> .
+<https://github.com/john1hsu/communication-graph/id/workplace-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> .
+<https://github.com/john1hsu/communication-graph/id/workplace-meetings> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/workplace-meetings/s1> .
+<https://github.com/john1hsu/communication-graph/id/workplace-meetings> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/workplace-meetings/s2> .
+<https://github.com/john1hsu/communication-graph/id/workplace-meetings> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/workplace-meetings/s3> .
+<https://github.com/john1hsu/communication-graph/id/workplace-meetings> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/workplace-meetings/s4> .
+<https://github.com/john1hsu/communication-graph/id/workplace-meetings> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/workplace-meetings/s5> .
+<https://github.com/john1hsu/communication-graph/id/workplace-meetings> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/workplace-meetings/s6> .
+<https://github.com/john1hsu/communication-graph/id/workplace-meetings> <https://github.com/john1hsu/communication-graph/ontology#causes> <https://github.com/john1hsu/communication-graph/id/meeting-recovery-syndrome> .
+<https://github.com/john1hsu/communication-graph/id/workplace-meetings> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/kauffeld-lehmann-willenbrock-2012> .
+<https://github.com/john1hsu/communication-graph/id/workplace-meetings> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/rogelberg-leach-burnfield-2006> .
+<https://github.com/john1hsu/communication-graph/id/workplace-meetings> <https://github.com/john1hsu/communication-graph/ontology#domain> "meetings-and-facilitation" .
+<https://github.com/john1hsu/communication-graph/id/workplace-meetings> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/workplace-meetings> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/meetings-and-facilitation/workplace-meetings.md" .
+<https://github.com/john1hsu/communication-graph/id/workplace-meetings> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/workplace-meetings> <https://github.com/john1hsu/communication-graph/ontology#studiedIn> <https://github.com/john1hsu/communication-graph/id/meeting-science> .
 <https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> <http://purl.org/dc/terms/created> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
 <https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> <http://www.w3.org/2000/01/rdf-schema#label> "Zone of possible agreement" .
