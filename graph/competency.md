@@ -105,6 +105,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | node | status | challenger |
 |---|---|---|
 | `cm:anxiety-reappraisal` | contested | `cm:poynter-smith-pasqualini-2025` |
+| `cm:chen-2002` | contested | `cm:horstmann-linke-2022` |
 | `cm:feedback-sandwich` | contested | `cm:bottini-gillis-2021` |
 | `cm:feedback-sandwich` | contested | `cm:henley-digennaro-reed-2015` |
 | `cm:feedback-sandwich` | contested | `cm:parkes-abercrombie-mccarty-2013` |
@@ -133,9 +134,8 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:considering-others-contributions-first` | mixed |  |
 | `cm:credibility` | mixed |  |
 | `cm:curse-of-knowledge` | mixed | `cm:ryskin-brown-schmidt-2014` |
-| `cm:defensiveness` | mixed | `cm:forward-czech-lee-2011` |
 
-…and 51 more.
+…and 52 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -143,7 +143,6 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 
 | node | type |
 |---|---|
-| `cm:camera-level-gaze` | cmo:Technique |
 | `cm:clarity` | cmo:Concept |
 | `cm:considering-others-contributions-first` | cmo:Technique |
 | `cm:credibility` | cmo:Concept |
@@ -173,8 +172,9 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:social-accounts` | cmo:Technique |
 | `cm:speaking-anxiety` | cmo:Barrier |
 | `cm:stakeholder-mapping` | cmo:Technique |
+| `cm:status-reporting` | cmo:Genre |
 
-…and 5 more.
+…and 4 more.
 
 ## Orphan articles (gap)
 

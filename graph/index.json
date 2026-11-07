@@ -1634,6 +1634,79 @@
   ]
  },
  {
+  "id": "cm:chen-2002",
+  "title": "Leveraging the Asymmetric Sensitivity of Eye Contact for Videoconferencing",
+  "aliases": [
+   "Chen (2002)",
+   "Chen 2002 eye contact paper",
+   "snap to contact"
+  ],
+  "type": "Work",
+  "domain": "thinkers-and-works",
+  "level": "intermediate",
+  "evidenceStatus": "contested",
+  "file": "articles/thinkers-and-works/chen-2002.md",
+  "created": "2026-11-07",
+  "summary": "Milton Chen's 2002 CHI paper reporting that viewers barely notice when someone on video looks slightly below their eyes, and turning that finding into the design rule of placing the camera just above the other person's on-screen eyes, the basis of today's camera-level gaze advice.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:video-call-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:camera-level-gaze"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:eye-contact"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:nonverbal-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:zoom-fatigue"
+   },
+   {
+    "predicate": "cmo:introduces",
+    "object": "cm:camera-level-gaze",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:authoredBy",
+    "object": "cm:milton-chen",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:van-eijk-et-al-2010",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:horstmann-linke-2022",
+    "source": "s3",
+    "confidence": "high"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://graphics.stanford.edu/papers/eye_contact/paper.pdf",
+   "https://hci.stanford.edu/seminar/abstracts/01-02/020517-chen.html",
+   "https://cognitiveresearchjournal.springeropen.com/articles/10.1186/s41235-022-00418-1",
+   "https://cdn.amazon.science/cd/56/094c9e5444a38a799153642d6cc1/subjective-influence-of-camera-gaze-angular-offset.pdf",
+   "https://research.tue.nl/en/publications/human-sensitivity-to-eye-contact-in-2d-and-3d-videoconferencing/",
+   "https://arxiv.org/html/2404.17104v1"
+  ]
+ },
+ {
   "id": "cm:clarity",
   "title": "Clarity",
   "aliases": [

@@ -1005,6 +1005,34 @@
 <https://github.com/john1hsu/communication-graph/id/channel-selection> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
 <https://github.com/john1hsu/communication-graph/id/channel-selection> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/ask-in-person-study> .
 <https://github.com/john1hsu/communication-graph/id/channel-selection> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/egocentrism-over-email-study> .
+<https://github.com/john1hsu/communication-graph/id/chen-2002> <http://purl.org/dc/terms/created> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/chen-2002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
+<https://github.com/john1hsu/communication-graph/id/chen-2002> <http://www.w3.org/2000/01/rdf-schema#label> "Leveraging the Asymmetric Sensitivity of Eye Contact for Videoconferencing" .
+<https://github.com/john1hsu/communication-graph/id/chen-2002> <http://www.w3.org/2004/02/skos/core#altLabel> "Chen (2002)" .
+<https://github.com/john1hsu/communication-graph/id/chen-2002> <http://www.w3.org/2004/02/skos/core#altLabel> "Chen 2002 eye contact paper" .
+<https://github.com/john1hsu/communication-graph/id/chen-2002> <http://www.w3.org/2004/02/skos/core#altLabel> "snap to contact" .
+<https://github.com/john1hsu/communication-graph/id/chen-2002> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/video-call-communication> .
+<https://github.com/john1hsu/communication-graph/id/chen-2002> <http://www.w3.org/2004/02/skos/core#definition> "Milton Chen's 2002 CHI paper reporting that viewers barely notice when someone on video looks slightly below their eyes, and turning that finding into the design rule of placing the camera just above the other person's on-screen eyes, the basis of today's camera-level gaze advice." .
+<https://github.com/john1hsu/communication-graph/id/chen-2002> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works> .
+<https://github.com/john1hsu/communication-graph/id/chen-2002> <http://www.w3.org/2004/02/skos/core#prefLabel> "Leveraging the Asymmetric Sensitivity of Eye Contact for Videoconferencing" .
+<https://github.com/john1hsu/communication-graph/id/chen-2002> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/camera-level-gaze> .
+<https://github.com/john1hsu/communication-graph/id/chen-2002> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/eye-contact> .
+<https://github.com/john1hsu/communication-graph/id/chen-2002> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> .
+<https://github.com/john1hsu/communication-graph/id/chen-2002> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> .
+<https://github.com/john1hsu/communication-graph/id/chen-2002> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/chen-2002/s1> .
+<https://github.com/john1hsu/communication-graph/id/chen-2002> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/chen-2002/s2> .
+<https://github.com/john1hsu/communication-graph/id/chen-2002> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/chen-2002/s3> .
+<https://github.com/john1hsu/communication-graph/id/chen-2002> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/chen-2002/s4> .
+<https://github.com/john1hsu/communication-graph/id/chen-2002> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/chen-2002/s5> .
+<https://github.com/john1hsu/communication-graph/id/chen-2002> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/chen-2002/s6> .
+<https://github.com/john1hsu/communication-graph/id/chen-2002> <https://github.com/john1hsu/communication-graph/ontology#authoredBy> <https://github.com/john1hsu/communication-graph/id/milton-chen> .
+<https://github.com/john1hsu/communication-graph/id/chen-2002> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/horstmann-linke-2022> .
+<https://github.com/john1hsu/communication-graph/id/chen-2002> <https://github.com/john1hsu/communication-graph/ontology#domain> "thinkers-and-works" .
+<https://github.com/john1hsu/communication-graph/id/chen-2002> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "contested" .
+<https://github.com/john1hsu/communication-graph/id/chen-2002> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/thinkers-and-works/chen-2002.md" .
+<https://github.com/john1hsu/communication-graph/id/chen-2002> <https://github.com/john1hsu/communication-graph/ontology#introduces> <https://github.com/john1hsu/communication-graph/id/camera-level-gaze> .
+<https://github.com/john1hsu/communication-graph/id/chen-2002> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/communication-graph/id/chen-2002> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/van-eijk-et-al-2010> .
 <https://github.com/john1hsu/communication-graph/id/clarity> <http://purl.org/dc/terms/created> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/clarity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
 <https://github.com/john1hsu/communication-graph/id/clarity> <http://www.w3.org/2000/01/rdf-schema#label> "Clarity" .
@@ -5367,6 +5395,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/channel-selection/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/channel-selection/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/communication-graph/id/source/channel-selection/s6> <https://schema.org/url> <https://scholars.hkbu.edu.hk/en/publications/channel-expansion-theory-a-comprehensive-meta-analysis-literature/> .
+<https://github.com/john1hsu/communication-graph/id/source/chen-2002/s1> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/chen-2002/s1> <http://purl.org/dc/terms/publisher> "Milton Chen, Proceedings of CHI 2002 (ACM), Minneapolis, April 2002 (author's copy, Stanford Computer Graphics Laboratory)" .
+<https://github.com/john1hsu/communication-graph/id/source/chen-2002/s1> <http://purl.org/dc/terms/title> "Leveraging the Asymmetric Sensitivity of Eye Contact for Videoconferencing" .
+<https://github.com/john1hsu/communication-graph/id/source/chen-2002/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/chen-2002/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/chen-2002/s1> <https://schema.org/url> <https://graphics.stanford.edu/papers/eye_contact/paper.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/chen-2002/s2> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/chen-2002/s2> <http://purl.org/dc/terms/publisher> "Stanford University HCI Group, talk by Milton Chen, 17 May 2002" .
+<https://github.com/john1hsu/communication-graph/id/source/chen-2002/s2> <http://purl.org/dc/terms/title> "Design of a Video Auditorium (Seminar on People, Computers, and Design abstract)" .
+<https://github.com/john1hsu/communication-graph/id/source/chen-2002/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/chen-2002/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/chen-2002/s2> <https://schema.org/url> <https://hci.stanford.edu/seminar/abstracts/01-02/020517-chen.html> .
+<https://github.com/john1hsu/communication-graph/id/source/chen-2002/s3> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/chen-2002/s3> <http://purl.org/dc/terms/publisher> "Gernot Horstmann & Linda Linke, Cognitive Research: Principles and Implications 7, article 67, 2022" .
+<https://github.com/john1hsu/communication-graph/id/source/chen-2002/s3> <http://purl.org/dc/terms/title> "Perception of direct gaze in a video-conference setting: the effects of position and size" .
+<https://github.com/john1hsu/communication-graph/id/source/chen-2002/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/chen-2002/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/chen-2002/s3> <https://schema.org/url> <https://cognitiveresearchjournal.springeropen.com/articles/10.1186/s41235-022-00418-1> .
+<https://github.com/john1hsu/communication-graph/id/source/chen-2002/s4> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/chen-2002/s4> <http://purl.org/dc/terms/publisher> "Jan Holub, Scott Isabelle, Adéla Krylová & Hakob Avetisyan, IEEE Access 10, 2022 (Amazon Science author copy)" .
+<https://github.com/john1hsu/communication-graph/id/source/chen-2002/s4> <http://purl.org/dc/terms/title> "Subjective Influence of Camera-Gaze Angular Offset" .
+<https://github.com/john1hsu/communication-graph/id/source/chen-2002/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/chen-2002/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/chen-2002/s4> <https://schema.org/url> <https://cdn.amazon.science/cd/56/094c9e5444a38a799153642d6cc1/subjective-influence-of-camera-gaze-angular-offset.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/chen-2002/s5> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/chen-2002/s5> <http://purl.org/dc/terms/publisher> "R. L. J. van Eijk, A. Kuijsters, K. I. Dijkstra & W. A. IJsselsteijn, QoMEX 2010 (IEEE), pp. 76-81 (Eindhoven University of Technology research portal record)" .
+<https://github.com/john1hsu/communication-graph/id/source/chen-2002/s5> <http://purl.org/dc/terms/title> "Human sensitivity to eye contact in 2D and 3D videoconferencing" .
+<https://github.com/john1hsu/communication-graph/id/source/chen-2002/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/chen-2002/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/chen-2002/s5> <https://schema.org/url> <https://research.tue.nl/en/publications/human-sensitivity-to-eye-contact-in-2d-and-3d-videoconferencing/> .
+<https://github.com/john1hsu/communication-graph/id/source/chen-2002/s6> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/chen-2002/s6> <http://purl.org/dc/terms/publisher> "Gao, Jayakumar, Maniglia, Curless, Kemelmacher-Shlizerman, Seitz & Seitz, arXiv:2404.17104, 2024" .
+<https://github.com/john1hsu/communication-graph/id/source/chen-2002/s6> <http://purl.org/dc/terms/title> "Don't Look at the Camera: Achieving Perceived Eye Contact" .
+<https://github.com/john1hsu/communication-graph/id/source/chen-2002/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/chen-2002/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "preprint" .
+<https://github.com/john1hsu/communication-graph/id/source/chen-2002/s6> <https://schema.org/url> <https://arxiv.org/html/2404.17104v1> .
 <https://github.com/john1hsu/communication-graph/id/source/clarity/s1> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/clarity/s1> <http://purl.org/dc/terms/publisher> "Scott Titsworth and colleagues, Communication Education 64(4), 385-418 (2015), Taylor & Francis" .
 <https://github.com/john1hsu/communication-graph/id/source/clarity/s1> <http://purl.org/dc/terms/title> "Two Meta-analyses Exploring the Relationship between Teacher Clarity and Student Learning" .
