@@ -607,6 +607,15 @@ Ask yourself:
 - Did I end with a genuine check ("Have I got that right?") and accept a correction without defending myself?
 - Did I hold back my own view until they agreed I had understood them?
 
+### [Perspective-taking](../articles/listening/perspective-taking.md) — Skill
+
+Ask yourself:
+- Can I state what the other person is trying to achieve and what constrains them, without using my own goals?
+- Which of my beliefs about their view did I actually hear from them, and which did I only imagine?
+- What one question would confirm or overturn my best guess about their position?
+- Am I trying to understand their reasoning, or just feeling sorry for them in a way that will make me give ground I need?
+- Has imagining their side made me more suspicious or more competitive than the facts warrant?
+
 ### [Wait time](../articles/listening/wait-time.md) — Technique
 
 1. Ask one question, then stop talking - do not rephrase it, add a second question or offer a sample answer.

@@ -7724,6 +7724,116 @@
   ]
  },
  {
+  "id": "cm:perspective-taking",
+  "title": "Perspective-taking",
+  "aliases": [
+   "perspective taking",
+   "taking the other person's perspective",
+   "seeing it from their side",
+   "putting yourself in their shoes"
+  ],
+  "type": "Skill",
+  "domain": "listening",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/listening/perspective-taking.md",
+  "created": "2026-11-07",
+  "summary": "The deliberate mental effort to understand a situation from another person's point of view - their interests, goals, constraints and likely reasoning - used as a hypothesis to test rather than a conclusion, ideally confirmed by asking.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:interpersonal-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:egocentric-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:perspective-getting"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:empathy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:active-listening"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:open-ended-questions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:adam-galinsky"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:nicholas-epley"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:anchoring-and-adjustment"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:considering-others-contributions-first"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:galinsky-maddux-gilin-white-2008",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:salary-negotiation",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:egocentric-bias",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:eyal-steffel-epley-2018",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:perspective-getting",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:epley-caruso-bazerman-2006",
+    "source": "s3",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Can I state what the other person is trying to achieve and what constrains them, without using my own goals?",
+   "Which of my beliefs about their view did I actually hear from them, and which did I only imagine?",
+   "What one question would confirm or overturn my best guess about their position?",
+   "Am I trying to understand their reasoning, or just feeling sorry for them in a way that will make me give ground I need?",
+   "Has imagining their side made me more suspicious or more competitive than the facts warrant?"
+  ],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://willmaddux.web.unc.edu/wp-content/uploads/sites/15846/2019/01/Psych-Science-PT-Negotiations.pdf",
+   "https://cris.iucc.ac.il/en/publications/perspective-mistaking-accurately-understanding-the-mind-of-anothe/",
+   "https://www.pon.harvard.edu/daily/negotiation-skills-daily/when-we-expect-selfish-behavior/",
+   "https://eprints.whiterose.ac.uk/173470/6/Reich_et_al_Perspective_Taking_JOHP.pdf"
+  ]
+ },
+ {
   "id": "cm:plain-language",
   "title": "Plain language",
   "aliases": [

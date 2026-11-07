@@ -15,9 +15,9 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 2.20 | `cm:rapport` | `cm:video-call-communication` | `cm:camera-level-gaze`, `cm:channel-selection`, `cm:credibility`, `cm:face-to-face-conversation`, `cm:nonverbal-communication` |
 | 2.16 | `cm:audience-analysis` | `cm:illusion-of-transparency` | `cm:clarity`, `cm:common-ground`, `cm:communicating-uncertainty`, `cm:curse-of-knowledge`, `cm:email` |
 | 2.12 | `cm:i-statements` | `cm:weger-et-al-2014` | `cm:active-listening`, `cm:paraphrasing`, `cm:thomas-gordon` |
-| 2.11 | `cm:paraphrasing` | `cm:psychological-safety` | `cm:active-listening`, `cm:difficult-conversation`, `cm:facilitation`, `cm:interrupting`, `cm:open-ended-questions` |
-| 2.09 | `cm:humble-inquiry` | `cm:weger-et-al-2014` | `cm:active-listening`, `cm:advice-giving`, `cm:open-ended-questions` |
-| 2.07 | `cm:facilitation` | `cm:open-ended-questions` | `cm:active-listening`, `cm:meeting-agendas`, `cm:nominal-group-technique`, `cm:paraphrasing`, `cm:psychological-safety` |
+| 2.10 | `cm:paraphrasing` | `cm:psychological-safety` | `cm:active-listening`, `cm:difficult-conversation`, `cm:facilitation`, `cm:interrupting`, `cm:open-ended-questions` |
+| 2.08 | `cm:humble-inquiry` | `cm:weger-et-al-2014` | `cm:active-listening`, `cm:advice-giving`, `cm:open-ended-questions` |
+| 2.06 | `cm:facilitation` | `cm:open-ended-questions` | `cm:active-listening`, `cm:meeting-agendas`, `cm:nominal-group-technique`, `cm:paraphrasing`, `cm:psychological-safety` |
 | 2.06 | `cm:face-to-face-conversation` | `cm:zoom-fatigue` | `cm:asynchronous-communication`, `cm:channel-selection`, `cm:media-richness-theory`, `cm:nonverbal-communication`, `cm:proxemics` |
 | 2.02 | `cm:nominal-group-technique` | `cm:raci-matrix` | `cm:group-decision-making`, `cm:meeting-agendas`, `cm:stakeholder-mapping`, `cm:workplace-meetings` |
 | 2.01 | `cm:bottom-line-up-front` | `cm:curse-of-knowledge` | `cm:assertion-evidence-slides`, `cm:audience-analysis`, `cm:channel-selection`, `cm:clarity`, `cm:email` |
@@ -28,4 +28,4 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 1.87 | `cm:audience-analysis` | `cm:credibility` | `cm:aristotles-rhetoric`, `cm:communicating-uncertainty`, `cm:elaboration-likelihood-model`, `cm:influence-without-authority`, `cm:issue-selling` |
 | 1.86 | `cm:active-voice` | `cm:quintilian` | `cm:clarity`, `cm:concise-writing`, `cm:plain-language`, `cm:william-strunk-jr` |
 | 1.85 | `cm:bottom-line-up-front` | `cm:illusion-of-transparency` | `cm:clarity`, `cm:communicating-uncertainty`, `cm:email`, `cm:setting-reply-time-expectations`, `cm:words-of-estimative-probability` |
-| 1.85 | `cm:humble-inquiry` | `cm:wait-time` | `cm:active-listening`, `cm:open-ended-questions`, `cm:psychological-safety`, `cm:questioning` |
+| 1.84 | `cm:humble-inquiry` | `cm:wait-time` | `cm:active-listening`, `cm:open-ended-questions`, `cm:psychological-safety`, `cm:questioning` |

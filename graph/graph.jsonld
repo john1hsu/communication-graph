@@ -6811,6 +6811,96 @@
    ]
   },
   {
+   "@id": "cm:perspective-taking",
+   "@type": "cmo:Skill",
+   "cmo:addresses": {
+    "@id": "cm:egocentric-bias"
+   },
+   "cmo:appliedIn": {
+    "@id": "cm:salary-negotiation"
+   },
+   "cmo:challengedBy": [
+    {
+     "@id": "cm:epley-caruso-bazerman-2006"
+    },
+    {
+     "@id": "cm:eyal-steffel-epley-2018"
+    }
+   ],
+   "cmo:complements": {
+    "@id": "cm:perspective-getting"
+   },
+   "cmo:demonstratedBy": {
+    "@id": "cm:galinsky-maddux-gilin-white-2008"
+   },
+   "cmo:domain": "listening",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:file": "articles/listening/perspective-taking.md",
+   "cmo:level": "intermediate",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/perspective-taking/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/perspective-taking/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/perspective-taking/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/perspective-taking/s4"
+    }
+   ],
+   "rdfs:label": "Perspective-taking",
+   "skos:altLabel": [
+    "perspective taking",
+    "putting yourself in their shoes",
+    "seeing it from their side",
+    "taking the other person's perspective"
+   ],
+   "skos:broader": {
+    "@id": "cm:interpersonal-communication"
+   },
+   "skos:definition": "The deliberate mental effort to understand a situation from another person's point of view - their interests, goals, constraints and likely reasoning - used as a hypothesis to test rather than a conclusion, ideally confirmed by asking.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/listening"
+   },
+   "skos:prefLabel": "Perspective-taking",
+   "skos:related": [
+    {
+     "@id": "cm:active-listening"
+    },
+    {
+     "@id": "cm:adam-galinsky"
+    },
+    {
+     "@id": "cm:anchoring-and-adjustment"
+    },
+    {
+     "@id": "cm:considering-others-contributions-first"
+    },
+    {
+     "@id": "cm:egocentric-bias"
+    },
+    {
+     "@id": "cm:empathy"
+    },
+    {
+     "@id": "cm:nicholas-epley"
+    },
+    {
+     "@id": "cm:open-ended-questions"
+    },
+    {
+     "@id": "cm:perspective-getting"
+    }
+   ]
+  },
+  {
    "@id": "cm:plain-language",
    "@type": "cmo:Principle",
    "cmo:addresses": [
@@ -13093,6 +13183,46 @@
    "@type": "schema:HowToStep",
    "schema:position": 6,
    "schema:text": "Only once they confirm you have understood, give your own perspective, answer or proposal."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/perspective-taking/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:perspective-taking"
+   },
+   "rdfs:label": "Can I state what the other person is trying to achieve and what constrains them, without using my own goals?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/perspective-taking/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:perspective-taking"
+   },
+   "rdfs:label": "Which of my beliefs about their view did I actually hear from them, and which did I only imagine?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/perspective-taking/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:perspective-taking"
+   },
+   "rdfs:label": "What one question would confirm or overturn my best guess about their position?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/perspective-taking/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:perspective-taking"
+   },
+   "rdfs:label": "Am I trying to understand their reasoning, or just feeling sorry for them in a way that will make me give ground I need?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/perspective-taking/check/5",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:perspective-taking"
+   },
+   "rdfs:label": "Has imagining their side made me more suspicious or more competitive than the facts warrant?"
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/plain-language/check/1",
@@ -20199,6 +20329,62 @@
    "dcterms:title": "Monitoring and Developing - Performance Management and Accountability Playbook",
    "schema:url": {
     "@id": "https://www.opm.gov/policy-data-oversight/performance-management/performance-management-and-accountability-playbook/monitoring-and-developing/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/perspective-taking/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Galinsky, Maddux, Gilin and White, Psychological Science 19(4), 378-384, 2008 (author copy, University of North Carolina)",
+   "dcterms:title": "Why it pays to get inside the head of your opponent: The differential effects of perspective taking and empathy in negotiations",
+   "schema:url": {
+    "@id": "https://willmaddux.web.unc.edu/wp-content/uploads/sites/15846/2019/01/Psych-Science-PT-Negotiations.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/perspective-taking/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Eyal, Steffel and Epley, Journal of Personality and Social Psychology 114(4), 547-571, 2018 (Ben-Gurion University research portal record)",
+   "dcterms:title": "Perspective mistaking: Accurately understanding the mind of another requires getting perspective, not taking perspective",
+   "schema:url": {
+    "@id": "https://cris.iucc.ac.il/en/publications/perspective-mistaking-accurately-understanding-the-mind-of-anothe/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/perspective-taking/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Program on Negotiation at Harvard Law School, Negotiation Skills Daily",
+   "dcterms:title": "When We Expect Selfish Behavior (adapted from 'The Darker Side of Perspective Taking')",
+   "schema:url": {
+    "@id": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/when-we-expect-selfish-behavior/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/perspective-taking/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Reich, Hershcovis, Lyubykh, Niven, Parker and Stride, Journal of Occupational Health Psychology 26(5), 374-392, 2021 (accepted manuscript, White Rose eprints)",
+   "dcterms:title": "Observer reactions to workplace mistreatment: It's a matter of perspective",
+   "schema:url": {
+    "@id": "https://eprints.whiterose.ac.uk/173470/6/Reich_et_al_Perspective_Taking_JOHP.pdf"
    }
   },
   {

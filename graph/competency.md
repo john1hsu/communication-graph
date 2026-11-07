@@ -12,7 +12,9 @@ _No results._
 
 _Which written skills or dispositions have no technique, framework or principle that develops them?_ — `queries/02-skills-without-practice.rq`
 
-_No results._
+| skill | type |
+|---|---|
+| `cm:perspective-taking` | cmo:Skill |
 
 ## Situations, channels and formats with no guidance (gap)
 
@@ -54,10 +56,10 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:meeting-agendas` | 1 | unnecessary-meetings |
 | `cm:multiple-equivalent-simultaneous-offers` | 1 | negotiator-dilemma |
 | `cm:paraphrasing` | 1 | Active listening |
+| `cm:perspective-taking` | 1 | Egocentric bias |
 | `cm:pyramid-principle` | 1 | burying-the-lede |
-| `cm:raci-matrix` | 1 | role-ambiguity |
 
-…and 7 more.
+…and 8 more.
 
 ## Toolkit by situation
 
@@ -96,7 +98,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:multicultural-team` | `cm:the-culture-map` |
 | `cm:one-on-one-meetings` | `cm:active-listening` |
 
-…and 28 more.
+…and 29 more.
 
 ## Myths and contested advice
 
@@ -135,7 +137,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:communicating-uncertainty` | mixed |  |
 | `cm:considering-others-contributions-first` | mixed |  |
 
-…and 55 more.
+…and 57 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -161,6 +163,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:one-on-one-meetings` | cmo:Context |
 | `cm:open-ended-questions` | cmo:Technique |
 | `cm:performance-review` | cmo:Context |
+| `cm:perspective-taking` | cmo:Skill |
 | `cm:plain-language` | cmo:Principle |
 | `cm:presentation-rehearsal` | cmo:Technique |
 | `cm:raci-matrix` | cmo:Technique |
@@ -172,9 +175,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:small-talk` | cmo:Skill |
 | `cm:social-accounts` | cmo:Technique |
 | `cm:speaking-anxiety` | cmo:Barrier |
-| `cm:stakeholder-mapping` | cmo:Technique |
 
-…and 5 more.
+…and 6 more.
 
 ## Orphan articles (gap)
 
