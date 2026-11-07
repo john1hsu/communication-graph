@@ -1224,6 +1224,7 @@
 <https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2004/02/skos/core#prefLabel> "Credibility" .
 <https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> .
 <https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communicating-uncertainty> .
+<https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> .
 <https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/ethnocentrism> .
 <https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/influence-without-authority> .
 <https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/issue-selling> .
@@ -1579,6 +1580,41 @@
 <https://github.com/john1hsu/communication-graph/id/egocentric-bias> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/egocentric-bias> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/many-labs-2> .
 <https://github.com/john1hsu/communication-graph/id/egocentric-bias> <https://github.com/john1hsu/communication-graph/ontology#undermines> <https://github.com/john1hsu/communication-graph/id/clarity> .
+<https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> <http://purl.org/dc/terms/created> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Theory> .
+<https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> <http://www.w3.org/2000/01/rdf-schema#label> "Elaboration likelihood model" .
+<https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> <http://www.w3.org/2004/02/skos/core#altLabel> "ELM" .
+<https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> <http://www.w3.org/2004/02/skos/core#altLabel> "Petty and Cacioppo's dual-route model" .
+<https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> <http://www.w3.org/2004/02/skos/core#altLabel> "central and peripheral routes to persuasion" .
+<https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/persuasion> .
+<https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> <http://www.w3.org/2004/02/skos/core#definition> "Petty and Cacioppo's dual-process theory that people are persuaded either by thinking carefully about a message's arguments (the central route) or by reacting to simple cues such as who is speaking (the peripheral route), depending on how motivated and able they are to think about it." .
+<https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/persuasion-and-influence> .
+<https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> <http://www.w3.org/2004/02/skos/core#prefLabel> "Elaboration likelihood model" .
+<https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> .
+<https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
+<https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-load> .
+<https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/credibility> .
+<https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/heuristic-systematic-model> .
+<https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/influence-without-authority> .
+<https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/issue-selling> .
+<https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/rhetorical-appeals> .
+<https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/elaboration-likelihood-model/s1> .
+<https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/elaboration-likelihood-model/s2> .
+<https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/elaboration-likelihood-model/s3> .
+<https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/elaboration-likelihood-model/s4> .
+<https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/elaboration-likelihood-model/s5> .
+<https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/kitchen-et-al-2014> .
+<https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/persuasion-unimodel> .
+<https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/petty-cacioppo-goldman-1981> .
+<https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> <https://github.com/john1hsu/communication-graph/ontology#domain> "persuasion-and-influence" .
+<https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/persuasion-and-influence/elaboration-likelihood-model.md" .
+<https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/john-t-cacioppo> .
+<https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/richard-e-petty> .
+<https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> <https://github.com/john1hsu/communication-graph/ontology#introducedIn> <https://github.com/john1hsu/communication-graph/id/communication-and-persuasion> .
+<https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
+<https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> <https://github.com/john1hsu/communication-graph/ontology#studiedIn> <https://github.com/john1hsu/communication-graph/id/social-psychology> .
 <https://github.com/john1hsu/communication-graph/id/email> <http://purl.org/dc/terms/created> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/email> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Channel> .
 <https://github.com/john1hsu/communication-graph/id/email> <http://www.w3.org/2000/01/rdf-schema#label> "Email" .
@@ -5609,6 +5645,36 @@
 <https://github.com/john1hsu/communication-graph/id/source/egocentric-bias/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/egocentric-bias/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/communication-graph/id/source/egocentric-bias/s6> <https://schema.org/url> <https://scholarlypublications.universiteitleiden.nl/handle/1887/74652> .
+<https://github.com/john1hsu/communication-graph/id/source/elaboration-likelihood-model/s1> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/elaboration-likelihood-model/s1> <http://purl.org/dc/terms/publisher> "Petty, R. E., Cacioppo, J. T. & Goldman, R., Journal of Personality and Social Psychology 41(5), 847-855, 1981 (abstract record, SWOV Institute for Road Safety Research library)" .
+<https://github.com/john1hsu/communication-graph/id/source/elaboration-likelihood-model/s1> <http://purl.org/dc/terms/title> "Personal Involvement as a Determinant of Argument-Based Persuasion" .
+<https://github.com/john1hsu/communication-graph/id/source/elaboration-likelihood-model/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/elaboration-likelihood-model/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/elaboration-likelihood-model/s1> <https://schema.org/url> <https://swov.nl/en/publicatie/personal-involvement-determinant-argument-based-persuasion> .
+<https://github.com/john1hsu/communication-graph/id/source/elaboration-likelihood-model/s2> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/elaboration-likelihood-model/s2> <http://purl.org/dc/terms/publisher> "Kruglanski, A. W. & Thompson, E. P., Psychological Inquiry 10(2), 83-109, 1999 (copy hosted by the University of Münster)" .
+<https://github.com/john1hsu/communication-graph/id/source/elaboration-likelihood-model/s2> <http://purl.org/dc/terms/title> "Persuasion by a Single Route: A View from the Unimodel" .
+<https://github.com/john1hsu/communication-graph/id/source/elaboration-likelihood-model/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/elaboration-likelihood-model/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/elaboration-likelihood-model/s2> <https://schema.org/url> <https://www.uni-muenster.de/imperia/md/content/psyifp/aeechterhoff/vorlesungkommunikation/kruglanski_thompson_perssingleroute_psychinq1999.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/elaboration-likelihood-model/s3> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/elaboration-likelihood-model/s3> <http://purl.org/dc/terms/publisher> "Kitchen, P. J., Kerr, G., Schultz, D. E., McColl, R. & Pals, H., European Journal of Marketing 48(11/12), 2033-2050, 2014, doi:10.1108/EJM-12-2011-0776 (University of Salford repository record)" .
+<https://github.com/john1hsu/communication-graph/id/source/elaboration-likelihood-model/s3> <http://purl.org/dc/terms/title> "The Elaboration Likelihood Model: Review, Critique and Research Agenda" .
+<https://github.com/john1hsu/communication-graph/id/source/elaboration-likelihood-model/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/elaboration-likelihood-model/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/elaboration-likelihood-model/s3> <https://schema.org/url> <https://salford-repository.worktribe.com/output/1404485/the-elaboration-likelihood-model-review-critique-and-research-agenda> .
+<https://github.com/john1hsu/communication-graph/id/source/elaboration-likelihood-model/s4> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/elaboration-likelihood-model/s4> <http://purl.org/dc/terms/publisher> "BBVA Foundation, 2025" .
+<https://github.com/john1hsu/communication-graph/id/source/elaboration-likelihood-model/s4> <http://purl.org/dc/terms/title> "Richard E. Petty: BBVA Foundation Frontiers of Knowledge Award in Social Sciences" .
+<https://github.com/john1hsu/communication-graph/id/source/elaboration-likelihood-model/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/elaboration-likelihood-model/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/communication-graph/id/source/elaboration-likelihood-model/s4> <https://schema.org/url> <https://www.frontiersofknowledgeawards-fbbva.es/galardonados/richard-e-petty-2/> .
+<https://github.com/john1hsu/communication-graph/id/source/elaboration-likelihood-model/s5> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/elaboration-likelihood-model/s5> <http://purl.org/dc/terms/publisher> "The Ohio State University" .
+<https://github.com/john1hsu/communication-graph/id/source/elaboration-likelihood-model/s5> <http://purl.org/dc/terms/title> "Richard E. Petty, Department of Psychology" .
+<https://github.com/john1hsu/communication-graph/id/source/elaboration-likelihood-model/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/elaboration-likelihood-model/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/elaboration-likelihood-model/s5> <https://schema.org/url> <https://u.osu.edu/petty> .
 <https://github.com/john1hsu/communication-graph/id/source/email/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/email/s1> <http://purl.org/dc/terms/publisher> "Kushlev, K. & Dunn, E. W., Computers in Human Behavior 43, 220-228, 2015 (author copy hosted by interruptions.net)" .
 <https://github.com/john1hsu/communication-graph/id/source/email/s1> <http://purl.org/dc/terms/title> "Checking email less frequently reduces stress" .

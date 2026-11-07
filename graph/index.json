@@ -2062,6 +2062,10 @@
    },
    {
     "predicate": "skos:related",
+    "object": "cm:elaboration-likelihood-model"
+   },
+   {
+    "predicate": "skos:related",
     "object": "cm:influence-without-authority"
    },
    {
@@ -2872,6 +2876,116 @@
    "https://escholarship.org/uc/item/4ps6948f",
    "https://www.psychologicalscience.org/observer/replications-dont-hinge-on-sample-and-setting-differences-multilab-project-shows",
    "https://scholarlypublications.universiteitleiden.nl/handle/1887/74652"
+  ]
+ },
+ {
+  "id": "cm:elaboration-likelihood-model",
+  "title": "Elaboration likelihood model",
+  "aliases": [
+   "ELM",
+   "central and peripheral routes to persuasion",
+   "Petty and Cacioppo's dual-route model"
+  ],
+  "type": "Theory",
+  "domain": "persuasion-and-influence",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/persuasion-and-influence/elaboration-likelihood-model.md",
+  "created": "2026-11-07",
+  "summary": "Petty and Cacioppo's dual-process theory that people are persuaded either by thinking carefully about a message's arguments (the central route) or by reacting to simple cues such as who is speaking (the peripheral route), depending on how motivated and able they are to think about it.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:persuasion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:credibility"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:audience-analysis"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:aristotles-rhetoric"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:rhetorical-appeals"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:influence-without-authority"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:issue-selling"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:heuristic-systematic-model"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:cognitive-load"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:audience-analysis"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:richard-e-petty",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:john-t-cacioppo",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedIn",
+    "object": "cm:communication-and-persuasion",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:petty-cacioppo-goldman-1981",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:persuasion-unimodel",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:kitchen-et-al-2014",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:studiedIn",
+    "object": "cm:social-psychology",
+    "source": "s5",
+    "confidence": "high"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://swov.nl/en/publicatie/personal-involvement-determinant-argument-based-persuasion",
+   "https://www.uni-muenster.de/imperia/md/content/psyifp/aeechterhoff/vorlesungkommunikation/kruglanski_thompson_perssingleroute_psychinq1999.pdf",
+   "https://salford-repository.worktribe.com/output/1404485/the-elaboration-likelihood-model-review-critique-and-research-agenda",
+   "https://www.frontiersofknowledgeawards-fbbva.es/galardonados/richard-e-petty-2/",
+   "https://u.osu.edu/petty"
   ]
  },
  {

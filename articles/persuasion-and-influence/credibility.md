@@ -11,7 +11,7 @@ summary: >-
 level: introductory
 evidenceStatus: mixed
 broader: [cm:persuasion]
-related: [cm:aristotles-rhetoric, cm:influence-without-authority, cm:rapport, cm:communicating-uncertainty, cm:ethnocentrism, cm:sleeper-effect, cm:issue-selling]
+related: [cm:aristotles-rhetoric, cm:elaboration-likelihood-model, cm:influence-without-authority, cm:rapport, cm:communicating-uncertainty, cm:ethnocentrism, cm:sleeper-effect, cm:issue-selling]
 requires: []
 relations:
   - {predicate: demonstratedBy, object: cm:hovland-weiss-1951, source: s1, confidence: high}

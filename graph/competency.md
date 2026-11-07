@@ -135,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:delivering-bad-news` | mixed |  |
 | `cm:direct-vs-indirect-feedback` | mixed | `cm:brew-cairns-2004` |
 
-…and 46 more.
+…and 48 more.
 
 ## Concepts with no recorded origin (gap)
 

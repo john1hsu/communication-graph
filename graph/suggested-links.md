@@ -5,11 +5,11 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | Score | Node A | Node B | Shared neighbours |
 |---|---|---|---|
 | 3.02 | `cm:difficult-conversation` | `cm:situation-behavior-impact` | `cm:active-listening`, `cm:defensiveness`, `cm:feedback`, `cm:i-statements`, `cm:nonviolent-communication` |
-| 2.69 | `cm:pyramid-principle` | `cm:status-reporting` | `cm:audience-analysis`, `cm:bottom-line-up-front`, `cm:business-report`, `cm:executive-briefing` |
+| 2.68 | `cm:pyramid-principle` | `cm:status-reporting` | `cm:audience-analysis`, `cm:bottom-line-up-front`, `cm:business-report`, `cm:executive-briefing` |
 | 2.53 | `cm:channel-selection` | `cm:egocentric-bias` | `cm:common-ground`, `cm:curse-of-knowledge`, `cm:egocentrism-over-email-study`, `cm:setting-reply-time-expectations` |
 | 2.47 | `cm:active-listening` | `cm:feedback` | `cm:defensiveness`, `cm:difficult-conversation`, `cm:feedforward`, `cm:one-on-one-meetings`, `cm:performance-review` |
 | 2.46 | `cm:anxiety-reappraisal` | `cm:spotlight-effect` | `cm:illusion-of-transparency`, `cm:macinnis-mackinnon-macintyre-2010`, `cm:self-distancing`, `cm:social-anxiety`, `cm:speaking-anxiety` |
-| 2.43 | `cm:rapport` | `cm:video-call-communication` | `cm:camera-level-gaze`, `cm:channel-selection`, `cm:credibility`, `cm:face-to-face-conversation`, `cm:nonverbal-communication` |
+| 2.41 | `cm:rapport` | `cm:video-call-communication` | `cm:camera-level-gaze`, `cm:channel-selection`, `cm:credibility`, `cm:face-to-face-conversation`, `cm:nonverbal-communication` |
 | 2.28 | `cm:asynchronous-communication` | `cm:video-call-communication` | `cm:channel-selection`, `cm:digital-communication`, `cm:media-richness-theory`, `cm:workplace-meetings`, `cm:zoom-fatigue` |
 | 2.27 | `cm:egocentric-bias` | `cm:teach-back` | `cm:checking-understanding`, `cm:clarity`, `cm:common-ground`, `cm:curse-of-knowledge`, `cm:illusion-of-transparency` |
 | 2.18 | `cm:audience-analysis` | `cm:illusion-of-transparency` | `cm:clarity`, `cm:common-ground`, `cm:communicating-uncertainty`, `cm:curse-of-knowledge`, `cm:email` |
@@ -18,14 +18,14 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 2.11 | `cm:paraphrasing` | `cm:psychological-safety` | `cm:active-listening`, `cm:difficult-conversation`, `cm:facilitation`, `cm:interrupting`, `cm:open-ended-questions` |
 | 2.09 | `cm:humble-inquiry` | `cm:weger-et-al-2014` | `cm:active-listening`, `cm:advice-giving`, `cm:open-ended-questions` |
 | 2.07 | `cm:facilitation` | `cm:open-ended-questions` | `cm:active-listening`, `cm:meeting-agendas`, `cm:nominal-group-technique`, `cm:paraphrasing`, `cm:psychological-safety` |
-| 2.06 | `cm:bottom-line-up-front` | `cm:curse-of-knowledge` | `cm:assertion-evidence-slides`, `cm:audience-analysis`, `cm:channel-selection`, `cm:clarity`, `cm:email` |
+| 2.05 | `cm:bottom-line-up-front` | `cm:curse-of-knowledge` | `cm:assertion-evidence-slides`, `cm:audience-analysis`, `cm:channel-selection`, `cm:clarity`, `cm:email` |
 | 2.05 | `cm:difficult-conversation` | `cm:small-talk` | `cm:active-listening`, `cm:kardas-kumar-epley-2021`, `cm:psychological-safety` |
 | 2.03 | `cm:nominal-group-technique` | `cm:raci-matrix` | `cm:group-decision-making`, `cm:meeting-agendas`, `cm:stakeholder-mapping`, `cm:workplace-meetings` |
 | 2.02 | `cm:common-ground` | `cm:email` | `cm:asynchronous-communication`, `cm:audience-analysis`, `cm:channel-selection`, `cm:curse-of-knowledge`, `cm:illusion-of-transparency` |
 | 1.92 | `cm:one-on-one-meetings` | `cm:small-talk` | `cm:active-listening`, `cm:humble-inquiry`, `cm:interpersonal-communication`, `cm:open-ended-questions`, `cm:psychological-safety` |
+| 1.90 | `cm:audience-analysis` | `cm:credibility` | `cm:aristotles-rhetoric`, `cm:communicating-uncertainty`, `cm:elaboration-likelihood-model`, `cm:influence-without-authority`, `cm:issue-selling` |
 | 1.88 | `cm:issue-selling` | `cm:status-reporting` | `cm:audience-analysis`, `cm:bottom-line-up-front`, `cm:executive-briefing`, `cm:managing-up`, `cm:psychological-safety` |
 | 1.88 | `cm:defensiveness` | `cm:direct-vs-indirect-feedback` | `cm:feedback`, `cm:feedback-sandwich`, `cm:feedforward`, `cm:i-statements`, `cm:situation-behavior-impact` |
 | 1.88 | `cm:bottom-line-up-front` | `cm:illusion-of-transparency` | `cm:clarity`, `cm:communicating-uncertainty`, `cm:email`, `cm:setting-reply-time-expectations`, `cm:words-of-estimative-probability` |
 | 1.85 | `cm:humble-inquiry` | `cm:wait-time` | `cm:active-listening`, `cm:open-ended-questions`, `cm:psychological-safety`, `cm:questioning` |
 | 1.84 | `cm:defensiveness` | `cm:delivering-bad-news` | `cm:active-listening`, `cm:apology`, `cm:difficult-conversation`, `cm:feedback-sandwich`, `cm:social-accounts` |
-| 1.83 | `cm:active-listening` | `cm:feedback-sandwich` | `cm:defensiveness`, `cm:delivering-bad-news`, `cm:feedforward`, `cm:performance-review`, `cm:situation-behavior-impact` |

@@ -1824,6 +1824,9 @@
      "@id": "cm:communicating-uncertainty"
     },
     {
+     "@id": "cm:elaboration-likelihood-model"
+    },
+    {
      "@id": "cm:ethnocentrism"
     },
     {
@@ -2511,6 +2514,103 @@
     },
     {
      "@id": "cm:spotlight-effect"
+    }
+   ]
+  },
+  {
+   "@id": "cm:elaboration-likelihood-model",
+   "@type": "cmo:Theory",
+   "cmo:challengedBy": [
+    {
+     "@id": "cm:kitchen-et-al-2014"
+    },
+    {
+     "@id": "cm:persuasion-unimodel"
+    }
+   ],
+   "cmo:demonstratedBy": {
+    "@id": "cm:petty-cacioppo-goldman-1981"
+   },
+   "cmo:domain": "persuasion-and-influence",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:file": "articles/persuasion-and-influence/elaboration-likelihood-model.md",
+   "cmo:introducedBy": [
+    {
+     "@id": "cm:john-t-cacioppo"
+    },
+    {
+     "@id": "cm:richard-e-petty"
+    }
+   ],
+   "cmo:introducedIn": {
+    "@id": "cm:communication-and-persuasion"
+   },
+   "cmo:level": "intermediate",
+   "cmo:requires": {
+    "@id": "cm:audience-analysis"
+   },
+   "cmo:studiedIn": {
+    "@id": "cm:social-psychology"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/elaboration-likelihood-model/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/elaboration-likelihood-model/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/elaboration-likelihood-model/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/elaboration-likelihood-model/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/elaboration-likelihood-model/s5"
+    }
+   ],
+   "rdfs:label": "Elaboration likelihood model",
+   "skos:altLabel": [
+    "ELM",
+    "Petty and Cacioppo's dual-route model",
+    "central and peripheral routes to persuasion"
+   ],
+   "skos:broader": {
+    "@id": "cm:persuasion"
+   },
+   "skos:definition": "Petty and Cacioppo's dual-process theory that people are persuaded either by thinking carefully about a message's arguments (the central route) or by reacting to simple cues such as who is speaking (the peripheral route), depending on how motivated and able they are to think about it.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/persuasion-and-influence"
+   },
+   "skos:prefLabel": "Elaboration likelihood model",
+   "skos:related": [
+    {
+     "@id": "cm:aristotles-rhetoric"
+    },
+    {
+     "@id": "cm:audience-analysis"
+    },
+    {
+     "@id": "cm:cognitive-load"
+    },
+    {
+     "@id": "cm:credibility"
+    },
+    {
+     "@id": "cm:heuristic-systematic-model"
+    },
+    {
+     "@id": "cm:influence-without-authority"
+    },
+    {
+     "@id": "cm:issue-selling"
+    },
+    {
+     "@id": "cm:rhetorical-appeals"
     }
    ]
   },
@@ -15546,6 +15646,76 @@
    "dcterms:title": "Many Labs 2: Investigating Variation in Replicability Across Samples and Settings",
    "schema:url": {
     "@id": "https://scholarlypublications.universiteitleiden.nl/handle/1887/74652"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/elaboration-likelihood-model/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Petty, R. E., Cacioppo, J. T. & Goldman, R., Journal of Personality and Social Psychology 41(5), 847-855, 1981 (abstract record, SWOV Institute for Road Safety Research library)",
+   "dcterms:title": "Personal Involvement as a Determinant of Argument-Based Persuasion",
+   "schema:url": {
+    "@id": "https://swov.nl/en/publicatie/personal-involvement-determinant-argument-based-persuasion"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/elaboration-likelihood-model/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Kruglanski, A. W. & Thompson, E. P., Psychological Inquiry 10(2), 83-109, 1999 (copy hosted by the University of Münster)",
+   "dcterms:title": "Persuasion by a Single Route: A View from the Unimodel",
+   "schema:url": {
+    "@id": "https://www.uni-muenster.de/imperia/md/content/psyifp/aeechterhoff/vorlesungkommunikation/kruglanski_thompson_perssingleroute_psychinq1999.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/elaboration-likelihood-model/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Kitchen, P. J., Kerr, G., Schultz, D. E., McColl, R. & Pals, H., European Journal of Marketing 48(11/12), 2033-2050, 2014, doi:10.1108/EJM-12-2011-0776 (University of Salford repository record)",
+   "dcterms:title": "The Elaboration Likelihood Model: Review, Critique and Research Agenda",
+   "schema:url": {
+    "@id": "https://salford-repository.worktribe.com/output/1404485/the-elaboration-likelihood-model-review-critique-and-research-agenda"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/elaboration-likelihood-model/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "BBVA Foundation, 2025",
+   "dcterms:title": "Richard E. Petty: BBVA Foundation Frontiers of Knowledge Award in Social Sciences",
+   "schema:url": {
+    "@id": "https://www.frontiersofknowledgeawards-fbbva.es/galardonados/richard-e-petty-2/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/elaboration-likelihood-model/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "The Ohio State University",
+   "dcterms:title": "Richard E. Petty, Department of Psychology",
+   "schema:url": {
+    "@id": "https://u.osu.edu/petty"
    }
   },
   {
