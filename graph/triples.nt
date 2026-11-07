@@ -3334,6 +3334,43 @@
 <https://github.com/john1hsu/communication-graph/id/paraphrasing> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/paraphrasing> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/seehausen-et-al-2012> .
 <https://github.com/john1hsu/communication-graph/id/paraphrasing> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> .
+<https://github.com/john1hsu/communication-graph/id/performance-review> <http://purl.org/dc/terms/created> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/performance-review> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Context> .
+<https://github.com/john1hsu/communication-graph/id/performance-review> <http://www.w3.org/2000/01/rdf-schema#label> "Performance review" .
+<https://github.com/john1hsu/communication-graph/id/performance-review> <http://www.w3.org/2004/02/skos/core#altLabel> "annual appraisal conversation" .
+<https://github.com/john1hsu/communication-graph/id/performance-review> <http://www.w3.org/2004/02/skos/core#altLabel> "annual review" .
+<https://github.com/john1hsu/communication-graph/id/performance-review> <http://www.w3.org/2004/02/skos/core#altLabel> "appraisal interview" .
+<https://github.com/john1hsu/communication-graph/id/performance-review> <http://www.w3.org/2004/02/skos/core#altLabel> "performance appraisal" .
+<https://github.com/john1hsu/communication-graph/id/performance-review> <http://www.w3.org/2004/02/skos/core#altLabel> "performance evaluation meeting" .
+<https://github.com/john1hsu/communication-graph/id/performance-review> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/performance-management> .
+<https://github.com/john1hsu/communication-graph/id/performance-review> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/workplace-meetings> .
+<https://github.com/john1hsu/communication-graph/id/performance-review> <http://www.w3.org/2004/02/skos/core#definition> "The formal, periodic conversation - usually annual or semi-annual - in which a manager and an employee look back at the employee's performance against agreed expectations, discuss a rating or assessment of record, and agree goals and development for the next period." .
+<https://github.com/john1hsu/communication-graph/id/performance-review> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/feedback-and-coaching> .
+<https://github.com/john1hsu/communication-graph/id/performance-review> <http://www.w3.org/2004/02/skos/core#prefLabel> "Performance review" .
+<https://github.com/john1hsu/communication-graph/id/performance-review> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+<https://github.com/john1hsu/communication-graph/id/performance-review> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/defensiveness> .
+<https://github.com/john1hsu/communication-graph/id/performance-review> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/difficult-conversation> .
+<https://github.com/john1hsu/communication-graph/id/performance-review> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/feedback-sandwich> .
+<https://github.com/john1hsu/communication-graph/id/performance-review> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/feedback> .
+<https://github.com/john1hsu/communication-graph/id/performance-review> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996> .
+<https://github.com/john1hsu/communication-graph/id/performance-review> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/open-ended-questions> .
+<https://github.com/john1hsu/communication-graph/id/performance-review> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
+<https://github.com/john1hsu/communication-graph/id/performance-review> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> .
+<https://github.com/john1hsu/communication-graph/id/performance-review> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/performance-review/s1> .
+<https://github.com/john1hsu/communication-graph/id/performance-review> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/performance-review/s2> .
+<https://github.com/john1hsu/communication-graph/id/performance-review> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/performance-review/s3> .
+<https://github.com/john1hsu/communication-graph/id/performance-review> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/performance-review/s4> .
+<https://github.com/john1hsu/communication-graph/id/performance-review> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/performance-review/s5> .
+<https://github.com/john1hsu/communication-graph/id/performance-review> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/adler-et-al-2016> .
+<https://github.com/john1hsu/communication-graph/id/performance-review> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/feedforward> .
+<https://github.com/john1hsu/communication-graph/id/performance-review> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/start-stop-continue> .
+<https://github.com/john1hsu/communication-graph/id/performance-review> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> .
+<https://github.com/john1hsu/communication-graph/id/performance-review> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/meinecke-lehmann-willenbrock-kauffeld-2017> .
+<https://github.com/john1hsu/communication-graph/id/performance-review> <https://github.com/john1hsu/communication-graph/ontology#domain> "feedback-and-coaching" .
+<https://github.com/john1hsu/communication-graph/id/performance-review> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/performance-review> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/feedback-and-coaching/performance-review.md" .
+<https://github.com/john1hsu/communication-graph/id/performance-review> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/communication-graph/id/performance-review> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/feedback> .
 <https://github.com/john1hsu/communication-graph/id/plain-language/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/plain-language/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Who exactly is reading this, and what do they already know about the subject?" .
 <https://github.com/john1hsu/communication-graph/id/plain-language/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/plain-language> .
@@ -6400,6 +6437,36 @@
 <https://github.com/john1hsu/communication-graph/id/source/paraphrasing/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/paraphrasing/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/communication-graph/id/source/paraphrasing/s5> <https://schema.org/url> <https://cris.huji.ac.il/en/publications/a-meta-analytic-systematic-review-and-theory-of-the-effects-of-pe/> .
+<https://github.com/john1hsu/communication-graph/id/source/performance-review/s1> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/performance-review/s1> <http://purl.org/dc/terms/publisher> "Meinecke, A. L., Lehmann-Willenbrock, N. K., & Kauffeld, S., Journal of Applied Psychology 102(7), 1054-1074, 2017 (doi:10.1037/apl0000219; Vrije Universiteit Amsterdam research portal)" .
+<https://github.com/john1hsu/communication-graph/id/source/performance-review/s1> <http://purl.org/dc/terms/title> "What happens during annual appraisal interviews? How leader-follower interactions unfold and impact interview outcomes" .
+<https://github.com/john1hsu/communication-graph/id/source/performance-review/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/performance-review/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/performance-review/s1> <https://schema.org/url> <https://research.vu.nl/en/publications/what-happens-during-annual-appraisal-interviews-how-leader-follow/> .
+<https://github.com/john1hsu/communication-graph/id/source/performance-review/s2> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/performance-review/s2> <http://purl.org/dc/terms/publisher> "Pulakos, E. D., Hanson, R. M., Arad, S., & Moye, N., Industrial and Organizational Psychology 8(1), 51-76, 2015 (EconPapers record)" .
+<https://github.com/john1hsu/communication-graph/id/source/performance-review/s2> <http://purl.org/dc/terms/title> "Performance Management Can Be Fixed: An On-the-Job Experiential Learning Approach for Complex Behavior Change" .
+<https://github.com/john1hsu/communication-graph/id/source/performance-review/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/performance-review/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/performance-review/s2> <https://schema.org/url> <https://econpapers.repec.org/RePEc:cup:inorps:v:8:y:2015:i:01:p:51-76_00> .
+<https://github.com/john1hsu/communication-graph/id/source/performance-review/s3> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/performance-review/s3> <http://purl.org/dc/terms/publisher> "Adler, S., Campion, M., Colquitt, A., Grubb, A., Murphy, K., Ollander-Krane, R., & Pulakos, E. D., Industrial and Organizational Psychology 9(2), 219-252, 2016 (doi:10.1017/iop.2015.106; University of Limerick research portal)" .
+<https://github.com/john1hsu/communication-graph/id/source/performance-review/s3> <http://purl.org/dc/terms/title> "Getting Rid of Performance Ratings: Genius or Folly? A Debate" .
+<https://github.com/john1hsu/communication-graph/id/source/performance-review/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/performance-review/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/performance-review/s3> <https://schema.org/url> <https://pure.ul.ie/en/publications/getting-rid-of-performance-ratings-genius-or-folly-a-debate/> .
+<https://github.com/john1hsu/communication-graph/id/source/performance-review/s4> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/performance-review/s4> <http://purl.org/dc/terms/publisher> "U.S. Merit Systems Protection Board, Office of Policy and Evaluation, December 2015" .
+<https://github.com/john1hsu/communication-graph/id/source/performance-review/s4> <http://purl.org/dc/terms/title> "Performance Management is More than an Appraisal" .
+<https://github.com/john1hsu/communication-graph/id/source/performance-review/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/performance-review/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/communication-graph/id/source/performance-review/s4> <https://schema.org/url> <https://www.mspb.gov/studies/publications/Performance_Management_is_More_than_an_Appraisal.PDF> .
+<https://github.com/john1hsu/communication-graph/id/source/performance-review/s5> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/performance-review/s5> <http://purl.org/dc/terms/publisher> "U.S. Office of Personnel Management" .
+<https://github.com/john1hsu/communication-graph/id/source/performance-review/s5> <http://purl.org/dc/terms/title> "Monitoring and Developing - Performance Management and Accountability Playbook" .
+<https://github.com/john1hsu/communication-graph/id/source/performance-review/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/performance-review/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/communication-graph/id/source/performance-review/s5> <https://schema.org/url> <https://www.opm.gov/policy-data-oversight/performance-management/performance-management-and-accountability-playbook/monitoring-and-developing/> .
 <https://github.com/john1hsu/communication-graph/id/source/plain-language/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/plain-language/s1> <http://purl.org/dc/terms/publisher> "Digital.gov Plain Language Guide Series (U.S. General Services Administration)" .
 <https://github.com/john1hsu/communication-graph/id/source/plain-language/s1> <http://purl.org/dc/terms/title> "Principles of plain language" .
