@@ -113,6 +113,8 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:filled-pauses` | contested | `cm:fraundorf-watson-2011` |
 | `cm:high-and-low-context-cultures` | contested | `cm:cardon-2008` |
 | `cm:high-and-low-context-cultures` | contested | `cm:kittler-rygl-mackinnon-2011` |
+| `cm:hofstede-cultural-dimensions` | contested | `cm:mcsweeney-2002` |
+| `cm:hofstede-cultural-dimensions` | contested | `cm:taras-steel-kirkman-2016` |
 | `cm:media-richness-theory` | contested | `cm:dennis-kinney-1998` |
 | `cm:media-richness-theory` | contested | `cm:paradox-of-richness` |
 | `cm:mehrabian-myth` | contested | `cm:lapakko-2007` |
@@ -132,10 +134,8 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:common-ground` | mixed | `cm:keysar-et-al-2000` |
 | `cm:communicating-uncertainty` | mixed |  |
 | `cm:considering-others-contributions-first` | mixed |  |
-| `cm:credibility` | mixed |  |
-| `cm:curse-of-knowledge` | mixed | `cm:ryskin-brown-schmidt-2014` |
 
-…and 52 more.
+…and 54 more.
 
 ## Concepts with no recorded origin (gap)
 

@@ -4004,6 +4004,90 @@
    ]
   },
   {
+   "@id": "cm:hofstede-cultural-dimensions",
+   "@type": "cmo:Theory",
+   "cmo:challengedBy": [
+    {
+     "@id": "cm:mcsweeney-2002"
+    },
+    {
+     "@id": "cm:taras-steel-kirkman-2016"
+    }
+   ],
+   "cmo:domain": "cross-cultural-communication",
+   "cmo:evidenceStatus": "contested",
+   "cmo:file": "articles/cross-cultural-communication/hofstede-cultural-dimensions.md",
+   "cmo:introducedBy": {
+    "@id": "cm:geert-hofstede"
+   },
+   "cmo:introducedIn": {
+    "@id": "cm:cultures-consequences"
+   },
+   "cmo:level": "intermediate",
+   "cmo:supportedBy": {
+    "@id": "cm:taras-kirkman-steel-2010"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/hofstede-cultural-dimensions/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/hofstede-cultural-dimensions/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/hofstede-cultural-dimensions/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/hofstede-cultural-dimensions/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/hofstede-cultural-dimensions/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/hofstede-cultural-dimensions/s6"
+    }
+   ],
+   "rdfs:label": "Hofstede's dimensions of national culture",
+   "skos:altLabel": [
+    "6-D model of national culture",
+    "Hofstede model",
+    "Hofstede's cultural dimensions theory",
+    "cultural dimensions theory"
+   ],
+   "skos:broader": {
+    "@id": "cm:intercultural-communication"
+   },
+   "skos:definition": "Geert Hofstede's model that compares national cultures on six value dimensions - power distance, uncertainty avoidance, individualism-collectivism, masculinity-femininity, long- vs. short-term orientation and indulgence-restraint - built from country-average survey scores; useful for anticipating group-level tendencies but weak at predicting any one colleague.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/cross-cultural-communication"
+   },
+   "skos:prefLabel": "Hofstede's dimensions of national culture",
+   "skos:related": [
+    {
+     "@id": "cm:direct-vs-indirect-feedback"
+    },
+    {
+     "@id": "cm:ethnocentrism"
+    },
+    {
+     "@id": "cm:high-and-low-context-cultures"
+    },
+    {
+     "@id": "cm:multicultural-team"
+    },
+    {
+     "@id": "cm:power-distance"
+    },
+    {
+     "@id": "cm:the-culture-map"
+    }
+   ]
+  },
+  {
    "@id": "cm:humble-inquiry",
    "@type": "cmo:Technique",
    "cmo:addresses": {
@@ -17405,6 +17489,90 @@
    "dcterms:title": "Beyond culture or beyond control? Reviewing the use of Hall's high-/low-context concept",
    "schema:url": {
     "@id": "https://dspace.stir.ac.uk/handle/1893/3174"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/hofstede-cultural-dimensions/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Geert Hofstede, Online Readings in Psychology and Culture 2(1), 2011, International Association for Cross-Cultural Psychology (ScholarWorks@GVSU), doi:10.9707/2307-0919.1014",
+   "dcterms:title": "Dimensionalizing Cultures: The Hofstede Model in Context",
+   "schema:url": {
+    "@id": "https://scholarworks.gvsu.edu/orpc/vol2/iss1/8"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/hofstede-cultural-dimensions/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Geert Hofstede B.V. (text by Gert Jan Hofstede and Iekje Smit)",
+   "dcterms:title": "Culture's Consequences (1980) - exhibition page on the origins of the dimensions",
+   "schema:url": {
+    "@id": "https://exhibition.geerthofstede.com/?p=230"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/hofstede-cultural-dimensions/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Taras, Kirkman & Steel, Journal of Applied Psychology 95(3), 2010, pp. 405-439 (University of Calgary PRISM post-print)",
+   "dcterms:title": "Examining the Impact of Culture's Consequences: A Three-Decade, Multi-Level, Meta-Analytic Review of Hofstede's Cultural Value Dimensions",
+   "schema:url": {
+    "@id": "https://prism.ucalgary.ca/items/493650c4-2e30-4994-b2fd-38dc17686197/full"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/hofstede-cultural-dimensions/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Taras, Steel & Kirkman, Management International Review 56(4), 2016, pp. 455-472, doi:10.1007/s11575-016-0283-x (CORE post-print)",
+   "dcterms:title": "Does Country Equate with Culture? Beyond Geography in the Search for Cultural Boundaries",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/345085409.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/hofstede-cultural-dimensions/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Brendan McSweeney, Human Relations 55(1), 2002, pp. 89-118, doi:10.1177/0018726702551004 (CiteDrive record)",
+   "dcterms:title": "Hofstede's Model of National Cultural Differences and their Consequences: A Triumph of Faith - a Failure of Analysis",
+   "schema:url": {
+    "@id": "https://www.citedrive.com/en/discovery/hofstedes-model-of-national-cultural-differences-and-their-consequences-a-triumph-of-faith---a-failure-of-analysis"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/hofstede-cultural-dimensions/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Sirje Virkus, Tallinn University, 2009",
+   "dcterms:title": "Leadership dimensions: criticism of Hofstede's model (course material)",
+   "schema:url": {
+    "@id": "https://www.tlu.ee/~sirvir/IKM/Leadership%20Dimensions/page_6.html"
    }
   },
   {
