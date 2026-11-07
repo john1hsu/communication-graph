@@ -1130,6 +1130,29 @@ Ask yourself:
 - What is the one point I need them to leave with, if everything else goes badly?
 - Afterwards, am I judging the talk by how I felt or by what the audience actually did with it?
 
+### [Self-recording playback](../articles/presenting-and-public-speaking/self-recording-playback.md) — Technique
+
+1. Before you record, write a three-item checklist of delivery behaviours to look for, such as hand movement, eye contact and pace.
+2. Prop your phone at audience eye level and record one full, standing run-through with the slides or notes you will really use.
+3. Before you press play, jot down how you think you came across, then watch as if the speaker were a colleague you are coaching.
+4. Watch once with the sound off for gestures, posture and fidgets, and once with sound for pace, pauses and filler words.
+5. Note what to keep and pick no more than two habits to change, writing a concrete replacement for each.
+6. Record a second run, check whether those two habits changed, and ask a colleague to watch one clip if you can.
+
+*A finance analyst is preparing a 15-minute budget review for department heads and has rehearsed it twice in her head.*
+
+| Before | After |
+|---|---|
+| She runs the talk silently on her laptop, feels it went fine, and on the day grips the clicker with both hands, rocks on her feet and looks at the screen for most of the talk. | She films one standing run-through, watches it muted, and sees the clicker grip and the rocking. She sets the clicker down between slides, plants her feet, uses one hand to show the three-way budget split, and records again to confirm the change. |
+
+**Why:** Playback shows habits the speaker cannot feel from the inside, and checking against a short list turns a vague impression into two specific fixes.
+
+Ask yourself:
+- Did I decide what to look for before I watched, or did I just react to how I looked and sounded?
+- Have I picked no more than two changes, each with a specific replacement behaviour?
+- Is my verdict on the recording closer to what a neutral colleague would say than to how nervous I felt while speaking?
+- Did I record a second run to check that the change actually happened?
+
 ## questioning-and-conversation
 
 ### [Face-to-face conversation](../articles/questioning-and-conversation/face-to-face-conversation.md) — Channel

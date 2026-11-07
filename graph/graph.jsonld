@@ -8438,6 +8438,102 @@
    ]
   },
   {
+   "@id": "cm:self-recording-playback",
+   "@type": "cmo:Technique",
+   "cmo:addresses": {
+    "@id": "cm:speaking-anxiety"
+   },
+   "cmo:appliedIn": {
+    "@id": "cm:presentation"
+   },
+   "cmo:complements": {
+    "@id": "cm:presentation-rehearsal"
+   },
+   "cmo:demonstratedBy": {
+    "@id": "cm:bourhis-allen-1998"
+   },
+   "cmo:develops": [
+    {
+     "@id": "cm:gestures"
+    },
+    {
+     "@id": "cm:public-speaking"
+    }
+   ],
+   "cmo:domain": "presenting-and-public-speaking",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/self-recording-playback/example"
+   },
+   "cmo:file": "articles/presenting-and-public-speaking/self-recording-playback.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/self-recording-playback/howto"
+   },
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/self-recording-playback/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/self-recording-playback/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/self-recording-playback/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/self-recording-playback/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/self-recording-playback/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/self-recording-playback/s6"
+    }
+   ],
+   "rdfs:label": "Self-recording playback",
+   "skos:altLabel": [
+    "video self-assessment of presentations",
+    "video self-review",
+    "videotaped feedback",
+    "watching yourself on video"
+   ],
+   "skos:broader": {
+    "@id": "cm:public-speaking"
+   },
+   "skos:definition": "Filming a practice run of a talk, then watching it back against a short checklist to spot delivery habits such as fidgeting, frozen hands or lost eye contact, and fixing one or two before the next run. A meta-analysis of classroom studies links videotaped feedback to better speaking skills without a significant rise in anxiety.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/presenting-and-public-speaking"
+   },
+   "skos:prefLabel": "Self-recording playback",
+   "skos:related": [
+    {
+     "@id": "cm:eye-contact"
+    },
+    {
+     "@id": "cm:feedback"
+    },
+    {
+     "@id": "cm:filled-pauses"
+    },
+    {
+     "@id": "cm:gestures"
+    },
+    {
+     "@id": "cm:presentation-rehearsal"
+    },
+    {
+     "@id": "cm:self-distancing"
+    },
+    {
+     "@id": "cm:spotlight-effect"
+    }
+   ]
+  },
+  {
    "@id": "cm:setting-reply-time-expectations",
    "@type": "cmo:Technique",
    "cmo:addresses": {
@@ -14878,6 +14974,107 @@
    "@type": "schema:HowToStep",
    "schema:position": 5,
    "schema:text": "Afterwards, review the moment the same way (\"What did Sam do well? What would Sam change?\") instead of replaying it in the first person."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/self-recording-playback/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:self-recording-playback"
+   },
+   "rdfs:label": "Did I decide what to look for before I watched, or did I just react to how I looked and sounded?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/self-recording-playback/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:self-recording-playback"
+   },
+   "rdfs:label": "Have I picked no more than two changes, each with a specific replacement behaviour?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/self-recording-playback/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:self-recording-playback"
+   },
+   "rdfs:label": "Is my verdict on the recording closer to what a neutral colleague would say than to how nervous I felt while speaking?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/self-recording-playback/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:self-recording-playback"
+   },
+   "rdfs:label": "Did I record a second run to check that the change actually happened?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/self-recording-playback/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "She films one standing run-through, watches it muted, and sees the clicker grip and the rocking. She sets the clicker down between slides, plants her feet, uses one hand to show the three-way budget split, and records again to confirm the change.",
+   "cmo:before": "She runs the talk silently on her laptop, feels it went fine, and on the day grips the clicker with both hands, rocks on her feet and looks at the screen for most of the talk.",
+   "cmo:situation": "A finance analyst is preparing a 15-minute budget review for department heads and has rehearsed it twice in her head.",
+   "cmo:why": "Playback shows habits the speaker cannot feel from the inside, and checking against a short list turns a vague impression into two specific fixes."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/self-recording-playback/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Self-recording playback",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/self-recording-playback/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/self-recording-playback/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/self-recording-playback/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/self-recording-playback/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/self-recording-playback/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/self-recording-playback/howto/6"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/self-recording-playback/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Before you record, write a three-item checklist of delivery behaviours to look for, such as hand movement, eye contact and pace."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/self-recording-playback/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Prop your phone at audience eye level and record one full, standing run-through with the slides or notes you will really use."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/self-recording-playback/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Before you press play, jot down how you think you came across, then watch as if the speaker were a colleague you are coaching."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/self-recording-playback/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Watch once with the sound off for gestures, posture and fidgets, and once with sound for pace, pauses and filler words."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/self-recording-playback/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Note what to keep and pick no more than two habits to change, writing a concrete replacement for each."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/self-recording-playback/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "Record a second run, check whether those two habits changed, and ask a colleague to watch one clip if you can."
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations/check/1",
@@ -22472,6 +22669,90 @@
    "dcterms:title": "Self-Talk and Self-Esteem: Do Non-First Person Parts of Speech Influence Affective Components of the Self-Concept?",
    "schema:url": {
     "@id": "https://escholarship.org/uc/item/8b4624vm"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/self-recording-playback/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "John Bourhis & Mike Allen, Communication Research Reports 15(3), 1998, pp. 256-261 (Missouri State University BearWorks repository)",
+   "dcterms:title": "The role of videotaped feedback in the instruction of public speaking: A quantitative synthesis of published empirical research",
+   "schema:url": {
+    "@id": "https://bearworks.missouristate.edu/articles-coal/349/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/self-recording-playback/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Thomas L. Rodebaugh, Richard G. Heimberg, Lauren T. Schultz & Mel Blackmore, Journal of Anxiety Disorders 24(7), 2010, pp. 663-671 (PubMed Central)",
+   "dcterms:title": "The moderated effects of video feedback for social anxiety disorder",
+   "schema:url": {
+    "@id": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2922463"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/self-recording-playback/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Jan Schneider, Dirk Börner, Peter van Rosmalen & Marcus Specht, IEEE Transactions on Learning Technologies, 2016 (CORE open-access copy)",
+   "dcterms:title": "Can you help me with my pitch? Studying a tool for real-time automated feedback",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/85227367.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/self-recording-playback/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Mohamed M. K. Tailab & Nicole Y. Marsh, Higher Education Studies 10(1), 2020 (IDEAS/RePEc record)",
+   "dcterms:title": "Use of Self-Assessment of Video Recording to Raise Students' Awareness of Development of Their Oral Presentation Skills",
+   "schema:url": {
+    "@id": "https://ideas.repec.org/a/ibn/hesjnl/v10y2020i1p16.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/self-recording-playback/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Toastmaster magazine, Toastmasters International, April 2023",
+   "dcterms:title": "10 Strategies to Boost Your Gestures and Body Language",
+   "schema:url": {
+    "@id": "https://www.toastmasters.org/Magazine/Magazine%20Issues/2023/Apr/Back%20to%20the%20Basics%20Gestures"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/self-recording-playback/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Public Speaking, open textbook (Lumen Learning, CC BY 4.0), SUNY Empire Pressbooks",
+   "dcterms:title": "Nonverbal Aspects of Speech Delivery",
+   "schema:url": {
+    "@id": "https://sunyempirepublicspeaking.pressbooks.sunycreate.cloud/?p=408"
    }
   },
   {

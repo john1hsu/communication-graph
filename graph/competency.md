@@ -12,9 +12,7 @@ _No results._
 
 _Which written skills or dispositions have no technique, framework or principle that develops them?_ — `queries/02-skills-without-practice.rq`
 
-| skill | type |
-|---|---|
-| `cm:gestures` | cmo:Skill |
+_No results._
 
 ## Situations, channels and formats with no guidance (gap)
 
@@ -29,6 +27,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | technique | reach | targets |
 |---|---|---|
 | `cm:1-2-4-all` | 3 | Facilitation, production-blocking, unequal-participation |
+| `cm:self-recording-playback` | 3 | Gesturing while speaking, Public speaking anxiety, public-speaking |
 | `cm:describe-analyze-evaluate` | 2 | Ethnocentrism, intercultural-competence |
 | `cm:facilitation` | 2 | Interrupting, unequal-participation |
 | `cm:i-statements` | 2 | Defensiveness, accusatory-you-statements |
@@ -57,9 +56,8 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:multiple-equivalent-simultaneous-offers` | 1 | negotiator-dilemma |
 | `cm:paraphrasing` | 1 | Active listening |
 | `cm:perspective-getting` | 1 | Egocentric bias |
-| `cm:perspective-taking` | 1 | Egocentric bias |
 
-…and 10 more.
+…and 11 more.
 
 ## Toolkit by situation
 
@@ -98,7 +96,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:multicultural-team` | `cm:direct-vs-indirect-feedback` |
 | `cm:multicultural-team` | `cm:the-culture-map` |
 
-…and 33 more.
+…and 34 more.
 
 ## Myths and contested advice
 
@@ -137,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:communicating-uncertainty` | mixed |  |
 | `cm:concession-strategy` | mixed |  |
 
-…and 61 more.
+…and 62 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -173,10 +171,10 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:reciprocal-self-disclosure` | cmo:Technique |
 | `cm:scheduled-inbox-checks` | cmo:Technique |
 | `cm:self-distancing` | cmo:Technique |
+| `cm:self-recording-playback` | cmo:Technique |
 | `cm:setting-reply-time-expectations` | cmo:Technique |
-| `cm:small-talk` | cmo:Skill |
 
-…and 8 more.
+…and 9 more.
 
 ## Orphan articles (gap)
 
