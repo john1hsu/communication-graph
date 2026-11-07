@@ -1,3 +1,79 @@
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Was my invitation specific enough that someone could write concrete answers to it in one minute?" .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/1-2-4-all> .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Did I protect the silent reflection, or did someone (including me) start talking before everyone had written?" .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/1-2-4-all> .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "In the all-group share, did I ask for new ideas from each group rather than letting the most confident group report everything?" .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/1-2-4-all> .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Did I steer the content of the small-group conversations, or did I limit myself to running time and process?" .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/1-2-4-all> .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all/example> <https://github.com/john1hsu/communication-graph/ontology#after> "Take one minute on your own and jot down every change you think would cut late-night incidents. Now share with the person next to you for two minutes, then join another pair for five. Each group of four, give me the one idea we haven't heard yet." .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all/example> <https://github.com/john1hsu/communication-graph/ontology#before> "So, what should we change to cut down on incidents? ... Good point, Priya [senior engineer], more alerting makes sense. Anyone else? No? Let's take that as the action." .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "A team lead runs a 30-minute retrospective with ten engineers, two of whom are senior and usually speak first, to find ways to reduce late-night production incidents." .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all/example> <https://github.com/john1hsu/communication-graph/ontology#why> "The open question lets the first senior voice set the answer and the quiet engineers never speak; reflecting alone and then in pairs means everyone has an idea and a low-risk audience before the whole room hears anything, so more and more varied options surface." .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all/howto/1> <https://schema.org/text> "Write one open, specific invitation the group can act on, such as \"What opportunities do you see to cut our release lead time?\", and show it to everyone." .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all/howto/2> <https://schema.org/text> "Give one minute of silent, individual reflection in which each person writes their own ideas; protect the silence and do not talk over it." .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all/howto/3> <https://schema.org/text> "Have people pair up for two minutes to share and build on each other's ideas, keeping different ideas distinct rather than forcing agreement." .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all/howto/4> <https://schema.org/text> "Merge pairs into groups of four for about five minutes to compare ideas and pick out the ones that stand out." .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all/howto/5> <https://schema.org/text> "Bring everyone back and ask each group for one important idea that is not yet on the board, recording each one, until the strongest ideas are visible." .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all/howto/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all/howto/6> <https://schema.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all/howto/6> <https://schema.org/text> "Close by naming what the group will do with the ideas - prioritise them, assign owners or feed them into a decision - and debrief briefly with a co-host on how the process went." .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all/howto> <https://schema.org/name> "1-2-4-All" .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/1-2-4-all/howto/1> .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/1-2-4-all/howto/2> .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/1-2-4-all/howto/3> .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/1-2-4-all/howto/4> .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/1-2-4-all/howto/5> .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/1-2-4-all/howto/6> .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all> <http://purl.org/dc/terms/created> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Technique> .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all> <http://www.w3.org/2000/01/rdf-schema#label> "1-2-4-All" .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all> <http://www.w3.org/2004/02/skos/core#altLabel> "1-2-4-All Liberating Structure" .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all> <http://www.w3.org/2004/02/skos/core#altLabel> "1-3-All" .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all> <http://www.w3.org/2004/02/skos/core#altLabel> "one-two-four-all" .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/facilitation> .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all> <http://www.w3.org/2004/02/skos/core#definition> "A short Liberating Structure for generating ideas or answers in which everyone first reflects silently alone, then builds on ideas in pairs, then in groups of four, before a few groups share the strongest ideas with the whole room." .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/meetings-and-facilitation> .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all> <http://www.w3.org/2004/02/skos/core#prefLabel> "1-2-4-All" .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/brainstorming> .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/think-pair-share> .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/wait-time> .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/1-2-4-all/s1> .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/1-2-4-all/s2> .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/1-2-4-all/s3> .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/1-2-4-all/s4> .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/1-2-4-all/s5> .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/production-blocking> .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/unequal-participation> .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/workplace-meetings> .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all> <https://github.com/john1hsu/communication-graph/ontology#develops> <https://github.com/john1hsu/communication-graph/id/facilitation> .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all> <https://github.com/john1hsu/communication-graph/ontology#domain> "meetings-and-facilitation" .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "practitioner" .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/1-2-4-all/example> .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/meetings-and-facilitation/1-2-4-all.md" .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/1-2-4-all/howto> .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/henri-lipmanowicz> .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/keith-mccandless> .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/1-2-4-all> <https://github.com/john1hsu/communication-graph/ontology#partOf> <https://github.com/john1hsu/communication-graph/id/liberating-structures> .
 <https://github.com/john1hsu/communication-graph/id/active-listening/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/active-listening/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Could I state their point, and how they feel about it, well enough that they would say \"yes, exactly\"?" .
 <https://github.com/john1hsu/communication-graph/id/active-listening/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/active-listening> .
@@ -4565,6 +4641,36 @@
 <https://github.com/john1hsu/communication-graph/id/social-accounts> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/social-accounts/howto> .
 <https://github.com/john1hsu/communication-graph/id/social-accounts> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/communication-graph/id/social-accounts> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/brockner-wiesenfeld-1996> .
+<https://github.com/john1hsu/communication-graph/id/source/1-2-4-all/s1> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/1-2-4-all/s1> <http://purl.org/dc/terms/publisher> "Henri Lipmanowicz & Keith McCandless, Liberating Structures (liberatingstructures.com, CC BY-SA 4.0)" .
+<https://github.com/john1hsu/communication-graph/id/source/1-2-4-all/s1> <http://purl.org/dc/terms/title> "1-2-4-All: Engage Everyone Simultaneously in Generating Questions, Ideas, and Suggestions" .
+<https://github.com/john1hsu/communication-graph/id/source/1-2-4-all/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/1-2-4-all/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/1-2-4-all/s1> <https://schema.org/url> <https://www.liberatingstructures.com/1-2-4-all> .
+<https://github.com/john1hsu/communication-graph/id/source/1-2-4-all/s2> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/1-2-4-all/s2> <http://purl.org/dc/terms/publisher> "Liberating Structures (liberatingstructures.com)" .
+<https://github.com/john1hsu/communication-graph/id/source/1-2-4-all/s2> <http://purl.org/dc/terms/title> "Getting Started with Liberating Structures" .
+<https://github.com/john1hsu/communication-graph/id/source/1-2-4-all/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/1-2-4-all/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/1-2-4-all/s2> <https://schema.org/url> <https://liberatingstructures.com/getting-started> .
+<https://github.com/john1hsu/communication-graph/id/source/1-2-4-all/s3> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/1-2-4-all/s3> <http://purl.org/dc/terms/publisher> "Katelyn M. Cooper, Jeffrey N. Schinske & Kimberly D. Tanner, CBE - Life Sciences Education 20(1), fe1 (2021), doi:10.1187/cbe.20-08-0200" .
+<https://github.com/john1hsu/communication-graph/id/source/1-2-4-all/s3> <http://purl.org/dc/terms/title> "Reconsidering the Share of a Think-Pair-Share: Emerging Limitations, Alternatives, and Opportunities for Research" .
+<https://github.com/john1hsu/communication-graph/id/source/1-2-4-all/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/1-2-4-all/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/1-2-4-all/s3> <https://schema.org/url> <https://lifescied.org/doi/10.1187/cbe.20-08-0200> .
+<https://github.com/john1hsu/communication-graph/id/source/1-2-4-all/s4> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/1-2-4-all/s4> <http://purl.org/dc/terms/publisher> "Danxi Shen, ABLConnect, Harvard University" .
+<https://github.com/john1hsu/communication-graph/id/source/1-2-4-all/s4> <http://purl.org/dc/terms/title> "Pair and Share: Research" .
+<https://github.com/john1hsu/communication-graph/id/source/1-2-4-all/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/1-2-4-all/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/1-2-4-all/s4> <https://schema.org/url> <https://ablconnect.harvard.edu/pair-and-share-research> .
+<https://github.com/john1hsu/communication-graph/id/source/1-2-4-all/s5> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/1-2-4-all/s5> <http://purl.org/dc/terms/publisher> "Association for Psychological Science, Minds at Work (15 March 2016)" .
+<https://github.com/john1hsu/communication-graph/id/source/1-2-4-all/s5> <http://purl.org/dc/terms/title> "There's a Better Way to Brainstorm" .
+<https://github.com/john1hsu/communication-graph/id/source/1-2-4-all/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/1-2-4-all/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/communication-graph/id/source/1-2-4-all/s5> <https://schema.org/url> <https://psychologicalscience.org/?p=121811> .
 <https://github.com/john1hsu/communication-graph/id/source/active-listening/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/active-listening/s1> <http://purl.org/dc/terms/publisher> "Carl R. Rogers & Richard E. Farson, University of Chicago Industrial Relations Center (1957); reprinted in Newman, Danziger & Cohen (eds.), Communication in Business Today (1987); copy hosted by Gordon Training International" .
 <https://github.com/john1hsu/communication-graph/id/source/active-listening/s1> <http://purl.org/dc/terms/title> "Active Listening (excerpt)" .

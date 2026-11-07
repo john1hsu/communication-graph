@@ -12,9 +12,7 @@ _No results._
 
 _Which written skills or dispositions have no technique, framework or principle that develops them?_ — `queries/02-skills-without-practice.rq`
 
-| skill | type |
-|---|---|
-| `cm:facilitation` | cmo:Skill |
+_No results._
 
 ## Situations, channels and formats with no guidance (gap)
 
@@ -28,6 +26,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 
 | technique | reach | targets |
 |---|---|---|
+| `cm:1-2-4-all` | 3 | Facilitation, production-blocking, unequal-participation |
 | `cm:describe-analyze-evaluate` | 2 | Ethnocentrism, intercultural-competence |
 | `cm:facilitation` | 2 | Interrupting, unequal-participation |
 | `cm:i-statements` | 2 | Defensiveness, accusatory-you-statements |
@@ -57,9 +56,8 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:paraphrasing` | 1 | Active listening |
 | `cm:pyramid-principle` | 1 | burying-the-lede |
 | `cm:raci-matrix` | 1 | role-ambiguity |
-| `cm:reciprocal-self-disclosure` | 1 | Small talk at work |
 
-…and 6 more.
+…and 7 more.
 
 ## Toolkit by situation
 
@@ -98,7 +96,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:one-on-one-meetings` | `cm:active-listening` |
 | `cm:one-on-one-meetings` | `cm:humble-inquiry` |
 
-…and 26 more.
+…and 27 more.
 
 ## Myths and contested advice
 

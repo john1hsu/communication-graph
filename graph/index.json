@@ -1,5 +1,116 @@
 [
  {
+  "id": "cm:1-2-4-all",
+  "title": "1-2-4-All",
+  "aliases": [
+   "one-two-four-all",
+   "1-2-4-All Liberating Structure",
+   "1-3-All"
+  ],
+  "type": "Technique",
+  "domain": "meetings-and-facilitation",
+  "level": "introductory",
+  "evidenceStatus": "practitioner",
+  "file": "articles/meetings-and-facilitation/1-2-4-all.md",
+  "created": "2026-11-07",
+  "summary": "A short Liberating Structure for generating ideas or answers in which everyone first reflects silently alone, then builds on ideas in pairs, then in groups of four, before a few groups share the strongest ideas with the whole room.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:facilitation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:nominal-group-technique"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:brainstorming"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:wait-time"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:think-pair-share"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:psychological-safety"
+   },
+   {
+    "predicate": "cmo:develops",
+    "object": "cm:facilitation",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:unequal-participation",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:production-blocking",
+    "source": "s5",
+    "confidence": "low"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:workplace-meetings",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:partOf",
+    "object": "cm:liberating-structures",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:henri-lipmanowicz",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:keith-mccandless",
+    "source": "s1",
+    "confidence": "high"
+   }
+  ],
+  "selfCheck": [
+   "Was my invitation specific enough that someone could write concrete answers to it in one minute?",
+   "Did I protect the silent reflection, or did someone (including me) start talking before everyone had written?",
+   "In the all-group share, did I ask for new ideas from each group rather than letting the most confident group report everything?",
+   "Did I steer the content of the small-group conversations, or did I limit myself to running time and process?"
+  ],
+  "steps": [
+   "Write one open, specific invitation the group can act on, such as \"What opportunities do you see to cut our release lead time?\", and show it to everyone.",
+   "Give one minute of silent, individual reflection in which each person writes their own ideas; protect the silence and do not talk over it.",
+   "Have people pair up for two minutes to share and build on each other's ideas, keeping different ideas distinct rather than forcing agreement.",
+   "Merge pairs into groups of four for about five minutes to compare ideas and pick out the ones that stand out.",
+   "Bring everyone back and ask each group for one important idea that is not yet on the board, recording each one, until the strongest ideas are visible.",
+   "Close by naming what the group will do with the ideas - prioritise them, assign owners or feed them into a decision - and debrief briefly with a co-host on how the process went."
+  ],
+  "example": {
+   "situation": "A team lead runs a 30-minute retrospective with ten engineers, two of whom are senior and usually speak first, to find ways to reduce late-night production incidents.",
+   "before": "So, what should we change to cut down on incidents? ... Good point, Priya [senior engineer], more alerting makes sense. Anyone else? No? Let's take that as the action.",
+   "after": "Take one minute on your own and jot down every change you think would cut late-night incidents. Now share with the person next to you for two minutes, then join another pair for five. Each group of four, give me the one idea we haven't heard yet.",
+   "why": "The open question lets the first senior voice set the answer and the quiet engineers never speak; reflecting alone and then in pairs means everyone has an idea and a low-risk audience before the whole room hears anything, so more and more varied options surface."
+  },
+  "source_urls": [
+   "https://www.liberatingstructures.com/1-2-4-all",
+   "https://liberatingstructures.com/getting-started",
+   "https://lifescied.org/doi/10.1187/cbe.20-08-0200",
+   "https://ablconnect.harvard.edu/pair-and-share-research",
+   "https://psychologicalscience.org/?p=121811"
+  ]
+ },
+ {
   "id": "cm:active-listening",
   "title": "Active listening",
   "aliases": [

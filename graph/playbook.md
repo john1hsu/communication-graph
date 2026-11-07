@@ -623,6 +623,29 @@ Ask yourself:
 
 ## meetings-and-facilitation
 
+### [1-2-4-All](../articles/meetings-and-facilitation/1-2-4-all.md) — Technique
+
+1. Write one open, specific invitation the group can act on, such as "What opportunities do you see to cut our release lead time?", and show it to everyone.
+2. Give one minute of silent, individual reflection in which each person writes their own ideas; protect the silence and do not talk over it.
+3. Have people pair up for two minutes to share and build on each other's ideas, keeping different ideas distinct rather than forcing agreement.
+4. Merge pairs into groups of four for about five minutes to compare ideas and pick out the ones that stand out.
+5. Bring everyone back and ask each group for one important idea that is not yet on the board, recording each one, until the strongest ideas are visible.
+6. Close by naming what the group will do with the ideas - prioritise them, assign owners or feed them into a decision - and debrief briefly with a co-host on how the process went.
+
+*A team lead runs a 30-minute retrospective with ten engineers, two of whom are senior and usually speak first, to find ways to reduce late-night production incidents.*
+
+| Before | After |
+|---|---|
+| So, what should we change to cut down on incidents? ... Good point, Priya [senior engineer], more alerting makes sense. Anyone else? No? Let's take that as the action. | Take one minute on your own and jot down every change you think would cut late-night incidents. Now share with the person next to you for two minutes, then join another pair for five. Each group of four, give me the one idea we haven't heard yet. |
+
+**Why:** The open question lets the first senior voice set the answer and the quiet engineers never speak; reflecting alone and then in pairs means everyone has an idea and a low-risk audience before the whole room hears anything, so more and more varied options surface.
+
+Ask yourself:
+- Was my invitation specific enough that someone could write concrete answers to it in one minute?
+- Did I protect the silent reflection, or did someone (including me) start talking before everyone had written?
+- In the all-group share, did I ask for new ideas from each group rather than letting the most confident group report everything?
+- Did I steer the content of the small-group conversations, or did I limit myself to running time and process?
+
 ### [Facilitation](../articles/meetings-and-facilitation/facilitation.md) — Skill
 
 Ask yourself:
