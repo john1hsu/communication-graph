@@ -2876,6 +2876,113 @@
    ]
   },
   {
+   "@id": "cm:face-to-face-conversation",
+   "@type": "cmo:Channel",
+   "cmo:alternativeTo": [
+    {
+     "@id": "cm:email"
+    },
+    {
+     "@id": "cm:phone-call"
+    }
+   ],
+   "cmo:demonstratedBy": {
+    "@id": "cm:ask-in-person-study"
+   },
+   "cmo:domain": "questioning-and-conversation",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:explainedBy": {
+    "@id": "cm:media-richness-theory"
+   },
+   "cmo:file": "articles/questioning-and-conversation/face-to-face-conversation.md",
+   "cmo:level": "introductory",
+   "cmo:supportedBy": {
+    "@id": "cm:egocentrism-over-email-study"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/face-to-face-conversation/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/face-to-face-conversation/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/face-to-face-conversation/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/face-to-face-conversation/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/face-to-face-conversation/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/face-to-face-conversation/s6"
+    }
+   ],
+   "rdfs:label": "Face-to-face conversation",
+   "skos:altLabel": [
+    "face-to-face communication",
+    "in-person communication",
+    "in-person conversation",
+    "talking in person"
+   ],
+   "skos:broader": [
+    {
+     "@id": "cm:interpersonal-communication"
+    },
+    {
+     "@id": "cm:synchronous-communication"
+    }
+   ],
+   "skos:definition": "Talking with someone while physically together, so words, voice, face and body arrive at once and each side can respond instantly; it is the richest workplace channel and the most effective for requests, ambiguous problems and sensitive messages, but it is costly to arrange, leaves no record and is easily crowded out by email and chat.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/questioning-and-conversation"
+   },
+   "skos:prefLabel": "Face-to-face conversation",
+   "skos:related": [
+    {
+     "@id": "cm:asynchronous-communication"
+    },
+    {
+     "@id": "cm:channel-selection"
+    },
+    {
+     "@id": "cm:difficult-conversation"
+    },
+    {
+     "@id": "cm:egocentric-bias"
+    },
+    {
+     "@id": "cm:email"
+    },
+    {
+     "@id": "cm:eye-contact"
+    },
+    {
+     "@id": "cm:media-richness-theory"
+    },
+    {
+     "@id": "cm:nonverbal-communication"
+    },
+    {
+     "@id": "cm:one-on-one-meetings"
+    },
+    {
+     "@id": "cm:proxemics"
+    },
+    {
+     "@id": "cm:rapport"
+    },
+    {
+     "@id": "cm:video-call-communication"
+    }
+   ]
+  },
+  {
    "@id": "cm:facilitation",
    "@type": "cmo:Skill",
    "cmo:addresses": [
@@ -10559,6 +10666,38 @@
    "rdfs:label": "Is this person's comfort with direct gaze likely to differ from mine, and did I adjust to what they did?"
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/face-to-face-conversation/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:face-to-face-conversation"
+   },
+   "rdfs:label": "Is this a request, a disagreement, an ambiguous problem or sensitive news - the kinds of message that land better in person?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/face-to-face-conversation/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:face-to-face-conversation"
+   },
+   "rdfs:label": "Am I choosing email because it suits the message, or because it spares me an awkward conversation?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/face-to-face-conversation/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:face-to-face-conversation"
+   },
+   "rdfs:label": "Have I picked a private place and enough time, rather than catching the person in a corridor or open-plan area?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/face-to-face-conversation/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:face-to-face-conversation"
+   },
+   "rdfs:label": "Before we part, have we said the decision and next steps out loud, and will I confirm them in writing?"
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/facilitation/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -15954,6 +16093,90 @@
    "dcterms:title": "Chapter 5: Oculesics (More than what you say: Nonverbal communication in the 21st century)",
    "schema:url": {
     "@id": "https://una.pressbooks.pub/nonverbal-communication/?p=69"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/face-to-face-conversation/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Roghanizad, M. M. & Bohns, V. K., Journal of Experimental Social Psychology 69, 223-226, 2017 (author copy via CORE / Cornell DigitalCommons)",
+   "dcterms:title": "Ask in Person: You're Less Persuasive Than You Think Over Email",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/78048817.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/face-to-face-conversation/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Bernstein, E. S. & Turban, S., Philosophical Transactions of the Royal Society B 373(1753), 20170239, 2018 (Harvard DASH author copy)",
+   "dcterms:title": "The Impact of the 'Open' Workspace on Human Collaboration",
+   "schema:url": {
+    "@id": "https://dash.harvard.edu/server/api/core/bitstreams/bb1c1986-1f65-4b1c-868f-f81dafa135ab/content"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/face-to-face-conversation/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Association for Psychological Science press release on Schroeder, J., Kardas, M. & Epley, N., Psychological Science, 2017",
+   "dcterms:title": "Hearing an Opinion Spoken Aloud Humanizes the Person Behind It",
+   "schema:url": {
+    "@id": "https://www.psychologicalscience.org/news/releases/hearing-an-opinion-spoken-aloud-humanizes-the-person-behind-it.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/face-to-face-conversation/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Suh, K.-S., Proceedings of the International Conference on Information Systems (ICIS) 1996, AIS Electronic Library",
+   "dcterms:title": "Effects of Communication Media on Intellective and Negotiation Task Performance",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/301354033.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/face-to-face-conversation/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "NYU Stern School of Business Research Highlights (on Kruger, J., Epley, N., Parker, J. & Ng, Z.-W., \"Egocentrism over e-mail - Can we communicate as well as we think?\")",
+   "dcterms:title": "E-mail Etiquette: More Critical than You Might Think",
+   "schema:url": {
+    "@id": "https://stern.nyu.edu/experience-stern/faculty-research/justin-kruger-email-research"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/face-to-face-conversation/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "University of Aberdeen staff guidance (revised October 2024)",
+   "dcterms:title": "Dignity at Work and Study Guidance Note - Dealing with Difficult Conversations",
+   "schema:url": {
+    "@id": "https://abdn.ac.uk/staffnet/documents/Dealing%20with%20Difficult%20Conversations%20guidance%20note.pdf"
    }
   },
   {

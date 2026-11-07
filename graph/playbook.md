@@ -1067,6 +1067,14 @@ Ask yourself:
 
 ## questioning-and-conversation
 
+### [Face-to-face conversation](../articles/questioning-and-conversation/face-to-face-conversation.md) — Channel
+
+Ask yourself:
+- Is this a request, a disagreement, an ambiguous problem or sensitive news - the kinds of message that land better in person?
+- Am I choosing email because it suits the message, or because it spares me an awkward conversation?
+- Have I picked a private place and enough time, rather than catching the person in a corridor or open-plan area?
+- Before we part, have we said the decision and next steps out loud, and will I confirm them in writing?
+
 ### [Humble inquiry](../articles/questioning-and-conversation/humble-inquiry.md) — Technique
 
 1. Before the conversation, write down what you are assuming about the situation and the person, and mark which parts you have not actually checked.
