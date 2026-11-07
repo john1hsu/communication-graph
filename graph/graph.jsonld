@@ -2685,6 +2685,101 @@
    ]
   },
   {
+   "@id": "cm:facilitation",
+   "@type": "cmo:Skill",
+   "cmo:addresses": [
+    {
+     "@id": "cm:interrupting"
+    },
+    {
+     "@id": "cm:unequal-participation"
+    }
+   ],
+   "cmo:appliedIn": {
+    "@id": "cm:workplace-meetings"
+   },
+   "cmo:challengedBy": {
+    "@id": "cm:g-versus-c-meta-analysis-2021"
+   },
+   "cmo:demonstratedBy": {
+    "@id": "cm:lehmann-willenbrock-allen-kauffeld-2013"
+   },
+   "cmo:domain": "meetings-and-facilitation",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:file": "articles/meetings-and-facilitation/facilitation.md",
+   "cmo:level": "intermediate",
+   "cmo:requires": {
+    "@id": "cm:active-listening"
+   },
+   "cmo:supportedBy": [
+    {
+     "@id": "cm:riedl-et-al-2021"
+    },
+    {
+     "@id": "cm:woolley-et-al-2010"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/facilitation/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/facilitation/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/facilitation/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/facilitation/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/facilitation/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/facilitation/s6"
+    }
+   ],
+   "rdfs:label": "Facilitation",
+   "skos:altLabel": [
+    "facilitating a meeting",
+    "group facilitation",
+    "meeting facilitation",
+    "process facilitation"
+   ],
+   "skos:broader": {
+    "@id": "cm:group-communication"
+   },
+   "skos:definition": "Guiding how a group works through a discussion - agreeing the goal and ground rules, managing turns, keeping the conversation on track, summarising and closing - while leaving the content and the decisions to the group.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/meetings-and-facilitation"
+   },
+   "skos:prefLabel": "Facilitation",
+   "skos:related": [
+    {
+     "@id": "cm:conversational-turn-taking"
+    },
+    {
+     "@id": "cm:meeting-agendas"
+    },
+    {
+     "@id": "cm:nominal-group-technique"
+    },
+    {
+     "@id": "cm:paraphrasing"
+    },
+    {
+     "@id": "cm:psychological-safety"
+    },
+    {
+     "@id": "cm:wait-time"
+    }
+   ]
+  },
+  {
    "@id": "cm:feedback",
    "@type": "cmo:Concept",
    "cmo:demonstratedBy": [
@@ -9766,6 +9861,46 @@
    "rdfs:label": "Is this person's comfort with direct gaze likely to differ from mine, and did I adjust to what they did?"
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/facilitation/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:facilitation"
+   },
+   "rdfs:label": "Before we started, did the group agree the goal, the agenda and how we would take turns, or did I assume everyone knew?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/facilitation/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:facilitation"
+   },
+   "rdfs:label": "Who got cut off or stayed silent, and did I hand the floor back to them by name?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/facilitation/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:facilitation"
+   },
+   "rdfs:label": "Did I summarise where we had landed before moving to the next item, and check that the summary was right?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/facilitation/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:facilitation"
+   },
+   "rdfs:label": "Did I keep my own opinions out of the content, or did I steer the group toward the answer I wanted?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/facilitation/check/5",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:facilitation"
+   },
+   "rdfs:label": "Did the meeting end with named owners and next steps for each decision?"
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/feedback-sandwich/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -14863,6 +14998,90 @@
    "dcterms:title": "Chapter 5: Oculesics (More than what you say: Nonverbal communication in the 21st century)",
    "schema:url": {
     "@id": "https://una.pressbooks.pub/nonverbal-communication/?p=69"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/facilitation/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Center for Community Health and Development, University of Kansas (contributor Marya Axner)",
+   "dcterms:title": "Developing Facilitation Skills (Community Tool Box, Chapter 16, Section 2)",
+   "schema:url": {
+    "@id": "https://ctb.ku.edu/en/community-tool-box-toc/leadership-and-management/chapter-16-group-facilitation-and-problem-solving-4"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/facilitation/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "International Association of Facilitators (revision effective 1 July 2021)",
+   "dcterms:title": "IAF Core Competencies",
+   "schema:url": {
+    "@id": "https://www.iaf-world.org/site/ar/professional/core-competencies"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/facilitation/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Nale Lehmann-Willenbrock, Joseph A. Allen & Simone Kauffeld, Journal of Applied Communication Research 41(4), 365-388 (2013), doi:10.1080/00909882.2013.844847 (Vrije Universiteit Amsterdam repository copy)",
+   "dcterms:title": "A Sequential Analysis of Procedural Meeting Communication: How Teams Facilitate Their Meetings",
+   "schema:url": {
+    "@id": "https://research.vu.nl/ws/files/833560/L-W_%20Allen_%20Kauffeld.2013.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/facilitation/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Woolley et al., Science 330(6004), 686-688 (2010), doi:10.1126/science.1193147 (PubMed record)",
+   "dcterms:title": "Evidence for a Collective Intelligence Factor in the Performance of Human Groups",
+   "schema:url": {
+    "@id": "https://pubmed.ncbi.nlm.nih.gov/20929725/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/facilitation/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Christoph Riedl, Young Ji Kim, Pranav Gupta, Thomas W. Malone & Anita Williams Woolley, PNAS 118(21) (2021), doi:10.1073/pnas.2005737118 (DSpace@MIT record)",
+   "dcterms:title": "Quantifying Collective Intelligence in Human Groups",
+   "schema:url": {
+    "@id": "https://dspace.mit.edu/handle/1721.1/144213"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/facilitation/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Cognitive Research - Principles and Implications (2021), Springer, doi:10.1186/s41235-021-00285-2",
+   "dcterms:title": "g versus c: Comparing Individual and Collective Intelligence Across Two Meta-Analyses",
+   "schema:url": {
+    "@id": "https://link.springer.com/10.1186/s41235-021-00285-2"
    }
   },
   {

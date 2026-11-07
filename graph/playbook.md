@@ -623,6 +623,15 @@ Ask yourself:
 
 ## meetings-and-facilitation
 
+### [Facilitation](../articles/meetings-and-facilitation/facilitation.md) — Skill
+
+Ask yourself:
+- Before we started, did the group agree the goal, the agenda and how we would take turns, or did I assume everyone knew?
+- Who got cut off or stayed silent, and did I hand the floor back to them by name?
+- Did I summarise where we had landed before moving to the next item, and check that the summary was right?
+- Did I keep my own opinions out of the content, or did I steer the group toward the answer I wanted?
+- Did the meeting end with named owners and next steps for each decision?
+
 ### [Meeting agendas](../articles/meetings-and-facilitation/meeting-agendas.md) — Technique
 
 1. Ask the people who will attend what they need the meeting to settle, and include only items that need this whole group.

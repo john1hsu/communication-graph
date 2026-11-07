@@ -3058,6 +3058,116 @@
   ]
  },
  {
+  "id": "cm:facilitation",
+  "title": "Facilitation",
+  "aliases": [
+   "group facilitation",
+   "meeting facilitation",
+   "facilitating a meeting",
+   "process facilitation"
+  ],
+  "type": "Skill",
+  "domain": "meetings-and-facilitation",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/meetings-and-facilitation/facilitation.md",
+  "created": "2026-11-07",
+  "summary": "Guiding how a group works through a discussion - agreeing the goal and ground rules, managing turns, keeping the conversation on track, summarising and closing - while leaving the content and the decisions to the group.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:group-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:meeting-agendas"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:nominal-group-technique"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:psychological-safety"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:wait-time"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:paraphrasing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:conversational-turn-taking"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:active-listening"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:interrupting",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:unequal-participation",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:workplace-meetings",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:lehmann-willenbrock-allen-kauffeld-2013",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:woolley-et-al-2010",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:riedl-et-al-2021",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:g-versus-c-meta-analysis-2021",
+    "source": "s6",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Before we started, did the group agree the goal, the agenda and how we would take turns, or did I assume everyone knew?",
+   "Who got cut off or stayed silent, and did I hand the floor back to them by name?",
+   "Did I summarise where we had landed before moving to the next item, and check that the summary was right?",
+   "Did I keep my own opinions out of the content, or did I steer the group toward the answer I wanted?",
+   "Did the meeting end with named owners and next steps for each decision?"
+  ],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://ctb.ku.edu/en/community-tool-box-toc/leadership-and-management/chapter-16-group-facilitation-and-problem-solving-4",
+   "https://www.iaf-world.org/site/ar/professional/core-competencies",
+   "https://research.vu.nl/ws/files/833560/L-W_%20Allen_%20Kauffeld.2013.pdf",
+   "https://pubmed.ncbi.nlm.nih.gov/20929725/",
+   "https://dspace.mit.edu/handle/1721.1/144213",
+   "https://link.springer.com/10.1186/s41235-021-00285-2"
+  ]
+ },
+ {
   "id": "cm:feedback",
   "title": "Feedback",
   "aliases": [

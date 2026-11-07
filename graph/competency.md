@@ -6,15 +6,15 @@ SPARQL queries in `queries/` run over the asserted graph, the OWL-RL inferences 
 
 _Which written barriers or anti-patterns have nothing in the graph that addresses them?_ — `queries/01-problems-without-fix.rq`
 
-| node | type |
-|---|---|
-| `cm:interrupting` | cmo:AntiPattern |
+_No results._
 
 ## Skills with no practice technique (gap)
 
 _Which written skills or dispositions have no technique, framework or principle that develops them?_ — `queries/02-skills-without-practice.rq`
 
-_No results._
+| skill | type |
+|---|---|
+| `cm:facilitation` | cmo:Skill |
 
 ## Situations, channels and formats with no guidance (gap)
 
@@ -29,6 +29,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | technique | reach | targets |
 |---|---|---|
 | `cm:describe-analyze-evaluate` | 2 | Ethnocentrism, intercultural-competence |
+| `cm:facilitation` | 2 | Interrupting, unequal-participation |
 | `cm:i-statements` | 2 | Defensiveness, accusatory-you-statements |
 | `cm:nominal-group-technique` | 2 | production-blocking, unequal-participation |
 | `cm:plain-language` | 2 | Curse of knowledge, jargon |
@@ -57,9 +58,8 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:raci-matrix` | 1 | role-ambiguity |
 | `cm:reciprocal-self-disclosure` | 1 | Small talk at work |
 | `cm:scheduled-inbox-checks` | 1 | Information overload |
-| `cm:setting-reply-time-expectations` | 1 | email-urgency-bias |
 
-…and 4 more.
+…and 5 more.
 
 ## Toolkit by situation
 
@@ -98,7 +98,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:one-on-one-meetings` | `cm:active-listening` |
 | `cm:one-on-one-meetings` | `cm:humble-inquiry` |
 
-…and 24 more.
+…and 25 more.
 
 ## Myths and contested advice
 
@@ -137,7 +137,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:delivering-bad-news` | mixed |  |
 | `cm:direct-vs-indirect-feedback` | mixed | `cm:brew-cairns-2004` |
 
-…and 40 more.
+…and 41 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -152,6 +152,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:delivering-bad-news` | cmo:Context |
 | `cm:egocentric-bias` | cmo:Barrier |
 | `cm:eye-contact` | cmo:Skill |
+| `cm:facilitation` | cmo:Skill |
 | `cm:feedback-sandwich` | cmo:Technique |
 | `cm:filled-pauses` | cmo:AntiPattern |
 | `cm:information-overload` | cmo:Barrier |
@@ -174,7 +175,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:stakeholder-mapping` | cmo:Technique |
 | `cm:status-reporting` | cmo:Genre |
 | `cm:teach-back` | cmo:Technique |
-| `cm:zoom-fatigue` | cmo:Barrier |
+
+…and 1 more.
 
 ## Orphan articles (gap)
 
