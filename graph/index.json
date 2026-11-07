@@ -3250,6 +3250,104 @@
   ]
  },
  {
+  "id": "cm:executive-briefing",
+  "title": "Executive briefing",
+  "aliases": [
+   "briefing a senior leader",
+   "briefing senior executives",
+   "leadership briefing",
+   "decision brief",
+   "information brief"
+  ],
+  "type": "Context",
+  "domain": "executive-and-client-communication",
+  "level": "intermediate",
+  "evidenceStatus": "practitioner",
+  "file": "articles/executive-and-client-communication/executive-briefing.md",
+  "created": "2026-11-07",
+  "summary": "A short, scheduled session (or paper) in which you give a senior decision maker what they need to understand an issue or make a decision, usually in far less time than the subject deserves. It works when the purpose and recommendation come first, detail is held in reserve, and questions are expected.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:workplace-meetings"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:managing-up"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:status-reporting"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:pyramid-principle"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:issue-selling"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:words-of-estimative-probability"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:risk-numbers-as-natural-frequencies"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:communicating-uncertainty"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:executive-summary"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:information-overload"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:audience-analysis"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:bottom-line-up-front",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:presentation-rehearsal",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:nicolini-korica-2021",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:attention-based-view",
+    "source": "s3",
+    "confidence": "low"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://www.trngcmd.marines.mil/Portals/207/Docs/TBS/W3S0005%20-%20MILITARY%20BRIEFING.pdf",
+   "https://irp.fas.org/doddir/army/iobc/decbrflp.htm",
+   "https://biopen.bi.no/bi-xmlui/bitstream/handle/11250/2992494/nicolini_2021.pdf?sequence=4",
+   "https://www.dpmc.govt.nz/sites/default/files/2025-09/writing-for-ministers-and-cabinet-sept2025.pdf",
+   "https://www.duarte.com/blog/how-to-effectively-present-to-senior-executives/"
+  ]
+ },
+ {
   "id": "cm:eye-contact",
   "title": "Gaze and eye contact",
   "aliases": [

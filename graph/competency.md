@@ -147,6 +147,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:credibility` | cmo:Concept |
 | `cm:delivering-bad-news` | cmo:Context |
 | `cm:egocentric-bias` | cmo:Barrier |
+| `cm:executive-briefing` | cmo:Context |
 | `cm:eye-contact` | cmo:Skill |
 | `cm:face-to-face-conversation` | cmo:Channel |
 | `cm:facilitation` | cmo:Skill |
@@ -172,9 +173,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:small-talk` | cmo:Skill |
 | `cm:social-accounts` | cmo:Technique |
 | `cm:speaking-anxiety` | cmo:Barrier |
-| `cm:stakeholder-mapping` | cmo:Technique |
 
-…and 5 more.
+…and 6 more.
 
 ## Orphan articles (gap)
 

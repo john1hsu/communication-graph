@@ -2858,6 +2858,97 @@
    ]
   },
   {
+   "@id": "cm:executive-briefing",
+   "@type": "cmo:Context",
+   "cmo:complements": [
+    {
+     "@id": "cm:bottom-line-up-front"
+    },
+    {
+     "@id": "cm:presentation-rehearsal"
+    }
+   ],
+   "cmo:demonstratedBy": {
+    "@id": "cm:nicolini-korica-2021"
+   },
+   "cmo:domain": "executive-and-client-communication",
+   "cmo:evidenceStatus": "practitioner",
+   "cmo:explainedBy": {
+    "@id": "cm:attention-based-view"
+   },
+   "cmo:file": "articles/executive-and-client-communication/executive-briefing.md",
+   "cmo:level": "intermediate",
+   "cmo:requires": {
+    "@id": "cm:audience-analysis"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/executive-briefing/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/executive-briefing/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/executive-briefing/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/executive-briefing/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/executive-briefing/s5"
+    }
+   ],
+   "rdfs:label": "Executive briefing",
+   "skos:altLabel": [
+    "briefing a senior leader",
+    "briefing senior executives",
+    "decision brief",
+    "information brief",
+    "leadership briefing"
+   ],
+   "skos:broader": {
+    "@id": "cm:workplace-meetings"
+   },
+   "skos:definition": "A short, scheduled session (or paper) in which you give a senior decision maker what they need to understand an issue or make a decision, usually in far less time than the subject deserves. It works when the purpose and recommendation come first, detail is held in reserve, and questions are expected.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/executive-and-client-communication"
+   },
+   "skos:prefLabel": "Executive briefing",
+   "skos:related": [
+    {
+     "@id": "cm:communicating-uncertainty"
+    },
+    {
+     "@id": "cm:executive-summary"
+    },
+    {
+     "@id": "cm:information-overload"
+    },
+    {
+     "@id": "cm:issue-selling"
+    },
+    {
+     "@id": "cm:managing-up"
+    },
+    {
+     "@id": "cm:pyramid-principle"
+    },
+    {
+     "@id": "cm:risk-numbers-as-natural-frequencies"
+    },
+    {
+     "@id": "cm:status-reporting"
+    },
+    {
+     "@id": "cm:words-of-estimative-probability"
+    }
+   ]
+  },
+  {
    "@id": "cm:eye-contact",
    "@type": "cmo:Skill",
    "cmo:appliedIn": {
@@ -16662,6 +16753,76 @@
    "dcterms:title": "How does intergroup contact reduce prejudice? Meta-analytic tests of three mediators",
    "schema:url": {
     "@id": "https://courses.washington.edu/pbafhall/563/Readings/pettigrew.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/executive-briefing/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "The Basic School, U.S. Marine Corps Training Command, Camp Barrett, Virginia",
+   "dcterms:title": "Military Briefing (W3S0005 student handout)",
+   "schema:url": {
+    "@id": "https://www.trngcmd.marines.mil/Portals/207/Docs/TBS/W3S0005%20-%20MILITARY%20BRIEFING.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/executive-briefing/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "U.S. Army Intelligence Officer Basic Course lesson plan (copy hosted by the Federation of American Scientists)",
+   "dcterms:title": "Decision Brief (instructional event, as of January 1996)",
+   "schema:url": {
+    "@id": "https://irp.fas.org/doddir/army/iobc/decbrflp.htm"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/executive-briefing/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Nicolini, D. & Korica, M., Organization Science 32(5), 1273-1299, 2021, doi:10.1287/orsc.2020.1427 (accepted manuscript, BI Norwegian Business School open archive)",
+   "dcterms:title": "Attentional engagement as practice: A study of the attentional infrastructure of healthcare chief executive officers",
+   "schema:url": {
+    "@id": "https://biopen.bi.no/bi-xmlui/bitstream/handle/11250/2992494/nicolini_2021.pdf?sequence=4"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/executive-briefing/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "The Policy Project, Department of the Prime Minister and Cabinet, New Zealand, September 2025",
+   "dcterms:title": "Writing for Ministers and Cabinet",
+   "schema:url": {
+    "@id": "https://www.dpmc.govt.nz/sites/default/files/2025-09/writing-for-ministers-and-cabinet-sept2025.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/executive-briefing/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "community",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Nancy Duarte, Duarte Inc. blog, 2026",
+   "dcterms:title": "How to effectively present to senior executives",
+   "schema:url": {
+    "@id": "https://www.duarte.com/blog/how-to-effectively-present-to-senior-executives/"
    }
   },
   {
