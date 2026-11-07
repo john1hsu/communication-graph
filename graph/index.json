@@ -6449,6 +6449,107 @@
   ]
  },
  {
+  "id": "cm:multicultural-team",
+  "title": "Multicultural team",
+  "aliases": [
+   "multicultural teams",
+   "culturally diverse team",
+   "multicultural work group",
+   "cross-cultural team"
+  ],
+  "type": "Context",
+  "domain": "cross-cultural-communication",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/cross-cultural-communication/multicultural-team.md",
+  "created": "2026-11-07",
+  "summary": "A work team whose members bring different national or cultural backgrounds - and often different first languages - to a shared task. Its communication challenges are predictable (direct vs. indirect styles, fluency gaps, attitudes to hierarchy, decision norms), and how the team handles them decides whether diversity shows up as extra creativity or extra conflict.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:intercultural-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:direct-vs-indirect-feedback"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:the-culture-map"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:hofstede-cultural-dimensions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:high-and-low-context-cultures"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:ethnocentrism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:power-distance"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:face-and-facework"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:psychological-safety"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:video-call-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:intercultural-competence"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:describe-analyze-evaluate"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:stahl-maznevski-voigt-jonsen-2010",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:hinds-neeley-cramton-2014",
+    "source": "s5",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:faultline-theory",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:studiedIn",
+    "object": "cm:intercultural-communication",
+    "source": "s2",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://ideas.repec.org/a/pal/jintbs/v41y2010i4p690-709.html",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC7812115/",
+   "https://oscqr.suny.edu/wp-content/uploads/2024/05/HBRMulticulturalteamsjournalarticle.pdf",
+   "https://www.library.hbs.edu/working-knowledge/language-wars-divide-global-companies",
+   "https://ideas.repec.org/a/pal/jintbs/v45y2014i5p536-561.html"
+  ]
+ },
+ {
   "id": "cm:multiple-equivalent-simultaneous-offers",
   "title": "Multiple equivalent simultaneous offers",
   "aliases": [

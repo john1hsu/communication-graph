@@ -117,6 +117,14 @@
 <https://github.com/john1hsu/communication-graph/id/intercultural-communication#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/intercultural-communication/s4> .
 <https://github.com/john1hsu/communication-graph/id/intercultural-communication#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/intercultural-communication/s5> .
 <https://github.com/john1hsu/communication-graph/id/intercultural-communication#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/intercultural-communication/s6> .
+<https://github.com/john1hsu/communication-graph/id/multicultural-team#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/multicultural-team#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/multicultural-team> .
+<https://github.com/john1hsu/communication-graph/id/multicultural-team#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/cross-cultural-communication/multicultural-team.md" .
+<https://github.com/john1hsu/communication-graph/id/multicultural-team#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/multicultural-team/s1> .
+<https://github.com/john1hsu/communication-graph/id/multicultural-team#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/multicultural-team/s2> .
+<https://github.com/john1hsu/communication-graph/id/multicultural-team#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/multicultural-team/s3> .
+<https://github.com/john1hsu/communication-graph/id/multicultural-team#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/multicultural-team/s4> .
+<https://github.com/john1hsu/communication-graph/id/multicultural-team#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/multicultural-team/s5> .
 <https://github.com/john1hsu/communication-graph/id/apology#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/apology#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/apology> .
 <https://github.com/john1hsu/communication-graph/id/apology#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/difficult-conversations-and-conflict/apology.md" .
@@ -2049,6 +2057,74 @@
   <https://github.com/john1hsu/communication-graph/id/source/intercultural-communication/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
   <https://github.com/john1hsu/communication-graph/id/source/intercultural-communication/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "news" .
   <https://github.com/john1hsu/communication-graph/id/source/intercultural-communication/s6> <https://schema.org/url> <https://www.sciencedaily.com/releases/2016/05/160513112140.htm> .
+}
+
+<https://github.com/john1hsu/communication-graph/id/multicultural-team#graph> {
+  <https://github.com/john1hsu/communication-graph/id/multicultural-team> <http://purl.org/dc/terms/created> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/multicultural-team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Context> .
+  <https://github.com/john1hsu/communication-graph/id/multicultural-team> <http://www.w3.org/2000/01/rdf-schema#label> "Multicultural team" .
+  <https://github.com/john1hsu/communication-graph/id/multicultural-team> <http://www.w3.org/2004/02/skos/core#altLabel> "cross-cultural team" .
+  <https://github.com/john1hsu/communication-graph/id/multicultural-team> <http://www.w3.org/2004/02/skos/core#altLabel> "culturally diverse team" .
+  <https://github.com/john1hsu/communication-graph/id/multicultural-team> <http://www.w3.org/2004/02/skos/core#altLabel> "multicultural teams" .
+  <https://github.com/john1hsu/communication-graph/id/multicultural-team> <http://www.w3.org/2004/02/skos/core#altLabel> "multicultural work group" .
+  <https://github.com/john1hsu/communication-graph/id/multicultural-team> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/intercultural-communication> .
+  <https://github.com/john1hsu/communication-graph/id/multicultural-team> <http://www.w3.org/2004/02/skos/core#definition> "A work team whose members bring different national or cultural backgrounds - and often different first languages - to a shared task. Its communication challenges are predictable (direct vs. indirect styles, fluency gaps, attitudes to hierarchy, decision norms), and how the team handles them decides whether diversity shows up as extra creativity or extra conflict." .
+  <https://github.com/john1hsu/communication-graph/id/multicultural-team> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/cross-cultural-communication> .
+  <https://github.com/john1hsu/communication-graph/id/multicultural-team> <http://www.w3.org/2004/02/skos/core#prefLabel> "Multicultural team" .
+  <https://github.com/john1hsu/communication-graph/id/multicultural-team> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate> .
+  <https://github.com/john1hsu/communication-graph/id/multicultural-team> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> .
+  <https://github.com/john1hsu/communication-graph/id/multicultural-team> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/ethnocentrism> .
+  <https://github.com/john1hsu/communication-graph/id/multicultural-team> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/face-and-facework> .
+  <https://github.com/john1hsu/communication-graph/id/multicultural-team> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> .
+  <https://github.com/john1hsu/communication-graph/id/multicultural-team> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/hofstede-cultural-dimensions> .
+  <https://github.com/john1hsu/communication-graph/id/multicultural-team> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/intercultural-competence> .
+  <https://github.com/john1hsu/communication-graph/id/multicultural-team> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/power-distance> .
+  <https://github.com/john1hsu/communication-graph/id/multicultural-team> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
+  <https://github.com/john1hsu/communication-graph/id/multicultural-team> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/the-culture-map> .
+  <https://github.com/john1hsu/communication-graph/id/multicultural-team> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/video-call-communication> .
+  <https://github.com/john1hsu/communication-graph/id/multicultural-team> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/multicultural-team/s1> .
+  <https://github.com/john1hsu/communication-graph/id/multicultural-team> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/multicultural-team/s2> .
+  <https://github.com/john1hsu/communication-graph/id/multicultural-team> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/multicultural-team/s3> .
+  <https://github.com/john1hsu/communication-graph/id/multicultural-team> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/multicultural-team/s4> .
+  <https://github.com/john1hsu/communication-graph/id/multicultural-team> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/multicultural-team/s5> .
+  <https://github.com/john1hsu/communication-graph/id/multicultural-team> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/hinds-neeley-cramton-2014> .
+  <https://github.com/john1hsu/communication-graph/id/multicultural-team> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/stahl-maznevski-voigt-jonsen-2010> .
+  <https://github.com/john1hsu/communication-graph/id/multicultural-team> <https://github.com/john1hsu/communication-graph/ontology#domain> "cross-cultural-communication" .
+  <https://github.com/john1hsu/communication-graph/id/multicultural-team> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+  <https://github.com/john1hsu/communication-graph/id/multicultural-team> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/faultline-theory> .
+  <https://github.com/john1hsu/communication-graph/id/multicultural-team> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/cross-cultural-communication/multicultural-team.md" .
+  <https://github.com/john1hsu/communication-graph/id/multicultural-team> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+  <https://github.com/john1hsu/communication-graph/id/multicultural-team> <https://github.com/john1hsu/communication-graph/ontology#studiedIn> <https://github.com/john1hsu/communication-graph/id/intercultural-communication> .
+  <https://github.com/john1hsu/communication-graph/id/source/multicultural-team/s1> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/multicultural-team/s1> <http://purl.org/dc/terms/publisher> "Stahl, G. K., Maznevski, M. L., Voigt, A. & Jonsen, K., Journal of International Business Studies 41(4), 690-709, 2010 (IDEAS/RePEc record and abstract)" .
+  <https://github.com/john1hsu/communication-graph/id/source/multicultural-team/s1> <http://purl.org/dc/terms/title> "Unraveling the effects of cultural diversity in teams: A meta-analysis of research on multicultural work groups" .
+  <https://github.com/john1hsu/communication-graph/id/source/multicultural-team/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/multicultural-team/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/multicultural-team/s1> <https://schema.org/url> <https://ideas.repec.org/a/pal/jintbs/v41y2010i4p690-709.html> .
+  <https://github.com/john1hsu/communication-graph/id/source/multicultural-team/s2> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/multicultural-team/s2> <http://purl.org/dc/terms/publisher> "Stahl, G. K. & Maznevski, M. L., Journal of International Business Studies 52(1), 4-22, 2021, doi:10.1057/s41267-020-00389-9 (PubMed Central)" .
+  <https://github.com/john1hsu/communication-graph/id/source/multicultural-team/s2> <http://purl.org/dc/terms/title> "Unraveling the effects of cultural diversity in teams: A retrospective of research on multicultural work groups and an agenda for future research" .
+  <https://github.com/john1hsu/communication-graph/id/source/multicultural-team/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/multicultural-team/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/multicultural-team/s2> <https://schema.org/url> <https://pmc.ncbi.nlm.nih.gov/articles/PMC7812115/> .
+  <https://github.com/john1hsu/communication-graph/id/source/multicultural-team/s3> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/multicultural-team/s3> <http://purl.org/dc/terms/publisher> "Brett, J., Behfar, K. & Kern, M. C., Harvard Business Review, November 2006 (copy hosted by SUNY OSCQR)" .
+  <https://github.com/john1hsu/communication-graph/id/source/multicultural-team/s3> <http://purl.org/dc/terms/title> "Managing Multicultural Teams" .
+  <https://github.com/john1hsu/communication-graph/id/source/multicultural-team/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/multicultural-team/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "practitioner-journal" .
+  <https://github.com/john1hsu/communication-graph/id/source/multicultural-team/s3> <https://schema.org/url> <https://oscqr.suny.edu/wp-content/uploads/2024/05/HBRMulticulturalteamsjournalarticle.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/multicultural-team/s4> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/multicultural-team/s4> <http://purl.org/dc/terms/publisher> "Kim Girard, HBS Working Knowledge (Harvard Business School), 20 January 2014" .
+  <https://github.com/john1hsu/communication-graph/id/source/multicultural-team/s4> <http://purl.org/dc/terms/title> "Language Wars Divide Global Companies" .
+  <https://github.com/john1hsu/communication-graph/id/source/multicultural-team/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/multicultural-team/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/communication-graph/id/source/multicultural-team/s4> <https://schema.org/url> <https://www.library.hbs.edu/working-knowledge/language-wars-divide-global-companies> .
+  <https://github.com/john1hsu/communication-graph/id/source/multicultural-team/s5> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/multicultural-team/s5> <http://purl.org/dc/terms/publisher> "Hinds, P. J., Neeley, T. B. & Cramton, C. D., Journal of International Business Studies 45(5), 536-561, 2014 (IDEAS/RePEc record and abstract)" .
+  <https://github.com/john1hsu/communication-graph/id/source/multicultural-team/s5> <http://purl.org/dc/terms/title> "Language as a lightning rod: Power contests, emotion regulation, and subgroup dynamics in global teams" .
+  <https://github.com/john1hsu/communication-graph/id/source/multicultural-team/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/multicultural-team/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/multicultural-team/s5> <https://schema.org/url> <https://ideas.repec.org/a/pal/jintbs/v45y2014i5p536-561.html> .
 }
 
 <https://github.com/john1hsu/communication-graph/id/apology#graph> {
@@ -10992,6 +11068,7 @@
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/media-richness-theory> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/message-equivocality-media-selection-and-manager-performance> .
+  <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/multicultural-team> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
@@ -11133,6 +11210,7 @@
   <https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
   <https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/intercultural-communication> .
   <https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/intercultural-communication> .
+  <https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/multicultural-team> .
   <https://github.com/john1hsu/communication-graph/id/detert-burris-2007> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/humble-inquiry> .
   <https://github.com/john1hsu/communication-graph/id/dibble-2017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/dibble-2017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
@@ -11175,6 +11253,7 @@
   <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/feedforward> .
   <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/hofstede-cultural-dimensions> .
   <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/intercultural-communication> .
+  <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/multicultural-team> .
   <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/the-culture-map> .
   <https://github.com/john1hsu/communication-graph/id/distributive-negotiation> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/first-offer> .
   <https://github.com/john1hsu/communication-graph/id/distributive-negotiation> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> .
@@ -11328,6 +11407,7 @@
   <https://github.com/john1hsu/communication-graph/id/eye-contact> <https://github.com/john1hsu/communication-graph/ontology#developedBy> <https://github.com/john1hsu/communication-graph/id/camera-level-gaze> .
   <https://github.com/john1hsu/communication-graph/id/face-and-facework> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/apology> .
   <https://github.com/john1hsu/communication-graph/id/face-and-facework> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mea-culpa> .
+  <https://github.com/john1hsu/communication-graph/id/face-and-facework> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/multicultural-team> .
   <https://github.com/john1hsu/communication-graph/id/face-and-facework> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> .
   <https://github.com/john1hsu/communication-graph/id/face-to-face-conversation/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/face-to-face-conversation/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -11367,6 +11447,7 @@
   <https://github.com/john1hsu/communication-graph/id/farley-2008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/farley-2008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/farley-2008> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/interrupting> .
+  <https://github.com/john1hsu/communication-graph/id/faultline-theory> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/multicultural-team> .
   <https://github.com/john1hsu/communication-graph/id/fauville-et-al-2022> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/camera-level-gaze> .
   <https://github.com/john1hsu/communication-graph/id/fauville-et-al-2023> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> .
   <https://github.com/john1hsu/communication-graph/id/fear-and-loathing-of-the-english-passive> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/active-voice> .
@@ -11575,8 +11656,12 @@
   <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/grices-maxims> .
   <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/intercultural-communication> .
   <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> .
+  <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/multicultural-team> .
   <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/proxemics> .
   <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/the-culture-map> .
+  <https://github.com/john1hsu/communication-graph/id/hinds-neeley-cramton-2014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/hinds-neeley-cramton-2014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
+  <https://github.com/john1hsu/communication-graph/id/hinds-neeley-cramton-2014> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/multicultural-team> .
   <https://github.com/john1hsu/communication-graph/id/hofstede-cultural-dimensions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/hofstede-cultural-dimensions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/hofstede-cultural-dimensions> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
@@ -11714,17 +11799,20 @@
   <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/ethnocentrism> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/hofstede-cultural-dimensions> .
+  <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/multicultural-team> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/the-culture-map> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/ethnocentrism> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/hofstede-cultural-dimensions> .
+  <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/multicultural-team> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/the-culture-map> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/eye-contact> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-competence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/intercultural-communication> .
+  <https://github.com/john1hsu/communication-graph/id/intercultural-competence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/multicultural-team> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-competence> <https://github.com/john1hsu/communication-graph/ontology#developedBy> <https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-willingness-to-communicate> <https://github.com/john1hsu/communication-graph/ontology#underminedBy> <https://github.com/john1hsu/communication-graph/id/ethnocentrism> .
   <https://github.com/john1hsu/communication-graph/id/intergroup-contact> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/ethnocentrism> .
@@ -12049,10 +12137,11 @@
   <https://github.com/john1hsu/communication-graph/id/morris-et-al-2000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/morris-et-al-2000> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/rapport> .
   <https://github.com/john1hsu/communication-graph/id/motivating-language-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
-  <https://github.com/john1hsu/communication-graph/id/multicultural-team> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/ethnocentrism> .
-  <https://github.com/john1hsu/communication-graph/id/multicultural-team> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/hofstede-cultural-dimensions> .
+  <https://github.com/john1hsu/communication-graph/id/multicultural-team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+  <https://github.com/john1hsu/communication-graph/id/multicultural-team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/multicultural-team> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
+  <https://github.com/john1hsu/communication-graph/id/multicultural-team> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/intercultural-communication> .
   <https://github.com/john1hsu/communication-graph/id/multicultural-team> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/intercultural-communication> .
-  <https://github.com/john1hsu/communication-graph/id/multicultural-team> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/the-culture-map> .
   <https://github.com/john1hsu/communication-graph/id/multicultural-team> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> .
   <https://github.com/john1hsu/communication-graph/id/multicultural-team> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/the-culture-map> .
   <https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -12289,6 +12378,7 @@
   <https://github.com/john1hsu/communication-graph/id/plato> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> .
   <https://github.com/john1hsu/communication-graph/id/politeness-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/grices-maxims> .
   <https://github.com/john1hsu/communication-graph/id/power-distance> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/hofstede-cultural-dimensions> .
+  <https://github.com/john1hsu/communication-graph/id/power-distance> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/multicultural-team> .
   <https://github.com/john1hsu/communication-graph/id/power-distance> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/the-culture-map> .
   <https://github.com/john1hsu/communication-graph/id/power-distance> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> .
   <https://github.com/john1hsu/communication-graph/id/poynter-smith-pasqualini-2025> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> .
@@ -12344,6 +12434,7 @@
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/interrupting> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/issue-selling> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/managing-up> .
+  <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/multicultural-team> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/performance-review> .
@@ -12663,6 +12754,9 @@
   <https://github.com/john1hsu/communication-graph/id/sprecher-et-al-2013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/sprecher-et-al-2013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/sprecher-et-al-2013> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/reciprocal-self-disclosure> .
+  <https://github.com/john1hsu/communication-graph/id/stahl-maznevski-voigt-jonsen-2010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/stahl-maznevski-voigt-jonsen-2010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
+  <https://github.com/john1hsu/communication-graph/id/stahl-maznevski-voigt-jonsen-2010> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/multicultural-team> .
   <https://github.com/john1hsu/communication-graph/id/stakeholder-consultation> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> .
   <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -12818,6 +12912,7 @@
   <https://github.com/john1hsu/communication-graph/id/video-call-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/chen-2002> .
   <https://github.com/john1hsu/communication-graph/id/video-call-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> .
   <https://github.com/john1hsu/communication-graph/id/video-call-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/face-to-face-conversation> .
+  <https://github.com/john1hsu/communication-graph/id/video-call-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/multicultural-team> .
   <https://github.com/john1hsu/communication-graph/id/video-call-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> .
   <https://github.com/john1hsu/communication-graph/id/video-call-communication> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/camera-level-gaze> .
   <https://github.com/john1hsu/communication-graph/id/video-call-communication> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> .

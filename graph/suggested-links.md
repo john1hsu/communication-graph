@@ -17,9 +17,9 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 2.12 | `cm:i-statements` | `cm:weger-et-al-2014` | `cm:active-listening`, `cm:paraphrasing`, `cm:thomas-gordon` |
 | 2.11 | `cm:paraphrasing` | `cm:psychological-safety` | `cm:active-listening`, `cm:difficult-conversation`, `cm:facilitation`, `cm:interrupting`, `cm:open-ended-questions` |
 | 2.09 | `cm:humble-inquiry` | `cm:weger-et-al-2014` | `cm:active-listening`, `cm:advice-giving`, `cm:open-ended-questions` |
-| 2.07 | `cm:face-to-face-conversation` | `cm:zoom-fatigue` | `cm:asynchronous-communication`, `cm:channel-selection`, `cm:media-richness-theory`, `cm:nonverbal-communication`, `cm:proxemics` |
 | 2.07 | `cm:facilitation` | `cm:open-ended-questions` | `cm:active-listening`, `cm:meeting-agendas`, `cm:nominal-group-technique`, `cm:paraphrasing`, `cm:psychological-safety` |
-| 2.05 | `cm:difficult-conversation` | `cm:small-talk` | `cm:active-listening`, `cm:kardas-kumar-epley-2021`, `cm:psychological-safety` |
+| 2.06 | `cm:face-to-face-conversation` | `cm:zoom-fatigue` | `cm:asynchronous-communication`, `cm:channel-selection`, `cm:media-richness-theory`, `cm:nonverbal-communication`, `cm:proxemics` |
+| 2.04 | `cm:difficult-conversation` | `cm:small-talk` | `cm:active-listening`, `cm:kardas-kumar-epley-2021`, `cm:psychological-safety` |
 | 2.03 | `cm:nominal-group-technique` | `cm:raci-matrix` | `cm:group-decision-making`, `cm:meeting-agendas`, `cm:stakeholder-mapping`, `cm:workplace-meetings` |
 | 2.02 | `cm:bottom-line-up-front` | `cm:curse-of-knowledge` | `cm:assertion-evidence-slides`, `cm:audience-analysis`, `cm:channel-selection`, `cm:clarity`, `cm:email` |
 | 1.99 | `cm:common-ground` | `cm:email` | `cm:asynchronous-communication`, `cm:audience-analysis`, `cm:channel-selection`, `cm:curse-of-knowledge`, `cm:illusion-of-transparency` |

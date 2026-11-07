@@ -5664,6 +5664,99 @@
    ]
   },
   {
+   "@id": "cm:multicultural-team",
+   "@type": "cmo:Context",
+   "cmo:demonstratedBy": [
+    {
+     "@id": "cm:hinds-neeley-cramton-2014"
+    },
+    {
+     "@id": "cm:stahl-maznevski-voigt-jonsen-2010"
+    }
+   ],
+   "cmo:domain": "cross-cultural-communication",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:explainedBy": {
+    "@id": "cm:faultline-theory"
+   },
+   "cmo:file": "articles/cross-cultural-communication/multicultural-team.md",
+   "cmo:level": "intermediate",
+   "cmo:studiedIn": {
+    "@id": "cm:intercultural-communication"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/multicultural-team/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/multicultural-team/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/multicultural-team/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/multicultural-team/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/multicultural-team/s5"
+    }
+   ],
+   "rdfs:label": "Multicultural team",
+   "skos:altLabel": [
+    "cross-cultural team",
+    "culturally diverse team",
+    "multicultural teams",
+    "multicultural work group"
+   ],
+   "skos:broader": {
+    "@id": "cm:intercultural-communication"
+   },
+   "skos:definition": "A work team whose members bring different national or cultural backgrounds - and often different first languages - to a shared task. Its communication challenges are predictable (direct vs. indirect styles, fluency gaps, attitudes to hierarchy, decision norms), and how the team handles them decides whether diversity shows up as extra creativity or extra conflict.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/cross-cultural-communication"
+   },
+   "skos:prefLabel": "Multicultural team",
+   "skos:related": [
+    {
+     "@id": "cm:describe-analyze-evaluate"
+    },
+    {
+     "@id": "cm:direct-vs-indirect-feedback"
+    },
+    {
+     "@id": "cm:ethnocentrism"
+    },
+    {
+     "@id": "cm:face-and-facework"
+    },
+    {
+     "@id": "cm:high-and-low-context-cultures"
+    },
+    {
+     "@id": "cm:hofstede-cultural-dimensions"
+    },
+    {
+     "@id": "cm:intercultural-competence"
+    },
+    {
+     "@id": "cm:power-distance"
+    },
+    {
+     "@id": "cm:psychological-safety"
+    },
+    {
+     "@id": "cm:the-culture-map"
+    },
+    {
+     "@id": "cm:video-call-communication"
+    }
+   ]
+  },
+  {
    "@id": "cm:multiple-equivalent-simultaneous-offers",
    "@type": "cmo:Technique",
    "cmo:addresses": {
@@ -19005,6 +19098,76 @@
    "dcterms:title": "Organizational Information Requirements, Media Richness and Structural Design",
    "schema:url": {
     "@id": "https://collablab.northwestern.edu//CollabolabDistro/nucmc/DaftAndLengel-OrgInfoReq-MediaRichnessAndStructuralDesign-MngmtSci-1986.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/multicultural-team/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Stahl, G. K., Maznevski, M. L., Voigt, A. & Jonsen, K., Journal of International Business Studies 41(4), 690-709, 2010 (IDEAS/RePEc record and abstract)",
+   "dcterms:title": "Unraveling the effects of cultural diversity in teams: A meta-analysis of research on multicultural work groups",
+   "schema:url": {
+    "@id": "https://ideas.repec.org/a/pal/jintbs/v41y2010i4p690-709.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/multicultural-team/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Stahl, G. K. & Maznevski, M. L., Journal of International Business Studies 52(1), 4-22, 2021, doi:10.1057/s41267-020-00389-9 (PubMed Central)",
+   "dcterms:title": "Unraveling the effects of cultural diversity in teams: A retrospective of research on multicultural work groups and an agenda for future research",
+   "schema:url": {
+    "@id": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7812115/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/multicultural-team/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "practitioner-journal",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Brett, J., Behfar, K. & Kern, M. C., Harvard Business Review, November 2006 (copy hosted by SUNY OSCQR)",
+   "dcterms:title": "Managing Multicultural Teams",
+   "schema:url": {
+    "@id": "https://oscqr.suny.edu/wp-content/uploads/2024/05/HBRMulticulturalteamsjournalarticle.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/multicultural-team/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Kim Girard, HBS Working Knowledge (Harvard Business School), 20 January 2014",
+   "dcterms:title": "Language Wars Divide Global Companies",
+   "schema:url": {
+    "@id": "https://www.library.hbs.edu/working-knowledge/language-wars-divide-global-companies"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/multicultural-team/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Hinds, P. J., Neeley, T. B. & Cramton, C. D., Journal of International Business Studies 45(5), 536-561, 2014 (IDEAS/RePEc record and abstract)",
+   "dcterms:title": "Language as a lightning rod: Power contests, emotion regulation, and subgroup dynamics in global teams",
+   "schema:url": {
+    "@id": "https://ideas.repec.org/a/pal/jintbs/v45y2014i5p536-561.html"
    }
   },
   {

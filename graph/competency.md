@@ -135,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:communicating-uncertainty` | mixed |  |
 | `cm:considering-others-contributions-first` | mixed |  |
 
-…and 54 more.
+…and 55 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -156,6 +156,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:interpersonal-communication` | cmo:Field |
 | `cm:interrupting` | cmo:AntiPattern |
 | `cm:meeting-agendas` | cmo:Technique |
+| `cm:multicultural-team` | cmo:Context |
 | `cm:nonverbal-communication` | cmo:Concept |
 | `cm:one-on-one-meetings` | cmo:Context |
 | `cm:open-ended-questions` | cmo:Technique |
@@ -172,9 +173,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:social-accounts` | cmo:Technique |
 | `cm:speaking-anxiety` | cmo:Barrier |
 | `cm:stakeholder-mapping` | cmo:Technique |
-| `cm:status-reporting` | cmo:Genre |
 
-…and 4 more.
+…and 5 more.
 
 ## Orphan articles (gap)
 
