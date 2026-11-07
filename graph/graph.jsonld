@@ -4085,6 +4085,106 @@
    ]
   },
   {
+   "@id": "cm:integrative-negotiation",
+   "@type": "cmo:Technique",
+   "cmo:addresses": {
+    "@id": "cm:mythical-fixed-pie"
+   },
+   "cmo:appliedIn": {
+    "@id": "cm:salary-negotiation"
+   },
+   "cmo:complements": {
+    "@id": "cm:perspective-taking"
+   },
+   "cmo:contrastsWith": {
+    "@id": "cm:distributive-negotiation"
+   },
+   "cmo:domain": "negotiation",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/integrative-negotiation/example"
+   },
+   "cmo:file": "articles/negotiation/integrative-negotiation.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/integrative-negotiation/howto"
+   },
+   "cmo:introducedIn": {
+    "@id": "cm:a-behavioral-theory-of-labor-negotiations"
+   },
+   "cmo:level": "intermediate",
+   "cmo:requires": [
+    {
+     "@id": "cm:batna"
+    },
+    {
+     "@id": "cm:open-ended-questions"
+    }
+   ],
+   "cmo:supportedBy": {
+    "@id": "cm:de-dreu-weingart-kwon-2000"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/integrative-negotiation/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/integrative-negotiation/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/integrative-negotiation/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/integrative-negotiation/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/integrative-negotiation/s5"
+    }
+   ],
+   "rdfs:label": "Integrative negotiation",
+   "skos:altLabel": [
+    "expanding the pie",
+    "integrative bargaining",
+    "mutual-gains negotiation",
+    "value-creating negotiation",
+    "win-win negotiation"
+   ],
+   "skos:broader": {
+    "@id": "cm:negotiation"
+   },
+   "skos:definition": "Negotiating to enlarge the total value available before dividing it: uncovering each side's interests and priorities across several issues, then trading what matters less to you for what matters more, so both parties end up better off than a split-the-difference compromise.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/negotiation"
+   },
+   "skos:prefLabel": "Integrative negotiation",
+   "skos:related": [
+    {
+     "@id": "cm:first-offer"
+    },
+    {
+     "@id": "cm:logrolling"
+    },
+    {
+     "@id": "cm:multiple-equivalent-simultaneous-offers"
+    },
+    {
+     "@id": "cm:negotiator-dilemma"
+    },
+    {
+     "@id": "cm:principled-negotiation"
+    },
+    {
+     "@id": "cm:wait-time"
+    },
+    {
+     "@id": "cm:zone-of-possible-agreement"
+    }
+   ]
+  },
+  {
    "@id": "cm:intercultural-communication",
    "@type": "cmo:Field",
    "cmo:challengedBy": {
@@ -10866,6 +10966,124 @@
    "rdfs:label": "When I feel swamped, is it the volume of messages, or a lack of clear priorities behind them?"
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/integrative-negotiation/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:integrative-negotiation"
+   },
+   "rdfs:label": "Have I put more than one issue on the table, or am I haggling over a single number?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/integrative-negotiation/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:integrative-negotiation"
+   },
+   "rdfs:label": "Do I know which issues matter most to the other side, or am I assuming their interests are the opposite of mine?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/integrative-negotiation/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:integrative-negotiation"
+   },
+   "rdfs:label": "Am I trading low-priority terms for high-priority ones, rather than conceding issue by issue?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/integrative-negotiation/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:integrative-negotiation"
+   },
+   "rdfs:label": "Am I sharing information step by step and checking that it is reciprocated?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/integrative-negotiation/check/5",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:integrative-negotiation"
+   },
+   "rdfs:label": "Is there a package that would leave both of us better off than the one we are about to sign?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/integrative-negotiation/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "Help me understand what's driving the 8% - is it a revenue target for this year, or the cost of supporting us? On our side, budget certainty matters more than anything, and we're flexible on contract length. If we signed for three years instead of one, and agreed to be a reference customer, could you hold this year's price flat with a capped increase after that?",
+   "cmo:before": "An 8% increase isn't going to work for us. Can you meet us halfway at 4%?",
+   "cmo:situation": "An IT manager is negotiating a software renewal with a vendor account executive who has proposed an 8% price increase.",
+   "cmo:why": "Splitting the difference treats the renewal as a single fixed pie; asking about the vendor's interests and offering terms that are cheap for the buyer but valuable to the vendor (a longer commitment, a reference) lets both sides gain more than a 4% compromise would give them."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/integrative-negotiation/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Integrative negotiation",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/integrative-negotiation/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/integrative-negotiation/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/integrative-negotiation/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/integrative-negotiation/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/integrative-negotiation/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/integrative-negotiation/howto/6"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/integrative-negotiation/howto/7"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/integrative-negotiation/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Before the conversation, list every issue that could be on the table - not only price, but timing, scope, payment terms, staffing, risk sharing, duration - and add issues if there is only one."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/integrative-negotiation/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Rank those issues by how much each matters to you, and note your BATNA so you know the point below which no package is worth taking."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/integrative-negotiation/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Open by asking why, not what - ask what the other side needs to achieve, what constraints they face and which terms matter most to them - and listen for differences in priority."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/integrative-negotiation/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Share some of your own priorities in return, a piece at a time, watching whether the other side reciprocates before you disclose more."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/integrative-negotiation/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Propose trades across issues - give ground on what you value less in exchange for movement on what you value more - instead of meeting in the middle on each issue separately."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/integrative-negotiation/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "Bundle the trades into complete packages and test them with \"what if\" questions, using objective criteria such as market rates to settle the remaining distributive pieces."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/integrative-negotiation/howto/7",
+   "@type": "schema:HowToStep",
+   "schema:position": 7,
+   "schema:text": "Before closing, ask whether any other arrangement would leave both sides better off than the one on the table."
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/interrupting/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -16300,6 +16518,76 @@
    "dcterms:title": "Checking email less frequently reduces stress",
    "schema:url": {
     "@id": "https://www.interruptions.net/literature/Kushlev-ComputHumBehav15.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/integrative-negotiation/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "PON Staff, Program on Negotiation at Harvard Law School, 2026",
+   "dcterms:title": "Expanding the Pie: Integrative versus Distributive Bargaining Negotiation Strategies",
+   "schema:url": {
+    "@id": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/negotiation-skills-expanding-the-pie-integrative-bargaining-versus-distributive-bargaining/?amp"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/integrative-negotiation/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Dylan Walsh, MIT Sloan School of Management (Ideas Made to Matter), 2019",
+   "dcterms:title": "A classic negotiation framework still applicable after 50 years",
+   "schema:url": {
+    "@id": "https://mitsloan.mit.edu/ideas-made-to-matter/a-classic-negotiation-framework-still-applicable-after-50-years"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/integrative-negotiation/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Thompson and Hastie, Organizational Behavior and Human Decision Processes 47(1), 98-123, 1990 (Kellogg School of Management faculty research record)",
+   "dcterms:title": "Social perception in negotiation",
+   "schema:url": {
+    "@id": "https://www.kellogg.northwestern.edu/faculty/research/detail/1990/social-perception-in-negotiation"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/integrative-negotiation/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "De Dreu, Weingart and Kwon, Journal of Personality and Social Psychology 78, 2000 (University of Amsterdam repository record)",
+   "dcterms:title": "Influence of social motives on integrative negotiation: a meta-analytic review and test of two theories",
+   "schema:url": {
+    "@id": "https://dare.uva.nl/id/403ebedc-c455-47a0-8a00-803afaed87b3"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/integrative-negotiation/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "PON Staff, Program on Negotiation at Harvard Law School (adapted from Negotiation newsletter, 2011)",
+   "dcterms:title": "Negotiations and Logrolling: Discover Opportunities to Generate Mutual Gains",
+   "schema:url": {
+    "@id": "https://www.pon.harvard.edu/daily/mediation/mediation-breaking-a-partial-impasse-in-negotiations/?amp"
    }
   },
   {

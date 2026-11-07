@@ -50,6 +50,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:feedforward` | 1 | Defensiveness |
 | `cm:habit-reversal-training` | 1 | Filled pauses |
 | `cm:humble-inquiry` | 1 | telling-instead-of-asking |
+| `cm:integrative-negotiation` | 1 | mythical-fixed-pie |
 | `cm:issue-selling` | 1 | Managing up |
 | `cm:meeting-agendas` | 1 | unnecessary-meetings |
 | `cm:multiple-equivalent-simultaneous-offers` | 1 | negotiator-dilemma |
@@ -57,9 +58,8 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:pyramid-principle` | 1 | burying-the-lede |
 | `cm:raci-matrix` | 1 | role-ambiguity |
 | `cm:reciprocal-self-disclosure` | 1 | Small talk at work |
-| `cm:scheduled-inbox-checks` | 1 | Information overload |
 
-…and 5 more.
+…and 6 more.
 
 ## Toolkit by situation
 
@@ -98,7 +98,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:one-on-one-meetings` | `cm:active-listening` |
 | `cm:one-on-one-meetings` | `cm:humble-inquiry` |
 
-…and 25 more.
+…and 26 more.
 
 ## Myths and contested advice
 
@@ -137,7 +137,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:delivering-bad-news` | mixed |  |
 | `cm:direct-vs-indirect-feedback` | mixed | `cm:brew-cairns-2004` |
 
-…and 42 more.
+…and 43 more.
 
 ## Concepts with no recorded origin (gap)
 

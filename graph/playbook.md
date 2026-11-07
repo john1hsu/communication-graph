@@ -750,6 +750,31 @@ Ask yourself:
 - Am I about to reveal a preference we probably share, which they could trade back to me as a concession?
 - If they opened first, have I re-anchored on my own numbers before replying?
 
+### [Integrative negotiation](../articles/negotiation/integrative-negotiation.md) — Technique
+
+1. Before the conversation, list every issue that could be on the table - not only price, but timing, scope, payment terms, staffing, risk sharing, duration - and add issues if there is only one.
+2. Rank those issues by how much each matters to you, and note your BATNA so you know the point below which no package is worth taking.
+3. Open by asking why, not what - ask what the other side needs to achieve, what constraints they face and which terms matter most to them - and listen for differences in priority.
+4. Share some of your own priorities in return, a piece at a time, watching whether the other side reciprocates before you disclose more.
+5. Propose trades across issues - give ground on what you value less in exchange for movement on what you value more - instead of meeting in the middle on each issue separately.
+6. Bundle the trades into complete packages and test them with "what if" questions, using objective criteria such as market rates to settle the remaining distributive pieces.
+7. Before closing, ask whether any other arrangement would leave both sides better off than the one on the table.
+
+*An IT manager is negotiating a software renewal with a vendor account executive who has proposed an 8% price increase.*
+
+| Before | After |
+|---|---|
+| An 8% increase isn't going to work for us. Can you meet us halfway at 4%? | Help me understand what's driving the 8% - is it a revenue target for this year, or the cost of supporting us? On our side, budget certainty matters more than anything, and we're flexible on contract length. If we signed for three years instead of one, and agreed to be a reference customer, could you hold this year's price flat with a capped increase after that? |
+
+**Why:** Splitting the difference treats the renewal as a single fixed pie; asking about the vendor's interests and offering terms that are cheap for the buyer but valuable to the vendor (a longer commitment, a reference) lets both sides gain more than a 4% compromise would give them.
+
+Ask yourself:
+- Have I put more than one issue on the table, or am I haggling over a single number?
+- Do I know which issues matter most to the other side, or am I assuming their interests are the opposite of mine?
+- Am I trading low-priority terms for high-priority ones, rather than conceding issue by issue?
+- Am I sharing information step by step and checking that it is reciprocated?
+- Is there a package that would leave both of us better off than the one we are about to sign?
+
 ### [Multiple equivalent simultaneous offers](../articles/negotiation/multiple-equivalent-simultaneous-offers.md) — Technique
 
 1. List every issue that is genuinely negotiable (price, scope, timing, payment terms, support, duration) and give each a weight that reflects how much it matters to you.

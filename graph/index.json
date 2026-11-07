@@ -4680,6 +4680,131 @@
   ]
  },
  {
+  "id": "cm:integrative-negotiation",
+  "title": "Integrative negotiation",
+  "aliases": [
+   "integrative bargaining",
+   "win-win negotiation",
+   "expanding the pie",
+   "value-creating negotiation",
+   "mutual-gains negotiation"
+  ],
+  "type": "Technique",
+  "domain": "negotiation",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/negotiation/integrative-negotiation.md",
+  "created": "2026-11-07",
+  "summary": "Negotiating to enlarge the total value available before dividing it: uncovering each side's interests and priorities across several issues, then trading what matters less to you for what matters more, so both parties end up better off than a split-the-difference compromise.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:negotiation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:multiple-equivalent-simultaneous-offers"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:zone-of-possible-agreement"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:principled-negotiation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:logrolling"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:first-offer"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:negotiator-dilemma"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:wait-time"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:batna"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:open-ended-questions"
+   },
+   {
+    "predicate": "cmo:contrastsWith",
+    "object": "cm:distributive-negotiation",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedIn",
+    "object": "cm:a-behavioral-theory-of-labor-negotiations",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:mythical-fixed-pie",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:de-dreu-weingart-kwon-2000",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:perspective-taking",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:salary-negotiation",
+    "source": "s1",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Have I put more than one issue on the table, or am I haggling over a single number?",
+   "Do I know which issues matter most to the other side, or am I assuming their interests are the opposite of mine?",
+   "Am I trading low-priority terms for high-priority ones, rather than conceding issue by issue?",
+   "Am I sharing information step by step and checking that it is reciprocated?",
+   "Is there a package that would leave both of us better off than the one we are about to sign?"
+  ],
+  "steps": [
+   "Before the conversation, list every issue that could be on the table - not only price, but timing, scope, payment terms, staffing, risk sharing, duration - and add issues if there is only one.",
+   "Rank those issues by how much each matters to you, and note your BATNA so you know the point below which no package is worth taking.",
+   "Open by asking why, not what - ask what the other side needs to achieve, what constraints they face and which terms matter most to them - and listen for differences in priority.",
+   "Share some of your own priorities in return, a piece at a time, watching whether the other side reciprocates before you disclose more.",
+   "Propose trades across issues - give ground on what you value less in exchange for movement on what you value more - instead of meeting in the middle on each issue separately.",
+   "Bundle the trades into complete packages and test them with \"what if\" questions, using objective criteria such as market rates to settle the remaining distributive pieces.",
+   "Before closing, ask whether any other arrangement would leave both sides better off than the one on the table."
+  ],
+  "example": {
+   "situation": "An IT manager is negotiating a software renewal with a vendor account executive who has proposed an 8% price increase.",
+   "before": "An 8% increase isn't going to work for us. Can you meet us halfway at 4%?",
+   "after": "Help me understand what's driving the 8% - is it a revenue target for this year, or the cost of supporting us? On our side, budget certainty matters more than anything, and we're flexible on contract length. If we signed for three years instead of one, and agreed to be a reference customer, could you hold this year's price flat with a capped increase after that?",
+   "why": "Splitting the difference treats the renewal as a single fixed pie; asking about the vendor's interests and offering terms that are cheap for the buyer but valuable to the vendor (a longer commitment, a reference) lets both sides gain more than a 4% compromise would give them."
+  },
+  "source_urls": [
+   "https://www.pon.harvard.edu/daily/negotiation-skills-daily/negotiation-skills-expanding-the-pie-integrative-bargaining-versus-distributive-bargaining/?amp",
+   "https://mitsloan.mit.edu/ideas-made-to-matter/a-classic-negotiation-framework-still-applicable-after-50-years",
+   "https://www.kellogg.northwestern.edu/faculty/research/detail/1990/social-perception-in-negotiation",
+   "https://dare.uva.nl/id/403ebedc-c455-47a0-8a00-803afaed87b3",
+   "https://www.pon.harvard.edu/daily/mediation/mediation-breaking-a-partial-impasse-in-negotiations/?amp"
+  ]
+ },
+ {
   "id": "cm:intercultural-communication",
   "title": "Intercultural communication",
   "aliases": [
