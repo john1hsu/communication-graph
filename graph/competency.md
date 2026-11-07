@@ -12,7 +12,9 @@ _No results._
 
 _Which written skills or dispositions have no technique, framework or principle that develops them?_ — `queries/02-skills-without-practice.rq`
 
-_No results._
+| skill | type |
+|---|---|
+| `cm:gestures` | cmo:Skill |
 
 ## Situations, channels and formats with no guidance (gap)
 
@@ -96,7 +98,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:multicultural-team` | `cm:direct-vs-indirect-feedback` |
 | `cm:multicultural-team` | `cm:the-culture-map` |
 
-…and 32 more.
+…and 33 more.
 
 ## Myths and contested advice
 
@@ -135,7 +137,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:communicating-uncertainty` | mixed |  |
 | `cm:concession-strategy` | mixed |  |
 
-…and 60 more.
+…and 61 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -153,6 +155,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:facilitation` | cmo:Skill |
 | `cm:feedback-sandwich` | cmo:Technique |
 | `cm:filled-pauses` | cmo:AntiPattern |
+| `cm:gestures` | cmo:Skill |
 | `cm:information-overload` | cmo:Barrier |
 | `cm:interpersonal-communication` | cmo:Field |
 | `cm:interrupting` | cmo:AntiPattern |
@@ -172,9 +175,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:self-distancing` | cmo:Technique |
 | `cm:setting-reply-time-expectations` | cmo:Technique |
 | `cm:small-talk` | cmo:Skill |
-| `cm:social-accounts` | cmo:Technique |
 
-…and 7 more.
+…and 8 more.
 
 ## Orphan articles (gap)
 

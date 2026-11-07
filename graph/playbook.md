@@ -921,6 +921,14 @@ Ask yourself:
 - Did I share my eye contact around the room, or did I keep looking only at the most senior person?
 - Is this person's comfort with direct gaze likely to differ from mine, and did I adjust to what they did?
 
+### [Gesturing while speaking](../articles/nonverbal-and-voice/gestures.md) — Skill
+
+Ask yourself:
+- Did my hands show something my words did not, such as a size, a sequence or a comparison?
+- When I watch a recording, do I see fidgeting with my pen, hair or laptop that could read as nerves?
+- Did I use any hand sign whose meaning might differ for someone from another culture in the room?
+- Was I relying on gestures to carry a point that people on audio or reading the slides afterwards would miss?
+
 ## persuasion-and-influence
 
 ### [Credibility](../articles/persuasion-and-influence/credibility.md) — Concept

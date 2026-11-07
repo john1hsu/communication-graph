@@ -2325,6 +2325,50 @@
 <https://github.com/john1hsu/communication-graph/id/george-loewenstein> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> .
 <https://github.com/john1hsu/communication-graph/id/george-loewenstein> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/information-gap-theory> .
 <https://github.com/john1hsu/communication-graph/id/george-loewenstein> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/gestures/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/gestures/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Did my hands show something my words did not, such as a size, a sequence or a comparison?" .
+<https://github.com/john1hsu/communication-graph/id/gestures/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/gestures> .
+<https://github.com/john1hsu/communication-graph/id/gestures/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/gestures/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "When I watch a recording, do I see fidgeting with my pen, hair or laptop that could read as nerves?" .
+<https://github.com/john1hsu/communication-graph/id/gestures/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/gestures> .
+<https://github.com/john1hsu/communication-graph/id/gestures/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/gestures/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Did I use any hand sign whose meaning might differ for someone from another culture in the room?" .
+<https://github.com/john1hsu/communication-graph/id/gestures/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/gestures> .
+<https://github.com/john1hsu/communication-graph/id/gestures/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/gestures/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Was I relying on gestures to carry a point that people on audio or reading the slides afterwards would miss?" .
+<https://github.com/john1hsu/communication-graph/id/gestures/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/gestures> .
+<https://github.com/john1hsu/communication-graph/id/gestures> <http://purl.org/dc/terms/created> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/gestures> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Skill> .
+<https://github.com/john1hsu/communication-graph/id/gestures> <http://www.w3.org/2000/01/rdf-schema#label> "Gesturing while speaking" .
+<https://github.com/john1hsu/communication-graph/id/gestures> <http://www.w3.org/2004/02/skos/core#altLabel> "co-speech gesture" .
+<https://github.com/john1hsu/communication-graph/id/gestures> <http://www.w3.org/2004/02/skos/core#altLabel> "hand gestures" .
+<https://github.com/john1hsu/communication-graph/id/gestures> <http://www.w3.org/2004/02/skos/core#altLabel> "talking with your hands" .
+<https://github.com/john1hsu/communication-graph/id/gestures> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> .
+<https://github.com/john1hsu/communication-graph/id/gestures> <http://www.w3.org/2004/02/skos/core#definition> "The skill of using hand and arm movements alongside speech to show size, shape, sequence and emphasis; meta-analyses find gestures that add information moderately improve listeners' understanding, while claims that gesturing always makes speakers sharper or more persuasive rest on smaller and mixed evidence." .
+<https://github.com/john1hsu/communication-graph/id/gestures> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/nonverbal-and-voice> .
+<https://github.com/john1hsu/communication-graph/id/gestures> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gesturing while speaking" .
+<https://github.com/john1hsu/communication-graph/id/gestures> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> .
+<https://github.com/john1hsu/communication-graph/id/gestures> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/eye-contact> .
+<https://github.com/john1hsu/communication-graph/id/gestures> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/filled-pauses> .
+<https://github.com/john1hsu/communication-graph/id/gestures> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/intercultural-communication> .
+<https://github.com/john1hsu/communication-graph/id/gestures> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> .
+<https://github.com/john1hsu/communication-graph/id/gestures> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> .
+<https://github.com/john1hsu/communication-graph/id/gestures> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/gestures/s1> .
+<https://github.com/john1hsu/communication-graph/id/gestures> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/gestures/s2> .
+<https://github.com/john1hsu/communication-graph/id/gestures> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/gestures/s3> .
+<https://github.com/john1hsu/communication-graph/id/gestures> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/gestures/s4> .
+<https://github.com/john1hsu/communication-graph/id/gestures> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/gestures/s5> .
+<https://github.com/john1hsu/communication-graph/id/gestures> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/gestures/s6> .
+<https://github.com/john1hsu/communication-graph/id/gestures> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/presentation> .
+<https://github.com/john1hsu/communication-graph/id/gestures> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/overoye-wilson-2020> .
+<https://github.com/john1hsu/communication-graph/id/gestures> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/dargue-sweller-jones-2019> .
+<https://github.com/john1hsu/communication-graph/id/gestures> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/hostetter-2011> .
+<https://github.com/john1hsu/communication-graph/id/gestures> <https://github.com/john1hsu/communication-graph/ontology#domain> "nonverbal-and-voice" .
+<https://github.com/john1hsu/communication-graph/id/gestures> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/gestures> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/cognitive-load> .
+<https://github.com/john1hsu/communication-graph/id/gestures> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> .
+<https://github.com/john1hsu/communication-graph/id/gestures> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/nonverbal-and-voice/gestures.md" .
+<https://github.com/john1hsu/communication-graph/id/gestures> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> <http://purl.org/dc/terms/created> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
 <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> <http://www.w3.org/2000/01/rdf-schema#label> "The illusion of transparency: Biased assessments of others' ability to read one's emotional states" .
@@ -6776,6 +6820,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/george-loewenstein/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/george-loewenstein/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/communication-graph/id/source/george-loewenstein/s5> <https://schema.org/url> <https://pmc.ncbi.nlm.nih.gov/articles/PMC6891259> .
+<https://github.com/john1hsu/communication-graph/id/source/gestures/s1> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/gestures/s1> <http://purl.org/dc/terms/publisher> "Autumn B. Hostetter, Psychological Bulletin 137(2), 2011, pp. 297-315 (library catalogue record with abstract)" .
+<https://github.com/john1hsu/communication-graph/id/source/gestures/s1> <http://purl.org/dc/terms/title> "When Do Gestures Communicate? A Meta-Analysis" .
+<https://github.com/john1hsu/communication-graph/id/source/gestures/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/gestures/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/gestures/s1> <https://schema.org/url> <https://bvbvf1.bib-bvb.de/vufind/PrimoRecord/cdi_proquest_miscellaneous_906330129> .
+<https://github.com/john1hsu/communication-graph/id/source/gestures/s2> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/gestures/s2> <http://purl.org/dc/terms/publisher> "Nicole Dargue, Naomi Sweller & Michael P. Jones, Psychological Bulletin 145(8), 2019, pp. 765-784 (Macquarie University research portal)" .
+<https://github.com/john1hsu/communication-graph/id/source/gestures/s2> <http://purl.org/dc/terms/title> "When our hands help us understand: A meta-analysis into the effects of gesture on comprehension" .
+<https://github.com/john1hsu/communication-graph/id/source/gestures/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/gestures/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/gestures/s2> <https://schema.org/url> <https://researchers.mq.edu.au/en/publications/when-our-hands-help-us-understand-a-meta-analysis-into-the-effect/> .
+<https://github.com/john1hsu/communication-graph/id/source/gestures/s3> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/gestures/s3> <http://purl.org/dc/terms/publisher> "Susan Goldin-Meadow, Howard Nusbaum, Spencer D. Kelly & Susan Wagner, Psychological Science 12(6), 2001, pp. 516-522 (University of Iowa research repository)" .
+<https://github.com/john1hsu/communication-graph/id/source/gestures/s3> <http://purl.org/dc/terms/title> "Explaining Math: Gesturing Lightens the Load" .
+<https://github.com/john1hsu/communication-graph/id/source/gestures/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/gestures/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/gestures/s3> <https://schema.org/url> <https://iro.uiowa.edu/esploro/outputs/journalArticle/Explaining-Math-Gesturing-Lightens-the-Load/9984002311802771> .
+<https://github.com/john1hsu/communication-graph/id/source/gestures/s4> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/gestures/s4> <http://purl.org/dc/terms/publisher> "Acacia L. Overoye & Margaret Wilson, Frontiers in Psychology 11, 571109, 2020" .
+<https://github.com/john1hsu/communication-graph/id/source/gestures/s4> <http://purl.org/dc/terms/title> "Does Gesture Lighten the Load? The Case of Verbal Analogies" .
+<https://github.com/john1hsu/communication-graph/id/source/gestures/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/gestures/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/gestures/s4> <https://schema.org/url> <https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2020.571109/full> .
+<https://github.com/john1hsu/communication-graph/id/source/gestures/s5> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/gestures/s5> <http://purl.org/dc/terms/publisher> "Judith Peters & Marieke Hoetjes, Proceedings of INTERSPEECH 2017, Stockholm (CORE open-access copy)" .
+<https://github.com/john1hsu/communication-graph/id/source/gestures/s5> <http://purl.org/dc/terms/title> "The effect of gesture on persuasive speech" .
+<https://github.com/john1hsu/communication-graph/id/source/gestures/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/gestures/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/gestures/s5> <https://schema.org/url> <https://core.ac.uk/download/154384364.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/gestures/s6> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/gestures/s6> <http://purl.org/dc/terms/publisher> "Interpersonal and Small Group Communication, open textbook, Utah Education Network Pressbooks" .
+<https://github.com/john1hsu/communication-graph/id/source/gestures/s6> <http://purl.org/dc/terms/title> "8.2 Types of Nonverbal Communication" .
+<https://github.com/john1hsu/communication-graph/id/source/gestures/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/gestures/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/communication-graph/id/source/gestures/s6> <https://schema.org/url> <https://uen.pressbooks.pub/interpersonalsmallgroupcommunication/?p=100> .
 <https://github.com/john1hsu/communication-graph/id/source/gilovich-savitsky-medvec-1998/s1> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/gilovich-savitsky-medvec-1998/s1> <http://purl.org/dc/terms/publisher> "Gilovich, Savitsky & Medvec, Journal of Personality and Social Psychology 75(2), 332-346 (1998) - author-deposited copy on ResearchGate" .
 <https://github.com/john1hsu/communication-graph/id/source/gilovich-savitsky-medvec-1998/s1> <http://purl.org/dc/terms/title> "The Illusion of Transparency: Biased Assessments of Others' Ability to Read One's Emotional States (full text)" .

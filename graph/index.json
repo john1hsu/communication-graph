@@ -4389,6 +4389,104 @@
   ]
  },
  {
+  "id": "cm:gestures",
+  "title": "Gesturing while speaking",
+  "aliases": [
+   "hand gestures",
+   "co-speech gesture",
+   "talking with your hands"
+  ],
+  "type": "Skill",
+  "domain": "nonverbal-and-voice",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/nonverbal-and-voice/gestures.md",
+  "created": "2026-11-07",
+  "summary": "The skill of using hand and arm movements alongside speech to show size, shape, sequence and emphasis; meta-analyses find gestures that add information moderately improve listeners' understanding, while claims that gesturing always makes speakers sharper or more persuasive rest on smaller and mixed evidence.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:nonverbal-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:eye-contact"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:mehrabian-myth"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:presentation-rehearsal"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:filled-pauses"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:elaboration-likelihood-model"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:intercultural-communication"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:hostetter-2011",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:dargue-sweller-jones-2019",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:cognitive-load",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:overoye-wilson-2020",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:elaboration-likelihood-model",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:presentation",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Did my hands show something my words did not, such as a size, a sequence or a comparison?",
+   "When I watch a recording, do I see fidgeting with my pen, hair or laptop that could read as nerves?",
+   "Did I use any hand sign whose meaning might differ for someone from another culture in the room?",
+   "Was I relying on gestures to carry a point that people on audio or reading the slides afterwards would miss?"
+  ],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://bvbvf1.bib-bvb.de/vufind/PrimoRecord/cdi_proquest_miscellaneous_906330129",
+   "https://researchers.mq.edu.au/en/publications/when-our-hands-help-us-understand-a-meta-analysis-into-the-effect/",
+   "https://iro.uiowa.edu/esploro/outputs/journalArticle/Explaining-Math-Gesturing-Lightens-the-Load/9984002311802771",
+   "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2020.571109/full",
+   "https://core.ac.uk/download/154384364.pdf",
+   "https://uen.pressbooks.pub/interpersonalsmallgroupcommunication/?p=100"
+  ]
+ },
+ {
   "id": "cm:gilovich-savitsky-medvec-1998",
   "title": "The illusion of transparency: Biased assessments of others' ability to read one's emotional states",
   "aliases": [

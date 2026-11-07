@@ -3859,6 +3859,94 @@
    ]
   },
   {
+   "@id": "cm:gestures",
+   "@type": "cmo:Skill",
+   "cmo:appliedIn": {
+    "@id": "cm:presentation"
+   },
+   "cmo:challengedBy": {
+    "@id": "cm:overoye-wilson-2020"
+   },
+   "cmo:demonstratedBy": [
+    {
+     "@id": "cm:dargue-sweller-jones-2019"
+    },
+    {
+     "@id": "cm:hostetter-2011"
+    }
+   ],
+   "cmo:domain": "nonverbal-and-voice",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:explainedBy": [
+    {
+     "@id": "cm:cognitive-load"
+    },
+    {
+     "@id": "cm:elaboration-likelihood-model"
+    }
+   ],
+   "cmo:file": "articles/nonverbal-and-voice/gestures.md",
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/gestures/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/gestures/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/gestures/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/gestures/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/gestures/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/gestures/s6"
+    }
+   ],
+   "rdfs:label": "Gesturing while speaking",
+   "skos:altLabel": [
+    "co-speech gesture",
+    "hand gestures",
+    "talking with your hands"
+   ],
+   "skos:broader": {
+    "@id": "cm:nonverbal-communication"
+   },
+   "skos:definition": "The skill of using hand and arm movements alongside speech to show size, shape, sequence and emphasis; meta-analyses find gestures that add information moderately improve listeners' understanding, while claims that gesturing always makes speakers sharper or more persuasive rest on smaller and mixed evidence.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/nonverbal-and-voice"
+   },
+   "skos:prefLabel": "Gesturing while speaking",
+   "skos:related": [
+    {
+     "@id": "cm:elaboration-likelihood-model"
+    },
+    {
+     "@id": "cm:eye-contact"
+    },
+    {
+     "@id": "cm:filled-pauses"
+    },
+    {
+     "@id": "cm:intercultural-communication"
+    },
+    {
+     "@id": "cm:mehrabian-myth"
+    },
+    {
+     "@id": "cm:presentation-rehearsal"
+    }
+   ]
+  },
+  {
    "@id": "cm:gilovich-savitsky-medvec-1998",
    "@type": "cmo:Study",
    "cmo:domain": "thinkers-and-works",
@@ -12223,6 +12311,38 @@
    "schema:text": "If they open first, do not respond to their number straight away - restate your own target, their likely limits and your alternatives to yourself, then counter from your plan rather than from their anchor."
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/gestures/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:gestures"
+   },
+   "rdfs:label": "Did my hands show something my words did not, such as a size, a sequence or a comparison?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/gestures/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:gestures"
+   },
+   "rdfs:label": "When I watch a recording, do I see fidgeting with my pen, hair or laptop that could read as nerves?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/gestures/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:gestures"
+   },
+   "rdfs:label": "Did I use any hand sign whose meaning might differ for someone from another culture in the room?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/gestures/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:gestures"
+   },
+   "rdfs:label": "Was I relying on gestures to carry a point that people on audio or reading the slides afterwards would miss?"
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/grices-maxims/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -18432,6 +18552,90 @@
    "dcterms:title": "How Curiosity Enhances Hippocampus-Dependent Memory: The Prediction, Appraisal, Curiosity, and Exploration (PACE) Framework",
    "schema:url": {
     "@id": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6891259"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/gestures/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Autumn B. Hostetter, Psychological Bulletin 137(2), 2011, pp. 297-315 (library catalogue record with abstract)",
+   "dcterms:title": "When Do Gestures Communicate? A Meta-Analysis",
+   "schema:url": {
+    "@id": "https://bvbvf1.bib-bvb.de/vufind/PrimoRecord/cdi_proquest_miscellaneous_906330129"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/gestures/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Nicole Dargue, Naomi Sweller & Michael P. Jones, Psychological Bulletin 145(8), 2019, pp. 765-784 (Macquarie University research portal)",
+   "dcterms:title": "When our hands help us understand: A meta-analysis into the effects of gesture on comprehension",
+   "schema:url": {
+    "@id": "https://researchers.mq.edu.au/en/publications/when-our-hands-help-us-understand-a-meta-analysis-into-the-effect/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/gestures/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Susan Goldin-Meadow, Howard Nusbaum, Spencer D. Kelly & Susan Wagner, Psychological Science 12(6), 2001, pp. 516-522 (University of Iowa research repository)",
+   "dcterms:title": "Explaining Math: Gesturing Lightens the Load",
+   "schema:url": {
+    "@id": "https://iro.uiowa.edu/esploro/outputs/journalArticle/Explaining-Math-Gesturing-Lightens-the-Load/9984002311802771"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/gestures/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Acacia L. Overoye & Margaret Wilson, Frontiers in Psychology 11, 571109, 2020",
+   "dcterms:title": "Does Gesture Lighten the Load? The Case of Verbal Analogies",
+   "schema:url": {
+    "@id": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2020.571109/full"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/gestures/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Judith Peters & Marieke Hoetjes, Proceedings of INTERSPEECH 2017, Stockholm (CORE open-access copy)",
+   "dcterms:title": "The effect of gesture on persuasive speech",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/154384364.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/gestures/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Interpersonal and Small Group Communication, open textbook, Utah Education Network Pressbooks",
+   "dcterms:title": "8.2 Types of Nonverbal Communication",
+   "schema:url": {
+    "@id": "https://uen.pressbooks.pub/interpersonalsmallgroupcommunication/?p=100"
    }
   },
   {
