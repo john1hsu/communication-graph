@@ -767,6 +767,30 @@ Ask yourself:
 - Is my opening ask set by my goal, or have I let a weak alternative drag it down?
 - Is everything I am about to say about my alternatives true?
 
+### [Concession strategy](../articles/negotiation/concession-strategy.md) — Technique
+
+1. Before the meeting, write down your opening position, your target and your walk-away point, and the total amount you are prepared to concede between them.
+2. List what you want back for each possible concession - a longer term, faster payment, a reference, reduced scope - so you never give without a matching ask ready.
+3. Plan the moves as a sequence of real steps that get smaller as you approach your limit, rather than one large jump, and hold some of the concession budget back.
+4. When you concede, name it - say what it costs you and what it gives them - and state exactly what you need in return, or make it explicitly conditional ("we can do X if you can do Y").
+5. Answer the other side's concessions in kind and on time; acknowledge them and move a proportionate amount, rather than pocketing them in silence.
+6. Keep every statement about your costs and limits true; stop conceding when the next step would cross your walk-away point.
+
+*A software vendor's account manager is renewing a contract with a client who has asked for a 15% discount.*
+
+| Before | After |
+|---|---|
+| OK, we can do 15% off. Hopefully that works for your budget - shall I send the paperwork? | I can't get to 15%, but I can offer 6% off the renewal, which comes out of our services margin. To make that work, we'd need a two-year term instead of one. If the two-year term is a problem, tell me what matters most and we can look at the payment schedule instead. |
+
+**Why:** The first reply gives away the whole concession budget at once, labels nothing and asks for nothing, so the client learns the price was soft and has no reason to give back. The second makes a smaller, named move tied to a specific return, leaves room for later steps, and invites the client to reveal what they value.
+
+Ask yourself:
+- Do I know my total concession budget and walk-away point before I make the first move?
+- For the concession I am about to make, what exactly am I asking for in return?
+- Have I said clearly what this move costs me, without exaggerating it?
+- Are my steps getting smaller as I get closer to my limit, or am I making one big jump under pressure?
+- Have I acknowledged and reciprocated the concessions the other side has already made?
+
 ### [First offer](../articles/negotiation/first-offer.md) — Technique
 
 1. Before the conversation, research the market and estimate the zone of possible agreement - your walk-away point, the other side's likely walk-away point, and what comparable deals settled at.

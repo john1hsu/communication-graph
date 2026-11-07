@@ -2023,6 +2023,119 @@
   ]
  },
  {
+  "id": "cm:concession-strategy",
+  "title": "Concession strategy",
+  "aliases": [
+   "concession making",
+   "concession patterns",
+   "planning concessions",
+   "trading concessions"
+  ],
+  "type": "Technique",
+  "domain": "negotiation",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/negotiation/concession-strategy.md",
+  "created": "2026-11-07",
+  "summary": "Deciding in advance how much you will give up in a negotiation, in what size steps, at what pace and in exchange for what - then labelling each move and asking for something in return rather than conceding one-sidedly.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:distributive-negotiation"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "cm:negotiation-preparation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:first-offer"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:zone-of-possible-agreement"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:batna"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:integrative-negotiation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:multiple-equivalent-simultaneous-offers"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:reservation-value"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:zone-of-possible-agreement"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:norm-of-reciprocity",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:tey-et-al-2021",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:huffmeier-et-al-2014",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:kwon-weingart-2004",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:mertes-kunz-huffmeier-2023",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Do I know my total concession budget and walk-away point before I make the first move?",
+   "For the concession I am about to make, what exactly am I asking for in return?",
+   "Have I said clearly what this move costs me, without exaggerating it?",
+   "Are my steps getting smaller as I get closer to my limit, or am I making one big jump under pressure?",
+   "Have I acknowledged and reciprocated the concessions the other side has already made?"
+  ],
+  "steps": [
+   "Before the meeting, write down your opening position, your target and your walk-away point, and the total amount you are prepared to concede between them.",
+   "List what you want back for each possible concession - a longer term, faster payment, a reference, reduced scope - so you never give without a matching ask ready.",
+   "Plan the moves as a sequence of real steps that get smaller as you approach your limit, rather than one large jump, and hold some of the concession budget back.",
+   "When you concede, name it - say what it costs you and what it gives them - and state exactly what you need in return, or make it explicitly conditional (\"we can do X if you can do Y\").",
+   "Answer the other side's concessions in kind and on time; acknowledge them and move a proportionate amount, rather than pocketing them in silence.",
+   "Keep every statement about your costs and limits true; stop conceding when the next step would cross your walk-away point."
+  ],
+  "example": {
+   "situation": "A software vendor's account manager is renewing a contract with a client who has asked for a 15% discount.",
+   "before": "OK, we can do 15% off. Hopefully that works for your budget - shall I send the paperwork?",
+   "after": "I can't get to 15%, but I can offer 6% off the renewal, which comes out of our services margin. To make that work, we'd need a two-year term instead of one. If the two-year term is a problem, tell me what matters most and we can look at the payment schedule instead.",
+   "why": "The first reply gives away the whole concession budget at once, labels nothing and asks for nothing, so the client learns the price was soft and has no reason to give back. The second makes a smaller, named move tied to a specific return, leaves room for later steps, and invites the client to reveal what they value."
+  },
+  "source_urls": [
+   "https://www.pon.harvard.edu/daily/negotiation-skills-daily/four-strategies-for-making-concessions/?amp",
+   "https://dare.uva.nl/id/801197e8-e374-4128-aeb3-c66c06cb8812",
+   "https://www.isb.edu/faculty-and-research/research-directory/the-impact-of-concession-patterns-on-negotiations-when-and-why-decreasing-concessions-lead-to-a-distributive-disadvantage",
+   "https://academicnewsletter.sufe.edu.cn/info/372493",
+   "https://eldorado.tu-dortmund.de/items/f909800c-1d5e-4cb0-9fa9-9745ab154670"
+  ]
+ },
+ {
   "id": "cm:considering-others-contributions-first",
   "title": "Considering others' contributions first",
   "aliases": [

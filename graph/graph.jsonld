@@ -1761,6 +1761,101 @@
    ]
   },
   {
+   "@id": "cm:concession-strategy",
+   "@type": "cmo:Technique",
+   "cmo:demonstratedBy": {
+    "@id": "cm:tey-et-al-2021"
+   },
+   "cmo:domain": "negotiation",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/concession-strategy/example"
+   },
+   "cmo:explainedBy": {
+    "@id": "cm:norm-of-reciprocity"
+   },
+   "cmo:file": "articles/negotiation/concession-strategy.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/concession-strategy/howto"
+   },
+   "cmo:level": "intermediate",
+   "cmo:requires": {
+    "@id": "cm:zone-of-possible-agreement"
+   },
+   "cmo:supportedBy": [
+    {
+     "@id": "cm:huffmeier-et-al-2014"
+    },
+    {
+     "@id": "cm:kwon-weingart-2004"
+    },
+    {
+     "@id": "cm:mertes-kunz-huffmeier-2023"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/concession-strategy/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/concession-strategy/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/concession-strategy/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/concession-strategy/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/concession-strategy/s5"
+    }
+   ],
+   "rdfs:label": "Concession strategy",
+   "skos:altLabel": [
+    "concession making",
+    "concession patterns",
+    "planning concessions",
+    "trading concessions"
+   ],
+   "skos:broader": [
+    {
+     "@id": "cm:distributive-negotiation"
+    },
+    {
+     "@id": "cm:negotiation-preparation"
+    }
+   ],
+   "skos:definition": "Deciding in advance how much you will give up in a negotiation, in what size steps, at what pace and in exchange for what - then labelling each move and asking for something in return rather than conceding one-sidedly.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/negotiation"
+   },
+   "skos:prefLabel": "Concession strategy",
+   "skos:related": [
+    {
+     "@id": "cm:batna"
+    },
+    {
+     "@id": "cm:first-offer"
+    },
+    {
+     "@id": "cm:integrative-negotiation"
+    },
+    {
+     "@id": "cm:multiple-equivalent-simultaneous-offers"
+    },
+    {
+     "@id": "cm:reservation-value"
+    },
+    {
+     "@id": "cm:zone-of-possible-agreement"
+    }
+   ]
+  },
+  {
    "@id": "cm:considering-others-contributions-first",
    "@type": "cmo:Technique",
    "cmo:addresses": {
@@ -11000,6 +11095,115 @@
    "cmo:why": "The before version mixes false reassurance with a blanket hedge, so leaders can neither plan nor challenge it; the after version gives a point estimate, a range, the quality of the evidence and when it will improve, which is what a decision needs."
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/concession-strategy/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:concession-strategy"
+   },
+   "rdfs:label": "Do I know my total concession budget and walk-away point before I make the first move?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/concession-strategy/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:concession-strategy"
+   },
+   "rdfs:label": "For the concession I am about to make, what exactly am I asking for in return?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/concession-strategy/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:concession-strategy"
+   },
+   "rdfs:label": "Have I said clearly what this move costs me, without exaggerating it?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/concession-strategy/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:concession-strategy"
+   },
+   "rdfs:label": "Are my steps getting smaller as I get closer to my limit, or am I making one big jump under pressure?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/concession-strategy/check/5",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:concession-strategy"
+   },
+   "rdfs:label": "Have I acknowledged and reciprocated the concessions the other side has already made?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/concession-strategy/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "I can't get to 15%, but I can offer 6% off the renewal, which comes out of our services margin. To make that work, we'd need a two-year term instead of one. If the two-year term is a problem, tell me what matters most and we can look at the payment schedule instead.",
+   "cmo:before": "OK, we can do 15% off. Hopefully that works for your budget - shall I send the paperwork?",
+   "cmo:situation": "A software vendor's account manager is renewing a contract with a client who has asked for a 15% discount.",
+   "cmo:why": "The first reply gives away the whole concession budget at once, labels nothing and asks for nothing, so the client learns the price was soft and has no reason to give back. The second makes a smaller, named move tied to a specific return, leaves room for later steps, and invites the client to reveal what they value."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/concession-strategy/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Concession strategy",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/concession-strategy/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/concession-strategy/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/concession-strategy/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/concession-strategy/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/concession-strategy/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/concession-strategy/howto/6"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/concession-strategy/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Before the meeting, write down your opening position, your target and your walk-away point, and the total amount you are prepared to concede between them."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/concession-strategy/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "List what you want back for each possible concession - a longer term, faster payment, a reference, reduced scope - so you never give without a matching ask ready."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/concession-strategy/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Plan the moves as a sequence of real steps that get smaller as you approach your limit, rather than one large jump, and hold some of the concession budget back."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/concession-strategy/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "When you concede, name it - say what it costs you and what it gives them - and state exactly what you need in return, or make it explicitly conditional (\"we can do X if you can do Y\")."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/concession-strategy/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Answer the other side's concessions in kind and on time; acknowledge them and move a proportionate amount, rather than pocketing them in silence."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/concession-strategy/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "Keep every statement about your costs and limits true; stop conceding when the next step would cross your walk-away point."
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/considering-others-contributions-first/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -16003,6 +16207,76 @@
    "dcterms:title": "CERC Overview for COVID-19",
    "schema:url": {
     "@id": "https://emergency-origin.cdc.gov/cerc/training/pdf/COVID19_CERC.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/concession-strategy/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Deepak Malhotra, Program on Negotiation at Harvard Law School (PON Daily)",
+   "dcterms:title": "Four Strategies for Making Concessions in Negotiation",
+   "schema:url": {
+    "@id": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/four-strategies-for-making-concessions/?amp"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/concession-strategy/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Hüffmeier, Freund, Zerres, Backhaus and Hertel, Journal of Management 40(3), 866-892, 2014 (doi:10.1177/0149206311423788; University of Amsterdam repository record)",
+   "dcterms:title": "Being tough or being nice? A meta-analysis on the impact of hard- and softline strategies in distributive negotiations",
+   "schema:url": {
+    "@id": "https://dare.uva.nl/id/801197e8-e374-4128-aeb3-c66c06cb8812"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/concession-strategy/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Tey, Schaerer, Madan and Swaab, Organizational Behavior and Human Decision Processes, 2021 (Indian School of Business research directory)",
+   "dcterms:title": "The impact of concession patterns on negotiations: When and why decreasing concessions lead to a distributive disadvantage",
+   "schema:url": {
+    "@id": "https://www.isb.edu/faculty-and-research/research-directory/the-impact-of-concession-patterns-on-negotiations-when-and-why-decreasing-concessions-lead-to-a-distributive-disadvantage"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/concession-strategy/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Kwon and Weingart, Journal of Applied Psychology 89(2), 263-278, 2004 (doi:10.1037/0021-9010.89.2.263; Shanghai University of Finance and Economics academic newsletter)",
+   "dcterms:title": "Unilateral concessions from the other party: Concession behavior, attributions, and negotiation judgments",
+   "schema:url": {
+    "@id": "https://academicnewsletter.sufe.edu.cn/info/372493"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/concession-strategy/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Mertes, Kunz and Hüffmeier, Collabra Psychology 9(1), 2023 (TU Dortmund repository)",
+   "dcterms:title": "A deep dive into distributive concession making and the likelihood of impasses in negotiations",
+   "schema:url": {
+    "@id": "https://eldorado.tu-dortmund.de/items/f909800c-1d5e-4cb0-9fa9-9745ab154670"
    }
   },
   {
