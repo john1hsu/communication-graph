@@ -9079,6 +9079,127 @@
   ]
  },
  {
+  "id": "cm:role-reversal",
+  "title": "Role reversal",
+  "aliases": [
+   "reversing roles",
+   "role-reversal technique",
+   "arguing the other side's case",
+   "presenting the other party's position"
+  ],
+  "type": "Technique",
+  "domain": "difficult-conversations-and-conflict",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/difficult-conversations-and-conflict/role-reversal.md",
+  "created": "2026-11-07",
+  "summary": "A conflict and negotiation technique in which each party states, or acts out, the other side's position as accurately as they can - before arguing their own - so that misunderstandings surface and each side gets a working model of how the other sees the issue.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:conflict-resolution"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:perspective-taking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:paraphrasing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:perspective-getting"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:empathy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:integrative-negotiation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:morton-deutsch"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:active-listening"
+   },
+   {
+    "predicate": "cmo:develops",
+    "object": "cm:perspective-taking",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:johnson-deutsch-1966",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:jacob-l-moreno",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:negotiation-preparation",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:difficult-conversation",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:paraphrasing",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:catapano-tormala-rucker-2019",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Could the other person hear my summary of their position and say \"yes, that's it\" without correcting me?",
+   "Did I describe their reasons and worries, or only their demand?",
+   "Are our positions actually incompatible, or have we just misunderstood each other - and has the swap made that clearer?",
+   "Am I using the swap to understand them, or to rehearse a rebuttal?",
+   "If I argued their side to someone who shares their values, would it sound persuasive or like a caricature?"
+  ],
+  "steps": [
+   "Agree the ground rule before the discussion starts - each person summarises the other's position, and the other confirms or corrects it, before anyone argues back.",
+   "Let each side state its own position once, briefly and without interruption.",
+   "Swap - each person presents the other's position in the first person (\"As the ops lead, my concern is...\") covering their goal, their reasons and what worries them.",
+   "Ask the original owner to rate the summary and fill in anything missing or distorted; repeat until they say it is fair.",
+   "Only then argue your own case, starting from the points you now know you share and naming the points that still genuinely conflict.",
+   "When preparing alone for a hard negotiation, write or rehearse the other party's brief in their voice and test which of your own arguments would actually move them."
+  ],
+  "example": {
+   "situation": "A product manager and an operations lead are stuck on whether to launch a feature before the quarter-end freeze.",
+   "before": "PM - We have to ship on the 28th; sales has promised it. Ops - You always do this, and my team pays for it on call. PM - It's a small change, you're overreacting.",
+   "after": "PM - Let me try your side first. You're worried that launching two days before the freeze leaves no window to roll back, and your on-call team absorbed the last two late launches. Is that right? Ops - Mostly; the bigger issue is we have no runbook yet. Now let me do yours: sales made a commitment to a named customer and slipping costs you credibility. PM - Yes. So can we ship to that one customer behind a flag and do the full launch after the freeze?",
+   "why": "Each side states the other's concern until the owner agrees it is fair, which surfaces the real blocker (no runbook) and a shared fact (one customer matters most), and opens an option neither raised while they were only defending their own positions."
+  },
+  "source_urls": [
+   "https://apps.dtic.mil/sti/pdfs/AD0642423.pdf",
+   "https://panz.psychodrama.org.nz/wp-content/uploads/PSM-Chapter-11-Kellerman-Role-Reversal.pdf",
+   "https://www.pon.harvard.edu/shop/role-reversal-exercise/",
+   "https://www.gsb.stanford.edu/insights/why-putting-yourself-their-shoes-might-backfire",
+   "https://business.columbia.edu/faculty/research/view-other-side-table"
+  ]
+ },
+ {
   "id": "cm:scheduled-inbox-checks",
   "title": "Scheduled inbox checks",
   "aliases": [

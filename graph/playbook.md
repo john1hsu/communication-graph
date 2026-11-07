@@ -185,6 +185,30 @@ Ask yourself:
 - Have I said anything that shows I understand the other person's side of the situation?
 - After I speak, am I ready to listen to their reaction rather than repeat my point louder?
 
+### [Role reversal](../articles/difficult-conversations-and-conflict/role-reversal.md) — Technique
+
+1. Agree the ground rule before the discussion starts - each person summarises the other's position, and the other confirms or corrects it, before anyone argues back.
+2. Let each side state its own position once, briefly and without interruption.
+3. Swap - each person presents the other's position in the first person ("As the ops lead, my concern is...") covering their goal, their reasons and what worries them.
+4. Ask the original owner to rate the summary and fill in anything missing or distorted; repeat until they say it is fair.
+5. Only then argue your own case, starting from the points you now know you share and naming the points that still genuinely conflict.
+6. When preparing alone for a hard negotiation, write or rehearse the other party's brief in their voice and test which of your own arguments would actually move them.
+
+*A product manager and an operations lead are stuck on whether to launch a feature before the quarter-end freeze.*
+
+| Before | After |
+|---|---|
+| PM - We have to ship on the 28th; sales has promised it. Ops - You always do this, and my team pays for it on call. PM - It's a small change, you're overreacting. | PM - Let me try your side first. You're worried that launching two days before the freeze leaves no window to roll back, and your on-call team absorbed the last two late launches. Is that right? Ops - Mostly; the bigger issue is we have no runbook yet. Now let me do yours: sales made a commitment to a named customer and slipping costs you credibility. PM - Yes. So can we ship to that one customer behind a flag and do the full launch after the freeze? |
+
+**Why:** Each side states the other's concern until the owner agrees it is fair, which surfaces the real blocker (no runbook) and a shared fact (one customer matters most), and opens an option neither raised while they were only defending their own positions.
+
+Ask yourself:
+- Could the other person hear my summary of their position and say "yes, that's it" without correcting me?
+- Did I describe their reasons and worries, or only their demand?
+- Are our positions actually incompatible, or have we just misunderstood each other - and has the swap made that clearer?
+- Am I using the swap to understand them, or to rehearse a rebuttal?
+- If I argued their side to someone who shares their values, would it sound persuasive or like a caricature?
+
 ### [Social accounts](../articles/difficult-conversations-and-conflict/social-accounts.md) — Technique
 
 1. Give the explanation at the same moment as the bad news or the admission, before people fill the silence with their own story.

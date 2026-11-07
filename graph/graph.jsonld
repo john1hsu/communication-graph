@@ -7988,6 +7988,102 @@
    ]
   },
   {
+   "@id": "cm:role-reversal",
+   "@type": "cmo:Technique",
+   "cmo:appliedIn": [
+    {
+     "@id": "cm:difficult-conversation"
+    },
+    {
+     "@id": "cm:negotiation-preparation"
+    }
+   ],
+   "cmo:challengedBy": {
+    "@id": "cm:catapano-tormala-rucker-2019"
+   },
+   "cmo:complements": {
+    "@id": "cm:paraphrasing"
+   },
+   "cmo:demonstratedBy": {
+    "@id": "cm:johnson-deutsch-1966"
+   },
+   "cmo:develops": {
+    "@id": "cm:perspective-taking"
+   },
+   "cmo:domain": "difficult-conversations-and-conflict",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/role-reversal/example"
+   },
+   "cmo:file": "articles/difficult-conversations-and-conflict/role-reversal.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/role-reversal/howto"
+   },
+   "cmo:introducedBy": {
+    "@id": "cm:jacob-l-moreno"
+   },
+   "cmo:level": "intermediate",
+   "cmo:requires": {
+    "@id": "cm:active-listening"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/role-reversal/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/role-reversal/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/role-reversal/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/role-reversal/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/role-reversal/s5"
+    }
+   ],
+   "rdfs:label": "Role reversal",
+   "skos:altLabel": [
+    "arguing the other side's case",
+    "presenting the other party's position",
+    "reversing roles",
+    "role-reversal technique"
+   ],
+   "skos:broader": {
+    "@id": "cm:conflict-resolution"
+   },
+   "skos:definition": "A conflict and negotiation technique in which each party states, or acts out, the other side's position as accurately as they can - before arguing their own - so that misunderstandings surface and each side gets a working model of how the other sees the issue.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/difficult-conversations-and-conflict"
+   },
+   "skos:prefLabel": "Role reversal",
+   "skos:related": [
+    {
+     "@id": "cm:empathy"
+    },
+    {
+     "@id": "cm:integrative-negotiation"
+    },
+    {
+     "@id": "cm:morton-deutsch"
+    },
+    {
+     "@id": "cm:paraphrasing"
+    },
+    {
+     "@id": "cm:perspective-getting"
+    },
+    {
+     "@id": "cm:perspective-taking"
+    }
+   ]
+  },
+  {
    "@id": "cm:scheduled-inbox-checks",
    "@type": "cmo:Technique",
    "cmo:addresses": {
@@ -14072,6 +14168,115 @@
    "@type": "schema:HowToStep",
    "schema:position": 6,
    "schema:text": "Tie every number to its group in the wording (\"of the 9,980 legitimate orders, about 500 are flagged\") and, for a live audience, sketch the counts as a simple frequency tree."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/role-reversal/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:role-reversal"
+   },
+   "rdfs:label": "Could the other person hear my summary of their position and say \"yes, that's it\" without correcting me?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/role-reversal/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:role-reversal"
+   },
+   "rdfs:label": "Did I describe their reasons and worries, or only their demand?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/role-reversal/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:role-reversal"
+   },
+   "rdfs:label": "Are our positions actually incompatible, or have we just misunderstood each other - and has the swap made that clearer?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/role-reversal/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:role-reversal"
+   },
+   "rdfs:label": "Am I using the swap to understand them, or to rehearse a rebuttal?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/role-reversal/check/5",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:role-reversal"
+   },
+   "rdfs:label": "If I argued their side to someone who shares their values, would it sound persuasive or like a caricature?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/role-reversal/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "PM - Let me try your side first. You're worried that launching two days before the freeze leaves no window to roll back, and your on-call team absorbed the last two late launches. Is that right? Ops - Mostly; the bigger issue is we have no runbook yet. Now let me do yours: sales made a commitment to a named customer and slipping costs you credibility. PM - Yes. So can we ship to that one customer behind a flag and do the full launch after the freeze?",
+   "cmo:before": "PM - We have to ship on the 28th; sales has promised it. Ops - You always do this, and my team pays for it on call. PM - It's a small change, you're overreacting.",
+   "cmo:situation": "A product manager and an operations lead are stuck on whether to launch a feature before the quarter-end freeze.",
+   "cmo:why": "Each side states the other's concern until the owner agrees it is fair, which surfaces the real blocker (no runbook) and a shared fact (one customer matters most), and opens an option neither raised while they were only defending their own positions."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/role-reversal/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Role reversal",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/role-reversal/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/role-reversal/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/role-reversal/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/role-reversal/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/role-reversal/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/role-reversal/howto/6"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/role-reversal/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Agree the ground rule before the discussion starts - each person summarises the other's position, and the other confirms or corrects it, before anyone argues back."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/role-reversal/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Let each side state its own position once, briefly and without interruption."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/role-reversal/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Swap - each person presents the other's position in the first person (\"As the ops lead, my concern is...\") covering their goal, their reasons and what worries them."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/role-reversal/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Ask the original owner to rate the summary and fill in anything missing or distorted; repeat until they say it is fair."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/role-reversal/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Only then argue your own case, starting from the points you now know you share and naming the points that still genuinely conflict."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/role-reversal/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "When preparing alone for a hard negotiation, write or rehearse the other party's brief in their voice and test which of your own arguments would actually move them."
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/scheduled-inbox-checks/check/1",
@@ -21597,6 +21802,76 @@
    "dcterms:title": "When intuitive Bayesians need to be good readers: The problem-wording effect on Bayesian reasoning",
    "schema:url": {
     "@id": "https://repository.essex.ac.uk/37751/1/1-s2.0-S0010027724000088-main.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/role-reversal/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Morton Deutsch (principal investigator) and David W. Johnson, Teachers College, Columbia University, for the Office of Naval Research (Defense Technical Information Center, AD0642423)",
+   "dcterms:title": "Techniques of Inducing Cooperation Between Adversaries - Annual Status Report, October 1, 1966 (Section I: The Use of Role-Reversal in Intergroup Competition)",
+   "schema:url": {
+    "@id": "https://apps.dtic.mil/sti/pdfs/AD0642423.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/role-reversal/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Peter Felix Kellermann, book chapter (PDF hosted by the Psychodrama Aotearoa New Zealand Association)",
+   "dcterms:title": "Role reversal in psychodrama (Chapter 11: Cornerstones of role reversal)",
+   "schema:url": {
+    "@id": "https://panz.psychodrama.org.nz/wp-content/uploads/PSM-Chapter-11-Kellerman-Role-Reversal.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/role-reversal/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Program on Negotiation at Harvard Law School, Teaching Negotiation Resource Center (exercise by Andrew Clarkson)",
+   "dcterms:title": "Role Reversal Exercise",
+   "schema:url": {
+    "@id": "https://www.pon.harvard.edu/shop/role-reversal-exercise/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/role-reversal/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Stanford Graduate School of Business Insights (2019), on research by Rhia Catapano, Zakary Tormala and Derek Rucker",
+   "dcterms:title": "Why Putting Yourself in Their Shoes Might Backfire",
+   "schema:url": {
+    "@id": "https://www.gsb.stanford.edu/insights/why-putting-yourself-their-shoes-might-backfire"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/role-reversal/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Galinsky, Maddux and Ku, Negotiation (2006), Columbia Business School research record",
+   "dcterms:title": "The view from the other side of the table",
+   "schema:url": {
+    "@id": "https://business.columbia.edu/faculty/research/view-other-side-table"
    }
   },
   {
