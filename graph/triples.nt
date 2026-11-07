@@ -2838,6 +2838,32 @@
 <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <https://github.com/john1hsu/communication-graph/ontology#introducedIn> <https://github.com/john1hsu/communication-graph/id/the-silent-language> .
 <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/li-2021-cross-cultural-training-meta-analysis> .
+<https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://purl.org/dc/terms/created> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Field> .
+<https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2000/01/rdf-schema#label> "Interpersonal communication" .
+<https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#altLabel> "dyadic communication" .
+<https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#altLabel> "interpersonal communication research" .
+<https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#altLabel> "person-to-person communication" .
+<https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
+<https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#definition> "The study and practice of communication between people whose lives mutually influence one another, usually two people or a small group, and of how that talk gets things done, builds or strains relationships and shapes identity; as an academic field it grew out of speech communication and social psychology in the 1960s and 1970s." .
+<https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/foundations> .
+<https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#prefLabel> "Interpersonal communication" .
+<https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communication-apprehension> .
+<https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communication-competence> .
+<https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/intercultural-communication> .
+<https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
+<https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/uncertainty-reduction-theory> .
+<https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/interpersonal-communication/s1> .
+<https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/interpersonal-communication/s2> .
+<https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/interpersonal-communication/s3> .
+<https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/interpersonal-communication/s4> .
+<https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <https://github.com/john1hsu/communication-graph/ontology#domain> "foundations" .
+<https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "theoretical" .
+<https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/foundations/interpersonal-communication.md" .
+<https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/erving-goffman> .
+<https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/rhetoric> .
+<https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/social-psychology> .
+<https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/interrupting/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/interrupting/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Did I start talking before the other person had finished their sentence or their point?" .
 <https://github.com/john1hsu/communication-graph/id/interrupting/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/interrupting> .
@@ -6583,6 +6609,30 @@
 <https://github.com/john1hsu/communication-graph/id/source/intercultural-communication/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/intercultural-communication/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "news" .
 <https://github.com/john1hsu/communication-graph/id/source/intercultural-communication/s6> <https://schema.org/url> <https://www.sciencedaily.com/releases/2016/05/160513112140.htm> .
+<https://github.com/john1hsu/communication-graph/id/source/interpersonal-communication/s1> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/interpersonal-communication/s1> <http://purl.org/dc/terms/publisher> "Jenny Mandelbaum, Encyclopedia of Communication and Information (Gale), via Encyclopedia.com" .
+<https://github.com/john1hsu/communication-graph/id/source/interpersonal-communication/s1> <http://purl.org/dc/terms/title> "Interpersonal Communication" .
+<https://github.com/john1hsu/communication-graph/id/source/interpersonal-communication/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/interpersonal-communication/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "encyclopedia" .
+<https://github.com/john1hsu/communication-graph/id/source/interpersonal-communication/s1> <https://schema.org/url> <https://encyclopedia.com/media/encyclopedias-almanacs-transcripts-and-maps/interpersonal-communication> .
+<https://github.com/john1hsu/communication-graph/id/source/interpersonal-communication/s2> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/interpersonal-communication/s2> <http://purl.org/dc/terms/publisher> "School of Communication Studies, James Madison University (open textbook, JMU Libraries Pressbooks)" .
+<https://github.com/john1hsu/communication-graph/id/source/interpersonal-communication/s2> <http://purl.org/dc/terms/title> "Communication in the Real World, Chapter 1: Introduction to Communication Studies" .
+<https://github.com/john1hsu/communication-graph/id/source/interpersonal-communication/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/interpersonal-communication/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/communication-graph/id/source/interpersonal-communication/s2> <https://schema.org/url> <https://pressbooks.lib.jmu.edu/communicationintherealworldjmu/chapter/chapter-1/> .
+<https://github.com/john1hsu/communication-graph/id/source/interpersonal-communication/s3> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/interpersonal-communication/s3> <http://purl.org/dc/terms/publisher> "David J. Deming, The Quarterly Journal of Economics 132(4), 1593-1640 (2017) (EconPapers record)" .
+<https://github.com/john1hsu/communication-graph/id/source/interpersonal-communication/s3> <http://purl.org/dc/terms/title> "The Growing Importance of Social Skills in the Labor Market" .
+<https://github.com/john1hsu/communication-graph/id/source/interpersonal-communication/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/interpersonal-communication/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/interpersonal-communication/s3> <https://schema.org/url> <https://econpapers.repec.org/RePEc:oup:qjecon:v:132:y:2017:i:4:p:1593-1640.> .
+<https://github.com/john1hsu/communication-graph/id/source/interpersonal-communication/s4> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/interpersonal-communication/s4> <http://purl.org/dc/terms/publisher> "Mark L. Knapp & John A. Daly (eds.), SAGE (2010)" .
+<https://github.com/john1hsu/communication-graph/id/source/interpersonal-communication/s4> <http://purl.org/dc/terms/title> "Interpersonal Communication (SAGE Benchmarks in Communication, 4 vols.)" .
+<https://github.com/john1hsu/communication-graph/id/source/interpersonal-communication/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/interpersonal-communication/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/interpersonal-communication/s4> <https://schema.org/url> <https://www.sagepub.com/shop/buy-a-book/interpersonal-communication-1-233412> .
 <https://github.com/john1hsu/communication-graph/id/source/interrupting/s1> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/interrupting/s1> <http://purl.org/dc/terms/publisher> "Sally D. Farley, Journal of Nonverbal Behavior 32(4), 241-260 (2008), doi:10.1007/s10919-008-0054-x (MDSOAR repository record)" .
 <https://github.com/john1hsu/communication-graph/id/source/interrupting/s1> <http://purl.org/dc/terms/title> "Attaining Status at the Expense of Likeability: Pilfering Power Through Conversational Interruption" .

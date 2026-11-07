@@ -5322,6 +5322,75 @@
   ]
  },
  {
+  "id": "cm:interpersonal-communication",
+  "title": "Interpersonal communication",
+  "aliases": [
+   "interpersonal communication research",
+   "dyadic communication",
+   "person-to-person communication"
+  ],
+  "type": "Field",
+  "domain": "foundations",
+  "level": "introductory",
+  "evidenceStatus": "theoretical",
+  "file": "articles/foundations/interpersonal-communication.md",
+  "created": "2026-11-07",
+  "summary": "The study and practice of communication between people whose lives mutually influence one another, usually two people or a small group, and of how that talk gets things done, builds or strains relationships and shapes identity; as an academic field it grew out of speech communication and social psychology in the 1960s and 1970s.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:communication-studies"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:organizational-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:intercultural-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:communication-competence"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:communication-apprehension"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:uncertainty-reduction-theory"
+   },
+   {
+    "predicate": "cmo:influencedBy",
+    "object": "cm:social-psychology",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:influencedBy",
+    "object": "cm:rhetoric",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:influencedBy",
+    "object": "cm:erving-goffman",
+    "source": "s1",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://encyclopedia.com/media/encyclopedias-almanacs-transcripts-and-maps/interpersonal-communication",
+   "https://pressbooks.lib.jmu.edu/communicationintherealworldjmu/chapter/chapter-1/",
+   "https://econpapers.repec.org/RePEc:oup:qjecon:v:132:y:2017:i:4:p:1593-1640.",
+   "https://www.sagepub.com/shop/buy-a-book/interpersonal-communication-1-233412"
+  ]
+ },
+ {
   "id": "cm:interrupting",
   "title": "Interrupting",
   "aliases": [

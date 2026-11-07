@@ -4644,6 +4644,74 @@
    ]
   },
   {
+   "@id": "cm:interpersonal-communication",
+   "@type": "cmo:Field",
+   "cmo:domain": "foundations",
+   "cmo:evidenceStatus": "theoretical",
+   "cmo:file": "articles/foundations/interpersonal-communication.md",
+   "cmo:influencedBy": [
+    {
+     "@id": "cm:erving-goffman"
+    },
+    {
+     "@id": "cm:rhetoric"
+    },
+    {
+     "@id": "cm:social-psychology"
+    }
+   ],
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/interpersonal-communication/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/interpersonal-communication/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/interpersonal-communication/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/interpersonal-communication/s4"
+    }
+   ],
+   "rdfs:label": "Interpersonal communication",
+   "skos:altLabel": [
+    "dyadic communication",
+    "interpersonal communication research",
+    "person-to-person communication"
+   ],
+   "skos:broader": {
+    "@id": "cm:communication-studies"
+   },
+   "skos:definition": "The study and practice of communication between people whose lives mutually influence one another, usually two people or a small group, and of how that talk gets things done, builds or strains relationships and shapes identity; as an academic field it grew out of speech communication and social psychology in the 1960s and 1970s.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/foundations"
+   },
+   "skos:prefLabel": "Interpersonal communication",
+   "skos:related": [
+    {
+     "@id": "cm:communication-apprehension"
+    },
+    {
+     "@id": "cm:communication-competence"
+    },
+    {
+     "@id": "cm:intercultural-communication"
+    },
+    {
+     "@id": "cm:organizational-communication"
+    },
+    {
+     "@id": "cm:uncertainty-reduction-theory"
+    }
+   ]
+  },
+  {
    "@id": "cm:interrupting",
    "@type": "cmo:AntiPattern",
    "cmo:contrastsWith": {
@@ -17869,6 +17937,62 @@
    "dcterms:title": "Study finds nationality is not a good indicator of work-related cultural values",
    "schema:url": {
     "@id": "https://www.sciencedaily.com/releases/2016/05/160513112140.htm"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/interpersonal-communication/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Jenny Mandelbaum, Encyclopedia of Communication and Information (Gale), via Encyclopedia.com",
+   "dcterms:title": "Interpersonal Communication",
+   "schema:url": {
+    "@id": "https://encyclopedia.com/media/encyclopedias-almanacs-transcripts-and-maps/interpersonal-communication"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/interpersonal-communication/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "School of Communication Studies, James Madison University (open textbook, JMU Libraries Pressbooks)",
+   "dcterms:title": "Communication in the Real World, Chapter 1: Introduction to Communication Studies",
+   "schema:url": {
+    "@id": "https://pressbooks.lib.jmu.edu/communicationintherealworldjmu/chapter/chapter-1/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/interpersonal-communication/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "David J. Deming, The Quarterly Journal of Economics 132(4), 1593-1640 (2017) (EconPapers record)",
+   "dcterms:title": "The Growing Importance of Social Skills in the Labor Market",
+   "schema:url": {
+    "@id": "https://econpapers.repec.org/RePEc:oup:qjecon:v:132:y:2017:i:4:p:1593-1640."
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/interpersonal-communication/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Mark L. Knapp & John A. Daly (eds.), SAGE (2010)",
+   "dcterms:title": "Interpersonal Communication (SAGE Benchmarks in Communication, 4 vols.)",
+   "schema:url": {
+    "@id": "https://www.sagepub.com/shop/buy-a-book/interpersonal-communication-1-233412"
    }
   },
   {

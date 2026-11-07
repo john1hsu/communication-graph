@@ -154,6 +154,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:feedback-sandwich` | cmo:Technique |
 | `cm:filled-pauses` | cmo:AntiPattern |
 | `cm:information-overload` | cmo:Barrier |
+| `cm:interpersonal-communication` | cmo:Field |
 | `cm:interrupting` | cmo:AntiPattern |
 | `cm:meeting-agendas` | cmo:Technique |
 | `cm:nonverbal-communication` | cmo:Concept |
@@ -172,9 +173,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:social-accounts` | cmo:Technique |
 | `cm:speaking-anxiety` | cmo:Barrier |
 | `cm:stakeholder-mapping` | cmo:Technique |
-| `cm:status-reporting` | cmo:Genre |
 
-…and 4 more.
+…and 5 more.
 
 ## Orphan articles (gap)
 

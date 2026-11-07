@@ -28,4 +28,4 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 1.88 | `cm:defensiveness` | `cm:direct-vs-indirect-feedback` | `cm:feedback`, `cm:feedback-sandwich`, `cm:feedforward`, `cm:i-statements`, `cm:situation-behavior-impact` |
 | 1.88 | `cm:issue-selling` | `cm:status-reporting` | `cm:audience-analysis`, `cm:bottom-line-up-front`, `cm:executive-briefing`, `cm:managing-up`, `cm:psychological-safety` |
 | 1.87 | `cm:bottom-line-up-front` | `cm:illusion-of-transparency` | `cm:clarity`, `cm:communicating-uncertainty`, `cm:email`, `cm:setting-reply-time-expectations`, `cm:words-of-estimative-probability` |
-| 1.86 | `cm:one-on-one-meetings` | `cm:small-talk` | `cm:active-listening`, `cm:humble-inquiry`, `cm:interpersonal-communication`, `cm:open-ended-questions`, `cm:psychological-safety` |
+| 1.85 | `cm:humble-inquiry` | `cm:wait-time` | `cm:active-listening`, `cm:open-ended-questions`, `cm:psychological-safety`, `cm:questioning` |
