@@ -11,7 +11,7 @@ summary: >-
 level: introductory
 evidenceStatus: mixed
 broader: [cm:questioning, cm:silence-and-pauses]
-related: [cm:open-ended-questions, cm:active-listening, cm:paraphrasing, cm:psychological-safety, cm:meeting-agendas, cm:integrative-negotiation]
+related: [cm:open-ended-questions, cm:active-listening, cm:paraphrasing, cm:psychological-safety, cm:meeting-agendas, cm:integrative-negotiation, cm:interrupting]
 requires: []
 relations:
   - {predicate: introducedBy, object: cm:mary-budd-rowe, source: s1, confidence: high}

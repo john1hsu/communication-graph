@@ -536,6 +536,22 @@ Ask yourself:
 - Did I ask at least one question that drew out something they had not yet said?
 - Would they leave this conversation feeling heard, even if I did not agree with them?
 
+### [Interrupting](../articles/listening/interrupting.md) — AntiPattern
+
+*In a weekly project meeting, a junior analyst starts explaining why the vendor data looks wrong, and the team lead jumps in.*
+
+| Before | After |
+|---|---|
+| Analyst: 'The Q3 numbers don't reconcile because the vendor changed—' Lead: 'Yeah, vendors always do that, let's just use last quarter's file. Next item.' | Analyst: 'The Q3 numbers don't reconcile because the vendor changed—' Lead: [waits until she stops] 'So the vendor changed something in the feed. What changed, and what does it mean for the forecast?' |
+
+**Why:** In the first version the lead takes the floor mid-sentence and closes the topic, so the analyst loses both the point and the standing to raise it again; in the second he lets her finish, summarises, and hands the floor back, so the actual cause surfaces.
+
+Ask yourself:
+- Did I start talking before the other person had finished their sentence or their point?
+- When I came in over someone, was it to agree and build on what they said, or to change the subject or win the argument?
+- In this meeting, who got cut off early, and did anyone, including me, hand the floor back to them?
+- If I was interrupted, did I calmly reclaim the turn ("Let me finish this point, then I'd like your view")?
+
 ### [Open-ended questions](../articles/listening/open-ended-questions.md) — Technique
 
 1. Decide what you actually need to learn - their view, the obstacles, the options - before you ask anything.

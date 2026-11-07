@@ -4079,6 +4079,87 @@
    ]
   },
   {
+   "@id": "cm:interrupting",
+   "@type": "cmo:AntiPattern",
+   "cmo:contrastsWith": {
+    "@id": "cm:cooperative-overlap"
+   },
+   "cmo:demonstratedBy": [
+    {
+     "@id": "cm:cannon-robinson-smith-lovin-2019"
+    },
+    {
+     "@id": "cm:farley-2008"
+    }
+   ],
+   "cmo:domain": "listening",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/interrupting/example"
+   },
+   "cmo:explainedBy": {
+    "@id": "cm:conversational-turn-taking"
+   },
+   "cmo:file": "articles/listening/interrupting.md",
+   "cmo:level": "introductory",
+   "cmo:undermines": {
+    "@id": "cm:rapport"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/interrupting/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/interrupting/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/interrupting/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/interrupting/s4"
+    }
+   ],
+   "rdfs:label": "Interrupting",
+   "skos:altLabel": [
+    "cutting people off",
+    "interruptions",
+    "intrusive interruption",
+    "talking over people"
+   ],
+   "skos:broader": {
+    "@id": "cm:conversational-turn-taking"
+   },
+   "skos:definition": "Taking the floor before another speaker has finished their point, especially to change the topic, disagree or redirect; observers read the interrupter as higher in status but less likeable, and in groups early interruptions snowball into lasting unequal airtime.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/listening"
+   },
+   "skos:prefLabel": "Interrupting",
+   "skos:related": [
+    {
+     "@id": "cm:active-listening"
+    },
+    {
+     "@id": "cm:facilitation"
+    },
+    {
+     "@id": "cm:meeting-norms"
+    },
+    {
+     "@id": "cm:paraphrasing"
+    },
+    {
+     "@id": "cm:psychological-safety"
+    },
+    {
+     "@id": "cm:wait-time"
+    }
+   ]
+  },
+  {
    "@id": "cm:issue-selling",
    "@type": "cmo:Technique",
    "cmo:appliedIn": {
@@ -7688,6 +7769,9 @@
      "@id": "cm:integrative-negotiation"
     },
     {
+     "@id": "cm:interrupting"
+    },
+    {
      "@id": "cm:meeting-agendas"
     },
     {
@@ -10547,6 +10631,46 @@
     "@id": "cm:information-overload"
    },
    "rdfs:label": "When I feel swamped, is it the volume of messages, or a lack of clear priorities behind them?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/interrupting/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:interrupting"
+   },
+   "rdfs:label": "Did I start talking before the other person had finished their sentence or their point?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/interrupting/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:interrupting"
+   },
+   "rdfs:label": "When I came in over someone, was it to agree and build on what they said, or to change the subject or win the argument?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/interrupting/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:interrupting"
+   },
+   "rdfs:label": "In this meeting, who got cut off early, and did anyone, including me, hand the floor back to them?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/interrupting/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:interrupting"
+   },
+   "rdfs:label": "If I was interrupted, did I calmly reclaim the turn (\"Let me finish this point, then I'd like your view\")?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/interrupting/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "Analyst: 'The Q3 numbers don't reconcile because the vendor changed—' Lead: [waits until she stops] 'So the vendor changed something in the feed. What changed, and what does it mean for the forecast?'",
+   "cmo:before": "Analyst: 'The Q3 numbers don't reconcile because the vendor changed—' Lead: 'Yeah, vendors always do that, let's just use last quarter's file. Next item.'",
+   "cmo:situation": "In a weekly project meeting, a junior analyst starts explaining why the vendor data looks wrong, and the team lead jumps in.",
+   "cmo:why": "In the first version the lead takes the floor mid-sentence and closes the topic, so the analyst loses both the point and the standing to raise it again; in the second he lets her finish, summarises, and hands the floor back, so the actual cause surfaces."
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/issue-selling/check/1",
@@ -15943,6 +16067,62 @@
    "dcterms:title": "Study finds nationality is not a good indicator of work-related cultural values",
    "schema:url": {
     "@id": "https://www.sciencedaily.com/releases/2016/05/160513112140.htm"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/interrupting/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Sally D. Farley, Journal of Nonverbal Behavior 32(4), 241-260 (2008), doi:10.1007/s10919-008-0054-x (MDSOAR repository record)",
+   "dcterms:title": "Attaining Status at the Expense of Likeability: Pilfering Power Through Conversational Interruption",
+   "schema:url": {
+    "@id": "https://mdsoar.org/handle/11603/4034?show=full"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/interrupting/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Bryan C. Cannon, Dawn T. Robinson & Lynn Smith-Lovin, Socius 5 (2019), SAGE, doi:10.1177/2378023119849347",
+   "dcterms:title": "How Do We 'Do Gender'? Permeation as Over-Talking and Talking Over",
+   "schema:url": {
+    "@id": "https://journals.sagepub.com/doi/10.1177/2378023119849347"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/interrupting/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Katherine Hilton, Proceedings of Interspeech 2016, 1260-1264, ISCA, doi:10.21437/Interspeech.2016-1456",
+   "dcterms:title": "The Perception of Overlapping Speech: Effects of Speaker Prosody and Listener Attitudes",
+   "schema:url": {
+    "@id": "https://www.isca-archive.org/interspeech_2016/hilton16_interspeech.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/interrupting/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Kristin J. Anderson & Campbell Leaper, Sex Roles 39(3-4), 225-252 (1998), doi:10.1023/A:1018802521676 (eScholarship, University of California)",
+   "dcterms:title": "Meta-Analyses of Gender Effects on Conversational Interruption: Who, What, When, Where, and How",
+   "schema:url": {
+    "@id": "https://escholarship.org/uc/item/5ws13704"
    }
   },
   {
