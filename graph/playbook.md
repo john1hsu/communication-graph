@@ -303,6 +303,15 @@ Ask yourself:
 - Is the urgency I am signalling the urgency I actually have?
 - Would my team know our default reply window for this channel without asking?
 
+### [Video call communication](../articles/digital-and-async-communication/video-call-communication.md) — Channel
+
+Ask yourself:
+- Does this conversation need faces and live back-and-forth, or would a phone call, a shared document or a short written update do?
+- If the goal is to generate ideas, have I given people a way to think away from the screen, or should we meet in person?
+- Is my audio clear enough that a stranger would take me seriously, and have I fixed it before worrying about my background?
+- Did I tell people at the start how to ask to speak and in what order I will take contributions?
+- After I asked a question, did I leave enough pause for the lag before filling the silence or moving on?
+
 ### [Zoom fatigue](../articles/digital-and-async-communication/zoom-fatigue.md) — Barrier
 
 Ask yourself:

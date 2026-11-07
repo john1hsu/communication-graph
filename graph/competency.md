@@ -135,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:delivering-bad-news` | mixed |  |
 | `cm:direct-vs-indirect-feedback` | mixed | `cm:brew-cairns-2004` |
 
-…and 43 more.
+…and 44 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -174,7 +174,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:status-reporting` | cmo:Genre |
 | `cm:teach-back` | cmo:Technique |
 
-…and 2 more.
+…and 3 more.
 
 ## Orphan articles (gap)
 

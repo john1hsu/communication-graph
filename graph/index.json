@@ -9135,6 +9135,124 @@
   ]
  },
  {
+  "id": "cm:video-call-communication",
+  "title": "Video call communication",
+  "aliases": [
+   "video calls",
+   "videoconferencing",
+   "video meetings",
+   "virtual meetings"
+  ],
+  "type": "Channel",
+  "domain": "digital-and-async-communication",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/digital-and-async-communication/video-call-communication.md",
+  "created": "2026-11-07",
+  "summary": "Live conversation over a camera-and-microphone link such as Zoom or Teams; it keeps the speed and back-and-forth of a meeting without travel, but transmission lag, a screen-bound field of view and filtered nonverbal cues change turn-taking, idea generation and how people come across, so it works best when the purpose, audio and turn order are managed deliberately.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:synchronous-communication"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "cm:digital-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:zoom-fatigue"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:camera-level-gaze"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:camera-optional-norm"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:channel-selection"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:workplace-meetings"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:media-richness-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:conversational-turn-taking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:proxemics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:facilitation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:wait-time"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:credibility"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:brucks-levav-2022",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:boland-et-al-zoom-turn-taking",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:alternativeTo",
+    "object": "cm:face-to-face-conversation",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:alternativeTo",
+    "object": "cm:phone-call",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:causes",
+    "object": "cm:zoom-fatigue",
+    "source": "s2",
+    "confidence": "low"
+   }
+  ],
+  "selfCheck": [
+   "Does this conversation need faces and live back-and-forth, or would a phone call, a shared document or a short written update do?",
+   "If the goal is to generate ideas, have I given people a way to think away from the screen, or should we meet in person?",
+   "Is my audio clear enough that a stranger would take me seriously, and have I fixed it before worrying about my background?",
+   "Did I tell people at the start how to ask to speak and in what order I will take contributions?",
+   "After I asked a question, did I leave enough pause for the lag before filling the silence or moving on?"
+  ],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://ideas.repec.org/a/nat/nature/v605y2022i7908d10.1038_s41586-022-04643-y.html",
+   "https://record.umich.edu/articles/zoom-disrupts-the-rhythm-of-conversation-study-shows",
+   "https://researchportalplus.anu.edu.au/en/publications/good-sound-good-research-how-audio-quality-influences-perceptions/",
+   "https://www.apa.org/news/press/releases/2017/10/emotions-listen",
+   "https://www.vc.scot.nhs.uk/better-vc/speaker-chair-etiquette/",
+   "https://www.vc.scot.nhs.uk/better-vc/better-meetings/"
+  ]
+ },
+ {
   "id": "cm:wait-time",
   "title": "Wait time",
   "aliases": [

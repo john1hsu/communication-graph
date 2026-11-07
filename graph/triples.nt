@@ -7617,6 +7617,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/thomas-gilovich/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/thomas-gilovich/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
 <https://github.com/john1hsu/communication-graph/id/source/thomas-gilovich/s6> <https://schema.org/url> <https://www.amacad.org/person/thomas-d-gilovich> .
+<https://github.com/john1hsu/communication-graph/id/source/video-call-communication/s1> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/video-call-communication/s1> <http://purl.org/dc/terms/publisher> "Brucks, M. S. & Levav, J., Nature 605(7908), 108-112, 2022 (RePEc/IDEAS record)" .
+<https://github.com/john1hsu/communication-graph/id/source/video-call-communication/s1> <http://purl.org/dc/terms/title> "Virtual communication curbs creative idea generation" .
+<https://github.com/john1hsu/communication-graph/id/source/video-call-communication/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/video-call-communication/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/video-call-communication/s1> <https://schema.org/url> <https://ideas.repec.org/a/nat/nature/v605y2022i7908d10.1038_s41586-022-04643-y.html> .
+<https://github.com/john1hsu/communication-graph/id/source/video-call-communication/s2> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/video-call-communication/s2> <http://purl.org/dc/terms/publisher> "The University Record, University of Michigan (on Boland, Fonseca, Mermelstein & Williamson, Journal of Experimental Psychology - General)" .
+<https://github.com/john1hsu/communication-graph/id/source/video-call-communication/s2> <http://purl.org/dc/terms/title> "Zoom disrupts the rhythm of conversation, study shows" .
+<https://github.com/john1hsu/communication-graph/id/source/video-call-communication/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/video-call-communication/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/video-call-communication/s2> <https://schema.org/url> <https://record.umich.edu/articles/zoom-disrupts-the-rhythm-of-conversation-study-shows> .
+<https://github.com/john1hsu/communication-graph/id/source/video-call-communication/s3> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/video-call-communication/s3> <http://purl.org/dc/terms/publisher> "Newman, E. J. & Schwarz, N., Science Communication 40(2), 246-257, 2018 (Australian National University research portal)" .
+<https://github.com/john1hsu/communication-graph/id/source/video-call-communication/s3> <http://purl.org/dc/terms/title> "Good Sound, Good Research: How Audio Quality Influences Perceptions of the Research and Researcher" .
+<https://github.com/john1hsu/communication-graph/id/source/video-call-communication/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/video-call-communication/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/video-call-communication/s3> <https://schema.org/url> <https://researchportalplus.anu.edu.au/en/publications/good-sound-good-research-how-audio-quality-influences-perceptions/> .
+<https://github.com/john1hsu/communication-graph/id/source/video-call-communication/s4> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/video-call-communication/s4> <http://purl.org/dc/terms/publisher> "American Psychological Association press release on Kraus, M. W., \"Voice-only communication enhances empathic accuracy\", American Psychologist, 2017" .
+<https://github.com/john1hsu/communication-graph/id/source/video-call-communication/s4> <http://purl.org/dc/terms/title> "Best Way to Recognize Emotions in Others: Listen" .
+<https://github.com/john1hsu/communication-graph/id/source/video-call-communication/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/video-call-communication/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/communication-graph/id/source/video-call-communication/s4> <https://schema.org/url> <https://www.apa.org/news/press/releases/2017/10/emotions-listen> .
+<https://github.com/john1hsu/communication-graph/id/source/video-call-communication/s5> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/video-call-communication/s5> <http://purl.org/dc/terms/publisher> "NHS Scotland National Virtual Consultation Service (vc.scot.nhs.uk)" .
+<https://github.com/john1hsu/communication-graph/id/source/video-call-communication/s5> <http://purl.org/dc/terms/title> "Speaker / Chair Etiquette" .
+<https://github.com/john1hsu/communication-graph/id/source/video-call-communication/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/video-call-communication/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/communication-graph/id/source/video-call-communication/s5> <https://schema.org/url> <https://www.vc.scot.nhs.uk/better-vc/speaker-chair-etiquette/> .
+<https://github.com/john1hsu/communication-graph/id/source/video-call-communication/s6> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/video-call-communication/s6> <http://purl.org/dc/terms/publisher> "NHS Scotland National Virtual Consultation Service (vc.scot.nhs.uk)" .
+<https://github.com/john1hsu/communication-graph/id/source/video-call-communication/s6> <http://purl.org/dc/terms/title> "Better Meetings" .
+<https://github.com/john1hsu/communication-graph/id/source/video-call-communication/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/video-call-communication/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/communication-graph/id/source/video-call-communication/s6> <https://schema.org/url> <https://www.vc.scot.nhs.uk/better-vc/better-meetings/> .
 <https://github.com/john1hsu/communication-graph/id/source/wait-time/s1> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/wait-time/s1> <http://purl.org/dc/terms/publisher> "Mary Budd Rowe, Journal of Teacher Education 37(1), 43-50 (1986), doi:10.1177/002248718603700110 (Scilit record)" .
 <https://github.com/john1hsu/communication-graph/id/source/wait-time/s1> <http://purl.org/dc/terms/title> "Wait Time: Slowing Down May Be a Way of Speeding Up!" .
@@ -8252,6 +8288,59 @@
 <https://github.com/john1hsu/communication-graph/id/thomas-gilovich> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> .
 <https://github.com/john1hsu/communication-graph/id/thomas-gilovich> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/spotlight-effect> .
 <https://github.com/john1hsu/communication-graph/id/thomas-gilovich> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/video-call-communication/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/video-call-communication/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Does this conversation need faces and live back-and-forth, or would a phone call, a shared document or a short written update do?" .
+<https://github.com/john1hsu/communication-graph/id/video-call-communication/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/video-call-communication> .
+<https://github.com/john1hsu/communication-graph/id/video-call-communication/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/video-call-communication/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "If the goal is to generate ideas, have I given people a way to think away from the screen, or should we meet in person?" .
+<https://github.com/john1hsu/communication-graph/id/video-call-communication/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/video-call-communication> .
+<https://github.com/john1hsu/communication-graph/id/video-call-communication/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/video-call-communication/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Is my audio clear enough that a stranger would take me seriously, and have I fixed it before worrying about my background?" .
+<https://github.com/john1hsu/communication-graph/id/video-call-communication/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/video-call-communication> .
+<https://github.com/john1hsu/communication-graph/id/video-call-communication/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/video-call-communication/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Did I tell people at the start how to ask to speak and in what order I will take contributions?" .
+<https://github.com/john1hsu/communication-graph/id/video-call-communication/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/video-call-communication> .
+<https://github.com/john1hsu/communication-graph/id/video-call-communication/check/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/video-call-communication/check/5> <http://www.w3.org/2000/01/rdf-schema#label> "After I asked a question, did I leave enough pause for the lag before filling the silence or moving on?" .
+<https://github.com/john1hsu/communication-graph/id/video-call-communication/check/5> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/video-call-communication> .
+<https://github.com/john1hsu/communication-graph/id/video-call-communication> <http://purl.org/dc/terms/created> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/video-call-communication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Channel> .
+<https://github.com/john1hsu/communication-graph/id/video-call-communication> <http://www.w3.org/2000/01/rdf-schema#label> "Video call communication" .
+<https://github.com/john1hsu/communication-graph/id/video-call-communication> <http://www.w3.org/2004/02/skos/core#altLabel> "video calls" .
+<https://github.com/john1hsu/communication-graph/id/video-call-communication> <http://www.w3.org/2004/02/skos/core#altLabel> "video meetings" .
+<https://github.com/john1hsu/communication-graph/id/video-call-communication> <http://www.w3.org/2004/02/skos/core#altLabel> "videoconferencing" .
+<https://github.com/john1hsu/communication-graph/id/video-call-communication> <http://www.w3.org/2004/02/skos/core#altLabel> "virtual meetings" .
+<https://github.com/john1hsu/communication-graph/id/video-call-communication> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/digital-communication> .
+<https://github.com/john1hsu/communication-graph/id/video-call-communication> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/synchronous-communication> .
+<https://github.com/john1hsu/communication-graph/id/video-call-communication> <http://www.w3.org/2004/02/skos/core#definition> "Live conversation over a camera-and-microphone link such as Zoom or Teams; it keeps the speed and back-and-forth of a meeting without travel, but transmission lag, a screen-bound field of view and filtered nonverbal cues change turn-taking, idea generation and how people come across, so it works best when the purpose, audio and turn order are managed deliberately." .
+<https://github.com/john1hsu/communication-graph/id/video-call-communication> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/digital-and-async-communication> .
+<https://github.com/john1hsu/communication-graph/id/video-call-communication> <http://www.w3.org/2004/02/skos/core#prefLabel> "Video call communication" .
+<https://github.com/john1hsu/communication-graph/id/video-call-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/camera-level-gaze> .
+<https://github.com/john1hsu/communication-graph/id/video-call-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> .
+<https://github.com/john1hsu/communication-graph/id/video-call-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/channel-selection> .
+<https://github.com/john1hsu/communication-graph/id/video-call-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> .
+<https://github.com/john1hsu/communication-graph/id/video-call-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/credibility> .
+<https://github.com/john1hsu/communication-graph/id/video-call-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/facilitation> .
+<https://github.com/john1hsu/communication-graph/id/video-call-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/media-richness-theory> .
+<https://github.com/john1hsu/communication-graph/id/video-call-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/proxemics> .
+<https://github.com/john1hsu/communication-graph/id/video-call-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/wait-time> .
+<https://github.com/john1hsu/communication-graph/id/video-call-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/workplace-meetings> .
+<https://github.com/john1hsu/communication-graph/id/video-call-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> .
+<https://github.com/john1hsu/communication-graph/id/video-call-communication> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/video-call-communication/s1> .
+<https://github.com/john1hsu/communication-graph/id/video-call-communication> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/video-call-communication/s2> .
+<https://github.com/john1hsu/communication-graph/id/video-call-communication> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/video-call-communication/s3> .
+<https://github.com/john1hsu/communication-graph/id/video-call-communication> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/video-call-communication/s4> .
+<https://github.com/john1hsu/communication-graph/id/video-call-communication> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/video-call-communication/s5> .
+<https://github.com/john1hsu/communication-graph/id/video-call-communication> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/video-call-communication/s6> .
+<https://github.com/john1hsu/communication-graph/id/video-call-communication> <https://github.com/john1hsu/communication-graph/ontology#alternativeTo> <https://github.com/john1hsu/communication-graph/id/face-to-face-conversation> .
+<https://github.com/john1hsu/communication-graph/id/video-call-communication> <https://github.com/john1hsu/communication-graph/ontology#alternativeTo> <https://github.com/john1hsu/communication-graph/id/phone-call> .
+<https://github.com/john1hsu/communication-graph/id/video-call-communication> <https://github.com/john1hsu/communication-graph/ontology#causes> <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> .
+<https://github.com/john1hsu/communication-graph/id/video-call-communication> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/boland-et-al-zoom-turn-taking> .
+<https://github.com/john1hsu/communication-graph/id/video-call-communication> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/brucks-levav-2022> .
+<https://github.com/john1hsu/communication-graph/id/video-call-communication> <https://github.com/john1hsu/communication-graph/ontology#domain> "digital-and-async-communication" .
+<https://github.com/john1hsu/communication-graph/id/video-call-communication> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/video-call-communication> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/digital-and-async-communication/video-call-communication.md" .
+<https://github.com/john1hsu/communication-graph/id/video-call-communication> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/wait-time/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/wait-time/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "After my last question, did I actually stay silent for at least three seconds, or did I rephrase, add options or answer it myself?" .
 <https://github.com/john1hsu/communication-graph/id/wait-time/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/wait-time> .

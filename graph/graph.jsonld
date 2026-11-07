@@ -7974,6 +7974,112 @@
    ]
   },
   {
+   "@id": "cm:video-call-communication",
+   "@type": "cmo:Channel",
+   "cmo:alternativeTo": [
+    {
+     "@id": "cm:face-to-face-conversation"
+    },
+    {
+     "@id": "cm:phone-call"
+    }
+   ],
+   "cmo:causes": {
+    "@id": "cm:zoom-fatigue"
+   },
+   "cmo:demonstratedBy": [
+    {
+     "@id": "cm:boland-et-al-zoom-turn-taking"
+    },
+    {
+     "@id": "cm:brucks-levav-2022"
+    }
+   ],
+   "cmo:domain": "digital-and-async-communication",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:file": "articles/digital-and-async-communication/video-call-communication.md",
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/video-call-communication/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/video-call-communication/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/video-call-communication/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/video-call-communication/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/video-call-communication/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/video-call-communication/s6"
+    }
+   ],
+   "rdfs:label": "Video call communication",
+   "skos:altLabel": [
+    "video calls",
+    "video meetings",
+    "videoconferencing",
+    "virtual meetings"
+   ],
+   "skos:broader": [
+    {
+     "@id": "cm:digital-communication"
+    },
+    {
+     "@id": "cm:synchronous-communication"
+    }
+   ],
+   "skos:definition": "Live conversation over a camera-and-microphone link such as Zoom or Teams; it keeps the speed and back-and-forth of a meeting without travel, but transmission lag, a screen-bound field of view and filtered nonverbal cues change turn-taking, idea generation and how people come across, so it works best when the purpose, audio and turn order are managed deliberately.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/digital-and-async-communication"
+   },
+   "skos:prefLabel": "Video call communication",
+   "skos:related": [
+    {
+     "@id": "cm:camera-level-gaze"
+    },
+    {
+     "@id": "cm:camera-optional-norm"
+    },
+    {
+     "@id": "cm:channel-selection"
+    },
+    {
+     "@id": "cm:conversational-turn-taking"
+    },
+    {
+     "@id": "cm:credibility"
+    },
+    {
+     "@id": "cm:facilitation"
+    },
+    {
+     "@id": "cm:media-richness-theory"
+    },
+    {
+     "@id": "cm:proxemics"
+    },
+    {
+     "@id": "cm:wait-time"
+    },
+    {
+     "@id": "cm:workplace-meetings"
+    },
+    {
+     "@id": "cm:zoom-fatigue"
+    }
+   ]
+  },
+  {
    "@id": "cm:wait-time",
    "@type": "cmo:Technique",
    "cmo:appliedIn": {
@@ -20115,6 +20221,90 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/video-call-communication/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Brucks, M. S. & Levav, J., Nature 605(7908), 108-112, 2022 (RePEc/IDEAS record)",
+   "dcterms:title": "Virtual communication curbs creative idea generation",
+   "schema:url": {
+    "@id": "https://ideas.repec.org/a/nat/nature/v605y2022i7908d10.1038_s41586-022-04643-y.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/video-call-communication/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "The University Record, University of Michigan (on Boland, Fonseca, Mermelstein & Williamson, Journal of Experimental Psychology - General)",
+   "dcterms:title": "Zoom disrupts the rhythm of conversation, study shows",
+   "schema:url": {
+    "@id": "https://record.umich.edu/articles/zoom-disrupts-the-rhythm-of-conversation-study-shows"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/video-call-communication/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Newman, E. J. & Schwarz, N., Science Communication 40(2), 246-257, 2018 (Australian National University research portal)",
+   "dcterms:title": "Good Sound, Good Research: How Audio Quality Influences Perceptions of the Research and Researcher",
+   "schema:url": {
+    "@id": "https://researchportalplus.anu.edu.au/en/publications/good-sound-good-research-how-audio-quality-influences-perceptions/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/video-call-communication/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "American Psychological Association press release on Kraus, M. W., \"Voice-only communication enhances empathic accuracy\", American Psychologist, 2017",
+   "dcterms:title": "Best Way to Recognize Emotions in Others: Listen",
+   "schema:url": {
+    "@id": "https://www.apa.org/news/press/releases/2017/10/emotions-listen"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/video-call-communication/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "NHS Scotland National Virtual Consultation Service (vc.scot.nhs.uk)",
+   "dcterms:title": "Speaker / Chair Etiquette",
+   "schema:url": {
+    "@id": "https://www.vc.scot.nhs.uk/better-vc/speaker-chair-etiquette/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/video-call-communication/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "NHS Scotland National Virtual Consultation Service (vc.scot.nhs.uk)",
+   "dcterms:title": "Better Meetings",
+   "schema:url": {
+    "@id": "https://www.vc.scot.nhs.uk/better-vc/better-meetings/"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/source/wait-time/s1",
    "@type": "cmo:Source",
    "cmo:sourceType": "peer-reviewed",
@@ -21076,6 +21266,46 @@
    "@type": "schema:HowToStep",
    "schema:position": 6,
    "schema:text": "Close by confirming the agreed version in writing where it matters (a recap message or ticket)."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/video-call-communication/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:video-call-communication"
+   },
+   "rdfs:label": "Does this conversation need faces and live back-and-forth, or would a phone call, a shared document or a short written update do?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/video-call-communication/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:video-call-communication"
+   },
+   "rdfs:label": "If the goal is to generate ideas, have I given people a way to think away from the screen, or should we meet in person?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/video-call-communication/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:video-call-communication"
+   },
+   "rdfs:label": "Is my audio clear enough that a stranger would take me seriously, and have I fixed it before worrying about my background?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/video-call-communication/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:video-call-communication"
+   },
+   "rdfs:label": "Did I tell people at the start how to ask to speak and in what order I will take contributions?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/video-call-communication/check/5",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:video-call-communication"
+   },
+   "rdfs:label": "After I asked a question, did I leave enough pause for the lag before filling the silence or moving on?"
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/wait-time/check/1",
