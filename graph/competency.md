@@ -116,6 +116,8 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:media-richness-theory` | contested | `cm:paradox-of-richness` |
 | `cm:mehrabian-myth` | contested | `cm:lapakko-2007` |
 | `cm:mehrabian-myth` | contested | `cm:zuckerman-et-al-1982` |
+| `cm:readability-formulas` | contested | `cm:duffy-kabance-1982` |
+| `cm:readability-formulas` | contested | `cm:redish-selzer-1985` |
 | `cm:active-listening` | mixed |  |
 | `cm:active-voice` | mixed | `cm:fear-and-loathing-of-the-english-passive` |
 | `cm:apology` | mixed |  |
@@ -132,10 +134,8 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:credibility` | mixed |  |
 | `cm:curse-of-knowledge` | mixed | `cm:ryskin-brown-schmidt-2014` |
 | `cm:defensiveness` | mixed | `cm:forward-czech-lee-2011` |
-| `cm:delivering-bad-news` | mixed |  |
-| `cm:direct-vs-indirect-feedback` | mixed | `cm:brew-cairns-2004` |
 
-…and 49 more.
+…and 51 more.
 
 ## Concepts with no recorded origin (gap)
 

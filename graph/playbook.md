@@ -1226,3 +1226,25 @@ Ask yourself:
 - Does every point under a heading actually support that heading, and are my groups free of overlaps and gaps?
 - Am I presenting the order in which I did the work, or the order in which my reader needs the answer?
 
+### [Readability formulas](../articles/writing/readability-formulas.md) — Technique
+
+1. Decide who the readers are and what they must find, understand and do before you look at any score.
+2. Prepare the text for scoring by removing headings, bullet fragments, tables, URLs and other non-prose that calculators miscount.
+3. Run one named formula in one tool and record which you used, so later scores are comparable.
+4. Treat a high score only as a pointer to passages worth rereading for long sentences and unfamiliar terms; fix those for the reader, not for the number.
+5. Never chop sentences or swap in short but vague words just to lower the score.
+6. Check the revised draft with a few real or representative readers (ask them to find an answer or explain the next step) and let their results, not the score, decide whether it is ready.
+
+*A policy team is told every staff notice must score at or below grade 8 before it goes out.*
+
+| Before | After |
+|---|---|
+| Leave. Approval needed. Submit form. Use portal. Manager signs. HR checks. Then booked. | To book leave, submit the leave form in the HR portal at least two weeks ahead. Your manager approves it, HR checks your balance, and you get an email when it is booked. |
+
+**Why:** The choppy version scores as very easy but leaves readers guessing about order, deadline and who acts; the revised version scores slightly harder yet answers the questions readers actually have.
+
+Ask yourself:
+- Did I change any sentence only to move the score rather than to help a reader?
+- Which formula and tool produced this number, and did I strip headings and lists before scoring?
+- Has anyone from the intended audience tried to use this document, and what did they get wrong?
+

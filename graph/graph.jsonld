@@ -6984,6 +6984,91 @@
    ]
   },
   {
+   "@id": "cm:readability-formulas",
+   "@type": "cmo:Technique",
+   "cmo:alternativeTo": {
+    "@id": "cm:usability-testing"
+   },
+   "cmo:challengedBy": [
+    {
+     "@id": "cm:duffy-kabance-1982"
+    },
+    {
+     "@id": "cm:redish-selzer-1985"
+    }
+   ],
+   "cmo:confusedWith": {
+    "@id": "cm:plain-language"
+   },
+   "cmo:domain": "writing",
+   "cmo:evidenceStatus": "contested",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/readability-formulas/example"
+   },
+   "cmo:file": "articles/writing/readability-formulas.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/readability-formulas/howto"
+   },
+   "cmo:introducedBy": {
+    "@id": "cm:rudolf-flesch"
+   },
+   "cmo:level": "intermediate",
+   "cmo:requires": {
+    "@id": "cm:audience-analysis"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/readability-formulas/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/readability-formulas/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/readability-formulas/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/readability-formulas/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/readability-formulas/s5"
+    }
+   ],
+   "rdfs:label": "Readability formulas",
+   "skos:altLabel": [
+    "Flesch Reading Ease",
+    "Flesch-Kincaid Grade Level",
+    "readability scores",
+    "readability tests",
+    "reading grade level"
+   ],
+   "skos:broader": {
+    "@id": "cm:editing-for-clarity"
+   },
+   "skos:definition": "Equations such as Flesch Reading Ease and Flesch-Kincaid Grade Level that estimate how hard a text is from surface counts, mainly word and sentence length; useful as a quick screen for dense drafts, but a weak guide to whether real readers will understand and act on a document.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/writing"
+   },
+   "skos:prefLabel": "Readability formulas",
+   "skos:related": [
+    {
+     "@id": "cm:clarity"
+    },
+    {
+     "@id": "cm:clarity-index"
+    },
+    {
+     "@id": "cm:effective-writing-for-army-leaders"
+    },
+    {
+     "@id": "cm:plain-language"
+    }
+   ]
+  },
+  {
    "@id": "cm:reciprocal-self-disclosure",
    "@type": "cmo:Technique",
    "cmo:challengedBy": {
@@ -12782,6 +12867,99 @@
     "@id": "cm:rapport"
    },
    "rdfs:label": "Am I trying to connect, or performing techniques such as copying their posture?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/readability-formulas/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:readability-formulas"
+   },
+   "rdfs:label": "Did I change any sentence only to move the score rather than to help a reader?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/readability-formulas/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:readability-formulas"
+   },
+   "rdfs:label": "Which formula and tool produced this number, and did I strip headings and lists before scoring?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/readability-formulas/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:readability-formulas"
+   },
+   "rdfs:label": "Has anyone from the intended audience tried to use this document, and what did they get wrong?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/readability-formulas/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "To book leave, submit the leave form in the HR portal at least two weeks ahead. Your manager approves it, HR checks your balance, and you get an email when it is booked.",
+   "cmo:before": "Leave. Approval needed. Submit form. Use portal. Manager signs. HR checks. Then booked.",
+   "cmo:situation": "A policy team is told every staff notice must score at or below grade 8 before it goes out.",
+   "cmo:why": "The choppy version scores as very easy but leaves readers guessing about order, deadline and who acts; the revised version scores slightly harder yet answers the questions readers actually have."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/readability-formulas/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Readability formulas",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/readability-formulas/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/readability-formulas/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/readability-formulas/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/readability-formulas/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/readability-formulas/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/readability-formulas/howto/6"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/readability-formulas/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Decide who the readers are and what they must find, understand and do before you look at any score."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/readability-formulas/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Prepare the text for scoring by removing headings, bullet fragments, tables, URLs and other non-prose that calculators miscount."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/readability-formulas/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Run one named formula in one tool and record which you used, so later scores are comparable."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/readability-formulas/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Treat a high score only as a pointer to passages worth rereading for long sentences and unfamiliar terms; fix those for the reader, not for the number."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/readability-formulas/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Never chop sentences or swap in short but vague words just to lower the score."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/readability-formulas/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "Check the revised draft with a few real or representative readers (ask them to find an answer or explain the next step) and let their results, not the score, decide whether it is ready."
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/reciprocal-self-disclosure/check/1",
@@ -19649,6 +19827,76 @@
    "dcterms:title": "Raymond S. Tomlinson - 1963",
    "schema:url": {
     "@id": "https://eng.rpi.edu/person/raymond-s-tomlinson-1963"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/readability-formulas/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Kincaid, Fishburne, Rogers & Chissom, Research Branch Report 8-75, Chief of Naval Technical Training, 1975 (University of Central Florida STARS record)",
+   "dcterms:title": "Derivation of New Readability Formulas (Automated Readability Index, Fog Count and Flesch Reading Ease Formula) for Navy Enlisted Personnel",
+   "schema:url": {
+    "@id": "https://stars.library.ucf.edu/istlibrary/56"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/readability-formulas/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Duffy & Kabance, Navy Personnel Research and Development Center, NPRDC TR 82-44, 1982 (DTIC)",
+   "dcterms:title": "The Role of Word Difficulty and Sentence Length in Text Comprehension",
+   "schema:url": {
+    "@id": "https://apps.dtic.mil/sti/pdfs/ADA114935.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/readability-formulas/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Redish & Selzer, Technical Communication 32(4), 1985 (Penn State research portal record)",
+   "dcterms:title": "The Place of Readability Formulas in Technical Communication",
+   "schema:url": {
+    "@id": "https://pure.psu.edu/en/publications/place-of-readability-formulas-in-technical-communication/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/readability-formulas/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Gael Spivak, Our Languages blog, Language Portal of Canada (Government of Canada), 2023",
+   "dcterms:title": "Readability formulas, programs and tools: Do they work for plain language?",
+   "schema:url": {
+    "@id": "https://www.noslangues-ourlanguages.gc.ca/en/blogue-blog/readability-formulas-eng"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/readability-formulas/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Sydney Health Literacy Lab, University of Sydney (summary of a JAMA Network Open study)",
+   "dcterms:title": "Comparison of readability scores for written health information across formulas using automated vs manual measures",
+   "schema:url": {
+    "@id": "https://www.sydneyhealthliteracylab.org.au/health-literacy-editor-publications/1-y9tp7-9mdxz-thy7z"
    }
   },
   {
