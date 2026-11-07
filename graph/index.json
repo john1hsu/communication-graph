@@ -6841,6 +6841,93 @@
   ]
  },
  {
+  "id": "cm:nicholas-epley",
+  "title": "Nicholas Epley",
+  "aliases": [
+   "Nick Epley",
+   "Nicholas S. Epley",
+   "Epley"
+  ],
+  "type": "Person",
+  "domain": "thinkers-and-works",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/thinkers-and-works/nicholas-epley.md",
+  "created": "2026-11-07",
+  "summary": "University of Chicago Booth behavioural scientist whose experiments on how people read other minds produced two practical correctives for egocentric communication: considering others' contributions before claiming credit, and getting someone's perspective by asking rather than imagining it.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "cm:egocentric-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:thomas-gilovich"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:perspective-taking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:illusion-of-transparency"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:anchoring-and-adjustment"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:small-talk"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:channel-selection"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:caruso-epley-bazerman-2006"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:schroeder-caruso-epley-2016"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:kardas-kumar-epley-2021"
+   },
+   {
+    "predicate": "cmo:introduced",
+    "object": "cm:considering-others-contributions-first",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introduced",
+    "object": "cm:perspective-getting",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:authored",
+    "object": "cm:mindwise",
+    "source": "s4",
+    "confidence": "high"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://anderson-review.ucla.edu/wp-content/uploads/2021/03/Caruso-et_al_Undoing_Egocentrism_JPSP2006.pdf",
+   "https://static1.squarespace.com/static/55917f64e4b0cd3b4705b68c/t/5cbe54fb71c10bbdc16e0dbc/1555977471661/eyal.steffel.epley.2018.pdf",
+   "https://www.apa.org/monitor/feb06/egos",
+   "https://casbs.stanford.edu/mindwise-how-we-understand-what-others-think-believe-feel-and-want",
+   "https://neubauercollegium.uchicago.edu/people/nicholas-epley",
+   "https://www.apa.org/news/press/releases/2021/09/deep-conversations-strangers"
+  ]
+ },
+ {
   "id": "cm:nominal-group-technique",
   "title": "Nominal group technique",
   "aliases": [

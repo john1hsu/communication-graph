@@ -143,7 +143,6 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 
 | node | type |
 |---|---|
-| `cm:considering-others-contributions-first` | cmo:Technique |
 | `cm:credibility` | cmo:Concept |
 | `cm:delivering-bad-news` | cmo:Context |
 | `cm:egocentric-bias` | cmo:Barrier |
@@ -173,8 +172,9 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:small-talk` | cmo:Skill |
 | `cm:social-accounts` | cmo:Technique |
 | `cm:speaking-anxiety` | cmo:Barrier |
+| `cm:stakeholder-mapping` | cmo:Technique |
 
-…and 6 more.
+…and 5 more.
 
 ## Orphan articles (gap)
 

@@ -6018,6 +6018,92 @@
    ]
   },
   {
+   "@id": "cm:nicholas-epley",
+   "@type": "cmo:Person",
+   "cmo:authored": {
+    "@id": "cm:mindwise"
+   },
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "historical",
+   "cmo:file": "articles/thinkers-and-works/nicholas-epley.md",
+   "cmo:introduced": [
+    {
+     "@id": "cm:considering-others-contributions-first"
+    },
+    {
+     "@id": "cm:perspective-getting"
+    }
+   ],
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/nicholas-epley/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/nicholas-epley/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/nicholas-epley/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/nicholas-epley/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/nicholas-epley/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/nicholas-epley/s6"
+    }
+   ],
+   "rdfs:label": "Nicholas Epley",
+   "skos:altLabel": [
+    "Epley",
+    "Nicholas S. Epley",
+    "Nick Epley"
+   ],
+   "skos:definition": "University of Chicago Booth behavioural scientist whose experiments on how people read other minds produced two practical correctives for egocentric communication: considering others' contributions before claiming credit, and getting someone's perspective by asking rather than imagining it.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "Nicholas Epley",
+   "skos:related": [
+    {
+     "@id": "cm:anchoring-and-adjustment"
+    },
+    {
+     "@id": "cm:caruso-epley-bazerman-2006"
+    },
+    {
+     "@id": "cm:channel-selection"
+    },
+    {
+     "@id": "cm:egocentric-bias"
+    },
+    {
+     "@id": "cm:illusion-of-transparency"
+    },
+    {
+     "@id": "cm:kardas-kumar-epley-2021"
+    },
+    {
+     "@id": "cm:perspective-taking"
+    },
+    {
+     "@id": "cm:schroeder-caruso-epley-2016"
+    },
+    {
+     "@id": "cm:small-talk"
+    },
+    {
+     "@id": "cm:thomas-gilovich"
+    }
+   ]
+  },
+  {
    "@id": "cm:nominal-group-technique",
    "@type": "cmo:Technique",
    "cmo:addresses": [
@@ -19469,6 +19555,90 @@
    "dcterms:title": "Influential Scholar",
    "schema:url": {
     "@id": "https://news.njit.edu/node/310"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/nicholas-epley/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Caruso, Epley & Bazerman, Journal of Personality and Social Psychology 91(5), 2006 (author copy, UCLA Anderson Review)",
+   "dcterms:title": "The costs and benefits of undoing egocentric responsibility assessments in groups",
+   "schema:url": {
+    "@id": "https://anderson-review.ucla.edu/wp-content/uploads/2021/03/Caruso-et_al_Undoing_Egocentrism_JPSP2006.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/nicholas-epley/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Eyal, Steffel & Epley, Journal of Personality and Social Psychology 114(4), 547-571, 2018 (author copy)",
+   "dcterms:title": "Perspective mistaking: Accurately understanding the mind of another requires getting perspective, not taking perspective",
+   "schema:url": {
+    "@id": "https://static1.squarespace.com/static/55917f64e4b0cd3b4705b68c/t/5cbe54fb71c10bbdc16e0dbc/1555977471661/eyal.steffel.epley.2018.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/nicholas-epley/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Winerman, L., American Psychological Association, Monitor on Psychology, February 2006 (on Kruger & Epley, JPSP 2005)",
+   "dcterms:title": "E-mails and egos",
+   "schema:url": {
+    "@id": "https://www.apa.org/monitor/feb06/egos"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/nicholas-epley/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Center for Advanced Study in the Behavioral Sciences, Stanford University (record of Epley, Knopf, 2014)",
+   "dcterms:title": "Mindwise: How We Understand What Others Think, Believe, Feel, and Want",
+   "schema:url": {
+    "@id": "https://casbs.stanford.edu/mindwise-how-we-understand-what-others-think-believe-feel-and-want"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/nicholas-epley/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Neubauer Collegium for Culture and Society, University of Chicago",
+   "dcterms:title": "Nicholas Epley",
+   "schema:url": {
+    "@id": "https://neubauercollegium.uchicago.edu/people/nicholas-epley"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/nicholas-epley/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "American Psychological Association press release, 30 September 2021",
+   "dcterms:title": "Getting beyond small talk: Study finds people enjoy deep conversations with strangers",
+   "schema:url": {
+    "@id": "https://www.apa.org/news/press/releases/2021/09/deep-conversations-strangers"
    }
   },
   {
