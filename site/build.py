@@ -401,23 +401,10 @@ def learning_path() -> str:
 
 # ---------------------------------------------------------------- home
 def home() -> str:
-    graph_nodes = [
-        {"id": slug_of(n["id"]), "t": n["title"], "d": n["domain"]}
-        for n in index
-    ]
-    links, seen = [], set()
-    for n in index:
-        for e in n["edges"]:
-            if e["object"] in nodes and e["object"] != n["id"]:
-                a, b = sorted((slug_of(n["id"]), slug_of(e["object"])))
-                if (a, b) not in seen:
-                    seen.add((a, b))
-                    links.append({"s": a, "t": b})
     search = [
         {"s": slug_of(n["id"]), "t": n["title"], "a": " ".join(n.get("aliases", [])), "m": n.get("summary", "")}
         for n in index
     ]
-    dom_list = [{"k": d, "l": domain_label[d]} for d in domain_order]
 
     sections = []
     for d in domain_order:
@@ -438,7 +425,7 @@ def home() -> str:
         for n in latest
     )
 
-    data = json.dumps({"nodes": graph_nodes, "links": links, "search": search, "domains": dom_list}, ensure_ascii=False)
+    data = json.dumps({"search": search}, ensure_ascii=False)
     data = data.replace("</", "<\\/")
     stat = (
         f"{len(index)} articles in {len(domains)} areas, connected by "
@@ -451,10 +438,6 @@ def home() -> str:
     <p class="lede">{esc(CFG['intro'])}</p>
     <p class="stat">{esc(stat)}</p>
   </div>
-  <figure class="graph-wrap">
-    <div id="graph" role="img" aria-label="Map of every article and the links between them. Use the list below to browse the same articles."></div>
-    <figcaption id="graph-cap">Each dot is an article, coloured by area. Click a dot to open it, drag it to move it, and scroll or pinch to zoom.</figcaption>
-  </figure>
 </section>
 
 <section class="browse" id="browse" aria-labelledby="browse-h">
@@ -475,7 +458,6 @@ def home() -> str:
 </section>
 
 <script id="kg-data" type="application/json">{data}</script>
-<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
 <script src="assets/home.js?v={ASSET_V}"></script>"""
     return page(CFG["title"], body, 0, page_class="p-home")
 
