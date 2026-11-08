@@ -1327,6 +1327,77 @@
    ]
   },
   {
+   "@id": "cm:carl-hovland",
+   "@type": "cmo:Person",
+   "cmo:authored": {
+    "@id": "cm:communication-and-persuasion"
+   },
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "historical",
+   "cmo:file": "articles/thinkers-and-works/carl-hovland.md",
+   "cmo:influencedBy": {
+    "@id": "cm:clark-hull"
+   },
+   "cmo:introduced": [
+    {
+     "@id": "cm:credibility"
+    },
+    {
+     "@id": "cm:sleeper-effect"
+    },
+    {
+     "@id": "cm:social-judgment-theory"
+    }
+   ],
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/carl-hovland/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/carl-hovland/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/carl-hovland/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/carl-hovland/s4"
+    }
+   ],
+   "rdfs:label": "Carl Hovland",
+   "skos:altLabel": [
+    "Carl I. Hovland",
+    "Carl Iver Hovland",
+    "Hovland"
+   ],
+   "skos:definition": "Yale psychologist (1912-1961) who led the Army's wartime film-evaluation experiments and then the Yale Communication and Attitude Change Program, which turned persuasion into an experimental science and gave communicators the modern idea of source credibility (expertise plus trustworthiness) and the sleeper effect.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "Carl Hovland",
+   "skos:related": [
+    {
+     "@id": "cm:credibility"
+    },
+    {
+     "@id": "cm:elaboration-likelihood-model"
+    },
+    {
+     "@id": "cm:hovland-weiss-1951"
+    },
+    {
+     "@id": "cm:persuasion"
+    },
+    {
+     "@id": "cm:social-psychology"
+    }
+   ]
+  },
+  {
    "@id": "cm:channel-selection",
    "@type": "cmo:Technique",
    "cmo:appliedIn": {
@@ -17515,6 +17586,62 @@
    "dcterms:title": "Social norms and webcam use in online meetings",
    "schema:url": {
     "@id": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2022.907405/pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/carl-hovland/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Roger N. Shepard, Biographical Memoirs, National Academy of Sciences (National Academies Press, 1998)",
+   "dcterms:title": "Carl Iver Hovland, 1912-1961: A Biographical Memoir",
+   "schema:url": {
+    "@id": "https://www.nasonline.org/wp-content/uploads/2024/06/hovland-carl.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/carl-hovland/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Hovland & Weiss, Public Opinion Quarterly 15(4), 635-650 (1951) (copy hosted by the University of North Carolina)",
+   "dcterms:title": "The Influence of Source Credibility on Communication Effectiveness",
+   "schema:url": {
+    "@id": "https://fbaum.unc.edu/teaching/articles/HovlandWeiss-POQ-1951.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/carl-hovland/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Kumkale & Albarracín, Psychological Bulletin 130(1), 143-172 (2004) (PubMed Central)",
+   "dcterms:title": "The Sleeper Effect in Persuasion: A Meta-Analytic Review",
+   "schema:url": {
+    "@id": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3100161"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/carl-hovland/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Crano & Riffat, Claremont Graduate University, chapter for the Sydney Symposium of Social Psychology 2025 (UNSW)",
+   "dcterms:title": "The Demise of Trust: Trustworthiness, the Internet, and Self-Deception",
+   "schema:url": {
+    "@id": "https://sydneysymposium.unsw.edu.au/2025/chapters/CranoSSSP2025.pdf"
    }
   },
   {

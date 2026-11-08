@@ -1524,6 +1524,83 @@
   ]
  },
  {
+  "id": "cm:carl-hovland",
+  "title": "Carl Hovland",
+  "aliases": [
+   "Carl I. Hovland",
+   "Carl Iver Hovland",
+   "Hovland"
+  ],
+  "type": "Person",
+  "domain": "thinkers-and-works",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/thinkers-and-works/carl-hovland.md",
+  "created": "2026-11-08",
+  "summary": "Yale psychologist (1912-1961) who led the Army's wartime film-evaluation experiments and then the Yale Communication and Attitude Change Program, which turned persuasion into an experimental science and gave communicators the modern idea of source credibility (expertise plus trustworthiness) and the sleeper effect.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "cm:credibility"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:persuasion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:hovland-weiss-1951"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:elaboration-likelihood-model"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:social-psychology"
+   },
+   {
+    "predicate": "cmo:introduced",
+    "object": "cm:credibility",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:introduced",
+    "object": "cm:sleeper-effect",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introduced",
+    "object": "cm:social-judgment-theory",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:authored",
+    "object": "cm:communication-and-persuasion",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:influencedBy",
+    "object": "cm:clark-hull",
+    "source": "s1",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://www.nasonline.org/wp-content/uploads/2024/06/hovland-carl.pdf",
+   "https://fbaum.unc.edu/teaching/articles/HovlandWeiss-POQ-1951.pdf",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC3100161",
+   "https://sydneysymposium.unsw.edu.au/2025/chapters/CranoSSSP2025.pdf"
+  ]
+ },
+ {
   "id": "cm:channel-selection",
   "title": "Channel selection",
   "aliases": [
