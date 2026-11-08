@@ -50,14 +50,14 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:camera-optional-norm` | 1 | Zoom fatigue |
 | `cm:communicating-uncertainty` | 1 | vague-probability-language |
 | `cm:considering-others-contributions-first` | 1 | Egocentric bias |
+| `cm:conversational-receptiveness` | 1 | Defensiveness |
 | `cm:feedback-sandwich` | 1 | Defensiveness |
 | `cm:feedforward` | 1 | Defensiveness |
 | `cm:habit-reversal-training` | 1 | Filled pauses |
 | `cm:humble-inquiry` | 1 | telling-instead-of-asking |
 | `cm:integrative-negotiation` | 1 | mythical-fixed-pie |
-| `cm:issue-selling` | 1 | Managing up |
 
-…and 17 more.
+…and 18 more.
 
 ## Toolkit by situation
 
@@ -66,6 +66,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | situation | technique |
 |---|---|
 | `cm:apology` | `cm:social-accounts` |
+| `cm:asynchronous-communication` | `cm:conversational-receptiveness` |
 | `cm:asynchronous-communication` | `cm:setting-reply-time-expectations` |
 | `cm:business-report` | `cm:pyramid-principle` |
 | `cm:client-communication` | `cm:trusted-advisor` |
@@ -76,6 +77,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:cross-functional-collaboration` | `cm:persuasion` |
 | `cm:delivering-bad-news` | `cm:social-accounts` |
 | `cm:difficult-conversation` | `cm:active-listening` |
+| `cm:difficult-conversation` | `cm:conversational-receptiveness` |
 | `cm:difficult-conversation` | `cm:i-statements` |
 | `cm:difficult-conversation` | `cm:paraphrasing` |
 | `cm:difficult-conversation` | `cm:role-reversal` |
@@ -93,10 +95,8 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:executive-briefing` | `cm:pyramid-principle` |
 | `cm:executive-briefing` | `cm:words-of-estimative-probability` |
 | `cm:face-to-face-conversation` | `cm:eye-contact` |
-| `cm:face-to-face-conversation` | `cm:nonverbal-communication` |
-| `cm:face-to-face-conversation` | `cm:proxemics` |
 
-…and 43 more.
+…and 45 more.
 
 ## Myths and contested advice
 
@@ -135,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:clarity` | mixed |  |
 | `cm:cognitive-load` | mixed | `cm:de-jong-2010` |
 
-…and 77 more.
+…and 78 more.
 
 ## Concepts with no recorded origin (gap)
 

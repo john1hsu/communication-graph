@@ -1288,6 +1288,30 @@ Ask yourself:
 
 ## questioning-and-conversation
 
+### [Conversational receptiveness](../articles/questioning-and-conversation/conversational-receptiveness.md) — Technique
+
+1. Before replying to someone you disagree with, restate their main point in a sentence of your own and check it is one they would accept.
+2. Open by acknowledging that view explicitly ("So your concern is...", "I understand that you see...").
+3. Name at least one real point of agreement or shared goal before you give your own position.
+4. Hedge your claims where you are genuinely less than certain ("I think", "it's possible that", "in my experience").
+5. Replace flat negations and "no, because" rebuttals with positive, forward-looking phrasing about what you would do instead.
+6. Reread the message and cut any line that only proves the other person wrong without moving the work forward.
+
+*In a project channel, an operations lead argues that a new release should be delayed two weeks for more testing; the product manager thinks the release should ship on schedule.*
+
+| Before | After |
+|---|---|
+| No, delaying makes no sense. The reason is that the testing we've done is enough, and two weeks costs us the launch window. We can't keep moving dates. | So your worry is that we haven't tested the failover path enough to be safe in production - I understand that, and I agree we can't ship something that pages on-call every night. I think it's possible we can cover that risk without losing the launch window: what if we run the failover test this week and hold the go/no-go on Friday based on what it shows? |
+
+**Why:** The rewrite acknowledges the other view, names the shared goal, hedges the claim and frames a positive next step, replacing the negations and "the reason is" rebuttal that research found readers judged harshly - the position is unchanged, but the other person is far more likely to engage with it.
+
+Ask yourself:
+- Could the other person read my opening line and recognise their own view in it?
+- Have I named anything we agree on, even just the goal?
+- How many times did I write "no", "not", "can't" or "the reason is" - and could any become a positive proposal?
+- Am I hedging where I am genuinely unsure, or only to sound agreeable?
+- Would I mean every acknowledgement if they asked me to expand on it?
+
 ### [Face-to-face conversation](../articles/questioning-and-conversation/face-to-face-conversation.md) — Channel
 
 Ask yourself:

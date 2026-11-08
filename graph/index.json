@@ -2578,6 +2578,127 @@
   ]
  },
  {
+  "id": "cm:conversational-receptiveness",
+  "title": "Conversational receptiveness",
+  "aliases": [
+   "HEAR method",
+   "HEAR framework",
+   "receptive language",
+   "signalling openness to opposing views"
+  ],
+  "type": "Technique",
+  "domain": "questioning-and-conversation",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/questioning-and-conversation/conversational-receptiveness.md",
+  "created": "2026-11-08",
+  "summary": "Using specific word choices - hedging, naming agreement, acknowledging the other view and phrasing things positively - to show a person who disagrees with you that you are willing to engage thoughtfully with their view, without giving up your own.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:conflict-resolution"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:perspective-getting"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:humble-inquiry"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:active-listening"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:i-statements"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:intellectual-humility"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:difficult-conversation"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:active-listening"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:yeomans-et-al-2020",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:yeomans-et-al-2024",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:julia-minson",
+    "source": "s5",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:defensiveness",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:difficult-conversation",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:asynchronous-communication",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:paraphrasing",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Could the other person read my opening line and recognise their own view in it?",
+   "Have I named anything we agree on, even just the goal?",
+   "How many times did I write \"no\", \"not\", \"can't\" or \"the reason is\" - and could any become a positive proposal?",
+   "Am I hedging where I am genuinely unsure, or only to sound agreeable?",
+   "Would I mean every acknowledgement if they asked me to expand on it?"
+  ],
+  "steps": [
+   "Before replying to someone you disagree with, restate their main point in a sentence of your own and check it is one they would accept.",
+   "Open by acknowledging that view explicitly (\"So your concern is...\", \"I understand that you see...\").",
+   "Name at least one real point of agreement or shared goal before you give your own position.",
+   "Hedge your claims where you are genuinely less than certain (\"I think\", \"it's possible that\", \"in my experience\").",
+   "Replace flat negations and \"no, because\" rebuttals with positive, forward-looking phrasing about what you would do instead.",
+   "Reread the message and cut any line that only proves the other person wrong without moving the work forward."
+  ],
+  "example": {
+   "situation": "In a project channel, an operations lead argues that a new release should be delayed two weeks for more testing; the product manager thinks the release should ship on schedule.",
+   "before": "No, delaying makes no sense. The reason is that the testing we've done is enough, and two weeks costs us the launch window. We can't keep moving dates.",
+   "after": "So your worry is that we haven't tested the failover path enough to be safe in production - I understand that, and I agree we can't ship something that pages on-call every night. I think it's possible we can cover that risk without losing the launch window: what if we run the failover test this week and hold the go/no-go on Friday based on what it shows?",
+   "why": "The rewrite acknowledges the other view, names the shared goal, hedges the claim and frames a positive next step, replacing the negations and \"the reason is\" rebuttal that research found readers judged harshly - the position is unchanged, but the other person is far more likely to engage with it."
+  },
+  "source_urls": [
+   "https://www.hks.harvard.edu/publications/conversational-receptiveness-improving-engagement-opposing-views",
+   "https://spiral.imperial.ac.uk/bitstream/10044/1/114128/2/Contagion_R2_FINAL.docx",
+   "https://www.hks.harvard.edu/publications/receptiveness-opposing-views-conceptualization-and-integrative-review",
+   "https://www.pon.harvard.edu/daily/conflict-resolution/how-to-manage-conflict-at-work-and-beyond/",
+   "https://www.library.hbs.edu/working-knowledge/when-agreeing-to-disagree-is-a-good-beginning"
+  ]
+ },
+ {
   "id": "cm:credibility",
   "title": "Credibility",
   "aliases": [
