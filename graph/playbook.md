@@ -934,6 +934,14 @@ Ask yourself:
 - Am I sharing information step by step and checking that it is reciprocated?
 - Is there a package that would leave both of us better off than the one we are about to sign?
 
+### [Interests vs. positions](../articles/negotiation/interests-vs-positions.md) — Principle
+
+Ask yourself:
+- Can I say in one sentence why I want what I am asking for, separately from the number or term itself?
+- What do I think the other side's demand is protecting, and have I asked them rather than assumed it?
+- Have I put at least two different options on the table that would meet the same interests?
+- Which parts of this deal are genuinely fixed-sum, so I still need a fair standard to divide them?
+
 ### [Multiple equivalent simultaneous offers](../articles/negotiation/multiple-equivalent-simultaneous-offers.md) — Technique
 
 1. List every issue that is genuinely negotiable (price, scope, timing, payment terms, support, duration) and give each a weight that reflects how much it matters to you.

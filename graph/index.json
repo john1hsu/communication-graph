@@ -6162,6 +6162,113 @@
   ]
  },
  {
+  "id": "cm:interests-vs-positions",
+  "title": "Interests vs. positions",
+  "aliases": [
+   "focus on interests not positions",
+   "separating interests from positions"
+  ],
+  "type": "Principle",
+  "domain": "negotiation",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/negotiation/interests-vs-positions.md",
+  "created": "2026-11-08",
+  "summary": "The negotiation principle of looking past each side's stated demand (its position) to the needs, concerns and goals that produced it (its interests), because several different agreements can usually satisfy the same interests even when the positions look incompatible.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:negotiation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:integrative-negotiation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:batna"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:logrolling"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:open-ended-questions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:perspective-taking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:zone-of-possible-agreement"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:open-ended-questions"
+   },
+   {
+    "predicate": "cmo:partOf",
+    "object": "cm:principled-negotiation",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedIn",
+    "object": "cm:getting-to-yes",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:positional-bargaining",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:mythical-fixed-pie",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:thompson-1991",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:the-pros-and-cons-of-getting-to-yes",
+    "source": "s6",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:salary-negotiation",
+    "source": "s1",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Can I say in one sentence why I want what I am asking for, separately from the number or term itself?",
+   "What do I think the other side's demand is protecting, and have I asked them rather than assumed it?",
+   "Have I put at least two different options on the table that would meet the same interests?",
+   "Which parts of this deal are genuinely fixed-sum, so I still need a fair standard to divide them?"
+  ],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+   "https://www.pon.harvard.edu/daily/negotiation-skills-daily/positional-bargaining-pitfalls/",
+   "https://www.kellogg.northwestern.edu/academics-research/research/detail/1991/information-exchange-in-negotiation",
+   "https://www.penguinrandomhouse.com/books/324551/getting-to-yes-by-roger-fisher-and-william-ury-and-bruce-patton/",
+   "https://psychsafety.com/wp-content/uploads/2025/11/FollettConstructiveConflict.pdf",
+   "https://repository.law.umich.edu/reviews/82"
+  ]
+ },
+ {
   "id": "cm:interpersonal-communication",
   "title": "Interpersonal communication",
   "aliases": [

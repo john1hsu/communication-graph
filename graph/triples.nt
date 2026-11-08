@@ -3195,6 +3195,51 @@
 <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <https://github.com/john1hsu/communication-graph/ontology#introducedIn> <https://github.com/john1hsu/communication-graph/id/the-silent-language> .
 <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/li-2021-cross-cultural-training-meta-analysis> .
+<https://github.com/john1hsu/communication-graph/id/interests-vs-positions/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/interests-vs-positions/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Can I say in one sentence why I want what I am asking for, separately from the number or term itself?" .
+<https://github.com/john1hsu/communication-graph/id/interests-vs-positions/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/interests-vs-positions> .
+<https://github.com/john1hsu/communication-graph/id/interests-vs-positions/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/interests-vs-positions/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "What do I think the other side's demand is protecting, and have I asked them rather than assumed it?" .
+<https://github.com/john1hsu/communication-graph/id/interests-vs-positions/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/interests-vs-positions> .
+<https://github.com/john1hsu/communication-graph/id/interests-vs-positions/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/interests-vs-positions/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Have I put at least two different options on the table that would meet the same interests?" .
+<https://github.com/john1hsu/communication-graph/id/interests-vs-positions/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/interests-vs-positions> .
+<https://github.com/john1hsu/communication-graph/id/interests-vs-positions/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/interests-vs-positions/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Which parts of this deal are genuinely fixed-sum, so I still need a fair standard to divide them?" .
+<https://github.com/john1hsu/communication-graph/id/interests-vs-positions/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/interests-vs-positions> .
+<https://github.com/john1hsu/communication-graph/id/interests-vs-positions> <http://purl.org/dc/terms/created> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/interests-vs-positions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Principle> .
+<https://github.com/john1hsu/communication-graph/id/interests-vs-positions> <http://www.w3.org/2000/01/rdf-schema#label> "Interests vs. positions" .
+<https://github.com/john1hsu/communication-graph/id/interests-vs-positions> <http://www.w3.org/2004/02/skos/core#altLabel> "focus on interests not positions" .
+<https://github.com/john1hsu/communication-graph/id/interests-vs-positions> <http://www.w3.org/2004/02/skos/core#altLabel> "separating interests from positions" .
+<https://github.com/john1hsu/communication-graph/id/interests-vs-positions> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/negotiation> .
+<https://github.com/john1hsu/communication-graph/id/interests-vs-positions> <http://www.w3.org/2004/02/skos/core#definition> "The negotiation principle of looking past each side's stated demand (its position) to the needs, concerns and goals that produced it (its interests), because several different agreements can usually satisfy the same interests even when the positions look incompatible." .
+<https://github.com/john1hsu/communication-graph/id/interests-vs-positions> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/negotiation> .
+<https://github.com/john1hsu/communication-graph/id/interests-vs-positions> <http://www.w3.org/2004/02/skos/core#prefLabel> "Interests vs. positions" .
+<https://github.com/john1hsu/communication-graph/id/interests-vs-positions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/batna> .
+<https://github.com/john1hsu/communication-graph/id/interests-vs-positions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/integrative-negotiation> .
+<https://github.com/john1hsu/communication-graph/id/interests-vs-positions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/logrolling> .
+<https://github.com/john1hsu/communication-graph/id/interests-vs-positions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/open-ended-questions> .
+<https://github.com/john1hsu/communication-graph/id/interests-vs-positions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/perspective-taking> .
+<https://github.com/john1hsu/communication-graph/id/interests-vs-positions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> .
+<https://github.com/john1hsu/communication-graph/id/interests-vs-positions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/interests-vs-positions/s1> .
+<https://github.com/john1hsu/communication-graph/id/interests-vs-positions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/interests-vs-positions/s2> .
+<https://github.com/john1hsu/communication-graph/id/interests-vs-positions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/interests-vs-positions/s3> .
+<https://github.com/john1hsu/communication-graph/id/interests-vs-positions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/interests-vs-positions/s4> .
+<https://github.com/john1hsu/communication-graph/id/interests-vs-positions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/interests-vs-positions/s5> .
+<https://github.com/john1hsu/communication-graph/id/interests-vs-positions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/interests-vs-positions/s6> .
+<https://github.com/john1hsu/communication-graph/id/interests-vs-positions> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/mythical-fixed-pie> .
+<https://github.com/john1hsu/communication-graph/id/interests-vs-positions> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/positional-bargaining> .
+<https://github.com/john1hsu/communication-graph/id/interests-vs-positions> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/salary-negotiation> .
+<https://github.com/john1hsu/communication-graph/id/interests-vs-positions> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/the-pros-and-cons-of-getting-to-yes> .
+<https://github.com/john1hsu/communication-graph/id/interests-vs-positions> <https://github.com/john1hsu/communication-graph/ontology#domain> "negotiation" .
+<https://github.com/john1hsu/communication-graph/id/interests-vs-positions> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/interests-vs-positions> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/negotiation/interests-vs-positions.md" .
+<https://github.com/john1hsu/communication-graph/id/interests-vs-positions> <https://github.com/john1hsu/communication-graph/ontology#introducedIn> <https://github.com/john1hsu/communication-graph/id/getting-to-yes> .
+<https://github.com/john1hsu/communication-graph/id/interests-vs-positions> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/interests-vs-positions> <https://github.com/john1hsu/communication-graph/ontology#partOf> <https://github.com/john1hsu/communication-graph/id/principled-negotiation> .
+<https://github.com/john1hsu/communication-graph/id/interests-vs-positions> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/open-ended-questions> .
+<https://github.com/john1hsu/communication-graph/id/interests-vs-positions> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/thompson-1991> .
 <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://purl.org/dc/terms/created> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Field> .
 <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2000/01/rdf-schema#label> "Interpersonal communication" .
@@ -8216,6 +8261,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/intercultural-communication/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/intercultural-communication/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "news" .
 <https://github.com/john1hsu/communication-graph/id/source/intercultural-communication/s6> <https://schema.org/url> <https://www.sciencedaily.com/releases/2016/05/160513112140.htm> .
+<https://github.com/john1hsu/communication-graph/id/source/interests-vs-positions/s1> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/interests-vs-positions/s1> <http://purl.org/dc/terms/publisher> "Katie Shonk, Program on Negotiation at Harvard Law School (Daily Blog), 2026" .
+<https://github.com/john1hsu/communication-graph/id/source/interests-vs-positions/s1> <http://purl.org/dc/terms/title> "Principled Negotiation: Focus on Interests to Create Value" .
+<https://github.com/john1hsu/communication-graph/id/source/interests-vs-positions/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/interests-vs-positions/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/interests-vs-positions/s1> <https://schema.org/url> <https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/> .
+<https://github.com/john1hsu/communication-graph/id/source/interests-vs-positions/s2> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/interests-vs-positions/s2> <http://purl.org/dc/terms/publisher> "Katie Shonk, Program on Negotiation at Harvard Law School (Daily Blog), 2026" .
+<https://github.com/john1hsu/communication-graph/id/source/interests-vs-positions/s2> <http://purl.org/dc/terms/title> "Positional Bargaining Pitfalls" .
+<https://github.com/john1hsu/communication-graph/id/source/interests-vs-positions/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/interests-vs-positions/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/interests-vs-positions/s2> <https://schema.org/url> <https://www.pon.harvard.edu/daily/negotiation-skills-daily/positional-bargaining-pitfalls/> .
+<https://github.com/john1hsu/communication-graph/id/source/interests-vs-positions/s3> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/interests-vs-positions/s3> <http://purl.org/dc/terms/publisher> "Leigh Thompson, Journal of Experimental Social Psychology, issue 2, 161-179, 1991 (Kellogg School of Management research record)" .
+<https://github.com/john1hsu/communication-graph/id/source/interests-vs-positions/s3> <http://purl.org/dc/terms/title> "Information exchange in negotiation" .
+<https://github.com/john1hsu/communication-graph/id/source/interests-vs-positions/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/interests-vs-positions/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/interests-vs-positions/s3> <https://schema.org/url> <https://www.kellogg.northwestern.edu/academics-research/research/detail/1991/information-exchange-in-negotiation> .
+<https://github.com/john1hsu/communication-graph/id/source/interests-vs-positions/s4> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/interests-vs-positions/s4> <http://purl.org/dc/terms/publisher> "Roger Fisher, William Ury and Bruce Patton, Penguin Books, 2011 (publisher's page)" .
+<https://github.com/john1hsu/communication-graph/id/source/interests-vs-positions/s4> <http://purl.org/dc/terms/title> "Getting to Yes: Negotiating Agreement Without Giving In (updated and revised edition)" .
+<https://github.com/john1hsu/communication-graph/id/source/interests-vs-positions/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/interests-vs-positions/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/interests-vs-positions/s4> <https://schema.org/url> <https://www.penguinrandomhouse.com/books/324551/getting-to-yes-by-roger-fisher-and-william-ury-and-bruce-patton/> .
+<https://github.com/john1hsu/communication-graph/id/source/interests-vs-positions/s5> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/interests-vs-positions/s5> <http://purl.org/dc/terms/publisher> "Mary Parker Follett, ed. E. M. Fox and L. Urwick, Pitman, 1973 (annotated excerpt)" .
+<https://github.com/john1hsu/communication-graph/id/source/interests-vs-positions/s5> <http://purl.org/dc/terms/title> "Constructive Conflict (1925), excerpted from Dynamic Administration: The Collected Papers of Mary Parker Follett" .
+<https://github.com/john1hsu/communication-graph/id/source/interests-vs-positions/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/interests-vs-positions/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/interests-vs-positions/s5> <https://schema.org/url> <https://psychsafety.com/wp-content/uploads/2025/11/FollettConstructiveConflict.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/interests-vs-positions/s6> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/interests-vs-positions/s6> <http://purl.org/dc/terms/publisher> "James J. White, Journal of Legal Education 34, 115-124, 1984 (University of Michigan Law School Scholarship Repository)" .
+<https://github.com/john1hsu/communication-graph/id/source/interests-vs-positions/s6> <http://purl.org/dc/terms/title> "The Pros and Cons of Getting to YES" .
+<https://github.com/john1hsu/communication-graph/id/source/interests-vs-positions/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/interests-vs-positions/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/interests-vs-positions/s6> <https://schema.org/url> <https://repository.law.umich.edu/reviews/82> .
 <https://github.com/john1hsu/communication-graph/id/source/interpersonal-communication/s1> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/interpersonal-communication/s1> <http://purl.org/dc/terms/publisher> "Jenny Mandelbaum, Encyclopedia of Communication and Information (Gale), via Encyclopedia.com" .
 <https://github.com/john1hsu/communication-graph/id/source/interpersonal-communication/s1> <http://purl.org/dc/terms/title> "Interpersonal Communication" .

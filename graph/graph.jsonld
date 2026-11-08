@@ -5407,6 +5407,97 @@
    ]
   },
   {
+   "@id": "cm:interests-vs-positions",
+   "@type": "cmo:Principle",
+   "cmo:addresses": [
+    {
+     "@id": "cm:mythical-fixed-pie"
+    },
+    {
+     "@id": "cm:positional-bargaining"
+    }
+   ],
+   "cmo:appliedIn": {
+    "@id": "cm:salary-negotiation"
+   },
+   "cmo:challengedBy": {
+    "@id": "cm:the-pros-and-cons-of-getting-to-yes"
+   },
+   "cmo:domain": "negotiation",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:file": "articles/negotiation/interests-vs-positions.md",
+   "cmo:introducedIn": {
+    "@id": "cm:getting-to-yes"
+   },
+   "cmo:level": "introductory",
+   "cmo:partOf": {
+    "@id": "cm:principled-negotiation"
+   },
+   "cmo:requires": {
+    "@id": "cm:open-ended-questions"
+   },
+   "cmo:supportedBy": {
+    "@id": "cm:thompson-1991"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/interests-vs-positions/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/interests-vs-positions/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/interests-vs-positions/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/interests-vs-positions/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/interests-vs-positions/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/interests-vs-positions/s6"
+    }
+   ],
+   "rdfs:label": "Interests vs. positions",
+   "skos:altLabel": [
+    "focus on interests not positions",
+    "separating interests from positions"
+   ],
+   "skos:broader": {
+    "@id": "cm:negotiation"
+   },
+   "skos:definition": "The negotiation principle of looking past each side's stated demand (its position) to the needs, concerns and goals that produced it (its interests), because several different agreements can usually satisfy the same interests even when the positions look incompatible.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/negotiation"
+   },
+   "skos:prefLabel": "Interests vs. positions",
+   "skos:related": [
+    {
+     "@id": "cm:batna"
+    },
+    {
+     "@id": "cm:integrative-negotiation"
+    },
+    {
+     "@id": "cm:logrolling"
+    },
+    {
+     "@id": "cm:open-ended-questions"
+    },
+    {
+     "@id": "cm:perspective-taking"
+    },
+    {
+     "@id": "cm:zone-of-possible-agreement"
+    }
+   ]
+  },
+  {
    "@id": "cm:interpersonal-communication",
    "@type": "cmo:Field",
    "cmo:domain": "foundations",
@@ -14506,6 +14597,38 @@
    "schema:text": "Before closing, ask whether any other arrangement would leave both sides better off than the one on the table."
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/interests-vs-positions/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:interests-vs-positions"
+   },
+   "rdfs:label": "Can I say in one sentence why I want what I am asking for, separately from the number or term itself?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/interests-vs-positions/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:interests-vs-positions"
+   },
+   "rdfs:label": "What do I think the other side's demand is protecting, and have I asked them rather than assumed it?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/interests-vs-positions/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:interests-vs-positions"
+   },
+   "rdfs:label": "Have I put at least two different options on the table that would meet the same interests?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/interests-vs-positions/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:interests-vs-positions"
+   },
+   "rdfs:label": "Which parts of this deal are genuinely fixed-sum, so I still need a fair standard to divide them?"
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/interrupting/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -22097,6 +22220,90 @@
    "dcterms:title": "Study finds nationality is not a good indicator of work-related cultural values",
    "schema:url": {
     "@id": "https://www.sciencedaily.com/releases/2016/05/160513112140.htm"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/interests-vs-positions/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Katie Shonk, Program on Negotiation at Harvard Law School (Daily Blog), 2026",
+   "dcterms:title": "Principled Negotiation: Focus on Interests to Create Value",
+   "schema:url": {
+    "@id": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/interests-vs-positions/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Katie Shonk, Program on Negotiation at Harvard Law School (Daily Blog), 2026",
+   "dcterms:title": "Positional Bargaining Pitfalls",
+   "schema:url": {
+    "@id": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/positional-bargaining-pitfalls/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/interests-vs-positions/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Leigh Thompson, Journal of Experimental Social Psychology, issue 2, 161-179, 1991 (Kellogg School of Management research record)",
+   "dcterms:title": "Information exchange in negotiation",
+   "schema:url": {
+    "@id": "https://www.kellogg.northwestern.edu/academics-research/research/detail/1991/information-exchange-in-negotiation"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/interests-vs-positions/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Roger Fisher, William Ury and Bruce Patton, Penguin Books, 2011 (publisher's page)",
+   "dcterms:title": "Getting to Yes: Negotiating Agreement Without Giving In (updated and revised edition)",
+   "schema:url": {
+    "@id": "https://www.penguinrandomhouse.com/books/324551/getting-to-yes-by-roger-fisher-and-william-ury-and-bruce-patton/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/interests-vs-positions/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Mary Parker Follett, ed. E. M. Fox and L. Urwick, Pitman, 1973 (annotated excerpt)",
+   "dcterms:title": "Constructive Conflict (1925), excerpted from Dynamic Administration: The Collected Papers of Mary Parker Follett",
+   "schema:url": {
+    "@id": "https://psychsafety.com/wp-content/uploads/2025/11/FollettConstructiveConflict.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/interests-vs-positions/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "James J. White, Journal of Legal Education 34, 115-124, 1984 (University of Michigan Law School Scholarship Repository)",
+   "dcterms:title": "The Pros and Cons of Getting to YES",
+   "schema:url": {
+    "@id": "https://repository.law.umich.edu/reviews/82"
    }
   },
   {

@@ -33,6 +33,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:describe-analyze-evaluate` | 2 | Ethnocentrism, intercultural-competence |
 | `cm:facilitation` | 2 | Interrupting, unequal-participation |
 | `cm:i-statements` | 2 | Defensiveness, accusatory-you-statements |
+| `cm:interests-vs-positions` | 2 | mythical-fixed-pie, positional-bargaining |
 | `cm:nominal-group-technique` | 2 | production-blocking, unequal-participation |
 | `cm:plain-language` | 2 | Curse of knowledge, jargon |
 | `cm:presentation-rehearsal` | 2 | Public speaking anxiety, public-speaking |
@@ -55,9 +56,8 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:humble-inquiry` | 1 | telling-instead-of-asking |
 | `cm:integrative-negotiation` | 1 | mythical-fixed-pie |
 | `cm:issue-selling` | 1 | Managing up |
-| `cm:meeting-agendas` | 1 | unnecessary-meetings |
 
-…and 16 more.
+…and 17 more.
 
 ## Toolkit by situation
 
@@ -96,7 +96,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:face-to-face-conversation` | `cm:nonverbal-communication` |
 | `cm:face-to-face-conversation` | `cm:proxemics` |
 
-…and 41 more.
+…and 42 more.
 
 ## Myths and contested advice
 
@@ -135,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:common-ground` | mixed | `cm:keysar-et-al-2000` |
 | `cm:communicating-uncertainty` | mixed |  |
 
-…and 72 more.
+…and 73 more.
 
 ## Concepts with no recorded origin (gap)
 
