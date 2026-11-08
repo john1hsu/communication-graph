@@ -143,7 +143,6 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 
 | node | type |
 |---|---|
-| `cm:concession-strategy` | cmo:Technique |
 | `cm:credibility` | cmo:Concept |
 | `cm:delivering-bad-news` | cmo:Context |
 | `cm:egocentric-bias` | cmo:Barrier |
@@ -173,8 +172,9 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:reciprocal-self-disclosure` | cmo:Technique |
 | `cm:scheduled-inbox-checks` | cmo:Technique |
 | `cm:self-distancing` | cmo:Technique |
+| `cm:self-recording-playback` | cmo:Technique |
 
-…and 11 more.
+…and 10 more.
 
 ## Orphan articles (gap)
 

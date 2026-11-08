@@ -1421,6 +1421,77 @@
    ]
   },
   {
+   "@id": "cm:charles-osgood",
+   "@type": "cmo:Person",
+   "cmo:authored": {
+    "@id": "cm:an-alternative-to-war-or-surrender"
+   },
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "historical",
+   "cmo:file": "articles/thinkers-and-works/charles-osgood.md",
+   "cmo:introduced": [
+    {
+     "@id": "cm:concession-strategy"
+    },
+    {
+     "@id": "cm:graduated-reciprocation-in-tension-reduction"
+    },
+    {
+     "@id": "cm:semantic-differential"
+    }
+   ],
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/charles-osgood/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/charles-osgood/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/charles-osgood/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/charles-osgood/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/charles-osgood/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/charles-osgood/s6"
+    }
+   ],
+   "rdfs:label": "Charles E. Osgood",
+   "skos:altLabel": [
+    "C. E. Osgood",
+    "Charles Egerton Osgood",
+    "Osgood"
+   ],
+   "skos:definition": "University of Illinois social psychologist who devised the semantic differential for measuring what words mean to people and, in his 1962 book An Alternative to War or Surrender, proposed GRIT - small, announced, reversible conciliatory steps that invite reciprocation - an early model of graduated concession making.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "Charles E. Osgood",
+   "skos:related": [
+    {
+     "@id": "cm:concession-strategy"
+    },
+    {
+     "@id": "cm:distributive-negotiation"
+    },
+    {
+     "@id": "cm:integrative-negotiation"
+    },
+    {
+     "@id": "cm:norm-of-reciprocity"
+    }
+   ]
+  },
+  {
    "@id": "cm:chen-2002",
    "@type": "cmo:Work",
    "cmo:authoredBy": {
@@ -16945,6 +17016,90 @@
    "dcterms:title": "Channel Expansion Theory: A Comprehensive Meta-Analysis, Literature Review, and Examination of Boundary Conditions",
    "schema:url": {
     "@id": "https://scholars.hkbu.edu.hk/en/publications/channel-expansion-theory-a-comprehensive-meta-analysis-literature/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/charles-osgood/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Program in Arms Control & Domestic and International Security, University of Illinois Urbana-Champaign",
+   "dcterms:title": "History of ACDIS (written in 2004 by Mike Lehman, from archival sources)",
+   "schema:url": {
+    "@id": "https://acdis.illinois.edu/node/23"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/charles-osgood/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Center for Advanced Study, University of Illinois Urbana-Champaign",
+   "dcterms:title": "Past Professor: Charles Osgood",
+   "schema:url": {
+    "@id": "https://www.cas.illinois.edu/node/1758"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/charles-osgood/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Matthew Bunn, Belfer Center for Science and International Affairs, Harvard Kennedy School (Power & Policy blog), 10 June 2013",
+   "dcterms:title": "Bold Initiatives to Reduce Tensions - 50 Years Ago and Today",
+   "schema:url": {
+    "@id": "https://www.belfercenter.org/publication/bold-initiatives-reduce-tensions-50-years-ago-and-today"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/charles-osgood/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Lindskold, Journal of Conflict Resolution 23(4), 704-714, 1979 (doi:10.1177/002200277902300406; IDEAS/RePEc record)",
+   "dcterms:title": "Conciliation with Simultaneous or Sequential Interaction",
+   "schema:url": {
+    "@id": "https://ideas.repec.org/a/sae/jocore/v23y1979i4p704-714.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/charles-osgood/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Lindskold and Finch, Journal of Conflict Resolution 25(1), 145-155, 1981 (doi:10.1177/002200278102500106; IDEAS/RePEc record)",
+   "dcterms:title": "Styles of Announcing Conciliation",
+   "schema:url": {
+    "@id": "https://ideas.repec.org/a/sae/jocore/v25y1981i1p145-155.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/charles-osgood/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Lindskold and Han, Personality and Social Psychology Bulletin 14(2), 335-345, 1988 (doi:10.1177/0146167288142011; Scilit record)",
+   "dcterms:title": "GRIT as a Foundation for Integrative Bargaining",
+   "schema:url": {
+    "@id": "https://scilit.com/publications/9c7376a7a22e79702792b3bde119745a"
    }
   },
   {

@@ -1005,6 +1005,33 @@
 <https://github.com/john1hsu/communication-graph/id/channel-selection> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
 <https://github.com/john1hsu/communication-graph/id/channel-selection> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/ask-in-person-study> .
 <https://github.com/john1hsu/communication-graph/id/channel-selection> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/egocentrism-over-email-study> .
+<https://github.com/john1hsu/communication-graph/id/charles-osgood> <http://purl.org/dc/terms/created> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/charles-osgood> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+<https://github.com/john1hsu/communication-graph/id/charles-osgood> <http://www.w3.org/2000/01/rdf-schema#label> "Charles E. Osgood" .
+<https://github.com/john1hsu/communication-graph/id/charles-osgood> <http://www.w3.org/2004/02/skos/core#altLabel> "C. E. Osgood" .
+<https://github.com/john1hsu/communication-graph/id/charles-osgood> <http://www.w3.org/2004/02/skos/core#altLabel> "Charles Egerton Osgood" .
+<https://github.com/john1hsu/communication-graph/id/charles-osgood> <http://www.w3.org/2004/02/skos/core#altLabel> "Osgood" .
+<https://github.com/john1hsu/communication-graph/id/charles-osgood> <http://www.w3.org/2004/02/skos/core#definition> "University of Illinois social psychologist who devised the semantic differential for measuring what words mean to people and, in his 1962 book An Alternative to War or Surrender, proposed GRIT - small, announced, reversible conciliatory steps that invite reciprocation - an early model of graduated concession making." .
+<https://github.com/john1hsu/communication-graph/id/charles-osgood> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works> .
+<https://github.com/john1hsu/communication-graph/id/charles-osgood> <http://www.w3.org/2004/02/skos/core#prefLabel> "Charles E. Osgood" .
+<https://github.com/john1hsu/communication-graph/id/charles-osgood> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/concession-strategy> .
+<https://github.com/john1hsu/communication-graph/id/charles-osgood> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/distributive-negotiation> .
+<https://github.com/john1hsu/communication-graph/id/charles-osgood> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/integrative-negotiation> .
+<https://github.com/john1hsu/communication-graph/id/charles-osgood> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/norm-of-reciprocity> .
+<https://github.com/john1hsu/communication-graph/id/charles-osgood> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/charles-osgood/s1> .
+<https://github.com/john1hsu/communication-graph/id/charles-osgood> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/charles-osgood/s2> .
+<https://github.com/john1hsu/communication-graph/id/charles-osgood> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/charles-osgood/s3> .
+<https://github.com/john1hsu/communication-graph/id/charles-osgood> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/charles-osgood/s4> .
+<https://github.com/john1hsu/communication-graph/id/charles-osgood> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/charles-osgood/s5> .
+<https://github.com/john1hsu/communication-graph/id/charles-osgood> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/charles-osgood/s6> .
+<https://github.com/john1hsu/communication-graph/id/charles-osgood> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/an-alternative-to-war-or-surrender> .
+<https://github.com/john1hsu/communication-graph/id/charles-osgood> <https://github.com/john1hsu/communication-graph/ontology#domain> "thinkers-and-works" .
+<https://github.com/john1hsu/communication-graph/id/charles-osgood> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "historical" .
+<https://github.com/john1hsu/communication-graph/id/charles-osgood> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/thinkers-and-works/charles-osgood.md" .
+<https://github.com/john1hsu/communication-graph/id/charles-osgood> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/concession-strategy> .
+<https://github.com/john1hsu/communication-graph/id/charles-osgood> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/graduated-reciprocation-in-tension-reduction> .
+<https://github.com/john1hsu/communication-graph/id/charles-osgood> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/semantic-differential> .
+<https://github.com/john1hsu/communication-graph/id/charles-osgood> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/chen-2002> <http://purl.org/dc/terms/created> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/chen-2002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
 <https://github.com/john1hsu/communication-graph/id/chen-2002> <http://www.w3.org/2000/01/rdf-schema#label> "Leveraging the Asymmetric Sensitivity of Eye Contact for Videoconferencing" .
@@ -6115,6 +6142,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/channel-selection/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/channel-selection/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/communication-graph/id/source/channel-selection/s6> <https://schema.org/url> <https://scholars.hkbu.edu.hk/en/publications/channel-expansion-theory-a-comprehensive-meta-analysis-literature/> .
+<https://github.com/john1hsu/communication-graph/id/source/charles-osgood/s1> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/charles-osgood/s1> <http://purl.org/dc/terms/publisher> "Program in Arms Control & Domestic and International Security, University of Illinois Urbana-Champaign" .
+<https://github.com/john1hsu/communication-graph/id/source/charles-osgood/s1> <http://purl.org/dc/terms/title> "History of ACDIS (written in 2004 by Mike Lehman, from archival sources)" .
+<https://github.com/john1hsu/communication-graph/id/source/charles-osgood/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/charles-osgood/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/charles-osgood/s1> <https://schema.org/url> <https://acdis.illinois.edu/node/23> .
+<https://github.com/john1hsu/communication-graph/id/source/charles-osgood/s2> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/charles-osgood/s2> <http://purl.org/dc/terms/publisher> "Center for Advanced Study, University of Illinois Urbana-Champaign" .
+<https://github.com/john1hsu/communication-graph/id/source/charles-osgood/s2> <http://purl.org/dc/terms/title> "Past Professor: Charles Osgood" .
+<https://github.com/john1hsu/communication-graph/id/source/charles-osgood/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/charles-osgood/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/charles-osgood/s2> <https://schema.org/url> <https://www.cas.illinois.edu/node/1758> .
+<https://github.com/john1hsu/communication-graph/id/source/charles-osgood/s3> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/charles-osgood/s3> <http://purl.org/dc/terms/publisher> "Matthew Bunn, Belfer Center for Science and International Affairs, Harvard Kennedy School (Power & Policy blog), 10 June 2013" .
+<https://github.com/john1hsu/communication-graph/id/source/charles-osgood/s3> <http://purl.org/dc/terms/title> "Bold Initiatives to Reduce Tensions - 50 Years Ago and Today" .
+<https://github.com/john1hsu/communication-graph/id/source/charles-osgood/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/charles-osgood/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/charles-osgood/s3> <https://schema.org/url> <https://www.belfercenter.org/publication/bold-initiatives-reduce-tensions-50-years-ago-and-today> .
+<https://github.com/john1hsu/communication-graph/id/source/charles-osgood/s4> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/charles-osgood/s4> <http://purl.org/dc/terms/publisher> "Lindskold, Journal of Conflict Resolution 23(4), 704-714, 1979 (doi:10.1177/002200277902300406; IDEAS/RePEc record)" .
+<https://github.com/john1hsu/communication-graph/id/source/charles-osgood/s4> <http://purl.org/dc/terms/title> "Conciliation with Simultaneous or Sequential Interaction" .
+<https://github.com/john1hsu/communication-graph/id/source/charles-osgood/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/charles-osgood/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/charles-osgood/s4> <https://schema.org/url> <https://ideas.repec.org/a/sae/jocore/v23y1979i4p704-714.html> .
+<https://github.com/john1hsu/communication-graph/id/source/charles-osgood/s5> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/charles-osgood/s5> <http://purl.org/dc/terms/publisher> "Lindskold and Finch, Journal of Conflict Resolution 25(1), 145-155, 1981 (doi:10.1177/002200278102500106; IDEAS/RePEc record)" .
+<https://github.com/john1hsu/communication-graph/id/source/charles-osgood/s5> <http://purl.org/dc/terms/title> "Styles of Announcing Conciliation" .
+<https://github.com/john1hsu/communication-graph/id/source/charles-osgood/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/charles-osgood/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/charles-osgood/s5> <https://schema.org/url> <https://ideas.repec.org/a/sae/jocore/v25y1981i1p145-155.html> .
+<https://github.com/john1hsu/communication-graph/id/source/charles-osgood/s6> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/charles-osgood/s6> <http://purl.org/dc/terms/publisher> "Lindskold and Han, Personality and Social Psychology Bulletin 14(2), 335-345, 1988 (doi:10.1177/0146167288142011; Scilit record)" .
+<https://github.com/john1hsu/communication-graph/id/source/charles-osgood/s6> <http://purl.org/dc/terms/title> "GRIT as a Foundation for Integrative Bargaining" .
+<https://github.com/john1hsu/communication-graph/id/source/charles-osgood/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/charles-osgood/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/charles-osgood/s6> <https://schema.org/url> <https://scilit.com/publications/9c7376a7a22e79702792b3bde119745a> .
 <https://github.com/john1hsu/communication-graph/id/source/chen-2002/s1> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/chen-2002/s1> <http://purl.org/dc/terms/publisher> "Milton Chen, Proceedings of CHI 2002 (ACM), Minneapolis, April 2002 (author's copy, Stanford Computer Graphics Laboratory)" .
 <https://github.com/john1hsu/communication-graph/id/source/chen-2002/s1> <http://purl.org/dc/terms/title> "Leveraging the Asymmetric Sensitivity of Eye Contact for Videoconferencing" .

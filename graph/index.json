@@ -1634,6 +1634,75 @@
   ]
  },
  {
+  "id": "cm:charles-osgood",
+  "title": "Charles E. Osgood",
+  "aliases": [
+   "Charles Egerton Osgood",
+   "Osgood",
+   "C. E. Osgood"
+  ],
+  "type": "Person",
+  "domain": "thinkers-and-works",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/thinkers-and-works/charles-osgood.md",
+  "created": "2026-11-08",
+  "summary": "University of Illinois social psychologist who devised the semantic differential for measuring what words mean to people and, in his 1962 book An Alternative to War or Surrender, proposed GRIT - small, announced, reversible conciliatory steps that invite reciprocation - an early model of graduated concession making.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "cm:concession-strategy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:norm-of-reciprocity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:integrative-negotiation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:distributive-negotiation"
+   },
+   {
+    "predicate": "cmo:introduced",
+    "object": "cm:graduated-reciprocation-in-tension-reduction",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introduced",
+    "object": "cm:concession-strategy",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:introduced",
+    "object": "cm:semantic-differential",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:authored",
+    "object": "cm:an-alternative-to-war-or-surrender",
+    "source": "s1",
+    "confidence": "high"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://acdis.illinois.edu/node/23",
+   "https://www.cas.illinois.edu/node/1758",
+   "https://www.belfercenter.org/publication/bold-initiatives-reduce-tensions-50-years-ago-and-today",
+   "https://ideas.repec.org/a/sae/jocore/v23y1979i4p704-714.html",
+   "https://ideas.repec.org/a/sae/jocore/v25y1981i1p145-155.html",
+   "https://scilit.com/publications/9c7376a7a22e79702792b3bde119745a"
+  ]
+ },
+ {
   "id": "cm:chen-2002",
   "title": "Leveraging the Asymmetric Sensitivity of Eye Contact for Videoconferencing",
   "aliases": [
