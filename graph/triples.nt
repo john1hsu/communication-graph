@@ -1298,6 +1298,52 @@
 <https://github.com/john1hsu/communication-graph/id/concession-strategy> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/huffmeier-et-al-2014> .
 <https://github.com/john1hsu/communication-graph/id/concession-strategy> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/kwon-weingart-2004> .
 <https://github.com/john1hsu/communication-graph/id/concession-strategy> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/mertes-kunz-huffmeier-2023> .
+<https://github.com/john1hsu/communication-graph/id/concise-writing/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/concise-writing/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "If my reader stopped after the first two sentences, would they know what I need and by when?" .
+<https://github.com/john1hsu/communication-graph/id/concise-writing/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/concise-writing> .
+<https://github.com/john1hsu/communication-graph/id/concise-writing/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/concise-writing/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Which sentence, paragraph or side point could I delete without the reader losing anything they need to act?" .
+<https://github.com/john1hsu/communication-graph/id/concise-writing/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/concise-writing> .
+<https://github.com/john1hsu/communication-graph/id/concise-writing/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/concise-writing/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Did my last edit make this shorter, or did I only add caveats and background?" .
+<https://github.com/john1hsu/communication-graph/id/concise-writing/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/concise-writing> .
+<https://github.com/john1hsu/communication-graph/id/concise-writing/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/concise-writing/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Have I cut so far that a reader new to the topic would now be missing context or find the tone curt?" .
+<https://github.com/john1hsu/communication-graph/id/concise-writing/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/concise-writing> .
+<https://github.com/john1hsu/communication-graph/id/concise-writing> <http://purl.org/dc/terms/created> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/concise-writing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Skill> .
+<https://github.com/john1hsu/communication-graph/id/concise-writing> <http://www.w3.org/2000/01/rdf-schema#label> "Concise writing" .
+<https://github.com/john1hsu/communication-graph/id/concise-writing> <http://www.w3.org/2004/02/skos/core#altLabel> "conciseness" .
+<https://github.com/john1hsu/communication-graph/id/concise-writing> <http://www.w3.org/2004/02/skos/core#altLabel> "concision" .
+<https://github.com/john1hsu/communication-graph/id/concise-writing> <http://www.w3.org/2004/02/skos/core#altLabel> "omit needless words" .
+<https://github.com/john1hsu/communication-graph/id/concise-writing> <http://www.w3.org/2004/02/skos/core#altLabel> "writing less" .
+<https://github.com/john1hsu/communication-graph/id/concise-writing> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/clarity> .
+<https://github.com/john1hsu/communication-graph/id/concise-writing> <http://www.w3.org/2004/02/skos/core#definition> "The skill of saying what the reader needs in the fewest strong words, by cutting words, sentences and whole ideas that do not help that reader understand or act." .
+<https://github.com/john1hsu/communication-graph/id/concise-writing> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/writing> .
+<https://github.com/john1hsu/communication-graph/id/concise-writing> <http://www.w3.org/2004/02/skos/core#prefLabel> "Concise writing" .
+<https://github.com/john1hsu/communication-graph/id/concise-writing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/active-voice> .
+<https://github.com/john1hsu/communication-graph/id/concise-writing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
+<https://github.com/john1hsu/communication-graph/id/concise-writing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/email> .
+<https://github.com/john1hsu/communication-graph/id/concise-writing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/information-overload> .
+<https://github.com/john1hsu/communication-graph/id/concise-writing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/plain-language> .
+<https://github.com/john1hsu/communication-graph/id/concise-writing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/readability-formulas> .
+<https://github.com/john1hsu/communication-graph/id/concise-writing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/william-strunk-jr> .
+<https://github.com/john1hsu/communication-graph/id/concise-writing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/concise-writing/s1> .
+<https://github.com/john1hsu/communication-graph/id/concise-writing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/concise-writing/s2> .
+<https://github.com/john1hsu/communication-graph/id/concise-writing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/concise-writing/s3> .
+<https://github.com/john1hsu/communication-graph/id/concise-writing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/concise-writing/s4> .
+<https://github.com/john1hsu/communication-graph/id/concise-writing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/concise-writing/s5> .
+<https://github.com/john1hsu/communication-graph/id/concise-writing> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/information-overload> .
+<https://github.com/john1hsu/communication-graph/id/concise-writing> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/subtraction-neglect> .
+<https://github.com/john1hsu/communication-graph/id/concise-writing> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/wordiness> .
+<https://github.com/john1hsu/communication-graph/id/concise-writing> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/email> .
+<https://github.com/john1hsu/communication-graph/id/concise-writing> <https://github.com/john1hsu/communication-graph/ontology#domain> "writing" .
+<https://github.com/john1hsu/communication-graph/id/concise-writing> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/concise-writing> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/writing/concise-writing.md" .
+<https://github.com/john1hsu/communication-graph/id/concise-writing> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/concise-writing> <https://github.com/john1hsu/communication-graph/ontology#partOf> <https://github.com/john1hsu/communication-graph/id/plain-language> .
+<https://github.com/john1hsu/communication-graph/id/concise-writing> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
+<https://github.com/john1hsu/communication-graph/id/concise-writing> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/writing-for-busy-readers> .
 <https://github.com/john1hsu/communication-graph/id/considering-others-contributions-first/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/considering-others-contributions-first/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Before I describe what I did on this project, have I named everyone else and what they did?" .
 <https://github.com/john1hsu/communication-graph/id/considering-others-contributions-first/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/considering-others-contributions-first> .
@@ -6393,6 +6439,36 @@
 <https://github.com/john1hsu/communication-graph/id/source/concession-strategy/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/concession-strategy/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/communication-graph/id/source/concession-strategy/s5> <https://schema.org/url> <https://eldorado.tu-dortmund.de/items/f909800c-1d5e-4cb0-9fa9-9745ab154670> .
+<https://github.com/john1hsu/communication-graph/id/source/concise-writing/s1> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/concise-writing/s1> <http://purl.org/dc/terms/publisher> "Digital.gov (U.S. General Services Administration)" .
+<https://github.com/john1hsu/communication-graph/id/source/concise-writing/s1> <http://purl.org/dc/terms/title> "Plain Language Guide Series: Principles (short and simple)" .
+<https://github.com/john1hsu/communication-graph/id/source/concise-writing/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/concise-writing/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/communication-graph/id/source/concise-writing/s1> <https://schema.org/url> <https://digital.gov/guides/plain-language/principles/short-simple> .
+<https://github.com/john1hsu/communication-graph/id/source/concise-writing/s2> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/concise-writing/s2> <http://purl.org/dc/terms/publisher> "Purdue Online Writing Lab (Purdue University)" .
+<https://github.com/john1hsu/communication-graph/id/source/concise-writing/s2> <http://purl.org/dc/terms/title> "Concision" .
+<https://github.com/john1hsu/communication-graph/id/source/concise-writing/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/concise-writing/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/concise-writing/s2> <https://schema.org/url> <https://owl.purdue.edu/owl/general_writing/academic_writing/conciseness/> .
+<https://github.com/john1hsu/communication-graph/id/source/concise-writing/s3> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/concise-writing/s3> <http://purl.org/dc/terms/publisher> "Todd Rogers & Jessica Lasky-Fink, Behavioral Scientist, 11 September 2023 (excerpt from their book Writing for Busy Readers, Dutton, 2023)" .
+<https://github.com/john1hsu/communication-graph/id/source/concise-writing/s3> <http://purl.org/dc/terms/title> "When Writing for Busy Readers, Less Is More" .
+<https://github.com/john1hsu/communication-graph/id/source/concise-writing/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/concise-writing/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/concise-writing/s3> <https://schema.org/url> <https://behavioralscientist.org/when-writing-for-busy-readers-less-is-more/> .
+<https://github.com/john1hsu/communication-graph/id/source/concise-writing/s4> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/concise-writing/s4> <http://purl.org/dc/terms/publisher> "Adams, Converse, Hales & Klotz, Nature 592(7853), 258–261, 2021 (RePEc/IDEAS record)" .
+<https://github.com/john1hsu/communication-graph/id/source/concise-writing/s4> <http://purl.org/dc/terms/title> "People systematically overlook subtractive changes" .
+<https://github.com/john1hsu/communication-graph/id/source/concise-writing/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/concise-writing/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/concise-writing/s4> <https://schema.org/url> <https://ideas.repec.org/a/nat/nature/v592y2021i7853d10.1038_s41586-021-03380-y.html> .
+<https://github.com/john1hsu/communication-graph/id/source/concise-writing/s5> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/concise-writing/s5> <http://purl.org/dc/terms/publisher> "George Lowery, Cornell Chronicle (Cornell University), 26 March 2009" .
+<https://github.com/john1hsu/communication-graph/id/source/concise-writing/s5> <http://purl.org/dc/terms/title> "Omit needless words: Strunk and White's classic, 'The Elements of Style,' turns 50" .
+<https://github.com/john1hsu/communication-graph/id/source/concise-writing/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/concise-writing/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/communication-graph/id/source/concise-writing/s5> <https://schema.org/url> <https://news.cornell.edu/index%2Ephp/node/272696> .
 <https://github.com/john1hsu/communication-graph/id/source/considering-others-contributions-first/s1> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/considering-others-contributions-first/s1> <http://purl.org/dc/terms/publisher> "Caruso, Epley & Bazerman, Journal of Personality and Social Psychology 91(5), 857-871, 2006 (author copy, UCLA Anderson Review)" .
 <https://github.com/john1hsu/communication-graph/id/source/considering-others-contributions-first/s1> <http://purl.org/dc/terms/title> "The costs and benefits of undoing egocentric responsibility assessments in groups" .

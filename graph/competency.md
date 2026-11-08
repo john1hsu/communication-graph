@@ -12,7 +12,9 @@ _No results._
 
 _Which written skills or dispositions have no technique, framework or principle that develops them?_ — `queries/02-skills-without-practice.rq`
 
-_No results._
+| skill | type |
+|---|---|
+| `cm:concise-writing` | cmo:Skill |
 
 ## Situations, channels and formats with no guidance (gap)
 
@@ -27,6 +29,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | technique | reach | targets |
 |---|---|---|
 | `cm:1-2-4-all` | 3 | Facilitation, production-blocking, unequal-participation |
+| `cm:concise-writing` | 3 | Information overload, subtraction-neglect, wordiness |
 | `cm:self-recording-playback` | 3 | Gesturing while speaking, Public speaking anxiety, public-speaking |
 | `cm:describe-analyze-evaluate` | 2 | Ethnocentrism, intercultural-competence |
 | `cm:facilitation` | 2 | Interrupting, unequal-participation |
@@ -55,9 +58,8 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:meeting-agendas` | 1 | unnecessary-meetings |
 | `cm:multiple-equivalent-simultaneous-offers` | 1 | negotiator-dilemma |
 | `cm:paraphrasing` | 1 | Active listening |
-| `cm:perspective-getting` | 1 | Egocentric bias |
 
-…and 11 more.
+…and 12 more.
 
 ## Toolkit by situation
 
@@ -80,6 +82,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:email` | `cm:audience-analysis` |
 | `cm:email` | `cm:bottom-line-up-front` |
 | `cm:email` | `cm:channel-selection` |
+| `cm:email` | `cm:concise-writing` |
 | `cm:email` | `cm:media-richness-theory` |
 | `cm:email` | `cm:rapport` |
 | `cm:email` | `cm:scheduled-inbox-checks` |
@@ -94,9 +97,8 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:job-interview` | `cm:camera-level-gaze` |
 | `cm:memorandum` | `cm:bottom-line-up-front` |
 | `cm:multicultural-team` | `cm:direct-vs-indirect-feedback` |
-| `cm:multicultural-team` | `cm:the-culture-map` |
 
-…and 34 more.
+…and 35 more.
 
 ## Myths and contested advice
 
@@ -135,7 +137,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:common-ground` | mixed | `cm:keysar-et-al-2000` |
 | `cm:communicating-uncertainty` | mixed |  |
 
-…and 64 more.
+…and 65 more.
 
 ## Concepts with no recorded origin (gap)
 

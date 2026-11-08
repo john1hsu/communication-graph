@@ -1333,6 +1333,14 @@ Ask yourself:
 - Have I stated my conclusion or recommendation, or only described the situation and left the reader to infer it?
 - Is this message an exception - serious bad news, or a reader who expects context first - and have I chosen the structure on purpose?
 
+### [Concise writing](../articles/writing/concise-writing.md) — Skill
+
+Ask yourself:
+- If my reader stopped after the first two sentences, would they know what I need and by when?
+- Which sentence, paragraph or side point could I delete without the reader losing anything they need to act?
+- Did my last edit make this shorter, or did I only add caveats and background?
+- Have I cut so far that a reader new to the topic would now be missing context or find the tone curt?
+
 ### [Plain language](../articles/writing/plain-language.md) — Principle
 
 Ask yourself:
