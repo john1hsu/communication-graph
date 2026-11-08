@@ -871,6 +871,13 @@
 <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/kluger-denisi-1996/s4> .
 <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/kluger-denisi-1996/s5> .
 <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/kluger-denisi-1996/s6> .
+<https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> .
+<https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/thinkers-and-works/kushlev-dunn-2015.md" .
+<https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/kushlev-dunn-2015/s1> .
+<https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/kushlev-dunn-2015/s2> .
+<https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/kushlev-dunn-2015/s3> .
+<https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/kushlev-dunn-2015/s4> .
 <https://github.com/john1hsu/communication-graph/id/macinnis-mackinnon-macintyre-2010#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/macinnis-mackinnon-macintyre-2010#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/macinnis-mackinnon-macintyre-2010> .
 <https://github.com/john1hsu/communication-graph/id/macinnis-mackinnon-macintyre-2010#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/thinkers-and-works/macinnis-mackinnon-macintyre-2010.md" .
@@ -10407,6 +10414,61 @@
   <https://github.com/john1hsu/communication-graph/id/source/kluger-denisi-1996/s6> <https://schema.org/url> <https://researchers.mq.edu.au/en/publications/audit-and-feedback-effects-on-professional-practice/> .
 }
 
+<https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015#graph> {
+  <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> <http://purl.org/dc/terms/created> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
+  <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> <http://www.w3.org/2000/01/rdf-schema#label> "Checking email less frequently reduces stress" .
+  <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> <http://www.w3.org/2004/02/skos/core#altLabel> "Kushlev & Dunn 2015" .
+  <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> <http://www.w3.org/2004/02/skos/core#altLabel> "Kushlev and Dunn email study" .
+  <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> <http://www.w3.org/2004/02/skos/core#altLabel> "UBC email-checking experiment" .
+  <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/scheduled-inbox-checks> .
+  <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> <http://www.w3.org/2004/02/skos/core#definition> "Kostadin Kushlev and Elizabeth Dunn's 2015 Computers in Human Behavior field experiment, in which 124 heavy email users spent one week checking email three times a day and one week checking at will, and reported moderately lower daily stress in the limited week." .
+  <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works> .
+  <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> <http://www.w3.org/2004/02/skos/core#prefLabel> "Checking email less frequently reduces stress" .
+  <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/attention-management> .
+  <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/email> .
+  <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/information-overload> .
+  <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations> .
+  <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/workplace-stress> .
+  <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/kushlev-dunn-2015/s1> .
+  <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/kushlev-dunn-2015/s2> .
+  <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/kushlev-dunn-2015/s3> .
+  <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/kushlev-dunn-2015/s4> .
+  <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/email> .
+  <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/mark-et-al-2016> .
+  <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> <https://github.com/john1hsu/communication-graph/ontology#domain> "thinkers-and-works" .
+  <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+  <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/thinkers-and-works/kushlev-dunn-2015.md" .
+  <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/elizabeth-dunn> .
+  <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/kostadin-kushlev> .
+  <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+  <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/fitz-et-al-2019> .
+  <https://github.com/john1hsu/communication-graph/id/source/kushlev-dunn-2015/s1> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/kushlev-dunn-2015/s1> <http://purl.org/dc/terms/publisher> "Kostadin Kushlev & Elizabeth W. Dunn, Computers in Human Behavior 43, 220-228 (2015), doi:10.1016/j.chb.2014.11.005 (author copy, interruptions.net)" .
+  <https://github.com/john1hsu/communication-graph/id/source/kushlev-dunn-2015/s1> <http://purl.org/dc/terms/title> "Checking email less frequently reduces stress" .
+  <https://github.com/john1hsu/communication-graph/id/source/kushlev-dunn-2015/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/kushlev-dunn-2015/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/kushlev-dunn-2015/s1> <https://schema.org/url> <https://www.interruptions.net/literature/Kushlev-ComputHumBehav15.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/kushlev-dunn-2015/s2> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/kushlev-dunn-2015/s2> <http://purl.org/dc/terms/publisher> "Mark, Iqbal, Czerwinski, Johns & Sano, CHI 2016 (MIT Media Lab publication record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/kushlev-dunn-2015/s2> <http://purl.org/dc/terms/title> "Email Duration, Batching and Self-interruption: Patterns of Email Use on Productivity and Stress" .
+  <https://github.com/john1hsu/communication-graph/id/source/kushlev-dunn-2015/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/kushlev-dunn-2015/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/communication-graph/id/source/kushlev-dunn-2015/s2> <https://schema.org/url> <https://www.media.mit.edu/publications/email-duration-batching-and-self-interruption-patterns-of-email-use-on-productivity-and-stress/> .
+  <https://github.com/john1hsu/communication-graph/id/source/kushlev-dunn-2015/s3> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/kushlev-dunn-2015/s3> <http://purl.org/dc/terms/publisher> "Fitz, Kushlev, Jagannathan, Lewis, Paliwal & Ariely, Computers in Human Behavior 101, 84-94 (2019), doi:10.1016/j.chb.2019.07.016 (Duke Scholars record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/kushlev-dunn-2015/s3> <http://purl.org/dc/terms/title> "Batching smartphone notifications can improve well-being" .
+  <https://github.com/john1hsu/communication-graph/id/source/kushlev-dunn-2015/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/kushlev-dunn-2015/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/kushlev-dunn-2015/s3> <https://schema.org/url> <https://scholars.duke.edu/publication/1402953> .
+  <https://github.com/john1hsu/communication-graph/id/source/kushlev-dunn-2015/s4> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/kushlev-dunn-2015/s4> <http://purl.org/dc/terms/publisher> "Department of Psychology, University of British Columbia (December 2014)" .
+  <https://github.com/john1hsu/communication-graph/id/source/kushlev-dunn-2015/s4> <http://purl.org/dc/terms/title> "Checking your email less can help reduce stress: New study by PhD candidate Kostadin Kushlev" .
+  <https://github.com/john1hsu/communication-graph/id/source/kushlev-dunn-2015/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/kushlev-dunn-2015/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/communication-graph/id/source/kushlev-dunn-2015/s4> <https://schema.org/url> <https://psych.ubc.ca/?p=6052> .
+}
+
 <https://github.com/john1hsu/communication-graph/id/macinnis-mackinnon-macintyre-2010#graph> {
   <https://github.com/john1hsu/communication-graph/id/macinnis-mackinnon-macintyre-2010> <http://purl.org/dc/terms/created> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
   <https://github.com/john1hsu/communication-graph/id/macinnis-mackinnon-macintyre-2010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
@@ -12130,7 +12192,9 @@
   <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/murray-turoff> .
   <https://github.com/john1hsu/communication-graph/id/attention-based-view> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/executive-briefing> .
   <https://github.com/john1hsu/communication-graph/id/attention-management> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/scheduled-inbox-checks> .
+  <https://github.com/john1hsu/communication-graph/id/attention-management> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> .
   <https://github.com/john1hsu/communication-graph/id/attention-management> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/scheduled-inbox-checks> .
+  <https://github.com/john1hsu/communication-graph/id/attention-management> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -12808,6 +12872,9 @@
   <https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/gestures> .
   <https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/narrative-persuasion> .
   <https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/gestures> .
+  <https://github.com/john1hsu/communication-graph/id/elizabeth-dunn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/elizabeth-dunn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+  <https://github.com/john1hsu/communication-graph/id/elizabeth-dunn> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> .
   <https://github.com/john1hsu/communication-graph/id/email-address> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/ray-tomlinson> .
   <https://github.com/john1hsu/communication-graph/id/email-urgency-bias-study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/email-urgency-bias-study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
@@ -12825,6 +12892,7 @@
   <https://github.com/john1hsu/communication-graph/id/email> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/face-to-face-conversation> .
   <https://github.com/john1hsu/communication-graph/id/email> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> .
   <https://github.com/john1hsu/communication-graph/id/email> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/information-overload> .
+  <https://github.com/john1hsu/communication-graph/id/email> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> .
   <https://github.com/john1hsu/communication-graph/id/email> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/media-richness-theory> .
   <https://github.com/john1hsu/communication-graph/id/email> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/message-equivocality-media-selection-and-manager-performance> .
   <https://github.com/john1hsu/communication-graph/id/email> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/murray-turoff> .
@@ -12835,6 +12903,7 @@
   <https://github.com/john1hsu/communication-graph/id/email> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
   <https://github.com/john1hsu/communication-graph/id/email> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/channel-selection> .
   <https://github.com/john1hsu/communication-graph/id/email> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/concise-writing> .
+  <https://github.com/john1hsu/communication-graph/id/email> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> .
   <https://github.com/john1hsu/communication-graph/id/email> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/media-richness-theory> .
   <https://github.com/john1hsu/communication-graph/id/email> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/rapport> .
   <https://github.com/john1hsu/communication-graph/id/email> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/scheduled-inbox-checks> .
@@ -13050,6 +13119,7 @@
   <https://github.com/john1hsu/communication-graph/id/fitz-et-al-2019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/fitz-et-al-2019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/fitz-et-al-2019> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/scheduled-inbox-checks> .
+  <https://github.com/john1hsu/communication-graph/id/fitz-et-al-2019> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> .
   <https://github.com/john1hsu/communication-graph/id/flinchum-2022> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> .
   <https://github.com/john1hsu/communication-graph/id/follow-up-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/humble-inquiry> .
   <https://github.com/john1hsu/communication-graph/id/follow-up-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/open-ended-questions> .
@@ -13313,6 +13383,7 @@
   <https://github.com/john1hsu/communication-graph/id/information-overload> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-load> .
   <https://github.com/john1hsu/communication-graph/id/information-overload> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/concise-writing> .
   <https://github.com/john1hsu/communication-graph/id/information-overload> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/executive-briefing> .
+  <https://github.com/john1hsu/communication-graph/id/information-overload> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> .
   <https://github.com/john1hsu/communication-graph/id/information-overload> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/murray-turoff> .
   <https://github.com/john1hsu/communication-graph/id/information-overload> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
   <https://github.com/john1hsu/communication-graph/id/information-overload> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/concise-writing> .
@@ -13511,12 +13582,16 @@
   <https://github.com/john1hsu/communication-graph/id/kosslyn-et-al-2012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/kosslyn-et-al-2012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/kosslyn-et-al-2012> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/presentation> .
+  <https://github.com/john1hsu/communication-graph/id/kostadin-kushlev> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/kostadin-kushlev> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+  <https://github.com/john1hsu/communication-graph/id/kostadin-kushlev> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> .
   <https://github.com/john1hsu/communication-graph/id/kross-et-al-2014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/kross-et-al-2014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/kross-et-al-2014> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/self-distancing> .
   <https://github.com/john1hsu/communication-graph/id/kumkale-albarracin-2004> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/credibility> .
   <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
-  <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
+  <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/attention-management> .
+  <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/scheduled-inbox-checks> .
   <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/email> .
   <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/scheduled-inbox-checks> .
   <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/information-overload> .
@@ -13604,6 +13679,7 @@
   <https://github.com/john1hsu/communication-graph/id/many-labs-2> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/egocentric-bias> .
   <https://github.com/john1hsu/communication-graph/id/mark-et-al-2016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/mark-et-al-2016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
+  <https://github.com/john1hsu/communication-graph/id/mark-et-al-2016> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> .
   <https://github.com/john1hsu/communication-graph/id/mark-et-al-2016> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/scheduled-inbox-checks> .
   <https://github.com/john1hsu/communication-graph/id/mark-et-al-2016> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/email> .
   <https://github.com/john1hsu/communication-graph/id/marshall-goldsmith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -14287,6 +14363,8 @@
   <https://github.com/john1hsu/communication-graph/id/scheduled-inbox-checks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/scheduled-inbox-checks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/scheduled-inbox-checks> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/attention-management> .
+  <https://github.com/john1hsu/communication-graph/id/scheduled-inbox-checks> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> .
+  <https://github.com/john1hsu/communication-graph/id/scheduled-inbox-checks> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> .
   <https://github.com/john1hsu/communication-graph/id/schillinger-et-al-2003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/schillinger-et-al-2003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/schillinger-et-al-2003> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/teach-back> .
@@ -14335,6 +14413,7 @@
   <https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/team-communication-norms> .
+  <https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> .
   <https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/scheduled-inbox-checks> .
   <https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/scheduled-inbox-checks> .
   <https://github.com/john1hsu/communication-graph/id/shaw-wild-colquitt-2003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -14702,6 +14781,7 @@
   <https://github.com/john1hsu/communication-graph/id/workplace-meetings> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/1-2-4-all> .
   <https://github.com/john1hsu/communication-graph/id/workplace-meetings> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/facilitation> .
   <https://github.com/john1hsu/communication-graph/id/workplace-meetings> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/meeting-agendas> .
+  <https://github.com/john1hsu/communication-graph/id/workplace-stress> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> .
   <https://github.com/john1hsu/communication-graph/id/workplace-stress> <https://github.com/john1hsu/communication-graph/ontology#causedBy> <https://github.com/john1hsu/communication-graph/id/information-overload> .
   <https://github.com/john1hsu/communication-graph/id/writing-for-busy-readers> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/concise-writing> .
   <https://github.com/john1hsu/communication-graph/id/writing-for-dollars-writing-to-please> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/plain-language> .

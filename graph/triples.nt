@@ -3329,6 +3329,34 @@
 <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/feedback> .
 <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/ivers-et-al-2025> .
 <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> .
+<https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> <http://purl.org/dc/terms/created> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
+<https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> <http://www.w3.org/2000/01/rdf-schema#label> "Checking email less frequently reduces stress" .
+<https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> <http://www.w3.org/2004/02/skos/core#altLabel> "Kushlev & Dunn 2015" .
+<https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> <http://www.w3.org/2004/02/skos/core#altLabel> "Kushlev and Dunn email study" .
+<https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> <http://www.w3.org/2004/02/skos/core#altLabel> "UBC email-checking experiment" .
+<https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/scheduled-inbox-checks> .
+<https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> <http://www.w3.org/2004/02/skos/core#definition> "Kostadin Kushlev and Elizabeth Dunn's 2015 Computers in Human Behavior field experiment, in which 124 heavy email users spent one week checking email three times a day and one week checking at will, and reported moderately lower daily stress in the limited week." .
+<https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works> .
+<https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> <http://www.w3.org/2004/02/skos/core#prefLabel> "Checking email less frequently reduces stress" .
+<https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/attention-management> .
+<https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/email> .
+<https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/information-overload> .
+<https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations> .
+<https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/workplace-stress> .
+<https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/kushlev-dunn-2015/s1> .
+<https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/kushlev-dunn-2015/s2> .
+<https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/kushlev-dunn-2015/s3> .
+<https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/kushlev-dunn-2015/s4> .
+<https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/email> .
+<https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/mark-et-al-2016> .
+<https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> <https://github.com/john1hsu/communication-graph/ontology#domain> "thinkers-and-works" .
+<https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/thinkers-and-works/kushlev-dunn-2015.md" .
+<https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/elizabeth-dunn> .
+<https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/kostadin-kushlev> .
+<https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/fitz-et-al-2019> .
 <https://github.com/john1hsu/communication-graph/id/macinnis-mackinnon-macintyre-2010> <http://purl.org/dc/terms/created> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/macinnis-mackinnon-macintyre-2010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
 <https://github.com/john1hsu/communication-graph/id/macinnis-mackinnon-macintyre-2010> <http://www.w3.org/2000/01/rdf-schema#label> "The Illusion of Transparency and Normative Beliefs About Anxiety During Public Speaking" .
@@ -7839,6 +7867,30 @@
 <https://github.com/john1hsu/communication-graph/id/source/kluger-denisi-1996/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/kluger-denisi-1996/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/communication-graph/id/source/kluger-denisi-1996/s6> <https://schema.org/url> <https://researchers.mq.edu.au/en/publications/audit-and-feedback-effects-on-professional-practice/> .
+<https://github.com/john1hsu/communication-graph/id/source/kushlev-dunn-2015/s1> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/kushlev-dunn-2015/s1> <http://purl.org/dc/terms/publisher> "Kostadin Kushlev & Elizabeth W. Dunn, Computers in Human Behavior 43, 220-228 (2015), doi:10.1016/j.chb.2014.11.005 (author copy, interruptions.net)" .
+<https://github.com/john1hsu/communication-graph/id/source/kushlev-dunn-2015/s1> <http://purl.org/dc/terms/title> "Checking email less frequently reduces stress" .
+<https://github.com/john1hsu/communication-graph/id/source/kushlev-dunn-2015/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/kushlev-dunn-2015/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/kushlev-dunn-2015/s1> <https://schema.org/url> <https://www.interruptions.net/literature/Kushlev-ComputHumBehav15.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/kushlev-dunn-2015/s2> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/kushlev-dunn-2015/s2> <http://purl.org/dc/terms/publisher> "Mark, Iqbal, Czerwinski, Johns & Sano, CHI 2016 (MIT Media Lab publication record)" .
+<https://github.com/john1hsu/communication-graph/id/source/kushlev-dunn-2015/s2> <http://purl.org/dc/terms/title> "Email Duration, Batching and Self-interruption: Patterns of Email Use on Productivity and Stress" .
+<https://github.com/john1hsu/communication-graph/id/source/kushlev-dunn-2015/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/kushlev-dunn-2015/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/kushlev-dunn-2015/s2> <https://schema.org/url> <https://www.media.mit.edu/publications/email-duration-batching-and-self-interruption-patterns-of-email-use-on-productivity-and-stress/> .
+<https://github.com/john1hsu/communication-graph/id/source/kushlev-dunn-2015/s3> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/kushlev-dunn-2015/s3> <http://purl.org/dc/terms/publisher> "Fitz, Kushlev, Jagannathan, Lewis, Paliwal & Ariely, Computers in Human Behavior 101, 84-94 (2019), doi:10.1016/j.chb.2019.07.016 (Duke Scholars record)" .
+<https://github.com/john1hsu/communication-graph/id/source/kushlev-dunn-2015/s3> <http://purl.org/dc/terms/title> "Batching smartphone notifications can improve well-being" .
+<https://github.com/john1hsu/communication-graph/id/source/kushlev-dunn-2015/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/kushlev-dunn-2015/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/kushlev-dunn-2015/s3> <https://schema.org/url> <https://scholars.duke.edu/publication/1402953> .
+<https://github.com/john1hsu/communication-graph/id/source/kushlev-dunn-2015/s4> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/kushlev-dunn-2015/s4> <http://purl.org/dc/terms/publisher> "Department of Psychology, University of British Columbia (December 2014)" .
+<https://github.com/john1hsu/communication-graph/id/source/kushlev-dunn-2015/s4> <http://purl.org/dc/terms/title> "Checking your email less can help reduce stress: New study by PhD candidate Kostadin Kushlev" .
+<https://github.com/john1hsu/communication-graph/id/source/kushlev-dunn-2015/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/kushlev-dunn-2015/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/kushlev-dunn-2015/s4> <https://schema.org/url> <https://psych.ubc.ca/?p=6052> .
 <https://github.com/john1hsu/communication-graph/id/source/macinnis-mackinnon-macintyre-2010/s1> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/macinnis-mackinnon-macintyre-2010/s1> <http://purl.org/dc/terms/publisher> "MacInnis, Mackinnon & MacIntyre, Current Research in Social Psychology 15(4) (2010), University of Iowa (full text)" .
 <https://github.com/john1hsu/communication-graph/id/source/macinnis-mackinnon-macintyre-2010/s1> <http://purl.org/dc/terms/title> "The Illusion of Transparency and Normative Beliefs About Anxiety During Public Speaking" .

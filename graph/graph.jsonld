@@ -5586,6 +5586,80 @@
    ]
   },
   {
+   "@id": "cm:kushlev-dunn-2015",
+   "@type": "cmo:Study",
+   "cmo:appliedIn": {
+    "@id": "cm:email"
+   },
+   "cmo:challengedBy": {
+    "@id": "cm:mark-et-al-2016"
+   },
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:file": "articles/thinkers-and-works/kushlev-dunn-2015.md",
+   "cmo:introducedBy": [
+    {
+     "@id": "cm:elizabeth-dunn"
+    },
+    {
+     "@id": "cm:kostadin-kushlev"
+    }
+   ],
+   "cmo:level": "intermediate",
+   "cmo:supportedBy": {
+    "@id": "cm:fitz-et-al-2019"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/kushlev-dunn-2015/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/kushlev-dunn-2015/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/kushlev-dunn-2015/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/kushlev-dunn-2015/s4"
+    }
+   ],
+   "rdfs:label": "Checking email less frequently reduces stress",
+   "skos:altLabel": [
+    "Kushlev & Dunn 2015",
+    "Kushlev and Dunn email study",
+    "UBC email-checking experiment"
+   ],
+   "skos:broader": {
+    "@id": "cm:scheduled-inbox-checks"
+   },
+   "skos:definition": "Kostadin Kushlev and Elizabeth Dunn's 2015 Computers in Human Behavior field experiment, in which 124 heavy email users spent one week checking email three times a day and one week checking at will, and reported moderately lower daily stress in the limited week.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "Checking email less frequently reduces stress",
+   "skos:related": [
+    {
+     "@id": "cm:attention-management"
+    },
+    {
+     "@id": "cm:email"
+    },
+    {
+     "@id": "cm:information-overload"
+    },
+    {
+     "@id": "cm:setting-reply-time-expectations"
+    },
+    {
+     "@id": "cm:workplace-stress"
+    }
+   ]
+  },
+  {
    "@id": "cm:macinnis-mackinnon-macintyre-2010",
    "@type": "cmo:Study",
    "cmo:domain": "thinkers-and-works",
@@ -21012,6 +21086,62 @@
    "dcterms:title": "Audit and feedback: effects on professional practice",
    "schema:url": {
     "@id": "https://researchers.mq.edu.au/en/publications/audit-and-feedback-effects-on-professional-practice/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/kushlev-dunn-2015/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Kostadin Kushlev & Elizabeth W. Dunn, Computers in Human Behavior 43, 220-228 (2015), doi:10.1016/j.chb.2014.11.005 (author copy, interruptions.net)",
+   "dcterms:title": "Checking email less frequently reduces stress",
+   "schema:url": {
+    "@id": "https://www.interruptions.net/literature/Kushlev-ComputHumBehav15.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/kushlev-dunn-2015/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Mark, Iqbal, Czerwinski, Johns & Sano, CHI 2016 (MIT Media Lab publication record)",
+   "dcterms:title": "Email Duration, Batching and Self-interruption: Patterns of Email Use on Productivity and Stress",
+   "schema:url": {
+    "@id": "https://www.media.mit.edu/publications/email-duration-batching-and-self-interruption-patterns-of-email-use-on-productivity-and-stress/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/kushlev-dunn-2015/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Fitz, Kushlev, Jagannathan, Lewis, Paliwal & Ariely, Computers in Human Behavior 101, 84-94 (2019), doi:10.1016/j.chb.2019.07.016 (Duke Scholars record)",
+   "dcterms:title": "Batching smartphone notifications can improve well-being",
+   "schema:url": {
+    "@id": "https://scholars.duke.edu/publication/1402953"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/kushlev-dunn-2015/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Department of Psychology, University of British Columbia (December 2014)",
+   "dcterms:title": "Checking your email less can help reduce stress: New study by PhD candidate Kostadin Kushlev",
+   "schema:url": {
+    "@id": "https://psych.ubc.ca/?p=6052"
    }
   },
   {

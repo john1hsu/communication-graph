@@ -6373,6 +6373,87 @@
   ]
  },
  {
+  "id": "cm:kushlev-dunn-2015",
+  "title": "Checking email less frequently reduces stress",
+  "aliases": [
+   "Kushlev & Dunn 2015",
+   "Kushlev and Dunn email study",
+   "UBC email-checking experiment"
+  ],
+  "type": "Study",
+  "domain": "thinkers-and-works",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/thinkers-and-works/kushlev-dunn-2015.md",
+  "created": "2026-11-08",
+  "summary": "Kostadin Kushlev and Elizabeth Dunn's 2015 Computers in Human Behavior field experiment, in which 124 heavy email users spent one week checking email three times a day and one week checking at will, and reported moderately lower daily stress in the limited week.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:scheduled-inbox-checks"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:email"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:information-overload"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:workplace-stress"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:attention-management"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:setting-reply-time-expectations"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:kostadin-kushlev",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:elizabeth-dunn",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:email",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:fitz-et-al-2019",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:mark-et-al-2016",
+    "source": "s2",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://www.interruptions.net/literature/Kushlev-ComputHumBehav15.pdf",
+   "https://www.media.mit.edu/publications/email-duration-batching-and-self-interruption-patterns-of-email-use-on-productivity-and-stress/",
+   "https://scholars.duke.edu/publication/1402953",
+   "https://psych.ubc.ca/?p=6052"
+  ]
+ },
+ {
   "id": "cm:macinnis-mackinnon-macintyre-2010",
   "title": "The Illusion of Transparency and Normative Beliefs About Anxiety During Public Speaking",
   "aliases": [

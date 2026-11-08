@@ -81,6 +81,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:email` | `cm:bottom-line-up-front` |
 | `cm:email` | `cm:channel-selection` |
 | `cm:email` | `cm:concise-writing` |
+| `cm:email` | `cm:kushlev-dunn-2015` |
 | `cm:email` | `cm:media-richness-theory` |
 | `cm:email` | `cm:rapport` |
 | `cm:email` | `cm:scheduled-inbox-checks` |
@@ -94,9 +95,8 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:face-to-face-conversation` | `cm:rapport` |
 | `cm:job-interview` | `cm:camera-level-gaze` |
 | `cm:memorandum` | `cm:bottom-line-up-front` |
-| `cm:multicultural-team` | `cm:direct-vs-indirect-feedback` |
 
-…and 35 more.
+…and 36 more.
 
 ## Myths and contested advice
 
@@ -135,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:common-ground` | mixed | `cm:keysar-et-al-2000` |
 | `cm:communicating-uncertainty` | mixed |  |
 
-…and 65 more.
+…and 66 more.
 
 ## Concepts with no recorded origin (gap)
 
