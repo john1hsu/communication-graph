@@ -6189,6 +6189,35 @@
 <https://github.com/john1hsu/communication-graph/id/social-accounts> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/social-accounts/howto> .
 <https://github.com/john1hsu/communication-graph/id/social-accounts> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/communication-graph/id/social-accounts> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/brockner-wiesenfeld-1996> .
+<https://github.com/john1hsu/communication-graph/id/social-psychology> <http://purl.org/dc/terms/created> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/social-psychology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Field> .
+<https://github.com/john1hsu/communication-graph/id/social-psychology> <http://www.w3.org/2000/01/rdf-schema#label> "Social psychology" .
+<https://github.com/john1hsu/communication-graph/id/social-psychology> <http://www.w3.org/2004/02/skos/core#altLabel> "experimental social psychology" .
+<https://github.com/john1hsu/communication-graph/id/social-psychology> <http://www.w3.org/2004/02/skos/core#altLabel> "psychology of social behavior" .
+<https://github.com/john1hsu/communication-graph/id/social-psychology> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/psychology> .
+<https://github.com/john1hsu/communication-graph/id/social-psychology> <http://www.w3.org/2004/02/skos/core#definition> "The scientific study of how people's thoughts, feelings and behaviour are shaped by other people and by the social situation; much of the evidence behind workplace communication advice, from source credibility to attribution errors, comes from its experiments." .
+<https://github.com/john1hsu/communication-graph/id/social-psychology> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/foundations> .
+<https://github.com/john1hsu/communication-graph/id/social-psychology> <http://www.w3.org/2004/02/skos/core#prefLabel> "Social psychology" .
+<https://github.com/john1hsu/communication-graph/id/social-psychology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/egocentric-bias> .
+<https://github.com/john1hsu/communication-graph/id/social-psychology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> .
+<https://github.com/john1hsu/communication-graph/id/social-psychology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
+<https://github.com/john1hsu/communication-graph/id/social-psychology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> .
+<https://github.com/john1hsu/communication-graph/id/social-psychology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
+<https://github.com/john1hsu/communication-graph/id/social-psychology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/persuasion> .
+<https://github.com/john1hsu/communication-graph/id/social-psychology> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/social-psychology/s1> .
+<https://github.com/john1hsu/communication-graph/id/social-psychology> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/social-psychology/s2> .
+<https://github.com/john1hsu/communication-graph/id/social-psychology> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/social-psychology/s3> .
+<https://github.com/john1hsu/communication-graph/id/social-psychology> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/social-psychology/s4> .
+<https://github.com/john1hsu/communication-graph/id/social-psychology> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/social-psychology/s5> .
+<https://github.com/john1hsu/communication-graph/id/social-psychology> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/social-psychology/s6> .
+<https://github.com/john1hsu/communication-graph/id/social-psychology> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/many-labs-2> .
+<https://github.com/john1hsu/communication-graph/id/social-psychology> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/open-science-collaboration-2015> .
+<https://github.com/john1hsu/communication-graph/id/social-psychology> <https://github.com/john1hsu/communication-graph/ontology#domain> "foundations" .
+<https://github.com/john1hsu/communication-graph/id/social-psychology> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "theoretical" .
+<https://github.com/john1hsu/communication-graph/id/social-psychology> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/foundations/social-psychology.md" .
+<https://github.com/john1hsu/communication-graph/id/social-psychology> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/carl-hovland> .
+<https://github.com/john1hsu/communication-graph/id/social-psychology> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/floyd-allport> .
+<https://github.com/john1hsu/communication-graph/id/social-psychology> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/source/1-2-4-all/s1> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/1-2-4-all/s1> <http://purl.org/dc/terms/publisher> "Henri Lipmanowicz & Keith McCandless, Liberating Structures (liberatingstructures.com, CC BY-SA 4.0)" .
 <https://github.com/john1hsu/communication-graph/id/source/1-2-4-all/s1> <http://purl.org/dc/terms/title> "1-2-4-All: Engage Everyone Simultaneously in Generating Questions, Ideas, and Suggestions" .
@@ -9909,6 +9938,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/social-accounts/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/social-accounts/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/communication-graph/id/source/social-accounts/s5> <https://schema.org/url> <https://web.mit.edu/curhan/www/docs/Articles/15341_Readings/Justice/Brockner_Wiesenfeld_1996_An_integrative_framework.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/social-psychology/s1> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/social-psychology/s1> <http://purl.org/dc/terms/publisher> "Spielman, Jenkins & Lovett, OpenStax (Rice University), 2020" .
+<https://github.com/john1hsu/communication-graph/id/source/social-psychology/s1> <http://purl.org/dc/terms/title> "Psychology 2e, Section 12.1: What Is Social Psychology?" .
+<https://github.com/john1hsu/communication-graph/id/source/social-psychology/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/social-psychology/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/communication-graph/id/source/social-psychology/s1> <https://schema.org/url> <https://openstax.org/books/psychology-2e/pages/12-1-what-is-social-psychology> .
+<https://github.com/john1hsu/communication-graph/id/source/social-psychology/s2> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/social-psychology/s2> <http://purl.org/dc/terms/publisher> "Encyclopaedia Britannica" .
+<https://github.com/john1hsu/communication-graph/id/source/social-psychology/s2> <http://purl.org/dc/terms/title> "Social psychology" .
+<https://github.com/john1hsu/communication-graph/id/source/social-psychology/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/social-psychology/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "encyclopedia" .
+<https://github.com/john1hsu/communication-graph/id/source/social-psychology/s2> <https://schema.org/url> <https://www.britannica.com/science/social-psychology> .
+<https://github.com/john1hsu/communication-graph/id/source/social-psychology/s3> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/social-psychology/s3> <http://purl.org/dc/terms/publisher> "Association for Psychological Science, news release on Stroebe (2012), Perspectives on Psychological Science 7(1)" .
+<https://github.com/john1hsu/communication-graph/id/source/social-psychology/s3> <http://purl.org/dc/terms/title> "Taking Another Look at the Roots of Social Psychology" .
+<https://github.com/john1hsu/communication-graph/id/source/social-psychology/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/social-psychology/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/communication-graph/id/source/social-psychology/s3> <https://schema.org/url> <https://www.psychologicalscience.org/news/releases/taking-another-look-at-the-roots-of-social-psychology.html> .
+<https://github.com/john1hsu/communication-graph/id/source/social-psychology/s4> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/social-psychology/s4> <http://purl.org/dc/terms/publisher> "Open Science Collaboration, Science 349(6251) (2015), doi:10.1126/science.aac4716 (LSE Research Online record)" .
+<https://github.com/john1hsu/communication-graph/id/source/social-psychology/s4> <http://purl.org/dc/terms/title> "Estimating the reproducibility of psychological science" .
+<https://github.com/john1hsu/communication-graph/id/source/social-psychology/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/social-psychology/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/social-psychology/s4> <https://schema.org/url> <https://researchonline.lse.ac.uk/id/eprint/65159> .
+<https://github.com/john1hsu/communication-graph/id/source/social-psychology/s5> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/social-psychology/s5> <http://purl.org/dc/terms/publisher> "Klein et al., Advances in Methods and Practices in Psychological Science 1(4), 443-490 (2018) (HKBU Scholars record)" .
+<https://github.com/john1hsu/communication-graph/id/source/social-psychology/s5> <http://purl.org/dc/terms/title> "Many Labs 2: Investigating Variation in Replicability Across Samples and Settings" .
+<https://github.com/john1hsu/communication-graph/id/source/social-psychology/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/social-psychology/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/social-psychology/s5> <https://schema.org/url> <https://scholars.hkbu.edu.hk/en/publications/many-labs-2-investigating-variation-in-replicability-across-sampl/> .
+<https://github.com/john1hsu/communication-graph/id/source/social-psychology/s6> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/social-psychology/s6> <http://purl.org/dc/terms/publisher> "Roger N. Shepard, Biographical Memoirs, National Academy of Sciences (1998)" .
+<https://github.com/john1hsu/communication-graph/id/source/social-psychology/s6> <http://purl.org/dc/terms/title> "Carl Iver Hovland, 1912-1961: A Biographical Memoir" .
+<https://github.com/john1hsu/communication-graph/id/source/social-psychology/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/social-psychology/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/social-psychology/s6> <https://schema.org/url> <https://www.nasonline.org/wp-content/uploads/2024/06/hovland-carl.pdf> .
 <https://github.com/john1hsu/communication-graph/id/source/speaking-anxiety/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/speaking-anxiety/s1> <http://purl.org/dc/terms/publisher> "Ebrahimi, Pallesen, Kenter & Nordgreen, Frontiers in Psychology 10:488, 2019" .
 <https://github.com/john1hsu/communication-graph/id/source/speaking-anxiety/s1> <http://purl.org/dc/terms/title> "Psychological Interventions for the Fear of Public Speaking: A Meta-Analysis" .

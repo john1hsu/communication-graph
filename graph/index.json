@@ -11581,6 +11581,86 @@
   ]
  },
  {
+  "id": "cm:social-psychology",
+  "title": "Social psychology",
+  "aliases": [
+   "psychology of social behavior",
+   "experimental social psychology"
+  ],
+  "type": "Field",
+  "domain": "foundations",
+  "level": "introductory",
+  "evidenceStatus": "theoretical",
+  "file": "articles/foundations/social-psychology.md",
+  "created": "2026-11-08",
+  "summary": "The scientific study of how people's thoughts, feelings and behaviour are shaped by other people and by the social situation; much of the evidence behind workplace communication advice, from source credibility to attribution errors, comes from its experiments.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:psychology"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:interpersonal-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:persuasion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:elaboration-likelihood-model"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:nonverbal-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:organizational-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:egocentric-bias"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:floyd-allport",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:influencedBy",
+    "object": "cm:carl-hovland",
+    "source": "s6",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:open-science-collaboration-2015",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:many-labs-2",
+    "source": "s5",
+    "confidence": "high"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://openstax.org/books/psychology-2e/pages/12-1-what-is-social-psychology",
+   "https://www.britannica.com/science/social-psychology",
+   "https://www.psychologicalscience.org/news/releases/taking-another-look-at-the-roots-of-social-psychology.html",
+   "https://researchonline.lse.ac.uk/id/eprint/65159",
+   "https://scholars.hkbu.edu.hk/en/publications/many-labs-2-investigating-variation-in-replicability-across-sampl/",
+   "https://www.nasonline.org/wp-content/uploads/2024/06/hovland-carl.pdf"
+  ]
+ },
+ {
   "id": "cm:speaking-anxiety",
   "title": "Public speaking anxiety",
   "aliases": [

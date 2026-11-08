@@ -10112,6 +10112,85 @@
    ]
   },
   {
+   "@id": "cm:social-psychology",
+   "@type": "cmo:Field",
+   "cmo:challengedBy": [
+    {
+     "@id": "cm:many-labs-2"
+    },
+    {
+     "@id": "cm:open-science-collaboration-2015"
+    }
+   ],
+   "cmo:domain": "foundations",
+   "cmo:evidenceStatus": "theoretical",
+   "cmo:file": "articles/foundations/social-psychology.md",
+   "cmo:influencedBy": {
+    "@id": "cm:carl-hovland"
+   },
+   "cmo:introducedBy": {
+    "@id": "cm:floyd-allport"
+   },
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/social-psychology/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/social-psychology/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/social-psychology/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/social-psychology/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/social-psychology/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/social-psychology/s6"
+    }
+   ],
+   "rdfs:label": "Social psychology",
+   "skos:altLabel": [
+    "experimental social psychology",
+    "psychology of social behavior"
+   ],
+   "skos:broader": {
+    "@id": "cm:psychology"
+   },
+   "skos:definition": "The scientific study of how people's thoughts, feelings and behaviour are shaped by other people and by the social situation; much of the evidence behind workplace communication advice, from source credibility to attribution errors, comes from its experiments.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/foundations"
+   },
+   "skos:prefLabel": "Social psychology",
+   "skos:related": [
+    {
+     "@id": "cm:egocentric-bias"
+    },
+    {
+     "@id": "cm:elaboration-likelihood-model"
+    },
+    {
+     "@id": "cm:interpersonal-communication"
+    },
+    {
+     "@id": "cm:nonverbal-communication"
+    },
+    {
+     "@id": "cm:organizational-communication"
+    },
+    {
+     "@id": "cm:persuasion"
+    }
+   ]
+  },
+  {
    "@id": "cm:speaking-anxiety",
    "@type": "cmo:Barrier",
    "cmo:demonstratedBy": {
@@ -26036,6 +26115,90 @@
    "dcterms:title": "An Integrative Framework for Explaining Reactions to Decisions: Interactive Effects of Outcomes and Procedures",
    "schema:url": {
     "@id": "https://web.mit.edu/curhan/www/docs/Articles/15341_Readings/Justice/Brockner_Wiesenfeld_1996_An_integrative_framework.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/social-psychology/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Spielman, Jenkins & Lovett, OpenStax (Rice University), 2020",
+   "dcterms:title": "Psychology 2e, Section 12.1: What Is Social Psychology?",
+   "schema:url": {
+    "@id": "https://openstax.org/books/psychology-2e/pages/12-1-what-is-social-psychology"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/social-psychology/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Encyclopaedia Britannica",
+   "dcterms:title": "Social psychology",
+   "schema:url": {
+    "@id": "https://www.britannica.com/science/social-psychology"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/social-psychology/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Association for Psychological Science, news release on Stroebe (2012), Perspectives on Psychological Science 7(1)",
+   "dcterms:title": "Taking Another Look at the Roots of Social Psychology",
+   "schema:url": {
+    "@id": "https://www.psychologicalscience.org/news/releases/taking-another-look-at-the-roots-of-social-psychology.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/social-psychology/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Open Science Collaboration, Science 349(6251) (2015), doi:10.1126/science.aac4716 (LSE Research Online record)",
+   "dcterms:title": "Estimating the reproducibility of psychological science",
+   "schema:url": {
+    "@id": "https://researchonline.lse.ac.uk/id/eprint/65159"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/social-psychology/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Klein et al., Advances in Methods and Practices in Psychological Science 1(4), 443-490 (2018) (HKBU Scholars record)",
+   "dcterms:title": "Many Labs 2: Investigating Variation in Replicability Across Samples and Settings",
+   "schema:url": {
+    "@id": "https://scholars.hkbu.edu.hk/en/publications/many-labs-2-investigating-variation-in-replicability-across-sampl/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/social-psychology/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Roger N. Shepard, Biographical Memoirs, National Academy of Sciences (1998)",
+   "dcterms:title": "Carl Iver Hovland, 1912-1961: A Biographical Memoir",
+   "schema:url": {
+    "@id": "https://www.nasonline.org/wp-content/uploads/2024/06/hovland-carl.pdf"
    }
   },
   {
