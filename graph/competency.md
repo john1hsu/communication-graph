@@ -12,9 +12,7 @@ _No results._
 
 _Which written skills or dispositions have no technique, framework or principle that develops them?_ — `queries/02-skills-without-practice.rq`
 
-| skill | type |
-|---|---|
-| `cm:concise-writing` | cmo:Skill |
+_No results._
 
 ## Situations, channels and formats with no guidance (gap)
 
@@ -30,6 +28,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 |---|---|---|
 | `cm:1-2-4-all` | 3 | Facilitation, production-blocking, unequal-participation |
 | `cm:concise-writing` | 3 | Information overload, subtraction-neglect, wordiness |
+| `cm:paramedic-method` | 3 | Concise writing, official-style, wordiness |
 | `cm:self-recording-playback` | 3 | Gesturing while speaking, Public speaking anxiety, public-speaking |
 | `cm:describe-analyze-evaluate` | 2 | Ethnocentrism, intercultural-competence |
 | `cm:facilitation` | 2 | Interrupting, unequal-participation |
@@ -57,9 +56,8 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:issue-selling` | 1 | Managing up |
 | `cm:meeting-agendas` | 1 | unnecessary-meetings |
 | `cm:multiple-equivalent-simultaneous-offers` | 1 | negotiator-dilemma |
-| `cm:paraphrasing` | 1 | Active listening |
 
-…and 12 more.
+…and 13 more.
 
 ## Toolkit by situation
 

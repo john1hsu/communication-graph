@@ -4144,6 +4144,86 @@
 <https://github.com/john1hsu/communication-graph/id/organizational-communication> <https://github.com/john1hsu/communication-graph/ontology#introducedIn> <https://github.com/john1hsu/communication-graph/id/business-and-industrial-communication-a-source-book> .
 <https://github.com/john1hsu/communication-graph/id/organizational-communication> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/organizational-communication> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/mayfield-mayfield-2010> .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "In each key sentence, can I point to who does what, as a subject followed by a verb?" .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/paramedic-method> .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Which nouns ending in -tion, -ment or -ance am I using where a verb would carry the action?" .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/paramedic-method> .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Does my first sentence start with its subject, or with a wind-up I could delete?" .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/paramedic-method> .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "After cutting, does the message still carry the context and tone this particular reader needs?" .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/paramedic-method> .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method/example> <https://github.com/john1hsu/communication-graph/ontology#after> "The project team recommends that the steering committee choose a vendor by month-end." .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method/example> <https://github.com/john1hsu/communication-graph/ontology#before> "It is the recommendation of the project team that a decision on the selection of a vendor be made by the steering committee by the end of the month." .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "A project lead's status email asks the steering committee to choose a vendor." .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method/example> <https://github.com/john1hsu/communication-graph/ontology#why> "The actions buried in \"recommendation\", \"decision\" and \"selection\" become two verbs with named actors, the wind-up disappears, and 29 words drop to 13 (a lard factor of about 55%) without losing the request or deadline." .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method/howto/1> <https://schema.org/text> "Finish the draft first, then pick one long or important sentence to revise at a time." .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method/howto/2> <https://schema.org/text> "Circle the prepositions (of, in, about, for, by, on) and box every form of \"to be\" (is, are, was, be, been)." .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method/howto/3> <https://schema.org/text> "Ask where the action is; look for it hidden in a noun such as decision, recommendation or review." .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method/howto/4> <https://schema.org/text> "Turn that action into a simple verb and make the person or team doing it the subject." .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method/howto/5> <https://schema.org/text> "Delete slow wind-ups (\"It is important to note that\", \"The purpose of this email is to\") so the sentence starts with its subject." .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method/howto/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method/howto/6> <https://schema.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method/howto/6> <https://schema.org/text> "Remove redundancies and leftover words, then count words removed divided by the original count (the lard factor)." .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method/howto/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method/howto/7> <https://schema.org/position> "7"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method/howto/7> <https://schema.org/text> "Read the revised passage aloud and restore any context, courtesy or emphasis the reader still needs." .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method/howto> <https://schema.org/name> "Paramedic method for revising prose" .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/paramedic-method/howto/1> .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/paramedic-method/howto/2> .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/paramedic-method/howto/3> .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/paramedic-method/howto/4> .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/paramedic-method/howto/5> .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/paramedic-method/howto/6> .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/paramedic-method/howto/7> .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method> <http://purl.org/dc/terms/created> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Technique> .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method> <http://www.w3.org/2000/01/rdf-schema#label> "Paramedic method for revising prose" .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method> <http://www.w3.org/2004/02/skos/core#altLabel> "Lanham's Paramedic Method" .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method> <http://www.w3.org/2004/02/skos/core#altLabel> "Lanham's revision method" .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method> <http://www.w3.org/2004/02/skos/core#altLabel> "Paramedic Method" .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/editing-for-clarity> .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method> <http://www.w3.org/2004/02/skos/core#definition> "Richard Lanham's step-by-step editing routine for wordy sentences: mark prepositions and forms of \"to be\", find the buried action, turn it into a simple verb with the doer as subject, then cut slow openings and redundancies." .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/writing> .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method> <http://www.w3.org/2004/02/skos/core#prefLabel> "Paramedic method for revising prose" .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/active-voice> .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/concise-writing> .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/passive-voice> .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/plain-language> .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/readability-formulas> .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/paramedic-method/s1> .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/paramedic-method/s2> .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/paramedic-method/s3> .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/paramedic-method/s4> .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/paramedic-method/s5> .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/official-style> .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/wordiness> .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/active-voice> .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method> <https://github.com/john1hsu/communication-graph/ontology#develops> <https://github.com/john1hsu/communication-graph/id/concise-writing> .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method> <https://github.com/john1hsu/communication-graph/ontology#domain> "writing" .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "practitioner" .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/paramedic-method/example> .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/writing/paramedic-method.md" .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/paramedic-method/howto> .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/richard-lanham> .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method> <https://github.com/john1hsu/communication-graph/ontology#introducedIn> <https://github.com/john1hsu/communication-graph/id/revising-prose> .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/paramedic-method> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/spyridakis-isakson-1998> .
 <https://github.com/john1hsu/communication-graph/id/paraphrasing/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/paraphrasing/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Did I restate their point in my own words, or did I just repeat their phrases back like a parrot?" .
 <https://github.com/john1hsu/communication-graph/id/paraphrasing/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/paraphrasing> .
@@ -8335,6 +8415,36 @@
 <https://github.com/john1hsu/communication-graph/id/source/organizational-communication/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/organizational-communication/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
 <https://github.com/john1hsu/communication-graph/id/source/organizational-communication/s5> <https://schema.org/url> <https://instituteforpr.org/motivating-language-exploring-theory-with-scale-development> .
+<https://github.com/john1hsu/communication-graph/id/source/paramedic-method/s1> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/paramedic-method/s1> <http://purl.org/dc/terms/publisher> "Purdue Online Writing Lab (Purdue University), adapted from Richard Johnson-Sheehan" .
+<https://github.com/john1hsu/communication-graph/id/source/paramedic-method/s1> <http://purl.org/dc/terms/title> "Paramedic Method: A Lesson in Writing Concisely" .
+<https://github.com/john1hsu/communication-graph/id/source/paramedic-method/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/paramedic-method/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/paramedic-method/s1> <https://schema.org/url> <https://owl.purdue.edu/owl/general_writing/academic_writing/paramedic_method.html> .
+<https://github.com/john1hsu/communication-graph/id/source/paramedic-method/s2> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/paramedic-method/s2> <http://purl.org/dc/terms/publisher> "Richard A. Lanham, Pearson (publisher page), 2006" .
+<https://github.com/john1hsu/communication-graph/id/source/paramedic-method/s2> <http://purl.org/dc/terms/title> "Revising Prose, 5th edition" .
+<https://github.com/john1hsu/communication-graph/id/source/paramedic-method/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/paramedic-method/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/paramedic-method/s2> <https://schema.org/url> <https://www.pearson.com/store/en-us/p/revising-prose/P200000002251/9780321441690> .
+<https://github.com/john1hsu/communication-graph/id/source/paramedic-method/s3> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/paramedic-method/s3> <http://purl.org/dc/terms/publisher> "Naval Postgraduate School (hosted writing handout)" .
+<https://github.com/john1hsu/communication-graph/id/source/paramedic-method/s3> <http://purl.org/dc/terms/title> "The Paramedic Method (handout modified from Lanham, Revising Prose, 5th ed.)" .
+<https://github.com/john1hsu/communication-graph/id/source/paramedic-method/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/paramedic-method/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/paramedic-method/s3> <https://schema.org/url> <https://nps.edu/documents/111693070/112854021/TheParamedicMethod+JMGay+handout.pdf/6a68bbc1-8fcc-4b1f-94d3-c37bb268ed9e> .
+<https://github.com/john1hsu/communication-graph/id/source/paramedic-method/s4> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/paramedic-method/s4> <http://purl.org/dc/terms/publisher> "Spyridakis, J. H. & Isakson, C. S., SAGE, 1998 (library catalogue record, DOI 10.2190/01hd-mhu1-qnx9-r3ye)" .
+<https://github.com/john1hsu/communication-graph/id/source/paramedic-method/s4> <http://purl.org/dc/terms/title> "Study of nominalizations and denominalizations in technical prose (Journal of Technical Writing and Communication 28(2), 163–188)" .
+<https://github.com/john1hsu/communication-graph/id/source/paramedic-method/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/paramedic-method/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/paramedic-method/s4> <https://schema.org/url> <https://katalog.adlr.link/Record/ai-49-aHR0cDovL2R4LmRvaS5vcmcvMTAuMjE5MC8wMWhkLW1odTEtcW54OS1yM3ll> .
+<https://github.com/john1hsu/communication-graph/id/source/paramedic-method/s5> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/paramedic-method/s5> <http://purl.org/dc/terms/publisher> "Purdue Online Writing Lab (Purdue University)" .
+<https://github.com/john1hsu/communication-graph/id/source/paramedic-method/s5> <http://purl.org/dc/terms/title> "Reverse Paramedic Method" .
+<https://github.com/john1hsu/communication-graph/id/source/paramedic-method/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/paramedic-method/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/paramedic-method/s5> <https://schema.org/url> <https://owl.purdue.edu/owl/general_writing/academic_writing/reverse_paramedic_method.html> .
 <https://github.com/john1hsu/communication-graph/id/source/paraphrasing/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/paraphrasing/s1> <http://purl.org/dc/terms/publisher> "Seehausen, Kazzer, Bajbouj & Prehn, Frontiers in Psychology 3:482 (2012), doi:10.3389/fpsyg.2012.00482" .
 <https://github.com/john1hsu/communication-graph/id/source/paraphrasing/s1> <http://purl.org/dc/terms/title> "Effects of Empathic Paraphrasing - Extrinsic Emotion Regulation in Social Conflict" .

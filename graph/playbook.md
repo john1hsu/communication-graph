@@ -1341,6 +1341,30 @@ Ask yourself:
 - Did my last edit make this shorter, or did I only add caveats and background?
 - Have I cut so far that a reader new to the topic would now be missing context or find the tone curt?
 
+### [Paramedic method for revising prose](../articles/writing/paramedic-method.md) — Technique
+
+1. Finish the draft first, then pick one long or important sentence to revise at a time.
+2. Circle the prepositions (of, in, about, for, by, on) and box every form of "to be" (is, are, was, be, been).
+3. Ask where the action is; look for it hidden in a noun such as decision, recommendation or review.
+4. Turn that action into a simple verb and make the person or team doing it the subject.
+5. Delete slow wind-ups ("It is important to note that", "The purpose of this email is to") so the sentence starts with its subject.
+6. Remove redundancies and leftover words, then count words removed divided by the original count (the lard factor).
+7. Read the revised passage aloud and restore any context, courtesy or emphasis the reader still needs.
+
+*A project lead's status email asks the steering committee to choose a vendor.*
+
+| Before | After |
+|---|---|
+| It is the recommendation of the project team that a decision on the selection of a vendor be made by the steering committee by the end of the month. | The project team recommends that the steering committee choose a vendor by month-end. |
+
+**Why:** The actions buried in "recommendation", "decision" and "selection" become two verbs with named actors, the wind-up disappears, and 29 words drop to 13 (a lard factor of about 55%) without losing the request or deadline.
+
+Ask yourself:
+- In each key sentence, can I point to who does what, as a subject followed by a verb?
+- Which nouns ending in -tion, -ment or -ance am I using where a verb would carry the action?
+- Does my first sentence start with its subject, or with a wind-up I could delete?
+- After cutting, does the message still carry the context and tone this particular reader needs?
+
 ### [Plain language](../articles/writing/plain-language.md) — Principle
 
 Ask yourself:

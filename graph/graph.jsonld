@@ -7155,6 +7155,95 @@
    ]
   },
   {
+   "@id": "cm:paramedic-method",
+   "@type": "cmo:Technique",
+   "cmo:addresses": [
+    {
+     "@id": "cm:official-style"
+    },
+    {
+     "@id": "cm:wordiness"
+    }
+   ],
+   "cmo:complements": {
+    "@id": "cm:active-voice"
+   },
+   "cmo:develops": {
+    "@id": "cm:concise-writing"
+   },
+   "cmo:domain": "writing",
+   "cmo:evidenceStatus": "practitioner",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/paramedic-method/example"
+   },
+   "cmo:file": "articles/writing/paramedic-method.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/paramedic-method/howto"
+   },
+   "cmo:introducedBy": {
+    "@id": "cm:richard-lanham"
+   },
+   "cmo:introducedIn": {
+    "@id": "cm:revising-prose"
+   },
+   "cmo:level": "introductory",
+   "cmo:supportedBy": {
+    "@id": "cm:spyridakis-isakson-1998"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/paramedic-method/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/paramedic-method/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/paramedic-method/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/paramedic-method/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/paramedic-method/s5"
+    }
+   ],
+   "rdfs:label": "Paramedic method for revising prose",
+   "skos:altLabel": [
+    "Lanham's Paramedic Method",
+    "Lanham's revision method",
+    "Paramedic Method"
+   ],
+   "skos:broader": {
+    "@id": "cm:editing-for-clarity"
+   },
+   "skos:definition": "Richard Lanham's step-by-step editing routine for wordy sentences: mark prepositions and forms of \"to be\", find the buried action, turn it into a simple verb with the doer as subject, then cut slow openings and redundancies.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/writing"
+   },
+   "skos:prefLabel": "Paramedic method for revising prose",
+   "skos:related": [
+    {
+     "@id": "cm:active-voice"
+    },
+    {
+     "@id": "cm:concise-writing"
+    },
+    {
+     "@id": "cm:passive-voice"
+    },
+    {
+     "@id": "cm:plain-language"
+    },
+    {
+     "@id": "cm:readability-formulas"
+    }
+   ]
+  },
+  {
    "@id": "cm:paraphrasing",
    "@type": "cmo:Technique",
    "cmo:appliedIn": {
@@ -14269,6 +14358,116 @@
    "@type": "schema:HowToStep",
    "schema:position": 6,
    "schema:text": "Switch to a closed or specific question when you need a commitment, a number, or a straight answer to a known risk (\"Will this slip past the 30th?\")."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/paramedic-method/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:paramedic-method"
+   },
+   "rdfs:label": "In each key sentence, can I point to who does what, as a subject followed by a verb?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/paramedic-method/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:paramedic-method"
+   },
+   "rdfs:label": "Which nouns ending in -tion, -ment or -ance am I using where a verb would carry the action?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/paramedic-method/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:paramedic-method"
+   },
+   "rdfs:label": "Does my first sentence start with its subject, or with a wind-up I could delete?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/paramedic-method/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:paramedic-method"
+   },
+   "rdfs:label": "After cutting, does the message still carry the context and tone this particular reader needs?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/paramedic-method/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "The project team recommends that the steering committee choose a vendor by month-end.",
+   "cmo:before": "It is the recommendation of the project team that a decision on the selection of a vendor be made by the steering committee by the end of the month.",
+   "cmo:situation": "A project lead's status email asks the steering committee to choose a vendor.",
+   "cmo:why": "The actions buried in \"recommendation\", \"decision\" and \"selection\" become two verbs with named actors, the wind-up disappears, and 29 words drop to 13 (a lard factor of about 55%) without losing the request or deadline."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/paramedic-method/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Paramedic method for revising prose",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/paramedic-method/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/paramedic-method/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/paramedic-method/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/paramedic-method/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/paramedic-method/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/paramedic-method/howto/6"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/paramedic-method/howto/7"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/paramedic-method/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Finish the draft first, then pick one long or important sentence to revise at a time."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/paramedic-method/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Circle the prepositions (of, in, about, for, by, on) and box every form of \"to be\" (is, are, was, be, been)."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/paramedic-method/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Ask where the action is; look for it hidden in a noun such as decision, recommendation or review."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/paramedic-method/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Turn that action into a simple verb and make the person or team doing it the subject."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/paramedic-method/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Delete slow wind-ups (\"It is important to note that\", \"The purpose of this email is to\") so the sentence starts with its subject."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/paramedic-method/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "Remove redundancies and leftover words, then count words removed divided by the original count (the lard factor)."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/paramedic-method/howto/7",
+   "@type": "schema:HowToStep",
+   "schema:position": 7,
+   "schema:text": "Read the revised passage aloud and restore any context, courtesy or emphasis the reader still needs."
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/paraphrasing/check/1",
@@ -22157,6 +22356,76 @@
    "dcterms:title": "Motivating Language: Exploring Theory with Scale Development",
    "schema:url": {
     "@id": "https://instituteforpr.org/motivating-language-exploring-theory-with-scale-development"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/paramedic-method/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Purdue Online Writing Lab (Purdue University), adapted from Richard Johnson-Sheehan",
+   "dcterms:title": "Paramedic Method: A Lesson in Writing Concisely",
+   "schema:url": {
+    "@id": "https://owl.purdue.edu/owl/general_writing/academic_writing/paramedic_method.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/paramedic-method/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Richard A. Lanham, Pearson (publisher page), 2006",
+   "dcterms:title": "Revising Prose, 5th edition",
+   "schema:url": {
+    "@id": "https://www.pearson.com/store/en-us/p/revising-prose/P200000002251/9780321441690"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/paramedic-method/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Naval Postgraduate School (hosted writing handout)",
+   "dcterms:title": "The Paramedic Method (handout modified from Lanham, Revising Prose, 5th ed.)",
+   "schema:url": {
+    "@id": "https://nps.edu/documents/111693070/112854021/TheParamedicMethod+JMGay+handout.pdf/6a68bbc1-8fcc-4b1f-94d3-c37bb268ed9e"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/paramedic-method/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Spyridakis, J. H. & Isakson, C. S., SAGE, 1998 (library catalogue record, DOI 10.2190/01hd-mhu1-qnx9-r3ye)",
+   "dcterms:title": "Study of nominalizations and denominalizations in technical prose (Journal of Technical Writing and Communication 28(2), 163–188)",
+   "schema:url": {
+    "@id": "https://katalog.adlr.link/Record/ai-49-aHR0cDovL2R4LmRvaS5vcmcvMTAuMjE5MC8wMWhkLW1odTEtcW54OS1yM3ll"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/paramedic-method/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Purdue Online Writing Lab (Purdue University)",
+   "dcterms:title": "Reverse Paramedic Method",
+   "schema:url": {
+    "@id": "https://owl.purdue.edu/owl/general_writing/academic_writing/reverse_paramedic_method.html"
    }
   },
   {

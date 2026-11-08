@@ -8111,6 +8111,118 @@
   ]
  },
  {
+  "id": "cm:paramedic-method",
+  "title": "Paramedic method for revising prose",
+  "aliases": [
+   "Paramedic Method",
+   "Lanham's Paramedic Method",
+   "Lanham's revision method"
+  ],
+  "type": "Technique",
+  "domain": "writing",
+  "level": "introductory",
+  "evidenceStatus": "practitioner",
+  "file": "articles/writing/paramedic-method.md",
+  "created": "2026-11-08",
+  "summary": "Richard Lanham's step-by-step editing routine for wordy sentences: mark prepositions and forms of \"to be\", find the buried action, turn it into a simple verb with the doer as subject, then cut slow openings and redundancies.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:editing-for-clarity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:concise-writing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:active-voice"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:plain-language"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:readability-formulas"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:passive-voice"
+   },
+   {
+    "predicate": "cmo:develops",
+    "object": "cm:concise-writing",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:wordiness",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:official-style",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:richard-lanham",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedIn",
+    "object": "cm:revising-prose",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:active-voice",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:spyridakis-isakson-1998",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "In each key sentence, can I point to who does what, as a subject followed by a verb?",
+   "Which nouns ending in -tion, -ment or -ance am I using where a verb would carry the action?",
+   "Does my first sentence start with its subject, or with a wind-up I could delete?",
+   "After cutting, does the message still carry the context and tone this particular reader needs?"
+  ],
+  "steps": [
+   "Finish the draft first, then pick one long or important sentence to revise at a time.",
+   "Circle the prepositions (of, in, about, for, by, on) and box every form of \"to be\" (is, are, was, be, been).",
+   "Ask where the action is; look for it hidden in a noun such as decision, recommendation or review.",
+   "Turn that action into a simple verb and make the person or team doing it the subject.",
+   "Delete slow wind-ups (\"It is important to note that\", \"The purpose of this email is to\") so the sentence starts with its subject.",
+   "Remove redundancies and leftover words, then count words removed divided by the original count (the lard factor).",
+   "Read the revised passage aloud and restore any context, courtesy or emphasis the reader still needs."
+  ],
+  "example": {
+   "situation": "A project lead's status email asks the steering committee to choose a vendor.",
+   "before": "It is the recommendation of the project team that a decision on the selection of a vendor be made by the steering committee by the end of the month.",
+   "after": "The project team recommends that the steering committee choose a vendor by month-end.",
+   "why": "The actions buried in \"recommendation\", \"decision\" and \"selection\" become two verbs with named actors, the wind-up disappears, and 29 words drop to 13 (a lard factor of about 55%) without losing the request or deadline."
+  },
+  "source_urls": [
+   "https://owl.purdue.edu/owl/general_writing/academic_writing/paramedic_method.html",
+   "https://www.pearson.com/store/en-us/p/revising-prose/P200000002251/9780321441690",
+   "https://nps.edu/documents/111693070/112854021/TheParamedicMethod+JMGay+handout.pdf/6a68bbc1-8fcc-4b1f-94d3-c37bb268ed9e",
+   "https://katalog.adlr.link/Record/ai-49-aHR0cDovL2R4LmRvaS5vcmcvMTAuMjE5MC8wMWhkLW1odTEtcW54OS1yM3ll",
+   "https://owl.purdue.edu/owl/general_writing/academic_writing/reverse_paramedic_method.html"
+  ]
+ },
+ {
   "id": "cm:paraphrasing",
   "title": "Paraphrasing",
   "aliases": [
