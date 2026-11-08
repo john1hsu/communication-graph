@@ -9393,6 +9393,78 @@
    ]
   },
   {
+   "@id": "cm:rob-buckman",
+   "@type": "cmo:Person",
+   "cmo:authored": {
+    "@id": "cm:how-to-break-bad-news"
+   },
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "historical",
+   "cmo:file": "articles/thinkers-and-works/rob-buckman.md",
+   "cmo:introduced": [
+    {
+     "@id": "cm:delivering-bad-news"
+    },
+    {
+     "@id": "cm:spikes-protocol"
+    }
+   ],
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/rob-buckman/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/rob-buckman/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/rob-buckman/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/rob-buckman/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/rob-buckman/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/rob-buckman/s6"
+    }
+   ],
+   "rdfs:label": "Rob Buckman",
+   "skos:altLabel": [
+    "Buckman",
+    "Dr. Robert Buckman",
+    "Robert A. Buckman",
+    "Robert Buckman"
+   ],
+   "skos:definition": "British-Canadian oncologist, author and broadcaster (1948-2011) whose 1992 book How to Break Bad News turned the delivery of unwelcome news into a teachable, step-by-step skill, and who co-developed the six-step SPIKES protocol now adapted for workplace conversations about layoffs, cancellations and setbacks.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "Rob Buckman",
+   "skos:related": [
+    {
+     "@id": "cm:active-listening"
+    },
+    {
+     "@id": "cm:delivering-bad-news"
+    },
+    {
+     "@id": "cm:difficult-conversation"
+    },
+    {
+     "@id": "cm:mum-effect"
+    },
+    {
+     "@id": "cm:spikes-protocol"
+    }
+   ]
+  },
+  {
    "@id": "cm:role-reversal",
    "@type": "cmo:Technique",
    "cmo:appliedIn": [
@@ -25636,6 +25708,90 @@
    "dcterms:title": "When intuitive Bayesians need to be good readers: The problem-wording effect on Bayesian reasoning",
    "schema:url": {
     "@id": "https://repository.essex.ac.uk/37751/1/1-s2.0-S0010027724000088-main.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/rob-buckman/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Johns Hopkins University Press (Buckman, R., with Kason, Y., 1992)",
+   "dcterms:title": "How to Break Bad News: A Guide for Health Care Professionals (book page)",
+   "schema:url": {
+    "@id": "https://press.jhu.edu/books/title/1745/how-break-bad-news"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/rob-buckman/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Buckman, R. A., Community Oncology 2(2), 138-142, Elsevier, 2005 (copy hosted by University of Saskatchewan College of Medicine)",
+   "dcterms:title": "Breaking bad news: the S-P-I-K-E-S strategy",
+   "schema:url": {
+    "@id": "https://medicine.usask.ca/documents/pgme/educational-resources/breaking-bad-news-spikes-model---psychosocial-onc---2005.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/rob-buckman/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "ASCO Connection, American Society of Clinical Oncology, 12 December 2011",
+   "dcterms:title": "Robert A. Buckman, MD, PhD (in memoriam)",
+   "schema:url": {
+    "@id": "https://connection.asco.org/node/34986"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/rob-buckman/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "news",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "CTV News, October 2011",
+   "dcterms:title": "Renowned oncologist Dr. Robert Buckman dies",
+   "schema:url": {
+    "@id": "https://www.ctvnews.ca/renowned-oncologist-dr-robert-buckman-dies-1.710470"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/rob-buckman/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "news",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "CancerNetwork (Oncology News International), 1 August 1998",
+   "dcterms:title": "SPIKES, a Six-Point Protocol, Helps Physicians 'Break the Bad News' to Cancer Patients",
+   "schema:url": {
+    "@id": "https://cancernetwork.com/view/spikes-six-point-protocol-helps-physicians-break-bad-news-cancer-patients"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/rob-buckman/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Johnson, J. & Panagioti, M., Academic Medicine 93(9), 1400-1412, 2018, doi:10.1097/ACM.0000000000002308 (White Rose Research Online record)",
+   "dcterms:title": "Interventions to Improve the Breaking of Bad or Difficult News by Physicians, Medical Students, and Interns/Residents: A Systematic Review and Meta-Analysis",
+   "schema:url": {
+    "@id": "https://eprints.whiterose.ac.uk/131932/"
    }
   },
   {

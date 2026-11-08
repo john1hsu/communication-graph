@@ -10711,6 +10711,74 @@
   ]
  },
  {
+  "id": "cm:rob-buckman",
+  "title": "Rob Buckman",
+  "aliases": [
+   "Robert Buckman",
+   "Robert A. Buckman",
+   "Dr. Robert Buckman",
+   "Buckman"
+  ],
+  "type": "Person",
+  "domain": "thinkers-and-works",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/thinkers-and-works/rob-buckman.md",
+  "created": "2026-11-08",
+  "summary": "British-Canadian oncologist, author and broadcaster (1948-2011) whose 1992 book How to Break Bad News turned the delivery of unwelcome news into a teachable, step-by-step skill, and who co-developed the six-step SPIKES protocol now adapted for workplace conversations about layoffs, cancellations and setbacks.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "cm:delivering-bad-news"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:spikes-protocol"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:difficult-conversation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:active-listening"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:mum-effect"
+   },
+   {
+    "predicate": "cmo:introduced",
+    "object": "cm:delivering-bad-news",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:introduced",
+    "object": "cm:spikes-protocol",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:authored",
+    "object": "cm:how-to-break-bad-news",
+    "source": "s1",
+    "confidence": "high"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://press.jhu.edu/books/title/1745/how-break-bad-news",
+   "https://medicine.usask.ca/documents/pgme/educational-resources/breaking-bad-news-spikes-model---psychosocial-onc---2005.pdf",
+   "https://connection.asco.org/node/34986",
+   "https://www.ctvnews.ca/renowned-oncologist-dr-robert-buckman-dies-1.710470",
+   "https://cancernetwork.com/view/spikes-six-point-protocol-helps-physicians-break-bad-news-cancer-patients",
+   "https://eprints.whiterose.ac.uk/131932/"
+  ]
+ },
+ {
   "id": "cm:role-reversal",
   "title": "Role reversal",
   "aliases": [

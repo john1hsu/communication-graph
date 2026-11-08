@@ -1031,6 +1031,15 @@
 <https://github.com/john1hsu/communication-graph/id/ray-tomlinson#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/ray-tomlinson/s3> .
 <https://github.com/john1hsu/communication-graph/id/ray-tomlinson#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/ray-tomlinson/s4> .
 <https://github.com/john1hsu/communication-graph/id/ray-tomlinson#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/ray-tomlinson/s5> .
+<https://github.com/john1hsu/communication-graph/id/rob-buckman#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/rob-buckman#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/rob-buckman> .
+<https://github.com/john1hsu/communication-graph/id/rob-buckman#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/thinkers-and-works/rob-buckman.md" .
+<https://github.com/john1hsu/communication-graph/id/rob-buckman#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/rob-buckman/s1> .
+<https://github.com/john1hsu/communication-graph/id/rob-buckman#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/rob-buckman/s2> .
+<https://github.com/john1hsu/communication-graph/id/rob-buckman#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/rob-buckman/s3> .
+<https://github.com/john1hsu/communication-graph/id/rob-buckman#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/rob-buckman/s4> .
+<https://github.com/john1hsu/communication-graph/id/rob-buckman#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/rob-buckman/s5> .
+<https://github.com/john1hsu/communication-graph/id/rob-buckman#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/rob-buckman/s6> .
 <https://github.com/john1hsu/communication-graph/id/the-culture-map#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/the-culture-map#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/the-culture-map> .
 <https://github.com/john1hsu/communication-graph/id/the-culture-map#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/thinkers-and-works/the-culture-map.md" .
@@ -11952,6 +11961,73 @@
   <https://github.com/john1hsu/communication-graph/id/source/ray-tomlinson/s5> <https://schema.org/url> <https://eng.rpi.edu/person/raymond-s-tomlinson-1963> .
 }
 
+<https://github.com/john1hsu/communication-graph/id/rob-buckman#graph> {
+  <https://github.com/john1hsu/communication-graph/id/rob-buckman> <http://purl.org/dc/terms/created> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/rob-buckman> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+  <https://github.com/john1hsu/communication-graph/id/rob-buckman> <http://www.w3.org/2000/01/rdf-schema#label> "Rob Buckman" .
+  <https://github.com/john1hsu/communication-graph/id/rob-buckman> <http://www.w3.org/2004/02/skos/core#altLabel> "Buckman" .
+  <https://github.com/john1hsu/communication-graph/id/rob-buckman> <http://www.w3.org/2004/02/skos/core#altLabel> "Dr. Robert Buckman" .
+  <https://github.com/john1hsu/communication-graph/id/rob-buckman> <http://www.w3.org/2004/02/skos/core#altLabel> "Robert A. Buckman" .
+  <https://github.com/john1hsu/communication-graph/id/rob-buckman> <http://www.w3.org/2004/02/skos/core#altLabel> "Robert Buckman" .
+  <https://github.com/john1hsu/communication-graph/id/rob-buckman> <http://www.w3.org/2004/02/skos/core#definition> "British-Canadian oncologist, author and broadcaster (1948-2011) whose 1992 book How to Break Bad News turned the delivery of unwelcome news into a teachable, step-by-step skill, and who co-developed the six-step SPIKES protocol now adapted for workplace conversations about layoffs, cancellations and setbacks." .
+  <https://github.com/john1hsu/communication-graph/id/rob-buckman> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works> .
+  <https://github.com/john1hsu/communication-graph/id/rob-buckman> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rob Buckman" .
+  <https://github.com/john1hsu/communication-graph/id/rob-buckman> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+  <https://github.com/john1hsu/communication-graph/id/rob-buckman> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> .
+  <https://github.com/john1hsu/communication-graph/id/rob-buckman> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/difficult-conversation> .
+  <https://github.com/john1hsu/communication-graph/id/rob-buckman> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mum-effect> .
+  <https://github.com/john1hsu/communication-graph/id/rob-buckman> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/spikes-protocol> .
+  <https://github.com/john1hsu/communication-graph/id/rob-buckman> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/rob-buckman/s1> .
+  <https://github.com/john1hsu/communication-graph/id/rob-buckman> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/rob-buckman/s2> .
+  <https://github.com/john1hsu/communication-graph/id/rob-buckman> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/rob-buckman/s3> .
+  <https://github.com/john1hsu/communication-graph/id/rob-buckman> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/rob-buckman/s4> .
+  <https://github.com/john1hsu/communication-graph/id/rob-buckman> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/rob-buckman/s5> .
+  <https://github.com/john1hsu/communication-graph/id/rob-buckman> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/rob-buckman/s6> .
+  <https://github.com/john1hsu/communication-graph/id/rob-buckman> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/how-to-break-bad-news> .
+  <https://github.com/john1hsu/communication-graph/id/rob-buckman> <https://github.com/john1hsu/communication-graph/ontology#domain> "thinkers-and-works" .
+  <https://github.com/john1hsu/communication-graph/id/rob-buckman> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "historical" .
+  <https://github.com/john1hsu/communication-graph/id/rob-buckman> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/thinkers-and-works/rob-buckman.md" .
+  <https://github.com/john1hsu/communication-graph/id/rob-buckman> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> .
+  <https://github.com/john1hsu/communication-graph/id/rob-buckman> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/spikes-protocol> .
+  <https://github.com/john1hsu/communication-graph/id/rob-buckman> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+  <https://github.com/john1hsu/communication-graph/id/source/rob-buckman/s1> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/rob-buckman/s1> <http://purl.org/dc/terms/publisher> "Johns Hopkins University Press (Buckman, R., with Kason, Y., 1992)" .
+  <https://github.com/john1hsu/communication-graph/id/source/rob-buckman/s1> <http://purl.org/dc/terms/title> "How to Break Bad News: A Guide for Health Care Professionals (book page)" .
+  <https://github.com/john1hsu/communication-graph/id/source/rob-buckman/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/rob-buckman/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/communication-graph/id/source/rob-buckman/s1> <https://schema.org/url> <https://press.jhu.edu/books/title/1745/how-break-bad-news> .
+  <https://github.com/john1hsu/communication-graph/id/source/rob-buckman/s2> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/rob-buckman/s2> <http://purl.org/dc/terms/publisher> "Buckman, R. A., Community Oncology 2(2), 138-142, Elsevier, 2005 (copy hosted by University of Saskatchewan College of Medicine)" .
+  <https://github.com/john1hsu/communication-graph/id/source/rob-buckman/s2> <http://purl.org/dc/terms/title> "Breaking bad news: the S-P-I-K-E-S strategy" .
+  <https://github.com/john1hsu/communication-graph/id/source/rob-buckman/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/rob-buckman/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/rob-buckman/s2> <https://schema.org/url> <https://medicine.usask.ca/documents/pgme/educational-resources/breaking-bad-news-spikes-model---psychosocial-onc---2005.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/rob-buckman/s3> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/rob-buckman/s3> <http://purl.org/dc/terms/publisher> "ASCO Connection, American Society of Clinical Oncology, 12 December 2011" .
+  <https://github.com/john1hsu/communication-graph/id/source/rob-buckman/s3> <http://purl.org/dc/terms/title> "Robert A. Buckman, MD, PhD (in memoriam)" .
+  <https://github.com/john1hsu/communication-graph/id/source/rob-buckman/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/rob-buckman/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+  <https://github.com/john1hsu/communication-graph/id/source/rob-buckman/s3> <https://schema.org/url> <https://connection.asco.org/node/34986> .
+  <https://github.com/john1hsu/communication-graph/id/source/rob-buckman/s4> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/rob-buckman/s4> <http://purl.org/dc/terms/publisher> "CTV News, October 2011" .
+  <https://github.com/john1hsu/communication-graph/id/source/rob-buckman/s4> <http://purl.org/dc/terms/title> "Renowned oncologist Dr. Robert Buckman dies" .
+  <https://github.com/john1hsu/communication-graph/id/source/rob-buckman/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/rob-buckman/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "news" .
+  <https://github.com/john1hsu/communication-graph/id/source/rob-buckman/s4> <https://schema.org/url> <https://www.ctvnews.ca/renowned-oncologist-dr-robert-buckman-dies-1.710470> .
+  <https://github.com/john1hsu/communication-graph/id/source/rob-buckman/s5> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/rob-buckman/s5> <http://purl.org/dc/terms/publisher> "CancerNetwork (Oncology News International), 1 August 1998" .
+  <https://github.com/john1hsu/communication-graph/id/source/rob-buckman/s5> <http://purl.org/dc/terms/title> "SPIKES, a Six-Point Protocol, Helps Physicians 'Break the Bad News' to Cancer Patients" .
+  <https://github.com/john1hsu/communication-graph/id/source/rob-buckman/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/rob-buckman/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "news" .
+  <https://github.com/john1hsu/communication-graph/id/source/rob-buckman/s5> <https://schema.org/url> <https://cancernetwork.com/view/spikes-six-point-protocol-helps-physicians-break-bad-news-cancer-patients> .
+  <https://github.com/john1hsu/communication-graph/id/source/rob-buckman/s6> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/rob-buckman/s6> <http://purl.org/dc/terms/publisher> "Johnson, J. & Panagioti, M., Academic Medicine 93(9), 1400-1412, 2018, doi:10.1097/ACM.0000000000002308 (White Rose Research Online record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/rob-buckman/s6> <http://purl.org/dc/terms/title> "Interventions to Improve the Breaking of Bad or Difficult News by Physicians, Medical Students, and Interns/Residents: A Systematic Review and Meta-Analysis" .
+  <https://github.com/john1hsu/communication-graph/id/source/rob-buckman/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/rob-buckman/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/rob-buckman/s6> <https://schema.org/url> <https://eprints.whiterose.ac.uk/131932/> .
+}
+
 <https://github.com/john1hsu/communication-graph/id/the-culture-map#graph> {
   <https://github.com/john1hsu/communication-graph/id/source/the-culture-map/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
   <https://github.com/john1hsu/communication-graph/id/source/the-culture-map/s1> <http://purl.org/dc/terms/publisher> "Erin Meyer, Harvard Business Review 92(5), 119-123 (May 2014); INSEAD faculty publications listing" .
@@ -13002,6 +13078,7 @@
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/rapport> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/receiving-feedback> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/reciprocal-self-disclosure> .
+  <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/rob-buckman> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/small-talk> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/trusted-advisor> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/wait-time> .
@@ -13735,9 +13812,11 @@
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/difficult-conversation> .
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mea-culpa> .
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
+  <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/rob-buckman> .
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/status-reporting> .
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/social-accounts> .
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/status-reporting> .
+  <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/rob-buckman> .
   <https://github.com/john1hsu/communication-graph/id/delivery-confidence-assessment> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/status-reporting> .
   <https://github.com/john1hsu/communication-graph/id/delphi-technique> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/murray-turoff> .
   <https://github.com/john1hsu/communication-graph/id/delphi-technique> <https://github.com/john1hsu/communication-graph/ontology#alternativeTo> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> .
@@ -13769,6 +13848,7 @@
   <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/face-to-face-conversation> .
   <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/labeling-emotions> .
   <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/performance-review> .
+  <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/rob-buckman> .
   <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/social-accounts> .
   <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/active-listening> .
   <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/i-statements> .
@@ -14315,6 +14395,9 @@
   <https://github.com/john1hsu/communication-graph/id/hovland-weiss-1951> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/hovland-weiss-1951> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/carl-hovland> .
   <https://github.com/john1hsu/communication-graph/id/hovland-weiss-1951> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/credibility> .
+  <https://github.com/john1hsu/communication-graph/id/how-to-break-bad-news> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/how-to-break-bad-news> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
+  <https://github.com/john1hsu/communication-graph/id/how-to-break-bad-news> <https://github.com/john1hsu/communication-graph/ontology#authoredBy> <https://github.com/john1hsu/communication-graph/id/rob-buckman> .
   <https://github.com/john1hsu/communication-graph/id/how-we-know-what-isnt-so> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/how-we-know-what-isnt-so> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
   <https://github.com/john1hsu/communication-graph/id/how-we-know-what-isnt-so> <https://github.com/john1hsu/communication-graph/ontology#authoredBy> <https://github.com/john1hsu/communication-graph/id/thomas-gilovich> .
@@ -14904,6 +14987,7 @@
   <https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/concession-strategy> .
   <https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/first-offer> .
   <https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/integrative-negotiation> .
+  <https://github.com/john1hsu/communication-graph/id/mum-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/rob-buckman> .
   <https://github.com/john1hsu/communication-graph/id/mum-effect> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> .
   <https://github.com/john1hsu/communication-graph/id/mum-effect> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/status-reporting> .
   <https://github.com/john1hsu/communication-graph/id/murray-turoff> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -15469,6 +15553,7 @@
   <https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/risk-communication> .
+  <https://github.com/john1hsu/communication-graph/id/rob-buckman> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/robert-galford> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/robert-galford> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/robert-galford> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/trusted-advisor> .
@@ -15703,6 +15788,8 @@
   <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/self-recording-playback> .
   <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> <https://github.com/john1hsu/communication-graph/ontology#causedBy> <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> .
   <https://github.com/john1hsu/communication-graph/id/spikes-protocol> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/rob-buckman> .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/rob-buckman> .
   <https://github.com/john1hsu/communication-graph/id/spotlight-effect/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/spotlight-effect/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/spotlight-effect/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
