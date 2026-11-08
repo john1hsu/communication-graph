@@ -8764,6 +8764,98 @@
    ]
   },
   {
+   "@id": "cm:receiving-feedback",
+   "@type": "cmo:Skill",
+   "cmo:addresses": {
+    "@id": "cm:defensiveness"
+   },
+   "cmo:appliedIn": {
+    "@id": "cm:performance-review"
+   },
+   "cmo:demonstratedBy": {
+    "@id": "cm:anseel-et-al-2015"
+   },
+   "cmo:domain": "feedback-and-coaching",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:file": "articles/feedback-and-coaching/receiving-feedback.md",
+   "cmo:influencedBy": {
+    "@id": "cm:susan-j-ashford"
+   },
+   "cmo:introducedBy": [
+    {
+     "@id": "cm:douglas-stone"
+    },
+    {
+     "@id": "cm:sheila-heen"
+    }
+   ],
+   "cmo:level": "introductory",
+   "cmo:studiedIn": {
+    "@id": "cm:industrial-organizational-psychology"
+   },
+   "cmo:supportedBy": {
+    "@id": "cm:blunden-et-al-2025"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/receiving-feedback/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/receiving-feedback/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/receiving-feedback/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/receiving-feedback/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/receiving-feedback/s5"
+    }
+   ],
+   "rdfs:label": "Receiving feedback",
+   "skos:altLabel": [
+    "being coachable",
+    "feedback receptivity",
+    "taking feedback well"
+   ],
+   "skos:broader": {
+    "@id": "cm:feedback"
+   },
+   "skos:definition": "The learnable skill of hearing, understanding and deciding what to do with other people's input on your work, including actively asking for it, rather than rejecting it on reflex or swallowing it whole; it treats the receiver, not only the giver, as responsible for whether feedback helps.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/feedback-and-coaching"
+   },
+   "skos:prefLabel": "Receiving feedback",
+   "skos:related": [
+    {
+     "@id": "cm:active-listening"
+    },
+    {
+     "@id": "cm:defensiveness"
+    },
+    {
+     "@id": "cm:feedforward"
+    },
+    {
+     "@id": "cm:one-on-one-meetings"
+    },
+    {
+     "@id": "cm:open-ended-questions"
+    },
+    {
+     "@id": "cm:performance-review"
+    },
+    {
+     "@id": "cm:psychological-safety"
+    }
+   ]
+  },
+  {
    "@id": "cm:reciprocal-self-disclosure",
    "@type": "cmo:Technique",
    "cmo:challengedBy": {
@@ -15477,6 +15569,46 @@
    "@type": "schema:HowToStep",
    "schema:position": 6,
    "schema:text": "Check the revised draft with a few real or representative readers (ask them to find an answer or explain the next step) and let their results, not the score, decide whether it is ready."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/receiving-feedback/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:receiving-feedback"
+   },
+   "rdfs:label": "Before I judged this feedback right or wrong, could I say back exactly what they observed and what they want me to do differently?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/receiving-feedback/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:receiving-feedback"
+   },
+   "rdfs:label": "Am I reacting to what was said, to who said it, or to what it seems to say about who I am?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/receiving-feedback/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:receiving-feedback"
+   },
+   "rdfs:label": "Did I ask for one concrete, forward-looking suggestion instead of a general request for any feedback?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/receiving-feedback/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:receiving-feedback"
+   },
+   "rdfs:label": "Have I separated the useful coaching from the parts I disagree with, instead of rejecting the whole message?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/receiving-feedback/check/5",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:receiving-feedback"
+   },
+   "rdfs:label": "Did I close by saying what I will try, or that I want to think it over and come back?"
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/reciprocal-self-disclosure/check/1",
@@ -24066,6 +24198,76 @@
    "dcterms:title": "Comparison of readability scores for written health information across formulas using automated vs manual measures",
    "schema:url": {
     "@id": "https://www.sydneyhealthliteracylab.org.au/health-literacy-editor-publications/1-y9tp7-9mdxz-thy7z"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/receiving-feedback/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Anseel, Beatty, Shen, Lievens & Sackett, Journal of Management 41(1), 318-348 (2015), doi:10.1177/0149206313484521 (open-access copy via CORE)",
+   "dcterms:title": "How Are We Doing After 30 Years? A Meta-Analytic Review of the Antecedents and Outcomes of Feedback-Seeking Behavior",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/155249979.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/receiving-feedback/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Katie Shonk, Program on Negotiation at Harvard Law School, Daily Blog (2026), reporting a talk by Sheila Heen and Douglas Stone",
+   "dcterms:title": "Learning from Feedback Without Losing Your Mind",
+   "schema:url": {
+    "@id": "https://www.pon.harvard.edu/daily/conflict-resolution/learning-from-feedback-without-losing-your-mind"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/receiving-feedback/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Blunden, Kristal, Whillans, Yoon, Burd, Bremner & Yeomans, Management Science (2025), doi:10.1287/mnsc.2022.03207 (CiteDrive record)",
+   "dcterms:title": "Eliciting Advice Instead of Feedback Improves Developmental Input",
+   "schema:url": {
+    "@id": "https://www.citedrive.com/en/discovery/eliciting-advice-instead-of-feedback-improves-developmental-input"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/receiving-feedback/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Harvard Business School Working Knowledge (2026), on research by Ashley Whillans and colleagues",
+   "dcterms:title": "Want Better Performance Reviews? Change This One Word",
+   "schema:url": {
+    "@id": "https://www.library.hbs.edu/working-knowledge/want-better-performance-reviews-change-this-one-word"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/receiving-feedback/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Jennifer Hillyer, Harvard Macy Institute MedEdPearls (2023)",
+   "dcterms:title": "Receiving Feedback - What Do We Really Hear?",
+   "schema:url": {
+    "@id": "https://learn.hms.harvard.edu/insights/all-insights/receiving-feedback-what-do-we-really-hear"
    }
   },
   {

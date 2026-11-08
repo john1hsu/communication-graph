@@ -12,7 +12,9 @@ _No results._
 
 _Which written skills or dispositions have no technique, framework or principle that develops them?_ — `queries/02-skills-without-practice.rq`
 
-_No results._
+| skill | type |
+|---|---|
+| `cm:receiving-feedback` | cmo:Skill |
 
 ## Situations, channels and formats with no guidance (gap)
 
@@ -57,7 +59,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:meeting-agendas` | 1 | unnecessary-meetings |
 | `cm:multiple-equivalent-simultaneous-offers` | 1 | negotiator-dilemma |
 
-…and 13 more.
+…and 14 more.
 
 ## Toolkit by situation
 
@@ -96,7 +98,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:face-to-face-conversation` | `cm:proxemics` |
 | `cm:face-to-face-conversation` | `cm:rapport` |
 
-…and 38 more.
+…and 39 more.
 
 ## Myths and contested advice
 
@@ -135,7 +137,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:common-ground` | mixed | `cm:keysar-et-al-2000` |
 | `cm:communicating-uncertainty` | mixed |  |
 
-…and 67 more.
+…and 68 more.
 
 ## Concepts with no recorded origin (gap)
 

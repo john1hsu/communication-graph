@@ -508,6 +508,15 @@ Ask yourself:
 - Am I using feedforward to avoid a conversation about a real problem that still needs to be discussed?
 - Which of the suggestions will I actually try, and have I told the people who gave them?
 
+### [Receiving feedback](../articles/feedback-and-coaching/receiving-feedback.md) — Skill
+
+Ask yourself:
+- Before I judged this feedback right or wrong, could I say back exactly what they observed and what they want me to do differently?
+- Am I reacting to what was said, to who said it, or to what it seems to say about who I am?
+- Did I ask for one concrete, forward-looking suggestion instead of a general request for any feedback?
+- Have I separated the useful coaching from the parts I disagree with, instead of rejecting the whole message?
+- Did I close by saying what I will try, or that I want to think it over and come back?
+
 ### [Situation-Behavior-Impact](../articles/feedback-and-coaching/situation-behavior-impact.md) — Technique
 
 1. Pin down the situation - the specific meeting, document or moment, with a time and place ("in Tuesday's 10 a.m. client call"), not "lately" or "last week".
