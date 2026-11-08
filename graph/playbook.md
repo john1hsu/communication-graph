@@ -963,6 +963,29 @@ Ask yourself:
 - Have I separated what I must have from what would merely be nice?
 - Would I be comfortable if they saw exactly how I planned this request, or does it rely on spin?
 
+### [Narrative persuasion](../articles/persuasion-and-influence/narrative-persuasion.md) — Technique
+
+1. Decide what you want the listener to think, feel or do at the end, and where they start from today.
+2. Pick one true case that is typical of the problem, not the most dramatic one you can find, and check you may share it (anonymise people and clients).
+3. Build it around a specific character with a goal, an obstacle, what happened and why, and the stakes - concrete enough that the listener can picture it.
+4. Open with the story or a hook from it, keep it short, and cut details that do not move the cause-and-effect chain forward.
+5. Put the numbers right after it to show the story is representative, and say so explicitly ("this happened to roughly one in five new customers last quarter").
+6. Close by linking the story to your specific request, then test it on a colleague and ask what stuck and what felt unconvincing.
+
+*A product manager asks the leadership team to fund a redesign of the customer onboarding flow.*
+
+| Before | After |
+|---|---|
+| Onboarding completion is 61%, down 7 points year on year. Support tickets in the first 30 days are up 18%. I'd like two sprints to redesign the flow. | Last month a 40-person logistics firm signed with us on a Monday. By Thursday their admin had opened four tickets, still couldn't import their driver list, and asked about cancelling. That isn't unusual: completion is down to 61% and early tickets are up 18%. Two sprints on the import and setup steps would fix the exact place she got stuck. Can we add it to Q1? |
+
+**Why:** The rewrite gives leaders one concrete, typical customer to picture and follow from cause to consequence, then uses the figures to show the case is representative and ends with the ask - pairing the story's pull on intentions with the statistics' pull on beliefs.
+
+Ask yourself:
+- Is this story true, and is it typical of the problem rather than the most extreme case I could find?
+- Does the story lead directly to my request, or is it just a warm-up anecdote?
+- Have I given the numbers that show how often this happens, so the audience can judge how far the story generalises?
+- Would I be comfortable if the person in the story, or a sceptical colleague, heard how I told it?
+
 ### [Selling issues to leadership](../articles/persuasion-and-influence/issue-selling.md) — Technique
 
 1. Write the issue in one sentence and link it to a goal, metric or priority your leaders already own, framed as an opportunity where honestly possible.

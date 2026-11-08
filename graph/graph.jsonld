@@ -6201,6 +6201,95 @@
    ]
   },
   {
+   "@id": "cm:narrative-persuasion",
+   "@type": "cmo:Technique",
+   "cmo:complements": {
+    "@id": "cm:statistical-evidence"
+   },
+   "cmo:demonstratedBy": {
+    "@id": "cm:green-brock-2000"
+   },
+   "cmo:domain": "persuasion-and-influence",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/narrative-persuasion/example"
+   },
+   "cmo:explainedBy": {
+    "@id": "cm:narrative-transportation"
+   },
+   "cmo:file": "articles/persuasion-and-influence/narrative-persuasion.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/narrative-persuasion/howto"
+   },
+   "cmo:level": "intermediate",
+   "cmo:requires": {
+    "@id": "cm:audience-analysis"
+   },
+   "cmo:supportedBy": [
+    {
+     "@id": "cm:braddock-dillard-2016"
+    },
+    {
+     "@id": "cm:van-laer-et-al-2014"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/narrative-persuasion/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/narrative-persuasion/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/narrative-persuasion/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/narrative-persuasion/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/narrative-persuasion/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/narrative-persuasion/s6"
+    }
+   ],
+   "rdfs:label": "Narrative persuasion",
+   "skos:altLabel": [
+    "persuading with stories",
+    "persuasive storytelling",
+    "using stories to persuade"
+   ],
+   "skos:broader": {
+    "@id": "cm:persuasion"
+   },
+   "skos:definition": "Making a case through a true, representative story - a particular character facing a problem, with causes and consequences unfolding over time - so that the audience is absorbed in it, rather than through argument or statistics alone; it works mainly through narrative transportation.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/persuasion-and-influence"
+   },
+   "skos:prefLabel": "Narrative persuasion",
+   "skos:related": [
+    {
+     "@id": "cm:audience-analysis"
+    },
+    {
+     "@id": "cm:credibility"
+    },
+    {
+     "@id": "cm:elaboration-likelihood-model"
+    },
+    {
+     "@id": "cm:issue-selling"
+    },
+    {
+     "@id": "cm:presentation"
+    }
+   ]
+  },
+  {
    "@id": "cm:nicholas-epley",
    "@type": "cmo:Person",
    "cmo:authored": {
@@ -13595,6 +13684,107 @@
    "schema:text": "Treat their choice as information about their priorities; if they combine the best parts of different packages, reply with a fresh set of equivalent packages rather than conceding piece by piece."
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/narrative-persuasion/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:narrative-persuasion"
+   },
+   "rdfs:label": "Is this story true, and is it typical of the problem rather than the most extreme case I could find?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/narrative-persuasion/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:narrative-persuasion"
+   },
+   "rdfs:label": "Does the story lead directly to my request, or is it just a warm-up anecdote?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/narrative-persuasion/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:narrative-persuasion"
+   },
+   "rdfs:label": "Have I given the numbers that show how often this happens, so the audience can judge how far the story generalises?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/narrative-persuasion/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:narrative-persuasion"
+   },
+   "rdfs:label": "Would I be comfortable if the person in the story, or a sceptical colleague, heard how I told it?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/narrative-persuasion/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "Last month a 40-person logistics firm signed with us on a Monday. By Thursday their admin had opened four tickets, still couldn't import their driver list, and asked about cancelling. That isn't unusual: completion is down to 61% and early tickets are up 18%. Two sprints on the import and setup steps would fix the exact place she got stuck. Can we add it to Q1?",
+   "cmo:before": "Onboarding completion is 61%, down 7 points year on year. Support tickets in the first 30 days are up 18%. I'd like two sprints to redesign the flow.",
+   "cmo:situation": "A product manager asks the leadership team to fund a redesign of the customer onboarding flow.",
+   "cmo:why": "The rewrite gives leaders one concrete, typical customer to picture and follow from cause to consequence, then uses the figures to show the case is representative and ends with the ask - pairing the story's pull on intentions with the statistics' pull on beliefs."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/narrative-persuasion/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Narrative persuasion",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/narrative-persuasion/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/narrative-persuasion/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/narrative-persuasion/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/narrative-persuasion/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/narrative-persuasion/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/narrative-persuasion/howto/6"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/narrative-persuasion/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Decide what you want the listener to think, feel or do at the end, and where they start from today."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/narrative-persuasion/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Pick one true case that is typical of the problem, not the most dramatic one you can find, and check you may share it (anonymise people and clients)."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/narrative-persuasion/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Build it around a specific character with a goal, an obstacle, what happened and why, and the stakes - concrete enough that the listener can picture it."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/narrative-persuasion/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Open with the story or a hook from it, keep it short, and cut details that do not move the cause-and-effect chain forward."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/narrative-persuasion/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Put the numbers right after it to show the story is representative, and say so explicitly (\"this happened to roughly one in five new customers last quarter\")."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/narrative-persuasion/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "Close by linking the story to your specific request, then test it on a colleague and ask what stuck and what felt unconvincing."
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/nominal-group-technique/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -20871,6 +21061,90 @@
    "dcterms:title": "Influential Scholar",
    "schema:url": {
     "@id": "https://news.njit.edu/node/310"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/narrative-persuasion/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Melanie C. Green & Timothy C. Brock, Journal of Personality and Social Psychology 79(5), 701-721, 2000, doi:10.1037/0022-3514.79.5.701 (full-text PDF copy hosted by gwern.net)",
+   "dcterms:title": "The Role of Transportation in the Persuasiveness of Public Narratives",
+   "schema:url": {
+    "@id": "https://gwern.net/docs/www/pdfs.semanticscholar.org/39691cee32e52fbfc33f1a0316aa0d008cb699a4.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/narrative-persuasion/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Kurt Braddock & James Price Dillard, Communication Monographs, 2016, doi:10.1080/03637751.2015.1128555 (research record, Social Science Research Council MediaWell)",
+   "dcterms:title": "Meta-analytic evidence for the persuasive effect of narratives on beliefs, attitudes, intentions, and behaviors",
+   "schema:url": {
+    "@id": "https://mediawell.ssrc.org/?p=52168"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/narrative-persuasion/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Tom van Laer, Ko de Ruyter, Luca M. Visconti & Martin Wetzels, Journal of Consumer Research 40(5), 797-817, 2014, doi:10.1086/673383 (accepted version, City Research Online)",
+   "dcterms:title": "The Extended Transportation-Imagery Model: A Meta-Analysis of the Antecedents and Consequences of Consumers' Narrative Transportation",
+   "schema:url": {
+    "@id": "https://openaccess.city.ac.uk/id/eprint/6755/1/SSRN-id2033192.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/narrative-persuasion/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Zebregs, van den Putte, Neijens & de Graaf, Health Communication 30(3), 282-289, 2015, doi:10.1080/10410236.2013.842528 (PubMed record)",
+   "dcterms:title": "The differential impact of statistical and narrative evidence on beliefs, attitude, and intention: a meta-analysis",
+   "schema:url": {
+    "@id": "https://pubmed.ncbi.nlm.nih.gov/24836931/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/narrative-persuasion/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Michael F. Dahlstrom, Proceedings of the National Academy of Sciences 111(Suppl. 4), 13614-13620, 2014, doi:10.1073/pnas.1320645111 (PDF copy hosted by the University of Vermont)",
+   "dcterms:title": "Using narratives and storytelling to communicate science with nonexpert audiences",
+   "schema:url": {
+    "@id": "https://uvm.edu/~mjk/195%20Winter%20Tracking%20Specialty/Using%20narratives%20and%20storytelling%20to%20communicate%20science%20with%20nonexpert%20audiences.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/narrative-persuasion/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Jennifer Aaker, Stanford VMware Women's Leadership Innovation Lab, Stanford University",
+   "dcterms:title": "Harnessing the Power of Stories",
+   "schema:url": {
+    "@id": "https://womensleadership.stanford.edu/resources/voice-influence/harnessing-power-stories"
    }
   },
   {

@@ -7052,6 +7052,110 @@
   ]
  },
  {
+  "id": "cm:narrative-persuasion",
+  "title": "Narrative persuasion",
+  "aliases": [
+   "persuasive storytelling",
+   "persuading with stories",
+   "using stories to persuade"
+  ],
+  "type": "Technique",
+  "domain": "persuasion-and-influence",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/persuasion-and-influence/narrative-persuasion.md",
+  "created": "2026-11-08",
+  "summary": "Making a case through a true, representative story - a particular character facing a problem, with causes and consequences unfolding over time - so that the audience is absorbed in it, rather than through argument or statistics alone; it works mainly through narrative transportation.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:persuasion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:elaboration-likelihood-model"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:credibility"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:issue-selling"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:presentation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:audience-analysis"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:audience-analysis"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:narrative-transportation",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:green-brock-2000",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:braddock-dillard-2016",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:van-laer-et-al-2014",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:statistical-evidence",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Is this story true, and is it typical of the problem rather than the most extreme case I could find?",
+   "Does the story lead directly to my request, or is it just a warm-up anecdote?",
+   "Have I given the numbers that show how often this happens, so the audience can judge how far the story generalises?",
+   "Would I be comfortable if the person in the story, or a sceptical colleague, heard how I told it?"
+  ],
+  "steps": [
+   "Decide what you want the listener to think, feel or do at the end, and where they start from today.",
+   "Pick one true case that is typical of the problem, not the most dramatic one you can find, and check you may share it (anonymise people and clients).",
+   "Build it around a specific character with a goal, an obstacle, what happened and why, and the stakes - concrete enough that the listener can picture it.",
+   "Open with the story or a hook from it, keep it short, and cut details that do not move the cause-and-effect chain forward.",
+   "Put the numbers right after it to show the story is representative, and say so explicitly (\"this happened to roughly one in five new customers last quarter\").",
+   "Close by linking the story to your specific request, then test it on a colleague and ask what stuck and what felt unconvincing."
+  ],
+  "example": {
+   "situation": "A product manager asks the leadership team to fund a redesign of the customer onboarding flow.",
+   "before": "Onboarding completion is 61%, down 7 points year on year. Support tickets in the first 30 days are up 18%. I'd like two sprints to redesign the flow.",
+   "after": "Last month a 40-person logistics firm signed with us on a Monday. By Thursday their admin had opened four tickets, still couldn't import their driver list, and asked about cancelling. That isn't unusual: completion is down to 61% and early tickets are up 18%. Two sprints on the import and setup steps would fix the exact place she got stuck. Can we add it to Q1?",
+   "why": "The rewrite gives leaders one concrete, typical customer to picture and follow from cause to consequence, then uses the figures to show the case is representative and ends with the ask - pairing the story's pull on intentions with the statistics' pull on beliefs."
+  },
+  "source_urls": [
+   "https://gwern.net/docs/www/pdfs.semanticscholar.org/39691cee32e52fbfc33f1a0316aa0d008cb699a4.pdf",
+   "https://mediawell.ssrc.org/?p=52168",
+   "https://openaccess.city.ac.uk/id/eprint/6755/1/SSRN-id2033192.pdf",
+   "https://pubmed.ncbi.nlm.nih.gov/24836931/",
+   "https://uvm.edu/~mjk/195%20Winter%20Tracking%20Specialty/Using%20narratives%20and%20storytelling%20to%20communicate%20science%20with%20nonexpert%20audiences.pdf",
+   "https://womensleadership.stanford.edu/resources/voice-influence/harnessing-power-stories"
+  ]
+ },
+ {
   "id": "cm:nicholas-epley",
   "title": "Nicholas Epley",
   "aliases": [
