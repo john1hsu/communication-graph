@@ -12,9 +12,7 @@ _No results._
 
 _Which written skills or dispositions have no technique, framework or principle that develops them?_ — `queries/02-skills-without-practice.rq`
 
-| skill | type |
-|---|---|
-| `cm:receiving-feedback` | cmo:Skill |
+_No results._
 
 ## Situations, channels and formats with no guidance (gap)
 
@@ -39,6 +37,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:plain-language` | 2 | Curse of knowledge, jargon |
 | `cm:presentation-rehearsal` | 2 | Public speaking anxiety, public-speaking |
 | `cm:risk-numbers-as-natural-frequencies` | 2 | Communicating uncertainty to decision makers, base-rate-neglect |
+| `cm:self-affirmation-before-feedback` | 2 | Defensiveness, Receiving feedback |
 | `cm:self-distancing` | 2 | Public speaking anxiety, Spotlight effect |
 | `cm:active-listening` | 1 | Defensiveness |
 | `cm:active-voice` | 1 | unclear-ownership |
@@ -57,9 +56,8 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:integrative-negotiation` | 1 | mythical-fixed-pie |
 | `cm:issue-selling` | 1 | Managing up |
 | `cm:meeting-agendas` | 1 | unnecessary-meetings |
-| `cm:multiple-equivalent-simultaneous-offers` | 1 | negotiator-dilemma |
 
-…and 14 more.
+…and 15 more.
 
 ## Toolkit by situation
 
@@ -137,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:common-ground` | mixed | `cm:keysar-et-al-2000` |
 | `cm:communicating-uncertainty` | mixed |  |
 
-…and 68 more.
+…and 69 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -172,11 +170,11 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:rapport` | cmo:Concept |
 | `cm:reciprocal-self-disclosure` | cmo:Technique |
 | `cm:scheduled-inbox-checks` | cmo:Technique |
+| `cm:self-affirmation-before-feedback` | cmo:Technique |
 | `cm:self-distancing` | cmo:Technique |
 | `cm:self-recording-playback` | cmo:Technique |
-| `cm:setting-reply-time-expectations` | cmo:Technique |
 
-…and 9 more.
+…and 10 more.
 
 ## Orphan articles (gap)
 

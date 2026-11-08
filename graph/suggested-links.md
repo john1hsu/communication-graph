@@ -4,12 +4,12 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 
 | Score | Node A | Node B | Shared neighbours |
 |---|---|---|---|
-| 2.97 | `cm:difficult-conversation` | `cm:situation-behavior-impact` | `cm:active-listening`, `cm:defensiveness`, `cm:feedback`, `cm:i-statements`, `cm:nonviolent-communication` |
-| 2.78 | `cm:active-listening` | `cm:feedback` | `cm:defensiveness`, `cm:difficult-conversation`, `cm:feedforward`, `cm:one-on-one-meetings`, `cm:performance-review` |
+| 2.95 | `cm:difficult-conversation` | `cm:situation-behavior-impact` | `cm:active-listening`, `cm:defensiveness`, `cm:feedback`, `cm:i-statements`, `cm:nonviolent-communication` |
+| 2.76 | `cm:active-listening` | `cm:feedback` | `cm:defensiveness`, `cm:difficult-conversation`, `cm:feedforward`, `cm:one-on-one-meetings`, `cm:performance-review` |
 | 2.72 | `cm:channel-selection` | `cm:egocentric-bias` | `cm:common-ground`, `cm:curse-of-knowledge`, `cm:egocentrism-over-email-study`, `cm:face-to-face-conversation`, `cm:nicholas-epley` |
 | 2.61 | `cm:asynchronous-communication` | `cm:video-call-communication` | `cm:channel-selection`, `cm:digital-communication`, `cm:face-to-face-conversation`, `cm:media-richness-theory`, `cm:workplace-meetings` |
 | 2.52 | `cm:anchoring-and-adjustment` | `cm:thomas-gilovich` | `cm:curse-of-knowledge`, `cm:egocentric-bias`, `cm:gilovich-savitsky-medvec-1998`, `cm:illusion-of-transparency`, `cm:macinnis-mackinnon-macintyre-2010` |
-| 2.42 | `cm:anxiety-reappraisal` | `cm:spotlight-effect` | `cm:illusion-of-transparency`, `cm:macinnis-mackinnon-macintyre-2010`, `cm:self-distancing`, `cm:social-anxiety`, `cm:speaking-anxiety` |
+| 2.40 | `cm:anxiety-reappraisal` | `cm:spotlight-effect` | `cm:illusion-of-transparency`, `cm:macinnis-mackinnon-macintyre-2010`, `cm:self-distancing`, `cm:social-anxiety`, `cm:speaking-anxiety` |
 | 2.39 | `cm:pyramid-principle` | `cm:status-reporting` | `cm:audience-analysis`, `cm:bottom-line-up-front`, `cm:business-report`, `cm:executive-briefing` |
 | 2.34 | `cm:bottom-line-up-front` | `cm:curse-of-knowledge` | `cm:assertion-evidence-slides`, `cm:audience-analysis`, `cm:channel-selection`, `cm:clarity`, `cm:cognitive-load` |
 | 2.26 | `cm:audience-analysis` | `cm:credibility` | `cm:aristotles-rhetoric`, `cm:communicating-uncertainty`, `cm:elaboration-likelihood-model`, `cm:influence-without-authority`, `cm:issue-selling` |
@@ -21,11 +21,11 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 2.06 | `cm:humble-inquiry` | `cm:weger-et-al-2014` | `cm:active-listening`, `cm:advice-giving`, `cm:open-ended-questions` |
 | 2.06 | `cm:face-to-face-conversation` | `cm:zoom-fatigue` | `cm:asynchronous-communication`, `cm:channel-selection`, `cm:media-richness-theory`, `cm:nonverbal-communication`, `cm:proxemics` |
 | 2.05 | `cm:egocentric-bias` | `cm:teach-back` | `cm:checking-understanding`, `cm:clarity`, `cm:common-ground`, `cm:curse-of-knowledge`, `cm:illusion-of-transparency` |
-| 2.05 | `cm:feedforward` | `cm:psychological-safety` | `cm:active-listening`, `cm:defensiveness`, `cm:feedback`, `cm:one-on-one-meetings`, `cm:performance-review` |
 | 2.03 | `cm:facilitation` | `cm:open-ended-questions` | `cm:active-listening`, `cm:meeting-agendas`, `cm:nominal-group-technique`, `cm:paraphrasing`, `cm:psychological-safety` |
 | 2.02 | `cm:nominal-group-technique` | `cm:raci-matrix` | `cm:group-decision-making`, `cm:meeting-agendas`, `cm:stakeholder-mapping`, `cm:workplace-meetings` |
+| 2.02 | `cm:feedforward` | `cm:psychological-safety` | `cm:active-listening`, `cm:defensiveness`, `cm:feedback`, `cm:one-on-one-meetings`, `cm:performance-review` |
 | 2.01 | `cm:audience-analysis` | `cm:cognitive-load` | `cm:bottom-line-up-front`, `cm:curse-of-knowledge`, `cm:elaboration-likelihood-model`, `cm:plain-language`, `cm:presentation` |
-| 2.01 | `cm:defensiveness` | `cm:one-on-one-meetings` | `cm:active-listening`, `cm:feedback`, `cm:feedforward`, `cm:performance-review`, `cm:psychological-safety` |
+| 1.98 | `cm:defensiveness` | `cm:one-on-one-meetings` | `cm:active-listening`, `cm:feedback`, `cm:feedforward`, `cm:performance-review`, `cm:psychological-safety` |
 | 1.98 | `cm:eye-contact` | `cm:video-call-communication` | `cm:camera-level-gaze`, `cm:chen-2002`, `cm:face-to-face-conversation`, `cm:nonverbal-communication`, `cm:proxemics` |
 | 1.98 | `cm:audience-analysis` | `cm:information-overload` | `cm:bottom-line-up-front`, `cm:channel-selection`, `cm:concise-writing`, `cm:email`, `cm:executive-briefing` |
 | 1.98 | `cm:email-urgency-bias-study` | `cm:information-overload` | `cm:asynchronous-communication`, `cm:email`, `cm:setting-reply-time-expectations`, `cm:workplace-stress` |

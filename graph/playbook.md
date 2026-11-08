@@ -517,6 +517,28 @@ Ask yourself:
 - Have I separated the useful coaching from the parts I disagree with, instead of rejecting the whole message?
 - Did I close by saying what I will try, or that I want to think it over and come back?
 
+### [Self-affirmation before feedback](../articles/feedback-and-coaching/self-affirmation-before-feedback.md) — Technique
+
+1. Before a review, debrief or round of comments, set aside five minutes somewhere you will not be interrupted.
+2. Pick one personal value that has nothing to do with the work being judged, such as family, friendship, craft outside work or community.
+3. Write for about five minutes about why that value matters to you and a recent time you acted on it; do not write about the project.
+4. Go into the conversation and, when the critical point lands, ask what they observed and what they suggest before you defend or explain.
+5. Afterwards, list the one or two changes you will try, separating them from the points you still disagree with.
+
+*A product manager is about to hear a director's comments on a launch that slipped two weeks.*
+
+| Before | After |
+|---|---|
+| She walks in braced, interrupts the first critical point to explain the vendor delay, and leaves having heard only that the director thinks she planned badly. | Beforehand she writes for five minutes about why mentoring two junior colleagues matters to her. When the director says the risk log was stale, she asks which risks were missed and agrees to a weekly review, noting the vendor issue separately. |
+
+**Why:** Reflecting on a value outside the project keeps one critical comment from feeling like a verdict on her whole worth, so she can hear the specific fix instead of defending her identity.
+
+Ask yourself:
+- Did I affirm a value unrelated to the work being judged, rather than reassuring myself that the work is fine?
+- Did I do the reflection before the feedback, not as damage control afterwards?
+- When the hardest comment came, did I ask a question before I explained or justified?
+- Am I treating this as a small boost to openness, not a substitute for clear, fair feedback from the giver?
+
 ### [Situation-Behavior-Impact](../articles/feedback-and-coaching/situation-behavior-impact.md) — Technique
 
 1. Pin down the situation - the specific meeting, document or moment, with a time and place ("in Tuesday's 10 a.m. client call"), not "lately" or "last week".

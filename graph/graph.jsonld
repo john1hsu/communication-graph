@@ -9206,6 +9206,96 @@
    ]
   },
   {
+   "@id": "cm:self-affirmation-before-feedback",
+   "@type": "cmo:Technique",
+   "cmo:addresses": {
+    "@id": "cm:defensiveness"
+   },
+   "cmo:challengedBy": {
+    "@id": "cm:values-affirmation-illinois-replication-2021"
+   },
+   "cmo:demonstratedBy": {
+    "@id": "cm:legault-al-khindi-inzlicht-2012"
+   },
+   "cmo:develops": {
+    "@id": "cm:receiving-feedback"
+   },
+   "cmo:domain": "feedback-and-coaching",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/self-affirmation-before-feedback/example"
+   },
+   "cmo:explainedBy": {
+    "@id": "cm:self-affirmation-theory"
+   },
+   "cmo:file": "articles/feedback-and-coaching/self-affirmation-before-feedback.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/self-affirmation-before-feedback/howto"
+   },
+   "cmo:level": "intermediate",
+   "cmo:studiedIn": {
+    "@id": "cm:social-psychology"
+   },
+   "cmo:supportedBy": {
+    "@id": "cm:epton-et-al-2015"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/self-affirmation-before-feedback/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/self-affirmation-before-feedback/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/self-affirmation-before-feedback/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/self-affirmation-before-feedback/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/self-affirmation-before-feedback/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/self-affirmation-before-feedback/s6"
+    }
+   ],
+   "rdfs:label": "Self-affirmation before feedback",
+   "skos:altLabel": [
+    "affirming your values before criticism",
+    "pre-feedback values reflection",
+    "values affirmation before feedback"
+   ],
+   "skos:broader": {
+    "@id": "cm:receiving-feedback"
+   },
+   "skos:definition": "A short exercise done just before hearing criticism or reviewing your own mistakes: you pick a personal value unrelated to the work being judged and spend a few minutes writing why it matters to you, so the feedback threatens less of your self-image and is easier to take in.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/feedback-and-coaching"
+   },
+   "skos:prefLabel": "Self-affirmation before feedback",
+   "skos:related": [
+    {
+     "@id": "cm:anxiety-reappraisal"
+    },
+    {
+     "@id": "cm:defensiveness"
+    },
+    {
+     "@id": "cm:feedback"
+    },
+    {
+     "@id": "cm:performance-review"
+    },
+    {
+     "@id": "cm:self-distancing"
+    }
+   ]
+  },
+  {
    "@id": "cm:self-distancing",
    "@type": "cmo:Technique",
    "cmo:addresses": [
@@ -16117,6 +16207,98 @@
    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/writing",
    "@type": "skos:ConceptScheme",
    "skos:prefLabel": "Business and professional writing"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/self-affirmation-before-feedback/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:self-affirmation-before-feedback"
+   },
+   "rdfs:label": "Did I affirm a value unrelated to the work being judged, rather than reassuring myself that the work is fine?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/self-affirmation-before-feedback/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:self-affirmation-before-feedback"
+   },
+   "rdfs:label": "Did I do the reflection before the feedback, not as damage control afterwards?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/self-affirmation-before-feedback/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:self-affirmation-before-feedback"
+   },
+   "rdfs:label": "When the hardest comment came, did I ask a question before I explained or justified?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/self-affirmation-before-feedback/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:self-affirmation-before-feedback"
+   },
+   "rdfs:label": "Am I treating this as a small boost to openness, not a substitute for clear, fair feedback from the giver?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/self-affirmation-before-feedback/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "Beforehand she writes for five minutes about why mentoring two junior colleagues matters to her. When the director says the risk log was stale, she asks which risks were missed and agrees to a weekly review, noting the vendor issue separately.",
+   "cmo:before": "She walks in braced, interrupts the first critical point to explain the vendor delay, and leaves having heard only that the director thinks she planned badly.",
+   "cmo:situation": "A product manager is about to hear a director's comments on a launch that slipped two weeks.",
+   "cmo:why": "Reflecting on a value outside the project keeps one critical comment from feeling like a verdict on her whole worth, so she can hear the specific fix instead of defending her identity."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/self-affirmation-before-feedback/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Self-affirmation before feedback",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/self-affirmation-before-feedback/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/self-affirmation-before-feedback/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/self-affirmation-before-feedback/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/self-affirmation-before-feedback/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/self-affirmation-before-feedback/howto/5"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/self-affirmation-before-feedback/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Before a review, debrief or round of comments, set aside five minutes somewhere you will not be interrupted."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/self-affirmation-before-feedback/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Pick one personal value that has nothing to do with the work being judged, such as family, friendship, craft outside work or community."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/self-affirmation-before-feedback/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Write for about five minutes about why that value matters to you and a recent time you acted on it; do not write about the project."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/self-affirmation-before-feedback/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Go into the conversation and, when the critical point lands, ask what they observed and what they suggest before you defend or explain."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/self-affirmation-before-feedback/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Afterwards, list the one or two changes you will try, separating them from the points you still disagree with."
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/self-distancing/check/1",
@@ -24534,6 +24716,90 @@
    "dcterms:title": "Network Research Highlight: Batch Your Smartphone Notifications",
    "schema:url": {
     "@id": "https://work21.gatech.edu/?p=402"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/self-affirmation-before-feedback/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Geoffrey L. Cohen & David K. Sherman, Annual Review of Psychology 65, 333-371 (2014), doi:10.1146/annurev-psych-010213-115137",
+   "dcterms:title": "The Psychology of Change: Self-Affirmation and Social Psychological Intervention",
+   "schema:url": {
+    "@id": "https://annualreviews.org/doi/10.1146/annurev-psych-010213-115137"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/self-affirmation-before-feedback/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Association for Psychological Science press release (2012), on Legault, Al-Khindi & Inzlicht, Psychological Science",
+   "dcterms:title": "Self-Affirmation Enhances Performance, Makes Us Receptive to Our Mistakes",
+   "schema:url": {
+    "@id": "https://www.psychologicalscience.org/news/releases/self-affirmation-enhances-performance-makes-us-receptive-to-our-mistakes.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/self-affirmation-before-feedback/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Epton, Harris, Kane, van Koningsbruggen & Sheeran, Health Psychology 34(3), 187-196 (2015), doi:10.1037/hea0000116 (Vrije Universiteit Amsterdam research portal)",
+   "dcterms:title": "The impact of self-affirmation on health-behavior change: a meta-analysis",
+   "schema:url": {
+    "@id": "https://research.vu.nl/en/publications/the-impact-of-self-affirmation-on-health-behavior-change-a-meta-a/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/self-affirmation-before-feedback/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Clayton Critcher, Society for Personality and Social Psychology, Character & Context blog (2015), on Critcher & Dunning, Personality and Social Psychology Bulletin 41, 3-18",
+   "dcterms:title": "Self-Affirmations Work by Broadening Perspective on the Self",
+   "schema:url": {
+    "@id": "https://spsp.org/news-center/character-context-blog/self-affirmations-work-broadening-perspective-self"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/self-affirmation-before-feedback/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Physical Review Physics Education Research 17, 020121 (2021), doi:10.1103/PhysRevPhysEducRes.17.020121",
+   "dcterms:title": "Values affirmation replication at the University of Illinois",
+   "schema:url": {
+    "@id": "https://link.aps.org/doi/10.1103/PhysRevPhysEducRes.17.020121"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/self-affirmation-before-feedback/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Harris, Epton, van Koningsbruggen & Sheeran, European Health Psychologist 16 (Supp.), 2014",
+   "dcterms:title": "The Impact of Self-Affirmation on Health-Behavior Change: a Meta-Analysis (conference abstract)",
+   "schema:url": {
+    "@id": "https://www.ehps.net/ehp/index.php/contents/article/view/271"
    }
   },
   {
