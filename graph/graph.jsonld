@@ -6593,6 +6593,76 @@
    ]
   },
   {
+   "@id": "cm:michael-ross",
+   "@type": "cmo:Person",
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "historical",
+   "cmo:file": "articles/thinkers-and-works/michael-ross.md",
+   "cmo:influenced": [
+    {
+     "@id": "cm:considering-others-contributions-first"
+    },
+    {
+     "@id": "cm:planning-fallacy"
+    }
+   ],
+   "cmo:introduced": {
+    "@id": "cm:egocentric-bias"
+   },
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/michael-ross/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/michael-ross/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/michael-ross/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/michael-ross/s4"
+    }
+   ],
+   "rdfs:label": "Michael Ross",
+   "skos:altLabel": [
+    "Michael Ross (psychologist)",
+    "Mike Ross"
+   ],
+   "skos:definition": "University of Waterloo social psychologist who, with Fiore Sicoly, named and demonstrated egocentric bias in shared work (people claim more credit for joint outcomes than partners grant them), and who co-authored the landmark studies of the planning fallacy behind today's advice on realistic estimates.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "Michael Ross",
+   "skos:related": [
+    {
+     "@id": "cm:considering-others-contributions-first"
+    },
+    {
+     "@id": "cm:curse-of-knowledge"
+    },
+    {
+     "@id": "cm:egocentric-bias"
+    },
+    {
+     "@id": "cm:nicholas-epley"
+    },
+    {
+     "@id": "cm:planning-fallacy"
+    },
+    {
+     "@id": "cm:ross-sicoly-1979"
+    },
+    {
+     "@id": "cm:status-reporting"
+    }
+   ]
+  },
+  {
    "@id": "cm:multicultural-team",
    "@type": "cmo:Context",
    "cmo:demonstratedBy": [
@@ -23544,6 +23614,62 @@
    "dcterms:title": "Organizational Information Requirements, Media Richness and Structural Design",
    "schema:url": {
     "@id": "https://collablab.northwestern.edu//CollabolabDistro/nucmc/DaftAndLengel-OrgInfoReq-MediaRichnessAndStructuralDesign-MngmtSci-1986.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/michael-ross/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Ross, M. & Sicoly, F., chapter 12 in Kahneman, Slovic & Tversky (eds.), Judgment under Uncertainty, Cambridge University Press, 1982 (Cambridge Core)",
+   "dcterms:title": "Egocentric biases in availability and attribution",
+   "schema:url": {
+    "@id": "https://www.cambridge.org/core/product/identifier/CBO9780511809477A024/type/BOOK_PART"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/michael-ross/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Buehler, Griffin & Ross, Journal of Personality and Social Psychology 67(3), 366-381, 1994 (course copy, University of Florida Warrington College of Business)",
+   "dcterms:title": "Exploring the \"planning fallacy\": Why people underestimate their task completion times",
+   "schema:url": {
+    "@id": "https://bear.warrington.ufl.edu/brenner/mar7588/Papers/buehler-et-al-1994.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/michael-ross/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Caruso, Epley & Bazerman, Journal of Personality and Social Psychology 91(5), 857-871, 2006 (author copy, UCLA Anderson Review)",
+   "dcterms:title": "The costs and benefits of undoing egocentric responsibility assessments in groups",
+   "schema:url": {
+    "@id": "https://anderson-review.ucla.edu/wp-content/uploads/2021/03/Caruso-et_al_Undoing_Egocentrism_JPSP2006.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/michael-ross/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Department of Psychology, University of Waterloo, 30 August 2016",
+   "dcterms:title": "Dr. Mike Ross wins Career Contribution Award",
+   "schema:url": {
+    "@id": "https://uwaterloo.ca/psychology/news/dr-mike-ross-wins-career-contribution-award"
    }
   },
   {

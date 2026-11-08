@@ -7490,6 +7490,78 @@
   ]
  },
  {
+  "id": "cm:michael-ross",
+  "title": "Michael Ross",
+  "aliases": [
+   "Mike Ross",
+   "Michael Ross (psychologist)"
+  ],
+  "type": "Person",
+  "domain": "thinkers-and-works",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/thinkers-and-works/michael-ross.md",
+  "created": "2026-11-08",
+  "summary": "University of Waterloo social psychologist who, with Fiore Sicoly, named and demonstrated egocentric bias in shared work (people claim more credit for joint outcomes than partners grant them), and who co-authored the landmark studies of the planning fallacy behind today's advice on realistic estimates.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "cm:egocentric-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:ross-sicoly-1979"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:considering-others-contributions-first"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:nicholas-epley"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:planning-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:status-reporting"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:curse-of-knowledge"
+   },
+   {
+    "predicate": "cmo:introduced",
+    "object": "cm:egocentric-bias",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:influenced",
+    "object": "cm:considering-others-contributions-first",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:influenced",
+    "object": "cm:planning-fallacy",
+    "source": "s2",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://www.cambridge.org/core/product/identifier/CBO9780511809477A024/type/BOOK_PART",
+   "https://bear.warrington.ufl.edu/brenner/mar7588/Papers/buehler-et-al-1994.pdf",
+   "https://anderson-review.ucla.edu/wp-content/uploads/2021/03/Caruso-et_al_Undoing_Egocentrism_JPSP2006.pdf",
+   "https://uwaterloo.ca/psychology/news/dr-mike-ross-wins-career-contribution-award"
+  ]
+ },
+ {
   "id": "cm:multicultural-team",
   "title": "Multicultural team",
   "aliases": [
