@@ -9561,6 +9561,112 @@
    ]
   },
   {
+   "@id": "cm:salary-negotiation",
+   "@type": "cmo:Context",
+   "cmo:demonstratedBy": [
+    {
+     "@id": "cm:bowles-babcock-lai-2007"
+    },
+    {
+     "@id": "cm:bowles-babcock-mcginn-2005"
+    },
+    {
+     "@id": "cm:cullen-pakzad-hurson-perez-truglia-2025"
+    },
+    {
+     "@id": "cm:hart-bear-ren-2024"
+    },
+    {
+     "@id": "cm:mazei-et-al-2015"
+    }
+   ],
+   "cmo:domain": "negotiation",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:explainedBy": {
+    "@id": "cm:mythical-fixed-pie"
+   },
+   "cmo:file": "articles/negotiation/salary-negotiation.md",
+   "cmo:level": "introductory",
+   "cmo:requires": {
+    "@id": "cm:batna"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s6"
+    }
+   ],
+   "rdfs:label": "Salary negotiation",
+   "skos:altLabel": [
+    "compensation negotiation",
+    "job offer negotiation",
+    "negotiating a job offer",
+    "negotiating salary",
+    "pay negotiation"
+   ],
+   "skos:broader": {
+    "@id": "cm:negotiation"
+   },
+   "skos:definition": "The recurring workplace situation in which a candidate and an employer settle pay and other terms of a job offer (or an existing employee asks for a raise). It rewards preparation and a clear, polite ask, and it carries risks - mostly smaller than candidates fear - that depend on information, framing and who is asking.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/negotiation"
+   },
+   "skos:prefLabel": "Salary negotiation",
+   "skos:related": [
+    {
+     "@id": "cm:concession-strategy"
+    },
+    {
+     "@id": "cm:first-offer"
+    },
+    {
+     "@id": "cm:integrative-negotiation"
+    },
+    {
+     "@id": "cm:interests-vs-positions"
+    },
+    {
+     "@id": "cm:job-interview"
+    },
+    {
+     "@id": "cm:multiple-equivalent-simultaneous-offers"
+    },
+    {
+     "@id": "cm:negotiation-preparation"
+    },
+    {
+     "@id": "cm:perspective-taking"
+    },
+    {
+     "@id": "cm:reservation-value"
+    },
+    {
+     "@id": "cm:wait-time"
+    },
+    {
+     "@id": "cm:zone-of-possible-agreement"
+    }
+   ]
+  },
+  {
    "@id": "cm:scheduled-inbox-checks",
    "@type": "cmo:Technique",
    "cmo:addresses": {
@@ -25862,6 +25968,90 @@
    "dcterms:title": "The view from the other side of the table",
    "schema:url": {
     "@id": "https://business.columbia.edu/faculty/research/view-other-side-table"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Hart, E., Bear, J. B. & Ren, Z., Organizational Behavior and Human Decision Processes 181, 104319, 2024, doi:10.1016/j.obhdp.2024.104319 (Stony Brook University research portal record)",
+   "dcterms:title": "But what if I lose the offer? Negotiators' inflated perception of their likelihood of jeopardizing a deal",
+   "schema:url": {
+    "@id": "https://researchconnect.stonybrook.edu/en/publications/but-what-if-i-lose-the-offer-negotiators-inflated-perception-of-t/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Bowles, H. R., Babcock, L. & McGinn, K. L., Journal of Personality and Social Psychology 89(6), 951-965, 2005, doi:10.1037/0022-3514.89.6.951 (Harvard DASH open-access copy)",
+   "dcterms:title": "Constraints and triggers: Situational mechanics of gender in negotiation",
+   "schema:url": {
+    "@id": "https://dash.harvard.edu/server/api/core/bitstreams/496194ed-c69b-4c56-b187-b95bd4e08cfa/content"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Bowles, H. R., Babcock, L. & Lai, L., Organizational Behavior and Human Decision Processes 103(1), 84-103, 2007, doi:10.1016/j.obhdp.2006.09.001 (Harvard DASH open-access copy)",
+   "dcterms:title": "Social incentives for gender differences in the propensity to initiate negotiations: Sometimes it does hurt to ask",
+   "schema:url": {
+    "@id": "https://dash.harvard.edu/bitstream/handle/1/38437278/Bowles%20Babcock%20%26%20Lai%202007.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Mazei, J., Hüffmeier, J., Freund, P. A., Stuhlmacher, A. F., Bilke, L. & Hertel, G., Psychological Bulletin 141(1), 85-104, 2015, doi:10.1037/a0038184 (Leuphana University research record)",
+   "dcterms:title": "A meta-analysis on gender differences in negotiation outcomes and their moderators",
+   "schema:url": {
+    "@id": "https://fis.leuphana.de/en/publications/a-meta-analysis-on-gender-differences-in-negotiation-outcomes-and/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Kim Parker, Pew Research Center, 5 April 2023",
+   "dcterms:title": "When negotiating starting salaries, most U.S. women and men don't ask for higher pay",
+   "schema:url": {
+    "@id": "https://www.pewresearch.org/short-reads/2023/04/05/when-negotiating-starting-salaries-most-us-women-and-men-dont-ask-for-higher-pay/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Dee Gill, UCLA Anderson Review, 15 October 2025 (on Cullen, Pakzad-Hurson & Perez-Truglia, NBER Working Paper 33903)",
+   "dcterms:title": "Most Job Seekers Skip Negotiation - and Pay a High Price",
+   "schema:url": {
+    "@id": "https://anderson-review.ucla.edu/most-job-seekers-skip-negotiation-and-pay-a-high-price/"
    }
   },
   {

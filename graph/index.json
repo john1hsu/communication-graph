@@ -10900,6 +10900,125 @@
   ]
  },
  {
+  "id": "cm:salary-negotiation",
+  "title": "Salary negotiation",
+  "aliases": [
+   "negotiating salary",
+   "pay negotiation",
+   "job offer negotiation",
+   "negotiating a job offer",
+   "compensation negotiation"
+  ],
+  "type": "Context",
+  "domain": "negotiation",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/negotiation/salary-negotiation.md",
+  "created": "2026-11-08",
+  "summary": "The recurring workplace situation in which a candidate and an employer settle pay and other terms of a job offer (or an existing employee asks for a raise). It rewards preparation and a clear, polite ask, and it carries risks - mostly smaller than candidates fear - that depend on information, framing and who is asking.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:negotiation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:first-offer"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:zone-of-possible-agreement"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:reservation-value"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:multiple-equivalent-simultaneous-offers"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:interests-vs-positions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:integrative-negotiation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:concession-strategy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:perspective-taking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:wait-time"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:job-interview"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:negotiation-preparation"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:batna"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:hart-bear-ren-2024",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:mythical-fixed-pie",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:bowles-babcock-mcginn-2005",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:bowles-babcock-lai-2007",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:mazei-et-al-2015",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:cullen-pakzad-hurson-perez-truglia-2025",
+    "source": "s6",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://researchconnect.stonybrook.edu/en/publications/but-what-if-i-lose-the-offer-negotiators-inflated-perception-of-t/",
+   "https://dash.harvard.edu/server/api/core/bitstreams/496194ed-c69b-4c56-b187-b95bd4e08cfa/content",
+   "https://dash.harvard.edu/bitstream/handle/1/38437278/Bowles%20Babcock%20%26%20Lai%202007.pdf",
+   "https://fis.leuphana.de/en/publications/a-meta-analysis-on-gender-differences-in-negotiation-outcomes-and/",
+   "https://www.pewresearch.org/short-reads/2023/04/05/when-negotiating-starting-salaries-most-us-women-and-men-dont-ask-for-higher-pay/",
+   "https://anderson-review.ucla.edu/most-job-seekers-skip-negotiation-and-pay-a-high-price/"
+  ]
+ },
+ {
   "id": "cm:scheduled-inbox-checks",
   "title": "Scheduled inbox checks",
   "aliases": [

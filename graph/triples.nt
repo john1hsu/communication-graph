@@ -5649,6 +5649,46 @@
 <https://github.com/john1hsu/communication-graph/id/role-reversal> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/jacob-l-moreno> .
 <https://github.com/john1hsu/communication-graph/id/role-reversal> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/communication-graph/id/role-reversal> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+<https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://purl.org/dc/terms/created> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Context> .
+<https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://www.w3.org/2000/01/rdf-schema#label> "Salary negotiation" .
+<https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://www.w3.org/2004/02/skos/core#altLabel> "compensation negotiation" .
+<https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://www.w3.org/2004/02/skos/core#altLabel> "job offer negotiation" .
+<https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://www.w3.org/2004/02/skos/core#altLabel> "negotiating a job offer" .
+<https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://www.w3.org/2004/02/skos/core#altLabel> "negotiating salary" .
+<https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://www.w3.org/2004/02/skos/core#altLabel> "pay negotiation" .
+<https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/negotiation> .
+<https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://www.w3.org/2004/02/skos/core#definition> "The recurring workplace situation in which a candidate and an employer settle pay and other terms of a job offer (or an existing employee asks for a raise). It rewards preparation and a clear, polite ask, and it carries risks - mostly smaller than candidates fear - that depend on information, framing and who is asking." .
+<https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/negotiation> .
+<https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://www.w3.org/2004/02/skos/core#prefLabel> "Salary negotiation" .
+<https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/concession-strategy> .
+<https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/first-offer> .
+<https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/integrative-negotiation> .
+<https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/interests-vs-positions> .
+<https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/job-interview> .
+<https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers> .
+<https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/negotiation-preparation> .
+<https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/perspective-taking> .
+<https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/reservation-value> .
+<https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/wait-time> .
+<https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> .
+<https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s1> .
+<https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s2> .
+<https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s3> .
+<https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s4> .
+<https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s5> .
+<https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s6> .
+<https://github.com/john1hsu/communication-graph/id/salary-negotiation> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/bowles-babcock-lai-2007> .
+<https://github.com/john1hsu/communication-graph/id/salary-negotiation> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/bowles-babcock-mcginn-2005> .
+<https://github.com/john1hsu/communication-graph/id/salary-negotiation> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/cullen-pakzad-hurson-perez-truglia-2025> .
+<https://github.com/john1hsu/communication-graph/id/salary-negotiation> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/hart-bear-ren-2024> .
+<https://github.com/john1hsu/communication-graph/id/salary-negotiation> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/mazei-et-al-2015> .
+<https://github.com/john1hsu/communication-graph/id/salary-negotiation> <https://github.com/john1hsu/communication-graph/ontology#domain> "negotiation" .
+<https://github.com/john1hsu/communication-graph/id/salary-negotiation> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/salary-negotiation> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/mythical-fixed-pie> .
+<https://github.com/john1hsu/communication-graph/id/salary-negotiation> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/negotiation/salary-negotiation.md" .
+<https://github.com/john1hsu/communication-graph/id/salary-negotiation> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/salary-negotiation> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/batna> .
 <https://github.com/john1hsu/communication-graph/id/scheduled-inbox-checks/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/scheduled-inbox-checks/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Do the people who depend on me know when I will see their message and how to reach me if it cannot wait?" .
 <https://github.com/john1hsu/communication-graph/id/scheduled-inbox-checks/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/scheduled-inbox-checks> .
@@ -9819,6 +9859,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/role-reversal/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/role-reversal/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
 <https://github.com/john1hsu/communication-graph/id/source/role-reversal/s5> <https://schema.org/url> <https://business.columbia.edu/faculty/research/view-other-side-table> .
+<https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s1> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s1> <http://purl.org/dc/terms/publisher> "Hart, E., Bear, J. B. & Ren, Z., Organizational Behavior and Human Decision Processes 181, 104319, 2024, doi:10.1016/j.obhdp.2024.104319 (Stony Brook University research portal record)" .
+<https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s1> <http://purl.org/dc/terms/title> "But what if I lose the offer? Negotiators' inflated perception of their likelihood of jeopardizing a deal" .
+<https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s1> <https://schema.org/url> <https://researchconnect.stonybrook.edu/en/publications/but-what-if-i-lose-the-offer-negotiators-inflated-perception-of-t/> .
+<https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s2> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s2> <http://purl.org/dc/terms/publisher> "Bowles, H. R., Babcock, L. & McGinn, K. L., Journal of Personality and Social Psychology 89(6), 951-965, 2005, doi:10.1037/0022-3514.89.6.951 (Harvard DASH open-access copy)" .
+<https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s2> <http://purl.org/dc/terms/title> "Constraints and triggers: Situational mechanics of gender in negotiation" .
+<https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s2> <https://schema.org/url> <https://dash.harvard.edu/server/api/core/bitstreams/496194ed-c69b-4c56-b187-b95bd4e08cfa/content> .
+<https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s3> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s3> <http://purl.org/dc/terms/publisher> "Bowles, H. R., Babcock, L. & Lai, L., Organizational Behavior and Human Decision Processes 103(1), 84-103, 2007, doi:10.1016/j.obhdp.2006.09.001 (Harvard DASH open-access copy)" .
+<https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s3> <http://purl.org/dc/terms/title> "Social incentives for gender differences in the propensity to initiate negotiations: Sometimes it does hurt to ask" .
+<https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s3> <https://schema.org/url> <https://dash.harvard.edu/bitstream/handle/1/38437278/Bowles%20Babcock%20%26%20Lai%202007.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s4> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s4> <http://purl.org/dc/terms/publisher> "Mazei, J., Hüffmeier, J., Freund, P. A., Stuhlmacher, A. F., Bilke, L. & Hertel, G., Psychological Bulletin 141(1), 85-104, 2015, doi:10.1037/a0038184 (Leuphana University research record)" .
+<https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s4> <http://purl.org/dc/terms/title> "A meta-analysis on gender differences in negotiation outcomes and their moderators" .
+<https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s4> <https://schema.org/url> <https://fis.leuphana.de/en/publications/a-meta-analysis-on-gender-differences-in-negotiation-outcomes-and/> .
+<https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s5> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s5> <http://purl.org/dc/terms/publisher> "Kim Parker, Pew Research Center, 5 April 2023" .
+<https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s5> <http://purl.org/dc/terms/title> "When negotiating starting salaries, most U.S. women and men don't ask for higher pay" .
+<https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s5> <https://schema.org/url> <https://www.pewresearch.org/short-reads/2023/04/05/when-negotiating-starting-salaries-most-us-women-and-men-dont-ask-for-higher-pay/> .
+<https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s6> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s6> <http://purl.org/dc/terms/publisher> "Dee Gill, UCLA Anderson Review, 15 October 2025 (on Cullen, Pakzad-Hurson & Perez-Truglia, NBER Working Paper 33903)" .
+<https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s6> <http://purl.org/dc/terms/title> "Most Job Seekers Skip Negotiation - and Pay a High Price" .
+<https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s6> <https://schema.org/url> <https://anderson-review.ucla.edu/most-job-seekers-skip-negotiation-and-pay-a-high-price/> .
 <https://github.com/john1hsu/communication-graph/id/source/scheduled-inbox-checks/s1> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/scheduled-inbox-checks/s1> <http://purl.org/dc/terms/publisher> "Kostadin Kushlev & Elizabeth W. Dunn, Computers in Human Behavior 43, 220-228, 2015 (author copy, interruptions.net)" .
 <https://github.com/john1hsu/communication-graph/id/source/scheduled-inbox-checks/s1> <http://purl.org/dc/terms/title> "Checking email less frequently reduces stress" .

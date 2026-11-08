@@ -15,7 +15,6 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 2.39 | `cm:pyramid-principle` | `cm:status-reporting` | `cm:audience-analysis`, `cm:bottom-line-up-front`, `cm:business-report`, `cm:executive-briefing` |
 | 2.33 | `cm:bottom-line-up-front` | `cm:curse-of-knowledge` | `cm:assertion-evidence-slides`, `cm:audience-analysis`, `cm:channel-selection`, `cm:clarity`, `cm:cognitive-load` |
 | 2.29 | `cm:managing-up` | `cm:persuasion` | `cm:audience-analysis`, `cm:influence-without-authority`, `cm:issue-selling`, `cm:lee-et-al-2017`, `cm:stakeholder-mapping` |
-| 2.22 | `cm:interests-vs-positions` | `cm:multiple-equivalent-simultaneous-offers` | `cm:batna`, `cm:integrative-negotiation`, `cm:principled-negotiation`, `cm:salary-negotiation`, `cm:zone-of-possible-agreement` |
 | 2.15 | `cm:rapport` | `cm:video-call-communication` | `cm:camera-level-gaze`, `cm:channel-selection`, `cm:credibility`, `cm:face-to-face-conversation`, `cm:nonverbal-communication` |
 | 2.15 | `cm:egocentric-bias` | `cm:macinnis-mackinnon-macintyre-2010` | `cm:anchoring-and-adjustment`, `cm:gilovich-savitsky-medvec-1998`, `cm:illusion-of-transparency`, `cm:social-psychology`, `cm:spotlight-effect` |
 | 2.15 | `cm:audience-analysis` | `cm:illusion-of-transparency` | `cm:clarity`, `cm:common-ground`, `cm:communicating-uncertainty`, `cm:curse-of-knowledge`, `cm:email` |
@@ -25,6 +24,7 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 2.05 | `cm:egocentric-bias` | `cm:teach-back` | `cm:checking-understanding`, `cm:clarity`, `cm:common-ground`, `cm:curse-of-knowledge`, `cm:illusion-of-transparency` |
 | 2.05 | `cm:humble-inquiry` | `cm:weger-et-al-2014` | `cm:active-listening`, `cm:advice-giving`, `cm:open-ended-questions` |
 | 2.04 | `cm:paraphrasing` | `cm:psychological-safety` | `cm:active-listening`, `cm:difficult-conversation`, `cm:facilitation`, `cm:interrupting`, `cm:open-ended-questions` |
+| 2.03 | `cm:interests-vs-positions` | `cm:multiple-equivalent-simultaneous-offers` | `cm:batna`, `cm:integrative-negotiation`, `cm:principled-negotiation`, `cm:salary-negotiation`, `cm:zone-of-possible-agreement` |
 | 2.02 | `cm:nominal-group-technique` | `cm:raci-matrix` | `cm:group-decision-making`, `cm:meeting-agendas`, `cm:stakeholder-mapping`, `cm:workplace-meetings` |
 | 2.01 | `cm:feedforward` | `cm:psychological-safety` | `cm:active-listening`, `cm:defensiveness`, `cm:feedback`, `cm:one-on-one-meetings`, `cm:performance-review` |
 | 2.01 | `cm:facilitation` | `cm:open-ended-questions` | `cm:active-listening`, `cm:meeting-agendas`, `cm:nominal-group-technique`, `cm:paraphrasing`, `cm:psychological-safety` |

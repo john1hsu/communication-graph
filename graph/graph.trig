@@ -625,6 +625,15 @@
 <https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/multiple-equivalent-simultaneous-offers/s2> .
 <https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/multiple-equivalent-simultaneous-offers/s3> .
 <https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/multiple-equivalent-simultaneous-offers/s4> .
+<https://github.com/john1hsu/communication-graph/id/salary-negotiation#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/salary-negotiation#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/salary-negotiation> .
+<https://github.com/john1hsu/communication-graph/id/salary-negotiation#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/negotiation/salary-negotiation.md" .
+<https://github.com/john1hsu/communication-graph/id/salary-negotiation#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s1> .
+<https://github.com/john1hsu/communication-graph/id/salary-negotiation#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s2> .
+<https://github.com/john1hsu/communication-graph/id/salary-negotiation#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s3> .
+<https://github.com/john1hsu/communication-graph/id/salary-negotiation#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s4> .
+<https://github.com/john1hsu/communication-graph/id/salary-negotiation#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s5> .
+<https://github.com/john1hsu/communication-graph/id/salary-negotiation#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s6> .
 <https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> .
 <https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/negotiation/zone-of-possible-agreement.md" .
@@ -7937,6 +7946,85 @@
   <https://github.com/john1hsu/communication-graph/id/source/multiple-equivalent-simultaneous-offers/s4> <https://schema.org/url> <https://impact.monash.edu/management/the-art-of-the-deal-negotiate-like-a-pro/> .
 }
 
+<https://github.com/john1hsu/communication-graph/id/salary-negotiation#graph> {
+  <https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://purl.org/dc/terms/created> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Context> .
+  <https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://www.w3.org/2000/01/rdf-schema#label> "Salary negotiation" .
+  <https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://www.w3.org/2004/02/skos/core#altLabel> "compensation negotiation" .
+  <https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://www.w3.org/2004/02/skos/core#altLabel> "job offer negotiation" .
+  <https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://www.w3.org/2004/02/skos/core#altLabel> "negotiating a job offer" .
+  <https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://www.w3.org/2004/02/skos/core#altLabel> "negotiating salary" .
+  <https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://www.w3.org/2004/02/skos/core#altLabel> "pay negotiation" .
+  <https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/negotiation> .
+  <https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://www.w3.org/2004/02/skos/core#definition> "The recurring workplace situation in which a candidate and an employer settle pay and other terms of a job offer (or an existing employee asks for a raise). It rewards preparation and a clear, polite ask, and it carries risks - mostly smaller than candidates fear - that depend on information, framing and who is asking." .
+  <https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/negotiation> .
+  <https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://www.w3.org/2004/02/skos/core#prefLabel> "Salary negotiation" .
+  <https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/concession-strategy> .
+  <https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/first-offer> .
+  <https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/integrative-negotiation> .
+  <https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/interests-vs-positions> .
+  <https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/job-interview> .
+  <https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers> .
+  <https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/negotiation-preparation> .
+  <https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/perspective-taking> .
+  <https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/reservation-value> .
+  <https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/wait-time> .
+  <https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> .
+  <https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s1> .
+  <https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s2> .
+  <https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s3> .
+  <https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s4> .
+  <https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s5> .
+  <https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s6> .
+  <https://github.com/john1hsu/communication-graph/id/salary-negotiation> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/bowles-babcock-lai-2007> .
+  <https://github.com/john1hsu/communication-graph/id/salary-negotiation> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/bowles-babcock-mcginn-2005> .
+  <https://github.com/john1hsu/communication-graph/id/salary-negotiation> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/cullen-pakzad-hurson-perez-truglia-2025> .
+  <https://github.com/john1hsu/communication-graph/id/salary-negotiation> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/hart-bear-ren-2024> .
+  <https://github.com/john1hsu/communication-graph/id/salary-negotiation> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/mazei-et-al-2015> .
+  <https://github.com/john1hsu/communication-graph/id/salary-negotiation> <https://github.com/john1hsu/communication-graph/ontology#domain> "negotiation" .
+  <https://github.com/john1hsu/communication-graph/id/salary-negotiation> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+  <https://github.com/john1hsu/communication-graph/id/salary-negotiation> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/mythical-fixed-pie> .
+  <https://github.com/john1hsu/communication-graph/id/salary-negotiation> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/negotiation/salary-negotiation.md" .
+  <https://github.com/john1hsu/communication-graph/id/salary-negotiation> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+  <https://github.com/john1hsu/communication-graph/id/salary-negotiation> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/batna> .
+  <https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s1> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s1> <http://purl.org/dc/terms/publisher> "Hart, E., Bear, J. B. & Ren, Z., Organizational Behavior and Human Decision Processes 181, 104319, 2024, doi:10.1016/j.obhdp.2024.104319 (Stony Brook University research portal record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s1> <http://purl.org/dc/terms/title> "But what if I lose the offer? Negotiators' inflated perception of their likelihood of jeopardizing a deal" .
+  <https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s1> <https://schema.org/url> <https://researchconnect.stonybrook.edu/en/publications/but-what-if-i-lose-the-offer-negotiators-inflated-perception-of-t/> .
+  <https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s2> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s2> <http://purl.org/dc/terms/publisher> "Bowles, H. R., Babcock, L. & McGinn, K. L., Journal of Personality and Social Psychology 89(6), 951-965, 2005, doi:10.1037/0022-3514.89.6.951 (Harvard DASH open-access copy)" .
+  <https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s2> <http://purl.org/dc/terms/title> "Constraints and triggers: Situational mechanics of gender in negotiation" .
+  <https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s2> <https://schema.org/url> <https://dash.harvard.edu/server/api/core/bitstreams/496194ed-c69b-4c56-b187-b95bd4e08cfa/content> .
+  <https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s3> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s3> <http://purl.org/dc/terms/publisher> "Bowles, H. R., Babcock, L. & Lai, L., Organizational Behavior and Human Decision Processes 103(1), 84-103, 2007, doi:10.1016/j.obhdp.2006.09.001 (Harvard DASH open-access copy)" .
+  <https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s3> <http://purl.org/dc/terms/title> "Social incentives for gender differences in the propensity to initiate negotiations: Sometimes it does hurt to ask" .
+  <https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s3> <https://schema.org/url> <https://dash.harvard.edu/bitstream/handle/1/38437278/Bowles%20Babcock%20%26%20Lai%202007.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s4> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s4> <http://purl.org/dc/terms/publisher> "Mazei, J., Hüffmeier, J., Freund, P. A., Stuhlmacher, A. F., Bilke, L. & Hertel, G., Psychological Bulletin 141(1), 85-104, 2015, doi:10.1037/a0038184 (Leuphana University research record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s4> <http://purl.org/dc/terms/title> "A meta-analysis on gender differences in negotiation outcomes and their moderators" .
+  <https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s4> <https://schema.org/url> <https://fis.leuphana.de/en/publications/a-meta-analysis-on-gender-differences-in-negotiation-outcomes-and/> .
+  <https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s5> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s5> <http://purl.org/dc/terms/publisher> "Kim Parker, Pew Research Center, 5 April 2023" .
+  <https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s5> <http://purl.org/dc/terms/title> "When negotiating starting salaries, most U.S. women and men don't ask for higher pay" .
+  <https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+  <https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s5> <https://schema.org/url> <https://www.pewresearch.org/short-reads/2023/04/05/when-negotiating-starting-salaries-most-us-women-and-men-dont-ask-for-higher-pay/> .
+  <https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s6> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s6> <http://purl.org/dc/terms/publisher> "Dee Gill, UCLA Anderson Review, 15 October 2025 (on Cullen, Pakzad-Hurson & Perez-Truglia, NBER Working Paper 33903)" .
+  <https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s6> <http://purl.org/dc/terms/title> "Most Job Seekers Skip Negotiation - and Pay a High Price" .
+  <https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s6> <https://schema.org/url> <https://anderson-review.ucla.edu/most-job-seekers-skip-negotiation-and-pay-a-high-price/> .
+}
+
 <https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement#graph> {
   <https://github.com/john1hsu/communication-graph/id/source/zone-of-possible-agreement/s1> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
   <https://github.com/john1hsu/communication-graph/id/source/zone-of-possible-agreement/s1> <http://purl.org/dc/terms/publisher> "Katie Shonk, Program on Negotiation at Harvard Law School, 2026" .
@@ -13318,6 +13406,7 @@
   <https://github.com/john1hsu/communication-graph/id/batna> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/first-offer> .
   <https://github.com/john1hsu/communication-graph/id/batna> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/integrative-negotiation> .
   <https://github.com/john1hsu/communication-graph/id/batna> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers> .
+  <https://github.com/john1hsu/communication-graph/id/batna> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/salary-negotiation> .
   <https://github.com/john1hsu/communication-graph/id/batna> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> .
   <https://github.com/john1hsu/communication-graph/id/becker-et-al-2019> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/email-urgency-bias-study> .
   <https://github.com/john1hsu/communication-graph/id/behavior-purpose-and-teleology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -13382,6 +13471,12 @@
   <https://github.com/john1hsu/communication-graph/id/bourhis-allen-1998> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/bourhis-allen-1998> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/bourhis-allen-1998> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/self-recording-playback> .
+  <https://github.com/john1hsu/communication-graph/id/bowles-babcock-lai-2007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/bowles-babcock-lai-2007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
+  <https://github.com/john1hsu/communication-graph/id/bowles-babcock-lai-2007> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/salary-negotiation> .
+  <https://github.com/john1hsu/communication-graph/id/bowles-babcock-mcginn-2005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/bowles-babcock-mcginn-2005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
+  <https://github.com/john1hsu/communication-graph/id/bowles-babcock-mcginn-2005> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/salary-negotiation> .
   <https://github.com/john1hsu/communication-graph/id/braddock-dillard-2016> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/narrative-persuasion> .
   <https://github.com/john1hsu/communication-graph/id/brainstorming> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/1-2-4-all> .
   <https://github.com/john1hsu/communication-graph/id/brainstorming> <https://github.com/john1hsu/communication-graph/ontology#alternativeTo> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> .
@@ -13667,6 +13762,7 @@
   <https://github.com/john1hsu/communication-graph/id/concession-strategy> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/distributive-negotiation> .
   <https://github.com/john1hsu/communication-graph/id/concession-strategy> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/negotiation-preparation> .
   <https://github.com/john1hsu/communication-graph/id/concession-strategy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/charles-osgood> .
+  <https://github.com/john1hsu/communication-graph/id/concession-strategy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/salary-negotiation> .
   <https://github.com/john1hsu/communication-graph/id/concession-strategy> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/charles-osgood> .
   <https://github.com/john1hsu/communication-graph/id/concession-strategy> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/batna> .
   <https://github.com/john1hsu/communication-graph/id/concise-writing/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -13733,6 +13829,9 @@
   <https://github.com/john1hsu/communication-graph/id/cross-functional-collaboration> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/persuasion> .
   <https://github.com/john1hsu/communication-graph/id/crucial-conversations> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/difficult-conversation> .
   <https://github.com/john1hsu/communication-graph/id/ctss-mail> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/ray-tomlinson> .
+  <https://github.com/john1hsu/communication-graph/id/cullen-pakzad-hurson-perez-truglia-2025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/cullen-pakzad-hurson-perez-truglia-2025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
+  <https://github.com/john1hsu/communication-graph/id/cullen-pakzad-hurson-perez-truglia-2025> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/salary-negotiation> .
   <https://github.com/john1hsu/communication-graph/id/cultures-consequences> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/cultures-consequences> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
   <https://github.com/john1hsu/communication-graph/id/cultures-consequences> <https://github.com/john1hsu/communication-graph/ontology#introduces> <https://github.com/john1hsu/communication-graph/id/hofstede-cultural-dimensions> .
@@ -14226,6 +14325,7 @@
   <https://github.com/john1hsu/communication-graph/id/first-offer> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> .
   <https://github.com/john1hsu/communication-graph/id/first-offer> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/concession-strategy> .
   <https://github.com/john1hsu/communication-graph/id/first-offer> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/integrative-negotiation> .
+  <https://github.com/john1hsu/communication-graph/id/first-offer> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/salary-negotiation> .
   <https://github.com/john1hsu/communication-graph/id/first-offer> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/batna> .
   <https://github.com/john1hsu/communication-graph/id/first-offer> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/adam-galinsky> .
   <https://github.com/john1hsu/communication-graph/id/fitz-et-al-2019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -14352,6 +14452,9 @@
   <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/vocal-delivery> .
   <https://github.com/john1hsu/communication-graph/id/handling-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/presentation> .
+  <https://github.com/john1hsu/communication-graph/id/hart-bear-ren-2024> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/hart-bear-ren-2024> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
+  <https://github.com/john1hsu/communication-graph/id/hart-bear-ren-2024> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/salary-negotiation> .
   <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996> .
   <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> .
   <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/feedback> .
@@ -14536,6 +14639,7 @@
   <https://github.com/john1hsu/communication-graph/id/integrative-negotiation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/concession-strategy> .
   <https://github.com/john1hsu/communication-graph/id/integrative-negotiation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/interests-vs-positions> .
   <https://github.com/john1hsu/communication-graph/id/integrative-negotiation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/role-reversal> .
+  <https://github.com/john1hsu/communication-graph/id/integrative-negotiation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/salary-negotiation> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
@@ -14568,6 +14672,7 @@
   <https://github.com/john1hsu/communication-graph/id/interests-vs-positions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/interests-vs-positions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/interests-vs-positions> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/negotiation> .
+  <https://github.com/john1hsu/communication-graph/id/interests-vs-positions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/salary-negotiation> .
   <https://github.com/john1hsu/communication-graph/id/intergroup-contact> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/ethnocentrism> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -14664,6 +14769,7 @@
   <https://github.com/john1hsu/communication-graph/id/jeremy-jamieson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/jeremy-jamieson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/jeremy-jamieson> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> .
+  <https://github.com/john1hsu/communication-graph/id/job-interview> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/salary-negotiation> .
   <https://github.com/john1hsu/communication-graph/id/job-interview> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/camera-level-gaze> .
   <https://github.com/john1hsu/communication-graph/id/john-hattie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/john-hattie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
@@ -14866,6 +14972,9 @@
   <https://github.com/john1hsu/communication-graph/id/mary-budd-rowe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/mary-budd-rowe> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/wait-time> .
   <https://github.com/john1hsu/communication-graph/id/mayfield-mayfield-2010> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
+  <https://github.com/john1hsu/communication-graph/id/mazei-et-al-2015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/mazei-et-al-2015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
+  <https://github.com/john1hsu/communication-graph/id/mazei-et-al-2015> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/salary-negotiation> .
   <https://github.com/john1hsu/communication-graph/id/mcdowell-jacobs-2017> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies> .
   <https://github.com/john1hsu/communication-graph/id/mcsweeney-2002> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/hofstede-cultural-dimensions> .
   <https://github.com/john1hsu/communication-graph/id/mea-culpa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -14987,6 +15096,7 @@
   <https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/concession-strategy> .
   <https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/first-offer> .
   <https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/integrative-negotiation> .
+  <https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/salary-negotiation> .
   <https://github.com/john1hsu/communication-graph/id/mum-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/rob-buckman> .
   <https://github.com/john1hsu/communication-graph/id/mum-effect> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> .
   <https://github.com/john1hsu/communication-graph/id/mum-effect> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/status-reporting> .
@@ -14994,6 +15104,7 @@
   <https://github.com/john1hsu/communication-graph/id/mythical-fixed-pie> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/integrative-negotiation> .
   <https://github.com/john1hsu/communication-graph/id/mythical-fixed-pie> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/interests-vs-positions> .
   <https://github.com/john1hsu/communication-graph/id/mythical-fixed-pie> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> .
+  <https://github.com/john1hsu/communication-graph/id/mythical-fixed-pie> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/salary-negotiation> .
   <https://github.com/john1hsu/communication-graph/id/narrative-persuasion/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/narrative-persuasion/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/narrative-persuasion/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -15017,12 +15128,15 @@
   <https://github.com/john1hsu/communication-graph/id/negotiation-preparation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> .
   <https://github.com/john1hsu/communication-graph/id/negotiation-preparation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/first-offer> .
   <https://github.com/john1hsu/communication-graph/id/negotiation-preparation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers> .
+  <https://github.com/john1hsu/communication-graph/id/negotiation-preparation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/salary-negotiation> .
   <https://github.com/john1hsu/communication-graph/id/negotiation-preparation> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/role-reversal> .
   <https://github.com/john1hsu/communication-graph/id/negotiation> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/integrative-negotiation> .
   <https://github.com/john1hsu/communication-graph/id/negotiation> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/interests-vs-positions> .
+  <https://github.com/john1hsu/communication-graph/id/negotiation> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/salary-negotiation> .
   <https://github.com/john1hsu/communication-graph/id/negotiation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/integrative-negotiation> .
   <https://github.com/john1hsu/communication-graph/id/negotiation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/interests-vs-positions> .
   <https://github.com/john1hsu/communication-graph/id/negotiation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers> .
+  <https://github.com/john1hsu/communication-graph/id/negotiation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/salary-negotiation> .
   <https://github.com/john1hsu/communication-graph/id/negotiation> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/labeling-emotions> .
   <https://github.com/john1hsu/communication-graph/id/negotiator-dilemma> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/integrative-negotiation> .
   <https://github.com/john1hsu/communication-graph/id/negotiator-dilemma> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers> .
@@ -15245,6 +15359,7 @@
   <https://github.com/john1hsu/communication-graph/id/perspective-taking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/labeling-emotions> .
   <https://github.com/john1hsu/communication-graph/id/perspective-taking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/refutational-two-sided-messages> .
   <https://github.com/john1hsu/communication-graph/id/perspective-taking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/role-reversal> .
+  <https://github.com/john1hsu/communication-graph/id/perspective-taking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/salary-negotiation> .
   <https://github.com/john1hsu/communication-graph/id/perspective-taking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/trusted-advisor> .
   <https://github.com/john1hsu/communication-graph/id/perspective-taking> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/integrative-negotiation> .
   <https://github.com/john1hsu/communication-graph/id/perspective-taking> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/perspective-getting> .
@@ -15508,6 +15623,7 @@
   <https://github.com/john1hsu/communication-graph/id/reservation-value> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/batna> .
   <https://github.com/john1hsu/communication-graph/id/reservation-value> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/concession-strategy> .
   <https://github.com/john1hsu/communication-graph/id/reservation-value> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/first-offer> .
+  <https://github.com/john1hsu/communication-graph/id/reservation-value> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/salary-negotiation> .
   <https://github.com/john1hsu/communication-graph/id/reservation-value> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> .
   <https://github.com/john1hsu/communication-graph/id/revising-prose> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/revising-prose> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
@@ -15587,7 +15703,9 @@
   <https://github.com/john1hsu/communication-graph/id/rudolf-flesch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/rudolf-flesch> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/readability-formulas> .
   <https://github.com/john1hsu/communication-graph/id/ryskin-brown-schmidt-2014> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> .
-  <https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> .
+  <https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+  <https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/negotiation> .
   <https://github.com/john1hsu/communication-graph/id/salary-negotiation> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/first-offer> .
   <https://github.com/john1hsu/communication-graph/id/salary-negotiation> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/integrative-negotiation> .
   <https://github.com/john1hsu/communication-graph/id/salary-negotiation> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/interests-vs-positions> .
@@ -16025,6 +16143,7 @@
   <https://github.com/john1hsu/communication-graph/id/wait-time> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/1-2-4-all> .
   <https://github.com/john1hsu/communication-graph/id/wait-time> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/facilitation> .
   <https://github.com/john1hsu/communication-graph/id/wait-time> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/labeling-emotions> .
+  <https://github.com/john1hsu/communication-graph/id/wait-time> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/salary-negotiation> .
   <https://github.com/john1hsu/communication-graph/id/wait-time> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/video-call-communication> .
   <https://github.com/john1hsu/communication-graph/id/weger-castle-emmett-2010> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> .
   <https://github.com/john1hsu/communication-graph/id/weger-castle-emmett-2010> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/paraphrasing> .
