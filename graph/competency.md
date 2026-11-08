@@ -12,9 +12,7 @@ _No results._
 
 _Which written skills or dispositions have no technique, framework or principle that develops them?_ — `queries/02-skills-without-practice.rq`
 
-| skill | type |
-|---|---|
-| `cm:persuasion` | cmo:Skill |
+_No results._
 
 ## Situations, channels and formats with no guidance (gap)
 
@@ -59,7 +57,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:issue-selling` | 1 | Managing up |
 | `cm:meeting-agendas` | 1 | unnecessary-meetings |
 
-…and 15 more.
+…and 16 more.
 
 ## Toolkit by situation
 
@@ -137,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:common-ground` | mixed | `cm:keysar-et-al-2000` |
 | `cm:communicating-uncertainty` | mixed |  |
 
-…and 71 more.
+…and 72 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -173,10 +171,10 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:raci-matrix` | cmo:Technique |
 | `cm:rapport` | cmo:Concept |
 | `cm:reciprocal-self-disclosure` | cmo:Technique |
+| `cm:refutational-two-sided-messages` | cmo:Technique |
 | `cm:scheduled-inbox-checks` | cmo:Technique |
-| `cm:self-affirmation-before-feedback` | cmo:Technique |
 
-…and 12 more.
+…and 13 more.
 
 ## Orphan articles (gap)
 

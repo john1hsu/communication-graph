@@ -9126,6 +9126,97 @@
    ]
   },
   {
+   "@id": "cm:refutational-two-sided-messages",
+   "@type": "cmo:Technique",
+   "cmo:contrastsWith": {
+    "@id": "cm:inoculation-theory"
+   },
+   "cmo:demonstratedBy": {
+    "@id": "cm:allen-et-al-1990"
+   },
+   "cmo:develops": {
+    "@id": "cm:persuasion"
+   },
+   "cmo:domain": "persuasion-and-influence",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/refutational-two-sided-messages/example"
+   },
+   "cmo:file": "articles/persuasion-and-influence/refutational-two-sided-messages.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/refutational-two-sided-messages/howto"
+   },
+   "cmo:influencedBy": {
+    "@id": "cm:carl-hovland"
+   },
+   "cmo:level": "intermediate",
+   "cmo:requires": {
+    "@id": "cm:audience-analysis"
+   },
+   "cmo:supportedBy": {
+    "@id": "cm:okeefe-1999"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/refutational-two-sided-messages/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/refutational-two-sided-messages/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/refutational-two-sided-messages/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/refutational-two-sided-messages/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/refutational-two-sided-messages/s5"
+    }
+   ],
+   "rdfs:label": "Refutational two-sided messages",
+   "skos:altLabel": [
+    "acknowledge-and-refute",
+    "addressing counterarguments",
+    "raising and answering objections",
+    "refutational two-sided argument"
+   ],
+   "skos:broader": {
+    "@id": "cm:persuasion"
+   },
+   "skos:definition": "A way of building a case in which you name the strongest objections your audience is likely to hold and then answer each one with evidence or reasoning, rather than ignoring them (one-sided) or merely mentioning them (nonrefutational two-sided).",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/persuasion-and-influence"
+   },
+   "skos:prefLabel": "Refutational two-sided messages",
+   "skos:related": [
+    {
+     "@id": "cm:credibility"
+    },
+    {
+     "@id": "cm:elaboration-likelihood-model"
+    },
+    {
+     "@id": "cm:inoculation-theory"
+    },
+    {
+     "@id": "cm:issue-selling"
+    },
+    {
+     "@id": "cm:okeefe-hoeken-2021"
+    },
+    {
+     "@id": "cm:perspective-taking"
+    },
+    {
+     "@id": "cm:role-reversal"
+    }
+   ]
+  },
+  {
    "@id": "cm:risk-numbers-as-natural-frequencies",
    "@type": "cmo:Technique",
    "cmo:addresses": {
@@ -16130,6 +16221,107 @@
    "@type": "schema:HowToStep",
    "schema:position": 6,
    "schema:text": "Close the exchange while it is still balanced, and note one thing they told you to follow up on next time."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/refutational-two-sided-messages/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:refutational-two-sided-messages"
+   },
+   "rdfs:label": "Have I named the objection my toughest stakeholder would raise first, or only the ones I can easily dismiss?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/refutational-two-sided-messages/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:refutational-two-sided-messages"
+   },
+   "rdfs:label": "For each objection I mention, have I actually answered it, or only acknowledged it?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/refutational-two-sided-messages/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:refutational-two-sided-messages"
+   },
+   "rdfs:label": "Would the people who hold this objection agree that I stated it fairly?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/refutational-two-sided-messages/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:refutational-two-sided-messages"
+   },
+   "rdfs:label": "Is there a point I cannot rebut, and have I said so honestly instead of hiding it?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/refutational-two-sided-messages/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "I propose we replace the Monday status meeting with a written update in our team channel, saving about six person-hours a week. The obvious worry is that you lose visibility into blockers. To cover that, each update has a required 'Blocked on' line, and anything blocked for more than two days triggers a 15-minute call. A second worry is that people won't write updates; we would track completion for a month and go back to the meeting if it drops below 90%.",
+   "cmo:before": "I propose we replace the Monday status meeting with a written update in our team channel. It will save about six person-hours a week and people prefer it. Some may feel we lose visibility, but overall the benefits outweigh that.",
+   "cmo:situation": "A team lead proposes moving the team's weekly status meeting to a written async update, and expects the department head to worry about losing visibility.",
+   "cmo:why": "The first version names the objection but leaves it standing, the nonrefutational pattern that tends to persuade slightly less than saying nothing. The rewrite states the two likeliest concerns and answers each with a specific safeguard and a reversal condition."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/refutational-two-sided-messages/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Refutational two-sided messages",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/refutational-two-sided-messages/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/refutational-two-sided-messages/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/refutational-two-sided-messages/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/refutational-two-sided-messages/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/refutational-two-sided-messages/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/refutational-two-sided-messages/howto/6"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/refutational-two-sided-messages/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "List the objections your audience is most likely to raise - ask a sceptical colleague or two which ones they would lead with, and what your proposal costs others in time and money."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/refutational-two-sided-messages/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Pick the two or three strongest objections, not the easiest ones to knock down, and state each one fairly in a single sentence."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/refutational-two-sided-messages/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Answer each objection directly with evidence, a mitigation or a changed design - do not just acknowledge it and move on."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/refutational-two-sided-messages/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Concede plainly any point you cannot answer, and say what you would do about it or what would change your recommendation."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/refutational-two-sided-messages/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Place the objections and answers where the reader will be asking them - usually right after your recommendation and main reason, not buried at the end."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/refutational-two-sided-messages/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "Afterwards, note which objections actually came up and add any you missed to your list for next time."
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies/check/1",
@@ -25018,6 +25210,76 @@
    "dcterms:title": "Avoid Oversharing at Work",
    "schema:url": {
     "@id": "https://rhsmith.umd.edu/research/avoid-oversharing-work"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/refutational-two-sided-messages/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Daniel J. O'Keefe, Annals of the International Communication Association (Communication Yearbook) 22(1), 209-249, 1999, doi:10.1080/23808985.1999.11678963 (author's copy)",
+   "dcterms:title": "How to handle opposing arguments in persuasive messages: A meta-analytic review of the effects of one-sided and two-sided messages",
+   "schema:url": {
+    "@id": "https://dokeefe.net/pub/OKeefe99AICA.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/refutational-two-sided-messages/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Daniel J. O'Keefe (Northwestern University), The International Encyclopedia of Communication Theory and Philosophy, Wiley, 2016 (author's copy)",
+   "dcterms:title": "Persuasion and Social Influence",
+   "schema:url": {
+    "@id": "https://dokeefe.net/pub/OKeefe16IECTP.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/refutational-two-sided-messages/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Allen, Hale, Mongeau et al., Communication Monographs 57(4), 275-291, 1990, doi:10.1080/03637759009376203 (Arizona State University research portal)",
+   "dcterms:title": "Testing a model of message sidedness: Three replications",
+   "schema:url": {
+    "@id": "https://asu.elsevierpure.com/en/publications/testing-a-model-of-message-sidedness-three-replications"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/refutational-two-sided-messages/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Daniel J. O'Keefe & Hans Hoeken, Frontiers in Psychology 12, 664160, 2021",
+   "dcterms:title": "Message Design Choices Don't Make Much Difference to Persuasiveness and Can't Be Counted On - Not Even When Moderating Conditions Are Specified",
+   "schema:url": {
+    "@id": "https://www.frontiersin.org/articles/10.3389/fpsyg.2021.664160/pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/refutational-two-sided-messages/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "practitioner-journal",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Jay A. Conger, Harvard Business Review 76(3), May-June 1998 (University of Washington hosted copy)",
+   "dcterms:title": "The Necessary Art of Persuasion",
+   "schema:url": {
+    "@id": "https://depts.washington.edu/edgh/namibia-lio/files/necessary_art_of_persuasion.pdf"
    }
   },
   {

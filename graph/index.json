@@ -10383,6 +10383,118 @@
   ]
  },
  {
+  "id": "cm:refutational-two-sided-messages",
+  "title": "Refutational two-sided messages",
+  "aliases": [
+   "refutational two-sided argument",
+   "addressing counterarguments",
+   "acknowledge-and-refute",
+   "raising and answering objections"
+  ],
+  "type": "Technique",
+  "domain": "persuasion-and-influence",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/persuasion-and-influence/refutational-two-sided-messages.md",
+  "created": "2026-11-08",
+  "summary": "A way of building a case in which you name the strongest objections your audience is likely to hold and then answer each one with evidence or reasoning, rather than ignoring them (one-sided) or merely mentioning them (nonrefutational two-sided).",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:persuasion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:credibility"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:elaboration-likelihood-model"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:okeefe-hoeken-2021"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:issue-selling"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:role-reversal"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:perspective-taking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:inoculation-theory"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:audience-analysis"
+   },
+   {
+    "predicate": "cmo:develops",
+    "object": "cm:persuasion",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:okeefe-1999",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:allen-et-al-1990",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:influencedBy",
+    "object": "cm:carl-hovland",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:contrastsWith",
+    "object": "cm:inoculation-theory",
+    "source": "s2",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Have I named the objection my toughest stakeholder would raise first, or only the ones I can easily dismiss?",
+   "For each objection I mention, have I actually answered it, or only acknowledged it?",
+   "Would the people who hold this objection agree that I stated it fairly?",
+   "Is there a point I cannot rebut, and have I said so honestly instead of hiding it?"
+  ],
+  "steps": [
+   "List the objections your audience is most likely to raise - ask a sceptical colleague or two which ones they would lead with, and what your proposal costs others in time and money.",
+   "Pick the two or three strongest objections, not the easiest ones to knock down, and state each one fairly in a single sentence.",
+   "Answer each objection directly with evidence, a mitigation or a changed design - do not just acknowledge it and move on.",
+   "Concede plainly any point you cannot answer, and say what you would do about it or what would change your recommendation.",
+   "Place the objections and answers where the reader will be asking them - usually right after your recommendation and main reason, not buried at the end.",
+   "Afterwards, note which objections actually came up and add any you missed to your list for next time."
+  ],
+  "example": {
+   "situation": "A team lead proposes moving the team's weekly status meeting to a written async update, and expects the department head to worry about losing visibility.",
+   "before": "I propose we replace the Monday status meeting with a written update in our team channel. It will save about six person-hours a week and people prefer it. Some may feel we lose visibility, but overall the benefits outweigh that.",
+   "after": "I propose we replace the Monday status meeting with a written update in our team channel, saving about six person-hours a week. The obvious worry is that you lose visibility into blockers. To cover that, each update has a required 'Blocked on' line, and anything blocked for more than two days triggers a 15-minute call. A second worry is that people won't write updates; we would track completion for a month and go back to the meeting if it drops below 90%.",
+   "why": "The first version names the objection but leaves it standing, the nonrefutational pattern that tends to persuade slightly less than saying nothing. The rewrite states the two likeliest concerns and answers each with a specific safeguard and a reversal condition."
+  },
+  "source_urls": [
+   "https://dokeefe.net/pub/OKeefe99AICA.pdf",
+   "https://dokeefe.net/pub/OKeefe16IECTP.pdf",
+   "https://asu.elsevierpure.com/en/publications/testing-a-model-of-message-sidedness-three-replications",
+   "https://www.frontiersin.org/articles/10.3389/fpsyg.2021.664160/pdf",
+   "https://depts.washington.edu/edgh/namibia-lio/files/necessary_art_of_persuasion.pdf"
+  ]
+ },
+ {
   "id": "cm:risk-numbers-as-natural-frequencies",
   "title": "Risk numbers as natural frequencies",
   "aliases": [

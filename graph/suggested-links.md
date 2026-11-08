@@ -4,20 +4,20 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 
 | Score | Node A | Node B | Shared neighbours |
 |---|---|---|---|
+| 2.97 | `cm:audience-analysis` | `cm:credibility` | `cm:aristotles-rhetoric`, `cm:communicating-uncertainty`, `cm:elaboration-likelihood-model`, `cm:influence-without-authority`, `cm:issue-selling` |
 | 2.94 | `cm:difficult-conversation` | `cm:situation-behavior-impact` | `cm:active-listening`, `cm:defensiveness`, `cm:feedback`, `cm:i-statements`, `cm:nonviolent-communication` |
 | 2.75 | `cm:active-listening` | `cm:feedback` | `cm:defensiveness`, `cm:difficult-conversation`, `cm:feedforward`, `cm:one-on-one-meetings`, `cm:performance-review` |
 | 2.72 | `cm:channel-selection` | `cm:egocentric-bias` | `cm:common-ground`, `cm:curse-of-knowledge`, `cm:egocentrism-over-email-study`, `cm:face-to-face-conversation`, `cm:nicholas-epley` |
 | 2.71 | `cm:labeling-emotions` | `cm:self-distancing` | `cm:anxiety-reappraisal`, `cm:cognitive-reappraisal`, `cm:emotion-regulation` |
 | 2.61 | `cm:asynchronous-communication` | `cm:video-call-communication` | `cm:channel-selection`, `cm:digital-communication`, `cm:face-to-face-conversation`, `cm:media-richness-theory`, `cm:workplace-meetings` |
-| 2.59 | `cm:audience-analysis` | `cm:credibility` | `cm:aristotles-rhetoric`, `cm:communicating-uncertainty`, `cm:elaboration-likelihood-model`, `cm:influence-without-authority`, `cm:issue-selling` |
 | 2.52 | `cm:anchoring-and-adjustment` | `cm:thomas-gilovich` | `cm:curse-of-knowledge`, `cm:egocentric-bias`, `cm:gilovich-savitsky-medvec-1998`, `cm:illusion-of-transparency`, `cm:macinnis-mackinnon-macintyre-2010` |
 | 2.40 | `cm:anxiety-reappraisal` | `cm:spotlight-effect` | `cm:illusion-of-transparency`, `cm:macinnis-mackinnon-macintyre-2010`, `cm:self-distancing`, `cm:social-anxiety`, `cm:speaking-anxiety` |
 | 2.39 | `cm:pyramid-principle` | `cm:status-reporting` | `cm:audience-analysis`, `cm:bottom-line-up-front`, `cm:business-report`, `cm:executive-briefing` |
-| 2.34 | `cm:bottom-line-up-front` | `cm:curse-of-knowledge` | `cm:assertion-evidence-slides`, `cm:audience-analysis`, `cm:channel-selection`, `cm:clarity`, `cm:cognitive-load` |
-| 2.30 | `cm:managing-up` | `cm:persuasion` | `cm:audience-analysis`, `cm:influence-without-authority`, `cm:issue-selling`, `cm:lee-et-al-2017`, `cm:stakeholder-mapping` |
-| 2.16 | `cm:rapport` | `cm:video-call-communication` | `cm:camera-level-gaze`, `cm:channel-selection`, `cm:credibility`, `cm:face-to-face-conversation`, `cm:nonverbal-communication` |
+| 2.33 | `cm:bottom-line-up-front` | `cm:curse-of-knowledge` | `cm:assertion-evidence-slides`, `cm:audience-analysis`, `cm:channel-selection`, `cm:clarity`, `cm:cognitive-load` |
+| 2.29 | `cm:managing-up` | `cm:persuasion` | `cm:audience-analysis`, `cm:influence-without-authority`, `cm:issue-selling`, `cm:lee-et-al-2017`, `cm:stakeholder-mapping` |
+| 2.15 | `cm:rapport` | `cm:video-call-communication` | `cm:camera-level-gaze`, `cm:channel-selection`, `cm:credibility`, `cm:face-to-face-conversation`, `cm:nonverbal-communication` |
 | 2.15 | `cm:audience-analysis` | `cm:illusion-of-transparency` | `cm:clarity`, `cm:common-ground`, `cm:communicating-uncertainty`, `cm:curse-of-knowledge`, `cm:email` |
-| 2.14 | `cm:bottom-line-up-front` | `cm:readability-formulas` | `cm:audience-analysis`, `cm:clarity`, `cm:cognitive-load`, `cm:concise-writing`, `cm:effective-writing-for-army-leaders` |
+| 2.13 | `cm:bottom-line-up-front` | `cm:readability-formulas` | `cm:audience-analysis`, `cm:clarity`, `cm:cognitive-load`, `cm:concise-writing`, `cm:effective-writing-for-army-leaders` |
 | 2.13 | `cm:integrative-negotiation` | `cm:labeling-emotions` | `cm:negotiation`, `cm:perspective-taking`, `cm:wait-time` |
 | 2.08 | `cm:i-statements` | `cm:weger-et-al-2014` | `cm:active-listening`, `cm:paraphrasing`, `cm:thomas-gordon` |
 | 2.06 | `cm:humble-inquiry` | `cm:weger-et-al-2014` | `cm:active-listening`, `cm:advice-giving`, `cm:open-ended-questions` |
@@ -27,5 +27,5 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 2.02 | `cm:nominal-group-technique` | `cm:raci-matrix` | `cm:group-decision-making`, `cm:meeting-agendas`, `cm:stakeholder-mapping`, `cm:workplace-meetings` |
 | 2.01 | `cm:feedforward` | `cm:psychological-safety` | `cm:active-listening`, `cm:defensiveness`, `cm:feedback`, `cm:one-on-one-meetings`, `cm:performance-review` |
 | 2.01 | `cm:facilitation` | `cm:open-ended-questions` | `cm:active-listening`, `cm:meeting-agendas`, `cm:nominal-group-technique`, `cm:paraphrasing`, `cm:psychological-safety` |
-| 2.01 | `cm:audience-analysis` | `cm:cognitive-load` | `cm:bottom-line-up-front`, `cm:curse-of-knowledge`, `cm:elaboration-likelihood-model`, `cm:plain-language`, `cm:presentation` |
+| 2.00 | `cm:audience-analysis` | `cm:cognitive-load` | `cm:bottom-line-up-front`, `cm:curse-of-knowledge`, `cm:elaboration-likelihood-model`, `cm:plain-language`, `cm:presentation` |
 | 1.98 | `cm:defensiveness` | `cm:one-on-one-meetings` | `cm:active-listening`, `cm:feedback`, `cm:feedforward`, `cm:performance-review`, `cm:psychological-safety` |

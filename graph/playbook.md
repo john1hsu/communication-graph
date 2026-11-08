@@ -1065,6 +1065,29 @@ Ask yourself:
 - What would change my own mind, and am I willing to adjust the proposal if I hear it?
 - Would I be comfortable if they saw exactly how I prepared this pitch?
 
+### [Refutational two-sided messages](../articles/persuasion-and-influence/refutational-two-sided-messages.md) — Technique
+
+1. List the objections your audience is most likely to raise - ask a sceptical colleague or two which ones they would lead with, and what your proposal costs others in time and money.
+2. Pick the two or three strongest objections, not the easiest ones to knock down, and state each one fairly in a single sentence.
+3. Answer each objection directly with evidence, a mitigation or a changed design - do not just acknowledge it and move on.
+4. Concede plainly any point you cannot answer, and say what you would do about it or what would change your recommendation.
+5. Place the objections and answers where the reader will be asking them - usually right after your recommendation and main reason, not buried at the end.
+6. Afterwards, note which objections actually came up and add any you missed to your list for next time.
+
+*A team lead proposes moving the team's weekly status meeting to a written async update, and expects the department head to worry about losing visibility.*
+
+| Before | After |
+|---|---|
+| I propose we replace the Monday status meeting with a written update in our team channel. It will save about six person-hours a week and people prefer it. Some may feel we lose visibility, but overall the benefits outweigh that. | I propose we replace the Monday status meeting with a written update in our team channel, saving about six person-hours a week. The obvious worry is that you lose visibility into blockers. To cover that, each update has a required 'Blocked on' line, and anything blocked for more than two days triggers a 15-minute call. A second worry is that people won't write updates; we would track completion for a month and go back to the meeting if it drops below 90%. |
+
+**Why:** The first version names the objection but leaves it standing, the nonrefutational pattern that tends to persuade slightly less than saying nothing. The rewrite states the two likeliest concerns and answers each with a specific safeguard and a reversal condition.
+
+Ask yourself:
+- Have I named the objection my toughest stakeholder would raise first, or only the ones I can easily dismiss?
+- For each objection I mention, have I actually answered it, or only acknowledged it?
+- Would the people who hold this objection agree that I stated it fairly?
+- Is there a point I cannot rebut, and have I said so honestly instead of hiding it?
+
 ### [Selling issues to leadership](../articles/persuasion-and-influence/issue-selling.md) — Technique
 
 1. Write the issue in one sentence and link it to a goal, metric or priority your leaders already own, framed as an opportunity where honestly possible.
