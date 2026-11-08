@@ -4065,6 +4065,40 @@
 <https://github.com/john1hsu/communication-graph/id/narrative-persuasion> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
 <https://github.com/john1hsu/communication-graph/id/narrative-persuasion> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/braddock-dillard-2016> .
 <https://github.com/john1hsu/communication-graph/id/narrative-persuasion> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/van-laer-et-al-2014> .
+<https://github.com/john1hsu/communication-graph/id/negotiation-preparation> <http://purl.org/dc/terms/created> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/negotiation-preparation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Context> .
+<https://github.com/john1hsu/communication-graph/id/negotiation-preparation> <http://www.w3.org/2000/01/rdf-schema#label> "Negotiation preparation" .
+<https://github.com/john1hsu/communication-graph/id/negotiation-preparation> <http://www.w3.org/2004/02/skos/core#altLabel> "bargaining plan" .
+<https://github.com/john1hsu/communication-graph/id/negotiation-preparation> <http://www.w3.org/2004/02/skos/core#altLabel> "negotiation planning" .
+<https://github.com/john1hsu/communication-graph/id/negotiation-preparation> <http://www.w3.org/2004/02/skos/core#altLabel> "pre-negotiation planning" .
+<https://github.com/john1hsu/communication-graph/id/negotiation-preparation> <http://www.w3.org/2004/02/skos/core#altLabel> "preparing to negotiate" .
+<https://github.com/john1hsu/communication-graph/id/negotiation-preparation> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/negotiation> .
+<https://github.com/john1hsu/communication-graph/id/negotiation-preparation> <http://www.w3.org/2004/02/skos/core#definition> "The planning work done before and between negotiation sessions - clarifying issues, interests, alternatives, walk-away and target points, the other side's likely position, and the logistics of the talks - so that you can create and claim value and adapt when the conversation surprises you." .
+<https://github.com/john1hsu/communication-graph/id/negotiation-preparation> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/negotiation> .
+<https://github.com/john1hsu/communication-graph/id/negotiation-preparation> <http://www.w3.org/2004/02/skos/core#prefLabel> "Negotiation preparation" .
+<https://github.com/john1hsu/communication-graph/id/negotiation-preparation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/batna> .
+<https://github.com/john1hsu/communication-graph/id/negotiation-preparation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/concession-strategy> .
+<https://github.com/john1hsu/communication-graph/id/negotiation-preparation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/first-offer> .
+<https://github.com/john1hsu/communication-graph/id/negotiation-preparation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/interests-vs-positions> .
+<https://github.com/john1hsu/communication-graph/id/negotiation-preparation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers> .
+<https://github.com/john1hsu/communication-graph/id/negotiation-preparation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/reservation-value> .
+<https://github.com/john1hsu/communication-graph/id/negotiation-preparation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/role-reversal> .
+<https://github.com/john1hsu/communication-graph/id/negotiation-preparation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/salary-negotiation> .
+<https://github.com/john1hsu/communication-graph/id/negotiation-preparation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> .
+<https://github.com/john1hsu/communication-graph/id/negotiation-preparation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/negotiation-preparation/s1> .
+<https://github.com/john1hsu/communication-graph/id/negotiation-preparation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/negotiation-preparation/s2> .
+<https://github.com/john1hsu/communication-graph/id/negotiation-preparation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/negotiation-preparation/s3> .
+<https://github.com/john1hsu/communication-graph/id/negotiation-preparation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/negotiation-preparation/s4> .
+<https://github.com/john1hsu/communication-graph/id/negotiation-preparation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/negotiation-preparation/s5> .
+<https://github.com/john1hsu/communication-graph/id/negotiation-preparation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/negotiation-preparation/s6> .
+<https://github.com/john1hsu/communication-graph/id/negotiation-preparation> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/batna> .
+<https://github.com/john1hsu/communication-graph/id/negotiation-preparation> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/lindholst-bulow-fells-2018> .
+<https://github.com/john1hsu/communication-graph/id/negotiation-preparation> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/roloff-jordan-1991> .
+<https://github.com/john1hsu/communication-graph/id/negotiation-preparation> <https://github.com/john1hsu/communication-graph/ontology#domain> "negotiation" .
+<https://github.com/john1hsu/communication-graph/id/negotiation-preparation> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/negotiation-preparation> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/negotiation/negotiation-preparation.md" .
+<https://github.com/john1hsu/communication-graph/id/negotiation-preparation> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/negotiation-preparation> <https://github.com/john1hsu/communication-graph/ontology#partOf> <https://github.com/john1hsu/communication-graph/id/negotiation> .
 <https://github.com/john1hsu/communication-graph/id/nicholas-epley> <http://purl.org/dc/terms/created> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/nicholas-epley> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
 <https://github.com/john1hsu/communication-graph/id/nicholas-epley> <http://www.w3.org/2000/01/rdf-schema#label> "Nicholas Epley" .
@@ -8991,6 +9025,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/narrative-persuasion/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/narrative-persuasion/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
 <https://github.com/john1hsu/communication-graph/id/source/narrative-persuasion/s6> <https://schema.org/url> <https://womensleadership.stanford.edu/resources/voice-influence/harnessing-power-stories> .
+<https://github.com/john1hsu/communication-graph/id/source/negotiation-preparation/s1> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/negotiation-preparation/s1> <http://purl.org/dc/terms/publisher> "Katie Shonk, Program on Negotiation at Harvard Law School, 2026" .
+<https://github.com/john1hsu/communication-graph/id/source/negotiation-preparation/s1> <http://purl.org/dc/terms/title> "A Negotiation Preparation Checklist" .
+<https://github.com/john1hsu/communication-graph/id/source/negotiation-preparation/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/negotiation-preparation/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/negotiation-preparation/s1> <https://schema.org/url> <https://www.pon.harvard.edu/daily/negotiation-skills-daily/negotiation-preparation-checklist/?amp> .
+<https://github.com/john1hsu/communication-graph/id/source/negotiation-preparation/s2> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/negotiation-preparation/s2> <http://purl.org/dc/terms/publisher> "Lindholst, M., Bülow, A. M. & Fells, R., Journal of Strategic Contracting and Negotiation 4(1-2), 119-140, 2018, doi:10.1177/2055563620907364 (Copenhagen Business School accepted manuscript)" .
+<https://github.com/john1hsu/communication-graph/id/source/negotiation-preparation/s2> <http://purl.org/dc/terms/title> "The practice of preparation for complex negotiations" .
+<https://github.com/john1hsu/communication-graph/id/source/negotiation-preparation/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/negotiation-preparation/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/negotiation-preparation/s2> <https://schema.org/url> <https://research-api.cbs.dk/ws/portalfiles/portal/66491262/anne_marie_b_low_et_al_the_practise_acceptedmanuscript.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/negotiation-preparation/s3> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/negotiation-preparation/s3> <http://purl.org/dc/terms/publisher> "Roloff, M. E. & Jordan, J. M., Communication Research 18(3), 1991, doi:10.1177/009365091018003002 (SAGE Journals)" .
+<https://github.com/john1hsu/communication-graph/id/source/negotiation-preparation/s3> <http://purl.org/dc/terms/title> "The influence of effort, experience, and persistence on the elements of bargaining plans" .
+<https://github.com/john1hsu/communication-graph/id/source/negotiation-preparation/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/negotiation-preparation/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/negotiation-preparation/s3> <https://schema.org/url> <https://journals.sagepub.com/doi/ref/10.1177/009365091018003002> .
+<https://github.com/john1hsu/communication-graph/id/source/negotiation-preparation/s4> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/negotiation-preparation/s4> <http://purl.org/dc/terms/publisher> "Polzer, J. T. & Neale, M. A., Human Performance 8(1), 3-26, 1995 (ACNP journal index record)" .
+<https://github.com/john1hsu/communication-graph/id/source/negotiation-preparation/s4> <http://purl.org/dc/terms/title> "Constraints or catalysts? Reexamining goal-setting within the context of negotiation" .
+<https://github.com/john1hsu/communication-graph/id/source/negotiation-preparation/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/negotiation-preparation/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/negotiation-preparation/s4> <https://schema.org/url> <https://acnpsearch.tweb-dev.unibo.it/singlejournalindex/24237605> .
+<https://github.com/john1hsu/communication-graph/id/source/negotiation-preparation/s5> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/negotiation-preparation/s5> <http://purl.org/dc/terms/publisher> "McGraw-Hill Higher Education" .
+<https://github.com/john1hsu/communication-graph/id/source/negotiation-preparation/s5> <http://purl.org/dc/terms/title> "Negotiation Online Learning Center, Chapter 4: Chapter Summary (strategy and planning)" .
+<https://github.com/john1hsu/communication-graph/id/source/negotiation-preparation/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/negotiation-preparation/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/communication-graph/id/source/negotiation-preparation/s5> <https://schema.org/url> <https://highered.mheducation.com/sites/0078029449/student_view0/chapter4/chapter_summary.html> .
+<https://github.com/john1hsu/communication-graph/id/source/negotiation-preparation/s6> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/negotiation-preparation/s6> <http://purl.org/dc/terms/publisher> "PON Staff, Program on Negotiation at Harvard Law School, 2026 (originally published 2014)" .
+<https://github.com/john1hsu/communication-graph/id/source/negotiation-preparation/s6> <http://purl.org/dc/terms/title> "A Negotiation Preparation Worksheet: A Tool for Continuous Improvement" .
+<https://github.com/john1hsu/communication-graph/id/source/negotiation-preparation/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/negotiation-preparation/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/negotiation-preparation/s6> <https://schema.org/url> <https://www.pon.harvard.edu/daily/negotiation-training-daily/negotiating-for-continuos-improvement-use-a-negotiation-preparation-worksheet/> .
 <https://github.com/john1hsu/communication-graph/id/source/nicholas-epley/s1> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/nicholas-epley/s1> <http://purl.org/dc/terms/publisher> "Caruso, Epley & Bazerman, Journal of Personality and Social Psychology 91(5), 2006 (author copy, UCLA Anderson Review)" .
 <https://github.com/john1hsu/communication-graph/id/source/nicholas-epley/s1> <http://purl.org/dc/terms/title> "The costs and benefits of undoing egocentric responsibility assessments in groups" .

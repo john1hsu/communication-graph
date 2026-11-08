@@ -7015,6 +7015,96 @@
    ]
   },
   {
+   "@id": "cm:negotiation-preparation",
+   "@type": "cmo:Context",
+   "cmo:complements": {
+    "@id": "cm:batna"
+   },
+   "cmo:demonstratedBy": [
+    {
+     "@id": "cm:lindholst-bulow-fells-2018"
+    },
+    {
+     "@id": "cm:roloff-jordan-1991"
+    }
+   ],
+   "cmo:domain": "negotiation",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:file": "articles/negotiation/negotiation-preparation.md",
+   "cmo:level": "introductory",
+   "cmo:partOf": {
+    "@id": "cm:negotiation"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/negotiation-preparation/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/negotiation-preparation/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/negotiation-preparation/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/negotiation-preparation/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/negotiation-preparation/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/negotiation-preparation/s6"
+    }
+   ],
+   "rdfs:label": "Negotiation preparation",
+   "skos:altLabel": [
+    "bargaining plan",
+    "negotiation planning",
+    "pre-negotiation planning",
+    "preparing to negotiate"
+   ],
+   "skos:broader": {
+    "@id": "cm:negotiation"
+   },
+   "skos:definition": "The planning work done before and between negotiation sessions - clarifying issues, interests, alternatives, walk-away and target points, the other side's likely position, and the logistics of the talks - so that you can create and claim value and adapt when the conversation surprises you.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/negotiation"
+   },
+   "skos:prefLabel": "Negotiation preparation",
+   "skos:related": [
+    {
+     "@id": "cm:batna"
+    },
+    {
+     "@id": "cm:concession-strategy"
+    },
+    {
+     "@id": "cm:first-offer"
+    },
+    {
+     "@id": "cm:interests-vs-positions"
+    },
+    {
+     "@id": "cm:multiple-equivalent-simultaneous-offers"
+    },
+    {
+     "@id": "cm:reservation-value"
+    },
+    {
+     "@id": "cm:role-reversal"
+    },
+    {
+     "@id": "cm:salary-negotiation"
+    },
+    {
+     "@id": "cm:zone-of-possible-agreement"
+    }
+   ]
+  },
+  {
    "@id": "cm:nicholas-epley",
    "@type": "cmo:Person",
    "cmo:authored": {
@@ -23964,6 +24054,90 @@
    "dcterms:title": "Harnessing the Power of Stories",
    "schema:url": {
     "@id": "https://womensleadership.stanford.edu/resources/voice-influence/harnessing-power-stories"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/negotiation-preparation/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Katie Shonk, Program on Negotiation at Harvard Law School, 2026",
+   "dcterms:title": "A Negotiation Preparation Checklist",
+   "schema:url": {
+    "@id": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/negotiation-preparation-checklist/?amp"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/negotiation-preparation/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Lindholst, M., Bülow, A. M. & Fells, R., Journal of Strategic Contracting and Negotiation 4(1-2), 119-140, 2018, doi:10.1177/2055563620907364 (Copenhagen Business School accepted manuscript)",
+   "dcterms:title": "The practice of preparation for complex negotiations",
+   "schema:url": {
+    "@id": "https://research-api.cbs.dk/ws/portalfiles/portal/66491262/anne_marie_b_low_et_al_the_practise_acceptedmanuscript.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/negotiation-preparation/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Roloff, M. E. & Jordan, J. M., Communication Research 18(3), 1991, doi:10.1177/009365091018003002 (SAGE Journals)",
+   "dcterms:title": "The influence of effort, experience, and persistence on the elements of bargaining plans",
+   "schema:url": {
+    "@id": "https://journals.sagepub.com/doi/ref/10.1177/009365091018003002"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/negotiation-preparation/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Polzer, J. T. & Neale, M. A., Human Performance 8(1), 3-26, 1995 (ACNP journal index record)",
+   "dcterms:title": "Constraints or catalysts? Reexamining goal-setting within the context of negotiation",
+   "schema:url": {
+    "@id": "https://acnpsearch.tweb-dev.unibo.it/singlejournalindex/24237605"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/negotiation-preparation/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "McGraw-Hill Higher Education",
+   "dcterms:title": "Negotiation Online Learning Center, Chapter 4: Chapter Summary (strategy and planning)",
+   "schema:url": {
+    "@id": "https://highered.mheducation.com/sites/0078029449/student_view0/chapter4/chapter_summary.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/negotiation-preparation/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "PON Staff, Program on Negotiation at Harvard Law School, 2026 (originally published 2014)",
+   "dcterms:title": "A Negotiation Preparation Worksheet: A Tool for Continuous Improvement",
+   "schema:url": {
+    "@id": "https://www.pon.harvard.edu/daily/negotiation-training-daily/negotiating-for-continuos-improvement-use-a-negotiation-preparation-worksheet/"
    }
   },
   {
