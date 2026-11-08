@@ -421,6 +421,22 @@ Ask yourself:
 - Does every number in my sentence clearly belong to one named group?
 - If someone asked "so of the ones flagged, how many are real?", have I already answered it?
 
+### [Trusted advisor](../articles/executive-and-client-communication/trusted-advisor.md) — Framework
+
+*A consultant opens a steering-committee call with a client sponsor whose project is behind schedule.*
+
+| Before | After |
+|---|---|
+| Thanks for the time. Let me walk you through our 30-slide progress deck, and at the end I'd like to talk about extending our team for phase two. | Before the deck: last week you said the board is worried about the March date. Is that still the main concern? I'll focus on what protects March, including one option that needs less of our time, not more. |
+
+**Why:** The rewrite shows reliability (it remembers what the sponsor said), intimacy (it names the real worry) and low self-orientation (it puts the client's problem ahead of selling more work).
+
+Ask yourself:
+- Before this meeting, can I state the client's real worry in their words rather than my summary of the scope?
+- Have I delivered every small promise I made since we last spoke, and told them early about any I will miss?
+- Is any part of what I plan to say mainly about my firm's revenue, my reputation or being right?
+- Have I listened long enough to earn the right to frame the problem, or am I jumping to my solution?
+
 ### [Words of estimative probability](../articles/executive-and-client-communication/words-of-estimative-probability.md) — Technique
 
 1. Agree a short likelihood scale with your team or client before you need it - for example remote (under 5%), unlikely (20-45%), roughly even (45-55%), likely (55-80%), very likely (80-95%) - with ranges that do not overlap.

@@ -11541,6 +11541,122 @@
   ]
  },
  {
+  "id": "cm:trusted-advisor",
+  "title": "Trusted advisor",
+  "aliases": [
+   "trust equation",
+   "trusted advisor model",
+   "the trust equation for advisors"
+  ],
+  "type": "Framework",
+  "domain": "executive-and-client-communication",
+  "level": "intermediate",
+  "evidenceStatus": "practitioner",
+  "file": "articles/executive-and-client-communication/trusted-advisor.md",
+  "created": "2026-11-08",
+  "summary": "A framework from David Maister, Charles Green and Robert Galford for earning a client's or senior stakeholder's trust: trustworthiness rises with credibility, reliability and intimacy and falls with self-orientation (the \"trust equation\"), and is built through five steps - engage, listen, frame, envision and commit.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:interpersonal-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:credibility"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:rapport"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:active-listening"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:managing-up"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:trust-repair"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:self-disclosure"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:perspective-taking"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:active-listening"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:david-maister",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:charles-h-green",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:robert-galford",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedIn",
+    "object": "cm:the-trusted-advisor-book",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:client-communication",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:ko-2010",
+    "source": "s5",
+    "confidence": "low"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:colquitt-scott-lepine-2007",
+    "source": "s4",
+    "confidence": "low"
+   }
+  ],
+  "selfCheck": [
+   "Before this meeting, can I state the client's real worry in their words rather than my summary of the scope?",
+   "Have I delivered every small promise I made since we last spoke, and told them early about any I will miss?",
+   "Is any part of what I plan to say mainly about my firm's revenue, my reputation or being right?",
+   "Have I listened long enough to earn the right to frame the problem, or am I jumping to my solution?"
+  ],
+  "steps": [],
+  "example": {
+   "situation": "A consultant opens a steering-committee call with a client sponsor whose project is behind schedule.",
+   "before": "Thanks for the time. Let me walk you through our 30-slide progress deck, and at the end I'd like to talk about extending our team for phase two.",
+   "after": "Before the deck: last week you said the board is worried about the March date. Is that still the main concern? I'll focus on what protects March, including one option that needs less of our time, not more.",
+   "why": "The rewrite shows reliability (it remembers what the sponsor said), intimacy (it names the real worry) and low self-orientation (it puts the client's problem ahead of selling more work)."
+  },
+  "source_urls": [
+   "https://www.simonandschuster.ca/books/The-Trusted-Advisor-20th-Anniversary-Edition/David-H-Maister/9781982157104",
+   "https://www.journalofaccountancy.com/news/2021/jun/how-cpa-firms-build-trust-with-clients.html",
+   "https://makinggood.ac.nz/media/1270/mayeretal_1995_organizationaltrust.pdf",
+   "https://core.ac.uk/download/357570617.pdf",
+   "https://emerald.com/insight/content/doi/10.1108/13673271011032355/full/html"
+  ]
+ },
+ {
   "id": "cm:video-call-communication",
   "title": "Video call communication",
   "aliases": [

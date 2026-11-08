@@ -9541,6 +9541,36 @@
 <https://github.com/john1hsu/communication-graph/id/source/thomas-gilovich/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/thomas-gilovich/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
 <https://github.com/john1hsu/communication-graph/id/source/thomas-gilovich/s6> <https://schema.org/url> <https://www.amacad.org/person/thomas-d-gilovich> .
+<https://github.com/john1hsu/communication-graph/id/source/trusted-advisor/s1> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/trusted-advisor/s1> <http://purl.org/dc/terms/publisher> "David H. Maister, Charles H. Green & Robert M. Galford, Free Press / Simon & Schuster, 2021 (first published 2000) - publisher's book page" .
+<https://github.com/john1hsu/communication-graph/id/source/trusted-advisor/s1> <http://purl.org/dc/terms/title> "The Trusted Advisor: 20th Anniversary Edition" .
+<https://github.com/john1hsu/communication-graph/id/source/trusted-advisor/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/trusted-advisor/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/trusted-advisor/s1> <https://schema.org/url> <https://www.simonandschuster.ca/books/The-Trusted-Advisor-20th-Anniversary-Edition/David-H-Maister/9781982157104> .
+<https://github.com/john1hsu/communication-graph/id/source/trusted-advisor/s2> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/trusted-advisor/s2> <http://purl.org/dc/terms/publisher> "Dawn Wotapka, Journal of Accountancy (AICPA & CIMA), June 1, 2021" .
+<https://github.com/john1hsu/communication-graph/id/source/trusted-advisor/s2> <http://purl.org/dc/terms/title> "Use this formula to build trust with clients" .
+<https://github.com/john1hsu/communication-graph/id/source/trusted-advisor/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/trusted-advisor/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/communication-graph/id/source/trusted-advisor/s2> <https://schema.org/url> <https://www.journalofaccountancy.com/news/2021/jun/how-cpa-firms-build-trust-with-clients.html> .
+<https://github.com/john1hsu/communication-graph/id/source/trusted-advisor/s3> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/trusted-advisor/s3> <http://purl.org/dc/terms/publisher> "Roger C. Mayer, James H. Davis & F. David Schoorman, Academy of Management Review 20(3), 709-734, 1995 (author copy hosted by makinggood.ac.nz)" .
+<https://github.com/john1hsu/communication-graph/id/source/trusted-advisor/s3> <http://purl.org/dc/terms/title> "An Integrative Model of Organizational Trust" .
+<https://github.com/john1hsu/communication-graph/id/source/trusted-advisor/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/trusted-advisor/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/trusted-advisor/s3> <https://schema.org/url> <https://makinggood.ac.nz/media/1270/mayeretal_1995_organizationaltrust.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/trusted-advisor/s4> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/trusted-advisor/s4> <http://purl.org/dc/terms/publisher> "Jason A. Colquitt, Brent A. Scott & Jeffery A. LePine, Journal of Applied Psychology 92(4), 909-927, 2007 (author copy via CORE)" .
+<https://github.com/john1hsu/communication-graph/id/source/trusted-advisor/s4> <http://purl.org/dc/terms/title> "Trust, Trustworthiness, and Trust Propensity: A Meta-Analytic Test of Their Unique Relationships With Risk Taking and Job Performance" .
+<https://github.com/john1hsu/communication-graph/id/source/trusted-advisor/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/trusted-advisor/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/trusted-advisor/s4> <https://schema.org/url> <https://core.ac.uk/download/357570617.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/trusted-advisor/s5> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/trusted-advisor/s5> <http://purl.org/dc/terms/publisher> "Dong-Gil Ko, Journal of Knowledge Management 14(2), 202-213, 2010, doi:10.1108/13673271011032355 (Emerald)" .
+<https://github.com/john1hsu/communication-graph/id/source/trusted-advisor/s5> <http://purl.org/dc/terms/title> "Consultant competence trust doesn't pay off, but benevolent trust does! Managing knowledge with care" .
+<https://github.com/john1hsu/communication-graph/id/source/trusted-advisor/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/trusted-advisor/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/trusted-advisor/s5> <https://schema.org/url> <https://emerald.com/insight/content/doi/10.1108/13673271011032355/full/html> .
 <https://github.com/john1hsu/communication-graph/id/source/video-call-communication/s1> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/video-call-communication/s1> <http://purl.org/dc/terms/publisher> "Brucks, M. S. & Levav, J., Nature 605(7908), 108-112, 2022 (RePEc/IDEAS record)" .
 <https://github.com/john1hsu/communication-graph/id/source/video-call-communication/s1> <http://purl.org/dc/terms/title> "Virtual communication curbs creative idea generation" .
@@ -10212,6 +10242,58 @@
 <https://github.com/john1hsu/communication-graph/id/thomas-gilovich> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> .
 <https://github.com/john1hsu/communication-graph/id/thomas-gilovich> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/spotlight-effect> .
 <https://github.com/john1hsu/communication-graph/id/thomas-gilovich> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/trusted-advisor/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/trusted-advisor/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Before this meeting, can I state the client's real worry in their words rather than my summary of the scope?" .
+<https://github.com/john1hsu/communication-graph/id/trusted-advisor/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/trusted-advisor> .
+<https://github.com/john1hsu/communication-graph/id/trusted-advisor/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/trusted-advisor/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Have I delivered every small promise I made since we last spoke, and told them early about any I will miss?" .
+<https://github.com/john1hsu/communication-graph/id/trusted-advisor/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/trusted-advisor> .
+<https://github.com/john1hsu/communication-graph/id/trusted-advisor/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/trusted-advisor/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Is any part of what I plan to say mainly about my firm's revenue, my reputation or being right?" .
+<https://github.com/john1hsu/communication-graph/id/trusted-advisor/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/trusted-advisor> .
+<https://github.com/john1hsu/communication-graph/id/trusted-advisor/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/trusted-advisor/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Have I listened long enough to earn the right to frame the problem, or am I jumping to my solution?" .
+<https://github.com/john1hsu/communication-graph/id/trusted-advisor/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/trusted-advisor> .
+<https://github.com/john1hsu/communication-graph/id/trusted-advisor/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+<https://github.com/john1hsu/communication-graph/id/trusted-advisor/example> <https://github.com/john1hsu/communication-graph/ontology#after> "Before the deck: last week you said the board is worried about the March date. Is that still the main concern? I'll focus on what protects March, including one option that needs less of our time, not more." .
+<https://github.com/john1hsu/communication-graph/id/trusted-advisor/example> <https://github.com/john1hsu/communication-graph/ontology#before> "Thanks for the time. Let me walk you through our 30-slide progress deck, and at the end I'd like to talk about extending our team for phase two." .
+<https://github.com/john1hsu/communication-graph/id/trusted-advisor/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "A consultant opens a steering-committee call with a client sponsor whose project is behind schedule." .
+<https://github.com/john1hsu/communication-graph/id/trusted-advisor/example> <https://github.com/john1hsu/communication-graph/ontology#why> "The rewrite shows reliability (it remembers what the sponsor said), intimacy (it names the real worry) and low self-orientation (it puts the client's problem ahead of selling more work)." .
+<https://github.com/john1hsu/communication-graph/id/trusted-advisor> <http://purl.org/dc/terms/created> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/trusted-advisor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Framework> .
+<https://github.com/john1hsu/communication-graph/id/trusted-advisor> <http://www.w3.org/2000/01/rdf-schema#label> "Trusted advisor" .
+<https://github.com/john1hsu/communication-graph/id/trusted-advisor> <http://www.w3.org/2004/02/skos/core#altLabel> "the trust equation for advisors" .
+<https://github.com/john1hsu/communication-graph/id/trusted-advisor> <http://www.w3.org/2004/02/skos/core#altLabel> "trust equation" .
+<https://github.com/john1hsu/communication-graph/id/trusted-advisor> <http://www.w3.org/2004/02/skos/core#altLabel> "trusted advisor model" .
+<https://github.com/john1hsu/communication-graph/id/trusted-advisor> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
+<https://github.com/john1hsu/communication-graph/id/trusted-advisor> <http://www.w3.org/2004/02/skos/core#definition> "A framework from David Maister, Charles Green and Robert Galford for earning a client's or senior stakeholder's trust: trustworthiness rises with credibility, reliability and intimacy and falls with self-orientation (the \"trust equation\"), and is built through five steps - engage, listen, frame, envision and commit." .
+<https://github.com/john1hsu/communication-graph/id/trusted-advisor> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/executive-and-client-communication> .
+<https://github.com/john1hsu/communication-graph/id/trusted-advisor> <http://www.w3.org/2004/02/skos/core#prefLabel> "Trusted advisor" .
+<https://github.com/john1hsu/communication-graph/id/trusted-advisor> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+<https://github.com/john1hsu/communication-graph/id/trusted-advisor> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/credibility> .
+<https://github.com/john1hsu/communication-graph/id/trusted-advisor> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/managing-up> .
+<https://github.com/john1hsu/communication-graph/id/trusted-advisor> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/perspective-taking> .
+<https://github.com/john1hsu/communication-graph/id/trusted-advisor> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/rapport> .
+<https://github.com/john1hsu/communication-graph/id/trusted-advisor> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/self-disclosure> .
+<https://github.com/john1hsu/communication-graph/id/trusted-advisor> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/trust-repair> .
+<https://github.com/john1hsu/communication-graph/id/trusted-advisor> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/trusted-advisor/s1> .
+<https://github.com/john1hsu/communication-graph/id/trusted-advisor> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/trusted-advisor/s2> .
+<https://github.com/john1hsu/communication-graph/id/trusted-advisor> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/trusted-advisor/s3> .
+<https://github.com/john1hsu/communication-graph/id/trusted-advisor> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/trusted-advisor/s4> .
+<https://github.com/john1hsu/communication-graph/id/trusted-advisor> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/trusted-advisor/s5> .
+<https://github.com/john1hsu/communication-graph/id/trusted-advisor> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/client-communication> .
+<https://github.com/john1hsu/communication-graph/id/trusted-advisor> <https://github.com/john1hsu/communication-graph/ontology#domain> "executive-and-client-communication" .
+<https://github.com/john1hsu/communication-graph/id/trusted-advisor> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "practitioner" .
+<https://github.com/john1hsu/communication-graph/id/trusted-advisor> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/trusted-advisor/example> .
+<https://github.com/john1hsu/communication-graph/id/trusted-advisor> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/executive-and-client-communication/trusted-advisor.md" .
+<https://github.com/john1hsu/communication-graph/id/trusted-advisor> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/charles-h-green> .
+<https://github.com/john1hsu/communication-graph/id/trusted-advisor> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/david-maister> .
+<https://github.com/john1hsu/communication-graph/id/trusted-advisor> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/robert-galford> .
+<https://github.com/john1hsu/communication-graph/id/trusted-advisor> <https://github.com/john1hsu/communication-graph/ontology#introducedIn> <https://github.com/john1hsu/communication-graph/id/the-trusted-advisor-book> .
+<https://github.com/john1hsu/communication-graph/id/trusted-advisor> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/communication-graph/id/trusted-advisor> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+<https://github.com/john1hsu/communication-graph/id/trusted-advisor> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/colquitt-scott-lepine-2007> .
+<https://github.com/john1hsu/communication-graph/id/trusted-advisor> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/ko-2010> .
 <https://github.com/john1hsu/communication-graph/id/video-call-communication/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/video-call-communication/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Does this conversation need faces and live back-and-forth, or would a phone call, a shared document or a short written update do?" .
 <https://github.com/john1hsu/communication-graph/id/video-call-communication/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/video-call-communication> .

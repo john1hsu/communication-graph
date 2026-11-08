@@ -68,6 +68,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:apology` | `cm:social-accounts` |
 | `cm:asynchronous-communication` | `cm:setting-reply-time-expectations` |
 | `cm:business-report` | `cm:pyramid-principle` |
+| `cm:client-communication` | `cm:trusted-advisor` |
 | `cm:communication-plan` | `cm:raci-matrix` |
 | `cm:communication-plan` | `cm:stakeholder-mapping` |
 | `cm:crisis-communication` | `cm:communicating-uncertainty` |
@@ -94,9 +95,8 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:face-to-face-conversation` | `cm:proxemics` |
 | `cm:face-to-face-conversation` | `cm:rapport` |
 | `cm:job-interview` | `cm:camera-level-gaze` |
-| `cm:memorandum` | `cm:bottom-line-up-front` |
 
-…and 36 more.
+…and 37 more.
 
 ## Myths and contested advice
 

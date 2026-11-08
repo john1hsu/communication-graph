@@ -10102,6 +10102,103 @@
    ]
   },
   {
+   "@id": "cm:trusted-advisor",
+   "@type": "cmo:Framework",
+   "cmo:appliedIn": {
+    "@id": "cm:client-communication"
+   },
+   "cmo:domain": "executive-and-client-communication",
+   "cmo:evidenceStatus": "practitioner",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/trusted-advisor/example"
+   },
+   "cmo:file": "articles/executive-and-client-communication/trusted-advisor.md",
+   "cmo:introducedBy": [
+    {
+     "@id": "cm:charles-h-green"
+    },
+    {
+     "@id": "cm:david-maister"
+    },
+    {
+     "@id": "cm:robert-galford"
+    }
+   ],
+   "cmo:introducedIn": {
+    "@id": "cm:the-trusted-advisor-book"
+   },
+   "cmo:level": "intermediate",
+   "cmo:requires": {
+    "@id": "cm:active-listening"
+   },
+   "cmo:supportedBy": [
+    {
+     "@id": "cm:colquitt-scott-lepine-2007"
+    },
+    {
+     "@id": "cm:ko-2010"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/trusted-advisor/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/trusted-advisor/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/trusted-advisor/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/trusted-advisor/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/trusted-advisor/s5"
+    }
+   ],
+   "rdfs:label": "Trusted advisor",
+   "skos:altLabel": [
+    "the trust equation for advisors",
+    "trust equation",
+    "trusted advisor model"
+   ],
+   "skos:broader": {
+    "@id": "cm:interpersonal-communication"
+   },
+   "skos:definition": "A framework from David Maister, Charles Green and Robert Galford for earning a client's or senior stakeholder's trust: trustworthiness rises with credibility, reliability and intimacy and falls with self-orientation (the \"trust equation\"), and is built through five steps - engage, listen, frame, envision and commit.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/executive-and-client-communication"
+   },
+   "skos:prefLabel": "Trusted advisor",
+   "skos:related": [
+    {
+     "@id": "cm:active-listening"
+    },
+    {
+     "@id": "cm:credibility"
+    },
+    {
+     "@id": "cm:managing-up"
+    },
+    {
+     "@id": "cm:perspective-taking"
+    },
+    {
+     "@id": "cm:rapport"
+    },
+    {
+     "@id": "cm:self-disclosure"
+    },
+    {
+     "@id": "cm:trust-repair"
+    }
+   ]
+  },
+  {
    "@id": "cm:video-call-communication",
    "@type": "cmo:Channel",
    "cmo:alternativeTo": [
@@ -24995,6 +25092,76 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/trusted-advisor/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "David H. Maister, Charles H. Green & Robert M. Galford, Free Press / Simon & Schuster, 2021 (first published 2000) - publisher's book page",
+   "dcterms:title": "The Trusted Advisor: 20th Anniversary Edition",
+   "schema:url": {
+    "@id": "https://www.simonandschuster.ca/books/The-Trusted-Advisor-20th-Anniversary-Edition/David-H-Maister/9781982157104"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/trusted-advisor/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Dawn Wotapka, Journal of Accountancy (AICPA & CIMA), June 1, 2021",
+   "dcterms:title": "Use this formula to build trust with clients",
+   "schema:url": {
+    "@id": "https://www.journalofaccountancy.com/news/2021/jun/how-cpa-firms-build-trust-with-clients.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/trusted-advisor/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Roger C. Mayer, James H. Davis & F. David Schoorman, Academy of Management Review 20(3), 709-734, 1995 (author copy hosted by makinggood.ac.nz)",
+   "dcterms:title": "An Integrative Model of Organizational Trust",
+   "schema:url": {
+    "@id": "https://makinggood.ac.nz/media/1270/mayeretal_1995_organizationaltrust.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/trusted-advisor/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Jason A. Colquitt, Brent A. Scott & Jeffery A. LePine, Journal of Applied Psychology 92(4), 909-927, 2007 (author copy via CORE)",
+   "dcterms:title": "Trust, Trustworthiness, and Trust Propensity: A Meta-Analytic Test of Their Unique Relationships With Risk Taking and Job Performance",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/357570617.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/trusted-advisor/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Dong-Gil Ko, Journal of Knowledge Management 14(2), 202-213, 2010, doi:10.1108/13673271011032355 (Emerald)",
+   "dcterms:title": "Consultant competence trust doesn't pay off, but benevolent trust does! Managing knowledge with care",
+   "schema:url": {
+    "@id": "https://emerald.com/insight/content/doi/10.1108/13673271011032355/full/html"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/source/video-call-communication/s1",
    "@type": "cmo:Source",
    "cmo:sourceType": "peer-reviewed",
@@ -26040,6 +26207,46 @@
    "@type": "schema:HowToStep",
    "schema:position": 6,
    "schema:text": "Close by confirming the agreed version in writing where it matters (a recap message or ticket)."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/trusted-advisor/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:trusted-advisor"
+   },
+   "rdfs:label": "Before this meeting, can I state the client's real worry in their words rather than my summary of the scope?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/trusted-advisor/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:trusted-advisor"
+   },
+   "rdfs:label": "Have I delivered every small promise I made since we last spoke, and told them early about any I will miss?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/trusted-advisor/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:trusted-advisor"
+   },
+   "rdfs:label": "Is any part of what I plan to say mainly about my firm's revenue, my reputation or being right?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/trusted-advisor/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:trusted-advisor"
+   },
+   "rdfs:label": "Have I listened long enough to earn the right to frame the problem, or am I jumping to my solution?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/trusted-advisor/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "Before the deck: last week you said the board is worried about the March date. Is that still the main concern? I'll focus on what protects March, including one option that needs less of our time, not more.",
+   "cmo:before": "Thanks for the time. Let me walk you through our 30-slide progress deck, and at the end I'd like to talk about extending our team for phase two.",
+   "cmo:situation": "A consultant opens a steering-committee call with a client sponsor whose project is behind schedule.",
+   "cmo:why": "The rewrite shows reliability (it remembers what the sponsor said), intimacy (it names the real worry) and low self-orientation (it puts the client's problem ahead of selling more work)."
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/video-call-communication/check/1",
