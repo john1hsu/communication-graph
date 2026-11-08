@@ -12,7 +12,7 @@ Read `graph/stats.md`, `graph/frontier.md`, `graph/competency.md` and `topics/se
 
 ## 2. Pick the topic (graph-driven)
 Use the current UTC hour modulo 3:
-- **0 → depth.** Take the top node in `graph/frontier.md` that fits a domain. Use its *Expected type* (inferred by the reasoner) as the article's `type` unless it is clearly wrong.
+- **0 → depth.** Take the top node in `graph/frontier.md` that fits a domain, **skipping any node that would belong to the domain with the most articles** ("Domain coverage" in `graph/stats.md`; on a tie for most, skip all tied domains), so one domain's dense cross-links can't snowball into a lopsided graph. Use its *Expected type* (inferred by the reasoner) as the article's `type` unless it is clearly wrong.
 - **1 → breadth.** Take the domain at the top of "Domain coverage" in `graph/stats.md` (fewest articles; skip the domain of the most recent commit on ties) and pick an unwritten seed or another important topic in it.
 - **2 → gap.** Take the first row of the first non-empty *(gap)* section in `graph/competency.md` and write the article that closes it (a technique that fixes an unaddressed anti-pattern or barrier, a practice that develops a skill, guidance for a situation, the person or work behind an unattributed idea).
 - If the chosen mode yields nothing, fall back to breadth.
