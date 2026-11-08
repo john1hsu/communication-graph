@@ -9321,6 +9321,113 @@
   ]
  },
  {
+  "id": "cm:power-posing",
+  "title": "Power posing",
+  "aliases": [
+   "power pose",
+   "power poses",
+   "high-power poses",
+   "expansive posture effect",
+   "superhero pose"
+  ],
+  "type": "Phenomenon",
+  "domain": "nonverbal-and-voice",
+  "level": "introductory",
+  "evidenceStatus": "failed-replication",
+  "file": "articles/nonverbal-and-voice/power-posing.md",
+  "created": "2026-11-08",
+  "summary": "The claim that holding an expansive, \"high-power\" body posture for a minute or two before a stressful event raises testosterone, lowers cortisol and makes people bolder; larger replications found no hormonal or risk-taking effect, leaving at most a small boost to how powerful people say they feel.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:nonverbal-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:speaking-anxiety"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:anxiety-reappraisal"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:mehrabian-myth"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:presentation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:gestures"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:social-psychology"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:dana-carney",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:amy-cuddy",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:carney-cuddy-yap-2010",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:ranehill-et-al-2015",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:crede-2019",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:korner-et-al-2022",
+    "source": "s4",
+    "confidence": "low"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:job-interview",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:embodied-cognition",
+    "source": "s1",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://www.bu.edu/wgs/files/2014/12/Carney-et-al.-2010-PowerPosingAffectsNeuroendocrineHormones.pdf",
+   "https://www.zne.uzh.ch/dam/jcr:e5fc4c3c-d50e-4aa9-96ab-4389e426d20d/Psychological%20Science-2015-Ranehill-0956797614553946.pdf",
+   "https://faculty.haas.berkeley.edu:443/dana_carney/pdf_my%20position%20on%20power%20poses.pdf",
+   "https://www.uni-bamberg.de/presse/pm/artikel/pm-powerpose-psychologie/",
+   "https://open.lnu.se/index.php/metapsychology/article/view/1723",
+   "https://www.apa.org/news/press/releases/2013/12/performance-anxiety"
+  ]
+ },
+ {
   "id": "cm:presentation",
   "title": "Presentation",
   "aliases": [

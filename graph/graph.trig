@@ -687,6 +687,15 @@
 <https://github.com/john1hsu/communication-graph/id/nonverbal-communication#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/nonverbal-communication/s4> .
 <https://github.com/john1hsu/communication-graph/id/nonverbal-communication#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/nonverbal-communication/s5> .
 <https://github.com/john1hsu/communication-graph/id/nonverbal-communication#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/nonverbal-communication/s6> .
+<https://github.com/john1hsu/communication-graph/id/power-posing#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/power-posing#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/power-posing> .
+<https://github.com/john1hsu/communication-graph/id/power-posing#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/nonverbal-and-voice/power-posing.md" .
+<https://github.com/john1hsu/communication-graph/id/power-posing#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/power-posing/s1> .
+<https://github.com/john1hsu/communication-graph/id/power-posing#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/power-posing/s2> .
+<https://github.com/john1hsu/communication-graph/id/power-posing#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/power-posing/s3> .
+<https://github.com/john1hsu/communication-graph/id/power-posing#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/power-posing/s4> .
+<https://github.com/john1hsu/communication-graph/id/power-posing#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/power-posing/s5> .
+<https://github.com/john1hsu/communication-graph/id/power-posing#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/power-posing/s6> .
 <https://github.com/john1hsu/communication-graph/id/proxemics#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/proxemics#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/proxemics> .
 <https://github.com/john1hsu/communication-graph/id/proxemics#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/nonverbal-and-voice/proxemics.md" .
@@ -8521,6 +8530,81 @@
   <https://github.com/john1hsu/communication-graph/id/source/nonverbal-communication/s6> <https://schema.org/url> <https://core.ac.uk/download/212360777.pdf> .
 }
 
+<https://github.com/john1hsu/communication-graph/id/power-posing#graph> {
+  <https://github.com/john1hsu/communication-graph/id/power-posing> <http://purl.org/dc/terms/created> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/power-posing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Phenomenon> .
+  <https://github.com/john1hsu/communication-graph/id/power-posing> <http://www.w3.org/2000/01/rdf-schema#label> "Power posing" .
+  <https://github.com/john1hsu/communication-graph/id/power-posing> <http://www.w3.org/2004/02/skos/core#altLabel> "expansive posture effect" .
+  <https://github.com/john1hsu/communication-graph/id/power-posing> <http://www.w3.org/2004/02/skos/core#altLabel> "high-power poses" .
+  <https://github.com/john1hsu/communication-graph/id/power-posing> <http://www.w3.org/2004/02/skos/core#altLabel> "power pose" .
+  <https://github.com/john1hsu/communication-graph/id/power-posing> <http://www.w3.org/2004/02/skos/core#altLabel> "power poses" .
+  <https://github.com/john1hsu/communication-graph/id/power-posing> <http://www.w3.org/2004/02/skos/core#altLabel> "superhero pose" .
+  <https://github.com/john1hsu/communication-graph/id/power-posing> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> .
+  <https://github.com/john1hsu/communication-graph/id/power-posing> <http://www.w3.org/2004/02/skos/core#definition> "The claim that holding an expansive, \"high-power\" body posture for a minute or two before a stressful event raises testosterone, lowers cortisol and makes people bolder; larger replications found no hormonal or risk-taking effect, leaving at most a small boost to how powerful people say they feel." .
+  <https://github.com/john1hsu/communication-graph/id/power-posing> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/nonverbal-and-voice> .
+  <https://github.com/john1hsu/communication-graph/id/power-posing> <http://www.w3.org/2004/02/skos/core#prefLabel> "Power posing" .
+  <https://github.com/john1hsu/communication-graph/id/power-posing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> .
+  <https://github.com/john1hsu/communication-graph/id/power-posing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/gestures> .
+  <https://github.com/john1hsu/communication-graph/id/power-posing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> .
+  <https://github.com/john1hsu/communication-graph/id/power-posing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/presentation> .
+  <https://github.com/john1hsu/communication-graph/id/power-posing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/social-psychology> .
+  <https://github.com/john1hsu/communication-graph/id/power-posing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> .
+  <https://github.com/john1hsu/communication-graph/id/power-posing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/power-posing/s1> .
+  <https://github.com/john1hsu/communication-graph/id/power-posing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/power-posing/s2> .
+  <https://github.com/john1hsu/communication-graph/id/power-posing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/power-posing/s3> .
+  <https://github.com/john1hsu/communication-graph/id/power-posing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/power-posing/s4> .
+  <https://github.com/john1hsu/communication-graph/id/power-posing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/power-posing/s5> .
+  <https://github.com/john1hsu/communication-graph/id/power-posing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/power-posing/s6> .
+  <https://github.com/john1hsu/communication-graph/id/power-posing> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/job-interview> .
+  <https://github.com/john1hsu/communication-graph/id/power-posing> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/crede-2019> .
+  <https://github.com/john1hsu/communication-graph/id/power-posing> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/ranehill-et-al-2015> .
+  <https://github.com/john1hsu/communication-graph/id/power-posing> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/carney-cuddy-yap-2010> .
+  <https://github.com/john1hsu/communication-graph/id/power-posing> <https://github.com/john1hsu/communication-graph/ontology#domain> "nonverbal-and-voice" .
+  <https://github.com/john1hsu/communication-graph/id/power-posing> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "failed-replication" .
+  <https://github.com/john1hsu/communication-graph/id/power-posing> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/embodied-cognition> .
+  <https://github.com/john1hsu/communication-graph/id/power-posing> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/nonverbal-and-voice/power-posing.md" .
+  <https://github.com/john1hsu/communication-graph/id/power-posing> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/amy-cuddy> .
+  <https://github.com/john1hsu/communication-graph/id/power-posing> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/dana-carney> .
+  <https://github.com/john1hsu/communication-graph/id/power-posing> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+  <https://github.com/john1hsu/communication-graph/id/power-posing> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/korner-et-al-2022> .
+  <https://github.com/john1hsu/communication-graph/id/source/power-posing/s1> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/power-posing/s1> <http://purl.org/dc/terms/publisher> "Carney, Cuddy & Yap, Psychological Science 21(10), 2010, pp. 1363-1368 (doi:10.1177/0956797610383437; Boston University hosted copy)" .
+  <https://github.com/john1hsu/communication-graph/id/source/power-posing/s1> <http://purl.org/dc/terms/title> "Power Posing: Brief Nonverbal Displays Affect Neuroendocrine Levels and Risk Tolerance" .
+  <https://github.com/john1hsu/communication-graph/id/source/power-posing/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/power-posing/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/communication-graph/id/source/power-posing/s1> <https://schema.org/url> <https://www.bu.edu/wgs/files/2014/12/Carney-et-al.-2010-PowerPosingAffectsNeuroendocrineHormones.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/power-posing/s2> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/power-posing/s2> <http://purl.org/dc/terms/publisher> "Ranehill, Dreber, Johannesson, Leiberg, Sul & Weber, Psychological Science, 2015 (doi:10.1177/0956797614553946; University of Zurich copy)" .
+  <https://github.com/john1hsu/communication-graph/id/source/power-posing/s2> <http://purl.org/dc/terms/title> "Assessing the Robustness of Power Posing: No Effect on Hormones and Risk Tolerance in a Large Sample of Men and Women" .
+  <https://github.com/john1hsu/communication-graph/id/source/power-posing/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/power-posing/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/power-posing/s2> <https://schema.org/url> <https://www.zne.uzh.ch/dam/jcr:e5fc4c3c-d50e-4aa9-96ab-4389e426d20d/Psychological%20Science-2015-Ranehill-0956797614553946.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/power-posing/s3> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/power-posing/s3> <http://purl.org/dc/terms/publisher> "Dana R. Carney, UC Berkeley Haas School of Business faculty page (undated statement, c. 2016)" .
+  <https://github.com/john1hsu/communication-graph/id/source/power-posing/s3> <http://purl.org/dc/terms/title> "My position on \"Power Poses\"" .
+  <https://github.com/john1hsu/communication-graph/id/source/power-posing/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/power-posing/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/communication-graph/id/source/power-posing/s3> <https://schema.org/url> <https://faculty.haas.berkeley.edu:443/dana_carney/pdf_my%20position%20on%20power%20poses.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/power-posing/s4> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/power-posing/s4> <http://purl.org/dc/terms/publisher> "University of Bamberg / Martin Luther University Halle-Wittenberg press office, 2022" .
+  <https://github.com/john1hsu/communication-graph/id/source/power-posing/s4> <http://purl.org/dc/terms/title> "Meta-analysis on power posing: upright posture and self-perception (press release on Körner, Röseler, Schütz & Bushman, Psychological Bulletin, 2022)" .
+  <https://github.com/john1hsu/communication-graph/id/source/power-posing/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/power-posing/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/communication-graph/id/source/power-posing/s4> <https://schema.org/url> <https://www.uni-bamberg.de/presse/pm/artikel/pm-powerpose-psychologie/> .
+  <https://github.com/john1hsu/communication-graph/id/source/power-posing/s5> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/power-posing/s5> <http://purl.org/dc/terms/publisher> "Marcus Credé, Meta-Psychology 3, 2019 (doi:10.15626/MP.2019.1723)" .
+  <https://github.com/john1hsu/communication-graph/id/source/power-posing/s5> <http://purl.org/dc/terms/title> "A Negative Effect of a Contractive Pose is not Evidence for the Positive Effect of an Expansive Pose: Comment on Cuddy, Schultz, and Fosse (2018)" .
+  <https://github.com/john1hsu/communication-graph/id/source/power-posing/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/power-posing/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/power-posing/s5> <https://schema.org/url> <https://open.lnu.se/index.php/metapsychology/article/view/1723> .
+  <https://github.com/john1hsu/communication-graph/id/source/power-posing/s6> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/power-posing/s6> <http://purl.org/dc/terms/publisher> "American Psychological Association press release on Brooks, Journal of Experimental Psychology: General, December 2013" .
+  <https://github.com/john1hsu/communication-graph/id/source/power-posing/s6> <http://purl.org/dc/terms/title> "Getting excited helps with performance anxiety more than trying to calm down, study finds" .
+  <https://github.com/john1hsu/communication-graph/id/source/power-posing/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/power-posing/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+  <https://github.com/john1hsu/communication-graph/id/source/power-posing/s6> <https://schema.org/url> <https://www.apa.org/news/press/releases/2013/12/performance-anxiety> .
+}
+
 <https://github.com/john1hsu/communication-graph/id/proxemics#graph> {
   <https://github.com/john1hsu/communication-graph/id/proxemics> <http://purl.org/dc/terms/created> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
   <https://github.com/john1hsu/communication-graph/id/proxemics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
@@ -13220,6 +13304,9 @@
   <https://github.com/john1hsu/communication-graph/id/amos-tversky> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/amos-tversky> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/amos-tversky> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> .
+  <https://github.com/john1hsu/communication-graph/id/amy-cuddy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/amy-cuddy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+  <https://github.com/john1hsu/communication-graph/id/amy-cuddy> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/power-posing> .
   <https://github.com/john1hsu/communication-graph/id/amy-edmondson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/amy-edmondson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/amy-edmondson> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
@@ -13259,6 +13346,7 @@
   <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> .
   <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/labeling-emotions> .
   <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/macinnis-mackinnon-macintyre-2010> .
+  <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/power-posing> .
   <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/self-affirmation-before-feedback> .
   <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/self-distancing> .
   <https://github.com/john1hsu/communication-graph/id/apology/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -13550,6 +13638,9 @@
   <https://github.com/john1hsu/communication-graph/id/carl-rogers> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> .
   <https://github.com/john1hsu/communication-graph/id/carl-rogers> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/active-listening> .
   <https://github.com/john1hsu/communication-graph/id/carl-rogers> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/paraphrasing> .
+  <https://github.com/john1hsu/communication-graph/id/carney-cuddy-yap-2010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/carney-cuddy-yap-2010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
+  <https://github.com/john1hsu/communication-graph/id/carney-cuddy-yap-2010> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/power-posing> .
   <https://github.com/john1hsu/communication-graph/id/caruso-epley-bazerman-2006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/caruso-epley-bazerman-2006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/caruso-epley-bazerman-2006> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/nicholas-epley> .
@@ -13734,6 +13825,7 @@
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/performance-review> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/perspective-taking> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/persuasion> .
+  <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/power-posing> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/presentation> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/proxemics> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/rapport> .
@@ -13805,6 +13897,7 @@
   <https://github.com/john1hsu/communication-graph/id/cramton-2001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/cramton-2001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/cramton-2001> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/common-ground> .
+  <https://github.com/john1hsu/communication-graph/id/crede-2019> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/power-posing> .
   <https://github.com/john1hsu/communication-graph/id/credibility/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/credibility/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/credibility/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -13862,6 +13955,9 @@
   <https://github.com/john1hsu/communication-graph/id/cybernetics> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/norbert-wiener> .
   <https://github.com/john1hsu/communication-graph/id/czech-forward-2013> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/defensiveness> .
   <https://github.com/john1hsu/communication-graph/id/damen-pollmann-grassow-2021> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/perspective-getting> .
+  <https://github.com/john1hsu/communication-graph/id/dana-carney> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/dana-carney> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+  <https://github.com/john1hsu/communication-graph/id/dana-carney> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/power-posing> .
   <https://github.com/john1hsu/communication-graph/id/daniel-kahneman> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/daniel-kahneman> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/daniel-kahneman> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> .
@@ -14113,6 +14209,7 @@
   <https://github.com/john1hsu/communication-graph/id/email> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/scheduled-inbox-checks> .
   <https://github.com/john1hsu/communication-graph/id/email> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations> .
   <https://github.com/john1hsu/communication-graph/id/email> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/ray-tomlinson> .
+  <https://github.com/john1hsu/communication-graph/id/embodied-cognition> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/power-posing> .
   <https://github.com/john1hsu/communication-graph/id/emotion-regulation> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/self-distancing> .
   <https://github.com/john1hsu/communication-graph/id/emotion-regulation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/self-distancing> .
   <https://github.com/john1hsu/communication-graph/id/emotion-regulation> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/labeling-emotions> .
@@ -14377,6 +14474,7 @@
   <https://github.com/john1hsu/communication-graph/id/gestures> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
   <https://github.com/john1hsu/communication-graph/id/gestures> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> .
   <https://github.com/john1hsu/communication-graph/id/gestures> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-load> .
+  <https://github.com/john1hsu/communication-graph/id/gestures> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/power-posing> .
   <https://github.com/john1hsu/communication-graph/id/gestures> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/presentation> .
   <https://github.com/john1hsu/communication-graph/id/gestures> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/self-recording-playback> .
   <https://github.com/john1hsu/communication-graph/id/gestures> <https://github.com/john1hsu/communication-graph/ontology#developedBy> <https://github.com/john1hsu/communication-graph/id/self-recording-playback> .
@@ -14706,6 +14804,7 @@
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/perspective-taking> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/persuasion> .
+  <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/power-posing> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/proxemics> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/rapport> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/receiving-feedback> .
@@ -14771,6 +14870,7 @@
   <https://github.com/john1hsu/communication-graph/id/jeremy-jamieson> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> .
   <https://github.com/john1hsu/communication-graph/id/job-interview> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/salary-negotiation> .
   <https://github.com/john1hsu/communication-graph/id/job-interview> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/camera-level-gaze> .
+  <https://github.com/john1hsu/communication-graph/id/job-interview> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/power-posing> .
   <https://github.com/john1hsu/communication-graph/id/john-hattie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/john-hattie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/john-hattie> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> .
@@ -14837,6 +14937,7 @@
   <https://github.com/john1hsu/communication-graph/id/kluger-et-al-2024> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> .
   <https://github.com/john1hsu/communication-graph/id/kluger-et-al-2024> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/active-listening> .
   <https://github.com/john1hsu/communication-graph/id/ko-2010> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/trusted-advisor> .
+  <https://github.com/john1hsu/communication-graph/id/korner-et-al-2022> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/power-posing> .
   <https://github.com/john1hsu/communication-graph/id/korobov-2020> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/i-statements> .
   <https://github.com/john1hsu/communication-graph/id/kosslyn-et-al-2012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/kosslyn-et-al-2012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
@@ -15030,6 +15131,7 @@
   <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/eye-contact> .
   <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/gestures> .
   <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> .
+  <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/power-posing> .
   <https://github.com/john1hsu/communication-graph/id/meinecke-lehmann-willenbrock-kauffeld-2017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/meinecke-lehmann-willenbrock-kauffeld-2017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/meinecke-lehmann-willenbrock-kauffeld-2017> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/performance-review> .
@@ -15172,11 +15274,13 @@
   <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/eye-contact> .
   <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/gestures> .
   <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> .
+  <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/power-posing> .
   <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/proxemics> .
   <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/camera-level-gaze> .
   <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/eye-contact> .
   <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/gestures> .
   <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> .
+  <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/power-posing> .
   <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/proxemics> .
   <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/chen-2002> .
   <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/face-to-face-conversation> .
@@ -15432,6 +15536,11 @@
   <https://github.com/john1hsu/communication-graph/id/power-distance> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/multicultural-team> .
   <https://github.com/john1hsu/communication-graph/id/power-distance> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/the-culture-map> .
   <https://github.com/john1hsu/communication-graph/id/power-distance> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> .
+  <https://github.com/john1hsu/communication-graph/id/power-posing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+  <https://github.com/john1hsu/communication-graph/id/power-posing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/power-posing> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
+  <https://github.com/john1hsu/communication-graph/id/power-posing> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
+  <https://github.com/john1hsu/communication-graph/id/power-posing> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> .
   <https://github.com/john1hsu/communication-graph/id/poynter-smith-pasqualini-2025> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> .
   <https://github.com/john1hsu/communication-graph/id/pragmatics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/pragmatics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -15464,6 +15573,7 @@
   <https://github.com/john1hsu/communication-graph/id/presentation> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
   <https://github.com/john1hsu/communication-graph/id/presentation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-load> .
   <https://github.com/john1hsu/communication-graph/id/presentation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/narrative-persuasion> .
+  <https://github.com/john1hsu/communication-graph/id/presentation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/power-posing> .
   <https://github.com/john1hsu/communication-graph/id/presentation> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> .
   <https://github.com/john1hsu/communication-graph/id/presentation> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> .
   <https://github.com/john1hsu/communication-graph/id/presentation> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/gestures> .
@@ -15554,6 +15664,7 @@
   <https://github.com/john1hsu/communication-graph/id/raci-matrix> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/decision-rights> .
   <https://github.com/john1hsu/communication-graph/id/raci-matrix> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/workplace-meetings> .
   <https://github.com/john1hsu/communication-graph/id/rai-mitchell-faelling-2012> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> .
+  <https://github.com/john1hsu/communication-graph/id/ranehill-et-al-2015> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/power-posing> .
   <https://github.com/john1hsu/communication-graph/id/range-of-acceptable-behavior> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/adam-galinsky> .
   <https://github.com/john1hsu/communication-graph/id/rapport/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/rapport/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -15880,6 +15991,7 @@
   <https://github.com/john1hsu/communication-graph/id/social-psychology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/social-psychology> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/psychology> .
   <https://github.com/john1hsu/communication-graph/id/social-psychology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/carl-hovland> .
+  <https://github.com/john1hsu/communication-graph/id/social-psychology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/power-posing> .
   <https://github.com/john1hsu/communication-graph/id/social-psychology> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
   <https://github.com/john1hsu/communication-graph/id/sorokowska-et-al-2017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/sorokowska-et-al-2017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
@@ -15898,6 +16010,7 @@
   <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/filled-pauses> .
   <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> .
   <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> .
+  <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/power-posing> .
   <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/presentation> .
   <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/thomas-gilovich> .
   <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> .

@@ -8192,6 +8192,102 @@
    ]
   },
   {
+   "@id": "cm:power-posing",
+   "@type": "cmo:Phenomenon",
+   "cmo:appliedIn": {
+    "@id": "cm:job-interview"
+   },
+   "cmo:challengedBy": [
+    {
+     "@id": "cm:crede-2019"
+    },
+    {
+     "@id": "cm:ranehill-et-al-2015"
+    }
+   ],
+   "cmo:demonstratedBy": {
+    "@id": "cm:carney-cuddy-yap-2010"
+   },
+   "cmo:domain": "nonverbal-and-voice",
+   "cmo:evidenceStatus": "failed-replication",
+   "cmo:explainedBy": {
+    "@id": "cm:embodied-cognition"
+   },
+   "cmo:file": "articles/nonverbal-and-voice/power-posing.md",
+   "cmo:introducedBy": [
+    {
+     "@id": "cm:amy-cuddy"
+    },
+    {
+     "@id": "cm:dana-carney"
+    }
+   ],
+   "cmo:level": "introductory",
+   "cmo:supportedBy": {
+    "@id": "cm:korner-et-al-2022"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/power-posing/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/power-posing/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/power-posing/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/power-posing/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/power-posing/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/power-posing/s6"
+    }
+   ],
+   "rdfs:label": "Power posing",
+   "skos:altLabel": [
+    "expansive posture effect",
+    "high-power poses",
+    "power pose",
+    "power poses",
+    "superhero pose"
+   ],
+   "skos:broader": {
+    "@id": "cm:nonverbal-communication"
+   },
+   "skos:definition": "The claim that holding an expansive, \"high-power\" body posture for a minute or two before a stressful event raises testosterone, lowers cortisol and makes people bolder; larger replications found no hormonal or risk-taking effect, leaving at most a small boost to how powerful people say they feel.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/nonverbal-and-voice"
+   },
+   "skos:prefLabel": "Power posing",
+   "skos:related": [
+    {
+     "@id": "cm:anxiety-reappraisal"
+    },
+    {
+     "@id": "cm:gestures"
+    },
+    {
+     "@id": "cm:mehrabian-myth"
+    },
+    {
+     "@id": "cm:presentation"
+    },
+    {
+     "@id": "cm:social-psychology"
+    },
+    {
+     "@id": "cm:speaking-anxiety"
+    }
+   ]
+  },
+  {
    "@id": "cm:presentation",
    "@type": "cmo:Context",
    "cmo:complements": [
@@ -24736,6 +24832,90 @@
    "dcterms:title": "Plain language summaries: A systematic review of theory, guidelines and empirical research",
    "schema:url": {
     "@id": "https://pubmed.ncbi.nlm.nih.gov/35666746/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/power-posing/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Carney, Cuddy & Yap, Psychological Science 21(10), 2010, pp. 1363-1368 (doi:10.1177/0956797610383437; Boston University hosted copy)",
+   "dcterms:title": "Power Posing: Brief Nonverbal Displays Affect Neuroendocrine Levels and Risk Tolerance",
+   "schema:url": {
+    "@id": "https://www.bu.edu/wgs/files/2014/12/Carney-et-al.-2010-PowerPosingAffectsNeuroendocrineHormones.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/power-posing/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Ranehill, Dreber, Johannesson, Leiberg, Sul & Weber, Psychological Science, 2015 (doi:10.1177/0956797614553946; University of Zurich copy)",
+   "dcterms:title": "Assessing the Robustness of Power Posing: No Effect on Hormones and Risk Tolerance in a Large Sample of Men and Women",
+   "schema:url": {
+    "@id": "https://www.zne.uzh.ch/dam/jcr:e5fc4c3c-d50e-4aa9-96ab-4389e426d20d/Psychological%20Science-2015-Ranehill-0956797614553946.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/power-posing/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Dana R. Carney, UC Berkeley Haas School of Business faculty page (undated statement, c. 2016)",
+   "dcterms:title": "My position on \"Power Poses\"",
+   "schema:url": {
+    "@id": "https://faculty.haas.berkeley.edu:443/dana_carney/pdf_my%20position%20on%20power%20poses.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/power-posing/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "University of Bamberg / Martin Luther University Halle-Wittenberg press office, 2022",
+   "dcterms:title": "Meta-analysis on power posing: upright posture and self-perception (press release on Körner, Röseler, Schütz & Bushman, Psychological Bulletin, 2022)",
+   "schema:url": {
+    "@id": "https://www.uni-bamberg.de/presse/pm/artikel/pm-powerpose-psychologie/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/power-posing/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Marcus Credé, Meta-Psychology 3, 2019 (doi:10.15626/MP.2019.1723)",
+   "dcterms:title": "A Negative Effect of a Contractive Pose is not Evidence for the Positive Effect of an Expansive Pose: Comment on Cuddy, Schultz, and Fosse (2018)",
+   "schema:url": {
+    "@id": "https://open.lnu.se/index.php/metapsychology/article/view/1723"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/power-posing/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "American Psychological Association press release on Brooks, Journal of Experimental Psychology: General, December 2013",
+   "dcterms:title": "Getting excited helps with performance anxiety more than trying to calm down, study finds",
+   "schema:url": {
+    "@id": "https://www.apa.org/news/press/releases/2013/12/performance-anxiety"
    }
   },
   {

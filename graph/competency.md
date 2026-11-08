@@ -96,7 +96,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:face-to-face-conversation` | `cm:nonverbal-communication` |
 | `cm:face-to-face-conversation` | `cm:proxemics` |
 
-…and 42 more.
+…and 43 more.
 
 ## Myths and contested advice
 
@@ -121,6 +121,8 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:mehrabian-myth` | contested | `cm:zuckerman-et-al-1982` |
 | `cm:readability-formulas` | contested | `cm:duffy-kabance-1982` |
 | `cm:readability-formulas` | contested | `cm:redish-selzer-1985` |
+| `cm:power-posing` | failed-replication | `cm:crede-2019` |
+| `cm:power-posing` | failed-replication | `cm:ranehill-et-al-2015` |
 | `cm:active-listening` | mixed |  |
 | `cm:active-voice` | mixed | `cm:fear-and-loathing-of-the-english-passive` |
 | `cm:apology` | mixed |  |
@@ -132,10 +134,8 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:channel-selection` | mixed | `cm:dennis-kinney-1998` |
 | `cm:clarity` | mixed |  |
 | `cm:cognitive-load` | mixed | `cm:de-jong-2010` |
-| `cm:common-ground` | mixed | `cm:keysar-et-al-2000` |
-| `cm:communicating-uncertainty` | mixed |  |
 
-…and 74 more.
+…and 76 more.
 
 ## Concepts with no recorded origin (gap)
 
