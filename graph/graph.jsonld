@@ -4290,6 +4290,75 @@
    ]
   },
   {
+   "@id": "cm:fm-6-0",
+   "@type": "cmo:Work",
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "historical",
+   "cmo:file": "articles/thinkers-and-works/fm-6-0.md",
+   "cmo:introduces": {
+    "@id": "cm:executive-briefing"
+   },
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/fm-6-0/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/fm-6-0/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/fm-6-0/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/fm-6-0/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/fm-6-0/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/fm-6-0/s6"
+    }
+   ],
+   "rdfs:label": "Army Field Manual 6-0",
+   "skos:altLabel": [
+    "Commander and Staff Organization and Operations",
+    "FM 6-0",
+    "FM 6-0, Commander and Staff Organization and Operations"
+   ],
+   "skos:broader": {
+    "@id": "cm:executive-briefing"
+   },
+   "skos:definition": "The U.S. Army field manual on how commanders and staffs organise and work (2014 edition, amended 2015-16), whose chapter on military briefings codifies the four briefing types - information, decision, mission and staff - and a plan-prepare-execute-assess routine that underlies much civilian advice on briefing executives.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "Army Field Manual 6-0",
+   "skos:related": [
+    {
+     "@id": "cm:audience-analysis"
+    },
+    {
+     "@id": "cm:bottom-line-up-front"
+    },
+    {
+     "@id": "cm:death-by-powerpoint"
+    },
+    {
+     "@id": "cm:effective-writing-for-army-leaders"
+    },
+    {
+     "@id": "cm:presentation-rehearsal"
+    },
+    {
+     "@id": "cm:status-reporting"
+    }
+   ]
+  },
+  {
    "@id": "cm:george-loewenstein",
    "@type": "cmo:Person",
    "cmo:authored": {
@@ -21879,6 +21948,90 @@
    "dcterms:title": "The remarkable robustness of the first-offer effect: Across culture, power, and issues",
    "schema:url": {
     "@id": "https://www.london.edu/faculty-and-research/academic-research/t/the-remarkable-robustness-of-the-first-offer-effect-across-culture-power-and-issues"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/fm-6-0/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Headquarters, Department of the Army (copy hosted by U.S. Army Garrison Fort Leonard Wood)",
+   "dcterms:title": "FM 6-0: Commander and Staff Organization and Operations (5 May 2014, incl. Change 1, 11 May 2015 and Change 2, April 2016), chapter 7 Military Briefings",
+   "schema:url": {
+    "@id": "https://home.army.mil/wood/download_file/view/6638/1525"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/fm-6-0/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "U.S. Army Intelligence Officer Basic Course lesson plan (copy hosted by the Federation of American Scientists)",
+   "dcterms:title": "Decision Brief (instructional event, as of January 1996)",
+   "schema:url": {
+    "@id": "https://irp.fas.org/doddir/army/iobc/decbrflp.htm"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/fm-6-0/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "The Basic School, U.S. Marine Corps Training Command, Camp Barrett, Virginia",
+   "dcterms:title": "Military Briefing (W3S0005 student handout)",
+   "schema:url": {
+    "@id": "https://www.trngcmd.marines.mil/Portals/207/Docs/TBS/W3S0005%20-%20MILITARY%20BRIEFING.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/fm-6-0/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "news",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Randi Stenson, Mission Command Center of Excellence Public Affairs, army.mil, 16 May 2022",
+   "dcterms:title": "New and updated field manuals aid commanders, staffs",
+   "schema:url": {
+    "@id": "https://www.army.mil/article/256079/new_and_updated_field_manuals_aid_commanders_staffs"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/fm-6-0/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "practitioner-journal",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Maj. Allen D. Tapley and Master Sgt. Edwin Clouse, Army Sustainment (September-October 2016), via army.mil",
+   "dcterms:title": "Simplifying complex briefings",
+   "schema:url": {
+    "@id": "https://www.army.mil/article/173349/simplifying_complex_briefings"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/fm-6-0/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "preprint",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Gregory Shawn Pece, master's thesis, Virginia Tech, 2005 (VTechWorks)",
+   "dcterms:title": "The PowerPoint Society: The Influence of PowerPoint in the U.S. Government and Bureaucracy",
+   "schema:url": {
+    "@id": "https://vtechworks.lib.vt.edu/items/c2a0d46a-8085-4628-bde9-ba2b91f6e080"
    }
   },
   {

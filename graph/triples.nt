@@ -2546,6 +2546,33 @@
 <https://github.com/john1hsu/communication-graph/id/first-offer> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/communication-graph/id/first-offer> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/batna> .
 <https://github.com/john1hsu/communication-graph/id/first-offer> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/petrowsky-et-al-2025> .
+<https://github.com/john1hsu/communication-graph/id/fm-6-0> <http://purl.org/dc/terms/created> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/fm-6-0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
+<https://github.com/john1hsu/communication-graph/id/fm-6-0> <http://www.w3.org/2000/01/rdf-schema#label> "Army Field Manual 6-0" .
+<https://github.com/john1hsu/communication-graph/id/fm-6-0> <http://www.w3.org/2004/02/skos/core#altLabel> "Commander and Staff Organization and Operations" .
+<https://github.com/john1hsu/communication-graph/id/fm-6-0> <http://www.w3.org/2004/02/skos/core#altLabel> "FM 6-0" .
+<https://github.com/john1hsu/communication-graph/id/fm-6-0> <http://www.w3.org/2004/02/skos/core#altLabel> "FM 6-0, Commander and Staff Organization and Operations" .
+<https://github.com/john1hsu/communication-graph/id/fm-6-0> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/executive-briefing> .
+<https://github.com/john1hsu/communication-graph/id/fm-6-0> <http://www.w3.org/2004/02/skos/core#definition> "The U.S. Army field manual on how commanders and staffs organise and work (2014 edition, amended 2015-16), whose chapter on military briefings codifies the four briefing types - information, decision, mission and staff - and a plan-prepare-execute-assess routine that underlies much civilian advice on briefing executives." .
+<https://github.com/john1hsu/communication-graph/id/fm-6-0> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works> .
+<https://github.com/john1hsu/communication-graph/id/fm-6-0> <http://www.w3.org/2004/02/skos/core#prefLabel> "Army Field Manual 6-0" .
+<https://github.com/john1hsu/communication-graph/id/fm-6-0> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
+<https://github.com/john1hsu/communication-graph/id/fm-6-0> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
+<https://github.com/john1hsu/communication-graph/id/fm-6-0> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint> .
+<https://github.com/john1hsu/communication-graph/id/fm-6-0> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/effective-writing-for-army-leaders> .
+<https://github.com/john1hsu/communication-graph/id/fm-6-0> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> .
+<https://github.com/john1hsu/communication-graph/id/fm-6-0> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/status-reporting> .
+<https://github.com/john1hsu/communication-graph/id/fm-6-0> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/fm-6-0/s1> .
+<https://github.com/john1hsu/communication-graph/id/fm-6-0> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/fm-6-0/s2> .
+<https://github.com/john1hsu/communication-graph/id/fm-6-0> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/fm-6-0/s3> .
+<https://github.com/john1hsu/communication-graph/id/fm-6-0> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/fm-6-0/s4> .
+<https://github.com/john1hsu/communication-graph/id/fm-6-0> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/fm-6-0/s5> .
+<https://github.com/john1hsu/communication-graph/id/fm-6-0> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/fm-6-0/s6> .
+<https://github.com/john1hsu/communication-graph/id/fm-6-0> <https://github.com/john1hsu/communication-graph/ontology#domain> "thinkers-and-works" .
+<https://github.com/john1hsu/communication-graph/id/fm-6-0> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "historical" .
+<https://github.com/john1hsu/communication-graph/id/fm-6-0> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/thinkers-and-works/fm-6-0.md" .
+<https://github.com/john1hsu/communication-graph/id/fm-6-0> <https://github.com/john1hsu/communication-graph/ontology#introduces> <https://github.com/john1hsu/communication-graph/id/executive-briefing> .
+<https://github.com/john1hsu/communication-graph/id/fm-6-0> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/george-loewenstein> <http://purl.org/dc/terms/created> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/george-loewenstein> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
 <https://github.com/john1hsu/communication-graph/id/george-loewenstein> <http://www.w3.org/2000/01/rdf-schema#label> "George Loewenstein" .
@@ -8087,6 +8114,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/first-offer/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/first-offer/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/communication-graph/id/source/first-offer/s6> <https://schema.org/url> <https://www.london.edu/faculty-and-research/academic-research/t/the-remarkable-robustness-of-the-first-offer-effect-across-culture-power-and-issues> .
+<https://github.com/john1hsu/communication-graph/id/source/fm-6-0/s1> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/fm-6-0/s1> <http://purl.org/dc/terms/publisher> "Headquarters, Department of the Army (copy hosted by U.S. Army Garrison Fort Leonard Wood)" .
+<https://github.com/john1hsu/communication-graph/id/source/fm-6-0/s1> <http://purl.org/dc/terms/title> "FM 6-0: Commander and Staff Organization and Operations (5 May 2014, incl. Change 1, 11 May 2015 and Change 2, April 2016), chapter 7 Military Briefings" .
+<https://github.com/john1hsu/communication-graph/id/source/fm-6-0/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/fm-6-0/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/fm-6-0/s1> <https://schema.org/url> <https://home.army.mil/wood/download_file/view/6638/1525> .
+<https://github.com/john1hsu/communication-graph/id/source/fm-6-0/s2> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/fm-6-0/s2> <http://purl.org/dc/terms/publisher> "U.S. Army Intelligence Officer Basic Course lesson plan (copy hosted by the Federation of American Scientists)" .
+<https://github.com/john1hsu/communication-graph/id/source/fm-6-0/s2> <http://purl.org/dc/terms/title> "Decision Brief (instructional event, as of January 1996)" .
+<https://github.com/john1hsu/communication-graph/id/source/fm-6-0/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/fm-6-0/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/communication-graph/id/source/fm-6-0/s2> <https://schema.org/url> <https://irp.fas.org/doddir/army/iobc/decbrflp.htm> .
+<https://github.com/john1hsu/communication-graph/id/source/fm-6-0/s3> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/fm-6-0/s3> <http://purl.org/dc/terms/publisher> "The Basic School, U.S. Marine Corps Training Command, Camp Barrett, Virginia" .
+<https://github.com/john1hsu/communication-graph/id/source/fm-6-0/s3> <http://purl.org/dc/terms/title> "Military Briefing (W3S0005 student handout)" .
+<https://github.com/john1hsu/communication-graph/id/source/fm-6-0/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/fm-6-0/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/communication-graph/id/source/fm-6-0/s3> <https://schema.org/url> <https://www.trngcmd.marines.mil/Portals/207/Docs/TBS/W3S0005%20-%20MILITARY%20BRIEFING.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/fm-6-0/s4> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/fm-6-0/s4> <http://purl.org/dc/terms/publisher> "Randi Stenson, Mission Command Center of Excellence Public Affairs, army.mil, 16 May 2022" .
+<https://github.com/john1hsu/communication-graph/id/source/fm-6-0/s4> <http://purl.org/dc/terms/title> "New and updated field manuals aid commanders, staffs" .
+<https://github.com/john1hsu/communication-graph/id/source/fm-6-0/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/fm-6-0/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "news" .
+<https://github.com/john1hsu/communication-graph/id/source/fm-6-0/s4> <https://schema.org/url> <https://www.army.mil/article/256079/new_and_updated_field_manuals_aid_commanders_staffs> .
+<https://github.com/john1hsu/communication-graph/id/source/fm-6-0/s5> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/fm-6-0/s5> <http://purl.org/dc/terms/publisher> "Maj. Allen D. Tapley and Master Sgt. Edwin Clouse, Army Sustainment (September-October 2016), via army.mil" .
+<https://github.com/john1hsu/communication-graph/id/source/fm-6-0/s5> <http://purl.org/dc/terms/title> "Simplifying complex briefings" .
+<https://github.com/john1hsu/communication-graph/id/source/fm-6-0/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/fm-6-0/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "practitioner-journal" .
+<https://github.com/john1hsu/communication-graph/id/source/fm-6-0/s5> <https://schema.org/url> <https://www.army.mil/article/173349/simplifying_complex_briefings> .
+<https://github.com/john1hsu/communication-graph/id/source/fm-6-0/s6> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/fm-6-0/s6> <http://purl.org/dc/terms/publisher> "Gregory Shawn Pece, master's thesis, Virginia Tech, 2005 (VTechWorks)" .
+<https://github.com/john1hsu/communication-graph/id/source/fm-6-0/s6> <http://purl.org/dc/terms/title> "The PowerPoint Society: The Influence of PowerPoint in the U.S. Government and Bureaucracy" .
+<https://github.com/john1hsu/communication-graph/id/source/fm-6-0/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/fm-6-0/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "preprint" .
+<https://github.com/john1hsu/communication-graph/id/source/fm-6-0/s6> <https://schema.org/url> <https://vtechworks.lib.vt.edu/items/c2a0d46a-8085-4628-bde9-ba2b91f6e080> .
 <https://github.com/john1hsu/communication-graph/id/source/george-loewenstein/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/george-loewenstein/s1> <http://purl.org/dc/terms/publisher> "Department of Social and Decision Sciences, Dietrich College, Carnegie Mellon University" .
 <https://github.com/john1hsu/communication-graph/id/source/george-loewenstein/s1> <http://purl.org/dc/terms/title> "George Loewenstein - faculty profile" .
