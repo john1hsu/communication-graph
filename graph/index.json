@@ -8248,6 +8248,123 @@
   ]
  },
  {
+  "id": "cm:presentation",
+  "title": "Presentation",
+  "aliases": [
+   "workplace presentation",
+   "business presentation",
+   "giving a talk at work",
+   "slide presentation",
+   "oral presentation"
+  ],
+  "type": "Context",
+  "domain": "presenting-and-public-speaking",
+  "level": "introductory",
+  "evidenceStatus": "practitioner",
+  "file": "articles/presenting-and-public-speaking/presentation.md",
+  "created": "2026-11-08",
+  "summary": "A planned, mostly one-way talk in which one person (or a small team) takes the floor to inform, persuade or ask a group for something, usually with slides and a fixed time slot. It works when the speaker sets a clear goal, gives the talk a simple structure, keeps slides within what an audience can absorb, and plans for questions.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:organizational-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:public-speaking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:audience-analysis"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:assertion-evidence-slides"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:presentation-rehearsal"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:speaking-anxiety"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:executive-briefing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:death-by-powerpoint"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:presentation-structure"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:handling-questions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:self-recording-playback"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:filled-pauses"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:gestures"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:audience-analysis"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:kosslyn-et-al-2012",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:cognitive-load",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:assertion-evidence-slides",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:presentation-rehearsal",
+    "source": "s6",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:paraphrasing",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://www.frontiersin.org/article/10.3389/fpsyg.2012.00230/full",
+   "https://www.ijee.ie/articles/Vol29-6/23_ijee2791ns.pdf",
+   "https://pubmed.ncbi.nlm.nih.gov/28145268/",
+   "https://gsb.stanford.edu/insights/three-guiding-principles-successful-communication",
+   "https://gsb.stanford.edu/insights/one-communication-tool-you-should-add-your-toolkit",
+   "https://www.wm.edu/as/wcc/newresources/handouts/oral-presentations.pdf"
+  ]
+ },
+ {
   "id": "cm:presentation-rehearsal",
   "title": "Presentation rehearsal",
   "aliases": [

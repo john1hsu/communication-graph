@@ -7255,6 +7255,112 @@
    ]
   },
   {
+   "@id": "cm:presentation",
+   "@type": "cmo:Context",
+   "cmo:complements": [
+    {
+     "@id": "cm:assertion-evidence-slides"
+    },
+    {
+     "@id": "cm:paraphrasing"
+    },
+    {
+     "@id": "cm:presentation-rehearsal"
+    }
+   ],
+   "cmo:demonstratedBy": {
+    "@id": "cm:kosslyn-et-al-2012"
+   },
+   "cmo:domain": "presenting-and-public-speaking",
+   "cmo:evidenceStatus": "practitioner",
+   "cmo:explainedBy": {
+    "@id": "cm:cognitive-load"
+   },
+   "cmo:file": "articles/presenting-and-public-speaking/presentation.md",
+   "cmo:level": "introductory",
+   "cmo:requires": {
+    "@id": "cm:audience-analysis"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/presentation/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/presentation/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/presentation/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/presentation/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/presentation/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/presentation/s6"
+    }
+   ],
+   "rdfs:label": "Presentation",
+   "skos:altLabel": [
+    "business presentation",
+    "giving a talk at work",
+    "oral presentation",
+    "slide presentation",
+    "workplace presentation"
+   ],
+   "skos:broader": {
+    "@id": "cm:organizational-communication"
+   },
+   "skos:definition": "A planned, mostly one-way talk in which one person (or a small team) takes the floor to inform, persuade or ask a group for something, usually with slides and a fixed time slot. It works when the speaker sets a clear goal, gives the talk a simple structure, keeps slides within what an audience can absorb, and plans for questions.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/presenting-and-public-speaking"
+   },
+   "skos:prefLabel": "Presentation",
+   "skos:related": [
+    {
+     "@id": "cm:assertion-evidence-slides"
+    },
+    {
+     "@id": "cm:audience-analysis"
+    },
+    {
+     "@id": "cm:death-by-powerpoint"
+    },
+    {
+     "@id": "cm:executive-briefing"
+    },
+    {
+     "@id": "cm:filled-pauses"
+    },
+    {
+     "@id": "cm:gestures"
+    },
+    {
+     "@id": "cm:handling-questions"
+    },
+    {
+     "@id": "cm:presentation-rehearsal"
+    },
+    {
+     "@id": "cm:presentation-structure"
+    },
+    {
+     "@id": "cm:public-speaking"
+    },
+    {
+     "@id": "cm:self-recording-playback"
+    },
+    {
+     "@id": "cm:speaking-anxiety"
+    }
+   ]
+  },
+  {
    "@id": "cm:presentation-rehearsal",
    "@type": "cmo:Technique",
    "cmo:addresses": {
@@ -21689,6 +21795,90 @@
    "dcterms:title": "Practicing Presentations",
    "schema:url": {
     "@id": "https://www.gvsu.edu/speechlab/practicing-presentations-18"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/presentation/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Kosslyn, S. M., Kievit, R. A., Russell, A. G. & Shephard, J. M., Frontiers in Psychology 3:230, 2012, doi:10.3389/fpsyg.2012.00230",
+   "dcterms:title": "PowerPoint presentation flaws and failures: A psychological analysis",
+   "schema:url": {
+    "@id": "https://www.frontiersin.org/article/10.3389/fpsyg.2012.00230/full"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/presentation/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Garner, J. K. & Alley, M. P., International Journal of Engineering Education 29(6), 1564-1579, 2013",
+   "dcterms:title": "How the design of presentation slides affects audience comprehension: A case for the assertion-evidence approach",
+   "schema:url": {
+    "@id": "https://www.ijee.ie/articles/Vol29-6/23_ijee2791ns.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/presentation/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Bradbury, N. A., Advances in Physiology Education 40(4), 509-513, 2016, doi:10.1152/advan.00109.2016 (PubMed record)",
+   "dcterms:title": "Attention span during lectures: 8 seconds, 10 minutes, or more?",
+   "schema:url": {
+    "@id": "https://pubmed.ncbi.nlm.nih.gov/28145268/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/presentation/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Matt Abrahams, Stanford Graduate School of Business Insights, 15 February 2023",
+   "dcterms:title": "Three guiding principles for successful communication",
+   "schema:url": {
+    "@id": "https://gsb.stanford.edu/insights/three-guiding-principles-successful-communication"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/presentation/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Matt Abrahams, Stanford Graduate School of Business Insights, 4 January 2017",
+   "dcterms:title": "The one communication tool you should add to your toolkit",
+   "schema:url": {
+    "@id": "https://gsb.stanford.edu/insights/one-communication-tool-you-should-add-your-toolkit"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/presentation/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Writing Resources Center, William & Mary, 2018",
+   "dcterms:title": "Oral presentations (handout)",
+   "schema:url": {
+    "@id": "https://www.wm.edu/as/wcc/newresources/handouts/oral-presentations.pdf"
    }
   },
   {

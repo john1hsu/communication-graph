@@ -4318,6 +4318,46 @@
 <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/menzel-carrell-1994> .
 <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/smith-frymier-2006> .
+<https://github.com/john1hsu/communication-graph/id/presentation> <http://purl.org/dc/terms/created> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/presentation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Context> .
+<https://github.com/john1hsu/communication-graph/id/presentation> <http://www.w3.org/2000/01/rdf-schema#label> "Presentation" .
+<https://github.com/john1hsu/communication-graph/id/presentation> <http://www.w3.org/2004/02/skos/core#altLabel> "business presentation" .
+<https://github.com/john1hsu/communication-graph/id/presentation> <http://www.w3.org/2004/02/skos/core#altLabel> "giving a talk at work" .
+<https://github.com/john1hsu/communication-graph/id/presentation> <http://www.w3.org/2004/02/skos/core#altLabel> "oral presentation" .
+<https://github.com/john1hsu/communication-graph/id/presentation> <http://www.w3.org/2004/02/skos/core#altLabel> "slide presentation" .
+<https://github.com/john1hsu/communication-graph/id/presentation> <http://www.w3.org/2004/02/skos/core#altLabel> "workplace presentation" .
+<https://github.com/john1hsu/communication-graph/id/presentation> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
+<https://github.com/john1hsu/communication-graph/id/presentation> <http://www.w3.org/2004/02/skos/core#definition> "A planned, mostly one-way talk in which one person (or a small team) takes the floor to inform, persuade or ask a group for something, usually with slides and a fixed time slot. It works when the speaker sets a clear goal, gives the talk a simple structure, keeps slides within what an audience can absorb, and plans for questions." .
+<https://github.com/john1hsu/communication-graph/id/presentation> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/presenting-and-public-speaking> .
+<https://github.com/john1hsu/communication-graph/id/presentation> <http://www.w3.org/2004/02/skos/core#prefLabel> "Presentation" .
+<https://github.com/john1hsu/communication-graph/id/presentation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> .
+<https://github.com/john1hsu/communication-graph/id/presentation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
+<https://github.com/john1hsu/communication-graph/id/presentation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint> .
+<https://github.com/john1hsu/communication-graph/id/presentation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/executive-briefing> .
+<https://github.com/john1hsu/communication-graph/id/presentation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/filled-pauses> .
+<https://github.com/john1hsu/communication-graph/id/presentation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/gestures> .
+<https://github.com/john1hsu/communication-graph/id/presentation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/handling-questions> .
+<https://github.com/john1hsu/communication-graph/id/presentation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> .
+<https://github.com/john1hsu/communication-graph/id/presentation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/presentation-structure> .
+<https://github.com/john1hsu/communication-graph/id/presentation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/public-speaking> .
+<https://github.com/john1hsu/communication-graph/id/presentation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/self-recording-playback> .
+<https://github.com/john1hsu/communication-graph/id/presentation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> .
+<https://github.com/john1hsu/communication-graph/id/presentation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/presentation/s1> .
+<https://github.com/john1hsu/communication-graph/id/presentation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/presentation/s2> .
+<https://github.com/john1hsu/communication-graph/id/presentation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/presentation/s3> .
+<https://github.com/john1hsu/communication-graph/id/presentation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/presentation/s4> .
+<https://github.com/john1hsu/communication-graph/id/presentation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/presentation/s5> .
+<https://github.com/john1hsu/communication-graph/id/presentation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/presentation/s6> .
+<https://github.com/john1hsu/communication-graph/id/presentation> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> .
+<https://github.com/john1hsu/communication-graph/id/presentation> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/paraphrasing> .
+<https://github.com/john1hsu/communication-graph/id/presentation> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> .
+<https://github.com/john1hsu/communication-graph/id/presentation> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/kosslyn-et-al-2012> .
+<https://github.com/john1hsu/communication-graph/id/presentation> <https://github.com/john1hsu/communication-graph/ontology#domain> "presenting-and-public-speaking" .
+<https://github.com/john1hsu/communication-graph/id/presentation> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "practitioner" .
+<https://github.com/john1hsu/communication-graph/id/presentation> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/cognitive-load> .
+<https://github.com/john1hsu/communication-graph/id/presentation> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/presenting-and-public-speaking/presentation.md" .
+<https://github.com/john1hsu/communication-graph/id/presentation> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/presentation> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
 <https://github.com/john1hsu/communication-graph/id/proxemics> <http://purl.org/dc/terms/created> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/proxemics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
 <https://github.com/john1hsu/communication-graph/id/proxemics> <http://www.w3.org/2000/01/rdf-schema#label> "Proxemics" .
@@ -8159,6 +8199,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/presentation-rehearsal/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/presentation-rehearsal/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
 <https://github.com/john1hsu/communication-graph/id/source/presentation-rehearsal/s6> <https://schema.org/url> <https://www.gvsu.edu/speechlab/practicing-presentations-18> .
+<https://github.com/john1hsu/communication-graph/id/source/presentation/s1> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/presentation/s1> <http://purl.org/dc/terms/publisher> "Kosslyn, S. M., Kievit, R. A., Russell, A. G. & Shephard, J. M., Frontiers in Psychology 3:230, 2012, doi:10.3389/fpsyg.2012.00230" .
+<https://github.com/john1hsu/communication-graph/id/source/presentation/s1> <http://purl.org/dc/terms/title> "PowerPoint presentation flaws and failures: A psychological analysis" .
+<https://github.com/john1hsu/communication-graph/id/source/presentation/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/presentation/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/presentation/s1> <https://schema.org/url> <https://www.frontiersin.org/article/10.3389/fpsyg.2012.00230/full> .
+<https://github.com/john1hsu/communication-graph/id/source/presentation/s2> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/presentation/s2> <http://purl.org/dc/terms/publisher> "Garner, J. K. & Alley, M. P., International Journal of Engineering Education 29(6), 1564-1579, 2013" .
+<https://github.com/john1hsu/communication-graph/id/source/presentation/s2> <http://purl.org/dc/terms/title> "How the design of presentation slides affects audience comprehension: A case for the assertion-evidence approach" .
+<https://github.com/john1hsu/communication-graph/id/source/presentation/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/presentation/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/presentation/s2> <https://schema.org/url> <https://www.ijee.ie/articles/Vol29-6/23_ijee2791ns.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/presentation/s3> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/presentation/s3> <http://purl.org/dc/terms/publisher> "Bradbury, N. A., Advances in Physiology Education 40(4), 509-513, 2016, doi:10.1152/advan.00109.2016 (PubMed record)" .
+<https://github.com/john1hsu/communication-graph/id/source/presentation/s3> <http://purl.org/dc/terms/title> "Attention span during lectures: 8 seconds, 10 minutes, or more?" .
+<https://github.com/john1hsu/communication-graph/id/source/presentation/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/presentation/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/presentation/s3> <https://schema.org/url> <https://pubmed.ncbi.nlm.nih.gov/28145268/> .
+<https://github.com/john1hsu/communication-graph/id/source/presentation/s4> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/presentation/s4> <http://purl.org/dc/terms/publisher> "Matt Abrahams, Stanford Graduate School of Business Insights, 15 February 2023" .
+<https://github.com/john1hsu/communication-graph/id/source/presentation/s4> <http://purl.org/dc/terms/title> "Three guiding principles for successful communication" .
+<https://github.com/john1hsu/communication-graph/id/source/presentation/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/presentation/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/presentation/s4> <https://schema.org/url> <https://gsb.stanford.edu/insights/three-guiding-principles-successful-communication> .
+<https://github.com/john1hsu/communication-graph/id/source/presentation/s5> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/presentation/s5> <http://purl.org/dc/terms/publisher> "Matt Abrahams, Stanford Graduate School of Business Insights, 4 January 2017" .
+<https://github.com/john1hsu/communication-graph/id/source/presentation/s5> <http://purl.org/dc/terms/title> "The one communication tool you should add to your toolkit" .
+<https://github.com/john1hsu/communication-graph/id/source/presentation/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/presentation/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/presentation/s5> <https://schema.org/url> <https://gsb.stanford.edu/insights/one-communication-tool-you-should-add-your-toolkit> .
+<https://github.com/john1hsu/communication-graph/id/source/presentation/s6> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/presentation/s6> <http://purl.org/dc/terms/publisher> "Writing Resources Center, William & Mary, 2018" .
+<https://github.com/john1hsu/communication-graph/id/source/presentation/s6> <http://purl.org/dc/terms/title> "Oral presentations (handout)" .
+<https://github.com/john1hsu/communication-graph/id/source/presentation/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/presentation/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/presentation/s6> <https://schema.org/url> <https://www.wm.edu/as/wcc/newresources/handouts/oral-presentations.pdf> .
 <https://github.com/john1hsu/communication-graph/id/source/proxemics/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/proxemics/s1> <http://purl.org/dc/terms/publisher> "Edward T. Hall, American Anthropologist 65(5), 1963, pp. 1003-1026 (New Bulgarian University course copy)" .
 <https://github.com/john1hsu/communication-graph/id/source/proxemics/s1> <http://purl.org/dc/terms/title> "A System for the Notation of Proxemic Behavior" .

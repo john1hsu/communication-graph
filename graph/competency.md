@@ -165,6 +165,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:performance-review` | cmo:Context |
 | `cm:perspective-taking` | cmo:Skill |
 | `cm:plain-language` | cmo:Principle |
+| `cm:presentation` | cmo:Context |
 | `cm:presentation-rehearsal` | cmo:Technique |
 | `cm:raci-matrix` | cmo:Technique |
 | `cm:rapport` | cmo:Concept |
@@ -172,9 +173,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:scheduled-inbox-checks` | cmo:Technique |
 | `cm:self-distancing` | cmo:Technique |
 | `cm:self-recording-playback` | cmo:Technique |
-| `cm:setting-reply-time-expectations` | cmo:Technique |
 
-…and 9 more.
+…and 10 more.
 
 ## Orphan articles (gap)
 
