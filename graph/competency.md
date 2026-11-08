@@ -131,11 +131,11 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:camera-optional-norm` | mixed | `cm:bennett-et-al-2021` |
 | `cm:channel-selection` | mixed | `cm:dennis-kinney-1998` |
 | `cm:clarity` | mixed |  |
+| `cm:cognitive-load` | mixed | `cm:de-jong-2010` |
 | `cm:common-ground` | mixed | `cm:keysar-et-al-2000` |
 | `cm:communicating-uncertainty` | mixed |  |
-| `cm:concession-strategy` | mixed |  |
 
-…and 63 more.
+…and 64 more.
 
 ## Concepts with no recorded origin (gap)
 

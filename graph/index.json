@@ -1865,6 +1865,109 @@
   ]
  },
  {
+  "id": "cm:cognitive-load",
+  "title": "Cognitive load theory",
+  "aliases": [
+   "cognitive load",
+   "CLT",
+   "working memory load",
+   "Sweller's cognitive load theory"
+  ],
+  "type": "Theory",
+  "domain": "barriers-and-psychology",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/barriers-and-psychology/cognitive-load.md",
+  "created": "2026-11-08",
+  "summary": "John Sweller's theory that new information must pass through a small, short-lived working memory, so a message is understood best when its design removes avoidable mental effort (extraneous load) and leaves room for the genuine complexity of the content (intrinsic load).",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:cognitive-psychology"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:information-overload"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:assertion-evidence-slides"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:presentation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:plain-language"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:curse-of-knowledge"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:bottom-line-up-front"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:gestures"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:eye-contact"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:elaboration-likelihood-model"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:readability-formulas"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:john-sweller",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:studiedIn",
+    "object": "cm:educational-psychology",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:ginns-2006",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:de-jong-2010",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:plain-language",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://core.ac.uk/download/237588613.pdf",
+   "https://ris.utwente.nl/ws/files/6597420/Jong10cognitive.pdf",
+   "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2019.00086/pdf",
+   "https://link.springer.com/article/10.1007/s11251-009-9113-x",
+   "https://gov.uk/service-manual/design/writing-for-user-interfaces"
+  ]
+ },
+ {
   "id": "cm:common-ground",
   "title": "Common ground and grounding theory",
   "aliases": [

@@ -1090,6 +1090,41 @@
 <https://github.com/john1hsu/communication-graph/id/clarity> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
 <https://github.com/john1hsu/communication-graph/id/clarity> <https://github.com/john1hsu/communication-graph/ontology#studiedIn> <https://github.com/john1hsu/communication-graph/id/pragmatics> .
 <https://github.com/john1hsu/communication-graph/id/clarity> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/oppenheimer-2006> .
+<https://github.com/john1hsu/communication-graph/id/cognitive-load> <http://purl.org/dc/terms/created> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/cognitive-load> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Theory> .
+<https://github.com/john1hsu/communication-graph/id/cognitive-load> <http://www.w3.org/2000/01/rdf-schema#label> "Cognitive load theory" .
+<https://github.com/john1hsu/communication-graph/id/cognitive-load> <http://www.w3.org/2004/02/skos/core#altLabel> "CLT" .
+<https://github.com/john1hsu/communication-graph/id/cognitive-load> <http://www.w3.org/2004/02/skos/core#altLabel> "Sweller's cognitive load theory" .
+<https://github.com/john1hsu/communication-graph/id/cognitive-load> <http://www.w3.org/2004/02/skos/core#altLabel> "cognitive load" .
+<https://github.com/john1hsu/communication-graph/id/cognitive-load> <http://www.w3.org/2004/02/skos/core#altLabel> "working memory load" .
+<https://github.com/john1hsu/communication-graph/id/cognitive-load> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> .
+<https://github.com/john1hsu/communication-graph/id/cognitive-load> <http://www.w3.org/2004/02/skos/core#definition> "John Sweller's theory that new information must pass through a small, short-lived working memory, so a message is understood best when its design removes avoidable mental effort (extraneous load) and leaves room for the genuine complexity of the content (intrinsic load)." .
+<https://github.com/john1hsu/communication-graph/id/cognitive-load> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/barriers-and-psychology> .
+<https://github.com/john1hsu/communication-graph/id/cognitive-load> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cognitive load theory" .
+<https://github.com/john1hsu/communication-graph/id/cognitive-load> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> .
+<https://github.com/john1hsu/communication-graph/id/cognitive-load> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
+<https://github.com/john1hsu/communication-graph/id/cognitive-load> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> .
+<https://github.com/john1hsu/communication-graph/id/cognitive-load> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> .
+<https://github.com/john1hsu/communication-graph/id/cognitive-load> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/eye-contact> .
+<https://github.com/john1hsu/communication-graph/id/cognitive-load> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/gestures> .
+<https://github.com/john1hsu/communication-graph/id/cognitive-load> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/information-overload> .
+<https://github.com/john1hsu/communication-graph/id/cognitive-load> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/plain-language> .
+<https://github.com/john1hsu/communication-graph/id/cognitive-load> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/presentation> .
+<https://github.com/john1hsu/communication-graph/id/cognitive-load> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/readability-formulas> .
+<https://github.com/john1hsu/communication-graph/id/cognitive-load> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/cognitive-load/s1> .
+<https://github.com/john1hsu/communication-graph/id/cognitive-load> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/cognitive-load/s2> .
+<https://github.com/john1hsu/communication-graph/id/cognitive-load> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/cognitive-load/s3> .
+<https://github.com/john1hsu/communication-graph/id/cognitive-load> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/cognitive-load/s4> .
+<https://github.com/john1hsu/communication-graph/id/cognitive-load> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/cognitive-load/s5> .
+<https://github.com/john1hsu/communication-graph/id/cognitive-load> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/de-jong-2010> .
+<https://github.com/john1hsu/communication-graph/id/cognitive-load> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/plain-language> .
+<https://github.com/john1hsu/communication-graph/id/cognitive-load> <https://github.com/john1hsu/communication-graph/ontology#domain> "barriers-and-psychology" .
+<https://github.com/john1hsu/communication-graph/id/cognitive-load> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/cognitive-load> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/barriers-and-psychology/cognitive-load.md" .
+<https://github.com/john1hsu/communication-graph/id/cognitive-load> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/john-sweller> .
+<https://github.com/john1hsu/communication-graph/id/cognitive-load> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/communication-graph/id/cognitive-load> <https://github.com/john1hsu/communication-graph/ontology#studiedIn> <https://github.com/john1hsu/communication-graph/id/educational-psychology> .
+<https://github.com/john1hsu/communication-graph/id/cognitive-load> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/ginns-2006> .
 <https://github.com/john1hsu/communication-graph/id/common-ground> <http://purl.org/dc/terms/created> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/common-ground> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Theory> .
 <https://github.com/john1hsu/communication-graph/id/common-ground> <http://www.w3.org/2000/01/rdf-schema#label> "Common ground and grounding theory" .
@@ -6238,6 +6273,36 @@
 <https://github.com/john1hsu/communication-graph/id/source/clarity/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/clarity/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "news" .
 <https://github.com/john1hsu/communication-graph/id/source/clarity/s4> <https://schema.org/url> <https://www.eurekalert.org/news-releases/808085> .
+<https://github.com/john1hsu/communication-graph/id/source/cognitive-load/s1> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/cognitive-load/s1> <http://purl.org/dc/terms/publisher> "Sweller, J., van Merriënboer, J. J. G. & Paas, F., Educational Psychology Review 31(2), 261-292, 2019, doi:10.1007/s10648-019-09465-5 (open-access copy via CORE)" .
+<https://github.com/john1hsu/communication-graph/id/source/cognitive-load/s1> <http://purl.org/dc/terms/title> "Cognitive Architecture and Instructional Design: 20 Years Later" .
+<https://github.com/john1hsu/communication-graph/id/source/cognitive-load/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/cognitive-load/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/cognitive-load/s1> <https://schema.org/url> <https://core.ac.uk/download/237588613.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/cognitive-load/s2> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/cognitive-load/s2> <http://purl.org/dc/terms/publisher> "de Jong, T., Instructional Science 38, 105-134, 2010, doi:10.1007/s11251-009-9110-0 (University of Twente repository)" .
+<https://github.com/john1hsu/communication-graph/id/source/cognitive-load/s2> <http://purl.org/dc/terms/title> "Cognitive load theory, educational research, and instructional design: some food for thought" .
+<https://github.com/john1hsu/communication-graph/id/source/cognitive-load/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/cognitive-load/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/cognitive-load/s2> <https://schema.org/url> <https://ris.utwente.nl/ws/files/6597420/Jong10cognitive.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/cognitive-load/s3> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/cognitive-load/s3> <http://purl.org/dc/terms/publisher> "Beege, M., Wirzberger, M., Nebel, S., Schneider, S., Schmidt, N. & Rey, G. D., Frontiers in Education 4:86, 2019" .
+<https://github.com/john1hsu/communication-graph/id/source/cognitive-load/s3> <http://purl.org/dc/terms/title> "Spatial Continuity Effect vs. Spatial Contiguity Failure: Revising the Effects of Spatial Proximity Between Related and Unrelated Representations" .
+<https://github.com/john1hsu/communication-graph/id/source/cognitive-load/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/cognitive-load/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/cognitive-load/s3> <https://schema.org/url> <https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2019.00086/pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/cognitive-load/s4> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/cognitive-load/s4> <http://purl.org/dc/terms/publisher> "Mayer, R. E., Instructional Science 38, 143-145, 2010, doi:10.1007/s11251-009-9113-x (Springer)" .
+<https://github.com/john1hsu/communication-graph/id/source/cognitive-load/s4> <http://purl.org/dc/terms/title> "Seeking a science of instruction" .
+<https://github.com/john1hsu/communication-graph/id/source/cognitive-load/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/cognitive-load/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/cognitive-load/s4> <https://schema.org/url> <https://link.springer.com/article/10.1007/s11251-009-9113-x> .
+<https://github.com/john1hsu/communication-graph/id/source/cognitive-load/s5> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/cognitive-load/s5> <http://purl.org/dc/terms/publisher> "GOV.UK Service Manual (UK Government Digital Service)" .
+<https://github.com/john1hsu/communication-graph/id/source/cognitive-load/s5> <http://purl.org/dc/terms/title> "Writing for user interfaces" .
+<https://github.com/john1hsu/communication-graph/id/source/cognitive-load/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/cognitive-load/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/communication-graph/id/source/cognitive-load/s5> <https://schema.org/url> <https://gov.uk/service-manual/design/writing-for-user-interfaces> .
 <https://github.com/john1hsu/communication-graph/id/source/common-ground/s1> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/common-ground/s1> <http://purl.org/dc/terms/publisher> "Herbert H. Clark & Susan E. Brennan, in Resnick, Levine & Teasley (eds.), Perspectives on Socially Shared Cognition, APA Books, 127-149 (1991) (author's copy, Stanford University)" .
 <https://github.com/john1hsu/communication-graph/id/source/common-ground/s1> <http://purl.org/dc/terms/title> "Grounding in communication" .

@@ -1642,6 +1642,97 @@
    ]
   },
   {
+   "@id": "cm:cognitive-load",
+   "@type": "cmo:Theory",
+   "cmo:challengedBy": {
+    "@id": "cm:de-jong-2010"
+   },
+   "cmo:complements": {
+    "@id": "cm:plain-language"
+   },
+   "cmo:domain": "barriers-and-psychology",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:file": "articles/barriers-and-psychology/cognitive-load.md",
+   "cmo:introducedBy": {
+    "@id": "cm:john-sweller"
+   },
+   "cmo:level": "intermediate",
+   "cmo:studiedIn": {
+    "@id": "cm:educational-psychology"
+   },
+   "cmo:supportedBy": {
+    "@id": "cm:ginns-2006"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/cognitive-load/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/cognitive-load/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/cognitive-load/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/cognitive-load/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/cognitive-load/s5"
+    }
+   ],
+   "rdfs:label": "Cognitive load theory",
+   "skos:altLabel": [
+    "CLT",
+    "Sweller's cognitive load theory",
+    "cognitive load",
+    "working memory load"
+   ],
+   "skos:broader": {
+    "@id": "cm:cognitive-psychology"
+   },
+   "skos:definition": "John Sweller's theory that new information must pass through a small, short-lived working memory, so a message is understood best when its design removes avoidable mental effort (extraneous load) and leaves room for the genuine complexity of the content (intrinsic load).",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/barriers-and-psychology"
+   },
+   "skos:prefLabel": "Cognitive load theory",
+   "skos:related": [
+    {
+     "@id": "cm:assertion-evidence-slides"
+    },
+    {
+     "@id": "cm:bottom-line-up-front"
+    },
+    {
+     "@id": "cm:curse-of-knowledge"
+    },
+    {
+     "@id": "cm:elaboration-likelihood-model"
+    },
+    {
+     "@id": "cm:eye-contact"
+    },
+    {
+     "@id": "cm:gestures"
+    },
+    {
+     "@id": "cm:information-overload"
+    },
+    {
+     "@id": "cm:plain-language"
+    },
+    {
+     "@id": "cm:presentation"
+    },
+    {
+     "@id": "cm:readability-formulas"
+    }
+   ]
+  },
+  {
    "@id": "cm:common-ground",
    "@type": "cmo:Theory",
    "cmo:challengedBy": {
@@ -17240,6 +17331,76 @@
    "dcterms:title": "Study: Writers who use long words needlessly are seen as less intelligent (press release on Oppenheimer, Applied Cognitive Psychology, doi:10.1002/acp.1178)",
    "schema:url": {
     "@id": "https://www.eurekalert.org/news-releases/808085"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/cognitive-load/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Sweller, J., van Merriënboer, J. J. G. & Paas, F., Educational Psychology Review 31(2), 261-292, 2019, doi:10.1007/s10648-019-09465-5 (open-access copy via CORE)",
+   "dcterms:title": "Cognitive Architecture and Instructional Design: 20 Years Later",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/237588613.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/cognitive-load/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "de Jong, T., Instructional Science 38, 105-134, 2010, doi:10.1007/s11251-009-9110-0 (University of Twente repository)",
+   "dcterms:title": "Cognitive load theory, educational research, and instructional design: some food for thought",
+   "schema:url": {
+    "@id": "https://ris.utwente.nl/ws/files/6597420/Jong10cognitive.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/cognitive-load/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Beege, M., Wirzberger, M., Nebel, S., Schneider, S., Schmidt, N. & Rey, G. D., Frontiers in Education 4:86, 2019",
+   "dcterms:title": "Spatial Continuity Effect vs. Spatial Contiguity Failure: Revising the Effects of Spatial Proximity Between Related and Unrelated Representations",
+   "schema:url": {
+    "@id": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2019.00086/pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/cognitive-load/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Mayer, R. E., Instructional Science 38, 143-145, 2010, doi:10.1007/s11251-009-9113-x (Springer)",
+   "dcterms:title": "Seeking a science of instruction",
+   "schema:url": {
+    "@id": "https://link.springer.com/article/10.1007/s11251-009-9113-x"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/cognitive-load/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "GOV.UK Service Manual (UK Government Digital Service)",
+   "dcterms:title": "Writing for user interfaces",
+   "schema:url": {
+    "@id": "https://gov.uk/service-manual/design/writing-for-user-interfaces"
    }
   },
   {
