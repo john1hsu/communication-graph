@@ -98,7 +98,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:face-to-face-conversation` | `cm:nonverbal-communication` |
 | `cm:face-to-face-conversation` | `cm:proxemics` |
 
-…and 40 more.
+…and 41 more.
 
 ## Myths and contested advice
 
@@ -137,7 +137,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:common-ground` | mixed | `cm:keysar-et-al-2000` |
 | `cm:communicating-uncertainty` | mixed |  |
 
-…and 70 more.
+…and 71 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -157,6 +157,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:information-overload` | cmo:Barrier |
 | `cm:interpersonal-communication` | cmo:Field |
 | `cm:interrupting` | cmo:AntiPattern |
+| `cm:labeling-emotions` | cmo:Technique |
 | `cm:meeting-agendas` | cmo:Technique |
 | `cm:multicultural-team` | cmo:Context |
 | `cm:narrative-persuasion` | cmo:Technique |
@@ -174,9 +175,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:reciprocal-self-disclosure` | cmo:Technique |
 | `cm:scheduled-inbox-checks` | cmo:Technique |
 | `cm:self-affirmation-before-feedback` | cmo:Technique |
-| `cm:self-distancing` | cmo:Technique |
 
-…and 11 more.
+…and 12 more.
 
 ## Orphan articles (gap)
 

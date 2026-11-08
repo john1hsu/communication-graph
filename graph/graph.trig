@@ -466,6 +466,15 @@
 <https://github.com/john1hsu/communication-graph/id/interrupting#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/interrupting/s2> .
 <https://github.com/john1hsu/communication-graph/id/interrupting#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/interrupting/s3> .
 <https://github.com/john1hsu/communication-graph/id/interrupting#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/interrupting/s4> .
+<https://github.com/john1hsu/communication-graph/id/labeling-emotions#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/labeling-emotions#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/labeling-emotions> .
+<https://github.com/john1hsu/communication-graph/id/labeling-emotions#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/listening/labeling-emotions.md" .
+<https://github.com/john1hsu/communication-graph/id/labeling-emotions#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/labeling-emotions/s1> .
+<https://github.com/john1hsu/communication-graph/id/labeling-emotions#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/labeling-emotions/s2> .
+<https://github.com/john1hsu/communication-graph/id/labeling-emotions#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/labeling-emotions/s3> .
+<https://github.com/john1hsu/communication-graph/id/labeling-emotions#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/labeling-emotions/s4> .
+<https://github.com/john1hsu/communication-graph/id/labeling-emotions#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/labeling-emotions/s5> .
+<https://github.com/john1hsu/communication-graph/id/labeling-emotions#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/labeling-emotions/s6> .
 <https://github.com/john1hsu/communication-graph/id/open-ended-questions#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/open-ended-questions#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/open-ended-questions> .
 <https://github.com/john1hsu/communication-graph/id/open-ended-questions#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/listening/open-ended-questions.md" .
@@ -5980,6 +5989,121 @@
   <https://github.com/john1hsu/communication-graph/id/source/interrupting/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
   <https://github.com/john1hsu/communication-graph/id/source/interrupting/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
   <https://github.com/john1hsu/communication-graph/id/source/interrupting/s4> <https://schema.org/url> <https://escholarship.org/uc/item/5ws13704> .
+}
+
+<https://github.com/john1hsu/communication-graph/id/labeling-emotions#graph> {
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Did I name the feeling as a guess (\"it sounds like...\") rather than telling them what they feel?" .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/labeling-emotions> .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Did I pick a word no stronger than the emotion they actually showed?" .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/labeling-emotions> .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Could my label be heard as a criticism of them, and if so, did I reword it as a neutral observation?" .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/labeling-emotions> .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "After the label, did I stay quiet long enough for them to correct me?" .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/labeling-emotions> .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions/example> <https://github.com/john1hsu/communication-graph/ontology#after> "It sounds like the new date has you pretty stretched, with the reconciliations still open. ... What would make it workable?" .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions/example> <https://github.com/john1hsu/communication-graph/ontology#before> "Great, so we're all aligned on the new date. Let's move on to the forecast." .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "A finance analyst learns in a team call that the month-end close has been pulled forward two days, and replies tersely that the new date \"is fine, I guess\"." .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions/example> <https://github.com/john1hsu/communication-graph/ontology#why> "The rewrite names the likely feeling and its cause tentatively, then pauses, so the analyst can confirm the pressure or correct the read; the manager learns about the open reconciliations now instead of after the close slips." .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions/howto/1> <https://schema.org/text> "Listen until you have a reasonable read of the feeling - from their words, pace, tone and what they keep returning to - rather than labeling the first sign of emotion." .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions/howto/2> <https://schema.org/text> "Name the emotion and, if you can, its trigger in one short sentence that starts with \"It sounds like...\" or \"It seems like...\", choosing a milder word than your first instinct." .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions/howto/3> <https://schema.org/text> "Phrase the label as a neutral observation about them, not a verdict on their behaviour or motives." .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions/howto/4> <https://schema.org/text> "Stop talking and let the label land; give them time to agree, refine or reject it." .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions/howto/5> <https://schema.org/text> "If they correct you, accept the correction, restate it in their terms and do not argue for your original read." .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions/howto/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions/howto/6> <https://schema.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions/howto/6> <https://schema.org/text> "Once they confirm the feeling, move to the substance - their facts, priorities and what happens next." .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions/howto> <https://schema.org/name> "Labeling emotions" .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/labeling-emotions/howto/1> .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/labeling-emotions/howto/2> .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/labeling-emotions/howto/3> .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/labeling-emotions/howto/4> .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/labeling-emotions/howto/5> .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/labeling-emotions/howto/6> .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions> <http://purl.org/dc/terms/created> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Technique> .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions> <http://www.w3.org/2000/01/rdf-schema#label> "Labeling emotions" .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions> <http://www.w3.org/2004/02/skos/core#altLabel> "affect labeling" .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions> <http://www.w3.org/2004/02/skos/core#altLabel> "emotion labeling" .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions> <http://www.w3.org/2004/02/skos/core#altLabel> "interpersonal affect labeling" .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions> <http://www.w3.org/2004/02/skos/core#altLabel> "naming the emotion" .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions> <http://www.w3.org/2004/02/skos/core#definition> "Putting a short, tentative name to the emotion someone seems to be feeling (\"it sounds like this deadline has you worried\"), then pausing so they can confirm or correct it, as a way of lowering the emotional temperature before you deal with the problem itself." .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/listening> .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions> <http://www.w3.org/2004/02/skos/core#prefLabel> "Labeling emotions" .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/difficult-conversation> .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/paraphrasing> .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/perspective-taking> .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/wait-time> .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/labeling-emotions/s1> .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/labeling-emotions/s2> .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/labeling-emotions/s3> .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/labeling-emotions/s4> .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/labeling-emotions/s5> .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/labeling-emotions/s6> .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/negotiation> .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/lieberman-et-al-2007> .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions> <https://github.com/john1hsu/communication-graph/ontology#domain> "listening" .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/labeling-emotions/example> .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/emotion-regulation> .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/listening/labeling-emotions.md" .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/labeling-emotions/howto> .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/shamay-tsoory-levy-gigi-2021> .
+  <https://github.com/john1hsu/communication-graph/id/source/labeling-emotions/s1> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/labeling-emotions/s1> <http://purl.org/dc/terms/publisher> "Lieberman, Eisenberger, Crockett, Tom, Pfeifer & Way, Psychological Science 18(5), 421-428 (2007) (UCLA Social Cognitive Neuroscience Lab author copy)" .
+  <https://github.com/john1hsu/communication-graph/id/source/labeling-emotions/s1> <http://purl.org/dc/terms/title> "Putting Feelings Into Words: Affect Labeling Disrupts Amygdala Activity in Response to Affective Stimuli" .
+  <https://github.com/john1hsu/communication-graph/id/source/labeling-emotions/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/labeling-emotions/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/labeling-emotions/s1> <https://schema.org/url> <https://sites.lifesci.ucla.edu/psych-sanlab/wp-content/uploads/sites/31/2016/03/Lieberman_2007_PsychScience.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/labeling-emotions/s2> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/labeling-emotions/s2> <http://purl.org/dc/terms/publisher> "Lieberman, Inagaki, Tabibnia & Crockett, Emotion 11(3), 468-480 (2011) (eScholarship, University of California)" .
+  <https://github.com/john1hsu/communication-graph/id/source/labeling-emotions/s2> <http://purl.org/dc/terms/title> "Subjective Responses to Emotional Stimuli During Labeling, Reappraisal, and Distraction" .
+  <https://github.com/john1hsu/communication-graph/id/source/labeling-emotions/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/labeling-emotions/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/labeling-emotions/s2> <https://schema.org/url> <https://escholarship.org/content/qt6n48b650/qt6n48b650.pdf?t=qaeiqw> .
+  <https://github.com/john1hsu/communication-graph/id/source/labeling-emotions/s3> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/labeling-emotions/s3> <http://purl.org/dc/terms/publisher> "Shamay-Tsoory & Levy-Gigi, Behavior Therapy 52(2), 455-464 (2021), doi:10.1016/j.beth.2020.06.004 (University of Haifa research record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/labeling-emotions/s3> <http://purl.org/dc/terms/title> "You Name It: Interpersonal Affect Labeling Diminishes Distress in Romantic Couples" .
+  <https://github.com/john1hsu/communication-graph/id/source/labeling-emotions/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/labeling-emotions/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/labeling-emotions/s3> <https://schema.org/url> <https://cris.haifa.ac.il/en/publications/you-name-it-interpersonal-affect-labeling-diminishes-distress-in-/> .
+  <https://github.com/john1hsu/communication-graph/id/source/labeling-emotions/s4> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/labeling-emotions/s4> <http://purl.org/dc/terms/publisher> "Kircanski, Lieberman & Craske, Psychological Science 23(10) (2012), doi:10.1177/0956797612443830 (Association for Psychological Science)" .
+  <https://github.com/john1hsu/communication-graph/id/source/labeling-emotions/s4> <http://purl.org/dc/terms/title> "Feelings Into Words: Contributions of Language to Exposure Therapy" .
+  <https://github.com/john1hsu/communication-graph/id/source/labeling-emotions/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/labeling-emotions/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/labeling-emotions/s4> <https://schema.org/url> <https://www.psychologicalscience.org/journals/psychological-science/0956797612443830/> .
+  <https://github.com/john1hsu/communication-graph/id/source/labeling-emotions/s5> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/labeling-emotions/s5> <http://purl.org/dc/terms/publisher> "Genzer, Rubin, Sened, Rafaeli, Ochsner, Cohen & Perry, Nature Communications 17, 167 (2026), doi:10.1038/s41467-025-66879-2 (Hebrew University research record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/labeling-emotions/s5> <http://purl.org/dc/terms/title> "Directional Bias in Interpersonal Emotion Perception" .
+  <https://github.com/john1hsu/communication-graph/id/source/labeling-emotions/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/labeling-emotions/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/labeling-emotions/s5> <https://schema.org/url> <https://cris.huji.ac.il/en/publications/directional-bias-in-interpersonal-emotion-perception/> .
+  <https://github.com/john1hsu/communication-graph/id/source/labeling-emotions/s6> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/labeling-emotions/s6> <http://purl.org/dc/terms/publisher> "Don Fieselman, The Black Swan Group newsletter (2023)" .
+  <https://github.com/john1hsu/communication-graph/id/source/labeling-emotions/s6> <http://purl.org/dc/terms/title> "How to Use Labels to Neutralize Negative Emotions in a Negotiation" .
+  <https://github.com/john1hsu/communication-graph/id/source/labeling-emotions/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/labeling-emotions/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "community" .
+  <https://github.com/john1hsu/communication-graph/id/source/labeling-emotions/s6> <https://schema.org/url> <https://www.blackswanltd.com/the-edge/how-to-use-labels-to-neutralize-negative-emotions-in-a-negotiation> .
 }
 
 <https://github.com/john1hsu/communication-graph/id/open-ended-questions#graph> {
@@ -12572,8 +12696,10 @@
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/listening> .
+  <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/labeling-emotions> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/paraphrasing> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> .
+  <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/labeling-emotions> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/paraphrasing> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/common-ground> .
@@ -12674,6 +12800,7 @@
   <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> .
+  <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/labeling-emotions> .
   <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/macinnis-mackinnon-macintyre-2010> .
   <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/self-affirmation-before-feedback> .
   <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/self-distancing> .
@@ -13057,6 +13184,7 @@
   <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/cognitive-load> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/labeling-emotions> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/self-distancing> .
   <https://github.com/john1hsu/communication-graph/id/collins-miller-1994> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/reciprocal-self-disclosure> .
   <https://github.com/john1hsu/communication-graph/id/colquitt-scott-lepine-2007> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/trusted-advisor> .
@@ -13341,6 +13469,7 @@
   <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> .
   <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/apology> .
   <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/face-to-face-conversation> .
+  <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/labeling-emotions> .
   <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/performance-review> .
   <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/social-accounts> .
   <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/active-listening> .
@@ -13506,6 +13635,7 @@
   <https://github.com/john1hsu/communication-graph/id/email> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/ray-tomlinson> .
   <https://github.com/john1hsu/communication-graph/id/emotion-regulation> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/self-distancing> .
   <https://github.com/john1hsu/communication-graph/id/emotion-regulation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/self-distancing> .
+  <https://github.com/john1hsu/communication-graph/id/emotion-regulation> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/labeling-emotions> .
   <https://github.com/john1hsu/communication-graph/id/empathic-concern> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/apology> .
   <https://github.com/john1hsu/communication-graph/id/empathy-gap> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/egocentric-bias> .
   <https://github.com/john1hsu/communication-graph/id/empathy-gap> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/george-loewenstein> .
@@ -14218,6 +14348,15 @@
   <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/scheduled-inbox-checks> .
   <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/information-overload> .
   <https://github.com/john1hsu/communication-graph/id/kwon-weingart-2004> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/concession-strategy> .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/listening> .
   <https://github.com/john1hsu/communication-graph/id/ladder-of-inference> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate> .
   <https://github.com/john1hsu/communication-graph/id/lapakko-2007> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> .
   <https://github.com/john1hsu/communication-graph/id/larrick-wu-2007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -14255,12 +14394,16 @@
   <https://github.com/john1hsu/communication-graph/id/lewicki-polin-lount-2016> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/apology> .
   <https://github.com/john1hsu/communication-graph/id/li-2021-cross-cultural-training-meta-analysis> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/intercultural-communication> .
   <https://github.com/john1hsu/communication-graph/id/liberating-structures> <https://github.com/john1hsu/communication-graph/ontology#hasPart> <https://github.com/john1hsu/communication-graph/id/1-2-4-all> .
+  <https://github.com/john1hsu/communication-graph/id/lieberman-et-al-2007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/lieberman-et-al-2007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
+  <https://github.com/john1hsu/communication-graph/id/lieberman-et-al-2007> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/labeling-emotions> .
   <https://github.com/john1hsu/communication-graph/id/linda-klebe-trevino> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/linda-klebe-trevino> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/linda-klebe-trevino> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/message-equivocality-media-selection-and-manager-performance> .
   <https://github.com/john1hsu/communication-graph/id/linguistic-anthropology> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/intercultural-communication> .
   <https://github.com/john1hsu/communication-graph/id/listening> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/active-listening> .
   <https://github.com/john1hsu/communication-graph/id/listening> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+  <https://github.com/john1hsu/communication-graph/id/listening> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/labeling-emotions> .
   <https://github.com/john1hsu/communication-graph/id/listening> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/paraphrasing> .
   <https://github.com/john1hsu/communication-graph/id/listening> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> .
   <https://github.com/john1hsu/communication-graph/id/logic-and-conversation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -14473,6 +14616,7 @@
   <https://github.com/john1hsu/communication-graph/id/negotiation> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/integrative-negotiation> .
   <https://github.com/john1hsu/communication-graph/id/negotiation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/integrative-negotiation> .
   <https://github.com/john1hsu/communication-graph/id/negotiation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers> .
+  <https://github.com/john1hsu/communication-graph/id/negotiation> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/labeling-emotions> .
   <https://github.com/john1hsu/communication-graph/id/negotiator-dilemma> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/integrative-negotiation> .
   <https://github.com/john1hsu/communication-graph/id/negotiator-dilemma> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers> .
   <https://github.com/john1hsu/communication-graph/id/neuliep-hintz-mccroskey-2005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -14622,6 +14766,7 @@
   <https://github.com/john1hsu/communication-graph/id/paraphrasing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/facilitation> .
   <https://github.com/john1hsu/communication-graph/id/paraphrasing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> .
   <https://github.com/john1hsu/communication-graph/id/paraphrasing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/interrupting> .
+  <https://github.com/john1hsu/communication-graph/id/paraphrasing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/labeling-emotions> .
   <https://github.com/john1hsu/communication-graph/id/paraphrasing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/role-reversal> .
   <https://github.com/john1hsu/communication-graph/id/paraphrasing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/teach-back> .
   <https://github.com/john1hsu/communication-graph/id/paraphrasing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/wait-time> .
@@ -14682,6 +14827,7 @@
   <https://github.com/john1hsu/communication-graph/id/perspective-taking> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
   <https://github.com/john1hsu/communication-graph/id/perspective-taking> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/considering-others-contributions-first> .
   <https://github.com/john1hsu/communication-graph/id/perspective-taking> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/considering-others-contributions-first> .
+  <https://github.com/john1hsu/communication-graph/id/perspective-taking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/labeling-emotions> .
   <https://github.com/john1hsu/communication-graph/id/perspective-taking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/role-reversal> .
   <https://github.com/john1hsu/communication-graph/id/perspective-taking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/trusted-advisor> .
   <https://github.com/john1hsu/communication-graph/id/perspective-taking> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/integrative-negotiation> .
@@ -15101,6 +15247,7 @@
   <https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> .
   <https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/scheduled-inbox-checks> .
   <https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/scheduled-inbox-checks> .
+  <https://github.com/john1hsu/communication-graph/id/shamay-tsoory-levy-gigi-2021> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/labeling-emotions> .
   <https://github.com/john1hsu/communication-graph/id/shaw-wild-colquitt-2003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/shaw-wild-colquitt-2003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/shaw-wild-colquitt-2003> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/social-accounts> .
@@ -15436,6 +15583,7 @@
   <https://github.com/john1hsu/communication-graph/id/wait-time> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/silence-and-pauses> .
   <https://github.com/john1hsu/communication-graph/id/wait-time> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/1-2-4-all> .
   <https://github.com/john1hsu/communication-graph/id/wait-time> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/facilitation> .
+  <https://github.com/john1hsu/communication-graph/id/wait-time> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/labeling-emotions> .
   <https://github.com/john1hsu/communication-graph/id/wait-time> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/video-call-communication> .
   <https://github.com/john1hsu/communication-graph/id/weger-castle-emmett-2010> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> .
   <https://github.com/john1hsu/communication-graph/id/weger-castle-emmett-2010> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/paraphrasing> .

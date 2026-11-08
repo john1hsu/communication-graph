@@ -632,6 +632,29 @@ Ask yourself:
 - In this meeting, who got cut off early, and did anyone, including me, hand the floor back to them?
 - If I was interrupted, did I calmly reclaim the turn ("Let me finish this point, then I'd like your view")?
 
+### [Labeling emotions](../articles/listening/labeling-emotions.md) — Technique
+
+1. Listen until you have a reasonable read of the feeling - from their words, pace, tone and what they keep returning to - rather than labeling the first sign of emotion.
+2. Name the emotion and, if you can, its trigger in one short sentence that starts with "It sounds like..." or "It seems like...", choosing a milder word than your first instinct.
+3. Phrase the label as a neutral observation about them, not a verdict on their behaviour or motives.
+4. Stop talking and let the label land; give them time to agree, refine or reject it.
+5. If they correct you, accept the correction, restate it in their terms and do not argue for your original read.
+6. Once they confirm the feeling, move to the substance - their facts, priorities and what happens next.
+
+*A finance analyst learns in a team call that the month-end close has been pulled forward two days, and replies tersely that the new date "is fine, I guess".*
+
+| Before | After |
+|---|---|
+| Great, so we're all aligned on the new date. Let's move on to the forecast. | It sounds like the new date has you pretty stretched, with the reconciliations still open. ... What would make it workable? |
+
+**Why:** The rewrite names the likely feeling and its cause tentatively, then pauses, so the analyst can confirm the pressure or correct the read; the manager learns about the open reconciliations now instead of after the close slips.
+
+Ask yourself:
+- Did I name the feeling as a guess ("it sounds like...") rather than telling them what they feel?
+- Did I pick a word no stronger than the emotion they actually showed?
+- Could my label be heard as a criticism of them, and if so, did I reword it as a neutral observation?
+- After the label, did I stay quiet long enough for them to correct me?
+
 ### [Open-ended questions](../articles/listening/open-ended-questions.md) — Technique
 
 1. Decide what you actually need to learn - their view, the obstacles, the options - before you ask anything.

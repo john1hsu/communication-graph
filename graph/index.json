@@ -6619,6 +6619,107 @@
   ]
  },
  {
+  "id": "cm:labeling-emotions",
+  "title": "Labeling emotions",
+  "aliases": [
+   "affect labeling",
+   "interpersonal affect labeling",
+   "emotion labeling",
+   "naming the emotion"
+  ],
+  "type": "Technique",
+  "domain": "listening",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/listening/labeling-emotions.md",
+  "created": "2026-11-08",
+  "summary": "Putting a short, tentative name to the emotion someone seems to be feeling (\"it sounds like this deadline has you worried\"), then pausing so they can confirm or correct it, as a way of lowering the emotional temperature before you deal with the problem itself.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:active-listening"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:paraphrasing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:perspective-taking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:wait-time"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:difficult-conversation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:anxiety-reappraisal"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:lieberman-et-al-2007",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:emotion-regulation",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:contrastsWith",
+    "object": "cm:cognitive-reappraisal",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:shamay-tsoory-levy-gigi-2021",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:negotiation",
+    "source": "s6",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Did I name the feeling as a guess (\"it sounds like...\") rather than telling them what they feel?",
+   "Did I pick a word no stronger than the emotion they actually showed?",
+   "Could my label be heard as a criticism of them, and if so, did I reword it as a neutral observation?",
+   "After the label, did I stay quiet long enough for them to correct me?"
+  ],
+  "steps": [
+   "Listen until you have a reasonable read of the feeling - from their words, pace, tone and what they keep returning to - rather than labeling the first sign of emotion.",
+   "Name the emotion and, if you can, its trigger in one short sentence that starts with \"It sounds like...\" or \"It seems like...\", choosing a milder word than your first instinct.",
+   "Phrase the label as a neutral observation about them, not a verdict on their behaviour or motives.",
+   "Stop talking and let the label land; give them time to agree, refine or reject it.",
+   "If they correct you, accept the correction, restate it in their terms and do not argue for your original read.",
+   "Once they confirm the feeling, move to the substance - their facts, priorities and what happens next."
+  ],
+  "example": {
+   "situation": "A finance analyst learns in a team call that the month-end close has been pulled forward two days, and replies tersely that the new date \"is fine, I guess\".",
+   "before": "Great, so we're all aligned on the new date. Let's move on to the forecast.",
+   "after": "It sounds like the new date has you pretty stretched, with the reconciliations still open. ... What would make it workable?",
+   "why": "The rewrite names the likely feeling and its cause tentatively, then pauses, so the analyst can confirm the pressure or correct the read; the manager learns about the open reconciliations now instead of after the close slips."
+  },
+  "source_urls": [
+   "https://sites.lifesci.ucla.edu/psych-sanlab/wp-content/uploads/sites/31/2016/03/Lieberman_2007_PsychScience.pdf",
+   "https://escholarship.org/content/qt6n48b650/qt6n48b650.pdf?t=qaeiqw",
+   "https://cris.haifa.ac.il/en/publications/you-name-it-interpersonal-affect-labeling-diminishes-distress-in-/",
+   "https://www.psychologicalscience.org/journals/psychological-science/0956797612443830/",
+   "https://cris.huji.ac.il/en/publications/directional-bias-in-interpersonal-emotion-perception/",
+   "https://www.blackswanltd.com/the-edge/how-to-use-labels-to-neutralize-negative-emotions-in-a-negotiation"
+  ]
+ },
+ {
   "id": "cm:macinnis-mackinnon-macintyre-2010",
   "title": "The Illusion of Transparency and Normative Beliefs About Anxiety During Public Speaking",
   "aliases": [
