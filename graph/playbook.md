@@ -1033,6 +1033,15 @@ Ask yourself:
 - Have I given the numbers that show how often this happens, so the audience can judge how far the story generalises?
 - Would I be comfortable if the person in the story, or a sceptical colleague, heard how I told it?
 
+### [Persuasion](../articles/persuasion-and-influence/persuasion.md) — Skill
+
+Ask yourself:
+- Can I say, in the other person's terms, what they gain if they agree with me?
+- Have I earned credibility on this topic with this audience, or am I assuming it?
+- Am I giving reasons and evidence, or leaning on pressure, rank or urgency I have not justified?
+- What would change my own mind, and am I willing to adjust the proposal if I hear it?
+- Would I be comfortable if they saw exactly how I prepared this pitch?
+
 ### [Selling issues to leadership](../articles/persuasion-and-influence/issue-selling.md) — Technique
 
 1. Write the issue in one sentence and link it to a goal, metric or priority your leaders already own, framed as an opportunity where honestly possible.

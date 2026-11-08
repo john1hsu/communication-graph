@@ -12,7 +12,9 @@ _No results._
 
 _Which written skills or dispositions have no technique, framework or principle that develops them?_ — `queries/02-skills-without-practice.rq`
 
-_No results._
+| skill | type |
+|---|---|
+| `cm:persuasion` | cmo:Skill |
 
 ## Situations, channels and formats with no guidance (gap)
 
@@ -73,6 +75,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:communication-plan` | `cm:stakeholder-mapping` |
 | `cm:crisis-communication` | `cm:communicating-uncertainty` |
 | `cm:cross-functional-collaboration` | `cm:influence-without-authority` |
+| `cm:cross-functional-collaboration` | `cm:persuasion` |
 | `cm:delivering-bad-news` | `cm:social-accounts` |
 | `cm:difficult-conversation` | `cm:active-listening` |
 | `cm:difficult-conversation` | `cm:i-statements` |
@@ -94,9 +97,8 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:face-to-face-conversation` | `cm:eye-contact` |
 | `cm:face-to-face-conversation` | `cm:nonverbal-communication` |
 | `cm:face-to-face-conversation` | `cm:proxemics` |
-| `cm:face-to-face-conversation` | `cm:rapport` |
 
-…and 39 more.
+…and 40 more.
 
 ## Myths and contested advice
 
@@ -135,7 +137,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:common-ground` | mixed | `cm:keysar-et-al-2000` |
 | `cm:communicating-uncertainty` | mixed |  |
 
-…and 69 more.
+…and 70 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -163,6 +165,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:open-ended-questions` | cmo:Technique |
 | `cm:performance-review` | cmo:Context |
 | `cm:perspective-taking` | cmo:Skill |
+| `cm:persuasion` | cmo:Skill |
 | `cm:plain-language` | cmo:Principle |
 | `cm:presentation` | cmo:Context |
 | `cm:presentation-rehearsal` | cmo:Technique |
@@ -172,9 +175,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:scheduled-inbox-checks` | cmo:Technique |
 | `cm:self-affirmation-before-feedback` | cmo:Technique |
 | `cm:self-distancing` | cmo:Technique |
-| `cm:self-recording-playback` | cmo:Technique |
 
-…and 10 more.
+…and 11 more.
 
 ## Orphan articles (gap)
 

@@ -702,6 +702,15 @@
 <https://github.com/john1hsu/communication-graph/id/narrative-persuasion#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/narrative-persuasion/s4> .
 <https://github.com/john1hsu/communication-graph/id/narrative-persuasion#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/narrative-persuasion/s5> .
 <https://github.com/john1hsu/communication-graph/id/narrative-persuasion#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/narrative-persuasion/s6> .
+<https://github.com/john1hsu/communication-graph/id/persuasion#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/persuasion#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/persuasion> .
+<https://github.com/john1hsu/communication-graph/id/persuasion#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/persuasion-and-influence/persuasion.md" .
+<https://github.com/john1hsu/communication-graph/id/persuasion#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/persuasion/s1> .
+<https://github.com/john1hsu/communication-graph/id/persuasion#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/persuasion/s2> .
+<https://github.com/john1hsu/communication-graph/id/persuasion#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/persuasion/s3> .
+<https://github.com/john1hsu/communication-graph/id/persuasion#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/persuasion/s4> .
+<https://github.com/john1hsu/communication-graph/id/persuasion#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/persuasion/s5> .
+<https://github.com/john1hsu/communication-graph/id/persuasion#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/persuasion/s6> .
 <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping> .
 <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/persuasion-and-influence/stakeholder-mapping.md" .
@@ -8682,6 +8691,98 @@
   <https://github.com/john1hsu/communication-graph/id/source/narrative-persuasion/s6> <https://schema.org/url> <https://womensleadership.stanford.edu/resources/voice-influence/harnessing-power-stories> .
 }
 
+<https://github.com/john1hsu/communication-graph/id/persuasion#graph> {
+  <https://github.com/john1hsu/communication-graph/id/persuasion/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/persuasion/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Can I say, in the other person's terms, what they gain if they agree with me?" .
+  <https://github.com/john1hsu/communication-graph/id/persuasion/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/persuasion> .
+  <https://github.com/john1hsu/communication-graph/id/persuasion/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/persuasion/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Have I earned credibility on this topic with this audience, or am I assuming it?" .
+  <https://github.com/john1hsu/communication-graph/id/persuasion/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/persuasion> .
+  <https://github.com/john1hsu/communication-graph/id/persuasion/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/persuasion/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Am I giving reasons and evidence, or leaning on pressure, rank or urgency I have not justified?" .
+  <https://github.com/john1hsu/communication-graph/id/persuasion/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/persuasion> .
+  <https://github.com/john1hsu/communication-graph/id/persuasion/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/persuasion/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "What would change my own mind, and am I willing to adjust the proposal if I hear it?" .
+  <https://github.com/john1hsu/communication-graph/id/persuasion/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/persuasion> .
+  <https://github.com/john1hsu/communication-graph/id/persuasion/check/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/persuasion/check/5> <http://www.w3.org/2000/01/rdf-schema#label> "Would I be comfortable if they saw exactly how I prepared this pitch?" .
+  <https://github.com/john1hsu/communication-graph/id/persuasion/check/5> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/persuasion> .
+  <https://github.com/john1hsu/communication-graph/id/persuasion> <http://purl.org/dc/terms/created> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Skill> .
+  <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2000/01/rdf-schema#label> "Persuasion" .
+  <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#altLabel> "persuading colleagues" .
+  <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#altLabel> "persuasive communication" .
+  <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#altLabel> "the art of persuasion" .
+  <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
+  <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#definition> "The learnable skill of changing what another person believes, feels or does through communication - credible reasons, framing and evidence - while leaving them free to say no, which separates it from pressure, coercion and manipulation." .
+  <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/persuasion-and-influence> .
+  <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#prefLabel> "Persuasion" .
+  <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> .
+  <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
+  <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/carl-hovland> .
+  <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/credibility> .
+  <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> .
+  <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/influence-without-authority> .
+  <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/issue-selling> .
+  <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/narrative-persuasion> .
+  <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/rhetorical-appeals> .
+  <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping> .
+  <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/persuasion/s1> .
+  <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/persuasion/s2> .
+  <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/persuasion/s3> .
+  <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/persuasion/s4> .
+  <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/persuasion/s5> .
+  <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/persuasion/s6> .
+  <https://github.com/john1hsu/communication-graph/id/persuasion> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/cross-functional-collaboration> .
+  <https://github.com/john1hsu/communication-graph/id/persuasion> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/manipulation> .
+  <https://github.com/john1hsu/communication-graph/id/persuasion> <https://github.com/john1hsu/communication-graph/ontology#domain> "persuasion-and-influence" .
+  <https://github.com/john1hsu/communication-graph/id/persuasion> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+  <https://github.com/john1hsu/communication-graph/id/persuasion> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> .
+  <https://github.com/john1hsu/communication-graph/id/persuasion> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/persuasion-and-influence/persuasion.md" .
+  <https://github.com/john1hsu/communication-graph/id/persuasion> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+  <https://github.com/john1hsu/communication-graph/id/persuasion> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
+  <https://github.com/john1hsu/communication-graph/id/persuasion> <https://github.com/john1hsu/communication-graph/ontology#studiedIn> <https://github.com/john1hsu/communication-graph/id/social-psychology> .
+  <https://github.com/john1hsu/communication-graph/id/persuasion> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/lee-et-al-2017> .
+  <https://github.com/john1hsu/communication-graph/id/persuasion> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/okeefe-hoeken-2021> .
+  <https://github.com/john1hsu/communication-graph/id/persuasion> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/yukl-tracey-1992> .
+  <https://github.com/john1hsu/communication-graph/id/source/persuasion/s1> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/persuasion/s1> <http://purl.org/dc/terms/publisher> "Daniel J. O'Keefe (Northwestern University), SAGE Publications, 2015 (publisher page)" .
+  <https://github.com/john1hsu/communication-graph/id/source/persuasion/s1> <http://purl.org/dc/terms/title> "Persuasion: Theory and Research, Third Edition" .
+  <https://github.com/john1hsu/communication-graph/id/source/persuasion/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/persuasion/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "textbook" .
+  <https://github.com/john1hsu/communication-graph/id/source/persuasion/s1> <https://schema.org/url> <https://collegepublishing.sagepub.com/products/persuasion-3-234184> .
+  <https://github.com/john1hsu/communication-graph/id/source/persuasion/s2> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/persuasion/s2> <http://purl.org/dc/terms/publisher> "Jay A. Conger, Harvard Business Review 76(3), May-June 1998, 87-95 (University of Washington hosted copy)" .
+  <https://github.com/john1hsu/communication-graph/id/source/persuasion/s2> <http://purl.org/dc/terms/title> "The Necessary Art of Persuasion" .
+  <https://github.com/john1hsu/communication-graph/id/source/persuasion/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/persuasion/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "practitioner-journal" .
+  <https://github.com/john1hsu/communication-graph/id/source/persuasion/s2> <https://schema.org/url> <https://depts.washington.edu/edgh/namibia-lio/files/necessary_art_of_persuasion.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/persuasion/s3> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/persuasion/s3> <http://purl.org/dc/terms/publisher> "Gary Yukl & J. Bruce Tracey, Journal of Applied Psychology 77(4), 525-535, 1992 (Cornell eCommons author copy)" .
+  <https://github.com/john1hsu/communication-graph/id/source/persuasion/s3> <http://purl.org/dc/terms/title> "Consequences of influence tactics used with subordinates, peers, and the boss" .
+  <https://github.com/john1hsu/communication-graph/id/source/persuasion/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/persuasion/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/persuasion/s3> <https://schema.org/url> <https://ecommons.cornell.edu/bitstream/handle/1813/71422/Tracey42_Consequences_of_influence.pdf?sequence=1> .
+  <https://github.com/john1hsu/communication-graph/id/source/persuasion/s4> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/persuasion/s4> <http://purl.org/dc/terms/publisher> "Lee, Han, Cheong, Kim & Yun, The Leadership Quarterly 28(1), 210-228, 2017 (Institute of Coaching abstract page)" .
+  <https://github.com/john1hsu/communication-graph/id/source/persuasion/s4> <http://purl.org/dc/terms/title> "How do I get my way? A meta-analytic review of research on influence tactics" .
+  <https://github.com/john1hsu/communication-graph/id/source/persuasion/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/persuasion/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/persuasion/s4> <https://schema.org/url> <https://instituteofcoaching.org/node/36203> .
+  <https://github.com/john1hsu/communication-graph/id/source/persuasion/s5> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/persuasion/s5> <http://purl.org/dc/terms/publisher> "Daniel J. O'Keefe & Hans Hoeken, Frontiers in Psychology 12, 664160, 2021" .
+  <https://github.com/john1hsu/communication-graph/id/source/persuasion/s5> <http://purl.org/dc/terms/title> "Message Design Choices Don't Make Much Difference to Persuasiveness and Can't Be Counted On - Not Even When Moderating Conditions Are Specified" .
+  <https://github.com/john1hsu/communication-graph/id/source/persuasion/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/persuasion/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/persuasion/s5> <https://schema.org/url> <https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2021.664160/pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/persuasion/s6> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/persuasion/s6> <http://purl.org/dc/terms/publisher> "Encyclopaedia Britannica" .
+  <https://github.com/john1hsu/communication-graph/id/source/persuasion/s6> <http://purl.org/dc/terms/title> "Carl I. Hovland" .
+  <https://github.com/john1hsu/communication-graph/id/source/persuasion/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/persuasion/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "encyclopedia" .
+  <https://github.com/john1hsu/communication-graph/id/source/persuasion/s6> <https://schema.org/url> <https://www.britannica.com/print/article/273363> .
+}
+
 <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping#graph> {
   <https://github.com/john1hsu/communication-graph/id/source/stakeholder-mapping/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
   <https://github.com/john1hsu/communication-graph/id/source/stakeholder-mapping/s1> <http://purl.org/dc/terms/publisher> "John M. Bryson, Public Management Review 6(1), 21-53, 2004, doi:10.1080/14719030410001675722 (author copy, UNC School of Government course materials)" .
@@ -12598,6 +12699,7 @@
   <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/rhetoric> .
   <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/credibility> .
   <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> .
+  <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/persuasion> .
   <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/quintilian> .
   <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
   <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/credibility> .
@@ -12658,6 +12760,7 @@
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/managing-up> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/message-equivocality-media-selection-and-manager-performance> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/narrative-persuasion> .
+  <https://github.com/john1hsu/communication-graph/id/audience-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/persuasion> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/presentation> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/pyramid-principle> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/quintilian> .
@@ -12675,6 +12778,7 @@
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/issue-selling> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/managing-up> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/narrative-persuasion> .
+  <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/persuasion> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/plain-language> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/presentation> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/pyramid-principle> .
@@ -13002,8 +13106,10 @@
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/camera-level-gaze> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/considering-others-contributions-first> .
+  <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/credibility> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> .
+  <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/ethnocentrism> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/executive-briefing> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/eye-contact> .
@@ -13014,20 +13120,24 @@
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/gestures> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/hofstede-cultural-dimensions> .
+  <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/influence-without-authority> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/information-overload> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/intercultural-communication> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
+  <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/issue-selling> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/managing-up> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/media-richness-theory> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/message-equivocality-media-selection-and-manager-performance> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/multicultural-team> .
+  <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/narrative-persuasion> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/performance-review> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/perspective-taking> .
+  <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/persuasion> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/presentation> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/proxemics> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/rapport> .
@@ -13035,6 +13145,7 @@
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/self-affirmation-before-feedback> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/small-talk> .
+  <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/status-reporting> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/the-culture-map> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/trusted-advisor> .
@@ -13102,10 +13213,13 @@
   <https://github.com/john1hsu/communication-graph/id/credibility/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/credibility/check/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
+  <https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
   <https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/persuasion> .
   <https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/carl-hovland> .
   <https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/filled-pauses> .
   <https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/narrative-persuasion> .
+  <https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/persuasion> .
   <https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/trusted-advisor> .
   <https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/video-call-communication> .
   <https://github.com/john1hsu/communication-graph/id/credibility> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/carl-hovland> .
@@ -13113,6 +13227,7 @@
   <https://github.com/john1hsu/communication-graph/id/credibility> <https://github.com/john1hsu/communication-graph/ontology#underminedBy> <https://github.com/john1hsu/communication-graph/id/filled-pauses> .
   <https://github.com/john1hsu/communication-graph/id/crisis-communication> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/communicating-uncertainty> .
   <https://github.com/john1hsu/communication-graph/id/cross-functional-collaboration> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/influence-without-authority> .
+  <https://github.com/john1hsu/communication-graph/id/cross-functional-collaboration> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/persuasion> .
   <https://github.com/john1hsu/communication-graph/id/crucial-conversations> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/difficult-conversation> .
   <https://github.com/john1hsu/communication-graph/id/ctss-mail> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/ray-tomlinson> .
   <https://github.com/john1hsu/communication-graph/id/cultures-consequences> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -13340,11 +13455,15 @@
   <https://github.com/john1hsu/communication-graph/id/egocentrism-over-email-study> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/face-to-face-conversation> .
   <https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
+  <https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
   <https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/persuasion> .
   <https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/carl-hovland> .
   <https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/gestures> .
   <https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/narrative-persuasion> .
+  <https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/persuasion> .
   <https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/gestures> .
+  <https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/persuasion> .
   <https://github.com/john1hsu/communication-graph/id/elizabeth-dunn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/elizabeth-dunn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/elizabeth-dunn> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> .
@@ -13846,12 +13965,15 @@
   <https://github.com/john1hsu/communication-graph/id/influence-without-authority/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/influence-without-authority> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/influence-without-authority> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
   <https://github.com/john1hsu/communication-graph/id/influence-without-authority> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/persuasion> .
   <https://github.com/john1hsu/communication-graph/id/influence-without-authority> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/adam-galinsky> .
   <https://github.com/john1hsu/communication-graph/id/influence-without-authority> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/credibility> .
   <https://github.com/john1hsu/communication-graph/id/influence-without-authority> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> .
   <https://github.com/john1hsu/communication-graph/id/influence-without-authority> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/issue-selling> .
   <https://github.com/john1hsu/communication-graph/id/influence-without-authority> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/managing-up> .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/persuasion> .
   <https://github.com/john1hsu/communication-graph/id/influence-without-authority> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/credibility> .
   <https://github.com/john1hsu/communication-graph/id/influence-without-authority> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping> .
   <https://github.com/john1hsu/communication-graph/id/information-gap-theory> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/george-loewenstein> .
@@ -13927,29 +14049,37 @@
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/perspective-taking> .
+  <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/persuasion> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/rapport> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/small-talk> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/trusted-advisor> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/camera-level-gaze> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/considering-others-contributions-first> .
+  <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/credibility> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> .
+  <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/eye-contact> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/face-to-face-conversation> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/feedback-sandwich> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/feedback> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/feedforward> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/gestures> .
+  <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/influence-without-authority> .
+  <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/issue-selling> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> .
+  <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/narrative-persuasion> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/perspective-taking> .
+  <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/persuasion> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/proxemics> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/rapport> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/receiving-feedback> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/self-affirmation-before-feedback> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/small-talk> .
+  <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/trusted-advisor> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-conflict> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/difficult-conversation> .
@@ -13972,11 +14102,14 @@
   <https://github.com/john1hsu/communication-graph/id/issue-selling/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/issue-selling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/issue-selling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/issue-selling> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
+  <https://github.com/john1hsu/communication-graph/id/issue-selling> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
   <https://github.com/john1hsu/communication-graph/id/issue-selling> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/persuasion> .
   <https://github.com/john1hsu/communication-graph/id/issue-selling> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/credibility> .
   <https://github.com/john1hsu/communication-graph/id/issue-selling> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> .
   <https://github.com/john1hsu/communication-graph/id/issue-selling> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/executive-briefing> .
   <https://github.com/john1hsu/communication-graph/id/issue-selling> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/narrative-persuasion> .
+  <https://github.com/john1hsu/communication-graph/id/issue-selling> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/persuasion> .
   <https://github.com/john1hsu/communication-graph/id/issue-selling> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/managing-up> .
   <https://github.com/john1hsu/communication-graph/id/ivers-et-al-2025> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996> .
   <https://github.com/john1hsu/communication-graph/id/jack-gibb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -14098,6 +14231,7 @@
   <https://github.com/john1hsu/communication-graph/id/leach-et-al-2009> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/meeting-agendas> .
   <https://github.com/john1hsu/communication-graph/id/lee-et-al-2017> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/influence-without-authority> .
   <https://github.com/john1hsu/communication-graph/id/lee-et-al-2017> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/managing-up> .
+  <https://github.com/john1hsu/communication-graph/id/lee-et-al-2017> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/persuasion> .
   <https://github.com/john1hsu/communication-graph/id/lee-ross> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/thomas-gilovich> .
   <https://github.com/john1hsu/communication-graph/id/legault-al-khindi-inzlicht-2012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/legault-al-khindi-inzlicht-2012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
@@ -14172,6 +14306,7 @@
   <https://github.com/john1hsu/communication-graph/id/managing-your-boss> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
   <https://github.com/john1hsu/communication-graph/id/managing-your-boss> <https://github.com/john1hsu/communication-graph/ontology#introduces> <https://github.com/john1hsu/communication-graph/id/managing-up> .
   <https://github.com/john1hsu/communication-graph/id/mandel-irwin-2021> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability> .
+  <https://github.com/john1hsu/communication-graph/id/manipulation> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/persuasion> .
   <https://github.com/john1hsu/communication-graph/id/many-labs-2> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/egocentric-bias> .
   <https://github.com/john1hsu/communication-graph/id/mark-et-al-2016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/mark-et-al-2016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
@@ -14318,7 +14453,10 @@
   <https://github.com/john1hsu/communication-graph/id/narrative-persuasion/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/narrative-persuasion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/narrative-persuasion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/narrative-persuasion> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
+  <https://github.com/john1hsu/communication-graph/id/narrative-persuasion> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
   <https://github.com/john1hsu/communication-graph/id/narrative-persuasion> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/persuasion> .
+  <https://github.com/john1hsu/communication-graph/id/narrative-persuasion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/persuasion> .
   <https://github.com/john1hsu/communication-graph/id/narrative-transportation> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/narrative-persuasion> .
   <https://github.com/john1hsu/communication-graph/id/nathan-azrin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/nathan-azrin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
@@ -14388,6 +14526,7 @@
   <https://github.com/john1hsu/communication-graph/id/norm-of-reciprocity> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/influence-without-authority> .
   <https://github.com/john1hsu/communication-graph/id/nutt-1999> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping> .
   <https://github.com/john1hsu/communication-graph/id/official-style> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/paramedic-method> .
+  <https://github.com/john1hsu/communication-graph/id/okeefe-hoeken-2021> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/persuasion> .
   <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
@@ -14549,6 +14688,15 @@
   <https://github.com/john1hsu/communication-graph/id/perspective-taking> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/perspective-getting> .
   <https://github.com/john1hsu/communication-graph/id/perspective-taking> <https://github.com/john1hsu/communication-graph/ontology#developedBy> <https://github.com/john1hsu/communication-graph/id/role-reversal> .
   <https://github.com/john1hsu/communication-graph/id/persuasion-unimodel> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> .
+  <https://github.com/john1hsu/communication-graph/id/persuasion/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/persuasion/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/persuasion/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/persuasion/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/persuasion/check/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+  <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
+  <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/credibility> .
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> .
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/influence-without-authority> .
@@ -14561,7 +14709,6 @@
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/issue-selling> .
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/narrative-persuasion> .
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping> .
-  <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/carl-hovland> .
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/eye-contact> .
   <https://github.com/john1hsu/communication-graph/id/petrowsky-et-al-2025> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/first-offer> .
   <https://github.com/john1hsu/communication-graph/id/petty-cacioppo-goldman-1981> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -14797,6 +14944,7 @@
   <https://github.com/john1hsu/communication-graph/id/rhetoric> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
   <https://github.com/john1hsu/communication-graph/id/rhetorical-appeals> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> .
   <https://github.com/john1hsu/communication-graph/id/rhetorical-appeals> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> .
+  <https://github.com/john1hsu/communication-graph/id/rhetorical-appeals> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/persuasion> .
   <https://github.com/john1hsu/communication-graph/id/richard-e-petty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/richard-e-petty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/richard-e-petty> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> .
@@ -15089,8 +15237,11 @@
   <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
+  <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
   <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/persuasion> .
   <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> .
+  <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/persuasion> .
   <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/raci-matrix> .
   <https://github.com/john1hsu/communication-graph/id/stakeholder-salience-theory> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping> .
   <https://github.com/john1hsu/communication-graph/id/stakeholder-theory> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping> .
@@ -15356,6 +15507,7 @@
   <https://github.com/john1hsu/communication-graph/id/yang-et-al-2022> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/yang-et-al-2022> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> .
   <https://github.com/john1hsu/communication-graph/id/yukl-tracey-1992> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/influence-without-authority> .
+  <https://github.com/john1hsu/communication-graph/id/yukl-tracey-1992> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/persuasion> .
   <https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/distributive-negotiation> .
   <https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/negotiation-preparation> .

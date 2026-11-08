@@ -8,11 +8,12 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 2.76 | `cm:active-listening` | `cm:feedback` | `cm:defensiveness`, `cm:difficult-conversation`, `cm:feedforward`, `cm:one-on-one-meetings`, `cm:performance-review` |
 | 2.72 | `cm:channel-selection` | `cm:egocentric-bias` | `cm:common-ground`, `cm:curse-of-knowledge`, `cm:egocentrism-over-email-study`, `cm:face-to-face-conversation`, `cm:nicholas-epley` |
 | 2.61 | `cm:asynchronous-communication` | `cm:video-call-communication` | `cm:channel-selection`, `cm:digital-communication`, `cm:face-to-face-conversation`, `cm:media-richness-theory`, `cm:workplace-meetings` |
+| 2.59 | `cm:audience-analysis` | `cm:credibility` | `cm:aristotles-rhetoric`, `cm:communicating-uncertainty`, `cm:elaboration-likelihood-model`, `cm:influence-without-authority`, `cm:issue-selling` |
 | 2.52 | `cm:anchoring-and-adjustment` | `cm:thomas-gilovich` | `cm:curse-of-knowledge`, `cm:egocentric-bias`, `cm:gilovich-savitsky-medvec-1998`, `cm:illusion-of-transparency`, `cm:macinnis-mackinnon-macintyre-2010` |
 | 2.40 | `cm:anxiety-reappraisal` | `cm:spotlight-effect` | `cm:illusion-of-transparency`, `cm:macinnis-mackinnon-macintyre-2010`, `cm:self-distancing`, `cm:social-anxiety`, `cm:speaking-anxiety` |
 | 2.39 | `cm:pyramid-principle` | `cm:status-reporting` | `cm:audience-analysis`, `cm:bottom-line-up-front`, `cm:business-report`, `cm:executive-briefing` |
 | 2.34 | `cm:bottom-line-up-front` | `cm:curse-of-knowledge` | `cm:assertion-evidence-slides`, `cm:audience-analysis`, `cm:channel-selection`, `cm:clarity`, `cm:cognitive-load` |
-| 2.26 | `cm:audience-analysis` | `cm:credibility` | `cm:aristotles-rhetoric`, `cm:communicating-uncertainty`, `cm:elaboration-likelihood-model`, `cm:influence-without-authority`, `cm:issue-selling` |
+| 2.30 | `cm:managing-up` | `cm:persuasion` | `cm:audience-analysis`, `cm:influence-without-authority`, `cm:issue-selling`, `cm:lee-et-al-2017`, `cm:stakeholder-mapping` |
 | 2.16 | `cm:rapport` | `cm:video-call-communication` | `cm:camera-level-gaze`, `cm:channel-selection`, `cm:credibility`, `cm:face-to-face-conversation`, `cm:nonverbal-communication` |
 | 2.15 | `cm:audience-analysis` | `cm:illusion-of-transparency` | `cm:clarity`, `cm:common-ground`, `cm:communicating-uncertainty`, `cm:curse-of-knowledge`, `cm:email` |
 | 2.14 | `cm:bottom-line-up-front` | `cm:readability-formulas` | `cm:audience-analysis`, `cm:clarity`, `cm:cognitive-load`, `cm:concise-writing`, `cm:effective-writing-for-army-leaders` |
@@ -28,4 +29,3 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 1.98 | `cm:defensiveness` | `cm:one-on-one-meetings` | `cm:active-listening`, `cm:feedback`, `cm:feedforward`, `cm:performance-review`, `cm:psychological-safety` |
 | 1.98 | `cm:eye-contact` | `cm:video-call-communication` | `cm:camera-level-gaze`, `cm:chen-2002`, `cm:face-to-face-conversation`, `cm:nonverbal-communication`, `cm:proxemics` |
 | 1.98 | `cm:audience-analysis` | `cm:information-overload` | `cm:bottom-line-up-front`, `cm:channel-selection`, `cm:concise-writing`, `cm:email`, `cm:executive-briefing` |
-| 1.98 | `cm:email-urgency-bias-study` | `cm:information-overload` | `cm:asynchronous-communication`, `cm:email`, `cm:setting-reply-time-expectations`, `cm:workplace-stress` |

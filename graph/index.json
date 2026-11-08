@@ -8903,6 +8903,131 @@
   ]
  },
  {
+  "id": "cm:persuasion",
+  "title": "Persuasion",
+  "aliases": [
+   "persuasive communication",
+   "the art of persuasion",
+   "persuading colleagues"
+  ],
+  "type": "Skill",
+  "domain": "persuasion-and-influence",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/persuasion-and-influence/persuasion.md",
+  "created": "2026-11-08",
+  "summary": "The learnable skill of changing what another person believes, feels or does through communication - credible reasons, framing and evidence - while leaving them free to say no, which separates it from pressure, coercion and manipulation.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:interpersonal-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:credibility"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:elaboration-likelihood-model"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:narrative-persuasion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:influence-without-authority"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:stakeholder-mapping"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:issue-selling"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:audience-analysis"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:aristotles-rhetoric"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:carl-hovland"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:rhetorical-appeals"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:audience-analysis"
+   },
+   {
+    "predicate": "cmo:studiedIn",
+    "object": "cm:social-psychology",
+    "source": "s6",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:elaboration-likelihood-model",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:yukl-tracey-1992",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:lee-et-al-2017",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:okeefe-hoeken-2021",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:contrastsWith",
+    "object": "cm:manipulation",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:cross-functional-collaboration",
+    "source": "s2",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Can I say, in the other person's terms, what they gain if they agree with me?",
+   "Have I earned credibility on this topic with this audience, or am I assuming it?",
+   "Am I giving reasons and evidence, or leaning on pressure, rank or urgency I have not justified?",
+   "What would change my own mind, and am I willing to adjust the proposal if I hear it?",
+   "Would I be comfortable if they saw exactly how I prepared this pitch?"
+  ],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://collegepublishing.sagepub.com/products/persuasion-3-234184",
+   "https://depts.washington.edu/edgh/namibia-lio/files/necessary_art_of_persuasion.pdf",
+   "https://ecommons.cornell.edu/bitstream/handle/1813/71422/Tracey42_Consequences_of_influence.pdf?sequence=1",
+   "https://instituteofcoaching.org/node/36203",
+   "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2021.664160/pdf",
+   "https://www.britannica.com/print/article/273363"
+  ]
+ },
+ {
   "id": "cm:plain-language",
   "title": "Plain language",
   "aliases": [

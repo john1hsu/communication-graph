@@ -7832,6 +7832,110 @@
    ]
   },
   {
+   "@id": "cm:persuasion",
+   "@type": "cmo:Skill",
+   "cmo:appliedIn": {
+    "@id": "cm:cross-functional-collaboration"
+   },
+   "cmo:contrastsWith": {
+    "@id": "cm:manipulation"
+   },
+   "cmo:domain": "persuasion-and-influence",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:explainedBy": {
+    "@id": "cm:elaboration-likelihood-model"
+   },
+   "cmo:file": "articles/persuasion-and-influence/persuasion.md",
+   "cmo:level": "introductory",
+   "cmo:requires": {
+    "@id": "cm:audience-analysis"
+   },
+   "cmo:studiedIn": {
+    "@id": "cm:social-psychology"
+   },
+   "cmo:supportedBy": [
+    {
+     "@id": "cm:lee-et-al-2017"
+    },
+    {
+     "@id": "cm:okeefe-hoeken-2021"
+    },
+    {
+     "@id": "cm:yukl-tracey-1992"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/persuasion/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/persuasion/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/persuasion/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/persuasion/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/persuasion/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/persuasion/s6"
+    }
+   ],
+   "rdfs:label": "Persuasion",
+   "skos:altLabel": [
+    "persuading colleagues",
+    "persuasive communication",
+    "the art of persuasion"
+   ],
+   "skos:broader": {
+    "@id": "cm:interpersonal-communication"
+   },
+   "skos:definition": "The learnable skill of changing what another person believes, feels or does through communication - credible reasons, framing and evidence - while leaving them free to say no, which separates it from pressure, coercion and manipulation.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/persuasion-and-influence"
+   },
+   "skos:prefLabel": "Persuasion",
+   "skos:related": [
+    {
+     "@id": "cm:aristotles-rhetoric"
+    },
+    {
+     "@id": "cm:audience-analysis"
+    },
+    {
+     "@id": "cm:carl-hovland"
+    },
+    {
+     "@id": "cm:credibility"
+    },
+    {
+     "@id": "cm:elaboration-likelihood-model"
+    },
+    {
+     "@id": "cm:influence-without-authority"
+    },
+    {
+     "@id": "cm:issue-selling"
+    },
+    {
+     "@id": "cm:narrative-persuasion"
+    },
+    {
+     "@id": "cm:rhetorical-appeals"
+    },
+    {
+     "@id": "cm:stakeholder-mapping"
+    }
+   ]
+  },
+  {
    "@id": "cm:plain-language",
    "@type": "cmo:Principle",
    "cmo:addresses": [
@@ -15224,6 +15328,46 @@
     "@id": "cm:perspective-taking"
    },
    "rdfs:label": "Has imagining their side made me more suspicious or more competitive than the facts warrant?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/persuasion/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:persuasion"
+   },
+   "rdfs:label": "Can I say, in the other person's terms, what they gain if they agree with me?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/persuasion/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:persuasion"
+   },
+   "rdfs:label": "Have I earned credibility on this topic with this audience, or am I assuming it?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/persuasion/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:persuasion"
+   },
+   "rdfs:label": "Am I giving reasons and evidence, or leaning on pressure, rank or urgency I have not justified?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/persuasion/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:persuasion"
+   },
+   "rdfs:label": "What would change my own mind, and am I willing to adjust the proposal if I hear it?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/persuasion/check/5",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:persuasion"
+   },
+   "rdfs:label": "Would I be comfortable if they saw exactly how I prepared this pitch?"
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/plain-language/check/1",
@@ -23498,6 +23642,90 @@
    "dcterms:title": "Observer reactions to workplace mistreatment: It's a matter of perspective",
    "schema:url": {
     "@id": "https://eprints.whiterose.ac.uk/173470/6/Reich_et_al_Perspective_Taking_JOHP.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/persuasion/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Daniel J. O'Keefe (Northwestern University), SAGE Publications, 2015 (publisher page)",
+   "dcterms:title": "Persuasion: Theory and Research, Third Edition",
+   "schema:url": {
+    "@id": "https://collegepublishing.sagepub.com/products/persuasion-3-234184"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/persuasion/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "practitioner-journal",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Jay A. Conger, Harvard Business Review 76(3), May-June 1998, 87-95 (University of Washington hosted copy)",
+   "dcterms:title": "The Necessary Art of Persuasion",
+   "schema:url": {
+    "@id": "https://depts.washington.edu/edgh/namibia-lio/files/necessary_art_of_persuasion.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/persuasion/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Gary Yukl & J. Bruce Tracey, Journal of Applied Psychology 77(4), 525-535, 1992 (Cornell eCommons author copy)",
+   "dcterms:title": "Consequences of influence tactics used with subordinates, peers, and the boss",
+   "schema:url": {
+    "@id": "https://ecommons.cornell.edu/bitstream/handle/1813/71422/Tracey42_Consequences_of_influence.pdf?sequence=1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/persuasion/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Lee, Han, Cheong, Kim & Yun, The Leadership Quarterly 28(1), 210-228, 2017 (Institute of Coaching abstract page)",
+   "dcterms:title": "How do I get my way? A meta-analytic review of research on influence tactics",
+   "schema:url": {
+    "@id": "https://instituteofcoaching.org/node/36203"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/persuasion/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Daniel J. O'Keefe & Hans Hoeken, Frontiers in Psychology 12, 664160, 2021",
+   "dcterms:title": "Message Design Choices Don't Make Much Difference to Persuasiveness and Can't Be Counted On - Not Even When Moderating Conditions Are Specified",
+   "schema:url": {
+    "@id": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2021.664160/pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/persuasion/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Encyclopaedia Britannica",
+   "dcterms:title": "Carl I. Hovland",
+   "schema:url": {
+    "@id": "https://www.britannica.com/print/article/273363"
    }
   },
   {
