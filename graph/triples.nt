@@ -1859,6 +1859,36 @@
 <https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
 <https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> <https://github.com/john1hsu/communication-graph/ontology#studiedIn> <https://github.com/john1hsu/communication-graph/id/social-psychology> .
+<https://github.com/john1hsu/communication-graph/id/email-urgency-bias-study> <http://purl.org/dc/terms/created> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/email-urgency-bias-study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
+<https://github.com/john1hsu/communication-graph/id/email-urgency-bias-study> <http://www.w3.org/2000/01/rdf-schema#label> "You don't need to answer right away! (Giurge & Bohns, 2021)" .
+<https://github.com/john1hsu/communication-graph/id/email-urgency-bias-study> <http://www.w3.org/2004/02/skos/core#altLabel> "Giurge & Bohns 2021" .
+<https://github.com/john1hsu/communication-graph/id/email-urgency-bias-study> <http://www.w3.org/2004/02/skos/core#altLabel> "Giurge and Bohns email study" .
+<https://github.com/john1hsu/communication-graph/id/email-urgency-bias-study> <http://www.w3.org/2004/02/skos/core#altLabel> "email urgency bias experiments" .
+<https://github.com/john1hsu/communication-graph/id/email-urgency-bias-study> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/email-urgency-bias> .
+<https://github.com/john1hsu/communication-graph/id/email-urgency-bias-study> <http://www.w3.org/2004/02/skos/core#definition> "Laura Giurge and Vanessa Bohns's 2021 Organizational Behavior and Human Decision Processes paper, whose eight preregistered experiments (N = 4,004) found that receivers of non-urgent work emails, especially off-hours ones, think senders want replies sooner than senders do, and that a one-line sender note closed the gap." .
+<https://github.com/john1hsu/communication-graph/id/email-urgency-bias-study> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works> .
+<https://github.com/john1hsu/communication-graph/id/email-urgency-bias-study> <http://www.w3.org/2004/02/skos/core#prefLabel> "You don't need to answer right away! (Giurge & Bohns, 2021)" .
+<https://github.com/john1hsu/communication-graph/id/email-urgency-bias-study> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> .
+<https://github.com/john1hsu/communication-graph/id/email-urgency-bias-study> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> .
+<https://github.com/john1hsu/communication-graph/id/email-urgency-bias-study> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/perspective-getting> .
+<https://github.com/john1hsu/communication-graph/id/email-urgency-bias-study> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations> .
+<https://github.com/john1hsu/communication-graph/id/email-urgency-bias-study> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/workplace-stress> .
+<https://github.com/john1hsu/communication-graph/id/email-urgency-bias-study> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/email-urgency-bias-study/s1> .
+<https://github.com/john1hsu/communication-graph/id/email-urgency-bias-study> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/email-urgency-bias-study/s2> .
+<https://github.com/john1hsu/communication-graph/id/email-urgency-bias-study> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/email-urgency-bias-study/s3> .
+<https://github.com/john1hsu/communication-graph/id/email-urgency-bias-study> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/email-urgency-bias-study/s4> .
+<https://github.com/john1hsu/communication-graph/id/email-urgency-bias-study> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/email-urgency-bias-study/s5> .
+<https://github.com/john1hsu/communication-graph/id/email-urgency-bias-study> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/email> .
+<https://github.com/john1hsu/communication-graph/id/email-urgency-bias-study> <https://github.com/john1hsu/communication-graph/ontology#domain> "thinkers-and-works" .
+<https://github.com/john1hsu/communication-graph/id/email-urgency-bias-study> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/email-urgency-bias-study> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/boundary-theory> .
+<https://github.com/john1hsu/communication-graph/id/email-urgency-bias-study> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/egocentric-bias> .
+<https://github.com/john1hsu/communication-graph/id/email-urgency-bias-study> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/thinkers-and-works/email-urgency-bias-study.md" .
+<https://github.com/john1hsu/communication-graph/id/email-urgency-bias-study> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/laura-giurge> .
+<https://github.com/john1hsu/communication-graph/id/email-urgency-bias-study> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/vanessa-bohns> .
+<https://github.com/john1hsu/communication-graph/id/email-urgency-bias-study> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/communication-graph/id/email-urgency-bias-study> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/becker-et-al-2019> .
 <https://github.com/john1hsu/communication-graph/id/email> <http://purl.org/dc/terms/created> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/email> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Channel> .
 <https://github.com/john1hsu/communication-graph/id/email> <http://www.w3.org/2000/01/rdf-schema#label> "Email" .
@@ -6976,6 +7006,36 @@
 <https://github.com/john1hsu/communication-graph/id/source/elaboration-likelihood-model/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/elaboration-likelihood-model/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
 <https://github.com/john1hsu/communication-graph/id/source/elaboration-likelihood-model/s5> <https://schema.org/url> <https://u.osu.edu/petty> .
+<https://github.com/john1hsu/communication-graph/id/source/email-urgency-bias-study/s1> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/email-urgency-bias-study/s1> <http://purl.org/dc/terms/publisher> "Giurge, L. M. & Bohns, V. K., Organizational Behavior and Human Decision Processes 167, 114-128 (2021), doi:10.1016/j.obhdp.2021.08.002 (Cornell eCommons record)" .
+<https://github.com/john1hsu/communication-graph/id/source/email-urgency-bias-study/s1> <http://purl.org/dc/terms/title> "You don't need to answer right away! Receivers overestimate how quickly senders expect responses to non-urgent work emails" .
+<https://github.com/john1hsu/communication-graph/id/source/email-urgency-bias-study/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/email-urgency-bias-study/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/email-urgency-bias-study/s1> <https://schema.org/url> <https://ecommons.cornell.edu/entities/publication/0ace228b-a1d7-42c4-9b4d-ac6b60655062> .
+<https://github.com/john1hsu/communication-graph/id/source/email-urgency-bias-study/s2> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/email-urgency-bias-study/s2> <http://purl.org/dc/terms/publisher> "Giurge, L. M. & Bohns, V. K., London Business School Research Online" .
+<https://github.com/john1hsu/communication-graph/id/source/email-urgency-bias-study/s2> <http://purl.org/dc/terms/title> "You don't need to answer right away! (accepted manuscript)" .
+<https://github.com/john1hsu/communication-graph/id/source/email-urgency-bias-study/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/email-urgency-bias-study/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/email-urgency-bias-study/s2> <https://schema.org/url> <https://lbsresearch.london.edu/id/eprint/1928/1/The%20email%20response%20bias.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/email-urgency-bias-study/s3> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/email-urgency-bias-study/s3> <http://purl.org/dc/terms/publisher> "Cornell Chronicle, ILR School, Cornell University (27 September 2021)" .
+<https://github.com/john1hsu/communication-graph/id/source/email-urgency-bias-study/s3> <http://purl.org/dc/terms/title> "Set expectations to reduce email stress" .
+<https://github.com/john1hsu/communication-graph/id/source/email-urgency-bias-study/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/email-urgency-bias-study/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/email-urgency-bias-study/s3> <https://schema.org/url> <https://news.cornell.edu/node/322477> .
+<https://github.com/john1hsu/communication-graph/id/source/email-urgency-bias-study/s4> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/email-urgency-bias-study/s4> <http://purl.org/dc/terms/publisher> "Becker, W. J., Belkin, L. Y., Conroy, S. A. & Tuskey, S., Journal of Management (2019), doi:10.1177/0149206319890655 (Virginia Tech VTechWorks record)" .
+<https://github.com/john1hsu/communication-graph/id/source/email-urgency-bias-study/s4> <http://purl.org/dc/terms/title> "Killing me softly: Organizational e-mail monitoring expectations' impact on employee and significant other well-being" .
+<https://github.com/john1hsu/communication-graph/id/source/email-urgency-bias-study/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/email-urgency-bias-study/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/email-urgency-bias-study/s4> <https://schema.org/url> <https://vtechworks.lib.vt.edu/items/4cd5ca58-e780-4d07-90a0-d7cd365a5c6a/full> .
+<https://github.com/john1hsu/communication-graph/id/source/email-urgency-bias-study/s5> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/email-urgency-bias-study/s5> <http://purl.org/dc/terms/publisher> "London School of Economics and Political Science, Research for the World (24 May 2023)" .
+<https://github.com/john1hsu/communication-graph/id/source/email-urgency-bias-study/s5> <http://purl.org/dc/terms/title> "Thriving in a digital workplace" .
+<https://github.com/john1hsu/communication-graph/id/source/email-urgency-bias-study/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/email-urgency-bias-study/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/email-urgency-bias-study/s5> <https://schema.org/url> <https://www.lse.ac.uk/asset-library/rftw/thriving-in-a-digital-workplace.pdf> .
 <https://github.com/john1hsu/communication-graph/id/source/email/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/email/s1> <http://purl.org/dc/terms/publisher> "Kushlev, K. & Dunn, E. W., Computers in Human Behavior 43, 220-228, 2015 (author copy hosted by interruptions.net)" .
 <https://github.com/john1hsu/communication-graph/id/source/email/s1> <http://purl.org/dc/terms/title> "Checking email less frequently reduces stress" .

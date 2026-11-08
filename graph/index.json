@@ -3628,6 +3628,94 @@
   ]
  },
  {
+  "id": "cm:email-urgency-bias-study",
+  "title": "You don't need to answer right away! (Giurge & Bohns, 2021)",
+  "aliases": [
+   "Giurge & Bohns 2021",
+   "Giurge and Bohns email study",
+   "email urgency bias experiments"
+  ],
+  "type": "Study",
+  "domain": "thinkers-and-works",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/thinkers-and-works/email-urgency-bias-study.md",
+  "created": "2026-11-08",
+  "summary": "Laura Giurge and Vanessa Bohns's 2021 Organizational Behavior and Human Decision Processes paper, whose eight preregistered experiments (N = 4,004) found that receivers of non-urgent work emails, especially off-hours ones, think senders want replies sooner than senders do, and that a one-line sender note closed the gap.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:email-urgency-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:setting-reply-time-expectations"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:asynchronous-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:workplace-stress"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:perspective-getting"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:illusion-of-transparency"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:laura-giurge",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:vanessa-bohns",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:email",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:egocentric-bias",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:boundary-theory",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:becker-et-al-2019",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://ecommons.cornell.edu/entities/publication/0ace228b-a1d7-42c4-9b4d-ac6b60655062",
+   "https://lbsresearch.london.edu/id/eprint/1928/1/The%20email%20response%20bias.pdf",
+   "https://news.cornell.edu/node/322477",
+   "https://vtechworks.lib.vt.edu/items/4cd5ca58-e780-4d07-90a0-d7cd365a5c6a/full",
+   "https://www.lse.ac.uk/asset-library/rftw/thriving-in-a-digital-workplace.pdf"
+  ]
+ },
+ {
   "id": "cm:ethnocentrism",
   "title": "Ethnocentrism",
   "aliases": [

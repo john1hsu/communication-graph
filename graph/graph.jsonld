@@ -3193,6 +3193,88 @@
    ]
   },
   {
+   "@id": "cm:email-urgency-bias-study",
+   "@type": "cmo:Study",
+   "cmo:appliedIn": {
+    "@id": "cm:email"
+   },
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:explainedBy": [
+    {
+     "@id": "cm:boundary-theory"
+    },
+    {
+     "@id": "cm:egocentric-bias"
+    }
+   ],
+   "cmo:file": "articles/thinkers-and-works/email-urgency-bias-study.md",
+   "cmo:introducedBy": [
+    {
+     "@id": "cm:laura-giurge"
+    },
+    {
+     "@id": "cm:vanessa-bohns"
+    }
+   ],
+   "cmo:level": "intermediate",
+   "cmo:supportedBy": {
+    "@id": "cm:becker-et-al-2019"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/email-urgency-bias-study/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/email-urgency-bias-study/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/email-urgency-bias-study/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/email-urgency-bias-study/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/email-urgency-bias-study/s5"
+    }
+   ],
+   "rdfs:label": "You don't need to answer right away! (Giurge & Bohns, 2021)",
+   "skos:altLabel": [
+    "Giurge & Bohns 2021",
+    "Giurge and Bohns email study",
+    "email urgency bias experiments"
+   ],
+   "skos:broader": {
+    "@id": "cm:email-urgency-bias"
+   },
+   "skos:definition": "Laura Giurge and Vanessa Bohns's 2021 Organizational Behavior and Human Decision Processes paper, whose eight preregistered experiments (N = 4,004) found that receivers of non-urgent work emails, especially off-hours ones, think senders want replies sooner than senders do, and that a one-line sender note closed the gap.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "You don't need to answer right away! (Giurge & Bohns, 2021)",
+   "skos:related": [
+    {
+     "@id": "cm:asynchronous-communication"
+    },
+    {
+     "@id": "cm:illusion-of-transparency"
+    },
+    {
+     "@id": "cm:perspective-getting"
+    },
+    {
+     "@id": "cm:setting-reply-time-expectations"
+    },
+    {
+     "@id": "cm:workplace-stress"
+    }
+   ]
+  },
+  {
    "@id": "cm:ethnocentrism",
    "@type": "cmo:Barrier",
    "cmo:demonstratedBy": {
@@ -19112,6 +19194,76 @@
    "dcterms:title": "Richard E. Petty, Department of Psychology",
    "schema:url": {
     "@id": "https://u.osu.edu/petty"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/email-urgency-bias-study/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Giurge, L. M. & Bohns, V. K., Organizational Behavior and Human Decision Processes 167, 114-128 (2021), doi:10.1016/j.obhdp.2021.08.002 (Cornell eCommons record)",
+   "dcterms:title": "You don't need to answer right away! Receivers overestimate how quickly senders expect responses to non-urgent work emails",
+   "schema:url": {
+    "@id": "https://ecommons.cornell.edu/entities/publication/0ace228b-a1d7-42c4-9b4d-ac6b60655062"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/email-urgency-bias-study/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Giurge, L. M. & Bohns, V. K., London Business School Research Online",
+   "dcterms:title": "You don't need to answer right away! (accepted manuscript)",
+   "schema:url": {
+    "@id": "https://lbsresearch.london.edu/id/eprint/1928/1/The%20email%20response%20bias.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/email-urgency-bias-study/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Cornell Chronicle, ILR School, Cornell University (27 September 2021)",
+   "dcterms:title": "Set expectations to reduce email stress",
+   "schema:url": {
+    "@id": "https://news.cornell.edu/node/322477"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/email-urgency-bias-study/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Becker, W. J., Belkin, L. Y., Conroy, S. A. & Tuskey, S., Journal of Management (2019), doi:10.1177/0149206319890655 (Virginia Tech VTechWorks record)",
+   "dcterms:title": "Killing me softly: Organizational e-mail monitoring expectations' impact on employee and significant other well-being",
+   "schema:url": {
+    "@id": "https://vtechworks.lib.vt.edu/items/4cd5ca58-e780-4d07-90a0-d7cd365a5c6a/full"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/email-urgency-bias-study/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "London School of Economics and Political Science, Research for the World (24 May 2023)",
+   "dcterms:title": "Thriving in a digital workplace",
+   "schema:url": {
+    "@id": "https://www.lse.ac.uk/asset-library/rftw/thriving-in-a-digital-workplace.pdf"
    }
   },
   {

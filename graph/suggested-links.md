@@ -19,13 +19,13 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 2.09 | `cm:i-statements` | `cm:weger-et-al-2014` | `cm:active-listening`, `cm:paraphrasing`, `cm:thomas-gordon` |
 | 2.08 | `cm:paraphrasing` | `cm:psychological-safety` | `cm:active-listening`, `cm:difficult-conversation`, `cm:facilitation`, `cm:interrupting`, `cm:open-ended-questions` |
 | 2.07 | `cm:humble-inquiry` | `cm:weger-et-al-2014` | `cm:active-listening`, `cm:advice-giving`, `cm:open-ended-questions` |
-| 2.06 | `cm:egocentric-bias` | `cm:teach-back` | `cm:checking-understanding`, `cm:clarity`, `cm:common-ground`, `cm:curse-of-knowledge`, `cm:illusion-of-transparency` |
 | 2.06 | `cm:face-to-face-conversation` | `cm:zoom-fatigue` | `cm:asynchronous-communication`, `cm:channel-selection`, `cm:media-richness-theory`, `cm:nonverbal-communication`, `cm:proxemics` |
+| 2.05 | `cm:egocentric-bias` | `cm:teach-back` | `cm:checking-understanding`, `cm:clarity`, `cm:common-ground`, `cm:curse-of-knowledge`, `cm:illusion-of-transparency` |
 | 2.03 | `cm:facilitation` | `cm:open-ended-questions` | `cm:active-listening`, `cm:meeting-agendas`, `cm:nominal-group-technique`, `cm:paraphrasing`, `cm:psychological-safety` |
 | 2.02 | `cm:nominal-group-technique` | `cm:raci-matrix` | `cm:group-decision-making`, `cm:meeting-agendas`, `cm:stakeholder-mapping`, `cm:workplace-meetings` |
 | 2.01 | `cm:audience-analysis` | `cm:cognitive-load` | `cm:bottom-line-up-front`, `cm:curse-of-knowledge`, `cm:elaboration-likelihood-model`, `cm:plain-language`, `cm:presentation` |
 | 1.98 | `cm:eye-contact` | `cm:video-call-communication` | `cm:camera-level-gaze`, `cm:chen-2002`, `cm:face-to-face-conversation`, `cm:nonverbal-communication`, `cm:proxemics` |
 | 1.98 | `cm:audience-analysis` | `cm:information-overload` | `cm:bottom-line-up-front`, `cm:channel-selection`, `cm:concise-writing`, `cm:email`, `cm:executive-briefing` |
+| 1.98 | `cm:email-urgency-bias-study` | `cm:information-overload` | `cm:asynchronous-communication`, `cm:email`, `cm:setting-reply-time-expectations`, `cm:workplace-stress` |
 | 1.96 | `cm:common-ground` | `cm:email` | `cm:asynchronous-communication`, `cm:audience-analysis`, `cm:channel-selection`, `cm:curse-of-knowledge`, `cm:illusion-of-transparency` |
-| 1.95 | `cm:clarity` | `cm:email` | `cm:audience-analysis`, `cm:bottom-line-up-front`, `cm:concise-writing`, `cm:curse-of-knowledge`, `cm:illusion-of-transparency` |
-| 1.90 | `cm:active-voice` | `cm:readability-formulas` | `cm:clarity`, `cm:concise-writing`, `cm:effective-writing-for-army-leaders`, `cm:paramedic-method`, `cm:plain-language` |
+| 1.94 | `cm:clarity` | `cm:email` | `cm:audience-analysis`, `cm:bottom-line-up-front`, `cm:concise-writing`, `cm:curse-of-knowledge`, `cm:illusion-of-transparency` |
