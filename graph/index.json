@@ -10234,6 +10234,112 @@
   ]
  },
  {
+  "id": "cm:paralanguage",
+  "title": "Paralanguage",
+  "aliases": [
+   "vocalics",
+   "paralinguistic cues",
+   "vocal cues",
+   "tone of voice"
+  ],
+  "type": "Concept",
+  "domain": "nonverbal-and-voice",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/nonverbal-and-voice/paralanguage.md",
+  "created": "2026-11-09",
+  "summary": "The meaning carried by how something is said rather than which words are used: pitch, volume, rate, pauses, emphasis and voice quality. At work it shapes how competent, confident and sincere a speaker seems, though the effects in controlled studies are usually modest and depend on context.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:nonverbal-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:vocal-delivery"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:filled-pauses"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:mehrabian-myth"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:mixed-messages"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:credibility"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:active-listening"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:facial-expressions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:video-call-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:channel-selection"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:george-l-trager",
+    "source": "s6",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:schroeder-epley-2015",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:van-zant-berger-2019",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:kraus-2017",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:job-interview",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:phone-call",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://una.pressbooks.pub/nonverbal-communication/?p=104",
+   "https://faculty.wharton.upenn.edu/wp-content/uploads/2019/01/Voice-Persuades.pdf",
+   "https://www.chicagobooth.edu/review/when-job-hunting-pick-up-the-phone",
+   "https://www.apa.org/news/press/releases/2017/10/emotions-listen",
+   "https://researchoutput.csu.edu.au/en/publications/voice-only-does-not-meaningfully-improve-detection-of-emotions-co/",
+   "https://davidcrystal.com/Files/BooksAndArticles/-4904.pdf"
+  ]
+ },
+ {
   "id": "cm:paramedic-method",
   "title": "Paramedic method for revising prose",
   "aliases": [

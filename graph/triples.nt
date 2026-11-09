@@ -5190,6 +5190,42 @@
 <https://github.com/john1hsu/communication-graph/id/organizational-communication> <https://github.com/john1hsu/communication-graph/ontology#introducedIn> <https://github.com/john1hsu/communication-graph/id/business-and-industrial-communication-a-source-book> .
 <https://github.com/john1hsu/communication-graph/id/organizational-communication> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/organizational-communication> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/mayfield-mayfield-2010> .
+<https://github.com/john1hsu/communication-graph/id/paralanguage> <http://purl.org/dc/terms/created> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/paralanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+<https://github.com/john1hsu/communication-graph/id/paralanguage> <http://www.w3.org/2000/01/rdf-schema#label> "Paralanguage" .
+<https://github.com/john1hsu/communication-graph/id/paralanguage> <http://www.w3.org/2004/02/skos/core#altLabel> "paralinguistic cues" .
+<https://github.com/john1hsu/communication-graph/id/paralanguage> <http://www.w3.org/2004/02/skos/core#altLabel> "tone of voice" .
+<https://github.com/john1hsu/communication-graph/id/paralanguage> <http://www.w3.org/2004/02/skos/core#altLabel> "vocal cues" .
+<https://github.com/john1hsu/communication-graph/id/paralanguage> <http://www.w3.org/2004/02/skos/core#altLabel> "vocalics" .
+<https://github.com/john1hsu/communication-graph/id/paralanguage> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> .
+<https://github.com/john1hsu/communication-graph/id/paralanguage> <http://www.w3.org/2004/02/skos/core#definition> "The meaning carried by how something is said rather than which words are used: pitch, volume, rate, pauses, emphasis and voice quality. At work it shapes how competent, confident and sincere a speaker seems, though the effects in controlled studies are usually modest and depend on context." .
+<https://github.com/john1hsu/communication-graph/id/paralanguage> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/nonverbal-and-voice> .
+<https://github.com/john1hsu/communication-graph/id/paralanguage> <http://www.w3.org/2004/02/skos/core#prefLabel> "Paralanguage" .
+<https://github.com/john1hsu/communication-graph/id/paralanguage> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+<https://github.com/john1hsu/communication-graph/id/paralanguage> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/channel-selection> .
+<https://github.com/john1hsu/communication-graph/id/paralanguage> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/credibility> .
+<https://github.com/john1hsu/communication-graph/id/paralanguage> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/facial-expressions> .
+<https://github.com/john1hsu/communication-graph/id/paralanguage> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/filled-pauses> .
+<https://github.com/john1hsu/communication-graph/id/paralanguage> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> .
+<https://github.com/john1hsu/communication-graph/id/paralanguage> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mixed-messages> .
+<https://github.com/john1hsu/communication-graph/id/paralanguage> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/video-call-communication> .
+<https://github.com/john1hsu/communication-graph/id/paralanguage> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/vocal-delivery> .
+<https://github.com/john1hsu/communication-graph/id/paralanguage> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/paralanguage/s1> .
+<https://github.com/john1hsu/communication-graph/id/paralanguage> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/paralanguage/s2> .
+<https://github.com/john1hsu/communication-graph/id/paralanguage> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/paralanguage/s3> .
+<https://github.com/john1hsu/communication-graph/id/paralanguage> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/paralanguage/s4> .
+<https://github.com/john1hsu/communication-graph/id/paralanguage> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/paralanguage/s5> .
+<https://github.com/john1hsu/communication-graph/id/paralanguage> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/paralanguage/s6> .
+<https://github.com/john1hsu/communication-graph/id/paralanguage> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/job-interview> .
+<https://github.com/john1hsu/communication-graph/id/paralanguage> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/phone-call> .
+<https://github.com/john1hsu/communication-graph/id/paralanguage> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/kraus-2017> .
+<https://github.com/john1hsu/communication-graph/id/paralanguage> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/schroeder-epley-2015> .
+<https://github.com/john1hsu/communication-graph/id/paralanguage> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/van-zant-berger-2019> .
+<https://github.com/john1hsu/communication-graph/id/paralanguage> <https://github.com/john1hsu/communication-graph/ontology#domain> "nonverbal-and-voice" .
+<https://github.com/john1hsu/communication-graph/id/paralanguage> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/paralanguage> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/nonverbal-and-voice/paralanguage.md" .
+<https://github.com/john1hsu/communication-graph/id/paralanguage> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/george-l-trager> .
+<https://github.com/john1hsu/communication-graph/id/paralanguage> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/paramedic-method/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/paramedic-method/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "In each key sentence, can I point to who does what, as a subject followed by a verb?" .
 <https://github.com/john1hsu/communication-graph/id/paramedic-method/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/paramedic-method> .
@@ -10662,6 +10698,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/organizational-communication/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/organizational-communication/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
 <https://github.com/john1hsu/communication-graph/id/source/organizational-communication/s5> <https://schema.org/url> <https://instituteforpr.org/motivating-language-exploring-theory-with-scale-development> .
+<https://github.com/john1hsu/communication-graph/id/source/paralanguage/s1> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/paralanguage/s1> <http://purl.org/dc/terms/publisher> "Stephanie Montgomery, open textbook on University of North Alabama Pressbooks" .
+<https://github.com/john1hsu/communication-graph/id/source/paralanguage/s1> <http://purl.org/dc/terms/title> "Vocalics (More Than What You Say: Nonverbal Communication in the 21st Century)" .
+<https://github.com/john1hsu/communication-graph/id/source/paralanguage/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/paralanguage/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/communication-graph/id/source/paralanguage/s1> <https://schema.org/url> <https://una.pressbooks.pub/nonverbal-communication/?p=104> .
+<https://github.com/john1hsu/communication-graph/id/source/paralanguage/s2> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/paralanguage/s2> <http://purl.org/dc/terms/publisher> "Alex B. Van Zant & Jonah Berger, Journal of Personality and Social Psychology, 2019, doi:10.1037/pspi0000193 (Wharton faculty copy)" .
+<https://github.com/john1hsu/communication-graph/id/source/paralanguage/s2> <http://purl.org/dc/terms/title> "How the Voice Persuades" .
+<https://github.com/john1hsu/communication-graph/id/source/paralanguage/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/paralanguage/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/paralanguage/s2> <https://schema.org/url> <https://faculty.wharton.upenn.edu/wp-content/uploads/2019/01/Voice-Persuades.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/paralanguage/s3> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/paralanguage/s3> <http://purl.org/dc/terms/publisher> "Chicago Booth Review (University of Chicago Booth School of Business), 2015, on Schroeder & Epley, Psychological Science" .
+<https://github.com/john1hsu/communication-graph/id/source/paralanguage/s3> <http://purl.org/dc/terms/title> "When Job Hunting, Pick Up the Phone" .
+<https://github.com/john1hsu/communication-graph/id/source/paralanguage/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/paralanguage/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/paralanguage/s3> <https://schema.org/url> <https://www.chicagobooth.edu/review/when-job-hunting-pick-up-the-phone> .
+<https://github.com/john1hsu/communication-graph/id/source/paralanguage/s4> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/paralanguage/s4> <http://purl.org/dc/terms/publisher> "American Psychological Association, 2017" .
+<https://github.com/john1hsu/communication-graph/id/source/paralanguage/s4> <http://purl.org/dc/terms/title> "Want to Know How Someone Is Feeling? Listen More Closely (press release on Kraus, American Psychologist, 2017)" .
+<https://github.com/john1hsu/communication-graph/id/source/paralanguage/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/paralanguage/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/communication-graph/id/source/paralanguage/s4> <https://schema.org/url> <https://www.apa.org/news/press/releases/2017/10/emotions-listen> .
+<https://github.com/john1hsu/communication-graph/id/source/paralanguage/s5> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/paralanguage/s5> <http://purl.org/dc/terms/publisher> "John R. Rossiter, American Psychologist 73(5), 2018, pp. 689-690, doi:10.1037/amp0000314 (Charles Sturt University research output)" .
+<https://github.com/john1hsu/communication-graph/id/source/paralanguage/s5> <http://purl.org/dc/terms/title> "Voice-only does not meaningfully improve detection of emotions: Comment on Kraus (2017)" .
+<https://github.com/john1hsu/communication-graph/id/source/paralanguage/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/paralanguage/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/paralanguage/s5> <https://schema.org/url> <https://researchoutput.csu.edu.au/en/publications/voice-only-does-not-meaningfully-improve-detection-of-emotions-co/> .
+<https://github.com/john1hsu/communication-graph/id/source/paralanguage/s6> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/paralanguage/s6> <http://purl.org/dc/terms/publisher> "David Crystal (author's copy)" .
+<https://github.com/john1hsu/communication-graph/id/source/paralanguage/s6> <http://purl.org/dc/terms/title> "Paralinguistic Behavior and Communication" .
+<https://github.com/john1hsu/communication-graph/id/source/paralanguage/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/paralanguage/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/paralanguage/s6> <https://schema.org/url> <https://davidcrystal.com/Files/BooksAndArticles/-4904.pdf> .
 <https://github.com/john1hsu/communication-graph/id/source/paramedic-method/s1> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/paramedic-method/s1> <http://purl.org/dc/terms/publisher> "Purdue Online Writing Lab (Purdue University), adapted from Richard Johnson-Sheehan" .
 <https://github.com/john1hsu/communication-graph/id/source/paramedic-method/s1> <http://purl.org/dc/terms/title> "Paramedic Method: A Lesson in Writing Concisely" .

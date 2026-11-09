@@ -9039,6 +9039,104 @@
    ]
   },
   {
+   "@id": "cm:paralanguage",
+   "@type": "cmo:Concept",
+   "cmo:appliedIn": [
+    {
+     "@id": "cm:job-interview"
+    },
+    {
+     "@id": "cm:phone-call"
+    }
+   ],
+   "cmo:demonstratedBy": [
+    {
+     "@id": "cm:kraus-2017"
+    },
+    {
+     "@id": "cm:schroeder-epley-2015"
+    },
+    {
+     "@id": "cm:van-zant-berger-2019"
+    }
+   ],
+   "cmo:domain": "nonverbal-and-voice",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:file": "articles/nonverbal-and-voice/paralanguage.md",
+   "cmo:introducedBy": {
+    "@id": "cm:george-l-trager"
+   },
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/paralanguage/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/paralanguage/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/paralanguage/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/paralanguage/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/paralanguage/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/paralanguage/s6"
+    }
+   ],
+   "rdfs:label": "Paralanguage",
+   "skos:altLabel": [
+    "paralinguistic cues",
+    "tone of voice",
+    "vocal cues",
+    "vocalics"
+   ],
+   "skos:broader": {
+    "@id": "cm:nonverbal-communication"
+   },
+   "skos:definition": "The meaning carried by how something is said rather than which words are used: pitch, volume, rate, pauses, emphasis and voice quality. At work it shapes how competent, confident and sincere a speaker seems, though the effects in controlled studies are usually modest and depend on context.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/nonverbal-and-voice"
+   },
+   "skos:prefLabel": "Paralanguage",
+   "skos:related": [
+    {
+     "@id": "cm:active-listening"
+    },
+    {
+     "@id": "cm:channel-selection"
+    },
+    {
+     "@id": "cm:credibility"
+    },
+    {
+     "@id": "cm:facial-expressions"
+    },
+    {
+     "@id": "cm:filled-pauses"
+    },
+    {
+     "@id": "cm:mehrabian-myth"
+    },
+    {
+     "@id": "cm:mixed-messages"
+    },
+    {
+     "@id": "cm:video-call-communication"
+    },
+    {
+     "@id": "cm:vocal-delivery"
+    }
+   ]
+  },
+  {
    "@id": "cm:paramedic-method",
    "@type": "cmo:Technique",
    "cmo:addresses": [
@@ -28187,6 +28285,90 @@
    "dcterms:title": "Motivating Language: Exploring Theory with Scale Development",
    "schema:url": {
     "@id": "https://instituteforpr.org/motivating-language-exploring-theory-with-scale-development"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/paralanguage/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Stephanie Montgomery, open textbook on University of North Alabama Pressbooks",
+   "dcterms:title": "Vocalics (More Than What You Say: Nonverbal Communication in the 21st Century)",
+   "schema:url": {
+    "@id": "https://una.pressbooks.pub/nonverbal-communication/?p=104"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/paralanguage/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Alex B. Van Zant & Jonah Berger, Journal of Personality and Social Psychology, 2019, doi:10.1037/pspi0000193 (Wharton faculty copy)",
+   "dcterms:title": "How the Voice Persuades",
+   "schema:url": {
+    "@id": "https://faculty.wharton.upenn.edu/wp-content/uploads/2019/01/Voice-Persuades.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/paralanguage/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Chicago Booth Review (University of Chicago Booth School of Business), 2015, on Schroeder & Epley, Psychological Science",
+   "dcterms:title": "When Job Hunting, Pick Up the Phone",
+   "schema:url": {
+    "@id": "https://www.chicagobooth.edu/review/when-job-hunting-pick-up-the-phone"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/paralanguage/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "American Psychological Association, 2017",
+   "dcterms:title": "Want to Know How Someone Is Feeling? Listen More Closely (press release on Kraus, American Psychologist, 2017)",
+   "schema:url": {
+    "@id": "https://www.apa.org/news/press/releases/2017/10/emotions-listen"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/paralanguage/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "John R. Rossiter, American Psychologist 73(5), 2018, pp. 689-690, doi:10.1037/amp0000314 (Charles Sturt University research output)",
+   "dcterms:title": "Voice-only does not meaningfully improve detection of emotions: Comment on Kraus (2017)",
+   "schema:url": {
+    "@id": "https://researchoutput.csu.edu.au/en/publications/voice-only-does-not-meaningfully-improve-detection-of-emotions-co/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/paralanguage/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "David Crystal (author's copy)",
+   "dcterms:title": "Paralinguistic Behavior and Communication",
+   "schema:url": {
+    "@id": "https://davidcrystal.com/Files/BooksAndArticles/-4904.pdf"
    }
   },
   {
