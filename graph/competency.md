@@ -135,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:channel-selection` | mixed | `cm:dennis-kinney-1998` |
 | `cm:clarity` | mixed |  |
 
-…and 84 more.
+…and 85 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -156,6 +156,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:meeting-agendas` | cmo:Technique |
 | `cm:multicultural-team` | cmo:Context |
 | `cm:narrative-persuasion` | cmo:Technique |
+| `cm:negotiation` | cmo:Context |
 | `cm:negotiation-preparation` | cmo:Context |
 | `cm:nonverbal-communication` | cmo:Concept |
 | `cm:one-on-one-meetings` | cmo:Context |
@@ -172,9 +173,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:refutational-two-sided-messages` | cmo:Technique |
 | `cm:reservation-value` | cmo:Concept |
 | `cm:salary-negotiation` | cmo:Context |
-| `cm:scheduled-inbox-checks` | cmo:Technique |
 
-…and 13 more.
+…and 14 more.
 
 ## Orphan articles (gap)
 

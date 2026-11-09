@@ -7860,6 +7860,101 @@
    ]
   },
   {
+   "@id": "cm:negotiation",
+   "@type": "cmo:Context",
+   "cmo:demonstratedBy": [
+    {
+     "@id": "cm:boothby-cooney-schweitzer-2023"
+    },
+    {
+     "@id": "cm:curhan-elfenbein-xu-2006"
+    }
+   ],
+   "cmo:domain": "negotiation",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:explainedBy": {
+    "@id": "cm:subjective-value"
+   },
+   "cmo:file": "articles/negotiation/negotiation.md",
+   "cmo:level": "introductory",
+   "cmo:studiedIn": {
+    "@id": "cm:social-psychology"
+   },
+   "cmo:supportedBy": {
+    "@id": "cm:elshenawy-2010"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/negotiation/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/negotiation/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/negotiation/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/negotiation/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/negotiation/s5"
+    }
+   ],
+   "rdfs:label": "Negotiation",
+   "skos:altLabel": [
+    "bargaining",
+    "negotiating",
+    "workplace negotiation"
+   ],
+   "skos:broader": {
+    "@id": "cm:interpersonal-communication"
+   },
+   "skos:definition": "The recurring situation in which two or more people who need each other's cooperation to reach their goals talk their way to an agreement that leaves them better off than the status quo - from a job offer or a vendor contract to a deadline, a budget or a share of a colleague's time.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/negotiation"
+   },
+   "skos:prefLabel": "Negotiation",
+   "skos:related": [
+    {
+     "@id": "cm:batna"
+    },
+    {
+     "@id": "cm:cultural-intelligence"
+    },
+    {
+     "@id": "cm:distributive-negotiation"
+    },
+    {
+     "@id": "cm:influence-without-authority"
+    },
+    {
+     "@id": "cm:integrative-negotiation"
+    },
+    {
+     "@id": "cm:interests-vs-positions"
+    },
+    {
+     "@id": "cm:mythical-fixed-pie"
+    },
+    {
+     "@id": "cm:negotiation-preparation"
+    },
+    {
+     "@id": "cm:principled-negotiation"
+    },
+    {
+     "@id": "cm:salary-negotiation"
+    },
+    {
+     "@id": "cm:thomas-kilmann-conflict-modes"
+    }
+   ]
+  },
+  {
    "@id": "cm:negotiation-preparation",
    "@type": "cmo:Context",
    "cmo:complements": {
@@ -26395,6 +26490,76 @@
    "dcterms:title": "A Negotiation Preparation Worksheet: A Tool for Continuous Improvement",
    "schema:url": {
     "@id": "https://www.pon.harvard.edu/daily/negotiation-training-daily/negotiating-for-continuos-improvement-use-a-negotiation-preparation-worksheet/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/negotiation/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Thompson, L., Wang, J. & Gunia, B. C., Annual Review of Psychology, 491-515, 2010 (Kellogg School of Management faculty research record)",
+   "dcterms:title": "Negotiation",
+   "schema:url": {
+    "@id": "https://www.kellogg.northwestern.edu/faculty/research/detail/2010/negotiation"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/negotiation/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Boothby, E. J., Cooney, G. & Schweitzer, M. E., Annual Review of Psychology 74, 299-332, 2023",
+   "dcterms:title": "Embracing Complexity: A Review of Negotiation Research",
+   "schema:url": {
+    "@id": "https://annualreviews.org/doi/pdf/10.1146/annurev-psych-033020-014116"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/negotiation/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "ElShenawy, E., Journal of European Industrial Training 34(3), 192-210, 2010, doi:10.1108/03090591011031719",
+   "dcterms:title": "Does negotiation training improve negotiators' performance?",
+   "schema:url": {
+    "@id": "https://www.emerald.com/insight/content/doi/10.1108/03090591011031719/full/html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/negotiation/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Curhan, J. R., Elfenbein, H. A. & Xu, H., Journal of Personality and Social Psychology 91(3), 493-512, 2006, doi:10.1037/0022-3514.91.3.493 (Washington University in St. Louis research profile)",
+   "dcterms:title": "What do people value when they negotiate? Mapping the domain of subjective value in negotiation",
+   "schema:url": {
+    "@id": "https://profiles.wustl.edu/en/publications/what-do-people-value-when-they-negotiate-mapping-the-domain-of-su/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/negotiation/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "PON Staff, Program on Negotiation at Harvard Law School, 2013",
+   "dcterms:title": "Beyond the Bottom Line",
+   "schema:url": {
+    "@id": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/beyond-the-bottom-line"
    }
   },
   {

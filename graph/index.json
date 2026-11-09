@@ -8917,6 +8917,112 @@
   ]
  },
  {
+  "id": "cm:negotiation",
+  "title": "Negotiation",
+  "aliases": [
+   "negotiating",
+   "bargaining",
+   "workplace negotiation"
+  ],
+  "type": "Context",
+  "domain": "negotiation",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/negotiation/negotiation.md",
+  "created": "2026-11-09",
+  "summary": "The recurring situation in which two or more people who need each other's cooperation to reach their goals talk their way to an agreement that leaves them better off than the status quo - from a job offer or a vendor contract to a deadline, a budget or a share of a colleague's time.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:interpersonal-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:integrative-negotiation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:distributive-negotiation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:negotiation-preparation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:batna"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:interests-vs-positions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:principled-negotiation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:salary-negotiation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:influence-without-authority"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:thomas-kilmann-conflict-modes"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:mythical-fixed-pie"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:cultural-intelligence"
+   },
+   {
+    "predicate": "cmo:studiedIn",
+    "object": "cm:social-psychology",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:subjective-value",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:curhan-elfenbein-xu-2006",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:elshenawy-2010",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:boothby-cooney-schweitzer-2023",
+    "source": "s2",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://www.kellogg.northwestern.edu/faculty/research/detail/2010/negotiation",
+   "https://annualreviews.org/doi/pdf/10.1146/annurev-psych-033020-014116",
+   "https://www.emerald.com/insight/content/doi/10.1108/03090591011031719/full/html",
+   "https://profiles.wustl.edu/en/publications/what-do-people-value-when-they-negotiate-mapping-the-domain-of-su/",
+   "https://www.pon.harvard.edu/daily/negotiation-skills-daily/beyond-the-bottom-line"
+  ]
+ },
+ {
   "id": "cm:negotiation-preparation",
   "title": "Negotiation preparation",
   "aliases": [

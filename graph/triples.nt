@@ -4609,6 +4609,41 @@
 <https://github.com/john1hsu/communication-graph/id/negotiation-preparation> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/negotiation/negotiation-preparation.md" .
 <https://github.com/john1hsu/communication-graph/id/negotiation-preparation> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/negotiation-preparation> <https://github.com/john1hsu/communication-graph/ontology#partOf> <https://github.com/john1hsu/communication-graph/id/negotiation> .
+<https://github.com/john1hsu/communication-graph/id/negotiation> <http://purl.org/dc/terms/created> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/negotiation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Context> .
+<https://github.com/john1hsu/communication-graph/id/negotiation> <http://www.w3.org/2000/01/rdf-schema#label> "Negotiation" .
+<https://github.com/john1hsu/communication-graph/id/negotiation> <http://www.w3.org/2004/02/skos/core#altLabel> "bargaining" .
+<https://github.com/john1hsu/communication-graph/id/negotiation> <http://www.w3.org/2004/02/skos/core#altLabel> "negotiating" .
+<https://github.com/john1hsu/communication-graph/id/negotiation> <http://www.w3.org/2004/02/skos/core#altLabel> "workplace negotiation" .
+<https://github.com/john1hsu/communication-graph/id/negotiation> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
+<https://github.com/john1hsu/communication-graph/id/negotiation> <http://www.w3.org/2004/02/skos/core#definition> "The recurring situation in which two or more people who need each other's cooperation to reach their goals talk their way to an agreement that leaves them better off than the status quo - from a job offer or a vendor contract to a deadline, a budget or a share of a colleague's time." .
+<https://github.com/john1hsu/communication-graph/id/negotiation> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/negotiation> .
+<https://github.com/john1hsu/communication-graph/id/negotiation> <http://www.w3.org/2004/02/skos/core#prefLabel> "Negotiation" .
+<https://github.com/john1hsu/communication-graph/id/negotiation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/batna> .
+<https://github.com/john1hsu/communication-graph/id/negotiation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cultural-intelligence> .
+<https://github.com/john1hsu/communication-graph/id/negotiation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/distributive-negotiation> .
+<https://github.com/john1hsu/communication-graph/id/negotiation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/influence-without-authority> .
+<https://github.com/john1hsu/communication-graph/id/negotiation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/integrative-negotiation> .
+<https://github.com/john1hsu/communication-graph/id/negotiation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/interests-vs-positions> .
+<https://github.com/john1hsu/communication-graph/id/negotiation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mythical-fixed-pie> .
+<https://github.com/john1hsu/communication-graph/id/negotiation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/negotiation-preparation> .
+<https://github.com/john1hsu/communication-graph/id/negotiation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/principled-negotiation> .
+<https://github.com/john1hsu/communication-graph/id/negotiation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/salary-negotiation> .
+<https://github.com/john1hsu/communication-graph/id/negotiation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/thomas-kilmann-conflict-modes> .
+<https://github.com/john1hsu/communication-graph/id/negotiation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/negotiation/s1> .
+<https://github.com/john1hsu/communication-graph/id/negotiation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/negotiation/s2> .
+<https://github.com/john1hsu/communication-graph/id/negotiation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/negotiation/s3> .
+<https://github.com/john1hsu/communication-graph/id/negotiation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/negotiation/s4> .
+<https://github.com/john1hsu/communication-graph/id/negotiation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/negotiation/s5> .
+<https://github.com/john1hsu/communication-graph/id/negotiation> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/boothby-cooney-schweitzer-2023> .
+<https://github.com/john1hsu/communication-graph/id/negotiation> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/curhan-elfenbein-xu-2006> .
+<https://github.com/john1hsu/communication-graph/id/negotiation> <https://github.com/john1hsu/communication-graph/ontology#domain> "negotiation" .
+<https://github.com/john1hsu/communication-graph/id/negotiation> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/negotiation> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/subjective-value> .
+<https://github.com/john1hsu/communication-graph/id/negotiation> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/negotiation/negotiation.md" .
+<https://github.com/john1hsu/communication-graph/id/negotiation> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/negotiation> <https://github.com/john1hsu/communication-graph/ontology#studiedIn> <https://github.com/john1hsu/communication-graph/id/social-psychology> .
+<https://github.com/john1hsu/communication-graph/id/negotiation> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/elshenawy-2010> .
 <https://github.com/john1hsu/communication-graph/id/nicholas-epley> <http://purl.org/dc/terms/created> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/nicholas-epley> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
 <https://github.com/john1hsu/communication-graph/id/nicholas-epley> <http://www.w3.org/2000/01/rdf-schema#label> "Nicholas Epley" .
@@ -9935,6 +9970,36 @@
 <https://github.com/john1hsu/communication-graph/id/source/negotiation-preparation/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/negotiation-preparation/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
 <https://github.com/john1hsu/communication-graph/id/source/negotiation-preparation/s6> <https://schema.org/url> <https://www.pon.harvard.edu/daily/negotiation-training-daily/negotiating-for-continuos-improvement-use-a-negotiation-preparation-worksheet/> .
+<https://github.com/john1hsu/communication-graph/id/source/negotiation/s1> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/negotiation/s1> <http://purl.org/dc/terms/publisher> "Thompson, L., Wang, J. & Gunia, B. C., Annual Review of Psychology, 491-515, 2010 (Kellogg School of Management faculty research record)" .
+<https://github.com/john1hsu/communication-graph/id/source/negotiation/s1> <http://purl.org/dc/terms/title> "Negotiation" .
+<https://github.com/john1hsu/communication-graph/id/source/negotiation/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/negotiation/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/negotiation/s1> <https://schema.org/url> <https://www.kellogg.northwestern.edu/faculty/research/detail/2010/negotiation> .
+<https://github.com/john1hsu/communication-graph/id/source/negotiation/s2> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/negotiation/s2> <http://purl.org/dc/terms/publisher> "Boothby, E. J., Cooney, G. & Schweitzer, M. E., Annual Review of Psychology 74, 299-332, 2023" .
+<https://github.com/john1hsu/communication-graph/id/source/negotiation/s2> <http://purl.org/dc/terms/title> "Embracing Complexity: A Review of Negotiation Research" .
+<https://github.com/john1hsu/communication-graph/id/source/negotiation/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/negotiation/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/negotiation/s2> <https://schema.org/url> <https://annualreviews.org/doi/pdf/10.1146/annurev-psych-033020-014116> .
+<https://github.com/john1hsu/communication-graph/id/source/negotiation/s3> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/negotiation/s3> <http://purl.org/dc/terms/publisher> "ElShenawy, E., Journal of European Industrial Training 34(3), 192-210, 2010, doi:10.1108/03090591011031719" .
+<https://github.com/john1hsu/communication-graph/id/source/negotiation/s3> <http://purl.org/dc/terms/title> "Does negotiation training improve negotiators' performance?" .
+<https://github.com/john1hsu/communication-graph/id/source/negotiation/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/negotiation/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/negotiation/s3> <https://schema.org/url> <https://www.emerald.com/insight/content/doi/10.1108/03090591011031719/full/html> .
+<https://github.com/john1hsu/communication-graph/id/source/negotiation/s4> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/negotiation/s4> <http://purl.org/dc/terms/publisher> "Curhan, J. R., Elfenbein, H. A. & Xu, H., Journal of Personality and Social Psychology 91(3), 493-512, 2006, doi:10.1037/0022-3514.91.3.493 (Washington University in St. Louis research profile)" .
+<https://github.com/john1hsu/communication-graph/id/source/negotiation/s4> <http://purl.org/dc/terms/title> "What do people value when they negotiate? Mapping the domain of subjective value in negotiation" .
+<https://github.com/john1hsu/communication-graph/id/source/negotiation/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/negotiation/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/negotiation/s4> <https://schema.org/url> <https://profiles.wustl.edu/en/publications/what-do-people-value-when-they-negotiate-mapping-the-domain-of-su/> .
+<https://github.com/john1hsu/communication-graph/id/source/negotiation/s5> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/negotiation/s5> <http://purl.org/dc/terms/publisher> "PON Staff, Program on Negotiation at Harvard Law School, 2013" .
+<https://github.com/john1hsu/communication-graph/id/source/negotiation/s5> <http://purl.org/dc/terms/title> "Beyond the Bottom Line" .
+<https://github.com/john1hsu/communication-graph/id/source/negotiation/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/negotiation/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/negotiation/s5> <https://schema.org/url> <https://www.pon.harvard.edu/daily/negotiation-skills-daily/beyond-the-bottom-line> .
 <https://github.com/john1hsu/communication-graph/id/source/nicholas-epley/s1> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/nicholas-epley/s1> <http://purl.org/dc/terms/publisher> "Caruso, Epley & Bazerman, Journal of Personality and Social Psychology 91(5), 2006 (author copy, UCLA Anderson Review)" .
 <https://github.com/john1hsu/communication-graph/id/source/nicholas-epley/s1> <http://purl.org/dc/terms/title> "The costs and benefits of undoing egocentric responsibility assessments in groups" .
