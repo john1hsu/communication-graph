@@ -262,6 +262,22 @@ Ask yourself:
 - Did I explain how they will be treated from here, not only why it happened?
 - Is my explanation a short context for an apology, or has it become an excuse that replaces one?
 
+### [Thomas-Kilmann Conflict Mode Instrument](../articles/difficult-conversations-and-conflict/thomas-kilmann-conflict-modes.md) — Framework
+
+*A product manager and an engineering lead disagree about whether to ship a feature on Friday with a known minor bug.*
+
+| Before | After |
+|---|---|
+| We're shipping Friday. Marketing has already announced it, so I need you to make it work. | I need Friday because of the announcement; you need to avoid a bug that floods support. Can we look for an option that covers both - say, ship Friday with the feature flagged off for the affected accounts - and if we can't find one by Wednesday, we split the difference on scope? |
+
+**Why:** The original competes by habit on an issue where the engineer holds information the PM lacks. The rewrite names both sides' concerns (collaborating) on a high-stakes issue, and keeps compromising as an explicit time-boxed fallback instead of defaulting to one habitual mode.
+
+Ask yourself:
+- Which mode am I about to use, and is it the one this issue calls for or just my habit?
+- How much do I care about my own outcome here, and how much about theirs or the relationship?
+- If I am about to avoid or accommodate, is the issue truly minor, or am I sidestepping a concern that will come back?
+- Have I found out what the other person actually needs before choosing to compete or compromise?
+
 ## digital-and-async-communication
 
 ### [Camera-optional norm](../articles/digital-and-async-communication/camera-optional-norm.md) — Technique

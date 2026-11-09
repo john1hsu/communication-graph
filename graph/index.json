@@ -13540,6 +13540,110 @@
   ]
  },
  {
+  "id": "cm:thomas-kilmann-conflict-modes",
+  "title": "Thomas-Kilmann Conflict Mode Instrument",
+  "aliases": [
+   "TKI",
+   "Thomas-Kilmann conflict modes",
+   "Thomas-Kilmann model",
+   "five conflict-handling modes",
+   "MODE instrument"
+  ],
+  "type": "Framework",
+  "domain": "difficult-conversations-and-conflict",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/difficult-conversations-and-conflict/thomas-kilmann-conflict-modes.md",
+  "created": "2026-11-09",
+  "summary": "Kenneth Thomas and Ralph Kilmann's model and 30-item self-assessment that maps how a person handles conflict on two dimensions - assertiveness (pursuing your own concerns) and cooperativeness (pursuing the other person's) - giving five modes: competing, collaborating, compromising, avoiding and accommodating, each useful in some situations and costly when overused.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:interpersonal-conflict"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "cm:conflict-resolution"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:difficult-conversation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:integrative-negotiation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:distributive-negotiation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:interests-vs-positions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:negotiation"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:kenneth-w-thomas",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:ralph-h-kilmann",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:influencedBy",
+    "object": "cm:managerial-grid",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:kilmann-thomas-1977",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:alternativeTo",
+    "object": "cm:dutch-test-for-conflict-handling",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:difficult-conversation",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Which mode am I about to use, and is it the one this issue calls for or just my habit?",
+   "How much do I care about my own outcome here, and how much about theirs or the relationship?",
+   "If I am about to avoid or accommodate, is the issue truly minor, or am I sidestepping a concern that will come back?",
+   "Have I found out what the other person actually needs before choosing to compete or compromise?"
+  ],
+  "steps": [],
+  "example": {
+   "situation": "A product manager and an engineering lead disagree about whether to ship a feature on Friday with a known minor bug.",
+   "before": "We're shipping Friday. Marketing has already announced it, so I need you to make it work.",
+   "after": "I need Friday because of the announcement; you need to avoid a bug that floods support. Can we look for an option that covers both - say, ship Friday with the feature flagged off for the affected accounts - and if we can't find one by Wednesday, we split the difference on scope?",
+   "why": "The original competes by habit on an issue where the engineer holds information the PM lacks. The rewrite names both sides' concerns (collaborating) on a high-stakes issue, and keeps compromising as an explicit time-boxed fallback instead of defaulting to one habitual mode."
+  },
+  "source_urls": [
+   "https://kilmanndiagnostics.com/a-brief-history-of-the-thomas-kilmann-conflict-mode-instrument/",
+   "https://kilmanndiagnostics.com:443/wp-content/uploads/2018/07/Kilmann-Thomas-Validating-TKI.pdf",
+   "https://www.psychometrics.com/wp-content/uploads/2024/01/Thomas-Kilmann-Conflict-Mode-Technical-Brief.pdf",
+   "https://dare.uva.nl/id/87091e90-9cfd-48d7-a7fc-83abff4a861f",
+   "https://www.pon.harvard.edu/daily/conflict-resolution/conflict-styles-and-bargaining-styles/"
+  ]
+ },
+ {
   "id": "cm:trusted-advisor",
   "title": "Trusted advisor",
   "aliases": [

@@ -11869,6 +11869,96 @@
    ]
   },
   {
+   "@id": "cm:thomas-kilmann-conflict-modes",
+   "@type": "cmo:Framework",
+   "cmo:alternativeTo": {
+    "@id": "cm:dutch-test-for-conflict-handling"
+   },
+   "cmo:appliedIn": {
+    "@id": "cm:difficult-conversation"
+   },
+   "cmo:domain": "difficult-conversations-and-conflict",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/thomas-kilmann-conflict-modes/example"
+   },
+   "cmo:file": "articles/difficult-conversations-and-conflict/thomas-kilmann-conflict-modes.md",
+   "cmo:influencedBy": {
+    "@id": "cm:managerial-grid"
+   },
+   "cmo:introducedBy": [
+    {
+     "@id": "cm:kenneth-w-thomas"
+    },
+    {
+     "@id": "cm:ralph-h-kilmann"
+    }
+   ],
+   "cmo:level": "introductory",
+   "cmo:supportedBy": {
+    "@id": "cm:kilmann-thomas-1977"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/thomas-kilmann-conflict-modes/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/thomas-kilmann-conflict-modes/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/thomas-kilmann-conflict-modes/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/thomas-kilmann-conflict-modes/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/thomas-kilmann-conflict-modes/s5"
+    }
+   ],
+   "rdfs:label": "Thomas-Kilmann Conflict Mode Instrument",
+   "skos:altLabel": [
+    "MODE instrument",
+    "TKI",
+    "Thomas-Kilmann conflict modes",
+    "Thomas-Kilmann model",
+    "five conflict-handling modes"
+   ],
+   "skos:broader": [
+    {
+     "@id": "cm:conflict-resolution"
+    },
+    {
+     "@id": "cm:interpersonal-conflict"
+    }
+   ],
+   "skos:definition": "Kenneth Thomas and Ralph Kilmann's model and 30-item self-assessment that maps how a person handles conflict on two dimensions - assertiveness (pursuing your own concerns) and cooperativeness (pursuing the other person's) - giving five modes: competing, collaborating, compromising, avoiding and accommodating, each useful in some situations and costly when overused.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/difficult-conversations-and-conflict"
+   },
+   "skos:prefLabel": "Thomas-Kilmann Conflict Mode Instrument",
+   "skos:related": [
+    {
+     "@id": "cm:difficult-conversation"
+    },
+    {
+     "@id": "cm:distributive-negotiation"
+    },
+    {
+     "@id": "cm:integrative-negotiation"
+    },
+    {
+     "@id": "cm:interests-vs-positions"
+    },
+    {
+     "@id": "cm:negotiation"
+    }
+   ]
+  },
+  {
    "@id": "cm:trusted-advisor",
    "@type": "cmo:Framework",
    "cmo:appliedIn": {
@@ -29194,6 +29284,76 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/thomas-kilmann-conflict-modes/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Ralph H. Kilmann, Kilmann Diagnostics (co-author's own account)",
+   "dcterms:title": "A Brief History of the Thomas-Kilmann Conflict Mode Instrument (TKI)",
+   "schema:url": {
+    "@id": "https://kilmanndiagnostics.com/a-brief-history-of-the-thomas-kilmann-conflict-mode-instrument/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/thomas-kilmann-conflict-modes/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Ralph H. Kilmann & Kenneth W. Thomas, Educational and Psychological Measurement 37, 309-325, 1977 (authors' copy hosted by Kilmann Diagnostics)",
+   "dcterms:title": "Developing a Forced-Choice Measure of Conflict-Handling Behavior: The \"MODE\" Instrument",
+   "schema:url": {
+    "@id": "https://kilmanndiagnostics.com:443/wp-content/uploads/2018/07/Kilmann-Thomas-Validating-TKI.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/thomas-kilmann-conflict-modes/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Craig A. Johnson, Richard C. Thompson & Michael G. Anderson, CPP, Inc. Research Department, 2014 (hosted by Psychometrics Canada)",
+   "dcterms:title": "Thomas-Kilmann Conflict Mode Instrument: International Technical Brief",
+   "schema:url": {
+    "@id": "https://www.psychometrics.com/wp-content/uploads/2024/01/Thomas-Kilmann-Conflict-Mode-Technical-Brief.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/thomas-kilmann-conflict-modes/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Carsten K. W. De Dreu, Arne Evers, Bianca Beersma, Esther S. Kluwer & Aukje Nauta, Journal of Organizational Behavior 22(6), 645-668, 2001, doi:10.1002/job.107 (University of Amsterdam repository)",
+   "dcterms:title": "A theory-based measure of conflict management strategies in the workplace",
+   "schema:url": {
+    "@id": "https://dare.uva.nl/id/87091e90-9cfd-48d7-a7fc-83abff4a861f"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/thomas-kilmann-conflict-modes/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Katie Shonk, Program on Negotiation at Harvard Law School, 2026",
+   "dcterms:title": "Conflict Styles and Bargaining Styles",
+   "schema:url": {
+    "@id": "https://www.pon.harvard.edu/daily/conflict-resolution/conflict-styles-and-bargaining-styles/"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/source/trusted-advisor/s1",
    "@type": "cmo:Source",
    "cmo:sourceType": "primary",
@@ -30309,6 +30469,46 @@
    "@type": "schema:HowToStep",
    "schema:position": 6,
    "schema:text": "Close by confirming the agreed version in writing where it matters (a recap message or ticket)."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/thomas-kilmann-conflict-modes/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:thomas-kilmann-conflict-modes"
+   },
+   "rdfs:label": "Which mode am I about to use, and is it the one this issue calls for or just my habit?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/thomas-kilmann-conflict-modes/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:thomas-kilmann-conflict-modes"
+   },
+   "rdfs:label": "How much do I care about my own outcome here, and how much about theirs or the relationship?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/thomas-kilmann-conflict-modes/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:thomas-kilmann-conflict-modes"
+   },
+   "rdfs:label": "If I am about to avoid or accommodate, is the issue truly minor, or am I sidestepping a concern that will come back?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/thomas-kilmann-conflict-modes/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:thomas-kilmann-conflict-modes"
+   },
+   "rdfs:label": "Have I found out what the other person actually needs before choosing to compete or compromise?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/thomas-kilmann-conflict-modes/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "I need Friday because of the announcement; you need to avoid a bug that floods support. Can we look for an option that covers both - say, ship Friday with the feature flagged off for the affected accounts - and if we can't find one by Wednesday, we split the difference on scope?",
+   "cmo:before": "We're shipping Friday. Marketing has already announced it, so I need you to make it work.",
+   "cmo:situation": "A product manager and an engineering lead disagree about whether to ship a feature on Friday with a known minor bug.",
+   "cmo:why": "The original competes by habit on an issue where the engineer holds information the PM lacks. The rewrite names both sides' concerns (collaborating) on a high-stakes issue, and keeps compromising as an explicit time-boxed fallback instead of defaulting to one habitual mode."
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/trusted-advisor/check/1",

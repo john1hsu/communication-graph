@@ -81,6 +81,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:difficult-conversation` | `cm:i-statements` |
 | `cm:difficult-conversation` | `cm:paraphrasing` |
 | `cm:difficult-conversation` | `cm:role-reversal` |
+| `cm:difficult-conversation` | `cm:thomas-kilmann-conflict-modes` |
 | `cm:email` | `cm:audience-analysis` |
 | `cm:email` | `cm:bottom-line-up-front` |
 | `cm:email` | `cm:channel-selection` |
@@ -94,9 +95,8 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:executive-briefing` | `cm:issue-selling` |
 | `cm:executive-briefing` | `cm:pyramid-principle` |
 | `cm:executive-briefing` | `cm:words-of-estimative-probability` |
-| `cm:face-to-face-conversation` | `cm:eye-contact` |
 
-…and 47 more.
+…and 48 more.
 
 ## Myths and contested advice
 
@@ -135,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:clarity` | mixed |  |
 | `cm:cognitive-load` | mixed | `cm:de-jong-2010` |
 
-…and 81 more.
+…and 82 more.
 
 ## Concepts with no recorded origin (gap)
 
