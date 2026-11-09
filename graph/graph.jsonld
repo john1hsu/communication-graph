@@ -5687,6 +5687,87 @@
    ]
   },
   {
+   "@id": "cm:ginny-redish",
+   "@type": "cmo:Person",
+   "cmo:authored": [
+    {
+     "@id": "cm:a-practical-guide-to-usability-testing"
+    },
+    {
+     "@id": "cm:guidelines-for-document-designers"
+    },
+    {
+     "@id": "cm:letting-go-of-the-words"
+    }
+   ],
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "historical",
+   "cmo:file": "articles/thinkers-and-works/ginny-redish.md",
+   "cmo:influencedBy": {
+    "@id": "cm:instructional-systems-design"
+   },
+   "cmo:introduced": {
+    "@id": "cm:bulleted-and-numbered-lists"
+   },
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/ginny-redish/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/ginny-redish/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/ginny-redish/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/ginny-redish/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/ginny-redish/s5"
+    }
+   ],
+   "rdfs:label": "Ginny Redish",
+   "skos:altLabel": [
+    "J. C. Redish",
+    "Janice (Ginny) Redish",
+    "Janice C. Redish",
+    "Janice Redish"
+   ],
+   "skos:definition": "Harvard-trained linguist who directed the Document Design Project and Document Design Center at the American Institutes for Research from 1978-79, co-wrote the 1981 Guidelines for Document Designers (which taught writers to break parallel items into bulleted or numbered lists), and carried reader testing from government forms into software usability and writing for the web.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "Ginny Redish",
+   "skos:related": [
+    {
+     "@id": "cm:active-voice"
+    },
+    {
+     "@id": "cm:audience-analysis"
+    },
+    {
+     "@id": "cm:paraphrase-testing"
+    },
+    {
+     "@id": "cm:plain-language"
+    },
+    {
+     "@id": "cm:readability-formulas"
+    },
+    {
+     "@id": "cm:usability-testing"
+    },
+    {
+     "@id": "cm:william-strunk-jr"
+    }
+   ]
+  },
+  {
    "@id": "cm:grices-maxims",
    "@type": "cmo:Principle",
    "cmo:challengedBy": [
@@ -26140,6 +26221,76 @@
    "dcterms:title": "The Effect of Display Rules on Illusion of Transparency in Children",
    "schema:url": {
     "@id": "https://core.ac.uk/download/86409555.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/ginny-redish/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "American Institutes for Research, Document Design Project (National Institute of Education contract 400-78-0043); author's copy on redish.net",
+   "dcterms:title": "Guidelines for Document Designers (D. B. Felker, F. Pickering, V. R. Charrow, V. M. Holland and J. C. Redish; American Institutes for Research, November 1981; reissued with a 2014 introduction by Redish)",
+   "schema:url": {
+    "@id": "https://redish.net/wp-content/uploads/Guidelines_for_Document_Designers_2014.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/ginny-redish/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Cambridge University Press",
+   "dcterms:title": "Editor's overview (includes Janice C. Redish's description of the Document Design Project), Applied Psycholinguistics 1(4), 323-327 (1980)",
+   "schema:url": {
+    "@id": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/F1520DBD1E45E48DA87DBE46A6CED903/S0142716400000989a.pdf/editors-overview.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/ginny-redish/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Usability Professionals' Association (now UXPA); author's copy on redish.net",
+   "dcterms:title": "Usability pioneer profile: Ginny Redish (Clifford Anderson, The UPA Voice, June 2005)",
+   "schema:url": {
+    "@id": "https://redish.net/wp-content/uploads/UPA_Voice_2005_Redish.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/ginny-redish/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Redish & Associates, Inc. (redish.net)",
+   "dcterms:title": "About Ginny",
+   "schema:url": {
+    "@id": "https://redish.net/about-ginny/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/ginny-redish/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Plain Language Association International (PLAIN)",
+   "dcterms:title": "Ginny Redish: Christine Mowat Plain Language Achievement Award, 2023",
+   "schema:url": {
+    "@id": "https://plainlanguage.com/awards/winners/ginny-redish/"
    }
   },
   {

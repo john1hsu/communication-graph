@@ -6469,6 +6469,93 @@
   ]
  },
  {
+  "id": "cm:ginny-redish",
+  "title": "Ginny Redish",
+  "aliases": [
+   "Janice Redish",
+   "Janice C. Redish",
+   "Janice (Ginny) Redish",
+   "J. C. Redish"
+  ],
+  "type": "Person",
+  "domain": "thinkers-and-works",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/thinkers-and-works/ginny-redish.md",
+  "created": "2026-11-09",
+  "summary": "Harvard-trained linguist who directed the Document Design Project and Document Design Center at the American Institutes for Research from 1978-79, co-wrote the 1981 Guidelines for Document Designers (which taught writers to break parallel items into bulleted or numbered lists), and carried reader testing from government forms into software usability and writing for the web.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "cm:plain-language"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:audience-analysis"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:usability-testing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:active-voice"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:readability-formulas"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:paraphrase-testing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:william-strunk-jr"
+   },
+   {
+    "predicate": "cmo:authored",
+    "object": "cm:guidelines-for-document-designers",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introduced",
+    "object": "cm:bulleted-and-numbered-lists",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:authored",
+    "object": "cm:letting-go-of-the-words",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:authored",
+    "object": "cm:a-practical-guide-to-usability-testing",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:influencedBy",
+    "object": "cm:instructional-systems-design",
+    "source": "s3",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://redish.net/wp-content/uploads/Guidelines_for_Document_Designers_2014.pdf",
+   "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/F1520DBD1E45E48DA87DBE46A6CED903/S0142716400000989a.pdf/editors-overview.pdf",
+   "https://redish.net/wp-content/uploads/UPA_Voice_2005_Redish.pdf",
+   "https://redish.net/about-ginny/",
+   "https://plainlanguage.com/awards/winners/ginny-redish/"
+  ]
+ },
+ {
   "id": "cm:grices-maxims",
   "title": "Grice's cooperative principle",
   "aliases": [

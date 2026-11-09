@@ -3370,6 +3370,37 @@
 <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> .
 <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/rai-mitchell-faelling-2012> .
 <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/van-boven-gilovich-medvec-2003> .
+<https://github.com/john1hsu/communication-graph/id/ginny-redish> <http://purl.org/dc/terms/created> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/ginny-redish> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+<https://github.com/john1hsu/communication-graph/id/ginny-redish> <http://www.w3.org/2000/01/rdf-schema#label> "Ginny Redish" .
+<https://github.com/john1hsu/communication-graph/id/ginny-redish> <http://www.w3.org/2004/02/skos/core#altLabel> "J. C. Redish" .
+<https://github.com/john1hsu/communication-graph/id/ginny-redish> <http://www.w3.org/2004/02/skos/core#altLabel> "Janice (Ginny) Redish" .
+<https://github.com/john1hsu/communication-graph/id/ginny-redish> <http://www.w3.org/2004/02/skos/core#altLabel> "Janice C. Redish" .
+<https://github.com/john1hsu/communication-graph/id/ginny-redish> <http://www.w3.org/2004/02/skos/core#altLabel> "Janice Redish" .
+<https://github.com/john1hsu/communication-graph/id/ginny-redish> <http://www.w3.org/2004/02/skos/core#definition> "Harvard-trained linguist who directed the Document Design Project and Document Design Center at the American Institutes for Research from 1978-79, co-wrote the 1981 Guidelines for Document Designers (which taught writers to break parallel items into bulleted or numbered lists), and carried reader testing from government forms into software usability and writing for the web." .
+<https://github.com/john1hsu/communication-graph/id/ginny-redish> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works> .
+<https://github.com/john1hsu/communication-graph/id/ginny-redish> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ginny Redish" .
+<https://github.com/john1hsu/communication-graph/id/ginny-redish> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/active-voice> .
+<https://github.com/john1hsu/communication-graph/id/ginny-redish> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
+<https://github.com/john1hsu/communication-graph/id/ginny-redish> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/paraphrase-testing> .
+<https://github.com/john1hsu/communication-graph/id/ginny-redish> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/plain-language> .
+<https://github.com/john1hsu/communication-graph/id/ginny-redish> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/readability-formulas> .
+<https://github.com/john1hsu/communication-graph/id/ginny-redish> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/usability-testing> .
+<https://github.com/john1hsu/communication-graph/id/ginny-redish> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/william-strunk-jr> .
+<https://github.com/john1hsu/communication-graph/id/ginny-redish> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/ginny-redish/s1> .
+<https://github.com/john1hsu/communication-graph/id/ginny-redish> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/ginny-redish/s2> .
+<https://github.com/john1hsu/communication-graph/id/ginny-redish> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/ginny-redish/s3> .
+<https://github.com/john1hsu/communication-graph/id/ginny-redish> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/ginny-redish/s4> .
+<https://github.com/john1hsu/communication-graph/id/ginny-redish> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/ginny-redish/s5> .
+<https://github.com/john1hsu/communication-graph/id/ginny-redish> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/a-practical-guide-to-usability-testing> .
+<https://github.com/john1hsu/communication-graph/id/ginny-redish> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/guidelines-for-document-designers> .
+<https://github.com/john1hsu/communication-graph/id/ginny-redish> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/letting-go-of-the-words> .
+<https://github.com/john1hsu/communication-graph/id/ginny-redish> <https://github.com/john1hsu/communication-graph/ontology#domain> "thinkers-and-works" .
+<https://github.com/john1hsu/communication-graph/id/ginny-redish> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "historical" .
+<https://github.com/john1hsu/communication-graph/id/ginny-redish> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/thinkers-and-works/ginny-redish.md" .
+<https://github.com/john1hsu/communication-graph/id/ginny-redish> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/instructional-systems-design> .
+<https://github.com/john1hsu/communication-graph/id/ginny-redish> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/bulleted-and-numbered-lists> .
+<https://github.com/john1hsu/communication-graph/id/ginny-redish> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/grices-maxims/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/grices-maxims/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "If my reader took every word literally and also read between the lines, what would they conclude that I did not intend?" .
 <https://github.com/john1hsu/communication-graph/id/grices-maxims/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/grices-maxims> .
@@ -9751,6 +9782,36 @@
 <https://github.com/john1hsu/communication-graph/id/source/gilovich-savitsky-medvec-1998/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/gilovich-savitsky-medvec-1998/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
 <https://github.com/john1hsu/communication-graph/id/source/gilovich-savitsky-medvec-1998/s5> <https://schema.org/url> <https://core.ac.uk/download/86409555.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/ginny-redish/s1> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/ginny-redish/s1> <http://purl.org/dc/terms/publisher> "American Institutes for Research, Document Design Project (National Institute of Education contract 400-78-0043); author's copy on redish.net" .
+<https://github.com/john1hsu/communication-graph/id/source/ginny-redish/s1> <http://purl.org/dc/terms/title> "Guidelines for Document Designers (D. B. Felker, F. Pickering, V. R. Charrow, V. M. Holland and J. C. Redish; American Institutes for Research, November 1981; reissued with a 2014 introduction by Redish)" .
+<https://github.com/john1hsu/communication-graph/id/source/ginny-redish/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/ginny-redish/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/ginny-redish/s1> <https://schema.org/url> <https://redish.net/wp-content/uploads/Guidelines_for_Document_Designers_2014.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/ginny-redish/s2> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/ginny-redish/s2> <http://purl.org/dc/terms/publisher> "Cambridge University Press" .
+<https://github.com/john1hsu/communication-graph/id/source/ginny-redish/s2> <http://purl.org/dc/terms/title> "Editor's overview (includes Janice C. Redish's description of the Document Design Project), Applied Psycholinguistics 1(4), 323-327 (1980)" .
+<https://github.com/john1hsu/communication-graph/id/source/ginny-redish/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/ginny-redish/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/ginny-redish/s2> <https://schema.org/url> <https://www.cambridge.org/core/services/aop-cambridge-core/content/view/F1520DBD1E45E48DA87DBE46A6CED903/S0142716400000989a.pdf/editors-overview.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/ginny-redish/s3> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/ginny-redish/s3> <http://purl.org/dc/terms/publisher> "Usability Professionals' Association (now UXPA); author's copy on redish.net" .
+<https://github.com/john1hsu/communication-graph/id/source/ginny-redish/s3> <http://purl.org/dc/terms/title> "Usability pioneer profile: Ginny Redish (Clifford Anderson, The UPA Voice, June 2005)" .
+<https://github.com/john1hsu/communication-graph/id/source/ginny-redish/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/ginny-redish/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/communication-graph/id/source/ginny-redish/s3> <https://schema.org/url> <https://redish.net/wp-content/uploads/UPA_Voice_2005_Redish.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/ginny-redish/s4> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/ginny-redish/s4> <http://purl.org/dc/terms/publisher> "Redish & Associates, Inc. (redish.net)" .
+<https://github.com/john1hsu/communication-graph/id/source/ginny-redish/s4> <http://purl.org/dc/terms/title> "About Ginny" .
+<https://github.com/john1hsu/communication-graph/id/source/ginny-redish/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/ginny-redish/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/ginny-redish/s4> <https://schema.org/url> <https://redish.net/about-ginny/> .
+<https://github.com/john1hsu/communication-graph/id/source/ginny-redish/s5> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/ginny-redish/s5> <http://purl.org/dc/terms/publisher> "Plain Language Association International (PLAIN)" .
+<https://github.com/john1hsu/communication-graph/id/source/ginny-redish/s5> <http://purl.org/dc/terms/title> "Ginny Redish: Christine Mowat Plain Language Achievement Award, 2023" .
+<https://github.com/john1hsu/communication-graph/id/source/ginny-redish/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/ginny-redish/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/communication-graph/id/source/ginny-redish/s5> <https://schema.org/url> <https://plainlanguage.com/awards/winners/ginny-redish/> .
 <https://github.com/john1hsu/communication-graph/id/source/grices-maxims/s1> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/grices-maxims/s1> <http://purl.org/dc/terms/publisher> "Richard Warner, Stanford Encyclopedia of Philosophy (first published 2005, substantive revision 2026)" .
 <https://github.com/john1hsu/communication-graph/id/source/grices-maxims/s1> <http://purl.org/dc/terms/title> "Paul Grice" .
