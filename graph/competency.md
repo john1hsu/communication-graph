@@ -96,7 +96,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:executive-briefing` | `cm:issue-selling` |
 | `cm:executive-briefing` | `cm:pyramid-principle` |
 
-…and 52 more.
+…and 53 more.
 
 ## Myths and contested advice
 
@@ -135,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:channel-selection` | mixed | `cm:dennis-kinney-1998` |
 | `cm:clarity` | mixed |  |
 
-…and 85 more.
+…and 86 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -154,6 +154,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:interrupting` | cmo:AntiPattern |
 | `cm:labeling-emotions` | cmo:Technique |
 | `cm:meeting-agendas` | cmo:Technique |
+| `cm:mirroring` | cmo:Technique |
 | `cm:multicultural-team` | cmo:Context |
 | `cm:narrative-persuasion` | cmo:Technique |
 | `cm:negotiation` | cmo:Context |
@@ -172,9 +173,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:reciprocal-self-disclosure` | cmo:Technique |
 | `cm:refutational-two-sided-messages` | cmo:Technique |
 | `cm:reservation-value` | cmo:Concept |
-| `cm:salary-negotiation` | cmo:Context |
 
-…and 14 more.
+…and 15 more.
 
 ## Orphan articles (gap)
 

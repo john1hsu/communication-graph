@@ -4322,6 +4322,80 @@
 <https://github.com/john1hsu/communication-graph/id/michael-ross> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/planning-fallacy> .
 <https://github.com/john1hsu/communication-graph/id/michael-ross> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/egocentric-bias> .
 <https://github.com/john1hsu/communication-graph/id/michael-ross> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/mirroring/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/mirroring/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Did I repeat their words with curiosity, or did it sound like an accusation or a parrot?" .
+<https://github.com/john1hsu/communication-graph/id/mirroring/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/mirroring> .
+<https://github.com/john1hsu/communication-graph/id/mirroring/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/mirroring/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Did I stay quiet long enough after the mirror for them to add something?" .
+<https://github.com/john1hsu/communication-graph/id/mirroring/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/mirroring> .
+<https://github.com/john1hsu/communication-graph/id/mirroring/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/mirroring/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Have I mirrored so many times in a row that it is becoming noticeable?" .
+<https://github.com/john1hsu/communication-graph/id/mirroring/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/mirroring> .
+<https://github.com/john1hsu/communication-graph/id/mirroring/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/mirroring/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Am I mirroring to understand them, or only to steer them toward a position I already hold?" .
+<https://github.com/john1hsu/communication-graph/id/mirroring/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/mirroring> .
+<https://github.com/john1hsu/communication-graph/id/mirroring/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+<https://github.com/john1hsu/communication-graph/id/mirroring/example> <https://github.com/john1hsu/communication-graph/ontology#after> "Gets messy? ... (pause)" .
+<https://github.com/john1hsu/communication-graph/id/mirroring/example> <https://github.com/john1hsu/communication-graph/ontology#before> "Great, so we're on track for the 14th. Next item." .
+<https://github.com/john1hsu/communication-graph/id/mirroring/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "In a project check-in, a vendor account manager says the delivery date \"should be fine, assuming the integration piece doesn't get messy.\"" .
+<https://github.com/john1hsu/communication-graph/id/mirroring/example> <https://github.com/john1hsu/communication-graph/ontology#why> "The two-word mirror targets the hedge, and the pause lets the vendor explain the open API dependency now, while there is still time to plan around it, instead of after the date slips." .
+<https://github.com/john1hsu/communication-graph/id/mirroring/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/mirroring/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/mirroring/howto/1> <https://schema.org/text> "Let the other person finish their point before you respond, and notice the one to three words that carry the most weight or the most ambiguity." .
+<https://github.com/john1hsu/communication-graph/id/mirroring/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/mirroring/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/mirroring/howto/2> <https://schema.org/text> "Repeat those words back as a short question, in a calm and curious tone (\"Under-resourced?\")." .
+<https://github.com/john1hsu/communication-graph/id/mirroring/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/mirroring/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/mirroring/howto/3> <https://schema.org/text> "Stop talking for a few seconds so they can expand, rather than filling the silence with your own view." .
+<https://github.com/john1hsu/communication-graph/id/mirroring/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/mirroring/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/mirroring/howto/4> <https://schema.org/text> "Use what they add to ask a follow-up or summarise, and switch to paraphrasing or labeling if a second mirror would start to sound mechanical." .
+<https://github.com/john1hsu/communication-graph/id/mirroring/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/mirroring/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/mirroring/howto/5> <https://schema.org/text> "In writing, mirror sparingly and early - reuse their terms and framing in your first replies instead of substituting your own jargon." .
+<https://github.com/john1hsu/communication-graph/id/mirroring/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+<https://github.com/john1hsu/communication-graph/id/mirroring/howto> <https://schema.org/name> "Mirroring" .
+<https://github.com/john1hsu/communication-graph/id/mirroring/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/mirroring/howto/1> .
+<https://github.com/john1hsu/communication-graph/id/mirroring/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/mirroring/howto/2> .
+<https://github.com/john1hsu/communication-graph/id/mirroring/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/mirroring/howto/3> .
+<https://github.com/john1hsu/communication-graph/id/mirroring/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/mirroring/howto/4> .
+<https://github.com/john1hsu/communication-graph/id/mirroring/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/mirroring/howto/5> .
+<https://github.com/john1hsu/communication-graph/id/mirroring> <http://purl.org/dc/terms/created> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/mirroring> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Technique> .
+<https://github.com/john1hsu/communication-graph/id/mirroring> <http://www.w3.org/2000/01/rdf-schema#label> "Mirroring" .
+<https://github.com/john1hsu/communication-graph/id/mirroring> <http://www.w3.org/2004/02/skos/core#altLabel> "echoing key words" .
+<https://github.com/john1hsu/communication-graph/id/mirroring> <http://www.w3.org/2004/02/skos/core#altLabel> "linguistic mimicry" .
+<https://github.com/john1hsu/communication-graph/id/mirroring> <http://www.w3.org/2004/02/skos/core#altLabel> "strategic mimicry" .
+<https://github.com/john1hsu/communication-graph/id/mirroring> <http://www.w3.org/2004/02/skos/core#altLabel> "the mirror" .
+<https://github.com/john1hsu/communication-graph/id/mirroring> <http://www.w3.org/2004/02/skos/core#altLabel> "verbal mirroring" .
+<https://github.com/john1hsu/communication-graph/id/mirroring> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+<https://github.com/john1hsu/communication-graph/id/mirroring> <http://www.w3.org/2004/02/skos/core#definition> "Deliberately repeating a few of the other person's own words (and, more loosely, matching their phrasing or posture) to signal attention and invite them to say more; lab studies link early, subtle mimicry to more trust and better negotiation outcomes, but the rapport effect does not always replicate." .
+<https://github.com/john1hsu/communication-graph/id/mirroring> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/listening> .
+<https://github.com/john1hsu/communication-graph/id/mirroring> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mirroring" .
+<https://github.com/john1hsu/communication-graph/id/mirroring> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/labeling-emotions> .
+<https://github.com/john1hsu/communication-graph/id/mirroring> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/open-ended-questions> .
+<https://github.com/john1hsu/communication-graph/id/mirroring> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/paraphrasing> .
+<https://github.com/john1hsu/communication-graph/id/mirroring> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/rapport> .
+<https://github.com/john1hsu/communication-graph/id/mirroring> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/wait-time> .
+<https://github.com/john1hsu/communication-graph/id/mirroring> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/mirroring/s1> .
+<https://github.com/john1hsu/communication-graph/id/mirroring> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/mirroring/s2> .
+<https://github.com/john1hsu/communication-graph/id/mirroring> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/mirroring/s3> .
+<https://github.com/john1hsu/communication-graph/id/mirroring> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/mirroring/s4> .
+<https://github.com/john1hsu/communication-graph/id/mirroring> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/mirroring/s5> .
+<https://github.com/john1hsu/communication-graph/id/mirroring> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/mirroring/s6> .
+<https://github.com/john1hsu/communication-graph/id/mirroring> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/negotiation> .
+<https://github.com/john1hsu/communication-graph/id/mirroring> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/hale-hamilton-2016> .
+<https://github.com/john1hsu/communication-graph/id/mirroring> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/labeling-emotions> .
+<https://github.com/john1hsu/communication-graph/id/mirroring> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/maddux-mullen-galinsky-2008> .
+<https://github.com/john1hsu/communication-graph/id/mirroring> <https://github.com/john1hsu/communication-graph/ontology#domain> "listening" .
+<https://github.com/john1hsu/communication-graph/id/mirroring> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/mirroring> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/mirroring/example> .
+<https://github.com/john1hsu/communication-graph/id/mirroring> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/chameleon-effect> .
+<https://github.com/john1hsu/communication-graph/id/mirroring> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/listening/mirroring.md" .
+<https://github.com/john1hsu/communication-graph/id/mirroring> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/mirroring/howto> .
+<https://github.com/john1hsu/communication-graph/id/mirroring> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/mirroring> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/swaab-maddux-sinaceur-2011> .
 <https://github.com/john1hsu/communication-graph/id/monroes-motivated-sequence> <http://purl.org/dc/terms/created> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/monroes-motivated-sequence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Framework> .
 <https://github.com/john1hsu/communication-graph/id/monroes-motivated-sequence> <http://www.w3.org/2000/01/rdf-schema#label> "Monroe's motivated sequence" .
@@ -9766,6 +9840,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/michael-ross/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/michael-ross/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
 <https://github.com/john1hsu/communication-graph/id/source/michael-ross/s4> <https://schema.org/url> <https://uwaterloo.ca/psychology/news/dr-mike-ross-wins-career-contribution-award> .
+<https://github.com/john1hsu/communication-graph/id/source/mirroring/s1> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/mirroring/s1> <http://purl.org/dc/terms/publisher> "Maddux, Mullen & Galinsky, Journal of Experimental Social Psychology 44, 461-468 (2008) (author copy, University of North Carolina)" .
+<https://github.com/john1hsu/communication-graph/id/source/mirroring/s1> <http://purl.org/dc/terms/title> "Chameleons Bake Bigger Pies and Take Bigger Pieces: Strategic Behavioral Mimicry Facilitates Negotiation Outcomes" .
+<https://github.com/john1hsu/communication-graph/id/source/mirroring/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/mirroring/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/mirroring/s1> <https://schema.org/url> <https://willmaddux.web.unc.edu/wp-content/uploads/sites/15846/2018/04/JESP-Mimicking-and-Negotiations.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/mirroring/s2> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/mirroring/s2> <http://purl.org/dc/terms/publisher> "Swaab, Maddux & Sinaceur, Journal of Experimental Social Psychology 47, 616-621 (2011), doi:10.1016/j.jesp.2011.01.005 (author copy, University of North Carolina)" .
+<https://github.com/john1hsu/communication-graph/id/source/mirroring/s2> <http://purl.org/dc/terms/title> "Early Words That Work: When and How Virtual Linguistic Mimicry Facilitates Negotiation Outcomes" .
+<https://github.com/john1hsu/communication-graph/id/source/mirroring/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/mirroring/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/mirroring/s2> <https://schema.org/url> <https://willmaddux.web.unc.edu/wp-content/uploads/sites/15846/2018/04/JESP-Virtual-Linguistic-Mimicry.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/mirroring/s3> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/mirroring/s3> <http://purl.org/dc/terms/publisher> "Hale & Hamilton, Scientific Reports 6, 35295 (2016), doi:10.1038/srep35295 (UCL Discovery)" .
+<https://github.com/john1hsu/communication-graph/id/source/mirroring/s3> <http://purl.org/dc/terms/title> "Testing the Relationship Between Mimicry, Trust and Rapport in Virtual Reality Conversations" .
+<https://github.com/john1hsu/communication-graph/id/source/mirroring/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/mirroring/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/mirroring/s3> <https://schema.org/url> <https://discovery-pp.ucl.ac.uk/1531017/1/srep35295.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/mirroring/s4> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/mirroring/s4> <http://purl.org/dc/terms/publisher> "Chartrand & Lakin, Annual Review of Psychology 64, 285-308 (2013), doi:10.1146/annurev-psych-113011-143754 (Duke University Scholars record)" .
+<https://github.com/john1hsu/communication-graph/id/source/mirroring/s4> <http://purl.org/dc/terms/title> "The Antecedents and Consequences of Human Behavioral Mimicry" .
+<https://github.com/john1hsu/communication-graph/id/source/mirroring/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/mirroring/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/mirroring/s4> <https://schema.org/url> <https://scholars.duke.edu/publication/815232> .
+<https://github.com/john1hsu/communication-graph/id/source/mirroring/s5> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/mirroring/s5> <http://purl.org/dc/terms/publisher> "Sandy Hein, The Black Swan Group newsletter (2021)" .
+<https://github.com/john1hsu/communication-graph/id/source/mirroring/s5> <http://purl.org/dc/terms/title> "What Is The Black Swan Group's Negotiation 9 (N9)?" .
+<https://github.com/john1hsu/communication-graph/id/source/mirroring/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/mirroring/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "community" .
+<https://github.com/john1hsu/communication-graph/id/source/mirroring/s5> <https://schema.org/url> <https://www.blackswanltd.com/the-edge/what-is-the-black-swan-groups-negotiation-9-n9> .
+<https://github.com/john1hsu/communication-graph/id/source/mirroring/s6> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/mirroring/s6> <http://purl.org/dc/terms/publisher> "Aileen Huang, INSEAD Knowledge (2011)" .
+<https://github.com/john1hsu/communication-graph/id/source/mirroring/s6> <http://purl.org/dc/terms/title> "Mimicry: The Latest Negotiating Strategy" .
+<https://github.com/john1hsu/communication-graph/id/source/mirroring/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/mirroring/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/mirroring/s6> <https://schema.org/url> <https://knowledge.insead.edu/leadership-organisations/mimicry-latest-negotiating-strategy> .
 <https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s1> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s1> <http://purl.org/dc/terms/publisher> "Grand Valley State University, Speech Lab" .
 <https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s1> <http://purl.org/dc/terms/title> "Monroe's Motivated Sequence" .

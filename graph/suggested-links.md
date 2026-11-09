@@ -4,7 +4,7 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 
 | Score | Node A | Node B | Shared neighbours |
 |---|---|---|---|
-| 3.60 | `cm:integrative-negotiation` | `cm:negotiation-preparation` | `cm:batna`, `cm:concession-strategy`, `cm:distributive-negotiation`, `cm:first-offer`, `cm:interests-vs-positions` |
+| 3.59 | `cm:integrative-negotiation` | `cm:negotiation-preparation` | `cm:batna`, `cm:concession-strategy`, `cm:distributive-negotiation`, `cm:first-offer`, `cm:interests-vs-positions` |
 | 3.53 | `cm:culture-assimilator` | `cm:intercultural-communication` | `cm:cultural-intelligence`, `cm:describe-analyze-evaluate`, `cm:ethnocentrism`, `cm:intercultural-competence`, `cm:li-2021-cross-cultural-training-meta-analysis` |
 | 3.25 | `cm:distributive-negotiation` | `cm:multiple-equivalent-simultaneous-offers` | `cm:anchoring-and-adjustment`, `cm:batna`, `cm:concession-strategy`, `cm:first-offer`, `cm:integrative-negotiation` |
 | 3.23 | `cm:audience-analysis` | `cm:credibility` | `cm:aristotles-rhetoric`, `cm:communicating-uncertainty`, `cm:elaboration-likelihood-model`, `cm:elevator-pitch`, `cm:influence-without-authority` |
@@ -28,4 +28,4 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 2.13 | `cm:audience-analysis` | `cm:illusion-of-transparency` | `cm:clarity`, `cm:common-ground`, `cm:communicating-uncertainty`, `cm:curse-of-knowledge`, `cm:email` |
 | 2.13 | `cm:bottom-line-up-front` | `cm:presentation` | `cm:assertion-evidence-slides`, `cm:audience-analysis`, `cm:cognitive-load`, `cm:elevator-pitch`, `cm:executive-briefing` |
 | 2.13 | `cm:elaboration-likelihood-model` | `cm:monroes-motivated-sequence` | `cm:aristotles-rhetoric`, `cm:audience-analysis`, `cm:issue-selling`, `cm:narrative-persuasion`, `cm:persuasion` |
-| 2.12 | `cm:camera-level-gaze` | `cm:proxemics` | `cm:eye-contact`, `cm:michael-argyle`, `cm:nonverbal-communication`, `cm:rapport`, `cm:video-call-communication` |
+| 2.12 | `cm:egocentric-bias` | `cm:macinnis-mackinnon-macintyre-2010` | `cm:anchoring-and-adjustment`, `cm:gilovich-savitsky-medvec-1998`, `cm:illusion-of-transparency`, `cm:social-psychology`, `cm:spotlight-effect` |

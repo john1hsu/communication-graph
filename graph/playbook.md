@@ -724,6 +724,28 @@ Ask yourself:
 - Could my label be heard as a criticism of them, and if so, did I reword it as a neutral observation?
 - After the label, did I stay quiet long enough for them to correct me?
 
+### [Mirroring](../articles/listening/mirroring.md) — Technique
+
+1. Let the other person finish their point before you respond, and notice the one to three words that carry the most weight or the most ambiguity.
+2. Repeat those words back as a short question, in a calm and curious tone ("Under-resourced?").
+3. Stop talking for a few seconds so they can expand, rather than filling the silence with your own view.
+4. Use what they add to ask a follow-up or summarise, and switch to paraphrasing or labeling if a second mirror would start to sound mechanical.
+5. In writing, mirror sparingly and early - reuse their terms and framing in your first replies instead of substituting your own jargon.
+
+*In a project check-in, a vendor account manager says the delivery date "should be fine, assuming the integration piece doesn't get messy."*
+
+| Before | After |
+|---|---|
+| Great, so we're on track for the 14th. Next item. | Gets messy? ... (pause) |
+
+**Why:** The two-word mirror targets the hedge, and the pause lets the vendor explain the open API dependency now, while there is still time to plan around it, instead of after the date slips.
+
+Ask yourself:
+- Did I repeat their words with curiosity, or did it sound like an accusation or a parrot?
+- Did I stay quiet long enough after the mirror for them to add something?
+- Have I mirrored so many times in a row that it is becoming noticeable?
+- Am I mirroring to understand them, or only to steer them toward a position I already hold?
+
 ### [Open-ended questions](../articles/listening/open-ended-questions.md) — Technique
 
 1. Decide what you actually need to learn - their view, the obstacles, the options - before you ask anything.

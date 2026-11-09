@@ -8425,6 +8425,113 @@
   ]
  },
  {
+  "id": "cm:mirroring",
+  "title": "Mirroring",
+  "aliases": [
+   "verbal mirroring",
+   "the mirror",
+   "echoing key words",
+   "strategic mimicry",
+   "linguistic mimicry"
+  ],
+  "type": "Technique",
+  "domain": "listening",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/listening/mirroring.md",
+  "created": "2026-11-09",
+  "summary": "Deliberately repeating a few of the other person's own words (and, more loosely, matching their phrasing or posture) to signal attention and invite them to say more; lab studies link early, subtle mimicry to more trust and better negotiation outcomes, but the rapport effect does not always replicate.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:active-listening"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:paraphrasing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:labeling-emotions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:wait-time"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:rapport"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:open-ended-questions"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:maddux-mullen-galinsky-2008",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:swaab-maddux-sinaceur-2011",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:hale-hamilton-2016",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:chameleon-effect",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:negotiation",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:labeling-emotions",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Did I repeat their words with curiosity, or did it sound like an accusation or a parrot?",
+   "Did I stay quiet long enough after the mirror for them to add something?",
+   "Have I mirrored so many times in a row that it is becoming noticeable?",
+   "Am I mirroring to understand them, or only to steer them toward a position I already hold?"
+  ],
+  "steps": [
+   "Let the other person finish their point before you respond, and notice the one to three words that carry the most weight or the most ambiguity.",
+   "Repeat those words back as a short question, in a calm and curious tone (\"Under-resourced?\").",
+   "Stop talking for a few seconds so they can expand, rather than filling the silence with your own view.",
+   "Use what they add to ask a follow-up or summarise, and switch to paraphrasing or labeling if a second mirror would start to sound mechanical.",
+   "In writing, mirror sparingly and early - reuse their terms and framing in your first replies instead of substituting your own jargon."
+  ],
+  "example": {
+   "situation": "In a project check-in, a vendor account manager says the delivery date \"should be fine, assuming the integration piece doesn't get messy.\"",
+   "before": "Great, so we're on track for the 14th. Next item.",
+   "after": "Gets messy? ... (pause)",
+   "why": "The two-word mirror targets the hedge, and the pause lets the vendor explain the open API dependency now, while there is still time to plan around it, instead of after the date slips."
+  },
+  "source_urls": [
+   "https://willmaddux.web.unc.edu/wp-content/uploads/sites/15846/2018/04/JESP-Mimicking-and-Negotiations.pdf",
+   "https://willmaddux.web.unc.edu/wp-content/uploads/sites/15846/2018/04/JESP-Virtual-Linguistic-Mimicry.pdf",
+   "https://discovery-pp.ucl.ac.uk/1531017/1/srep35295.pdf",
+   "https://scholars.duke.edu/publication/815232",
+   "https://www.blackswanltd.com/the-edge/what-is-the-black-swan-groups-negotiation-9-n9",
+   "https://knowledge.insead.edu/leadership-organisations/mimicry-latest-negotiating-strategy"
+  ]
+ },
+ {
   "id": "cm:monroes-motivated-sequence",
   "title": "Monroe's motivated sequence",
   "aliases": [
