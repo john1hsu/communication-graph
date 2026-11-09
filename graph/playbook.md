@@ -915,6 +915,32 @@ Ask yourself:
 - Are my steps getting smaller as I get closer to my limit, or am I making one big jump under pressure?
 - Have I acknowledged and reciprocated the concessions the other side has already made?
 
+### [Distributive negotiation](../articles/negotiation/distributive-negotiation.md) — Technique
+
+1. Confirm the issue really is fixed-sum - one number with nothing else worth trading - before you treat the talk as a pure split.
+2. Write down your BATNA and reservation value, then improve the BATNA by opening talks with other parties where you can.
+3. Research the counterpart's likely alternatives and walk-away point, and estimate the zone of possible agreement from both bottom lines.
+4. Set a target that is ambitious but defensible, and prepare the market data or reasoning that makes it look reasonable.
+5. If you know the market value well, make the first offer near your target and explain the basis for it.
+6. Concede only in exchange for movement from the other side, name what each concession costs you, and tie it to something specific you get back.
+7. After you make or receive an offer, stop talking and let the other side respond instead of sweetening your own number.
+8. When asked for your bottom line, decline to disclose it rather than inventing a figure, and walk away if the best offer is worse than your BATNA.
+
+*A team lead is renewing an external contractor whose day rate is the only open term; the contractor has asked for a rise from 600 to 750.*
+
+| Before | After |
+|---|---|
+| 750 is a lot more than we budgeted. Could you do 700? Actually, if that's hard, I could probably get approval for 720. | Thanks for the proposal. Three comparable contractors quoted us between 580 and 640 this quarter, and we're offering a twelve-month term with guaranteed volume. On that basis we can do 630. If you can confirm the full twelve months, I can move to 645 - that's the top of what those quotes justify. |
+
+**Why:** The first version concedes twice without getting anything back and signals that the budget is soft; the second anchors on evidence, labels the one concession and makes it contingent on a commitment, and never misstates the actual limit.
+
+Ask yourself:
+- Have I checked that there is truly only one issue, or am I treating a multi-issue deal as a single number?
+- Do I have an estimate of the other side's walk-away point, and what is it based on?
+- Is every concession I am about to make tied to something the other side gives in return?
+- Did I just make a second move before they responded to my first?
+- Could I defend every statement I made about my limits if it were later checked?
+
 ### [First offer](../articles/negotiation/first-offer.md) — Technique
 
 1. Before the conversation, research the market and estimate the zone of possible agreement - your walk-away point, the other side's likely walk-away point, and what comparable deals settled at.

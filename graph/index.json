@@ -3587,6 +3587,138 @@
   ]
  },
  {
+  "id": "cm:distributive-negotiation",
+  "title": "Distributive negotiation",
+  "aliases": [
+   "distributive bargaining",
+   "value claiming",
+   "win-lose negotiation",
+   "splitting the pie"
+  ],
+  "type": "Technique",
+  "domain": "negotiation",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/negotiation/distributive-negotiation.md",
+  "created": "2026-11-09",
+  "summary": "Negotiating over how to divide a fixed amount of value, usually a single number such as price, rate or budget, where every unit one side gains the other gives up; done well, it means claiming a fair share through preparation, ambitious but defensible offers and reciprocated concessions rather than bluffs.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:negotiation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:integrative-negotiation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:negotiation-preparation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:salary-negotiation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:zone-of-possible-agreement"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:reservation-value"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:first-offer"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:concession-strategy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:positional-bargaining"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:mythical-fixed-pie"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:interests-vs-positions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:wait-time"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:batna"
+   },
+   {
+    "predicate": "cmo:introducedIn",
+    "object": "cm:a-behavioral-theory-of-labor-negotiations",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:huffmeier-et-al-2014",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:korobkin-doherty-2009",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:anchoring-and-adjustment",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:integrative-negotiation",
+    "source": "s2",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Have I checked that there is truly only one issue, or am I treating a multi-issue deal as a single number?",
+   "Do I have an estimate of the other side's walk-away point, and what is it based on?",
+   "Is every concession I am about to make tied to something the other side gives in return?",
+   "Did I just make a second move before they responded to my first?",
+   "Could I defend every statement I made about my limits if it were later checked?"
+  ],
+  "steps": [
+   "Confirm the issue really is fixed-sum - one number with nothing else worth trading - before you treat the talk as a pure split.",
+   "Write down your BATNA and reservation value, then improve the BATNA by opening talks with other parties where you can.",
+   "Research the counterpart's likely alternatives and walk-away point, and estimate the zone of possible agreement from both bottom lines.",
+   "Set a target that is ambitious but defensible, and prepare the market data or reasoning that makes it look reasonable.",
+   "If you know the market value well, make the first offer near your target and explain the basis for it.",
+   "Concede only in exchange for movement from the other side, name what each concession costs you, and tie it to something specific you get back.",
+   "After you make or receive an offer, stop talking and let the other side respond instead of sweetening your own number.",
+   "When asked for your bottom line, decline to disclose it rather than inventing a figure, and walk away if the best offer is worse than your BATNA."
+  ],
+  "example": {
+   "situation": "A team lead is renewing an external contractor whose day rate is the only open term; the contractor has asked for a rise from 600 to 750.",
+   "before": "750 is a lot more than we budgeted. Could you do 700? Actually, if that's hard, I could probably get approval for 720.",
+   "after": "Thanks for the proposal. Three comparable contractors quoted us between 580 and 640 this quarter, and we're offering a twelve-month term with guaranteed volume. On that basis we can do 630. If you can confirm the full twelve months, I can move to 645 - that's the top of what those quotes justify.",
+   "why": "The first version concedes twice without getting anything back and signals that the budget is soft; the second anchors on evidence, labels the one concession and makes it contingent on a commitment, and never misstates the actual limit."
+  },
+  "source_urls": [
+   "https://www.pon.harvard.edu/daily/negotiation-skills-daily/distributive-bargaining-strategies/?amp",
+   "https://www.pon.harvard.edu/daily/dealmaking-daily/what-is-distributive-negotiation-strategies/?amp",
+   "https://ecommons.cornell.edu/server/api/core/bitstreams/dfd12c05-be6c-4e39-b382-6d0947ab8c7c/content",
+   "https://dare.uva.nl/id/801197e8-e374-4128-aeb3-c66c06cb8812",
+   "https://ideas.repec.org/a/oup/amlawe/v11y2009i1p162-208.html",
+   "https://www.pon.harvard.edu/daily/negotiation-skills-daily/when-you%E2%80%99re-tempted-to-deceive/?amp"
+  ]
+ },
+ {
   "id": "cm:effective-writing-for-army-leaders",
   "title": "Effective Writing for Army Leaders",
   "aliases": [
