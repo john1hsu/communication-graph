@@ -10318,6 +10318,89 @@
    ]
   },
   {
+   "@id": "cm:pragmatics",
+   "@type": "cmo:Field",
+   "cmo:appliedIn": {
+    "@id": "cm:email"
+   },
+   "cmo:contrastsWith": {
+    "@id": "cm:semantics"
+   },
+   "cmo:domain": "foundations",
+   "cmo:evidenceStatus": "theoretical",
+   "cmo:file": "articles/foundations/pragmatics.md",
+   "cmo:influencedBy": {
+    "@id": "cm:speech-act-theory"
+   },
+   "cmo:introducedBy": {
+    "@id": "cm:charles-morris"
+   },
+   "cmo:level": "introductory",
+   "cmo:partOf": {
+    "@id": "cm:semiotics"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/pragmatics/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/pragmatics/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/pragmatics/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/pragmatics/s4"
+    }
+   ],
+   "rdfs:label": "Pragmatics",
+   "skos:altLabel": [
+    "language in use",
+    "linguistic pragmatics"
+   ],
+   "skos:broader": {
+    "@id": "cm:linguistics"
+   },
+   "skos:definition": "The study of how people mean more than their words literally say: how context, intention and shared assumptions turn a sentence into a request, a promise, a hint or an insult. Named by Charles Morris in 1938, it supplies the ideas behind implicature, speech acts and politeness that explain most everyday misreadings at work.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/foundations"
+   },
+   "skos:prefLabel": "Pragmatics",
+   "skos:related": [
+    {
+     "@id": "cm:clarity"
+    },
+    {
+     "@id": "cm:common-ground"
+    },
+    {
+     "@id": "cm:direct-vs-indirect-feedback"
+    },
+    {
+     "@id": "cm:face-and-facework"
+    },
+    {
+     "@id": "cm:grices-maxims"
+    },
+    {
+     "@id": "cm:high-and-low-context-cultures"
+    },
+    {
+     "@id": "cm:intercultural-communication"
+    },
+    {
+     "@id": "cm:politeness-theory"
+    },
+    {
+     "@id": "cm:speech-act-theory"
+    }
+   ]
+  },
+  {
    "@id": "cm:presentation",
    "@type": "cmo:Context",
    "cmo:complements": [
@@ -29863,6 +29946,62 @@
    "dcterms:title": "Getting excited helps with performance anxiety more than trying to calm down, study finds",
    "schema:url": {
     "@id": "https://www.apa.org/news/press/releases/2013/12/performance-anxiety"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/pragmatics/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Kepa Korta & John Perry, Stanford Encyclopedia of Philosophy (first published 2006; substantive revision 2024)",
+   "dcterms:title": "Pragmatics",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/entries/pragmatics/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/pragmatics/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Pragmatics & Discourse, Indiana University Bloomington (C. Felix-Brasdefer)",
+   "dcterms:title": "Speech Acts",
+   "schema:url": {
+    "@id": "https://pragmatics.indiana.edu/speechacts/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/pragmatics/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Julia Hofweber & Sylvia Jaworska, Journal of English as a Lingua Franca 11(2), 223-253 (2022)",
+   "dcterms:title": "Polite impoliteness? How power, gender and language background shape request strategies in English as a Business Lingua Franca (BELF) in corporate email exchanges",
+   "schema:url": {
+    "@id": "https://www.degruyterbrill.com/document/doi/10.1515/jelf-2022-2085/html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/pragmatics/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Milene Mendes de Oliveira, Revista Brasileira de Linguistica Aplicada 17(2), 307-334 (2017)",
+   "dcterms:title": "Sociopragmatic failure revisited: the case of intercultural communication between Brazilians and Americans",
+   "schema:url": {
+    "@id": "https://scielo.br/j/rbla/a/SzNXfVMCNGGmNsCYv8j8bCH/?lang=en"
    }
   },
   {

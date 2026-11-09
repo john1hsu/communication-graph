@@ -11687,6 +11687,102 @@
   ]
  },
  {
+  "id": "cm:pragmatics",
+  "title": "Pragmatics",
+  "aliases": [
+   "linguistic pragmatics",
+   "language in use"
+  ],
+  "type": "Field",
+  "domain": "foundations",
+  "level": "introductory",
+  "evidenceStatus": "theoretical",
+  "file": "articles/foundations/pragmatics.md",
+  "created": "2026-11-09",
+  "summary": "The study of how people mean more than their words literally say: how context, intention and shared assumptions turn a sentence into a request, a promise, a hint or an insult. Named by Charles Morris in 1938, it supplies the ideas behind implicature, speech acts and politeness that explain most everyday misreadings at work.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:linguistics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:grices-maxims"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:common-ground"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:face-and-facework"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:politeness-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:speech-act-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:intercultural-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:direct-vs-indirect-feedback"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:high-and-low-context-cultures"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:clarity"
+   },
+   {
+    "predicate": "cmo:partOf",
+    "object": "cm:semiotics",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:charles-morris",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:contrastsWith",
+    "object": "cm:semantics",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:influencedBy",
+    "object": "cm:speech-act-theory",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:email",
+    "source": "s3",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://plato.stanford.edu/entries/pragmatics/",
+   "https://pragmatics.indiana.edu/speechacts/",
+   "https://www.degruyterbrill.com/document/doi/10.1515/jelf-2022-2085/html",
+   "https://scielo.br/j/rbla/a/SzNXfVMCNGGmNsCYv8j8bCH/?lang=en"
+  ]
+ },
+ {
   "id": "cm:presentation",
   "title": "Presentation",
   "aliases": [

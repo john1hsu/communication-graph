@@ -5889,6 +5889,37 @@
 <https://github.com/john1hsu/communication-graph/id/power-posing> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/dana-carney> .
 <https://github.com/john1hsu/communication-graph/id/power-posing> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/power-posing> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/korner-et-al-2022> .
+<https://github.com/john1hsu/communication-graph/id/pragmatics> <http://purl.org/dc/terms/created> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/pragmatics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Field> .
+<https://github.com/john1hsu/communication-graph/id/pragmatics> <http://www.w3.org/2000/01/rdf-schema#label> "Pragmatics" .
+<https://github.com/john1hsu/communication-graph/id/pragmatics> <http://www.w3.org/2004/02/skos/core#altLabel> "language in use" .
+<https://github.com/john1hsu/communication-graph/id/pragmatics> <http://www.w3.org/2004/02/skos/core#altLabel> "linguistic pragmatics" .
+<https://github.com/john1hsu/communication-graph/id/pragmatics> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/linguistics> .
+<https://github.com/john1hsu/communication-graph/id/pragmatics> <http://www.w3.org/2004/02/skos/core#definition> "The study of how people mean more than their words literally say: how context, intention and shared assumptions turn a sentence into a request, a promise, a hint or an insult. Named by Charles Morris in 1938, it supplies the ideas behind implicature, speech acts and politeness that explain most everyday misreadings at work." .
+<https://github.com/john1hsu/communication-graph/id/pragmatics> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/foundations> .
+<https://github.com/john1hsu/communication-graph/id/pragmatics> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pragmatics" .
+<https://github.com/john1hsu/communication-graph/id/pragmatics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/clarity> .
+<https://github.com/john1hsu/communication-graph/id/pragmatics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/common-ground> .
+<https://github.com/john1hsu/communication-graph/id/pragmatics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> .
+<https://github.com/john1hsu/communication-graph/id/pragmatics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/face-and-facework> .
+<https://github.com/john1hsu/communication-graph/id/pragmatics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/grices-maxims> .
+<https://github.com/john1hsu/communication-graph/id/pragmatics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> .
+<https://github.com/john1hsu/communication-graph/id/pragmatics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/intercultural-communication> .
+<https://github.com/john1hsu/communication-graph/id/pragmatics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/politeness-theory> .
+<https://github.com/john1hsu/communication-graph/id/pragmatics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/speech-act-theory> .
+<https://github.com/john1hsu/communication-graph/id/pragmatics> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/pragmatics/s1> .
+<https://github.com/john1hsu/communication-graph/id/pragmatics> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/pragmatics/s2> .
+<https://github.com/john1hsu/communication-graph/id/pragmatics> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/pragmatics/s3> .
+<https://github.com/john1hsu/communication-graph/id/pragmatics> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/pragmatics/s4> .
+<https://github.com/john1hsu/communication-graph/id/pragmatics> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/email> .
+<https://github.com/john1hsu/communication-graph/id/pragmatics> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/semantics> .
+<https://github.com/john1hsu/communication-graph/id/pragmatics> <https://github.com/john1hsu/communication-graph/ontology#domain> "foundations" .
+<https://github.com/john1hsu/communication-graph/id/pragmatics> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "theoretical" .
+<https://github.com/john1hsu/communication-graph/id/pragmatics> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/foundations/pragmatics.md" .
+<https://github.com/john1hsu/communication-graph/id/pragmatics> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/speech-act-theory> .
+<https://github.com/john1hsu/communication-graph/id/pragmatics> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/charles-morris> .
+<https://github.com/john1hsu/communication-graph/id/pragmatics> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/pragmatics> <https://github.com/john1hsu/communication-graph/ontology#partOf> <https://github.com/john1hsu/communication-graph/id/semiotics> .
 <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Have I said the whole talk out loud, standing, at least once from start to finish?" .
 <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> .
@@ -11356,6 +11387,30 @@
 <https://github.com/john1hsu/communication-graph/id/source/power-posing/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/power-posing/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
 <https://github.com/john1hsu/communication-graph/id/source/power-posing/s6> <https://schema.org/url> <https://www.apa.org/news/press/releases/2013/12/performance-anxiety> .
+<https://github.com/john1hsu/communication-graph/id/source/pragmatics/s1> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/pragmatics/s1> <http://purl.org/dc/terms/publisher> "Kepa Korta & John Perry, Stanford Encyclopedia of Philosophy (first published 2006; substantive revision 2024)" .
+<https://github.com/john1hsu/communication-graph/id/source/pragmatics/s1> <http://purl.org/dc/terms/title> "Pragmatics" .
+<https://github.com/john1hsu/communication-graph/id/source/pragmatics/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/pragmatics/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/communication-graph/id/source/pragmatics/s1> <https://schema.org/url> <https://plato.stanford.edu/entries/pragmatics/> .
+<https://github.com/john1hsu/communication-graph/id/source/pragmatics/s2> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/pragmatics/s2> <http://purl.org/dc/terms/publisher> "Pragmatics & Discourse, Indiana University Bloomington (C. Felix-Brasdefer)" .
+<https://github.com/john1hsu/communication-graph/id/source/pragmatics/s2> <http://purl.org/dc/terms/title> "Speech Acts" .
+<https://github.com/john1hsu/communication-graph/id/source/pragmatics/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/pragmatics/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/pragmatics/s2> <https://schema.org/url> <https://pragmatics.indiana.edu/speechacts/> .
+<https://github.com/john1hsu/communication-graph/id/source/pragmatics/s3> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/pragmatics/s3> <http://purl.org/dc/terms/publisher> "Julia Hofweber & Sylvia Jaworska, Journal of English as a Lingua Franca 11(2), 223-253 (2022)" .
+<https://github.com/john1hsu/communication-graph/id/source/pragmatics/s3> <http://purl.org/dc/terms/title> "Polite impoliteness? How power, gender and language background shape request strategies in English as a Business Lingua Franca (BELF) in corporate email exchanges" .
+<https://github.com/john1hsu/communication-graph/id/source/pragmatics/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/pragmatics/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/pragmatics/s3> <https://schema.org/url> <https://www.degruyterbrill.com/document/doi/10.1515/jelf-2022-2085/html> .
+<https://github.com/john1hsu/communication-graph/id/source/pragmatics/s4> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/pragmatics/s4> <http://purl.org/dc/terms/publisher> "Milene Mendes de Oliveira, Revista Brasileira de Linguistica Aplicada 17(2), 307-334 (2017)" .
+<https://github.com/john1hsu/communication-graph/id/source/pragmatics/s4> <http://purl.org/dc/terms/title> "Sociopragmatic failure revisited: the case of intercultural communication between Brazilians and Americans" .
+<https://github.com/john1hsu/communication-graph/id/source/pragmatics/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/pragmatics/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/pragmatics/s4> <https://schema.org/url> <https://scielo.br/j/rbla/a/SzNXfVMCNGGmNsCYv8j8bCH/?lang=en> .
 <https://github.com/john1hsu/communication-graph/id/source/presentation-rehearsal/s1> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/presentation-rehearsal/s1> <http://purl.org/dc/terms/publisher> "Menzel & Carrell, Communication Education 43(1), 17-26, 1994 (Taylor & Francis abstract)" .
 <https://github.com/john1hsu/communication-graph/id/source/presentation-rehearsal/s1> <http://purl.org/dc/terms/title> "The relationship between preparation and performance in public speaking" .

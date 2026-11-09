@@ -91,12 +91,12 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:email` | `cm:email-urgency-bias-study` |
 | `cm:email` | `cm:kushlev-dunn-2015` |
 | `cm:email` | `cm:media-richness-theory` |
+| `cm:email` | `cm:pragmatics` |
 | `cm:email` | `cm:rapport` |
 | `cm:email` | `cm:scheduled-inbox-checks` |
 | `cm:email` | `cm:setting-reply-time-expectations` |
-| `cm:executive-briefing` | `cm:issue-selling` |
 
-…and 60 more.
+…and 61 more.
 
 ## Myths and contested advice
 
