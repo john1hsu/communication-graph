@@ -4538,6 +4538,95 @@
    ]
   },
   {
+   "@id": "cm:facilitators-guide-to-participatory-decision-making",
+   "@type": "cmo:Work",
+   "cmo:appliedIn": {
+    "@id": "cm:workplace-meetings"
+   },
+   "cmo:authoredBy": {
+    "@id": "cm:sam-kaner"
+   },
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "practitioner",
+   "cmo:file": "articles/thinkers-and-works/facilitators-guide-to-participatory-decision-making.md",
+   "cmo:introduces": [
+    {
+     "@id": "cm:diamond-of-participatory-decision-making"
+    },
+    {
+     "@id": "cm:facilitation"
+    },
+    {
+     "@id": "cm:groan-zone"
+    }
+   ],
+   "cmo:level": "intermediate",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/facilitators-guide-to-participatory-decision-making/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/facilitators-guide-to-participatory-decision-making/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/facilitators-guide-to-participatory-decision-making/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/facilitators-guide-to-participatory-decision-making/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/facilitators-guide-to-participatory-decision-making/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/facilitators-guide-to-participatory-decision-making/s6"
+    }
+   ],
+   "rdfs:label": "Facilitator's Guide to Participatory Decision-Making",
+   "skos:altLabel": [
+    "Facilitator's Guide (Kaner)",
+    "Kaner et al. facilitation guide",
+    "Kaner's Facilitator's Guide"
+   ],
+   "skos:broader": {
+    "@id": "cm:facilitation"
+   },
+   "skos:definition": "Sam Kaner and colleagues' practitioner handbook (first edition 1996, third edition 2014) that set out the facilitator's role in participatory groups and introduced the Diamond of Participatory Decision-Making, with its divergent zone, groan zone and convergent zone.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "Facilitator's Guide to Participatory Decision-Making",
+   "skos:related": [
+    {
+     "@id": "cm:1-2-4-all"
+    },
+    {
+     "@id": "cm:brainstorming"
+    },
+    {
+     "@id": "cm:group-decision-making"
+    },
+    {
+     "@id": "cm:meeting-agendas"
+    },
+    {
+     "@id": "cm:nominal-group-technique"
+    },
+    {
+     "@id": "cm:paraphrasing"
+    },
+    {
+     "@id": "cm:psychological-safety"
+    },
+    {
+     "@id": "cm:workplace-meetings"
+    }
+   ]
+  },
+  {
    "@id": "cm:feedback",
    "@type": "cmo:Concept",
    "cmo:demonstratedBy": [
@@ -24337,6 +24426,90 @@
    "dcterms:title": "g versus c: Comparing Individual and Collective Intelligence Across Two Meta-Analyses",
    "schema:url": {
     "@id": "https://link.springer.com/10.1186/s41235-021-00285-2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/facilitators-guide-to-participatory-decision-making/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Sam Kaner, Jossey-Bass / John Wiley & Sons, 2014, ISBN 978-1-118-40495-9 (O'Reilly Learning record)",
+   "dcterms:title": "Facilitator's Guide to Participatory Decision-Making, 3rd Edition (publisher description and table of contents)",
+   "schema:url": {
+    "@id": "https://oreilly.com/library/view/facilitators-guide-to/9781118404959"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/facilitators-guide-to-participatory-decision-making/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Community at Work authors, New Society Publishers, Gabriola Island, 1 April 1996, ISBN 978-0-86571-347-5 (Schweitzer Fachinformationen listing)",
+   "dcterms:title": "Facilitator's Guide to Participatory Decision Making (first edition, bibliographic record)",
+   "schema:url": {
+    "@id": "https://www.schweitzer-online.de/en/buch/Kaner/Facilitators-Guide-Participatory-Decision-Making/9780865713475/A4338261/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/facilitators-guide-to-participatory-decision-making/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Drinkwater, Friedman & Buck, SARE Outreach (USDA NIFA-supported, University of Maryland cooperative agreement), 2016",
+   "dcterms:title": "Facilitating Participatory Decision-Making (Systems Research for Agriculture, Chapter 2)",
+   "schema:url": {
+    "@id": "https://www.sare.org/publications/systems-research-for-agriculture/chapter-two-collaboration-decision-making-and-organizational-structure-for-agricultural-systems-research/facilitating-participatory-decision-making/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/facilitators-guide-to-participatory-decision-making/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Carrie Kappel (National Center for Ecological Analysis and Synthesis, UC Santa Barbara), Integration and Implementation Insights, 28 May 2019",
+   "dcterms:title": "Collaboration and the Groan Zone",
+   "schema:url": {
+    "@id": "https://i2insights.org/2019/05/28/collaboration-groan-zone/amp/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/facilitators-guide-to-participatory-decision-making/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Katherine E. Browne, Caela O'Connell & Laura Meitzner Yoder, International Journal of Disaster Risk Science 9(3), 421-428 (2018), doi:10.1007/s13753-018-0180-y",
+   "dcterms:title": "Journey Through the Groan Zone with Academics and Practitioners: Bridging Conflict and Difference to Strengthen Disaster Risk Reduction and Recovery Work",
+   "schema:url": {
+    "@id": "https://link.springer.com/article/10.1007/s13753-018-0180-y"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/facilitators-guide-to-participatory-decision-making/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Interaction Associates",
+   "dcterms:title": "David Straus (founder profile)",
+   "schema:url": {
+    "@id": "https://www.interactionassociates.com/team/dstraus"
    }
   },
   {
