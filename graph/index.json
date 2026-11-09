@@ -9132,6 +9132,127 @@
   ]
  },
  {
+  "id": "cm:mythical-fixed-pie",
+  "title": "Mythical fixed-pie bias",
+  "aliases": [
+   "fixed-pie bias",
+   "fixed-pie perception",
+   "fixed-sum error",
+   "mythical fixed pie"
+  ],
+  "type": "Barrier",
+  "domain": "negotiation",
+  "level": "introductory",
+  "evidenceStatus": "robust",
+  "file": "articles/negotiation/mythical-fixed-pie.md",
+  "created": "2026-11-09",
+  "summary": "The default assumption, often held before a negotiation even starts, that the other side's interests are directly opposed to yours, so that anything they gain you must lose. It hides trades that would leave both sides better off.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:cognitive-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:integrative-negotiation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:distributive-negotiation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:interests-vs-positions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:zone-of-possible-agreement"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:multiple-equivalent-simultaneous-offers"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:salary-negotiation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:egocentric-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:anchoring-and-adjustment"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:thompson-1991"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:negotiation"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:thompson-hastie-1990",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:thompson-hrebec-1996",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:causes",
+    "object": "cm:lose-lose-agreement",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:motivated-information-processing",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:kern-brett-weingart-eck-2020",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:max-bazerman",
+    "source": "s6",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:undermines",
+    "object": "cm:integrative-negotiation",
+    "source": "s6",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Have I listed every issue in this deal, or am I treating it as one number to fight over?",
+   "Do I actually know which issues matter most to the other side, or am I assuming they want the opposite of what I want?",
+   "Is there an issue where we might want the same outcome that I have not checked out loud?",
+   "Am I discounting their proposal because of who made it rather than what it gives each of us?"
+  ],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://www.kellogg.northwestern.edu/faculty/research/detail/1990/social-perception-in-negotiation",
+   "https://www.kellogg.northwestern.edu/faculty/research/detail/1996/lose-lose-agreements-in-interdependent-decision-making",
+   "https://dare.uva.nl/id/ffde110b-6616-494f-9748-372ec4624968",
+   "https://www.kellogg.northwestern.edu/faculty/research/detail/1991/information-exchange-in-negotiation",
+   "https://ideas.repec.org/a/eee/jobhdp/v157y2020icp143-158.html",
+   "https://www.pon.harvard.edu/daily/batna/manage-the-tension-between-claiming-and-creating-value-nb/"
+  ]
+ },
+ {
   "id": "cm:narrative-persuasion",
   "title": "Narrative persuasion",
   "aliases": [

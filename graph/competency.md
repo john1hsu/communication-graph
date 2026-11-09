@@ -34,7 +34,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:describe-analyze-evaluate` | 2 | Ethnocentrism, intercultural-competence |
 | `cm:facilitation` | 2 | Interrupting, unequal-participation |
 | `cm:i-statements` | 2 | Defensiveness, accusatory-you-statements |
-| `cm:interests-vs-positions` | 2 | mythical-fixed-pie, positional-bargaining |
+| `cm:interests-vs-positions` | 2 | Mythical fixed-pie bias, positional-bargaining |
 | `cm:nominal-group-technique` | 2 | production-blocking, unequal-participation |
 | `cm:plain-language` | 2 | Curse of knowledge, jargon |
 | `cm:presentation-rehearsal` | 2 | Public speaking anxiety, public-speaking |

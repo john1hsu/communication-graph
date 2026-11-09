@@ -8050,6 +8050,108 @@
    ]
   },
   {
+   "@id": "cm:mythical-fixed-pie",
+   "@type": "cmo:Barrier",
+   "cmo:causes": {
+    "@id": "cm:lose-lose-agreement"
+   },
+   "cmo:demonstratedBy": [
+    {
+     "@id": "cm:kern-brett-weingart-eck-2020"
+    },
+    {
+     "@id": "cm:thompson-hastie-1990"
+    }
+   ],
+   "cmo:domain": "negotiation",
+   "cmo:evidenceStatus": "robust",
+   "cmo:explainedBy": {
+    "@id": "cm:motivated-information-processing"
+   },
+   "cmo:file": "articles/negotiation/mythical-fixed-pie.md",
+   "cmo:introducedBy": {
+    "@id": "cm:max-bazerman"
+   },
+   "cmo:level": "introductory",
+   "cmo:requires": {
+    "@id": "cm:negotiation"
+   },
+   "cmo:supportedBy": {
+    "@id": "cm:thompson-hrebec-1996"
+   },
+   "cmo:undermines": {
+    "@id": "cm:integrative-negotiation"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/mythical-fixed-pie/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/mythical-fixed-pie/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/mythical-fixed-pie/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/mythical-fixed-pie/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/mythical-fixed-pie/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/mythical-fixed-pie/s6"
+    }
+   ],
+   "rdfs:label": "Mythical fixed-pie bias",
+   "skos:altLabel": [
+    "fixed-pie bias",
+    "fixed-pie perception",
+    "fixed-sum error",
+    "mythical fixed pie"
+   ],
+   "skos:broader": {
+    "@id": "cm:cognitive-bias"
+   },
+   "skos:definition": "The default assumption, often held before a negotiation even starts, that the other side's interests are directly opposed to yours, so that anything they gain you must lose. It hides trades that would leave both sides better off.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/negotiation"
+   },
+   "skos:prefLabel": "Mythical fixed-pie bias",
+   "skos:related": [
+    {
+     "@id": "cm:anchoring-and-adjustment"
+    },
+    {
+     "@id": "cm:distributive-negotiation"
+    },
+    {
+     "@id": "cm:egocentric-bias"
+    },
+    {
+     "@id": "cm:integrative-negotiation"
+    },
+    {
+     "@id": "cm:interests-vs-positions"
+    },
+    {
+     "@id": "cm:multiple-equivalent-simultaneous-offers"
+    },
+    {
+     "@id": "cm:salary-negotiation"
+    },
+    {
+     "@id": "cm:thompson-1991"
+    },
+    {
+     "@id": "cm:zone-of-possible-agreement"
+    }
+   ]
+  },
+  {
    "@id": "cm:narrative-persuasion",
    "@type": "cmo:Technique",
    "cmo:complements": {
@@ -17815,6 +17917,38 @@
    "schema:text": "Treat their choice as information about their priorities; if they combine the best parts of different packages, reply with a fresh set of equivalent packages rather than conceding piece by piece."
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/mythical-fixed-pie/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:mythical-fixed-pie"
+   },
+   "rdfs:label": "Have I listed every issue in this deal, or am I treating it as one number to fight over?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/mythical-fixed-pie/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:mythical-fixed-pie"
+   },
+   "rdfs:label": "Do I actually know which issues matter most to the other side, or am I assuming they want the opposite of what I want?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/mythical-fixed-pie/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:mythical-fixed-pie"
+   },
+   "rdfs:label": "Is there an issue where we might want the same outcome that I have not checked out loud?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/mythical-fixed-pie/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:mythical-fixed-pie"
+   },
+   "rdfs:label": "Am I discounting their proposal because of who made it rather than what it gives each of us?"
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/narrative-persuasion/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -27227,6 +27361,90 @@
    "dcterms:title": "Influential Scholar",
    "schema:url": {
     "@id": "https://news.njit.edu/node/310"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/mythical-fixed-pie/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Thompson, L. & Hastie, R., Organizational Behavior and Human Decision Processes 47(1), 98-123, 1990 (Kellogg School of Management research page)",
+   "dcterms:title": "Social perception in negotiation",
+   "schema:url": {
+    "@id": "https://www.kellogg.northwestern.edu/faculty/research/detail/1990/social-perception-in-negotiation"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/mythical-fixed-pie/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Thompson, L. & Hrebec, D., Psychological Bulletin (3), 369-409, 1996 (Kellogg School of Management research page)",
+   "dcterms:title": "Lose-lose agreements in interdependent decision making",
+   "schema:url": {
+    "@id": "https://www.kellogg.northwestern.edu/faculty/research/detail/1996/lose-lose-agreements-in-interdependent-decision-making"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/mythical-fixed-pie/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "De Dreu, C. K. W., Koole, S. L. & Steinel, W., Journal of Personality and Social Psychology 79(6), 975-987, 2000 (University of Amsterdam repository)",
+   "dcterms:title": "Unfixing the fixed pie: A motivated information-processing approach to integrative negotiation",
+   "schema:url": {
+    "@id": "https://dare.uva.nl/id/ffde110b-6616-494f-9748-372ec4624968"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/mythical-fixed-pie/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Thompson, L., Journal of Experimental Social Psychology (2), 161-179, 1991 (Kellogg School of Management research page)",
+   "dcterms:title": "Information exchange in negotiation",
+   "schema:url": {
+    "@id": "https://www.kellogg.northwestern.edu/faculty/research/detail/1991/information-exchange-in-negotiation"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/mythical-fixed-pie/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Kern, M. C., Brett, J. M., Weingart, L. R. & Eck, C. S., Organizational Behavior and Human Decision Processes 157, 143-158, 2020 (RePEc/IDEAS)",
+   "dcterms:title": "The 'fixed' pie perception and strategy in dyadic versus multiparty negotiations",
+   "schema:url": {
+    "@id": "https://ideas.repec.org/a/eee/jobhdp/v157y2020icp143-158.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/mythical-fixed-pie/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Program on Negotiation at Harvard Law School (PON Staff), 2022",
+   "dcterms:title": "Business Negotiation Strategies for Managing the Tension Between Claiming and Creating Value",
+   "schema:url": {
+    "@id": "https://www.pon.harvard.edu/daily/batna/manage-the-tension-between-claiming-and-creating-value-nb/"
    }
   },
   {

@@ -1106,6 +1106,14 @@ Ask yourself:
 - Am I ready to respond to cherry-picking with new packages instead of single concessions?
 - Is everything I say about the packages - including that I would accept any of them - true?
 
+### [Mythical fixed-pie bias](../articles/negotiation/mythical-fixed-pie.md) — Barrier
+
+Ask yourself:
+- Have I listed every issue in this deal, or am I treating it as one number to fight over?
+- Do I actually know which issues matter most to the other side, or am I assuming they want the opposite of what I want?
+- Is there an issue where we might want the same outcome that I have not checked out loud?
+- Am I discounting their proposal because of who made it rather than what it gives each of us?
+
 ## nonverbal-and-voice
 
 ### [Camera-level gaze on video calls](../articles/nonverbal-and-voice/camera-level-gaze.md) — Technique
