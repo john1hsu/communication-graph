@@ -3599,6 +3599,119 @@
    ]
   },
   {
+   "@id": "cm:elevator-pitch",
+   "@type": "cmo:Genre",
+   "cmo:appliedIn": {
+    "@id": "cm:networking"
+   },
+   "cmo:demonstratedBy": [
+    {
+     "@id": "cm:clark-2008"
+    },
+    {
+     "@id": "cm:clingingsmith-shane-2018"
+    },
+    {
+     "@id": "cm:elsbach-kramer-2003"
+    },
+    {
+     "@id": "cm:pollack-rutherford-nagy-2012"
+    }
+   ],
+   "cmo:domain": "executive-and-client-communication",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/elevator-pitch/example"
+   },
+   "cmo:explainedBy": {
+    "@id": "cm:cognitive-legitimacy"
+   },
+   "cmo:file": "articles/executive-and-client-communication/elevator-pitch.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/elevator-pitch/howto"
+   },
+   "cmo:level": "introductory",
+   "cmo:requires": {
+    "@id": "cm:audience-analysis"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/elevator-pitch/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/elevator-pitch/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/elevator-pitch/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/elevator-pitch/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/elevator-pitch/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/elevator-pitch/s6"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/elevator-pitch/s7"
+    }
+   ],
+   "rdfs:label": "Elevator pitch",
+   "skos:altLabel": [
+    "30-second pitch",
+    "90-second pitch",
+    "elevator speech",
+    "elevator statement"
+   ],
+   "skos:broader": [
+    {
+     "@id": "cm:persuasion"
+    },
+    {
+     "@id": "cm:presentation"
+    }
+   ],
+   "skos:definition": "A spoken summary of an idea, project, venture or of yourself, short enough to deliver in a minute or two, whose job is not to close a deal but to earn a follow-up conversation. Field studies of investor pitches show that delivery and visible preparation shape how listeners judge the substance, but polish cannot rescue a weak idea in front of an experienced listener.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/executive-and-client-communication"
+   },
+   "skos:prefLabel": "Elevator pitch",
+   "skos:related": [
+    {
+     "@id": "cm:audience-analysis"
+    },
+    {
+     "@id": "cm:bottom-line-up-front"
+    },
+    {
+     "@id": "cm:credibility"
+    },
+    {
+     "@id": "cm:curse-of-knowledge"
+    },
+    {
+     "@id": "cm:executive-briefing"
+    },
+    {
+     "@id": "cm:issue-selling"
+    },
+    {
+     "@id": "cm:managing-up"
+    },
+    {
+     "@id": "cm:narrative-persuasion"
+    },
+    {
+     "@id": "cm:presentation-rehearsal"
+    }
+   ]
+  },
+  {
    "@id": "cm:email",
    "@type": "cmo:Channel",
    "cmo:alternativeTo": {
@@ -15061,6 +15174,107 @@
    "rdfs:label": "Am I assuming my tone is obvious in this email because I can hear it in my own head?"
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/elevator-pitch/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:elevator-pitch"
+   },
+   "rdfs:label": "Could the listener repeat back what I want and why it matters to them after hearing it once?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/elevator-pitch/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:elevator-pitch"
+   },
+   "rdfs:label": "Is my request specific and small enough to agree to in the moment?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/elevator-pitch/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:elevator-pitch"
+   },
+   "rdfs:label": "Have I replaced every adjective about myself with a concrete result?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/elevator-pitch/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:elevator-pitch"
+   },
+   "rdfs:label": "If this listener knows the field better than I do, does the substance still hold up without the delivery?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/elevator-pitch/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "Invoices in our region take 19 days to pay, and we lost early-payment discounts on about a third of them last quarter. I tested auto-matching on one vendor group for a month and cut that to 6 days with no extra headcount. I'd like a 20-minute slot with your team next week to propose a three-month pilot across all vendors. Would that work?",
+   "cmo:before": "Hi, I'm in finance ops. I've been doing a lot of analysis on our AP process, looking at the ERP data, vendor categories and approval chains, and there are a lot of interesting patterns, and I think there might be some opportunities with automation if we looked at it more closely at some point.",
+   "cmo:situation": "An operations analyst has two minutes with a regional vice president before a town hall and wants to propose a pilot that would cut invoice-processing time.",
+   "cmo:why": "The rewrite leads with a cost the VP cares about, offers one piece of evidence, shows the speaker has already done the work, and ends with a small, specific ask, so the listener can decide in seconds whether to continue."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/elevator-pitch/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Elevator pitch",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/elevator-pitch/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/elevator-pitch/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/elevator-pitch/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/elevator-pitch/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/elevator-pitch/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/elevator-pitch/howto/6"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/elevator-pitch/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Write down the one thing you want the listener to do next (a meeting, an introduction, a pilot slot) before you write anything else."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/elevator-pitch/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "State the problem in the listener's terms, then what you propose or offer and the single strongest piece of evidence that it works."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/elevator-pitch/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Say why you are the person to do it, in one concrete accomplishment rather than adjectives."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/elevator-pitch/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "End with a specific, small request the listener can say yes to on the spot."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/elevator-pitch/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Cut it to 90 seconds or less, then rehearse it aloud until it sounds conversational rather than memorised."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/elevator-pitch/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "Stop and invite a question; treat what they ask as the start of the real conversation."
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/ethnocentrism/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -22241,6 +22455,104 @@
    "dcterms:title": "Richard E. Petty, Department of Psychology",
    "schema:url": {
     "@id": "https://u.osu.edu/petty"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/elevator-pitch/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Colin Clark, Venture Capital 10(3), 257-279, 2008, doi:10.1080/13691060802151945 (IDEAS/RePEc record)",
+   "dcterms:title": "The impact of entrepreneurs' oral 'pitch' presentation skills on business angels' initial screening investment decisions",
+   "schema:url": {
+    "@id": "https://ideas.repec.org/a/taf/veecee/v10y2008i3p257-279.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/elevator-pitch/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "David Clingingsmith & Scott Shane, Management Science 64(11), 5164-5179, 2018 (2017 author working-paper version)",
+   "dcterms:title": "Training Aspiring Entrepreneurs to Pitch Experienced Investors: Evidence from a Field Experiment in the United States",
+   "schema:url": {
+    "@id": "https://files.cercomp.ufg.br/weby/up/1267/o/Clingingsmith_and_Shane_-_2017_-_Training_Aspiring_Entrepreneurs_to_Pitch_Experienced_Investors_Evidence_from_a_Field_Experiment_in_the_United_States.pdf?1656363197"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/elevator-pitch/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Kimberly D. Elsbach & Roderick M. Kramer, Academy of Management Journal 46(3), 283-301, 2003 (author copy, University of Colorado)",
+   "dcterms:title": "Assessing creativity in Hollywood pitch meetings: Evidence for a dual-process model of creativity judgments",
+   "schema:url": {
+    "@id": "https://leeds-faculty.colorado.edu/dahe7472/Elsbach%202003.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/elevator-pitch/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Jeffrey M. Pollack, Matthew W. Rutherford & Brian G. Nagy, Entrepreneurship Theory and Practice 36(5), 915-939, 2012 (IDEAS/RePEc record)",
+   "dcterms:title": "Preparedness and Cognitive Legitimacy as Antecedents of New Venture Funding in Televised Business Pitches",
+   "schema:url": {
+    "@id": "https://ideas.repec.org/a/sae/entthe/v36y2012i5p915-939.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/elevator-pitch/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Stanford Graduate School of Business, Alumni Career Resources",
+   "dcterms:title": "Elevator Pitch",
+   "schema:url": {
+    "@id": "https://www.gsb.stanford.edu/alumni/career-resources/job-search/networking/elevator-pitch"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/elevator-pitch/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Janine Ungvarsky, EBSCO Research Starters (Language and Linguistics), 2023",
+   "dcterms:title": "Elevator Pitch",
+   "schema:url": {
+    "@id": "https://www.ebsco.com/research-starters/language-and-linguistics/elevator-pitch"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/elevator-pitch/s7",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "community",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Barry Popik, The Big Apple (etymology research blog)",
+   "dcterms:title": "Elevator Pitch (Elevator Speech; Elevator Statement)",
+   "schema:url": {
+    "@id": "https://barrypopik.com/blog/elevator_pitch"
    }
   },
   {

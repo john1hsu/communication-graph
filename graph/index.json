@@ -4123,6 +4123,138 @@
   ]
  },
  {
+  "id": "cm:elevator-pitch",
+  "title": "Elevator pitch",
+  "aliases": [
+   "elevator speech",
+   "elevator statement",
+   "30-second pitch",
+   "90-second pitch"
+  ],
+  "type": "Genre",
+  "domain": "executive-and-client-communication",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/executive-and-client-communication/elevator-pitch.md",
+  "created": "2026-11-09",
+  "summary": "A spoken summary of an idea, project, venture or of yourself, short enough to deliver in a minute or two, whose job is not to close a deal but to earn a follow-up conversation. Field studies of investor pitches show that delivery and visible preparation shape how listeners judge the substance, but polish cannot rescue a weak idea in front of an experienced listener.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:presentation"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "cm:persuasion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:bottom-line-up-front"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:issue-selling"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:managing-up"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:executive-briefing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:audience-analysis"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:narrative-persuasion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:presentation-rehearsal"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:credibility"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:curse-of-knowledge"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:audience-analysis"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:clark-2008",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:clingingsmith-shane-2018",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:elsbach-kramer-2003",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:pollack-rutherford-nagy-2012",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:cognitive-legitimacy",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:networking",
+    "source": "s5",
+    "confidence": "high"
+   }
+  ],
+  "selfCheck": [
+   "Could the listener repeat back what I want and why it matters to them after hearing it once?",
+   "Is my request specific and small enough to agree to in the moment?",
+   "Have I replaced every adjective about myself with a concrete result?",
+   "If this listener knows the field better than I do, does the substance still hold up without the delivery?"
+  ],
+  "steps": [
+   "Write down the one thing you want the listener to do next (a meeting, an introduction, a pilot slot) before you write anything else.",
+   "State the problem in the listener's terms, then what you propose or offer and the single strongest piece of evidence that it works.",
+   "Say why you are the person to do it, in one concrete accomplishment rather than adjectives.",
+   "End with a specific, small request the listener can say yes to on the spot.",
+   "Cut it to 90 seconds or less, then rehearse it aloud until it sounds conversational rather than memorised.",
+   "Stop and invite a question; treat what they ask as the start of the real conversation."
+  ],
+  "example": {
+   "situation": "An operations analyst has two minutes with a regional vice president before a town hall and wants to propose a pilot that would cut invoice-processing time.",
+   "before": "Hi, I'm in finance ops. I've been doing a lot of analysis on our AP process, looking at the ERP data, vendor categories and approval chains, and there are a lot of interesting patterns, and I think there might be some opportunities with automation if we looked at it more closely at some point.",
+   "after": "Invoices in our region take 19 days to pay, and we lost early-payment discounts on about a third of them last quarter. I tested auto-matching on one vendor group for a month and cut that to 6 days with no extra headcount. I'd like a 20-minute slot with your team next week to propose a three-month pilot across all vendors. Would that work?",
+   "why": "The rewrite leads with a cost the VP cares about, offers one piece of evidence, shows the speaker has already done the work, and ends with a small, specific ask, so the listener can decide in seconds whether to continue."
+  },
+  "source_urls": [
+   "https://ideas.repec.org/a/taf/veecee/v10y2008i3p257-279.html",
+   "https://files.cercomp.ufg.br/weby/up/1267/o/Clingingsmith_and_Shane_-_2017_-_Training_Aspiring_Entrepreneurs_to_Pitch_Experienced_Investors_Evidence_from_a_Field_Experiment_in_the_United_States.pdf?1656363197",
+   "https://leeds-faculty.colorado.edu/dahe7472/Elsbach%202003.pdf",
+   "https://ideas.repec.org/a/sae/entthe/v36y2012i5p915-939.html",
+   "https://www.gsb.stanford.edu/alumni/career-resources/job-search/networking/elevator-pitch",
+   "https://www.ebsco.com/research-starters/language-and-linguistics/elevator-pitch",
+   "https://barrypopik.com/blog/elevator_pitch"
+  ]
+ },
+ {
   "id": "cm:email",
   "title": "Email",
   "aliases": [

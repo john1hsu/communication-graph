@@ -18,7 +18,9 @@ _No results._
 
 _Which written contexts, channels or genres have no technique, framework or principle applied in them or structuring them?_ — `queries/03-situations-without-guidance.rq`
 
-_No results._
+| node | type |
+|---|---|
+| `cm:elevator-pitch` | cmo:Genre |
 
 ## Highest-leverage techniques
 
@@ -96,7 +98,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:executive-briefing` | `cm:pyramid-principle` |
 | `cm:executive-briefing` | `cm:words-of-estimative-probability` |
 
-…and 49 more.
+…and 50 more.
 
 ## Myths and contested advice
 
@@ -135,7 +137,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:clarity` | mixed |  |
 | `cm:cognitive-load` | mixed | `cm:de-jong-2010` |
 
-…and 82 more.
+…and 83 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -143,6 +145,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 
 | node | type |
 |---|---|
+| `cm:elevator-pitch` | cmo:Genre |
 | `cm:face-to-face-conversation` | cmo:Channel |
 | `cm:facilitation` | cmo:Skill |
 | `cm:feedback-sandwich` | cmo:Technique |
@@ -172,9 +175,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:reservation-value` | cmo:Concept |
 | `cm:salary-negotiation` | cmo:Context |
 | `cm:scheduled-inbox-checks` | cmo:Technique |
-| `cm:self-affirmation-before-feedback` | cmo:Technique |
 
-…and 12 more.
+…and 13 more.
 
 ## Orphan articles (gap)
 

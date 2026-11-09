@@ -410,6 +410,29 @@ Ask yourself:
 - Am I presenting real disagreement among experts or data as such, rather than smoothing it over or overplaying it?
 - Is the uncertainty in the sentence that carries the estimate, not in a footnote or a later slide?
 
+### [Elevator pitch](../articles/executive-and-client-communication/elevator-pitch.md) — Genre
+
+1. Write down the one thing you want the listener to do next (a meeting, an introduction, a pilot slot) before you write anything else.
+2. State the problem in the listener's terms, then what you propose or offer and the single strongest piece of evidence that it works.
+3. Say why you are the person to do it, in one concrete accomplishment rather than adjectives.
+4. End with a specific, small request the listener can say yes to on the spot.
+5. Cut it to 90 seconds or less, then rehearse it aloud until it sounds conversational rather than memorised.
+6. Stop and invite a question; treat what they ask as the start of the real conversation.
+
+*An operations analyst has two minutes with a regional vice president before a town hall and wants to propose a pilot that would cut invoice-processing time.*
+
+| Before | After |
+|---|---|
+| Hi, I'm in finance ops. I've been doing a lot of analysis on our AP process, looking at the ERP data, vendor categories and approval chains, and there are a lot of interesting patterns, and I think there might be some opportunities with automation if we looked at it more closely at some point. | Invoices in our region take 19 days to pay, and we lost early-payment discounts on about a third of them last quarter. I tested auto-matching on one vendor group for a month and cut that to 6 days with no extra headcount. I'd like a 20-minute slot with your team next week to propose a three-month pilot across all vendors. Would that work? |
+
+**Why:** The rewrite leads with a cost the VP cares about, offers one piece of evidence, shows the speaker has already done the work, and ends with a small, specific ask, so the listener can decide in seconds whether to continue.
+
+Ask yourself:
+- Could the listener repeat back what I want and why it matters to them after hearing it once?
+- Is my request specific and small enough to agree to in the moment?
+- Have I replaced every adjective about myself with a concrete result?
+- If this listener knows the field better than I do, does the substance still hold up without the delivery?
+
 ### [Managing up](../articles/executive-and-client-communication/managing-up.md) — Skill
 
 Ask yourself:

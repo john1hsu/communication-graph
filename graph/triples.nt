@@ -2195,6 +2195,90 @@
 <https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
 <https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> <https://github.com/john1hsu/communication-graph/ontology#studiedIn> <https://github.com/john1hsu/communication-graph/id/social-psychology> .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Could the listener repeat back what I want and why it matters to them after hearing it once?" .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/elevator-pitch> .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Is my request specific and small enough to agree to in the moment?" .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/elevator-pitch> .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Have I replaced every adjective about myself with a concrete result?" .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/elevator-pitch> .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "If this listener knows the field better than I do, does the substance still hold up without the delivery?" .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/elevator-pitch> .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch/example> <https://github.com/john1hsu/communication-graph/ontology#after> "Invoices in our region take 19 days to pay, and we lost early-payment discounts on about a third of them last quarter. I tested auto-matching on one vendor group for a month and cut that to 6 days with no extra headcount. I'd like a 20-minute slot with your team next week to propose a three-month pilot across all vendors. Would that work?" .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch/example> <https://github.com/john1hsu/communication-graph/ontology#before> "Hi, I'm in finance ops. I've been doing a lot of analysis on our AP process, looking at the ERP data, vendor categories and approval chains, and there are a lot of interesting patterns, and I think there might be some opportunities with automation if we looked at it more closely at some point." .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "An operations analyst has two minutes with a regional vice president before a town hall and wants to propose a pilot that would cut invoice-processing time." .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch/example> <https://github.com/john1hsu/communication-graph/ontology#why> "The rewrite leads with a cost the VP cares about, offers one piece of evidence, shows the speaker has already done the work, and ends with a small, specific ask, so the listener can decide in seconds whether to continue." .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch/howto/1> <https://schema.org/text> "Write down the one thing you want the listener to do next (a meeting, an introduction, a pilot slot) before you write anything else." .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch/howto/2> <https://schema.org/text> "State the problem in the listener's terms, then what you propose or offer and the single strongest piece of evidence that it works." .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch/howto/3> <https://schema.org/text> "Say why you are the person to do it, in one concrete accomplishment rather than adjectives." .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch/howto/4> <https://schema.org/text> "End with a specific, small request the listener can say yes to on the spot." .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch/howto/5> <https://schema.org/text> "Cut it to 90 seconds or less, then rehearse it aloud until it sounds conversational rather than memorised." .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch/howto/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch/howto/6> <https://schema.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch/howto/6> <https://schema.org/text> "Stop and invite a question; treat what they ask as the start of the real conversation." .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch/howto> <https://schema.org/name> "Elevator pitch" .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/elevator-pitch/howto/1> .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/elevator-pitch/howto/2> .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/elevator-pitch/howto/3> .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/elevator-pitch/howto/4> .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/elevator-pitch/howto/5> .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/elevator-pitch/howto/6> .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch> <http://purl.org/dc/terms/created> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Genre> .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch> <http://www.w3.org/2000/01/rdf-schema#label> "Elevator pitch" .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch> <http://www.w3.org/2004/02/skos/core#altLabel> "30-second pitch" .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch> <http://www.w3.org/2004/02/skos/core#altLabel> "90-second pitch" .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch> <http://www.w3.org/2004/02/skos/core#altLabel> "elevator speech" .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch> <http://www.w3.org/2004/02/skos/core#altLabel> "elevator statement" .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/persuasion> .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/presentation> .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch> <http://www.w3.org/2004/02/skos/core#definition> "A spoken summary of an idea, project, venture or of yourself, short enough to deliver in a minute or two, whose job is not to close a deal but to earn a follow-up conversation. Field studies of investor pitches show that delivery and visible preparation shape how listeners judge the substance, but polish cannot rescue a weak idea in front of an experienced listener." .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/executive-and-client-communication> .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch> <http://www.w3.org/2004/02/skos/core#prefLabel> "Elevator pitch" .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/credibility> .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/executive-briefing> .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/issue-selling> .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/managing-up> .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/narrative-persuasion> .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/elevator-pitch/s1> .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/elevator-pitch/s2> .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/elevator-pitch/s3> .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/elevator-pitch/s4> .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/elevator-pitch/s5> .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/elevator-pitch/s6> .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/elevator-pitch/s7> .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/networking> .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/clark-2008> .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/clingingsmith-shane-2018> .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/elsbach-kramer-2003> .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/pollack-rutherford-nagy-2012> .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch> <https://github.com/john1hsu/communication-graph/ontology#domain> "executive-and-client-communication" .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/elevator-pitch/example> .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/cognitive-legitimacy> .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/executive-and-client-communication/elevator-pitch.md" .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/elevator-pitch/howto> .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/elevator-pitch> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
 <https://github.com/john1hsu/communication-graph/id/email-urgency-bias-study> <http://purl.org/dc/terms/created> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/email-urgency-bias-study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
 <https://github.com/john1hsu/communication-graph/id/email-urgency-bias-study> <http://www.w3.org/2000/01/rdf-schema#label> "You don't need to answer right away! (Giurge & Bohns, 2021)" .
@@ -8167,6 +8251,48 @@
 <https://github.com/john1hsu/communication-graph/id/source/elaboration-likelihood-model/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/elaboration-likelihood-model/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
 <https://github.com/john1hsu/communication-graph/id/source/elaboration-likelihood-model/s5> <https://schema.org/url> <https://u.osu.edu/petty> .
+<https://github.com/john1hsu/communication-graph/id/source/elevator-pitch/s1> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/elevator-pitch/s1> <http://purl.org/dc/terms/publisher> "Colin Clark, Venture Capital 10(3), 257-279, 2008, doi:10.1080/13691060802151945 (IDEAS/RePEc record)" .
+<https://github.com/john1hsu/communication-graph/id/source/elevator-pitch/s1> <http://purl.org/dc/terms/title> "The impact of entrepreneurs' oral 'pitch' presentation skills on business angels' initial screening investment decisions" .
+<https://github.com/john1hsu/communication-graph/id/source/elevator-pitch/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/elevator-pitch/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/elevator-pitch/s1> <https://schema.org/url> <https://ideas.repec.org/a/taf/veecee/v10y2008i3p257-279.html> .
+<https://github.com/john1hsu/communication-graph/id/source/elevator-pitch/s2> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/elevator-pitch/s2> <http://purl.org/dc/terms/publisher> "David Clingingsmith & Scott Shane, Management Science 64(11), 5164-5179, 2018 (2017 author working-paper version)" .
+<https://github.com/john1hsu/communication-graph/id/source/elevator-pitch/s2> <http://purl.org/dc/terms/title> "Training Aspiring Entrepreneurs to Pitch Experienced Investors: Evidence from a Field Experiment in the United States" .
+<https://github.com/john1hsu/communication-graph/id/source/elevator-pitch/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/elevator-pitch/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/elevator-pitch/s2> <https://schema.org/url> <https://files.cercomp.ufg.br/weby/up/1267/o/Clingingsmith_and_Shane_-_2017_-_Training_Aspiring_Entrepreneurs_to_Pitch_Experienced_Investors_Evidence_from_a_Field_Experiment_in_the_United_States.pdf?1656363197> .
+<https://github.com/john1hsu/communication-graph/id/source/elevator-pitch/s3> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/elevator-pitch/s3> <http://purl.org/dc/terms/publisher> "Kimberly D. Elsbach & Roderick M. Kramer, Academy of Management Journal 46(3), 283-301, 2003 (author copy, University of Colorado)" .
+<https://github.com/john1hsu/communication-graph/id/source/elevator-pitch/s3> <http://purl.org/dc/terms/title> "Assessing creativity in Hollywood pitch meetings: Evidence for a dual-process model of creativity judgments" .
+<https://github.com/john1hsu/communication-graph/id/source/elevator-pitch/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/elevator-pitch/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/elevator-pitch/s3> <https://schema.org/url> <https://leeds-faculty.colorado.edu/dahe7472/Elsbach%202003.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/elevator-pitch/s4> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/elevator-pitch/s4> <http://purl.org/dc/terms/publisher> "Jeffrey M. Pollack, Matthew W. Rutherford & Brian G. Nagy, Entrepreneurship Theory and Practice 36(5), 915-939, 2012 (IDEAS/RePEc record)" .
+<https://github.com/john1hsu/communication-graph/id/source/elevator-pitch/s4> <http://purl.org/dc/terms/title> "Preparedness and Cognitive Legitimacy as Antecedents of New Venture Funding in Televised Business Pitches" .
+<https://github.com/john1hsu/communication-graph/id/source/elevator-pitch/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/elevator-pitch/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/elevator-pitch/s4> <https://schema.org/url> <https://ideas.repec.org/a/sae/entthe/v36y2012i5p915-939.html> .
+<https://github.com/john1hsu/communication-graph/id/source/elevator-pitch/s5> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/elevator-pitch/s5> <http://purl.org/dc/terms/publisher> "Stanford Graduate School of Business, Alumni Career Resources" .
+<https://github.com/john1hsu/communication-graph/id/source/elevator-pitch/s5> <http://purl.org/dc/terms/title> "Elevator Pitch" .
+<https://github.com/john1hsu/communication-graph/id/source/elevator-pitch/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/elevator-pitch/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/elevator-pitch/s5> <https://schema.org/url> <https://www.gsb.stanford.edu/alumni/career-resources/job-search/networking/elevator-pitch> .
+<https://github.com/john1hsu/communication-graph/id/source/elevator-pitch/s6> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/elevator-pitch/s6> <http://purl.org/dc/terms/publisher> "Janine Ungvarsky, EBSCO Research Starters (Language and Linguistics), 2023" .
+<https://github.com/john1hsu/communication-graph/id/source/elevator-pitch/s6> <http://purl.org/dc/terms/title> "Elevator Pitch" .
+<https://github.com/john1hsu/communication-graph/id/source/elevator-pitch/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/elevator-pitch/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "encyclopedia" .
+<https://github.com/john1hsu/communication-graph/id/source/elevator-pitch/s6> <https://schema.org/url> <https://www.ebsco.com/research-starters/language-and-linguistics/elevator-pitch> .
+<https://github.com/john1hsu/communication-graph/id/source/elevator-pitch/s7> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/elevator-pitch/s7> <http://purl.org/dc/terms/publisher> "Barry Popik, The Big Apple (etymology research blog)" .
+<https://github.com/john1hsu/communication-graph/id/source/elevator-pitch/s7> <http://purl.org/dc/terms/title> "Elevator Pitch (Elevator Speech; Elevator Statement)" .
+<https://github.com/john1hsu/communication-graph/id/source/elevator-pitch/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/elevator-pitch/s7> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "community" .
+<https://github.com/john1hsu/communication-graph/id/source/elevator-pitch/s7> <https://schema.org/url> <https://barrypopik.com/blog/elevator_pitch> .
 <https://github.com/john1hsu/communication-graph/id/source/email-urgency-bias-study/s1> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/email-urgency-bias-study/s1> <http://purl.org/dc/terms/publisher> "Giurge, L. M. & Bohns, V. K., Organizational Behavior and Human Decision Processes 167, 114-128 (2021), doi:10.1016/j.obhdp.2021.08.002 (Cornell eCommons record)" .
 <https://github.com/john1hsu/communication-graph/id/source/email-urgency-bias-study/s1> <http://purl.org/dc/terms/title> "You don't need to answer right away! Receivers overestimate how quickly senders expect responses to non-urgent work emails" .
