@@ -1523,6 +1523,45 @@
 <https://github.com/john1hsu/communication-graph/id/conversational-receptiveness> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/communication-graph/id/conversational-receptiveness> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/active-listening> .
 <https://github.com/john1hsu/communication-graph/id/conversational-receptiveness> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/yeomans-et-al-2024> .
+<https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> <http://purl.org/dc/terms/created> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Phenomenon> .
+<https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> <http://www.w3.org/2000/01/rdf-schema#label> "Conversational turn-taking" .
+<https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> <http://www.w3.org/2004/02/skos/core#altLabel> "floor management" .
+<https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> <http://www.w3.org/2004/02/skos/core#altLabel> "speaker change" .
+<https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> <http://www.w3.org/2004/02/skos/core#altLabel> "turn-taking in conversation" .
+<https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> <http://www.w3.org/2004/02/skos/core#altLabel> "turn-taking system" .
+<https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
+<https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> <http://www.w3.org/2004/02/skos/core#definition> "The near-universal way people in conversation pass the floor back and forth, mostly one speaker at a time, with brief overlaps and gaps of roughly a fifth of a second, governed by implicit rules about who speaks next and when a turn can end." .
+<https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/questioning-and-conversation> .
+<https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> <http://www.w3.org/2004/02/skos/core#prefLabel> "Conversational turn-taking" .
+<https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/common-ground> .
+<https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cooperative-overlap> .
+<https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/face-to-face-conversation> .
+<https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/facilitation> .
+<https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/grices-maxims> .
+<https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/interrupting> .
+<https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/silence-and-pauses> .
+<https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/unequal-participation> .
+<https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/wait-time> .
+<https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/woolley-et-al-2010> .
+<https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/workplace-meetings> .
+<https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/conversational-turn-taking/s1> .
+<https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/conversational-turn-taking/s2> .
+<https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/conversational-turn-taking/s3> .
+<https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/conversational-turn-taking/s4> .
+<https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/conversational-turn-taking/s5> .
+<https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/conversational-turn-taking/s6> .
+<https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/video-call-communication> .
+<https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/boland-et-al-zoom-turn-taking> .
+<https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/stivers-et-al-2009> .
+<https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/templeton-et-al-2022> .
+<https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> <https://github.com/john1hsu/communication-graph/ontology#domain> "questioning-and-conversation" .
+<https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "robust" .
+<https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/questioning-and-conversation/conversational-turn-taking.md" .
+<https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/harvey-sacks> .
+<https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> <https://github.com/john1hsu/communication-graph/ontology#studiedIn> <https://github.com/john1hsu/communication-graph/id/conversation-analysis> .
+<https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/levinson-2016> .
 <https://github.com/john1hsu/communication-graph/id/credibility/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/credibility/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "If I asked two trusted colleagues how credible I am on this topic, would their answer match mine?" .
 <https://github.com/john1hsu/communication-graph/id/credibility/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/credibility> .
@@ -7660,6 +7699,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/conversational-receptiveness/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/conversational-receptiveness/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
 <https://github.com/john1hsu/communication-graph/id/source/conversational-receptiveness/s5> <https://schema.org/url> <https://www.library.hbs.edu/working-knowledge/when-agreeing-to-disagree-is-a-good-beginning> .
+<https://github.com/john1hsu/communication-graph/id/source/conversational-turn-taking/s1> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/conversational-turn-taking/s1> <http://purl.org/dc/terms/publisher> "Hervé Varenne, Teachers College, Columbia University" .
+<https://github.com/john1hsu/communication-graph/id/source/conversational-turn-taking/s1> <http://purl.org/dc/terms/title> "A simplest systematics for the organization of turn-taking for conversation (Sacks, Schegloff & Jefferson, Language 50, 696-735, 1974) - annotated bibliography entry" .
+<https://github.com/john1hsu/communication-graph/id/source/conversational-turn-taking/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/conversational-turn-taking/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/conversational-turn-taking/s1> <https://schema.org/url> <https://varenne.tc.columbia.edu/bib/info/sacksharv74simpsyst.html> .
+<https://github.com/john1hsu/communication-graph/id/source/conversational-turn-taking/s2> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/conversational-turn-taking/s2> <http://purl.org/dc/terms/publisher> "Stivers, Enfield, Brown et al., Proceedings of the National Academy of Sciences 106(26), 10587-10592 (2009), doi:10.1073/pnas.0903616106 (MDSOAR record)" .
+<https://github.com/john1hsu/communication-graph/id/source/conversational-turn-taking/s2> <http://purl.org/dc/terms/title> "Universals and cultural variation in turn-taking in conversation" .
+<https://github.com/john1hsu/communication-graph/id/source/conversational-turn-taking/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/conversational-turn-taking/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/conversational-turn-taking/s2> <https://schema.org/url> <https://mdsoar.org/items/e7ae8103-de28-4689-92a6-55de329e5d5d> .
+<https://github.com/john1hsu/communication-graph/id/source/conversational-turn-taking/s3> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/conversational-turn-taking/s3> <http://purl.org/dc/terms/publisher> "Max Planck Society press release on Levinson, Trends in Cognitive Sciences 20(1), 6-14 (2016) (15 December 2015)" .
+<https://github.com/john1hsu/communication-graph/id/source/conversational-turn-taking/s3> <http://purl.org/dc/terms/title> "Turn-taking in communication may be more ancient than language" .
+<https://github.com/john1hsu/communication-graph/id/source/conversational-turn-taking/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/conversational-turn-taking/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/conversational-turn-taking/s3> <https://schema.org/url> <https://www.mpg.de/9798302/human-communication-turntaking> .
+<https://github.com/john1hsu/communication-graph/id/source/conversational-turn-taking/s4> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/conversational-turn-taking/s4> <http://purl.org/dc/terms/publisher> "Templeton, Chang, Reynolds, Cone LeBeaumont & Wheatley, Proceedings of the National Academy of Sciences 119(4), e2116915119 (2022), doi:10.1073/pnas.2116915119 (PMC copy)" .
+<https://github.com/john1hsu/communication-graph/id/source/conversational-turn-taking/s4> <http://purl.org/dc/terms/title> "Fast response times signal social connection in conversation" .
+<https://github.com/john1hsu/communication-graph/id/source/conversational-turn-taking/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/conversational-turn-taking/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/conversational-turn-taking/s4> <https://schema.org/url> <https://pmc.ncbi.nlm.nih.gov/articles/PMC8794835> .
+<https://github.com/john1hsu/communication-graph/id/source/conversational-turn-taking/s5> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/conversational-turn-taking/s5> <http://purl.org/dc/terms/publisher> "University of Michigan, The University Record (on Boland et al., Journal of Experimental Psychology - General)" .
+<https://github.com/john1hsu/communication-graph/id/source/conversational-turn-taking/s5> <http://purl.org/dc/terms/title> "Zoom disrupts the rhythm of conversation, study shows" .
+<https://github.com/john1hsu/communication-graph/id/source/conversational-turn-taking/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/conversational-turn-taking/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/conversational-turn-taking/s5> <https://schema.org/url> <https://record.umich.edu/articles/zoom-disrupts-the-rhythm-of-conversation-study-shows> .
+<https://github.com/john1hsu/communication-graph/id/source/conversational-turn-taking/s6> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/conversational-turn-taking/s6> <http://purl.org/dc/terms/publisher> "Woolley, Chabris, Pentland, Hashmi & Malone, Science (2010) (PubMed record)" .
+<https://github.com/john1hsu/communication-graph/id/source/conversational-turn-taking/s6> <http://purl.org/dc/terms/title> "Evidence for a collective intelligence factor in the performance of human groups" .
+<https://github.com/john1hsu/communication-graph/id/source/conversational-turn-taking/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/conversational-turn-taking/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/conversational-turn-taking/s6> <https://schema.org/url> <https://pubmed.ncbi.nlm.nih.gov/20929725/> .
 <https://github.com/john1hsu/communication-graph/id/source/credibility/s1> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/credibility/s1> <http://purl.org/dc/terms/publisher> "Hovland & Weiss, Public Opinion Quarterly 15(4), 635-650 (1951) (copy hosted by the University of North Carolina)" .
 <https://github.com/john1hsu/communication-graph/id/source/credibility/s1> <http://purl.org/dc/terms/title> "The Influence of Source Credibility on Communication Effectiveness" .

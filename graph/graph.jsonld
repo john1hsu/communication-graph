@@ -2344,6 +2344,111 @@
    ]
   },
   {
+   "@id": "cm:conversational-turn-taking",
+   "@type": "cmo:Phenomenon",
+   "cmo:appliedIn": {
+    "@id": "cm:video-call-communication"
+   },
+   "cmo:demonstratedBy": [
+    {
+     "@id": "cm:boland-et-al-zoom-turn-taking"
+    },
+    {
+     "@id": "cm:stivers-et-al-2009"
+    },
+    {
+     "@id": "cm:templeton-et-al-2022"
+    }
+   ],
+   "cmo:domain": "questioning-and-conversation",
+   "cmo:evidenceStatus": "robust",
+   "cmo:file": "articles/questioning-and-conversation/conversational-turn-taking.md",
+   "cmo:introducedBy": {
+    "@id": "cm:harvey-sacks"
+   },
+   "cmo:level": "intermediate",
+   "cmo:studiedIn": {
+    "@id": "cm:conversation-analysis"
+   },
+   "cmo:supportedBy": {
+    "@id": "cm:levinson-2016"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/conversational-turn-taking/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/conversational-turn-taking/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/conversational-turn-taking/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/conversational-turn-taking/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/conversational-turn-taking/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/conversational-turn-taking/s6"
+    }
+   ],
+   "rdfs:label": "Conversational turn-taking",
+   "skos:altLabel": [
+    "floor management",
+    "speaker change",
+    "turn-taking in conversation",
+    "turn-taking system"
+   ],
+   "skos:broader": {
+    "@id": "cm:interpersonal-communication"
+   },
+   "skos:definition": "The near-universal way people in conversation pass the floor back and forth, mostly one speaker at a time, with brief overlaps and gaps of roughly a fifth of a second, governed by implicit rules about who speaks next and when a turn can end.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/questioning-and-conversation"
+   },
+   "skos:prefLabel": "Conversational turn-taking",
+   "skos:related": [
+    {
+     "@id": "cm:common-ground"
+    },
+    {
+     "@id": "cm:cooperative-overlap"
+    },
+    {
+     "@id": "cm:face-to-face-conversation"
+    },
+    {
+     "@id": "cm:facilitation"
+    },
+    {
+     "@id": "cm:grices-maxims"
+    },
+    {
+     "@id": "cm:interrupting"
+    },
+    {
+     "@id": "cm:silence-and-pauses"
+    },
+    {
+     "@id": "cm:unequal-participation"
+    },
+    {
+     "@id": "cm:wait-time"
+    },
+    {
+     "@id": "cm:woolley-et-al-2010"
+    },
+    {
+     "@id": "cm:workplace-meetings"
+    }
+   ]
+  },
+  {
    "@id": "cm:credibility",
    "@type": "cmo:Concept",
    "cmo:complements": [
@@ -21044,6 +21149,90 @@
    "dcterms:title": "When agreeing to disagree is a good beginning",
    "schema:url": {
     "@id": "https://www.library.hbs.edu/working-knowledge/when-agreeing-to-disagree-is-a-good-beginning"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/conversational-turn-taking/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Hervé Varenne, Teachers College, Columbia University",
+   "dcterms:title": "A simplest systematics for the organization of turn-taking for conversation (Sacks, Schegloff & Jefferson, Language 50, 696-735, 1974) - annotated bibliography entry",
+   "schema:url": {
+    "@id": "https://varenne.tc.columbia.edu/bib/info/sacksharv74simpsyst.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/conversational-turn-taking/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Stivers, Enfield, Brown et al., Proceedings of the National Academy of Sciences 106(26), 10587-10592 (2009), doi:10.1073/pnas.0903616106 (MDSOAR record)",
+   "dcterms:title": "Universals and cultural variation in turn-taking in conversation",
+   "schema:url": {
+    "@id": "https://mdsoar.org/items/e7ae8103-de28-4689-92a6-55de329e5d5d"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/conversational-turn-taking/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Max Planck Society press release on Levinson, Trends in Cognitive Sciences 20(1), 6-14 (2016) (15 December 2015)",
+   "dcterms:title": "Turn-taking in communication may be more ancient than language",
+   "schema:url": {
+    "@id": "https://www.mpg.de/9798302/human-communication-turntaking"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/conversational-turn-taking/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Templeton, Chang, Reynolds, Cone LeBeaumont & Wheatley, Proceedings of the National Academy of Sciences 119(4), e2116915119 (2022), doi:10.1073/pnas.2116915119 (PMC copy)",
+   "dcterms:title": "Fast response times signal social connection in conversation",
+   "schema:url": {
+    "@id": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8794835"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/conversational-turn-taking/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "University of Michigan, The University Record (on Boland et al., Journal of Experimental Psychology - General)",
+   "dcterms:title": "Zoom disrupts the rhythm of conversation, study shows",
+   "schema:url": {
+    "@id": "https://record.umich.edu/articles/zoom-disrupts-the-rhythm-of-conversation-study-shows"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/conversational-turn-taking/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Woolley, Chabris, Pentland, Hashmi & Malone, Science (2010) (PubMed record)",
+   "dcterms:title": "Evidence for a collective intelligence factor in the performance of human groups",
+   "schema:url": {
+    "@id": "https://pubmed.ncbi.nlm.nih.gov/20929725/"
    }
   },
   {

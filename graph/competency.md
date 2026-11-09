@@ -96,7 +96,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:executive-briefing` | `cm:pyramid-principle` |
 | `cm:executive-briefing` | `cm:words-of-estimative-probability` |
 
-…and 48 more.
+…and 49 more.
 
 ## Myths and contested advice
 

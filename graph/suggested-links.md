@@ -10,9 +10,9 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 2.97 | `cm:audience-analysis` | `cm:credibility` | `cm:aristotles-rhetoric`, `cm:communicating-uncertainty`, `cm:elaboration-likelihood-model`, `cm:influence-without-authority`, `cm:issue-selling` |
 | 2.91 | `cm:difficult-conversation` | `cm:situation-behavior-impact` | `cm:active-listening`, `cm:defensiveness`, `cm:feedback`, `cm:i-statements`, `cm:nonviolent-communication` |
 | 2.74 | `cm:active-listening` | `cm:feedback` | `cm:defensiveness`, `cm:difficult-conversation`, `cm:feedforward`, `cm:one-on-one-meetings`, `cm:performance-review` |
-| 2.70 | `cm:channel-selection` | `cm:egocentric-bias` | `cm:common-ground`, `cm:curse-of-knowledge`, `cm:egocentrism-over-email-study`, `cm:face-to-face-conversation`, `cm:nicholas-epley` |
 | 2.70 | `cm:labeling-emotions` | `cm:self-distancing` | `cm:anxiety-reappraisal`, `cm:cognitive-reappraisal`, `cm:emotion-regulation` |
-| 2.61 | `cm:asynchronous-communication` | `cm:video-call-communication` | `cm:channel-selection`, `cm:digital-communication`, `cm:face-to-face-conversation`, `cm:media-richness-theory`, `cm:workplace-meetings` |
+| 2.69 | `cm:channel-selection` | `cm:egocentric-bias` | `cm:common-ground`, `cm:curse-of-knowledge`, `cm:egocentrism-over-email-study`, `cm:face-to-face-conversation`, `cm:nicholas-epley` |
+| 2.59 | `cm:asynchronous-communication` | `cm:video-call-communication` | `cm:channel-selection`, `cm:digital-communication`, `cm:face-to-face-conversation`, `cm:media-richness-theory`, `cm:workplace-meetings` |
 | 2.53 | `cm:integrative-negotiation` | `cm:reservation-value` | `cm:batna`, `cm:concession-strategy`, `cm:distributive-negotiation`, `cm:first-offer`, `cm:multiple-equivalent-simultaneous-offers` |
 | 2.49 | `cm:anchoring-and-adjustment` | `cm:thomas-gilovich` | `cm:curse-of-knowledge`, `cm:egocentric-bias`, `cm:gilovich-savitsky-medvec-1998`, `cm:illusion-of-transparency`, `cm:macinnis-mackinnon-macintyre-2010` |
 | 2.41 | `cm:interests-vs-positions` | `cm:multiple-equivalent-simultaneous-offers` | `cm:batna`, `cm:integrative-negotiation`, `cm:negotiation-preparation`, `cm:principled-negotiation`, `cm:salary-negotiation` |
@@ -28,4 +28,4 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 2.12 | `cm:concession-strategy` | `cm:interests-vs-positions` | `cm:batna`, `cm:distributive-negotiation`, `cm:integrative-negotiation`, `cm:negotiation-preparation`, `cm:salary-negotiation` |
 | 2.12 | `cm:first-offer` | `cm:interests-vs-positions` | `cm:batna`, `cm:distributive-negotiation`, `cm:integrative-negotiation`, `cm:negotiation-preparation`, `cm:salary-negotiation` |
 | 2.12 | `cm:camera-level-gaze` | `cm:proxemics` | `cm:eye-contact`, `cm:michael-argyle`, `cm:nonverbal-communication`, `cm:rapport`, `cm:video-call-communication` |
-| 2.12 | `cm:rapport` | `cm:video-call-communication` | `cm:camera-level-gaze`, `cm:channel-selection`, `cm:credibility`, `cm:face-to-face-conversation`, `cm:nonverbal-communication` |
+| 2.12 | `cm:describe-analyze-evaluate` | `cm:hofstede-cultural-dimensions` | `cm:cultural-intelligence`, `cm:direct-vs-indirect-feedback`, `cm:ethnocentrism`, `cm:high-and-low-context-cultures`, `cm:intercultural-communication` |
