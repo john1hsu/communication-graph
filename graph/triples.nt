@@ -5626,6 +5626,43 @@
 <https://github.com/john1hsu/communication-graph/id/presentation> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/presenting-and-public-speaking/presentation.md" .
 <https://github.com/john1hsu/communication-graph/id/presentation> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/presentation> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
+<https://github.com/john1hsu/communication-graph/id/principled-negotiation> <http://purl.org/dc/terms/created> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/principled-negotiation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Framework> .
+<https://github.com/john1hsu/communication-graph/id/principled-negotiation> <http://www.w3.org/2000/01/rdf-schema#label> "Principled negotiation" .
+<https://github.com/john1hsu/communication-graph/id/principled-negotiation> <http://www.w3.org/2004/02/skos/core#altLabel> "Getting to Yes method" .
+<https://github.com/john1hsu/communication-graph/id/principled-negotiation> <http://www.w3.org/2004/02/skos/core#altLabel> "Harvard method of negotiation" .
+<https://github.com/john1hsu/communication-graph/id/principled-negotiation> <http://www.w3.org/2004/02/skos/core#altLabel> "negotiation on the merits" .
+<https://github.com/john1hsu/communication-graph/id/principled-negotiation> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/negotiation> .
+<https://github.com/john1hsu/communication-graph/id/principled-negotiation> <http://www.w3.org/2004/02/skos/core#definition> "The four-part negotiation method from the Harvard Negotiation Project and *Getting to Yes*: separate the people from the problem, focus on interests rather than positions, invent options for mutual gain, and insist on objective criteria, with a BATNA as the test of any deal." .
+<https://github.com/john1hsu/communication-graph/id/principled-negotiation> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/negotiation> .
+<https://github.com/john1hsu/communication-graph/id/principled-negotiation> <http://www.w3.org/2004/02/skos/core#prefLabel> "Principled negotiation" .
+<https://github.com/john1hsu/communication-graph/id/principled-negotiation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+<https://github.com/john1hsu/communication-graph/id/principled-negotiation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/batna> .
+<https://github.com/john1hsu/communication-graph/id/principled-negotiation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/distributive-negotiation> .
+<https://github.com/john1hsu/communication-graph/id/principled-negotiation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> .
+<https://github.com/john1hsu/communication-graph/id/principled-negotiation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/influence-without-authority> .
+<https://github.com/john1hsu/communication-graph/id/principled-negotiation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/integrative-negotiation> .
+<https://github.com/john1hsu/communication-graph/id/principled-negotiation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/interests-vs-positions> .
+<https://github.com/john1hsu/communication-graph/id/principled-negotiation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers> .
+<https://github.com/john1hsu/communication-graph/id/principled-negotiation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/negotiation-preparation> .
+<https://github.com/john1hsu/communication-graph/id/principled-negotiation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/principled-negotiation/s1> .
+<https://github.com/john1hsu/communication-graph/id/principled-negotiation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/principled-negotiation/s2> .
+<https://github.com/john1hsu/communication-graph/id/principled-negotiation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/principled-negotiation/s3> .
+<https://github.com/john1hsu/communication-graph/id/principled-negotiation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/principled-negotiation/s4> .
+<https://github.com/john1hsu/communication-graph/id/principled-negotiation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/principled-negotiation/s5> .
+<https://github.com/john1hsu/communication-graph/id/principled-negotiation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/principled-negotiation/s6> .
+<https://github.com/john1hsu/communication-graph/id/principled-negotiation> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/positional-bargaining> .
+<https://github.com/john1hsu/communication-graph/id/principled-negotiation> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/salary-negotiation> .
+<https://github.com/john1hsu/communication-graph/id/principled-negotiation> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/schoen-2022> .
+<https://github.com/john1hsu/communication-graph/id/principled-negotiation> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/the-pros-and-cons-of-getting-to-yes> .
+<https://github.com/john1hsu/communication-graph/id/principled-negotiation> <https://github.com/john1hsu/communication-graph/ontology#domain> "negotiation" .
+<https://github.com/john1hsu/communication-graph/id/principled-negotiation> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/principled-negotiation> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/negotiation/principled-negotiation.md" .
+<https://github.com/john1hsu/communication-graph/id/principled-negotiation> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/roger-fisher> .
+<https://github.com/john1hsu/communication-graph/id/principled-negotiation> <https://github.com/john1hsu/communication-graph/ontology#introducedIn> <https://github.com/john1hsu/communication-graph/id/getting-to-yes> .
+<https://github.com/john1hsu/communication-graph/id/principled-negotiation> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/principled-negotiation> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/interests-vs-positions> .
+<https://github.com/john1hsu/communication-graph/id/principled-negotiation> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/thompson-1991> .
 <https://github.com/john1hsu/communication-graph/id/proxemics> <http://purl.org/dc/terms/created> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/proxemics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
 <https://github.com/john1hsu/communication-graph/id/proxemics> <http://www.w3.org/2000/01/rdf-schema#label> "Proxemics" .
@@ -10722,6 +10759,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/presentation/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/presentation/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
 <https://github.com/john1hsu/communication-graph/id/source/presentation/s6> <https://schema.org/url> <https://www.wm.edu/as/wcc/newresources/handouts/oral-presentations.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/principled-negotiation/s1> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/principled-negotiation/s1> <http://purl.org/dc/terms/publisher> "Katie Shonk, Program on Negotiation at Harvard Law School (Daily Blog), 2026" .
+<https://github.com/john1hsu/communication-graph/id/source/principled-negotiation/s1> <http://purl.org/dc/terms/title> "Principled Negotiation: Focus on Interests to Create Value" .
+<https://github.com/john1hsu/communication-graph/id/source/principled-negotiation/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/principled-negotiation/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/principled-negotiation/s1> <https://schema.org/url> <https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/> .
+<https://github.com/john1hsu/communication-graph/id/source/principled-negotiation/s2> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/principled-negotiation/s2> <http://purl.org/dc/terms/publisher> "Katie Shonk, Program on Negotiation at Harvard Law School (Daily Blog), 2026" .
+<https://github.com/john1hsu/communication-graph/id/source/principled-negotiation/s2> <http://purl.org/dc/terms/title> "Using Principled Negotiation to Resolve Disagreements" .
+<https://github.com/john1hsu/communication-graph/id/source/principled-negotiation/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/principled-negotiation/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/principled-negotiation/s2> <https://schema.org/url> <https://www.pon.harvard.edu/daily/dispute-resolution/principled-negotiation-resolve-disagreements> .
+<https://github.com/john1hsu/communication-graph/id/source/principled-negotiation/s3> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/principled-negotiation/s3> <http://purl.org/dc/terms/publisher> "Program on Negotiation at Harvard Law School" .
+<https://github.com/john1hsu/communication-graph/id/source/principled-negotiation/s3> <http://purl.org/dc/terms/title> "History of the Harvard Negotiation Project" .
+<https://github.com/john1hsu/communication-graph/id/source/principled-negotiation/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/principled-negotiation/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/principled-negotiation/s3> <https://schema.org/url> <https://www.pon.harvard.edu/history-of-the-harvard-negotiation-project/> .
+<https://github.com/john1hsu/communication-graph/id/source/principled-negotiation/s4> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/principled-negotiation/s4> <http://purl.org/dc/terms/publisher> "Leigh Thompson, Journal of Experimental Social Psychology, issue 2, 161-179, 1991 (Kellogg School of Management research record)" .
+<https://github.com/john1hsu/communication-graph/id/source/principled-negotiation/s4> <http://purl.org/dc/terms/title> "Information exchange in negotiation" .
+<https://github.com/john1hsu/communication-graph/id/source/principled-negotiation/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/principled-negotiation/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/principled-negotiation/s4> <https://schema.org/url> <https://www.kellogg.northwestern.edu/academics-research/research/detail/1991/information-exchange-in-negotiation> .
+<https://github.com/john1hsu/communication-graph/id/source/principled-negotiation/s5> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/principled-negotiation/s5> <http://purl.org/dc/terms/publisher> "James J. White, Journal of Legal Education 34, 115-124, 1984 (University of Michigan Law School Scholarship Repository)" .
+<https://github.com/john1hsu/communication-graph/id/source/principled-negotiation/s5> <http://purl.org/dc/terms/title> "The Pros and Cons of Getting to YES" .
+<https://github.com/john1hsu/communication-graph/id/source/principled-negotiation/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/principled-negotiation/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/principled-negotiation/s5> <https://schema.org/url> <https://repository.law.umich.edu/reviews/82> .
+<https://github.com/john1hsu/communication-graph/id/source/principled-negotiation/s6> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/principled-negotiation/s6> <http://purl.org/dc/terms/publisher> "Raphael Schoen, International Journal of Conflict Management 33(1), 22-46, 2022 (Emerald)" .
+<https://github.com/john1hsu/communication-graph/id/source/principled-negotiation/s6> <http://purl.org/dc/terms/title> "Getting to Yes in the cross-cultural context: 'one size doesn't fit all': a critical review of principled negotiations across borders" .
+<https://github.com/john1hsu/communication-graph/id/source/principled-negotiation/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/principled-negotiation/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/principled-negotiation/s6> <https://schema.org/url> <https://www.emerald.com/insight/content/doi/10.1108/IJCMA-12-2020-0216/full/html> .
 <https://github.com/john1hsu/communication-graph/id/source/proxemics/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/proxemics/s1> <http://purl.org/dc/terms/publisher> "Edward T. Hall, American Anthropologist 65(5), 1963, pp. 1003-1026 (New Bulgarian University course copy)" .
 <https://github.com/john1hsu/communication-graph/id/source/proxemics/s1> <http://purl.org/dc/terms/title> "A System for the Notation of Proxemic Behavior" .

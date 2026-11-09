@@ -57,7 +57,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:habit-reversal-training` | 1 | Filled pauses |
 | `cm:humble-inquiry` | 1 | telling-instead-of-asking |
 
-…and 19 more.
+…and 20 more.
 
 ## Toolkit by situation
 
@@ -96,7 +96,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:executive-briefing` | `cm:issue-selling` |
 | `cm:executive-briefing` | `cm:pyramid-principle` |
 
-…and 53 more.
+…and 54 more.
 
 ## Myths and contested advice
 
@@ -135,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:channel-selection` | mixed | `cm:dennis-kinney-1998` |
 | `cm:clarity` | mixed |  |
 
-…and 86 more.
+…and 88 more.
 
 ## Concepts with no recorded origin (gap)
 

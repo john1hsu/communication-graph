@@ -9756,6 +9756,107 @@
    ]
   },
   {
+   "@id": "cm:principled-negotiation",
+   "@type": "cmo:Framework",
+   "cmo:addresses": {
+    "@id": "cm:positional-bargaining"
+   },
+   "cmo:appliedIn": {
+    "@id": "cm:salary-negotiation"
+   },
+   "cmo:challengedBy": [
+    {
+     "@id": "cm:schoen-2022"
+    },
+    {
+     "@id": "cm:the-pros-and-cons-of-getting-to-yes"
+    }
+   ],
+   "cmo:domain": "negotiation",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:file": "articles/negotiation/principled-negotiation.md",
+   "cmo:introducedBy": {
+    "@id": "cm:roger-fisher"
+   },
+   "cmo:introducedIn": {
+    "@id": "cm:getting-to-yes"
+   },
+   "cmo:level": "introductory",
+   "cmo:requires": {
+    "@id": "cm:interests-vs-positions"
+   },
+   "cmo:supportedBy": {
+    "@id": "cm:thompson-1991"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/principled-negotiation/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/principled-negotiation/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/principled-negotiation/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/principled-negotiation/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/principled-negotiation/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/principled-negotiation/s6"
+    }
+   ],
+   "rdfs:label": "Principled negotiation",
+   "skos:altLabel": [
+    "Getting to Yes method",
+    "Harvard method of negotiation",
+    "negotiation on the merits"
+   ],
+   "skos:broader": {
+    "@id": "cm:negotiation"
+   },
+   "skos:definition": "The four-part negotiation method from the Harvard Negotiation Project and *Getting to Yes*: separate the people from the problem, focus on interests rather than positions, invent options for mutual gain, and insist on objective criteria, with a BATNA as the test of any deal.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/negotiation"
+   },
+   "skos:prefLabel": "Principled negotiation",
+   "skos:related": [
+    {
+     "@id": "cm:active-listening"
+    },
+    {
+     "@id": "cm:batna"
+    },
+    {
+     "@id": "cm:distributive-negotiation"
+    },
+    {
+     "@id": "cm:high-and-low-context-cultures"
+    },
+    {
+     "@id": "cm:influence-without-authority"
+    },
+    {
+     "@id": "cm:integrative-negotiation"
+    },
+    {
+     "@id": "cm:interests-vs-positions"
+    },
+    {
+     "@id": "cm:multiple-equivalent-simultaneous-offers"
+    },
+    {
+     "@id": "cm:negotiation-preparation"
+    }
+   ]
+  },
+  {
    "@id": "cm:proxemics",
    "@type": "cmo:Concept",
    "cmo:appliedIn": [
@@ -28263,6 +28364,90 @@
    "dcterms:title": "Oral presentations (handout)",
    "schema:url": {
     "@id": "https://www.wm.edu/as/wcc/newresources/handouts/oral-presentations.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/principled-negotiation/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Katie Shonk, Program on Negotiation at Harvard Law School (Daily Blog), 2026",
+   "dcterms:title": "Principled Negotiation: Focus on Interests to Create Value",
+   "schema:url": {
+    "@id": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/principled-negotiation/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Katie Shonk, Program on Negotiation at Harvard Law School (Daily Blog), 2026",
+   "dcterms:title": "Using Principled Negotiation to Resolve Disagreements",
+   "schema:url": {
+    "@id": "https://www.pon.harvard.edu/daily/dispute-resolution/principled-negotiation-resolve-disagreements"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/principled-negotiation/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Program on Negotiation at Harvard Law School",
+   "dcterms:title": "History of the Harvard Negotiation Project",
+   "schema:url": {
+    "@id": "https://www.pon.harvard.edu/history-of-the-harvard-negotiation-project/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/principled-negotiation/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Leigh Thompson, Journal of Experimental Social Psychology, issue 2, 161-179, 1991 (Kellogg School of Management research record)",
+   "dcterms:title": "Information exchange in negotiation",
+   "schema:url": {
+    "@id": "https://www.kellogg.northwestern.edu/academics-research/research/detail/1991/information-exchange-in-negotiation"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/principled-negotiation/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "James J. White, Journal of Legal Education 34, 115-124, 1984 (University of Michigan Law School Scholarship Repository)",
+   "dcterms:title": "The Pros and Cons of Getting to YES",
+   "schema:url": {
+    "@id": "https://repository.law.umich.edu/reviews/82"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/principled-negotiation/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Raphael Schoen, International Journal of Conflict Management 33(1), 22-46, 2022 (Emerald)",
+   "dcterms:title": "Getting to Yes in the cross-cultural context: 'one size doesn't fit all': a critical review of principled negotiations across borders",
+   "schema:url": {
+    "@id": "https://www.emerald.com/insight/content/doi/10.1108/IJCMA-12-2020-0216/full/html"
    }
   },
   {
