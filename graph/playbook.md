@@ -849,6 +849,29 @@ Ask yourself:
 - In the all-group share, did I ask for new ideas from each group rather than letting the most confident group report everything?
 - Did I steer the content of the small-group conversations, or did I limit myself to running time and process?
 
+### [Brainstorming](../articles/meetings-and-facilitation/brainstorming.md) — Technique
+
+1. Frame one specific question in writing before the session, for example "What could cut our customer onboarding time from ten days to five?", and send it to participants a day ahead.
+2. Open with five to ten minutes of silent, individual writing so everyone lists their own ideas before hearing anyone else's.
+3. Pool the ideas in writing - sticky notes, a shared doc or passed cards - rather than having people call them out one at a time.
+4. Give the group a short review round to read the pooled list and build on, combine or extend others' ideas, then send people back for another brief solo round.
+5. State and enforce the ground rules - aim for quantity, welcome unusual ideas, build on others, and hold all criticism until the generation phase is over.
+6. Evaluate and shortlist in a separate step - ideally after a break - using agreed criteria and a private or simultaneous vote.
+
+*A product manager gathers seven colleagues, including a vice president, for an hour to find ways to reduce customer churn.*
+
+| Before | After |
+|---|---|
+| Let's just throw ideas out - no bad ideas! ... [VP] I think it's pricing. ... Good point. Anyone want to build on pricing? | Spend eight minutes writing every churn idea you can, one per sticky note. We'll post them all, read them silently, add new notes that build on what you see, and only then cluster and vote with dots. |
+
+**Why:** Calling ideas out lets only one person speak at a time and lets the most senior voice anchor the room; writing first and pooling in parallel removes the queue and gets every person's ideas on the wall before status shapes the discussion.
+
+Ask yourself:
+- Did everyone generate ideas on their own before hearing anyone else's?
+- Could more than one person contribute at the same moment, or did ideas wait in a speaking queue?
+- Did I keep evaluation - including my own reactions - out of the generation phase?
+- Did I separate choosing ideas from producing them, with criteria agreed in advance?
+
 ### [Facilitation](../articles/meetings-and-facilitation/facilitation.md) — Skill
 
 Ask yourself:

@@ -96,7 +96,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:executive-briefing` | `cm:issue-selling` |
 | `cm:executive-briefing` | `cm:pyramid-principle` |
 
-…and 54 more.
+…and 55 more.
 
 ## Myths and contested advice
 
@@ -105,6 +105,8 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | node | status | challenger |
 |---|---|---|
 | `cm:anxiety-reappraisal` | contested | `cm:poynter-smith-pasqualini-2025` |
+| `cm:brainstorming` | contested | `cm:diehl-stroebe-1987` |
+| `cm:brainstorming` | contested | `cm:mullen-johnson-salas-1991` |
 | `cm:chen-2002` | contested | `cm:horstmann-linke-2022` |
 | `cm:feedback-sandwich` | contested | `cm:bottini-gillis-2021` |
 | `cm:feedback-sandwich` | contested | `cm:henley-digennaro-reed-2015` |
@@ -132,10 +134,8 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:batna` | mixed | `cm:schaerer-swaab-galinsky-2015` |
 | `cm:camera-level-gaze` | mixed |  |
 | `cm:camera-optional-norm` | mixed | `cm:bennett-et-al-2021` |
-| `cm:channel-selection` | mixed | `cm:dennis-kinney-1998` |
-| `cm:clarity` | mixed |  |
 
-…and 88 more.
+…and 90 more.
 
 ## Concepts with no recorded origin (gap)
 

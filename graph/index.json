@@ -1315,6 +1315,120 @@
   ]
  },
  {
+  "id": "cm:brainstorming",
+  "title": "Brainstorming",
+  "aliases": [
+   "brainstorm session",
+   "group brainstorming",
+   "Osborn brainstorming"
+  ],
+  "type": "Technique",
+  "domain": "meetings-and-facilitation",
+  "level": "introductory",
+  "evidenceStatus": "contested",
+  "file": "articles/meetings-and-facilitation/brainstorming.md",
+  "created": "2026-11-09",
+  "summary": "A group idea-generation method, introduced by advertising executive Alex Osborn, in which people produce as many ideas as possible on one question while deferring criticism; research shows the classic talk-it-out version yields fewer ideas than the same people working alone, so effective practice mixes solo or written idea generation with group building and later evaluation.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:facilitation"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "cm:group-decision-making"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:nominal-group-technique"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:1-2-4-all"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:production-blocking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:unequal-participation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:psychological-safety"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:workplace-meetings"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:alex-osborn",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedIn",
+    "object": "cm:your-creative-power",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:diehl-stroebe-1987",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:mullen-johnson-salas-1991",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:alternativeTo",
+    "object": "cm:brainwriting",
+    "source": "s6",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:workplace-meetings",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Did everyone generate ideas on their own before hearing anyone else's?",
+   "Could more than one person contribute at the same moment, or did ideas wait in a speaking queue?",
+   "Did I keep evaluation - including my own reactions - out of the generation phase?",
+   "Did I separate choosing ideas from producing them, with criteria agreed in advance?"
+  ],
+  "steps": [
+   "Frame one specific question in writing before the session, for example \"What could cut our customer onboarding time from ten days to five?\", and send it to participants a day ahead.",
+   "Open with five to ten minutes of silent, individual writing so everyone lists their own ideas before hearing anyone else's.",
+   "Pool the ideas in writing - sticky notes, a shared doc or passed cards - rather than having people call them out one at a time.",
+   "Give the group a short review round to read the pooled list and build on, combine or extend others' ideas, then send people back for another brief solo round.",
+   "State and enforce the ground rules - aim for quantity, welcome unusual ideas, build on others, and hold all criticism until the generation phase is over.",
+   "Evaluate and shortlist in a separate step - ideally after a break - using agreed criteria and a private or simultaneous vote."
+  ],
+  "example": {
+   "situation": "A product manager gathers seven colleagues, including a vice president, for an hour to find ways to reduce customer churn.",
+   "before": "Let's just throw ideas out - no bad ideas! ... [VP] I think it's pricing. ... Good point. Anyone want to build on pricing?",
+   "after": "Spend eight minutes writing every churn idea you can, one per sticky note. We'll post them all, read them silently, add new notes that build on what you see, and only then cluster and vote with dots.",
+   "why": "Calling ideas out lets only one person speak at a time and lets the most senior voice anchor the room; writing first and pooling in parallel removes the queue and gets every person's ideas on the wall before status shapes the discussion."
+  },
+  "source_urls": [
+   "https://creativity.buffalostate.edu/alex-osborn-archives",
+   "https://homepages.se.edu/cvonbergen/files/2013/01/Productivity-Loss-In-Brainstorming_Toward-the-Solution-of-a-Riddle.pdf",
+   "https://www.scilit.net/publications/e7218c55746018a0c3a5fc3d0a54871a",
+   "https://research.rug.nl/en/publications/production-blocking-and-idea-generation-does-blocking-interfere-w/",
+   "https://cris.iucc.ac.il/en/publications/asynchronous-brainstorming-in-an-industrial-setting/",
+   "https://psychologicalscience.org/?p=121811"
+  ]
+ },
+ {
   "id": "cm:camera-level-gaze",
   "title": "Camera-level gaze on video calls",
   "aliases": [
