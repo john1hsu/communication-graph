@@ -2523,6 +2523,100 @@
    ]
   },
   {
+   "@id": "cm:culture-assimilator",
+   "@type": "cmo:Technique",
+   "cmo:appliedIn": {
+    "@id": "cm:multicultural-team"
+   },
+   "cmo:demonstratedBy": {
+    "@id": "cm:bhawuk-1998"
+   },
+   "cmo:develops": [
+    {
+     "@id": "cm:cultural-intelligence"
+    },
+    {
+     "@id": "cm:intercultural-competence"
+    }
+   ],
+   "cmo:domain": "cross-cultural-communication",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/culture-assimilator/example"
+   },
+   "cmo:file": "articles/cross-cultural-communication/culture-assimilator.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/culture-assimilator/howto"
+   },
+   "cmo:introducedBy": [
+    {
+     "@id": "cm:fred-fiedler"
+    },
+    {
+     "@id": "cm:harry-triandis"
+    }
+   ],
+   "cmo:level": "intermediate",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/culture-assimilator/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/culture-assimilator/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/culture-assimilator/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/culture-assimilator/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/culture-assimilator/s5"
+    }
+   ],
+   "rdfs:label": "Culture assimilator",
+   "skos:altLabel": [
+    "critical-incident attribution training",
+    "cultural assimilator",
+    "intercultural sensitizer"
+   ],
+   "skos:broader": {
+    "@id": "cm:cross-cultural-training"
+   },
+   "skos:definition": "A self-paced training method built from short, real critical incidents of cross-cultural misunderstanding: for each one the learner picks the most likely explanation from several options and gets feedback on why each is right or wrong, so they learn to interpret colleagues' behaviour the way people from that culture would.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/cross-cultural-communication"
+   },
+   "skos:prefLabel": "Culture assimilator",
+   "skos:related": [
+    {
+     "@id": "cm:cultural-intelligence"
+    },
+    {
+     "@id": "cm:describe-analyze-evaluate"
+    },
+    {
+     "@id": "cm:ethnocentrism"
+    },
+    {
+     "@id": "cm:intercultural-competence"
+    },
+    {
+     "@id": "cm:li-2021-cross-cultural-training-meta-analysis"
+    },
+    {
+     "@id": "cm:multicultural-team"
+    },
+    {
+     "@id": "cm:perspective-taking"
+    }
+   ]
+  },
+  {
    "@id": "cm:curse-of-knowledge",
    "@type": "cmo:Barrier",
    "cmo:causes": {
@@ -14163,6 +14257,99 @@
    "rdfs:label": "After the exchange, what did I learn about this person or group that I should test next time instead of generalising?"
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/culture-assimilator/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:culture-assimilator"
+   },
+   "rdfs:label": "When a colleague's behaviour surprised me, did I list more than one explanation before settling on mine?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/culture-assimilator/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:culture-assimilator"
+   },
+   "rdfs:label": "Would someone from their culture pick the same explanation I picked?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/culture-assimilator/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:culture-assimilator"
+   },
+   "rdfs:label": "Is the lesson I took from an incident a tested hypothesis about this team or a stereotype about a whole country?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/culture-assimilator/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "I worked through the team's incident pack. One scene matched ours: silence in a group call often signals a problem the speaker can't raise in front of seniors. I'll ask for risks in writing before each call and check in one-to-one.",
+   "cmo:before": "Their engineers never push back in our calls, then miss dates. I'll tell them plainly that silence means agreement and they need to speak up.",
+   "cmo:situation": "A project manager onboarding to a supplier team in another country after a tense first week.",
+   "cmo:why": "The manager swapped a first-instinct explanation (they are passive or careless) for one locals would give, and changed the channel to fit it instead of lecturing the team."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/culture-assimilator/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Culture assimilator",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/culture-assimilator/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/culture-assimilator/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/culture-assimilator/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/culture-assimilator/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/culture-assimilator/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/culture-assimilator/howto/6"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/culture-assimilator/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Collect real incidents from people who have worked across the two cultures, choosing moments that surprised, annoyed or confused someone."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/culture-assimilator/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Write each incident as a short scene that describes who did what and how people reacted, without giving the reason."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/culture-assimilator/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Draft three or four plausible explanations for each scene, including the ones your own culture would reach for first."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/culture-assimilator/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Ask colleagues from the other culture which explanation best fits, and keep only incidents where they broadly agree."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/culture-assimilator/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Write feedback for every option that explains why it is or is not likely, naming the underlying norm or value."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/culture-assimilator/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "Have learners work through the incidents alone or in pairs, then debrief what surprised them and test the lessons in real exchanges."
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/curse-of-knowledge/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -20609,6 +20796,76 @@
    "dcterms:title": "Work-related outcomes of cultural intelligence",
    "schema:url": {
     "@id": "https://www.sdu.dk/en/om-sdu/institutter-centre/i_virksomhedsledelse/forskning/forskningsprojekter/cross-cultural-research/research-in-the-spotlight/work-related-outcomes-of-cultural-intelligence"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/culture-assimilator/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Mitchell, Dossett, Fiedler & Triandis, Technical Report 71-28, Organizational Research, University of Washington, August 1971 (Defense Technical Information Center)",
+   "dcterms:title": "Culture Training: Validation Evidence for the Culture Assimilator",
+   "schema:url": {
+    "@id": "https://apps.dtic.mil/sti/pdfs/AD0731082.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/culture-assimilator/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Bhawuk, Journal of Cross-Cultural Psychology 29, 1998, pp. 630-655, doi:10.1177/0022022198295003 (Princeton Prejudice Reduction database record)",
+   "dcterms:title": "The role of culture theory in cross-cultural training: A multimethod study of culture-specific, culture-general, and culture theory-based assimilators",
+   "schema:url": {
+    "@id": "https://prejudicereduction.princeton.edu/publications/role-culture-theory-cross-cultural-training-multimethod-study-culture-specific-culture"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/culture-assimilator/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Randolph, Landis & Tzeng, International Journal of Intercultural Relations 1, 1977, pp. 105-119, doi:10.1016/0147-1767(77)90034-7 (Princeton Prejudice Reduction database record)",
+   "dcterms:title": "The effects of time and practice upon culture assimilator training",
+   "schema:url": {
+    "@id": "https://prejudicereduction.princeton.edu/publications/effects-time-and-practice-upon-culture-assimilator-training"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/culture-assimilator/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Earley & Peterson, Academy of Management Learning and Education 3(1), 2004, pp. 100-115 (author copy, Cultural Intelligence Center)",
+   "dcterms:title": "The Elusive Cultural Chameleon: Cultural Intelligence as a New Approach to Intercultural Training for the Global Manager",
+   "schema:url": {
+    "@id": "https://culturalq.com/wp-content/uploads/2016/07/AMLE-2004-Earley-Peterson.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/culture-assimilator/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Engelking, Frontiers - The Interdisciplinary Journal of Study Abroad 30(2), 2018, pp. 47-62 (ERIC full text)",
+   "dcterms:title": "Joe's Laundry: Using Critical Incidents to Develop Intercultural and Foreign Language Competence in Study Abroad and Beyond",
+   "schema:url": {
+    "@id": "https://files.eric.ed.gov/fulltext/EJ1178964.pdf"
    }
   },
   {

@@ -2907,6 +2907,118 @@
   ]
  },
  {
+  "id": "cm:culture-assimilator",
+  "title": "Culture assimilator",
+  "aliases": [
+   "intercultural sensitizer",
+   "cultural assimilator",
+   "critical-incident attribution training"
+  ],
+  "type": "Technique",
+  "domain": "cross-cultural-communication",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/cross-cultural-communication/culture-assimilator.md",
+  "created": "2026-11-09",
+  "summary": "A self-paced training method built from short, real critical incidents of cross-cultural misunderstanding: for each one the learner picks the most likely explanation from several options and gets feedback on why each is right or wrong, so they learn to interpret colleagues' behaviour the way people from that culture would.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:cross-cultural-training"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:cultural-intelligence"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:intercultural-competence"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:ethnocentrism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:describe-analyze-evaluate"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:perspective-taking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:li-2021-cross-cultural-training-meta-analysis"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:multicultural-team"
+   },
+   {
+    "predicate": "cmo:develops",
+    "object": "cm:cultural-intelligence",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:develops",
+    "object": "cm:intercultural-competence",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:harry-triandis",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:fred-fiedler",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:bhawuk-1998",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:multicultural-team",
+    "source": "s1",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "When a colleague's behaviour surprised me, did I list more than one explanation before settling on mine?",
+   "Would someone from their culture pick the same explanation I picked?",
+   "Is the lesson I took from an incident a tested hypothesis about this team or a stereotype about a whole country?"
+  ],
+  "steps": [
+   "Collect real incidents from people who have worked across the two cultures, choosing moments that surprised, annoyed or confused someone.",
+   "Write each incident as a short scene that describes who did what and how people reacted, without giving the reason.",
+   "Draft three or four plausible explanations for each scene, including the ones your own culture would reach for first.",
+   "Ask colleagues from the other culture which explanation best fits, and keep only incidents where they broadly agree.",
+   "Write feedback for every option that explains why it is or is not likely, naming the underlying norm or value.",
+   "Have learners work through the incidents alone or in pairs, then debrief what surprised them and test the lessons in real exchanges."
+  ],
+  "example": {
+   "situation": "A project manager onboarding to a supplier team in another country after a tense first week.",
+   "before": "Their engineers never push back in our calls, then miss dates. I'll tell them plainly that silence means agreement and they need to speak up.",
+   "after": "I worked through the team's incident pack. One scene matched ours: silence in a group call often signals a problem the speaker can't raise in front of seniors. I'll ask for risks in writing before each call and check in one-to-one.",
+   "why": "The manager swapped a first-instinct explanation (they are passive or careless) for one locals would give, and changed the channel to fit it instead of lecturing the team."
+  },
+  "source_urls": [
+   "https://apps.dtic.mil/sti/pdfs/AD0731082.pdf",
+   "https://prejudicereduction.princeton.edu/publications/role-culture-theory-cross-cultural-training-multimethod-study-culture-specific-culture",
+   "https://prejudicereduction.princeton.edu/publications/effects-time-and-practice-upon-culture-assimilator-training",
+   "https://culturalq.com/wp-content/uploads/2016/07/AMLE-2004-Earley-Peterson.pdf",
+   "https://files.eric.ed.gov/fulltext/EJ1178964.pdf"
+  ]
+ },
+ {
   "id": "cm:curse-of-knowledge",
   "title": "Curse of knowledge",
   "aliases": [

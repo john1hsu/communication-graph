@@ -12,9 +12,7 @@ _No results._
 
 _Which written skills or dispositions have no technique, framework or principle that develops them?_ — `queries/02-skills-without-practice.rq`
 
-| skill | type |
-|---|---|
-| `cm:cultural-intelligence` | cmo:Skill |
+_No results._
 
 ## Situations, channels and formats with no guidance (gap)
 
@@ -32,6 +30,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:concise-writing` | 3 | Information overload, subtraction-neglect, wordiness |
 | `cm:paramedic-method` | 3 | Concise writing, official-style, wordiness |
 | `cm:self-recording-playback` | 3 | Gesturing while speaking, Public speaking anxiety, public-speaking |
+| `cm:culture-assimilator` | 2 | Cultural intelligence, intercultural-competence |
 | `cm:describe-analyze-evaluate` | 2 | Ethnocentrism, intercultural-competence |
 | `cm:facilitation` | 2 | Interrupting, unequal-participation |
 | `cm:i-statements` | 2 | Defensiveness, accusatory-you-statements |
@@ -57,9 +56,8 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:feedforward` | 1 | Defensiveness |
 | `cm:habit-reversal-training` | 1 | Filled pauses |
 | `cm:humble-inquiry` | 1 | telling-instead-of-asking |
-| `cm:integrative-negotiation` | 1 | mythical-fixed-pie |
 
-…and 18 more.
+…and 19 more.
 
 ## Toolkit by situation
 
@@ -98,7 +96,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:executive-briefing` | `cm:words-of-estimative-probability` |
 | `cm:face-to-face-conversation` | `cm:eye-contact` |
 
-…and 46 more.
+…and 47 more.
 
 ## Myths and contested advice
 
@@ -137,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:clarity` | mixed |  |
 | `cm:cognitive-load` | mixed | `cm:de-jong-2010` |
 
-…and 79 more.
+…and 80 more.
 
 ## Concepts with no recorded origin (gap)
 

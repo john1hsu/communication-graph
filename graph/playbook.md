@@ -99,6 +99,28 @@ Ask yourself:
 - Did I adapt something concrete, such as pace, wording, the channel or who speaks first, rather than only intending to be sensitive?
 - After the exchange, what did I learn about this person or group that I should test next time instead of generalising?
 
+### [Culture assimilator](../articles/cross-cultural-communication/culture-assimilator.md) — Technique
+
+1. Collect real incidents from people who have worked across the two cultures, choosing moments that surprised, annoyed or confused someone.
+2. Write each incident as a short scene that describes who did what and how people reacted, without giving the reason.
+3. Draft three or four plausible explanations for each scene, including the ones your own culture would reach for first.
+4. Ask colleagues from the other culture which explanation best fits, and keep only incidents where they broadly agree.
+5. Write feedback for every option that explains why it is or is not likely, naming the underlying norm or value.
+6. Have learners work through the incidents alone or in pairs, then debrief what surprised them and test the lessons in real exchanges.
+
+*A project manager onboarding to a supplier team in another country after a tense first week.*
+
+| Before | After |
+|---|---|
+| Their engineers never push back in our calls, then miss dates. I'll tell them plainly that silence means agreement and they need to speak up. | I worked through the team's incident pack. One scene matched ours: silence in a group call often signals a problem the speaker can't raise in front of seniors. I'll ask for risks in writing before each call and check in one-to-one. |
+
+**Why:** The manager swapped a first-instinct explanation (they are passive or careless) for one locals would give, and changed the channel to fit it instead of lecturing the team.
+
+Ask yourself:
+- When a colleague's behaviour surprised me, did I list more than one explanation before settling on mine?
+- Would someone from their culture pick the same explanation I picked?
+- Is the lesson I took from an incident a tested hypothesis about this team or a stereotype about a whole country?
+
 ### [Describe-analyze-evaluate](../articles/cross-cultural-communication/describe-analyze-evaluate.md) — Technique
 
 1. When a colleague's behaviour surprises or irritates you, pause before replying and write down only what you saw or heard, in words a camera could confirm.

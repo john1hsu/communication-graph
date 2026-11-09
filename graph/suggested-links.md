@@ -5,6 +5,7 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | Score | Node A | Node B | Shared neighbours |
 |---|---|---|---|
 | 3.57 | `cm:integrative-negotiation` | `cm:negotiation-preparation` | `cm:batna`, `cm:concession-strategy`, `cm:first-offer`, `cm:interests-vs-positions`, `cm:multiple-equivalent-simultaneous-offers` |
+| 3.54 | `cm:culture-assimilator` | `cm:intercultural-communication` | `cm:cultural-intelligence`, `cm:describe-analyze-evaluate`, `cm:ethnocentrism`, `cm:intercultural-competence`, `cm:li-2021-cross-cultural-training-meta-analysis` |
 | 2.97 | `cm:audience-analysis` | `cm:credibility` | `cm:aristotles-rhetoric`, `cm:communicating-uncertainty`, `cm:elaboration-likelihood-model`, `cm:influence-without-authority`, `cm:issue-selling` |
 | 2.91 | `cm:difficult-conversation` | `cm:situation-behavior-impact` | `cm:active-listening`, `cm:defensiveness`, `cm:feedback`, `cm:i-statements`, `cm:nonviolent-communication` |
 | 2.76 | `cm:integrative-negotiation` | `cm:reservation-value` | `cm:batna`, `cm:concession-strategy`, `cm:distributive-negotiation`, `cm:first-offer`, `cm:multiple-equivalent-simultaneous-offers` |
@@ -23,9 +24,8 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 2.15 | `cm:curse-of-knowledge` | `cm:nicholas-epley` | `cm:anchoring-and-adjustment`, `cm:channel-selection`, `cm:egocentric-bias`, `cm:illusion-of-transparency`, `cm:michael-ross` |
 | 2.15 | `cm:rapport` | `cm:video-call-communication` | `cm:camera-level-gaze`, `cm:channel-selection`, `cm:credibility`, `cm:face-to-face-conversation`, `cm:nonverbal-communication` |
 | 2.14 | `cm:audience-analysis` | `cm:illusion-of-transparency` | `cm:clarity`, `cm:common-ground`, `cm:communicating-uncertainty`, `cm:curse-of-knowledge`, `cm:email` |
-| 2.14 | `cm:describe-analyze-evaluate` | `cm:hofstede-cultural-dimensions` | `cm:cultural-intelligence`, `cm:direct-vs-indirect-feedback`, `cm:ethnocentrism`, `cm:high-and-low-context-cultures`, `cm:intercultural-communication` |
-| 2.14 | `cm:describe-analyze-evaluate` | `cm:the-culture-map` | `cm:cultural-intelligence`, `cm:direct-vs-indirect-feedback`, `cm:ethnocentrism`, `cm:high-and-low-context-cultures`, `cm:intercultural-communication` |
 | 2.13 | `cm:egocentric-bias` | `cm:macinnis-mackinnon-macintyre-2010` | `cm:anchoring-and-adjustment`, `cm:gilovich-savitsky-medvec-1998`, `cm:illusion-of-transparency`, `cm:social-psychology`, `cm:spotlight-effect` |
+| 2.12 | `cm:describe-analyze-evaluate` | `cm:hofstede-cultural-dimensions` | `cm:cultural-intelligence`, `cm:direct-vs-indirect-feedback`, `cm:ethnocentrism`, `cm:high-and-low-context-cultures`, `cm:intercultural-communication` |
+| 2.12 | `cm:describe-analyze-evaluate` | `cm:the-culture-map` | `cm:cultural-intelligence`, `cm:direct-vs-indirect-feedback`, `cm:ethnocentrism`, `cm:high-and-low-context-cultures`, `cm:intercultural-communication` |
 | 2.11 | `cm:bottom-line-up-front` | `cm:readability-formulas` | `cm:audience-analysis`, `cm:clarity`, `cm:cognitive-load`, `cm:concise-writing`, `cm:effective-writing-for-army-leaders` |
 | 2.07 | `cm:i-statements` | `cm:weger-et-al-2014` | `cm:active-listening`, `cm:paraphrasing`, `cm:thomas-gordon` |
-| 2.05 | `cm:egocentric-bias` | `cm:teach-back` | `cm:checking-understanding`, `cm:clarity`, `cm:common-ground`, `cm:curse-of-knowledge`, `cm:illusion-of-transparency` |
