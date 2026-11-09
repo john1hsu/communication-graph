@@ -170,11 +170,11 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:rapport` | cmo:Concept |
 | `cm:reciprocal-self-disclosure` | cmo:Technique |
 | `cm:refutational-two-sided-messages` | cmo:Technique |
+| `cm:reservation-value` | cmo:Concept |
 | `cm:salary-negotiation` | cmo:Context |
 | `cm:scheduled-inbox-checks` | cmo:Technique |
-| `cm:self-affirmation-before-feedback` | cmo:Technique |
 
-…and 12 more.
+…and 13 more.
 
 ## Orphan articles (gap)
 

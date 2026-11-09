@@ -9729,6 +9729,96 @@
    ]
   },
   {
+   "@id": "cm:reservation-value",
+   "@type": "cmo:Concept",
+   "cmo:complements": [
+    {
+     "@id": "cm:batna"
+    },
+    {
+     "@id": "cm:zone-of-possible-agreement"
+    }
+   ],
+   "cmo:contrastsWith": {
+    "@id": "cm:target-point"
+   },
+   "cmo:demonstratedBy": {
+    "@id": "cm:galinsky-mussweiler-medvec-2002"
+   },
+   "cmo:domain": "negotiation",
+   "cmo:evidenceStatus": "theoretical",
+   "cmo:file": "articles/negotiation/reservation-value.md",
+   "cmo:level": "introductory",
+   "cmo:requires": {
+    "@id": "cm:batna"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/reservation-value/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/reservation-value/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/reservation-value/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/reservation-value/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/reservation-value/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/reservation-value/s6"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/reservation-value/s7"
+    }
+   ],
+   "rdfs:label": "Reservation value",
+   "skos:altLabel": [
+    "bottom line in negotiation",
+    "reservation point",
+    "reservation price",
+    "resistance point",
+    "walk-away point"
+   ],
+   "skos:broader": [
+    {
+     "@id": "cm:distributive-negotiation"
+    },
+    {
+     "@id": "cm:negotiation-preparation"
+    }
+   ],
+   "skos:definition": "The worst deal you would still accept rather than walk away - the point of indifference between agreeing and taking your best alternative. It is calculated from your BATNA before talks begin, kept private, and used as a firm floor (or ceiling), not as the goal you aim for.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/negotiation"
+   },
+   "skos:prefLabel": "Reservation value",
+   "skos:related": [
+    {
+     "@id": "cm:anchoring-and-adjustment"
+    },
+    {
+     "@id": "cm:concession-strategy"
+    },
+    {
+     "@id": "cm:first-offer"
+    },
+    {
+     "@id": "cm:multiple-equivalent-simultaneous-offers"
+    },
+    {
+     "@id": "cm:salary-negotiation"
+    }
+   ]
+  },
+  {
    "@id": "cm:risk-numbers-as-natural-frequencies",
    "@type": "cmo:Technique",
    "cmo:addresses": {
@@ -26652,6 +26742,104 @@
    "dcterms:title": "The Necessary Art of Persuasion",
    "schema:url": {
     "@id": "https://depts.washington.edu/edgh/namibia-lio/files/necessary_art_of_persuasion.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/reservation-value/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Program on Negotiation at Harvard Law School, 2012 (course-reading copy hosted by the University of Macedonia)",
+   "dcterms:title": "BATNA Basics: Boost Your Power at the Bargaining Table (Special Report)",
+   "schema:url": {
+    "@id": "https://openeclass.uom.gr/modules/document/file.php/UNI390/READING%20MATERIAL/HLS_PON_FR12_BATNA_2023d.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/reservation-value/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Lewicki, Barry and Saunders, McGraw-Hill Education, 2015 (Online Learning Center)",
+   "dcterms:title": "Negotiation, 7th edition - Chapter 2 summary (Strategy and Tactics of Distributive Bargaining)",
+   "schema:url": {
+    "@id": "https://highered.mheducation.com/sites/0078029449/student_view0/chapter2/chapter_summary.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/reservation-value/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Galinsky, Mussweiler and Medvec, Journal of Personality and Social Psychology 83(5), 1131-1140, 2002 (Kellogg School of Management research listing)",
+   "dcterms:title": "Disconnecting outcomes and evaluations: The role of negotiator focus",
+   "schema:url": {
+    "@id": "https://www.kellogg.northwestern.edu/academics-research/research/detail/2002/disconnecting-negotiated-outcomes-and-evaluations-the-role-of-negotiator/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/reservation-value/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "PON Staff, Program on Negotiation at Harvard Law School, 2026 (first published 2012)",
+   "dcterms:title": "Reservation Point in Negotiation: Reach Negotiated Agreements by Asking the Right Questions",
+   "schema:url": {
+    "@id": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/resolve-conflict-by-asking-the-right-questions/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/reservation-value/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "PON Staff, Program on Negotiation at Harvard Law School, 2011",
+   "dcterms:title": "Defend yourself against deception",
+   "schema:url": {
+    "@id": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/defend-yourself-against-deception/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/reservation-value/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Alan Strudler, Business Ethics Quarterly 33(4), 763-776, 2023 (doi:10.1017/beq.2023.1)",
+   "dcterms:title": "Lying about Reservation Prices in Business Negotiation: A Qualified Defense",
+   "schema:url": {
+    "@id": "https://www.cambridge.org/core/product/6EC2A0A5354BB6C9612CF88B9A082E21"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/reservation-value/s7",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Howard Raiffa, Harvard University Press, 1982 (Program on Negotiation bookstore listing)",
+   "dcterms:title": "The Art and Science of Negotiation",
+   "schema:url": {
+    "@id": "https://www.pon.harvard.edu/shop/art-science-of-negotiation-the/"
    }
   },
   {

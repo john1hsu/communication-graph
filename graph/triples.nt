@@ -5665,6 +5665,40 @@
 <https://github.com/john1hsu/communication-graph/id/refutational-two-sided-messages> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/communication-graph/id/refutational-two-sided-messages> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
 <https://github.com/john1hsu/communication-graph/id/refutational-two-sided-messages> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/okeefe-1999> .
+<https://github.com/john1hsu/communication-graph/id/reservation-value> <http://purl.org/dc/terms/created> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/reservation-value> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+<https://github.com/john1hsu/communication-graph/id/reservation-value> <http://www.w3.org/2000/01/rdf-schema#label> "Reservation value" .
+<https://github.com/john1hsu/communication-graph/id/reservation-value> <http://www.w3.org/2004/02/skos/core#altLabel> "bottom line in negotiation" .
+<https://github.com/john1hsu/communication-graph/id/reservation-value> <http://www.w3.org/2004/02/skos/core#altLabel> "reservation point" .
+<https://github.com/john1hsu/communication-graph/id/reservation-value> <http://www.w3.org/2004/02/skos/core#altLabel> "reservation price" .
+<https://github.com/john1hsu/communication-graph/id/reservation-value> <http://www.w3.org/2004/02/skos/core#altLabel> "resistance point" .
+<https://github.com/john1hsu/communication-graph/id/reservation-value> <http://www.w3.org/2004/02/skos/core#altLabel> "walk-away point" .
+<https://github.com/john1hsu/communication-graph/id/reservation-value> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/distributive-negotiation> .
+<https://github.com/john1hsu/communication-graph/id/reservation-value> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/negotiation-preparation> .
+<https://github.com/john1hsu/communication-graph/id/reservation-value> <http://www.w3.org/2004/02/skos/core#definition> "The worst deal you would still accept rather than walk away - the point of indifference between agreeing and taking your best alternative. It is calculated from your BATNA before talks begin, kept private, and used as a firm floor (or ceiling), not as the goal you aim for." .
+<https://github.com/john1hsu/communication-graph/id/reservation-value> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/negotiation> .
+<https://github.com/john1hsu/communication-graph/id/reservation-value> <http://www.w3.org/2004/02/skos/core#prefLabel> "Reservation value" .
+<https://github.com/john1hsu/communication-graph/id/reservation-value> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> .
+<https://github.com/john1hsu/communication-graph/id/reservation-value> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/concession-strategy> .
+<https://github.com/john1hsu/communication-graph/id/reservation-value> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/first-offer> .
+<https://github.com/john1hsu/communication-graph/id/reservation-value> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers> .
+<https://github.com/john1hsu/communication-graph/id/reservation-value> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/salary-negotiation> .
+<https://github.com/john1hsu/communication-graph/id/reservation-value> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/reservation-value/s1> .
+<https://github.com/john1hsu/communication-graph/id/reservation-value> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/reservation-value/s2> .
+<https://github.com/john1hsu/communication-graph/id/reservation-value> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/reservation-value/s3> .
+<https://github.com/john1hsu/communication-graph/id/reservation-value> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/reservation-value/s4> .
+<https://github.com/john1hsu/communication-graph/id/reservation-value> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/reservation-value/s5> .
+<https://github.com/john1hsu/communication-graph/id/reservation-value> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/reservation-value/s6> .
+<https://github.com/john1hsu/communication-graph/id/reservation-value> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/reservation-value/s7> .
+<https://github.com/john1hsu/communication-graph/id/reservation-value> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/batna> .
+<https://github.com/john1hsu/communication-graph/id/reservation-value> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> .
+<https://github.com/john1hsu/communication-graph/id/reservation-value> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/target-point> .
+<https://github.com/john1hsu/communication-graph/id/reservation-value> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/galinsky-mussweiler-medvec-2002> .
+<https://github.com/john1hsu/communication-graph/id/reservation-value> <https://github.com/john1hsu/communication-graph/ontology#domain> "negotiation" .
+<https://github.com/john1hsu/communication-graph/id/reservation-value> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "theoretical" .
+<https://github.com/john1hsu/communication-graph/id/reservation-value> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/negotiation/reservation-value.md" .
+<https://github.com/john1hsu/communication-graph/id/reservation-value> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/reservation-value> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/batna> .
 <https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Have I stated the reference group (\"out of every 1,000 ...\") before giving any count?" .
 <https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies> .
@@ -10130,6 +10164,48 @@
 <https://github.com/john1hsu/communication-graph/id/source/refutational-two-sided-messages/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/refutational-two-sided-messages/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "practitioner-journal" .
 <https://github.com/john1hsu/communication-graph/id/source/refutational-two-sided-messages/s5> <https://schema.org/url> <https://depts.washington.edu/edgh/namibia-lio/files/necessary_art_of_persuasion.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/reservation-value/s1> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/reservation-value/s1> <http://purl.org/dc/terms/publisher> "Program on Negotiation at Harvard Law School, 2012 (course-reading copy hosted by the University of Macedonia)" .
+<https://github.com/john1hsu/communication-graph/id/source/reservation-value/s1> <http://purl.org/dc/terms/title> "BATNA Basics: Boost Your Power at the Bargaining Table (Special Report)" .
+<https://github.com/john1hsu/communication-graph/id/source/reservation-value/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/reservation-value/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/reservation-value/s1> <https://schema.org/url> <https://openeclass.uom.gr/modules/document/file.php/UNI390/READING%20MATERIAL/HLS_PON_FR12_BATNA_2023d.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/reservation-value/s2> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/reservation-value/s2> <http://purl.org/dc/terms/publisher> "Lewicki, Barry and Saunders, McGraw-Hill Education, 2015 (Online Learning Center)" .
+<https://github.com/john1hsu/communication-graph/id/source/reservation-value/s2> <http://purl.org/dc/terms/title> "Negotiation, 7th edition - Chapter 2 summary (Strategy and Tactics of Distributive Bargaining)" .
+<https://github.com/john1hsu/communication-graph/id/source/reservation-value/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/reservation-value/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/communication-graph/id/source/reservation-value/s2> <https://schema.org/url> <https://highered.mheducation.com/sites/0078029449/student_view0/chapter2/chapter_summary.html> .
+<https://github.com/john1hsu/communication-graph/id/source/reservation-value/s3> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/reservation-value/s3> <http://purl.org/dc/terms/publisher> "Galinsky, Mussweiler and Medvec, Journal of Personality and Social Psychology 83(5), 1131-1140, 2002 (Kellogg School of Management research listing)" .
+<https://github.com/john1hsu/communication-graph/id/source/reservation-value/s3> <http://purl.org/dc/terms/title> "Disconnecting outcomes and evaluations: The role of negotiator focus" .
+<https://github.com/john1hsu/communication-graph/id/source/reservation-value/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/reservation-value/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/reservation-value/s3> <https://schema.org/url> <https://www.kellogg.northwestern.edu/academics-research/research/detail/2002/disconnecting-negotiated-outcomes-and-evaluations-the-role-of-negotiator/> .
+<https://github.com/john1hsu/communication-graph/id/source/reservation-value/s4> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/reservation-value/s4> <http://purl.org/dc/terms/publisher> "PON Staff, Program on Negotiation at Harvard Law School, 2026 (first published 2012)" .
+<https://github.com/john1hsu/communication-graph/id/source/reservation-value/s4> <http://purl.org/dc/terms/title> "Reservation Point in Negotiation: Reach Negotiated Agreements by Asking the Right Questions" .
+<https://github.com/john1hsu/communication-graph/id/source/reservation-value/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/reservation-value/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/reservation-value/s4> <https://schema.org/url> <https://www.pon.harvard.edu/daily/negotiation-skills-daily/resolve-conflict-by-asking-the-right-questions/> .
+<https://github.com/john1hsu/communication-graph/id/source/reservation-value/s5> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/reservation-value/s5> <http://purl.org/dc/terms/publisher> "PON Staff, Program on Negotiation at Harvard Law School, 2011" .
+<https://github.com/john1hsu/communication-graph/id/source/reservation-value/s5> <http://purl.org/dc/terms/title> "Defend yourself against deception" .
+<https://github.com/john1hsu/communication-graph/id/source/reservation-value/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/reservation-value/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/reservation-value/s5> <https://schema.org/url> <https://www.pon.harvard.edu/daily/negotiation-skills-daily/defend-yourself-against-deception/> .
+<https://github.com/john1hsu/communication-graph/id/source/reservation-value/s6> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/reservation-value/s6> <http://purl.org/dc/terms/publisher> "Alan Strudler, Business Ethics Quarterly 33(4), 763-776, 2023 (doi:10.1017/beq.2023.1)" .
+<https://github.com/john1hsu/communication-graph/id/source/reservation-value/s6> <http://purl.org/dc/terms/title> "Lying about Reservation Prices in Business Negotiation: A Qualified Defense" .
+<https://github.com/john1hsu/communication-graph/id/source/reservation-value/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/reservation-value/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/reservation-value/s6> <https://schema.org/url> <https://www.cambridge.org/core/product/6EC2A0A5354BB6C9612CF88B9A082E21> .
+<https://github.com/john1hsu/communication-graph/id/source/reservation-value/s7> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/reservation-value/s7> <http://purl.org/dc/terms/publisher> "Howard Raiffa, Harvard University Press, 1982 (Program on Negotiation bookstore listing)" .
+<https://github.com/john1hsu/communication-graph/id/source/reservation-value/s7> <http://purl.org/dc/terms/title> "The Art and Science of Negotiation" .
+<https://github.com/john1hsu/communication-graph/id/source/reservation-value/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/reservation-value/s7> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/reservation-value/s7> <https://schema.org/url> <https://www.pon.harvard.edu/shop/art-science-of-negotiation-the/> .
 <https://github.com/john1hsu/communication-graph/id/source/risk-numbers-as-natural-frequencies/s1> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/risk-numbers-as-natural-frequencies/s1> <http://purl.org/dc/terms/publisher> "Gigerenzer & Hoffrage, Psychological Review 102(4): 684-704 (1995) (course copy, UC San Diego)" .
 <https://github.com/john1hsu/communication-graph/id/source/risk-numbers-as-natural-frequencies/s1> <http://purl.org/dc/terms/title> "How to improve Bayesian reasoning without instruction: Frequency formats" .

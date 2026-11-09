@@ -11059,6 +11059,94 @@
   ]
  },
  {
+  "id": "cm:reservation-value",
+  "title": "Reservation value",
+  "aliases": [
+   "reservation point",
+   "reservation price",
+   "resistance point",
+   "walk-away point",
+   "bottom line in negotiation"
+  ],
+  "type": "Concept",
+  "domain": "negotiation",
+  "level": "introductory",
+  "evidenceStatus": "theoretical",
+  "file": "articles/negotiation/reservation-value.md",
+  "created": "2026-11-09",
+  "summary": "The worst deal you would still accept rather than walk away - the point of indifference between agreeing and taking your best alternative. It is calculated from your BATNA before talks begin, kept private, and used as a firm floor (or ceiling), not as the goal you aim for.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:distributive-negotiation"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "cm:negotiation-preparation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:first-offer"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:concession-strategy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:salary-negotiation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:anchoring-and-adjustment"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:multiple-equivalent-simultaneous-offers"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:batna"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:batna",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:zone-of-possible-agreement",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:contrastsWith",
+    "object": "cm:target-point",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:galinsky-mussweiler-medvec-2002",
+    "source": "s3",
+    "confidence": "high"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://openeclass.uom.gr/modules/document/file.php/UNI390/READING%20MATERIAL/HLS_PON_FR12_BATNA_2023d.pdf",
+   "https://highered.mheducation.com/sites/0078029449/student_view0/chapter2/chapter_summary.html",
+   "https://www.kellogg.northwestern.edu/academics-research/research/detail/2002/disconnecting-negotiated-outcomes-and-evaluations-the-role-of-negotiator/",
+   "https://www.pon.harvard.edu/daily/negotiation-skills-daily/resolve-conflict-by-asking-the-right-questions/",
+   "https://www.pon.harvard.edu/daily/negotiation-skills-daily/defend-yourself-against-deception/",
+   "https://www.cambridge.org/core/product/6EC2A0A5354BB6C9612CF88B9A082E21",
+   "https://www.pon.harvard.edu/shop/art-science-of-negotiation-the/"
+  ]
+ },
+ {
   "id": "cm:risk-numbers-as-natural-frequencies",
   "title": "Risk numbers as natural frequencies",
   "aliases": [

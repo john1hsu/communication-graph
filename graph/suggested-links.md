@@ -4,9 +4,10 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 
 | Score | Node A | Node B | Shared neighbours |
 |---|---|---|---|
-| 3.58 | `cm:integrative-negotiation` | `cm:negotiation-preparation` | `cm:batna`, `cm:concession-strategy`, `cm:first-offer`, `cm:interests-vs-positions`, `cm:multiple-equivalent-simultaneous-offers` |
+| 3.57 | `cm:integrative-negotiation` | `cm:negotiation-preparation` | `cm:batna`, `cm:concession-strategy`, `cm:first-offer`, `cm:interests-vs-positions`, `cm:multiple-equivalent-simultaneous-offers` |
 | 2.97 | `cm:audience-analysis` | `cm:credibility` | `cm:aristotles-rhetoric`, `cm:communicating-uncertainty`, `cm:elaboration-likelihood-model`, `cm:influence-without-authority`, `cm:issue-selling` |
 | 2.91 | `cm:difficult-conversation` | `cm:situation-behavior-impact` | `cm:active-listening`, `cm:defensiveness`, `cm:feedback`, `cm:i-statements`, `cm:nonviolent-communication` |
+| 2.76 | `cm:integrative-negotiation` | `cm:reservation-value` | `cm:batna`, `cm:concession-strategy`, `cm:distributive-negotiation`, `cm:first-offer`, `cm:multiple-equivalent-simultaneous-offers` |
 | 2.74 | `cm:active-listening` | `cm:feedback` | `cm:defensiveness`, `cm:difficult-conversation`, `cm:feedforward`, `cm:one-on-one-meetings`, `cm:performance-review` |
 | 2.70 | `cm:channel-selection` | `cm:egocentric-bias` | `cm:common-ground`, `cm:curse-of-knowledge`, `cm:egocentrism-over-email-study`, `cm:face-to-face-conversation`, `cm:nicholas-epley` |
 | 2.70 | `cm:labeling-emotions` | `cm:self-distancing` | `cm:anxiety-reappraisal`, `cm:cognitive-reappraisal`, `cm:emotion-regulation` |
@@ -19,13 +20,12 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 2.29 | `cm:managing-up` | `cm:persuasion` | `cm:audience-analysis`, `cm:influence-without-authority`, `cm:issue-selling`, `cm:lee-et-al-2017`, `cm:stakeholder-mapping` |
 | 2.20 | `cm:conversational-receptiveness` | `cm:role-reversal` | `cm:active-listening`, `cm:conflict-resolution`, `cm:difficult-conversation`, `cm:paraphrasing`, `cm:perspective-getting` |
 | 2.20 | `cm:gestures` | `cm:speaking-anxiety` | `cm:eye-contact`, `cm:filled-pauses`, `cm:power-posing`, `cm:presentation`, `cm:presentation-rehearsal` |
-| 2.16 | `cm:curse-of-knowledge` | `cm:nicholas-epley` | `cm:anchoring-and-adjustment`, `cm:channel-selection`, `cm:egocentric-bias`, `cm:illusion-of-transparency`, `cm:michael-ross` |
+| 2.15 | `cm:curse-of-knowledge` | `cm:nicholas-epley` | `cm:anchoring-and-adjustment`, `cm:channel-selection`, `cm:egocentric-bias`, `cm:illusion-of-transparency`, `cm:michael-ross` |
 | 2.15 | `cm:rapport` | `cm:video-call-communication` | `cm:camera-level-gaze`, `cm:channel-selection`, `cm:credibility`, `cm:face-to-face-conversation`, `cm:nonverbal-communication` |
 | 2.14 | `cm:audience-analysis` | `cm:illusion-of-transparency` | `cm:clarity`, `cm:common-ground`, `cm:communicating-uncertainty`, `cm:curse-of-knowledge`, `cm:email` |
-| 2.14 | `cm:egocentric-bias` | `cm:macinnis-mackinnon-macintyre-2010` | `cm:anchoring-and-adjustment`, `cm:gilovich-savitsky-medvec-1998`, `cm:illusion-of-transparency`, `cm:social-psychology`, `cm:spotlight-effect` |
+| 2.13 | `cm:egocentric-bias` | `cm:macinnis-mackinnon-macintyre-2010` | `cm:anchoring-and-adjustment`, `cm:gilovich-savitsky-medvec-1998`, `cm:illusion-of-transparency`, `cm:social-psychology`, `cm:spotlight-effect` |
 | 2.11 | `cm:bottom-line-up-front` | `cm:readability-formulas` | `cm:audience-analysis`, `cm:clarity`, `cm:cognitive-load`, `cm:concise-writing`, `cm:effective-writing-for-army-leaders` |
 | 2.07 | `cm:i-statements` | `cm:weger-et-al-2014` | `cm:active-listening`, `cm:paraphrasing`, `cm:thomas-gordon` |
 | 2.05 | `cm:egocentric-bias` | `cm:teach-back` | `cm:checking-understanding`, `cm:clarity`, `cm:common-ground`, `cm:curse-of-knowledge`, `cm:illusion-of-transparency` |
 | 2.05 | `cm:humble-inquiry` | `cm:weger-et-al-2014` | `cm:active-listening`, `cm:advice-giving`, `cm:open-ended-questions` |
 | 2.04 | `cm:face-to-face-conversation` | `cm:zoom-fatigue` | `cm:asynchronous-communication`, `cm:channel-selection`, `cm:media-richness-theory`, `cm:nonverbal-communication`, `cm:proxemics` |
-| 2.04 | `cm:paraphrasing` | `cm:psychological-safety` | `cm:active-listening`, `cm:difficult-conversation`, `cm:facilitation`, `cm:interrupting`, `cm:open-ended-questions` |
