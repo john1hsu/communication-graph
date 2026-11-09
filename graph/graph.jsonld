@@ -7418,6 +7418,96 @@
    ]
   },
   {
+   "@id": "cm:monroes-motivated-sequence",
+   "@type": "cmo:Framework",
+   "cmo:appliedIn": {
+    "@id": "cm:presentation"
+   },
+   "cmo:challengedBy": {
+    "@id": "cm:micciche-pryor-butler-2000"
+   },
+   "cmo:domain": "persuasion-and-influence",
+   "cmo:evidenceStatus": "contested",
+   "cmo:file": "articles/persuasion-and-influence/monroes-motivated-sequence.md",
+   "cmo:introducedBy": {
+    "@id": "cm:alan-h-monroe"
+   },
+   "cmo:level": "introductory",
+   "cmo:requires": {
+    "@id": "cm:audience-analysis"
+   },
+   "cmo:structures": {
+    "@id": "cm:elevator-pitch"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s6"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s7"
+    }
+   ],
+   "rdfs:label": "Monroe's motivated sequence",
+   "skos:altLabel": [
+    "Monroe's sequence",
+    "attention-need-satisfaction-visualization-action",
+    "motivated sequence"
+   ],
+   "skos:broader": {
+    "@id": "cm:persuasion"
+   },
+   "skos:definition": "A five-step pattern for persuasive speaking - attention, need, satisfaction, visualization, action - devised by Purdue speech professor Alan H. Monroe in the 1930s and still taught as the standard outline for proposals that ask an audience to act. It is a useful planning checklist, but the one controlled test found it made a message no more persuasive than the same content in another order.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/persuasion-and-influence"
+   },
+   "skos:prefLabel": "Monroe's motivated sequence",
+   "skos:related": [
+    {
+     "@id": "cm:aristotles-rhetoric"
+    },
+    {
+     "@id": "cm:audience-analysis"
+    },
+    {
+     "@id": "cm:bottom-line-up-front"
+    },
+    {
+     "@id": "cm:elevator-pitch"
+    },
+    {
+     "@id": "cm:issue-selling"
+    },
+    {
+     "@id": "cm:narrative-persuasion"
+    },
+    {
+     "@id": "cm:pyramid-principle"
+    },
+    {
+     "@id": "cm:refutational-two-sided-messages"
+    }
+   ]
+  },
+  {
    "@id": "cm:multicultural-team",
    "@type": "cmo:Context",
    "cmo:demonstratedBy": [
@@ -25829,6 +25919,104 @@
    "dcterms:title": "Dr. Mike Ross wins Career Contribution Award",
    "schema:url": {
     "@id": "https://uwaterloo.ca/psychology/news/dr-mike-ross-wins-career-contribution-award"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Grand Valley State University, Speech Lab",
+   "dcterms:title": "Monroe's Motivated Sequence",
+   "schema:url": {
+    "@id": "https://gvsu.edu/speechlab/monroes-motivated-sequence-46.htm"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Mike Randolph, Public Speaking (Lumen Learning open textbook, CC BY)",
+   "dcterms:title": "Monroe's Motivated Sequence",
+   "schema:url": {
+    "@id": "https://courses.lumenlearning.com/wm-publicspeaking/chapter/monroes-motivated-sequence/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Communication Competence (Kirkwood Community College Pressbooks open textbook)",
+   "dcterms:title": "Applying Monroe's Motivated Sequence",
+   "schema:url": {
+    "@id": "https://kirkwood.pressbooks.pub/commcompetence/chapter/applying-monroes-motivated-sequence/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Ackerman, Staudt & Tuplin, The RCM 401 Speakers' Handbook (University of Saskatchewan OER, ed. Rebekah Bennetch)",
+   "dcterms:title": "Monroe's Motivated Sequence: An overview",
+   "schema:url": {
+    "@id": "https://www.saskoer.ca/rcm401/chapter/monroes-motivated-sequence/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Tracy Micciche, Burt Pryor & Jeff Butler, Psychological Reports 86(3), 1135-1138, 2000, doi:10.1177/003329410008600311.2",
+   "dcterms:title": "A Test of Monroe's Motivated Sequence for Its Effects on Ratings of Message Organization and Attitude Change",
+   "schema:url": {
+    "@id": "https://journals.sagepub.com/doi/10.1177/003329410008600311.2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "community",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "InThinking, IB Leadership subject site (practitioner-written school resource)",
+   "dcterms:title": "Pitching your message",
+   "schema:url": {
+    "@id": "https://thinkib.net/leadership/page/42578/pitching-your-message"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s7",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Messages That Matter (North Idaho College Pressbooks open textbook)",
+   "dcterms:title": "Motivating Others to Action",
+   "schema:url": {
+    "@id": "https://nic.pressbooks.pub/messagesthatmatter/chapter/persuasion-theories-2/"
    }
   },
   {

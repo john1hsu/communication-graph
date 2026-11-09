@@ -4322,6 +4322,40 @@
 <https://github.com/john1hsu/communication-graph/id/michael-ross> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/planning-fallacy> .
 <https://github.com/john1hsu/communication-graph/id/michael-ross> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/egocentric-bias> .
 <https://github.com/john1hsu/communication-graph/id/michael-ross> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/monroes-motivated-sequence> <http://purl.org/dc/terms/created> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/monroes-motivated-sequence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Framework> .
+<https://github.com/john1hsu/communication-graph/id/monroes-motivated-sequence> <http://www.w3.org/2000/01/rdf-schema#label> "Monroe's motivated sequence" .
+<https://github.com/john1hsu/communication-graph/id/monroes-motivated-sequence> <http://www.w3.org/2004/02/skos/core#altLabel> "Monroe's sequence" .
+<https://github.com/john1hsu/communication-graph/id/monroes-motivated-sequence> <http://www.w3.org/2004/02/skos/core#altLabel> "attention-need-satisfaction-visualization-action" .
+<https://github.com/john1hsu/communication-graph/id/monroes-motivated-sequence> <http://www.w3.org/2004/02/skos/core#altLabel> "motivated sequence" .
+<https://github.com/john1hsu/communication-graph/id/monroes-motivated-sequence> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/persuasion> .
+<https://github.com/john1hsu/communication-graph/id/monroes-motivated-sequence> <http://www.w3.org/2004/02/skos/core#definition> "A five-step pattern for persuasive speaking - attention, need, satisfaction, visualization, action - devised by Purdue speech professor Alan H. Monroe in the 1930s and still taught as the standard outline for proposals that ask an audience to act. It is a useful planning checklist, but the one controlled test found it made a message no more persuasive than the same content in another order." .
+<https://github.com/john1hsu/communication-graph/id/monroes-motivated-sequence> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/persuasion-and-influence> .
+<https://github.com/john1hsu/communication-graph/id/monroes-motivated-sequence> <http://www.w3.org/2004/02/skos/core#prefLabel> "Monroe's motivated sequence" .
+<https://github.com/john1hsu/communication-graph/id/monroes-motivated-sequence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> .
+<https://github.com/john1hsu/communication-graph/id/monroes-motivated-sequence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
+<https://github.com/john1hsu/communication-graph/id/monroes-motivated-sequence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
+<https://github.com/john1hsu/communication-graph/id/monroes-motivated-sequence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/elevator-pitch> .
+<https://github.com/john1hsu/communication-graph/id/monroes-motivated-sequence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/issue-selling> .
+<https://github.com/john1hsu/communication-graph/id/monroes-motivated-sequence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/narrative-persuasion> .
+<https://github.com/john1hsu/communication-graph/id/monroes-motivated-sequence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/pyramid-principle> .
+<https://github.com/john1hsu/communication-graph/id/monroes-motivated-sequence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/refutational-two-sided-messages> .
+<https://github.com/john1hsu/communication-graph/id/monroes-motivated-sequence> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s1> .
+<https://github.com/john1hsu/communication-graph/id/monroes-motivated-sequence> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s2> .
+<https://github.com/john1hsu/communication-graph/id/monroes-motivated-sequence> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s3> .
+<https://github.com/john1hsu/communication-graph/id/monroes-motivated-sequence> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s4> .
+<https://github.com/john1hsu/communication-graph/id/monroes-motivated-sequence> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s5> .
+<https://github.com/john1hsu/communication-graph/id/monroes-motivated-sequence> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s6> .
+<https://github.com/john1hsu/communication-graph/id/monroes-motivated-sequence> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s7> .
+<https://github.com/john1hsu/communication-graph/id/monroes-motivated-sequence> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/presentation> .
+<https://github.com/john1hsu/communication-graph/id/monroes-motivated-sequence> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/micciche-pryor-butler-2000> .
+<https://github.com/john1hsu/communication-graph/id/monroes-motivated-sequence> <https://github.com/john1hsu/communication-graph/ontology#domain> "persuasion-and-influence" .
+<https://github.com/john1hsu/communication-graph/id/monroes-motivated-sequence> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "contested" .
+<https://github.com/john1hsu/communication-graph/id/monroes-motivated-sequence> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/persuasion-and-influence/monroes-motivated-sequence.md" .
+<https://github.com/john1hsu/communication-graph/id/monroes-motivated-sequence> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/alan-h-monroe> .
+<https://github.com/john1hsu/communication-graph/id/monroes-motivated-sequence> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/monroes-motivated-sequence> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
+<https://github.com/john1hsu/communication-graph/id/monroes-motivated-sequence> <https://github.com/john1hsu/communication-graph/ontology#structures> <https://github.com/john1hsu/communication-graph/id/elevator-pitch> .
 <https://github.com/john1hsu/communication-graph/id/multicultural-team> <http://purl.org/dc/terms/created> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/multicultural-team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Context> .
 <https://github.com/john1hsu/communication-graph/id/multicultural-team> <http://www.w3.org/2000/01/rdf-schema#label> "Multicultural team" .
@@ -9697,6 +9731,48 @@
 <https://github.com/john1hsu/communication-graph/id/source/michael-ross/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/michael-ross/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
 <https://github.com/john1hsu/communication-graph/id/source/michael-ross/s4> <https://schema.org/url> <https://uwaterloo.ca/psychology/news/dr-mike-ross-wins-career-contribution-award> .
+<https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s1> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s1> <http://purl.org/dc/terms/publisher> "Grand Valley State University, Speech Lab" .
+<https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s1> <http://purl.org/dc/terms/title> "Monroe's Motivated Sequence" .
+<https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s1> <https://schema.org/url> <https://gvsu.edu/speechlab/monroes-motivated-sequence-46.htm> .
+<https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s2> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s2> <http://purl.org/dc/terms/publisher> "Mike Randolph, Public Speaking (Lumen Learning open textbook, CC BY)" .
+<https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s2> <http://purl.org/dc/terms/title> "Monroe's Motivated Sequence" .
+<https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s2> <https://schema.org/url> <https://courses.lumenlearning.com/wm-publicspeaking/chapter/monroes-motivated-sequence/> .
+<https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s3> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s3> <http://purl.org/dc/terms/publisher> "Communication Competence (Kirkwood Community College Pressbooks open textbook)" .
+<https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s3> <http://purl.org/dc/terms/title> "Applying Monroe's Motivated Sequence" .
+<https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s3> <https://schema.org/url> <https://kirkwood.pressbooks.pub/commcompetence/chapter/applying-monroes-motivated-sequence/> .
+<https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s4> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s4> <http://purl.org/dc/terms/publisher> "Ackerman, Staudt & Tuplin, The RCM 401 Speakers' Handbook (University of Saskatchewan OER, ed. Rebekah Bennetch)" .
+<https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s4> <http://purl.org/dc/terms/title> "Monroe's Motivated Sequence: An overview" .
+<https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s4> <https://schema.org/url> <https://www.saskoer.ca/rcm401/chapter/monroes-motivated-sequence/> .
+<https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s5> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s5> <http://purl.org/dc/terms/publisher> "Tracy Micciche, Burt Pryor & Jeff Butler, Psychological Reports 86(3), 1135-1138, 2000, doi:10.1177/003329410008600311.2" .
+<https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s5> <http://purl.org/dc/terms/title> "A Test of Monroe's Motivated Sequence for Its Effects on Ratings of Message Organization and Attitude Change" .
+<https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s5> <https://schema.org/url> <https://journals.sagepub.com/doi/10.1177/003329410008600311.2> .
+<https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s6> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s6> <http://purl.org/dc/terms/publisher> "InThinking, IB Leadership subject site (practitioner-written school resource)" .
+<https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s6> <http://purl.org/dc/terms/title> "Pitching your message" .
+<https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "community" .
+<https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s6> <https://schema.org/url> <https://thinkib.net/leadership/page/42578/pitching-your-message> .
+<https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s7> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s7> <http://purl.org/dc/terms/publisher> "Messages That Matter (North Idaho College Pressbooks open textbook)" .
+<https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s7> <http://purl.org/dc/terms/title> "Motivating Others to Action" .
+<https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s7> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s7> <https://schema.org/url> <https://nic.pressbooks.pub/messagesthatmatter/chapter/persuasion-theories-2/> .
 <https://github.com/john1hsu/communication-graph/id/source/multicultural-team/s1> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/multicultural-team/s1> <http://purl.org/dc/terms/publisher> "Stahl, G. K., Maznevski, M. L., Voigt, A. & Jonsen, K., Journal of International Business Studies 41(4), 690-709, 2010 (IDEAS/RePEc record and abstract)" .
 <https://github.com/john1hsu/communication-graph/id/source/multicultural-team/s1> <http://purl.org/dc/terms/title> "Unraveling the effects of cultural diversity in teams: A meta-analysis of research on multicultural work groups" .

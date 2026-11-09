@@ -18,9 +18,7 @@ _No results._
 
 _Which written contexts, channels or genres have no technique, framework or principle applied in them or structuring them?_ — `queries/03-situations-without-guidance.rq`
 
-| node | type |
-|---|---|
-| `cm:elevator-pitch` | cmo:Genre |
+_No results._
 
 ## Highest-leverage techniques
 
@@ -84,6 +82,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:difficult-conversation` | `cm:paraphrasing` |
 | `cm:difficult-conversation` | `cm:role-reversal` |
 | `cm:difficult-conversation` | `cm:thomas-kilmann-conflict-modes` |
+| `cm:elevator-pitch` | `cm:monroes-motivated-sequence` |
 | `cm:email` | `cm:audience-analysis` |
 | `cm:email` | `cm:bottom-line-up-front` |
 | `cm:email` | `cm:channel-selection` |
@@ -96,9 +95,8 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:email` | `cm:setting-reply-time-expectations` |
 | `cm:executive-briefing` | `cm:issue-selling` |
 | `cm:executive-briefing` | `cm:pyramid-principle` |
-| `cm:executive-briefing` | `cm:words-of-estimative-probability` |
 
-…and 50 more.
+…and 52 more.
 
 ## Myths and contested advice
 
@@ -121,6 +119,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:media-richness-theory` | contested | `cm:paradox-of-richness` |
 | `cm:mehrabian-myth` | contested | `cm:lapakko-2007` |
 | `cm:mehrabian-myth` | contested | `cm:zuckerman-et-al-1982` |
+| `cm:monroes-motivated-sequence` | contested | `cm:micciche-pryor-butler-2000` |
 | `cm:readability-formulas` | contested | `cm:duffy-kabance-1982` |
 | `cm:readability-formulas` | contested | `cm:redish-selzer-1985` |
 | `cm:power-posing` | failed-replication | `cm:crede-2019` |
@@ -135,9 +134,8 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:camera-optional-norm` | mixed | `cm:bennett-et-al-2021` |
 | `cm:channel-selection` | mixed | `cm:dennis-kinney-1998` |
 | `cm:clarity` | mixed |  |
-| `cm:cognitive-load` | mixed | `cm:de-jong-2010` |
 
-…and 83 more.
+…and 84 more.
 
 ## Concepts with no recorded origin (gap)
 
