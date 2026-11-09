@@ -2799,6 +2799,114 @@
   ]
  },
  {
+  "id": "cm:cultural-intelligence",
+  "title": "Cultural intelligence",
+  "aliases": [
+   "CQ",
+   "cultural quotient",
+   "four-factor model of cultural intelligence"
+  ],
+  "type": "Skill",
+  "domain": "cross-cultural-communication",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/cross-cultural-communication/cultural-intelligence.md",
+  "created": "2026-11-09",
+  "summary": "The capability to function and communicate effectively in culturally diverse settings, usually described as four linked capabilities: motivation (drive), knowledge, metacognitive strategy and behavioural flexibility. At work it shows up as noticing when a colleague's norms differ from yours, checking your assumptions, and adapting how you speak, write and decide without losing your purpose.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:intercultural-competence"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:intercultural-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:ethnocentrism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:multicultural-team"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:high-and-low-context-cultures"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:hofstede-cultural-dimensions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:direct-vs-indirect-feedback"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:describe-analyze-evaluate"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:perspective-taking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:the-culture-map"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:emotional-intelligence"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:soon-ang",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:ang-et-al-2007",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:rockstuhl-van-dyne-2018",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:multicultural-team",
+    "source": "s6",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:fang-schei-selart-2018",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Before this conversation, have I asked myself which of my assumptions about directness, hierarchy or timing might not be shared?",
+   "Did I check my reading of their reaction (a silence, a \"maybe\", a blunt reply) with a question instead of judging it?",
+   "Did I adapt something concrete, such as pace, wording, the channel or who speaks first, rather than only intending to be sensitive?",
+   "After the exchange, what did I learn about this person or group that I should test next time instead of generalising?"
+  ],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://www.cambridge.org/core/product/EEB4216A0F254559FF78DACC4F93762D",
+   "https://dr.ntu.edu.sg/server/api/core/bitstreams/0cf3c8c4-c0e9-4554-97a3-c5a5b6e4cd79/content",
+   "https://international.vlex.com/vid/cultural-intelligence-review-and-855668760",
+   "https://www.deutsche-digitale-bibliothek.de/item/O7FX4YLS3UQ5BZL5EB6RHDX3ZIHYCUSY",
+   "https://ouci.dntb.gov.ua/works/4NGM3Wjl",
+   "https://www.sdu.dk/en/om-sdu/institutter-centre/i_virksomhedsledelse/forskning/forskningsprojekter/cross-cultural-research/research-in-the-spotlight/work-related-outcomes-of-cultural-intelligence"
+  ]
+ },
+ {
   "id": "cm:curse-of-knowledge",
   "title": "Curse of knowledge",
   "aliases": [

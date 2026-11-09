@@ -12,7 +12,9 @@ _No results._
 
 _Which written skills or dispositions have no technique, framework or principle that develops them?_ — `queries/02-skills-without-practice.rq`
 
-_No results._
+| skill | type |
+|---|---|
+| `cm:cultural-intelligence` | cmo:Skill |
 
 ## Situations, channels and formats with no guidance (gap)
 
@@ -96,7 +98,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:executive-briefing` | `cm:words-of-estimative-probability` |
 | `cm:face-to-face-conversation` | `cm:eye-contact` |
 
-…and 45 more.
+…and 46 more.
 
 ## Myths and contested advice
 
@@ -135,7 +137,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:clarity` | mixed |  |
 | `cm:cognitive-load` | mixed | `cm:de-jong-2010` |
 
-…and 78 more.
+…and 79 more.
 
 ## Concepts with no recorded origin (gap)
 

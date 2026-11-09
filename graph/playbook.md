@@ -91,6 +91,14 @@ Ask yourself:
 
 ## cross-cultural-communication
 
+### [Cultural intelligence](../articles/cross-cultural-communication/cultural-intelligence.md) — Skill
+
+Ask yourself:
+- Before this conversation, have I asked myself which of my assumptions about directness, hierarchy or timing might not be shared?
+- Did I check my reading of their reaction (a silence, a "maybe", a blunt reply) with a question instead of judging it?
+- Did I adapt something concrete, such as pace, wording, the channel or who speaks first, rather than only intending to be sensitive?
+- After the exchange, what did I learn about this person or group that I should test next time instead of generalising?
+
 ### [Describe-analyze-evaluate](../articles/cross-cultural-communication/describe-analyze-evaluate.md) — Technique
 
 1. When a colleague's behaviour surprises or irritates you, pause before replying and write down only what you saw or heard, in words a camera could confirm.
