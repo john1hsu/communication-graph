@@ -7051,6 +7051,85 @@
    ]
   },
   {
+   "@id": "cm:michael-argyle",
+   "@type": "cmo:Person",
+   "cmo:authored": {
+    "@id": "cm:bodily-communication"
+   },
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "historical",
+   "cmo:file": "articles/thinkers-and-works/michael-argyle.md",
+   "cmo:introduced": [
+    {
+     "@id": "cm:equilibrium-theory"
+    },
+    {
+     "@id": "cm:eye-contact"
+    }
+   ],
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s6"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s7"
+    }
+   ],
+   "rdfs:label": "Michael Argyle",
+   "skos:altLabel": [
+    "J. Michael Argyle",
+    "Michael Argyle (psychologist)"
+   ],
+   "skos:definition": "Oxford social psychologist (1925-2002) who made gaze and other nonverbal signals a mainstream research topic, proposed with Janet Dean the equilibrium (affiliative conflict) theory of eye contact and distance, and treated everyday social interaction as a learnable skill, an idea behind modern communication-skills training.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "Michael Argyle",
+   "skos:related": [
+    {
+     "@id": "cm:albert-mehrabian"
+    },
+    {
+     "@id": "cm:camera-level-gaze"
+    },
+    {
+     "@id": "cm:eye-contact"
+    },
+    {
+     "@id": "cm:mehrabian-myth"
+    },
+    {
+     "@id": "cm:nonverbal-communication"
+    },
+    {
+     "@id": "cm:proxemics"
+    },
+    {
+     "@id": "cm:rapport"
+    }
+   ]
+  },
+  {
    "@id": "cm:michael-ross",
    "@type": "cmo:Person",
    "cmo:domain": "thinkers-and-works",
@@ -25095,6 +25174,104 @@
    "dcterms:title": "Organizational Information Requirements, Media Richness and Structural Design",
    "schema:url": {
     "@id": "https://collablab.northwestern.edu//CollabolabDistro/nucmc/DaftAndLengel-OrgInfoReq-MediaRichnessAndStructuralDesign-MngmtSci-1986.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "community",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Benjamin Beit-Hallahmi, obituary on the Psychology of Religion pages, psywww.com, 2002",
+   "dcterms:title": "Michael Argyle (1925-2002)",
+   "schema:url": {
+    "@id": "https://www.psywww.com/psyrelig/obits/argyle.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Michael Argyle, chapter 5 in Psychology for Careers Counselling (Psychology for Professional Groups), Palgrave, London, 1982, pp. 49-69 (Springer Nature Link)",
+   "dcterms:title": "Social behaviour",
+   "schema:url": {
+    "@id": "https://link.springer.com/chapter/10.1007/978-1-349-16946-7_5"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Michael Argyle, Routledge, 1988 (publisher's book page)",
+   "dcterms:title": "Bodily Communication (2nd edition)",
+   "schema:url": {
+    "@id": "https://www.routledge.com/Bodily-Communication/Argyle/p/book/9780415051149"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Bailenson, Blascovich, Beall & Loomis, Presence: Teleoperators and Virtual Environments 10(6), 583-598, 2001 (Stanford Virtual Human Interaction Lab)",
+   "dcterms:title": "Equilibrium theory revisited: Mutual gaze and personal space in virtual environments",
+   "schema:url": {
+    "@id": "https://vhil.stanford.edu/publications/avatars-and-agents/equilibrium-theory-revisitedmutual-gaze-and-personal-space-virtual"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Judee K. Burgoon, Lesa A. Stern & Leesa Dillman, Cambridge University Press, 1995 (Cambridge Core)",
+   "dcterms:title": "Arousal and affect approaches (Interpersonal Adaptation: Dyadic Interaction Patterns)",
+   "schema:url": {
+    "@id": "https://core-prod.cambridgecore.org/core/books/interpersonal-adaptation/arousal-and-affect-approaches/243F5E50EE160A58F75C196B91DE785E"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Antony J. Chapman, Social Behavior and Personality 3(2), 143-156, 1975 (journal page)",
+   "dcterms:title": "Eye contact, physical proximity and laughter: A re-examination of the equilibrium model of social intimacy",
+   "schema:url": {
+    "@id": "https://www.sbp-journal.com/index.php/sbp/article/view/105"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s7",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Lancaster Glossary of Child Development, Department of Psychology, Lancaster University",
+   "dcterms:title": "Mutual gaze",
+   "schema:url": {
+    "@id": "https://www.lancaster.ac.uk/fas/psych/glossary/mutual_gaze/"
    }
   },
   {

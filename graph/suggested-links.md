@@ -20,12 +20,12 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 2.37 | `cm:pyramid-principle` | `cm:status-reporting` | `cm:audience-analysis`, `cm:bottom-line-up-front`, `cm:business-report`, `cm:executive-briefing` |
 | 2.33 | `cm:bottom-line-up-front` | `cm:curse-of-knowledge` | `cm:assertion-evidence-slides`, `cm:audience-analysis`, `cm:channel-selection`, `cm:clarity`, `cm:cognitive-load` |
 | 2.29 | `cm:managing-up` | `cm:persuasion` | `cm:audience-analysis`, `cm:influence-without-authority`, `cm:issue-selling`, `cm:lee-et-al-2017`, `cm:stakeholder-mapping` |
-| 2.20 | `cm:gestures` | `cm:speaking-anxiety` | `cm:eye-contact`, `cm:filled-pauses`, `cm:power-posing`, `cm:presentation`, `cm:presentation-rehearsal` |
+| 2.19 | `cm:gestures` | `cm:speaking-anxiety` | `cm:eye-contact`, `cm:filled-pauses`, `cm:power-posing`, `cm:presentation`, `cm:presentation-rehearsal` |
 | 2.18 | `cm:anchoring-and-adjustment` | `cm:salary-negotiation` | `cm:batna`, `cm:distributive-negotiation`, `cm:first-offer`, `cm:multiple-equivalent-simultaneous-offers`, `cm:perspective-taking` |
-| 2.15 | `cm:rapport` | `cm:video-call-communication` | `cm:camera-level-gaze`, `cm:channel-selection`, `cm:credibility`, `cm:face-to-face-conversation`, `cm:nonverbal-communication` |
 | 2.15 | `cm:curse-of-knowledge` | `cm:nicholas-epley` | `cm:anchoring-and-adjustment`, `cm:channel-selection`, `cm:egocentric-bias`, `cm:illusion-of-transparency`, `cm:michael-ross` |
 | 2.14 | `cm:audience-analysis` | `cm:illusion-of-transparency` | `cm:clarity`, `cm:common-ground`, `cm:communicating-uncertainty`, `cm:curse-of-knowledge`, `cm:email` |
 | 2.13 | `cm:egocentric-bias` | `cm:macinnis-mackinnon-macintyre-2010` | `cm:anchoring-and-adjustment`, `cm:gilovich-savitsky-medvec-1998`, `cm:illusion-of-transparency`, `cm:social-psychology`, `cm:spotlight-effect` |
 | 2.12 | `cm:concession-strategy` | `cm:interests-vs-positions` | `cm:batna`, `cm:distributive-negotiation`, `cm:integrative-negotiation`, `cm:negotiation-preparation`, `cm:salary-negotiation` |
 | 2.12 | `cm:first-offer` | `cm:interests-vs-positions` | `cm:batna`, `cm:distributive-negotiation`, `cm:integrative-negotiation`, `cm:negotiation-preparation`, `cm:salary-negotiation` |
-| 2.12 | `cm:describe-analyze-evaluate` | `cm:hofstede-cultural-dimensions` | `cm:cultural-intelligence`, `cm:direct-vs-indirect-feedback`, `cm:ethnocentrism`, `cm:high-and-low-context-cultures`, `cm:intercultural-communication` |
+| 2.12 | `cm:camera-level-gaze` | `cm:proxemics` | `cm:eye-contact`, `cm:michael-argyle`, `cm:nonverbal-communication`, `cm:rapport`, `cm:video-call-communication` |
+| 2.12 | `cm:rapport` | `cm:video-call-communication` | `cm:camera-level-gaze`, `cm:channel-selection`, `cm:credibility`, `cm:face-to-face-conversation`, `cm:nonverbal-communication` |

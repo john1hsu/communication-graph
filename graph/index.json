@@ -8026,6 +8026,81 @@
   ]
  },
  {
+  "id": "cm:michael-argyle",
+  "title": "Michael Argyle",
+  "aliases": [
+   "J. Michael Argyle",
+   "Michael Argyle (psychologist)"
+  ],
+  "type": "Person",
+  "domain": "thinkers-and-works",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/thinkers-and-works/michael-argyle.md",
+  "created": "2026-11-09",
+  "summary": "Oxford social psychologist (1925-2002) who made gaze and other nonverbal signals a mainstream research topic, proposed with Janet Dean the equilibrium (affiliative conflict) theory of eye contact and distance, and treated everyday social interaction as a learnable skill, an idea behind modern communication-skills training.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "cm:eye-contact"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:nonverbal-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:proxemics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:mehrabian-myth"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:albert-mehrabian"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:camera-level-gaze"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:rapport"
+   },
+   {
+    "predicate": "cmo:introduced",
+    "object": "cm:equilibrium-theory",
+    "source": "s5",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introduced",
+    "object": "cm:eye-contact",
+    "source": "s7",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:authored",
+    "object": "cm:bodily-communication",
+    "source": "s3",
+    "confidence": "high"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://www.psywww.com/psyrelig/obits/argyle.html",
+   "https://link.springer.com/chapter/10.1007/978-1-349-16946-7_5",
+   "https://www.routledge.com/Bodily-Communication/Argyle/p/book/9780415051149",
+   "https://vhil.stanford.edu/publications/avatars-and-agents/equilibrium-theory-revisitedmutual-gaze-and-personal-space-virtual",
+   "https://core-prod.cambridgecore.org/core/books/interpersonal-adaptation/arousal-and-affect-approaches/243F5E50EE160A58F75C196B91DE785E",
+   "https://www.sbp-journal.com/index.php/sbp/article/view/105",
+   "https://www.lancaster.ac.uk/fas/psych/glossary/mutual_gaze/"
+  ]
+ },
+ {
   "id": "cm:michael-ross",
   "title": "Michael Ross",
   "aliases": [

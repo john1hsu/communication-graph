@@ -1076,6 +1076,16 @@
 <https://github.com/john1hsu/communication-graph/id/message-equivocality-media-selection-and-manager-performance#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/message-equivocality-media-selection-and-manager-performance/s5> .
 <https://github.com/john1hsu/communication-graph/id/message-equivocality-media-selection-and-manager-performance#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/message-equivocality-media-selection-and-manager-performance/s6> .
 <https://github.com/john1hsu/communication-graph/id/message-equivocality-media-selection-and-manager-performance#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/message-equivocality-media-selection-and-manager-performance/s7> .
+<https://github.com/john1hsu/communication-graph/id/michael-argyle#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/michael-argyle#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/michael-argyle> .
+<https://github.com/john1hsu/communication-graph/id/michael-argyle#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/thinkers-and-works/michael-argyle.md" .
+<https://github.com/john1hsu/communication-graph/id/michael-argyle#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s1> .
+<https://github.com/john1hsu/communication-graph/id/michael-argyle#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s2> .
+<https://github.com/john1hsu/communication-graph/id/michael-argyle#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s3> .
+<https://github.com/john1hsu/communication-graph/id/michael-argyle#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s4> .
+<https://github.com/john1hsu/communication-graph/id/michael-argyle#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s5> .
+<https://github.com/john1hsu/communication-graph/id/michael-argyle#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s6> .
+<https://github.com/john1hsu/communication-graph/id/michael-argyle#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s7> .
 <https://github.com/john1hsu/communication-graph/id/michael-ross#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/michael-ross#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/michael-ross> .
 <https://github.com/john1hsu/communication-graph/id/michael-ross#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/thinkers-and-works/michael-ross.md" .
@@ -12625,6 +12635,80 @@
   <https://github.com/john1hsu/communication-graph/id/source/message-equivocality-media-selection-and-manager-performance/s7> <https://schema.org/url> <https://collablab.northwestern.edu//CollabolabDistro/nucmc/DaftAndLengel-OrgInfoReq-MediaRichnessAndStructuralDesign-MngmtSci-1986.pdf> .
 }
 
+<https://github.com/john1hsu/communication-graph/id/michael-argyle#graph> {
+  <https://github.com/john1hsu/communication-graph/id/michael-argyle> <http://purl.org/dc/terms/created> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/michael-argyle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+  <https://github.com/john1hsu/communication-graph/id/michael-argyle> <http://www.w3.org/2000/01/rdf-schema#label> "Michael Argyle" .
+  <https://github.com/john1hsu/communication-graph/id/michael-argyle> <http://www.w3.org/2004/02/skos/core#altLabel> "J. Michael Argyle" .
+  <https://github.com/john1hsu/communication-graph/id/michael-argyle> <http://www.w3.org/2004/02/skos/core#altLabel> "Michael Argyle (psychologist)" .
+  <https://github.com/john1hsu/communication-graph/id/michael-argyle> <http://www.w3.org/2004/02/skos/core#definition> "Oxford social psychologist (1925-2002) who made gaze and other nonverbal signals a mainstream research topic, proposed with Janet Dean the equilibrium (affiliative conflict) theory of eye contact and distance, and treated everyday social interaction as a learnable skill, an idea behind modern communication-skills training." .
+  <https://github.com/john1hsu/communication-graph/id/michael-argyle> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works> .
+  <https://github.com/john1hsu/communication-graph/id/michael-argyle> <http://www.w3.org/2004/02/skos/core#prefLabel> "Michael Argyle" .
+  <https://github.com/john1hsu/communication-graph/id/michael-argyle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/albert-mehrabian> .
+  <https://github.com/john1hsu/communication-graph/id/michael-argyle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/camera-level-gaze> .
+  <https://github.com/john1hsu/communication-graph/id/michael-argyle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/eye-contact> .
+  <https://github.com/john1hsu/communication-graph/id/michael-argyle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> .
+  <https://github.com/john1hsu/communication-graph/id/michael-argyle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> .
+  <https://github.com/john1hsu/communication-graph/id/michael-argyle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/proxemics> .
+  <https://github.com/john1hsu/communication-graph/id/michael-argyle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/rapport> .
+  <https://github.com/john1hsu/communication-graph/id/michael-argyle> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s1> .
+  <https://github.com/john1hsu/communication-graph/id/michael-argyle> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s2> .
+  <https://github.com/john1hsu/communication-graph/id/michael-argyle> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s3> .
+  <https://github.com/john1hsu/communication-graph/id/michael-argyle> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s4> .
+  <https://github.com/john1hsu/communication-graph/id/michael-argyle> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s5> .
+  <https://github.com/john1hsu/communication-graph/id/michael-argyle> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s6> .
+  <https://github.com/john1hsu/communication-graph/id/michael-argyle> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s7> .
+  <https://github.com/john1hsu/communication-graph/id/michael-argyle> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/bodily-communication> .
+  <https://github.com/john1hsu/communication-graph/id/michael-argyle> <https://github.com/john1hsu/communication-graph/ontology#domain> "thinkers-and-works" .
+  <https://github.com/john1hsu/communication-graph/id/michael-argyle> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "historical" .
+  <https://github.com/john1hsu/communication-graph/id/michael-argyle> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/thinkers-and-works/michael-argyle.md" .
+  <https://github.com/john1hsu/communication-graph/id/michael-argyle> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/equilibrium-theory> .
+  <https://github.com/john1hsu/communication-graph/id/michael-argyle> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/eye-contact> .
+  <https://github.com/john1hsu/communication-graph/id/michael-argyle> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+  <https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s1> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s1> <http://purl.org/dc/terms/publisher> "Benjamin Beit-Hallahmi, obituary on the Psychology of Religion pages, psywww.com, 2002" .
+  <https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s1> <http://purl.org/dc/terms/title> "Michael Argyle (1925-2002)" .
+  <https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "community" .
+  <https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s1> <https://schema.org/url> <https://www.psywww.com/psyrelig/obits/argyle.html> .
+  <https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s2> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s2> <http://purl.org/dc/terms/publisher> "Michael Argyle, chapter 5 in Psychology for Careers Counselling (Psychology for Professional Groups), Palgrave, London, 1982, pp. 49-69 (Springer Nature Link)" .
+  <https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s2> <http://purl.org/dc/terms/title> "Social behaviour" .
+  <https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s2> <https://schema.org/url> <https://link.springer.com/chapter/10.1007/978-1-349-16946-7_5> .
+  <https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s3> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s3> <http://purl.org/dc/terms/publisher> "Michael Argyle, Routledge, 1988 (publisher's book page)" .
+  <https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s3> <http://purl.org/dc/terms/title> "Bodily Communication (2nd edition)" .
+  <https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s3> <https://schema.org/url> <https://www.routledge.com/Bodily-Communication/Argyle/p/book/9780415051149> .
+  <https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s4> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s4> <http://purl.org/dc/terms/publisher> "Bailenson, Blascovich, Beall & Loomis, Presence: Teleoperators and Virtual Environments 10(6), 583-598, 2001 (Stanford Virtual Human Interaction Lab)" .
+  <https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s4> <http://purl.org/dc/terms/title> "Equilibrium theory revisited: Mutual gaze and personal space in virtual environments" .
+  <https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s4> <https://schema.org/url> <https://vhil.stanford.edu/publications/avatars-and-agents/equilibrium-theory-revisitedmutual-gaze-and-personal-space-virtual> .
+  <https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s5> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s5> <http://purl.org/dc/terms/publisher> "Judee K. Burgoon, Lesa A. Stern & Leesa Dillman, Cambridge University Press, 1995 (Cambridge Core)" .
+  <https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s5> <http://purl.org/dc/terms/title> "Arousal and affect approaches (Interpersonal Adaptation: Dyadic Interaction Patterns)" .
+  <https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "textbook" .
+  <https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s5> <https://schema.org/url> <https://core-prod.cambridgecore.org/core/books/interpersonal-adaptation/arousal-and-affect-approaches/243F5E50EE160A58F75C196B91DE785E> .
+  <https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s6> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s6> <http://purl.org/dc/terms/publisher> "Antony J. Chapman, Social Behavior and Personality 3(2), 143-156, 1975 (journal page)" .
+  <https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s6> <http://purl.org/dc/terms/title> "Eye contact, physical proximity and laughter: A re-examination of the equilibrium model of social intimacy" .
+  <https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s6> <https://schema.org/url> <https://www.sbp-journal.com/index.php/sbp/article/view/105> .
+  <https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s7> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s7> <http://purl.org/dc/terms/publisher> "Lancaster Glossary of Child Development, Department of Psychology, Lancaster University" .
+  <https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s7> <http://purl.org/dc/terms/title> "Mutual gaze" .
+  <https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s7> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/communication-graph/id/source/michael-argyle/s7> <https://schema.org/url> <https://www.lancaster.ac.uk/fas/psych/glossary/mutual_gaze/> .
+}
+
 <https://github.com/john1hsu/communication-graph/id/michael-ross#graph> {
   <https://github.com/john1hsu/communication-graph/id/michael-ross> <http://purl.org/dc/terms/created> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
   <https://github.com/john1hsu/communication-graph/id/michael-ross> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
@@ -14163,6 +14247,7 @@
   <https://github.com/john1hsu/communication-graph/id/advice-giving> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> .
   <https://github.com/john1hsu/communication-graph/id/albert-mehrabian> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/albert-mehrabian> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+  <https://github.com/john1hsu/communication-graph/id/albert-mehrabian> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/michael-argyle> .
   <https://github.com/john1hsu/communication-graph/id/albert-mehrabian> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> .
   <https://github.com/john1hsu/communication-graph/id/alison-wood-brooks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/alison-wood-brooks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
@@ -14407,6 +14492,9 @@
   <https://github.com/john1hsu/communication-graph/id/bies-shapiro-1987> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/social-accounts> .
   <https://github.com/john1hsu/communication-graph/id/binetti-et-al-2016> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/eye-contact> .
   <https://github.com/john1hsu/communication-graph/id/blunden-et-al-2025> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/receiving-feedback> .
+  <https://github.com/john1hsu/communication-graph/id/bodily-communication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/bodily-communication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
+  <https://github.com/john1hsu/communication-graph/id/bodily-communication> <https://github.com/john1hsu/communication-graph/ontology#authoredBy> <https://github.com/john1hsu/communication-graph/id/michael-argyle> .
   <https://github.com/john1hsu/communication-graph/id/boland-et-al-zoom-turn-taking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/boland-et-al-zoom-turn-taking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/boland-et-al-zoom-turn-taking> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/video-call-communication> .
@@ -14502,6 +14590,7 @@
   <https://github.com/john1hsu/communication-graph/id/camera-level-gaze> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/synchronous-communication> .
   <https://github.com/john1hsu/communication-graph/id/camera-level-gaze> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/video-call-communication> .
   <https://github.com/john1hsu/communication-graph/id/camera-level-gaze> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/chen-2002> .
+  <https://github.com/john1hsu/communication-graph/id/camera-level-gaze> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/michael-argyle> .
   <https://github.com/john1hsu/communication-graph/id/camera-level-gaze> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> .
   <https://github.com/john1hsu/communication-graph/id/camera-level-gaze> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/video-call-communication> .
   <https://github.com/john1hsu/communication-graph/id/camera-level-gaze> <https://github.com/john1hsu/communication-graph/ontology#introducedIn> <https://github.com/john1hsu/communication-graph/id/chen-2002> .
@@ -15186,6 +15275,7 @@
   <https://github.com/john1hsu/communication-graph/id/epley-gilovich-2006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/epley-gilovich-2006> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> .
   <https://github.com/john1hsu/communication-graph/id/epton-et-al-2015> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/self-affirmation-before-feedback> .
+  <https://github.com/john1hsu/communication-graph/id/equilibrium-theory> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/michael-argyle> .
   <https://github.com/john1hsu/communication-graph/id/erin-meyer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/erin-meyer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/erin-meyer> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/the-culture-map> .
@@ -15241,9 +15331,11 @@
   <https://github.com/john1hsu/communication-graph/id/eye-contact> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-load> .
   <https://github.com/john1hsu/communication-graph/id/eye-contact> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/face-to-face-conversation> .
   <https://github.com/john1hsu/communication-graph/id/eye-contact> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/gestures> .
+  <https://github.com/john1hsu/communication-graph/id/eye-contact> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/michael-argyle> .
   <https://github.com/john1hsu/communication-graph/id/eye-contact> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> .
   <https://github.com/john1hsu/communication-graph/id/eye-contact> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/self-recording-playback> .
   <https://github.com/john1hsu/communication-graph/id/eye-contact> <https://github.com/john1hsu/communication-graph/ontology#developedBy> <https://github.com/john1hsu/communication-graph/id/camera-level-gaze> .
+  <https://github.com/john1hsu/communication-graph/id/eye-contact> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/michael-argyle> .
   <https://github.com/john1hsu/communication-graph/id/face-and-facework> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/apology> .
   <https://github.com/john1hsu/communication-graph/id/face-and-facework> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mea-culpa> .
   <https://github.com/john1hsu/communication-graph/id/face-and-facework> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/multicultural-team> .
@@ -16145,6 +16237,7 @@
   <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> .
   <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/eye-contact> .
   <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/gestures> .
+  <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/michael-argyle> .
   <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> .
   <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/power-posing> .
   <https://github.com/john1hsu/communication-graph/id/meinecke-lehmann-willenbrock-kauffeld-2017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -16167,6 +16260,7 @@
   <https://github.com/john1hsu/communication-graph/id/michael-alley> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/michael-alley> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/michael-alley> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> .
+  <https://github.com/john1hsu/communication-graph/id/michael-argyle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/michael-ross> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/milliken-morrison-hewlin-2003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/milliken-morrison-hewlin-2003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
@@ -16321,6 +16415,7 @@
   <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/proxemics> .
   <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/chen-2002> .
   <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/face-to-face-conversation> .
+  <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/michael-argyle> .
   <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/social-psychology> .
   <https://github.com/john1hsu/communication-graph/id/nonverbal-overload> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> .
   <https://github.com/john1hsu/communication-graph/id/nonverbal-overload> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> .
@@ -16644,6 +16739,7 @@
   <https://github.com/john1hsu/communication-graph/id/proxemics> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> .
   <https://github.com/john1hsu/communication-graph/id/proxemics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/eye-contact> .
   <https://github.com/john1hsu/communication-graph/id/proxemics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/face-to-face-conversation> .
+  <https://github.com/john1hsu/communication-graph/id/proxemics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/michael-argyle> .
   <https://github.com/john1hsu/communication-graph/id/proxemics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> .
   <https://github.com/john1hsu/communication-graph/id/proxemics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/video-call-communication> .
   <https://github.com/john1hsu/communication-graph/id/proxemics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> .
@@ -16727,6 +16823,7 @@
   <https://github.com/john1hsu/communication-graph/id/rapport> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/credibility> .
   <https://github.com/john1hsu/communication-graph/id/rapport> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/eye-contact> .
   <https://github.com/john1hsu/communication-graph/id/rapport> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/face-to-face-conversation> .
+  <https://github.com/john1hsu/communication-graph/id/rapport> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/michael-argyle> .
   <https://github.com/john1hsu/communication-graph/id/rapport> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/proxemics> .
   <https://github.com/john1hsu/communication-graph/id/rapport> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/reciprocal-self-disclosure> .
   <https://github.com/john1hsu/communication-graph/id/rapport> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/trusted-advisor> .
