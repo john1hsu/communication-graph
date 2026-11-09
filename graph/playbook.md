@@ -184,6 +184,33 @@ Ask yourself:
 - Have I offered a concrete repair and a change with a date, and will I actually follow through?
 - Is this a lapse of skill, where apologizing helps, or an accusation about my honesty that I believe is false, where admitting it could backfire?
 
+### [De-escalation](../articles/difficult-conversations-and-conflict/de-escalation.md) — Technique
+
+1. Check safety first - yours and others' - and if a threat or hostile act looks imminent, step away and call security or emergency services instead of talking.
+2. Regulate yourself before you speak - slow your breathing, lower your volume and pace, and keep a neutral, attentive face.
+3. Give physical room - stay about two arm's lengths away, do not block the exit, and keep your hands visible, open and low.
+4. Have one person do the talking; introduce yourself and say plainly that you want to help sort it out.
+5. Keep sentences short and simple, and repeat the key message calmly rather than escalating your wording.
+6. Ask what they want and how they feel, listen closely, and name the feeling or need you hear before you explain anything.
+7. Agree with whatever you honestly can (the facts, the principle, that it is frustrating), or agree to disagree.
+8. State any limit matter-of-factly as a boundary on behaviour, not a threat, and offer realistic choices about what happens next.
+9. Afterwards, write down what was said and done factually, report through the proper channel, and debrief with the person and your team.
+
+*A supplier's account manager arrives unannounced at a reception desk, raising their voice because an invoice is 60 days overdue, and a facilities coordinator is first to respond.*
+
+| Before | After |
+|---|---|
+| Sir, you need to calm down right now. Shouting won't get you paid any faster, and if you keep this up I'll have security walk you out. | I'm Sam, I coordinate this site. Sixty days unpaid is a real problem, and I want to help get it moving. Would you sit with me over here so I can take down the invoice number? I can't change payments myself, but I can get it to someone who can by this afternoon. |
+
+**Why:** The rewrite drops the command to calm down and the threat, gives a name and a purpose, agrees with the legitimate grievance, offers a choice of setting, and is honest about limits - so the visitor has a face-saving route to lower their voice.
+
+Ask yourself:
+- Is it actually safe to keep talking, or should I be stepping back and calling for help?
+- Is my own voice slower and quieter than theirs right now?
+- Have I told them what I heard them want or feel before I explained the rules?
+- Did I state the limit as a boundary with a choice, or as a threat?
+- Have I promised anything I can't actually deliver?
+
 ### [Defensiveness](../articles/difficult-conversations-and-conflict/defensiveness.md) — Barrier
 
 Ask yourself:

@@ -53,11 +53,11 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:communicating-uncertainty` | 1 | vague-probability-language |
 | `cm:considering-others-contributions-first` | 1 | Egocentric bias |
 | `cm:conversational-receptiveness` | 1 | Defensiveness |
+| `cm:de-escalation` | 1 | verbal-aggression |
 | `cm:feedback-sandwich` | 1 | Defensiveness |
 | `cm:feedforward` | 1 | Defensiveness |
-| `cm:habit-reversal-training` | 1 | Filled pauses |
 
-…and 21 more.
+…and 22 more.
 
 ## Toolkit by situation
 
@@ -78,6 +78,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:delivering-bad-news` | `cm:social-accounts` |
 | `cm:difficult-conversation` | `cm:active-listening` |
 | `cm:difficult-conversation` | `cm:conversational-receptiveness` |
+| `cm:difficult-conversation` | `cm:de-escalation` |
 | `cm:difficult-conversation` | `cm:face-and-facework` |
 | `cm:difficult-conversation` | `cm:i-statements` |
 | `cm:difficult-conversation` | `cm:paraphrasing` |
@@ -94,9 +95,8 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:email` | `cm:pragmatics` |
 | `cm:email` | `cm:rapport` |
 | `cm:email` | `cm:scheduled-inbox-checks` |
-| `cm:email` | `cm:setting-reply-time-expectations` |
 
-…and 61 more.
+…and 62 more.
 
 ## Myths and contested advice
 
@@ -135,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:bulleted-and-numbered-lists` | mixed | `cm:columbia-accident-investigation-board-report` |
 | `cm:camera-level-gaze` | mixed |  |
 
-…and 92 more.
+…and 93 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -144,6 +144,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | node | type |
 |---|---|
 | `cm:bulleted-and-numbered-lists` | cmo:Technique |
+| `cm:de-escalation` | cmo:Technique |
 | `cm:feedback-sandwich` | cmo:Technique |
 | `cm:gestures` | cmo:Skill |
 | `cm:information-overload` | cmo:Barrier |
@@ -172,9 +173,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:reservation-value` | cmo:Concept |
 | `cm:salary-negotiation` | cmo:Context |
 | `cm:scheduled-inbox-checks` | cmo:Technique |
-| `cm:self-affirmation-before-feedback` | cmo:Technique |
 
-…and 12 more.
+…and 13 more.
 
 ## Orphan articles (gap)
 

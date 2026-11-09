@@ -3451,6 +3451,121 @@
   ]
  },
  {
+  "id": "cm:de-escalation",
+  "title": "De-escalation",
+  "aliases": [
+   "verbal de-escalation",
+   "defusing a heated exchange",
+   "calming an agitated person"
+  ],
+  "type": "Technique",
+  "domain": "difficult-conversations-and-conflict",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/difficult-conversations-and-conflict/de-escalation.md",
+  "created": "2026-11-09",
+  "summary": "Using calm, deliberate talk, listening and body language to bring an agitated or angry person's arousal down so that the conversation can continue safely, without force, threats or humiliation - and recognising when to stop and get help instead.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:conflict-resolution"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:difficult-conversation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:defensiveness"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:active-listening"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:labeling-emotions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:paralanguage"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:proxemics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:i-statements"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:active-listening"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:verbal-aggression",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:labeling-emotions",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:difficult-conversation",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:price-et-al-2015",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:engel-et-al-2022",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Is it actually safe to keep talking, or should I be stepping back and calling for help?",
+   "Is my own voice slower and quieter than theirs right now?",
+   "Have I told them what I heard them want or feel before I explained the rules?",
+   "Did I state the limit as a boundary with a choice, or as a threat?",
+   "Have I promised anything I can't actually deliver?"
+  ],
+  "steps": [
+   "Check safety first - yours and others' - and if a threat or hostile act looks imminent, step away and call security or emergency services instead of talking.",
+   "Regulate yourself before you speak - slow your breathing, lower your volume and pace, and keep a neutral, attentive face.",
+   "Give physical room - stay about two arm's lengths away, do not block the exit, and keep your hands visible, open and low.",
+   "Have one person do the talking; introduce yourself and say plainly that you want to help sort it out.",
+   "Keep sentences short and simple, and repeat the key message calmly rather than escalating your wording.",
+   "Ask what they want and how they feel, listen closely, and name the feeling or need you hear before you explain anything.",
+   "Agree with whatever you honestly can (the facts, the principle, that it is frustrating), or agree to disagree.",
+   "State any limit matter-of-factly as a boundary on behaviour, not a threat, and offer realistic choices about what happens next.",
+   "Afterwards, write down what was said and done factually, report through the proper channel, and debrief with the person and your team."
+  ],
+  "example": {
+   "situation": "A supplier's account manager arrives unannounced at a reception desk, raising their voice because an invoice is 60 days overdue, and a facilities coordinator is first to respond.",
+   "before": "Sir, you need to calm down right now. Shouting won't get you paid any faster, and if you keep this up I'll have security walk you out.",
+   "after": "I'm Sam, I coordinate this site. Sixty days unpaid is a real problem, and I want to help get it moving. Would you sit with me over here so I can take down the invoice number? I can't change payments myself, but I can get it to someone who can by this afternoon.",
+   "why": "The rewrite drops the command to calm down and the threat, gives a name and a purpose, agrees with the legitimate grievance, offers a choice of setting, and is honest about limits - so the visitor has a face-saving route to lower their voice."
+  },
+  "source_urls": [
+   "https://www.cisa.gov/sites/default/files/2025-01/De-escalation-Action-Guide_v508_20250127.pdf",
+   "https://westjem.com/articles/verbal-de-escalation-of-the-agitated-patient-consensus-statement-of-the-american-association-for-emergency-psychiatry-project-beta-de-escalation-workgroup.html",
+   "https://e-space.mmu.ac.uk/623138/1/De-escalation%20of%20aggressive%20behaviour%20in%20healthcare%20settings_%20concept%20analysis.pdf",
+   "https://eprints.whiterose.ac.uk/83735/",
+   "https://www.uc.edu/news/articles/2022/01/police-training-reduces-certain-incidents-study-says.html"
+  ]
+ },
+ {
   "id": "cm:defensiveness",
   "title": "Defensiveness",
   "aliases": [
