@@ -47,6 +47,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:assertion-evidence-slides` | 1 | death-by-powerpoint |
 | `cm:audience-analysis` | 1 | Curse of knowledge |
 | `cm:bottom-line-up-front` | 1 | burying-the-lede |
+| `cm:bulleted-and-numbered-lists` | 1 | wall-of-text |
 | `cm:camera-level-gaze` | 1 | Gaze and eye contact |
 | `cm:camera-optional-norm` | 1 | Zoom fatigue |
 | `cm:communicating-uncertainty` | 1 | vague-probability-language |
@@ -55,9 +56,8 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:feedback-sandwich` | 1 | Defensiveness |
 | `cm:feedforward` | 1 | Defensiveness |
 | `cm:habit-reversal-training` | 1 | Filled pauses |
-| `cm:humble-inquiry` | 1 | telling-instead-of-asking |
 
-…and 20 more.
+…and 21 more.
 
 ## Toolkit by situation
 
@@ -132,10 +132,10 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:assertion-evidence-slides` | mixed | `cm:alzayed-alzamel-2023` |
 | `cm:asynchronous-communication` | mixed |  |
 | `cm:batna` | mixed | `cm:schaerer-swaab-galinsky-2015` |
+| `cm:bulleted-and-numbered-lists` | mixed | `cm:columbia-accident-investigation-board-report` |
 | `cm:camera-level-gaze` | mixed |  |
-| `cm:camera-optional-norm` | mixed | `cm:bennett-et-al-2021` |
 
-…and 91 more.
+…and 92 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -143,6 +143,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 
 | node | type |
 |---|---|
+| `cm:bulleted-and-numbered-lists` | cmo:Technique |
 | `cm:feedback-sandwich` | cmo:Technique |
 | `cm:filled-pauses` | cmo:AntiPattern |
 | `cm:gestures` | cmo:Skill |
@@ -172,9 +173,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:reservation-value` | cmo:Concept |
 | `cm:salary-negotiation` | cmo:Context |
 | `cm:scheduled-inbox-checks` | cmo:Technique |
-| `cm:self-affirmation-before-feedback` | cmo:Technique |
 
-…and 12 more.
+…and 13 more.
 
 ## Orphan articles (gap)
 

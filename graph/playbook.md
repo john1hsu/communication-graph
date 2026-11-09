@@ -1615,6 +1615,29 @@ Ask yourself:
 - Have I stated my conclusion or recommendation, or only described the situation and left the reader to infer it?
 - Is this message an exception - serious bad news, or a reader who expects context first - and have I chosen the structure on purpose?
 
+### [Bulleted and numbered lists](../articles/writing/bulleted-and-numbered-lists.md) — Technique
+
+1. Spot any sentence or paragraph that strings together three or more requirements, options, conditions or steps.
+2. Write a lead-in sentence that says what the list is and who must do what with it.
+3. Put each item on its own line, starting every item with the same grammatical form (all verbs, or all nouns) so each one completes the lead-in.
+4. Number the items if the order matters or readers will refer back to them; otherwise use plain round or square bullets.
+5. Keep the list short, roughly six to eight items at most, and split or group longer lists under subheadings.
+6. Keep reasons, caveats and trade-offs in sentences around the list rather than shrinking them into fragments inside it.
+
+*An operations lead emails twelve site managers about what they must send before a system migration.*
+
+| Before | After |
+|---|---|
+| Ahead of the migration on the 14th, we will need you to confirm your local admin contacts, and also it would help to have the inventory spreadsheet updated, plus please make sure any scheduled jobs are paused and the backup report is sent to IT by the 12th. | By Thursday the 12th, please send IT these four items so your site can migrate on the 14th: 1. Your local admin contacts. 2. The updated inventory spreadsheet. 3. Confirmation that scheduled jobs are paused. 4. Last week's backup report. |
+
+**Why:** The lead-in states the deadline and purpose, the numbers let managers reply "done 1-3, 4 by Friday", and no request is lost in the middle of a long sentence.
+
+Ask yourself:
+- Does my list have a lead-in that tells the reader what the items are and what to do with them?
+- Do all items start with the same kind of word, and does each one read correctly after the lead-in?
+- Have I used numbers only where order or reference matters?
+- Did turning prose into bullets strip out a reason, condition or caveat the reader needs to judge the point?
+
 ### [Concise writing](../articles/writing/concise-writing.md) — Skill
 
 Ask yourself:

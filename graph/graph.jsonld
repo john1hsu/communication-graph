@@ -1247,6 +1247,101 @@
    ]
   },
   {
+   "@id": "cm:bulleted-and-numbered-lists",
+   "@type": "cmo:Technique",
+   "cmo:addresses": {
+    "@id": "cm:wall-of-text"
+   },
+   "cmo:challengedBy": {
+    "@id": "cm:columbia-accident-investigation-board-report"
+   },
+   "cmo:demonstratedBy": {
+    "@id": "cm:jansen-2014"
+   },
+   "cmo:domain": "writing",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/bulleted-and-numbered-lists/example"
+   },
+   "cmo:explainedBy": {
+    "@id": "cm:cognitive-load"
+   },
+   "cmo:file": "articles/writing/bulleted-and-numbered-lists.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/bulleted-and-numbered-lists/howto"
+   },
+   "cmo:level": "introductory",
+   "cmo:partOf": {
+    "@id": "cm:plain-language"
+   },
+   "cmo:supportedBy": {
+    "@id": "cm:seki-2000"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/bulleted-and-numbered-lists/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/bulleted-and-numbered-lists/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/bulleted-and-numbered-lists/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/bulleted-and-numbered-lists/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/bulleted-and-numbered-lists/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/bulleted-and-numbered-lists/s6"
+    }
+   ],
+   "rdfs:label": "Bulleted and numbered lists",
+   "skos:altLabel": [
+    "bullet points",
+    "bulleted lists",
+    "numbered lists",
+    "use vertical lists",
+    "vertical lists"
+   ],
+   "skos:broader": {
+    "@id": "cm:clarity"
+   },
+   "skos:definition": "Setting a series of parallel items, requirements or steps on separate lines under a lead-in sentence, with numbers when order matters and bullets when it does not, so readers can find, remember and act on each item.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/writing"
+   },
+   "skos:prefLabel": "Bulleted and numbered lists",
+   "skos:related": [
+    {
+     "@id": "cm:active-voice"
+    },
+    {
+     "@id": "cm:assertion-evidence-slides"
+    },
+    {
+     "@id": "cm:bottom-line-up-front"
+    },
+    {
+     "@id": "cm:concise-writing"
+    },
+    {
+     "@id": "cm:death-by-powerpoint"
+    },
+    {
+     "@id": "cm:email"
+    },
+    {
+     "@id": "cm:information-overload"
+    }
+   ]
+  },
+  {
    "@id": "cm:camera-level-gaze",
    "@type": "cmo:Technique",
    "cmo:appliedIn": [
@@ -15115,6 +15210,107 @@
    "schema:text": "Evaluate and shortlist in a separate step - ideally after a break - using agreed criteria and a private or simultaneous vote."
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/bulleted-and-numbered-lists/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:bulleted-and-numbered-lists"
+   },
+   "rdfs:label": "Does my list have a lead-in that tells the reader what the items are and what to do with them?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/bulleted-and-numbered-lists/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:bulleted-and-numbered-lists"
+   },
+   "rdfs:label": "Do all items start with the same kind of word, and does each one read correctly after the lead-in?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/bulleted-and-numbered-lists/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:bulleted-and-numbered-lists"
+   },
+   "rdfs:label": "Have I used numbers only where order or reference matters?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/bulleted-and-numbered-lists/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:bulleted-and-numbered-lists"
+   },
+   "rdfs:label": "Did turning prose into bullets strip out a reason, condition or caveat the reader needs to judge the point?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/bulleted-and-numbered-lists/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "By Thursday the 12th, please send IT these four items so your site can migrate on the 14th: 1. Your local admin contacts. 2. The updated inventory spreadsheet. 3. Confirmation that scheduled jobs are paused. 4. Last week's backup report.",
+   "cmo:before": "Ahead of the migration on the 14th, we will need you to confirm your local admin contacts, and also it would help to have the inventory spreadsheet updated, plus please make sure any scheduled jobs are paused and the backup report is sent to IT by the 12th.",
+   "cmo:situation": "An operations lead emails twelve site managers about what they must send before a system migration.",
+   "cmo:why": "The lead-in states the deadline and purpose, the numbers let managers reply \"done 1-3, 4 by Friday\", and no request is lost in the middle of a long sentence."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/bulleted-and-numbered-lists/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Bulleted and numbered lists",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/bulleted-and-numbered-lists/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/bulleted-and-numbered-lists/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/bulleted-and-numbered-lists/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/bulleted-and-numbered-lists/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/bulleted-and-numbered-lists/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/bulleted-and-numbered-lists/howto/6"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/bulleted-and-numbered-lists/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Spot any sentence or paragraph that strings together three or more requirements, options, conditions or steps."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/bulleted-and-numbered-lists/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Write a lead-in sentence that says what the list is and who must do what with it."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/bulleted-and-numbered-lists/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Put each item on its own line, starting every item with the same grammatical form (all verbs, or all nouns) so each one completes the lead-in."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/bulleted-and-numbered-lists/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Number the items if the order matters or readers will refer back to them; otherwise use plain round or square bullets."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/bulleted-and-numbered-lists/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Keep the list short, roughly six to eight items at most, and split or group longer lists under subheadings."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/bulleted-and-numbered-lists/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "Keep reasons, caveats and trade-offs in sentences around the list rather than shrinking them into fragments inside it."
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/camera-level-gaze/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -21730,6 +21926,90 @@
    "dcterms:title": "There's a Better Way to Brainstorm",
    "schema:url": {
     "@id": "https://psychologicalscience.org/?p=121811"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/bulleted-and-numbered-lists/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Plain Language Action and Information Network (PLAIN), U.S. federal government; archived by UNT Libraries",
+   "dcterms:title": "Use vertical lists (Federal Plain Language Guidelines, archived plainlanguage.gov)",
+   "schema:url": {
+    "@id": "https://webarchive.library.unt.edu/eot2008/20080916011458/http:/plainlanguage.gov/howto/guidelines/bigdoc/writeLists.cfm"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/bulleted-and-numbered-lists/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "eCampusOntario Pressbooks (open technical and professional communication textbook, CC BY 4.0)",
+   "dcterms:title": "A.5: Lists (adapted from D. McMurray, Online Technical Writing)",
+   "schema:url": {
+    "@id": "https://ecampusontario.pressbooks.pub/llsadvcomm/chapter/a-5-lists/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/bulleted-and-numbered-lists/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "John Benjamins Publishing",
+   "dcterms:title": "How bulleted lists and enumerations in formatted paragraphs affect recall and evaluation of functional text (Frank Jansen, Information Design Journal 21(2), 2014, pp. 146-162)",
+   "schema:url": {
+    "@id": "https://benjamins.com/catalog/idj.21.2.06jan"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/bulleted-and-numbered-lists/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Visible Language (University of Cincinnati)",
+   "dcterms:title": "Using lists to improve text access: The role of layout in reading (Y. Seki, Visible Language 34(3), 2000)",
+   "schema:url": {
+    "@id": "https://journals.uc.edu/index.php/vl/article/view/5702"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/bulleted-and-numbered-lists/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Taylor & Francis (record on Scilit)",
+   "dcterms:title": "The influence of list format and category headers on age differences in understanding medication instructions (Experimental Aging Research 24(3), 1998, pp. 231-256)",
+   "schema:url": {
+    "@id": "https://scilit.net/publications/2256be8d2f1979a99ffdfd94861197c4"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/bulleted-and-numbered-lists/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Edward Tufte (edwardtufte.com), 2003",
+   "dcterms:title": "Columbia Accident Investigation Board: The Boeing PowerPoint Slide",
+   "schema:url": {
+    "@id": "https://www.edwardtufte.com/notebook/columbia-accident-investigation-board-the-boeing-powerpoint-slide/"
    }
   },
   {

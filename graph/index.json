@@ -1429,6 +1429,122 @@
   ]
  },
  {
+  "id": "cm:bulleted-and-numbered-lists",
+  "title": "Bulleted and numbered lists",
+  "aliases": [
+   "vertical lists",
+   "use vertical lists",
+   "bullet points",
+   "bulleted lists",
+   "numbered lists"
+  ],
+  "type": "Technique",
+  "domain": "writing",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/writing/bulleted-and-numbered-lists.md",
+  "created": "2026-11-09",
+  "summary": "Setting a series of parallel items, requirements or steps on separate lines under a lead-in sentence, with numbers when order matters and bullets when it does not, so readers can find, remember and act on each item.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:clarity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:concise-writing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:bottom-line-up-front"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:active-voice"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:assertion-evidence-slides"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:death-by-powerpoint"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:information-overload"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:email"
+   },
+   {
+    "predicate": "cmo:partOf",
+    "object": "cm:plain-language",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:wall-of-text",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:jansen-2014",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:seki-2000",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:cognitive-load",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:columbia-accident-investigation-board-report",
+    "source": "s6",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Does my list have a lead-in that tells the reader what the items are and what to do with them?",
+   "Do all items start with the same kind of word, and does each one read correctly after the lead-in?",
+   "Have I used numbers only where order or reference matters?",
+   "Did turning prose into bullets strip out a reason, condition or caveat the reader needs to judge the point?"
+  ],
+  "steps": [
+   "Spot any sentence or paragraph that strings together three or more requirements, options, conditions or steps.",
+   "Write a lead-in sentence that says what the list is and who must do what with it.",
+   "Put each item on its own line, starting every item with the same grammatical form (all verbs, or all nouns) so each one completes the lead-in.",
+   "Number the items if the order matters or readers will refer back to them; otherwise use plain round or square bullets.",
+   "Keep the list short, roughly six to eight items at most, and split or group longer lists under subheadings.",
+   "Keep reasons, caveats and trade-offs in sentences around the list rather than shrinking them into fragments inside it."
+  ],
+  "example": {
+   "situation": "An operations lead emails twelve site managers about what they must send before a system migration.",
+   "before": "Ahead of the migration on the 14th, we will need you to confirm your local admin contacts, and also it would help to have the inventory spreadsheet updated, plus please make sure any scheduled jobs are paused and the backup report is sent to IT by the 12th.",
+   "after": "By Thursday the 12th, please send IT these four items so your site can migrate on the 14th: 1. Your local admin contacts. 2. The updated inventory spreadsheet. 3. Confirmation that scheduled jobs are paused. 4. Last week's backup report.",
+   "why": "The lead-in states the deadline and purpose, the numbers let managers reply \"done 1-3, 4 by Friday\", and no request is lost in the middle of a long sentence."
+  },
+  "source_urls": [
+   "https://webarchive.library.unt.edu/eot2008/20080916011458/http:/plainlanguage.gov/howto/guidelines/bigdoc/writeLists.cfm",
+   "https://ecampusontario.pressbooks.pub/llsadvcomm/chapter/a-5-lists/",
+   "https://benjamins.com/catalog/idj.21.2.06jan",
+   "https://journals.uc.edu/index.php/vl/article/view/5702",
+   "https://scilit.net/publications/2256be8d2f1979a99ffdfd94861197c4",
+   "https://www.edwardtufte.com/notebook/columbia-accident-investigation-board-the-boeing-powerpoint-slide/"
+  ]
+ },
+ {
   "id": "cm:camera-level-gaze",
   "title": "Camera-level gaze on video calls",
   "aliases": [
