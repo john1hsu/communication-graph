@@ -9,9 +9,9 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 3.53 | `cm:culture-assimilator` | `cm:intercultural-communication` | `cm:cultural-intelligence`, `cm:describe-analyze-evaluate`, `cm:ethnocentrism`, `cm:intercultural-competence`, `cm:li-2021-cross-cultural-training-meta-analysis` |
 | 3.22 | `cm:audience-analysis` | `cm:credibility` | `cm:aristotles-rhetoric`, `cm:communicating-uncertainty`, `cm:elaboration-likelihood-model`, `cm:elevator-pitch`, `cm:influence-without-authority` |
 | 2.97 | `cm:mythical-fixed-pie` | `cm:principled-negotiation` | `cm:distributive-negotiation`, `cm:integrative-negotiation`, `cm:interests-vs-positions`, `cm:multiple-equivalent-simultaneous-offers`, `cm:negotiation` |
-| 2.89 | `cm:difficult-conversation` | `cm:situation-behavior-impact` | `cm:active-listening`, `cm:defensiveness`, `cm:feedback`, `cm:i-statements`, `cm:nonviolent-communication` |
+| 2.88 | `cm:difficult-conversation` | `cm:situation-behavior-impact` | `cm:active-listening`, `cm:defensiveness`, `cm:feedback`, `cm:i-statements`, `cm:nonviolent-communication` |
 | 2.76 | `cm:batna` | `cm:mythical-fixed-pie` | `cm:anchoring-and-adjustment`, `cm:distributive-negotiation`, `cm:integrative-negotiation`, `cm:interests-vs-positions`, `cm:multiple-equivalent-simultaneous-offers` |
-| 2.73 | `cm:active-listening` | `cm:feedback` | `cm:defensiveness`, `cm:difficult-conversation`, `cm:feedforward`, `cm:one-on-one-meetings`, `cm:performance-review` |
+| 2.72 | `cm:active-listening` | `cm:feedback` | `cm:defensiveness`, `cm:difficult-conversation`, `cm:feedforward`, `cm:one-on-one-meetings`, `cm:performance-review` |
 | 2.70 | `cm:labeling-emotions` | `cm:self-distancing` | `cm:anxiety-reappraisal`, `cm:cognitive-reappraisal`, `cm:emotion-regulation` |
 | 2.68 | `cm:channel-selection` | `cm:egocentric-bias` | `cm:common-ground`, `cm:curse-of-knowledge`, `cm:egocentrism-over-email-study`, `cm:face-to-face-conversation`, `cm:nicholas-epley` |
 | 2.66 | `cm:bottom-line-up-front` | `cm:curse-of-knowledge` | `cm:assertion-evidence-slides`, `cm:audience-analysis`, `cm:channel-selection`, `cm:clarity`, `cm:cognitive-load` |
@@ -24,8 +24,8 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 2.45 | `cm:principled-negotiation` | `cm:zone-of-possible-agreement` | `cm:batna`, `cm:distributive-negotiation`, `cm:integrative-negotiation`, `cm:interests-vs-positions`, `cm:multiple-equivalent-simultaneous-offers` |
 | 2.42 | `cm:negotiation` | `cm:zone-of-possible-agreement` | `cm:batna`, `cm:distributive-negotiation`, `cm:integrative-negotiation`, `cm:interests-vs-positions`, `cm:mythical-fixed-pie` |
 | 2.40 | `cm:anxiety-reappraisal` | `cm:spotlight-effect` | `cm:illusion-of-transparency`, `cm:macinnis-mackinnon-macintyre-2010`, `cm:self-distancing`, `cm:social-anxiety`, `cm:speaking-anxiety` |
-| 2.40 | `cm:paraphrasing` | `cm:psychological-safety` | `cm:active-listening`, `cm:difficult-conversation`, `cm:facilitation`, `cm:facilitators-guide-to-participatory-decision-making`, `cm:interrupting` |
+| 2.39 | `cm:paraphrasing` | `cm:psychological-safety` | `cm:active-listening`, `cm:difficult-conversation`, `cm:facilitation`, `cm:facilitators-guide-to-participatory-decision-making`, `cm:interrupting` |
 | 2.35 | `cm:pyramid-principle` | `cm:status-reporting` | `cm:audience-analysis`, `cm:bottom-line-up-front`, `cm:business-report`, `cm:executive-briefing` |
+| 2.21 | `cm:defensiveness` | `cm:direct-vs-indirect-feedback` | `cm:face-and-facework`, `cm:feedback`, `cm:feedback-sandwich`, `cm:feedforward`, `cm:i-statements` |
 | 2.20 | `cm:executive-briefing` | `cm:plain-language` | `cm:audience-analysis`, `cm:bottom-line-up-front`, `cm:information-overload`, `cm:philip-crosby`, `cm:risk-numbers-as-natural-frequencies` |
 | 2.19 | `cm:anchoring-and-adjustment` | `cm:zone-of-possible-agreement` | `cm:batna`, `cm:distributive-negotiation`, `cm:first-offer`, `cm:multiple-equivalent-simultaneous-offers`, `cm:mythical-fixed-pie` |
-| 2.18 | `cm:credibility` | `cm:monroes-motivated-sequence` | `cm:aristotles-rhetoric`, `cm:elevator-pitch`, `cm:issue-selling`, `cm:narrative-persuasion`, `cm:persuasion` |

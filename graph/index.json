@@ -4947,6 +4947,119 @@
   ]
  },
  {
+  "id": "cm:face-and-facework",
+  "title": "Face and facework",
+  "aliases": [
+   "face",
+   "facework",
+   "face-work",
+   "saving face",
+   "losing face",
+   "face concerns",
+   "face-threatening act"
+  ],
+  "type": "Concept",
+  "domain": "cross-cultural-communication",
+  "level": "intermediate",
+  "evidenceStatus": "theoretical",
+  "file": "articles/cross-cultural-communication/face-and-facework.md",
+  "created": "2026-11-09",
+  "summary": "Face is the public self-image a person claims in an interaction and expects others to honour; facework is everything speakers do, in words and behaviour, to protect, restore or challenge their own and others' face. Introduced by Erving Goffman and developed in politeness theory and face-negotiation theory, it explains why requests, criticism and disagreement are so often softened, and why that softening varies across cultures.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:interpersonal-communication"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "cm:intercultural-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:politeness-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:face-negotiation-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:direct-vs-indirect-feedback"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:apology"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:mea-culpa"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:multicultural-team"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:defensiveness"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:social-accounts"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:impression-management"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:erving-goffman",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:studiedIn",
+    "object": "cm:pragmatics",
+    "source": "s5",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:oetzel-ting-toomey-2003",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:matsumoto-1988",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:difficult-conversation",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:multicultural-team",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://eclass-b.uoa.gr/modules/document/file.php/PPP860/Erving%20Goffman%20-%20Interaction%20Ritual_%20Essays%20on%20Face-to-Face%20Behavior%20-Pantheon%20%281982%29.pdf",
+   "https://www.ebsco.com/research-starters/social-sciences-and-humanities/politeness-theory",
+   "https://www.ffri.hr/~ibrdar/komunikacija/seminari/Oetzel,%202003%20-%20Interpersonal%20conflict%20and%20face%20concerns.pdf",
+   "https://pressbooks.openeducationalberta.ca/insightsintocommstudies/chapter/chapter-10-intercultural-communication/",
+   "https://core.ac.uk/download/19090393.pdf",
+   "https://forms.mpi.nl/node/47267"
+  ]
+ },
+ {
   "id": "cm:face-to-face-conversation",
   "title": "Face-to-face conversation",
   "aliases": [

@@ -4336,6 +4336,110 @@
    ]
   },
   {
+   "@id": "cm:face-and-facework",
+   "@type": "cmo:Concept",
+   "cmo:appliedIn": [
+    {
+     "@id": "cm:difficult-conversation"
+    },
+    {
+     "@id": "cm:multicultural-team"
+    }
+   ],
+   "cmo:challengedBy": {
+    "@id": "cm:matsumoto-1988"
+   },
+   "cmo:demonstratedBy": {
+    "@id": "cm:oetzel-ting-toomey-2003"
+   },
+   "cmo:domain": "cross-cultural-communication",
+   "cmo:evidenceStatus": "theoretical",
+   "cmo:file": "articles/cross-cultural-communication/face-and-facework.md",
+   "cmo:introducedBy": {
+    "@id": "cm:erving-goffman"
+   },
+   "cmo:level": "intermediate",
+   "cmo:studiedIn": {
+    "@id": "cm:pragmatics"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/face-and-facework/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/face-and-facework/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/face-and-facework/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/face-and-facework/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/face-and-facework/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/face-and-facework/s6"
+    }
+   ],
+   "rdfs:label": "Face and facework",
+   "skos:altLabel": [
+    "face concerns",
+    "face",
+    "face-threatening act",
+    "face-work",
+    "facework",
+    "losing face",
+    "saving face"
+   ],
+   "skos:broader": [
+    {
+     "@id": "cm:intercultural-communication"
+    },
+    {
+     "@id": "cm:interpersonal-communication"
+    }
+   ],
+   "skos:definition": "Face is the public self-image a person claims in an interaction and expects others to honour; facework is everything speakers do, in words and behaviour, to protect, restore or challenge their own and others' face. Introduced by Erving Goffman and developed in politeness theory and face-negotiation theory, it explains why requests, criticism and disagreement are so often softened, and why that softening varies across cultures.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/cross-cultural-communication"
+   },
+   "skos:prefLabel": "Face and facework",
+   "skos:related": [
+    {
+     "@id": "cm:apology"
+    },
+    {
+     "@id": "cm:defensiveness"
+    },
+    {
+     "@id": "cm:direct-vs-indirect-feedback"
+    },
+    {
+     "@id": "cm:face-negotiation-theory"
+    },
+    {
+     "@id": "cm:impression-management"
+    },
+    {
+     "@id": "cm:mea-culpa"
+    },
+    {
+     "@id": "cm:multicultural-team"
+    },
+    {
+     "@id": "cm:politeness-theory"
+    },
+    {
+     "@id": "cm:social-accounts"
+    }
+   ]
+  },
+  {
    "@id": "cm:face-to-face-conversation",
    "@type": "cmo:Channel",
    "cmo:alternativeTo": [
@@ -24258,6 +24362,90 @@
    "dcterms:title": "Chapter 5: Oculesics (More than what you say: Nonverbal communication in the 21st century)",
    "schema:url": {
     "@id": "https://una.pressbooks.pub/nonverbal-communication/?p=69"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/face-and-facework/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Erving Goffman, first published in Psychiatry 18(3), 213-231 (1955); reprinted Pantheon Books (course-reading copy, National and Kapodistrian University of Athens eClass)",
+   "dcterms:title": "On Face-Work: An Analysis of Ritual Elements in Social Interaction (in Interaction Ritual: Essays on Face-to-Face Behavior)",
+   "schema:url": {
+    "@id": "https://eclass-b.uoa.gr/modules/document/file.php/PPP860/Erving%20Goffman%20-%20Interaction%20Ritual_%20Essays%20on%20Face-to-Face%20Behavior%20-Pantheon%20%281982%29.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/face-and-facework/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "EBSCO Knowledge Advantage",
+   "dcterms:title": "Politeness Theory (Research Starters)",
+   "schema:url": {
+    "@id": "https://www.ebsco.com/research-starters/social-sciences-and-humanities/politeness-theory"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/face-and-facework/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Oetzel & Ting-Toomey, Communication Research 30(6), 599-624 (2003), doi:10.1177/0093650203257841 (course-reading copy, University of Rijeka)",
+   "dcterms:title": "Face concerns in interpersonal conflict: A cross-cultural empirical test of the face negotiation theory",
+   "schema:url": {
+    "@id": "https://www.ffri.hr/~ibrdar/komunikacija/seminari/Oetzel,%202003%20-%20Interpersonal%20conflict%20and%20face%20concerns.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/face-and-facework/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Amanda Williams, Mount Royal University, Open Education Alberta Pressbooks (2024)",
+   "dcterms:title": "Chapter 10: Intercultural Communication (Insights into Communication Studies)",
+   "schema:url": {
+    "@id": "https://pressbooks.openeducationalberta.ca/insightsintocommstudies/chapter/chapter-10-intercultural-communication/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/face-and-facework/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Barbara Pizziconi, SOAS University of London (author's copy via CORE)",
+   "dcterms:title": "Re-examining Politeness, Face and the Japanese Language",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/19090393.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/face-and-facework/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Penelope Brown & Stephen C. Levinson, Cambridge University Press (1987); Max Planck Institute for Psycholinguistics publication record",
+   "dcterms:title": "Politeness: Some universals in language usage",
+   "schema:url": {
+    "@id": "https://forms.mpi.nl/node/47267"
    }
   },
   {

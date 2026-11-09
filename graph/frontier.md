@@ -4,11 +4,10 @@ Nodes that existing articles point to but nobody has written yet. Score = referr
 
 | Node | Score | Expected type | Referenced by |
 |---|---|---|---|
-| `cm:face-and-facework` | 6.60 | - | `cm:apology`, `cm:direct-vs-indirect-feedback`, `cm:erving-goffman`, `cm:mea-culpa`, `cm:multicultural-team` |
-| `cm:intercultural-competence` | 6.09 | - | `cm:cultural-intelligence`, `cm:culture-assimilator`, `cm:describe-analyze-evaluate`, `cm:intercultural-communication`, `cm:multicultural-team` |
+| `cm:pragmatics` | 6.11 | Field | `cm:clarity`, `cm:common-ground`, `cm:face-and-facework`, `cm:grices-maxims` |
+| `cm:intercultural-competence` | 6.10 | - | `cm:cultural-intelligence`, `cm:culture-assimilator`, `cm:describe-analyze-evaluate`, `cm:intercultural-communication`, `cm:multicultural-team` |
 | `cm:silence-and-pauses` | 5.58 | - | `cm:conversational-turn-taking`, `cm:filled-pauses`, `cm:habit-reversal-training`, `cm:wait-time` |
 | `cm:rhetoric` | 5.10 | Field | `cm:aristotles-rhetoric`, `cm:interpersonal-communication`, `cm:organizational-communication`, `cm:quintilian` |
-| `cm:pragmatics` | 5.10 | Field | `cm:clarity`, `cm:common-ground`, `cm:grices-maxims` |
 | `cm:public-speaking` | 5.09 | - | `cm:presentation`, `cm:presentation-rehearsal`, `cm:self-recording-playback` |
 | `cm:unequal-participation` | 5.07 | - | `cm:1-2-4-all`, `cm:brainstorming`, `cm:conversational-turn-taking`, `cm:facilitation`, `cm:nominal-group-technique` |
 | `cm:group-decision-making` | 5.06 | - | `cm:brainstorming`, `cm:facilitators-guide-to-participatory-decision-making`, `cm:murray-turoff`, `cm:nominal-group-technique`, `cm:raci-matrix` |
@@ -19,11 +18,12 @@ Nodes that existing articles point to but nobody has written yet. Score = referr
 | `cm:media-synchronicity-theory` | 4.10 | - | `cm:asynchronous-communication`, `cm:channel-selection`, `cm:media-richness-theory`, `cm:message-equivocality-media-selection-and-manager-performance` |
 | `cm:communication-apprehension` | 4.10 | - | `cm:interpersonal-communication`, `cm:macinnis-mackinnon-macintyre-2010`, `cm:speaking-anxiety` |
 | `cm:questioning` | 4.10 | - | `cm:humble-inquiry`, `cm:open-ended-questions`, `cm:perspective-getting`, `cm:wait-time` |
-| `cm:checking-understanding` | 4.10 | - | `cm:common-ground`, `cm:egocentric-bias`, `cm:perspective-getting`, `cm:teach-back` |
-| `cm:hattie-timperley-feedback-model` | 4.09 | - | `cm:feedback`, `cm:kluger-denisi-1996`, `cm:wisniewski-zierer-hattie-2020` |
+| `cm:checking-understanding` | 4.09 | - | `cm:common-ground`, `cm:egocentric-bias`, `cm:perspective-getting`, `cm:teach-back` |
 | `cm:power-distance` | 4.09 | - | `cm:direct-vs-indirect-feedback`, `cm:hofstede-cultural-dimensions`, `cm:multicultural-team`, `cm:the-culture-map` |
+| `cm:hattie-timperley-feedback-model` | 4.09 | - | `cm:feedback`, `cm:kluger-denisi-1996`, `cm:wisniewski-zierer-hattie-2020` |
 | `cm:savitsky-gilovich-2003` | 4.07 | Study | `cm:gilovich-savitsky-medvec-1998`, `cm:macinnis-mackinnon-macintyre-2010`, `cm:speaking-anxiety`, `cm:thomas-gilovich` |
 | `cm:conflict-resolution` | 4.07 | Field | `cm:conversational-receptiveness`, `cm:difficult-conversation`, `cm:role-reversal`, `cm:thomas-kilmann-conflict-modes` |
+| `cm:impression-management` | 4.07 | - | `cm:erving-goffman`, `cm:face-and-facework`, `cm:issue-selling` |
 | `cm:job-interview` | 4.06 | - | `cm:camera-level-gaze`, `cm:paralanguage`, `cm:power-posing`, `cm:salary-negotiation` |
 | `cm:self-disclosure` | 4.06 | - | `cm:rapport`, `cm:reciprocal-self-disclosure`, `cm:small-talk`, `cm:trusted-advisor` |
 | `cm:trust-repair` | 4.05 | - | `cm:apology`, `cm:mea-culpa`, `cm:social-accounts`, `cm:trusted-advisor` |
@@ -32,6 +32,7 @@ Nodes that existing articles point to but nobody has written yet. Score = referr
 | `cm:rhetorical-appeals` | 3.56 | - | `cm:aristotles-rhetoric`, `cm:elaboration-likelihood-model`, `cm:persuasion` |
 | `cm:facial-expressions` | 3.55 | - | `cm:mehrabian-myth`, `cm:nonverbal-communication`, `cm:paralanguage` |
 | `cm:death-by-powerpoint` | 3.55 | - | `cm:assertion-evidence-slides`, `cm:fm-6-0`, `cm:presentation` |
+| `cm:politeness-theory` | 3.54 | - | `cm:erving-goffman`, `cm:face-and-facework`, `cm:grices-maxims` |
 | `cm:egocentrism-over-email-study` | 3.10 | Study | `cm:channel-selection`, `cm:egocentric-bias`, `cm:face-to-face-conversation` |
 | `cm:carl-rogers` | 3.10 | Person | `cm:active-listening`, `cm:paraphrasing`, `cm:weger-et-al-2014` |
 | `cm:cognitive-bias` | 3.09 | - | `cm:anchoring-and-adjustment`, `cm:egocentric-bias`, `cm:mythical-fixed-pie` |
@@ -39,8 +40,8 @@ Nodes that existing articles point to but nobody has written yet. Score = referr
 | `cm:huang-et-al-2017` | 3.08 | - | `cm:humble-inquiry`, `cm:open-ended-questions`, `cm:perspective-getting` |
 | `cm:social-anxiety` | 3.07 | - | `cm:anxiety-reappraisal`, `cm:speaking-anxiety`, `cm:spotlight-effect` |
 | `cm:lee-et-al-2017` | 3.07 | - | `cm:influence-without-authority`, `cm:managing-up`, `cm:persuasion` |
-| `cm:mark-et-al-2016` | 3.07 | Study | `cm:email`, `cm:kushlev-dunn-2015`, `cm:scheduled-inbox-checks` |
 | `cm:taras-steel-kirkman-2016` | 3.07 | - | `cm:hofstede-cultural-dimensions`, `cm:intercultural-communication`, `cm:the-culture-map` |
+| `cm:mark-et-al-2016` | 3.07 | Study | `cm:email`, `cm:kushlev-dunn-2015`, `cm:scheduled-inbox-checks` |
 | `cm:schroeder-caruso-epley-2016` | 3.06 | Study | `cm:considering-others-contributions-first`, `cm:egocentric-bias`, `cm:nicholas-epley` |
 | `cm:weger-castle-emmett-2010` | 3.06 | - | `cm:paraphrasing`, `cm:weger-et-al-2014` |
 | `cm:kardas-kumar-epley-2021` | 3.06 | Study | `cm:difficult-conversation`, `cm:nicholas-epley`, `cm:small-talk` |
@@ -52,18 +53,16 @@ Nodes that existing articles point to but nobody has written yet. Score = referr
 | `cm:thompson-1991` | 3.05 | - | `cm:interests-vs-positions`, `cm:mythical-fixed-pie`, `cm:principled-negotiation` |
 | `cm:mixed-messages` | 3.05 | - | `cm:mehrabian-myth`, `cm:nonverbal-communication`, `cm:paralanguage` |
 | `cm:victoria-medvec` | 3.05 | Person | `cm:gilovich-savitsky-medvec-1998`, `cm:multiple-equivalent-simultaneous-offers`, `cm:thomas-gilovich` |
-| `cm:impression-management` | 3.05 | - | `cm:erving-goffman`, `cm:issue-selling` |
-| `cm:norm-of-reciprocity` | 3.05 | - | `cm:charles-osgood`, `cm:concession-strategy`, `cm:influence-without-authority` |
 | `cm:mum-effect` | 3.05 | - | `cm:delivering-bad-news`, `cm:rob-buckman`, `cm:status-reporting` |
+| `cm:norm-of-reciprocity` | 3.05 | - | `cm:charles-osgood`, `cm:concession-strategy`, `cm:influence-without-authority` |
 | `cm:vocal-delivery` | 3.04 | - | `cm:filled-pauses`, `cm:habit-reversal-training`, `cm:paralanguage` |
 | `cm:production-blocking` | 3.04 | - | `cm:1-2-4-all`, `cm:brainstorming`, `cm:nominal-group-technique` |
-| `cm:cognitive-reappraisal` | 3.04 | - | `cm:anxiety-reappraisal`, `cm:labeling-emotions`, `cm:self-distancing` |
 | `cm:spikes-protocol` | 3.04 | - | `cm:delivering-bad-news`, `cm:rob-buckman` |
+| `cm:cognitive-reappraisal` | 3.04 | - | `cm:anxiety-reappraisal`, `cm:labeling-emotions`, `cm:self-distancing` |
 | `cm:burying-the-lede` | 2.57 | - | `cm:bottom-line-up-front`, `cm:pyramid-principle` |
 | `cm:empathy` | 2.54 | - | `cm:perspective-taking`, `cm:role-reversal` |
 | `cm:presentation-structure` | 2.54 | - | `cm:assertion-evidence-slides`, `cm:presentation` |
 | `cm:editing-for-clarity` | 2.53 | - | `cm:paramedic-method`, `cm:readability-formulas` |
-| `cm:politeness-theory` | 2.53 | - | `cm:erving-goffman`, `cm:grices-maxims` |
 | `cm:audience-design` | 2.08 | - | `cm:audience-analysis`, `cm:common-ground` |
 | `cm:audience` | 2.08 | - | `cm:aristotles-rhetoric`, `cm:audience-analysis` |
 | `cm:memorandum` | 2.07 | - | `cm:bottom-line-up-front`, `cm:effective-writing-for-army-leaders` |
@@ -72,8 +71,8 @@ Nodes that existing articles point to but nobody has written yet. Score = referr
 | `cm:barley-meyerson-grodal-2011` | 2.06 | Study | `cm:email`, `cm:information-overload` |
 | `cm:dennis-kinney-1998` | 2.06 | - | `cm:channel-selection`, `cm:media-richness-theory` |
 | `cm:ask-in-person-study` | 2.06 | Study | `cm:channel-selection`, `cm:face-to-face-conversation` |
-| `cm:many-labs-2` | 2.06 | - | `cm:egocentric-bias`, `cm:social-psychology` |
 | `cm:accusatory-you-statements` | 2.06 | - | `cm:defensiveness`, `cm:i-statements` |
+| `cm:many-labs-2` | 2.06 | - | `cm:egocentric-bias`, `cm:social-psychology` |
 | `cm:communication-competence` | 2.06 | - | `cm:clarity`, `cm:interpersonal-communication` |
 | `cm:feedback-intervention-theory` | 2.06 | - | `cm:feedback`, `cm:kluger-denisi-1996` |
 | `cm:camerer-loewenstein-weber-1989` | 2.05 | Study | `cm:curse-of-knowledge`, `cm:george-loewenstein` |
@@ -85,13 +84,13 @@ Nodes that existing articles point to but nobody has written yet. Score = referr
 | `cm:roger-fisher` | 2.05 | Person | `cm:batna`, `cm:principled-negotiation` |
 | `cm:negotiator-dilemma` | 2.05 | - | `cm:integrative-negotiation`, `cm:multiple-equivalent-simultaneous-offers` |
 | `cm:a-behavioral-theory-of-labor-negotiations` | 2.05 | Work | `cm:distributive-negotiation`, `cm:integrative-negotiation` |
+| `cm:interpersonal-conflict` | 2.05 | - | `cm:difficult-conversation`, `cm:thomas-kilmann-conflict-modes` |
 | `cm:dutton-et-al-2001` | 2.04 | Study | `cm:issue-selling`, `cm:managing-up` |
-| `cm:interpersonal-conflict` | 2.04 | - | `cm:difficult-conversation`, `cm:thomas-kilmann-conflict-modes` |
 | `cm:cross-functional-collaboration` | 2.04 | - | `cm:influence-without-authority`, `cm:persuasion` |
 | `cm:yukl-tracey-1992` | 2.04 | - | `cm:influence-without-authority`, `cm:persuasion` |
+| `cm:self-affirmation-theory` | 2.04 | - | `cm:defensiveness`, `cm:self-affirmation-before-feedback` |
 | `cm:eyal-steffel-epley-2018` | 2.04 | Study | `cm:perspective-getting`, `cm:perspective-taking` |
 | `cm:group-communication` | 2.04 | - | `cm:facilitation`, `cm:workplace-meetings` |
-| `cm:self-affirmation-theory` | 2.04 | - | `cm:defensiveness`, `cm:self-affirmation-before-feedback` |
 | `cm:logrolling` | 2.04 | - | `cm:integrative-negotiation`, `cm:interests-vs-positions` |
 | `cm:thomas-gordon` | 2.04 | Person | `cm:i-statements`, `cm:weger-et-al-2014` |
 | `cm:synchronous-communication` | 2.04 | - | `cm:face-to-face-conversation`, `cm:video-call-communication` |
@@ -101,8 +100,8 @@ Nodes that existing articles point to but nobody has written yet. Score = referr
 | `cm:shockley-et-al-2021` | 2.04 | Study | `cm:camera-optional-norm`, `cm:zoom-fatigue` |
 | `cm:galinsky-mussweiler-2001` | 2.04 | Study | `cm:adam-galinsky`, `cm:first-offer` |
 | `cm:legg-sweeny-2013` | 2.04 | Study | `cm:delivering-bad-news`, `cm:feedback-sandwich` |
-| `cm:the-pros-and-cons-of-getting-to-yes` | 2.04 | - | `cm:interests-vs-positions`, `cm:principled-negotiation` |
 | `cm:advice-giving` | 2.04 | - | `cm:humble-inquiry`, `cm:weger-et-al-2014` |
+| `cm:the-pros-and-cons-of-getting-to-yes` | 2.04 | - | `cm:interests-vs-positions`, `cm:principled-negotiation` |
 | `cm:boland-et-al-zoom-turn-taking` | 2.04 | Study | `cm:conversational-turn-taking`, `cm:video-call-communication` |
 | `cm:hovland-weiss-1951` | 2.03 | Study | `cm:carl-hovland`, `cm:credibility` |
 | `cm:sleeper-effect` | 2.03 | - | `cm:carl-hovland`, `cm:credibility` |
@@ -127,11 +126,11 @@ Nodes that existing articles point to but nobody has written yet. Score = referr
 | `cm:caruso-epley-bazerman-2006` | 2.03 | Study | `cm:considering-others-contributions-first`, `cm:nicholas-epley` |
 | `cm:attention-management` | 2.03 | - | `cm:kushlev-dunn-2015`, `cm:scheduled-inbox-checks` |
 | `cm:fitz-et-al-2019` | 2.03 | Study | `cm:kushlev-dunn-2015`, `cm:scheduled-inbox-checks` |
+| `cm:denial` | 2.03 | - | `cm:apology`, `cm:mea-culpa` |
+| `cm:lewicki-polin-lount-2016` | 2.03 | Study | `cm:apology`, `cm:mea-culpa` |
 | `cm:wordiness` | 2.03 | - | `cm:concise-writing`, `cm:paramedic-method` |
 | `cm:albert-mehrabian` | 2.03 | Person | `cm:mehrabian-myth`, `cm:michael-argyle` |
 | `cm:meeting-norms` | 2.03 | - | `cm:camera-optional-norm`, `cm:interrupting` |
-| `cm:denial` | 2.02 | - | `cm:apology`, `cm:mea-culpa` |
-| `cm:lewicki-polin-lount-2016` | 2.02 | Study | `cm:apology`, `cm:mea-culpa` |
 | `cm:emotion-regulation` | 2.02 | - | `cm:labeling-emotions`, `cm:self-distancing` |
 | `cm:inoculation-theory` | 2.02 | - | `cm:refutational-two-sided-messages` |
 | `cm:planning-fallacy` | 2.02 | - | `cm:michael-ross` |
@@ -142,9 +141,9 @@ Nodes that existing articles point to but nobody has written yet. Score = referr
 | `cm:handling-questions` | 1.52 | - | `cm:presentation` |
 | `cm:reciprocity` | 1.52 | - | `cm:influence-without-authority` |
 | `cm:erin-meyer` | 1.52 | Person | `cm:the-culture-map` |
+| `cm:ladder-of-inference` | 1.52 | - | `cm:describe-analyze-evaluate` |
 | `cm:barbara-minto` | 1.52 | Person | `cm:pyramid-principle` |
 | `cm:scqa-framework` | 1.52 | - | `cm:pyramid-principle` |
-| `cm:ladder-of-inference` | 1.52 | - | `cm:describe-analyze-evaluate` |
 | `cm:slide-design` | 1.51 | - | `cm:assertion-evidence-slides` |
 | `cm:emotional-intelligence` | 1.51 | - | `cm:cultural-intelligence` |
 | `cm:client-communication` | 1.51 | - | `cm:trusted-advisor` |
@@ -179,6 +178,8 @@ Nodes that existing articles point to but nobody has written yet. Score = referr
 | `cm:czech-forward-2013` | 1.03 | - | `cm:defensiveness` |
 | `cm:forward-czech-lee-2011` | 1.03 | - | `cm:defensiveness` |
 | `cm:jack-gibb` | 1.03 | Person | `cm:defensiveness` |
+| `cm:brew-cairns-2004` | 1.03 | - | `cm:direct-vs-indirect-feedback` |
+| `cm:sanchez-burks-et-al-2003` | 1.03 | - | `cm:direct-vs-indirect-feedback` |
 | `cm:amos-tversky` | 1.03 | Person | `cm:anchoring-and-adjustment` |
 | `cm:daniel-kahneman` | 1.03 | Person | `cm:anchoring-and-adjustment` |
 | `cm:epley-et-al-2004` | 1.03 | Study | `cm:anchoring-and-adjustment` |
@@ -187,23 +188,21 @@ Nodes that existing articles point to but nobody has written yet. Score = referr
 | `cm:roseler-et-al-2025` | 1.03 | - | `cm:anchoring-and-adjustment` |
 | `cm:selective-accessibility-model` | 1.03 | - | `cm:anchoring-and-adjustment` |
 | `cm:seehausen-et-al-2012` | 1.03 | - | `cm:paraphrasing` |
-| `cm:brew-cairns-2004` | 1.03 | - | `cm:direct-vs-indirect-feedback` |
-| `cm:sanchez-burks-et-al-2003` | 1.03 | - | `cm:direct-vs-indirect-feedback` |
+| `cm:linguistic-anthropology` | 1.03 | - | `cm:intercultural-communication` |
+| `cm:the-silent-language` | 1.03 | Work | `cm:intercultural-communication` |
 | `cm:oppenheimer-2006` | 1.03 | - | `cm:clarity` |
 | `cm:titsworth-et-al-2015` | 1.03 | Study | `cm:clarity` |
 | `cm:beyond-culture` | 1.03 | Work | `cm:high-and-low-context-cultures` |
 | `cm:cardon-2008` | 1.03 | - | `cm:high-and-low-context-cultures` |
 | `cm:kittler-rygl-mackinnon-2011` | 1.03 | - | `cm:high-and-low-context-cultures` |
-| `cm:linguistic-anthropology` | 1.03 | - | `cm:intercultural-communication` |
-| `cm:the-silent-language` | 1.03 | Work | `cm:intercultural-communication` |
 | `cm:perlow-1999` | 1.03 | Study | `cm:asynchronous-communication` |
 | `cm:yang-et-al-2022` | 1.03 | Study | `cm:asynchronous-communication` |
 | `cm:brett-pinkley-jackofsky-1996` | 1.03 | Study | `cm:batna` |
 | `cm:schaerer-swaab-galinsky-2015` | 1.03 | - | `cm:batna` |
+| `cm:feedback-that-works` | 1.03 | Work | `cm:situation-behavior-impact` |
 | `cm:flinchum-2022` | 1.03 | - | `cm:one-on-one-meetings` |
 | `cm:self-determination-theory` | 1.03 | - | `cm:one-on-one-meetings` |
 | `cm:team-meetings` | 1.03 | - | `cm:one-on-one-meetings` |
-| `cm:feedback-that-works` | 1.03 | Work | `cm:situation-behavior-impact` |
 | `cm:ebrahimi-et-al-2019` | 1.03 | - | `cm:speaking-anxiety` |
 | `cm:bowles-babcock-lai-2007` | 1.03 | Study | `cm:salary-negotiation` |
 | `cm:bowles-babcock-mcginn-2005` | 1.03 | Study | `cm:salary-negotiation` |
@@ -212,30 +211,30 @@ Nodes that existing articles point to but nobody has written yet. Score = referr
 | `cm:mazei-et-al-2015` | 1.03 | Study | `cm:salary-negotiation` |
 | `cm:gilovich-kruger-medvec-2002` | 1.03 | Study | `cm:spotlight-effect` |
 | `cm:macrae-et-al-2016` | 1.03 | - | `cm:spotlight-effect` |
+| `cm:uncertainty-reduction-theory` | 1.03 | - | `cm:interpersonal-communication` |
 | `cm:gunia-et-al-2013` | 1.03 | Study | `cm:first-offer` |
 | `cm:loschelder-et-al-2014` | 1.03 | - | `cm:first-offer` |
 | `cm:maaravi-levy-2017` | 1.03 | - | `cm:first-offer` |
 | `cm:petrowsky-et-al-2025` | 1.03 | - | `cm:first-offer` |
 | `cm:epley-caruso-bazerman-2006` | 1.03 | - | `cm:perspective-taking` |
 | `cm:galinsky-maddux-gilin-white-2008` | 1.03 | Study | `cm:perspective-taking` |
-| `cm:uncertainty-reduction-theory` | 1.03 | - | `cm:interpersonal-communication` |
+| `cm:decision-quality` | 1.03 | - | `cm:information-overload` |
 | `cm:howard-raiffa` | 1.03 | Person | `cm:zone-of-possible-agreement` |
 | `cm:larrick-wu-2007` | 1.03 | Study | `cm:zone-of-possible-agreement` |
 | `cm:schaerer-loschelder-swaab-2016` | 1.03 | Study | `cm:zone-of-possible-agreement` |
-| `cm:decision-quality` | 1.03 | - | `cm:information-overload` |
-| `cm:lindholst-bulow-fells-2018` | 1.03 | Study | `cm:negotiation-preparation` |
-| `cm:roloff-jordan-1991` | 1.03 | Study | `cm:negotiation-preparation` |
+| `cm:lindholst-bulow-fells-2018` | 1.02 | Study | `cm:negotiation-preparation` |
+| `cm:roloff-jordan-1991` | 1.02 | Study | `cm:negotiation-preparation` |
 | `cm:fauville-et-al-2023` | 1.02 | - | `cm:zoom-fatigue` |
 | `cm:riedl-et-al-2023` | 1.02 | Study | `cm:zoom-fatigue` |
+| `cm:assertive-communication` | 1.02 | - | `cm:i-statements` |
+| `cm:korobov-2020` | 1.02 | - | `cm:i-statements` |
+| `cm:rogers-et-al-2018` | 1.02 | - | `cm:i-statements` |
+| `cm:simmons-gordon-chambless-2005` | 1.02 | - | `cm:i-statements` |
 | `cm:kauffeld-lehmann-willenbrock-2012` | 1.02 | Study | `cm:workplace-meetings` |
 | `cm:meeting-recovery-syndrome` | 1.02 | - | `cm:workplace-meetings` |
 | `cm:meeting-science` | 1.02 | Field | `cm:workplace-meetings` |
 | `cm:rogelberg-leach-burnfield-2006` | 1.02 | Study | `cm:workplace-meetings` |
 | `cm:de-dreu-weingart-kwon-2000` | 1.02 | - | `cm:integrative-negotiation` |
-| `cm:assertive-communication` | 1.02 | - | `cm:i-statements` |
-| `cm:korobov-2020` | 1.02 | - | `cm:i-statements` |
-| `cm:rogers-et-al-2018` | 1.02 | - | `cm:i-statements` |
-| `cm:simmons-gordon-chambless-2005` | 1.02 | - | `cm:i-statements` |
 | `cm:deliberate-practice` | 1.02 | - | `cm:presentation-rehearsal` |
 | `cm:menzel-carrell-1994` | 1.02 | - | `cm:presentation-rehearsal` |
 | `cm:smith-frymier-2006` | 1.02 | - | `cm:presentation-rehearsal` |
@@ -285,23 +284,26 @@ Nodes that existing articles point to but nobody has written yet. Score = referr
 | `cm:david-l-bradford` | 1.02 | Person | `cm:influence-without-authority` |
 | `cm:influence-without-authority-book` | 1.02 | Work | `cm:influence-without-authority` |
 | `cm:channel-expansion-theory` | 1.02 | - | `cm:media-richness-theory` |
-| `cm:brucks-levav-2022` | 1.02 | Study | `cm:video-call-communication` |
 | `cm:dibble-2017` | 1.02 | Study | `cm:delivering-bad-news` |
 | `cm:johnson-panagioti-2018` | 1.02 | Study | `cm:delivering-bad-news` |
+| `cm:brucks-levav-2022` | 1.02 | Study | `cm:video-call-communication` |
+| `cm:floyd-allport` | 1.02 | Person | `cm:social-psychology` |
+| `cm:open-science-collaboration-2015` | 1.02 | - | `cm:social-psychology` |
+| `cm:psychology` | 1.02 | - | `cm:social-psychology` |
 | `cm:clark-wilkes-gibbs-1986` | 1.02 | Study | `cm:common-ground` |
 | `cm:cramton-2001` | 1.02 | Study | `cm:common-ground` |
 | `cm:grounding-in-communication` | 1.02 | Work | `cm:common-ground` |
 | `cm:herbert-h-clark` | 1.02 | Person | `cm:common-ground` |
 | `cm:keysar-et-al-2000` | 1.02 | - | `cm:common-ground` |
-| `cm:floyd-allport` | 1.02 | Person | `cm:social-psychology` |
-| `cm:open-science-collaboration-2015` | 1.02 | - | `cm:social-psychology` |
-| `cm:psychology` | 1.02 | - | `cm:social-psychology` |
 | `cm:boothby-cooney-schweitzer-2023` | 1.02 | Study | `cm:negotiation` |
 | `cm:curhan-elfenbein-xu-2006` | 1.02 | Study | `cm:negotiation` |
 | `cm:elshenawy-2010` | 1.02 | - | `cm:negotiation` |
 | `cm:subjective-value` | 1.02 | - | `cm:negotiation` |
 | `cm:aristotle` | 1.02 | Person | `cm:aristotles-rhetoric` |
 | `cm:plato` | 1.02 | - | `cm:aristotles-rhetoric` |
+| `cm:faultline-theory` | 1.02 | - | `cm:multicultural-team` |
+| `cm:hinds-neeley-cramton-2014` | 1.02 | Study | `cm:multicultural-team` |
+| `cm:stahl-maznevski-voigt-jonsen-2010` | 1.02 | Study | `cm:multicultural-team` |
 | `cm:detert-burris-2007` | 1.02 | - | `cm:humble-inquiry` |
 | `cm:edgar-schein` | 1.02 | Person | `cm:humble-inquiry` |
 | `cm:humble-inquiry-the-gentle-art-of-asking-instead-of-telling` | 1.02 | Work | `cm:humble-inquiry` |
@@ -314,9 +316,6 @@ Nodes that existing articles point to but nobody has written yet. Score = referr
 | `cm:expectancy-violations-theory` | 1.02 | - | `cm:proxemics` |
 | `cm:sorokowska-et-al-2017` | 1.02 | Study | `cm:proxemics` |
 | `cm:territoriality` | 1.02 | - | `cm:proxemics` |
-| `cm:faultline-theory` | 1.02 | - | `cm:multicultural-team` |
-| `cm:hinds-neeley-cramton-2014` | 1.02 | Study | `cm:multicultural-team` |
-| `cm:stahl-maznevski-voigt-jonsen-2010` | 1.02 | Study | `cm:multicultural-team` |
 | `cm:ha-dinh-et-al-2016` | 1.02 | - | `cm:teach-back` |
 | `cm:schillinger-et-al-2003` | 1.02 | Study | `cm:teach-back` |
 | `cm:talevski-et-al-2020` | 1.02 | - | `cm:teach-back` |
@@ -333,6 +332,10 @@ Nodes that existing articles point to but nobody has written yet. Score = referr
 | `cm:riedl-et-al-2021` | 1.02 | - | `cm:facilitation` |
 | `cm:schoen-2022` | 1.02 | - | `cm:principled-negotiation` |
 | `cm:damen-pollmann-grassow-2021` | 1.02 | - | `cm:perspective-getting` |
+| `cm:intercultural-willingness-to-communicate` | 1.02 | - | `cm:ethnocentrism` |
+| `cm:intergroup-contact` | 1.02 | - | `cm:ethnocentrism` |
+| `cm:ludwig-gumplowicz` | 1.02 | Person | `cm:ethnocentrism` |
+| `cm:neuliep-hintz-mccroskey-2005` | 1.02 | Study | `cm:ethnocentrism` |
 | `cm:alison-wood-brooks` | 1.02 | Person | `cm:anxiety-reappraisal` |
 | `cm:beltzer-et-al-2014` | 1.02 | - | `cm:anxiety-reappraisal` |
 | `cm:brooks-2014` | 1.02 | Study | `cm:anxiety-reappraisal` |
@@ -340,10 +343,6 @@ Nodes that existing articles point to but nobody has written yet. Score = referr
 | `cm:jamieson-nock-mendes-2013` | 1.02 | - | `cm:anxiety-reappraisal` |
 | `cm:jeremy-jamieson` | 1.02 | Person | `cm:anxiety-reappraisal` |
 | `cm:poynter-smith-pasqualini-2025` | 1.02 | - | `cm:anxiety-reappraisal` |
-| `cm:intercultural-willingness-to-communicate` | 1.02 | - | `cm:ethnocentrism` |
-| `cm:intergroup-contact` | 1.02 | - | `cm:ethnocentrism` |
-| `cm:ludwig-gumplowicz` | 1.02 | Person | `cm:ethnocentrism` |
-| `cm:neuliep-hintz-mccroskey-2005` | 1.02 | Study | `cm:ethnocentrism` |
 | `cm:cultures-consequences` | 1.02 | Work | `cm:hofstede-cultural-dimensions` |
 | `cm:geert-hofstede` | 1.02 | Person | `cm:hofstede-cultural-dimensions` |
 | `cm:mcsweeney-2002` | 1.02 | - | `cm:hofstede-cultural-dimensions` |
@@ -400,6 +399,9 @@ Nodes that existing articles point to but nobody has written yet. Score = referr
 | `cm:henley-digennaro-reed-2015` | 1.02 | - | `cm:feedback-sandwich` |
 | `cm:parkes-abercrombie-mccarty-2013` | 1.02 | - | `cm:feedback-sandwich` |
 | `cm:prochazka-ovcari-durinik-2020` | 1.02 | - | `cm:feedback-sandwich` |
+| `cm:face-negotiation-theory` | 1.02 | - | `cm:face-and-facework` |
+| `cm:matsumoto-1988` | 1.02 | - | `cm:face-and-facework` |
+| `cm:oetzel-ting-toomey-2003` | 1.02 | Study | `cm:face-and-facework` |
 | `cm:team-communication-norms` | 1.02 | - | `cm:setting-reply-time-expectations` |
 | `cm:army-writing-program` | 1.02 | - | `cm:effective-writing-for-army-leaders` |
 | `cm:quick-screen-edit` | 1.02 | - | `cm:effective-writing-for-army-leaders` |
@@ -407,6 +409,9 @@ Nodes that existing articles point to but nobody has written yet. Score = referr
 | `cm:john-hattie` | 1.02 | Person | `cm:wisniewski-zierer-hattie-2020` |
 | `cm:klaus-zierer` | 1.02 | Person | `cm:wisniewski-zierer-hattie-2020` |
 | `cm:visible-learning` | 1.02 | - | `cm:wisniewski-zierer-hattie-2020` |
+| `cm:general-semantics` | 1.02 | - | `cm:describe-analyze-evaluate` |
+| `cm:janet-bennett` | 1.02 | Person | `cm:describe-analyze-evaluate` |
+| `cm:milton-bennett` | 1.02 | Person | `cm:describe-analyze-evaluate` |
 | `cm:lorch-lorch-1996` | 1.02 | - | `cm:pyramid-principle` |
 | `cm:mece` | 1.02 | - | `cm:pyramid-principle` |
 | `cm:the-pyramid-principle-book` | 1.02 | Work | `cm:pyramid-principle` |
@@ -414,9 +419,6 @@ Nodes that existing articles point to but nobody has written yet. Score = referr
 | `cm:boundary-theory` | 1.02 | - | `cm:email-urgency-bias-study` |
 | `cm:laura-giurge` | 1.02 | Person | `cm:email-urgency-bias-study` |
 | `cm:vanessa-bohns` | 1.02 | Person | `cm:email-urgency-bias-study` |
-| `cm:general-semantics` | 1.02 | - | `cm:describe-analyze-evaluate` |
-| `cm:janet-bennett` | 1.02 | Person | `cm:describe-analyze-evaluate` |
-| `cm:milton-bennett` | 1.02 | Person | `cm:describe-analyze-evaluate` |
 | `cm:mandel-irwin-2021` | 1.01 | - | `cm:words-of-estimative-probability` |
 | `cm:sherman-kent` | 1.01 | Person | `cm:words-of-estimative-probability` |
 | `cm:wintle-et-al-2019` | 1.01 | Study | `cm:words-of-estimative-probability` |
@@ -425,6 +427,10 @@ Nodes that existing articles point to but nobody has written yet. Score = referr
 | `cm:levinson-2016` | 1.01 | - | `cm:conversational-turn-taking` |
 | `cm:stivers-et-al-2009` | 1.01 | Study | `cm:conversational-turn-taking` |
 | `cm:templeton-et-al-2022` | 1.01 | Study | `cm:conversational-turn-taking` |
+| `cm:brooks-dai-schweitzer-2013` | 1.01 | Study | `cm:apology` |
+| `cm:empathic-concern` | 1.01 | - | `cm:apology` |
+| `cm:fehr-gelfand-nag-2010` | 1.01 | - | `cm:apology` |
+| `cm:kim-et-al-2004` | 1.01 | Study | `cm:apology` |
 | `cm:elizabeth-dunn` | 1.01 | Person | `cm:kushlev-dunn-2015` |
 | `cm:kostadin-kushlev` | 1.01 | Person | `cm:kushlev-dunn-2015` |
 | `cm:alzayed-alzamel-2023` | 1.01 | - | `cm:assertion-evidence-slides` |
@@ -434,14 +440,12 @@ Nodes that existing articles point to but nobody has written yet. Score = referr
 | `cm:kenneth-savitsky` | 1.01 | Person | `cm:gilovich-savitsky-medvec-1998` |
 | `cm:rai-mitchell-faelling-2012` | 1.01 | - | `cm:gilovich-savitsky-medvec-1998` |
 | `cm:van-boven-gilovich-medvec-2003` | 1.01 | - | `cm:gilovich-savitsky-medvec-1998` |
+| `cm:interaction-ritual` | 1.01 | Work | `cm:erving-goffman` |
+| `cm:the-presentation-of-self-in-everyday-life` | 1.01 | Work | `cm:erving-goffman` |
 | `cm:methot-et-al-2021` | 1.01 | Study | `cm:small-talk` |
 | `cm:sandstrom-boothby-cooney-2022` | 1.01 | - | `cm:small-talk` |
 | `cm:sandstrom-dunn-2014` | 1.01 | - | `cm:small-talk` |
 | `cm:fauville-et-al-2022` | 1.01 | - | `cm:camera-level-gaze` |
-| `cm:brooks-dai-schweitzer-2013` | 1.01 | Study | `cm:apology` |
-| `cm:empathic-concern` | 1.01 | - | `cm:apology` |
-| `cm:fehr-gelfand-nag-2010` | 1.01 | - | `cm:apology` |
-| `cm:kim-et-al-2004` | 1.01 | Study | `cm:apology` |
 | `cm:mindwise` | 1.01 | Work | `cm:nicholas-epley` |
 | `cm:george-l-trager` | 1.01 | Person | `cm:paralanguage` |
 | `cm:kraus-2017` | 1.01 | Study | `cm:paralanguage` |
@@ -462,14 +466,16 @@ Nodes that existing articles point to but nobody has written yet. Score = referr
 | `cm:social-judgment-theory` | 1.01 | - | `cm:carl-hovland` |
 | `cm:bate-et-al-2011` | 1.01 | - | `cm:habit-reversal-training` |
 | `cm:nathan-azrin` | 1.01 | Person | `cm:habit-reversal-training` |
-| `cm:interaction-ritual` | 1.01 | Work | `cm:erving-goffman` |
-| `cm:the-presentation-of-self-in-everyday-life` | 1.01 | Work | `cm:erving-goffman` |
-| `cm:how-we-know-what-isnt-so` | 1.01 | Work | `cm:thomas-gilovich` |
-| `cm:lee-ross` | 1.01 | - | `cm:thomas-gilovich` |
+| `cm:bies-shapiro-1987` | 1.01 | Study | `cm:social-accounts` |
+| `cm:brockner-wiesenfeld-1996` | 1.01 | - | `cm:social-accounts` |
+| `cm:fairness-theory` | 1.01 | - | `cm:social-accounts` |
+| `cm:shaw-wild-colquitt-2003` | 1.01 | Study | `cm:social-accounts` |
 | `cm:anseel-et-al-2015` | 1.01 | Study | `cm:receiving-feedback` |
 | `cm:blunden-et-al-2025` | 1.01 | - | `cm:receiving-feedback` |
 | `cm:douglas-stone` | 1.01 | Person | `cm:receiving-feedback` |
 | `cm:sheila-heen` | 1.01 | Person | `cm:receiving-feedback` |
+| `cm:how-we-know-what-isnt-so` | 1.01 | Work | `cm:thomas-gilovich` |
+| `cm:lee-ross` | 1.01 | - | `cm:thomas-gilovich` |
 | `cm:cannon-robinson-smith-lovin-2019` | 1.01 | Study | `cm:interrupting` |
 | `cm:farley-2008` | 1.01 | Study | `cm:interrupting` |
 | `cm:alex-osborn` | 1.01 | Person | `cm:brainstorming` |
@@ -489,13 +495,11 @@ Nodes that existing articles point to but nobody has written yet. Score = referr
 | `cm:ctss-mail` | 1.01 | - | `cm:ray-tomlinson` |
 | `cm:email-address` | 1.01 | - | `cm:ray-tomlinson` |
 | `cm:rfc-561` | 1.01 | Work | `cm:ray-tomlinson` |
-| `cm:bies-shapiro-1987` | 1.01 | Study | `cm:social-accounts` |
-| `cm:brockner-wiesenfeld-1996` | 1.01 | - | `cm:social-accounts` |
-| `cm:fairness-theory` | 1.01 | - | `cm:social-accounts` |
-| `cm:shaw-wild-colquitt-2003` | 1.01 | Study | `cm:social-accounts` |
 | `cm:e-b-white` | 1.01 | - | `cm:william-strunk-jr` |
 | `cm:fifty-years-of-stupid-grammar-advice` | 1.01 | - | `cm:william-strunk-jr` |
 | `cm:the-elements-of-style` | 1.01 | Work | `cm:william-strunk-jr` |
+| `cm:i-was-wrong` | 1.01 | - | `cm:mea-culpa` |
+| `cm:nicholas-tavuchis` | 1.01 | Person | `cm:mea-culpa` |
 | `cm:ang-et-al-2007` | 1.01 | Study | `cm:cultural-intelligence` |
 | `cm:fang-schei-selart-2018` | 1.01 | - | `cm:cultural-intelligence` |
 | `cm:rockstuhl-van-dyne-2018` | 1.01 | - | `cm:cultural-intelligence` |
@@ -540,8 +544,6 @@ Nodes that existing articles point to but nobody has written yet. Score = referr
 | `cm:kilmann-thomas-1977` | 1.01 | - | `cm:thomas-kilmann-conflict-modes` |
 | `cm:managerial-grid` | 1.01 | - | `cm:thomas-kilmann-conflict-modes` |
 | `cm:ralph-h-kilmann` | 1.01 | Person | `cm:thomas-kilmann-conflict-modes` |
-| `cm:i-was-wrong` | 1.01 | - | `cm:mea-culpa` |
-| `cm:nicholas-tavuchis` | 1.01 | Person | `cm:mea-culpa` |
 | `cm:collins-miller-1994` | 1.01 | - | `cm:reciprocal-self-disclosure` |
 | `cm:gibson-harari-marr-2018` | 1.01 | - | `cm:reciprocal-self-disclosure` |
 | `cm:sprecher-et-al-2013` | 1.01 | Study | `cm:reciprocal-self-disclosure` |

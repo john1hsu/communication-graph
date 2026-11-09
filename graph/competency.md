@@ -78,6 +78,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:delivering-bad-news` | `cm:social-accounts` |
 | `cm:difficult-conversation` | `cm:active-listening` |
 | `cm:difficult-conversation` | `cm:conversational-receptiveness` |
+| `cm:difficult-conversation` | `cm:face-and-facework` |
 | `cm:difficult-conversation` | `cm:i-statements` |
 | `cm:difficult-conversation` | `cm:paraphrasing` |
 | `cm:difficult-conversation` | `cm:role-reversal` |
@@ -94,9 +95,8 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:email` | `cm:scheduled-inbox-checks` |
 | `cm:email` | `cm:setting-reply-time-expectations` |
 | `cm:executive-briefing` | `cm:issue-selling` |
-| `cm:executive-briefing` | `cm:pyramid-principle` |
 
-…and 58 more.
+…and 60 more.
 
 ## Myths and contested advice
 

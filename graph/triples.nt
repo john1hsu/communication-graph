@@ -2576,6 +2576,46 @@
 <https://github.com/john1hsu/communication-graph/id/eye-contact> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/nonverbal-and-voice/eye-contact.md" .
 <https://github.com/john1hsu/communication-graph/id/eye-contact> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/eye-contact> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/binetti-et-al-2016> .
+<https://github.com/john1hsu/communication-graph/id/face-and-facework> <http://purl.org/dc/terms/created> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/face-and-facework> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+<https://github.com/john1hsu/communication-graph/id/face-and-facework> <http://www.w3.org/2000/01/rdf-schema#label> "Face and facework" .
+<https://github.com/john1hsu/communication-graph/id/face-and-facework> <http://www.w3.org/2004/02/skos/core#altLabel> "face concerns" .
+<https://github.com/john1hsu/communication-graph/id/face-and-facework> <http://www.w3.org/2004/02/skos/core#altLabel> "face" .
+<https://github.com/john1hsu/communication-graph/id/face-and-facework> <http://www.w3.org/2004/02/skos/core#altLabel> "face-threatening act" .
+<https://github.com/john1hsu/communication-graph/id/face-and-facework> <http://www.w3.org/2004/02/skos/core#altLabel> "face-work" .
+<https://github.com/john1hsu/communication-graph/id/face-and-facework> <http://www.w3.org/2004/02/skos/core#altLabel> "facework" .
+<https://github.com/john1hsu/communication-graph/id/face-and-facework> <http://www.w3.org/2004/02/skos/core#altLabel> "losing face" .
+<https://github.com/john1hsu/communication-graph/id/face-and-facework> <http://www.w3.org/2004/02/skos/core#altLabel> "saving face" .
+<https://github.com/john1hsu/communication-graph/id/face-and-facework> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/intercultural-communication> .
+<https://github.com/john1hsu/communication-graph/id/face-and-facework> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
+<https://github.com/john1hsu/communication-graph/id/face-and-facework> <http://www.w3.org/2004/02/skos/core#definition> "Face is the public self-image a person claims in an interaction and expects others to honour; facework is everything speakers do, in words and behaviour, to protect, restore or challenge their own and others' face. Introduced by Erving Goffman and developed in politeness theory and face-negotiation theory, it explains why requests, criticism and disagreement are so often softened, and why that softening varies across cultures." .
+<https://github.com/john1hsu/communication-graph/id/face-and-facework> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/cross-cultural-communication> .
+<https://github.com/john1hsu/communication-graph/id/face-and-facework> <http://www.w3.org/2004/02/skos/core#prefLabel> "Face and facework" .
+<https://github.com/john1hsu/communication-graph/id/face-and-facework> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/apology> .
+<https://github.com/john1hsu/communication-graph/id/face-and-facework> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/defensiveness> .
+<https://github.com/john1hsu/communication-graph/id/face-and-facework> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> .
+<https://github.com/john1hsu/communication-graph/id/face-and-facework> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/face-negotiation-theory> .
+<https://github.com/john1hsu/communication-graph/id/face-and-facework> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/impression-management> .
+<https://github.com/john1hsu/communication-graph/id/face-and-facework> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mea-culpa> .
+<https://github.com/john1hsu/communication-graph/id/face-and-facework> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/multicultural-team> .
+<https://github.com/john1hsu/communication-graph/id/face-and-facework> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/politeness-theory> .
+<https://github.com/john1hsu/communication-graph/id/face-and-facework> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/social-accounts> .
+<https://github.com/john1hsu/communication-graph/id/face-and-facework> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/face-and-facework/s1> .
+<https://github.com/john1hsu/communication-graph/id/face-and-facework> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/face-and-facework/s2> .
+<https://github.com/john1hsu/communication-graph/id/face-and-facework> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/face-and-facework/s3> .
+<https://github.com/john1hsu/communication-graph/id/face-and-facework> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/face-and-facework/s4> .
+<https://github.com/john1hsu/communication-graph/id/face-and-facework> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/face-and-facework/s5> .
+<https://github.com/john1hsu/communication-graph/id/face-and-facework> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/face-and-facework/s6> .
+<https://github.com/john1hsu/communication-graph/id/face-and-facework> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/difficult-conversation> .
+<https://github.com/john1hsu/communication-graph/id/face-and-facework> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/multicultural-team> .
+<https://github.com/john1hsu/communication-graph/id/face-and-facework> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/matsumoto-1988> .
+<https://github.com/john1hsu/communication-graph/id/face-and-facework> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/oetzel-ting-toomey-2003> .
+<https://github.com/john1hsu/communication-graph/id/face-and-facework> <https://github.com/john1hsu/communication-graph/ontology#domain> "cross-cultural-communication" .
+<https://github.com/john1hsu/communication-graph/id/face-and-facework> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "theoretical" .
+<https://github.com/john1hsu/communication-graph/id/face-and-facework> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/cross-cultural-communication/face-and-facework.md" .
+<https://github.com/john1hsu/communication-graph/id/face-and-facework> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/erving-goffman> .
+<https://github.com/john1hsu/communication-graph/id/face-and-facework> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/communication-graph/id/face-and-facework> <https://github.com/john1hsu/communication-graph/ontology#studiedIn> <https://github.com/john1hsu/communication-graph/id/pragmatics> .
 <https://github.com/john1hsu/communication-graph/id/face-to-face-conversation/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/face-to-face-conversation/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Is this a request, a disagreement, an ambiguous problem or sensitive news - the kinds of message that land better in person?" .
 <https://github.com/john1hsu/communication-graph/id/face-to-face-conversation/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/face-to-face-conversation> .
@@ -8967,6 +9007,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/eye-contact/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/eye-contact/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "textbook" .
 <https://github.com/john1hsu/communication-graph/id/source/eye-contact/s6> <https://schema.org/url> <https://una.pressbooks.pub/nonverbal-communication/?p=69> .
+<https://github.com/john1hsu/communication-graph/id/source/face-and-facework/s1> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/face-and-facework/s1> <http://purl.org/dc/terms/publisher> "Erving Goffman, first published in Psychiatry 18(3), 213-231 (1955); reprinted Pantheon Books (course-reading copy, National and Kapodistrian University of Athens eClass)" .
+<https://github.com/john1hsu/communication-graph/id/source/face-and-facework/s1> <http://purl.org/dc/terms/title> "On Face-Work: An Analysis of Ritual Elements in Social Interaction (in Interaction Ritual: Essays on Face-to-Face Behavior)" .
+<https://github.com/john1hsu/communication-graph/id/source/face-and-facework/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/face-and-facework/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/face-and-facework/s1> <https://schema.org/url> <https://eclass-b.uoa.gr/modules/document/file.php/PPP860/Erving%20Goffman%20-%20Interaction%20Ritual_%20Essays%20on%20Face-to-Face%20Behavior%20-Pantheon%20%281982%29.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/face-and-facework/s2> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/face-and-facework/s2> <http://purl.org/dc/terms/publisher> "EBSCO Knowledge Advantage" .
+<https://github.com/john1hsu/communication-graph/id/source/face-and-facework/s2> <http://purl.org/dc/terms/title> "Politeness Theory (Research Starters)" .
+<https://github.com/john1hsu/communication-graph/id/source/face-and-facework/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/face-and-facework/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "encyclopedia" .
+<https://github.com/john1hsu/communication-graph/id/source/face-and-facework/s2> <https://schema.org/url> <https://www.ebsco.com/research-starters/social-sciences-and-humanities/politeness-theory> .
+<https://github.com/john1hsu/communication-graph/id/source/face-and-facework/s3> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/face-and-facework/s3> <http://purl.org/dc/terms/publisher> "Oetzel & Ting-Toomey, Communication Research 30(6), 599-624 (2003), doi:10.1177/0093650203257841 (course-reading copy, University of Rijeka)" .
+<https://github.com/john1hsu/communication-graph/id/source/face-and-facework/s3> <http://purl.org/dc/terms/title> "Face concerns in interpersonal conflict: A cross-cultural empirical test of the face negotiation theory" .
+<https://github.com/john1hsu/communication-graph/id/source/face-and-facework/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/face-and-facework/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/face-and-facework/s3> <https://schema.org/url> <https://www.ffri.hr/~ibrdar/komunikacija/seminari/Oetzel,%202003%20-%20Interpersonal%20conflict%20and%20face%20concerns.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/face-and-facework/s4> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/face-and-facework/s4> <http://purl.org/dc/terms/publisher> "Amanda Williams, Mount Royal University, Open Education Alberta Pressbooks (2024)" .
+<https://github.com/john1hsu/communication-graph/id/source/face-and-facework/s4> <http://purl.org/dc/terms/title> "Chapter 10: Intercultural Communication (Insights into Communication Studies)" .
+<https://github.com/john1hsu/communication-graph/id/source/face-and-facework/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/face-and-facework/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/communication-graph/id/source/face-and-facework/s4> <https://schema.org/url> <https://pressbooks.openeducationalberta.ca/insightsintocommstudies/chapter/chapter-10-intercultural-communication/> .
+<https://github.com/john1hsu/communication-graph/id/source/face-and-facework/s5> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/face-and-facework/s5> <http://purl.org/dc/terms/publisher> "Barbara Pizziconi, SOAS University of London (author's copy via CORE)" .
+<https://github.com/john1hsu/communication-graph/id/source/face-and-facework/s5> <http://purl.org/dc/terms/title> "Re-examining Politeness, Face and the Japanese Language" .
+<https://github.com/john1hsu/communication-graph/id/source/face-and-facework/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/face-and-facework/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/face-and-facework/s5> <https://schema.org/url> <https://core.ac.uk/download/19090393.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/face-and-facework/s6> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/face-and-facework/s6> <http://purl.org/dc/terms/publisher> "Penelope Brown & Stephen C. Levinson, Cambridge University Press (1987); Max Planck Institute for Psycholinguistics publication record" .
+<https://github.com/john1hsu/communication-graph/id/source/face-and-facework/s6> <http://purl.org/dc/terms/title> "Politeness: Some universals in language usage" .
+<https://github.com/john1hsu/communication-graph/id/source/face-and-facework/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/face-and-facework/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/face-and-facework/s6> <https://schema.org/url> <https://forms.mpi.nl/node/47267> .
 <https://github.com/john1hsu/communication-graph/id/source/face-to-face-conversation/s1> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/face-to-face-conversation/s1> <http://purl.org/dc/terms/publisher> "Roghanizad, M. M. & Bohns, V. K., Journal of Experimental Social Psychology 69, 223-226, 2017 (author copy via CORE / Cornell DigitalCommons)" .
 <https://github.com/john1hsu/communication-graph/id/source/face-to-face-conversation/s1> <http://purl.org/dc/terms/title> "Ask in Person: You're Less Persuasive Than You Think Over Email" .
