@@ -7219,6 +7219,89 @@
    ]
   },
   {
+   "@id": "cm:maclay-osgood-1959",
+   "@type": "cmo:Work",
+   "cmo:authoredBy": [
+    {
+     "@id": "cm:charles-osgood"
+    },
+    {
+     "@id": "cm:howard-maclay"
+    }
+   ],
+   "cmo:challengedBy": {
+    "@id": "cm:clark-fox-tree-2002"
+   },
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "historical",
+   "cmo:file": "articles/thinkers-and-works/maclay-osgood-1959.md",
+   "cmo:introduces": {
+    "@id": "cm:filled-pauses"
+   },
+   "cmo:level": "intermediate",
+   "cmo:studiedIn": {
+    "@id": "cm:psycholinguistics"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/maclay-osgood-1959/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/maclay-osgood-1959/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/maclay-osgood-1959/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/maclay-osgood-1959/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/maclay-osgood-1959/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/maclay-osgood-1959/s6"
+    }
+   ],
+   "rdfs:label": "Hesitation phenomena in spontaneous English speech",
+   "skos:altLabel": [
+    "Maclay & Osgood 1959",
+    "Maclay and Osgood (1959)",
+    "Maclay-Osgood hesitation study"
+   ],
+   "skos:broader": {
+    "@id": "cm:filled-pauses"
+   },
+   "skos:definition": "Howard Maclay and Charles E. Osgood's 1959 paper in the journal Word, which counted filled pauses, silent pauses, repeats and false starts in the unscripted speech of about a dozen conference participants and set the four-way taxonomy of disfluency that speech research still uses.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "Hesitation phenomena in spontaneous English speech",
+   "skos:related": [
+    {
+     "@id": "cm:charles-osgood"
+    },
+    {
+     "@id": "cm:christenfeld-1995"
+    },
+    {
+     "@id": "cm:habit-reversal-training"
+    },
+    {
+     "@id": "cm:paralanguage"
+    },
+    {
+     "@id": "cm:silence-and-pauses"
+    },
+    {
+     "@id": "cm:vocal-delivery"
+    }
+   ]
+  },
+  {
    "@id": "cm:managing-up",
    "@type": "cmo:Skill",
    "cmo:appliedIn": [
@@ -27064,6 +27147,90 @@
    "dcterms:title": "Nie wieder Angst vor Vorträgen (Never again afraid of presentations)",
    "schema:url": {
     "@id": "https://www.uni-mannheim.de/forschung-erleben/artikel/nie-wieder-angst-vor-vortraegen"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/maclay-osgood-1959/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Maclay & Osgood, WORD 15(1), 19-44 (1959), doi:10.1080/00437956.1959.11659682, Taylor & Francis (record and abstract on Scilit)",
+   "dcterms:title": "Hesitation Phenomena in Spontaneous English Speech",
+   "schema:url": {
+    "@id": "https://scilit.com/publications/2735c3ff2adace547a9e45ec50a7d910"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/maclay-osgood-1959/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Kathryn Bock, Psychonomic Bulletin & Review 3(4), 395-421 (1996) - course copy, LING 712",
+   "dcterms:title": "Language production: Methods and methodologies",
+   "schema:url": {
+    "@id": "https://shotam.github.io/LING712_papers/Bock_1996.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/maclay-osgood-1959/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Maria Gosy, Languages 8(1), 79 (2023), MDPI",
+   "dcterms:title": "Occurrences and Durations of Filled Pauses in Relation to Words and Silent Pauses in Spontaneous Speech",
+   "schema:url": {
+    "@id": "https://mdpi.com/2226-471X/8/1/79"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/maclay-osgood-1959/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Malte Belz, Languages 8(1), 57 (2023), doi:10.3390/languages8010057, MDPI",
+   "dcterms:title": "Defining Filler Particles: A Phonetic Account of the Terminology, Form, and Grammatical Classification of 'Filled Pauses'",
+   "schema:url": {
+    "@id": "https://www.mdpi.com/2226-471X/8/1/57"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/maclay-osgood-1959/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Max Planck Institute for Psycholinguistics (sources.mpi.nl)",
+   "dcterms:title": "Maclay & Osgood (1959), Hesitation phenomena in spontaneous English speech - entry in the bibliography for Levelt (2013), A History of Psycholinguistics",
+   "schema:url": {
+    "@id": "https://sources.mpi.nl/?p=121633"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/maclay-osgood-1959/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Wieling, Grieve, Bouma, Fruehwald, Coleman & Liberman, Language Dynamics and Change 6(2), 199-234 (2016) - University of Edinburgh repository copy",
+   "dcterms:title": "Variation and change in the use of hesitation markers in Germanic languages",
+   "schema:url": {
+    "@id": "https://www.pure.ed.ac.uk/ws/files/24985388/WielingGrieveEtAl_revised.pdf"
    }
   },
   {

@@ -145,7 +145,6 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 |---|---|
 | `cm:bulleted-and-numbered-lists` | cmo:Technique |
 | `cm:feedback-sandwich` | cmo:Technique |
-| `cm:filled-pauses` | cmo:AntiPattern |
 | `cm:gestures` | cmo:Skill |
 | `cm:information-overload` | cmo:Barrier |
 | `cm:interpersonal-communication` | cmo:Field |
@@ -173,8 +172,9 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:reservation-value` | cmo:Concept |
 | `cm:salary-negotiation` | cmo:Context |
 | `cm:scheduled-inbox-checks` | cmo:Technique |
+| `cm:self-affirmation-before-feedback` | cmo:Technique |
 
-…and 13 more.
+…and 12 more.
 
 ## Orphan articles (gap)
 

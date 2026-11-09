@@ -4274,6 +4274,37 @@
 <https://github.com/john1hsu/communication-graph/id/macinnis-mackinnon-macintyre-2010> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/communication-graph/id/macinnis-mackinnon-macintyre-2010> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> .
 <https://github.com/john1hsu/communication-graph/id/macinnis-mackinnon-macintyre-2010> <https://github.com/john1hsu/communication-graph/ontology#studiedIn> <https://github.com/john1hsu/communication-graph/id/social-psychology> .
+<https://github.com/john1hsu/communication-graph/id/maclay-osgood-1959> <http://purl.org/dc/terms/created> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/maclay-osgood-1959> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
+<https://github.com/john1hsu/communication-graph/id/maclay-osgood-1959> <http://www.w3.org/2000/01/rdf-schema#label> "Hesitation phenomena in spontaneous English speech" .
+<https://github.com/john1hsu/communication-graph/id/maclay-osgood-1959> <http://www.w3.org/2004/02/skos/core#altLabel> "Maclay & Osgood 1959" .
+<https://github.com/john1hsu/communication-graph/id/maclay-osgood-1959> <http://www.w3.org/2004/02/skos/core#altLabel> "Maclay and Osgood (1959)" .
+<https://github.com/john1hsu/communication-graph/id/maclay-osgood-1959> <http://www.w3.org/2004/02/skos/core#altLabel> "Maclay-Osgood hesitation study" .
+<https://github.com/john1hsu/communication-graph/id/maclay-osgood-1959> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/filled-pauses> .
+<https://github.com/john1hsu/communication-graph/id/maclay-osgood-1959> <http://www.w3.org/2004/02/skos/core#definition> "Howard Maclay and Charles E. Osgood's 1959 paper in the journal Word, which counted filled pauses, silent pauses, repeats and false starts in the unscripted speech of about a dozen conference participants and set the four-way taxonomy of disfluency that speech research still uses." .
+<https://github.com/john1hsu/communication-graph/id/maclay-osgood-1959> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works> .
+<https://github.com/john1hsu/communication-graph/id/maclay-osgood-1959> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hesitation phenomena in spontaneous English speech" .
+<https://github.com/john1hsu/communication-graph/id/maclay-osgood-1959> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/charles-osgood> .
+<https://github.com/john1hsu/communication-graph/id/maclay-osgood-1959> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/christenfeld-1995> .
+<https://github.com/john1hsu/communication-graph/id/maclay-osgood-1959> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> .
+<https://github.com/john1hsu/communication-graph/id/maclay-osgood-1959> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/paralanguage> .
+<https://github.com/john1hsu/communication-graph/id/maclay-osgood-1959> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/silence-and-pauses> .
+<https://github.com/john1hsu/communication-graph/id/maclay-osgood-1959> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/vocal-delivery> .
+<https://github.com/john1hsu/communication-graph/id/maclay-osgood-1959> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/maclay-osgood-1959/s1> .
+<https://github.com/john1hsu/communication-graph/id/maclay-osgood-1959> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/maclay-osgood-1959/s2> .
+<https://github.com/john1hsu/communication-graph/id/maclay-osgood-1959> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/maclay-osgood-1959/s3> .
+<https://github.com/john1hsu/communication-graph/id/maclay-osgood-1959> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/maclay-osgood-1959/s4> .
+<https://github.com/john1hsu/communication-graph/id/maclay-osgood-1959> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/maclay-osgood-1959/s5> .
+<https://github.com/john1hsu/communication-graph/id/maclay-osgood-1959> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/maclay-osgood-1959/s6> .
+<https://github.com/john1hsu/communication-graph/id/maclay-osgood-1959> <https://github.com/john1hsu/communication-graph/ontology#authoredBy> <https://github.com/john1hsu/communication-graph/id/charles-osgood> .
+<https://github.com/john1hsu/communication-graph/id/maclay-osgood-1959> <https://github.com/john1hsu/communication-graph/ontology#authoredBy> <https://github.com/john1hsu/communication-graph/id/howard-maclay> .
+<https://github.com/john1hsu/communication-graph/id/maclay-osgood-1959> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/clark-fox-tree-2002> .
+<https://github.com/john1hsu/communication-graph/id/maclay-osgood-1959> <https://github.com/john1hsu/communication-graph/ontology#domain> "thinkers-and-works" .
+<https://github.com/john1hsu/communication-graph/id/maclay-osgood-1959> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "historical" .
+<https://github.com/john1hsu/communication-graph/id/maclay-osgood-1959> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/thinkers-and-works/maclay-osgood-1959.md" .
+<https://github.com/john1hsu/communication-graph/id/maclay-osgood-1959> <https://github.com/john1hsu/communication-graph/ontology#introduces> <https://github.com/john1hsu/communication-graph/id/filled-pauses> .
+<https://github.com/john1hsu/communication-graph/id/maclay-osgood-1959> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/communication-graph/id/maclay-osgood-1959> <https://github.com/john1hsu/communication-graph/ontology#studiedIn> <https://github.com/john1hsu/communication-graph/id/psycholinguistics> .
 <https://github.com/john1hsu/communication-graph/id/managing-up/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/managing-up/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Can I name my manager's top two goals and the pressure they are under this quarter, from what they have told me rather than my guess?" .
 <https://github.com/john1hsu/communication-graph/id/managing-up/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/managing-up> .
@@ -10161,6 +10192,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/macinnis-mackinnon-macintyre-2010/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/macinnis-mackinnon-macintyre-2010/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
 <https://github.com/john1hsu/communication-graph/id/source/macinnis-mackinnon-macintyre-2010/s4> <https://schema.org/url> <https://www.uni-mannheim.de/forschung-erleben/artikel/nie-wieder-angst-vor-vortraegen> .
+<https://github.com/john1hsu/communication-graph/id/source/maclay-osgood-1959/s1> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/maclay-osgood-1959/s1> <http://purl.org/dc/terms/publisher> "Maclay & Osgood, WORD 15(1), 19-44 (1959), doi:10.1080/00437956.1959.11659682, Taylor & Francis (record and abstract on Scilit)" .
+<https://github.com/john1hsu/communication-graph/id/source/maclay-osgood-1959/s1> <http://purl.org/dc/terms/title> "Hesitation Phenomena in Spontaneous English Speech" .
+<https://github.com/john1hsu/communication-graph/id/source/maclay-osgood-1959/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/maclay-osgood-1959/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/maclay-osgood-1959/s1> <https://schema.org/url> <https://scilit.com/publications/2735c3ff2adace547a9e45ec50a7d910> .
+<https://github.com/john1hsu/communication-graph/id/source/maclay-osgood-1959/s2> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/maclay-osgood-1959/s2> <http://purl.org/dc/terms/publisher> "Kathryn Bock, Psychonomic Bulletin & Review 3(4), 395-421 (1996) - course copy, LING 712" .
+<https://github.com/john1hsu/communication-graph/id/source/maclay-osgood-1959/s2> <http://purl.org/dc/terms/title> "Language production: Methods and methodologies" .
+<https://github.com/john1hsu/communication-graph/id/source/maclay-osgood-1959/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/maclay-osgood-1959/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/maclay-osgood-1959/s2> <https://schema.org/url> <https://shotam.github.io/LING712_papers/Bock_1996.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/maclay-osgood-1959/s3> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/maclay-osgood-1959/s3> <http://purl.org/dc/terms/publisher> "Maria Gosy, Languages 8(1), 79 (2023), MDPI" .
+<https://github.com/john1hsu/communication-graph/id/source/maclay-osgood-1959/s3> <http://purl.org/dc/terms/title> "Occurrences and Durations of Filled Pauses in Relation to Words and Silent Pauses in Spontaneous Speech" .
+<https://github.com/john1hsu/communication-graph/id/source/maclay-osgood-1959/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/maclay-osgood-1959/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/maclay-osgood-1959/s3> <https://schema.org/url> <https://mdpi.com/2226-471X/8/1/79> .
+<https://github.com/john1hsu/communication-graph/id/source/maclay-osgood-1959/s4> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/maclay-osgood-1959/s4> <http://purl.org/dc/terms/publisher> "Malte Belz, Languages 8(1), 57 (2023), doi:10.3390/languages8010057, MDPI" .
+<https://github.com/john1hsu/communication-graph/id/source/maclay-osgood-1959/s4> <http://purl.org/dc/terms/title> "Defining Filler Particles: A Phonetic Account of the Terminology, Form, and Grammatical Classification of 'Filled Pauses'" .
+<https://github.com/john1hsu/communication-graph/id/source/maclay-osgood-1959/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/maclay-osgood-1959/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/maclay-osgood-1959/s4> <https://schema.org/url> <https://www.mdpi.com/2226-471X/8/1/57> .
+<https://github.com/john1hsu/communication-graph/id/source/maclay-osgood-1959/s5> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/maclay-osgood-1959/s5> <http://purl.org/dc/terms/publisher> "Max Planck Institute for Psycholinguistics (sources.mpi.nl)" .
+<https://github.com/john1hsu/communication-graph/id/source/maclay-osgood-1959/s5> <http://purl.org/dc/terms/title> "Maclay & Osgood (1959), Hesitation phenomena in spontaneous English speech - entry in the bibliography for Levelt (2013), A History of Psycholinguistics" .
+<https://github.com/john1hsu/communication-graph/id/source/maclay-osgood-1959/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/maclay-osgood-1959/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/maclay-osgood-1959/s5> <https://schema.org/url> <https://sources.mpi.nl/?p=121633> .
+<https://github.com/john1hsu/communication-graph/id/source/maclay-osgood-1959/s6> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/maclay-osgood-1959/s6> <http://purl.org/dc/terms/publisher> "Wieling, Grieve, Bouma, Fruehwald, Coleman & Liberman, Language Dynamics and Change 6(2), 199-234 (2016) - University of Edinburgh repository copy" .
+<https://github.com/john1hsu/communication-graph/id/source/maclay-osgood-1959/s6> <http://purl.org/dc/terms/title> "Variation and change in the use of hesitation markers in Germanic languages" .
+<https://github.com/john1hsu/communication-graph/id/source/maclay-osgood-1959/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/maclay-osgood-1959/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/maclay-osgood-1959/s6> <https://schema.org/url> <https://www.pure.ed.ac.uk/ws/files/24985388/WielingGrieveEtAl_revised.pdf> .
 <https://github.com/john1hsu/communication-graph/id/source/managing-up/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/managing-up/s1> <http://purl.org/dc/terms/publisher> "John J. Gabarro & John P. Kotter, Harvard Business Review, January 2005 (reprint of the 1980 HBR article), pp. 92-99 (reading copy hosted on pedsanesthesia.org for its WELI leadership program)" .
 <https://github.com/john1hsu/communication-graph/id/source/managing-up/s1> <http://purl.org/dc/terms/title> "Managing Your Boss" .

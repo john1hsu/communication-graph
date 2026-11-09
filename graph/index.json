@@ -8230,6 +8230,93 @@
   ]
  },
  {
+  "id": "cm:maclay-osgood-1959",
+  "title": "Hesitation phenomena in spontaneous English speech",
+  "aliases": [
+   "Maclay and Osgood (1959)",
+   "Maclay & Osgood 1959",
+   "Maclay-Osgood hesitation study"
+  ],
+  "type": "Work",
+  "domain": "thinkers-and-works",
+  "level": "intermediate",
+  "evidenceStatus": "historical",
+  "file": "articles/thinkers-and-works/maclay-osgood-1959.md",
+  "created": "2026-11-09",
+  "summary": "Howard Maclay and Charles E. Osgood's 1959 paper in the journal Word, which counted filled pauses, silent pauses, repeats and false starts in the unscripted speech of about a dozen conference participants and set the four-way taxonomy of disfluency that speech research still uses.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:filled-pauses"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:charles-osgood"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:silence-and-pauses"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:paralanguage"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:vocal-delivery"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:christenfeld-1995"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:habit-reversal-training"
+   },
+   {
+    "predicate": "cmo:introduces",
+    "object": "cm:filled-pauses",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:authoredBy",
+    "object": "cm:howard-maclay",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:authoredBy",
+    "object": "cm:charles-osgood",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:studiedIn",
+    "object": "cm:psycholinguistics",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:clark-fox-tree-2002",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://scilit.com/publications/2735c3ff2adace547a9e45ec50a7d910",
+   "https://shotam.github.io/LING712_papers/Bock_1996.pdf",
+   "https://mdpi.com/2226-471X/8/1/79",
+   "https://www.mdpi.com/2226-471X/8/1/57",
+   "https://sources.mpi.nl/?p=121633",
+   "https://www.pure.ed.ac.uk/ws/files/24985388/WielingGrieveEtAl_revised.pdf"
+  ]
+ },
+ {
   "id": "cm:managing-up",
   "title": "Managing up",
   "aliases": [
