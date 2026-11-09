@@ -143,7 +143,6 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 
 | node | type |
 |---|---|
-| `cm:elevator-pitch` | cmo:Genre |
 | `cm:face-to-face-conversation` | cmo:Channel |
 | `cm:facilitation` | cmo:Skill |
 | `cm:feedback-sandwich` | cmo:Technique |
@@ -173,8 +172,9 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:reciprocal-self-disclosure` | cmo:Technique |
 | `cm:refutational-two-sided-messages` | cmo:Technique |
 | `cm:reservation-value` | cmo:Concept |
+| `cm:salary-negotiation` | cmo:Context |
 
-…and 15 more.
+…and 14 more.
 
 ## Orphan articles (gap)
 

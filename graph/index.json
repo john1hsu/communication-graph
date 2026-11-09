@@ -10572,6 +10572,79 @@
   ]
  },
  {
+  "id": "cm:philip-crosby",
+  "title": "Philip Crosby",
+  "aliases": [
+   "Philip B. Crosby",
+   "Phil Crosby",
+   "Philip Bayard Crosby"
+  ],
+  "type": "Person",
+  "domain": "thinkers-and-works",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/thinkers-and-works/philip-crosby.md",
+  "created": "2026-11-09",
+  "summary": "American quality-management consultant (1926-2001), ITT's corporate quality vice-president and author of Quality Is Free (1979), whose 1981 advice that managers prepare a one-minute \"elevator speech\" for the big boss is the earliest documented print use of the idea behind the elevator pitch.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "cm:elevator-pitch"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:issue-selling"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:managing-up"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:plain-language"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:bottom-line-up-front"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:executive-briefing"
+   },
+   {
+    "predicate": "cmo:introduced",
+    "object": "cm:elevator-pitch",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:authored",
+    "object": "cm:quality-is-free",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:authored",
+    "object": "cm:the-art-of-getting-your-own-sweet-way",
+    "source": "s5",
+    "confidence": "high"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://www.taylorfrancis.com/chapters/philip-crosby-john-beckford/10.4324/9780203885710-18",
+   "https://asq.org/about-asq/honorary-members/crosby",
+   "https://www.pmi.org/learning/library/guru-wrong-philip-crosby-3632",
+   "https://time.com/archive/6855513/in-quest-of-quality",
+   "https://barrypopik.com/blog/elevator_pitch",
+   "https://www.the-confidant.info/2012/the-history-of-the-elevator-speech",
+   "https://www.phrases.org.uk/meanings/elevator-pitch.html",
+   "https://winterparklibraryarchives.org/exhibits/show/histbioref/phillip-b--crosby"
+  ]
+ },
+ {
   "id": "cm:plain-language",
   "title": "Plain language",
   "aliases": [

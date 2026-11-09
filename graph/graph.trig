@@ -1165,6 +1165,17 @@
 <https://github.com/john1hsu/communication-graph/id/norbert-wiener#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/norbert-wiener/s3> .
 <https://github.com/john1hsu/communication-graph/id/norbert-wiener#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/norbert-wiener/s4> .
 <https://github.com/john1hsu/communication-graph/id/norbert-wiener#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/norbert-wiener/s5> .
+<https://github.com/john1hsu/communication-graph/id/philip-crosby#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/philip-crosby#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/philip-crosby> .
+<https://github.com/john1hsu/communication-graph/id/philip-crosby#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/thinkers-and-works/philip-crosby.md" .
+<https://github.com/john1hsu/communication-graph/id/philip-crosby#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s1> .
+<https://github.com/john1hsu/communication-graph/id/philip-crosby#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s2> .
+<https://github.com/john1hsu/communication-graph/id/philip-crosby#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s3> .
+<https://github.com/john1hsu/communication-graph/id/philip-crosby#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s4> .
+<https://github.com/john1hsu/communication-graph/id/philip-crosby#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s5> .
+<https://github.com/john1hsu/communication-graph/id/philip-crosby#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s6> .
+<https://github.com/john1hsu/communication-graph/id/philip-crosby#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s7> .
+<https://github.com/john1hsu/communication-graph/id/philip-crosby#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s8> .
 <https://github.com/john1hsu/communication-graph/id/quintilian#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/quintilian#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/quintilian> .
 <https://github.com/john1hsu/communication-graph/id/quintilian#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/thinkers-and-works/quintilian.md" .
@@ -13476,6 +13487,87 @@
   <https://github.com/john1hsu/communication-graph/id/source/norbert-wiener/s5> <https://schema.org/url> <https://sk.sagepub.com/ency/edvol/embed/communicationtheory/chpt/cybernetics> .
 }
 
+<https://github.com/john1hsu/communication-graph/id/philip-crosby#graph> {
+  <https://github.com/john1hsu/communication-graph/id/philip-crosby> <http://purl.org/dc/terms/created> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/philip-crosby> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+  <https://github.com/john1hsu/communication-graph/id/philip-crosby> <http://www.w3.org/2000/01/rdf-schema#label> "Philip Crosby" .
+  <https://github.com/john1hsu/communication-graph/id/philip-crosby> <http://www.w3.org/2004/02/skos/core#altLabel> "Phil Crosby" .
+  <https://github.com/john1hsu/communication-graph/id/philip-crosby> <http://www.w3.org/2004/02/skos/core#altLabel> "Philip B. Crosby" .
+  <https://github.com/john1hsu/communication-graph/id/philip-crosby> <http://www.w3.org/2004/02/skos/core#altLabel> "Philip Bayard Crosby" .
+  <https://github.com/john1hsu/communication-graph/id/philip-crosby> <http://www.w3.org/2004/02/skos/core#definition> "American quality-management consultant (1926-2001), ITT's corporate quality vice-president and author of Quality Is Free (1979), whose 1981 advice that managers prepare a one-minute \"elevator speech\" for the big boss is the earliest documented print use of the idea behind the elevator pitch." .
+  <https://github.com/john1hsu/communication-graph/id/philip-crosby> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works> .
+  <https://github.com/john1hsu/communication-graph/id/philip-crosby> <http://www.w3.org/2004/02/skos/core#prefLabel> "Philip Crosby" .
+  <https://github.com/john1hsu/communication-graph/id/philip-crosby> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
+  <https://github.com/john1hsu/communication-graph/id/philip-crosby> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/elevator-pitch> .
+  <https://github.com/john1hsu/communication-graph/id/philip-crosby> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/executive-briefing> .
+  <https://github.com/john1hsu/communication-graph/id/philip-crosby> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/issue-selling> .
+  <https://github.com/john1hsu/communication-graph/id/philip-crosby> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/managing-up> .
+  <https://github.com/john1hsu/communication-graph/id/philip-crosby> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/plain-language> .
+  <https://github.com/john1hsu/communication-graph/id/philip-crosby> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s1> .
+  <https://github.com/john1hsu/communication-graph/id/philip-crosby> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s2> .
+  <https://github.com/john1hsu/communication-graph/id/philip-crosby> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s3> .
+  <https://github.com/john1hsu/communication-graph/id/philip-crosby> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s4> .
+  <https://github.com/john1hsu/communication-graph/id/philip-crosby> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s5> .
+  <https://github.com/john1hsu/communication-graph/id/philip-crosby> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s6> .
+  <https://github.com/john1hsu/communication-graph/id/philip-crosby> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s7> .
+  <https://github.com/john1hsu/communication-graph/id/philip-crosby> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s8> .
+  <https://github.com/john1hsu/communication-graph/id/philip-crosby> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/quality-is-free> .
+  <https://github.com/john1hsu/communication-graph/id/philip-crosby> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/the-art-of-getting-your-own-sweet-way> .
+  <https://github.com/john1hsu/communication-graph/id/philip-crosby> <https://github.com/john1hsu/communication-graph/ontology#domain> "thinkers-and-works" .
+  <https://github.com/john1hsu/communication-graph/id/philip-crosby> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "historical" .
+  <https://github.com/john1hsu/communication-graph/id/philip-crosby> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/thinkers-and-works/philip-crosby.md" .
+  <https://github.com/john1hsu/communication-graph/id/philip-crosby> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/elevator-pitch> .
+  <https://github.com/john1hsu/communication-graph/id/philip-crosby> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+  <https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s1> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s1> <http://purl.org/dc/terms/publisher> "John Beckford, Quality - A Critical Introduction, Routledge (Taylor & Francis), doi:10.4324/9780203885710" .
+  <https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s1> <http://purl.org/dc/terms/title> "Philip Crosby (chapter)" .
+  <https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "textbook" .
+  <https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s1> <https://schema.org/url> <https://www.taylorfrancis.com/chapters/philip-crosby-john-beckford/10.4324/9780203885710-18> .
+  <https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s2> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s2> <http://purl.org/dc/terms/publisher> "American Society for Quality (ASQ)" .
+  <https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s2> <http://purl.org/dc/terms/title> "Philip B. Crosby - Honorary Member" .
+  <https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+  <https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s2> <https://schema.org/url> <https://asq.org/about-asq/honorary-members/crosby> .
+  <https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s3> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s3> <http://purl.org/dc/terms/publisher> "Jeannette Cabanis, PM Network 11(6), 19-25, June 1997, Project Management Institute" .
+  <https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s3> <http://purl.org/dc/terms/title> "I'm the guru who was wrong (interview with Philip Crosby)" .
+  <https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "practitioner-journal" .
+  <https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s3> <https://schema.org/url> <https://www.pmi.org/learning/library/guru-wrong-philip-crosby-3632> .
+  <https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s4> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s4> <http://purl.org/dc/terms/publisher> "TIME magazine, 26 March 1984" .
+  <https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s4> <http://purl.org/dc/terms/title> "In Quest of Quality" .
+  <https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "news" .
+  <https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s4> <https://schema.org/url> <https://time.com/archive/6855513/in-quest-of-quality> .
+  <https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s5> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s5> <http://purl.org/dc/terms/publisher> "Barry Popik, The Big Apple (etymology research blog)" .
+  <https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s5> <http://purl.org/dc/terms/title> "Elevator Pitch (Elevator Speech; Elevator Statement)" .
+  <https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "community" .
+  <https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s5> <https://schema.org/url> <https://barrypopik.com/blog/elevator_pitch> .
+  <https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s6> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s6> <http://purl.org/dc/terms/publisher> "Graham Wilson, The Confidant, November 2012" .
+  <https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s6> <http://purl.org/dc/terms/title> "The history of the Elevator Speech" .
+  <https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "community" .
+  <https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s6> <https://schema.org/url> <https://www.the-confidant.info/2012/the-history-of-the-elevator-speech> .
+  <https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s7> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s7> <http://purl.org/dc/terms/publisher> "Gary Martin, The Phrase Finder" .
+  <https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s7> <http://purl.org/dc/terms/title> "Elevator Pitch - meaning and origin" .
+  <https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s7> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "community" .
+  <https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s7> <https://schema.org/url> <https://www.phrases.org.uk/meanings/elevator-pitch.html> .
+  <https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s8> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s8> <http://purl.org/dc/terms/publisher> "Winter Park Library Archives, Winter Park Public Library (Florida)" .
+  <https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s8> <http://purl.org/dc/terms/title> "Phillip B. Crosby" .
+  <https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s8> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "community" .
+  <https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s8> <https://schema.org/url> <https://winterparklibraryarchives.org/exhibits/show/histbioref/phillip-b--crosby> .
+}
+
 <https://github.com/john1hsu/communication-graph/id/quintilian#graph> {
   <https://github.com/john1hsu/communication-graph/id/quintilian> <http://purl.org/dc/terms/created> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
   <https://github.com/john1hsu/communication-graph/id/quintilian> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
@@ -15058,6 +15150,7 @@
   <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/managing-up> .
   <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/meeting-agendas> .
   <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/monroes-motivated-sequence> .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/philip-crosby> .
   <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/plain-language> .
   <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/ray-tomlinson> .
   <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations> .
@@ -15802,6 +15895,8 @@
   <https://github.com/john1hsu/communication-graph/id/elevator-pitch> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/persuasion> .
   <https://github.com/john1hsu/communication-graph/id/elevator-pitch> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/presentation> .
   <https://github.com/john1hsu/communication-graph/id/elevator-pitch> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/monroes-motivated-sequence> .
+  <https://github.com/john1hsu/communication-graph/id/elevator-pitch> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/philip-crosby> .
+  <https://github.com/john1hsu/communication-graph/id/elevator-pitch> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/philip-crosby> .
   <https://github.com/john1hsu/communication-graph/id/elevator-pitch> <https://github.com/john1hsu/communication-graph/ontology#structuredBy> <https://github.com/john1hsu/communication-graph/id/monroes-motivated-sequence> .
   <https://github.com/john1hsu/communication-graph/id/elizabeth-dunn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/elizabeth-dunn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
@@ -15897,6 +15992,7 @@
   <https://github.com/john1hsu/communication-graph/id/executive-briefing> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/fm-6-0> .
   <https://github.com/john1hsu/communication-graph/id/executive-briefing> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/fm-6-0> .
   <https://github.com/john1hsu/communication-graph/id/executive-briefing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/elevator-pitch> .
+  <https://github.com/john1hsu/communication-graph/id/executive-briefing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/philip-crosby> .
   <https://github.com/john1hsu/communication-graph/id/executive-briefing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/presentation> .
   <https://github.com/john1hsu/communication-graph/id/executive-briefing> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/issue-selling> .
   <https://github.com/john1hsu/communication-graph/id/executive-briefing> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/pyramid-principle> .
@@ -16568,6 +16664,7 @@
   <https://github.com/john1hsu/communication-graph/id/issue-selling> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/monroes-motivated-sequence> .
   <https://github.com/john1hsu/communication-graph/id/issue-selling> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/narrative-persuasion> .
   <https://github.com/john1hsu/communication-graph/id/issue-selling> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/persuasion> .
+  <https://github.com/john1hsu/communication-graph/id/issue-selling> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/philip-crosby> .
   <https://github.com/john1hsu/communication-graph/id/issue-selling> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/refutational-two-sided-messages> .
   <https://github.com/john1hsu/communication-graph/id/issue-selling> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/managing-up> .
   <https://github.com/john1hsu/communication-graph/id/ivers-et-al-2025> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996> .
@@ -16798,6 +16895,7 @@
   <https://github.com/john1hsu/communication-graph/id/managing-up> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/humble-inquiry> .
   <https://github.com/john1hsu/communication-graph/id/managing-up> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> .
   <https://github.com/john1hsu/communication-graph/id/managing-up> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
+  <https://github.com/john1hsu/communication-graph/id/managing-up> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/philip-crosby> .
   <https://github.com/john1hsu/communication-graph/id/managing-up> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/status-reporting> .
   <https://github.com/john1hsu/communication-graph/id/managing-up> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/trusted-advisor> .
   <https://github.com/john1hsu/communication-graph/id/managing-up> <https://github.com/john1hsu/communication-graph/ontology#developedBy> <https://github.com/john1hsu/communication-graph/id/issue-selling> .
@@ -17311,6 +17409,7 @@
   <https://github.com/john1hsu/communication-graph/id/petty-cacioppo-goldman-1981> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/petty-cacioppo-goldman-1981> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/petty-cacioppo-goldman-1981> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> .
+  <https://github.com/john1hsu/communication-graph/id/philip-crosby> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/phone-call> <https://github.com/john1hsu/communication-graph/ontology#alternativeTo> <https://github.com/john1hsu/communication-graph/id/face-to-face-conversation> .
   <https://github.com/john1hsu/communication-graph/id/phone-call> <https://github.com/john1hsu/communication-graph/ontology#alternativeTo> <https://github.com/john1hsu/communication-graph/id/video-call-communication> .
   <https://github.com/john1hsu/communication-graph/id/plain-language-summary> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/plain-language> .
@@ -17331,6 +17430,7 @@
   <https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/grices-maxims> .
   <https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/information-overload> .
   <https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/paramedic-method> .
+  <https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/philip-crosby> .
   <https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/quintilian> .
   <https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies> .
   <https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/teach-back> .
@@ -17471,6 +17571,9 @@
   <https://github.com/john1hsu/communication-graph/id/pyramid-principle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/executive-briefing> .
   <https://github.com/john1hsu/communication-graph/id/pyramid-principle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/monroes-motivated-sequence> .
   <https://github.com/john1hsu/communication-graph/id/pyramid-principle> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
+  <https://github.com/john1hsu/communication-graph/id/quality-is-free> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/quality-is-free> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
+  <https://github.com/john1hsu/communication-graph/id/quality-is-free> <https://github.com/john1hsu/communication-graph/ontology#authoredBy> <https://github.com/john1hsu/communication-graph/id/philip-crosby> .
   <https://github.com/john1hsu/communication-graph/id/questioning> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/humble-inquiry> .
   <https://github.com/john1hsu/communication-graph/id/questioning> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/open-ended-questions> .
   <https://github.com/john1hsu/communication-graph/id/questioning> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/perspective-getting> .
@@ -17983,6 +18086,9 @@
   <https://github.com/john1hsu/communication-graph/id/tey-et-al-2021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/tey-et-al-2021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/tey-et-al-2021> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/concession-strategy> .
+  <https://github.com/john1hsu/communication-graph/id/the-art-of-getting-your-own-sweet-way> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/the-art-of-getting-your-own-sweet-way> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
+  <https://github.com/john1hsu/communication-graph/id/the-art-of-getting-your-own-sweet-way> <https://github.com/john1hsu/communication-graph/ontology#authoredBy> <https://github.com/john1hsu/communication-graph/id/philip-crosby> .
   <https://github.com/john1hsu/communication-graph/id/the-culture-map> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/the-culture-map> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
   <https://github.com/john1hsu/communication-graph/id/the-culture-map> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/intercultural-communication> .

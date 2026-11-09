@@ -9301,6 +9301,86 @@
    ]
   },
   {
+   "@id": "cm:philip-crosby",
+   "@type": "cmo:Person",
+   "cmo:authored": [
+    {
+     "@id": "cm:quality-is-free"
+    },
+    {
+     "@id": "cm:the-art-of-getting-your-own-sweet-way"
+    }
+   ],
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "historical",
+   "cmo:file": "articles/thinkers-and-works/philip-crosby.md",
+   "cmo:introduced": {
+    "@id": "cm:elevator-pitch"
+   },
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s6"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s7"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s8"
+    }
+   ],
+   "rdfs:label": "Philip Crosby",
+   "skos:altLabel": [
+    "Phil Crosby",
+    "Philip B. Crosby",
+    "Philip Bayard Crosby"
+   ],
+   "skos:definition": "American quality-management consultant (1926-2001), ITT's corporate quality vice-president and author of Quality Is Free (1979), whose 1981 advice that managers prepare a one-minute \"elevator speech\" for the big boss is the earliest documented print use of the idea behind the elevator pitch.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "Philip Crosby",
+   "skos:related": [
+    {
+     "@id": "cm:bottom-line-up-front"
+    },
+    {
+     "@id": "cm:elevator-pitch"
+    },
+    {
+     "@id": "cm:executive-briefing"
+    },
+    {
+     "@id": "cm:issue-selling"
+    },
+    {
+     "@id": "cm:managing-up"
+    },
+    {
+     "@id": "cm:plain-language"
+    }
+   ]
+  },
+  {
    "@id": "cm:plain-language",
    "@type": "cmo:Principle",
    "cmo:addresses": [
@@ -27735,6 +27815,118 @@
    "dcterms:title": "Carl I. Hovland",
    "schema:url": {
     "@id": "https://www.britannica.com/print/article/273363"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "John Beckford, Quality - A Critical Introduction, Routledge (Taylor & Francis), doi:10.4324/9780203885710",
+   "dcterms:title": "Philip Crosby (chapter)",
+   "schema:url": {
+    "@id": "https://www.taylorfrancis.com/chapters/philip-crosby-john-beckford/10.4324/9780203885710-18"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "American Society for Quality (ASQ)",
+   "dcterms:title": "Philip B. Crosby - Honorary Member",
+   "schema:url": {
+    "@id": "https://asq.org/about-asq/honorary-members/crosby"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "practitioner-journal",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Jeannette Cabanis, PM Network 11(6), 19-25, June 1997, Project Management Institute",
+   "dcterms:title": "I'm the guru who was wrong (interview with Philip Crosby)",
+   "schema:url": {
+    "@id": "https://www.pmi.org/learning/library/guru-wrong-philip-crosby-3632"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "news",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "TIME magazine, 26 March 1984",
+   "dcterms:title": "In Quest of Quality",
+   "schema:url": {
+    "@id": "https://time.com/archive/6855513/in-quest-of-quality"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "community",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Barry Popik, The Big Apple (etymology research blog)",
+   "dcterms:title": "Elevator Pitch (Elevator Speech; Elevator Statement)",
+   "schema:url": {
+    "@id": "https://barrypopik.com/blog/elevator_pitch"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "community",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Graham Wilson, The Confidant, November 2012",
+   "dcterms:title": "The history of the Elevator Speech",
+   "schema:url": {
+    "@id": "https://www.the-confidant.info/2012/the-history-of-the-elevator-speech"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s7",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "community",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Gary Martin, The Phrase Finder",
+   "dcterms:title": "Elevator Pitch - meaning and origin",
+   "schema:url": {
+    "@id": "https://www.phrases.org.uk/meanings/elevator-pitch.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s8",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "community",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Winter Park Library Archives, Winter Park Public Library (Florida)",
+   "dcterms:title": "Phillip B. Crosby",
+   "schema:url": {
+    "@id": "https://winterparklibraryarchives.org/exhibits/show/histbioref/phillip-b--crosby"
    }
   },
   {
