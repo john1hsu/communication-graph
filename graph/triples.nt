@@ -2419,6 +2419,39 @@
 <https://github.com/john1hsu/communication-graph/id/email> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
 <https://github.com/john1hsu/communication-graph/id/email> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/digital-and-async-communication/email.md" .
 <https://github.com/john1hsu/communication-graph/id/email> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/erving-goffman> <http://purl.org/dc/terms/created> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/erving-goffman> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+<https://github.com/john1hsu/communication-graph/id/erving-goffman> <http://www.w3.org/2000/01/rdf-schema#label> "Erving Goffman" .
+<https://github.com/john1hsu/communication-graph/id/erving-goffman> <http://www.w3.org/2004/02/skos/core#altLabel> "E. Goffman" .
+<https://github.com/john1hsu/communication-graph/id/erving-goffman> <http://www.w3.org/2004/02/skos/core#altLabel> "Goffman" .
+<https://github.com/john1hsu/communication-graph/id/erving-goffman> <http://www.w3.org/2004/02/skos/core#definition> "Canadian-American sociologist (1922-1982) who made face-to-face interaction a field of study in its own right, which he called the interaction order. He introduced the ideas of face and face-work and a dramaturgical account of how people manage the impressions they give." .
+<https://github.com/john1hsu/communication-graph/id/erving-goffman> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works> .
+<https://github.com/john1hsu/communication-graph/id/erving-goffman> <http://www.w3.org/2004/02/skos/core#prefLabel> "Erving Goffman" .
+<https://github.com/john1hsu/communication-graph/id/erving-goffman> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/apology> .
+<https://github.com/john1hsu/communication-graph/id/erving-goffman> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> .
+<https://github.com/john1hsu/communication-graph/id/erving-goffman> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/face-and-facework> .
+<https://github.com/john1hsu/communication-graph/id/erving-goffman> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/face-to-face-conversation> .
+<https://github.com/john1hsu/communication-graph/id/erving-goffman> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/feedback> .
+<https://github.com/john1hsu/communication-graph/id/erving-goffman> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/impression-management> .
+<https://github.com/john1hsu/communication-graph/id/erving-goffman> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
+<https://github.com/john1hsu/communication-graph/id/erving-goffman> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mea-culpa> .
+<https://github.com/john1hsu/communication-graph/id/erving-goffman> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/politeness-theory> .
+<https://github.com/john1hsu/communication-graph/id/erving-goffman> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/small-talk> .
+<https://github.com/john1hsu/communication-graph/id/erving-goffman> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/erving-goffman/s1> .
+<https://github.com/john1hsu/communication-graph/id/erving-goffman> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/erving-goffman/s2> .
+<https://github.com/john1hsu/communication-graph/id/erving-goffman> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/erving-goffman/s3> .
+<https://github.com/john1hsu/communication-graph/id/erving-goffman> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/erving-goffman/s4> .
+<https://github.com/john1hsu/communication-graph/id/erving-goffman> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/erving-goffman/s5> .
+<https://github.com/john1hsu/communication-graph/id/erving-goffman> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/erving-goffman/s6> .
+<https://github.com/john1hsu/communication-graph/id/erving-goffman> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/interaction-ritual> .
+<https://github.com/john1hsu/communication-graph/id/erving-goffman> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/the-presentation-of-self-in-everyday-life> .
+<https://github.com/john1hsu/communication-graph/id/erving-goffman> <https://github.com/john1hsu/communication-graph/ontology#domain> "thinkers-and-works" .
+<https://github.com/john1hsu/communication-graph/id/erving-goffman> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "historical" .
+<https://github.com/john1hsu/communication-graph/id/erving-goffman> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/thinkers-and-works/erving-goffman.md" .
+<https://github.com/john1hsu/communication-graph/id/erving-goffman> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/face-and-facework> .
+<https://github.com/john1hsu/communication-graph/id/erving-goffman> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/face-to-face-conversation> .
+<https://github.com/john1hsu/communication-graph/id/erving-goffman> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/impression-management> .
+<https://github.com/john1hsu/communication-graph/id/erving-goffman> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/ethnocentrism/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/ethnocentrism/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "When I called a colleague's message rude, vague or odd, was I measuring it against how people communicate where I learned to work?" .
 <https://github.com/john1hsu/communication-graph/id/ethnocentrism/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/ethnocentrism> .
@@ -8677,6 +8710,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/email/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/email/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
 <https://github.com/john1hsu/communication-graph/id/source/email/s5> <https://schema.org/url> <https://cove.army.gov.au/article/writing-effective-emails> .
+<https://github.com/john1hsu/communication-graph/id/source/erving-goffman/s1> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/erving-goffman/s1> <http://purl.org/dc/terms/publisher> "Goffman, E., American Sociological Review 48(1), 1-17, 1983 (record of the authorised Portuguese translation, Dilemas 12(3), 2019, Federal University of Rio de Janeiro)" .
+<https://github.com/john1hsu/communication-graph/id/source/erving-goffman/s1> <http://purl.org/dc/terms/title> "The Interaction Order: American Sociological Association, 1982 Presidential Address" .
+<https://github.com/john1hsu/communication-graph/id/source/erving-goffman/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/erving-goffman/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/erving-goffman/s1> <https://schema.org/url> <https://revistas.ufrj.br/index.php/dilemas/article/view/26390> .
+<https://github.com/john1hsu/communication-graph/id/source/erving-goffman/s2> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/erving-goffman/s2> <http://purl.org/dc/terms/publisher> "Encyclopaedia Britannica" .
+<https://github.com/john1hsu/communication-graph/id/source/erving-goffman/s2> <http://purl.org/dc/terms/title> "Erving Goffman" .
+<https://github.com/john1hsu/communication-graph/id/source/erving-goffman/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/erving-goffman/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "encyclopedia" .
+<https://github.com/john1hsu/communication-graph/id/source/erving-goffman/s2> <https://schema.org/url> <https://www.britannica.com/biography/Erving-Goffman> .
+<https://github.com/john1hsu/communication-graph/id/source/erving-goffman/s3> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/erving-goffman/s3> <http://purl.org/dc/terms/publisher> "EBSCO Research Starters" .
+<https://github.com/john1hsu/communication-graph/id/source/erving-goffman/s3> <http://purl.org/dc/terms/title> "Erving Goffman (Research Starters)" .
+<https://github.com/john1hsu/communication-graph/id/source/erving-goffman/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/erving-goffman/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "encyclopedia" .
+<https://github.com/john1hsu/communication-graph/id/source/erving-goffman/s3> <https://schema.org/url> <https://ebsco.com/research-starters/history/erving-goffman> .
+<https://github.com/john1hsu/communication-graph/id/source/erving-goffman/s4> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/erving-goffman/s4> <http://purl.org/dc/terms/publisher> "Shepherd, S., Cambridge University Press (publisher excerpt)" .
+<https://github.com/john1hsu/communication-graph/id/source/erving-goffman/s4> <http://purl.org/dc/terms/title> "The Cambridge Introduction to Performance Theory (excerpt: Sociology and the rituals of interaction)" .
+<https://github.com/john1hsu/communication-graph/id/source/erving-goffman/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/erving-goffman/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/communication-graph/id/source/erving-goffman/s4> <https://schema.org/url> <https://assets.cambridge.org/97811076/96945/excerpt/9781107696945_excerpt.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/erving-goffman/s5> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/erving-goffman/s5> <http://purl.org/dc/terms/publisher> "The Cambridge Handbook of Sociopragmatics, ed. Haugh, M., Kadar, D. Z. & Terkourafi, M., Cambridge University Press, 2021" .
+<https://github.com/john1hsu/communication-graph/id/source/erving-goffman/s5> <http://purl.org/dc/terms/title> "Face, Facework and Face-Threatening Acts" .
+<https://github.com/john1hsu/communication-graph/id/source/erving-goffman/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/erving-goffman/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/communication-graph/id/source/erving-goffman/s5> <https://schema.org/url> <https://core-prod.cambridgecore.org/core/books/cambridge-handbook-of-sociopragmatics/face-facework-and-facethreatening-acts/8FAE3558DB5416EE5DC4D9193BCD2970> .
+<https://github.com/john1hsu/communication-graph/id/source/erving-goffman/s6> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/erving-goffman/s6> <http://purl.org/dc/terms/publisher> "Emmison, M. J., in Encyclopedia of Identity, SAGE Publications, 2010, p. 397" .
+<https://github.com/john1hsu/communication-graph/id/source/erving-goffman/s6> <http://purl.org/dc/terms/title> "Interaction Order" .
+<https://github.com/john1hsu/communication-graph/id/source/erving-goffman/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/erving-goffman/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/communication-graph/id/source/erving-goffman/s6> <https://schema.org/url> <https://sk.sagepub.com/ency/edvol/embed/identity/chpt/interaction-order> .
 <https://github.com/john1hsu/communication-graph/id/source/ethnocentrism/s1> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/ethnocentrism/s1> <http://purl.org/dc/terms/publisher> "James C. McCroskey (author's measures archive), scale from Neuliep & McCroskey, Communication Research Reports 14, 1997, pp. 385-398" .
 <https://github.com/john1hsu/communication-graph/id/source/ethnocentrism/s1> <http://purl.org/dc/terms/title> "Revised Ethnocentrism Scale (Generalized Ethnocentrism Scale, GENE)" .

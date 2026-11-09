@@ -4555,6 +4555,104 @@
   ]
  },
  {
+  "id": "cm:erving-goffman",
+  "title": "Erving Goffman",
+  "aliases": [
+   "Goffman",
+   "E. Goffman"
+  ],
+  "type": "Person",
+  "domain": "thinkers-and-works",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/thinkers-and-works/erving-goffman.md",
+  "created": "2026-11-09",
+  "summary": "Canadian-American sociologist (1922-1982) who made face-to-face interaction a field of study in its own right, which he called the interaction order. He introduced the ideas of face and face-work and a dramaturgical account of how people manage the impressions they give.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "cm:face-to-face-conversation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:face-and-facework"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:politeness-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:impression-management"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:interpersonal-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:mea-culpa"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:apology"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:conversational-turn-taking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:small-talk"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:feedback"
+   },
+   {
+    "predicate": "cmo:introduced",
+    "object": "cm:face-to-face-conversation",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:introduced",
+    "object": "cm:face-and-facework",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introduced",
+    "object": "cm:impression-management",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:authored",
+    "object": "cm:the-presentation-of-self-in-everyday-life",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:authored",
+    "object": "cm:interaction-ritual",
+    "source": "s6",
+    "confidence": "high"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://revistas.ufrj.br/index.php/dilemas/article/view/26390",
+   "https://www.britannica.com/biography/Erving-Goffman",
+   "https://ebsco.com/research-starters/history/erving-goffman",
+   "https://assets.cambridge.org/97811076/96945/excerpt/9781107696945_excerpt.pdf",
+   "https://core-prod.cambridgecore.org/core/books/cambridge-handbook-of-sociopragmatics/face-facework-and-facethreatening-acts/8FAE3558DB5416EE5DC4D9193BCD2970",
+   "https://sk.sagepub.com/ency/edvol/embed/identity/chpt/interaction-order"
+  ]
+ },
+ {
   "id": "cm:ethnocentrism",
   "title": "Ethnocentrism",
   "aliases": [

@@ -3979,6 +3979,99 @@
    ]
   },
   {
+   "@id": "cm:erving-goffman",
+   "@type": "cmo:Person",
+   "cmo:authored": [
+    {
+     "@id": "cm:interaction-ritual"
+    },
+    {
+     "@id": "cm:the-presentation-of-self-in-everyday-life"
+    }
+   ],
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "historical",
+   "cmo:file": "articles/thinkers-and-works/erving-goffman.md",
+   "cmo:introduced": [
+    {
+     "@id": "cm:face-and-facework"
+    },
+    {
+     "@id": "cm:face-to-face-conversation"
+    },
+    {
+     "@id": "cm:impression-management"
+    }
+   ],
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/erving-goffman/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/erving-goffman/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/erving-goffman/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/erving-goffman/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/erving-goffman/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/erving-goffman/s6"
+    }
+   ],
+   "rdfs:label": "Erving Goffman",
+   "skos:altLabel": [
+    "E. Goffman",
+    "Goffman"
+   ],
+   "skos:definition": "Canadian-American sociologist (1922-1982) who made face-to-face interaction a field of study in its own right, which he called the interaction order. He introduced the ideas of face and face-work and a dramaturgical account of how people manage the impressions they give.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "Erving Goffman",
+   "skos:related": [
+    {
+     "@id": "cm:apology"
+    },
+    {
+     "@id": "cm:conversational-turn-taking"
+    },
+    {
+     "@id": "cm:face-and-facework"
+    },
+    {
+     "@id": "cm:face-to-face-conversation"
+    },
+    {
+     "@id": "cm:feedback"
+    },
+    {
+     "@id": "cm:impression-management"
+    },
+    {
+     "@id": "cm:interpersonal-communication"
+    },
+    {
+     "@id": "cm:mea-culpa"
+    },
+    {
+     "@id": "cm:politeness-theory"
+    },
+    {
+     "@id": "cm:small-talk"
+    }
+   ]
+  },
+  {
    "@id": "cm:ethnocentrism",
    "@type": "cmo:Barrier",
    "cmo:demonstratedBy": {
@@ -23522,6 +23615,90 @@
    "dcterms:title": "Writing effective emails",
    "schema:url": {
     "@id": "https://cove.army.gov.au/article/writing-effective-emails"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/erving-goffman/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Goffman, E., American Sociological Review 48(1), 1-17, 1983 (record of the authorised Portuguese translation, Dilemas 12(3), 2019, Federal University of Rio de Janeiro)",
+   "dcterms:title": "The Interaction Order: American Sociological Association, 1982 Presidential Address",
+   "schema:url": {
+    "@id": "https://revistas.ufrj.br/index.php/dilemas/article/view/26390"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/erving-goffman/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Encyclopaedia Britannica",
+   "dcterms:title": "Erving Goffman",
+   "schema:url": {
+    "@id": "https://www.britannica.com/biography/Erving-Goffman"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/erving-goffman/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "EBSCO Research Starters",
+   "dcterms:title": "Erving Goffman (Research Starters)",
+   "schema:url": {
+    "@id": "https://ebsco.com/research-starters/history/erving-goffman"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/erving-goffman/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Shepherd, S., Cambridge University Press (publisher excerpt)",
+   "dcterms:title": "The Cambridge Introduction to Performance Theory (excerpt: Sociology and the rituals of interaction)",
+   "schema:url": {
+    "@id": "https://assets.cambridge.org/97811076/96945/excerpt/9781107696945_excerpt.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/erving-goffman/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "The Cambridge Handbook of Sociopragmatics, ed. Haugh, M., Kadar, D. Z. & Terkourafi, M., Cambridge University Press, 2021",
+   "dcterms:title": "Face, Facework and Face-Threatening Acts",
+   "schema:url": {
+    "@id": "https://core-prod.cambridgecore.org/core/books/cambridge-handbook-of-sociopragmatics/face-facework-and-facethreatening-acts/8FAE3558DB5416EE5DC4D9193BCD2970"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/erving-goffman/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Emmison, M. J., in Encyclopedia of Identity, SAGE Publications, 2010, p. 397",
+   "dcterms:title": "Interaction Order",
+   "schema:url": {
+    "@id": "https://sk.sagepub.com/ency/edvol/embed/identity/chpt/interaction-order"
    }
   },
   {

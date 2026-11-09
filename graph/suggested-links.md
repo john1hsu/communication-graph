@@ -15,7 +15,7 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 2.66 | `cm:bottom-line-up-front` | `cm:curse-of-knowledge` | `cm:assertion-evidence-slides`, `cm:audience-analysis`, `cm:channel-selection`, `cm:clarity`, `cm:cognitive-load` |
 | 2.63 | `cm:negotiation` | `cm:zone-of-possible-agreement` | `cm:batna`, `cm:distributive-negotiation`, `cm:integrative-negotiation`, `cm:interests-vs-positions`, `cm:mythical-fixed-pie` |
 | 2.60 | `cm:managing-up` | `cm:persuasion` | `cm:audience-analysis`, `cm:elevator-pitch`, `cm:influence-without-authority`, `cm:issue-selling`, `cm:lee-et-al-2017` |
-| 2.59 | `cm:asynchronous-communication` | `cm:video-call-communication` | `cm:channel-selection`, `cm:digital-communication`, `cm:face-to-face-conversation`, `cm:media-richness-theory`, `cm:workplace-meetings` |
+| 2.58 | `cm:asynchronous-communication` | `cm:video-call-communication` | `cm:channel-selection`, `cm:digital-communication`, `cm:face-to-face-conversation`, `cm:media-richness-theory`, `cm:workplace-meetings` |
 | 2.51 | `cm:integrative-negotiation` | `cm:reservation-value` | `cm:batna`, `cm:concession-strategy`, `cm:distributive-negotiation`, `cm:first-offer`, `cm:multiple-equivalent-simultaneous-offers` |
 | 2.49 | `cm:anchoring-and-adjustment` | `cm:thomas-gilovich` | `cm:curse-of-knowledge`, `cm:egocentric-bias`, `cm:gilovich-savitsky-medvec-1998`, `cm:illusion-of-transparency`, `cm:macinnis-mackinnon-macintyre-2010` |
 | 2.46 | `cm:principled-negotiation` | `cm:zone-of-possible-agreement` | `cm:batna`, `cm:distributive-negotiation`, `cm:integrative-negotiation`, `cm:interests-vs-positions`, `cm:multiple-equivalent-simultaneous-offers` |
