@@ -4593,6 +4593,108 @@
    ]
   },
   {
+   "@id": "cm:emoji-and-tone-in-text",
+   "@type": "cmo:Technique",
+   "cmo:addresses": {
+    "@id": "cm:illusion-of-transparency"
+   },
+   "cmo:appliedIn": [
+    {
+     "@id": "cm:email"
+    },
+    {
+     "@id": "cm:instant-messaging"
+    }
+   ],
+   "cmo:demonstratedBy": {
+    "@id": "cm:glikson-cheshin-van-kleef-2018"
+   },
+   "cmo:domain": "digital-and-async-communication",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/example"
+   },
+   "cmo:explainedBy": {
+    "@id": "cm:egocentric-bias"
+   },
+   "cmo:file": "articles/digital-and-async-communication/emoji-and-tone-in-text.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/howto"
+   },
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/emoji-and-tone-in-text/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/emoji-and-tone-in-text/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/emoji-and-tone-in-text/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/emoji-and-tone-in-text/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/emoji-and-tone-in-text/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/emoji-and-tone-in-text/s6"
+    }
+   ],
+   "rdfs:label": "Emoji and tone in text",
+   "skos:altLabel": [
+    "emoji at work",
+    "emoticons in work messages",
+    "signalling tone in text",
+    "smileys in email",
+    "tone markers in chat"
+   ],
+   "skos:broader": [
+    {
+     "@id": "cm:digital-communication"
+    },
+    {
+     "@id": "cm:written-communication"
+    }
+   ],
+   "skos:definition": "Deliberately signalling the intended tone of a written work message - first in the words themselves and, where the relationship and channel suit it, with a sparing, unambiguous emoji - because text strips out the voice and facial cues that normally carry tone, and emoji can either clarify or cost credibility depending on context.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/digital-and-async-communication"
+   },
+   "skos:prefLabel": "Emoji and tone in text",
+   "skos:related": [
+    {
+     "@id": "cm:channel-selection"
+    },
+    {
+     "@id": "cm:delivering-bad-news"
+    },
+    {
+     "@id": "cm:egocentric-bias"
+    },
+    {
+     "@id": "cm:email"
+    },
+    {
+     "@id": "cm:illusion-of-transparency"
+    },
+    {
+     "@id": "cm:mirroring"
+    },
+    {
+     "@id": "cm:nonverbal-communication"
+    },
+    {
+     "@id": "cm:paralanguage"
+    }
+   ]
+  },
+  {
    "@id": "cm:emotional-contagion",
    "@type": "cmo:Phenomenon",
    "cmo:appliedIn": {
@@ -19196,6 +19298,107 @@
    "schema:text": "Stop and invite a question; treat what they ask as the start of the real conversation."
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:emoji-and-tone-in-text"
+   },
+   "rdfs:label": "If the recipient read this in their worst mood, which tone would they hear?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:emoji-and-tone-in-text"
+   },
+   "rdfs:label": "Have I put the tone in words, or am I relying on an emoji or punctuation to carry it?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:emoji-and-tone-in-text"
+   },
+   "rdfs:label": "Is this a first contact, an external or formal message, or bad news - where an emoji is likely to cost more than it adds?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:emoji-and-tone-in-text"
+   },
+   "rdfs:label": "Would the emoji I chose look and mean the same thing on the recipient's device?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "Not quite yet - the analysis is solid, but the summary needs tightening before the client sees it. I've left three comments; happy to walk through them at 2pm if useful.",
+   "cmo:before": "Not yet. Needs work 😬",
+   "cmo:situation": "A team lead replies in chat to a new analyst who has asked whether a draft report is ready to send to a client.",
+   "cmo:why": "The original leaves the new analyst to decode a terse line and a grimace face whose meaning varies by reader and platform; the rewrite carries the reassurance and the next step in plain words, which is safer with someone who does not yet know the lead's style and in a message about the quality of their work."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Emoji and tone in text",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/howto/6"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Before sending anything that could be read two ways (a short reply, a joke, a critique, a \"can we talk?\"), reread it as a stressed recipient who does not know your mood."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Put the tone into words first - say \"no rush\", \"happy to help\", \"this is a small fix, not a problem\" - rather than relying on punctuation or an emoji to carry it."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Decide whether an emoji fits by context - informal internal chat with people who already know you, yes; first contact, external clients, formal requests and anything about performance, money or bad news, leave it out."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "If you use one, pick a single common positive face or symbol whose meaning is hard to misread, put it at the end of the sentence, and never let it replace words."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Match the other person's level once a relationship exists - if they never use emoji, keep to plain text; if the team uses reactions, a thumbs-up can acknowledge a message without another reply."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "When a thread turns tense or ambiguous, stop adjusting the emoji and switch to a call."
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/ethnocentrism/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -27882,6 +28085,90 @@
    "dcterms:title": "Writing effective emails",
    "schema:url": {
     "@id": "https://cove.army.gov.au/article/writing-effective-emails"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/emoji-and-tone-in-text/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Glikson, E., Cheshin, A. & van Kleef, G. A., Social Psychological and Personality Science 9(5), 614-625, 2018 (University of Amsterdam repository copy)",
+   "dcterms:title": "The Dark Side of a Smiley: Effects of Smiling Emoticons on Virtual First Impressions",
+   "schema:url": {
+    "@id": "https://pure.uva.nl/ws/files/30232658/1948550617720269.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/emoji-and-tone-in-text/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Miller, H., Thebault-Spieker, J., Chang, S., Johnson, I., Terveen, L. & Hecht, B., Proceedings of the International AAAI Conference on Web and Social Media (ICWSM) 10(1), 259-268, 2016",
+   "dcterms:title": "\"Blissfully Happy\" or \"Ready to Fight\": Varying Interpretations of Emoji",
+   "schema:url": {
+    "@id": "https://ojs.aaai.org/index.php/ICWSM/article/view/14757"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/emoji-and-tone-in-text/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Holtgraves, T. & Robinson, C., PLOS ONE 15(4), 2020 (NSF Public Access Repository copy)",
+   "dcterms:title": "Emoji can facilitate recognition of conveyed indirect meaning",
+   "schema:url": {
+    "@id": "https://par.nsf.gov/servlets/purl/10171535"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/emoji-and-tone-in-text/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "NYU Stern School of Business, Faculty Research Highlights",
+   "dcterms:title": "E-mail Etiquette: More Critical than You Might Think (on Kruger, Epley, Parker & Ng, Egocentrism over e-mail)",
+   "schema:url": {
+    "@id": "https://stern.nyu.edu/experience-stern/faculty-research/justin-kruger-email-research"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/emoji-and-tone-in-text/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "news",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "EurekAlert! / University of Ottawa news release, 2026",
+   "dcterms:title": "Should emojis be used in workplace communications? (on Courtice, Lawrence, Collin & Boutet, Emojis at Work, Collabra, 2026)",
+   "schema:url": {
+    "@id": "https://www.eurekalert.org/news-releases/1123323"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/emoji-and-tone-in-text/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Loughborough University, IT Services",
+   "dcterms:title": "Email and MS Teams etiquette",
+   "schema:url": {
+    "@id": "https://lboro.ac.uk/services/it/topics/email-teams-etiquette/"
    }
   },
   {

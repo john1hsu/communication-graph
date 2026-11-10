@@ -5270,6 +5270,124 @@
   ]
  },
  {
+  "id": "cm:emoji-and-tone-in-text",
+  "title": "Emoji and tone in text",
+  "aliases": [
+   "emoji at work",
+   "emoticons in work messages",
+   "smileys in email",
+   "signalling tone in text",
+   "tone markers in chat"
+  ],
+  "type": "Technique",
+  "domain": "digital-and-async-communication",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/digital-and-async-communication/emoji-and-tone-in-text.md",
+  "created": "2026-11-10",
+  "summary": "Deliberately signalling the intended tone of a written work message - first in the words themselves and, where the relationship and channel suit it, with a sparing, unambiguous emoji - because text strips out the voice and facial cues that normally carry tone, and emoji can either clarify or cost credibility depending on context.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:digital-communication"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "cm:written-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:email"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:paralanguage"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:nonverbal-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:illusion-of-transparency"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:egocentric-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:channel-selection"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:delivering-bad-news"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:mirroring"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:email",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:instant-messaging",
+    "source": "s6",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:illusion-of-transparency",
+    "source": "s3",
+    "confidence": "low"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:glikson-cheshin-van-kleef-2018",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:egocentric-bias",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "If the recipient read this in their worst mood, which tone would they hear?",
+   "Have I put the tone in words, or am I relying on an emoji or punctuation to carry it?",
+   "Is this a first contact, an external or formal message, or bad news - where an emoji is likely to cost more than it adds?",
+   "Would the emoji I chose look and mean the same thing on the recipient's device?"
+  ],
+  "steps": [
+   "Before sending anything that could be read two ways (a short reply, a joke, a critique, a \"can we talk?\"), reread it as a stressed recipient who does not know your mood.",
+   "Put the tone into words first - say \"no rush\", \"happy to help\", \"this is a small fix, not a problem\" - rather than relying on punctuation or an emoji to carry it.",
+   "Decide whether an emoji fits by context - informal internal chat with people who already know you, yes; first contact, external clients, formal requests and anything about performance, money or bad news, leave it out.",
+   "If you use one, pick a single common positive face or symbol whose meaning is hard to misread, put it at the end of the sentence, and never let it replace words.",
+   "Match the other person's level once a relationship exists - if they never use emoji, keep to plain text; if the team uses reactions, a thumbs-up can acknowledge a message without another reply.",
+   "When a thread turns tense or ambiguous, stop adjusting the emoji and switch to a call."
+  ],
+  "example": {
+   "situation": "A team lead replies in chat to a new analyst who has asked whether a draft report is ready to send to a client.",
+   "before": "Not yet. Needs work 😬",
+   "after": "Not quite yet - the analysis is solid, but the summary needs tightening before the client sees it. I've left three comments; happy to walk through them at 2pm if useful.",
+   "why": "The original leaves the new analyst to decode a terse line and a grimace face whose meaning varies by reader and platform; the rewrite carries the reassurance and the next step in plain words, which is safer with someone who does not yet know the lead's style and in a message about the quality of their work."
+  },
+  "source_urls": [
+   "https://pure.uva.nl/ws/files/30232658/1948550617720269.pdf",
+   "https://ojs.aaai.org/index.php/ICWSM/article/view/14757",
+   "https://par.nsf.gov/servlets/purl/10171535",
+   "https://stern.nyu.edu/experience-stern/faculty-research/justin-kruger-email-research",
+   "https://www.eurekalert.org/news-releases/1123323",
+   "https://lboro.ac.uk/services/it/topics/email-teams-etiquette/"
+  ]
+ },
+ {
   "id": "cm:emotional-contagion",
   "title": "Emotional contagion",
   "aliases": [

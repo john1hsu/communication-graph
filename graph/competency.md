@@ -57,7 +57,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:communicating-uncertainty` | 1 | vague-probability-language |
 | `cm:considering-others-contributions-first` | 1 | Egocentric bias |
 
-…and 30 more.
+…and 31 more.
 
 ## Toolkit by situation
 
@@ -90,13 +90,13 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:email` | `cm:channel-selection` |
 | `cm:email` | `cm:concise-writing` |
 | `cm:email` | `cm:email-urgency-bias-study` |
+| `cm:email` | `cm:emoji-and-tone-in-text` |
 | `cm:email` | `cm:kushlev-dunn-2015` |
 | `cm:email` | `cm:media-richness-theory` |
 | `cm:email` | `cm:meeting-recaps` |
 | `cm:email` | `cm:pragmatics` |
-| `cm:email` | `cm:rapport` |
 
-…and 79 more.
+…and 81 more.
 
 ## Myths and contested advice
 
@@ -135,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:batna` | mixed | `cm:schaerer-swaab-galinsky-2015` |
 | `cm:bulleted-and-numbered-lists` | mixed | `cm:columbia-accident-investigation-board-report` |
 
-…and 106 more.
+…and 107 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -143,6 +143,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 
 | node | type |
 |---|---|
+| `cm:emoji-and-tone-in-text` | cmo:Technique |
 | `cm:feedback-sandwich` | cmo:Technique |
 | `cm:gestures` | cmo:Skill |
 | `cm:intercultural-competence` | cmo:Skill |
@@ -172,9 +173,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:reservation-value` | cmo:Concept |
 | `cm:salary-negotiation` | cmo:Context |
 | `cm:scheduled-inbox-checks` | cmo:Technique |
-| `cm:self-affirmation-before-feedback` | cmo:Technique |
 
-…and 19 more.
+…and 20 more.
 
 ## Orphan articles (gap)
 

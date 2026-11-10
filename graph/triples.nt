@@ -2845,6 +2845,87 @@
 <https://github.com/john1hsu/communication-graph/id/email> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
 <https://github.com/john1hsu/communication-graph/id/email> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/digital-and-async-communication/email.md" .
 <https://github.com/john1hsu/communication-graph/id/email> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "If the recipient read this in their worst mood, which tone would they hear?" .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Have I put the tone in words, or am I relying on an emoji or punctuation to carry it?" .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Is this a first contact, an external or formal message, or bad news - where an emoji is likely to cost more than it adds?" .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Would the emoji I chose look and mean the same thing on the recipient's device?" .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/example> <https://github.com/john1hsu/communication-graph/ontology#after> "Not quite yet - the analysis is solid, but the summary needs tightening before the client sees it. I've left three comments; happy to walk through them at 2pm if useful." .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/example> <https://github.com/john1hsu/communication-graph/ontology#before> "Not yet. Needs work 😬" .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "A team lead replies in chat to a new analyst who has asked whether a draft report is ready to send to a client." .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/example> <https://github.com/john1hsu/communication-graph/ontology#why> "The original leaves the new analyst to decode a terse line and a grimace face whose meaning varies by reader and platform; the rewrite carries the reassurance and the next step in plain words, which is safer with someone who does not yet know the lead's style and in a message about the quality of their work." .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/howto/1> <https://schema.org/text> "Before sending anything that could be read two ways (a short reply, a joke, a critique, a \"can we talk?\"), reread it as a stressed recipient who does not know your mood." .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/howto/2> <https://schema.org/text> "Put the tone into words first - say \"no rush\", \"happy to help\", \"this is a small fix, not a problem\" - rather than relying on punctuation or an emoji to carry it." .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/howto/3> <https://schema.org/text> "Decide whether an emoji fits by context - informal internal chat with people who already know you, yes; first contact, external clients, formal requests and anything about performance, money or bad news, leave it out." .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/howto/4> <https://schema.org/text> "If you use one, pick a single common positive face or symbol whose meaning is hard to misread, put it at the end of the sentence, and never let it replace words." .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/howto/5> <https://schema.org/text> "Match the other person's level once a relationship exists - if they never use emoji, keep to plain text; if the team uses reactions, a thumbs-up can acknowledge a message without another reply." .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/howto/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/howto/6> <https://schema.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/howto/6> <https://schema.org/text> "When a thread turns tense or ambiguous, stop adjusting the emoji and switch to a call." .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/howto> <https://schema.org/name> "Emoji and tone in text" .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/howto/1> .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/howto/2> .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/howto/3> .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/howto/4> .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/howto/5> .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/howto/6> .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> <http://purl.org/dc/terms/created> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Technique> .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> <http://www.w3.org/2000/01/rdf-schema#label> "Emoji and tone in text" .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> <http://www.w3.org/2004/02/skos/core#altLabel> "emoji at work" .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> <http://www.w3.org/2004/02/skos/core#altLabel> "emoticons in work messages" .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> <http://www.w3.org/2004/02/skos/core#altLabel> "signalling tone in text" .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> <http://www.w3.org/2004/02/skos/core#altLabel> "smileys in email" .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> <http://www.w3.org/2004/02/skos/core#altLabel> "tone markers in chat" .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/digital-communication> .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/written-communication> .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> <http://www.w3.org/2004/02/skos/core#definition> "Deliberately signalling the intended tone of a written work message - first in the words themselves and, where the relationship and channel suit it, with a sparing, unambiguous emoji - because text strips out the voice and facial cues that normally carry tone, and emoji can either clarify or cost credibility depending on context." .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/digital-and-async-communication> .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> <http://www.w3.org/2004/02/skos/core#prefLabel> "Emoji and tone in text" .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/channel-selection> .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/egocentric-bias> .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/email> .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mirroring> .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/paralanguage> .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/emoji-and-tone-in-text/s1> .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/emoji-and-tone-in-text/s2> .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/emoji-and-tone-in-text/s3> .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/emoji-and-tone-in-text/s4> .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/emoji-and-tone-in-text/s5> .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/emoji-and-tone-in-text/s6> .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/email> .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/instant-messaging> .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/glikson-cheshin-van-kleef-2018> .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> <https://github.com/john1hsu/communication-graph/ontology#domain> "digital-and-async-communication" .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/example> .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/egocentric-bias> .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/digital-and-async-communication/emoji-and-tone-in-text.md" .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/howto> .
+<https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/emotional-contagion> <http://purl.org/dc/terms/created> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/emotional-contagion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Phenomenon> .
 <https://github.com/john1hsu/communication-graph/id/emotional-contagion> <http://www.w3.org/2000/01/rdf-schema#label> "Emotional contagion" .
@@ -10208,6 +10289,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/email/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/email/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
 <https://github.com/john1hsu/communication-graph/id/source/email/s5> <https://schema.org/url> <https://cove.army.gov.au/article/writing-effective-emails> .
+<https://github.com/john1hsu/communication-graph/id/source/emoji-and-tone-in-text/s1> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/emoji-and-tone-in-text/s1> <http://purl.org/dc/terms/publisher> "Glikson, E., Cheshin, A. & van Kleef, G. A., Social Psychological and Personality Science 9(5), 614-625, 2018 (University of Amsterdam repository copy)" .
+<https://github.com/john1hsu/communication-graph/id/source/emoji-and-tone-in-text/s1> <http://purl.org/dc/terms/title> "The Dark Side of a Smiley: Effects of Smiling Emoticons on Virtual First Impressions" .
+<https://github.com/john1hsu/communication-graph/id/source/emoji-and-tone-in-text/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/emoji-and-tone-in-text/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/emoji-and-tone-in-text/s1> <https://schema.org/url> <https://pure.uva.nl/ws/files/30232658/1948550617720269.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/emoji-and-tone-in-text/s2> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/emoji-and-tone-in-text/s2> <http://purl.org/dc/terms/publisher> "Miller, H., Thebault-Spieker, J., Chang, S., Johnson, I., Terveen, L. & Hecht, B., Proceedings of the International AAAI Conference on Web and Social Media (ICWSM) 10(1), 259-268, 2016" .
+<https://github.com/john1hsu/communication-graph/id/source/emoji-and-tone-in-text/s2> <http://purl.org/dc/terms/title> "\"Blissfully Happy\" or \"Ready to Fight\": Varying Interpretations of Emoji" .
+<https://github.com/john1hsu/communication-graph/id/source/emoji-and-tone-in-text/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/emoji-and-tone-in-text/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/emoji-and-tone-in-text/s2> <https://schema.org/url> <https://ojs.aaai.org/index.php/ICWSM/article/view/14757> .
+<https://github.com/john1hsu/communication-graph/id/source/emoji-and-tone-in-text/s3> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/emoji-and-tone-in-text/s3> <http://purl.org/dc/terms/publisher> "Holtgraves, T. & Robinson, C., PLOS ONE 15(4), 2020 (NSF Public Access Repository copy)" .
+<https://github.com/john1hsu/communication-graph/id/source/emoji-and-tone-in-text/s3> <http://purl.org/dc/terms/title> "Emoji can facilitate recognition of conveyed indirect meaning" .
+<https://github.com/john1hsu/communication-graph/id/source/emoji-and-tone-in-text/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/emoji-and-tone-in-text/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/emoji-and-tone-in-text/s3> <https://schema.org/url> <https://par.nsf.gov/servlets/purl/10171535> .
+<https://github.com/john1hsu/communication-graph/id/source/emoji-and-tone-in-text/s4> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/emoji-and-tone-in-text/s4> <http://purl.org/dc/terms/publisher> "NYU Stern School of Business, Faculty Research Highlights" .
+<https://github.com/john1hsu/communication-graph/id/source/emoji-and-tone-in-text/s4> <http://purl.org/dc/terms/title> "E-mail Etiquette: More Critical than You Might Think (on Kruger, Epley, Parker & Ng, Egocentrism over e-mail)" .
+<https://github.com/john1hsu/communication-graph/id/source/emoji-and-tone-in-text/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/emoji-and-tone-in-text/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/emoji-and-tone-in-text/s4> <https://schema.org/url> <https://stern.nyu.edu/experience-stern/faculty-research/justin-kruger-email-research> .
+<https://github.com/john1hsu/communication-graph/id/source/emoji-and-tone-in-text/s5> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/emoji-and-tone-in-text/s5> <http://purl.org/dc/terms/publisher> "EurekAlert! / University of Ottawa news release, 2026" .
+<https://github.com/john1hsu/communication-graph/id/source/emoji-and-tone-in-text/s5> <http://purl.org/dc/terms/title> "Should emojis be used in workplace communications? (on Courtice, Lawrence, Collin & Boutet, Emojis at Work, Collabra, 2026)" .
+<https://github.com/john1hsu/communication-graph/id/source/emoji-and-tone-in-text/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/emoji-and-tone-in-text/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "news" .
+<https://github.com/john1hsu/communication-graph/id/source/emoji-and-tone-in-text/s5> <https://schema.org/url> <https://www.eurekalert.org/news-releases/1123323> .
+<https://github.com/john1hsu/communication-graph/id/source/emoji-and-tone-in-text/s6> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/emoji-and-tone-in-text/s6> <http://purl.org/dc/terms/publisher> "Loughborough University, IT Services" .
+<https://github.com/john1hsu/communication-graph/id/source/emoji-and-tone-in-text/s6> <http://purl.org/dc/terms/title> "Email and MS Teams etiquette" .
+<https://github.com/john1hsu/communication-graph/id/source/emoji-and-tone-in-text/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/emoji-and-tone-in-text/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/communication-graph/id/source/emoji-and-tone-in-text/s6> <https://schema.org/url> <https://lboro.ac.uk/services/it/topics/email-teams-etiquette/> .
 <https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s1> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s1> <http://purl.org/dc/terms/publisher> "Sigal G. Barsade, Administrative Science Quarterly 47(4), 644-675 (2002) (Wharton faculty copy)" .
 <https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s1> <http://purl.org/dc/terms/title> "The Ripple Effect: Emotional Contagion and Its Influence on Group Behavior" .

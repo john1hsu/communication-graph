@@ -361,6 +361,29 @@ Ask yourself:
 - Am I choosing email or chat because it suits the message, or because it lets me avoid an awkward conversation?
 - After a live discussion, have I put the decision, owners and dates in writing?
 
+### [Emoji and tone in text](../articles/digital-and-async-communication/emoji-and-tone-in-text.md) — Technique
+
+1. Before sending anything that could be read two ways (a short reply, a joke, a critique, a "can we talk?"), reread it as a stressed recipient who does not know your mood.
+2. Put the tone into words first - say "no rush", "happy to help", "this is a small fix, not a problem" - rather than relying on punctuation or an emoji to carry it.
+3. Decide whether an emoji fits by context - informal internal chat with people who already know you, yes; first contact, external clients, formal requests and anything about performance, money or bad news, leave it out.
+4. If you use one, pick a single common positive face or symbol whose meaning is hard to misread, put it at the end of the sentence, and never let it replace words.
+5. Match the other person's level once a relationship exists - if they never use emoji, keep to plain text; if the team uses reactions, a thumbs-up can acknowledge a message without another reply.
+6. When a thread turns tense or ambiguous, stop adjusting the emoji and switch to a call.
+
+*A team lead replies in chat to a new analyst who has asked whether a draft report is ready to send to a client.*
+
+| Before | After |
+|---|---|
+| Not yet. Needs work 😬 | Not quite yet - the analysis is solid, but the summary needs tightening before the client sees it. I've left three comments; happy to walk through them at 2pm if useful. |
+
+**Why:** The original leaves the new analyst to decode a terse line and a grimace face whose meaning varies by reader and platform; the rewrite carries the reassurance and the next step in plain words, which is safer with someone who does not yet know the lead's style and in a message about the quality of their work.
+
+Ask yourself:
+- If the recipient read this in their worst mood, which tone would they hear?
+- Have I put the tone in words, or am I relying on an emoji or punctuation to carry it?
+- Is this a first contact, an external or formal message, or bad news - where an emoji is likely to cost more than it adds?
+- Would the emoji I chose look and mean the same thing on the recipient's device?
+
 ### [Scheduled inbox checks](../articles/digital-and-async-communication/scheduled-inbox-checks.md) — Technique
 
 1. Look at how often you check messages today and what your role genuinely needs; if you are on call or in a live-support role, agree an exception path before you change anything.
