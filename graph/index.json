@@ -7078,6 +7078,136 @@
   ]
  },
  {
+  "id": "cm:grow-model",
+  "title": "GROW model",
+  "aliases": [
+   "GROW coaching model",
+   "Goal-Reality-Options-Will",
+   "Goal-Reality-Options-Way forward",
+   "GROW framework"
+  ],
+  "type": "Framework",
+  "domain": "questioning-and-conversation",
+  "level": "introductory",
+  "evidenceStatus": "practitioner",
+  "file": "articles/questioning-and-conversation/grow-model.md",
+  "created": "2026-11-10",
+  "summary": "A four-stage structure for coaching conversations - Goal, Reality, Options, Will (or Way forward) - in which the coach mainly asks questions so the other person sets their own goal, sizes up the current situation, generates choices and commits to a next step. Developed by Graham Alexander and popularised by John Whitmore, it is the most widely taught coaching sequence but has little direct testing of its own.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:questioning"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "cm:coaching"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:open-ended-questions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:humble-inquiry"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:one-on-one-meetings"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:feedforward"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:hattie-timperley-feedback-model"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:situation-behavior-impact"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:wait-time"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:open-ended-questions"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:graham-alexander",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:john-whitmore",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedIn",
+    "object": "cm:coaching-for-performance",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:performance-review",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:open-ended-questions",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:studiedIn",
+    "object": "cm:coaching-psychology",
+    "source": "s6",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:self-regulation-theory",
+    "source": "s6",
+    "confidence": "low"
+   }
+  ],
+  "selfCheck": [
+   "Did the other person state the goal in their own words, or did I set it for them?",
+   "How much of the time did I spend asking versus telling?",
+   "Did we leave with a specific first step, an owner, a date and a review point?",
+   "Did I spend so long on what is going wrong that we ran out of time for options and commitment?",
+   "Did I follow the letters mechanically when the conversation needed to go back a stage?"
+  ],
+  "steps": [
+   "Goal: ask what the person wants from this conversation and what success would look like, and agree a goal they own (\"What would good look like by the end of the quarter?\").",
+   "Reality: ask what is happening now, what they have already tried and what helps or gets in the way; keep it factual and brief rather than digging into blame.",
+   "Options: ask for several possible routes before judging any (\"What else could you try?\"), and offer your own idea only after theirs, labelled as one option.",
+   "Will / Way forward: ask which option they will start with, what the first step is, by when, and how you will both know it is working.",
+   "Summarise the commitment in their words and agree when you will review it, then open the next conversation by checking progress against the goal.",
+   "Loop back to an earlier stage whenever the conversation shows the goal or the facts were wrong; do not march through the letters in order for its own sake."
+  ],
+  "example": {
+   "situation": "A team lead's direct report says in a one-on-one that she is drowning in ad-hoc requests from another department and keeps missing her own project milestones.",
+   "before": "OK, just tell them no. Send me the requests and I'll talk to their manager - and block out Friday mornings for the project.",
+   "after": "What would a good week look like for you a month from now? ... Roughly how many requests came in last week, and which ones did you take on? ... What could you do about the ones that aren't urgent? Anything else? I'd add one option - routing them through a shared intake form. ... Which will you try first, and shall we look at how it went next Tuesday?",
+   "why": "The first reply solves the problem for her, so she learns nothing and the lead now owns it; the GROW version gets her to set the target, size the problem, pick an option and commit to a review date, while still letting the lead contribute an idea as one option among several."
+  },
+  "source_urls": [
+   "https://coaching-at-work.com/2017/11/03/research-matters-the-grow-model-why-we-should-discard-blueprints",
+   "https://hrcak.srce.hr/file/499538",
+   "https://research.vu.nl/en/publications/does-coaching-work-a-meta-analysis-on-the-effects-of-coaching-on-/",
+   "https://academica-e.unavarra.es/entities/publication/0b279774-b7ce-4883-91bd-e378d082c2d0",
+   "https://www.ucl.ac.uk/human-resources/sites/human-resources/files/using_grow_questions_1.pdf",
+   "https://www.oreilly.com/library/view/coaching-practiced/9781119835691/c03.xhtml"
+  ]
+ },
+ {
   "id": "cm:habit-reversal-training",
   "title": "Habit reversal training",
   "aliases": [

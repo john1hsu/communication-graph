@@ -98,7 +98,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:email` | `cm:pragmatics` |
 | `cm:email` | `cm:rapport` |
 
-…and 75 more.
+…and 76 more.
 
 ## Myths and contested advice
 

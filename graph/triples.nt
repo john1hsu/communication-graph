@@ -3649,6 +3649,91 @@
 <https://github.com/john1hsu/communication-graph/id/grices-maxims> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/communication-graph/id/grices-maxims> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
 <https://github.com/john1hsu/communication-graph/id/grices-maxims> <https://github.com/john1hsu/communication-graph/ontology#studiedIn> <https://github.com/john1hsu/communication-graph/id/pragmatics> .
+<https://github.com/john1hsu/communication-graph/id/grow-model/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/grow-model/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Did the other person state the goal in their own words, or did I set it for them?" .
+<https://github.com/john1hsu/communication-graph/id/grow-model/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/grow-model> .
+<https://github.com/john1hsu/communication-graph/id/grow-model/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/grow-model/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "How much of the time did I spend asking versus telling?" .
+<https://github.com/john1hsu/communication-graph/id/grow-model/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/grow-model> .
+<https://github.com/john1hsu/communication-graph/id/grow-model/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/grow-model/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Did we leave with a specific first step, an owner, a date and a review point?" .
+<https://github.com/john1hsu/communication-graph/id/grow-model/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/grow-model> .
+<https://github.com/john1hsu/communication-graph/id/grow-model/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/grow-model/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Did I spend so long on what is going wrong that we ran out of time for options and commitment?" .
+<https://github.com/john1hsu/communication-graph/id/grow-model/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/grow-model> .
+<https://github.com/john1hsu/communication-graph/id/grow-model/check/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/grow-model/check/5> <http://www.w3.org/2000/01/rdf-schema#label> "Did I follow the letters mechanically when the conversation needed to go back a stage?" .
+<https://github.com/john1hsu/communication-graph/id/grow-model/check/5> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/grow-model> .
+<https://github.com/john1hsu/communication-graph/id/grow-model/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+<https://github.com/john1hsu/communication-graph/id/grow-model/example> <https://github.com/john1hsu/communication-graph/ontology#after> "What would a good week look like for you a month from now? ... Roughly how many requests came in last week, and which ones did you take on? ... What could you do about the ones that aren't urgent? Anything else? I'd add one option - routing them through a shared intake form. ... Which will you try first, and shall we look at how it went next Tuesday?" .
+<https://github.com/john1hsu/communication-graph/id/grow-model/example> <https://github.com/john1hsu/communication-graph/ontology#before> "OK, just tell them no. Send me the requests and I'll talk to their manager - and block out Friday mornings for the project." .
+<https://github.com/john1hsu/communication-graph/id/grow-model/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "A team lead's direct report says in a one-on-one that she is drowning in ad-hoc requests from another department and keeps missing her own project milestones." .
+<https://github.com/john1hsu/communication-graph/id/grow-model/example> <https://github.com/john1hsu/communication-graph/ontology#why> "The first reply solves the problem for her, so she learns nothing and the lead now owns it; the GROW version gets her to set the target, size the problem, pick an option and commit to a review date, while still letting the lead contribute an idea as one option among several." .
+<https://github.com/john1hsu/communication-graph/id/grow-model/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/grow-model/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/grow-model/howto/1> <https://schema.org/text> "Goal: ask what the person wants from this conversation and what success would look like, and agree a goal they own (\"What would good look like by the end of the quarter?\")." .
+<https://github.com/john1hsu/communication-graph/id/grow-model/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/grow-model/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/grow-model/howto/2> <https://schema.org/text> "Reality: ask what is happening now, what they have already tried and what helps or gets in the way; keep it factual and brief rather than digging into blame." .
+<https://github.com/john1hsu/communication-graph/id/grow-model/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/grow-model/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/grow-model/howto/3> <https://schema.org/text> "Options: ask for several possible routes before judging any (\"What else could you try?\"), and offer your own idea only after theirs, labelled as one option." .
+<https://github.com/john1hsu/communication-graph/id/grow-model/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/grow-model/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/grow-model/howto/4> <https://schema.org/text> "Will / Way forward: ask which option they will start with, what the first step is, by when, and how you will both know it is working." .
+<https://github.com/john1hsu/communication-graph/id/grow-model/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/grow-model/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/grow-model/howto/5> <https://schema.org/text> "Summarise the commitment in their words and agree when you will review it, then open the next conversation by checking progress against the goal." .
+<https://github.com/john1hsu/communication-graph/id/grow-model/howto/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/grow-model/howto/6> <https://schema.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/grow-model/howto/6> <https://schema.org/text> "Loop back to an earlier stage whenever the conversation shows the goal or the facts were wrong; do not march through the letters in order for its own sake." .
+<https://github.com/john1hsu/communication-graph/id/grow-model/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+<https://github.com/john1hsu/communication-graph/id/grow-model/howto> <https://schema.org/name> "GROW model" .
+<https://github.com/john1hsu/communication-graph/id/grow-model/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/grow-model/howto/1> .
+<https://github.com/john1hsu/communication-graph/id/grow-model/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/grow-model/howto/2> .
+<https://github.com/john1hsu/communication-graph/id/grow-model/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/grow-model/howto/3> .
+<https://github.com/john1hsu/communication-graph/id/grow-model/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/grow-model/howto/4> .
+<https://github.com/john1hsu/communication-graph/id/grow-model/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/grow-model/howto/5> .
+<https://github.com/john1hsu/communication-graph/id/grow-model/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/grow-model/howto/6> .
+<https://github.com/john1hsu/communication-graph/id/grow-model> <http://purl.org/dc/terms/created> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/grow-model> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Framework> .
+<https://github.com/john1hsu/communication-graph/id/grow-model> <http://www.w3.org/2000/01/rdf-schema#label> "GROW model" .
+<https://github.com/john1hsu/communication-graph/id/grow-model> <http://www.w3.org/2004/02/skos/core#altLabel> "GROW coaching model" .
+<https://github.com/john1hsu/communication-graph/id/grow-model> <http://www.w3.org/2004/02/skos/core#altLabel> "GROW framework" .
+<https://github.com/john1hsu/communication-graph/id/grow-model> <http://www.w3.org/2004/02/skos/core#altLabel> "Goal-Reality-Options-Way forward" .
+<https://github.com/john1hsu/communication-graph/id/grow-model> <http://www.w3.org/2004/02/skos/core#altLabel> "Goal-Reality-Options-Will" .
+<https://github.com/john1hsu/communication-graph/id/grow-model> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/coaching> .
+<https://github.com/john1hsu/communication-graph/id/grow-model> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/questioning> .
+<https://github.com/john1hsu/communication-graph/id/grow-model> <http://www.w3.org/2004/02/skos/core#definition> "A four-stage structure for coaching conversations - Goal, Reality, Options, Will (or Way forward) - in which the coach mainly asks questions so the other person sets their own goal, sizes up the current situation, generates choices and commits to a next step. Developed by Graham Alexander and popularised by John Whitmore, it is the most widely taught coaching sequence but has little direct testing of its own." .
+<https://github.com/john1hsu/communication-graph/id/grow-model> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/questioning-and-conversation> .
+<https://github.com/john1hsu/communication-graph/id/grow-model> <http://www.w3.org/2004/02/skos/core#prefLabel> "GROW model" .
+<https://github.com/john1hsu/communication-graph/id/grow-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/feedforward> .
+<https://github.com/john1hsu/communication-graph/id/grow-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> .
+<https://github.com/john1hsu/communication-graph/id/grow-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/humble-inquiry> .
+<https://github.com/john1hsu/communication-graph/id/grow-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> .
+<https://github.com/john1hsu/communication-graph/id/grow-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/open-ended-questions> .
+<https://github.com/john1hsu/communication-graph/id/grow-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> .
+<https://github.com/john1hsu/communication-graph/id/grow-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/wait-time> .
+<https://github.com/john1hsu/communication-graph/id/grow-model> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/grow-model/s1> .
+<https://github.com/john1hsu/communication-graph/id/grow-model> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/grow-model/s2> .
+<https://github.com/john1hsu/communication-graph/id/grow-model> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/grow-model/s3> .
+<https://github.com/john1hsu/communication-graph/id/grow-model> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/grow-model/s4> .
+<https://github.com/john1hsu/communication-graph/id/grow-model> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/grow-model/s5> .
+<https://github.com/john1hsu/communication-graph/id/grow-model> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/grow-model/s6> .
+<https://github.com/john1hsu/communication-graph/id/grow-model> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/performance-review> .
+<https://github.com/john1hsu/communication-graph/id/grow-model> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/open-ended-questions> .
+<https://github.com/john1hsu/communication-graph/id/grow-model> <https://github.com/john1hsu/communication-graph/ontology#domain> "questioning-and-conversation" .
+<https://github.com/john1hsu/communication-graph/id/grow-model> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "practitioner" .
+<https://github.com/john1hsu/communication-graph/id/grow-model> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/grow-model/example> .
+<https://github.com/john1hsu/communication-graph/id/grow-model> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/self-regulation-theory> .
+<https://github.com/john1hsu/communication-graph/id/grow-model> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/questioning-and-conversation/grow-model.md" .
+<https://github.com/john1hsu/communication-graph/id/grow-model> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/grow-model/howto> .
+<https://github.com/john1hsu/communication-graph/id/grow-model> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/graham-alexander> .
+<https://github.com/john1hsu/communication-graph/id/grow-model> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/john-whitmore> .
+<https://github.com/john1hsu/communication-graph/id/grow-model> <https://github.com/john1hsu/communication-graph/ontology#introducedIn> <https://github.com/john1hsu/communication-graph/id/coaching-for-performance> .
+<https://github.com/john1hsu/communication-graph/id/grow-model> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/grow-model> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/open-ended-questions> .
+<https://github.com/john1hsu/communication-graph/id/grow-model> <https://github.com/john1hsu/communication-graph/ontology#studiedIn> <https://github.com/john1hsu/communication-graph/id/coaching-psychology> .
 <https://github.com/john1hsu/communication-graph/id/habit-reversal-training/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/habit-reversal-training/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Do I know my actual filler rate from a recording, or am I guessing?" .
 <https://github.com/john1hsu/communication-graph/id/habit-reversal-training/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> .
@@ -10534,6 +10619,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/grices-maxims/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/grices-maxims/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
 <https://github.com/john1hsu/communication-graph/id/source/grices-maxims/s5> <https://schema.org/url> <https://core.ac.uk/download/357524645.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/grow-model/s1> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/grow-model/s1> <http://purl.org/dc/terms/publisher> "Elaine Cox (Oxford Brookes University) & Glenn Wallis, Coaching at Work (3 November 2017)" .
+<https://github.com/john1hsu/communication-graph/id/source/grow-model/s1> <http://purl.org/dc/terms/title> "Research matters - The GROW model: why we should discard blueprints" .
+<https://github.com/john1hsu/communication-graph/id/source/grow-model/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/grow-model/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "practitioner-journal" .
+<https://github.com/john1hsu/communication-graph/id/source/grow-model/s1> <https://schema.org/url> <https://coaching-at-work.com/2017/11/03/research-matters-the-grow-model-why-we-should-discard-blueprints> .
+<https://github.com/john1hsu/communication-graph/id/source/grow-model/s2> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/grow-model/s2> <http://purl.org/dc/terms/publisher> "Sadewo, Wibawa, Hanafi, Purnasari & Santosa, Croatian Journal of Education 27(4), 1383-1410 (2025), doi:10.15516/cje.v27i4.6750" .
+<https://github.com/john1hsu/communication-graph/id/source/grow-model/s2> <http://purl.org/dc/terms/title> "Analysis of the Potentials of GROW Coaching Model in Developing Teachers' and Principals' Competencies" .
+<https://github.com/john1hsu/communication-graph/id/source/grow-model/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/grow-model/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/grow-model/s2> <https://schema.org/url> <https://hrcak.srce.hr/file/499538> .
+<https://github.com/john1hsu/communication-graph/id/source/grow-model/s3> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/grow-model/s3> <http://purl.org/dc/terms/publisher> "Theeboom, Beersma & van Vianen, The Journal of Positive Psychology 9(1), 1-18 (2014), doi:10.1080/17439760.2013.837499 (VU Amsterdam research portal)" .
+<https://github.com/john1hsu/communication-graph/id/source/grow-model/s3> <http://purl.org/dc/terms/title> "Does coaching work? A meta-analysis on the effects of coaching on individual level outcomes in an organizational context" .
+<https://github.com/john1hsu/communication-graph/id/source/grow-model/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/grow-model/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/grow-model/s3> <https://schema.org/url> <https://research.vu.nl/en/publications/does-coaching-work-a-meta-analysis-on-the-effects-of-coaching-on-/> .
+<https://github.com/john1hsu/communication-graph/id/source/grow-model/s4> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/grow-model/s4> <http://purl.org/dc/terms/publisher> "Neipp López, Beyebach, Núñez & Martínez González, Journal of Marital and Family Therapy 42(3), 525-535, doi:10.1111/jmft.12140 (Universidad Pública de Navarra repository)" .
+<https://github.com/john1hsu/communication-graph/id/source/grow-model/s4> <http://purl.org/dc/terms/title> "The effect of solution-focused versus problem-focused questions: a replication" .
+<https://github.com/john1hsu/communication-graph/id/source/grow-model/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/grow-model/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/grow-model/s4> <https://schema.org/url> <https://academica-e.unavarra.es/entities/publication/0b279774-b7ce-4883-91bd-e378d082c2d0> .
+<https://github.com/john1hsu/communication-graph/id/source/grow-model/s5> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/grow-model/s5> <http://purl.org/dc/terms/publisher> "University College London, Human Resources (developmental conversations learning module)" .
+<https://github.com/john1hsu/communication-graph/id/source/grow-model/s5> <http://purl.org/dc/terms/title> "Using GROW questions" .
+<https://github.com/john1hsu/communication-graph/id/source/grow-model/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/grow-model/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/communication-graph/id/source/grow-model/s5> <https://schema.org/url> <https://www.ucl.ac.uk/human-resources/sites/human-resources/files/using_grow_questions_1.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/grow-model/s6> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/grow-model/s6> <http://purl.org/dc/terms/publisher> "Anthony M. Grant, in Passmore & Tee (eds.), Coaching Practiced (Wiley, 2022), ch. 3; first published in The Coaching Psychologist 7(2), 118-126 (2011)" .
+<https://github.com/john1hsu/communication-graph/id/source/grow-model/s6> <http://purl.org/dc/terms/title> "Is It Time to REGROW the GROW Model? Issues related to teaching coaching session structures" .
+<https://github.com/john1hsu/communication-graph/id/source/grow-model/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/grow-model/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/grow-model/s6> <https://schema.org/url> <https://www.oreilly.com/library/view/coaching-practiced/9781119835691/c03.xhtml> .
 <https://github.com/john1hsu/communication-graph/id/source/habit-reversal-training/s1> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/habit-reversal-training/s1> <http://purl.org/dc/terms/publisher> "Azrin & Nunn, Behaviour Research and Therapy 11(4), 619-628, 1973 (library record)" .
 <https://github.com/john1hsu/communication-graph/id/source/habit-reversal-training/s1> <http://purl.org/dc/terms/title> "Habit-reversal: A method of eliminating nervous habits and tics" .

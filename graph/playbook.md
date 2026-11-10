@@ -1674,6 +1674,30 @@ Ask yourself:
 - Have I picked a private place and enough time, rather than catching the person in a corridor or open-plan area?
 - Before we part, have we said the decision and next steps out loud, and will I confirm them in writing?
 
+### [GROW model](../articles/questioning-and-conversation/grow-model.md) — Framework
+
+1. Goal: ask what the person wants from this conversation and what success would look like, and agree a goal they own ("What would good look like by the end of the quarter?").
+2. Reality: ask what is happening now, what they have already tried and what helps or gets in the way; keep it factual and brief rather than digging into blame.
+3. Options: ask for several possible routes before judging any ("What else could you try?"), and offer your own idea only after theirs, labelled as one option.
+4. Will / Way forward: ask which option they will start with, what the first step is, by when, and how you will both know it is working.
+5. Summarise the commitment in their words and agree when you will review it, then open the next conversation by checking progress against the goal.
+6. Loop back to an earlier stage whenever the conversation shows the goal or the facts were wrong; do not march through the letters in order for its own sake.
+
+*A team lead's direct report says in a one-on-one that she is drowning in ad-hoc requests from another department and keeps missing her own project milestones.*
+
+| Before | After |
+|---|---|
+| OK, just tell them no. Send me the requests and I'll talk to their manager - and block out Friday mornings for the project. | What would a good week look like for you a month from now? ... Roughly how many requests came in last week, and which ones did you take on? ... What could you do about the ones that aren't urgent? Anything else? I'd add one option - routing them through a shared intake form. ... Which will you try first, and shall we look at how it went next Tuesday? |
+
+**Why:** The first reply solves the problem for her, so she learns nothing and the lead now owns it; the GROW version gets her to set the target, size the problem, pick an option and commit to a review date, while still letting the lead contribute an idea as one option among several.
+
+Ask yourself:
+- Did the other person state the goal in their own words, or did I set it for them?
+- How much of the time did I spend asking versus telling?
+- Did we leave with a specific first step, an owner, a date and a review point?
+- Did I spend so long on what is going wrong that we ran out of time for options and commitment?
+- Did I follow the letters mechanically when the conversation needed to go back a stage?
+
 ### [Humble inquiry](../articles/questioning-and-conversation/humble-inquiry.md) — Technique
 
 1. Before the conversation, write down what you are assuming about the situation and the person, and mark which parts you have not actually checked.
