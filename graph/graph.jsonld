@@ -1131,6 +1131,77 @@
    ]
   },
   {
+   "@id": "cm:avrim-fishkind",
+   "@type": "cmo:Person",
+   "cmo:authored": [
+    {
+     "@id": "cm:calming-agitation-with-words"
+    },
+    {
+     "@id": "cm:project-beta-de-escalation-consensus"
+    }
+   ],
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "historical",
+   "cmo:file": "articles/thinkers-and-works/avrim-fishkind.md",
+   "cmo:introduced": {
+    "@id": "cm:de-escalation"
+   },
+   "cmo:level": "intermediate",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/avrim-fishkind/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/avrim-fishkind/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/avrim-fishkind/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/avrim-fishkind/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/avrim-fishkind/s5"
+    }
+   ],
+   "rdfs:label": "Avrim Fishkind",
+   "skos:altLabel": [
+    "A. B. Fishkind",
+    "Avrim B. Fishkind",
+    "Fishkind's 10 commandments"
+   ],
+   "skos:definition": "Houston emergency psychiatrist and past president of the American Association for Emergency Psychiatry whose 2002 \"10 commandments for safety\" set out a short, teachable script for calming an agitated person with words, and became the basis of the 2012 Project BETA ten domains of verbal de-escalation now adapted for police, security and front-line staff.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "Avrim Fishkind",
+   "skos:related": [
+    {
+     "@id": "cm:active-listening"
+    },
+    {
+     "@id": "cm:de-escalation"
+    },
+    {
+     "@id": "cm:difficult-conversation"
+    },
+    {
+     "@id": "cm:labeling-emotions"
+    },
+    {
+     "@id": "cm:proxemics"
+    },
+    {
+     "@id": "cm:verbal-aggression"
+    }
+   ]
+  },
+  {
    "@id": "cm:batna",
    "@type": "cmo:Technique",
    "cmo:challengedBy": {
@@ -24788,6 +24859,76 @@
    "dcterms:title": "Aristotle's Rhetoric",
    "schema:url": {
     "@id": "https://plato.stanford.edu/archives/spr2026/entries/aristotle-rhetoric/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/avrim-fishkind/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Avrim Fishkind, Current Psychiatry 1(4), 33-39, April 2002 (publisher PDF, MDedge)",
+   "dcterms:title": "Calming agitation with words, not drugs: 10 commandments for safety",
+   "schema:url": {
+    "@id": "https://cdn.mdedge.com/files/s3fs-public/Document/September-2017/0104_Fishkind.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/avrim-fishkind/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Richmond, Berlin, Fishkind et al., Western Journal of Emergency Medicine 13(1), 17-25, 2012 (copy hosted by the Minnesota Department of Health)",
+   "dcterms:title": "Verbal De-escalation of the Agitated Patient: Consensus Statement of the American Association for Emergency Psychiatry Project BETA De-escalation Workgroup",
+   "schema:url": {
+    "@id": "https://www.health.mn.gov/facilities/patientsafety/preventionofviolence/docs/verbdeescalagitatedpatientarticle.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/avrim-fishkind/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "practitioner-journal",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Avrim Fishkind, The Carlat Psychiatry Report, September 2018",
+   "dcterms:title": "The 10 Commandments for Verbal De-escalation",
+   "schema:url": {
+    "@id": "https://thecarlatreport.com/articles/2782-the-10-commandments-for-verbal-de-escalation"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/avrim-fishkind/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Leslie Citrome, American Health & Drug Benefits, 2016",
+   "dcterms:title": "Why You Should Know About Project BETA: Best Practices in Evaluation and Treatment of Agitation",
+   "schema:url": {
+    "@id": "https://www.ahdbonline.com/articles/why-you-should-know-about-project-beta-best-practices-in-evaluation-and-treatment-of-agitation"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/avrim-fishkind/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "news",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Lewis \"Von\" Kliem, Force Science, republished by Police1, May 2020",
+   "dcterms:title": "Realistic law enforcement de-escalation: Learning from the mental health profession",
+   "schema:url": {
+    "@id": "https://www.police1.com/police-training/articles/realistic-law-enforcement-de-escalation-learning-from-the-mental-health-profession-GHHSl3vKkyCNZ27e/"
    }
   },
   {

@@ -1283,6 +1283,76 @@
   ]
  },
  {
+  "id": "cm:avrim-fishkind",
+  "title": "Avrim Fishkind",
+  "aliases": [
+   "Avrim B. Fishkind",
+   "A. B. Fishkind",
+   "Fishkind's 10 commandments"
+  ],
+  "type": "Person",
+  "domain": "thinkers-and-works",
+  "level": "intermediate",
+  "evidenceStatus": "historical",
+  "file": "articles/thinkers-and-works/avrim-fishkind.md",
+  "created": "2026-11-10",
+  "summary": "Houston emergency psychiatrist and past president of the American Association for Emergency Psychiatry whose 2002 \"10 commandments for safety\" set out a short, teachable script for calming an agitated person with words, and became the basis of the 2012 Project BETA ten domains of verbal de-escalation now adapted for police, security and front-line staff.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "cm:de-escalation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:verbal-aggression"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:labeling-emotions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:active-listening"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:difficult-conversation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:proxemics"
+   },
+   {
+    "predicate": "cmo:introduced",
+    "object": "cm:de-escalation",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:authored",
+    "object": "cm:calming-agitation-with-words",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:authored",
+    "object": "cm:project-beta-de-escalation-consensus",
+    "source": "s2",
+    "confidence": "high"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://cdn.mdedge.com/files/s3fs-public/Document/September-2017/0104_Fishkind.pdf",
+   "https://www.health.mn.gov/facilities/patientsafety/preventionofviolence/docs/verbdeescalagitatedpatientarticle.pdf",
+   "https://thecarlatreport.com/articles/2782-the-10-commandments-for-verbal-de-escalation",
+   "https://www.ahdbonline.com/articles/why-you-should-know-about-project-beta-best-practices-in-evaluation-and-treatment-of-agitation",
+   "https://www.police1.com/police-training/articles/realistic-law-enforcement-de-escalation-learning-from-the-mental-health-profession-GHHSl3vKkyCNZ27e/"
+  ]
+ },
+ {
   "id": "cm:batna",
   "title": "BATNA",
   "aliases": [

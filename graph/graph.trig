@@ -1208,6 +1208,14 @@
 <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/aristotles-rhetoric/s2> .
 <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/aristotles-rhetoric/s3> .
 <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/aristotles-rhetoric/s4> .
+<https://github.com/john1hsu/communication-graph/id/avrim-fishkind#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/avrim-fishkind#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/avrim-fishkind> .
+<https://github.com/john1hsu/communication-graph/id/avrim-fishkind#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/thinkers-and-works/avrim-fishkind.md" .
+<https://github.com/john1hsu/communication-graph/id/avrim-fishkind#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/avrim-fishkind/s1> .
+<https://github.com/john1hsu/communication-graph/id/avrim-fishkind#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/avrim-fishkind/s2> .
+<https://github.com/john1hsu/communication-graph/id/avrim-fishkind#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/avrim-fishkind/s3> .
+<https://github.com/john1hsu/communication-graph/id/avrim-fishkind#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/avrim-fishkind/s4> .
+<https://github.com/john1hsu/communication-graph/id/avrim-fishkind#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/avrim-fishkind/s5> .
 <https://github.com/john1hsu/communication-graph/id/carl-hovland#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/carl-hovland#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/carl-hovland> .
 <https://github.com/john1hsu/communication-graph/id/carl-hovland#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/thinkers-and-works/carl-hovland.md" .
@@ -14757,6 +14765,66 @@
   <https://github.com/john1hsu/communication-graph/id/source/aristotles-rhetoric/s4> <https://schema.org/url> <https://procomm.ieee.org/back-to-basics-what-can-aristotle-teach-us-about-modern-communication/> .
 }
 
+<https://github.com/john1hsu/communication-graph/id/avrim-fishkind#graph> {
+  <https://github.com/john1hsu/communication-graph/id/avrim-fishkind> <http://purl.org/dc/terms/created> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/avrim-fishkind> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+  <https://github.com/john1hsu/communication-graph/id/avrim-fishkind> <http://www.w3.org/2000/01/rdf-schema#label> "Avrim Fishkind" .
+  <https://github.com/john1hsu/communication-graph/id/avrim-fishkind> <http://www.w3.org/2004/02/skos/core#altLabel> "A. B. Fishkind" .
+  <https://github.com/john1hsu/communication-graph/id/avrim-fishkind> <http://www.w3.org/2004/02/skos/core#altLabel> "Avrim B. Fishkind" .
+  <https://github.com/john1hsu/communication-graph/id/avrim-fishkind> <http://www.w3.org/2004/02/skos/core#altLabel> "Fishkind's 10 commandments" .
+  <https://github.com/john1hsu/communication-graph/id/avrim-fishkind> <http://www.w3.org/2004/02/skos/core#definition> "Houston emergency psychiatrist and past president of the American Association for Emergency Psychiatry whose 2002 \"10 commandments for safety\" set out a short, teachable script for calming an agitated person with words, and became the basis of the 2012 Project BETA ten domains of verbal de-escalation now adapted for police, security and front-line staff." .
+  <https://github.com/john1hsu/communication-graph/id/avrim-fishkind> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works> .
+  <https://github.com/john1hsu/communication-graph/id/avrim-fishkind> <http://www.w3.org/2004/02/skos/core#prefLabel> "Avrim Fishkind" .
+  <https://github.com/john1hsu/communication-graph/id/avrim-fishkind> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+  <https://github.com/john1hsu/communication-graph/id/avrim-fishkind> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/de-escalation> .
+  <https://github.com/john1hsu/communication-graph/id/avrim-fishkind> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/difficult-conversation> .
+  <https://github.com/john1hsu/communication-graph/id/avrim-fishkind> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/labeling-emotions> .
+  <https://github.com/john1hsu/communication-graph/id/avrim-fishkind> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/proxemics> .
+  <https://github.com/john1hsu/communication-graph/id/avrim-fishkind> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/verbal-aggression> .
+  <https://github.com/john1hsu/communication-graph/id/avrim-fishkind> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/avrim-fishkind/s1> .
+  <https://github.com/john1hsu/communication-graph/id/avrim-fishkind> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/avrim-fishkind/s2> .
+  <https://github.com/john1hsu/communication-graph/id/avrim-fishkind> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/avrim-fishkind/s3> .
+  <https://github.com/john1hsu/communication-graph/id/avrim-fishkind> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/avrim-fishkind/s4> .
+  <https://github.com/john1hsu/communication-graph/id/avrim-fishkind> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/avrim-fishkind/s5> .
+  <https://github.com/john1hsu/communication-graph/id/avrim-fishkind> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/calming-agitation-with-words> .
+  <https://github.com/john1hsu/communication-graph/id/avrim-fishkind> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/project-beta-de-escalation-consensus> .
+  <https://github.com/john1hsu/communication-graph/id/avrim-fishkind> <https://github.com/john1hsu/communication-graph/ontology#domain> "thinkers-and-works" .
+  <https://github.com/john1hsu/communication-graph/id/avrim-fishkind> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "historical" .
+  <https://github.com/john1hsu/communication-graph/id/avrim-fishkind> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/thinkers-and-works/avrim-fishkind.md" .
+  <https://github.com/john1hsu/communication-graph/id/avrim-fishkind> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/de-escalation> .
+  <https://github.com/john1hsu/communication-graph/id/avrim-fishkind> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+  <https://github.com/john1hsu/communication-graph/id/source/avrim-fishkind/s1> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/avrim-fishkind/s1> <http://purl.org/dc/terms/publisher> "Avrim Fishkind, Current Psychiatry 1(4), 33-39, April 2002 (publisher PDF, MDedge)" .
+  <https://github.com/john1hsu/communication-graph/id/source/avrim-fishkind/s1> <http://purl.org/dc/terms/title> "Calming agitation with words, not drugs: 10 commandments for safety" .
+  <https://github.com/john1hsu/communication-graph/id/source/avrim-fishkind/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/avrim-fishkind/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/communication-graph/id/source/avrim-fishkind/s1> <https://schema.org/url> <https://cdn.mdedge.com/files/s3fs-public/Document/September-2017/0104_Fishkind.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/avrim-fishkind/s2> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/avrim-fishkind/s2> <http://purl.org/dc/terms/publisher> "Richmond, Berlin, Fishkind et al., Western Journal of Emergency Medicine 13(1), 17-25, 2012 (copy hosted by the Minnesota Department of Health)" .
+  <https://github.com/john1hsu/communication-graph/id/source/avrim-fishkind/s2> <http://purl.org/dc/terms/title> "Verbal De-escalation of the Agitated Patient: Consensus Statement of the American Association for Emergency Psychiatry Project BETA De-escalation Workgroup" .
+  <https://github.com/john1hsu/communication-graph/id/source/avrim-fishkind/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/avrim-fishkind/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/avrim-fishkind/s2> <https://schema.org/url> <https://www.health.mn.gov/facilities/patientsafety/preventionofviolence/docs/verbdeescalagitatedpatientarticle.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/avrim-fishkind/s3> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/avrim-fishkind/s3> <http://purl.org/dc/terms/publisher> "Avrim Fishkind, The Carlat Psychiatry Report, September 2018" .
+  <https://github.com/john1hsu/communication-graph/id/source/avrim-fishkind/s3> <http://purl.org/dc/terms/title> "The 10 Commandments for Verbal De-escalation" .
+  <https://github.com/john1hsu/communication-graph/id/source/avrim-fishkind/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/avrim-fishkind/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "practitioner-journal" .
+  <https://github.com/john1hsu/communication-graph/id/source/avrim-fishkind/s3> <https://schema.org/url> <https://thecarlatreport.com/articles/2782-the-10-commandments-for-verbal-de-escalation> .
+  <https://github.com/john1hsu/communication-graph/id/source/avrim-fishkind/s4> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/avrim-fishkind/s4> <http://purl.org/dc/terms/publisher> "Leslie Citrome, American Health & Drug Benefits, 2016" .
+  <https://github.com/john1hsu/communication-graph/id/source/avrim-fishkind/s4> <http://purl.org/dc/terms/title> "Why You Should Know About Project BETA: Best Practices in Evaluation and Treatment of Agitation" .
+  <https://github.com/john1hsu/communication-graph/id/source/avrim-fishkind/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/avrim-fishkind/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/avrim-fishkind/s4> <https://schema.org/url> <https://www.ahdbonline.com/articles/why-you-should-know-about-project-beta-best-practices-in-evaluation-and-treatment-of-agitation> .
+  <https://github.com/john1hsu/communication-graph/id/source/avrim-fishkind/s5> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/avrim-fishkind/s5> <http://purl.org/dc/terms/publisher> "Lewis \"Von\" Kliem, Force Science, republished by Police1, May 2020" .
+  <https://github.com/john1hsu/communication-graph/id/source/avrim-fishkind/s5> <http://purl.org/dc/terms/title> "Realistic law enforcement de-escalation: Learning from the mental health profession" .
+  <https://github.com/john1hsu/communication-graph/id/source/avrim-fishkind/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/avrim-fishkind/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "news" .
+  <https://github.com/john1hsu/communication-graph/id/source/avrim-fishkind/s5> <https://schema.org/url> <https://www.police1.com/police-training/articles/realistic-law-enforcement-de-escalation-learning-from-the-mental-health-profession-GHHSl3vKkyCNZ27e/> .
+}
+
 <https://github.com/john1hsu/communication-graph/id/carl-hovland#graph> {
   <https://github.com/john1hsu/communication-graph/id/carl-hovland> <http://purl.org/dc/terms/created> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
   <https://github.com/john1hsu/communication-graph/id/carl-hovland> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
@@ -17862,6 +17930,7 @@
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/paraphrasing> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/summarizing> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> .
+  <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/avrim-fishkind> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/common-ground> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/conversational-receptiveness> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/de-escalation> .
@@ -18132,6 +18201,7 @@
   <https://github.com/john1hsu/communication-graph/id/avraham-n-kluger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/avraham-n-kluger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/avraham-n-kluger> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996> .
+  <https://github.com/john1hsu/communication-graph/id/avrim-fishkind> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/baker-chaparro-shaikh-2005> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/wall-of-text> .
   <https://github.com/john1hsu/communication-graph/id/barbara-minto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/barbara-minto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
@@ -18317,6 +18387,9 @@
   <https://github.com/john1hsu/communication-graph/id/business-report> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/status-reporting> .
   <https://github.com/john1hsu/communication-graph/id/business-report> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/status-reporting> .
   <https://github.com/john1hsu/communication-graph/id/business-report> <https://github.com/john1hsu/communication-graph/ontology#structuredBy> <https://github.com/john1hsu/communication-graph/id/pyramid-principle> .
+  <https://github.com/john1hsu/communication-graph/id/calming-agitation-with-words> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/calming-agitation-with-words> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
+  <https://github.com/john1hsu/communication-graph/id/calming-agitation-with-words> <https://github.com/john1hsu/communication-graph/ontology#authoredBy> <https://github.com/john1hsu/communication-graph/id/avrim-fishkind> .
   <https://github.com/john1hsu/communication-graph/id/camera-level-gaze/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/camera-level-gaze/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/camera-level-gaze/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -18871,9 +18944,11 @@
   <https://github.com/john1hsu/communication-graph/id/de-escalation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/de-escalation> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/conflict-resolution> .
   <https://github.com/john1hsu/communication-graph/id/de-escalation> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
+  <https://github.com/john1hsu/communication-graph/id/de-escalation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/avrim-fishkind> .
   <https://github.com/john1hsu/communication-graph/id/de-escalation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/conflict-resolution> .
   <https://github.com/john1hsu/communication-graph/id/de-escalation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/emotional-contagion> .
   <https://github.com/john1hsu/communication-graph/id/de-escalation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/morton-deutsch> .
+  <https://github.com/john1hsu/communication-graph/id/de-escalation> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/avrim-fishkind> .
   <https://github.com/john1hsu/communication-graph/id/de-jong-2010> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/cognitive-load> .
   <https://github.com/john1hsu/communication-graph/id/de-wit-greer-jehn-2012> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/conflict-resolution> .
   <https://github.com/john1hsu/communication-graph/id/deaf-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/status-reporting> .
@@ -18953,6 +19028,7 @@
   <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> .
   <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> .
   <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/apology> .
+  <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/avrim-fishkind> .
   <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/conflict-resolution> .
   <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/conversational-receptiveness> .
   <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/de-escalation> .
@@ -20246,6 +20322,7 @@
   <https://github.com/john1hsu/communication-graph/id/labeling-emotions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/labeling-emotions> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/active-listening> .
   <https://github.com/john1hsu/communication-graph/id/labeling-emotions> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/listening> .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/avrim-fishkind> .
   <https://github.com/john1hsu/communication-graph/id/labeling-emotions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/de-escalation> .
   <https://github.com/john1hsu/communication-graph/id/labeling-emotions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/emotional-contagion> .
   <https://github.com/john1hsu/communication-graph/id/labeling-emotions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mirroring> .
@@ -21132,11 +21209,15 @@
   <https://github.com/john1hsu/communication-graph/id/production-blocking> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/1-2-4-all> .
   <https://github.com/john1hsu/communication-graph/id/production-blocking> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> .
   <https://github.com/john1hsu/communication-graph/id/project-aristotle> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
+  <https://github.com/john1hsu/communication-graph/id/project-beta-de-escalation-consensus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/project-beta-de-escalation-consensus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
+  <https://github.com/john1hsu/communication-graph/id/project-beta-de-escalation-consensus> <https://github.com/john1hsu/communication-graph/ontology#authoredBy> <https://github.com/john1hsu/communication-graph/id/avrim-fishkind> .
   <https://github.com/john1hsu/communication-graph/id/project-planning> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/raci-matrix> .
   <https://github.com/john1hsu/communication-graph/id/proxemics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/proxemics> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
   <https://github.com/john1hsu/communication-graph/id/proxemics> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
   <https://github.com/john1hsu/communication-graph/id/proxemics> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> .
+  <https://github.com/john1hsu/communication-graph/id/proxemics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/avrim-fishkind> .
   <https://github.com/john1hsu/communication-graph/id/proxemics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/de-escalation> .
   <https://github.com/john1hsu/communication-graph/id/proxemics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/eye-contact> .
   <https://github.com/john1hsu/communication-graph/id/proxemics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/face-to-face-conversation> .
@@ -21957,6 +22038,7 @@
   <https://github.com/john1hsu/communication-graph/id/vanessa-bohns> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/vanessa-bohns> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/vanessa-bohns> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/email-urgency-bias-study> .
+  <https://github.com/john1hsu/communication-graph/id/verbal-aggression> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/avrim-fishkind> .
   <https://github.com/john1hsu/communication-graph/id/verbal-aggression> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/de-escalation> .
   <https://github.com/john1hsu/communication-graph/id/vergauwe-et-al-2018> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> .
   <https://github.com/john1hsu/communication-graph/id/vergauwe-et-al-2018> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/executive-presence> .
