@@ -12,9 +12,7 @@ _No results._
 
 _Which written skills or dispositions have no technique, framework or principle that develops them?_ — `queries/02-skills-without-practice.rq`
 
-| skill | type |
-|---|---|
-| `cm:vocal-delivery` | cmo:Skill |
+_No results._
 
 ## Situations, channels and formats with no guidance (gap)
 
@@ -32,6 +30,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:concise-writing` | 3 | Information overload, subtraction-neglect, wordiness |
 | `cm:paramedic-method` | 3 | Concise writing, official-style, wordiness |
 | `cm:self-recording-playback` | 3 | Gesturing while speaking, Public speaking anxiety, public-speaking |
+| `cm:acoustic-speech-analysis-coaching` | 2 | Vocal delivery, monotone-delivery |
 | `cm:culture-assimilator` | 2 | Cultural intelligence, Intercultural competence |
 | `cm:describe-analyze-evaluate` | 2 | Ethnocentrism, Intercultural competence |
 | `cm:facilitation` | 2 | Interrupting, unequal-participation |
@@ -57,9 +56,8 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:charismatic-leadership-tactics` | 1 | Executive presence |
 | `cm:communicating-uncertainty` | 1 | vague-probability-language |
 | `cm:considering-others-contributions-first` | 1 | Egocentric bias |
-| `cm:conversational-receptiveness` | 1 | Defensiveness |
 
-…and 29 more.
+…and 30 more.
 
 ## Toolkit by situation
 
@@ -98,7 +96,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:email` | `cm:pragmatics` |
 | `cm:email` | `cm:rapport` |
 
-…and 76 more.
+…and 77 more.
 
 ## Myths and contested advice
 
@@ -128,6 +126,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:readability-formulas` | contested | `cm:redish-selzer-1985` |
 | `cm:power-posing` | failed-replication | `cm:crede-2019` |
 | `cm:power-posing` | failed-replication | `cm:ranehill-et-al-2015` |
+| `cm:acoustic-speech-analysis-coaching` | mixed |  |
 | `cm:active-listening` | mixed |  |
 | `cm:active-voice` | mixed | `cm:fear-and-loathing-of-the-english-passive` |
 | `cm:apology` | mixed |  |
@@ -135,9 +134,8 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:asynchronous-communication` | mixed |  |
 | `cm:batna` | mixed | `cm:schaerer-swaab-galinsky-2015` |
 | `cm:bulleted-and-numbered-lists` | mixed | `cm:columbia-accident-investigation-board-report` |
-| `cm:camera-level-gaze` | mixed |  |
 
-…and 101 more.
+…and 102 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -145,6 +143,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 
 | node | type |
 |---|---|
+| `cm:acoustic-speech-analysis-coaching` | cmo:Technique |
 | `cm:de-escalation` | cmo:Technique |
 | `cm:feedback-sandwich` | cmo:Technique |
 | `cm:gestures` | cmo:Skill |
@@ -174,9 +173,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:refutational-two-sided-messages` | cmo:Technique |
 | `cm:reservation-value` | cmo:Concept |
 | `cm:salary-negotiation` | cmo:Context |
-| `cm:scheduled-inbox-checks` | cmo:Technique |
 
-…and 18 more.
+…and 19 more.
 
 ## Orphan articles (gap)
 

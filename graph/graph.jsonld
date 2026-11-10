@@ -105,6 +105,97 @@
    ]
   },
   {
+   "@id": "cm:acoustic-speech-analysis-coaching",
+   "@type": "cmo:Technique",
+   "cmo:addresses": {
+    "@id": "cm:monotone-delivery"
+   },
+   "cmo:appliedIn": {
+    "@id": "cm:presentation"
+   },
+   "cmo:demonstratedBy": {
+    "@id": "cm:hincks-edlund-2009"
+   },
+   "cmo:develops": {
+    "@id": "cm:vocal-delivery"
+   },
+   "cmo:domain": "nonverbal-and-voice",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/acoustic-speech-analysis-coaching/example"
+   },
+   "cmo:file": "articles/nonverbal-and-voice/acoustic-speech-analysis-coaching.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/acoustic-speech-analysis-coaching/howto"
+   },
+   "cmo:level": "intermediate",
+   "cmo:requires": {
+    "@id": "cm:vocal-delivery"
+   },
+   "cmo:supportedBy": {
+    "@id": "cm:niebuhr-tegtmeier-schweisfurth-2019"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/acoustic-speech-analysis-coaching/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/acoustic-speech-analysis-coaching/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/acoustic-speech-analysis-coaching/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/acoustic-speech-analysis-coaching/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/acoustic-speech-analysis-coaching/s5"
+    }
+   ],
+   "rdfs:label": "Acoustic speech-analysis coaching",
+   "skos:altLabel": [
+    "AI speaker coaching",
+    "computer-assisted prosody training",
+    "speech-melody visualization training",
+    "visual pitch feedback"
+   ],
+   "skos:broader": {
+    "@id": "cm:presentation-rehearsal"
+   },
+   "skos:definition": "Practising spoken delivery with software that measures your voice (pitch range, speaking rate, pauses, fillers) and shows the result back to you, so you can widen a flat pitch range or steady a rushed pace against an objective reading rather than a hunch. Small controlled studies show measurable gains in pitch variation that carry over to a later presentation, but evidence that audiences notice is thin.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/nonverbal-and-voice"
+   },
+   "skos:prefLabel": "Acoustic speech-analysis coaching",
+   "skos:related": [
+    {
+     "@id": "cm:feedback"
+    },
+    {
+     "@id": "cm:filled-pauses"
+    },
+    {
+     "@id": "cm:paralanguage"
+    },
+    {
+     "@id": "cm:self-recording-playback"
+    },
+    {
+     "@id": "cm:silence-and-pauses"
+    },
+    {
+     "@id": "cm:thought-groups"
+    },
+    {
+     "@id": "cm:vocal-delivery"
+    }
+   ]
+  },
+  {
    "@id": "cm:active-listening",
    "@type": "cmo:Skill",
    "cmo:addresses": {
@@ -15999,6 +16090,107 @@
    "schema:text": "Close by naming what the group will do with the ideas - prioritise them, assign owners or feed them into a decision - and debrief briefly with a co-host on how the process went."
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/acoustic-speech-analysis-coaching/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:acoustic-speech-analysis-coaching"
+   },
+   "rdfs:label": "Am I training one parameter at a time, or chasing every number the tool shows?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/acoustic-speech-analysis-coaching/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:acoustic-speech-analysis-coaching"
+   },
+   "rdfs:label": "Did I drill sentences from my real talk rather than generic exercises?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/acoustic-speech-analysis-coaching/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:acoustic-speech-analysis-coaching"
+   },
+   "rdfs:label": "Did I check the recording by ear, or with a colleague, to confirm the change sounds natural and not exaggerated?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/acoustic-speech-analysis-coaching/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:acoustic-speech-analysis-coaching"
+   },
+   "rdfs:label": "Is my extra pitch or volume landing on the words that carry the point?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/acoustic-speech-analysis-coaching/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "She records a baseline in a speech-analysis tool, sees a narrow pitch range and a pace near the top of the band, then drills the six sentences carrying her figures over two weeks, watching the meter as she lifts the key numbers. In the meeting she slows down on the 12% saving and her voice rises on it.",
+   "cmo:before": "She rehearses by reading her notes aloud twice. In the meeting every figure, including a 12% cost saving, sits on the same note and pace, and a director later asks whether the savings were mentioned.",
+   "cmo:situation": "An operations manager will present a quarterly results update to the leadership team; colleagues say she sounds flat.",
+   "cmo:why": "An objective, in-the-moment reading shows a habit she could not hear in herself, and short targeted drills on her own sentences carried over to the real talk."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/acoustic-speech-analysis-coaching/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Acoustic speech-analysis coaching",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/acoustic-speech-analysis-coaching/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/acoustic-speech-analysis-coaching/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/acoustic-speech-analysis-coaching/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/acoustic-speech-analysis-coaching/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/acoustic-speech-analysis-coaching/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/acoustic-speech-analysis-coaching/howto/6"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/acoustic-speech-analysis-coaching/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Record a baseline of three to five minutes of a real upcoming talk and note the tool's readings for pitch variation, pace and fillers."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/acoustic-speech-analysis-coaching/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Pick one parameter to train, such as a flat pitch range or a pace above the tool's recommended band, and ignore the rest for now."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/acoustic-speech-analysis-coaching/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Pull out five to ten sentences from your own talk that carry the key points, and decide which word in each should stand out."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/acoustic-speech-analysis-coaching/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Repeat each sentence aloud while glancing at the live meter, aiming to push the reading past your baseline without the sentence sounding forced."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/acoustic-speech-analysis-coaching/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Spread the drills over several short sessions across a few weeks rather than one long cram."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/acoustic-speech-analysis-coaching/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "Deliver a full run-through, compare the readings with your baseline, and listen to the recording yourself or with a colleague to check it still sounds natural."
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/active-listening/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -23343,6 +23535,76 @@
    "dcterms:title": "There's a Better Way to Brainstorm",
    "schema:url": {
     "@id": "https://psychologicalscience.org/?p=121811"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/acoustic-speech-analysis-coaching/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Rebecca Hincks & Jens Edlund, Language Learning & Technology 13(3), 32-50, 2009, hdl:10125/44190 (CORE open-access copy)",
+   "dcterms:title": "Promoting Increased Pitch Variation in Oral Presentations with Transient Visual Feedback",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/84321184.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/acoustic-speech-analysis-coaching/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Oliver Niebuhr, Silke Tegtmeier & Tim Schweisfurth, Frontiers in Communication 4:12, 2019",
+   "dcterms:title": "Female Speakers Benefit More Than Male Speakers From Prosodic Charisma Training: A Before-After Analysis of 12-Weeks and 4-h Courses",
+   "schema:url": {
+    "@id": "https://public-pages-files-2025.frontiersin.org/journals/communication/articles/10.3389/fcomm.2019.00012/text"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/acoustic-speech-analysis-coaching/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "M. Amrate & P-h. Tsai, ReCALL, 2024, doi:10.1017/S0958344024000181 (Cambridge University Press)",
+   "dcterms:title": "Computer-assisted pronunciation training: A systematic review",
+   "schema:url": {
+    "@id": "https://core-prod.cambridgecore.org/core/services/aop-cambridge-core/content/view/71E786F7DFC99727837909FDED7A2320/S0958344024000181a.pdf/computer-assisted-pronunciation-training-a-systematic-review.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/acoustic-speech-analysis-coaching/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Toyama & Hori, Frontiers in Education 10:1552470, 2025 (mini review)",
+   "dcterms:title": "Technology-enhanced multimodal approaches in classroom L2 pronunciation training",
+   "schema:url": {
+    "@id": "https://www.frontiersin.org/articles/10.3389/feduc.2025.1552470/full"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/acoustic-speech-analysis-coaching/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "community",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Microsoft Support (PowerPoint product documentation)",
+   "dcterms:title": "Suggestions from Speaker Coach",
+   "schema:url": {
+    "@id": "https://support.microsoft.com/en-us/powerpoint/suggestions-from-speaker-coach"
    }
   },
   {

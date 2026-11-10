@@ -1230,6 +1230,29 @@ Ask yourself:
 
 ## nonverbal-and-voice
 
+### [Acoustic speech-analysis coaching](../articles/nonverbal-and-voice/acoustic-speech-analysis-coaching.md) — Technique
+
+1. Record a baseline of three to five minutes of a real upcoming talk and note the tool's readings for pitch variation, pace and fillers.
+2. Pick one parameter to train, such as a flat pitch range or a pace above the tool's recommended band, and ignore the rest for now.
+3. Pull out five to ten sentences from your own talk that carry the key points, and decide which word in each should stand out.
+4. Repeat each sentence aloud while glancing at the live meter, aiming to push the reading past your baseline without the sentence sounding forced.
+5. Spread the drills over several short sessions across a few weeks rather than one long cram.
+6. Deliver a full run-through, compare the readings with your baseline, and listen to the recording yourself or with a colleague to check it still sounds natural.
+
+*An operations manager will present a quarterly results update to the leadership team; colleagues say she sounds flat.*
+
+| Before | After |
+|---|---|
+| She rehearses by reading her notes aloud twice. In the meeting every figure, including a 12% cost saving, sits on the same note and pace, and a director later asks whether the savings were mentioned. | She records a baseline in a speech-analysis tool, sees a narrow pitch range and a pace near the top of the band, then drills the six sentences carrying her figures over two weeks, watching the meter as she lifts the key numbers. In the meeting she slows down on the 12% saving and her voice rises on it. |
+
+**Why:** An objective, in-the-moment reading shows a habit she could not hear in herself, and short targeted drills on her own sentences carried over to the real talk.
+
+Ask yourself:
+- Am I training one parameter at a time, or chasing every number the tool shows?
+- Did I drill sentences from my real talk rather than generic exercises?
+- Did I check the recording by ear, or with a colleague, to confirm the change sounds natural and not exaggerated?
+- Is my extra pitch or volume landing on the words that carry the point?
+
 ### [Camera-level gaze on video calls](../articles/nonverbal-and-voice/camera-level-gaze.md) — Technique
 
 1. Raise the camera to your eye level or slightly above, propping a laptop on books if you need to.

@@ -111,6 +111,118 @@
   ]
  },
  {
+  "id": "cm:acoustic-speech-analysis-coaching",
+  "title": "Acoustic speech-analysis coaching",
+  "aliases": [
+   "computer-assisted prosody training",
+   "visual pitch feedback",
+   "speech-melody visualization training",
+   "AI speaker coaching"
+  ],
+  "type": "Technique",
+  "domain": "nonverbal-and-voice",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/nonverbal-and-voice/acoustic-speech-analysis-coaching.md",
+  "created": "2026-11-10",
+  "summary": "Practising spoken delivery with software that measures your voice (pitch range, speaking rate, pauses, fillers) and shows the result back to you, so you can widen a flat pitch range or steady a rushed pace against an objective reading rather than a hunch. Small controlled studies show measurable gains in pitch variation that carry over to a later presentation, but evidence that audiences notice is thin.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:presentation-rehearsal"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:vocal-delivery"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:self-recording-playback"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:paralanguage"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:filled-pauses"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:thought-groups"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:silence-and-pauses"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:feedback"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:vocal-delivery"
+   },
+   {
+    "predicate": "cmo:develops",
+    "object": "cm:vocal-delivery",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:monotone-delivery",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:hincks-edlund-2009",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:niebuhr-tegtmeier-schweisfurth-2019",
+    "source": "s2",
+    "confidence": "low"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:presentation",
+    "source": "s1",
+    "confidence": "high"
+   }
+  ],
+  "selfCheck": [
+   "Am I training one parameter at a time, or chasing every number the tool shows?",
+   "Did I drill sentences from my real talk rather than generic exercises?",
+   "Did I check the recording by ear, or with a colleague, to confirm the change sounds natural and not exaggerated?",
+   "Is my extra pitch or volume landing on the words that carry the point?"
+  ],
+  "steps": [
+   "Record a baseline of three to five minutes of a real upcoming talk and note the tool's readings for pitch variation, pace and fillers.",
+   "Pick one parameter to train, such as a flat pitch range or a pace above the tool's recommended band, and ignore the rest for now.",
+   "Pull out five to ten sentences from your own talk that carry the key points, and decide which word in each should stand out.",
+   "Repeat each sentence aloud while glancing at the live meter, aiming to push the reading past your baseline without the sentence sounding forced.",
+   "Spread the drills over several short sessions across a few weeks rather than one long cram.",
+   "Deliver a full run-through, compare the readings with your baseline, and listen to the recording yourself or with a colleague to check it still sounds natural."
+  ],
+  "example": {
+   "situation": "An operations manager will present a quarterly results update to the leadership team; colleagues say she sounds flat.",
+   "before": "She rehearses by reading her notes aloud twice. In the meeting every figure, including a 12% cost saving, sits on the same note and pace, and a director later asks whether the savings were mentioned.",
+   "after": "She records a baseline in a speech-analysis tool, sees a narrow pitch range and a pace near the top of the band, then drills the six sentences carrying her figures over two weeks, watching the meter as she lifts the key numbers. In the meeting she slows down on the 12% saving and her voice rises on it.",
+   "why": "An objective, in-the-moment reading shows a habit she could not hear in herself, and short targeted drills on her own sentences carried over to the real talk."
+  },
+  "source_urls": [
+   "https://core.ac.uk/download/84321184.pdf",
+   "https://public-pages-files-2025.frontiersin.org/journals/communication/articles/10.3389/fcomm.2019.00012/text",
+   "https://core-prod.cambridgecore.org/core/services/aop-cambridge-core/content/view/71E786F7DFC99727837909FDED7A2320/S0958344024000181a.pdf/computer-assisted-pronunciation-training-a-systematic-review.pdf",
+   "https://www.frontiersin.org/articles/10.3389/feduc.2025.1552470/full",
+   "https://support.microsoft.com/en-us/powerpoint/suggestions-from-speaker-coach"
+  ]
+ },
+ {
   "id": "cm:active-listening",
   "title": "Active listening",
   "aliases": [
