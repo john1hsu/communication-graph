@@ -1202,6 +1202,31 @@ Ask yourself:
 
 ## persuasion-and-influence
 
+### [Charismatic leadership tactics](../articles/persuasion-and-influence/charismatic-leadership-tactics.md) — Technique
+
+1. Write the one decision or goal your talk is about, and check that you believe it and can back it with facts.
+2. Frame it with a contrast (what we will do and not do, or where we are versus where we are going) and a three-part list of reasons or steps.
+3. Add one short, true story or anecdote and at most one metaphor that makes the abstract point concrete.
+4. State the shared stake and the values involved, set a high but credible expectation, and say plainly that you are confident the group can meet it.
+5. Use one rhetorical question to bring the audience into the problem, then answer it.
+6. Rehearse aloud on video with open gestures, varied facial expression and an animated voice; count the tactics you used and cut any that sound forced.
+7. Get feedback from a colleague on whether it sounded like you, and repeat over several weeks rather than cramming before one talk.
+
+*A team lead tells her group, at an all-hands, that the release date is moving up by three weeks.*
+
+| Before | After |
+|---|---|
+| So, leadership has asked us to pull the release forward to the 3rd. I know it's tight. Please update your estimates and let me know about any blockers. | We can keep shipping late fixes, or we can ship the thing customers keep asking for three weeks sooner - I'd rather we did the second. Last month a client told me she'd delayed her own launch waiting on us. Three things make this doable: the test suite is green, scope is frozen, and the platform team is lending us two engineers. It's a stretch, and I'm confident this team can do it. What would you need from me to make the 3rd? |
+
+**Why:** The second version uses a contrast, a short true story, a three-part list, shared stakes, a high expectation, expressed confidence and a question - the same facts, but listeners can see why it matters and that the leader believes in it.
+
+Ask yourself:
+- Is every story, number and promise in my message true and something I would stand behind afterwards?
+- Did I use the tactics to clarify a substantive point, or did they replace one?
+- If I watched a recording of this, would the gestures and metaphors look natural or like self-parody?
+- Is this message going out by video or email, where the evidence for these tactics is weakest, and should I also send a clear written summary?
+- Have I followed the vision with the operational detail - who does what by when?
+
 ### [Credibility](../articles/persuasion-and-influence/credibility.md) — Concept
 
 Ask yourself:

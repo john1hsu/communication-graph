@@ -14,7 +14,6 @@ _Which written skills or dispositions have no technique, framework or principle 
 
 | skill | type |
 |---|---|
-| `cm:executive-presence` | cmo:Skill |
 | `cm:silence-and-pauses` | cmo:Skill |
 
 ## Situations, channels and formats with no guidance (gap)
@@ -54,13 +53,13 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:bulleted-and-numbered-lists` | 1 | wall-of-text |
 | `cm:camera-level-gaze` | 1 | Gaze and eye contact |
 | `cm:camera-optional-norm` | 1 | Zoom fatigue |
+| `cm:charismatic-leadership-tactics` | 1 | Executive presence |
 | `cm:communicating-uncertainty` | 1 | vague-probability-language |
 | `cm:considering-others-contributions-first` | 1 | Egocentric bias |
 | `cm:conversational-receptiveness` | 1 | Defensiveness |
 | `cm:de-escalation` | 1 | verbal-aggression |
-| `cm:feedback-sandwich` | 1 | Defensiveness |
 
-…and 23 more.
+…and 24 more.
 
 ## Toolkit by situation
 
@@ -99,7 +98,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:email` | `cm:rapport` |
 | `cm:email` | `cm:scheduled-inbox-checks` |
 
-…and 65 more.
+…and 66 more.
 
 ## Myths and contested advice
 
@@ -138,7 +137,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:bulleted-and-numbered-lists` | mixed | `cm:columbia-accident-investigation-board-report` |
 | `cm:camera-level-gaze` | mixed |  |
 
-…and 94 more.
+…and 96 more.
 
 ## Concepts with no recorded origin (gap)
 

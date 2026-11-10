@@ -862,6 +862,14 @@
 <https://github.com/john1hsu/communication-graph/id/silence-and-pauses#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/silence-and-pauses/s4> .
 <https://github.com/john1hsu/communication-graph/id/silence-and-pauses#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/silence-and-pauses/s5> .
 <https://github.com/john1hsu/communication-graph/id/silence-and-pauses#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/silence-and-pauses/s6> .
+<https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> .
+<https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/persuasion-and-influence/charismatic-leadership-tactics.md" .
+<https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/charismatic-leadership-tactics/s1> .
+<https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/charismatic-leadership-tactics/s2> .
+<https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/charismatic-leadership-tactics/s3> .
+<https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/charismatic-leadership-tactics/s4> .
+<https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/charismatic-leadership-tactics/s5> .
 <https://github.com/john1hsu/communication-graph/id/credibility#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/credibility#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/credibility> .
 <https://github.com/john1hsu/communication-graph/id/credibility#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/persuasion-and-influence/credibility.md" .
@@ -10608,6 +10616,125 @@
   <https://github.com/john1hsu/communication-graph/id/source/silence-and-pauses/s6> <https://schema.org/url> <https://www.toastmasters.org/magazine/magazine-issues/2025/august/lessons-from-world-champions> .
 }
 
+<https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics#graph> {
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Is every story, number and promise in my message true and something I would stand behind afterwards?" .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Did I use the tactics to clarify a substantive point, or did they replace one?" .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "If I watched a recording of this, would the gestures and metaphors look natural or like self-parody?" .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Is this message going out by video or email, where the evidence for these tactics is weakest, and should I also send a clear written summary?" .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics/check/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics/check/5> <http://www.w3.org/2000/01/rdf-schema#label> "Have I followed the vision with the operational detail - who does what by when?" .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics/check/5> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics/example> <https://github.com/john1hsu/communication-graph/ontology#after> "We can keep shipping late fixes, or we can ship the thing customers keep asking for three weeks sooner - I'd rather we did the second. Last month a client told me she'd delayed her own launch waiting on us. Three things make this doable: the test suite is green, scope is frozen, and the platform team is lending us two engineers. It's a stretch, and I'm confident this team can do it. What would you need from me to make the 3rd?" .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics/example> <https://github.com/john1hsu/communication-graph/ontology#before> "So, leadership has asked us to pull the release forward to the 3rd. I know it's tight. Please update your estimates and let me know about any blockers." .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "A team lead tells her group, at an all-hands, that the release date is moving up by three weeks." .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics/example> <https://github.com/john1hsu/communication-graph/ontology#why> "The second version uses a contrast, a short true story, a three-part list, shared stakes, a high expectation, expressed confidence and a question - the same facts, but listeners can see why it matters and that the leader believes in it." .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics/howto/1> <https://schema.org/text> "Write the one decision or goal your talk is about, and check that you believe it and can back it with facts." .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics/howto/2> <https://schema.org/text> "Frame it with a contrast (what we will do and not do, or where we are versus where we are going) and a three-part list of reasons or steps." .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics/howto/3> <https://schema.org/text> "Add one short, true story or anecdote and at most one metaphor that makes the abstract point concrete." .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics/howto/4> <https://schema.org/text> "State the shared stake and the values involved, set a high but credible expectation, and say plainly that you are confident the group can meet it." .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics/howto/5> <https://schema.org/text> "Use one rhetorical question to bring the audience into the problem, then answer it." .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics/howto/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics/howto/6> <https://schema.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics/howto/6> <https://schema.org/text> "Rehearse aloud on video with open gestures, varied facial expression and an animated voice; count the tactics you used and cut any that sound forced." .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics/howto/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics/howto/7> <https://schema.org/position> "7"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics/howto/7> <https://schema.org/text> "Get feedback from a colleague on whether it sounded like you, and repeat over several weeks rather than cramming before one talk." .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics/howto> <https://schema.org/name> "Charismatic leadership tactics" .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics/howto/1> .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics/howto/2> .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics/howto/3> .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics/howto/4> .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics/howto/5> .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics/howto/6> .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics/howto/7> .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> <http://purl.org/dc/terms/created> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Technique> .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> <http://www.w3.org/2000/01/rdf-schema#label> "Charismatic leadership tactics" .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> <http://www.w3.org/2004/02/skos/core#altLabel> "CLTs" .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> <http://www.w3.org/2004/02/skos/core#altLabel> "charisma training" .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> <http://www.w3.org/2004/02/skos/core#altLabel> "teachable charisma" .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/persuasion> .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> <http://www.w3.org/2004/02/skos/core#definition> "A trainable set of nine verbal tactics (metaphors, stories, contrasts, three-part lists, rhetorical questions, moral conviction, shared sentiment, high expectations and expressed confidence) and three nonverbal ones (gestures, facial expression, animated voice) that make a speaker's message more vivid and are rated by listeners as more charismatic and leader-like." .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/persuasion-and-influence> .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> <http://www.w3.org/2004/02/skos/core#prefLabel> "Charismatic leadership tactics" .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/credibility> .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/executive-presence> .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/gestures> .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/narrative-persuasion> .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/paralanguage> .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/self-recording-playback> .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/charismatic-leadership-tactics/s1> .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/charismatic-leadership-tactics/s2> .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/charismatic-leadership-tactics/s3> .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/charismatic-leadership-tactics/s4> .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/charismatic-leadership-tactics/s5> .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/presentation> .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/ernst-et-al-2021> .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/vergauwe-et-al-2018> .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/antonakis-fenley-liechti-2011> .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> <https://github.com/john1hsu/communication-graph/ontology#develops> <https://github.com/john1hsu/communication-graph/id/executive-presence> .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> <https://github.com/john1hsu/communication-graph/ontology#domain> "persuasion-and-influence" .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics/example> .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/persuasion-and-influence/charismatic-leadership-tactics.md" .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics/howto> .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/john-antonakis> .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/meslec-et-al-2020> .
+  <https://github.com/john1hsu/communication-graph/id/source/charismatic-leadership-tactics/s1> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/charismatic-leadership-tactics/s1> <http://purl.org/dc/terms/publisher> "John Antonakis, Marika Fenley & Sue Liechti, University of Lausanne; Academy of Management Learning & Education 10(3), 374-396, 2011 (authors' accepted manuscript, CORE)" .
+  <https://github.com/john1hsu/communication-graph/id/source/charismatic-leadership-tactics/s1> <http://purl.org/dc/terms/title> "Can charisma be taught? Tests of two interventions" .
+  <https://github.com/john1hsu/communication-graph/id/source/charismatic-leadership-tactics/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/charismatic-leadership-tactics/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/charismatic-leadership-tactics/s1> <https://schema.org/url> <https://core.ac.uk/download/18167875.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/charismatic-leadership-tactics/s2> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/charismatic-leadership-tactics/s2> <http://purl.org/dc/terms/publisher> "British Psychological Society Research Digest (Alex Fradera), 25 October 2011" .
+  <https://github.com/john1hsu/communication-graph/id/source/charismatic-leadership-tactics/s2> <http://purl.org/dc/terms/title> "Charisma involves teachable behaviours" .
+  <https://github.com/john1hsu/communication-graph/id/source/charismatic-leadership-tactics/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/charismatic-leadership-tactics/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+  <https://github.com/john1hsu/communication-graph/id/source/charismatic-leadership-tactics/s2> <https://schema.org/url> <https://www.bps.org.uk/research-digest/charisma-involves-teachable-behaviours> .
+  <https://github.com/john1hsu/communication-graph/id/source/charismatic-leadership-tactics/s3> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/charismatic-leadership-tactics/s3> <http://purl.org/dc/terms/publisher> "Brittany A. Ernst, George C. Banks et al., The Leadership Quarterly, 2021 (WU Vienna research portal record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/charismatic-leadership-tactics/s3> <http://purl.org/dc/terms/title> "Virtual charismatic leadership and signaling theory: A prospective meta-analysis in five countries" .
+  <https://github.com/john1hsu/communication-graph/id/source/charismatic-leadership-tactics/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/charismatic-leadership-tactics/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/charismatic-leadership-tactics/s3> <https://schema.org/url> <https://research.wu.ac.at/de/publications/virtual-charismatic-leadership-and-signaling-theory-a-prospective-4/> .
+  <https://github.com/john1hsu/communication-graph/id/source/charismatic-leadership-tactics/s4> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/charismatic-leadership-tactics/s4> <http://purl.org/dc/terms/publisher> "Nicoleta Meslec, Petru L. Curseu, Oana C. Fodor & Renata Kenda, The Leadership Quarterly 31(6), 101423, 2020 (Open Universiteit research portal record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/charismatic-leadership-tactics/s4> <http://purl.org/dc/terms/title> "Effects of charismatic leadership and rewards on individual performance" .
+  <https://github.com/john1hsu/communication-graph/id/source/charismatic-leadership-tactics/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/charismatic-leadership-tactics/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/charismatic-leadership-tactics/s4> <https://schema.org/url> <https://research.ou.nl/en/publications/effects-of-charismatic-leadership-and-rewards-on-individual-perfo/> .
+  <https://github.com/john1hsu/communication-graph/id/source/charismatic-leadership-tactics/s5> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/charismatic-leadership-tactics/s5> <http://purl.org/dc/terms/publisher> "American Psychological Association, May 2017" .
+  <https://github.com/john1hsu/communication-graph/id/source/charismatic-leadership-tactics/s5> <http://purl.org/dc/terms/title> "Can leaders be too charismatic? (press release on Vergauwe et al., Journal of Personality and Social Psychology)" .
+  <https://github.com/john1hsu/communication-graph/id/source/charismatic-leadership-tactics/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/charismatic-leadership-tactics/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+  <https://github.com/john1hsu/communication-graph/id/source/charismatic-leadership-tactics/s5> <https://schema.org/url> <https://www.apa.org/news/press/releases/2017/05/charismatic-leaders> .
+}
+
 <https://github.com/john1hsu/communication-graph/id/credibility#graph> {
   <https://github.com/john1hsu/communication-graph/id/credibility/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
   <https://github.com/john1hsu/communication-graph/id/credibility/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "If I asked two trusted colleagues how credible I am on this topic, would their answer match mine?" .
@@ -16240,6 +16367,9 @@
   <https://github.com/john1hsu/communication-graph/id/anseel-et-al-2015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/anseel-et-al-2015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/anseel-et-al-2015> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/receiving-feedback> .
+  <https://github.com/john1hsu/communication-graph/id/antonakis-fenley-liechti-2011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/antonakis-fenley-liechti-2011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
+  <https://github.com/john1hsu/communication-graph/id/antonakis-fenley-liechti-2011> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> .
   <https://github.com/john1hsu/communication-graph/id/antonakis-fenley-liechti-2011> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/executive-presence> .
   <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -16353,6 +16483,7 @@
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/channel-selection> .
+  <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/clarity> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/communicating-uncertainty> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/concise-writing> .
@@ -16639,6 +16770,17 @@
   <https://github.com/john1hsu/communication-graph/id/channel-selection> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/video-call-communication> .
   <https://github.com/john1hsu/communication-graph/id/channel-selection> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/common-ground> .
   <https://github.com/john1hsu/communication-graph/id/channel-selection> <https://github.com/john1hsu/communication-graph/ontology#introducedIn> <https://github.com/john1hsu/communication-graph/id/message-equivocality-media-selection-and-manager-performance> .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics/check/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
+  <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/persuasion> .
   <https://github.com/john1hsu/communication-graph/id/charles-h-green> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/charles-h-green> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/charles-h-green> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/trusted-advisor> .
@@ -16783,6 +16925,7 @@
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/batna> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/camera-level-gaze> .
+  <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/concession-strategy> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/considering-others-contributions-first> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> .
@@ -16954,6 +17097,7 @@
   <https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
   <https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/persuasion> .
   <https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/carl-hovland> .
+  <https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> .
   <https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/elevator-pitch> .
   <https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/executive-presence> .
   <https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/filled-pauses> .
@@ -17387,6 +17531,7 @@
   <https://github.com/john1hsu/communication-graph/id/erin-meyer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/erin-meyer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/erin-meyer> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/the-culture-map> .
+  <https://github.com/john1hsu/communication-graph/id/ernst-et-al-2021> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> .
   <https://github.com/john1hsu/communication-graph/id/erving-goffman> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/erving-goffman> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
   <https://github.com/john1hsu/communication-graph/id/erving-goffman> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/mea-culpa> .
@@ -17428,6 +17573,8 @@
   <https://github.com/john1hsu/communication-graph/id/executive-presence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/executive-presence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/executive-presence> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/impression-management> .
+  <https://github.com/john1hsu/communication-graph/id/executive-presence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> .
+  <https://github.com/john1hsu/communication-graph/id/executive-presence> <https://github.com/john1hsu/communication-graph/ontology#developedBy> <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> .
   <https://github.com/john1hsu/communication-graph/id/executive-summary> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
   <https://github.com/john1hsu/communication-graph/id/executive-summary> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/executive-briefing> .
   <https://github.com/john1hsu/communication-graph/id/executive-summary> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/pyramid-principle> .
@@ -17692,6 +17839,7 @@
   <https://github.com/john1hsu/communication-graph/id/gestures> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
   <https://github.com/john1hsu/communication-graph/id/gestures> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
   <https://github.com/john1hsu/communication-graph/id/gestures> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> .
+  <https://github.com/john1hsu/communication-graph/id/gestures> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> .
   <https://github.com/john1hsu/communication-graph/id/gestures> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-load> .
   <https://github.com/john1hsu/communication-graph/id/gestures> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/power-posing> .
   <https://github.com/john1hsu/communication-graph/id/gestures> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/presentation> .
@@ -18081,6 +18229,7 @@
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/trusted-advisor> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/batna> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/camera-level-gaze> .
+  <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/concession-strategy> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/considering-others-contributions-first> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> .
@@ -18202,6 +18351,9 @@
   <https://github.com/john1hsu/communication-graph/id/job-interview> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/camera-level-gaze> .
   <https://github.com/john1hsu/communication-graph/id/job-interview> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/paralanguage> .
   <https://github.com/john1hsu/communication-graph/id/job-interview> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/power-posing> .
+  <https://github.com/john1hsu/communication-graph/id/john-antonakis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/john-antonakis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+  <https://github.com/john1hsu/communication-graph/id/john-antonakis> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> .
   <https://github.com/john1hsu/communication-graph/id/john-hattie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/john-hattie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/john-hattie> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> .
@@ -18529,6 +18681,7 @@
   <https://github.com/john1hsu/communication-graph/id/memorandum> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
   <https://github.com/john1hsu/communication-graph/id/menzel-carrell-1994> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> .
   <https://github.com/john1hsu/communication-graph/id/mertes-kunz-huffmeier-2023> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/concession-strategy> .
+  <https://github.com/john1hsu/communication-graph/id/meslec-et-al-2020> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> .
   <https://github.com/john1hsu/communication-graph/id/message-equivocality-media-selection-and-manager-performance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/message-equivocality-media-selection-and-manager-performance> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
   <https://github.com/john1hsu/communication-graph/id/message-equivocality-media-selection-and-manager-performance> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
@@ -18645,6 +18798,7 @@
   <https://github.com/john1hsu/communication-graph/id/narrative-persuasion> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
   <https://github.com/john1hsu/communication-graph/id/narrative-persuasion> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
   <https://github.com/john1hsu/communication-graph/id/narrative-persuasion> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/persuasion> .
+  <https://github.com/john1hsu/communication-graph/id/narrative-persuasion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> .
   <https://github.com/john1hsu/communication-graph/id/narrative-persuasion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/elevator-pitch> .
   <https://github.com/john1hsu/communication-graph/id/narrative-persuasion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/monroes-motivated-sequence> .
   <https://github.com/john1hsu/communication-graph/id/narrative-persuasion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/persuasion> .
@@ -18855,6 +19009,7 @@
   <https://github.com/john1hsu/communication-graph/id/paralanguage> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/maclay-osgood-1959> .
   <https://github.com/john1hsu/communication-graph/id/paralanguage> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/silence-and-pauses> .
   <https://github.com/john1hsu/communication-graph/id/paralanguage> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/wait-time> .
+  <https://github.com/john1hsu/communication-graph/id/paralanguage> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> .
   <https://github.com/john1hsu/communication-graph/id/paralanguage> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/de-escalation> .
   <https://github.com/john1hsu/communication-graph/id/paralanguage> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/executive-presence> .
   <https://github.com/john1hsu/communication-graph/id/paralanguage> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/maclay-osgood-1959> .
@@ -18969,6 +19124,7 @@
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
+  <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> .
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/credibility> .
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> .
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/elevator-pitch> .
@@ -18978,6 +19134,7 @@
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/narrative-persuasion> .
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/refutational-two-sided-messages> .
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping> .
+  <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> .
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/credibility> .
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> .
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/elevator-pitch> .
@@ -19068,6 +19225,7 @@
   <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/public-speaking> .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> .
   <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/elevator-pitch> .
   <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/fm-6-0> .
   <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/gestures> .
@@ -19092,6 +19250,7 @@
   <https://github.com/john1hsu/communication-graph/id/presentation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/power-posing> .
   <https://github.com/john1hsu/communication-graph/id/presentation> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> .
   <https://github.com/john1hsu/communication-graph/id/presentation> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> .
+  <https://github.com/john1hsu/communication-graph/id/presentation> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> .
   <https://github.com/john1hsu/communication-graph/id/presentation> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/executive-presence> .
   <https://github.com/john1hsu/communication-graph/id/presentation> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/gestures> .
   <https://github.com/john1hsu/communication-graph/id/presentation> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> .
@@ -19466,6 +19625,7 @@
   <https://github.com/john1hsu/communication-graph/id/self-recording-playback> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/self-recording-playback> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/self-recording-playback> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/public-speaking> .
+  <https://github.com/john1hsu/communication-graph/id/self-recording-playback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> .
   <https://github.com/john1hsu/communication-graph/id/self-recording-playback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/presentation> .
   <https://github.com/john1hsu/communication-graph/id/selling-issues-to-top-management> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/selling-issues-to-top-management> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
@@ -19846,6 +20006,7 @@
   <https://github.com/john1hsu/communication-graph/id/vanessa-bohns> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/vanessa-bohns> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/email-urgency-bias-study> .
   <https://github.com/john1hsu/communication-graph/id/verbal-aggression> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/de-escalation> .
+  <https://github.com/john1hsu/communication-graph/id/vergauwe-et-al-2018> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> .
   <https://github.com/john1hsu/communication-graph/id/vergauwe-et-al-2018> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/executive-presence> .
   <https://github.com/john1hsu/communication-graph/id/victoria-medvec> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/victoria-medvec> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .

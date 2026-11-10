@@ -1941,6 +1941,131 @@
   ]
  },
  {
+  "id": "cm:charismatic-leadership-tactics",
+  "title": "Charismatic leadership tactics",
+  "aliases": [
+   "CLTs",
+   "charisma training",
+   "teachable charisma"
+  ],
+  "type": "Technique",
+  "domain": "persuasion-and-influence",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/persuasion-and-influence/charismatic-leadership-tactics.md",
+  "created": "2026-11-10",
+  "summary": "A trainable set of nine verbal tactics (metaphors, stories, contrasts, three-part lists, rhetorical questions, moral conviction, shared sentiment, high expectations and expressed confidence) and three nonverbal ones (gestures, facial expression, animated voice) that make a speaker's message more vivid and are rated by listeners as more charismatic and leader-like.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:persuasion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:executive-presence"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:narrative-persuasion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:gestures"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:paralanguage"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:credibility"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:presentation-rehearsal"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:self-recording-playback"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:audience-analysis"
+   },
+   {
+    "predicate": "cmo:develops",
+    "object": "cm:executive-presence",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:john-antonakis",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:antonakis-fenley-liechti-2011",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:meslec-et-al-2020",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:ernst-et-al-2021",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:vergauwe-et-al-2018",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:presentation",
+    "source": "s2",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Is every story, number and promise in my message true and something I would stand behind afterwards?",
+   "Did I use the tactics to clarify a substantive point, or did they replace one?",
+   "If I watched a recording of this, would the gestures and metaphors look natural or like self-parody?",
+   "Is this message going out by video or email, where the evidence for these tactics is weakest, and should I also send a clear written summary?",
+   "Have I followed the vision with the operational detail - who does what by when?"
+  ],
+  "steps": [
+   "Write the one decision or goal your talk is about, and check that you believe it and can back it with facts.",
+   "Frame it with a contrast (what we will do and not do, or where we are versus where we are going) and a three-part list of reasons or steps.",
+   "Add one short, true story or anecdote and at most one metaphor that makes the abstract point concrete.",
+   "State the shared stake and the values involved, set a high but credible expectation, and say plainly that you are confident the group can meet it.",
+   "Use one rhetorical question to bring the audience into the problem, then answer it.",
+   "Rehearse aloud on video with open gestures, varied facial expression and an animated voice; count the tactics you used and cut any that sound forced.",
+   "Get feedback from a colleague on whether it sounded like you, and repeat over several weeks rather than cramming before one talk."
+  ],
+  "example": {
+   "situation": "A team lead tells her group, at an all-hands, that the release date is moving up by three weeks.",
+   "before": "So, leadership has asked us to pull the release forward to the 3rd. I know it's tight. Please update your estimates and let me know about any blockers.",
+   "after": "We can keep shipping late fixes, or we can ship the thing customers keep asking for three weeks sooner - I'd rather we did the second. Last month a client told me she'd delayed her own launch waiting on us. Three things make this doable: the test suite is green, scope is frozen, and the platform team is lending us two engineers. It's a stretch, and I'm confident this team can do it. What would you need from me to make the 3rd?",
+   "why": "The second version uses a contrast, a short true story, a three-part list, shared stakes, a high expectation, expressed confidence and a question - the same facts, but listeners can see why it matters and that the leader believes in it."
+  },
+  "source_urls": [
+   "https://core.ac.uk/download/18167875.pdf",
+   "https://www.bps.org.uk/research-digest/charisma-involves-teachable-behaviours",
+   "https://research.wu.ac.at/de/publications/virtual-charismatic-leadership-and-signaling-theory-a-prospective-4/",
+   "https://research.ou.nl/en/publications/effects-of-charismatic-leadership-and-rewards-on-individual-perfo/",
+   "https://www.apa.org/news/press/releases/2017/05/charismatic-leaders"
+  ]
+ },
+ {
   "id": "cm:charles-osgood",
   "title": "Charles E. Osgood",
   "aliases": [
