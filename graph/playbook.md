@@ -1607,6 +1607,30 @@ Ask yourself:
 - Is my verdict on the recording closer to what a neutral colleague would say than to how nervous I felt while speaking?
 - Did I record a second run to check that the change actually happened?
 
+### [Signposting](../articles/presenting-and-public-speaking/signposting.md) — Technique
+
+1. Before drafting cues, write your talk's three to five main points as one-line headlines; signposts can only show a structure that already exists.
+2. In the opening, give a one-sentence preview that names the points in order ("I'll cover the problem, two options, and what I need from you").
+3. At every move between main points, say a full transition sentence that closes the last point and names the next one ("That's the cost; now the timeline").
+4. Flag the one or two things the audience must remember with an explicit emphasis cue ("If you keep one number from today, it's this").
+5. After a dense or long section, give a one-sentence internal summary before moving on.
+6. Close by reviewing the same points you previewed, in the same words, then state the decision or action you need.
+7. In rehearsal, check that each cue is spoken aloud and matches the slide or section it introduces.
+
+*An operations lead has eight minutes in a weekly leadership meeting to explain why a warehouse migration slipped and what she needs.*
+
+| Before | After |
+|---|---|
+| So, the migration. We had some vendor problems in August, and the scanners came late, and then there was the labour issue, and also the cutover weekend clashed with the audit... anyway, the new date is probably mid-December, and it'd help to get some budget for temp staff. | I'll cover three things: why we slipped, the new date, and one decision I need from you. First, why we slipped: two causes - late scanners and the audit clash. That's the cause; second, the new date: 14 December, with one risk. Finally, the decision: approve temp staff for cutover week. So - two causes, a new date, and one approval. |
+
+**Why:** The preview lets listeners hold a three-part map, the transitions mark when each part ends, and the closing review repeats the structure, so executives who drift for a minute can rejoin and the request is not lost at the end.
+
+Ask yourself:
+- Could someone who looked at their phone for a minute tell which part of my talk I'm in when they look up?
+- Did I preview my main points at the start and review the same points at the end?
+- Does each move between points have a spoken transition, not just a new slide?
+- Have I explicitly flagged the one thing I most need the audience to remember or decide?
+
 ## questioning-and-conversation
 
 ### [Conversational receptiveness](../articles/questioning-and-conversation/conversational-receptiveness.md) — Technique

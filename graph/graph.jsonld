@@ -13322,6 +13322,99 @@
    ]
   },
   {
+   "@id": "cm:signposting",
+   "@type": "cmo:Technique",
+   "cmo:appliedIn": {
+    "@id": "cm:presentation"
+   },
+   "cmo:domain": "presenting-and-public-speaking",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/signposting/example"
+   },
+   "cmo:explainedBy": {
+    "@id": "cm:cognitive-load"
+   },
+   "cmo:file": "articles/presenting-and-public-speaking/signposting.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/signposting/howto"
+   },
+   "cmo:level": "introductory",
+   "cmo:supportedBy": [
+    {
+     "@id": "cm:alpizar-adesope-wong-2020"
+    },
+    {
+     "@id": "cm:titsworth-2001"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/signposting/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/signposting/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/signposting/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/signposting/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/signposting/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/signposting/s6"
+    }
+   ],
+   "rdfs:label": "Signposting",
+   "skos:altLabel": [
+    "internal previews and summaries",
+    "organizational cues",
+    "signposts",
+    "verbal signposts",
+    "verbal transitions"
+   ],
+   "skos:broader": [
+    {
+     "@id": "cm:message-structure"
+    },
+    {
+     "@id": "cm:public-speaking"
+    }
+   ],
+   "skos:definition": "Using short spoken cues - previews, transitions, internal summaries and words such as \"first\", \"next\" or \"the key point is\" - to tell listeners where a talk is going, where they are now and what matters most, so they can follow and remember its structure.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/presenting-and-public-speaking"
+   },
+   "skos:prefLabel": "Signposting",
+   "skos:related": [
+    {
+     "@id": "cm:bottom-line-up-front"
+    },
+    {
+     "@id": "cm:presentation"
+    },
+    {
+     "@id": "cm:presentation-rehearsal"
+    },
+    {
+     "@id": "cm:pyramid-principle"
+    },
+    {
+     "@id": "cm:summarizing"
+    },
+    {
+     "@id": "cm:thought-groups"
+    }
+   ]
+  },
+  {
    "@id": "cm:silence-and-pauses",
    "@type": "cmo:Skill",
    "cmo:addresses": [
@@ -22403,6 +22496,116 @@
    "@type": "schema:HowToStep",
    "schema:position": 6,
    "schema:text": "Agree default reply windows for each channel with your team (for example chat same day, email within two working days) and write them in the team charter so individual messages only need to flag exceptions."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/signposting/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:signposting"
+   },
+   "rdfs:label": "Could someone who looked at their phone for a minute tell which part of my talk I'm in when they look up?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/signposting/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:signposting"
+   },
+   "rdfs:label": "Did I preview my main points at the start and review the same points at the end?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/signposting/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:signposting"
+   },
+   "rdfs:label": "Does each move between points have a spoken transition, not just a new slide?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/signposting/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:signposting"
+   },
+   "rdfs:label": "Have I explicitly flagged the one thing I most need the audience to remember or decide?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/signposting/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "I'll cover three things: why we slipped, the new date, and one decision I need from you. First, why we slipped: two causes - late scanners and the audit clash. That's the cause; second, the new date: 14 December, with one risk. Finally, the decision: approve temp staff for cutover week. So - two causes, a new date, and one approval.",
+   "cmo:before": "So, the migration. We had some vendor problems in August, and the scanners came late, and then there was the labour issue, and also the cutover weekend clashed with the audit... anyway, the new date is probably mid-December, and it'd help to get some budget for temp staff.",
+   "cmo:situation": "An operations lead has eight minutes in a weekly leadership meeting to explain why a warehouse migration slipped and what she needs.",
+   "cmo:why": "The preview lets listeners hold a three-part map, the transitions mark when each part ends, and the closing review repeats the structure, so executives who drift for a minute can rejoin and the request is not lost at the end."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/signposting/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Signposting",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/signposting/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/signposting/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/signposting/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/signposting/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/signposting/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/signposting/howto/6"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/signposting/howto/7"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/signposting/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Before drafting cues, write your talk's three to five main points as one-line headlines; signposts can only show a structure that already exists."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/signposting/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "In the opening, give a one-sentence preview that names the points in order (\"I'll cover the problem, two options, and what I need from you\")."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/signposting/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "At every move between main points, say a full transition sentence that closes the last point and names the next one (\"That's the cost; now the timeline\")."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/signposting/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Flag the one or two things the audience must remember with an explicit emphasis cue (\"If you keep one number from today, it's this\")."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/signposting/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "After a dense or long section, give a one-sentence internal summary before moving on."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/signposting/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "Close by reviewing the same points you previewed, in the same words, then state the decision or action you need."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/signposting/howto/7",
+   "@type": "schema:HowToStep",
+   "schema:position": 7,
+   "schema:text": "In rehearsal, check that each cue is spoken aloud and matches the slide or section it introduces."
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/silence-and-pauses/check/1",
@@ -34192,6 +34395,90 @@
    "dcterms:title": "Answering emails out of hours: important addition to our email signatures",
    "schema:url": {
     "@id": "https://www.gla.ac.uk/schools/healthwellbeing/news/hawkeye2018onwards/july2019/headline_653845_en.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/signposting/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Titsworth, Communication Education 50(4), 283-297, 2001 (Taylor & Francis abstract)",
+   "dcterms:title": "The effects of teacher immediacy, use of organizational lecture cues, and students' notetaking on cognitive learning",
+   "schema:url": {
+    "@id": "https://informahealthcare.com/doi/abs/10.1080/03634520109379256"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/signposting/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Titsworth, Communication Education, 2004 (Taylor & Francis abstract)",
+   "dcterms:title": "Students' notetaking: The effects of teacher immediacy and clarity",
+   "schema:url": {
+    "@id": "https://informahealthcare.com/doi/abs/10.1080/0363452032000305922"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/signposting/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Alpizar, Adesope & Wong, Educational Technology Research and Development 68(5), 2095-2119, 2020 (Washington State University research repository)",
+   "dcterms:title": "A meta-analysis of signaling principle in multimedia learning environments",
+   "schema:url": {
+    "@id": "https://rex.libraries.wsu.edu/esploro/outputs/journalArticle/A-meta-analysis-of-signaling-principle-in/99900601052901842"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/signposting/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Quality Improvement Center for Workforce Development (M. Paul, University of Nebraska-Lincoln), 2021",
+   "dcterms:title": "Umbrella Summary: Signaling in Training",
+   "schema:url": {
+    "@id": "https://www.qic-wd.org/sites/default/files/Umbrella%20Summary%20-%20Signaling%20in%20Training%20111021.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/signposting/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Center for Writing and Speaking, Agnes Scott College",
+   "dcterms:title": "Speech Transitions",
+   "schema:url": {
+    "@id": "https://agnesscott.edu/center-for-writing-and-speaking/handouts/speech-transitions.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/signposting/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Bedford/St. Martin's (Macmillan Learning), communication textbook",
+   "dcterms:title": "Connecting Your Points (Communication and You, ch. 12)",
+   "schema:url": {
+    "@id": "https://digfir-published.macmillanusa.com/comm_and_you/comm_and_you_ch12_7.html"
    }
   },
   {

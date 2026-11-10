@@ -7857,6 +7857,88 @@
 <https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/digital-and-async-communication/setting-reply-time-expectations.md" .
 <https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations/howto> .
 <https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/signposting/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/signposting/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Could someone who looked at their phone for a minute tell which part of my talk I'm in when they look up?" .
+<https://github.com/john1hsu/communication-graph/id/signposting/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/signposting> .
+<https://github.com/john1hsu/communication-graph/id/signposting/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/signposting/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Did I preview my main points at the start and review the same points at the end?" .
+<https://github.com/john1hsu/communication-graph/id/signposting/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/signposting> .
+<https://github.com/john1hsu/communication-graph/id/signposting/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/signposting/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Does each move between points have a spoken transition, not just a new slide?" .
+<https://github.com/john1hsu/communication-graph/id/signposting/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/signposting> .
+<https://github.com/john1hsu/communication-graph/id/signposting/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/signposting/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Have I explicitly flagged the one thing I most need the audience to remember or decide?" .
+<https://github.com/john1hsu/communication-graph/id/signposting/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/signposting> .
+<https://github.com/john1hsu/communication-graph/id/signposting/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+<https://github.com/john1hsu/communication-graph/id/signposting/example> <https://github.com/john1hsu/communication-graph/ontology#after> "I'll cover three things: why we slipped, the new date, and one decision I need from you. First, why we slipped: two causes - late scanners and the audit clash. That's the cause; second, the new date: 14 December, with one risk. Finally, the decision: approve temp staff for cutover week. So - two causes, a new date, and one approval." .
+<https://github.com/john1hsu/communication-graph/id/signposting/example> <https://github.com/john1hsu/communication-graph/ontology#before> "So, the migration. We had some vendor problems in August, and the scanners came late, and then there was the labour issue, and also the cutover weekend clashed with the audit... anyway, the new date is probably mid-December, and it'd help to get some budget for temp staff." .
+<https://github.com/john1hsu/communication-graph/id/signposting/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "An operations lead has eight minutes in a weekly leadership meeting to explain why a warehouse migration slipped and what she needs." .
+<https://github.com/john1hsu/communication-graph/id/signposting/example> <https://github.com/john1hsu/communication-graph/ontology#why> "The preview lets listeners hold a three-part map, the transitions mark when each part ends, and the closing review repeats the structure, so executives who drift for a minute can rejoin and the request is not lost at the end." .
+<https://github.com/john1hsu/communication-graph/id/signposting/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/signposting/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/signposting/howto/1> <https://schema.org/text> "Before drafting cues, write your talk's three to five main points as one-line headlines; signposts can only show a structure that already exists." .
+<https://github.com/john1hsu/communication-graph/id/signposting/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/signposting/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/signposting/howto/2> <https://schema.org/text> "In the opening, give a one-sentence preview that names the points in order (\"I'll cover the problem, two options, and what I need from you\")." .
+<https://github.com/john1hsu/communication-graph/id/signposting/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/signposting/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/signposting/howto/3> <https://schema.org/text> "At every move between main points, say a full transition sentence that closes the last point and names the next one (\"That's the cost; now the timeline\")." .
+<https://github.com/john1hsu/communication-graph/id/signposting/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/signposting/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/signposting/howto/4> <https://schema.org/text> "Flag the one or two things the audience must remember with an explicit emphasis cue (\"If you keep one number from today, it's this\")." .
+<https://github.com/john1hsu/communication-graph/id/signposting/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/signposting/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/signposting/howto/5> <https://schema.org/text> "After a dense or long section, give a one-sentence internal summary before moving on." .
+<https://github.com/john1hsu/communication-graph/id/signposting/howto/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/signposting/howto/6> <https://schema.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/signposting/howto/6> <https://schema.org/text> "Close by reviewing the same points you previewed, in the same words, then state the decision or action you need." .
+<https://github.com/john1hsu/communication-graph/id/signposting/howto/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/signposting/howto/7> <https://schema.org/position> "7"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/signposting/howto/7> <https://schema.org/text> "In rehearsal, check that each cue is spoken aloud and matches the slide or section it introduces." .
+<https://github.com/john1hsu/communication-graph/id/signposting/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+<https://github.com/john1hsu/communication-graph/id/signposting/howto> <https://schema.org/name> "Signposting" .
+<https://github.com/john1hsu/communication-graph/id/signposting/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/signposting/howto/1> .
+<https://github.com/john1hsu/communication-graph/id/signposting/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/signposting/howto/2> .
+<https://github.com/john1hsu/communication-graph/id/signposting/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/signposting/howto/3> .
+<https://github.com/john1hsu/communication-graph/id/signposting/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/signposting/howto/4> .
+<https://github.com/john1hsu/communication-graph/id/signposting/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/signposting/howto/5> .
+<https://github.com/john1hsu/communication-graph/id/signposting/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/signposting/howto/6> .
+<https://github.com/john1hsu/communication-graph/id/signposting/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/signposting/howto/7> .
+<https://github.com/john1hsu/communication-graph/id/signposting> <http://purl.org/dc/terms/created> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/signposting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Technique> .
+<https://github.com/john1hsu/communication-graph/id/signposting> <http://www.w3.org/2000/01/rdf-schema#label> "Signposting" .
+<https://github.com/john1hsu/communication-graph/id/signposting> <http://www.w3.org/2004/02/skos/core#altLabel> "internal previews and summaries" .
+<https://github.com/john1hsu/communication-graph/id/signposting> <http://www.w3.org/2004/02/skos/core#altLabel> "organizational cues" .
+<https://github.com/john1hsu/communication-graph/id/signposting> <http://www.w3.org/2004/02/skos/core#altLabel> "signposts" .
+<https://github.com/john1hsu/communication-graph/id/signposting> <http://www.w3.org/2004/02/skos/core#altLabel> "verbal signposts" .
+<https://github.com/john1hsu/communication-graph/id/signposting> <http://www.w3.org/2004/02/skos/core#altLabel> "verbal transitions" .
+<https://github.com/john1hsu/communication-graph/id/signposting> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/message-structure> .
+<https://github.com/john1hsu/communication-graph/id/signposting> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/public-speaking> .
+<https://github.com/john1hsu/communication-graph/id/signposting> <http://www.w3.org/2004/02/skos/core#definition> "Using short spoken cues - previews, transitions, internal summaries and words such as \"first\", \"next\" or \"the key point is\" - to tell listeners where a talk is going, where they are now and what matters most, so they can follow and remember its structure." .
+<https://github.com/john1hsu/communication-graph/id/signposting> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/presenting-and-public-speaking> .
+<https://github.com/john1hsu/communication-graph/id/signposting> <http://www.w3.org/2004/02/skos/core#prefLabel> "Signposting" .
+<https://github.com/john1hsu/communication-graph/id/signposting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
+<https://github.com/john1hsu/communication-graph/id/signposting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> .
+<https://github.com/john1hsu/communication-graph/id/signposting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/presentation> .
+<https://github.com/john1hsu/communication-graph/id/signposting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/pyramid-principle> .
+<https://github.com/john1hsu/communication-graph/id/signposting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/summarizing> .
+<https://github.com/john1hsu/communication-graph/id/signposting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/thought-groups> .
+<https://github.com/john1hsu/communication-graph/id/signposting> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/signposting/s1> .
+<https://github.com/john1hsu/communication-graph/id/signposting> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/signposting/s2> .
+<https://github.com/john1hsu/communication-graph/id/signposting> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/signposting/s3> .
+<https://github.com/john1hsu/communication-graph/id/signposting> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/signposting/s4> .
+<https://github.com/john1hsu/communication-graph/id/signposting> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/signposting/s5> .
+<https://github.com/john1hsu/communication-graph/id/signposting> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/signposting/s6> .
+<https://github.com/john1hsu/communication-graph/id/signposting> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/presentation> .
+<https://github.com/john1hsu/communication-graph/id/signposting> <https://github.com/john1hsu/communication-graph/ontology#domain> "presenting-and-public-speaking" .
+<https://github.com/john1hsu/communication-graph/id/signposting> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/signposting> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/signposting/example> .
+<https://github.com/john1hsu/communication-graph/id/signposting> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/cognitive-load> .
+<https://github.com/john1hsu/communication-graph/id/signposting> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/presenting-and-public-speaking/signposting.md" .
+<https://github.com/john1hsu/communication-graph/id/signposting> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/signposting/howto> .
+<https://github.com/john1hsu/communication-graph/id/signposting> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/signposting> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/alpizar-adesope-wong-2020> .
+<https://github.com/john1hsu/communication-graph/id/signposting> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/titsworth-2001> .
 <https://github.com/john1hsu/communication-graph/id/silence-and-pauses/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/silence-and-pauses/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "After my most important sentence, did I stop for a beat before moving on, or rush straight into the next point?" .
 <https://github.com/john1hsu/communication-graph/id/silence-and-pauses/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/silence-and-pauses> .
@@ -13072,6 +13154,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/setting-reply-time-expectations/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/setting-reply-time-expectations/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
 <https://github.com/john1hsu/communication-graph/id/source/setting-reply-time-expectations/s6> <https://schema.org/url> <https://www.gla.ac.uk/schools/healthwellbeing/news/hawkeye2018onwards/july2019/headline_653845_en.html> .
+<https://github.com/john1hsu/communication-graph/id/source/signposting/s1> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/signposting/s1> <http://purl.org/dc/terms/publisher> "Titsworth, Communication Education 50(4), 283-297, 2001 (Taylor & Francis abstract)" .
+<https://github.com/john1hsu/communication-graph/id/source/signposting/s1> <http://purl.org/dc/terms/title> "The effects of teacher immediacy, use of organizational lecture cues, and students' notetaking on cognitive learning" .
+<https://github.com/john1hsu/communication-graph/id/source/signposting/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/signposting/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/signposting/s1> <https://schema.org/url> <https://informahealthcare.com/doi/abs/10.1080/03634520109379256> .
+<https://github.com/john1hsu/communication-graph/id/source/signposting/s2> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/signposting/s2> <http://purl.org/dc/terms/publisher> "Titsworth, Communication Education, 2004 (Taylor & Francis abstract)" .
+<https://github.com/john1hsu/communication-graph/id/source/signposting/s2> <http://purl.org/dc/terms/title> "Students' notetaking: The effects of teacher immediacy and clarity" .
+<https://github.com/john1hsu/communication-graph/id/source/signposting/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/signposting/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/signposting/s2> <https://schema.org/url> <https://informahealthcare.com/doi/abs/10.1080/0363452032000305922> .
+<https://github.com/john1hsu/communication-graph/id/source/signposting/s3> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/signposting/s3> <http://purl.org/dc/terms/publisher> "Alpizar, Adesope & Wong, Educational Technology Research and Development 68(5), 2095-2119, 2020 (Washington State University research repository)" .
+<https://github.com/john1hsu/communication-graph/id/source/signposting/s3> <http://purl.org/dc/terms/title> "A meta-analysis of signaling principle in multimedia learning environments" .
+<https://github.com/john1hsu/communication-graph/id/source/signposting/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/signposting/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/signposting/s3> <https://schema.org/url> <https://rex.libraries.wsu.edu/esploro/outputs/journalArticle/A-meta-analysis-of-signaling-principle-in/99900601052901842> .
+<https://github.com/john1hsu/communication-graph/id/source/signposting/s4> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/signposting/s4> <http://purl.org/dc/terms/publisher> "Quality Improvement Center for Workforce Development (M. Paul, University of Nebraska-Lincoln), 2021" .
+<https://github.com/john1hsu/communication-graph/id/source/signposting/s4> <http://purl.org/dc/terms/title> "Umbrella Summary: Signaling in Training" .
+<https://github.com/john1hsu/communication-graph/id/source/signposting/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/signposting/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/signposting/s4> <https://schema.org/url> <https://www.qic-wd.org/sites/default/files/Umbrella%20Summary%20-%20Signaling%20in%20Training%20111021.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/signposting/s5> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/signposting/s5> <http://purl.org/dc/terms/publisher> "Center for Writing and Speaking, Agnes Scott College" .
+<https://github.com/john1hsu/communication-graph/id/source/signposting/s5> <http://purl.org/dc/terms/title> "Speech Transitions" .
+<https://github.com/john1hsu/communication-graph/id/source/signposting/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/signposting/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/signposting/s5> <https://schema.org/url> <https://agnesscott.edu/center-for-writing-and-speaking/handouts/speech-transitions.html> .
+<https://github.com/john1hsu/communication-graph/id/source/signposting/s6> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/signposting/s6> <http://purl.org/dc/terms/publisher> "Bedford/St. Martin's (Macmillan Learning), communication textbook" .
+<https://github.com/john1hsu/communication-graph/id/source/signposting/s6> <http://purl.org/dc/terms/title> "Connecting Your Points (Communication and You, ch. 12)" .
+<https://github.com/john1hsu/communication-graph/id/source/signposting/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/signposting/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/communication-graph/id/source/signposting/s6> <https://schema.org/url> <https://digfir-published.macmillanusa.com/comm_and_you/comm_and_you_ch12_7.html> .
 <https://github.com/john1hsu/communication-graph/id/source/silence-and-pauses/s1> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/silence-and-pauses/s1> <http://purl.org/dc/terms/publisher> "Curhan, Overbeck, Cho, Zhang & Yang, Journal of Applied Psychology 107(1) (2022), doi:10.1037/apl0000877 (DSpace@MIT author manuscript)" .
 <https://github.com/john1hsu/communication-graph/id/source/silence-and-pauses/s1> <http://purl.org/dc/terms/title> "Silence Is Golden: Extended Silence, Deliberative Mindset, and Value Creation in Negotiation" .

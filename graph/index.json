@@ -15180,6 +15180,111 @@
   ]
  },
  {
+  "id": "cm:signposting",
+  "title": "Signposting",
+  "aliases": [
+   "signposts",
+   "verbal signposts",
+   "organizational cues",
+   "internal previews and summaries",
+   "verbal transitions"
+  ],
+  "type": "Technique",
+  "domain": "presenting-and-public-speaking",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/presenting-and-public-speaking/signposting.md",
+  "created": "2026-11-10",
+  "summary": "Using short spoken cues - previews, transitions, internal summaries and words such as \"first\", \"next\" or \"the key point is\" - to tell listeners where a talk is going, where they are now and what matters most, so they can follow and remember its structure.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:public-speaking"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "cm:message-structure"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:presentation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:thought-groups"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:summarizing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:bottom-line-up-front"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:presentation-rehearsal"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:pyramid-principle"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:presentation",
+    "source": "s6",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:titsworth-2001",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:alpizar-adesope-wong-2020",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:cognitive-load",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Could someone who looked at their phone for a minute tell which part of my talk I'm in when they look up?",
+   "Did I preview my main points at the start and review the same points at the end?",
+   "Does each move between points have a spoken transition, not just a new slide?",
+   "Have I explicitly flagged the one thing I most need the audience to remember or decide?"
+  ],
+  "steps": [
+   "Before drafting cues, write your talk's three to five main points as one-line headlines; signposts can only show a structure that already exists.",
+   "In the opening, give a one-sentence preview that names the points in order (\"I'll cover the problem, two options, and what I need from you\").",
+   "At every move between main points, say a full transition sentence that closes the last point and names the next one (\"That's the cost; now the timeline\").",
+   "Flag the one or two things the audience must remember with an explicit emphasis cue (\"If you keep one number from today, it's this\").",
+   "After a dense or long section, give a one-sentence internal summary before moving on.",
+   "Close by reviewing the same points you previewed, in the same words, then state the decision or action you need.",
+   "In rehearsal, check that each cue is spoken aloud and matches the slide or section it introduces."
+  ],
+  "example": {
+   "situation": "An operations lead has eight minutes in a weekly leadership meeting to explain why a warehouse migration slipped and what she needs.",
+   "before": "So, the migration. We had some vendor problems in August, and the scanners came late, and then there was the labour issue, and also the cutover weekend clashed with the audit... anyway, the new date is probably mid-December, and it'd help to get some budget for temp staff.",
+   "after": "I'll cover three things: why we slipped, the new date, and one decision I need from you. First, why we slipped: two causes - late scanners and the audit clash. That's the cause; second, the new date: 14 December, with one risk. Finally, the decision: approve temp staff for cutover week. So - two causes, a new date, and one approval.",
+   "why": "The preview lets listeners hold a three-part map, the transitions mark when each part ends, and the closing review repeats the structure, so executives who drift for a minute can rejoin and the request is not lost at the end."
+  },
+  "source_urls": [
+   "https://informahealthcare.com/doi/abs/10.1080/03634520109379256",
+   "https://informahealthcare.com/doi/abs/10.1080/0363452032000305922",
+   "https://rex.libraries.wsu.edu/esploro/outputs/journalArticle/A-meta-analysis-of-signaling-principle-in/99900601052901842",
+   "https://www.qic-wd.org/sites/default/files/Umbrella%20Summary%20-%20Signaling%20in%20Training%20111021.pdf",
+   "https://agnesscott.edu/center-for-writing-and-speaking/handouts/speech-transitions.html",
+   "https://digfir-published.macmillanusa.com/comm_and_you/comm_and_you_ch12_7.html"
+  ]
+ },
+ {
   "id": "cm:silence-and-pauses",
   "title": "Silence and pauses",
   "aliases": [
