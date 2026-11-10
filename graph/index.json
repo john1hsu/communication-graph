@@ -5072,6 +5072,122 @@
   ]
  },
  {
+  "id": "cm:executive-presence",
+  "title": "Executive presence",
+  "aliases": [
+   "leadership presence",
+   "gravitas at work",
+   "EP"
+  ],
+  "type": "Skill",
+  "domain": "executive-and-client-communication",
+  "level": "intermediate",
+  "evidenceStatus": "practitioner",
+  "file": "articles/executive-and-client-communication/executive-presence.md",
+  "created": "2026-11-10",
+  "summary": "The impression that a person can be trusted with high-stakes leadership work - built from how they carry themselves under pressure (gravitas), how they speak and listen, and how they show up - which research treats as an audience's judgement that forms quickly but is revised over time by integrity and results.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:impression-management"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:credibility"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:managing-up"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:executive-briefing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:paralanguage"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:silence-and-pauses"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:active-listening"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:power-posing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:speaking-anxiety"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:audience-analysis"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:sylvia-ann-hewlett",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:dagley-gaskin-2014",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:cti-executive-presence-2012",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:presentation",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:credibility",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:antonakis-fenley-liechti-2011",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:vergauwe-et-al-2018",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "If someone asked \"what exactly should I do differently?\", could I turn the presence feedback I received into two or three observable behaviours?",
+   "In the last tense meeting, did I stay composed and make a clear call, or did I hedge, over-explain or go quiet?",
+   "Did I listen and draw others in, or did I mistake talking most for presence?",
+   "Am I copying a style that is not mine, when the goal is to show my own judgement and values more clearly?",
+   "Is the standard I am being held to applied the same way to colleagues who look and sound different from me?"
+  ],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://deakin.figshare.com/articles/journal_contribution/Understanding_executive_presence_Perspectives_of_business_professionals/20910586",
+   "https://coqual.org/wp-content/uploads/2020/09/26_executivepresence_keyfindings-1.pdf",
+   "https://higherlogicdownload.s3.amazonaws.com/WISE/b6cc9166-5e38-4230-a1c7-df7bdc0eea89/UploadedImages/The_New_Rules_of_Executive_Presence.pdf",
+   "https://core.ac.uk/download/18167875.pdf",
+   "https://www.apa.org/news/press/releases/2017/05/charismatic-leaders"
+  ]
+ },
+ {
   "id": "cm:eye-contact",
   "title": "Gaze and eye contact",
   "aliases": [

@@ -460,6 +460,15 @@ Ask yourself:
 - Have I replaced every adjective about myself with a concrete result?
 - If this listener knows the field better than I do, does the substance still hold up without the delivery?
 
+### [Executive presence](../articles/executive-and-client-communication/executive-presence.md) — Skill
+
+Ask yourself:
+- If someone asked "what exactly should I do differently?", could I turn the presence feedback I received into two or three observable behaviours?
+- In the last tense meeting, did I stay composed and make a clear call, or did I hedge, over-explain or go quiet?
+- Did I listen and draw others in, or did I mistake talking most for presence?
+- Am I copying a style that is not mine, when the goal is to show my own judgement and values more clearly?
+- Is the standard I am being held to applied the same way to colleagues who look and sound different from me?
+
 ### [Managing up](../articles/executive-and-client-communication/managing-up.md) — Skill
 
 Ask yourself:

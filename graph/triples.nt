@@ -2702,6 +2702,56 @@
 <https://github.com/john1hsu/communication-graph/id/executive-briefing> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/executive-and-client-communication/executive-briefing.md" .
 <https://github.com/john1hsu/communication-graph/id/executive-briefing> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/communication-graph/id/executive-briefing> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
+<https://github.com/john1hsu/communication-graph/id/executive-presence/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/executive-presence/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "If someone asked \"what exactly should I do differently?\", could I turn the presence feedback I received into two or three observable behaviours?" .
+<https://github.com/john1hsu/communication-graph/id/executive-presence/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/executive-presence> .
+<https://github.com/john1hsu/communication-graph/id/executive-presence/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/executive-presence/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "In the last tense meeting, did I stay composed and make a clear call, or did I hedge, over-explain or go quiet?" .
+<https://github.com/john1hsu/communication-graph/id/executive-presence/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/executive-presence> .
+<https://github.com/john1hsu/communication-graph/id/executive-presence/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/executive-presence/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Did I listen and draw others in, or did I mistake talking most for presence?" .
+<https://github.com/john1hsu/communication-graph/id/executive-presence/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/executive-presence> .
+<https://github.com/john1hsu/communication-graph/id/executive-presence/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/executive-presence/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Am I copying a style that is not mine, when the goal is to show my own judgement and values more clearly?" .
+<https://github.com/john1hsu/communication-graph/id/executive-presence/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/executive-presence> .
+<https://github.com/john1hsu/communication-graph/id/executive-presence/check/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/executive-presence/check/5> <http://www.w3.org/2000/01/rdf-schema#label> "Is the standard I am being held to applied the same way to colleagues who look and sound different from me?" .
+<https://github.com/john1hsu/communication-graph/id/executive-presence/check/5> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/executive-presence> .
+<https://github.com/john1hsu/communication-graph/id/executive-presence> <http://purl.org/dc/terms/created> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/executive-presence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Skill> .
+<https://github.com/john1hsu/communication-graph/id/executive-presence> <http://www.w3.org/2000/01/rdf-schema#label> "Executive presence" .
+<https://github.com/john1hsu/communication-graph/id/executive-presence> <http://www.w3.org/2004/02/skos/core#altLabel> "EP" .
+<https://github.com/john1hsu/communication-graph/id/executive-presence> <http://www.w3.org/2004/02/skos/core#altLabel> "gravitas at work" .
+<https://github.com/john1hsu/communication-graph/id/executive-presence> <http://www.w3.org/2004/02/skos/core#altLabel> "leadership presence" .
+<https://github.com/john1hsu/communication-graph/id/executive-presence> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/impression-management> .
+<https://github.com/john1hsu/communication-graph/id/executive-presence> <http://www.w3.org/2004/02/skos/core#definition> "The impression that a person can be trusted with high-stakes leadership work - built from how they carry themselves under pressure (gravitas), how they speak and listen, and how they show up - which research treats as an audience's judgement that forms quickly but is revised over time by integrity and results." .
+<https://github.com/john1hsu/communication-graph/id/executive-presence> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/executive-and-client-communication> .
+<https://github.com/john1hsu/communication-graph/id/executive-presence> <http://www.w3.org/2004/02/skos/core#prefLabel> "Executive presence" .
+<https://github.com/john1hsu/communication-graph/id/executive-presence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+<https://github.com/john1hsu/communication-graph/id/executive-presence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/credibility> .
+<https://github.com/john1hsu/communication-graph/id/executive-presence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/executive-briefing> .
+<https://github.com/john1hsu/communication-graph/id/executive-presence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/managing-up> .
+<https://github.com/john1hsu/communication-graph/id/executive-presence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/paralanguage> .
+<https://github.com/john1hsu/communication-graph/id/executive-presence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/power-posing> .
+<https://github.com/john1hsu/communication-graph/id/executive-presence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/silence-and-pauses> .
+<https://github.com/john1hsu/communication-graph/id/executive-presence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> .
+<https://github.com/john1hsu/communication-graph/id/executive-presence> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/executive-presence/s1> .
+<https://github.com/john1hsu/communication-graph/id/executive-presence> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/executive-presence/s2> .
+<https://github.com/john1hsu/communication-graph/id/executive-presence> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/executive-presence/s3> .
+<https://github.com/john1hsu/communication-graph/id/executive-presence> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/executive-presence/s4> .
+<https://github.com/john1hsu/communication-graph/id/executive-presence> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/executive-presence/s5> .
+<https://github.com/john1hsu/communication-graph/id/executive-presence> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/presentation> .
+<https://github.com/john1hsu/communication-graph/id/executive-presence> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/vergauwe-et-al-2018> .
+<https://github.com/john1hsu/communication-graph/id/executive-presence> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/credibility> .
+<https://github.com/john1hsu/communication-graph/id/executive-presence> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/cti-executive-presence-2012> .
+<https://github.com/john1hsu/communication-graph/id/executive-presence> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/dagley-gaskin-2014> .
+<https://github.com/john1hsu/communication-graph/id/executive-presence> <https://github.com/john1hsu/communication-graph/ontology#domain> "executive-and-client-communication" .
+<https://github.com/john1hsu/communication-graph/id/executive-presence> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "practitioner" .
+<https://github.com/john1hsu/communication-graph/id/executive-presence> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/executive-and-client-communication/executive-presence.md" .
+<https://github.com/john1hsu/communication-graph/id/executive-presence> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/sylvia-ann-hewlett> .
+<https://github.com/john1hsu/communication-graph/id/executive-presence> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/communication-graph/id/executive-presence> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
+<https://github.com/john1hsu/communication-graph/id/executive-presence> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/antonakis-fenley-liechti-2011> .
 <https://github.com/john1hsu/communication-graph/id/eye-contact/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/eye-contact/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Was I looking at the other person mostly while they were speaking, and letting my gaze move while I was thinking?" .
 <https://github.com/john1hsu/communication-graph/id/eye-contact/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/eye-contact> .
@@ -9356,6 +9406,36 @@
 <https://github.com/john1hsu/communication-graph/id/source/executive-briefing/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/executive-briefing/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "community" .
 <https://github.com/john1hsu/communication-graph/id/source/executive-briefing/s5> <https://schema.org/url> <https://www.duarte.com/blog/how-to-effectively-present-to-senior-executives/> .
+<https://github.com/john1hsu/communication-graph/id/source/executive-presence/s1> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/executive-presence/s1> <http://purl.org/dc/terms/publisher> "Gavin R. Dagley & Cadeyrn J. Gaskin, Consulting Psychology Journal: Practice and Research 66(3), 197-211, 2014 (Deakin University research repository record)" .
+<https://github.com/john1hsu/communication-graph/id/source/executive-presence/s1> <http://purl.org/dc/terms/title> "Understanding executive presence: Perspectives of business professionals" .
+<https://github.com/john1hsu/communication-graph/id/source/executive-presence/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/executive-presence/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/executive-presence/s1> <https://schema.org/url> <https://deakin.figshare.com/articles/journal_contribution/Understanding_executive_presence_Perspectives_of_business_professionals/20910586> .
+<https://github.com/john1hsu/communication-graph/id/source/executive-presence/s2> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/executive-presence/s2> <http://purl.org/dc/terms/publisher> "Center for Talent Innovation (now Coqual), New York, 2013 - survey of about 4,000 college-educated professionals and 268 senior executives, fielded early 2012" .
+<https://github.com/john1hsu/communication-graph/id/source/executive-presence/s2> <http://purl.org/dc/terms/title> "Executive Presence: key findings (Pillars of Executive Presence)" .
+<https://github.com/john1hsu/communication-graph/id/source/executive-presence/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/executive-presence/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/executive-presence/s2> <https://schema.org/url> <https://coqual.org/wp-content/uploads/2020/09/26_executivepresence_keyfindings-1.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/executive-presence/s3> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/executive-presence/s3> <http://purl.org/dc/terms/publisher> "Sylvia Ann Hewlett, Harvard Business Review, January-February 2024, pp. 134-138 (copy hosted by WISE)" .
+<https://github.com/john1hsu/communication-graph/id/source/executive-presence/s3> <http://purl.org/dc/terms/title> "The New Rules of Executive Presence" .
+<https://github.com/john1hsu/communication-graph/id/source/executive-presence/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/executive-presence/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "practitioner-journal" .
+<https://github.com/john1hsu/communication-graph/id/source/executive-presence/s3> <https://schema.org/url> <https://higherlogicdownload.s3.amazonaws.com/WISE/b6cc9166-5e38-4230-a1c7-df7bdc0eea89/UploadedImages/The_New_Rules_of_Executive_Presence.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/executive-presence/s4> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/executive-presence/s4> <http://purl.org/dc/terms/publisher> "John Antonakis, Marika Fenley & Sue Liechti, Academy of Management Learning & Education, 2011 (authors' accepted manuscript, CORE)" .
+<https://github.com/john1hsu/communication-graph/id/source/executive-presence/s4> <http://purl.org/dc/terms/title> "Can charisma be taught? Tests of two interventions" .
+<https://github.com/john1hsu/communication-graph/id/source/executive-presence/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/executive-presence/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/executive-presence/s4> <https://schema.org/url> <https://core.ac.uk/download/18167875.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/executive-presence/s5> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/executive-presence/s5> <http://purl.org/dc/terms/publisher> "American Psychological Association, May 2017" .
+<https://github.com/john1hsu/communication-graph/id/source/executive-presence/s5> <http://purl.org/dc/terms/title> "Can leaders be too charismatic? (press release on Vergauwe et al., Journal of Personality and Social Psychology)" .
+<https://github.com/john1hsu/communication-graph/id/source/executive-presence/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/executive-presence/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/communication-graph/id/source/executive-presence/s5> <https://schema.org/url> <https://www.apa.org/news/press/releases/2017/05/charismatic-leaders> .
 <https://github.com/john1hsu/communication-graph/id/source/eye-contact/s1> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/eye-contact/s1> <http://purl.org/dc/terms/publisher> "Frances S. Chen, Julia A. Minson, Maren Schöne & Markus Heinrichs, Psychological Science 24(11), 2013, pp. 2254-2261 (Harvard Kennedy School publication page)" .
 <https://github.com/john1hsu/communication-graph/id/source/eye-contact/s1> <http://purl.org/dc/terms/title> "In the Eye of the Beholder: Eye Contact Increases Resistance to Persuasion" .

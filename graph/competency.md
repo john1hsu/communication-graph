@@ -14,6 +14,7 @@ _Which written skills or dispositions have no technique, framework or principle 
 
 | skill | type |
 |---|---|
+| `cm:executive-presence` | cmo:Skill |
 | `cm:silence-and-pauses` | cmo:Skill |
 
 ## Situations, channels and formats with no guidance (gap)
@@ -98,7 +99,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:email` | `cm:rapport` |
 | `cm:email` | `cm:scheduled-inbox-checks` |
 
-…and 64 more.
+…and 65 more.
 
 ## Myths and contested advice
 
