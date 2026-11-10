@@ -15410,6 +15410,93 @@
    ]
   },
   {
+   "@id": "cm:wall-of-text",
+   "@type": "cmo:AntiPattern",
+   "cmo:challengedBy": {
+    "@id": "cm:baker-chaparro-shaikh-2005"
+   },
+   "cmo:demonstratedBy": {
+    "@id": "cm:nielsen-1997"
+   },
+   "cmo:domain": "writing",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/wall-of-text/example"
+   },
+   "cmo:file": "articles/writing/wall-of-text.md",
+   "cmo:level": "introductory",
+   "cmo:supportedBy": {
+    "@id": "cm:lorch-lorch-1996"
+   },
+   "cmo:undermines": {
+    "@id": "cm:clarity"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/wall-of-text/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/wall-of-text/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/wall-of-text/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/wall-of-text/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/wall-of-text/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/wall-of-text/s6"
+    }
+   ],
+   "rdfs:label": "Wall of text",
+   "skos:altLabel": [
+    "dense unbroken text",
+    "text wall",
+    "unformatted text block"
+   ],
+   "skos:broader": {
+    "@id": "cm:message-structure"
+   },
+   "skos:definition": "Presenting a message as long, dense, unbroken paragraphs with no headings, lists, emphasis or white space, so busy readers who scan rather than read word by word miss key points and requests.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/writing"
+   },
+   "skos:prefLabel": "Wall of text",
+   "skos:related": [
+    {
+     "@id": "cm:bottom-line-up-front"
+    },
+    {
+     "@id": "cm:bulleted-and-numbered-lists"
+    },
+    {
+     "@id": "cm:burying-the-lede"
+    },
+    {
+     "@id": "cm:concise-writing"
+    },
+    {
+     "@id": "cm:email"
+    },
+    {
+     "@id": "cm:information-overload"
+    },
+    {
+     "@id": "cm:plain-language"
+    },
+    {
+     "@id": "cm:readability-formulas"
+    }
+   ]
+  },
+  {
    "@id": "cm:weger-et-al-2014",
    "@type": "cmo:Study",
    "cmo:contrastsWith": {
@@ -36782,6 +36869,90 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/wall-of-text/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Jakob Nielsen, Nielsen Norman Group Alertbox (October 1997)",
+   "dcterms:title": "How Users Read on the Web",
+   "schema:url": {
+    "@id": "https://www.nngroup.com/alertbox/9710a.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/wall-of-text/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Robert F. Lorch Jr. & Elizabeth Pugzles Lorch, Contemporary Educational Psychology 21(3), 261-278 (1996), doi:10.1006/ceps.1996.0022 (University of Kentucky Scholars record)",
+   "dcterms:title": "Effects of Headings on Text Recall and Summarization",
+   "schema:url": {
+    "@id": "https://scholars.uky.edu/en/publications/effects-of-headings-on-text-recall-and-summarization/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/wall-of-text/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "J. Ryan Baker, Barbara S. Chaparro & A. Dawn Shaikh, Usability News 7(1), Software Usability Research Laboratory, Wichita State University (2005) (Embry-Riddle research portal record)",
+   "dcterms:title": "Reading Online Text With a Poor Layout: Is Performance Worse?",
+   "schema:url": {
+    "@id": "https://portfolio.erau.edu/en/publications/reading-online-text-with-a-poor-layout-is-performance-worse/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/wall-of-text/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Christine Cawthorne, Government Digital Service blog, UK Government (14 November 2014)",
+   "dcterms:title": "Create a better user experience by changing the way you write",
+   "schema:url": {
+    "@id": "https://gds.blog.gov.uk/2014/11/14/create-a-better-user-experience-by-changing-the-way-you-write/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/wall-of-text/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Kara Pernice, Nielsen Norman Group (2017, reviewed 2026)",
+   "dcterms:title": "F-Shaped Pattern of Reading on the Web: Misunderstood, But Still Relevant (Even on Mobile)",
+   "schema:url": {
+    "@id": "https://nngroup.com/articles/f-shaped-pattern-reading-web-content/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/wall-of-text/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "news",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Harvard Gazette, Harvard University (October 2023), on Todd Rogers & Jessica Lasky-Fink's Writing for Busy Readers",
+   "dcterms:title": "Tips on how to connect with people who don't have time to read",
+   "schema:url": {
+    "@id": "https://news.harvard.edu/gazette/story/2023/10/tips-on-how-to-connect-with-people-who-dont-have-time-to-read"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/source/weger-et-al-2014/s1",
    "@type": "cmo:Source",
    "cmo:sourceType": "primary",
@@ -38139,6 +38310,46 @@
    "@type": "schema:HowToStep",
    "schema:position": 6,
    "schema:text": "When you are asked a hard question, give yourself the same pause - say you want a moment to think - instead of filling the gap with the first answer that comes to mind."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/wall-of-text/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:wall-of-text"
+   },
+   "rdfs:label": "If a colleague only read my first two lines and the bold text, would they know what changed and what I need from them?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/wall-of-text/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:wall-of-text"
+   },
+   "rdfs:label": "Does any paragraph run longer than about five lines or cover more than one idea?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/wall-of-text/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:wall-of-text"
+   },
+   "rdfs:label": "Is each request or deadline on its own line, with a named owner, instead of hidden in a sentence?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/wall-of-text/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:wall-of-text"
+   },
+   "rdfs:label": "Have I used bold or headings sparingly enough that they still mark what matters most?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/wall-of-text/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "Subject: Migration moves to the 21st - 2 approvals needed by Thu Cutover moves from the 14th to the 21st. To hold that date we need two things by Thursday: - **Finance (Priya):** confirm the archive cut-off date. - **IT Security (Marco):** approve the temporary service account. **Why the delay:** 40,000 customer-history records have inconsistent date formats and need cleaning. **If we miss Thursday:** we lose the weekend window and the next slot is the 4th.",
+   "cmo:before": "Hi all, following up on last week's steering call where we talked through the migration timeline and some of the issues the vendor raised about the legacy schema, which as you know has been a recurring theme since phase one, the team has now completed the mapping for most tables but we discovered that the customer-history table has about 40,000 records with inconsistent date formats, so the cutover will move from the 14th to the 21st, and to keep that date we will need Finance to confirm the archive cut-off and IT Security to approve the temporary service account by Thursday, otherwise we lose the weekend window...",
+   "cmo:situation": "A project lead emails six stakeholders about a delayed data migration and needs two of them to act by Thursday.",
+   "cmo:why": "The original buries the new date and both requests mid-paragraph, so a scanning reader sees only the opening background; the rewrite front-loads the change, gives each request its own line with an owner, and uses short labelled chunks so every reader can find their part in seconds."
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability/check/1",

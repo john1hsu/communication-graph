@@ -1973,3 +1973,19 @@ Ask yourself:
 - Which formula and tool produced this number, and did I strip headings and lists before scoring?
 - Has anyone from the intended audience tried to use this document, and what did they get wrong?
 
+### [Wall of text](../articles/writing/wall-of-text.md) — AntiPattern
+
+*A project lead emails six stakeholders about a delayed data migration and needs two of them to act by Thursday.*
+
+| Before | After |
+|---|---|
+| Hi all, following up on last week's steering call where we talked through the migration timeline and some of the issues the vendor raised about the legacy schema, which as you know has been a recurring theme since phase one, the team has now completed the mapping for most tables but we discovered that the customer-history table has about 40,000 records with inconsistent date formats, so the cutover will move from the 14th to the 21st, and to keep that date we will need Finance to confirm the archive cut-off and IT Security to approve the temporary service account by Thursday, otherwise we lose the weekend window... | Subject: Migration moves to the 21st - 2 approvals needed by Thu Cutover moves from the 14th to the 21st. To hold that date we need two things by Thursday: - **Finance (Priya):** confirm the archive cut-off date. - **IT Security (Marco):** approve the temporary service account. **Why the delay:** 40,000 customer-history records have inconsistent date formats and need cleaning. **If we miss Thursday:** we lose the weekend window and the next slot is the 4th. |
+
+**Why:** The original buries the new date and both requests mid-paragraph, so a scanning reader sees only the opening background; the rewrite front-loads the change, gives each request its own line with an owner, and uses short labelled chunks so every reader can find their part in seconds.
+
+Ask yourself:
+- If a colleague only read my first two lines and the bold text, would they know what changed and what I need from them?
+- Does any paragraph run longer than about five lines or cover more than one idea?
+- Is each request or deadline on its own line, with a named owner, instead of hidden in a sentence?
+- Have I used bold or headings sparingly enough that they still mark what matters most?
+

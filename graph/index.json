@@ -17586,6 +17586,105 @@
   ]
  },
  {
+  "id": "cm:wall-of-text",
+  "title": "Wall of text",
+  "aliases": [
+   "text wall",
+   "dense unbroken text",
+   "unformatted text block"
+  ],
+  "type": "AntiPattern",
+  "domain": "writing",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/writing/wall-of-text.md",
+  "created": "2026-11-10",
+  "summary": "Presenting a message as long, dense, unbroken paragraphs with no headings, lists, emphasis or white space, so busy readers who scan rather than read word by word miss key points and requests.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:message-structure"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:bulleted-and-numbered-lists"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:concise-writing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:plain-language"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:bottom-line-up-front"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:burying-the-lede"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:information-overload"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:email"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:readability-formulas"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:nielsen-1997",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:lorch-lorch-1996",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:baker-chaparro-shaikh-2005",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:undermines",
+    "object": "cm:clarity",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "If a colleague only read my first two lines and the bold text, would they know what changed and what I need from them?",
+   "Does any paragraph run longer than about five lines or cover more than one idea?",
+   "Is each request or deadline on its own line, with a named owner, instead of hidden in a sentence?",
+   "Have I used bold or headings sparingly enough that they still mark what matters most?"
+  ],
+  "steps": [],
+  "example": {
+   "situation": "A project lead emails six stakeholders about a delayed data migration and needs two of them to act by Thursday.",
+   "before": "Hi all, following up on last week's steering call where we talked through the migration timeline and some of the issues the vendor raised about the legacy schema, which as you know has been a recurring theme since phase one, the team has now completed the mapping for most tables but we discovered that the customer-history table has about 40,000 records with inconsistent date formats, so the cutover will move from the 14th to the 21st, and to keep that date we will need Finance to confirm the archive cut-off and IT Security to approve the temporary service account by Thursday, otherwise we lose the weekend window...",
+   "after": "Subject: Migration moves to the 21st - 2 approvals needed by Thu\n\nCutover moves from the 14th to the 21st. To hold that date we need two things by Thursday:\n\n- **Finance (Priya):** confirm the archive cut-off date.\n- **IT Security (Marco):** approve the temporary service account.\n\n**Why the delay:** 40,000 customer-history records have inconsistent date formats and need cleaning.\n\n**If we miss Thursday:** we lose the weekend window and the next slot is the 4th.",
+   "why": "The original buries the new date and both requests mid-paragraph, so a scanning reader sees only the opening background; the rewrite front-loads the change, gives each request its own line with an owner, and uses short labelled chunks so every reader can find their part in seconds."
+  },
+  "source_urls": [
+   "https://www.nngroup.com/alertbox/9710a.html",
+   "https://scholars.uky.edu/en/publications/effects-of-headings-on-text-recall-and-summarization/",
+   "https://portfolio.erau.edu/en/publications/reading-online-text-with-a-poor-layout-is-performance-worse/",
+   "https://gds.blog.gov.uk/2014/11/14/create-a-better-user-experience-by-changing-the-way-you-write/",
+   "https://nngroup.com/articles/f-shaped-pattern-reading-web-content/",
+   "https://news.harvard.edu/gazette/story/2023/10/tips-on-how-to-connect-with-people-who-dont-have-time-to-read"
+  ]
+ },
+ {
   "id": "cm:weger-et-al-2014",
   "title": "The Relative Effectiveness of Active Listening in Initial Interactions",
   "aliases": [

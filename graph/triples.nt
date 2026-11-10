@@ -14117,6 +14117,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/wait-time/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/wait-time/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
 <https://github.com/john1hsu/communication-graph/id/source/wait-time/s6> <https://schema.org/url> <https://teaching.unl.edu/resources/interactive-lecture/wait-time> .
+<https://github.com/john1hsu/communication-graph/id/source/wall-of-text/s1> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/wall-of-text/s1> <http://purl.org/dc/terms/publisher> "Jakob Nielsen, Nielsen Norman Group Alertbox (October 1997)" .
+<https://github.com/john1hsu/communication-graph/id/source/wall-of-text/s1> <http://purl.org/dc/terms/title> "How Users Read on the Web" .
+<https://github.com/john1hsu/communication-graph/id/source/wall-of-text/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/wall-of-text/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/wall-of-text/s1> <https://schema.org/url> <https://www.nngroup.com/alertbox/9710a.html> .
+<https://github.com/john1hsu/communication-graph/id/source/wall-of-text/s2> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/wall-of-text/s2> <http://purl.org/dc/terms/publisher> "Robert F. Lorch Jr. & Elizabeth Pugzles Lorch, Contemporary Educational Psychology 21(3), 261-278 (1996), doi:10.1006/ceps.1996.0022 (University of Kentucky Scholars record)" .
+<https://github.com/john1hsu/communication-graph/id/source/wall-of-text/s2> <http://purl.org/dc/terms/title> "Effects of Headings on Text Recall and Summarization" .
+<https://github.com/john1hsu/communication-graph/id/source/wall-of-text/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/wall-of-text/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/wall-of-text/s2> <https://schema.org/url> <https://scholars.uky.edu/en/publications/effects-of-headings-on-text-recall-and-summarization/> .
+<https://github.com/john1hsu/communication-graph/id/source/wall-of-text/s3> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/wall-of-text/s3> <http://purl.org/dc/terms/publisher> "J. Ryan Baker, Barbara S. Chaparro & A. Dawn Shaikh, Usability News 7(1), Software Usability Research Laboratory, Wichita State University (2005) (Embry-Riddle research portal record)" .
+<https://github.com/john1hsu/communication-graph/id/source/wall-of-text/s3> <http://purl.org/dc/terms/title> "Reading Online Text With a Poor Layout: Is Performance Worse?" .
+<https://github.com/john1hsu/communication-graph/id/source/wall-of-text/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/wall-of-text/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/wall-of-text/s3> <https://schema.org/url> <https://portfolio.erau.edu/en/publications/reading-online-text-with-a-poor-layout-is-performance-worse/> .
+<https://github.com/john1hsu/communication-graph/id/source/wall-of-text/s4> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/wall-of-text/s4> <http://purl.org/dc/terms/publisher> "Christine Cawthorne, Government Digital Service blog, UK Government (14 November 2014)" .
+<https://github.com/john1hsu/communication-graph/id/source/wall-of-text/s4> <http://purl.org/dc/terms/title> "Create a better user experience by changing the way you write" .
+<https://github.com/john1hsu/communication-graph/id/source/wall-of-text/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/wall-of-text/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/communication-graph/id/source/wall-of-text/s4> <https://schema.org/url> <https://gds.blog.gov.uk/2014/11/14/create-a-better-user-experience-by-changing-the-way-you-write/> .
+<https://github.com/john1hsu/communication-graph/id/source/wall-of-text/s5> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/wall-of-text/s5> <http://purl.org/dc/terms/publisher> "Kara Pernice, Nielsen Norman Group (2017, reviewed 2026)" .
+<https://github.com/john1hsu/communication-graph/id/source/wall-of-text/s5> <http://purl.org/dc/terms/title> "F-Shaped Pattern of Reading on the Web: Misunderstood, But Still Relevant (Even on Mobile)" .
+<https://github.com/john1hsu/communication-graph/id/source/wall-of-text/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/wall-of-text/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/communication-graph/id/source/wall-of-text/s5> <https://schema.org/url> <https://nngroup.com/articles/f-shaped-pattern-reading-web-content/> .
+<https://github.com/john1hsu/communication-graph/id/source/wall-of-text/s6> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/wall-of-text/s6> <http://purl.org/dc/terms/publisher> "Harvard Gazette, Harvard University (October 2023), on Todd Rogers & Jessica Lasky-Fink's Writing for Busy Readers" .
+<https://github.com/john1hsu/communication-graph/id/source/wall-of-text/s6> <http://purl.org/dc/terms/title> "Tips on how to connect with people who don't have time to read" .
+<https://github.com/john1hsu/communication-graph/id/source/wall-of-text/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/wall-of-text/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "news" .
+<https://github.com/john1hsu/communication-graph/id/source/wall-of-text/s6> <https://schema.org/url> <https://news.harvard.edu/gazette/story/2023/10/tips-on-how-to-connect-with-people-who-dont-have-time-to-read> .
 <https://github.com/john1hsu/communication-graph/id/source/weger-et-al-2014/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/weger-et-al-2014/s1> <http://purl.org/dc/terms/publisher> "Weger, Castle Bell, Minei & Robinson, International Journal of Listening 28(1), 13-31 (2014), doi:10.1080/10904018.2013.813234 (Taylor & Francis full text)" .
 <https://github.com/john1hsu/communication-graph/id/source/weger-et-al-2014/s1> <http://purl.org/dc/terms/title> "The Relative Effectiveness of Active Listening in Initial Interactions" .
@@ -15163,6 +15199,56 @@
 <https://github.com/john1hsu/communication-graph/id/wait-time> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/wait-time> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/curhan-et-al-2022> .
 <https://github.com/john1hsu/communication-graph/id/wait-time> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/tobin-1987> .
+<https://github.com/john1hsu/communication-graph/id/wall-of-text/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/wall-of-text/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "If a colleague only read my first two lines and the bold text, would they know what changed and what I need from them?" .
+<https://github.com/john1hsu/communication-graph/id/wall-of-text/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/wall-of-text> .
+<https://github.com/john1hsu/communication-graph/id/wall-of-text/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/wall-of-text/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Does any paragraph run longer than about five lines or cover more than one idea?" .
+<https://github.com/john1hsu/communication-graph/id/wall-of-text/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/wall-of-text> .
+<https://github.com/john1hsu/communication-graph/id/wall-of-text/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/wall-of-text/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Is each request or deadline on its own line, with a named owner, instead of hidden in a sentence?" .
+<https://github.com/john1hsu/communication-graph/id/wall-of-text/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/wall-of-text> .
+<https://github.com/john1hsu/communication-graph/id/wall-of-text/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/wall-of-text/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Have I used bold or headings sparingly enough that they still mark what matters most?" .
+<https://github.com/john1hsu/communication-graph/id/wall-of-text/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/wall-of-text> .
+<https://github.com/john1hsu/communication-graph/id/wall-of-text/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+<https://github.com/john1hsu/communication-graph/id/wall-of-text/example> <https://github.com/john1hsu/communication-graph/ontology#after> "Subject: Migration moves to the 21st - 2 approvals needed by Thu Cutover moves from the 14th to the 21st. To hold that date we need two things by Thursday: - **Finance (Priya):** confirm the archive cut-off date. - **IT Security (Marco):** approve the temporary service account. **Why the delay:** 40,000 customer-history records have inconsistent date formats and need cleaning. **If we miss Thursday:** we lose the weekend window and the next slot is the 4th." .
+<https://github.com/john1hsu/communication-graph/id/wall-of-text/example> <https://github.com/john1hsu/communication-graph/ontology#before> "Hi all, following up on last week's steering call where we talked through the migration timeline and some of the issues the vendor raised about the legacy schema, which as you know has been a recurring theme since phase one, the team has now completed the mapping for most tables but we discovered that the customer-history table has about 40,000 records with inconsistent date formats, so the cutover will move from the 14th to the 21st, and to keep that date we will need Finance to confirm the archive cut-off and IT Security to approve the temporary service account by Thursday, otherwise we lose the weekend window..." .
+<https://github.com/john1hsu/communication-graph/id/wall-of-text/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "A project lead emails six stakeholders about a delayed data migration and needs two of them to act by Thursday." .
+<https://github.com/john1hsu/communication-graph/id/wall-of-text/example> <https://github.com/john1hsu/communication-graph/ontology#why> "The original buries the new date and both requests mid-paragraph, so a scanning reader sees only the opening background; the rewrite front-loads the change, gives each request its own line with an owner, and uses short labelled chunks so every reader can find their part in seconds." .
+<https://github.com/john1hsu/communication-graph/id/wall-of-text> <http://purl.org/dc/terms/created> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/wall-of-text> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#AntiPattern> .
+<https://github.com/john1hsu/communication-graph/id/wall-of-text> <http://www.w3.org/2000/01/rdf-schema#label> "Wall of text" .
+<https://github.com/john1hsu/communication-graph/id/wall-of-text> <http://www.w3.org/2004/02/skos/core#altLabel> "dense unbroken text" .
+<https://github.com/john1hsu/communication-graph/id/wall-of-text> <http://www.w3.org/2004/02/skos/core#altLabel> "text wall" .
+<https://github.com/john1hsu/communication-graph/id/wall-of-text> <http://www.w3.org/2004/02/skos/core#altLabel> "unformatted text block" .
+<https://github.com/john1hsu/communication-graph/id/wall-of-text> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/message-structure> .
+<https://github.com/john1hsu/communication-graph/id/wall-of-text> <http://www.w3.org/2004/02/skos/core#definition> "Presenting a message as long, dense, unbroken paragraphs with no headings, lists, emphasis or white space, so busy readers who scan rather than read word by word miss key points and requests." .
+<https://github.com/john1hsu/communication-graph/id/wall-of-text> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/writing> .
+<https://github.com/john1hsu/communication-graph/id/wall-of-text> <http://www.w3.org/2004/02/skos/core#prefLabel> "Wall of text" .
+<https://github.com/john1hsu/communication-graph/id/wall-of-text> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
+<https://github.com/john1hsu/communication-graph/id/wall-of-text> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/bulleted-and-numbered-lists> .
+<https://github.com/john1hsu/communication-graph/id/wall-of-text> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/burying-the-lede> .
+<https://github.com/john1hsu/communication-graph/id/wall-of-text> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/concise-writing> .
+<https://github.com/john1hsu/communication-graph/id/wall-of-text> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/email> .
+<https://github.com/john1hsu/communication-graph/id/wall-of-text> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/information-overload> .
+<https://github.com/john1hsu/communication-graph/id/wall-of-text> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/plain-language> .
+<https://github.com/john1hsu/communication-graph/id/wall-of-text> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/readability-formulas> .
+<https://github.com/john1hsu/communication-graph/id/wall-of-text> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/wall-of-text/s1> .
+<https://github.com/john1hsu/communication-graph/id/wall-of-text> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/wall-of-text/s2> .
+<https://github.com/john1hsu/communication-graph/id/wall-of-text> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/wall-of-text/s3> .
+<https://github.com/john1hsu/communication-graph/id/wall-of-text> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/wall-of-text/s4> .
+<https://github.com/john1hsu/communication-graph/id/wall-of-text> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/wall-of-text/s5> .
+<https://github.com/john1hsu/communication-graph/id/wall-of-text> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/wall-of-text/s6> .
+<https://github.com/john1hsu/communication-graph/id/wall-of-text> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/baker-chaparro-shaikh-2005> .
+<https://github.com/john1hsu/communication-graph/id/wall-of-text> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/nielsen-1997> .
+<https://github.com/john1hsu/communication-graph/id/wall-of-text> <https://github.com/john1hsu/communication-graph/ontology#domain> "writing" .
+<https://github.com/john1hsu/communication-graph/id/wall-of-text> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/wall-of-text> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/wall-of-text/example> .
+<https://github.com/john1hsu/communication-graph/id/wall-of-text> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/writing/wall-of-text.md" .
+<https://github.com/john1hsu/communication-graph/id/wall-of-text> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/wall-of-text> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/lorch-lorch-1996> .
+<https://github.com/john1hsu/communication-graph/id/wall-of-text> <https://github.com/john1hsu/communication-graph/ontology#undermines> <https://github.com/john1hsu/communication-graph/id/clarity> .
 <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> <http://purl.org/dc/terms/created> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
 <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> <http://www.w3.org/2000/01/rdf-schema#label> "The Relative Effectiveness of Active Listening in Initial Interactions" .

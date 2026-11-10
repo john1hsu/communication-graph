@@ -50,7 +50,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:assertion-evidence-slides` | 1 | death-by-powerpoint |
 | `cm:audience-analysis` | 1 | Curse of knowledge |
 | `cm:bottom-line-up-front` | 1 | burying-the-lede |
-| `cm:bulleted-and-numbered-lists` | 1 | wall-of-text |
+| `cm:bulleted-and-numbered-lists` | 1 | Wall of text |
 | `cm:camera-level-gaze` | 1 | Gaze and eye contact |
 | `cm:camera-optional-norm` | 1 | Zoom fatigue |
 | `cm:charismatic-leadership-tactics` | 1 | Executive presence |
@@ -135,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:batna` | mixed | `cm:schaerer-swaab-galinsky-2015` |
 | `cm:bulleted-and-numbered-lists` | mixed | `cm:columbia-accident-investigation-board-report` |
 
-…and 102 more.
+…and 103 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -174,7 +174,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:reservation-value` | cmo:Concept |
 | `cm:salary-negotiation` | cmo:Context |
 
-…and 19 more.
+…and 20 more.
 
 ## Orphan articles (gap)
 
