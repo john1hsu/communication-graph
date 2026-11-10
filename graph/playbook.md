@@ -994,6 +994,30 @@ Ask yourself:
 - Did the agenda reach people early enough for them to actually prepare?
 - At the end, can I point to an answer for each question on the agenda?
 
+### [Meeting recaps](../articles/meetings-and-facilitation/meeting-recaps.md) — Technique
+
+1. Before the meeting ends, read the decisions and action items aloud and get each owner to confirm their task and date in the room.
+2. Within 24 hours, send the recap to everyone who attended and everyone affected who was absent.
+3. Put the decisions first, each as one plain sentence stating what was agreed.
+4. List each action as owner, verb-first task and due date - one named person per action, not a team.
+5. Add a short "open questions" list naming who will resolve each one and where it lands next (a later agenda, a subgroup).
+6. Ask readers to reply with corrections by a stated time, then treat the uncorrected recap as the record.
+7. Start the next meeting by checking the previous recap's actions before new business.
+
+*A product manager follows up a 40-minute cross-team meeting about a delayed release.*
+
+| Before | After |
+|---|---|
+| Thanks all for a great discussion today! Lots of good ideas about the release. Let's keep the momentum going and circle back next week. | Decided: release moves to 18 March; the export feature ships in the April update. Actions: Ana - tell the three pilot customers about the new date by Thu 5 Mar. Raj - rebuild the test plan without export by Mon 9 Mar. Me - update the public roadmap by Fri 6 Mar. Open: whether support needs extra training (Lee to decide by our 12 Mar meeting). Reply by noon tomorrow if I've got anything wrong. |
+
+**Why:** The first version records a mood, not an outcome; the second lets anyone - including people who missed the meeting - see what changed, who owns each next step and when to expect it, and gives a deadline for correcting the record.
+
+Ask yourself:
+- Could someone who missed the meeting tell from my recap alone what was decided and what they need to do?
+- Does every action have exactly one named owner and a date, or did I write "we will" or "the team"?
+- Did each owner agree to their task out loud before we left, rather than discovering it in my email?
+- Have I separated firm decisions from open questions so nobody mistakes a suggestion for a commitment?
+
 ### [Nominal group technique](../articles/meetings-and-facilitation/nominal-group-technique.md) — Technique
 
 1. Write one specific, open question on the board or shared screen and read it aloud, for example "What are the biggest obstacles to closing month-end two days faster?"

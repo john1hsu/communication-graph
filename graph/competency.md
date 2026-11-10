@@ -57,7 +57,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:considering-others-contributions-first` | 1 | Egocentric bias |
 | `cm:conversational-receptiveness` | 1 | Defensiveness |
 
-…and 27 more.
+…and 28 more.
 
 ## Toolkit by situation
 
@@ -92,11 +92,11 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:email` | `cm:email-urgency-bias-study` |
 | `cm:email` | `cm:kushlev-dunn-2015` |
 | `cm:email` | `cm:media-richness-theory` |
+| `cm:email` | `cm:meeting-recaps` |
 | `cm:email` | `cm:pragmatics` |
 | `cm:email` | `cm:rapport` |
-| `cm:email` | `cm:scheduled-inbox-checks` |
 
-…and 71 more.
+…and 73 more.
 
 ## Myths and contested advice
 
@@ -152,6 +152,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:interrupting` | cmo:AntiPattern |
 | `cm:labeling-emotions` | cmo:Technique |
 | `cm:meeting-agendas` | cmo:Technique |
+| `cm:meeting-recaps` | cmo:Technique |
 | `cm:mirroring` | cmo:Technique |
 | `cm:multicultural-team` | cmo:Context |
 | `cm:narrative-persuasion` | cmo:Technique |
@@ -172,9 +173,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:refutational-two-sided-messages` | cmo:Technique |
 | `cm:reservation-value` | cmo:Concept |
 | `cm:salary-negotiation` | cmo:Context |
-| `cm:scheduled-inbox-checks` | cmo:Technique |
 
-…and 16 more.
+…and 17 more.
 
 ## Orphan articles (gap)
 

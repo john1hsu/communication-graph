@@ -8306,6 +8306,87 @@
    ]
   },
   {
+   "@id": "cm:meeting-recaps",
+   "@type": "cmo:Technique",
+   "cmo:addresses": {
+    "@id": "cm:unclear-ownership"
+   },
+   "cmo:appliedIn": [
+    {
+     "@id": "cm:email"
+    },
+    {
+     "@id": "cm:workplace-meetings"
+    }
+   ],
+   "cmo:complements": {
+    "@id": "cm:meeting-agendas"
+   },
+   "cmo:domain": "meetings-and-facilitation",
+   "cmo:evidenceStatus": "practitioner",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/meeting-recaps/example"
+   },
+   "cmo:explainedBy": {
+    "@id": "cm:implementation-intentions"
+   },
+   "cmo:file": "articles/meetings-and-facilitation/meeting-recaps.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/meeting-recaps/howto"
+   },
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/meeting-recaps/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/meeting-recaps/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/meeting-recaps/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/meeting-recaps/s4"
+    }
+   ],
+   "rdfs:label": "Meeting recaps",
+   "skos:altLabel": [
+    "action-item summary",
+    "meeting follow-up note",
+    "post-meeting summary",
+    "recap email"
+   ],
+   "skos:broader": {
+    "@id": "cm:meeting-design"
+   },
+   "skos:definition": "Sending, soon after a meeting, a short written record of what was decided, who will do what by when, and what remains open, so attendees and absentees share one account of the outcome and can act on it.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/meetings-and-facilitation"
+   },
+   "skos:prefLabel": "Meeting recaps",
+   "skos:related": [
+    {
+     "@id": "cm:bottom-line-up-front"
+    },
+    {
+     "@id": "cm:meeting-agendas"
+    },
+    {
+     "@id": "cm:raci-matrix"
+    },
+    {
+     "@id": "cm:status-reporting"
+    },
+    {
+     "@id": "cm:summarizing"
+    }
+   ]
+  },
+  {
    "@id": "cm:mehrabian-myth",
    "@type": "cmo:Concept",
    "cmo:challengedBy": [
@@ -19808,6 +19889,116 @@
    "schema:text": "Open the meeting by restating its purpose, follow the agenda, and end when the questions are answered."
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/meeting-recaps/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:meeting-recaps"
+   },
+   "rdfs:label": "Could someone who missed the meeting tell from my recap alone what was decided and what they need to do?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/meeting-recaps/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:meeting-recaps"
+   },
+   "rdfs:label": "Does every action have exactly one named owner and a date, or did I write \"we will\" or \"the team\"?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/meeting-recaps/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:meeting-recaps"
+   },
+   "rdfs:label": "Did each owner agree to their task out loud before we left, rather than discovering it in my email?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/meeting-recaps/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:meeting-recaps"
+   },
+   "rdfs:label": "Have I separated firm decisions from open questions so nobody mistakes a suggestion for a commitment?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/meeting-recaps/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "Decided: release moves to 18 March; the export feature ships in the April update. Actions: Ana - tell the three pilot customers about the new date by Thu 5 Mar. Raj - rebuild the test plan without export by Mon 9 Mar. Me - update the public roadmap by Fri 6 Mar. Open: whether support needs extra training (Lee to decide by our 12 Mar meeting). Reply by noon tomorrow if I've got anything wrong.",
+   "cmo:before": "Thanks all for a great discussion today! Lots of good ideas about the release. Let's keep the momentum going and circle back next week.",
+   "cmo:situation": "A product manager follows up a 40-minute cross-team meeting about a delayed release.",
+   "cmo:why": "The first version records a mood, not an outcome; the second lets anyone - including people who missed the meeting - see what changed, who owns each next step and when to expect it, and gives a deadline for correcting the record."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/meeting-recaps/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Meeting recaps",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/meeting-recaps/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/meeting-recaps/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/meeting-recaps/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/meeting-recaps/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/meeting-recaps/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/meeting-recaps/howto/6"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/meeting-recaps/howto/7"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/meeting-recaps/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Before the meeting ends, read the decisions and action items aloud and get each owner to confirm their task and date in the room."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/meeting-recaps/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Within 24 hours, send the recap to everyone who attended and everyone affected who was absent."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/meeting-recaps/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Put the decisions first, each as one plain sentence stating what was agreed."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/meeting-recaps/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "List each action as owner, verb-first task and due date - one named person per action, not a team."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/meeting-recaps/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Add a short \"open questions\" list naming who will resolve each one and where it lands next (a later agenda, a subgroup)."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/meeting-recaps/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "Ask readers to reply with corrections by a stated time, then treat the uncorrected recap as the record."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/meeting-recaps/howto/7",
+   "@type": "schema:HowToStep",
+   "schema:position": 7,
+   "schema:text": "Start the next meeting by checking the previous recap's actions before new business."
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/mirroring/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -29605,6 +29796,62 @@
    "dcterms:title": "How to Design an Agenda for an Effective Meeting",
    "schema:url": {
     "@id": "https://hbr.org/2015/03/how-to-design-an-agenda-for-an-effective-meeting"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/meeting-recaps/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Joseph E. Mroz, Joseph A. Allen, Dana C. Verhoeven & Marissa L. Shuffler, Current Directions in Psychological Science 27(6), 484-491, 2018, doi:10.1177/0963721418776307 (CORE open-access copy)",
+   "dcterms:title": "Do We Really Need Another Meeting? The Science of Workplace Meetings",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/232775527.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/meeting-recaps/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Peter M. Gollwitzer & Paschal Sheeran, Advances in Experimental Social Psychology 38, 69-119, 2006, doi:10.1016/S0065-2601(06)38002-1 (University of Konstanz repository)",
+   "dcterms:title": "Implementation Intentions and Goal Achievement: A Meta-analysis of Effects and Processes",
+   "schema:url": {
+    "@id": "https://kops.uni-konstanz.de/entities/publication/2e749bfb-8533-437c-8203-7e788c910c5f"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/meeting-recaps/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Yvette Pigeon & Omar Khan, Association of American Medical Colleges (AAMC) Faculty Vitae, 2010",
+   "dcterms:title": "Tools for Effective Team Meetings",
+   "schema:url": {
+    "@id": "https://www.aamc.org/professional-development/affinity-groups/gfa/faculty-vitae/effective-team-meetings"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/meeting-recaps/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Mike Cook, Business Process Management Office, University of California, Berkeley",
+   "dcterms:title": "Making the Most of Your Meetings With Agendas and Action Items",
+   "schema:url": {
+    "@id": "https://bpmoportal.berkeley.edu/node/83"
    }
   },
   {

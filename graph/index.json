@@ -9498,6 +9498,106 @@
   ]
  },
  {
+  "id": "cm:meeting-recaps",
+  "title": "Meeting recaps",
+  "aliases": [
+   "meeting follow-up note",
+   "post-meeting summary",
+   "recap email",
+   "action-item summary"
+  ],
+  "type": "Technique",
+  "domain": "meetings-and-facilitation",
+  "level": "introductory",
+  "evidenceStatus": "practitioner",
+  "file": "articles/meetings-and-facilitation/meeting-recaps.md",
+  "created": "2026-11-10",
+  "summary": "Sending, soon after a meeting, a short written record of what was decided, who will do what by when, and what remains open, so attendees and absentees share one account of the outcome and can act on it.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:meeting-design"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:meeting-agendas"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:summarizing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:raci-matrix"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:bottom-line-up-front"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:status-reporting"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:workplace-meetings",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:meeting-agendas",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:unclear-ownership",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:email",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:implementation-intentions",
+    "source": "s2",
+    "confidence": "low"
+   }
+  ],
+  "selfCheck": [
+   "Could someone who missed the meeting tell from my recap alone what was decided and what they need to do?",
+   "Does every action have exactly one named owner and a date, or did I write \"we will\" or \"the team\"?",
+   "Did each owner agree to their task out loud before we left, rather than discovering it in my email?",
+   "Have I separated firm decisions from open questions so nobody mistakes a suggestion for a commitment?"
+  ],
+  "steps": [
+   "Before the meeting ends, read the decisions and action items aloud and get each owner to confirm their task and date in the room.",
+   "Within 24 hours, send the recap to everyone who attended and everyone affected who was absent.",
+   "Put the decisions first, each as one plain sentence stating what was agreed.",
+   "List each action as owner, verb-first task and due date - one named person per action, not a team.",
+   "Add a short \"open questions\" list naming who will resolve each one and where it lands next (a later agenda, a subgroup).",
+   "Ask readers to reply with corrections by a stated time, then treat the uncorrected recap as the record.",
+   "Start the next meeting by checking the previous recap's actions before new business."
+  ],
+  "example": {
+   "situation": "A product manager follows up a 40-minute cross-team meeting about a delayed release.",
+   "before": "Thanks all for a great discussion today! Lots of good ideas about the release. Let's keep the momentum going and circle back next week.",
+   "after": "Decided: release moves to 18 March; the export feature ships in the April update. Actions: Ana - tell the three pilot customers about the new date by Thu 5 Mar. Raj - rebuild the test plan without export by Mon 9 Mar. Me - update the public roadmap by Fri 6 Mar. Open: whether support needs extra training (Lee to decide by our 12 Mar meeting). Reply by noon tomorrow if I've got anything wrong.",
+   "why": "The first version records a mood, not an outcome; the second lets anyone - including people who missed the meeting - see what changed, who owns each next step and when to expect it, and gives a deadline for correcting the record."
+  },
+  "source_urls": [
+   "https://core.ac.uk/download/232775527.pdf",
+   "https://kops.uni-konstanz.de/entities/publication/2e749bfb-8533-437c-8203-7e788c910c5f",
+   "https://www.aamc.org/professional-development/affinity-groups/gfa/faculty-vitae/effective-team-meetings",
+   "https://bpmoportal.berkeley.edu/node/83"
+  ]
+ },
+ {
   "id": "cm:mehrabian-myth",
   "title": "Mehrabian's 7-38-55 rule",
   "aliases": [

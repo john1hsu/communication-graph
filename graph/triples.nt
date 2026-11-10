@@ -4918,6 +4918,84 @@
 <https://github.com/john1hsu/communication-graph/id/meeting-agendas> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/meetings-and-facilitation/meeting-agendas.md" .
 <https://github.com/john1hsu/communication-graph/id/meeting-agendas> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/meeting-agendas/howto> .
 <https://github.com/john1hsu/communication-graph/id/meeting-agendas> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Could someone who missed the meeting tell from my recap alone what was decided and what they need to do?" .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/meeting-recaps> .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Does every action have exactly one named owner and a date, or did I write \"we will\" or \"the team\"?" .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/meeting-recaps> .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Did each owner agree to their task out loud before we left, rather than discovering it in my email?" .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/meeting-recaps> .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Have I separated firm decisions from open questions so nobody mistakes a suggestion for a commitment?" .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/meeting-recaps> .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps/example> <https://github.com/john1hsu/communication-graph/ontology#after> "Decided: release moves to 18 March; the export feature ships in the April update. Actions: Ana - tell the three pilot customers about the new date by Thu 5 Mar. Raj - rebuild the test plan without export by Mon 9 Mar. Me - update the public roadmap by Fri 6 Mar. Open: whether support needs extra training (Lee to decide by our 12 Mar meeting). Reply by noon tomorrow if I've got anything wrong." .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps/example> <https://github.com/john1hsu/communication-graph/ontology#before> "Thanks all for a great discussion today! Lots of good ideas about the release. Let's keep the momentum going and circle back next week." .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "A product manager follows up a 40-minute cross-team meeting about a delayed release." .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps/example> <https://github.com/john1hsu/communication-graph/ontology#why> "The first version records a mood, not an outcome; the second lets anyone - including people who missed the meeting - see what changed, who owns each next step and when to expect it, and gives a deadline for correcting the record." .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps/howto/1> <https://schema.org/text> "Before the meeting ends, read the decisions and action items aloud and get each owner to confirm their task and date in the room." .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps/howto/2> <https://schema.org/text> "Within 24 hours, send the recap to everyone who attended and everyone affected who was absent." .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps/howto/3> <https://schema.org/text> "Put the decisions first, each as one plain sentence stating what was agreed." .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps/howto/4> <https://schema.org/text> "List each action as owner, verb-first task and due date - one named person per action, not a team." .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps/howto/5> <https://schema.org/text> "Add a short \"open questions\" list naming who will resolve each one and where it lands next (a later agenda, a subgroup)." .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps/howto/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps/howto/6> <https://schema.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps/howto/6> <https://schema.org/text> "Ask readers to reply with corrections by a stated time, then treat the uncorrected recap as the record." .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps/howto/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps/howto/7> <https://schema.org/position> "7"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps/howto/7> <https://schema.org/text> "Start the next meeting by checking the previous recap's actions before new business." .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps/howto> <https://schema.org/name> "Meeting recaps" .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/meeting-recaps/howto/1> .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/meeting-recaps/howto/2> .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/meeting-recaps/howto/3> .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/meeting-recaps/howto/4> .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/meeting-recaps/howto/5> .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/meeting-recaps/howto/6> .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/meeting-recaps/howto/7> .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps> <http://purl.org/dc/terms/created> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Technique> .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps> <http://www.w3.org/2000/01/rdf-schema#label> "Meeting recaps" .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps> <http://www.w3.org/2004/02/skos/core#altLabel> "action-item summary" .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps> <http://www.w3.org/2004/02/skos/core#altLabel> "meeting follow-up note" .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps> <http://www.w3.org/2004/02/skos/core#altLabel> "post-meeting summary" .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps> <http://www.w3.org/2004/02/skos/core#altLabel> "recap email" .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/meeting-design> .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps> <http://www.w3.org/2004/02/skos/core#definition> "Sending, soon after a meeting, a short written record of what was decided, who will do what by when, and what remains open, so attendees and absentees share one account of the outcome and can act on it." .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/meetings-and-facilitation> .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps> <http://www.w3.org/2004/02/skos/core#prefLabel> "Meeting recaps" .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/meeting-agendas> .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/raci-matrix> .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/status-reporting> .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/summarizing> .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/meeting-recaps/s1> .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/meeting-recaps/s2> .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/meeting-recaps/s3> .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/meeting-recaps/s4> .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/unclear-ownership> .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/email> .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/workplace-meetings> .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/meeting-agendas> .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps> <https://github.com/john1hsu/communication-graph/ontology#domain> "meetings-and-facilitation" .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "practitioner" .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/meeting-recaps/example> .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/implementation-intentions> .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/meetings-and-facilitation/meeting-recaps.md" .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/meeting-recaps/howto> .
+<https://github.com/john1hsu/communication-graph/id/meeting-recaps> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> <http://purl.org/dc/terms/created> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
 <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> <http://www.w3.org/2000/01/rdf-schema#label> "Mehrabian's 7-38-55 rule" .
@@ -11110,6 +11188,30 @@
 <https://github.com/john1hsu/communication-graph/id/source/meeting-agendas/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/meeting-agendas/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "practitioner-journal" .
 <https://github.com/john1hsu/communication-graph/id/source/meeting-agendas/s5> <https://schema.org/url> <https://hbr.org/2015/03/how-to-design-an-agenda-for-an-effective-meeting> .
+<https://github.com/john1hsu/communication-graph/id/source/meeting-recaps/s1> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/meeting-recaps/s1> <http://purl.org/dc/terms/publisher> "Joseph E. Mroz, Joseph A. Allen, Dana C. Verhoeven & Marissa L. Shuffler, Current Directions in Psychological Science 27(6), 484-491, 2018, doi:10.1177/0963721418776307 (CORE open-access copy)" .
+<https://github.com/john1hsu/communication-graph/id/source/meeting-recaps/s1> <http://purl.org/dc/terms/title> "Do We Really Need Another Meeting? The Science of Workplace Meetings" .
+<https://github.com/john1hsu/communication-graph/id/source/meeting-recaps/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/meeting-recaps/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/meeting-recaps/s1> <https://schema.org/url> <https://core.ac.uk/download/232775527.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/meeting-recaps/s2> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/meeting-recaps/s2> <http://purl.org/dc/terms/publisher> "Peter M. Gollwitzer & Paschal Sheeran, Advances in Experimental Social Psychology 38, 69-119, 2006, doi:10.1016/S0065-2601(06)38002-1 (University of Konstanz repository)" .
+<https://github.com/john1hsu/communication-graph/id/source/meeting-recaps/s2> <http://purl.org/dc/terms/title> "Implementation Intentions and Goal Achievement: A Meta-analysis of Effects and Processes" .
+<https://github.com/john1hsu/communication-graph/id/source/meeting-recaps/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/meeting-recaps/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/meeting-recaps/s2> <https://schema.org/url> <https://kops.uni-konstanz.de/entities/publication/2e749bfb-8533-437c-8203-7e788c910c5f> .
+<https://github.com/john1hsu/communication-graph/id/source/meeting-recaps/s3> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/meeting-recaps/s3> <http://purl.org/dc/terms/publisher> "Yvette Pigeon & Omar Khan, Association of American Medical Colleges (AAMC) Faculty Vitae, 2010" .
+<https://github.com/john1hsu/communication-graph/id/source/meeting-recaps/s3> <http://purl.org/dc/terms/title> "Tools for Effective Team Meetings" .
+<https://github.com/john1hsu/communication-graph/id/source/meeting-recaps/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/meeting-recaps/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/communication-graph/id/source/meeting-recaps/s3> <https://schema.org/url> <https://www.aamc.org/professional-development/affinity-groups/gfa/faculty-vitae/effective-team-meetings> .
+<https://github.com/john1hsu/communication-graph/id/source/meeting-recaps/s4> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/meeting-recaps/s4> <http://purl.org/dc/terms/publisher> "Mike Cook, Business Process Management Office, University of California, Berkeley" .
+<https://github.com/john1hsu/communication-graph/id/source/meeting-recaps/s4> <http://purl.org/dc/terms/title> "Making the Most of Your Meetings With Agendas and Action Items" .
+<https://github.com/john1hsu/communication-graph/id/source/meeting-recaps/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/meeting-recaps/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/communication-graph/id/source/meeting-recaps/s4> <https://schema.org/url> <https://bpmoportal.berkeley.edu/node/83> .
 <https://github.com/john1hsu/communication-graph/id/source/mehrabian-myth/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/mehrabian-myth/s1> <http://purl.org/dc/terms/publisher> "Albert Mehrabian, author's own site (kaaj.com) describing Silent Messages (1971; 2nd ed. 1981)" .
 <https://github.com/john1hsu/communication-graph/id/source/mehrabian-myth/s1> <http://purl.org/dc/terms/title> "\"Silent Messages\" -- A Wealth of Information About Nonverbal Communication (Body Language)" .
