@@ -420,6 +420,14 @@
 <https://github.com/john1hsu/communication-graph/id/feedforward#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/feedforward/s3> .
 <https://github.com/john1hsu/communication-graph/id/feedforward#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/feedforward/s4> .
 <https://github.com/john1hsu/communication-graph/id/feedforward#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/feedforward/s5> .
+<https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> .
+<https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/feedback-and-coaching/hattie-timperley-feedback-model.md" .
+<https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/hattie-timperley-feedback-model/s1> .
+<https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/hattie-timperley-feedback-model/s2> .
+<https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/hattie-timperley-feedback-model/s3> .
+<https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/hattie-timperley-feedback-model/s4> .
+<https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/hattie-timperley-feedback-model/s5> .
 <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> .
 <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/feedback-and-coaching/one-on-one-meetings.md" .
@@ -5952,6 +5960,118 @@
   <https://github.com/john1hsu/communication-graph/id/source/feedforward/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
   <https://github.com/john1hsu/communication-graph/id/source/feedforward/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
   <https://github.com/john1hsu/communication-graph/id/source/feedforward/s5> <https://schema.org/url> <https://www-2.rotman.utoronto.ca/insightshub/talent-management-inclusion/feedforward-reviews> .
+}
+
+<https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model#graph> {
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Could the other person state the goal of this work in one sentence after my feedback?" .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Did I say what to do next, or only what was wrong?" .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Is most of what I said about the approach and how to check it, rather than about this one output or about the person?" .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Did any praise I gave carry information about the work, or was it a general compliment?" .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model/example> <https://github.com/john1hsu/communication-graph/ontology#after> "The goal is a one-page report the client can act on in two minutes. Your data is accurate and the budget table is clear. Right now the slip on the testing milestone sits on page 3, so the client could miss it. Next draft, open with the top risk and our proposed fix, and before sending, ask yourself: what is the one thing the client must decide this week?" .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model/example> <https://github.com/john1hsu/communication-graph/ontology#before> "Great effort, you're a natural! A few things to tidy - see my edits. Section 3 is wrong, and it's too long." .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "A team lead reviews a junior analyst's first draft of a client status report, which ran long and buried a schedule risk." .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model/example> <https://github.com/john1hsu/communication-graph/ontology#why> "The first version mixes person-level praise with a bare verdict and tracked changes, so the analyst learns neither the goal nor how to avoid the problem; the rewrite answers all three questions, explains the process behind the issue, and leaves a self-check the analyst can reuse without the lead." .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model/howto/1> <https://schema.org/text> "Before the conversation, write the goal in one line - what good looks like for this piece of work - and check the other person would describe it the same way (where am I going?)." .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model/howto/2> <https://schema.org/text> "Compare the work with that goal using specific observations, saying what is already on target and what is not (how am I going?)." .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model/howto/3> <https://schema.org/text> "Name one or two concrete next actions, a stretch or a resource that will close the gap (where to next?)." .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model/howto/4> <https://schema.org/text> "Aim most comments at the process - the approach, method or strategy that produced the result - rather than only at whether this output is right." .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model/howto/5> <https://schema.org/text> "Where the person is experienced, add a self-regulation prompt that helps them check their own work next time, such as a question they can ask before sending." .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model/howto/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model/howto/6> <https://schema.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model/howto/6> <https://schema.org/text> "Drop or separate praise of the person (\"you're a star\") from the information about the work, so it does not crowd out the useful part." .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model/howto> <https://schema.org/name> "Hattie and Timperley's feedback model" .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model/howto/1> .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model/howto/2> .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model/howto/3> .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model/howto/4> .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model/howto/5> .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model/howto/6> .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> <http://purl.org/dc/terms/created> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Framework> .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> <http://www.w3.org/2000/01/rdf-schema#label> "Hattie and Timperley's feedback model" .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> <http://www.w3.org/2004/02/skos/core#altLabel> "feed up feed back feed forward" .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> <http://www.w3.org/2004/02/skos/core#altLabel> "four levels of feedback" .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> <http://www.w3.org/2004/02/skos/core#altLabel> "model of feedback to enhance learning" .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> <http://www.w3.org/2004/02/skos/core#altLabel> "power of feedback model" .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> <http://www.w3.org/2004/02/skos/core#altLabel> "three feedback questions" .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/feedback> .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> <http://www.w3.org/2004/02/skos/core#definition> "A model from John Hattie and Helen Timperley (2007) that judges feedback by whether it answers three questions - where am I going, how am I going, where to next - and by the level it is aimed at: the task, the process, self-regulation, or the self, with comments about the person as a whole judged least useful." .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/feedback-and-coaching> .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hattie and Timperley's feedback model" .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/feedforward> .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996> .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/performance-review> .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/receiving-feedback> .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/visible-learning> .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/hattie-timperley-feedback-model/s1> .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/hattie-timperley-feedback-model/s2> .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/hattie-timperley-feedback-model/s3> .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/hattie-timperley-feedback-model/s4> .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/hattie-timperley-feedback-model/s5> .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/workplace-based-assessment> .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> <https://github.com/john1hsu/communication-graph/ontology#domain> "feedback-and-coaching" .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model/example> .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/feedback-and-coaching/hattie-timperley-feedback-model.md" .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model/howto> .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/feedback-intervention-theory> .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/helen-timperley> .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/john-hattie> .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/feedback> .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> .
+  <https://github.com/john1hsu/communication-graph/id/source/hattie-timperley-feedback-model/s1> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/hattie-timperley-feedback-model/s1> <http://purl.org/dc/terms/publisher> "John Hattie & Helen Timperley, Review of Educational Research 77(1), 81-112 (2007), doi:10.3102/003465430298487 (course copy, University of Kentucky)" .
+  <https://github.com/john1hsu/communication-graph/id/source/hattie-timperley-feedback-model/s1> <http://purl.org/dc/terms/title> "The Power of Feedback" .
+  <https://github.com/john1hsu/communication-graph/id/source/hattie-timperley-feedback-model/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/hattie-timperley-feedback-model/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/communication-graph/id/source/hattie-timperley-feedback-model/s1> <https://schema.org/url> <https://www.uky.edu/~gmswan3/575/Hattie_Timperly_2007.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/hattie-timperley-feedback-model/s2> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/hattie-timperley-feedback-model/s2> <http://purl.org/dc/terms/publisher> "Wisniewski, Zierer & Hattie, Frontiers in Psychology 10:3087 (2020), doi:10.3389/fpsyg.2019.03087" .
+  <https://github.com/john1hsu/communication-graph/id/source/hattie-timperley-feedback-model/s2> <http://purl.org/dc/terms/title> "The Power of Feedback Revisited: A Meta-Analysis of Educational Feedback Research" .
+  <https://github.com/john1hsu/communication-graph/id/source/hattie-timperley-feedback-model/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/hattie-timperley-feedback-model/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/hattie-timperley-feedback-model/s2> <https://schema.org/url> <https://www.frontiersin.org/articles/10.3389/fpsyg.2019.03087/pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/hattie-timperley-feedback-model/s3> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/hattie-timperley-feedback-model/s3> <http://purl.org/dc/terms/publisher> "Compagna, Ross & Lee, Family Medicine 57(7), 508-512 (2025), doi:10.22454/FamMed.2025.362243" .
+  <https://github.com/john1hsu/communication-graph/id/source/hattie-timperley-feedback-model/s3> <http://purl.org/dc/terms/title> "An Exploration of Feedback Using Hattie and Timperley's Feedback Levels" .
+  <https://github.com/john1hsu/communication-graph/id/source/hattie-timperley-feedback-model/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/hattie-timperley-feedback-model/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/hattie-timperley-feedback-model/s3> <https://schema.org/url> <https://journals.stfm.org/familymedicine/2025/july-august/lee-0441/> .
+  <https://github.com/john1hsu/communication-graph/id/source/hattie-timperley-feedback-model/s4> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/hattie-timperley-feedback-model/s4> <http://purl.org/dc/terms/publisher> "Pierre-Jérôme Bergeron (trans. Lysanne Rivard), McGill Journal of Education 52(1) (2017)" .
+  <https://github.com/john1hsu/communication-graph/id/source/hattie-timperley-feedback-model/s4> <http://purl.org/dc/terms/title> "How to engage in pseudoscience with real data: A criticism of John Hattie's arguments in Visible Learning from the perspective of a statistician" .
+  <https://github.com/john1hsu/communication-graph/id/source/hattie-timperley-feedback-model/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/hattie-timperley-feedback-model/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/hattie-timperley-feedback-model/s4> <https://schema.org/url> <https://mje.mcgill.ca/article/download/9475/7229?inline=1> .
+  <https://github.com/john1hsu/communication-graph/id/source/hattie-timperley-feedback-model/s5> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/hattie-timperley-feedback-model/s5> <http://purl.org/dc/terms/publisher> "Kluger & DeNisi, Psychological Bulletin 119(2), 254-284 (1996) (Hebrew University research portal)" .
+  <https://github.com/john1hsu/communication-graph/id/source/hattie-timperley-feedback-model/s5> <http://purl.org/dc/terms/title> "The effects of feedback interventions on performance: a historical review, a meta-analysis, and a preliminary feedback intervention theory" .
+  <https://github.com/john1hsu/communication-graph/id/source/hattie-timperley-feedback-model/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/hattie-timperley-feedback-model/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/hattie-timperley-feedback-model/s5> <https://schema.org/url> <https://cris.huji.ac.il/en/publications/the-effects-of-feedback-interventions-on-performance-a-historical/> .
 }
 
 <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings#graph> {
@@ -17038,6 +17158,7 @@
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/first-offer> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/fm-6-0> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/gestures> .
+  <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/hofstede-cultural-dimensions> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/influence-without-authority> .
@@ -17764,6 +17885,7 @@
   <https://github.com/john1hsu/communication-graph/id/fear-and-loathing-of-the-english-passive> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/active-voice> .
   <https://github.com/john1hsu/communication-graph/id/feedback-intervention-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996> .
   <https://github.com/john1hsu/communication-graph/id/feedback-intervention-theory> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/feedback> .
+  <https://github.com/john1hsu/communication-graph/id/feedback-intervention-theory> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> .
   <https://github.com/john1hsu/communication-graph/id/feedback-sandwich/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/feedback-sandwich/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/feedback-sandwich/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -17785,6 +17907,7 @@
   <https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> .
   <https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/feedback-sandwich> .
   <https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/feedforward> .
+  <https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> .
   <https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996> .
   <https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/receiving-feedback> .
   <https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> .
@@ -17792,6 +17915,7 @@
   <https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> .
   <https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/feedback-sandwich> .
   <https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/feedforward> .
+  <https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> .
   <https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996> .
   <https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/receiving-feedback> .
   <https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/self-affirmation-before-feedback> .
@@ -17806,6 +17930,7 @@
   <https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/self-recording-playback> .
   <https://github.com/john1hsu/communication-graph/id/feedback> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> .
   <https://github.com/john1hsu/communication-graph/id/feedback> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/norbert-wiener> .
+  <https://github.com/john1hsu/communication-graph/id/feedback> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> .
   <https://github.com/john1hsu/communication-graph/id/feedback> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996> .
   <https://github.com/john1hsu/communication-graph/id/feedback> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/performance-review> .
   <https://github.com/john1hsu/communication-graph/id/feedback> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> .
@@ -17822,6 +17947,7 @@
   <https://github.com/john1hsu/communication-graph/id/feedforward> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
   <https://github.com/john1hsu/communication-graph/id/feedforward> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/feedback-sandwich> .
   <https://github.com/john1hsu/communication-graph/id/feedforward> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/feedback> .
+  <https://github.com/john1hsu/communication-graph/id/feedforward> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> .
   <https://github.com/john1hsu/communication-graph/id/feedforward> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996> .
   <https://github.com/john1hsu/communication-graph/id/feedforward> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/norbert-wiener> .
   <https://github.com/john1hsu/communication-graph/id/feedforward> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/receiving-feedback> .
@@ -18039,10 +18165,22 @@
   <https://github.com/john1hsu/communication-graph/id/harvey-sacks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/harvey-sacks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/harvey-sacks> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> .
-  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996> .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/feedback> .
+  <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
   <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> .
   <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/feedback> .
   <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> .
+  <https://github.com/john1hsu/communication-graph/id/helen-timperley> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/helen-timperley> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+  <https://github.com/john1hsu/communication-graph/id/helen-timperley> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> .
   <https://github.com/john1hsu/communication-graph/id/henley-digennaro-reed-2015> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/feedback-sandwich> .
   <https://github.com/john1hsu/communication-graph/id/henri-lipmanowicz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/henri-lipmanowicz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
@@ -18349,6 +18487,7 @@
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/filled-pauses> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/first-offer> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/gestures> .
+  <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/influence-without-authority> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/integrative-negotiation> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/interests-vs-positions> .
@@ -18458,6 +18597,7 @@
   <https://github.com/john1hsu/communication-graph/id/john-antonakis> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> .
   <https://github.com/john1hsu/communication-graph/id/john-hattie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/john-hattie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+  <https://github.com/john1hsu/communication-graph/id/john-hattie> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> .
   <https://github.com/john1hsu/communication-graph/id/john-hattie> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> .
   <https://github.com/john1hsu/communication-graph/id/john-j-gabarro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/john-j-gabarro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
@@ -19039,6 +19179,7 @@
   <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/considering-others-contributions-first> .
   <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/face-to-face-conversation> .
   <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/feedback> .
+  <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> .
   <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996> .
   <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/receiving-feedback> .
   <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/workplace-meetings> .
@@ -19173,6 +19314,7 @@
   <https://github.com/john1hsu/communication-graph/id/performance-review> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
   <https://github.com/john1hsu/communication-graph/id/performance-review> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/performance-management> .
   <https://github.com/john1hsu/communication-graph/id/performance-review> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/workplace-meetings> .
+  <https://github.com/john1hsu/communication-graph/id/performance-review> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> .
   <https://github.com/john1hsu/communication-graph/id/performance-review> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> .
   <https://github.com/john1hsu/communication-graph/id/performance-review> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/receiving-feedback> .
   <https://github.com/john1hsu/communication-graph/id/performance-review> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/self-affirmation-before-feedback> .
@@ -19516,6 +19658,7 @@
   <https://github.com/john1hsu/communication-graph/id/receiving-feedback> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/self-affirmation-before-feedback> .
   <https://github.com/john1hsu/communication-graph/id/receiving-feedback> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/self-affirmation-before-feedback> .
   <https://github.com/john1hsu/communication-graph/id/receiving-feedback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/feedback> .
+  <https://github.com/john1hsu/communication-graph/id/receiving-feedback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> .
   <https://github.com/john1hsu/communication-graph/id/receiving-feedback> <https://github.com/john1hsu/communication-graph/ontology#developedBy> <https://github.com/john1hsu/communication-graph/id/self-affirmation-before-feedback> .
   <https://github.com/john1hsu/communication-graph/id/reciprocal-self-disclosure/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/reciprocal-self-disclosure/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -19801,6 +19944,7 @@
   <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/defensiveness> .
   <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/feedback-sandwich> .
   <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/feedback> .
+  <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> .
   <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996> .
   <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/paraphrasing> .
   <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/performance-review> .
@@ -20144,6 +20288,7 @@
   <https://github.com/john1hsu/communication-graph/id/video-call-communication> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> .
   <https://github.com/john1hsu/communication-graph/id/video-call-communication> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> .
   <https://github.com/john1hsu/communication-graph/id/video-call-communication> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/proxemics> .
+  <https://github.com/john1hsu/communication-graph/id/visible-learning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> .
   <https://github.com/john1hsu/communication-graph/id/visible-learning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> .
   <https://github.com/john1hsu/communication-graph/id/vocal-delivery> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/filled-pauses> .
   <https://github.com/john1hsu/communication-graph/id/vocal-delivery> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> .
@@ -20198,6 +20343,7 @@
   <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/feedback> .
   <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
   <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/feedback> .
+  <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> .
   <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996> .
   <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> .
   <https://github.com/john1hsu/communication-graph/id/wohltjen-wheatley-2021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -20219,6 +20365,7 @@
   <https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/executive-briefing> .
   <https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies> .
   <https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/status-reporting> .
+  <https://github.com/john1hsu/communication-graph/id/workplace-based-assessment> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> .
   <https://github.com/john1hsu/communication-graph/id/workplace-meetings> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/workplace-meetings> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/workplace-meetings> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .

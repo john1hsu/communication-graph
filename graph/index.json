@@ -6998,6 +6998,119 @@
   ]
  },
  {
+  "id": "cm:hattie-timperley-feedback-model",
+  "title": "Hattie and Timperley's feedback model",
+  "aliases": [
+   "model of feedback to enhance learning",
+   "feed up feed back feed forward",
+   "three feedback questions",
+   "four levels of feedback",
+   "power of feedback model"
+  ],
+  "type": "Framework",
+  "domain": "feedback-and-coaching",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/feedback-and-coaching/hattie-timperley-feedback-model.md",
+  "created": "2026-11-10",
+  "summary": "A model from John Hattie and Helen Timperley (2007) that judges feedback by whether it answers three questions - where am I going, how am I going, where to next - and by the level it is aimed at: the task, the process, self-regulation, or the self, with comments about the person as a whole judged least useful.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:feedback"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:situation-behavior-impact"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:feedforward"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:one-on-one-meetings"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:performance-review"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:receiving-feedback"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:visible-learning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:kluger-denisi-1996"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:feedback"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:john-hattie",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:helen-timperley",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:influencedBy",
+    "object": "cm:feedback-intervention-theory",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:wisniewski-zierer-hattie-2020",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:workplace-based-assessment",
+    "source": "s3",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Could the other person state the goal of this work in one sentence after my feedback?",
+   "Did I say what to do next, or only what was wrong?",
+   "Is most of what I said about the approach and how to check it, rather than about this one output or about the person?",
+   "Did any praise I gave carry information about the work, or was it a general compliment?"
+  ],
+  "steps": [
+   "Before the conversation, write the goal in one line - what good looks like for this piece of work - and check the other person would describe it the same way (where am I going?).",
+   "Compare the work with that goal using specific observations, saying what is already on target and what is not (how am I going?).",
+   "Name one or two concrete next actions, a stretch or a resource that will close the gap (where to next?).",
+   "Aim most comments at the process - the approach, method or strategy that produced the result - rather than only at whether this output is right.",
+   "Where the person is experienced, add a self-regulation prompt that helps them check their own work next time, such as a question they can ask before sending.",
+   "Drop or separate praise of the person (\"you're a star\") from the information about the work, so it does not crowd out the useful part."
+  ],
+  "example": {
+   "situation": "A team lead reviews a junior analyst's first draft of a client status report, which ran long and buried a schedule risk.",
+   "before": "Great effort, you're a natural! A few things to tidy - see my edits. Section 3 is wrong, and it's too long.",
+   "after": "The goal is a one-page report the client can act on in two minutes. Your data is accurate and the budget table is clear. Right now the slip on the testing milestone sits on page 3, so the client could miss it. Next draft, open with the top risk and our proposed fix, and before sending, ask yourself: what is the one thing the client must decide this week?",
+   "why": "The first version mixes person-level praise with a bare verdict and tracked changes, so the analyst learns neither the goal nor how to avoid the problem; the rewrite answers all three questions, explains the process behind the issue, and leaves a self-check the analyst can reuse without the lead."
+  },
+  "source_urls": [
+   "https://www.uky.edu/~gmswan3/575/Hattie_Timperly_2007.pdf",
+   "https://www.frontiersin.org/articles/10.3389/fpsyg.2019.03087/pdf",
+   "https://journals.stfm.org/familymedicine/2025/july-august/lee-0441/",
+   "https://mje.mcgill.ca/article/download/9475/7229?inline=1",
+   "https://cris.huji.ac.il/en/publications/the-effects-of-feedback-interventions-on-performance-a-historical/"
+  ]
+ },
+ {
   "id": "cm:high-and-low-context-cultures",
   "title": "High- and low-context cultures",
   "aliases": [

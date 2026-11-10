@@ -621,6 +621,29 @@ Ask yourself:
 - Am I using feedforward to avoid a conversation about a real problem that still needs to be discussed?
 - Which of the suggestions will I actually try, and have I told the people who gave them?
 
+### [Hattie and Timperley's feedback model](../articles/feedback-and-coaching/hattie-timperley-feedback-model.md) — Framework
+
+1. Before the conversation, write the goal in one line - what good looks like for this piece of work - and check the other person would describe it the same way (where am I going?).
+2. Compare the work with that goal using specific observations, saying what is already on target and what is not (how am I going?).
+3. Name one or two concrete next actions, a stretch or a resource that will close the gap (where to next?).
+4. Aim most comments at the process - the approach, method or strategy that produced the result - rather than only at whether this output is right.
+5. Where the person is experienced, add a self-regulation prompt that helps them check their own work next time, such as a question they can ask before sending.
+6. Drop or separate praise of the person ("you're a star") from the information about the work, so it does not crowd out the useful part.
+
+*A team lead reviews a junior analyst's first draft of a client status report, which ran long and buried a schedule risk.*
+
+| Before | After |
+|---|---|
+| Great effort, you're a natural! A few things to tidy - see my edits. Section 3 is wrong, and it's too long. | The goal is a one-page report the client can act on in two minutes. Your data is accurate and the budget table is clear. Right now the slip on the testing milestone sits on page 3, so the client could miss it. Next draft, open with the top risk and our proposed fix, and before sending, ask yourself: what is the one thing the client must decide this week? |
+
+**Why:** The first version mixes person-level praise with a bare verdict and tracked changes, so the analyst learns neither the goal nor how to avoid the problem; the rewrite answers all three questions, explains the process behind the issue, and leaves a self-check the analyst can reuse without the lead.
+
+Ask yourself:
+- Could the other person state the goal of this work in one sentence after my feedback?
+- Did I say what to do next, or only what was wrong?
+- Is most of what I said about the approach and how to check it, rather than about this one output or about the person?
+- Did any praise I gave carry information about the work, or was it a general compliment?
+
 ### [Receiving feedback](../articles/feedback-and-coaching/receiving-feedback.md) — Skill
 
 Ask yourself:
