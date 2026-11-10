@@ -41,6 +41,15 @@
 <https://github.com/john1hsu/communication-graph/id/egocentric-bias#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/egocentric-bias/s4> .
 <https://github.com/john1hsu/communication-graph/id/egocentric-bias#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/egocentric-bias/s5> .
 <https://github.com/john1hsu/communication-graph/id/egocentric-bias#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/egocentric-bias/s6> .
+<https://github.com/john1hsu/communication-graph/id/emotional-contagion#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/emotional-contagion#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/emotional-contagion> .
+<https://github.com/john1hsu/communication-graph/id/emotional-contagion#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/barriers-and-psychology/emotional-contagion.md" .
+<https://github.com/john1hsu/communication-graph/id/emotional-contagion#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s1> .
+<https://github.com/john1hsu/communication-graph/id/emotional-contagion#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s2> .
+<https://github.com/john1hsu/communication-graph/id/emotional-contagion#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s3> .
+<https://github.com/john1hsu/communication-graph/id/emotional-contagion#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s4> .
+<https://github.com/john1hsu/communication-graph/id/emotional-contagion#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s5> .
+<https://github.com/john1hsu/communication-graph/id/emotional-contagion#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s6> .
 <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> .
 <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/barriers-and-psychology/illusion-of-transparency.md" .
@@ -1949,6 +1958,78 @@
   <https://github.com/john1hsu/communication-graph/id/source/egocentric-bias/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
   <https://github.com/john1hsu/communication-graph/id/source/egocentric-bias/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
   <https://github.com/john1hsu/communication-graph/id/source/egocentric-bias/s6> <https://schema.org/url> <https://scholarlypublications.universiteitleiden.nl/handle/1887/74652> .
+}
+
+<https://github.com/john1hsu/communication-graph/id/emotional-contagion#graph> {
+  <https://github.com/john1hsu/communication-graph/id/emotional-contagion> <http://purl.org/dc/terms/created> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/emotional-contagion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Phenomenon> .
+  <https://github.com/john1hsu/communication-graph/id/emotional-contagion> <http://www.w3.org/2000/01/rdf-schema#label> "Emotional contagion" .
+  <https://github.com/john1hsu/communication-graph/id/emotional-contagion> <http://www.w3.org/2004/02/skos/core#altLabel> "catching emotions" .
+  <https://github.com/john1hsu/communication-graph/id/emotional-contagion> <http://www.w3.org/2004/02/skos/core#altLabel> "mood contagion" .
+  <https://github.com/john1hsu/communication-graph/id/emotional-contagion> <http://www.w3.org/2004/02/skos/core#altLabel> "primitive emotional contagion" .
+  <https://github.com/john1hsu/communication-graph/id/emotional-contagion> <http://www.w3.org/2004/02/skos/core#altLabel> "ripple effect of emotions" .
+  <https://github.com/john1hsu/communication-graph/id/emotional-contagion> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
+  <https://github.com/john1hsu/communication-graph/id/emotional-contagion> <http://www.w3.org/2004/02/skos/core#definition> "The tendency for one person's emotions to spread to the people they interact with, often without anyone noticing, so that a speaker's or leader's mood shapes how a conversation, meeting or team feels and behaves; the effect is well documented in groups but small in text-only channels, and its mimicry mechanism is debated." .
+  <https://github.com/john1hsu/communication-graph/id/emotional-contagion> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/barriers-and-psychology> .
+  <https://github.com/john1hsu/communication-graph/id/emotional-contagion> <http://www.w3.org/2004/02/skos/core#prefLabel> "Emotional contagion" .
+  <https://github.com/john1hsu/communication-graph/id/emotional-contagion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/de-escalation> .
+  <https://github.com/john1hsu/communication-graph/id/emotional-contagion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/labeling-emotions> .
+  <https://github.com/john1hsu/communication-graph/id/emotional-contagion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mirroring> .
+  <https://github.com/john1hsu/communication-graph/id/emotional-contagion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> .
+  <https://github.com/john1hsu/communication-graph/id/emotional-contagion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
+  <https://github.com/john1hsu/communication-graph/id/emotional-contagion> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s1> .
+  <https://github.com/john1hsu/communication-graph/id/emotional-contagion> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s2> .
+  <https://github.com/john1hsu/communication-graph/id/emotional-contagion> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s3> .
+  <https://github.com/john1hsu/communication-graph/id/emotional-contagion> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s4> .
+  <https://github.com/john1hsu/communication-graph/id/emotional-contagion> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s5> .
+  <https://github.com/john1hsu/communication-graph/id/emotional-contagion> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s6> .
+  <https://github.com/john1hsu/communication-graph/id/emotional-contagion> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/workplace-meetings> .
+  <https://github.com/john1hsu/communication-graph/id/emotional-contagion> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/hess-fischer-2013> .
+  <https://github.com/john1hsu/communication-graph/id/emotional-contagion> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/barsade-2002> .
+  <https://github.com/john1hsu/communication-graph/id/emotional-contagion> <https://github.com/john1hsu/communication-graph/ontology#domain> "barriers-and-psychology" .
+  <https://github.com/john1hsu/communication-graph/id/emotional-contagion> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+  <https://github.com/john1hsu/communication-graph/id/emotional-contagion> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/facial-feedback-hypothesis> .
+  <https://github.com/john1hsu/communication-graph/id/emotional-contagion> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/barriers-and-psychology/emotional-contagion.md" .
+  <https://github.com/john1hsu/communication-graph/id/emotional-contagion> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/elaine-hatfield> .
+  <https://github.com/john1hsu/communication-graph/id/emotional-contagion> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+  <https://github.com/john1hsu/communication-graph/id/emotional-contagion> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/kramer-guillory-hancock-2014> .
+  <https://github.com/john1hsu/communication-graph/id/emotional-contagion> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/sy-cote-saavedra-2005> .
+  <https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s1> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s1> <http://purl.org/dc/terms/publisher> "Sigal G. Barsade, Administrative Science Quarterly 47(4), 644-675 (2002) (Wharton faculty copy)" .
+  <https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s1> <http://purl.org/dc/terms/title> "The Ripple Effect: Emotional Contagion and Its Influence on Group Behavior" .
+  <https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s1> <https://schema.org/url> <https://faculty.wharton.upenn.edu/wp-content/uploads/2012/05/Barsade_Emotional_Contagion_in_Groups.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s2> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s2> <http://purl.org/dc/terms/publisher> "Sy, Côté & Saavedra, Journal of Applied Psychology 90(2), 295-305 (2005), doi:10.1037/0021-9010.90.2.295 (PubMed record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s2> <http://purl.org/dc/terms/title> "The contagious leader: impact of the leader's mood on the mood of group members, group affective tone, and group processes" .
+  <https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s2> <https://schema.org/url> <https://pubmed.ncbi.nlm.nih.gov/15769239/> .
+  <https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s3> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s3> <http://purl.org/dc/terms/publisher> "Kramer, Guillory & Hancock, PNAS 111(24), 8788-8790 (2014), doi:10.1073/pnas.1320040111 (PubMed Central)" .
+  <https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s3> <http://purl.org/dc/terms/title> "Experimental evidence of massive-scale emotional contagion through social networks" .
+  <https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s3> <https://schema.org/url> <https://pmc.ncbi.nlm.nih.gov/articles/PMC4066473/> .
+  <https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s4> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s4> <http://purl.org/dc/terms/publisher> "Hess & Fischer, Personality and Social Psychology Review 17(2), 142-157 (2013), doi:10.1177/1088868312472607 (author copy)" .
+  <https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s4> <http://purl.org/dc/terms/title> "Emotional Mimicry as Social Regulation" .
+  <https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s4> <https://schema.org/url> <https://www.ursulakhess.com/resources/HF13.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s5> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s5> <http://purl.org/dc/terms/publisher> "Coles et al., Nature Human Behaviour 6, 1731-1742 (2022), doi:10.1038/s41562-022-01458-9 (Newcastle University ePrints record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s5> <http://purl.org/dc/terms/title> "A multi-lab test of the facial feedback hypothesis by the Many Smiles Collaboration" .
+  <https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s5> <https://schema.org/url> <https://eprints.ncl.ac.uk/278042> .
+  <https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s6> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s6> <http://purl.org/dc/terms/publisher> "ScienceDaily (2022)" .
+  <https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s6> <http://purl.org/dc/terms/title> "News release on the Many Smiles Collaboration facial feedback study" .
+  <https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "news" .
+  <https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s6> <https://schema.org/url> <https://sciencedaily.com/releases/2022/10/221026103147.htm> .
 }
 
 <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency#graph> {
@@ -18060,6 +18141,9 @@
   <https://github.com/john1hsu/communication-graph/id/barley-meyerson-grodal-2011> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/email> .
   <https://github.com/john1hsu/communication-graph/id/barley-meyerson-grodal-2011> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/information-overload> .
   <https://github.com/john1hsu/communication-graph/id/barrett-et-al-2019> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> .
+  <https://github.com/john1hsu/communication-graph/id/barsade-2002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/barsade-2002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
+  <https://github.com/john1hsu/communication-graph/id/barsade-2002> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/emotional-contagion> .
   <https://github.com/john1hsu/communication-graph/id/base-rate-neglect> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies> .
   <https://github.com/john1hsu/communication-graph/id/bate-et-al-2011> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> .
   <https://github.com/john1hsu/communication-graph/id/batna/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -18497,6 +18581,7 @@
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/distributive-negotiation> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/elevator-pitch> .
+  <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/emotional-contagion> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/ethnocentrism> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/executive-briefing> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/executive-presence> .
@@ -18787,6 +18872,7 @@
   <https://github.com/john1hsu/communication-graph/id/de-escalation> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/conflict-resolution> .
   <https://github.com/john1hsu/communication-graph/id/de-escalation> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/de-escalation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/conflict-resolution> .
+  <https://github.com/john1hsu/communication-graph/id/de-escalation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/emotional-contagion> .
   <https://github.com/john1hsu/communication-graph/id/de-escalation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/morton-deutsch> .
   <https://github.com/john1hsu/communication-graph/id/de-jong-2010> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/cognitive-load> .
   <https://github.com/john1hsu/communication-graph/id/de-wit-greer-jehn-2012> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/conflict-resolution> .
@@ -19029,6 +19115,9 @@
   <https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/social-psychology> .
   <https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/gestures> .
   <https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/persuasion> .
+  <https://github.com/john1hsu/communication-graph/id/elaine-hatfield> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/elaine-hatfield> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+  <https://github.com/john1hsu/communication-graph/id/elaine-hatfield> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/emotional-contagion> .
   <https://github.com/john1hsu/communication-graph/id/elevator-pitch/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/elevator-pitch/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/elevator-pitch/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -19098,6 +19187,10 @@
   <https://github.com/john1hsu/communication-graph/id/emotion-regulation> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/self-distancing> .
   <https://github.com/john1hsu/communication-graph/id/emotion-regulation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/self-distancing> .
   <https://github.com/john1hsu/communication-graph/id/emotion-regulation> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/labeling-emotions> .
+  <https://github.com/john1hsu/communication-graph/id/emotional-contagion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+  <https://github.com/john1hsu/communication-graph/id/emotional-contagion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/emotional-contagion> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
+  <https://github.com/john1hsu/communication-graph/id/emotional-contagion> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
   <https://github.com/john1hsu/communication-graph/id/emotional-intelligence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cultural-intelligence> .
   <https://github.com/john1hsu/communication-graph/id/empathic-concern> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/apology> .
   <https://github.com/john1hsu/communication-graph/id/empathy-gap> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/egocentric-bias> .
@@ -19226,6 +19319,7 @@
   <https://github.com/john1hsu/communication-graph/id/facial-expressions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> .
   <https://github.com/john1hsu/communication-graph/id/facial-expressions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> .
   <https://github.com/john1hsu/communication-graph/id/facial-expressions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/paralanguage> .
+  <https://github.com/john1hsu/communication-graph/id/facial-feedback-hypothesis> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/emotional-contagion> .
   <https://github.com/john1hsu/communication-graph/id/facilitation/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/facilitation/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/facilitation/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -19598,6 +19692,7 @@
   <https://github.com/john1hsu/communication-graph/id/herbert-h-clark> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/herbert-h-clark> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/herbert-h-clark> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/common-ground> .
+  <https://github.com/john1hsu/communication-graph/id/hess-fischer-2013> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/emotional-contagion> .
   <https://github.com/john1hsu/communication-graph/id/heuristic-systematic-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> .
   <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -19881,6 +19976,7 @@
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> .
+  <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/emotional-contagion> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/face-and-facework> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/face-to-face-conversation> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/feedback> .
@@ -19904,6 +20000,7 @@
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/distributive-negotiation> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/elevator-pitch> .
+  <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/emotional-contagion> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/executive-presence> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/eye-contact> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/face-and-facework> .
@@ -20124,6 +20221,7 @@
   <https://github.com/john1hsu/communication-graph/id/koudenburg-postmes-gordijn-2011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/koudenburg-postmes-gordijn-2011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/koudenburg-postmes-gordijn-2011> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/silence-and-pauses> .
+  <https://github.com/john1hsu/communication-graph/id/kramer-guillory-hancock-2014> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/emotional-contagion> .
   <https://github.com/john1hsu/communication-graph/id/kraus-2017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/kraus-2017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/kraus-2017> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/paralanguage> .
@@ -20149,6 +20247,7 @@
   <https://github.com/john1hsu/communication-graph/id/labeling-emotions> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/active-listening> .
   <https://github.com/john1hsu/communication-graph/id/labeling-emotions> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/listening> .
   <https://github.com/john1hsu/communication-graph/id/labeling-emotions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/de-escalation> .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/emotional-contagion> .
   <https://github.com/john1hsu/communication-graph/id/labeling-emotions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mirroring> .
   <https://github.com/john1hsu/communication-graph/id/labeling-emotions> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/de-escalation> .
   <https://github.com/john1hsu/communication-graph/id/labeling-emotions> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/mirroring> .
@@ -20421,6 +20520,7 @@
   <https://github.com/john1hsu/communication-graph/id/mirroring> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/mirroring> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/active-listening> .
   <https://github.com/john1hsu/communication-graph/id/mirroring> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/listening> .
+  <https://github.com/john1hsu/communication-graph/id/mirroring> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/emotional-contagion> .
   <https://github.com/john1hsu/communication-graph/id/mixed-messages> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> .
   <https://github.com/john1hsu/communication-graph/id/mixed-messages> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> .
   <https://github.com/john1hsu/communication-graph/id/mixed-messages> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/paralanguage> .
@@ -20619,6 +20719,7 @@
   <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/vocal-delivery> .
   <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/wait-time> .
   <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/chen-2002> .
+  <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/emotional-contagion> .
   <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/face-to-face-conversation> .
   <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/michael-argyle> .
   <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/social-psychology> .
@@ -21054,6 +21155,7 @@
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/brainstorming> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/conflict-resolution> .
+  <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/emotional-contagion> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/facilitation> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/facilitators-guide-to-participatory-decision-making> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/interrupting> .
@@ -21661,6 +21763,7 @@
   <https://github.com/john1hsu/communication-graph/id/susan-j-ashford> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/receiving-feedback> .
   <https://github.com/john1hsu/communication-graph/id/susan-j-ashford> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/issue-selling> .
   <https://github.com/john1hsu/communication-graph/id/swaab-maddux-sinaceur-2011> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/mirroring> .
+  <https://github.com/john1hsu/communication-graph/id/sy-cote-saavedra-2005> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/emotional-contagion> .
   <https://github.com/john1hsu/communication-graph/id/sylvia-ann-hewlett> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/sylvia-ann-hewlett> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/sylvia-ann-hewlett> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/executive-presence> .
@@ -22009,6 +22112,7 @@
   <https://github.com/john1hsu/communication-graph/id/workplace-meetings> <https://github.com/john1hsu/communication-graph/ontology#alternativeTo> <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> .
   <https://github.com/john1hsu/communication-graph/id/workplace-meetings> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/1-2-4-all> .
   <https://github.com/john1hsu/communication-graph/id/workplace-meetings> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/brainstorming> .
+  <https://github.com/john1hsu/communication-graph/id/workplace-meetings> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/emotional-contagion> .
   <https://github.com/john1hsu/communication-graph/id/workplace-meetings> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/facilitation> .
   <https://github.com/john1hsu/communication-graph/id/workplace-meetings> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/facilitators-guide-to-participatory-decision-making> .
   <https://github.com/john1hsu/communication-graph/id/workplace-meetings> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/meeting-agendas> .

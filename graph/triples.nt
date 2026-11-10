@@ -2818,6 +2818,39 @@
 <https://github.com/john1hsu/communication-graph/id/email> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
 <https://github.com/john1hsu/communication-graph/id/email> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/digital-and-async-communication/email.md" .
 <https://github.com/john1hsu/communication-graph/id/email> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/emotional-contagion> <http://purl.org/dc/terms/created> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/emotional-contagion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Phenomenon> .
+<https://github.com/john1hsu/communication-graph/id/emotional-contagion> <http://www.w3.org/2000/01/rdf-schema#label> "Emotional contagion" .
+<https://github.com/john1hsu/communication-graph/id/emotional-contagion> <http://www.w3.org/2004/02/skos/core#altLabel> "catching emotions" .
+<https://github.com/john1hsu/communication-graph/id/emotional-contagion> <http://www.w3.org/2004/02/skos/core#altLabel> "mood contagion" .
+<https://github.com/john1hsu/communication-graph/id/emotional-contagion> <http://www.w3.org/2004/02/skos/core#altLabel> "primitive emotional contagion" .
+<https://github.com/john1hsu/communication-graph/id/emotional-contagion> <http://www.w3.org/2004/02/skos/core#altLabel> "ripple effect of emotions" .
+<https://github.com/john1hsu/communication-graph/id/emotional-contagion> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
+<https://github.com/john1hsu/communication-graph/id/emotional-contagion> <http://www.w3.org/2004/02/skos/core#definition> "The tendency for one person's emotions to spread to the people they interact with, often without anyone noticing, so that a speaker's or leader's mood shapes how a conversation, meeting or team feels and behaves; the effect is well documented in groups but small in text-only channels, and its mimicry mechanism is debated." .
+<https://github.com/john1hsu/communication-graph/id/emotional-contagion> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/barriers-and-psychology> .
+<https://github.com/john1hsu/communication-graph/id/emotional-contagion> <http://www.w3.org/2004/02/skos/core#prefLabel> "Emotional contagion" .
+<https://github.com/john1hsu/communication-graph/id/emotional-contagion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/de-escalation> .
+<https://github.com/john1hsu/communication-graph/id/emotional-contagion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/labeling-emotions> .
+<https://github.com/john1hsu/communication-graph/id/emotional-contagion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mirroring> .
+<https://github.com/john1hsu/communication-graph/id/emotional-contagion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> .
+<https://github.com/john1hsu/communication-graph/id/emotional-contagion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
+<https://github.com/john1hsu/communication-graph/id/emotional-contagion> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s1> .
+<https://github.com/john1hsu/communication-graph/id/emotional-contagion> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s2> .
+<https://github.com/john1hsu/communication-graph/id/emotional-contagion> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s3> .
+<https://github.com/john1hsu/communication-graph/id/emotional-contagion> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s4> .
+<https://github.com/john1hsu/communication-graph/id/emotional-contagion> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s5> .
+<https://github.com/john1hsu/communication-graph/id/emotional-contagion> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s6> .
+<https://github.com/john1hsu/communication-graph/id/emotional-contagion> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/workplace-meetings> .
+<https://github.com/john1hsu/communication-graph/id/emotional-contagion> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/hess-fischer-2013> .
+<https://github.com/john1hsu/communication-graph/id/emotional-contagion> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/barsade-2002> .
+<https://github.com/john1hsu/communication-graph/id/emotional-contagion> <https://github.com/john1hsu/communication-graph/ontology#domain> "barriers-and-psychology" .
+<https://github.com/john1hsu/communication-graph/id/emotional-contagion> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/emotional-contagion> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/facial-feedback-hypothesis> .
+<https://github.com/john1hsu/communication-graph/id/emotional-contagion> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/barriers-and-psychology/emotional-contagion.md" .
+<https://github.com/john1hsu/communication-graph/id/emotional-contagion> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/elaine-hatfield> .
+<https://github.com/john1hsu/communication-graph/id/emotional-contagion> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/emotional-contagion> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/kramer-guillory-hancock-2014> .
+<https://github.com/john1hsu/communication-graph/id/emotional-contagion> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/sy-cote-saavedra-2005> .
 <https://github.com/john1hsu/communication-graph/id/erving-goffman> <http://purl.org/dc/terms/created> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/erving-goffman> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
 <https://github.com/john1hsu/communication-graph/id/erving-goffman> <http://www.w3.org/2000/01/rdf-schema#label> "Erving Goffman" .
@@ -10118,6 +10151,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/email/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/email/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
 <https://github.com/john1hsu/communication-graph/id/source/email/s5> <https://schema.org/url> <https://cove.army.gov.au/article/writing-effective-emails> .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s1> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s1> <http://purl.org/dc/terms/publisher> "Sigal G. Barsade, Administrative Science Quarterly 47(4), 644-675 (2002) (Wharton faculty copy)" .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s1> <http://purl.org/dc/terms/title> "The Ripple Effect: Emotional Contagion and Its Influence on Group Behavior" .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s1> <https://schema.org/url> <https://faculty.wharton.upenn.edu/wp-content/uploads/2012/05/Barsade_Emotional_Contagion_in_Groups.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s2> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s2> <http://purl.org/dc/terms/publisher> "Sy, Côté & Saavedra, Journal of Applied Psychology 90(2), 295-305 (2005), doi:10.1037/0021-9010.90.2.295 (PubMed record)" .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s2> <http://purl.org/dc/terms/title> "The contagious leader: impact of the leader's mood on the mood of group members, group affective tone, and group processes" .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s2> <https://schema.org/url> <https://pubmed.ncbi.nlm.nih.gov/15769239/> .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s3> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s3> <http://purl.org/dc/terms/publisher> "Kramer, Guillory & Hancock, PNAS 111(24), 8788-8790 (2014), doi:10.1073/pnas.1320040111 (PubMed Central)" .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s3> <http://purl.org/dc/terms/title> "Experimental evidence of massive-scale emotional contagion through social networks" .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s3> <https://schema.org/url> <https://pmc.ncbi.nlm.nih.gov/articles/PMC4066473/> .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s4> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s4> <http://purl.org/dc/terms/publisher> "Hess & Fischer, Personality and Social Psychology Review 17(2), 142-157 (2013), doi:10.1177/1088868312472607 (author copy)" .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s4> <http://purl.org/dc/terms/title> "Emotional Mimicry as Social Regulation" .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s4> <https://schema.org/url> <https://www.ursulakhess.com/resources/HF13.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s5> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s5> <http://purl.org/dc/terms/publisher> "Coles et al., Nature Human Behaviour 6, 1731-1742 (2022), doi:10.1038/s41562-022-01458-9 (Newcastle University ePrints record)" .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s5> <http://purl.org/dc/terms/title> "A multi-lab test of the facial feedback hypothesis by the Many Smiles Collaboration" .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s5> <https://schema.org/url> <https://eprints.ncl.ac.uk/278042> .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s6> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s6> <http://purl.org/dc/terms/publisher> "ScienceDaily (2022)" .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s6> <http://purl.org/dc/terms/title> "News release on the Many Smiles Collaboration facial feedback study" .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "news" .
+<https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s6> <https://schema.org/url> <https://sciencedaily.com/releases/2022/10/221026103147.htm> .
 <https://github.com/john1hsu/communication-graph/id/source/erving-goffman/s1> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/erving-goffman/s1> <http://purl.org/dc/terms/publisher> "Goffman, E., American Sociological Review 48(1), 1-17, 1983 (record of the authorised Portuguese translation, Dilemas 12(3), 2019, Federal University of Rio de Janeiro)" .
 <https://github.com/john1hsu/communication-graph/id/source/erving-goffman/s1> <http://purl.org/dc/terms/title> "The Interaction Order: American Sociological Association, 1982 Presidential Address" .

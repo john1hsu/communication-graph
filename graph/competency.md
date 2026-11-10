@@ -96,7 +96,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:email` | `cm:pragmatics` |
 | `cm:email` | `cm:rapport` |
 
-…and 78 more.
+…and 79 more.
 
 ## Myths and contested advice
 
@@ -135,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:batna` | mixed | `cm:schaerer-swaab-galinsky-2015` |
 | `cm:bulleted-and-numbered-lists` | mixed | `cm:columbia-accident-investigation-board-report` |
 
-…and 104 more.
+…and 105 more.
 
 ## Concepts with no recorded origin (gap)
 

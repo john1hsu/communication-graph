@@ -5200,6 +5200,102 @@
   ]
  },
  {
+  "id": "cm:emotional-contagion",
+  "title": "Emotional contagion",
+  "aliases": [
+   "mood contagion",
+   "catching emotions",
+   "ripple effect of emotions",
+   "primitive emotional contagion"
+  ],
+  "type": "Phenomenon",
+  "domain": "barriers-and-psychology",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/barriers-and-psychology/emotional-contagion.md",
+  "created": "2026-11-10",
+  "summary": "The tendency for one person's emotions to spread to the people they interact with, often without anyone noticing, so that a speaker's or leader's mood shapes how a conversation, meeting or team feels and behaves; the effect is well documented in groups but small in text-only channels, and its mimicry mechanism is debated.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:interpersonal-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:mirroring"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:labeling-emotions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:de-escalation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:psychological-safety"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:nonverbal-communication"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:barsade-2002",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:sy-cote-saavedra-2005",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:kramer-guillory-hancock-2014",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:elaine-hatfield",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:hess-fischer-2013",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:facial-feedback-hypothesis",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:workplace-meetings",
+    "source": "s1",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://faculty.wharton.upenn.edu/wp-content/uploads/2012/05/Barsade_Emotional_Contagion_in_Groups.pdf",
+   "https://pubmed.ncbi.nlm.nih.gov/15769239/",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC4066473/",
+   "https://www.ursulakhess.com/resources/HF13.pdf",
+   "https://eprints.ncl.ac.uk/278042",
+   "https://sciencedaily.com/releases/2022/10/221026103147.htm"
+  ]
+ },
+ {
   "id": "cm:erving-goffman",
   "title": "Erving Goffman",
   "aliases": [

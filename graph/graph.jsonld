@@ -4522,6 +4522,93 @@
    ]
   },
   {
+   "@id": "cm:emotional-contagion",
+   "@type": "cmo:Phenomenon",
+   "cmo:appliedIn": {
+    "@id": "cm:workplace-meetings"
+   },
+   "cmo:challengedBy": {
+    "@id": "cm:hess-fischer-2013"
+   },
+   "cmo:demonstratedBy": {
+    "@id": "cm:barsade-2002"
+   },
+   "cmo:domain": "barriers-and-psychology",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:explainedBy": {
+    "@id": "cm:facial-feedback-hypothesis"
+   },
+   "cmo:file": "articles/barriers-and-psychology/emotional-contagion.md",
+   "cmo:introducedBy": {
+    "@id": "cm:elaine-hatfield"
+   },
+   "cmo:level": "introductory",
+   "cmo:supportedBy": [
+    {
+     "@id": "cm:kramer-guillory-hancock-2014"
+    },
+    {
+     "@id": "cm:sy-cote-saavedra-2005"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s6"
+    }
+   ],
+   "rdfs:label": "Emotional contagion",
+   "skos:altLabel": [
+    "catching emotions",
+    "mood contagion",
+    "primitive emotional contagion",
+    "ripple effect of emotions"
+   ],
+   "skos:broader": {
+    "@id": "cm:interpersonal-communication"
+   },
+   "skos:definition": "The tendency for one person's emotions to spread to the people they interact with, often without anyone noticing, so that a speaker's or leader's mood shapes how a conversation, meeting or team feels and behaves; the effect is well documented in groups but small in text-only channels, and its mimicry mechanism is debated.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/barriers-and-psychology"
+   },
+   "skos:prefLabel": "Emotional contagion",
+   "skos:related": [
+    {
+     "@id": "cm:de-escalation"
+    },
+    {
+     "@id": "cm:labeling-emotions"
+    },
+    {
+     "@id": "cm:mirroring"
+    },
+    {
+     "@id": "cm:nonverbal-communication"
+    },
+    {
+     "@id": "cm:psychological-safety"
+    }
+   ]
+  },
+  {
    "@id": "cm:erving-goffman",
    "@type": "cmo:Person",
    "cmo:authored": [
@@ -27557,6 +27644,90 @@
    "dcterms:title": "Writing effective emails",
    "schema:url": {
     "@id": "https://cove.army.gov.au/article/writing-effective-emails"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Sigal G. Barsade, Administrative Science Quarterly 47(4), 644-675 (2002) (Wharton faculty copy)",
+   "dcterms:title": "The Ripple Effect: Emotional Contagion and Its Influence on Group Behavior",
+   "schema:url": {
+    "@id": "https://faculty.wharton.upenn.edu/wp-content/uploads/2012/05/Barsade_Emotional_Contagion_in_Groups.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Sy, Côté & Saavedra, Journal of Applied Psychology 90(2), 295-305 (2005), doi:10.1037/0021-9010.90.2.295 (PubMed record)",
+   "dcterms:title": "The contagious leader: impact of the leader's mood on the mood of group members, group affective tone, and group processes",
+   "schema:url": {
+    "@id": "https://pubmed.ncbi.nlm.nih.gov/15769239/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Kramer, Guillory & Hancock, PNAS 111(24), 8788-8790 (2014), doi:10.1073/pnas.1320040111 (PubMed Central)",
+   "dcterms:title": "Experimental evidence of massive-scale emotional contagion through social networks",
+   "schema:url": {
+    "@id": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4066473/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Hess & Fischer, Personality and Social Psychology Review 17(2), 142-157 (2013), doi:10.1177/1088868312472607 (author copy)",
+   "dcterms:title": "Emotional Mimicry as Social Regulation",
+   "schema:url": {
+    "@id": "https://www.ursulakhess.com/resources/HF13.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Coles et al., Nature Human Behaviour 6, 1731-1742 (2022), doi:10.1038/s41562-022-01458-9 (Newcastle University ePrints record)",
+   "dcterms:title": "A multi-lab test of the facial feedback hypothesis by the Many Smiles Collaboration",
+   "schema:url": {
+    "@id": "https://eprints.ncl.ac.uk/278042"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "news",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "ScienceDaily (2022)",
+   "dcterms:title": "News release on the Many Smiles Collaboration facial feedback study",
+   "schema:url": {
+    "@id": "https://sciencedaily.com/releases/2022/10/221026103147.htm"
    }
   },
   {
