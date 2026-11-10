@@ -2469,6 +2469,105 @@
    ]
   },
   {
+   "@id": "cm:conflict-resolution",
+   "@type": "cmo:Field",
+   "cmo:domain": "difficult-conversations-and-conflict",
+   "cmo:evidenceStatus": "theoretical",
+   "cmo:explainedBy": {
+    "@id": "cm:theory-of-cooperation-and-competition"
+   },
+   "cmo:file": "articles/difficult-conversations-and-conflict/conflict-resolution.md",
+   "cmo:influencedBy": [
+    {
+     "@id": "cm:charles-osgood"
+    },
+    {
+     "@id": "cm:getting-to-yes"
+    },
+    {
+     "@id": "cm:morton-deutsch"
+    },
+    {
+     "@id": "cm:social-psychology"
+    }
+   ],
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/conflict-resolution/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/conflict-resolution/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/conflict-resolution/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/conflict-resolution/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/conflict-resolution/s5"
+    }
+   ],
+   "rdfs:label": "Conflict resolution",
+   "skos:altLabel": [
+    "conflict management field",
+    "conflict resolution field",
+    "conflict resolution research",
+    "constructive conflict resolution"
+   ],
+   "skos:broader": {
+    "@id": "cm:social-sciences"
+   },
+   "skos:definition": "The multidisciplinary field of research and practice that studies how disputes between people, groups and organizations can be conducted constructively, with less antagonism and with outcomes the parties can accept; it took shape in the 1950s and 1960s and grew into mediation, negotiation and alternative dispute resolution practice.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/difficult-conversations-and-conflict"
+   },
+   "skos:prefLabel": "Conflict resolution",
+   "skos:related": [
+    {
+     "@id": "cm:de-dreu-weingart-2003"
+    },
+    {
+     "@id": "cm:de-escalation"
+    },
+    {
+     "@id": "cm:de-wit-greer-jehn-2012"
+    },
+    {
+     "@id": "cm:difficult-conversation"
+    },
+    {
+     "@id": "cm:interests-vs-positions"
+    },
+    {
+     "@id": "cm:interpersonal-conflict"
+    },
+    {
+     "@id": "cm:mediation"
+    },
+    {
+     "@id": "cm:negotiation"
+    },
+    {
+     "@id": "cm:principled-negotiation"
+    },
+    {
+     "@id": "cm:psychological-safety"
+    },
+    {
+     "@id": "cm:role-reversal"
+    },
+    {
+     "@id": "cm:thomas-kilmann-conflict-modes"
+    }
+   ]
+  },
+  {
    "@id": "cm:considering-others-contributions-first",
    "@type": "cmo:Technique",
    "cmo:addresses": {
@@ -24328,6 +24427,76 @@
    "dcterms:title": "Omit needless words: Strunk and White's classic, 'The Elements of Style,' turns 50",
    "schema:url": {
     "@id": "https://news.cornell.edu/index%2Ephp/node/272696"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/conflict-resolution/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Louis Kriesberg, in I. William Zartman (ed.), Peacemaking in International Conflict, rev. ed., United States Institute of Peace (2007) (author's copy, Syracuse University)",
+   "dcterms:title": "The Conflict Resolution Field: Origins, Growth, and Differentiation",
+   "schema:url": {
+    "@id": "https://lkriesbe.expressions.syr.edu/wp-content/uploads/2007-Conflict-Resolution-Field.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/conflict-resolution/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Peter T. Coleman, Negotiation Journal (January 2018), DOI 10.1111/nejo.12216 (author's copy, Columbia University)",
+   "dcterms:title": "Ten Major Scientific Contributions that Promote a More Just, Peaceful, and Sustainable World",
+   "schema:url": {
+    "@id": "https://ac4.climate.columbia.edu/sites/default/files/content/Ten_Major_Scientific_Contribut.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/conflict-resolution/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Teachers College, Columbia University (2001)",
+   "dcterms:title": "The Handbook of Conflict Resolution: Theory and Practice",
+   "schema:url": {
+    "@id": "https://www.tc.columbia.edu/articles/2001/january/the-handbook-of-conflict-resolution-theory-and-practice/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/conflict-resolution/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Carsten K. W. De Dreu & Laurie R. Weingart, Journal of Applied Psychology 88(4), 741-749 (2003) (University of Amsterdam repository record)",
+   "dcterms:title": "Task versus relationship conflict, team performance and team member satisfaction: a meta-analysis",
+   "schema:url": {
+    "@id": "https://dare.uva.nl/id/512d789b-a9ce-4c32-82a2-892972a4dd9a"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/conflict-resolution/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Frank R. C. de Wit, Lindred L. Greer & Karen A. Jehn, Journal of Applied Psychology 97(2), 360-390 (2012) (Erasmus University repository record)",
+   "dcterms:title": "The paradox of intragroup conflict: a meta-analysis",
+   "schema:url": {
+    "@id": "https://repub.eur.nl/pub/37902"
    }
   },
   {

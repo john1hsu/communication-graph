@@ -2846,6 +2846,117 @@
   ]
  },
  {
+  "id": "cm:conflict-resolution",
+  "title": "Conflict resolution",
+  "aliases": [
+   "conflict resolution field",
+   "conflict resolution research",
+   "constructive conflict resolution",
+   "conflict management field"
+  ],
+  "type": "Field",
+  "domain": "difficult-conversations-and-conflict",
+  "level": "introductory",
+  "evidenceStatus": "theoretical",
+  "file": "articles/difficult-conversations-and-conflict/conflict-resolution.md",
+  "created": "2026-11-10",
+  "summary": "The multidisciplinary field of research and practice that studies how disputes between people, groups and organizations can be conducted constructively, with less antagonism and with outcomes the parties can accept; it took shape in the 1950s and 1960s and grew into mediation, negotiation and alternative dispute resolution practice.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:social-sciences"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:difficult-conversation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:thomas-kilmann-conflict-modes"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:de-escalation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:role-reversal"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:principled-negotiation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:interests-vs-positions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:negotiation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:interpersonal-conflict"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:mediation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:psychological-safety"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:de-dreu-weingart-2003"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:de-wit-greer-jehn-2012"
+   },
+   {
+    "predicate": "cmo:influencedBy",
+    "object": "cm:morton-deutsch",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:theory-of-cooperation-and-competition",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:influencedBy",
+    "object": "cm:charles-osgood",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:influencedBy",
+    "object": "cm:getting-to-yes",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:influencedBy",
+    "object": "cm:social-psychology",
+    "source": "s1",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://lkriesbe.expressions.syr.edu/wp-content/uploads/2007-Conflict-Resolution-Field.pdf",
+   "https://ac4.climate.columbia.edu/sites/default/files/content/Ten_Major_Scientific_Contribut.pdf",
+   "https://www.tc.columbia.edu/articles/2001/january/the-handbook-of-conflict-resolution-theory-and-practice/",
+   "https://dare.uva.nl/id/512d789b-a9ce-4c32-82a2-892972a4dd9a",
+   "https://repub.eur.nl/pub/37902"
+  ]
+ },
+ {
   "id": "cm:considering-others-contributions-first",
   "title": "Considering others' contributions first",
   "aliases": [

@@ -176,6 +176,14 @@
 <https://github.com/john1hsu/communication-graph/id/apology#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/apology/s4> .
 <https://github.com/john1hsu/communication-graph/id/apology#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/apology/s5> .
 <https://github.com/john1hsu/communication-graph/id/apology#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/apology/s6> .
+<https://github.com/john1hsu/communication-graph/id/conflict-resolution#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/conflict-resolution#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/conflict-resolution> .
+<https://github.com/john1hsu/communication-graph/id/conflict-resolution#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/difficult-conversations-and-conflict/conflict-resolution.md" .
+<https://github.com/john1hsu/communication-graph/id/conflict-resolution#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/conflict-resolution/s1> .
+<https://github.com/john1hsu/communication-graph/id/conflict-resolution#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/conflict-resolution/s2> .
+<https://github.com/john1hsu/communication-graph/id/conflict-resolution#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/conflict-resolution/s3> .
+<https://github.com/john1hsu/communication-graph/id/conflict-resolution#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/conflict-resolution/s4> .
+<https://github.com/john1hsu/communication-graph/id/conflict-resolution#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/conflict-resolution/s5> .
 <https://github.com/john1hsu/communication-graph/id/de-escalation#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/de-escalation#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/de-escalation> .
 <https://github.com/john1hsu/communication-graph/id/de-escalation#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/difficult-conversations-and-conflict/de-escalation.md" .
@@ -3193,6 +3201,76 @@
   <https://github.com/john1hsu/communication-graph/id/source/apology/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
   <https://github.com/john1hsu/communication-graph/id/source/apology/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
   <https://github.com/john1hsu/communication-graph/id/source/apology/s6> <https://schema.org/url> <https://www.psychologicalscience.org/news/minds-business/effective-apologies-include-six-elements.html> .
+}
+
+<https://github.com/john1hsu/communication-graph/id/conflict-resolution#graph> {
+  <https://github.com/john1hsu/communication-graph/id/conflict-resolution> <http://purl.org/dc/terms/created> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/conflict-resolution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Field> .
+  <https://github.com/john1hsu/communication-graph/id/conflict-resolution> <http://www.w3.org/2000/01/rdf-schema#label> "Conflict resolution" .
+  <https://github.com/john1hsu/communication-graph/id/conflict-resolution> <http://www.w3.org/2004/02/skos/core#altLabel> "conflict management field" .
+  <https://github.com/john1hsu/communication-graph/id/conflict-resolution> <http://www.w3.org/2004/02/skos/core#altLabel> "conflict resolution field" .
+  <https://github.com/john1hsu/communication-graph/id/conflict-resolution> <http://www.w3.org/2004/02/skos/core#altLabel> "conflict resolution research" .
+  <https://github.com/john1hsu/communication-graph/id/conflict-resolution> <http://www.w3.org/2004/02/skos/core#altLabel> "constructive conflict resolution" .
+  <https://github.com/john1hsu/communication-graph/id/conflict-resolution> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
+  <https://github.com/john1hsu/communication-graph/id/conflict-resolution> <http://www.w3.org/2004/02/skos/core#definition> "The multidisciplinary field of research and practice that studies how disputes between people, groups and organizations can be conducted constructively, with less antagonism and with outcomes the parties can accept; it took shape in the 1950s and 1960s and grew into mediation, negotiation and alternative dispute resolution practice." .
+  <https://github.com/john1hsu/communication-graph/id/conflict-resolution> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/difficult-conversations-and-conflict> .
+  <https://github.com/john1hsu/communication-graph/id/conflict-resolution> <http://www.w3.org/2004/02/skos/core#prefLabel> "Conflict resolution" .
+  <https://github.com/john1hsu/communication-graph/id/conflict-resolution> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/de-dreu-weingart-2003> .
+  <https://github.com/john1hsu/communication-graph/id/conflict-resolution> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/de-escalation> .
+  <https://github.com/john1hsu/communication-graph/id/conflict-resolution> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/de-wit-greer-jehn-2012> .
+  <https://github.com/john1hsu/communication-graph/id/conflict-resolution> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/difficult-conversation> .
+  <https://github.com/john1hsu/communication-graph/id/conflict-resolution> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/interests-vs-positions> .
+  <https://github.com/john1hsu/communication-graph/id/conflict-resolution> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/interpersonal-conflict> .
+  <https://github.com/john1hsu/communication-graph/id/conflict-resolution> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mediation> .
+  <https://github.com/john1hsu/communication-graph/id/conflict-resolution> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/negotiation> .
+  <https://github.com/john1hsu/communication-graph/id/conflict-resolution> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/principled-negotiation> .
+  <https://github.com/john1hsu/communication-graph/id/conflict-resolution> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
+  <https://github.com/john1hsu/communication-graph/id/conflict-resolution> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/role-reversal> .
+  <https://github.com/john1hsu/communication-graph/id/conflict-resolution> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/thomas-kilmann-conflict-modes> .
+  <https://github.com/john1hsu/communication-graph/id/conflict-resolution> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/conflict-resolution/s1> .
+  <https://github.com/john1hsu/communication-graph/id/conflict-resolution> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/conflict-resolution/s2> .
+  <https://github.com/john1hsu/communication-graph/id/conflict-resolution> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/conflict-resolution/s3> .
+  <https://github.com/john1hsu/communication-graph/id/conflict-resolution> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/conflict-resolution/s4> .
+  <https://github.com/john1hsu/communication-graph/id/conflict-resolution> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/conflict-resolution/s5> .
+  <https://github.com/john1hsu/communication-graph/id/conflict-resolution> <https://github.com/john1hsu/communication-graph/ontology#domain> "difficult-conversations-and-conflict" .
+  <https://github.com/john1hsu/communication-graph/id/conflict-resolution> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "theoretical" .
+  <https://github.com/john1hsu/communication-graph/id/conflict-resolution> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/theory-of-cooperation-and-competition> .
+  <https://github.com/john1hsu/communication-graph/id/conflict-resolution> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/difficult-conversations-and-conflict/conflict-resolution.md" .
+  <https://github.com/john1hsu/communication-graph/id/conflict-resolution> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/charles-osgood> .
+  <https://github.com/john1hsu/communication-graph/id/conflict-resolution> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/getting-to-yes> .
+  <https://github.com/john1hsu/communication-graph/id/conflict-resolution> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/morton-deutsch> .
+  <https://github.com/john1hsu/communication-graph/id/conflict-resolution> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/social-psychology> .
+  <https://github.com/john1hsu/communication-graph/id/conflict-resolution> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+  <https://github.com/john1hsu/communication-graph/id/source/conflict-resolution/s1> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/conflict-resolution/s1> <http://purl.org/dc/terms/publisher> "Louis Kriesberg, in I. William Zartman (ed.), Peacemaking in International Conflict, rev. ed., United States Institute of Peace (2007) (author's copy, Syracuse University)" .
+  <https://github.com/john1hsu/communication-graph/id/source/conflict-resolution/s1> <http://purl.org/dc/terms/title> "The Conflict Resolution Field: Origins, Growth, and Differentiation" .
+  <https://github.com/john1hsu/communication-graph/id/source/conflict-resolution/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/conflict-resolution/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/communication-graph/id/source/conflict-resolution/s1> <https://schema.org/url> <https://lkriesbe.expressions.syr.edu/wp-content/uploads/2007-Conflict-Resolution-Field.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/conflict-resolution/s2> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/conflict-resolution/s2> <http://purl.org/dc/terms/publisher> "Peter T. Coleman, Negotiation Journal (January 2018), DOI 10.1111/nejo.12216 (author's copy, Columbia University)" .
+  <https://github.com/john1hsu/communication-graph/id/source/conflict-resolution/s2> <http://purl.org/dc/terms/title> "Ten Major Scientific Contributions that Promote a More Just, Peaceful, and Sustainable World" .
+  <https://github.com/john1hsu/communication-graph/id/source/conflict-resolution/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/conflict-resolution/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/conflict-resolution/s2> <https://schema.org/url> <https://ac4.climate.columbia.edu/sites/default/files/content/Ten_Major_Scientific_Contribut.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/conflict-resolution/s3> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/conflict-resolution/s3> <http://purl.org/dc/terms/publisher> "Teachers College, Columbia University (2001)" .
+  <https://github.com/john1hsu/communication-graph/id/source/conflict-resolution/s3> <http://purl.org/dc/terms/title> "The Handbook of Conflict Resolution: Theory and Practice" .
+  <https://github.com/john1hsu/communication-graph/id/source/conflict-resolution/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/conflict-resolution/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/communication-graph/id/source/conflict-resolution/s3> <https://schema.org/url> <https://www.tc.columbia.edu/articles/2001/january/the-handbook-of-conflict-resolution-theory-and-practice/> .
+  <https://github.com/john1hsu/communication-graph/id/source/conflict-resolution/s4> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/conflict-resolution/s4> <http://purl.org/dc/terms/publisher> "Carsten K. W. De Dreu & Laurie R. Weingart, Journal of Applied Psychology 88(4), 741-749 (2003) (University of Amsterdam repository record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/conflict-resolution/s4> <http://purl.org/dc/terms/title> "Task versus relationship conflict, team performance and team member satisfaction: a meta-analysis" .
+  <https://github.com/john1hsu/communication-graph/id/source/conflict-resolution/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/conflict-resolution/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/conflict-resolution/s4> <https://schema.org/url> <https://dare.uva.nl/id/512d789b-a9ce-4c32-82a2-892972a4dd9a> .
+  <https://github.com/john1hsu/communication-graph/id/source/conflict-resolution/s5> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/conflict-resolution/s5> <http://purl.org/dc/terms/publisher> "Frank R. C. de Wit, Lindred L. Greer & Karen A. Jehn, Journal of Applied Psychology 97(2), 360-390 (2012) (Erasmus University repository record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/conflict-resolution/s5> <http://purl.org/dc/terms/title> "The paradox of intragroup conflict: a meta-analysis" .
+  <https://github.com/john1hsu/communication-graph/id/source/conflict-resolution/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/conflict-resolution/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/conflict-resolution/s5> <https://schema.org/url> <https://repub.eur.nl/pub/37902> .
 }
 
 <https://github.com/john1hsu/communication-graph/id/de-escalation#graph> {
@@ -17116,6 +17194,7 @@
   <https://github.com/john1hsu/communication-graph/id/charles-osgood> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/charles-osgood> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/maclay-osgood-1959> .
   <https://github.com/john1hsu/communication-graph/id/charles-osgood> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/maclay-osgood-1959> .
+  <https://github.com/john1hsu/communication-graph/id/charles-osgood> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/conflict-resolution> .
   <https://github.com/john1hsu/communication-graph/id/checking-understanding> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/teach-back> .
   <https://github.com/john1hsu/communication-graph/id/checking-understanding> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/teach-back> .
   <https://github.com/john1hsu/communication-graph/id/checking-understanding> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/common-ground> .
@@ -17367,7 +17446,7 @@
   <https://github.com/john1hsu/communication-graph/id/concise-writing> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/william-strunk-jr> .
   <https://github.com/john1hsu/communication-graph/id/conflict-resolution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/conflict-resolution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
-  <https://github.com/john1hsu/communication-graph/id/conflict-resolution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Field> .
+  <https://github.com/john1hsu/communication-graph/id/conflict-resolution> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/conflict-resolution> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/conversational-receptiveness> .
   <https://github.com/john1hsu/communication-graph/id/conflict-resolution> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/de-escalation> .
   <https://github.com/john1hsu/communication-graph/id/conflict-resolution> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/role-reversal> .
@@ -17402,6 +17481,7 @@
   <https://github.com/john1hsu/communication-graph/id/conversational-receptiveness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/conversational-receptiveness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/conversational-receptiveness> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/conflict-resolution> .
+  <https://github.com/john1hsu/communication-graph/id/conversational-receptiveness> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
@@ -17530,6 +17610,7 @@
   <https://github.com/john1hsu/communication-graph/id/david-maister> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/david-maister> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/david-maister> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/trusted-advisor> .
+  <https://github.com/john1hsu/communication-graph/id/de-dreu-weingart-2003> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/conflict-resolution> .
   <https://github.com/john1hsu/communication-graph/id/de-dreu-weingart-kwon-2000> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/integrative-negotiation> .
   <https://github.com/john1hsu/communication-graph/id/de-escalation/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/de-escalation/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -17540,7 +17621,10 @@
   <https://github.com/john1hsu/communication-graph/id/de-escalation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/de-escalation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/de-escalation> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/conflict-resolution> .
+  <https://github.com/john1hsu/communication-graph/id/de-escalation> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
+  <https://github.com/john1hsu/communication-graph/id/de-escalation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/conflict-resolution> .
   <https://github.com/john1hsu/communication-graph/id/de-jong-2010> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/cognitive-load> .
+  <https://github.com/john1hsu/communication-graph/id/de-wit-greer-jehn-2012> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/conflict-resolution> .
   <https://github.com/john1hsu/communication-graph/id/deaf-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/status-reporting> .
   <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/bulleted-and-numbered-lists> .
   <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/fm-6-0> .
@@ -17618,6 +17702,7 @@
   <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> .
   <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> .
   <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/apology> .
+  <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/conflict-resolution> .
   <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/conversational-receptiveness> .
   <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/de-escalation> .
   <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/face-to-face-conversation> .
@@ -18191,6 +18276,7 @@
   <https://github.com/john1hsu/communication-graph/id/gestures> <https://github.com/john1hsu/communication-graph/ontology#developedBy> <https://github.com/john1hsu/communication-graph/id/self-recording-playback> .
   <https://github.com/john1hsu/communication-graph/id/getting-to-yes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/getting-to-yes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
+  <https://github.com/john1hsu/communication-graph/id/getting-to-yes> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/conflict-resolution> .
   <https://github.com/john1hsu/communication-graph/id/getting-to-yes> <https://github.com/john1hsu/communication-graph/ontology#introduces> <https://github.com/john1hsu/communication-graph/id/batna> .
   <https://github.com/john1hsu/communication-graph/id/getting-to-yes> <https://github.com/john1hsu/communication-graph/ontology#introduces> <https://github.com/john1hsu/communication-graph/id/interests-vs-positions> .
   <https://github.com/john1hsu/communication-graph/id/getting-to-yes> <https://github.com/john1hsu/communication-graph/ontology#introduces> <https://github.com/john1hsu/communication-graph/id/principled-negotiation> .
@@ -18565,6 +18651,7 @@
   <https://github.com/john1hsu/communication-graph/id/interests-vs-positions> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
   <https://github.com/john1hsu/communication-graph/id/interests-vs-positions> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
   <https://github.com/john1hsu/communication-graph/id/interests-vs-positions> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/negotiation> .
+  <https://github.com/john1hsu/communication-graph/id/interests-vs-positions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/conflict-resolution> .
   <https://github.com/john1hsu/communication-graph/id/interests-vs-positions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/distributive-negotiation> .
   <https://github.com/john1hsu/communication-graph/id/interests-vs-positions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mythical-fixed-pie> .
   <https://github.com/john1hsu/communication-graph/id/interests-vs-positions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/negotiation-preparation> .
@@ -18653,6 +18740,7 @@
   <https://github.com/john1hsu/communication-graph/id/interpersonal-conflict> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-conflict> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/difficult-conversation> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-conflict> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/thomas-kilmann-conflict-modes> .
+  <https://github.com/john1hsu/communication-graph/id/interpersonal-conflict> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/conflict-resolution> .
   <https://github.com/john1hsu/communication-graph/id/interrupting/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/interrupting/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/interrupting/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -19005,6 +19093,7 @@
   <https://github.com/john1hsu/communication-graph/id/media-synchronicity-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/message-equivocality-media-selection-and-manager-performance> .
   <https://github.com/john1hsu/communication-graph/id/media-synchronicity-theory> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> .
   <https://github.com/john1hsu/communication-graph/id/media-synchronicity-theory> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/channel-selection> .
+  <https://github.com/john1hsu/communication-graph/id/mediation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/conflict-resolution> .
   <https://github.com/john1hsu/communication-graph/id/meeting-agendas/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/meeting-agendas/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/meeting-agendas/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -19105,6 +19194,7 @@
   <https://github.com/john1hsu/communication-graph/id/morris-et-al-2000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/morris-et-al-2000> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/rapport> .
   <https://github.com/john1hsu/communication-graph/id/morton-deutsch> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/role-reversal> .
+  <https://github.com/john1hsu/communication-graph/id/morton-deutsch> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/conflict-resolution> .
   <https://github.com/john1hsu/communication-graph/id/motivated-information-processing> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/mythical-fixed-pie> .
   <https://github.com/john1hsu/communication-graph/id/motivating-language-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
   <https://github.com/john1hsu/communication-graph/id/mullen-johnson-salas-1991> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/brainstorming> .
@@ -19215,6 +19305,7 @@
   <https://github.com/john1hsu/communication-graph/id/negotiation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/reservation-value> .
   <https://github.com/john1hsu/communication-graph/id/negotiation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/salary-negotiation> .
   <https://github.com/john1hsu/communication-graph/id/negotiation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> .
+  <https://github.com/john1hsu/communication-graph/id/negotiation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/conflict-resolution> .
   <https://github.com/john1hsu/communication-graph/id/negotiation> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/labeling-emotions> .
   <https://github.com/john1hsu/communication-graph/id/negotiation> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/mirroring> .
   <https://github.com/john1hsu/communication-graph/id/negotiation> <https://github.com/john1hsu/communication-graph/ontology#hasPart> <https://github.com/john1hsu/communication-graph/id/negotiation-preparation> .
@@ -19648,6 +19739,7 @@
   <https://github.com/john1hsu/communication-graph/id/principled-negotiation> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/negotiation> .
   <https://github.com/john1hsu/communication-graph/id/principled-negotiation> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/batna> .
   <https://github.com/john1hsu/communication-graph/id/principled-negotiation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/batna> .
+  <https://github.com/john1hsu/communication-graph/id/principled-negotiation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/conflict-resolution> .
   <https://github.com/john1hsu/communication-graph/id/principled-negotiation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/negotiation> .
   <https://github.com/john1hsu/communication-graph/id/principled-negotiation> <https://github.com/john1hsu/communication-graph/ontology#hasPart> <https://github.com/john1hsu/communication-graph/id/interests-vs-positions> .
   <https://github.com/john1hsu/communication-graph/id/principled-negotiation> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/open-ended-questions> .
@@ -19678,6 +19770,7 @@
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/active-listening> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/brainstorming> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> .
+  <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/conflict-resolution> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/facilitation> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/facilitators-guide-to-participatory-decision-making> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/interrupting> .
@@ -19896,6 +19989,8 @@
   <https://github.com/john1hsu/communication-graph/id/role-reversal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/role-reversal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/role-reversal> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/conflict-resolution> .
+  <https://github.com/john1hsu/communication-graph/id/role-reversal> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
+  <https://github.com/john1hsu/communication-graph/id/role-reversal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/conflict-resolution> .
   <https://github.com/john1hsu/communication-graph/id/role-reversal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/negotiation-preparation> .
   <https://github.com/john1hsu/communication-graph/id/role-reversal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/refutational-two-sided-messages> .
   <https://github.com/john1hsu/communication-graph/id/roloff-jordan-1991> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -20124,7 +20219,14 @@
   <https://github.com/john1hsu/communication-graph/id/social-psychology> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/psychology> .
   <https://github.com/john1hsu/communication-graph/id/social-psychology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/carl-hovland> .
   <https://github.com/john1hsu/communication-graph/id/social-psychology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/power-posing> .
+  <https://github.com/john1hsu/communication-graph/id/social-psychology> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/conflict-resolution> .
   <https://github.com/john1hsu/communication-graph/id/social-psychology> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
+  <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/conflict-resolution> .
+  <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/conflict-resolution> .
+  <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/conversational-receptiveness> .
+  <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/de-escalation> .
+  <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/role-reversal> .
+  <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/thomas-kilmann-conflict-modes> .
   <https://github.com/john1hsu/communication-graph/id/soon-ang> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/soon-ang> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/soon-ang> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/cultural-intelligence> .
@@ -20314,6 +20416,7 @@
   <https://github.com/john1hsu/communication-graph/id/the-trusted-advisor-book> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/the-trusted-advisor-book> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
   <https://github.com/john1hsu/communication-graph/id/the-trusted-advisor-book> <https://github.com/john1hsu/communication-graph/ontology#introduces> <https://github.com/john1hsu/communication-graph/id/trusted-advisor> .
+  <https://github.com/john1hsu/communication-graph/id/theory-of-cooperation-and-competition> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/conflict-resolution> .
   <https://github.com/john1hsu/communication-graph/id/theory-of-mind> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> .
   <https://github.com/john1hsu/communication-graph/id/think-pair-share> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/1-2-4-all> .
   <https://github.com/john1hsu/communication-graph/id/thomas-gilovich> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -20333,6 +20436,8 @@
   <https://github.com/john1hsu/communication-graph/id/thomas-kilmann-conflict-modes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/thomas-kilmann-conflict-modes> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/conflict-resolution> .
   <https://github.com/john1hsu/communication-graph/id/thomas-kilmann-conflict-modes> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-conflict> .
+  <https://github.com/john1hsu/communication-graph/id/thomas-kilmann-conflict-modes> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
+  <https://github.com/john1hsu/communication-graph/id/thomas-kilmann-conflict-modes> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/conflict-resolution> .
   <https://github.com/john1hsu/communication-graph/id/thompson-1991> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mythical-fixed-pie> .
   <https://github.com/john1hsu/communication-graph/id/thompson-1991> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/interests-vs-positions> .
   <https://github.com/john1hsu/communication-graph/id/thompson-1991> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/principled-negotiation> .

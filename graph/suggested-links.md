@@ -5,13 +5,13 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | Score | Node A | Node B | Shared neighbours |
 |---|---|---|---|
 | 3.93 | `cm:audience-analysis` | `cm:credibility` | `cm:aristotles-rhetoric`, `cm:charismatic-leadership-tactics`, `cm:communicating-uncertainty`, `cm:elaboration-likelihood-model`, `cm:elevator-pitch` |
-| 3.92 | `cm:distributive-negotiation` | `cm:multiple-equivalent-simultaneous-offers` | `cm:anchoring-and-adjustment`, `cm:batna`, `cm:concession-strategy`, `cm:first-offer`, `cm:integrative-negotiation` |
-| 3.92 | `cm:integrative-negotiation` | `cm:negotiation-preparation` | `cm:batna`, `cm:concession-strategy`, `cm:distributive-negotiation`, `cm:first-offer`, `cm:interests-vs-positions` |
+| 3.91 | `cm:distributive-negotiation` | `cm:multiple-equivalent-simultaneous-offers` | `cm:anchoring-and-adjustment`, `cm:batna`, `cm:concession-strategy`, `cm:first-offer`, `cm:integrative-negotiation` |
+| 3.90 | `cm:integrative-negotiation` | `cm:negotiation-preparation` | `cm:batna`, `cm:concession-strategy`, `cm:distributive-negotiation`, `cm:first-offer`, `cm:interests-vs-positions` |
 | 3.27 | `cm:culture-assimilator` | `cm:intercultural-communication` | `cm:cultural-intelligence`, `cm:describe-analyze-evaluate`, `cm:ethnocentrism`, `cm:intercultural-competence`, `cm:li-2021-cross-cultural-training-meta-analysis` |
-| 2.96 | `cm:mythical-fixed-pie` | `cm:principled-negotiation` | `cm:distributive-negotiation`, `cm:integrative-negotiation`, `cm:interests-vs-positions`, `cm:multiple-equivalent-simultaneous-offers`, `cm:negotiation` |
+| 2.95 | `cm:mythical-fixed-pie` | `cm:principled-negotiation` | `cm:distributive-negotiation`, `cm:integrative-negotiation`, `cm:interests-vs-positions`, `cm:multiple-equivalent-simultaneous-offers`, `cm:negotiation` |
 | 2.86 | `cm:difficult-conversation` | `cm:situation-behavior-impact` | `cm:active-listening`, `cm:defensiveness`, `cm:feedback`, `cm:i-statements`, `cm:nonviolent-communication` |
 | 2.86 | `cm:direct-vs-indirect-feedback` | `cm:intercultural-competence` | `cm:cultural-intelligence`, `cm:describe-analyze-evaluate`, `cm:ethnocentrism`, `cm:face-and-facework`, `cm:high-and-low-context-cultures` |
-| 2.75 | `cm:batna` | `cm:mythical-fixed-pie` | `cm:anchoring-and-adjustment`, `cm:distributive-negotiation`, `cm:integrative-negotiation`, `cm:interests-vs-positions`, `cm:multiple-equivalent-simultaneous-offers` |
+| 2.74 | `cm:batna` | `cm:mythical-fixed-pie` | `cm:anchoring-and-adjustment`, `cm:distributive-negotiation`, `cm:integrative-negotiation`, `cm:interests-vs-positions`, `cm:multiple-equivalent-simultaneous-offers` |
 | 2.70 | `cm:labeling-emotions` | `cm:self-distancing` | `cm:anxiety-reappraisal`, `cm:cognitive-reappraisal`, `cm:emotion-regulation` |
 | 2.68 | `cm:channel-selection` | `cm:egocentric-bias` | `cm:common-ground`, `cm:curse-of-knowledge`, `cm:egocentrism-over-email-study`, `cm:face-to-face-conversation`, `cm:nicholas-epley` |
 | 2.67 | `cm:active-listening` | `cm:feedback` | `cm:defensiveness`, `cm:difficult-conversation`, `cm:feedforward`, `cm:one-on-one-meetings`, `cm:performance-review` |
@@ -22,10 +22,10 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 2.50 | `cm:anchoring-and-adjustment` | `cm:salary-negotiation` | `cm:batna`, `cm:distributive-negotiation`, `cm:first-offer`, `cm:multiple-equivalent-simultaneous-offers`, `cm:mythical-fixed-pie` |
 | 2.49 | `cm:integrative-negotiation` | `cm:reservation-value` | `cm:batna`, `cm:concession-strategy`, `cm:distributive-negotiation`, `cm:first-offer`, `cm:multiple-equivalent-simultaneous-offers` |
 | 2.48 | `cm:anchoring-and-adjustment` | `cm:thomas-gilovich` | `cm:curse-of-knowledge`, `cm:egocentric-bias`, `cm:gilovich-savitsky-medvec-1998`, `cm:illusion-of-transparency`, `cm:macinnis-mackinnon-macintyre-2010` |
-| 2.45 | `cm:interests-vs-positions` | `cm:multiple-equivalent-simultaneous-offers` | `cm:batna`, `cm:integrative-negotiation`, `cm:mythical-fixed-pie`, `cm:negotiation-preparation`, `cm:principled-negotiation` |
-| 2.44 | `cm:principled-negotiation` | `cm:zone-of-possible-agreement` | `cm:batna`, `cm:distributive-negotiation`, `cm:integrative-negotiation`, `cm:interests-vs-positions`, `cm:multiple-equivalent-simultaneous-offers` |
+| 2.44 | `cm:interests-vs-positions` | `cm:multiple-equivalent-simultaneous-offers` | `cm:batna`, `cm:integrative-negotiation`, `cm:mythical-fixed-pie`, `cm:negotiation-preparation`, `cm:principled-negotiation` |
+| 2.43 | `cm:principled-negotiation` | `cm:zone-of-possible-agreement` | `cm:batna`, `cm:distributive-negotiation`, `cm:integrative-negotiation`, `cm:interests-vs-positions`, `cm:multiple-equivalent-simultaneous-offers` |
 | 2.43 | `cm:describe-analyze-evaluate` | `cm:the-culture-map` | `cm:cultural-intelligence`, `cm:direct-vs-indirect-feedback`, `cm:ethnocentrism`, `cm:high-and-low-context-cultures`, `cm:intercultural-communication` |
 | 2.40 | `cm:negotiation` | `cm:zone-of-possible-agreement` | `cm:batna`, `cm:distributive-negotiation`, `cm:integrative-negotiation`, `cm:interests-vs-positions`, `cm:mythical-fixed-pie` |
 | 2.39 | `cm:anxiety-reappraisal` | `cm:spotlight-effect` | `cm:illusion-of-transparency`, `cm:macinnis-mackinnon-macintyre-2010`, `cm:self-distancing`, `cm:social-anxiety`, `cm:speaking-anxiety` |
-| 2.39 | `cm:wait-time` | `cm:workplace-meetings` | `cm:1-2-4-all`, `cm:conversational-turn-taking`, `cm:facilitation`, `cm:meeting-agendas`, `cm:psychological-safety` |
 | 2.38 | `cm:paraphrasing` | `cm:psychological-safety` | `cm:active-listening`, `cm:difficult-conversation`, `cm:facilitation`, `cm:facilitators-guide-to-participatory-decision-making`, `cm:interrupting` |
+| 2.38 | `cm:wait-time` | `cm:workplace-meetings` | `cm:1-2-4-all`, `cm:conversational-turn-taking`, `cm:facilitation`, `cm:meeting-agendas`, `cm:psychological-safety` |
