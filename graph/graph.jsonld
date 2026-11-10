@@ -14212,6 +14212,96 @@
    ]
   },
   {
+   "@id": "cm:thought-groups",
+   "@type": "cmo:Technique",
+   "cmo:addresses": {
+    "@id": "cm:filled-pauses"
+   },
+   "cmo:appliedIn": {
+    "@id": "cm:presentation"
+   },
+   "cmo:complements": {
+    "@id": "cm:presentation-rehearsal"
+   },
+   "cmo:develops": {
+    "@id": "cm:silence-and-pauses"
+   },
+   "cmo:domain": "nonverbal-and-voice",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/thought-groups/example"
+   },
+   "cmo:file": "articles/nonverbal-and-voice/thought-groups.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/thought-groups/howto"
+   },
+   "cmo:level": "introductory",
+   "cmo:supportedBy": [
+    {
+     "@id": "cm:kang-rubin-pickering-2010"
+    },
+    {
+     "@id": "cm:van-loon-2000"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/thought-groups/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/thought-groups/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/thought-groups/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/thought-groups/s4"
+    }
+   ],
+   "rdfs:label": "Thought groups",
+   "skos:altLabel": [
+    "chunking speech into thought groups",
+    "idea-unit pausing",
+    "phrasing with pauses",
+    "thought grouping"
+   ],
+   "skos:broader": {
+    "@id": "cm:paralanguage"
+   },
+   "skos:definition": "Speaking in short, meaningful chunks of words - a phrase or clause each - and marking the end of every chunk with a brief silent pause and a small pitch drop, so listeners can hear which words belong together and have time to process each idea.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/nonverbal-and-voice"
+   },
+   "skos:prefLabel": "Thought groups",
+   "skos:related": [
+    {
+     "@id": "cm:cognitive-load"
+    },
+    {
+     "@id": "cm:filled-pauses"
+    },
+    {
+     "@id": "cm:plain-language"
+    },
+    {
+     "@id": "cm:presentation"
+    },
+    {
+     "@id": "cm:presentation-rehearsal"
+    },
+    {
+     "@id": "cm:self-recording-playback"
+    },
+    {
+     "@id": "cm:silence-and-pauses"
+    }
+   ]
+  },
+  {
    "@id": "cm:trusted-advisor",
    "@type": "cmo:Framework",
    "cmo:appliedIn": {
@@ -34461,6 +34551,62 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/thought-groups/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Judy B. Gilbert, Cambridge University Press (2008)",
+   "dcterms:title": "Teaching Pronunciation Using the Prosody Pyramid",
+   "schema:url": {
+    "@id": "https://www.cambridge.org/us/esl/clearspeech/TeachingPronunBklt.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/thought-groups/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Kang, Rubin & Pickering, The Modern Language Journal 94(4), 554-566 (2010), doi:10.1111/j.1540-4781.2010.01091.x (author copy)",
+   "dcterms:title": "Suprasegmental Measures of Accentedness and Judgments of Language Learner Proficiency in Oral English",
+   "schema:url": {
+    "@id": "https://faculty.tamuc.edu/lpickering/Pdfs/Publish_1.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/thought-groups/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "John Van Loon, M.A. thesis, Department of Linguistics, University of Victoria (2000)",
+   "dcterms:title": "Using pauses to improve listening comprehension for second language learners",
+   "schema:url": {
+    "@id": "https://dspace.library.uvic.ca/items/2498862b-739a-486e-a6c6-baef9574fad7/full"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/thought-groups/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Kochem, Ghosh, Compton & Cotos, Oral Communication for Non-Native Speakers of English (open textbook, 2020)",
+   "dcterms:title": "Thought Groups: Teacher's Corner",
+   "schema:url": {
+    "@id": "https://iastate.pressbooks.pub/oralcommunication/chapter/teachers-corner-5/"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/source/trusted-advisor/s1",
    "@type": "cmo:Source",
    "cmo:sourceType": "primary",
@@ -35616,6 +35762,124 @@
    "cmo:before": "We're shipping Friday. Marketing has already announced it, so I need you to make it work.",
    "cmo:situation": "A product manager and an engineering lead disagree about whether to ship a feature on Friday with a known minor bug.",
    "cmo:why": "The original competes by habit on an issue where the engineer holds information the PM lacks. The rewrite names both sides' concerns (collaborating) on a high-stakes issue, and keeps compromising as an explicit time-boxed fallback instead of defaulting to one habitual mode."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/thought-groups/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:thought-groups"
+   },
+   "rdfs:label": "Did I pause at the end of each idea, or did I run several figures together in one breath?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/thought-groups/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:thought-groups"
+   },
+   "rdfs:label": "Were my pauses silent, or did I fill the gaps between chunks with \"um\" or \"so\"?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/thought-groups/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:thought-groups"
+   },
+   "rdfs:label": "Did any pause fall in the middle of a phrase, splitting words that belong together?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/thought-groups/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:thought-groups"
+   },
+   "rdfs:label": "In each chunk, was it clear which single word mattered most?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/thought-groups/check/5",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:thought-groups"
+   },
+   "rdfs:label": "Would a listener who joined on a weak connection or in a second language be able to follow where one idea ended and the next began?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/thought-groups/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "Revenue in Q3 / was four point two million / [pause] up eight percent. / Costs were flat, / so margin improved / to eighteen percent. / [pause] For Q4, / we expect the same.",
+   "cmo:before": "So revenue in Q3 was um four point two million which is up eight percent and costs were flat um so margin improved to eighteen percent and we expect Q4 to be similar.",
+   "cmo:situation": "A finance analyst reports quarterly results to a leadership team on a video call.",
+   "cmo:why": "Each figure now sits in its own chunk with a silent pause after it instead of a filler, so listeners can hear which number goes with which measure and hold each one before the next arrives."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/thought-groups/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Thought groups",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/thought-groups/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/thought-groups/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/thought-groups/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/thought-groups/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/thought-groups/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/thought-groups/howto/6"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/thought-groups/howto/7"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/thought-groups/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Take the script or notes for the part of the talk that matters most, such as the opening, the recommendation or the key numbers."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/thought-groups/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Mark a slash after each meaningful chunk - a short sentence, a clause or a phrase - keeping grammatical units such as \"in the third quarter\" intact."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/thought-groups/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Underline the one focus word in each chunk, usually the new or most important information."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/thought-groups/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Read the passage aloud, linking the words inside each chunk smoothly, letting your pitch fall slightly on the last stressed word, and pausing silently at every slash."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/thought-groups/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Where a chunk ends in a number, a name or a decision, lengthen the pause to a full breath so the listener can take it in."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/thought-groups/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "Record one run-through, listen back, and move any slash that splits a phrase or any pause you filled with \"um\"."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/thought-groups/howto/7",
+   "@type": "schema:HowToStep",
+   "schema:position": 7,
+   "schema:text": "Once the chunking feels natural, drop the marks and practise speaking from bullet points with the same rhythm."
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/trusted-advisor/check/1",

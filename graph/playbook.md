@@ -1231,6 +1231,31 @@ Ask yourself:
 - When a colleague went quiet after my proposal, did I check what the silence meant instead of assuming agreement?
 - In this conversation, did I create silence to think, or did I let an awkward gap sit after someone else had taken a risk?
 
+### [Thought groups](../articles/nonverbal-and-voice/thought-groups.md) — Technique
+
+1. Take the script or notes for the part of the talk that matters most, such as the opening, the recommendation or the key numbers.
+2. Mark a slash after each meaningful chunk - a short sentence, a clause or a phrase - keeping grammatical units such as "in the third quarter" intact.
+3. Underline the one focus word in each chunk, usually the new or most important information.
+4. Read the passage aloud, linking the words inside each chunk smoothly, letting your pitch fall slightly on the last stressed word, and pausing silently at every slash.
+5. Where a chunk ends in a number, a name or a decision, lengthen the pause to a full breath so the listener can take it in.
+6. Record one run-through, listen back, and move any slash that splits a phrase or any pause you filled with "um".
+7. Once the chunking feels natural, drop the marks and practise speaking from bullet points with the same rhythm.
+
+*A finance analyst reports quarterly results to a leadership team on a video call.*
+
+| Before | After |
+|---|---|
+| So revenue in Q3 was um four point two million which is up eight percent and costs were flat um so margin improved to eighteen percent and we expect Q4 to be similar. | Revenue in Q3 / was four point two million / [pause] up eight percent. / Costs were flat, / so margin improved / to eighteen percent. / [pause] For Q4, / we expect the same. |
+
+**Why:** Each figure now sits in its own chunk with a silent pause after it instead of a filler, so listeners can hear which number goes with which measure and hold each one before the next arrives.
+
+Ask yourself:
+- Did I pause at the end of each idea, or did I run several figures together in one breath?
+- Were my pauses silent, or did I fill the gaps between chunks with "um" or "so"?
+- Did any pause fall in the middle of a phrase, splitting words that belong together?
+- In each chunk, was it clear which single word mattered most?
+- Would a listener who joined on a weak connection or in a second language be able to follow where one idea ended and the next began?
+
 ## persuasion-and-influence
 
 ### [Charismatic leadership tactics](../articles/persuasion-and-influence/charismatic-leadership-tactics.md) — Technique

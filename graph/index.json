@@ -16202,6 +16202,121 @@
   ]
  },
  {
+  "id": "cm:thought-groups",
+  "title": "Thought groups",
+  "aliases": [
+   "thought grouping",
+   "chunking speech into thought groups",
+   "phrasing with pauses",
+   "idea-unit pausing"
+  ],
+  "type": "Technique",
+  "domain": "nonverbal-and-voice",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/nonverbal-and-voice/thought-groups.md",
+  "created": "2026-11-10",
+  "summary": "Speaking in short, meaningful chunks of words - a phrase or clause each - and marking the end of every chunk with a brief silent pause and a small pitch drop, so listeners can hear which words belong together and have time to process each idea.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:paralanguage"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:silence-and-pauses"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:filled-pauses"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:presentation-rehearsal"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:self-recording-playback"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:presentation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:cognitive-load"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:plain-language"
+   },
+   {
+    "predicate": "cmo:develops",
+    "object": "cm:silence-and-pauses",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:filled-pauses",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:kang-rubin-pickering-2010",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:van-loon-2000",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:presentation",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:presentation-rehearsal",
+    "source": "s4",
+    "confidence": "low"
+   }
+  ],
+  "selfCheck": [
+   "Did I pause at the end of each idea, or did I run several figures together in one breath?",
+   "Were my pauses silent, or did I fill the gaps between chunks with \"um\" or \"so\"?",
+   "Did any pause fall in the middle of a phrase, splitting words that belong together?",
+   "In each chunk, was it clear which single word mattered most?",
+   "Would a listener who joined on a weak connection or in a second language be able to follow where one idea ended and the next began?"
+  ],
+  "steps": [
+   "Take the script or notes for the part of the talk that matters most, such as the opening, the recommendation or the key numbers.",
+   "Mark a slash after each meaningful chunk - a short sentence, a clause or a phrase - keeping grammatical units such as \"in the third quarter\" intact.",
+   "Underline the one focus word in each chunk, usually the new or most important information.",
+   "Read the passage aloud, linking the words inside each chunk smoothly, letting your pitch fall slightly on the last stressed word, and pausing silently at every slash.",
+   "Where a chunk ends in a number, a name or a decision, lengthen the pause to a full breath so the listener can take it in.",
+   "Record one run-through, listen back, and move any slash that splits a phrase or any pause you filled with \"um\".",
+   "Once the chunking feels natural, drop the marks and practise speaking from bullet points with the same rhythm."
+  ],
+  "example": {
+   "situation": "A finance analyst reports quarterly results to a leadership team on a video call.",
+   "before": "So revenue in Q3 was um four point two million which is up eight percent and costs were flat um so margin improved to eighteen percent and we expect Q4 to be similar.",
+   "after": "Revenue in Q3 / was four point two million / [pause] up eight percent. / Costs were flat, / so margin improved / to eighteen percent. / [pause] For Q4, / we expect the same.",
+   "why": "Each figure now sits in its own chunk with a silent pause after it instead of a filler, so listeners can hear which number goes with which measure and hold each one before the next arrives."
+  },
+  "source_urls": [
+   "https://www.cambridge.org/us/esl/clearspeech/TeachingPronunBklt.pdf",
+   "https://faculty.tamuc.edu/lpickering/Pdfs/Publish_1.pdf",
+   "https://dspace.library.uvic.ca/items/2498862b-739a-486e-a6c6-baef9574fad7/full",
+   "https://iastate.pressbooks.pub/oralcommunication/chapter/teachers-corner-5/"
+  ]
+ },
+ {
   "id": "cm:trusted-advisor",
   "title": "Trusted advisor",
   "aliases": [

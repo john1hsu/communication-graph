@@ -12,9 +12,7 @@ _No results._
 
 _Which written skills or dispositions have no technique, framework or principle that develops them?_ — `queries/02-skills-without-practice.rq`
 
-| skill | type |
-|---|---|
-| `cm:silence-and-pauses` | cmo:Skill |
+_No results._
 
 ## Situations, channels and formats with no guidance (gap)
 
@@ -44,6 +42,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:self-affirmation-before-feedback` | 2 | Defensiveness, Receiving feedback |
 | `cm:self-distancing` | 2 | Public speaking anxiety, Spotlight effect |
 | `cm:silence-and-pauses` | 2 | Filled pauses, Mythical fixed-pie bias |
+| `cm:thought-groups` | 2 | Filled pauses, Silence and pauses |
 | `cm:active-listening` | 1 | Defensiveness |
 | `cm:active-voice` | 1 | unclear-ownership |
 | `cm:anxiety-reappraisal` | 1 | Public speaking anxiety |
@@ -57,9 +56,8 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:communicating-uncertainty` | 1 | vague-probability-language |
 | `cm:considering-others-contributions-first` | 1 | Egocentric bias |
 | `cm:conversational-receptiveness` | 1 | Defensiveness |
-| `cm:de-escalation` | 1 | verbal-aggression |
 
-…and 25 more.
+…and 26 more.
 
 ## Toolkit by situation
 
@@ -98,7 +96,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:email` | `cm:rapport` |
 | `cm:email` | `cm:scheduled-inbox-checks` |
 
-…and 68 more.
+…and 69 more.
 
 ## Myths and contested advice
 
@@ -137,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:bulleted-and-numbered-lists` | mixed | `cm:columbia-accident-investigation-board-report` |
 | `cm:camera-level-gaze` | mixed |  |
 
-…and 98 more.
+…and 99 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -176,7 +174,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:salary-negotiation` | cmo:Context |
 | `cm:scheduled-inbox-checks` | cmo:Technique |
 
-…and 14 more.
+…and 15 more.
 
 ## Orphan articles (gap)
 
