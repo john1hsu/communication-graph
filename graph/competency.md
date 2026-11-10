@@ -12,7 +12,9 @@ _No results._
 
 _Which written skills or dispositions have no technique, framework or principle that develops them?_ — `queries/02-skills-without-practice.rq`
 
-_No results._
+| skill | type |
+|---|---|
+| `cm:silence-and-pauses` | cmo:Skill |
 
 ## Situations, channels and formats with no guidance (gap)
 
@@ -41,6 +43,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:risk-numbers-as-natural-frequencies` | 2 | Communicating uncertainty to decision makers, base-rate-neglect |
 | `cm:self-affirmation-before-feedback` | 2 | Defensiveness, Receiving feedback |
 | `cm:self-distancing` | 2 | Public speaking anxiety, Spotlight effect |
+| `cm:silence-and-pauses` | 2 | Filled pauses, Mythical fixed-pie bias |
 | `cm:active-listening` | 1 | Defensiveness |
 | `cm:active-voice` | 1 | unclear-ownership |
 | `cm:anxiety-reappraisal` | 1 | Public speaking anxiety |
@@ -55,9 +58,8 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:conversational-receptiveness` | 1 | Defensiveness |
 | `cm:de-escalation` | 1 | verbal-aggression |
 | `cm:feedback-sandwich` | 1 | Defensiveness |
-| `cm:feedforward` | 1 | Defensiveness |
 
-…and 22 more.
+…and 23 more.
 
 ## Toolkit by situation
 
@@ -96,7 +98,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:email` | `cm:rapport` |
 | `cm:email` | `cm:scheduled-inbox-checks` |
 
-…and 62 more.
+…and 64 more.
 
 ## Myths and contested advice
 
@@ -135,7 +137,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:bulleted-and-numbered-lists` | mixed | `cm:columbia-accident-investigation-board-report` |
 | `cm:camera-level-gaze` | mixed |  |
 
-…and 93 more.
+…and 94 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -174,7 +176,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:scheduled-inbox-checks` | cmo:Technique |
 | `cm:self-affirmation-before-feedback` | cmo:Technique |
 
-…and 12 more.
+…and 13 more.
 
 ## Orphan articles (gap)
 

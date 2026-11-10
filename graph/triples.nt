@@ -7453,6 +7453,60 @@
 <https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/digital-and-async-communication/setting-reply-time-expectations.md" .
 <https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations/howto> .
 <https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/silence-and-pauses/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/silence-and-pauses/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "After my most important sentence, did I stop for a beat before moving on, or rush straight into the next point?" .
+<https://github.com/john1hsu/communication-graph/id/silence-and-pauses/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/silence-and-pauses> .
+<https://github.com/john1hsu/communication-graph/id/silence-and-pauses/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/silence-and-pauses/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "When I was asked the hardest question, did I give myself a few seconds to think before answering?" .
+<https://github.com/john1hsu/communication-graph/id/silence-and-pauses/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/silence-and-pauses> .
+<https://github.com/john1hsu/communication-graph/id/silence-and-pauses/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/silence-and-pauses/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Am I the more senior person here, or am I pausing in front of someone who controls the outcome and may read it badly?" .
+<https://github.com/john1hsu/communication-graph/id/silence-and-pauses/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/silence-and-pauses> .
+<https://github.com/john1hsu/communication-graph/id/silence-and-pauses/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/silence-and-pauses/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "When a colleague went quiet after my proposal, did I check what the silence meant instead of assuming agreement?" .
+<https://github.com/john1hsu/communication-graph/id/silence-and-pauses/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/silence-and-pauses> .
+<https://github.com/john1hsu/communication-graph/id/silence-and-pauses/check/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/silence-and-pauses/check/5> <http://www.w3.org/2000/01/rdf-schema#label> "In this conversation, did I create silence to think, or did I let an awkward gap sit after someone else had taken a risk?" .
+<https://github.com/john1hsu/communication-graph/id/silence-and-pauses/check/5> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/silence-and-pauses> .
+<https://github.com/john1hsu/communication-graph/id/silence-and-pauses> <http://purl.org/dc/terms/created> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/silence-and-pauses> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Skill> .
+<https://github.com/john1hsu/communication-graph/id/silence-and-pauses> <http://www.w3.org/2000/01/rdf-schema#label> "Silence and pauses" .
+<https://github.com/john1hsu/communication-graph/id/silence-and-pauses> <http://www.w3.org/2004/02/skos/core#altLabel> "deliberate pausing" .
+<https://github.com/john1hsu/communication-graph/id/silence-and-pauses> <http://www.w3.org/2004/02/skos/core#altLabel> "silent pauses" .
+<https://github.com/john1hsu/communication-graph/id/silence-and-pauses> <http://www.w3.org/2004/02/skos/core#altLabel> "strategic silence" .
+<https://github.com/john1hsu/communication-graph/id/silence-and-pauses> <http://www.w3.org/2004/02/skos/core#altLabel> "the power of the pause" .
+<https://github.com/john1hsu/communication-graph/id/silence-and-pauses> <http://www.w3.org/2004/02/skos/core#altLabel> "using silence" .
+<https://github.com/john1hsu/communication-graph/id/silence-and-pauses> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> .
+<https://github.com/john1hsu/communication-graph/id/silence-and-pauses> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/paralanguage> .
+<https://github.com/john1hsu/communication-graph/id/silence-and-pauses> <http://www.w3.org/2004/02/skos/core#definition> "The ability to use and read the unfilled gaps in speech: placing short silent pauses so listeners absorb key points, holding a longer silence to think before answering a hard question, and recognising that an unexpected gap from someone else can signal doubt, disagreement or exclusion." .
+<https://github.com/john1hsu/communication-graph/id/silence-and-pauses> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/nonverbal-and-voice> .
+<https://github.com/john1hsu/communication-graph/id/silence-and-pauses> <http://www.w3.org/2004/02/skos/core#prefLabel> "Silence and pauses" .
+<https://github.com/john1hsu/communication-graph/id/silence-and-pauses> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> .
+<https://github.com/john1hsu/communication-graph/id/silence-and-pauses> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/filled-pauses> .
+<https://github.com/john1hsu/communication-graph/id/silence-and-pauses> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> .
+<https://github.com/john1hsu/communication-graph/id/silence-and-pauses> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/integrative-negotiation> .
+<https://github.com/john1hsu/communication-graph/id/silence-and-pauses> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> .
+<https://github.com/john1hsu/communication-graph/id/silence-and-pauses> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/vocal-delivery> .
+<https://github.com/john1hsu/communication-graph/id/silence-and-pauses> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/wait-time> .
+<https://github.com/john1hsu/communication-graph/id/silence-and-pauses> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/workplace-meetings> .
+<https://github.com/john1hsu/communication-graph/id/silence-and-pauses> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/silence-and-pauses/s1> .
+<https://github.com/john1hsu/communication-graph/id/silence-and-pauses> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/silence-and-pauses/s2> .
+<https://github.com/john1hsu/communication-graph/id/silence-and-pauses> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/silence-and-pauses/s3> .
+<https://github.com/john1hsu/communication-graph/id/silence-and-pauses> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/silence-and-pauses/s4> .
+<https://github.com/john1hsu/communication-graph/id/silence-and-pauses> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/silence-and-pauses/s5> .
+<https://github.com/john1hsu/communication-graph/id/silence-and-pauses> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/silence-and-pauses/s6> .
+<https://github.com/john1hsu/communication-graph/id/silence-and-pauses> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/filled-pauses> .
+<https://github.com/john1hsu/communication-graph/id/silence-and-pauses> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/mythical-fixed-pie> .
+<https://github.com/john1hsu/communication-graph/id/silence-and-pauses> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/presentation> .
+<https://github.com/john1hsu/communication-graph/id/silence-and-pauses> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/salary-negotiation> .
+<https://github.com/john1hsu/communication-graph/id/silence-and-pauses> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/koudenburg-postmes-gordijn-2011> .
+<https://github.com/john1hsu/communication-graph/id/silence-and-pauses> <https://github.com/john1hsu/communication-graph/ontology#domain> "nonverbal-and-voice" .
+<https://github.com/john1hsu/communication-graph/id/silence-and-pauses> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/silence-and-pauses> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> .
+<https://github.com/john1hsu/communication-graph/id/silence-and-pauses> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/nonverbal-and-voice/silence-and-pauses.md" .
+<https://github.com/john1hsu/communication-graph/id/silence-and-pauses> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/communication-graph/id/silence-and-pauses> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/curhan-et-al-2022> .
+<https://github.com/john1hsu/communication-graph/id/silence-and-pauses> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/macgregor-corley-donaldson-2010> .
 <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Could the other person picture the exact moment I mean, or did I say something vague like \"lately\"?" .
 <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> .
@@ -12404,6 +12458,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/setting-reply-time-expectations/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/setting-reply-time-expectations/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
 <https://github.com/john1hsu/communication-graph/id/source/setting-reply-time-expectations/s6> <https://schema.org/url> <https://www.gla.ac.uk/schools/healthwellbeing/news/hawkeye2018onwards/july2019/headline_653845_en.html> .
+<https://github.com/john1hsu/communication-graph/id/source/silence-and-pauses/s1> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/silence-and-pauses/s1> <http://purl.org/dc/terms/publisher> "Curhan, Overbeck, Cho, Zhang & Yang, Journal of Applied Psychology 107(1) (2022), doi:10.1037/apl0000877 (DSpace@MIT author manuscript)" .
+<https://github.com/john1hsu/communication-graph/id/source/silence-and-pauses/s1> <http://purl.org/dc/terms/title> "Silence Is Golden: Extended Silence, Deliberative Mindset, and Value Creation in Negotiation" .
+<https://github.com/john1hsu/communication-graph/id/source/silence-and-pauses/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/silence-and-pauses/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/silence-and-pauses/s1> <https://schema.org/url> <https://dspace.mit.edu/handle/1721.1/144112?show=full> .
+<https://github.com/john1hsu/communication-graph/id/source/silence-and-pauses/s2> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/silence-and-pauses/s2> <http://purl.org/dc/terms/publisher> "Dylan Walsh, MIT Sloan School of Management, Ideas Made to Matter (27 April 2021)" .
+<https://github.com/john1hsu/communication-graph/id/source/silence-and-pauses/s2> <http://purl.org/dc/terms/title> "In negotiation, use silence to improve outcomes for all" .
+<https://github.com/john1hsu/communication-graph/id/source/silence-and-pauses/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/silence-and-pauses/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/silence-and-pauses/s2> <https://schema.org/url> <https://mitsloan.mit.edu/ideas-made-to-matter/negotiation-use-silence-to-improve-outcomes-all?utm_> .
+<https://github.com/john1hsu/communication-graph/id/source/silence-and-pauses/s3> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/silence-and-pauses/s3> <http://purl.org/dc/terms/publisher> "Koudenburg, Postmes & Gordijn, Journal of Experimental Social Psychology 47(2), 512-515 (2011), doi:10.1016/j.jesp.2010.12.006 (University of Groningen repository copy via CORE)" .
+<https://github.com/john1hsu/communication-graph/id/source/silence-and-pauses/s3> <http://purl.org/dc/terms/title> "Disrupting the flow: How brief silences in group conversations affect social needs" .
+<https://github.com/john1hsu/communication-graph/id/source/silence-and-pauses/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/silence-and-pauses/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/silence-and-pauses/s3> <https://schema.org/url> <https://core.ac.uk/download/232372586.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/silence-and-pauses/s4> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/silence-and-pauses/s4> <http://purl.org/dc/terms/publisher> "MacGregor, Corley & Donaldson, Neuropsychologia 48(14), 3982-3992 (2010), doi:10.1016/j.neuropsychologia.2010.09.024 (University of St Andrews research portal)" .
+<https://github.com/john1hsu/communication-graph/id/source/silence-and-pauses/s4> <http://purl.org/dc/terms/title> "Listening to the sound of silence: Disfluent silent pauses in speech have consequences for listeners" .
+<https://github.com/john1hsu/communication-graph/id/source/silence-and-pauses/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/silence-and-pauses/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/silence-and-pauses/s4> <https://schema.org/url> <https://research-portal.st-andrews.ac.uk/en/publications/listening-to-the-sound-of-silence-disfluent-silent-pauses-in-spee/> .
+<https://github.com/john1hsu/communication-graph/id/source/silence-and-pauses/s5> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/silence-and-pauses/s5> <http://purl.org/dc/terms/publisher> "Templeton, Chang, Reynolds, Cone LeBeaumont & Wheatley, Proceedings of the National Academy of Sciences 119(4), e2116915119 (2022), doi:10.1073/pnas.2116915119 (PMC)" .
+<https://github.com/john1hsu/communication-graph/id/source/silence-and-pauses/s5> <http://purl.org/dc/terms/title> "Fast response times signal social connection in conversation" .
+<https://github.com/john1hsu/communication-graph/id/source/silence-and-pauses/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/silence-and-pauses/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/silence-and-pauses/s5> <https://schema.org/url> <https://pmc.ncbi.nlm.nih.gov/articles/PMC8794835> .
+<https://github.com/john1hsu/communication-graph/id/source/silence-and-pauses/s6> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/silence-and-pauses/s6> <http://purl.org/dc/terms/publisher> "Toastmaster magazine, Toastmasters International (August 2025)" .
+<https://github.com/john1hsu/communication-graph/id/source/silence-and-pauses/s6> <http://purl.org/dc/terms/title> "Lessons from World Champions" .
+<https://github.com/john1hsu/communication-graph/id/source/silence-and-pauses/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/silence-and-pauses/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/communication-graph/id/source/silence-and-pauses/s6> <https://schema.org/url> <https://www.toastmasters.org/magazine/magazine-issues/2025/august/lessons-from-world-champions> .
 <https://github.com/john1hsu/communication-graph/id/source/situation-behavior-impact/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/situation-behavior-impact/s1> <http://purl.org/dc/terms/publisher> "Center for Creative Leadership, 2025" .
 <https://github.com/john1hsu/communication-graph/id/source/situation-behavior-impact/s1> <http://purl.org/dc/terms/title> "Use Situation-Behavior-Impact (SBI) To Understand Intent" .

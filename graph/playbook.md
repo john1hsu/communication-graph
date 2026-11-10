@@ -1182,6 +1182,15 @@ Ask yourself:
 - Did I use any hand sign whose meaning might differ for someone from another culture in the room?
 - Was I relying on gestures to carry a point that people on audio or reading the slides afterwards would miss?
 
+### [Silence and pauses](../articles/nonverbal-and-voice/silence-and-pauses.md) — Skill
+
+Ask yourself:
+- After my most important sentence, did I stop for a beat before moving on, or rush straight into the next point?
+- When I was asked the hardest question, did I give myself a few seconds to think before answering?
+- Am I the more senior person here, or am I pausing in front of someone who controls the outcome and may read it badly?
+- When a colleague went quiet after my proposal, did I check what the silence meant instead of assuming agreement?
+- In this conversation, did I create silence to think, or did I let an awkward gap sit after someone else had taken a risk?
+
 ## persuasion-and-influence
 
 ### [Credibility](../articles/persuasion-and-influence/credibility.md) — Concept

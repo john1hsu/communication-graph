@@ -12689,6 +12689,115 @@
    ]
   },
   {
+   "@id": "cm:silence-and-pauses",
+   "@type": "cmo:Skill",
+   "cmo:addresses": [
+    {
+     "@id": "cm:filled-pauses"
+    },
+    {
+     "@id": "cm:mythical-fixed-pie"
+    }
+   ],
+   "cmo:appliedIn": [
+    {
+     "@id": "cm:presentation"
+    },
+    {
+     "@id": "cm:salary-negotiation"
+    }
+   ],
+   "cmo:demonstratedBy": {
+    "@id": "cm:koudenburg-postmes-gordijn-2011"
+   },
+   "cmo:domain": "nonverbal-and-voice",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:explainedBy": {
+    "@id": "cm:conversational-turn-taking"
+   },
+   "cmo:file": "articles/nonverbal-and-voice/silence-and-pauses.md",
+   "cmo:level": "intermediate",
+   "cmo:supportedBy": [
+    {
+     "@id": "cm:curhan-et-al-2022"
+    },
+    {
+     "@id": "cm:macgregor-corley-donaldson-2010"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/silence-and-pauses/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/silence-and-pauses/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/silence-and-pauses/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/silence-and-pauses/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/silence-and-pauses/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/silence-and-pauses/s6"
+    }
+   ],
+   "rdfs:label": "Silence and pauses",
+   "skos:altLabel": [
+    "deliberate pausing",
+    "silent pauses",
+    "strategic silence",
+    "the power of the pause",
+    "using silence"
+   ],
+   "skos:broader": [
+    {
+     "@id": "cm:nonverbal-communication"
+    },
+    {
+     "@id": "cm:paralanguage"
+    }
+   ],
+   "skos:definition": "The ability to use and read the unfilled gaps in speech: placing short silent pauses so listeners absorb key points, holding a longer silence to think before answering a hard question, and recognising that an unexpected gap from someone else can signal doubt, disagreement or exclusion.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/nonverbal-and-voice"
+   },
+   "skos:prefLabel": "Silence and pauses",
+   "skos:related": [
+    {
+     "@id": "cm:conversational-turn-taking"
+    },
+    {
+     "@id": "cm:filled-pauses"
+    },
+    {
+     "@id": "cm:high-and-low-context-cultures"
+    },
+    {
+     "@id": "cm:integrative-negotiation"
+    },
+    {
+     "@id": "cm:presentation-rehearsal"
+    },
+    {
+     "@id": "cm:vocal-delivery"
+    },
+    {
+     "@id": "cm:wait-time"
+    },
+    {
+     "@id": "cm:workplace-meetings"
+    }
+   ]
+  },
+  {
    "@id": "cm:situation-behavior-impact",
    "@type": "cmo:Technique",
    "cmo:addresses": {
@@ -21080,6 +21189,46 @@
    "@type": "schema:HowToStep",
    "schema:position": 6,
    "schema:text": "Agree default reply windows for each channel with your team (for example chat same day, email within two working days) and write them in the team charter so individual messages only need to flag exceptions."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/silence-and-pauses/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:silence-and-pauses"
+   },
+   "rdfs:label": "After my most important sentence, did I stop for a beat before moving on, or rush straight into the next point?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/silence-and-pauses/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:silence-and-pauses"
+   },
+   "rdfs:label": "When I was asked the hardest question, did I give myself a few seconds to think before answering?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/silence-and-pauses/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:silence-and-pauses"
+   },
+   "rdfs:label": "Am I the more senior person here, or am I pausing in front of someone who controls the outcome and may read it badly?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/silence-and-pauses/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:silence-and-pauses"
+   },
+   "rdfs:label": "When a colleague went quiet after my proposal, did I check what the silence meant instead of assuming agreement?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/silence-and-pauses/check/5",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:silence-and-pauses"
+   },
+   "rdfs:label": "In this conversation, did I create silence to think, or did I let an awkward gap sit after someone else had taken a risk?"
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/situation-behavior-impact/check/1",
@@ -32339,6 +32488,90 @@
    "dcterms:title": "Answering emails out of hours: important addition to our email signatures",
    "schema:url": {
     "@id": "https://www.gla.ac.uk/schools/healthwellbeing/news/hawkeye2018onwards/july2019/headline_653845_en.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/silence-and-pauses/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Curhan, Overbeck, Cho, Zhang & Yang, Journal of Applied Psychology 107(1) (2022), doi:10.1037/apl0000877 (DSpace@MIT author manuscript)",
+   "dcterms:title": "Silence Is Golden: Extended Silence, Deliberative Mindset, and Value Creation in Negotiation",
+   "schema:url": {
+    "@id": "https://dspace.mit.edu/handle/1721.1/144112?show=full"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/silence-and-pauses/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Dylan Walsh, MIT Sloan School of Management, Ideas Made to Matter (27 April 2021)",
+   "dcterms:title": "In negotiation, use silence to improve outcomes for all",
+   "schema:url": {
+    "@id": "https://mitsloan.mit.edu/ideas-made-to-matter/negotiation-use-silence-to-improve-outcomes-all?utm_"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/silence-and-pauses/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Koudenburg, Postmes & Gordijn, Journal of Experimental Social Psychology 47(2), 512-515 (2011), doi:10.1016/j.jesp.2010.12.006 (University of Groningen repository copy via CORE)",
+   "dcterms:title": "Disrupting the flow: How brief silences in group conversations affect social needs",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/232372586.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/silence-and-pauses/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "MacGregor, Corley & Donaldson, Neuropsychologia 48(14), 3982-3992 (2010), doi:10.1016/j.neuropsychologia.2010.09.024 (University of St Andrews research portal)",
+   "dcterms:title": "Listening to the sound of silence: Disfluent silent pauses in speech have consequences for listeners",
+   "schema:url": {
+    "@id": "https://research-portal.st-andrews.ac.uk/en/publications/listening-to-the-sound-of-silence-disfluent-silent-pauses-in-spee/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/silence-and-pauses/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Templeton, Chang, Reynolds, Cone LeBeaumont & Wheatley, Proceedings of the National Academy of Sciences 119(4), e2116915119 (2022), doi:10.1073/pnas.2116915119 (PMC)",
+   "dcterms:title": "Fast response times signal social connection in conversation",
+   "schema:url": {
+    "@id": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8794835"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/silence-and-pauses/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Toastmaster magazine, Toastmasters International (August 2025)",
+   "dcterms:title": "Lessons from World Champions",
+   "schema:url": {
+    "@id": "https://www.toastmasters.org/magazine/magazine-issues/2025/august/lessons-from-world-champions"
    }
   },
   {
