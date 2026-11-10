@@ -32,8 +32,8 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:concise-writing` | 3 | Information overload, subtraction-neglect, wordiness |
 | `cm:paramedic-method` | 3 | Concise writing, official-style, wordiness |
 | `cm:self-recording-playback` | 3 | Gesturing while speaking, Public speaking anxiety, public-speaking |
-| `cm:culture-assimilator` | 2 | Cultural intelligence, intercultural-competence |
-| `cm:describe-analyze-evaluate` | 2 | Ethnocentrism, intercultural-competence |
+| `cm:culture-assimilator` | 2 | Cultural intelligence, Intercultural competence |
+| `cm:describe-analyze-evaluate` | 2 | Ethnocentrism, Intercultural competence |
 | `cm:facilitation` | 2 | Interrupting, unequal-participation |
 | `cm:i-statements` | 2 | Defensiveness, accusatory-you-statements |
 | `cm:interests-vs-positions` | 2 | Mythical fixed-pie bias, positional-bargaining |
@@ -59,7 +59,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:conversational-receptiveness` | 1 | Defensiveness |
 | `cm:de-escalation` | 1 | verbal-aggression |
 
-…and 24 more.
+…and 25 more.
 
 ## Toolkit by situation
 
@@ -98,7 +98,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:email` | `cm:rapport` |
 | `cm:email` | `cm:scheduled-inbox-checks` |
 
-…and 66 more.
+…and 67 more.
 
 ## Myths and contested advice
 
@@ -137,7 +137,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:bulleted-and-numbered-lists` | mixed | `cm:columbia-accident-investigation-board-report` |
 | `cm:camera-level-gaze` | mixed |  |
 
-…and 96 more.
+…and 97 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -149,6 +149,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:feedback-sandwich` | cmo:Technique |
 | `cm:gestures` | cmo:Skill |
 | `cm:information-overload` | cmo:Barrier |
+| `cm:intercultural-competence` | cmo:Skill |
 | `cm:interpersonal-communication` | cmo:Field |
 | `cm:interrupting` | cmo:AntiPattern |
 | `cm:labeling-emotions` | cmo:Technique |
@@ -174,9 +175,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:reservation-value` | cmo:Concept |
 | `cm:salary-negotiation` | cmo:Context |
 | `cm:scheduled-inbox-checks` | cmo:Technique |
-| `cm:self-affirmation-before-feedback` | cmo:Technique |
 
-…and 13 more.
+…and 14 more.
 
 ## Orphan articles (gap)
 

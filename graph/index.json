@@ -7929,6 +7929,115 @@
   ]
  },
  {
+  "id": "cm:intercultural-competence",
+  "title": "Intercultural competence",
+  "aliases": [
+   "intercultural communicative competence",
+   "cross-cultural competence",
+   "Deardorff process model of intercultural competence"
+  ],
+  "type": "Skill",
+  "domain": "cross-cultural-communication",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/cross-cultural-communication/intercultural-competence.md",
+  "created": "2026-11-10",
+  "summary": "The ability to communicate and behave effectively and appropriately with people whose cultural backgrounds differ from yours, built from attitudes (respect, openness, curiosity), knowledge (including cultural self-awareness) and skills (listening, observing, interpreting) that develop over a working life rather than being completed by one course.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:communication-competence"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:intercultural-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:cultural-intelligence"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:culture-assimilator"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:describe-analyze-evaluate"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:perspective-taking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:active-listening"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:high-and-low-context-cultures"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:face-and-facework"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:the-culture-map"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:leung-ang-tan-2014",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:ethnocentrism",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:multicultural-team",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:studiedIn",
+    "object": "cm:intercultural-communication",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:influencedBy",
+    "object": "cm:milton-bennett",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:matsumoto-hwang-2020",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Before this exchange, which of my own norms (how direct to be, who speaks first, what silence means) am I assuming the other person shares?",
+   "Did I describe what I actually observed before deciding what it meant?",
+   "Is my goal here both effective (I got what we needed) and appropriate (they would see how I behaved as acceptable)?",
+   "What did I learn in this conversation that I will test, rather than generalise, next time?"
+  ],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://culturalq.com/wp-content/uploads/2024/03/2014-AnnRev-Leung-Ang-Tan-Intercultural-competence_-Leung-Ang-ML.pdf",
+   "https://repository.lib.ncsu.edu/bitstream/handle/1840.16/5733/etd.pdf?sequence=1",
+   "https://sites.duke.edu/oneduke/files/2016/06/One-Duke-deardorff-handouts.pdf",
+   "https://niloaweb.sitehost.iu.edu/wp-content/uploads/2019/08/Viewpoint-Deardorff.pdf",
+   "https://www.frontiersin.org/articles/10.3389/fpsyg.2020.529737"
+  ]
+ },
+ {
   "id": "cm:interests-vs-positions",
   "title": "Interests vs. positions",
   "aliases": [

@@ -6925,6 +6925,96 @@
    ]
   },
   {
+   "@id": "cm:intercultural-competence",
+   "@type": "cmo:Skill",
+   "cmo:addresses": {
+    "@id": "cm:ethnocentrism"
+   },
+   "cmo:appliedIn": {
+    "@id": "cm:multicultural-team"
+   },
+   "cmo:challengedBy": {
+    "@id": "cm:matsumoto-hwang-2020"
+   },
+   "cmo:domain": "cross-cultural-communication",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:file": "articles/cross-cultural-communication/intercultural-competence.md",
+   "cmo:influencedBy": {
+    "@id": "cm:milton-bennett"
+   },
+   "cmo:level": "intermediate",
+   "cmo:studiedIn": {
+    "@id": "cm:intercultural-communication"
+   },
+   "cmo:supportedBy": {
+    "@id": "cm:leung-ang-tan-2014"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/intercultural-competence/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/intercultural-competence/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/intercultural-competence/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/intercultural-competence/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/intercultural-competence/s5"
+    }
+   ],
+   "rdfs:label": "Intercultural competence",
+   "skos:altLabel": [
+    "Deardorff process model of intercultural competence",
+    "cross-cultural competence",
+    "intercultural communicative competence"
+   ],
+   "skos:broader": {
+    "@id": "cm:communication-competence"
+   },
+   "skos:definition": "The ability to communicate and behave effectively and appropriately with people whose cultural backgrounds differ from yours, built from attitudes (respect, openness, curiosity), knowledge (including cultural self-awareness) and skills (listening, observing, interpreting) that develop over a working life rather than being completed by one course.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/cross-cultural-communication"
+   },
+   "skos:prefLabel": "Intercultural competence",
+   "skos:related": [
+    {
+     "@id": "cm:active-listening"
+    },
+    {
+     "@id": "cm:cultural-intelligence"
+    },
+    {
+     "@id": "cm:culture-assimilator"
+    },
+    {
+     "@id": "cm:describe-analyze-evaluate"
+    },
+    {
+     "@id": "cm:face-and-facework"
+    },
+    {
+     "@id": "cm:high-and-low-context-cultures"
+    },
+    {
+     "@id": "cm:intercultural-communication"
+    },
+    {
+     "@id": "cm:perspective-taking"
+    },
+    {
+     "@id": "cm:the-culture-map"
+    }
+   ]
+  },
+  {
    "@id": "cm:interests-vs-positions",
    "@type": "cmo:Principle",
    "cmo:addresses": [
@@ -18696,6 +18786,38 @@
    "schema:text": "Before closing, ask whether any other arrangement would leave both sides better off than the one on the table."
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/intercultural-competence/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:intercultural-competence"
+   },
+   "rdfs:label": "Before this exchange, which of my own norms (how direct to be, who speaks first, what silence means) am I assuming the other person shares?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/intercultural-competence/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:intercultural-competence"
+   },
+   "rdfs:label": "Did I describe what I actually observed before deciding what it meant?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/intercultural-competence/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:intercultural-competence"
+   },
+   "rdfs:label": "Is my goal here both effective (I got what we needed) and appropriate (they would see how I behaved as acceptable)?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/intercultural-competence/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:intercultural-competence"
+   },
+   "rdfs:label": "What did I learn in this conversation that I will test, rather than generalise, next time?"
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/interests-vs-positions/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -27757,6 +27879,76 @@
    "dcterms:title": "Study finds nationality is not a good indicator of work-related cultural values",
    "schema:url": {
     "@id": "https://www.sciencedaily.com/releases/2016/05/160513112140.htm"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/intercultural-competence/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Leung, Ang & Tan, Annual Review of Organizational Psychology and Organizational Behavior 1, 2014, pp. 489-519, doi:10.1146/annurev-orgpsych-031413-091229 (author copy, Cultural Intelligence Center)",
+   "dcterms:title": "Intercultural Competence",
+   "schema:url": {
+    "@id": "https://culturalq.com/wp-content/uploads/2024/03/2014-AnnRev-Leung-Ang-Tan-Intercultural-competence_-Leung-Ang-ML.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/intercultural-competence/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Darla K. Deardorff, Ed.D. dissertation, North Carolina State University, 2004 (NCSU Libraries repository)",
+   "dcterms:title": "The Identification and Assessment of Intercultural Competence as a Student Outcome of Internationalization at Institutions of Higher Education in the United States",
+   "schema:url": {
+    "@id": "https://repository.lib.ncsu.edu/bitstream/handle/1840.16/5733/etd.pdf?sequence=1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/intercultural-competence/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Darla K. Deardorff, Duke University, 26 May 2016 (model from Deardorff 2006, Journal of Studies in International Education 10, 241-266)",
+   "dcterms:title": "Intercultural competence: ONE DUKE working session handouts (Process Model of Intercultural Competence)",
+   "schema:url": {
+    "@id": "https://sites.duke.edu/oneduke/files/2016/06/One-Duke-deardorff-handouts.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/intercultural-competence/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Darla K. Deardorff, National Institute for Learning Outcomes Assessment (University of Illinois and Indiana University), Viewpoint, May 2014",
+   "dcterms:title": "Some thoughts on assessing intercultural competence",
+   "schema:url": {
+    "@id": "https://niloaweb.sitehost.iu.edu/wp-content/uploads/2019/08/Viewpoint-Deardorff.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/intercultural-competence/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Matsumoto & Hwang, Frontiers in Psychology 11, 2020, doi:10.3389/fpsyg.2020.529737",
+   "dcterms:title": "Reconsidering the Active Psychological Ingredients Underlying Intercultural Adaptation: Implications for International Business",
+   "schema:url": {
+    "@id": "https://www.frontiersin.org/articles/10.3389/fpsyg.2020.529737"
    }
   },
   {

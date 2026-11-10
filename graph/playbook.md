@@ -158,6 +158,14 @@ Ask yourself:
 - Have I asked what this behaviour means in the other person's context before deciding what it means?
 - Who on this team have I quietly been avoiding or routing around, and is the real reason a difference in style?
 
+### [Intercultural competence](../articles/cross-cultural-communication/intercultural-competence.md) — Skill
+
+Ask yourself:
+- Before this exchange, which of my own norms (how direct to be, who speaks first, what silence means) am I assuming the other person shares?
+- Did I describe what I actually observed before deciding what it meant?
+- Is my goal here both effective (I got what we needed) and appropriate (they would see how I behaved as acceptable)?
+- What did I learn in this conversation that I will test, rather than generalise, next time?
+
 ## difficult-conversations-and-conflict
 
 ### [Apology](../articles/difficult-conversations-and-conflict/apology.md) — Genre
