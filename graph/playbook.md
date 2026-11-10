@@ -868,6 +868,29 @@ Ask yourself:
 - Am I trying to understand their reasoning, or just feeling sorry for them in a way that will make me give ground I need?
 - Has imagining their side made me more suspicious or more competitive than the facts warrant?
 
+### [Summarizing](../articles/listening/summarizing.md) — Technique
+
+1. While the other person talks, note the separate points, concerns and decisions they raise, not just the last thing they said.
+2. At a natural transition, a long monologue or before any decision, signal the summary ("Let me pull together what I've heard so far").
+3. Select the points that matter for the next step and group them in two to four short chunks, in their language where possible; leave out your own opinions.
+4. Include both sides when the person is torn, and name any open questions instead of quietly dropping them.
+5. Close with a check ("What have I missed or got wrong?") and fix the summary out loud if they correct it.
+6. Use the confirmed summary as the bridge to what comes next - a decision, an action list, or a new topic.
+
+*A team lead is in a one-on-one with an engineer who has spent ten minutes describing problems with a cross-team project, and the lead is about to jump to a fix.*
+
+| Before | After |
+|---|---|
+| OK, sounds rough. I'll ping the platform team and ask them to prioritise your tickets. | Let me check I've got the whole picture. Three things: the platform team's API changes keep breaking your builds, nobody told you the deadline moved to March, and you're unsure whether you or Priya owns the migration. You also said the first one is the most urgent. Is that right, and is anything missing? |
+
+**Why:** The rewrite gathers scattered points into one organised statement, records the speaker's own priority and invites correction, so the lead can act on the real problem rather than the most recent one mentioned.
+
+Ask yourself:
+- Did my summary cover the several points they made, or only the last or loudest one?
+- Did I leave my own opinions and solutions out of the summary itself?
+- Did I ask them to correct it, and did I change it when they did?
+- Did the summary lead clearly into the next step of the conversation?
+
 ### [Wait time](../articles/listening/wait-time.md) — Technique
 
 1. Ask one question, then stop talking - do not rephrase it, add a second question or offer a sample answer.

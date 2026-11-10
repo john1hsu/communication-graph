@@ -15938,6 +15938,113 @@
   ]
  },
  {
+  "id": "cm:summarizing",
+  "title": "Summarizing",
+  "aliases": [
+   "summarising",
+   "summary statements",
+   "verbal summary",
+   "collecting summary"
+  ],
+  "type": "Technique",
+  "domain": "listening",
+  "level": "introductory",
+  "evidenceStatus": "practitioner",
+  "file": "articles/listening/summarizing.md",
+  "created": "2026-11-10",
+  "summary": "Pulling together several points another person has made over a stretch of conversation and stating them back as one short, organised whole - then checking it is accurate - to confirm shared understanding, mark progress and move the conversation to its next step.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:active-listening"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:paraphrasing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:teach-back"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:meeting-recaps"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:open-ended-questions"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:paraphrasing"
+   },
+   {
+    "predicate": "cmo:develops",
+    "object": "cm:active-listening",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:paraphrasing",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:negotiation",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:rackham-carlisle-1978",
+    "source": "s6",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:partOf",
+    "object": "cm:motivational-interviewing",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:one-on-one-meetings",
+    "source": "s4",
+    "confidence": "low"
+   }
+  ],
+  "selfCheck": [
+   "Did my summary cover the several points they made, or only the last or loudest one?",
+   "Did I leave my own opinions and solutions out of the summary itself?",
+   "Did I ask them to correct it, and did I change it when they did?",
+   "Did the summary lead clearly into the next step of the conversation?"
+  ],
+  "steps": [
+   "While the other person talks, note the separate points, concerns and decisions they raise, not just the last thing they said.",
+   "At a natural transition, a long monologue or before any decision, signal the summary (\"Let me pull together what I've heard so far\").",
+   "Select the points that matter for the next step and group them in two to four short chunks, in their language where possible; leave out your own opinions.",
+   "Include both sides when the person is torn, and name any open questions instead of quietly dropping them.",
+   "Close with a check (\"What have I missed or got wrong?\") and fix the summary out loud if they correct it.",
+   "Use the confirmed summary as the bridge to what comes next - a decision, an action list, or a new topic."
+  ],
+  "example": {
+   "situation": "A team lead is in a one-on-one with an engineer who has spent ten minutes describing problems with a cross-team project, and the lead is about to jump to a fix.",
+   "before": "OK, sounds rough. I'll ping the platform team and ask them to prioritise your tickets.",
+   "after": "Let me check I've got the whole picture. Three things: the platform team's API changes keep breaking your builds, nobody told you the deadline moved to March, and you're unsure whether you or Priya owns the migration. You also said the first one is the most urgent. Is that right, and is anything missing?",
+   "why": "The rewrite gathers scattered points into one organised statement, records the speaker's own priority and invites correction, so the lead can act on the real problem rather than the most recent one mentioned."
+  },
+  "source_urls": [
+   "https://emeraldinsight.com/doi/abs/10.1108/eb002297",
+   "https://www.huthwaiteinternational.com/hubfs/Whitepapers%20-%202025/Whitepaper%20PDFs/Developing%20effective%20Negotiation%20skills.pdf",
+   "https://www.med.unc.edu/cfar/2025/11/conversations-about-change-summaries",
+   "https://ecampusontario.pressbooks.pub/careercoaching/?p=45",
+   "https://improvingmipractices.org/courses-and-resources/courses/motivational-interviewing/mi-lesson-twelve-summaries-and-reflecting",
+   "https://mitchellhamline.edu/dri-skills-lab/wp-content/uploads/sites/1003/2025/06/Negotiation-Communication-Behaviors-Expanded.pdf"
+  ]
+ },
+ {
   "id": "cm:teach-back",
   "title": "Teach-back",
   "aliases": [

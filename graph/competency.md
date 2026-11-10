@@ -57,7 +57,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:considering-others-contributions-first` | 1 | Egocentric bias |
 | `cm:conversational-receptiveness` | 1 | Defensiveness |
 
-…and 26 more.
+…and 27 more.
 
 ## Toolkit by situation
 
@@ -96,7 +96,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:email` | `cm:rapport` |
 | `cm:email` | `cm:scheduled-inbox-checks` |
 
-…and 69 more.
+…and 71 more.
 
 ## Myths and contested advice
 
@@ -174,7 +174,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:reservation-value` | cmo:Concept |
 | `cm:salary-negotiation` | cmo:Context |
 
-…and 16 more.
+…and 17 more.
 
 ## Orphan articles (gap)
 
