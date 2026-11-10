@@ -143,7 +143,6 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 
 | node | type |
 |---|---|
-| `cm:conflict-resolution` | cmo:Field |
 | `cm:de-escalation` | cmo:Technique |
 | `cm:feedback-sandwich` | cmo:Technique |
 | `cm:gestures` | cmo:Skill |
@@ -173,8 +172,9 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:refutational-two-sided-messages` | cmo:Technique |
 | `cm:reservation-value` | cmo:Concept |
 | `cm:salary-negotiation` | cmo:Context |
+| `cm:scheduled-inbox-checks` | cmo:Technique |
 
-…and 17 more.
+…and 16 more.
 
 ## Orphan articles (gap)
 

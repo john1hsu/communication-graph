@@ -8805,6 +8805,82 @@
    ]
   },
   {
+   "@id": "cm:morton-deutsch",
+   "@type": "cmo:Person",
+   "cmo:authored": {
+    "@id": "cm:the-resolution-of-conflict"
+   },
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "historical",
+   "cmo:file": "articles/thinkers-and-works/morton-deutsch.md",
+   "cmo:influencedBy": {
+    "@id": "cm:kurt-lewin"
+   },
+   "cmo:introduced": [
+    {
+     "@id": "cm:conflict-resolution"
+    },
+    {
+     "@id": "cm:theory-of-cooperation-and-competition"
+    }
+   ],
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/morton-deutsch/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/morton-deutsch/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/morton-deutsch/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/morton-deutsch/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/morton-deutsch/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/morton-deutsch/s6"
+    }
+   ],
+   "rdfs:label": "Morton Deutsch",
+   "skos:altLabel": [
+    "Deutsch",
+    "M. Deutsch"
+   ],
+   "skos:definition": "Social psychologist (1920-2017) at Teachers College, Columbia University, regarded as one of the founders of the conflict resolution field; his theory of cooperation and competition explains why shared goals open up communication and trust while win-lose goals close them down, and why conflicts tend to spiral in whichever direction they start.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "Morton Deutsch",
+   "skos:related": [
+    {
+     "@id": "cm:charles-osgood"
+    },
+    {
+     "@id": "cm:de-escalation"
+    },
+    {
+     "@id": "cm:distributive-negotiation"
+    },
+    {
+     "@id": "cm:integrative-negotiation"
+    },
+    {
+     "@id": "cm:role-reversal"
+    },
+    {
+     "@id": "cm:social-psychology"
+    }
+   ]
+  },
+  {
    "@id": "cm:multicultural-team",
    "@type": "cmo:Context",
    "cmo:demonstratedBy": [
@@ -30033,6 +30109,90 @@
    "dcterms:title": "Motivating Others to Action",
    "schema:url": {
     "@id": "https://nic.pressbooks.pub/messagesthatmatter/chapter/persuasion-theories-2/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/morton-deutsch/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Teachers College, Columbia University (14 March 2017)",
+   "dcterms:title": "Sad News: The passing of Morton Deutsch",
+   "schema:url": {
+    "@id": "https://www.tc.columbia.edu/articles/2017/march/sad-news-the-passing-of-morton-deutsch"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/morton-deutsch/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "International Center for Cooperation and Conflict Resolution, Teachers College, Columbia University (posted 15 June 2017)",
+   "dcterms:title": "Morton Deutsch obituary (Guy Olivier Faure, PIN Points 44)",
+   "schema:url": {
+    "@id": "https://icccr.tc.columbia.edu/morton-deutsch-obituary-in-pin-points-magazine"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/morton-deutsch/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Peter T. Coleman, Negotiation Journal (January 2018), 105-116, DOI 10.1111/nejo.12216 (author's copy, Columbia University)",
+   "dcterms:title": "Ten Major Scientific Contributions that Promote a More Just, Peaceful, and Sustainable World",
+   "schema:url": {
+    "@id": "https://ac4.climate.columbia.edu/sites/default/files/content/Ten_Major_Scientific_Contribut.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/morton-deutsch/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Beyond Intractability, Conflict Information Consortium, University of Colorado",
+   "dcterms:title": "Summary of \"Cooperation and Competition\" (Deutsch, in The Handbook of Conflict Resolution, 2000)",
+   "schema:url": {
+    "@id": "https://www.beyondintractability.org/artsum/deutsch-cooperation"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/morton-deutsch/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Open Textbooks for Hong Kong, social psychology textbook, chapter 12 (posted 15 February 2016)",
+   "dcterms:title": "Resource Dilemma Games",
+   "schema:url": {
+    "@id": "https://www.opentextbooks.org.hk/node/17903"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/morton-deutsch/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Morton Deutsch & Robert M. Krauss, Journal of Conflict Resolution 6(1), 52-76 (1962), DOI 10.1177/002200276200600107 (IDEAS/RePEc record)",
+   "dcterms:title": "Studies of interpersonal bargaining",
+   "schema:url": {
+    "@id": "https://ideas.repec.org/a/sae/jocore/v6y1962i1p52-76.html"
    }
   },
   {

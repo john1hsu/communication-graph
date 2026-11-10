@@ -10025,6 +10025,82 @@
   ]
  },
  {
+  "id": "cm:morton-deutsch",
+  "title": "Morton Deutsch",
+  "aliases": [
+   "M. Deutsch",
+   "Deutsch"
+  ],
+  "type": "Person",
+  "domain": "thinkers-and-works",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/thinkers-and-works/morton-deutsch.md",
+  "created": "2026-11-10",
+  "summary": "Social psychologist (1920-2017) at Teachers College, Columbia University, regarded as one of the founders of the conflict resolution field; his theory of cooperation and competition explains why shared goals open up communication and trust while win-lose goals close them down, and why conflicts tend to spiral in whichever direction they start.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "cm:role-reversal"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:integrative-negotiation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:distributive-negotiation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:de-escalation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:charles-osgood"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:social-psychology"
+   },
+   {
+    "predicate": "cmo:introduced",
+    "object": "cm:conflict-resolution",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:introduced",
+    "object": "cm:theory-of-cooperation-and-competition",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:authored",
+    "object": "cm:the-resolution-of-conflict",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:influencedBy",
+    "object": "cm:kurt-lewin",
+    "source": "s3",
+    "confidence": "high"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://www.tc.columbia.edu/articles/2017/march/sad-news-the-passing-of-morton-deutsch",
+   "https://icccr.tc.columbia.edu/morton-deutsch-obituary-in-pin-points-magazine",
+   "https://ac4.climate.columbia.edu/sites/default/files/content/Ten_Major_Scientific_Contribut.pdf",
+   "https://www.beyondintractability.org/artsum/deutsch-cooperation",
+   "https://www.opentextbooks.org.hk/node/17903",
+   "https://ideas.repec.org/a/sae/jocore/v6y1962i1p52-76.html"
+  ]
+ },
+ {
   "id": "cm:multicultural-team",
   "title": "Multicultural team",
   "aliases": [
