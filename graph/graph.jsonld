@@ -347,6 +347,76 @@
    ]
   },
   {
+   "@id": "cm:alvin-toffler",
+   "@type": "cmo:Person",
+   "cmo:authored": {
+    "@id": "cm:future-shock"
+   },
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "historical",
+   "cmo:file": "articles/thinkers-and-works/alvin-toffler.md",
+   "cmo:introduced": [
+    {
+     "@id": "cm:adhocracy"
+    },
+    {
+     "@id": "cm:information-overload"
+    }
+   ],
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/alvin-toffler/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/alvin-toffler/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/alvin-toffler/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/alvin-toffler/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/alvin-toffler/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/alvin-toffler/s6"
+    }
+   ],
+   "rdfs:label": "Alvin Toffler",
+   "skos:altLabel": [
+    "A. Toffler",
+    "Toffler"
+   ],
+   "skos:definition": "American writer and futurist (1928-2016) whose bestseller Future Shock (1970) brought the idea of information overload to a mass audience and coined \"adhocracy\"; his work is the reason most managers have a name for the feeling that messages arrive faster than anyone can process them.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "Alvin Toffler",
+   "skos:related": [
+    {
+     "@id": "cm:bertram-gross"
+    },
+    {
+     "@id": "cm:cognitive-load"
+    },
+    {
+     "@id": "cm:email"
+    },
+    {
+     "@id": "cm:information-overload"
+    },
+    {
+     "@id": "cm:organizational-communication"
+    }
+   ]
+  },
+  {
    "@id": "cm:anchoring-and-adjustment",
    "@type": "cmo:Phenomenon",
    "cmo:causes": {
@@ -23167,6 +23237,90 @@
    "dcterms:title": "Adam Galinsky (contributor profile)",
    "schema:url": {
     "@id": "https://greatergood.berkeley.edu/profile/adam_galinsky"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/alvin-toffler/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "David Bawden & Lyn Robinson, Oxford Research Encyclopedia of Politics (Oxford Encyclopedia of Political Decision Making), Oxford University Press, 2020, DOI 10.1093/acrefore/9780190228637.013.1360 (accepted manuscript, City, University of London repository)",
+   "dcterms:title": "Information Overload: An Overview",
+   "schema:url": {
+    "@id": "https://openaccess.city.ac.uk/id/eprint/23544/1/information%20overload%20-%20an%20overview.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/alvin-toffler/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "James A. Desveaux, Encyclopaedia Britannica",
+   "dcterms:title": "Adhocracy",
+   "schema:url": {
+    "@id": "https://www.britannica.com/topic/adhocracy"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/alvin-toffler/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Encyclopaedia Britannica",
+   "dcterms:title": "Futurology",
+   "schema:url": {
+    "@id": "https://www.britannica.com/topic/futurology"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/alvin-toffler/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Penguin Random House author page",
+   "dcterms:title": "Alvin Toffler",
+   "schema:url": {
+    "@id": "https://penguinrandomhouse.com/authors/31202/alvin-toffler/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/alvin-toffler/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "news",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "The Boston Globe (obituary), 29 June 2016",
+   "dcterms:title": "Alvin Toffler, 87; his 'Future Shock' provided prescient glimpse forward",
+   "schema:url": {
+    "@id": "https://www.bostonglobe.com/metro/obituaries/2016/06/29/alvin-toffler-author-future-shock-dies/PziTTnpds5t5y3WdW3pIiI/story.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/alvin-toffler/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "news",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "NBC News, June 2016",
+   "dcterms:title": "'Future Shock' Author Alvin Toffler, Who Predicted Disconnection of Modern World, Dies at 87",
+   "schema:url": {
+    "@id": "https://www.nbcnews.com/news/us-news/alvin-toffler-future-shock-author-who-predicted-disconnection-modern-world-n601501"
    }
   },
   {

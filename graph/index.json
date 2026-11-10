@@ -386,6 +386,72 @@
   ]
  },
  {
+  "id": "cm:alvin-toffler",
+  "title": "Alvin Toffler",
+  "aliases": [
+   "A. Toffler",
+   "Toffler"
+  ],
+  "type": "Person",
+  "domain": "thinkers-and-works",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/thinkers-and-works/alvin-toffler.md",
+  "created": "2026-11-10",
+  "summary": "American writer and futurist (1928-2016) whose bestseller Future Shock (1970) brought the idea of information overload to a mass audience and coined \"adhocracy\"; his work is the reason most managers have a name for the feeling that messages arrive faster than anyone can process them.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "cm:information-overload"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:organizational-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:cognitive-load"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:bertram-gross"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:email"
+   },
+   {
+    "predicate": "cmo:introduced",
+    "object": "cm:information-overload",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:introduced",
+    "object": "cm:adhocracy",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:authored",
+    "object": "cm:future-shock",
+    "source": "s3",
+    "confidence": "high"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://openaccess.city.ac.uk/id/eprint/23544/1/information%20overload%20-%20an%20overview.pdf",
+   "https://www.britannica.com/topic/adhocracy",
+   "https://www.britannica.com/topic/futurology",
+   "https://penguinrandomhouse.com/authors/31202/alvin-toffler/",
+   "https://www.bostonglobe.com/metro/obituaries/2016/06/29/alvin-toffler-author-future-shock-dies/PziTTnpds5t5y3WdW3pIiI/story.html",
+   "https://www.nbcnews.com/news/us-news/alvin-toffler-future-shock-author-who-predicted-disconnection-modern-world-n601501"
+  ]
+ },
+ {
   "id": "cm:anchoring-and-adjustment",
   "title": "Anchoring and adjustment",
   "aliases": [

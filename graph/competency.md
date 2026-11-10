@@ -146,7 +146,6 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:de-escalation` | cmo:Technique |
 | `cm:feedback-sandwich` | cmo:Technique |
 | `cm:gestures` | cmo:Skill |
-| `cm:information-overload` | cmo:Barrier |
 | `cm:intercultural-competence` | cmo:Skill |
 | `cm:interpersonal-communication` | cmo:Field |
 | `cm:interrupting` | cmo:AntiPattern |
@@ -173,8 +172,9 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:refutational-two-sided-messages` | cmo:Technique |
 | `cm:reservation-value` | cmo:Concept |
 | `cm:salary-negotiation` | cmo:Context |
+| `cm:scheduled-inbox-checks` | cmo:Technique |
 
-…and 18 more.
+…and 17 more.
 
 ## Orphan articles (gap)
 

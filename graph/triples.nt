@@ -215,6 +215,32 @@
 <https://github.com/john1hsu/communication-graph/id/adam-galinsky> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/first-offer> .
 <https://github.com/john1hsu/communication-graph/id/adam-galinsky> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/range-of-acceptable-behavior> .
 <https://github.com/john1hsu/communication-graph/id/adam-galinsky> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/alvin-toffler> <http://purl.org/dc/terms/created> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/alvin-toffler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+<https://github.com/john1hsu/communication-graph/id/alvin-toffler> <http://www.w3.org/2000/01/rdf-schema#label> "Alvin Toffler" .
+<https://github.com/john1hsu/communication-graph/id/alvin-toffler> <http://www.w3.org/2004/02/skos/core#altLabel> "A. Toffler" .
+<https://github.com/john1hsu/communication-graph/id/alvin-toffler> <http://www.w3.org/2004/02/skos/core#altLabel> "Toffler" .
+<https://github.com/john1hsu/communication-graph/id/alvin-toffler> <http://www.w3.org/2004/02/skos/core#definition> "American writer and futurist (1928-2016) whose bestseller Future Shock (1970) brought the idea of information overload to a mass audience and coined \"adhocracy\"; his work is the reason most managers have a name for the feeling that messages arrive faster than anyone can process them." .
+<https://github.com/john1hsu/communication-graph/id/alvin-toffler> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works> .
+<https://github.com/john1hsu/communication-graph/id/alvin-toffler> <http://www.w3.org/2004/02/skos/core#prefLabel> "Alvin Toffler" .
+<https://github.com/john1hsu/communication-graph/id/alvin-toffler> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/bertram-gross> .
+<https://github.com/john1hsu/communication-graph/id/alvin-toffler> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-load> .
+<https://github.com/john1hsu/communication-graph/id/alvin-toffler> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/email> .
+<https://github.com/john1hsu/communication-graph/id/alvin-toffler> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/information-overload> .
+<https://github.com/john1hsu/communication-graph/id/alvin-toffler> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
+<https://github.com/john1hsu/communication-graph/id/alvin-toffler> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/alvin-toffler/s1> .
+<https://github.com/john1hsu/communication-graph/id/alvin-toffler> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/alvin-toffler/s2> .
+<https://github.com/john1hsu/communication-graph/id/alvin-toffler> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/alvin-toffler/s3> .
+<https://github.com/john1hsu/communication-graph/id/alvin-toffler> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/alvin-toffler/s4> .
+<https://github.com/john1hsu/communication-graph/id/alvin-toffler> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/alvin-toffler/s5> .
+<https://github.com/john1hsu/communication-graph/id/alvin-toffler> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/alvin-toffler/s6> .
+<https://github.com/john1hsu/communication-graph/id/alvin-toffler> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/future-shock> .
+<https://github.com/john1hsu/communication-graph/id/alvin-toffler> <https://github.com/john1hsu/communication-graph/ontology#domain> "thinkers-and-works" .
+<https://github.com/john1hsu/communication-graph/id/alvin-toffler> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "historical" .
+<https://github.com/john1hsu/communication-graph/id/alvin-toffler> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/thinkers-and-works/alvin-toffler.md" .
+<https://github.com/john1hsu/communication-graph/id/alvin-toffler> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/adhocracy> .
+<https://github.com/john1hsu/communication-graph/id/alvin-toffler> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/information-overload> .
+<https://github.com/john1hsu/communication-graph/id/alvin-toffler> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> <http://purl.org/dc/terms/created> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Phenomenon> .
 <https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> <http://www.w3.org/2000/01/rdf-schema#label> "Anchoring and adjustment" .
@@ -8342,6 +8368,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/adam-galinsky/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/adam-galinsky/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
 <https://github.com/john1hsu/communication-graph/id/source/adam-galinsky/s5> <https://schema.org/url> <https://greatergood.berkeley.edu/profile/adam_galinsky> .
+<https://github.com/john1hsu/communication-graph/id/source/alvin-toffler/s1> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/alvin-toffler/s1> <http://purl.org/dc/terms/publisher> "David Bawden & Lyn Robinson, Oxford Research Encyclopedia of Politics (Oxford Encyclopedia of Political Decision Making), Oxford University Press, 2020, DOI 10.1093/acrefore/9780190228637.013.1360 (accepted manuscript, City, University of London repository)" .
+<https://github.com/john1hsu/communication-graph/id/source/alvin-toffler/s1> <http://purl.org/dc/terms/title> "Information Overload: An Overview" .
+<https://github.com/john1hsu/communication-graph/id/source/alvin-toffler/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/alvin-toffler/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/communication-graph/id/source/alvin-toffler/s1> <https://schema.org/url> <https://openaccess.city.ac.uk/id/eprint/23544/1/information%20overload%20-%20an%20overview.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/alvin-toffler/s2> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/alvin-toffler/s2> <http://purl.org/dc/terms/publisher> "James A. Desveaux, Encyclopaedia Britannica" .
+<https://github.com/john1hsu/communication-graph/id/source/alvin-toffler/s2> <http://purl.org/dc/terms/title> "Adhocracy" .
+<https://github.com/john1hsu/communication-graph/id/source/alvin-toffler/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/alvin-toffler/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "encyclopedia" .
+<https://github.com/john1hsu/communication-graph/id/source/alvin-toffler/s2> <https://schema.org/url> <https://www.britannica.com/topic/adhocracy> .
+<https://github.com/john1hsu/communication-graph/id/source/alvin-toffler/s3> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/alvin-toffler/s3> <http://purl.org/dc/terms/publisher> "Encyclopaedia Britannica" .
+<https://github.com/john1hsu/communication-graph/id/source/alvin-toffler/s3> <http://purl.org/dc/terms/title> "Futurology" .
+<https://github.com/john1hsu/communication-graph/id/source/alvin-toffler/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/alvin-toffler/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "encyclopedia" .
+<https://github.com/john1hsu/communication-graph/id/source/alvin-toffler/s3> <https://schema.org/url> <https://www.britannica.com/topic/futurology> .
+<https://github.com/john1hsu/communication-graph/id/source/alvin-toffler/s4> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/alvin-toffler/s4> <http://purl.org/dc/terms/publisher> "Penguin Random House author page" .
+<https://github.com/john1hsu/communication-graph/id/source/alvin-toffler/s4> <http://purl.org/dc/terms/title> "Alvin Toffler" .
+<https://github.com/john1hsu/communication-graph/id/source/alvin-toffler/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/alvin-toffler/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/alvin-toffler/s4> <https://schema.org/url> <https://penguinrandomhouse.com/authors/31202/alvin-toffler/> .
+<https://github.com/john1hsu/communication-graph/id/source/alvin-toffler/s5> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/alvin-toffler/s5> <http://purl.org/dc/terms/publisher> "The Boston Globe (obituary), 29 June 2016" .
+<https://github.com/john1hsu/communication-graph/id/source/alvin-toffler/s5> <http://purl.org/dc/terms/title> "Alvin Toffler, 87; his 'Future Shock' provided prescient glimpse forward" .
+<https://github.com/john1hsu/communication-graph/id/source/alvin-toffler/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/alvin-toffler/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "news" .
+<https://github.com/john1hsu/communication-graph/id/source/alvin-toffler/s5> <https://schema.org/url> <https://www.bostonglobe.com/metro/obituaries/2016/06/29/alvin-toffler-author-future-shock-dies/PziTTnpds5t5y3WdW3pIiI/story.html> .
+<https://github.com/john1hsu/communication-graph/id/source/alvin-toffler/s6> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/alvin-toffler/s6> <http://purl.org/dc/terms/publisher> "NBC News, June 2016" .
+<https://github.com/john1hsu/communication-graph/id/source/alvin-toffler/s6> <http://purl.org/dc/terms/title> "'Future Shock' Author Alvin Toffler, Who Predicted Disconnection of Modern World, Dies at 87" .
+<https://github.com/john1hsu/communication-graph/id/source/alvin-toffler/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/alvin-toffler/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "news" .
+<https://github.com/john1hsu/communication-graph/id/source/alvin-toffler/s6> <https://schema.org/url> <https://www.nbcnews.com/news/us-news/alvin-toffler-future-shock-author-who-predicted-disconnection-modern-world-n601501> .
 <https://github.com/john1hsu/communication-graph/id/source/anchoring-and-adjustment/s1> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/anchoring-and-adjustment/s1> <http://purl.org/dc/terms/publisher> "Tversky & Kahneman, Science 185(4157), 1124-1131, 1974 (PubMed record)" .
 <https://github.com/john1hsu/communication-graph/id/source/anchoring-and-adjustment/s1> <http://purl.org/dc/terms/title> "Judgment under Uncertainty: Heuristics and Biases" .
