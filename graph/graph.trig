@@ -700,6 +700,15 @@
 <https://github.com/john1hsu/communication-graph/id/raci-matrix#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/raci-matrix/s4> .
 <https://github.com/john1hsu/communication-graph/id/raci-matrix#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/raci-matrix/s5> .
 <https://github.com/john1hsu/communication-graph/id/raci-matrix#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/raci-matrix/s6> .
+<https://github.com/john1hsu/communication-graph/id/unequal-participation#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/unequal-participation#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/unequal-participation> .
+<https://github.com/john1hsu/communication-graph/id/unequal-participation#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/meetings-and-facilitation/unequal-participation.md" .
+<https://github.com/john1hsu/communication-graph/id/unequal-participation#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/unequal-participation/s1> .
+<https://github.com/john1hsu/communication-graph/id/unequal-participation#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/unequal-participation/s2> .
+<https://github.com/john1hsu/communication-graph/id/unequal-participation#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/unequal-participation/s3> .
+<https://github.com/john1hsu/communication-graph/id/unequal-participation#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/unequal-participation/s4> .
+<https://github.com/john1hsu/communication-graph/id/unequal-participation#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/unequal-participation/s5> .
+<https://github.com/john1hsu/communication-graph/id/unequal-participation#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/unequal-participation/s6> .
 <https://github.com/john1hsu/communication-graph/id/workplace-meetings#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/workplace-meetings#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/workplace-meetings> .
 <https://github.com/john1hsu/communication-graph/id/workplace-meetings#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/meetings-and-facilitation/workplace-meetings.md" .
@@ -9166,6 +9175,94 @@
   <https://github.com/john1hsu/communication-graph/id/source/raci-matrix/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
   <https://github.com/john1hsu/communication-graph/id/source/raci-matrix/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
   <https://github.com/john1hsu/communication-graph/id/source/raci-matrix/s6> <https://schema.org/url> <https://www.bain.com/insights/who-has-the-d> .
+}
+
+<https://github.com/john1hsu/communication-graph/id/unequal-participation#graph> {
+  <https://github.com/john1hsu/communication-graph/id/source/unequal-participation/s1> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/unequal-participation/s1> <http://purl.org/dc/terms/publisher> "Anita Williams Woolley, Christopher F. Chabris, Alex Pentland, Nada Hashmi & Thomas W. Malone, Science 330(6004), 686-688 (2010), doi:10.1126/science.1193147 (PubMed record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/unequal-participation/s1> <http://purl.org/dc/terms/title> "Evidence for a Collective Intelligence Factor in the Performance of Human Groups" .
+  <https://github.com/john1hsu/communication-graph/id/source/unequal-participation/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/unequal-participation/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/unequal-participation/s1> <https://schema.org/url> <https://pubmed.ncbi.nlm.nih.gov/20929725/> .
+  <https://github.com/john1hsu/communication-graph/id/source/unequal-participation/s2> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/unequal-participation/s2> <http://purl.org/dc/terms/publisher> "Luke I. Rowe, John Hattie & Robert Hester, Cognitive Research - Principles and Implications 6, article 26 (2021), doi:10.1186/s41235-021-00285-2 (Springer PDF)" .
+  <https://github.com/john1hsu/communication-graph/id/source/unequal-participation/s2> <http://purl.org/dc/terms/title> "g versus c: Comparing Individual and Collective Intelligence Across Two Meta-Analyses" .
+  <https://github.com/john1hsu/communication-graph/id/source/unequal-participation/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/unequal-participation/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/unequal-participation/s2> <https://schema.org/url> <https://link.springer.com/content/pdf/10.1186%2Fs41235-021-00285-2.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/unequal-participation/s3> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/unequal-participation/s3> <http://purl.org/dc/terms/publisher> "Christopher F. Karpowitz, Tali Mendelberg & Lee Shaker, American Political Science Review 106(3), 533-547 (2012), doi:10.1017/S0003055412000329 (Cambridge Core)" .
+  <https://github.com/john1hsu/communication-graph/id/source/unequal-participation/s3> <http://purl.org/dc/terms/title> "Gender Inequality in Deliberative Participation" .
+  <https://github.com/john1hsu/communication-graph/id/source/unequal-participation/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/unequal-participation/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/unequal-participation/s3> <https://schema.org/url> <https://www.cambridge.org/core/journals/american-political-science-review/article/abs/gender-inequality-in-deliberative-participation/CE7441632EB3B0BD21CC5045C7E1AF76> .
+  <https://github.com/john1hsu/communication-graph/id/source/unequal-participation/s4> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/unequal-participation/s4> <http://purl.org/dc/terms/publisher> "Neil G. MacLaren, Francis J. Yammarino, Shelley D. Dionne et al., The Leadership Quarterly 31(5), 101409 (2020), doi:10.1016/j.leaqua.2020.101409 (SUNY research record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/unequal-participation/s4> <http://purl.org/dc/terms/title> "Testing the Babble Hypothesis: Speaking Time Predicts Leader Emergence in Small Groups" .
+  <https://github.com/john1hsu/communication-graph/id/source/unequal-participation/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/unequal-participation/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/unequal-participation/s4> <https://schema.org/url> <https://researchconnect.suny.edu/en/publications/testing-the-babble-hypothesis-speaking-time-predicts-leader-emerg/> .
+  <https://github.com/john1hsu/communication-graph/id/source/unequal-participation/s5> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/unequal-participation/s5> <http://purl.org/dc/terms/publisher> "Kellogg School of Management, Northwestern University (Leigh Thompson, video post, 25 June 2014)" .
+  <https://github.com/john1hsu/communication-graph/id/source/unequal-participation/s5> <http://purl.org/dc/terms/title> "How Brainwriting Can Neutralize the Loudmouths" .
+  <https://github.com/john1hsu/communication-graph/id/source/unequal-participation/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/unequal-participation/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/communication-graph/id/source/unequal-participation/s5> <https://schema.org/url> <https://www.kellogg.northwestern.edu/news/blog/2014/06/25/video-how-brainwriting-can-neutralize-the-loudmouths> .
+  <https://github.com/john1hsu/communication-graph/id/source/unequal-participation/s6> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/unequal-participation/s6> <http://purl.org/dc/terms/publisher> "OpenLearn, The Open University" .
+  <https://github.com/john1hsu/communication-graph/id/source/unequal-participation/s6> <http://purl.org/dc/terms/title> "Facilitating Group Discussions, section 6.1: Under-participation" .
+  <https://github.com/john1hsu/communication-graph/id/source/unequal-participation/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/unequal-participation/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/communication-graph/id/source/unequal-participation/s6> <https://schema.org/url> <https://www.open.edu/openlearn/money-business/facilitating-group-discussions/content-section-6.1> .
+  <https://github.com/john1hsu/communication-graph/id/unequal-participation/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/unequal-participation/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Who in this meeting has not spoken yet, and is that because they have nothing to add or because the format never gave them an opening?" .
+  <https://github.com/john1hsu/communication-graph/id/unequal-participation/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/unequal-participation> .
+  <https://github.com/john1hsu/communication-graph/id/unequal-participation/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/unequal-participation/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "If I counted turns, would two or three people, including me, account for most of the talking?" .
+  <https://github.com/john1hsu/communication-graph/id/unequal-participation/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/unequal-participation> .
+  <https://github.com/john1hsu/communication-graph/id/unequal-participation/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/unequal-participation/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Did we collect everyone's view in writing or in pairs before the most senior or most confident person spoke?" .
+  <https://github.com/john1hsu/communication-graph/id/unequal-participation/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/unequal-participation> .
+  <https://github.com/john1hsu/communication-graph/id/unequal-participation/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/unequal-participation/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Am I judging whose idea is best by its merit, or by who said it most often and most fluently?" .
+  <https://github.com/john1hsu/communication-graph/id/unequal-participation/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/unequal-participation> .
+  <https://github.com/john1hsu/communication-graph/id/unequal-participation> <http://purl.org/dc/terms/created> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/unequal-participation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Barrier> .
+  <https://github.com/john1hsu/communication-graph/id/unequal-participation> <http://www.w3.org/2000/01/rdf-schema#label> "Unequal participation" .
+  <https://github.com/john1hsu/communication-graph/id/unequal-participation> <http://www.w3.org/2004/02/skos/core#altLabel> "airtime imbalance" .
+  <https://github.com/john1hsu/communication-graph/id/unequal-participation> <http://www.w3.org/2004/02/skos/core#altLabel> "conversation hogging" .
+  <https://github.com/john1hsu/communication-graph/id/unequal-participation> <http://www.w3.org/2004/02/skos/core#altLabel> "dominant talkers" .
+  <https://github.com/john1hsu/communication-graph/id/unequal-participation> <http://www.w3.org/2004/02/skos/core#altLabel> "meeting domination" .
+  <https://github.com/john1hsu/communication-graph/id/unequal-participation> <http://www.w3.org/2004/02/skos/core#altLabel> "uneven speaking time" .
+  <https://github.com/john1hsu/communication-graph/id/unequal-participation> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/group-communication> .
+  <https://github.com/john1hsu/communication-graph/id/unequal-participation> <http://www.w3.org/2004/02/skos/core#definition> "The common pattern in group discussions where a few people take most of the speaking turns while others say little or nothing, so the group hears a narrow slice of what its members know. It is driven by status, confidence, group composition and meeting format, and is reduced by changing the format rather than by asking quiet people to try harder." .
+  <https://github.com/john1hsu/communication-graph/id/unequal-participation> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/meetings-and-facilitation> .
+  <https://github.com/john1hsu/communication-graph/id/unequal-participation> <http://www.w3.org/2004/02/skos/core#prefLabel> "Unequal participation" .
+  <https://github.com/john1hsu/communication-graph/id/unequal-participation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/1-2-4-all> .
+  <https://github.com/john1hsu/communication-graph/id/unequal-participation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/brainstorming> .
+  <https://github.com/john1hsu/communication-graph/id/unequal-participation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/brainwriting> .
+  <https://github.com/john1hsu/communication-graph/id/unequal-participation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> .
+  <https://github.com/john1hsu/communication-graph/id/unequal-participation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/facilitation> .
+  <https://github.com/john1hsu/communication-graph/id/unequal-participation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/interrupting> .
+  <https://github.com/john1hsu/communication-graph/id/unequal-participation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> .
+  <https://github.com/john1hsu/communication-graph/id/unequal-participation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
+  <https://github.com/john1hsu/communication-graph/id/unequal-participation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/wait-time> .
+  <https://github.com/john1hsu/communication-graph/id/unequal-participation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/workplace-meetings> .
+  <https://github.com/john1hsu/communication-graph/id/unequal-participation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/unequal-participation/s1> .
+  <https://github.com/john1hsu/communication-graph/id/unequal-participation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/unequal-participation/s2> .
+  <https://github.com/john1hsu/communication-graph/id/unequal-participation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/unequal-participation/s3> .
+  <https://github.com/john1hsu/communication-graph/id/unequal-participation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/unequal-participation/s4> .
+  <https://github.com/john1hsu/communication-graph/id/unequal-participation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/unequal-participation/s5> .
+  <https://github.com/john1hsu/communication-graph/id/unequal-participation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/unequal-participation/s6> .
+  <https://github.com/john1hsu/communication-graph/id/unequal-participation> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/g-versus-c-meta-analysis-2021> .
+  <https://github.com/john1hsu/communication-graph/id/unequal-participation> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/karpowitz-mendelberg-shaker-2012> .
+  <https://github.com/john1hsu/communication-graph/id/unequal-participation> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/woolley-et-al-2010> .
+  <https://github.com/john1hsu/communication-graph/id/unequal-participation> <https://github.com/john1hsu/communication-graph/ontology#domain> "meetings-and-facilitation" .
+  <https://github.com/john1hsu/communication-graph/id/unequal-participation> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+  <https://github.com/john1hsu/communication-graph/id/unequal-participation> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/maclaren-et-al-2020> .
+  <https://github.com/john1hsu/communication-graph/id/unequal-participation> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/meetings-and-facilitation/unequal-participation.md" .
+  <https://github.com/john1hsu/communication-graph/id/unequal-participation> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+  <https://github.com/john1hsu/communication-graph/id/unequal-participation> <https://github.com/john1hsu/communication-graph/ontology#undermines> <https://github.com/john1hsu/communication-graph/id/workplace-meetings> .
 }
 
 <https://github.com/john1hsu/communication-graph/id/workplace-meetings#graph> {
@@ -17892,6 +17989,7 @@
   <https://github.com/john1hsu/communication-graph/id/1-2-4-all> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/facilitation> .
   <https://github.com/john1hsu/communication-graph/id/1-2-4-all> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/group-communication> .
   <https://github.com/john1hsu/communication-graph/id/1-2-4-all> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/facilitators-guide-to-participatory-decision-making> .
+  <https://github.com/john1hsu/communication-graph/id/1-2-4-all> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/unequal-participation> .
   <https://github.com/john1hsu/communication-graph/id/a-behavioral-theory-of-labor-negotiations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/a-behavioral-theory-of-labor-negotiations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
   <https://github.com/john1hsu/communication-graph/id/a-behavioral-theory-of-labor-negotiations> <https://github.com/john1hsu/communication-graph/ontology#introduces> <https://github.com/john1hsu/communication-graph/id/distributive-negotiation> .
@@ -18347,6 +18445,7 @@
   <https://github.com/john1hsu/communication-graph/id/brainstorming> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/group-decision-making> .
   <https://github.com/john1hsu/communication-graph/id/brainstorming> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/facilitators-guide-to-participatory-decision-making> .
   <https://github.com/john1hsu/communication-graph/id/brainstorming> <https://github.com/john1hsu/communication-graph/ontology#alternativeTo> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/unequal-participation> .
   <https://github.com/john1hsu/communication-graph/id/brainwriting> <https://github.com/john1hsu/communication-graph/ontology#alternativeTo> <https://github.com/john1hsu/communication-graph/id/brainstorming> .
   <https://github.com/john1hsu/communication-graph/id/brett-pinkley-jackofsky-1996> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/brett-pinkley-jackofsky-1996> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
@@ -19413,6 +19512,7 @@
   <https://github.com/john1hsu/communication-graph/id/facilitation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/facilitators-guide-to-participatory-decision-making> .
   <https://github.com/john1hsu/communication-graph/id/facilitation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> .
   <https://github.com/john1hsu/communication-graph/id/facilitation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/interrupting> .
+  <https://github.com/john1hsu/communication-graph/id/facilitation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/unequal-participation> .
   <https://github.com/john1hsu/communication-graph/id/facilitation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/video-call-communication> .
   <https://github.com/john1hsu/communication-graph/id/facilitation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/workplace-meetings> .
   <https://github.com/john1hsu/communication-graph/id/facilitation> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/meeting-agendas> .
@@ -19583,6 +19683,7 @@
   <https://github.com/john1hsu/communication-graph/id/future-shock> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
   <https://github.com/john1hsu/communication-graph/id/future-shock> <https://github.com/john1hsu/communication-graph/ontology#authoredBy> <https://github.com/john1hsu/communication-graph/id/alvin-toffler> .
   <https://github.com/john1hsu/communication-graph/id/g-versus-c-meta-analysis-2021> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/facilitation> .
+  <https://github.com/john1hsu/communication-graph/id/g-versus-c-meta-analysis-2021> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/unequal-participation> .
   <https://github.com/john1hsu/communication-graph/id/gabbert-et-al-2021> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/rapport> .
   <https://github.com/john1hsu/communication-graph/id/galinsky-maddux-gilin-white-2008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/galinsky-maddux-gilin-white-2008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
@@ -19681,6 +19782,7 @@
   <https://github.com/john1hsu/communication-graph/id/grounding-in-communication> <https://github.com/john1hsu/communication-graph/ontology#introduces> <https://github.com/john1hsu/communication-graph/id/common-ground> .
   <https://github.com/john1hsu/communication-graph/id/group-cohesiveness> <https://github.com/john1hsu/communication-graph/ontology#confusedWith> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
   <https://github.com/john1hsu/communication-graph/id/group-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/facilitation> .
+  <https://github.com/john1hsu/communication-graph/id/group-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/unequal-participation> .
   <https://github.com/john1hsu/communication-graph/id/group-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/workplace-meetings> .
   <https://github.com/john1hsu/communication-graph/id/group-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/1-2-4-all> .
   <https://github.com/john1hsu/communication-graph/id/group-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/brainstorming> .
@@ -19691,6 +19793,7 @@
   <https://github.com/john1hsu/communication-graph/id/group-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> .
   <https://github.com/john1hsu/communication-graph/id/group-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> .
   <https://github.com/john1hsu/communication-graph/id/group-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/performance-review> .
+  <https://github.com/john1hsu/communication-graph/id/group-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/unequal-participation> .
   <https://github.com/john1hsu/communication-graph/id/group-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/workplace-meetings> .
   <https://github.com/john1hsu/communication-graph/id/group-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> .
   <https://github.com/john1hsu/communication-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/brainstorming> .
@@ -20146,6 +20249,7 @@
   <https://github.com/john1hsu/communication-graph/id/interrupting> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> .
   <https://github.com/john1hsu/communication-graph/id/interrupting> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
   <https://github.com/john1hsu/communication-graph/id/interrupting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> .
+  <https://github.com/john1hsu/communication-graph/id/interrupting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/unequal-participation> .
   <https://github.com/john1hsu/communication-graph/id/interrupting> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/facilitation> .
   <https://github.com/john1hsu/communication-graph/id/issue-selling/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/issue-selling/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -20236,6 +20340,9 @@
   <https://github.com/john1hsu/communication-graph/id/kardas-kumar-epley-2021> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/nicholas-epley> .
   <https://github.com/john1hsu/communication-graph/id/kardas-kumar-epley-2021> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/difficult-conversation> .
   <https://github.com/john1hsu/communication-graph/id/kardas-kumar-epley-2021> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/small-talk> .
+  <https://github.com/john1hsu/communication-graph/id/karpowitz-mendelberg-shaker-2012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/karpowitz-mendelberg-shaker-2012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
+  <https://github.com/john1hsu/communication-graph/id/karpowitz-mendelberg-shaker-2012> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/unequal-participation> .
   <https://github.com/john1hsu/communication-graph/id/kauffeld-lehmann-willenbrock-2012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/kauffeld-lehmann-willenbrock-2012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/kauffeld-lehmann-willenbrock-2012> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/workplace-meetings> .
@@ -20415,6 +20522,7 @@
   <https://github.com/john1hsu/communication-graph/id/macinnis-mackinnon-macintyre-2010> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> .
   <https://github.com/john1hsu/communication-graph/id/macinnis-mackinnon-macintyre-2010> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> .
   <https://github.com/john1hsu/communication-graph/id/macinnis-mackinnon-macintyre-2010> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> .
+  <https://github.com/john1hsu/communication-graph/id/maclaren-et-al-2020> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/unequal-participation> .
   <https://github.com/john1hsu/communication-graph/id/maclay-osgood-1959> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/maclay-osgood-1959> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
   <https://github.com/john1hsu/communication-graph/id/maclay-osgood-1959> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/filled-pauses> .
@@ -20769,6 +20877,7 @@
   <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/facilitators-guide-to-participatory-decision-making> .
   <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/meeting-agendas> .
   <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/murray-turoff> .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/unequal-participation> .
   <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/workplace-meetings> .
   <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
@@ -21254,6 +21363,7 @@
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/spotlight-effect> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/status-reporting> .
+  <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/unequal-participation> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/wait-time> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/workplace-meetings> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/humble-inquiry> .
@@ -22007,8 +22117,13 @@
   <https://github.com/john1hsu/communication-graph/id/uncertainty-reduction-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
   <https://github.com/john1hsu/communication-graph/id/unclear-ownership> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/active-voice> .
   <https://github.com/john1hsu/communication-graph/id/unclear-ownership> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/meeting-recaps> .
-  <https://github.com/john1hsu/communication-graph/id/unequal-participation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/brainstorming> .
-  <https://github.com/john1hsu/communication-graph/id/unequal-participation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> .
+  <https://github.com/john1hsu/communication-graph/id/unequal-participation/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/unequal-participation/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/unequal-participation/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/unequal-participation/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/unequal-participation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+  <https://github.com/john1hsu/communication-graph/id/unequal-participation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/unequal-participation> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/group-communication> .
   <https://github.com/john1hsu/communication-graph/id/unequal-participation> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/1-2-4-all> .
   <https://github.com/john1hsu/communication-graph/id/unequal-participation> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/facilitation> .
   <https://github.com/john1hsu/communication-graph/id/unequal-participation> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> .
@@ -22120,6 +22235,7 @@
   <https://github.com/john1hsu/communication-graph/id/wait-time> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mirroring> .
   <https://github.com/john1hsu/communication-graph/id/wait-time> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/salary-negotiation> .
   <https://github.com/john1hsu/communication-graph/id/wait-time> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/silence-and-pauses> .
+  <https://github.com/john1hsu/communication-graph/id/wait-time> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/unequal-participation> .
   <https://github.com/john1hsu/communication-graph/id/wait-time> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/video-call-communication> .
   <https://github.com/john1hsu/communication-graph/id/wall-of-text/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/wall-of-text/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -22155,7 +22271,10 @@
   <https://github.com/john1hsu/communication-graph/id/wohltjen-wheatley-2021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/wohltjen-wheatley-2021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/wohltjen-wheatley-2021> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/eye-contact> .
+  <https://github.com/john1hsu/communication-graph/id/woolley-et-al-2010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/woolley-et-al-2010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/woolley-et-al-2010> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> .
+  <https://github.com/john1hsu/communication-graph/id/woolley-et-al-2010> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/unequal-participation> .
   <https://github.com/john1hsu/communication-graph/id/woolley-et-al-2010> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/facilitation> .
   <https://github.com/john1hsu/communication-graph/id/wordiness> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/concise-writing> .
   <https://github.com/john1hsu/communication-graph/id/wordiness> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/paramedic-method> .
@@ -22190,6 +22309,7 @@
   <https://github.com/john1hsu/communication-graph/id/workplace-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> .
   <https://github.com/john1hsu/communication-graph/id/workplace-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/facilitators-guide-to-participatory-decision-making> .
   <https://github.com/john1hsu/communication-graph/id/workplace-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/silence-and-pauses> .
+  <https://github.com/john1hsu/communication-graph/id/workplace-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/unequal-participation> .
   <https://github.com/john1hsu/communication-graph/id/workplace-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/video-call-communication> .
   <https://github.com/john1hsu/communication-graph/id/workplace-meetings> <https://github.com/john1hsu/communication-graph/ontology#alternativeTo> <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> .
   <https://github.com/john1hsu/communication-graph/id/workplace-meetings> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/1-2-4-all> .
@@ -22199,6 +22319,7 @@
   <https://github.com/john1hsu/communication-graph/id/workplace-meetings> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/facilitators-guide-to-participatory-decision-making> .
   <https://github.com/john1hsu/communication-graph/id/workplace-meetings> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/meeting-agendas> .
   <https://github.com/john1hsu/communication-graph/id/workplace-meetings> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/meeting-recaps> .
+  <https://github.com/john1hsu/communication-graph/id/workplace-meetings> <https://github.com/john1hsu/communication-graph/ontology#underminedBy> <https://github.com/john1hsu/communication-graph/id/unequal-participation> .
   <https://github.com/john1hsu/communication-graph/id/workplace-stress> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/email-urgency-bias-study> .
   <https://github.com/john1hsu/communication-graph/id/workplace-stress> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> .
   <https://github.com/john1hsu/communication-graph/id/workplace-stress> <https://github.com/john1hsu/communication-graph/ontology#causedBy> <https://github.com/john1hsu/communication-graph/id/information-overload> .

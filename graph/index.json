@@ -17590,6 +17590,116 @@
   ]
  },
  {
+  "id": "cm:unequal-participation",
+  "title": "Unequal participation",
+  "aliases": [
+   "meeting domination",
+   "airtime imbalance",
+   "dominant talkers",
+   "uneven speaking time",
+   "conversation hogging"
+  ],
+  "type": "Barrier",
+  "domain": "meetings-and-facilitation",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/meetings-and-facilitation/unequal-participation.md",
+  "created": "2026-11-10",
+  "summary": "The common pattern in group discussions where a few people take most of the speaking turns while others say little or nothing, so the group hears a narrow slice of what its members know. It is driven by status, confidence, group composition and meeting format, and is reduced by changing the format rather than by asking quiet people to try harder.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:group-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:conversational-turn-taking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:facilitation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:nominal-group-technique"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:1-2-4-all"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:brainstorming"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:brainwriting"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:interrupting"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:psychological-safety"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:workplace-meetings"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:wait-time"
+   },
+   {
+    "predicate": "cmo:undermines",
+    "object": "cm:workplace-meetings",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:woolley-et-al-2010",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:g-versus-c-meta-analysis-2021",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:karpowitz-mendelberg-shaker-2012",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:maclaren-et-al-2020",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Who in this meeting has not spoken yet, and is that because they have nothing to add or because the format never gave them an opening?",
+   "If I counted turns, would two or three people, including me, account for most of the talking?",
+   "Did we collect everyone's view in writing or in pairs before the most senior or most confident person spoke?",
+   "Am I judging whose idea is best by its merit, or by who said it most often and most fluently?"
+  ],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://pubmed.ncbi.nlm.nih.gov/20929725/",
+   "https://link.springer.com/content/pdf/10.1186%2Fs41235-021-00285-2.pdf",
+   "https://www.cambridge.org/core/journals/american-political-science-review/article/abs/gender-inequality-in-deliberative-participation/CE7441632EB3B0BD21CC5045C7E1AF76",
+   "https://researchconnect.suny.edu/en/publications/testing-the-babble-hypothesis-speaking-time-predicts-leader-emerg/",
+   "https://www.kellogg.northwestern.edu/news/blog/2014/06/25/video-how-brainwriting-can-neutralize-the-loudmouths",
+   "https://www.open.edu/openlearn/money-business/facilitating-group-discussions/content-section-6.1"
+  ]
+ },
+ {
   "id": "cm:video-call-communication",
   "title": "Video call communication",
   "aliases": [

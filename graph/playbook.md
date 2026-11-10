@@ -1063,6 +1063,14 @@ Ask yourself:
 - Is each person I have marked Consulted someone whose input could actually change the outcome?
 - Do the people marked Informed know when and how they will hear the result?
 
+### [Unequal participation](../articles/meetings-and-facilitation/unequal-participation.md) — Barrier
+
+Ask yourself:
+- Who in this meeting has not spoken yet, and is that because they have nothing to add or because the format never gave them an opening?
+- If I counted turns, would two or three people, including me, account for most of the talking?
+- Did we collect everyone's view in writing or in pairs before the most senior or most confident person spoke?
+- Am I judging whose idea is best by its merit, or by who said it most often and most fluently?
+
 ## negotiation
 
 ### [BATNA](../articles/negotiation/batna.md) — Technique

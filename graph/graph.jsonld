@@ -15433,6 +15433,103 @@
    ]
   },
   {
+   "@id": "cm:unequal-participation",
+   "@type": "cmo:Barrier",
+   "cmo:challengedBy": {
+    "@id": "cm:g-versus-c-meta-analysis-2021"
+   },
+   "cmo:demonstratedBy": [
+    {
+     "@id": "cm:karpowitz-mendelberg-shaker-2012"
+    },
+    {
+     "@id": "cm:woolley-et-al-2010"
+    }
+   ],
+   "cmo:domain": "meetings-and-facilitation",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:explainedBy": {
+    "@id": "cm:maclaren-et-al-2020"
+   },
+   "cmo:file": "articles/meetings-and-facilitation/unequal-participation.md",
+   "cmo:level": "introductory",
+   "cmo:undermines": {
+    "@id": "cm:workplace-meetings"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/unequal-participation/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/unequal-participation/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/unequal-participation/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/unequal-participation/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/unequal-participation/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/unequal-participation/s6"
+    }
+   ],
+   "rdfs:label": "Unequal participation",
+   "skos:altLabel": [
+    "airtime imbalance",
+    "conversation hogging",
+    "dominant talkers",
+    "meeting domination",
+    "uneven speaking time"
+   ],
+   "skos:broader": {
+    "@id": "cm:group-communication"
+   },
+   "skos:definition": "The common pattern in group discussions where a few people take most of the speaking turns while others say little or nothing, so the group hears a narrow slice of what its members know. It is driven by status, confidence, group composition and meeting format, and is reduced by changing the format rather than by asking quiet people to try harder.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/meetings-and-facilitation"
+   },
+   "skos:prefLabel": "Unequal participation",
+   "skos:related": [
+    {
+     "@id": "cm:1-2-4-all"
+    },
+    {
+     "@id": "cm:brainstorming"
+    },
+    {
+     "@id": "cm:brainwriting"
+    },
+    {
+     "@id": "cm:conversational-turn-taking"
+    },
+    {
+     "@id": "cm:facilitation"
+    },
+    {
+     "@id": "cm:interrupting"
+    },
+    {
+     "@id": "cm:nominal-group-technique"
+    },
+    {
+     "@id": "cm:psychological-safety"
+    },
+    {
+     "@id": "cm:wait-time"
+    },
+    {
+     "@id": "cm:workplace-meetings"
+    }
+   ]
+  },
+  {
    "@id": "cm:video-call-communication",
    "@type": "cmo:Channel",
    "cmo:alternativeTo": [
@@ -37252,6 +37349,90 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/unequal-participation/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Anita Williams Woolley, Christopher F. Chabris, Alex Pentland, Nada Hashmi & Thomas W. Malone, Science 330(6004), 686-688 (2010), doi:10.1126/science.1193147 (PubMed record)",
+   "dcterms:title": "Evidence for a Collective Intelligence Factor in the Performance of Human Groups",
+   "schema:url": {
+    "@id": "https://pubmed.ncbi.nlm.nih.gov/20929725/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/unequal-participation/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Luke I. Rowe, John Hattie & Robert Hester, Cognitive Research - Principles and Implications 6, article 26 (2021), doi:10.1186/s41235-021-00285-2 (Springer PDF)",
+   "dcterms:title": "g versus c: Comparing Individual and Collective Intelligence Across Two Meta-Analyses",
+   "schema:url": {
+    "@id": "https://link.springer.com/content/pdf/10.1186%2Fs41235-021-00285-2.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/unequal-participation/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Christopher F. Karpowitz, Tali Mendelberg & Lee Shaker, American Political Science Review 106(3), 533-547 (2012), doi:10.1017/S0003055412000329 (Cambridge Core)",
+   "dcterms:title": "Gender Inequality in Deliberative Participation",
+   "schema:url": {
+    "@id": "https://www.cambridge.org/core/journals/american-political-science-review/article/abs/gender-inequality-in-deliberative-participation/CE7441632EB3B0BD21CC5045C7E1AF76"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/unequal-participation/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Neil G. MacLaren, Francis J. Yammarino, Shelley D. Dionne et al., The Leadership Quarterly 31(5), 101409 (2020), doi:10.1016/j.leaqua.2020.101409 (SUNY research record)",
+   "dcterms:title": "Testing the Babble Hypothesis: Speaking Time Predicts Leader Emergence in Small Groups",
+   "schema:url": {
+    "@id": "https://researchconnect.suny.edu/en/publications/testing-the-babble-hypothesis-speaking-time-predicts-leader-emerg/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/unequal-participation/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Kellogg School of Management, Northwestern University (Leigh Thompson, video post, 25 June 2014)",
+   "dcterms:title": "How Brainwriting Can Neutralize the Loudmouths",
+   "schema:url": {
+    "@id": "https://www.kellogg.northwestern.edu/news/blog/2014/06/25/video-how-brainwriting-can-neutralize-the-loudmouths"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/unequal-participation/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "OpenLearn, The Open University",
+   "dcterms:title": "Facilitating Group Discussions, section 6.1: Under-participation",
+   "schema:url": {
+    "@id": "https://www.open.edu/openlearn/money-business/facilitating-group-discussions/content-section-6.1"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/source/video-call-communication/s1",
    "@type": "cmo:Source",
    "cmo:sourceType": "peer-reviewed",
@@ -38764,6 +38945,38 @@
    "cmo:before": "Thanks for the time. Let me walk you through our 30-slide progress deck, and at the end I'd like to talk about extending our team for phase two.",
    "cmo:situation": "A consultant opens a steering-committee call with a client sponsor whose project is behind schedule.",
    "cmo:why": "The rewrite shows reliability (it remembers what the sponsor said), intimacy (it names the real worry) and low self-orientation (it puts the client's problem ahead of selling more work)."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/unequal-participation/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:unequal-participation"
+   },
+   "rdfs:label": "Who in this meeting has not spoken yet, and is that because they have nothing to add or because the format never gave them an opening?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/unequal-participation/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:unequal-participation"
+   },
+   "rdfs:label": "If I counted turns, would two or three people, including me, account for most of the talking?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/unequal-participation/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:unequal-participation"
+   },
+   "rdfs:label": "Did we collect everyone's view in writing or in pairs before the most senior or most confident person spoke?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/unequal-participation/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:unequal-participation"
+   },
+   "rdfs:label": "Am I judging whose idea is best by its merit, or by who said it most often and most fluently?"
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/video-call-communication/check/1",

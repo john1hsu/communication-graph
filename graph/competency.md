@@ -26,17 +26,17 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 
 | technique | reach | targets |
 |---|---|---|
-| `cm:1-2-4-all` | 3 | Facilitation, production-blocking, unequal-participation |
+| `cm:1-2-4-all` | 3 | Facilitation, Unequal participation, production-blocking |
 | `cm:concise-writing` | 3 | Information overload, subtraction-neglect, wordiness |
 | `cm:paramedic-method` | 3 | Concise writing, official-style, wordiness |
 | `cm:self-recording-playback` | 3 | Gesturing while speaking, Public speaking anxiety, public-speaking |
 | `cm:acoustic-speech-analysis-coaching` | 2 | Vocal delivery, monotone-delivery |
 | `cm:culture-assimilator` | 2 | Cultural intelligence, Intercultural competence |
 | `cm:describe-analyze-evaluate` | 2 | Ethnocentrism, Intercultural competence |
-| `cm:facilitation` | 2 | Interrupting, unequal-participation |
+| `cm:facilitation` | 2 | Interrupting, Unequal participation |
 | `cm:i-statements` | 2 | Defensiveness, accusatory-you-statements |
 | `cm:interests-vs-positions` | 2 | Mythical fixed-pie bias, positional-bargaining |
-| `cm:nominal-group-technique` | 2 | production-blocking, unequal-participation |
+| `cm:nominal-group-technique` | 2 | Unequal participation, production-blocking |
 | `cm:plain-language` | 2 | Curse of knowledge, jargon |
 | `cm:presentation-rehearsal` | 2 | Public speaking anxiety, public-speaking |
 | `cm:risk-numbers-as-natural-frequencies` | 2 | Communicating uncertainty to decision makers, base-rate-neglect |
@@ -135,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:batna` | mixed | `cm:schaerer-swaab-galinsky-2015` |
 | `cm:bulleted-and-numbered-lists` | mixed | `cm:columbia-accident-investigation-board-report` |
 
-…and 105 more.
+…and 106 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -174,7 +174,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:scheduled-inbox-checks` | cmo:Technique |
 | `cm:self-affirmation-before-feedback` | cmo:Technique |
 
-…and 18 more.
+…and 19 more.
 
 ## Orphan articles (gap)
 
