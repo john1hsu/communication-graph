@@ -13656,6 +13656,77 @@
    ]
   },
   {
+   "@id": "cm:scott-fahlman",
+   "@type": "cmo:Person",
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "historical",
+   "cmo:file": "articles/thinkers-and-works/scott-fahlman.md",
+   "cmo:introduced": [
+    {
+     "@id": "cm:emoji-and-tone-in-text"
+    },
+    {
+     "@id": "cm:emoticon"
+    }
+   ],
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/scott-fahlman/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/scott-fahlman/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/scott-fahlman/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/scott-fahlman/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/scott-fahlman/s5"
+    }
+   ],
+   "rdfs:label": "Scott Fahlman",
+   "skos:altLabel": [
+    "Fahlman",
+    "Scott E. Fahlman",
+    "inventor of the smiley emoticon"
+   ],
+   "skos:definition": "Carnegie Mellon computer scientist who, on 19 September 1982, proposed typing \":-)\" on the department's online bulletin board to mark jokes (and \":-(\" for serious posts), because readers kept missing sarcasm in plain text; the convention spread into the emoticons and emoji now used to signal tone in work messages.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "Scott Fahlman",
+   "skos:related": [
+    {
+     "@id": "cm:egocentric-bias"
+    },
+    {
+     "@id": "cm:email"
+    },
+    {
+     "@id": "cm:emoji-and-tone-in-text"
+    },
+    {
+     "@id": "cm:illusion-of-transparency"
+    },
+    {
+     "@id": "cm:nonverbal-communication"
+    },
+    {
+     "@id": "cm:paralanguage"
+    },
+    {
+     "@id": "cm:ray-tomlinson"
+    }
+   ]
+  },
+  {
    "@id": "cm:self-affirmation-before-feedback",
    "@type": "cmo:Technique",
    "cmo:addresses": {
@@ -35981,6 +36052,76 @@
    "dcterms:title": "Network Research Highlight: Batch Your Smartphone Notifications",
    "schema:url": {
     "@id": "https://work21.gatech.edu/?p=402"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/scott-fahlman/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Fahlman, S. E., School of Computer Science, Carnegie Mellon University (author's own account, with the recovered 1982 bulletin-board thread)",
+   "dcterms:title": "Smiley Lore :-)",
+   "schema:url": {
+    "@id": "https://www.cs.cmu.edu/~sef/sefSmiley.htm"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/scott-fahlman/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Carnegie Mellon University, CMU 125 Stories",
+   "dcterms:title": "The Emoticon",
+   "schema:url": {
+    "@id": "https://www.cmu.edu/125/stories/emoticon.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/scott-fahlman/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Carnegie Mellon University, Beyond the Classroom (summer 2007)",
+   "dcterms:title": "Happy 25th, Emoticon",
+   "schema:url": {
+    "@id": "https://www.cmu.edu/homepage/beyond/2007/summer/happy-25th-emoticon.shtml"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/scott-fahlman/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Dresner, E. & Herring, S. C., originally Communication Theory 20, 249-268 (2010); author's copy, Indiana University",
+   "dcterms:title": "Functions of the nonverbal in CMC: Emoticons and illocutionary force (shortened version)",
+   "schema:url": {
+    "@id": "https://homes.luddy.indiana.edu/herring/Dresner_Herring.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/scott-fahlman/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Baron, N. S., American University; in-press book chapter, author's copy hosted by Northwestern University Collaborative Technology Lab",
+   "dcterms:title": "The Myth of Impoverished Signal: Dispelling the Spoken-Language Fallacy for Emoticons in Online Communication",
+   "schema:url": {
+    "@id": "https://collablab.northwestern.edu/CollabolabDistro/nucmc/Baron-TheMythOfImpoverishedSignal-EmotionAndICTs-InPress.pdf"
    }
   },
   {

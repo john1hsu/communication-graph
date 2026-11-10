@@ -15523,6 +15523,74 @@
   ]
  },
  {
+  "id": "cm:scott-fahlman",
+  "title": "Scott Fahlman",
+  "aliases": [
+   "Scott E. Fahlman",
+   "Fahlman",
+   "inventor of the smiley emoticon"
+  ],
+  "type": "Person",
+  "domain": "thinkers-and-works",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/thinkers-and-works/scott-fahlman.md",
+  "created": "2026-11-10",
+  "summary": "Carnegie Mellon computer scientist who, on 19 September 1982, proposed typing \":-)\" on the department's online bulletin board to mark jokes (and \":-(\" for serious posts), because readers kept missing sarcasm in plain text; the convention spread into the emoticons and emoji now used to signal tone in work messages.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "cm:emoji-and-tone-in-text"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:paralanguage"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:illusion-of-transparency"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:egocentric-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:email"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:nonverbal-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:ray-tomlinson"
+   },
+   {
+    "predicate": "cmo:introduced",
+    "object": "cm:emoticon",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introduced",
+    "object": "cm:emoji-and-tone-in-text",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://www.cs.cmu.edu/~sef/sefSmiley.htm",
+   "https://www.cmu.edu/125/stories/emoticon.html",
+   "https://www.cmu.edu/homepage/beyond/2007/summer/happy-25th-emoticon.shtml",
+   "https://homes.luddy.indiana.edu/herring/Dresner_Herring.pdf",
+   "https://collablab.northwestern.edu/CollabolabDistro/nucmc/Baron-TheMythOfImpoverishedSignal-EmotionAndICTs-InPress.pdf"
+  ]
+ },
+ {
   "id": "cm:self-affirmation-before-feedback",
   "title": "Self-affirmation before feedback",
   "aliases": [
