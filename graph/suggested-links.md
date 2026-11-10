@@ -10,8 +10,9 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 3.35 | `cm:pyramid-principle` | `cm:wall-of-text` | `cm:bottom-line-up-front`, `cm:burying-the-lede`, `cm:lorch-lorch-1996`, `cm:message-structure` |
 | 3.27 | `cm:culture-assimilator` | `cm:intercultural-communication` | `cm:cultural-intelligence`, `cm:describe-analyze-evaluate`, `cm:ethnocentrism`, `cm:intercultural-competence`, `cm:li-2021-cross-cultural-training-meta-analysis` |
 | 2.99 | `cm:clarity` | `cm:email` | `cm:audience-analysis`, `cm:bottom-line-up-front`, `cm:bulleted-and-numbered-lists`, `cm:concise-writing`, `cm:curse-of-knowledge` |
+| 2.96 | `cm:paralanguage` | `cm:presentation` | `cm:acoustic-speech-analysis-coaching`, `cm:charismatic-leadership-tactics`, `cm:executive-presence`, `cm:filled-pauses`, `cm:rebecca-hincks` |
 | 2.93 | `cm:mythical-fixed-pie` | `cm:principled-negotiation` | `cm:distributive-negotiation`, `cm:integrative-negotiation`, `cm:interests-vs-positions`, `cm:multiple-equivalent-simultaneous-offers`, `cm:negotiation` |
-| 2.86 | `cm:direct-vs-indirect-feedback` | `cm:intercultural-competence` | `cm:cultural-intelligence`, `cm:describe-analyze-evaluate`, `cm:ethnocentrism`, `cm:face-and-facework`, `cm:high-and-low-context-cultures` |
+| 2.85 | `cm:direct-vs-indirect-feedback` | `cm:intercultural-competence` | `cm:cultural-intelligence`, `cm:describe-analyze-evaluate`, `cm:ethnocentrism`, `cm:face-and-facework`, `cm:high-and-low-context-cultures` |
 | 2.84 | `cm:difficult-conversation` | `cm:situation-behavior-impact` | `cm:active-listening`, `cm:defensiveness`, `cm:feedback`, `cm:i-statements`, `cm:nonviolent-communication` |
 | 2.72 | `cm:batna` | `cm:mythical-fixed-pie` | `cm:anchoring-and-adjustment`, `cm:distributive-negotiation`, `cm:integrative-negotiation`, `cm:interests-vs-positions`, `cm:multiple-equivalent-simultaneous-offers` |
 | 2.70 | `cm:labeling-emotions` | `cm:self-distancing` | `cm:anxiety-reappraisal`, `cm:cognitive-reappraisal`, `cm:emotion-regulation` |
@@ -21,11 +22,10 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 2.59 | `cm:managing-up` | `cm:persuasion` | `cm:audience-analysis`, `cm:elevator-pitch`, `cm:influence-without-authority`, `cm:issue-selling`, `cm:lee-et-al-2017` |
 | 2.57 | `cm:asynchronous-communication` | `cm:video-call-communication` | `cm:channel-selection`, `cm:digital-communication`, `cm:face-to-face-conversation`, `cm:media-richness-theory`, `cm:workplace-meetings` |
 | 2.57 | `cm:bottom-line-up-front` | `cm:curse-of-knowledge` | `cm:assertion-evidence-slides`, `cm:audience-analysis`, `cm:channel-selection`, `cm:clarity`, `cm:cognitive-load` |
-| 2.54 | `cm:paralanguage` | `cm:presentation` | `cm:acoustic-speech-analysis-coaching`, `cm:charismatic-leadership-tactics`, `cm:executive-presence`, `cm:filled-pauses`, `cm:silence-and-pauses` |
 | 2.50 | `cm:anchoring-and-adjustment` | `cm:salary-negotiation` | `cm:batna`, `cm:distributive-negotiation`, `cm:first-offer`, `cm:multiple-equivalent-simultaneous-offers`, `cm:mythical-fixed-pie` |
 | 2.49 | `cm:integrative-negotiation` | `cm:reservation-value` | `cm:batna`, `cm:concession-strategy`, `cm:distributive-negotiation`, `cm:first-offer`, `cm:multiple-equivalent-simultaneous-offers` |
 | 2.48 | `cm:anchoring-and-adjustment` | `cm:thomas-gilovich` | `cm:curse-of-knowledge`, `cm:egocentric-bias`, `cm:gilovich-savitsky-medvec-1998`, `cm:illusion-of-transparency`, `cm:macinnis-mackinnon-macintyre-2010` |
 | 2.48 | `cm:bottom-line-up-front` | `cm:presentation` | `cm:assertion-evidence-slides`, `cm:audience-analysis`, `cm:cognitive-load`, `cm:elevator-pitch`, `cm:executive-briefing` |
 | 2.44 | `cm:interests-vs-positions` | `cm:multiple-equivalent-simultaneous-offers` | `cm:batna`, `cm:integrative-negotiation`, `cm:mythical-fixed-pie`, `cm:negotiation-preparation`, `cm:principled-negotiation` |
-| 2.43 | `cm:describe-analyze-evaluate` | `cm:the-culture-map` | `cm:cultural-intelligence`, `cm:direct-vs-indirect-feedback`, `cm:ethnocentrism`, `cm:high-and-low-context-cultures`, `cm:intercultural-communication` |
+| 2.42 | `cm:describe-analyze-evaluate` | `cm:the-culture-map` | `cm:cultural-intelligence`, `cm:direct-vs-indirect-feedback`, `cm:ethnocentrism`, `cm:high-and-low-context-cultures`, `cm:intercultural-communication` |
 | 2.42 | `cm:principled-negotiation` | `cm:zone-of-possible-agreement` | `cm:batna`, `cm:distributive-negotiation`, `cm:integrative-negotiation`, `cm:interests-vs-positions`, `cm:multiple-equivalent-simultaneous-offers` |

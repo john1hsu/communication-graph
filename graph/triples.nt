@@ -7169,6 +7169,34 @@
 <https://github.com/john1hsu/communication-graph/id/readability-formulas> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/rudolf-flesch> .
 <https://github.com/john1hsu/communication-graph/id/readability-formulas> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/communication-graph/id/readability-formulas> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
+<https://github.com/john1hsu/communication-graph/id/rebecca-hincks> <http://purl.org/dc/terms/created> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/rebecca-hincks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+<https://github.com/john1hsu/communication-graph/id/rebecca-hincks> <http://www.w3.org/2000/01/rdf-schema#label> "Rebecca Hincks" .
+<https://github.com/john1hsu/communication-graph/id/rebecca-hincks> <http://www.w3.org/2004/02/skos/core#altLabel> "Hincks" .
+<https://github.com/john1hsu/communication-graph/id/rebecca-hincks> <http://www.w3.org/2004/02/skos/core#altLabel> "R. Hincks" .
+<https://github.com/john1hsu/communication-graph/id/rebecca-hincks> <http://www.w3.org/2004/02/skos/core#definition> "KTH Royal Institute of Technology researcher and teacher of technical English who measured what makes presentation speech sound lively, defined the pitch variation quotient, and in 2009 with Jens Edlund tested a transient visual pitch meter for presentation practice, an early form of software-based speaking coaching." .
+<https://github.com/john1hsu/communication-graph/id/rebecca-hincks> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works> .
+<https://github.com/john1hsu/communication-graph/id/rebecca-hincks> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rebecca Hincks" .
+<https://github.com/john1hsu/communication-graph/id/rebecca-hincks> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/hincks-2005> .
+<https://github.com/john1hsu/communication-graph/id/rebecca-hincks> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/hincks-edlund-2009> .
+<https://github.com/john1hsu/communication-graph/id/rebecca-hincks> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/intercultural-communication> .
+<https://github.com/john1hsu/communication-graph/id/rebecca-hincks> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/monotone-delivery> .
+<https://github.com/john1hsu/communication-graph/id/rebecca-hincks> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/paralanguage> .
+<https://github.com/john1hsu/communication-graph/id/rebecca-hincks> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/presentation> .
+<https://github.com/john1hsu/communication-graph/id/rebecca-hincks> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/vocal-delivery> .
+<https://github.com/john1hsu/communication-graph/id/rebecca-hincks> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/rebecca-hincks/s1> .
+<https://github.com/john1hsu/communication-graph/id/rebecca-hincks> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/rebecca-hincks/s2> .
+<https://github.com/john1hsu/communication-graph/id/rebecca-hincks> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/rebecca-hincks/s3> .
+<https://github.com/john1hsu/communication-graph/id/rebecca-hincks> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/rebecca-hincks/s4> .
+<https://github.com/john1hsu/communication-graph/id/rebecca-hincks> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/rebecca-hincks/s5> .
+<https://github.com/john1hsu/communication-graph/id/rebecca-hincks> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/rebecca-hincks/s6> .
+<https://github.com/john1hsu/communication-graph/id/rebecca-hincks> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/computer-support-for-learners-of-spoken-english> .
+<https://github.com/john1hsu/communication-graph/id/rebecca-hincks> <https://github.com/john1hsu/communication-graph/ontology#domain> "thinkers-and-works" .
+<https://github.com/john1hsu/communication-graph/id/rebecca-hincks> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "historical" .
+<https://github.com/john1hsu/communication-graph/id/rebecca-hincks> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/thinkers-and-works/rebecca-hincks.md" .
+<https://github.com/john1hsu/communication-graph/id/rebecca-hincks> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/acoustic-speech-analysis-coaching> .
+<https://github.com/john1hsu/communication-graph/id/rebecca-hincks> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/pitch-variation-quotient> .
+<https://github.com/john1hsu/communication-graph/id/rebecca-hincks> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/communication-graph/id/receiving-feedback/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/receiving-feedback/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Before I judged this feedback right or wrong, could I say back exactly what they observed and what they want me to do differently?" .
 <https://github.com/john1hsu/communication-graph/id/receiving-feedback/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/receiving-feedback> .
@@ -13013,6 +13041,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/readability-formulas/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/readability-formulas/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
 <https://github.com/john1hsu/communication-graph/id/source/readability-formulas/s5> <https://schema.org/url> <https://www.sydneyhealthliteracylab.org.au/health-literacy-editor-publications/1-y9tp7-9mdxz-thy7z> .
+<https://github.com/john1hsu/communication-graph/id/source/rebecca-hincks/s1> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/rebecca-hincks/s1> <http://purl.org/dc/terms/publisher> "Rebecca Hincks, KTH Royal Institute of Technology, Stockholm, 2005 (record and abstract on avhandlingar.se)" .
+<https://github.com/john1hsu/communication-graph/id/source/rebecca-hincks/s1> <http://purl.org/dc/terms/title> "Computer support for learners of spoken English (doctoral thesis)" .
+<https://github.com/john1hsu/communication-graph/id/source/rebecca-hincks/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/rebecca-hincks/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/rebecca-hincks/s1> <https://schema.org/url> <https://www.avhandlingar.se/avhandling/fbd12a5150/> .
+<https://github.com/john1hsu/communication-graph/id/source/rebecca-hincks/s2> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/rebecca-hincks/s2> <http://purl.org/dc/terms/publisher> "Rebecca Hincks, Proceedings of Interspeech 2005, 765-768, doi:10.21437/Interspeech.2005-353 (ISCA Archive)" .
+<https://github.com/john1hsu/communication-graph/id/source/rebecca-hincks/s2> <http://purl.org/dc/terms/title> "Measuring liveliness in presentation speech" .
+<https://github.com/john1hsu/communication-graph/id/source/rebecca-hincks/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/rebecca-hincks/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/rebecca-hincks/s2> <https://schema.org/url> <https://www.isca-archive.org/interspeech_2005/hincks05_interspeech.html> .
+<https://github.com/john1hsu/communication-graph/id/source/rebecca-hincks/s3> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/rebecca-hincks/s3> <http://purl.org/dc/terms/publisher> "Rebecca Hincks & Jens Edlund, Language Learning & Technology 13(3), 32-50, 2009 (CORE open-access copy)" .
+<https://github.com/john1hsu/communication-graph/id/source/rebecca-hincks/s3> <http://purl.org/dc/terms/title> "Promoting Increased Pitch Variation in Oral Presentations with Transient Visual Feedback" .
+<https://github.com/john1hsu/communication-graph/id/source/rebecca-hincks/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/rebecca-hincks/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/rebecca-hincks/s3> <https://schema.org/url> <https://core.ac.uk/download/84321184.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/rebecca-hincks/s4> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/rebecca-hincks/s4> <http://purl.org/dc/terms/publisher> "Rebecca Hincks, ReCALL 15(1), 3-20, 2003, doi:10.1017/S0958344003000211 (Cambridge University Press)" .
+<https://github.com/john1hsu/communication-graph/id/source/rebecca-hincks/s4> <http://purl.org/dc/terms/title> "Speech technologies for pronunciation feedback and evaluation" .
+<https://github.com/john1hsu/communication-graph/id/source/rebecca-hincks/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/rebecca-hincks/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/rebecca-hincks/s4> <https://schema.org/url> <https://www.cambridge.org/core/journals/recall/article/abs/speech-technologies-for-pronunciation-feedback-and-evaluation/A6665F5268DB7BB16DF48CA81DBB607C> .
+<https://github.com/john1hsu/communication-graph/id/source/rebecca-hincks/s5> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/rebecca-hincks/s5> <http://purl.org/dc/terms/publisher> "Rebecca Hincks, English for Specific Purposes 29, 4-18, 2010, doi:10.1016/j.esp.2009.05.004 (course copy, Université de Bordeaux)" .
+<https://github.com/john1hsu/communication-graph/id/source/rebecca-hincks/s5> <http://purl.org/dc/terms/title> "Speaking rate and information content in English lingua franca oral presentations" .
+<https://github.com/john1hsu/communication-graph/id/source/rebecca-hincks/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/rebecca-hincks/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/rebecca-hincks/s5> <https://schema.org/url> <https://fad.u-bordeaux.fr/pluginfile.php/17010/mod_label/intro/speaking%20rate.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/rebecca-hincks/s6> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/rebecca-hincks/s6> <http://purl.org/dc/terms/publisher> "LINGUIST List, 2010" .
+<https://github.com/john1hsu/communication-graph/id/source/rebecca-hincks/s6> <http://purl.org/dc/terms/title> "LINGUIST List 21.1602: TESOL 2010 Heinle Award for Distinguished Research" .
+<https://github.com/john1hsu/communication-graph/id/source/rebecca-hincks/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/rebecca-hincks/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "community" .
+<https://github.com/john1hsu/communication-graph/id/source/rebecca-hincks/s6> <https://schema.org/url> <https://linguistlist.org/issues/21/1602/> .
 <https://github.com/john1hsu/communication-graph/id/source/receiving-feedback/s1> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/receiving-feedback/s1> <http://purl.org/dc/terms/publisher> "Anseel, Beatty, Shen, Lievens & Sackett, Journal of Management 41(1), 318-348 (2015), doi:10.1177/0149206313484521 (open-access copy via CORE)" .
 <https://github.com/john1hsu/communication-graph/id/source/receiving-feedback/s1> <http://purl.org/dc/terms/title> "How Are We Doing After 30 Years? A Meta-Analytic Review of the Antecedents and Outcomes of Feedback-Seeking Behavior" .

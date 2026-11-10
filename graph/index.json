@@ -14114,6 +14114,80 @@
   ]
  },
  {
+  "id": "cm:rebecca-hincks",
+  "title": "Rebecca Hincks",
+  "aliases": [
+   "R. Hincks",
+   "Hincks"
+  ],
+  "type": "Person",
+  "domain": "thinkers-and-works",
+  "level": "intermediate",
+  "evidenceStatus": "historical",
+  "file": "articles/thinkers-and-works/rebecca-hincks.md",
+  "created": "2026-11-10",
+  "summary": "KTH Royal Institute of Technology researcher and teacher of technical English who measured what makes presentation speech sound lively, defined the pitch variation quotient, and in 2009 with Jens Edlund tested a transient visual pitch meter for presentation practice, an early form of software-based speaking coaching.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "cm:vocal-delivery"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:monotone-delivery"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:hincks-2005"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:hincks-edlund-2009"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:presentation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:paralanguage"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:intercultural-communication"
+   },
+   {
+    "predicate": "cmo:introduced",
+    "object": "cm:acoustic-speech-analysis-coaching",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:introduced",
+    "object": "cm:pitch-variation-quotient",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:authored",
+    "object": "cm:computer-support-for-learners-of-spoken-english",
+    "source": "s1",
+    "confidence": "high"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://www.avhandlingar.se/avhandling/fbd12a5150/",
+   "https://www.isca-archive.org/interspeech_2005/hincks05_interspeech.html",
+   "https://core.ac.uk/download/84321184.pdf",
+   "https://www.cambridge.org/core/journals/recall/article/abs/speech-technologies-for-pronunciation-feedback-and-evaluation/A6665F5268DB7BB16DF48CA81DBB607C",
+   "https://fad.u-bordeaux.fr/pluginfile.php/17010/mod_label/intro/speaking%20rate.pdf",
+   "https://linguistlist.org/issues/21/1602/"
+  ]
+ },
+ {
   "id": "cm:receiving-feedback",
   "title": "Receiving feedback",
   "aliases": [
