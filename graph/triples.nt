@@ -4222,6 +4222,41 @@
 <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/macinnis-mackinnon-macintyre-2010> .
 <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> <https://github.com/john1hsu/communication-graph/ontology#undermines> <https://github.com/john1hsu/communication-graph/id/clarity> .
+<https://github.com/john1hsu/communication-graph/id/impression-management> <http://purl.org/dc/terms/created> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/impression-management> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Theory> .
+<https://github.com/john1hsu/communication-graph/id/impression-management> <http://www.w3.org/2000/01/rdf-schema#label> "Impression management" .
+<https://github.com/john1hsu/communication-graph/id/impression-management> <http://www.w3.org/2004/02/skos/core#altLabel> "impression management theory" .
+<https://github.com/john1hsu/communication-graph/id/impression-management> <http://www.w3.org/2004/02/skos/core#altLabel> "managing how others see you" .
+<https://github.com/john1hsu/communication-graph/id/impression-management> <http://www.w3.org/2004/02/skos/core#altLabel> "self-presentation" .
+<https://github.com/john1hsu/communication-graph/id/impression-management> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
+<https://github.com/john1hsu/communication-graph/id/impression-management> <http://www.w3.org/2004/02/skos/core#definition> "The theory that people, consciously or not, shape the impressions others form of them - deciding both how much image matters in a situation and which image to project - and that common workplace tactics such as self-promotion and ingratiation shift interview and performance ratings, but can backfire when they read as insincere." .
+<https://github.com/john1hsu/communication-graph/id/impression-management> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/persuasion-and-influence> .
+<https://github.com/john1hsu/communication-graph/id/impression-management> <http://www.w3.org/2004/02/skos/core#prefLabel> "Impression management" .
+<https://github.com/john1hsu/communication-graph/id/impression-management> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/credibility> .
+<https://github.com/john1hsu/communication-graph/id/impression-management> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/erving-goffman> .
+<https://github.com/john1hsu/communication-graph/id/impression-management> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/executive-presence> .
+<https://github.com/john1hsu/communication-graph/id/impression-management> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/face-and-facework> .
+<https://github.com/john1hsu/communication-graph/id/impression-management> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/issue-selling> .
+<https://github.com/john1hsu/communication-graph/id/impression-management> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/managing-up> .
+<https://github.com/john1hsu/communication-graph/id/impression-management> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/salary-negotiation> .
+<https://github.com/john1hsu/communication-graph/id/impression-management> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/self-disclosure> .
+<https://github.com/john1hsu/communication-graph/id/impression-management> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/spotlight-effect> .
+<https://github.com/john1hsu/communication-graph/id/impression-management> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/impression-management/s1> .
+<https://github.com/john1hsu/communication-graph/id/impression-management> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/impression-management/s2> .
+<https://github.com/john1hsu/communication-graph/id/impression-management> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/impression-management/s3> .
+<https://github.com/john1hsu/communication-graph/id/impression-management> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/impression-management/s4> .
+<https://github.com/john1hsu/communication-graph/id/impression-management> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/impression-management/s5> .
+<https://github.com/john1hsu/communication-graph/id/impression-management> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/job-interview> .
+<https://github.com/john1hsu/communication-graph/id/impression-management> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/face-and-facework> .
+<https://github.com/john1hsu/communication-graph/id/impression-management> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/sezer-gino-norton-2018> .
+<https://github.com/john1hsu/communication-graph/id/impression-management> <https://github.com/john1hsu/communication-graph/ontology#domain> "persuasion-and-influence" .
+<https://github.com/john1hsu/communication-graph/id/impression-management> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/impression-management> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/persuasion-and-influence/impression-management.md" .
+<https://github.com/john1hsu/communication-graph/id/impression-management> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/erving-goffman> .
+<https://github.com/john1hsu/communication-graph/id/impression-management> <https://github.com/john1hsu/communication-graph/ontology#introducedIn> <https://github.com/john1hsu/communication-graph/id/the-presentation-of-self-in-everyday-life> .
+<https://github.com/john1hsu/communication-graph/id/impression-management> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/communication-graph/id/impression-management> <https://github.com/john1hsu/communication-graph/ontology#studiedIn> <https://github.com/john1hsu/communication-graph/id/social-psychology> .
+<https://github.com/john1hsu/communication-graph/id/impression-management> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/peck-levashina-2017> .
 <https://github.com/john1hsu/communication-graph/id/influence-without-authority/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/influence-without-authority/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Do I know what this person is measured on and worried about right now, or am I guessing?" .
 <https://github.com/john1hsu/communication-graph/id/influence-without-authority/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/influence-without-authority> .
@@ -11019,6 +11054,36 @@
 <https://github.com/john1hsu/communication-graph/id/source/illusion-of-transparency/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/illusion-of-transparency/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
 <https://github.com/john1hsu/communication-graph/id/source/illusion-of-transparency/s5> <https://schema.org/url> <https://stern.nyu.edu/experience-stern/faculty-research/justin-kruger-email-research> .
+<https://github.com/john1hsu/communication-graph/id/source/impression-management/s1> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/impression-management/s1> <http://purl.org/dc/terms/publisher> "Leary, M. R. & Kowalski, R. M., Psychological Bulletin 107(1), 34-47, 1990 (Duke University Scholars@Duke record)" .
+<https://github.com/john1hsu/communication-graph/id/source/impression-management/s1> <http://purl.org/dc/terms/title> "Impression management: A literature review and two-component model" .
+<https://github.com/john1hsu/communication-graph/id/source/impression-management/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/impression-management/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/impression-management/s1> <https://schema.org/url> <https://scholars.duke.edu/display/pub676864> .
+<https://github.com/john1hsu/communication-graph/id/source/impression-management/s2> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/impression-management/s2> <http://purl.org/dc/terms/publisher> "Kte'pi, B., EBSCO Research Starters, 2020" .
+<https://github.com/john1hsu/communication-graph/id/source/impression-management/s2> <http://purl.org/dc/terms/title> "Impression management (Research Starters)" .
+<https://github.com/john1hsu/communication-graph/id/source/impression-management/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/impression-management/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "encyclopedia" .
+<https://github.com/john1hsu/communication-graph/id/source/impression-management/s2> <https://schema.org/url> <https://www.ebsco.com/research-starters/history/impression-management/> .
+<https://github.com/john1hsu/communication-graph/id/source/impression-management/s3> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/impression-management/s3> <http://purl.org/dc/terms/publisher> "Kacmar, K. M., Harris, K. J. & Nagy, B. G., Journal of Behavioral and Applied Management, 2007" .
+<https://github.com/john1hsu/communication-graph/id/source/impression-management/s3> <http://purl.org/dc/terms/title> "Further validation of the Bolino and Turnley impression management scale" .
+<https://github.com/john1hsu/communication-graph/id/source/impression-management/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/impression-management/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/impression-management/s3> <https://schema.org/url> <https://jbam.scholasticahq.com/article/16777.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/impression-management/s4> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/impression-management/s4> <http://purl.org/dc/terms/publisher> "Peck, J. A. & Levashina, J., Frontiers in Psychology 8, 201, 2017" .
+<https://github.com/john1hsu/communication-graph/id/source/impression-management/s4> <http://purl.org/dc/terms/title> "Impression Management and Interview and Job Performance Ratings: A Meta-Analysis of Research Design with Tactics in Mind" .
+<https://github.com/john1hsu/communication-graph/id/source/impression-management/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/impression-management/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/impression-management/s4> <https://schema.org/url> <https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2017.00201/full> .
+<https://github.com/john1hsu/communication-graph/id/source/impression-management/s5> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/impression-management/s5> <http://purl.org/dc/terms/publisher> "Nobel, C., Harvard Business School Working Knowledge, 2015 (on research by Sezer, Gino & Norton)" .
+<https://github.com/john1hsu/communication-graph/id/source/impression-management/s5> <http://purl.org/dc/terms/title> "Humblebragging is a bad strategy, especially in a job interview" .
+<https://github.com/john1hsu/communication-graph/id/source/impression-management/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/impression-management/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/impression-management/s5> <https://schema.org/url> <https://www.library.hbs.edu/working-knowledge/humblebragging-is-a-bad-strategy-especially-in-a-job-interview> .
 <https://github.com/john1hsu/communication-graph/id/source/influence-without-authority/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/influence-without-authority/s1> <http://purl.org/dc/terms/publisher> "Allan R. Cohen & David L. Bradford, Journal of Organizational Excellence, Winter 2005, 57-79, doi:10.1002/joe.20080 (reprinted from Influence Without Authority, 2nd ed.; University of Washington hosted copy)" .
 <https://github.com/john1hsu/communication-graph/id/source/influence-without-authority/s1> <http://purl.org/dc/terms/title> "The influence model: Using reciprocity and exchange to get what you need" .

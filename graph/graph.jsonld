@@ -7014,6 +7014,99 @@
    ]
   },
   {
+   "@id": "cm:impression-management",
+   "@type": "cmo:Theory",
+   "cmo:appliedIn": {
+    "@id": "cm:job-interview"
+   },
+   "cmo:complements": {
+    "@id": "cm:face-and-facework"
+   },
+   "cmo:demonstratedBy": {
+    "@id": "cm:sezer-gino-norton-2018"
+   },
+   "cmo:domain": "persuasion-and-influence",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:file": "articles/persuasion-and-influence/impression-management.md",
+   "cmo:introducedBy": {
+    "@id": "cm:erving-goffman"
+   },
+   "cmo:introducedIn": {
+    "@id": "cm:the-presentation-of-self-in-everyday-life"
+   },
+   "cmo:level": "intermediate",
+   "cmo:studiedIn": {
+    "@id": "cm:social-psychology"
+   },
+   "cmo:supportedBy": {
+    "@id": "cm:peck-levashina-2017"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/impression-management/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/impression-management/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/impression-management/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/impression-management/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/impression-management/s5"
+    }
+   ],
+   "rdfs:label": "Impression management",
+   "skos:altLabel": [
+    "impression management theory",
+    "managing how others see you",
+    "self-presentation"
+   ],
+   "skos:broader": {
+    "@id": "cm:interpersonal-communication"
+   },
+   "skos:definition": "The theory that people, consciously or not, shape the impressions others form of them - deciding both how much image matters in a situation and which image to project - and that common workplace tactics such as self-promotion and ingratiation shift interview and performance ratings, but can backfire when they read as insincere.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/persuasion-and-influence"
+   },
+   "skos:prefLabel": "Impression management",
+   "skos:related": [
+    {
+     "@id": "cm:credibility"
+    },
+    {
+     "@id": "cm:erving-goffman"
+    },
+    {
+     "@id": "cm:executive-presence"
+    },
+    {
+     "@id": "cm:face-and-facework"
+    },
+    {
+     "@id": "cm:issue-selling"
+    },
+    {
+     "@id": "cm:managing-up"
+    },
+    {
+     "@id": "cm:salary-negotiation"
+    },
+    {
+     "@id": "cm:self-disclosure"
+    },
+    {
+     "@id": "cm:spotlight-effect"
+    }
+   ]
+  },
+  {
    "@id": "cm:influence-without-authority",
    "@type": "cmo:Technique",
    "cmo:appliedIn": {
@@ -29648,6 +29741,76 @@
    "dcterms:title": "E-mail etiquette: more critical than you might think (Kruger, Epley, Parker & Ng, Egocentrism over e-mail)",
    "schema:url": {
     "@id": "https://stern.nyu.edu/experience-stern/faculty-research/justin-kruger-email-research"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/impression-management/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Leary, M. R. & Kowalski, R. M., Psychological Bulletin 107(1), 34-47, 1990 (Duke University Scholars@Duke record)",
+   "dcterms:title": "Impression management: A literature review and two-component model",
+   "schema:url": {
+    "@id": "https://scholars.duke.edu/display/pub676864"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/impression-management/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Kte'pi, B., EBSCO Research Starters, 2020",
+   "dcterms:title": "Impression management (Research Starters)",
+   "schema:url": {
+    "@id": "https://www.ebsco.com/research-starters/history/impression-management/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/impression-management/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Kacmar, K. M., Harris, K. J. & Nagy, B. G., Journal of Behavioral and Applied Management, 2007",
+   "dcterms:title": "Further validation of the Bolino and Turnley impression management scale",
+   "schema:url": {
+    "@id": "https://jbam.scholasticahq.com/article/16777.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/impression-management/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Peck, J. A. & Levashina, J., Frontiers in Psychology 8, 201, 2017",
+   "dcterms:title": "Impression Management and Interview and Job Performance Ratings: A Meta-Analysis of Research Design with Tactics in Mind",
+   "schema:url": {
+    "@id": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2017.00201/full"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/impression-management/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Nobel, C., Harvard Business School Working Knowledge, 2015 (on research by Sezer, Gino & Norton)",
+   "dcterms:title": "Humblebragging is a bad strategy, especially in a job interview",
+   "schema:url": {
+    "@id": "https://www.library.hbs.edu/working-knowledge/humblebragging-is-a-bad-strategy-especially-in-a-job-interview"
    }
   },
   {

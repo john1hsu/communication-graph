@@ -8017,6 +8017,116 @@
   ]
  },
  {
+  "id": "cm:impression-management",
+  "title": "Impression management",
+  "aliases": [
+   "self-presentation",
+   "impression management theory",
+   "managing how others see you"
+  ],
+  "type": "Theory",
+  "domain": "persuasion-and-influence",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/persuasion-and-influence/impression-management.md",
+  "created": "2026-11-10",
+  "summary": "The theory that people, consciously or not, shape the impressions others form of them - deciding both how much image matters in a situation and which image to project - and that common workplace tactics such as self-promotion and ingratiation shift interview and performance ratings, but can backfire when they read as insincere.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:interpersonal-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:executive-presence"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:issue-selling"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:face-and-facework"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:erving-goffman"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:managing-up"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:credibility"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:self-disclosure"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:salary-negotiation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:spotlight-effect"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:erving-goffman",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedIn",
+    "object": "cm:the-presentation-of-self-in-everyday-life",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:studiedIn",
+    "object": "cm:social-psychology",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:job-interview",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:peck-levashina-2017",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:sezer-gino-norton-2018",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:face-and-facework",
+    "source": "s2",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://scholars.duke.edu/display/pub676864",
+   "https://www.ebsco.com/research-starters/history/impression-management/",
+   "https://jbam.scholasticahq.com/article/16777.pdf",
+   "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2017.00201/full",
+   "https://www.library.hbs.edu/working-knowledge/humblebragging-is-a-bad-strategy-especially-in-a-job-interview"
+  ]
+ },
+ {
   "id": "cm:influence-without-authority",
   "title": "Influence without authority",
   "aliases": [
