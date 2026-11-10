@@ -12,7 +12,9 @@ _No results._
 
 _Which written skills or dispositions have no technique, framework or principle that develops them?_ — `queries/02-skills-without-practice.rq`
 
-_No results._
+| skill | type |
+|---|---|
+| `cm:vocal-delivery` | cmo:Skill |
 
 ## Situations, channels and formats with no guidance (gap)
 
@@ -57,7 +59,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:considering-others-contributions-first` | 1 | Egocentric bias |
 | `cm:conversational-receptiveness` | 1 | Defensiveness |
 
-…and 28 more.
+…and 29 more.
 
 ## Toolkit by situation
 
@@ -96,7 +98,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:email` | `cm:pragmatics` |
 | `cm:email` | `cm:rapport` |
 
-…and 74 more.
+…and 75 more.
 
 ## Myths and contested advice
 
@@ -135,7 +137,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:bulleted-and-numbered-lists` | mixed | `cm:columbia-accident-investigation-board-report` |
 | `cm:camera-level-gaze` | mixed |  |
 
-…and 100 more.
+…and 101 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -174,7 +176,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:salary-negotiation` | cmo:Context |
 | `cm:scheduled-inbox-checks` | cmo:Technique |
 
-…and 17 more.
+…and 18 more.
 
 ## Orphan articles (gap)
 

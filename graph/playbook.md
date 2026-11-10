@@ -1631,6 +1631,15 @@ Ask yourself:
 - Does each move between points have a spoken transition, not just a new slide?
 - Have I explicitly flagged the one thing I most need the audience to remember or decide?
 
+### [Vocal delivery](../articles/presenting-and-public-speaking/vocal-delivery.md) — Skill
+
+Ask yourself:
+- In my last recording, could I hear my voice rise and fall on the key words, or did whole sentences sit on one note?
+- Did I slow down and pause before the number, decision or request I most needed people to remember?
+- Could the person farthest from me, or on the worst audio connection, hear every sentence without straining?
+- Was my vocal emphasis saved for the two or three points that matter, rather than spread over everything?
+- Did I sound sure about the claims I am in fact sure of, and plainly flag the ones I am not?
+
 ## questioning-and-conversation
 
 ### [Conversational receptiveness](../articles/questioning-and-conversation/conversational-receptiveness.md) — Technique

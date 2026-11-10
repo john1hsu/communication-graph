@@ -15014,6 +15014,106 @@
    ]
   },
   {
+   "@id": "cm:vocal-delivery",
+   "@type": "cmo:Skill",
+   "cmo:addresses": {
+    "@id": "cm:monotone-delivery"
+   },
+   "cmo:appliedIn": {
+    "@id": "cm:presentation"
+   },
+   "cmo:domain": "presenting-and-public-speaking",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:file": "articles/presenting-and-public-speaking/vocal-delivery.md",
+   "cmo:level": "introductory",
+   "cmo:supportedBy": [
+    {
+     "@id": "cm:hincks-2005"
+    },
+    {
+     "@id": "cm:niebuhr-tegtmeier-schweisfurth-2019"
+    },
+    {
+     "@id": "cm:rodero-2022"
+    },
+    {
+     "@id": "cm:van-zant-berger-2019"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/vocal-delivery/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/vocal-delivery/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/vocal-delivery/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/vocal-delivery/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/vocal-delivery/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/vocal-delivery/s6"
+    }
+   ],
+   "rdfs:label": "Vocal delivery",
+   "skos:altLabel": [
+    "using your voice when presenting",
+    "vocal variety",
+    "voice delivery"
+   ],
+   "skos:broader": [
+    {
+     "@id": "cm:paralanguage"
+    },
+    {
+     "@id": "cm:public-speaking"
+    }
+   ],
+   "skos:definition": "The learnable skill of controlling rate, volume, pitch, pausing and articulation while speaking to a group, so that listeners can follow the talk, hear what matters most and judge the speaker as engaged and confident. Lab studies link moderate vocal variation and audible volume to liveliness and persuasion, but effects are modest and most evidence comes from short, controlled recordings.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/presenting-and-public-speaking"
+   },
+   "skos:prefLabel": "Vocal delivery",
+   "skos:related": [
+    {
+     "@id": "cm:credibility"
+    },
+    {
+     "@id": "cm:filled-pauses"
+    },
+    {
+     "@id": "cm:gestures"
+    },
+    {
+     "@id": "cm:habit-reversal-training"
+    },
+    {
+     "@id": "cm:presentation"
+    },
+    {
+     "@id": "cm:presentation-rehearsal"
+    },
+    {
+     "@id": "cm:self-recording-playback"
+    },
+    {
+     "@id": "cm:silence-and-pauses"
+    },
+    {
+     "@id": "cm:thought-groups"
+    }
+   ]
+  },
+  {
    "@id": "cm:wait-time",
    "@type": "cmo:Technique",
    "cmo:appliedIn": {
@@ -35952,6 +36052,90 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/vocal-delivery/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Jeremy Rose, Communication in Practice, open textbook (CC BY 4.0) on University of Minnesota Libraries Publishing",
+   "dcterms:title": "Vocal Delivery (Communication in Practice, section 14.5)",
+   "schema:url": {
+    "@id": "https://open.lib.umn.edu/commpractice/chapter/vocal-delivery/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/vocal-delivery/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Rebecca Hincks, Proceedings of Interspeech 2005, 765-768, doi:10.21437/Interspeech.2005-353 (ISCA Archive)",
+   "dcterms:title": "Measuring liveliness in presentation speech",
+   "schema:url": {
+    "@id": "https://www.isca-archive.org/interspeech_2005/hincks05_interspeech.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/vocal-delivery/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Alex B. Van Zant & Jonah Berger, Journal of Personality and Social Psychology, 2019, doi:10.1037/pspi0000193 (Wharton faculty copy)",
+   "dcterms:title": "How the Voice Persuades",
+   "schema:url": {
+    "@id": "https://faculty.wharton.upenn.edu/wp-content/uploads/2019/01/Voice-Persuades.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/vocal-delivery/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Emma Rodero, Frontiers in Communication 7:869084, 2022",
+   "dcterms:title": "Effectiveness, Attractiveness, and Emotional Response to Voice Pitch and Hand Gestures in Public Speaking",
+   "schema:url": {
+    "@id": "https://frontiersin.org/articles/10.3389/fcomm.2022.869084/pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/vocal-delivery/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Oliver Niebuhr, Silke Tegtmeier & Tim Schweisfurth, Frontiers in Communication 4:12, 2019",
+   "dcterms:title": "Female Speakers Benefit More Than Male Speakers From Prosodic Charisma Training: A Before-After Analysis of 12-Weeks and 4-h Courses",
+   "schema:url": {
+    "@id": "https://www.frontiersin.org/articles/10.3389/fcomm.2019.00012/text"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/vocal-delivery/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "McGill University Faculty of Medicine news, 2017, on Jiang & Pell, Human Brain Mapping",
+   "dcterms:title": "No doubt: study finds confident tone elicits trust",
+   "schema:url": {
+    "@id": "https://healthenews.mcgill.ca/no-doubt-study-finds-confident-tone-elicits-trust/"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/source/wait-time/s1",
    "@type": "cmo:Source",
    "cmo:sourceType": "peer-reviewed",
@@ -37252,6 +37436,46 @@
     "@id": "cm:video-call-communication"
    },
    "rdfs:label": "After I asked a question, did I leave enough pause for the lag before filling the silence or moving on?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/vocal-delivery/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:vocal-delivery"
+   },
+   "rdfs:label": "In my last recording, could I hear my voice rise and fall on the key words, or did whole sentences sit on one note?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/vocal-delivery/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:vocal-delivery"
+   },
+   "rdfs:label": "Did I slow down and pause before the number, decision or request I most needed people to remember?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/vocal-delivery/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:vocal-delivery"
+   },
+   "rdfs:label": "Could the person farthest from me, or on the worst audio connection, hear every sentence without straining?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/vocal-delivery/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:vocal-delivery"
+   },
+   "rdfs:label": "Was my vocal emphasis saved for the two or three points that matter, rather than spread over everything?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/vocal-delivery/check/5",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:vocal-delivery"
+   },
+   "rdfs:label": "Did I sound sure about the claims I am in fact sure of, and plainly flag the ones I am not?"
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/wait-time/check/1",

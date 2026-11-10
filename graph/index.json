@@ -17116,6 +17116,121 @@
   ]
  },
  {
+  "id": "cm:vocal-delivery",
+  "title": "Vocal delivery",
+  "aliases": [
+   "vocal variety",
+   "voice delivery",
+   "using your voice when presenting"
+  ],
+  "type": "Skill",
+  "domain": "presenting-and-public-speaking",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/presenting-and-public-speaking/vocal-delivery.md",
+  "created": "2026-11-10",
+  "summary": "The learnable skill of controlling rate, volume, pitch, pausing and articulation while speaking to a group, so that listeners can follow the talk, hear what matters most and judge the speaker as engaged and confident. Lab studies link moderate vocal variation and audible volume to liveliness and persuasion, but effects are modest and most evidence comes from short, controlled recordings.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:public-speaking"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "cm:paralanguage"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:presentation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:silence-and-pauses"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:thought-groups"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:filled-pauses"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:self-recording-playback"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:presentation-rehearsal"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:credibility"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:habit-reversal-training"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:gestures"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:presentation",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:monotone-delivery",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:van-zant-berger-2019",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:hincks-2005",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:rodero-2022",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:niebuhr-tegtmeier-schweisfurth-2019",
+    "source": "s5",
+    "confidence": "low"
+   }
+  ],
+  "selfCheck": [
+   "In my last recording, could I hear my voice rise and fall on the key words, or did whole sentences sit on one note?",
+   "Did I slow down and pause before the number, decision or request I most needed people to remember?",
+   "Could the person farthest from me, or on the worst audio connection, hear every sentence without straining?",
+   "Was my vocal emphasis saved for the two or three points that matter, rather than spread over everything?",
+   "Did I sound sure about the claims I am in fact sure of, and plainly flag the ones I am not?"
+  ],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://open.lib.umn.edu/commpractice/chapter/vocal-delivery/",
+   "https://www.isca-archive.org/interspeech_2005/hincks05_interspeech.html",
+   "https://faculty.wharton.upenn.edu/wp-content/uploads/2019/01/Voice-Persuades.pdf",
+   "https://frontiersin.org/articles/10.3389/fcomm.2022.869084/pdf",
+   "https://www.frontiersin.org/articles/10.3389/fcomm.2019.00012/text",
+   "https://healthenews.mcgill.ca/no-doubt-study-finds-confident-tone-elicits-trust/"
+  ]
+ },
+ {
   "id": "cm:wait-time",
   "title": "Wait time",
   "aliases": [
