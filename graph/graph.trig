@@ -1252,6 +1252,16 @@
 <https://github.com/john1hsu/communication-graph/id/adam-galinsky#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/adam-galinsky/s3> .
 <https://github.com/john1hsu/communication-graph/id/adam-galinsky#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/adam-galinsky/s4> .
 <https://github.com/john1hsu/communication-graph/id/adam-galinsky#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/adam-galinsky/s5> .
+<https://github.com/john1hsu/communication-graph/id/alison-wood-brooks#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/alison-wood-brooks#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/alison-wood-brooks> .
+<https://github.com/john1hsu/communication-graph/id/alison-wood-brooks#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/thinkers-and-works/alison-wood-brooks.md" .
+<https://github.com/john1hsu/communication-graph/id/alison-wood-brooks#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s1> .
+<https://github.com/john1hsu/communication-graph/id/alison-wood-brooks#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s2> .
+<https://github.com/john1hsu/communication-graph/id/alison-wood-brooks#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s3> .
+<https://github.com/john1hsu/communication-graph/id/alison-wood-brooks#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s4> .
+<https://github.com/john1hsu/communication-graph/id/alison-wood-brooks#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s5> .
+<https://github.com/john1hsu/communication-graph/id/alison-wood-brooks#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s6> .
+<https://github.com/john1hsu/communication-graph/id/alison-wood-brooks#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s7> .
 <https://github.com/john1hsu/communication-graph/id/alvin-toffler#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/alvin-toffler#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/alvin-toffler> .
 <https://github.com/john1hsu/communication-graph/id/alvin-toffler#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/thinkers-and-works/alvin-toffler.md" .
@@ -15429,6 +15439,82 @@
   <https://github.com/john1hsu/communication-graph/id/source/adam-galinsky/s5> <https://schema.org/url> <https://greatergood.berkeley.edu/profile/adam_galinsky> .
 }
 
+<https://github.com/john1hsu/communication-graph/id/alison-wood-brooks#graph> {
+  <https://github.com/john1hsu/communication-graph/id/alison-wood-brooks> <http://purl.org/dc/terms/created> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/alison-wood-brooks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+  <https://github.com/john1hsu/communication-graph/id/alison-wood-brooks> <http://www.w3.org/2000/01/rdf-schema#label> "Alison Wood Brooks" .
+  <https://github.com/john1hsu/communication-graph/id/alison-wood-brooks> <http://www.w3.org/2004/02/skos/core#altLabel> "Alison Brooks (Harvard Business School)" .
+  <https://github.com/john1hsu/communication-graph/id/alison-wood-brooks> <http://www.w3.org/2004/02/skos/core#altLabel> "Brooks (conversation researcher)" .
+  <https://github.com/john1hsu/communication-graph/id/alison-wood-brooks> <http://www.w3.org/2004/02/skos/core#definition> "Harvard Business School behavioural scientist who studies conversation. Her lab's question-asking studies made follow-up questions - questions that build on what a partner just said - the best-known research-backed habit for being heard as responsive, and she introduced the \"get excited\" reappraisal of performance anxiety and the TALK maxims (topics, asking, levity, kindness) taught in her MBA course and 2025 book." .
+  <https://github.com/john1hsu/communication-graph/id/alison-wood-brooks> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works> .
+  <https://github.com/john1hsu/communication-graph/id/alison-wood-brooks> <http://www.w3.org/2004/02/skos/core#prefLabel> "Alison Wood Brooks" .
+  <https://github.com/john1hsu/communication-graph/id/alison-wood-brooks> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+  <https://github.com/john1hsu/communication-graph/id/alison-wood-brooks> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> .
+  <https://github.com/john1hsu/communication-graph/id/alison-wood-brooks> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/brooks-2014> .
+  <https://github.com/john1hsu/communication-graph/id/alison-wood-brooks> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/follow-up-questions> .
+  <https://github.com/john1hsu/communication-graph/id/alison-wood-brooks> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/huang-et-al-2017> .
+  <https://github.com/john1hsu/communication-graph/id/alison-wood-brooks> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/job-interview> .
+  <https://github.com/john1hsu/communication-graph/id/alison-wood-brooks> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/open-ended-questions> .
+  <https://github.com/john1hsu/communication-graph/id/alison-wood-brooks> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/reciprocal-self-disclosure> .
+  <https://github.com/john1hsu/communication-graph/id/alison-wood-brooks> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/small-talk> .
+  <https://github.com/john1hsu/communication-graph/id/alison-wood-brooks> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s1> .
+  <https://github.com/john1hsu/communication-graph/id/alison-wood-brooks> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s2> .
+  <https://github.com/john1hsu/communication-graph/id/alison-wood-brooks> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s3> .
+  <https://github.com/john1hsu/communication-graph/id/alison-wood-brooks> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s4> .
+  <https://github.com/john1hsu/communication-graph/id/alison-wood-brooks> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s5> .
+  <https://github.com/john1hsu/communication-graph/id/alison-wood-brooks> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s6> .
+  <https://github.com/john1hsu/communication-graph/id/alison-wood-brooks> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s7> .
+  <https://github.com/john1hsu/communication-graph/id/alison-wood-brooks> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/talk-the-science-of-conversation> .
+  <https://github.com/john1hsu/communication-graph/id/alison-wood-brooks> <https://github.com/john1hsu/communication-graph/ontology#domain> "thinkers-and-works" .
+  <https://github.com/john1hsu/communication-graph/id/alison-wood-brooks> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "historical" .
+  <https://github.com/john1hsu/communication-graph/id/alison-wood-brooks> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/thinkers-and-works/alison-wood-brooks.md" .
+  <https://github.com/john1hsu/communication-graph/id/alison-wood-brooks> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/follow-up-questions> .
+  <https://github.com/john1hsu/communication-graph/id/alison-wood-brooks> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/talk-maxims> .
+  <https://github.com/john1hsu/communication-graph/id/alison-wood-brooks> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+  <https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s1> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s1> <http://purl.org/dc/terms/publisher> "Brooks, A. W. & John, L. K., Harvard Business Review 96(3), May-June 2018 (copy hosted by UC Merced Human Resources)" .
+  <https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s1> <http://purl.org/dc/terms/title> "The Surprising Power of Questions" .
+  <https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "practitioner-journal" .
+  <https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s1> <https://schema.org/url> <https://hr.ucmerced.edu/sites/hr.ucmerced.edu/files/documents/how_to_ask_great_questions.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s2> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s2> <http://purl.org/dc/terms/publisher> "Rachel Layne, Harvard Business School Working Knowledge, 30 October 2017" .
+  <https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s2> <http://purl.org/dc/terms/title> "Asking Questions Can Get You a Better Job or a Second Date" .
+  <https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s2> <https://schema.org/url> <https://www.library.hbs.edu/working-knowledge/asking-questions-can-get-you-a-better-job-or-a-second-date> .
+  <https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s3> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s3> <http://purl.org/dc/terms/publisher> "Huang, K., Yeomans, M., Brooks, A. W., Minson, J. & Gino, F., Journal of Personality and Social Psychology 113(3), 2017 (manuscript copy, Harvard DASH repository)" .
+  <https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s3> <http://purl.org/dc/terms/title> "It Doesn't Hurt to Ask: Question-Asking Increases Liking" .
+  <https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s3> <https://schema.org/url> <https://dash.harvard.edu/server/api/core/bitstreams/7312037e-a4f7-6bd4-e053-0100007fdf3b/content> .
+  <https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s4> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s4> <http://purl.org/dc/terms/publisher> "Alison Wood Brooks, Crown / Penguin Random House, January 2025 (publisher's book page)" .
+  <https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s4> <http://purl.org/dc/terms/title> "Talk: The Science of Conversation and the Art of Being Ourselves" .
+  <https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s4> <https://schema.org/url> <https://www.penguinrandomhouse.com/books/708473/talk-by-alison-wood-brooks/9780593443491/> .
+  <https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s5> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s5> <http://purl.org/dc/terms/publisher> "American Psychological Association press release, 23 December 2013 (on Brooks, Journal of Experimental Psychology General, 2014)" .
+  <https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s5> <http://purl.org/dc/terms/title> "Getting Excited Helps With Performance Anxiety More Than Trying to Calm Down, Study Finds" .
+  <https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+  <https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s5> <https://schema.org/url> <https://www.apa.org/news/press/releases/2013/12/performance-anxiety> .
+  <https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s6> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s6> <http://purl.org/dc/terms/publisher> "Ganley, C. M., Conlon, R. A., McGraw, A. L., Barroso, C. & Geer, E. A., Journal of Numerical Cognition 7(1), 4-19, 2021" .
+  <https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s6> <http://purl.org/dc/terms/title> "The Effect of Brief Anxiety Interventions on Reported Anxiety and Math Test Performance" .
+  <https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s6> <https://schema.org/url> <https://jnc.psychopen.eu/index.php/jnc/article/download/6065/6065.html?inline=1> .
+  <https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s7> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s7> <http://purl.org/dc/terms/publisher> "Poets&Quants, 3 May 2021" .
+  <https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s7> <http://purl.org/dc/terms/title> "2021 Best 40-Under-40 Professors: Alison Wood Brooks, Harvard Business School" .
+  <https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s7> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "news" .
+  <https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s7> <https://schema.org/url> <https://poetsandquants.com/2021/05/03/2021-best-40-under-40-professors-alison-wood-brooks-harvard-business-school/> .
+}
+
 <https://github.com/john1hsu/communication-graph/id/alvin-toffler#graph> {
   <https://github.com/john1hsu/communication-graph/id/alvin-toffler> <http://purl.org/dc/terms/created> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
   <https://github.com/john1hsu/communication-graph/id/alvin-toffler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
@@ -19013,6 +19099,7 @@
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/paraphrasing> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/summarizing> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> .
+  <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/alison-wood-brooks> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/avrim-fishkind> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/common-ground> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/conversational-receptiveness> .
@@ -19086,7 +19173,6 @@
   <https://github.com/john1hsu/communication-graph/id/alex-osborn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/alex-osborn> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/brainstorming> .
   <https://github.com/john1hsu/communication-graph/id/alison-wood-brooks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
-  <https://github.com/john1hsu/communication-graph/id/alison-wood-brooks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/alison-wood-brooks> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> .
   <https://github.com/john1hsu/communication-graph/id/allan-r-cohen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/allan-r-cohen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
@@ -19153,6 +19239,7 @@
   <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> .
+  <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/alison-wood-brooks> .
   <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/labeling-emotions> .
   <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/macinnis-mackinnon-macintyre-2010> .
   <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/power-posing> .
@@ -19451,6 +19538,7 @@
   <https://github.com/john1hsu/communication-graph/id/brockner-wiesenfeld-1996> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/social-accounts> .
   <https://github.com/john1hsu/communication-graph/id/brooks-2014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/brooks-2014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
+  <https://github.com/john1hsu/communication-graph/id/brooks-2014> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/alison-wood-brooks> .
   <https://github.com/john1hsu/communication-graph/id/brooks-2014> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> .
   <https://github.com/john1hsu/communication-graph/id/brooks-dai-schweitzer-2013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/brooks-dai-schweitzer-2013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
@@ -20750,8 +20838,10 @@
   <https://github.com/john1hsu/communication-graph/id/follow-up-questions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/follow-up-questions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/follow-up-questions> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/questioning> .
+  <https://github.com/john1hsu/communication-graph/id/follow-up-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/alison-wood-brooks> .
   <https://github.com/john1hsu/communication-graph/id/follow-up-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/job-interview> .
   <https://github.com/john1hsu/communication-graph/id/follow-up-questions> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/small-talk> .
+  <https://github.com/john1hsu/communication-graph/id/follow-up-questions> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/alison-wood-brooks> .
   <https://github.com/john1hsu/communication-graph/id/forward-czech-lee-2011> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/defensiveness> .
   <https://github.com/john1hsu/communication-graph/id/fraundorf-watson-2011> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/filled-pauses> .
   <https://github.com/john1hsu/communication-graph/id/fred-fiedler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -21018,6 +21108,7 @@
   <https://github.com/john1hsu/communication-graph/id/howard-raiffa> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> .
   <https://github.com/john1hsu/communication-graph/id/huang-et-al-2017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/huang-et-al-2017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
+  <https://github.com/john1hsu/communication-graph/id/huang-et-al-2017> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/alison-wood-brooks> .
   <https://github.com/john1hsu/communication-graph/id/huang-et-al-2017> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/perspective-getting> .
   <https://github.com/john1hsu/communication-graph/id/huang-et-al-2017> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/follow-up-questions> .
   <https://github.com/john1hsu/communication-graph/id/huang-et-al-2017> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/humble-inquiry> .
@@ -21411,6 +21502,7 @@
   <https://github.com/john1hsu/communication-graph/id/job-interview> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/job-interview> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/job-interview> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/personnel-selection> .
+  <https://github.com/john1hsu/communication-graph/id/job-interview> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/alison-wood-brooks> .
   <https://github.com/john1hsu/communication-graph/id/job-interview> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/camera-level-gaze> .
   <https://github.com/john1hsu/communication-graph/id/job-interview> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/follow-up-questions> .
   <https://github.com/john1hsu/communication-graph/id/job-interview> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/impression-management> .
@@ -22087,6 +22179,7 @@
   <https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/questioning> .
+  <https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/alison-wood-brooks> .
   <https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/grow-model> .
   <https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/interests-vs-positions> .
   <https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/job-interview> .
@@ -22654,6 +22747,7 @@
   <https://github.com/john1hsu/communication-graph/id/reciprocal-self-disclosure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/reciprocal-self-disclosure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/reciprocal-self-disclosure> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/self-disclosure> .
+  <https://github.com/john1hsu/communication-graph/id/reciprocal-self-disclosure> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/alison-wood-brooks> .
   <https://github.com/john1hsu/communication-graph/id/reciprocity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/influence-without-authority> .
   <https://github.com/john1hsu/communication-graph/id/redish-selzer-1985> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/readability-formulas> .
   <https://github.com/john1hsu/communication-graph/id/reflective-listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/active-listening> .
@@ -22988,6 +23082,7 @@
   <https://github.com/john1hsu/communication-graph/id/small-talk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/small-talk> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
   <https://github.com/john1hsu/communication-graph/id/small-talk> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
+  <https://github.com/john1hsu/communication-graph/id/small-talk> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/alison-wood-brooks> .
   <https://github.com/john1hsu/communication-graph/id/small-talk> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/erving-goffman> .
   <https://github.com/john1hsu/communication-graph/id/small-talk> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/follow-up-questions> .
   <https://github.com/john1hsu/communication-graph/id/small-talk> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/nicholas-epley> .
@@ -23154,6 +23249,10 @@
   <https://github.com/john1hsu/communication-graph/id/synchronous-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/video-call-communication> .
   <https://github.com/john1hsu/communication-graph/id/synchronous-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> .
   <https://github.com/john1hsu/communication-graph/id/talevski-et-al-2020> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/teach-back> .
+  <https://github.com/john1hsu/communication-graph/id/talk-maxims> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/alison-wood-brooks> .
+  <https://github.com/john1hsu/communication-graph/id/talk-the-science-of-conversation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/talk-the-science-of-conversation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
+  <https://github.com/john1hsu/communication-graph/id/talk-the-science-of-conversation> <https://github.com/john1hsu/communication-graph/ontology#authoredBy> <https://github.com/john1hsu/communication-graph/id/alison-wood-brooks> .
   <https://github.com/john1hsu/communication-graph/id/tan-et-al-2003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/tan-et-al-2003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/tan-et-al-2003> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/status-reporting> .

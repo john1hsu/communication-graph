@@ -438,6 +438,91 @@
    ]
   },
   {
+   "@id": "cm:alison-wood-brooks",
+   "@type": "cmo:Person",
+   "cmo:authored": {
+    "@id": "cm:talk-the-science-of-conversation"
+   },
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "historical",
+   "cmo:file": "articles/thinkers-and-works/alison-wood-brooks.md",
+   "cmo:introduced": [
+    {
+     "@id": "cm:follow-up-questions"
+    },
+    {
+     "@id": "cm:talk-maxims"
+    }
+   ],
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s6"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s7"
+    }
+   ],
+   "rdfs:label": "Alison Wood Brooks",
+   "skos:altLabel": [
+    "Alison Brooks (Harvard Business School)",
+    "Brooks (conversation researcher)"
+   ],
+   "skos:definition": "Harvard Business School behavioural scientist who studies conversation. Her lab's question-asking studies made follow-up questions - questions that build on what a partner just said - the best-known research-backed habit for being heard as responsive, and she introduced the \"get excited\" reappraisal of performance anxiety and the TALK maxims (topics, asking, levity, kindness) taught in her MBA course and 2025 book.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "Alison Wood Brooks",
+   "skos:related": [
+    {
+     "@id": "cm:active-listening"
+    },
+    {
+     "@id": "cm:anxiety-reappraisal"
+    },
+    {
+     "@id": "cm:brooks-2014"
+    },
+    {
+     "@id": "cm:follow-up-questions"
+    },
+    {
+     "@id": "cm:huang-et-al-2017"
+    },
+    {
+     "@id": "cm:job-interview"
+    },
+    {
+     "@id": "cm:open-ended-questions"
+    },
+    {
+     "@id": "cm:reciprocal-self-disclosure"
+    },
+    {
+     "@id": "cm:small-talk"
+    }
+   ]
+  },
+  {
    "@id": "cm:alvin-toffler",
    "@type": "cmo:Person",
    "cmo:authored": {
@@ -25707,6 +25792,104 @@
    "dcterms:title": "Adam Galinsky (contributor profile)",
    "schema:url": {
     "@id": "https://greatergood.berkeley.edu/profile/adam_galinsky"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "practitioner-journal",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Brooks, A. W. & John, L. K., Harvard Business Review 96(3), May-June 2018 (copy hosted by UC Merced Human Resources)",
+   "dcterms:title": "The Surprising Power of Questions",
+   "schema:url": {
+    "@id": "https://hr.ucmerced.edu/sites/hr.ucmerced.edu/files/documents/how_to_ask_great_questions.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Rachel Layne, Harvard Business School Working Knowledge, 30 October 2017",
+   "dcterms:title": "Asking Questions Can Get You a Better Job or a Second Date",
+   "schema:url": {
+    "@id": "https://www.library.hbs.edu/working-knowledge/asking-questions-can-get-you-a-better-job-or-a-second-date"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Huang, K., Yeomans, M., Brooks, A. W., Minson, J. & Gino, F., Journal of Personality and Social Psychology 113(3), 2017 (manuscript copy, Harvard DASH repository)",
+   "dcterms:title": "It Doesn't Hurt to Ask: Question-Asking Increases Liking",
+   "schema:url": {
+    "@id": "https://dash.harvard.edu/server/api/core/bitstreams/7312037e-a4f7-6bd4-e053-0100007fdf3b/content"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Alison Wood Brooks, Crown / Penguin Random House, January 2025 (publisher's book page)",
+   "dcterms:title": "Talk: The Science of Conversation and the Art of Being Ourselves",
+   "schema:url": {
+    "@id": "https://www.penguinrandomhouse.com/books/708473/talk-by-alison-wood-brooks/9780593443491/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "American Psychological Association press release, 23 December 2013 (on Brooks, Journal of Experimental Psychology General, 2014)",
+   "dcterms:title": "Getting Excited Helps With Performance Anxiety More Than Trying to Calm Down, Study Finds",
+   "schema:url": {
+    "@id": "https://www.apa.org/news/press/releases/2013/12/performance-anxiety"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Ganley, C. M., Conlon, R. A., McGraw, A. L., Barroso, C. & Geer, E. A., Journal of Numerical Cognition 7(1), 4-19, 2021",
+   "dcterms:title": "The Effect of Brief Anxiety Interventions on Reported Anxiety and Math Test Performance",
+   "schema:url": {
+    "@id": "https://jnc.psychopen.eu/index.php/jnc/article/download/6065/6065.html?inline=1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/alison-wood-brooks/s7",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "news",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Poets&Quants, 3 May 2021",
+   "dcterms:title": "2021 Best 40-Under-40 Professors: Alison Wood Brooks, Harvard Business School",
+   "schema:url": {
+    "@id": "https://poetsandquants.com/2021/05/03/2021-best-40-under-40-professors-alison-wood-brooks-harvard-business-school/"
    }
   },
   {

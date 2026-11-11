@@ -144,7 +144,6 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | node | type |
 |---|---|
 | `cm:executive-summary` | cmo:Genre |
-| `cm:follow-up-questions` | cmo:Technique |
 | `cm:gestures` | cmo:Skill |
 | `cm:informative-headings` | cmo:Technique |
 | `cm:intercultural-competence` | cmo:Skill |
@@ -173,8 +172,9 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:raci-matrix` | cmo:Technique |
 | `cm:rapport` | cmo:Concept |
 | `cm:reciprocal-self-disclosure` | cmo:Technique |
+| `cm:refutational-two-sided-messages` | cmo:Technique |
 
-…and 24 more.
+…and 23 more.
 
 ## Orphan articles (gap)
 
