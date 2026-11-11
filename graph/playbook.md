@@ -2029,6 +2029,22 @@ Ask yourself:
 - Have I used numbers only where order or reference matters?
 - Did turning prose into bullets strip out a reason, condition or caveat the reader needs to judge the point?
 
+### [Burying the lede](../articles/writing/burying-the-lede.md) — AntiPattern
+
+*An engineering manager emails a vice president after a vendor slip and needs a go/no-go decision on paying for weekend overtime by Wednesday noon.*
+
+| Before | After |
+|---|---|
+| Hi Sam, quick update on the payments integration. As you know we kicked off with the vendor in July and the first two milestones went well. Over the last few weeks we have been working through some API changes on their side, and the team has done a great job adapting. Last Thursday the vendor told us their sandbox will be down until the 18th. We looked at a few options, including stubbing the service, and think weekend overtime is the most realistic way to protect the launch date, which would cost about $9K. Let me know what you think. | Subject: Decision by Wed noon - approve $9K overtime to keep the 1 Dec launch? Sam, I need a yes/no by Wednesday noon on about $9K of weekend overtime. Without it, the 1 December launch slips about two weeks. Why: the vendor's sandbox is down until the 18th, which removes our last test window. Option we rejected: stubbing the service - faster to build, but it leaves the riskiest calls untested. Background on the integration is below if useful. |
+
+**Why:** In the original the cost, the decision and the deadline arrive in the last two sentences and the deadline is never stated, so a reader skimming the opening reads it as a routine progress note; the rewrite states the decision, amount, deadline and consequence in the subject line and first sentence and moves the history to the end.
+
+Ask yourself:
+- If my reader stopped after the first two sentences, would they know what I need, by when, and why it matters?
+- Is anything in my opening paragraph there only because it happened first, rather than because the reader needs it first?
+- Does my subject line or first slide name the decision, risk or news itself, not just the topic?
+- If I am delivering bad news, have I stated it plainly before the explanation instead of after it?
+
 ### [Concise writing](../articles/writing/concise-writing.md) — Skill
 
 Ask yourself:

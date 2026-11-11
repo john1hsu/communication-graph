@@ -50,7 +50,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:anxiety-reappraisal` | 1 | Public speaking anxiety |
 | `cm:assertion-evidence-slides` | 1 | death-by-powerpoint |
 | `cm:audience-analysis` | 1 | Curse of knowledge |
-| `cm:bottom-line-up-front` | 1 | burying-the-lede |
+| `cm:bottom-line-up-front` | 1 | Burying the lede |
 | `cm:bulleted-and-numbered-lists` | 1 | Wall of text |
 | `cm:camera-level-gaze` | 1 | Gaze and eye contact |
 | `cm:camera-optional-norm` | 1 | Zoom fatigue |
@@ -135,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:batna` | mixed | `cm:schaerer-swaab-galinsky-2015` |
 | `cm:bulleted-and-numbered-lists` | mixed | `cm:columbia-accident-investigation-board-report` |
 
-…and 116 more.
+…and 117 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -143,6 +143,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 
 | node | type |
 |---|---|
+| `cm:burying-the-lede` | cmo:AntiPattern |
 | `cm:business-report` | cmo:Genre |
 | `cm:executive-summary` | cmo:Genre |
 | `cm:gestures` | cmo:Skill |
@@ -172,9 +173,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:presentation-rehearsal` | cmo:Technique |
 | `cm:raci-matrix` | cmo:Technique |
 | `cm:rapport` | cmo:Concept |
-| `cm:reciprocal-self-disclosure` | cmo:Technique |
 
-…and 24 more.
+…and 25 more.
 
 ## Orphan articles (gap)
 

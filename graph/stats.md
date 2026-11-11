@@ -1,13 +1,13 @@
 # Graph statistics
 
-- Articles (nodes written): **201**
-- Frontier nodes (referenced, unwritten): **693**
-- Asserted edges: **2663** (typed + evidenced: **1081**)
-- Asserted triples: **17058**; inferred by OWL-RL: **4709**
-- Citations: **1098**
-- Self-check questions: **485**; procedures: **74**; before/after rewrites: **81**
+- Articles (nodes written): **202**
+- Frontier nodes (referenced, unwritten): **695**
+- Asserted edges: **2676** (typed + evidenced: **1085**)
+- Asserted triples: **17145**; inferred by OWL-RL: **4735**
+- Citations: **1104**
+- Self-check questions: **489**; procedures: **74**; before/after rewrites: **82**
 - Weakly connected components: **1**
-- Communities (Louvain): **12**; max k-core: **8**
+- Communities (Louvain): **11**; max k-core: **8**
 
 ## Most central nodes
 
@@ -15,38 +15,38 @@ PageRank = authority; betweenness = bridges between areas.
 
 | Node | PageRank | Betweenness | Written |
 |---|---|---|---|
-| `cm:audience-analysis` | 0.0061 | 0.0802 | yes |
-| `cm:bottom-line-up-front` | 0.0057 | 0.0602 | yes |
-| `cm:active-listening` | 0.0057 | 0.0844 | yes |
-| `cm:psychological-safety` | 0.0050 | 0.0805 | yes |
-| `cm:plain-language` | 0.0046 | 0.0406 | yes |
-| `cm:email` | 0.0043 | 0.0360 | yes |
-| `cm:curse-of-knowledge` | 0.0042 | 0.0316 | yes |
-| `cm:open-ended-questions` | 0.0042 | 0.0344 | yes |
-| `cm:feedback` | 0.0040 | 0.0391 | yes |
-| `cm:channel-selection` | 0.0039 | 0.0366 | yes |
+| `cm:audience-analysis` | 0.0062 | 0.0797 | yes |
+| `cm:bottom-line-up-front` | 0.0059 | 0.0593 | yes |
+| `cm:active-listening` | 0.0056 | 0.0845 | yes |
+| `cm:psychological-safety` | 0.0050 | 0.0804 | yes |
+| `cm:plain-language` | 0.0046 | 0.0403 | yes |
+| `cm:email` | 0.0044 | 0.0369 | yes |
+| `cm:curse-of-knowledge` | 0.0042 | 0.0315 | yes |
+| `cm:open-ended-questions` | 0.0041 | 0.0342 | yes |
+| `cm:feedback` | 0.0040 | 0.0389 | yes |
+| `cm:channel-selection` | 0.0039 | 0.0364 | yes |
 | `cm:illusion-of-transparency` | 0.0036 | 0.0269 | yes |
-| `cm:difficult-conversation` | 0.0035 | 0.0342 | yes |
 | `cm:egocentric-bias` | 0.0035 | 0.0323 | yes |
+| `cm:difficult-conversation` | 0.0035 | 0.0343 | yes |
 | `cm:defensiveness` | 0.0033 | 0.0194 | yes |
-| `cm:paraphrasing` | 0.0032 | 0.0271 | yes |
+| `cm:clarity` | 0.0033 | 0.0218 | yes |
 
 ## Communities
 
-1. `cm:a-practical-guide-to-usability-testing`, `cm:abstract`, `cm:active-voice`, `cm:alan-h-monroe`, `cm:army-writing-program`, `cm:asynchronous-communication`, `cm:attention-based-view`, `cm:attention-management`, `cm:audience-analysis`, `cm:baker-chaparro-shaikh-2005`, `cm:barbara-minto`, `cm:barley-meyerson-grodal-2011` …
+1. `cm:a-practical-guide-to-usability-testing`, `cm:abstract`, `cm:active-voice`, `cm:alan-h-monroe`, `cm:ameseder-devetak-skubic-2026`, `cm:aristotle`, `cm:aristotles-rhetoric`, `cm:army-writing-program`, `cm:attention-based-view`, `cm:audience`, `cm:audience-analysis`, `cm:baker-chaparro-shaikh-2005` …
 2. `cm:acoustic-speech-analysis-coaching`, `cm:albert-mehrabian`, `cm:alpizar-adesope-wong-2020`, `cm:alzayed-alzamel-2023`, `cm:ambady-rosenthal-1993`, `cm:amy-cuddy`, `cm:antonakis-fenley-liechti-2011`, `cm:assertion-evidence-slides`, `cm:barrett-et-al-2019`, `cm:bate-et-al-2011`, `cm:binetti-et-al-2016`, `cm:bodily-communication` …
-3. `cm:a-behavioral-theory-of-labor-negotiations`, `cm:adam-galinsky`, `cm:an-alternative-to-war-or-surrender`, `cm:batna`, `cm:boothby-cooney-schweitzer-2023`, `cm:bowles-babcock-lai-2007`, `cm:bowles-babcock-mcginn-2005`, `cm:brett-pinkley-jackofsky-1996`, `cm:catapano-tormala-rucker-2019`, `cm:charles-osgood`, `cm:cognitive-bias`, `cm:concession-strategy` …
-4. `cm:accusatory-you-statements`, `cm:adler-et-al-2016`, `cm:angelo-denisi`, `cm:anseel-et-al-2015`, `cm:arturo-rosenblueth`, `cm:assertive-communication`, `cm:avraham-n-kluger`, `cm:barrick-shaffer-degrassi-2009`, `cm:behavior-purpose-and-teleology`, `cm:benedikt-wisniewski`, `cm:blunden-et-al-2025`, `cm:bottini-gillis-2021` …
-5. `cm:active-listening`, `cm:advice-giving`, `cm:alison-wood-brooks`, `cm:berg-et-al-2019`, `cm:boomerasking`, `cm:brooks-2014`, `cm:cannon-robinson-smith-lovin-2019`, `cm:carl-rogers`, `cm:chameleon-effect`, `cm:charles-derber`, `cm:charles-h-green`, `cm:client-communication` …
-6. `cm:1-2-4-all`, `cm:alex-osborn`, `cm:amy-edmondson`, `cm:andre-delbecq`, `cm:andrew-van-de-ven`, `cm:brainstorming`, `cm:brainwriting`, `cm:communication-plan`, `cm:computer-conferencing`, `cm:dare-decision-roles`, `cm:decision-rights`, `cm:delphi-technique` …
-7. `cm:a-mathematical-theory-of-communication`, `cm:adhocracy`, `cm:alvin-toffler`, `cm:ask-in-person-study`, `cm:audience-design`, `cm:bennett-et-al-2021`, `cm:bertram-gross`, `cm:boland-et-al-zoom-turn-taking`, `cm:brucks-levav-2022`, `cm:business-and-industrial-communication-a-source-book`, `cm:camera-optional-norm`, `cm:channel-expansion-theory` …
-8. `cm:abstract-language`, `cm:amos-tversky`, `cm:anchoring-and-adjustment`, `cm:camerer-loewenstein-weber-1989`, `cm:caruso-epley-bazerman-2006`, `cm:checking-understanding`, `cm:communication-apprehension`, `cm:considering-others-contributions-first`, `cm:curse-of-knowledge`, `cm:damen-pollmann-grassow-2021`, `cm:daniel-kahneman`, `cm:ebrahimi-et-al-2019` …
-9. `cm:ang-et-al-2007`, `cm:beyond-culture`, `cm:bhawuk-1998`, `cm:burgoon-1978`, `cm:cardon-2008`, `cm:communication-competence`, `cm:cross-cultural-training`, `cm:cultural-intelligence`, `cm:culture-assimilator`, `cm:cultures-consequences`, `cm:describe-analyze-evaluate`, `cm:edward-t-hall` …
-10. `cm:apology`, `cm:bies-shapiro-1987`, `cm:brockner-wiesenfeld-1996`, `cm:brooks-dai-schweitzer-2013`, `cm:charles-morris`, `cm:crucial-conversations`, `cm:delivering-bad-news`, `cm:denial`, `cm:dibble-2017`, `cm:difficult-conversation`, `cm:difficult-conversations-book`, `cm:empathic-concern` …
+3. `cm:a-behavioral-theory-of-labor-negotiations`, `cm:adam-galinsky`, `cm:amos-tversky`, `cm:an-alternative-to-war-or-surrender`, `cm:anchoring-and-adjustment`, `cm:batna`, `cm:boothby-cooney-schweitzer-2023`, `cm:bowles-babcock-lai-2007`, `cm:bowles-babcock-mcginn-2005`, `cm:brett-pinkley-jackofsky-1996`, `cm:catapano-tormala-rucker-2019`, `cm:charles-osgood` …
+4. `cm:a-mathematical-theory-of-communication`, `cm:adler-et-al-2016`, `cm:angelo-denisi`, `cm:anseel-et-al-2015`, `cm:arturo-rosenblueth`, `cm:avraham-n-kluger`, `cm:barrick-shaffer-degrassi-2009`, `cm:behavior-purpose-and-teleology`, `cm:benedikt-wisniewski`, `cm:blunden-et-al-2025`, `cm:bottini-gillis-2021`, `cm:brown-sokal-friedman-2013` …
+5. `cm:1-2-4-all`, `cm:alex-osborn`, `cm:amy-edmondson`, `cm:andre-delbecq`, `cm:andrew-van-de-ven`, `cm:boland-et-al-zoom-turn-taking`, `cm:brainstorming`, `cm:brainwriting`, `cm:cannon-robinson-smith-lovin-2019`, `cm:communication-plan`, `cm:conversation-analysis`, `cm:conversational-turn-taking` …
+6. `cm:adhocracy`, `cm:alvin-toffler`, `cm:ask-in-person-study`, `cm:asynchronous-communication`, `cm:attention-management`, `cm:barley-meyerson-grodal-2011`, `cm:becker-et-al-2019`, `cm:bennett-et-al-2021`, `cm:bertram-gross`, `cm:boundary-theory`, `cm:brucks-levav-2022`, `cm:business-and-industrial-communication-a-source-book` …
+7. `cm:abstract-language`, `cm:anxiety-reappraisal`, `cm:audience-design`, `cm:beltzer-et-al-2014`, `cm:camerer-loewenstein-weber-1989`, `cm:caruso-epley-bazerman-2006`, `cm:checking-understanding`, `cm:clark-wilkes-gibbs-1986`, `cm:cognitive-reappraisal`, `cm:common-ground`, `cm:communication-apprehension`, `cm:considering-others-contributions-first` …
+8. `cm:active-listening`, `cm:advice-giving`, `cm:alison-wood-brooks`, `cm:berg-et-al-2019`, `cm:boomerasking`, `cm:brooks-2014`, `cm:carl-rogers`, `cm:chameleon-effect`, `cm:charles-derber`, `cm:charles-h-green`, `cm:client-communication`, `cm:closed-questions` …
+9. `cm:accusatory-you-statements`, `cm:apology`, `cm:assertive-communication`, `cm:avrim-fishkind`, `cm:barsade-2002`, `cm:bies-shapiro-1987`, `cm:brockner-wiesenfeld-1996`, `cm:brooks-dai-schweitzer-2013`, `cm:calming-agitation-with-words`, `cm:communication-climate`, `cm:crucial-conversations`, `cm:czech-forward-2013` …
+10. `cm:ang-et-al-2007`, `cm:beyond-culture`, `cm:bhawuk-1998`, `cm:brew-cairns-2004`, `cm:cardon-2008`, `cm:charles-morris`, `cm:communication-competence`, `cm:cross-cultural-training`, `cm:cultural-intelligence`, `cm:culture-assimilator`, `cm:cultures-consequences`, `cm:describe-analyze-evaluate` …
 
 ## By type
 
-- AntiPattern: 4
+- AntiPattern: 5
 - Barrier: 11
 - Channel: 4
 - Concept: 13
@@ -80,19 +80,19 @@ PageRank = authority; betweenness = bridges between areas.
 - presenting-and-public-speaking: 10
 - questioning-and-conversation: 11
 - thinkers-and-works: 40
-- writing: 12
+- writing: 13
 
 ## By level
 
 - intermediate: 67
-- introductory: 134
+- introductory: 135
 
 ## By evidence status
 
 - contested: 11
 - failed-replication: 1
 - historical: 30
-- mixed: 118
+- mixed: 119
 - practitioner: 23
 - robust: 7
 - theoretical: 11
@@ -112,6 +112,6 @@ PageRank = authority; betweenness = bridges between areas.
 - nonverbal-and-voice: 11
 - persuasion-and-influence: 11
 - questioning-and-conversation: 11
-- writing: 12
+- writing: 13
 - negotiation: 14
 - thinkers-and-works: 40

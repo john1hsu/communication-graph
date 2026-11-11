@@ -1876,6 +1876,106 @@
   ]
  },
  {
+  "id": "cm:burying-the-lede",
+  "title": "Burying the lede",
+  "aliases": [
+   "burying the lead",
+   "buried lede",
+   "buried main point",
+   "burying the ask"
+  ],
+  "type": "AntiPattern",
+  "domain": "writing",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/writing/burying-the-lede.md",
+  "created": "2026-11-11",
+  "summary": "Placing the most important point of a message - the decision, request, risk or news - after background, history or lesser details, so readers who skim or stop early miss it or misread what the message is about.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:message-structure"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:bottom-line-up-front"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:pyramid-principle"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:wall-of-text"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:email"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:executive-briefing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:status-reporting"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:delivering-bad-news"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:information-overload"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:kieras-1980",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:kieras-1979",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:ameseder-devetak-skubic-2026",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:undermines",
+    "object": "cm:clarity",
+    "source": "s2",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "If my reader stopped after the first two sentences, would they know what I need, by when, and why it matters?",
+   "Is anything in my opening paragraph there only because it happened first, rather than because the reader needs it first?",
+   "Does my subject line or first slide name the decision, risk or news itself, not just the topic?",
+   "If I am delivering bad news, have I stated it plainly before the explanation instead of after it?"
+  ],
+  "steps": [],
+  "example": {
+   "situation": "An engineering manager emails a vice president after a vendor slip and needs a go/no-go decision on paying for weekend overtime by Wednesday noon.",
+   "before": "Hi Sam, quick update on the payments integration. As you know we kicked off with the vendor in July and the first two milestones went well. Over the last few weeks we have been working through some API changes on their side, and the team has done a great job adapting. Last Thursday the vendor told us their sandbox will be down until the 18th. We looked at a few options, including stubbing the service, and think weekend overtime is the most realistic way to protect the launch date, which would cost about $9K. Let me know what you think.",
+   "after": "Subject: Decision by Wed noon - approve $9K overtime to keep the 1 Dec launch?\n\nSam, I need a yes/no by Wednesday noon on about $9K of weekend overtime. Without it, the 1 December launch slips about two weeks.\n\nWhy: the vendor's sandbox is down until the 18th, which removes our last test window.\nOption we rejected: stubbing the service - faster to build, but it leaves the riskiest calls untested.\n\nBackground on the integration is below if useful.",
+   "why": "In the original the cost, the decision and the deadline arrive in the last two sentences and the deadline is never stated, so a reader skimming the opening reads it as a routine progress note; the rewrite states the decision, amount, deadline and consequence in the subject line and first sentence and moves the history to the end."
+  },
+  "source_urls": [
+   "https://www.merriam-webster.com/wordplay/bury-the-lede-versus-lead",
+   "https://www.maine.gov/dvem/policies/documents/AR%2025-50%20(10%20October%202020).pdf",
+   "https://apps.dtic.mil/sti/pdfs/ADA089910.pdf",
+   "https://apps.dtic.mil/sti/pdfs/ADA073773.pdf",
+   "https://www.cepsj.si/index.php/cepsj/article/view/1899",
+   "https://behavioralscientist.org/when-writing-for-busy-readers-less-is-more/"
+  ]
+ },
+ {
   "id": "cm:business-report",
   "title": "Business report",
   "aliases": [

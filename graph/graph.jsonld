@@ -1659,6 +1659,94 @@
    ]
   },
   {
+   "@id": "cm:burying-the-lede",
+   "@type": "cmo:AntiPattern",
+   "cmo:challengedBy": {
+    "@id": "cm:ameseder-devetak-skubic-2026"
+   },
+   "cmo:demonstratedBy": {
+    "@id": "cm:kieras-1980"
+   },
+   "cmo:domain": "writing",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/burying-the-lede/example"
+   },
+   "cmo:file": "articles/writing/burying-the-lede.md",
+   "cmo:level": "introductory",
+   "cmo:supportedBy": {
+    "@id": "cm:kieras-1979"
+   },
+   "cmo:undermines": {
+    "@id": "cm:clarity"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/burying-the-lede/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/burying-the-lede/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/burying-the-lede/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/burying-the-lede/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/burying-the-lede/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/burying-the-lede/s6"
+    }
+   ],
+   "rdfs:label": "Burying the lede",
+   "skos:altLabel": [
+    "buried lede",
+    "buried main point",
+    "burying the ask",
+    "burying the lead"
+   ],
+   "skos:broader": {
+    "@id": "cm:message-structure"
+   },
+   "skos:definition": "Placing the most important point of a message - the decision, request, risk or news - after background, history or lesser details, so readers who skim or stop early miss it or misread what the message is about.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/writing"
+   },
+   "skos:prefLabel": "Burying the lede",
+   "skos:related": [
+    {
+     "@id": "cm:bottom-line-up-front"
+    },
+    {
+     "@id": "cm:delivering-bad-news"
+    },
+    {
+     "@id": "cm:email"
+    },
+    {
+     "@id": "cm:executive-briefing"
+    },
+    {
+     "@id": "cm:information-overload"
+    },
+    {
+     "@id": "cm:pyramid-principle"
+    },
+    {
+     "@id": "cm:status-reporting"
+    },
+    {
+     "@id": "cm:wall-of-text"
+    }
+   ]
+  },
+  {
    "@id": "cm:business-report",
    "@type": "cmo:Genre",
    "cmo:complements": {
@@ -18883,6 +18971,46 @@
    "schema:text": "Keep reasons, caveats and trade-offs in sentences around the list rather than shrinking them into fragments inside it."
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/burying-the-lede/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:burying-the-lede"
+   },
+   "rdfs:label": "If my reader stopped after the first two sentences, would they know what I need, by when, and why it matters?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/burying-the-lede/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:burying-the-lede"
+   },
+   "rdfs:label": "Is anything in my opening paragraph there only because it happened first, rather than because the reader needs it first?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/burying-the-lede/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:burying-the-lede"
+   },
+   "rdfs:label": "Does my subject line or first slide name the decision, risk or news itself, not just the topic?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/burying-the-lede/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:burying-the-lede"
+   },
+   "rdfs:label": "If I am delivering bad news, have I stated it plainly before the explanation instead of after it?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/burying-the-lede/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "Subject: Decision by Wed noon - approve $9K overtime to keep the 1 Dec launch? Sam, I need a yes/no by Wednesday noon on about $9K of weekend overtime. Without it, the 1 December launch slips about two weeks. Why: the vendor's sandbox is down until the 18th, which removes our last test window. Option we rejected: stubbing the service - faster to build, but it leaves the riskiest calls untested. Background on the integration is below if useful.",
+   "cmo:before": "Hi Sam, quick update on the payments integration. As you know we kicked off with the vendor in July and the first two milestones went well. Over the last few weeks we have been working through some API changes on their side, and the team has done a great job adapting. Last Thursday the vendor told us their sandbox will be down until the 18th. We looked at a few options, including stubbing the service, and think weekend overtime is the most realistic way to protect the launch date, which would cost about $9K. Let me know what you think.",
+   "cmo:situation": "An engineering manager emails a vice president after a vendor slip and needs a go/no-go decision on paying for weekend overtime by Wednesday noon.",
+   "cmo:why": "In the original the cost, the decision and the deadline arrive in the last two sentences and the deadline is never stated, so a reader skimming the opening reads it as a routine progress note; the rewrite states the decision, amount, deadline and consequence in the subject line and first sentence and moves the history to the end."
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/camera-level-gaze/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -27228,6 +27356,90 @@
    "dcterms:title": "Columbia Accident Investigation Board: The Boeing PowerPoint Slide",
    "schema:url": {
     "@id": "https://www.edwardtufte.com/notebook/columbia-accident-investigation-board-the-boeing-powerpoint-slide/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/burying-the-lede/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Merriam-Webster, Words at Play",
+   "dcterms:title": "Is it 'Bury the Lede' or 'Bury the Lead'?",
+   "schema:url": {
+    "@id": "https://www.merriam-webster.com/wordplay/bury-the-lede-versus-lead"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/burying-the-lede/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Headquarters, Department of the Army (10 October 2020), copy hosted by the Maine Bureau of Veterans' Services",
+   "dcterms:title": "Army Regulation 25-50: Preparing and Managing Correspondence",
+   "schema:url": {
+    "@id": "https://www.maine.gov/dvem/policies/documents/AR%2025-50%20(10%20October%202020).pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/burying-the-lede/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "David E. Kieras, Technical Report No. 5, Department of Psychology, University of Arizona, for the Office of Naval Research (1980) (DTIC)",
+   "dcterms:title": "Abstracting Main Ideas from Technical Prose: A Preliminary Study of Six Passages",
+   "schema:url": {
+    "@id": "https://apps.dtic.mil/sti/pdfs/ADA089910.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/burying-the-lede/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "David E. Kieras, Technical Report No. 3, Department of Psychology, University of Arizona, for the Office of Naval Research (1979) (DTIC)",
+   "dcterms:title": "Initial Mention as a Cue to the Main Idea and the Main Item of a Technical Passage",
+   "schema:url": {
+    "@id": "https://apps.dtic.mil/sti/pdfs/ADA073773.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/burying-the-lede/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Christian Ameseder, Iztok Devetak & Darija Skubic, Center for Educational Policy Studies Journal 16(3), 201-234 (2026), doi:10.26529/cepsj.1899",
+   "dcterms:title": "Incidental Learning From Science Journalism: The Effects of a Narrative Writing Style on the Comprehension and Situational Interest of Austrian Non-Experts in Health Sciences",
+   "schema:url": {
+    "@id": "https://www.cepsj.si/index.php/cepsj/article/view/1899"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/burying-the-lede/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "practitioner-journal",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Todd Rogers & Jessica Lasky-Fink, Behavioral Scientist (11 September 2023)",
+   "dcterms:title": "When Writing for Busy Readers, Less Is More",
+   "schema:url": {
+    "@id": "https://behavioralscientist.org/when-writing-for-busy-readers-less-is-more/"
    }
   },
   {
