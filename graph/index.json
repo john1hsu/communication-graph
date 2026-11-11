@@ -17901,6 +17901,66 @@
   ]
  },
  {
+  "id": "cm:the-physician-as-teacher",
+  "title": "The Physician as Teacher",
+  "aliases": [
+   "Schwenk and Whitman 1987",
+   "Whitman and Schwenk (The Physician as Teacher)"
+  ],
+  "type": "Work",
+  "domain": "thinkers-and-works",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/thinkers-and-works/the-physician-as-teacher.md",
+  "created": "2026-11-11",
+  "summary": "A short 1987 handbook by family physician Thomas L. Schwenk and educator Neal A. Whitman that treats clinical teaching as a form of interpersonal communication. It is the source that Anne Dohrenwend's widely read 2002 article cites for the term \"sandwiching\" - placing one criticism between two praises - which later spread far beyond medicine as the feedback sandwich.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:feedback"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:feedback-sandwich"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:active-listening"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:praise-and-recognition"
+   },
+   {
+    "predicate": "cmo:introduces",
+    "object": "cm:feedback-sandwich",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:authoredBy",
+    "object": "cm:thomas-l-schwenk",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:authoredBy",
+    "object": "cm:neal-a-whitman",
+    "source": "s4",
+    "confidence": "high"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://www.aafp.org/pubs/fpm/issues/2002/1100/p43.pdf",
+   "https://omjournal.org/PDF/OMJ-D-08-BR1.pdf",
+   "https://crlt.umich.edu/node/561/printable/print",
+   "https://catalog.lib.msu.edu/Record/folio.in00000739621/Description"
+  ]
+ },
+ {
   "id": "cm:thomas-gilovich",
   "title": "Thomas Gilovich",
   "aliases": [

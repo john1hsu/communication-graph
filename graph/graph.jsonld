@@ -15712,6 +15712,67 @@
    ]
   },
   {
+   "@id": "cm:the-physician-as-teacher",
+   "@type": "cmo:Work",
+   "cmo:authoredBy": [
+    {
+     "@id": "cm:neal-a-whitman"
+    },
+    {
+     "@id": "cm:thomas-l-schwenk"
+    }
+   ],
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "historical",
+   "cmo:file": "articles/thinkers-and-works/the-physician-as-teacher.md",
+   "cmo:introduces": {
+    "@id": "cm:feedback-sandwich"
+   },
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/the-physician-as-teacher/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/the-physician-as-teacher/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/the-physician-as-teacher/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/the-physician-as-teacher/s4"
+    }
+   ],
+   "rdfs:label": "The Physician as Teacher",
+   "skos:altLabel": [
+    "Schwenk and Whitman 1987",
+    "Whitman and Schwenk (The Physician as Teacher)"
+   ],
+   "skos:broader": {
+    "@id": "cm:feedback"
+   },
+   "skos:definition": "A short 1987 handbook by family physician Thomas L. Schwenk and educator Neal A. Whitman that treats clinical teaching as a form of interpersonal communication. It is the source that Anne Dohrenwend's widely read 2002 article cites for the term \"sandwiching\" - placing one criticism between two praises - which later spread far beyond medicine as the feedback sandwich.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "The Physician as Teacher",
+   "skos:related": [
+    {
+     "@id": "cm:active-listening"
+    },
+    {
+     "@id": "cm:feedback-sandwich"
+    },
+    {
+     "@id": "cm:praise-and-recognition"
+    }
+   ]
+  },
+  {
    "@id": "cm:thomas-gilovich",
    "@type": "cmo:Person",
    "cmo:authored": {
@@ -38739,6 +38800,62 @@
    "dcterms:title": "Erin Meyer - faculty profile",
    "schema:url": {
     "@id": "https://www.insead.edu/faculty/erin-meyer"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/the-physician-as-teacher/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "practitioner-journal",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Anne Dohrenwend, Family Practice Management 9(10), 43-46 (Nov/Dec 2002), American Academy of Family Physicians",
+   "dcterms:title": "Serving Up the Feedback Sandwich",
+   "schema:url": {
+    "@id": "https://www.aafp.org/pubs/fpm/issues/2002/1100/p43.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/the-physician-as-teacher/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Ahmed Hamed AL-Wahaibi, Oman Medical Journal 23(2), April 2008",
+   "dcterms:title": "Book review: The Physician as Teacher (Whitman & Schwenk, 1997)",
+   "schema:url": {
+    "@id": "https://omjournal.org/PDF/OMJ-D-08-BR1.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/the-physician-as-teacher/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Thomas L. Schwenk, Center for Research on Learning and Teaching, University of Michigan",
+   "dcterms:title": "CRLT Occasional Paper No. 1: Clinical Teaching",
+   "schema:url": {
+    "@id": "https://crlt.umich.edu/node/561/printable/print"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/the-physician-as-teacher/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Michigan State University Libraries catalogue - Williams & Wilkins, Baltimore, 1987, xiii + 203 pp., ISBN 0683076132",
+   "dcterms:title": "The physician as teacher (catalogue record, 1st ed., 1987)",
+   "schema:url": {
+    "@id": "https://catalog.lib.msu.edu/Record/folio.in00000739621/Description"
    }
   },
   {
