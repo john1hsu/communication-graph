@@ -976,6 +976,28 @@ Ask yourself:
 - Did I ask them to correct it, and did I change it when they did?
 - Did the summary lead clearly into the next step of the conversation?
 
+### [Support response](../articles/listening/support-response.md) — Technique
+
+1. When someone raises a topic, notice the urge to reply with your own matching story, opinion or advice, and hold it for one turn.
+2. Make your first reply about their topic - a short acknowledgement, a paraphrase of what you heard, or an open question such as "What happened next?"
+3. Build your next question on a specific word or detail in their answer, so it could only be asked by someone who was listening.
+4. Share your own experience only if it is asked for or clearly useful, keep it brief, and hand the topic back with a question.
+5. Afterwards, roughly count your shift and support replies; if shifts dominated, open the next conversation with two support replies in a row.
+
+*At the start of a project stand-up, an analyst mentions that the data migration over the weekend took twelve hours instead of three.*
+
+| Before | After |
+|---|---|
+| Lead: 'Twelve hours is nothing - on my last programme we had a migration run for three days straight. Anyway, let's go round the board.' | Lead: 'Twelve hours - that's a long weekend. What slowed it down?' [Analyst explains a vendor API kept timing out.] 'So the timeouts are the real risk for the next run. What would you need to stop that happening?' |
+
+**Why:** The first reply is a shift response that turns the analyst's report into the lead's war story and closes the topic. The second uses a support response and a follow-up question, which surfaces a risk the whole team needs to know about and shows the analyst they were heard.
+
+Ask yourself:
+- In my last conversation, were most of my first replies about the other person's topic or about mine?
+- Did I ask at least one question that built on something specific they said?
+- When I shared my own story, was it asked for, and did I hand the topic back afterwards?
+- Could the other person tell from my replies what I had understood of their point?
+
 ### [Wait time](../articles/listening/wait-time.md) — Technique
 
 1. Ask one question, then stop talking - do not rephrase it, add a second question or offer a sample answer.

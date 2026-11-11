@@ -6,9 +6,7 @@ SPARQL queries in `queries/` run over the asserted graph, the OWL-RL inferences 
 
 _Which written barriers or anti-patterns have nothing in the graph that addresses them?_ — `queries/01-problems-without-fix.rq`
 
-| node | type |
-|---|---|
-| `cm:conversational-narcissism` | cmo:AntiPattern |
+_No results._
 
 ## Skills with no practice technique (gap)
 
@@ -45,6 +43,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:self-affirmation-before-feedback` | 2 | Defensiveness, Receiving feedback |
 | `cm:self-distancing` | 2 | Public speaking anxiety, Spotlight effect |
 | `cm:silence-and-pauses` | 2 | Filled pauses, Mythical fixed-pie bias |
+| `cm:support-response` | 2 | Active listening, Conversational narcissism |
 | `cm:thought-groups` | 2 | Filled pauses, Silence and pauses |
 | `cm:active-listening` | 1 | Defensiveness |
 | `cm:active-voice` | 1 | unclear-ownership |
@@ -57,9 +56,8 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:camera-optional-norm` | 1 | Zoom fatigue |
 | `cm:charismatic-leadership-tactics` | 1 | Executive presence |
 | `cm:communicating-uncertainty` | 1 | vague-probability-language |
-| `cm:considering-others-contributions-first` | 1 | Egocentric bias |
 
-…and 32 more.
+…and 33 more.
 
 ## Toolkit by situation
 
@@ -137,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:batna` | mixed | `cm:schaerer-swaab-galinsky-2015` |
 | `cm:bulleted-and-numbered-lists` | mixed | `cm:columbia-accident-investigation-board-report` |
 
-…and 115 more.
+…and 116 more.
 
 ## Concepts with no recorded origin (gap)
 

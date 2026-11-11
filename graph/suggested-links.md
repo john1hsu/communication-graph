@@ -20,8 +20,8 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 2.85 | `cm:direct-vs-indirect-feedback` | `cm:intercultural-competence` | `cm:cultural-intelligence`, `cm:describe-analyze-evaluate`, `cm:ethnocentrism`, `cm:face-and-facework`, `cm:high-and-low-context-cultures` |
 | 2.82 | `cm:bottom-line-up-front` | `cm:presentation` | `cm:assertion-evidence-slides`, `cm:audience-analysis`, `cm:cognitive-load`, `cm:elevator-pitch`, `cm:executive-briefing` |
 | 2.81 | `cm:difficult-conversation` | `cm:situation-behavior-impact` | `cm:active-listening`, `cm:defensiveness`, `cm:feedback`, `cm:i-statements`, `cm:nonviolent-communication` |
-| 2.74 | `cm:wait-time` | `cm:workplace-meetings` | `cm:1-2-4-all`, `cm:conversational-turn-taking`, `cm:facilitation`, `cm:meeting-agendas`, `cm:psychological-safety` |
-| 2.74 | `cm:one-on-one-meetings` | `cm:situation-behavior-impact` | `cm:active-listening`, `cm:feedback`, `cm:feedforward`, `cm:grow-model`, `cm:hattie-timperley-feedback-model` |
+| 2.73 | `cm:one-on-one-meetings` | `cm:situation-behavior-impact` | `cm:active-listening`, `cm:feedback`, `cm:feedforward`, `cm:grow-model`, `cm:hattie-timperley-feedback-model` |
+| 2.73 | `cm:wait-time` | `cm:workplace-meetings` | `cm:1-2-4-all`, `cm:conversational-turn-taking`, `cm:facilitation`, `cm:meeting-agendas`, `cm:psychological-safety` |
 | 2.72 | `cm:batna` | `cm:mythical-fixed-pie` | `cm:anchoring-and-adjustment`, `cm:distributive-negotiation`, `cm:integrative-negotiation`, `cm:interests-vs-positions`, `cm:multiple-equivalent-simultaneous-offers` |
 | 2.70 | `cm:labeling-emotions` | `cm:self-distancing` | `cm:anxiety-reappraisal`, `cm:cognitive-reappraisal`, `cm:emotion-regulation` |
 | 2.67 | `cm:conflict-resolution` | `cm:integrative-negotiation` | `cm:charles-osgood`, `cm:interests-vs-positions`, `cm:morton-deutsch`, `cm:negotiation`, `cm:principled-negotiation` |
