@@ -5130,6 +5130,95 @@
    ]
   },
   {
+   "@id": "cm:empathy-gap",
+   "@type": "cmo:Barrier",
+   "cmo:challengedBy": {
+    "@id": "cm:smith-2015-empathy-gaps-bullying"
+   },
+   "cmo:demonstratedBy": [
+    {
+     "@id": "cm:nordgren-banas-macdonald-2011"
+    },
+    {
+     "@id": "cm:van-boven-loewenstein-2003"
+    }
+   ],
+   "cmo:domain": "barriers-and-psychology",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:explainedBy": {
+    "@id": "cm:anchoring-and-adjustment"
+   },
+   "cmo:file": "articles/barriers-and-psychology/empathy-gap.md",
+   "cmo:introducedBy": {
+    "@id": "cm:george-loewenstein"
+   },
+   "cmo:level": "intermediate",
+   "cmo:undermines": {
+    "@id": "cm:workplace-compassion"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/empathy-gap/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/empathy-gap/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/empathy-gap/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/empathy-gap/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/empathy-gap/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/empathy-gap/s6"
+    }
+   ],
+   "rdfs:label": "Hot-cold empathy gap",
+   "skos:altLabel": [
+    "cold-hot empathy gap",
+    "emotional perspective-taking gap",
+    "empathy gap"
+   ],
+   "skos:broader": {
+    "@id": "cm:egocentric-bias"
+   },
+   "skos:definition": "The tendency to misjudge how strongly an emotional or physical state shapes feelings and behaviour when you are not in that state yourself, so a calm communicator underestimates a stressed, excluded or anxious colleague's experience and pitches the message wrong.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/barriers-and-psychology"
+   },
+   "skos:prefLabel": "Hot-cold empathy gap",
+   "skos:related": [
+    {
+     "@id": "cm:curse-of-knowledge"
+    },
+    {
+     "@id": "cm:delivering-bad-news"
+    },
+    {
+     "@id": "cm:george-loewenstein"
+    },
+    {
+     "@id": "cm:illusion-of-transparency"
+    },
+    {
+     "@id": "cm:perspective-getting"
+    },
+    {
+     "@id": "cm:perspective-taking"
+    },
+    {
+     "@id": "cm:support-response"
+    }
+   ]
+  },
+  {
    "@id": "cm:erving-goffman",
    "@type": "cmo:Person",
    "cmo:authored": [
@@ -20705,6 +20794,38 @@
    "schema:text": "When a thread turns tense or ambiguous, stop adjusting the emoji and switch to a call."
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/empathy-gap/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:empathy-gap"
+   },
+   "rdfs:label": "Am I judging how much this news, workload or exclusion hurts from my calm state rather than from theirs?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/empathy-gap/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:empathy-gap"
+   },
+   "rdfs:label": "Have I asked how they are actually experiencing this, instead of assuming it matches what I remember from my own similar experience?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/empathy-gap/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:empathy-gap"
+   },
+   "rdfs:label": "If I am angry, anxious or exhausted right now, is this the moment to send that message, or should it wait until I am calmer?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/empathy-gap/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:empathy-gap"
+   },
+   "rdfs:label": "Am I explaining a tired or stressed colleague's slip as a character flaw when the situation may account for it?"
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/ethnocentrism/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -30282,6 +30403,90 @@
    "dcterms:title": "News release on the Many Smiles Collaboration facial feedback study",
    "schema:url": {
     "@id": "https://sciencedaily.com/releases/2022/10/221026103147.htm"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/empathy-gap/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Van Boven & Loewenstein, Personality and Social Psychology Bulletin 29(9), 1159-1168, 2003 (author copy, Carnegie Mellon University)",
+   "dcterms:title": "Social projection of transient drive states",
+   "schema:url": {
+    "@id": "https://www.andrew.cmu.edu/user/gl20/GeorgeLoewenstein/Papers_files/pdf/vb_loew_2003.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/empathy-gap/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Van Boven, Loewenstein, Dunning & Nordgren, Advances in Experimental Social Psychology 48, 2013 (author copy, Carnegie Mellon University)",
+   "dcterms:title": "Changing places: A dual judgment model of empathy gaps in emotional perspective taking",
+   "schema:url": {
+    "@id": "https://www.cmu.edu/dietrich/sds/docs/loewenstein/ChangingPlaces.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/empathy-gap/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Kellogg Insight, Kellogg School of Management, Northwestern University",
+   "dcterms:title": "Downplaying social pain (on Nordgren, Banas & MacDonald, Journal of Personality and Social Psychology, 2011)",
+   "schema:url": {
+    "@id": "https://insight.kellogg.northwestern.edu/article/downplaying_social_pain"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/empathy-gap/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Loran F. Nordgren, doctoral dissertation, University of Amsterdam, 2007 (UvA-DARE)",
+   "dcterms:title": "Thinking about feeling: The nature and significance of the hot/cold empathy gap",
+   "schema:url": {
+    "@id": "https://pure.uva.nl/ws/files/4210593/52681_Nordgren.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/empathy-gap/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Livne-Tarandach, Jazaieri & Caridad Rabelo, Journal of Organizational Behavior 45(7), 935-959, 2024 (ResearchGate record)",
+   "dcterms:title": "Previously endured distress reduces the quality of the compassion extended toward sufferers of workplace distress",
+   "schema:url": {
+    "@id": "https://www.researchgate.net/publication/380487942_Previously_endured_distress_reduces_the_quality_of_the_compassion_extended_toward_sufferers_of_workplace_distress"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/empathy-gap/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Marissa A. Smith, doctoral dissertation, University of Delaware, 2015 (UDSpace)",
+   "dcterms:title": "Empathy gaps for social pain and children's bystander behavior in bullying episodes",
+   "schema:url": {
+    "@id": "https://udspace.udel.edu/server/api/core/bitstreams/d4747f7d-59d7-4c84-b130-1820a5454b22/content"
    }
   },
   {

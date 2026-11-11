@@ -42,6 +42,14 @@ Ask yourself:
 - Before I say how much I did on this project, have I listed what each other person contributed?
 - Am I assuming my tone is obvious in this email because I can hear it in my own head?
 
+### [Hot-cold empathy gap](../articles/barriers-and-psychology/empathy-gap.md) — Barrier
+
+Ask yourself:
+- Am I judging how much this news, workload or exclusion hurts from my calm state rather than from theirs?
+- Have I asked how they are actually experiencing this, instead of assuming it matches what I remember from my own similar experience?
+- If I am angry, anxious or exhausted right now, is this the moment to send that message, or should it wait until I am calmer?
+- Am I explaining a tired or stressed colleague's slip as a character flaw when the situation may account for it?
+
 ### [Illusion of transparency](../articles/barriers-and-psychology/illusion-of-transparency.md) — Barrier
 
 Ask yourself:
