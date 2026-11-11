@@ -4656,6 +4656,96 @@
    ]
   },
   {
+   "@id": "cm:digital-communication",
+   "@type": "cmo:Field",
+   "cmo:contrastsWith": {
+    "@id": "cm:face-to-face-conversation"
+   },
+   "cmo:demonstratedBy": [
+    {
+     "@id": "cm:egocentrism-over-email-study"
+    },
+    {
+     "@id": "cm:sproull-kiesler-1986"
+    },
+    {
+     "@id": "cm:yang-et-al-2022"
+    }
+   ],
+   "cmo:domain": "digital-and-async-communication",
+   "cmo:evidenceStatus": "theoretical",
+   "cmo:explainedBy": {
+    "@id": "cm:social-information-processing-theory"
+   },
+   "cmo:file": "articles/digital-and-async-communication/digital-communication.md",
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/digital-communication/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/digital-communication/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/digital-communication/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/digital-communication/s4"
+    }
+   ],
+   "rdfs:label": "Digital communication",
+   "skos:altLabel": [
+    "CMC",
+    "computer-mediated communication",
+    "electronic communication",
+    "technology-mediated communication"
+   ],
+   "skos:broader": {
+    "@id": "cm:communication-studies"
+   },
+   "skos:definition": "Communication that travels through networked technology (email, chat, video calls, shared documents) rather than shared physical space, and the research area, usually called computer-mediated communication, that studies how stripping out or reshaping social cues changes what people say, how they relate and how well they understand each other at work.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/digital-and-async-communication"
+   },
+   "skos:prefLabel": "Digital communication",
+   "skos:related": [
+    {
+     "@id": "cm:asynchronous-communication"
+    },
+    {
+     "@id": "cm:channel-selection"
+    },
+    {
+     "@id": "cm:chat-etiquette"
+    },
+    {
+     "@id": "cm:egocentric-bias"
+    },
+    {
+     "@id": "cm:email"
+    },
+    {
+     "@id": "cm:emoji-and-tone-in-text"
+    },
+    {
+     "@id": "cm:media-richness-theory"
+    },
+    {
+     "@id": "cm:media-synchronicity-theory"
+    },
+    {
+     "@id": "cm:murray-turoff"
+    },
+    {
+     "@id": "cm:video-call-communication"
+    }
+   ]
+  },
+  {
    "@id": "cm:direct-vs-indirect-feedback",
    "@type": "cmo:Concept",
    "cmo:appliedIn": {
@@ -31140,6 +31230,62 @@
    "dcterms:title": "Getting beyond small talk: Study finds people enjoy deep conversations with strangers",
    "schema:url": {
     "@id": "https://www.apa.org/news/press/releases/2021/09/deep-conversations-strangers"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/digital-communication/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Lee Sproull & Sara Kiesler, Management Science 32(11), 1492-1512 (1986) (EconPapers record)",
+   "dcterms:title": "Reducing Social Context Cues: Electronic Mail in Organizational Communication",
+   "schema:url": {
+    "@id": "https://econpapers.repec.org/RePEc:inm:ormnsc:v:32:y:1986:i:11:p:1492-1512"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/digital-communication/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Joseph B. Walther & Judee K. Burgoon, Human Communication Research 19(1), 50-88 (1992) (author copy)",
+   "dcterms:title": "Relational Communication in Computer-Mediated Interaction",
+   "schema:url": {
+    "@id": "https://www.dhi.ac.uk/san/waysofbeing/data/communication-zangana-walther-1992.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/digital-communication/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Justin Kruger, NYU Stern School of Business Research Highlights (2012)",
+   "dcterms:title": "E-mail Etiquette: More Critical than You Might Think (on Kruger, Epley, Parker & Ng, Egocentrism over e-mail)",
+   "schema:url": {
+    "@id": "https://stern.nyu.edu/experience-stern/faculty-research/justin-kruger-email-research"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/digital-communication/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Longqi Yang, David Holtz, Sonia Jaffe, Siddharth Suri et al., Nature Human Behaviour (2022) (Microsoft Research publication page)",
+   "dcterms:title": "The effects of remote work on collaboration among information workers",
+   "schema:url": {
+    "@id": "https://www.microsoft.com/en-us/research/?p=772330"
    }
   },
   {

@@ -5330,6 +5330,108 @@
   ]
  },
  {
+  "id": "cm:digital-communication",
+  "title": "Digital communication",
+  "aliases": [
+   "computer-mediated communication",
+   "CMC",
+   "electronic communication",
+   "technology-mediated communication"
+  ],
+  "type": "Field",
+  "domain": "digital-and-async-communication",
+  "level": "introductory",
+  "evidenceStatus": "theoretical",
+  "file": "articles/digital-and-async-communication/digital-communication.md",
+  "created": "2026-11-11",
+  "summary": "Communication that travels through networked technology (email, chat, video calls, shared documents) rather than shared physical space, and the research area, usually called computer-mediated communication, that studies how stripping out or reshaping social cues changes what people say, how they relate and how well they understand each other at work.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:communication-studies"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:asynchronous-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:email"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:chat-etiquette"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:video-call-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:channel-selection"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:media-richness-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:media-synchronicity-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:emoji-and-tone-in-text"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:egocentric-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:murray-turoff"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:sproull-kiesler-1986",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:egocentrism-over-email-study",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:yang-et-al-2022",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:contrastsWith",
+    "object": "cm:face-to-face-conversation",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:social-information-processing-theory",
+    "source": "s2",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://econpapers.repec.org/RePEc:inm:ormnsc:v:32:y:1986:i:11:p:1492-1512",
+   "https://www.dhi.ac.uk/san/waysofbeing/data/communication-zangana-walther-1992.pdf",
+   "https://stern.nyu.edu/experience-stern/faculty-research/justin-kruger-email-research",
+   "https://www.microsoft.com/en-us/research/?p=772330"
+  ]
+ },
+ {
   "id": "cm:direct-vs-indirect-feedback",
   "title": "Direct vs. indirect feedback",
   "aliases": [

@@ -148,6 +148,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:cooling-off-period` | cmo:Technique |
 | `cm:death-by-powerpoint` | cmo:AntiPattern |
 | `cm:devils-advocacy` | cmo:Technique |
+| `cm:digital-communication` | cmo:Field |
 | `cm:escalation-communication` | cmo:Technique |
 | `cm:executive-summary` | cmo:Genre |
 | `cm:gestures` | cmo:Skill |
@@ -172,9 +173,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:performance-review` | cmo:Context |
 | `cm:perspective-taking` | cmo:Skill |
 | `cm:persuasion` | cmo:Skill |
-| `cm:plain-language` | cmo:Principle |
 
-…and 30 more.
+…and 31 more.
 
 ## Orphan articles (gap)
 

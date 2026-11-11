@@ -2941,6 +2941,40 @@
 <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/active-listening> .
 <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <https://github.com/john1hsu/communication-graph/ontology#studiedIn> <https://github.com/john1hsu/communication-graph/id/conflict-resolution> .
+<https://github.com/john1hsu/communication-graph/id/digital-communication> <http://purl.org/dc/terms/created> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/digital-communication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Field> .
+<https://github.com/john1hsu/communication-graph/id/digital-communication> <http://www.w3.org/2000/01/rdf-schema#label> "Digital communication" .
+<https://github.com/john1hsu/communication-graph/id/digital-communication> <http://www.w3.org/2004/02/skos/core#altLabel> "CMC" .
+<https://github.com/john1hsu/communication-graph/id/digital-communication> <http://www.w3.org/2004/02/skos/core#altLabel> "computer-mediated communication" .
+<https://github.com/john1hsu/communication-graph/id/digital-communication> <http://www.w3.org/2004/02/skos/core#altLabel> "electronic communication" .
+<https://github.com/john1hsu/communication-graph/id/digital-communication> <http://www.w3.org/2004/02/skos/core#altLabel> "technology-mediated communication" .
+<https://github.com/john1hsu/communication-graph/id/digital-communication> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
+<https://github.com/john1hsu/communication-graph/id/digital-communication> <http://www.w3.org/2004/02/skos/core#definition> "Communication that travels through networked technology (email, chat, video calls, shared documents) rather than shared physical space, and the research area, usually called computer-mediated communication, that studies how stripping out or reshaping social cues changes what people say, how they relate and how well they understand each other at work." .
+<https://github.com/john1hsu/communication-graph/id/digital-communication> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/digital-and-async-communication> .
+<https://github.com/john1hsu/communication-graph/id/digital-communication> <http://www.w3.org/2004/02/skos/core#prefLabel> "Digital communication" .
+<https://github.com/john1hsu/communication-graph/id/digital-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> .
+<https://github.com/john1hsu/communication-graph/id/digital-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/channel-selection> .
+<https://github.com/john1hsu/communication-graph/id/digital-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/chat-etiquette> .
+<https://github.com/john1hsu/communication-graph/id/digital-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/egocentric-bias> .
+<https://github.com/john1hsu/communication-graph/id/digital-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/email> .
+<https://github.com/john1hsu/communication-graph/id/digital-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> .
+<https://github.com/john1hsu/communication-graph/id/digital-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/media-richness-theory> .
+<https://github.com/john1hsu/communication-graph/id/digital-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/media-synchronicity-theory> .
+<https://github.com/john1hsu/communication-graph/id/digital-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/murray-turoff> .
+<https://github.com/john1hsu/communication-graph/id/digital-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/video-call-communication> .
+<https://github.com/john1hsu/communication-graph/id/digital-communication> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/digital-communication/s1> .
+<https://github.com/john1hsu/communication-graph/id/digital-communication> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/digital-communication/s2> .
+<https://github.com/john1hsu/communication-graph/id/digital-communication> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/digital-communication/s3> .
+<https://github.com/john1hsu/communication-graph/id/digital-communication> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/digital-communication/s4> .
+<https://github.com/john1hsu/communication-graph/id/digital-communication> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/face-to-face-conversation> .
+<https://github.com/john1hsu/communication-graph/id/digital-communication> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/egocentrism-over-email-study> .
+<https://github.com/john1hsu/communication-graph/id/digital-communication> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/sproull-kiesler-1986> .
+<https://github.com/john1hsu/communication-graph/id/digital-communication> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/yang-et-al-2022> .
+<https://github.com/john1hsu/communication-graph/id/digital-communication> <https://github.com/john1hsu/communication-graph/ontology#domain> "digital-and-async-communication" .
+<https://github.com/john1hsu/communication-graph/id/digital-communication> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "theoretical" .
+<https://github.com/john1hsu/communication-graph/id/digital-communication> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/social-information-processing-theory> .
+<https://github.com/john1hsu/communication-graph/id/digital-communication> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/digital-and-async-communication/digital-communication.md" .
+<https://github.com/john1hsu/communication-graph/id/digital-communication> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "If I strip out the softeners or intensifiers, what is the core message I am sending - and would this listener decode it the same way?" .
 <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> .
@@ -11435,6 +11469,30 @@
 <https://github.com/john1hsu/communication-graph/id/source/difficult-conversation/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/difficult-conversation/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
 <https://github.com/john1hsu/communication-graph/id/source/difficult-conversation/s6> <https://schema.org/url> <https://www.apa.org/news/press/releases/2021/09/deep-conversations-strangers> .
+<https://github.com/john1hsu/communication-graph/id/source/digital-communication/s1> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/digital-communication/s1> <http://purl.org/dc/terms/publisher> "Lee Sproull & Sara Kiesler, Management Science 32(11), 1492-1512 (1986) (EconPapers record)" .
+<https://github.com/john1hsu/communication-graph/id/source/digital-communication/s1> <http://purl.org/dc/terms/title> "Reducing Social Context Cues: Electronic Mail in Organizational Communication" .
+<https://github.com/john1hsu/communication-graph/id/source/digital-communication/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/digital-communication/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/digital-communication/s1> <https://schema.org/url> <https://econpapers.repec.org/RePEc:inm:ormnsc:v:32:y:1986:i:11:p:1492-1512> .
+<https://github.com/john1hsu/communication-graph/id/source/digital-communication/s2> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/digital-communication/s2> <http://purl.org/dc/terms/publisher> "Joseph B. Walther & Judee K. Burgoon, Human Communication Research 19(1), 50-88 (1992) (author copy)" .
+<https://github.com/john1hsu/communication-graph/id/source/digital-communication/s2> <http://purl.org/dc/terms/title> "Relational Communication in Computer-Mediated Interaction" .
+<https://github.com/john1hsu/communication-graph/id/source/digital-communication/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/digital-communication/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/digital-communication/s2> <https://schema.org/url> <https://www.dhi.ac.uk/san/waysofbeing/data/communication-zangana-walther-1992.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/digital-communication/s3> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/digital-communication/s3> <http://purl.org/dc/terms/publisher> "Justin Kruger, NYU Stern School of Business Research Highlights (2012)" .
+<https://github.com/john1hsu/communication-graph/id/source/digital-communication/s3> <http://purl.org/dc/terms/title> "E-mail Etiquette: More Critical than You Might Think (on Kruger, Epley, Parker & Ng, Egocentrism over e-mail)" .
+<https://github.com/john1hsu/communication-graph/id/source/digital-communication/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/digital-communication/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/digital-communication/s3> <https://schema.org/url> <https://stern.nyu.edu/experience-stern/faculty-research/justin-kruger-email-research> .
+<https://github.com/john1hsu/communication-graph/id/source/digital-communication/s4> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/digital-communication/s4> <http://purl.org/dc/terms/publisher> "Longqi Yang, David Holtz, Sonia Jaffe, Siddharth Suri et al., Nature Human Behaviour (2022) (Microsoft Research publication page)" .
+<https://github.com/john1hsu/communication-graph/id/source/digital-communication/s4> <http://purl.org/dc/terms/title> "The effects of remote work on collaboration among information workers" .
+<https://github.com/john1hsu/communication-graph/id/source/digital-communication/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/digital-communication/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/digital-communication/s4> <https://schema.org/url> <https://www.microsoft.com/en-us/research/?p=772330> .
 <https://github.com/john1hsu/communication-graph/id/source/direct-vs-indirect-feedback/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/direct-vs-indirect-feedback/s1> <http://purl.org/dc/terms/publisher> "Erin Meyer, Harvard Business Review, September-October 2023 (author's reprint)" .
 <https://github.com/john1hsu/communication-graph/id/source/direct-vs-indirect-feedback/s1> <http://purl.org/dc/terms/title> "When Diversity Meets Feedback" .
