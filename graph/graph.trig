@@ -306,6 +306,14 @@
 <https://github.com/john1hsu/communication-graph/id/channel-selection#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/channel-selection/s4> .
 <https://github.com/john1hsu/communication-graph/id/channel-selection#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/channel-selection/s5> .
 <https://github.com/john1hsu/communication-graph/id/channel-selection#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/channel-selection/s6> .
+<https://github.com/john1hsu/communication-graph/id/chat-etiquette#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/chat-etiquette#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/chat-etiquette> .
+<https://github.com/john1hsu/communication-graph/id/chat-etiquette#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/digital-and-async-communication/chat-etiquette.md" .
+<https://github.com/john1hsu/communication-graph/id/chat-etiquette#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/chat-etiquette/s1> .
+<https://github.com/john1hsu/communication-graph/id/chat-etiquette#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/chat-etiquette/s2> .
+<https://github.com/john1hsu/communication-graph/id/chat-etiquette#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/chat-etiquette/s3> .
+<https://github.com/john1hsu/communication-graph/id/chat-etiquette#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/chat-etiquette/s4> .
+<https://github.com/john1hsu/communication-graph/id/chat-etiquette#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/chat-etiquette/s5> .
 <https://github.com/john1hsu/communication-graph/id/email#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/email#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/email> .
 <https://github.com/john1hsu/communication-graph/id/email#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/digital-and-async-communication/email.md" .
@@ -4908,6 +4916,120 @@
   <https://github.com/john1hsu/communication-graph/id/source/channel-selection/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
   <https://github.com/john1hsu/communication-graph/id/source/channel-selection/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
   <https://github.com/john1hsu/communication-graph/id/source/channel-selection/s6> <https://schema.org/url> <https://scholars.hkbu.edu.hk/en/publications/channel-expansion-theory-a-comprehensive-meta-analysis-literature/> .
+}
+
+<https://github.com/john1hsu/communication-graph/id/chat-etiquette#graph> {
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Could the recipient act on this message without asking me a single follow-up question?" .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/chat-etiquette> .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Does this belong in a shared channel or thread rather than a direct message?" .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/chat-etiquette> .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Am I about to alert more people than actually need to see this right now?" .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/chat-etiquette> .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Have I said when I need a reply, and that it can wait if it can?" .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/chat-etiquette> .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette/example> <https://github.com/john1hsu/communication-graph/ontology#after> "In #dashboards thread: @Priya - could you estimate the effort to add region filters to the sales dashboard (spec linked)? A rough range is fine. Needed by Wed noon for Thursday planning; no need to look tonight." .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette/example> <https://github.com/john1hsu/communication-graph/ontology#before> "Direct message at 4:55pm: 'Hey, you around?' - then nothing until the engineer replies 'yes?' twenty minutes later." .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "A product manager needs the data engineer's estimate for a dashboard change before Thursday's planning meeting." .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette/example> <https://github.com/john1hsu/communication-graph/ontology#why> "The rewrite carries the whole request, the link, the deadline and an explicit no-rush note in one interruption, posts it where teammates can see the answer later, and mentions only the person who must act." .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette/howto/1> <https://schema.org/text> "Put the whole request in one message - who it is for, what you need, the context or link, and by when - instead of sending \"hi\" and waiting for a reply." .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette/howto/2> <https://schema.org/text> "Choose the place deliberately - a team or project channel for work others may need to find later, a direct message only for genuinely private or one-person matters." .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette/howto/3> <https://schema.org/text> "Reply in the thread of the original post so the discussion stays together and the main channel stays readable." .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette/howto/4> <https://schema.org/text> "Mention a named person only when you need that person, and reserve channel-wide alerts such as @channel or @here for urgent items the team has agreed qualify." .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette/howto/5> <https://schema.org/text> "Keep your status honest - set away, focus or out-of-office, and set notification hours - and respect other people's status rather than pinging through it." .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette/howto/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette/howto/6> <https://schema.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette/howto/6> <https://schema.org/text> "Say how soon you need an answer, and state plainly that nobody is expected to reply outside their working hours." .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette/howto/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette/howto/7> <https://schema.org/position> "7"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette/howto/7> <https://schema.org/text> "Move to a call when a thread passes a few back-and-forths without agreement or the topic turns sensitive, then post the outcome back in the thread." .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette/howto> <https://schema.org/name> "Chat etiquette" .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/chat-etiquette/howto/1> .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/chat-etiquette/howto/2> .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/chat-etiquette/howto/3> .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/chat-etiquette/howto/4> .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/chat-etiquette/howto/5> .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/chat-etiquette/howto/6> .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/chat-etiquette/howto/7> .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette> <http://purl.org/dc/terms/created> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Technique> .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette> <http://www.w3.org/2000/01/rdf-schema#label> "Chat etiquette" .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette> <http://www.w3.org/2004/02/skos/core#altLabel> "Slack etiquette" .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette> <http://www.w3.org/2004/02/skos/core#altLabel> "Teams chat etiquette" .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette> <http://www.w3.org/2004/02/skos/core#altLabel> "instant messaging etiquette" .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette> <http://www.w3.org/2004/02/skos/core#altLabel> "workplace chat etiquette" .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/digital-communication> .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/team-communication-norms> .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette> <http://www.w3.org/2004/02/skos/core#definition> "A small set of shared habits for workplace chat tools such as Slack or Teams - complete self-contained messages, threads, sparing use of group alerts, honest status, and explicit response expectations - that keep chat fast without turning it into a stream of interruptions." .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/digital-and-async-communication> .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette> <http://www.w3.org/2004/02/skos/core#prefLabel> "Chat etiquette" .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/channel-selection> .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/information-overload> .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/scheduled-inbox-checks> .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations> .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/chat-etiquette/s1> .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/chat-etiquette/s2> .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/chat-etiquette/s3> .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/chat-etiquette/s4> .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/chat-etiquette/s5> .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/information-overload> .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/workplace-telepressure> .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/instant-messaging> .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations> .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette> <https://github.com/john1hsu/communication-graph/ontology#domain> "digital-and-async-communication" .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "practitioner" .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/chat-etiquette/example> .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/digital-and-async-communication/chat-etiquette.md" .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/chat-etiquette/howto> .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+  <https://github.com/john1hsu/communication-graph/id/source/chat-etiquette/s1> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/chat-etiquette/s1> <http://purl.org/dc/terms/publisher> "U.S. General Services Administration, Technology Transformation Services Handbook" .
+  <https://github.com/john1hsu/communication-graph/id/source/chat-etiquette/s1> <http://purl.org/dc/terms/title> "Slack communication and notification best practices" .
+  <https://github.com/john1hsu/communication-graph/id/source/chat-etiquette/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/chat-etiquette/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
+  <https://github.com/john1hsu/communication-graph/id/source/chat-etiquette/s1> <https://schema.org/url> <https://handbook.tts.gsa.gov/tools/slack/notifications-general-communication> .
+  <https://github.com/john1hsu/communication-graph/id/source/chat-etiquette/s2> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/chat-etiquette/s2> <http://purl.org/dc/terms/publisher> "Barber, L. K. & Santuzzi, A. M., Journal of Occupational Health Psychology 20(2), 172-189, 2015 (PubMed record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/chat-etiquette/s2> <http://purl.org/dc/terms/title> "Please respond ASAP: workplace telepressure and employee recovery" .
+  <https://github.com/john1hsu/communication-graph/id/source/chat-etiquette/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/chat-etiquette/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/chat-etiquette/s2> <https://schema.org/url> <https://pubmed.ncbi.nlm.nih.gov/25365629/> .
+  <https://github.com/john1hsu/communication-graph/id/source/chat-etiquette/s3> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/chat-etiquette/s3> <http://purl.org/dc/terms/publisher> "Mark, G., Gudith, D. & Klocke, U., Proceedings of CHI 2008, ACM (author's copy)" .
+  <https://github.com/john1hsu/communication-graph/id/source/chat-etiquette/s3> <http://purl.org/dc/terms/title> "The Cost of Interrupted Work: More Speed and Stress" .
+  <https://github.com/john1hsu/communication-graph/id/source/chat-etiquette/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/chat-etiquette/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/chat-etiquette/s3> <https://schema.org/url> <https://interruptions.net/literature/Mark-CHI08.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/chat-etiquette/s4> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/chat-etiquette/s4> <http://purl.org/dc/terms/publisher> "Hurbean, L., Wong, L. H. M., Ou, C. X. J., Davison, R. M. & Dospinescu, O., Information Technology & People 38(1), 249-278, 2025 (City University of Hong Kong record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/chat-etiquette/s4> <http://purl.org/dc/terms/title> "Instant messaging interruptions, stress and work performance" .
+  <https://github.com/john1hsu/communication-graph/id/source/chat-etiquette/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/chat-etiquette/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/chat-etiquette/s4> <https://schema.org/url> <https://scholars.cityu.edu.hk/en/publications/instant-messaging-interruptions-stress-and-work-performance/> .
+  <https://github.com/john1hsu/communication-graph/id/source/chat-etiquette/s5> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/chat-etiquette/s5> <http://purl.org/dc/terms/publisher> "Darics, E., Aston University (author's copy, Aston Publications Explorer)" .
+  <https://github.com/john1hsu/communication-graph/id/source/chat-etiquette/s5> <http://purl.org/dc/terms/title> "The Blurring Boundaries Between Synchronicity and Asynchronicity: New Communicative Situations in Work-Related Instant Messaging" .
+  <https://github.com/john1hsu/communication-graph/id/source/chat-etiquette/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/chat-etiquette/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/communication-graph/id/source/chat-etiquette/s5> <https://schema.org/url> <https://publications.aston.ac.uk/id/eprint/25623/1/New_communicative_situations_in_work_related_Instant_Messaging.pdf> .
 }
 
 <https://github.com/john1hsu/communication-graph/id/email#graph> {
@@ -20007,6 +20129,7 @@
   <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/digital-communication> .
   <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/email> .
   <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/email> .
+  <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/chat-etiquette> .
   <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/email-urgency-bias-study> .
   <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/face-to-face-conversation> .
   <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/ray-tomlinson> .
@@ -20188,6 +20311,7 @@
   <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/burying-the-lede> .
   <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/business-report> .
   <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/channel-selection> .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/chat-etiquette> .
   <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/clarity> .
   <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-load> .
   <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communicating-uncertainty> .
@@ -20370,6 +20494,7 @@
   <https://github.com/john1hsu/communication-graph/id/channel-selection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/channel-selection> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-planning> .
   <https://github.com/john1hsu/communication-graph/id/channel-selection> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> .
+  <https://github.com/john1hsu/communication-graph/id/channel-selection> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/chat-etiquette> .
   <https://github.com/john1hsu/communication-graph/id/channel-selection> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> .
   <https://github.com/john1hsu/communication-graph/id/channel-selection> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/email> .
   <https://github.com/john1hsu/communication-graph/id/channel-selection> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> .
@@ -20417,6 +20542,15 @@
   <https://github.com/john1hsu/communication-graph/id/charles-osgood> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/morton-deutsch> .
   <https://github.com/john1hsu/communication-graph/id/charles-osgood> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/maclay-osgood-1959> .
   <https://github.com/john1hsu/communication-graph/id/charles-osgood> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/conflict-resolution> .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/digital-communication> .
+  <https://github.com/john1hsu/communication-graph/id/chat-etiquette> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/team-communication-norms> .
   <https://github.com/john1hsu/communication-graph/id/checking-understanding> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/teach-back> .
   <https://github.com/john1hsu/communication-graph/id/checking-understanding> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/teach-back> .
   <https://github.com/john1hsu/communication-graph/id/checking-understanding> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/common-ground> .
@@ -21037,10 +21171,12 @@
   <https://github.com/john1hsu/communication-graph/id/difficult-conversations-book> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
   <https://github.com/john1hsu/communication-graph/id/difficult-conversations-book> <https://github.com/john1hsu/communication-graph/ontology#introduces> <https://github.com/john1hsu/communication-graph/id/difficult-conversation> .
   <https://github.com/john1hsu/communication-graph/id/digital-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> .
+  <https://github.com/john1hsu/communication-graph/id/digital-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/chat-etiquette> .
   <https://github.com/john1hsu/communication-graph/id/digital-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> .
   <https://github.com/john1hsu/communication-graph/id/digital-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/video-call-communication> .
   <https://github.com/john1hsu/communication-graph/id/digital-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> .
   <https://github.com/john1hsu/communication-graph/id/digital-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/camera-level-gaze> .
+  <https://github.com/john1hsu/communication-graph/id/digital-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/chat-etiquette> .
   <https://github.com/john1hsu/communication-graph/id/digital-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/chen-2002> .
   <https://github.com/john1hsu/communication-graph/id/digital-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/email> .
   <https://github.com/john1hsu/communication-graph/id/digital-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> .
@@ -21269,6 +21405,7 @@
   <https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/digital-communication> .
   <https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/written-communication> .
+  <https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/chat-etiquette> .
   <https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/scott-fahlman> .
   <https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/scott-fahlman> .
   <https://github.com/john1hsu/communication-graph/id/emoticon> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/scott-fahlman> .
@@ -22030,6 +22167,7 @@
   <https://github.com/john1hsu/communication-graph/id/information-overload> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/alvin-toffler> .
   <https://github.com/john1hsu/communication-graph/id/information-overload> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/bulleted-and-numbered-lists> .
   <https://github.com/john1hsu/communication-graph/id/information-overload> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/burying-the-lede> .
+  <https://github.com/john1hsu/communication-graph/id/information-overload> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/chat-etiquette> .
   <https://github.com/john1hsu/communication-graph/id/information-overload> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-load> .
   <https://github.com/john1hsu/communication-graph/id/information-overload> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/concise-writing> .
   <https://github.com/john1hsu/communication-graph/id/information-overload> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/executive-briefing> .
@@ -22038,6 +22176,7 @@
   <https://github.com/john1hsu/communication-graph/id/information-overload> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/murray-turoff> .
   <https://github.com/john1hsu/communication-graph/id/information-overload> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
   <https://github.com/john1hsu/communication-graph/id/information-overload> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/wall-of-text> .
+  <https://github.com/john1hsu/communication-graph/id/information-overload> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/chat-etiquette> .
   <https://github.com/john1hsu/communication-graph/id/information-overload> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/concise-writing> .
   <https://github.com/john1hsu/communication-graph/id/information-overload> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/scheduled-inbox-checks> .
   <https://github.com/john1hsu/communication-graph/id/information-overload> <https://github.com/john1hsu/communication-graph/ontology#causedBy> <https://github.com/john1hsu/communication-graph/id/email> .
@@ -22057,6 +22196,7 @@
   <https://github.com/john1hsu/communication-graph/id/inspire-galinsky> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/inspire-galinsky> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
   <https://github.com/john1hsu/communication-graph/id/inspire-galinsky> <https://github.com/john1hsu/communication-graph/ontology#authoredBy> <https://github.com/john1hsu/communication-graph/id/adam-galinsky> .
+  <https://github.com/john1hsu/communication-graph/id/instant-messaging> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/chat-etiquette> .
   <https://github.com/john1hsu/communication-graph/id/instant-messaging> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> .
   <https://github.com/john1hsu/communication-graph/id/institutio-oratoria> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/institutio-oratoria> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
@@ -23750,6 +23890,7 @@
   <https://github.com/john1hsu/communication-graph/id/scheduled-inbox-checks> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/attention-management> .
   <https://github.com/john1hsu/communication-graph/id/scheduled-inbox-checks> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> .
   <https://github.com/john1hsu/communication-graph/id/scheduled-inbox-checks> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> .
+  <https://github.com/john1hsu/communication-graph/id/scheduled-inbox-checks> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/chat-etiquette> .
   <https://github.com/john1hsu/communication-graph/id/schillinger-et-al-2003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/schillinger-et-al-2003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/schillinger-et-al-2003> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/teach-back> .
@@ -23830,9 +23971,11 @@
   <https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/team-communication-norms> .
+  <https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/chat-etiquette> .
   <https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/email-urgency-bias-study> .
   <https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> .
   <https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/scheduled-inbox-checks> .
+  <https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/chat-etiquette> .
   <https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/scheduled-inbox-checks> .
   <https://github.com/john1hsu/communication-graph/id/sezer-gino-norton-2018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/sezer-gino-norton-2018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
@@ -24136,7 +24279,9 @@
   <https://github.com/john1hsu/communication-graph/id/teach-back> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/summarizing> .
   <https://github.com/john1hsu/communication-graph/id/team-climate> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
   <https://github.com/john1hsu/communication-graph/id/team-climate> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
+  <https://github.com/john1hsu/communication-graph/id/team-communication-norms> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/chat-etiquette> .
   <https://github.com/john1hsu/communication-graph/id/team-communication-norms> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations> .
+  <https://github.com/john1hsu/communication-graph/id/team-communication-norms> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/chat-etiquette> .
   <https://github.com/john1hsu/communication-graph/id/team-communication-norms> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations> .
   <https://github.com/john1hsu/communication-graph/id/team-learning-behavior> <https://github.com/john1hsu/communication-graph/ontology#causedBy> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
   <https://github.com/john1hsu/communication-graph/id/team-meetings> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> .
@@ -24499,6 +24644,7 @@
   <https://github.com/john1hsu/communication-graph/id/workplace-stress> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/email-urgency-bias-study> .
   <https://github.com/john1hsu/communication-graph/id/workplace-stress> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> .
   <https://github.com/john1hsu/communication-graph/id/workplace-stress> <https://github.com/john1hsu/communication-graph/ontology#causedBy> <https://github.com/john1hsu/communication-graph/id/information-overload> .
+  <https://github.com/john1hsu/communication-graph/id/workplace-telepressure> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/chat-etiquette> .
   <https://github.com/john1hsu/communication-graph/id/writing-for-busy-readers> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/concise-writing> .
   <https://github.com/john1hsu/communication-graph/id/writing-for-dollars-writing-to-please> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/plain-language> .
   <https://github.com/john1hsu/communication-graph/id/writing-style-guide> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/effective-writing-for-army-leaders> .

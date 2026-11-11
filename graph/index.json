@@ -2655,6 +2655,113 @@
   ]
  },
  {
+  "id": "cm:chat-etiquette",
+  "title": "Chat etiquette",
+  "aliases": [
+   "workplace chat etiquette",
+   "Slack etiquette",
+   "Teams chat etiquette",
+   "instant messaging etiquette"
+  ],
+  "type": "Technique",
+  "domain": "digital-and-async-communication",
+  "level": "introductory",
+  "evidenceStatus": "practitioner",
+  "file": "articles/digital-and-async-communication/chat-etiquette.md",
+  "created": "2026-11-11",
+  "summary": "A small set of shared habits for workplace chat tools such as Slack or Teams - complete self-contained messages, threads, sparing use of group alerts, honest status, and explicit response expectations - that keep chat fast without turning it into a stream of interruptions.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:team-communication-norms"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "cm:digital-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:setting-reply-time-expectations"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:asynchronous-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:channel-selection"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:emoji-and-tone-in-text"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:scheduled-inbox-checks"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:information-overload"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:bottom-line-up-front"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:instant-messaging",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:information-overload",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:workplace-telepressure",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:setting-reply-time-expectations",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Could the recipient act on this message without asking me a single follow-up question?",
+   "Does this belong in a shared channel or thread rather than a direct message?",
+   "Am I about to alert more people than actually need to see this right now?",
+   "Have I said when I need a reply, and that it can wait if it can?"
+  ],
+  "steps": [
+   "Put the whole request in one message - who it is for, what you need, the context or link, and by when - instead of sending \"hi\" and waiting for a reply.",
+   "Choose the place deliberately - a team or project channel for work others may need to find later, a direct message only for genuinely private or one-person matters.",
+   "Reply in the thread of the original post so the discussion stays together and the main channel stays readable.",
+   "Mention a named person only when you need that person, and reserve channel-wide alerts such as @channel or @here for urgent items the team has agreed qualify.",
+   "Keep your status honest - set away, focus or out-of-office, and set notification hours - and respect other people's status rather than pinging through it.",
+   "Say how soon you need an answer, and state plainly that nobody is expected to reply outside their working hours.",
+   "Move to a call when a thread passes a few back-and-forths without agreement or the topic turns sensitive, then post the outcome back in the thread."
+  ],
+  "example": {
+   "situation": "A product manager needs the data engineer's estimate for a dashboard change before Thursday's planning meeting.",
+   "before": "Direct message at 4:55pm: 'Hey, you around?' - then nothing until the engineer replies 'yes?' twenty minutes later.",
+   "after": "In #dashboards thread: @Priya - could you estimate the effort to add region filters to the sales dashboard (spec linked)? A rough range is fine. Needed by Wed noon for Thursday planning; no need to look tonight.",
+   "why": "The rewrite carries the whole request, the link, the deadline and an explicit no-rush note in one interruption, posts it where teammates can see the answer later, and mentions only the person who must act."
+  },
+  "source_urls": [
+   "https://handbook.tts.gsa.gov/tools/slack/notifications-general-communication",
+   "https://pubmed.ncbi.nlm.nih.gov/25365629/",
+   "https://interruptions.net/literature/Mark-CHI08.pdf",
+   "https://scholars.cityu.edu.hk/en/publications/instant-messaging-interruptions-stress-and-work-performance/",
+   "https://publications.aston.ac.uk/id/eprint/25623/1/New_communicative_situations_in_work_related_Instant_Messaging.pdf"
+  ]
+ },
+ {
   "id": "cm:chen-2002",
   "title": "Leveraging the Asymmetric Sensitivity of Eye Contact for Videoconferencing",
   "aliases": [

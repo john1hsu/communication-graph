@@ -2344,6 +2344,98 @@
    ]
   },
   {
+   "@id": "cm:chat-etiquette",
+   "@type": "cmo:Technique",
+   "cmo:addresses": [
+    {
+     "@id": "cm:information-overload"
+    },
+    {
+     "@id": "cm:workplace-telepressure"
+    }
+   ],
+   "cmo:appliedIn": {
+    "@id": "cm:instant-messaging"
+   },
+   "cmo:complements": {
+    "@id": "cm:setting-reply-time-expectations"
+   },
+   "cmo:domain": "digital-and-async-communication",
+   "cmo:evidenceStatus": "practitioner",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/chat-etiquette/example"
+   },
+   "cmo:file": "articles/digital-and-async-communication/chat-etiquette.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/chat-etiquette/howto"
+   },
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/chat-etiquette/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/chat-etiquette/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/chat-etiquette/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/chat-etiquette/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/chat-etiquette/s5"
+    }
+   ],
+   "rdfs:label": "Chat etiquette",
+   "skos:altLabel": [
+    "Slack etiquette",
+    "Teams chat etiquette",
+    "instant messaging etiquette",
+    "workplace chat etiquette"
+   ],
+   "skos:broader": [
+    {
+     "@id": "cm:digital-communication"
+    },
+    {
+     "@id": "cm:team-communication-norms"
+    }
+   ],
+   "skos:definition": "A small set of shared habits for workplace chat tools such as Slack or Teams - complete self-contained messages, threads, sparing use of group alerts, honest status, and explicit response expectations - that keep chat fast without turning it into a stream of interruptions.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/digital-and-async-communication"
+   },
+   "skos:prefLabel": "Chat etiquette",
+   "skos:related": [
+    {
+     "@id": "cm:asynchronous-communication"
+    },
+    {
+     "@id": "cm:bottom-line-up-front"
+    },
+    {
+     "@id": "cm:channel-selection"
+    },
+    {
+     "@id": "cm:emoji-and-tone-in-text"
+    },
+    {
+     "@id": "cm:information-overload"
+    },
+    {
+     "@id": "cm:scheduled-inbox-checks"
+    },
+    {
+     "@id": "cm:setting-reply-time-expectations"
+    }
+   ]
+  },
+  {
    "@id": "cm:chen-2002",
    "@type": "cmo:Work",
    "cmo:authoredBy": {
@@ -19726,6 +19818,116 @@
    "schema:text": "Get feedback from a colleague on whether it sounded like you, and repeat over several weeks rather than cramming before one talk."
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/chat-etiquette/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:chat-etiquette"
+   },
+   "rdfs:label": "Could the recipient act on this message without asking me a single follow-up question?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/chat-etiquette/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:chat-etiquette"
+   },
+   "rdfs:label": "Does this belong in a shared channel or thread rather than a direct message?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/chat-etiquette/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:chat-etiquette"
+   },
+   "rdfs:label": "Am I about to alert more people than actually need to see this right now?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/chat-etiquette/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:chat-etiquette"
+   },
+   "rdfs:label": "Have I said when I need a reply, and that it can wait if it can?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/chat-etiquette/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "In #dashboards thread: @Priya - could you estimate the effort to add region filters to the sales dashboard (spec linked)? A rough range is fine. Needed by Wed noon for Thursday planning; no need to look tonight.",
+   "cmo:before": "Direct message at 4:55pm: 'Hey, you around?' - then nothing until the engineer replies 'yes?' twenty minutes later.",
+   "cmo:situation": "A product manager needs the data engineer's estimate for a dashboard change before Thursday's planning meeting.",
+   "cmo:why": "The rewrite carries the whole request, the link, the deadline and an explicit no-rush note in one interruption, posts it where teammates can see the answer later, and mentions only the person who must act."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/chat-etiquette/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Chat etiquette",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/chat-etiquette/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/chat-etiquette/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/chat-etiquette/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/chat-etiquette/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/chat-etiquette/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/chat-etiquette/howto/6"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/chat-etiquette/howto/7"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/chat-etiquette/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Put the whole request in one message - who it is for, what you need, the context or link, and by when - instead of sending \"hi\" and waiting for a reply."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/chat-etiquette/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Choose the place deliberately - a team or project channel for work others may need to find later, a direct message only for genuinely private or one-person matters."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/chat-etiquette/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Reply in the thread of the original post so the discussion stays together and the main channel stays readable."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/chat-etiquette/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Mention a named person only when you need that person, and reserve channel-wide alerts such as @channel or @here for urgent items the team has agreed qualify."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/chat-etiquette/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Keep your status honest - set away, focus or out-of-office, and set notification hours - and respect other people's status rather than pinging through it."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/chat-etiquette/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "Say how soon you need an answer, and state plainly that nobody is expected to reply outside their working hours."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/chat-etiquette/howto/7",
+   "@type": "schema:HowToStep",
+   "schema:position": 7,
+   "schema:text": "Move to a call when a thread passes a few back-and-forths without agreement or the topic turns sensitive, then post the outcome back in the thread."
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/communicating-uncertainty/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -28399,6 +28601,76 @@
    "dcterms:title": "GRIT as a Foundation for Integrative Bargaining",
    "schema:url": {
     "@id": "https://scilit.com/publications/9c7376a7a22e79702792b3bde119745a"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/chat-etiquette/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "U.S. General Services Administration, Technology Transformation Services Handbook",
+   "dcterms:title": "Slack communication and notification best practices",
+   "schema:url": {
+    "@id": "https://handbook.tts.gsa.gov/tools/slack/notifications-general-communication"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/chat-etiquette/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Barber, L. K. & Santuzzi, A. M., Journal of Occupational Health Psychology 20(2), 172-189, 2015 (PubMed record)",
+   "dcterms:title": "Please respond ASAP: workplace telepressure and employee recovery",
+   "schema:url": {
+    "@id": "https://pubmed.ncbi.nlm.nih.gov/25365629/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/chat-etiquette/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Mark, G., Gudith, D. & Klocke, U., Proceedings of CHI 2008, ACM (author's copy)",
+   "dcterms:title": "The Cost of Interrupted Work: More Speed and Stress",
+   "schema:url": {
+    "@id": "https://interruptions.net/literature/Mark-CHI08.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/chat-etiquette/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Hurbean, L., Wong, L. H. M., Ou, C. X. J., Davison, R. M. & Dospinescu, O., Information Technology & People 38(1), 249-278, 2025 (City University of Hong Kong record)",
+   "dcterms:title": "Instant messaging interruptions, stress and work performance",
+   "schema:url": {
+    "@id": "https://scholars.cityu.edu.hk/en/publications/instant-messaging-interruptions-stress-and-work-performance/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/chat-etiquette/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Darics, E., Aston University (author's copy, Aston Publications Explorer)",
+   "dcterms:title": "The Blurring Boundaries Between Synchronicity and Asynchronicity: New Communicative Situations in Work-Related Instant Messaging",
+   "schema:url": {
+    "@id": "https://publications.aston.ac.uk/id/eprint/25623/1/New_communicative_situations_in_work_related_Instant_Messaging.pdf"
    }
   },
   {

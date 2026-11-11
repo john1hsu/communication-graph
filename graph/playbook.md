@@ -392,6 +392,30 @@ Ask yourself:
 - Am I choosing email or chat because it suits the message, or because it lets me avoid an awkward conversation?
 - After a live discussion, have I put the decision, owners and dates in writing?
 
+### [Chat etiquette](../articles/digital-and-async-communication/chat-etiquette.md) — Technique
+
+1. Put the whole request in one message - who it is for, what you need, the context or link, and by when - instead of sending "hi" and waiting for a reply.
+2. Choose the place deliberately - a team or project channel for work others may need to find later, a direct message only for genuinely private or one-person matters.
+3. Reply in the thread of the original post so the discussion stays together and the main channel stays readable.
+4. Mention a named person only when you need that person, and reserve channel-wide alerts such as @channel or @here for urgent items the team has agreed qualify.
+5. Keep your status honest - set away, focus or out-of-office, and set notification hours - and respect other people's status rather than pinging through it.
+6. Say how soon you need an answer, and state plainly that nobody is expected to reply outside their working hours.
+7. Move to a call when a thread passes a few back-and-forths without agreement or the topic turns sensitive, then post the outcome back in the thread.
+
+*A product manager needs the data engineer's estimate for a dashboard change before Thursday's planning meeting.*
+
+| Before | After |
+|---|---|
+| Direct message at 4:55pm: 'Hey, you around?' - then nothing until the engineer replies 'yes?' twenty minutes later. | In #dashboards thread: @Priya - could you estimate the effort to add region filters to the sales dashboard (spec linked)? A rough range is fine. Needed by Wed noon for Thursday planning; no need to look tonight. |
+
+**Why:** The rewrite carries the whole request, the link, the deadline and an explicit no-rush note in one interruption, posts it where teammates can see the answer later, and mentions only the person who must act.
+
+Ask yourself:
+- Could the recipient act on this message without asking me a single follow-up question?
+- Does this belong in a shared channel or thread rather than a direct message?
+- Am I about to alert more people than actually need to see this right now?
+- Have I said when I need a reply, and that it can wait if it can?
+
 ### [Emoji and tone in text](../articles/digital-and-async-communication/emoji-and-tone-in-text.md) — Technique
 
 1. Before sending anything that could be read two ways (a short reply, a joke, a critique, a "can we talk?"), reread it as a stressed recipient who does not know your mood.

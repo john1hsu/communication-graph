@@ -33,6 +33,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:paramedic-method` | 3 | Concise writing, official-style, wordiness |
 | `cm:self-recording-playback` | 3 | Gesturing while speaking, Public speaking anxiety, public-speaking |
 | `cm:acoustic-speech-analysis-coaching` | 2 | Vocal delivery, monotone-delivery |
+| `cm:chat-etiquette` | 2 | Information overload, workplace-telepressure |
 | `cm:culture-assimilator` | 2 | Cultural intelligence, Intercultural competence |
 | `cm:describe-analyze-evaluate` | 2 | Ethnocentrism, Intercultural competence |
 | `cm:facilitation` | 2 | Interrupting, Unequal participation |
@@ -57,9 +58,8 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:camera-level-gaze` | 1 | Gaze and eye contact |
 | `cm:camera-optional-norm` | 1 | Zoom fatigue |
 | `cm:charismatic-leadership-tactics` | 1 | Executive presence |
-| `cm:communicating-uncertainty` | 1 | vague-probability-language |
 
-…and 34 more.
+…and 35 more.
 
 ## Toolkit by situation
 
@@ -98,7 +98,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:email` | `cm:emoji-and-tone-in-text` |
 | `cm:email` | `cm:kushlev-dunn-2015` |
 
-…and 89 more.
+…and 90 more.
 
 ## Myths and contested advice
 
@@ -147,6 +147,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 |---|---|
 | `cm:burying-the-lede` | cmo:AntiPattern |
 | `cm:business-report` | cmo:Genre |
+| `cm:chat-etiquette` | cmo:Technique |
 | `cm:cooling-off-period` | cmo:Technique |
 | `cm:executive-summary` | cmo:Genre |
 | `cm:gestures` | cmo:Skill |
@@ -174,9 +175,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:plain-language` | cmo:Principle |
 | `cm:praise-and-recognition` | cmo:Technique |
 | `cm:presentation` | cmo:Context |
-| `cm:presentation-rehearsal` | cmo:Technique |
 
-…and 27 more.
+…and 28 more.
 
 ## Orphan articles (gap)
 
