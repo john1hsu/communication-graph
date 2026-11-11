@@ -34,6 +34,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:chat-etiquette` | 2 | Information overload, workplace-telepressure |
 | `cm:culture-assimilator` | 2 | Cultural intelligence, Intercultural competence |
 | `cm:describe-analyze-evaluate` | 2 | Ethnocentrism, Intercultural competence |
+| `cm:escalation-communication` | 2 | employee-silence, mum-effect |
 | `cm:facilitation` | 2 | Interrupting, Unequal participation |
 | `cm:i-statements` | 2 | Defensiveness, accusatory-you-statements |
 | `cm:interests-vs-positions` | 2 | Mythical fixed-pie bias, positional-bargaining |
@@ -55,9 +56,8 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:bulleted-and-numbered-lists` | 1 | Wall of text |
 | `cm:camera-level-gaze` | 1 | Gaze and eye contact |
 | `cm:camera-optional-norm` | 1 | Zoom fatigue |
-| `cm:charismatic-leadership-tactics` | 1 | Executive presence |
 
-…and 36 more.
+…and 37 more.
 
 ## Toolkit by situation
 
@@ -96,7 +96,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:email` | `cm:emoji-and-tone-in-text` |
 | `cm:email` | `cm:kushlev-dunn-2015` |
 
-…and 91 more.
+…and 92 more.
 
 ## Myths and contested advice
 
@@ -149,6 +149,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:cooling-off-period` | cmo:Technique |
 | `cm:death-by-powerpoint` | cmo:AntiPattern |
 | `cm:devils-advocacy` | cmo:Technique |
+| `cm:escalation-communication` | cmo:Technique |
 | `cm:executive-summary` | cmo:Genre |
 | `cm:gestures` | cmo:Skill |
 | `cm:group-decision-making` | cmo:Context |
@@ -172,9 +173,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:performance-review` | cmo:Context |
 | `cm:perspective-taking` | cmo:Skill |
 | `cm:persuasion` | cmo:Skill |
-| `cm:plain-language` | cmo:Principle |
 
-…and 30 more.
+…and 31 more.
 
 ## Orphan articles (gap)
 

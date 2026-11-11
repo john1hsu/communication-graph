@@ -5700,6 +5700,102 @@
    ]
   },
   {
+   "@id": "cm:escalation-communication",
+   "@type": "cmo:Technique",
+   "cmo:addresses": [
+    {
+     "@id": "cm:employee-silence"
+    },
+    {
+     "@id": "cm:mum-effect"
+    }
+   ],
+   "cmo:appliedIn": {
+    "@id": "cm:status-reporting"
+   },
+   "cmo:demonstratedBy": {
+    "@id": "cm:park-im-keil-2008"
+   },
+   "cmo:domain": "executive-and-client-communication",
+   "cmo:evidenceStatus": "practitioner",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/escalation-communication/example"
+   },
+   "cmo:file": "articles/executive-and-client-communication/escalation-communication.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/escalation-communication/howto"
+   },
+   "cmo:level": "intermediate",
+   "cmo:requires": {
+    "@id": "cm:bottom-line-up-front"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/escalation-communication/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/escalation-communication/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/escalation-communication/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/escalation-communication/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/escalation-communication/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/escalation-communication/s6"
+    }
+   ],
+   "rdfs:label": "Escalating a problem",
+   "skos:altLabel": [
+    "escalating an issue",
+    "escalation communication",
+    "joint escalation",
+    "raising an escalation"
+   ],
+   "skos:broader": {
+    "@id": "cm:managing-up"
+   },
+   "skos:definition": "Deliberately taking a problem, risk or disagreement that cannot be resolved at your level to the person with the authority to decide - early, with the facts, the options and a specific ask, and with the other parties informed rather than bypassed - so that escalation works as a normal decision route instead of a complaint or an act of blame.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/executive-and-client-communication"
+   },
+   "skos:prefLabel": "Escalating a problem",
+   "skos:related": [
+    {
+     "@id": "cm:bottom-line-up-front"
+    },
+    {
+     "@id": "cm:deaf-effect"
+    },
+    {
+     "@id": "cm:delivering-bad-news"
+    },
+    {
+     "@id": "cm:executive-briefing"
+    },
+    {
+     "@id": "cm:issue-selling"
+    },
+    {
+     "@id": "cm:psychological-safety"
+    },
+    {
+     "@id": "cm:raci-matrix"
+    },
+    {
+     "@id": "cm:status-reporting"
+    }
+   ]
+  },
+  {
    "@id": "cm:ethnocentrism",
    "@type": "cmo:Barrier",
    "cmo:demonstratedBy": {
@@ -21662,6 +21758,99 @@
    "rdfs:label": "Am I explaining a tired or stressed colleague's slip as a character flaw when the situation may account for it?"
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/escalation-communication/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:escalation-communication"
+   },
+   "rdfs:label": "Have I genuinely tried to resolve this directly, and does it really exceed my authority or tolerance?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/escalation-communication/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:escalation-communication"
+   },
+   "rdfs:label": "Does the other party know I am escalating, and would they agree my summary states their position fairly?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/escalation-communication/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:escalation-communication"
+   },
+   "rdfs:label": "Could the decision maker act on my first two sentences alone - the decision, the deadline and the cost of waiting?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/escalation-communication/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "Priya, Sam (platform) and I need a decision from you by Thursday: hold the 3 March launch with a reduced feature set, or move it to 24 March for the full release. Platform has to take three weeks for a security fix; we agree on the facts but not the priority. Options, costs and our two recommendations are in the attached one-pager. We are continuing to the current plan until you decide.",
+   "cmo:before": "Hi Priya (VP), I need to flag that the platform team has blown up our launch again. They won't commit to anything and we're going to miss the date because of them. Can you please sort this out?",
+   "cmo:situation": "A product team lead's launch depends on a platform team that has just moved the shared release date by three weeks, and two conversations between the leads have not resolved it.",
+   "cmo:why": "The rewrite is a joint escalation with the other party copied and their position fairly stated, leads with the decision and deadline, offers options instead of blame, and confirms work continues - the moves practitioner guidance recommends - rather than asking a senior leader to take a side on a one-sided account."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/escalation-communication/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Escalating a problem",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/escalation-communication/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/escalation-communication/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/escalation-communication/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/escalation-communication/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/escalation-communication/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/escalation-communication/howto/6"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/escalation-communication/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Check the trigger - the issue exceeds your authority or agreed tolerance on cost, time, scope or risk, or a disagreement has stalled after a genuine attempt to resolve it directly."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/escalation-communication/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Decide within a couple of working days and book time with the decision maker, rather than waiting for the next scheduled report."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/escalation-communication/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Tell your own manager, and tell the other party that you are escalating and why; invite them to escalate jointly with you."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/escalation-communication/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Write the escalation answer-first - the decision needed, by when, and the cost of delay - then the facts, the options with trade-offs, and your recommendation."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/escalation-communication/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Describe the problem, not the people; state each side's position in terms its owner would recognise."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/escalation-communication/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "Keep working the current plan until a decision is made, then confirm the decision in writing to everyone affected."
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/ethnocentrism/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -31757,6 +31946,90 @@
    "dcterms:title": "Interaction Order",
    "schema:url": {
     "@id": "https://sk.sagepub.com/ency/edvol/embed/identity/chpt/interaction-order"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/escalation-communication/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Project Management Institute, PM Network 25(1) (Neal Whitten, 2011)",
+   "dcterms:title": "Take it to the top",
+   "schema:url": {
+    "@id": "https://www.pmi.org/learning/library/escalate-issue-successful-solution-team-4345"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/escalation-communication/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Journal of the Association for Information Systems 9(7) (Park, Im and Keil, 2008)",
+   "dcterms:title": "Overcoming the Mum Effect in IT Project Reporting: Impacts of Fault Responsibility and Time Urgency",
+   "schema:url": {
+    "@id": "https://aisel.aisnet.org/jais/vol9/iss7/1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/escalation-communication/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "UK Infrastructure and Projects Authority (2021)",
+   "dcterms:title": "Government Functional Standard GovS 002: Project delivery (version 2.0)",
+   "schema:url": {
+    "@id": "https://assets.publishing.service.gov.uk/media/60f0189bd3bf7f568cde916a/1195-APS-CCS0521656700-001-Project-Delivery-standard_Web.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/escalation-communication/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "NYU Stern School of Business, Faculty Research (Morrison, See and Pan, 2014)",
+   "dcterms:title": "Why Employees Often Don't Speak Up",
+   "schema:url": {
+    "@id": "https://www.stern.nyu.edu/experience-stern/faculty-research/morrison-see-employees-speak-up.md"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/escalation-communication/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "practitioner-journal",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "MIT Sloan Management Review (Jonathan Hughes and Gabriella Salvatore, 2025)",
+   "dcterms:title": "Formalize Escalation Procedures to Improve Decision-Making",
+   "schema:url": {
+    "@id": "https://shop.sloanreview.mit.edu/formalize-escalation-procedures-to-improve-decision-making"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/escalation-communication/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Journal of Management Information Systems 18(2) (Smith, Keil and Depledge, 2001)",
+   "dcterms:title": "Keeping Mum as the Project Goes Under: Toward an Explanatory Model",
+   "schema:url": {
+    "@id": "https://jmis-web.org/articles/885"
    }
   },
   {

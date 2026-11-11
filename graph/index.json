@@ -6513,6 +6513,116 @@
   ]
  },
  {
+  "id": "cm:escalation-communication",
+  "title": "Escalating a problem",
+  "aliases": [
+   "escalation communication",
+   "escalating an issue",
+   "raising an escalation",
+   "joint escalation"
+  ],
+  "type": "Technique",
+  "domain": "executive-and-client-communication",
+  "level": "intermediate",
+  "evidenceStatus": "practitioner",
+  "file": "articles/executive-and-client-communication/escalation-communication.md",
+  "created": "2026-11-11",
+  "summary": "Deliberately taking a problem, risk or disagreement that cannot be resolved at your level to the person with the authority to decide - early, with the facts, the options and a specific ask, and with the other parties informed rather than bypassed - so that escalation works as a normal decision route instead of a complaint or an act of blame.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:managing-up"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:status-reporting"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:issue-selling"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:delivering-bad-news"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:bottom-line-up-front"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:psychological-safety"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:raci-matrix"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:executive-briefing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:deaf-effect"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:bottom-line-up-front"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:mum-effect",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:employee-silence",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:status-reporting",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:park-im-keil-2008",
+    "source": "s2",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Have I genuinely tried to resolve this directly, and does it really exceed my authority or tolerance?",
+   "Does the other party know I am escalating, and would they agree my summary states their position fairly?",
+   "Could the decision maker act on my first two sentences alone - the decision, the deadline and the cost of waiting?"
+  ],
+  "steps": [
+   "Check the trigger - the issue exceeds your authority or agreed tolerance on cost, time, scope or risk, or a disagreement has stalled after a genuine attempt to resolve it directly.",
+   "Decide within a couple of working days and book time with the decision maker, rather than waiting for the next scheduled report.",
+   "Tell your own manager, and tell the other party that you are escalating and why; invite them to escalate jointly with you.",
+   "Write the escalation answer-first - the decision needed, by when, and the cost of delay - then the facts, the options with trade-offs, and your recommendation.",
+   "Describe the problem, not the people; state each side's position in terms its owner would recognise.",
+   "Keep working the current plan until a decision is made, then confirm the decision in writing to everyone affected."
+  ],
+  "example": {
+   "situation": "A product team lead's launch depends on a platform team that has just moved the shared release date by three weeks, and two conversations between the leads have not resolved it.",
+   "before": "Hi Priya (VP), I need to flag that the platform team has blown up our launch again. They won't commit to anything and we're going to miss the date because of them. Can you please sort this out?",
+   "after": "Priya, Sam (platform) and I need a decision from you by Thursday: hold the 3 March launch with a reduced feature set, or move it to 24 March for the full release. Platform has to take three weeks for a security fix; we agree on the facts but not the priority. Options, costs and our two recommendations are in the attached one-pager. We are continuing to the current plan until you decide.",
+   "why": "The rewrite is a joint escalation with the other party copied and their position fairly stated, leads with the decision and deadline, offers options instead of blame, and confirms work continues - the moves practitioner guidance recommends - rather than asking a senior leader to take a side on a one-sided account."
+  },
+  "source_urls": [
+   "https://www.pmi.org/learning/library/escalate-issue-successful-solution-team-4345",
+   "https://aisel.aisnet.org/jais/vol9/iss7/1",
+   "https://assets.publishing.service.gov.uk/media/60f0189bd3bf7f568cde916a/1195-APS-CCS0521656700-001-Project-Delivery-standard_Web.pdf",
+   "https://www.stern.nyu.edu/experience-stern/faculty-research/morrison-see-employees-speak-up.md",
+   "https://shop.sloanreview.mit.edu/formalize-escalation-procedures-to-improve-decision-making",
+   "https://jmis-web.org/articles/885"
+  ]
+ },
+ {
   "id": "cm:ethnocentrism",
   "title": "Ethnocentrism",
   "aliases": [

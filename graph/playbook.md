@@ -546,6 +546,28 @@ Ask yourself:
 - Have I replaced every adjective about myself with a concrete result?
 - If this listener knows the field better than I do, does the substance still hold up without the delivery?
 
+### [Escalating a problem](../articles/executive-and-client-communication/escalation-communication.md) — Technique
+
+1. Check the trigger - the issue exceeds your authority or agreed tolerance on cost, time, scope or risk, or a disagreement has stalled after a genuine attempt to resolve it directly.
+2. Decide within a couple of working days and book time with the decision maker, rather than waiting for the next scheduled report.
+3. Tell your own manager, and tell the other party that you are escalating and why; invite them to escalate jointly with you.
+4. Write the escalation answer-first - the decision needed, by when, and the cost of delay - then the facts, the options with trade-offs, and your recommendation.
+5. Describe the problem, not the people; state each side's position in terms its owner would recognise.
+6. Keep working the current plan until a decision is made, then confirm the decision in writing to everyone affected.
+
+*A product team lead's launch depends on a platform team that has just moved the shared release date by three weeks, and two conversations between the leads have not resolved it.*
+
+| Before | After |
+|---|---|
+| Hi Priya (VP), I need to flag that the platform team has blown up our launch again. They won't commit to anything and we're going to miss the date because of them. Can you please sort this out? | Priya, Sam (platform) and I need a decision from you by Thursday: hold the 3 March launch with a reduced feature set, or move it to 24 March for the full release. Platform has to take three weeks for a security fix; we agree on the facts but not the priority. Options, costs and our two recommendations are in the attached one-pager. We are continuing to the current plan until you decide. |
+
+**Why:** The rewrite is a joint escalation with the other party copied and their position fairly stated, leads with the decision and deadline, offers options instead of blame, and confirms work continues - the moves practitioner guidance recommends - rather than asking a senior leader to take a side on a one-sided account.
+
+Ask yourself:
+- Have I genuinely tried to resolve this directly, and does it really exceed my authority or tolerance?
+- Does the other party know I am escalating, and would they agree my summary states their position fairly?
+- Could the decision maker act on my first two sentences alone - the decision, the deadline and the cost of waiting?
+
 ### [Executive presence](../articles/executive-and-client-communication/executive-presence.md) — Skill
 
 Ask yourself:
