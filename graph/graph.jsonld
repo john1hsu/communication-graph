@@ -7299,6 +7299,102 @@
    ]
   },
   {
+   "@id": "cm:group-decision-making",
+   "@type": "cmo:Context",
+   "cmo:complements": {
+    "@id": "cm:rapid-decision-roles"
+   },
+   "cmo:demonstratedBy": [
+    {
+     "@id": "cm:mesmer-magnus-dechurch-2009"
+    },
+    {
+     "@id": "cm:schulz-hardt-et-al-2006"
+    }
+   ],
+   "cmo:domain": "meetings-and-facilitation",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:explainedBy": {
+    "@id": "cm:hidden-profile"
+   },
+   "cmo:file": "articles/meetings-and-facilitation/group-decision-making.md",
+   "cmo:level": "intermediate",
+   "cmo:requires": {
+    "@id": "cm:facilitation"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/group-decision-making/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/group-decision-making/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/group-decision-making/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/group-decision-making/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/group-decision-making/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/group-decision-making/s6"
+    }
+   ],
+   "rdfs:label": "Group decision making",
+   "skos:altLabel": [
+    "collective decision making",
+    "deciding as a group",
+    "group decisions",
+    "team decision making"
+   ],
+   "skos:broader": {
+    "@id": "cm:group-communication"
+   },
+   "skos:definition": "The recurring situation in which a team, committee or board must pool what its members know and commit to one choice. Groups can outperform their best member, but usually only when the decision owner and rule are clear, members state their views independently before discussing, and the discussion deliberately surfaces what only one person knows.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/meetings-and-facilitation"
+   },
+   "skos:prefLabel": "Group decision making",
+   "skos:related": [
+    {
+     "@id": "cm:brainstorming"
+    },
+    {
+     "@id": "cm:facilitation"
+    },
+    {
+     "@id": "cm:facilitators-guide-to-participatory-decision-making"
+    },
+    {
+     "@id": "cm:meeting-agendas"
+    },
+    {
+     "@id": "cm:meeting-recaps"
+    },
+    {
+     "@id": "cm:nominal-group-technique"
+    },
+    {
+     "@id": "cm:psychological-safety"
+    },
+    {
+     "@id": "cm:raci-matrix"
+    },
+    {
+     "@id": "cm:unequal-participation"
+    },
+    {
+     "@id": "cm:workplace-meetings"
+    }
+   ]
+  },
+  {
    "@id": "cm:grow-model",
    "@type": "cmo:Framework",
    "cmo:appliedIn": {
@@ -32517,6 +32613,90 @@
    "dcterms:title": "Grice and Universality: a Reappraisal",
    "schema:url": {
     "@id": "https://core.ac.uk/download/357524645.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/group-decision-making/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Jessica R. Mesmer-Magnus & Leslie A. DeChurch, Journal of Applied Psychology 94(2), 535-546, 2009 (Northwestern University ATLAS lab copy)",
+   "dcterms:title": "Information sharing and team performance: A meta-analysis",
+   "schema:url": {
+    "@id": "https://atlas.northwestern.edu/papers/information.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/group-decision-making/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Stefan Schulz-Hardt, Felix C. Brodbeck, Andreas Mojzisch, Rudolf Kerschreiter & Dieter Frey, Journal of Personality and Social Psychology 91(6), 1080-1093, 2006 (Aston University research portal)",
+   "dcterms:title": "Group decision making in hidden profile situations: Dissent as a facilitator for decision quality",
+   "schema:url": {
+    "@id": "https://research.aston.ac.uk/en/publications/group-decision-making-in-hidden-profile-situations-dissent-as-a-f"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/group-decision-making/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Stefan Schulz-Hardt & Andreas Mojzisch, European Review of Social Psychology, 2012 (Göttingen Research Online record)",
+   "dcterms:title": "How to achieve synergy in group decision making: Lessons to be learned from the hidden profile paradigm",
+   "schema:url": {
+    "@id": "https://publications.goettingen-research-online.de/ID-8345"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/group-decision-making/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Tessa Coffeng, Elianne F. van Steenbergen, Femke de Vries & Naomi Ellemers, Management Decision 59(13), 38-55, 2021 (open-access copy via CORE)",
+   "dcterms:title": "Quality of group decisions by board members: a hidden-profile experiment",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/519041842.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/group-decision-making/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Paul Rogers & Marcia Blenko, Bain & Company (fuller version in Harvard Business Review, January 2006)",
+   "dcterms:title": "Who has the 'D'? How clear decision roles enhance organizational performance",
+   "schema:url": {
+    "@id": "https://www.bain.com/insights/who-has-the-d"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/group-decision-making/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Andreas Mojzisch & Stefan Schulz-Hardt, Journal of Managerial Psychology 26(3), 235-246, 2011",
+   "dcterms:title": "Process gains in group decision making: A conceptual analysis, preliminary data, and tools for practitioners",
+   "schema:url": {
+    "@id": "https://www.emeraldinsight.com/insight/content/doi/10.1108/02683941111112668/full/html"
    }
   },
   {

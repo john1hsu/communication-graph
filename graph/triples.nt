@@ -4314,6 +4314,42 @@
 <https://github.com/john1hsu/communication-graph/id/grices-maxims> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/communication-graph/id/grices-maxims> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
 <https://github.com/john1hsu/communication-graph/id/grices-maxims> <https://github.com/john1hsu/communication-graph/ontology#studiedIn> <https://github.com/john1hsu/communication-graph/id/pragmatics> .
+<https://github.com/john1hsu/communication-graph/id/group-decision-making> <http://purl.org/dc/terms/created> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/group-decision-making> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Context> .
+<https://github.com/john1hsu/communication-graph/id/group-decision-making> <http://www.w3.org/2000/01/rdf-schema#label> "Group decision making" .
+<https://github.com/john1hsu/communication-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#altLabel> "collective decision making" .
+<https://github.com/john1hsu/communication-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#altLabel> "deciding as a group" .
+<https://github.com/john1hsu/communication-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#altLabel> "group decisions" .
+<https://github.com/john1hsu/communication-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#altLabel> "team decision making" .
+<https://github.com/john1hsu/communication-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/group-communication> .
+<https://github.com/john1hsu/communication-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#definition> "The recurring situation in which a team, committee or board must pool what its members know and commit to one choice. Groups can outperform their best member, but usually only when the decision owner and rule are clear, members state their views independently before discussing, and the discussion deliberately surfaces what only one person knows." .
+<https://github.com/john1hsu/communication-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/meetings-and-facilitation> .
+<https://github.com/john1hsu/communication-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#prefLabel> "Group decision making" .
+<https://github.com/john1hsu/communication-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/brainstorming> .
+<https://github.com/john1hsu/communication-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/facilitation> .
+<https://github.com/john1hsu/communication-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/facilitators-guide-to-participatory-decision-making> .
+<https://github.com/john1hsu/communication-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/meeting-agendas> .
+<https://github.com/john1hsu/communication-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/meeting-recaps> .
+<https://github.com/john1hsu/communication-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> .
+<https://github.com/john1hsu/communication-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
+<https://github.com/john1hsu/communication-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/raci-matrix> .
+<https://github.com/john1hsu/communication-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/unequal-participation> .
+<https://github.com/john1hsu/communication-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/workplace-meetings> .
+<https://github.com/john1hsu/communication-graph/id/group-decision-making> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/group-decision-making/s1> .
+<https://github.com/john1hsu/communication-graph/id/group-decision-making> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/group-decision-making/s2> .
+<https://github.com/john1hsu/communication-graph/id/group-decision-making> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/group-decision-making/s3> .
+<https://github.com/john1hsu/communication-graph/id/group-decision-making> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/group-decision-making/s4> .
+<https://github.com/john1hsu/communication-graph/id/group-decision-making> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/group-decision-making/s5> .
+<https://github.com/john1hsu/communication-graph/id/group-decision-making> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/group-decision-making/s6> .
+<https://github.com/john1hsu/communication-graph/id/group-decision-making> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/rapid-decision-roles> .
+<https://github.com/john1hsu/communication-graph/id/group-decision-making> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/mesmer-magnus-dechurch-2009> .
+<https://github.com/john1hsu/communication-graph/id/group-decision-making> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/schulz-hardt-et-al-2006> .
+<https://github.com/john1hsu/communication-graph/id/group-decision-making> <https://github.com/john1hsu/communication-graph/ontology#domain> "meetings-and-facilitation" .
+<https://github.com/john1hsu/communication-graph/id/group-decision-making> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/group-decision-making> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/hidden-profile> .
+<https://github.com/john1hsu/communication-graph/id/group-decision-making> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/meetings-and-facilitation/group-decision-making.md" .
+<https://github.com/john1hsu/communication-graph/id/group-decision-making> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/communication-graph/id/group-decision-making> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/facilitation> .
 <https://github.com/john1hsu/communication-graph/id/grow-model/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/grow-model/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Did the other person state the goal in their own words, or did I set it for them?" .
 <https://github.com/john1hsu/communication-graph/id/grow-model/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/grow-model> .
@@ -12053,6 +12089,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/grices-maxims/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/grices-maxims/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
 <https://github.com/john1hsu/communication-graph/id/source/grices-maxims/s5> <https://schema.org/url> <https://core.ac.uk/download/357524645.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/group-decision-making/s1> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/group-decision-making/s1> <http://purl.org/dc/terms/publisher> "Jessica R. Mesmer-Magnus & Leslie A. DeChurch, Journal of Applied Psychology 94(2), 535-546, 2009 (Northwestern University ATLAS lab copy)" .
+<https://github.com/john1hsu/communication-graph/id/source/group-decision-making/s1> <http://purl.org/dc/terms/title> "Information sharing and team performance: A meta-analysis" .
+<https://github.com/john1hsu/communication-graph/id/source/group-decision-making/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/group-decision-making/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/group-decision-making/s1> <https://schema.org/url> <https://atlas.northwestern.edu/papers/information.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/group-decision-making/s2> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/group-decision-making/s2> <http://purl.org/dc/terms/publisher> "Stefan Schulz-Hardt, Felix C. Brodbeck, Andreas Mojzisch, Rudolf Kerschreiter & Dieter Frey, Journal of Personality and Social Psychology 91(6), 1080-1093, 2006 (Aston University research portal)" .
+<https://github.com/john1hsu/communication-graph/id/source/group-decision-making/s2> <http://purl.org/dc/terms/title> "Group decision making in hidden profile situations: Dissent as a facilitator for decision quality" .
+<https://github.com/john1hsu/communication-graph/id/source/group-decision-making/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/group-decision-making/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/group-decision-making/s2> <https://schema.org/url> <https://research.aston.ac.uk/en/publications/group-decision-making-in-hidden-profile-situations-dissent-as-a-f> .
+<https://github.com/john1hsu/communication-graph/id/source/group-decision-making/s3> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/group-decision-making/s3> <http://purl.org/dc/terms/publisher> "Stefan Schulz-Hardt & Andreas Mojzisch, European Review of Social Psychology, 2012 (Göttingen Research Online record)" .
+<https://github.com/john1hsu/communication-graph/id/source/group-decision-making/s3> <http://purl.org/dc/terms/title> "How to achieve synergy in group decision making: Lessons to be learned from the hidden profile paradigm" .
+<https://github.com/john1hsu/communication-graph/id/source/group-decision-making/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/group-decision-making/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/group-decision-making/s3> <https://schema.org/url> <https://publications.goettingen-research-online.de/ID-8345> .
+<https://github.com/john1hsu/communication-graph/id/source/group-decision-making/s4> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/group-decision-making/s4> <http://purl.org/dc/terms/publisher> "Tessa Coffeng, Elianne F. van Steenbergen, Femke de Vries & Naomi Ellemers, Management Decision 59(13), 38-55, 2021 (open-access copy via CORE)" .
+<https://github.com/john1hsu/communication-graph/id/source/group-decision-making/s4> <http://purl.org/dc/terms/title> "Quality of group decisions by board members: a hidden-profile experiment" .
+<https://github.com/john1hsu/communication-graph/id/source/group-decision-making/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/group-decision-making/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/group-decision-making/s4> <https://schema.org/url> <https://core.ac.uk/download/519041842.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/group-decision-making/s5> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/group-decision-making/s5> <http://purl.org/dc/terms/publisher> "Paul Rogers & Marcia Blenko, Bain & Company (fuller version in Harvard Business Review, January 2006)" .
+<https://github.com/john1hsu/communication-graph/id/source/group-decision-making/s5> <http://purl.org/dc/terms/title> "Who has the 'D'? How clear decision roles enhance organizational performance" .
+<https://github.com/john1hsu/communication-graph/id/source/group-decision-making/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/group-decision-making/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/communication-graph/id/source/group-decision-making/s5> <https://schema.org/url> <https://www.bain.com/insights/who-has-the-d> .
+<https://github.com/john1hsu/communication-graph/id/source/group-decision-making/s6> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/group-decision-making/s6> <http://purl.org/dc/terms/publisher> "Andreas Mojzisch & Stefan Schulz-Hardt, Journal of Managerial Psychology 26(3), 235-246, 2011" .
+<https://github.com/john1hsu/communication-graph/id/source/group-decision-making/s6> <http://purl.org/dc/terms/title> "Process gains in group decision making: A conceptual analysis, preliminary data, and tools for practitioners" .
+<https://github.com/john1hsu/communication-graph/id/source/group-decision-making/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/group-decision-making/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/group-decision-making/s6> <https://schema.org/url> <https://www.emeraldinsight.com/insight/content/doi/10.1108/02683941111112668/full/html> .
 <https://github.com/john1hsu/communication-graph/id/source/grow-model/s1> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/grow-model/s1> <http://purl.org/dc/terms/publisher> "Elaine Cox (Oxford Brookes University) & Glenn Wallis, Coaching at Work (3 November 2017)" .
 <https://github.com/john1hsu/communication-graph/id/source/grow-model/s1> <http://purl.org/dc/terms/title> "Research matters - The GROW model: why we should discard blueprints" .

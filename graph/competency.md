@@ -18,7 +18,9 @@ _No results._
 
 _Which written contexts, channels or genres have no technique, framework or principle applied in them or structuring them?_ — `queries/03-situations-without-guidance.rq`
 
-_No results._
+| node | type |
+|---|---|
+| `cm:group-decision-making` | cmo:Context |
 
 ## Highest-leverage techniques
 
@@ -135,7 +137,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:batna` | mixed | `cm:schaerer-swaab-galinsky-2015` |
 | `cm:bulleted-and-numbered-lists` | mixed | `cm:columbia-accident-investigation-board-report` |
 
-…and 119 more.
+…and 120 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -148,6 +150,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:cooling-off-period` | cmo:Technique |
 | `cm:executive-summary` | cmo:Genre |
 | `cm:gestures` | cmo:Skill |
+| `cm:group-decision-making` | cmo:Context |
 | `cm:informative-headings` | cmo:Technique |
 | `cm:intercultural-competence` | cmo:Skill |
 | `cm:interpersonal-communication` | cmo:Field |
@@ -172,9 +175,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:praise-and-recognition` | cmo:Technique |
 | `cm:presentation` | cmo:Context |
 | `cm:presentation-rehearsal` | cmo:Technique |
-| `cm:raci-matrix` | cmo:Technique |
 
-…and 26 more.
+…and 27 more.
 
 ## Orphan articles (gap)
 
