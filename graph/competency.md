@@ -96,7 +96,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:email` | `cm:media-richness-theory` |
 | `cm:email` | `cm:meeting-recaps` |
 
-…and 83 more.
+…and 84 more.
 
 ## Myths and contested advice
 
@@ -135,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:batna` | mixed | `cm:schaerer-swaab-galinsky-2015` |
 | `cm:bulleted-and-numbered-lists` | mixed | `cm:columbia-accident-investigation-board-report` |
 
-…and 109 more.
+…and 110 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -145,6 +145,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 |---|---|
 | `cm:executive-summary` | cmo:Genre |
 | `cm:feedback-sandwich` | cmo:Technique |
+| `cm:follow-up-questions` | cmo:Technique |
 | `cm:gestures` | cmo:Skill |
 | `cm:informative-headings` | cmo:Technique |
 | `cm:intercultural-competence` | cmo:Skill |
@@ -172,9 +173,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:rapport` | cmo:Concept |
 | `cm:reciprocal-self-disclosure` | cmo:Technique |
 | `cm:refutational-two-sided-messages` | cmo:Technique |
-| `cm:reservation-value` | cmo:Concept |
 
-…and 22 more.
+…and 23 more.
 
 ## Orphan articles (gap)
 

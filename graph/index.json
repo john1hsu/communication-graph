@@ -7124,6 +7124,121 @@
   ]
  },
  {
+  "id": "cm:follow-up-questions",
+  "title": "Follow-up questions",
+  "aliases": [
+   "follow-up questioning",
+   "follow-ups",
+   "probing questions",
+   "probes"
+  ],
+  "type": "Technique",
+  "domain": "questioning-and-conversation",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/questioning-and-conversation/follow-up-questions.md",
+  "created": "2026-11-11",
+  "summary": "Questions that build directly on what the other person has just said - asking them to expand, clarify or give an example - rather than switching to a new topic. They show you were listening, draw out detail a first answer leaves out, and in conversation research are the question type most consistently linked to being seen as responsive and likeable.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:questioning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:open-ended-questions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:small-talk"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:humble-inquiry"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:reciprocal-self-disclosure"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:paraphrasing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:perspective-getting"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:active-listening"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:huang-et-al-2017",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:perceived-partner-responsiveness",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:yeomans-et-al-2019",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:kluger-malloy-2019",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:active-listening",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:job-interview",
+    "source": "s6",
+    "confidence": "high"
+   }
+  ],
+  "selfCheck": [
+   "Did my last question build on something they actually said, or on my own list?",
+   "Which detail in their answer did I let pass that I still do not understand?",
+   "Was my probe neutral, or did it hint at the answer I wanted to hear?",
+   "Have I asked several questions in a row without sharing anything myself?"
+  ],
+  "steps": [
+   "Listen to the whole answer and note one specific word, claim or detail in it that you want to understand better.",
+   "Ask about that detail in their terms (\"You said the handover was messy - what happened there?\") instead of moving to your next prepared question.",
+   "Keep the probe neutral - \"how did you decide?\", \"what did that look like?\" - rather than suggesting the answer you expect.",
+   "Go one or two layers deeper on what matters, then summarise what you heard before switching topic.",
+   "Offer something of your own between questions so the exchange feels like a conversation, not an interrogation.",
+   "In formal settings such as structured interviews or reviews, plan the likely probes in advance and use the same ones for everyone."
+  ],
+  "example": {
+   "situation": "A manager's one-to-one with a team member who mentions the client launch \"went okay, apart from the data issue\".",
+   "before": "Good to hear. Next thing - how are you getting on with the Q3 planning doc?",
+   "after": "What was the data issue, and how did the client react when it came up?",
+   "why": "The first reply jumps to the manager's own agenda and loses the one signal of trouble; the follow-up picks up the speaker's own words, shows they were heard, and surfaces a risk while it is still small."
+  },
+  "source_urls": [
+   "https://gwern.net/doc/psychology/novelty/2017-huang.pdf",
+   "https://www.hks.harvard.edu/publications/it-helps-ask-cumulative-benefits-asking-follow-questions",
+   "https://cris.huji.ac.il/en/publications/question-asking-as-a-dyadic-behavior/",
+   "https://www.library.hbs.edu/working-knowledge/asking-questions-can-get-you-a-better-job-or-a-second-date",
+   "https://ccsg.isr.umich.edu/chapters/pretesting/cognitive-interviewing/",
+   "https://www.opm.gov/policy-data-oversight/assessment-and-selection/other-assessment-methods/structured-interviews.pdf"
+  ]
+ },
+ {
   "id": "cm:george-loewenstein",
   "title": "George Loewenstein",
   "aliases": [

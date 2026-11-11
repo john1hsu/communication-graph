@@ -6241,6 +6241,100 @@
    ]
   },
   {
+   "@id": "cm:follow-up-questions",
+   "@type": "cmo:Technique",
+   "cmo:appliedIn": {
+    "@id": "cm:job-interview"
+   },
+   "cmo:challengedBy": {
+    "@id": "cm:kluger-malloy-2019"
+   },
+   "cmo:complements": {
+    "@id": "cm:active-listening"
+   },
+   "cmo:demonstratedBy": {
+    "@id": "cm:huang-et-al-2017"
+   },
+   "cmo:domain": "questioning-and-conversation",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/follow-up-questions/example"
+   },
+   "cmo:explainedBy": {
+    "@id": "cm:perceived-partner-responsiveness"
+   },
+   "cmo:file": "articles/questioning-and-conversation/follow-up-questions.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/follow-up-questions/howto"
+   },
+   "cmo:level": "introductory",
+   "cmo:requires": {
+    "@id": "cm:active-listening"
+   },
+   "cmo:supportedBy": {
+    "@id": "cm:yeomans-et-al-2019"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/follow-up-questions/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/follow-up-questions/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/follow-up-questions/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/follow-up-questions/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/follow-up-questions/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/follow-up-questions/s6"
+    }
+   ],
+   "rdfs:label": "Follow-up questions",
+   "skos:altLabel": [
+    "follow-up questioning",
+    "follow-ups",
+    "probes",
+    "probing questions"
+   ],
+   "skos:broader": {
+    "@id": "cm:questioning"
+   },
+   "skos:definition": "Questions that build directly on what the other person has just said - asking them to expand, clarify or give an example - rather than switching to a new topic. They show you were listening, draw out detail a first answer leaves out, and in conversation research are the question type most consistently linked to being seen as responsive and likeable.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/questioning-and-conversation"
+   },
+   "skos:prefLabel": "Follow-up questions",
+   "skos:related": [
+    {
+     "@id": "cm:humble-inquiry"
+    },
+    {
+     "@id": "cm:open-ended-questions"
+    },
+    {
+     "@id": "cm:paraphrasing"
+    },
+    {
+     "@id": "cm:perspective-getting"
+    },
+    {
+     "@id": "cm:reciprocal-self-disclosure"
+    },
+    {
+     "@id": "cm:small-talk"
+    }
+   ]
+  },
+  {
    "@id": "cm:george-loewenstein",
    "@type": "cmo:Person",
    "cmo:authored": {
@@ -20363,6 +20457,107 @@
    "schema:text": "If they open first, do not respond to their number straight away - restate your own target, their likely limits and your alternatives to yourself, then counter from your plan rather than from their anchor."
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/follow-up-questions/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:follow-up-questions"
+   },
+   "rdfs:label": "Did my last question build on something they actually said, or on my own list?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/follow-up-questions/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:follow-up-questions"
+   },
+   "rdfs:label": "Which detail in their answer did I let pass that I still do not understand?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/follow-up-questions/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:follow-up-questions"
+   },
+   "rdfs:label": "Was my probe neutral, or did it hint at the answer I wanted to hear?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/follow-up-questions/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:follow-up-questions"
+   },
+   "rdfs:label": "Have I asked several questions in a row without sharing anything myself?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/follow-up-questions/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "What was the data issue, and how did the client react when it came up?",
+   "cmo:before": "Good to hear. Next thing - how are you getting on with the Q3 planning doc?",
+   "cmo:situation": "A manager's one-to-one with a team member who mentions the client launch \"went okay, apart from the data issue\".",
+   "cmo:why": "The first reply jumps to the manager's own agenda and loses the one signal of trouble; the follow-up picks up the speaker's own words, shows they were heard, and surfaces a risk while it is still small."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/follow-up-questions/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Follow-up questions",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/follow-up-questions/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/follow-up-questions/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/follow-up-questions/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/follow-up-questions/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/follow-up-questions/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/follow-up-questions/howto/6"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/follow-up-questions/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Listen to the whole answer and note one specific word, claim or detail in it that you want to understand better."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/follow-up-questions/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Ask about that detail in their terms (\"You said the handover was messy - what happened there?\") instead of moving to your next prepared question."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/follow-up-questions/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Keep the probe neutral - \"how did you decide?\", \"what did that look like?\" - rather than suggesting the answer you expect."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/follow-up-questions/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Go one or two layers deeper on what matters, then summarise what you heard before switching topic."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/follow-up-questions/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Offer something of your own between questions so the exchange feels like a conversation, not an interrogation."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/follow-up-questions/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "In formal settings such as structured interviews or reviews, plan the likely probes in advance and use the same ones for everyone."
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/gestures/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -30048,6 +30243,90 @@
    "dcterms:title": "The PowerPoint Society: The Influence of PowerPoint in the U.S. Government and Bureaucracy",
    "schema:url": {
     "@id": "https://vtechworks.lib.vt.edu/items/c2a0d46a-8085-4628-bde9-ba2b91f6e080"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/follow-up-questions/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Huang, Yeomans, Brooks, Minson & Gino, Journal of Personality and Social Psychology 113(3), 430-452 (2017), doi:10.1037/pspi0000097 (full-text copy)",
+   "dcterms:title": "It Doesn't Hurt to Ask: Question-Asking Increases Liking",
+   "schema:url": {
+    "@id": "https://gwern.net/doc/psychology/novelty/2017-huang.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/follow-up-questions/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Yeomans, Brooks, Huang, Minson & Gino, Journal of Personality and Social Psychology 117(6), 1139-1144 (2019), doi:10.1037/pspi0000220 (Harvard Kennedy School publication page)",
+   "dcterms:title": "It helps to ask: The cumulative benefits of asking follow-up questions",
+   "schema:url": {
+    "@id": "https://www.hks.harvard.edu/publications/it-helps-ask-cumulative-benefits-asking-follow-questions"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/follow-up-questions/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Kluger & Malloy, Journal of Personality and Social Psychology 117(6), 1127-1138 (2019), doi:10.1037/pspi0000156 (Hebrew University research portal)",
+   "dcterms:title": "Question Asking as a Dyadic Behavior",
+   "schema:url": {
+    "@id": "https://cris.huji.ac.il/en/publications/question-asking-as-a-dyadic-behavior/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/follow-up-questions/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Rachel Layne, Harvard Business School Working Knowledge, 30 October 2017",
+   "dcterms:title": "Asking Questions Can Get You a Better Job or a Second Date",
+   "schema:url": {
+    "@id": "https://www.library.hbs.edu/working-knowledge/asking-questions-can-get-you-a-better-job-or-a-second-date"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/follow-up-questions/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Cibelli Hibben & de Jong, Cross-Cultural Survey Guidelines, Institute for Social Research, University of Michigan",
+   "dcterms:title": "Cognitive Interviewing (Cross-Cultural Survey Guidelines: Pretesting)",
+   "schema:url": {
+    "@id": "https://ccsg.isr.umich.edu/chapters/pretesting/cognitive-interviewing/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/follow-up-questions/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "U.S. Office of Personnel Management, Assessment & Selection policy guidance",
+   "dcterms:title": "Structured Interviews",
+   "schema:url": {
+    "@id": "https://www.opm.gov/policy-data-oversight/assessment-and-selection/other-assessment-methods/structured-interviews.pdf"
    }
   },
   {

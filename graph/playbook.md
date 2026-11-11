@@ -1750,6 +1750,29 @@ Ask yourself:
 - Have I picked a private place and enough time, rather than catching the person in a corridor or open-plan area?
 - Before we part, have we said the decision and next steps out loud, and will I confirm them in writing?
 
+### [Follow-up questions](../articles/questioning-and-conversation/follow-up-questions.md) — Technique
+
+1. Listen to the whole answer and note one specific word, claim or detail in it that you want to understand better.
+2. Ask about that detail in their terms ("You said the handover was messy - what happened there?") instead of moving to your next prepared question.
+3. Keep the probe neutral - "how did you decide?", "what did that look like?" - rather than suggesting the answer you expect.
+4. Go one or two layers deeper on what matters, then summarise what you heard before switching topic.
+5. Offer something of your own between questions so the exchange feels like a conversation, not an interrogation.
+6. In formal settings such as structured interviews or reviews, plan the likely probes in advance and use the same ones for everyone.
+
+*A manager's one-to-one with a team member who mentions the client launch "went okay, apart from the data issue".*
+
+| Before | After |
+|---|---|
+| Good to hear. Next thing - how are you getting on with the Q3 planning doc? | What was the data issue, and how did the client react when it came up? |
+
+**Why:** The first reply jumps to the manager's own agenda and loses the one signal of trouble; the follow-up picks up the speaker's own words, shows they were heard, and surfaces a risk while it is still small.
+
+Ask yourself:
+- Did my last question build on something they actually said, or on my own list?
+- Which detail in their answer did I let pass that I still do not understand?
+- Was my probe neutral, or did it hint at the answer I wanted to hear?
+- Have I asked several questions in a row without sharing anything myself?
+
 ### [GROW model](../articles/questioning-and-conversation/grow-model.md) — Framework
 
 1. Goal: ask what the person wants from this conversation and what success would look like, and agree a goal they own ("What would good look like by the end of the quarter?").

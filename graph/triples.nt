@@ -3759,6 +3759,85 @@
 <https://github.com/john1hsu/communication-graph/id/fm-6-0> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/thinkers-and-works/fm-6-0.md" .
 <https://github.com/john1hsu/communication-graph/id/fm-6-0> <https://github.com/john1hsu/communication-graph/ontology#introduces> <https://github.com/john1hsu/communication-graph/id/executive-briefing> .
 <https://github.com/john1hsu/communication-graph/id/fm-6-0> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Did my last question build on something they actually said, or on my own list?" .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/follow-up-questions> .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Which detail in their answer did I let pass that I still do not understand?" .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/follow-up-questions> .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Was my probe neutral, or did it hint at the answer I wanted to hear?" .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/follow-up-questions> .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Have I asked several questions in a row without sharing anything myself?" .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/follow-up-questions> .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions/example> <https://github.com/john1hsu/communication-graph/ontology#after> "What was the data issue, and how did the client react when it came up?" .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions/example> <https://github.com/john1hsu/communication-graph/ontology#before> "Good to hear. Next thing - how are you getting on with the Q3 planning doc?" .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "A manager's one-to-one with a team member who mentions the client launch \"went okay, apart from the data issue\"." .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions/example> <https://github.com/john1hsu/communication-graph/ontology#why> "The first reply jumps to the manager's own agenda and loses the one signal of trouble; the follow-up picks up the speaker's own words, shows they were heard, and surfaces a risk while it is still small." .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions/howto/1> <https://schema.org/text> "Listen to the whole answer and note one specific word, claim or detail in it that you want to understand better." .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions/howto/2> <https://schema.org/text> "Ask about that detail in their terms (\"You said the handover was messy - what happened there?\") instead of moving to your next prepared question." .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions/howto/3> <https://schema.org/text> "Keep the probe neutral - \"how did you decide?\", \"what did that look like?\" - rather than suggesting the answer you expect." .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions/howto/4> <https://schema.org/text> "Go one or two layers deeper on what matters, then summarise what you heard before switching topic." .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions/howto/5> <https://schema.org/text> "Offer something of your own between questions so the exchange feels like a conversation, not an interrogation." .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions/howto/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions/howto/6> <https://schema.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions/howto/6> <https://schema.org/text> "In formal settings such as structured interviews or reviews, plan the likely probes in advance and use the same ones for everyone." .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions/howto> <https://schema.org/name> "Follow-up questions" .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/follow-up-questions/howto/1> .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/follow-up-questions/howto/2> .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/follow-up-questions/howto/3> .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/follow-up-questions/howto/4> .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/follow-up-questions/howto/5> .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/follow-up-questions/howto/6> .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions> <http://purl.org/dc/terms/created> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Technique> .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions> <http://www.w3.org/2000/01/rdf-schema#label> "Follow-up questions" .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions> <http://www.w3.org/2004/02/skos/core#altLabel> "follow-up questioning" .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions> <http://www.w3.org/2004/02/skos/core#altLabel> "follow-ups" .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions> <http://www.w3.org/2004/02/skos/core#altLabel> "probes" .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions> <http://www.w3.org/2004/02/skos/core#altLabel> "probing questions" .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/questioning> .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions> <http://www.w3.org/2004/02/skos/core#definition> "Questions that build directly on what the other person has just said - asking them to expand, clarify or give an example - rather than switching to a new topic. They show you were listening, draw out detail a first answer leaves out, and in conversation research are the question type most consistently linked to being seen as responsive and likeable." .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/questioning-and-conversation> .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions> <http://www.w3.org/2004/02/skos/core#prefLabel> "Follow-up questions" .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/humble-inquiry> .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/open-ended-questions> .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/paraphrasing> .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/perspective-getting> .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/reciprocal-self-disclosure> .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/small-talk> .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/follow-up-questions/s1> .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/follow-up-questions/s2> .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/follow-up-questions/s3> .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/follow-up-questions/s4> .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/follow-up-questions/s5> .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/follow-up-questions/s6> .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/job-interview> .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/kluger-malloy-2019> .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/huang-et-al-2017> .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions> <https://github.com/john1hsu/communication-graph/ontology#domain> "questioning-and-conversation" .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/follow-up-questions/example> .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/perceived-partner-responsiveness> .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/questioning-and-conversation/follow-up-questions.md" .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/follow-up-questions/howto> .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+<https://github.com/john1hsu/communication-graph/id/follow-up-questions> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/yeomans-et-al-2019> .
 <https://github.com/john1hsu/communication-graph/id/george-loewenstein> <http://purl.org/dc/terms/created> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/george-loewenstein> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
 <https://github.com/john1hsu/communication-graph/id/george-loewenstein> <http://www.w3.org/2000/01/rdf-schema#label> "George Loewenstein" .
@@ -11113,6 +11192,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/fm-6-0/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/fm-6-0/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "preprint" .
 <https://github.com/john1hsu/communication-graph/id/source/fm-6-0/s6> <https://schema.org/url> <https://vtechworks.lib.vt.edu/items/c2a0d46a-8085-4628-bde9-ba2b91f6e080> .
+<https://github.com/john1hsu/communication-graph/id/source/follow-up-questions/s1> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/follow-up-questions/s1> <http://purl.org/dc/terms/publisher> "Huang, Yeomans, Brooks, Minson & Gino, Journal of Personality and Social Psychology 113(3), 430-452 (2017), doi:10.1037/pspi0000097 (full-text copy)" .
+<https://github.com/john1hsu/communication-graph/id/source/follow-up-questions/s1> <http://purl.org/dc/terms/title> "It Doesn't Hurt to Ask: Question-Asking Increases Liking" .
+<https://github.com/john1hsu/communication-graph/id/source/follow-up-questions/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/follow-up-questions/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/follow-up-questions/s1> <https://schema.org/url> <https://gwern.net/doc/psychology/novelty/2017-huang.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/follow-up-questions/s2> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/follow-up-questions/s2> <http://purl.org/dc/terms/publisher> "Yeomans, Brooks, Huang, Minson & Gino, Journal of Personality and Social Psychology 117(6), 1139-1144 (2019), doi:10.1037/pspi0000220 (Harvard Kennedy School publication page)" .
+<https://github.com/john1hsu/communication-graph/id/source/follow-up-questions/s2> <http://purl.org/dc/terms/title> "It helps to ask: The cumulative benefits of asking follow-up questions" .
+<https://github.com/john1hsu/communication-graph/id/source/follow-up-questions/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/follow-up-questions/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/follow-up-questions/s2> <https://schema.org/url> <https://www.hks.harvard.edu/publications/it-helps-ask-cumulative-benefits-asking-follow-questions> .
+<https://github.com/john1hsu/communication-graph/id/source/follow-up-questions/s3> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/follow-up-questions/s3> <http://purl.org/dc/terms/publisher> "Kluger & Malloy, Journal of Personality and Social Psychology 117(6), 1127-1138 (2019), doi:10.1037/pspi0000156 (Hebrew University research portal)" .
+<https://github.com/john1hsu/communication-graph/id/source/follow-up-questions/s3> <http://purl.org/dc/terms/title> "Question Asking as a Dyadic Behavior" .
+<https://github.com/john1hsu/communication-graph/id/source/follow-up-questions/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/follow-up-questions/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/follow-up-questions/s3> <https://schema.org/url> <https://cris.huji.ac.il/en/publications/question-asking-as-a-dyadic-behavior/> .
+<https://github.com/john1hsu/communication-graph/id/source/follow-up-questions/s4> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/follow-up-questions/s4> <http://purl.org/dc/terms/publisher> "Rachel Layne, Harvard Business School Working Knowledge, 30 October 2017" .
+<https://github.com/john1hsu/communication-graph/id/source/follow-up-questions/s4> <http://purl.org/dc/terms/title> "Asking Questions Can Get You a Better Job or a Second Date" .
+<https://github.com/john1hsu/communication-graph/id/source/follow-up-questions/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/follow-up-questions/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/follow-up-questions/s4> <https://schema.org/url> <https://www.library.hbs.edu/working-knowledge/asking-questions-can-get-you-a-better-job-or-a-second-date> .
+<https://github.com/john1hsu/communication-graph/id/source/follow-up-questions/s5> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/follow-up-questions/s5> <http://purl.org/dc/terms/publisher> "Cibelli Hibben & de Jong, Cross-Cultural Survey Guidelines, Institute for Social Research, University of Michigan" .
+<https://github.com/john1hsu/communication-graph/id/source/follow-up-questions/s5> <http://purl.org/dc/terms/title> "Cognitive Interviewing (Cross-Cultural Survey Guidelines: Pretesting)" .
+<https://github.com/john1hsu/communication-graph/id/source/follow-up-questions/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/follow-up-questions/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/follow-up-questions/s5> <https://schema.org/url> <https://ccsg.isr.umich.edu/chapters/pretesting/cognitive-interviewing/> .
+<https://github.com/john1hsu/communication-graph/id/source/follow-up-questions/s6> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/follow-up-questions/s6> <http://purl.org/dc/terms/publisher> "U.S. Office of Personnel Management, Assessment & Selection policy guidance" .
+<https://github.com/john1hsu/communication-graph/id/source/follow-up-questions/s6> <http://purl.org/dc/terms/title> "Structured Interviews" .
+<https://github.com/john1hsu/communication-graph/id/source/follow-up-questions/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/follow-up-questions/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/communication-graph/id/source/follow-up-questions/s6> <https://schema.org/url> <https://www.opm.gov/policy-data-oversight/assessment-and-selection/other-assessment-methods/structured-interviews.pdf> .
 <https://github.com/john1hsu/communication-graph/id/source/george-loewenstein/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/george-loewenstein/s1> <http://purl.org/dc/terms/publisher> "Department of Social and Decision Sciences, Dietrich College, Carnegie Mellon University" .
 <https://github.com/john1hsu/communication-graph/id/source/george-loewenstein/s1> <http://purl.org/dc/terms/title> "George Loewenstein - faculty profile" .
