@@ -689,6 +689,30 @@ Ask yourself:
 - Is most of what I said about the approach and how to check it, rather than about this one output or about the person?
 - Did any praise I gave carry information about the work, or was it a general compliment?
 
+### [Praise and recognition](../articles/feedback-and-coaching/praise-and-recognition.md) — Technique
+
+1. Notice the specific behaviour worth repeating - an action you saw, not a trait such as "smart" or "a natural".
+2. Say what the person did, when, and what it made possible for the team, client or project, in one or two sentences.
+3. Deliver it soon after the work, in the channel the person values (a quiet one-to-one, a team thread, or a note copied to their manager).
+4. Keep it clean - do not attach a correction, a "but", or a new request to the same message.
+5. Make recognition a weekly habit across the whole team, and check who you have not recognized lately.
+6. Thank people who help you outside their job, naming what their help changed, so they know it was wanted.
+
+*A project manager recognizes an analyst who rebuilt a broken client data feed the night before a steering-committee meeting.*
+
+| Before | After |
+|---|---|
+| Great job everyone, thanks for all the hard work this week! You're all rock stars. | Sam - thank you for rebuilding the client data feed on Tuesday night. Because the numbers reconciled, the steering committee approved phase 2 in the meeting instead of deferring it a month. The validation checks you added are now our standard; I've told Dana how you handled it. |
+
+**Why:** The rewrite names the person, the action and its concrete consequence, so Sam knows exactly what to repeat and that it mattered; the blanket message gives no information and quietly lumps a standout effort with routine work.
+
+Ask yourself:
+- Could the person tell from my words exactly which action I am praising and what it changed?
+- Am I praising effort and choices they control, or a fixed trait like talent or intelligence?
+- Did I slip a correction or a new request into this message, turning it into a sandwich?
+- Who on my team has done good work in the last couple of weeks without hearing about it?
+- Is this praise earned, or am I handing it out to avoid a harder conversation?
+
 ### [Receiving feedback](../articles/feedback-and-coaching/receiving-feedback.md) — Skill
 
 Ask yourself:

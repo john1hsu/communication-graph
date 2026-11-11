@@ -13867,6 +13867,121 @@
   ]
  },
  {
+  "id": "cm:praise-and-recognition",
+  "title": "Praise and recognition",
+  "aliases": [
+   "recognizing good work",
+   "giving praise",
+   "employee recognition",
+   "positive recognition",
+   "expressing appreciation at work"
+  ],
+  "type": "Technique",
+  "domain": "feedback-and-coaching",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/feedback-and-coaching/praise-and-recognition.md",
+  "created": "2026-11-11",
+  "summary": "Telling people, specifically and soon, what they did well and why it mattered, so that useful behaviour is repeated and people feel their contribution is valued; recognition reliably lifts performance and helping, but vague praise carries little information and popular \"magic ratio\" rules outrun their evidence.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:feedback"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:situation-behavior-impact"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:feedback-sandwich"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:hattie-timperley-feedback-model"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:wisniewski-zierer-hattie-2020"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:kluger-denisi-1996"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:one-on-one-meetings"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:employee-engagement"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:feedforward"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:stajkovic-luthans-2003",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:grant-gino-2010",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:perceived-social-worth",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:brown-sokal-friedman-2013",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:li-bates-mindset-replications",
+    "source": "s6",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Could the person tell from my words exactly which action I am praising and what it changed?",
+   "Am I praising effort and choices they control, or a fixed trait like talent or intelligence?",
+   "Did I slip a correction or a new request into this message, turning it into a sandwich?",
+   "Who on my team has done good work in the last couple of weeks without hearing about it?",
+   "Is this praise earned, or am I handing it out to avoid a harder conversation?"
+  ],
+  "steps": [
+   "Notice the specific behaviour worth repeating - an action you saw, not a trait such as \"smart\" or \"a natural\".",
+   "Say what the person did, when, and what it made possible for the team, client or project, in one or two sentences.",
+   "Deliver it soon after the work, in the channel the person values (a quiet one-to-one, a team thread, or a note copied to their manager).",
+   "Keep it clean - do not attach a correction, a \"but\", or a new request to the same message.",
+   "Make recognition a weekly habit across the whole team, and check who you have not recognized lately.",
+   "Thank people who help you outside their job, naming what their help changed, so they know it was wanted."
+  ],
+  "example": {
+   "situation": "A project manager recognizes an analyst who rebuilt a broken client data feed the night before a steering-committee meeting.",
+   "before": "Great job everyone, thanks for all the hard work this week! You're all rock stars.",
+   "after": "Sam - thank you for rebuilding the client data feed on Tuesday night. Because the numbers reconciled, the steering committee approved phase 2 in the meeting instead of deferring it a month. The validation checks you added are now our standard; I've told Dana how you handled it.",
+   "why": "The rewrite names the person, the action and its concrete consequence, so Sam knows exactly what to repeat and that it mattered; the blanket message gives no information and quietly lumps a standout effort with routine work."
+  },
+  "source_urls": [
+   "https://goal-lab.psych.umn.edu/orgpsych/readings/5.%20Motivation/Stajkovic%20&%20Luthans%20(2003).pdf",
+   "https://www.gsb.stanford.edu/insights/frank-flynn-gratitude-gift-keeps-giving",
+   "https://news.gallup.com/businessjournal/28270/fourth-element-great-managing.aspx",
+   "https://discovery.ucl.ac.uk/id/eprint/1404587/",
+   "https://opus.bibliothek.uni-augsburg.de/opus4/files/71009/fpsyg-10-03087.pdf",
+   "https://www.research.ed.ac.uk/en/publications/does-growth-mindset-improve-childrens-iq-educational-attainment-o/"
+  ]
+ },
+ {
   "id": "cm:presentation",
   "title": "Presentation",
   "aliases": [

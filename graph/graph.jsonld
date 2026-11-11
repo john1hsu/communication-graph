@@ -12193,6 +12193,105 @@
    ]
   },
   {
+   "@id": "cm:praise-and-recognition",
+   "@type": "cmo:Technique",
+   "cmo:challengedBy": [
+    {
+     "@id": "cm:brown-sokal-friedman-2013"
+    },
+    {
+     "@id": "cm:li-bates-mindset-replications"
+    }
+   ],
+   "cmo:domain": "feedback-and-coaching",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/praise-and-recognition/example"
+   },
+   "cmo:explainedBy": {
+    "@id": "cm:perceived-social-worth"
+   },
+   "cmo:file": "articles/feedback-and-coaching/praise-and-recognition.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/praise-and-recognition/howto"
+   },
+   "cmo:level": "introductory",
+   "cmo:supportedBy": [
+    {
+     "@id": "cm:grant-gino-2010"
+    },
+    {
+     "@id": "cm:stajkovic-luthans-2003"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/praise-and-recognition/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/praise-and-recognition/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/praise-and-recognition/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/praise-and-recognition/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/praise-and-recognition/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/praise-and-recognition/s6"
+    }
+   ],
+   "rdfs:label": "Praise and recognition",
+   "skos:altLabel": [
+    "employee recognition",
+    "expressing appreciation at work",
+    "giving praise",
+    "positive recognition",
+    "recognizing good work"
+   ],
+   "skos:broader": {
+    "@id": "cm:feedback"
+   },
+   "skos:definition": "Telling people, specifically and soon, what they did well and why it mattered, so that useful behaviour is repeated and people feel their contribution is valued; recognition reliably lifts performance and helping, but vague praise carries little information and popular \"magic ratio\" rules outrun their evidence.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/feedback-and-coaching"
+   },
+   "skos:prefLabel": "Praise and recognition",
+   "skos:related": [
+    {
+     "@id": "cm:employee-engagement"
+    },
+    {
+     "@id": "cm:feedback-sandwich"
+    },
+    {
+     "@id": "cm:feedforward"
+    },
+    {
+     "@id": "cm:hattie-timperley-feedback-model"
+    },
+    {
+     "@id": "cm:kluger-denisi-1996"
+    },
+    {
+     "@id": "cm:one-on-one-meetings"
+    },
+    {
+     "@id": "cm:situation-behavior-impact"
+    },
+    {
+     "@id": "cm:wisniewski-zierer-hattie-2020"
+    }
+   ]
+  },
+  {
    "@id": "cm:presentation",
    "@type": "cmo:Context",
    "cmo:complements": [
@@ -23058,6 +23157,115 @@
     "@id": "cm:plain-language"
    },
    "rdfs:label": "Could a reader say in their own words what I want them to do next?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/praise-and-recognition/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:praise-and-recognition"
+   },
+   "rdfs:label": "Could the person tell from my words exactly which action I am praising and what it changed?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/praise-and-recognition/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:praise-and-recognition"
+   },
+   "rdfs:label": "Am I praising effort and choices they control, or a fixed trait like talent or intelligence?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/praise-and-recognition/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:praise-and-recognition"
+   },
+   "rdfs:label": "Did I slip a correction or a new request into this message, turning it into a sandwich?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/praise-and-recognition/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:praise-and-recognition"
+   },
+   "rdfs:label": "Who on my team has done good work in the last couple of weeks without hearing about it?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/praise-and-recognition/check/5",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:praise-and-recognition"
+   },
+   "rdfs:label": "Is this praise earned, or am I handing it out to avoid a harder conversation?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/praise-and-recognition/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "Sam - thank you for rebuilding the client data feed on Tuesday night. Because the numbers reconciled, the steering committee approved phase 2 in the meeting instead of deferring it a month. The validation checks you added are now our standard; I've told Dana how you handled it.",
+   "cmo:before": "Great job everyone, thanks for all the hard work this week! You're all rock stars.",
+   "cmo:situation": "A project manager recognizes an analyst who rebuilt a broken client data feed the night before a steering-committee meeting.",
+   "cmo:why": "The rewrite names the person, the action and its concrete consequence, so Sam knows exactly what to repeat and that it mattered; the blanket message gives no information and quietly lumps a standout effort with routine work."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/praise-and-recognition/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Praise and recognition",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/praise-and-recognition/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/praise-and-recognition/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/praise-and-recognition/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/praise-and-recognition/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/praise-and-recognition/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/praise-and-recognition/howto/6"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/praise-and-recognition/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Notice the specific behaviour worth repeating - an action you saw, not a trait such as \"smart\" or \"a natural\"."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/praise-and-recognition/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Say what the person did, when, and what it made possible for the team, client or project, in one or two sentences."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/praise-and-recognition/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Deliver it soon after the work, in the channel the person values (a quiet one-to-one, a team thread, or a note copied to their manager)."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/praise-and-recognition/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Keep it clean - do not attach a correction, a \"but\", or a new request to the same message."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/praise-and-recognition/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Make recognition a weekly habit across the whole team, and check who you have not recognized lately."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/praise-and-recognition/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "Thank people who help you outside their job, naming what their help changed, so they know it was wanted."
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/check/1",
@@ -35367,6 +35575,90 @@
    "dcterms:title": "Sociopragmatic failure revisited: the case of intercultural communication between Brazilians and Americans",
    "schema:url": {
     "@id": "https://scielo.br/j/rbla/a/SzNXfVMCNGGmNsCYv8j8bCH/?lang=en"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/praise-and-recognition/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Stajkovic & Luthans, Personnel Psychology 56(1), 155-194 (2003), copy hosted by the University of Minnesota",
+   "dcterms:title": "Behavioral management and task performance in organizations: conceptual background, meta-analysis, and test of alternative models",
+   "schema:url": {
+    "@id": "https://goal-lab.psych.umn.edu/orgpsych/readings/5.%20Motivation/Stajkovic%20&%20Luthans%20(2003).pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/praise-and-recognition/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Francis J. Flynn, Stanford Graduate School of Business Insights (2012), summarizing Grant & Gino, Journal of Personality and Social Psychology (2010)",
+   "dcterms:title": "Frank Flynn: Gratitude, the Gift That Keeps on Giving",
+   "schema:url": {
+    "@id": "https://www.gsb.stanford.edu/insights/frank-flynn-gratitude-gift-keeps-giving"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/praise-and-recognition/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Rodd Wagner & Jim Harter, Gallup Business Journal (2007), adapted from 12 - The Elements of Great Managing",
+   "dcterms:title": "The Fourth Element of Great Managing",
+   "schema:url": {
+    "@id": "https://news.gallup.com/businessjournal/28270/fourth-element-great-managing.aspx"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/praise-and-recognition/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Brown, Sokal & Friedman, American Psychologist 68(9), 801-813 (2013), doi:10.1037/a0032850 (UCL Discovery record)",
+   "dcterms:title": "The complex dynamics of wishful thinking: The critical positivity ratio",
+   "schema:url": {
+    "@id": "https://discovery.ucl.ac.uk/id/eprint/1404587/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/praise-and-recognition/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Wisniewski, Zierer & Hattie, Frontiers in Psychology 10:3087 (2020), doi:10.3389/fpsyg.2019.03087 (University of Augsburg repository)",
+   "dcterms:title": "The Power of Feedback Revisited: A Meta-Analysis of Educational Feedback Research",
+   "schema:url": {
+    "@id": "https://opus.bibliothek.uni-augsburg.de/opus4/files/71009/fpsyg-10-03087.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/praise-and-recognition/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "preprint",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Li & Bates, SocArXiv working paper (2017), University of Edinburgh research portal",
+   "dcterms:title": "Does growth mindset improve children's IQ, educational attainment or response to setbacks? Active-control interventions and data on children's own mindsets",
+   "schema:url": {
+    "@id": "https://www.research.ed.ac.uk/en/publications/does-growth-mindset-improve-childrens-iq-educational-attainment-o/"
    }
   },
   {
