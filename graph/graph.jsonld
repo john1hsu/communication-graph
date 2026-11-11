@@ -9546,6 +9546,98 @@
    ]
   },
   {
+   "@id": "cm:message-structure",
+   "@type": "cmo:Concept",
+   "cmo:appliedIn": [
+    {
+     "@id": "cm:delivering-bad-news"
+    },
+    {
+     "@id": "cm:email"
+    },
+    {
+     "@id": "cm:presentation"
+    }
+   ],
+   "cmo:complements": {
+    "@id": "cm:plain-language"
+   },
+   "cmo:domain": "writing",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:file": "articles/writing/message-structure.md",
+   "cmo:level": "introductory",
+   "cmo:requires": {
+    "@id": "cm:audience-analysis"
+   },
+   "cmo:supportedBy": {
+    "@id": "cm:meyer-poon-2001"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/message-structure/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/message-structure/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/message-structure/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/message-structure/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/message-structure/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/message-structure/s6"
+    }
+   ],
+   "rdfs:label": "Message structure",
+   "skos:altLabel": [
+    "document organization",
+    "message organization",
+    "organizational pattern"
+   ],
+   "skos:broader": {
+    "@id": "cm:clarity"
+   },
+   "skos:definition": "The order and grouping of the points in a message, document or talk: what comes first, how ideas are grouped and sequenced, and how that arrangement is signalled to the audience. Good structure follows what the reader needs and how they are likely to react, not the order in which the writer worked things out.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/writing"
+   },
+   "skos:prefLabel": "Message structure",
+   "skos:related": [
+    {
+     "@id": "cm:bottom-line-up-front"
+    },
+    {
+     "@id": "cm:burying-the-lede"
+    },
+    {
+     "@id": "cm:business-report"
+    },
+    {
+     "@id": "cm:executive-summary"
+    },
+    {
+     "@id": "cm:informative-headings"
+    },
+    {
+     "@id": "cm:pyramid-principle"
+    },
+    {
+     "@id": "cm:signposting"
+    },
+    {
+     "@id": "cm:wall-of-text"
+    }
+   ]
+  },
+  {
    "@id": "cm:michael-argyle",
    "@type": "cmo:Person",
    "cmo:authored": {
@@ -33354,6 +33446,90 @@
    "dcterms:title": "Organizational Information Requirements, Media Richness and Structural Design",
    "schema:url": {
     "@id": "https://collablab.northwestern.edu//CollabolabDistro/nucmc/DaftAndLengel-OrgInfoReq-MediaRichnessAndStructuralDesign-MngmtSci-1986.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/message-structure/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Digital.gov, U.S. General Services Administration (federal plain language guidance)",
+   "dcterms:title": "Organize the information (Plain Language Guide Series)",
+   "schema:url": {
+    "@id": "https://digital.gov/guides/plain-language/principles/organize"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/message-structure/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "University of Wisconsin–Madison",
+   "dcterms:title": "Document Organization (Workplace Communication & Professional Research Guide)",
+   "schema:url": {
+    "@id": "https://guide.businesscommunication.wisc.edu/?p=214"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/message-structure/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Purdue OWL, The Writing Lab & The OWL at Purdue University",
+   "dcterms:title": "Organization and Structure (Graduate Writing)",
+   "schema:url": {
+    "@id": "https://owl.purdue.edu/owl/graduate_writing/graduate_writing_topics/graduate_writing_organization_structure_new.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/message-structure/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Open textbook (CC BY-NC-SA), Saylor Academy edition",
+   "dcterms:title": "Chapter 10: Creating the Body of a Speech (Stand Up, Speak Out: The Practice and Ethics of Public Speaking)",
+   "schema:url": {
+    "@id": "https://saylordotorg.github.io/text_stand-up-speak-out-the-practice-and-ethics-of-public-speaking/s13-00-creating-the-body-of-a-speech.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/message-structure/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Meyer, B.J.F. & Poon, L.W., Journal of Educational Psychology 93(1), 141-159, 2001, doi:10.1037/0022-0663.93.1.141",
+   "dcterms:title": "Effects of structure strategy training and signaling on recall of text",
+   "schema:url": {
+    "@id": "https://pure.psu.edu/en/publications/effects-of-structure-strategy-training-and-signaling-on-recall-of/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/message-structure/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Limaye, M., Management Communication Quarterly 2(1), 90-101, 1988, doi:10.1177/0893318988002001006",
+   "dcterms:title": "Buffers in bad news messages and recipient perceptions",
+   "schema:url": {
+    "@id": "https://experts.boisestate.edu/en/publications/buffers-in-bad-news-messages-and-recipient-perceptions/"
    }
   },
   {

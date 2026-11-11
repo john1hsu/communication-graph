@@ -76,6 +76,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:crisis-communication` | `cm:communicating-uncertainty` |
 | `cm:cross-functional-collaboration` | `cm:influence-without-authority` |
 | `cm:cross-functional-collaboration` | `cm:persuasion` |
+| `cm:delivering-bad-news` | `cm:message-structure` |
 | `cm:delivering-bad-news` | `cm:social-accounts` |
 | `cm:difficult-conversation` | `cm:active-listening` |
 | `cm:difficult-conversation` | `cm:conversational-receptiveness` |
@@ -94,9 +95,8 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:email` | `cm:emoji-and-tone-in-text` |
 | `cm:email` | `cm:kushlev-dunn-2015` |
 | `cm:email` | `cm:media-richness-theory` |
-| `cm:email` | `cm:meeting-recaps` |
 
-…and 84 more.
+…and 87 more.
 
 ## Myths and contested advice
 
@@ -135,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:batna` | mixed | `cm:schaerer-swaab-galinsky-2015` |
 | `cm:bulleted-and-numbered-lists` | mixed | `cm:columbia-accident-investigation-board-report` |
 
-…and 112 more.
+…and 113 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -154,6 +154,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:labeling-emotions` | cmo:Technique |
 | `cm:meeting-agendas` | cmo:Technique |
 | `cm:meeting-recaps` | cmo:Technique |
+| `cm:message-structure` | cmo:Concept |
 | `cm:mirroring` | cmo:Technique |
 | `cm:multicultural-team` | cmo:Context |
 | `cm:narrative-persuasion` | cmo:Technique |
@@ -172,9 +173,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:raci-matrix` | cmo:Technique |
 | `cm:rapport` | cmo:Concept |
 | `cm:reciprocal-self-disclosure` | cmo:Technique |
-| `cm:refutational-two-sided-messages` | cmo:Technique |
 
-…and 23 more.
+…and 24 more.
 
 ## Orphan articles (gap)
 
