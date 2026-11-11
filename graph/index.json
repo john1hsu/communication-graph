@@ -3911,6 +3911,132 @@
   ]
  },
  {
+  "id": "cm:cooling-off-period",
+  "title": "Cooling-off period",
+  "aliases": [
+   "sleep on it",
+   "draft and delay",
+   "going to the balcony",
+   "time delay before responding"
+  ],
+  "type": "Technique",
+  "domain": "difficult-conversations-and-conflict",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/difficult-conversations-and-conflict/cooling-off-period.md",
+  "created": "2026-11-11",
+  "summary": "Deliberately putting time between a provoking message or moment and your reply or decision, and spending that time on something other than replaying the grievance, so that you respond from a calmer state than the one the provocation put you in.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:emotion-regulation"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "cm:conflict-resolution"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:empathy-gap"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:de-escalation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:self-distancing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:labeling-emotions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:difficult-conversation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:email"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:negotiation"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:empathy-gap",
+    "source": "s5",
+    "confidence": "low"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:grimm-mengel-2011",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:wang-et-al-2011",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:harinck-de-dreu-2008",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:oechssler-roider-schmitz-2008",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:negotiation",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:difficult-conversation",
+    "source": "s6",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Would I be comfortable with this reply being forwarded to my manager and read tomorrow morning?",
+   "Am I replying now because the situation needs it, or because my anger wants it?",
+   "During the pause, was I distracting myself or replaying the grievance over and over?",
+   "Did I tell the other person when they will hear back, so the delay doesn't read as silence or avoidance?"
+  ],
+  "steps": [
+   "Notice the trigger - a racing pulse, clenched jaw, or an urge to reply right now - and rate your anger from 1 to 10.",
+   "Say or send a short holding line (\"Thanks, I want to give this proper thought and will reply by 3 pm\") instead of your full reaction.",
+   "If you must write, draft the reply with the recipient field empty, or save it unsent.",
+   "Spend the gap on an unrelated task, a walk or other work, not on rereading the message or rehearsing comebacks to colleagues.",
+   "Before you return, ask what outcome you actually want from this exchange and what the other person may have meant.",
+   "Come back when your rating has dropped to a 3 or 4, reread the original and your draft, then cut anything written to wound and send or say the considered version."
+  ],
+  "example": {
+   "situation": "A project lead gets a terse message from a peer in another department, copied to both their managers, saying her team \"missed the handover again\" when the delay was caused by the peer's late inputs.",
+   "before": "Reply-all within two minutes: 'For the record, we only missed it because YOUR team sent the data three days late, as usual. Maybe check your own process before blaming mine.'",
+   "after": "Reply to the peer only: 'Got it - I'll come back to you by 2 pm.' After lunch and an hour on other work: 'Hi Sam, I want to fix the handover too. On our side, we received the inputs on Tuesday rather than Friday, which pushed us back. Could we agree a cut-off date for inputs and a quick check-in the day before? Happy to talk it through.'",
+   "why": "The holding line meets the need to respond without committing to a hot-state reply, and the delay spent on other work let the anger fade, so the final message fixes the process instead of starting a public feud in front of both managers."
+  },
+  "source_urls": [
+   "https://cris.maastrichtuniversity.nl/ws/files/1534628/guid-c61f2076-5a3b-4d0c-a1cc-fc19bb61c33e-ASSET1.0.pdf",
+   "https://www.london.edu/faculty-and-research/academic-research/r/retribution-and-emotional-regulation-the-effects-of-time-delay-in-angry",
+   "https://dare.uva.nl/id/2f4440f9-9b8e-4456-a832-5c25fa2b578b",
+   "https://www.awi.uni-heidelberg.de/md/awi/forschung/dp463.pdf",
+   "https://longevity.stanford.edu/?p=21187",
+   "https://www.beyondintractability.org/essay/cooling-off-periods",
+   "https://www.shrm.org/mena/topics-tools/news/employee-relations/viewpoint-how-to-manage-anger-work"
+  ]
+ },
+ {
   "id": "cm:credibility",
   "title": "Credibility",
   "aliases": [

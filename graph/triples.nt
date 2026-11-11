@@ -2140,6 +2140,88 @@
 <https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> <https://github.com/john1hsu/communication-graph/ontology#studiedIn> <https://github.com/john1hsu/communication-graph/id/conversation-analysis> .
 <https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/levinson-2016> .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Would I be comfortable with this reply being forwarded to my manager and read tomorrow morning?" .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/cooling-off-period> .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Am I replying now because the situation needs it, or because my anger wants it?" .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/cooling-off-period> .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "During the pause, was I distracting myself or replaying the grievance over and over?" .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/cooling-off-period> .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Did I tell the other person when they will hear back, so the delay doesn't read as silence or avoidance?" .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/cooling-off-period> .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period/example> <https://github.com/john1hsu/communication-graph/ontology#after> "Reply to the peer only: 'Got it - I'll come back to you by 2 pm.' After lunch and an hour on other work: 'Hi Sam, I want to fix the handover too. On our side, we received the inputs on Tuesday rather than Friday, which pushed us back. Could we agree a cut-off date for inputs and a quick check-in the day before? Happy to talk it through.'" .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period/example> <https://github.com/john1hsu/communication-graph/ontology#before> "Reply-all within two minutes: 'For the record, we only missed it because YOUR team sent the data three days late, as usual. Maybe check your own process before blaming mine.'" .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "A project lead gets a terse message from a peer in another department, copied to both their managers, saying her team \"missed the handover again\" when the delay was caused by the peer's late inputs." .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period/example> <https://github.com/john1hsu/communication-graph/ontology#why> "The holding line meets the need to respond without committing to a hot-state reply, and the delay spent on other work let the anger fade, so the final message fixes the process instead of starting a public feud in front of both managers." .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period/howto/1> <https://schema.org/text> "Notice the trigger - a racing pulse, clenched jaw, or an urge to reply right now - and rate your anger from 1 to 10." .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period/howto/2> <https://schema.org/text> "Say or send a short holding line (\"Thanks, I want to give this proper thought and will reply by 3 pm\") instead of your full reaction." .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period/howto/3> <https://schema.org/text> "If you must write, draft the reply with the recipient field empty, or save it unsent." .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period/howto/4> <https://schema.org/text> "Spend the gap on an unrelated task, a walk or other work, not on rereading the message or rehearsing comebacks to colleagues." .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period/howto/5> <https://schema.org/text> "Before you return, ask what outcome you actually want from this exchange and what the other person may have meant." .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period/howto/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period/howto/6> <https://schema.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period/howto/6> <https://schema.org/text> "Come back when your rating has dropped to a 3 or 4, reread the original and your draft, then cut anything written to wound and send or say the considered version." .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period/howto> <https://schema.org/name> "Cooling-off period" .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/cooling-off-period/howto/1> .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/cooling-off-period/howto/2> .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/cooling-off-period/howto/3> .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/cooling-off-period/howto/4> .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/cooling-off-period/howto/5> .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/cooling-off-period/howto/6> .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period> <http://purl.org/dc/terms/created> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Technique> .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period> <http://www.w3.org/2000/01/rdf-schema#label> "Cooling-off period" .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period> <http://www.w3.org/2004/02/skos/core#altLabel> "draft and delay" .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period> <http://www.w3.org/2004/02/skos/core#altLabel> "going to the balcony" .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period> <http://www.w3.org/2004/02/skos/core#altLabel> "sleep on it" .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period> <http://www.w3.org/2004/02/skos/core#altLabel> "time delay before responding" .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/conflict-resolution> .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/emotion-regulation> .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period> <http://www.w3.org/2004/02/skos/core#definition> "Deliberately putting time between a provoking message or moment and your reply or decision, and spending that time on something other than replaying the grievance, so that you respond from a calmer state than the one the provocation put you in." .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/difficult-conversations-and-conflict> .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cooling-off period" .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/de-escalation> .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/difficult-conversation> .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/email> .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/empathy-gap> .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/labeling-emotions> .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/negotiation> .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/self-distancing> .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/cooling-off-period/s1> .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/cooling-off-period/s2> .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/cooling-off-period/s3> .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/cooling-off-period/s4> .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/cooling-off-period/s5> .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/cooling-off-period/s6> .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/cooling-off-period/s7> .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/empathy-gap> .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/difficult-conversation> .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/negotiation> .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/oechssler-roider-schmitz-2008> .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/grimm-mengel-2011> .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period> <https://github.com/john1hsu/communication-graph/ontology#domain> "difficult-conversations-and-conflict" .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/cooling-off-period/example> .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/difficult-conversations-and-conflict/cooling-off-period.md" .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/cooling-off-period/howto> .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/harinck-de-dreu-2008> .
+<https://github.com/john1hsu/communication-graph/id/cooling-off-period> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/wang-et-al-2011> .
 <https://github.com/john1hsu/communication-graph/id/credibility/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/credibility/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "If I asked two trusted colleagues how credible I am on this topic, would their answer match mine?" .
 <https://github.com/john1hsu/communication-graph/id/credibility/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/credibility> .
@@ -10519,6 +10601,48 @@
 <https://github.com/john1hsu/communication-graph/id/source/conversational-turn-taking/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/conversational-turn-taking/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/communication-graph/id/source/conversational-turn-taking/s6> <https://schema.org/url> <https://pubmed.ncbi.nlm.nih.gov/20929725/> .
+<https://github.com/john1hsu/communication-graph/id/source/cooling-off-period/s1> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/cooling-off-period/s1> <http://purl.org/dc/terms/publisher> "Grimm & Mengel, METEOR Research Memorandum RM/10/017, Maastricht University, 2010" .
+<https://github.com/john1hsu/communication-graph/id/source/cooling-off-period/s1> <http://purl.org/dc/terms/title> "Let me sleep on it: Delay reduces rejection rates in Ultimatum Games (working-paper version of Economics Letters 111(2), 113-115, 2011)" .
+<https://github.com/john1hsu/communication-graph/id/source/cooling-off-period/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/cooling-off-period/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/cooling-off-period/s1> <https://schema.org/url> <https://cris.maastrichtuniversity.nl/ws/files/1534628/guid-c61f2076-5a3b-4d0c-a1cc-fc19bb61c33e-ASSET1.0.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/cooling-off-period/s2> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/cooling-off-period/s2> <http://purl.org/dc/terms/publisher> "Wang, Sivanathan, Bauer, Bodenhausen, Murnighan and colleagues, Organizational Behavior and Human Decision Processes, 2011 (London Business School research record)" .
+<https://github.com/john1hsu/communication-graph/id/source/cooling-off-period/s2> <http://purl.org/dc/terms/title> "Retribution and emotional regulation: The effects of time delay in angry economic interactions" .
+<https://github.com/john1hsu/communication-graph/id/source/cooling-off-period/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/cooling-off-period/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/cooling-off-period/s2> <https://schema.org/url> <https://www.london.edu/faculty-and-research/academic-research/r/retribution-and-emotional-regulation-the-effects-of-time-delay-in-angry> .
+<https://github.com/john1hsu/communication-graph/id/source/cooling-off-period/s3> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/cooling-off-period/s3> <http://purl.org/dc/terms/publisher> "Harinck & De Dreu, Journal of Experimental Social Psychology 44(2), 397-404, 2008 (University of Amsterdam repository record)" .
+<https://github.com/john1hsu/communication-graph/id/source/cooling-off-period/s3> <http://purl.org/dc/terms/title> "Take a break! Or not? The impact of mindsets during breaks on negotiation processes and outcomes" .
+<https://github.com/john1hsu/communication-graph/id/source/cooling-off-period/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/cooling-off-period/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/cooling-off-period/s3> <https://schema.org/url> <https://dare.uva.nl/id/2f4440f9-9b8e-4456-a832-5c25fa2b578b> .
+<https://github.com/john1hsu/communication-graph/id/source/cooling-off-period/s4> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/cooling-off-period/s4> <http://purl.org/dc/terms/publisher> "Oechssler, Roider & Schmitz, University of Heidelberg Department of Economics Discussion Paper No. 463, 2008" .
+<https://github.com/john1hsu/communication-graph/id/source/cooling-off-period/s4> <http://purl.org/dc/terms/title> "Cooling-off in negotiations - does it work?" .
+<https://github.com/john1hsu/communication-graph/id/source/cooling-off-period/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/cooling-off-period/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/cooling-off-period/s4> <https://schema.org/url> <https://www.awi.uni-heidelberg.de/md/awi/forschung/dp463.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/cooling-off-period/s5> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/cooling-off-period/s5> <http://purl.org/dc/terms/publisher> "Stanford Center on Longevity, Stanford University" .
+<https://github.com/john1hsu/communication-graph/id/source/cooling-off-period/s5> <http://purl.org/dc/terms/title> "Hot-cold empathy gaps and medical decision making (summary of Loewenstein, Health Psychology, 2005)" .
+<https://github.com/john1hsu/communication-graph/id/source/cooling-off-period/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/cooling-off-period/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/cooling-off-period/s5> <https://schema.org/url> <https://longevity.stanford.edu/?p=21187> .
+<https://github.com/john1hsu/communication-graph/id/source/cooling-off-period/s6> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/cooling-off-period/s6> <http://purl.org/dc/terms/publisher> "Heidi Burgess, Beyond Intractability, Conflict Information Consortium, University of Colorado Boulder, 2004" .
+<https://github.com/john1hsu/communication-graph/id/source/cooling-off-period/s6> <http://purl.org/dc/terms/title> "Cooling-off periods" .
+<https://github.com/john1hsu/communication-graph/id/source/cooling-off-period/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/cooling-off-period/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/cooling-off-period/s6> <https://schema.org/url> <https://www.beyondintractability.org/essay/cooling-off-periods> .
+<https://github.com/john1hsu/communication-graph/id/source/cooling-off-period/s7> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/cooling-off-period/s7> <http://purl.org/dc/terms/publisher> "Liz Fosslien & Mollie West Duffy, SHRM, 2022" .
+<https://github.com/john1hsu/communication-graph/id/source/cooling-off-period/s7> <http://purl.org/dc/terms/title> "Viewpoint: How to manage anger at work (reprinted from Harvard Business Review)" .
+<https://github.com/john1hsu/communication-graph/id/source/cooling-off-period/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/cooling-off-period/s7> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "practitioner-journal" .
+<https://github.com/john1hsu/communication-graph/id/source/cooling-off-period/s7> <https://schema.org/url> <https://www.shrm.org/mena/topics-tools/news/employee-relations/viewpoint-how-to-manage-anger-work> .
 <https://github.com/john1hsu/communication-graph/id/source/credibility/s1> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/credibility/s1> <http://purl.org/dc/terms/publisher> "Hovland & Weiss, Public Opinion Quarterly 15(4), 635-650 (1951) (copy hosted by the University of North Carolina)" .
 <https://github.com/john1hsu/communication-graph/id/source/credibility/s1> <http://purl.org/dc/terms/title> "The Influence of Source Credibility on Communication Effectiveness" .

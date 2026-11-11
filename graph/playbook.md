@@ -200,6 +200,29 @@ Ask yourself:
 - Have I offered a concrete repair and a change with a date, and will I actually follow through?
 - Is this a lapse of skill, where apologizing helps, or an accusation about my honesty that I believe is false, where admitting it could backfire?
 
+### [Cooling-off period](../articles/difficult-conversations-and-conflict/cooling-off-period.md) — Technique
+
+1. Notice the trigger - a racing pulse, clenched jaw, or an urge to reply right now - and rate your anger from 1 to 10.
+2. Say or send a short holding line ("Thanks, I want to give this proper thought and will reply by 3 pm") instead of your full reaction.
+3. If you must write, draft the reply with the recipient field empty, or save it unsent.
+4. Spend the gap on an unrelated task, a walk or other work, not on rereading the message or rehearsing comebacks to colleagues.
+5. Before you return, ask what outcome you actually want from this exchange and what the other person may have meant.
+6. Come back when your rating has dropped to a 3 or 4, reread the original and your draft, then cut anything written to wound and send or say the considered version.
+
+*A project lead gets a terse message from a peer in another department, copied to both their managers, saying her team "missed the handover again" when the delay was caused by the peer's late inputs.*
+
+| Before | After |
+|---|---|
+| Reply-all within two minutes: 'For the record, we only missed it because YOUR team sent the data three days late, as usual. Maybe check your own process before blaming mine.' | Reply to the peer only: 'Got it - I'll come back to you by 2 pm.' After lunch and an hour on other work: 'Hi Sam, I want to fix the handover too. On our side, we received the inputs on Tuesday rather than Friday, which pushed us back. Could we agree a cut-off date for inputs and a quick check-in the day before? Happy to talk it through.' |
+
+**Why:** The holding line meets the need to respond without committing to a hot-state reply, and the delay spent on other work let the anger fade, so the final message fixes the process instead of starting a public feud in front of both managers.
+
+Ask yourself:
+- Would I be comfortable with this reply being forwarded to my manager and read tomorrow morning?
+- Am I replying now because the situation needs it, or because my anger wants it?
+- During the pause, was I distracting myself or replaying the grievance over and over?
+- Did I tell the other person when they will hear back, so the delay doesn't read as silence or avoidance?
+
 ### [De-escalation](../articles/difficult-conversations-and-conflict/de-escalation.md) — Technique
 
 1. Check safety first - yours and others' - and if a threat or hostile act looks imminent, step away and call security or emergency services instead of talking.

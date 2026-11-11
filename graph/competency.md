@@ -6,9 +6,7 @@ SPARQL queries in `queries/` run over the asserted graph, the OWL-RL inferences 
 
 _Which written barriers or anti-patterns have nothing in the graph that addresses them?_ — `queries/01-problems-without-fix.rq`
 
-| node | type |
-|---|---|
-| `cm:empathy-gap` | cmo:Barrier |
+_No results._
 
 ## Skills with no practice technique (gap)
 
@@ -59,7 +57,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:charismatic-leadership-tactics` | 1 | Executive presence |
 | `cm:communicating-uncertainty` | 1 | vague-probability-language |
 
-…and 33 more.
+…and 34 more.
 
 ## Toolkit by situation
 
@@ -82,6 +80,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:delivering-bad-news` | `cm:social-accounts` |
 | `cm:difficult-conversation` | `cm:active-listening` |
 | `cm:difficult-conversation` | `cm:conversational-receptiveness` |
+| `cm:difficult-conversation` | `cm:cooling-off-period` |
 | `cm:difficult-conversation` | `cm:de-escalation` |
 | `cm:difficult-conversation` | `cm:face-and-facework` |
 | `cm:difficult-conversation` | `cm:i-statements` |
@@ -96,9 +95,8 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:email` | `cm:email-urgency-bias-study` |
 | `cm:email` | `cm:emoji-and-tone-in-text` |
 | `cm:email` | `cm:kushlev-dunn-2015` |
-| `cm:email` | `cm:media-richness-theory` |
 
-…and 87 more.
+…and 89 more.
 
 ## Myths and contested advice
 
@@ -137,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:batna` | mixed | `cm:schaerer-swaab-galinsky-2015` |
 | `cm:bulleted-and-numbered-lists` | mixed | `cm:columbia-accident-investigation-board-report` |
 
-…and 118 more.
+…and 119 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -147,6 +145,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 |---|---|
 | `cm:burying-the-lede` | cmo:AntiPattern |
 | `cm:business-report` | cmo:Genre |
+| `cm:cooling-off-period` | cmo:Technique |
 | `cm:executive-summary` | cmo:Genre |
 | `cm:gestures` | cmo:Skill |
 | `cm:informative-headings` | cmo:Technique |
@@ -174,9 +173,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:presentation` | cmo:Context |
 | `cm:presentation-rehearsal` | cmo:Technique |
 | `cm:raci-matrix` | cmo:Technique |
-| `cm:rapport` | cmo:Concept |
 
-…and 25 more.
+…and 26 more.
 
 ## Orphan articles (gap)
 
