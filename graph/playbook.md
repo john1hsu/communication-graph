@@ -1124,6 +1124,29 @@ Ask yourself:
 - Did I keep evaluation - including my own reactions - out of the generation phase?
 - Did I separate choosing ideas from producing them, with criteria agreed in advance?
 
+### [Devil's advocacy](../articles/meetings-and-facilitation/devils-advocacy.md) — Technique
+
+1. Write down the leading proposal in one or two sentences, with the key assumptions and evidence it rests on, and share it with the group.
+2. Name the devil's advocate (a person or small sub-team) openly, explain that the role is assigned, and rotate it so it never sticks to one person.
+3. Give the advocate time before the meeting to pick the assumptions most open to challenge and to look for weak evidence, gaps and facts that point elsewhere.
+4. Have the advocate present the critique to the group, and ask the proposal's owner to respond to each point on the merits rather than defend the plan as a whole.
+5. Record which objections change the plan, which need more analysis, and which are answered, then decide, and label any written critique as a devil's-advocate exercise.
+6. Invite anyone who genuinely disagrees to say so in their own name, because sincere dissent is more valuable than the assigned role.
+
+*A product team of six is about to approve moving its customer-support tool to a new vendor; the head of support proposed it and everyone in the meeting has nodded along.*
+
+| Before | After |
+|---|---|
+| Sounds like we're all aligned on the switch. Any objections? No? Great, let's sign the contract this week. | Before we sign, Priya will play devil's advocate - that's an assigned role, not her personal view. Priya, take the three assumptions you think are weakest and make the best case against the switch on Thursday. Then Sam, as the owner, answers each point, and we decide. |
+
+**Why:** An open call for objections in a room that already seems agreed rarely surfaces doubts; assigning and labelling the critic role makes challenge expected rather than disloyal, and forces the owner to answer specific weaknesses before the commitment is made.
+
+Ask yourself:
+- Did I state the proposal and its key assumptions clearly enough that someone could attack them?
+- Did everyone know the advocate was playing an assigned role, so the critique was not taken personally?
+- Did we actually change, test or caveat anything in response to the critique, or just listen and proceed?
+- Is anyone in the room sincerely unconvinced, and have I given them a real chance to say so?
+
 ### [Facilitation](../articles/meetings-and-facilitation/facilitation.md) — Skill
 
 Ask yourself:

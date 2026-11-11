@@ -728,6 +728,16 @@
 <https://github.com/john1hsu/communication-graph/id/brainstorming#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/brainstorming/s4> .
 <https://github.com/john1hsu/communication-graph/id/brainstorming#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/brainstorming/s5> .
 <https://github.com/john1hsu/communication-graph/id/brainstorming#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/brainstorming/s6> .
+<https://github.com/john1hsu/communication-graph/id/devils-advocacy#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/devils-advocacy#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/devils-advocacy> .
+<https://github.com/john1hsu/communication-graph/id/devils-advocacy#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/meetings-and-facilitation/devils-advocacy.md" .
+<https://github.com/john1hsu/communication-graph/id/devils-advocacy#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s1> .
+<https://github.com/john1hsu/communication-graph/id/devils-advocacy#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s2> .
+<https://github.com/john1hsu/communication-graph/id/devils-advocacy#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s3> .
+<https://github.com/john1hsu/communication-graph/id/devils-advocacy#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s4> .
+<https://github.com/john1hsu/communication-graph/id/devils-advocacy#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s5> .
+<https://github.com/john1hsu/communication-graph/id/devils-advocacy#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s6> .
+<https://github.com/john1hsu/communication-graph/id/devils-advocacy#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s7> .
 <https://github.com/john1hsu/communication-graph/id/facilitation#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/facilitation#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/facilitation> .
 <https://github.com/john1hsu/communication-graph/id/facilitation#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/meetings-and-facilitation/facilitation.md" .
@@ -9693,6 +9703,129 @@
   <https://github.com/john1hsu/communication-graph/id/source/brainstorming/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
   <https://github.com/john1hsu/communication-graph/id/source/brainstorming/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
   <https://github.com/john1hsu/communication-graph/id/source/brainstorming/s6> <https://schema.org/url> <https://psychologicalscience.org/?p=121811> .
+}
+
+<https://github.com/john1hsu/communication-graph/id/devils-advocacy#graph> {
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Did I state the proposal and its key assumptions clearly enough that someone could attack them?" .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/devils-advocacy> .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Did everyone know the advocate was playing an assigned role, so the critique was not taken personally?" .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/devils-advocacy> .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Did we actually change, test or caveat anything in response to the critique, or just listen and proceed?" .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/devils-advocacy> .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Is anyone in the room sincerely unconvinced, and have I given them a real chance to say so?" .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/devils-advocacy> .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy/example> <https://github.com/john1hsu/communication-graph/ontology#after> "Before we sign, Priya will play devil's advocate - that's an assigned role, not her personal view. Priya, take the three assumptions you think are weakest and make the best case against the switch on Thursday. Then Sam, as the owner, answers each point, and we decide." .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy/example> <https://github.com/john1hsu/communication-graph/ontology#before> "Sounds like we're all aligned on the switch. Any objections? No? Great, let's sign the contract this week." .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "A product team of six is about to approve moving its customer-support tool to a new vendor; the head of support proposed it and everyone in the meeting has nodded along." .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy/example> <https://github.com/john1hsu/communication-graph/ontology#why> "An open call for objections in a room that already seems agreed rarely surfaces doubts; assigning and labelling the critic role makes challenge expected rather than disloyal, and forces the owner to answer specific weaknesses before the commitment is made." .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy/howto/1> <https://schema.org/text> "Write down the leading proposal in one or two sentences, with the key assumptions and evidence it rests on, and share it with the group." .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy/howto/2> <https://schema.org/text> "Name the devil's advocate (a person or small sub-team) openly, explain that the role is assigned, and rotate it so it never sticks to one person." .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy/howto/3> <https://schema.org/text> "Give the advocate time before the meeting to pick the assumptions most open to challenge and to look for weak evidence, gaps and facts that point elsewhere." .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy/howto/4> <https://schema.org/text> "Have the advocate present the critique to the group, and ask the proposal's owner to respond to each point on the merits rather than defend the plan as a whole." .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy/howto/5> <https://schema.org/text> "Record which objections change the plan, which need more analysis, and which are answered, then decide, and label any written critique as a devil's-advocate exercise." .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy/howto/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy/howto/6> <https://schema.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy/howto/6> <https://schema.org/text> "Invite anyone who genuinely disagrees to say so in their own name, because sincere dissent is more valuable than the assigned role." .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy/howto> <https://schema.org/name> "Devil's advocacy" .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/devils-advocacy/howto/1> .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/devils-advocacy/howto/2> .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/devils-advocacy/howto/3> .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/devils-advocacy/howto/4> .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/devils-advocacy/howto/5> .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/devils-advocacy/howto/6> .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy> <http://purl.org/dc/terms/created> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Technique> .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy> <http://www.w3.org/2000/01/rdf-schema#label> "Devil's advocacy" .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy> <http://www.w3.org/2004/02/skos/core#altLabel> "assigned dissent" .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy> <http://www.w3.org/2004/02/skos/core#altLabel> "contrived dissent" .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy> <http://www.w3.org/2004/02/skos/core#altLabel> "devil's advocate technique" .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy> <http://www.w3.org/2004/02/skos/core#altLabel> "playing devil's advocate" .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/facilitation> .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/group-decision-making> .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy> <http://www.w3.org/2004/02/skos/core#definition> "A structured way to bring constructive challenge into a group decision by assigning a person or sub-team to critique the leading proposal - its assumptions, evidence and logic - before the group commits. It beats unchallenged expert recommendations in experiments, but role-played dissent is weaker than a colleague who sincerely disagrees." .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/meetings-and-facilitation> .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy> <http://www.w3.org/2004/02/skos/core#prefLabel> "Devil's advocacy" .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/unequal-participation> .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/workplace-meetings> .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s1> .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s2> .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s3> .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s4> .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s5> .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s6> .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s7> .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/escalation-of-commitment> .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy> <https://github.com/john1hsu/communication-graph/ontology#alternativeTo> <https://github.com/john1hsu/communication-graph/id/dialectical-inquiry> .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/group-decision-making> .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/schulz-hardt-jochims-frey-2002> .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/schwenk-1990> .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy> <https://github.com/john1hsu/communication-graph/ontology#domain> "meetings-and-facilitation" .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/devils-advocacy/example> .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/meetings-and-facilitation/devils-advocacy.md" .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/devils-advocacy/howto> .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/facilitation> .
+  <https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s1> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s1> <http://purl.org/dc/terms/publisher> "U.S. Government (Central Intelligence Agency, Center for the Study of Intelligence), March 2009" .
+  <https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s1> <http://purl.org/dc/terms/title> "A Tradecraft Primer: Structured Analytic Techniques for Improving Intelligence Analysis" .
+  <https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
+  <https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s1> <https://schema.org/url> <https://www.cia.gov/resources/csi/static/955180a45afe3f5013772c313b16face/Tradecraft-Primer-apr09.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s2> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s2> <http://purl.org/dc/terms/publisher> "Charles R. Schwenk, Organizational Behavior and Human Decision Processes 47(1), 161-176, 1990 (bibliographic record and abstract)" .
+  <https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s2> <http://purl.org/dc/terms/title> "Effects of devil's advocacy and dialectical inquiry on decision making: A meta-analysis" .
+  <https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s2> <https://schema.org/url> <https://data.zhenzhi.com/details/1/999233521> .
+  <https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s3> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s3> <http://purl.org/dc/terms/publisher> "Charles Schwenk & Joseph S. Valacich, Organizational Behavior and Human Decision Processes 59(2), 210-222, 1994 (University of Arizona research portal)" .
+  <https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s3> <http://purl.org/dc/terms/title> "Effects of devil's advocacy and dialectical inquiry on individuals versus groups" .
+  <https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s3> <https://schema.org/url> <https://experts.arizona.edu/en/publications/effects-of-devils-advocacy-and-dialectical-inquiry-on-individuals/> .
+  <https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s4> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s4> <http://purl.org/dc/terms/publisher> "Joseph S. Valacich & Charles Schwenk, Organizational Behavior and Human Decision Processes 63(2), 158-173, 1995 (University of Arizona research portal)" .
+  <https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s4> <http://purl.org/dc/terms/title> "Devil's advocacy and dialectical inquiry effects on face-to-face and computer-mediated group decision making" .
+  <https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s4> <https://schema.org/url> <https://experts.arizona.edu/en/publications/devils-advocacy-and-dialectical-inquiry-effects-on-face-to-face-a/> .
+  <https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s5> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s5> <http://purl.org/dc/terms/publisher> "Stefan Schulz-Hardt, Marc Jochims & Dieter Frey, Organizational Behavior and Human Decision Processes 88(2), 563-586, 2002 (Göttingen research repository)" .
+  <https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s5> <http://purl.org/dc/terms/title> "Productive conflict in group decision making: Genuine and contrived dissent as strategies to counteract biased information seeking" .
+  <https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s5> <https://schema.org/url> <https://dspacecris7.sub.uni-goettingen.de/entities/publication/5430670e-048e-422d-b490-06a1f98376f8> .
+  <https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s6> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s6> <http://purl.org/dc/terms/publisher> "Tobias Greitemeyer, Stefan Schulz-Hardt & Dieter Frey, European Journal of Social Psychology, 2009 (Göttingen Research Online record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s6> <http://purl.org/dc/terms/title> "The effects of authentic and contrived dissent on escalation of commitment in group decision making" .
+  <https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s6> <https://schema.org/url> <https://publications.goettingen-research-online.de/ID-8347> .
+  <https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s7> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s7> <http://purl.org/dc/terms/publisher> "Encyclopaedia Britannica" .
+  <https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s7> <http://purl.org/dc/terms/title> "Devil's advocate" .
+  <https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s7> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "encyclopedia" .
+  <https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s7> <https://schema.org/url> <https://www.britannica.com/topic/devils-advocate> .
 }
 
 <https://github.com/john1hsu/communication-graph/id/facilitation#graph> {
@@ -19959,6 +20092,7 @@
   <https://github.com/john1hsu/communication-graph/id/active-listening> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/conversational-receptiveness> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/de-escalation> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> .
+  <https://github.com/john1hsu/communication-graph/id/active-listening> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/devils-advocacy> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/difficult-conversation> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/facilitation> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/feedforward> .
@@ -21136,6 +21270,18 @@
   <https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/intercultural-competence> .
   <https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/multicultural-team> .
   <https://github.com/john1hsu/communication-graph/id/detert-burris-2007> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/humble-inquiry> .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/facilitation> .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/group-communication> .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/group-decision-making> .
+  <https://github.com/john1hsu/communication-graph/id/devils-advocacy> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+  <https://github.com/john1hsu/communication-graph/id/dialectical-inquiry> <https://github.com/john1hsu/communication-graph/ontology#alternativeTo> <https://github.com/john1hsu/communication-graph/id/devils-advocacy> .
   <https://github.com/john1hsu/communication-graph/id/diamond-of-participatory-decision-making> <https://github.com/john1hsu/communication-graph/ontology#introducedIn> <https://github.com/john1hsu/communication-graph/id/facilitators-guide-to-participatory-decision-making> .
   <https://github.com/john1hsu/communication-graph/id/dibble-2017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/dibble-2017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
@@ -21454,6 +21600,7 @@
   <https://github.com/john1hsu/communication-graph/id/erving-goffman> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/erving-goffman> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
   <https://github.com/john1hsu/communication-graph/id/erving-goffman> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/mea-culpa> .
+  <https://github.com/john1hsu/communication-graph/id/escalation-of-commitment> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/devils-advocacy> .
   <https://github.com/john1hsu/communication-graph/id/ethnocentrism/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/ethnocentrism/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/ethnocentrism/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -21577,10 +21724,12 @@
   <https://github.com/john1hsu/communication-graph/id/facilitation> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/group-communication> .
   <https://github.com/john1hsu/communication-graph/id/facilitation> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/1-2-4-all> .
   <https://github.com/john1hsu/communication-graph/id/facilitation> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/brainstorming> .
+  <https://github.com/john1hsu/communication-graph/id/facilitation> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/devils-advocacy> .
   <https://github.com/john1hsu/communication-graph/id/facilitation> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/facilitators-guide-to-participatory-decision-making> .
   <https://github.com/john1hsu/communication-graph/id/facilitation> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> .
   <https://github.com/john1hsu/communication-graph/id/facilitation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/1-2-4-all> .
   <https://github.com/john1hsu/communication-graph/id/facilitation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/brainstorming> .
+  <https://github.com/john1hsu/communication-graph/id/facilitation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/devils-advocacy> .
   <https://github.com/john1hsu/communication-graph/id/facilitation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/facilitators-guide-to-participatory-decision-making> .
   <https://github.com/john1hsu/communication-graph/id/facilitation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> .
   <https://github.com/john1hsu/communication-graph/id/facilitation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/group-decision-making> .
@@ -21591,6 +21740,7 @@
   <https://github.com/john1hsu/communication-graph/id/facilitation> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/meeting-agendas> .
   <https://github.com/john1hsu/communication-graph/id/facilitation> <https://github.com/john1hsu/communication-graph/ontology#developedBy> <https://github.com/john1hsu/communication-graph/id/1-2-4-all> .
   <https://github.com/john1hsu/communication-graph/id/facilitation> <https://github.com/john1hsu/communication-graph/ontology#introducedIn> <https://github.com/john1hsu/communication-graph/id/facilitators-guide-to-participatory-decision-making> .
+  <https://github.com/john1hsu/communication-graph/id/facilitation> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/devils-advocacy> .
   <https://github.com/john1hsu/communication-graph/id/facilitation> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/group-decision-making> .
   <https://github.com/john1hsu/communication-graph/id/facilitators-guide-to-participatory-decision-making> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/facilitators-guide-to-participatory-decision-making> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/facilitation> .
@@ -21892,6 +22042,7 @@
   <https://github.com/john1hsu/communication-graph/id/group-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/workplace-meetings> .
   <https://github.com/john1hsu/communication-graph/id/group-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/1-2-4-all> .
   <https://github.com/john1hsu/communication-graph/id/group-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/brainstorming> .
+  <https://github.com/john1hsu/communication-graph/id/group-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/devils-advocacy> .
   <https://github.com/john1hsu/communication-graph/id/group-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/executive-briefing> .
   <https://github.com/john1hsu/communication-graph/id/group-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/facilitation> .
   <https://github.com/john1hsu/communication-graph/id/group-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/facilitators-guide-to-participatory-decision-making> .
@@ -21907,10 +22058,13 @@
   <https://github.com/john1hsu/communication-graph/id/group-decision-making> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/group-communication> .
   <https://github.com/john1hsu/communication-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/brainstorming> .
+  <https://github.com/john1hsu/communication-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/devils-advocacy> .
   <https://github.com/john1hsu/communication-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> .
   <https://github.com/john1hsu/communication-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/brainstorming> .
+  <https://github.com/john1hsu/communication-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/devils-advocacy> .
   <https://github.com/john1hsu/communication-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> .
   <https://github.com/john1hsu/communication-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/murray-turoff> .
+  <https://github.com/john1hsu/communication-graph/id/group-decision-making> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/devils-advocacy> .
   <https://github.com/john1hsu/communication-graph/id/group-decision-making> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/active-listening> .
   <https://github.com/john1hsu/communication-graph/id/grow-model/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/grow-model/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -23051,6 +23205,7 @@
   <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/group-decision-making> .
   <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/1-2-4-all> .
   <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/brainstorming> .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/devils-advocacy> .
   <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/facilitation> .
   <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/facilitators-guide-to-participatory-decision-making> .
   <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/group-decision-making> .
@@ -23571,6 +23726,7 @@
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/brainstorming> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/conflict-resolution> .
+  <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/devils-advocacy> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/emotional-contagion> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/facilitation> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/facilitators-guide-to-participatory-decision-making> .
@@ -23906,6 +24062,10 @@
   <https://github.com/john1hsu/communication-graph/id/schulz-hardt-et-al-2006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/schulz-hardt-et-al-2006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/schulz-hardt-et-al-2006> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/group-decision-making> .
+  <https://github.com/john1hsu/communication-graph/id/schulz-hardt-jochims-frey-2002> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/devils-advocacy> .
+  <https://github.com/john1hsu/communication-graph/id/schwenk-1990> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/schwenk-1990> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
+  <https://github.com/john1hsu/communication-graph/id/schwenk-1990> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/devils-advocacy> .
   <https://github.com/john1hsu/communication-graph/id/scott-fahlman> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/scqa-framework> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/pyramid-principle> .
   <https://github.com/john1hsu/communication-graph/id/seehausen-et-al-2012> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/paraphrasing> .
@@ -24425,6 +24585,7 @@
   <https://github.com/john1hsu/communication-graph/id/unequal-participation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/unequal-participation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/unequal-participation> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/group-communication> .
+  <https://github.com/john1hsu/communication-graph/id/unequal-participation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/devils-advocacy> .
   <https://github.com/john1hsu/communication-graph/id/unequal-participation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/group-decision-making> .
   <https://github.com/john1hsu/communication-graph/id/unequal-participation> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/1-2-4-all> .
   <https://github.com/john1hsu/communication-graph/id/unequal-participation> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/facilitation> .
@@ -24627,6 +24788,7 @@
   <https://github.com/john1hsu/communication-graph/id/workplace-meetings> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> .
   <https://github.com/john1hsu/communication-graph/id/workplace-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/brainstorming> .
   <https://github.com/john1hsu/communication-graph/id/workplace-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> .
+  <https://github.com/john1hsu/communication-graph/id/workplace-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/devils-advocacy> .
   <https://github.com/john1hsu/communication-graph/id/workplace-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/facilitators-guide-to-participatory-decision-making> .
   <https://github.com/john1hsu/communication-graph/id/workplace-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/group-decision-making> .
   <https://github.com/john1hsu/communication-graph/id/workplace-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/silence-and-pauses> .

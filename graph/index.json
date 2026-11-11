@@ -4955,6 +4955,112 @@
   ]
  },
  {
+  "id": "cm:devils-advocacy",
+  "title": "Devil's advocacy",
+  "aliases": [
+   "devil's advocate technique",
+   "playing devil's advocate",
+   "assigned dissent",
+   "contrived dissent"
+  ],
+  "type": "Technique",
+  "domain": "meetings-and-facilitation",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/meetings-and-facilitation/devils-advocacy.md",
+  "created": "2026-11-11",
+  "summary": "A structured way to bring constructive challenge into a group decision by assigning a person or sub-team to critique the leading proposal - its assumptions, evidence and logic - before the group commits. It beats unchallenged expert recommendations in experiments, but role-played dissent is weaker than a colleague who sincerely disagrees.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:facilitation"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "cm:group-decision-making"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:psychological-safety"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:nominal-group-technique"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:unequal-participation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:workplace-meetings"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:facilitation"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:group-decision-making",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:schwenk-1990",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:alternativeTo",
+    "object": "cm:dialectical-inquiry",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:escalation-of-commitment",
+    "source": "s6",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:schulz-hardt-jochims-frey-2002",
+    "source": "s5",
+    "confidence": "high"
+   }
+  ],
+  "selfCheck": [
+   "Did I state the proposal and its key assumptions clearly enough that someone could attack them?",
+   "Did everyone know the advocate was playing an assigned role, so the critique was not taken personally?",
+   "Did we actually change, test or caveat anything in response to the critique, or just listen and proceed?",
+   "Is anyone in the room sincerely unconvinced, and have I given them a real chance to say so?"
+  ],
+  "steps": [
+   "Write down the leading proposal in one or two sentences, with the key assumptions and evidence it rests on, and share it with the group.",
+   "Name the devil's advocate (a person or small sub-team) openly, explain that the role is assigned, and rotate it so it never sticks to one person.",
+   "Give the advocate time before the meeting to pick the assumptions most open to challenge and to look for weak evidence, gaps and facts that point elsewhere.",
+   "Have the advocate present the critique to the group, and ask the proposal's owner to respond to each point on the merits rather than defend the plan as a whole.",
+   "Record which objections change the plan, which need more analysis, and which are answered, then decide, and label any written critique as a devil's-advocate exercise.",
+   "Invite anyone who genuinely disagrees to say so in their own name, because sincere dissent is more valuable than the assigned role."
+  ],
+  "example": {
+   "situation": "A product team of six is about to approve moving its customer-support tool to a new vendor; the head of support proposed it and everyone in the meeting has nodded along.",
+   "before": "Sounds like we're all aligned on the switch. Any objections? No? Great, let's sign the contract this week.",
+   "after": "Before we sign, Priya will play devil's advocate - that's an assigned role, not her personal view. Priya, take the three assumptions you think are weakest and make the best case against the switch on Thursday. Then Sam, as the owner, answers each point, and we decide.",
+   "why": "An open call for objections in a room that already seems agreed rarely surfaces doubts; assigning and labelling the critic role makes challenge expected rather than disloyal, and forces the owner to answer specific weaknesses before the commitment is made."
+  },
+  "source_urls": [
+   "https://www.cia.gov/resources/csi/static/955180a45afe3f5013772c313b16face/Tradecraft-Primer-apr09.pdf",
+   "https://data.zhenzhi.com/details/1/999233521",
+   "https://experts.arizona.edu/en/publications/effects-of-devils-advocacy-and-dialectical-inquiry-on-individuals/",
+   "https://experts.arizona.edu/en/publications/devils-advocacy-and-dialectical-inquiry-effects-on-face-to-face-a/",
+   "https://dspacecris7.sub.uni-goettingen.de/entities/publication/5430670e-048e-422d-b490-06a1f98376f8",
+   "https://publications.goettingen-research-online.de/ID-8347",
+   "https://www.britannica.com/topic/devils-advocate"
+  ]
+ },
+ {
   "id": "cm:difficult-conversation",
   "title": "Difficult conversation",
   "aliases": [

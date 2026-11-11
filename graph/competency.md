@@ -18,9 +18,7 @@ _No results._
 
 _Which written contexts, channels or genres have no technique, framework or principle applied in them or structuring them?_ — `queries/03-situations-without-guidance.rq`
 
-| node | type |
-|---|---|
-| `cm:group-decision-making` | cmo:Context |
+_No results._
 
 ## Highest-leverage techniques
 
@@ -59,7 +57,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:camera-optional-norm` | 1 | Zoom fatigue |
 | `cm:charismatic-leadership-tactics` | 1 | Executive presence |
 
-…and 35 more.
+…and 36 more.
 
 ## Toolkit by situation
 
@@ -98,7 +96,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:email` | `cm:emoji-and-tone-in-text` |
 | `cm:email` | `cm:kushlev-dunn-2015` |
 
-…and 90 more.
+…and 91 more.
 
 ## Myths and contested advice
 
@@ -137,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:batna` | mixed | `cm:schaerer-swaab-galinsky-2015` |
 | `cm:bulleted-and-numbered-lists` | mixed | `cm:columbia-accident-investigation-board-report` |
 
-…and 120 more.
+…and 121 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -149,6 +147,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:business-report` | cmo:Genre |
 | `cm:chat-etiquette` | cmo:Technique |
 | `cm:cooling-off-period` | cmo:Technique |
+| `cm:devils-advocacy` | cmo:Technique |
 | `cm:executive-summary` | cmo:Genre |
 | `cm:gestures` | cmo:Skill |
 | `cm:group-decision-making` | cmo:Context |
@@ -174,9 +173,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:persuasion` | cmo:Skill |
 | `cm:plain-language` | cmo:Principle |
 | `cm:praise-and-recognition` | cmo:Technique |
-| `cm:presentation` | cmo:Context |
 
-…and 28 more.
+…and 29 more.
 
 ## Orphan articles (gap)
 

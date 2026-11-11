@@ -4317,6 +4317,99 @@
    ]
   },
   {
+   "@id": "cm:devils-advocacy",
+   "@type": "cmo:Technique",
+   "cmo:addresses": {
+    "@id": "cm:escalation-of-commitment"
+   },
+   "cmo:alternativeTo": {
+    "@id": "cm:dialectical-inquiry"
+   },
+   "cmo:appliedIn": {
+    "@id": "cm:group-decision-making"
+   },
+   "cmo:challengedBy": {
+    "@id": "cm:schulz-hardt-jochims-frey-2002"
+   },
+   "cmo:demonstratedBy": {
+    "@id": "cm:schwenk-1990"
+   },
+   "cmo:domain": "meetings-and-facilitation",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/devils-advocacy/example"
+   },
+   "cmo:file": "articles/meetings-and-facilitation/devils-advocacy.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/devils-advocacy/howto"
+   },
+   "cmo:level": "intermediate",
+   "cmo:requires": {
+    "@id": "cm:facilitation"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s6"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s7"
+    }
+   ],
+   "rdfs:label": "Devil's advocacy",
+   "skos:altLabel": [
+    "assigned dissent",
+    "contrived dissent",
+    "devil's advocate technique",
+    "playing devil's advocate"
+   ],
+   "skos:broader": [
+    {
+     "@id": "cm:facilitation"
+    },
+    {
+     "@id": "cm:group-decision-making"
+    }
+   ],
+   "skos:definition": "A structured way to bring constructive challenge into a group decision by assigning a person or sub-team to critique the leading proposal - its assumptions, evidence and logic - before the group commits. It beats unchallenged expert recommendations in experiments, but role-played dissent is weaker than a colleague who sincerely disagrees.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/meetings-and-facilitation"
+   },
+   "skos:prefLabel": "Devil's advocacy",
+   "skos:related": [
+    {
+     "@id": "cm:nominal-group-technique"
+    },
+    {
+     "@id": "cm:psychological-safety"
+    },
+    {
+     "@id": "cm:unequal-participation"
+    },
+    {
+     "@id": "cm:workplace-meetings"
+    }
+   ]
+  },
+  {
    "@id": "cm:difficult-conversation",
    "@type": "cmo:Context",
    "cmo:demonstratedBy": [
@@ -20917,6 +21010,107 @@
    "schema:text": "Only then decide how to respond, and if you give feedback, lead with the description rather than the evaluation."
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/devils-advocacy/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:devils-advocacy"
+   },
+   "rdfs:label": "Did I state the proposal and its key assumptions clearly enough that someone could attack them?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/devils-advocacy/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:devils-advocacy"
+   },
+   "rdfs:label": "Did everyone know the advocate was playing an assigned role, so the critique was not taken personally?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/devils-advocacy/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:devils-advocacy"
+   },
+   "rdfs:label": "Did we actually change, test or caveat anything in response to the critique, or just listen and proceed?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/devils-advocacy/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:devils-advocacy"
+   },
+   "rdfs:label": "Is anyone in the room sincerely unconvinced, and have I given them a real chance to say so?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/devils-advocacy/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "Before we sign, Priya will play devil's advocate - that's an assigned role, not her personal view. Priya, take the three assumptions you think are weakest and make the best case against the switch on Thursday. Then Sam, as the owner, answers each point, and we decide.",
+   "cmo:before": "Sounds like we're all aligned on the switch. Any objections? No? Great, let's sign the contract this week.",
+   "cmo:situation": "A product team of six is about to approve moving its customer-support tool to a new vendor; the head of support proposed it and everyone in the meeting has nodded along.",
+   "cmo:why": "An open call for objections in a room that already seems agreed rarely surfaces doubts; assigning and labelling the critic role makes challenge expected rather than disloyal, and forces the owner to answer specific weaknesses before the commitment is made."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/devils-advocacy/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Devil's advocacy",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/devils-advocacy/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/devils-advocacy/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/devils-advocacy/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/devils-advocacy/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/devils-advocacy/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/devils-advocacy/howto/6"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/devils-advocacy/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Write down the leading proposal in one or two sentences, with the key assumptions and evidence it rests on, and share it with the group."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/devils-advocacy/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Name the devil's advocate (a person or small sub-team) openly, explain that the role is assigned, and rotate it so it never sticks to one person."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/devils-advocacy/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Give the advocate time before the meeting to pick the assumptions most open to challenge and to look for weak evidence, gaps and facts that point elsewhere."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/devils-advocacy/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Have the advocate present the critique to the group, and ask the proposal's owner to respond to each point on the merits rather than defend the plan as a whole."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/devils-advocacy/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Record which objections change the plan, which need more analysis, and which are answered, then decide, and label any written critique as a devil's-advocate exercise."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/devils-advocacy/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "Invite anyone who genuinely disagrees to say so in their own name, because sincere dissent is more valuable than the assigned role."
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -30211,6 +30405,104 @@
    "dcterms:title": "June 2022 Tip #2: Use the D.I.E./D.A.E. tool to interpret intercultural miscommunication",
    "schema:url": {
     "@id": "https://stlhe.ca/teaching-tip-tuesday/june-2022-tip-2-use-the-d-i-e-d-a-e-tool-to-interpret-intercultural-miscommunication/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "U.S. Government (Central Intelligence Agency, Center for the Study of Intelligence), March 2009",
+   "dcterms:title": "A Tradecraft Primer: Structured Analytic Techniques for Improving Intelligence Analysis",
+   "schema:url": {
+    "@id": "https://www.cia.gov/resources/csi/static/955180a45afe3f5013772c313b16face/Tradecraft-Primer-apr09.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Charles R. Schwenk, Organizational Behavior and Human Decision Processes 47(1), 161-176, 1990 (bibliographic record and abstract)",
+   "dcterms:title": "Effects of devil's advocacy and dialectical inquiry on decision making: A meta-analysis",
+   "schema:url": {
+    "@id": "https://data.zhenzhi.com/details/1/999233521"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Charles Schwenk & Joseph S. Valacich, Organizational Behavior and Human Decision Processes 59(2), 210-222, 1994 (University of Arizona research portal)",
+   "dcterms:title": "Effects of devil's advocacy and dialectical inquiry on individuals versus groups",
+   "schema:url": {
+    "@id": "https://experts.arizona.edu/en/publications/effects-of-devils-advocacy-and-dialectical-inquiry-on-individuals/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Joseph S. Valacich & Charles Schwenk, Organizational Behavior and Human Decision Processes 63(2), 158-173, 1995 (University of Arizona research portal)",
+   "dcterms:title": "Devil's advocacy and dialectical inquiry effects on face-to-face and computer-mediated group decision making",
+   "schema:url": {
+    "@id": "https://experts.arizona.edu/en/publications/devils-advocacy-and-dialectical-inquiry-effects-on-face-to-face-a/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Stefan Schulz-Hardt, Marc Jochims & Dieter Frey, Organizational Behavior and Human Decision Processes 88(2), 563-586, 2002 (Göttingen research repository)",
+   "dcterms:title": "Productive conflict in group decision making: Genuine and contrived dissent as strategies to counteract biased information seeking",
+   "schema:url": {
+    "@id": "https://dspacecris7.sub.uni-goettingen.de/entities/publication/5430670e-048e-422d-b490-06a1f98376f8"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Tobias Greitemeyer, Stefan Schulz-Hardt & Dieter Frey, European Journal of Social Psychology, 2009 (Göttingen Research Online record)",
+   "dcterms:title": "The effects of authentic and contrived dissent on escalation of commitment in group decision making",
+   "schema:url": {
+    "@id": "https://publications.goettingen-research-online.de/ID-8347"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/devils-advocacy/s7",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Encyclopaedia Britannica",
+   "dcterms:title": "Devil's advocate",
+   "schema:url": {
+    "@id": "https://www.britannica.com/topic/devils-advocate"
    }
   },
   {
