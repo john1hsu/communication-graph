@@ -4661,6 +4661,118 @@
   ]
  },
  {
+  "id": "cm:death-by-powerpoint",
+  "title": "Death by PowerPoint",
+  "aliases": [
+   "death by slides",
+   "bullet-point overload",
+   "slideument",
+   "text-heavy slides"
+  ],
+  "type": "AntiPattern",
+  "domain": "presenting-and-public-speaking",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/presenting-and-public-speaking/death-by-powerpoint.md",
+  "created": "2026-11-11",
+  "summary": "A presentation in which dense, bullet-heavy slides take over from the speaker and the argument: the audience reads crowded text while the presenter reads it aloud, and the main point gets lost in fragments, nested bullets and irrelevant detail.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:slide-design"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:presentation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:assertion-evidence-slides"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:bulleted-and-numbered-lists"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:wall-of-text"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:burying-the-lede"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:presentation-rehearsal"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:executive-briefing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:status-reporting"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:kosslyn-et-al-2012",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:causes",
+    "object": "cm:information-overload",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:undermines",
+    "object": "cm:clarity",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:columbia-accident-investigation-board-report",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:cognitive-load",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:farkas-2006",
+    "source": "s6",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Could someone read only my slide titles and know my conclusion and what I need from them?",
+   "Am I planning to read any slide aloud word for word, and if so, why does that text need to be on screen?",
+   "Is there any slide with more than about four bullets, or bullets nested more than two levels deep?",
+   "Is this material really a document that should be sent and read, rather than a talk that needs slides?"
+  ],
+  "steps": [],
+  "example": {
+   "situation": "A team lead presents a quarterly operations review to the leadership team and needs approval to hire two support engineers.",
+   "before": "Slide title: 'Q3 Support Update'. Nine bullets in 16-point type - 'Ticket volume up', 'New product launch in August', 'Tier 2 backlog', 'Response-time SLA - see appendix', 'Staffing considerations', and four more - which the lead reads aloud line by line before moving to the next identical-looking slide.",
+   "after": "Slide title: 'Missed response-time targets doubled after the August launch - two hires would restore them'. Body: one chart of weekly SLA misses with the launch week marked. The lead explains the chart in their own words, then asks for the hiring decision; the detailed ticket data goes in a one-page handout sent before the meeting.",
+   "why": "The first version leaves leaders to dig the problem and the request out of fragments while competing with the speaker's voice. The second states the conclusion and the ask in the headline, shows the one piece of evidence that proves it, and moves the detail to a document that can be read at the reader's pace."
+  },
+  "source_urls": [
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC3398435",
+   "https://www.nasa.gov/wp-content/uploads/static/history/columbia/reports/CAIBreportv1.pdf",
+   "https://www.edwardtufte.com/?p=579",
+   "https://www.alexandria.unisg.ch/244083/",
+   "https://rex.libraries.wsu.edu/esploro/outputs/journalArticle/Verbal-Redundancy-in-Multimedia-Learning-Environments/99900601157101842",
+   "https://faculty.washington.edu/farkas/dfpubs/Farkas-Toward%20A%20Better%20Understanding%20of%20PowerPoint.pdf"
+  ]
+ },
+ {
   "id": "cm:defensiveness",
   "title": "Defensiveness",
   "aliases": [

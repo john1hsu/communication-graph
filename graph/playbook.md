@@ -1729,6 +1729,22 @@ Ask yourself:
 - Am I planning to explain each visual, or am I going to read the headline and bullets aloud?
 - Is the material complex enough to need visual evidence, or would a simple spoken point serve the audience better?
 
+### [Death by PowerPoint](../articles/presenting-and-public-speaking/death-by-powerpoint.md) — AntiPattern
+
+*A team lead presents a quarterly operations review to the leadership team and needs approval to hire two support engineers.*
+
+| Before | After |
+|---|---|
+| Slide title: 'Q3 Support Update'. Nine bullets in 16-point type - 'Ticket volume up', 'New product launch in August', 'Tier 2 backlog', 'Response-time SLA - see appendix', 'Staffing considerations', and four more - which the lead reads aloud line by line before moving to the next identical-looking slide. | Slide title: 'Missed response-time targets doubled after the August launch - two hires would restore them'. Body: one chart of weekly SLA misses with the launch week marked. The lead explains the chart in their own words, then asks for the hiring decision; the detailed ticket data goes in a one-page handout sent before the meeting. |
+
+**Why:** The first version leaves leaders to dig the problem and the request out of fragments while competing with the speaker's voice. The second states the conclusion and the ask in the headline, shows the one piece of evidence that proves it, and moves the detail to a document that can be read at the reader's pace.
+
+Ask yourself:
+- Could someone read only my slide titles and know my conclusion and what I need from them?
+- Am I planning to read any slide aloud word for word, and if so, why does that text need to be on screen?
+- Is there any slide with more than about four bullets, or bullets nested more than two levels deep?
+- Is this material really a document that should be sent and read, rather than a talk that needs slides?
+
 ### [Filled pauses](../articles/presenting-and-public-speaking/filled-pauses.md) — AntiPattern
 
 *A product manager gives a two-minute status update to a leadership meeting and is asked why the launch slipped.*

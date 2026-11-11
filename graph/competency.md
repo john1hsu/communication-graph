@@ -49,7 +49,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:active-listening` | 1 | Defensiveness |
 | `cm:active-voice` | 1 | unclear-ownership |
 | `cm:anxiety-reappraisal` | 1 | Public speaking anxiety |
-| `cm:assertion-evidence-slides` | 1 | death-by-powerpoint |
+| `cm:assertion-evidence-slides` | 1 | Death by PowerPoint |
 | `cm:audience-analysis` | 1 | Curse of knowledge |
 | `cm:bottom-line-up-front` | 1 | Burying the lede |
 | `cm:bulleted-and-numbered-lists` | 1 | Wall of text |
@@ -135,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:batna` | mixed | `cm:schaerer-swaab-galinsky-2015` |
 | `cm:bulleted-and-numbered-lists` | mixed | `cm:columbia-accident-investigation-board-report` |
 
-…and 121 more.
+…and 122 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -147,6 +147,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:business-report` | cmo:Genre |
 | `cm:chat-etiquette` | cmo:Technique |
 | `cm:cooling-off-period` | cmo:Technique |
+| `cm:death-by-powerpoint` | cmo:AntiPattern |
 | `cm:devils-advocacy` | cmo:Technique |
 | `cm:executive-summary` | cmo:Genre |
 | `cm:gestures` | cmo:Skill |
@@ -172,9 +173,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:perspective-taking` | cmo:Skill |
 | `cm:persuasion` | cmo:Skill |
 | `cm:plain-language` | cmo:Principle |
-| `cm:praise-and-recognition` | cmo:Technique |
 
-…and 29 more.
+…and 30 more.
 
 ## Orphan articles (gap)
 

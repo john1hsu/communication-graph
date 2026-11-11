@@ -4056,6 +4056,100 @@
    ]
   },
   {
+   "@id": "cm:death-by-powerpoint",
+   "@type": "cmo:AntiPattern",
+   "cmo:causes": {
+    "@id": "cm:information-overload"
+   },
+   "cmo:challengedBy": {
+    "@id": "cm:farkas-2006"
+   },
+   "cmo:demonstratedBy": {
+    "@id": "cm:kosslyn-et-al-2012"
+   },
+   "cmo:domain": "presenting-and-public-speaking",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/death-by-powerpoint/example"
+   },
+   "cmo:explainedBy": {
+    "@id": "cm:cognitive-load"
+   },
+   "cmo:file": "articles/presenting-and-public-speaking/death-by-powerpoint.md",
+   "cmo:level": "introductory",
+   "cmo:supportedBy": {
+    "@id": "cm:columbia-accident-investigation-board-report"
+   },
+   "cmo:undermines": {
+    "@id": "cm:clarity"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/death-by-powerpoint/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/death-by-powerpoint/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/death-by-powerpoint/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/death-by-powerpoint/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/death-by-powerpoint/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/death-by-powerpoint/s6"
+    }
+   ],
+   "rdfs:label": "Death by PowerPoint",
+   "skos:altLabel": [
+    "bullet-point overload",
+    "death by slides",
+    "slideument",
+    "text-heavy slides"
+   ],
+   "skos:broader": {
+    "@id": "cm:slide-design"
+   },
+   "skos:definition": "A presentation in which dense, bullet-heavy slides take over from the speaker and the argument: the audience reads crowded text while the presenter reads it aloud, and the main point gets lost in fragments, nested bullets and irrelevant detail.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/presenting-and-public-speaking"
+   },
+   "skos:prefLabel": "Death by PowerPoint",
+   "skos:related": [
+    {
+     "@id": "cm:assertion-evidence-slides"
+    },
+    {
+     "@id": "cm:bulleted-and-numbered-lists"
+    },
+    {
+     "@id": "cm:burying-the-lede"
+    },
+    {
+     "@id": "cm:executive-briefing"
+    },
+    {
+     "@id": "cm:presentation"
+    },
+    {
+     "@id": "cm:presentation-rehearsal"
+    },
+    {
+     "@id": "cm:status-reporting"
+    },
+    {
+     "@id": "cm:wall-of-text"
+    }
+   ]
+  },
+  {
    "@id": "cm:defensiveness",
    "@type": "cmo:Barrier",
    "cmo:challengedBy": {
@@ -20886,6 +20980,46 @@
    "schema:text": "Afterwards, write down what was said and done factually, report through the proper channel, and debrief with the person and your team."
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/death-by-powerpoint/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:death-by-powerpoint"
+   },
+   "rdfs:label": "Could someone read only my slide titles and know my conclusion and what I need from them?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/death-by-powerpoint/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:death-by-powerpoint"
+   },
+   "rdfs:label": "Am I planning to read any slide aloud word for word, and if so, why does that text need to be on screen?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/death-by-powerpoint/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:death-by-powerpoint"
+   },
+   "rdfs:label": "Is there any slide with more than about four bullets, or bullets nested more than two levels deep?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/death-by-powerpoint/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:death-by-powerpoint"
+   },
+   "rdfs:label": "Is this material really a document that should be sent and read, rather than a talk that needs slides?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/death-by-powerpoint/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "Slide title: 'Missed response-time targets doubled after the August launch - two hires would restore them'. Body: one chart of weekly SLA misses with the launch week marked. The lead explains the chart in their own words, then asks for the hiring decision; the detailed ticket data goes in a one-page handout sent before the meeting.",
+   "cmo:before": "Slide title: 'Q3 Support Update'. Nine bullets in 16-point type - 'Ticket volume up', 'New product launch in August', 'Tier 2 backlog', 'Response-time SLA - see appendix', 'Staffing considerations', and four more - which the lead reads aloud line by line before moving to the next identical-looking slide.",
+   "cmo:situation": "A team lead presents a quarterly operations review to the leadership team and needs approval to hire two support engineers.",
+   "cmo:why": "The first version leaves leaders to dig the problem and the request out of fragments while competing with the speaker's voice. The second states the conclusion and the ask in the headline, shows the one piece of evidence that proves it, and moves the detail to a document that can be read at the reader's pace."
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/defensiveness/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -30167,6 +30301,90 @@
    "dcterms:title": "Police training reduces certain incidents, study says",
    "schema:url": {
     "@id": "https://www.uc.edu/news/articles/2022/01/police-training-reduces-certain-incidents-study-says.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/death-by-powerpoint/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Kosslyn, S. M., Kievit, R. A., Russell, A. G. & Shephard, J. M., Frontiers in Psychology 3, 230, 2012 (PubMed Central)",
+   "dcterms:title": "PowerPoint Presentation Flaws and Failures: A Psychological Analysis",
+   "schema:url": {
+    "@id": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3398435"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/death-by-powerpoint/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Columbia Accident Investigation Board / NASA, August 2003",
+   "dcterms:title": "Columbia Accident Investigation Board Report, Volume I (Chapter 7, 'Engineering by viewgraphs')",
+   "schema:url": {
+    "@id": "https://www.nasa.gov/wp-content/uploads/static/history/columbia/reports/CAIBreportv1.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/death-by-powerpoint/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Tufte, E. R., Graphics Press",
+   "dcterms:title": "The Cognitive Style of PowerPoint: Pitching Out Corrupts Within (eBook)",
+   "schema:url": {
+    "@id": "https://www.edwardtufte.com/?p=579"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/death-by-powerpoint/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Kernbach, S., Bresciani, S. & Eppler, M. J., Business and Professional Communication Quarterly 78(3), 292-313, 2015 (University of St. Gallen repository)",
+   "dcterms:title": "Slip-sliding-away: A review of the literature on the constraining qualities of PowerPoint",
+   "schema:url": {
+    "@id": "https://www.alexandria.unisg.ch/244083/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/death-by-powerpoint/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Adesope, O. O. & Nesbit, J. C., Journal of Educational Psychology 104(1), 250-263, 2012 (Washington State University research exchange)",
+   "dcterms:title": "Verbal redundancy in multimedia learning environments: A meta-analysis",
+   "schema:url": {
+    "@id": "https://rex.libraries.wsu.edu/esploro/outputs/journalArticle/Verbal-Redundancy-in-Multimedia-Learning-Environments/99900601157101842"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/death-by-powerpoint/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Farkas, D. K., Information Design Journal + Document Design 14(2), 2006 (author's copy, University of Washington)",
+   "dcterms:title": "Toward a better understanding of PowerPoint deck design",
+   "schema:url": {
+    "@id": "https://faculty.washington.edu/farkas/dfpubs/Farkas-Toward%20A%20Better%20Understanding%20of%20PowerPoint.pdf"
    }
   },
   {
