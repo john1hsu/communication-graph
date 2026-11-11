@@ -8246,6 +8246,53 @@
 <https://github.com/john1hsu/communication-graph/id/raci-matrix> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/meetings-and-facilitation/raci-matrix.md" .
 <https://github.com/john1hsu/communication-graph/id/raci-matrix> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/raci-matrix/howto> .
 <https://github.com/john1hsu/communication-graph/id/raci-matrix> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/radical-candor/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/radical-candor/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Am I holding back this criticism to protect the person, or to protect myself from an awkward moment?" .
+<https://github.com/john1hsu/communication-graph/id/radical-candor/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/radical-candor> .
+<https://github.com/john1hsu/communication-graph/id/radical-candor/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/radical-candor/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Would the person be able to tell from how I say this that I want them to succeed?" .
+<https://github.com/john1hsu/communication-graph/id/radical-candor/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/radical-candor> .
+<https://github.com/john1hsu/communication-graph/id/radical-candor/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/radical-candor/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Am I describing what they did, or judging who they are?" .
+<https://github.com/john1hsu/communication-graph/id/radical-candor/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/radical-candor> .
+<https://github.com/john1hsu/communication-graph/id/radical-candor/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/radical-candor/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "When did I last ask my team for criticism of me, and what did I change as a result?" .
+<https://github.com/john1hsu/communication-graph/id/radical-candor/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/radical-candor> .
+<https://github.com/john1hsu/communication-graph/id/radical-candor> <http://purl.org/dc/terms/created> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/radical-candor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Framework> .
+<https://github.com/john1hsu/communication-graph/id/radical-candor> <http://www.w3.org/2000/01/rdf-schema#label> "Radical candor" .
+<https://github.com/john1hsu/communication-graph/id/radical-candor> <http://www.w3.org/2004/02/skos/core#altLabel> "Radical Candor framework" .
+<https://github.com/john1hsu/communication-graph/id/radical-candor> <http://www.w3.org/2004/02/skos/core#altLabel> "care personally and challenge directly" .
+<https://github.com/john1hsu/communication-graph/id/radical-candor> <http://www.w3.org/2004/02/skos/core#altLabel> "radical candour" .
+<https://github.com/john1hsu/communication-graph/id/radical-candor> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/feedback> .
+<https://github.com/john1hsu/communication-graph/id/radical-candor> <http://www.w3.org/2004/02/skos/core#definition> "Kim Scott's two-axis feedback framework: good managers care personally about people while challenging them directly, avoiding three failure modes - ruinous empathy (care without challenge), obnoxious aggression (challenge without care) and manipulative insincerity (neither)." .
+<https://github.com/john1hsu/communication-graph/id/radical-candor> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/feedback-and-coaching> .
+<https://github.com/john1hsu/communication-graph/id/radical-candor> <http://www.w3.org/2004/02/skos/core#prefLabel> "Radical candor" .
+<https://github.com/john1hsu/communication-graph/id/radical-candor> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> .
+<https://github.com/john1hsu/communication-graph/id/radical-candor> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/feedback-sandwich> .
+<https://github.com/john1hsu/communication-graph/id/radical-candor> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/praise-and-recognition> .
+<https://github.com/john1hsu/communication-graph/id/radical-candor> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
+<https://github.com/john1hsu/communication-graph/id/radical-candor> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/receiving-feedback> .
+<https://github.com/john1hsu/communication-graph/id/radical-candor> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> .
+<https://github.com/john1hsu/communication-graph/id/radical-candor> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/thomas-kilmann-conflict-modes> .
+<https://github.com/john1hsu/communication-graph/id/radical-candor> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/radical-candor/s1> .
+<https://github.com/john1hsu/communication-graph/id/radical-candor> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/radical-candor/s2> .
+<https://github.com/john1hsu/communication-graph/id/radical-candor> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/radical-candor/s3> .
+<https://github.com/john1hsu/communication-graph/id/radical-candor> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/radical-candor/s4> .
+<https://github.com/john1hsu/communication-graph/id/radical-candor> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/radical-candor/s5> .
+<https://github.com/john1hsu/communication-graph/id/radical-candor> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/radical-candor/s6> .
+<https://github.com/john1hsu/communication-graph/id/radical-candor> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/ruinous-empathy> .
+<https://github.com/john1hsu/communication-graph/id/radical-candor> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> .
+<https://github.com/john1hsu/communication-graph/id/radical-candor> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/performance-review> .
+<https://github.com/john1hsu/communication-graph/id/radical-candor> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/feedback-sandwich> .
+<https://github.com/john1hsu/communication-graph/id/radical-candor> <https://github.com/john1hsu/communication-graph/ontology#domain> "feedback-and-coaching" .
+<https://github.com/john1hsu/communication-graph/id/radical-candor> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "practitioner" .
+<https://github.com/john1hsu/communication-graph/id/radical-candor> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/feedback-and-coaching/radical-candor.md" .
+<https://github.com/john1hsu/communication-graph/id/radical-candor> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/kim-scott> .
+<https://github.com/john1hsu/communication-graph/id/radical-candor> <https://github.com/john1hsu/communication-graph/ontology#introducedIn> <https://github.com/john1hsu/communication-graph/id/radical-candor-book> .
+<https://github.com/john1hsu/communication-graph/id/radical-candor> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/radical-candor> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/abi-esber-et-al-2022> .
+<https://github.com/john1hsu/communication-graph/id/radical-candor> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/levine-cohen-2018> .
 <https://github.com/john1hsu/communication-graph/id/rapport/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/rapport/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Did I give this person my full attention, or was part of me on my screen or my next point?" .
 <https://github.com/john1hsu/communication-graph/id/rapport/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/rapport> .
@@ -15033,6 +15080,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/raci-matrix/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/raci-matrix/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
 <https://github.com/john1hsu/communication-graph/id/source/raci-matrix/s6> <https://schema.org/url> <https://www.bain.com/insights/who-has-the-d> .
+<https://github.com/john1hsu/communication-graph/id/source/radical-candor/s1> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/radical-candor/s1> <http://purl.org/dc/terms/publisher> "Kim Scott, First Round Review (24 Nov 2015) - the original public statement of the framework" .
+<https://github.com/john1hsu/communication-graph/id/source/radical-candor/s1> <http://purl.org/dc/terms/title> "Radical Candor - The Surprising Secret to Being a Good Boss" .
+<https://github.com/john1hsu/communication-graph/id/source/radical-candor/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/radical-candor/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/radical-candor/s1> <https://schema.org/url> <https://review.firstround.com/radical-candor-the-surprising-secret-to-being-a-good-boss> .
+<https://github.com/john1hsu/communication-graph/id/source/radical-candor/s2> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/radical-candor/s2> <http://purl.org/dc/terms/publisher> "Stanford Graduate School of Business, Insights (Think Fast Talk Smart, Matt Abrahams with Kim Scott), 5 Sep 2023" .
+<https://github.com/john1hsu/communication-graph/id/source/radical-candor/s2> <http://purl.org/dc/terms/title> "Radical Candor: The Communication Shift That Can Transform Your Career" .
+<https://github.com/john1hsu/communication-graph/id/source/radical-candor/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/radical-candor/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/radical-candor/s2> <https://schema.org/url> <https://gsb.stanford.edu/insights/radical-candor-communication-shift-can-transform-your-career> .
+<https://github.com/john1hsu/communication-graph/id/source/radical-candor/s3> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/radical-candor/s3> <http://purl.org/dc/terms/publisher> "Kim Scott, Macmillan (Pan Macmillan) - publisher's book page" .
+<https://github.com/john1hsu/communication-graph/id/source/radical-candor/s3> <http://purl.org/dc/terms/title> "Radical Candor (fully revised and updated edition)" .
+<https://github.com/john1hsu/communication-graph/id/source/radical-candor/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/radical-candor/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/radical-candor/s3> <https://schema.org/url> <https://www.panmacmillan.com/authors/kim-scott/radical-candor/9781509845378> .
+<https://github.com/john1hsu/communication-graph/id/source/radical-candor/s4> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/radical-candor/s4> <http://purl.org/dc/terms/publisher> "Vich & Kim, Central European Business Review 5(4), 11-22 (2016)" .
+<https://github.com/john1hsu/communication-graph/id/source/radical-candor/s4> <http://purl.org/dc/terms/title> "Construction and Application of Radical Candor: Efficiency of Criticism at Work" .
+<https://github.com/john1hsu/communication-graph/id/source/radical-candor/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/radical-candor/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/radical-candor/s4> <https://schema.org/url> <https://cebr.vse.cz/pdfs/cbr/2016/04/03.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/radical-candor/s5> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/radical-candor/s5> <http://purl.org/dc/terms/publisher> "Levine & Cohen, Journal of Experimental Psychology - General 147(9), 1400-1429 (2018), author copy (University of Chicago)" .
+<https://github.com/john1hsu/communication-graph/id/source/radical-candor/s5> <http://purl.org/dc/terms/title> "You can handle the truth: Mispredicting the consequences of honest communication" .
+<https://github.com/john1hsu/communication-graph/id/source/radical-candor/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/radical-candor/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/radical-candor/s5> <https://schema.org/url> <https://bpb-us-w2.wpmucdn.com/voices.uchicago.edu/dist/c/3234/files/2023/07/12.-Handle-the-Truth-2018.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/radical-candor/s6> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/radical-candor/s6> <http://purl.org/dc/terms/publisher> "Harvard Business School Working Knowledge (Michael Blanding), 5 Aug 2022, on Abi-Esber, Abel, Schroeder & Gino, Journal of Personality and Social Psychology (2022)" .
+<https://github.com/john1hsu/communication-graph/id/source/radical-candor/s6> <http://purl.org/dc/terms/title> "Why People Crave Feedback - and Why We're Afraid to Give It" .
+<https://github.com/john1hsu/communication-graph/id/source/radical-candor/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/radical-candor/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/radical-candor/s6> <https://schema.org/url> <https://www.library.hbs.edu/working-knowledge/why-people-crave-feedback-and-why-were-afraid-to-give-it> .
 <https://github.com/john1hsu/communication-graph/id/source/rapport/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/rapport/s1> <http://purl.org/dc/terms/publisher> "Tickle-Degnen & Rosenthal, Psychological Inquiry 1(4), 285-293 (1990) (copy hosted by the National Children's Advocacy Center)" .
 <https://github.com/john1hsu/communication-graph/id/source/rapport/s1> <http://purl.org/dc/terms/title> "The Nature of Rapport and Its Nonverbal Correlates" .

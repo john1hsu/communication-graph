@@ -790,6 +790,14 @@ Ask yourself:
 - Who on my team has done good work in the last couple of weeks without hearing about it?
 - Is this praise earned, or am I handing it out to avoid a harder conversation?
 
+### [Radical candor](../articles/feedback-and-coaching/radical-candor.md) — Framework
+
+Ask yourself:
+- Am I holding back this criticism to protect the person, or to protect myself from an awkward moment?
+- Would the person be able to tell from how I say this that I want them to succeed?
+- Am I describing what they did, or judging who they are?
+- When did I last ask my team for criticism of me, and what did I change as a result?
+
 ### [Receiving feedback](../articles/feedback-and-coaching/receiving-feedback.md) — Skill
 
 Ask yourself:

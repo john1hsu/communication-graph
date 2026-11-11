@@ -57,7 +57,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:camera-level-gaze` | 1 | Gaze and eye contact |
 | `cm:camera-optional-norm` | 1 | Zoom fatigue |
 
-…and 37 more.
+…and 38 more.
 
 ## Toolkit by situation
 
@@ -96,7 +96,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:email` | `cm:emoji-and-tone-in-text` |
 | `cm:email` | `cm:kushlev-dunn-2015` |
 
-…and 92 more.
+…and 94 more.
 
 ## Myths and contested advice
 

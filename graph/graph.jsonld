@@ -14258,6 +14258,103 @@
    ]
   },
   {
+   "@id": "cm:radical-candor",
+   "@type": "cmo:Framework",
+   "cmo:addresses": {
+    "@id": "cm:ruinous-empathy"
+   },
+   "cmo:appliedIn": [
+    {
+     "@id": "cm:one-on-one-meetings"
+    },
+    {
+     "@id": "cm:performance-review"
+    }
+   ],
+   "cmo:contrastsWith": {
+    "@id": "cm:feedback-sandwich"
+   },
+   "cmo:domain": "feedback-and-coaching",
+   "cmo:evidenceStatus": "practitioner",
+   "cmo:file": "articles/feedback-and-coaching/radical-candor.md",
+   "cmo:introducedBy": {
+    "@id": "cm:kim-scott"
+   },
+   "cmo:introducedIn": {
+    "@id": "cm:radical-candor-book"
+   },
+   "cmo:level": "introductory",
+   "cmo:supportedBy": [
+    {
+     "@id": "cm:abi-esber-et-al-2022"
+    },
+    {
+     "@id": "cm:levine-cohen-2018"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/radical-candor/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/radical-candor/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/radical-candor/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/radical-candor/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/radical-candor/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/radical-candor/s6"
+    }
+   ],
+   "rdfs:label": "Radical candor",
+   "skos:altLabel": [
+    "Radical Candor framework",
+    "care personally and challenge directly",
+    "radical candour"
+   ],
+   "skos:broader": {
+    "@id": "cm:feedback"
+   },
+   "skos:definition": "Kim Scott's two-axis feedback framework: good managers care personally about people while challenging them directly, avoiding three failure modes - ruinous empathy (care without challenge), obnoxious aggression (challenge without care) and manipulative insincerity (neither).",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/feedback-and-coaching"
+   },
+   "skos:prefLabel": "Radical candor",
+   "skos:related": [
+    {
+     "@id": "cm:direct-vs-indirect-feedback"
+    },
+    {
+     "@id": "cm:feedback-sandwich"
+    },
+    {
+     "@id": "cm:praise-and-recognition"
+    },
+    {
+     "@id": "cm:psychological-safety"
+    },
+    {
+     "@id": "cm:receiving-feedback"
+    },
+    {
+     "@id": "cm:situation-behavior-impact"
+    },
+    {
+     "@id": "cm:thomas-kilmann-conflict-modes"
+    }
+   ]
+  },
+  {
    "@id": "cm:rapport",
    "@type": "cmo:Concept",
    "cmo:appliedIn": [
@@ -25611,6 +25708,38 @@
    "@type": "schema:HowToStep",
    "schema:position": 6,
    "schema:text": "Share the grid with everyone named, agree it together, and use the C and I columns as the contact list for updates."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/radical-candor/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:radical-candor"
+   },
+   "rdfs:label": "Am I holding back this criticism to protect the person, or to protect myself from an awkward moment?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/radical-candor/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:radical-candor"
+   },
+   "rdfs:label": "Would the person be able to tell from how I say this that I want them to succeed?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/radical-candor/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:radical-candor"
+   },
+   "rdfs:label": "Am I describing what they did, or judging who they are?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/radical-candor/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:radical-candor"
+   },
+   "rdfs:label": "When did I last ask my team for criticism of me, and what did I change as a result?"
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/rapport/check/1",
@@ -39546,6 +39675,90 @@
    "dcterms:title": "Who has the 'D'? How clear decision roles enhance organizational performance",
    "schema:url": {
     "@id": "https://www.bain.com/insights/who-has-the-d"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/radical-candor/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Kim Scott, First Round Review (24 Nov 2015) - the original public statement of the framework",
+   "dcterms:title": "Radical Candor - The Surprising Secret to Being a Good Boss",
+   "schema:url": {
+    "@id": "https://review.firstround.com/radical-candor-the-surprising-secret-to-being-a-good-boss"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/radical-candor/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Stanford Graduate School of Business, Insights (Think Fast Talk Smart, Matt Abrahams with Kim Scott), 5 Sep 2023",
+   "dcterms:title": "Radical Candor: The Communication Shift That Can Transform Your Career",
+   "schema:url": {
+    "@id": "https://gsb.stanford.edu/insights/radical-candor-communication-shift-can-transform-your-career"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/radical-candor/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Kim Scott, Macmillan (Pan Macmillan) - publisher's book page",
+   "dcterms:title": "Radical Candor (fully revised and updated edition)",
+   "schema:url": {
+    "@id": "https://www.panmacmillan.com/authors/kim-scott/radical-candor/9781509845378"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/radical-candor/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Vich & Kim, Central European Business Review 5(4), 11-22 (2016)",
+   "dcterms:title": "Construction and Application of Radical Candor: Efficiency of Criticism at Work",
+   "schema:url": {
+    "@id": "https://cebr.vse.cz/pdfs/cbr/2016/04/03.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/radical-candor/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Levine & Cohen, Journal of Experimental Psychology - General 147(9), 1400-1429 (2018), author copy (University of Chicago)",
+   "dcterms:title": "You can handle the truth: Mispredicting the consequences of honest communication",
+   "schema:url": {
+    "@id": "https://bpb-us-w2.wpmucdn.com/voices.uchicago.edu/dist/c/3234/files/2023/07/12.-Handle-the-Truth-2018.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/radical-candor/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Harvard Business School Working Knowledge (Michael Blanding), 5 Aug 2022, on Abi-Esber, Abel, Schroeder & Gino, Journal of Personality and Social Psychology (2022)",
+   "dcterms:title": "Why People Crave Feedback - and Why We're Afraid to Give It",
+   "schema:url": {
+    "@id": "https://www.library.hbs.edu/working-knowledge/why-people-crave-feedback-and-why-were-afraid-to-give-it"
    }
   },
   {
