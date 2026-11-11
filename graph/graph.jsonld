@@ -5144,6 +5144,96 @@
    ]
   },
   {
+   "@id": "cm:executive-summary",
+   "@type": "cmo:Genre",
+   "cmo:complements": {
+    "@id": "cm:plain-language"
+   },
+   "cmo:contrastsWith": {
+    "@id": "cm:abstract"
+   },
+   "cmo:demonstratedBy": {
+    "@id": "cm:rosenbaum-et-al-2011"
+   },
+   "cmo:domain": "executive-and-client-communication",
+   "cmo:evidenceStatus": "practitioner",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/executive-summary/example"
+   },
+   "cmo:file": "articles/executive-and-client-communication/executive-summary.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/executive-summary/howto"
+   },
+   "cmo:level": "introductory",
+   "cmo:partOf": {
+    "@id": "cm:business-report"
+   },
+   "cmo:requires": {
+    "@id": "cm:audience-analysis"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/executive-summary/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/executive-summary/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/executive-summary/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/executive-summary/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/executive-summary/s5"
+    }
+   ],
+   "rdfs:label": "Executive summary",
+   "skos:altLabel": [
+    "management summary",
+    "report summary",
+    "summary for decision makers"
+   ],
+   "skos:broader": {
+    "@id": "cm:business-writing"
+   },
+   "skos:definition": "A short, stand-alone section at the front of a report or proposal that gives a busy decision maker the problem, the key findings and the recommended action, so they can decide without reading the rest. Unlike an academic abstract, it leads with conclusions and recommendations, keeps methods to a line or two, and is written in the reader's terms.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/executive-and-client-communication"
+   },
+   "skos:prefLabel": "Executive summary",
+   "skos:related": [
+    {
+     "@id": "cm:audience-analysis"
+    },
+    {
+     "@id": "cm:bottom-line-up-front"
+    },
+    {
+     "@id": "cm:curse-of-knowledge"
+    },
+    {
+     "@id": "cm:executive-briefing"
+    },
+    {
+     "@id": "cm:information-overload"
+    },
+    {
+     "@id": "cm:pyramid-principle"
+    },
+    {
+     "@id": "cm:status-reporting"
+    },
+    {
+     "@id": "cm:wall-of-text"
+    }
+   ]
+  },
+  {
    "@id": "cm:eye-contact",
    "@type": "cmo:Skill",
    "cmo:appliedIn": {
@@ -19625,6 +19715,99 @@
    "rdfs:label": "Is the standard I am being held to applied the same way to colleagues who look and sound different from me?"
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/executive-summary/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:executive-summary"
+   },
+   "rdfs:label": "If my reader stops after the first paragraph, do they know what I recommend and why?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/executive-summary/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:executive-summary"
+   },
+   "rdfs:label": "Could someone who never opens the report make a sound decision from this summary alone?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/executive-summary/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:executive-summary"
+   },
+   "rdfs:label": "Have I put methods and background where they belong, after the findings, or cut them?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/executive-summary/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "Recommendation: consolidate Northfield into the Easton site by Q3, saving about $1.4M a year. Northfield ships 22% fewer orders per labour hour than our other sites, its lease renews in March at a 30% increase, and Easton has the spare capacity. Main risk: two large customers need next-day delivery from Easton; the transport plan in Section 4 covers this. Decision needed by 15 January to give notice on the lease.",
+   "cmo:before": "This report examines the performance of the Northfield warehouse over the past four quarters. The project team collected data from the warehouse management system, interviewed 14 staff and benchmarked three peer sites. Section 2 describes the methodology...",
+   "cmo:situation": "An operations analyst summarises a 30-page review of a regional warehouse for the chief operating officer.",
+   "cmo:why": "The first version describes the report; the second gives the decision, the reasons, the risk and the deadline, so the COO can act from the first paragraph alone."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/executive-summary/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Executive summary",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/executive-summary/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/executive-summary/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/executive-summary/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/executive-summary/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/executive-summary/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/executive-summary/howto/6"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/executive-summary/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Finish the report first, then name the one decision or action you want from the reader."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/executive-summary/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Open with the recommendation or main finding in one or two sentences, before any background."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/executive-summary/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "State the problem and what is at stake for this reader in concrete terms such as cost, risk, time or customers."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/executive-summary/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Give the three to five findings that justify the recommendation, with the specific numbers."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/executive-summary/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Mention limitations and open risks honestly, and cut methods to a line unless they change how far the result can be trusted."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/executive-summary/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "Check that it stands alone, uses the report's terms consistently and stays within roughly 5-10% of the report's length."
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/eye-contact/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -28715,6 +28898,76 @@
    "dcterms:title": "Can leaders be too charismatic? (press release on Vergauwe et al., Journal of Personality and Social Psychology)",
    "schema:url": {
     "@id": "https://www.apa.org/news/press/releases/2017/05/charismatic-leaders"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/executive-summary/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Canadian Health Services Research Foundation (copy hosted by the University of Guelph)",
+   "dcterms:title": "Reader-Friendly Writing - 1:3:25",
+   "schema:url": {
+    "@id": "https://www.uoguelph.ca/omafra_partnership/sites/uoguelph.ca.omafra_partnership/files/reader%20friendly%20writing.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/executive-summary/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Rosenbaum, S.E., Glenton, C., Wiysonge, C.S. et al., Bulletin of the World Health Organization 89(1), 54-61, 2011, doi:10.2471/BLT.10.075481 (SciELO Public Health)",
+   "dcterms:title": "Evidence summaries tailored to health policy-makers in low- and middle-income countries",
+   "schema:url": {
+    "@id": "https://scielosp.org/article/bwho/2011.v89n1/54-61"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/executive-summary/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "University Writing Center, Texas A&M University",
+   "dcterms:title": "Executive Summaries",
+   "schema:url": {
+    "@id": "https://writingcenter.tamu.edu/writing-speaking-guides/executive-summaries"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/executive-summary/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "LeCourt, D., Writing@CSU, Colorado State University",
+   "dcterms:title": "Executive Summaries (Writing@CSU guide)",
+   "schema:url": {
+    "@id": "https://writing.colostate.edu/guides/pdfs/guide76.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/executive-summary/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Translation Bureau, Public Services and Procurement Canada (Writing Tips Plus)",
+   "dcterms:title": "Clear communication: overview of the writing process and techniques",
+   "schema:url": {
+    "@id": "https://www.noslangues-ourlanguages.gc.ca/en/writing-tips-plus/clear-communication-overview-of-the-writing-process-and-techniques"
    }
   },
   {

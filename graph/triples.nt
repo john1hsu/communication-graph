@@ -3120,6 +3120,80 @@
 <https://github.com/john1hsu/communication-graph/id/executive-presence> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/communication-graph/id/executive-presence> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
 <https://github.com/john1hsu/communication-graph/id/executive-presence> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/antonakis-fenley-liechti-2011> .
+<https://github.com/john1hsu/communication-graph/id/executive-summary/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/executive-summary/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "If my reader stops after the first paragraph, do they know what I recommend and why?" .
+<https://github.com/john1hsu/communication-graph/id/executive-summary/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/executive-summary> .
+<https://github.com/john1hsu/communication-graph/id/executive-summary/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/executive-summary/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Could someone who never opens the report make a sound decision from this summary alone?" .
+<https://github.com/john1hsu/communication-graph/id/executive-summary/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/executive-summary> .
+<https://github.com/john1hsu/communication-graph/id/executive-summary/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/executive-summary/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Have I put methods and background where they belong, after the findings, or cut them?" .
+<https://github.com/john1hsu/communication-graph/id/executive-summary/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/executive-summary> .
+<https://github.com/john1hsu/communication-graph/id/executive-summary/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+<https://github.com/john1hsu/communication-graph/id/executive-summary/example> <https://github.com/john1hsu/communication-graph/ontology#after> "Recommendation: consolidate Northfield into the Easton site by Q3, saving about $1.4M a year. Northfield ships 22% fewer orders per labour hour than our other sites, its lease renews in March at a 30% increase, and Easton has the spare capacity. Main risk: two large customers need next-day delivery from Easton; the transport plan in Section 4 covers this. Decision needed by 15 January to give notice on the lease." .
+<https://github.com/john1hsu/communication-graph/id/executive-summary/example> <https://github.com/john1hsu/communication-graph/ontology#before> "This report examines the performance of the Northfield warehouse over the past four quarters. The project team collected data from the warehouse management system, interviewed 14 staff and benchmarked three peer sites. Section 2 describes the methodology..." .
+<https://github.com/john1hsu/communication-graph/id/executive-summary/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "An operations analyst summarises a 30-page review of a regional warehouse for the chief operating officer." .
+<https://github.com/john1hsu/communication-graph/id/executive-summary/example> <https://github.com/john1hsu/communication-graph/ontology#why> "The first version describes the report; the second gives the decision, the reasons, the risk and the deadline, so the COO can act from the first paragraph alone." .
+<https://github.com/john1hsu/communication-graph/id/executive-summary/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/executive-summary/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/executive-summary/howto/1> <https://schema.org/text> "Finish the report first, then name the one decision or action you want from the reader." .
+<https://github.com/john1hsu/communication-graph/id/executive-summary/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/executive-summary/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/executive-summary/howto/2> <https://schema.org/text> "Open with the recommendation or main finding in one or two sentences, before any background." .
+<https://github.com/john1hsu/communication-graph/id/executive-summary/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/executive-summary/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/executive-summary/howto/3> <https://schema.org/text> "State the problem and what is at stake for this reader in concrete terms such as cost, risk, time or customers." .
+<https://github.com/john1hsu/communication-graph/id/executive-summary/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/executive-summary/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/executive-summary/howto/4> <https://schema.org/text> "Give the three to five findings that justify the recommendation, with the specific numbers." .
+<https://github.com/john1hsu/communication-graph/id/executive-summary/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/executive-summary/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/executive-summary/howto/5> <https://schema.org/text> "Mention limitations and open risks honestly, and cut methods to a line unless they change how far the result can be trusted." .
+<https://github.com/john1hsu/communication-graph/id/executive-summary/howto/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/executive-summary/howto/6> <https://schema.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/executive-summary/howto/6> <https://schema.org/text> "Check that it stands alone, uses the report's terms consistently and stays within roughly 5-10% of the report's length." .
+<https://github.com/john1hsu/communication-graph/id/executive-summary/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+<https://github.com/john1hsu/communication-graph/id/executive-summary/howto> <https://schema.org/name> "Executive summary" .
+<https://github.com/john1hsu/communication-graph/id/executive-summary/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/executive-summary/howto/1> .
+<https://github.com/john1hsu/communication-graph/id/executive-summary/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/executive-summary/howto/2> .
+<https://github.com/john1hsu/communication-graph/id/executive-summary/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/executive-summary/howto/3> .
+<https://github.com/john1hsu/communication-graph/id/executive-summary/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/executive-summary/howto/4> .
+<https://github.com/john1hsu/communication-graph/id/executive-summary/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/executive-summary/howto/5> .
+<https://github.com/john1hsu/communication-graph/id/executive-summary/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/executive-summary/howto/6> .
+<https://github.com/john1hsu/communication-graph/id/executive-summary> <http://purl.org/dc/terms/created> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/executive-summary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Genre> .
+<https://github.com/john1hsu/communication-graph/id/executive-summary> <http://www.w3.org/2000/01/rdf-schema#label> "Executive summary" .
+<https://github.com/john1hsu/communication-graph/id/executive-summary> <http://www.w3.org/2004/02/skos/core#altLabel> "management summary" .
+<https://github.com/john1hsu/communication-graph/id/executive-summary> <http://www.w3.org/2004/02/skos/core#altLabel> "report summary" .
+<https://github.com/john1hsu/communication-graph/id/executive-summary> <http://www.w3.org/2004/02/skos/core#altLabel> "summary for decision makers" .
+<https://github.com/john1hsu/communication-graph/id/executive-summary> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/business-writing> .
+<https://github.com/john1hsu/communication-graph/id/executive-summary> <http://www.w3.org/2004/02/skos/core#definition> "A short, stand-alone section at the front of a report or proposal that gives a busy decision maker the problem, the key findings and the recommended action, so they can decide without reading the rest. Unlike an academic abstract, it leads with conclusions and recommendations, keeps methods to a line or two, and is written in the reader's terms." .
+<https://github.com/john1hsu/communication-graph/id/executive-summary> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/executive-and-client-communication> .
+<https://github.com/john1hsu/communication-graph/id/executive-summary> <http://www.w3.org/2004/02/skos/core#prefLabel> "Executive summary" .
+<https://github.com/john1hsu/communication-graph/id/executive-summary> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
+<https://github.com/john1hsu/communication-graph/id/executive-summary> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
+<https://github.com/john1hsu/communication-graph/id/executive-summary> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> .
+<https://github.com/john1hsu/communication-graph/id/executive-summary> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/executive-briefing> .
+<https://github.com/john1hsu/communication-graph/id/executive-summary> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/information-overload> .
+<https://github.com/john1hsu/communication-graph/id/executive-summary> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/pyramid-principle> .
+<https://github.com/john1hsu/communication-graph/id/executive-summary> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/status-reporting> .
+<https://github.com/john1hsu/communication-graph/id/executive-summary> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/wall-of-text> .
+<https://github.com/john1hsu/communication-graph/id/executive-summary> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/executive-summary/s1> .
+<https://github.com/john1hsu/communication-graph/id/executive-summary> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/executive-summary/s2> .
+<https://github.com/john1hsu/communication-graph/id/executive-summary> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/executive-summary/s3> .
+<https://github.com/john1hsu/communication-graph/id/executive-summary> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/executive-summary/s4> .
+<https://github.com/john1hsu/communication-graph/id/executive-summary> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/executive-summary/s5> .
+<https://github.com/john1hsu/communication-graph/id/executive-summary> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/plain-language> .
+<https://github.com/john1hsu/communication-graph/id/executive-summary> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/abstract> .
+<https://github.com/john1hsu/communication-graph/id/executive-summary> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/rosenbaum-et-al-2011> .
+<https://github.com/john1hsu/communication-graph/id/executive-summary> <https://github.com/john1hsu/communication-graph/ontology#domain> "executive-and-client-communication" .
+<https://github.com/john1hsu/communication-graph/id/executive-summary> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "practitioner" .
+<https://github.com/john1hsu/communication-graph/id/executive-summary> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/executive-summary/example> .
+<https://github.com/john1hsu/communication-graph/id/executive-summary> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/executive-and-client-communication/executive-summary.md" .
+<https://github.com/john1hsu/communication-graph/id/executive-summary> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/executive-summary/howto> .
+<https://github.com/john1hsu/communication-graph/id/executive-summary> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/executive-summary> <https://github.com/john1hsu/communication-graph/ontology#partOf> <https://github.com/john1hsu/communication-graph/id/business-report> .
+<https://github.com/john1hsu/communication-graph/id/executive-summary> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
 <https://github.com/john1hsu/communication-graph/id/eye-contact/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/eye-contact/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Was I looking at the other person mostly while they were speaking, and letting my gaze move while I was thinking?" .
 <https://github.com/john1hsu/communication-graph/id/eye-contact/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/eye-contact> .
@@ -10551,6 +10625,36 @@
 <https://github.com/john1hsu/communication-graph/id/source/executive-presence/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/executive-presence/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
 <https://github.com/john1hsu/communication-graph/id/source/executive-presence/s5> <https://schema.org/url> <https://www.apa.org/news/press/releases/2017/05/charismatic-leaders> .
+<https://github.com/john1hsu/communication-graph/id/source/executive-summary/s1> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/executive-summary/s1> <http://purl.org/dc/terms/publisher> "Canadian Health Services Research Foundation (copy hosted by the University of Guelph)" .
+<https://github.com/john1hsu/communication-graph/id/source/executive-summary/s1> <http://purl.org/dc/terms/title> "Reader-Friendly Writing - 1:3:25" .
+<https://github.com/john1hsu/communication-graph/id/source/executive-summary/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/executive-summary/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/executive-summary/s1> <https://schema.org/url> <https://www.uoguelph.ca/omafra_partnership/sites/uoguelph.ca.omafra_partnership/files/reader%20friendly%20writing.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/executive-summary/s2> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/executive-summary/s2> <http://purl.org/dc/terms/publisher> "Rosenbaum, S.E., Glenton, C., Wiysonge, C.S. et al., Bulletin of the World Health Organization 89(1), 54-61, 2011, doi:10.2471/BLT.10.075481 (SciELO Public Health)" .
+<https://github.com/john1hsu/communication-graph/id/source/executive-summary/s2> <http://purl.org/dc/terms/title> "Evidence summaries tailored to health policy-makers in low- and middle-income countries" .
+<https://github.com/john1hsu/communication-graph/id/source/executive-summary/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/executive-summary/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/executive-summary/s2> <https://schema.org/url> <https://scielosp.org/article/bwho/2011.v89n1/54-61> .
+<https://github.com/john1hsu/communication-graph/id/source/executive-summary/s3> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/executive-summary/s3> <http://purl.org/dc/terms/publisher> "University Writing Center, Texas A&M University" .
+<https://github.com/john1hsu/communication-graph/id/source/executive-summary/s3> <http://purl.org/dc/terms/title> "Executive Summaries" .
+<https://github.com/john1hsu/communication-graph/id/source/executive-summary/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/executive-summary/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/executive-summary/s3> <https://schema.org/url> <https://writingcenter.tamu.edu/writing-speaking-guides/executive-summaries> .
+<https://github.com/john1hsu/communication-graph/id/source/executive-summary/s4> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/executive-summary/s4> <http://purl.org/dc/terms/publisher> "LeCourt, D., Writing@CSU, Colorado State University" .
+<https://github.com/john1hsu/communication-graph/id/source/executive-summary/s4> <http://purl.org/dc/terms/title> "Executive Summaries (Writing@CSU guide)" .
+<https://github.com/john1hsu/communication-graph/id/source/executive-summary/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/executive-summary/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/executive-summary/s4> <https://schema.org/url> <https://writing.colostate.edu/guides/pdfs/guide76.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/executive-summary/s5> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/executive-summary/s5> <http://purl.org/dc/terms/publisher> "Translation Bureau, Public Services and Procurement Canada (Writing Tips Plus)" .
+<https://github.com/john1hsu/communication-graph/id/source/executive-summary/s5> <http://purl.org/dc/terms/title> "Clear communication: overview of the writing process and techniques" .
+<https://github.com/john1hsu/communication-graph/id/source/executive-summary/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/executive-summary/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/communication-graph/id/source/executive-summary/s5> <https://schema.org/url> <https://www.noslangues-ourlanguages.gc.ca/en/writing-tips-plus/clear-communication-overview-of-the-writing-process-and-techniques> .
 <https://github.com/john1hsu/communication-graph/id/source/eye-contact/s1> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/eye-contact/s1> <http://purl.org/dc/terms/publisher> "Frances S. Chen, Julia A. Minson, Maren Schöne & Markus Heinrichs, Psychological Science 24(11), 2013, pp. 2254-2261 (Harvard Kennedy School publication page)" .
 <https://github.com/john1hsu/communication-graph/id/source/eye-contact/s1> <http://purl.org/dc/terms/title> "In the Eye of the Beholder: Eye Contact Increases Resistance to Persuasion" .

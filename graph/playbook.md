@@ -500,6 +500,28 @@ Ask yourself:
 - Am I copying a style that is not mine, when the goal is to show my own judgement and values more clearly?
 - Is the standard I am being held to applied the same way to colleagues who look and sound different from me?
 
+### [Executive summary](../articles/executive-and-client-communication/executive-summary.md) — Genre
+
+1. Finish the report first, then name the one decision or action you want from the reader.
+2. Open with the recommendation or main finding in one or two sentences, before any background.
+3. State the problem and what is at stake for this reader in concrete terms such as cost, risk, time or customers.
+4. Give the three to five findings that justify the recommendation, with the specific numbers.
+5. Mention limitations and open risks honestly, and cut methods to a line unless they change how far the result can be trusted.
+6. Check that it stands alone, uses the report's terms consistently and stays within roughly 5-10% of the report's length.
+
+*An operations analyst summarises a 30-page review of a regional warehouse for the chief operating officer.*
+
+| Before | After |
+|---|---|
+| This report examines the performance of the Northfield warehouse over the past four quarters. The project team collected data from the warehouse management system, interviewed 14 staff and benchmarked three peer sites. Section 2 describes the methodology... | Recommendation: consolidate Northfield into the Easton site by Q3, saving about $1.4M a year. Northfield ships 22% fewer orders per labour hour than our other sites, its lease renews in March at a 30% increase, and Easton has the spare capacity. Main risk: two large customers need next-day delivery from Easton; the transport plan in Section 4 covers this. Decision needed by 15 January to give notice on the lease. |
+
+**Why:** The first version describes the report; the second gives the decision, the reasons, the risk and the deadline, so the COO can act from the first paragraph alone.
+
+Ask yourself:
+- If my reader stops after the first paragraph, do they know what I recommend and why?
+- Could someone who never opens the report make a sound decision from this summary alone?
+- Have I put methods and background where they belong, after the findings, or cut them?
+
 ### [Managing up](../articles/executive-and-client-communication/managing-up.md) — Skill
 
 Ask yourself:

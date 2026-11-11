@@ -18,7 +18,9 @@ _No results._
 
 _Which written contexts, channels or genres have no technique, framework or principle applied in them or structuring them?_ — `queries/03-situations-without-guidance.rq`
 
-_No results._
+| node | type |
+|---|---|
+| `cm:executive-summary` | cmo:Genre |
 
 ## Highest-leverage techniques
 
@@ -143,6 +145,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 
 | node | type |
 |---|---|
+| `cm:executive-summary` | cmo:Genre |
 | `cm:feedback-sandwich` | cmo:Technique |
 | `cm:gestures` | cmo:Skill |
 | `cm:intercultural-competence` | cmo:Skill |
@@ -172,9 +175,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:refutational-two-sided-messages` | cmo:Technique |
 | `cm:reservation-value` | cmo:Concept |
 | `cm:salary-negotiation` | cmo:Context |
-| `cm:scheduled-inbox-checks` | cmo:Technique |
 
-…and 20 more.
+…and 21 more.
 
 ## Orphan articles (gap)
 
