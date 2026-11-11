@@ -1659,6 +1659,92 @@
    ]
   },
   {
+   "@id": "cm:business-report",
+   "@type": "cmo:Genre",
+   "cmo:complements": {
+    "@id": "cm:plain-language"
+   },
+   "cmo:contrastsWith": {
+    "@id": "cm:imrad"
+   },
+   "cmo:domain": "writing",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:file": "articles/writing/business-report.md",
+   "cmo:level": "introductory",
+   "cmo:requires": {
+    "@id": "cm:audience-analysis"
+   },
+   "cmo:supportedBy": {
+    "@id": "cm:petkovic-et-al-2016"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/business-report/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/business-report/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/business-report/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/business-report/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/business-report/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/business-report/s6"
+    }
+   ],
+   "rdfs:label": "Business report",
+   "skos:altLabel": [
+    "analytical report",
+    "formal report",
+    "informational report",
+    "management report",
+    "workplace report"
+   ],
+   "skos:broader": {
+    "@id": "cm:business-writing"
+   },
+   "skos:definition": "A document, usually longer than a page and shorter than a book, that records findings for a specific audience and purpose: informational reports present facts without judgement, while analytical reports add analysis and recommendations. Effective reports are built for selective reading, with the main messages and recommendations up front and the detail layered behind them.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/writing"
+   },
+   "skos:prefLabel": "Business report",
+   "skos:related": [
+    {
+     "@id": "cm:bottom-line-up-front"
+    },
+    {
+     "@id": "cm:executive-briefing"
+    },
+    {
+     "@id": "cm:executive-summary"
+    },
+    {
+     "@id": "cm:informative-headings"
+    },
+    {
+     "@id": "cm:message-structure"
+    },
+    {
+     "@id": "cm:pyramid-principle"
+    },
+    {
+     "@id": "cm:status-reporting"
+    },
+    {
+     "@id": "cm:wall-of-text"
+    }
+   ]
+  },
+  {
    "@id": "cm:camera-level-gaze",
    "@type": "cmo:Technique",
    "cmo:appliedIn": [
@@ -26926,6 +27012,90 @@
    "dcterms:title": "Columbia Accident Investigation Board: The Boeing PowerPoint Slide",
    "schema:url": {
     "@id": "https://www.edwardtufte.com/notebook/columbia-accident-investigation-board-the-boeing-powerpoint-slide/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/business-report/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "SUNY Oswego open textbook via Lumen Learning, adapted from University of Minnesota, Business Communication for Success (CC BY-NC-SA)",
+   "dcterms:title": "6.2 Preparing Short Business Reports (Business Communication Skills for Managers)",
+   "schema:url": {
+    "@id": "https://courses.lumenlearning.com/suny-oswego-businesscommunicationmgrs2/chapter/6-2-preparing-short-business-reports/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/business-report/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Australian Government (stylemanual.gov.au)",
+   "dcterms:title": "Reports (Australian Government Style Manual)",
+   "schema:url": {
+    "@id": "https://www.stylemanual.gov.au/content-types/reports"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/business-report/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Canadian Health Services Research Foundation (copy hosted by Fraser Health)",
+   "dcterms:title": "Reader-Friendly Writing - 1:3:25 (Communication Notes)",
+   "schema:url": {
+    "@id": "https://www.fraserhealth.ca/-/media/Project/FraserHealth/FraserHealth/Health-Professionals/Research-and-Evaluation-Services/Knowledge-translation/reader_friendly_writing.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/business-report/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Garritty, C. et al., PLoS ONE 15(8), e0238025, 2020, doi:10.1371/journal.pone.0238025",
+   "dcterms:title": "Assessing the format and content of journal published and non-journal published rapid review reports: A comparative study",
+   "schema:url": {
+    "@id": "https://eprints.whiterose.ac.uk/165317/1/journal.pone.0238025.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/business-report/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Petkovic, J. et al., Implementation Science, 2016, doi:10.1186/s13012-016-0530-3",
+   "dcterms:title": "The effectiveness of evidence summaries on health policymakers and health system managers use of evidence from systematic reviews: a systematic review",
+   "schema:url": {
+    "@id": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5148903"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/business-report/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Carnegie Mellon University (J. Garrett, modified by S. Finger)",
+   "dcterms:title": "Designing Technical Reports (course handout, 12-271)",
+   "schema:url": {
+    "@id": "https://www.cs.cmu.edu/~rapidproto/handouts/techreps.html"
    }
   },
   {
