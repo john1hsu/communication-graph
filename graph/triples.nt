@@ -6077,6 +6077,32 @@
 <https://github.com/john1hsu/communication-graph/id/managing-up> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
 <https://github.com/john1hsu/communication-graph/id/managing-up> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/dutton-et-al-2001> .
 <https://github.com/john1hsu/communication-graph/id/managing-up> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/lee-et-al-2017> .
+<https://github.com/john1hsu/communication-graph/id/mccallum-erie-railroad-report> <http://purl.org/dc/terms/created> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/mccallum-erie-railroad-report> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
+<https://github.com/john1hsu/communication-graph/id/mccallum-erie-railroad-report> <http://www.w3.org/2000/01/rdf-schema#label> "Erie Railroad Superintendent's Report (1856)" .
+<https://github.com/john1hsu/communication-graph/id/mccallum-erie-railroad-report> <http://www.w3.org/2004/02/skos/core#altLabel> "McCallum's 1856 report to stockholders" .
+<https://github.com/john1hsu/communication-graph/id/mccallum-erie-railroad-report> <http://www.w3.org/2004/02/skos/core#altLabel> "McCallum's Erie report" .
+<https://github.com/john1hsu/communication-graph/id/mccallum-erie-railroad-report> <http://www.w3.org/2004/02/skos/core#altLabel> "McCallum's principles of administration" .
+<https://github.com/john1hsu/communication-graph/id/mccallum-erie-railroad-report> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/business-report> .
+<https://github.com/john1hsu/communication-graph/id/mccallum-erie-railroad-report> <http://www.w3.org/2004/02/skos/core#definition> "Daniel C. McCallum's report as general superintendent of the New York and Erie Railroad (covering 1855, dated March 1856), which set out six principles of administration and a system of hourly, daily and monthly reports flowing up the hierarchy. Business historians treat it as an early blueprint for routine upward reporting, the practice from which the modern internal business report grew." .
+<https://github.com/john1hsu/communication-graph/id/mccallum-erie-railroad-report> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works> .
+<https://github.com/john1hsu/communication-graph/id/mccallum-erie-railroad-report> <http://www.w3.org/2004/02/skos/core#prefLabel> "Erie Railroad Superintendent's Report (1856)" .
+<https://github.com/john1hsu/communication-graph/id/mccallum-erie-railroad-report> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/escalation-communication> .
+<https://github.com/john1hsu/communication-graph/id/mccallum-erie-railroad-report> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/information-overload> .
+<https://github.com/john1hsu/communication-graph/id/mccallum-erie-railroad-report> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
+<https://github.com/john1hsu/communication-graph/id/mccallum-erie-railroad-report> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/status-reporting> .
+<https://github.com/john1hsu/communication-graph/id/mccallum-erie-railroad-report> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/mccallum-erie-railroad-report/s1> .
+<https://github.com/john1hsu/communication-graph/id/mccallum-erie-railroad-report> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/mccallum-erie-railroad-report/s2> .
+<https://github.com/john1hsu/communication-graph/id/mccallum-erie-railroad-report> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/mccallum-erie-railroad-report/s3> .
+<https://github.com/john1hsu/communication-graph/id/mccallum-erie-railroad-report> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/mccallum-erie-railroad-report/s4> .
+<https://github.com/john1hsu/communication-graph/id/mccallum-erie-railroad-report> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/mccallum-erie-railroad-report/s5> .
+<https://github.com/john1hsu/communication-graph/id/mccallum-erie-railroad-report> <https://github.com/john1hsu/communication-graph/ontology#authoredBy> <https://github.com/john1hsu/communication-graph/id/daniel-mccallum> .
+<https://github.com/john1hsu/communication-graph/id/mccallum-erie-railroad-report> <https://github.com/john1hsu/communication-graph/ontology#domain> "thinkers-and-works" .
+<https://github.com/john1hsu/communication-graph/id/mccallum-erie-railroad-report> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "historical" .
+<https://github.com/john1hsu/communication-graph/id/mccallum-erie-railroad-report> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/thinkers-and-works/mccallum-erie-railroad-report.md" .
+<https://github.com/john1hsu/communication-graph/id/mccallum-erie-railroad-report> <https://github.com/john1hsu/communication-graph/ontology#introduces> <https://github.com/john1hsu/communication-graph/id/business-report> .
+<https://github.com/john1hsu/communication-graph/id/mccallum-erie-railroad-report> <https://github.com/john1hsu/communication-graph/ontology#introduces> <https://github.com/john1hsu/communication-graph/id/upward-communication> .
+<https://github.com/john1hsu/communication-graph/id/mccallum-erie-railroad-report> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/mea-culpa> <http://purl.org/dc/terms/created> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/mea-culpa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
 <https://github.com/john1hsu/communication-graph/id/mea-culpa> <http://www.w3.org/2000/01/rdf-schema#label> "Mea Culpa: A Sociology of Apology and Reconciliation" .
@@ -13550,6 +13576,36 @@
 <https://github.com/john1hsu/communication-graph/id/source/managing-up/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/managing-up/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/communication-graph/id/source/managing-up/s6> <https://schema.org/url> <https://pure.psu.edu/en/publications/how-do-i-get-my-way-a-meta-analytic-review-of-research-on-influen/> .
+<https://github.com/john1hsu/communication-graph/id/source/mccallum-erie-railroad-report/s1> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/mccallum-erie-railroad-report/s1> <http://purl.org/dc/terms/publisher> "George L. Vose, James Munroe and Company, Boston, 1857; Project Gutenberg eBook" .
+<https://github.com/john1hsu/communication-graph/id/source/mccallum-erie-railroad-report/s1> <http://purl.org/dc/terms/title> "Handbook of Railroad Construction; For the use of American engineers, chapter XVI Management (reprints McCallum's report to stockholders of 25 March 1856)" .
+<https://github.com/john1hsu/communication-graph/id/source/mccallum-erie-railroad-report/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/mccallum-erie-railroad-report/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/mccallum-erie-railroad-report/s1> <https://schema.org/url> <https://gutenberg.org/ebooks/56688.html.images> .
+<https://github.com/john1hsu/communication-graph/id/source/mccallum-erie-railroad-report/s2> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/mccallum-erie-railroad-report/s2> <http://purl.org/dc/terms/publisher> "Chandler, A. D., Jr., Business History Review 39(1), 16-40, 1965, doi:10.2307/3112463" .
+<https://github.com/john1hsu/communication-graph/id/source/mccallum-erie-railroad-report/s2> <http://purl.org/dc/terms/title> "The Railroads: Pioneers in Modern Corporate Management" .
+<https://github.com/john1hsu/communication-graph/id/source/mccallum-erie-railroad-report/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/mccallum-erie-railroad-report/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/mccallum-erie-railroad-report/s2> <https://schema.org/url> <https://www.cambridge.org/core/services/aop-cambridge-core/content/view/9C7C0A5BAB79AC2D2FF6C787204A4020/S000768050001669Xa.pdf/railroads_pioneers_in_modern_corporate_management.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/mccallum-erie-railroad-report/s3> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/mccallum-erie-railroad-report/s3> <http://purl.org/dc/terms/publisher> "Yates, J., American Archivist 48(2), 141-158, 1985" .
+<https://github.com/john1hsu/communication-graph/id/source/mccallum-erie-railroad-report/s3> <http://purl.org/dc/terms/title> "Internal Communication Systems in American Business Structures: A Framework to Aid Appraisal" .
+<https://github.com/john1hsu/communication-graph/id/source/mccallum-erie-railroad-report/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/mccallum-erie-railroad-report/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/mccallum-erie-railroad-report/s3> <https://schema.org/url> <https://american-archivist.kglmeridian.com/downloadpdf/view/journals/aarc/48/2/article-p141.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/mccallum-erie-railroad-report/s4> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/mccallum-erie-railroad-report/s4> <http://purl.org/dc/terms/publisher> "Rosenthal, C. (Harvard Business School), McKinsey & Company, March 2013" .
+<https://github.com/john1hsu/communication-graph/id/source/mccallum-erie-railroad-report/s4> <http://purl.org/dc/terms/title> "Big data in the age of the telegraph" .
+<https://github.com/john1hsu/communication-graph/id/source/mccallum-erie-railroad-report/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/mccallum-erie-railroad-report/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "practitioner-journal" .
+<https://github.com/john1hsu/communication-graph/id/source/mccallum-erie-railroad-report/s4> <https://schema.org/url> <https://www.mckinsey.com/~/media/McKinsey/Business%20Functions/Organization/Our%20Insights/Big%20data%20in%20the%20age%20of%20the%20telegraph/Big%20data%20in%20the%20age%20of%20the%20telegraph.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/mccallum-erie-railroad-report/s5> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/mccallum-erie-railroad-report/s5> <http://purl.org/dc/terms/publisher> "D. C. McCallum and G. H. Henshaw, New York and Erie Railroad Company, [1855]; Library of Congress Geography and Map Division" .
+<https://github.com/john1hsu/communication-graph/id/source/mccallum-erie-railroad-report/s5> <http://purl.org/dc/terms/title> "New York and Erie Railroad diagram representing a plan of organization ... from the returns of September 1855" .
+<https://github.com/john1hsu/communication-graph/id/source/mccallum-erie-railroad-report/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/mccallum-erie-railroad-report/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/mccallum-erie-railroad-report/s5> <https://schema.org/url> <https://www.loc.gov/item/2017586274> .
 <https://github.com/john1hsu/communication-graph/id/source/mea-culpa/s1> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/mea-culpa/s1> <http://purl.org/dc/terms/publisher> "Stanford University Press" .
 <https://github.com/john1hsu/communication-graph/id/source/mea-culpa/s1> <http://purl.org/dc/terms/title> "Mea Culpa: A Sociology of Apology and Reconciliation (book page)" .

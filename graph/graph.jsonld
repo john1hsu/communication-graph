@@ -10205,6 +10205,74 @@
    ]
   },
   {
+   "@id": "cm:mccallum-erie-railroad-report",
+   "@type": "cmo:Work",
+   "cmo:authoredBy": {
+    "@id": "cm:daniel-mccallum"
+   },
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "historical",
+   "cmo:file": "articles/thinkers-and-works/mccallum-erie-railroad-report.md",
+   "cmo:introduces": [
+    {
+     "@id": "cm:business-report"
+    },
+    {
+     "@id": "cm:upward-communication"
+    }
+   ],
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/mccallum-erie-railroad-report/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/mccallum-erie-railroad-report/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/mccallum-erie-railroad-report/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/mccallum-erie-railroad-report/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/mccallum-erie-railroad-report/s5"
+    }
+   ],
+   "rdfs:label": "Erie Railroad Superintendent's Report (1856)",
+   "skos:altLabel": [
+    "McCallum's 1856 report to stockholders",
+    "McCallum's Erie report",
+    "McCallum's principles of administration"
+   ],
+   "skos:broader": {
+    "@id": "cm:business-report"
+   },
+   "skos:definition": "Daniel C. McCallum's report as general superintendent of the New York and Erie Railroad (covering 1855, dated March 1856), which set out six principles of administration and a system of hourly, daily and monthly reports flowing up the hierarchy. Business historians treat it as an early blueprint for routine upward reporting, the practice from which the modern internal business report grew.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "Erie Railroad Superintendent's Report (1856)",
+   "skos:related": [
+    {
+     "@id": "cm:escalation-communication"
+    },
+    {
+     "@id": "cm:information-overload"
+    },
+    {
+     "@id": "cm:organizational-communication"
+    },
+    {
+     "@id": "cm:status-reporting"
+    }
+   ]
+  },
+  {
    "@id": "cm:mea-culpa",
    "@type": "cmo:Work",
    "cmo:authoredBy": {
@@ -36105,6 +36173,76 @@
    "dcterms:title": "How do I get my way? A meta-analytic review of research on influence tactics",
    "schema:url": {
     "@id": "https://pure.psu.edu/en/publications/how-do-i-get-my-way-a-meta-analytic-review-of-research-on-influen/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/mccallum-erie-railroad-report/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "George L. Vose, James Munroe and Company, Boston, 1857; Project Gutenberg eBook",
+   "dcterms:title": "Handbook of Railroad Construction; For the use of American engineers, chapter XVI Management (reprints McCallum's report to stockholders of 25 March 1856)",
+   "schema:url": {
+    "@id": "https://gutenberg.org/ebooks/56688.html.images"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/mccallum-erie-railroad-report/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Chandler, A. D., Jr., Business History Review 39(1), 16-40, 1965, doi:10.2307/3112463",
+   "dcterms:title": "The Railroads: Pioneers in Modern Corporate Management",
+   "schema:url": {
+    "@id": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/9C7C0A5BAB79AC2D2FF6C787204A4020/S000768050001669Xa.pdf/railroads_pioneers_in_modern_corporate_management.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/mccallum-erie-railroad-report/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Yates, J., American Archivist 48(2), 141-158, 1985",
+   "dcterms:title": "Internal Communication Systems in American Business Structures: A Framework to Aid Appraisal",
+   "schema:url": {
+    "@id": "https://american-archivist.kglmeridian.com/downloadpdf/view/journals/aarc/48/2/article-p141.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/mccallum-erie-railroad-report/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "practitioner-journal",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Rosenthal, C. (Harvard Business School), McKinsey & Company, March 2013",
+   "dcterms:title": "Big data in the age of the telegraph",
+   "schema:url": {
+    "@id": "https://www.mckinsey.com/~/media/McKinsey/Business%20Functions/Organization/Our%20Insights/Big%20data%20in%20the%20age%20of%20the%20telegraph/Big%20data%20in%20the%20age%20of%20the%20telegraph.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/mccallum-erie-railroad-report/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "D. C. McCallum and G. H. Henshaw, New York and Erie Railroad Company, [1855]; Library of Congress Geography and Map Division",
+   "dcterms:title": "New York and Erie Railroad diagram representing a plan of organization ... from the returns of September 1855",
+   "schema:url": {
+    "@id": "https://www.loc.gov/item/2017586274"
    }
   },
   {
