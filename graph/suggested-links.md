@@ -14,7 +14,7 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 2.96 | `cm:paralanguage` | `cm:presentation` | `cm:acoustic-speech-analysis-coaching`, `cm:charismatic-leadership-tactics`, `cm:executive-presence`, `cm:filled-pauses`, `cm:rebecca-hincks` |
 | 2.93 | `cm:mythical-fixed-pie` | `cm:principled-negotiation` | `cm:distributive-negotiation`, `cm:integrative-negotiation`, `cm:interests-vs-positions`, `cm:multiple-equivalent-simultaneous-offers`, `cm:negotiation` |
 | 2.85 | `cm:direct-vs-indirect-feedback` | `cm:intercultural-competence` | `cm:cultural-intelligence`, `cm:describe-analyze-evaluate`, `cm:ethnocentrism`, `cm:face-and-facework`, `cm:high-and-low-context-cultures` |
-| 2.84 | `cm:difficult-conversation` | `cm:situation-behavior-impact` | `cm:active-listening`, `cm:defensiveness`, `cm:feedback`, `cm:i-statements`, `cm:nonviolent-communication` |
+| 2.83 | `cm:difficult-conversation` | `cm:situation-behavior-impact` | `cm:active-listening`, `cm:defensiveness`, `cm:feedback`, `cm:i-statements`, `cm:nonviolent-communication` |
 | 2.74 | `cm:wait-time` | `cm:workplace-meetings` | `cm:1-2-4-all`, `cm:conversational-turn-taking`, `cm:facilitation`, `cm:meeting-agendas`, `cm:psychological-safety` |
 | 2.72 | `cm:batna` | `cm:mythical-fixed-pie` | `cm:anchoring-and-adjustment`, `cm:distributive-negotiation`, `cm:integrative-negotiation`, `cm:interests-vs-positions`, `cm:multiple-equivalent-simultaneous-offers` |
 | 2.70 | `cm:labeling-emotions` | `cm:self-distancing` | `cm:anxiety-reappraisal`, `cm:cognitive-reappraisal`, `cm:emotion-regulation` |

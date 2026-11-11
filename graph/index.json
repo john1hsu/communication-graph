@@ -9360,6 +9360,92 @@
   ]
  },
  {
+  "id": "cm:job-interview",
+  "title": "Job interview",
+  "aliases": [
+   "employment interview",
+   "selection interview",
+   "hiring interview"
+  ],
+  "type": "Context",
+  "domain": "questioning-and-conversation",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/questioning-and-conversation/job-interview.md",
+  "created": "2026-11-11",
+  "summary": "The conversation in which an employer questions a job applicant to judge fit for a role; it is a high-stakes exchange where the interviewer's question design and the candidate's answers both shape how accurate the hiring decision turns out to be.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:personnel-selection"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:impression-management"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:open-ended-questions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:follow-up-questions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:speaking-anxiety"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:salary-negotiation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:paralanguage"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:camera-level-gaze"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:power-posing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:performance-review"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:sackett-zhang-berry-lievens-2022",
+    "source": "s5",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:barrick-shaffer-degrassi-2009",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:studiedIn",
+    "object": "cm:industrial-organizational-psychology",
+    "source": "s2",
+    "confidence": "high"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://www.opm.gov/policy-data-oversight/assessment-and-selection/other-assessment-methods/structured-interviews/",
+   "https://digitalcommons.usu.edu/manage_facpub/423/",
+   "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2017.00201/full",
+   "https://link.springer.com/doi/10.1007/s10869-015-9403-z",
+   "https://www.siop.org/tip-article/is-cognitive-ability-the-best-predictor-of-job-performance"
+  ]
+ },
+ {
   "id": "cm:kluger-denisi-1996",
   "title": "The Effects of Feedback Interventions on Performance",
   "aliases": [

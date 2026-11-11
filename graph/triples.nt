@@ -4897,6 +4897,37 @@
 <https://github.com/john1hsu/communication-graph/id/issue-selling> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/communication-graph/id/issue-selling> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
 <https://github.com/john1hsu/communication-graph/id/issue-selling> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/dutton-et-al-1997> .
+<https://github.com/john1hsu/communication-graph/id/job-interview> <http://purl.org/dc/terms/created> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/job-interview> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Context> .
+<https://github.com/john1hsu/communication-graph/id/job-interview> <http://www.w3.org/2000/01/rdf-schema#label> "Job interview" .
+<https://github.com/john1hsu/communication-graph/id/job-interview> <http://www.w3.org/2004/02/skos/core#altLabel> "employment interview" .
+<https://github.com/john1hsu/communication-graph/id/job-interview> <http://www.w3.org/2004/02/skos/core#altLabel> "hiring interview" .
+<https://github.com/john1hsu/communication-graph/id/job-interview> <http://www.w3.org/2004/02/skos/core#altLabel> "selection interview" .
+<https://github.com/john1hsu/communication-graph/id/job-interview> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/personnel-selection> .
+<https://github.com/john1hsu/communication-graph/id/job-interview> <http://www.w3.org/2004/02/skos/core#definition> "The conversation in which an employer questions a job applicant to judge fit for a role; it is a high-stakes exchange where the interviewer's question design and the candidate's answers both shape how accurate the hiring decision turns out to be." .
+<https://github.com/john1hsu/communication-graph/id/job-interview> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/questioning-and-conversation> .
+<https://github.com/john1hsu/communication-graph/id/job-interview> <http://www.w3.org/2004/02/skos/core#prefLabel> "Job interview" .
+<https://github.com/john1hsu/communication-graph/id/job-interview> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/camera-level-gaze> .
+<https://github.com/john1hsu/communication-graph/id/job-interview> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/follow-up-questions> .
+<https://github.com/john1hsu/communication-graph/id/job-interview> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/impression-management> .
+<https://github.com/john1hsu/communication-graph/id/job-interview> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/open-ended-questions> .
+<https://github.com/john1hsu/communication-graph/id/job-interview> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/paralanguage> .
+<https://github.com/john1hsu/communication-graph/id/job-interview> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/performance-review> .
+<https://github.com/john1hsu/communication-graph/id/job-interview> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/power-posing> .
+<https://github.com/john1hsu/communication-graph/id/job-interview> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/salary-negotiation> .
+<https://github.com/john1hsu/communication-graph/id/job-interview> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> .
+<https://github.com/john1hsu/communication-graph/id/job-interview> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/job-interview/s1> .
+<https://github.com/john1hsu/communication-graph/id/job-interview> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/job-interview/s2> .
+<https://github.com/john1hsu/communication-graph/id/job-interview> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/job-interview/s3> .
+<https://github.com/john1hsu/communication-graph/id/job-interview> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/job-interview/s4> .
+<https://github.com/john1hsu/communication-graph/id/job-interview> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/job-interview/s5> .
+<https://github.com/john1hsu/communication-graph/id/job-interview> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/barrick-shaffer-degrassi-2009> .
+<https://github.com/john1hsu/communication-graph/id/job-interview> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/sackett-zhang-berry-lievens-2022> .
+<https://github.com/john1hsu/communication-graph/id/job-interview> <https://github.com/john1hsu/communication-graph/ontology#domain> "questioning-and-conversation" .
+<https://github.com/john1hsu/communication-graph/id/job-interview> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/job-interview> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/questioning-and-conversation/job-interview.md" .
+<https://github.com/john1hsu/communication-graph/id/job-interview> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/job-interview> <https://github.com/john1hsu/communication-graph/ontology#studiedIn> <https://github.com/john1hsu/communication-graph/id/industrial-organizational-psychology> .
 <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996> <http://purl.org/dc/terms/created> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
 <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996> <http://www.w3.org/2000/01/rdf-schema#label> "The Effects of Feedback Interventions on Performance" .
@@ -11630,6 +11661,36 @@
 <https://github.com/john1hsu/communication-graph/id/source/issue-selling/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/issue-selling/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/communication-graph/id/source/issue-selling/s6> <https://schema.org/url> <https://ideas.repec.org/a/inm/ororsc/v13y2002i4p355-369.html> .
+<https://github.com/john1hsu/communication-graph/id/source/job-interview/s1> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/job-interview/s1> <http://purl.org/dc/terms/publisher> "U.S. Office of Personnel Management, Assessment and Selection" .
+<https://github.com/john1hsu/communication-graph/id/source/job-interview/s1> <http://purl.org/dc/terms/title> "Structured Interviews" .
+<https://github.com/john1hsu/communication-graph/id/source/job-interview/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/job-interview/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/communication-graph/id/source/job-interview/s1> <https://schema.org/url> <https://www.opm.gov/policy-data-oversight/assessment-and-selection/other-assessment-methods/structured-interviews/> .
+<https://github.com/john1hsu/communication-graph/id/source/job-interview/s2> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/job-interview/s2> <http://purl.org/dc/terms/publisher> "Levashina, J., Hartwell, C. J., Morgeson, F. P., & Campion, M. A., Personnel Psychology 67(1), 241-293 (doi:10.1111/peps.12052; Utah State University DigitalCommons record)" .
+<https://github.com/john1hsu/communication-graph/id/source/job-interview/s2> <http://purl.org/dc/terms/title> "The structured employment interview: Narrative and quantitative review of the recent literature" .
+<https://github.com/john1hsu/communication-graph/id/source/job-interview/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/job-interview/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/job-interview/s2> <https://schema.org/url> <https://digitalcommons.usu.edu/manage_facpub/423/> .
+<https://github.com/john1hsu/communication-graph/id/source/job-interview/s3> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/job-interview/s3> <http://purl.org/dc/terms/publisher> "Peck, J. A., & Levashina, J., Frontiers in Psychology 8:201, 2017" .
+<https://github.com/john1hsu/communication-graph/id/source/job-interview/s3> <http://purl.org/dc/terms/title> "Impression Management and Interview and Job Performance Ratings: A Meta-Analysis of Research Design with Tactics in Mind" .
+<https://github.com/john1hsu/communication-graph/id/source/job-interview/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/job-interview/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/job-interview/s3> <https://schema.org/url> <https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2017.00201/full> .
+<https://github.com/john1hsu/communication-graph/id/source/job-interview/s4> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/job-interview/s4> <http://purl.org/dc/terms/publisher> "Feiler, A. R., & Powell, D. M., Journal of Business and Psychology 31, 155-171, 2016" .
+<https://github.com/john1hsu/communication-graph/id/source/job-interview/s4> <http://purl.org/dc/terms/title> "Behavioral Expression of Job Interview Anxiety" .
+<https://github.com/john1hsu/communication-graph/id/source/job-interview/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/job-interview/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/job-interview/s4> <https://schema.org/url> <https://link.springer.com/doi/10.1007/s10869-015-9403-z> .
+<https://github.com/john1hsu/communication-graph/id/source/job-interview/s5> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/job-interview/s5> <http://purl.org/dc/terms/publisher> "O'Shea, P. G., & Fox Luscombe, A. (HumRRO), The Industrial-Organizational Psychologist, Society for Industrial and Organizational Psychology" .
+<https://github.com/john1hsu/communication-graph/id/source/job-interview/s5> <http://purl.org/dc/terms/title> "Is Cognitive Ability the Best Predictor of Job Performance? New Research Says It's Time to Think Again" .
+<https://github.com/john1hsu/communication-graph/id/source/job-interview/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/job-interview/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/communication-graph/id/source/job-interview/s5> <https://schema.org/url> <https://www.siop.org/tip-article/is-cognitive-ability-the-best-predictor-of-job-performance> .
 <https://github.com/john1hsu/communication-graph/id/source/kluger-denisi-1996/s1> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/kluger-denisi-1996/s1> <http://purl.org/dc/terms/publisher> "Kluger & DeNisi, Psychological Bulletin 119(2), 254-284 (1996), doi:10.1037/0033-2909.119.2.254 (Hebrew University research portal)" .
 <https://github.com/john1hsu/communication-graph/id/source/kluger-denisi-1996/s1> <http://purl.org/dc/terms/title> "The effects of feedback interventions on performance: a historical review, a meta-analysis, and a preliminary feedback intervention theory" .
