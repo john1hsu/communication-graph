@@ -1373,6 +1373,68 @@
    ]
   },
   {
+   "@id": "cm:bleyer-newspaper-writing-and-editing",
+   "@type": "cmo:Work",
+   "cmo:authoredBy": {
+    "@id": "cm:willard-bleyer"
+   },
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "historical",
+   "cmo:file": "articles/thinkers-and-works/bleyer-newspaper-writing-and-editing.md",
+   "cmo:introduces": {
+    "@id": "cm:burying-the-lede"
+   },
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/bleyer-newspaper-writing-and-editing/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/bleyer-newspaper-writing-and-editing/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/bleyer-newspaper-writing-and-editing/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/bleyer-newspaper-writing-and-editing/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/bleyer-newspaper-writing-and-editing/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/bleyer-newspaper-writing-and-editing/s6"
+    }
+   ],
+   "rdfs:label": "Bleyer's Newspaper Writing and Editing",
+   "skos:altLabel": "Newspaper Writing and Editing",
+   "skos:definition": "Willard G. Bleyer's 1913 university journalism textbook, which made the \"lead\" - the opening that gives the gist and the most important feature of a story - the centre of news writing, and told editors to dig out a point the writer had buried. It is an early, influential statement of the main-point-first rule behind \"don't bury the lede\".",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "Bleyer's Newspaper Writing and Editing",
+   "skos:related": [
+    {
+     "@id": "cm:bottom-line-up-front"
+    },
+    {
+     "@id": "cm:effective-writing-for-army-leaders"
+    },
+    {
+     "@id": "cm:informative-headings"
+    },
+    {
+     "@id": "cm:message-structure"
+    },
+    {
+     "@id": "cm:pyramid-principle"
+    }
+   ]
+  },
+  {
    "@id": "cm:bottom-line-up-front",
    "@type": "cmo:Technique",
    "cmo:addresses": {
@@ -28250,6 +28312,90 @@
    "dcterms:title": "Negotiating with Nothing Holds Surprise Benefits",
    "schema:url": {
     "@id": "https://www.psychologicalscience.org/news/minds-business/negotiating-with-nothing-holds-surprise-benefits.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/bleyer-newspaper-writing-and-editing/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Willard Grosvenor Bleyer, Houghton Mifflin Company (1913); Project Gutenberg eBook",
+   "dcterms:title": "Newspaper Writing and Editing",
+   "schema:url": {
+    "@id": "https://gutenberg.org/cache/epub/65884/pg65884-images.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/bleyer-newspaper-writing-and-editing/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Wisconsin Historical Society, Historical Essay (from the Dictionary of Wisconsin Biography)",
+   "dcterms:title": "Bleyer, Willard Grosvenor 1873 - 1935",
+   "schema:url": {
+    "@id": "https://www.wisconsinhistory.org/Records/Article/CS5537"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/bleyer-newspaper-writing-and-editing/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "School of Journalism and Mass Communication, University of Wisconsin-Madison",
+   "dcterms:title": "History",
+   "schema:url": {
+    "@id": "https://sjmc.wisc.edu/about/history"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/bleyer-newspaper-writing-and-editing/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Jane S. McConnell, paper presented at the 78th Annual Meeting of the Association for Education in Journalism and Mass Communication (1995), ERIC ED 388 969",
+   "dcterms:title": "Teaching the Common Good: Journalism Textbooks' Embrace of Social Responsibility, 1891-1942",
+   "schema:url": {
+    "@id": "https://files.eric.ed.gov/fulltext/ED388969.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/bleyer-newspaper-writing-and-editing/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "news",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Chip Scanlan, Poynter (20 June 2003)",
+   "dcterms:title": "Birth of the Inverted Pyramid: A Child of Technology, Commerce and History",
+   "schema:url": {
+    "@id": "https://poynter.org/?p=12755"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/bleyer-newspaper-writing-and-editing/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Ricky Telg & Lisa Lundy, University of Florida IFAS Extension (EDIS)",
+   "dcterms:title": "News Writing for Print (WC191)",
+   "schema:url": {
+    "@id": "https://ask.ifas.ufl.edu/publication/WC191"
    }
   },
   {

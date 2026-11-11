@@ -1537,6 +1537,65 @@
   ]
  },
  {
+  "id": "cm:bleyer-newspaper-writing-and-editing",
+  "title": "Bleyer's Newspaper Writing and Editing",
+  "aliases": [
+   "Newspaper Writing and Editing"
+  ],
+  "type": "Work",
+  "domain": "thinkers-and-works",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/thinkers-and-works/bleyer-newspaper-writing-and-editing.md",
+  "created": "2026-11-11",
+  "summary": "Willard G. Bleyer's 1913 university journalism textbook, which made the \"lead\" - the opening that gives the gist and the most important feature of a story - the centre of news writing, and told editors to dig out a point the writer had buried. It is an early, influential statement of the main-point-first rule behind \"don't bury the lede\".",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "cm:message-structure"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:bottom-line-up-front"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:pyramid-principle"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:informative-headings"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:effective-writing-for-army-leaders"
+   },
+   {
+    "predicate": "cmo:introduces",
+    "object": "cm:burying-the-lede",
+    "source": "s1",
+    "confidence": "low"
+   },
+   {
+    "predicate": "cmo:authoredBy",
+    "object": "cm:willard-bleyer",
+    "source": "s2",
+    "confidence": "high"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://gutenberg.org/cache/epub/65884/pg65884-images.html",
+   "https://www.wisconsinhistory.org/Records/Article/CS5537",
+   "https://sjmc.wisc.edu/about/history",
+   "https://files.eric.ed.gov/fulltext/ED388969.pdf",
+   "https://poynter.org/?p=12755",
+   "https://ask.ifas.ufl.edu/publication/WC191"
+  ]
+ },
+ {
   "id": "cm:bottom-line-up-front",
   "title": "Bottom line up front",
   "aliases": [
