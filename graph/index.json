@@ -8740,6 +8740,127 @@
   ]
  },
  {
+  "id": "cm:informative-headings",
+  "title": "Informative headings",
+  "aliases": [
+   "descriptive headings",
+   "message headings",
+   "talking headings",
+   "statement headings"
+  ],
+  "type": "Technique",
+  "domain": "writing",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/writing/informative-headings.md",
+  "created": "2026-11-11",
+  "summary": "Writing headings that tell the reader what a section says or answers, such as \"Costs rise 12% if we wait\", instead of bare labels such as \"Costs\" or \"Discussion\", so a reader can skim the headings alone, find what they need and grasp the document's main points.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:message-structure"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:bottom-line-up-front"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:pyramid-principle"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:signposting"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:bulleted-and-numbered-lists"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:plain-language"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:executive-summary"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:business-report"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:ginny-redish"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:audience-analysis"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:executive-summary",
+    "source": "s6",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:structures",
+    "object": "cm:business-report",
+    "source": "s6",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:wall-of-text",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:plain-language",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:lorch-lorch-1996",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:text-signaling",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "If my reader read only the headings, would they know my main findings and what I need from them?",
+   "Could any of my headings sit unchanged on top of a different report, and if so, what specific point should it state instead?",
+   "Does the first sentence under each heading deliver what the heading promises?"
+  ],
+  "steps": [
+   "List the questions your reader will bring to the document, and draft one heading for each main answer before you write the body.",
+   "Turn every label heading into a statement or question that carries the section's point, starting with the most informative words.",
+   "Keep each heading to about one line, use parallel wording within a level and stop at three levels.",
+   "Make sure the first sentence under each heading delivers what the heading promises.",
+   "Read the headings alone, as a table of contents, and check that they tell the main story and match your executive summary."
+  ],
+  "example": {
+   "situation": "A finance analyst sends a six-page review of a software licence renewal to a director who will skim it before a budget meeting.",
+   "before": "Headings: 1. Background  2. Analysis  3. Options  4. Discussion  5. Next steps",
+   "after": "Headings: 1. Renewal costs rise 18% on 1 April  2. A third of our licences are unused  3. Cutting to 400 seats saves $90K a year  4. Main risk: peak-season demand in Q4  5. Approve the reduced order by 15 March",
+   "why": "The labels only say what kind of content each section holds; the rewritten headings carry the findings, the recommendation and the deadline, so the director can grasp the case and the decision from the headings alone."
+  },
+  "source_urls": [
+   "https://redish.net/wp-content/uploads/Guidelines_for_Document_Designers_2014.pdf",
+   "https://digital.gov/guides/plain-language/design/headings",
+   "https://www.stylemanual.gov.au/node/51",
+   "https://scholars.uky.edu/en/publications/effects-of-headings-on-text-recall-and-summarization/",
+   "https://core.ac.uk/download/224045961.pdf",
+   "https://www.nzier.org.nz/hubfs/Masterclasses/Central%20Government/brief_15_make_papers_pop.pdf"
+  ]
+ },
+ {
   "id": "cm:integrative-negotiation",
   "title": "Integrative negotiation",
   "aliases": [

@@ -7640,6 +7640,106 @@
    ]
   },
   {
+   "@id": "cm:informative-headings",
+   "@type": "cmo:Technique",
+   "cmo:addresses": {
+    "@id": "cm:wall-of-text"
+   },
+   "cmo:appliedIn": {
+    "@id": "cm:executive-summary"
+   },
+   "cmo:complements": {
+    "@id": "cm:plain-language"
+   },
+   "cmo:domain": "writing",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/informative-headings/example"
+   },
+   "cmo:explainedBy": {
+    "@id": "cm:text-signaling"
+   },
+   "cmo:file": "articles/writing/informative-headings.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/informative-headings/howto"
+   },
+   "cmo:level": "introductory",
+   "cmo:requires": {
+    "@id": "cm:audience-analysis"
+   },
+   "cmo:structures": {
+    "@id": "cm:business-report"
+   },
+   "cmo:supportedBy": {
+    "@id": "cm:lorch-lorch-1996"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/informative-headings/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/informative-headings/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/informative-headings/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/informative-headings/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/informative-headings/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/informative-headings/s6"
+    }
+   ],
+   "rdfs:label": "Informative headings",
+   "skos:altLabel": [
+    "descriptive headings",
+    "message headings",
+    "statement headings",
+    "talking headings"
+   ],
+   "skos:broader": {
+    "@id": "cm:message-structure"
+   },
+   "skos:definition": "Writing headings that tell the reader what a section says or answers, such as \"Costs rise 12% if we wait\", instead of bare labels such as \"Costs\" or \"Discussion\", so a reader can skim the headings alone, find what they need and grasp the document's main points.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/writing"
+   },
+   "skos:prefLabel": "Informative headings",
+   "skos:related": [
+    {
+     "@id": "cm:bottom-line-up-front"
+    },
+    {
+     "@id": "cm:bulleted-and-numbered-lists"
+    },
+    {
+     "@id": "cm:business-report"
+    },
+    {
+     "@id": "cm:executive-summary"
+    },
+    {
+     "@id": "cm:ginny-redish"
+    },
+    {
+     "@id": "cm:plain-language"
+    },
+    {
+     "@id": "cm:pyramid-principle"
+    },
+    {
+     "@id": "cm:signposting"
+    }
+   ]
+  },
+  {
    "@id": "cm:integrative-negotiation",
    "@type": "cmo:Technique",
    "cmo:addresses": {
@@ -21021,6 +21121,90 @@
    "rdfs:label": "When I feel swamped, is it the volume of messages, or a lack of clear priorities behind them?"
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/informative-headings/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:informative-headings"
+   },
+   "rdfs:label": "If my reader read only the headings, would they know my main findings and what I need from them?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/informative-headings/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:informative-headings"
+   },
+   "rdfs:label": "Could any of my headings sit unchanged on top of a different report, and if so, what specific point should it state instead?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/informative-headings/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:informative-headings"
+   },
+   "rdfs:label": "Does the first sentence under each heading deliver what the heading promises?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/informative-headings/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "Headings: 1. Renewal costs rise 18% on 1 April 2. A third of our licences are unused 3. Cutting to 400 seats saves $90K a year 4. Main risk: peak-season demand in Q4 5. Approve the reduced order by 15 March",
+   "cmo:before": "Headings: 1. Background 2. Analysis 3. Options 4. Discussion 5. Next steps",
+   "cmo:situation": "A finance analyst sends a six-page review of a software licence renewal to a director who will skim it before a budget meeting.",
+   "cmo:why": "The labels only say what kind of content each section holds; the rewritten headings carry the findings, the recommendation and the deadline, so the director can grasp the case and the decision from the headings alone."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/informative-headings/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Informative headings",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/informative-headings/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/informative-headings/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/informative-headings/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/informative-headings/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/informative-headings/howto/5"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/informative-headings/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "List the questions your reader will bring to the document, and draft one heading for each main answer before you write the body."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/informative-headings/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Turn every label heading into a statement or question that carries the section's point, starting with the most informative words."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/informative-headings/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Keep each heading to about one line, use parallel wording within a level and stop at three levels."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/informative-headings/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Make sure the first sentence under each heading delivers what the heading promises."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/informative-headings/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Read the headings alone, as a table of contents, and check that they tell the main story and match your executive summary."
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/integrative-negotiation/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -31054,6 +31238,90 @@
    "dcterms:title": "Checking email less frequently reduces stress",
    "schema:url": {
     "@id": "https://www.interruptions.net/literature/Kushlev-ComputHumBehav15.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/informative-headings/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Felker, D.B., Pickering, F., Charrow, V.R., Holland, V.M. & Redish, J.C., American Institutes for Research, 1981 (web edition with 2014 introduction by Ginny Redish)",
+   "dcterms:title": "Guidelines for Document Designers (Guideline A-3: Use informative headings)",
+   "schema:url": {
+    "@id": "https://redish.net/wp-content/uploads/Guidelines_for_Document_Designers_2014.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/informative-headings/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Digital.gov, U.S. General Services Administration (federal plain language guidance)",
+   "dcterms:title": "Headings (Plain Language Guide Series)",
+   "schema:url": {
+    "@id": "https://digital.gov/guides/plain-language/design/headings"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/informative-headings/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Australian Government Style Manual",
+   "dcterms:title": "Headings",
+   "schema:url": {
+    "@id": "https://www.stylemanual.gov.au/node/51"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/informative-headings/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Lorch, R.F. & Lorch, E.P., Contemporary Educational Psychology 21(3), 261-278, 1996, doi:10.1006/ceps.1996.0022",
+   "dcterms:title": "Effects of headings on text recall and summarization",
+   "schema:url": {
+    "@id": "https://scholars.uky.edu/en/publications/effects-of-headings-on-text-recall-and-summarization/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/informative-headings/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Lemarié, J., Lorch, R.F. Jr. & Péry-Woodley, M.-P., Discours 10, 2012 (open-access copy via CORE)",
+   "dcterms:title": "Understanding how headings influence text processing",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/224045961.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/informative-headings/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "New Zealand Institute of Economic Research (NZIER), April 2017",
+   "dcterms:title": "Make papers pop: headings (Policy Advice Masterclass, paper 15)",
+   "schema:url": {
+    "@id": "https://www.nzier.org.nz/hubfs/Masterclasses/Central%20Government/brief_15_make_papers_pop.pdf"
    }
   },
   {

@@ -18,9 +18,7 @@ _No results._
 
 _Which written contexts, channels or genres have no technique, framework or principle applied in them or structuring them?_ — `queries/03-situations-without-guidance.rq`
 
-| node | type |
-|---|---|
-| `cm:executive-summary` | cmo:Genre |
+_No results._
 
 ## Highest-leverage techniques
 
@@ -59,7 +57,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:communicating-uncertainty` | 1 | vague-probability-language |
 | `cm:considering-others-contributions-first` | 1 | Egocentric bias |
 
-…and 31 more.
+…and 32 more.
 
 ## Toolkit by situation
 
@@ -70,6 +68,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:apology` | `cm:social-accounts` |
 | `cm:asynchronous-communication` | `cm:conversational-receptiveness` |
 | `cm:asynchronous-communication` | `cm:setting-reply-time-expectations` |
+| `cm:business-report` | `cm:informative-headings` |
 | `cm:business-report` | `cm:pyramid-principle` |
 | `cm:client-communication` | `cm:trusted-advisor` |
 | `cm:communication-plan` | `cm:raci-matrix` |
@@ -96,9 +95,8 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:email` | `cm:kushlev-dunn-2015` |
 | `cm:email` | `cm:media-richness-theory` |
 | `cm:email` | `cm:meeting-recaps` |
-| `cm:email` | `cm:pragmatics` |
 
-…and 81 more.
+…and 83 more.
 
 ## Myths and contested advice
 
@@ -137,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:batna` | mixed | `cm:schaerer-swaab-galinsky-2015` |
 | `cm:bulleted-and-numbered-lists` | mixed | `cm:columbia-accident-investigation-board-report` |
 
-…and 108 more.
+…and 109 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -148,6 +146,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:executive-summary` | cmo:Genre |
 | `cm:feedback-sandwich` | cmo:Technique |
 | `cm:gestures` | cmo:Skill |
+| `cm:informative-headings` | cmo:Technique |
 | `cm:intercultural-competence` | cmo:Skill |
 | `cm:interpersonal-communication` | cmo:Field |
 | `cm:interrupting` | cmo:AntiPattern |
@@ -174,9 +173,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:reciprocal-self-disclosure` | cmo:Technique |
 | `cm:refutational-two-sided-messages` | cmo:Technique |
 | `cm:reservation-value` | cmo:Concept |
-| `cm:salary-negotiation` | cmo:Context |
 
-…and 21 more.
+…and 22 more.
 
 ## Orphan articles (gap)
 

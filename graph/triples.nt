@@ -4599,6 +4599,80 @@
 <https://github.com/john1hsu/communication-graph/id/information-overload> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/information-overload> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> .
 <https://github.com/john1hsu/communication-graph/id/information-overload> <https://github.com/john1hsu/communication-graph/ontology#undermines> <https://github.com/john1hsu/communication-graph/id/decision-quality> .
+<https://github.com/john1hsu/communication-graph/id/informative-headings/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/informative-headings/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "If my reader read only the headings, would they know my main findings and what I need from them?" .
+<https://github.com/john1hsu/communication-graph/id/informative-headings/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/informative-headings> .
+<https://github.com/john1hsu/communication-graph/id/informative-headings/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/informative-headings/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Could any of my headings sit unchanged on top of a different report, and if so, what specific point should it state instead?" .
+<https://github.com/john1hsu/communication-graph/id/informative-headings/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/informative-headings> .
+<https://github.com/john1hsu/communication-graph/id/informative-headings/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/informative-headings/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Does the first sentence under each heading deliver what the heading promises?" .
+<https://github.com/john1hsu/communication-graph/id/informative-headings/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/informative-headings> .
+<https://github.com/john1hsu/communication-graph/id/informative-headings/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+<https://github.com/john1hsu/communication-graph/id/informative-headings/example> <https://github.com/john1hsu/communication-graph/ontology#after> "Headings: 1. Renewal costs rise 18% on 1 April 2. A third of our licences are unused 3. Cutting to 400 seats saves $90K a year 4. Main risk: peak-season demand in Q4 5. Approve the reduced order by 15 March" .
+<https://github.com/john1hsu/communication-graph/id/informative-headings/example> <https://github.com/john1hsu/communication-graph/ontology#before> "Headings: 1. Background 2. Analysis 3. Options 4. Discussion 5. Next steps" .
+<https://github.com/john1hsu/communication-graph/id/informative-headings/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "A finance analyst sends a six-page review of a software licence renewal to a director who will skim it before a budget meeting." .
+<https://github.com/john1hsu/communication-graph/id/informative-headings/example> <https://github.com/john1hsu/communication-graph/ontology#why> "The labels only say what kind of content each section holds; the rewritten headings carry the findings, the recommendation and the deadline, so the director can grasp the case and the decision from the headings alone." .
+<https://github.com/john1hsu/communication-graph/id/informative-headings/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/informative-headings/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/informative-headings/howto/1> <https://schema.org/text> "List the questions your reader will bring to the document, and draft one heading for each main answer before you write the body." .
+<https://github.com/john1hsu/communication-graph/id/informative-headings/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/informative-headings/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/informative-headings/howto/2> <https://schema.org/text> "Turn every label heading into a statement or question that carries the section's point, starting with the most informative words." .
+<https://github.com/john1hsu/communication-graph/id/informative-headings/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/informative-headings/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/informative-headings/howto/3> <https://schema.org/text> "Keep each heading to about one line, use parallel wording within a level and stop at three levels." .
+<https://github.com/john1hsu/communication-graph/id/informative-headings/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/informative-headings/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/informative-headings/howto/4> <https://schema.org/text> "Make sure the first sentence under each heading delivers what the heading promises." .
+<https://github.com/john1hsu/communication-graph/id/informative-headings/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/informative-headings/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/informative-headings/howto/5> <https://schema.org/text> "Read the headings alone, as a table of contents, and check that they tell the main story and match your executive summary." .
+<https://github.com/john1hsu/communication-graph/id/informative-headings/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+<https://github.com/john1hsu/communication-graph/id/informative-headings/howto> <https://schema.org/name> "Informative headings" .
+<https://github.com/john1hsu/communication-graph/id/informative-headings/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/informative-headings/howto/1> .
+<https://github.com/john1hsu/communication-graph/id/informative-headings/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/informative-headings/howto/2> .
+<https://github.com/john1hsu/communication-graph/id/informative-headings/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/informative-headings/howto/3> .
+<https://github.com/john1hsu/communication-graph/id/informative-headings/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/informative-headings/howto/4> .
+<https://github.com/john1hsu/communication-graph/id/informative-headings/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/informative-headings/howto/5> .
+<https://github.com/john1hsu/communication-graph/id/informative-headings> <http://purl.org/dc/terms/created> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/informative-headings> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Technique> .
+<https://github.com/john1hsu/communication-graph/id/informative-headings> <http://www.w3.org/2000/01/rdf-schema#label> "Informative headings" .
+<https://github.com/john1hsu/communication-graph/id/informative-headings> <http://www.w3.org/2004/02/skos/core#altLabel> "descriptive headings" .
+<https://github.com/john1hsu/communication-graph/id/informative-headings> <http://www.w3.org/2004/02/skos/core#altLabel> "message headings" .
+<https://github.com/john1hsu/communication-graph/id/informative-headings> <http://www.w3.org/2004/02/skos/core#altLabel> "statement headings" .
+<https://github.com/john1hsu/communication-graph/id/informative-headings> <http://www.w3.org/2004/02/skos/core#altLabel> "talking headings" .
+<https://github.com/john1hsu/communication-graph/id/informative-headings> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/message-structure> .
+<https://github.com/john1hsu/communication-graph/id/informative-headings> <http://www.w3.org/2004/02/skos/core#definition> "Writing headings that tell the reader what a section says or answers, such as \"Costs rise 12% if we wait\", instead of bare labels such as \"Costs\" or \"Discussion\", so a reader can skim the headings alone, find what they need and grasp the document's main points." .
+<https://github.com/john1hsu/communication-graph/id/informative-headings> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/writing> .
+<https://github.com/john1hsu/communication-graph/id/informative-headings> <http://www.w3.org/2004/02/skos/core#prefLabel> "Informative headings" .
+<https://github.com/john1hsu/communication-graph/id/informative-headings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
+<https://github.com/john1hsu/communication-graph/id/informative-headings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/bulleted-and-numbered-lists> .
+<https://github.com/john1hsu/communication-graph/id/informative-headings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/business-report> .
+<https://github.com/john1hsu/communication-graph/id/informative-headings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/executive-summary> .
+<https://github.com/john1hsu/communication-graph/id/informative-headings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/ginny-redish> .
+<https://github.com/john1hsu/communication-graph/id/informative-headings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/plain-language> .
+<https://github.com/john1hsu/communication-graph/id/informative-headings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/pyramid-principle> .
+<https://github.com/john1hsu/communication-graph/id/informative-headings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/signposting> .
+<https://github.com/john1hsu/communication-graph/id/informative-headings> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/informative-headings/s1> .
+<https://github.com/john1hsu/communication-graph/id/informative-headings> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/informative-headings/s2> .
+<https://github.com/john1hsu/communication-graph/id/informative-headings> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/informative-headings/s3> .
+<https://github.com/john1hsu/communication-graph/id/informative-headings> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/informative-headings/s4> .
+<https://github.com/john1hsu/communication-graph/id/informative-headings> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/informative-headings/s5> .
+<https://github.com/john1hsu/communication-graph/id/informative-headings> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/informative-headings/s6> .
+<https://github.com/john1hsu/communication-graph/id/informative-headings> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/wall-of-text> .
+<https://github.com/john1hsu/communication-graph/id/informative-headings> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/executive-summary> .
+<https://github.com/john1hsu/communication-graph/id/informative-headings> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/plain-language> .
+<https://github.com/john1hsu/communication-graph/id/informative-headings> <https://github.com/john1hsu/communication-graph/ontology#domain> "writing" .
+<https://github.com/john1hsu/communication-graph/id/informative-headings> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/informative-headings> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/informative-headings/example> .
+<https://github.com/john1hsu/communication-graph/id/informative-headings> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/text-signaling> .
+<https://github.com/john1hsu/communication-graph/id/informative-headings> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/writing/informative-headings.md" .
+<https://github.com/john1hsu/communication-graph/id/informative-headings> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/informative-headings/howto> .
+<https://github.com/john1hsu/communication-graph/id/informative-headings> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/informative-headings> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
+<https://github.com/john1hsu/communication-graph/id/informative-headings> <https://github.com/john1hsu/communication-graph/ontology#structures> <https://github.com/john1hsu/communication-graph/id/business-report> .
+<https://github.com/john1hsu/communication-graph/id/informative-headings> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/lorch-lorch-1996> .
 <https://github.com/john1hsu/communication-graph/id/integrative-negotiation/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/integrative-negotiation/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Have I put more than one issue on the table, or am I haggling over a single number?" .
 <https://github.com/john1hsu/communication-graph/id/integrative-negotiation/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/integrative-negotiation> .
@@ -11549,6 +11623,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/information-overload/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/information-overload/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/communication-graph/id/source/information-overload/s5> <https://schema.org/url> <https://www.interruptions.net/literature/Kushlev-ComputHumBehav15.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/informative-headings/s1> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/informative-headings/s1> <http://purl.org/dc/terms/publisher> "Felker, D.B., Pickering, F., Charrow, V.R., Holland, V.M. & Redish, J.C., American Institutes for Research, 1981 (web edition with 2014 introduction by Ginny Redish)" .
+<https://github.com/john1hsu/communication-graph/id/source/informative-headings/s1> <http://purl.org/dc/terms/title> "Guidelines for Document Designers (Guideline A-3: Use informative headings)" .
+<https://github.com/john1hsu/communication-graph/id/source/informative-headings/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/informative-headings/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/informative-headings/s1> <https://schema.org/url> <https://redish.net/wp-content/uploads/Guidelines_for_Document_Designers_2014.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/informative-headings/s2> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/informative-headings/s2> <http://purl.org/dc/terms/publisher> "Digital.gov, U.S. General Services Administration (federal plain language guidance)" .
+<https://github.com/john1hsu/communication-graph/id/source/informative-headings/s2> <http://purl.org/dc/terms/title> "Headings (Plain Language Guide Series)" .
+<https://github.com/john1hsu/communication-graph/id/source/informative-headings/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/informative-headings/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/communication-graph/id/source/informative-headings/s2> <https://schema.org/url> <https://digital.gov/guides/plain-language/design/headings> .
+<https://github.com/john1hsu/communication-graph/id/source/informative-headings/s3> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/informative-headings/s3> <http://purl.org/dc/terms/publisher> "Australian Government Style Manual" .
+<https://github.com/john1hsu/communication-graph/id/source/informative-headings/s3> <http://purl.org/dc/terms/title> "Headings" .
+<https://github.com/john1hsu/communication-graph/id/source/informative-headings/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/informative-headings/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/communication-graph/id/source/informative-headings/s3> <https://schema.org/url> <https://www.stylemanual.gov.au/node/51> .
+<https://github.com/john1hsu/communication-graph/id/source/informative-headings/s4> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/informative-headings/s4> <http://purl.org/dc/terms/publisher> "Lorch, R.F. & Lorch, E.P., Contemporary Educational Psychology 21(3), 261-278, 1996, doi:10.1006/ceps.1996.0022" .
+<https://github.com/john1hsu/communication-graph/id/source/informative-headings/s4> <http://purl.org/dc/terms/title> "Effects of headings on text recall and summarization" .
+<https://github.com/john1hsu/communication-graph/id/source/informative-headings/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/informative-headings/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/informative-headings/s4> <https://schema.org/url> <https://scholars.uky.edu/en/publications/effects-of-headings-on-text-recall-and-summarization/> .
+<https://github.com/john1hsu/communication-graph/id/source/informative-headings/s5> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/informative-headings/s5> <http://purl.org/dc/terms/publisher> "Lemarié, J., Lorch, R.F. Jr. & Péry-Woodley, M.-P., Discours 10, 2012 (open-access copy via CORE)" .
+<https://github.com/john1hsu/communication-graph/id/source/informative-headings/s5> <http://purl.org/dc/terms/title> "Understanding how headings influence text processing" .
+<https://github.com/john1hsu/communication-graph/id/source/informative-headings/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/informative-headings/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/informative-headings/s5> <https://schema.org/url> <https://core.ac.uk/download/224045961.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/informative-headings/s6> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/informative-headings/s6> <http://purl.org/dc/terms/publisher> "New Zealand Institute of Economic Research (NZIER), April 2017" .
+<https://github.com/john1hsu/communication-graph/id/source/informative-headings/s6> <http://purl.org/dc/terms/title> "Make papers pop: headings (Policy Advice Masterclass, paper 15)" .
+<https://github.com/john1hsu/communication-graph/id/source/informative-headings/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/informative-headings/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/communication-graph/id/source/informative-headings/s6> <https://schema.org/url> <https://www.nzier.org.nz/hubfs/Masterclasses/Central%20Government/brief_15_make_papers_pop.pdf> .
 <https://github.com/john1hsu/communication-graph/id/source/integrative-negotiation/s1> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/integrative-negotiation/s1> <http://purl.org/dc/terms/publisher> "PON Staff, Program on Negotiation at Harvard Law School, 2026" .
 <https://github.com/john1hsu/communication-graph/id/source/integrative-negotiation/s1> <http://purl.org/dc/terms/title> "Expanding the Pie: Integrative versus Distributive Bargaining Negotiation Strategies" .

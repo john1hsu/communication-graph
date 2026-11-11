@@ -1952,6 +1952,27 @@ Ask yourself:
 - Did my last edit make this shorter, or did I only add caveats and background?
 - Have I cut so far that a reader new to the topic would now be missing context or find the tone curt?
 
+### [Informative headings](../articles/writing/informative-headings.md) — Technique
+
+1. List the questions your reader will bring to the document, and draft one heading for each main answer before you write the body.
+2. Turn every label heading into a statement or question that carries the section's point, starting with the most informative words.
+3. Keep each heading to about one line, use parallel wording within a level and stop at three levels.
+4. Make sure the first sentence under each heading delivers what the heading promises.
+5. Read the headings alone, as a table of contents, and check that they tell the main story and match your executive summary.
+
+*A finance analyst sends a six-page review of a software licence renewal to a director who will skim it before a budget meeting.*
+
+| Before | After |
+|---|---|
+| Headings: 1. Background 2. Analysis 3. Options 4. Discussion 5. Next steps | Headings: 1. Renewal costs rise 18% on 1 April 2. A third of our licences are unused 3. Cutting to 400 seats saves $90K a year 4. Main risk: peak-season demand in Q4 5. Approve the reduced order by 15 March |
+
+**Why:** The labels only say what kind of content each section holds; the rewritten headings carry the findings, the recommendation and the deadline, so the director can grasp the case and the decision from the headings alone.
+
+Ask yourself:
+- If my reader read only the headings, would they know my main findings and what I need from them?
+- Could any of my headings sit unchanged on top of a different report, and if so, what specific point should it state instead?
+- Does the first sentence under each heading deliver what the heading promises?
+
 ### [Paramedic method for revising prose](../articles/writing/paramedic-method.md) — Technique
 
 1. Finish the draft first, then pick one long or important sentence to revise at a time.
