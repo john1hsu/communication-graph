@@ -821,6 +821,22 @@ Ask yourself:
 - Did I ask at least one question that drew out something they had not yet said?
 - Would they leave this conversation feeling heard, even if I did not agree with them?
 
+### [Conversational narcissism](../articles/listening/conversational-narcissism.md) — AntiPattern
+
+*In a Monday one-on-one, a team member tells her manager that the client workshop on Friday went badly because the client's finance lead challenged every number.*
+
+| Before | After |
+|---|---|
+| Manager: 'Oh, finance people always do that. When I ran the Henley account I had a CFO who tore apart my whole deck - I ended up rebuilding it overnight and we still won the renewal. Anyway, what's next on your list?' | Manager: 'That sounds draining. Which numbers did he push on, and was it the figures themselves or how we got to them?' [listens] 'So the cost baseline is the sticking point. What would help you go back in with it?' |
+
+**Why:** The first reply is a shift response - it takes her topic and turns it into the manager's war story, then closes the subject, so he learns nothing about the problem. The second is a support response that keeps her at the centre and uses follow-up questions, which surfaces the real issue and leaves her feeling heard.
+
+Ask yourself:
+- In the last conversation, how many of my replies kept the focus on the other person, and how many moved it to me?
+- When someone shared a problem, did I tell a story about my similar experience before asking anything about theirs?
+- Did I ask a question only so that I could give my own answer to it?
+- Can I name one specific thing the other person said that I followed up on?
+
 ### [Interrupting](../articles/listening/interrupting.md) — AntiPattern
 
 *In a weekly project meeting, a junior analyst starts explaining why the vendor data looks wrong, and the team lead jumps in.*

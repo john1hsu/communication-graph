@@ -3040,6 +3040,95 @@
    ]
   },
   {
+   "@id": "cm:conversational-narcissism",
+   "@type": "cmo:AntiPattern",
+   "cmo:contrastsWith": {
+    "@id": "cm:follow-up-questions"
+   },
+   "cmo:demonstratedBy": {
+    "@id": "cm:vangelisti-knapp-daly-1990"
+   },
+   "cmo:domain": "listening",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/conversational-narcissism/example"
+   },
+   "cmo:file": "articles/listening/conversational-narcissism.md",
+   "cmo:introducedBy": {
+    "@id": "cm:charles-derber"
+   },
+   "cmo:level": "introductory",
+   "cmo:supportedBy": {
+    "@id": "cm:yeomans-brooks-2025"
+   },
+   "cmo:undermines": [
+    {
+     "@id": "cm:perceived-partner-responsiveness"
+    },
+    {
+     "@id": "cm:rapport"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/conversational-narcissism/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/conversational-narcissism/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/conversational-narcissism/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/conversational-narcissism/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/conversational-narcissism/s5"
+    }
+   ],
+   "rdfs:label": "Conversational narcissism",
+   "skos:altLabel": [
+    "self-focused conversation",
+    "shift response habit",
+    "turning the conversation to yourself"
+   ],
+   "skos:broader": {
+    "@id": "cm:conversational-turn-taking"
+   },
+   "skos:definition": "The habit of repeatedly steering a conversation back to yourself - your experiences, opinions and achievements - instead of following the other person's topic; studies find partners rate self-focused talkers as less socially attractive, sincere and likeable.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/listening"
+   },
+   "skos:prefLabel": "Conversational narcissism",
+   "skos:related": [
+    {
+     "@id": "cm:active-listening"
+    },
+    {
+     "@id": "cm:alison-wood-brooks"
+    },
+    {
+     "@id": "cm:boomerasking"
+    },
+    {
+     "@id": "cm:follow-up-questions"
+    },
+    {
+     "@id": "cm:interrupting"
+    },
+    {
+     "@id": "cm:reciprocal-self-disclosure"
+    },
+    {
+     "@id": "cm:small-talk"
+    }
+   ]
+  },
+  {
    "@id": "cm:conversational-receptiveness",
    "@type": "cmo:Technique",
    "cmo:addresses": {
@@ -19418,6 +19507,46 @@
    "schema:text": "When the list shows an uneven split, talk about how work will be divided next time rather than letting the person who carried more quietly resent it."
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/conversational-narcissism/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:conversational-narcissism"
+   },
+   "rdfs:label": "In the last conversation, how many of my replies kept the focus on the other person, and how many moved it to me?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/conversational-narcissism/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:conversational-narcissism"
+   },
+   "rdfs:label": "When someone shared a problem, did I tell a story about my similar experience before asking anything about theirs?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/conversational-narcissism/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:conversational-narcissism"
+   },
+   "rdfs:label": "Did I ask a question only so that I could give my own answer to it?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/conversational-narcissism/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:conversational-narcissism"
+   },
+   "rdfs:label": "Can I name one specific thing the other person said that I followed up on?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/conversational-narcissism/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "Manager: 'That sounds draining. Which numbers did he push on, and was it the figures themselves or how we got to them?' [listens] 'So the cost baseline is the sticking point. What would help you go back in with it?'",
+   "cmo:before": "Manager: 'Oh, finance people always do that. When I ran the Henley account I had a CFO who tore apart my whole deck - I ended up rebuilding it overnight and we still won the renewal. Anyway, what's next on your list?'",
+   "cmo:situation": "In a Monday one-on-one, a team member tells her manager that the client workshop on Friday went badly because the client's finance lead challenged every number.",
+   "cmo:why": "The first reply is a shift response - it takes her topic and turns it into the manager's war story, then closes the subject, so he learns nothing about the problem. The second is a support response that keeps her at the centre and uses follow-up questions, which surfaces the real issue and leaves her feeling heard."
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/conversational-receptiveness/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -28146,6 +28275,76 @@
    "dcterms:title": "I'd Like to Thank...Myself",
    "schema:url": {
     "@id": "https://newsroom.haas.berkeley.edu/research/like-to-thank-myself-2/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/conversational-narcissism/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Anita L. Vangelisti, Mark L. Knapp & John A. Daly, Communication Monographs 57(4), 251-274 (1990), Taylor & Francis, doi:10.1080/03637759009376202 (Scilit record)",
+   "dcterms:title": "Conversational Narcissism",
+   "schema:url": {
+    "@id": "https://scilit.com/publications/bdbe90f789185f21e500e36061160281"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/conversational-narcissism/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Michael Yeomans & Alison Wood Brooks, Journal of Experimental Psychology: General 154(3), 864-893 (2025), doi:10.1037/xge0001693 (Imperial College London Spiral repository)",
+   "dcterms:title": "Boomerasking: Answering Your Own Questions",
+   "schema:url": {
+    "@id": "https://spiral.imperial.ac.uk/entities/publication/714aec36-1023-4cde-bedf-3de8da60f958"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/conversational-narcissism/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Michael Blanding, Harvard Business School Working Knowledge, 7 August 2025",
+   "dcterms:title": "'Boomerasking': The Annoying Habit Ruining Your Office Conversations",
+   "schema:url": {
+    "@id": "https://www.library.hbs.edu/working-knowledge/boomerasking-the-annoying-habit-ruining-your-office-conversations"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/conversational-narcissism/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Association for Psychological Science, Minds at Work, 14 July 2017 (reporting Huang, Yeomans, Brooks, Minson & Gino, Journal of Personality and Social Psychology, 2017)",
+   "dcterms:title": "Asking Questions Increases Likability",
+   "schema:url": {
+    "@id": "https://www.psychologicalscience.org/?p=134586"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/conversational-narcissism/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "community",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Todd Schoepflin, Everyday Sociology blog (W. W. Norton), 15 November 2021",
+   "dcterms:title": "Attention in Everyday Life",
+   "schema:url": {
+    "@id": "https://everydaysociologyblog.com/2021/11/15/attention-in-everyday-life"
    }
   },
   {
