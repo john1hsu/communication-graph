@@ -1926,6 +1926,53 @@
 <https://github.com/john1hsu/communication-graph/id/communication-apprehension> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/communication-apprehension> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/mcwilliam-beattie-callow-2025> .
 <https://github.com/john1hsu/communication-graph/id/communication-apprehension> <https://github.com/john1hsu/communication-graph/ontology#undermines> <https://github.com/john1hsu/communication-graph/id/communication-competence> .
+<https://github.com/john1hsu/communication-graph/id/communication-competence/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/communication-competence/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "In this conversation, what exactly counts as effective for me, and what would the other person count as appropriate?" .
+<https://github.com/john1hsu/communication-graph/id/communication-competence/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/communication-competence> .
+<https://github.com/john1hsu/communication-graph/id/communication-competence/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/communication-competence/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "If I get my outcome, will I have damaged the relationship or broken a norm that matters to them?" .
+<https://github.com/john1hsu/communication-graph/id/communication-competence/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/communication-competence> .
+<https://github.com/john1hsu/communication-graph/id/communication-competence/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/communication-competence/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Is my problem here motivation (I am avoiding it), knowledge (I do not know what fits) or skill (I know but cannot yet do it)?" .
+<https://github.com/john1hsu/communication-graph/id/communication-competence/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/communication-competence> .
+<https://github.com/john1hsu/communication-graph/id/communication-competence/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/communication-competence/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Whose view of how this went have I actually asked for, beyond my own?" .
+<https://github.com/john1hsu/communication-graph/id/communication-competence/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/communication-competence> .
+<https://github.com/john1hsu/communication-graph/id/communication-competence> <http://purl.org/dc/terms/created> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/communication-competence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Skill> .
+<https://github.com/john1hsu/communication-graph/id/communication-competence> <http://www.w3.org/2000/01/rdf-schema#label> "Communication competence" .
+<https://github.com/john1hsu/communication-graph/id/communication-competence> <http://www.w3.org/2004/02/skos/core#altLabel> "appropriateness and effectiveness" .
+<https://github.com/john1hsu/communication-graph/id/communication-competence> <http://www.w3.org/2004/02/skos/core#altLabel> "communicative competence at work" .
+<https://github.com/john1hsu/communication-graph/id/communication-competence> <http://www.w3.org/2004/02/skos/core#altLabel> "communicator competence" .
+<https://github.com/john1hsu/communication-graph/id/communication-competence> <http://www.w3.org/2004/02/skos/core#altLabel> "component model of communication competence" .
+<https://github.com/john1hsu/communication-graph/id/communication-competence> <http://www.w3.org/2004/02/skos/core#altLabel> "interpersonal communication competence" .
+<https://github.com/john1hsu/communication-graph/id/communication-competence> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
+<https://github.com/john1hsu/communication-graph/id/communication-competence> <http://www.w3.org/2004/02/skos/core#definition> "The degree to which your communication is judged both appropriate (it fits the norms and relationship of the situation) and effective (it achieves what you set out to do). It rests on motivation, knowledge and skill, and it is an impression held by others in a context rather than a trait you own once and for all." .
+<https://github.com/john1hsu/communication-graph/id/communication-competence> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/foundations> .
+<https://github.com/john1hsu/communication-graph/id/communication-competence> <http://www.w3.org/2004/02/skos/core#prefLabel> "Communication competence" .
+<https://github.com/john1hsu/communication-graph/id/communication-competence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+<https://github.com/john1hsu/communication-graph/id/communication-competence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
+<https://github.com/john1hsu/communication-graph/id/communication-competence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/clarity> .
+<https://github.com/john1hsu/communication-graph/id/communication-competence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communication-apprehension> .
+<https://github.com/john1hsu/communication-graph/id/communication-competence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/feedback> .
+<https://github.com/john1hsu/communication-graph/id/communication-competence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/intercultural-competence> .
+<https://github.com/john1hsu/communication-graph/id/communication-competence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/receiving-feedback> .
+<https://github.com/john1hsu/communication-graph/id/communication-competence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/register-and-tone> .
+<https://github.com/john1hsu/communication-graph/id/communication-competence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/self-recording-playback> .
+<https://github.com/john1hsu/communication-graph/id/communication-competence> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/communication-competence/s1> .
+<https://github.com/john1hsu/communication-graph/id/communication-competence> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/communication-competence/s2> .
+<https://github.com/john1hsu/communication-graph/id/communication-competence> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/communication-competence/s3> .
+<https://github.com/john1hsu/communication-graph/id/communication-competence> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/communication-competence/s4> .
+<https://github.com/john1hsu/communication-graph/id/communication-competence> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/communication-competence/s5> .
+<https://github.com/john1hsu/communication-graph/id/communication-competence> <https://github.com/john1hsu/communication-graph/ontology#domain> "foundations" .
+<https://github.com/john1hsu/communication-graph/id/communication-competence> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/communication-competence> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/foundations/communication-competence.md" .
+<https://github.com/john1hsu/communication-graph/id/communication-competence> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/james-mccroskey> .
+<https://github.com/john1hsu/communication-graph/id/communication-competence> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/brian-spitzberg> .
+<https://github.com/john1hsu/communication-graph/id/communication-competence> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/communication-competence> <https://github.com/john1hsu/communication-graph/ontology#studiedIn> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
+<https://github.com/john1hsu/communication-graph/id/communication-competence> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/barth-lannen-2011> .
+<https://github.com/john1hsu/communication-graph/id/communication-competence> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/madlock-2008> .
 <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://purl.org/dc/terms/created> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Field> .
 <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2000/01/rdf-schema#label> "Communication studies" .
@@ -11755,6 +11802,36 @@
 <https://github.com/john1hsu/communication-graph/id/source/communication-apprehension/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/communication-apprehension/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
 <https://github.com/john1hsu/communication-graph/id/source/communication-apprehension/s6> <https://schema.org/url> <https://www.natcom.org/node/995> .
+<https://github.com/john1hsu/communication-graph/id/source/communication-competence/s1> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/communication-competence/s1> <http://purl.org/dc/terms/publisher> "Brian H. Spitzberg, Journal of Public Health Research 2(3), e23, 2013, doi:10.4081/jphr.2013.e23" .
+<https://github.com/john1hsu/communication-graph/id/source/communication-competence/s1> <http://purl.org/dc/terms/title> "(Re)Introducing communication competence to the health professions" .
+<https://github.com/john1hsu/communication-graph/id/source/communication-competence/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/communication-competence/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/communication-competence/s1> <https://schema.org/url> <https://www.jphres.us.com/?p=5185> .
+<https://github.com/john1hsu/communication-graph/id/source/communication-competence/s2> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/communication-competence/s2> <http://purl.org/dc/terms/publisher> "Colleen C. Malachowski, in M. Allen (ed.), The SAGE Encyclopedia of Communication Research Methods, SAGE, 2017, pp. 187-190" .
+<https://github.com/john1hsu/communication-graph/id/source/communication-competence/s2> <http://purl.org/dc/terms/title> "Communication competence" .
+<https://github.com/john1hsu/communication-graph/id/source/communication-competence/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/communication-competence/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/communication-graph/id/source/communication-competence/s2> <https://schema.org/url> <https://methods.sagepub.com/ency/edvol/embed/the-sage-encyclopedia-of-communication-research-methods/chpt/communication-competence> .
+<https://github.com/john1hsu/communication-graph/id/source/communication-competence/s3> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/communication-competence/s3> <http://purl.org/dc/terms/publisher> "Derek R. Lane, Department of Communication, University of Kentucky (updated 2020)" .
+<https://github.com/john1hsu/communication-graph/id/source/communication-competence/s3> <http://purl.org/dc/terms/title> "Communication competence (COM 454 Honors Communication Capstone theory notes)" .
+<https://github.com/john1hsu/communication-graph/id/source/communication-competence/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/communication-competence/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/communication-competence/s3> <https://schema.org/url> <https://www.uky.edu/~drlane/capstone/commcomp.htm> .
+<https://github.com/john1hsu/communication-graph/id/source/communication-competence/s4> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/communication-competence/s4> <http://purl.org/dc/terms/publisher> "Institute for Public Relations, Organizational Communication Research Center" .
+<https://github.com/john1hsu/communication-graph/id/source/communication-competence/s4> <http://purl.org/dc/terms/title> "Supervisor Leadership, Communication Competence and Employee Satisfaction (summary of Madlock, 2008, Journal of Business Communication 45(1), 61-78)" .
+<https://github.com/john1hsu/communication-graph/id/source/communication-competence/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/communication-competence/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/communication-graph/id/source/communication-competence/s4> <https://schema.org/url> <https://instituteforpr.org/supervisor-leadership-communication-competence-and-employee-satisfaction> .
+<https://github.com/john1hsu/communication-graph/id/source/communication-competence/s5> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/communication-competence/s5> <http://purl.org/dc/terms/publisher> "Barth & Lannen, Annals of Oncology 22(5), 1030-1040, 2011, doi:10.1093/annonc/mdq441 (RERO DOC repository copy)" .
+<https://github.com/john1hsu/communication-graph/id/source/communication-competence/s5> <http://purl.org/dc/terms/title> "Efficacy of communication skills training courses in oncology: a systematic review and meta-analysis" .
+<https://github.com/john1hsu/communication-graph/id/source/communication-competence/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/communication-competence/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/communication-competence/s5> <https://schema.org/url> <https://doc.rero.ch/record/300051/files/mdq441.pdf> .
 <https://github.com/john1hsu/communication-graph/id/source/communication-studies/s1> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/communication-studies/s1> <http://purl.org/dc/terms/publisher> "National Communication Association (U.S. scholarly association for the communication discipline)" .
 <https://github.com/john1hsu/communication-graph/id/source/communication-studies/s1> <http://purl.org/dc/terms/title> "What is Communication?" .

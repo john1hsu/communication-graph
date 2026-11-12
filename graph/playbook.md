@@ -938,6 +938,14 @@ Ask yourself:
 - What is in this for them, and do they see it in the first few lines?
 - Have I checked my picture of the audience against something they actually said or did, or am I only guessing?
 
+### [Communication competence](../articles/foundations/communication-competence.md) — Skill
+
+Ask yourself:
+- In this conversation, what exactly counts as effective for me, and what would the other person count as appropriate?
+- If I get my outcome, will I have damaged the relationship or broken a norm that matters to them?
+- Is my problem here motivation (I am avoiding it), knowledge (I do not know what fits) or skill (I know but cannot yet do it)?
+- Whose view of how this went have I actually asked for, beyond my own?
+
 ### [Grice's cooperative principle](../articles/foundations/grices-maxims.md) — Principle
 
 Ask yourself:
