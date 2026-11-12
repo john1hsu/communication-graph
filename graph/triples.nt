@@ -2604,6 +2604,35 @@
 <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/barriers-and-psychology/curse-of-knowledge.md" .
 <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <https://github.com/john1hsu/communication-graph/ontology#undermines> <https://github.com/john1hsu/communication-graph/id/clarity> .
+<https://github.com/john1hsu/communication-graph/id/david-maister> <http://purl.org/dc/terms/created> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/david-maister> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+<https://github.com/john1hsu/communication-graph/id/david-maister> <http://www.w3.org/2000/01/rdf-schema#label> "David Maister" .
+<https://github.com/john1hsu/communication-graph/id/david-maister> <http://www.w3.org/2004/02/skos/core#altLabel> "David H. Maister" .
+<https://github.com/john1hsu/communication-graph/id/david-maister> <http://www.w3.org/2004/02/skos/core#altLabel> "Maister" .
+<https://github.com/john1hsu/communication-graph/id/david-maister> <http://www.w3.org/2004/02/skos/core#definition> "London-born management adviser and former Harvard Business School professor (born 1947) whose books on professional service firms, from Managing the Professional Service Firm (1993) to The Trusted Advisor (2000), helped turn client communication - listening, explaining, keeping clients informed and managing expectations - into a practical discipline for consultants, lawyers, accountants and other advisers." .
+<https://github.com/john1hsu/communication-graph/id/david-maister> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works> .
+<https://github.com/john1hsu/communication-graph/id/david-maister> <http://www.w3.org/2004/02/skos/core#prefLabel> "David Maister" .
+<https://github.com/john1hsu/communication-graph/id/david-maister> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+<https://github.com/john1hsu/communication-graph/id/david-maister> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/client-communication> .
+<https://github.com/john1hsu/communication-graph/id/david-maister> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/credibility> .
+<https://github.com/john1hsu/communication-graph/id/david-maister> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> .
+<https://github.com/john1hsu/communication-graph/id/david-maister> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/plain-language> .
+<https://github.com/john1hsu/communication-graph/id/david-maister> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/status-reporting> .
+<https://github.com/john1hsu/communication-graph/id/david-maister> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/trusted-advisor> .
+<https://github.com/john1hsu/communication-graph/id/david-maister> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/david-maister/s1> .
+<https://github.com/john1hsu/communication-graph/id/david-maister> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/david-maister/s2> .
+<https://github.com/john1hsu/communication-graph/id/david-maister> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/david-maister/s3> .
+<https://github.com/john1hsu/communication-graph/id/david-maister> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/david-maister/s4> .
+<https://github.com/john1hsu/communication-graph/id/david-maister> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/david-maister/s5> .
+<https://github.com/john1hsu/communication-graph/id/david-maister> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/david-maister/s6> .
+<https://github.com/john1hsu/communication-graph/id/david-maister> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/managing-the-professional-service-firm> .
+<https://github.com/john1hsu/communication-graph/id/david-maister> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/the-psychology-of-waiting-lines> .
+<https://github.com/john1hsu/communication-graph/id/david-maister> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/the-trusted-advisor-book> .
+<https://github.com/john1hsu/communication-graph/id/david-maister> <https://github.com/john1hsu/communication-graph/ontology#domain> "thinkers-and-works" .
+<https://github.com/john1hsu/communication-graph/id/david-maister> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "historical" .
+<https://github.com/john1hsu/communication-graph/id/david-maister> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/thinkers-and-works/david-maister.md" .
+<https://github.com/john1hsu/communication-graph/id/david-maister> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/client-communication> .
+<https://github.com/john1hsu/communication-graph/id/david-maister> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/de-escalation/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/de-escalation/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Is it actually safe to keep talking, or should I be stepping back and calling for help?" .
 <https://github.com/john1hsu/communication-graph/id/de-escalation/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/de-escalation> .
@@ -11855,6 +11884,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
 <https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s6> <https://schema.org/url> <https://digital.gov/guides/plain-language/test/paraphrase-testing> .
+<https://github.com/john1hsu/communication-graph/id/source/david-maister/s1> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/david-maister/s1> <http://purl.org/dc/terms/publisher> "David H. Maister, davidmaister.com (author's own site)" .
+<https://github.com/john1hsu/communication-graph/id/source/david-maister/s1> <http://purl.org/dc/terms/title> "About David Maister (biography)" .
+<https://github.com/john1hsu/communication-graph/id/source/david-maister/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/david-maister/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/david-maister/s1> <https://schema.org/url> <https://davidmaister.com/about/bio> .
+<https://github.com/john1hsu/communication-graph/id/source/david-maister/s2> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/david-maister/s2> <http://purl.org/dc/terms/publisher> "Contemporary Authors (Gale), via Encyclopedia.com" .
+<https://github.com/john1hsu/communication-graph/id/source/david-maister/s2> <http://purl.org/dc/terms/title> "Maister, David H. 1947-" .
+<https://github.com/john1hsu/communication-graph/id/source/david-maister/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/david-maister/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "encyclopedia" .
+<https://github.com/john1hsu/communication-graph/id/source/david-maister/s2> <https://schema.org/url> <https://encyclopedia.com/arts/educational-magazines/maister-david-h-1947> .
+<https://github.com/john1hsu/communication-graph/id/source/david-maister/s3> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/david-maister/s3> <http://purl.org/dc/terms/publisher> "David H. Maister, davidmaister.com, 2003 (author's copy, PDF)" .
+<https://github.com/john1hsu/communication-graph/id/source/david-maister/s3> <http://purl.org/dc/terms/title> "Professional services management: client handouts (compiled from Managing the Professional Service Firm, True Professionalism, The Trusted Advisor and First Among Equals)" .
+<https://github.com/john1hsu/communication-graph/id/source/david-maister/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/david-maister/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/david-maister/s3> <https://schema.org/url> <https://davidmaister.com/wp-content/themes/davidmaister/pdf/pm_clients.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/david-maister/s4> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/david-maister/s4> <http://purl.org/dc/terms/publisher> "Jones, P. & Peppiatt, E., International Journal of Service Industry Management 7(5), 47-61, 1996 (Emerald abstract page)" .
+<https://github.com/john1hsu/communication-graph/id/source/david-maister/s4> <http://purl.org/dc/terms/title> "Managing perceptions of waiting times in service queues" .
+<https://github.com/john1hsu/communication-graph/id/source/david-maister/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/david-maister/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/david-maister/s4> <https://schema.org/url> <https://www.emeraldinsight.com/doi/abs/10.1108/09564239610149957> .
+<https://github.com/john1hsu/communication-graph/id/source/david-maister/s5> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/david-maister/s5> <http://purl.org/dc/terms/publisher> "Seawright, K. K. & Sampson, S. E., Journal of Operations Management 25(5), 1055-1066, 2007 (BYU ScholarsArchive record)" .
+<https://github.com/john1hsu/communication-graph/id/source/david-maister/s5> <http://purl.org/dc/terms/title> "A Video Method for Empirically Studying Wait-Perception Bias" .
+<https://github.com/john1hsu/communication-graph/id/source/david-maister/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/david-maister/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/david-maister/s5> <https://schema.org/url> <https://scholarsarchive.byu.edu/facpub/8719> .
+<https://github.com/john1hsu/communication-graph/id/source/david-maister/s6> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/david-maister/s6> <http://purl.org/dc/terms/publisher> "Don Norman, jnd.org, 17 November 2008" .
+<https://github.com/john1hsu/communication-graph/id/source/david-maister/s6> <http://purl.org/dc/terms/title> "The Psychology of Waiting Lines (essay with reference to Maister's 1985 chapter)" .
+<https://github.com/john1hsu/communication-graph/id/source/david-maister/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/david-maister/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "community" .
+<https://github.com/john1hsu/communication-graph/id/source/david-maister/s6> <https://schema.org/url> <https://jnd.org/the-psychology-of-waiting-lines/> .
 <https://github.com/john1hsu/communication-graph/id/source/de-escalation/s1> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/de-escalation/s1> <http://purl.org/dc/terms/publisher> "Cybersecurity and Infrastructure Security Agency (CISA), U.S. Department of Homeland Security, 2025" .
 <https://github.com/john1hsu/communication-graph/id/source/de-escalation/s1> <http://purl.org/dc/terms/title> "De-escalation Action Guide" .

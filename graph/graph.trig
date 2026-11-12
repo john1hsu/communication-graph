@@ -1495,6 +1495,15 @@
 <https://github.com/john1hsu/communication-graph/id/chen-2002#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/chen-2002/s4> .
 <https://github.com/john1hsu/communication-graph/id/chen-2002#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/chen-2002/s5> .
 <https://github.com/john1hsu/communication-graph/id/chen-2002#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/chen-2002/s6> .
+<https://github.com/john1hsu/communication-graph/id/david-maister#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/david-maister#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/david-maister> .
+<https://github.com/john1hsu/communication-graph/id/david-maister#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/thinkers-and-works/david-maister.md" .
+<https://github.com/john1hsu/communication-graph/id/david-maister#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/david-maister/s1> .
+<https://github.com/john1hsu/communication-graph/id/david-maister#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/david-maister/s2> .
+<https://github.com/john1hsu/communication-graph/id/david-maister#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/david-maister/s3> .
+<https://github.com/john1hsu/communication-graph/id/david-maister#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/david-maister/s4> .
+<https://github.com/john1hsu/communication-graph/id/david-maister#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/david-maister/s5> .
+<https://github.com/john1hsu/communication-graph/id/david-maister#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/david-maister/s6> .
 <https://github.com/john1hsu/communication-graph/id/de-ira#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/de-ira#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/de-ira> .
 <https://github.com/john1hsu/communication-graph/id/de-ira#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/thinkers-and-works/de-ira.md" .
@@ -17993,6 +18002,74 @@
   <https://github.com/john1hsu/communication-graph/id/source/chen-2002/s6> <https://schema.org/url> <https://arxiv.org/html/2404.17104v1> .
 }
 
+<https://github.com/john1hsu/communication-graph/id/david-maister#graph> {
+  <https://github.com/john1hsu/communication-graph/id/david-maister> <http://purl.org/dc/terms/created> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/david-maister> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+  <https://github.com/john1hsu/communication-graph/id/david-maister> <http://www.w3.org/2000/01/rdf-schema#label> "David Maister" .
+  <https://github.com/john1hsu/communication-graph/id/david-maister> <http://www.w3.org/2004/02/skos/core#altLabel> "David H. Maister" .
+  <https://github.com/john1hsu/communication-graph/id/david-maister> <http://www.w3.org/2004/02/skos/core#altLabel> "Maister" .
+  <https://github.com/john1hsu/communication-graph/id/david-maister> <http://www.w3.org/2004/02/skos/core#definition> "London-born management adviser and former Harvard Business School professor (born 1947) whose books on professional service firms, from Managing the Professional Service Firm (1993) to The Trusted Advisor (2000), helped turn client communication - listening, explaining, keeping clients informed and managing expectations - into a practical discipline for consultants, lawyers, accountants and other advisers." .
+  <https://github.com/john1hsu/communication-graph/id/david-maister> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works> .
+  <https://github.com/john1hsu/communication-graph/id/david-maister> <http://www.w3.org/2004/02/skos/core#prefLabel> "David Maister" .
+  <https://github.com/john1hsu/communication-graph/id/david-maister> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+  <https://github.com/john1hsu/communication-graph/id/david-maister> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/client-communication> .
+  <https://github.com/john1hsu/communication-graph/id/david-maister> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/credibility> .
+  <https://github.com/john1hsu/communication-graph/id/david-maister> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> .
+  <https://github.com/john1hsu/communication-graph/id/david-maister> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/plain-language> .
+  <https://github.com/john1hsu/communication-graph/id/david-maister> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/status-reporting> .
+  <https://github.com/john1hsu/communication-graph/id/david-maister> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/trusted-advisor> .
+  <https://github.com/john1hsu/communication-graph/id/david-maister> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/david-maister/s1> .
+  <https://github.com/john1hsu/communication-graph/id/david-maister> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/david-maister/s2> .
+  <https://github.com/john1hsu/communication-graph/id/david-maister> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/david-maister/s3> .
+  <https://github.com/john1hsu/communication-graph/id/david-maister> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/david-maister/s4> .
+  <https://github.com/john1hsu/communication-graph/id/david-maister> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/david-maister/s5> .
+  <https://github.com/john1hsu/communication-graph/id/david-maister> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/david-maister/s6> .
+  <https://github.com/john1hsu/communication-graph/id/david-maister> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/managing-the-professional-service-firm> .
+  <https://github.com/john1hsu/communication-graph/id/david-maister> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/the-psychology-of-waiting-lines> .
+  <https://github.com/john1hsu/communication-graph/id/david-maister> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/the-trusted-advisor-book> .
+  <https://github.com/john1hsu/communication-graph/id/david-maister> <https://github.com/john1hsu/communication-graph/ontology#domain> "thinkers-and-works" .
+  <https://github.com/john1hsu/communication-graph/id/david-maister> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "historical" .
+  <https://github.com/john1hsu/communication-graph/id/david-maister> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/thinkers-and-works/david-maister.md" .
+  <https://github.com/john1hsu/communication-graph/id/david-maister> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/client-communication> .
+  <https://github.com/john1hsu/communication-graph/id/david-maister> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+  <https://github.com/john1hsu/communication-graph/id/source/david-maister/s1> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/david-maister/s1> <http://purl.org/dc/terms/publisher> "David H. Maister, davidmaister.com (author's own site)" .
+  <https://github.com/john1hsu/communication-graph/id/source/david-maister/s1> <http://purl.org/dc/terms/title> "About David Maister (biography)" .
+  <https://github.com/john1hsu/communication-graph/id/source/david-maister/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/david-maister/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/communication-graph/id/source/david-maister/s1> <https://schema.org/url> <https://davidmaister.com/about/bio> .
+  <https://github.com/john1hsu/communication-graph/id/source/david-maister/s2> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/david-maister/s2> <http://purl.org/dc/terms/publisher> "Contemporary Authors (Gale), via Encyclopedia.com" .
+  <https://github.com/john1hsu/communication-graph/id/source/david-maister/s2> <http://purl.org/dc/terms/title> "Maister, David H. 1947-" .
+  <https://github.com/john1hsu/communication-graph/id/source/david-maister/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/david-maister/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "encyclopedia" .
+  <https://github.com/john1hsu/communication-graph/id/source/david-maister/s2> <https://schema.org/url> <https://encyclopedia.com/arts/educational-magazines/maister-david-h-1947> .
+  <https://github.com/john1hsu/communication-graph/id/source/david-maister/s3> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/david-maister/s3> <http://purl.org/dc/terms/publisher> "David H. Maister, davidmaister.com, 2003 (author's copy, PDF)" .
+  <https://github.com/john1hsu/communication-graph/id/source/david-maister/s3> <http://purl.org/dc/terms/title> "Professional services management: client handouts (compiled from Managing the Professional Service Firm, True Professionalism, The Trusted Advisor and First Among Equals)" .
+  <https://github.com/john1hsu/communication-graph/id/source/david-maister/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/david-maister/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/communication-graph/id/source/david-maister/s3> <https://schema.org/url> <https://davidmaister.com/wp-content/themes/davidmaister/pdf/pm_clients.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/david-maister/s4> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/david-maister/s4> <http://purl.org/dc/terms/publisher> "Jones, P. & Peppiatt, E., International Journal of Service Industry Management 7(5), 47-61, 1996 (Emerald abstract page)" .
+  <https://github.com/john1hsu/communication-graph/id/source/david-maister/s4> <http://purl.org/dc/terms/title> "Managing perceptions of waiting times in service queues" .
+  <https://github.com/john1hsu/communication-graph/id/source/david-maister/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/david-maister/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/david-maister/s4> <https://schema.org/url> <https://www.emeraldinsight.com/doi/abs/10.1108/09564239610149957> .
+  <https://github.com/john1hsu/communication-graph/id/source/david-maister/s5> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/david-maister/s5> <http://purl.org/dc/terms/publisher> "Seawright, K. K. & Sampson, S. E., Journal of Operations Management 25(5), 1055-1066, 2007 (BYU ScholarsArchive record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/david-maister/s5> <http://purl.org/dc/terms/title> "A Video Method for Empirically Studying Wait-Perception Bias" .
+  <https://github.com/john1hsu/communication-graph/id/source/david-maister/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/david-maister/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/david-maister/s5> <https://schema.org/url> <https://scholarsarchive.byu.edu/facpub/8719> .
+  <https://github.com/john1hsu/communication-graph/id/source/david-maister/s6> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/david-maister/s6> <http://purl.org/dc/terms/publisher> "Don Norman, jnd.org, 17 November 2008" .
+  <https://github.com/john1hsu/communication-graph/id/source/david-maister/s6> <http://purl.org/dc/terms/title> "The Psychology of Waiting Lines (essay with reference to Maister's 1985 chapter)" .
+  <https://github.com/john1hsu/communication-graph/id/source/david-maister/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/david-maister/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "community" .
+  <https://github.com/john1hsu/communication-graph/id/source/david-maister/s6> <https://schema.org/url> <https://jnd.org/the-psychology-of-waiting-lines/> .
+}
+
 <https://github.com/john1hsu/communication-graph/id/de-ira#graph> {
   <https://github.com/john1hsu/communication-graph/id/de-ira> <http://purl.org/dc/terms/created> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
   <https://github.com/john1hsu/communication-graph/id/de-ira> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
@@ -21562,6 +21639,7 @@
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/common-ground> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/conversational-narcissism> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/conversational-receptiveness> .
+  <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/david-maister> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/de-escalation> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/defensiveness> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/executive-presence> .
@@ -22321,7 +22399,9 @@
   <https://github.com/john1hsu/communication-graph/id/client-communication> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
   <https://github.com/john1hsu/communication-graph/id/client-communication> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
   <https://github.com/john1hsu/communication-graph/id/client-communication> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
+  <https://github.com/john1hsu/communication-graph/id/client-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/david-maister> .
   <https://github.com/john1hsu/communication-graph/id/client-communication> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/trusted-advisor> .
+  <https://github.com/john1hsu/communication-graph/id/client-communication> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/david-maister> .
   <https://github.com/john1hsu/communication-graph/id/clingingsmith-shane-2018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/clingingsmith-shane-2018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/clingingsmith-shane-2018> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/elevator-pitch> .
@@ -22698,6 +22778,7 @@
   <https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/carl-hovland> .
   <https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> .
   <https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/client-communication> .
+  <https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/david-maister> .
   <https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/elevator-pitch> .
   <https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/executive-presence> .
   <https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/filled-pauses> .
@@ -22809,7 +22890,6 @@
   <https://github.com/john1hsu/communication-graph/id/david-l-bradford> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/david-l-bradford> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/influence-without-authority> .
   <https://github.com/john1hsu/communication-graph/id/david-maister> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
-  <https://github.com/john1hsu/communication-graph/id/david-maister> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/david-maister> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/trusted-advisor> .
   <https://github.com/john1hsu/communication-graph/id/de-dreu-weingart-2003> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/conflict-resolution> .
   <https://github.com/john1hsu/communication-graph/id/de-dreu-weingart-kwon-2000> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/integrative-negotiation> .
@@ -22880,6 +22960,7 @@
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-conflict> .
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/burying-the-lede> .
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/client-communication> .
+  <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/david-maister> .
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/difficult-conversation> .
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> .
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/empathy-gap> .
@@ -24796,6 +24877,9 @@
   <https://github.com/john1hsu/communication-graph/id/make-just-one-change> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
   <https://github.com/john1hsu/communication-graph/id/make-just-one-change> <https://github.com/john1hsu/communication-graph/ontology#introduces> <https://github.com/john1hsu/communication-graph/id/question-formulation-technique> .
   <https://github.com/john1hsu/communication-graph/id/managerial-grid> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/thomas-kilmann-conflict-modes> .
+  <https://github.com/john1hsu/communication-graph/id/managing-the-professional-service-firm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/managing-the-professional-service-firm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
+  <https://github.com/john1hsu/communication-graph/id/managing-the-professional-service-firm> <https://github.com/john1hsu/communication-graph/ontology#authoredBy> <https://github.com/john1hsu/communication-graph/id/david-maister> .
   <https://github.com/john1hsu/communication-graph/id/managing-up/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/managing-up/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/managing-up/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -25606,6 +25690,7 @@
   <https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-load> .
   <https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/concise-writing> .
   <https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> .
+  <https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/david-maister> .
   <https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/effective-writing-for-army-leaders> .
   <https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/email> .
   <https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/ginny-redish> .
@@ -26656,6 +26741,7 @@
   <https://github.com/john1hsu/communication-graph/id/status-reporting> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/status-reporting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/burying-the-lede> .
   <https://github.com/john1hsu/communication-graph/id/status-reporting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/business-report> .
+  <https://github.com/john1hsu/communication-graph/id/status-reporting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/david-maister> .
   <https://github.com/john1hsu/communication-graph/id/status-reporting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint> .
   <https://github.com/john1hsu/communication-graph/id/status-reporting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/escalation-communication> .
   <https://github.com/john1hsu/communication-graph/id/status-reporting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/executive-summary> .
@@ -26797,6 +26883,9 @@
   <https://github.com/john1hsu/communication-graph/id/the-psychology-of-curiosity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/the-psychology-of-curiosity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
   <https://github.com/john1hsu/communication-graph/id/the-psychology-of-curiosity> <https://github.com/john1hsu/communication-graph/ontology#authoredBy> <https://github.com/john1hsu/communication-graph/id/george-loewenstein> .
+  <https://github.com/john1hsu/communication-graph/id/the-psychology-of-waiting-lines> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/the-psychology-of-waiting-lines> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
+  <https://github.com/john1hsu/communication-graph/id/the-psychology-of-waiting-lines> <https://github.com/john1hsu/communication-graph/ontology#authoredBy> <https://github.com/john1hsu/communication-graph/id/david-maister> .
   <https://github.com/john1hsu/communication-graph/id/the-pyramid-principle-book> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/the-pyramid-principle-book> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
   <https://github.com/john1hsu/communication-graph/id/the-pyramid-principle-book> <https://github.com/john1hsu/communication-graph/ontology#introduces> <https://github.com/john1hsu/communication-graph/id/pyramid-principle> .
@@ -26808,6 +26897,7 @@
   <https://github.com/john1hsu/communication-graph/id/the-silent-language> <https://github.com/john1hsu/communication-graph/ontology#introduces> <https://github.com/john1hsu/communication-graph/id/intercultural-communication> .
   <https://github.com/john1hsu/communication-graph/id/the-trusted-advisor-book> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/the-trusted-advisor-book> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
+  <https://github.com/john1hsu/communication-graph/id/the-trusted-advisor-book> <https://github.com/john1hsu/communication-graph/ontology#authoredBy> <https://github.com/john1hsu/communication-graph/id/david-maister> .
   <https://github.com/john1hsu/communication-graph/id/the-trusted-advisor-book> <https://github.com/john1hsu/communication-graph/ontology#introduces> <https://github.com/john1hsu/communication-graph/id/trusted-advisor> .
   <https://github.com/john1hsu/communication-graph/id/theory-of-cooperation-and-competition> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/conflict-resolution> .
   <https://github.com/john1hsu/communication-graph/id/theory-of-cooperation-and-competition> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/morton-deutsch> .
@@ -26886,6 +26976,7 @@
   <https://github.com/john1hsu/communication-graph/id/trusted-advisor> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
   <https://github.com/john1hsu/communication-graph/id/trusted-advisor> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/trusted-advisor> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/client-communication> .
+  <https://github.com/john1hsu/communication-graph/id/trusted-advisor> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/david-maister> .
   <https://github.com/john1hsu/communication-graph/id/uncertainty-reduction-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
   <https://github.com/john1hsu/communication-graph/id/unclear-ownership> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/active-voice> .
   <https://github.com/john1hsu/communication-graph/id/unclear-ownership> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/meeting-recaps> .

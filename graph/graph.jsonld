@@ -4226,6 +4226,85 @@
    ]
   },
   {
+   "@id": "cm:david-maister",
+   "@type": "cmo:Person",
+   "cmo:authored": [
+    {
+     "@id": "cm:managing-the-professional-service-firm"
+    },
+    {
+     "@id": "cm:the-psychology-of-waiting-lines"
+    },
+    {
+     "@id": "cm:the-trusted-advisor-book"
+    }
+   ],
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "historical",
+   "cmo:file": "articles/thinkers-and-works/david-maister.md",
+   "cmo:introduced": {
+    "@id": "cm:client-communication"
+   },
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/david-maister/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/david-maister/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/david-maister/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/david-maister/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/david-maister/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/david-maister/s6"
+    }
+   ],
+   "rdfs:label": "David Maister",
+   "skos:altLabel": [
+    "David H. Maister",
+    "Maister"
+   ],
+   "skos:definition": "London-born management adviser and former Harvard Business School professor (born 1947) whose books on professional service firms, from Managing the Professional Service Firm (1993) to The Trusted Advisor (2000), helped turn client communication - listening, explaining, keeping clients informed and managing expectations - into a practical discipline for consultants, lawyers, accountants and other advisers.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "David Maister",
+   "skos:related": [
+    {
+     "@id": "cm:active-listening"
+    },
+    {
+     "@id": "cm:client-communication"
+    },
+    {
+     "@id": "cm:credibility"
+    },
+    {
+     "@id": "cm:delivering-bad-news"
+    },
+    {
+     "@id": "cm:plain-language"
+    },
+    {
+     "@id": "cm:status-reporting"
+    },
+    {
+     "@id": "cm:trusted-advisor"
+    }
+   ]
+  },
+  {
    "@id": "cm:de-escalation",
    "@type": "cmo:Technique",
    "cmo:addresses": {
@@ -32301,6 +32380,90 @@
    "dcterms:title": "Paraphrase testing",
    "schema:url": {
     "@id": "https://digital.gov/guides/plain-language/test/paraphrase-testing"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/david-maister/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "David H. Maister, davidmaister.com (author's own site)",
+   "dcterms:title": "About David Maister (biography)",
+   "schema:url": {
+    "@id": "https://davidmaister.com/about/bio"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/david-maister/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Contemporary Authors (Gale), via Encyclopedia.com",
+   "dcterms:title": "Maister, David H. 1947-",
+   "schema:url": {
+    "@id": "https://encyclopedia.com/arts/educational-magazines/maister-david-h-1947"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/david-maister/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "David H. Maister, davidmaister.com, 2003 (author's copy, PDF)",
+   "dcterms:title": "Professional services management: client handouts (compiled from Managing the Professional Service Firm, True Professionalism, The Trusted Advisor and First Among Equals)",
+   "schema:url": {
+    "@id": "https://davidmaister.com/wp-content/themes/davidmaister/pdf/pm_clients.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/david-maister/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Jones, P. & Peppiatt, E., International Journal of Service Industry Management 7(5), 47-61, 1996 (Emerald abstract page)",
+   "dcterms:title": "Managing perceptions of waiting times in service queues",
+   "schema:url": {
+    "@id": "https://www.emeraldinsight.com/doi/abs/10.1108/09564239610149957"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/david-maister/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Seawright, K. K. & Sampson, S. E., Journal of Operations Management 25(5), 1055-1066, 2007 (BYU ScholarsArchive record)",
+   "dcterms:title": "A Video Method for Empirically Studying Wait-Perception Bias",
+   "schema:url": {
+    "@id": "https://scholarsarchive.byu.edu/facpub/8719"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/david-maister/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "community",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Don Norman, jnd.org, 17 November 2008",
+   "dcterms:title": "The Psychology of Waiting Lines (essay with reference to Maister's 1985 chapter)",
+   "schema:url": {
+    "@id": "https://jnd.org/the-psychology-of-waiting-lines/"
    }
   },
   {
