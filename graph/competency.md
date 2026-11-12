@@ -174,7 +174,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:plain-language` | cmo:Principle |
 | `cm:praise-and-recognition` | cmo:Technique |
 
-…and 32 more.
+…and 33 more.
 
 ## Orphan articles (gap)
 

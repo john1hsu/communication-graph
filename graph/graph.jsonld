@@ -16535,6 +16535,99 @@
    ]
   },
   {
+   "@id": "cm:rhetoric",
+   "@type": "cmo:Field",
+   "cmo:challengedBy": {
+    "@id": "cm:plato"
+   },
+   "cmo:complements": {
+    "@id": "cm:dialectic"
+   },
+   "cmo:domain": "foundations",
+   "cmo:evidenceStatus": "theoretical",
+   "cmo:file": "articles/foundations/rhetoric.md",
+   "cmo:influencedBy": [
+    {
+     "@id": "cm:aristotles-rhetoric"
+    },
+    {
+     "@id": "cm:kenneth-burke"
+    },
+    {
+     "@id": "cm:quintilian"
+    }
+   ],
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/rhetoric/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/rhetoric/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/rhetoric/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/rhetoric/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/rhetoric/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/rhetoric/s6"
+    }
+   ],
+   "rdfs:label": "Rhetorical studies",
+   "skos:altLabel": [
+    "rhetoric as a discipline",
+    "rhetorical theory",
+    "rhetorical tradition",
+    "the art of rhetoric"
+   ],
+   "skos:broader": {
+    "@id": "cm:humanities"
+   },
+   "skos:definition": "The oldest discipline of communication: the study and teaching of how speakers and writers can find and use the available means of persuasion and influence for a particular audience and situation. Begun in ancient Greece and Rome, it was revived in the twentieth century as the study of all purposeful discourse, from speeches and memos to images.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/foundations"
+   },
+   "skos:prefLabel": "Rhetorical studies",
+   "skos:related": [
+    {
+     "@id": "cm:aristotles-rhetoric"
+    },
+    {
+     "@id": "cm:audience-analysis"
+    },
+    {
+     "@id": "cm:communication-studies"
+    },
+    {
+     "@id": "cm:credibility"
+    },
+    {
+     "@id": "cm:dialectic"
+    },
+    {
+     "@id": "cm:persuasion"
+    },
+    {
+     "@id": "cm:quintilian"
+    },
+    {
+     "@id": "cm:rhetorical-appeals"
+    },
+    {
+     "@id": "cm:rhetorical-situation"
+    }
+   ]
+  },
+  {
    "@id": "cm:risk-numbers-as-natural-frequencies",
    "@type": "cmo:Technique",
    "cmo:addresses": {
@@ -43693,6 +43786,90 @@
    "dcterms:title": "Impact of Netiquette on Email communication",
    "schema:url": {
     "@id": "https://ideas.repec.org/a/zbw/hkjalm/175334.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/rhetoric/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Christof Rapp, Stanford Encyclopedia of Philosophy (first published 2002; substantive revision 15 March 2022)",
+   "dcterms:title": "Aristotle's Rhetoric",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/entries/aristotle-rhetoric/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/rhetoric/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Thomas O. Sloane (Emeritus Professor of Rhetoric, University of California, Berkeley), Encyclopaedia Britannica, last updated 20 July 2026",
+   "dcterms:title": "Rhetoric",
+   "schema:url": {
+    "@id": "https://www.britannica.com/topic/rhetoric"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/rhetoric/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Lloyd F. Bitzer, Philosophy & Rhetoric 1(1), 1968, pp. 1-14 (copy hosted in CUNY Commons course materials)",
+   "dcterms:title": "The Rhetorical Situation",
+   "schema:url": {
+    "@id": "https://engl110spr19.commons.gc.cuny.edu/wp-content/blogs.dir/8310/files/2021/08/Bitzer1968-the-rhetorical-situation.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/rhetoric/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Richard E. Vatz, Philosophy & Rhetoric 6(3), 1973 (copy hosted by University of North Carolina Wilmington course materials)",
+   "dcterms:title": "The Myth of the Rhetorical Situation",
+   "schema:url": {
+    "@id": "https://people.uncw.edu/atkinsa/388/VatzonRhetoricalSituation.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/rhetoric/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Purdue Online Writing Lab (Purdue University)",
+   "dcterms:title": "Rhetorical Situations",
+   "schema:url": {
+    "@id": "https://owl.purdue.edu/owl/general_writing/academic_writing/rhetorical_situation/index.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/rhetoric/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Purdue Online Writing Lab (Purdue University)",
+   "dcterms:title": "Elements of Rhetorical Situations",
+   "schema:url": {
+    "@id": "https://owl.purdue.edu/owl/general_writing/academic_writing/rhetorical_situation/elements_of_rhetorical_situations.html"
    }
   },
   {

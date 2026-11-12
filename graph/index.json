@@ -18694,6 +18694,106 @@
   ]
  },
  {
+  "id": "cm:rhetoric",
+  "title": "Rhetorical studies",
+  "aliases": [
+   "rhetoric as a discipline",
+   "rhetorical theory",
+   "the art of rhetoric",
+   "rhetorical tradition"
+  ],
+  "type": "Field",
+  "domain": "foundations",
+  "level": "introductory",
+  "evidenceStatus": "theoretical",
+  "file": "articles/foundations/rhetoric.md",
+  "created": "2026-11-12",
+  "summary": "The oldest discipline of communication: the study and teaching of how speakers and writers can find and use the available means of persuasion and influence for a particular audience and situation. Begun in ancient Greece and Rome, it was revived in the twentieth century as the study of all purposeful discourse, from speeches and memos to images.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:humanities"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:aristotles-rhetoric"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:quintilian"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:communication-studies"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:persuasion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:audience-analysis"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:credibility"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:rhetorical-appeals"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:rhetorical-situation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:dialectic"
+   },
+   {
+    "predicate": "cmo:influencedBy",
+    "object": "cm:aristotles-rhetoric",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:influencedBy",
+    "object": "cm:quintilian",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:influencedBy",
+    "object": "cm:kenneth-burke",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:plato",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:dialectic",
+    "source": "s1",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://plato.stanford.edu/entries/aristotle-rhetoric/",
+   "https://www.britannica.com/topic/rhetoric",
+   "https://engl110spr19.commons.gc.cuny.edu/wp-content/blogs.dir/8310/files/2021/08/Bitzer1968-the-rhetorical-situation.pdf",
+   "https://people.uncw.edu/atkinsa/388/VatzonRhetoricalSituation.pdf",
+   "https://owl.purdue.edu/owl/general_writing/academic_writing/rhetorical_situation/index.html",
+   "https://owl.purdue.edu/owl/general_writing/academic_writing/rhetorical_situation/elements_of_rhetorical_situations.html"
+  ]
+ },
+ {
   "id": "cm:risk-numbers-as-natural-frequencies",
   "title": "Risk numbers as natural frequencies",
   "aliases": [

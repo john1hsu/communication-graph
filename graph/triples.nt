@@ -9393,6 +9393,41 @@
 <https://github.com/john1hsu/communication-graph/id/rfc-1855-netiquette-guidelines> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/thinkers-and-works/rfc-1855-netiquette-guidelines.md" .
 <https://github.com/john1hsu/communication-graph/id/rfc-1855-netiquette-guidelines> <https://github.com/john1hsu/communication-graph/ontology#introduces> <https://github.com/john1hsu/communication-graph/id/chat-etiquette> .
 <https://github.com/john1hsu/communication-graph/id/rfc-1855-netiquette-guidelines> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/rhetoric> <http://purl.org/dc/terms/created> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/rhetoric> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Field> .
+<https://github.com/john1hsu/communication-graph/id/rhetoric> <http://www.w3.org/2000/01/rdf-schema#label> "Rhetorical studies" .
+<https://github.com/john1hsu/communication-graph/id/rhetoric> <http://www.w3.org/2004/02/skos/core#altLabel> "rhetoric as a discipline" .
+<https://github.com/john1hsu/communication-graph/id/rhetoric> <http://www.w3.org/2004/02/skos/core#altLabel> "rhetorical theory" .
+<https://github.com/john1hsu/communication-graph/id/rhetoric> <http://www.w3.org/2004/02/skos/core#altLabel> "rhetorical tradition" .
+<https://github.com/john1hsu/communication-graph/id/rhetoric> <http://www.w3.org/2004/02/skos/core#altLabel> "the art of rhetoric" .
+<https://github.com/john1hsu/communication-graph/id/rhetoric> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/humanities> .
+<https://github.com/john1hsu/communication-graph/id/rhetoric> <http://www.w3.org/2004/02/skos/core#definition> "The oldest discipline of communication: the study and teaching of how speakers and writers can find and use the available means of persuasion and influence for a particular audience and situation. Begun in ancient Greece and Rome, it was revived in the twentieth century as the study of all purposeful discourse, from speeches and memos to images." .
+<https://github.com/john1hsu/communication-graph/id/rhetoric> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/foundations> .
+<https://github.com/john1hsu/communication-graph/id/rhetoric> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rhetorical studies" .
+<https://github.com/john1hsu/communication-graph/id/rhetoric> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> .
+<https://github.com/john1hsu/communication-graph/id/rhetoric> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
+<https://github.com/john1hsu/communication-graph/id/rhetoric> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
+<https://github.com/john1hsu/communication-graph/id/rhetoric> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/credibility> .
+<https://github.com/john1hsu/communication-graph/id/rhetoric> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/dialectic> .
+<https://github.com/john1hsu/communication-graph/id/rhetoric> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/persuasion> .
+<https://github.com/john1hsu/communication-graph/id/rhetoric> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/quintilian> .
+<https://github.com/john1hsu/communication-graph/id/rhetoric> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/rhetorical-appeals> .
+<https://github.com/john1hsu/communication-graph/id/rhetoric> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/rhetorical-situation> .
+<https://github.com/john1hsu/communication-graph/id/rhetoric> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/rhetoric/s1> .
+<https://github.com/john1hsu/communication-graph/id/rhetoric> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/rhetoric/s2> .
+<https://github.com/john1hsu/communication-graph/id/rhetoric> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/rhetoric/s3> .
+<https://github.com/john1hsu/communication-graph/id/rhetoric> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/rhetoric/s4> .
+<https://github.com/john1hsu/communication-graph/id/rhetoric> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/rhetoric/s5> .
+<https://github.com/john1hsu/communication-graph/id/rhetoric> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/rhetoric/s6> .
+<https://github.com/john1hsu/communication-graph/id/rhetoric> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/plato> .
+<https://github.com/john1hsu/communication-graph/id/rhetoric> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/dialectic> .
+<https://github.com/john1hsu/communication-graph/id/rhetoric> <https://github.com/john1hsu/communication-graph/ontology#domain> "foundations" .
+<https://github.com/john1hsu/communication-graph/id/rhetoric> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "theoretical" .
+<https://github.com/john1hsu/communication-graph/id/rhetoric> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/foundations/rhetoric.md" .
+<https://github.com/john1hsu/communication-graph/id/rhetoric> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> .
+<https://github.com/john1hsu/communication-graph/id/rhetoric> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/kenneth-burke> .
+<https://github.com/john1hsu/communication-graph/id/rhetoric> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/quintilian> .
+<https://github.com/john1hsu/communication-graph/id/rhetoric> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Have I stated the reference group (\"out of every 1,000 ...\") before giving any count?" .
 <https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies> .
@@ -16632,6 +16667,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/rfc-1855-netiquette-guidelines/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/rfc-1855-netiquette-guidelines/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/communication-graph/id/source/rfc-1855-netiquette-guidelines/s4> <https://schema.org/url> <https://ideas.repec.org/a/zbw/hkjalm/175334.html> .
+<https://github.com/john1hsu/communication-graph/id/source/rhetoric/s1> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/rhetoric/s1> <http://purl.org/dc/terms/publisher> "Christof Rapp, Stanford Encyclopedia of Philosophy (first published 2002; substantive revision 15 March 2022)" .
+<https://github.com/john1hsu/communication-graph/id/source/rhetoric/s1> <http://purl.org/dc/terms/title> "Aristotle's Rhetoric" .
+<https://github.com/john1hsu/communication-graph/id/source/rhetoric/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/rhetoric/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/communication-graph/id/source/rhetoric/s1> <https://schema.org/url> <https://plato.stanford.edu/entries/aristotle-rhetoric/> .
+<https://github.com/john1hsu/communication-graph/id/source/rhetoric/s2> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/rhetoric/s2> <http://purl.org/dc/terms/publisher> "Thomas O. Sloane (Emeritus Professor of Rhetoric, University of California, Berkeley), Encyclopaedia Britannica, last updated 20 July 2026" .
+<https://github.com/john1hsu/communication-graph/id/source/rhetoric/s2> <http://purl.org/dc/terms/title> "Rhetoric" .
+<https://github.com/john1hsu/communication-graph/id/source/rhetoric/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/rhetoric/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "encyclopedia" .
+<https://github.com/john1hsu/communication-graph/id/source/rhetoric/s2> <https://schema.org/url> <https://www.britannica.com/topic/rhetoric> .
+<https://github.com/john1hsu/communication-graph/id/source/rhetoric/s3> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/rhetoric/s3> <http://purl.org/dc/terms/publisher> "Lloyd F. Bitzer, Philosophy & Rhetoric 1(1), 1968, pp. 1-14 (copy hosted in CUNY Commons course materials)" .
+<https://github.com/john1hsu/communication-graph/id/source/rhetoric/s3> <http://purl.org/dc/terms/title> "The Rhetorical Situation" .
+<https://github.com/john1hsu/communication-graph/id/source/rhetoric/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/rhetoric/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/rhetoric/s3> <https://schema.org/url> <https://engl110spr19.commons.gc.cuny.edu/wp-content/blogs.dir/8310/files/2021/08/Bitzer1968-the-rhetorical-situation.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/rhetoric/s4> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/rhetoric/s4> <http://purl.org/dc/terms/publisher> "Richard E. Vatz, Philosophy & Rhetoric 6(3), 1973 (copy hosted by University of North Carolina Wilmington course materials)" .
+<https://github.com/john1hsu/communication-graph/id/source/rhetoric/s4> <http://purl.org/dc/terms/title> "The Myth of the Rhetorical Situation" .
+<https://github.com/john1hsu/communication-graph/id/source/rhetoric/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/rhetoric/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/rhetoric/s4> <https://schema.org/url> <https://people.uncw.edu/atkinsa/388/VatzonRhetoricalSituation.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/rhetoric/s5> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/rhetoric/s5> <http://purl.org/dc/terms/publisher> "Purdue Online Writing Lab (Purdue University)" .
+<https://github.com/john1hsu/communication-graph/id/source/rhetoric/s5> <http://purl.org/dc/terms/title> "Rhetorical Situations" .
+<https://github.com/john1hsu/communication-graph/id/source/rhetoric/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/rhetoric/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/rhetoric/s5> <https://schema.org/url> <https://owl.purdue.edu/owl/general_writing/academic_writing/rhetorical_situation/index.html> .
+<https://github.com/john1hsu/communication-graph/id/source/rhetoric/s6> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/rhetoric/s6> <http://purl.org/dc/terms/publisher> "Purdue Online Writing Lab (Purdue University)" .
+<https://github.com/john1hsu/communication-graph/id/source/rhetoric/s6> <http://purl.org/dc/terms/title> "Elements of Rhetorical Situations" .
+<https://github.com/john1hsu/communication-graph/id/source/rhetoric/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/rhetoric/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/rhetoric/s6> <https://schema.org/url> <https://owl.purdue.edu/owl/general_writing/academic_writing/rhetorical_situation/elements_of_rhetorical_situations.html> .
 <https://github.com/john1hsu/communication-graph/id/source/risk-numbers-as-natural-frequencies/s1> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/risk-numbers-as-natural-frequencies/s1> <http://purl.org/dc/terms/publisher> "Gigerenzer & Hoffrage, Psychological Review 102(4): 684-704 (1995) (course copy, UC San Diego)" .
 <https://github.com/john1hsu/communication-graph/id/source/risk-numbers-as-natural-frequencies/s1> <http://purl.org/dc/terms/title> "How to improve Bayesian reasoning without instruction: Frequency formats" .
