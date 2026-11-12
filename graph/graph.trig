@@ -1530,6 +1530,15 @@
 <https://github.com/john1hsu/communication-graph/id/de-ira#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/de-ira/s3> .
 <https://github.com/john1hsu/communication-graph/id/de-ira#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/de-ira/s4> .
 <https://github.com/john1hsu/communication-graph/id/de-ira#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/de-ira/s5> .
+<https://github.com/john1hsu/communication-graph/id/edward-tufte#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/edward-tufte#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/edward-tufte> .
+<https://github.com/john1hsu/communication-graph/id/edward-tufte#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/thinkers-and-works/edward-tufte.md" .
+<https://github.com/john1hsu/communication-graph/id/edward-tufte#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/edward-tufte/s1> .
+<https://github.com/john1hsu/communication-graph/id/edward-tufte#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/edward-tufte/s2> .
+<https://github.com/john1hsu/communication-graph/id/edward-tufte#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/edward-tufte/s3> .
+<https://github.com/john1hsu/communication-graph/id/edward-tufte#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/edward-tufte/s4> .
+<https://github.com/john1hsu/communication-graph/id/edward-tufte#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/edward-tufte/s5> .
+<https://github.com/john1hsu/communication-graph/id/edward-tufte#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/edward-tufte/s6> .
 <https://github.com/john1hsu/communication-graph/id/effective-writing-for-army-leaders#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/effective-writing-for-army-leaders#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/effective-writing-for-army-leaders> .
 <https://github.com/john1hsu/communication-graph/id/effective-writing-for-army-leaders#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/thinkers-and-works/effective-writing-for-army-leaders.md" .
@@ -18349,6 +18358,75 @@
   <https://github.com/john1hsu/communication-graph/id/source/de-ira/s5> <https://schema.org/url> <https://econpapers.repec.org/RePEc:eee:jobhdp:v:116:y:2011:i:1:p:46-54> .
 }
 
+<https://github.com/john1hsu/communication-graph/id/edward-tufte#graph> {
+  <https://github.com/john1hsu/communication-graph/id/edward-tufte> <http://purl.org/dc/terms/created> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/edward-tufte> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+  <https://github.com/john1hsu/communication-graph/id/edward-tufte> <http://www.w3.org/2000/01/rdf-schema#label> "Edward R. Tufte" .
+  <https://github.com/john1hsu/communication-graph/id/edward-tufte> <http://www.w3.org/2004/02/skos/core#altLabel> "Edward Tufte" .
+  <https://github.com/john1hsu/communication-graph/id/edward-tufte> <http://www.w3.org/2004/02/skos/core#altLabel> "Tufte" .
+  <https://github.com/john1hsu/communication-graph/id/edward-tufte> <http://www.w3.org/2004/02/skos/core#definition> "Statistician and political scientist, professor emeritus at Yale, whose self-published books on information design - beginning with The Visual Display of Quantitative Information (1983) - and whose 2003 essay The Cognitive Style of PowerPoint popularised the critique of bullet-heavy slide presentations and the case for dense, evidence-first technical reports." .
+  <https://github.com/john1hsu/communication-graph/id/edward-tufte> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works> .
+  <https://github.com/john1hsu/communication-graph/id/edward-tufte> <http://www.w3.org/2004/02/skos/core#prefLabel> "Edward R. Tufte" .
+  <https://github.com/john1hsu/communication-graph/id/edward-tufte> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> .
+  <https://github.com/john1hsu/communication-graph/id/edward-tufte> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/business-report> .
+  <https://github.com/john1hsu/communication-graph/id/edward-tufte> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint> .
+  <https://github.com/john1hsu/communication-graph/id/edward-tufte> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/executive-briefing> .
+  <https://github.com/john1hsu/communication-graph/id/edward-tufte> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/information-overload> .
+  <https://github.com/john1hsu/communication-graph/id/edward-tufte> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/presentation> .
+  <https://github.com/john1hsu/communication-graph/id/edward-tufte> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/slide-design> .
+  <https://github.com/john1hsu/communication-graph/id/edward-tufte> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/edward-tufte/s1> .
+  <https://github.com/john1hsu/communication-graph/id/edward-tufte> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/edward-tufte/s2> .
+  <https://github.com/john1hsu/communication-graph/id/edward-tufte> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/edward-tufte/s3> .
+  <https://github.com/john1hsu/communication-graph/id/edward-tufte> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/edward-tufte/s4> .
+  <https://github.com/john1hsu/communication-graph/id/edward-tufte> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/edward-tufte/s5> .
+  <https://github.com/john1hsu/communication-graph/id/edward-tufte> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/edward-tufte/s6> .
+  <https://github.com/john1hsu/communication-graph/id/edward-tufte> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/the-cognitive-style-of-powerpoint> .
+  <https://github.com/john1hsu/communication-graph/id/edward-tufte> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/the-visual-display-of-quantitative-information> .
+  <https://github.com/john1hsu/communication-graph/id/edward-tufte> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/farkas-2006> .
+  <https://github.com/john1hsu/communication-graph/id/edward-tufte> <https://github.com/john1hsu/communication-graph/ontology#domain> "thinkers-and-works" .
+  <https://github.com/john1hsu/communication-graph/id/edward-tufte> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "historical" .
+  <https://github.com/john1hsu/communication-graph/id/edward-tufte> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/thinkers-and-works/edward-tufte.md" .
+  <https://github.com/john1hsu/communication-graph/id/edward-tufte> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/data-ink-ratio> .
+  <https://github.com/john1hsu/communication-graph/id/edward-tufte> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint> .
+  <https://github.com/john1hsu/communication-graph/id/edward-tufte> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+  <https://github.com/john1hsu/communication-graph/id/source/edward-tufte/s1> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/edward-tufte/s1> <http://purl.org/dc/terms/publisher> "Department of Political Science, Yale University" .
+  <https://github.com/john1hsu/communication-graph/id/source/edward-tufte/s1> <http://purl.org/dc/terms/title> "Edward Tufte (faculty profile)" .
+  <https://github.com/john1hsu/communication-graph/id/source/edward-tufte/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/edward-tufte/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/communication-graph/id/source/edward-tufte/s1> <https://schema.org/url> <https://politicalscience.yale.edu/user/102> .
+  <https://github.com/john1hsu/communication-graph/id/source/edward-tufte/s2> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/edward-tufte/s2> <http://purl.org/dc/terms/publisher> "Zachry, M. & Thralls, C., Technical Communication Quarterly 13(4), 447-462, 2004 (copy hosted at edwardtufte.com)" .
+  <https://github.com/john1hsu/communication-graph/id/source/edward-tufte/s2> <http://purl.org/dc/terms/title> "Cross-Disciplinary Exchanges: An Interview with Edward R. Tufte" .
+  <https://github.com/john1hsu/communication-graph/id/source/edward-tufte/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/edward-tufte/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/edward-tufte/s2> <https://schema.org/url> <https://www.edwardtufte.com/1705097247/tufte/s15427625tcq1304_5.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/edward-tufte/s3> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/edward-tufte/s3> <http://purl.org/dc/terms/publisher> "Tufte, E. R., edwardtufte.com notebook (author's own site), 2003-2006" .
+  <https://github.com/john1hsu/communication-graph/id/source/edward-tufte/s3> <http://purl.org/dc/terms/title> "New edition of The Cognitive Style of PowerPoint" .
+  <https://github.com/john1hsu/communication-graph/id/source/edward-tufte/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/edward-tufte/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/communication-graph/id/source/edward-tufte/s3> <https://schema.org/url> <https://www.edwardtufte.com/notebook/new-edition-of-the-cognitive-style-of-powerpoint/> .
+  <https://github.com/john1hsu/communication-graph/id/source/edward-tufte/s4> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/edward-tufte/s4> <http://purl.org/dc/terms/publisher> "Farkas, D. K., Information Design Journal + Document Design 14(2), 2006 (author's copy, University of Washington)" .
+  <https://github.com/john1hsu/communication-graph/id/source/edward-tufte/s4> <http://purl.org/dc/terms/title> "Toward a better understanding of PowerPoint deck design" .
+  <https://github.com/john1hsu/communication-graph/id/source/edward-tufte/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/edward-tufte/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/edward-tufte/s4> <https://schema.org/url> <https://faculty.washington.edu/farkas/dfpubs/Farkas-Toward%20A%20Better%20Understanding%20of%20PowerPoint.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/edward-tufte/s5> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/edward-tufte/s5> <http://purl.org/dc/terms/publisher> "Inbar, O., Tractinsky, N. & Meyer, J., ECCE 2007 European Conference on Cognitive Ergonomics, ACM, 185-188 (Ben-Gurion University research portal)" .
+  <https://github.com/john1hsu/communication-graph/id/source/edward-tufte/s5> <http://purl.org/dc/terms/title> "Minimalism in information visualization: Attitudes towards maximizing the data-ink ratio" .
+  <https://github.com/john1hsu/communication-graph/id/source/edward-tufte/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/edward-tufte/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/edward-tufte/s5> <https://schema.org/url> <https://cris.bgu.ac.il/en/publications/minimalism-in-information-visualization-attitudes-towards-maximiz/> .
+  <https://github.com/john1hsu/communication-graph/id/source/edward-tufte/s6> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/edward-tufte/s6> <http://purl.org/dc/terms/publisher> "Parsons, P. & Shukla, P., arXiv:2009.02634, 2020" .
+  <https://github.com/john1hsu/communication-graph/id/source/edward-tufte/s6> <http://purl.org/dc/terms/title> "Data Visualization Practitioners' Perspectives on Chartjunk" .
+  <https://github.com/john1hsu/communication-graph/id/source/edward-tufte/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/edward-tufte/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "preprint" .
+  <https://github.com/john1hsu/communication-graph/id/source/edward-tufte/s6> <https://schema.org/url> <https://arxiv.org/pdf/2009.02634> .
+}
+
 <https://github.com/john1hsu/communication-graph/id/effective-writing-for-army-leaders#graph> {
   <https://github.com/john1hsu/communication-graph/id/effective-writing-for-army-leaders> <http://purl.org/dc/terms/created> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
   <https://github.com/john1hsu/communication-graph/id/effective-writing-for-army-leaders> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
@@ -22067,6 +22145,7 @@
   <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/bulleted-and-numbered-lists> .
   <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-load> .
   <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint> .
+  <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/edward-tufte> .
   <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/presentation> .
   <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/pyramid-principle> .
   <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/presentation> .
@@ -22398,6 +22477,7 @@
   <https://github.com/john1hsu/communication-graph/id/business-report> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/status-reporting> .
   <https://github.com/john1hsu/communication-graph/id/business-report> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/mccallum-erie-railroad-report> .
   <https://github.com/john1hsu/communication-graph/id/business-report> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/status-reporting> .
+  <https://github.com/john1hsu/communication-graph/id/business-report> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/edward-tufte> .
   <https://github.com/john1hsu/communication-graph/id/business-report> <https://github.com/john1hsu/communication-graph/ontology#hasPart> <https://github.com/john1hsu/communication-graph/id/executive-summary> .
   <https://github.com/john1hsu/communication-graph/id/business-report> <https://github.com/john1hsu/communication-graph/ontology#introducedIn> <https://github.com/john1hsu/communication-graph/id/mccallum-erie-railroad-report> .
   <https://github.com/john1hsu/communication-graph/id/business-report> <https://github.com/john1hsu/communication-graph/ontology#structuredBy> <https://github.com/john1hsu/communication-graph/id/informative-headings> .
@@ -23109,6 +23189,7 @@
   <https://github.com/john1hsu/communication-graph/id/dargue-sweller-jones-2019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/dargue-sweller-jones-2019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/dargue-sweller-jones-2019> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/gestures> .
+  <https://github.com/john1hsu/communication-graph/id/data-ink-ratio> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/edward-tufte> .
   <https://github.com/john1hsu/communication-graph/id/david-l-bradford> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/david-l-bradford> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/david-l-bradford> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/influence-without-authority> .
@@ -23148,8 +23229,10 @@
   <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/slide-design> .
+  <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/edward-tufte> .
   <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/fm-6-0> .
   <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> .
+  <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/edward-tufte> .
   <https://github.com/john1hsu/communication-graph/id/decision-quality> <https://github.com/john1hsu/communication-graph/ontology#underminedBy> <https://github.com/john1hsu/communication-graph/id/information-overload> .
   <https://github.com/john1hsu/communication-graph/id/decision-rights> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/raci-matrix> .
   <https://github.com/john1hsu/communication-graph/id/decision-rights> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/raci-matrix> .
@@ -23378,6 +23461,7 @@
   <https://github.com/john1hsu/communication-graph/id/edward-t-hall> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> .
   <https://github.com/john1hsu/communication-graph/id/edward-t-hall> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/intercultural-communication> .
   <https://github.com/john1hsu/communication-graph/id/edward-t-hall> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/proxemics> .
+  <https://github.com/john1hsu/communication-graph/id/edward-tufte> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/effective-writing-for-army-leaders> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/effective-writing-for-army-leaders> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/writing-style-guide> .
   <https://github.com/john1hsu/communication-graph/id/effective-writing-for-army-leaders> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/bleyer-newspaper-writing-and-editing> .
@@ -23648,6 +23732,7 @@
   <https://github.com/john1hsu/communication-graph/id/executive-briefing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/business-report> .
   <https://github.com/john1hsu/communication-graph/id/executive-briefing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/client-communication> .
   <https://github.com/john1hsu/communication-graph/id/executive-briefing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint> .
+  <https://github.com/john1hsu/communication-graph/id/executive-briefing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/edward-tufte> .
   <https://github.com/john1hsu/communication-graph/id/executive-briefing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/elevator-pitch> .
   <https://github.com/john1hsu/communication-graph/id/executive-briefing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/escalation-communication> .
   <https://github.com/john1hsu/communication-graph/id/executive-briefing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/executive-presence> .
@@ -23785,6 +23870,7 @@
   <https://github.com/john1hsu/communication-graph/id/false-consensus-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/egocentric-bias> .
   <https://github.com/john1hsu/communication-graph/id/fang-schei-selart-2018> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/cultural-intelligence> .
   <https://github.com/john1hsu/communication-graph/id/farkas-2006> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint> .
+  <https://github.com/john1hsu/communication-graph/id/farkas-2006> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/edward-tufte> .
   <https://github.com/john1hsu/communication-graph/id/farley-2008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/farley-2008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/farley-2008> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/interrupting> .
@@ -24531,6 +24617,7 @@
   <https://github.com/john1hsu/communication-graph/id/information-overload> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/chat-etiquette> .
   <https://github.com/john1hsu/communication-graph/id/information-overload> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-load> .
   <https://github.com/john1hsu/communication-graph/id/information-overload> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/concise-writing> .
+  <https://github.com/john1hsu/communication-graph/id/information-overload> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/edward-tufte> .
   <https://github.com/john1hsu/communication-graph/id/information-overload> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/executive-briefing> .
   <https://github.com/john1hsu/communication-graph/id/information-overload> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/executive-summary> .
   <https://github.com/john1hsu/communication-graph/id/information-overload> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> .
@@ -26067,6 +26154,7 @@
   <https://github.com/john1hsu/communication-graph/id/presentation> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/elevator-pitch> .
   <https://github.com/john1hsu/communication-graph/id/presentation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/elevator-pitch> .
   <https://github.com/john1hsu/communication-graph/id/presentation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-load> .
+  <https://github.com/john1hsu/communication-graph/id/presentation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/edward-tufte> .
   <https://github.com/john1hsu/communication-graph/id/presentation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/narrative-persuasion> .
   <https://github.com/john1hsu/communication-graph/id/presentation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/power-posing> .
   <https://github.com/john1hsu/communication-graph/id/presentation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/rebecca-hincks> .
@@ -26727,6 +26815,7 @@
   <https://github.com/john1hsu/communication-graph/id/slide-design> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint> .
   <https://github.com/john1hsu/communication-graph/id/slide-design> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> .
   <https://github.com/john1hsu/communication-graph/id/slide-design> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint> .
+  <https://github.com/john1hsu/communication-graph/id/slide-design> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/edward-tufte> .
   <https://github.com/john1hsu/communication-graph/id/small-talk/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/small-talk/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/small-talk/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -27105,6 +27194,9 @@
   <https://github.com/john1hsu/communication-graph/id/the-art-of-getting-your-own-sweet-way> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/the-art-of-getting-your-own-sweet-way> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
   <https://github.com/john1hsu/communication-graph/id/the-art-of-getting-your-own-sweet-way> <https://github.com/john1hsu/communication-graph/ontology#authoredBy> <https://github.com/john1hsu/communication-graph/id/philip-crosby> .
+  <https://github.com/john1hsu/communication-graph/id/the-cognitive-style-of-powerpoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/the-cognitive-style-of-powerpoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
+  <https://github.com/john1hsu/communication-graph/id/the-cognitive-style-of-powerpoint> <https://github.com/john1hsu/communication-graph/ontology#authoredBy> <https://github.com/john1hsu/communication-graph/id/edward-tufte> .
   <https://github.com/john1hsu/communication-graph/id/the-culture-map> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/the-culture-map> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
   <https://github.com/john1hsu/communication-graph/id/the-culture-map> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/humanities> .
@@ -27159,6 +27251,9 @@
   <https://github.com/john1hsu/communication-graph/id/the-trusted-advisor-book> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
   <https://github.com/john1hsu/communication-graph/id/the-trusted-advisor-book> <https://github.com/john1hsu/communication-graph/ontology#authoredBy> <https://github.com/john1hsu/communication-graph/id/david-maister> .
   <https://github.com/john1hsu/communication-graph/id/the-trusted-advisor-book> <https://github.com/john1hsu/communication-graph/ontology#introduces> <https://github.com/john1hsu/communication-graph/id/trusted-advisor> .
+  <https://github.com/john1hsu/communication-graph/id/the-visual-display-of-quantitative-information> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/the-visual-display-of-quantitative-information> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
+  <https://github.com/john1hsu/communication-graph/id/the-visual-display-of-quantitative-information> <https://github.com/john1hsu/communication-graph/ontology#authoredBy> <https://github.com/john1hsu/communication-graph/id/edward-tufte> .
   <https://github.com/john1hsu/communication-graph/id/theory-of-cooperation-and-competition> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/conflict-resolution> .
   <https://github.com/john1hsu/communication-graph/id/theory-of-cooperation-and-competition> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/morton-deutsch> .
   <https://github.com/john1hsu/communication-graph/id/theory-of-mind> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> .

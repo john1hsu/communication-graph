@@ -5297,6 +5297,90 @@
    ]
   },
   {
+   "@id": "cm:edward-tufte",
+   "@type": "cmo:Person",
+   "cmo:authored": [
+    {
+     "@id": "cm:the-cognitive-style-of-powerpoint"
+    },
+    {
+     "@id": "cm:the-visual-display-of-quantitative-information"
+    }
+   ],
+   "cmo:challengedBy": {
+    "@id": "cm:farkas-2006"
+   },
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "historical",
+   "cmo:file": "articles/thinkers-and-works/edward-tufte.md",
+   "cmo:introduced": [
+    {
+     "@id": "cm:data-ink-ratio"
+    },
+    {
+     "@id": "cm:death-by-powerpoint"
+    }
+   ],
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/edward-tufte/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/edward-tufte/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/edward-tufte/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/edward-tufte/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/edward-tufte/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/edward-tufte/s6"
+    }
+   ],
+   "rdfs:label": "Edward R. Tufte",
+   "skos:altLabel": [
+    "Edward Tufte",
+    "Tufte"
+   ],
+   "skos:definition": "Statistician and political scientist, professor emeritus at Yale, whose self-published books on information design - beginning with The Visual Display of Quantitative Information (1983) - and whose 2003 essay The Cognitive Style of PowerPoint popularised the critique of bullet-heavy slide presentations and the case for dense, evidence-first technical reports.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "Edward R. Tufte",
+   "skos:related": [
+    {
+     "@id": "cm:assertion-evidence-slides"
+    },
+    {
+     "@id": "cm:business-report"
+    },
+    {
+     "@id": "cm:death-by-powerpoint"
+    },
+    {
+     "@id": "cm:executive-briefing"
+    },
+    {
+     "@id": "cm:information-overload"
+    },
+    {
+     "@id": "cm:presentation"
+    },
+    {
+     "@id": "cm:slide-design"
+    }
+   ]
+  },
+  {
    "@id": "cm:effective-writing-for-army-leaders",
    "@type": "cmo:Work",
    "cmo:domain": "thinkers-and-works",
@@ -33549,6 +33633,90 @@
    "dcterms:title": "Deception in Negotiation",
    "schema:url": {
     "@id": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/when-you%E2%80%99re-tempted-to-deceive/?amp"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/edward-tufte/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Department of Political Science, Yale University",
+   "dcterms:title": "Edward Tufte (faculty profile)",
+   "schema:url": {
+    "@id": "https://politicalscience.yale.edu/user/102"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/edward-tufte/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Zachry, M. & Thralls, C., Technical Communication Quarterly 13(4), 447-462, 2004 (copy hosted at edwardtufte.com)",
+   "dcterms:title": "Cross-Disciplinary Exchanges: An Interview with Edward R. Tufte",
+   "schema:url": {
+    "@id": "https://www.edwardtufte.com/1705097247/tufte/s15427625tcq1304_5.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/edward-tufte/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Tufte, E. R., edwardtufte.com notebook (author's own site), 2003-2006",
+   "dcterms:title": "New edition of The Cognitive Style of PowerPoint",
+   "schema:url": {
+    "@id": "https://www.edwardtufte.com/notebook/new-edition-of-the-cognitive-style-of-powerpoint/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/edward-tufte/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Farkas, D. K., Information Design Journal + Document Design 14(2), 2006 (author's copy, University of Washington)",
+   "dcterms:title": "Toward a better understanding of PowerPoint deck design",
+   "schema:url": {
+    "@id": "https://faculty.washington.edu/farkas/dfpubs/Farkas-Toward%20A%20Better%20Understanding%20of%20PowerPoint.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/edward-tufte/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Inbar, O., Tractinsky, N. & Meyer, J., ECCE 2007 European Conference on Cognitive Ergonomics, ACM, 185-188 (Ben-Gurion University research portal)",
+   "dcterms:title": "Minimalism in information visualization: Attitudes towards maximizing the data-ink ratio",
+   "schema:url": {
+    "@id": "https://cris.bgu.ac.il/en/publications/minimalism-in-information-visualization-attitudes-towards-maximiz/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/edward-tufte/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "preprint",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Parsons, P. & Shukla, P., arXiv:2009.02634, 2020",
+   "dcterms:title": "Data Visualization Practitioners' Perspectives on Chartjunk",
+   "schema:url": {
+    "@id": "https://arxiv.org/pdf/2009.02634"
    }
   },
   {
