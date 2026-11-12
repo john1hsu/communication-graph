@@ -534,6 +534,14 @@
 <https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/words-of-estimative-probability/s2> .
 <https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/words-of-estimative-probability/s3> .
 <https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/words-of-estimative-probability/s4> .
+<https://github.com/john1hsu/communication-graph/id/behavior-modeling-training#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/behavior-modeling-training#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> .
+<https://github.com/john1hsu/communication-graph/id/behavior-modeling-training#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/feedback-and-coaching/behavior-modeling-training.md" .
+<https://github.com/john1hsu/communication-graph/id/behavior-modeling-training#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/behavior-modeling-training/s1> .
+<https://github.com/john1hsu/communication-graph/id/behavior-modeling-training#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/behavior-modeling-training/s2> .
+<https://github.com/john1hsu/communication-graph/id/behavior-modeling-training#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/behavior-modeling-training/s3> .
+<https://github.com/john1hsu/communication-graph/id/behavior-modeling-training#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/behavior-modeling-training/s4> .
+<https://github.com/john1hsu/communication-graph/id/behavior-modeling-training#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/behavior-modeling-training/s5> .
 <https://github.com/john1hsu/communication-graph/id/feedback-sandwich#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/feedback-sandwich#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/feedback-sandwich> .
 <https://github.com/john1hsu/communication-graph/id/feedback-sandwich#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/feedback-and-coaching/feedback-sandwich.md" .
@@ -7680,6 +7688,115 @@
   <https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/sherman-kent> .
   <https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
   <https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/mandel-irwin-2021> .
+}
+
+<https://github.com/john1hsu/communication-graph/id/behavior-modeling-training#graph> {
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Can I state the learning points for this conversation as rules, not as a script I have memorised?" .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Have I actually practised this out loud with feedback, or only read about it?" .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "What exact situation in the next two weeks will I use this in, and who will notice whether I did?" .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Is anything at work (my manager, our appraisal, team norms) rewarding the old way of handling this?" .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training/example> <https://github.com/john1hsu/communication-graph/ontology#after> "The board report was due Tuesday and came in Thursday, so I had to delay the pack. What got in the way? ... OK, so let's agree that you'll flag a slip by Monday noon. Can you do that?" .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training/example> <https://github.com/john1hsu/communication-graph/ontology#before> "You missed the deadline again. This really can't keep happening, OK?" .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "A new team lead has to raise a late report with an experienced analyst. Before training she had only read an article on feedback; afterwards she had practised the conversation in a modeling session." .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training/example> <https://github.com/john1hsu/communication-graph/ontology#why> "She had watched the steps modeled, rehearsed them twice with feedback and set a goal to use them, so under pressure she named the specific behaviour and its impact, asked before judging and closed on an agreed action." .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training/howto/1> <https://schema.org/text> "Pick one recurring conversation (for example, raising a missed deadline) and write four to six learning points as rules that say what to do and why." .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training/howto/2> <https://schema.org/text> "Show a model handling it, ideally more than one, including a version that goes wrong, and discuss the learning points before or after the demonstration rather than over it." .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training/howto/3> <https://schema.org/text> "Have each learner picture themselves doing it, then role-play scenarios drawn from their own job, swapping roles." .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training/howto/4> <https://schema.org/text> "Give specific feedback and praise on each learning point, then run the practice again." .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training/howto/5> <https://schema.org/text> "End with a concrete goal for using the skill at work in the next two weeks, brief the learners' managers, and check back on it." .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training/howto> <https://schema.org/name> "Behavior modeling training" .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training/howto/1> .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training/howto/2> .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training/howto/3> .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training/howto/4> .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training/howto/5> .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> <http://purl.org/dc/terms/created> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Technique> .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> <http://www.w3.org/2000/01/rdf-schema#label> "Behavior modeling training" .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> <http://www.w3.org/2004/02/skos/core#altLabel> "BMT" .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> <http://www.w3.org/2004/02/skos/core#altLabel> "behavior modeling" .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> <http://www.w3.org/2004/02/skos/core#altLabel> "behaviour modelling training" .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> <http://www.w3.org/2004/02/skos/core#altLabel> "interaction modeling" .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> <http://www.w3.org/2004/02/skos/core#altLabel> "model-practice-feedback training" .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/communication-skills-training> .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> <http://www.w3.org/2004/02/skos/core#definition> "A structured way to build interpersonal skills: learners get a few clear learning points, watch someone model them, rehearse in role-play, receive feedback and praise, and plan how to use the behaviour on the job. It is the best-studied method for turning communication advice into practised behaviour." .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/feedback-and-coaching> .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> <http://www.w3.org/2004/02/skos/core#prefLabel> "Behavior modeling training" .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communication-competence> .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/deliberate-practice> .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/feedback> .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/receiving-feedback> .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/role-reversal> .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/self-recording-playback> .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/behavior-modeling-training/s1> .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/behavior-modeling-training/s2> .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/behavior-modeling-training/s3> .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/behavior-modeling-training/s4> .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/behavior-modeling-training/s5> .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/job-interview> .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> <https://github.com/john1hsu/communication-graph/ontology#develops> <https://github.com/john1hsu/communication-graph/id/assertiveness> .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> <https://github.com/john1hsu/communication-graph/ontology#develops> <https://github.com/john1hsu/communication-graph/id/communication-competence> .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> <https://github.com/john1hsu/communication-graph/ontology#domain> "feedback-and-coaching" .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training/example> .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/social-learning-theory> .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/feedback-and-coaching/behavior-modeling-training.md" .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training/howto> .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/albert-bandura> .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/arnold-goldstein> .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/taylor-russ-eft-chan-2005> .
+  <https://github.com/john1hsu/communication-graph/id/source/behavior-modeling-training/s1> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/behavior-modeling-training/s1> <http://purl.org/dc/terms/publisher> "Herman Aguinis & Kurt Kraiger, Annual Review of Psychology 60, 451-474, 2009, doi:10.1146/annurev.psych.60.110707.163505 (author's copy)" .
+  <https://github.com/john1hsu/communication-graph/id/source/behavior-modeling-training/s1> <http://purl.org/dc/terms/title> "Benefits of training and development for individuals and teams, organizations, and society" .
+  <https://github.com/john1hsu/communication-graph/id/source/behavior-modeling-training/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/behavior-modeling-training/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/behavior-modeling-training/s1> <https://schema.org/url> <https://www.hermanaguinis.com/pdf/Annual09.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/behavior-modeling-training/s2> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/behavior-modeling-training/s2> <http://purl.org/dc/terms/publisher> "Megan Paul, Quality Improvement Center for Workforce Development, University of Nebraska-Lincoln (funded by the US Children's Bureau), 2021" .
+  <https://github.com/john1hsu/communication-graph/id/source/behavior-modeling-training/s2> <http://purl.org/dc/terms/title> "Umbrella summary: Behavior modeling training" .
+  <https://github.com/john1hsu/communication-graph/id/source/behavior-modeling-training/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/behavior-modeling-training/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/communication-graph/id/source/behavior-modeling-training/s2> <https://schema.org/url> <https://www.qic-wd.org/sites/default/files/Umbrella%20Summary%20-%20Behavior%20Modeling%20Training%20112421b.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/behavior-modeling-training/s3> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/behavior-modeling-training/s3> <http://purl.org/dc/terms/publisher> "Kim S. Cameron & David A. Whetten, Developments in Business Simulation & Experiential Exercises 11, 179-183, 1984 (ABSEL)" .
+  <https://github.com/john1hsu/communication-graph/id/source/behavior-modeling-training/s3> <http://purl.org/dc/terms/title> "A model for teaching management skills" .
+  <https://github.com/john1hsu/communication-graph/id/source/behavior-modeling-training/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/behavior-modeling-training/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/behavior-modeling-training/s3> <https://schema.org/url> <https://absel-ojs-ttu.tdl.org/absel/article/view/2242/2211> .
+  <https://github.com/john1hsu/communication-graph/id/source/behavior-modeling-training/s4> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/behavior-modeling-training/s4> <http://purl.org/dc/terms/publisher> "Thurlow R. Wilson, Joseph A. Olmstead & Robert C. Trexler, Human Resources Research Organization for the US Bureau of Mines, 1980 (via DTIC)" .
+  <https://github.com/john1hsu/communication-graph/id/source/behavior-modeling-training/s4> <http://purl.org/dc/terms/title> "On-the-job training and social learning theory: a literature review (HumRRO SR-ETSD-80-5)" .
+  <https://github.com/john1hsu/communication-graph/id/source/behavior-modeling-training/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/behavior-modeling-training/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+  <https://github.com/john1hsu/communication-graph/id/source/behavior-modeling-training/s4> <https://schema.org/url> <https://apps.dtic.mil/sti/tr/pdf/ADA102558.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/behavior-modeling-training/s5> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/behavior-modeling-training/s5> <http://purl.org/dc/terms/publisher> "Alice Pescuric & William C. Byham, Training & Development (ASTD), July 1996, pp. 25-29" .
+  <https://github.com/john1hsu/communication-graph/id/source/behavior-modeling-training/s5> <http://purl.org/dc/terms/title> "New look behavior modeling" .
+  <https://github.com/john1hsu/communication-graph/id/source/behavior-modeling-training/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/behavior-modeling-training/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "practitioner-journal" .
+  <https://github.com/john1hsu/communication-graph/id/source/behavior-modeling-training/s5> <https://schema.org/url> <https://assets.td.org/m/475bb0c401e95310/original/The-new-look-of-behavior-modeling.pdf> .
 }
 
 <https://github.com/john1hsu/communication-graph/id/feedback-sandwich#graph> {
@@ -22702,6 +22819,7 @@
   <https://github.com/john1hsu/communication-graph/id/alan-r-dennis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/alan-r-dennis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/alan-r-dennis> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/media-synchronicity-theory> .
+  <https://github.com/john1hsu/communication-graph/id/albert-bandura> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> .
   <https://github.com/john1hsu/communication-graph/id/albert-mehrabian> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/albert-mehrabian> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/albert-mehrabian> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/michael-argyle> .
@@ -22827,6 +22945,9 @@
   <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/rhetoric> .
   <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> <https://github.com/john1hsu/communication-graph/ontology#introduces> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
   <https://github.com/john1hsu/communication-graph/id/army-writing-program> <https://github.com/john1hsu/communication-graph/ontology#hasPart> <https://github.com/john1hsu/communication-graph/id/effective-writing-for-army-leaders> .
+  <https://github.com/john1hsu/communication-graph/id/arnold-goldstein> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/arnold-goldstein> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+  <https://github.com/john1hsu/communication-graph/id/arnold-goldstein> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> .
   <https://github.com/john1hsu/communication-graph/id/arturo-rosenblueth> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/norbert-wiener> .
   <https://github.com/john1hsu/communication-graph/id/asch-1946> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/asch-1946> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
@@ -22852,6 +22973,7 @@
   <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/presentation> .
   <https://github.com/john1hsu/communication-graph/id/assertive-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/i-statements> .
   <https://github.com/john1hsu/communication-graph/id/assertive-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/i-statements> .
+  <https://github.com/john1hsu/communication-graph/id/assertiveness> <https://github.com/john1hsu/communication-graph/ontology#developedBy> <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> .
   <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
@@ -23008,6 +23130,14 @@
   <https://github.com/john1hsu/communication-graph/id/batna> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> .
   <https://github.com/john1hsu/communication-graph/id/baturaite-bunka-et-al-2024> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/nonviolent-communication> .
   <https://github.com/john1hsu/communication-graph/id/becker-et-al-2019> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/email-urgency-bias-study> .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-skills-training> .
   <https://github.com/john1hsu/communication-graph/id/behavior-purpose-and-teleology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/behavior-purpose-and-teleology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
   <https://github.com/john1hsu/communication-graph/id/behavior-purpose-and-teleology> <https://github.com/john1hsu/communication-graph/ontology#authoredBy> <https://github.com/john1hsu/communication-graph/id/norbert-wiener> .
@@ -23564,7 +23694,9 @@
   <https://github.com/john1hsu/communication-graph/id/communication-competence> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/pyramid-principle> .
   <https://github.com/john1hsu/communication-graph/id/communication-competence> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/signposting> .
   <https://github.com/john1hsu/communication-graph/id/communication-competence> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/wall-of-text> .
+  <https://github.com/john1hsu/communication-graph/id/communication-competence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> .
   <https://github.com/john1hsu/communication-graph/id/communication-competence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
+  <https://github.com/john1hsu/communication-graph/id/communication-competence> <https://github.com/john1hsu/communication-graph/ontology#developedBy> <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> .
   <https://github.com/john1hsu/communication-graph/id/communication-competence> <https://github.com/john1hsu/communication-graph/ontology#underminedBy> <https://github.com/john1hsu/communication-graph/id/communication-apprehension> .
   <https://github.com/john1hsu/communication-graph/id/communication-models> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/shannon-weaver-model> .
   <https://github.com/john1hsu/communication-graph/id/communication-models> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/shannon-weaver-model> .
@@ -23572,6 +23704,8 @@
   <https://github.com/john1hsu/communication-graph/id/communication-plan> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping> .
   <https://github.com/john1hsu/communication-graph/id/communication-planning> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/channel-selection> .
   <https://github.com/john1hsu/communication-graph/id/communication-planning> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/channel-selection> .
+  <https://github.com/john1hsu/communication-graph/id/communication-skills-training> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> .
+  <https://github.com/john1hsu/communication-graph/id/communication-skills-training> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/humanities> .
@@ -24043,6 +24177,7 @@
   <https://github.com/john1hsu/communication-graph/id/defensiveness> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/receiving-feedback> .
   <https://github.com/john1hsu/communication-graph/id/defensiveness> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/self-affirmation-before-feedback> .
   <https://github.com/john1hsu/communication-graph/id/defensiveness> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> .
+  <https://github.com/john1hsu/communication-graph/id/deliberate-practice> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> .
   <https://github.com/john1hsu/communication-graph/id/deliberate-practice> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> .
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -24737,6 +24872,7 @@
   <https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/wise-feedback> .
   <https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> .
   <https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/acoustic-speech-analysis-coaching> .
+  <https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> .
   <https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communication-competence> .
   <https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/considering-others-contributions-first> .
   <https://github.com/john1hsu/communication-graph/id/feedback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/difficult-conversation> .
@@ -25793,6 +25929,7 @@
   <https://github.com/john1hsu/communication-graph/id/job-interview> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/job-interview> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/personnel-selection> .
   <https://github.com/john1hsu/communication-graph/id/job-interview> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/alison-wood-brooks> .
+  <https://github.com/john1hsu/communication-graph/id/job-interview> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> .
   <https://github.com/john1hsu/communication-graph/id/job-interview> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/camera-level-gaze> .
   <https://github.com/john1hsu/communication-graph/id/job-interview> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/follow-up-questions> .
   <https://github.com/john1hsu/communication-graph/id/job-interview> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/impression-management> .
@@ -27026,6 +27163,7 @@
   <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/public-speaking> .
   <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/acoustic-speech-analysis-coaching> .
   <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/acoustic-speech-analysis-coaching> .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> .
   <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> .
   <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communication-apprehension> .
   <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint> .
@@ -27341,6 +27479,7 @@
   <https://github.com/john1hsu/communication-graph/id/receiving-feedback> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/receiving-feedback> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/self-affirmation-before-feedback> .
   <https://github.com/john1hsu/communication-graph/id/receiving-feedback> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/self-affirmation-before-feedback> .
+  <https://github.com/john1hsu/communication-graph/id/receiving-feedback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> .
   <https://github.com/john1hsu/communication-graph/id/receiving-feedback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communication-competence> .
   <https://github.com/john1hsu/communication-graph/id/receiving-feedback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/feedback> .
   <https://github.com/john1hsu/communication-graph/id/receiving-feedback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> .
@@ -27476,6 +27615,7 @@
   <https://github.com/john1hsu/communication-graph/id/role-reversal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/role-reversal> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/conflict-resolution> .
   <https://github.com/john1hsu/communication-graph/id/role-reversal> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
+  <https://github.com/john1hsu/communication-graph/id/role-reversal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> .
   <https://github.com/john1hsu/communication-graph/id/role-reversal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/conflict-resolution> .
   <https://github.com/john1hsu/communication-graph/id/role-reversal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/negotiation-preparation> .
   <https://github.com/john1hsu/communication-graph/id/role-reversal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/refutational-two-sided-messages> .
@@ -27620,6 +27760,7 @@
   <https://github.com/john1hsu/communication-graph/id/self-recording-playback> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/self-recording-playback> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/public-speaking> .
   <https://github.com/john1hsu/communication-graph/id/self-recording-playback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/acoustic-speech-analysis-coaching> .
+  <https://github.com/john1hsu/communication-graph/id/self-recording-playback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> .
   <https://github.com/john1hsu/communication-graph/id/self-recording-playback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> .
   <https://github.com/john1hsu/communication-graph/id/self-recording-playback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communication-competence> .
   <https://github.com/john1hsu/communication-graph/id/self-recording-playback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/presentation> .
@@ -27790,6 +27931,7 @@
   <https://github.com/john1hsu/communication-graph/id/social-anxiety> <https://github.com/john1hsu/communication-graph/ontology#causedBy> <https://github.com/john1hsu/communication-graph/id/spotlight-effect> .
   <https://github.com/john1hsu/communication-graph/id/social-information-processing-theory> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/digital-communication> .
   <https://github.com/john1hsu/communication-graph/id/social-judgment-theory> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/carl-hovland> .
+  <https://github.com/john1hsu/communication-graph/id/social-learning-theory> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> .
   <https://github.com/john1hsu/communication-graph/id/social-proof> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/social-proof> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/social-proof> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
@@ -28134,6 +28276,7 @@
   <https://github.com/john1hsu/communication-graph/id/taras-steel-kirkman-2016> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/intercultural-communication> .
   <https://github.com/john1hsu/communication-graph/id/taras-steel-kirkman-2016> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/the-culture-map> .
   <https://github.com/john1hsu/communication-graph/id/target-point> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/reservation-value> .
+  <https://github.com/john1hsu/communication-graph/id/taylor-russ-eft-chan-2005> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> .
   <https://github.com/john1hsu/communication-graph/id/teach-back/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/teach-back/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/teach-back/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .

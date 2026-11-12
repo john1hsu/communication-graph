@@ -1537,6 +1537,126 @@
   ]
  },
  {
+  "id": "cm:behavior-modeling-training",
+  "title": "Behavior modeling training",
+  "aliases": [
+   "behaviour modelling training",
+   "BMT",
+   "behavior modeling",
+   "interaction modeling",
+   "model-practice-feedback training"
+  ],
+  "type": "Technique",
+  "domain": "feedback-and-coaching",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/feedback-and-coaching/behavior-modeling-training.md",
+  "created": "2026-11-12",
+  "summary": "A structured way to build interpersonal skills: learners get a few clear learning points, watch someone model them, rehearse in role-play, receive feedback and praise, and plan how to use the behaviour on the job. It is the best-studied method for turning communication advice into practised behaviour.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:communication-skills-training"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:communication-competence"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:feedback"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:role-reversal"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:presentation-rehearsal"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:self-recording-playback"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:deliberate-practice"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:receiving-feedback"
+   },
+   {
+    "predicate": "cmo:develops",
+    "object": "cm:communication-competence",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:develops",
+    "object": "cm:assertiveness",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:social-learning-theory",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:influencedBy",
+    "object": "cm:albert-bandura",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:arnold-goldstein",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:taylor-russ-eft-chan-2005",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:job-interview",
+    "source": "s2",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Can I state the learning points for this conversation as rules, not as a script I have memorised?",
+   "Have I actually practised this out loud with feedback, or only read about it?",
+   "What exact situation in the next two weeks will I use this in, and who will notice whether I did?",
+   "Is anything at work (my manager, our appraisal, team norms) rewarding the old way of handling this?"
+  ],
+  "steps": [
+   "Pick one recurring conversation (for example, raising a missed deadline) and write four to six learning points as rules that say what to do and why.",
+   "Show a model handling it, ideally more than one, including a version that goes wrong, and discuss the learning points before or after the demonstration rather than over it.",
+   "Have each learner picture themselves doing it, then role-play scenarios drawn from their own job, swapping roles.",
+   "Give specific feedback and praise on each learning point, then run the practice again.",
+   "End with a concrete goal for using the skill at work in the next two weeks, brief the learners' managers, and check back on it."
+  ],
+  "example": {
+   "situation": "A new team lead has to raise a late report with an experienced analyst. Before training she had only read an article on feedback; afterwards she had practised the conversation in a modeling session.",
+   "before": "You missed the deadline again. This really can't keep happening, OK?",
+   "after": "The board report was due Tuesday and came in Thursday, so I had to delay the pack. What got in the way? ... OK, so let's agree that you'll flag a slip by Monday noon. Can you do that?",
+   "why": "She had watched the steps modeled, rehearsed them twice with feedback and set a goal to use them, so under pressure she named the specific behaviour and its impact, asked before judging and closed on an agreed action."
+  },
+  "source_urls": [
+   "https://www.hermanaguinis.com/pdf/Annual09.pdf",
+   "https://www.qic-wd.org/sites/default/files/Umbrella%20Summary%20-%20Behavior%20Modeling%20Training%20112421b.pdf",
+   "https://absel-ojs-ttu.tdl.org/absel/article/view/2242/2211",
+   "https://apps.dtic.mil/sti/tr/pdf/ADA102558.pdf",
+   "https://assets.td.org/m/475bb0c401e95310/original/The-new-look-of-behavior-modeling.pdf"
+  ]
+ },
+ {
   "id": "cm:bleyer-newspaper-writing-and-editing",
   "title": "Bleyer's Newspaper Writing and Editing",
   "aliases": [

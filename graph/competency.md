@@ -12,9 +12,7 @@ _No results._
 
 _Which written skills or dispositions have no technique, framework or principle that develops them?_ — `queries/02-skills-without-practice.rq`
 
-| skill | type |
-|---|---|
-| `cm:communication-competence` | cmo:Skill |
+_No results._
 
 ## Situations, channels and formats with no guidance (gap)
 
@@ -33,6 +31,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:paramedic-method` | 3 | Concise writing, official-style, wordiness |
 | `cm:self-recording-playback` | 3 | Gesturing while speaking, Public speaking anxiety, public-speaking |
 | `cm:acoustic-speech-analysis-coaching` | 2 | Vocal delivery, monotone-delivery |
+| `cm:behavior-modeling-training` | 2 | Communication competence, assertiveness |
 | `cm:chat-etiquette` | 2 | Information overload, workplace-telepressure |
 | `cm:culture-assimilator` | 2 | Cultural intelligence, Intercultural competence |
 | `cm:describe-analyze-evaluate` | 2 | Ethnocentrism, Intercultural competence |
@@ -57,9 +56,8 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:audience-analysis` | 1 | Curse of knowledge |
 | `cm:bottom-line-up-front` | 1 | Burying the lede |
 | `cm:bulleted-and-numbered-lists` | 1 | Wall of text |
-| `cm:camera-level-gaze` | 1 | Gaze and eye contact |
 
-…and 42 more.
+…and 43 more.
 
 ## Toolkit by situation
 
@@ -98,7 +96,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:email` | `cm:email-urgency-bias-study` |
 | `cm:email` | `cm:emoji-and-tone-in-text` |
 
-…and 108 more.
+…and 109 more.
 
 ## Myths and contested advice
 
@@ -137,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:apology` | mixed |  |
 | `cm:assertion-evidence-slides` | mixed | `cm:alzayed-alzamel-2023` |
 
-…and 138 more.
+…and 139 more.
 
 ## Concepts with no recorded origin (gap)
 

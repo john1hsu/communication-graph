@@ -736,6 +736,28 @@ Ask yourself:
 
 ## feedback-and-coaching
 
+### [Behavior modeling training](../articles/feedback-and-coaching/behavior-modeling-training.md) — Technique
+
+1. Pick one recurring conversation (for example, raising a missed deadline) and write four to six learning points as rules that say what to do and why.
+2. Show a model handling it, ideally more than one, including a version that goes wrong, and discuss the learning points before or after the demonstration rather than over it.
+3. Have each learner picture themselves doing it, then role-play scenarios drawn from their own job, swapping roles.
+4. Give specific feedback and praise on each learning point, then run the practice again.
+5. End with a concrete goal for using the skill at work in the next two weeks, brief the learners' managers, and check back on it.
+
+*A new team lead has to raise a late report with an experienced analyst. Before training she had only read an article on feedback; afterwards she had practised the conversation in a modeling session.*
+
+| Before | After |
+|---|---|
+| You missed the deadline again. This really can't keep happening, OK? | The board report was due Tuesday and came in Thursday, so I had to delay the pack. What got in the way? ... OK, so let's agree that you'll flag a slip by Monday noon. Can you do that? |
+
+**Why:** She had watched the steps modeled, rehearsed them twice with feedback and set a goal to use them, so under pressure she named the specific behaviour and its impact, asked before judging and closed on an agreed action.
+
+Ask yourself:
+- Can I state the learning points for this conversation as rules, not as a script I have memorised?
+- Have I actually practised this out loud with feedback, or only read about it?
+- What exact situation in the next two weeks will I use this in, and who will notice whether I did?
+- Is anything at work (my manager, our appraisal, team norms) rewarding the old way of handling this?
+
 ### [Feedback sandwich](../articles/feedback-and-coaching/feedback-sandwich.md) — Technique
 
 1. Decide whether a sandwich is needed at all - routine corrections in a healthy working relationship can be given on their own, and praise can be given separately when it is earned.
