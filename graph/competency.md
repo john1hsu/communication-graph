@@ -67,6 +67,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 |---|---|
 | `cm:apology` | `cm:social-accounts` |
 | `cm:asynchronous-communication` | `cm:conversational-receptiveness` |
+| `cm:asynchronous-communication` | `cm:media-synchronicity-theory` |
 | `cm:asynchronous-communication` | `cm:setting-reply-time-expectations` |
 | `cm:business-report` | `cm:informative-headings` |
 | `cm:business-report` | `cm:pyramid-principle` |
@@ -94,9 +95,8 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:email` | `cm:concise-writing` |
 | `cm:email` | `cm:email-urgency-bias-study` |
 | `cm:email` | `cm:emoji-and-tone-in-text` |
-| `cm:email` | `cm:kushlev-dunn-2015` |
 
-…and 94 more.
+…and 96 more.
 
 ## Myths and contested advice
 
@@ -135,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:batna` | mixed | `cm:schaerer-swaab-galinsky-2015` |
 | `cm:bulleted-and-numbered-lists` | mixed | `cm:columbia-accident-investigation-board-report` |
 
-…and 122 more.
+…and 123 more.
 
 ## Concepts with no recorded origin (gap)
 

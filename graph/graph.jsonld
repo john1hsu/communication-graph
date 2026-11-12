@@ -10451,6 +10451,105 @@
    ]
   },
   {
+   "@id": "cm:media-synchronicity-theory",
+   "@type": "cmo:Theory",
+   "cmo:alternativeTo": {
+    "@id": "cm:media-richness-theory"
+   },
+   "cmo:appliedIn": [
+    {
+     "@id": "cm:asynchronous-communication"
+    },
+    {
+     "@id": "cm:multicultural-team"
+    }
+   ],
+   "cmo:challengedBy": {
+    "@id": "cm:fleischmann-aritz-cardon-2019"
+   },
+   "cmo:domain": "digital-and-async-communication",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:file": "articles/digital-and-async-communication/media-synchronicity-theory.md",
+   "cmo:introducedBy": [
+    {
+     "@id": "cm:alan-r-dennis"
+    },
+    {
+     "@id": "cm:joseph-s-valacich"
+    }
+   ],
+   "cmo:level": "intermediate",
+   "cmo:requires": {
+    "@id": "cm:media-richness-theory"
+   },
+   "cmo:supportedBy": [
+    {
+     "@id": "cm:deluca-valacich-2006"
+    },
+    {
+     "@id": "cm:dennis-valacich-speier-morris-1998"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/media-synchronicity-theory/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/media-synchronicity-theory/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/media-synchronicity-theory/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/media-synchronicity-theory/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/media-synchronicity-theory/s5"
+    }
+   ],
+   "rdfs:label": "Media synchronicity theory",
+   "skos:altLabel": [
+    "MST",
+    "conveyance and convergence model",
+    "theory of media synchronicity"
+   ],
+   "skos:broader": {
+    "@id": "cm:digital-communication"
+   },
+   "skos:definition": "Dennis and Valacich's theory that a medium's fit depends on the communication process at hand, not on the task as a whole: low-synchronicity media such as email and documents suit conveying information, while high-synchronicity media such as calls and meetings suit converging on a shared meaning, so most team tasks go best with a deliberate mix of channels.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/digital-and-async-communication"
+   },
+   "skos:prefLabel": "Media synchronicity theory",
+   "skos:related": [
+    {
+     "@id": "cm:asynchronous-communication"
+    },
+    {
+     "@id": "cm:channel-selection"
+    },
+    {
+     "@id": "cm:common-ground"
+    },
+    {
+     "@id": "cm:media-richness-theory"
+    },
+    {
+     "@id": "cm:message-equivocality-media-selection-and-manager-performance"
+    },
+    {
+     "@id": "cm:video-call-communication"
+    },
+    {
+     "@id": "cm:workplace-meetings"
+    }
+   ]
+  },
+  {
    "@id": "cm:meeting-agendas",
    "@type": "cmo:Technique",
    "cmo:addresses": {
@@ -36411,6 +36510,76 @@
    "dcterms:title": "An Investigation of Media Selection Among Directors and Managers: From \"Self\" to \"Other\" Orientation",
    "schema:url": {
     "@id": "https://aisel.aisnet.org/misq/vol22/iss3/5"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/media-synchronicity-theory/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Dennis, A. R., Fuller, R. M. & Valacich, J. S., MIS Quarterly 32(3), 575-600, 2008, doi:10.2307/25148857 (University of Arizona research portal record)",
+   "dcterms:title": "Media, Tasks, and Communication Processes: A Theory of Media Synchronicity",
+   "schema:url": {
+    "@id": "https://experts.arizona.edu/en/publications/media-tasks-and-communication-processes-a-theory-of-media-synchro/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/media-synchronicity-theory/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Dennis, A. R. & Valacich, J. S., Proceedings of the 32nd Hawaii International Conference on System Sciences, 1999 (copy hosted by Northwestern University Collaboration Lab)",
+   "dcterms:title": "Rethinking Media Richness: Towards a Theory of Media Synchronicity",
+   "schema:url": {
+    "@id": "https://collablab.northwestern.edu/CollabolabDistro/nucmc/DennisAndValacich-RethinkingMediaRichness-HICSS-1999.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/media-synchronicity-theory/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "DeLuca, D. & Valacich, J. S., Information Technology & People 19(4), 323-344, 2006, doi:10.1108/09593840610718027 (University of Arizona research portal record)",
+   "dcterms:title": "Virtual teams in and out of synchronicity",
+   "schema:url": {
+    "@id": "https://experts.arizona.edu/en/publications/virtual-teams-in-and-out-of-synchronicity/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/media-synchronicity-theory/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Fleischmann, A. C., Aritz, J. & Cardon, P., Proceedings of the 52nd Hawaii International Conference on System Sciences, 339-348, 2019 (CORE open-access copy)",
+   "dcterms:title": "Language Proficiency and Media Synchronicity Theory: The Impact of Media Capabilities on Satisfaction and Inclusion in Multilingual Virtual Teams",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/326833786.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/media-synchronicity-theory/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Dennis, A. R., Valacich, J. S., Speier, C. & Morris, M. G., Proceedings of the 31st Hawaii International Conference on System Sciences, vol. 1, 48-57, 1998 (University of Arizona research portal record)",
+   "dcterms:title": "Beyond Media Richness: An Empirical Test of Media Synchronicity Theory",
+   "schema:url": {
+    "@id": "https://experts.arizona.edu/en/publications/beyond-media-richness-an-empirical-test-of-media-synchronicity-th/"
    }
   },
   {
