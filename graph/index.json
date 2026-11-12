@@ -15905,6 +15905,99 @@
   ]
  },
  {
+  "id": "cm:primacy-and-recency-effects",
+  "title": "Primacy and recency effects",
+  "aliases": [
+   "order effects",
+   "serial position effect",
+   "primacy effect",
+   "recency effect",
+   "recency bias"
+  ],
+  "type": "Phenomenon",
+  "domain": "barriers-and-psychology",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/barriers-and-psychology/primacy-and-recency-effects.md",
+  "created": "2026-11-12",
+  "summary": "The tendency for information presented first (primacy) or last (recency) in a sequence to carry more weight in what people remember and conclude than the same information in the middle; which end wins depends on how closely people process the material and when they make their judgment.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:cognitive-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:anchoring-and-adjustment"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:bottom-line-up-front"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:signposting"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:refutational-two-sided-messages"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:performance-review"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:meeting-recaps"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:impression-management"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:asch-1946",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:elaboration-likelihood-model",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:belief-adjustment-model",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:bruine-de-bruin-2005",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:performance-review",
+    "source": "s6",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://newschoolhistories.org/wp-content/uploads/2018/04/asch_formingimpressionsofpersonality-web.pdf",
+   "https://ideas.repec.org/a/oup/jconrs/v21y1994i1p205-18.html",
+   "https://iro.uiowa.edu/esploro/outputs/journalArticle/Order-effects-in-belief-updating-with/9984963044902771",
+   "https://research.tue.nl/en/publications/save-the-last-dance-for-me-unwanted-serial-position-effects-in-ju/",
+   "https://research-portal.uu.nl/en/publications/forming-impressions-of-personality-a-replication-and-review-of-as/",
+   "https://txwes.pressbooks.pub/iopsychologytxwes/chapter/7-3-performance-appraisal-part-2-rating-distortions/"
+  ]
+ },
+ {
   "id": "cm:principled-negotiation",
   "title": "Principled negotiation",
   "aliases": [

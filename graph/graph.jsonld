@@ -14025,6 +14025,96 @@
    ]
   },
   {
+   "@id": "cm:primacy-and-recency-effects",
+   "@type": "cmo:Phenomenon",
+   "cmo:appliedIn": {
+    "@id": "cm:performance-review"
+   },
+   "cmo:demonstratedBy": [
+    {
+     "@id": "cm:asch-1946"
+    },
+    {
+     "@id": "cm:bruine-de-bruin-2005"
+    }
+   ],
+   "cmo:domain": "barriers-and-psychology",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:explainedBy": [
+    {
+     "@id": "cm:belief-adjustment-model"
+    },
+    {
+     "@id": "cm:elaboration-likelihood-model"
+    }
+   ],
+   "cmo:file": "articles/barriers-and-psychology/primacy-and-recency-effects.md",
+   "cmo:level": "intermediate",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/primacy-and-recency-effects/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/primacy-and-recency-effects/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/primacy-and-recency-effects/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/primacy-and-recency-effects/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/primacy-and-recency-effects/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/primacy-and-recency-effects/s6"
+    }
+   ],
+   "rdfs:label": "Primacy and recency effects",
+   "skos:altLabel": [
+    "order effects",
+    "primacy effect",
+    "recency bias",
+    "recency effect",
+    "serial position effect"
+   ],
+   "skos:broader": {
+    "@id": "cm:cognitive-bias"
+   },
+   "skos:definition": "The tendency for information presented first (primacy) or last (recency) in a sequence to carry more weight in what people remember and conclude than the same information in the middle; which end wins depends on how closely people process the material and when they make their judgment.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/barriers-and-psychology"
+   },
+   "skos:prefLabel": "Primacy and recency effects",
+   "skos:related": [
+    {
+     "@id": "cm:anchoring-and-adjustment"
+    },
+    {
+     "@id": "cm:bottom-line-up-front"
+    },
+    {
+     "@id": "cm:impression-management"
+    },
+    {
+     "@id": "cm:meeting-recaps"
+    },
+    {
+     "@id": "cm:performance-review"
+    },
+    {
+     "@id": "cm:refutational-two-sided-messages"
+    },
+    {
+     "@id": "cm:signposting"
+    }
+   ]
+  },
+  {
    "@id": "cm:principled-negotiation",
    "@type": "cmo:Framework",
    "cmo:addresses": {
@@ -39863,6 +39953,90 @@
    "dcterms:title": "Oral presentations (handout)",
    "schema:url": {
     "@id": "https://www.wm.edu/as/wcc/newresources/handouts/oral-presentations.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/primacy-and-recency-effects/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Solomon E. Asch, Journal of Abnormal and Social Psychology 41(3), 258-290, 1946 (New School Histories archive copy)",
+   "dcterms:title": "Forming impressions of personality",
+   "schema:url": {
+    "@id": "https://newschoolhistories.org/wp-content/uploads/2018/04/asch_formingimpressionsofpersonality-web.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/primacy-and-recency-effects/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Haugtvedt & Wegener, Journal of Consumer Research 21(1), 205-218, 1994 (RePEc/IDEAS record)",
+   "dcterms:title": "Message Order Effects in Persuasion: An Attitude Strength Perspective",
+   "schema:url": {
+    "@id": "https://ideas.repec.org/a/oup/jconrs/v21y1994i1p205-18.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/primacy-and-recency-effects/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Tubbs, Gaeth, Levin & Van Osdol, Journal of Behavioral Decision Making 6(4), 257-269, 1993 (University of Iowa research repository)",
+   "dcterms:title": "Order effects in belief updating with consistent and inconsistent evidence",
+   "schema:url": {
+    "@id": "https://iro.uiowa.edu/esploro/outputs/journalArticle/Order-effects-in-belief-updating-with/9984963044902771"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/primacy-and-recency-effects/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Wändi Bruine de Bruin, Acta Psychologica 118(3), 245-260, 2005 (Eindhoven University of Technology research portal)",
+   "dcterms:title": "Save the last dance for me: Unwanted serial position effects in jury evaluations",
+   "schema:url": {
+    "@id": "https://research.tue.nl/en/publications/save-the-last-dance-for-me-unwanted-serial-position-effects-in-ju/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/primacy-and-recency-effects/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Nauts, Langner, Huijsmans, Vonk & Wigboldus, Social Psychology 45(3), 153-163, 2014 (Utrecht University research portal)",
+   "dcterms:title": "Forming impressions of personality: A replication and review of Asch's (1946) evidence for a primacy-of-warmth effect in impression formation",
+   "schema:url": {
+    "@id": "https://research-portal.uu.nl/en/publications/forming-impressions-of-personality-a-replication-and-review-of-as/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/primacy-and-recency-effects/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Jay Brown, Industrial/Organizational Psychology (Texas Wesleyan University open textbook, Pressbooks)",
+   "dcterms:title": "7-3: Performance Appraisal Part 2: Rating Distortions",
+   "schema:url": {
+    "@id": "https://txwes.pressbooks.pub/iopsychologytxwes/chapter/7-3-performance-appraisal-part-2-rating-distortions/"
    }
   },
   {
