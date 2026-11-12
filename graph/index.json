@@ -14025,6 +14025,122 @@
   ]
  },
  {
+  "id": "cm:nonviolent-communication",
+  "title": "Nonviolent Communication",
+  "aliases": [
+   "NVC",
+   "compassionate communication",
+   "observations-feelings-needs-requests",
+   "OFNR"
+  ],
+  "type": "Framework",
+  "domain": "difficult-conversations-and-conflict",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/difficult-conversations-and-conflict/nonviolent-communication.md",
+  "created": "2026-11-12",
+  "summary": "Marshall Rosenberg's four-part model for saying hard things and hearing them: describe what you observed without evaluation, name the feeling it stirs, link that feeling to an underlying need, and make a concrete, doable request rather than a demand - and listen for the same four elements in the other person.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:conflict-resolution"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:i-statements"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:situation-behavior-impact"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:active-listening"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:difficult-conversation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:de-escalation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:defensiveness"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:marshall-rosenberg",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedIn",
+    "object": "cm:nonviolent-communication-a-language-of-life",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:mediation",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:develops",
+    "object": "cm:empathy",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:nosek-gifford-kober-2014",
+    "source": "s5",
+    "confidence": "low"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:adriani-et-al-2024",
+    "source": "s4",
+    "confidence": "low"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:baturaite-bunka-et-al-2024",
+    "source": "s6",
+    "confidence": "low"
+   }
+  ],
+  "selfCheck": [
+   "Could the other person agree my observation is accurate, or have I slipped in an evaluation?",
+   "Is my \"feeling\" an emotion, or a hidden accusation about what they did to me?",
+   "Have I named the need behind my position, separately from the one solution I want?",
+   "If they decline my request, am I ready to explore other ways to meet the need - or was it really a demand?"
+  ],
+  "steps": [
+   "Write down what happened as a camera would record it - who did what, when - and strike out every label, motive or \"always\".",
+   "Name the feeling it stirs in you using an emotion word (worried, frustrated, relieved), not a thought dressed as a feeling (\"I feel ignored\", \"I feel that you...\").",
+   "Identify the need or value behind the feeling (predictability, fairness, being able to do good work) and keep it separate from your preferred solution.",
+   "Turn your preferred solution into one concrete, doable request for now, phrased as what you do want, and be ready to hear \"no\".",
+   "If they say no or react strongly, listen for their observation, feeling, need and request, and reflect those back before restating yours."
+  ],
+  "example": {
+   "situation": "A team lead's colleague has twice changed a shared project plan the night before a client review without telling anyone.",
+   "before": "You keep going rogue on the plan. It's disrespectful, and if it happens again I'm escalating it.",
+   "after": "The plan changed on Monday night and again last night, and I found out in the client call. I was rattled, because I need to be able to stand behind what we show the client. Would you be willing to post changes in the channel by 5 p.m. the day before a review, starting this week? And what's been pushing those late changes?",
+   "why": "The rewrite swaps a judgement (\"going rogue\", \"disrespectful\") and a threat for a checkable observation, a feeling, the need behind it and a specific request that the colleague can accept or renegotiate, then invites their side instead of assuming a motive."
+  },
+  "source_urls": [
+   "https://CNVC.org/about/marshall",
+   "https://www.nonviolentcommunication.com/pdf_files/4_components_of_NVC.pdf",
+   "https://puddledancer.bookstore.ipgbook.com/nonviolent-communication--a-language-of-life-products-9781892005281.php",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC10916228",
+   "https://sciedupress.com/journal/index.php/jnep/article/view/4222",
+   "https://journals.vu.lt/social-welfare/article/view/35183/33955"
+  ]
+ },
+ {
   "id": "cm:norbert-wiener",
   "title": "Norbert Wiener",
   "aliases": [

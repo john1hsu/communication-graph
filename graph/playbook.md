@@ -281,6 +281,28 @@ Ask yourself:
 - Have I said anything that shows I understand the other person's side of the situation?
 - After I speak, am I ready to listen to their reaction rather than repeat my point louder?
 
+### [Nonviolent Communication](../articles/difficult-conversations-and-conflict/nonviolent-communication.md) — Framework
+
+1. Write down what happened as a camera would record it - who did what, when - and strike out every label, motive or "always".
+2. Name the feeling it stirs in you using an emotion word (worried, frustrated, relieved), not a thought dressed as a feeling ("I feel ignored", "I feel that you...").
+3. Identify the need or value behind the feeling (predictability, fairness, being able to do good work) and keep it separate from your preferred solution.
+4. Turn your preferred solution into one concrete, doable request for now, phrased as what you do want, and be ready to hear "no".
+5. If they say no or react strongly, listen for their observation, feeling, need and request, and reflect those back before restating yours.
+
+*A team lead's colleague has twice changed a shared project plan the night before a client review without telling anyone.*
+
+| Before | After |
+|---|---|
+| You keep going rogue on the plan. It's disrespectful, and if it happens again I'm escalating it. | The plan changed on Monday night and again last night, and I found out in the client call. I was rattled, because I need to be able to stand behind what we show the client. Would you be willing to post changes in the channel by 5 p.m. the day before a review, starting this week? And what's been pushing those late changes? |
+
+**Why:** The rewrite swaps a judgement ("going rogue", "disrespectful") and a threat for a checkable observation, a feeling, the need behind it and a specific request that the colleague can accept or renegotiate, then invites their side instead of assuming a motive.
+
+Ask yourself:
+- Could the other person agree my observation is accurate, or have I slipped in an evaluation?
+- Is my "feeling" an emotion, or a hidden accusation about what they did to me?
+- Have I named the need behind my position, separately from the one solution I want?
+- If they decline my request, am I ready to explore other ways to meet the need - or was it really a demand?
+
 ### [Role reversal](../articles/difficult-conversations-and-conflict/role-reversal.md) — Technique
 
 1. Agree the ground rule before the discussion starts - each person summarises the other's position, and the other confirms or corrects it, before anyone argues back.

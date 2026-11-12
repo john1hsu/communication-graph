@@ -12374,6 +12374,102 @@
    ]
   },
   {
+   "@id": "cm:nonviolent-communication",
+   "@type": "cmo:Framework",
+   "cmo:appliedIn": {
+    "@id": "cm:mediation"
+   },
+   "cmo:develops": {
+    "@id": "cm:empathy"
+   },
+   "cmo:domain": "difficult-conversations-and-conflict",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/nonviolent-communication/example"
+   },
+   "cmo:file": "articles/difficult-conversations-and-conflict/nonviolent-communication.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/nonviolent-communication/howto"
+   },
+   "cmo:introducedBy": {
+    "@id": "cm:marshall-rosenberg"
+   },
+   "cmo:introducedIn": {
+    "@id": "cm:nonviolent-communication-a-language-of-life"
+   },
+   "cmo:level": "intermediate",
+   "cmo:supportedBy": [
+    {
+     "@id": "cm:adriani-et-al-2024"
+    },
+    {
+     "@id": "cm:baturaite-bunka-et-al-2024"
+    },
+    {
+     "@id": "cm:nosek-gifford-kober-2014"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/nonviolent-communication/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/nonviolent-communication/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/nonviolent-communication/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/nonviolent-communication/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/nonviolent-communication/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/nonviolent-communication/s6"
+    }
+   ],
+   "rdfs:label": "Nonviolent Communication",
+   "skos:altLabel": [
+    "NVC",
+    "OFNR",
+    "compassionate communication",
+    "observations-feelings-needs-requests"
+   ],
+   "skos:broader": {
+    "@id": "cm:conflict-resolution"
+   },
+   "skos:definition": "Marshall Rosenberg's four-part model for saying hard things and hearing them: describe what you observed without evaluation, name the feeling it stirs, link that feeling to an underlying need, and make a concrete, doable request rather than a demand - and listen for the same four elements in the other person.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/difficult-conversations-and-conflict"
+   },
+   "skos:prefLabel": "Nonviolent Communication",
+   "skos:related": [
+    {
+     "@id": "cm:active-listening"
+    },
+    {
+     "@id": "cm:de-escalation"
+    },
+    {
+     "@id": "cm:defensiveness"
+    },
+    {
+     "@id": "cm:difficult-conversation"
+    },
+    {
+     "@id": "cm:i-statements"
+    },
+    {
+     "@id": "cm:situation-behavior-impact"
+    }
+   ]
+  },
+  {
    "@id": "cm:norbert-wiener",
    "@type": "cmo:Person",
    "cmo:authored": [
@@ -25505,6 +25601,98 @@
    "@type": "schema:HowToStep",
    "schema:position": 6,
    "schema:text": "Discuss the top-ranked items and the surprises in the tally, and, if the scores are close, run a second private vote before you commit to next steps."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/nonviolent-communication/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:nonviolent-communication"
+   },
+   "rdfs:label": "Could the other person agree my observation is accurate, or have I slipped in an evaluation?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/nonviolent-communication/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:nonviolent-communication"
+   },
+   "rdfs:label": "Is my \"feeling\" an emotion, or a hidden accusation about what they did to me?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/nonviolent-communication/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:nonviolent-communication"
+   },
+   "rdfs:label": "Have I named the need behind my position, separately from the one solution I want?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/nonviolent-communication/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:nonviolent-communication"
+   },
+   "rdfs:label": "If they decline my request, am I ready to explore other ways to meet the need - or was it really a demand?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/nonviolent-communication/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "The plan changed on Monday night and again last night, and I found out in the client call. I was rattled, because I need to be able to stand behind what we show the client. Would you be willing to post changes in the channel by 5 p.m. the day before a review, starting this week? And what's been pushing those late changes?",
+   "cmo:before": "You keep going rogue on the plan. It's disrespectful, and if it happens again I'm escalating it.",
+   "cmo:situation": "A team lead's colleague has twice changed a shared project plan the night before a client review without telling anyone.",
+   "cmo:why": "The rewrite swaps a judgement (\"going rogue\", \"disrespectful\") and a threat for a checkable observation, a feeling, the need behind it and a specific request that the colleague can accept or renegotiate, then invites their side instead of assuming a motive."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/nonviolent-communication/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Nonviolent Communication",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/nonviolent-communication/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/nonviolent-communication/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/nonviolent-communication/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/nonviolent-communication/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/nonviolent-communication/howto/5"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/nonviolent-communication/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Write down what happened as a camera would record it - who did what, when - and strike out every label, motive or \"always\"."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/nonviolent-communication/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Name the feeling it stirs in you using an emotion word (worried, frustrated, relieved), not a thought dressed as a feeling (\"I feel ignored\", \"I feel that you...\")."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/nonviolent-communication/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Identify the need or value behind the feeling (predictability, fairness, being able to do good work) and keep it separate from your preferred solution."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/nonviolent-communication/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Turn your preferred solution into one concrete, doable request for now, phrased as what you do want, and be ready to hear \"no\"."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/nonviolent-communication/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "If they say no or react strongly, listen for their observation, feeling, need and request, and reflect those back before restating yours."
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/open-ended-questions/check/1",
@@ -38786,6 +38974,90 @@
    "dcterms:title": "Effectiveness of a short audiovisual emotion recognition training program in adults",
    "schema:url": {
     "@id": "https://core.ac.uk/download/212360777.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/nonviolent-communication/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "The Center for Nonviolent Communication (CNVC)",
+   "dcterms:title": "CNVC Founder: Marshall B. Rosenberg",
+   "schema:url": {
+    "@id": "https://CNVC.org/about/marshall"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/nonviolent-communication/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Jim and Jori Manske, CNVC certified trainers (2019), hosted by NonviolentCommunication.com",
+   "dcterms:title": "The Four Components of Nonviolent Communication",
+   "schema:url": {
+    "@id": "https://www.nonviolentcommunication.com/pdf_files/4_components_of_NVC.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/nonviolent-communication/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Marshall B. Rosenberg, PuddleDancer Press (2015), distributor's book page",
+   "dcterms:title": "Nonviolent Communication: A Language of Life",
+   "schema:url": {
+    "@id": "https://puddledancer.bookstore.ipgbook.com/nonviolent-communication--a-language-of-life-products-9781892005281.php"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/nonviolent-communication/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Adriani et al., BMC Health Services Research 24:289 (2024), doi:10.1186/s12913-024-10753-2",
+   "dcterms:title": "Non-violent communication as a technology in interpersonal relationships in health work: a scoping review",
+   "schema:url": {
+    "@id": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10916228"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/nonviolent-communication/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Nosek, Gifford & Kober, Journal of Nursing Education and Practice 4(10) (2014), doi:10.5430/jnep.v4n10p1",
+   "dcterms:title": "Nonviolent Communication (NVC) training increases empathy in baccalaureate nursing students: A mixed method study",
+   "schema:url": {
+    "@id": "https://sciedupress.com/journal/index.php/jnep/article/view/4222"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/nonviolent-communication/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Batūraitė-Bunka, Jurevičienė & Skoczowsky-Danielsen, Social Welfare - Interdisciplinary Approach 14, 70-87 (2024), doi:10.15388/SW.2024.14.5",
+   "dcterms:title": "Unveiling the effects of nonviolent communication training on youth empathy",
+   "schema:url": {
+    "@id": "https://journals.vu.lt/social-welfare/article/view/35183/33955"
    }
   },
   {
