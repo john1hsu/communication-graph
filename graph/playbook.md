@@ -4,6 +4,15 @@ Every before/after rewrite, step-by-step procedure and self-check question in th
 
 ## barriers-and-psychology
 
+### [Communication apprehension](../articles/barriers-and-psychology/communication-apprehension.md) — Barrier
+
+Ask yourself:
+- Am I staying quiet because I have nothing to add, or because speaking up here makes me anxious?
+- Which setting is hardest for me - one-to-one, group discussion, meetings or presenting - and am I quietly steering my work away from it?
+- What is the one point I will say in this meeting, and have I said it out loud beforehand?
+- Is someone on my team silent because they disagree or lack input, or because the format itself is hard for them?
+- Have I given quieter colleagues a written or small-group route to contribute, not only the open floor?
+
 ### [Considering others' contributions first](../articles/barriers-and-psychology/considering-others-contributions-first.md) — Technique
 
 1. Before anyone states or estimates their own share of a piece of team work, write down the name of every person who contributed, including people outside the core team.
