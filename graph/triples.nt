@@ -5959,6 +5959,38 @@
 <https://github.com/john1hsu/communication-graph/id/interrupting> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/listening/interrupting.md" .
 <https://github.com/john1hsu/communication-graph/id/interrupting> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/interrupting> <https://github.com/john1hsu/communication-graph/ontology#undermines> <https://github.com/john1hsu/communication-graph/id/rapport> .
+<https://github.com/john1hsu/communication-graph/id/irving-janis> <http://purl.org/dc/terms/created> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/irving-janis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+<https://github.com/john1hsu/communication-graph/id/irving-janis> <http://www.w3.org/2000/01/rdf-schema#label> "Irving Janis" .
+<https://github.com/john1hsu/communication-graph/id/irving-janis> <http://www.w3.org/2004/02/skos/core#altLabel> "Irving L. Janis" .
+<https://github.com/john1hsu/communication-graph/id/irving-janis> <http://www.w3.org/2004/02/skos/core#altLabel> "Irving Lester Janis" .
+<https://github.com/john1hsu/communication-graph/id/irving-janis> <http://www.w3.org/2004/02/skos/core#altLabel> "Janis" .
+<https://github.com/john1hsu/communication-graph/id/irving-janis> <http://www.w3.org/2004/02/skos/core#definition> "Yale social psychologist (1918-1990) who co-wrote the Yale programme's Communication and Persuasion (1953) and coined \"groupthink\" in Victims of Groupthink (1972), the case-study account of how cohesive teams silence doubts - and whose prevention advice made the assigned devil's advocate, the impartial leader and the second-chance meeting standard parts of group decision practice." .
+<https://github.com/john1hsu/communication-graph/id/irving-janis> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works> .
+<https://github.com/john1hsu/communication-graph/id/irving-janis> <http://www.w3.org/2004/02/skos/core#prefLabel> "Irving Janis" .
+<https://github.com/john1hsu/communication-graph/id/irving-janis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/carl-hovland> .
+<https://github.com/john1hsu/communication-graph/id/irving-janis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/devils-advocacy> .
+<https://github.com/john1hsu/communication-graph/id/irving-janis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/facilitation> .
+<https://github.com/john1hsu/communication-graph/id/irving-janis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/group-decision-making> .
+<https://github.com/john1hsu/communication-graph/id/irving-janis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/persuasion> .
+<https://github.com/john1hsu/communication-graph/id/irving-janis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
+<https://github.com/john1hsu/communication-graph/id/irving-janis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/workplace-meetings> .
+<https://github.com/john1hsu/communication-graph/id/irving-janis> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/irving-janis/s1> .
+<https://github.com/john1hsu/communication-graph/id/irving-janis> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/irving-janis/s2> .
+<https://github.com/john1hsu/communication-graph/id/irving-janis> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/irving-janis/s3> .
+<https://github.com/john1hsu/communication-graph/id/irving-janis> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/irving-janis/s4> .
+<https://github.com/john1hsu/communication-graph/id/irving-janis> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/irving-janis/s5> .
+<https://github.com/john1hsu/communication-graph/id/irving-janis> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/irving-janis/s6> .
+<https://github.com/john1hsu/communication-graph/id/irving-janis> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/irving-janis/s7> .
+<https://github.com/john1hsu/communication-graph/id/irving-janis> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/communication-and-persuasion> .
+<https://github.com/john1hsu/communication-graph/id/irving-janis> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/victims-of-groupthink> .
+<https://github.com/john1hsu/communication-graph/id/irving-janis> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/park-2000> .
+<https://github.com/john1hsu/communication-graph/id/irving-janis> <https://github.com/john1hsu/communication-graph/ontology#domain> "thinkers-and-works" .
+<https://github.com/john1hsu/communication-graph/id/irving-janis> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "historical" .
+<https://github.com/john1hsu/communication-graph/id/irving-janis> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/thinkers-and-works/irving-janis.md" .
+<https://github.com/john1hsu/communication-graph/id/irving-janis> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/devils-advocacy> .
+<https://github.com/john1hsu/communication-graph/id/irving-janis> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/groupthink> .
+<https://github.com/john1hsu/communication-graph/id/irving-janis> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/issue-selling/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/issue-selling/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Can I state in one sentence which of leadership's existing goals this issue helps, and is that link honest?" .
 <https://github.com/john1hsu/communication-graph/id/issue-selling/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/issue-selling> .
@@ -14297,6 +14329,48 @@
 <https://github.com/john1hsu/communication-graph/id/source/interrupting/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/interrupting/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/communication-graph/id/source/interrupting/s4> <https://schema.org/url> <https://escholarship.org/uc/item/5ws13704> .
+<https://github.com/john1hsu/communication-graph/id/source/irving-janis/s1> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/irving-janis/s1> <http://purl.org/dc/terms/publisher> "Netherlands Institute for Advanced Study in the Humanities and Social Sciences (NIAS-KNAW)" .
+<https://github.com/john1hsu/communication-graph/id/source/irving-janis/s1> <http://purl.org/dc/terms/title> "Irving Janis (NIAS Fellow 1981/82)" .
+<https://github.com/john1hsu/communication-graph/id/source/irving-janis/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/irving-janis/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/irving-janis/s1> <https://schema.org/url> <https://nias.knaw.nl/?p=6299> .
+<https://github.com/john1hsu/communication-graph/id/source/irving-janis/s2> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/irving-janis/s2> <http://purl.org/dc/terms/publisher> "Kathrin Lassila, Yale Alumni Magazine, January/February 2008" .
+<https://github.com/john1hsu/communication-graph/id/source/irving-janis/s2> <http://purl.org/dc/terms/title> "A brief history of groupthink" .
+<https://github.com/john1hsu/communication-graph/id/source/irving-janis/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/irving-janis/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/communication-graph/id/source/irving-janis/s2> <https://schema.org/url> <https://www.yalealumnimagazine.com/articles/1947> .
+<https://github.com/john1hsu/communication-graph/id/source/irving-janis/s3> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/irving-janis/s3> <http://purl.org/dc/terms/publisher> "Encyclopaedia Britannica" .
+<https://github.com/john1hsu/communication-graph/id/source/irving-janis/s3> <http://purl.org/dc/terms/title> "Groupthink" .
+<https://github.com/john1hsu/communication-graph/id/source/irving-janis/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/irving-janis/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "encyclopedia" .
+<https://github.com/john1hsu/communication-graph/id/source/irving-janis/s3> <https://schema.org/url> <https://www.britannica.com/topic/groupthink> .
+<https://github.com/john1hsu/communication-graph/id/source/irving-janis/s4> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/irving-janis/s4> <http://purl.org/dc/terms/publisher> "James D. Rose, Emerging Leadership Journeys 4(1), Regent University School of Business & Leadership, 2011" .
+<https://github.com/john1hsu/communication-graph/id/source/irving-janis/s4> <http://purl.org/dc/terms/title> "Diverse Perspectives on the Groupthink Theory - A Literary Review" .
+<https://github.com/john1hsu/communication-graph/id/source/irving-janis/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/irving-janis/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/irving-janis/s4> <https://schema.org/url> <https://www.regent.edu/journal/emerging-leadership-journeys/groupthink-theory/> .
+<https://github.com/john1hsu/communication-graph/id/source/irving-janis/s5> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/irving-janis/s5> <http://purl.org/dc/terms/publisher> "Ramon J. Aldag, The Psychologist (British Psychological Society), February 2022" .
+<https://github.com/john1hsu/communication-graph/id/source/irving-janis/s5> <http://purl.org/dc/terms/title> "Groupthink - a monument to truthiness?" .
+<https://github.com/john1hsu/communication-graph/id/source/irving-janis/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/irving-janis/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "practitioner-journal" .
+<https://github.com/john1hsu/communication-graph/id/source/irving-janis/s5> <https://schema.org/url> <https://www.bps.org.uk/psychologist/groupthink-monument-truthiness> .
+<https://github.com/john1hsu/communication-graph/id/source/irving-janis/s6> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/irving-janis/s6> <http://purl.org/dc/terms/publisher> "Carl I. Hovland, Irving L. Janis & Harold H. Kelley, Yale University Press, 1953 (BibBase bibliographic record)" .
+<https://github.com/john1hsu/communication-graph/id/source/irving-janis/s6> <http://purl.org/dc/terms/title> "Communication and Persuasion: Psychological Studies of Opinion Change" .
+<https://github.com/john1hsu/communication-graph/id/source/irving-janis/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/irving-janis/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/irving-janis/s6> <https://schema.org/url> <https://bibbase.org/network/publication/hovland-janis-kelley-communicationandpersuasionpsychologicalstudiesofopinionchange-1953> .
+<https://github.com/john1hsu/communication-graph/id/source/irving-janis/s7> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/irving-janis/s7> <http://purl.org/dc/terms/publisher> "John R. Stuteville, Journal of Marketing 34(2), 39-46, April 1970 (University of Alabama hosted copy)" .
+<https://github.com/john1hsu/communication-graph/id/source/irving-janis/s7> <http://purl.org/dc/terms/title> "Psychic Defenses Against High Fear Appeals: A Key Marketing Variable" .
+<https://github.com/john1hsu/communication-graph/id/source/irving-janis/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/irving-janis/s7> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/irving-janis/s7> <https://schema.org/url> <https://csts.ua.edu/files/2024/06/psychic-defenses-against-high-fear-appeals.pdf> .
 <https://github.com/john1hsu/communication-graph/id/source/issue-selling/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/issue-selling/s1> <http://purl.org/dc/terms/publisher> "Jane E. Dutton & Susan J. Ashford, Academy of Management Review 18(3), 397-428, 1993, doi:10.2307/258903 (abstract record, Shanghai University of Finance and Economics academic newsletter)" .
 <https://github.com/john1hsu/communication-graph/id/source/issue-selling/s1> <http://purl.org/dc/terms/title> "Selling Issues to Top Management" .

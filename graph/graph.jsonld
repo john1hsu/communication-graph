@@ -10145,6 +10145,94 @@
    ]
   },
   {
+   "@id": "cm:irving-janis",
+   "@type": "cmo:Person",
+   "cmo:authored": [
+    {
+     "@id": "cm:communication-and-persuasion"
+    },
+    {
+     "@id": "cm:victims-of-groupthink"
+    }
+   ],
+   "cmo:challengedBy": {
+    "@id": "cm:park-2000"
+   },
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "historical",
+   "cmo:file": "articles/thinkers-and-works/irving-janis.md",
+   "cmo:introduced": [
+    {
+     "@id": "cm:devils-advocacy"
+    },
+    {
+     "@id": "cm:groupthink"
+    }
+   ],
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/irving-janis/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/irving-janis/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/irving-janis/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/irving-janis/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/irving-janis/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/irving-janis/s6"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/irving-janis/s7"
+    }
+   ],
+   "rdfs:label": "Irving Janis",
+   "skos:altLabel": [
+    "Irving L. Janis",
+    "Irving Lester Janis",
+    "Janis"
+   ],
+   "skos:definition": "Yale social psychologist (1918-1990) who co-wrote the Yale programme's Communication and Persuasion (1953) and coined \"groupthink\" in Victims of Groupthink (1972), the case-study account of how cohesive teams silence doubts - and whose prevention advice made the assigned devil's advocate, the impartial leader and the second-chance meeting standard parts of group decision practice.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "Irving Janis",
+   "skos:related": [
+    {
+     "@id": "cm:carl-hovland"
+    },
+    {
+     "@id": "cm:devils-advocacy"
+    },
+    {
+     "@id": "cm:facilitation"
+    },
+    {
+     "@id": "cm:group-decision-making"
+    },
+    {
+     "@id": "cm:persuasion"
+    },
+    {
+     "@id": "cm:psychological-safety"
+    },
+    {
+     "@id": "cm:workplace-meetings"
+    }
+   ]
+  },
+  {
    "@id": "cm:issue-selling",
    "@type": "cmo:Technique",
    "cmo:appliedIn": {
@@ -38268,6 +38356,104 @@
    "dcterms:title": "Meta-Analyses of Gender Effects on Conversational Interruption: Who, What, When, Where, and How",
    "schema:url": {
     "@id": "https://escholarship.org/uc/item/5ws13704"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/irving-janis/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Netherlands Institute for Advanced Study in the Humanities and Social Sciences (NIAS-KNAW)",
+   "dcterms:title": "Irving Janis (NIAS Fellow 1981/82)",
+   "schema:url": {
+    "@id": "https://nias.knaw.nl/?p=6299"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/irving-janis/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Kathrin Lassila, Yale Alumni Magazine, January/February 2008",
+   "dcterms:title": "A brief history of groupthink",
+   "schema:url": {
+    "@id": "https://www.yalealumnimagazine.com/articles/1947"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/irving-janis/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Encyclopaedia Britannica",
+   "dcterms:title": "Groupthink",
+   "schema:url": {
+    "@id": "https://www.britannica.com/topic/groupthink"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/irving-janis/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "James D. Rose, Emerging Leadership Journeys 4(1), Regent University School of Business & Leadership, 2011",
+   "dcterms:title": "Diverse Perspectives on the Groupthink Theory - A Literary Review",
+   "schema:url": {
+    "@id": "https://www.regent.edu/journal/emerging-leadership-journeys/groupthink-theory/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/irving-janis/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "practitioner-journal",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Ramon J. Aldag, The Psychologist (British Psychological Society), February 2022",
+   "dcterms:title": "Groupthink - a monument to truthiness?",
+   "schema:url": {
+    "@id": "https://www.bps.org.uk/psychologist/groupthink-monument-truthiness"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/irving-janis/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Carl I. Hovland, Irving L. Janis & Harold H. Kelley, Yale University Press, 1953 (BibBase bibliographic record)",
+   "dcterms:title": "Communication and Persuasion: Psychological Studies of Opinion Change",
+   "schema:url": {
+    "@id": "https://bibbase.org/network/publication/hovland-janis-kelley-communicationandpersuasionpsychologicalstudiesofopinionchange-1953"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/irving-janis/s7",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "John R. Stuteville, Journal of Marketing 34(2), 39-46, April 1970 (University of Alabama hosted copy)",
+   "dcterms:title": "Psychic Defenses Against High Fear Appeals: A Key Marketing Variable",
+   "schema:url": {
+    "@id": "https://csts.ua.edu/files/2024/06/psychic-defenses-against-high-fear-appeals.pdf"
    }
   },
   {

@@ -11540,6 +11540,94 @@
   ]
  },
  {
+  "id": "cm:irving-janis",
+  "title": "Irving Janis",
+  "aliases": [
+   "Irving L. Janis",
+   "Irving Lester Janis",
+   "Janis"
+  ],
+  "type": "Person",
+  "domain": "thinkers-and-works",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/thinkers-and-works/irving-janis.md",
+  "created": "2026-11-12",
+  "summary": "Yale social psychologist (1918-1990) who co-wrote the Yale programme's Communication and Persuasion (1953) and coined \"groupthink\" in Victims of Groupthink (1972), the case-study account of how cohesive teams silence doubts - and whose prevention advice made the assigned devil's advocate, the impartial leader and the second-chance meeting standard parts of group decision practice.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "cm:group-decision-making"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:devils-advocacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:carl-hovland"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:persuasion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:psychological-safety"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:facilitation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:workplace-meetings"
+   },
+   {
+    "predicate": "cmo:introduced",
+    "object": "cm:groupthink",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:authored",
+    "object": "cm:victims-of-groupthink",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introduced",
+    "object": "cm:devils-advocacy",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:authored",
+    "object": "cm:communication-and-persuasion",
+    "source": "s6",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:park-2000",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://nias.knaw.nl/?p=6299",
+   "https://www.yalealumnimagazine.com/articles/1947",
+   "https://www.britannica.com/topic/groupthink",
+   "https://www.regent.edu/journal/emerging-leadership-journeys/groupthink-theory/",
+   "https://www.bps.org.uk/psychologist/groupthink-monument-truthiness",
+   "https://bibbase.org/network/publication/hovland-janis-kelley-communicationandpersuasionpsychologicalstudiesofopinionchange-1953",
+   "https://csts.ua.edu/files/2024/06/psychic-defenses-against-high-fear-appeals.pdf"
+  ]
+ },
+ {
   "id": "cm:issue-selling",
   "title": "Selling issues to leadership",
   "aliases": [
