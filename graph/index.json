@@ -20780,6 +20780,95 @@
   ]
  },
  {
+  "id": "cm:social-proof",
+  "title": "Social proof",
+  "aliases": [
+   "principle of social proof",
+   "descriptive-norm messaging",
+   "social norms messaging"
+  ],
+  "type": "Phenomenon",
+  "domain": "persuasion-and-influence",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/persuasion-and-influence/social-proof.md",
+  "created": "2026-11-12",
+  "summary": "The tendency to decide what to do by looking at what similar others are doing, which lets a communicator encourage a behaviour by truthfully reporting that peers already do it; field experiments show real but modest and context-dependent effects, and a norm message can backfire when it tells people the desired behaviour is rare or that they are already doing better than average.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:persuasion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:influence-without-authority"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:credibility"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:elaboration-likelihood-model"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:stakeholder-mapping"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:reciprocity"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:robert-cialdini",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:goldstein-cialdini-griskevicius-2008",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:schultz-et-al-2007",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:hallsworth-et-al-2017",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:bohner-schluter-2014",
+    "source": "s5",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:influence-without-authority",
+    "source": "s1",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://heller.brandeis.edu/executive-education/maine-2023-2024/april-2023-chilingerian/friday-pm/harnessing-science-of-persuasion.pdf",
+   "https://experts.umn.edu/en/publications/a-room-with-a-viewpoint-using-social-norms-to-motivate-environmen/",
+   "https://www.scranton.edu/faculty/nolan/pdfs/social-norms-reprise_perspectives_schultz-et-al2018.pdf",
+   "https://www.nber.org/papers/w20007",
+   "https://core.ac.uk/download/211832085.pdf",
+   "https://www.frontiersin.org/articles/10.3389/fams.2017.00012/full"
+  ]
+ },
+ {
   "id": "cm:social-psychology",
   "title": "Social psychology",
   "aliases": [
