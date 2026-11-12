@@ -3313,6 +3313,99 @@
   ]
  },
  {
+  "id": "cm:communication-studies",
+  "title": "Communication studies",
+  "aliases": [
+   "communication studies discipline",
+   "speech communication",
+   "the communication discipline",
+   "communication as a discipline"
+  ],
+  "type": "Field",
+  "domain": "foundations",
+  "level": "introductory",
+  "evidenceStatus": "theoretical",
+  "file": "articles/foundations/communication-studies.md",
+  "created": "2026-11-12",
+  "summary": "The academic discipline that studies how people use messages to create meaning across contexts, forms and media, drawing on both humanistic and social-scientific methods; it grew from the teaching of rhetoric and public speaking into a broad field whose subfields include interpersonal, organizational, intercultural and digital communication.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:social-sciences"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "cm:humanities"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:communication-theory-as-a-field"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:interpersonal-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:organizational-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:intercultural-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:digital-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:shannon-weaver-model"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:aristotles-rhetoric"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:pragmatics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:social-psychology"
+   },
+   {
+    "predicate": "cmo:influencedBy",
+    "object": "cm:rhetoric",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:influencedBy",
+    "object": "cm:social-psychology",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:wilbur-schramm",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://natcom.org/node/16",
+   "https://web.unica.it/unica/protected/407509/0/def/ref/MAT264368/",
+   "https://open.lib.umn.edu/commpractice/chapter/what-does-the-academic-study-of-communication-look-like/",
+   "https://cmd-journal.hse.ru/article/view/7495",
+   "https://scholarcommons.scu.edu/comm/138",
+   "https://www.afirstlook.com/edition-11/theory-resources/by-type/outline/Mapping-the-Territory",
+   "https://ddd.uab.cat/pub/analisi/02112175n38/02112175n38p151.pdf"
+  ]
+ },
+ {
   "id": "cm:concession-strategy",
   "title": "Concession strategy",
   "aliases": [

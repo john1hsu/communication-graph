@@ -1840,6 +1840,41 @@
 <https://github.com/john1hsu/communication-graph/id/communicating-uncertainty> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/communication-graph/id/communicating-uncertainty> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
 <https://github.com/john1hsu/communication-graph/id/communicating-uncertainty> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/gustafson-rice-2020> .
+<https://github.com/john1hsu/communication-graph/id/communication-studies> <http://purl.org/dc/terms/created> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Field> .
+<https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2000/01/rdf-schema#label> "Communication studies" .
+<https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#altLabel> "communication as a discipline" .
+<https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#altLabel> "communication studies discipline" .
+<https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#altLabel> "speech communication" .
+<https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#altLabel> "the communication discipline" .
+<https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/humanities> .
+<https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
+<https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#definition> "The academic discipline that studies how people use messages to create meaning across contexts, forms and media, drawing on both humanistic and social-scientific methods; it grew from the teaching of rhetoric and public speaking into a broad field whose subfields include interpersonal, organizational, intercultural and digital communication." .
+<https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/foundations> .
+<https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#prefLabel> "Communication studies" .
+<https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> .
+<https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communication-theory-as-a-field> .
+<https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/digital-communication> .
+<https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/intercultural-communication> .
+<https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
+<https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
+<https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/pragmatics> .
+<https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/shannon-weaver-model> .
+<https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/social-psychology> .
+<https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/communication-studies/s1> .
+<https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/communication-studies/s2> .
+<https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/communication-studies/s3> .
+<https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/communication-studies/s4> .
+<https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/communication-studies/s5> .
+<https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/communication-studies/s6> .
+<https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/communication-studies/s7> .
+<https://github.com/john1hsu/communication-graph/id/communication-studies> <https://github.com/john1hsu/communication-graph/ontology#domain> "foundations" .
+<https://github.com/john1hsu/communication-graph/id/communication-studies> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "theoretical" .
+<https://github.com/john1hsu/communication-graph/id/communication-studies> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/foundations/communication-studies.md" .
+<https://github.com/john1hsu/communication-graph/id/communication-studies> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/rhetoric> .
+<https://github.com/john1hsu/communication-graph/id/communication-studies> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/social-psychology> .
+<https://github.com/john1hsu/communication-graph/id/communication-studies> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/wilbur-schramm> .
+<https://github.com/john1hsu/communication-graph/id/communication-studies> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/concession-strategy/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/concession-strategy/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Do I know my total concession budget and walk-away point before I make the first move?" .
 <https://github.com/john1hsu/communication-graph/id/concession-strategy/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/concession-strategy> .
@@ -11327,6 +11362,48 @@
 <https://github.com/john1hsu/communication-graph/id/source/communicating-uncertainty/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/communicating-uncertainty/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
 <https://github.com/john1hsu/communication-graph/id/source/communicating-uncertainty/s4> <https://schema.org/url> <https://emergency-origin.cdc.gov/cerc/training/pdf/COVID19_CERC.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/communication-studies/s1> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/communication-studies/s1> <http://purl.org/dc/terms/publisher> "National Communication Association (U.S. scholarly association for the communication discipline)" .
+<https://github.com/john1hsu/communication-graph/id/source/communication-studies/s1> <http://purl.org/dc/terms/title> "What is Communication?" .
+<https://github.com/john1hsu/communication-graph/id/source/communication-studies/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/communication-studies/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/communication-graph/id/source/communication-studies/s1> <https://schema.org/url> <https://natcom.org/node/16> .
+<https://github.com/john1hsu/communication-graph/id/source/communication-studies/s2> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/communication-studies/s2> <http://purl.org/dc/terms/publisher> "Robert T. Craig, Communication Theory 9(2), 1999, pp. 119-161 (International Communication Association; copy hosted in University of Cagliari course materials)" .
+<https://github.com/john1hsu/communication-graph/id/source/communication-studies/s2> <http://purl.org/dc/terms/title> "Communication Theory as a Field" .
+<https://github.com/john1hsu/communication-graph/id/source/communication-studies/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/communication-studies/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/communication-studies/s2> <https://schema.org/url> <https://web.unica.it/unica/protected/407509/0/def/ref/MAT264368/> .
+<https://github.com/john1hsu/communication-graph/id/source/communication-studies/s3> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/communication-studies/s3> <http://purl.org/dc/terms/publisher> "Jeremy Rose, Communication in Practice (open textbook, University of Minnesota Libraries Publishing, CC BY 4.0)" .
+<https://github.com/john1hsu/communication-graph/id/source/communication-studies/s3> <http://purl.org/dc/terms/title> "What Does the Academic Study of Communication Look Like?" .
+<https://github.com/john1hsu/communication-graph/id/source/communication-studies/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/communication-studies/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/communication-graph/id/source/communication-studies/s3> <https://schema.org/url> <https://open.lib.umn.edu/commpractice/chapter/what-does-the-academic-study-of-communication-look-like/> .
+<https://github.com/john1hsu/communication-graph/id/source/communication-studies/s4> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/communication-studies/s4> <http://purl.org/dc/terms/publisher> "Jefferson D. Pooley, Communications. Media. Design 2(4), 2017, pp. 5-18, doi:10.17323/cmd.2017.7495" .
+<https://github.com/john1hsu/communication-graph/id/source/communication-studies/s4> <http://purl.org/dc/terms/title> "Wilbur Schramm and the \"Four Founders\" History of U.S. Communication Research" .
+<https://github.com/john1hsu/communication-graph/id/source/communication-studies/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/communication-studies/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/communication-studies/s4> <https://schema.org/url> <https://cmd-journal.hse.ru/article/view/7495> .
+<https://github.com/john1hsu/communication-graph/id/source/communication-studies/s5> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/communication-studies/s5> <http://purl.org/dc/terms/publisher> "Emile G. McAnany, Communication Research Trends 33(4), 2014 (Santa Clara University Scholar Commons)" .
+<https://github.com/john1hsu/communication-graph/id/source/communication-studies/s5> <http://purl.org/dc/terms/title> "Wilbur Schramm and the Beginnings of the \"Communication\" Field" .
+<https://github.com/john1hsu/communication-graph/id/source/communication-studies/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/communication-studies/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/communication-studies/s5> <https://schema.org/url> <https://scholarcommons.scu.edu/comm/138> .
+<https://github.com/john1hsu/communication-graph/id/source/communication-studies/s6> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/communication-studies/s6> <http://purl.org/dc/terms/publisher> "Griffin, Ledbetter & Sparks, A First Look at Communication Theory, 11th ed., instructor resources (McGraw-Hill)" .
+<https://github.com/john1hsu/communication-graph/id/source/communication-studies/s6> <http://purl.org/dc/terms/title> "Mapping the Territory (Craig's seven traditions)" .
+<https://github.com/john1hsu/communication-graph/id/source/communication-studies/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/communication-studies/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/communication-graph/id/source/communication-studies/s6> <https://schema.org/url> <https://www.afirstlook.com/edition-11/theory-resources/by-type/outline/Mapping-the-Territory> .
+<https://github.com/john1hsu/communication-graph/id/source/communication-studies/s7> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/communication-studies/s7> <http://purl.org/dc/terms/publisher> "Manuel Martín Algarra (Universidad de Navarra), Anàlisi 38, 2009, pp. 151-172 (Universitat Autònoma de Barcelona)" .
+<https://github.com/john1hsu/communication-graph/id/source/communication-studies/s7> <http://purl.org/dc/terms/title> "La comunicación como objeto de estudio de la teoría de la comunicación" .
+<https://github.com/john1hsu/communication-graph/id/source/communication-studies/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/communication-studies/s7> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/communication-studies/s7> <https://schema.org/url> <https://ddd.uab.cat/pub/analisi/02112175n38/02112175n38p151.pdf> .
 <https://github.com/john1hsu/communication-graph/id/source/concession-strategy/s1> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/concession-strategy/s1> <http://purl.org/dc/terms/publisher> "Deepak Malhotra, Program on Negotiation at Harvard Law School (PON Daily)" .
 <https://github.com/john1hsu/communication-graph/id/source/concession-strategy/s1> <http://purl.org/dc/terms/title> "Four Strategies for Making Concessions in Negotiation" .

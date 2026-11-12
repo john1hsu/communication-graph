@@ -2929,6 +2929,101 @@
    ]
   },
   {
+   "@id": "cm:communication-studies",
+   "@type": "cmo:Field",
+   "cmo:domain": "foundations",
+   "cmo:evidenceStatus": "theoretical",
+   "cmo:file": "articles/foundations/communication-studies.md",
+   "cmo:influencedBy": [
+    {
+     "@id": "cm:rhetoric"
+    },
+    {
+     "@id": "cm:social-psychology"
+    }
+   ],
+   "cmo:introducedBy": {
+    "@id": "cm:wilbur-schramm"
+   },
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/communication-studies/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/communication-studies/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/communication-studies/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/communication-studies/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/communication-studies/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/communication-studies/s6"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/communication-studies/s7"
+    }
+   ],
+   "rdfs:label": "Communication studies",
+   "skos:altLabel": [
+    "communication as a discipline",
+    "communication studies discipline",
+    "speech communication",
+    "the communication discipline"
+   ],
+   "skos:broader": [
+    {
+     "@id": "cm:humanities"
+    },
+    {
+     "@id": "cm:social-sciences"
+    }
+   ],
+   "skos:definition": "The academic discipline that studies how people use messages to create meaning across contexts, forms and media, drawing on both humanistic and social-scientific methods; it grew from the teaching of rhetoric and public speaking into a broad field whose subfields include interpersonal, organizational, intercultural and digital communication.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/foundations"
+   },
+   "skos:prefLabel": "Communication studies",
+   "skos:related": [
+    {
+     "@id": "cm:aristotles-rhetoric"
+    },
+    {
+     "@id": "cm:communication-theory-as-a-field"
+    },
+    {
+     "@id": "cm:digital-communication"
+    },
+    {
+     "@id": "cm:intercultural-communication"
+    },
+    {
+     "@id": "cm:interpersonal-communication"
+    },
+    {
+     "@id": "cm:organizational-communication"
+    },
+    {
+     "@id": "cm:pragmatics"
+    },
+    {
+     "@id": "cm:shannon-weaver-model"
+    },
+    {
+     "@id": "cm:social-psychology"
+    }
+   ]
+  },
+  {
    "@id": "cm:concession-strategy",
    "@type": "cmo:Technique",
    "cmo:demonstratedBy": {
@@ -31039,6 +31134,104 @@
    "dcterms:title": "CERC Overview for COVID-19",
    "schema:url": {
     "@id": "https://emergency-origin.cdc.gov/cerc/training/pdf/COVID19_CERC.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/communication-studies/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "National Communication Association (U.S. scholarly association for the communication discipline)",
+   "dcterms:title": "What is Communication?",
+   "schema:url": {
+    "@id": "https://natcom.org/node/16"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/communication-studies/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Robert T. Craig, Communication Theory 9(2), 1999, pp. 119-161 (International Communication Association; copy hosted in University of Cagliari course materials)",
+   "dcterms:title": "Communication Theory as a Field",
+   "schema:url": {
+    "@id": "https://web.unica.it/unica/protected/407509/0/def/ref/MAT264368/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/communication-studies/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Jeremy Rose, Communication in Practice (open textbook, University of Minnesota Libraries Publishing, CC BY 4.0)",
+   "dcterms:title": "What Does the Academic Study of Communication Look Like?",
+   "schema:url": {
+    "@id": "https://open.lib.umn.edu/commpractice/chapter/what-does-the-academic-study-of-communication-look-like/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/communication-studies/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Jefferson D. Pooley, Communications. Media. Design 2(4), 2017, pp. 5-18, doi:10.17323/cmd.2017.7495",
+   "dcterms:title": "Wilbur Schramm and the \"Four Founders\" History of U.S. Communication Research",
+   "schema:url": {
+    "@id": "https://cmd-journal.hse.ru/article/view/7495"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/communication-studies/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Emile G. McAnany, Communication Research Trends 33(4), 2014 (Santa Clara University Scholar Commons)",
+   "dcterms:title": "Wilbur Schramm and the Beginnings of the \"Communication\" Field",
+   "schema:url": {
+    "@id": "https://scholarcommons.scu.edu/comm/138"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/communication-studies/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Griffin, Ledbetter & Sparks, A First Look at Communication Theory, 11th ed., instructor resources (McGraw-Hill)",
+   "dcterms:title": "Mapping the Territory (Craig's seven traditions)",
+   "schema:url": {
+    "@id": "https://www.afirstlook.com/edition-11/theory-resources/by-type/outline/Mapping-the-Territory"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/communication-studies/s7",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Manuel Martín Algarra (Universidad de Navarra), Anàlisi 38, 2009, pp. 151-172 (Universitat Autònoma de Barcelona)",
+   "dcterms:title": "La comunicación como objeto de estudio de la teoría de la comunicación",
+   "schema:url": {
+    "@id": "https://ddd.uab.cat/pub/analisi/02112175n38/02112175n38p151.pdf"
    }
   },
   {
