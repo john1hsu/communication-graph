@@ -16596,6 +16596,116 @@
   ]
  },
  {
+  "id": "cm:question-formulation-technique",
+  "title": "Question Formulation Technique",
+  "aliases": [
+   "QFT",
+   "Right Question Institute method",
+   "Right Question technique"
+  ],
+  "type": "Technique",
+  "domain": "questioning-and-conversation",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/questioning-and-conversation/question-formulation-technique.md",
+  "created": "2026-11-12",
+  "summary": "A structured, six-part practice from the Right Question Institute in which a person or group generates questions about a short prompt without discussing them, sorts them into closed and open, rewrites some from one type to the other, picks the most important, decides how to use them and reflects on what they learned - a deliberate drill for the skill of asking good questions.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:questioning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:open-ended-questions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:closed-questions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:follow-up-questions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:brainstorming"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:humble-inquiry"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:question-burst"
+   },
+   {
+    "predicate": "cmo:develops",
+    "object": "cm:questioning",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:dan-rothstein",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:luz-santana",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedIn",
+    "object": "cm:make-just-one-change",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:alegria-et-al-2008",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:medical-appointment",
+    "source": "s2",
+    "confidence": "high"
+   }
+  ],
+  "selfCheck": [
+   "Did I give the group a statement to question, or did I smuggle my own hypothesis in as the prompt?",
+   "Did anyone, including me, start answering or judging questions before the production phase ended?",
+   "Which of our priority questions is open, and which is closed - and did we choose that deliberately?",
+   "Does each priority question have an owner and a place where it will actually be asked?"
+  ],
+  "steps": [
+   "Write a question focus - a short statement, chart or fact, not a question - that names the issue you need to understand.",
+   "Set a timer for five to ten minutes and have everyone produce as many questions as they can, writing each one exactly as said, with no discussing, judging or answering, and turning any statement into a question.",
+   "Number the list and mark each question C (closed, answerable with yes/no or a single word) or O (open).",
+   "Discuss what each type is good and bad for, then rewrite at least one closed question as open and one open question as closed.",
+   "Choose the three questions that matter most against a stated criterion (for example, the ones that would most change the decision) and note why you picked them.",
+   "Agree who will take each priority question where - a stakeholder meeting, a data request, a customer interview - and by when.",
+   "Close by asking the group what they learned about asking questions and how they will use the process next time."
+  ],
+  "example": {
+   "situation": "A product team's kickoff after a quarterly report shows renewals fell sharply among small-business customers.",
+   "before": "The lead opens with 'Why are renewals down?', the most senior engineer answers 'pricing', and the rest of the hour is spent debating a pricing fix.",
+   "after": "The lead puts up the statement 'Small-business renewals fell this quarter' and asks for ten minutes of questions only. The list of 24 includes 'Did anything change in onboarding?' and 'Which customers renewed, and how are they different?'; the team converts closed questions to open, picks three priorities and assigns each to an owner before anyone proposes a fix.",
+   "why": "A statement instead of a question avoids anchoring everyone on one cause, the no-answering rule keeps the senior voice from closing the topic, and prioritising turns a long list into a short research plan."
+  },
+  "source_urls": [
+   "https://www.fisme.science.uu.nl/publicaties/literatuur/2011_rothstein_santana_questioning.pdf",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC3580315",
+   "https://doaj.org/article/720dc3dd3d514ee18832a7fdaa66bae5",
+   "https://rightquestion.org/resources/asking-questions-the-effect-of-a-brief-intervention-in-community-health-centers-on-patient-activation",
+   "https://mitsloan.mit.edu/ideas-made-to-matter/heres-how-question-bursts-make-better-brainstorms"
+  ]
+ },
+ {
   "id": "cm:questioning",
   "title": "Questioning",
   "aliases": [

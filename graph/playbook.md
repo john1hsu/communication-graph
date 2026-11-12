@@ -2052,6 +2052,30 @@ Ask yourself:
 - Would they feel safe telling me something I don't want to hear?
 - Am I skipping the question because I feel sure - and is that certainty based on anything they told me?
 
+### [Question Formulation Technique](../articles/questioning-and-conversation/question-formulation-technique.md) — Technique
+
+1. Write a question focus - a short statement, chart or fact, not a question - that names the issue you need to understand.
+2. Set a timer for five to ten minutes and have everyone produce as many questions as they can, writing each one exactly as said, with no discussing, judging or answering, and turning any statement into a question.
+3. Number the list and mark each question C (closed, answerable with yes/no or a single word) or O (open).
+4. Discuss what each type is good and bad for, then rewrite at least one closed question as open and one open question as closed.
+5. Choose the three questions that matter most against a stated criterion (for example, the ones that would most change the decision) and note why you picked them.
+6. Agree who will take each priority question where - a stakeholder meeting, a data request, a customer interview - and by when.
+7. Close by asking the group what they learned about asking questions and how they will use the process next time.
+
+*A product team's kickoff after a quarterly report shows renewals fell sharply among small-business customers.*
+
+| Before | After |
+|---|---|
+| The lead opens with 'Why are renewals down?', the most senior engineer answers 'pricing', and the rest of the hour is spent debating a pricing fix. | The lead puts up the statement 'Small-business renewals fell this quarter' and asks for ten minutes of questions only. The list of 24 includes 'Did anything change in onboarding?' and 'Which customers renewed, and how are they different?'; the team converts closed questions to open, picks three priorities and assigns each to an owner before anyone proposes a fix. |
+
+**Why:** A statement instead of a question avoids anchoring everyone on one cause, the no-answering rule keeps the senior voice from closing the topic, and prioritising turns a long list into a short research plan.
+
+Ask yourself:
+- Did I give the group a statement to question, or did I smuggle my own hypothesis in as the prompt?
+- Did anyone, including me, start answering or judging questions before the production phase ended?
+- Which of our priority questions is open, and which is closed - and did we choose that deliberately?
+- Does each priority question have an owner and a place where it will actually be asked?
+
 ### [Questioning](../articles/questioning-and-conversation/questioning.md) — Skill
 
 Ask yourself:

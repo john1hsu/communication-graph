@@ -14641,6 +14641,95 @@
    ]
   },
   {
+   "@id": "cm:question-formulation-technique",
+   "@type": "cmo:Technique",
+   "cmo:appliedIn": {
+    "@id": "cm:medical-appointment"
+   },
+   "cmo:develops": {
+    "@id": "cm:questioning"
+   },
+   "cmo:domain": "questioning-and-conversation",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/question-formulation-technique/example"
+   },
+   "cmo:file": "articles/questioning-and-conversation/question-formulation-technique.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/question-formulation-technique/howto"
+   },
+   "cmo:introducedBy": [
+    {
+     "@id": "cm:dan-rothstein"
+    },
+    {
+     "@id": "cm:luz-santana"
+    }
+   ],
+   "cmo:introducedIn": {
+    "@id": "cm:make-just-one-change"
+   },
+   "cmo:level": "introductory",
+   "cmo:supportedBy": {
+    "@id": "cm:alegria-et-al-2008"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/question-formulation-technique/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/question-formulation-technique/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/question-formulation-technique/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/question-formulation-technique/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/question-formulation-technique/s5"
+    }
+   ],
+   "rdfs:label": "Question Formulation Technique",
+   "skos:altLabel": [
+    "QFT",
+    "Right Question Institute method",
+    "Right Question technique"
+   ],
+   "skos:broader": {
+    "@id": "cm:questioning"
+   },
+   "skos:definition": "A structured, six-part practice from the Right Question Institute in which a person or group generates questions about a short prompt without discussing them, sorts them into closed and open, rewrites some from one type to the other, picks the most important, decides how to use them and reflects on what they learned - a deliberate drill for the skill of asking good questions.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/questioning-and-conversation"
+   },
+   "skos:prefLabel": "Question Formulation Technique",
+   "skos:related": [
+    {
+     "@id": "cm:brainstorming"
+    },
+    {
+     "@id": "cm:closed-questions"
+    },
+    {
+     "@id": "cm:follow-up-questions"
+    },
+    {
+     "@id": "cm:humble-inquiry"
+    },
+    {
+     "@id": "cm:open-ended-questions"
+    },
+    {
+     "@id": "cm:question-burst"
+    }
+   ]
+  },
+  {
    "@id": "cm:questioning",
    "@type": "cmo:Skill",
    "cmo:appliedIn": [
@@ -26512,6 +26601,116 @@
    "@type": "schema:HowToStep",
    "schema:position": 5,
    "schema:text": "Turn each group into a summary sentence and a heading, place the evidence under it, and reread the top sentence and headings alone to see whether they tell the whole story."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/question-formulation-technique/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:question-formulation-technique"
+   },
+   "rdfs:label": "Did I give the group a statement to question, or did I smuggle my own hypothesis in as the prompt?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/question-formulation-technique/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:question-formulation-technique"
+   },
+   "rdfs:label": "Did anyone, including me, start answering or judging questions before the production phase ended?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/question-formulation-technique/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:question-formulation-technique"
+   },
+   "rdfs:label": "Which of our priority questions is open, and which is closed - and did we choose that deliberately?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/question-formulation-technique/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:question-formulation-technique"
+   },
+   "rdfs:label": "Does each priority question have an owner and a place where it will actually be asked?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/question-formulation-technique/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "The lead puts up the statement 'Small-business renewals fell this quarter' and asks for ten minutes of questions only. The list of 24 includes 'Did anything change in onboarding?' and 'Which customers renewed, and how are they different?'; the team converts closed questions to open, picks three priorities and assigns each to an owner before anyone proposes a fix.",
+   "cmo:before": "The lead opens with 'Why are renewals down?', the most senior engineer answers 'pricing', and the rest of the hour is spent debating a pricing fix.",
+   "cmo:situation": "A product team's kickoff after a quarterly report shows renewals fell sharply among small-business customers.",
+   "cmo:why": "A statement instead of a question avoids anchoring everyone on one cause, the no-answering rule keeps the senior voice from closing the topic, and prioritising turns a long list into a short research plan."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/question-formulation-technique/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Question Formulation Technique",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/question-formulation-technique/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/question-formulation-technique/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/question-formulation-technique/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/question-formulation-technique/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/question-formulation-technique/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/question-formulation-technique/howto/6"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/question-formulation-technique/howto/7"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/question-formulation-technique/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Write a question focus - a short statement, chart or fact, not a question - that names the issue you need to understand."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/question-formulation-technique/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Set a timer for five to ten minutes and have everyone produce as many questions as they can, writing each one exactly as said, with no discussing, judging or answering, and turning any statement into a question."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/question-formulation-technique/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Number the list and mark each question C (closed, answerable with yes/no or a single word) or O (open)."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/question-formulation-technique/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Discuss what each type is good and bad for, then rewrite at least one closed question as open and one open question as closed."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/question-formulation-technique/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Choose the three questions that matter most against a stated criterion (for example, the ones that would most change the decision) and note why you picked them."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/question-formulation-technique/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "Agree who will take each priority question where - a stakeholder meeting, a data request, a customer interview - and by when."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/question-formulation-technique/howto/7",
+   "@type": "schema:HowToStep",
+   "schema:position": 7,
+   "schema:text": "Close by asking the group what they learned about asking questions and how they will use the process next time."
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/questioning/check/1",
@@ -40906,6 +41105,76 @@
    "dcterms:title": "Effects of organizational signals on free recall of expository text",
    "schema:url": {
     "@id": "https://scholars.uky.edu/es/publications/effects-of-organizational-signals-on-free-recall-of-expository-te/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/question-formulation-technique/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Dan Rothstein & Luz Santana, Harvard Education Publishing Group, 2011 (author reprint hosted by Utrecht University Freudenthal Institute)",
+   "dcterms:title": "Teaching Students to Ask Their Own Questions: One small change can yield big results (Harvard Education Letter 27(5))",
+   "schema:url": {
+    "@id": "https://www.fisme.science.uu.nl/publicaties/literatuur/2011_rothstein_santana_questioning.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/question-formulation-technique/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Alegría, Polo, Gao et al., 2008 (PubMed Central author manuscript)",
+   "dcterms:title": "Evaluation of a Patient Activation and Empowerment Intervention in Mental Health Care (Medical Care 46(3), 247-256)",
+   "schema:url": {
+    "@id": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3580315"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/question-formulation-technique/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Summers, Fernandez, Handy-Hart, Kulle & Flanagan, 2024 (DOAJ record), doi:10.5206/cjsotlrcacea.2024.2.15519",
+   "dcterms:title": "Undergraduate students develop questioning, creativity, and collaboration skills by using the Question Formulation Technique (Canadian Journal for the Scholarship of Teaching and Learning 15(2))",
+   "schema:url": {
+    "@id": "https://doaj.org/article/720dc3dd3d514ee18832a7fdaa66bae5"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/question-formulation-technique/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Right Question Institute, summary of Deen, Lu, Rothstein, Santana & Gold",
+   "dcterms:title": "Asking Questions: The Effect of a Brief Intervention in Community Health Centers on Patient Activation (study summary)",
+   "schema:url": {
+    "@id": "https://rightquestion.org/resources/asking-questions-the-effect-of-a-brief-intervention-in-community-health-centers-on-patient-activation"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/question-formulation-technique/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "MIT Sloan School of Management, Ideas Made to Matter, 2018",
+   "dcterms:title": "Here's how question bursts make better brainstorms",
+   "schema:url": {
+    "@id": "https://mitsloan.mit.edu/ideas-made-to-matter/heres-how-question-bursts-make-better-brainstorms"
    }
   },
   {
