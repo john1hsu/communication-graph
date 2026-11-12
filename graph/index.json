@@ -2983,6 +2983,114 @@
   ]
  },
  {
+  "id": "cm:client-communication",
+  "title": "Client communication",
+  "aliases": [
+   "communicating with clients",
+   "client-facing communication",
+   "consultant-client communication",
+   "communication with clients in professional services"
+  ],
+  "type": "Context",
+  "domain": "executive-and-client-communication",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/executive-and-client-communication/client-communication.md",
+  "created": "2026-11-12",
+  "summary": "The ongoing exchange between a professional (consultant, adviser, agency, lawyer, internal service team) and the client who pays for or depends on their work. Because clients often cannot judge the quality of expert work directly, how expectations are set and how progress, problems and results are explained shapes satisfaction, trust and whether the relationship lasts.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:interpersonal-communication"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "cm:organizational-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:trusted-advisor"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:managing-up"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:delivering-bad-news"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:escalation-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:executive-briefing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:credibility"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:rapport"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:communicating-uncertainty"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:audience-analysis"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:active-listening"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:sharma-patterson-1999",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:anderson-sullivan-1993",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:expectation-disconfirmation-theory",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:status-reporting",
+    "source": "s5",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:stakeholder-mapping",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://emerald.com/insight/content/doi/10.1108/08876049910266059/full/html",
+   "https://emerald.com/insight/content/doi/10.1108/JSM-05-2016-0190/full/html",
+   "https://ideas.repec.org/a/inm/ormksc/v12y1993i2p125-143.html",
+   "https://www.emeraldinsight.com/doi/abs/10.1108/09604520110391379",
+   "https://www.pmi.org/learning/library/successfully-manage-projects-clients-expectations-8085",
+   "https://www.emerald.com/jmp/article/11/6/40/235502/Consultant-and-client-working-together"
+  ]
+ },
+ {
   "id": "cm:cognitive-load",
   "title": "Cognitive load theory",
   "aliases": [

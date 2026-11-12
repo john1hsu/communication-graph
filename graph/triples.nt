@@ -1713,6 +1713,43 @@
 <https://github.com/john1hsu/communication-graph/id/clarity> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
 <https://github.com/john1hsu/communication-graph/id/clarity> <https://github.com/john1hsu/communication-graph/ontology#studiedIn> <https://github.com/john1hsu/communication-graph/id/pragmatics> .
 <https://github.com/john1hsu/communication-graph/id/clarity> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/oppenheimer-2006> .
+<https://github.com/john1hsu/communication-graph/id/client-communication> <http://purl.org/dc/terms/created> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/client-communication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Context> .
+<https://github.com/john1hsu/communication-graph/id/client-communication> <http://www.w3.org/2000/01/rdf-schema#label> "Client communication" .
+<https://github.com/john1hsu/communication-graph/id/client-communication> <http://www.w3.org/2004/02/skos/core#altLabel> "client-facing communication" .
+<https://github.com/john1hsu/communication-graph/id/client-communication> <http://www.w3.org/2004/02/skos/core#altLabel> "communicating with clients" .
+<https://github.com/john1hsu/communication-graph/id/client-communication> <http://www.w3.org/2004/02/skos/core#altLabel> "communication with clients in professional services" .
+<https://github.com/john1hsu/communication-graph/id/client-communication> <http://www.w3.org/2004/02/skos/core#altLabel> "consultant-client communication" .
+<https://github.com/john1hsu/communication-graph/id/client-communication> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
+<https://github.com/john1hsu/communication-graph/id/client-communication> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
+<https://github.com/john1hsu/communication-graph/id/client-communication> <http://www.w3.org/2004/02/skos/core#definition> "The ongoing exchange between a professional (consultant, adviser, agency, lawyer, internal service team) and the client who pays for or depends on their work. Because clients often cannot judge the quality of expert work directly, how expectations are set and how progress, problems and results are explained shapes satisfaction, trust and whether the relationship lasts." .
+<https://github.com/john1hsu/communication-graph/id/client-communication> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/executive-and-client-communication> .
+<https://github.com/john1hsu/communication-graph/id/client-communication> <http://www.w3.org/2004/02/skos/core#prefLabel> "Client communication" .
+<https://github.com/john1hsu/communication-graph/id/client-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communicating-uncertainty> .
+<https://github.com/john1hsu/communication-graph/id/client-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/credibility> .
+<https://github.com/john1hsu/communication-graph/id/client-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> .
+<https://github.com/john1hsu/communication-graph/id/client-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/escalation-communication> .
+<https://github.com/john1hsu/communication-graph/id/client-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/executive-briefing> .
+<https://github.com/john1hsu/communication-graph/id/client-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/managing-up> .
+<https://github.com/john1hsu/communication-graph/id/client-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/rapport> .
+<https://github.com/john1hsu/communication-graph/id/client-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/trusted-advisor> .
+<https://github.com/john1hsu/communication-graph/id/client-communication> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/client-communication/s1> .
+<https://github.com/john1hsu/communication-graph/id/client-communication> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/client-communication/s2> .
+<https://github.com/john1hsu/communication-graph/id/client-communication> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/client-communication/s3> .
+<https://github.com/john1hsu/communication-graph/id/client-communication> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/client-communication/s4> .
+<https://github.com/john1hsu/communication-graph/id/client-communication> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/client-communication/s5> .
+<https://github.com/john1hsu/communication-graph/id/client-communication> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/client-communication/s6> .
+<https://github.com/john1hsu/communication-graph/id/client-communication> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping> .
+<https://github.com/john1hsu/communication-graph/id/client-communication> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/status-reporting> .
+<https://github.com/john1hsu/communication-graph/id/client-communication> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/anderson-sullivan-1993> .
+<https://github.com/john1hsu/communication-graph/id/client-communication> <https://github.com/john1hsu/communication-graph/ontology#domain> "executive-and-client-communication" .
+<https://github.com/john1hsu/communication-graph/id/client-communication> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/client-communication> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> .
+<https://github.com/john1hsu/communication-graph/id/client-communication> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/executive-and-client-communication/client-communication.md" .
+<https://github.com/john1hsu/communication-graph/id/client-communication> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/communication-graph/id/client-communication> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+<https://github.com/john1hsu/communication-graph/id/client-communication> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
+<https://github.com/john1hsu/communication-graph/id/client-communication> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/sharma-patterson-1999> .
 <https://github.com/john1hsu/communication-graph/id/cognitive-load> <http://purl.org/dc/terms/created> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/cognitive-load> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Theory> .
 <https://github.com/john1hsu/communication-graph/id/cognitive-load> <http://www.w3.org/2000/01/rdf-schema#label> "Cognitive load theory" .
@@ -11272,6 +11309,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/clarity/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/clarity/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "news" .
 <https://github.com/john1hsu/communication-graph/id/source/clarity/s4> <https://schema.org/url> <https://www.eurekalert.org/news-releases/808085> .
+<https://github.com/john1hsu/communication-graph/id/source/client-communication/s1> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/client-communication/s1> <http://purl.org/dc/terms/publisher> "Sharma, N. & Patterson, P. G., Journal of Services Marketing 13(2), 151-170, 1999, doi:10.1108/08876049910266059 (Emerald abstract page)" .
+<https://github.com/john1hsu/communication-graph/id/source/client-communication/s1> <http://purl.org/dc/terms/title> "The impact of communication effectiveness and service quality on relationship commitment in consumer, professional services" .
+<https://github.com/john1hsu/communication-graph/id/source/client-communication/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/client-communication/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/client-communication/s1> <https://schema.org/url> <https://emerald.com/insight/content/doi/10.1108/08876049910266059/full/html> .
+<https://github.com/john1hsu/communication-graph/id/source/client-communication/s2> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/client-communication/s2> <http://purl.org/dc/terms/publisher> "Patterson, P. G., Journal of Services Marketing 30(5), 485-489, 2016, doi:10.1108/JSM-05-2016-0190 (Emerald abstract page)" .
+<https://github.com/john1hsu/communication-graph/id/source/client-communication/s2> <http://purl.org/dc/terms/title> "Retrospective: tracking the impact of communications effectiveness on client satisfaction, trust and loyalty in professional services" .
+<https://github.com/john1hsu/communication-graph/id/source/client-communication/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/client-communication/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/client-communication/s2> <https://schema.org/url> <https://emerald.com/insight/content/doi/10.1108/JSM-05-2016-0190/full/html> .
+<https://github.com/john1hsu/communication-graph/id/source/client-communication/s3> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/client-communication/s3> <http://purl.org/dc/terms/publisher> "Anderson, E. W. & Sullivan, M. W., Marketing Science 12(2), 125-143, 1993, doi:10.1287/mksc.12.2.125 (RePEc/IDEAS record)" .
+<https://github.com/john1hsu/communication-graph/id/source/client-communication/s3> <http://purl.org/dc/terms/title> "The Antecedents and Consequences of Customer Satisfaction for Firms" .
+<https://github.com/john1hsu/communication-graph/id/source/client-communication/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/client-communication/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/client-communication/s3> <https://schema.org/url> <https://ideas.repec.org/a/inm/ormksc/v12y1993i2p125-143.html> .
+<https://github.com/john1hsu/communication-graph/id/source/client-communication/s4> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/client-communication/s4> <http://purl.org/dc/terms/publisher> "Ojasalo, J., Managing Service Quality 11(3), 200-212, 2001, doi:10.1108/09604520110391379 (Emerald abstract page)" .
+<https://github.com/john1hsu/communication-graph/id/source/client-communication/s4> <http://purl.org/dc/terms/title> "Managing customer expectations in professional services" .
+<https://github.com/john1hsu/communication-graph/id/source/client-communication/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/client-communication/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/client-communication/s4> <https://schema.org/url> <https://www.emeraldinsight.com/doi/abs/10.1108/09604520110391379> .
+<https://github.com/john1hsu/communication-graph/id/source/client-communication/s5> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/client-communication/s5> <http://purl.org/dc/terms/publisher> "Kestel, J. W., paper presented at PMI Global Congress 2006 - North America, Seattle, Project Management Institute" .
+<https://github.com/john1hsu/communication-graph/id/source/client-communication/s5> <http://purl.org/dc/terms/title> "Successfully manage your projects and your client's expectations: consultants' secrets" .
+<https://github.com/john1hsu/communication-graph/id/source/client-communication/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/client-communication/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/communication-graph/id/source/client-communication/s5> <https://schema.org/url> <https://www.pmi.org/learning/library/successfully-manage-projects-clients-expectations-8085> .
+<https://github.com/john1hsu/communication-graph/id/source/client-communication/s6> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/client-communication/s6> <http://purl.org/dc/terms/publisher> "Fullerton, J. & West, M. A., Journal of Managerial Psychology 11(6), 40-49, 1996, doi:10.1108/02683949610129749 (Emerald abstract page)" .
+<https://github.com/john1hsu/communication-graph/id/source/client-communication/s6> <http://purl.org/dc/terms/title> "Consultant and client: working together?" .
+<https://github.com/john1hsu/communication-graph/id/source/client-communication/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/client-communication/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/client-communication/s6> <https://schema.org/url> <https://www.emerald.com/jmp/article/11/6/40/235502/Consultant-and-client-working-together> .
 <https://github.com/john1hsu/communication-graph/id/source/cognitive-load/s1> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/cognitive-load/s1> <http://purl.org/dc/terms/publisher> "Sweller, J., van Merriënboer, J. J. G. & Paas, F., Educational Psychology Review 31(2), 261-292, 2019, doi:10.1007/s10648-019-09465-5 (open-access copy via CORE)" .
 <https://github.com/john1hsu/communication-graph/id/source/cognitive-load/s1> <http://purl.org/dc/terms/title> "Cognitive Architecture and Instructional Design: 20 Years Later" .

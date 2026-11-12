@@ -135,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:batna` | mixed | `cm:schaerer-swaab-galinsky-2015` |
 | `cm:bulleted-and-numbered-lists` | mixed | `cm:columbia-accident-investigation-board-report` |
 
-…and 129 more.
+…and 130 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -143,6 +143,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 
 | node | type |
 |---|---|
+| `cm:client-communication` | cmo:Context |
 | `cm:death-by-powerpoint` | cmo:AntiPattern |
 | `cm:devils-advocacy` | cmo:Technique |
 | `cm:digital-communication` | cmo:Field |
@@ -172,9 +173,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:persuasion` | cmo:Skill |
 | `cm:plain-language` | cmo:Principle |
 | `cm:praise-and-recognition` | cmo:Technique |
-| `cm:presentation` | cmo:Context |
 
-…and 31 more.
+…and 32 more.
 
 ## Orphan articles (gap)
 

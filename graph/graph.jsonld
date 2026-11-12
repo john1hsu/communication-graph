@@ -2648,6 +2648,109 @@
    ]
   },
   {
+   "@id": "cm:client-communication",
+   "@type": "cmo:Context",
+   "cmo:complements": [
+    {
+     "@id": "cm:stakeholder-mapping"
+    },
+    {
+     "@id": "cm:status-reporting"
+    }
+   ],
+   "cmo:demonstratedBy": {
+    "@id": "cm:anderson-sullivan-1993"
+   },
+   "cmo:domain": "executive-and-client-communication",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:explainedBy": {
+    "@id": "cm:expectation-disconfirmation-theory"
+   },
+   "cmo:file": "articles/executive-and-client-communication/client-communication.md",
+   "cmo:level": "intermediate",
+   "cmo:requires": [
+    {
+     "@id": "cm:active-listening"
+    },
+    {
+     "@id": "cm:audience-analysis"
+    }
+   ],
+   "cmo:supportedBy": {
+    "@id": "cm:sharma-patterson-1999"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/client-communication/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/client-communication/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/client-communication/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/client-communication/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/client-communication/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/client-communication/s6"
+    }
+   ],
+   "rdfs:label": "Client communication",
+   "skos:altLabel": [
+    "client-facing communication",
+    "communicating with clients",
+    "communication with clients in professional services",
+    "consultant-client communication"
+   ],
+   "skos:broader": [
+    {
+     "@id": "cm:interpersonal-communication"
+    },
+    {
+     "@id": "cm:organizational-communication"
+    }
+   ],
+   "skos:definition": "The ongoing exchange between a professional (consultant, adviser, agency, lawyer, internal service team) and the client who pays for or depends on their work. Because clients often cannot judge the quality of expert work directly, how expectations are set and how progress, problems and results are explained shapes satisfaction, trust and whether the relationship lasts.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/executive-and-client-communication"
+   },
+   "skos:prefLabel": "Client communication",
+   "skos:related": [
+    {
+     "@id": "cm:communicating-uncertainty"
+    },
+    {
+     "@id": "cm:credibility"
+    },
+    {
+     "@id": "cm:delivering-bad-news"
+    },
+    {
+     "@id": "cm:escalation-communication"
+    },
+    {
+     "@id": "cm:executive-briefing"
+    },
+    {
+     "@id": "cm:managing-up"
+    },
+    {
+     "@id": "cm:rapport"
+    },
+    {
+     "@id": "cm:trusted-advisor"
+    }
+   ]
+  },
+  {
    "@id": "cm:cognitive-load",
    "@type": "cmo:Theory",
    "cmo:challengedBy": {
@@ -30924,6 +31027,90 @@
    "dcterms:title": "Study: Writers who use long words needlessly are seen as less intelligent (press release on Oppenheimer, Applied Cognitive Psychology, doi:10.1002/acp.1178)",
    "schema:url": {
     "@id": "https://www.eurekalert.org/news-releases/808085"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/client-communication/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Sharma, N. & Patterson, P. G., Journal of Services Marketing 13(2), 151-170, 1999, doi:10.1108/08876049910266059 (Emerald abstract page)",
+   "dcterms:title": "The impact of communication effectiveness and service quality on relationship commitment in consumer, professional services",
+   "schema:url": {
+    "@id": "https://emerald.com/insight/content/doi/10.1108/08876049910266059/full/html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/client-communication/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Patterson, P. G., Journal of Services Marketing 30(5), 485-489, 2016, doi:10.1108/JSM-05-2016-0190 (Emerald abstract page)",
+   "dcterms:title": "Retrospective: tracking the impact of communications effectiveness on client satisfaction, trust and loyalty in professional services",
+   "schema:url": {
+    "@id": "https://emerald.com/insight/content/doi/10.1108/JSM-05-2016-0190/full/html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/client-communication/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Anderson, E. W. & Sullivan, M. W., Marketing Science 12(2), 125-143, 1993, doi:10.1287/mksc.12.2.125 (RePEc/IDEAS record)",
+   "dcterms:title": "The Antecedents and Consequences of Customer Satisfaction for Firms",
+   "schema:url": {
+    "@id": "https://ideas.repec.org/a/inm/ormksc/v12y1993i2p125-143.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/client-communication/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Ojasalo, J., Managing Service Quality 11(3), 200-212, 2001, doi:10.1108/09604520110391379 (Emerald abstract page)",
+   "dcterms:title": "Managing customer expectations in professional services",
+   "schema:url": {
+    "@id": "https://www.emeraldinsight.com/doi/abs/10.1108/09604520110391379"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/client-communication/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Kestel, J. W., paper presented at PMI Global Congress 2006 - North America, Seattle, Project Management Institute",
+   "dcterms:title": "Successfully manage your projects and your client's expectations: consultants' secrets",
+   "schema:url": {
+    "@id": "https://www.pmi.org/learning/library/successfully-manage-projects-clients-expectations-8085"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/client-communication/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Fullerton, J. & West, M. A., Journal of Managerial Psychology 11(6), 40-49, 1996, doi:10.1108/02683949610129749 (Emerald abstract page)",
+   "dcterms:title": "Consultant and client: working together?",
+   "schema:url": {
+    "@id": "https://www.emerald.com/jmp/article/11/6/40/235502/Consultant-and-client-working-together"
    }
   },
   {
