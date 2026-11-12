@@ -637,6 +637,15 @@
 <https://github.com/john1hsu/communication-graph/id/rapport#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/rapport/s4> .
 <https://github.com/john1hsu/communication-graph/id/rapport#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/rapport/s5> .
 <https://github.com/john1hsu/communication-graph/id/rapport#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/rapport/s6> .
+<https://github.com/john1hsu/communication-graph/id/register-and-tone#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/register-and-tone#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/register-and-tone> .
+<https://github.com/john1hsu/communication-graph/id/register-and-tone#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/foundations/register-and-tone.md" .
+<https://github.com/john1hsu/communication-graph/id/register-and-tone#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/register-and-tone/s1> .
+<https://github.com/john1hsu/communication-graph/id/register-and-tone#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/register-and-tone/s2> .
+<https://github.com/john1hsu/communication-graph/id/register-and-tone#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/register-and-tone/s3> .
+<https://github.com/john1hsu/communication-graph/id/register-and-tone#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/register-and-tone/s4> .
+<https://github.com/john1hsu/communication-graph/id/register-and-tone#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/register-and-tone/s5> .
+<https://github.com/john1hsu/communication-graph/id/register-and-tone#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/register-and-tone/s6> .
 <https://github.com/john1hsu/communication-graph/id/shannon-weaver-model#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/shannon-weaver-model#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/shannon-weaver-model> .
 <https://github.com/john1hsu/communication-graph/id/shannon-weaver-model#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/foundations/shannon-weaver-model.md" .
@@ -8634,6 +8643,84 @@
   <https://github.com/john1hsu/communication-graph/id/source/rapport/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
   <https://github.com/john1hsu/communication-graph/id/source/rapport/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
   <https://github.com/john1hsu/communication-graph/id/source/rapport/s6> <https://schema.org/url> <https://www.pon.harvard.edu/daily/business-negotiations/small-talk-big-gains/> .
+}
+
+<https://github.com/john1hsu/communication-graph/id/register-and-tone#graph> {
+  <https://github.com/john1hsu/communication-graph/id/register-and-tone> <http://purl.org/dc/terms/created> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/register-and-tone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+  <https://github.com/john1hsu/communication-graph/id/register-and-tone> <http://www.w3.org/2000/01/rdf-schema#label> "Register and tone" .
+  <https://github.com/john1hsu/communication-graph/id/register-and-tone> <http://www.w3.org/2004/02/skos/core#altLabel> "formality level" .
+  <https://github.com/john1hsu/communication-graph/id/register-and-tone> <http://www.w3.org/2004/02/skos/core#altLabel> "level of formality" .
+  <https://github.com/john1hsu/communication-graph/id/register-and-tone> <http://www.w3.org/2004/02/skos/core#altLabel> "linguistic register" .
+  <https://github.com/john1hsu/communication-graph/id/register-and-tone> <http://www.w3.org/2004/02/skos/core#altLabel> "register shifting" .
+  <https://github.com/john1hsu/communication-graph/id/register-and-tone> <http://www.w3.org/2004/02/skos/core#altLabel> "style shifting" .
+  <https://github.com/john1hsu/communication-graph/id/register-and-tone> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/sociolinguistics> .
+  <https://github.com/john1hsu/communication-graph/id/register-and-tone> <http://www.w3.org/2004/02/skos/core#definition> "Register is the variety of language a speaker or writer chooses to fit the situation - how formal, technical, warm or casual the words are - and tone is the attitude that choice conveys. Getting both right for the reader, the relationship and the channel decides whether a correct message also lands as credible and respectful." .
+  <https://github.com/john1hsu/communication-graph/id/register-and-tone> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/foundations> .
+  <https://github.com/john1hsu/communication-graph/id/register-and-tone> <http://www.w3.org/2004/02/skos/core#prefLabel> "Register and tone" .
+  <https://github.com/john1hsu/communication-graph/id/register-and-tone> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
+  <https://github.com/john1hsu/communication-graph/id/register-and-tone> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/audience-design> .
+  <https://github.com/john1hsu/communication-graph/id/register-and-tone> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/email> .
+  <https://github.com/john1hsu/communication-graph/id/register-and-tone> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> .
+  <https://github.com/john1hsu/communication-graph/id/register-and-tone> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/face-and-facework> .
+  <https://github.com/john1hsu/communication-graph/id/register-and-tone> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/jargon> .
+  <https://github.com/john1hsu/communication-graph/id/register-and-tone> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mirroring> .
+  <https://github.com/john1hsu/communication-graph/id/register-and-tone> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/plain-language> .
+  <https://github.com/john1hsu/communication-graph/id/register-and-tone> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/politeness-theory> .
+  <https://github.com/john1hsu/communication-graph/id/register-and-tone> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/pragmatics> .
+  <https://github.com/john1hsu/communication-graph/id/register-and-tone> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/register-and-tone/s1> .
+  <https://github.com/john1hsu/communication-graph/id/register-and-tone> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/register-and-tone/s2> .
+  <https://github.com/john1hsu/communication-graph/id/register-and-tone> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/register-and-tone/s3> .
+  <https://github.com/john1hsu/communication-graph/id/register-and-tone> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/register-and-tone/s4> .
+  <https://github.com/john1hsu/communication-graph/id/register-and-tone> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/register-and-tone/s5> .
+  <https://github.com/john1hsu/communication-graph/id/register-and-tone> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/register-and-tone/s6> .
+  <https://github.com/john1hsu/communication-graph/id/register-and-tone> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/email> .
+  <https://github.com/john1hsu/communication-graph/id/register-and-tone> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/peterson-hohensee-xia-2011> .
+  <https://github.com/john1hsu/communication-graph/id/register-and-tone> <https://github.com/john1hsu/communication-graph/ontology#domain> "foundations" .
+  <https://github.com/john1hsu/communication-graph/id/register-and-tone> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+  <https://github.com/john1hsu/communication-graph/id/register-and-tone> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/communication-accommodation-theory> .
+  <https://github.com/john1hsu/communication-graph/id/register-and-tone> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/politeness-theory> .
+  <https://github.com/john1hsu/communication-graph/id/register-and-tone> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/foundations/register-and-tone.md" .
+  <https://github.com/john1hsu/communication-graph/id/register-and-tone> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/m-a-k-halliday> .
+  <https://github.com/john1hsu/communication-graph/id/register-and-tone> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+  <https://github.com/john1hsu/communication-graph/id/register-and-tone> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
+  <https://github.com/john1hsu/communication-graph/id/register-and-tone> <https://github.com/john1hsu/communication-graph/ontology#studiedIn> <https://github.com/john1hsu/communication-graph/id/linguistics> .
+  <https://github.com/john1hsu/communication-graph/id/source/register-and-tone/s1> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/register-and-tone/s1> <http://purl.org/dc/terms/publisher> "Douglas Biber & Susan Conrad, Cambridge University Press, 2009 (doi:10.1017/CBO9780511814358)" .
+  <https://github.com/john1hsu/communication-graph/id/source/register-and-tone/s1> <http://purl.org/dc/terms/title> "Register, Genre, and Style (Cambridge Textbooks in Linguistics)" .
+  <https://github.com/john1hsu/communication-graph/id/source/register-and-tone/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/register-and-tone/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "textbook" .
+  <https://github.com/john1hsu/communication-graph/id/source/register-and-tone/s1> <https://schema.org/url> <https://www.cambridge.org/core/product/identifier/9780511814358/type/book> .
+  <https://github.com/john1hsu/communication-graph/id/source/register-and-tone/s2> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/register-and-tone/s2> <http://purl.org/dc/terms/publisher> "Linguistics and the Human Sciences 4(2), Equinox Publishing (doi:10.1558/lhs.v4i2.187)" .
+  <https://github.com/john1hsu/communication-graph/id/source/register-and-tone/s2> <http://purl.org/dc/terms/title> "Halliday's model of register revisited and explored" .
+  <https://github.com/john1hsu/communication-graph/id/source/register-and-tone/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/register-and-tone/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/register-and-tone/s2> <https://schema.org/url> <https://journals.equinoxpub.com/LHS/article/view/8479> .
+  <https://github.com/john1hsu/communication-graph/id/source/register-and-tone/s3> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/register-and-tone/s3> <http://purl.org/dc/terms/publisher> "Purdue Online Writing Lab (OWL), Purdue University" .
+  <https://github.com/john1hsu/communication-graph/id/source/register-and-tone/s3> <http://purl.org/dc/terms/title> "Levels of Formality" .
+  <https://github.com/john1hsu/communication-graph/id/source/register-and-tone/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/register-and-tone/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/communication-graph/id/source/register-and-tone/s3> <https://schema.org/url> <https://owl.purdue.edu/owl/general_writing/academic_writing/using_appropriate_language/levels_of_formality.html> .
+  <https://github.com/john1hsu/communication-graph/id/source/register-and-tone/s4> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/register-and-tone/s4> <http://purl.org/dc/terms/publisher> "Kelly Peterson, Matt Hohensee & Fei Xia, Proceedings of the Workshop on Language in Social Media (LSM 2011), Association for Computational Linguistics, pp. 86-95" .
+  <https://github.com/john1hsu/communication-graph/id/source/register-and-tone/s4> <http://purl.org/dc/terms/title> "Email Formality in the Workplace: A Case Study on the Enron Corpus" .
+  <https://github.com/john1hsu/communication-graph/id/source/register-and-tone/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/register-and-tone/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/register-and-tone/s4> <https://schema.org/url> <https://aclanthology.org/W11-0711.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/register-and-tone/s5> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/register-and-tone/s5> <http://purl.org/dc/terms/publisher> "Howard Giles & Tania Ogay, in B. B. Whaley & W. Samter (eds.), Explaining Communication, Lawrence Erlbaum, 2007, pp. 293-310 (author copy)" .
+  <https://github.com/john1hsu/communication-graph/id/source/register-and-tone/s5> <http://purl.org/dc/terms/title> "Communication Accommodation Theory" .
+  <https://github.com/john1hsu/communication-graph/id/source/register-and-tone/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/register-and-tone/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/communication-graph/id/source/register-and-tone/s5> <https://schema.org/url> <https://core.ac.uk/download/147103741.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/register-and-tone/s6> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/register-and-tone/s6> <http://purl.org/dc/terms/publisher> "Kate Moran, Nielsen Norman Group, 2016 (reviewed 2024)" .
+  <https://github.com/john1hsu/communication-graph/id/source/register-and-tone/s6> <http://purl.org/dc/terms/title> "The Impact of Tone of Voice on Users' Brand Perception" .
+  <https://github.com/john1hsu/communication-graph/id/source/register-and-tone/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/register-and-tone/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+  <https://github.com/john1hsu/communication-graph/id/source/register-and-tone/s6> <https://schema.org/url> <https://www.nngroup.com/articles/tone-voice-users/> .
 }
 
 <https://github.com/john1hsu/communication-graph/id/shannon-weaver-model#graph> {
@@ -20917,6 +21004,7 @@
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/presentation> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/pyramid-principle> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/quintilian> .
+  <https://github.com/john1hsu/communication-graph/id/audience-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/register-and-tone> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/social-accounts> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
@@ -20946,9 +21034,11 @@
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/pyramid-principle> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/readability-formulas> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/refutational-two-sided-messages> .
+  <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/register-and-tone> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/status-reporting> .
   <https://github.com/john1hsu/communication-graph/id/audience-design> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/common-ground> .
+  <https://github.com/john1hsu/communication-graph/id/audience-design> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/register-and-tone> .
   <https://github.com/john1hsu/communication-graph/id/audience-design> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
   <https://github.com/john1hsu/communication-graph/id/audience> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
   <https://github.com/john1hsu/communication-graph/id/audience> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
@@ -21450,6 +21540,7 @@
   <https://github.com/john1hsu/communication-graph/id/communicating-uncertainty> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/executive-briefing> .
   <https://github.com/john1hsu/communication-graph/id/communicating-uncertainty> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies> .
   <https://github.com/john1hsu/communication-graph/id/communicating-uncertainty> <https://github.com/john1hsu/communication-graph/ontology#developedBy> <https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies> .
+  <https://github.com/john1hsu/communication-graph/id/communication-accommodation-theory> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/register-and-tone> .
   <https://github.com/john1hsu/communication-graph/id/communication-and-persuasion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/communication-and-persuasion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
   <https://github.com/john1hsu/communication-graph/id/communication-and-persuasion> <https://github.com/john1hsu/communication-graph/ontology#authoredBy> <https://github.com/john1hsu/communication-graph/id/carl-hovland> .
@@ -22188,6 +22279,7 @@
   <https://github.com/john1hsu/communication-graph/id/email> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/message-equivocality-media-selection-and-manager-performance> .
   <https://github.com/john1hsu/communication-graph/id/email> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/murray-turoff> .
   <https://github.com/john1hsu/communication-graph/id/email> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/ray-tomlinson> .
+  <https://github.com/john1hsu/communication-graph/id/email> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/register-and-tone> .
   <https://github.com/john1hsu/communication-graph/id/email> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/scheduled-inbox-checks> .
   <https://github.com/john1hsu/communication-graph/id/email> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/scott-fahlman> .
   <https://github.com/john1hsu/communication-graph/id/email> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations> .
@@ -22204,6 +22296,7 @@
   <https://github.com/john1hsu/communication-graph/id/email> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/message-structure> .
   <https://github.com/john1hsu/communication-graph/id/email> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/pragmatics> .
   <https://github.com/john1hsu/communication-graph/id/email> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/rapport> .
+  <https://github.com/john1hsu/communication-graph/id/email> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/register-and-tone> .
   <https://github.com/john1hsu/communication-graph/id/email> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/scheduled-inbox-checks> .
   <https://github.com/john1hsu/communication-graph/id/email> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations> .
   <https://github.com/john1hsu/communication-graph/id/email> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/ray-tomlinson> .
@@ -22220,6 +22313,7 @@
   <https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/written-communication> .
   <https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/chat-etiquette> .
   <https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/digital-communication> .
+  <https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/register-and-tone> .
   <https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/scott-fahlman> .
   <https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/scott-fahlman> .
   <https://github.com/john1hsu/communication-graph/id/emoticon> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/scott-fahlman> .
@@ -22372,6 +22466,7 @@
   <https://github.com/john1hsu/communication-graph/id/face-and-facework> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/erving-goffman> .
   <https://github.com/john1hsu/communication-graph/id/face-and-facework> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/intercultural-competence> .
   <https://github.com/john1hsu/communication-graph/id/face-and-facework> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/pragmatics> .
+  <https://github.com/john1hsu/communication-graph/id/face-and-facework> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/register-and-tone> .
   <https://github.com/john1hsu/communication-graph/id/face-and-facework> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/impression-management> .
   <https://github.com/john1hsu/communication-graph/id/face-and-facework> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> .
   <https://github.com/john1hsu/communication-graph/id/face-negotiation-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/face-and-facework> .
@@ -23283,6 +23378,7 @@
   <https://github.com/john1hsu/communication-graph/id/jansen-2014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/jansen-2014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/jansen-2014> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/bulleted-and-numbered-lists> .
+  <https://github.com/john1hsu/communication-graph/id/jargon> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/register-and-tone> .
   <https://github.com/john1hsu/communication-graph/id/jargon> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/plain-language> .
   <https://github.com/john1hsu/communication-graph/id/jeremy-bailenson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/jeremy-bailenson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
@@ -23500,6 +23596,9 @@
   <https://github.com/john1hsu/communication-graph/id/lindholst-bulow-fells-2018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/lindholst-bulow-fells-2018> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/negotiation-preparation> .
   <https://github.com/john1hsu/communication-graph/id/linguistic-anthropology> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/intercultural-communication> .
+  <https://github.com/john1hsu/communication-graph/id/linguistics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+  <https://github.com/john1hsu/communication-graph/id/linguistics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/linguistics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Field> .
   <https://github.com/john1hsu/communication-graph/id/linguistics> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/pragmatics> .
   <https://github.com/john1hsu/communication-graph/id/linguistics> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/common-ground> .
   <https://github.com/john1hsu/communication-graph/id/linguistics> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/grices-maxims> .
@@ -23525,6 +23624,7 @@
   <https://github.com/john1hsu/communication-graph/id/ludwig-gumplowicz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/ludwig-gumplowicz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/ludwig-gumplowicz> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/ethnocentrism> .
+  <https://github.com/john1hsu/communication-graph/id/m-a-k-halliday> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/register-and-tone> .
   <https://github.com/john1hsu/communication-graph/id/maaravi-levy-2017> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/first-offer> .
   <https://github.com/john1hsu/communication-graph/id/macgregor-corley-donaldson-2010> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/silence-and-pauses> .
   <https://github.com/john1hsu/communication-graph/id/macinnis-mackinnon-macintyre-2010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -23747,6 +23847,7 @@
   <https://github.com/john1hsu/communication-graph/id/mirroring> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/listening> .
   <https://github.com/john1hsu/communication-graph/id/mirroring> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> .
   <https://github.com/john1hsu/communication-graph/id/mirroring> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/emotional-contagion> .
+  <https://github.com/john1hsu/communication-graph/id/mirroring> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/register-and-tone> .
   <https://github.com/john1hsu/communication-graph/id/mixed-messages> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> .
   <https://github.com/john1hsu/communication-graph/id/mixed-messages> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> .
   <https://github.com/john1hsu/communication-graph/id/mixed-messages> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/paralanguage> .
@@ -24255,6 +24356,9 @@
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/eye-contact> .
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/social-psychology> .
   <https://github.com/john1hsu/communication-graph/id/persuasion> <https://github.com/john1hsu/communication-graph/ontology#developedBy> <https://github.com/john1hsu/communication-graph/id/refutational-two-sided-messages> .
+  <https://github.com/john1hsu/communication-graph/id/peterson-hohensee-xia-2011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/peterson-hohensee-xia-2011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
+  <https://github.com/john1hsu/communication-graph/id/peterson-hohensee-xia-2011> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/register-and-tone> .
   <https://github.com/john1hsu/communication-graph/id/petkovic-et-al-2016> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/business-report> .
   <https://github.com/john1hsu/communication-graph/id/petrowsky-et-al-2025> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/first-offer> .
   <https://github.com/john1hsu/communication-graph/id/petty-cacioppo-goldman-1981> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -24287,6 +24391,7 @@
   <https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/paramedic-method> .
   <https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/philip-crosby> .
   <https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/quintilian> .
+  <https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/register-and-tone> .
   <https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies> .
   <https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/shannon-weaver-model> .
   <https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/teach-back> .
@@ -24311,6 +24416,8 @@
   <https://github.com/john1hsu/communication-graph/id/politeness-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/face-and-facework> .
   <https://github.com/john1hsu/communication-graph/id/politeness-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/grices-maxims> .
   <https://github.com/john1hsu/communication-graph/id/politeness-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/pragmatics> .
+  <https://github.com/john1hsu/communication-graph/id/politeness-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/register-and-tone> .
+  <https://github.com/john1hsu/communication-graph/id/politeness-theory> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/register-and-tone> .
   <https://github.com/john1hsu/communication-graph/id/pollack-rutherford-nagy-2012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/pollack-rutherford-nagy-2012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/pollack-rutherford-nagy-2012> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/elevator-pitch> .
@@ -24336,6 +24443,7 @@
   <https://github.com/john1hsu/communication-graph/id/pragmatics> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/grices-maxims> .
   <https://github.com/john1hsu/communication-graph/id/pragmatics> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/common-ground> .
   <https://github.com/john1hsu/communication-graph/id/pragmatics> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/grices-maxims> .
+  <https://github.com/john1hsu/communication-graph/id/pragmatics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/register-and-tone> .
   <https://github.com/john1hsu/communication-graph/id/praise-and-recognition/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/praise-and-recognition/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/praise-and-recognition/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -24639,6 +24747,8 @@
   <https://github.com/john1hsu/communication-graph/id/refutational-two-sided-messages> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
   <https://github.com/john1hsu/communication-graph/id/refutational-two-sided-messages> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/persuasion> .
   <https://github.com/john1hsu/communication-graph/id/refutational-two-sided-messages> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/monroes-motivated-sequence> .
+  <https://github.com/john1hsu/communication-graph/id/register-and-tone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/register-and-tone> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/sociolinguistics> .
   <https://github.com/john1hsu/communication-graph/id/relevance-theory> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/grices-maxims> .
   <https://github.com/john1hsu/communication-graph/id/reservation-value> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/reservation-value> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
@@ -25016,6 +25126,8 @@
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/de-escalation> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/role-reversal> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/thomas-kilmann-conflict-modes> .
+  <https://github.com/john1hsu/communication-graph/id/sociolinguistics> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/register-and-tone> .
+  <https://github.com/john1hsu/communication-graph/id/sociolinguistics> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/register-and-tone> .
   <https://github.com/john1hsu/communication-graph/id/soon-ang> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/soon-ang> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/soon-ang> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/cultural-intelligence> .

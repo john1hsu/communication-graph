@@ -17147,6 +17147,121 @@
   ]
  },
  {
+  "id": "cm:register-and-tone",
+  "title": "Register and tone",
+  "aliases": [
+   "linguistic register",
+   "level of formality",
+   "formality level",
+   "style shifting",
+   "register shifting"
+  ],
+  "type": "Concept",
+  "domain": "foundations",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/foundations/register-and-tone.md",
+  "created": "2026-11-12",
+  "summary": "Register is the variety of language a speaker or writer chooses to fit the situation - how formal, technical, warm or casual the words are - and tone is the attitude that choice conveys. Getting both right for the reader, the relationship and the channel decides whether a correct message also lands as credible and respectful.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:sociolinguistics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:audience-analysis"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:pragmatics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:face-and-facework"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:politeness-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:mirroring"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:emoji-and-tone-in-text"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:email"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:plain-language"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:jargon"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:audience-design"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:audience-analysis"
+   },
+   {
+    "predicate": "cmo:studiedIn",
+    "object": "cm:linguistics",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:influencedBy",
+    "object": "cm:m-a-k-halliday",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:politeness-theory",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:communication-accommodation-theory",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:email",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:peterson-hohensee-xia-2011",
+    "source": "s4",
+    "confidence": "high"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://www.cambridge.org/core/product/identifier/9780511814358/type/book",
+   "https://journals.equinoxpub.com/LHS/article/view/8479",
+   "https://owl.purdue.edu/owl/general_writing/academic_writing/using_appropriate_language/levels_of_formality.html",
+   "https://aclanthology.org/W11-0711.pdf",
+   "https://core.ac.uk/download/147103741.pdf",
+   "https://www.nngroup.com/articles/tone-voice-users/"
+  ]
+ },
+ {
   "id": "cm:reservation-value",
   "title": "Reservation value",
   "aliases": [

@@ -15110,6 +15110,109 @@
    ]
   },
   {
+   "@id": "cm:register-and-tone",
+   "@type": "cmo:Concept",
+   "cmo:appliedIn": {
+    "@id": "cm:email"
+   },
+   "cmo:demonstratedBy": {
+    "@id": "cm:peterson-hohensee-xia-2011"
+   },
+   "cmo:domain": "foundations",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:explainedBy": [
+    {
+     "@id": "cm:communication-accommodation-theory"
+    },
+    {
+     "@id": "cm:politeness-theory"
+    }
+   ],
+   "cmo:file": "articles/foundations/register-and-tone.md",
+   "cmo:influencedBy": {
+    "@id": "cm:m-a-k-halliday"
+   },
+   "cmo:level": "introductory",
+   "cmo:requires": {
+    "@id": "cm:audience-analysis"
+   },
+   "cmo:studiedIn": {
+    "@id": "cm:linguistics"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/register-and-tone/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/register-and-tone/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/register-and-tone/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/register-and-tone/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/register-and-tone/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/register-and-tone/s6"
+    }
+   ],
+   "rdfs:label": "Register and tone",
+   "skos:altLabel": [
+    "formality level",
+    "level of formality",
+    "linguistic register",
+    "register shifting",
+    "style shifting"
+   ],
+   "skos:broader": {
+    "@id": "cm:sociolinguistics"
+   },
+   "skos:definition": "Register is the variety of language a speaker or writer chooses to fit the situation - how formal, technical, warm or casual the words are - and tone is the attitude that choice conveys. Getting both right for the reader, the relationship and the channel decides whether a correct message also lands as credible and respectful.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/foundations"
+   },
+   "skos:prefLabel": "Register and tone",
+   "skos:related": [
+    {
+     "@id": "cm:audience-analysis"
+    },
+    {
+     "@id": "cm:audience-design"
+    },
+    {
+     "@id": "cm:email"
+    },
+    {
+     "@id": "cm:emoji-and-tone-in-text"
+    },
+    {
+     "@id": "cm:face-and-facework"
+    },
+    {
+     "@id": "cm:jargon"
+    },
+    {
+     "@id": "cm:mirroring"
+    },
+    {
+     "@id": "cm:plain-language"
+    },
+    {
+     "@id": "cm:politeness-theory"
+    },
+    {
+     "@id": "cm:pragmatics"
+    }
+   ]
+  },
+  {
    "@id": "cm:reservation-value",
    "@type": "cmo:Concept",
    "cmo:complements": [
@@ -40584,6 +40687,90 @@
    "dcterms:title": "The Necessary Art of Persuasion",
    "schema:url": {
     "@id": "https://depts.washington.edu/edgh/namibia-lio/files/necessary_art_of_persuasion.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/register-and-tone/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Douglas Biber & Susan Conrad, Cambridge University Press, 2009 (doi:10.1017/CBO9780511814358)",
+   "dcterms:title": "Register, Genre, and Style (Cambridge Textbooks in Linguistics)",
+   "schema:url": {
+    "@id": "https://www.cambridge.org/core/product/identifier/9780511814358/type/book"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/register-and-tone/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Linguistics and the Human Sciences 4(2), Equinox Publishing (doi:10.1558/lhs.v4i2.187)",
+   "dcterms:title": "Halliday's model of register revisited and explored",
+   "schema:url": {
+    "@id": "https://journals.equinoxpub.com/LHS/article/view/8479"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/register-and-tone/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Purdue Online Writing Lab (OWL), Purdue University",
+   "dcterms:title": "Levels of Formality",
+   "schema:url": {
+    "@id": "https://owl.purdue.edu/owl/general_writing/academic_writing/using_appropriate_language/levels_of_formality.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/register-and-tone/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Kelly Peterson, Matt Hohensee & Fei Xia, Proceedings of the Workshop on Language in Social Media (LSM 2011), Association for Computational Linguistics, pp. 86-95",
+   "dcterms:title": "Email Formality in the Workplace: A Case Study on the Enron Corpus",
+   "schema:url": {
+    "@id": "https://aclanthology.org/W11-0711.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/register-and-tone/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Howard Giles & Tania Ogay, in B. B. Whaley & W. Samter (eds.), Explaining Communication, Lawrence Erlbaum, 2007, pp. 293-310 (author copy)",
+   "dcterms:title": "Communication Accommodation Theory",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/147103741.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/register-and-tone/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Kate Moran, Nielsen Norman Group, 2016 (reviewed 2024)",
+   "dcterms:title": "The Impact of Tone of Voice on Users' Brand Perception",
+   "schema:url": {
+    "@id": "https://www.nngroup.com/articles/tone-voice-users/"
    }
   },
   {
