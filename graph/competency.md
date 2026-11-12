@@ -98,7 +98,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:email` | `cm:email-urgency-bias-study` |
 | `cm:email` | `cm:emoji-and-tone-in-text` |
 
-…and 104 more.
+…and 106 more.
 
 ## Myths and contested advice
 
@@ -137,7 +137,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:asynchronous-communication` | mixed |  |
 | `cm:batna` | mixed | `cm:schaerer-swaab-galinsky-2015` |
 
-…and 132 more.
+…and 133 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -157,6 +157,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:interrupting` | cmo:AntiPattern |
 | `cm:job-interview` | cmo:Context |
 | `cm:labeling-emotions` | cmo:Technique |
+| `cm:listening-styles` | cmo:Framework |
 | `cm:meeting-agendas` | cmo:Technique |
 | `cm:meeting-recaps` | cmo:Technique |
 | `cm:message-structure` | cmo:Concept |
@@ -174,9 +175,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:persuasion` | cmo:Skill |
 | `cm:plain-language` | cmo:Principle |
 | `cm:praise-and-recognition` | cmo:Technique |
-| `cm:presentation` | cmo:Context |
 
-…and 31 more.
+…and 32 more.
 
 ## Orphan articles (gap)
 

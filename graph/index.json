@@ -11908,6 +11908,80 @@
   ]
  },
  {
+  "id": "cm:listening-styles",
+  "title": "Listening styles",
+  "aliases": [
+   "listening style preferences",
+   "Listening Styles Profile",
+   "LSP-R",
+   "relational analytical task-oriented and critical listening"
+  ],
+  "type": "Framework",
+  "domain": "listening",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/listening/listening-styles.md",
+  "created": "2026-11-12",
+  "summary": "A framework that sorts the goals people bring to listening (relational, analytical, task-oriented and critical in the revised model; people, content, action and time in the original) so a listener can notice their default and shift to the one the conversation needs.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:listening"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:audience-analysis"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:support-response"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:perspective-taking"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:bodie-et-al-2013",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:gearhart-et-al-2014",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:active-listening",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:executive-briefing",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:presentation",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://static1.squarespace.com/static/5633a3ade4b02b1547969346/t/572d1bdb40261d2ef97f3eb2/1462574044157/LSPR+CQ+FINAL+PUBLISHED.pdf",
+   "https://static1.squarespace.com/static/5633a3ade4b02b1547969346/t/572d12957da24fce82650007/1462571670091/Gearhart+Denham+Bodie+Western+2014+listen+as+goal+PUBLISHED.pdf",
+   "https://digfir-published.macmillanusa.com/reflectrelate4e/reflectrelate4e_ch06_5.html",
+   "https://open.library.okstate.edu/speech2713/chapter/4-2-listening-styles-2/"
+  ]
+ },
+ {
   "id": "cm:macinnis-mackinnon-macintyre-2010",
   "title": "The Illusion of Transparency and Normative Beliefs About Anxiety During Public Speaking",
   "aliases": [

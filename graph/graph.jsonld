@@ -10471,6 +10471,75 @@
    ]
   },
   {
+   "@id": "cm:listening-styles",
+   "@type": "cmo:Framework",
+   "cmo:appliedIn": [
+    {
+     "@id": "cm:executive-briefing"
+    },
+    {
+     "@id": "cm:presentation"
+    }
+   ],
+   "cmo:challengedBy": {
+    "@id": "cm:gearhart-et-al-2014"
+   },
+   "cmo:complements": {
+    "@id": "cm:active-listening"
+   },
+   "cmo:demonstratedBy": {
+    "@id": "cm:bodie-et-al-2013"
+   },
+   "cmo:domain": "listening",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:file": "articles/listening/listening-styles.md",
+   "cmo:level": "intermediate",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/listening-styles/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/listening-styles/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/listening-styles/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/listening-styles/s4"
+    }
+   ],
+   "rdfs:label": "Listening styles",
+   "skos:altLabel": [
+    "LSP-R",
+    "Listening Styles Profile",
+    "listening style preferences",
+    "relational analytical task-oriented and critical listening"
+   ],
+   "skos:broader": {
+    "@id": "cm:listening"
+   },
+   "skos:definition": "A framework that sorts the goals people bring to listening (relational, analytical, task-oriented and critical in the revised model; people, content, action and time in the original) so a listener can notice their default and shift to the one the conversation needs.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/listening"
+   },
+   "skos:prefLabel": "Listening styles",
+   "skos:related": [
+    {
+     "@id": "cm:audience-analysis"
+    },
+    {
+     "@id": "cm:perspective-taking"
+    },
+    {
+     "@id": "cm:support-response"
+    }
+   ]
+  },
+  {
    "@id": "cm:macinnis-mackinnon-macintyre-2010",
    "@type": "cmo:Study",
    "cmo:domain": "thinkers-and-works",
@@ -38224,6 +38293,62 @@
    "dcterms:title": "How to Use Labels to Neutralize Negative Emotions in a Negotiation",
    "schema:url": {
     "@id": "https://www.blackswanltd.com/the-edge/how-to-use-labels-to-neutralize-negative-emotions-in-a-negotiation"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/listening-styles/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Bodie, G. D., Worthington, D. L., & Gearhart, C. C. (2013), Communication Quarterly 61(1), 72-90, doi:10.1080/01463373.2012.720343 (authors' copy)",
+   "dcterms:title": "The Listening Styles Profile-Revised (LSP-R): A Scale Revision and Evidence for Validity",
+   "schema:url": {
+    "@id": "https://static1.squarespace.com/static/5633a3ade4b02b1547969346/t/572d1bdb40261d2ef97f3eb2/1462574044157/LSPR+CQ+FINAL+PUBLISHED.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/listening-styles/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Gearhart, C. C., Denham, J. P., & Bodie, G. D. (2014), Western Journal of Communication, doi:10.1080/10570314.2014.910888 (authors' copy)",
+   "dcterms:title": "Listening as a Goal-Directed Activity",
+   "schema:url": {
+    "@id": "https://static1.squarespace.com/static/5633a3ade4b02b1547969346/t/572d12957da24fce82650007/1462571670091/Gearhart+Denham+Bodie+Western+2014+listen+as+goal+PUBLISHED.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/listening-styles/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Macmillan Learning (Bedford/St. Martin's) textbook companion",
+   "dcterms:title": "Understanding Listening Styles (Reflect & Relate, 4th ed., ch. 6)",
+   "schema:url": {
+    "@id": "https://digfir-published.macmillanusa.com/reflectrelate4e/reflectrelate4e_ch06_5.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/listening-styles/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Oklahoma State University Open Library (open textbook)",
+   "dcterms:title": "11.3 Listening Styles (Introduction to Speech Communication)",
+   "schema:url": {
+    "@id": "https://open.library.okstate.edu/speech2713/chapter/4-2-listening-styles-2/"
    }
   },
   {
