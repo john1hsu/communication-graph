@@ -8805,6 +8805,36 @@
 <https://github.com/john1hsu/communication-graph/id/reservation-value> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/negotiation/reservation-value.md" .
 <https://github.com/john1hsu/communication-graph/id/reservation-value> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/reservation-value> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/batna> .
+<https://github.com/john1hsu/communication-graph/id/rfc-1855-netiquette-guidelines> <http://purl.org/dc/terms/created> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/rfc-1855-netiquette-guidelines> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
+<https://github.com/john1hsu/communication-graph/id/rfc-1855-netiquette-guidelines> <http://www.w3.org/2000/01/rdf-schema#label> "RFC 1855" .
+<https://github.com/john1hsu/communication-graph/id/rfc-1855-netiquette-guidelines> <http://www.w3.org/2004/02/skos/core#altLabel> "FYI 28" .
+<https://github.com/john1hsu/communication-graph/id/rfc-1855-netiquette-guidelines> <http://www.w3.org/2004/02/skos/core#altLabel> "Hambridge's netiquette guidelines" .
+<https://github.com/john1hsu/communication-graph/id/rfc-1855-netiquette-guidelines> <http://www.w3.org/2004/02/skos/core#altLabel> "IETF netiquette guide" .
+<https://github.com/john1hsu/communication-graph/id/rfc-1855-netiquette-guidelines> <http://www.w3.org/2004/02/skos/core#altLabel> "Netiquette Guidelines" .
+<https://github.com/john1hsu/communication-graph/id/rfc-1855-netiquette-guidelines> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/digital-communication> .
+<https://github.com/john1hsu/communication-graph/id/rfc-1855-netiquette-guidelines> <http://www.w3.org/2004/02/skos/core#definition> "Sally Hambridge's October 1995 Internet Engineering Task Force document \"Netiquette Guidelines\" (RFC 1855, FYI 28), a bulleted, adaptable minimum set of courtesy rules for email, real-time one-to-one chat (\"talk\"), mailing lists and newsgroups that organisations were invited to tailor into their own policies." .
+<https://github.com/john1hsu/communication-graph/id/rfc-1855-netiquette-guidelines> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works> .
+<https://github.com/john1hsu/communication-graph/id/rfc-1855-netiquette-guidelines> <http://www.w3.org/2004/02/skos/core#prefLabel> "RFC 1855" .
+<https://github.com/john1hsu/communication-graph/id/rfc-1855-netiquette-guidelines> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
+<https://github.com/john1hsu/communication-graph/id/rfc-1855-netiquette-guidelines> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/chat-etiquette> .
+<https://github.com/john1hsu/communication-graph/id/rfc-1855-netiquette-guidelines> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cooling-off-period> .
+<https://github.com/john1hsu/communication-graph/id/rfc-1855-netiquette-guidelines> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/email> .
+<https://github.com/john1hsu/communication-graph/id/rfc-1855-netiquette-guidelines> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> .
+<https://github.com/john1hsu/communication-graph/id/rfc-1855-netiquette-guidelines> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/ray-tomlinson> .
+<https://github.com/john1hsu/communication-graph/id/rfc-1855-netiquette-guidelines> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/scott-fahlman> .
+<https://github.com/john1hsu/communication-graph/id/rfc-1855-netiquette-guidelines> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/rfc-1855-netiquette-guidelines/s1> .
+<https://github.com/john1hsu/communication-graph/id/rfc-1855-netiquette-guidelines> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/rfc-1855-netiquette-guidelines/s2> .
+<https://github.com/john1hsu/communication-graph/id/rfc-1855-netiquette-guidelines> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/rfc-1855-netiquette-guidelines/s3> .
+<https://github.com/john1hsu/communication-graph/id/rfc-1855-netiquette-guidelines> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/rfc-1855-netiquette-guidelines/s4> .
+<https://github.com/john1hsu/communication-graph/id/rfc-1855-netiquette-guidelines> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/email> .
+<https://github.com/john1hsu/communication-graph/id/rfc-1855-netiquette-guidelines> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/instant-messaging> .
+<https://github.com/john1hsu/communication-graph/id/rfc-1855-netiquette-guidelines> <https://github.com/john1hsu/communication-graph/ontology#authoredBy> <https://github.com/john1hsu/communication-graph/id/sally-hambridge> .
+<https://github.com/john1hsu/communication-graph/id/rfc-1855-netiquette-guidelines> <https://github.com/john1hsu/communication-graph/ontology#domain> "thinkers-and-works" .
+<https://github.com/john1hsu/communication-graph/id/rfc-1855-netiquette-guidelines> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "historical" .
+<https://github.com/john1hsu/communication-graph/id/rfc-1855-netiquette-guidelines> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/thinkers-and-works/rfc-1855-netiquette-guidelines.md" .
+<https://github.com/john1hsu/communication-graph/id/rfc-1855-netiquette-guidelines> <https://github.com/john1hsu/communication-graph/ontology#introduces> <https://github.com/john1hsu/communication-graph/id/chat-etiquette> .
+<https://github.com/john1hsu/communication-graph/id/rfc-1855-netiquette-guidelines> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Have I stated the reference group (\"out of every 1,000 ...\") before giving any count?" .
 <https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies> .
@@ -15576,6 +15606,30 @@
 <https://github.com/john1hsu/communication-graph/id/source/reservation-value/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/reservation-value/s7> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
 <https://github.com/john1hsu/communication-graph/id/source/reservation-value/s7> <https://schema.org/url> <https://www.pon.harvard.edu/shop/art-science-of-negotiation-the/> .
+<https://github.com/john1hsu/communication-graph/id/source/rfc-1855-netiquette-guidelines/s1> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/rfc-1855-netiquette-guidelines/s1> <http://purl.org/dc/terms/publisher> "Hambridge, S. (Intel Corporation), Responsible Use of the Network Working Group, Internet Engineering Task Force, RFC Editor, October 1995" .
+<https://github.com/john1hsu/communication-graph/id/source/rfc-1855-netiquette-guidelines/s1> <http://purl.org/dc/terms/title> "RFC 1855 / FYI 28: Netiquette Guidelines" .
+<https://github.com/john1hsu/communication-graph/id/source/rfc-1855-netiquette-guidelines/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/rfc-1855-netiquette-guidelines/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/rfc-1855-netiquette-guidelines/s1> <https://schema.org/url> <https://www.rfc-editor.org/rfc/rfc1855.html> .
+<https://github.com/john1hsu/communication-graph/id/source/rfc-1855-netiquette-guidelines/s2> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/rfc-1855-netiquette-guidelines/s2> <http://purl.org/dc/terms/publisher> "Internet Engineering Task Force, proceedings of the 32nd IETF meeting (Danvers, 1995)" .
+<https://github.com/john1hsu/communication-graph/id/source/rfc-1855-netiquette-guidelines/s2> <http://purl.org/dc/terms/title> "Responsible Use of the Network (run) Charter" .
+<https://github.com/john1hsu/communication-graph/id/source/rfc-1855-netiquette-guidelines/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/rfc-1855-netiquette-guidelines/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/rfc-1855-netiquette-guidelines/s2> <https://schema.org/url> <https://ietf.org/proceedings/32/charters/run-charter.html> .
+<https://github.com/john1hsu/communication-graph/id/source/rfc-1855-netiquette-guidelines/s3> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/rfc-1855-netiquette-guidelines/s3> <http://purl.org/dc/terms/publisher> "Encyclopaedia Britannica" .
+<https://github.com/john1hsu/communication-graph/id/source/rfc-1855-netiquette-guidelines/s3> <http://purl.org/dc/terms/title> "Netiquette" .
+<https://github.com/john1hsu/communication-graph/id/source/rfc-1855-netiquette-guidelines/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/rfc-1855-netiquette-guidelines/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "encyclopedia" .
+<https://github.com/john1hsu/communication-graph/id/source/rfc-1855-netiquette-guidelines/s3> <https://schema.org/url> <https://www.britannica.com/topic/netiquette> .
+<https://github.com/john1hsu/communication-graph/id/source/rfc-1855-netiquette-guidelines/s4> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/rfc-1855-netiquette-guidelines/s4> <http://purl.org/dc/terms/publisher> "Bartl, R., Journal of Applied Leadership and Management 5, 35-61, 2017 (IDEAS/RePEc record)" .
+<https://github.com/john1hsu/communication-graph/id/source/rfc-1855-netiquette-guidelines/s4> <http://purl.org/dc/terms/title> "Impact of Netiquette on Email communication" .
+<https://github.com/john1hsu/communication-graph/id/source/rfc-1855-netiquette-guidelines/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/rfc-1855-netiquette-guidelines/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/rfc-1855-netiquette-guidelines/s4> <https://schema.org/url> <https://ideas.repec.org/a/zbw/hkjalm/175334.html> .
 <https://github.com/john1hsu/communication-graph/id/source/risk-numbers-as-natural-frequencies/s1> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/risk-numbers-as-natural-frequencies/s1> <http://purl.org/dc/terms/publisher> "Gigerenzer & Hoffrage, Psychological Review 102(4): 684-704 (1995) (course copy, UC San Diego)" .
 <https://github.com/john1hsu/communication-graph/id/source/risk-numbers-as-natural-frequencies/s1> <http://purl.org/dc/terms/title> "How to improve Bayesian reasoning without instruction: Frequency formats" .

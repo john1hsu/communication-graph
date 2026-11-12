@@ -17350,6 +17350,90 @@
   ]
  },
  {
+  "id": "cm:rfc-1855-netiquette-guidelines",
+  "title": "RFC 1855",
+  "aliases": [
+   "Netiquette Guidelines",
+   "FYI 28",
+   "Hambridge's netiquette guidelines",
+   "IETF netiquette guide"
+  ],
+  "type": "Work",
+  "domain": "thinkers-and-works",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/thinkers-and-works/rfc-1855-netiquette-guidelines.md",
+  "created": "2026-11-12",
+  "summary": "Sally Hambridge's October 1995 Internet Engineering Task Force document \"Netiquette Guidelines\" (RFC 1855, FYI 28), a bulleted, adaptable minimum set of courtesy rules for email, real-time one-to-one chat (\"talk\"), mailing lists and newsgroups that organisations were invited to tailor into their own policies.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:digital-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:chat-etiquette"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:email"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:emoji-and-tone-in-text"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:cooling-off-period"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:audience-analysis"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:scott-fahlman"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:ray-tomlinson"
+   },
+   {
+    "predicate": "cmo:authoredBy",
+    "object": "cm:sally-hambridge",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introduces",
+    "object": "cm:chat-etiquette",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:email",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:instant-messaging",
+    "source": "s1",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://www.rfc-editor.org/rfc/rfc1855.html",
+   "https://ietf.org/proceedings/32/charters/run-charter.html",
+   "https://www.britannica.com/topic/netiquette",
+   "https://ideas.repec.org/a/zbw/hkjalm/175334.html"
+  ]
+ },
+ {
   "id": "cm:risk-numbers-as-natural-frequencies",
   "title": "Risk numbers as natural frequencies",
   "aliases": [

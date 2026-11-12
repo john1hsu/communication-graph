@@ -15303,6 +15303,84 @@
    ]
   },
   {
+   "@id": "cm:rfc-1855-netiquette-guidelines",
+   "@type": "cmo:Work",
+   "cmo:appliedIn": [
+    {
+     "@id": "cm:email"
+    },
+    {
+     "@id": "cm:instant-messaging"
+    }
+   ],
+   "cmo:authoredBy": {
+    "@id": "cm:sally-hambridge"
+   },
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "historical",
+   "cmo:file": "articles/thinkers-and-works/rfc-1855-netiquette-guidelines.md",
+   "cmo:introduces": {
+    "@id": "cm:chat-etiquette"
+   },
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/rfc-1855-netiquette-guidelines/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/rfc-1855-netiquette-guidelines/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/rfc-1855-netiquette-guidelines/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/rfc-1855-netiquette-guidelines/s4"
+    }
+   ],
+   "rdfs:label": "RFC 1855",
+   "skos:altLabel": [
+    "FYI 28",
+    "Hambridge's netiquette guidelines",
+    "IETF netiquette guide",
+    "Netiquette Guidelines"
+   ],
+   "skos:broader": {
+    "@id": "cm:digital-communication"
+   },
+   "skos:definition": "Sally Hambridge's October 1995 Internet Engineering Task Force document \"Netiquette Guidelines\" (RFC 1855, FYI 28), a bulleted, adaptable minimum set of courtesy rules for email, real-time one-to-one chat (\"talk\"), mailing lists and newsgroups that organisations were invited to tailor into their own policies.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "RFC 1855",
+   "skos:related": [
+    {
+     "@id": "cm:audience-analysis"
+    },
+    {
+     "@id": "cm:chat-etiquette"
+    },
+    {
+     "@id": "cm:cooling-off-period"
+    },
+    {
+     "@id": "cm:email"
+    },
+    {
+     "@id": "cm:emoji-and-tone-in-text"
+    },
+    {
+     "@id": "cm:ray-tomlinson"
+    },
+    {
+     "@id": "cm:scott-fahlman"
+    }
+   ]
+  },
+  {
    "@id": "cm:risk-numbers-as-natural-frequencies",
    "@type": "cmo:Technique",
    "cmo:addresses": {
@@ -40869,6 +40947,62 @@
    "dcterms:title": "The Art and Science of Negotiation",
    "schema:url": {
     "@id": "https://www.pon.harvard.edu/shop/art-science-of-negotiation-the/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/rfc-1855-netiquette-guidelines/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Hambridge, S. (Intel Corporation), Responsible Use of the Network Working Group, Internet Engineering Task Force, RFC Editor, October 1995",
+   "dcterms:title": "RFC 1855 / FYI 28: Netiquette Guidelines",
+   "schema:url": {
+    "@id": "https://www.rfc-editor.org/rfc/rfc1855.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/rfc-1855-netiquette-guidelines/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Internet Engineering Task Force, proceedings of the 32nd IETF meeting (Danvers, 1995)",
+   "dcterms:title": "Responsible Use of the Network (run) Charter",
+   "schema:url": {
+    "@id": "https://ietf.org/proceedings/32/charters/run-charter.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/rfc-1855-netiquette-guidelines/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Encyclopaedia Britannica",
+   "dcterms:title": "Netiquette",
+   "schema:url": {
+    "@id": "https://www.britannica.com/topic/netiquette"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/rfc-1855-netiquette-guidelines/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Bartl, R., Journal of Applied Leadership and Management 5, 35-61, 2017 (IDEAS/RePEc record)",
+   "dcterms:title": "Impact of Netiquette on Email communication",
+   "schema:url": {
+    "@id": "https://ideas.repec.org/a/zbw/hkjalm/175334.html"
    }
   },
   {
