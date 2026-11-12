@@ -13481,6 +13481,107 @@
   ]
  },
  {
+  "id": "cm:mum-effect",
+  "title": "MUM effect",
+  "aliases": [
+   "keeping mum about undesirable messages",
+   "reluctance to transmit bad news",
+   "reluctance to report bad news",
+   "shoot-the-messenger fear"
+  ],
+  "type": "Barrier",
+  "domain": "barriers-and-psychology",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/barriers-and-psychology/mum-effect.md",
+  "created": "2026-11-12",
+  "summary": "The reluctance people feel about passing on unwelcome information, which leads them to delay, soften, distort or withhold bad news - especially upward, to a boss or client - so problems surface late, when they are more expensive to fix.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:employee-silence"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:delivering-bad-news"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:escalation-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:status-reporting"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:managing-up"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:psychological-safety"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:deaf-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:channel-selection"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:bottom-line-up-front"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:smith-keil-depledge-2001",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:petter-et-al-2016",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:dibble-2017",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:sussman-sproull-1999",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:undermines",
+    "object": "cm:status-reporting",
+    "source": "s6",
+    "confidence": "high"
+   }
+  ],
+  "selfCheck": [
+   "Is there something I know about this project that my manager or client would want to hear today, and that I am waiting to \"get more certainty\" on?",
+   "In this update, have I said the bad news plainly in the first lines, or hidden it under progress and qualifiers?",
+   "Am I staying quiet mainly to spare them distress, to avoid blame, or because I think nothing will change - and would they agree with that trade-off?",
+   "As the person receiving reports, what happened the last time someone brought me bad news early?"
+  ],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://core.ac.uk/download/268392421.pdf",
+   "https://jmis-web.org/articles/885",
+   "https://aisel.aisnet.org/trr/vol2/iss1/6",
+   "https://aisel.aisnet.org/jais/vol9/iss7/1",
+   "https://www.informs.org/News-Room/INFORMS-Releases/News-Releases/DELIVERING-BAD-NEWS-BY-E-MAIL-IS-MORE-ACCURATE-LESS-PAINFUL-STUDY-SUGGESTS-June-23-1999",
+   "https://sloanreview.mit.edu/?p=33323"
+  ]
+ },
+ {
   "id": "cm:murray-turoff",
   "title": "Murray Turoff",
   "aliases": [

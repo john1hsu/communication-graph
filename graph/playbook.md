@@ -67,6 +67,14 @@ Ask yourself:
 - Have I told my team when I do and do not expect replies, so nobody feels they must watch the inbox all day?
 - When I feel swamped, is it the volume of messages, or a lack of clear priorities behind them?
 
+### [MUM effect](../articles/barriers-and-psychology/mum-effect.md) — Barrier
+
+Ask yourself:
+- Is there something I know about this project that my manager or client would want to hear today, and that I am waiting to "get more certainty" on?
+- In this update, have I said the bad news plainly in the first lines, or hidden it under progress and qualifiers?
+- Am I staying quiet mainly to spare them distress, to avoid blame, or because I think nothing will change - and would they agree with that trade-off?
+- As the person receiving reports, what happened the last time someone brought me bad news early?
+
 ### [Self-distancing strategies](../articles/barriers-and-psychology/self-distancing.md) — Technique
 
 1. Before the meeting or talk, write or say two or three sentences of self-talk using your own name or "you" instead of "I" (for example, "Sam, you know this material; your job is to explain it").

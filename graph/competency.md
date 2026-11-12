@@ -34,7 +34,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:chat-etiquette` | 2 | Information overload, workplace-telepressure |
 | `cm:culture-assimilator` | 2 | Cultural intelligence, Intercultural competence |
 | `cm:describe-analyze-evaluate` | 2 | Ethnocentrism, Intercultural competence |
-| `cm:escalation-communication` | 2 | employee-silence, mum-effect |
+| `cm:escalation-communication` | 2 | MUM effect, employee-silence |
 | `cm:facilitation` | 2 | Interrupting, Unequal participation |
 | `cm:i-statements` | 2 | Defensiveness, accusatory-you-statements |
 | `cm:interests-vs-positions` | 2 | Mythical fixed-pie bias, positional-bargaining |
@@ -135,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:batna` | mixed | `cm:schaerer-swaab-galinsky-2015` |
 | `cm:bulleted-and-numbered-lists` | mixed | `cm:columbia-accident-investigation-board-report` |
 
-…and 130 more.
+…and 131 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -161,6 +161,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:message-structure` | cmo:Concept |
 | `cm:mirroring` | cmo:Technique |
 | `cm:multicultural-team` | cmo:Context |
+| `cm:mum-effect` | cmo:Barrier |
 | `cm:narrative-persuasion` | cmo:Technique |
 | `cm:negotiation` | cmo:Context |
 | `cm:negotiation-preparation` | cmo:Context |
@@ -172,9 +173,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:persuasion` | cmo:Skill |
 | `cm:plain-language` | cmo:Principle |
 | `cm:praise-and-recognition` | cmo:Technique |
-| `cm:presentation` | cmo:Context |
 
-…and 31 more.
+…and 32 more.
 
 ## Orphan articles (gap)
 

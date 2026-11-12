@@ -11909,6 +11909,96 @@
    ]
   },
   {
+   "@id": "cm:mum-effect",
+   "@type": "cmo:Barrier",
+   "cmo:demonstratedBy": [
+    {
+     "@id": "cm:dibble-2017"
+    },
+    {
+     "@id": "cm:smith-keil-depledge-2001"
+    },
+    {
+     "@id": "cm:sussman-sproull-1999"
+    }
+   ],
+   "cmo:domain": "barriers-and-psychology",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:file": "articles/barriers-and-psychology/mum-effect.md",
+   "cmo:level": "introductory",
+   "cmo:supportedBy": {
+    "@id": "cm:petter-et-al-2016"
+   },
+   "cmo:undermines": {
+    "@id": "cm:status-reporting"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/mum-effect/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/mum-effect/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/mum-effect/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/mum-effect/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/mum-effect/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/mum-effect/s6"
+    }
+   ],
+   "rdfs:label": "MUM effect",
+   "skos:altLabel": [
+    "keeping mum about undesirable messages",
+    "reluctance to report bad news",
+    "reluctance to transmit bad news",
+    "shoot-the-messenger fear"
+   ],
+   "skos:broader": {
+    "@id": "cm:employee-silence"
+   },
+   "skos:definition": "The reluctance people feel about passing on unwelcome information, which leads them to delay, soften, distort or withhold bad news - especially upward, to a boss or client - so problems surface late, when they are more expensive to fix.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/barriers-and-psychology"
+   },
+   "skos:prefLabel": "MUM effect",
+   "skos:related": [
+    {
+     "@id": "cm:bottom-line-up-front"
+    },
+    {
+     "@id": "cm:channel-selection"
+    },
+    {
+     "@id": "cm:deaf-effect"
+    },
+    {
+     "@id": "cm:delivering-bad-news"
+    },
+    {
+     "@id": "cm:escalation-communication"
+    },
+    {
+     "@id": "cm:managing-up"
+    },
+    {
+     "@id": "cm:psychological-safety"
+    },
+    {
+     "@id": "cm:status-reporting"
+    }
+   ]
+  },
+  {
    "@id": "cm:murray-turoff",
    "@type": "cmo:Person",
    "cmo:authored": [
@@ -25735,6 +25825,38 @@
    "schema:text": "Treat their choice as information about their priorities; if they combine the best parts of different packages, reply with a fresh set of equivalent packages rather than conceding piece by piece."
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/mum-effect/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:mum-effect"
+   },
+   "rdfs:label": "Is there something I know about this project that my manager or client would want to hear today, and that I am waiting to \"get more certainty\" on?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/mum-effect/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:mum-effect"
+   },
+   "rdfs:label": "In this update, have I said the bad news plainly in the first lines, or hidden it under progress and qualifiers?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/mum-effect/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:mum-effect"
+   },
+   "rdfs:label": "Am I staying quiet mainly to spare them distress, to avoid blame, or because I think nothing will change - and would they agree with that trade-off?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/mum-effect/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:mum-effect"
+   },
+   "rdfs:label": "As the person receiving reports, what happened the last time someone brought me bad news early?"
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/mythical-fixed-pie/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -39086,6 +39208,90 @@
    "dcterms:title": "The art of the deal: Negotiate like a pro",
    "schema:url": {
     "@id": "https://impact.monash.edu/management/the-art-of-the-deal-negotiate-like-a-pro/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/mum-effect/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Dibble, J. L., Communication Research Reports 35(2), 112-120, 2017 (Hope College Digital Commons author copy via CORE)",
+   "dcterms:title": "It's More Than Self-Presentation: MUM Effects Can Reflect Private Discomfort and Concern for the Recipient",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/268392421.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/mum-effect/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Smith, H. J., Keil, M. & Depledge, G., Journal of Management Information Systems 18(2), 189-227, 2001",
+   "dcterms:title": "Keeping Mum as the Project Goes Under: Toward an Explanatory Model",
+   "schema:url": {
+    "@id": "https://jmis-web.org/articles/885"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/mum-effect/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Petter, S., Randolph, A. B., DeJong, J. & Robinson, A. T., AIS Transactions on Replication Research 2(1), Article 6, 2016",
+   "dcterms:title": "The Trouble with Troubled Projects: Keeping Mum during Times of Crisis",
+   "schema:url": {
+    "@id": "https://aisel.aisnet.org/trr/vol2/iss1/6"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/mum-effect/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Park, C., Im, G. & Keil, M., Journal of the Association for Information Systems 9(7), Article 1, 2008",
+   "dcterms:title": "Overcoming the Mum Effect in IT Project Reporting: Impacts of Fault Responsibility and Time Urgency",
+   "schema:url": {
+    "@id": "https://aisel.aisnet.org/jais/vol9/iss7/1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/mum-effect/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "INFORMS news release, June 23, 1999",
+   "dcterms:title": "Delivering bad news by e-mail is more accurate, less painful, study suggests (Sussman & Sproull, Information Systems Research, 1999)",
+   "schema:url": {
+    "@id": "https://www.informs.org/News-Room/INFORMS-Releases/News-Releases/DELIVERING-BAD-NEWS-BY-E-MAIL-IS-MORE-ACCURATE-LESS-PAINFUL-STUDY-SUGGESTS-June-23-1999"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/mum-effect/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "practitioner-journal",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Keil, M., Smith, H. J., Iacovou, C. L. & Thompson, R. L., MIT Sloan Management Review, Spring 2014",
+   "dcterms:title": "The Pitfalls of Project Status Reporting",
+   "schema:url": {
+    "@id": "https://sloanreview.mit.edu/?p=33323"
    }
   },
   {
