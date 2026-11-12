@@ -19573,6 +19573,101 @@
    ]
   },
   {
+   "@id": "cm:wise-feedback",
+   "@type": "cmo:Technique",
+   "cmo:addresses": {
+    "@id": "cm:attributional-ambiguity"
+   },
+   "cmo:alternativeTo": {
+    "@id": "cm:feedback-sandwich"
+   },
+   "cmo:challengedBy": {
+    "@id": "cm:troy-moua-van-boekel-2024"
+   },
+   "cmo:demonstratedBy": [
+    {
+     "@id": "cm:cohen-steele-ross-1999"
+    },
+    {
+     "@id": "cm:yeager-et-al-2014"
+    }
+   ],
+   "cmo:domain": "feedback-and-coaching",
+   "cmo:evidenceStatus": "contested",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/wise-feedback/example"
+   },
+   "cmo:file": "articles/feedback-and-coaching/wise-feedback.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/wise-feedback/howto"
+   },
+   "cmo:introducedBy": {
+    "@id": "cm:geoffrey-l-cohen"
+   },
+   "cmo:level": "intermediate",
+   "cmo:studiedIn": {
+    "@id": "cm:social-psychology"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/wise-feedback/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/wise-feedback/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/wise-feedback/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/wise-feedback/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/wise-feedback/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/wise-feedback/s6"
+    }
+   ],
+   "rdfs:label": "Wise feedback",
+   "skos:altLabel": [
+    "high standards plus assurance",
+    "wise criticism",
+    "wise feedback note"
+   ],
+   "skos:broader": {
+    "@id": "cm:feedback"
+   },
+   "skos:definition": "Delivering critical feedback together with an explicit reason for it: you hold high standards and you believe the person can meet them. The framing helps people read criticism as investment rather than bias, especially when they have reason to doubt the giver's intentions.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/feedback-and-coaching"
+   },
+   "skos:prefLabel": "Wise feedback",
+   "skos:related": [
+    {
+     "@id": "cm:feedback-sandwich"
+    },
+    {
+     "@id": "cm:performance-review"
+    },
+    {
+     "@id": "cm:psychological-safety"
+    },
+    {
+     "@id": "cm:radical-candor"
+    },
+    {
+     "@id": "cm:receiving-feedback"
+    },
+    {
+     "@id": "cm:self-affirmation-before-feedback"
+    }
+   ]
+  },
+  {
    "@id": "cm:wisniewski-zierer-hattie-2020",
    "@type": "cmo:Study",
    "cmo:complements": {
@@ -45847,6 +45942,90 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/wise-feedback/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Yeager, Purdie-Vaughns, Garcia, Apfel, Brzustoski, Master, Hessert, Williams & Cohen, Journal of Experimental Psychology General 143(2), 804-824 (2014), doi:10.1037/a0033906 (Stanford SPARQ author copy)",
+   "dcterms:title": "Breaking the Cycle of Mistrust: Wise Interventions to Provide Critical Feedback Across the Racial Divide",
+   "schema:url": {
+    "@id": "https://sparq.stanford.edu/sites/g/files/sbiybj19021/files/media/file/yeager_et_al._2014_-_breaking_the_cycle_of_mistrust.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/wise-feedback/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Cohen, Steele & Ross, Personality and Social Psychology Bulletin 25(10), 1302-1318 (1999), doi:10.1177/0146167299258011 (ComPADRE catalog record)",
+   "dcterms:title": "The Mentor's Dilemma: Providing Critical Feedback Across the Racial Divide",
+   "schema:url": {
+    "@id": "https://www.compadre.org/portal/items/detail.cfm?ID=16346"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/wise-feedback/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Troy, Moua & Van Boekel, Psychology in the Schools 61(6), 2424-2447 (2024) (University of Minnesota Experts record)",
+   "dcterms:title": "Wise feedback and trust in higher education: A quantitative and qualitative exploration of undergraduate students' experiences with critical feedback",
+   "schema:url": {
+    "@id": "https://experts.umn.edu/en/publications/wise-feedback-and-trust-in-higher-education-a-quantitative-and-qu/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/wise-feedback/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Kalkstein, Walton, Meili & Isarraras, EdWorkingPaper 25-1299, Annenberg Institute at Brown University (2025)",
+   "dcterms:title": "Improving Student-Teacher Relationships Through Feedback: The Development and Evaluation of the Stanford/Leading Educators Wise Feedback Professional Development Learning Series",
+   "schema:url": {
+    "@id": "https://edworkingpapers.com/sites/default/files/ai25-1299.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/wise-feedback/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Lori A. Gano-Overway, Center for Faculty Innovation, James Madison University (2025)",
+   "dcterms:title": "Using Wise Feedback",
+   "schema:url": {
+    "@id": "https://www.jmu.edu/news/cfi/2025/10-16-using-wise-feedback.shtml"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/wise-feedback/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Stanford SPARQ (Social Psychological Answers to Real-world Questions)",
+   "dcterms:title": "Wise critiques help students succeed",
+   "schema:url": {
+    "@id": "https://sparq.stanford.edu/solutions/wise-critiques-help-students-succeed"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/source/wisniewski-zierer-hattie-2020/s1",
    "@type": "cmo:Source",
    "cmo:sourceType": "peer-reviewed",
@@ -47228,6 +47407,98 @@
    "cmo:before": "Hi all, following up on last week's steering call where we talked through the migration timeline and some of the issues the vendor raised about the legacy schema, which as you know has been a recurring theme since phase one, the team has now completed the mapping for most tables but we discovered that the customer-history table has about 40,000 records with inconsistent date formats, so the cutover will move from the 14th to the 21st, and to keep that date we will need Finance to confirm the archive cut-off and IT Security to approve the temporary service account by Thursday, otherwise we lose the weekend window...",
    "cmo:situation": "A project lead emails six stakeholders about a delayed data migration and needs two of them to act by Thursday.",
    "cmo:why": "The original buries the new date and both requests mid-paragraph, so a scanning reader sees only the opening background; the rewrite front-loads the change, gives each request its own line with an owner, and uses short labelled chunks so every reader can find their part in seconds."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/wise-feedback/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:wise-feedback"
+   },
+   "rdfs:label": "Did I say why I am giving this feedback, not just what is wrong?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/wise-feedback/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:wise-feedback"
+   },
+   "rdfs:label": "Is the high standard I mentioned one I actually apply to everyone on the team?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/wise-feedback/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:wise-feedback"
+   },
+   "rdfs:label": "Do I have real evidence that this person can meet it, and did I name it?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/wise-feedback/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:wise-feedback"
+   },
+   "rdfs:label": "Did I offer a specific chance to revise and a time to review it?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/wise-feedback/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "I've marked this up heavily because this deck goes to the client's CFO and I hold client work to a high bar. I've seen your modelling on the pricing project, so I know you can get this there. The two biggest fixes are sourcing each assumption and making the chart show the gap you name in the headline. Can we look at the revision Wednesday morning?",
+   "cmo:before": "Lots of issues here - see my comments. The assumptions slide is weak and the charts don't support the conclusion. Please fix before Thursday.",
+   "cmo:situation": "A team lead returns a junior analyst's first client-facing forecast deck with many corrections.",
+   "cmo:why": "The same criticism now comes with a reason the analyst can believe - a high standard and confidence in them - plus a concrete chance to improve, so the markup reads as investment rather than a verdict on their ability."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/wise-feedback/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Wise feedback",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/wise-feedback/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/wise-feedback/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/wise-feedback/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/wise-feedback/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/wise-feedback/howto/5"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/wise-feedback/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Make sure the standard is real and the work actually falls short of it; wise framing cannot rescue vague or unfair criticism."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/wise-feedback/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Write specific, rigorous comments that say where the work misses the mark and what would fix it."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/wise-feedback/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Add one or two sentences saying why you are giving this feedback - the bar is high because the work matters - and that you are confident this person can reach it."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/wise-feedback/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Give a concrete chance to act on it, such as a revision, a second draft or a follow-up review date."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/wise-feedback/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "When the improved version arrives, review it against the same standard and say what changed, so your stated belief is backed by follow-through."
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability/check/1",

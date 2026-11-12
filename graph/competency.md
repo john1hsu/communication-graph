@@ -57,7 +57,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:camera-level-gaze` | 1 | Gaze and eye contact |
 | `cm:camera-optional-norm` | 1 | Zoom fatigue |
 
-…and 40 more.
+…and 41 more.
 
 ## Toolkit by situation
 
@@ -124,6 +124,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:monroes-motivated-sequence` | contested | `cm:micciche-pryor-butler-2000` |
 | `cm:readability-formulas` | contested | `cm:duffy-kabance-1982` |
 | `cm:readability-formulas` | contested | `cm:redish-selzer-1985` |
+| `cm:wise-feedback` | contested | `cm:troy-moua-van-boekel-2024` |
 | `cm:power-posing` | failed-replication | `cm:crede-2019` |
 | `cm:power-posing` | failed-replication | `cm:ranehill-et-al-2015` |
 | `cm:acoustic-speech-analysis-coaching` | mixed |  |
@@ -133,9 +134,8 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:assertion-evidence-slides` | mixed | `cm:alzayed-alzamel-2023` |
 | `cm:asynchronous-communication` | mixed |  |
 | `cm:batna` | mixed | `cm:schaerer-swaab-galinsky-2015` |
-| `cm:bulleted-and-numbered-lists` | mixed | `cm:columbia-accident-investigation-board-report` |
 
-…and 131 more.
+…and 132 more.
 
 ## Concepts with no recorded origin (gap)
 

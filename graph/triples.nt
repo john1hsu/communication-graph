@@ -17648,6 +17648,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/william-strunk-jr/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/william-strunk-jr/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
 <https://github.com/john1hsu/communication-graph/id/source/william-strunk-jr/s4> <https://schema.org/url> <https://archive-prod.library.cornell.edu/agents/people/38936> .
+<https://github.com/john1hsu/communication-graph/id/source/wise-feedback/s1> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/wise-feedback/s1> <http://purl.org/dc/terms/publisher> "Yeager, Purdie-Vaughns, Garcia, Apfel, Brzustoski, Master, Hessert, Williams & Cohen, Journal of Experimental Psychology General 143(2), 804-824 (2014), doi:10.1037/a0033906 (Stanford SPARQ author copy)" .
+<https://github.com/john1hsu/communication-graph/id/source/wise-feedback/s1> <http://purl.org/dc/terms/title> "Breaking the Cycle of Mistrust: Wise Interventions to Provide Critical Feedback Across the Racial Divide" .
+<https://github.com/john1hsu/communication-graph/id/source/wise-feedback/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/wise-feedback/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/wise-feedback/s1> <https://schema.org/url> <https://sparq.stanford.edu/sites/g/files/sbiybj19021/files/media/file/yeager_et_al._2014_-_breaking_the_cycle_of_mistrust.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/wise-feedback/s2> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/wise-feedback/s2> <http://purl.org/dc/terms/publisher> "Cohen, Steele & Ross, Personality and Social Psychology Bulletin 25(10), 1302-1318 (1999), doi:10.1177/0146167299258011 (ComPADRE catalog record)" .
+<https://github.com/john1hsu/communication-graph/id/source/wise-feedback/s2> <http://purl.org/dc/terms/title> "The Mentor's Dilemma: Providing Critical Feedback Across the Racial Divide" .
+<https://github.com/john1hsu/communication-graph/id/source/wise-feedback/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/wise-feedback/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/wise-feedback/s2> <https://schema.org/url> <https://www.compadre.org/portal/items/detail.cfm?ID=16346> .
+<https://github.com/john1hsu/communication-graph/id/source/wise-feedback/s3> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/wise-feedback/s3> <http://purl.org/dc/terms/publisher> "Troy, Moua & Van Boekel, Psychology in the Schools 61(6), 2424-2447 (2024) (University of Minnesota Experts record)" .
+<https://github.com/john1hsu/communication-graph/id/source/wise-feedback/s3> <http://purl.org/dc/terms/title> "Wise feedback and trust in higher education: A quantitative and qualitative exploration of undergraduate students' experiences with critical feedback" .
+<https://github.com/john1hsu/communication-graph/id/source/wise-feedback/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/wise-feedback/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/wise-feedback/s3> <https://schema.org/url> <https://experts.umn.edu/en/publications/wise-feedback-and-trust-in-higher-education-a-quantitative-and-qu/> .
+<https://github.com/john1hsu/communication-graph/id/source/wise-feedback/s4> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/wise-feedback/s4> <http://purl.org/dc/terms/publisher> "Kalkstein, Walton, Meili & Isarraras, EdWorkingPaper 25-1299, Annenberg Institute at Brown University (2025)" .
+<https://github.com/john1hsu/communication-graph/id/source/wise-feedback/s4> <http://purl.org/dc/terms/title> "Improving Student-Teacher Relationships Through Feedback: The Development and Evaluation of the Stanford/Leading Educators Wise Feedback Professional Development Learning Series" .
+<https://github.com/john1hsu/communication-graph/id/source/wise-feedback/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/wise-feedback/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/wise-feedback/s4> <https://schema.org/url> <https://edworkingpapers.com/sites/default/files/ai25-1299.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/wise-feedback/s5> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/wise-feedback/s5> <http://purl.org/dc/terms/publisher> "Lori A. Gano-Overway, Center for Faculty Innovation, James Madison University (2025)" .
+<https://github.com/john1hsu/communication-graph/id/source/wise-feedback/s5> <http://purl.org/dc/terms/title> "Using Wise Feedback" .
+<https://github.com/john1hsu/communication-graph/id/source/wise-feedback/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/wise-feedback/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/wise-feedback/s5> <https://schema.org/url> <https://www.jmu.edu/news/cfi/2025/10-16-using-wise-feedback.shtml> .
+<https://github.com/john1hsu/communication-graph/id/source/wise-feedback/s6> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/wise-feedback/s6> <http://purl.org/dc/terms/publisher> "Stanford SPARQ (Social Psychological Answers to Real-world Questions)" .
+<https://github.com/john1hsu/communication-graph/id/source/wise-feedback/s6> <http://purl.org/dc/terms/title> "Wise critiques help students succeed" .
+<https://github.com/john1hsu/communication-graph/id/source/wise-feedback/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/wise-feedback/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/wise-feedback/s6> <https://schema.org/url> <https://sparq.stanford.edu/solutions/wise-critiques-help-students-succeed> .
 <https://github.com/john1hsu/communication-graph/id/source/wisniewski-zierer-hattie-2020/s1> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/wisniewski-zierer-hattie-2020/s1> <http://purl.org/dc/terms/publisher> "Wisniewski, Zierer & Hattie, Frontiers in Psychology 10:3087 (published 22 January 2020), doi:10.3389/fpsyg.2019.03087" .
 <https://github.com/john1hsu/communication-graph/id/source/wisniewski-zierer-hattie-2020/s1> <http://purl.org/dc/terms/title> "The Power of Feedback Revisited: A Meta-Analysis of Educational Feedback Research" .
@@ -18883,6 +18919,80 @@
 <https://github.com/john1hsu/communication-graph/id/william-strunk-jr> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/active-voice> .
 <https://github.com/john1hsu/communication-graph/id/william-strunk-jr> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/concise-writing> .
 <https://github.com/john1hsu/communication-graph/id/william-strunk-jr> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Did I say why I am giving this feedback, not just what is wrong?" .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/wise-feedback> .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Is the high standard I mentioned one I actually apply to everyone on the team?" .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/wise-feedback> .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Do I have real evidence that this person can meet it, and did I name it?" .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/wise-feedback> .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Did I offer a specific chance to revise and a time to review it?" .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/wise-feedback> .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback/example> <https://github.com/john1hsu/communication-graph/ontology#after> "I've marked this up heavily because this deck goes to the client's CFO and I hold client work to a high bar. I've seen your modelling on the pricing project, so I know you can get this there. The two biggest fixes are sourcing each assumption and making the chart show the gap you name in the headline. Can we look at the revision Wednesday morning?" .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback/example> <https://github.com/john1hsu/communication-graph/ontology#before> "Lots of issues here - see my comments. The assumptions slide is weak and the charts don't support the conclusion. Please fix before Thursday." .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "A team lead returns a junior analyst's first client-facing forecast deck with many corrections." .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback/example> <https://github.com/john1hsu/communication-graph/ontology#why> "The same criticism now comes with a reason the analyst can believe - a high standard and confidence in them - plus a concrete chance to improve, so the markup reads as investment rather than a verdict on their ability." .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback/howto/1> <https://schema.org/text> "Make sure the standard is real and the work actually falls short of it; wise framing cannot rescue vague or unfair criticism." .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback/howto/2> <https://schema.org/text> "Write specific, rigorous comments that say where the work misses the mark and what would fix it." .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback/howto/3> <https://schema.org/text> "Add one or two sentences saying why you are giving this feedback - the bar is high because the work matters - and that you are confident this person can reach it." .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback/howto/4> <https://schema.org/text> "Give a concrete chance to act on it, such as a revision, a second draft or a follow-up review date." .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback/howto/5> <https://schema.org/text> "When the improved version arrives, review it against the same standard and say what changed, so your stated belief is backed by follow-through." .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback/howto> <https://schema.org/name> "Wise feedback" .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/wise-feedback/howto/1> .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/wise-feedback/howto/2> .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/wise-feedback/howto/3> .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/wise-feedback/howto/4> .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/wise-feedback/howto/5> .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback> <http://purl.org/dc/terms/created> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Technique> .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback> <http://www.w3.org/2000/01/rdf-schema#label> "Wise feedback" .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback> <http://www.w3.org/2004/02/skos/core#altLabel> "high standards plus assurance" .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback> <http://www.w3.org/2004/02/skos/core#altLabel> "wise criticism" .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback> <http://www.w3.org/2004/02/skos/core#altLabel> "wise feedback note" .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/feedback> .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback> <http://www.w3.org/2004/02/skos/core#definition> "Delivering critical feedback together with an explicit reason for it: you hold high standards and you believe the person can meet them. The framing helps people read criticism as investment rather than bias, especially when they have reason to doubt the giver's intentions." .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/feedback-and-coaching> .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback> <http://www.w3.org/2004/02/skos/core#prefLabel> "Wise feedback" .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/feedback-sandwich> .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/performance-review> .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/radical-candor> .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/receiving-feedback> .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/self-affirmation-before-feedback> .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/wise-feedback/s1> .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/wise-feedback/s2> .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/wise-feedback/s3> .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/wise-feedback/s4> .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/wise-feedback/s5> .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/wise-feedback/s6> .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/attributional-ambiguity> .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback> <https://github.com/john1hsu/communication-graph/ontology#alternativeTo> <https://github.com/john1hsu/communication-graph/id/feedback-sandwich> .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/troy-moua-van-boekel-2024> .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/cohen-steele-ross-1999> .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/yeager-et-al-2014> .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback> <https://github.com/john1hsu/communication-graph/ontology#domain> "feedback-and-coaching" .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "contested" .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/wise-feedback/example> .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/feedback-and-coaching/wise-feedback.md" .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/wise-feedback/howto> .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/geoffrey-l-cohen> .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/communication-graph/id/wise-feedback> <https://github.com/john1hsu/communication-graph/ontology#studiedIn> <https://github.com/john1hsu/communication-graph/id/social-psychology> .
 <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> <http://purl.org/dc/terms/created> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
 <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> <http://www.w3.org/2000/01/rdf-schema#label> "The Power of Feedback Revisited" .

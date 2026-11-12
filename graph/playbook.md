@@ -882,6 +882,28 @@ Ask yourself:
 - Have I said what the impact actually was, rather than assuming they already know?
 - Did I leave room to ask about their intent and listen before deciding what should change?
 
+### [Wise feedback](../articles/feedback-and-coaching/wise-feedback.md) — Technique
+
+1. Make sure the standard is real and the work actually falls short of it; wise framing cannot rescue vague or unfair criticism.
+2. Write specific, rigorous comments that say where the work misses the mark and what would fix it.
+3. Add one or two sentences saying why you are giving this feedback - the bar is high because the work matters - and that you are confident this person can reach it.
+4. Give a concrete chance to act on it, such as a revision, a second draft or a follow-up review date.
+5. When the improved version arrives, review it against the same standard and say what changed, so your stated belief is backed by follow-through.
+
+*A team lead returns a junior analyst's first client-facing forecast deck with many corrections.*
+
+| Before | After |
+|---|---|
+| Lots of issues here - see my comments. The assumptions slide is weak and the charts don't support the conclusion. Please fix before Thursday. | I've marked this up heavily because this deck goes to the client's CFO and I hold client work to a high bar. I've seen your modelling on the pricing project, so I know you can get this there. The two biggest fixes are sourcing each assumption and making the chart show the gap you name in the headline. Can we look at the revision Wednesday morning? |
+
+**Why:** The same criticism now comes with a reason the analyst can believe - a high standard and confidence in them - plus a concrete chance to improve, so the markup reads as investment rather than a verdict on their ability.
+
+Ask yourself:
+- Did I say why I am giving this feedback, not just what is wrong?
+- Is the high standard I mentioned one I actually apply to everyone on the team?
+- Do I have real evidence that this person can meet it, and did I name it?
+- Did I offer a specific chance to revise and a time to review it?
+
 ## foundations
 
 ### [Audience analysis](../articles/foundations/audience-analysis.md) — Technique
