@@ -4118,6 +4118,84 @@
    ]
   },
   {
+   "@id": "cm:de-ira",
+   "@type": "cmo:Work",
+   "cmo:authoredBy": {
+    "@id": "cm:seneca"
+   },
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "historical",
+   "cmo:file": "articles/thinkers-and-works/de-ira.md",
+   "cmo:introduces": {
+    "@id": "cm:cooling-off-period"
+   },
+   "cmo:level": "introductory",
+   "cmo:supportedBy": {
+    "@id": "cm:wang-et-al-2011"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/de-ira/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/de-ira/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/de-ira/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/de-ira/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/de-ira/s5"
+    }
+   ],
+   "rdfs:label": "De Ira",
+   "skos:altLabel": [
+    "Of Anger",
+    "On Anger",
+    "Seneca's On Anger"
+   ],
+   "skos:definition": "Seneca the Younger's three-book Latin treatise on anger, addressed to his brother Novatus in the first century AD. It treats anger as a judgment the mind can withhold, and its practical advice - wait before acting, check the report before believing it, never punish while angry, review your day each evening - is the oldest well-known statement of the cooling-off period used in workplace conflict today.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "De Ira",
+   "skos:related": [
+    {
+     "@id": "cm:aristotles-rhetoric"
+    },
+    {
+     "@id": "cm:cooling-off-period"
+    },
+    {
+     "@id": "cm:de-escalation"
+    },
+    {
+     "@id": "cm:emotion-regulation"
+    },
+    {
+     "@id": "cm:empathy-gap"
+    },
+    {
+     "@id": "cm:labeling-emotions"
+    },
+    {
+     "@id": "cm:perspective-taking"
+    },
+    {
+     "@id": "cm:quintilian"
+    },
+    {
+     "@id": "cm:self-distancing"
+    }
+   ]
+  },
+  {
    "@id": "cm:death-by-powerpoint",
    "@type": "cmo:AntiPattern",
    "cmo:causes": {
@@ -31399,6 +31477,76 @@
    "dcterms:title": "Police training reduces certain incidents, study says",
    "schema:url": {
     "@id": "https://www.uc.edu/news/articles/2022/01/police-training-reduces-certain-incidents-study-says.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/de-ira/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Seneca; Basore translation, W. Heinemann, London, 1928; hosted by Early Modern Literary Studies, Sheffield Hallam University",
+   "dcterms:title": "On Anger (De Ira), in Moral Essays, vol. 1, trans. John W. Basore (Loeb Classical Library, 1928)",
+   "schema:url": {
+    "@id": "https://extra.shu.ac.uk/emls/iemls/stoics/seneca_essays_book_1.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/de-ira/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Katja Vogt, Stanford Encyclopedia of Philosophy, Stanford University (first published 2007, revised 2020)",
+   "dcterms:title": "Seneca (Stanford Encyclopedia of Philosophy, Winter 2023 edition)",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/archives/Win2023/Entries/seneca/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/de-ira/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Margaret Graver, Cambridge University Press, 2023, doi:10.1017/9781316683125.011",
+   "dcterms:title": "Seneca's Therapy for Anger (chapter 6 of Seneca: The Literary Philosopher, pp. 135-159)",
+   "schema:url": {
+    "@id": "https://cambridge.org/core/product/identifier/9781316683125%23CN-BP-6/type/BOOK_PART"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/de-ira/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Princeton University Press, 2019",
+   "dcterms:title": "How to Keep Your Cool: An Ancient Guide to Anger Management (selections from De Ira, ed. and trans. James Romm)",
+   "schema:url": {
+    "@id": "https://press.princeton.edu/index%2ephp/node/62700"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/de-ira/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Wang, Sivanathan, Narayanan, Ganegoda, Bauer, Bodenhausen & Murnighan, Organizational Behavior and Human Decision Processes 116(1), 46-54, 2011 (RePEc record)",
+   "dcterms:title": "Retribution and emotional regulation: The effects of time delay in angry economic interactions",
+   "schema:url": {
+    "@id": "https://econpapers.repec.org/RePEc:eee:jobhdp:v:116:y:2011:i:1:p:46-54"
    }
   },
   {
