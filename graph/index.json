@@ -16480,6 +16480,107 @@
   ]
  },
  {
+  "id": "cm:questioning",
+  "title": "Questioning",
+  "aliases": [
+   "question-asking",
+   "asking questions",
+   "skilled questioning",
+   "the skill of questioning"
+  ],
+  "type": "Skill",
+  "domain": "questioning-and-conversation",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/questioning-and-conversation/questioning.md",
+  "created": "2026-11-12",
+  "summary": "The learnable skill of choosing, phrasing, sequencing and timing questions so that they get accurate, useful answers and strengthen the working relationship - covering what to ask, how open or pointed to make it, what to assume in the wording, and when to follow up.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:interpersonal-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:open-ended-questions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:follow-up-questions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:humble-inquiry"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:wait-time"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:active-listening"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:perspective-getting"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:grow-model"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:closed-questions"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:huang-et-al-2017",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:kluger-malloy-2019",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:minson-et-al-2018",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:job-interview",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:negotiation",
+    "source": "s2",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Before this conversation, did I write down the two or three things I most need to learn, rather than only what I plan to say?",
+   "Did my questions assume the answer I wanted, or did I phrase them so a problem or a \"no\" was easy to say?",
+   "How many of my questions built on the other person's last answer instead of changing the subject?",
+   "Did I ask for information, or did I ask questions that were really statements, tests or criticism?",
+   "After I asked, did I stay quiet long enough for a full answer?"
+  ],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://core.ac.uk/download/154893096.pdf",
+   "https://www.hbs.edu/faculty/Pages/item.aspx?num=54500",
+   "https://pure.ulster.ac.uk/en/publications/questioning-5/",
+   "https://cris.huji.ac.il/en/publications/question-asking-as-a-dyadic-behavior/",
+   "https://www.hks.harvard.edu/publications/eliciting-truth-whole-truth-and-nothing-truth-effect-question-phrasing-deception"
+  ]
+ },
+ {
   "id": "cm:quintilian",
   "title": "Quintilian",
   "aliases": [

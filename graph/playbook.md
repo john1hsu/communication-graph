@@ -2030,6 +2030,15 @@ Ask yourself:
 - Would they feel safe telling me something I don't want to hear?
 - Am I skipping the question because I feel sure - and is that certainty based on anything they told me?
 
+### [Questioning](../articles/questioning-and-conversation/questioning.md) — Skill
+
+Ask yourself:
+- Before this conversation, did I write down the two or three things I most need to learn, rather than only what I plan to say?
+- Did my questions assume the answer I wanted, or did I phrase them so a problem or a "no" was easy to say?
+- How many of my questions built on the other person's last answer instead of changing the subject?
+- Did I ask for information, or did I ask questions that were really statements, tests or criticism?
+- After I asked, did I stay quiet long enough for a full answer?
+
 ### [Self-disclosure reciprocity](../articles/questioning-and-conversation/reciprocal-self-disclosure.md) — Technique
 
 1. Open with a light question tied to the shared situation, then listen for what the other person chooses to reveal.
