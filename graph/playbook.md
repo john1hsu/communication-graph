@@ -1954,6 +1954,31 @@ Ask yourself:
 - Does each move between points have a spoken transition, not just a new slide?
 - Have I explicitly flagged the one thing I most need the audience to remember or decide?
 
+### [Systematic desensitization](../articles/presenting-and-public-speaking/systematic-desensitization.md) — Technique
+
+1. Learn a quick relaxation routine - for example, tensing and releasing muscle groups while breathing slowly - and practise it daily until you can relax on cue in a minute or two.
+2. Write a ladder of eight to twelve speaking situations ranked from barely uncomfortable (asking one question in a team stand-up) to the worst you can imagine (presenting to the executive committee).
+3. While relaxed, picture the lowest rung in detail for a few seconds; if tension rises, stop the image, relax again, and repeat until you can hold it calmly.
+4. Move up one rung at a time, only after the current one feels manageable, and revise the ladder if a step turns out too big.
+5. Take each mastered rung into real life - say the one comment in the stand-up, then lead one agenda item - before tackling the next.
+6. Keep doing the real-world steps regularly; repeated speaking without a bad outcome is what keeps the fear from creeping back.
+7. If the fear is severe or spills into everyday life, work through the ladder with a qualified therapist or a structured programme rather than alone.
+
+*A data engineer avoids speaking in the weekly cross-team review and has just been asked to present the quarterly pipeline results to directors in six weeks.*
+
+| Before | After |
+|---|---|
+| I'll just keep my head down in the reviews and cram the night before. Maybe I can get my lead to present the deck instead. | This week I'll relax and picture asking one question in the review, then actually ask it on Thursday. Next week I'll give the two-minute data-quality update, then present one slide to my own team, and do a full run-through with two directors' staff before the real thing. |
+
+**Why:** The first plan avoids every speaking step, so the fear never gets a chance to shrink and the big talk arrives as a cliff. The second turns it into a graded ladder, pairs each step with calm rehearsal and real practice, and only climbs once the lower step is manageable - the core of desensitization.
+
+Ask yourself:
+- Have I broken the talk or meeting I dread into smaller speaking steps, or am I trying to jump straight to the hardest one?
+- Can I actually relax on cue yet, or am I imagining scary scenes while still tense?
+- Am I moving up the ladder because the last step feels manageable, or because I am impatient - or am I stalling on a step I have already mastered?
+- Which imagined step have I not yet taken into a real meeting this week?
+- Is my anxiety severe enough that I should be doing this with professional support?
+
 ### [Vocal delivery](../articles/presenting-and-public-speaking/vocal-delivery.md) — Skill
 
 Ask yourself:

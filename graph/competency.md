@@ -6,9 +6,7 @@ SPARQL queries in `queries/` run over the asserted graph, the OWL-RL inferences 
 
 _Which written barriers or anti-patterns have nothing in the graph that addresses them?_ — `queries/01-problems-without-fix.rq`
 
-| node | type |
-|---|---|
-| `cm:communication-apprehension` | cmo:Barrier |
+_No results._
 
 ## Skills with no practice technique (gap)
 
@@ -48,6 +46,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:self-distancing` | 2 | Public speaking anxiety, Spotlight effect |
 | `cm:silence-and-pauses` | 2 | Filled pauses, Mythical fixed-pie bias |
 | `cm:support-response` | 2 | Active listening, Conversational narcissism |
+| `cm:systematic-desensitization` | 2 | Communication apprehension, Public speaking anxiety |
 | `cm:thought-groups` | 2 | Filled pauses, Silence and pauses |
 | `cm:active-listening` | 1 | Defensiveness |
 | `cm:active-voice` | 1 | unclear-ownership |
@@ -57,9 +56,8 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:bottom-line-up-front` | 1 | Burying the lede |
 | `cm:bulleted-and-numbered-lists` | 1 | Wall of text |
 | `cm:camera-level-gaze` | 1 | Gaze and eye contact |
-| `cm:camera-optional-norm` | 1 | Zoom fatigue |
 
-…and 41 more.
+…and 42 more.
 
 ## Toolkit by situation
 
@@ -98,7 +96,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:email` | `cm:email-urgency-bias-study` |
 | `cm:email` | `cm:emoji-and-tone-in-text` |
 
-…and 106 more.
+…and 107 more.
 
 ## Myths and contested advice
 
@@ -137,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:asynchronous-communication` | mixed |  |
 | `cm:batna` | mixed | `cm:schaerer-swaab-galinsky-2015` |
 
-…and 133 more.
+…and 134 more.
 
 ## Concepts with no recorded origin (gap)
 

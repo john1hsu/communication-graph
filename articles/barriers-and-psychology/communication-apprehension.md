@@ -11,7 +11,7 @@ summary: >-
 level: introductory
 evidenceStatus: robust
 broader: [cm:social-anxiety]
-related: [cm:speaking-anxiety, cm:unequal-participation, cm:anxiety-reappraisal, cm:presentation-rehearsal, cm:psychological-safety, cm:video-call-communication, cm:interpersonal-communication, cm:workplace-meetings]
+related: [cm:speaking-anxiety, cm:unequal-participation, cm:anxiety-reappraisal, cm:systematic-desensitization, cm:presentation-rehearsal, cm:psychological-safety, cm:video-call-communication, cm:interpersonal-communication, cm:workplace-meetings]
 requires: []
 relations:
   - {predicate: introducedBy, object: cm:james-mccroskey, source: s1, confidence: high}

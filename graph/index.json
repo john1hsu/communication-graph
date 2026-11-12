@@ -3455,6 +3455,10 @@
    },
    {
     "predicate": "skos:related",
+    "object": "cm:systematic-desensitization"
+   },
+   {
+    "predicate": "skos:related",
     "object": "cm:presentation-rehearsal"
    },
    {
@@ -21083,6 +21087,122 @@
    "https://cris.iucc.ac.il/en/publications/how-to-foster-perceived-partner-responsiveness-high-quality-liste/",
    "https://spsp.org/news-center/character-context-blog/do-you-want-connect-others-listen-them",
    "https://nextbigideaclub.com/magazine/conversational-narcissist-heres-find/23701/"
+  ]
+ },
+ {
+  "id": "cm:systematic-desensitization",
+  "title": "Systematic desensitization",
+  "aliases": [
+   "SD",
+   "graded exposure with relaxation",
+   "desensitization for speaking anxiety"
+  ],
+  "type": "Technique",
+  "domain": "presenting-and-public-speaking",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/presenting-and-public-speaking/systematic-desensitization.md",
+  "created": "2026-11-12",
+  "summary": "A behavioural method for reducing fear of speaking in which a person learns a relaxation response, ranks feared speaking situations from mildest to worst, and then works up that ladder - first in imagination, then in real life - moving on only once each step can be faced calmly.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:exposure-therapy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:speaking-anxiety"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:communication-apprehension"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:presentation-rehearsal"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:anxiety-reappraisal"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:self-distancing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:social-anxiety"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:communication-apprehension",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:speaking-anxiety",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:joseph-wolpe",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedIn",
+    "object": "cm:psychotherapy-by-reciprocal-inhibition",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:mcwilliam-beattie-callow-2025",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:ebrahimi-et-al-2019",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:presentation",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Have I broken the talk or meeting I dread into smaller speaking steps, or am I trying to jump straight to the hardest one?",
+   "Can I actually relax on cue yet, or am I imagining scary scenes while still tense?",
+   "Am I moving up the ladder because the last step feels manageable, or because I am impatient - or am I stalling on a step I have already mastered?",
+   "Which imagined step have I not yet taken into a real meeting this week?",
+   "Is my anxiety severe enough that I should be doing this with professional support?"
+  ],
+  "steps": [
+   "Learn a quick relaxation routine - for example, tensing and releasing muscle groups while breathing slowly - and practise it daily until you can relax on cue in a minute or two.",
+   "Write a ladder of eight to twelve speaking situations ranked from barely uncomfortable (asking one question in a team stand-up) to the worst you can imagine (presenting to the executive committee).",
+   "While relaxed, picture the lowest rung in detail for a few seconds; if tension rises, stop the image, relax again, and repeat until you can hold it calmly.",
+   "Move up one rung at a time, only after the current one feels manageable, and revise the ladder if a step turns out too big.",
+   "Take each mastered rung into real life - say the one comment in the stand-up, then lead one agenda item - before tackling the next.",
+   "Keep doing the real-world steps regularly; repeated speaking without a bad outcome is what keeps the fear from creeping back.",
+   "If the fear is severe or spills into everyday life, work through the ladder with a qualified therapist or a structured programme rather than alone."
+  ],
+  "example": {
+   "situation": "A data engineer avoids speaking in the weekly cross-team review and has just been asked to present the quarterly pipeline results to directors in six weeks.",
+   "before": "I'll just keep my head down in the reviews and cram the night before. Maybe I can get my lead to present the deck instead.",
+   "after": "This week I'll relax and picture asking one question in the review, then actually ask it on Thursday. Next week I'll give the two-minute data-quality update, then present one slide to my own team, and do a full run-through with two directors' staff before the real thing.",
+   "why": "The first plan avoids every speaking step, so the fear never gets a chance to shrink and the big talk arrives as a cliff. The second turns it into a graded ladder, pairs each step with calm rehearsal and real practice, and only climbs once the lower step is manageable - the core of desensitization."
+  },
+  "source_urls": [
+   "https://www.ebsco.com/research-starters/health-and-medicine/systematic-desensitization",
+   "https://research.bangor.ac.uk/portal/files/77857320/Review_and_Analysis_of_Successful_PSA_Interventions_An_Applied_Perspective.pdf",
+   "https://www.frontiersin.org/articles/10.3389/fpsyg.2019.00488/full",
+   "https://digitalcommons.unl.edu/commstudiespapers/159"
   ]
  },
  {

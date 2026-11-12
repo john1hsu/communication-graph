@@ -24,8 +24,8 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 2.82 | `cm:bottom-line-up-front` | `cm:curse-of-knowledge` | `cm:assertion-evidence-slides`, `cm:audience-analysis`, `cm:channel-selection`, `cm:clarity`, `cm:cognitive-load` |
 | 2.79 | `cm:credibility` | `cm:managing-up` | `cm:client-communication`, `cm:communicating-uncertainty`, `cm:elevator-pitch`, `cm:executive-presence`, `cm:impression-management` |
 | 2.79 | `cm:performance-review` | `cm:praise-and-recognition` | `cm:feedback`, `cm:feedback-sandwich`, `cm:feedforward`, `cm:hattie-timperley-feedback-model`, `cm:kluger-denisi-1996` |
-| 2.76 | `cm:labeling-emotions` | `cm:self-distancing` | `cm:anxiety-reappraisal`, `cm:cognitive-reappraisal`, `cm:cooling-off-period`, `cm:de-ira`, `cm:emotion-regulation` |
 | 2.76 | `cm:bottom-line-up-front` | `cm:presentation` | `cm:assertion-evidence-slides`, `cm:audience-analysis`, `cm:cognitive-load`, `cm:elevator-pitch`, `cm:executive-briefing` |
+| 2.75 | `cm:labeling-emotions` | `cm:self-distancing` | `cm:anxiety-reappraisal`, `cm:cognitive-reappraisal`, `cm:cooling-off-period`, `cm:de-ira`, `cm:emotion-regulation` |
 | 2.71 | `cm:difficult-conversation` | `cm:radical-candor` | `cm:feedback`, `cm:levine-cohen-2018`, `cm:performance-review`, `cm:psychological-safety`, `cm:thomas-kilmann-conflict-modes` |
 | 2.70 | `cm:batna` | `cm:mythical-fixed-pie` | `cm:anchoring-and-adjustment`, `cm:distributive-negotiation`, `cm:integrative-negotiation`, `cm:interests-vs-positions`, `cm:multiple-equivalent-simultaneous-offers` |
 | 2.68 | `cm:feedforward` | `cm:radical-candor` | `cm:direct-vs-indirect-feedback`, `cm:feedback`, `cm:feedback-sandwich`, `cm:one-on-one-meetings`, `cm:performance-review` |

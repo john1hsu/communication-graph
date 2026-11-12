@@ -3106,6 +3106,9 @@
      "@id": "cm:speaking-anxiety"
     },
     {
+     "@id": "cm:systematic-desensitization"
+    },
+    {
      "@id": "cm:unequal-participation"
     },
     {
@@ -18586,6 +18589,97 @@
     },
     {
      "@id": "cm:reciprocal-self-disclosure"
+    }
+   ]
+  },
+  {
+   "@id": "cm:systematic-desensitization",
+   "@type": "cmo:Technique",
+   "cmo:addresses": [
+    {
+     "@id": "cm:communication-apprehension"
+    },
+    {
+     "@id": "cm:speaking-anxiety"
+    }
+   ],
+   "cmo:appliedIn": {
+    "@id": "cm:presentation"
+   },
+   "cmo:domain": "presenting-and-public-speaking",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/systematic-desensitization/example"
+   },
+   "cmo:file": "articles/presenting-and-public-speaking/systematic-desensitization.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/systematic-desensitization/howto"
+   },
+   "cmo:introducedBy": {
+    "@id": "cm:joseph-wolpe"
+   },
+   "cmo:introducedIn": {
+    "@id": "cm:psychotherapy-by-reciprocal-inhibition"
+   },
+   "cmo:level": "intermediate",
+   "cmo:supportedBy": [
+    {
+     "@id": "cm:ebrahimi-et-al-2019"
+    },
+    {
+     "@id": "cm:mcwilliam-beattie-callow-2025"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/systematic-desensitization/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/systematic-desensitization/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/systematic-desensitization/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/systematic-desensitization/s4"
+    }
+   ],
+   "rdfs:label": "Systematic desensitization",
+   "skos:altLabel": [
+    "SD",
+    "desensitization for speaking anxiety",
+    "graded exposure with relaxation"
+   ],
+   "skos:broader": {
+    "@id": "cm:exposure-therapy"
+   },
+   "skos:definition": "A behavioural method for reducing fear of speaking in which a person learns a relaxation response, ranks feared speaking situations from mildest to worst, and then works up that ladder - first in imagination, then in real life - moving on only once each step can be faced calmly.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/presenting-and-public-speaking"
+   },
+   "skos:prefLabel": "Systematic desensitization",
+   "skos:related": [
+    {
+     "@id": "cm:anxiety-reappraisal"
+    },
+    {
+     "@id": "cm:communication-apprehension"
+    },
+    {
+     "@id": "cm:presentation-rehearsal"
+    },
+    {
+     "@id": "cm:self-distancing"
+    },
+    {
+     "@id": "cm:social-anxiety"
+    },
+    {
+     "@id": "cm:speaking-anxiety"
     }
    ]
   },
@@ -45380,6 +45474,62 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/systematic-desensitization/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Colwill, R. M., EBSCO Research Starters, 2024",
+   "dcterms:title": "Systematic desensitization (Research Starters)",
+   "schema:url": {
+    "@id": "https://www.ebsco.com/research-starters/health-and-medicine/systematic-desensitization"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/systematic-desensitization/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "McWilliam, A. M., Beattie, S. & Callow, N., The Journal of Psychology, 2025, doi:10.1080/00223980.2025.2459662 (Bangor University author copy)",
+   "dcterms:title": "Review and Analysis of Successful PSA Interventions: An Applied Perspective",
+   "schema:url": {
+    "@id": "https://research.bangor.ac.uk/portal/files/77857320/Review_and_Analysis_of_Successful_PSA_Interventions_An_Applied_Perspective.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/systematic-desensitization/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Ebrahimi, O. V., Pallesen, S., Kenter, R. M. F. & Nordgreen, T., Frontiers in Psychology 10, 488, 2019, doi:10.3389/fpsyg.2019.00488",
+   "dcterms:title": "Psychological Interventions for the Fear of Public Speaking: A Meta-Analysis",
+   "schema:url": {
+    "@id": "https://www.frontiersin.org/articles/10.3389/fpsyg.2019.00488/full"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/systematic-desensitization/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Rossi, A. M. & Seiler, W. J., Imagination, Cognition and Personality 9(1), 49-66, 1989, doi:10.2190/VR76-9GEF-JVBW-V5UB (University of Nebraska-Lincoln DigitalCommons record)",
+   "dcterms:title": "The comparative effectiveness of systematic desensitization and an integrative approach in treating public speaking anxiety: a literature review and a preliminary investigation",
+   "schema:url": {
+    "@id": "https://digitalcommons.unl.edu/commstudiespapers/159"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/source/teach-back/s1",
    "@type": "cmo:Source",
    "cmo:sourceType": "government",
@@ -47357,6 +47507,124 @@
    "@type": "schema:HowToStep",
    "schema:position": 5,
    "schema:text": "Afterwards, roughly count your shift and support replies; if shifts dominated, open the next conversation with two support replies in a row."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/systematic-desensitization/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:systematic-desensitization"
+   },
+   "rdfs:label": "Have I broken the talk or meeting I dread into smaller speaking steps, or am I trying to jump straight to the hardest one?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/systematic-desensitization/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:systematic-desensitization"
+   },
+   "rdfs:label": "Can I actually relax on cue yet, or am I imagining scary scenes while still tense?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/systematic-desensitization/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:systematic-desensitization"
+   },
+   "rdfs:label": "Am I moving up the ladder because the last step feels manageable, or because I am impatient - or am I stalling on a step I have already mastered?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/systematic-desensitization/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:systematic-desensitization"
+   },
+   "rdfs:label": "Which imagined step have I not yet taken into a real meeting this week?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/systematic-desensitization/check/5",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:systematic-desensitization"
+   },
+   "rdfs:label": "Is my anxiety severe enough that I should be doing this with professional support?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/systematic-desensitization/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "This week I'll relax and picture asking one question in the review, then actually ask it on Thursday. Next week I'll give the two-minute data-quality update, then present one slide to my own team, and do a full run-through with two directors' staff before the real thing.",
+   "cmo:before": "I'll just keep my head down in the reviews and cram the night before. Maybe I can get my lead to present the deck instead.",
+   "cmo:situation": "A data engineer avoids speaking in the weekly cross-team review and has just been asked to present the quarterly pipeline results to directors in six weeks.",
+   "cmo:why": "The first plan avoids every speaking step, so the fear never gets a chance to shrink and the big talk arrives as a cliff. The second turns it into a graded ladder, pairs each step with calm rehearsal and real practice, and only climbs once the lower step is manageable - the core of desensitization."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/systematic-desensitization/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Systematic desensitization",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/systematic-desensitization/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/systematic-desensitization/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/systematic-desensitization/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/systematic-desensitization/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/systematic-desensitization/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/systematic-desensitization/howto/6"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/systematic-desensitization/howto/7"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/systematic-desensitization/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Learn a quick relaxation routine - for example, tensing and releasing muscle groups while breathing slowly - and practise it daily until you can relax on cue in a minute or two."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/systematic-desensitization/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Write a ladder of eight to twelve speaking situations ranked from barely uncomfortable (asking one question in a team stand-up) to the worst you can imagine (presenting to the executive committee)."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/systematic-desensitization/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "While relaxed, picture the lowest rung in detail for a few seconds; if tension rises, stop the image, relax again, and repeat until you can hold it calmly."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/systematic-desensitization/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Move up one rung at a time, only after the current one feels manageable, and revise the ladder if a step turns out too big."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/systematic-desensitization/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Take each mastered rung into real life - say the one comment in the stand-up, then lead one agenda item - before tackling the next."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/systematic-desensitization/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "Keep doing the real-world steps regularly; repeated speaking without a bad outcome is what keeps the fear from creeping back."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/systematic-desensitization/howto/7",
+   "@type": "schema:HowToStep",
+   "schema:position": 7,
+   "schema:text": "If the fear is severe or spills into everyday life, work through the ladder with a qualified therapist or a structured programme rather than alone."
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/teach-back/check/1",
