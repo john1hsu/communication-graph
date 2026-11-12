@@ -7135,6 +7135,102 @@
    ]
   },
   {
+   "@id": "cm:facial-expressions",
+   "@type": "cmo:Phenomenon",
+   "cmo:appliedIn": {
+    "@id": "cm:video-call-communication"
+   },
+   "cmo:challengedBy": [
+    {
+     "@id": "cm:aviezer-et-al-2012"
+    },
+    {
+     "@id": "cm:barrett-et-al-2019"
+    }
+   ],
+   "cmo:domain": "nonverbal-and-voice",
+   "cmo:evidenceStatus": "contested",
+   "cmo:file": "articles/nonverbal-and-voice/facial-expressions.md",
+   "cmo:introducedBy": {
+    "@id": "cm:paul-ekman"
+   },
+   "cmo:level": "introductory",
+   "cmo:supportedBy": {
+    "@id": "cm:cowen-et-al-2021"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/facial-expressions/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/facial-expressions/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/facial-expressions/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/facial-expressions/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/facial-expressions/s5"
+    }
+   ],
+   "rdfs:label": "Facial expressions",
+   "skos:altLabel": [
+    "facial displays",
+    "facial movements",
+    "reading faces",
+    "universal facial expressions"
+   ],
+   "skos:broader": {
+    "@id": "cm:nonverbal-communication"
+   },
+   "skos:definition": "The movements of the face (smiles, frowns, raised brows, scowls) that people produce and read in conversation; they carry real social signal, but research shows a given expression maps to a given emotion far less reliably than popular \"read the face\" advice claims, so context and checking matter more than decoding.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/nonverbal-and-voice"
+   },
+   "skos:prefLabel": "Facial expressions",
+   "skos:related": [
+    {
+     "@id": "cm:active-listening"
+    },
+    {
+     "@id": "cm:camera-level-gaze"
+    },
+    {
+     "@id": "cm:emotional-contagion"
+    },
+    {
+     "@id": "cm:empathy-gap"
+    },
+    {
+     "@id": "cm:eye-contact"
+    },
+    {
+     "@id": "cm:gestures"
+    },
+    {
+     "@id": "cm:high-and-low-context-cultures"
+    },
+    {
+     "@id": "cm:labeling-emotions"
+    },
+    {
+     "@id": "cm:mehrabian-myth"
+    },
+    {
+     "@id": "cm:mixed-messages"
+    },
+    {
+     "@id": "cm:paralanguage"
+    }
+   ]
+  },
+  {
    "@id": "cm:facilitation",
    "@type": "cmo:Skill",
    "cmo:addresses": [
@@ -35596,6 +35692,76 @@
    "dcterms:title": "Dignity at Work and Study Guidance Note - Dealing with Difficult Conversations",
    "schema:url": {
     "@id": "https://abdn.ac.uk/staffnet/documents/Dealing%20with%20Difficult%20Conversations%20guidance%20note.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/facial-expressions/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Barrett, Adolphs, Marsella, Martinez & Pollak, Psychological Science in the Public Interest 20(1), 2019, pp. 1-68 (PMC open copy; doi:10.1177/1529100619832930)",
+   "dcterms:title": "Emotional Expressions Reconsidered: Challenges to Inferring Emotion From Human Facial Movements",
+   "schema:url": {
+    "@id": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6640856"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/facial-expressions/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Cowen, Keltner, Schroff, Jou, Adam & Prasad, Nature 589, 2021, pp. 251-257 (Google Research publication page)",
+   "dcterms:title": "Sixteen facial expressions occur in similar contexts worldwide",
+   "schema:url": {
+    "@id": "https://research.google/pubs/sixteen-facial-expressions-occur-in-similar-contexts-worldwide/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/facial-expressions/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Aviezer, Trope & Todorov, Science 338(6111), 2012, pp. 1225-1229 (Princeton University research portal; doi:10.1126/science.1224313)",
+   "dcterms:title": "Body cues, not facial expressions, discriminate between intense positive and negative emotions",
+   "schema:url": {
+    "@id": "https://collaborate.princeton.edu/en/publications/body-cues-not-facial-expressions-discriminate-between-intense-pos/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/facial-expressions/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Paul Ekman Group (Paul Ekman's own organisation)",
+   "dcterms:title": "Are There Universal Facial Expressions?",
+   "schema:url": {
+    "@id": "https://www.paulekman.com/?p=9584"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/facial-expressions/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Duke Today, Duke University (Learning & Organization Development and Fuqua School of Business), September 2020",
+   "dcterms:title": "Body Language Tips for More Engaging Video Meetings",
+   "schema:url": {
+    "@id": "https://today.duke.edu/2020/09/body-language-tips-engaging-video-meetings"
    }
   },
   {

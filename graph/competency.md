@@ -96,7 +96,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:email` | `cm:email-urgency-bias-study` |
 | `cm:email` | `cm:emoji-and-tone-in-text` |
 
-…and 107 more.
+…and 108 more.
 
 ## Myths and contested advice
 
@@ -108,6 +108,8 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:brainstorming` | contested | `cm:diehl-stroebe-1987` |
 | `cm:brainstorming` | contested | `cm:mullen-johnson-salas-1991` |
 | `cm:chen-2002` | contested | `cm:horstmann-linke-2022` |
+| `cm:facial-expressions` | contested | `cm:aviezer-et-al-2012` |
+| `cm:facial-expressions` | contested | `cm:barrett-et-al-2019` |
 | `cm:feedback-sandwich` | contested | `cm:bottini-gillis-2021` |
 | `cm:feedback-sandwich` | contested | `cm:henley-digennaro-reed-2015` |
 | `cm:feedback-sandwich` | contested | `cm:parkes-abercrombie-mccarty-2013` |
@@ -132,10 +134,8 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:active-voice` | mixed | `cm:fear-and-loathing-of-the-english-passive` |
 | `cm:apology` | mixed |  |
 | `cm:assertion-evidence-slides` | mixed | `cm:alzayed-alzamel-2023` |
-| `cm:asynchronous-communication` | mixed |  |
-| `cm:batna` | mixed | `cm:schaerer-swaab-galinsky-2015` |
 
-…and 134 more.
+…and 136 more.
 
 ## Concepts with no recorded origin (gap)
 

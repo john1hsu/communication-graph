@@ -8085,6 +8085,113 @@
   ]
  },
  {
+  "id": "cm:facial-expressions",
+  "title": "Facial expressions",
+  "aliases": [
+   "facial movements",
+   "facial displays",
+   "reading faces",
+   "universal facial expressions"
+  ],
+  "type": "Phenomenon",
+  "domain": "nonverbal-and-voice",
+  "level": "introductory",
+  "evidenceStatus": "contested",
+  "file": "articles/nonverbal-and-voice/facial-expressions.md",
+  "created": "2026-11-12",
+  "summary": "The movements of the face (smiles, frowns, raised brows, scowls) that people produce and read in conversation; they carry real social signal, but research shows a given expression maps to a given emotion far less reliably than popular \"read the face\" advice claims, so context and checking matter more than decoding.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:nonverbal-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:eye-contact"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:paralanguage"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:gestures"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:mehrabian-myth"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:mixed-messages"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:emotional-contagion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:labeling-emotions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:empathy-gap"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:camera-level-gaze"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:high-and-low-context-cultures"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:active-listening"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:paul-ekman",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:barrett-et-al-2019",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:aviezer-et-al-2012",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:cowen-et-al-2021",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:video-call-communication",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC6640856",
+   "https://research.google/pubs/sixteen-facial-expressions-occur-in-similar-contexts-worldwide/",
+   "https://collaborate.princeton.edu/en/publications/body-cues-not-facial-expressions-discriminate-between-intense-pos/",
+   "https://www.paulekman.com/?p=9584",
+   "https://today.duke.edu/2020/09/body-language-tips-engaging-video-meetings"
+  ]
+ },
+ {
   "id": "cm:facilitation",
   "title": "Facilitation",
   "aliases": [

@@ -4180,6 +4180,42 @@
 <https://github.com/john1hsu/communication-graph/id/face-to-face-conversation> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/questioning-and-conversation/face-to-face-conversation.md" .
 <https://github.com/john1hsu/communication-graph/id/face-to-face-conversation> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/face-to-face-conversation> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/egocentrism-over-email-study> .
+<https://github.com/john1hsu/communication-graph/id/facial-expressions> <http://purl.org/dc/terms/created> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/facial-expressions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Phenomenon> .
+<https://github.com/john1hsu/communication-graph/id/facial-expressions> <http://www.w3.org/2000/01/rdf-schema#label> "Facial expressions" .
+<https://github.com/john1hsu/communication-graph/id/facial-expressions> <http://www.w3.org/2004/02/skos/core#altLabel> "facial displays" .
+<https://github.com/john1hsu/communication-graph/id/facial-expressions> <http://www.w3.org/2004/02/skos/core#altLabel> "facial movements" .
+<https://github.com/john1hsu/communication-graph/id/facial-expressions> <http://www.w3.org/2004/02/skos/core#altLabel> "reading faces" .
+<https://github.com/john1hsu/communication-graph/id/facial-expressions> <http://www.w3.org/2004/02/skos/core#altLabel> "universal facial expressions" .
+<https://github.com/john1hsu/communication-graph/id/facial-expressions> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> .
+<https://github.com/john1hsu/communication-graph/id/facial-expressions> <http://www.w3.org/2004/02/skos/core#definition> "The movements of the face (smiles, frowns, raised brows, scowls) that people produce and read in conversation; they carry real social signal, but research shows a given expression maps to a given emotion far less reliably than popular \"read the face\" advice claims, so context and checking matter more than decoding." .
+<https://github.com/john1hsu/communication-graph/id/facial-expressions> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/nonverbal-and-voice> .
+<https://github.com/john1hsu/communication-graph/id/facial-expressions> <http://www.w3.org/2004/02/skos/core#prefLabel> "Facial expressions" .
+<https://github.com/john1hsu/communication-graph/id/facial-expressions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+<https://github.com/john1hsu/communication-graph/id/facial-expressions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/camera-level-gaze> .
+<https://github.com/john1hsu/communication-graph/id/facial-expressions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/emotional-contagion> .
+<https://github.com/john1hsu/communication-graph/id/facial-expressions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/empathy-gap> .
+<https://github.com/john1hsu/communication-graph/id/facial-expressions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/eye-contact> .
+<https://github.com/john1hsu/communication-graph/id/facial-expressions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/gestures> .
+<https://github.com/john1hsu/communication-graph/id/facial-expressions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> .
+<https://github.com/john1hsu/communication-graph/id/facial-expressions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/labeling-emotions> .
+<https://github.com/john1hsu/communication-graph/id/facial-expressions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> .
+<https://github.com/john1hsu/communication-graph/id/facial-expressions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mixed-messages> .
+<https://github.com/john1hsu/communication-graph/id/facial-expressions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/paralanguage> .
+<https://github.com/john1hsu/communication-graph/id/facial-expressions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/facial-expressions/s1> .
+<https://github.com/john1hsu/communication-graph/id/facial-expressions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/facial-expressions/s2> .
+<https://github.com/john1hsu/communication-graph/id/facial-expressions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/facial-expressions/s3> .
+<https://github.com/john1hsu/communication-graph/id/facial-expressions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/facial-expressions/s4> .
+<https://github.com/john1hsu/communication-graph/id/facial-expressions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/facial-expressions/s5> .
+<https://github.com/john1hsu/communication-graph/id/facial-expressions> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/video-call-communication> .
+<https://github.com/john1hsu/communication-graph/id/facial-expressions> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/aviezer-et-al-2012> .
+<https://github.com/john1hsu/communication-graph/id/facial-expressions> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/barrett-et-al-2019> .
+<https://github.com/john1hsu/communication-graph/id/facial-expressions> <https://github.com/john1hsu/communication-graph/ontology#domain> "nonverbal-and-voice" .
+<https://github.com/john1hsu/communication-graph/id/facial-expressions> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "contested" .
+<https://github.com/john1hsu/communication-graph/id/facial-expressions> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/nonverbal-and-voice/facial-expressions.md" .
+<https://github.com/john1hsu/communication-graph/id/facial-expressions> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/paul-ekman> .
+<https://github.com/john1hsu/communication-graph/id/facial-expressions> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/facial-expressions> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/cowen-et-al-2021> .
 <https://github.com/john1hsu/communication-graph/id/facilitation/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/facilitation/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Before we started, did the group agree the goal, the agenda and how we would take turns, or did I assume everyone knew?" .
 <https://github.com/john1hsu/communication-graph/id/facilitation/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/facilitation> .
@@ -13157,6 +13193,36 @@
 <https://github.com/john1hsu/communication-graph/id/source/face-to-face-conversation/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/face-to-face-conversation/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
 <https://github.com/john1hsu/communication-graph/id/source/face-to-face-conversation/s6> <https://schema.org/url> <https://abdn.ac.uk/staffnet/documents/Dealing%20with%20Difficult%20Conversations%20guidance%20note.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/facial-expressions/s1> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/facial-expressions/s1> <http://purl.org/dc/terms/publisher> "Barrett, Adolphs, Marsella, Martinez & Pollak, Psychological Science in the Public Interest 20(1), 2019, pp. 1-68 (PMC open copy; doi:10.1177/1529100619832930)" .
+<https://github.com/john1hsu/communication-graph/id/source/facial-expressions/s1> <http://purl.org/dc/terms/title> "Emotional Expressions Reconsidered: Challenges to Inferring Emotion From Human Facial Movements" .
+<https://github.com/john1hsu/communication-graph/id/source/facial-expressions/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/facial-expressions/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/facial-expressions/s1> <https://schema.org/url> <https://pmc.ncbi.nlm.nih.gov/articles/PMC6640856> .
+<https://github.com/john1hsu/communication-graph/id/source/facial-expressions/s2> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/facial-expressions/s2> <http://purl.org/dc/terms/publisher> "Cowen, Keltner, Schroff, Jou, Adam & Prasad, Nature 589, 2021, pp. 251-257 (Google Research publication page)" .
+<https://github.com/john1hsu/communication-graph/id/source/facial-expressions/s2> <http://purl.org/dc/terms/title> "Sixteen facial expressions occur in similar contexts worldwide" .
+<https://github.com/john1hsu/communication-graph/id/source/facial-expressions/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/facial-expressions/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/facial-expressions/s2> <https://schema.org/url> <https://research.google/pubs/sixteen-facial-expressions-occur-in-similar-contexts-worldwide/> .
+<https://github.com/john1hsu/communication-graph/id/source/facial-expressions/s3> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/facial-expressions/s3> <http://purl.org/dc/terms/publisher> "Aviezer, Trope & Todorov, Science 338(6111), 2012, pp. 1225-1229 (Princeton University research portal; doi:10.1126/science.1224313)" .
+<https://github.com/john1hsu/communication-graph/id/source/facial-expressions/s3> <http://purl.org/dc/terms/title> "Body cues, not facial expressions, discriminate between intense positive and negative emotions" .
+<https://github.com/john1hsu/communication-graph/id/source/facial-expressions/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/facial-expressions/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/facial-expressions/s3> <https://schema.org/url> <https://collaborate.princeton.edu/en/publications/body-cues-not-facial-expressions-discriminate-between-intense-pos/> .
+<https://github.com/john1hsu/communication-graph/id/source/facial-expressions/s4> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/facial-expressions/s4> <http://purl.org/dc/terms/publisher> "Paul Ekman Group (Paul Ekman's own organisation)" .
+<https://github.com/john1hsu/communication-graph/id/source/facial-expressions/s4> <http://purl.org/dc/terms/title> "Are There Universal Facial Expressions?" .
+<https://github.com/john1hsu/communication-graph/id/source/facial-expressions/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/facial-expressions/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/facial-expressions/s4> <https://schema.org/url> <https://www.paulekman.com/?p=9584> .
+<https://github.com/john1hsu/communication-graph/id/source/facial-expressions/s5> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/facial-expressions/s5> <http://purl.org/dc/terms/publisher> "Duke Today, Duke University (Learning & Organization Development and Fuqua School of Business), September 2020" .
+<https://github.com/john1hsu/communication-graph/id/source/facial-expressions/s5> <http://purl.org/dc/terms/title> "Body Language Tips for More Engaging Video Meetings" .
+<https://github.com/john1hsu/communication-graph/id/source/facial-expressions/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/facial-expressions/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/facial-expressions/s5> <https://schema.org/url> <https://today.duke.edu/2020/09/body-language-tips-engaging-video-meetings> .
 <https://github.com/john1hsu/communication-graph/id/source/facilitation/s1> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/facilitation/s1> <http://purl.org/dc/terms/publisher> "Center for Community Health and Development, University of Kansas (contributor Marya Axner)" .
 <https://github.com/john1hsu/communication-graph/id/source/facilitation/s1> <http://purl.org/dc/terms/title> "Developing Facilitation Skills (Community Tool Box, Chapter 16, Section 2)" .
