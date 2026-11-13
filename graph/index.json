@@ -3476,6 +3476,116 @@
   ]
  },
  {
+  "id": "cm:cognitive-bias",
+  "title": "Cognitive bias",
+  "aliases": [
+   "cognitive biases",
+   "judgment bias",
+   "heuristics and biases"
+  ],
+  "type": "Concept",
+  "domain": "barriers-and-psychology",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/barriers-and-psychology/cognitive-bias.md",
+  "created": "2026-11-13",
+  "summary": "A systematic, predictable error in judgment that comes from the mental shortcuts (heuristics) people use to estimate, interpret and decide quickly; in communication, biases shape what we assume others know, how we read their messages and which evidence we notice.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:cognitive-psychology"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:egocentric-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:anchoring-and-adjustment"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:primacy-and-recency-effects"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:mythical-fixed-pie"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:devils-advocacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:perspective-getting"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:group-decision-making"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:bias-blind-spot"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:consider-the-opposite"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:premortem"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:amos-tversky",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:daniel-kahneman",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:pronin-lin-ross-2002",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:gigerenzer-1991",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:dual-process-theory",
+    "source": "s7",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:studiedIn",
+    "object": "cm:social-psychology",
+    "source": "s2",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://sites.stat.washington.edu/peter/498.Sp16/Tversky.pdf",
+   "https://collaborate.princeton.edu/en/publications/the-bias-blind-spot-perceptions-of-bias-in-self-versus-others/",
+   "https://www.causeweb.org/cause/node/7638",
+   "https://openaccess.city.ac.uk/id/eprint/12324/1/Debiasing_Decisions_PIBBS.pdf",
+   "https://csc2.ncsu.edu/faculty/mpsingh/local/Social/f15/wrap/readings/Gigerenzer-on-Kahneman+Tversky-1991.pdf",
+   "https://eprints.lse.ac.uk/91159",
+   "https://www.physicianleaders.org/articles/outsmart-your-own-biases"
+  ]
+ },
+ {
   "id": "cm:cognitive-load",
   "title": "Cognitive load theory",
   "aliases": [

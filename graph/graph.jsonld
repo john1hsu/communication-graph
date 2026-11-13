@@ -3070,6 +3070,107 @@
    ]
   },
   {
+   "@id": "cm:cognitive-bias",
+   "@type": "cmo:Concept",
+   "cmo:challengedBy": {
+    "@id": "cm:gigerenzer-1991"
+   },
+   "cmo:demonstratedBy": {
+    "@id": "cm:pronin-lin-ross-2002"
+   },
+   "cmo:domain": "barriers-and-psychology",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:explainedBy": {
+    "@id": "cm:dual-process-theory"
+   },
+   "cmo:file": "articles/barriers-and-psychology/cognitive-bias.md",
+   "cmo:introducedBy": [
+    {
+     "@id": "cm:amos-tversky"
+    },
+    {
+     "@id": "cm:daniel-kahneman"
+    }
+   ],
+   "cmo:level": "introductory",
+   "cmo:studiedIn": {
+    "@id": "cm:social-psychology"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/cognitive-bias/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/cognitive-bias/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/cognitive-bias/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/cognitive-bias/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/cognitive-bias/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/cognitive-bias/s6"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/cognitive-bias/s7"
+    }
+   ],
+   "rdfs:label": "Cognitive bias",
+   "skos:altLabel": [
+    "cognitive biases",
+    "heuristics and biases",
+    "judgment bias"
+   ],
+   "skos:broader": {
+    "@id": "cm:cognitive-psychology"
+   },
+   "skos:definition": "A systematic, predictable error in judgment that comes from the mental shortcuts (heuristics) people use to estimate, interpret and decide quickly; in communication, biases shape what we assume others know, how we read their messages and which evidence we notice.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/barriers-and-psychology"
+   },
+   "skos:prefLabel": "Cognitive bias",
+   "skos:related": [
+    {
+     "@id": "cm:anchoring-and-adjustment"
+    },
+    {
+     "@id": "cm:bias-blind-spot"
+    },
+    {
+     "@id": "cm:consider-the-opposite"
+    },
+    {
+     "@id": "cm:devils-advocacy"
+    },
+    {
+     "@id": "cm:egocentric-bias"
+    },
+    {
+     "@id": "cm:group-decision-making"
+    },
+    {
+     "@id": "cm:mythical-fixed-pie"
+    },
+    {
+     "@id": "cm:perspective-getting"
+    },
+    {
+     "@id": "cm:premortem"
+    },
+    {
+     "@id": "cm:primacy-and-recency-effects"
+    }
+   ]
+  },
+  {
    "@id": "cm:cognitive-load",
    "@type": "cmo:Theory",
    "cmo:challengedBy": {
@@ -35658,6 +35759,104 @@
    "dcterms:title": "Communication in interdisciplinary teams: exploring closed-loop communication during in situ trauma team training (Härgestam et al., BMJ Open, 2013)",
    "schema:url": {
     "@id": "https://psnet.ahrq.gov/issue/communication-interdisciplinary-teams-exploring-closed-loop-communication-during-situ-trauma"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/cognitive-bias/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Tversky & Kahneman, Science 185(4157), 1124-1131, 1974 (author copy hosted by University of Washington Statistics)",
+   "dcterms:title": "Judgment under Uncertainty: Heuristics and Biases",
+   "schema:url": {
+    "@id": "https://sites.stat.washington.edu/peter/498.Sp16/Tversky.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/cognitive-bias/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Pronin, Lin & Ross, Personality and Social Psychology Bulletin 28(3), 369-381, 2002 (Princeton University research portal)",
+   "dcterms:title": "The Bias Blind Spot: Perceptions of Bias in Self Versus Others",
+   "schema:url": {
+    "@id": "https://collaborate.princeton.edu/en/publications/the-bias-blind-spot-perceptions-of-bias-in-self-versus-others/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/cognitive-bias/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Lord, Lepper & Preston, Journal of Personality and Social Psychology 47(6), 1231-1243, 1984 (CAUSE record)",
+   "dcterms:title": "Considering the Opposite: A Corrective Strategy for Social Judgment",
+   "schema:url": {
+    "@id": "https://www.causeweb.org/cause/node/7638"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/cognitive-bias/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Morewedge et al., Policy Insights from the Behavioral and Brain Sciences 2(1), 129-140, 2015 (City, University of London open access)",
+   "dcterms:title": "Debiasing Decisions: Improved Decision Making With a Single Training Intervention",
+   "schema:url": {
+    "@id": "https://openaccess.city.ac.uk/id/eprint/12324/1/Debiasing_Decisions_PIBBS.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/cognitive-bias/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Gigerenzer, European Review of Social Psychology 2, 83-115, 1991 (course reading copy, NC State University)",
+   "dcterms:title": "How to Make Cognitive Illusions Disappear: Beyond 'Heuristics and Biases'",
+   "schema:url": {
+    "@id": "https://csc2.ncsu.edu/faculty/mpsingh/local/Social/f15/wrap/readings/Gigerenzer-on-Kahneman+Tversky-1991.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/cognitive-bias/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Klein et al., Advances in Methods and Practices in Psychological Science 1(4), 443-490, 2018 (LSE Research Online)",
+   "dcterms:title": "Many Labs 2: Investigating Variation in Replicability Across Samples and Settings",
+   "schema:url": {
+    "@id": "https://eprints.lse.ac.uk/91159"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/cognitive-bias/s7",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "practitioner-journal",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Soll, Milkman & Payne, Harvard Business Review, May 2015 (republished by the American Association for Physician Leadership)",
+   "dcterms:title": "Outsmart Your Own Biases",
+   "schema:url": {
+    "@id": "https://www.physicianleaders.org/articles/outsmart-your-own-biases"
    }
   },
   {
