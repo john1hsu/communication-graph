@@ -299,6 +299,31 @@ Ask yourself:
 - When I felt criticised just now, did I restate their point before I explained or justified myself?
 - Is the other person reacting to my content, or to a tone of superiority, certainty or hidden agenda they are picking up?
 
+### [Graded assertiveness](../articles/difficult-conversations-and-conflict/graded-assertiveness.md) — Technique
+
+1. Decide in advance which level the situation warrants - a question, a stated concern, a request to pause, or a stop - based on how serious and how imminent the harm is.
+2. Open by getting the person's attention and using their name: "Priya, can I flag something before this goes out?"
+3. State your concern in the first person and name the problem as you see it, with the specific fact behind it ("I'm concerned - the Q3 figure on slide 4 doesn't match the ledger").
+4. Offer a concrete fix or next step rather than only the objection.
+5. Ask for an explicit decision or agreement, and wait for an answer instead of letting the point drop.
+6. If you are not acknowledged, say it a second time, more plainly, naming the consequence you expect.
+7. If the concern is still unresolved and the risk is serious, escalate in the open - ask for a pause, bring in a colleague, or go to the next level - and say that you are doing so.
+
+*A finance analyst notices, ten minutes before a board call, that the revenue figure in the VP's deck is from the unaudited draft. The VP is busy and has already said the deck is final.*
+
+| Before | After |
+|---|---|
+| Um, sorry, this is probably nothing, but did anyone double-check slide 4? Maybe it's fine. | Dana, I'm concerned about slide 4 - the revenue is the draft number, $2.1M higher than the audited one. I can swap in the audited figure in two minutes. Can we hold the deck until I do? |
+
+**Why:** The rewrite gets attention by name, states the concern and the evidence, offers a fix and asks for a decision, so the VP can act in seconds; the hedged version invites a quick "it's fine" and leaves the analyst no clear second step.
+
+Ask yourself:
+- Have I said the concern out loud in words the other person cannot mistake for small talk, or only hinted at it?
+- Did I name the specific fact and the consequence, and offer a fix?
+- Did I ask for and get an explicit answer, or did the point just fade?
+- If I was ignored, did I raise it a second time before deciding whether to escalate?
+- Am I matching the level of challenge to the real size of the risk, rather than to my nerves or my frustration?
+
 ### [I-statements](../articles/difficult-conversations-and-conflict/i-statements.md) — Technique
 
 1. Before speaking, name one specific, observable behaviour (what was said or done, and when) instead of a trait or a pattern word like "always" or "never".

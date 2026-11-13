@@ -9053,6 +9053,99 @@
    ]
   },
   {
+   "@id": "cm:graded-assertiveness",
+   "@type": "cmo:Technique",
+   "cmo:addresses": {
+    "@id": "cm:employee-silence"
+   },
+   "cmo:challengedBy": {
+    "@id": "cm:raemer-et-al-2016"
+   },
+   "cmo:complements": {
+    "@id": "cm:escalation-communication"
+   },
+   "cmo:develops": {
+    "@id": "cm:upward-dissent"
+   },
+   "cmo:domain": "difficult-conversations-and-conflict",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/graded-assertiveness/example"
+   },
+   "cmo:file": "articles/difficult-conversations-and-conflict/graded-assertiveness.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/graded-assertiveness/howto"
+   },
+   "cmo:level": "introductory",
+   "cmo:supportedBy": {
+    "@id": "cm:pian-smith-et-al-2009"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/graded-assertiveness/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/graded-assertiveness/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/graded-assertiveness/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/graded-assertiveness/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/graded-assertiveness/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/graded-assertiveness/s6"
+    }
+   ],
+   "rdfs:label": "Graded assertiveness",
+   "skos:altLabel": [
+    "CUS words",
+    "PACE graded assertiveness",
+    "PACE",
+    "assertive statement",
+    "speaking up across a hierarchy",
+    "two-challenge rule"
+   ],
+   "skos:broader": {
+    "@id": "cm:assertive-communication"
+   },
+   "skos:definition": "A set of scripted, escalating ways to voice a concern to someone with more authority - from a probing question, through a plain statement of concern and a proposed fix, to an explicit call to stop - taken from team-safety training in aviation and healthcare (AHRQ's TeamSTEPPS assertive statement, CUS words and two-challenge rule; the PACE mnemonic).",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/difficult-conversations-and-conflict"
+   },
+   "skos:prefLabel": "Graded assertiveness",
+   "skos:related": [
+    {
+     "@id": "cm:closed-loop-communication"
+    },
+    {
+     "@id": "cm:escalation-communication"
+    },
+    {
+     "@id": "cm:i-statements"
+    },
+    {
+     "@id": "cm:mum-effect"
+    },
+    {
+     "@id": "cm:power-distance"
+    },
+    {
+     "@id": "cm:psychological-safety"
+    },
+    {
+     "@id": "cm:upward-dissent"
+    }
+   ]
+  },
+  {
    "@id": "cm:grices-maxims",
    "@type": "cmo:Principle",
    "cmo:challengedBy": [
@@ -27492,6 +27585,124 @@
    "rdfs:label": "Was I relying on gestures to carry a point that people on audio or reading the slides afterwards would miss?"
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/graded-assertiveness/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:graded-assertiveness"
+   },
+   "rdfs:label": "Have I said the concern out loud in words the other person cannot mistake for small talk, or only hinted at it?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/graded-assertiveness/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:graded-assertiveness"
+   },
+   "rdfs:label": "Did I name the specific fact and the consequence, and offer a fix?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/graded-assertiveness/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:graded-assertiveness"
+   },
+   "rdfs:label": "Did I ask for and get an explicit answer, or did the point just fade?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/graded-assertiveness/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:graded-assertiveness"
+   },
+   "rdfs:label": "If I was ignored, did I raise it a second time before deciding whether to escalate?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/graded-assertiveness/check/5",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:graded-assertiveness"
+   },
+   "rdfs:label": "Am I matching the level of challenge to the real size of the risk, rather than to my nerves or my frustration?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/graded-assertiveness/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "Dana, I'm concerned about slide 4 - the revenue is the draft number, $2.1M higher than the audited one. I can swap in the audited figure in two minutes. Can we hold the deck until I do?",
+   "cmo:before": "Um, sorry, this is probably nothing, but did anyone double-check slide 4? Maybe it's fine.",
+   "cmo:situation": "A finance analyst notices, ten minutes before a board call, that the revenue figure in the VP's deck is from the unaudited draft. The VP is busy and has already said the deck is final.",
+   "cmo:why": "The rewrite gets attention by name, states the concern and the evidence, offers a fix and asks for a decision, so the VP can act in seconds; the hedged version invites a quick \"it's fine\" and leaves the analyst no clear second step."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/graded-assertiveness/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Graded assertiveness",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/graded-assertiveness/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/graded-assertiveness/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/graded-assertiveness/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/graded-assertiveness/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/graded-assertiveness/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/graded-assertiveness/howto/6"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/graded-assertiveness/howto/7"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/graded-assertiveness/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Decide in advance which level the situation warrants - a question, a stated concern, a request to pause, or a stop - based on how serious and how imminent the harm is."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/graded-assertiveness/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Open by getting the person's attention and using their name: \"Priya, can I flag something before this goes out?\""
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/graded-assertiveness/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "State your concern in the first person and name the problem as you see it, with the specific fact behind it (\"I'm concerned - the Q3 figure on slide 4 doesn't match the ledger\")."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/graded-assertiveness/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Offer a concrete fix or next step rather than only the objection."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/graded-assertiveness/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Ask for an explicit decision or agreement, and wait for an answer instead of letting the point drop."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/graded-assertiveness/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "If you are not acknowledged, say it a second time, more plainly, naming the consequence you expect."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/graded-assertiveness/howto/7",
+   "@type": "schema:HowToStep",
+   "schema:position": 7,
+   "schema:text": "If the concern is still unresolved and the risk is serious, escalate in the open - ask for a pause, bring in a colleague, or go to the next level - and say that you are doing so."
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/grices-maxims/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -41015,6 +41226,90 @@
    "dcterms:title": "Ginny Redish: Christine Mowat Plain Language Achievement Award, 2023",
    "schema:url": {
     "@id": "https://plainlanguage.com/awards/winners/ginny-redish/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/graded-assertiveness/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Agency for Healthcare Research and Quality (AHRQ), TeamSTEPPS curriculum, U.S. Department of Health and Human Services",
+   "dcterms:title": "Tool: Advocacy and Assertion",
+   "schema:url": {
+    "@id": "https://www.ahrq.gov/teamstepps-program/curriculum/mutual/tools/advocacy.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/graded-assertiveness/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Agency for Healthcare Research and Quality (AHRQ), TeamSTEPPS curriculum, U.S. Department of Health and Human Services",
+   "dcterms:title": "Section 1: Overview of Mutual Support Key Concepts and Tools",
+   "schema:url": {
+    "@id": "https://www.ahrq.gov/teamstepps-program/curriculum/mutual/overview/index.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/graded-assertiveness/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Róisín O'Donovan & Eilish McAuliffe, BMC Health Services Research 20, 101, 2020, doi:10.1186/s12913-020-4931-2",
+   "dcterms:title": "A systematic review exploring the content and outcomes of interventions to improve psychological safety, speaking up and voice behaviour",
+   "schema:url": {
+    "@id": "https://link.springer.com/content/pdf/10.1186/s12913-020-4931-2.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/graded-assertiveness/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "AHRQ Patient Safety Network (PSNet) record of Raemer, Kolbe, Minehart, Rudolph & Pian-Smith, Academic Medicine 91(4), 530-539, 2016, doi:10.1097/ACM.0000000000001033",
+   "dcterms:title": "Improving anesthesiologists' ability to speak up in the operating room: a randomized controlled experiment of a simulation-based intervention and a qualitative analysis of hurdles and enablers",
+   "schema:url": {
+    "@id": "https://psnet.ahrq.gov/issue/improving-anesthesiologists-ability-speak-operating-room-randomized-controlled-experiment"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/graded-assertiveness/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Victorian State Trauma System, Victoria, Australia",
+   "dcterms:title": "Dealing with issues (Teamwork and communication guideline)",
+   "schema:url": {
+    "@id": "https://trauma.reach.vic.gov.au/guidelines/teamwork-and-communication/dealing-with-issues/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/graded-assertiveness/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Linda Werfelman, AeroSafety World, Flight Safety Foundation, 14 August 2018 (summary of Beveridge, Henderson, Martin & Lamb, Aviation Psychology and Applied Human Factors, 2018)",
+   "dcterms:title": "Role Playing",
+   "schema:url": {
+    "@id": "https://flightsafety.org/asw-article/role-playing/"
    }
   },
   {

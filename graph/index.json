@@ -10251,6 +10251,119 @@
   ]
  },
  {
+  "id": "cm:graded-assertiveness",
+  "title": "Graded assertiveness",
+  "aliases": [
+   "PACE",
+   "PACE graded assertiveness",
+   "CUS words",
+   "two-challenge rule",
+   "assertive statement",
+   "speaking up across a hierarchy"
+  ],
+  "type": "Technique",
+  "domain": "difficult-conversations-and-conflict",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/difficult-conversations-and-conflict/graded-assertiveness.md",
+  "created": "2026-11-13",
+  "summary": "A set of scripted, escalating ways to voice a concern to someone with more authority - from a probing question, through a plain statement of concern and a proposed fix, to an explicit call to stop - taken from team-safety training in aviation and healthcare (AHRQ's TeamSTEPPS assertive statement, CUS words and two-challenge rule; the PACE mnemonic).",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:assertive-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:upward-dissent"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:escalation-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:closed-loop-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:psychological-safety"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:power-distance"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:mum-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:i-statements"
+   },
+   {
+    "predicate": "cmo:develops",
+    "object": "cm:upward-dissent",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:employee-silence",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:escalation-communication",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:pian-smith-et-al-2009",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:raemer-et-al-2016",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Have I said the concern out loud in words the other person cannot mistake for small talk, or only hinted at it?",
+   "Did I name the specific fact and the consequence, and offer a fix?",
+   "Did I ask for and get an explicit answer, or did the point just fade?",
+   "If I was ignored, did I raise it a second time before deciding whether to escalate?",
+   "Am I matching the level of challenge to the real size of the risk, rather than to my nerves or my frustration?"
+  ],
+  "steps": [
+   "Decide in advance which level the situation warrants - a question, a stated concern, a request to pause, or a stop - based on how serious and how imminent the harm is.",
+   "Open by getting the person's attention and using their name: \"Priya, can I flag something before this goes out?\"",
+   "State your concern in the first person and name the problem as you see it, with the specific fact behind it (\"I'm concerned - the Q3 figure on slide 4 doesn't match the ledger\").",
+   "Offer a concrete fix or next step rather than only the objection.",
+   "Ask for an explicit decision or agreement, and wait for an answer instead of letting the point drop.",
+   "If you are not acknowledged, say it a second time, more plainly, naming the consequence you expect.",
+   "If the concern is still unresolved and the risk is serious, escalate in the open - ask for a pause, bring in a colleague, or go to the next level - and say that you are doing so."
+  ],
+  "example": {
+   "situation": "A finance analyst notices, ten minutes before a board call, that the revenue figure in the VP's deck is from the unaudited draft. The VP is busy and has already said the deck is final.",
+   "before": "Um, sorry, this is probably nothing, but did anyone double-check slide 4? Maybe it's fine.",
+   "after": "Dana, I'm concerned about slide 4 - the revenue is the draft number, $2.1M higher than the audited one. I can swap in the audited figure in two minutes. Can we hold the deck until I do?",
+   "why": "The rewrite gets attention by name, states the concern and the evidence, offers a fix and asks for a decision, so the VP can act in seconds; the hedged version invites a quick \"it's fine\" and leaves the analyst no clear second step."
+  },
+  "source_urls": [
+   "https://www.ahrq.gov/teamstepps-program/curriculum/mutual/tools/advocacy.html",
+   "https://www.ahrq.gov/teamstepps-program/curriculum/mutual/overview/index.html",
+   "https://link.springer.com/content/pdf/10.1186/s12913-020-4931-2.pdf",
+   "https://psnet.ahrq.gov/issue/improving-anesthesiologists-ability-speak-operating-room-randomized-controlled-experiment",
+   "https://trauma.reach.vic.gov.au/guidelines/teamwork-and-communication/dealing-with-issues/",
+   "https://flightsafety.org/asw-article/role-playing/"
+  ]
+ },
+ {
   "id": "cm:grices-maxims",
   "title": "Grice's cooperative principle",
   "aliases": [

@@ -12,9 +12,7 @@ _No results._
 
 _Which written skills or dispositions have no technique, framework or principle that develops them?_ — `queries/02-skills-without-practice.rq`
 
-| skill | type |
-|---|---|
-| `cm:upward-dissent` | cmo:Skill |
+_No results._
 
 ## Situations, channels and formats with no guidance (gap)
 
@@ -40,6 +38,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:describe-analyze-evaluate` | 2 | Ethnocentrism, Intercultural competence |
 | `cm:escalation-communication` | 2 | MUM effect, employee-silence |
 | `cm:facilitation` | 2 | Interrupting, Unequal participation |
+| `cm:graded-assertiveness` | 2 | Upward dissent, employee-silence |
 | `cm:i-statements` | 2 | Defensiveness, accusatory-you-statements |
 | `cm:interests-vs-positions` | 2 | Mythical fixed-pie bias, positional-bargaining |
 | `cm:nominal-group-technique` | 2 | Unequal participation, production-blocking |
@@ -57,9 +56,8 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:anxiety-reappraisal` | 1 | Public speaking anxiety |
 | `cm:assertion-evidence-slides` | 1 | Death by PowerPoint |
 | `cm:audience-analysis` | 1 | Curse of knowledge |
-| `cm:bottom-line-up-front` | 1 | Burying the lede |
 
-…and 49 more.
+…and 50 more.
 
 ## Toolkit by situation
 
@@ -137,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:apology` | mixed |  |
 | `cm:assertion-evidence-slides` | mixed | `cm:alzayed-alzamel-2023` |
 
-…and 152 more.
+…and 153 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -149,6 +147,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:escalation-communication` | cmo:Technique |
 | `cm:executive-summary` | cmo:Genre |
 | `cm:gestures` | cmo:Skill |
+| `cm:graded-assertiveness` | cmo:Technique |
 | `cm:group-decision-making` | cmo:Context |
 | `cm:handling-questions` | cmo:Technique |
 | `cm:hybrid-meetings` | cmo:Context |
@@ -174,9 +173,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:one-on-one-meetings` | cmo:Context |
 | `cm:one-remote-all-remote` | cmo:Technique |
 | `cm:open-ended-questions` | cmo:Technique |
-| `cm:penance-and-restitution` | cmo:Technique |
 
-…and 41 more.
+…and 42 more.
 
 ## Orphan articles (gap)
 

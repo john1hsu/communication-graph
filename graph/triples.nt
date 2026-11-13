@@ -5274,6 +5274,93 @@
 <https://github.com/john1hsu/communication-graph/id/ginny-redish> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/instructional-systems-design> .
 <https://github.com/john1hsu/communication-graph/id/ginny-redish> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/bulleted-and-numbered-lists> .
 <https://github.com/john1hsu/communication-graph/id/ginny-redish> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Have I said the concern out loud in words the other person cannot mistake for small talk, or only hinted at it?" .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/graded-assertiveness> .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Did I name the specific fact and the consequence, and offer a fix?" .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/graded-assertiveness> .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Did I ask for and get an explicit answer, or did the point just fade?" .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/graded-assertiveness> .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "If I was ignored, did I raise it a second time before deciding whether to escalate?" .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/graded-assertiveness> .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness/check/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness/check/5> <http://www.w3.org/2000/01/rdf-schema#label> "Am I matching the level of challenge to the real size of the risk, rather than to my nerves or my frustration?" .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness/check/5> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/graded-assertiveness> .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness/example> <https://github.com/john1hsu/communication-graph/ontology#after> "Dana, I'm concerned about slide 4 - the revenue is the draft number, $2.1M higher than the audited one. I can swap in the audited figure in two minutes. Can we hold the deck until I do?" .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness/example> <https://github.com/john1hsu/communication-graph/ontology#before> "Um, sorry, this is probably nothing, but did anyone double-check slide 4? Maybe it's fine." .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "A finance analyst notices, ten minutes before a board call, that the revenue figure in the VP's deck is from the unaudited draft. The VP is busy and has already said the deck is final." .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness/example> <https://github.com/john1hsu/communication-graph/ontology#why> "The rewrite gets attention by name, states the concern and the evidence, offers a fix and asks for a decision, so the VP can act in seconds; the hedged version invites a quick \"it's fine\" and leaves the analyst no clear second step." .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness/howto/1> <https://schema.org/text> "Decide in advance which level the situation warrants - a question, a stated concern, a request to pause, or a stop - based on how serious and how imminent the harm is." .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness/howto/2> <https://schema.org/text> "Open by getting the person's attention and using their name: \"Priya, can I flag something before this goes out?\"" .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness/howto/3> <https://schema.org/text> "State your concern in the first person and name the problem as you see it, with the specific fact behind it (\"I'm concerned - the Q3 figure on slide 4 doesn't match the ledger\")." .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness/howto/4> <https://schema.org/text> "Offer a concrete fix or next step rather than only the objection." .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness/howto/5> <https://schema.org/text> "Ask for an explicit decision or agreement, and wait for an answer instead of letting the point drop." .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness/howto/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness/howto/6> <https://schema.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness/howto/6> <https://schema.org/text> "If you are not acknowledged, say it a second time, more plainly, naming the consequence you expect." .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness/howto/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness/howto/7> <https://schema.org/position> "7"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness/howto/7> <https://schema.org/text> "If the concern is still unresolved and the risk is serious, escalate in the open - ask for a pause, bring in a colleague, or go to the next level - and say that you are doing so." .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness/howto> <https://schema.org/name> "Graded assertiveness" .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/graded-assertiveness/howto/1> .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/graded-assertiveness/howto/2> .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/graded-assertiveness/howto/3> .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/graded-assertiveness/howto/4> .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/graded-assertiveness/howto/5> .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/graded-assertiveness/howto/6> .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/graded-assertiveness/howto/7> .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness> <http://purl.org/dc/terms/created> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Technique> .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness> <http://www.w3.org/2000/01/rdf-schema#label> "Graded assertiveness" .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness> <http://www.w3.org/2004/02/skos/core#altLabel> "CUS words" .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness> <http://www.w3.org/2004/02/skos/core#altLabel> "PACE graded assertiveness" .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness> <http://www.w3.org/2004/02/skos/core#altLabel> "PACE" .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness> <http://www.w3.org/2004/02/skos/core#altLabel> "assertive statement" .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness> <http://www.w3.org/2004/02/skos/core#altLabel> "speaking up across a hierarchy" .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness> <http://www.w3.org/2004/02/skos/core#altLabel> "two-challenge rule" .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/assertive-communication> .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness> <http://www.w3.org/2004/02/skos/core#definition> "A set of scripted, escalating ways to voice a concern to someone with more authority - from a probing question, through a plain statement of concern and a proposed fix, to an explicit call to stop - taken from team-safety training in aviation and healthcare (AHRQ's TeamSTEPPS assertive statement, CUS words and two-challenge rule; the PACE mnemonic)." .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/difficult-conversations-and-conflict> .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness> <http://www.w3.org/2004/02/skos/core#prefLabel> "Graded assertiveness" .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/closed-loop-communication> .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/escalation-communication> .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/i-statements> .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mum-effect> .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/power-distance> .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/upward-dissent> .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/graded-assertiveness/s1> .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/graded-assertiveness/s2> .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/graded-assertiveness/s3> .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/graded-assertiveness/s4> .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/graded-assertiveness/s5> .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/graded-assertiveness/s6> .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/employee-silence> .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/raemer-et-al-2016> .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/escalation-communication> .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness> <https://github.com/john1hsu/communication-graph/ontology#develops> <https://github.com/john1hsu/communication-graph/id/upward-dissent> .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness> <https://github.com/john1hsu/communication-graph/ontology#domain> "difficult-conversations-and-conflict" .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/graded-assertiveness/example> .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/difficult-conversations-and-conflict/graded-assertiveness.md" .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/graded-assertiveness/howto> .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/graded-assertiveness> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/pian-smith-et-al-2009> .
 <https://github.com/john1hsu/communication-graph/id/grices-maxims/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/grices-maxims/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "If my reader took every word literally and also read between the lines, what would they conclude that I did not intend?" .
 <https://github.com/john1hsu/communication-graph/id/grices-maxims/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/grices-maxims> .
@@ -15234,6 +15321,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/ginny-redish/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/ginny-redish/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
 <https://github.com/john1hsu/communication-graph/id/source/ginny-redish/s5> <https://schema.org/url> <https://plainlanguage.com/awards/winners/ginny-redish/> .
+<https://github.com/john1hsu/communication-graph/id/source/graded-assertiveness/s1> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/graded-assertiveness/s1> <http://purl.org/dc/terms/publisher> "Agency for Healthcare Research and Quality (AHRQ), TeamSTEPPS curriculum, U.S. Department of Health and Human Services" .
+<https://github.com/john1hsu/communication-graph/id/source/graded-assertiveness/s1> <http://purl.org/dc/terms/title> "Tool: Advocacy and Assertion" .
+<https://github.com/john1hsu/communication-graph/id/source/graded-assertiveness/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/graded-assertiveness/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/communication-graph/id/source/graded-assertiveness/s1> <https://schema.org/url> <https://www.ahrq.gov/teamstepps-program/curriculum/mutual/tools/advocacy.html> .
+<https://github.com/john1hsu/communication-graph/id/source/graded-assertiveness/s2> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/graded-assertiveness/s2> <http://purl.org/dc/terms/publisher> "Agency for Healthcare Research and Quality (AHRQ), TeamSTEPPS curriculum, U.S. Department of Health and Human Services" .
+<https://github.com/john1hsu/communication-graph/id/source/graded-assertiveness/s2> <http://purl.org/dc/terms/title> "Section 1: Overview of Mutual Support Key Concepts and Tools" .
+<https://github.com/john1hsu/communication-graph/id/source/graded-assertiveness/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/graded-assertiveness/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/communication-graph/id/source/graded-assertiveness/s2> <https://schema.org/url> <https://www.ahrq.gov/teamstepps-program/curriculum/mutual/overview/index.html> .
+<https://github.com/john1hsu/communication-graph/id/source/graded-assertiveness/s3> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/graded-assertiveness/s3> <http://purl.org/dc/terms/publisher> "Róisín O'Donovan & Eilish McAuliffe, BMC Health Services Research 20, 101, 2020, doi:10.1186/s12913-020-4931-2" .
+<https://github.com/john1hsu/communication-graph/id/source/graded-assertiveness/s3> <http://purl.org/dc/terms/title> "A systematic review exploring the content and outcomes of interventions to improve psychological safety, speaking up and voice behaviour" .
+<https://github.com/john1hsu/communication-graph/id/source/graded-assertiveness/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/graded-assertiveness/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/graded-assertiveness/s3> <https://schema.org/url> <https://link.springer.com/content/pdf/10.1186/s12913-020-4931-2.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/graded-assertiveness/s4> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/graded-assertiveness/s4> <http://purl.org/dc/terms/publisher> "AHRQ Patient Safety Network (PSNet) record of Raemer, Kolbe, Minehart, Rudolph & Pian-Smith, Academic Medicine 91(4), 530-539, 2016, doi:10.1097/ACM.0000000000001033" .
+<https://github.com/john1hsu/communication-graph/id/source/graded-assertiveness/s4> <http://purl.org/dc/terms/title> "Improving anesthesiologists' ability to speak up in the operating room: a randomized controlled experiment of a simulation-based intervention and a qualitative analysis of hurdles and enablers" .
+<https://github.com/john1hsu/communication-graph/id/source/graded-assertiveness/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/graded-assertiveness/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/communication-graph/id/source/graded-assertiveness/s4> <https://schema.org/url> <https://psnet.ahrq.gov/issue/improving-anesthesiologists-ability-speak-operating-room-randomized-controlled-experiment> .
+<https://github.com/john1hsu/communication-graph/id/source/graded-assertiveness/s5> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/graded-assertiveness/s5> <http://purl.org/dc/terms/publisher> "Victorian State Trauma System, Victoria, Australia" .
+<https://github.com/john1hsu/communication-graph/id/source/graded-assertiveness/s5> <http://purl.org/dc/terms/title> "Dealing with issues (Teamwork and communication guideline)" .
+<https://github.com/john1hsu/communication-graph/id/source/graded-assertiveness/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/graded-assertiveness/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/communication-graph/id/source/graded-assertiveness/s5> <https://schema.org/url> <https://trauma.reach.vic.gov.au/guidelines/teamwork-and-communication/dealing-with-issues/> .
+<https://github.com/john1hsu/communication-graph/id/source/graded-assertiveness/s6> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/graded-assertiveness/s6> <http://purl.org/dc/terms/publisher> "Linda Werfelman, AeroSafety World, Flight Safety Foundation, 14 August 2018 (summary of Beveridge, Henderson, Martin & Lamb, Aviation Psychology and Applied Human Factors, 2018)" .
+<https://github.com/john1hsu/communication-graph/id/source/graded-assertiveness/s6> <http://purl.org/dc/terms/title> "Role Playing" .
+<https://github.com/john1hsu/communication-graph/id/source/graded-assertiveness/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/graded-assertiveness/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/communication-graph/id/source/graded-assertiveness/s6> <https://schema.org/url> <https://flightsafety.org/asw-article/role-playing/> .
 <https://github.com/john1hsu/communication-graph/id/source/grices-maxims/s1> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/grices-maxims/s1> <http://purl.org/dc/terms/publisher> "Richard Warner, Stanford Encyclopedia of Philosophy (first published 2005, substantive revision 2026)" .
 <https://github.com/john1hsu/communication-graph/id/source/grices-maxims/s1> <http://purl.org/dc/terms/title> "Paul Grice" .
