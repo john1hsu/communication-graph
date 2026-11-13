@@ -6,9 +6,7 @@ SPARQL queries in `queries/` run over the asserted graph, the OWL-RL inferences 
 
 _Which written barriers or anti-patterns have nothing in the graph that addresses them?_ — `queries/01-problems-without-fix.rq`
 
-| node | type |
-|---|---|
-| `cm:mixed-messages` | cmo:Barrier |
+_No results._
 
 ## Skills with no practice technique (gap)
 
@@ -59,7 +57,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:audience-analysis` | 1 | Curse of knowledge |
 | `cm:bottom-line-up-front` | 1 | Burying the lede |
 
-…and 48 more.
+…and 49 more.
 
 ## Toolkit by situation
 
@@ -89,6 +87,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:difficult-conversation` | `cm:face-and-facework` |
 | `cm:difficult-conversation` | `cm:i-statements` |
 | `cm:difficult-conversation` | `cm:paraphrasing` |
+| `cm:difficult-conversation` | `cm:perception-checking` |
 | `cm:difficult-conversation` | `cm:role-reversal` |
 | `cm:difficult-conversation` | `cm:thomas-kilmann-conflict-modes` |
 | `cm:elevator-pitch` | `cm:monroes-motivated-sequence` |
@@ -96,9 +95,8 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:email` | `cm:bottom-line-up-front` |
 | `cm:email` | `cm:channel-selection` |
 | `cm:email` | `cm:checking-understanding` |
-| `cm:email` | `cm:closed-loop-communication` |
 
-…and 125 more.
+…and 126 more.
 
 ## Myths and contested advice
 

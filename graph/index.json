@@ -17065,6 +17065,123 @@
   ]
  },
  {
+  "id": "cm:perception-checking",
+  "title": "Perception checking",
+  "aliases": [
+   "perception check",
+   "checking your interpretation"
+  ],
+  "type": "Technique",
+  "domain": "listening",
+  "level": "introductory",
+  "evidenceStatus": "practitioner",
+  "file": "articles/listening/perception-checking.md",
+  "created": "2026-11-13",
+  "summary": "A short, three-part move for testing your reading of someone's behaviour before acting on it: describe what you noticed without judging it, offer two possible interpretations, and ask the other person which (if either) is right.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:active-listening"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:mixed-messages"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:paraphrasing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:checking-understanding"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:perspective-getting"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:perspective-taking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:labeling-emotions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:i-statements"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:nonverbal-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:illusion-of-transparency"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:difficult-conversation"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:mixed-messages",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:john-wallen",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:paraphrasing",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:eyal-steffel-epley-2018",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:difficult-conversation",
+    "source": "s2",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "What exactly did I see or hear, and what part of my reaction is my own interpretation of it?",
+   "Have I come up with at least two different explanations, or am I treating my first reading as fact?",
+   "Would my description sound like an observation to them, or like an accusation?",
+   "Did I actually ask, and did I let their answer replace my guess?"
+  ],
+  "steps": [
+   "Notice the moment you have started to explain someone's behaviour to yourself (\"she's annoyed\", \"he doesn't buy it\"), and treat that explanation as a guess.",
+   "Describe only what you saw or heard, specifically and without a verdict, e.g. \"You went quiet when I mentioned the deadline.\"",
+   "Offer two plausible, non-accusing interpretations, e.g. \"I wasn't sure if the date worries you or if something else is on your mind.\"",
+   "Ask an open question that hands the answer back, e.g. \"Which is it, or is it something else?\", then listen and accept the correction.",
+   "Act on what they tell you, not on your first guess, and paraphrase it back if the answer matters."
+  ],
+  "example": {
+   "situation": "In a weekly one-on-one, a team lead proposes moving a launch forward by two weeks. The engineer says \"Sure, that works\" but pauses, looks down and stops taking notes.",
+   "before": "Great, glad you're on board. I'll tell the client Friday.",
+   "after": "You said it works, but you paused and stopped writing when I said two weeks. I can't tell if the date feels tight or if something else is bothering you. Which is it?",
+   "why": "The first version silently picks the words over the manner and commits the team to a date the engineer may not believe in. The check names the observed behaviour, offers two face-saving readings and invites the real concern before the promise is made."
+  },
+  "source_urls": [
+   "https://cjc-rcc.ucalgary.ca/article/view/60255",
+   "https://ecampusontario.pressbooks.pub/conflictmanagement/chapter/6-4-title/",
+   "https://wtcs.pressbooks.pub/communications/chapter/3-5-clarifying-ambiguous-messages/",
+   "https://pressbooks.lib.jmu.edu/communicationintherealworldjmu/chapter/self-concept-and-communication/",
+   "https://static1.squarespace.com/static/55917f64e4b0cd3b4705b68c/t/5cbe54fb71c10bbdc16e0dbc/1555977471661/eyal.steffel.epley.2018.pdf"
+  ]
+ },
+ {
   "id": "cm:performance-review",
   "title": "Performance review",
   "aliases": [

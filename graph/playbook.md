@@ -1245,6 +1245,28 @@ Ask yourself:
 - Did I end with a genuine check ("Have I got that right?") and accept a correction without defending myself?
 - Did I hold back my own view until they agreed I had understood them?
 
+### [Perception checking](../articles/listening/perception-checking.md) — Technique
+
+1. Notice the moment you have started to explain someone's behaviour to yourself ("she's annoyed", "he doesn't buy it"), and treat that explanation as a guess.
+2. Describe only what you saw or heard, specifically and without a verdict, e.g. "You went quiet when I mentioned the deadline."
+3. Offer two plausible, non-accusing interpretations, e.g. "I wasn't sure if the date worries you or if something else is on your mind."
+4. Ask an open question that hands the answer back, e.g. "Which is it, or is it something else?", then listen and accept the correction.
+5. Act on what they tell you, not on your first guess, and paraphrase it back if the answer matters.
+
+*In a weekly one-on-one, a team lead proposes moving a launch forward by two weeks. The engineer says "Sure, that works" but pauses, looks down and stops taking notes.*
+
+| Before | After |
+|---|---|
+| Great, glad you're on board. I'll tell the client Friday. | You said it works, but you paused and stopped writing when I said two weeks. I can't tell if the date feels tight or if something else is bothering you. Which is it? |
+
+**Why:** The first version silently picks the words over the manner and commits the team to a date the engineer may not believe in. The check names the observed behaviour, offers two face-saving readings and invites the real concern before the promise is made.
+
+Ask yourself:
+- What exactly did I see or hear, and what part of my reaction is my own interpretation of it?
+- Have I come up with at least two different explanations, or am I treating my first reading as fact?
+- Would my description sound like an observation to them, or like an accusation?
+- Did I actually ask, and did I let their answer replace my guess?
+
 ### [Perspective-taking](../articles/listening/perspective-taking.md) — Skill
 
 Ask yourself:
