@@ -9667,6 +9667,108 @@
    ]
   },
   {
+   "@id": "cm:hybrid-meetings",
+   "@type": "cmo:Context",
+   "cmo:alternativeTo": {
+    "@id": "cm:video-call-communication"
+   },
+   "cmo:causes": {
+    "@id": "cm:unequal-participation"
+   },
+   "cmo:demonstratedBy": [
+    {
+     "@id": "cm:bos-et-al-2004"
+    },
+    {
+     "@id": "cm:saatci-et-al-2020"
+    }
+   ],
+   "cmo:domain": "meetings-and-facilitation",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:file": "articles/meetings-and-facilitation/hybrid-meetings.md",
+   "cmo:level": "intermediate",
+   "cmo:studiedIn": {
+    "@id": "cm:computer-supported-cooperative-work"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/hybrid-meetings/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/hybrid-meetings/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/hybrid-meetings/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/hybrid-meetings/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/hybrid-meetings/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/hybrid-meetings/s6"
+    }
+   ],
+   "rdfs:label": "Hybrid meetings",
+   "skos:altLabel": [
+    "hybrid meeting",
+    "mixed-mode meetings",
+    "mixed-presence meetings",
+    "partially distributed meetings"
+   ],
+   "skos:broader": {
+    "@id": "cm:workplace-meetings"
+   },
+   "skos:definition": "Meetings in which some participants share a room while others join remotely by video or audio; the two groups hear, see, take turns and wield influence unequally, so the organizer has to choose the format deliberately and run the meeting to offset the room's built-in advantage.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/meetings-and-facilitation"
+   },
+   "skos:prefLabel": "Hybrid meetings",
+   "skos:related": [
+    {
+     "@id": "cm:camera-optional-norm"
+    },
+    {
+     "@id": "cm:channel-selection"
+    },
+    {
+     "@id": "cm:chat-etiquette"
+    },
+    {
+     "@id": "cm:conversational-turn-taking"
+    },
+    {
+     "@id": "cm:facilitation"
+    },
+    {
+     "@id": "cm:meeting-agendas"
+    },
+    {
+     "@id": "cm:meeting-recaps"
+    },
+    {
+     "@id": "cm:proximity-bias"
+    },
+    {
+     "@id": "cm:psychological-safety"
+    },
+    {
+     "@id": "cm:unequal-participation"
+    },
+    {
+     "@id": "cm:video-call-communication"
+    },
+    {
+     "@id": "cm:wait-time"
+    }
+   ]
+  },
+  {
    "@id": "cm:i-statements",
    "@type": "cmo:Technique",
    "cmo:addresses": [
@@ -21299,6 +21401,9 @@
      "@id": "cm:facilitation"
     },
     {
+     "@id": "cm:hybrid-meetings"
+    },
+    {
      "@id": "cm:media-richness-theory"
     },
     {
@@ -27255,6 +27360,46 @@
    "@type": "schema:HowToStep",
    "schema:position": 6,
    "schema:text": "Only then tell - share your view or ask for what you need - and invite them to correct or add to it."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/hybrid-meetings/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:hybrid-meetings"
+   },
+   "rdfs:label": "Does this meeting need some people in the same room, or would an all-remote call put everyone on equal footing?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/hybrid-meetings/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:hybrid-meetings"
+   },
+   "rdfs:label": "Can every remote attendee hear every speaker in the room and see what is being written or shown?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/hybrid-meetings/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:hybrid-meetings"
+   },
+   "rdfs:label": "Who is watching the screen and the chat, and how will remote people get the floor without having to interrupt?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/hybrid-meetings/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:hybrid-meetings"
+   },
+   "rdfs:label": "Did I invite a remote participant to speak first on at least one item?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/hybrid-meetings/check/5",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:hybrid-meetings"
+   },
+   "rdfs:label": "Did anything get decided in a side conversation or after the call ended that remote attendees still have not heard?"
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/i-statements/check/1",
@@ -40454,6 +40599,90 @@
    "dcterms:title": "Expressed Humility in Organizations: Implications for Performance, Teams, and Leadership",
    "schema:url": {
     "@id": "https://ideas.repec.org/a/inm/ororsc/v24y2013i5p1517-1538.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/hybrid-meetings/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Banu Saatçi, Kaya Akyüz, Sean Rintel & Clemens Nylandsted Klokmose, Computer Supported Cooperative Work (CSCW), Springer (2020), doi:10.1007/s10606-020-09385-x (open-access copy hosted by Microsoft Research)",
+   "dcterms:title": "(Re)Configuring Hybrid Meetings: Moving from User-Centered Design to Meeting-Centered Design",
+   "schema:url": {
+    "@id": "https://microsoft.com/en-us/research/uploads/prod/2020/11/Saatci2020_Article_ReConfiguringHybridMeetingsMov.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/hybrid-meetings/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Sean Rintel, Abigail Sellen, Sonia Jaffe, Brent Hecht, John Tang, Kori Inkpen & Bill Buxton, Microsoft Research, The New Future of Work (September 2021, updated November 2021)",
+   "dcterms:title": "Hybrid Meetings Guide",
+   "schema:url": {
+    "@id": "https://www.microsoft.com/en-us/research/articles/hybrid-meetings-guide"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/hybrid-meetings/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Nathan Bos, N. Sadat Shami, Judith S. Olson, Arik Cheshin & Ning Nan, Proceedings of CSCW 2004, ACM, pp. 429-436, doi:10.1145/1031607.1031679 (University of Haifa research portal record)",
+   "dcterms:title": "In-group/out-group effects in distributed teams: An experimental simulation",
+   "schema:url": {
+    "@id": "https://cris.haifa.ac.il/en/publications/in-groupout-group-effects-in-distributed-teams-an-experimental-si-2/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/hybrid-meetings/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Payod Panda, Lev Tankelevitch, Becky Spittle, Kori Inkpen, John Tang, Sean Rintel et al., Proceedings of the ACM on Human-Computer Interaction 8 (CSCW2), Article 501 (2024)",
+   "dcterms:title": "Hybridge: Bridging Spatiality for Inclusive and Equitable Hybrid Meetings",
+   "schema:url": {
+    "@id": "https://www.microsoft.com/en-us/research/?p=1096842"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/hybrid-meetings/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "practitioner-journal",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Kimberly D. Elsbach & Daniel M. Cable, MIT Sloan Management Review 53(4), Summer 2012 (author copy on eScholarship, University of California)",
+   "dcterms:title": "Why Showing Your Face at Work Matters",
+   "schema:url": {
+    "@id": "https://escholarship.org/content/qt3jt344hk/qt3jt344hk.pdf?t=pudeck"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/hybrid-meetings/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Liana M. Kreamer, Steven G. Rogelberg, Lev Tankelevitch & Sean Rintel, Journal of Vocational Behavior 152, 104015 (2024) (author copy hosted by Microsoft Research)",
+   "dcterms:title": "Virtual voices: Exploring individual differences in chat and verbal participation in virtual meetings",
+   "schema:url": {
+    "@id": "https://www.microsoft.com/en-us/research/wp-content/uploads/2024/04/2024-jvb-virtualvoices.pdf"
    }
   },
   {

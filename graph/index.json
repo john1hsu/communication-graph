@@ -10967,6 +10967,124 @@
   ]
  },
  {
+  "id": "cm:hybrid-meetings",
+  "title": "Hybrid meetings",
+  "aliases": [
+   "hybrid meeting",
+   "mixed-mode meetings",
+   "mixed-presence meetings",
+   "partially distributed meetings"
+  ],
+  "type": "Context",
+  "domain": "meetings-and-facilitation",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/meetings-and-facilitation/hybrid-meetings.md",
+  "created": "2026-11-13",
+  "summary": "Meetings in which some participants share a room while others join remotely by video or audio; the two groups hear, see, take turns and wield influence unequally, so the organizer has to choose the format deliberately and run the meeting to offset the room's built-in advantage.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:workplace-meetings"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:video-call-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:facilitation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:unequal-participation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:proximity-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:conversational-turn-taking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:meeting-agendas"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:meeting-recaps"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:channel-selection"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:chat-etiquette"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:wait-time"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:psychological-safety"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:camera-optional-norm"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:saatci-et-al-2020",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:bos-et-al-2004",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:causes",
+    "object": "cm:unequal-participation",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:alternativeTo",
+    "object": "cm:video-call-communication",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:studiedIn",
+    "object": "cm:computer-supported-cooperative-work",
+    "source": "s1",
+    "confidence": "high"
+   }
+  ],
+  "selfCheck": [
+   "Does this meeting need some people in the same room, or would an all-remote call put everyone on equal footing?",
+   "Can every remote attendee hear every speaker in the room and see what is being written or shown?",
+   "Who is watching the screen and the chat, and how will remote people get the floor without having to interrupt?",
+   "Did I invite a remote participant to speak first on at least one item?",
+   "Did anything get decided in a side conversation or after the call ended that remote attendees still have not heard?"
+  ],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://microsoft.com/en-us/research/uploads/prod/2020/11/Saatci2020_Article_ReConfiguringHybridMeetingsMov.pdf",
+   "https://www.microsoft.com/en-us/research/articles/hybrid-meetings-guide",
+   "https://cris.haifa.ac.il/en/publications/in-groupout-group-effects-in-distributed-teams-an-experimental-si-2/",
+   "https://www.microsoft.com/en-us/research/?p=1096842",
+   "https://escholarship.org/content/qt3jt344hk/qt3jt344hk.pdf?t=pudeck",
+   "https://www.microsoft.com/en-us/research/wp-content/uploads/2024/04/2024-jvb-virtualvoices.pdf"
+  ]
+ },
+ {
   "id": "cm:i-statements",
   "title": "I-statements",
   "aliases": [
@@ -24097,6 +24215,10 @@
    {
     "predicate": "skos:related",
     "object": "cm:zoom-fatigue"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:hybrid-meetings"
    },
    {
     "predicate": "skos:related",

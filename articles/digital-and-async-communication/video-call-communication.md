@@ -12,7 +12,7 @@ summary: >-
 level: introductory
 evidenceStatus: mixed
 broader: [cm:synchronous-communication, cm:digital-communication]
-related: [cm:zoom-fatigue, cm:camera-level-gaze, cm:camera-optional-norm, cm:channel-selection, cm:workplace-meetings, cm:media-richness-theory, cm:conversational-turn-taking, cm:proxemics, cm:facilitation, cm:wait-time, cm:credibility]
+related: [cm:zoom-fatigue, cm:hybrid-meetings, cm:camera-level-gaze, cm:camera-optional-norm, cm:channel-selection, cm:workplace-meetings, cm:media-richness-theory, cm:conversational-turn-taking, cm:proxemics, cm:facilitation, cm:wait-time, cm:credibility]
 requires: []
 relations:
   - {predicate: demonstratedBy, object: cm:brucks-levav-2022, source: s1, confidence: high}

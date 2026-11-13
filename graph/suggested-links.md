@@ -17,7 +17,8 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 3.12 | `cm:chat-etiquette` | `cm:email` | `cm:asynchronous-communication`, `cm:bottom-line-up-front`, `cm:channel-selection`, `cm:digital-communication`, `cm:emoji-and-tone-in-text` |
 | 3.05 | `cm:one-on-one-meetings` | `cm:situation-behavior-impact` | `cm:active-listening`, `cm:feedback`, `cm:feedforward`, `cm:grow-model`, `cm:hattie-timperley-feedback-model` |
 | 3.01 | `cm:pyramid-principle` | `cm:wall-of-text` | `cm:bottom-line-up-front`, `cm:burying-the-lede`, `cm:business-report`, `cm:executive-summary`, `cm:informative-headings` |
-| 3.01 | `cm:delivering-bad-news` | `cm:managing-up` | `cm:bottom-line-up-front`, `cm:channel-selection`, `cm:client-communication`, `cm:communicating-uncertainty`, `cm:escalation-communication` |
+| 3.00 | `cm:delivering-bad-news` | `cm:managing-up` | `cm:bottom-line-up-front`, `cm:channel-selection`, `cm:client-communication`, `cm:communicating-uncertainty`, `cm:escalation-communication` |
+| 2.96 | `cm:wait-time` | `cm:workplace-meetings` | `cm:1-2-4-all`, `cm:conversational-turn-taking`, `cm:facilitation`, `cm:hybrid-meetings`, `cm:meeting-agendas` |
 | 2.95 | `cm:paralanguage` | `cm:presentation` | `cm:acoustic-speech-analysis-coaching`, `cm:charismatic-leadership-tactics`, `cm:executive-presence`, `cm:filled-pauses`, `cm:rebecca-hincks` |
 | 2.91 | `cm:mythical-fixed-pie` | `cm:principled-negotiation` | `cm:distributive-negotiation`, `cm:integrative-negotiation`, `cm:interests-vs-positions`, `cm:multiple-equivalent-simultaneous-offers`, `cm:negotiation` |
 | 2.85 | `cm:common-ground` | `cm:email` | `cm:asynchronous-communication`, `cm:audience-analysis`, `cm:channel-selection`, `cm:checking-understanding`, `cm:closed-loop-communication` |
@@ -28,4 +29,3 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 2.77 | `cm:credibility` | `cm:managing-up` | `cm:client-communication`, `cm:communicating-uncertainty`, `cm:elevator-pitch`, `cm:executive-presence`, `cm:impression-management` |
 | 2.75 | `cm:labeling-emotions` | `cm:self-distancing` | `cm:anxiety-reappraisal`, `cm:cognitive-reappraisal`, `cm:cooling-off-period`, `cm:de-ira`, `cm:emotion-regulation` |
 | 2.74 | `cm:bottom-line-up-front` | `cm:presentation` | `cm:assertion-evidence-slides`, `cm:audience-analysis`, `cm:cognitive-load`, `cm:elevator-pitch`, `cm:executive-briefing` |
-| 2.70 | `cm:difficult-conversation` | `cm:radical-candor` | `cm:feedback`, `cm:levine-cohen-2018`, `cm:performance-review`, `cm:psychological-safety`, `cm:thomas-kilmann-conflict-modes` |

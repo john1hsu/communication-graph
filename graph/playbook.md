@@ -1402,6 +1402,15 @@ Ask yourself:
 - Did I keep my own opinions out of the content, or did I steer the group toward the answer I wanted?
 - Did the meeting end with named owners and next steps for each decision?
 
+### [Hybrid meetings](../articles/meetings-and-facilitation/hybrid-meetings.md) — Context
+
+Ask yourself:
+- Does this meeting need some people in the same room, or would an all-remote call put everyone on equal footing?
+- Can every remote attendee hear every speaker in the room and see what is being written or shown?
+- Who is watching the screen and the chat, and how will remote people get the floor without having to interrupt?
+- Did I invite a remote participant to speak first on at least one item?
+- Did anything get decided in a side conversation or after the call ended that remote attendees still have not heard?
+
 ### [Meeting agendas](../articles/meetings-and-facilitation/meeting-agendas.md) — Technique
 
 1. Ask the people who will attend what they need the meeting to settle, and include only items that need this whole group.

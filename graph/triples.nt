@@ -5698,6 +5698,59 @@
 <https://github.com/john1hsu/communication-graph/id/humble-inquiry> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/detert-burris-2007> .
 <https://github.com/john1hsu/communication-graph/id/humble-inquiry> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/huang-et-al-2017> .
 <https://github.com/john1hsu/communication-graph/id/humble-inquiry> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/owens-johnson-mitchell-2013> .
+<https://github.com/john1hsu/communication-graph/id/hybrid-meetings/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/hybrid-meetings/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Does this meeting need some people in the same room, or would an all-remote call put everyone on equal footing?" .
+<https://github.com/john1hsu/communication-graph/id/hybrid-meetings/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/hybrid-meetings> .
+<https://github.com/john1hsu/communication-graph/id/hybrid-meetings/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/hybrid-meetings/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Can every remote attendee hear every speaker in the room and see what is being written or shown?" .
+<https://github.com/john1hsu/communication-graph/id/hybrid-meetings/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/hybrid-meetings> .
+<https://github.com/john1hsu/communication-graph/id/hybrid-meetings/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/hybrid-meetings/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Who is watching the screen and the chat, and how will remote people get the floor without having to interrupt?" .
+<https://github.com/john1hsu/communication-graph/id/hybrid-meetings/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/hybrid-meetings> .
+<https://github.com/john1hsu/communication-graph/id/hybrid-meetings/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/hybrid-meetings/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Did I invite a remote participant to speak first on at least one item?" .
+<https://github.com/john1hsu/communication-graph/id/hybrid-meetings/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/hybrid-meetings> .
+<https://github.com/john1hsu/communication-graph/id/hybrid-meetings/check/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/hybrid-meetings/check/5> <http://www.w3.org/2000/01/rdf-schema#label> "Did anything get decided in a side conversation or after the call ended that remote attendees still have not heard?" .
+<https://github.com/john1hsu/communication-graph/id/hybrid-meetings/check/5> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/hybrid-meetings> .
+<https://github.com/john1hsu/communication-graph/id/hybrid-meetings> <http://purl.org/dc/terms/created> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/hybrid-meetings> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Context> .
+<https://github.com/john1hsu/communication-graph/id/hybrid-meetings> <http://www.w3.org/2000/01/rdf-schema#label> "Hybrid meetings" .
+<https://github.com/john1hsu/communication-graph/id/hybrid-meetings> <http://www.w3.org/2004/02/skos/core#altLabel> "hybrid meeting" .
+<https://github.com/john1hsu/communication-graph/id/hybrid-meetings> <http://www.w3.org/2004/02/skos/core#altLabel> "mixed-mode meetings" .
+<https://github.com/john1hsu/communication-graph/id/hybrid-meetings> <http://www.w3.org/2004/02/skos/core#altLabel> "mixed-presence meetings" .
+<https://github.com/john1hsu/communication-graph/id/hybrid-meetings> <http://www.w3.org/2004/02/skos/core#altLabel> "partially distributed meetings" .
+<https://github.com/john1hsu/communication-graph/id/hybrid-meetings> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/workplace-meetings> .
+<https://github.com/john1hsu/communication-graph/id/hybrid-meetings> <http://www.w3.org/2004/02/skos/core#definition> "Meetings in which some participants share a room while others join remotely by video or audio; the two groups hear, see, take turns and wield influence unequally, so the organizer has to choose the format deliberately and run the meeting to offset the room's built-in advantage." .
+<https://github.com/john1hsu/communication-graph/id/hybrid-meetings> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/meetings-and-facilitation> .
+<https://github.com/john1hsu/communication-graph/id/hybrid-meetings> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hybrid meetings" .
+<https://github.com/john1hsu/communication-graph/id/hybrid-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> .
+<https://github.com/john1hsu/communication-graph/id/hybrid-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/channel-selection> .
+<https://github.com/john1hsu/communication-graph/id/hybrid-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/chat-etiquette> .
+<https://github.com/john1hsu/communication-graph/id/hybrid-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> .
+<https://github.com/john1hsu/communication-graph/id/hybrid-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/facilitation> .
+<https://github.com/john1hsu/communication-graph/id/hybrid-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/meeting-agendas> .
+<https://github.com/john1hsu/communication-graph/id/hybrid-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/meeting-recaps> .
+<https://github.com/john1hsu/communication-graph/id/hybrid-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/proximity-bias> .
+<https://github.com/john1hsu/communication-graph/id/hybrid-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
+<https://github.com/john1hsu/communication-graph/id/hybrid-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/unequal-participation> .
+<https://github.com/john1hsu/communication-graph/id/hybrid-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/video-call-communication> .
+<https://github.com/john1hsu/communication-graph/id/hybrid-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/wait-time> .
+<https://github.com/john1hsu/communication-graph/id/hybrid-meetings> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/hybrid-meetings/s1> .
+<https://github.com/john1hsu/communication-graph/id/hybrid-meetings> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/hybrid-meetings/s2> .
+<https://github.com/john1hsu/communication-graph/id/hybrid-meetings> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/hybrid-meetings/s3> .
+<https://github.com/john1hsu/communication-graph/id/hybrid-meetings> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/hybrid-meetings/s4> .
+<https://github.com/john1hsu/communication-graph/id/hybrid-meetings> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/hybrid-meetings/s5> .
+<https://github.com/john1hsu/communication-graph/id/hybrid-meetings> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/hybrid-meetings/s6> .
+<https://github.com/john1hsu/communication-graph/id/hybrid-meetings> <https://github.com/john1hsu/communication-graph/ontology#alternativeTo> <https://github.com/john1hsu/communication-graph/id/video-call-communication> .
+<https://github.com/john1hsu/communication-graph/id/hybrid-meetings> <https://github.com/john1hsu/communication-graph/ontology#causes> <https://github.com/john1hsu/communication-graph/id/unequal-participation> .
+<https://github.com/john1hsu/communication-graph/id/hybrid-meetings> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/bos-et-al-2004> .
+<https://github.com/john1hsu/communication-graph/id/hybrid-meetings> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/saatci-et-al-2020> .
+<https://github.com/john1hsu/communication-graph/id/hybrid-meetings> <https://github.com/john1hsu/communication-graph/ontology#domain> "meetings-and-facilitation" .
+<https://github.com/john1hsu/communication-graph/id/hybrid-meetings> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/hybrid-meetings> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/meetings-and-facilitation/hybrid-meetings.md" .
+<https://github.com/john1hsu/communication-graph/id/hybrid-meetings> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/communication-graph/id/hybrid-meetings> <https://github.com/john1hsu/communication-graph/ontology#studiedIn> <https://github.com/john1hsu/communication-graph/id/computer-supported-cooperative-work> .
 <https://github.com/john1hsu/communication-graph/id/i-statements/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/i-statements/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Have I described a specific behaviour I could point to, or slipped in a label, a motive or an \"always\"?" .
 <https://github.com/john1hsu/communication-graph/id/i-statements/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/i-statements> .
@@ -15077,6 +15130,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/humble-inquiry/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/humble-inquiry/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/communication-graph/id/source/humble-inquiry/s6> <https://schema.org/url> <https://ideas.repec.org/a/inm/ororsc/v24y2013i5p1517-1538.html> .
+<https://github.com/john1hsu/communication-graph/id/source/hybrid-meetings/s1> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/hybrid-meetings/s1> <http://purl.org/dc/terms/publisher> "Banu Saatçi, Kaya Akyüz, Sean Rintel & Clemens Nylandsted Klokmose, Computer Supported Cooperative Work (CSCW), Springer (2020), doi:10.1007/s10606-020-09385-x (open-access copy hosted by Microsoft Research)" .
+<https://github.com/john1hsu/communication-graph/id/source/hybrid-meetings/s1> <http://purl.org/dc/terms/title> "(Re)Configuring Hybrid Meetings: Moving from User-Centered Design to Meeting-Centered Design" .
+<https://github.com/john1hsu/communication-graph/id/source/hybrid-meetings/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/hybrid-meetings/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/hybrid-meetings/s1> <https://schema.org/url> <https://microsoft.com/en-us/research/uploads/prod/2020/11/Saatci2020_Article_ReConfiguringHybridMeetingsMov.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/hybrid-meetings/s2> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/hybrid-meetings/s2> <http://purl.org/dc/terms/publisher> "Sean Rintel, Abigail Sellen, Sonia Jaffe, Brent Hecht, John Tang, Kori Inkpen & Bill Buxton, Microsoft Research, The New Future of Work (September 2021, updated November 2021)" .
+<https://github.com/john1hsu/communication-graph/id/source/hybrid-meetings/s2> <http://purl.org/dc/terms/title> "Hybrid Meetings Guide" .
+<https://github.com/john1hsu/communication-graph/id/source/hybrid-meetings/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/hybrid-meetings/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/communication-graph/id/source/hybrid-meetings/s2> <https://schema.org/url> <https://www.microsoft.com/en-us/research/articles/hybrid-meetings-guide> .
+<https://github.com/john1hsu/communication-graph/id/source/hybrid-meetings/s3> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/hybrid-meetings/s3> <http://purl.org/dc/terms/publisher> "Nathan Bos, N. Sadat Shami, Judith S. Olson, Arik Cheshin & Ning Nan, Proceedings of CSCW 2004, ACM, pp. 429-436, doi:10.1145/1031607.1031679 (University of Haifa research portal record)" .
+<https://github.com/john1hsu/communication-graph/id/source/hybrid-meetings/s3> <http://purl.org/dc/terms/title> "In-group/out-group effects in distributed teams: An experimental simulation" .
+<https://github.com/john1hsu/communication-graph/id/source/hybrid-meetings/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/hybrid-meetings/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/hybrid-meetings/s3> <https://schema.org/url> <https://cris.haifa.ac.il/en/publications/in-groupout-group-effects-in-distributed-teams-an-experimental-si-2/> .
+<https://github.com/john1hsu/communication-graph/id/source/hybrid-meetings/s4> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/hybrid-meetings/s4> <http://purl.org/dc/terms/publisher> "Payod Panda, Lev Tankelevitch, Becky Spittle, Kori Inkpen, John Tang, Sean Rintel et al., Proceedings of the ACM on Human-Computer Interaction 8 (CSCW2), Article 501 (2024)" .
+<https://github.com/john1hsu/communication-graph/id/source/hybrid-meetings/s4> <http://purl.org/dc/terms/title> "Hybridge: Bridging Spatiality for Inclusive and Equitable Hybrid Meetings" .
+<https://github.com/john1hsu/communication-graph/id/source/hybrid-meetings/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/hybrid-meetings/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/hybrid-meetings/s4> <https://schema.org/url> <https://www.microsoft.com/en-us/research/?p=1096842> .
+<https://github.com/john1hsu/communication-graph/id/source/hybrid-meetings/s5> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/hybrid-meetings/s5> <http://purl.org/dc/terms/publisher> "Kimberly D. Elsbach & Daniel M. Cable, MIT Sloan Management Review 53(4), Summer 2012 (author copy on eScholarship, University of California)" .
+<https://github.com/john1hsu/communication-graph/id/source/hybrid-meetings/s5> <http://purl.org/dc/terms/title> "Why Showing Your Face at Work Matters" .
+<https://github.com/john1hsu/communication-graph/id/source/hybrid-meetings/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/hybrid-meetings/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "practitioner-journal" .
+<https://github.com/john1hsu/communication-graph/id/source/hybrid-meetings/s5> <https://schema.org/url> <https://escholarship.org/content/qt3jt344hk/qt3jt344hk.pdf?t=pudeck> .
+<https://github.com/john1hsu/communication-graph/id/source/hybrid-meetings/s6> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/hybrid-meetings/s6> <http://purl.org/dc/terms/publisher> "Liana M. Kreamer, Steven G. Rogelberg, Lev Tankelevitch & Sean Rintel, Journal of Vocational Behavior 152, 104015 (2024) (author copy hosted by Microsoft Research)" .
+<https://github.com/john1hsu/communication-graph/id/source/hybrid-meetings/s6> <http://purl.org/dc/terms/title> "Virtual voices: Exploring individual differences in chat and verbal participation in virtual meetings" .
+<https://github.com/john1hsu/communication-graph/id/source/hybrid-meetings/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/hybrid-meetings/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/hybrid-meetings/s6> <https://schema.org/url> <https://www.microsoft.com/en-us/research/wp-content/uploads/2024/04/2024-jvb-virtualvoices.pdf> .
 <https://github.com/john1hsu/communication-graph/id/source/i-statements/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/i-statements/s1> <http://purl.org/dc/terms/publisher> "Rogers et al., PeerJ 6:e4831 (2018), doi:10.7717/peerj.4831" .
 <https://github.com/john1hsu/communication-graph/id/source/i-statements/s1> <http://purl.org/dc/terms/title> "I understand you feel that way, but I feel this way: the benefits of I-language and communicating perspective during conflict" .
@@ -20727,6 +20816,7 @@
 <https://github.com/john1hsu/communication-graph/id/video-call-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> .
 <https://github.com/john1hsu/communication-graph/id/video-call-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/credibility> .
 <https://github.com/john1hsu/communication-graph/id/video-call-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/facilitation> .
+<https://github.com/john1hsu/communication-graph/id/video-call-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/hybrid-meetings> .
 <https://github.com/john1hsu/communication-graph/id/video-call-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/media-richness-theory> .
 <https://github.com/john1hsu/communication-graph/id/video-call-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/proxemics> .
 <https://github.com/john1hsu/communication-graph/id/video-call-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/wait-time> .
