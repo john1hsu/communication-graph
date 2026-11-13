@@ -98,7 +98,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:email` | `cm:checking-understanding` |
 | `cm:email` | `cm:closed-loop-communication` |
 
-…and 123 more.
+…and 125 more.
 
 ## Myths and contested advice
 
@@ -150,6 +150,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:executive-summary` | cmo:Genre |
 | `cm:gestures` | cmo:Skill |
 | `cm:group-decision-making` | cmo:Context |
+| `cm:handling-questions` | cmo:Technique |
 | `cm:hybrid-meetings` | cmo:Context |
 | `cm:informative-headings` | cmo:Technique |
 | `cm:intercultural-competence` | cmo:Skill |
@@ -174,9 +175,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:one-remote-all-remote` | cmo:Technique |
 | `cm:open-ended-questions` | cmo:Technique |
 | `cm:penance-and-restitution` | cmo:Technique |
-| `cm:performance-review` | cmo:Context |
 
-…and 39 more.
+…and 40 more.
 
 ## Orphan articles (gap)
 

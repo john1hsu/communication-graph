@@ -2093,6 +2093,32 @@ Ask yourself:
 - When I felt a filler coming in that talk, did I pause silently instead?
 - Have I tested the new habit in front of a real audience, not just alone with a recorder?
 
+### [Handling audience questions](../articles/presenting-and-public-speaking/handling-questions.md) — Technique
+
+1. Before the talk, list the ten questions you most expect - including the ones you would rather not get - and rehearse a two- or three-sentence answer to each out loud.
+2. Decide in advance which questions you cannot answer (legal, confidential, not yet decided) and write down the honest reason and the principle you can share instead.
+3. When a question comes, let the asker finish, pause, and check you have the real question rather than the first sentence of it.
+4. Restate the question in one short sentence so the whole room hears it and the asker can correct you.
+5. Answer the question that was asked - position first, one piece of evidence, then stop - and offer to follow up offline if it needs more detail.
+6. If you do not know, say so, say how you will find out, and give a date for the follow-up.
+7. For a hostile or emotional question, keep your own tone level, acknowledge the concern, and answer the substance underneath it.
+8. Spread the questions around the room rather than taking hands in order, and close the session with a one-sentence restatement of your key message.
+
+*An operations lead presents a warehouse automation plan to forty staff; a supervisor asks whether the change means job cuts, and the decision on headcount has not been made.*
+
+| Before | After |
+|---|---|
+| "That's a great question. So, the automation roadmap has three phases, and phase one is really about throughput, which, as I showed on slide four, improves by around twenty percent, and the vendor has a strong track record..." She talks for two minutes about throughput and never mentions jobs. | "The question is whether this plan means job cuts. The honest answer is that headcount hasn't been decided - the board reviews it in March. What I can tell you is the principle we're using: retraining first, and no changes without 90 days' notice. I'll share the March decision with this group the same week." |
+
+**Why:** The rewrite restates the actual question, admits what is not yet known and why, shares the principle that is known, and commits to a follow-up date. The original answers an easier question, which listeners may not catch in the moment but which erodes trust once they notice.
+
+Ask yourself:
+- Did I answer the question that was asked, or a nearby question I found easier?
+- Could someone at the back of the room tell what the question was?
+- Did I stop talking once I had given my position and one piece of support?
+- When I could not answer, did I give the real reason and a follow-up date?
+- Did the questions I took come from across the room, or only from the first hands up?
+
 ### [Presentation rehearsal](../articles/presenting-and-public-speaking/presentation-rehearsal.md) — Technique
 
 1. Start at least several days ahead and split practice into short sessions (opening, body, close) rather than one late-night cram.
