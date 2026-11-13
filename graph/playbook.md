@@ -2099,6 +2099,30 @@ Ask yourself:
 - Did I invite questions with an open phrase that assumes they exist, rather than a yes/no "any questions"?
 - For anything sent in writing, did I ask for a reply that shows understanding, not just receipt?
 
+### [Closed-loop communication](../articles/questioning-and-conversation/closed-loop-communication.md) — Technique
+
+1. Decide which messages need a closed loop - instructions, numbers, names, deadlines or decisions where a mishearing would cause real harm - and use the full exchange only for those.
+2. Address one named person ("Priya, ...") so someone owns the message, and keep each call-out short, with one to three items.
+3. Ask the receiver to repeat back the critical details in full (the figure, the identifier, the deadline), not just "got it".
+4. Listen to the repeat-back and close the loop out loud - "Correct" - or correct the wrong part and hear it repeated again.
+5. For tasks, agree that the receiver reports back when the action is done ("Rollback complete"), so the sender is not left assuming.
+6. In email or chat, ask for a reply that restates the key detail or next step, and confirm or correct it in the thread.
+
+*During a production-incident video call, an incident lead asks an on-call engineer to roll back a recent release while four other people are talking.*
+
+| Before | After |
+|---|---|
+| Lead - 'Can someone roll back payments?' Engineer - 'On it.' (Twenty minutes later the team finds the engineer rolled back the wrong region, and the lead had assumed it was finished.) | Lead - 'Sam, roll back payments-api in us-east to version 4.2.' Sam - 'Rolling back payments-api, us-east, to 4.2.' Lead - 'Correct.' ... Sam - 'Rollback of payments-api us-east to 4.2 is complete.' Lead - 'Thanks, noted.' |
+
+**Why:** Naming one owner removes the "someone" ambiguity, the repeat-back exposes a wrong region or version before anyone acts, and the completion report replaces an assumption with a fact the lead can log.
+
+Ask yourself:
+- Which details in this message would cause damage if misheard, and did I hear each one repeated back?
+- Did I direct the instruction to one named person, or did I say it to the room?
+- When I heard the repeat-back, did I actually confirm or correct it, or did I let the loop stay open?
+- Was my call-out short enough to repeat accurately, or did I pack in several topics at once?
+- For a task, do I know it is done because someone told me, or because I assumed it?
+
 ### [Conversational receptiveness](../articles/questioning-and-conversation/conversational-receptiveness.md) — Technique
 
 1. Before replying to someone you disagree with, restate their main point in a sentence of your own and check it is one they would accept.

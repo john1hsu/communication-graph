@@ -3347,6 +3347,131 @@
   ]
  },
  {
+  "id": "cm:closed-loop-communication",
+  "title": "Closed-loop communication",
+  "aliases": [
+   "check-back",
+   "repeat-back",
+   "read-back",
+   "readback-hearback",
+   "call-out and check-back"
+  ],
+  "type": "Technique",
+  "domain": "questioning-and-conversation",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/questioning-and-conversation/closed-loop-communication.md",
+  "created": "2026-11-13",
+  "summary": "A three-part exchange for messages that must be exact: the sender directs a call-out to a named person, the receiver repeats back what they heard, and the sender confirms it is correct or fixes it - and, for tasks, the receiver reports back when the action is done.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:checking-understanding"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:teach-back"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:paraphrasing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:illusion-of-transparency"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:common-ground"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:information-overload"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:shannon-weaver-model"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:hargestam-et-al-2013"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:el-shafy-et-al-2018"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:meeting-recaps"
+   },
+   {
+    "predicate": "cmo:develops",
+    "object": "cm:checking-understanding",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:partOf",
+    "object": "cm:teamstepps",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:phone-call",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:email",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:shared-mental-models",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:espevik-et-al-2021",
+    "source": "s3",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Which details in this message would cause damage if misheard, and did I hear each one repeated back?",
+   "Did I direct the instruction to one named person, or did I say it to the room?",
+   "When I heard the repeat-back, did I actually confirm or correct it, or did I let the loop stay open?",
+   "Was my call-out short enough to repeat accurately, or did I pack in several topics at once?",
+   "For a task, do I know it is done because someone told me, or because I assumed it?"
+  ],
+  "steps": [
+   "Decide which messages need a closed loop - instructions, numbers, names, deadlines or decisions where a mishearing would cause real harm - and use the full exchange only for those.",
+   "Address one named person (\"Priya, ...\") so someone owns the message, and keep each call-out short, with one to three items.",
+   "Ask the receiver to repeat back the critical details in full (the figure, the identifier, the deadline), not just \"got it\".",
+   "Listen to the repeat-back and close the loop out loud - \"Correct\" - or correct the wrong part and hear it repeated again.",
+   "For tasks, agree that the receiver reports back when the action is done (\"Rollback complete\"), so the sender is not left assuming.",
+   "In email or chat, ask for a reply that restates the key detail or next step, and confirm or correct it in the thread."
+  ],
+  "example": {
+   "situation": "During a production-incident video call, an incident lead asks an on-call engineer to roll back a recent release while four other people are talking.",
+   "before": "Lead - 'Can someone roll back payments?' Engineer - 'On it.' (Twenty minutes later the team finds the engineer rolled back the wrong region, and the lead had assumed it was finished.)",
+   "after": "Lead - 'Sam, roll back payments-api in us-east to version 4.2.' Sam - 'Rolling back payments-api, us-east, to 4.2.' Lead - 'Correct.' ... Sam - 'Rollback of payments-api us-east to 4.2 is complete.' Lead - 'Thanks, noted.'",
+   "why": "Naming one owner removes the \"someone\" ambiguity, the repeat-back exposes a wrong region or version before anyone acts, and the completion report replaces an assumption with a fact the lead can log."
+  },
+  "source_urls": [
+   "https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/checkback.html",
+   "https://www.helse-stavanger.no/4a923f/contentassets/c6f06d2b76544501a6d662b0631476d7/salas-big-five.pdf",
+   "https://www.frontiersin.org/articles/10.3389/fpsyg.2021.702347/full",
+   "https://www.faa.gov/data_research/research/med_humanfacs/oamtechreports/2000s/2009/200902",
+   "https://psnet.ahrq.gov/issue/closed-loop-communication-interprofessional-emergency-teams-cross-sectional-observation-study",
+   "https://psnet.ahrq.gov/issue/communication-interdisciplinary-teams-exploring-closed-loop-communication-during-situ-trauma"
+  ]
+ },
+ {
   "id": "cm:cognitive-load",
   "title": "Cognitive load theory",
   "aliases": [

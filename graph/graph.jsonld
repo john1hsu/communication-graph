@@ -2964,6 +2964,109 @@
    ]
   },
   {
+   "@id": "cm:closed-loop-communication",
+   "@type": "cmo:Technique",
+   "cmo:appliedIn": [
+    {
+     "@id": "cm:email"
+    },
+    {
+     "@id": "cm:phone-call"
+    }
+   ],
+   "cmo:complements": {
+    "@id": "cm:shared-mental-models"
+   },
+   "cmo:develops": {
+    "@id": "cm:checking-understanding"
+   },
+   "cmo:domain": "questioning-and-conversation",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/closed-loop-communication/example"
+   },
+   "cmo:file": "articles/questioning-and-conversation/closed-loop-communication.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/closed-loop-communication/howto"
+   },
+   "cmo:level": "introductory",
+   "cmo:partOf": {
+    "@id": "cm:teamstepps"
+   },
+   "cmo:supportedBy": {
+    "@id": "cm:espevik-et-al-2021"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/closed-loop-communication/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/closed-loop-communication/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/closed-loop-communication/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/closed-loop-communication/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/closed-loop-communication/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/closed-loop-communication/s6"
+    }
+   ],
+   "rdfs:label": "Closed-loop communication",
+   "skos:altLabel": [
+    "call-out and check-back",
+    "check-back",
+    "read-back",
+    "readback-hearback",
+    "repeat-back"
+   ],
+   "skos:broader": {
+    "@id": "cm:checking-understanding"
+   },
+   "skos:definition": "A three-part exchange for messages that must be exact: the sender directs a call-out to a named person, the receiver repeats back what they heard, and the sender confirms it is correct or fixes it - and, for tasks, the receiver reports back when the action is done.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/questioning-and-conversation"
+   },
+   "skos:prefLabel": "Closed-loop communication",
+   "skos:related": [
+    {
+     "@id": "cm:common-ground"
+    },
+    {
+     "@id": "cm:el-shafy-et-al-2018"
+    },
+    {
+     "@id": "cm:hargestam-et-al-2013"
+    },
+    {
+     "@id": "cm:illusion-of-transparency"
+    },
+    {
+     "@id": "cm:information-overload"
+    },
+    {
+     "@id": "cm:meeting-recaps"
+    },
+    {
+     "@id": "cm:paraphrasing"
+    },
+    {
+     "@id": "cm:shannon-weaver-model"
+    },
+    {
+     "@id": "cm:teach-back"
+    }
+   ]
+  },
+  {
    "@id": "cm:cognitive-load",
    "@type": "cmo:Theory",
    "cmo:challengedBy": {
@@ -23317,6 +23420,115 @@
    "rdfs:label": "For anything sent in writing, did I ask for a reply that shows understanding, not just receipt?"
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/closed-loop-communication/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:closed-loop-communication"
+   },
+   "rdfs:label": "Which details in this message would cause damage if misheard, and did I hear each one repeated back?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/closed-loop-communication/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:closed-loop-communication"
+   },
+   "rdfs:label": "Did I direct the instruction to one named person, or did I say it to the room?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/closed-loop-communication/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:closed-loop-communication"
+   },
+   "rdfs:label": "When I heard the repeat-back, did I actually confirm or correct it, or did I let the loop stay open?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/closed-loop-communication/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:closed-loop-communication"
+   },
+   "rdfs:label": "Was my call-out short enough to repeat accurately, or did I pack in several topics at once?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/closed-loop-communication/check/5",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:closed-loop-communication"
+   },
+   "rdfs:label": "For a task, do I know it is done because someone told me, or because I assumed it?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/closed-loop-communication/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "Lead - 'Sam, roll back payments-api in us-east to version 4.2.' Sam - 'Rolling back payments-api, us-east, to 4.2.' Lead - 'Correct.' ... Sam - 'Rollback of payments-api us-east to 4.2 is complete.' Lead - 'Thanks, noted.'",
+   "cmo:before": "Lead - 'Can someone roll back payments?' Engineer - 'On it.' (Twenty minutes later the team finds the engineer rolled back the wrong region, and the lead had assumed it was finished.)",
+   "cmo:situation": "During a production-incident video call, an incident lead asks an on-call engineer to roll back a recent release while four other people are talking.",
+   "cmo:why": "Naming one owner removes the \"someone\" ambiguity, the repeat-back exposes a wrong region or version before anyone acts, and the completion report replaces an assumption with a fact the lead can log."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/closed-loop-communication/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Closed-loop communication",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/closed-loop-communication/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/closed-loop-communication/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/closed-loop-communication/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/closed-loop-communication/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/closed-loop-communication/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/closed-loop-communication/howto/6"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/closed-loop-communication/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Decide which messages need a closed loop - instructions, numbers, names, deadlines or decisions where a mishearing would cause real harm - and use the full exchange only for those."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/closed-loop-communication/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Address one named person (\"Priya, ...\") so someone owns the message, and keep each call-out short, with one to three items."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/closed-loop-communication/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Ask the receiver to repeat back the critical details in full (the figure, the identifier, the deadline), not just \"got it\"."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/closed-loop-communication/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Listen to the repeat-back and close the loop out loud - \"Correct\" - or correct the wrong part and hear it repeated again."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/closed-loop-communication/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "For tasks, agree that the receiver reports back when the action is done (\"Rollback complete\"), so the sender is not left assuming."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/closed-loop-communication/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "In email or chat, ask for a reply that restates the key detail or next step, and confirm or correct it in the thread."
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/communicating-across-languages/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -33446,6 +33658,90 @@
    "dcterms:title": "Consultant and client: working together?",
    "schema:url": {
     "@id": "https://www.emerald.com/jmp/article/11/6/40/235502/Consultant-and-client-working-together"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/closed-loop-communication/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Agency for Healthcare Research and Quality (U.S. Department of Health and Human Services)",
+   "dcterms:title": "Tool: Check-Back (or Repeat-Back) - TeamSTEPPS Communication Module",
+   "schema:url": {
+    "@id": "https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/checkback.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/closed-loop-communication/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Small Group Research (SAGE), author copy hosted by Helse Stavanger",
+   "dcterms:title": "Is There a \"Big Five\" in Teamwork? (Salas, Sims & Burke, Small Group Research 36(5), 2005)",
+   "schema:url": {
+    "@id": "https://www.helse-stavanger.no/4a923f/contentassets/c6f06d2b76544501a6d662b0631476d7/salas-big-five.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/closed-loop-communication/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Frontiers in Psychology",
+   "dcterms:title": "Teamwork on Patrol: Investigating Teamwork Processes and Underlaying Coordinating Mechanisms in a Police Training Program (Espevik et al., Frontiers in Psychology, 2021)",
+   "schema:url": {
+    "@id": "https://www.frontiersin.org/articles/10.3389/fpsyg.2021.702347/full"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/closed-loop-communication/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Federal Aviation Administration, Office of Aerospace Medicine",
+   "dcterms:title": "The Outcome of ATC Message Length and Complexity on En Route Pilot Readback Performance (Prinzo, Hendrix & Hendrix, DOT/FAA/AM-09/2, 2009)",
+   "schema:url": {
+    "@id": "https://www.faa.gov/data_research/research/med_humanfacs/oamtechreports/2000s/2009/200902"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/closed-loop-communication/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "AHRQ Patient Safety Network (PSNet)",
+   "dcterms:title": "Closed-loop communication in interprofessional emergency teams: a cross-sectional observation study (Gjøvikli & Valeberg, Journal of Patient Safety, 2023)",
+   "schema:url": {
+    "@id": "https://psnet.ahrq.gov/issue/closed-loop-communication-interprofessional-emergency-teams-cross-sectional-observation-study"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/closed-loop-communication/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "AHRQ Patient Safety Network (PSNet)",
+   "dcterms:title": "Communication in interdisciplinary teams: exploring closed-loop communication during in situ trauma team training (Härgestam et al., BMJ Open, 2013)",
+   "schema:url": {
+    "@id": "https://psnet.ahrq.gov/issue/communication-interdisciplinary-teams-exploring-closed-loop-communication-during-situ-trauma"
    }
   },
   {

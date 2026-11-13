@@ -12,9 +12,7 @@ _No results._
 
 _Which written skills or dispositions have no technique, framework or principle that develops them?_ — `queries/02-skills-without-practice.rq`
 
-| skill | type |
-|---|---|
-| `cm:checking-understanding` | cmo:Skill |
+_No results._
 
 ## Situations, channels and formats with no guidance (gap)
 
@@ -59,7 +57,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:audience-analysis` | 1 | Curse of knowledge |
 | `cm:bottom-line-up-front` | 1 | Burying the lede |
 
-…and 46 more.
+…and 47 more.
 
 ## Toolkit by situation
 
@@ -95,10 +93,10 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:email` | `cm:bottom-line-up-front` |
 | `cm:email` | `cm:channel-selection` |
 | `cm:email` | `cm:checking-understanding` |
+| `cm:email` | `cm:closed-loop-communication` |
 | `cm:email` | `cm:concise-writing` |
-| `cm:email` | `cm:email-urgency-bias-study` |
 
-…and 115 more.
+…and 117 more.
 
 ## Myths and contested advice
 
@@ -137,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:apology` | mixed |  |
 | `cm:assertion-evidence-slides` | mixed | `cm:alzayed-alzamel-2023` |
 
-…and 140 more.
+…and 141 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -146,6 +144,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | node | type |
 |---|---|
 | `cm:checking-understanding` | cmo:Skill |
+| `cm:closed-loop-communication` | cmo:Technique |
 | `cm:digital-communication` | cmo:Field |
 | `cm:escalation-communication` | cmo:Technique |
 | `cm:executive-summary` | cmo:Genre |
@@ -174,9 +173,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:perspective-taking` | cmo:Skill |
 | `cm:persuasion` | cmo:Skill |
 | `cm:plain-language` | cmo:Principle |
-| `cm:praise-and-recognition` | cmo:Technique |
 
-…and 33 more.
+…and 34 more.
 
 ## Orphan articles (gap)
 
