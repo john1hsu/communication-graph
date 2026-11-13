@@ -15283,6 +15283,97 @@
    ]
   },
   {
+   "@id": "cm:power-distance",
+   "@type": "cmo:Phenomenon",
+   "cmo:causes": {
+    "@id": "cm:employee-silence"
+   },
+   "cmo:challengedBy": {
+    "@id": "cm:taras-steel-kirkman-2016"
+   },
+   "cmo:demonstratedBy": {
+    "@id": "cm:huang-van-de-vliert-van-der-vegt-2005"
+   },
+   "cmo:domain": "cross-cultural-communication",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:file": "articles/cross-cultural-communication/power-distance.md",
+   "cmo:introducedBy": {
+    "@id": "cm:geert-hofstede"
+   },
+   "cmo:level": "introductory",
+   "cmo:partOf": {
+    "@id": "cm:hofstede-cultural-dimensions"
+   },
+   "cmo:supportedBy": {
+    "@id": "cm:merritt-2000"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/power-distance/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/power-distance/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/power-distance/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/power-distance/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/power-distance/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/power-distance/s6"
+    }
+   ],
+   "rdfs:label": "Power distance",
+   "skos:altLabel": [
+    "PDI",
+    "acceptance of hierarchy",
+    "power distance index",
+    "power distance orientation"
+   ],
+   "skos:broader": {
+    "@id": "cm:intercultural-communication"
+   },
+   "skos:definition": "The degree to which people in a society, team or relationship accept that power and status are unequally distributed; it shapes whether juniors volunteer views, disagree openly or wait to be asked, but it varies as much between individuals and occupations as between countries.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/cross-cultural-communication"
+   },
+   "skos:prefLabel": "Power distance",
+   "skos:related": [
+    {
+     "@id": "cm:direct-vs-indirect-feedback"
+    },
+    {
+     "@id": "cm:face-and-facework"
+    },
+    {
+     "@id": "cm:high-and-low-context-cultures"
+    },
+    {
+     "@id": "cm:managing-up"
+    },
+    {
+     "@id": "cm:multicultural-team"
+    },
+    {
+     "@id": "cm:psychological-safety"
+    },
+    {
+     "@id": "cm:the-culture-map"
+    },
+    {
+     "@id": "cm:unequal-participation"
+    }
+   ]
+  },
+  {
    "@id": "cm:power-posing",
    "@type": "cmo:Phenomenon",
    "cmo:appliedIn": {
@@ -44956,6 +45047,90 @@
    "dcterms:title": "Re-examining Politeness, Face and the Japanese Language",
    "schema:url": {
     "@id": "https://core.ac.uk/download/19090393.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/power-distance/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Christina Page, Kwantlen Polytechnic University Pressbooks (open textbook; adapted from Carpenter & Dunung, International Business, and citing Hofstede, Hofstede & Minkov 2010)",
+   "dcterms:title": "3 Dimensional Models of Culture: Hofstede and Hall (Interculturality for Students)",
+   "schema:url": {
+    "@id": "https://kpu.pressbooks.pub/interculturalityforstudents/chapter/dimensional-models-of-culture/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/power-distance/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Daniels & Greguras, Journal of Management 40(5), 2014, pp. 1202-1229, doi:10.1177/0149206314527131 (Singapore Management University InK record)",
+   "dcterms:title": "Exploring the Nature of Power Distance: Implications for Micro- and Macro-Level Theories, Processes, and Outcomes",
+   "schema:url": {
+    "@id": "https://ink.library.smu.edu.sg/lkcsb_research/3572"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/power-distance/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Huang, Van de Vliert & Van der Vegt, Management and Organization Review 1(3), 2005, pp. 459-482 (RePEc/IDEAS record)",
+   "dcterms:title": "Breaking the Silence Culture: Stimulation of Participation and Employee Opinion Withholding Cross-nationally",
+   "schema:url": {
+    "@id": "https://ideas.repec.org/a/cup/maorev/v1y2005i03p459-482_00.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/power-distance/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Kirkman, Chen, Farh, Chen & Lowe, Academy of Management Journal 52(4), 2009, pp. 744-764, doi:10.5465/AMJ.2009.43669971 (Australian National University research portal)",
+   "dcterms:title": "Individual Power Distance Orientation and Follower Reactions to Transformational Leaders: A Cross-Level, Cross-Cultural Examination",
+   "schema:url": {
+    "@id": "https://researchportalplus.anu.edu.au/en/publications/individual-power-distance-orientation-and-follower-reactions-to-t/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/power-distance/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Taras, Steel & Kirkman, Management International Review 56(4), 2016, pp. 455-472, doi:10.1007/s11575-016-0283-x (CORE post-print)",
+   "dcterms:title": "Does Country Equate with Culture? Beyond Geography in the Search for Cultural Boundaries",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/345085409.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/power-distance/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Merritt, Journal of Cross-Cultural Psychology 31(3), 2000, pp. 283-301, doi:10.1177/0022022100031003001 (PubMed record)",
+   "dcterms:title": "Culture in the Cockpit: Do Hofstede's Dimensions Replicate?",
+   "schema:url": {
+    "@id": "https://pubmed.ncbi.nlm.nih.gov/11543415"
    }
   },
   {

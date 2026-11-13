@@ -23,8 +23,8 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 2.87 | `cm:common-ground` | `cm:email` | `cm:asynchronous-communication`, `cm:audience-analysis`, `cm:channel-selection`, `cm:checking-understanding`, `cm:closed-loop-communication` |
 | 2.85 | `cm:executive-briefing` | `cm:plain-language` | `cm:audience-analysis`, `cm:bottom-line-up-front`, `cm:business-report`, `cm:executive-summary`, `cm:information-overload` |
 | 2.80 | `cm:bottom-line-up-front` | `cm:curse-of-knowledge` | `cm:assertion-evidence-slides`, `cm:audience-analysis`, `cm:channel-selection`, `cm:clarity`, `cm:cognitive-load` |
-| 2.79 | `cm:direct-vs-indirect-feedback` | `cm:intercultural-competence` | `cm:cultural-intelligence`, `cm:describe-analyze-evaluate`, `cm:ethnocentrism`, `cm:face-and-facework`, `cm:high-and-low-context-cultures` |
 | 2.78 | `cm:performance-review` | `cm:praise-and-recognition` | `cm:feedback`, `cm:feedback-sandwich`, `cm:feedforward`, `cm:hattie-timperley-feedback-model`, `cm:kluger-denisi-1996` |
+| 2.77 | `cm:direct-vs-indirect-feedback` | `cm:intercultural-competence` | `cm:cultural-intelligence`, `cm:describe-analyze-evaluate`, `cm:ethnocentrism`, `cm:face-and-facework`, `cm:high-and-low-context-cultures` |
 | 2.77 | `cm:credibility` | `cm:managing-up` | `cm:client-communication`, `cm:communicating-uncertainty`, `cm:elevator-pitch`, `cm:executive-presence`, `cm:impression-management` |
 | 2.75 | `cm:labeling-emotions` | `cm:self-distancing` | `cm:anxiety-reappraisal`, `cm:cognitive-reappraisal`, `cm:cooling-off-period`, `cm:de-ira`, `cm:emotion-regulation` |
 | 2.74 | `cm:bottom-line-up-front` | `cm:presentation` | `cm:assertion-evidence-slides`, `cm:audience-analysis`, `cm:cognitive-load`, `cm:elevator-pitch`, `cm:executive-briefing` |

@@ -8742,6 +8742,41 @@
 <https://github.com/john1hsu/communication-graph/id/politeness-theory> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/communication-graph/id/politeness-theory> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/face-and-facework> .
 <https://github.com/john1hsu/communication-graph/id/politeness-theory> <https://github.com/john1hsu/communication-graph/ontology#studiedIn> <https://github.com/john1hsu/communication-graph/id/pragmatics> .
+<https://github.com/john1hsu/communication-graph/id/power-distance> <http://purl.org/dc/terms/created> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/power-distance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Phenomenon> .
+<https://github.com/john1hsu/communication-graph/id/power-distance> <http://www.w3.org/2000/01/rdf-schema#label> "Power distance" .
+<https://github.com/john1hsu/communication-graph/id/power-distance> <http://www.w3.org/2004/02/skos/core#altLabel> "PDI" .
+<https://github.com/john1hsu/communication-graph/id/power-distance> <http://www.w3.org/2004/02/skos/core#altLabel> "acceptance of hierarchy" .
+<https://github.com/john1hsu/communication-graph/id/power-distance> <http://www.w3.org/2004/02/skos/core#altLabel> "power distance index" .
+<https://github.com/john1hsu/communication-graph/id/power-distance> <http://www.w3.org/2004/02/skos/core#altLabel> "power distance orientation" .
+<https://github.com/john1hsu/communication-graph/id/power-distance> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/intercultural-communication> .
+<https://github.com/john1hsu/communication-graph/id/power-distance> <http://www.w3.org/2004/02/skos/core#definition> "The degree to which people in a society, team or relationship accept that power and status are unequally distributed; it shapes whether juniors volunteer views, disagree openly or wait to be asked, but it varies as much between individuals and occupations as between countries." .
+<https://github.com/john1hsu/communication-graph/id/power-distance> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/cross-cultural-communication> .
+<https://github.com/john1hsu/communication-graph/id/power-distance> <http://www.w3.org/2004/02/skos/core#prefLabel> "Power distance" .
+<https://github.com/john1hsu/communication-graph/id/power-distance> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> .
+<https://github.com/john1hsu/communication-graph/id/power-distance> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/face-and-facework> .
+<https://github.com/john1hsu/communication-graph/id/power-distance> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> .
+<https://github.com/john1hsu/communication-graph/id/power-distance> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/managing-up> .
+<https://github.com/john1hsu/communication-graph/id/power-distance> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/multicultural-team> .
+<https://github.com/john1hsu/communication-graph/id/power-distance> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
+<https://github.com/john1hsu/communication-graph/id/power-distance> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/the-culture-map> .
+<https://github.com/john1hsu/communication-graph/id/power-distance> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/unequal-participation> .
+<https://github.com/john1hsu/communication-graph/id/power-distance> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/power-distance/s1> .
+<https://github.com/john1hsu/communication-graph/id/power-distance> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/power-distance/s2> .
+<https://github.com/john1hsu/communication-graph/id/power-distance> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/power-distance/s3> .
+<https://github.com/john1hsu/communication-graph/id/power-distance> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/power-distance/s4> .
+<https://github.com/john1hsu/communication-graph/id/power-distance> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/power-distance/s5> .
+<https://github.com/john1hsu/communication-graph/id/power-distance> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/power-distance/s6> .
+<https://github.com/john1hsu/communication-graph/id/power-distance> <https://github.com/john1hsu/communication-graph/ontology#causes> <https://github.com/john1hsu/communication-graph/id/employee-silence> .
+<https://github.com/john1hsu/communication-graph/id/power-distance> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/taras-steel-kirkman-2016> .
+<https://github.com/john1hsu/communication-graph/id/power-distance> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/huang-van-de-vliert-van-der-vegt-2005> .
+<https://github.com/john1hsu/communication-graph/id/power-distance> <https://github.com/john1hsu/communication-graph/ontology#domain> "cross-cultural-communication" .
+<https://github.com/john1hsu/communication-graph/id/power-distance> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/power-distance> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/cross-cultural-communication/power-distance.md" .
+<https://github.com/john1hsu/communication-graph/id/power-distance> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/geert-hofstede> .
+<https://github.com/john1hsu/communication-graph/id/power-distance> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/power-distance> <https://github.com/john1hsu/communication-graph/ontology#partOf> <https://github.com/john1hsu/communication-graph/id/hofstede-cultural-dimensions> .
+<https://github.com/john1hsu/communication-graph/id/power-distance> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/merritt-2000> .
 <https://github.com/john1hsu/communication-graph/id/power-posing> <http://purl.org/dc/terms/created> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/power-posing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Phenomenon> .
 <https://github.com/john1hsu/communication-graph/id/power-posing> <http://www.w3.org/2000/01/rdf-schema#label> "Power posing" .
@@ -17021,6 +17056,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/politeness-theory/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/politeness-theory/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
 <https://github.com/john1hsu/communication-graph/id/source/politeness-theory/s6> <https://schema.org/url> <https://core.ac.uk/download/19090393.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/power-distance/s1> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/power-distance/s1> <http://purl.org/dc/terms/publisher> "Christina Page, Kwantlen Polytechnic University Pressbooks (open textbook; adapted from Carpenter & Dunung, International Business, and citing Hofstede, Hofstede & Minkov 2010)" .
+<https://github.com/john1hsu/communication-graph/id/source/power-distance/s1> <http://purl.org/dc/terms/title> "3 Dimensional Models of Culture: Hofstede and Hall (Interculturality for Students)" .
+<https://github.com/john1hsu/communication-graph/id/source/power-distance/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/power-distance/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/communication-graph/id/source/power-distance/s1> <https://schema.org/url> <https://kpu.pressbooks.pub/interculturalityforstudents/chapter/dimensional-models-of-culture/> .
+<https://github.com/john1hsu/communication-graph/id/source/power-distance/s2> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/power-distance/s2> <http://purl.org/dc/terms/publisher> "Daniels & Greguras, Journal of Management 40(5), 2014, pp. 1202-1229, doi:10.1177/0149206314527131 (Singapore Management University InK record)" .
+<https://github.com/john1hsu/communication-graph/id/source/power-distance/s2> <http://purl.org/dc/terms/title> "Exploring the Nature of Power Distance: Implications for Micro- and Macro-Level Theories, Processes, and Outcomes" .
+<https://github.com/john1hsu/communication-graph/id/source/power-distance/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/power-distance/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/power-distance/s2> <https://schema.org/url> <https://ink.library.smu.edu.sg/lkcsb_research/3572> .
+<https://github.com/john1hsu/communication-graph/id/source/power-distance/s3> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/power-distance/s3> <http://purl.org/dc/terms/publisher> "Huang, Van de Vliert & Van der Vegt, Management and Organization Review 1(3), 2005, pp. 459-482 (RePEc/IDEAS record)" .
+<https://github.com/john1hsu/communication-graph/id/source/power-distance/s3> <http://purl.org/dc/terms/title> "Breaking the Silence Culture: Stimulation of Participation and Employee Opinion Withholding Cross-nationally" .
+<https://github.com/john1hsu/communication-graph/id/source/power-distance/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/power-distance/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/power-distance/s3> <https://schema.org/url> <https://ideas.repec.org/a/cup/maorev/v1y2005i03p459-482_00.html> .
+<https://github.com/john1hsu/communication-graph/id/source/power-distance/s4> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/power-distance/s4> <http://purl.org/dc/terms/publisher> "Kirkman, Chen, Farh, Chen & Lowe, Academy of Management Journal 52(4), 2009, pp. 744-764, doi:10.5465/AMJ.2009.43669971 (Australian National University research portal)" .
+<https://github.com/john1hsu/communication-graph/id/source/power-distance/s4> <http://purl.org/dc/terms/title> "Individual Power Distance Orientation and Follower Reactions to Transformational Leaders: A Cross-Level, Cross-Cultural Examination" .
+<https://github.com/john1hsu/communication-graph/id/source/power-distance/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/power-distance/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/power-distance/s4> <https://schema.org/url> <https://researchportalplus.anu.edu.au/en/publications/individual-power-distance-orientation-and-follower-reactions-to-t/> .
+<https://github.com/john1hsu/communication-graph/id/source/power-distance/s5> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/power-distance/s5> <http://purl.org/dc/terms/publisher> "Taras, Steel & Kirkman, Management International Review 56(4), 2016, pp. 455-472, doi:10.1007/s11575-016-0283-x (CORE post-print)" .
+<https://github.com/john1hsu/communication-graph/id/source/power-distance/s5> <http://purl.org/dc/terms/title> "Does Country Equate with Culture? Beyond Geography in the Search for Cultural Boundaries" .
+<https://github.com/john1hsu/communication-graph/id/source/power-distance/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/power-distance/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/power-distance/s5> <https://schema.org/url> <https://core.ac.uk/download/345085409.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/power-distance/s6> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/power-distance/s6> <http://purl.org/dc/terms/publisher> "Merritt, Journal of Cross-Cultural Psychology 31(3), 2000, pp. 283-301, doi:10.1177/0022022100031003001 (PubMed record)" .
+<https://github.com/john1hsu/communication-graph/id/source/power-distance/s6> <http://purl.org/dc/terms/title> "Culture in the Cockpit: Do Hofstede's Dimensions Replicate?" .
+<https://github.com/john1hsu/communication-graph/id/source/power-distance/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/power-distance/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/power-distance/s6> <https://schema.org/url> <https://pubmed.ncbi.nlm.nih.gov/11543415> .
 <https://github.com/john1hsu/communication-graph/id/source/power-posing/s1> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/power-posing/s1> <http://purl.org/dc/terms/publisher> "Carney, Cuddy & Yap, Psychological Science 21(10), 2010, pp. 1363-1368 (doi:10.1177/0956797610383437; Boston University hosted copy)" .
 <https://github.com/john1hsu/communication-graph/id/source/power-posing/s1> <http://purl.org/dc/terms/title> "Power Posing: Brief Nonverbal Displays Affect Neuroendocrine Levels and Risk Tolerance" .
