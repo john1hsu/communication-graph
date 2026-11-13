@@ -11036,6 +11036,10 @@
     "object": "cm:camera-optional-norm"
    },
    {
+    "predicate": "skos:related",
+    "object": "cm:one-remote-all-remote"
+   },
+   {
     "predicate": "cmo:demonstratedBy",
     "object": "cm:saatci-et-al-2020",
     "source": "s1",
@@ -16120,6 +16124,119 @@
    "https://www.gallup.com/workplace/505370/great-manager-important-habit.aspx",
    "https://gre.ac.uk/__data/assets/pdf_file/0027/132759/One-to-One-Meetings-Guidance-for-Managers.pdf",
    "https://leadershipscience.charlotte.edu/?p=613"
+  ]
+ },
+ {
+  "id": "cm:one-remote-all-remote",
+  "title": "One remote, all remote",
+  "aliases": [
+   "everyone on their own device",
+   "all-online meeting rule",
+   "no shared-room hybrid calls",
+   "remote-first meeting rule"
+  ],
+  "type": "Technique",
+  "domain": "meetings-and-facilitation",
+  "level": "introductory",
+  "evidenceStatus": "practitioner",
+  "file": "articles/meetings-and-facilitation/one-remote-all-remote.md",
+  "created": "2026-11-13",
+  "summary": "A meeting norm under which, if any attendee is remote, everyone joins individually from their own device, camera and microphone, even colleagues sitting in the same office, so no shared conference room becomes a privileged hub and all participants meet on the same screen.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:meeting-design"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:hybrid-meetings"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:video-call-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:unequal-participation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:facilitation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:channel-selection"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:zoom-fatigue"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:camera-optional-norm"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:meeting-recaps"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:hybrid-meetings",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:video-call-communication",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:unequal-participation",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:saatci-et-al-2019",
+    "source": "s2",
+    "confidence": "low"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:bos-et-al-2004",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Is anyone joining remotely, and if so, have I asked everyone else to join from their own device?",
+   "Can every attendee see the same agenda, slides and notes on their own screen?",
+   "Does this meeting gain enough from being in one room to justify the cost to remote colleagues?",
+   "Will people in the office be adding more video hours than they can sustain this week?"
+  ],
+  "steps": [
+   "Before sending the invite, check whether anyone will be remote; if even one person is, make the meeting all-online and say so in the invite.",
+   "Ask in-office attendees to join from their own laptop at their desk or in separate small rooms, each with a camera and a headset.",
+   "If several people must share one physical room, have them join with their laptop microphones and speakers off and only one room audio device live, so the call does not echo.",
+   "Put the agenda, slides and notes in one shared document everyone opens on their own screen, rather than on a wall display or whiteboard only the room can see.",
+   "Run turn-taking through the platform for everyone, using hand-raise, chat and an explicit speaking order, and post decisions and actions in a written recap afterwards.",
+   "Review the norm for meetings where nobody is remote or where the room's benefits are large, such as hands-on workshops or relationship-building sessions, and choose in person or hybrid there on purpose."
+  ],
+  "example": {
+   "situation": "A product team of eight holds its weekly planning meeting; five sit in the office and three, including a new hire, work from home.",
+   "before": "The five in the office gather in a conference room around one speakerphone and room camera, sketch the plan on the whiteboard and talk over each other, while the three remote colleagues see a wide shot of the room, miss side remarks and are asked \"anything from the people online?\" at the end.",
+   "after": "The organizer's invite says \"One remote, all remote: please join from your own laptop.\" The five in the office join from their desks with headsets, everyone edits the same planning document, the facilitator takes updates in screen order and invites the new hire to go first, and the decisions are posted in the team channel.",
+   "why": "Everyone now hears, sees and gets the floor through the same channel, so the room no longer forms an in-group that leaves the remote three, and especially the newest member, on the margins."
+  },
+  "source_urls": [
+   "https://www.microsoft.com/en-us/research/articles/hybrid-meetings-guide",
+   "https://www.lri.fr/~mbl/ENS/CSCW/2012/papers/Saatci-CTSC19.pdf",
+   "https://handbook.gitlab.com/handbook/company/culture/all-remote/how-to-work-remote-first",
+   "https://www.open.edu/openlearn/digital-computing/hybrid-working-digital-communication-and-collaboration/content-section-8",
+   "https://cris.haifa.ac.il/en/publications/in-groupout-group-effects-in-distributed-teams-an-experimental-si-2/",
+   "https://vhil.stanford.edu/publications/social-interaction/nonverbal-overload-theoretical-argument-causes-zoom-fatigue"
   ]
  },
  {

@@ -11,7 +11,7 @@ summary: >-
 level: intermediate
 evidenceStatus: mixed
 broader: [cm:workplace-meetings]
-related: [cm:video-call-communication, cm:facilitation, cm:unequal-participation, cm:proximity-bias, cm:conversational-turn-taking, cm:meeting-agendas, cm:meeting-recaps, cm:channel-selection, cm:chat-etiquette, cm:wait-time, cm:psychological-safety, cm:camera-optional-norm]
+related: [cm:video-call-communication, cm:facilitation, cm:unequal-participation, cm:proximity-bias, cm:conversational-turn-taking, cm:meeting-agendas, cm:meeting-recaps, cm:channel-selection, cm:chat-etiquette, cm:wait-time, cm:psychological-safety, cm:camera-optional-norm, cm:one-remote-all-remote]
 requires: []
 relations:
   - {predicate: demonstratedBy, object: cm:saatci-et-al-2020, source: s1, confidence: high}

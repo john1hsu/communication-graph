@@ -1481,6 +1481,29 @@ Ask yourself:
 - Did each person rank privately, so seniors' preferences were not visible before others voted?
 - Is this really a single-question, prioritise-and-decide meeting, or does the topic need open exploration first?
 
+### [One remote, all remote](../articles/meetings-and-facilitation/one-remote-all-remote.md) — Technique
+
+1. Before sending the invite, check whether anyone will be remote; if even one person is, make the meeting all-online and say so in the invite.
+2. Ask in-office attendees to join from their own laptop at their desk or in separate small rooms, each with a camera and a headset.
+3. If several people must share one physical room, have them join with their laptop microphones and speakers off and only one room audio device live, so the call does not echo.
+4. Put the agenda, slides and notes in one shared document everyone opens on their own screen, rather than on a wall display or whiteboard only the room can see.
+5. Run turn-taking through the platform for everyone, using hand-raise, chat and an explicit speaking order, and post decisions and actions in a written recap afterwards.
+6. Review the norm for meetings where nobody is remote or where the room's benefits are large, such as hands-on workshops or relationship-building sessions, and choose in person or hybrid there on purpose.
+
+*A product team of eight holds its weekly planning meeting; five sit in the office and three, including a new hire, work from home.*
+
+| Before | After |
+|---|---|
+| The five in the office gather in a conference room around one speakerphone and room camera, sketch the plan on the whiteboard and talk over each other, while the three remote colleagues see a wide shot of the room, miss side remarks and are asked "anything from the people online?" at the end. | The organizer's invite says "One remote, all remote: please join from your own laptop." The five in the office join from their desks with headsets, everyone edits the same planning document, the facilitator takes updates in screen order and invites the new hire to go first, and the decisions are posted in the team channel. |
+
+**Why:** Everyone now hears, sees and gets the floor through the same channel, so the room no longer forms an in-group that leaves the remote three, and especially the newest member, on the margins.
+
+Ask yourself:
+- Is anyone joining remotely, and if so, have I asked everyone else to join from their own device?
+- Can every attendee see the same agenda, slides and notes on their own screen?
+- Does this meeting gain enough from being in one room to justify the cost to remote colleagues?
+- Will people in the office be adding more video hours than they can sustain this week?
+
 ### [RACI matrix](../articles/meetings-and-facilitation/raci-matrix.md) — Technique
 
 1. List the recurring tasks and decisions that cause confusion as rows, and the roles involved as columns.

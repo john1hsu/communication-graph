@@ -18,9 +18,7 @@ _No results._
 
 _Which written contexts, channels or genres have no technique, framework or principle applied in them or structuring them?_ — `queries/03-situations-without-guidance.rq`
 
-| node | type |
-|---|---|
-| `cm:hybrid-meetings` | cmo:Context |
+_No results._
 
 ## Highest-leverage techniques
 
@@ -59,7 +57,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:audience-analysis` | 1 | Curse of knowledge |
 | `cm:bottom-line-up-front` | 1 | Burying the lede |
 
-…and 47 more.
+…and 48 more.
 
 ## Toolkit by situation
 
@@ -98,7 +96,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:email` | `cm:checking-understanding` |
 | `cm:email` | `cm:closed-loop-communication` |
 
-…and 121 more.
+…and 123 more.
 
 ## Myths and contested advice
 
@@ -170,13 +168,13 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:nonverbal-communication` | cmo:Concept |
 | `cm:note-taking-while-listening` | cmo:Technique |
 | `cm:one-on-one-meetings` | cmo:Context |
+| `cm:one-remote-all-remote` | cmo:Technique |
 | `cm:open-ended-questions` | cmo:Technique |
 | `cm:penance-and-restitution` | cmo:Technique |
 | `cm:performance-review` | cmo:Context |
 | `cm:perspective-taking` | cmo:Skill |
-| `cm:persuasion` | cmo:Skill |
 
-…and 37 more.
+…and 38 more.
 
 ## Orphan articles (gap)
 

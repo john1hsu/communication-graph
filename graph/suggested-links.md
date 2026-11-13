@@ -18,14 +18,14 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 3.05 | `cm:one-on-one-meetings` | `cm:situation-behavior-impact` | `cm:active-listening`, `cm:feedback`, `cm:feedforward`, `cm:grow-model`, `cm:hattie-timperley-feedback-model` |
 | 3.01 | `cm:pyramid-principle` | `cm:wall-of-text` | `cm:bottom-line-up-front`, `cm:burying-the-lede`, `cm:business-report`, `cm:executive-summary`, `cm:informative-headings` |
 | 3.00 | `cm:delivering-bad-news` | `cm:managing-up` | `cm:bottom-line-up-front`, `cm:channel-selection`, `cm:client-communication`, `cm:communicating-uncertainty`, `cm:escalation-communication` |
-| 2.96 | `cm:wait-time` | `cm:workplace-meetings` | `cm:1-2-4-all`, `cm:conversational-turn-taking`, `cm:facilitation`, `cm:hybrid-meetings`, `cm:meeting-agendas` |
 | 2.95 | `cm:paralanguage` | `cm:presentation` | `cm:acoustic-speech-analysis-coaching`, `cm:charismatic-leadership-tactics`, `cm:executive-presence`, `cm:filled-pauses`, `cm:rebecca-hincks` |
+| 2.94 | `cm:wait-time` | `cm:workplace-meetings` | `cm:1-2-4-all`, `cm:conversational-turn-taking`, `cm:facilitation`, `cm:hybrid-meetings`, `cm:meeting-agendas` |
 | 2.91 | `cm:mythical-fixed-pie` | `cm:principled-negotiation` | `cm:distributive-negotiation`, `cm:integrative-negotiation`, `cm:interests-vs-positions`, `cm:multiple-equivalent-simultaneous-offers`, `cm:negotiation` |
 | 2.85 | `cm:common-ground` | `cm:email` | `cm:asynchronous-communication`, `cm:audience-analysis`, `cm:channel-selection`, `cm:checking-understanding`, `cm:closed-loop-communication` |
 | 2.85 | `cm:executive-briefing` | `cm:plain-language` | `cm:audience-analysis`, `cm:bottom-line-up-front`, `cm:business-report`, `cm:executive-summary`, `cm:information-overload` |
 | 2.80 | `cm:bottom-line-up-front` | `cm:curse-of-knowledge` | `cm:assertion-evidence-slides`, `cm:audience-analysis`, `cm:channel-selection`, `cm:clarity`, `cm:cognitive-load` |
 | 2.78 | `cm:performance-review` | `cm:praise-and-recognition` | `cm:feedback`, `cm:feedback-sandwich`, `cm:feedforward`, `cm:hattie-timperley-feedback-model`, `cm:kluger-denisi-1996` |
 | 2.77 | `cm:direct-vs-indirect-feedback` | `cm:intercultural-competence` | `cm:cultural-intelligence`, `cm:describe-analyze-evaluate`, `cm:ethnocentrism`, `cm:face-and-facework`, `cm:high-and-low-context-cultures` |
+| 2.77 | `cm:unequal-participation` | `cm:video-call-communication` | `cm:communicating-across-languages`, `cm:communication-apprehension`, `cm:conversational-turn-taking`, `cm:facilitation`, `cm:hybrid-meetings` |
 | 2.77 | `cm:credibility` | `cm:managing-up` | `cm:client-communication`, `cm:communicating-uncertainty`, `cm:elevator-pitch`, `cm:executive-presence`, `cm:impression-management` |
 | 2.75 | `cm:labeling-emotions` | `cm:self-distancing` | `cm:anxiety-reappraisal`, `cm:cognitive-reappraisal`, `cm:cooling-off-period`, `cm:de-ira`, `cm:emotion-regulation` |
-| 2.74 | `cm:bottom-line-up-front` | `cm:presentation` | `cm:assertion-evidence-slides`, `cm:audience-analysis`, `cm:cognitive-load`, `cm:elevator-pitch`, `cm:executive-briefing` |

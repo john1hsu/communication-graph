@@ -1001,6 +1001,15 @@
 <https://github.com/john1hsu/communication-graph/id/nominal-group-technique#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/nominal-group-technique/s2> .
 <https://github.com/john1hsu/communication-graph/id/nominal-group-technique#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/nominal-group-technique/s3> .
 <https://github.com/john1hsu/communication-graph/id/nominal-group-technique#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/nominal-group-technique/s4> .
+<https://github.com/john1hsu/communication-graph/id/one-remote-all-remote#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/one-remote-all-remote#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote> .
+<https://github.com/john1hsu/communication-graph/id/one-remote-all-remote#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/meetings-and-facilitation/one-remote-all-remote.md" .
+<https://github.com/john1hsu/communication-graph/id/one-remote-all-remote#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/one-remote-all-remote/s1> .
+<https://github.com/john1hsu/communication-graph/id/one-remote-all-remote#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/one-remote-all-remote/s2> .
+<https://github.com/john1hsu/communication-graph/id/one-remote-all-remote#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/one-remote-all-remote/s3> .
+<https://github.com/john1hsu/communication-graph/id/one-remote-all-remote#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/one-remote-all-remote/s4> .
+<https://github.com/john1hsu/communication-graph/id/one-remote-all-remote#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/one-remote-all-remote/s5> .
+<https://github.com/john1hsu/communication-graph/id/one-remote-all-remote#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/one-remote-all-remote/s6> .
 <https://github.com/john1hsu/communication-graph/id/psychological-safety#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/psychological-safety#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
 <https://github.com/john1hsu/communication-graph/id/psychological-safety#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/meetings-and-facilitation/psychological-safety.md" .
@@ -12633,6 +12642,7 @@
   <https://github.com/john1hsu/communication-graph/id/hybrid-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/facilitation> .
   <https://github.com/john1hsu/communication-graph/id/hybrid-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/meeting-agendas> .
   <https://github.com/john1hsu/communication-graph/id/hybrid-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/meeting-recaps> .
+  <https://github.com/john1hsu/communication-graph/id/hybrid-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote> .
   <https://github.com/john1hsu/communication-graph/id/hybrid-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/proximity-bias> .
   <https://github.com/john1hsu/communication-graph/id/hybrid-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
   <https://github.com/john1hsu/communication-graph/id/hybrid-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/unequal-participation> .
@@ -13001,6 +13011,124 @@
   <https://github.com/john1hsu/communication-graph/id/source/nominal-group-technique/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
   <https://github.com/john1hsu/communication-graph/id/source/nominal-group-technique/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
   <https://github.com/john1hsu/communication-graph/id/source/nominal-group-technique/s4> <https://schema.org/url> <https://www.annfammed.org/content/22/6/525.abstract> .
+}
+
+<https://github.com/john1hsu/communication-graph/id/one-remote-all-remote#graph> {
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Is anyone joining remotely, and if so, have I asked everyone else to join from their own device?" .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote> .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Can every attendee see the same agenda, slides and notes on their own screen?" .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote> .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Does this meeting gain enough from being in one room to justify the cost to remote colleagues?" .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote> .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Will people in the office be adding more video hours than they can sustain this week?" .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote> .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote/example> <https://github.com/john1hsu/communication-graph/ontology#after> "The organizer's invite says \"One remote, all remote: please join from your own laptop.\" The five in the office join from their desks with headsets, everyone edits the same planning document, the facilitator takes updates in screen order and invites the new hire to go first, and the decisions are posted in the team channel." .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote/example> <https://github.com/john1hsu/communication-graph/ontology#before> "The five in the office gather in a conference room around one speakerphone and room camera, sketch the plan on the whiteboard and talk over each other, while the three remote colleagues see a wide shot of the room, miss side remarks and are asked \"anything from the people online?\" at the end." .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "A product team of eight holds its weekly planning meeting; five sit in the office and three, including a new hire, work from home." .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote/example> <https://github.com/john1hsu/communication-graph/ontology#why> "Everyone now hears, sees and gets the floor through the same channel, so the room no longer forms an in-group that leaves the remote three, and especially the newest member, on the margins." .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote/howto/1> <https://schema.org/text> "Before sending the invite, check whether anyone will be remote; if even one person is, make the meeting all-online and say so in the invite." .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote/howto/2> <https://schema.org/text> "Ask in-office attendees to join from their own laptop at their desk or in separate small rooms, each with a camera and a headset." .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote/howto/3> <https://schema.org/text> "If several people must share one physical room, have them join with their laptop microphones and speakers off and only one room audio device live, so the call does not echo." .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote/howto/4> <https://schema.org/text> "Put the agenda, slides and notes in one shared document everyone opens on their own screen, rather than on a wall display or whiteboard only the room can see." .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote/howto/5> <https://schema.org/text> "Run turn-taking through the platform for everyone, using hand-raise, chat and an explicit speaking order, and post decisions and actions in a written recap afterwards." .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote/howto/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote/howto/6> <https://schema.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote/howto/6> <https://schema.org/text> "Review the norm for meetings where nobody is remote or where the room's benefits are large, such as hands-on workshops or relationship-building sessions, and choose in person or hybrid there on purpose." .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote/howto> <https://schema.org/name> "One remote, all remote" .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote/howto/1> .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote/howto/2> .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote/howto/3> .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote/howto/4> .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote/howto/5> .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote/howto/6> .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote> <http://purl.org/dc/terms/created> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Technique> .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote> <http://www.w3.org/2000/01/rdf-schema#label> "One remote, all remote" .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote> <http://www.w3.org/2004/02/skos/core#altLabel> "all-online meeting rule" .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote> <http://www.w3.org/2004/02/skos/core#altLabel> "everyone on their own device" .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote> <http://www.w3.org/2004/02/skos/core#altLabel> "no shared-room hybrid calls" .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote> <http://www.w3.org/2004/02/skos/core#altLabel> "remote-first meeting rule" .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/meeting-design> .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote> <http://www.w3.org/2004/02/skos/core#definition> "A meeting norm under which, if any attendee is remote, everyone joins individually from their own device, camera and microphone, even colleagues sitting in the same office, so no shared conference room becomes a privileged hub and all participants meet on the same screen." .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/meetings-and-facilitation> .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote> <http://www.w3.org/2004/02/skos/core#prefLabel> "One remote, all remote" .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/channel-selection> .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/facilitation> .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/hybrid-meetings> .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/meeting-recaps> .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/unequal-participation> .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/video-call-communication> .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/one-remote-all-remote/s1> .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/one-remote-all-remote/s2> .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/one-remote-all-remote/s3> .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/one-remote-all-remote/s4> .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/one-remote-all-remote/s5> .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/one-remote-all-remote/s6> .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/unequal-participation> .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/hybrid-meetings> .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/video-call-communication> .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote> <https://github.com/john1hsu/communication-graph/ontology#domain> "meetings-and-facilitation" .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "practitioner" .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote/example> .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/meetings-and-facilitation/one-remote-all-remote.md" .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote/howto> .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/bos-et-al-2004> .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/saatci-et-al-2019> .
+  <https://github.com/john1hsu/communication-graph/id/source/one-remote-all-remote/s1> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/one-remote-all-remote/s1> <http://purl.org/dc/terms/publisher> "Sean Rintel, Abigail Sellen, Sonia Jaffe, Brent Hecht, John Tang, Kori Inkpen & Bill Buxton, Microsoft Research, The New Future of Work (2021)" .
+  <https://github.com/john1hsu/communication-graph/id/source/one-remote-all-remote/s1> <http://purl.org/dc/terms/title> "Hybrid Meetings Guide" .
+  <https://github.com/john1hsu/communication-graph/id/source/one-remote-all-remote/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/one-remote-all-remote/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+  <https://github.com/john1hsu/communication-graph/id/source/one-remote-all-remote/s1> <https://schema.org/url> <https://www.microsoft.com/en-us/research/articles/hybrid-meetings-guide> .
+  <https://github.com/john1hsu/communication-graph/id/source/one-remote-all-remote/s2> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/one-remote-all-remote/s2> <http://purl.org/dc/terms/publisher> "Banu Saatçi, Roman Rädle, Sean Rintel, Kenton O'Hara & Clemens Nylandsted Klokmose, CRIWG+CollabTech 2019, Lecture Notes in Computer Science 11677, Springer, pp. 45-61, doi:10.1007/978-3-030-28011-6_4 (author copy)" .
+  <https://github.com/john1hsu/communication-graph/id/source/one-remote-all-remote/s2> <http://purl.org/dc/terms/title> "Hybrid Meetings in the Modern Workplace: Stories of Success and Failure" .
+  <https://github.com/john1hsu/communication-graph/id/source/one-remote-all-remote/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/one-remote-all-remote/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/one-remote-all-remote/s2> <https://schema.org/url> <https://www.lri.fr/~mbl/ENS/CSCW/2012/papers/Saatci-CTSC19.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/one-remote-all-remote/s3> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/one-remote-all-remote/s3> <http://purl.org/dc/terms/publisher> "GitLab, The GitLab Handbook (all-remote section)" .
+  <https://github.com/john1hsu/communication-graph/id/source/one-remote-all-remote/s3> <http://purl.org/dc/terms/title> "How to use forcing functions to work remote-first" .
+  <https://github.com/john1hsu/communication-graph/id/source/one-remote-all-remote/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/one-remote-all-remote/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+  <https://github.com/john1hsu/communication-graph/id/source/one-remote-all-remote/s3> <https://schema.org/url> <https://handbook.gitlab.com/handbook/company/culture/all-remote/how-to-work-remote-first> .
+  <https://github.com/john1hsu/communication-graph/id/source/one-remote-all-remote/s4> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/one-remote-all-remote/s4> <http://purl.org/dc/terms/publisher> "The Open University, OpenLearn" .
+  <https://github.com/john1hsu/communication-graph/id/source/one-remote-all-remote/s4> <http://purl.org/dc/terms/title> "Hybrid working: digital communication and collaboration, Section 8: Hybrid meetings" .
+  <https://github.com/john1hsu/communication-graph/id/source/one-remote-all-remote/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/one-remote-all-remote/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/communication-graph/id/source/one-remote-all-remote/s4> <https://schema.org/url> <https://www.open.edu/openlearn/digital-computing/hybrid-working-digital-communication-and-collaboration/content-section-8> .
+  <https://github.com/john1hsu/communication-graph/id/source/one-remote-all-remote/s5> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/one-remote-all-remote/s5> <http://purl.org/dc/terms/publisher> "Nathan Bos, N. Sadat Shami, Judith S. Olson, Arik Cheshin & Ning Nan, Proceedings of CSCW 2004, ACM, pp. 429-436, doi:10.1145/1031607.1031679 (University of Haifa research portal record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/one-remote-all-remote/s5> <http://purl.org/dc/terms/title> "In-group/out-group effects in distributed teams: An experimental simulation" .
+  <https://github.com/john1hsu/communication-graph/id/source/one-remote-all-remote/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/one-remote-all-remote/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/one-remote-all-remote/s5> <https://schema.org/url> <https://cris.haifa.ac.il/en/publications/in-groupout-group-effects-in-distributed-teams-an-experimental-si-2/> .
+  <https://github.com/john1hsu/communication-graph/id/source/one-remote-all-remote/s6> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/one-remote-all-remote/s6> <http://purl.org/dc/terms/publisher> "Jeremy N. Bailenson, Technology, Mind, and Behavior, American Psychological Association (2021), doi:10.1037/tmb0000030 (Stanford Virtual Human Interaction Lab record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/one-remote-all-remote/s6> <http://purl.org/dc/terms/title> "Nonverbal Overload: A Theoretical Argument for the Causes of Zoom Fatigue" .
+  <https://github.com/john1hsu/communication-graph/id/source/one-remote-all-remote/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/one-remote-all-remote/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/one-remote-all-remote/s6> <https://schema.org/url> <https://vhil.stanford.edu/publications/social-interaction/nonverbal-overload-theoretical-argument-causes-zoom-fatigue> .
 }
 
 <https://github.com/john1hsu/communication-graph/id/psychological-safety#graph> {
@@ -24760,6 +24888,7 @@
   <https://github.com/john1hsu/communication-graph/id/bos-et-al-2004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/bos-et-al-2004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/bos-et-al-2004> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/hybrid-meetings> .
+  <https://github.com/john1hsu/communication-graph/id/bos-et-al-2004> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote> .
   <https://github.com/john1hsu/communication-graph/id/bottini-gillis-2021> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/feedback-sandwich> .
   <https://github.com/john1hsu/communication-graph/id/bottom-et-al-2002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/bottom-et-al-2002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
@@ -24963,6 +25092,7 @@
   <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/meeting-norms> .
   <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/camera-level-gaze> .
   <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/hybrid-meetings> .
+  <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote> .
   <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/video-call-communication> .
   <https://github.com/john1hsu/communication-graph/id/camerer-loewenstein-weber-1989> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/camerer-loewenstein-weber-1989> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
@@ -25015,6 +25145,7 @@
   <https://github.com/john1hsu/communication-graph/id/channel-selection> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/message-equivocality-media-selection-and-manager-performance> .
   <https://github.com/john1hsu/communication-graph/id/channel-selection> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mum-effect> .
   <https://github.com/john1hsu/communication-graph/id/channel-selection> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/nicholas-epley> .
+  <https://github.com/john1hsu/communication-graph/id/channel-selection> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote> .
   <https://github.com/john1hsu/communication-graph/id/channel-selection> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
   <https://github.com/john1hsu/communication-graph/id/channel-selection> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/paralanguage> .
   <https://github.com/john1hsu/communication-graph/id/channel-selection> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/phone-call> .
@@ -26482,6 +26613,7 @@
   <https://github.com/john1hsu/communication-graph/id/facilitation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/hybrid-meetings> .
   <https://github.com/john1hsu/communication-graph/id/facilitation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/interrupting> .
   <https://github.com/john1hsu/communication-graph/id/facilitation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/irving-janis> .
+  <https://github.com/john1hsu/communication-graph/id/facilitation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote> .
   <https://github.com/john1hsu/communication-graph/id/facilitation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/unequal-participation> .
   <https://github.com/john1hsu/communication-graph/id/facilitation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/video-call-communication> .
   <https://github.com/john1hsu/communication-graph/id/facilitation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/workplace-meetings> .
@@ -27203,6 +27335,7 @@
   <https://github.com/john1hsu/communication-graph/id/hybrid-meetings> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
   <https://github.com/john1hsu/communication-graph/id/hybrid-meetings> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/hybrid-meetings> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/workplace-meetings> .
+  <https://github.com/john1hsu/communication-graph/id/hybrid-meetings> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote> .
   <https://github.com/john1hsu/communication-graph/id/i-statements/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/i-statements/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/i-statements/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -28110,8 +28243,10 @@
   <https://github.com/john1hsu/communication-graph/id/meeting-agendas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/workplace-meetings> .
   <https://github.com/john1hsu/communication-graph/id/meeting-design> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/meeting-agendas> .
   <https://github.com/john1hsu/communication-graph/id/meeting-design> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/meeting-recaps> .
+  <https://github.com/john1hsu/communication-graph/id/meeting-design> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote> .
   <https://github.com/john1hsu/communication-graph/id/meeting-design> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/meeting-agendas> .
   <https://github.com/john1hsu/communication-graph/id/meeting-design> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/meeting-recaps> .
+  <https://github.com/john1hsu/communication-graph/id/meeting-design> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote> .
   <https://github.com/john1hsu/communication-graph/id/meeting-norms> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> .
   <https://github.com/john1hsu/communication-graph/id/meeting-norms> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> .
   <https://github.com/john1hsu/communication-graph/id/meeting-norms> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/interrupting> .
@@ -28128,6 +28263,7 @@
   <https://github.com/john1hsu/communication-graph/id/meeting-recaps> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/group-decision-making> .
   <https://github.com/john1hsu/communication-graph/id/meeting-recaps> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/hybrid-meetings> .
   <https://github.com/john1hsu/communication-graph/id/meeting-recaps> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening> .
+  <https://github.com/john1hsu/communication-graph/id/meeting-recaps> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote> .
   <https://github.com/john1hsu/communication-graph/id/meeting-recaps> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/primacy-and-recency-effects> .
   <https://github.com/john1hsu/communication-graph/id/meeting-recaps> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/workplace-meetings> .
   <https://github.com/john1hsu/communication-graph/id/meeting-recovery-syndrome> <https://github.com/john1hsu/communication-graph/ontology#causedBy> <https://github.com/john1hsu/communication-graph/id/workplace-meetings> .
@@ -28542,6 +28678,14 @@
   <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/radical-candor> .
   <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/summarizing> .
   <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/performance-review> .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/meeting-design> .
   <https://github.com/john1hsu/communication-graph/id/open-ended-questions/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/open-ended-questions/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/open-ended-questions/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -29512,6 +29656,7 @@
   <https://github.com/john1hsu/communication-graph/id/rudolf-flesch> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/readability-formulas> .
   <https://github.com/john1hsu/communication-graph/id/ruinous-empathy> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/radical-candor> .
   <https://github.com/john1hsu/communication-graph/id/ryskin-brown-schmidt-2014> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> .
+  <https://github.com/john1hsu/communication-graph/id/saatci-et-al-2019> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote> .
   <https://github.com/john1hsu/communication-graph/id/saatci-et-al-2020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/saatci-et-al-2020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/saatci-et-al-2020> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/hybrid-meetings> .
@@ -30429,11 +30574,13 @@
   <https://github.com/john1hsu/communication-graph/id/unequal-participation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/devils-advocacy> .
   <https://github.com/john1hsu/communication-graph/id/unequal-participation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/group-decision-making> .
   <https://github.com/john1hsu/communication-graph/id/unequal-participation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/hybrid-meetings> .
+  <https://github.com/john1hsu/communication-graph/id/unequal-participation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote> .
   <https://github.com/john1hsu/communication-graph/id/unequal-participation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/power-distance> .
   <https://github.com/john1hsu/communication-graph/id/unequal-participation> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/1-2-4-all> .
   <https://github.com/john1hsu/communication-graph/id/unequal-participation> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/communicating-across-languages> .
   <https://github.com/john1hsu/communication-graph/id/unequal-participation> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/facilitation> .
   <https://github.com/john1hsu/communication-graph/id/unequal-participation> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> .
+  <https://github.com/john1hsu/communication-graph/id/unequal-participation> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote> .
   <https://github.com/john1hsu/communication-graph/id/unequal-participation> <https://github.com/john1hsu/communication-graph/ontology#causedBy> <https://github.com/john1hsu/communication-graph/id/communication-apprehension> .
   <https://github.com/john1hsu/communication-graph/id/unequal-participation> <https://github.com/john1hsu/communication-graph/ontology#causedBy> <https://github.com/john1hsu/communication-graph/id/hybrid-meetings> .
   <https://github.com/john1hsu/communication-graph/id/unnecessary-meetings> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/meeting-agendas> .
@@ -30507,6 +30654,7 @@
   <https://github.com/john1hsu/communication-graph/id/video-call-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/media-synchronicity-theory> .
   <https://github.com/john1hsu/communication-graph/id/video-call-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/multicultural-team> .
   <https://github.com/john1hsu/communication-graph/id/video-call-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> .
+  <https://github.com/john1hsu/communication-graph/id/video-call-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote> .
   <https://github.com/john1hsu/communication-graph/id/video-call-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/paralanguage> .
   <https://github.com/john1hsu/communication-graph/id/video-call-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/phone-call> .
   <https://github.com/john1hsu/communication-graph/id/video-call-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/tsedal-neeley> .
@@ -30515,6 +30663,7 @@
   <https://github.com/john1hsu/communication-graph/id/video-call-communication> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> .
   <https://github.com/john1hsu/communication-graph/id/video-call-communication> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> .
   <https://github.com/john1hsu/communication-graph/id/video-call-communication> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/facial-expressions> .
+  <https://github.com/john1hsu/communication-graph/id/video-call-communication> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote> .
   <https://github.com/john1hsu/communication-graph/id/video-call-communication> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/proxemics> .
   <https://github.com/john1hsu/communication-graph/id/visible-learning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> .
   <https://github.com/john1hsu/communication-graph/id/visible-learning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> .
@@ -30773,6 +30922,7 @@
   <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> .
   <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/chen-2002> .
   <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> .
+  <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote> .
   <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/scheduled-inbox-checks> .
   <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/video-call-communication> .
   <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/workplace-meetings> .
