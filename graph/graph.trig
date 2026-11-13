@@ -309,6 +309,14 @@
 <https://github.com/john1hsu/communication-graph/id/nonviolent-communication#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/nonviolent-communication/s4> .
 <https://github.com/john1hsu/communication-graph/id/nonviolent-communication#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/nonviolent-communication/s5> .
 <https://github.com/john1hsu/communication-graph/id/nonviolent-communication#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/nonviolent-communication/s6> .
+<https://github.com/john1hsu/communication-graph/id/penance-and-restitution#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/penance-and-restitution#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> .
+<https://github.com/john1hsu/communication-graph/id/penance-and-restitution#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/difficult-conversations-and-conflict/penance-and-restitution.md" .
+<https://github.com/john1hsu/communication-graph/id/penance-and-restitution#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/penance-and-restitution/s1> .
+<https://github.com/john1hsu/communication-graph/id/penance-and-restitution#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/penance-and-restitution/s2> .
+<https://github.com/john1hsu/communication-graph/id/penance-and-restitution#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/penance-and-restitution/s3> .
+<https://github.com/john1hsu/communication-graph/id/penance-and-restitution#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/penance-and-restitution/s4> .
+<https://github.com/john1hsu/communication-graph/id/penance-and-restitution#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/penance-and-restitution/s5> .
 <https://github.com/john1hsu/communication-graph/id/role-reversal#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/role-reversal#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/role-reversal> .
 <https://github.com/john1hsu/communication-graph/id/role-reversal#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/difficult-conversations-and-conflict/role-reversal.md" .
@@ -5216,6 +5224,114 @@
   <https://github.com/john1hsu/communication-graph/id/source/nonviolent-communication/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
   <https://github.com/john1hsu/communication-graph/id/source/nonviolent-communication/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
   <https://github.com/john1hsu/communication-graph/id/source/nonviolent-communication/s6> <https://schema.org/url> <https://journals.vu.lt/social-welfare/article/view/35183/33955> .
+}
+
+<https://github.com/john1hsu/communication-graph/id/penance-and-restitution#graph> {
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Have I named what this cost them, not just that I am sorry?" .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Does my offer actually restore their position, and does it cost me something real?" .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Am I offering this alongside a clear acknowledgement, or using it to avoid one?" .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "If my intent is ambiguous to them, have I made clear the breach was not deliberate, and if it was deliberate, have I accepted that money or favours alone will not fix it?" .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution/check/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution/check/5> <http://www.w3.org/2000/01/rdf-schema#label> "Will I keep my next few commitments to this person visibly, so the amends is not a one-off gesture?" .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution/check/5> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution/example> <https://github.com/john1hsu/communication-graph/ontology#after> "I promised you the Henley workshop and gave it away without telling you, and that's on me - you lost the client exposure you had worked for. I've already asked Henley's sponsor to add you as co-lead for the follow-up session on the 28th, and I'll introduce you as the owner of the analysis. Is there anything else that would make this right for you? From now on any change to a role I've promised goes to the person first." .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution/example> <https://github.com/john1hsu/communication-graph/ontology#before> "Sorry about the workshop mix-up - things moved fast and I didn't think it through. I'll make sure you get the next one." .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "A team lead promised a senior analyst she would lead the client workshop she had prepared for, then gave the slot to a newer colleague without telling her." .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution/example> <https://github.com/john1hsu/communication-graph/ontology#why> "The vague apology plus a future maybe costs the lead nothing, so it reads as cheap talk; the rewrite names the loss, restores a comparable opportunity with a date, invites her view of what is fair while keeping responsibility with the lead, and adds a change that makes a repeat less likely." .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution/howto/1> <https://schema.org/text> "Work out what the breach actually cost the other person (hours, money, a missed opportunity, an awkward moment with their own boss) before you decide what to offer." .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution/howto/2> <https://schema.org/text> "Acknowledge the breach in the first person and name that cost, so the amends reads as repair rather than a bribe to move on." .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution/howto/3> <https://schema.org/text> "Offer something concrete that at least restores their position - honour the original commitment, return the time, take on the rework - and make it cost you something real." .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution/howto/4> <https://schema.org/text> "Ask what would put things right for them, framing the question so the responsibility stays with you, and treat their answer as a guide rather than an opening bid." .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution/howto/5> <https://schema.org/text> "Deliver the amends promptly and completely; then keep your next commitments to them visibly, because consistent behaviour is what finishes the repair." .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution/howto> <https://schema.org/name> "Penance and restitution after a breach" .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/penance-and-restitution/howto/1> .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/penance-and-restitution/howto/2> .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/penance-and-restitution/howto/3> .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/penance-and-restitution/howto/4> .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/penance-and-restitution/howto/5> .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> <http://purl.org/dc/terms/created> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Technique> .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> <http://www.w3.org/2000/01/rdf-schema#label> "Penance and restitution after a breach" .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> <http://www.w3.org/2004/02/skos/core#altLabel> "compensating for a breach of trust" .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> <http://www.w3.org/2004/02/skos/core#altLabel> "making amends" .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> <http://www.w3.org/2004/02/skos/core#altLabel> "reparation for a broken promise" .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> <http://www.w3.org/2004/02/skos/core#altLabel> "restitution after a breach" .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> <http://www.w3.org/2004/02/skos/core#altLabel> "substantive penance" .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/trust-repair> .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> <http://www.w3.org/2004/02/skos/core#definition> "Backing an acknowledgement of a breach with something concrete and costly to you that puts the other person's loss right, such as giving back time, covering their extra work or honouring the broken commitment, so that your words of regret become a credible signal and trust can recover." .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/difficult-conversations-and-conflict> .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> <http://www.w3.org/2004/02/skos/core#prefLabel> "Penance and restitution after a breach" .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/apology> .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/organizational-justice> .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/service-recovery> .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/social-accounts> .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/penance-and-restitution/s1> .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/penance-and-restitution/s2> .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/penance-and-restitution/s3> .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/penance-and-restitution/s4> .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/penance-and-restitution/s5> .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/trust-repair> .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/apology> .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/bottom-et-al-2002> .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/henderson-welsh-oleary-kelly-2020> .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> <https://github.com/john1hsu/communication-graph/ontology#domain> "difficult-conversations-and-conflict" .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/penance-and-restitution/example> .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/attribution-theory> .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/difficult-conversations-and-conflict/penance-and-restitution.md" .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/penance-and-restitution/howto> .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+  <https://github.com/john1hsu/communication-graph/id/source/penance-and-restitution/s1> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/penance-and-restitution/s1> <http://purl.org/dc/terms/publisher> "Bottom, Gibson, Daniels & Murnighan, Organization Science 13(5), 497-513 (2002) (CORE open-access copy)" .
+  <https://github.com/john1hsu/communication-graph/id/source/penance-and-restitution/s1> <http://purl.org/dc/terms/title> "When Talk Is Not Cheap: Substantive Penance and Expressions of Intent in Rebuilding Cooperation" .
+  <https://github.com/john1hsu/communication-graph/id/source/penance-and-restitution/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/penance-and-restitution/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/penance-and-restitution/s1> <https://schema.org/url> <https://core.ac.uk/download/77519575.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/penance-and-restitution/s2> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/penance-and-restitution/s2> <http://purl.org/dc/terms/publisher> "Desmet, De Cremer & van Dijk, Organizational Behavior and Human Decision Processes 114(2), 75-86 (2011), doi:10.1016/j.obhdp.2010.10.006 (Erasmus University repository record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/penance-and-restitution/s2> <http://purl.org/dc/terms/title> "In Money We Trust? The Use of Financial Compensations to Repair Trust in the Aftermath of Distributive Harm" .
+  <https://github.com/john1hsu/communication-graph/id/source/penance-and-restitution/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/penance-and-restitution/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/penance-and-restitution/s2> <https://schema.org/url> <https://repub.eur.nl/pub/22527> .
+  <https://github.com/john1hsu/communication-graph/id/source/penance-and-restitution/s3> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/penance-and-restitution/s3> <http://purl.org/dc/terms/publisher> "Haesevoets, Reinders Folmer, De Cremer & Van Hiel, Journal of Economic Psychology 35, 95-107 (2013), doi:10.1016/j.joep.2013.02.003 (RePEc record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/penance-and-restitution/s3> <http://purl.org/dc/terms/title> "Money isn't all that matters: The use of financial compensation and apologies to preserve relationships in the aftermath of distributive harm" .
+  <https://github.com/john1hsu/communication-graph/id/source/penance-and-restitution/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/penance-and-restitution/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/penance-and-restitution/s3> <https://schema.org/url> <https://econpapers.repec.org/RePEc:eee:joepsy:v:35:y:2013:i:c:p:95-107> .
+  <https://github.com/john1hsu/communication-graph/id/source/penance-and-restitution/s4> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/penance-and-restitution/s4> <http://purl.org/dc/terms/publisher> "Haesevoets, Reinders Folmer & Van Hiel, Psychologica Belgica 54(4), 389-394 (2014) (Erasmus University repository copy)" .
+  <https://github.com/john1hsu/communication-graph/id/source/penance-and-restitution/s4> <http://purl.org/dc/terms/title> "More Money, More Trust? Target and Observer Differences in the Effectiveness of Financial Overcompensation to Restore Trust" .
+  <https://github.com/john1hsu/communication-graph/id/source/penance-and-restitution/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/penance-and-restitution/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/penance-and-restitution/s4> <https://schema.org/url> <https://repub.eur.nl/pub/79349/Repub_79349_OA.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/penance-and-restitution/s5> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/penance-and-restitution/s5> <http://purl.org/dc/terms/publisher> "Henderson, Welsh & O'Leary-Kelly, Journal of Business and Psychology 35(3), 347-362 (2020), doi:10.1007/s10869-019-09624-z" .
+  <https://github.com/john1hsu/communication-graph/id/source/penance-and-restitution/s5> <http://purl.org/dc/terms/title> "\"Oops, I Did It\" or \"It Wasn't Me:\" An Examination of Psychological Contract Breach Repair Tactics" .
+  <https://github.com/john1hsu/communication-graph/id/source/penance-and-restitution/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/penance-and-restitution/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/penance-and-restitution/s5> <https://schema.org/url> <https://link.springer.com/10.1007%2Fs10869-019-09624-z> .
 }
 
 <https://github.com/john1hsu/communication-graph/id/role-reversal#graph> {
@@ -23990,9 +24106,11 @@
   <https://github.com/john1hsu/communication-graph/id/apology> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/mea-culpa> .
   <https://github.com/john1hsu/communication-graph/id/apology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/mea-culpa> .
   <https://github.com/john1hsu/communication-graph/id/apology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/erving-goffman> .
+  <https://github.com/john1hsu/communication-graph/id/apology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> .
   <https://github.com/john1hsu/communication-graph/id/apology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/service-recovery> .
   <https://github.com/john1hsu/communication-graph/id/apology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/social-accounts> .
   <https://github.com/john1hsu/communication-graph/id/apology> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/social-accounts> .
+  <https://github.com/john1hsu/communication-graph/id/apology> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> .
   <https://github.com/john1hsu/communication-graph/id/apology> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/service-recovery> .
   <https://github.com/john1hsu/communication-graph/id/apology> <https://github.com/john1hsu/communication-graph/ontology#introducedIn> <https://github.com/john1hsu/communication-graph/id/mea-culpa> .
   <https://github.com/john1hsu/communication-graph/id/apology> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/mea-culpa> .
@@ -24072,6 +24190,7 @@
   <https://github.com/john1hsu/communication-graph/id/attention-management> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> .
   <https://github.com/john1hsu/communication-graph/id/attention-management> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/scheduled-inbox-checks> .
   <https://github.com/john1hsu/communication-graph/id/attention-management> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> .
+  <https://github.com/john1hsu/communication-graph/id/attribution-theory> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> .
   <https://github.com/john1hsu/communication-graph/id/attribution-theory> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/trust-repair> .
   <https://github.com/john1hsu/communication-graph/id/attributional-ambiguity> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/wise-feedback> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -24258,6 +24377,9 @@
   <https://github.com/john1hsu/communication-graph/id/boothby-cooney-schweitzer-2023> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/boothby-cooney-schweitzer-2023> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/negotiation> .
   <https://github.com/john1hsu/communication-graph/id/bottini-gillis-2021> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/feedback-sandwich> .
+  <https://github.com/john1hsu/communication-graph/id/bottom-et-al-2002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/bottom-et-al-2002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
+  <https://github.com/john1hsu/communication-graph/id/bottom-et-al-2002> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> .
   <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -25336,6 +25458,7 @@
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mea-culpa> .
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mum-effect> .
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
+  <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> .
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/rob-buckman> .
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/saying-no> .
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/service-recovery> .
@@ -25402,6 +25525,7 @@
   <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/apology> .
   <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> .
   <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/mea-culpa> .
+  <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> .
   <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/service-recovery> .
   <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/social-accounts> .
   <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/trust-repair> .
@@ -26411,6 +26535,7 @@
   <https://github.com/john1hsu/communication-graph/id/helen-timperley> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> .
   <https://github.com/john1hsu/communication-graph/id/henderson-welsh-oleary-kelly-2020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/henderson-welsh-oleary-kelly-2020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
+  <https://github.com/john1hsu/communication-graph/id/henderson-welsh-oleary-kelly-2020> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> .
   <https://github.com/john1hsu/communication-graph/id/henderson-welsh-oleary-kelly-2020> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/trust-repair> .
   <https://github.com/john1hsu/communication-graph/id/henley-digennaro-reed-2015> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/feedback-sandwich> .
   <https://github.com/john1hsu/communication-graph/id/henri-lipmanowicz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -27045,6 +27170,7 @@
   <https://github.com/john1hsu/communication-graph/id/interpersonal-conflict> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-conflict> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/difficult-conversation> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-conflict> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/mea-culpa> .
+  <https://github.com/john1hsu/communication-graph/id/interpersonal-conflict> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-conflict> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/service-recovery> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-conflict> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/social-accounts> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-conflict> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/thomas-kilmann-conflict-modes> .
@@ -28042,6 +28168,7 @@
   <https://github.com/john1hsu/communication-graph/id/organizational-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
   <https://github.com/john1hsu/communication-graph/id/organizational-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mccallum-erie-railroad-report> .
   <https://github.com/john1hsu/communication-graph/id/organizational-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/social-psychology> .
+  <https://github.com/john1hsu/communication-graph/id/organizational-justice> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> .
   <https://github.com/john1hsu/communication-graph/id/organizational-justice> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/service-recovery> .
   <https://github.com/john1hsu/communication-graph/id/orvell-et-al-2021> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/self-distancing> .
   <https://github.com/john1hsu/communication-graph/id/over-accommodation> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/saying-no> .
@@ -28139,6 +28266,17 @@
   <https://github.com/john1hsu/communication-graph/id/paul-grice> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/grices-maxims> .
   <https://github.com/john1hsu/communication-graph/id/pearsall-ellis-2011> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
   <https://github.com/john1hsu/communication-graph/id/peck-levashina-2017> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/impression-management> .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution/check/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/difficult-conversation> .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-conflict> .
+  <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/trust-repair> .
   <https://github.com/john1hsu/communication-graph/id/penelope-brown> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/penelope-brown> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/penelope-brown> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/politeness-theory> .
@@ -29081,6 +29219,7 @@
   <https://github.com/john1hsu/communication-graph/id/service-recovery> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/difficult-conversation> .
   <https://github.com/john1hsu/communication-graph/id/service-recovery> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-conflict> .
   <https://github.com/john1hsu/communication-graph/id/service-recovery> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/trust-repair> .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> .
   <https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -29230,6 +29369,7 @@
   <https://github.com/john1hsu/communication-graph/id/social-accounts> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/trust-repair> .
   <https://github.com/john1hsu/communication-graph/id/social-accounts> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/face-and-facework> .
   <https://github.com/john1hsu/communication-graph/id/social-accounts> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mea-culpa> .
+  <https://github.com/john1hsu/communication-graph/id/social-accounts> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> .
   <https://github.com/john1hsu/communication-graph/id/social-accounts> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/mea-culpa> .
   <https://github.com/john1hsu/communication-graph/id/social-anxiety> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/communication-apprehension> .
   <https://github.com/john1hsu/communication-graph/id/social-anxiety> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/communication-apprehension> .
@@ -29778,12 +29918,15 @@
   <https://github.com/john1hsu/communication-graph/id/trust-repair> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/difficult-conversation> .
   <https://github.com/john1hsu/communication-graph/id/trust-repair> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-conflict> .
   <https://github.com/john1hsu/communication-graph/id/trust-repair> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/apology> .
+  <https://github.com/john1hsu/communication-graph/id/trust-repair> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> .
   <https://github.com/john1hsu/communication-graph/id/trust-repair> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/service-recovery> .
   <https://github.com/john1hsu/communication-graph/id/trust-repair> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/social-accounts> .
   <https://github.com/john1hsu/communication-graph/id/trust-repair> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/apology> .
   <https://github.com/john1hsu/communication-graph/id/trust-repair> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/mea-culpa> .
+  <https://github.com/john1hsu/communication-graph/id/trust-repair> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> .
   <https://github.com/john1hsu/communication-graph/id/trust-repair> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/service-recovery> .
   <https://github.com/john1hsu/communication-graph/id/trust-repair> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/social-accounts> .
+  <https://github.com/john1hsu/communication-graph/id/trust-repair> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> .
   <https://github.com/john1hsu/communication-graph/id/trusted-advisor/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/trusted-advisor/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/trusted-advisor/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .

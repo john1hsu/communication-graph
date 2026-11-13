@@ -14444,6 +14444,91 @@
    ]
   },
   {
+   "@id": "cm:penance-and-restitution",
+   "@type": "cmo:Technique",
+   "cmo:appliedIn": {
+    "@id": "cm:trust-repair"
+   },
+   "cmo:complements": {
+    "@id": "cm:apology"
+   },
+   "cmo:demonstratedBy": [
+    {
+     "@id": "cm:bottom-et-al-2002"
+    },
+    {
+     "@id": "cm:henderson-welsh-oleary-kelly-2020"
+    }
+   ],
+   "cmo:domain": "difficult-conversations-and-conflict",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/penance-and-restitution/example"
+   },
+   "cmo:explainedBy": {
+    "@id": "cm:attribution-theory"
+   },
+   "cmo:file": "articles/difficult-conversations-and-conflict/penance-and-restitution.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/penance-and-restitution/howto"
+   },
+   "cmo:level": "intermediate",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/penance-and-restitution/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/penance-and-restitution/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/penance-and-restitution/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/penance-and-restitution/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/penance-and-restitution/s5"
+    }
+   ],
+   "rdfs:label": "Penance and restitution after a breach",
+   "skos:altLabel": [
+    "compensating for a breach of trust",
+    "making amends",
+    "reparation for a broken promise",
+    "restitution after a breach",
+    "substantive penance"
+   ],
+   "skos:broader": {
+    "@id": "cm:trust-repair"
+   },
+   "skos:definition": "Backing an acknowledgement of a breach with something concrete and costly to you that puts the other person's loss right, such as giving back time, covering their extra work or honouring the broken commitment, so that your words of regret become a credible signal and trust can recover.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/difficult-conversations-and-conflict"
+   },
+   "skos:prefLabel": "Penance and restitution after a breach",
+   "skos:related": [
+    {
+     "@id": "cm:apology"
+    },
+    {
+     "@id": "cm:delivering-bad-news"
+    },
+    {
+     "@id": "cm:organizational-justice"
+    },
+    {
+     "@id": "cm:service-recovery"
+    },
+    {
+     "@id": "cm:social-accounts"
+    }
+   ]
+  },
+  {
    "@id": "cm:performance-review",
    "@type": "cmo:Context",
    "cmo:challengedBy": {
@@ -28841,6 +28926,106 @@
    "@type": "schema:HowToStep",
    "schema:position": 6,
    "schema:text": "Only once they confirm you have understood, give your own perspective, answer or proposal."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/penance-and-restitution/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:penance-and-restitution"
+   },
+   "rdfs:label": "Have I named what this cost them, not just that I am sorry?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/penance-and-restitution/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:penance-and-restitution"
+   },
+   "rdfs:label": "Does my offer actually restore their position, and does it cost me something real?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/penance-and-restitution/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:penance-and-restitution"
+   },
+   "rdfs:label": "Am I offering this alongside a clear acknowledgement, or using it to avoid one?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/penance-and-restitution/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:penance-and-restitution"
+   },
+   "rdfs:label": "If my intent is ambiguous to them, have I made clear the breach was not deliberate, and if it was deliberate, have I accepted that money or favours alone will not fix it?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/penance-and-restitution/check/5",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:penance-and-restitution"
+   },
+   "rdfs:label": "Will I keep my next few commitments to this person visibly, so the amends is not a one-off gesture?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/penance-and-restitution/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "I promised you the Henley workshop and gave it away without telling you, and that's on me - you lost the client exposure you had worked for. I've already asked Henley's sponsor to add you as co-lead for the follow-up session on the 28th, and I'll introduce you as the owner of the analysis. Is there anything else that would make this right for you? From now on any change to a role I've promised goes to the person first.",
+   "cmo:before": "Sorry about the workshop mix-up - things moved fast and I didn't think it through. I'll make sure you get the next one.",
+   "cmo:situation": "A team lead promised a senior analyst she would lead the client workshop she had prepared for, then gave the slot to a newer colleague without telling her.",
+   "cmo:why": "The vague apology plus a future maybe costs the lead nothing, so it reads as cheap talk; the rewrite names the loss, restores a comparable opportunity with a date, invites her view of what is fair while keeping responsibility with the lead, and adds a change that makes a repeat less likely."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/penance-and-restitution/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Penance and restitution after a breach",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/penance-and-restitution/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/penance-and-restitution/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/penance-and-restitution/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/penance-and-restitution/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/penance-and-restitution/howto/5"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/penance-and-restitution/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Work out what the breach actually cost the other person (hours, money, a missed opportunity, an awkward moment with their own boss) before you decide what to offer."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/penance-and-restitution/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Acknowledge the breach in the first person and name that cost, so the amends reads as repair rather than a bribe to move on."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/penance-and-restitution/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Offer something concrete that at least restores their position - honour the original commitment, return the time, take on the rework - and make it cost you something real."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/penance-and-restitution/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Ask what would put things right for them, framing the question so the responsibility stays with you, and treat their answer as a guide rather than an opening bid."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/penance-and-restitution/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Deliver the amends promptly and completely; then keep your next commitments to them visibly, because consistent behaviour is what finishes the repair."
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/perspective-getting/check/1",
@@ -44071,6 +44256,76 @@
    "dcterms:title": "A Meta-analytic Systematic Review and Theory of the Effects of Perceived Listening on Work Outcomes",
    "schema:url": {
     "@id": "https://cris.huji.ac.il/en/publications/a-meta-analytic-systematic-review-and-theory-of-the-effects-of-pe/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/penance-and-restitution/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Bottom, Gibson, Daniels & Murnighan, Organization Science 13(5), 497-513 (2002) (CORE open-access copy)",
+   "dcterms:title": "When Talk Is Not Cheap: Substantive Penance and Expressions of Intent in Rebuilding Cooperation",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/77519575.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/penance-and-restitution/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Desmet, De Cremer & van Dijk, Organizational Behavior and Human Decision Processes 114(2), 75-86 (2011), doi:10.1016/j.obhdp.2010.10.006 (Erasmus University repository record)",
+   "dcterms:title": "In Money We Trust? The Use of Financial Compensations to Repair Trust in the Aftermath of Distributive Harm",
+   "schema:url": {
+    "@id": "https://repub.eur.nl/pub/22527"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/penance-and-restitution/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Haesevoets, Reinders Folmer, De Cremer & Van Hiel, Journal of Economic Psychology 35, 95-107 (2013), doi:10.1016/j.joep.2013.02.003 (RePEc record)",
+   "dcterms:title": "Money isn't all that matters: The use of financial compensation and apologies to preserve relationships in the aftermath of distributive harm",
+   "schema:url": {
+    "@id": "https://econpapers.repec.org/RePEc:eee:joepsy:v:35:y:2013:i:c:p:95-107"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/penance-and-restitution/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Haesevoets, Reinders Folmer & Van Hiel, Psychologica Belgica 54(4), 389-394 (2014) (Erasmus University repository copy)",
+   "dcterms:title": "More Money, More Trust? Target and Observer Differences in the Effectiveness of Financial Overcompensation to Restore Trust",
+   "schema:url": {
+    "@id": "https://repub.eur.nl/pub/79349/Repub_79349_OA.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/penance-and-restitution/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Henderson, Welsh & O'Leary-Kelly, Journal of Business and Psychology 35(3), 347-362 (2020), doi:10.1007/s10869-019-09624-z",
+   "dcterms:title": "\"Oops, I Did It\" or \"It Wasn't Me:\" An Examination of Psychological Contract Breach Repair Tactics",
+   "schema:url": {
+    "@id": "https://link.springer.com/10.1007%2Fs10869-019-09624-z"
    }
   },
   {

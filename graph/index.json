@@ -16340,6 +16340,107 @@
   ]
  },
  {
+  "id": "cm:penance-and-restitution",
+  "title": "Penance and restitution after a breach",
+  "aliases": [
+   "substantive penance",
+   "making amends",
+   "restitution after a breach",
+   "reparation for a broken promise",
+   "compensating for a breach of trust"
+  ],
+  "type": "Technique",
+  "domain": "difficult-conversations-and-conflict",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/difficult-conversations-and-conflict/penance-and-restitution.md",
+  "created": "2026-11-13",
+  "summary": "Backing an acknowledgement of a breach with something concrete and costly to you that puts the other person's loss right, such as giving back time, covering their extra work or honouring the broken commitment, so that your words of regret become a credible signal and trust can recover.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:trust-repair"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:apology"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:service-recovery"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:social-accounts"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:organizational-justice"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:delivering-bad-news"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:trust-repair",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:bottom-et-al-2002",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:henderson-welsh-oleary-kelly-2020",
+    "source": "s5",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:apology",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:attribution-theory",
+    "source": "s2",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Have I named what this cost them, not just that I am sorry?",
+   "Does my offer actually restore their position, and does it cost me something real?",
+   "Am I offering this alongside a clear acknowledgement, or using it to avoid one?",
+   "If my intent is ambiguous to them, have I made clear the breach was not deliberate, and if it was deliberate, have I accepted that money or favours alone will not fix it?",
+   "Will I keep my next few commitments to this person visibly, so the amends is not a one-off gesture?"
+  ],
+  "steps": [
+   "Work out what the breach actually cost the other person (hours, money, a missed opportunity, an awkward moment with their own boss) before you decide what to offer.",
+   "Acknowledge the breach in the first person and name that cost, so the amends reads as repair rather than a bribe to move on.",
+   "Offer something concrete that at least restores their position - honour the original commitment, return the time, take on the rework - and make it cost you something real.",
+   "Ask what would put things right for them, framing the question so the responsibility stays with you, and treat their answer as a guide rather than an opening bid.",
+   "Deliver the amends promptly and completely; then keep your next commitments to them visibly, because consistent behaviour is what finishes the repair."
+  ],
+  "example": {
+   "situation": "A team lead promised a senior analyst she would lead the client workshop she had prepared for, then gave the slot to a newer colleague without telling her.",
+   "before": "Sorry about the workshop mix-up - things moved fast and I didn't think it through. I'll make sure you get the next one.",
+   "after": "I promised you the Henley workshop and gave it away without telling you, and that's on me - you lost the client exposure you had worked for. I've already asked Henley's sponsor to add you as co-lead for the follow-up session on the 28th, and I'll introduce you as the owner of the analysis. Is there anything else that would make this right for you? From now on any change to a role I've promised goes to the person first.",
+   "why": "The vague apology plus a future maybe costs the lead nothing, so it reads as cheap talk; the rewrite names the loss, restores a comparable opportunity with a date, invites her view of what is fair while keeping responsibility with the lead, and adds a change that makes a repeat less likely."
+  },
+  "source_urls": [
+   "https://core.ac.uk/download/77519575.pdf",
+   "https://repub.eur.nl/pub/22527",
+   "https://econpapers.repec.org/RePEc:eee:joepsy:v:35:y:2013:i:c:p:95-107",
+   "https://repub.eur.nl/pub/79349/Repub_79349_OA.pdf",
+   "https://link.springer.com/10.1007%2Fs10869-019-09624-z"
+  ]
+ },
+ {
   "id": "cm:performance-review",
   "title": "Performance review",
   "aliases": [

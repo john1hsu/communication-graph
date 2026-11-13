@@ -344,6 +344,29 @@ Ask yourself:
 - Have I named the need behind my position, separately from the one solution I want?
 - If they decline my request, am I ready to explore other ways to meet the need - or was it really a demand?
 
+### [Penance and restitution after a breach](../articles/difficult-conversations-and-conflict/penance-and-restitution.md) — Technique
+
+1. Work out what the breach actually cost the other person (hours, money, a missed opportunity, an awkward moment with their own boss) before you decide what to offer.
+2. Acknowledge the breach in the first person and name that cost, so the amends reads as repair rather than a bribe to move on.
+3. Offer something concrete that at least restores their position - honour the original commitment, return the time, take on the rework - and make it cost you something real.
+4. Ask what would put things right for them, framing the question so the responsibility stays with you, and treat their answer as a guide rather than an opening bid.
+5. Deliver the amends promptly and completely; then keep your next commitments to them visibly, because consistent behaviour is what finishes the repair.
+
+*A team lead promised a senior analyst she would lead the client workshop she had prepared for, then gave the slot to a newer colleague without telling her.*
+
+| Before | After |
+|---|---|
+| Sorry about the workshop mix-up - things moved fast and I didn't think it through. I'll make sure you get the next one. | I promised you the Henley workshop and gave it away without telling you, and that's on me - you lost the client exposure you had worked for. I've already asked Henley's sponsor to add you as co-lead for the follow-up session on the 28th, and I'll introduce you as the owner of the analysis. Is there anything else that would make this right for you? From now on any change to a role I've promised goes to the person first. |
+
+**Why:** The vague apology plus a future maybe costs the lead nothing, so it reads as cheap talk; the rewrite names the loss, restores a comparable opportunity with a date, invites her view of what is fair while keeping responsibility with the lead, and adds a change that makes a repeat less likely.
+
+Ask yourself:
+- Have I named what this cost them, not just that I am sorry?
+- Does my offer actually restore their position, and does it cost me something real?
+- Am I offering this alongside a clear acknowledgement, or using it to avoid one?
+- If my intent is ambiguous to them, have I made clear the breach was not deliberate, and if it was deliberate, have I accepted that money or favours alone will not fix it?
+- Will I keep my next few commitments to this person visibly, so the amends is not a one-off gesture?
+
 ### [Role reversal](../articles/difficult-conversations-and-conflict/role-reversal.md) — Technique
 
 1. Agree the ground rule before the discussion starts - each person summarises the other's position, and the other confirms or corrects it, before anyone argues back.
