@@ -317,6 +317,15 @@
 <https://github.com/john1hsu/communication-graph/id/role-reversal#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/role-reversal/s3> .
 <https://github.com/john1hsu/communication-graph/id/role-reversal#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/role-reversal/s4> .
 <https://github.com/john1hsu/communication-graph/id/role-reversal#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/role-reversal/s5> .
+<https://github.com/john1hsu/communication-graph/id/saying-no#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/saying-no#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/saying-no> .
+<https://github.com/john1hsu/communication-graph/id/saying-no#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/difficult-conversations-and-conflict/saying-no.md" .
+<https://github.com/john1hsu/communication-graph/id/saying-no#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/saying-no/s1> .
+<https://github.com/john1hsu/communication-graph/id/saying-no#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/saying-no/s2> .
+<https://github.com/john1hsu/communication-graph/id/saying-no#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/saying-no/s3> .
+<https://github.com/john1hsu/communication-graph/id/saying-no#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/saying-no/s4> .
+<https://github.com/john1hsu/communication-graph/id/saying-no#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/saying-no/s5> .
+<https://github.com/john1hsu/communication-graph/id/saying-no#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/saying-no/s6> .
 <https://github.com/john1hsu/communication-graph/id/social-accounts#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/social-accounts#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/social-accounts> .
 <https://github.com/john1hsu/communication-graph/id/social-accounts#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/difficult-conversations-and-conflict/social-accounts.md" .
@@ -5279,6 +5288,122 @@
   <https://github.com/john1hsu/communication-graph/id/source/role-reversal/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
   <https://github.com/john1hsu/communication-graph/id/source/role-reversal/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
   <https://github.com/john1hsu/communication-graph/id/source/role-reversal/s5> <https://schema.org/url> <https://business.columbia.edu/faculty/research/view-other-side-table> .
+}
+
+<https://github.com/john1hsu/communication-graph/id/saying-no#graph> {
+  <https://github.com/john1hsu/communication-graph/id/saying-no/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/saying-no/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "If I say yes, what specific work or commitment am I saying no to instead?" .
+  <https://github.com/john1hsu/communication-graph/id/saying-no/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/saying-no> .
+  <https://github.com/john1hsu/communication-graph/id/saying-no/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/saying-no/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Did my answer contain one sentence that a listener could not mistake for a maybe?" .
+  <https://github.com/john1hsu/communication-graph/id/saying-no/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/saying-no> .
+  <https://github.com/john1hsu/communication-graph/id/saying-no/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/saying-no/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Am I offering an alternative I will actually deliver, or one I am inventing to escape the conversation?" .
+  <https://github.com/john1hsu/communication-graph/id/saying-no/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/saying-no> .
+  <https://github.com/john1hsu/communication-graph/id/saying-no/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/saying-no/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Is this the kind of unrewarded task I keep being asked to do, and should it be assigned more fairly instead?" .
+  <https://github.com/john1hsu/communication-graph/id/saying-no/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/saying-no> .
+  <https://github.com/john1hsu/communication-graph/id/saying-no/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+  <https://github.com/john1hsu/communication-graph/id/saying-no/example> <https://github.com/john1hsu/communication-graph/ontology#after> "Thanks for thinking of me. My priority until the 28th is the client deliverable, so I can't take on the offsite this quarter. I could send you last year's checklist and vendor list today, and I'd be glad to be considered for a rotation next quarter." .
+  <https://github.com/john1hsu/communication-graph/id/saying-no/example> <https://github.com/john1hsu/communication-graph/ontology#before> "Oh... I'm really swamped, but I guess I could try to fit it in? Sorry, it might be a bit late. Let me see what I can do." .
+  <https://github.com/john1hsu/communication-graph/id/saying-no/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "A senior analyst is asked by a peer manager to run the quarterly offsite logistics, on top of a client deliverable due in two weeks." .
+  <https://github.com/john1hsu/communication-graph/id/saying-no/example> <https://github.com/john1hsu/communication-graph/ontology#why> "The rewrite states the competing commitment, gives an unambiguous no in one sentence and offers a concrete, smaller yes, so the requester can plan instead of waiting on a half-yes that may fail later." .
+  <https://github.com/john1hsu/communication-graph/id/saying-no/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/saying-no/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/saying-no/howto/1> <https://schema.org/text> "Ask for time before answering (\"Let me check my commitments and come back to you by 3 p.m.\") instead of agreeing on the spot." .
+  <https://github.com/john1hsu/communication-graph/id/saying-no/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/saying-no/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/saying-no/howto/2> <https://schema.org/text> "Get the details - scope, deadline, who else could do it, and whether the work counts toward anyone's goals - so you are deciding about the real request." .
+  <https://github.com/john1hsu/communication-graph/id/saying-no/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/saying-no/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/saying-no/howto/3> <https://schema.org/text> "Name your own yes - the priority, commitment or principle that this request would crowd out." .
+  <https://github.com/john1hsu/communication-graph/id/saying-no/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/saying-no/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/saying-no/howto/4> <https://schema.org/text> "Decide your Plan B - what you will do if the requester pushes back or escalates." .
+  <https://github.com/john1hsu/communication-graph/id/saying-no/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/saying-no/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/saying-no/howto/5> <https://schema.org/text> "Deliver the answer in three beats - acknowledge the request and state your yes, say the no plainly in one sentence, then propose an alternative you can genuinely support." .
+  <https://github.com/john1hsu/communication-graph/id/saying-no/howto/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/saying-no/howto/6> <https://schema.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/saying-no/howto/6> <https://schema.org/text> "Keep a neutral, matter-of-fact tone; if pressed, acknowledge their point, repeat the no calmly and do not add new excuses." .
+  <https://github.com/john1hsu/communication-graph/id/saying-no/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+  <https://github.com/john1hsu/communication-graph/id/saying-no/howto> <https://schema.org/name> "Saying no" .
+  <https://github.com/john1hsu/communication-graph/id/saying-no/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/saying-no/howto/1> .
+  <https://github.com/john1hsu/communication-graph/id/saying-no/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/saying-no/howto/2> .
+  <https://github.com/john1hsu/communication-graph/id/saying-no/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/saying-no/howto/3> .
+  <https://github.com/john1hsu/communication-graph/id/saying-no/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/saying-no/howto/4> .
+  <https://github.com/john1hsu/communication-graph/id/saying-no/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/saying-no/howto/5> .
+  <https://github.com/john1hsu/communication-graph/id/saying-no/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/saying-no/howto/6> .
+  <https://github.com/john1hsu/communication-graph/id/saying-no> <http://purl.org/dc/terms/created> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/saying-no> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Technique> .
+  <https://github.com/john1hsu/communication-graph/id/saying-no> <http://www.w3.org/2000/01/rdf-schema#label> "Saying no" .
+  <https://github.com/john1hsu/communication-graph/id/saying-no> <http://www.w3.org/2004/02/skos/core#altLabel> "Yes-No-Yes" .
+  <https://github.com/john1hsu/communication-graph/id/saying-no> <http://www.w3.org/2004/02/skos/core#altLabel> "declining requests" .
+  <https://github.com/john1hsu/communication-graph/id/saying-no> <http://www.w3.org/2004/02/skos/core#altLabel> "positive no" .
+  <https://github.com/john1hsu/communication-graph/id/saying-no> <http://www.w3.org/2004/02/skos/core#altLabel> "turning down requests" .
+  <https://github.com/john1hsu/communication-graph/id/saying-no> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/assertive-communication> .
+  <https://github.com/john1hsu/communication-graph/id/saying-no> <http://www.w3.org/2004/02/skos/core#definition> "Declining a request, invitation or extra assignment clearly and respectfully, so that you protect your priorities without damaging the working relationship - typically by naming what you are saying yes to, stating the no plainly, and offering a workable alternative (William Ury's \"positive no\")." .
+  <https://github.com/john1hsu/communication-graph/id/saying-no> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/difficult-conversations-and-conflict> .
+  <https://github.com/john1hsu/communication-graph/id/saying-no> <http://www.w3.org/2004/02/skos/core#prefLabel> "Saying no" .
+  <https://github.com/john1hsu/communication-graph/id/saying-no> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/batna> .
+  <https://github.com/john1hsu/communication-graph/id/saying-no> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> .
+  <https://github.com/john1hsu/communication-graph/id/saying-no> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/face-and-facework> .
+  <https://github.com/john1hsu/communication-graph/id/saying-no> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/managing-up> .
+  <https://github.com/john1hsu/communication-graph/id/saying-no> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/principled-negotiation> .
+  <https://github.com/john1hsu/communication-graph/id/saying-no> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/saying-no/s1> .
+  <https://github.com/john1hsu/communication-graph/id/saying-no> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/saying-no/s2> .
+  <https://github.com/john1hsu/communication-graph/id/saying-no> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/saying-no/s3> .
+  <https://github.com/john1hsu/communication-graph/id/saying-no> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/saying-no/s4> .
+  <https://github.com/john1hsu/communication-graph/id/saying-no> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/saying-no/s5> .
+  <https://github.com/john1hsu/communication-graph/id/saying-no> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/saying-no/s6> .
+  <https://github.com/john1hsu/communication-graph/id/saying-no> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/over-accommodation> .
+  <https://github.com/john1hsu/communication-graph/id/saying-no> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/negotiation> .
+  <https://github.com/john1hsu/communication-graph/id/saying-no> <https://github.com/john1hsu/communication-graph/ontology#domain> "difficult-conversations-and-conflict" .
+  <https://github.com/john1hsu/communication-graph/id/saying-no> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "practitioner" .
+  <https://github.com/john1hsu/communication-graph/id/saying-no> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/saying-no/example> .
+  <https://github.com/john1hsu/communication-graph/id/saying-no> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/difficult-conversations-and-conflict/saying-no.md" .
+  <https://github.com/john1hsu/communication-graph/id/saying-no> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/saying-no/howto> .
+  <https://github.com/john1hsu/communication-graph/id/saying-no> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/william-ury> .
+  <https://github.com/john1hsu/communication-graph/id/saying-no> <https://github.com/john1hsu/communication-graph/ontology#introducedIn> <https://github.com/john1hsu/communication-graph/id/the-power-of-a-positive-no> .
+  <https://github.com/john1hsu/communication-graph/id/saying-no> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+  <https://github.com/john1hsu/communication-graph/id/saying-no> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/flynn-lake-2008> .
+  <https://github.com/john1hsu/communication-graph/id/saying-no> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/givi-kirk-2023> .
+  <https://github.com/john1hsu/communication-graph/id/source/saying-no/s1> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/saying-no/s1> <http://purl.org/dc/terms/publisher> "Flynn & Lake (Bohns), Journal of Personality and Social Psychology 95(1), 128-143 (2008), doi:10.1037/0022-3514.95.1.128 (Cornell eCommons record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/saying-no/s1> <http://purl.org/dc/terms/title> "If You Need Help, Just Ask: Underestimating Compliance With Direct Requests for Help" .
+  <https://github.com/john1hsu/communication-graph/id/source/saying-no/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/saying-no/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/saying-no/s1> <https://schema.org/url> <https://ecommons.cornell.edu/entities/publication/9c0adbfb-985c-4f7d-aae3-96959822bc4c> .
+  <https://github.com/john1hsu/communication-graph/id/source/saying-no/s2> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/saying-no/s2> <http://purl.org/dc/terms/publisher> "American Psychological Association press release on Givi & Kirk, Journal of Personality and Social Psychology (published online December 2023)" .
+  <https://github.com/john1hsu/communication-graph/id/source/saying-no/s2> <http://purl.org/dc/terms/title> "Saying no: The negative ramifications from invitation declines are less severe than we think (APA press release)" .
+  <https://github.com/john1hsu/communication-graph/id/source/saying-no/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/saying-no/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+  <https://github.com/john1hsu/communication-graph/id/source/saying-no/s2> <https://schema.org/url> <https://www.apa.org/news/press/releases/2023/12/say-no-invitation> .
+  <https://github.com/john1hsu/communication-graph/id/source/saying-no/s3> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/saying-no/s3> <http://purl.org/dc/terms/publisher> "Gender Action Portal, Harvard Kennedy School - summary of Babcock, Recalde, Vesterlund & Weingart, American Economic Review 107(3), 714-47 (2017)" .
+  <https://github.com/john1hsu/communication-graph/id/source/saying-no/s3> <http://purl.org/dc/terms/title> "Gender Differences in Accepting and Receiving Requests for Tasks with Low Promotability" .
+  <https://github.com/john1hsu/communication-graph/id/source/saying-no/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/saying-no/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/communication-graph/id/source/saying-no/s3> <https://schema.org/url> <https://gap.hks.harvard.edu/breaking-glass-ceiling-%E2%80%9Cno%E2%80%9D-gender-differences-declining-requests-non%E2%80%90promotable-tasks> .
+  <https://github.com/john1hsu/communication-graph/id/source/saying-no/s4> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/saying-no/s4> <http://purl.org/dc/terms/publisher> "Program on Negotiation at Harvard Law School" .
+  <https://github.com/john1hsu/communication-graph/id/source/saying-no/s4> <http://purl.org/dc/terms/title> "Positive no (What is a Positive No?)" .
+  <https://github.com/john1hsu/communication-graph/id/source/saying-no/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/saying-no/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/communication-graph/id/source/saying-no/s4> <https://schema.org/url> <https://www.pon.harvard.edu/tag/positive-no> .
+  <https://github.com/john1hsu/communication-graph/id/source/saying-no/s5> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/saying-no/s5> <http://purl.org/dc/terms/publisher> "execuBooks summary of William Ury's book (Bantam, 2007), hosted by the French-American Foundation" .
+  <https://github.com/john1hsu/communication-graph/id/source/saying-no/s5> <http://purl.org/dc/terms/title> "The Power of a Positive No: How to Say No and Still Get to Yes (book summary)" .
+  <https://github.com/john1hsu/communication-graph/id/source/saying-no/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/saying-no/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "community" .
+  <https://github.com/john1hsu/communication-graph/id/source/saying-no/s5> <https://schema.org/url> <https://frenchamerican.org/wp-content/uploads/urypowerofpositiveno.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/saying-no/s6> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/saying-no/s6> <http://purl.org/dc/terms/publisher> "Emma Jacobs, Financial Times, 28 April 2022 (reprint hosted by Carnegie Mellon University)" .
+  <https://github.com/john1hsu/communication-graph/id/source/saying-no/s6> <http://purl.org/dc/terms/title> "Article on The No Club and non-promotable tasks" .
+  <https://github.com/john1hsu/communication-graph/id/source/saying-no/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/saying-no/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "news" .
+  <https://github.com/john1hsu/communication-graph/id/source/saying-no/s6> <https://schema.org/url> <https://www.cmu.edu/ambassadors/july-2022/pdf/ft_no-club.pdf> .
 }
 
 <https://github.com/john1hsu/communication-graph/id/social-accounts#graph> {
@@ -23403,7 +23528,9 @@
   <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/pyramid-principle> .
   <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/presentation> .
   <https://github.com/john1hsu/communication-graph/id/assertive-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/i-statements> .
+  <https://github.com/john1hsu/communication-graph/id/assertive-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/saying-no> .
   <https://github.com/john1hsu/communication-graph/id/assertive-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/i-statements> .
+  <https://github.com/john1hsu/communication-graph/id/assertive-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/saying-no> .
   <https://github.com/john1hsu/communication-graph/id/assertiveness> <https://github.com/john1hsu/communication-graph/ontology#developedBy> <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> .
   <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -23551,6 +23678,7 @@
   <https://github.com/john1hsu/communication-graph/id/batna> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/negotiation-preparation> .
   <https://github.com/john1hsu/communication-graph/id/batna> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/negotiation> .
   <https://github.com/john1hsu/communication-graph/id/batna> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/principled-negotiation> .
+  <https://github.com/john1hsu/communication-graph/id/batna> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/saying-no> .
   <https://github.com/john1hsu/communication-graph/id/batna> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/negotiation-preparation> .
   <https://github.com/john1hsu/communication-graph/id/batna> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/reservation-value> .
   <https://github.com/john1hsu/communication-graph/id/batna> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> .
@@ -24663,6 +24791,7 @@
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mum-effect> .
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/rob-buckman> .
+  <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/saying-no> .
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/status-reporting> .
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/message-structure> .
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/social-accounts> .
@@ -25208,6 +25337,7 @@
   <https://github.com/john1hsu/communication-graph/id/face-and-facework> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/intercultural-competence> .
   <https://github.com/john1hsu/communication-graph/id/face-and-facework> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/pragmatics> .
   <https://github.com/john1hsu/communication-graph/id/face-and-facework> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/register-and-tone> .
+  <https://github.com/john1hsu/communication-graph/id/face-and-facework> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/saying-no> .
   <https://github.com/john1hsu/communication-graph/id/face-and-facework> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/impression-management> .
   <https://github.com/john1hsu/communication-graph/id/face-and-facework> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback> .
   <https://github.com/john1hsu/communication-graph/id/face-and-facework> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/politeness-theory> .
@@ -25447,6 +25577,7 @@
   <https://github.com/john1hsu/communication-graph/id/floyd-allport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/floyd-allport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/floyd-allport> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/social-psychology> .
+  <https://github.com/john1hsu/communication-graph/id/flynn-lake-2008> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/saying-no> .
   <https://github.com/john1hsu/communication-graph/id/fm-6-0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/fm-6-0> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
   <https://github.com/john1hsu/communication-graph/id/fm-6-0> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/executive-briefing> .
@@ -25568,6 +25699,7 @@
   <https://github.com/john1hsu/communication-graph/id/ginns-2006> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/cognitive-load> .
   <https://github.com/john1hsu/communication-graph/id/ginny-redish> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/ginny-redish> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/informative-headings> .
+  <https://github.com/john1hsu/communication-graph/id/givi-kirk-2023> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/saying-no> .
   <https://github.com/john1hsu/communication-graph/id/glikson-cheshin-van-kleef-2018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/glikson-cheshin-van-kleef-2018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/glikson-cheshin-van-kleef-2018> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> .
@@ -26738,6 +26870,7 @@
   <https://github.com/john1hsu/communication-graph/id/managing-up> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
   <https://github.com/john1hsu/communication-graph/id/managing-up> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/philip-crosby> .
   <https://github.com/john1hsu/communication-graph/id/managing-up> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/politeness-theory> .
+  <https://github.com/john1hsu/communication-graph/id/managing-up> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/saying-no> .
   <https://github.com/john1hsu/communication-graph/id/managing-up> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/status-reporting> .
   <https://github.com/john1hsu/communication-graph/id/managing-up> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/trusted-advisor> .
   <https://github.com/john1hsu/communication-graph/id/managing-up> <https://github.com/john1hsu/communication-graph/ontology#developedBy> <https://github.com/john1hsu/communication-graph/id/issue-selling> .
@@ -27105,6 +27238,7 @@
   <https://github.com/john1hsu/communication-graph/id/negotiation> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/labeling-emotions> .
   <https://github.com/john1hsu/communication-graph/id/negotiation> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/mirroring> .
   <https://github.com/john1hsu/communication-graph/id/negotiation> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/questioning> .
+  <https://github.com/john1hsu/communication-graph/id/negotiation> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/saying-no> .
   <https://github.com/john1hsu/communication-graph/id/negotiation> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/summarizing> .
   <https://github.com/john1hsu/communication-graph/id/negotiation> <https://github.com/john1hsu/communication-graph/ontology#hasPart> <https://github.com/john1hsu/communication-graph/id/negotiation-preparation> .
   <https://github.com/john1hsu/communication-graph/id/negotiation> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/mythical-fixed-pie> .
@@ -27316,6 +27450,7 @@
   <https://github.com/john1hsu/communication-graph/id/organizational-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mccallum-erie-railroad-report> .
   <https://github.com/john1hsu/communication-graph/id/organizational-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/social-psychology> .
   <https://github.com/john1hsu/communication-graph/id/orvell-et-al-2021> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/self-distancing> .
+  <https://github.com/john1hsu/communication-graph/id/over-accommodation> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/saying-no> .
   <https://github.com/john1hsu/communication-graph/id/overoye-wilson-2020> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/gestures> .
   <https://github.com/john1hsu/communication-graph/id/owens-johnson-mitchell-2013> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/humble-inquiry> .
   <https://github.com/john1hsu/communication-graph/id/paolazzi-et-al-2019> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/active-voice> .
@@ -27745,6 +27880,7 @@
   <https://github.com/john1hsu/communication-graph/id/principled-negotiation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/batna> .
   <https://github.com/john1hsu/communication-graph/id/principled-negotiation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/conflict-resolution> .
   <https://github.com/john1hsu/communication-graph/id/principled-negotiation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/negotiation> .
+  <https://github.com/john1hsu/communication-graph/id/principled-negotiation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/saying-no> .
   <https://github.com/john1hsu/communication-graph/id/principled-negotiation> <https://github.com/john1hsu/communication-graph/ontology#hasPart> <https://github.com/john1hsu/communication-graph/id/interests-vs-positions> .
   <https://github.com/john1hsu/communication-graph/id/principled-negotiation> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/open-ended-questions> .
   <https://github.com/john1hsu/communication-graph/id/prochazka-ovcari-durinik-2020> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/feedback-sandwich> .
@@ -28205,6 +28341,14 @@
   <https://github.com/john1hsu/communication-graph/id/savitsky-gilovich-2003> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/thomas-gilovich> .
   <https://github.com/john1hsu/communication-graph/id/savitsky-gilovich-2003> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> .
   <https://github.com/john1hsu/communication-graph/id/savitsky-gilovich-2003> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/macinnis-mackinnon-macintyre-2010> .
+  <https://github.com/john1hsu/communication-graph/id/saying-no/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/saying-no/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/saying-no/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/saying-no/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/saying-no/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/saying-no> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+  <https://github.com/john1hsu/communication-graph/id/saying-no> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/saying-no> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/assertive-communication> .
   <https://github.com/john1hsu/communication-graph/id/schaerer-loschelder-swaab-2016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/schaerer-loschelder-swaab-2016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/schaerer-loschelder-swaab-2016> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> .
@@ -28893,6 +29037,9 @@
   <https://github.com/john1hsu/communication-graph/id/the-physician-as-teacher> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/humanities> .
   <https://github.com/john1hsu/communication-graph/id/the-physician-as-teacher> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
   <https://github.com/john1hsu/communication-graph/id/the-physician-as-teacher> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
+  <https://github.com/john1hsu/communication-graph/id/the-power-of-a-positive-no> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/the-power-of-a-positive-no> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
+  <https://github.com/john1hsu/communication-graph/id/the-power-of-a-positive-no> <https://github.com/john1hsu/communication-graph/ontology#introduces> <https://github.com/john1hsu/communication-graph/id/saying-no> .
   <https://github.com/john1hsu/communication-graph/id/the-presentation-of-self-in-everyday-life> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/the-presentation-of-self-in-everyday-life> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
   <https://github.com/john1hsu/communication-graph/id/the-presentation-of-self-in-everyday-life> <https://github.com/john1hsu/communication-graph/ontology#authoredBy> <https://github.com/john1hsu/communication-graph/id/erving-goffman> .
@@ -29196,6 +29343,9 @@
   <https://github.com/john1hsu/communication-graph/id/william-strunk-jr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/william-strunk-jr> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/ginny-redish> .
   <https://github.com/john1hsu/communication-graph/id/william-strunk-jr> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/quintilian> .
+  <https://github.com/john1hsu/communication-graph/id/william-ury> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/william-ury> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+  <https://github.com/john1hsu/communication-graph/id/william-ury> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/saying-no> .
   <https://github.com/john1hsu/communication-graph/id/wintle-et-al-2019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/wintle-et-al-2019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/wintle-et-al-2019> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability> .

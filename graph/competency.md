@@ -59,7 +59,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:audience-analysis` | 1 | Curse of knowledge |
 | `cm:bottom-line-up-front` | 1 | Burying the lede |
 
-…and 45 more.
+…and 46 more.
 
 ## Toolkit by situation
 
@@ -98,7 +98,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:email` | `cm:concise-writing` |
 | `cm:email` | `cm:email-urgency-bias-study` |
 
-…and 114 more.
+…and 115 more.
 
 ## Myths and contested advice
 

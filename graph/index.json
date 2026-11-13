@@ -20020,6 +20020,113 @@
   ]
  },
  {
+  "id": "cm:saying-no",
+  "title": "Saying no",
+  "aliases": [
+   "declining requests",
+   "turning down requests",
+   "positive no",
+   "Yes-No-Yes"
+  ],
+  "type": "Technique",
+  "domain": "difficult-conversations-and-conflict",
+  "level": "introductory",
+  "evidenceStatus": "practitioner",
+  "file": "articles/difficult-conversations-and-conflict/saying-no.md",
+  "created": "2026-11-13",
+  "summary": "Declining a request, invitation or extra assignment clearly and respectfully, so that you protect your priorities without damaging the working relationship - typically by naming what you are saying yes to, stating the no plainly, and offering a workable alternative (William Ury's \"positive no\").",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:assertive-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:delivering-bad-news"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:principled-negotiation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:batna"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:face-and-facework"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:managing-up"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:william-ury",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedIn",
+    "object": "cm:the-power-of-a-positive-no",
+    "source": "s5",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:over-accommodation",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:negotiation",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:flynn-lake-2008",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:givi-kirk-2023",
+    "source": "s2",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "If I say yes, what specific work or commitment am I saying no to instead?",
+   "Did my answer contain one sentence that a listener could not mistake for a maybe?",
+   "Am I offering an alternative I will actually deliver, or one I am inventing to escape the conversation?",
+   "Is this the kind of unrewarded task I keep being asked to do, and should it be assigned more fairly instead?"
+  ],
+  "steps": [
+   "Ask for time before answering (\"Let me check my commitments and come back to you by 3 p.m.\") instead of agreeing on the spot.",
+   "Get the details - scope, deadline, who else could do it, and whether the work counts toward anyone's goals - so you are deciding about the real request.",
+   "Name your own yes - the priority, commitment or principle that this request would crowd out.",
+   "Decide your Plan B - what you will do if the requester pushes back or escalates.",
+   "Deliver the answer in three beats - acknowledge the request and state your yes, say the no plainly in one sentence, then propose an alternative you can genuinely support.",
+   "Keep a neutral, matter-of-fact tone; if pressed, acknowledge their point, repeat the no calmly and do not add new excuses."
+  ],
+  "example": {
+   "situation": "A senior analyst is asked by a peer manager to run the quarterly offsite logistics, on top of a client deliverable due in two weeks.",
+   "before": "Oh... I'm really swamped, but I guess I could try to fit it in? Sorry, it might be a bit late. Let me see what I can do.",
+   "after": "Thanks for thinking of me. My priority until the 28th is the client deliverable, so I can't take on the offsite this quarter. I could send you last year's checklist and vendor list today, and I'd be glad to be considered for a rotation next quarter.",
+   "why": "The rewrite states the competing commitment, gives an unambiguous no in one sentence and offers a concrete, smaller yes, so the requester can plan instead of waiting on a half-yes that may fail later."
+  },
+  "source_urls": [
+   "https://ecommons.cornell.edu/entities/publication/9c0adbfb-985c-4f7d-aae3-96959822bc4c",
+   "https://www.apa.org/news/press/releases/2023/12/say-no-invitation",
+   "https://gap.hks.harvard.edu/breaking-glass-ceiling-%E2%80%9Cno%E2%80%9D-gender-differences-declining-requests-non%E2%80%90promotable-tasks",
+   "https://www.pon.harvard.edu/tag/positive-no",
+   "https://frenchamerican.org/wp-content/uploads/urypowerofpositiveno.pdf",
+   "https://www.cmu.edu/ambassadors/july-2022/pdf/ft_no-club.pdf"
+  ]
+ },
+ {
   "id": "cm:scheduled-inbox-checks",
   "title": "Scheduled inbox checks",
   "aliases": [

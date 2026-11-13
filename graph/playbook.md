@@ -368,6 +368,29 @@ Ask yourself:
 - Am I using the swap to understand them, or to rehearse a rebuttal?
 - If I argued their side to someone who shares their values, would it sound persuasive or like a caricature?
 
+### [Saying no](../articles/difficult-conversations-and-conflict/saying-no.md) — Technique
+
+1. Ask for time before answering ("Let me check my commitments and come back to you by 3 p.m.") instead of agreeing on the spot.
+2. Get the details - scope, deadline, who else could do it, and whether the work counts toward anyone's goals - so you are deciding about the real request.
+3. Name your own yes - the priority, commitment or principle that this request would crowd out.
+4. Decide your Plan B - what you will do if the requester pushes back or escalates.
+5. Deliver the answer in three beats - acknowledge the request and state your yes, say the no plainly in one sentence, then propose an alternative you can genuinely support.
+6. Keep a neutral, matter-of-fact tone; if pressed, acknowledge their point, repeat the no calmly and do not add new excuses.
+
+*A senior analyst is asked by a peer manager to run the quarterly offsite logistics, on top of a client deliverable due in two weeks.*
+
+| Before | After |
+|---|---|
+| Oh... I'm really swamped, but I guess I could try to fit it in? Sorry, it might be a bit late. Let me see what I can do. | Thanks for thinking of me. My priority until the 28th is the client deliverable, so I can't take on the offsite this quarter. I could send you last year's checklist and vendor list today, and I'd be glad to be considered for a rotation next quarter. |
+
+**Why:** The rewrite states the competing commitment, gives an unambiguous no in one sentence and offers a concrete, smaller yes, so the requester can plan instead of waiting on a half-yes that may fail later.
+
+Ask yourself:
+- If I say yes, what specific work or commitment am I saying no to instead?
+- Did my answer contain one sentence that a listener could not mistake for a maybe?
+- Am I offering an alternative I will actually deliver, or one I am inventing to escape the conversation?
+- Is this the kind of unrewarded task I keep being asked to do, and should it be assigned more fairly instead?
+
 ### [Social accounts](../articles/difficult-conversations-and-conflict/social-accounts.md) — Technique
 
 1. Give the explanation at the same moment as the bad news or the admission, before people fill the silence with their own story.
