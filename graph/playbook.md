@@ -2067,6 +2067,15 @@ Ask yourself:
 
 ## questioning-and-conversation
 
+### [Checking understanding](../articles/questioning-and-conversation/checking-understanding.md) — Skill
+
+Ask yourself:
+- Which one or two details in this exchange would cause real damage if they were misunderstood, and did I check those specifically?
+- Did I accept a nod, a "makes sense" or a thumbs-up as proof, or did I hear the point back in the other person's words?
+- Before acting on a request, did I restate what I think was asked and get a "yes, that's it"?
+- Did I invite questions with an open phrase that assumes they exist, rather than a yes/no "any questions"?
+- For anything sent in writing, did I ask for a reply that shows understanding, not just receipt?
+
 ### [Conversational receptiveness](../articles/questioning-and-conversation/conversational-receptiveness.md) — Technique
 
 1. Before replying to someone you disagree with, restate their main point in a sentence of your own and check it is one they would accept.

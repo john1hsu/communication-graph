@@ -2595,6 +2595,122 @@
    ]
   },
   {
+   "@id": "cm:checking-understanding",
+   "@type": "cmo:Skill",
+   "cmo:addresses": {
+    "@id": "cm:illusion-of-transparency"
+   },
+   "cmo:appliedIn": [
+    {
+     "@id": "cm:email"
+    },
+    {
+     "@id": "cm:patient-education"
+    },
+    {
+     "@id": "cm:phone-call"
+    }
+   ],
+   "cmo:domain": "questioning-and-conversation",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:file": "articles/questioning-and-conversation/checking-understanding.md",
+   "cmo:level": "introductory",
+   "cmo:requires": {
+    "@id": "cm:open-ended-questions"
+   },
+   "cmo:supportedBy": [
+    {
+     "@id": "cm:el-shafy-et-al-2018"
+    },
+    {
+     "@id": "cm:lau-et-al-2022"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/checking-understanding/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/checking-understanding/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/checking-understanding/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/checking-understanding/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/checking-understanding/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/checking-understanding/s6"
+    }
+   ],
+   "rdfs:label": "Checking understanding",
+   "skos:altLabel": [
+    "checking for understanding",
+    "comprehension checking",
+    "confirming understanding",
+    "verifying understanding"
+   ],
+   "skos:broader": {
+    "@id": "cm:questioning"
+   },
+   "skos:definition": "The habit of testing, rather than assuming, that a message was understood as intended - in both directions - by asking for a read-back, a restatement or a next step, restating what you heard before acting on it, and closing the loop on anything that must be exact.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/questioning-and-conversation"
+   },
+   "skos:prefLabel": "Checking understanding",
+   "skos:related": [
+    {
+     "@id": "cm:closed-loop-communication"
+    },
+    {
+     "@id": "cm:common-ground"
+    },
+    {
+     "@id": "cm:communicating-across-languages"
+    },
+    {
+     "@id": "cm:curse-of-knowledge"
+    },
+    {
+     "@id": "cm:egocentric-bias"
+    },
+    {
+     "@id": "cm:hargestam-et-al-2013"
+    },
+    {
+     "@id": "cm:illusion-of-transparency"
+    },
+    {
+     "@id": "cm:keysar-henly-2002"
+    },
+    {
+     "@id": "cm:meeting-recaps"
+    },
+    {
+     "@id": "cm:open-ended-questions"
+    },
+    {
+     "@id": "cm:paraphrasing"
+    },
+    {
+     "@id": "cm:perspective-getting"
+    },
+    {
+     "@id": "cm:summarizing"
+    },
+    {
+     "@id": "cm:teach-back"
+    }
+   ]
+  },
+  {
    "@id": "cm:chen-2002",
    "@type": "cmo:Work",
    "cmo:authoredBy": {
@@ -23071,6 +23187,46 @@
    "schema:text": "Move to a call when a thread passes a few back-and-forths without agreement or the topic turns sensitive, then post the outcome back in the thread."
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/checking-understanding/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:checking-understanding"
+   },
+   "rdfs:label": "Which one or two details in this exchange would cause real damage if they were misunderstood, and did I check those specifically?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/checking-understanding/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:checking-understanding"
+   },
+   "rdfs:label": "Did I accept a nod, a \"makes sense\" or a thumbs-up as proof, or did I hear the point back in the other person's words?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/checking-understanding/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:checking-understanding"
+   },
+   "rdfs:label": "Before acting on a request, did I restate what I think was asked and get a \"yes, that's it\"?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/checking-understanding/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:checking-understanding"
+   },
+   "rdfs:label": "Did I invite questions with an open phrase that assumes they exist, rather than a yes/no \"any questions\"?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/checking-understanding/check/5",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:checking-understanding"
+   },
+   "rdfs:label": "For anything sent in writing, did I ask for a reply that shows understanding, not just receipt?"
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/communicating-across-languages/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -32791,6 +32947,90 @@
    "dcterms:title": "The Blurring Boundaries Between Synchronicity and Asynchronicity: New Communicative Situations in Work-Related Instant Messaging",
    "schema:url": {
     "@id": "https://publications.aston.ac.uk/id/eprint/25623/1/New_communicative_situations_in_work_related_Instant_Messaging.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/checking-understanding/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Agency for Healthcare Research and Quality (U.S. Department of Health and Human Services)",
+   "dcterms:title": "Tool: Check-Back (or Repeat-Back) - TeamSTEPPS Communication Module",
+   "schema:url": {
+    "@id": "https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/checkback.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/checking-understanding/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "University of Chicago Multilingualism and Decision-making Lab (author's copy and citation)",
+   "dcterms:title": "The extreme illusion of understanding (Lau, Geipel, Wu & Keysar, Journal of Experimental Psychology: General, 2022)",
+   "schema:url": {
+    "@id": "https://mdl.uchicago.edu/research/lau-2022-the-extreme-illusion-of-understanding"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/checking-understanding/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "news",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "The University of Chicago Chronicle",
+   "dcterms:title": "Keysar research: speakers overestimate how well they are understood (on Keysar & Henly, Psychological Science, 2002)",
+   "schema:url": {
+    "@id": "https://chronicle.uchicago.edu/020509/keysarresearch.shtml"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/checking-understanding/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Health Literacy Research and Practice (indexed by DOAJ)",
+   "dcterms:title": "\"What Questions Do You Have?\": Teaching Medical Students to Use an Open-Ended Phrase for Eliciting Patients' Questions (Coleman, Salcido-Torres & Cantone, Health Literacy Research and Practice, 2022)",
+   "schema:url": {
+    "@id": "https://doaj.org/article/89003788234a4dac874091188c91a10e"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/checking-understanding/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "AHRQ Patient Safety Network (PSNet)",
+   "dcterms:title": "Communication in interdisciplinary teams: exploring closed-loop communication during in situ trauma team training (Härgestam et al., BMJ Open, 2013)",
+   "schema:url": {
+    "@id": "https://psnet.ahrq.gov/issue/communication-interdisciplinary-teams-exploring-closed-loop-communication-during-situ-trauma"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/checking-understanding/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "CRICO / Risk Management Foundation of the Harvard Medical Institutions",
+   "dcterms:title": "Closed Loop Communication Improves Task Completion in Pediatric Trauma Resuscitation (El-Shafy et al., Journal of Surgical Education)",
+   "schema:url": {
+    "@id": "https://rmf.harvard.edu/about-crico/media/in-the-news/news/2017/august/closed-loop-communication-improves-task-completion-in-pediatric-trauma-resuscitation"
    }
   },
   {

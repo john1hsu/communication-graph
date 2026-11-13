@@ -1731,6 +1731,63 @@
 <https://github.com/john1hsu/communication-graph/id/chat-etiquette> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/digital-and-async-communication/chat-etiquette.md" .
 <https://github.com/john1hsu/communication-graph/id/chat-etiquette> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/chat-etiquette/howto> .
 <https://github.com/john1hsu/communication-graph/id/chat-etiquette> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/checking-understanding/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/checking-understanding/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Which one or two details in this exchange would cause real damage if they were misunderstood, and did I check those specifically?" .
+<https://github.com/john1hsu/communication-graph/id/checking-understanding/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/checking-understanding> .
+<https://github.com/john1hsu/communication-graph/id/checking-understanding/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/checking-understanding/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Did I accept a nod, a \"makes sense\" or a thumbs-up as proof, or did I hear the point back in the other person's words?" .
+<https://github.com/john1hsu/communication-graph/id/checking-understanding/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/checking-understanding> .
+<https://github.com/john1hsu/communication-graph/id/checking-understanding/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/checking-understanding/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Before acting on a request, did I restate what I think was asked and get a \"yes, that's it\"?" .
+<https://github.com/john1hsu/communication-graph/id/checking-understanding/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/checking-understanding> .
+<https://github.com/john1hsu/communication-graph/id/checking-understanding/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/checking-understanding/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Did I invite questions with an open phrase that assumes they exist, rather than a yes/no \"any questions\"?" .
+<https://github.com/john1hsu/communication-graph/id/checking-understanding/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/checking-understanding> .
+<https://github.com/john1hsu/communication-graph/id/checking-understanding/check/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/checking-understanding/check/5> <http://www.w3.org/2000/01/rdf-schema#label> "For anything sent in writing, did I ask for a reply that shows understanding, not just receipt?" .
+<https://github.com/john1hsu/communication-graph/id/checking-understanding/check/5> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/checking-understanding> .
+<https://github.com/john1hsu/communication-graph/id/checking-understanding> <http://purl.org/dc/terms/created> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/checking-understanding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Skill> .
+<https://github.com/john1hsu/communication-graph/id/checking-understanding> <http://www.w3.org/2000/01/rdf-schema#label> "Checking understanding" .
+<https://github.com/john1hsu/communication-graph/id/checking-understanding> <http://www.w3.org/2004/02/skos/core#altLabel> "checking for understanding" .
+<https://github.com/john1hsu/communication-graph/id/checking-understanding> <http://www.w3.org/2004/02/skos/core#altLabel> "comprehension checking" .
+<https://github.com/john1hsu/communication-graph/id/checking-understanding> <http://www.w3.org/2004/02/skos/core#altLabel> "confirming understanding" .
+<https://github.com/john1hsu/communication-graph/id/checking-understanding> <http://www.w3.org/2004/02/skos/core#altLabel> "verifying understanding" .
+<https://github.com/john1hsu/communication-graph/id/checking-understanding> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/questioning> .
+<https://github.com/john1hsu/communication-graph/id/checking-understanding> <http://www.w3.org/2004/02/skos/core#definition> "The habit of testing, rather than assuming, that a message was understood as intended - in both directions - by asking for a read-back, a restatement or a next step, restating what you heard before acting on it, and closing the loop on anything that must be exact." .
+<https://github.com/john1hsu/communication-graph/id/checking-understanding> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/questioning-and-conversation> .
+<https://github.com/john1hsu/communication-graph/id/checking-understanding> <http://www.w3.org/2004/02/skos/core#prefLabel> "Checking understanding" .
+<https://github.com/john1hsu/communication-graph/id/checking-understanding> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/closed-loop-communication> .
+<https://github.com/john1hsu/communication-graph/id/checking-understanding> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/common-ground> .
+<https://github.com/john1hsu/communication-graph/id/checking-understanding> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communicating-across-languages> .
+<https://github.com/john1hsu/communication-graph/id/checking-understanding> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> .
+<https://github.com/john1hsu/communication-graph/id/checking-understanding> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/egocentric-bias> .
+<https://github.com/john1hsu/communication-graph/id/checking-understanding> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/hargestam-et-al-2013> .
+<https://github.com/john1hsu/communication-graph/id/checking-understanding> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> .
+<https://github.com/john1hsu/communication-graph/id/checking-understanding> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/keysar-henly-2002> .
+<https://github.com/john1hsu/communication-graph/id/checking-understanding> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/meeting-recaps> .
+<https://github.com/john1hsu/communication-graph/id/checking-understanding> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/open-ended-questions> .
+<https://github.com/john1hsu/communication-graph/id/checking-understanding> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/paraphrasing> .
+<https://github.com/john1hsu/communication-graph/id/checking-understanding> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/perspective-getting> .
+<https://github.com/john1hsu/communication-graph/id/checking-understanding> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/summarizing> .
+<https://github.com/john1hsu/communication-graph/id/checking-understanding> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/teach-back> .
+<https://github.com/john1hsu/communication-graph/id/checking-understanding> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/checking-understanding/s1> .
+<https://github.com/john1hsu/communication-graph/id/checking-understanding> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/checking-understanding/s2> .
+<https://github.com/john1hsu/communication-graph/id/checking-understanding> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/checking-understanding/s3> .
+<https://github.com/john1hsu/communication-graph/id/checking-understanding> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/checking-understanding/s4> .
+<https://github.com/john1hsu/communication-graph/id/checking-understanding> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/checking-understanding/s5> .
+<https://github.com/john1hsu/communication-graph/id/checking-understanding> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/checking-understanding/s6> .
+<https://github.com/john1hsu/communication-graph/id/checking-understanding> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> .
+<https://github.com/john1hsu/communication-graph/id/checking-understanding> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/email> .
+<https://github.com/john1hsu/communication-graph/id/checking-understanding> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/patient-education> .
+<https://github.com/john1hsu/communication-graph/id/checking-understanding> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/phone-call> .
+<https://github.com/john1hsu/communication-graph/id/checking-understanding> <https://github.com/john1hsu/communication-graph/ontology#domain> "questioning-and-conversation" .
+<https://github.com/john1hsu/communication-graph/id/checking-understanding> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/checking-understanding> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/questioning-and-conversation/checking-understanding.md" .
+<https://github.com/john1hsu/communication-graph/id/checking-understanding> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/checking-understanding> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/open-ended-questions> .
+<https://github.com/john1hsu/communication-graph/id/checking-understanding> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/el-shafy-et-al-2018> .
+<https://github.com/john1hsu/communication-graph/id/checking-understanding> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/lau-et-al-2022> .
 <https://github.com/john1hsu/communication-graph/id/chen-2002> <http://purl.org/dc/terms/created> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/chen-2002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
 <https://github.com/john1hsu/communication-graph/id/chen-2002> <http://www.w3.org/2000/01/rdf-schema#label> "Leveraging the Asymmetric Sensitivity of Eye Contact for Videoconferencing" .
@@ -11885,6 +11942,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/chat-etiquette/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/chat-etiquette/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
 <https://github.com/john1hsu/communication-graph/id/source/chat-etiquette/s5> <https://schema.org/url> <https://publications.aston.ac.uk/id/eprint/25623/1/New_communicative_situations_in_work_related_Instant_Messaging.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/checking-understanding/s1> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/checking-understanding/s1> <http://purl.org/dc/terms/publisher> "Agency for Healthcare Research and Quality (U.S. Department of Health and Human Services)" .
+<https://github.com/john1hsu/communication-graph/id/source/checking-understanding/s1> <http://purl.org/dc/terms/title> "Tool: Check-Back (or Repeat-Back) - TeamSTEPPS Communication Module" .
+<https://github.com/john1hsu/communication-graph/id/source/checking-understanding/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/checking-understanding/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/communication-graph/id/source/checking-understanding/s1> <https://schema.org/url> <https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/checkback.html> .
+<https://github.com/john1hsu/communication-graph/id/source/checking-understanding/s2> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/checking-understanding/s2> <http://purl.org/dc/terms/publisher> "University of Chicago Multilingualism and Decision-making Lab (author's copy and citation)" .
+<https://github.com/john1hsu/communication-graph/id/source/checking-understanding/s2> <http://purl.org/dc/terms/title> "The extreme illusion of understanding (Lau, Geipel, Wu & Keysar, Journal of Experimental Psychology: General, 2022)" .
+<https://github.com/john1hsu/communication-graph/id/source/checking-understanding/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/checking-understanding/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/checking-understanding/s2> <https://schema.org/url> <https://mdl.uchicago.edu/research/lau-2022-the-extreme-illusion-of-understanding> .
+<https://github.com/john1hsu/communication-graph/id/source/checking-understanding/s3> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/checking-understanding/s3> <http://purl.org/dc/terms/publisher> "The University of Chicago Chronicle" .
+<https://github.com/john1hsu/communication-graph/id/source/checking-understanding/s3> <http://purl.org/dc/terms/title> "Keysar research: speakers overestimate how well they are understood (on Keysar & Henly, Psychological Science, 2002)" .
+<https://github.com/john1hsu/communication-graph/id/source/checking-understanding/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/checking-understanding/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "news" .
+<https://github.com/john1hsu/communication-graph/id/source/checking-understanding/s3> <https://schema.org/url> <https://chronicle.uchicago.edu/020509/keysarresearch.shtml> .
+<https://github.com/john1hsu/communication-graph/id/source/checking-understanding/s4> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/checking-understanding/s4> <http://purl.org/dc/terms/publisher> "Health Literacy Research and Practice (indexed by DOAJ)" .
+<https://github.com/john1hsu/communication-graph/id/source/checking-understanding/s4> <http://purl.org/dc/terms/title> "\"What Questions Do You Have?\": Teaching Medical Students to Use an Open-Ended Phrase for Eliciting Patients' Questions (Coleman, Salcido-Torres & Cantone, Health Literacy Research and Practice, 2022)" .
+<https://github.com/john1hsu/communication-graph/id/source/checking-understanding/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/checking-understanding/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/checking-understanding/s4> <https://schema.org/url> <https://doaj.org/article/89003788234a4dac874091188c91a10e> .
+<https://github.com/john1hsu/communication-graph/id/source/checking-understanding/s5> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/checking-understanding/s5> <http://purl.org/dc/terms/publisher> "AHRQ Patient Safety Network (PSNet)" .
+<https://github.com/john1hsu/communication-graph/id/source/checking-understanding/s5> <http://purl.org/dc/terms/title> "Communication in interdisciplinary teams: exploring closed-loop communication during in situ trauma team training (Härgestam et al., BMJ Open, 2013)" .
+<https://github.com/john1hsu/communication-graph/id/source/checking-understanding/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/checking-understanding/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/communication-graph/id/source/checking-understanding/s5> <https://schema.org/url> <https://psnet.ahrq.gov/issue/communication-interdisciplinary-teams-exploring-closed-loop-communication-during-situ-trauma> .
+<https://github.com/john1hsu/communication-graph/id/source/checking-understanding/s6> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/checking-understanding/s6> <http://purl.org/dc/terms/publisher> "CRICO / Risk Management Foundation of the Harvard Medical Institutions" .
+<https://github.com/john1hsu/communication-graph/id/source/checking-understanding/s6> <http://purl.org/dc/terms/title> "Closed Loop Communication Improves Task Completion in Pediatric Trauma Resuscitation (El-Shafy et al., Journal of Surgical Education)" .
+<https://github.com/john1hsu/communication-graph/id/source/checking-understanding/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/checking-understanding/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/communication-graph/id/source/checking-understanding/s6> <https://schema.org/url> <https://rmf.harvard.edu/about-crico/media/in-the-news/news/2017/august/closed-loop-communication-improves-task-completion-in-pediatric-trauma-resuscitation> .
 <https://github.com/john1hsu/communication-graph/id/source/chen-2002/s1> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/chen-2002/s1> <http://purl.org/dc/terms/publisher> "Milton Chen, Proceedings of CHI 2002 (ACM), Minneapolis, April 2002 (author's copy, Stanford Computer Graphics Laboratory)" .
 <https://github.com/john1hsu/communication-graph/id/source/chen-2002/s1> <http://purl.org/dc/terms/title> "Leveraging the Asymmetric Sensitivity of Eye Contact for Videoconferencing" .
