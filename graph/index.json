@@ -19214,6 +19214,138 @@
   ]
  },
  {
+  "id": "cm:rhetorical-appeals",
+  "title": "Rhetorical appeals",
+  "aliases": [
+   "ethos pathos logos",
+   "modes of persuasion",
+   "Aristotle's three proofs",
+   "artistic proofs",
+   "pisteis"
+  ],
+  "type": "Framework",
+  "domain": "persuasion-and-influence",
+  "level": "introductory",
+  "evidenceStatus": "practitioner",
+  "file": "articles/persuasion-and-influence/rhetorical-appeals.md",
+  "created": "2026-11-13",
+  "summary": "Aristotle's division of the persuasive means a speaker controls into three kinds: character shown in the message (ethos), the emotional state it produces in listeners (pathos) and the argument itself (logos). Used as a planning and review checklist, it helps a workplace message earn trust, show why the issue matters and prove its claim, rather than leaning on only one of the three.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:persuasion"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "cm:rhetoric"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:aristotles-rhetoric"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:credibility"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:audience-analysis"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:elaboration-likelihood-model"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:narrative-persuasion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:monroes-motivated-sequence"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:refutational-two-sided-messages"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:issue-selling"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:rhetorical-situation"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:audience-analysis"
+   },
+   {
+    "predicate": "cmo:introducedIn",
+    "object": "cm:aristotles-rhetoric",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:credibility",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:elaboration-likelihood-model",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:tannenbaum-et-al-2015",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:narrative-persuasion",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:presentation",
+    "source": "s1",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Does my audience know why I am a credible person to make this case?",
+   "Is each main claim backed by a specific figure, test or precedent rather than an assertion?",
+   "Have I shown who is affected in a way the audience will actually feel, without overstating the stakes?",
+   "Would I be comfortable if the audience later checked every emotional claim I made?"
+  ],
+  "steps": [
+   "Write the one claim or request you want the audience to accept, and name the decision-maker who must accept it.",
+   "Ethos: state in one line why you are a credible person to raise this - relevant experience, what you checked, and what you stand to gain or lose.",
+   "Logos: give the strongest two or three reasons, each backed by a specific figure, test or precedent, and answer the most likely objection.",
+   "Pathos: show concretely who is affected and how, using one real case alongside the numbers, without exaggerating the stakes.",
+   "Kairos: tie the request to why now - a deadline, a budget cycle or a recent incident the audience already cares about.",
+   "Reread the draft and mark each sentence E, P or L; strengthen whichever appeal is thin and cut any emotional line the facts do not support."
+  ],
+  "example": {
+   "situation": "An engineering lead asks the leadership team to fund two sprints of automated regression testing.",
+   "before": "Our test coverage is 41% and industry benchmarks suggest 70-80%. Automated regression testing would raise coverage and reduce defects. I request two sprints to build it.",
+   "after": "I ran the last three releases and wrote the postmortems, so I have seen where our defects come from. 41% of our code is covered by tests; the March outage cost a day of support time and a refund to our largest client, and the bug sat in uncovered code. Two sprints of regression testing would cover the billing and login paths behind 8 of our last 10 incidents. Approving it now lets us finish before the Q1 renewal season.",
+   "why": "The original is pure logos with no reason to trust the speaker or care now; the rewrite adds earned credibility, a concrete cost the audience felt, and timing, while keeping every claim factual."
+  },
+  "source_urls": [
+   "https://plato.stanford.edu/ENTRIES/aristotle-rhetoric/",
+   "https://owl.purdue.edu/owl/general_writing/academic_writing/rhetorical_situation/aristotles_rhetorical_situation.html",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC3101500",
+   "https://www.asc.upenn.edu/sites/default/files/2021-07/e3eff4_f9429b1d5e644365afa9ba68ba35298c.pdf",
+   "https://www.uky.edu/~ngrant/CJT780/readings/Day%203/AllenETAL2000.pdf",
+   "https://www.apa.org/news/press/releases/2015/10/fear-based-appeals"
+  ]
+ },
+ {
   "id": "cm:risk-numbers-as-natural-frequencies",
   "title": "Risk numbers as natural frequencies",
   "aliases": [

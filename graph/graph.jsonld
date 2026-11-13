@@ -17000,6 +17000,117 @@
    ]
   },
   {
+   "@id": "cm:rhetorical-appeals",
+   "@type": "cmo:Framework",
+   "cmo:appliedIn": {
+    "@id": "cm:presentation"
+   },
+   "cmo:complements": [
+    {
+     "@id": "cm:credibility"
+    },
+    {
+     "@id": "cm:narrative-persuasion"
+    }
+   ],
+   "cmo:domain": "persuasion-and-influence",
+   "cmo:evidenceStatus": "practitioner",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/example"
+   },
+   "cmo:explainedBy": {
+    "@id": "cm:elaboration-likelihood-model"
+   },
+   "cmo:file": "articles/persuasion-and-influence/rhetorical-appeals.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/howto"
+   },
+   "cmo:introducedIn": {
+    "@id": "cm:aristotles-rhetoric"
+   },
+   "cmo:level": "introductory",
+   "cmo:requires": {
+    "@id": "cm:audience-analysis"
+   },
+   "cmo:supportedBy": {
+    "@id": "cm:tannenbaum-et-al-2015"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/rhetorical-appeals/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/rhetorical-appeals/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/rhetorical-appeals/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/rhetorical-appeals/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/rhetorical-appeals/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/rhetorical-appeals/s6"
+    }
+   ],
+   "rdfs:label": "Rhetorical appeals",
+   "skos:altLabel": [
+    "Aristotle's three proofs",
+    "artistic proofs",
+    "ethos pathos logos",
+    "modes of persuasion",
+    "pisteis"
+   ],
+   "skos:broader": [
+    {
+     "@id": "cm:persuasion"
+    },
+    {
+     "@id": "cm:rhetoric"
+    }
+   ],
+   "skos:definition": "Aristotle's division of the persuasive means a speaker controls into three kinds: character shown in the message (ethos), the emotional state it produces in listeners (pathos) and the argument itself (logos). Used as a planning and review checklist, it helps a workplace message earn trust, show why the issue matters and prove its claim, rather than leaning on only one of the three.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/persuasion-and-influence"
+   },
+   "skos:prefLabel": "Rhetorical appeals",
+   "skos:related": [
+    {
+     "@id": "cm:aristotles-rhetoric"
+    },
+    {
+     "@id": "cm:audience-analysis"
+    },
+    {
+     "@id": "cm:credibility"
+    },
+    {
+     "@id": "cm:elaboration-likelihood-model"
+    },
+    {
+     "@id": "cm:issue-selling"
+    },
+    {
+     "@id": "cm:monroes-motivated-sequence"
+    },
+    {
+     "@id": "cm:narrative-persuasion"
+    },
+    {
+     "@id": "cm:refutational-two-sided-messages"
+    },
+    {
+     "@id": "cm:rhetorical-situation"
+    }
+   ]
+  },
+  {
    "@id": "cm:risk-numbers-as-natural-frequencies",
    "@type": "cmo:Technique",
    "cmo:addresses": {
@@ -28789,6 +28900,107 @@
    "@type": "schema:HowToStep",
    "schema:position": 6,
    "schema:text": "Afterwards, note which objections actually came up and add any you missed to your list for next time."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:rhetorical-appeals"
+   },
+   "rdfs:label": "Does my audience know why I am a credible person to make this case?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:rhetorical-appeals"
+   },
+   "rdfs:label": "Is each main claim backed by a specific figure, test or precedent rather than an assertion?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:rhetorical-appeals"
+   },
+   "rdfs:label": "Have I shown who is affected in a way the audience will actually feel, without overstating the stakes?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:rhetorical-appeals"
+   },
+   "rdfs:label": "Would I be comfortable if the audience later checked every emotional claim I made?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "I ran the last three releases and wrote the postmortems, so I have seen where our defects come from. 41% of our code is covered by tests; the March outage cost a day of support time and a refund to our largest client, and the bug sat in uncovered code. Two sprints of regression testing would cover the billing and login paths behind 8 of our last 10 incidents. Approving it now lets us finish before the Q1 renewal season.",
+   "cmo:before": "Our test coverage is 41% and industry benchmarks suggest 70-80%. Automated regression testing would raise coverage and reduce defects. I request two sprints to build it.",
+   "cmo:situation": "An engineering lead asks the leadership team to fund two sprints of automated regression testing.",
+   "cmo:why": "The original is pure logos with no reason to trust the speaker or care now; the rewrite adds earned credibility, a concrete cost the audience felt, and timing, while keeping every claim factual."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Rhetorical appeals",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/howto/6"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Write the one claim or request you want the audience to accept, and name the decision-maker who must accept it."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Ethos: state in one line why you are a credible person to raise this - relevant experience, what you checked, and what you stand to gain or lose."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Logos: give the strongest two or three reasons, each backed by a specific figure, test or precedent, and answer the most likely objection."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Pathos: show concretely who is affected and how, using one real case alongside the numbers, without exaggerating the stakes."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Kairos: tie the request to why now - a deadline, a budget cycle or a recent incident the audience already cares about."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "Reread the draft and mark each sentence E, P or L; strengthen whichever appeal is thin and cut any emotional line the facts do not support."
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies/check/1",
@@ -44757,6 +44969,90 @@
    "dcterms:title": "Elements of Rhetorical Situations",
    "schema:url": {
     "@id": "https://owl.purdue.edu/owl/general_writing/academic_writing/rhetorical_situation/elements_of_rhetorical_situations.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/rhetorical-appeals/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Christof Rapp, Stanford Encyclopedia of Philosophy (substantive revision 15 March 2022)",
+   "dcterms:title": "Aristotle's Rhetoric",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/ENTRIES/aristotle-rhetoric/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/rhetorical-appeals/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Purdue Online Writing Lab (Purdue University)",
+   "dcterms:title": "Aristotle's Rhetorical Situation",
+   "schema:url": {
+    "@id": "https://owl.purdue.edu/owl/general_writing/academic_writing/rhetorical_situation/aristotles_rhetorical_situation.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/rhetorical-appeals/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Kumkale, G. T., Albarracín, D. & Seignourel, P. J., Journal of Applied Social Psychology 40(6), 1325-1356, 2010, doi:10.1111/j.1559-1816.2010.00620.x (PMC author manuscript)",
+   "dcterms:title": "The Effects of Source Credibility in the Presence or Absence of Prior Attitudes: Implications for the Design of Persuasive Communication Campaigns",
+   "schema:url": {
+    "@id": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3101500"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/rhetorical-appeals/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Tannenbaum, M. B., Hepler, J., Zimmerman, R. S., Saul, L., Jacobs, S., Wilson, K. & Albarracín, D., Psychological Bulletin 141(6), 1178-1204, 2015, doi:10.1037/a0039729 (author copy, Annenberg School for Communication)",
+   "dcterms:title": "Appealing to Fear: A Meta-Analysis of Fear Appeal Effectiveness and Theories",
+   "schema:url": {
+    "@id": "https://www.asc.upenn.edu/sites/default/files/2021-07/e3eff4_f9429b1d5e644365afa9ba68ba35298c.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/rhetorical-appeals/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Allen, M., Bruflat, R., Fucilla, R., Kramer, M., McKellips, S., Ryan, D. J. & Spiegelhoff, M., Communication Research Reports 17(4), 331-336, 2000 (University of Kentucky course copy)",
+   "dcterms:title": "Testing the Persuasiveness of Evidence: Combining Narrative and Statistical Forms",
+   "schema:url": {
+    "@id": "https://www.uky.edu/~ngrant/CJT780/readings/Day%203/AllenETAL2000.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/rhetorical-appeals/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "American Psychological Association press release, 22 October 2015",
+   "dcterms:title": "Fear-based appeals effective at changing attitudes, behaviors after all",
+   "schema:url": {
+    "@id": "https://www.apa.org/news/press/releases/2015/10/fear-based-appeals"
    }
   },
   {

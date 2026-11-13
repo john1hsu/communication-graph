@@ -1754,6 +1754,29 @@ Ask yourself:
 - Would the people who hold this objection agree that I stated it fairly?
 - Is there a point I cannot rebut, and have I said so honestly instead of hiding it?
 
+### [Rhetorical appeals](../articles/persuasion-and-influence/rhetorical-appeals.md) — Framework
+
+1. Write the one claim or request you want the audience to accept, and name the decision-maker who must accept it.
+2. Ethos: state in one line why you are a credible person to raise this - relevant experience, what you checked, and what you stand to gain or lose.
+3. Logos: give the strongest two or three reasons, each backed by a specific figure, test or precedent, and answer the most likely objection.
+4. Pathos: show concretely who is affected and how, using one real case alongside the numbers, without exaggerating the stakes.
+5. Kairos: tie the request to why now - a deadline, a budget cycle or a recent incident the audience already cares about.
+6. Reread the draft and mark each sentence E, P or L; strengthen whichever appeal is thin and cut any emotional line the facts do not support.
+
+*An engineering lead asks the leadership team to fund two sprints of automated regression testing.*
+
+| Before | After |
+|---|---|
+| Our test coverage is 41% and industry benchmarks suggest 70-80%. Automated regression testing would raise coverage and reduce defects. I request two sprints to build it. | I ran the last three releases and wrote the postmortems, so I have seen where our defects come from. 41% of our code is covered by tests; the March outage cost a day of support time and a refund to our largest client, and the bug sat in uncovered code. Two sprints of regression testing would cover the billing and login paths behind 8 of our last 10 incidents. Approving it now lets us finish before the Q1 renewal season. |
+
+**Why:** The original is pure logos with no reason to trust the speaker or care now; the rewrite adds earned credibility, a concrete cost the audience felt, and timing, while keeping every claim factual.
+
+Ask yourself:
+- Does my audience know why I am a credible person to make this case?
+- Is each main claim backed by a specific figure, test or precedent rather than an assertion?
+- Have I shown who is affected in a way the audience will actually feel, without overstating the stakes?
+- Would I be comfortable if the audience later checked every emotional claim I made?
+
 ### [Selling issues to leadership](../articles/persuasion-and-influence/issue-selling.md) — Technique
 
 1. Write the issue in one sentence and link it to a goal, metric or priority your leaders already own, framed as an opportunity where honestly possible.

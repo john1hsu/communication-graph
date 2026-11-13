@@ -96,7 +96,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:email` | `cm:email-urgency-bias-study` |
 | `cm:email` | `cm:emoji-and-tone-in-text` |
 
-…and 109 more.
+…and 110 more.
 
 ## Myths and contested advice
 

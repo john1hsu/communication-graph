@@ -9619,6 +9619,90 @@
 <https://github.com/john1hsu/communication-graph/id/rhetoric> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/kenneth-burke> .
 <https://github.com/john1hsu/communication-graph/id/rhetoric> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/quintilian> .
 <https://github.com/john1hsu/communication-graph/id/rhetoric> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Does my audience know why I am a credible person to make this case?" .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/rhetorical-appeals> .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Is each main claim backed by a specific figure, test or precedent rather than an assertion?" .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/rhetorical-appeals> .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Have I shown who is affected in a way the audience will actually feel, without overstating the stakes?" .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/rhetorical-appeals> .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Would I be comfortable if the audience later checked every emotional claim I made?" .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/rhetorical-appeals> .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/example> <https://github.com/john1hsu/communication-graph/ontology#after> "I ran the last three releases and wrote the postmortems, so I have seen where our defects come from. 41% of our code is covered by tests; the March outage cost a day of support time and a refund to our largest client, and the bug sat in uncovered code. Two sprints of regression testing would cover the billing and login paths behind 8 of our last 10 incidents. Approving it now lets us finish before the Q1 renewal season." .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/example> <https://github.com/john1hsu/communication-graph/ontology#before> "Our test coverage is 41% and industry benchmarks suggest 70-80%. Automated regression testing would raise coverage and reduce defects. I request two sprints to build it." .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "An engineering lead asks the leadership team to fund two sprints of automated regression testing." .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/example> <https://github.com/john1hsu/communication-graph/ontology#why> "The original is pure logos with no reason to trust the speaker or care now; the rewrite adds earned credibility, a concrete cost the audience felt, and timing, while keeping every claim factual." .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/howto/1> <https://schema.org/text> "Write the one claim or request you want the audience to accept, and name the decision-maker who must accept it." .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/howto/2> <https://schema.org/text> "Ethos: state in one line why you are a credible person to raise this - relevant experience, what you checked, and what you stand to gain or lose." .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/howto/3> <https://schema.org/text> "Logos: give the strongest two or three reasons, each backed by a specific figure, test or precedent, and answer the most likely objection." .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/howto/4> <https://schema.org/text> "Pathos: show concretely who is affected and how, using one real case alongside the numbers, without exaggerating the stakes." .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/howto/5> <https://schema.org/text> "Kairos: tie the request to why now - a deadline, a budget cycle or a recent incident the audience already cares about." .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/howto/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/howto/6> <https://schema.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/howto/6> <https://schema.org/text> "Reread the draft and mark each sentence E, P or L; strengthen whichever appeal is thin and cut any emotional line the facts do not support." .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/howto> <https://schema.org/name> "Rhetorical appeals" .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/howto/1> .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/howto/2> .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/howto/3> .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/howto/4> .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/howto/5> .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/howto/6> .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals> <http://purl.org/dc/terms/created> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Framework> .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals> <http://www.w3.org/2000/01/rdf-schema#label> "Rhetorical appeals" .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals> <http://www.w3.org/2004/02/skos/core#altLabel> "Aristotle's three proofs" .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals> <http://www.w3.org/2004/02/skos/core#altLabel> "artistic proofs" .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals> <http://www.w3.org/2004/02/skos/core#altLabel> "ethos pathos logos" .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals> <http://www.w3.org/2004/02/skos/core#altLabel> "modes of persuasion" .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals> <http://www.w3.org/2004/02/skos/core#altLabel> "pisteis" .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/persuasion> .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/rhetoric> .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals> <http://www.w3.org/2004/02/skos/core#definition> "Aristotle's division of the persuasive means a speaker controls into three kinds: character shown in the message (ethos), the emotional state it produces in listeners (pathos) and the argument itself (logos). Used as a planning and review checklist, it helps a workplace message earn trust, show why the issue matters and prove its claim, rather than leaning on only one of the three." .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/persuasion-and-influence> .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rhetorical appeals" .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/credibility> .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/issue-selling> .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/monroes-motivated-sequence> .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/narrative-persuasion> .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/refutational-two-sided-messages> .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/rhetorical-situation> .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/rhetorical-appeals/s1> .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/rhetorical-appeals/s2> .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/rhetorical-appeals/s3> .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/rhetorical-appeals/s4> .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/rhetorical-appeals/s5> .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/rhetorical-appeals/s6> .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/presentation> .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/credibility> .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/narrative-persuasion> .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals> <https://github.com/john1hsu/communication-graph/ontology#domain> "persuasion-and-influence" .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "practitioner" .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/example> .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/persuasion-and-influence/rhetorical-appeals.md" .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/howto> .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals> <https://github.com/john1hsu/communication-graph/ontology#introducedIn> <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
+<https://github.com/john1hsu/communication-graph/id/rhetorical-appeals> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/tannenbaum-et-al-2015> .
 <https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Have I stated the reference group (\"out of every 1,000 ...\") before giving any count?" .
 <https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies> .
@@ -17057,6 +17141,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/rhetoric/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/rhetoric/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
 <https://github.com/john1hsu/communication-graph/id/source/rhetoric/s6> <https://schema.org/url> <https://owl.purdue.edu/owl/general_writing/academic_writing/rhetorical_situation/elements_of_rhetorical_situations.html> .
+<https://github.com/john1hsu/communication-graph/id/source/rhetorical-appeals/s1> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/rhetorical-appeals/s1> <http://purl.org/dc/terms/publisher> "Christof Rapp, Stanford Encyclopedia of Philosophy (substantive revision 15 March 2022)" .
+<https://github.com/john1hsu/communication-graph/id/source/rhetorical-appeals/s1> <http://purl.org/dc/terms/title> "Aristotle's Rhetoric" .
+<https://github.com/john1hsu/communication-graph/id/source/rhetorical-appeals/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/rhetorical-appeals/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/communication-graph/id/source/rhetorical-appeals/s1> <https://schema.org/url> <https://plato.stanford.edu/ENTRIES/aristotle-rhetoric/> .
+<https://github.com/john1hsu/communication-graph/id/source/rhetorical-appeals/s2> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/rhetorical-appeals/s2> <http://purl.org/dc/terms/publisher> "Purdue Online Writing Lab (Purdue University)" .
+<https://github.com/john1hsu/communication-graph/id/source/rhetorical-appeals/s2> <http://purl.org/dc/terms/title> "Aristotle's Rhetorical Situation" .
+<https://github.com/john1hsu/communication-graph/id/source/rhetorical-appeals/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/rhetorical-appeals/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/rhetorical-appeals/s2> <https://schema.org/url> <https://owl.purdue.edu/owl/general_writing/academic_writing/rhetorical_situation/aristotles_rhetorical_situation.html> .
+<https://github.com/john1hsu/communication-graph/id/source/rhetorical-appeals/s3> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/rhetorical-appeals/s3> <http://purl.org/dc/terms/publisher> "Kumkale, G. T., Albarracín, D. & Seignourel, P. J., Journal of Applied Social Psychology 40(6), 1325-1356, 2010, doi:10.1111/j.1559-1816.2010.00620.x (PMC author manuscript)" .
+<https://github.com/john1hsu/communication-graph/id/source/rhetorical-appeals/s3> <http://purl.org/dc/terms/title> "The Effects of Source Credibility in the Presence or Absence of Prior Attitudes: Implications for the Design of Persuasive Communication Campaigns" .
+<https://github.com/john1hsu/communication-graph/id/source/rhetorical-appeals/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/rhetorical-appeals/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/rhetorical-appeals/s3> <https://schema.org/url> <https://pmc.ncbi.nlm.nih.gov/articles/PMC3101500> .
+<https://github.com/john1hsu/communication-graph/id/source/rhetorical-appeals/s4> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/rhetorical-appeals/s4> <http://purl.org/dc/terms/publisher> "Tannenbaum, M. B., Hepler, J., Zimmerman, R. S., Saul, L., Jacobs, S., Wilson, K. & Albarracín, D., Psychological Bulletin 141(6), 1178-1204, 2015, doi:10.1037/a0039729 (author copy, Annenberg School for Communication)" .
+<https://github.com/john1hsu/communication-graph/id/source/rhetorical-appeals/s4> <http://purl.org/dc/terms/title> "Appealing to Fear: A Meta-Analysis of Fear Appeal Effectiveness and Theories" .
+<https://github.com/john1hsu/communication-graph/id/source/rhetorical-appeals/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/rhetorical-appeals/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/rhetorical-appeals/s4> <https://schema.org/url> <https://www.asc.upenn.edu/sites/default/files/2021-07/e3eff4_f9429b1d5e644365afa9ba68ba35298c.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/rhetorical-appeals/s5> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/rhetorical-appeals/s5> <http://purl.org/dc/terms/publisher> "Allen, M., Bruflat, R., Fucilla, R., Kramer, M., McKellips, S., Ryan, D. J. & Spiegelhoff, M., Communication Research Reports 17(4), 331-336, 2000 (University of Kentucky course copy)" .
+<https://github.com/john1hsu/communication-graph/id/source/rhetorical-appeals/s5> <http://purl.org/dc/terms/title> "Testing the Persuasiveness of Evidence: Combining Narrative and Statistical Forms" .
+<https://github.com/john1hsu/communication-graph/id/source/rhetorical-appeals/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/rhetorical-appeals/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/rhetorical-appeals/s5> <https://schema.org/url> <https://www.uky.edu/~ngrant/CJT780/readings/Day%203/AllenETAL2000.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/rhetorical-appeals/s6> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/rhetorical-appeals/s6> <http://purl.org/dc/terms/publisher> "American Psychological Association press release, 22 October 2015" .
+<https://github.com/john1hsu/communication-graph/id/source/rhetorical-appeals/s6> <http://purl.org/dc/terms/title> "Fear-based appeals effective at changing attitudes, behaviors after all" .
+<https://github.com/john1hsu/communication-graph/id/source/rhetorical-appeals/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/rhetorical-appeals/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/communication-graph/id/source/rhetorical-appeals/s6> <https://schema.org/url> <https://www.apa.org/news/press/releases/2015/10/fear-based-appeals> .
 <https://github.com/john1hsu/communication-graph/id/source/risk-numbers-as-natural-frequencies/s1> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/risk-numbers-as-natural-frequencies/s1> <http://purl.org/dc/terms/publisher> "Gigerenzer & Hoffrage, Psychological Review 102(4): 684-704 (1995) (course copy, UC San Diego)" .
 <https://github.com/john1hsu/communication-graph/id/source/risk-numbers-as-natural-frequencies/s1> <http://purl.org/dc/terms/title> "How to improve Bayesian reasoning without instruction: Frequency formats" .
