@@ -16802,6 +16802,124 @@
   ]
  },
  {
+  "id": "cm:phone-call",
+  "title": "Phone call",
+  "aliases": [
+   "telephone call",
+   "voice call",
+   "phone conversation",
+   "audio-only call"
+  ],
+  "type": "Channel",
+  "domain": "digital-and-async-communication",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/digital-and-async-communication/phone-call.md",
+  "created": "2026-11-13",
+  "summary": "A live, voice-only conversation by telephone or an audio-only internet call. It carries tone, pacing and pauses that text strips out, so it builds connection and conveys feeling well, but with no visual channel it gathers less detail and hides misunderstandings unless the caller structures the call, speaks clearly and checks understanding out loud.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:synchronous-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:video-call-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:face-to-face-conversation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:email"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:channel-selection"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:paralanguage"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:checking-understanding"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:closed-loop-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:plain-language"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:media-richness-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:nicholas-epley"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:silence-and-pauses"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:interrupting"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:kumar-epley-2020",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:schroeder-kardas-epley-2017",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:kraus-2017",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:alternativeTo",
+    "object": "cm:email",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:alternativeTo",
+    "object": "cm:instant-messaging",
+    "source": "s1",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Am I about to send a long email or chat thread only because I expect the call to feel awkward?",
+   "Does this conversation need diagrams, numbers or a careful record, so that it should be written or followed by a written summary?",
+   "Did I open the call by saying why I am calling and how long it will take?",
+   "Did I ask the other person to repeat back any number, date or decision we agreed?",
+   "When they went quiet, did I wait and ask rather than assume they agreed?"
+  ],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://news.mccombs.utexas.edu/research/when-we-fear-an-awkward-phone-call-we-often-turn-to-text/",
+   "https://www.psychologicalscience.org/news/releases/hearing-an-opinion-spoken-aloud-humanizes-the-person-behind-it.html",
+   "https://www.apa.org/pubs/journals/releases/amp-amp0000147.pdf",
+   "https://pubmed.ncbi.nlm.nih.gov/29999357/",
+   "https://abdn.elsevierpure.com/en/publications/the-quality-safety-and-content-of-telephone-and-face-to-face-cons/",
+   "https://dhhs.tas.gov.au/node/3131"
+  ]
+ },
+ {
   "id": "cm:plain-language",
   "title": "Plain language",
   "aliases": [

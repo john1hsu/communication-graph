@@ -135,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:apology` | mixed |  |
 | `cm:assertion-evidence-slides` | mixed | `cm:alzayed-alzamel-2023` |
 
-…and 141 more.
+…and 142 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -172,9 +172,9 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:performance-review` | cmo:Context |
 | `cm:perspective-taking` | cmo:Skill |
 | `cm:persuasion` | cmo:Skill |
-| `cm:plain-language` | cmo:Principle |
+| `cm:phone-call` | cmo:Channel |
 
-…and 34 more.
+…and 35 more.
 
 ## Orphan articles (gap)
 

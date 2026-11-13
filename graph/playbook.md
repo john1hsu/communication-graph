@@ -525,6 +525,15 @@ Ask yourself:
 - Is this a first contact, an external or formal message, or bad news - where an emoji is likely to cost more than it adds?
 - Would the emoji I chose look and mean the same thing on the recipient's device?
 
+### [Phone call](../articles/digital-and-async-communication/phone-call.md) — Channel
+
+Ask yourself:
+- Am I about to send a long email or chat thread only because I expect the call to feel awkward?
+- Does this conversation need diagrams, numbers or a careful record, so that it should be written or followed by a written summary?
+- Did I open the call by saying why I am calling and how long it will take?
+- Did I ask the other person to repeat back any number, date or decision we agreed?
+- When they went quiet, did I wait and ask rather than assume they agreed?
+
 ### [Scheduled inbox checks](../articles/digital-and-async-communication/scheduled-inbox-checks.md) — Technique
 
 1. Look at how often you check messages today and what your role genuinely needs; if you are on call or in a live-support role, agree an exception path before you change anything.

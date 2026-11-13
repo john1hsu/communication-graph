@@ -8509,6 +8509,59 @@
 <https://github.com/john1hsu/communication-graph/id/philip-crosby> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/thinkers-and-works/philip-crosby.md" .
 <https://github.com/john1hsu/communication-graph/id/philip-crosby> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/elevator-pitch> .
 <https://github.com/john1hsu/communication-graph/id/philip-crosby> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/phone-call/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/phone-call/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Am I about to send a long email or chat thread only because I expect the call to feel awkward?" .
+<https://github.com/john1hsu/communication-graph/id/phone-call/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/phone-call> .
+<https://github.com/john1hsu/communication-graph/id/phone-call/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/phone-call/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Does this conversation need diagrams, numbers or a careful record, so that it should be written or followed by a written summary?" .
+<https://github.com/john1hsu/communication-graph/id/phone-call/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/phone-call> .
+<https://github.com/john1hsu/communication-graph/id/phone-call/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/phone-call/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Did I open the call by saying why I am calling and how long it will take?" .
+<https://github.com/john1hsu/communication-graph/id/phone-call/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/phone-call> .
+<https://github.com/john1hsu/communication-graph/id/phone-call/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/phone-call/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Did I ask the other person to repeat back any number, date or decision we agreed?" .
+<https://github.com/john1hsu/communication-graph/id/phone-call/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/phone-call> .
+<https://github.com/john1hsu/communication-graph/id/phone-call/check/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/phone-call/check/5> <http://www.w3.org/2000/01/rdf-schema#label> "When they went quiet, did I wait and ask rather than assume they agreed?" .
+<https://github.com/john1hsu/communication-graph/id/phone-call/check/5> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/phone-call> .
+<https://github.com/john1hsu/communication-graph/id/phone-call> <http://purl.org/dc/terms/created> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/phone-call> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Channel> .
+<https://github.com/john1hsu/communication-graph/id/phone-call> <http://www.w3.org/2000/01/rdf-schema#label> "Phone call" .
+<https://github.com/john1hsu/communication-graph/id/phone-call> <http://www.w3.org/2004/02/skos/core#altLabel> "audio-only call" .
+<https://github.com/john1hsu/communication-graph/id/phone-call> <http://www.w3.org/2004/02/skos/core#altLabel> "phone conversation" .
+<https://github.com/john1hsu/communication-graph/id/phone-call> <http://www.w3.org/2004/02/skos/core#altLabel> "telephone call" .
+<https://github.com/john1hsu/communication-graph/id/phone-call> <http://www.w3.org/2004/02/skos/core#altLabel> "voice call" .
+<https://github.com/john1hsu/communication-graph/id/phone-call> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/synchronous-communication> .
+<https://github.com/john1hsu/communication-graph/id/phone-call> <http://www.w3.org/2004/02/skos/core#definition> "A live, voice-only conversation by telephone or an audio-only internet call. It carries tone, pacing and pauses that text strips out, so it builds connection and conveys feeling well, but with no visual channel it gathers less detail and hides misunderstandings unless the caller structures the call, speaks clearly and checks understanding out loud." .
+<https://github.com/john1hsu/communication-graph/id/phone-call> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/digital-and-async-communication> .
+<https://github.com/john1hsu/communication-graph/id/phone-call> <http://www.w3.org/2004/02/skos/core#prefLabel> "Phone call" .
+<https://github.com/john1hsu/communication-graph/id/phone-call> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/channel-selection> .
+<https://github.com/john1hsu/communication-graph/id/phone-call> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/checking-understanding> .
+<https://github.com/john1hsu/communication-graph/id/phone-call> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/closed-loop-communication> .
+<https://github.com/john1hsu/communication-graph/id/phone-call> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/email> .
+<https://github.com/john1hsu/communication-graph/id/phone-call> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/face-to-face-conversation> .
+<https://github.com/john1hsu/communication-graph/id/phone-call> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/interrupting> .
+<https://github.com/john1hsu/communication-graph/id/phone-call> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/media-richness-theory> .
+<https://github.com/john1hsu/communication-graph/id/phone-call> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/nicholas-epley> .
+<https://github.com/john1hsu/communication-graph/id/phone-call> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/paralanguage> .
+<https://github.com/john1hsu/communication-graph/id/phone-call> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/plain-language> .
+<https://github.com/john1hsu/communication-graph/id/phone-call> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/silence-and-pauses> .
+<https://github.com/john1hsu/communication-graph/id/phone-call> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/video-call-communication> .
+<https://github.com/john1hsu/communication-graph/id/phone-call> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/phone-call/s1> .
+<https://github.com/john1hsu/communication-graph/id/phone-call> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/phone-call/s2> .
+<https://github.com/john1hsu/communication-graph/id/phone-call> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/phone-call/s3> .
+<https://github.com/john1hsu/communication-graph/id/phone-call> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/phone-call/s4> .
+<https://github.com/john1hsu/communication-graph/id/phone-call> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/phone-call/s5> .
+<https://github.com/john1hsu/communication-graph/id/phone-call> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/phone-call/s6> .
+<https://github.com/john1hsu/communication-graph/id/phone-call> <https://github.com/john1hsu/communication-graph/ontology#alternativeTo> <https://github.com/john1hsu/communication-graph/id/email> .
+<https://github.com/john1hsu/communication-graph/id/phone-call> <https://github.com/john1hsu/communication-graph/ontology#alternativeTo> <https://github.com/john1hsu/communication-graph/id/instant-messaging> .
+<https://github.com/john1hsu/communication-graph/id/phone-call> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/kraus-2017> .
+<https://github.com/john1hsu/communication-graph/id/phone-call> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/kumar-epley-2020> .
+<https://github.com/john1hsu/communication-graph/id/phone-call> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/schroeder-kardas-epley-2017> .
+<https://github.com/john1hsu/communication-graph/id/phone-call> <https://github.com/john1hsu/communication-graph/ontology#domain> "digital-and-async-communication" .
+<https://github.com/john1hsu/communication-graph/id/phone-call> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/phone-call> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/digital-and-async-communication/phone-call.md" .
+<https://github.com/john1hsu/communication-graph/id/phone-call> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/plain-language/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/plain-language/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Who exactly is reading this, and what do they already know about the subject?" .
 <https://github.com/john1hsu/communication-graph/id/plain-language/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/plain-language> .
@@ -16604,6 +16657,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s8> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "community" .
 <https://github.com/john1hsu/communication-graph/id/source/philip-crosby/s8> <https://schema.org/url> <https://winterparklibraryarchives.org/exhibits/show/histbioref/phillip-b--crosby> .
+<https://github.com/john1hsu/communication-graph/id/source/phone-call/s1> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/phone-call/s1> <http://purl.org/dc/terms/publisher> "McCombs School of Business, University of Texas at Austin (on Kumar, A. & Epley, N., \"It's surprisingly nice to hear you\", Journal of Experimental Psychology - General)" .
+<https://github.com/john1hsu/communication-graph/id/source/phone-call/s1> <http://purl.org/dc/terms/title> "When We Fear an Awkward Phone Call, We Often Turn to Text" .
+<https://github.com/john1hsu/communication-graph/id/source/phone-call/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/phone-call/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/phone-call/s1> <https://schema.org/url> <https://news.mccombs.utexas.edu/research/when-we-fear-an-awkward-phone-call-we-often-turn-to-text/> .
+<https://github.com/john1hsu/communication-graph/id/source/phone-call/s2> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/phone-call/s2> <http://purl.org/dc/terms/publisher> "Association for Psychological Science (on Schroeder, J., Kardas, M. & Epley, N., Psychological Science, 2017)" .
+<https://github.com/john1hsu/communication-graph/id/source/phone-call/s2> <http://purl.org/dc/terms/title> "Hearing an Opinion Spoken Aloud Humanizes the Person Behind It" .
+<https://github.com/john1hsu/communication-graph/id/source/phone-call/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/phone-call/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/communication-graph/id/source/phone-call/s2> <https://schema.org/url> <https://www.psychologicalscience.org/news/releases/hearing-an-opinion-spoken-aloud-humanizes-the-person-behind-it.html> .
+<https://github.com/john1hsu/communication-graph/id/source/phone-call/s3> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/phone-call/s3> <http://purl.org/dc/terms/publisher> "Kraus, M. W., American Psychologist, 2017 (American Psychological Association author copy)" .
+<https://github.com/john1hsu/communication-graph/id/source/phone-call/s3> <http://purl.org/dc/terms/title> "Voice-Only Communication Enhances Empathic Accuracy" .
+<https://github.com/john1hsu/communication-graph/id/source/phone-call/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/phone-call/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/phone-call/s3> <https://schema.org/url> <https://www.apa.org/pubs/journals/releases/amp-amp0000147.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/phone-call/s4> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/phone-call/s4> <http://purl.org/dc/terms/publisher> "Kraus, M. W., American Psychologist 73(5), 691-692, 2018 (PubMed record)" .
+<https://github.com/john1hsu/communication-graph/id/source/phone-call/s4> <http://purl.org/dc/terms/title> "What is a meaningful improvement in emotion detection? Reply to Rossiter (2018)" .
+<https://github.com/john1hsu/communication-graph/id/source/phone-call/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/phone-call/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/phone-call/s4> <https://schema.org/url> <https://pubmed.ncbi.nlm.nih.gov/29999357/> .
+<https://github.com/john1hsu/communication-graph/id/source/phone-call/s5> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/phone-call/s5> <http://purl.org/dc/terms/publisher> "McKinstry, B. et al., Quality & Safety in Health Care 19(4), 298-303, 2010 (University of Aberdeen research portal)" .
+<https://github.com/john1hsu/communication-graph/id/source/phone-call/s5> <http://purl.org/dc/terms/title> "The quality, safety and content of telephone and face-to-face consultations: a comparative study" .
+<https://github.com/john1hsu/communication-graph/id/source/phone-call/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/phone-call/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/phone-call/s5> <https://schema.org/url> <https://abdn.elsevierpure.com/en/publications/the-quality-safety-and-content-of-telephone-and-face-to-face-cons/> .
+<https://github.com/john1hsu/communication-graph/id/source/phone-call/s6> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/phone-call/s6> <http://purl.org/dc/terms/publisher> "Department of Health and Human Services, Tasmania (Australia)" .
+<https://github.com/john1hsu/communication-graph/id/source/phone-call/s6> <http://purl.org/dc/terms/title> "Communicating by telephone" .
+<https://github.com/john1hsu/communication-graph/id/source/phone-call/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/phone-call/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/communication-graph/id/source/phone-call/s6> <https://schema.org/url> <https://dhhs.tas.gov.au/node/3131> .
 <https://github.com/john1hsu/communication-graph/id/source/plain-language/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/plain-language/s1> <http://purl.org/dc/terms/publisher> "Digital.gov Plain Language Guide Series (U.S. General Services Administration)" .
 <https://github.com/john1hsu/communication-graph/id/source/plain-language/s1> <http://purl.org/dc/terms/title> "Principles of plain language" .

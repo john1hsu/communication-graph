@@ -14834,6 +14834,110 @@
    ]
   },
   {
+   "@id": "cm:phone-call",
+   "@type": "cmo:Channel",
+   "cmo:alternativeTo": [
+    {
+     "@id": "cm:email"
+    },
+    {
+     "@id": "cm:instant-messaging"
+    }
+   ],
+   "cmo:demonstratedBy": [
+    {
+     "@id": "cm:kraus-2017"
+    },
+    {
+     "@id": "cm:kumar-epley-2020"
+    },
+    {
+     "@id": "cm:schroeder-kardas-epley-2017"
+    }
+   ],
+   "cmo:domain": "digital-and-async-communication",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:file": "articles/digital-and-async-communication/phone-call.md",
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/phone-call/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/phone-call/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/phone-call/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/phone-call/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/phone-call/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/phone-call/s6"
+    }
+   ],
+   "rdfs:label": "Phone call",
+   "skos:altLabel": [
+    "audio-only call",
+    "phone conversation",
+    "telephone call",
+    "voice call"
+   ],
+   "skos:broader": {
+    "@id": "cm:synchronous-communication"
+   },
+   "skos:definition": "A live, voice-only conversation by telephone or an audio-only internet call. It carries tone, pacing and pauses that text strips out, so it builds connection and conveys feeling well, but with no visual channel it gathers less detail and hides misunderstandings unless the caller structures the call, speaks clearly and checks understanding out loud.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/digital-and-async-communication"
+   },
+   "skos:prefLabel": "Phone call",
+   "skos:related": [
+    {
+     "@id": "cm:channel-selection"
+    },
+    {
+     "@id": "cm:checking-understanding"
+    },
+    {
+     "@id": "cm:closed-loop-communication"
+    },
+    {
+     "@id": "cm:email"
+    },
+    {
+     "@id": "cm:face-to-face-conversation"
+    },
+    {
+     "@id": "cm:interrupting"
+    },
+    {
+     "@id": "cm:media-richness-theory"
+    },
+    {
+     "@id": "cm:nicholas-epley"
+    },
+    {
+     "@id": "cm:paralanguage"
+    },
+    {
+     "@id": "cm:plain-language"
+    },
+    {
+     "@id": "cm:silence-and-pauses"
+    },
+    {
+     "@id": "cm:video-call-communication"
+    }
+   ]
+  },
+  {
    "@id": "cm:plain-language",
    "@type": "cmo:Principle",
    "cmo:addresses": [
@@ -28672,6 +28776,46 @@
     "@id": "cm:persuasion"
    },
    "rdfs:label": "Would I be comfortable if they saw exactly how I prepared this pitch?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/phone-call/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:phone-call"
+   },
+   "rdfs:label": "Am I about to send a long email or chat thread only because I expect the call to feel awkward?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/phone-call/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:phone-call"
+   },
+   "rdfs:label": "Does this conversation need diagrams, numbers or a careful record, so that it should be written or followed by a written summary?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/phone-call/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:phone-call"
+   },
+   "rdfs:label": "Did I open the call by saying why I am calling and how long it will take?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/phone-call/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:phone-call"
+   },
+   "rdfs:label": "Did I ask the other person to repeat back any number, date or decision we agreed?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/phone-call/check/5",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:phone-call"
+   },
+   "rdfs:label": "When they went quiet, did I wait and ask rather than assume they agreed?"
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/plain-language/check/1",
@@ -43850,6 +43994,90 @@
    "dcterms:title": "Phillip B. Crosby",
    "schema:url": {
     "@id": "https://winterparklibraryarchives.org/exhibits/show/histbioref/phillip-b--crosby"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/phone-call/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "McCombs School of Business, University of Texas at Austin (on Kumar, A. & Epley, N., \"It's surprisingly nice to hear you\", Journal of Experimental Psychology - General)",
+   "dcterms:title": "When We Fear an Awkward Phone Call, We Often Turn to Text",
+   "schema:url": {
+    "@id": "https://news.mccombs.utexas.edu/research/when-we-fear-an-awkward-phone-call-we-often-turn-to-text/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/phone-call/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Association for Psychological Science (on Schroeder, J., Kardas, M. & Epley, N., Psychological Science, 2017)",
+   "dcterms:title": "Hearing an Opinion Spoken Aloud Humanizes the Person Behind It",
+   "schema:url": {
+    "@id": "https://www.psychologicalscience.org/news/releases/hearing-an-opinion-spoken-aloud-humanizes-the-person-behind-it.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/phone-call/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Kraus, M. W., American Psychologist, 2017 (American Psychological Association author copy)",
+   "dcterms:title": "Voice-Only Communication Enhances Empathic Accuracy",
+   "schema:url": {
+    "@id": "https://www.apa.org/pubs/journals/releases/amp-amp0000147.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/phone-call/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Kraus, M. W., American Psychologist 73(5), 691-692, 2018 (PubMed record)",
+   "dcterms:title": "What is a meaningful improvement in emotion detection? Reply to Rossiter (2018)",
+   "schema:url": {
+    "@id": "https://pubmed.ncbi.nlm.nih.gov/29999357/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/phone-call/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "McKinstry, B. et al., Quality & Safety in Health Care 19(4), 298-303, 2010 (University of Aberdeen research portal)",
+   "dcterms:title": "The quality, safety and content of telephone and face-to-face consultations: a comparative study",
+   "schema:url": {
+    "@id": "https://abdn.elsevierpure.com/en/publications/the-quality-safety-and-content-of-telephone-and-face-to-face-cons/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/phone-call/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Department of Health and Human Services, Tasmania (Australia)",
+   "dcterms:title": "Communicating by telephone",
+   "schema:url": {
+    "@id": "https://dhhs.tas.gov.au/node/3131"
    }
   },
   {
