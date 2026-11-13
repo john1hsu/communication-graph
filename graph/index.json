@@ -22734,6 +22734,82 @@
   ]
  },
  {
+  "id": "cm:tsedal-neeley",
+  "title": "Tsedal Neeley",
+  "aliases": [
+   "Tsedal B. Neeley"
+  ],
+  "type": "Person",
+  "domain": "thinkers-and-works",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/thinkers-and-works/tsedal-neeley.md",
+  "created": "2026-11-13",
+  "summary": "Harvard Business School organizational-behaviour scholar whose field studies of English-only mandates at a French high-tech firm and at Rakuten showed how a shared working language redistributes status and trust, and who turned that work into practical advice on corporate language strategy, communicating across languages and leading remote teams.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "cm:communicating-across-languages"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:multicultural-team"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:language-barriers"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:hinds-neeley-cramton-2014"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:intercultural-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:video-call-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:channel-selection"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:the-culture-map"
+   },
+   {
+    "predicate": "cmo:introduced",
+    "object": "cm:communicating-across-languages",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:authored",
+    "object": "cm:the-language-of-global-success",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:authored",
+    "object": "cm:remote-work-revolution",
+    "source": "s4",
+    "confidence": "high"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://ideas.repec.org/a/inm/ororsc/v24y2013i2p476-497.html",
+   "https://press.princeton.edu/isbn/9781400888641",
+   "https://www.library.hbs.edu/working-knowledge/hbs-cases-overcoming-the-stress-of-englishnization",
+   "https://www.library.hbs.edu/working-knowledge/succeeding-in-the-new-work-from-anywhere-world",
+   "https://ideas.repec.org/a/pal/jintbs/v45y2014i5p536-561.html"
+  ]
+ },
+ {
   "id": "cm:unequal-participation",
   "title": "Unequal participation",
   "aliases": [

@@ -20030,6 +20030,79 @@
    ]
   },
   {
+   "@id": "cm:tsedal-neeley",
+   "@type": "cmo:Person",
+   "cmo:authored": [
+    {
+     "@id": "cm:remote-work-revolution"
+    },
+    {
+     "@id": "cm:the-language-of-global-success"
+    }
+   ],
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "historical",
+   "cmo:file": "articles/thinkers-and-works/tsedal-neeley.md",
+   "cmo:introduced": {
+    "@id": "cm:communicating-across-languages"
+   },
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/tsedal-neeley/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/tsedal-neeley/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/tsedal-neeley/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/tsedal-neeley/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/tsedal-neeley/s5"
+    }
+   ],
+   "rdfs:label": "Tsedal Neeley",
+   "skos:altLabel": "Tsedal B. Neeley",
+   "skos:definition": "Harvard Business School organizational-behaviour scholar whose field studies of English-only mandates at a French high-tech firm and at Rakuten showed how a shared working language redistributes status and trust, and who turned that work into practical advice on corporate language strategy, communicating across languages and leading remote teams.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "Tsedal Neeley",
+   "skos:related": [
+    {
+     "@id": "cm:channel-selection"
+    },
+    {
+     "@id": "cm:communicating-across-languages"
+    },
+    {
+     "@id": "cm:hinds-neeley-cramton-2014"
+    },
+    {
+     "@id": "cm:intercultural-communication"
+    },
+    {
+     "@id": "cm:language-barriers"
+    },
+    {
+     "@id": "cm:multicultural-team"
+    },
+    {
+     "@id": "cm:the-culture-map"
+    },
+    {
+     "@id": "cm:video-call-communication"
+    }
+   ]
+  },
+  {
    "@id": "cm:unequal-participation",
    "@type": "cmo:Barrier",
    "cmo:challengedBy": {
@@ -47754,6 +47827,76 @@
    "dcterms:title": "Consultant competence trust doesn't pay off, but benevolent trust does! Managing knowledge with care",
    "schema:url": {
     "@id": "https://emerald.com/insight/content/doi/10.1108/13673271011032355/full/html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/tsedal-neeley/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Neeley, T. B., Organization Science 24(2), 476-497, 2013, doi:10.1287/orsc.1120.0739 (IDEAS/RePEc record and abstract)",
+   "dcterms:title": "Language Matters: Status Loss and Achieved Status Distinctions in Global Organizations",
+   "schema:url": {
+    "@id": "https://ideas.repec.org/a/inm/ororsc/v24y2013i2p476-497.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/tsedal-neeley/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Princeton University Press, 2017 (publisher's book page)",
+   "dcterms:title": "The Language of Global Success: How a Common Tongue Transforms Multinational Organizations",
+   "schema:url": {
+    "@id": "https://press.princeton.edu/isbn/9781400888641"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/tsedal-neeley/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Girard, K., Harvard Business School Working Knowledge, 19 March 2012",
+   "dcterms:title": "HBS Cases: Overcoming the Stress of 'Englishnization'",
+   "schema:url": {
+    "@id": "https://www.library.hbs.edu/working-knowledge/hbs-cases-overcoming-the-stress-of-englishnization"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/tsedal-neeley/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Blanding, M., Harvard Business School Working Knowledge, 23 March 2021",
+   "dcterms:title": "Succeeding in the New Work-From-Anywhere World",
+   "schema:url": {
+    "@id": "https://www.library.hbs.edu/working-knowledge/succeeding-in-the-new-work-from-anywhere-world"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/tsedal-neeley/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Hinds, P. J., Neeley, T. B. & Cramton, C. D., Journal of International Business Studies 45(5), 536-561, 2014 (IDEAS/RePEc record and abstract)",
+   "dcterms:title": "Language as a lightning rod: Power contests, emotion regulation, and subgroup dynamics in global teams",
+   "schema:url": {
+    "@id": "https://ideas.repec.org/a/pal/jintbs/v45y2014i5p536-561.html"
    }
   },
   {
