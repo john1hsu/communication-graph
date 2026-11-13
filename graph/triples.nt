@@ -1942,6 +1942,7 @@
 <https://github.com/john1hsu/communication-graph/id/closed-loop-communication> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/questioning-and-conversation> .
 <https://github.com/john1hsu/communication-graph/id/closed-loop-communication> <http://www.w3.org/2004/02/skos/core#prefLabel> "Closed-loop communication" .
 <https://github.com/john1hsu/communication-graph/id/closed-loop-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/common-ground> .
+<https://github.com/john1hsu/communication-graph/id/closed-loop-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/eduardo-salas> .
 <https://github.com/john1hsu/communication-graph/id/closed-loop-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/el-shafy-et-al-2018> .
 <https://github.com/john1hsu/communication-graph/id/closed-loop-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/hargestam-et-al-2013> .
 <https://github.com/john1hsu/communication-graph/id/closed-loop-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> .
@@ -3640,6 +3641,36 @@
 <https://github.com/john1hsu/communication-graph/id/distributive-negotiation> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/communication-graph/id/distributive-negotiation> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/batna> .
 <https://github.com/john1hsu/communication-graph/id/distributive-negotiation> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/huffmeier-et-al-2014> .
+<https://github.com/john1hsu/communication-graph/id/eduardo-salas> <http://purl.org/dc/terms/created> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/eduardo-salas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+<https://github.com/john1hsu/communication-graph/id/eduardo-salas> <http://www.w3.org/2000/01/rdf-schema#label> "Eduardo Salas" .
+<https://github.com/john1hsu/communication-graph/id/eduardo-salas> <http://www.w3.org/2004/02/skos/core#altLabel> "Eduardo Salas (team scientist)" .
+<https://github.com/john1hsu/communication-graph/id/eduardo-salas> <http://www.w3.org/2004/02/skos/core#altLabel> "Salas" .
+<https://github.com/john1hsu/communication-graph/id/eduardo-salas> <http://www.w3.org/2004/02/skos/core#definition> "Industrial-organizational psychologist and team scientist, first with the U.S. Navy and later at the University of Central Florida and Rice University, whose 2005 \"Big Five in teamwork\" model made closed-loop communication a named coordinating mechanism of teams and whose team-training research shaped how aviation, health care and defence teach people to communicate under pressure." .
+<https://github.com/john1hsu/communication-graph/id/eduardo-salas> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works> .
+<https://github.com/john1hsu/communication-graph/id/eduardo-salas> <http://www.w3.org/2004/02/skos/core#prefLabel> "Eduardo Salas" .
+<https://github.com/john1hsu/communication-graph/id/eduardo-salas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> .
+<https://github.com/john1hsu/communication-graph/id/eduardo-salas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/checking-understanding> .
+<https://github.com/john1hsu/communication-graph/id/eduardo-salas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/closed-loop-communication> .
+<https://github.com/john1hsu/communication-graph/id/eduardo-salas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/espevik-et-al-2021> .
+<https://github.com/john1hsu/communication-graph/id/eduardo-salas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/neil-rackham> .
+<https://github.com/john1hsu/communication-graph/id/eduardo-salas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
+<https://github.com/john1hsu/communication-graph/id/eduardo-salas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/shared-mental-models> .
+<https://github.com/john1hsu/communication-graph/id/eduardo-salas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/teamstepps> .
+<https://github.com/john1hsu/communication-graph/id/eduardo-salas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/eduardo-salas/s1> .
+<https://github.com/john1hsu/communication-graph/id/eduardo-salas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/eduardo-salas/s2> .
+<https://github.com/john1hsu/communication-graph/id/eduardo-salas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/eduardo-salas/s3> .
+<https://github.com/john1hsu/communication-graph/id/eduardo-salas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/eduardo-salas/s4> .
+<https://github.com/john1hsu/communication-graph/id/eduardo-salas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/eduardo-salas/s5> .
+<https://github.com/john1hsu/communication-graph/id/eduardo-salas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/eduardo-salas/s6> .
+<https://github.com/john1hsu/communication-graph/id/eduardo-salas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/eduardo-salas/s7> .
+<https://github.com/john1hsu/communication-graph/id/eduardo-salas> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/is-there-a-big-five-in-teamwork> .
+<https://github.com/john1hsu/communication-graph/id/eduardo-salas> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/teams-that-work> .
+<https://github.com/john1hsu/communication-graph/id/eduardo-salas> <https://github.com/john1hsu/communication-graph/ontology#domain> "thinkers-and-works" .
+<https://github.com/john1hsu/communication-graph/id/eduardo-salas> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "historical" .
+<https://github.com/john1hsu/communication-graph/id/eduardo-salas> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/thinkers-and-works/eduardo-salas.md" .
+<https://github.com/john1hsu/communication-graph/id/eduardo-salas> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/closed-loop-communication> .
+<https://github.com/john1hsu/communication-graph/id/eduardo-salas> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/edward-tufte> <http://purl.org/dc/terms/created> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/edward-tufte> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
 <https://github.com/john1hsu/communication-graph/id/edward-tufte> <http://www.w3.org/2000/01/rdf-schema#label> "Edward R. Tufte" .
@@ -13564,6 +13595,48 @@
 <https://github.com/john1hsu/communication-graph/id/source/distributive-negotiation/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/distributive-negotiation/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
 <https://github.com/john1hsu/communication-graph/id/source/distributive-negotiation/s6> <https://schema.org/url> <https://www.pon.harvard.edu/daily/negotiation-skills-daily/when-you%E2%80%99re-tempted-to-deceive/?amp> .
+<https://github.com/john1hsu/communication-graph/id/source/eduardo-salas/s1> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/eduardo-salas/s1> <http://purl.org/dc/terms/publisher> "Small Group Research (SAGE), author copy hosted by Helse Stavanger" .
+<https://github.com/john1hsu/communication-graph/id/source/eduardo-salas/s1> <http://purl.org/dc/terms/title> "Is There a \"Big Five\" in Teamwork? (Salas, Sims & Burke, Small Group Research 36(5), 555-599, 2005)" .
+<https://github.com/john1hsu/communication-graph/id/source/eduardo-salas/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/eduardo-salas/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/eduardo-salas/s1> <https://schema.org/url> <https://www.helse-stavanger.no/4a923f/contentassets/c6f06d2b76544501a6d662b0631476d7/salas-big-five.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/eduardo-salas/s2> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/eduardo-salas/s2> <http://purl.org/dc/terms/publisher> "University of Central Florida STARS repository record, doi:10.1518/001872008X375009" .
+<https://github.com/john1hsu/communication-graph/id/source/eduardo-salas/s2> <http://purl.org/dc/terms/title> "Does Team Training Improve Team Performance? A Meta-Analysis (Salas, DiazGranados, Klein, Burke & Stagl, Human Factors 50(6), 903-933, 2008)" .
+<https://github.com/john1hsu/communication-graph/id/source/eduardo-salas/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/eduardo-salas/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/eduardo-salas/s2> <https://schema.org/url> <https://stars.library.ucf.edu/scopus2000/9425> .
+<https://github.com/john1hsu/communication-graph/id/source/eduardo-salas/s3> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/eduardo-salas/s3> <http://purl.org/dc/terms/publisher> "Society for Industrial and Organizational Psychology" .
+<https://github.com/john1hsu/communication-graph/id/source/eduardo-salas/s3> <http://purl.org/dc/terms/title> "Eduardo Salas - SIOP past-president biography" .
+<https://github.com/john1hsu/communication-graph/id/source/eduardo-salas/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/eduardo-salas/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/communication-graph/id/source/eduardo-salas/s3> <https://schema.org/url> <https://www.siop.org/Portals/84/docs/Presidents/eduardo-salas.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/eduardo-salas/s4> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/eduardo-salas/s4> <http://purl.org/dc/terms/publisher> "Rice University News" .
+<https://github.com/john1hsu/communication-graph/id/source/eduardo-salas/s4> <http://purl.org/dc/terms/title> "New book from Rice psychologist offers guide to creating successful teams (2020)" .
+<https://github.com/john1hsu/communication-graph/id/source/eduardo-salas/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/eduardo-salas/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/eduardo-salas/s4> <https://schema.org/url> <https://news.rice.edu/news/2020/new-book-rice-psychologist-offers-guide-creating-successful-teams> .
+<https://github.com/john1hsu/communication-graph/id/source/eduardo-salas/s5> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/eduardo-salas/s5> <http://purl.org/dc/terms/publisher> "Rice University News" .
+<https://github.com/john1hsu/communication-graph/id/source/eduardo-salas/s5> <http://purl.org/dc/terms/title> "Leading the science of teamwork: Salas earns national recognition for group psychology breakthroughs (2025)" .
+<https://github.com/john1hsu/communication-graph/id/source/eduardo-salas/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/eduardo-salas/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/eduardo-salas/s5> <https://schema.org/url> <https://news.rice.edu/news/2025/leading-science-teamwork-salas-earns-national-recognition-group-psychology-breakthroughs> .
+<https://github.com/john1hsu/communication-graph/id/source/eduardo-salas/s6> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/eduardo-salas/s6> <http://purl.org/dc/terms/publisher> "American Psychological Association" .
+<https://github.com/john1hsu/communication-graph/id/source/eduardo-salas/s6> <http://purl.org/dc/terms/title> "Speaking of Psychology, episode 235: The science of teamwork, with Eduardo Salas (2023)" .
+<https://github.com/john1hsu/communication-graph/id/source/eduardo-salas/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/eduardo-salas/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/communication-graph/id/source/eduardo-salas/s6> <https://schema.org/url> <https://www.apa.org/news/podcasts/speaking-of-psychology/teamwork> .
+<https://github.com/john1hsu/communication-graph/id/source/eduardo-salas/s7> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/eduardo-salas/s7> <http://purl.org/dc/terms/publisher> "AHRQ Patient Safety Network (U.S. Agency for Healthcare Research and Quality)" .
+<https://github.com/john1hsu/communication-graph/id/source/eduardo-salas/s7> <http://purl.org/dc/terms/title> "In Conversation With... Eduardo Salas, PhD" .
+<https://github.com/john1hsu/communication-graph/id/source/eduardo-salas/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/eduardo-salas/s7> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/communication-graph/id/source/eduardo-salas/s7> <https://schema.org/url> <https://psnet.ahrq.gov/perspective/conversation-eduardo-salas-phd> .
 <https://github.com/john1hsu/communication-graph/id/source/edward-tufte/s1> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/edward-tufte/s1> <http://purl.org/dc/terms/publisher> "Department of Political Science, Yale University" .
 <https://github.com/john1hsu/communication-graph/id/source/edward-tufte/s1> <http://purl.org/dc/terms/title> "Edward Tufte (faculty profile)" .

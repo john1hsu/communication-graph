@@ -3378,6 +3378,10 @@
    },
    {
     "predicate": "skos:related",
+    "object": "cm:eduardo-salas"
+   },
+   {
+    "predicate": "skos:related",
     "object": "cm:illusion-of-transparency"
    },
    {
@@ -6725,6 +6729,85 @@
    "https://dare.uva.nl/id/801197e8-e374-4128-aeb3-c66c06cb8812",
    "https://ideas.repec.org/a/oup/amlawe/v11y2009i1p162-208.html",
    "https://www.pon.harvard.edu/daily/negotiation-skills-daily/when-you%E2%80%99re-tempted-to-deceive/?amp"
+  ]
+ },
+ {
+  "id": "cm:eduardo-salas",
+  "title": "Eduardo Salas",
+  "aliases": [
+   "Salas",
+   "Eduardo Salas (team scientist)"
+  ],
+  "type": "Person",
+  "domain": "thinkers-and-works",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/thinkers-and-works/eduardo-salas.md",
+  "created": "2026-11-13",
+  "summary": "Industrial-organizational psychologist and team scientist, first with the U.S. Navy and later at the University of Central Florida and Rice University, whose 2005 \"Big Five in teamwork\" model made closed-loop communication a named coordinating mechanism of teams and whose team-training research shaped how aviation, health care and defence teach people to communicate under pressure.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "cm:closed-loop-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:checking-understanding"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:psychological-safety"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:shared-mental-models"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:teamstepps"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:espevik-et-al-2021"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:behavior-modeling-training"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:neil-rackham"
+   },
+   {
+    "predicate": "cmo:introduced",
+    "object": "cm:closed-loop-communication",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:authored",
+    "object": "cm:is-there-a-big-five-in-teamwork",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:authored",
+    "object": "cm:teams-that-work",
+    "source": "s4",
+    "confidence": "high"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://www.helse-stavanger.no/4a923f/contentassets/c6f06d2b76544501a6d662b0631476d7/salas-big-five.pdf",
+   "https://stars.library.ucf.edu/scopus2000/9425",
+   "https://www.siop.org/Portals/84/docs/Presidents/eduardo-salas.pdf",
+   "https://news.rice.edu/news/2020/new-book-rice-psychologist-offers-guide-creating-successful-teams",
+   "https://news.rice.edu/news/2025/leading-science-teamwork-salas-earns-national-recognition-group-psychology-breakthroughs",
+   "https://www.apa.org/news/podcasts/speaking-of-psychology/teamwork",
+   "https://psnet.ahrq.gov/perspective/conversation-eduardo-salas-phd"
   ]
  },
  {

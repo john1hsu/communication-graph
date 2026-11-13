@@ -11,7 +11,7 @@ summary: >-
 level: introductory
 evidenceStatus: mixed
 broader: [cm:checking-understanding]
-related: [cm:teach-back, cm:paraphrasing, cm:illusion-of-transparency, cm:common-ground, cm:information-overload, cm:shannon-weaver-model, cm:hargestam-et-al-2013, cm:el-shafy-et-al-2018, cm:meeting-recaps]
+related: [cm:teach-back, cm:paraphrasing, cm:eduardo-salas, cm:illusion-of-transparency, cm:common-ground, cm:information-overload, cm:shannon-weaver-model, cm:hargestam-et-al-2013, cm:el-shafy-et-al-2018, cm:meeting-recaps]
 requires: []
 relations:
   - {predicate: develops, object: cm:checking-understanding, source: s1, confidence: high}

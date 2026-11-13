@@ -3041,6 +3041,9 @@
      "@id": "cm:common-ground"
     },
     {
+     "@id": "cm:eduardo-salas"
+    },
+    {
      "@id": "cm:el-shafy-et-al-2018"
     },
     {
@@ -5887,6 +5890,88 @@
     },
     {
      "@id": "cm:zone-of-possible-agreement"
+    }
+   ]
+  },
+  {
+   "@id": "cm:eduardo-salas",
+   "@type": "cmo:Person",
+   "cmo:authored": [
+    {
+     "@id": "cm:is-there-a-big-five-in-teamwork"
+    },
+    {
+     "@id": "cm:teams-that-work"
+    }
+   ],
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "historical",
+   "cmo:file": "articles/thinkers-and-works/eduardo-salas.md",
+   "cmo:introduced": {
+    "@id": "cm:closed-loop-communication"
+   },
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/eduardo-salas/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/eduardo-salas/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/eduardo-salas/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/eduardo-salas/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/eduardo-salas/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/eduardo-salas/s6"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/eduardo-salas/s7"
+    }
+   ],
+   "rdfs:label": "Eduardo Salas",
+   "skos:altLabel": [
+    "Eduardo Salas (team scientist)",
+    "Salas"
+   ],
+   "skos:definition": "Industrial-organizational psychologist and team scientist, first with the U.S. Navy and later at the University of Central Florida and Rice University, whose 2005 \"Big Five in teamwork\" model made closed-loop communication a named coordinating mechanism of teams and whose team-training research shaped how aviation, health care and defence teach people to communicate under pressure.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "Eduardo Salas",
+   "skos:related": [
+    {
+     "@id": "cm:behavior-modeling-training"
+    },
+    {
+     "@id": "cm:checking-understanding"
+    },
+    {
+     "@id": "cm:closed-loop-communication"
+    },
+    {
+     "@id": "cm:espevik-et-al-2021"
+    },
+    {
+     "@id": "cm:neil-rackham"
+    },
+    {
+     "@id": "cm:psychological-safety"
+    },
+    {
+     "@id": "cm:shared-mental-models"
+    },
+    {
+     "@id": "cm:teamstepps"
     }
    ]
   },
@@ -36899,6 +36984,104 @@
    "dcterms:title": "Deception in Negotiation",
    "schema:url": {
     "@id": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/when-you%E2%80%99re-tempted-to-deceive/?amp"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/eduardo-salas/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Small Group Research (SAGE), author copy hosted by Helse Stavanger",
+   "dcterms:title": "Is There a \"Big Five\" in Teamwork? (Salas, Sims & Burke, Small Group Research 36(5), 555-599, 2005)",
+   "schema:url": {
+    "@id": "https://www.helse-stavanger.no/4a923f/contentassets/c6f06d2b76544501a6d662b0631476d7/salas-big-five.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/eduardo-salas/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "University of Central Florida STARS repository record, doi:10.1518/001872008X375009",
+   "dcterms:title": "Does Team Training Improve Team Performance? A Meta-Analysis (Salas, DiazGranados, Klein, Burke & Stagl, Human Factors 50(6), 903-933, 2008)",
+   "schema:url": {
+    "@id": "https://stars.library.ucf.edu/scopus2000/9425"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/eduardo-salas/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Society for Industrial and Organizational Psychology",
+   "dcterms:title": "Eduardo Salas - SIOP past-president biography",
+   "schema:url": {
+    "@id": "https://www.siop.org/Portals/84/docs/Presidents/eduardo-salas.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/eduardo-salas/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Rice University News",
+   "dcterms:title": "New book from Rice psychologist offers guide to creating successful teams (2020)",
+   "schema:url": {
+    "@id": "https://news.rice.edu/news/2020/new-book-rice-psychologist-offers-guide-creating-successful-teams"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/eduardo-salas/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Rice University News",
+   "dcterms:title": "Leading the science of teamwork: Salas earns national recognition for group psychology breakthroughs (2025)",
+   "schema:url": {
+    "@id": "https://news.rice.edu/news/2025/leading-science-teamwork-salas-earns-national-recognition-group-psychology-breakthroughs"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/eduardo-salas/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "American Psychological Association",
+   "dcterms:title": "Speaking of Psychology, episode 235: The science of teamwork, with Eduardo Salas (2023)",
+   "schema:url": {
+    "@id": "https://www.apa.org/news/podcasts/speaking-of-psychology/teamwork"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/eduardo-salas/s7",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "AHRQ Patient Safety Network (U.S. Agency for Healthcare Research and Quality)",
+   "dcterms:title": "In Conversation With... Eduardo Salas, PhD",
+   "schema:url": {
+    "@id": "https://psnet.ahrq.gov/perspective/conversation-eduardo-salas-phd"
    }
   },
   {
