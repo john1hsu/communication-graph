@@ -18,7 +18,9 @@ _No results._
 
 _Which written contexts, channels or genres have no technique, framework or principle applied in them or structuring them?_ — `queries/03-situations-without-guidance.rq`
 
-_No results._
+| node | type |
+|---|---|
+| `cm:trust-repair` | cmo:Context |
 
 ## Highest-leverage techniques
 
@@ -135,7 +137,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:apology` | mixed |  |
 | `cm:assertion-evidence-slides` | mixed | `cm:alzayed-alzamel-2023` |
 
-…and 143 more.
+…and 144 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -174,7 +176,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:phone-call` | cmo:Channel |
 | `cm:plain-language` | cmo:Principle |
 
-…and 34 more.
+…and 35 more.
 
 ## Orphan articles (gap)
 

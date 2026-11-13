@@ -23306,6 +23306,87 @@
   ]
  },
  {
+  "id": "cm:trust-repair",
+  "title": "Trust repair",
+  "aliases": [
+   "rebuilding trust",
+   "repairing broken trust",
+   "restoring trust after a breach",
+   "trust recovery"
+  ],
+  "type": "Context",
+  "domain": "difficult-conversations-and-conflict",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/difficult-conversations-and-conflict/trust-repair.md",
+  "created": "2026-11-13",
+  "summary": "The situation after you, your team or your organization has let someone down, where the goal is to restore their willingness to rely on you. It combines what you say (acknowledgement, apology, explanation, promises), what you give back (compensation or penance) and what you change (controls, monitoring, follow-through), and it works best when words and actions match the kind of breach.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:difficult-conversation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:credibility"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:trusted-advisor"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:delivering-bad-news"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:kim-et-al-2004"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:mea-culpa"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:psychological-safety"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:schweitzer-hershey-bradlow-2006",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:henderson-welsh-oleary-kelly-2020",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:contrastsWith",
+    "object": "cm:denial",
+    "source": "s5",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:attribution-theory",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://faculty.wharton.upenn.edu/wp-content/uploads/2014/06/Promises-and-Lies.pdf",
+   "https://durham-repository.worktribe.com/file/1565179/1/Published%20Journal%20Article",
+   "https://core.ac.uk/download/42548965.pdf",
+   "https://researchonline.stthomas.edu/esploro/outputs/journalArticle/Trust-Repair/991015132245503691",
+   "https://link.springer.com/content/pdf/10.1007/s10869-019-09624-z.pdf"
+  ]
+ },
+ {
   "id": "cm:trusted-advisor",
   "title": "Trusted advisor",
   "aliases": [

@@ -20522,6 +20522,84 @@
    ]
   },
   {
+   "@id": "cm:trust-repair",
+   "@type": "cmo:Context",
+   "cmo:contrastsWith": {
+    "@id": "cm:denial"
+   },
+   "cmo:demonstratedBy": [
+    {
+     "@id": "cm:henderson-welsh-oleary-kelly-2020"
+    },
+    {
+     "@id": "cm:schweitzer-hershey-bradlow-2006"
+    }
+   ],
+   "cmo:domain": "difficult-conversations-and-conflict",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:explainedBy": {
+    "@id": "cm:attribution-theory"
+   },
+   "cmo:file": "articles/difficult-conversations-and-conflict/trust-repair.md",
+   "cmo:level": "intermediate",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/trust-repair/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/trust-repair/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/trust-repair/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/trust-repair/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/trust-repair/s5"
+    }
+   ],
+   "rdfs:label": "Trust repair",
+   "skos:altLabel": [
+    "rebuilding trust",
+    "repairing broken trust",
+    "restoring trust after a breach",
+    "trust recovery"
+   ],
+   "skos:broader": {
+    "@id": "cm:difficult-conversation"
+   },
+   "skos:definition": "The situation after you, your team or your organization has let someone down, where the goal is to restore their willingness to rely on you. It combines what you say (acknowledgement, apology, explanation, promises), what you give back (compensation or penance) and what you change (controls, monitoring, follow-through), and it works best when words and actions match the kind of breach.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/difficult-conversations-and-conflict"
+   },
+   "skos:prefLabel": "Trust repair",
+   "skos:related": [
+    {
+     "@id": "cm:credibility"
+    },
+    {
+     "@id": "cm:delivering-bad-news"
+    },
+    {
+     "@id": "cm:kim-et-al-2004"
+    },
+    {
+     "@id": "cm:mea-culpa"
+    },
+    {
+     "@id": "cm:psychological-safety"
+    },
+    {
+     "@id": "cm:trusted-advisor"
+    }
+   ]
+  },
+  {
    "@id": "cm:trusted-advisor",
    "@type": "cmo:Framework",
    "cmo:appliedIn": {
@@ -49243,6 +49321,76 @@
    "dcterms:title": "Thought Groups: Teacher's Corner",
    "schema:url": {
     "@id": "https://iastate.pressbooks.pub/oralcommunication/chapter/teachers-corner-5/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/trust-repair/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Schweitzer, Hershey & Bradlow, Organizational Behavior and Human Decision Processes 101, 1-19 (2006), doi:10.1016/j.obhdp.2006.05.005 (Wharton faculty copy)",
+   "dcterms:title": "Promises and lies: Restoring violated trust",
+   "schema:url": {
+    "@id": "https://faculty.wharton.upenn.edu/wp-content/uploads/2014/06/Promises-and-Lies.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/trust-repair/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Gillespie & Dietz, Academy of Management Review 34(1), 127-145 (2009) (Durham University repository)",
+   "dcterms:title": "Trust Repair After an Organization-Level Failure",
+   "schema:url": {
+    "@id": "https://durham-repository.worktribe.com/file/1565179/1/Published%20Journal%20Article"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/trust-repair/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Bachmann, Gillespie & Priem, Organization Studies 36(9), 1123-1142 (2015) (CORE open-access copy)",
+   "dcterms:title": "Repairing trust in organizations and institutions: Toward a conceptual framework",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/42548965.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/trust-repair/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Lewicki & Brinsfield, Annual Review of Organizational Psychology and Organizational Behavior 4, 287-313 (2017), doi:10.1146/annurev-orgpsych-032516-113147 (University of St. Thomas repository record)",
+   "dcterms:title": "Trust Repair",
+   "schema:url": {
+    "@id": "https://researchonline.stthomas.edu/esploro/outputs/journalArticle/Trust-Repair/991015132245503691"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/trust-repair/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Henderson, Welsh & O'Leary-Kelly, Journal of Business and Psychology 35(3), 347-362 (2020), doi:10.1007/s10869-019-09624-z",
+   "dcterms:title": "\"Oops, I Did It\" or \"It Wasn't Me:\" An Examination of Psychological Contract Breach Repair Tactics",
+   "schema:url": {
+    "@id": "https://link.springer.com/content/pdf/10.1007/s10869-019-09624-z.pdf"
    }
   },
   {

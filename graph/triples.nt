@@ -18896,6 +18896,36 @@
 <https://github.com/john1hsu/communication-graph/id/source/thought-groups/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/thought-groups/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "textbook" .
 <https://github.com/john1hsu/communication-graph/id/source/thought-groups/s4> <https://schema.org/url> <https://iastate.pressbooks.pub/oralcommunication/chapter/teachers-corner-5/> .
+<https://github.com/john1hsu/communication-graph/id/source/trust-repair/s1> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/trust-repair/s1> <http://purl.org/dc/terms/publisher> "Schweitzer, Hershey & Bradlow, Organizational Behavior and Human Decision Processes 101, 1-19 (2006), doi:10.1016/j.obhdp.2006.05.005 (Wharton faculty copy)" .
+<https://github.com/john1hsu/communication-graph/id/source/trust-repair/s1> <http://purl.org/dc/terms/title> "Promises and lies: Restoring violated trust" .
+<https://github.com/john1hsu/communication-graph/id/source/trust-repair/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/trust-repair/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/trust-repair/s1> <https://schema.org/url> <https://faculty.wharton.upenn.edu/wp-content/uploads/2014/06/Promises-and-Lies.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/trust-repair/s2> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/trust-repair/s2> <http://purl.org/dc/terms/publisher> "Gillespie & Dietz, Academy of Management Review 34(1), 127-145 (2009) (Durham University repository)" .
+<https://github.com/john1hsu/communication-graph/id/source/trust-repair/s2> <http://purl.org/dc/terms/title> "Trust Repair After an Organization-Level Failure" .
+<https://github.com/john1hsu/communication-graph/id/source/trust-repair/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/trust-repair/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/trust-repair/s2> <https://schema.org/url> <https://durham-repository.worktribe.com/file/1565179/1/Published%20Journal%20Article> .
+<https://github.com/john1hsu/communication-graph/id/source/trust-repair/s3> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/trust-repair/s3> <http://purl.org/dc/terms/publisher> "Bachmann, Gillespie & Priem, Organization Studies 36(9), 1123-1142 (2015) (CORE open-access copy)" .
+<https://github.com/john1hsu/communication-graph/id/source/trust-repair/s3> <http://purl.org/dc/terms/title> "Repairing trust in organizations and institutions: Toward a conceptual framework" .
+<https://github.com/john1hsu/communication-graph/id/source/trust-repair/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/trust-repair/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/trust-repair/s3> <https://schema.org/url> <https://core.ac.uk/download/42548965.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/trust-repair/s4> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/trust-repair/s4> <http://purl.org/dc/terms/publisher> "Lewicki & Brinsfield, Annual Review of Organizational Psychology and Organizational Behavior 4, 287-313 (2017), doi:10.1146/annurev-orgpsych-032516-113147 (University of St. Thomas repository record)" .
+<https://github.com/john1hsu/communication-graph/id/source/trust-repair/s4> <http://purl.org/dc/terms/title> "Trust Repair" .
+<https://github.com/john1hsu/communication-graph/id/source/trust-repair/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/trust-repair/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/trust-repair/s4> <https://schema.org/url> <https://researchonline.stthomas.edu/esploro/outputs/journalArticle/Trust-Repair/991015132245503691> .
+<https://github.com/john1hsu/communication-graph/id/source/trust-repair/s5> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/trust-repair/s5> <http://purl.org/dc/terms/publisher> "Henderson, Welsh & O'Leary-Kelly, Journal of Business and Psychology 35(3), 347-362 (2020), doi:10.1007/s10869-019-09624-z" .
+<https://github.com/john1hsu/communication-graph/id/source/trust-repair/s5> <http://purl.org/dc/terms/title> "\"Oops, I Did It\" or \"It Wasn't Me:\" An Examination of Psychological Contract Breach Repair Tactics" .
+<https://github.com/john1hsu/communication-graph/id/source/trust-repair/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/trust-repair/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/trust-repair/s5> <https://schema.org/url> <https://link.springer.com/content/pdf/10.1007/s10869-019-09624-z.pdf> .
 <https://github.com/john1hsu/communication-graph/id/source/trusted-advisor/s1> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/trusted-advisor/s1> <http://purl.org/dc/terms/publisher> "David H. Maister, Charles H. Green & Robert M. Galford, Free Press / Simon & Schuster, 2021 (first published 2000) - publisher's book page" .
 <https://github.com/john1hsu/communication-graph/id/source/trusted-advisor/s1> <http://purl.org/dc/terms/title> "The Trusted Advisor: 20th Anniversary Edition" .
@@ -20161,6 +20191,36 @@
 <https://github.com/john1hsu/communication-graph/id/thought-groups> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/thought-groups> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/kang-rubin-pickering-2010> .
 <https://github.com/john1hsu/communication-graph/id/thought-groups> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/van-loon-2000> .
+<https://github.com/john1hsu/communication-graph/id/trust-repair> <http://purl.org/dc/terms/created> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/trust-repair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Context> .
+<https://github.com/john1hsu/communication-graph/id/trust-repair> <http://www.w3.org/2000/01/rdf-schema#label> "Trust repair" .
+<https://github.com/john1hsu/communication-graph/id/trust-repair> <http://www.w3.org/2004/02/skos/core#altLabel> "rebuilding trust" .
+<https://github.com/john1hsu/communication-graph/id/trust-repair> <http://www.w3.org/2004/02/skos/core#altLabel> "repairing broken trust" .
+<https://github.com/john1hsu/communication-graph/id/trust-repair> <http://www.w3.org/2004/02/skos/core#altLabel> "restoring trust after a breach" .
+<https://github.com/john1hsu/communication-graph/id/trust-repair> <http://www.w3.org/2004/02/skos/core#altLabel> "trust recovery" .
+<https://github.com/john1hsu/communication-graph/id/trust-repair> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/difficult-conversation> .
+<https://github.com/john1hsu/communication-graph/id/trust-repair> <http://www.w3.org/2004/02/skos/core#definition> "The situation after you, your team or your organization has let someone down, where the goal is to restore their willingness to rely on you. It combines what you say (acknowledgement, apology, explanation, promises), what you give back (compensation or penance) and what you change (controls, monitoring, follow-through), and it works best when words and actions match the kind of breach." .
+<https://github.com/john1hsu/communication-graph/id/trust-repair> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/difficult-conversations-and-conflict> .
+<https://github.com/john1hsu/communication-graph/id/trust-repair> <http://www.w3.org/2004/02/skos/core#prefLabel> "Trust repair" .
+<https://github.com/john1hsu/communication-graph/id/trust-repair> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/credibility> .
+<https://github.com/john1hsu/communication-graph/id/trust-repair> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> .
+<https://github.com/john1hsu/communication-graph/id/trust-repair> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/kim-et-al-2004> .
+<https://github.com/john1hsu/communication-graph/id/trust-repair> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mea-culpa> .
+<https://github.com/john1hsu/communication-graph/id/trust-repair> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
+<https://github.com/john1hsu/communication-graph/id/trust-repair> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/trusted-advisor> .
+<https://github.com/john1hsu/communication-graph/id/trust-repair> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/trust-repair/s1> .
+<https://github.com/john1hsu/communication-graph/id/trust-repair> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/trust-repair/s2> .
+<https://github.com/john1hsu/communication-graph/id/trust-repair> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/trust-repair/s3> .
+<https://github.com/john1hsu/communication-graph/id/trust-repair> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/trust-repair/s4> .
+<https://github.com/john1hsu/communication-graph/id/trust-repair> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/trust-repair/s5> .
+<https://github.com/john1hsu/communication-graph/id/trust-repair> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/denial> .
+<https://github.com/john1hsu/communication-graph/id/trust-repair> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/henderson-welsh-oleary-kelly-2020> .
+<https://github.com/john1hsu/communication-graph/id/trust-repair> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/schweitzer-hershey-bradlow-2006> .
+<https://github.com/john1hsu/communication-graph/id/trust-repair> <https://github.com/john1hsu/communication-graph/ontology#domain> "difficult-conversations-and-conflict" .
+<https://github.com/john1hsu/communication-graph/id/trust-repair> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/trust-repair> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/attribution-theory> .
+<https://github.com/john1hsu/communication-graph/id/trust-repair> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/difficult-conversations-and-conflict/trust-repair.md" .
+<https://github.com/john1hsu/communication-graph/id/trust-repair> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/communication-graph/id/trusted-advisor/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/trusted-advisor/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Before this meeting, can I state the client's real worry in their words rather than my summary of the scope?" .
 <https://github.com/john1hsu/communication-graph/id/trusted-advisor/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/trusted-advisor> .
