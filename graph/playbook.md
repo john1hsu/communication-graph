@@ -815,6 +815,24 @@ Ask yourself:
 - Is any part of what I plan to say mainly about my firm's revenue, my reputation or being right?
 - Have I listened long enough to earn the right to frame the problem, or am I jumping to my solution?
 
+### [Upward dissent](../articles/executive-and-client-communication/upward-dissent.md) — Skill
+
+*A senior analyst disagrees with her director's decision to cut the user-testing phase from a product launch to save three weeks.*
+
+| Before | After |
+|---|---|
+| Honestly, cutting testing is a mistake and everyone on the team thinks so. If this goes ahead I'm not sure I want my name on it. | Before we lock the plan, can I raise one risk on the testing cut? Last release, the two issues we skipped testing on cost us about four weeks of fixes. One option: test only the checkout flow, which keeps most of the time saving. Could we decide that together by Thursday? |
+
+**Why:** The rewrite raises the disagreement privately and early, ties it to the director's goal (the launch date), brings evidence and a workable alternative, and drops the veiled resignation threat and the appeal to an unnamed group - the moves Kassing's respondents rated least competent.
+
+Ask yourself:
+- Am I taking this disagreement to the person who can actually change it, or am I venting it to colleagues instead?
+- Have I brought evidence and at least one workable alternative, not only my objection?
+- Have I framed the issue in terms of a goal my manager already cares about?
+- Is this issue important enough to spend credibility on, and is now a moment when it can be heard?
+- If I have raised it before without a response, am I about to jump to going around my manager or hinting I might leave - and is there a constructive step left first?
+- After the conversation, have I followed up and repaired anything that felt like a personal attack, whatever the outcome?
+
 ### [Words of estimative probability](../articles/executive-and-client-communication/words-of-estimative-probability.md) — Technique
 
 1. Agree a short likelihood scale with your team or client before you need it - for example remote (under 5%), unlikely (20-45%), roughly even (45-55%), likely (55-80%), very likely (80-95%) - with ranges that do not overlap.

@@ -24743,6 +24743,128 @@
   ]
  },
  {
+  "id": "cm:upward-dissent",
+  "title": "Upward dissent",
+  "aliases": [
+   "disagreeing with your boss",
+   "articulated dissent",
+   "expressing disagreement upward",
+   "challenging your manager's decision"
+  ],
+  "type": "Skill",
+  "domain": "executive-and-client-communication",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/executive-and-client-communication/upward-dissent.md",
+  "created": "2026-11-13",
+  "summary": "The learnable skill of voicing disagreement with a decision, policy or practice directly to the manager or leader who can act on it - in a way that is heard as constructive rather than as a threat - studied by communication scholar Jeffrey W. Kassing, who found that presenting solutions and facts is judged far more competent than going around the boss or threatening to quit.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:organizational-communication"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "cm:managing-up"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:issue-selling"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:escalation-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:psychological-safety"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:saying-no"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:defensiveness"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:mum-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:employee-silence"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:one-on-one-meetings"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:audience-analysis"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:kassing-2005",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:kassing-2009",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:kassing-armstrong-2002",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:studiedIn",
+    "object": "cm:organizational-communication",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:issue-selling",
+    "source": "s6",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:one-on-one-meetings",
+    "source": "s3",
+    "confidence": "low"
+   }
+  ],
+  "selfCheck": [
+   "Am I taking this disagreement to the person who can actually change it, or am I venting it to colleagues instead?",
+   "Have I brought evidence and at least one workable alternative, not only my objection?",
+   "Have I framed the issue in terms of a goal my manager already cares about?",
+   "Is this issue important enough to spend credibility on, and is now a moment when it can be heard?",
+   "If I have raised it before without a response, am I about to jump to going around my manager or hinting I might leave - and is there a constructive step left first?",
+   "After the conversation, have I followed up and repaired anything that felt like a personal attack, whatever the outcome?"
+  ],
+  "steps": [],
+  "example": {
+   "situation": "A senior analyst disagrees with her director's decision to cut the user-testing phase from a product launch to save three weeks.",
+   "before": "Honestly, cutting testing is a mistake and everyone on the team thinks so. If this goes ahead I'm not sure I want my name on it.",
+   "after": "Before we lock the plan, can I raise one risk on the testing cut? Last release, the two issues we skipped testing on cost us about four weeks of fixes. One option: test only the checkout flow, which keeps most of the time saving. Could we decide that together by Thursday?",
+   "why": "The rewrite raises the disagreement privately and early, ties it to the director's goal (the launch date), brings evidence and a workable alternative, and drops the veiled resignation threat and the appeal to an unnamed group - the moves Kassing's respondents rated least competent."
+  },
+  "source_urls": [
+   "https://asu.elsevierpure.com/en/publications/someones-going-to-hear-about-this-examining-the-association-betwe",
+   "https://experts.azregents.edu/en/publications/speaking-up-competently-a-comparison-of-perceived-competence-in-u/",
+   "https://instituteforpr.org/in-case-you-didnt-hear-me-the-first-time-an-examination-of-repetitious-upward-dissent",
+   "https://academicnewsletter.sufe.edu.cn/info/361253",
+   "https://iro.uiowa.edu/esploro/outputs/journalArticle/A-META-ANALYSIS-OF-VOICE-AND-ITS/9984380446202771",
+   "https://www.apta.com/wp-content/uploads/Harvard-Business-Review-Article_Cultivating-Everyday-Courage.pdf"
+  ]
+ },
+ {
   "id": "cm:video-call-communication",
   "title": "Video call communication",
   "aliases": [

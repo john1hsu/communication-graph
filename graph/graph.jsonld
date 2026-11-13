@@ -21790,6 +21790,110 @@
    ]
   },
   {
+   "@id": "cm:upward-dissent",
+   "@type": "cmo:Skill",
+   "cmo:appliedIn": {
+    "@id": "cm:one-on-one-meetings"
+   },
+   "cmo:complements": {
+    "@id": "cm:issue-selling"
+   },
+   "cmo:domain": "executive-and-client-communication",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/upward-dissent/example"
+   },
+   "cmo:file": "articles/executive-and-client-communication/upward-dissent.md",
+   "cmo:level": "intermediate",
+   "cmo:requires": {
+    "@id": "cm:audience-analysis"
+   },
+   "cmo:studiedIn": {
+    "@id": "cm:organizational-communication"
+   },
+   "cmo:supportedBy": [
+    {
+     "@id": "cm:kassing-2005"
+    },
+    {
+     "@id": "cm:kassing-2009"
+    },
+    {
+     "@id": "cm:kassing-armstrong-2002"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/upward-dissent/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/upward-dissent/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/upward-dissent/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/upward-dissent/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/upward-dissent/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/upward-dissent/s6"
+    }
+   ],
+   "rdfs:label": "Upward dissent",
+   "skos:altLabel": [
+    "articulated dissent",
+    "challenging your manager's decision",
+    "disagreeing with your boss",
+    "expressing disagreement upward"
+   ],
+   "skos:broader": [
+    {
+     "@id": "cm:managing-up"
+    },
+    {
+     "@id": "cm:organizational-communication"
+    }
+   ],
+   "skos:definition": "The learnable skill of voicing disagreement with a decision, policy or practice directly to the manager or leader who can act on it - in a way that is heard as constructive rather than as a threat - studied by communication scholar Jeffrey W. Kassing, who found that presenting solutions and facts is judged far more competent than going around the boss or threatening to quit.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/executive-and-client-communication"
+   },
+   "skos:prefLabel": "Upward dissent",
+   "skos:related": [
+    {
+     "@id": "cm:defensiveness"
+    },
+    {
+     "@id": "cm:employee-silence"
+    },
+    {
+     "@id": "cm:escalation-communication"
+    },
+    {
+     "@id": "cm:issue-selling"
+    },
+    {
+     "@id": "cm:mum-effect"
+    },
+    {
+     "@id": "cm:one-on-one-meetings"
+    },
+    {
+     "@id": "cm:psychological-safety"
+    },
+    {
+     "@id": "cm:saying-no"
+    }
+   ]
+  },
+  {
    "@id": "cm:video-call-communication",
    "@type": "cmo:Channel",
    "cmo:alternativeTo": [
@@ -51932,6 +52036,90 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/upward-dissent/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Jeffrey W. Kassing & Todd A. Armstrong, Management Communication Quarterly 16(1), 39-65, 2002, doi:10.1177/0893318902161002 (Arizona State University research portal record)",
+   "dcterms:title": "Someone's going to hear about this: Examining the association between dissent-triggering events and employees' dissent expression",
+   "schema:url": {
+    "@id": "https://asu.elsevierpure.com/en/publications/someones-going-to-hear-about-this-examining-the-association-betwe"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/upward-dissent/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Jeffrey W. Kassing, Communication Research Reports 22(3), 227-234, 2005 (Arizona Board of Regents research portal record)",
+   "dcterms:title": "Speaking up competently: A comparison of perceived competence in upward dissent strategies",
+   "schema:url": {
+    "@id": "https://experts.azregents.edu/en/publications/speaking-up-competently-a-comparison-of-perceived-competence-in-u/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/upward-dissent/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Institute for Public Relations research summary of Jeffrey W. Kassing, Management Communication Quarterly 22(3), 416-436, 2009",
+   "dcterms:title": "In Case You Didn't Hear Me the First Time: An Examination of Repetitious Upward Dissent",
+   "schema:url": {
+    "@id": "https://instituteforpr.org/in-case-you-didnt-hear-me-the-first-time-an-examination-of-repetitious-upward-dissent"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/upward-dissent/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Ethan R. Burris, Academy of Management Journal 55(4), 851-875, 2012, doi:10.5465/amj.2010.0562 (abstract record, Shanghai University of Finance and Economics academic newsletter)",
+   "dcterms:title": "The risks and rewards of speaking up: Managerial responses to employee voice",
+   "schema:url": {
+    "@id": "https://academicnewsletter.sufe.edu.cn/info/361253"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/upward-dissent/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Melissa Chamberlin, Daniel W. Newton & Jeffery A. LePine, Personnel Psychology 70(1), 11-71, 2017, doi:10.1111/peps.12185 (University of Iowa research repository record)",
+   "dcterms:title": "A meta-analysis of voice and its promotive and prohibitive forms: Identification of key associations, distinctions, and future research directions",
+   "schema:url": {
+    "@id": "https://iro.uiowa.edu/esploro/outputs/journalArticle/A-META-ANALYSIS-OF-VOICE-AND-ITS/9984380446202771"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/upward-dissent/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "practitioner-journal",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "James R. Detert, Harvard Business Review, November-December 2018, pp. 128-135 (reading copy hosted by the American Public Transportation Association)",
+   "dcterms:title": "Cultivating Everyday Courage",
+   "schema:url": {
+    "@id": "https://www.apta.com/wp-content/uploads/Harvard-Business-Review-Article_Cultivating-Everyday-Courage.pdf"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/source/video-call-communication/s1",
    "@type": "cmo:Source",
    "cmo:sourceType": "peer-reviewed",
@@ -53770,6 +53958,62 @@
     "@id": "cm:unequal-participation"
    },
    "rdfs:label": "Am I judging whose idea is best by its merit, or by who said it most often and most fluently?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/upward-dissent/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:upward-dissent"
+   },
+   "rdfs:label": "Am I taking this disagreement to the person who can actually change it, or am I venting it to colleagues instead?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/upward-dissent/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:upward-dissent"
+   },
+   "rdfs:label": "Have I brought evidence and at least one workable alternative, not only my objection?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/upward-dissent/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:upward-dissent"
+   },
+   "rdfs:label": "Have I framed the issue in terms of a goal my manager already cares about?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/upward-dissent/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:upward-dissent"
+   },
+   "rdfs:label": "Is this issue important enough to spend credibility on, and is now a moment when it can be heard?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/upward-dissent/check/5",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:upward-dissent"
+   },
+   "rdfs:label": "If I have raised it before without a response, am I about to jump to going around my manager or hinting I might leave - and is there a constructive step left first?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/upward-dissent/check/6",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:upward-dissent"
+   },
+   "rdfs:label": "After the conversation, have I followed up and repaired anything that felt like a personal attack, whatever the outcome?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/upward-dissent/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "Before we lock the plan, can I raise one risk on the testing cut? Last release, the two issues we skipped testing on cost us about four weeks of fixes. One option: test only the checkout flow, which keeps most of the time saving. Could we decide that together by Thursday?",
+   "cmo:before": "Honestly, cutting testing is a mistake and everyone on the team thinks so. If this goes ahead I'm not sure I want my name on it.",
+   "cmo:situation": "A senior analyst disagrees with her director's decision to cut the user-testing phase from a product launch to save three weeks.",
+   "cmo:why": "The rewrite raises the disagreement privately and early, ties it to the director's goal (the launch date), brings evidence and a workable alternative, and drops the veiled resignation threat and the appeal to an unnamed group - the moves Kassing's respondents rated least competent."
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/video-call-communication/check/1",
