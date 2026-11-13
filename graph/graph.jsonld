@@ -14002,6 +14002,88 @@
    ]
   },
   {
+   "@id": "cm:note-taking-while-listening",
+   "@type": "cmo:Technique",
+   "cmo:appliedIn": [
+    {
+     "@id": "cm:job-interview"
+    },
+    {
+     "@id": "cm:one-on-one-meetings"
+    }
+   ],
+   "cmo:challengedBy": [
+    {
+     "@id": "cm:morehead-dunlosky-rawson-2019"
+    },
+    {
+     "@id": "cm:urry-et-al-2021"
+    }
+   ],
+   "cmo:complements": {
+    "@id": "cm:paraphrasing"
+   },
+   "cmo:demonstratedBy": {
+    "@id": "cm:middendorf-macan-2002"
+   },
+   "cmo:domain": "listening",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/note-taking-while-listening/example"
+   },
+   "cmo:file": "articles/listening/note-taking-while-listening.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/note-taking-while-listening/howto"
+   },
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/note-taking-while-listening/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/note-taking-while-listening/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/note-taking-while-listening/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/note-taking-while-listening/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/note-taking-while-listening/s5"
+    }
+   ],
+   "rdfs:label": "Note-taking while listening",
+   "skos:altLabel": [
+    "listening notes",
+    "meeting note-taking",
+    "taking notes in conversations"
+   ],
+   "skos:broader": {
+    "@id": "cm:active-listening"
+   },
+   "skos:definition": "Writing brief, selective notes in your own words while someone speaks, so you can recall what they said, check it back with them and follow through on what was agreed, without letting the notes replace attention.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/listening"
+   },
+   "skos:prefLabel": "Note-taking while listening",
+   "skos:related": [
+    {
+     "@id": "cm:checking-understanding"
+    },
+    {
+     "@id": "cm:meeting-recaps"
+    },
+    {
+     "@id": "cm:summarizing"
+    }
+   ]
+  },
+  {
    "@id": "cm:one-on-one-meetings",
    "@type": "cmo:Context",
    "cmo:causes": {
@@ -28790,6 +28872,90 @@
    "@type": "schema:HowToStep",
    "schema:position": 5,
    "schema:text": "If they say no or react strongly, listen for their observation, feeling, need and request, and reflect those back before restating yours."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/note-taking-while-listening/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:note-taking-while-listening"
+   },
+   "rdfs:label": "Was I looking at the person more than at my notes?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/note-taking-while-listening/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:note-taking-while-listening"
+   },
+   "rdfs:label": "Could I read my notes back as a short summary in my own words rather than a transcript?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/note-taking-while-listening/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:note-taking-while-listening"
+   },
+   "rdfs:label": "Have I marked every commitment I made, and when will I act on each one?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/note-taking-while-listening/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "The lead jots a few words on paper while keeping eye contact, then says: 'Let me check I have this: the two integrations are untested, and you want the risk flagged to the director before Friday. I'll do that by Thursday and copy you.' The lead sends that recap the same afternoon.",
+   "cmo:before": "The lead types steadily on a laptop throughout, capturing nearly every sentence, rarely looks up, ends with 'Thanks, I've got it all down,' and never mentions the notes again.",
+   "cmo:situation": "A team lead holds a one-on-one with an engineer who is worried about an upcoming release.",
+   "cmo:why": "Selective notes in the lead's own words kept attention on the speaker, allowed an accurate read-back, and turned the conversation into a visible follow-up, which is often what makes people feel heard."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/note-taking-while-listening/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Note-taking while listening",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/note-taking-while-listening/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/note-taking-while-listening/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/note-taking-while-listening/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/note-taking-while-listening/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/note-taking-while-listening/howto/5"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/note-taking-while-listening/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Before the conversation, write the two or three questions you need answered so your notes have a structure to hang on."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/note-taking-while-listening/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "While the other person speaks, keep your eyes on them and jot only keywords, numbers, names and their exact phrasing of anything contentious."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/note-taking-while-listening/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Mark commitments, decisions and open questions with a symbol (for example a box for actions) so they stand out later."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/note-taking-while-listening/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "At natural pauses, read the key points back in your own words and ask whether you have them right."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/note-taking-while-listening/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Within a day, review the notes, turn marked items into a written recap and act on what you promised."
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/open-ended-questions/check/1",
@@ -44096,6 +44262,76 @@
    "dcterms:title": "Cybernetics",
    "schema:url": {
     "@id": "https://sk.sagepub.com/ency/edvol/embed/communicationtheory/chpt/cybernetics"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/note-taking-while-listening/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "American Psychological Association (library catalogue record)",
+   "dcterms:title": "Note-taking in the employment interview: Effects on recall and judgments (Middendorf & Macan, 2002, Journal of Applied Psychology 87(2), 293-303)",
+   "schema:url": {
+    "@id": "https://bvbvf1.bib-bvb.de/vufind/PrimoRecord/cdi_proquest_miscellaneous_71667285"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/note-taking-while-listening/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Psychological Science (Association for Psychological Science)",
+   "dcterms:title": "Don't Ditch the Laptop Just Yet: A Direct Replication of Mueller and Oppenheimer's (2014) Study 1 Plus Mini Meta-Analyses Across Similar Studies (Urry et al., 2021)",
+   "schema:url": {
+    "@id": "https://www.psychologicalscience.org/journals/psychological-science/0956797620965541/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/note-taking-while-listening/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Educational Psychology Review (Springer)",
+   "dcterms:title": "How Much Mightier Is the Pen than the Keyboard for Note-Taking? A Replication and Extension of Mueller and Oppenheimer (2014) (Morehead, Dunlosky & Rawson, 2019)",
+   "schema:url": {
+    "@id": "https://www.doi.org/10.1007/s10648-019-09468-2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/note-taking-while-listening/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Frontiers in Education",
+   "dcterms:title": "Identification of Cognitive Activities That Underlie Variations in Lecture Note-Taking (Liu & Uesaka, 2022)",
+   "schema:url": {
+    "@id": "https://public-pages-files-2025.frontiersin.org/journals/education/articles/10.3389/feduc.2022.893237/xml"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/note-taking-while-listening/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Frontiers in Psychology",
+   "dcterms:title": "Feeling Heard: Experiences of Listening (or Not) at Work (Kriz, Kluger & Lyddy, 2021)",
+   "schema:url": {
+    "@id": "https://www.frontiersin.org/articles/10.3389/fpsyg.2021.659087"
    }
   },
   {

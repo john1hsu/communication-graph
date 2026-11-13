@@ -868,6 +868,14 @@
 <https://github.com/john1hsu/communication-graph/id/mirroring#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/mirroring/s4> .
 <https://github.com/john1hsu/communication-graph/id/mirroring#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/mirroring/s5> .
 <https://github.com/john1hsu/communication-graph/id/mirroring#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/mirroring/s6> .
+<https://github.com/john1hsu/communication-graph/id/note-taking-while-listening#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/note-taking-while-listening#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening> .
+<https://github.com/john1hsu/communication-graph/id/note-taking-while-listening#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/listening/note-taking-while-listening.md" .
+<https://github.com/john1hsu/communication-graph/id/note-taking-while-listening#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/note-taking-while-listening/s1> .
+<https://github.com/john1hsu/communication-graph/id/note-taking-while-listening#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/note-taking-while-listening/s2> .
+<https://github.com/john1hsu/communication-graph/id/note-taking-while-listening#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/note-taking-while-listening/s3> .
+<https://github.com/john1hsu/communication-graph/id/note-taking-while-listening#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/note-taking-while-listening/s4> .
+<https://github.com/john1hsu/communication-graph/id/note-taking-while-listening#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/note-taking-while-listening/s5> .
 <https://github.com/john1hsu/communication-graph/id/open-ended-questions#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/open-ended-questions#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/open-ended-questions> .
 <https://github.com/john1hsu/communication-graph/id/open-ended-questions#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/listening/open-ended-questions.md" .
@@ -11338,6 +11346,105 @@
   <https://github.com/john1hsu/communication-graph/id/source/mirroring/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
   <https://github.com/john1hsu/communication-graph/id/source/mirroring/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
   <https://github.com/john1hsu/communication-graph/id/source/mirroring/s6> <https://schema.org/url> <https://knowledge.insead.edu/leadership-organisations/mimicry-latest-negotiating-strategy> .
+}
+
+<https://github.com/john1hsu/communication-graph/id/note-taking-while-listening#graph> {
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Was I looking at the person more than at my notes?" .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening> .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Could I read my notes back as a short summary in my own words rather than a transcript?" .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening> .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Have I marked every commitment I made, and when will I act on each one?" .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening> .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening/example> <https://github.com/john1hsu/communication-graph/ontology#after> "The lead jots a few words on paper while keeping eye contact, then says: 'Let me check I have this: the two integrations are untested, and you want the risk flagged to the director before Friday. I'll do that by Thursday and copy you.' The lead sends that recap the same afternoon." .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening/example> <https://github.com/john1hsu/communication-graph/ontology#before> "The lead types steadily on a laptop throughout, capturing nearly every sentence, rarely looks up, ends with 'Thanks, I've got it all down,' and never mentions the notes again." .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "A team lead holds a one-on-one with an engineer who is worried about an upcoming release." .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening/example> <https://github.com/john1hsu/communication-graph/ontology#why> "Selective notes in the lead's own words kept attention on the speaker, allowed an accurate read-back, and turned the conversation into a visible follow-up, which is often what makes people feel heard." .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening/howto/1> <https://schema.org/text> "Before the conversation, write the two or three questions you need answered so your notes have a structure to hang on." .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening/howto/2> <https://schema.org/text> "While the other person speaks, keep your eyes on them and jot only keywords, numbers, names and their exact phrasing of anything contentious." .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening/howto/3> <https://schema.org/text> "Mark commitments, decisions and open questions with a symbol (for example a box for actions) so they stand out later." .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening/howto/4> <https://schema.org/text> "At natural pauses, read the key points back in your own words and ask whether you have them right." .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening/howto/5> <https://schema.org/text> "Within a day, review the notes, turn marked items into a written recap and act on what you promised." .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening/howto> <https://schema.org/name> "Note-taking while listening" .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening/howto/1> .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening/howto/2> .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening/howto/3> .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening/howto/4> .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening/howto/5> .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening> <http://purl.org/dc/terms/created> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Technique> .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening> <http://www.w3.org/2000/01/rdf-schema#label> "Note-taking while listening" .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening> <http://www.w3.org/2004/02/skos/core#altLabel> "listening notes" .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening> <http://www.w3.org/2004/02/skos/core#altLabel> "meeting note-taking" .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening> <http://www.w3.org/2004/02/skos/core#altLabel> "taking notes in conversations" .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening> <http://www.w3.org/2004/02/skos/core#definition> "Writing brief, selective notes in your own words while someone speaks, so you can recall what they said, check it back with them and follow through on what was agreed, without letting the notes replace attention." .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/listening> .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening> <http://www.w3.org/2004/02/skos/core#prefLabel> "Note-taking while listening" .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/checking-understanding> .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/meeting-recaps> .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/summarizing> .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/note-taking-while-listening/s1> .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/note-taking-while-listening/s2> .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/note-taking-while-listening/s3> .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/note-taking-while-listening/s4> .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/note-taking-while-listening/s5> .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/job-interview> .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/morehead-dunlosky-rawson-2019> .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/urry-et-al-2021> .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/paraphrasing> .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/middendorf-macan-2002> .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening> <https://github.com/john1hsu/communication-graph/ontology#domain> "listening" .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening/example> .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/listening/note-taking-while-listening.md" .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening/howto> .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+  <https://github.com/john1hsu/communication-graph/id/source/note-taking-while-listening/s1> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/note-taking-while-listening/s1> <http://purl.org/dc/terms/publisher> "American Psychological Association (library catalogue record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/note-taking-while-listening/s1> <http://purl.org/dc/terms/title> "Note-taking in the employment interview: Effects on recall and judgments (Middendorf & Macan, 2002, Journal of Applied Psychology 87(2), 293-303)" .
+  <https://github.com/john1hsu/communication-graph/id/source/note-taking-while-listening/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/note-taking-while-listening/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/note-taking-while-listening/s1> <https://schema.org/url> <https://bvbvf1.bib-bvb.de/vufind/PrimoRecord/cdi_proquest_miscellaneous_71667285> .
+  <https://github.com/john1hsu/communication-graph/id/source/note-taking-while-listening/s2> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/note-taking-while-listening/s2> <http://purl.org/dc/terms/publisher> "Psychological Science (Association for Psychological Science)" .
+  <https://github.com/john1hsu/communication-graph/id/source/note-taking-while-listening/s2> <http://purl.org/dc/terms/title> "Don't Ditch the Laptop Just Yet: A Direct Replication of Mueller and Oppenheimer's (2014) Study 1 Plus Mini Meta-Analyses Across Similar Studies (Urry et al., 2021)" .
+  <https://github.com/john1hsu/communication-graph/id/source/note-taking-while-listening/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/note-taking-while-listening/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/note-taking-while-listening/s2> <https://schema.org/url> <https://www.psychologicalscience.org/journals/psychological-science/0956797620965541/> .
+  <https://github.com/john1hsu/communication-graph/id/source/note-taking-while-listening/s3> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/note-taking-while-listening/s3> <http://purl.org/dc/terms/publisher> "Educational Psychology Review (Springer)" .
+  <https://github.com/john1hsu/communication-graph/id/source/note-taking-while-listening/s3> <http://purl.org/dc/terms/title> "How Much Mightier Is the Pen than the Keyboard for Note-Taking? A Replication and Extension of Mueller and Oppenheimer (2014) (Morehead, Dunlosky & Rawson, 2019)" .
+  <https://github.com/john1hsu/communication-graph/id/source/note-taking-while-listening/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/note-taking-while-listening/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/note-taking-while-listening/s3> <https://schema.org/url> <https://www.doi.org/10.1007/s10648-019-09468-2> .
+  <https://github.com/john1hsu/communication-graph/id/source/note-taking-while-listening/s4> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/note-taking-while-listening/s4> <http://purl.org/dc/terms/publisher> "Frontiers in Education" .
+  <https://github.com/john1hsu/communication-graph/id/source/note-taking-while-listening/s4> <http://purl.org/dc/terms/title> "Identification of Cognitive Activities That Underlie Variations in Lecture Note-Taking (Liu & Uesaka, 2022)" .
+  <https://github.com/john1hsu/communication-graph/id/source/note-taking-while-listening/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/note-taking-while-listening/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/note-taking-while-listening/s4> <https://schema.org/url> <https://public-pages-files-2025.frontiersin.org/journals/education/articles/10.3389/feduc.2022.893237/xml> .
+  <https://github.com/john1hsu/communication-graph/id/source/note-taking-while-listening/s5> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/note-taking-while-listening/s5> <http://purl.org/dc/terms/publisher> "Frontiers in Psychology" .
+  <https://github.com/john1hsu/communication-graph/id/source/note-taking-while-listening/s5> <http://purl.org/dc/terms/title> "Feeling Heard: Experiences of Listening (or Not) at Work (Kriz, Kluger & Lyddy, 2021)" .
+  <https://github.com/john1hsu/communication-graph/id/source/note-taking-while-listening/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/note-taking-while-listening/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/note-taking-while-listening/s5> <https://schema.org/url> <https://www.frontiersin.org/articles/10.3389/fpsyg.2021.659087> .
 }
 
 <https://github.com/john1hsu/communication-graph/id/open-ended-questions#graph> {
@@ -24073,12 +24180,14 @@
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/listening> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/labeling-emotions> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/mirroring> .
+  <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/paraphrasing> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/summarizing> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/support-response> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/labeling-emotions> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/mirroring> .
+  <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/paraphrasing> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/summarizing> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/support-response> .
@@ -24873,6 +24982,7 @@
   <https://github.com/john1hsu/communication-graph/id/checking-understanding> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/teach-back> .
   <https://github.com/john1hsu/communication-graph/id/checking-understanding> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/eduardo-salas> .
   <https://github.com/john1hsu/communication-graph/id/checking-understanding> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/neil-rackham> .
+  <https://github.com/john1hsu/communication-graph/id/checking-understanding> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening> .
   <https://github.com/john1hsu/communication-graph/id/checking-understanding> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/phone-call> .
   <https://github.com/john1hsu/communication-graph/id/checking-understanding> <https://github.com/john1hsu/communication-graph/ontology#developedBy> <https://github.com/john1hsu/communication-graph/id/closed-loop-communication> .
   <https://github.com/john1hsu/communication-graph/id/checking-understanding> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/neil-rackham> .
@@ -27448,6 +27558,7 @@
   <https://github.com/john1hsu/communication-graph/id/job-interview> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/camera-level-gaze> .
   <https://github.com/john1hsu/communication-graph/id/job-interview> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/follow-up-questions> .
   <https://github.com/john1hsu/communication-graph/id/job-interview> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/impression-management> .
+  <https://github.com/john1hsu/communication-graph/id/job-interview> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening> .
   <https://github.com/john1hsu/communication-graph/id/job-interview> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/paralanguage> .
   <https://github.com/john1hsu/communication-graph/id/job-interview> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/power-posing> .
   <https://github.com/john1hsu/communication-graph/id/job-interview> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/questioning> .
@@ -27687,6 +27798,7 @@
   <https://github.com/john1hsu/communication-graph/id/listening> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/labeling-emotions> .
   <https://github.com/john1hsu/communication-graph/id/listening> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/listening-styles> .
   <https://github.com/john1hsu/communication-graph/id/listening> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/mirroring> .
+  <https://github.com/john1hsu/communication-graph/id/listening> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening> .
   <https://github.com/john1hsu/communication-graph/id/listening> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/paraphrasing> .
   <https://github.com/john1hsu/communication-graph/id/listening> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/summarizing> .
   <https://github.com/john1hsu/communication-graph/id/listening> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/support-response> .
@@ -27884,6 +27996,7 @@
   <https://github.com/john1hsu/communication-graph/id/meeting-recaps> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/checking-understanding> .
   <https://github.com/john1hsu/communication-graph/id/meeting-recaps> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/closed-loop-communication> .
   <https://github.com/john1hsu/communication-graph/id/meeting-recaps> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/group-decision-making> .
+  <https://github.com/john1hsu/communication-graph/id/meeting-recaps> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening> .
   <https://github.com/john1hsu/communication-graph/id/meeting-recaps> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/primacy-and-recency-effects> .
   <https://github.com/john1hsu/communication-graph/id/meeting-recaps> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/workplace-meetings> .
   <https://github.com/john1hsu/communication-graph/id/meeting-recovery-syndrome> <https://github.com/john1hsu/communication-graph/ontology#causedBy> <https://github.com/john1hsu/communication-graph/id/workplace-meetings> .
@@ -27948,6 +28061,9 @@
   <https://github.com/john1hsu/communication-graph/id/michael-alley> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> .
   <https://github.com/john1hsu/communication-graph/id/michael-argyle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/michael-ross> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/middendorf-macan-2002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/middendorf-macan-2002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
+  <https://github.com/john1hsu/communication-graph/id/middendorf-macan-2002> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening> .
   <https://github.com/john1hsu/communication-graph/id/milliken-morrison-hewlin-2003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/milliken-morrison-hewlin-2003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/milliken-morrison-hewlin-2003> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/difficult-conversation> .
@@ -27994,6 +28110,7 @@
   <https://github.com/john1hsu/communication-graph/id/moore-et-al-1999> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/moore-et-al-1999> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/moore-et-al-1999> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/rapport> .
+  <https://github.com/john1hsu/communication-graph/id/morehead-dunlosky-rawson-2019> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening> .
   <https://github.com/john1hsu/communication-graph/id/morris-et-al-2000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/morris-et-al-2000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/morris-et-al-2000> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/rapport> .
@@ -28251,6 +28368,14 @@
   <https://github.com/john1hsu/communication-graph/id/norm-of-reciprocity> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/concession-strategy> .
   <https://github.com/john1hsu/communication-graph/id/norm-of-reciprocity> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/influence-without-authority> .
   <https://github.com/john1hsu/communication-graph/id/nosek-gifford-kober-2014> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/nonviolent-communication> .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+  <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/listening> .
   <https://github.com/john1hsu/communication-graph/id/nutt-1999> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping> .
   <https://github.com/john1hsu/communication-graph/id/oechssler-roider-schmitz-2008> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/cooling-off-period> .
   <https://github.com/john1hsu/communication-graph/id/oetzel-ting-toomey-2003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -28281,6 +28406,7 @@
   <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/active-listening> .
   <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/humble-inquiry> .
   <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/managing-up> .
+  <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening> .
   <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/perspective-getting> .
   <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/radical-candor> .
   <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/summarizing> .
@@ -28436,6 +28562,7 @@
   <https://github.com/john1hsu/communication-graph/id/paraphrasing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/wait-time> .
   <https://github.com/john1hsu/communication-graph/id/paraphrasing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> .
   <https://github.com/john1hsu/communication-graph/id/paraphrasing> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/conversational-receptiveness> .
+  <https://github.com/john1hsu/communication-graph/id/paraphrasing> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening> .
   <https://github.com/john1hsu/communication-graph/id/paraphrasing> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/open-ended-questions> .
   <https://github.com/john1hsu/communication-graph/id/paraphrasing> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/presentation> .
   <https://github.com/john1hsu/communication-graph/id/paraphrasing> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/role-reversal> .
@@ -29884,6 +30011,7 @@
   <https://github.com/john1hsu/communication-graph/id/summarizing> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/listening> .
   <https://github.com/john1hsu/communication-graph/id/summarizing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/checking-understanding> .
   <https://github.com/john1hsu/communication-graph/id/summarizing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/neil-rackham> .
+  <https://github.com/john1hsu/communication-graph/id/summarizing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening> .
   <https://github.com/john1hsu/communication-graph/id/summarizing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/signposting> .
   <https://github.com/john1hsu/communication-graph/id/support-response/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/support-response/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -30170,6 +30298,7 @@
   <https://github.com/john1hsu/communication-graph/id/unequal-participation> <https://github.com/john1hsu/communication-graph/ontology#causedBy> <https://github.com/john1hsu/communication-graph/id/communication-apprehension> .
   <https://github.com/john1hsu/communication-graph/id/unnecessary-meetings> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/meeting-agendas> .
   <https://github.com/john1hsu/communication-graph/id/upward-communication> <https://github.com/john1hsu/communication-graph/ontology#introducedIn> <https://github.com/john1hsu/communication-graph/id/mccallum-erie-railroad-report> .
+  <https://github.com/john1hsu/communication-graph/id/urry-et-al-2021> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening> .
   <https://github.com/john1hsu/communication-graph/id/usability-testing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/ginny-redish> .
   <https://github.com/john1hsu/communication-graph/id/usability-testing> <https://github.com/john1hsu/communication-graph/ontology#alternativeTo> <https://github.com/john1hsu/communication-graph/id/readability-formulas> .
   <https://github.com/john1hsu/communication-graph/id/vague-probability-language> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/communicating-uncertainty> .

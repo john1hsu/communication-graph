@@ -1178,6 +1178,27 @@ Ask yourself:
 - Have I mirrored so many times in a row that it is becoming noticeable?
 - Am I mirroring to understand them, or only to steer them toward a position I already hold?
 
+### [Note-taking while listening](../articles/listening/note-taking-while-listening.md) — Technique
+
+1. Before the conversation, write the two or three questions you need answered so your notes have a structure to hang on.
+2. While the other person speaks, keep your eyes on them and jot only keywords, numbers, names and their exact phrasing of anything contentious.
+3. Mark commitments, decisions and open questions with a symbol (for example a box for actions) so they stand out later.
+4. At natural pauses, read the key points back in your own words and ask whether you have them right.
+5. Within a day, review the notes, turn marked items into a written recap and act on what you promised.
+
+*A team lead holds a one-on-one with an engineer who is worried about an upcoming release.*
+
+| Before | After |
+|---|---|
+| The lead types steadily on a laptop throughout, capturing nearly every sentence, rarely looks up, ends with 'Thanks, I've got it all down,' and never mentions the notes again. | The lead jots a few words on paper while keeping eye contact, then says: 'Let me check I have this: the two integrations are untested, and you want the risk flagged to the director before Friday. I'll do that by Thursday and copy you.' The lead sends that recap the same afternoon. |
+
+**Why:** Selective notes in the lead's own words kept attention on the speaker, allowed an accurate read-back, and turned the conversation into a visible follow-up, which is often what makes people feel heard.
+
+Ask yourself:
+- Was I looking at the person more than at my notes?
+- Could I read my notes back as a short summary in my own words rather than a transcript?
+- Have I marked every commitment I made, and when will I act on each one?
+
 ### [Open-ended questions](../articles/listening/open-ended-questions.md) — Technique
 
 1. Decide what you actually need to learn - their view, the obstacles, the options - before you ask anything.

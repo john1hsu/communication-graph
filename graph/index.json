@@ -15815,6 +15815,101 @@
   ]
  },
  {
+  "id": "cm:note-taking-while-listening",
+  "title": "Note-taking while listening",
+  "aliases": [
+   "taking notes in conversations",
+   "meeting note-taking",
+   "listening notes"
+  ],
+  "type": "Technique",
+  "domain": "listening",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/listening/note-taking-while-listening.md",
+  "created": "2026-11-13",
+  "summary": "Writing brief, selective notes in your own words while someone speaks, so you can recall what they said, check it back with them and follow through on what was agreed, without letting the notes replace attention.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:active-listening"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:summarizing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:meeting-recaps"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:checking-understanding"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:job-interview",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:middendorf-macan-2002",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:paraphrasing",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:urry-et-al-2021",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:morehead-dunlosky-rawson-2019",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:one-on-one-meetings",
+    "source": "s5",
+    "confidence": "low"
+   }
+  ],
+  "selfCheck": [
+   "Was I looking at the person more than at my notes?",
+   "Could I read my notes back as a short summary in my own words rather than a transcript?",
+   "Have I marked every commitment I made, and when will I act on each one?"
+  ],
+  "steps": [
+   "Before the conversation, write the two or three questions you need answered so your notes have a structure to hang on.",
+   "While the other person speaks, keep your eyes on them and jot only keywords, numbers, names and their exact phrasing of anything contentious.",
+   "Mark commitments, decisions and open questions with a symbol (for example a box for actions) so they stand out later.",
+   "At natural pauses, read the key points back in your own words and ask whether you have them right.",
+   "Within a day, review the notes, turn marked items into a written recap and act on what you promised."
+  ],
+  "example": {
+   "situation": "A team lead holds a one-on-one with an engineer who is worried about an upcoming release.",
+   "before": "The lead types steadily on a laptop throughout, capturing nearly every sentence, rarely looks up, ends with 'Thanks, I've got it all down,' and never mentions the notes again.",
+   "after": "The lead jots a few words on paper while keeping eye contact, then says: 'Let me check I have this: the two integrations are untested, and you want the risk flagged to the director before Friday. I'll do that by Thursday and copy you.' The lead sends that recap the same afternoon.",
+   "why": "Selective notes in the lead's own words kept attention on the speaker, allowed an accurate read-back, and turned the conversation into a visible follow-up, which is often what makes people feel heard."
+  },
+  "source_urls": [
+   "https://bvbvf1.bib-bvb.de/vufind/PrimoRecord/cdi_proquest_miscellaneous_71667285",
+   "https://www.psychologicalscience.org/journals/psychological-science/0956797620965541/",
+   "https://www.doi.org/10.1007/s10648-019-09468-2",
+   "https://public-pages-files-2025.frontiersin.org/journals/education/articles/10.3389/feduc.2022.893237/xml",
+   "https://www.frontiersin.org/articles/10.3389/fpsyg.2021.659087"
+  ]
+ },
+ {
   "id": "cm:one-on-one-meetings",
   "title": "Manager one-on-one meetings",
   "aliases": [

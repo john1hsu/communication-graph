@@ -96,7 +96,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:email` | `cm:checking-understanding` |
 | `cm:email` | `cm:closed-loop-communication` |
 
-…and 119 more.
+…and 121 more.
 
 ## Myths and contested advice
 
@@ -135,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:apology` | mixed |  |
 | `cm:assertion-evidence-slides` | mixed | `cm:alzayed-alzamel-2023` |
 
-…and 146 more.
+…and 148 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -165,6 +165,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:negotiation` | cmo:Context |
 | `cm:negotiation-preparation` | cmo:Context |
 | `cm:nonverbal-communication` | cmo:Concept |
+| `cm:note-taking-while-listening` | cmo:Technique |
 | `cm:one-on-one-meetings` | cmo:Context |
 | `cm:open-ended-questions` | cmo:Technique |
 | `cm:penance-and-restitution` | cmo:Technique |
@@ -172,9 +173,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:perspective-taking` | cmo:Skill |
 | `cm:persuasion` | cmo:Skill |
 | `cm:phone-call` | cmo:Channel |
-| `cm:plain-language` | cmo:Principle |
 
-…and 35 more.
+…and 36 more.
 
 ## Orphan articles (gap)
 
