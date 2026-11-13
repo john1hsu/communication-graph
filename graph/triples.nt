@@ -7322,6 +7322,52 @@
 <https://github.com/john1hsu/communication-graph/id/mirroring> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/mirroring/howto> .
 <https://github.com/john1hsu/communication-graph/id/mirroring> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/mirroring> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/swaab-maddux-sinaceur-2011> .
+<https://github.com/john1hsu/communication-graph/id/mixed-messages/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/mixed-messages/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "If someone heard only my tone and saw only my face, would they reach the same conclusion as from my words?" .
+<https://github.com/john1hsu/communication-graph/id/mixed-messages/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/mixed-messages> .
+<https://github.com/john1hsu/communication-graph/id/mixed-messages/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/mixed-messages/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Am I saying \"it's fine\" or \"no problem\" about something I am actually unhappy with?" .
+<https://github.com/john1hsu/communication-graph/id/mixed-messages/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/mixed-messages> .
+<https://github.com/john1hsu/communication-graph/id/mixed-messages/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/mixed-messages/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "When someone's words and manner just disagreed, did I ask, or did I silently pick one and act on it?" .
+<https://github.com/john1hsu/communication-graph/id/mixed-messages/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/mixed-messages> .
+<https://github.com/john1hsu/communication-graph/id/mixed-messages/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/mixed-messages/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Would this listener's culture lead them to weigh my tone more, or my words more, than I expect?" .
+<https://github.com/john1hsu/communication-graph/id/mixed-messages/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/mixed-messages> .
+<https://github.com/john1hsu/communication-graph/id/mixed-messages> <http://purl.org/dc/terms/created> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/mixed-messages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Barrier> .
+<https://github.com/john1hsu/communication-graph/id/mixed-messages> <http://www.w3.org/2000/01/rdf-schema#label> "Mixed messages" .
+<https://github.com/john1hsu/communication-graph/id/mixed-messages> <http://www.w3.org/2004/02/skos/core#altLabel> "incongruent messages" .
+<https://github.com/john1hsu/communication-graph/id/mixed-messages> <http://www.w3.org/2004/02/skos/core#altLabel> "inconsistent messages" .
+<https://github.com/john1hsu/communication-graph/id/mixed-messages> <http://www.w3.org/2004/02/skos/core#altLabel> "verbal-nonverbal mismatch" .
+<https://github.com/john1hsu/communication-graph/id/mixed-messages> <http://www.w3.org/2004/02/skos/core#altLabel> "word-tone mismatch" .
+<https://github.com/john1hsu/communication-graph/id/mixed-messages> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> .
+<https://github.com/john1hsu/communication-graph/id/mixed-messages> <http://www.w3.org/2004/02/skos/core#definition> "A message whose words say one thing while the voice, face or posture says another, such as \"I'm fine\" in a flat, clipped tone. Listeners resolve the conflict in ways the speaker cannot control, usually by trusting the tone when the topic is feelings, so the intended point is lost." .
+<https://github.com/john1hsu/communication-graph/id/mixed-messages> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/nonverbal-and-voice> .
+<https://github.com/john1hsu/communication-graph/id/mixed-messages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mixed messages" .
+<https://github.com/john1hsu/communication-graph/id/mixed-messages> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/checking-understanding> .
+<https://github.com/john1hsu/communication-graph/id/mixed-messages> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/credibility> .
+<https://github.com/john1hsu/communication-graph/id/mixed-messages> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> .
+<https://github.com/john1hsu/communication-graph/id/mixed-messages> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/facial-expressions> .
+<https://github.com/john1hsu/communication-graph/id/mixed-messages> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> .
+<https://github.com/john1hsu/communication-graph/id/mixed-messages> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> .
+<https://github.com/john1hsu/communication-graph/id/mixed-messages> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> .
+<https://github.com/john1hsu/communication-graph/id/mixed-messages> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/paralanguage> .
+<https://github.com/john1hsu/communication-graph/id/mixed-messages> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/perception-checking> .
+<https://github.com/john1hsu/communication-graph/id/mixed-messages> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/mixed-messages/s1> .
+<https://github.com/john1hsu/communication-graph/id/mixed-messages> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/mixed-messages/s2> .
+<https://github.com/john1hsu/communication-graph/id/mixed-messages> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/mixed-messages/s3> .
+<https://github.com/john1hsu/communication-graph/id/mixed-messages> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/mixed-messages/s4> .
+<https://github.com/john1hsu/communication-graph/id/mixed-messages> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/mixed-messages/s5> .
+<https://github.com/john1hsu/communication-graph/id/mixed-messages> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/mixed-messages/s6> .
+<https://github.com/john1hsu/communication-graph/id/mixed-messages> <https://github.com/john1hsu/communication-graph/ontology#confusedWith> <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> .
+<https://github.com/john1hsu/communication-graph/id/mixed-messages> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/ishii-reyes-kitayama-2003> .
+<https://github.com/john1hsu/communication-graph/id/mixed-messages> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/morton-trehub-2001> .
+<https://github.com/john1hsu/communication-graph/id/mixed-messages> <https://github.com/john1hsu/communication-graph/ontology#domain> "nonverbal-and-voice" .
+<https://github.com/john1hsu/communication-graph/id/mixed-messages> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/mixed-messages> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/nonverbal-and-voice/mixed-messages.md" .
+<https://github.com/john1hsu/communication-graph/id/mixed-messages> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/mixed-messages> <https://github.com/john1hsu/communication-graph/ontology#undermines> <https://github.com/john1hsu/communication-graph/id/credibility> .
 <https://github.com/john1hsu/communication-graph/id/monroes-motivated-sequence> <http://purl.org/dc/terms/created> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/monroes-motivated-sequence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Framework> .
 <https://github.com/john1hsu/communication-graph/id/monroes-motivated-sequence> <http://www.w3.org/2000/01/rdf-schema#label> "Monroe's motivated sequence" .
@@ -16338,6 +16384,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/mirroring/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/mirroring/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
 <https://github.com/john1hsu/communication-graph/id/source/mirroring/s6> <https://schema.org/url> <https://knowledge.insead.edu/leadership-organisations/mimicry-latest-negotiating-strategy> .
+<https://github.com/john1hsu/communication-graph/id/source/mixed-messages/s1> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/mixed-messages/s1> <http://purl.org/dc/terms/publisher> "Macmillan Learning (interpersonal communication textbook, online edition)" .
+<https://github.com/john1hsu/communication-graph/id/source/mixed-messages/s1> <http://purl.org/dc/terms/title> "Reflect & Relate, 4th ed., ch. 8: Nonverbal Communication (section 8.2)" .
+<https://github.com/john1hsu/communication-graph/id/source/mixed-messages/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/mixed-messages/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/communication-graph/id/source/mixed-messages/s1> <https://schema.org/url> <https://digfir-published.macmillanusa.com/reflectrelate4e/reflectrelate4e_ch08_2.html> .
+<https://github.com/john1hsu/communication-graph/id/source/mixed-messages/s2> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/mixed-messages/s2> <http://purl.org/dc/terms/publisher> "Morton, J. B. & Trehub, S. E., Child Development 72(3), 2001, pp. 834-843 (author lab copy, Western University)" .
+<https://github.com/john1hsu/communication-graph/id/source/mixed-messages/s2> <http://purl.org/dc/terms/title> "Children's understanding of emotion in speech" .
+<https://github.com/john1hsu/communication-graph/id/source/mixed-messages/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/mixed-messages/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/mixed-messages/s2> <https://schema.org/url> <https://cdnl.uwo.ca/publications/publication_downloads/Childrens%20understanding%20of%20emotion%20in%20speech.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/mixed-messages/s3> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/mixed-messages/s3> <http://purl.org/dc/terms/publisher> "Ishii, K., Reyes, J. A. & Kitayama, S., Psychological Science 14(1), 2003, pp. 39-46 (De La Salle University repository record)" .
+<https://github.com/john1hsu/communication-graph/id/source/mixed-messages/s3> <http://purl.org/dc/terms/title> "Spontaneous attention to word content versus emotional tone: Differences among three cultures" .
+<https://github.com/john1hsu/communication-graph/id/source/mixed-messages/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/mixed-messages/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/mixed-messages/s3> <https://schema.org/url> <https://animorepository.dlsu.edu.ph/faculty_research/4422> .
+<https://github.com/john1hsu/communication-graph/id/source/mixed-messages/s4> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/mixed-messages/s4> <http://purl.org/dc/terms/publisher> "David Lapakko, Communication and Theater Association of Minnesota Journal 34 (2007), pp. 7-19 (full text)" .
+<https://github.com/john1hsu/communication-graph/id/source/mixed-messages/s4> <http://purl.org/dc/terms/title> "Communication is 93% Nonverbal: An Urban Legend Proliferates" .
+<https://github.com/john1hsu/communication-graph/id/source/mixed-messages/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/mixed-messages/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/mixed-messages/s4> <https://schema.org/url> <https://cornerstone.lib.mnsu.edu/cgi/viewcontent.cgi?article=1000&context=ctamj> .
+<https://github.com/john1hsu/communication-graph/id/source/mixed-messages/s5> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/mixed-messages/s5> <http://purl.org/dc/terms/publisher> "Macmillan Learning (introductory communication textbook, online edition)" .
+<https://github.com/john1hsu/communication-graph/id/source/mixed-messages/s5> <http://purl.org/dc/terms/title> "Choices & Connections, 2nd ed., ch. 6.4: Nonverbal communication conveys more meaning than verbal communication" .
+<https://github.com/john1hsu/communication-graph/id/source/mixed-messages/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/mixed-messages/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/communication-graph/id/source/mixed-messages/s5> <https://schema.org/url> <https://digfir-published.macmillanusa.com/choicesconnections2e/choicesconnections2e_ch6_4.html> .
+<https://github.com/john1hsu/communication-graph/id/source/mixed-messages/s6> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/mixed-messages/s6> <http://purl.org/dc/terms/publisher> "Laura Westmaas, eCampusOntario Pressbooks open textbook (CC BY-NC-SA 4.0)" .
+<https://github.com/john1hsu/communication-graph/id/source/mixed-messages/s6> <http://purl.org/dc/terms/title> "Conflict Management, section 6.4: Examining our Perceptions in Conflict" .
+<https://github.com/john1hsu/communication-graph/id/source/mixed-messages/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/mixed-messages/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/communication-graph/id/source/mixed-messages/s6> <https://schema.org/url> <https://ecampusontario.pressbooks.pub/conflictmanagement/chapter/6-4-title/> .
 <https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s1> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s1> <http://purl.org/dc/terms/publisher> "Grand Valley State University, Speech Lab" .
 <https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s1> <http://purl.org/dc/terms/title> "Monroe's Motivated Sequence" .

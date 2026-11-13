@@ -14374,6 +14374,105 @@
   ]
  },
  {
+  "id": "cm:mixed-messages",
+  "title": "Mixed messages",
+  "aliases": [
+   "inconsistent messages",
+   "incongruent messages",
+   "verbal-nonverbal mismatch",
+   "word-tone mismatch"
+  ],
+  "type": "Barrier",
+  "domain": "nonverbal-and-voice",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/nonverbal-and-voice/mixed-messages.md",
+  "created": "2026-11-13",
+  "summary": "A message whose words say one thing while the voice, face or posture says another, such as \"I'm fine\" in a flat, clipped tone. Listeners resolve the conflict in ways the speaker cannot control, usually by trusting the tone when the topic is feelings, so the intended point is lost.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:nonverbal-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:paralanguage"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:facial-expressions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:mehrabian-myth"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:emoji-and-tone-in-text"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:high-and-low-context-cultures"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:perception-checking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:checking-understanding"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:illusion-of-transparency"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:credibility"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:morton-trehub-2001",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:ishii-reyes-kitayama-2003",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:confusedWith",
+    "object": "cm:mehrabian-myth",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:undermines",
+    "object": "cm:credibility",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "If someone heard only my tone and saw only my face, would they reach the same conclusion as from my words?",
+   "Am I saying \"it's fine\" or \"no problem\" about something I am actually unhappy with?",
+   "When someone's words and manner just disagreed, did I ask, or did I silently pick one and act on it?",
+   "Would this listener's culture lead them to weigh my tone more, or my words more, than I expect?"
+  ],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://digfir-published.macmillanusa.com/reflectrelate4e/reflectrelate4e_ch08_2.html",
+   "https://cdnl.uwo.ca/publications/publication_downloads/Childrens%20understanding%20of%20emotion%20in%20speech.pdf",
+   "https://animorepository.dlsu.edu.ph/faculty_research/4422",
+   "https://cornerstone.lib.mnsu.edu/cgi/viewcontent.cgi?article=1000&context=ctamj",
+   "https://digfir-published.macmillanusa.com/choicesconnections2e/choicesconnections2e_ch6_4.html",
+   "https://ecampusontario.pressbooks.pub/conflictmanagement/chapter/6-4-title/"
+  ]
+ },
+ {
   "id": "cm:monroes-motivated-sequence",
   "title": "Monroe's motivated sequence",
   "aliases": [

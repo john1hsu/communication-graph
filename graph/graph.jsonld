@@ -12688,6 +12688,96 @@
    ]
   },
   {
+   "@id": "cm:mixed-messages",
+   "@type": "cmo:Barrier",
+   "cmo:confusedWith": {
+    "@id": "cm:mehrabian-myth"
+   },
+   "cmo:demonstratedBy": [
+    {
+     "@id": "cm:ishii-reyes-kitayama-2003"
+    },
+    {
+     "@id": "cm:morton-trehub-2001"
+    }
+   ],
+   "cmo:domain": "nonverbal-and-voice",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:file": "articles/nonverbal-and-voice/mixed-messages.md",
+   "cmo:level": "introductory",
+   "cmo:undermines": {
+    "@id": "cm:credibility"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/mixed-messages/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/mixed-messages/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/mixed-messages/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/mixed-messages/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/mixed-messages/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/mixed-messages/s6"
+    }
+   ],
+   "rdfs:label": "Mixed messages",
+   "skos:altLabel": [
+    "incongruent messages",
+    "inconsistent messages",
+    "verbal-nonverbal mismatch",
+    "word-tone mismatch"
+   ],
+   "skos:broader": {
+    "@id": "cm:nonverbal-communication"
+   },
+   "skos:definition": "A message whose words say one thing while the voice, face or posture says another, such as \"I'm fine\" in a flat, clipped tone. Listeners resolve the conflict in ways the speaker cannot control, usually by trusting the tone when the topic is feelings, so the intended point is lost.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/nonverbal-and-voice"
+   },
+   "skos:prefLabel": "Mixed messages",
+   "skos:related": [
+    {
+     "@id": "cm:checking-understanding"
+    },
+    {
+     "@id": "cm:credibility"
+    },
+    {
+     "@id": "cm:emoji-and-tone-in-text"
+    },
+    {
+     "@id": "cm:facial-expressions"
+    },
+    {
+     "@id": "cm:high-and-low-context-cultures"
+    },
+    {
+     "@id": "cm:illusion-of-transparency"
+    },
+    {
+     "@id": "cm:mehrabian-myth"
+    },
+    {
+     "@id": "cm:paralanguage"
+    },
+    {
+     "@id": "cm:perception-checking"
+    }
+   ]
+  },
+  {
    "@id": "cm:monroes-motivated-sequence",
    "@type": "cmo:Framework",
    "cmo:appliedIn": {
@@ -28653,6 +28743,38 @@
    "schema:text": "In writing, mirror sparingly and early - reuse their terms and framing in your first replies instead of substituting your own jargon."
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/mixed-messages/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:mixed-messages"
+   },
+   "rdfs:label": "If someone heard only my tone and saw only my face, would they reach the same conclusion as from my words?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/mixed-messages/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:mixed-messages"
+   },
+   "rdfs:label": "Am I saying \"it's fine\" or \"no problem\" about something I am actually unhappy with?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/mixed-messages/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:mixed-messages"
+   },
+   "rdfs:label": "When someone's words and manner just disagreed, did I ask, or did I silently pick one and act on it?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/mixed-messages/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:mixed-messages"
+   },
+   "rdfs:label": "Would this listener's culture lead them to weigh my tone more, or my words more, than I expect?"
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -43433,6 +43555,90 @@
    "dcterms:title": "Mimicry: The Latest Negotiating Strategy",
    "schema:url": {
     "@id": "https://knowledge.insead.edu/leadership-organisations/mimicry-latest-negotiating-strategy"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/mixed-messages/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Macmillan Learning (interpersonal communication textbook, online edition)",
+   "dcterms:title": "Reflect & Relate, 4th ed., ch. 8: Nonverbal Communication (section 8.2)",
+   "schema:url": {
+    "@id": "https://digfir-published.macmillanusa.com/reflectrelate4e/reflectrelate4e_ch08_2.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/mixed-messages/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Morton, J. B. & Trehub, S. E., Child Development 72(3), 2001, pp. 834-843 (author lab copy, Western University)",
+   "dcterms:title": "Children's understanding of emotion in speech",
+   "schema:url": {
+    "@id": "https://cdnl.uwo.ca/publications/publication_downloads/Childrens%20understanding%20of%20emotion%20in%20speech.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/mixed-messages/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Ishii, K., Reyes, J. A. & Kitayama, S., Psychological Science 14(1), 2003, pp. 39-46 (De La Salle University repository record)",
+   "dcterms:title": "Spontaneous attention to word content versus emotional tone: Differences among three cultures",
+   "schema:url": {
+    "@id": "https://animorepository.dlsu.edu.ph/faculty_research/4422"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/mixed-messages/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "David Lapakko, Communication and Theater Association of Minnesota Journal 34 (2007), pp. 7-19 (full text)",
+   "dcterms:title": "Communication is 93% Nonverbal: An Urban Legend Proliferates",
+   "schema:url": {
+    "@id": "https://cornerstone.lib.mnsu.edu/cgi/viewcontent.cgi?article=1000&context=ctamj"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/mixed-messages/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Macmillan Learning (introductory communication textbook, online edition)",
+   "dcterms:title": "Choices & Connections, 2nd ed., ch. 6.4: Nonverbal communication conveys more meaning than verbal communication",
+   "schema:url": {
+    "@id": "https://digfir-published.macmillanusa.com/choicesconnections2e/choicesconnections2e_ch6_4.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/mixed-messages/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Laura Westmaas, eCampusOntario Pressbooks open textbook (CC BY-NC-SA 4.0)",
+   "dcterms:title": "Conflict Management, section 6.4: Examining our Perceptions in Conflict",
+   "schema:url": {
+    "@id": "https://ecampusontario.pressbooks.pub/conflictmanagement/chapter/6-4-title/"
    }
   },
   {

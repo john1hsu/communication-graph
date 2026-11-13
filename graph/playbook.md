@@ -1763,6 +1763,14 @@ Ask yourself:
 - Did I use any hand sign whose meaning might differ for someone from another culture in the room?
 - Was I relying on gestures to carry a point that people on audio or reading the slides afterwards would miss?
 
+### [Mixed messages](../articles/nonverbal-and-voice/mixed-messages.md) — Barrier
+
+Ask yourself:
+- If someone heard only my tone and saw only my face, would they reach the same conclusion as from my words?
+- Am I saying "it's fine" or "no problem" about something I am actually unhappy with?
+- When someone's words and manner just disagreed, did I ask, or did I silently pick one and act on it?
+- Would this listener's culture lead them to weigh my tone more, or my words more, than I expect?
+
 ### [Silence and pauses](../articles/nonverbal-and-voice/silence-and-pauses.md) — Skill
 
 Ask yourself:
