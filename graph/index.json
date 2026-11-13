@@ -20877,6 +20877,136 @@
   ]
  },
  {
+  "id": "cm:service-recovery",
+  "title": "Service recovery",
+  "aliases": [
+   "complaint handling",
+   "handling client complaints",
+   "service failure recovery",
+   "recovering from a service failure"
+  ],
+  "type": "Technique",
+  "domain": "executive-and-client-communication",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/executive-and-client-communication/service-recovery.md",
+  "created": "2026-11-13",
+  "summary": "The way a person or team responds after letting a client or customer down - acknowledging the complaint, putting the outcome right, explaining what happened and treating the person with respect - so that satisfaction, trust and the relationship are restored rather than lost.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:trust-repair"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:client-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:apology"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:delivering-bad-news"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:escalation-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:expectation-disconfirmation-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:trusted-advisor"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:active-listening"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:status-reporting"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:active-listening"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:gelbrich-roschk-2011",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:davidow-2003",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:organizational-justice",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:de-matos-henrique-rossi-2007",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedIn",
+    "object": "cm:the-profitable-art-of-service-recovery",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:apology",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:client-communication",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Have I let the client finish and restated the problem and its impact in their terms before I start explaining?",
+   "Does my reply include a tangible fix or remedy, or only sympathy?",
+   "Have I asked the client what outcome they want instead of guessing?",
+   "Have I given a specific time for the next update, and will one named person own it?",
+   "Am I explaining the cause to restore confidence, or to shift blame onto another team or the client?",
+   "Am I counting on a great recovery to make the client happier than if nothing had gone wrong?"
+  ],
+  "steps": [
+   "Thank the client for raising it and listen to the whole complaint before defending, explaining or offering anything; then restate the problem and its impact on them in your own words.",
+   "Apologise for the specific failure if the complaint is legitimate, without arguing about fault in the first reply.",
+   "Ask what outcome would put them right, and offer a concrete fix that at least restores their position (redo, credit, refund or extra resource) - do not rely on courtesy alone.",
+   "Give a firm time for the next update or the fix, make it easy for them to reach one named person, and meet that time.",
+   "Explain plainly what went wrong and what you are changing so it does not happen again, once you actually know.",
+   "Close the loop - confirm with the client that the fix worked and log the cause so the team can prevent a repeat."
+  ],
+  "example": {
+   "situation": "An agency missed a client's campaign launch date because a hand-off between two internal teams was dropped, and the client's marketing lead emails to complain.",
+   "before": "Hi Sam, thanks for your note. Unfortunately the delay was caused by factors outside the account team's control and the creative team was dealing with resourcing issues. We are working on it and will update you when we can.",
+   "after": "Sam, you're right - we missed the launch date we committed to, and that's on us. It left your team without the campaign for your trade-show week. The assets will be live by Thursday 10am; I'll confirm personally when they are. We won't bill this month's management fee, and if you'd prefer a different remedy, tell me what would work. The cause was a dropped hand-off between our two teams; from today every launch has a single named owner on our side, and that's me for your account. Can I call you at 3pm to walk through it?",
+   "why": "The rewrite acknowledges the specific failure and its cost to the client, offers a concrete remedy and asks what they want, sets a firm time and a single point of contact, and explains the cause with a prevention step - covering outcome, procedure and respectful treatment rather than deflecting blame."
+  },
+  "source_urls": [
+   "https://core.ac.uk/download/224752101.pdf",
+   "https://studysites.uk.sagepub.com/clow/study/articles/PDFs/14_Davidow.pdf",
+   "https://independent.academia.edu/MatosCelso",
+   "https://data.zhenzhi.com/details/1/907792115",
+   "https://store.hbr.org/product/profitable-art-of-service-recovery/90407"
+  ]
+ },
+ {
   "id": "cm:setting-reply-time-expectations",
   "title": "Setting reply-time expectations",
   "aliases": [

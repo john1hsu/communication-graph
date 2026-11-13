@@ -536,6 +536,14 @@
 <https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/risk-numbers-as-natural-frequencies/s3> .
 <https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/risk-numbers-as-natural-frequencies/s4> .
 <https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/risk-numbers-as-natural-frequencies/s5> .
+<https://github.com/john1hsu/communication-graph/id/service-recovery#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/service-recovery#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/service-recovery> .
+<https://github.com/john1hsu/communication-graph/id/service-recovery#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/executive-and-client-communication/service-recovery.md" .
+<https://github.com/john1hsu/communication-graph/id/service-recovery#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/service-recovery/s1> .
+<https://github.com/john1hsu/communication-graph/id/service-recovery#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/service-recovery/s2> .
+<https://github.com/john1hsu/communication-graph/id/service-recovery#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/service-recovery/s3> .
+<https://github.com/john1hsu/communication-graph/id/service-recovery#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/service-recovery/s4> .
+<https://github.com/john1hsu/communication-graph/id/service-recovery#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/service-recovery/s5> .
 <https://github.com/john1hsu/communication-graph/id/status-reporting#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/status-reporting#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/status-reporting> .
 <https://github.com/john1hsu/communication-graph/id/status-reporting#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/executive-and-client-communication/status-reporting.md" .
@@ -7768,6 +7776,126 @@
   <https://github.com/john1hsu/communication-graph/id/source/risk-numbers-as-natural-frequencies/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
   <https://github.com/john1hsu/communication-graph/id/source/risk-numbers-as-natural-frequencies/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
   <https://github.com/john1hsu/communication-graph/id/source/risk-numbers-as-natural-frequencies/s5> <https://schema.org/url> <https://repository.essex.ac.uk/37751/1/1-s2.0-S0010027724000088-main.pdf> .
+}
+
+<https://github.com/john1hsu/communication-graph/id/service-recovery#graph> {
+  <https://github.com/john1hsu/communication-graph/id/service-recovery/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Have I let the client finish and restated the problem and its impact in their terms before I start explaining?" .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/service-recovery> .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Does my reply include a tangible fix or remedy, or only sympathy?" .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/service-recovery> .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Have I asked the client what outcome they want instead of guessing?" .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/service-recovery> .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Have I given a specific time for the next update, and will one named person own it?" .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/service-recovery> .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery/check/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery/check/5> <http://www.w3.org/2000/01/rdf-schema#label> "Am I explaining the cause to restore confidence, or to shift blame onto another team or the client?" .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery/check/5> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/service-recovery> .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery/check/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery/check/6> <http://www.w3.org/2000/01/rdf-schema#label> "Am I counting on a great recovery to make the client happier than if nothing had gone wrong?" .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery/check/6> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/service-recovery> .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery/example> <https://github.com/john1hsu/communication-graph/ontology#after> "Sam, you're right - we missed the launch date we committed to, and that's on us. It left your team without the campaign for your trade-show week. The assets will be live by Thursday 10am; I'll confirm personally when they are. We won't bill this month's management fee, and if you'd prefer a different remedy, tell me what would work. The cause was a dropped hand-off between our two teams; from today every launch has a single named owner on our side, and that's me for your account. Can I call you at 3pm to walk through it?" .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery/example> <https://github.com/john1hsu/communication-graph/ontology#before> "Hi Sam, thanks for your note. Unfortunately the delay was caused by factors outside the account team's control and the creative team was dealing with resourcing issues. We are working on it and will update you when we can." .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "An agency missed a client's campaign launch date because a hand-off between two internal teams was dropped, and the client's marketing lead emails to complain." .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery/example> <https://github.com/john1hsu/communication-graph/ontology#why> "The rewrite acknowledges the specific failure and its cost to the client, offers a concrete remedy and asks what they want, sets a firm time and a single point of contact, and explains the cause with a prevention step - covering outcome, procedure and respectful treatment rather than deflecting blame." .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery/howto/1> <https://schema.org/text> "Thank the client for raising it and listen to the whole complaint before defending, explaining or offering anything; then restate the problem and its impact on them in your own words." .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery/howto/2> <https://schema.org/text> "Apologise for the specific failure if the complaint is legitimate, without arguing about fault in the first reply." .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery/howto/3> <https://schema.org/text> "Ask what outcome would put them right, and offer a concrete fix that at least restores their position (redo, credit, refund or extra resource) - do not rely on courtesy alone." .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery/howto/4> <https://schema.org/text> "Give a firm time for the next update or the fix, make it easy for them to reach one named person, and meet that time." .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery/howto/5> <https://schema.org/text> "Explain plainly what went wrong and what you are changing so it does not happen again, once you actually know." .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery/howto/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery/howto/6> <https://schema.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery/howto/6> <https://schema.org/text> "Close the loop - confirm with the client that the fix worked and log the cause so the team can prevent a repeat." .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery/howto> <https://schema.org/name> "Service recovery" .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/service-recovery/howto/1> .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/service-recovery/howto/2> .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/service-recovery/howto/3> .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/service-recovery/howto/4> .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/service-recovery/howto/5> .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/service-recovery/howto/6> .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery> <http://purl.org/dc/terms/created> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Technique> .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery> <http://www.w3.org/2000/01/rdf-schema#label> "Service recovery" .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery> <http://www.w3.org/2004/02/skos/core#altLabel> "complaint handling" .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery> <http://www.w3.org/2004/02/skos/core#altLabel> "handling client complaints" .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery> <http://www.w3.org/2004/02/skos/core#altLabel> "recovering from a service failure" .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery> <http://www.w3.org/2004/02/skos/core#altLabel> "service failure recovery" .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/trust-repair> .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery> <http://www.w3.org/2004/02/skos/core#definition> "The way a person or team responds after letting a client or customer down - acknowledging the complaint, putting the outcome right, explaining what happened and treating the person with respect - so that satisfaction, trust and the relationship are restored rather than lost." .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/executive-and-client-communication> .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery> <http://www.w3.org/2004/02/skos/core#prefLabel> "Service recovery" .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/apology> .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/client-communication> .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/escalation-communication> .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/status-reporting> .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/trusted-advisor> .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/service-recovery/s1> .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/service-recovery/s2> .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/service-recovery/s3> .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/service-recovery/s4> .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/service-recovery/s5> .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/client-communication> .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/de-matos-henrique-rossi-2007> .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/apology> .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery> <https://github.com/john1hsu/communication-graph/ontology#domain> "executive-and-client-communication" .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/service-recovery/example> .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/organizational-justice> .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/executive-and-client-communication/service-recovery.md" .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/service-recovery/howto> .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery> <https://github.com/john1hsu/communication-graph/ontology#introducedIn> <https://github.com/john1hsu/communication-graph/id/the-profitable-art-of-service-recovery> .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/davidow-2003> .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/gelbrich-roschk-2011> .
+  <https://github.com/john1hsu/communication-graph/id/source/service-recovery/s1> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/service-recovery/s1> <http://purl.org/dc/terms/publisher> "Katja Gelbrich & Holger Roschk, Journal of Service Research 14(1), 24-43, 2011 (open-access repository version via CORE)" .
+  <https://github.com/john1hsu/communication-graph/id/source/service-recovery/s1> <http://purl.org/dc/terms/title> "A Meta-Analysis of Organizational Complaint Handling and Customer Responses" .
+  <https://github.com/john1hsu/communication-graph/id/source/service-recovery/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/service-recovery/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/service-recovery/s1> <https://schema.org/url> <https://core.ac.uk/download/224752101.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/service-recovery/s2> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/service-recovery/s2> <http://purl.org/dc/terms/publisher> "Moshe Davidow, Journal of Service Research 5(3), 225-250, 2003, doi:10.1177/1094670502238917 (SAGE companion-site reprint)" .
+  <https://github.com/john1hsu/communication-graph/id/source/service-recovery/s2> <http://purl.org/dc/terms/title> "Organizational Responses to Customer Complaints: What Works and What Doesn't" .
+  <https://github.com/john1hsu/communication-graph/id/source/service-recovery/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/service-recovery/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/service-recovery/s2> <https://schema.org/url> <https://studysites.uk.sagepub.com/clow/study/articles/PDFs/14_Davidow.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/service-recovery/s3> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/service-recovery/s3> <http://purl.org/dc/terms/publisher> "Celso A. de Matos, Jorge L. Henrique & Carlos A. Vargas Rossi, Journal of Service Research 10(1), 60-77, 2007, doi:10.1177/1094670507303012 (author's Academia.edu listing with abstract)" .
+  <https://github.com/john1hsu/communication-graph/id/source/service-recovery/s3> <http://purl.org/dc/terms/title> "Service Recovery Paradox: A Meta-Analysis" .
+  <https://github.com/john1hsu/communication-graph/id/source/service-recovery/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/service-recovery/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/service-recovery/s3> <https://schema.org/url> <https://independent.academia.edu/MatosCelso> .
+  <https://github.com/john1hsu/communication-graph/id/source/service-recovery/s4> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/service-recovery/s4> <http://purl.org/dc/terms/publisher> "Stephen S. Tax, Stephen W. Brown & Murali Chandrashekaran, Journal of Marketing 62(2), 60-76, 1998, doi:10.2307/1252161 (Zhenzhi abstract record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/service-recovery/s4> <http://purl.org/dc/terms/title> "Customer evaluations of service complaint experiences: Implications for relationship marketing" .
+  <https://github.com/john1hsu/communication-graph/id/source/service-recovery/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/service-recovery/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/service-recovery/s4> <https://schema.org/url> <https://data.zhenzhi.com/details/1/907792115> .
+  <https://github.com/john1hsu/communication-graph/id/source/service-recovery/s5> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/service-recovery/s5> <http://purl.org/dc/terms/publisher> "Christopher W. L. Hart, James L. Heskett & W. Earl Sasser Jr., Harvard Business Review, July 1990 (HBR Store product page)" .
+  <https://github.com/john1hsu/communication-graph/id/source/service-recovery/s5> <http://purl.org/dc/terms/title> "The Profitable Art of Service Recovery" .
+  <https://github.com/john1hsu/communication-graph/id/source/service-recovery/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/service-recovery/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "practitioner-journal" .
+  <https://github.com/john1hsu/communication-graph/id/source/service-recovery/s5> <https://schema.org/url> <https://store.hbr.org/product/profitable-art-of-service-recovery/90407> .
 }
 
 <https://github.com/john1hsu/communication-graph/id/status-reporting#graph> {
@@ -23549,6 +23677,7 @@
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/receiving-feedback> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/reciprocal-self-disclosure> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/rob-buckman> .
+  <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/service-recovery> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/small-talk> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/the-physician-as-teacher> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/trusted-advisor> .
@@ -23575,6 +23704,7 @@
   <https://github.com/john1hsu/communication-graph/id/active-listening> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/group-decision-making> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/perspective-getting> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/role-reversal> .
+  <https://github.com/john1hsu/communication-graph/id/active-listening> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/service-recovery> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/trusted-advisor> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <https://github.com/john1hsu/communication-graph/ontology#underminedBy> <https://github.com/john1hsu/communication-graph/id/defensiveness> .
   <https://github.com/john1hsu/communication-graph/id/active-voice/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -23711,8 +23841,10 @@
   <https://github.com/john1hsu/communication-graph/id/apology> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/mea-culpa> .
   <https://github.com/john1hsu/communication-graph/id/apology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/mea-culpa> .
   <https://github.com/john1hsu/communication-graph/id/apology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/erving-goffman> .
+  <https://github.com/john1hsu/communication-graph/id/apology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/service-recovery> .
   <https://github.com/john1hsu/communication-graph/id/apology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/social-accounts> .
   <https://github.com/john1hsu/communication-graph/id/apology> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/social-accounts> .
+  <https://github.com/john1hsu/communication-graph/id/apology> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/service-recovery> .
   <https://github.com/john1hsu/communication-graph/id/apology> <https://github.com/john1hsu/communication-graph/ontology#introducedIn> <https://github.com/john1hsu/communication-graph/id/mea-culpa> .
   <https://github.com/john1hsu/communication-graph/id/apology> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/mea-culpa> .
   <https://github.com/john1hsu/communication-graph/id/aristotle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -24373,6 +24505,8 @@
   <https://github.com/john1hsu/communication-graph/id/client-communication> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
   <https://github.com/john1hsu/communication-graph/id/client-communication> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/client-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/david-maister> .
+  <https://github.com/john1hsu/communication-graph/id/client-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/service-recovery> .
+  <https://github.com/john1hsu/communication-graph/id/client-communication> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/service-recovery> .
   <https://github.com/john1hsu/communication-graph/id/client-communication> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/trusted-advisor> .
   <https://github.com/john1hsu/communication-graph/id/client-communication> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/david-maister> .
   <https://github.com/john1hsu/communication-graph/id/clingingsmith-shane-2018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -24965,6 +25099,7 @@
   <https://github.com/john1hsu/communication-graph/id/david-l-bradford> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/influence-without-authority> .
   <https://github.com/john1hsu/communication-graph/id/david-maister> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/david-maister> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/trusted-advisor> .
+  <https://github.com/john1hsu/communication-graph/id/davidow-2003> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/service-recovery> .
   <https://github.com/john1hsu/communication-graph/id/de-dreu-weingart-2003> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/conflict-resolution> .
   <https://github.com/john1hsu/communication-graph/id/de-dreu-weingart-kwon-2000> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/integrative-negotiation> .
   <https://github.com/john1hsu/communication-graph/id/de-escalation/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -24987,6 +25122,7 @@
   <https://github.com/john1hsu/communication-graph/id/de-escalation> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/avrim-fishkind> .
   <https://github.com/john1hsu/communication-graph/id/de-ira> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/de-jong-2010> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/cognitive-load> .
+  <https://github.com/john1hsu/communication-graph/id/de-matos-henrique-rossi-2007> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/service-recovery> .
   <https://github.com/john1hsu/communication-graph/id/de-wit-greer-jehn-2012> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/conflict-resolution> .
   <https://github.com/john1hsu/communication-graph/id/deaf-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/escalation-communication> .
   <https://github.com/john1hsu/communication-graph/id/deaf-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mum-effect> .
@@ -25048,6 +25184,7 @@
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/rob-buckman> .
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/saying-no> .
+  <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/service-recovery> .
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/status-reporting> .
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/message-structure> .
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/social-accounts> .
@@ -25486,6 +25623,7 @@
   <https://github.com/john1hsu/communication-graph/id/escalation-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/client-communication> .
   <https://github.com/john1hsu/communication-graph/id/escalation-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mccallum-erie-railroad-report> .
   <https://github.com/john1hsu/communication-graph/id/escalation-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mum-effect> .
+  <https://github.com/john1hsu/communication-graph/id/escalation-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/service-recovery> .
   <https://github.com/john1hsu/communication-graph/id/escalation-communication> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
   <https://github.com/john1hsu/communication-graph/id/escalation-of-commitment> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/devils-advocacy> .
   <https://github.com/john1hsu/communication-graph/id/espevik-et-al-2021> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/closed-loop-communication> .
@@ -25559,6 +25697,7 @@
   <https://github.com/john1hsu/communication-graph/id/executive-summary> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability> .
   <https://github.com/john1hsu/communication-graph/id/executive-summary> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/informative-headings> .
   <https://github.com/john1hsu/communication-graph/id/expectancy-violations-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/proxemics> .
+  <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/service-recovery> .
   <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/client-communication> .
   <https://github.com/john1hsu/communication-graph/id/exposure-therapy> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/systematic-desensitization> .
   <https://github.com/john1hsu/communication-graph/id/exposure-therapy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/systematic-desensitization> .
@@ -25901,6 +26040,7 @@
   <https://github.com/john1hsu/communication-graph/id/geert-hofstede> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/geert-hofstede> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/geert-hofstede> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/hofstede-cultural-dimensions> .
+  <https://github.com/john1hsu/communication-graph/id/gelbrich-roschk-2011> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/service-recovery> .
   <https://github.com/john1hsu/communication-graph/id/general-semantics> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate> .
   <https://github.com/john1hsu/communication-graph/id/geoffrey-l-cohen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/geoffrey-l-cohen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
@@ -27725,6 +27865,7 @@
   <https://github.com/john1hsu/communication-graph/id/organizational-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
   <https://github.com/john1hsu/communication-graph/id/organizational-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mccallum-erie-railroad-report> .
   <https://github.com/john1hsu/communication-graph/id/organizational-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/social-psychology> .
+  <https://github.com/john1hsu/communication-graph/id/organizational-justice> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/service-recovery> .
   <https://github.com/john1hsu/communication-graph/id/orvell-et-al-2021> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/self-distancing> .
   <https://github.com/john1hsu/communication-graph/id/over-accommodation> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/saying-no> .
   <https://github.com/john1hsu/communication-graph/id/overoye-wilson-2020> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/gestures> .
@@ -28745,6 +28886,16 @@
   <https://github.com/john1hsu/communication-graph/id/seneca> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/seneca> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/seneca> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/de-ira> .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery/check/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery/check/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/service-recovery> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/trust-repair> .
   <https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -29178,6 +29329,7 @@
   <https://github.com/john1hsu/communication-graph/id/status-reporting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/michael-ross> .
   <https://github.com/john1hsu/communication-graph/id/status-reporting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mum-effect> .
   <https://github.com/john1hsu/communication-graph/id/status-reporting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
+  <https://github.com/john1hsu/communication-graph/id/status-reporting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/service-recovery> .
   <https://github.com/john1hsu/communication-graph/id/status-reporting> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/escalation-communication> .
   <https://github.com/john1hsu/communication-graph/id/status-reporting> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/managing-up> .
   <https://github.com/john1hsu/communication-graph/id/status-reporting> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/client-communication> .
@@ -29344,6 +29496,9 @@
   <https://github.com/john1hsu/communication-graph/id/the-presentation-of-self-in-everyday-life> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
   <https://github.com/john1hsu/communication-graph/id/the-presentation-of-self-in-everyday-life> <https://github.com/john1hsu/communication-graph/ontology#authoredBy> <https://github.com/john1hsu/communication-graph/id/erving-goffman> .
   <https://github.com/john1hsu/communication-graph/id/the-presentation-of-self-in-everyday-life> <https://github.com/john1hsu/communication-graph/ontology#introduces> <https://github.com/john1hsu/communication-graph/id/impression-management> .
+  <https://github.com/john1hsu/communication-graph/id/the-profitable-art-of-service-recovery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/the-profitable-art-of-service-recovery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
+  <https://github.com/john1hsu/communication-graph/id/the-profitable-art-of-service-recovery> <https://github.com/john1hsu/communication-graph/ontology#introduces> <https://github.com/john1hsu/communication-graph/id/service-recovery> .
   <https://github.com/john1hsu/communication-graph/id/the-pros-and-cons-of-getting-to-yes> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/interests-vs-positions> .
   <https://github.com/john1hsu/communication-graph/id/the-pros-and-cons-of-getting-to-yes> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/principled-negotiation> .
   <https://github.com/john1hsu/communication-graph/id/the-psychology-of-curiosity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -29428,9 +29583,11 @@
   <https://github.com/john1hsu/communication-graph/id/transactional-model-of-communication> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/shannon-weaver-model> .
   <https://github.com/john1hsu/communication-graph/id/troy-moua-van-boekel-2024> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/wise-feedback> .
   <https://github.com/john1hsu/communication-graph/id/trust-repair> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/apology> .
+  <https://github.com/john1hsu/communication-graph/id/trust-repair> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/service-recovery> .
   <https://github.com/john1hsu/communication-graph/id/trust-repair> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/social-accounts> .
   <https://github.com/john1hsu/communication-graph/id/trust-repair> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/apology> .
   <https://github.com/john1hsu/communication-graph/id/trust-repair> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/mea-culpa> .
+  <https://github.com/john1hsu/communication-graph/id/trust-repair> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/service-recovery> .
   <https://github.com/john1hsu/communication-graph/id/trust-repair> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/social-accounts> .
   <https://github.com/john1hsu/communication-graph/id/trust-repair> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mea-culpa> .
   <https://github.com/john1hsu/communication-graph/id/trust-repair> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/trusted-advisor> .
@@ -29447,6 +29604,7 @@
   <https://github.com/john1hsu/communication-graph/id/trusted-advisor> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/trusted-advisor> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/client-communication> .
   <https://github.com/john1hsu/communication-graph/id/trusted-advisor> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/david-maister> .
+  <https://github.com/john1hsu/communication-graph/id/trusted-advisor> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/service-recovery> .
   <https://github.com/john1hsu/communication-graph/id/tsedal-neeley> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/uncertainty-reduction-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
   <https://github.com/john1hsu/communication-graph/id/unclear-ownership> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/active-voice> .

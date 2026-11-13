@@ -4,11 +4,11 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 
 | Score | Node A | Node B | Shared neighbours |
 |---|---|---|---|
-| 4.94 | `cm:audience-analysis` | `cm:credibility` | `cm:aristotles-rhetoric`, `cm:charismatic-leadership-tactics`, `cm:client-communication`, `cm:communicating-uncertainty`, `cm:elaboration-likelihood-model` |
+| 4.93 | `cm:audience-analysis` | `cm:credibility` | `cm:aristotles-rhetoric`, `cm:charismatic-leadership-tactics`, `cm:client-communication`, `cm:communicating-uncertainty`, `cm:elaboration-likelihood-model` |
 | 3.88 | `cm:distributive-negotiation` | `cm:multiple-equivalent-simultaneous-offers` | `cm:anchoring-and-adjustment`, `cm:batna`, `cm:concession-strategy`, `cm:first-offer`, `cm:integrative-negotiation` |
 | 3.84 | `cm:integrative-negotiation` | `cm:negotiation-preparation` | `cm:batna`, `cm:concession-strategy`, `cm:distributive-negotiation`, `cm:first-offer`, `cm:interests-vs-positions` |
 | 3.57 | `cm:clarity` | `cm:email` | `cm:audience-analysis`, `cm:bottom-line-up-front`, `cm:bulleted-and-numbered-lists`, `cm:burying-the-lede`, `cm:concise-writing` |
-| 3.52 | `cm:bottom-line-up-front` | `cm:death-by-powerpoint` | `cm:assertion-evidence-slides`, `cm:bulleted-and-numbered-lists`, `cm:burying-the-lede`, `cm:clarity`, `cm:cognitive-load` |
+| 3.51 | `cm:bottom-line-up-front` | `cm:death-by-powerpoint` | `cm:assertion-evidence-slides`, `cm:bulleted-and-numbered-lists`, `cm:burying-the-lede`, `cm:clarity`, `cm:cognitive-load` |
 | 3.45 | `cm:active-listening` | `cm:feedback` | `cm:communication-competence`, `cm:defensiveness`, `cm:difficult-conversation`, `cm:feedforward`, `cm:one-on-one-meetings` |
 | 3.33 | `cm:audience-analysis` | `cm:wall-of-text` | `cm:bottom-line-up-front`, `cm:business-report`, `cm:clarity`, `cm:concise-writing`, `cm:email` |
 | 3.24 | `cm:egocentric-bias` | `cm:email` | `cm:checking-understanding`, `cm:curse-of-knowledge`, `cm:digital-communication`, `cm:email-urgency-bias-study`, `cm:emoji-and-tone-in-text` |
@@ -16,8 +16,8 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 3.15 | `cm:channel-selection` | `cm:egocentric-bias` | `cm:common-ground`, `cm:curse-of-knowledge`, `cm:digital-communication`, `cm:egocentrism-over-email-study`, `cm:emoji-and-tone-in-text` |
 | 3.12 | `cm:chat-etiquette` | `cm:email` | `cm:asynchronous-communication`, `cm:bottom-line-up-front`, `cm:channel-selection`, `cm:digital-communication`, `cm:emoji-and-tone-in-text` |
 | 3.05 | `cm:one-on-one-meetings` | `cm:situation-behavior-impact` | `cm:active-listening`, `cm:feedback`, `cm:feedforward`, `cm:grow-model`, `cm:hattie-timperley-feedback-model` |
-| 3.03 | `cm:delivering-bad-news` | `cm:managing-up` | `cm:bottom-line-up-front`, `cm:channel-selection`, `cm:client-communication`, `cm:communicating-uncertainty`, `cm:escalation-communication` |
 | 3.01 | `cm:pyramid-principle` | `cm:wall-of-text` | `cm:bottom-line-up-front`, `cm:burying-the-lede`, `cm:business-report`, `cm:executive-summary`, `cm:informative-headings` |
+| 3.01 | `cm:delivering-bad-news` | `cm:managing-up` | `cm:bottom-line-up-front`, `cm:channel-selection`, `cm:client-communication`, `cm:communicating-uncertainty`, `cm:escalation-communication` |
 | 2.95 | `cm:paralanguage` | `cm:presentation` | `cm:acoustic-speech-analysis-coaching`, `cm:charismatic-leadership-tactics`, `cm:executive-presence`, `cm:filled-pauses`, `cm:rebecca-hincks` |
 | 2.92 | `cm:mythical-fixed-pie` | `cm:principled-negotiation` | `cm:distributive-negotiation`, `cm:integrative-negotiation`, `cm:interests-vs-positions`, `cm:multiple-equivalent-simultaneous-offers`, `cm:negotiation` |
 | 2.88 | `cm:common-ground` | `cm:email` | `cm:asynchronous-communication`, `cm:audience-analysis`, `cm:channel-selection`, `cm:checking-understanding`, `cm:closed-loop-communication` |
@@ -25,7 +25,7 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 2.80 | `cm:bottom-line-up-front` | `cm:curse-of-knowledge` | `cm:assertion-evidence-slides`, `cm:audience-analysis`, `cm:channel-selection`, `cm:clarity`, `cm:cognitive-load` |
 | 2.79 | `cm:direct-vs-indirect-feedback` | `cm:intercultural-competence` | `cm:cultural-intelligence`, `cm:describe-analyze-evaluate`, `cm:ethnocentrism`, `cm:face-and-facework`, `cm:high-and-low-context-cultures` |
 | 2.78 | `cm:performance-review` | `cm:praise-and-recognition` | `cm:feedback`, `cm:feedback-sandwich`, `cm:feedforward`, `cm:hattie-timperley-feedback-model`, `cm:kluger-denisi-1996` |
-| 2.78 | `cm:credibility` | `cm:managing-up` | `cm:client-communication`, `cm:communicating-uncertainty`, `cm:elevator-pitch`, `cm:executive-presence`, `cm:impression-management` |
+| 2.77 | `cm:credibility` | `cm:managing-up` | `cm:client-communication`, `cm:communicating-uncertainty`, `cm:elevator-pitch`, `cm:executive-presence`, `cm:impression-management` |
 | 2.75 | `cm:labeling-emotions` | `cm:self-distancing` | `cm:anxiety-reappraisal`, `cm:cognitive-reappraisal`, `cm:cooling-off-period`, `cm:de-ira`, `cm:emotion-regulation` |
 | 2.74 | `cm:bottom-line-up-front` | `cm:presentation` | `cm:assertion-evidence-slides`, `cm:audience-analysis`, `cm:cognitive-load`, `cm:elevator-pitch`, `cm:executive-briefing` |
-| 2.72 | `cm:active-listening` | `cm:interpersonal-communication` | `cm:client-communication`, `cm:communication-competence`, `cm:one-on-one-meetings`, `cm:perspective-taking`, `cm:questioning` |
+| 2.71 | `cm:active-listening` | `cm:interpersonal-communication` | `cm:client-communication`, `cm:communication-competence`, `cm:one-on-one-meetings`, `cm:perspective-taking`, `cm:questioning` |

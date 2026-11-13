@@ -751,6 +751,31 @@ Ask yourself:
 - Does every number in my sentence clearly belong to one named group?
 - If someone asked "so of the ones flagged, how many are real?", have I already answered it?
 
+### [Service recovery](../articles/executive-and-client-communication/service-recovery.md) — Technique
+
+1. Thank the client for raising it and listen to the whole complaint before defending, explaining or offering anything; then restate the problem and its impact on them in your own words.
+2. Apologise for the specific failure if the complaint is legitimate, without arguing about fault in the first reply.
+3. Ask what outcome would put them right, and offer a concrete fix that at least restores their position (redo, credit, refund or extra resource) - do not rely on courtesy alone.
+4. Give a firm time for the next update or the fix, make it easy for them to reach one named person, and meet that time.
+5. Explain plainly what went wrong and what you are changing so it does not happen again, once you actually know.
+6. Close the loop - confirm with the client that the fix worked and log the cause so the team can prevent a repeat.
+
+*An agency missed a client's campaign launch date because a hand-off between two internal teams was dropped, and the client's marketing lead emails to complain.*
+
+| Before | After |
+|---|---|
+| Hi Sam, thanks for your note. Unfortunately the delay was caused by factors outside the account team's control and the creative team was dealing with resourcing issues. We are working on it and will update you when we can. | Sam, you're right - we missed the launch date we committed to, and that's on us. It left your team without the campaign for your trade-show week. The assets will be live by Thursday 10am; I'll confirm personally when they are. We won't bill this month's management fee, and if you'd prefer a different remedy, tell me what would work. The cause was a dropped hand-off between our two teams; from today every launch has a single named owner on our side, and that's me for your account. Can I call you at 3pm to walk through it? |
+
+**Why:** The rewrite acknowledges the specific failure and its cost to the client, offers a concrete remedy and asks what they want, sets a firm time and a single point of contact, and explains the cause with a prevention step - covering outcome, procedure and respectful treatment rather than deflecting blame.
+
+Ask yourself:
+- Have I let the client finish and restated the problem and its impact in their terms before I start explaining?
+- Does my reply include a tangible fix or remedy, or only sympathy?
+- Have I asked the client what outcome they want instead of guessing?
+- Have I given a specific time for the next update, and will one named person own it?
+- Am I explaining the cause to restore confidence, or to shift blame onto another team or the client?
+- Am I counting on a great recovery to make the client happier than if nothing had gone wrong?
+
 ### [Trusted advisor](../articles/executive-and-client-communication/trusted-advisor.md) — Framework
 
 *A consultant opens a steering-committee call with a client sponsor whose project is behind schedule.*

@@ -71,6 +71,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:asynchronous-communication` | `cm:setting-reply-time-expectations` |
 | `cm:business-report` | `cm:informative-headings` |
 | `cm:business-report` | `cm:pyramid-principle` |
+| `cm:client-communication` | `cm:service-recovery` |
 | `cm:client-communication` | `cm:trusted-advisor` |
 | `cm:communication-plan` | `cm:raci-matrix` |
 | `cm:communication-plan` | `cm:stakeholder-mapping` |
@@ -94,9 +95,8 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:email` | `cm:channel-selection` |
 | `cm:email` | `cm:checking-understanding` |
 | `cm:email` | `cm:closed-loop-communication` |
-| `cm:email` | `cm:concise-writing` |
 
-…and 117 more.
+…and 118 more.
 
 ## Myths and contested advice
 
@@ -135,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:apology` | mixed |  |
 | `cm:assertion-evidence-slides` | mixed | `cm:alzayed-alzamel-2023` |
 
-…and 142 more.
+…and 143 more.
 
 ## Concepts with no recorded origin (gap)
 

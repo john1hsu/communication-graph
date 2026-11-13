@@ -18414,6 +18414,108 @@
    ]
   },
   {
+   "@id": "cm:service-recovery",
+   "@type": "cmo:Technique",
+   "cmo:appliedIn": {
+    "@id": "cm:client-communication"
+   },
+   "cmo:challengedBy": {
+    "@id": "cm:de-matos-henrique-rossi-2007"
+   },
+   "cmo:complements": {
+    "@id": "cm:apology"
+   },
+   "cmo:domain": "executive-and-client-communication",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/service-recovery/example"
+   },
+   "cmo:explainedBy": {
+    "@id": "cm:organizational-justice"
+   },
+   "cmo:file": "articles/executive-and-client-communication/service-recovery.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/service-recovery/howto"
+   },
+   "cmo:introducedIn": {
+    "@id": "cm:the-profitable-art-of-service-recovery"
+   },
+   "cmo:level": "intermediate",
+   "cmo:requires": {
+    "@id": "cm:active-listening"
+   },
+   "cmo:supportedBy": [
+    {
+     "@id": "cm:davidow-2003"
+    },
+    {
+     "@id": "cm:gelbrich-roschk-2011"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/service-recovery/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/service-recovery/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/service-recovery/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/service-recovery/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/service-recovery/s5"
+    }
+   ],
+   "rdfs:label": "Service recovery",
+   "skos:altLabel": [
+    "complaint handling",
+    "handling client complaints",
+    "recovering from a service failure",
+    "service failure recovery"
+   ],
+   "skos:broader": {
+    "@id": "cm:trust-repair"
+   },
+   "skos:definition": "The way a person or team responds after letting a client or customer down - acknowledging the complaint, putting the outcome right, explaining what happened and treating the person with respect - so that satisfaction, trust and the relationship are restored rather than lost.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/executive-and-client-communication"
+   },
+   "skos:prefLabel": "Service recovery",
+   "skos:related": [
+    {
+     "@id": "cm:active-listening"
+    },
+    {
+     "@id": "cm:apology"
+    },
+    {
+     "@id": "cm:client-communication"
+    },
+    {
+     "@id": "cm:delivering-bad-news"
+    },
+    {
+     "@id": "cm:escalation-communication"
+    },
+    {
+     "@id": "cm:expectation-disconfirmation-theory"
+    },
+    {
+     "@id": "cm:status-reporting"
+    },
+    {
+     "@id": "cm:trusted-advisor"
+    }
+   ]
+  },
+  {
    "@id": "cm:setting-reply-time-expectations",
    "@type": "cmo:Technique",
    "cmo:addresses": {
@@ -30678,6 +30780,123 @@
    "@type": "schema:HowToStep",
    "schema:position": 6,
    "schema:text": "Record a second run, check whether those two habits changed, and ask a colleague to watch one clip if you can."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/service-recovery/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:service-recovery"
+   },
+   "rdfs:label": "Have I let the client finish and restated the problem and its impact in their terms before I start explaining?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/service-recovery/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:service-recovery"
+   },
+   "rdfs:label": "Does my reply include a tangible fix or remedy, or only sympathy?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/service-recovery/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:service-recovery"
+   },
+   "rdfs:label": "Have I asked the client what outcome they want instead of guessing?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/service-recovery/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:service-recovery"
+   },
+   "rdfs:label": "Have I given a specific time for the next update, and will one named person own it?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/service-recovery/check/5",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:service-recovery"
+   },
+   "rdfs:label": "Am I explaining the cause to restore confidence, or to shift blame onto another team or the client?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/service-recovery/check/6",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:service-recovery"
+   },
+   "rdfs:label": "Am I counting on a great recovery to make the client happier than if nothing had gone wrong?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/service-recovery/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "Sam, you're right - we missed the launch date we committed to, and that's on us. It left your team without the campaign for your trade-show week. The assets will be live by Thursday 10am; I'll confirm personally when they are. We won't bill this month's management fee, and if you'd prefer a different remedy, tell me what would work. The cause was a dropped hand-off between our two teams; from today every launch has a single named owner on our side, and that's me for your account. Can I call you at 3pm to walk through it?",
+   "cmo:before": "Hi Sam, thanks for your note. Unfortunately the delay was caused by factors outside the account team's control and the creative team was dealing with resourcing issues. We are working on it and will update you when we can.",
+   "cmo:situation": "An agency missed a client's campaign launch date because a hand-off between two internal teams was dropped, and the client's marketing lead emails to complain.",
+   "cmo:why": "The rewrite acknowledges the specific failure and its cost to the client, offers a concrete remedy and asks what they want, sets a firm time and a single point of contact, and explains the cause with a prevention step - covering outcome, procedure and respectful treatment rather than deflecting blame."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/service-recovery/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Service recovery",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/service-recovery/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/service-recovery/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/service-recovery/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/service-recovery/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/service-recovery/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/service-recovery/howto/6"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/service-recovery/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Thank the client for raising it and listen to the whole complaint before defending, explaining or offering anything; then restate the problem and its impact on them in your own words."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/service-recovery/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Apologise for the specific failure if the complaint is legitimate, without arguing about fault in the first reply."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/service-recovery/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Ask what outcome would put them right, and offer a concrete fix that at least restores their position (redo, credit, refund or extra resource) - do not rely on courtesy alone."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/service-recovery/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Give a firm time for the next update or the fix, make it easy for them to reach one named person, and meet that time."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/service-recovery/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Explain plainly what went wrong and what you are changing so it does not happen again, once you actually know."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/service-recovery/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "Close the loop - confirm with the client that the fix worked and log the cause so the team can prevent a repeat."
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations/check/1",
@@ -47130,6 +47349,76 @@
    "dcterms:title": "Nonverbal Aspects of Speech Delivery",
    "schema:url": {
     "@id": "https://sunyempirepublicspeaking.pressbooks.sunycreate.cloud/?p=408"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/service-recovery/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Katja Gelbrich & Holger Roschk, Journal of Service Research 14(1), 24-43, 2011 (open-access repository version via CORE)",
+   "dcterms:title": "A Meta-Analysis of Organizational Complaint Handling and Customer Responses",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/224752101.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/service-recovery/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Moshe Davidow, Journal of Service Research 5(3), 225-250, 2003, doi:10.1177/1094670502238917 (SAGE companion-site reprint)",
+   "dcterms:title": "Organizational Responses to Customer Complaints: What Works and What Doesn't",
+   "schema:url": {
+    "@id": "https://studysites.uk.sagepub.com/clow/study/articles/PDFs/14_Davidow.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/service-recovery/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Celso A. de Matos, Jorge L. Henrique & Carlos A. Vargas Rossi, Journal of Service Research 10(1), 60-77, 2007, doi:10.1177/1094670507303012 (author's Academia.edu listing with abstract)",
+   "dcterms:title": "Service Recovery Paradox: A Meta-Analysis",
+   "schema:url": {
+    "@id": "https://independent.academia.edu/MatosCelso"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/service-recovery/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Stephen S. Tax, Stephen W. Brown & Murali Chandrashekaran, Journal of Marketing 62(2), 60-76, 1998, doi:10.2307/1252161 (Zhenzhi abstract record)",
+   "dcterms:title": "Customer evaluations of service complaint experiences: Implications for relationship marketing",
+   "schema:url": {
+    "@id": "https://data.zhenzhi.com/details/1/907792115"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/service-recovery/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "practitioner-journal",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Christopher W. L. Hart, James L. Heskett & W. Earl Sasser Jr., Harvard Business Review, July 1990 (HBR Store product page)",
+   "dcterms:title": "The Profitable Art of Service Recovery",
+   "schema:url": {
+    "@id": "https://store.hbr.org/product/profitable-art-of-service-recovery/90407"
    }
   },
   {
