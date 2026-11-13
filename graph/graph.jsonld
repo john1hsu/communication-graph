@@ -13393,6 +13393,80 @@
    ]
   },
   {
+   "@id": "cm:neil-rackham",
+   "@type": "cmo:Person",
+   "cmo:authored": {
+    "@id": "cm:spin-selling"
+   },
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "historical",
+   "cmo:file": "articles/thinkers-and-works/neil-rackham.md",
+   "cmo:introduced": {
+    "@id": "cm:checking-understanding"
+   },
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/neil-rackham/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/neil-rackham/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/neil-rackham/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/neil-rackham/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/neil-rackham/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/neil-rackham/s6"
+    }
+   ],
+   "rdfs:label": "Neil Rackham",
+   "skos:altLabel": [
+    "Neil Rackham (sales researcher)",
+    "Rackham"
+   ],
+   "skos:definition": "British behavioural researcher and founder of the Huthwaite research group whose direct observation of real negotiations and sales calls - notably the 1978 skilled-negotiator study with John Carlisle and the SPIN selling research - turned habits such as testing understanding, summarizing and asking questions into named, countable behaviours that can be trained.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "Neil Rackham",
+   "skos:related": [
+    {
+     "@id": "cm:checking-understanding"
+    },
+    {
+     "@id": "cm:closed-loop-communication"
+    },
+    {
+     "@id": "cm:negotiation"
+    },
+    {
+     "@id": "cm:negotiation-preparation"
+    },
+    {
+     "@id": "cm:open-ended-questions"
+    },
+    {
+     "@id": "cm:questioning"
+    },
+    {
+     "@id": "cm:rackham-carlisle-1978"
+    },
+    {
+     "@id": "cm:summarizing"
+    }
+   ]
+  },
+  {
    "@id": "cm:nicholas-epley",
    "@type": "cmo:Person",
    "cmo:authored": {
@@ -43023,6 +43097,90 @@
    "dcterms:title": "Beyond the Bottom Line",
    "schema:url": {
     "@id": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/beyond-the-bottom-line"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/neil-rackham/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Rackham & Carlisle, Journal of European Industrial Training 2(6), 6-11 (1978), Emerald Publishing, doi:10.1108/eb002297",
+   "dcterms:title": "The Effective Negotiator, Part I: The Behaviour of Successful Negotiators",
+   "schema:url": {
+    "@id": "https://emerald.com/insight/content/doi/10.1108/eb002297/full/html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/neil-rackham/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Huthwaite International",
+   "dcterms:title": "Developing effective negotiation skills (white paper)",
+   "schema:url": {
+    "@id": "https://www.huthwaiteinternational.com/hubfs/Whitepapers%20-%202025/Whitepaper%20PDFs/Developing%20effective%20Negotiation%20skills.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/neil-rackham/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Hal Movius, Negotiation Journal 24(4), 509-531 (2008), doi:10.1111/j.1571-9979.2008.00201.x - author copy hosted by the Consensus Building Institute",
+   "dcterms:title": "On Teaching: The Effectiveness of Negotiation Training",
+   "schema:url": {
+    "@id": "https://www.cbi.org/assets/files/CBI_Effectiveness_Negotiation_Training.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/neil-rackham/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Neil Rackham, Routledge (publisher's book page)",
+   "dcterms:title": "SPIN-Selling (1st edition)",
+   "schema:url": {
+    "@id": "https://www.routledge.com/SPIN-Selling-1st-Edition/Rackham/p/book/9780566076893"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/neil-rackham/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Huthwaite International blog, 6 February 2026",
+   "dcterms:title": "The origins of SPIN Selling (interview with Neil Rackham)",
+   "schema:url": {
+    "@id": "https://www.huthwaiteinternational.com/blog/origins-of-spin-selling"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/neil-rackham/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Ava J. Abramowitz (George Washington University Law School) & Jennifer Shack (Resolution Systems Institute), 2023, via the American Inns of Court",
+   "dcterms:title": "What Do Mediators Do That Creates Trust? (work in progress)",
+   "schema:url": {
+    "@id": "https://inns.innsofcourt.org/media/199163/what-do-mediators-do-to-build-trust.pdf"
    }
   },
   {

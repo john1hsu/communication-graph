@@ -7683,6 +7683,34 @@
 <https://github.com/john1hsu/communication-graph/id/negotiation> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/negotiation> <https://github.com/john1hsu/communication-graph/ontology#studiedIn> <https://github.com/john1hsu/communication-graph/id/social-psychology> .
 <https://github.com/john1hsu/communication-graph/id/negotiation> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/elshenawy-2010> .
+<https://github.com/john1hsu/communication-graph/id/neil-rackham> <http://purl.org/dc/terms/created> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/neil-rackham> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+<https://github.com/john1hsu/communication-graph/id/neil-rackham> <http://www.w3.org/2000/01/rdf-schema#label> "Neil Rackham" .
+<https://github.com/john1hsu/communication-graph/id/neil-rackham> <http://www.w3.org/2004/02/skos/core#altLabel> "Neil Rackham (sales researcher)" .
+<https://github.com/john1hsu/communication-graph/id/neil-rackham> <http://www.w3.org/2004/02/skos/core#altLabel> "Rackham" .
+<https://github.com/john1hsu/communication-graph/id/neil-rackham> <http://www.w3.org/2004/02/skos/core#definition> "British behavioural researcher and founder of the Huthwaite research group whose direct observation of real negotiations and sales calls - notably the 1978 skilled-negotiator study with John Carlisle and the SPIN selling research - turned habits such as testing understanding, summarizing and asking questions into named, countable behaviours that can be trained." .
+<https://github.com/john1hsu/communication-graph/id/neil-rackham> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works> .
+<https://github.com/john1hsu/communication-graph/id/neil-rackham> <http://www.w3.org/2004/02/skos/core#prefLabel> "Neil Rackham" .
+<https://github.com/john1hsu/communication-graph/id/neil-rackham> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/checking-understanding> .
+<https://github.com/john1hsu/communication-graph/id/neil-rackham> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/closed-loop-communication> .
+<https://github.com/john1hsu/communication-graph/id/neil-rackham> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/negotiation-preparation> .
+<https://github.com/john1hsu/communication-graph/id/neil-rackham> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/negotiation> .
+<https://github.com/john1hsu/communication-graph/id/neil-rackham> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/open-ended-questions> .
+<https://github.com/john1hsu/communication-graph/id/neil-rackham> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/questioning> .
+<https://github.com/john1hsu/communication-graph/id/neil-rackham> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/rackham-carlisle-1978> .
+<https://github.com/john1hsu/communication-graph/id/neil-rackham> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/summarizing> .
+<https://github.com/john1hsu/communication-graph/id/neil-rackham> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/neil-rackham/s1> .
+<https://github.com/john1hsu/communication-graph/id/neil-rackham> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/neil-rackham/s2> .
+<https://github.com/john1hsu/communication-graph/id/neil-rackham> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/neil-rackham/s3> .
+<https://github.com/john1hsu/communication-graph/id/neil-rackham> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/neil-rackham/s4> .
+<https://github.com/john1hsu/communication-graph/id/neil-rackham> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/neil-rackham/s5> .
+<https://github.com/john1hsu/communication-graph/id/neil-rackham> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/neil-rackham/s6> .
+<https://github.com/john1hsu/communication-graph/id/neil-rackham> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/spin-selling> .
+<https://github.com/john1hsu/communication-graph/id/neil-rackham> <https://github.com/john1hsu/communication-graph/ontology#domain> "thinkers-and-works" .
+<https://github.com/john1hsu/communication-graph/id/neil-rackham> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "historical" .
+<https://github.com/john1hsu/communication-graph/id/neil-rackham> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/thinkers-and-works/neil-rackham.md" .
+<https://github.com/john1hsu/communication-graph/id/neil-rackham> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/checking-understanding> .
+<https://github.com/john1hsu/communication-graph/id/neil-rackham> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/nicholas-epley> <http://purl.org/dc/terms/created> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/nicholas-epley> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
 <https://github.com/john1hsu/communication-graph/id/nicholas-epley> <http://www.w3.org/2000/01/rdf-schema#label> "Nicholas Epley" .
@@ -16234,6 +16262,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/negotiation/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/negotiation/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
 <https://github.com/john1hsu/communication-graph/id/source/negotiation/s5> <https://schema.org/url> <https://www.pon.harvard.edu/daily/negotiation-skills-daily/beyond-the-bottom-line> .
+<https://github.com/john1hsu/communication-graph/id/source/neil-rackham/s1> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/neil-rackham/s1> <http://purl.org/dc/terms/publisher> "Rackham & Carlisle, Journal of European Industrial Training 2(6), 6-11 (1978), Emerald Publishing, doi:10.1108/eb002297" .
+<https://github.com/john1hsu/communication-graph/id/source/neil-rackham/s1> <http://purl.org/dc/terms/title> "The Effective Negotiator, Part I: The Behaviour of Successful Negotiators" .
+<https://github.com/john1hsu/communication-graph/id/source/neil-rackham/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/neil-rackham/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/neil-rackham/s1> <https://schema.org/url> <https://emerald.com/insight/content/doi/10.1108/eb002297/full/html> .
+<https://github.com/john1hsu/communication-graph/id/source/neil-rackham/s2> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/neil-rackham/s2> <http://purl.org/dc/terms/publisher> "Huthwaite International" .
+<https://github.com/john1hsu/communication-graph/id/source/neil-rackham/s2> <http://purl.org/dc/terms/title> "Developing effective negotiation skills (white paper)" .
+<https://github.com/john1hsu/communication-graph/id/source/neil-rackham/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/neil-rackham/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/communication-graph/id/source/neil-rackham/s2> <https://schema.org/url> <https://www.huthwaiteinternational.com/hubfs/Whitepapers%20-%202025/Whitepaper%20PDFs/Developing%20effective%20Negotiation%20skills.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/neil-rackham/s3> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/neil-rackham/s3> <http://purl.org/dc/terms/publisher> "Hal Movius, Negotiation Journal 24(4), 509-531 (2008), doi:10.1111/j.1571-9979.2008.00201.x - author copy hosted by the Consensus Building Institute" .
+<https://github.com/john1hsu/communication-graph/id/source/neil-rackham/s3> <http://purl.org/dc/terms/title> "On Teaching: The Effectiveness of Negotiation Training" .
+<https://github.com/john1hsu/communication-graph/id/source/neil-rackham/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/neil-rackham/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/neil-rackham/s3> <https://schema.org/url> <https://www.cbi.org/assets/files/CBI_Effectiveness_Negotiation_Training.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/neil-rackham/s4> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/neil-rackham/s4> <http://purl.org/dc/terms/publisher> "Neil Rackham, Routledge (publisher's book page)" .
+<https://github.com/john1hsu/communication-graph/id/source/neil-rackham/s4> <http://purl.org/dc/terms/title> "SPIN-Selling (1st edition)" .
+<https://github.com/john1hsu/communication-graph/id/source/neil-rackham/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/neil-rackham/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/neil-rackham/s4> <https://schema.org/url> <https://www.routledge.com/SPIN-Selling-1st-Edition/Rackham/p/book/9780566076893> .
+<https://github.com/john1hsu/communication-graph/id/source/neil-rackham/s5> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/neil-rackham/s5> <http://purl.org/dc/terms/publisher> "Huthwaite International blog, 6 February 2026" .
+<https://github.com/john1hsu/communication-graph/id/source/neil-rackham/s5> <http://purl.org/dc/terms/title> "The origins of SPIN Selling (interview with Neil Rackham)" .
+<https://github.com/john1hsu/communication-graph/id/source/neil-rackham/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/neil-rackham/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/communication-graph/id/source/neil-rackham/s5> <https://schema.org/url> <https://www.huthwaiteinternational.com/blog/origins-of-spin-selling> .
+<https://github.com/john1hsu/communication-graph/id/source/neil-rackham/s6> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/neil-rackham/s6> <http://purl.org/dc/terms/publisher> "Ava J. Abramowitz (George Washington University Law School) & Jennifer Shack (Resolution Systems Institute), 2023, via the American Inns of Court" .
+<https://github.com/john1hsu/communication-graph/id/source/neil-rackham/s6> <http://purl.org/dc/terms/title> "What Do Mediators Do That Creates Trust? (work in progress)" .
+<https://github.com/john1hsu/communication-graph/id/source/neil-rackham/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/neil-rackham/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/neil-rackham/s6> <https://schema.org/url> <https://inns.innsofcourt.org/media/199163/what-do-mediators-do-to-build-trust.pdf> .
 <https://github.com/john1hsu/communication-graph/id/source/nicholas-epley/s1> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/nicholas-epley/s1> <http://purl.org/dc/terms/publisher> "Caruso, Epley & Bazerman, Journal of Personality and Social Psychology 91(5), 2006 (author copy, UCLA Anderson Review)" .
 <https://github.com/john1hsu/communication-graph/id/source/nicholas-epley/s1> <http://purl.org/dc/terms/title> "The costs and benefits of undoing egocentric responsibility assessments in groups" .

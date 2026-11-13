@@ -15159,6 +15159,78 @@
   ]
  },
  {
+  "id": "cm:neil-rackham",
+  "title": "Neil Rackham",
+  "aliases": [
+   "Neil Rackham (sales researcher)",
+   "Rackham"
+  ],
+  "type": "Person",
+  "domain": "thinkers-and-works",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/thinkers-and-works/neil-rackham.md",
+  "created": "2026-11-13",
+  "summary": "British behavioural researcher and founder of the Huthwaite research group whose direct observation of real negotiations and sales calls - notably the 1978 skilled-negotiator study with John Carlisle and the SPIN selling research - turned habits such as testing understanding, summarizing and asking questions into named, countable behaviours that can be trained.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "cm:rackham-carlisle-1978"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:checking-understanding"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:summarizing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:negotiation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:negotiation-preparation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:questioning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:open-ended-questions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:closed-loop-communication"
+   },
+   {
+    "predicate": "cmo:introduced",
+    "object": "cm:checking-understanding",
+    "source": "s6",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:authored",
+    "object": "cm:spin-selling",
+    "source": "s4",
+    "confidence": "high"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://emerald.com/insight/content/doi/10.1108/eb002297/full/html",
+   "https://www.huthwaiteinternational.com/hubfs/Whitepapers%20-%202025/Whitepaper%20PDFs/Developing%20effective%20Negotiation%20skills.pdf",
+   "https://www.cbi.org/assets/files/CBI_Effectiveness_Negotiation_Training.pdf",
+   "https://www.routledge.com/SPIN-Selling-1st-Edition/Rackham/p/book/9780566076893",
+   "https://www.huthwaiteinternational.com/blog/origins-of-spin-selling",
+   "https://inns.innsofcourt.org/media/199163/what-do-mediators-do-to-build-trust.pdf"
+  ]
+ },
+ {
   "id": "cm:nicholas-epley",
   "title": "Nicholas Epley",
   "aliases": [

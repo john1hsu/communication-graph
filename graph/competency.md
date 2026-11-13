@@ -143,7 +143,6 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 
 | node | type |
 |---|---|
-| `cm:checking-understanding` | cmo:Skill |
 | `cm:closed-loop-communication` | cmo:Technique |
 | `cm:digital-communication` | cmo:Field |
 | `cm:escalation-communication` | cmo:Technique |
@@ -173,8 +172,9 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:perspective-taking` | cmo:Skill |
 | `cm:persuasion` | cmo:Skill |
 | `cm:phone-call` | cmo:Channel |
+| `cm:plain-language` | cmo:Principle |
 
-…and 35 more.
+…and 34 more.
 
 ## Orphan articles (gap)
 
