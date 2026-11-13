@@ -116,6 +116,30 @@ Ask yourself:
 
 ## cross-cultural-communication
 
+### [Communicating across languages](../articles/cross-cultural-communication/communicating-across-languages.md) — Technique
+
+1. Before the meeting or message, find out which participants are working in a second language and how fluent they are, rather than guessing from accent or job title.
+2. Speak a little slower than feels natural, articulate word endings and pause between ideas; do not raise your volume.
+3. Swap idioms, sports metaphors, slang and phrasal verbs for plain single words ("cancel", not "call off"; "start", not "kick off").
+4. Pick one term for each key thing and keep using it, spell out acronyms on first use, and put numbers, dates and decisions in writing as well as saying them.
+5. Check understanding by inviting people to restate the next step or decision in their own words, not by asking "Does that make sense?".
+6. Manage airtime - leave pauses after questions, invite quieter second-language speakers by name or in the chat, and judge contributions on substance rather than fluency.
+7. For important written content, test it with a reader who has limited English or run it through a translation tool and back to spot phrases that break.
+
+*A UK-based project lead updates a video call of engineers in Brazil, Poland and Japan about a vendor delay.*
+
+| Before | After |
+|---|---|
+| Quick heads-up - the vendor's dropped the ball again, so we'll have to push back the go-live and play it by ear. Let's touch base Thursday and circle back once we've ironed out the kinks. Make sense? | The vendor delivered the test server late. So we will move the launch from 3 March to 17 March. I will put both dates in the chat. On Thursday we will meet again to fix the remaining problems. Ana, could you say back what changes for your team? |
+
+**Why:** The rewrite removes five idioms and phrasal verbs, states the new date in writing, uses short active sentences, and replaces a yes/no check with a restatement that would expose any misunderstanding.
+
+Ask yourself:
+- Did I use any idiom, sports metaphor or phrasal verb that a careful second-language speaker could take literally?
+- Did I check understanding by asking someone to restate the point, or only ask whether it was clear?
+- Who spoke least in that conversation, and was that because of their ideas or their fluency?
+- Have I put the key numbers, dates and decisions in writing as well as saying them?
+
 ### [Cultural intelligence](../articles/cross-cultural-communication/cultural-intelligence.md) — Skill
 
 Ask yourself:

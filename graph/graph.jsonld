@@ -3048,6 +3048,105 @@
    ]
   },
   {
+   "@id": "cm:communicating-across-languages",
+   "@type": "cmo:Technique",
+   "cmo:addresses": [
+    {
+     "@id": "cm:language-barriers"
+    },
+    {
+     "@id": "cm:unequal-participation"
+    }
+   ],
+   "cmo:appliedIn": {
+    "@id": "cm:multicultural-team"
+   },
+   "cmo:complements": {
+    "@id": "cm:plain-language"
+   },
+   "cmo:domain": "cross-cultural-communication",
+   "cmo:evidenceStatus": "practitioner",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/communicating-across-languages/example"
+   },
+   "cmo:explainedBy": {
+    "@id": "cm:communication-accommodation-theory"
+   },
+   "cmo:file": "articles/cross-cultural-communication/communicating-across-languages.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/communicating-across-languages/howto"
+   },
+   "cmo:level": "intermediate",
+   "cmo:requires": {
+    "@id": "cm:plain-language"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/communicating-across-languages/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/communicating-across-languages/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/communicating-across-languages/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/communicating-across-languages/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/communicating-across-languages/s5"
+    }
+   ],
+   "rdfs:label": "Communicating across languages",
+   "skos:altLabel": [
+    "international English",
+    "lingua franca communication",
+    "speaking with non-native speakers",
+    "writing for non-native readers"
+   ],
+   "skos:broader": {
+    "@id": "cm:intercultural-communication"
+   },
+   "skos:definition": "Adjusting how you speak and write when colleagues are working in their second or third language: slower, clearer delivery, fewer idioms and phrasal verbs, consistent plain terms, regular comprehension checks and deliberate sharing of airtime, so that meaning and trust survive a shared working language that is not everyone's first.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/cross-cultural-communication"
+   },
+   "skos:prefLabel": "Communicating across languages",
+   "skos:related": [
+    {
+     "@id": "cm:curse-of-knowledge"
+    },
+    {
+     "@id": "cm:intercultural-competence"
+    },
+    {
+     "@id": "cm:multicultural-team"
+    },
+    {
+     "@id": "cm:paraphrasing"
+    },
+    {
+     "@id": "cm:plain-language"
+    },
+    {
+     "@id": "cm:register-and-tone"
+    },
+    {
+     "@id": "cm:teach-back"
+    },
+    {
+     "@id": "cm:unequal-participation"
+    },
+    {
+     "@id": "cm:video-call-communication"
+    }
+   ]
+  },
+  {
    "@id": "cm:communicating-uncertainty",
    "@type": "cmo:Skill",
    "cmo:addresses": {
@@ -22899,6 +22998,116 @@
    "schema:text": "Move to a call when a thread passes a few back-and-forths without agreement or the topic turns sensitive, then post the outcome back in the thread."
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/communicating-across-languages/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:communicating-across-languages"
+   },
+   "rdfs:label": "Did I use any idiom, sports metaphor or phrasal verb that a careful second-language speaker could take literally?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/communicating-across-languages/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:communicating-across-languages"
+   },
+   "rdfs:label": "Did I check understanding by asking someone to restate the point, or only ask whether it was clear?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/communicating-across-languages/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:communicating-across-languages"
+   },
+   "rdfs:label": "Who spoke least in that conversation, and was that because of their ideas or their fluency?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/communicating-across-languages/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:communicating-across-languages"
+   },
+   "rdfs:label": "Have I put the key numbers, dates and decisions in writing as well as saying them?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/communicating-across-languages/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "The vendor delivered the test server late. So we will move the launch from 3 March to 17 March. I will put both dates in the chat. On Thursday we will meet again to fix the remaining problems. Ana, could you say back what changes for your team?",
+   "cmo:before": "Quick heads-up - the vendor's dropped the ball again, so we'll have to push back the go-live and play it by ear. Let's touch base Thursday and circle back once we've ironed out the kinks. Make sense?",
+   "cmo:situation": "A UK-based project lead updates a video call of engineers in Brazil, Poland and Japan about a vendor delay.",
+   "cmo:why": "The rewrite removes five idioms and phrasal verbs, states the new date in writing, uses short active sentences, and replaces a yes/no check with a restatement that would expose any misunderstanding."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/communicating-across-languages/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Communicating across languages",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/communicating-across-languages/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/communicating-across-languages/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/communicating-across-languages/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/communicating-across-languages/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/communicating-across-languages/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/communicating-across-languages/howto/6"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/communicating-across-languages/howto/7"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/communicating-across-languages/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Before the meeting or message, find out which participants are working in a second language and how fluent they are, rather than guessing from accent or job title."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/communicating-across-languages/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Speak a little slower than feels natural, articulate word endings and pause between ideas; do not raise your volume."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/communicating-across-languages/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Swap idioms, sports metaphors, slang and phrasal verbs for plain single words (\"cancel\", not \"call off\"; \"start\", not \"kick off\")."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/communicating-across-languages/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Pick one term for each key thing and keep using it, spell out acronyms on first use, and put numbers, dates and decisions in writing as well as saying them."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/communicating-across-languages/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Check understanding by inviting people to restate the next step or decision in their own words, not by asking \"Does that make sense?\"."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/communicating-across-languages/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "Manage airtime - leave pauses after questions, invite quieter second-language speakers by name or in the chat, and judge contributions on substance rather than fluency."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/communicating-across-languages/howto/7",
+   "@type": "schema:HowToStep",
+   "schema:position": 7,
+   "schema:text": "For important written content, test it with a reader who has limited English or run it through a translation tool and back to spot phrases that break."
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/communicating-uncertainty/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -32887,6 +33096,76 @@
    "dcterms:title": "Inconsistency in perspective-taking during comprehension",
    "schema:url": {
     "@id": "https://link.springer.com/article/10.3758/s13423-023-02315-0"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/communicating-across-languages/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Harvard Business School Working Knowledge, 6 October 2014",
+   "dcterms:title": "Why Businesses Need a Language Strategy (interview with Tsedal Neeley)",
+   "schema:url": {
+    "@id": "https://www.library.hbs.edu/working-knowledge/why-businesses-need-a-language-strategy"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/communicating-across-languages/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Tenzer, H., Pudelko, M. & Harzing, A.-W., Journal of International Business Studies 45(5), 508-535, 2014 (IDEAS/RePEc record and abstract)",
+   "dcterms:title": "The impact of language barriers on trust formation in multinational teams",
+   "schema:url": {
+    "@id": "https://ideas.repec.org/a/pal/jintbs/v45y2014i5p508-535.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/communicating-across-languages/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Drljača Margić, B., Journal of English as a Lingua Franca 6(1), 29-55, 2017, doi:10.1515/jelf-2017-0006 (De Gruyter Brill)",
+   "dcterms:title": "Communication courtesy or condescension? Linguistic accommodation of native to non-native speakers of English",
+   "schema:url": {
+    "@id": "https://www.degruyterbrill.com/document/doi/10.1515/jelf-2017-0006/html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/communicating-across-languages/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "UK Home Office, User-Centred Design Manual",
+   "dcterms:title": "Designing for people with limited English",
+   "schema:url": {
+    "@id": "https://design.homeoffice.gov.uk/design-and-content/content/designing-for-limited-english"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/communicating-across-languages/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Lorenzoni, A., Faccio, R. & Navarrete, E., Journal of Cognition 7(1), Article 26, 2024, doi:10.5334/joc.353",
+   "dcterms:title": "Does Foreign-Accented Speech Affect Credibility? Evidence from the Illusory-Truth Paradigm",
+   "schema:url": {
+    "@id": "https://journalofcognition.org/articles/353"
    }
   },
   {

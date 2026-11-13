@@ -33,6 +33,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:acoustic-speech-analysis-coaching` | 2 | Vocal delivery, monotone-delivery |
 | `cm:behavior-modeling-training` | 2 | Communication competence, assertiveness |
 | `cm:chat-etiquette` | 2 | Information overload, workplace-telepressure |
+| `cm:communicating-across-languages` | 2 | Unequal participation, language-barriers |
 | `cm:culture-assimilator` | 2 | Cultural intelligence, Intercultural competence |
 | `cm:describe-analyze-evaluate` | 2 | Ethnocentrism, Intercultural competence |
 | `cm:escalation-communication` | 2 | MUM effect, employee-silence |
@@ -55,9 +56,8 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:assertion-evidence-slides` | 1 | Death by PowerPoint |
 | `cm:audience-analysis` | 1 | Curse of knowledge |
 | `cm:bottom-line-up-front` | 1 | Burying the lede |
-| `cm:bulleted-and-numbered-lists` | 1 | Wall of text |
 
-…and 43 more.
+…and 44 more.
 
 ## Toolkit by situation
 
@@ -96,7 +96,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:email` | `cm:email-urgency-bias-study` |
 | `cm:email` | `cm:emoji-and-tone-in-text` |
 
-…and 110 more.
+…and 111 more.
 
 ## Myths and contested advice
 
@@ -143,6 +143,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 
 | node | type |
 |---|---|
+| `cm:communicating-across-languages` | cmo:Technique |
 | `cm:digital-communication` | cmo:Field |
 | `cm:escalation-communication` | cmo:Technique |
 | `cm:executive-summary` | cmo:Genre |
@@ -172,9 +173,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:persuasion` | cmo:Skill |
 | `cm:plain-language` | cmo:Principle |
 | `cm:praise-and-recognition` | cmo:Technique |
-| `cm:presentation` | cmo:Context |
 
-…and 32 more.
+…and 33 more.
 
 ## Orphan articles (gap)
 

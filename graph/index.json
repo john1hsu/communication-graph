@@ -3441,6 +3441,127 @@
   ]
  },
  {
+  "id": "cm:communicating-across-languages",
+  "title": "Communicating across languages",
+  "aliases": [
+   "speaking with non-native speakers",
+   "lingua franca communication",
+   "writing for non-native readers",
+   "international English"
+  ],
+  "type": "Technique",
+  "domain": "cross-cultural-communication",
+  "level": "intermediate",
+  "evidenceStatus": "practitioner",
+  "file": "articles/cross-cultural-communication/communicating-across-languages.md",
+  "created": "2026-11-13",
+  "summary": "Adjusting how you speak and write when colleagues are working in their second or third language: slower, clearer delivery, fewer idioms and phrasal verbs, consistent plain terms, regular comprehension checks and deliberate sharing of airtime, so that meaning and trust survive a shared working language that is not everyone's first.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:intercultural-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:multicultural-team"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:plain-language"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:teach-back"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:paraphrasing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:curse-of-knowledge"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:register-and-tone"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:unequal-participation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:intercultural-competence"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:video-call-communication"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:plain-language"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:multicultural-team",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:language-barriers",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:unequal-participation",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:plain-language",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:communication-accommodation-theory",
+    "source": "s3",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Did I use any idiom, sports metaphor or phrasal verb that a careful second-language speaker could take literally?",
+   "Did I check understanding by asking someone to restate the point, or only ask whether it was clear?",
+   "Who spoke least in that conversation, and was that because of their ideas or their fluency?",
+   "Have I put the key numbers, dates and decisions in writing as well as saying them?"
+  ],
+  "steps": [
+   "Before the meeting or message, find out which participants are working in a second language and how fluent they are, rather than guessing from accent or job title.",
+   "Speak a little slower than feels natural, articulate word endings and pause between ideas; do not raise your volume.",
+   "Swap idioms, sports metaphors, slang and phrasal verbs for plain single words (\"cancel\", not \"call off\"; \"start\", not \"kick off\").",
+   "Pick one term for each key thing and keep using it, spell out acronyms on first use, and put numbers, dates and decisions in writing as well as saying them.",
+   "Check understanding by inviting people to restate the next step or decision in their own words, not by asking \"Does that make sense?\".",
+   "Manage airtime - leave pauses after questions, invite quieter second-language speakers by name or in the chat, and judge contributions on substance rather than fluency.",
+   "For important written content, test it with a reader who has limited English or run it through a translation tool and back to spot phrases that break."
+  ],
+  "example": {
+   "situation": "A UK-based project lead updates a video call of engineers in Brazil, Poland and Japan about a vendor delay.",
+   "before": "Quick heads-up - the vendor's dropped the ball again, so we'll have to push back the go-live and play it by ear. Let's touch base Thursday and circle back once we've ironed out the kinks. Make sense?",
+   "after": "The vendor delivered the test server late. So we will move the launch from 3 March to 17 March. I will put both dates in the chat. On Thursday we will meet again to fix the remaining problems. Ana, could you say back what changes for your team?",
+   "why": "The rewrite removes five idioms and phrasal verbs, states the new date in writing, uses short active sentences, and replaces a yes/no check with a restatement that would expose any misunderstanding."
+  },
+  "source_urls": [
+   "https://www.library.hbs.edu/working-knowledge/why-businesses-need-a-language-strategy",
+   "https://ideas.repec.org/a/pal/jintbs/v45y2014i5p508-535.html",
+   "https://www.degruyterbrill.com/document/doi/10.1515/jelf-2017-0006/html",
+   "https://design.homeoffice.gov.uk/design-and-content/content/designing-for-limited-english",
+   "https://journalofcognition.org/articles/353"
+  ]
+ },
+ {
   "id": "cm:communicating-uncertainty",
   "title": "Communicating uncertainty to decision makers",
   "aliases": [
