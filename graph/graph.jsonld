@@ -16768,6 +16768,112 @@
    ]
   },
   {
+   "@id": "cm:premortem",
+   "@type": "cmo:Technique",
+   "cmo:addresses": [
+    {
+     "@id": "cm:deaf-effect"
+    },
+    {
+     "@id": "cm:employee-silence"
+    },
+    {
+     "@id": "cm:groupthink"
+    }
+   ],
+   "cmo:appliedIn": {
+    "@id": "cm:group-decision-making"
+   },
+   "cmo:demonstratedBy": {
+    "@id": "cm:veinott-klein-wiggins-2010"
+   },
+   "cmo:domain": "meetings-and-facilitation",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/premortem/example"
+   },
+   "cmo:file": "articles/meetings-and-facilitation/premortem.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/premortem/howto"
+   },
+   "cmo:introducedBy": {
+    "@id": "cm:gary-klein"
+   },
+   "cmo:level": "introductory",
+   "cmo:requires": {
+    "@id": "cm:facilitation"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/premortem/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/premortem/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/premortem/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/premortem/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/premortem/s5"
+    }
+   ],
+   "rdfs:label": "Premortem",
+   "skos:altLabel": [
+    "pre-mortem meeting",
+    "pre-mortem",
+    "project premortem"
+   ],
+   "skos:broader": [
+    {
+     "@id": "cm:facilitation"
+    },
+    {
+     "@id": "cm:group-decision-making"
+    }
+   ],
+   "skos:definition": "A short meeting exercise, usually run at a project kickoff, in which the leader tells the team to imagine the plan has already failed and each person writes down, then shares, the reasons why. It makes raising doubts the expected contribution instead of a disloyal one, so risks and warnings reach the decision maker before the commitment is locked in.",
+   "skos:exactMatch": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/premortem"
+   },
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/meetings-and-facilitation"
+   },
+   "skos:prefLabel": "Premortem",
+   "skos:related": [
+    {
+     "@id": "cm:brainstorming"
+    },
+    {
+     "@id": "cm:devils-advocacy"
+    },
+    {
+     "@id": "cm:escalation-of-commitment"
+    },
+    {
+     "@id": "cm:nominal-group-technique"
+    },
+    {
+     "@id": "cm:psychological-safety"
+    },
+    {
+     "@id": "cm:status-reporting"
+    },
+    {
+     "@id": "cm:upward-dissent"
+    },
+    {
+     "@id": "cm:workplace-meetings"
+    }
+   ]
+  },
+  {
    "@id": "cm:presentation",
    "@type": "cmo:Context",
    "cmo:complements": [
@@ -31589,6 +31695,124 @@
    "@type": "schema:HowToStep",
    "schema:position": 6,
    "schema:text": "Thank people who help you outside their job, naming what their help changed, so they know it was wanted."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/premortem/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:premortem"
+   },
+   "rdfs:label": "Am I running this before the decision is locked in, or only to look thorough after it is?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/premortem/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:premortem"
+   },
+   "rdfs:label": "Did I state the failure as certain and give people time to write on their own before anyone spoke?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/premortem/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:premortem"
+   },
+   "rdfs:label": "Did I go first with a real weakness in my own plan, and did I keep myself and other senior people from defending the plan during the round?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/premortem/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:premortem"
+   },
+   "rdfs:label": "Which reasons changed the plan, and have I told the team what we are doing about them?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/premortem/check/5",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:premortem"
+   },
+   "rdfs:label": "Is there someone who raised a concern quietly afterwards because the meeting still did not feel safe enough?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/premortem/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "Before we start, imagine it's April and the migration has failed badly. Take three minutes and write down every reason why - on your own. Then we'll go round one at a time; I'll go first: I think I've underestimated how long finance will need to sign off the test invoices.",
+   "cmo:before": "So that's the plan - we go live on 1 March. It's tight but I'm confident. Anyone see any problems? No? Great, let's get started.",
+   "cmo:situation": "A team lead is kicking off a migration of the company's billing system to a new platform, with a go-live date already promised to finance.",
+   "cmo:why": "An open call for problems from a confident leader invites silence; declaring the failure as fact, writing alone first and having the leader model candor makes naming risks the task everyone is doing, so the doubts surface while the plan can still change."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/premortem/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Premortem",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/premortem/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/premortem/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/premortem/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/premortem/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/premortem/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/premortem/howto/6"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/premortem/howto/7"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/premortem/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Schedule it once the plan is clear but before anything is signed, announced or funded, and invite the people who will do the work, not only the planners."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/premortem/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Briefly restate the plan, then say it as a certainty - \"it is a year from now and this project has failed\" - rather than asking whether it might fail."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/premortem/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Give everyone two to three minutes to write, silently and alone, every reason they can think of for the failure."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/premortem/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Go around the room taking one reason per person per round until the lists are exhausted, with the leader going first and offering a real weakness of their own plan."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/premortem/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Record every reason where all can see it without debating or defending, and stop anyone senior from dominating the round."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/premortem/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "Rate the reasons for likelihood and impact, assign owners to the top few, and change, test or monitor the plan accordingly."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/premortem/howto/7",
+   "@type": "schema:HowToStep",
+   "schema:position": 7,
+   "schema:text": "Send a short note of what was raised and what will change, so people see that their warnings were heard and acted on."
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/check/1",
@@ -48563,6 +48787,76 @@
    "dcterms:title": "Does growth mindset improve children's IQ, educational attainment or response to setbacks? Active-control interventions and data on children's own mindsets",
    "schema:url": {
     "@id": "https://www.research.ed.ac.uk/en/publications/does-growth-mindset-improve-childrens-iq-educational-attainment-o/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/premortem/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Gary Klein, Seeing What Others Don't (Psychology Today blog), 14 January 2021",
+   "dcterms:title": "The Pre-Mortem Method",
+   "schema:url": {
+    "@id": "https://www.psychologytoday.com/ie/blog/seeing-what-others-dont/202101/the-pre-mortem-method"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/premortem/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Mills, J. K. A. & McKimm, J., British Journal of Hospital Medicine 78(10), 584-585, 2017 (publisher PDF)",
+   "dcterms:title": "Pre-empting project failure by using a pre-mortem",
+   "schema:url": {
+    "@id": "https://storage.imrpress.com/IMR/hmed/application/10.12968/hmed.2017.78.10.584.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/premortem/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Peabody, MS thesis, Michigan Technological University, 2017 (CORE record)",
+   "dcterms:title": "Improving Planning: Quantitative Evaluation of the Premortem Technique in Field and Laboratory Settings",
+   "schema:url": {
+    "@id": "https://core.ac.uk/works/49608374"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/premortem/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "George Washington University, electronic thesis/dissertation (ScholarSpace record)",
+   "dcterms:title": "How to Catch a Black Swan: Measuring the Benefits of the Premortem Technique for Risk Identification",
+   "schema:url": {
+    "@id": "https://scholarspace.library.gwu.edu/concern/gw_etds/5712m6681"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/premortem/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Cuellar, M. J., doctoral dissertation, Georgia State University, 2009",
+   "dcterms:title": "An Examination of the Deaf Effect Response to Bad News Reporting in Information Systems Projects",
+   "schema:url": {
+    "@id": "https://scholarworks.gsu.edu/cis_diss/32"
    }
   },
   {

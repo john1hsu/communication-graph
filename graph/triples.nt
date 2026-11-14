@@ -9630,6 +9630,94 @@
 <https://github.com/john1hsu/communication-graph/id/praise-and-recognition> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/praise-and-recognition> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/grant-gino-2010> .
 <https://github.com/john1hsu/communication-graph/id/praise-and-recognition> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/stajkovic-luthans-2003> .
+<https://github.com/john1hsu/communication-graph/id/premortem/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/premortem/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Am I running this before the decision is locked in, or only to look thorough after it is?" .
+<https://github.com/john1hsu/communication-graph/id/premortem/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/premortem> .
+<https://github.com/john1hsu/communication-graph/id/premortem/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/premortem/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Did I state the failure as certain and give people time to write on their own before anyone spoke?" .
+<https://github.com/john1hsu/communication-graph/id/premortem/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/premortem> .
+<https://github.com/john1hsu/communication-graph/id/premortem/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/premortem/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Did I go first with a real weakness in my own plan, and did I keep myself and other senior people from defending the plan during the round?" .
+<https://github.com/john1hsu/communication-graph/id/premortem/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/premortem> .
+<https://github.com/john1hsu/communication-graph/id/premortem/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/premortem/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Which reasons changed the plan, and have I told the team what we are doing about them?" .
+<https://github.com/john1hsu/communication-graph/id/premortem/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/premortem> .
+<https://github.com/john1hsu/communication-graph/id/premortem/check/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/premortem/check/5> <http://www.w3.org/2000/01/rdf-schema#label> "Is there someone who raised a concern quietly afterwards because the meeting still did not feel safe enough?" .
+<https://github.com/john1hsu/communication-graph/id/premortem/check/5> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/premortem> .
+<https://github.com/john1hsu/communication-graph/id/premortem/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+<https://github.com/john1hsu/communication-graph/id/premortem/example> <https://github.com/john1hsu/communication-graph/ontology#after> "Before we start, imagine it's April and the migration has failed badly. Take three minutes and write down every reason why - on your own. Then we'll go round one at a time; I'll go first: I think I've underestimated how long finance will need to sign off the test invoices." .
+<https://github.com/john1hsu/communication-graph/id/premortem/example> <https://github.com/john1hsu/communication-graph/ontology#before> "So that's the plan - we go live on 1 March. It's tight but I'm confident. Anyone see any problems? No? Great, let's get started." .
+<https://github.com/john1hsu/communication-graph/id/premortem/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "A team lead is kicking off a migration of the company's billing system to a new platform, with a go-live date already promised to finance." .
+<https://github.com/john1hsu/communication-graph/id/premortem/example> <https://github.com/john1hsu/communication-graph/ontology#why> "An open call for problems from a confident leader invites silence; declaring the failure as fact, writing alone first and having the leader model candor makes naming risks the task everyone is doing, so the doubts surface while the plan can still change." .
+<https://github.com/john1hsu/communication-graph/id/premortem/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/premortem/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/premortem/howto/1> <https://schema.org/text> "Schedule it once the plan is clear but before anything is signed, announced or funded, and invite the people who will do the work, not only the planners." .
+<https://github.com/john1hsu/communication-graph/id/premortem/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/premortem/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/premortem/howto/2> <https://schema.org/text> "Briefly restate the plan, then say it as a certainty - \"it is a year from now and this project has failed\" - rather than asking whether it might fail." .
+<https://github.com/john1hsu/communication-graph/id/premortem/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/premortem/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/premortem/howto/3> <https://schema.org/text> "Give everyone two to three minutes to write, silently and alone, every reason they can think of for the failure." .
+<https://github.com/john1hsu/communication-graph/id/premortem/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/premortem/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/premortem/howto/4> <https://schema.org/text> "Go around the room taking one reason per person per round until the lists are exhausted, with the leader going first and offering a real weakness of their own plan." .
+<https://github.com/john1hsu/communication-graph/id/premortem/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/premortem/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/premortem/howto/5> <https://schema.org/text> "Record every reason where all can see it without debating or defending, and stop anyone senior from dominating the round." .
+<https://github.com/john1hsu/communication-graph/id/premortem/howto/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/premortem/howto/6> <https://schema.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/premortem/howto/6> <https://schema.org/text> "Rate the reasons for likelihood and impact, assign owners to the top few, and change, test or monitor the plan accordingly." .
+<https://github.com/john1hsu/communication-graph/id/premortem/howto/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/premortem/howto/7> <https://schema.org/position> "7"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/premortem/howto/7> <https://schema.org/text> "Send a short note of what was raised and what will change, so people see that their warnings were heard and acted on." .
+<https://github.com/john1hsu/communication-graph/id/premortem/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+<https://github.com/john1hsu/communication-graph/id/premortem/howto> <https://schema.org/name> "Premortem" .
+<https://github.com/john1hsu/communication-graph/id/premortem/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/premortem/howto/1> .
+<https://github.com/john1hsu/communication-graph/id/premortem/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/premortem/howto/2> .
+<https://github.com/john1hsu/communication-graph/id/premortem/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/premortem/howto/3> .
+<https://github.com/john1hsu/communication-graph/id/premortem/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/premortem/howto/4> .
+<https://github.com/john1hsu/communication-graph/id/premortem/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/premortem/howto/5> .
+<https://github.com/john1hsu/communication-graph/id/premortem/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/premortem/howto/6> .
+<https://github.com/john1hsu/communication-graph/id/premortem/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/premortem/howto/7> .
+<https://github.com/john1hsu/communication-graph/id/premortem> <http://purl.org/dc/terms/created> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/premortem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Technique> .
+<https://github.com/john1hsu/communication-graph/id/premortem> <http://www.w3.org/2000/01/rdf-schema#label> "Premortem" .
+<https://github.com/john1hsu/communication-graph/id/premortem> <http://www.w3.org/2004/02/skos/core#altLabel> "pre-mortem meeting" .
+<https://github.com/john1hsu/communication-graph/id/premortem> <http://www.w3.org/2004/02/skos/core#altLabel> "pre-mortem" .
+<https://github.com/john1hsu/communication-graph/id/premortem> <http://www.w3.org/2004/02/skos/core#altLabel> "project premortem" .
+<https://github.com/john1hsu/communication-graph/id/premortem> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/facilitation> .
+<https://github.com/john1hsu/communication-graph/id/premortem> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/group-decision-making> .
+<https://github.com/john1hsu/communication-graph/id/premortem> <http://www.w3.org/2004/02/skos/core#definition> "A short meeting exercise, usually run at a project kickoff, in which the leader tells the team to imagine the plan has already failed and each person writes down, then shares, the reasons why. It makes raising doubts the expected contribution instead of a disloyal one, so risks and warnings reach the decision maker before the commitment is locked in." .
+<https://github.com/john1hsu/communication-graph/id/premortem> <http://www.w3.org/2004/02/skos/core#exactMatch> <https://github.com/john1hsu/critical-thinking-graph/id/premortem> .
+<https://github.com/john1hsu/communication-graph/id/premortem> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/meetings-and-facilitation> .
+<https://github.com/john1hsu/communication-graph/id/premortem> <http://www.w3.org/2004/02/skos/core#prefLabel> "Premortem" .
+<https://github.com/john1hsu/communication-graph/id/premortem> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/brainstorming> .
+<https://github.com/john1hsu/communication-graph/id/premortem> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/devils-advocacy> .
+<https://github.com/john1hsu/communication-graph/id/premortem> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/escalation-of-commitment> .
+<https://github.com/john1hsu/communication-graph/id/premortem> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> .
+<https://github.com/john1hsu/communication-graph/id/premortem> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
+<https://github.com/john1hsu/communication-graph/id/premortem> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/status-reporting> .
+<https://github.com/john1hsu/communication-graph/id/premortem> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/upward-dissent> .
+<https://github.com/john1hsu/communication-graph/id/premortem> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/workplace-meetings> .
+<https://github.com/john1hsu/communication-graph/id/premortem> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/premortem/s1> .
+<https://github.com/john1hsu/communication-graph/id/premortem> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/premortem/s2> .
+<https://github.com/john1hsu/communication-graph/id/premortem> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/premortem/s3> .
+<https://github.com/john1hsu/communication-graph/id/premortem> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/premortem/s4> .
+<https://github.com/john1hsu/communication-graph/id/premortem> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/premortem/s5> .
+<https://github.com/john1hsu/communication-graph/id/premortem> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/deaf-effect> .
+<https://github.com/john1hsu/communication-graph/id/premortem> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/employee-silence> .
+<https://github.com/john1hsu/communication-graph/id/premortem> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/groupthink> .
+<https://github.com/john1hsu/communication-graph/id/premortem> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/group-decision-making> .
+<https://github.com/john1hsu/communication-graph/id/premortem> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/veinott-klein-wiggins-2010> .
+<https://github.com/john1hsu/communication-graph/id/premortem> <https://github.com/john1hsu/communication-graph/ontology#domain> "meetings-and-facilitation" .
+<https://github.com/john1hsu/communication-graph/id/premortem> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/premortem> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/premortem/example> .
+<https://github.com/john1hsu/communication-graph/id/premortem> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/meetings-and-facilitation/premortem.md" .
+<https://github.com/john1hsu/communication-graph/id/premortem> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/premortem/howto> .
+<https://github.com/john1hsu/communication-graph/id/premortem> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/gary-klein> .
+<https://github.com/john1hsu/communication-graph/id/premortem> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/premortem> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/facilitation> .
 <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Have I said the whole talk out loud, standing, at least once from start to finish?" .
 <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> .
@@ -18434,6 +18522,36 @@
 <https://github.com/john1hsu/communication-graph/id/source/praise-and-recognition/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/praise-and-recognition/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "preprint" .
 <https://github.com/john1hsu/communication-graph/id/source/praise-and-recognition/s6> <https://schema.org/url> <https://www.research.ed.ac.uk/en/publications/does-growth-mindset-improve-childrens-iq-educational-attainment-o/> .
+<https://github.com/john1hsu/communication-graph/id/source/premortem/s1> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/premortem/s1> <http://purl.org/dc/terms/publisher> "Gary Klein, Seeing What Others Don't (Psychology Today blog), 14 January 2021" .
+<https://github.com/john1hsu/communication-graph/id/source/premortem/s1> <http://purl.org/dc/terms/title> "The Pre-Mortem Method" .
+<https://github.com/john1hsu/communication-graph/id/source/premortem/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/premortem/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/premortem/s1> <https://schema.org/url> <https://www.psychologytoday.com/ie/blog/seeing-what-others-dont/202101/the-pre-mortem-method> .
+<https://github.com/john1hsu/communication-graph/id/source/premortem/s2> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/premortem/s2> <http://purl.org/dc/terms/publisher> "Mills, J. K. A. & McKimm, J., British Journal of Hospital Medicine 78(10), 584-585, 2017 (publisher PDF)" .
+<https://github.com/john1hsu/communication-graph/id/source/premortem/s2> <http://purl.org/dc/terms/title> "Pre-empting project failure by using a pre-mortem" .
+<https://github.com/john1hsu/communication-graph/id/source/premortem/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/premortem/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/premortem/s2> <https://schema.org/url> <https://storage.imrpress.com/IMR/hmed/application/10.12968/hmed.2017.78.10.584.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/premortem/s3> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/premortem/s3> <http://purl.org/dc/terms/publisher> "Peabody, MS thesis, Michigan Technological University, 2017 (CORE record)" .
+<https://github.com/john1hsu/communication-graph/id/source/premortem/s3> <http://purl.org/dc/terms/title> "Improving Planning: Quantitative Evaluation of the Premortem Technique in Field and Laboratory Settings" .
+<https://github.com/john1hsu/communication-graph/id/source/premortem/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/premortem/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/premortem/s3> <https://schema.org/url> <https://core.ac.uk/works/49608374> .
+<https://github.com/john1hsu/communication-graph/id/source/premortem/s4> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/premortem/s4> <http://purl.org/dc/terms/publisher> "George Washington University, electronic thesis/dissertation (ScholarSpace record)" .
+<https://github.com/john1hsu/communication-graph/id/source/premortem/s4> <http://purl.org/dc/terms/title> "How to Catch a Black Swan: Measuring the Benefits of the Premortem Technique for Risk Identification" .
+<https://github.com/john1hsu/communication-graph/id/source/premortem/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/premortem/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/premortem/s4> <https://schema.org/url> <https://scholarspace.library.gwu.edu/concern/gw_etds/5712m6681> .
+<https://github.com/john1hsu/communication-graph/id/source/premortem/s5> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/premortem/s5> <http://purl.org/dc/terms/publisher> "Cuellar, M. J., doctoral dissertation, Georgia State University, 2009" .
+<https://github.com/john1hsu/communication-graph/id/source/premortem/s5> <http://purl.org/dc/terms/title> "An Examination of the Deaf Effect Response to Bad News Reporting in Information Systems Projects" .
+<https://github.com/john1hsu/communication-graph/id/source/premortem/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/premortem/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/premortem/s5> <https://schema.org/url> <https://scholarworks.gsu.edu/cis_diss/32> .
 <https://github.com/john1hsu/communication-graph/id/source/presentation-rehearsal/s1> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/presentation-rehearsal/s1> <http://purl.org/dc/terms/publisher> "Menzel & Carrell, Communication Education 43(1), 17-26, 1994 (Taylor & Francis abstract)" .
 <https://github.com/john1hsu/communication-graph/id/source/presentation-rehearsal/s1> <http://purl.org/dc/terms/title> "The relationship between preparation and performance in public speaking" .

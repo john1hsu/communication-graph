@@ -8,7 +8,6 @@ _Which written barriers or anti-patterns have nothing in the graph that addresse
 
 | node | type |
 |---|---|
-| `cm:deaf-effect` | cmo:Barrier |
 | `cm:reading-lies-from-body-language` | cmo:AntiPattern |
 
 ## Skills with no practice technique (gap)
@@ -32,6 +31,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:1-2-4-all` | 3 | Facilitation, Unequal participation, production-blocking |
 | `cm:concise-writing` | 3 | Information overload, subtraction-neglect, wordiness |
 | `cm:paramedic-method` | 3 | Concise writing, official-style, wordiness |
+| `cm:premortem` | 3 | Deaf effect, Employee silence, groupthink |
 | `cm:self-recording-playback` | 3 | Gesturing while speaking, Public speaking anxiety, public-speaking |
 | `cm:acoustic-speech-analysis-coaching` | 2 | Vocal delivery, monotone-delivery |
 | `cm:behavior-modeling-training` | 2 | Communication competence, assertiveness |
@@ -58,9 +58,8 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:active-voice` | 1 | unclear-ownership |
 | `cm:anxiety-reappraisal` | 1 | Public speaking anxiety |
 | `cm:assertion-evidence-slides` | 1 | Death by PowerPoint |
-| `cm:audience-analysis` | 1 | Curse of knowledge |
 
-…and 51 more.
+…and 52 more.
 
 ## Toolkit by situation
 
@@ -99,7 +98,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:email` | `cm:channel-selection` |
 | `cm:email` | `cm:checking-understanding` |
 
-…and 127 more.
+…and 128 more.
 
 ## Myths and contested advice
 
@@ -138,7 +137,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:acoustic-speech-analysis-coaching` | mixed |  |
 | `cm:active-listening` | mixed |  |
 
-…and 160 more.
+…and 161 more.
 
 ## Concepts with no recorded origin (gap)
 

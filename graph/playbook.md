@@ -1615,6 +1615,31 @@ Ask yourself:
 - Does this meeting gain enough from being in one room to justify the cost to remote colleagues?
 - Will people in the office be adding more video hours than they can sustain this week?
 
+### [Premortem](../articles/meetings-and-facilitation/premortem.md) — Technique
+
+1. Schedule it once the plan is clear but before anything is signed, announced or funded, and invite the people who will do the work, not only the planners.
+2. Briefly restate the plan, then say it as a certainty - "it is a year from now and this project has failed" - rather than asking whether it might fail.
+3. Give everyone two to three minutes to write, silently and alone, every reason they can think of for the failure.
+4. Go around the room taking one reason per person per round until the lists are exhausted, with the leader going first and offering a real weakness of their own plan.
+5. Record every reason where all can see it without debating or defending, and stop anyone senior from dominating the round.
+6. Rate the reasons for likelihood and impact, assign owners to the top few, and change, test or monitor the plan accordingly.
+7. Send a short note of what was raised and what will change, so people see that their warnings were heard and acted on.
+
+*A team lead is kicking off a migration of the company's billing system to a new platform, with a go-live date already promised to finance.*
+
+| Before | After |
+|---|---|
+| So that's the plan - we go live on 1 March. It's tight but I'm confident. Anyone see any problems? No? Great, let's get started. | Before we start, imagine it's April and the migration has failed badly. Take three minutes and write down every reason why - on your own. Then we'll go round one at a time; I'll go first: I think I've underestimated how long finance will need to sign off the test invoices. |
+
+**Why:** An open call for problems from a confident leader invites silence; declaring the failure as fact, writing alone first and having the leader model candor makes naming risks the task everyone is doing, so the doubts surface while the plan can still change.
+
+Ask yourself:
+- Am I running this before the decision is locked in, or only to look thorough after it is?
+- Did I state the failure as certain and give people time to write on their own before anyone spoke?
+- Did I go first with a real weakness in my own plan, and did I keep myself and other senior people from defending the plan during the round?
+- Which reasons changed the plan, and have I told the team what we are doing about them?
+- Is there someone who raised a concern quietly afterwards because the meeting still did not feel safe enough?
+
 ### [RACI matrix](../articles/meetings-and-facilitation/raci-matrix.md) — Technique
 
 1. List the recurring tasks and decisions that cause confusion as rows, and the roles involved as columns.
