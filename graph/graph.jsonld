@@ -6979,6 +6979,98 @@
    ]
   },
   {
+   "@id": "cm:emotion-regulation",
+   "@type": "cmo:Skill",
+   "cmo:appliedIn": {
+    "@id": "cm:difficult-conversation"
+   },
+   "cmo:demonstratedBy": [
+    {
+     "@id": "cm:butler-et-al-2003"
+    },
+    {
+     "@id": "cm:webb-miles-sheeran-2012"
+    }
+   ],
+   "cmo:domain": "difficult-conversations-and-conflict",
+   "cmo:evidenceStatus": "robust",
+   "cmo:explainedBy": {
+    "@id": "cm:process-model-of-emotion-regulation"
+   },
+   "cmo:file": "articles/difficult-conversations-and-conflict/emotion-regulation.md",
+   "cmo:level": "intermediate",
+   "cmo:studiedIn": {
+    "@id": "cm:psychology"
+   },
+   "cmo:supportedBy": {
+    "@id": "cm:psa-reappraisal-2021"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/emotion-regulation/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/emotion-regulation/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/emotion-regulation/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/emotion-regulation/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/emotion-regulation/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/emotion-regulation/s6"
+    }
+   ],
+   "rdfs:label": "Emotion regulation",
+   "skos:altLabel": [
+    "emotional self-regulation",
+    "managing your emotions in conversation",
+    "regulating emotions"
+   ],
+   "skos:broader": {
+    "@id": "cm:emotional-intelligence"
+   },
+   "skos:definition": "The learnable capacity to influence which emotions you have, when you have them, and how you feel and show them - by choosing or changing the situation, steering attention, rethinking what an event means, or adjusting your outward response - so that strong feelings inform a conversation without hijacking it.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/difficult-conversations-and-conflict"
+   },
+   "skos:prefLabel": "Emotion regulation",
+   "skos:related": [
+    {
+     "@id": "cm:anxiety-reappraisal"
+    },
+    {
+     "@id": "cm:cognitive-reappraisal"
+    },
+    {
+     "@id": "cm:cooling-off-period"
+    },
+    {
+     "@id": "cm:de-ira"
+    },
+    {
+     "@id": "cm:defensiveness"
+    },
+    {
+     "@id": "cm:emotional-contagion"
+    },
+    {
+     "@id": "cm:labeling-emotions"
+    },
+    {
+     "@id": "cm:self-distancing"
+    }
+   ]
+  },
+  {
    "@id": "cm:emotional-contagion",
    "@type": "cmo:Phenomenon",
    "cmo:appliedIn": {
@@ -27350,6 +27442,38 @@
    "schema:text": "When a thread turns tense or ambiguous, stop adjusting the emoji and switch to a call."
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/emotion-regulation/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:emotion-regulation"
+   },
+   "rdfs:label": "What am I feeling right now, and what do I want this conversation to achieve despite it?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/emotion-regulation/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:emotion-regulation"
+   },
+   "rdfs:label": "Is there a less threatening but still accurate way to read what the other person just did?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/emotion-regulation/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:emotion-regulation"
+   },
+   "rdfs:label": "Am I only hiding my reaction, and is that making me less responsive to the person in front of me?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/emotion-regulation/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:emotion-regulation"
+   },
+   "rdfs:label": "Could I change the timing, setting or agenda of this conversation instead of white-knuckling through it?"
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/empathy-gap/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -40317,6 +40441,90 @@
    "dcterms:title": "Email and MS Teams etiquette",
    "schema:url": {
     "@id": "https://lboro.ac.uk/services/it/topics/email-teams-etiquette/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/emotion-regulation/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Gross, J. J., Review of General Psychology 2, 271-299, 1998 (PDF copy of the original article)",
+   "dcterms:title": "The emerging field of emotion regulation: An integrative review",
+   "schema:url": {
+    "@id": "https://static1.squarespace.com/static/55917f64e4b0cd3b4705b68c/t/5c47fda9758d46280be433e9/1548221901394/Gross+%281998%29.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/emotion-regulation/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Webb, T. L., Miles, E. & Sheeran, P., Psychological Bulletin 138(4), 775-808, 2012, doi:10.1037/a0027600 (author's copy)",
+   "dcterms:title": "Dealing with feeling: A meta-analysis of the effectiveness of strategies derived from the process model of emotion regulation",
+   "schema:url": {
+    "@id": "https://researchgate.net/profile/Paschal_Sheeran/publication/224955638_Dealing_With_Feeling_A_Meta-Analysis_of_the_Effectiveness_of_Strategies_Derived_From_the_Process_Model_of_Emotion_Regulation/links/0912f504f09b780691000000.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/emotion-regulation/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Butler, E. A., Egloff, B., Wilhelm, F. H., Smith, N. C., Erickson, E. A. & Gross, J. J., Emotion 3(1), 48-67, 2003, doi:10.1037/1528-3542.3.1.48 (University of Arizona record)",
+   "dcterms:title": "The social consequences of expressive suppression",
+   "schema:url": {
+    "@id": "https://experts.arizona.edu/en/publications/the-social-consequences-of-expressive-suppression/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/emotion-regulation/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Gross, J. J. & John, O. P., Journal of Personality and Social Psychology 85(2), 348-362, 2003 (PubMed record)",
+   "dcterms:title": "Individual differences in two emotion regulation processes: Implications for affect, relationships, and well-being",
+   "schema:url": {
+    "@id": "https://pubmed.ncbi.nlm.nih.gov/12916575/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/emotion-regulation/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Butler, E. A., Lee, T. L. & Gross, J. J., Emotion 7(1), 30-48, 2007, doi:10.1037/1528-3542.7.1.30 (PubMed record)",
+   "dcterms:title": "Emotion regulation and culture: Are the social consequences of emotion suppression culture-specific?",
+   "schema:url": {
+    "@id": "https://pubmed.ncbi.nlm.nih.gov/17352561/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/emotion-regulation/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Psychological Science Accelerator, Wang, K., Goldenberg, A., Dorison, C. A., Miller, J. K. & Wolfe, K., Nature Human Behaviour 5, 1089-1110, 2021, doi:10.1038/s41562-021-01173-x (Heriot-Watt University record)",
+   "dcterms:title": "A multi-country test of brief reappraisal interventions on emotions during the COVID-19 pandemic",
+   "schema:url": {
+    "@id": "https://researchportal.hw.ac.uk/en/publications/a-multi-country-test-of-brief-reappraisal-interventions-on-emotio/"
    }
   },
   {

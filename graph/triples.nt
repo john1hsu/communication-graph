@@ -4162,6 +4162,52 @@
 <https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/digital-and-async-communication/emoji-and-tone-in-text.md" .
 <https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/howto> .
 <https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/emotion-regulation/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/emotion-regulation/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "What am I feeling right now, and what do I want this conversation to achieve despite it?" .
+<https://github.com/john1hsu/communication-graph/id/emotion-regulation/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/emotion-regulation> .
+<https://github.com/john1hsu/communication-graph/id/emotion-regulation/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/emotion-regulation/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Is there a less threatening but still accurate way to read what the other person just did?" .
+<https://github.com/john1hsu/communication-graph/id/emotion-regulation/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/emotion-regulation> .
+<https://github.com/john1hsu/communication-graph/id/emotion-regulation/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/emotion-regulation/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Am I only hiding my reaction, and is that making me less responsive to the person in front of me?" .
+<https://github.com/john1hsu/communication-graph/id/emotion-regulation/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/emotion-regulation> .
+<https://github.com/john1hsu/communication-graph/id/emotion-regulation/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/emotion-regulation/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Could I change the timing, setting or agenda of this conversation instead of white-knuckling through it?" .
+<https://github.com/john1hsu/communication-graph/id/emotion-regulation/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/emotion-regulation> .
+<https://github.com/john1hsu/communication-graph/id/emotion-regulation> <http://purl.org/dc/terms/created> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/emotion-regulation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Skill> .
+<https://github.com/john1hsu/communication-graph/id/emotion-regulation> <http://www.w3.org/2000/01/rdf-schema#label> "Emotion regulation" .
+<https://github.com/john1hsu/communication-graph/id/emotion-regulation> <http://www.w3.org/2004/02/skos/core#altLabel> "emotional self-regulation" .
+<https://github.com/john1hsu/communication-graph/id/emotion-regulation> <http://www.w3.org/2004/02/skos/core#altLabel> "managing your emotions in conversation" .
+<https://github.com/john1hsu/communication-graph/id/emotion-regulation> <http://www.w3.org/2004/02/skos/core#altLabel> "regulating emotions" .
+<https://github.com/john1hsu/communication-graph/id/emotion-regulation> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/emotional-intelligence> .
+<https://github.com/john1hsu/communication-graph/id/emotion-regulation> <http://www.w3.org/2004/02/skos/core#definition> "The learnable capacity to influence which emotions you have, when you have them, and how you feel and show them - by choosing or changing the situation, steering attention, rethinking what an event means, or adjusting your outward response - so that strong feelings inform a conversation without hijacking it." .
+<https://github.com/john1hsu/communication-graph/id/emotion-regulation> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/difficult-conversations-and-conflict> .
+<https://github.com/john1hsu/communication-graph/id/emotion-regulation> <http://www.w3.org/2004/02/skos/core#prefLabel> "Emotion regulation" .
+<https://github.com/john1hsu/communication-graph/id/emotion-regulation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> .
+<https://github.com/john1hsu/communication-graph/id/emotion-regulation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> .
+<https://github.com/john1hsu/communication-graph/id/emotion-regulation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cooling-off-period> .
+<https://github.com/john1hsu/communication-graph/id/emotion-regulation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/de-ira> .
+<https://github.com/john1hsu/communication-graph/id/emotion-regulation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/defensiveness> .
+<https://github.com/john1hsu/communication-graph/id/emotion-regulation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/emotional-contagion> .
+<https://github.com/john1hsu/communication-graph/id/emotion-regulation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/labeling-emotions> .
+<https://github.com/john1hsu/communication-graph/id/emotion-regulation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/self-distancing> .
+<https://github.com/john1hsu/communication-graph/id/emotion-regulation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/emotion-regulation/s1> .
+<https://github.com/john1hsu/communication-graph/id/emotion-regulation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/emotion-regulation/s2> .
+<https://github.com/john1hsu/communication-graph/id/emotion-regulation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/emotion-regulation/s3> .
+<https://github.com/john1hsu/communication-graph/id/emotion-regulation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/emotion-regulation/s4> .
+<https://github.com/john1hsu/communication-graph/id/emotion-regulation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/emotion-regulation/s5> .
+<https://github.com/john1hsu/communication-graph/id/emotion-regulation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/emotion-regulation/s6> .
+<https://github.com/john1hsu/communication-graph/id/emotion-regulation> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/difficult-conversation> .
+<https://github.com/john1hsu/communication-graph/id/emotion-regulation> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/butler-et-al-2003> .
+<https://github.com/john1hsu/communication-graph/id/emotion-regulation> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/webb-miles-sheeran-2012> .
+<https://github.com/john1hsu/communication-graph/id/emotion-regulation> <https://github.com/john1hsu/communication-graph/ontology#domain> "difficult-conversations-and-conflict" .
+<https://github.com/john1hsu/communication-graph/id/emotion-regulation> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "robust" .
+<https://github.com/john1hsu/communication-graph/id/emotion-regulation> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/process-model-of-emotion-regulation> .
+<https://github.com/john1hsu/communication-graph/id/emotion-regulation> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/difficult-conversations-and-conflict/emotion-regulation.md" .
+<https://github.com/john1hsu/communication-graph/id/emotion-regulation> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/communication-graph/id/emotion-regulation> <https://github.com/john1hsu/communication-graph/ontology#studiedIn> <https://github.com/john1hsu/communication-graph/id/psychology> .
+<https://github.com/john1hsu/communication-graph/id/emotion-regulation> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/psa-reappraisal-2021> .
 <https://github.com/john1hsu/communication-graph/id/emotional-contagion> <http://purl.org/dc/terms/created> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/emotional-contagion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Phenomenon> .
 <https://github.com/john1hsu/communication-graph/id/emotional-contagion> <http://www.w3.org/2000/01/rdf-schema#label> "Emotional contagion" .
@@ -14892,6 +14938,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/emoji-and-tone-in-text/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/emoji-and-tone-in-text/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
 <https://github.com/john1hsu/communication-graph/id/source/emoji-and-tone-in-text/s6> <https://schema.org/url> <https://lboro.ac.uk/services/it/topics/email-teams-etiquette/> .
+<https://github.com/john1hsu/communication-graph/id/source/emotion-regulation/s1> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/emotion-regulation/s1> <http://purl.org/dc/terms/publisher> "Gross, J. J., Review of General Psychology 2, 271-299, 1998 (PDF copy of the original article)" .
+<https://github.com/john1hsu/communication-graph/id/source/emotion-regulation/s1> <http://purl.org/dc/terms/title> "The emerging field of emotion regulation: An integrative review" .
+<https://github.com/john1hsu/communication-graph/id/source/emotion-regulation/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/emotion-regulation/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/emotion-regulation/s1> <https://schema.org/url> <https://static1.squarespace.com/static/55917f64e4b0cd3b4705b68c/t/5c47fda9758d46280be433e9/1548221901394/Gross+%281998%29.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/emotion-regulation/s2> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/emotion-regulation/s2> <http://purl.org/dc/terms/publisher> "Webb, T. L., Miles, E. & Sheeran, P., Psychological Bulletin 138(4), 775-808, 2012, doi:10.1037/a0027600 (author's copy)" .
+<https://github.com/john1hsu/communication-graph/id/source/emotion-regulation/s2> <http://purl.org/dc/terms/title> "Dealing with feeling: A meta-analysis of the effectiveness of strategies derived from the process model of emotion regulation" .
+<https://github.com/john1hsu/communication-graph/id/source/emotion-regulation/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/emotion-regulation/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/emotion-regulation/s2> <https://schema.org/url> <https://researchgate.net/profile/Paschal_Sheeran/publication/224955638_Dealing_With_Feeling_A_Meta-Analysis_of_the_Effectiveness_of_Strategies_Derived_From_the_Process_Model_of_Emotion_Regulation/links/0912f504f09b780691000000.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/emotion-regulation/s3> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/emotion-regulation/s3> <http://purl.org/dc/terms/publisher> "Butler, E. A., Egloff, B., Wilhelm, F. H., Smith, N. C., Erickson, E. A. & Gross, J. J., Emotion 3(1), 48-67, 2003, doi:10.1037/1528-3542.3.1.48 (University of Arizona record)" .
+<https://github.com/john1hsu/communication-graph/id/source/emotion-regulation/s3> <http://purl.org/dc/terms/title> "The social consequences of expressive suppression" .
+<https://github.com/john1hsu/communication-graph/id/source/emotion-regulation/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/emotion-regulation/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/emotion-regulation/s3> <https://schema.org/url> <https://experts.arizona.edu/en/publications/the-social-consequences-of-expressive-suppression/> .
+<https://github.com/john1hsu/communication-graph/id/source/emotion-regulation/s4> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/emotion-regulation/s4> <http://purl.org/dc/terms/publisher> "Gross, J. J. & John, O. P., Journal of Personality and Social Psychology 85(2), 348-362, 2003 (PubMed record)" .
+<https://github.com/john1hsu/communication-graph/id/source/emotion-regulation/s4> <http://purl.org/dc/terms/title> "Individual differences in two emotion regulation processes: Implications for affect, relationships, and well-being" .
+<https://github.com/john1hsu/communication-graph/id/source/emotion-regulation/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/emotion-regulation/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/emotion-regulation/s4> <https://schema.org/url> <https://pubmed.ncbi.nlm.nih.gov/12916575/> .
+<https://github.com/john1hsu/communication-graph/id/source/emotion-regulation/s5> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/emotion-regulation/s5> <http://purl.org/dc/terms/publisher> "Butler, E. A., Lee, T. L. & Gross, J. J., Emotion 7(1), 30-48, 2007, doi:10.1037/1528-3542.7.1.30 (PubMed record)" .
+<https://github.com/john1hsu/communication-graph/id/source/emotion-regulation/s5> <http://purl.org/dc/terms/title> "Emotion regulation and culture: Are the social consequences of emotion suppression culture-specific?" .
+<https://github.com/john1hsu/communication-graph/id/source/emotion-regulation/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/emotion-regulation/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/emotion-regulation/s5> <https://schema.org/url> <https://pubmed.ncbi.nlm.nih.gov/17352561/> .
+<https://github.com/john1hsu/communication-graph/id/source/emotion-regulation/s6> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/emotion-regulation/s6> <http://purl.org/dc/terms/publisher> "Psychological Science Accelerator, Wang, K., Goldenberg, A., Dorison, C. A., Miller, J. K. & Wolfe, K., Nature Human Behaviour 5, 1089-1110, 2021, doi:10.1038/s41562-021-01173-x (Heriot-Watt University record)" .
+<https://github.com/john1hsu/communication-graph/id/source/emotion-regulation/s6> <http://purl.org/dc/terms/title> "A multi-country test of brief reappraisal interventions on emotions during the COVID-19 pandemic" .
+<https://github.com/john1hsu/communication-graph/id/source/emotion-regulation/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/emotion-regulation/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/emotion-regulation/s6> <https://schema.org/url> <https://researchportal.hw.ac.uk/en/publications/a-multi-country-test-of-brief-reappraisal-interventions-on-emotio/> .
 <https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s1> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s1> <http://purl.org/dc/terms/publisher> "Sigal G. Barsade, Administrative Science Quarterly 47(4), 644-675 (2002) (Wharton faculty copy)" .
 <https://github.com/john1hsu/communication-graph/id/source/emotional-contagion/s1> <http://purl.org/dc/terms/title> "The Ripple Effect: Emotional Contagion and Its Influence on Group Behavior" .

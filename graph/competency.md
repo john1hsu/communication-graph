@@ -14,7 +14,9 @@ _Which written barriers or anti-patterns have nothing in the graph that addresse
 
 _Which written skills or dispositions have no technique, framework or principle that develops them?_ — `queries/02-skills-without-practice.rq`
 
-_No results._
+| skill | type |
+|---|---|
+| `cm:emotion-regulation` | cmo:Skill |
 
 ## Situations, channels and formats with no guidance (gap)
 
@@ -86,6 +88,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:difficult-conversation` | `cm:conversational-receptiveness` |
 | `cm:difficult-conversation` | `cm:cooling-off-period` |
 | `cm:difficult-conversation` | `cm:de-escalation` |
+| `cm:difficult-conversation` | `cm:emotion-regulation` |
 | `cm:difficult-conversation` | `cm:face-and-facework` |
 | `cm:difficult-conversation` | `cm:i-statements` |
 | `cm:difficult-conversation` | `cm:paraphrasing` |
@@ -96,9 +99,8 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:email` | `cm:audience-analysis` |
 | `cm:email` | `cm:bottom-line-up-front` |
 | `cm:email` | `cm:channel-selection` |
-| `cm:email` | `cm:checking-understanding` |
 
-…and 128 more.
+…and 129 more.
 
 ## Myths and contested advice
 
@@ -148,6 +150,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:coaching` | cmo:Skill |
 | `cm:deaf-effect` | cmo:Barrier |
 | `cm:digital-communication` | cmo:Field |
+| `cm:emotion-regulation` | cmo:Skill |
 | `cm:employee-silence` | cmo:Barrier |
 | `cm:escalation-communication` | cmo:Technique |
 | `cm:executive-summary` | cmo:Genre |
@@ -174,9 +177,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:negotiation` | cmo:Context |
 | `cm:negotiation-preparation` | cmo:Context |
 | `cm:nonverbal-communication` | cmo:Concept |
-| `cm:note-taking-while-listening` | cmo:Technique |
 
-…and 47 more.
+…and 48 more.
 
 ## Orphan articles (gap)
 

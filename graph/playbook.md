@@ -315,6 +315,14 @@ Ask yourself:
 - When I felt criticised just now, did I restate their point before I explained or justified myself?
 - Is the other person reacting to my content, or to a tone of superiority, certainty or hidden agenda they are picking up?
 
+### [Emotion regulation](../articles/difficult-conversations-and-conflict/emotion-regulation.md) — Skill
+
+Ask yourself:
+- What am I feeling right now, and what do I want this conversation to achieve despite it?
+- Is there a less threatening but still accurate way to read what the other person just did?
+- Am I only hiding my reaction, and is that making me less responsive to the person in front of me?
+- Could I change the timing, setting or agenda of this conversation instead of white-knuckling through it?
+
 ### [Graded assertiveness](../articles/difficult-conversations-and-conflict/graded-assertiveness.md) — Technique
 
 1. Decide in advance which level the situation warrants - a question, a stated concern, a request to pause, or a stop - based on how serious and how imminent the harm is.
