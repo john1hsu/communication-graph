@@ -8487,6 +8487,39 @@
 <https://github.com/john1hsu/communication-graph/id/norbert-wiener> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/cybernetics> .
 <https://github.com/john1hsu/communication-graph/id/norbert-wiener> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/feedback> .
 <https://github.com/john1hsu/communication-graph/id/norbert-wiener> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/norm-of-reciprocity> <http://purl.org/dc/terms/created> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/norm-of-reciprocity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Phenomenon> .
+<https://github.com/john1hsu/communication-graph/id/norm-of-reciprocity> <http://www.w3.org/2000/01/rdf-schema#label> "Norm of reciprocity" .
+<https://github.com/john1hsu/communication-graph/id/norm-of-reciprocity> <http://www.w3.org/2004/02/skos/core#altLabel> "give and take" .
+<https://github.com/john1hsu/communication-graph/id/norm-of-reciprocity> <http://www.w3.org/2004/02/skos/core#altLabel> "reciprocity principle" .
+<https://github.com/john1hsu/communication-graph/id/norm-of-reciprocity> <http://www.w3.org/2004/02/skos/core#altLabel> "reciprocity" .
+<https://github.com/john1hsu/communication-graph/id/norm-of-reciprocity> <http://www.w3.org/2004/02/skos/core#altLabel> "rule of reciprocation" .
+<https://github.com/john1hsu/communication-graph/id/norm-of-reciprocity> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/persuasion> .
+<https://github.com/john1hsu/communication-graph/id/norm-of-reciprocity> <http://www.w3.org/2004/02/skos/core#definition> "The near-universal social rule that people should return help, favours and concessions to those who gave them, which makes giving first (genuine help, information, a concession) one of the most reliable ways to build influence at work; the compliance effect replicates well, but favours used as hooks create guilt, look like bribes and erode trust." .
+<https://github.com/john1hsu/communication-graph/id/norm-of-reciprocity> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/persuasion-and-influence> .
+<https://github.com/john1hsu/communication-graph/id/norm-of-reciprocity> <http://www.w3.org/2004/02/skos/core#prefLabel> "Norm of reciprocity" .
+<https://github.com/john1hsu/communication-graph/id/norm-of-reciprocity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/charles-osgood> .
+<https://github.com/john1hsu/communication-graph/id/norm-of-reciprocity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/concession-strategy> .
+<https://github.com/john1hsu/communication-graph/id/norm-of-reciprocity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/credibility> .
+<https://github.com/john1hsu/communication-graph/id/norm-of-reciprocity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/influence-without-authority> .
+<https://github.com/john1hsu/communication-graph/id/norm-of-reciprocity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/reciprocal-self-disclosure> .
+<https://github.com/john1hsu/communication-graph/id/norm-of-reciprocity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/social-proof> .
+<https://github.com/john1hsu/communication-graph/id/norm-of-reciprocity> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/norm-of-reciprocity/s1> .
+<https://github.com/john1hsu/communication-graph/id/norm-of-reciprocity> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/norm-of-reciprocity/s2> .
+<https://github.com/john1hsu/communication-graph/id/norm-of-reciprocity> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/norm-of-reciprocity/s3> .
+<https://github.com/john1hsu/communication-graph/id/norm-of-reciprocity> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/norm-of-reciprocity/s4> .
+<https://github.com/john1hsu/communication-graph/id/norm-of-reciprocity> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/norm-of-reciprocity/s5> .
+<https://github.com/john1hsu/communication-graph/id/norm-of-reciprocity> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/norm-of-reciprocity/s6> .
+<https://github.com/john1hsu/communication-graph/id/norm-of-reciprocity> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/social-proof> .
+<https://github.com/john1hsu/communication-graph/id/norm-of-reciprocity> <https://github.com/john1hsu/communication-graph/ontology#domain> "persuasion-and-influence" .
+<https://github.com/john1hsu/communication-graph/id/norm-of-reciprocity> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "robust" .
+<https://github.com/john1hsu/communication-graph/id/norm-of-reciprocity> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/persuasion-and-influence/norm-of-reciprocity.md" .
+<https://github.com/john1hsu/communication-graph/id/norm-of-reciprocity> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/alvin-gouldner> .
+<https://github.com/john1hsu/communication-graph/id/norm-of-reciprocity> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/robert-cialdini> .
+<https://github.com/john1hsu/communication-graph/id/norm-of-reciprocity> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/norm-of-reciprocity> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/flynn-2003> .
+<https://github.com/john1hsu/communication-graph/id/norm-of-reciprocity> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/genschow-et-al-2021> .
+<https://github.com/john1hsu/communication-graph/id/norm-of-reciprocity> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/zlatev-rogers-2020> .
 <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Was I looking at the person more than at my notes?" .
 <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening> .
@@ -17890,6 +17923,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/norbert-wiener/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/norbert-wiener/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "textbook" .
 <https://github.com/john1hsu/communication-graph/id/source/norbert-wiener/s5> <https://schema.org/url> <https://sk.sagepub.com/ency/edvol/embed/communicationtheory/chpt/cybernetics> .
+<https://github.com/john1hsu/communication-graph/id/source/norm-of-reciprocity/s1> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/norm-of-reciprocity/s1> <http://purl.org/dc/terms/publisher> "Alvin W. Gouldner, American Sociological Review 25(2), 161-178 (1960), doi:10.2307/2092623 (Scilit record)" .
+<https://github.com/john1hsu/communication-graph/id/source/norm-of-reciprocity/s1> <http://purl.org/dc/terms/title> "The Norm of Reciprocity: A Preliminary Statement" .
+<https://github.com/john1hsu/communication-graph/id/source/norm-of-reciprocity/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/norm-of-reciprocity/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/norm-of-reciprocity/s1> <https://schema.org/url> <https://www.scilit.net/publications/f710d94ccbada432ed13cfe39b3f3663> .
+<https://github.com/john1hsu/communication-graph/id/source/norm-of-reciprocity/s2> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/norm-of-reciprocity/s2> <http://purl.org/dc/terms/publisher> "Hein F. M. Lodewijkx, International Encyclopedia of the Social Sciences (via Encyclopedia.com)" .
+<https://github.com/john1hsu/communication-graph/id/source/norm-of-reciprocity/s2> <http://purl.org/dc/terms/title> "Reciprocity, Norm of" .
+<https://github.com/john1hsu/communication-graph/id/source/norm-of-reciprocity/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/norm-of-reciprocity/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "encyclopedia" .
+<https://github.com/john1hsu/communication-graph/id/source/norm-of-reciprocity/s2> <https://schema.org/url> <https://www.encyclopedia.com/social-sciences/applied-and-social-sciences-magazines/reciprocity-norm> .
+<https://github.com/john1hsu/communication-graph/id/source/norm-of-reciprocity/s3> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/norm-of-reciprocity/s3> <http://purl.org/dc/terms/publisher> "Robert B. Cialdini, Harvard Business Review, October 2001 (copy hosted by Brandeis Heller School executive education)" .
+<https://github.com/john1hsu/communication-graph/id/source/norm-of-reciprocity/s3> <http://purl.org/dc/terms/title> "Harnessing the Science of Persuasion" .
+<https://github.com/john1hsu/communication-graph/id/source/norm-of-reciprocity/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/norm-of-reciprocity/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "practitioner-journal" .
+<https://github.com/john1hsu/communication-graph/id/source/norm-of-reciprocity/s3> <https://schema.org/url> <https://heller.brandeis.edu/executive-education/maine-2023-2024/april-2023-chilingerian/friday-pm/harnessing-science-of-persuasion.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/norm-of-reciprocity/s4> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/norm-of-reciprocity/s4> <http://purl.org/dc/terms/publisher> "Genschow, Westfal, Crusius et al., Journal of Personality and Social Psychology 120(2), e1-e7 (2021), doi:10.1037/pspa0000261 (Tilburg University research portal)" .
+<https://github.com/john1hsu/communication-graph/id/source/norm-of-reciprocity/s4> <http://purl.org/dc/terms/title> "Does social psychology persist over half a century? A direct replication of Cialdini et al.'s (1975) classic door-in-the-face technique" .
+<https://github.com/john1hsu/communication-graph/id/source/norm-of-reciprocity/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/norm-of-reciprocity/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/norm-of-reciprocity/s4> <https://schema.org/url> <https://research.tilburguniversity.edu/en/publications/does-social-psychology-persist-over-half-a-century-a-direct-repli/> .
+<https://github.com/john1hsu/communication-graph/id/source/norm-of-reciprocity/s5> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/norm-of-reciprocity/s5> <http://purl.org/dc/terms/publisher> "Francis J. Flynn, Academy of Management Journal 46(5), 539-553 (2003) (Stanford GSB faculty research page)" .
+<https://github.com/john1hsu/communication-graph/id/source/norm-of-reciprocity/s5> <http://purl.org/dc/terms/title> "How Much Should I Help and How Often? The Effects of Generosity and Frequency of Favor Exchange on Social Status and Productivity" .
+<https://github.com/john1hsu/communication-graph/id/source/norm-of-reciprocity/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/norm-of-reciprocity/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/norm-of-reciprocity/s5> <https://schema.org/url> <https://www.gsb.stanford.edu/faculty-research/publications/how-much-should-i-help-how-often-effects-generosity-frequency-favor> .
+<https://github.com/john1hsu/communication-graph/id/source/norm-of-reciprocity/s6> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/norm-of-reciprocity/s6> <http://purl.org/dc/terms/publisher> "Julian J. Zlatev & Todd Rogers, Organizational Behavior and Human Decision Processes 161 (Suppl.), 74-84 (2020), doi:10.1016/j.obhdp.2020.10.006 (Harvard Kennedy School publication page)" .
+<https://github.com/john1hsu/communication-graph/id/source/norm-of-reciprocity/s6> <http://purl.org/dc/terms/title> "Returnable Reciprocity: Returnable Gifts are More Effective than Unreturnable Gifts at Promoting Virtuous Behaviors" .
+<https://github.com/john1hsu/communication-graph/id/source/norm-of-reciprocity/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/norm-of-reciprocity/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/norm-of-reciprocity/s6> <https://schema.org/url> <https://www.hks.harvard.edu/publications/returnable-reciprocity-returnable-gifts-are-more-effective-unreturnable-gifts> .
 <https://github.com/john1hsu/communication-graph/id/source/note-taking-while-listening/s1> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/note-taking-while-listening/s1> <http://purl.org/dc/terms/publisher> "American Psychological Association (library catalogue record)" .
 <https://github.com/john1hsu/communication-graph/id/source/note-taking-while-listening/s1> <http://purl.org/dc/terms/title> "Note-taking in the employment interview: Effects on recall and judgments (Middendorf & Macan, 2002, Journal of Applied Psychology 87(2), 293-303)" .

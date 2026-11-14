@@ -14850,6 +14850,95 @@
    ]
   },
   {
+   "@id": "cm:norm-of-reciprocity",
+   "@type": "cmo:Phenomenon",
+   "cmo:complements": {
+    "@id": "cm:social-proof"
+   },
+   "cmo:domain": "persuasion-and-influence",
+   "cmo:evidenceStatus": "robust",
+   "cmo:file": "articles/persuasion-and-influence/norm-of-reciprocity.md",
+   "cmo:introducedBy": [
+    {
+     "@id": "cm:alvin-gouldner"
+    },
+    {
+     "@id": "cm:robert-cialdini"
+    }
+   ],
+   "cmo:level": "introductory",
+   "cmo:supportedBy": [
+    {
+     "@id": "cm:flynn-2003"
+    },
+    {
+     "@id": "cm:genschow-et-al-2021"
+    },
+    {
+     "@id": "cm:zlatev-rogers-2020"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/norm-of-reciprocity/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/norm-of-reciprocity/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/norm-of-reciprocity/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/norm-of-reciprocity/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/norm-of-reciprocity/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/norm-of-reciprocity/s6"
+    }
+   ],
+   "rdfs:label": "Norm of reciprocity",
+   "skos:altLabel": [
+    "give and take",
+    "reciprocity principle",
+    "reciprocity",
+    "rule of reciprocation"
+   ],
+   "skos:broader": {
+    "@id": "cm:persuasion"
+   },
+   "skos:definition": "The near-universal social rule that people should return help, favours and concessions to those who gave them, which makes giving first (genuine help, information, a concession) one of the most reliable ways to build influence at work; the compliance effect replicates well, but favours used as hooks create guilt, look like bribes and erode trust.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/persuasion-and-influence"
+   },
+   "skos:prefLabel": "Norm of reciprocity",
+   "skos:related": [
+    {
+     "@id": "cm:charles-osgood"
+    },
+    {
+     "@id": "cm:concession-strategy"
+    },
+    {
+     "@id": "cm:credibility"
+    },
+    {
+     "@id": "cm:influence-without-authority"
+    },
+    {
+     "@id": "cm:reciprocal-self-disclosure"
+    },
+    {
+     "@id": "cm:social-proof"
+    }
+   ]
+  },
+  {
    "@id": "cm:note-taking-while-listening",
    "@type": "cmo:Technique",
    "cmo:appliedIn": [
@@ -47329,6 +47418,90 @@
    "dcterms:title": "Cybernetics",
    "schema:url": {
     "@id": "https://sk.sagepub.com/ency/edvol/embed/communicationtheory/chpt/cybernetics"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/norm-of-reciprocity/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Alvin W. Gouldner, American Sociological Review 25(2), 161-178 (1960), doi:10.2307/2092623 (Scilit record)",
+   "dcterms:title": "The Norm of Reciprocity: A Preliminary Statement",
+   "schema:url": {
+    "@id": "https://www.scilit.net/publications/f710d94ccbada432ed13cfe39b3f3663"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/norm-of-reciprocity/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Hein F. M. Lodewijkx, International Encyclopedia of the Social Sciences (via Encyclopedia.com)",
+   "dcterms:title": "Reciprocity, Norm of",
+   "schema:url": {
+    "@id": "https://www.encyclopedia.com/social-sciences/applied-and-social-sciences-magazines/reciprocity-norm"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/norm-of-reciprocity/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "practitioner-journal",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Robert B. Cialdini, Harvard Business Review, October 2001 (copy hosted by Brandeis Heller School executive education)",
+   "dcterms:title": "Harnessing the Science of Persuasion",
+   "schema:url": {
+    "@id": "https://heller.brandeis.edu/executive-education/maine-2023-2024/april-2023-chilingerian/friday-pm/harnessing-science-of-persuasion.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/norm-of-reciprocity/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Genschow, Westfal, Crusius et al., Journal of Personality and Social Psychology 120(2), e1-e7 (2021), doi:10.1037/pspa0000261 (Tilburg University research portal)",
+   "dcterms:title": "Does social psychology persist over half a century? A direct replication of Cialdini et al.'s (1975) classic door-in-the-face technique",
+   "schema:url": {
+    "@id": "https://research.tilburguniversity.edu/en/publications/does-social-psychology-persist-over-half-a-century-a-direct-repli/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/norm-of-reciprocity/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Francis J. Flynn, Academy of Management Journal 46(5), 539-553 (2003) (Stanford GSB faculty research page)",
+   "dcterms:title": "How Much Should I Help and How Often? The Effects of Generosity and Frequency of Favor Exchange on Social Status and Productivity",
+   "schema:url": {
+    "@id": "https://www.gsb.stanford.edu/faculty-research/publications/how-much-should-i-help-how-often-effects-generosity-frequency-favor"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/norm-of-reciprocity/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Julian J. Zlatev & Todd Rogers, Organizational Behavior and Human Decision Processes 161 (Suppl.), 74-84 (2020), doi:10.1016/j.obhdp.2020.10.006 (Harvard Kennedy School publication page)",
+   "dcterms:title": "Returnable Reciprocity: Returnable Gifts are More Effective than Unreturnable Gifts at Promoting Virtuous Behaviors",
+   "schema:url": {
+    "@id": "https://www.hks.harvard.edu/publications/returnable-reciprocity-returnable-gifts-are-more-effective-unreturnable-gifts"
    }
   },
   {
