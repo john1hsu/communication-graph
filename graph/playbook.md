@@ -1076,6 +1076,28 @@ Ask yourself:
 - Have I said what the impact actually was, rather than assuming they already know?
 - Did I leave room to ask about their intent and listen before deciding what should change?
 
+### [Solution-focused coaching](../articles/feedback-and-coaching/solution-focused-coaching.md) — Framework
+
+1. Let the person describe the problem briefly and acknowledge it; do not cut off problem talk they need, but do not dig into its history either.
+2. Ask what they want instead, in concrete terms: "If this were sorted, what would you notice on a normal Tuesday?" (a toned-down miracle question).
+3. Ask for exceptions and past successes: "When has this gone a bit better?" and "What did you do differently that time?"
+4. Help them turn what worked into one or two small, specific next steps they could take this week.
+5. Close by checking commitment and agreeing when you will review progress, so the good feeling the questions create is converted into action.
+
+*In a one-on-one, an analyst says stakeholder meetings keep running over and ending without decisions, and she is frustrated.*
+
+| Before | After |
+|---|---|
+| How long has this been happening? Why do you think they keep going off track? Who's the main culprit? | That sounds draining. Picture a meeting next month that goes well - what's different about it? ... Has any recent meeting come close? ... What did you do in that one? ... Which of those could you repeat on Thursday? |
+
+**Why:** The problem-focused questions keep her rehearsing causes and blame; the solution-focused version gets her to picture the outcome, find an exception she already produced, and leave with a step she owns.
+
+Ask yourself:
+- Did I spend more of the conversation on what they want and what already works than on the history of the problem?
+- Did I let them voice the problem first, or did I push positivity on them too early?
+- Did the conversation end with a concrete next step and a review date, not just a better mood?
+- Is this problem largely within their control, or does it need a systemic fix that questions alone will not provide?
+
 ### [Wise feedback](../articles/feedback-and-coaching/wise-feedback.md) — Technique
 
 1. Make sure the standard is real and the work actually falls short of it; wise framing cannot rescue vague or unfair criticism.

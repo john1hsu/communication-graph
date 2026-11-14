@@ -20611,6 +20611,104 @@
    ]
   },
   {
+   "@id": "cm:solution-focused-coaching",
+   "@type": "cmo:Framework",
+   "cmo:challengedBy": {
+    "@id": "cm:solms-et-al-2022"
+   },
+   "cmo:contrastsWith": {
+    "@id": "cm:problem-focused-questions"
+   },
+   "cmo:develops": {
+    "@id": "cm:coaching"
+   },
+   "cmo:domain": "feedback-and-coaching",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/solution-focused-coaching/example"
+   },
+   "cmo:explainedBy": {
+    "@id": "cm:broaden-and-build-theory"
+   },
+   "cmo:file": "articles/feedback-and-coaching/solution-focused-coaching.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/solution-focused-coaching/howto"
+   },
+   "cmo:influencedBy": {
+    "@id": "cm:solution-focused-brief-therapy"
+   },
+   "cmo:level": "intermediate",
+   "cmo:requires": {
+    "@id": "cm:open-ended-questions"
+   },
+   "cmo:supportedBy": [
+    {
+     "@id": "cm:grant-oconnor-2010"
+    },
+    {
+     "@id": "cm:grant-oconnor-2018"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/solution-focused-coaching/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/solution-focused-coaching/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/solution-focused-coaching/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/solution-focused-coaching/s4"
+    }
+   ],
+   "rdfs:label": "Solution-focused coaching",
+   "skos:altLabel": [
+    "SF coaching",
+    "solution-focused coaching questions",
+    "solution-focused questions",
+    "solutions-focused coaching"
+   ],
+   "skos:broader": [
+    {
+     "@id": "cm:coaching"
+    },
+    {
+     "@id": "cm:questioning"
+    }
+   ],
+   "skos:definition": "A coaching approach, adapted from solution-focused brief therapy, that spends less time analysing where a problem came from and more time on what the person wants instead, when the problem is already absent or smaller, and what has worked before. Experiments show its questions reliably lift mood and goal-directed motivation more than problem-focused questions, but effects on actual follow-through are less consistent.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/feedback-and-coaching"
+   },
+   "skos:prefLabel": "Solution-focused coaching",
+   "skos:related": [
+    {
+     "@id": "cm:feedforward"
+    },
+    {
+     "@id": "cm:grow-model"
+    },
+    {
+     "@id": "cm:humble-inquiry"
+    },
+    {
+     "@id": "cm:one-on-one-meetings"
+    },
+    {
+     "@id": "cm:open-ended-questions"
+    },
+    {
+     "@id": "cm:praise-and-recognition"
+    }
+   ]
+  },
+  {
    "@id": "cm:speaking-anxiety",
    "@type": "cmo:Barrier",
    "cmo:demonstratedBy": {
@@ -33610,6 +33708,98 @@
    "@type": "schema:HowToStep",
    "schema:position": 6,
    "schema:text": "If you caused the harm, put the account inside an apology - responsibility and repair first, explanation kept short."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/solution-focused-coaching/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:solution-focused-coaching"
+   },
+   "rdfs:label": "Did I spend more of the conversation on what they want and what already works than on the history of the problem?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/solution-focused-coaching/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:solution-focused-coaching"
+   },
+   "rdfs:label": "Did I let them voice the problem first, or did I push positivity on them too early?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/solution-focused-coaching/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:solution-focused-coaching"
+   },
+   "rdfs:label": "Did the conversation end with a concrete next step and a review date, not just a better mood?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/solution-focused-coaching/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:solution-focused-coaching"
+   },
+   "rdfs:label": "Is this problem largely within their control, or does it need a systemic fix that questions alone will not provide?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/solution-focused-coaching/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "That sounds draining. Picture a meeting next month that goes well - what's different about it? ... Has any recent meeting come close? ... What did you do in that one? ... Which of those could you repeat on Thursday?",
+   "cmo:before": "How long has this been happening? Why do you think they keep going off track? Who's the main culprit?",
+   "cmo:situation": "In a one-on-one, an analyst says stakeholder meetings keep running over and ending without decisions, and she is frustrated.",
+   "cmo:why": "The problem-focused questions keep her rehearsing causes and blame; the solution-focused version gets her to picture the outcome, find an exception she already produced, and leave with a step she owns."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/solution-focused-coaching/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Solution-focused coaching",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/solution-focused-coaching/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/solution-focused-coaching/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/solution-focused-coaching/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/solution-focused-coaching/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/solution-focused-coaching/howto/5"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/solution-focused-coaching/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Let the person describe the problem briefly and acknowledge it; do not cut off problem talk they need, but do not dig into its history either."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/solution-focused-coaching/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Ask what they want instead, in concrete terms: \"If this were sorted, what would you notice on a normal Tuesday?\" (a toned-down miracle question)."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/solution-focused-coaching/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Ask for exceptions and past successes: \"When has this gone a bit better?\" and \"What did you do differently that time?\""
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/solution-focused-coaching/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Help them turn what worked into one or two small, specific next steps they could take this week."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/solution-focused-coaching/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Close by checking commitment and agreeing when you will review progress, so the good feeling the questions create is converted into action."
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/source/1-2-4-all/s1",
@@ -51473,6 +51663,62 @@
    "dcterms:title": "Carl Iver Hovland, 1912-1961: A Biographical Memoir",
    "schema:url": {
     "@id": "https://www.nasonline.org/wp-content/uploads/2024/06/hovland-carl.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/solution-focused-coaching/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "John Wiley & Sons (via O'Reilly Learning)",
+   "dcterms:title": "Steps to Solutions: A process for putting solution-focused coaching principles into practice (Anthony M. Grant, chapter 30 in Passmore & Tee (eds.), Coaching Practiced, Wiley, 2022; originally published 2013)",
+   "schema:url": {
+    "@id": "https://www.oreilly.com/library/view/coaching-practiced/9781119835691/c30.xhtml"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/solution-focused-coaching/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Emerald Publishing",
+   "dcterms:title": "The differential effects of solution-focused and problem-focused coaching questions: a pilot study with implications for practice (Grant & O'Connor, 2010, Industrial and Commercial Training 42(2), 102-111, doi:10.1108/00197851011026090)",
+   "schema:url": {
+    "@id": "https://www.emeraldinsight.com/insight/content/doi/10.1108/00197851011026090/full/html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/solution-focused-coaching/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Institute of Coaching (McLean Hospital, Harvard Medical School affiliate) research record",
+   "dcterms:title": "Broadening and building solution-focused coaching: feeling good is not enough (Grant & O'Connor, 2018, Coaching: An International Journal of Theory, Research and Practice 11(2), 165-185, doi:10.1080/17521882.2018.1489868)",
+   "schema:url": {
+    "@id": "https://www.instituteofcoaching.org/resources/broadening-and-building-solution-focused-coaching-feeling-good-not-enough"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/solution-focused-coaching/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Frontiers in Psychology",
+   "dcterms:title": "Simply effective? The differential effects of solution-focused and problem-focused coaching questions in a self-coaching writing exercise (Solms, Koen, van Vianen, Theeboom, Beersma, de Pagter & de Hoog, 2022, Frontiers in Psychology 13, doi:10.3389/fpsyg.2022.895439)",
+   "schema:url": {
+    "@id": "https://www.frontiersin.org/articles/10.3389/fpsyg.2022.895439/full"
    }
   },
   {

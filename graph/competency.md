@@ -12,9 +12,7 @@ _No results._
 
 _Which written skills or dispositions have no technique, framework or principle that develops them?_ — `queries/02-skills-without-practice.rq`
 
-| skill | type |
-|---|---|
-| `cm:coaching` | cmo:Skill |
+_No results._
 
 ## Situations, channels and formats with no guidance (gap)
 
@@ -59,7 +57,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:assertion-evidence-slides` | 1 | Death by PowerPoint |
 | `cm:audience-analysis` | 1 | Curse of knowledge |
 
-…and 50 more.
+…and 51 more.
 
 ## Toolkit by situation
 
@@ -137,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:apology` | mixed |  |
 | `cm:assertion-evidence-slides` | mixed | `cm:alzayed-alzamel-2023` |
 
-…and 155 more.
+…and 156 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -176,7 +174,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:note-taking-while-listening` | cmo:Technique |
 | `cm:one-on-one-meetings` | cmo:Context |
 
-…and 44 more.
+…and 45 more.
 
 ## Orphan articles (gap)
 

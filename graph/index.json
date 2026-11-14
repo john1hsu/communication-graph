@@ -23396,6 +23396,128 @@
   ]
  },
  {
+  "id": "cm:solution-focused-coaching",
+  "title": "Solution-focused coaching",
+  "aliases": [
+   "solution-focused questions",
+   "solution-focused coaching questions",
+   "SF coaching",
+   "solutions-focused coaching"
+  ],
+  "type": "Framework",
+  "domain": "feedback-and-coaching",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/feedback-and-coaching/solution-focused-coaching.md",
+  "created": "2026-11-14",
+  "summary": "A coaching approach, adapted from solution-focused brief therapy, that spends less time analysing where a problem came from and more time on what the person wants instead, when the problem is already absent or smaller, and what has worked before. Experiments show its questions reliably lift mood and goal-directed motivation more than problem-focused questions, but effects on actual follow-through are less consistent.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:coaching"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "cm:questioning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:grow-model"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:open-ended-questions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:feedforward"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:one-on-one-meetings"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:humble-inquiry"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:praise-and-recognition"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:open-ended-questions"
+   },
+   {
+    "predicate": "cmo:develops",
+    "object": "cm:coaching",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:influencedBy",
+    "object": "cm:solution-focused-brief-therapy",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:contrastsWith",
+    "object": "cm:problem-focused-questions",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:grant-oconnor-2010",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:grant-oconnor-2018",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:solms-et-al-2022",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:broaden-and-build-theory",
+    "source": "s3",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Did I spend more of the conversation on what they want and what already works than on the history of the problem?",
+   "Did I let them voice the problem first, or did I push positivity on them too early?",
+   "Did the conversation end with a concrete next step and a review date, not just a better mood?",
+   "Is this problem largely within their control, or does it need a systemic fix that questions alone will not provide?"
+  ],
+  "steps": [
+   "Let the person describe the problem briefly and acknowledge it; do not cut off problem talk they need, but do not dig into its history either.",
+   "Ask what they want instead, in concrete terms: \"If this were sorted, what would you notice on a normal Tuesday?\" (a toned-down miracle question).",
+   "Ask for exceptions and past successes: \"When has this gone a bit better?\" and \"What did you do differently that time?\"",
+   "Help them turn what worked into one or two small, specific next steps they could take this week.",
+   "Close by checking commitment and agreeing when you will review progress, so the good feeling the questions create is converted into action."
+  ],
+  "example": {
+   "situation": "In a one-on-one, an analyst says stakeholder meetings keep running over and ending without decisions, and she is frustrated.",
+   "before": "How long has this been happening? Why do you think they keep going off track? Who's the main culprit?",
+   "after": "That sounds draining. Picture a meeting next month that goes well - what's different about it? ... Has any recent meeting come close? ... What did you do in that one? ... Which of those could you repeat on Thursday?",
+   "why": "The problem-focused questions keep her rehearsing causes and blame; the solution-focused version gets her to picture the outcome, find an exception she already produced, and leave with a step she owns."
+  },
+  "source_urls": [
+   "https://www.oreilly.com/library/view/coaching-practiced/9781119835691/c30.xhtml",
+   "https://www.emeraldinsight.com/insight/content/doi/10.1108/00197851011026090/full/html",
+   "https://www.instituteofcoaching.org/resources/broadening-and-building-solution-focused-coaching-feeling-good-not-enough",
+   "https://www.frontiersin.org/articles/10.3389/fpsyg.2022.895439/full"
+  ]
+ },
+ {
   "id": "cm:speaking-anxiety",
   "title": "Public speaking anxiety",
   "aliases": [
