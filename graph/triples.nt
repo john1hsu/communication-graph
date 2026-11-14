@@ -21584,6 +21584,36 @@
 <https://github.com/john1hsu/communication-graph/id/source/workplace-meetings/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/workplace-meetings/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
 <https://github.com/john1hsu/communication-graph/id/source/workplace-meetings/s6> <https://schema.org/url> <https://www.cambridge.org/core/books/abs/cambridge-handbook-of-meeting-science/an-introduction-tothe-cambridge-handbook-of-meeting-science/2F57199A6F89BCC3A4442B16893022A6> .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-stress/s1> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-stress/s1> <http://purl.org/dc/terms/publisher> "Gloria Mark, Daniela Gudith & Ulrich Klocke, Proceedings of CHI 2008, ACM, 107-110 (author copy, interruptions.net)" .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-stress/s1> <http://purl.org/dc/terms/title> "The cost of interrupted work: More speed and stress" .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-stress/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-stress/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-stress/s1> <https://schema.org/url> <https://interruptions.net/literature/Mark-CHI08.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-stress/s2> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-stress/s2> <http://purl.org/dc/terms/publisher> "William J. Becker, Liuba Y. Belkin, Samantha A. Conroy & Sarah Tuskey, Journal of Management, 2019 online (VTechWorks, Virginia Tech repository)" .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-stress/s2> <http://purl.org/dc/terms/title> "Killing me softly: Organizational e-mail monitoring expectations' impact on employee and significant other well-being" .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-stress/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-stress/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-stress/s2> <https://schema.org/url> <https://vtechworks.lib.vt.edu/items/4cd5ca58-e780-4d07-90a0-d7cd365a5c6a/full> .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-stress/s3> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-stress/s3> <http://purl.org/dc/terms/publisher> "Ivan Marzocchi et al., Work & Stress 38(3), 293-320, 2024 (White Rose Research Online author copy)" .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-stress/s3> <http://purl.org/dc/terms/title> "Job demands and resources and their association with employee well-being in the European healthcare sector: a systematic review and meta-analysis of prospective research" .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-stress/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-stress/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-stress/s3> <https://schema.org/url> <https://eprints.whiterose.ac.uk/208008/1/Marzocchietalinpress.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-stress/s4> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-stress/s4> <http://purl.org/dc/terms/publisher> "Health and Safety Executive (UK)" .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-stress/s4> <http://purl.org/dc/terms/title> "Work-related stress and how to manage it" .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-stress/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-stress/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-stress/s4> <https://schema.org/url> <https://hse.gov.uk/stress/overview.htm> .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-stress/s5> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-stress/s5> <http://purl.org/dc/terms/publisher> "Health and Safety Executive (UK)" .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-stress/s5> <http://purl.org/dc/terms/title> "What are the Management Standards?" .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-stress/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-stress/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-stress/s5> <https://schema.org/url> <https://www.hse.gov.uk/STRESS/standards/overview.htm> .
 <https://github.com/john1hsu/communication-graph/id/source/zone-of-possible-agreement/s1> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/zone-of-possible-agreement/s1> <http://purl.org/dc/terms/publisher> "Katie Shonk, Program on Negotiation at Harvard Law School, 2026" .
 <https://github.com/john1hsu/communication-graph/id/source/zone-of-possible-agreement/s1> <http://purl.org/dc/terms/title> "How to Find the ZOPA in Business Negotiations" .
@@ -23150,6 +23180,57 @@
 <https://github.com/john1hsu/communication-graph/id/workplace-meetings> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/meetings-and-facilitation/workplace-meetings.md" .
 <https://github.com/john1hsu/communication-graph/id/workplace-meetings> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/workplace-meetings> <https://github.com/john1hsu/communication-graph/ontology#studiedIn> <https://github.com/john1hsu/communication-graph/id/meeting-science> .
+<https://github.com/john1hsu/communication-graph/id/workplace-stress/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/workplace-stress/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Does everyone on my team know which messages need a reply tonight and which can wait until morning, because I have said so explicitly?" .
+<https://github.com/john1hsu/communication-graph/id/workplace-stress/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/workplace-stress> .
+<https://github.com/john1hsu/communication-graph/id/workplace-stress/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/workplace-stress/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "How many times did I interrupt someone's focused work today with something that could have been batched into one message?" .
+<https://github.com/john1hsu/communication-graph/id/workplace-stress/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/workplace-stress> .
+<https://github.com/john1hsu/communication-graph/id/workplace-stress/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/workplace-stress/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Could each person I manage state, in one sentence, what they own and what they do not?" .
+<https://github.com/john1hsu/communication-graph/id/workplace-stress/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/workplace-stress> .
+<https://github.com/john1hsu/communication-graph/id/workplace-stress/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/workplace-stress/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "When I announced the last change, did people hear the reason and get a chance to ask questions before it took effect?" .
+<https://github.com/john1hsu/communication-graph/id/workplace-stress/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/workplace-stress> .
+<https://github.com/john1hsu/communication-graph/id/workplace-stress/check/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/workplace-stress/check/5> <http://www.w3.org/2000/01/rdf-schema#label> "Am I reading a curt reply as rudeness when it may be a sign that the sender is overloaded?" .
+<https://github.com/john1hsu/communication-graph/id/workplace-stress/check/5> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/workplace-stress> .
+<https://github.com/john1hsu/communication-graph/id/workplace-stress> <http://purl.org/dc/terms/created> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/workplace-stress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Barrier> .
+<https://github.com/john1hsu/communication-graph/id/workplace-stress> <http://www.w3.org/2000/01/rdf-schema#label> "Workplace stress" .
+<https://github.com/john1hsu/communication-graph/id/workplace-stress> <http://www.w3.org/2004/02/skos/core#altLabel> "job stress" .
+<https://github.com/john1hsu/communication-graph/id/workplace-stress> <http://www.w3.org/2004/02/skos/core#altLabel> "occupational stress" .
+<https://github.com/john1hsu/communication-graph/id/workplace-stress> <http://www.w3.org/2004/02/skos/core#altLabel> "work stress" .
+<https://github.com/john1hsu/communication-graph/id/workplace-stress> <http://www.w3.org/2004/02/skos/core#altLabel> "work-related stress" .
+<https://github.com/john1hsu/communication-graph/id/workplace-stress> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
+<https://github.com/john1hsu/communication-graph/id/workplace-stress> <http://www.w3.org/2004/02/skos/core#definition> "The adverse reaction people have when the pressures and demands of work exceed their resources to cope; much of it is created or relieved by communication - interruptions, unclear roles, always-on reply expectations and how change is explained - and it in turn degrades how people listen, write and handle conflict." .
+<https://github.com/john1hsu/communication-graph/id/workplace-stress> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/barriers-and-psychology> .
+<https://github.com/john1hsu/communication-graph/id/workplace-stress> <http://www.w3.org/2004/02/skos/core#prefLabel> "Workplace stress" .
+<https://github.com/john1hsu/communication-graph/id/workplace-stress> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> .
+<https://github.com/john1hsu/communication-graph/id/workplace-stress> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/email-urgency-bias-study> .
+<https://github.com/john1hsu/communication-graph/id/workplace-stress> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/information-overload> .
+<https://github.com/john1hsu/communication-graph/id/workplace-stress> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> .
+<https://github.com/john1hsu/communication-graph/id/workplace-stress> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mindfulness> .
+<https://github.com/john1hsu/communication-graph/id/workplace-stress> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> .
+<https://github.com/john1hsu/communication-graph/id/workplace-stress> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
+<https://github.com/john1hsu/communication-graph/id/workplace-stress> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/raci-matrix> .
+<https://github.com/john1hsu/communication-graph/id/workplace-stress> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/role-ambiguity> .
+<https://github.com/john1hsu/communication-graph/id/workplace-stress> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/scheduled-inbox-checks> .
+<https://github.com/john1hsu/communication-graph/id/workplace-stress> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations> .
+<https://github.com/john1hsu/communication-graph/id/workplace-stress> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/workplace-stress/s1> .
+<https://github.com/john1hsu/communication-graph/id/workplace-stress> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/workplace-stress/s2> .
+<https://github.com/john1hsu/communication-graph/id/workplace-stress> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/workplace-stress/s3> .
+<https://github.com/john1hsu/communication-graph/id/workplace-stress> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/workplace-stress/s4> .
+<https://github.com/john1hsu/communication-graph/id/workplace-stress> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/workplace-stress/s5> .
+<https://github.com/john1hsu/communication-graph/id/workplace-stress> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/becker-et-al-2019> .
+<https://github.com/john1hsu/communication-graph/id/workplace-stress> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/mark-gudith-klocke-2008> .
+<https://github.com/john1hsu/communication-graph/id/workplace-stress> <https://github.com/john1hsu/communication-graph/ontology#domain> "barriers-and-psychology" .
+<https://github.com/john1hsu/communication-graph/id/workplace-stress> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/workplace-stress> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/job-demands-resources-model> .
+<https://github.com/john1hsu/communication-graph/id/workplace-stress> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/barriers-and-psychology/workplace-stress.md" .
+<https://github.com/john1hsu/communication-graph/id/workplace-stress> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/workplace-stress> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/marzocchi-et-al-2024> .
+<https://github.com/john1hsu/communication-graph/id/workplace-stress> <https://github.com/john1hsu/communication-graph/ontology#undermines> <https://github.com/john1hsu/communication-graph/id/employee-engagement> .
 <https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> <http://purl.org/dc/terms/created> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
 <https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> <http://www.w3.org/2000/01/rdf-schema#label> "Zone of possible agreement" .

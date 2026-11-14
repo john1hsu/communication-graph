@@ -42,7 +42,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:graded-assertiveness` | 2 | Employee silence, Upward dissent |
 | `cm:i-statements` | 2 | Defensiveness, accusatory-you-statements |
 | `cm:interests-vs-positions` | 2 | Mythical fixed-pie bias, positional-bargaining |
-| `cm:mindfulness` | 2 | Emotion regulation, workplace-stress |
+| `cm:mindfulness` | 2 | Emotion regulation, Workplace stress |
 | `cm:nominal-group-technique` | 2 | Unequal participation, production-blocking |
 | `cm:plain-language` | 2 | Curse of knowledge, jargon |
 | `cm:presentation-rehearsal` | 2 | Public speaking anxiety, public-speaking |
@@ -135,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:acoustic-speech-analysis-coaching` | mixed |  |
 | `cm:active-listening` | mixed |  |
 
-…and 166 more.
+…and 167 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -174,7 +174,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:mum-effect` | cmo:Barrier |
 | `cm:narrative-persuasion` | cmo:Technique |
 
-…and 52 more.
+…and 53 more.
 
 ## Orphan articles (gap)
 

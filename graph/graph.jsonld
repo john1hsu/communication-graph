@@ -24024,6 +24024,102 @@
    ]
   },
   {
+   "@id": "cm:workplace-stress",
+   "@type": "cmo:Barrier",
+   "cmo:demonstratedBy": [
+    {
+     "@id": "cm:becker-et-al-2019"
+    },
+    {
+     "@id": "cm:mark-gudith-klocke-2008"
+    }
+   ],
+   "cmo:domain": "barriers-and-psychology",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:explainedBy": {
+    "@id": "cm:job-demands-resources-model"
+   },
+   "cmo:file": "articles/barriers-and-psychology/workplace-stress.md",
+   "cmo:level": "introductory",
+   "cmo:supportedBy": {
+    "@id": "cm:marzocchi-et-al-2024"
+   },
+   "cmo:undermines": {
+    "@id": "cm:employee-engagement"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/workplace-stress/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/workplace-stress/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/workplace-stress/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/workplace-stress/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/workplace-stress/s5"
+    }
+   ],
+   "rdfs:label": "Workplace stress",
+   "skos:altLabel": [
+    "job stress",
+    "occupational stress",
+    "work stress",
+    "work-related stress"
+   ],
+   "skos:broader": {
+    "@id": "cm:organizational-communication"
+   },
+   "skos:definition": "The adverse reaction people have when the pressures and demands of work exceed their resources to cope; much of it is created or relieved by communication - interruptions, unclear roles, always-on reply expectations and how change is explained - and it in turn degrades how people listen, write and handle conflict.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/barriers-and-psychology"
+   },
+   "skos:prefLabel": "Workplace stress",
+   "skos:related": [
+    {
+     "@id": "cm:asynchronous-communication"
+    },
+    {
+     "@id": "cm:email-urgency-bias-study"
+    },
+    {
+     "@id": "cm:information-overload"
+    },
+    {
+     "@id": "cm:kushlev-dunn-2015"
+    },
+    {
+     "@id": "cm:mindfulness"
+    },
+    {
+     "@id": "cm:one-on-one-meetings"
+    },
+    {
+     "@id": "cm:psychological-safety"
+    },
+    {
+     "@id": "cm:raci-matrix"
+    },
+    {
+     "@id": "cm:role-ambiguity"
+    },
+    {
+     "@id": "cm:scheduled-inbox-checks"
+    },
+    {
+     "@id": "cm:setting-reply-time-expectations"
+    }
+   ]
+  },
+  {
    "@id": "cm:zone-of-possible-agreement",
    "@type": "cmo:Concept",
    "cmo:complements": {
@@ -56014,6 +56110,76 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/workplace-stress/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Gloria Mark, Daniela Gudith & Ulrich Klocke, Proceedings of CHI 2008, ACM, 107-110 (author copy, interruptions.net)",
+   "dcterms:title": "The cost of interrupted work: More speed and stress",
+   "schema:url": {
+    "@id": "https://interruptions.net/literature/Mark-CHI08.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/workplace-stress/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "William J. Becker, Liuba Y. Belkin, Samantha A. Conroy & Sarah Tuskey, Journal of Management, 2019 online (VTechWorks, Virginia Tech repository)",
+   "dcterms:title": "Killing me softly: Organizational e-mail monitoring expectations' impact on employee and significant other well-being",
+   "schema:url": {
+    "@id": "https://vtechworks.lib.vt.edu/items/4cd5ca58-e780-4d07-90a0-d7cd365a5c6a/full"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/workplace-stress/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Ivan Marzocchi et al., Work & Stress 38(3), 293-320, 2024 (White Rose Research Online author copy)",
+   "dcterms:title": "Job demands and resources and their association with employee well-being in the European healthcare sector: a systematic review and meta-analysis of prospective research",
+   "schema:url": {
+    "@id": "https://eprints.whiterose.ac.uk/208008/1/Marzocchietalinpress.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/workplace-stress/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Health and Safety Executive (UK)",
+   "dcterms:title": "Work-related stress and how to manage it",
+   "schema:url": {
+    "@id": "https://hse.gov.uk/stress/overview.htm"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/workplace-stress/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Health and Safety Executive (UK)",
+   "dcterms:title": "What are the Management Standards?",
+   "schema:url": {
+    "@id": "https://www.hse.gov.uk/STRESS/standards/overview.htm"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/source/zone-of-possible-agreement/s1",
    "@type": "cmo:Source",
    "cmo:sourceType": "academic",
@@ -57566,6 +57732,46 @@
    "@type": "schema:HowToStep",
    "schema:position": 6,
    "schema:text": "Use the same words with the same meanings in every report, and add a short key whenever a new reader joins the distribution."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/workplace-stress/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:workplace-stress"
+   },
+   "rdfs:label": "Does everyone on my team know which messages need a reply tonight and which can wait until morning, because I have said so explicitly?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/workplace-stress/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:workplace-stress"
+   },
+   "rdfs:label": "How many times did I interrupt someone's focused work today with something that could have been batched into one message?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/workplace-stress/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:workplace-stress"
+   },
+   "rdfs:label": "Could each person I manage state, in one sentence, what they own and what they do not?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/workplace-stress/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:workplace-stress"
+   },
+   "rdfs:label": "When I announced the last change, did people hear the reason and get a chance to ask questions before it took effect?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/workplace-stress/check/5",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:workplace-stress"
+   },
+   "rdfs:label": "Am I reading a curt reply as rudeness when it may be a sign that the sender is overloaded?"
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/zoom-fatigue/check/1",

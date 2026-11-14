@@ -27334,6 +27334,119 @@
   ]
  },
  {
+  "id": "cm:workplace-stress",
+  "title": "Workplace stress",
+  "aliases": [
+   "work-related stress",
+   "job stress",
+   "occupational stress",
+   "work stress"
+  ],
+  "type": "Barrier",
+  "domain": "barriers-and-psychology",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/barriers-and-psychology/workplace-stress.md",
+  "created": "2026-11-14",
+  "summary": "The adverse reaction people have when the pressures and demands of work exceed their resources to cope; much of it is created or relieved by communication - interruptions, unclear roles, always-on reply expectations and how change is explained - and it in turn degrades how people listen, write and handle conflict.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:organizational-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:information-overload"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:mindfulness"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:setting-reply-time-expectations"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:scheduled-inbox-checks"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:kushlev-dunn-2015"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:email-urgency-bias-study"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:role-ambiguity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:raci-matrix"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:one-on-one-meetings"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:psychological-safety"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:asynchronous-communication"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:job-demands-resources-model",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:mark-gudith-klocke-2008",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:becker-et-al-2019",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:marzocchi-et-al-2024",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:undermines",
+    "object": "cm:employee-engagement",
+    "source": "s3",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Does everyone on my team know which messages need a reply tonight and which can wait until morning, because I have said so explicitly?",
+   "How many times did I interrupt someone's focused work today with something that could have been batched into one message?",
+   "Could each person I manage state, in one sentence, what they own and what they do not?",
+   "When I announced the last change, did people hear the reason and get a chance to ask questions before it took effect?",
+   "Am I reading a curt reply as rudeness when it may be a sign that the sender is overloaded?"
+  ],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://interruptions.net/literature/Mark-CHI08.pdf",
+   "https://vtechworks.lib.vt.edu/items/4cd5ca58-e780-4d07-90a0-d7cd365a5c6a/full",
+   "https://eprints.whiterose.ac.uk/208008/1/Marzocchietalinpress.pdf",
+   "https://hse.gov.uk/stress/overview.htm",
+   "https://www.hse.gov.uk/STRESS/standards/overview.htm"
+  ]
+ },
+ {
   "id": "cm:zone-of-possible-agreement",
   "title": "Zone of possible agreement",
   "aliases": [

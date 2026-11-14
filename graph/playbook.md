@@ -153,6 +153,15 @@ Ask yourself:
 - Am I about to spend the first minute of my talk apologising for something the audience has not noticed?
 - If I picture this meeting from the back of the room instead of through my own eyes, how big does my moment really look?
 
+### [Workplace stress](../articles/barriers-and-psychology/workplace-stress.md) — Barrier
+
+Ask yourself:
+- Does everyone on my team know which messages need a reply tonight and which can wait until morning, because I have said so explicitly?
+- How many times did I interrupt someone's focused work today with something that could have been batched into one message?
+- Could each person I manage state, in one sentence, what they own and what they do not?
+- When I announced the last change, did people hear the reason and get a chance to ask questions before it took effect?
+- Am I reading a curt reply as rudeness when it may be a sign that the sender is overloaded?
+
 ## cross-cultural-communication
 
 ### [Communicating across languages](../articles/cross-cultural-communication/communicating-across-languages.md) — Technique
