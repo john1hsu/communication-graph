@@ -12828,6 +12828,58 @@
 <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996> .
 <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> .
+<https://github.com/john1hsu/communication-graph/id/slide-design/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/slide-design/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Does every slide make one point, and does its most prominent element show that point?" .
+<https://github.com/john1hsu/communication-graph/id/slide-design/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/slide-design> .
+<https://github.com/john1hsu/communication-graph/id/slide-design/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/slide-design/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Is there any slide whose text I will read aloud word for word, and could I cut it to a few key terms?" .
+<https://github.com/john1hsu/communication-graph/id/slide-design/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/slide-design> .
+<https://github.com/john1hsu/communication-graph/id/slide-design/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/slide-design/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Could someone at the back of the room, or on a small laptop screen, read every label and tell every line on the chart apart?" .
+<https://github.com/john1hsu/communication-graph/id/slide-design/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/slide-design> .
+<https://github.com/john1hsu/communication-graph/id/slide-design/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/slide-design/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Have I removed images, animations and data that are interesting but do not help this audience reach my conclusion?" .
+<https://github.com/john1hsu/communication-graph/id/slide-design/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/slide-design> .
+<https://github.com/john1hsu/communication-graph/id/slide-design/check/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/slide-design/check/5> <http://www.w3.org/2000/01/rdf-schema#label> "Am I relying on colour alone to carry a meaning, and will I describe each visual aloud for people who cannot see it?" .
+<https://github.com/john1hsu/communication-graph/id/slide-design/check/5> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/slide-design> .
+<https://github.com/john1hsu/communication-graph/id/slide-design> <http://purl.org/dc/terms/created> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/slide-design> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Skill> .
+<https://github.com/john1hsu/communication-graph/id/slide-design> <http://www.w3.org/2000/01/rdf-schema#label> "Slide design" .
+<https://github.com/john1hsu/communication-graph/id/slide-design> <http://www.w3.org/2004/02/skos/core#altLabel> "deck design" .
+<https://github.com/john1hsu/communication-graph/id/slide-design> <http://www.w3.org/2004/02/skos/core#altLabel> "designing presentation slides" .
+<https://github.com/john1hsu/communication-graph/id/slide-design> <http://www.w3.org/2004/02/skos/core#altLabel> "presentation slide design" .
+<https://github.com/john1hsu/communication-graph/id/slide-design> <http://www.w3.org/2004/02/skos/core#altLabel> "visual aid design" .
+<https://github.com/john1hsu/communication-graph/id/slide-design> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/presentation> .
+<https://github.com/john1hsu/communication-graph/id/slide-design> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/visual-communication> .
+<https://github.com/john1hsu/communication-graph/id/slide-design> <http://www.w3.org/2004/02/skos/core#definition> "The skill of building presentation slides that support what the speaker says rather than compete with it: one point per slide, emphasis that matches importance, little on-screen text, visuals that carry evidence, and layouts every audience member can read." .
+<https://github.com/john1hsu/communication-graph/id/slide-design> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/presenting-and-public-speaking> .
+<https://github.com/john1hsu/communication-graph/id/slide-design> <http://www.w3.org/2004/02/skos/core#prefLabel> "Slide design" .
+<https://github.com/john1hsu/communication-graph/id/slide-design> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/accessible-communication> .
+<https://github.com/john1hsu/communication-graph/id/slide-design> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> .
+<https://github.com/john1hsu/communication-graph/id/slide-design> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint> .
+<https://github.com/john1hsu/communication-graph/id/slide-design> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/edward-tufte> .
+<https://github.com/john1hsu/communication-graph/id/slide-design> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> .
+<https://github.com/john1hsu/communication-graph/id/slide-design> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/signposting> .
+<https://github.com/john1hsu/communication-graph/id/slide-design> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/vocal-delivery> .
+<https://github.com/john1hsu/communication-graph/id/slide-design> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/wall-of-text> .
+<https://github.com/john1hsu/communication-graph/id/slide-design> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/slide-design/s1> .
+<https://github.com/john1hsu/communication-graph/id/slide-design> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/slide-design/s2> .
+<https://github.com/john1hsu/communication-graph/id/slide-design> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/slide-design/s3> .
+<https://github.com/john1hsu/communication-graph/id/slide-design> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/slide-design/s4> .
+<https://github.com/john1hsu/communication-graph/id/slide-design> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint> .
+<https://github.com/john1hsu/communication-graph/id/slide-design> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/information-overload> .
+<https://github.com/john1hsu/communication-graph/id/slide-design> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/presentation> .
+<https://github.com/john1hsu/communication-graph/id/slide-design> <https://github.com/john1hsu/communication-graph/ontology#domain> "presenting-and-public-speaking" .
+<https://github.com/john1hsu/communication-graph/id/slide-design> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/slide-design> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/cognitive-load> .
+<https://github.com/john1hsu/communication-graph/id/slide-design> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> .
+<https://github.com/john1hsu/communication-graph/id/slide-design> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/presenting-and-public-speaking/slide-design.md" .
+<https://github.com/john1hsu/communication-graph/id/slide-design> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/richard-e-mayer> .
+<https://github.com/john1hsu/communication-graph/id/slide-design> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/slide-design> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
+<https://github.com/john1hsu/communication-graph/id/slide-design> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/adesope-nesbit-2012> .
+<https://github.com/john1hsu/communication-graph/id/slide-design> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/kosslyn-et-al-2012> .
 <https://github.com/john1hsu/communication-graph/id/small-talk/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/small-talk/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Did I ask at least one follow-up question that built on something they actually said?" .
 <https://github.com/john1hsu/communication-graph/id/small-talk/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/small-talk> .
@@ -21191,6 +21243,30 @@
 <https://github.com/john1hsu/communication-graph/id/source/situation-behavior-impact/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/situation-behavior-impact/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
 <https://github.com/john1hsu/communication-graph/id/source/situation-behavior-impact/s6> <https://schema.org/url> <https://www.oreilly.com/library/view/feedback-that-works/9781604911732/xhtml/09_Chapter02.xhtml> .
+<https://github.com/john1hsu/communication-graph/id/source/slide-design/s1> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/slide-design/s1> <http://purl.org/dc/terms/publisher> "Mayer, R. E., in Overson, Hakala, Kordonowy & Benassi (eds.), In Their Own Words, Society for the Teaching of Psychology (APA Division 2), 2023, pp. 143-157 (University of New Hampshire copy)" .
+<https://github.com/john1hsu/communication-graph/id/source/slide-design/s1> <http://purl.org/dc/terms/title> "Research-based principles for designing multimedia instruction" .
+<https://github.com/john1hsu/communication-graph/id/source/slide-design/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/slide-design/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/slide-design/s1> <https://schema.org/url> <https://www.unh.edu/teaching-learning-resource-hub/sites/default/files/media/2023-06/itow-research-based-principles-for-designing-multimedia-instruction-mayer.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/slide-design/s2> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/slide-design/s2> <http://purl.org/dc/terms/publisher> "Adesope, O. O. & Nesbit, J. C., Journal of Educational Psychology 104(1), 250-263, 2012 (Washington State University research repository)" .
+<https://github.com/john1hsu/communication-graph/id/source/slide-design/s2> <http://purl.org/dc/terms/title> "Verbal redundancy in multimedia learning environments: A meta-analysis" .
+<https://github.com/john1hsu/communication-graph/id/source/slide-design/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/slide-design/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/slide-design/s2> <https://schema.org/url> <https://rex.libraries.wsu.edu/esploro/outputs/journalArticle/Verbal-Redundancy-in-Multimedia-Learning-Environments/99900601157101842> .
+<https://github.com/john1hsu/communication-graph/id/source/slide-design/s3> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/slide-design/s3> <http://purl.org/dc/terms/publisher> "Kosslyn, S. M., Kievit, R. A., Russell, A. G. & Shephard, J. M., Frontiers in Psychology 3, 230, 2012" .
+<https://github.com/john1hsu/communication-graph/id/source/slide-design/s3> <http://purl.org/dc/terms/title> "PowerPoint Presentation Flaws and Failures: A Psychological Analysis" .
+<https://github.com/john1hsu/communication-graph/id/source/slide-design/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/slide-design/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/slide-design/s3> <https://schema.org/url> <https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2012.00230/pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/slide-design/s4> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/slide-design/s4> <http://purl.org/dc/terms/publisher> "W3C Web Accessibility Initiative (WAI), updated 31 August 2022" .
+<https://github.com/john1hsu/communication-graph/id/source/slide-design/s4> <http://purl.org/dc/terms/title> "Making Events Accessible: Checklist for Meetings, Conferences, Training, and Presentations" .
+<https://github.com/john1hsu/communication-graph/id/source/slide-design/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/slide-design/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/communication-graph/id/source/slide-design/s4> <https://schema.org/url> <https://w3.org/WAI/teach-advocate/accessible-presentations/> .
 <https://github.com/john1hsu/communication-graph/id/source/small-talk/s1> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/small-talk/s1> <http://purl.org/dc/terms/publisher> "Methot, Rosado-Solomon, Downes & Gabriel, Academy of Management Journal (published online 2020; 2021 issue) (University of Exeter repository record)" .
 <https://github.com/john1hsu/communication-graph/id/source/small-talk/s1> <http://purl.org/dc/terms/title> "Office Chit-Chat as a Social Ritual: The Uplifting Yet Distracting Effects of Daily Small Talk at Work" .

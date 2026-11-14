@@ -2475,6 +2475,15 @@ Ask yourself:
 - Does each move between points have a spoken transition, not just a new slide?
 - Have I explicitly flagged the one thing I most need the audience to remember or decide?
 
+### [Slide design](../articles/presenting-and-public-speaking/slide-design.md) — Skill
+
+Ask yourself:
+- Does every slide make one point, and does its most prominent element show that point?
+- Is there any slide whose text I will read aloud word for word, and could I cut it to a few key terms?
+- Could someone at the back of the room, or on a small laptop screen, read every label and tell every line on the chart apart?
+- Have I removed images, animations and data that are interesting but do not help this audience reach my conclusion?
+- Am I relying on colour alone to carry a meaning, and will I describe each visual aloud for people who cannot see it?
+
 ### [Systematic desensitization](../articles/presenting-and-public-speaking/systematic-desensitization.md) — Technique
 
 1. Learn a quick relaxation routine - for example, tensing and releasing muscle groups while breathing slowly - and practise it daily until you can relax on cue in a minute or two.

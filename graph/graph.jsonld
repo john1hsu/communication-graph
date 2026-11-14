@@ -21863,6 +21863,111 @@
    ]
   },
   {
+   "@id": "cm:slide-design",
+   "@type": "cmo:Skill",
+   "cmo:addresses": [
+    {
+     "@id": "cm:death-by-powerpoint"
+    },
+    {
+     "@id": "cm:information-overload"
+    }
+   ],
+   "cmo:appliedIn": {
+    "@id": "cm:presentation"
+   },
+   "cmo:domain": "presenting-and-public-speaking",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:explainedBy": [
+    {
+     "@id": "cm:cognitive-load"
+    },
+    {
+     "@id": "cm:cognitive-theory-of-multimedia-learning"
+    }
+   ],
+   "cmo:file": "articles/presenting-and-public-speaking/slide-design.md",
+   "cmo:influencedBy": {
+    "@id": "cm:richard-e-mayer"
+   },
+   "cmo:level": "introductory",
+   "cmo:requires": {
+    "@id": "cm:audience-analysis"
+   },
+   "cmo:supportedBy": [
+    {
+     "@id": "cm:adesope-nesbit-2012"
+    },
+    {
+     "@id": "cm:kosslyn-et-al-2012"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/slide-design/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/slide-design/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/slide-design/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/slide-design/s4"
+    }
+   ],
+   "rdfs:label": "Slide design",
+   "skos:altLabel": [
+    "deck design",
+    "designing presentation slides",
+    "presentation slide design",
+    "visual aid design"
+   ],
+   "skos:broader": [
+    {
+     "@id": "cm:presentation"
+    },
+    {
+     "@id": "cm:visual-communication"
+    }
+   ],
+   "skos:definition": "The skill of building presentation slides that support what the speaker says rather than compete with it: one point per slide, emphasis that matches importance, little on-screen text, visuals that carry evidence, and layouts every audience member can read.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/presenting-and-public-speaking"
+   },
+   "skos:prefLabel": "Slide design",
+   "skos:related": [
+    {
+     "@id": "cm:accessible-communication"
+    },
+    {
+     "@id": "cm:assertion-evidence-slides"
+    },
+    {
+     "@id": "cm:death-by-powerpoint"
+    },
+    {
+     "@id": "cm:edward-tufte"
+    },
+    {
+     "@id": "cm:presentation-rehearsal"
+    },
+    {
+     "@id": "cm:signposting"
+    },
+    {
+     "@id": "cm:vocal-delivery"
+    },
+    {
+     "@id": "cm:wall-of-text"
+    }
+   ]
+  },
+  {
    "@id": "cm:small-talk",
    "@type": "cmo:Skill",
    "cmo:complements": {
@@ -36149,6 +36254,46 @@
    "@type": "schema:HowToStep",
    "schema:position": 6,
    "schema:text": "Use the same three parts for positive feedback, so the person knows exactly which behaviour to repeat."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/slide-design/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:slide-design"
+   },
+   "rdfs:label": "Does every slide make one point, and does its most prominent element show that point?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/slide-design/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:slide-design"
+   },
+   "rdfs:label": "Is there any slide whose text I will read aloud word for word, and could I cut it to a few key terms?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/slide-design/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:slide-design"
+   },
+   "rdfs:label": "Could someone at the back of the room, or on a small laptop screen, read every label and tell every line on the chart apart?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/slide-design/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:slide-design"
+   },
+   "rdfs:label": "Have I removed images, animations and data that are interesting but do not help this audience reach my conclusion?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/slide-design/check/5",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:slide-design"
+   },
+   "rdfs:label": "Am I relying on colour alone to carry a meaning, and will I describe each visual aloud for people who cannot see it?"
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/small-talk/check/1",
@@ -55295,6 +55440,62 @@
    "dcterms:title": "Feedback That Works for Nonprofit Organizations - Delivering Effective Feedback",
    "schema:url": {
     "@id": "https://www.oreilly.com/library/view/feedback-that-works/9781604911732/xhtml/09_Chapter02.xhtml"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/slide-design/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Mayer, R. E., in Overson, Hakala, Kordonowy & Benassi (eds.), In Their Own Words, Society for the Teaching of Psychology (APA Division 2), 2023, pp. 143-157 (University of New Hampshire copy)",
+   "dcterms:title": "Research-based principles for designing multimedia instruction",
+   "schema:url": {
+    "@id": "https://www.unh.edu/teaching-learning-resource-hub/sites/default/files/media/2023-06/itow-research-based-principles-for-designing-multimedia-instruction-mayer.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/slide-design/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Adesope, O. O. & Nesbit, J. C., Journal of Educational Psychology 104(1), 250-263, 2012 (Washington State University research repository)",
+   "dcterms:title": "Verbal redundancy in multimedia learning environments: A meta-analysis",
+   "schema:url": {
+    "@id": "https://rex.libraries.wsu.edu/esploro/outputs/journalArticle/Verbal-Redundancy-in-Multimedia-Learning-Environments/99900601157101842"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/slide-design/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Kosslyn, S. M., Kievit, R. A., Russell, A. G. & Shephard, J. M., Frontiers in Psychology 3, 230, 2012",
+   "dcterms:title": "PowerPoint Presentation Flaws and Failures: A Psychological Analysis",
+   "schema:url": {
+    "@id": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2012.00230/pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/slide-design/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "W3C Web Accessibility Initiative (WAI), updated 31 August 2022",
+   "dcterms:title": "Making Events Accessible: Checklist for Meetings, Conferences, Training, and Presentations",
+   "schema:url": {
+    "@id": "https://w3.org/WAI/teach-advocate/accessible-presentations/"
    }
   },
   {

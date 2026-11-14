@@ -24850,6 +24850,132 @@
   ]
  },
  {
+  "id": "cm:slide-design",
+  "title": "Slide design",
+  "aliases": [
+   "presentation slide design",
+   "designing presentation slides",
+   "visual aid design",
+   "deck design"
+  ],
+  "type": "Skill",
+  "domain": "presenting-and-public-speaking",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/presenting-and-public-speaking/slide-design.md",
+  "created": "2026-11-14",
+  "summary": "The skill of building presentation slides that support what the speaker says rather than compete with it: one point per slide, emphasis that matches importance, little on-screen text, visuals that carry evidence, and layouts every audience member can read.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:presentation"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "cm:visual-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:assertion-evidence-slides"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:death-by-powerpoint"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:signposting"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:edward-tufte"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:wall-of-text"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:presentation-rehearsal"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:vocal-delivery"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:accessible-communication"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:audience-analysis"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:death-by-powerpoint",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:information-overload",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:presentation",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:cognitive-load",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:cognitive-theory-of-multimedia-learning",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:kosslyn-et-al-2012",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:adesope-nesbit-2012",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:influencedBy",
+    "object": "cm:richard-e-mayer",
+    "source": "s1",
+    "confidence": "high"
+   }
+  ],
+  "selfCheck": [
+   "Does every slide make one point, and does its most prominent element show that point?",
+   "Is there any slide whose text I will read aloud word for word, and could I cut it to a few key terms?",
+   "Could someone at the back of the room, or on a small laptop screen, read every label and tell every line on the chart apart?",
+   "Have I removed images, animations and data that are interesting but do not help this audience reach my conclusion?",
+   "Am I relying on colour alone to carry a meaning, and will I describe each visual aloud for people who cannot see it?"
+  ],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://www.unh.edu/teaching-learning-resource-hub/sites/default/files/media/2023-06/itow-research-based-principles-for-designing-multimedia-instruction-mayer.pdf",
+   "https://rex.libraries.wsu.edu/esploro/outputs/journalArticle/Verbal-Redundancy-in-Multimedia-Learning-Environments/99900601157101842",
+   "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2012.00230/pdf",
+   "https://w3.org/WAI/teach-advocate/accessible-presentations/"
+  ]
+ },
+ {
   "id": "cm:small-talk",
   "title": "Small talk at work",
   "aliases": [
