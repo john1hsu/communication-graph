@@ -51,6 +51,15 @@
 <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s4> .
 <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s5> .
 <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s6> .
+<https://github.com/john1hsu/communication-graph/id/deaf-effect#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/deaf-effect#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/deaf-effect> .
+<https://github.com/john1hsu/communication-graph/id/deaf-effect#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/barriers-and-psychology/deaf-effect.md" .
+<https://github.com/john1hsu/communication-graph/id/deaf-effect#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/deaf-effect/s1> .
+<https://github.com/john1hsu/communication-graph/id/deaf-effect#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/deaf-effect/s2> .
+<https://github.com/john1hsu/communication-graph/id/deaf-effect#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/deaf-effect/s3> .
+<https://github.com/john1hsu/communication-graph/id/deaf-effect#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/deaf-effect/s4> .
+<https://github.com/john1hsu/communication-graph/id/deaf-effect#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/deaf-effect/s5> .
+<https://github.com/john1hsu/communication-graph/id/deaf-effect#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/deaf-effect/s6> .
 <https://github.com/john1hsu/communication-graph/id/egocentric-bias#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/egocentric-bias#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/egocentric-bias> .
 <https://github.com/john1hsu/communication-graph/id/egocentric-bias#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/barriers-and-psychology/egocentric-bias.md" .
@@ -2706,6 +2715,90 @@
   <https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
   <https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
   <https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s6> <https://schema.org/url> <https://digital.gov/guides/plain-language/test/paraphrase-testing> .
+}
+
+<https://github.com/john1hsu/communication-graph/id/deaf-effect#graph> {
+  <https://github.com/john1hsu/communication-graph/id/deaf-effect/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/deaf-effect/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "When someone last warned me about a project I sponsor, did I change anything - or did I mainly question their credibility or their timing?" .
+  <https://github.com/john1hsu/communication-graph/id/deaf-effect/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/deaf-effect> .
+  <https://github.com/john1hsu/communication-graph/id/deaf-effect/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/deaf-effect/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Am I dismissing this warning because of what it says, or because of who is saying it and whether I see them as being on my side?" .
+  <https://github.com/john1hsu/communication-graph/id/deaf-effect/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/deaf-effect> .
+  <https://github.com/john1hsu/communication-graph/id/deaf-effect/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/deaf-effect/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "How much does my confidence that \"I have this under control\" depend on reports from people whose own work would look bad if they disagreed?" .
+  <https://github.com/john1hsu/communication-graph/id/deaf-effect/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/deaf-effect> .
+  <https://github.com/john1hsu/communication-graph/id/deaf-effect/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/deaf-effect/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Is there a warning I have parked in a follow-up meeting, a procedure or a request for more data, without ever giving the messenger a decision?" .
+  <https://github.com/john1hsu/communication-graph/id/deaf-effect/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/deaf-effect> .
+  <https://github.com/john1hsu/communication-graph/id/deaf-effect> <http://purl.org/dc/terms/created> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/deaf-effect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Barrier> .
+  <https://github.com/john1hsu/communication-graph/id/deaf-effect> <http://www.w3.org/2000/01/rdf-schema#label> "Deaf effect" .
+  <https://github.com/john1hsu/communication-graph/id/deaf-effect> <http://www.w3.org/2004/02/skos/core#altLabel> "deaf ear to risk warnings" .
+  <https://github.com/john1hsu/communication-graph/id/deaf-effect> <http://www.w3.org/2004/02/skos/core#altLabel> "deaf effect response" .
+  <https://github.com/john1hsu/communication-graph/id/deaf-effect> <http://www.w3.org/2004/02/skos/core#altLabel> "turning a deaf ear to bad news" .
+  <https://github.com/john1hsu/communication-graph/id/deaf-effect> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/upward-communication> .
+  <https://github.com/john1hsu/communication-graph/id/deaf-effect> <http://www.w3.org/2004/02/skos/core#definition> "The tendency of a decision maker - a project owner, sponsor or executive - not to hear, to ignore or to overrule a report of bad news or a risk warning, and to carry on with a failing course of action. It is the receiver-side counterpart of the MUM effect." .
+  <https://github.com/john1hsu/communication-graph/id/deaf-effect> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/barriers-and-psychology> .
+  <https://github.com/john1hsu/communication-graph/id/deaf-effect> <http://www.w3.org/2004/02/skos/core#prefLabel> "Deaf effect" .
+  <https://github.com/john1hsu/communication-graph/id/deaf-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+  <https://github.com/john1hsu/communication-graph/id/deaf-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/credibility> .
+  <https://github.com/john1hsu/communication-graph/id/deaf-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/defensiveness> .
+  <https://github.com/john1hsu/communication-graph/id/deaf-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> .
+  <https://github.com/john1hsu/communication-graph/id/deaf-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/employee-silence> .
+  <https://github.com/john1hsu/communication-graph/id/deaf-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/escalation-communication> .
+  <https://github.com/john1hsu/communication-graph/id/deaf-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mum-effect> .
+  <https://github.com/john1hsu/communication-graph/id/deaf-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
+  <https://github.com/john1hsu/communication-graph/id/deaf-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/status-reporting> .
+  <https://github.com/john1hsu/communication-graph/id/deaf-effect> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/deaf-effect/s1> .
+  <https://github.com/john1hsu/communication-graph/id/deaf-effect> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/deaf-effect/s2> .
+  <https://github.com/john1hsu/communication-graph/id/deaf-effect> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/deaf-effect/s3> .
+  <https://github.com/john1hsu/communication-graph/id/deaf-effect> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/deaf-effect/s4> .
+  <https://github.com/john1hsu/communication-graph/id/deaf-effect> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/deaf-effect/s5> .
+  <https://github.com/john1hsu/communication-graph/id/deaf-effect> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/deaf-effect/s6> .
+  <https://github.com/john1hsu/communication-graph/id/deaf-effect> <https://github.com/john1hsu/communication-graph/ontology#causes> <https://github.com/john1hsu/communication-graph/id/escalation-of-commitment> .
+  <https://github.com/john1hsu/communication-graph/id/deaf-effect> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/cuellar-keil-johnson-2006> .
+  <https://github.com/john1hsu/communication-graph/id/deaf-effect> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/nuijten-keil-commandeur-2016> .
+  <https://github.com/john1hsu/communication-graph/id/deaf-effect> <https://github.com/john1hsu/communication-graph/ontology#domain> "barriers-and-psychology" .
+  <https://github.com/john1hsu/communication-graph/id/deaf-effect> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+  <https://github.com/john1hsu/communication-graph/id/deaf-effect> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/barriers-and-psychology/deaf-effect.md" .
+  <https://github.com/john1hsu/communication-graph/id/deaf-effect> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+  <https://github.com/john1hsu/communication-graph/id/deaf-effect> <https://github.com/john1hsu/communication-graph/ontology#undermines> <https://github.com/john1hsu/communication-graph/id/escalation-communication> .
+  <https://github.com/john1hsu/communication-graph/id/source/deaf-effect/s1> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/deaf-effect/s1> <http://purl.org/dc/terms/publisher> "Cuellar, M. J., Keil, M. & Johnson, R. D., e-Service Journal 5(1), 2006 (Georgia Southern University research portal)" .
+  <https://github.com/john1hsu/communication-graph/id/source/deaf-effect/s1> <http://purl.org/dc/terms/title> "The Deaf Effect Response to Bad News Reporting in Information Systems Projects" .
+  <https://github.com/john1hsu/communication-graph/id/source/deaf-effect/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/deaf-effect/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/deaf-effect/s1> <https://schema.org/url> <https://scholars.georgiasouthern.edu/en/publications/the-deaf-effect-response-to-bad-news-reporting-in-information-sys-3/> .
+  <https://github.com/john1hsu/communication-graph/id/source/deaf-effect/s2> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/deaf-effect/s2> <http://purl.org/dc/terms/publisher> "Nuijten, A., Keil, M. & Commandeur, H., European Journal of Information Systems 25(6), 534-552, 2016 (RePEc/IDEAS record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/deaf-effect/s2> <http://purl.org/dc/terms/title> "Collaborative partner or opponent: How the messenger influences the deaf effect in IT projects" .
+  <https://github.com/john1hsu/communication-graph/id/source/deaf-effect/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/deaf-effect/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/deaf-effect/s2> <https://schema.org/url> <https://ideas.repec.org/a/taf/tjisxx/v25y2016i6p534-552.html> .
+  <https://github.com/john1hsu/communication-graph/id/source/deaf-effect/s3> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/deaf-effect/s3> <http://purl.org/dc/terms/publisher> "Cuellar, M. J., doctoral dissertation, Georgia State University, 2009" .
+  <https://github.com/john1hsu/communication-graph/id/source/deaf-effect/s3> <http://purl.org/dc/terms/title> "An Examination of the Deaf Effect Response to Bad News Reporting in Information Systems Projects" .
+  <https://github.com/john1hsu/communication-graph/id/source/deaf-effect/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/deaf-effect/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/communication-graph/id/source/deaf-effect/s3> <https://schema.org/url> <https://scholarworks.gsu.edu/cis_diss/32> .
+  <https://github.com/john1hsu/communication-graph/id/source/deaf-effect/s4> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/deaf-effect/s4> <http://purl.org/dc/terms/publisher> "Cuellar, M. J., AMCIS 2007 Proceedings, Paper 398 (author copy via CORE)" .
+  <https://github.com/john1hsu/communication-graph/id/source/deaf-effect/s4> <http://purl.org/dc/terms/title> "A Study of the Nature of the Deaf Effect Response to Bad News Reporting" .
+  <https://github.com/john1hsu/communication-graph/id/source/deaf-effect/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/deaf-effect/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/deaf-effect/s4> <https://schema.org/url> <https://core.ac.uk/download/301340306.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/deaf-effect/s5> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/deaf-effect/s5> <http://purl.org/dc/terms/publisher> "Sarens, G. & Nuijten, A., Louvain School of Management Research Institute, Working Paper 2016/11 (UCLouvain)" .
+  <https://github.com/john1hsu/communication-graph/id/source/deaf-effect/s5> <http://purl.org/dc/terms/title> "What happens when internal auditors experience that managers turn a deaf ear in information system projects?" .
+  <https://github.com/john1hsu/communication-graph/id/source/deaf-effect/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/deaf-effect/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/communication-graph/id/source/deaf-effect/s5> <https://schema.org/url> <https://research.dial.uclouvain.be/bitstreams/af87d305-0c74-42ba-b7b9-63be7e1716b8/download> .
+  <https://github.com/john1hsu/communication-graph/id/source/deaf-effect/s6> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/deaf-effect/s6> <http://purl.org/dc/terms/publisher> "Keil, M. & Robey, D., Communications of the ACM 44(4), April 2001" .
+  <https://github.com/john1hsu/communication-graph/id/source/deaf-effect/s6> <http://purl.org/dc/terms/title> "Blowing the Whistle on Troubled Software Projects" .
+  <https://github.com/john1hsu/communication-graph/id/source/deaf-effect/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/deaf-effect/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "practitioner-journal" .
+  <https://github.com/john1hsu/communication-graph/id/source/deaf-effect/s6> <https://schema.org/url> <https://cacm.acm.org/?p=5358> .
 }
 
 <https://github.com/john1hsu/communication-graph/id/egocentric-bias#graph> {
@@ -25393,6 +25486,7 @@
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/conversational-receptiveness> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/david-maister> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/de-escalation> .
+  <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/deaf-effect> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/defensiveness> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/executive-presence> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/eye-contact> .
@@ -26790,6 +26884,7 @@
   <https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> .
   <https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/client-communication> .
   <https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/david-maister> .
+  <https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/deaf-effect> .
   <https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/elevator-pitch> .
   <https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/executive-presence> .
   <https://github.com/john1hsu/communication-graph/id/credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/filled-pauses> .
@@ -26822,6 +26917,9 @@
   <https://github.com/john1hsu/communication-graph/id/cti-executive-presence-2012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/cti-executive-presence-2012> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/executive-presence> .
   <https://github.com/john1hsu/communication-graph/id/ctss-mail> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/ray-tomlinson> .
+  <https://github.com/john1hsu/communication-graph/id/cuellar-keil-johnson-2006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/cuellar-keil-johnson-2006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
+  <https://github.com/john1hsu/communication-graph/id/cuellar-keil-johnson-2006> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/deaf-effect> .
   <https://github.com/john1hsu/communication-graph/id/cullen-pakzad-hurson-perez-truglia-2025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/cullen-pakzad-hurson-perez-truglia-2025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/cullen-pakzad-hurson-perez-truglia-2025> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/salary-negotiation> .
@@ -26943,10 +27041,13 @@
   <https://github.com/john1hsu/communication-graph/id/de-jong-2010> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/cognitive-load> .
   <https://github.com/john1hsu/communication-graph/id/de-matos-henrique-rossi-2007> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/service-recovery> .
   <https://github.com/john1hsu/communication-graph/id/de-wit-greer-jehn-2012> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/conflict-resolution> .
-  <https://github.com/john1hsu/communication-graph/id/deaf-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/employee-silence> .
-  <https://github.com/john1hsu/communication-graph/id/deaf-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/escalation-communication> .
-  <https://github.com/john1hsu/communication-graph/id/deaf-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mum-effect> .
-  <https://github.com/john1hsu/communication-graph/id/deaf-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/status-reporting> .
+  <https://github.com/john1hsu/communication-graph/id/deaf-effect/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/deaf-effect/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/deaf-effect/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/deaf-effect/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/deaf-effect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+  <https://github.com/john1hsu/communication-graph/id/deaf-effect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/deaf-effect> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/upward-communication> .
   <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -26971,6 +27072,7 @@
   <https://github.com/john1hsu/communication-graph/id/defensiveness> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-climate> .
   <https://github.com/john1hsu/communication-graph/id/defensiveness> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/apology> .
   <https://github.com/john1hsu/communication-graph/id/defensiveness> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/de-escalation> .
+  <https://github.com/john1hsu/communication-graph/id/defensiveness> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/deaf-effect> .
   <https://github.com/john1hsu/communication-graph/id/defensiveness> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/face-and-facework> .
   <https://github.com/john1hsu/communication-graph/id/defensiveness> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/feedback-sandwich> .
   <https://github.com/john1hsu/communication-graph/id/defensiveness> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/handling-questions> .
@@ -26997,6 +27099,7 @@
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/burying-the-lede> .
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/client-communication> .
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/david-maister> .
+  <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/deaf-effect> .
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/difficult-conversation> .
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> .
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/empathy-gap> .
@@ -27484,7 +27587,9 @@
   <https://github.com/john1hsu/communication-graph/id/escalation-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/upward-dissent> .
   <https://github.com/john1hsu/communication-graph/id/escalation-communication> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/graded-assertiveness> .
   <https://github.com/john1hsu/communication-graph/id/escalation-communication> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
+  <https://github.com/john1hsu/communication-graph/id/escalation-communication> <https://github.com/john1hsu/communication-graph/ontology#underminedBy> <https://github.com/john1hsu/communication-graph/id/deaf-effect> .
   <https://github.com/john1hsu/communication-graph/id/escalation-of-commitment> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/devils-advocacy> .
+  <https://github.com/john1hsu/communication-graph/id/escalation-of-commitment> <https://github.com/john1hsu/communication-graph/ontology#causedBy> <https://github.com/john1hsu/communication-graph/id/deaf-effect> .
   <https://github.com/john1hsu/communication-graph/id/espevik-et-al-2021> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/eduardo-salas> .
   <https://github.com/john1hsu/communication-graph/id/espevik-et-al-2021> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/closed-loop-communication> .
   <https://github.com/john1hsu/communication-graph/id/ethnocentrism/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -29784,6 +29889,9 @@
   <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/active-listening> .
   <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/listening> .
+  <https://github.com/john1hsu/communication-graph/id/nuijten-keil-commandeur-2016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/nuijten-keil-commandeur-2016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
+  <https://github.com/john1hsu/communication-graph/id/nuijten-keil-commandeur-2016> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/deaf-effect> .
   <https://github.com/john1hsu/communication-graph/id/nutt-1999> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping> .
   <https://github.com/john1hsu/communication-graph/id/oechssler-roider-schmitz-2008> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/cooling-off-period> .
   <https://github.com/john1hsu/communication-graph/id/oetzel-ting-toomey-2003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -30447,6 +30555,7 @@
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/coaching> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communication-apprehension> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/conflict-resolution> .
+  <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/deaf-effect> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/devils-advocacy> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/eduardo-salas> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/emotional-contagion> .
@@ -31805,6 +31914,8 @@
   <https://github.com/john1hsu/communication-graph/id/unequal-participation> <https://github.com/john1hsu/communication-graph/ontology#causedBy> <https://github.com/john1hsu/communication-graph/id/communication-apprehension> .
   <https://github.com/john1hsu/communication-graph/id/unequal-participation> <https://github.com/john1hsu/communication-graph/ontology#causedBy> <https://github.com/john1hsu/communication-graph/id/hybrid-meetings> .
   <https://github.com/john1hsu/communication-graph/id/unnecessary-meetings> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/meeting-agendas> .
+  <https://github.com/john1hsu/communication-graph/id/upward-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/deaf-effect> .
+  <https://github.com/john1hsu/communication-graph/id/upward-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/deaf-effect> .
   <https://github.com/john1hsu/communication-graph/id/upward-communication> <https://github.com/john1hsu/communication-graph/ontology#introducedIn> <https://github.com/john1hsu/communication-graph/id/mccallum-erie-railroad-report> .
   <https://github.com/john1hsu/communication-graph/id/upward-dissent/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/upward-dissent/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .

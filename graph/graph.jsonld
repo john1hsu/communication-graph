@@ -5259,6 +5259,95 @@
    ]
   },
   {
+   "@id": "cm:deaf-effect",
+   "@type": "cmo:Barrier",
+   "cmo:causes": {
+    "@id": "cm:escalation-of-commitment"
+   },
+   "cmo:demonstratedBy": [
+    {
+     "@id": "cm:cuellar-keil-johnson-2006"
+    },
+    {
+     "@id": "cm:nuijten-keil-commandeur-2016"
+    }
+   ],
+   "cmo:domain": "barriers-and-psychology",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:file": "articles/barriers-and-psychology/deaf-effect.md",
+   "cmo:level": "intermediate",
+   "cmo:undermines": {
+    "@id": "cm:escalation-communication"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/deaf-effect/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/deaf-effect/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/deaf-effect/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/deaf-effect/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/deaf-effect/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/deaf-effect/s6"
+    }
+   ],
+   "rdfs:label": "Deaf effect",
+   "skos:altLabel": [
+    "deaf ear to risk warnings",
+    "deaf effect response",
+    "turning a deaf ear to bad news"
+   ],
+   "skos:broader": {
+    "@id": "cm:upward-communication"
+   },
+   "skos:definition": "The tendency of a decision maker - a project owner, sponsor or executive - not to hear, to ignore or to overrule a report of bad news or a risk warning, and to carry on with a failing course of action. It is the receiver-side counterpart of the MUM effect.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/barriers-and-psychology"
+   },
+   "skos:prefLabel": "Deaf effect",
+   "skos:related": [
+    {
+     "@id": "cm:active-listening"
+    },
+    {
+     "@id": "cm:credibility"
+    },
+    {
+     "@id": "cm:defensiveness"
+    },
+    {
+     "@id": "cm:delivering-bad-news"
+    },
+    {
+     "@id": "cm:employee-silence"
+    },
+    {
+     "@id": "cm:escalation-communication"
+    },
+    {
+     "@id": "cm:mum-effect"
+    },
+    {
+     "@id": "cm:psychological-safety"
+    },
+    {
+     "@id": "cm:status-reporting"
+    }
+   ]
+  },
+  {
    "@id": "cm:death-by-powerpoint",
    "@type": "cmo:AntiPattern",
    "cmo:causes": {
@@ -26374,6 +26463,38 @@
    "schema:text": "Afterwards, write down what was said and done factually, report through the proper channel, and debrief with the person and your team."
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/deaf-effect/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:deaf-effect"
+   },
+   "rdfs:label": "When someone last warned me about a project I sponsor, did I change anything - or did I mainly question their credibility or their timing?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/deaf-effect/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:deaf-effect"
+   },
+   "rdfs:label": "Am I dismissing this warning because of what it says, or because of who is saying it and whether I see them as being on my side?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/deaf-effect/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:deaf-effect"
+   },
+   "rdfs:label": "How much does my confidence that \"I have this under control\" depend on reports from people whose own work would look bad if they disagreed?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/deaf-effect/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:deaf-effect"
+   },
+   "rdfs:label": "Is there a warning I have parked in a follow-up meeting, a procedure or a request for more data, without ever giving the messenger a decision?"
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/death-by-powerpoint/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -38307,6 +38428,90 @@
    "dcterms:title": "Retribution and emotional regulation: The effects of time delay in angry economic interactions",
    "schema:url": {
     "@id": "https://econpapers.repec.org/RePEc:eee:jobhdp:v:116:y:2011:i:1:p:46-54"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/deaf-effect/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Cuellar, M. J., Keil, M. & Johnson, R. D., e-Service Journal 5(1), 2006 (Georgia Southern University research portal)",
+   "dcterms:title": "The Deaf Effect Response to Bad News Reporting in Information Systems Projects",
+   "schema:url": {
+    "@id": "https://scholars.georgiasouthern.edu/en/publications/the-deaf-effect-response-to-bad-news-reporting-in-information-sys-3/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/deaf-effect/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Nuijten, A., Keil, M. & Commandeur, H., European Journal of Information Systems 25(6), 534-552, 2016 (RePEc/IDEAS record)",
+   "dcterms:title": "Collaborative partner or opponent: How the messenger influences the deaf effect in IT projects",
+   "schema:url": {
+    "@id": "https://ideas.repec.org/a/taf/tjisxx/v25y2016i6p534-552.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/deaf-effect/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Cuellar, M. J., doctoral dissertation, Georgia State University, 2009",
+   "dcterms:title": "An Examination of the Deaf Effect Response to Bad News Reporting in Information Systems Projects",
+   "schema:url": {
+    "@id": "https://scholarworks.gsu.edu/cis_diss/32"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/deaf-effect/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Cuellar, M. J., AMCIS 2007 Proceedings, Paper 398 (author copy via CORE)",
+   "dcterms:title": "A Study of the Nature of the Deaf Effect Response to Bad News Reporting",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/301340306.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/deaf-effect/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Sarens, G. & Nuijten, A., Louvain School of Management Research Institute, Working Paper 2016/11 (UCLouvain)",
+   "dcterms:title": "What happens when internal auditors experience that managers turn a deaf ear in information system projects?",
+   "schema:url": {
+    "@id": "https://research.dial.uclouvain.be/bitstreams/af87d305-0c74-42ba-b7b9-63be7e1716b8/download"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/deaf-effect/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "practitioner-journal",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Keil, M. & Robey, D., Communications of the ACM 44(4), April 2001",
+   "dcterms:title": "Blowing the Whistle on Troubled Software Projects",
+   "schema:url": {
+    "@id": "https://cacm.acm.org/?p=5358"
    }
   },
   {

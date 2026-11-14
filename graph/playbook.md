@@ -43,6 +43,14 @@ Ask yourself:
 - If my reader had only this message and none of my background, what would they do next?
 - Have I asked someone outside the work to restate my point in their own words, or am I only judging clarity myself?
 
+### [Deaf effect](../articles/barriers-and-psychology/deaf-effect.md) — Barrier
+
+Ask yourself:
+- When someone last warned me about a project I sponsor, did I change anything - or did I mainly question their credibility or their timing?
+- Am I dismissing this warning because of what it says, or because of who is saying it and whether I see them as being on my side?
+- How much does my confidence that "I have this under control" depend on reports from people whose own work would look bad if they disagreed?
+- Is there a warning I have parked in a follow-up meeting, a procedure or a request for more data, without ever giving the messenger a decision?
+
 ### [Egocentric bias](../articles/barriers-and-psychology/egocentric-bias.md) — Barrier
 
 Ask yourself:

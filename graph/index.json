@@ -6008,6 +6008,104 @@
   ]
  },
  {
+  "id": "cm:deaf-effect",
+  "title": "Deaf effect",
+  "aliases": [
+   "deaf effect response",
+   "turning a deaf ear to bad news",
+   "deaf ear to risk warnings"
+  ],
+  "type": "Barrier",
+  "domain": "barriers-and-psychology",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/barriers-and-psychology/deaf-effect.md",
+  "created": "2026-11-14",
+  "summary": "The tendency of a decision maker - a project owner, sponsor or executive - not to hear, to ignore or to overrule a report of bad news or a risk warning, and to carry on with a failing course of action. It is the receiver-side counterpart of the MUM effect.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:upward-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:mum-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:employee-silence"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:status-reporting"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:escalation-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:delivering-bad-news"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:credibility"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:psychological-safety"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:defensiveness"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:active-listening"
+   },
+   {
+    "predicate": "cmo:causes",
+    "object": "cm:escalation-of-commitment",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:cuellar-keil-johnson-2006",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:nuijten-keil-commandeur-2016",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:undermines",
+    "object": "cm:escalation-communication",
+    "source": "s6",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "When someone last warned me about a project I sponsor, did I change anything - or did I mainly question their credibility or their timing?",
+   "Am I dismissing this warning because of what it says, or because of who is saying it and whether I see them as being on my side?",
+   "How much does my confidence that \"I have this under control\" depend on reports from people whose own work would look bad if they disagreed?",
+   "Is there a warning I have parked in a follow-up meeting, a procedure or a request for more data, without ever giving the messenger a decision?"
+  ],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://scholars.georgiasouthern.edu/en/publications/the-deaf-effect-response-to-bad-news-reporting-in-information-sys-3/",
+   "https://ideas.repec.org/a/taf/tjisxx/v25y2016i6p534-552.html",
+   "https://scholarworks.gsu.edu/cis_diss/32",
+   "https://core.ac.uk/download/301340306.pdf",
+   "https://research.dial.uclouvain.be/bitstreams/af87d305-0c74-42ba-b7b9-63be7e1716b8/download",
+   "https://cacm.acm.org/?p=5358"
+  ]
+ },
+ {
   "id": "cm:death-by-powerpoint",
   "title": "Death by PowerPoint",
   "aliases": [
