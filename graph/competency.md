@@ -57,7 +57,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:active-voice` | 1 | unclear-ownership |
 | `cm:anxiety-reappraisal` | 1 | Public speaking anxiety |
 
-…and 54 more.
+…and 55 more.
 
 ## Toolkit by situation
 
@@ -96,7 +96,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:difficult-conversation` | `cm:thomas-kilmann-conflict-modes` |
 | `cm:elevator-pitch` | `cm:monroes-motivated-sequence` |
 
-…and 134 more.
+…and 135 more.
 
 ## Myths and contested advice
 
@@ -135,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:acoustic-speech-analysis-coaching` | mixed |  |
 | `cm:active-listening` | mixed |  |
 
-…and 167 more.
+…and 168 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -147,6 +147,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:cognitive-reappraisal` | cmo:Technique |
 | `cm:deaf-effect` | cmo:Barrier |
 | `cm:digital-communication` | cmo:Field |
+| `cm:email-subject-lines` | cmo:Technique |
 | `cm:emotion-regulation` | cmo:Skill |
 | `cm:employee-silence` | cmo:Barrier |
 | `cm:escalation-communication` | cmo:Technique |
@@ -172,9 +173,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:mixed-messages` | cmo:Barrier |
 | `cm:multicultural-team` | cmo:Context |
 | `cm:mum-effect` | cmo:Barrier |
-| `cm:narrative-persuasion` | cmo:Technique |
 
-…and 53 more.
+…and 54 more.
 
 ## Orphan articles (gap)
 

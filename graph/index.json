@@ -7839,6 +7839,113 @@
   ]
  },
  {
+  "id": "cm:email-subject-lines",
+  "title": "Email subject lines",
+  "aliases": [
+   "writing subject lines",
+   "informative subject lines",
+   "subject-line keywords"
+  ],
+  "type": "Technique",
+  "domain": "digital-and-async-communication",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/digital-and-async-communication/email-subject-lines.md",
+  "created": "2026-11-14",
+  "summary": "Writing an email's subject line as a short, specific headline that states the topic, the action needed and any deadline, main point first, so recipients can triage, act on and later find the message without opening it.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:email"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:informative-headings"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:setting-reply-time-expectations"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:scheduled-inbox-checks"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:asynchronous-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:rfc-1855-netiquette-guidelines"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:burying-the-lede"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:bottom-line-up-front"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:email",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:bottom-line-up-front",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:information-overload",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:cox-et-al-2021",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:setting-reply-time-expectations",
+    "source": "s1",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "If my reader saw only the subject line on a phone, would they know what I need and by when?",
+   "Does the subject still match what the email body now asks for?",
+   "Have I marked this urgent only because the deadline really is close?"
+  ],
+  "steps": [
+   "Before writing the subject, decide what you need from the reader - an action, a decision, a signature or nothing - and by when.",
+   "Put the most important information first, because long subjects are cut off on phones and in narrow inbox panes.",
+   "Name the specific topic and context (project, meeting, document) rather than a generic word such as \"Update\" or \"Question\".",
+   "If your team uses them, start with an agreed keyword such as ACTION, DECISION, REQUEST or INFO, and add the deadline when there is one.",
+   "Flag urgency only when the deadline is real, and say how little effort a reply needs if that is true.",
+   "When a thread drifts to a new topic or the request changes, edit the subject or start a new email so it still matches the body."
+  ],
+  "example": {
+   "situation": "A project analyst needs a finance manager to approve a revised vendor quote before the purchase order deadline.",
+   "before": "Subject: Quick question",
+   "after": "Subject: DECISION by Thu 3pm - approve revised Acme quote ($4.2K, +8%) for Q1 testing",
+   "why": "The finance manager can see from the inbox list what is needed, by when and roughly how big the ask is, so the email gets triaged correctly and is easy to find later; \"Quick question\" forces an open just to learn whether it matters."
+  },
+  "source_urls": [
+   "https://discovery.ucl.ac.uk/10115257/3/Cox_HCIJnl_Prioritizing%20Unread%20Emails_minors_v4.pdf",
+   "https://www.stylemanual.gov.au/content-types/emails-and-letters",
+   "https://kabir.cc/how-to-write-email-with-military-precision/",
+   "https://mitcommlab.mit.edu/aeroastro/2025/03/17/how-to-write-effective-emails/",
+   "https://www.microsoft.com/en-us/research/uploads/prod/2019/02/Email_Triage_CHIIR19.pdf",
+   "https://design.homeoffice.gov.uk/design-system/patterns/send-users/email"
+  ]
+ },
+ {
   "id": "cm:email-urgency-bias-study",
   "title": "You don't need to answer right away! (Giurge & Bohns, 2021)",
   "aliases": [

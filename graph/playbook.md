@@ -628,6 +628,28 @@ Ask yourself:
 - Am I about to alert more people than actually need to see this right now?
 - Have I said when I need a reply, and that it can wait if it can?
 
+### [Email subject lines](../articles/digital-and-async-communication/email-subject-lines.md) — Technique
+
+1. Before writing the subject, decide what you need from the reader - an action, a decision, a signature or nothing - and by when.
+2. Put the most important information first, because long subjects are cut off on phones and in narrow inbox panes.
+3. Name the specific topic and context (project, meeting, document) rather than a generic word such as "Update" or "Question".
+4. If your team uses them, start with an agreed keyword such as ACTION, DECISION, REQUEST or INFO, and add the deadline when there is one.
+5. Flag urgency only when the deadline is real, and say how little effort a reply needs if that is true.
+6. When a thread drifts to a new topic or the request changes, edit the subject or start a new email so it still matches the body.
+
+*A project analyst needs a finance manager to approve a revised vendor quote before the purchase order deadline.*
+
+| Before | After |
+|---|---|
+| Subject: Quick question | Subject: DECISION by Thu 3pm - approve revised Acme quote ($4.2K, +8%) for Q1 testing |
+
+**Why:** The finance manager can see from the inbox list what is needed, by when and roughly how big the ask is, so the email gets triaged correctly and is easy to find later; "Quick question" forces an open just to learn whether it matters.
+
+Ask yourself:
+- If my reader saw only the subject line on a phone, would they know what I need and by when?
+- Does the subject still match what the email body now asks for?
+- Have I marked this urgent only because the deadline really is close?
+
 ### [Emoji and tone in text](../articles/digital-and-async-communication/emoji-and-tone-in-text.md) — Technique
 
 1. Before sending anything that could be read two ways (a short reply, a joke, a critique, a "can we talk?"), reread it as a stressed recipient who does not know your mood.

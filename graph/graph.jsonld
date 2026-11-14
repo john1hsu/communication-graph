@@ -6893,6 +6893,98 @@
    ]
   },
   {
+   "@id": "cm:email-subject-lines",
+   "@type": "cmo:Technique",
+   "cmo:addresses": {
+    "@id": "cm:information-overload"
+   },
+   "cmo:appliedIn": {
+    "@id": "cm:email"
+   },
+   "cmo:complements": [
+    {
+     "@id": "cm:bottom-line-up-front"
+    },
+    {
+     "@id": "cm:setting-reply-time-expectations"
+    }
+   ],
+   "cmo:domain": "digital-and-async-communication",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/email-subject-lines/example"
+   },
+   "cmo:file": "articles/digital-and-async-communication/email-subject-lines.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/email-subject-lines/howto"
+   },
+   "cmo:level": "introductory",
+   "cmo:requires": {
+    "@id": "cm:bottom-line-up-front"
+   },
+   "cmo:supportedBy": {
+    "@id": "cm:cox-et-al-2021"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/email-subject-lines/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/email-subject-lines/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/email-subject-lines/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/email-subject-lines/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/email-subject-lines/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/email-subject-lines/s6"
+    }
+   ],
+   "rdfs:label": "Email subject lines",
+   "skos:altLabel": [
+    "informative subject lines",
+    "subject-line keywords",
+    "writing subject lines"
+   ],
+   "skos:broader": {
+    "@id": "cm:email"
+   },
+   "skos:definition": "Writing an email's subject line as a short, specific headline that states the topic, the action needed and any deadline, main point first, so recipients can triage, act on and later find the message without opening it.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/digital-and-async-communication"
+   },
+   "skos:prefLabel": "Email subject lines",
+   "skos:related": [
+    {
+     "@id": "cm:asynchronous-communication"
+    },
+    {
+     "@id": "cm:burying-the-lede"
+    },
+    {
+     "@id": "cm:informative-headings"
+    },
+    {
+     "@id": "cm:rfc-1855-netiquette-guidelines"
+    },
+    {
+     "@id": "cm:scheduled-inbox-checks"
+    },
+    {
+     "@id": "cm:setting-reply-time-expectations"
+    }
+   ]
+  },
+  {
    "@id": "cm:email-urgency-bias-study",
    "@type": "cmo:Study",
    "cmo:appliedIn": {
@@ -28009,6 +28101,99 @@
    "schema:text": "Stop and invite a question; treat what they ask as the start of the real conversation."
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/email-subject-lines/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:email-subject-lines"
+   },
+   "rdfs:label": "If my reader saw only the subject line on a phone, would they know what I need and by when?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/email-subject-lines/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:email-subject-lines"
+   },
+   "rdfs:label": "Does the subject still match what the email body now asks for?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/email-subject-lines/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:email-subject-lines"
+   },
+   "rdfs:label": "Have I marked this urgent only because the deadline really is close?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/email-subject-lines/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "Subject: DECISION by Thu 3pm - approve revised Acme quote ($4.2K, +8%) for Q1 testing",
+   "cmo:before": "Subject: Quick question",
+   "cmo:situation": "A project analyst needs a finance manager to approve a revised vendor quote before the purchase order deadline.",
+   "cmo:why": "The finance manager can see from the inbox list what is needed, by when and roughly how big the ask is, so the email gets triaged correctly and is easy to find later; \"Quick question\" forces an open just to learn whether it matters."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/email-subject-lines/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Email subject lines",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/email-subject-lines/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/email-subject-lines/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/email-subject-lines/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/email-subject-lines/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/email-subject-lines/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/email-subject-lines/howto/6"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/email-subject-lines/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Before writing the subject, decide what you need from the reader - an action, a decision, a signature or nothing - and by when."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/email-subject-lines/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Put the most important information first, because long subjects are cut off on phones and in narrow inbox panes."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/email-subject-lines/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Name the specific topic and context (project, meeting, document) rather than a generic word such as \"Update\" or \"Question\"."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/email-subject-lines/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "If your team uses them, start with an agreed keyword such as ACTION, DECISION, REQUEST or INFO, and add the deadline when there is one."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/email-subject-lines/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Flag urgency only when the deadline is real, and say how little effort a reply needs if that is true."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/email-subject-lines/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "When a thread drifts to a new topic or the request changes, edit the subject or start a new email so it still matches the body."
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -41281,6 +41466,90 @@
    "dcterms:title": "Elevator Pitch (Elevator Speech; Elevator Statement)",
    "schema:url": {
     "@id": "https://barrypopik.com/blog/elevator_pitch"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/email-subject-lines/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Cox, A. L., Bird, J., Brumby, D. P., Cecchinato, M. E. & Gould, S. J. J., Human-Computer Interaction 36(5-6), 511-534, 2021 (UCL Discovery accepted manuscript)",
+   "dcterms:title": "Prioritizing unread e-mails: people send urgent responses before important or short ones",
+   "schema:url": {
+    "@id": "https://discovery.ucl.ac.uk/10115257/3/Cox_HCIJnl_Prioritizing%20Unread%20Emails_minors_v4.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/email-subject-lines/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Australian Government Style Manual",
+   "dcterms:title": "Emails and letters",
+   "schema:url": {
+    "@id": "https://www.stylemanual.gov.au/content-types/emails-and-letters"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/email-subject-lines/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "practitioner-journal",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Sehgal, K., Harvard Business Review, November 2016 (author's copy at kabir.cc)",
+   "dcterms:title": "How to Write Email with Military Precision",
+   "schema:url": {
+    "@id": "https://kabir.cc/how-to-write-email-with-military-precision/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/email-subject-lines/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Bhundiya, H., MIT AeroAstro Communication Lab",
+   "dcterms:title": "How to write effective emails",
+   "schema:url": {
+    "@id": "https://mitcommlab.mit.edu/aeroastro/2025/03/17/how-to-write-effective-emails/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/email-subject-lines/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Sarrafzadeh, B., Hassan Awadallah, A. & Shokouhi, M., Proceedings of CHIIR 2019, ACM (Microsoft Research)",
+   "dcterms:title": "Exploring Email Triage: Challenges and Opportunities",
+   "schema:url": {
+    "@id": "https://www.microsoft.com/en-us/research/uploads/prod/2019/02/Email_Triage_CHIIR19.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/email-subject-lines/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "UK Home Office, User-Centred Design Manual and Design System",
+   "dcterms:title": "Send users an email",
+   "schema:url": {
+    "@id": "https://design.homeoffice.gov.uk/design-system/patterns/send-users/email"
    }
   },
   {
