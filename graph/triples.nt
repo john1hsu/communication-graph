@@ -6738,6 +6738,59 @@
 <https://github.com/john1hsu/communication-graph/id/informative-headings> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
 <https://github.com/john1hsu/communication-graph/id/informative-headings> <https://github.com/john1hsu/communication-graph/ontology#structures> <https://github.com/john1hsu/communication-graph/id/business-report> .
 <https://github.com/john1hsu/communication-graph/id/informative-headings> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/lorch-lorch-1996> .
+<https://github.com/john1hsu/communication-graph/id/instant-messaging/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/instant-messaging/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Is this a quick question, a status check or coordination, or is it a complex or sensitive topic that needs a call?" .
+<https://github.com/john1hsu/communication-graph/id/instant-messaging/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/instant-messaging> .
+<https://github.com/john1hsu/communication-graph/id/instant-messaging/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/instant-messaging/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Have I asked whether the person is free before starting a long exchange?" .
+<https://github.com/john1hsu/communication-graph/id/instant-messaging/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/instant-messaging> .
+<https://github.com/john1hsu/communication-graph/id/instant-messaging/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/instant-messaging/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "If this thread has gone back and forth several times without agreement, should we switch to a call or meeting?" .
+<https://github.com/john1hsu/communication-graph/id/instant-messaging/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/instant-messaging> .
+<https://github.com/john1hsu/communication-graph/id/instant-messaging/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/instant-messaging/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Does this chat contain a decision that should be written up where the team and the records can find it?" .
+<https://github.com/john1hsu/communication-graph/id/instant-messaging/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/instant-messaging> .
+<https://github.com/john1hsu/communication-graph/id/instant-messaging/check/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/instant-messaging/check/5> <http://www.w3.org/2000/01/rdf-schema#label> "Am I reading a slow reply as rudeness when the other person may simply be focused?" .
+<https://github.com/john1hsu/communication-graph/id/instant-messaging/check/5> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/instant-messaging> .
+<https://github.com/john1hsu/communication-graph/id/instant-messaging> <http://purl.org/dc/terms/created> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/instant-messaging> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Channel> .
+<https://github.com/john1hsu/communication-graph/id/instant-messaging> <http://www.w3.org/2000/01/rdf-schema#label> "Instant messaging" .
+<https://github.com/john1hsu/communication-graph/id/instant-messaging> <http://www.w3.org/2004/02/skos/core#altLabel> "IM" .
+<https://github.com/john1hsu/communication-graph/id/instant-messaging> <http://www.w3.org/2004/02/skos/core#altLabel> "chat apps at work" .
+<https://github.com/john1hsu/communication-graph/id/instant-messaging> <http://www.w3.org/2004/02/skos/core#altLabel> "enterprise messaging" .
+<https://github.com/john1hsu/communication-graph/id/instant-messaging> <http://www.w3.org/2004/02/skos/core#altLabel> "team chat" .
+<https://github.com/john1hsu/communication-graph/id/instant-messaging> <http://www.w3.org/2004/02/skos/core#altLabel> "workplace chat" .
+<https://github.com/john1hsu/communication-graph/id/instant-messaging> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/digital-communication> .
+<https://github.com/john1hsu/communication-graph/id/instant-messaging> <http://www.w3.org/2004/02/skos/core#definition> "Short text messages sent through a chat tool such as Slack, Microsoft Teams or Google Chat, with presence indicators showing who is online. It sits between a live conversation and email: fast enough for quick questions, coordination and checking whether someone is free, but easy to ignore or defer, which makes it lighter than a call and riskier for complex or sensitive discussions." .
+<https://github.com/john1hsu/communication-graph/id/instant-messaging> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/digital-and-async-communication> .
+<https://github.com/john1hsu/communication-graph/id/instant-messaging> <http://www.w3.org/2004/02/skos/core#prefLabel> "Instant messaging" .
+<https://github.com/john1hsu/communication-graph/id/instant-messaging> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> .
+<https://github.com/john1hsu/communication-graph/id/instant-messaging> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/channel-selection> .
+<https://github.com/john1hsu/communication-graph/id/instant-messaging> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/chat-etiquette> .
+<https://github.com/john1hsu/communication-graph/id/instant-messaging> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/email> .
+<https://github.com/john1hsu/communication-graph/id/instant-messaging> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> .
+<https://github.com/john1hsu/communication-graph/id/instant-messaging> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/information-overload> .
+<https://github.com/john1hsu/communication-graph/id/instant-messaging> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/media-synchronicity-theory> .
+<https://github.com/john1hsu/communication-graph/id/instant-messaging> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/murray-turoff> .
+<https://github.com/john1hsu/communication-graph/id/instant-messaging> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/phone-call> .
+<https://github.com/john1hsu/communication-graph/id/instant-messaging> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/rfc-1855-netiquette-guidelines> .
+<https://github.com/john1hsu/communication-graph/id/instant-messaging> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations> .
+<https://github.com/john1hsu/communication-graph/id/instant-messaging> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/instant-messaging/s1> .
+<https://github.com/john1hsu/communication-graph/id/instant-messaging> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/instant-messaging/s2> .
+<https://github.com/john1hsu/communication-graph/id/instant-messaging> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/instant-messaging/s3> .
+<https://github.com/john1hsu/communication-graph/id/instant-messaging> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/instant-messaging/s4> .
+<https://github.com/john1hsu/communication-graph/id/instant-messaging> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/instant-messaging/s5> .
+<https://github.com/john1hsu/communication-graph/id/instant-messaging> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/instant-messaging/s6> .
+<https://github.com/john1hsu/communication-graph/id/instant-messaging> <https://github.com/john1hsu/communication-graph/ontology#alternativeTo> <https://github.com/john1hsu/communication-graph/id/email> .
+<https://github.com/john1hsu/communication-graph/id/instant-messaging> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/garrett-danziger-2008> .
+<https://github.com/john1hsu/communication-graph/id/instant-messaging> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/isaacs-et-al-2002> .
+<https://github.com/john1hsu/communication-graph/id/instant-messaging> <https://github.com/john1hsu/communication-graph/ontology#domain> "digital-and-async-communication" .
+<https://github.com/john1hsu/communication-graph/id/instant-messaging> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/instant-messaging> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/digital-and-async-communication/instant-messaging.md" .
+<https://github.com/john1hsu/communication-graph/id/instant-messaging> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/instant-messaging> <https://github.com/john1hsu/communication-graph/ontology#studiedIn> <https://github.com/john1hsu/communication-graph/id/computer-supported-cooperative-work> .
+<https://github.com/john1hsu/communication-graph/id/instant-messaging> <https://github.com/john1hsu/communication-graph/ontology#studiedIn> <https://github.com/john1hsu/communication-graph/id/digital-communication> .
 <https://github.com/john1hsu/communication-graph/id/integrative-negotiation/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/integrative-negotiation/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Have I put more than one issue on the table, or am I haggling over a single number?" .
 <https://github.com/john1hsu/communication-graph/id/integrative-negotiation/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/integrative-negotiation> .
@@ -16969,6 +17022,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/informative-headings/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/informative-headings/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
 <https://github.com/john1hsu/communication-graph/id/source/informative-headings/s6> <https://schema.org/url> <https://www.nzier.org.nz/hubfs/Masterclasses/Central%20Government/brief_15_make_papers_pop.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/instant-messaging/s1> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/instant-messaging/s1> <http://purl.org/dc/terms/publisher> "Isaacs, E., Walendowski, A., Whittaker, S., Schiano, D. J. & Kamm, C., Proceedings of CSCW 2002, ACM (CORE open-access copy)" .
+<https://github.com/john1hsu/communication-graph/id/source/instant-messaging/s1> <http://purl.org/dc/terms/title> "The Character, Functions, and Styles of Instant Messaging in the Workplace" .
+<https://github.com/john1hsu/communication-graph/id/source/instant-messaging/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/instant-messaging/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/instant-messaging/s1> <https://schema.org/url> <https://core.ac.uk/download/194957284.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/instant-messaging/s2> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/instant-messaging/s2> <http://purl.org/dc/terms/publisher> "Garrett, R. K. & Danziger, J. N., Journal of Computer-Mediated Communication 13, 23-42, 2008 (author copy)" .
+<https://github.com/john1hsu/communication-graph/id/source/instant-messaging/s2> <http://purl.org/dc/terms/title> "IM = Interruption Management? Instant Messaging and Disruption in the Workplace" .
+<https://github.com/john1hsu/communication-graph/id/source/instant-messaging/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/instant-messaging/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/instant-messaging/s2> <https://schema.org/url> <https://www.interruptions.net/literature/Garrett-JCMC08.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/instant-messaging/s3> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/instant-messaging/s3> <http://purl.org/dc/terms/publisher> "The Ohio State University News (on Garrett & Danziger)" .
+<https://github.com/john1hsu/communication-graph/id/source/instant-messaging/s3> <http://purl.org/dc/terms/title> "Instant messaging proves useful in reducing workplace interruption" .
+<https://github.com/john1hsu/communication-graph/id/source/instant-messaging/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/instant-messaging/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/instant-messaging/s3> <https://schema.org/url> <https://news.osu.edu/instant-messaging-proves-useful-in-reducing-workplace-interruption/> .
+<https://github.com/john1hsu/communication-graph/id/source/instant-messaging/s4> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/instant-messaging/s4> <http://purl.org/dc/terms/publisher> "Institute for Software Research, University of California, Irvine (Nardi, B., Whittaker, S. & Bradner, E., CSCW 2000)" .
+<https://github.com/john1hsu/communication-graph/id/source/instant-messaging/s4> <http://purl.org/dc/terms/title> "Interaction and Outeraction: Instant Messaging in Action" .
+<https://github.com/john1hsu/communication-graph/id/source/instant-messaging/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/instant-messaging/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/instant-messaging/s4> <https://schema.org/url> <https://isr.uci.edu/content/interaction-and-outeraction-instant-messaging-action> .
+<https://github.com/john1hsu/communication-graph/id/source/instant-messaging/s5> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/instant-messaging/s5> <http://purl.org/dc/terms/publisher> "U.S. National Archives and Records Administration" .
+<https://github.com/john1hsu/communication-graph/id/source/instant-messaging/s5> <http://purl.org/dc/terms/title> "NARA Bulletin 2023-04: Managing Records Created on Collaboration Platforms" .
+<https://github.com/john1hsu/communication-graph/id/source/instant-messaging/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/instant-messaging/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/communication-graph/id/source/instant-messaging/s5> <https://schema.org/url> <https://www.archives.gov/records-mgmt/bulletins/2023/2023-04> .
+<https://github.com/john1hsu/communication-graph/id/source/instant-messaging/s6> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/instant-messaging/s6> <http://purl.org/dc/terms/publisher> "Rennecker, J. & Godwin, L., Sprouts - Working Papers on Information Systems (CORE open-access copy)" .
+<https://github.com/john1hsu/communication-graph/id/source/instant-messaging/s6> <http://purl.org/dc/terms/title> "Theorizing the Unintended Consequences of Instant Messaging for Worker Productivity" .
+<https://github.com/john1hsu/communication-graph/id/source/instant-messaging/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/instant-messaging/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "preprint" .
+<https://github.com/john1hsu/communication-graph/id/source/instant-messaging/s6> <https://schema.org/url> <https://core.ac.uk/download/301360691.pdf> .
 <https://github.com/john1hsu/communication-graph/id/source/integrative-negotiation/s1> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/integrative-negotiation/s1> <http://purl.org/dc/terms/publisher> "PON Staff, Program on Negotiation at Harvard Law School, 2026" .
 <https://github.com/john1hsu/communication-graph/id/source/integrative-negotiation/s1> <http://purl.org/dc/terms/title> "Expanding the Pie: Integrative versus Distributive Bargaining Negotiation Strategies" .

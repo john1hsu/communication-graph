@@ -673,6 +673,15 @@ Ask yourself:
 - Is this a first contact, an external or formal message, or bad news - where an emoji is likely to cost more than it adds?
 - Would the emoji I chose look and mean the same thing on the recipient's device?
 
+### [Instant messaging](../articles/digital-and-async-communication/instant-messaging.md) — Channel
+
+Ask yourself:
+- Is this a quick question, a status check or coordination, or is it a complex or sensitive topic that needs a call?
+- Have I asked whether the person is free before starting a long exchange?
+- If this thread has gone back and forth several times without agreement, should we switch to a call or meeting?
+- Does this chat contain a decision that should be written up where the team and the records can find it?
+- Am I reading a slow reply as rudeness when the other person may simply be focused?
+
 ### [Phone call](../articles/digital-and-async-communication/phone-call.md) — Channel
 
 Ask yourself:

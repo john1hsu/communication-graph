@@ -135,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:acoustic-speech-analysis-coaching` | mixed |  |
 | `cm:active-listening` | mixed |  |
 
-…and 168 more.
+…and 169 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -158,6 +158,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:hybrid-meetings` | cmo:Context |
 | `cm:information-gathering-interview` | cmo:Technique |
 | `cm:informative-headings` | cmo:Technique |
+| `cm:instant-messaging` | cmo:Channel |
 | `cm:intercultural-competence` | cmo:Skill |
 | `cm:interpersonal-communication` | cmo:Field |
 | `cm:interrupting` | cmo:AntiPattern |
@@ -172,9 +173,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:mixed-messages` | cmo:Barrier |
 | `cm:multicultural-team` | cmo:Context |
 | `cm:mum-effect` | cmo:Barrier |
-| `cm:narrative-persuasion` | cmo:Technique |
 
-…and 53 more.
+…and 54 more.
 
 ## Orphan articles (gap)
 
