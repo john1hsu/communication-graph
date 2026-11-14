@@ -20484,6 +20484,120 @@
   ]
  },
  {
+  "id": "cm:reading-lies-from-body-language",
+  "title": "Reading lies from body language",
+  "aliases": [
+   "body-language lie detection",
+   "nonverbal lie detection",
+   "spotting liars by their body language",
+   "liars avoid eye contact"
+  ],
+  "type": "AntiPattern",
+  "domain": "nonverbal-and-voice",
+  "level": "introductory",
+  "evidenceStatus": "contested",
+  "file": "articles/nonverbal-and-voice/reading-lies-from-body-language.md",
+  "created": "2026-11-14",
+  "summary": "Judging whether a colleague, candidate or client is lying from nervous-looking behaviour such as gaze aversion, fidgeting or hesitation; meta-analyses put such judgments only slightly above chance (about 54%) because behavioural cues to deceit are faint, so the habit mainly produces confident false accusations of honest but anxious people.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:nonverbal-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:eye-contact"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:facial-expressions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:paralanguage"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:mixed-messages"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:mehrabian-myth"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:open-ended-questions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:follow-up-questions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:perception-checking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:job-interview"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:cognitive-bias"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:bond-depaulo-2006",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:hartwig-bond-2011",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:depaulo-et-al-2003",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:global-deception-research-team-2006",
+    "source": "s5",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:contrastsWith",
+    "object": "cm:information-gathering-interview",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Am I doubting this person because of how they looked or sounded, rather than because of something they said that conflicts with facts I can check?",
+   "Would an honest person under this much pressure (an interview, an investigation, a status challenge) plausibly show the same nervousness?",
+   "Have I asked open, specific questions and checked at least one detail before forming a view?",
+   "How confident am I, and is that confidence based on evidence or on a gut read of their manner?"
+  ],
+  "steps": [],
+  "example": {
+   "situation": "A hiring manager is interviewing a candidate whose CV claims she led a data-migration project; the candidate looks down often and fidgets with her pen.",
+   "before": "Manager (thinking): 'She can't hold my gaze and keeps fidgeting - she's padding that project.' He cuts the topic short and scores her 'low credibility'.",
+   "after": "Manager: 'Walk me through the migration from the first week. What broke, who did you escalate to, and what would the client's IT lead say your role was?' He notes the specifics and checks two of them with the reference.",
+   "why": "Gaze and fidgeting barely track deceit and are common in nervous, honest candidates, so the first version turns interview anxiety into a verdict; open, specific questions and a factual check test the claim itself."
+  },
+  "source_urls": [
+   "https://assets.aclu.org/live/uploads/document/foia/2006-Personality-and-Social-Psychology-Review-Accuracy-of-Deception-Judgements.pdf",
+   "https://scholars.duke.edu/publication/660134",
+   "https://assets.aclu.org/live/uploads/document/foia/2011-07-Psychological-Bulletin-Why-Do-Lie-Catchers-Fail.pdf",
+   "https://www.psychologicalscience.org/publications/journals/pspi/pitfalls-and-opportunities-in-nonverbal-and-verbal-lie-detection.html",
+   "https://researchportal.port.ac.uk/en/publications/a-world-of-lies/",
+   "https://researchportal.port.ac.uk/en/publications/reading-lies-nonverbal-communication-and-deception/"
+  ]
+ },
+ {
   "id": "cm:rebecca-hincks",
   "title": "Rebecca Hincks",
   "aliases": [

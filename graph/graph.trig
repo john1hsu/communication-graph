@@ -1332,6 +1332,15 @@
 <https://github.com/john1hsu/communication-graph/id/proxemics#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/proxemics/s4> .
 <https://github.com/john1hsu/communication-graph/id/proxemics#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/proxemics/s5> .
 <https://github.com/john1hsu/communication-graph/id/proxemics#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/proxemics/s6> .
+<https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> .
+<https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/nonverbal-and-voice/reading-lies-from-body-language.md" .
+<https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/reading-lies-from-body-language/s1> .
+<https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/reading-lies-from-body-language/s2> .
+<https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/reading-lies-from-body-language/s3> .
+<https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/reading-lies-from-body-language/s4> .
+<https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/reading-lies-from-body-language/s5> .
+<https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/reading-lies-from-body-language/s6> .
 <https://github.com/john1hsu/communication-graph/id/silence-and-pauses#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/silence-and-pauses#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/silence-and-pauses> .
 <https://github.com/john1hsu/communication-graph/id/silence-and-pauses#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/nonverbal-and-voice/silence-and-pauses.md" .
@@ -16560,6 +16569,99 @@
   <https://github.com/john1hsu/communication-graph/id/source/proxemics/s6> <https://schema.org/url> <https://thereader.mitpress.mit.edu/understanding-personal-space-proxemics> .
 }
 
+<https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language#graph> {
+  <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Am I doubting this person because of how they looked or sounded, rather than because of something they said that conflicts with facts I can check?" .
+  <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> .
+  <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Would an honest person under this much pressure (an interview, an investigation, a status challenge) plausibly show the same nervousness?" .
+  <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> .
+  <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Have I asked open, specific questions and checked at least one detail before forming a view?" .
+  <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> .
+  <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "How confident am I, and is that confidence based on evidence or on a gut read of their manner?" .
+  <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> .
+  <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+  <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language/example> <https://github.com/john1hsu/communication-graph/ontology#after> "Manager: 'Walk me through the migration from the first week. What broke, who did you escalate to, and what would the client's IT lead say your role was?' He notes the specifics and checks two of them with the reference." .
+  <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language/example> <https://github.com/john1hsu/communication-graph/ontology#before> "Manager (thinking): 'She can't hold my gaze and keeps fidgeting - she's padding that project.' He cuts the topic short and scores her 'low credibility'." .
+  <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "A hiring manager is interviewing a candidate whose CV claims she led a data-migration project; the candidate looks down often and fidgets with her pen." .
+  <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language/example> <https://github.com/john1hsu/communication-graph/ontology#why> "Gaze and fidgeting barely track deceit and are common in nervous, honest candidates, so the first version turns interview anxiety into a verdict; open, specific questions and a factual check test the claim itself." .
+  <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> <http://purl.org/dc/terms/created> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#AntiPattern> .
+  <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> <http://www.w3.org/2000/01/rdf-schema#label> "Reading lies from body language" .
+  <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> <http://www.w3.org/2004/02/skos/core#altLabel> "body-language lie detection" .
+  <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> <http://www.w3.org/2004/02/skos/core#altLabel> "liars avoid eye contact" .
+  <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> <http://www.w3.org/2004/02/skos/core#altLabel> "nonverbal lie detection" .
+  <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> <http://www.w3.org/2004/02/skos/core#altLabel> "spotting liars by their body language" .
+  <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> .
+  <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> <http://www.w3.org/2004/02/skos/core#definition> "Judging whether a colleague, candidate or client is lying from nervous-looking behaviour such as gaze aversion, fidgeting or hesitation; meta-analyses put such judgments only slightly above chance (about 54%) because behavioural cues to deceit are faint, so the habit mainly produces confident false accusations of honest but anxious people." .
+  <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/nonverbal-and-voice> .
+  <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> <http://www.w3.org/2004/02/skos/core#prefLabel> "Reading lies from body language" .
+  <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-bias> .
+  <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/eye-contact> .
+  <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/facial-expressions> .
+  <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/follow-up-questions> .
+  <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/job-interview> .
+  <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> .
+  <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mixed-messages> .
+  <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/open-ended-questions> .
+  <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/paralanguage> .
+  <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/perception-checking> .
+  <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/reading-lies-from-body-language/s1> .
+  <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/reading-lies-from-body-language/s2> .
+  <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/reading-lies-from-body-language/s3> .
+  <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/reading-lies-from-body-language/s4> .
+  <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/reading-lies-from-body-language/s5> .
+  <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/reading-lies-from-body-language/s6> .
+  <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/bond-depaulo-2006> .
+  <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/depaulo-et-al-2003> .
+  <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/hartwig-bond-2011> .
+  <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/information-gathering-interview> .
+  <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/global-deception-research-team-2006> .
+  <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> <https://github.com/john1hsu/communication-graph/ontology#domain> "nonverbal-and-voice" .
+  <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "contested" .
+  <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language/example> .
+  <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/nonverbal-and-voice/reading-lies-from-body-language.md" .
+  <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+  <https://github.com/john1hsu/communication-graph/id/source/reading-lies-from-body-language/s1> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/reading-lies-from-body-language/s1> <http://purl.org/dc/terms/publisher> "Charles F. Bond Jr. & Bella M. DePaulo, Personality and Social Psychology Review 10(3), 214-234 (2006) (copy hosted by the ACLU)" .
+  <https://github.com/john1hsu/communication-graph/id/source/reading-lies-from-body-language/s1> <http://purl.org/dc/terms/title> "Accuracy of Deception Judgments" .
+  <https://github.com/john1hsu/communication-graph/id/source/reading-lies-from-body-language/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/reading-lies-from-body-language/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/reading-lies-from-body-language/s1> <https://schema.org/url> <https://assets.aclu.org/live/uploads/document/foia/2006-Personality-and-Social-Psychology-Review-Accuracy-of-Deception-Judgements.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/reading-lies-from-body-language/s2> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/reading-lies-from-body-language/s2> <http://purl.org/dc/terms/publisher> "DePaulo, Lindsay, Malone, Muhlenbruck, Charlton & Cooper, Psychological Bulletin 129(1), 74-118 (2003) (Duke Scholars record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/reading-lies-from-body-language/s2> <http://purl.org/dc/terms/title> "Cues to Deception" .
+  <https://github.com/john1hsu/communication-graph/id/source/reading-lies-from-body-language/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/reading-lies-from-body-language/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/reading-lies-from-body-language/s2> <https://schema.org/url> <https://scholars.duke.edu/publication/660134> .
+  <https://github.com/john1hsu/communication-graph/id/source/reading-lies-from-body-language/s3> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/reading-lies-from-body-language/s3> <http://purl.org/dc/terms/publisher> "Maria Hartwig & Charles F. Bond Jr., Psychological Bulletin 137(4), 643-659 (2011), doi:10.1037/a0023589 (copy hosted by the ACLU)" .
+  <https://github.com/john1hsu/communication-graph/id/source/reading-lies-from-body-language/s3> <http://purl.org/dc/terms/title> "Why Do Lie-Catchers Fail? A Lens Model Meta-Analysis of Human Lie Judgments" .
+  <https://github.com/john1hsu/communication-graph/id/source/reading-lies-from-body-language/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/reading-lies-from-body-language/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/reading-lies-from-body-language/s3> <https://schema.org/url> <https://assets.aclu.org/live/uploads/document/foia/2011-07-Psychological-Bulletin-Why-Do-Lie-Catchers-Fail.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/reading-lies-from-body-language/s4> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/reading-lies-from-body-language/s4> <http://purl.org/dc/terms/publisher> "Vrij, Granhag & Porter, Psychological Science in the Public Interest (2010), doi:10.1177/1529100610390861 (Association for Psychological Science summary)" .
+  <https://github.com/john1hsu/communication-graph/id/source/reading-lies-from-body-language/s4> <http://purl.org/dc/terms/title> "Pitfalls and Opportunities in Nonverbal and Verbal Lie Detection" .
+  <https://github.com/john1hsu/communication-graph/id/source/reading-lies-from-body-language/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/reading-lies-from-body-language/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/reading-lies-from-body-language/s4> <https://schema.org/url> <https://www.psychologicalscience.org/publications/journals/pspi/pitfalls-and-opportunities-in-nonverbal-and-verbal-lie-detection.html> .
+  <https://github.com/john1hsu/communication-graph/id/source/reading-lies-from-body-language/s5> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/reading-lies-from-body-language/s5> <http://purl.org/dc/terms/publisher> "The Global Deception Research Team, Journal of Cross-Cultural Psychology 37(1), 60-74 (2006), doi:10.1177/0022022105282295 (University of Portsmouth research portal)" .
+  <https://github.com/john1hsu/communication-graph/id/source/reading-lies-from-body-language/s5> <http://purl.org/dc/terms/title> "A World of Lies" .
+  <https://github.com/john1hsu/communication-graph/id/source/reading-lies-from-body-language/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/reading-lies-from-body-language/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/reading-lies-from-body-language/s5> <https://schema.org/url> <https://researchportal.port.ac.uk/en/publications/a-world-of-lies/> .
+  <https://github.com/john1hsu/communication-graph/id/source/reading-lies-from-body-language/s6> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/reading-lies-from-body-language/s6> <http://purl.org/dc/terms/publisher> "Vrij, Hartwig & Granhag, Annual Review of Psychology 70, 295-317 (2019), doi:10.1146/annurev-psych-010418-103135 (University of Portsmouth research portal)" .
+  <https://github.com/john1hsu/communication-graph/id/source/reading-lies-from-body-language/s6> <http://purl.org/dc/terms/title> "Reading Lies: Nonverbal Communication and Deception" .
+  <https://github.com/john1hsu/communication-graph/id/source/reading-lies-from-body-language/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/reading-lies-from-body-language/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/reading-lies-from-body-language/s6> <https://schema.org/url> <https://researchportal.port.ac.uk/en/publications/reading-lies-nonverbal-communication-and-deception/> .
+}
+
 <https://github.com/john1hsu/communication-graph/id/silence-and-pauses#graph> {
   <https://github.com/john1hsu/communication-graph/id/silence-and-pauses/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
   <https://github.com/john1hsu/communication-graph/id/silence-and-pauses/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "After my most important sentence, did I stop for a beat before moving on, or rush straight into the next point?" .
@@ -25947,6 +26049,7 @@
   <https://github.com/john1hsu/communication-graph/id/boland-et-al-zoom-turn-taking> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> .
   <https://github.com/john1hsu/communication-graph/id/boland-et-al-zoom-turn-taking> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/video-call-communication> .
   <https://github.com/john1hsu/communication-graph/id/bond-depaulo-2006> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> .
+  <https://github.com/john1hsu/communication-graph/id/bond-depaulo-2006> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> .
   <https://github.com/john1hsu/communication-graph/id/boomerasking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/conversational-narcissism> .
   <https://github.com/john1hsu/communication-graph/id/boomerasking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/support-response> .
   <https://github.com/john1hsu/communication-graph/id/boothby-cooney-schweitzer-2023> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -26436,6 +26539,7 @@
   <https://github.com/john1hsu/communication-graph/id/cognitive-bias> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/mythical-fixed-pie> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-bias> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/primacy-and-recency-effects> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-bias> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/spotlight-effect> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-legitimacy> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/elevator-pitch> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-load> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-load> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -26693,6 +26797,7 @@
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/questioning> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/radical-candor> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/rapport> .
+  <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/receiving-feedback> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/refutational-two-sided-messages> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/reservation-value> .
@@ -27127,6 +27232,7 @@
   <https://github.com/john1hsu/communication-graph/id/dennis-kinney-1998> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/channel-selection> .
   <https://github.com/john1hsu/communication-graph/id/dennis-kinney-1998> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/media-richness-theory> .
   <https://github.com/john1hsu/communication-graph/id/dennis-valacich-speier-morris-1998> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/media-synchronicity-theory> .
+  <https://github.com/john1hsu/communication-graph/id/depaulo-et-al-2003> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> .
   <https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -27691,6 +27797,7 @@
   <https://github.com/john1hsu/communication-graph/id/eye-contact> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/gestures> .
   <https://github.com/john1hsu/communication-graph/id/eye-contact> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/michael-argyle> .
   <https://github.com/john1hsu/communication-graph/id/eye-contact> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> .
+  <https://github.com/john1hsu/communication-graph/id/eye-contact> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> .
   <https://github.com/john1hsu/communication-graph/id/eye-contact> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/self-recording-playback> .
   <https://github.com/john1hsu/communication-graph/id/eye-contact> <https://github.com/john1hsu/communication-graph/ontology#developedBy> <https://github.com/john1hsu/communication-graph/id/camera-level-gaze> .
   <https://github.com/john1hsu/communication-graph/id/eye-contact> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/michael-argyle> .
@@ -27740,6 +27847,7 @@
   <https://github.com/john1hsu/communication-graph/id/facial-expressions> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> .
   <https://github.com/john1hsu/communication-graph/id/facial-expressions> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/facial-expressions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> .
+  <https://github.com/john1hsu/communication-graph/id/facial-expressions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> .
   <https://github.com/john1hsu/communication-graph/id/facial-feedback-hypothesis> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/emotional-contagion> .
   <https://github.com/john1hsu/communication-graph/id/facilitation/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/facilitation/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -27978,6 +28086,7 @@
   <https://github.com/john1hsu/communication-graph/id/follow-up-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/job-interview> .
   <https://github.com/john1hsu/communication-graph/id/follow-up-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/question-formulation-technique> .
   <https://github.com/john1hsu/communication-graph/id/follow-up-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/questioning> .
+  <https://github.com/john1hsu/communication-graph/id/follow-up-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> .
   <https://github.com/john1hsu/communication-graph/id/follow-up-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/support-response> .
   <https://github.com/john1hsu/communication-graph/id/follow-up-questions> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/small-talk> .
   <https://github.com/john1hsu/communication-graph/id/follow-up-questions> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/conversational-narcissism> .
@@ -28082,6 +28191,9 @@
   <https://github.com/john1hsu/communication-graph/id/glikson-cheshin-van-kleef-2018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/glikson-cheshin-van-kleef-2018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/glikson-cheshin-van-kleef-2018> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> .
+  <https://github.com/john1hsu/communication-graph/id/global-deception-research-team-2006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/global-deception-research-team-2006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
+  <https://github.com/john1hsu/communication-graph/id/global-deception-research-team-2006> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> .
   <https://github.com/john1hsu/communication-graph/id/gnepp-et-al-2020> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/feedforward> .
   <https://github.com/john1hsu/communication-graph/id/goldstein-cialdini-griskevicius-2008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/goldstein-cialdini-griskevicius-2008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
@@ -28228,6 +28340,7 @@
   <https://github.com/john1hsu/communication-graph/id/hart-bear-ren-2024> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/hart-bear-ren-2024> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/hart-bear-ren-2024> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/salary-negotiation> .
+  <https://github.com/john1hsu/communication-graph/id/hartwig-bond-2011> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> .
   <https://github.com/john1hsu/communication-graph/id/harvey-sacks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/harvey-sacks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/harvey-sacks> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> .
@@ -28456,6 +28569,7 @@
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/questioning> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/radical-candor> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/rapport> .
+  <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/receiving-feedback> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/refutational-two-sided-messages> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/reservation-value> .
@@ -28630,6 +28744,7 @@
   <https://github.com/john1hsu/communication-graph/id/influence-without-authority> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/social-proof> .
   <https://github.com/john1hsu/communication-graph/id/influence-without-authority> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping> .
   <https://github.com/john1hsu/communication-graph/id/information-gap-theory> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/george-loewenstein> .
+  <https://github.com/john1hsu/communication-graph/id/information-gathering-interview> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> .
   <https://github.com/john1hsu/communication-graph/id/information-overload/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/information-overload/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/information-overload/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -28897,6 +29012,7 @@
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/questioning> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/radical-candor> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/rapport> .
+  <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/receiving-feedback> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/refutational-two-sided-messages> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/reservation-value> .
@@ -29023,6 +29139,7 @@
   <https://github.com/john1hsu/communication-graph/id/job-interview> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/job-interview> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/personnel-selection> .
   <https://github.com/john1hsu/communication-graph/id/job-interview> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/alison-wood-brooks> .
+  <https://github.com/john1hsu/communication-graph/id/job-interview> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> .
   <https://github.com/john1hsu/communication-graph/id/job-interview> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> .
   <https://github.com/john1hsu/communication-graph/id/job-interview> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/camera-level-gaze> .
   <https://github.com/john1hsu/communication-graph/id/job-interview> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/follow-up-questions> .
@@ -29501,6 +29618,7 @@
   <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/michael-argyle> .
   <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> .
   <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/power-posing> .
+  <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> .
   <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> <https://github.com/john1hsu/communication-graph/ontology#confusedWith> <https://github.com/john1hsu/communication-graph/id/mixed-messages> .
   <https://github.com/john1hsu/communication-graph/id/meinecke-lehmann-willenbrock-kauffeld-2017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/meinecke-lehmann-willenbrock-kauffeld-2017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
@@ -29593,6 +29711,7 @@
   <https://github.com/john1hsu/communication-graph/id/mixed-messages> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> .
   <https://github.com/john1hsu/communication-graph/id/mixed-messages> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/mixed-messages> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> .
+  <https://github.com/john1hsu/communication-graph/id/mixed-messages> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> .
   <https://github.com/john1hsu/communication-graph/id/mixed-messages> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/perception-checking> .
   <https://github.com/john1hsu/communication-graph/id/monotone-delivery> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/rebecca-hincks> .
   <https://github.com/john1hsu/communication-graph/id/monotone-delivery> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/acoustic-speech-analysis-coaching> .
@@ -29833,6 +29952,7 @@
   <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/paralanguage> .
   <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/power-posing> .
   <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/proxemics> .
+  <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> .
   <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/silence-and-pauses> .
   <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/camera-level-gaze> .
   <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/eye-contact> .
@@ -29846,6 +29966,7 @@
   <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/paralanguage> .
   <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/power-posing> .
   <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/proxemics> .
+  <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> .
   <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/silence-and-pauses> .
   <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/thought-groups> .
   <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/vocal-delivery> .
@@ -29968,6 +30089,7 @@
   <https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/perspective-taking> .
   <https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/question-formulation-technique> .
   <https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/questioning> .
+  <https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> .
   <https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/receiving-feedback> .
   <https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/small-talk> .
   <https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/solution-focused-coaching> .
@@ -30060,6 +30182,7 @@
   <https://github.com/john1hsu/communication-graph/id/paralanguage> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/maclay-osgood-1959> .
   <https://github.com/john1hsu/communication-graph/id/paralanguage> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> .
   <https://github.com/john1hsu/communication-graph/id/paralanguage> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/phone-call> .
+  <https://github.com/john1hsu/communication-graph/id/paralanguage> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> .
   <https://github.com/john1hsu/communication-graph/id/paralanguage> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/rebecca-hincks> .
   <https://github.com/john1hsu/communication-graph/id/paralanguage> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/scott-fahlman> .
   <https://github.com/john1hsu/communication-graph/id/paramedic-method/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -30154,6 +30277,7 @@
   <https://github.com/john1hsu/communication-graph/id/perception-checking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/perception-checking> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/active-listening> .
   <https://github.com/john1hsu/communication-graph/id/perception-checking> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/listening> .
+  <https://github.com/john1hsu/communication-graph/id/perception-checking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> .
   <https://github.com/john1hsu/communication-graph/id/performance-management> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/performance-review> .
   <https://github.com/john1hsu/communication-graph/id/performance-management> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/performance-review> .
   <https://github.com/john1hsu/communication-graph/id/performance-review> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
@@ -30769,6 +30893,18 @@
   <https://github.com/john1hsu/communication-graph/id/readability-formulas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/ginny-redish> .
   <https://github.com/john1hsu/communication-graph/id/readability-formulas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/paramedic-method> .
   <https://github.com/john1hsu/communication-graph/id/readability-formulas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/wall-of-text> .
+  <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+  <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
+  <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/humanities> .
+  <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
+  <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> .
+  <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/rebecca-hincks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/receiving-feedback/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/receiving-feedback/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -31429,6 +31565,7 @@
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/questioning> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/radical-candor> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/rapport> .
+  <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/receiving-feedback> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/refutational-two-sided-messages> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/reservation-value> .

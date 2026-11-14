@@ -9,6 +9,7 @@ _Which written barriers or anti-patterns have nothing in the graph that addresse
 | node | type |
 |---|---|
 | `cm:deaf-effect` | cmo:Barrier |
+| `cm:reading-lies-from-body-language` | cmo:AntiPattern |
 
 ## Skills with no practice technique (gap)
 
@@ -128,16 +129,16 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:monroes-motivated-sequence` | contested | `cm:micciche-pryor-butler-2000` |
 | `cm:readability-formulas` | contested | `cm:duffy-kabance-1982` |
 | `cm:readability-formulas` | contested | `cm:redish-selzer-1985` |
+| `cm:reading-lies-from-body-language` | contested | `cm:bond-depaulo-2006` |
+| `cm:reading-lies-from-body-language` | contested | `cm:depaulo-et-al-2003` |
+| `cm:reading-lies-from-body-language` | contested | `cm:hartwig-bond-2011` |
 | `cm:wise-feedback` | contested | `cm:troy-moua-van-boekel-2024` |
 | `cm:power-posing` | failed-replication | `cm:crede-2019` |
 | `cm:power-posing` | failed-replication | `cm:ranehill-et-al-2015` |
 | `cm:acoustic-speech-analysis-coaching` | mixed |  |
 | `cm:active-listening` | mixed |  |
-| `cm:active-voice` | mixed | `cm:fear-and-loathing-of-the-english-passive` |
-| `cm:apology` | mixed |  |
-| `cm:assertion-evidence-slides` | mixed | `cm:alzayed-alzamel-2023` |
 
-…and 157 more.
+…and 160 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -176,7 +177,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:nonverbal-communication` | cmo:Concept |
 | `cm:note-taking-while-listening` | cmo:Technique |
 
-…and 46 more.
+…and 47 more.
 
 ## Orphan articles (gap)
 

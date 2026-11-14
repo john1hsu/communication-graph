@@ -1882,6 +1882,22 @@ Ask yourself:
 - When someone's words and manner just disagreed, did I ask, or did I silently pick one and act on it?
 - Would this listener's culture lead them to weigh my tone more, or my words more, than I expect?
 
+### [Reading lies from body language](../articles/nonverbal-and-voice/reading-lies-from-body-language.md) — AntiPattern
+
+*A hiring manager is interviewing a candidate whose CV claims she led a data-migration project; the candidate looks down often and fidgets with her pen.*
+
+| Before | After |
+|---|---|
+| Manager (thinking): 'She can't hold my gaze and keeps fidgeting - she's padding that project.' He cuts the topic short and scores her 'low credibility'. | Manager: 'Walk me through the migration from the first week. What broke, who did you escalate to, and what would the client's IT lead say your role was?' He notes the specifics and checks two of them with the reference. |
+
+**Why:** Gaze and fidgeting barely track deceit and are common in nervous, honest candidates, so the first version turns interview anxiety into a verdict; open, specific questions and a factual check test the claim itself.
+
+Ask yourself:
+- Am I doubting this person because of how they looked or sounded, rather than because of something they said that conflicts with facts I can check?
+- Would an honest person under this much pressure (an interview, an investigation, a status challenge) plausibly show the same nervousness?
+- Have I asked open, specific questions and checked at least one detail before forming a view?
+- How confident am I, and is that confidence based on evidence or on a gut read of their manner?
+
 ### [Silence and pauses](../articles/nonverbal-and-voice/silence-and-pauses.md) — Skill
 
 Ask yourself:

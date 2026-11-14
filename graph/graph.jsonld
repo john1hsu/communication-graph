@@ -18084,6 +18084,105 @@
    ]
   },
   {
+   "@id": "cm:reading-lies-from-body-language",
+   "@type": "cmo:AntiPattern",
+   "cmo:challengedBy": [
+    {
+     "@id": "cm:bond-depaulo-2006"
+    },
+    {
+     "@id": "cm:depaulo-et-al-2003"
+    },
+    {
+     "@id": "cm:hartwig-bond-2011"
+    }
+   ],
+   "cmo:contrastsWith": {
+    "@id": "cm:information-gathering-interview"
+   },
+   "cmo:demonstratedBy": {
+    "@id": "cm:global-deception-research-team-2006"
+   },
+   "cmo:domain": "nonverbal-and-voice",
+   "cmo:evidenceStatus": "contested",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language/example"
+   },
+   "cmo:file": "articles/nonverbal-and-voice/reading-lies-from-body-language.md",
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/reading-lies-from-body-language/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/reading-lies-from-body-language/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/reading-lies-from-body-language/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/reading-lies-from-body-language/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/reading-lies-from-body-language/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/reading-lies-from-body-language/s6"
+    }
+   ],
+   "rdfs:label": "Reading lies from body language",
+   "skos:altLabel": [
+    "body-language lie detection",
+    "liars avoid eye contact",
+    "nonverbal lie detection",
+    "spotting liars by their body language"
+   ],
+   "skos:broader": {
+    "@id": "cm:nonverbal-communication"
+   },
+   "skos:definition": "Judging whether a colleague, candidate or client is lying from nervous-looking behaviour such as gaze aversion, fidgeting or hesitation; meta-analyses put such judgments only slightly above chance (about 54%) because behavioural cues to deceit are faint, so the habit mainly produces confident false accusations of honest but anxious people.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/nonverbal-and-voice"
+   },
+   "skos:prefLabel": "Reading lies from body language",
+   "skos:related": [
+    {
+     "@id": "cm:cognitive-bias"
+    },
+    {
+     "@id": "cm:eye-contact"
+    },
+    {
+     "@id": "cm:facial-expressions"
+    },
+    {
+     "@id": "cm:follow-up-questions"
+    },
+    {
+     "@id": "cm:job-interview"
+    },
+    {
+     "@id": "cm:mehrabian-myth"
+    },
+    {
+     "@id": "cm:mixed-messages"
+    },
+    {
+     "@id": "cm:open-ended-questions"
+    },
+    {
+     "@id": "cm:paralanguage"
+    },
+    {
+     "@id": "cm:perception-checking"
+    }
+   ]
+  },
+  {
    "@id": "cm:rebecca-hincks",
    "@type": "cmo:Person",
    "cmo:authored": {
@@ -32083,6 +32182,46 @@
    "@type": "schema:HowToStep",
    "schema:position": 6,
    "schema:text": "Check the revised draft with a few real or representative readers (ask them to find an answer or explain the next step) and let their results, not the score, decide whether it is ready."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:reading-lies-from-body-language"
+   },
+   "rdfs:label": "Am I doubting this person because of how they looked or sounded, rather than because of something they said that conflicts with facts I can check?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:reading-lies-from-body-language"
+   },
+   "rdfs:label": "Would an honest person under this much pressure (an interview, an investigation, a status challenge) plausibly show the same nervousness?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:reading-lies-from-body-language"
+   },
+   "rdfs:label": "Have I asked open, specific questions and checked at least one detail before forming a view?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:reading-lies-from-body-language"
+   },
+   "rdfs:label": "How confident am I, and is that confidence based on evidence or on a gut read of their manner?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "Manager: 'Walk me through the migration from the first week. What broke, who did you escalate to, and what would the client's IT lead say your role was?' He notes the specifics and checks two of them with the reference.",
+   "cmo:before": "Manager (thinking): 'She can't hold my gaze and keeps fidgeting - she's padding that project.' He cuts the topic short and scores her 'low credibility'.",
+   "cmo:situation": "A hiring manager is interviewing a candidate whose CV claims she led a data-migration project; the candidate looks down often and fidgets with her pen.",
+   "cmo:why": "Gaze and fidgeting barely track deceit and are common in nervous, honest candidates, so the first version turns interview anxiety into a verdict; open, specific questions and a factual check test the claim itself."
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/receiving-feedback/check/1",
@@ -49614,6 +49753,90 @@
    "dcterms:title": "Comparison of readability scores for written health information across formulas using automated vs manual measures",
    "schema:url": {
     "@id": "https://www.sydneyhealthliteracylab.org.au/health-literacy-editor-publications/1-y9tp7-9mdxz-thy7z"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/reading-lies-from-body-language/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Charles F. Bond Jr. & Bella M. DePaulo, Personality and Social Psychology Review 10(3), 214-234 (2006) (copy hosted by the ACLU)",
+   "dcterms:title": "Accuracy of Deception Judgments",
+   "schema:url": {
+    "@id": "https://assets.aclu.org/live/uploads/document/foia/2006-Personality-and-Social-Psychology-Review-Accuracy-of-Deception-Judgements.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/reading-lies-from-body-language/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "DePaulo, Lindsay, Malone, Muhlenbruck, Charlton & Cooper, Psychological Bulletin 129(1), 74-118 (2003) (Duke Scholars record)",
+   "dcterms:title": "Cues to Deception",
+   "schema:url": {
+    "@id": "https://scholars.duke.edu/publication/660134"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/reading-lies-from-body-language/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Maria Hartwig & Charles F. Bond Jr., Psychological Bulletin 137(4), 643-659 (2011), doi:10.1037/a0023589 (copy hosted by the ACLU)",
+   "dcterms:title": "Why Do Lie-Catchers Fail? A Lens Model Meta-Analysis of Human Lie Judgments",
+   "schema:url": {
+    "@id": "https://assets.aclu.org/live/uploads/document/foia/2011-07-Psychological-Bulletin-Why-Do-Lie-Catchers-Fail.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/reading-lies-from-body-language/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Vrij, Granhag & Porter, Psychological Science in the Public Interest (2010), doi:10.1177/1529100610390861 (Association for Psychological Science summary)",
+   "dcterms:title": "Pitfalls and Opportunities in Nonverbal and Verbal Lie Detection",
+   "schema:url": {
+    "@id": "https://www.psychologicalscience.org/publications/journals/pspi/pitfalls-and-opportunities-in-nonverbal-and-verbal-lie-detection.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/reading-lies-from-body-language/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "The Global Deception Research Team, Journal of Cross-Cultural Psychology 37(1), 60-74 (2006), doi:10.1177/0022022105282295 (University of Portsmouth research portal)",
+   "dcterms:title": "A World of Lies",
+   "schema:url": {
+    "@id": "https://researchportal.port.ac.uk/en/publications/a-world-of-lies/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/reading-lies-from-body-language/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Vrij, Hartwig & Granhag, Annual Review of Psychology 70, 295-317 (2019), doi:10.1146/annurev-psych-010418-103135 (University of Portsmouth research portal)",
+   "dcterms:title": "Reading Lies: Nonverbal Communication and Deception",
+   "schema:url": {
+    "@id": "https://researchportal.port.ac.uk/en/publications/reading-lies-nonverbal-communication-and-deception/"
    }
   },
   {
