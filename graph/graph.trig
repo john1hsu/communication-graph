@@ -642,6 +642,14 @@
 <https://github.com/john1hsu/communication-graph/id/executive-summary#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/executive-summary/s3> .
 <https://github.com/john1hsu/communication-graph/id/executive-summary#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/executive-summary/s4> .
 <https://github.com/john1hsu/communication-graph/id/executive-summary#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/executive-summary/s5> .
+<https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> .
+<https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/executive-and-client-communication/expectation-disconfirmation-theory.md" .
+<https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/expectation-disconfirmation-theory/s1> .
+<https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/expectation-disconfirmation-theory/s2> .
+<https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/expectation-disconfirmation-theory/s3> .
+<https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/expectation-disconfirmation-theory/s4> .
+<https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/expectation-disconfirmation-theory/s5> .
 <https://github.com/john1hsu/communication-graph/id/managing-up#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/managing-up#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/managing-up> .
 <https://github.com/john1hsu/communication-graph/id/managing-up#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/executive-and-client-communication/managing-up.md" .
@@ -9184,6 +9192,74 @@
   <https://github.com/john1hsu/communication-graph/id/source/executive-summary/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
   <https://github.com/john1hsu/communication-graph/id/source/executive-summary/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
   <https://github.com/john1hsu/communication-graph/id/source/executive-summary/s5> <https://schema.org/url> <https://www.noslangues-ourlanguages.gc.ca/en/writing-tips-plus/clear-communication-overview-of-the-writing-process-and-techniques> .
+}
+
+<https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory#graph> {
+  <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> <http://purl.org/dc/terms/created> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Theory> .
+  <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> <http://www.w3.org/2000/01/rdf-schema#label> "Expectation-disconfirmation theory" .
+  <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> <http://www.w3.org/2004/02/skos/core#altLabel> "disconfirmation paradigm" .
+  <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> <http://www.w3.org/2004/02/skos/core#altLabel> "expectancy-disconfirmation model" .
+  <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> <http://www.w3.org/2004/02/skos/core#altLabel> "expectancy-disconfirmation theory" .
+  <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> <http://www.w3.org/2004/02/skos/core#altLabel> "expectation-confirmation theory" .
+  <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/client-communication> .
+  <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> <http://www.w3.org/2004/02/skos/core#definition> "The theory, formalised by Richard L. Oliver in 1980, that satisfaction depends on how perceived performance compares with what the person expected - better than expected (positive disconfirmation) pleases, worse than expected disappoints - so the expectations you set are part of how your work will be judged." .
+  <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/executive-and-client-communication> .
+  <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> <http://www.w3.org/2004/02/skos/core#prefLabel> "Expectation-disconfirmation theory" .
+  <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> .
+  <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/anderson-sullivan-1993> .
+  <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communicating-uncertainty> .
+  <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> .
+  <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/managing-up> .
+  <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/saying-no> .
+  <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/service-recovery> .
+  <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/status-reporting> .
+  <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/expectation-disconfirmation-theory/s1> .
+  <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/expectation-disconfirmation-theory/s2> .
+  <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/expectation-disconfirmation-theory/s3> .
+  <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/expectation-disconfirmation-theory/s4> .
+  <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/expectation-disconfirmation-theory/s5> .
+  <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/client-communication> .
+  <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/gneezy-epley-2014> .
+  <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/schiebler-lee-brodbeck-2025> .
+  <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/oliver-1980> .
+  <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> <https://github.com/john1hsu/communication-graph/ontology#domain> "executive-and-client-communication" .
+  <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+  <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/executive-and-client-communication/expectation-disconfirmation-theory.md" .
+  <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/richard-l-oliver> .
+  <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+  <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> <https://github.com/john1hsu/communication-graph/ontology#studiedIn> <https://github.com/john1hsu/communication-graph/id/services-marketing> .
+  <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/chen-et-al-2022> .
+  <https://github.com/john1hsu/communication-graph/id/source/expectation-disconfirmation-theory/s1> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/expectation-disconfirmation-theory/s1> <http://purl.org/dc/terms/publisher> "Richard L. Oliver, Journal of Marketing Research, 1980, doi:10.1177/002224378001700405 (CiteDrive record with abstract)" .
+  <https://github.com/john1hsu/communication-graph/id/source/expectation-disconfirmation-theory/s1> <http://purl.org/dc/terms/title> "A Cognitive Model of the Antecedents and Consequences of Satisfaction Decisions" .
+  <https://github.com/john1hsu/communication-graph/id/source/expectation-disconfirmation-theory/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/expectation-disconfirmation-theory/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/communication-graph/id/source/expectation-disconfirmation-theory/s1> <https://schema.org/url> <https://www.citedrive.com/en/discovery/a-cognitive-model-of-the-antecedents-and-consequences-of-satisfaction-decisions> .
+  <https://github.com/john1hsu/communication-graph/id/source/expectation-disconfirmation-theory/s2> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/expectation-disconfirmation-theory/s2> <http://purl.org/dc/terms/publisher> "T. Schiebler, N. Lee & F. C. Brodbeck, Journal of the Academy of Marketing Science, 2025, doi:10.1007/s11747-024-01078-x" .
+  <https://github.com/john1hsu/communication-graph/id/source/expectation-disconfirmation-theory/s2> <http://purl.org/dc/terms/title> "Expectancy-disconfirmation and consumer satisfaction: A meta-analysis" .
+  <https://github.com/john1hsu/communication-graph/id/source/expectation-disconfirmation-theory/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/expectation-disconfirmation-theory/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/expectation-disconfirmation-theory/s2> <https://schema.org/url> <https://link.springer.com/article/10.1007/s11747-024-01078-x> .
+  <https://github.com/john1hsu/communication-graph/id/source/expectation-disconfirmation-theory/s3> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/expectation-disconfirmation-theory/s3> <http://purl.org/dc/terms/publisher> "W. Chen, R. M. Walker et al., Public Administration 100(3), 778-791, 2022, doi:10.1111/padm.12860 (Universiti Malaya repository record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/expectation-disconfirmation-theory/s3> <http://purl.org/dc/terms/title> "A replication of 'An experimental test of the expectancy-disconfirmation theory of citizen satisfaction'" .
+  <https://github.com/john1hsu/communication-graph/id/source/expectation-disconfirmation-theory/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/expectation-disconfirmation-theory/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/expectation-disconfirmation-theory/s3> <https://schema.org/url> <https://eprints.um.edu.my/41456/> .
+  <https://github.com/john1hsu/communication-graph/id/source/expectation-disconfirmation-theory/s4> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/expectation-disconfirmation-theory/s4> <http://purl.org/dc/terms/publisher> "Ayelet Gneezy & Nicholas Epley, Social Psychological and Personality Science, 2014 (MetaTOC abstract record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/expectation-disconfirmation-theory/s4> <http://purl.org/dc/terms/title> "Worth Keeping but Not Exceeding: Asymmetric Consequences of Breaking Versus Exceeding Promises" .
+  <https://github.com/john1hsu/communication-graph/id/source/expectation-disconfirmation-theory/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/expectation-disconfirmation-theory/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/expectation-disconfirmation-theory/s4> <https://schema.org/url> <https://metatoc.com/papers/39760-worth-keeping-but-not-exceeding-asymmetric-consequences-of-breaking-versus-exceeding-promises> .
+  <https://github.com/john1hsu/communication-graph/id/source/expectation-disconfirmation-theory/s5> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/expectation-disconfirmation-theory/s5> <http://purl.org/dc/terms/publisher> "Chicago Booth Review, University of Chicago Booth School of Business (on Gneezy & Epley, 2014)" .
+  <https://github.com/john1hsu/communication-graph/id/source/expectation-disconfirmation-theory/s5> <http://purl.org/dc/terms/title> "Don't Bother Doing More Than You Promised" .
+  <https://github.com/john1hsu/communication-graph/id/source/expectation-disconfirmation-theory/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/expectation-disconfirmation-theory/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/communication-graph/id/source/expectation-disconfirmation-theory/s5> <https://schema.org/url> <https://www.chicagobooth.edu/review/dont-bother-doing-more-than-you-promised> .
 }
 
 <https://github.com/john1hsu/communication-graph/id/managing-up#graph> {
@@ -27455,6 +27531,7 @@
   <https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> .
   <https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/adam-galinsky> .
   <https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-bias> .
+  <https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> .
   <https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mythical-fixed-pie> .
   <https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/nicholas-epley> .
   <https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/primacy-and-recency-effects> .
@@ -27469,6 +27546,7 @@
   <https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/spotlight-effect> .
   <https://github.com/john1hsu/communication-graph/id/anderson-sullivan-1993> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/anderson-sullivan-1993> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
+  <https://github.com/john1hsu/communication-graph/id/anderson-sullivan-1993> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> .
   <https://github.com/john1hsu/communication-graph/id/anderson-sullivan-1993> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/client-communication> .
   <https://github.com/john1hsu/communication-graph/id/andre-delbecq> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/andre-delbecq> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
@@ -28189,6 +28267,7 @@
   <https://github.com/john1hsu/communication-graph/id/chen-2002> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/video-call-communication> .
   <https://github.com/john1hsu/communication-graph/id/chen-2002> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/camera-level-gaze> .
   <https://github.com/john1hsu/communication-graph/id/chen-et-al-2013> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/eye-contact> .
+  <https://github.com/john1hsu/communication-graph/id/chen-et-al-2022> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> .
   <https://github.com/john1hsu/communication-graph/id/chester-barnard> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
   <https://github.com/john1hsu/communication-graph/id/christenfeld-1995> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/christenfeld-1995> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
@@ -28255,9 +28334,12 @@
   <https://github.com/john1hsu/communication-graph/id/client-communication> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
   <https://github.com/john1hsu/communication-graph/id/client-communication> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
   <https://github.com/john1hsu/communication-graph/id/client-communication> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
+  <https://github.com/john1hsu/communication-graph/id/client-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> .
+  <https://github.com/john1hsu/communication-graph/id/client-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> .
   <https://github.com/john1hsu/communication-graph/id/client-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/david-maister> .
   <https://github.com/john1hsu/communication-graph/id/client-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/service-recovery> .
   <https://github.com/john1hsu/communication-graph/id/client-communication> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> .
+  <https://github.com/john1hsu/communication-graph/id/client-communication> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> .
   <https://github.com/john1hsu/communication-graph/id/client-communication> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/service-recovery> .
   <https://github.com/john1hsu/communication-graph/id/client-communication> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/trusted-advisor> .
   <https://github.com/john1hsu/communication-graph/id/client-communication> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/david-maister> .
@@ -28424,6 +28506,7 @@
   <https://github.com/john1hsu/communication-graph/id/communicating-uncertainty> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability> .
   <https://github.com/john1hsu/communication-graph/id/communicating-uncertainty> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/client-communication> .
   <https://github.com/john1hsu/communication-graph/id/communicating-uncertainty> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/executive-briefing> .
+  <https://github.com/john1hsu/communication-graph/id/communicating-uncertainty> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> .
   <https://github.com/john1hsu/communication-graph/id/communicating-uncertainty> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies> .
   <https://github.com/john1hsu/communication-graph/id/communicating-uncertainty> <https://github.com/john1hsu/communication-graph/ontology#developedBy> <https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies> .
   <https://github.com/john1hsu/communication-graph/id/communication-accommodation-theory> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/communicating-across-languages> .
@@ -28540,6 +28623,7 @@
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/ethnocentrism> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/executive-briefing> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/executive-presence> .
+  <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/eye-contact> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/face-and-facework> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/face-to-face-conversation> .
@@ -29053,6 +29137,7 @@
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> .
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/empathy-gap> .
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/escalation-communication> .
+  <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> .
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mea-culpa> .
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mum-effect> .
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
@@ -29685,7 +29770,14 @@
   <https://github.com/john1hsu/communication-graph/id/executive-summary> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability> .
   <https://github.com/john1hsu/communication-graph/id/executive-summary> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/informative-headings> .
   <https://github.com/john1hsu/communication-graph/id/expectancy-violations-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/proxemics> .
-  <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/service-recovery> .
+  <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+  <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/client-communication> .
+  <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
+  <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/humanities> .
+  <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
+  <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
+  <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/client-communication> .
   <https://github.com/john1hsu/communication-graph/id/exposure-therapy> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/systematic-desensitization> .
   <https://github.com/john1hsu/communication-graph/id/exposure-therapy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/systematic-desensitization> .
@@ -30130,6 +30222,7 @@
   <https://github.com/john1hsu/communication-graph/id/global-deception-research-team-2006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/global-deception-research-team-2006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/global-deception-research-team-2006> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> .
+  <https://github.com/john1hsu/communication-graph/id/gneezy-epley-2014> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> .
   <https://github.com/john1hsu/communication-graph/id/gnepp-et-al-2020> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/feedforward> .
   <https://github.com/john1hsu/communication-graph/id/goldstein-cialdini-griskevicius-2008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/goldstein-cialdini-griskevicius-2008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
@@ -30458,6 +30551,7 @@
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/ethnocentrism> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/executive-briefing> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/executive-presence> .
+  <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/eye-contact> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/face-and-facework> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/face-to-face-conversation> .
@@ -30966,6 +31060,7 @@
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/emotional-contagion> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/empathy> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/executive-presence> .
+  <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/eye-contact> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/face-and-facework> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/face-to-face-conversation> .
@@ -31495,6 +31590,7 @@
   <https://github.com/john1hsu/communication-graph/id/managing-up> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/employee-silence> .
   <https://github.com/john1hsu/communication-graph/id/managing-up> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/executive-briefing> .
   <https://github.com/john1hsu/communication-graph/id/managing-up> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/executive-presence> .
+  <https://github.com/john1hsu/communication-graph/id/managing-up> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> .
   <https://github.com/john1hsu/communication-graph/id/managing-up> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/humble-inquiry> .
   <https://github.com/john1hsu/communication-graph/id/managing-up> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/impression-management> .
   <https://github.com/john1hsu/communication-graph/id/managing-up> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mum-effect> .
@@ -32082,6 +32178,9 @@
   <https://github.com/john1hsu/communication-graph/id/okeefe-1999> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/refutational-two-sided-messages> .
   <https://github.com/john1hsu/communication-graph/id/okeefe-hoeken-2021> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/refutational-two-sided-messages> .
   <https://github.com/john1hsu/communication-graph/id/okeefe-hoeken-2021> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/persuasion> .
+  <https://github.com/john1hsu/communication-graph/id/oliver-1980> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/oliver-1980> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
+  <https://github.com/john1hsu/communication-graph/id/oliver-1980> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> .
   <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
@@ -32197,6 +32296,7 @@
   <https://github.com/john1hsu/communication-graph/id/organizational-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/employee-silence> .
   <https://github.com/john1hsu/communication-graph/id/organizational-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/escalation-communication> .
   <https://github.com/john1hsu/communication-graph/id/organizational-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/executive-briefing> .
+  <https://github.com/john1hsu/communication-graph/id/organizational-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> .
   <https://github.com/john1hsu/communication-graph/id/organizational-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/fm-6-0> .
   <https://github.com/john1hsu/communication-graph/id/organizational-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/hybrid-meetings> .
   <https://github.com/john1hsu/communication-graph/id/organizational-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/information-overload> .
@@ -33156,6 +33256,9 @@
   <https://github.com/john1hsu/communication-graph/id/richard-l-daft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/richard-l-daft> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/message-equivocality-media-selection-and-manager-performance> .
   <https://github.com/john1hsu/communication-graph/id/richard-l-daft> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/media-richness-theory> .
+  <https://github.com/john1hsu/communication-graph/id/richard-l-oliver> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/richard-l-oliver> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+  <https://github.com/john1hsu/communication-graph/id/richard-l-oliver> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> .
   <https://github.com/john1hsu/communication-graph/id/richard-lanham> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/richard-lanham> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/richard-lanham> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/paramedic-method> .
@@ -33297,6 +33400,7 @@
   <https://github.com/john1hsu/communication-graph/id/saying-no> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/saying-no> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/saying-no> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/assertive-communication> .
+  <https://github.com/john1hsu/communication-graph/id/saying-no> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> .
   <https://github.com/john1hsu/communication-graph/id/saying-no> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/upward-dissent> .
   <https://github.com/john1hsu/communication-graph/id/schaerer-loschelder-swaab-2016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/schaerer-loschelder-swaab-2016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
@@ -33316,6 +33420,7 @@
   <https://github.com/john1hsu/communication-graph/id/scheduled-inbox-checks> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/chat-etiquette> .
   <https://github.com/john1hsu/communication-graph/id/scheduled-inbox-checks> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/email-subject-lines> .
   <https://github.com/john1hsu/communication-graph/id/scheduled-inbox-checks> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/workplace-stress> .
+  <https://github.com/john1hsu/communication-graph/id/schiebler-lee-brodbeck-2025> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> .
   <https://github.com/john1hsu/communication-graph/id/schillinger-et-al-2003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/schillinger-et-al-2003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/schillinger-et-al-2003> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/teach-back> .
@@ -33440,6 +33545,9 @@
   <https://github.com/john1hsu/communication-graph/id/service-recovery> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-conflict> .
   <https://github.com/john1hsu/communication-graph/id/service-recovery> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/trust-repair> .
   <https://github.com/john1hsu/communication-graph/id/service-recovery> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> .
+  <https://github.com/john1hsu/communication-graph/id/services-marketing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+  <https://github.com/john1hsu/communication-graph/id/services-marketing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/services-marketing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Field> .
   <https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -33694,6 +33802,7 @@
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/ethnocentrism> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/executive-briefing> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/executive-presence> .
+  <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/eye-contact> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/face-and-facework> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/face-to-face-conversation> .
@@ -33937,6 +34046,7 @@
   <https://github.com/john1hsu/communication-graph/id/status-reporting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint> .
   <https://github.com/john1hsu/communication-graph/id/status-reporting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/escalation-communication> .
   <https://github.com/john1hsu/communication-graph/id/status-reporting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/executive-summary> .
+  <https://github.com/john1hsu/communication-graph/id/status-reporting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> .
   <https://github.com/john1hsu/communication-graph/id/status-reporting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/fm-6-0> .
   <https://github.com/john1hsu/communication-graph/id/status-reporting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mccallum-erie-railroad-report> .
   <https://github.com/john1hsu/communication-graph/id/status-reporting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/meeting-recaps> .

@@ -9398,6 +9398,113 @@
   ]
  },
  {
+  "id": "cm:expectation-disconfirmation-theory",
+  "title": "Expectation-disconfirmation theory",
+  "aliases": [
+   "expectancy-disconfirmation theory",
+   "expectancy-disconfirmation model",
+   "expectation-confirmation theory",
+   "disconfirmation paradigm"
+  ],
+  "type": "Theory",
+  "domain": "executive-and-client-communication",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/executive-and-client-communication/expectation-disconfirmation-theory.md",
+  "created": "2026-11-14",
+  "summary": "The theory, formalised by Richard L. Oliver in 1980, that satisfaction depends on how perceived performance compares with what the person expected - better than expected (positive disconfirmation) pleases, worse than expected disappoints - so the expectations you set are part of how your work will be judged.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:client-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:service-recovery"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:status-reporting"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:delivering-bad-news"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:communicating-uncertainty"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:managing-up"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:saying-no"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:anderson-sullivan-1993"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:anchoring-and-adjustment"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:richard-l-oliver",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:oliver-1980",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:chen-et-al-2022",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:schiebler-lee-brodbeck-2025",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:gneezy-epley-2014",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:studiedIn",
+    "object": "cm:services-marketing",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:client-communication",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://www.citedrive.com/en/discovery/a-cognitive-model-of-the-antecedents-and-consequences-of-satisfaction-decisions",
+   "https://link.springer.com/article/10.1007/s11747-024-01078-x",
+   "https://eprints.um.edu.my/41456/",
+   "https://metatoc.com/papers/39760-worth-keeping-but-not-exceeding-asymmetric-consequences-of-breaking-versus-exceeding-promises",
+   "https://www.chicagobooth.edu/review/dont-bother-doing-more-than-you-promised"
+  ]
+ },
+ {
   "id": "cm:eye-contact",
   "title": "Gaze and eye contact",
   "aliases": [

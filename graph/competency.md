@@ -75,6 +75,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:business-report` | `cm:pyramid-principle` |
 | `cm:business-report` | `cm:scqa-framework` |
 | `cm:client-communication` | `cm:cognitive-reappraisal` |
+| `cm:client-communication` | `cm:expectation-disconfirmation-theory` |
 | `cm:client-communication` | `cm:service-recovery` |
 | `cm:client-communication` | `cm:trusted-advisor` |
 | `cm:communication-plan` | `cm:raci-matrix` |
@@ -96,9 +97,8 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:difficult-conversation` | `cm:paraphrasing` |
 | `cm:difficult-conversation` | `cm:perception-checking` |
 | `cm:difficult-conversation` | `cm:role-reversal` |
-| `cm:difficult-conversation` | `cm:thomas-kilmann-conflict-modes` |
 
-…and 140 more.
+…and 141 more.
 
 ## Myths and contested advice
 
@@ -137,7 +137,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:acoustic-speech-analysis-coaching` | mixed |  |
 | `cm:active-listening` | mixed |  |
 
-…and 173 more.
+…and 175 more.
 
 ## Concepts with no recorded origin (gap)
 

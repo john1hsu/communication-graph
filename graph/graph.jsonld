@@ -8269,6 +8269,99 @@
    ]
   },
   {
+   "@id": "cm:expectation-disconfirmation-theory",
+   "@type": "cmo:Theory",
+   "cmo:appliedIn": {
+    "@id": "cm:client-communication"
+   },
+   "cmo:challengedBy": [
+    {
+     "@id": "cm:gneezy-epley-2014"
+    },
+    {
+     "@id": "cm:schiebler-lee-brodbeck-2025"
+    }
+   ],
+   "cmo:demonstratedBy": {
+    "@id": "cm:oliver-1980"
+   },
+   "cmo:domain": "executive-and-client-communication",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:file": "articles/executive-and-client-communication/expectation-disconfirmation-theory.md",
+   "cmo:introducedBy": {
+    "@id": "cm:richard-l-oliver"
+   },
+   "cmo:level": "intermediate",
+   "cmo:studiedIn": {
+    "@id": "cm:services-marketing"
+   },
+   "cmo:supportedBy": {
+    "@id": "cm:chen-et-al-2022"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/expectation-disconfirmation-theory/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/expectation-disconfirmation-theory/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/expectation-disconfirmation-theory/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/expectation-disconfirmation-theory/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/expectation-disconfirmation-theory/s5"
+    }
+   ],
+   "rdfs:label": "Expectation-disconfirmation theory",
+   "skos:altLabel": [
+    "disconfirmation paradigm",
+    "expectancy-disconfirmation model",
+    "expectancy-disconfirmation theory",
+    "expectation-confirmation theory"
+   ],
+   "skos:broader": {
+    "@id": "cm:client-communication"
+   },
+   "skos:definition": "The theory, formalised by Richard L. Oliver in 1980, that satisfaction depends on how perceived performance compares with what the person expected - better than expected (positive disconfirmation) pleases, worse than expected disappoints - so the expectations you set are part of how your work will be judged.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/executive-and-client-communication"
+   },
+   "skos:prefLabel": "Expectation-disconfirmation theory",
+   "skos:related": [
+    {
+     "@id": "cm:anchoring-and-adjustment"
+    },
+    {
+     "@id": "cm:anderson-sullivan-1993"
+    },
+    {
+     "@id": "cm:communicating-uncertainty"
+    },
+    {
+     "@id": "cm:delivering-bad-news"
+    },
+    {
+     "@id": "cm:managing-up"
+    },
+    {
+     "@id": "cm:saying-no"
+    },
+    {
+     "@id": "cm:service-recovery"
+    },
+    {
+     "@id": "cm:status-reporting"
+    }
+   ]
+  },
+  {
    "@id": "cm:eye-contact",
    "@type": "cmo:Skill",
    "cmo:appliedIn": {
@@ -43694,6 +43787,76 @@
    "dcterms:title": "Clear communication: overview of the writing process and techniques",
    "schema:url": {
     "@id": "https://www.noslangues-ourlanguages.gc.ca/en/writing-tips-plus/clear-communication-overview-of-the-writing-process-and-techniques"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/expectation-disconfirmation-theory/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Richard L. Oliver, Journal of Marketing Research, 1980, doi:10.1177/002224378001700405 (CiteDrive record with abstract)",
+   "dcterms:title": "A Cognitive Model of the Antecedents and Consequences of Satisfaction Decisions",
+   "schema:url": {
+    "@id": "https://www.citedrive.com/en/discovery/a-cognitive-model-of-the-antecedents-and-consequences-of-satisfaction-decisions"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/expectation-disconfirmation-theory/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "T. Schiebler, N. Lee & F. C. Brodbeck, Journal of the Academy of Marketing Science, 2025, doi:10.1007/s11747-024-01078-x",
+   "dcterms:title": "Expectancy-disconfirmation and consumer satisfaction: A meta-analysis",
+   "schema:url": {
+    "@id": "https://link.springer.com/article/10.1007/s11747-024-01078-x"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/expectation-disconfirmation-theory/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "W. Chen, R. M. Walker et al., Public Administration 100(3), 778-791, 2022, doi:10.1111/padm.12860 (Universiti Malaya repository record)",
+   "dcterms:title": "A replication of 'An experimental test of the expectancy-disconfirmation theory of citizen satisfaction'",
+   "schema:url": {
+    "@id": "https://eprints.um.edu.my/41456/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/expectation-disconfirmation-theory/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Ayelet Gneezy & Nicholas Epley, Social Psychological and Personality Science, 2014 (MetaTOC abstract record)",
+   "dcterms:title": "Worth Keeping but Not Exceeding: Asymmetric Consequences of Breaking Versus Exceeding Promises",
+   "schema:url": {
+    "@id": "https://metatoc.com/papers/39760-worth-keeping-but-not-exceeding-asymmetric-consequences-of-breaking-versus-exceeding-promises"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/expectation-disconfirmation-theory/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Chicago Booth Review, University of Chicago Booth School of Business (on Gneezy & Epley, 2014)",
+   "dcterms:title": "Don't Bother Doing More Than You Promised",
+   "schema:url": {
+    "@id": "https://www.chicagobooth.edu/review/dont-bother-doing-more-than-you-promised"
    }
   },
   {
