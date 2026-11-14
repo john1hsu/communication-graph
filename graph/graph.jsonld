@@ -1532,6 +1532,83 @@
    ]
   },
   {
+   "@id": "cm:blowing-the-whistle-on-troubled-software-projects",
+   "@type": "cmo:Work",
+   "cmo:appliedIn": {
+    "@id": "cm:status-reporting"
+   },
+   "cmo:authoredBy": [
+    {
+     "@id": "cm:daniel-robey"
+    },
+    {
+     "@id": "cm:mark-keil"
+    }
+   ],
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "historical",
+   "cmo:file": "articles/thinkers-and-works/blowing-the-whistle-on-troubled-software-projects.md",
+   "cmo:influencedBy": {
+    "@id": "cm:mum-effect"
+   },
+   "cmo:introduces": {
+    "@id": "cm:deaf-effect"
+   },
+   "cmo:level": "intermediate",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/blowing-the-whistle-on-troubled-software-projects/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/blowing-the-whistle-on-troubled-software-projects/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/blowing-the-whistle-on-troubled-software-projects/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/blowing-the-whistle-on-troubled-software-projects/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/blowing-the-whistle-on-troubled-software-projects/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/blowing-the-whistle-on-troubled-software-projects/s6"
+    }
+   ],
+   "rdfs:label": "Blowing the Whistle on Troubled Software Projects",
+   "skos:altLabel": [
+    "Blowing the whistle on troubled software projects (CACM)",
+    "Keil & Robey (2001)",
+    "Keil and Robey 2001"
+   ],
+   "skos:broader": {
+    "@id": "cm:upward-communication"
+   },
+   "skos:definition": "Mark Keil and Daniel Robey's 2001 Communications of the ACM article, based on interviews with IS auditors, which explained why bad news about failing software projects often goes unreported (the mum effect) or unheard (a reluctance it named the deaf effect), and what senior executives and IS professionals can do about each.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "Blowing the Whistle on Troubled Software Projects",
+   "skos:related": [
+    {
+     "@id": "cm:delivering-bad-news"
+    },
+    {
+     "@id": "cm:employee-silence"
+    },
+    {
+     "@id": "cm:escalation-communication"
+    },
+    {
+     "@id": "cm:psychological-safety"
+    }
+   ]
+  },
+  {
    "@id": "cm:bottom-line-up-front",
    "@type": "cmo:Technique",
    "cmo:addresses": {
@@ -37690,6 +37767,90 @@
    "dcterms:title": "News Writing for Print (WC191)",
    "schema:url": {
     "@id": "https://ask.ifas.ufl.edu/publication/WC191"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/blowing-the-whistle-on-troubled-software-projects/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "practitioner-journal",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Keil, M. & Robey, D., Communications of the ACM 44(4), April 2001 (ACM article page)",
+   "dcterms:title": "Blowing the Whistle on Troubled Software Projects",
+   "schema:url": {
+    "@id": "https://cacm.acm.org/?p=5358"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/blowing-the-whistle-on-troubled-software-projects/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Keil, M. & Robey, D., Journal of Management Information Systems 15(4), 63-87, 1999 (JMIS article page)",
+   "dcterms:title": "Turning around troubled software projects: An exploratory study of the deescalation of commitment to failing courses of action",
+   "schema:url": {
+    "@id": "https://jmis-web.org/articles/531"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/blowing-the-whistle-on-troubled-software-projects/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Cuellar, M. J., AMCIS 2007 Proceedings, Paper 398 (author copy via CORE)",
+   "dcterms:title": "A Study of the Nature of the Deaf Effect Response to Bad News Reporting",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/301340306.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/blowing-the-whistle-on-troubled-software-projects/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "J. Mack Robinson College of Business, Georgia State University",
+   "dcterms:title": "Mark Keil - faculty profile",
+   "schema:url": {
+    "@id": "https://robinson.gsu.edu/profile/mark-keil"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/blowing-the-whistle-on-troubled-software-projects/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Keil, M., manuscript submitted to IS Audit and Control Journal, Georgia State University, May 1998 (copy hosted by Middlesex University)",
+   "dcterms:title": "Blowing the Whistle: How IS Auditors Can Turnaround Troubled Software Projects - And Why They Sometimes Don't!",
+   "schema:url": {
+    "@id": "https://www.eis.mdx.ac.uk/research/SFC/Papers/BlowingWhistle.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/blowing-the-whistle-on-troubled-software-projects/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "community",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "researchr.org bibliography",
+   "dcterms:title": "Blowing the whistle on troubled software projects (bibliographic record)",
+   "schema:url": {
+    "@id": "https://researchr.org/publication/KeilR01"
    }
   },
   {

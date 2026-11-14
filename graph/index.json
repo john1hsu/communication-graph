@@ -1716,6 +1716,85 @@
   ]
  },
  {
+  "id": "cm:blowing-the-whistle-on-troubled-software-projects",
+  "title": "Blowing the Whistle on Troubled Software Projects",
+  "aliases": [
+   "Keil and Robey 2001",
+   "Keil & Robey (2001)",
+   "Blowing the whistle on troubled software projects (CACM)"
+  ],
+  "type": "Work",
+  "domain": "thinkers-and-works",
+  "level": "intermediate",
+  "evidenceStatus": "historical",
+  "file": "articles/thinkers-and-works/blowing-the-whistle-on-troubled-software-projects.md",
+  "created": "2026-11-14",
+  "summary": "Mark Keil and Daniel Robey's 2001 Communications of the ACM article, based on interviews with IS auditors, which explained why bad news about failing software projects often goes unreported (the mum effect) or unheard (a reluctance it named the deaf effect), and what senior executives and IS professionals can do about each.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:upward-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:employee-silence"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:escalation-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:delivering-bad-news"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:psychological-safety"
+   },
+   {
+    "predicate": "cmo:authoredBy",
+    "object": "cm:mark-keil",
+    "source": "s6",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:authoredBy",
+    "object": "cm:daniel-robey",
+    "source": "s6",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introduces",
+    "object": "cm:deaf-effect",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:influencedBy",
+    "object": "cm:mum-effect",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:status-reporting",
+    "source": "s1",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://cacm.acm.org/?p=5358",
+   "https://jmis-web.org/articles/531",
+   "https://core.ac.uk/download/301340306.pdf",
+   "https://robinson.gsu.edu/profile/mark-keil",
+   "https://www.eis.mdx.ac.uk/research/SFC/Papers/BlowingWhistle.pdf",
+   "https://researchr.org/publication/KeilR01"
+  ]
+ },
+ {
   "id": "cm:bottom-line-up-front",
   "title": "Bottom line up front",
   "aliases": [

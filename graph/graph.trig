@@ -1863,6 +1863,15 @@
 <https://github.com/john1hsu/communication-graph/id/bleyer-newspaper-writing-and-editing#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/bleyer-newspaper-writing-and-editing/s4> .
 <https://github.com/john1hsu/communication-graph/id/bleyer-newspaper-writing-and-editing#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/bleyer-newspaper-writing-and-editing/s5> .
 <https://github.com/john1hsu/communication-graph/id/bleyer-newspaper-writing-and-editing#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/bleyer-newspaper-writing-and-editing/s6> .
+<https://github.com/john1hsu/communication-graph/id/blowing-the-whistle-on-troubled-software-projects#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/blowing-the-whistle-on-troubled-software-projects#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/blowing-the-whistle-on-troubled-software-projects> .
+<https://github.com/john1hsu/communication-graph/id/blowing-the-whistle-on-troubled-software-projects#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/thinkers-and-works/blowing-the-whistle-on-troubled-software-projects.md" .
+<https://github.com/john1hsu/communication-graph/id/blowing-the-whistle-on-troubled-software-projects#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/blowing-the-whistle-on-troubled-software-projects/s1> .
+<https://github.com/john1hsu/communication-graph/id/blowing-the-whistle-on-troubled-software-projects#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/blowing-the-whistle-on-troubled-software-projects/s2> .
+<https://github.com/john1hsu/communication-graph/id/blowing-the-whistle-on-troubled-software-projects#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/blowing-the-whistle-on-troubled-software-projects/s3> .
+<https://github.com/john1hsu/communication-graph/id/blowing-the-whistle-on-troubled-software-projects#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/blowing-the-whistle-on-troubled-software-projects/s4> .
+<https://github.com/john1hsu/communication-graph/id/blowing-the-whistle-on-troubled-software-projects#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/blowing-the-whistle-on-troubled-software-projects/s5> .
+<https://github.com/john1hsu/communication-graph/id/blowing-the-whistle-on-troubled-software-projects#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/blowing-the-whistle-on-troubled-software-projects/s6> .
 <https://github.com/john1hsu/communication-graph/id/carl-hovland#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/carl-hovland#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/carl-hovland> .
 <https://github.com/john1hsu/communication-graph/id/carl-hovland#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/thinkers-and-works/carl-hovland.md" .
@@ -22738,6 +22747,74 @@
   <https://github.com/john1hsu/communication-graph/id/source/bleyer-newspaper-writing-and-editing/s6> <https://schema.org/url> <https://ask.ifas.ufl.edu/publication/WC191> .
 }
 
+<https://github.com/john1hsu/communication-graph/id/blowing-the-whistle-on-troubled-software-projects#graph> {
+  <https://github.com/john1hsu/communication-graph/id/blowing-the-whistle-on-troubled-software-projects> <http://purl.org/dc/terms/created> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/blowing-the-whistle-on-troubled-software-projects> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
+  <https://github.com/john1hsu/communication-graph/id/blowing-the-whistle-on-troubled-software-projects> <http://www.w3.org/2000/01/rdf-schema#label> "Blowing the Whistle on Troubled Software Projects" .
+  <https://github.com/john1hsu/communication-graph/id/blowing-the-whistle-on-troubled-software-projects> <http://www.w3.org/2004/02/skos/core#altLabel> "Blowing the whistle on troubled software projects (CACM)" .
+  <https://github.com/john1hsu/communication-graph/id/blowing-the-whistle-on-troubled-software-projects> <http://www.w3.org/2004/02/skos/core#altLabel> "Keil & Robey (2001)" .
+  <https://github.com/john1hsu/communication-graph/id/blowing-the-whistle-on-troubled-software-projects> <http://www.w3.org/2004/02/skos/core#altLabel> "Keil and Robey 2001" .
+  <https://github.com/john1hsu/communication-graph/id/blowing-the-whistle-on-troubled-software-projects> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/upward-communication> .
+  <https://github.com/john1hsu/communication-graph/id/blowing-the-whistle-on-troubled-software-projects> <http://www.w3.org/2004/02/skos/core#definition> "Mark Keil and Daniel Robey's 2001 Communications of the ACM article, based on interviews with IS auditors, which explained why bad news about failing software projects often goes unreported (the mum effect) or unheard (a reluctance it named the deaf effect), and what senior executives and IS professionals can do about each." .
+  <https://github.com/john1hsu/communication-graph/id/blowing-the-whistle-on-troubled-software-projects> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works> .
+  <https://github.com/john1hsu/communication-graph/id/blowing-the-whistle-on-troubled-software-projects> <http://www.w3.org/2004/02/skos/core#prefLabel> "Blowing the Whistle on Troubled Software Projects" .
+  <https://github.com/john1hsu/communication-graph/id/blowing-the-whistle-on-troubled-software-projects> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> .
+  <https://github.com/john1hsu/communication-graph/id/blowing-the-whistle-on-troubled-software-projects> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/employee-silence> .
+  <https://github.com/john1hsu/communication-graph/id/blowing-the-whistle-on-troubled-software-projects> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/escalation-communication> .
+  <https://github.com/john1hsu/communication-graph/id/blowing-the-whistle-on-troubled-software-projects> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
+  <https://github.com/john1hsu/communication-graph/id/blowing-the-whistle-on-troubled-software-projects> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/blowing-the-whistle-on-troubled-software-projects/s1> .
+  <https://github.com/john1hsu/communication-graph/id/blowing-the-whistle-on-troubled-software-projects> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/blowing-the-whistle-on-troubled-software-projects/s2> .
+  <https://github.com/john1hsu/communication-graph/id/blowing-the-whistle-on-troubled-software-projects> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/blowing-the-whistle-on-troubled-software-projects/s3> .
+  <https://github.com/john1hsu/communication-graph/id/blowing-the-whistle-on-troubled-software-projects> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/blowing-the-whistle-on-troubled-software-projects/s4> .
+  <https://github.com/john1hsu/communication-graph/id/blowing-the-whistle-on-troubled-software-projects> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/blowing-the-whistle-on-troubled-software-projects/s5> .
+  <https://github.com/john1hsu/communication-graph/id/blowing-the-whistle-on-troubled-software-projects> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/blowing-the-whistle-on-troubled-software-projects/s6> .
+  <https://github.com/john1hsu/communication-graph/id/blowing-the-whistle-on-troubled-software-projects> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/status-reporting> .
+  <https://github.com/john1hsu/communication-graph/id/blowing-the-whistle-on-troubled-software-projects> <https://github.com/john1hsu/communication-graph/ontology#authoredBy> <https://github.com/john1hsu/communication-graph/id/daniel-robey> .
+  <https://github.com/john1hsu/communication-graph/id/blowing-the-whistle-on-troubled-software-projects> <https://github.com/john1hsu/communication-graph/ontology#authoredBy> <https://github.com/john1hsu/communication-graph/id/mark-keil> .
+  <https://github.com/john1hsu/communication-graph/id/blowing-the-whistle-on-troubled-software-projects> <https://github.com/john1hsu/communication-graph/ontology#domain> "thinkers-and-works" .
+  <https://github.com/john1hsu/communication-graph/id/blowing-the-whistle-on-troubled-software-projects> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "historical" .
+  <https://github.com/john1hsu/communication-graph/id/blowing-the-whistle-on-troubled-software-projects> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/thinkers-and-works/blowing-the-whistle-on-troubled-software-projects.md" .
+  <https://github.com/john1hsu/communication-graph/id/blowing-the-whistle-on-troubled-software-projects> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/mum-effect> .
+  <https://github.com/john1hsu/communication-graph/id/blowing-the-whistle-on-troubled-software-projects> <https://github.com/john1hsu/communication-graph/ontology#introduces> <https://github.com/john1hsu/communication-graph/id/deaf-effect> .
+  <https://github.com/john1hsu/communication-graph/id/blowing-the-whistle-on-troubled-software-projects> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+  <https://github.com/john1hsu/communication-graph/id/source/blowing-the-whistle-on-troubled-software-projects/s1> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/blowing-the-whistle-on-troubled-software-projects/s1> <http://purl.org/dc/terms/publisher> "Keil, M. & Robey, D., Communications of the ACM 44(4), April 2001 (ACM article page)" .
+  <https://github.com/john1hsu/communication-graph/id/source/blowing-the-whistle-on-troubled-software-projects/s1> <http://purl.org/dc/terms/title> "Blowing the Whistle on Troubled Software Projects" .
+  <https://github.com/john1hsu/communication-graph/id/source/blowing-the-whistle-on-troubled-software-projects/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/blowing-the-whistle-on-troubled-software-projects/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "practitioner-journal" .
+  <https://github.com/john1hsu/communication-graph/id/source/blowing-the-whistle-on-troubled-software-projects/s1> <https://schema.org/url> <https://cacm.acm.org/?p=5358> .
+  <https://github.com/john1hsu/communication-graph/id/source/blowing-the-whistle-on-troubled-software-projects/s2> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/blowing-the-whistle-on-troubled-software-projects/s2> <http://purl.org/dc/terms/publisher> "Keil, M. & Robey, D., Journal of Management Information Systems 15(4), 63-87, 1999 (JMIS article page)" .
+  <https://github.com/john1hsu/communication-graph/id/source/blowing-the-whistle-on-troubled-software-projects/s2> <http://purl.org/dc/terms/title> "Turning around troubled software projects: An exploratory study of the deescalation of commitment to failing courses of action" .
+  <https://github.com/john1hsu/communication-graph/id/source/blowing-the-whistle-on-troubled-software-projects/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/blowing-the-whistle-on-troubled-software-projects/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/blowing-the-whistle-on-troubled-software-projects/s2> <https://schema.org/url> <https://jmis-web.org/articles/531> .
+  <https://github.com/john1hsu/communication-graph/id/source/blowing-the-whistle-on-troubled-software-projects/s3> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/blowing-the-whistle-on-troubled-software-projects/s3> <http://purl.org/dc/terms/publisher> "Cuellar, M. J., AMCIS 2007 Proceedings, Paper 398 (author copy via CORE)" .
+  <https://github.com/john1hsu/communication-graph/id/source/blowing-the-whistle-on-troubled-software-projects/s3> <http://purl.org/dc/terms/title> "A Study of the Nature of the Deaf Effect Response to Bad News Reporting" .
+  <https://github.com/john1hsu/communication-graph/id/source/blowing-the-whistle-on-troubled-software-projects/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/blowing-the-whistle-on-troubled-software-projects/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/blowing-the-whistle-on-troubled-software-projects/s3> <https://schema.org/url> <https://core.ac.uk/download/301340306.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/blowing-the-whistle-on-troubled-software-projects/s4> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/blowing-the-whistle-on-troubled-software-projects/s4> <http://purl.org/dc/terms/publisher> "J. Mack Robinson College of Business, Georgia State University" .
+  <https://github.com/john1hsu/communication-graph/id/source/blowing-the-whistle-on-troubled-software-projects/s4> <http://purl.org/dc/terms/title> "Mark Keil - faculty profile" .
+  <https://github.com/john1hsu/communication-graph/id/source/blowing-the-whistle-on-troubled-software-projects/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/blowing-the-whistle-on-troubled-software-projects/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/communication-graph/id/source/blowing-the-whistle-on-troubled-software-projects/s4> <https://schema.org/url> <https://robinson.gsu.edu/profile/mark-keil> .
+  <https://github.com/john1hsu/communication-graph/id/source/blowing-the-whistle-on-troubled-software-projects/s5> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/blowing-the-whistle-on-troubled-software-projects/s5> <http://purl.org/dc/terms/publisher> "Keil, M., manuscript submitted to IS Audit and Control Journal, Georgia State University, May 1998 (copy hosted by Middlesex University)" .
+  <https://github.com/john1hsu/communication-graph/id/source/blowing-the-whistle-on-troubled-software-projects/s5> <http://purl.org/dc/terms/title> "Blowing the Whistle: How IS Auditors Can Turnaround Troubled Software Projects - And Why They Sometimes Don't!" .
+  <https://github.com/john1hsu/communication-graph/id/source/blowing-the-whistle-on-troubled-software-projects/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/blowing-the-whistle-on-troubled-software-projects/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/communication-graph/id/source/blowing-the-whistle-on-troubled-software-projects/s5> <https://schema.org/url> <https://www.eis.mdx.ac.uk/research/SFC/Papers/BlowingWhistle.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/blowing-the-whistle-on-troubled-software-projects/s6> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/blowing-the-whistle-on-troubled-software-projects/s6> <http://purl.org/dc/terms/publisher> "researchr.org bibliography" .
+  <https://github.com/john1hsu/communication-graph/id/source/blowing-the-whistle-on-troubled-software-projects/s6> <http://purl.org/dc/terms/title> "Blowing the whistle on troubled software projects (bibliographic record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/blowing-the-whistle-on-troubled-software-projects/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/blowing-the-whistle-on-troubled-software-projects/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "community" .
+  <https://github.com/john1hsu/communication-graph/id/source/blowing-the-whistle-on-troubled-software-projects/s6> <https://schema.org/url> <https://researchr.org/publication/KeilR01> .
+}
+
 <https://github.com/john1hsu/communication-graph/id/carl-hovland#graph> {
   <https://github.com/john1hsu/communication-graph/id/carl-hovland> <http://purl.org/dc/terms/created> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
   <https://github.com/john1hsu/communication-graph/id/carl-hovland> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
@@ -27627,6 +27704,8 @@
   <https://github.com/john1hsu/communication-graph/id/binetti-et-al-2016> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/eye-contact> .
   <https://github.com/john1hsu/communication-graph/id/bleyer-newspaper-writing-and-editing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/bloom-2017> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/empathy> .
+  <https://github.com/john1hsu/communication-graph/id/blowing-the-whistle-on-troubled-software-projects> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/blowing-the-whistle-on-troubled-software-projects> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/upward-communication> .
   <https://github.com/john1hsu/communication-graph/id/blunden-et-al-2025> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/receiving-feedback> .
   <https://github.com/john1hsu/communication-graph/id/bodie-et-al-2013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/bodie-et-al-2013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
@@ -28757,6 +28836,9 @@
   <https://github.com/john1hsu/communication-graph/id/daniel-mccallum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/daniel-mccallum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/daniel-mccallum> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/mccallum-erie-railroad-report> .
+  <https://github.com/john1hsu/communication-graph/id/daniel-robey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/daniel-robey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+  <https://github.com/john1hsu/communication-graph/id/daniel-robey> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/blowing-the-whistle-on-troubled-software-projects> .
   <https://github.com/john1hsu/communication-graph/id/dare-decision-roles> <https://github.com/john1hsu/communication-graph/ontology#alternativeTo> <https://github.com/john1hsu/communication-graph/id/raci-matrix> .
   <https://github.com/john1hsu/communication-graph/id/dargue-sweller-jones-2019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/dargue-sweller-jones-2019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
@@ -28800,6 +28882,7 @@
   <https://github.com/john1hsu/communication-graph/id/deaf-effect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/deaf-effect> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/upward-communication> .
   <https://github.com/john1hsu/communication-graph/id/deaf-effect> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/premortem> .
+  <https://github.com/john1hsu/communication-graph/id/deaf-effect> <https://github.com/john1hsu/communication-graph/ontology#introducedIn> <https://github.com/john1hsu/communication-graph/id/blowing-the-whistle-on-troubled-software-projects> .
   <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -28852,6 +28935,7 @@
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/difficult-conversation> .
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-conflict> .
+  <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/blowing-the-whistle-on-troubled-software-projects> .
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/burying-the-lede> .
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/client-communication> .
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/david-maister> .
@@ -29369,6 +29453,7 @@
   <https://github.com/john1hsu/communication-graph/id/employee-silence> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/employee-silence> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/mum-effect> .
   <https://github.com/john1hsu/communication-graph/id/employee-silence> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/mum-effect> .
+  <https://github.com/john1hsu/communication-graph/id/employee-silence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/blowing-the-whistle-on-troubled-software-projects> .
   <https://github.com/john1hsu/communication-graph/id/employee-silence> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/escalation-communication> .
   <https://github.com/john1hsu/communication-graph/id/employee-silence> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/graded-assertiveness> .
   <https://github.com/john1hsu/communication-graph/id/employee-silence> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/premortem> .
@@ -29403,6 +29488,7 @@
   <https://github.com/john1hsu/communication-graph/id/escalation-communication> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/managing-up> .
   <https://github.com/john1hsu/communication-graph/id/escalation-communication> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
   <https://github.com/john1hsu/communication-graph/id/escalation-communication> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
+  <https://github.com/john1hsu/communication-graph/id/escalation-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/blowing-the-whistle-on-troubled-software-projects> .
   <https://github.com/john1hsu/communication-graph/id/escalation-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/client-communication> .
   <https://github.com/john1hsu/communication-graph/id/escalation-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/employee-silence> .
   <https://github.com/john1hsu/communication-graph/id/escalation-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/graded-assertiveness> .
@@ -31322,6 +31408,9 @@
   <https://github.com/john1hsu/communication-graph/id/mark-gudith-klocke-2008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/mark-gudith-klocke-2008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/mark-gudith-klocke-2008> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/workplace-stress> .
+  <https://github.com/john1hsu/communication-graph/id/mark-keil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/mark-keil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+  <https://github.com/john1hsu/communication-graph/id/mark-keil> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/blowing-the-whistle-on-troubled-software-projects> .
   <https://github.com/john1hsu/communication-graph/id/marshall-goldsmith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/marshall-goldsmith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/marshall-goldsmith> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/feedforward> .
@@ -31646,6 +31735,7 @@
   <https://github.com/john1hsu/communication-graph/id/mum-effect> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/escalation-communication> .
   <https://github.com/john1hsu/communication-graph/id/mum-effect> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> .
   <https://github.com/john1hsu/communication-graph/id/mum-effect> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/status-reporting> .
+  <https://github.com/john1hsu/communication-graph/id/mum-effect> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/blowing-the-whistle-on-troubled-software-projects> .
   <https://github.com/john1hsu/communication-graph/id/murray-turoff> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/murray-turoff> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/instant-messaging> .
   <https://github.com/john1hsu/communication-graph/id/mythical-fixed-pie/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -32571,6 +32661,7 @@
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/team-climate> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/1-2-4-all> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+  <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/blowing-the-whistle-on-troubled-software-projects> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/brainstorming> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/coaching> .
@@ -33714,6 +33805,7 @@
   <https://github.com/john1hsu/communication-graph/id/status-reporting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
   <https://github.com/john1hsu/communication-graph/id/status-reporting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/premortem> .
   <https://github.com/john1hsu/communication-graph/id/status-reporting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/service-recovery> .
+  <https://github.com/john1hsu/communication-graph/id/status-reporting> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/blowing-the-whistle-on-troubled-software-projects> .
   <https://github.com/john1hsu/communication-graph/id/status-reporting> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/escalation-communication> .
   <https://github.com/john1hsu/communication-graph/id/status-reporting> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/managing-up> .
   <https://github.com/john1hsu/communication-graph/id/status-reporting> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/client-communication> .
@@ -34036,7 +34128,9 @@
   <https://github.com/john1hsu/communication-graph/id/unequal-participation> <https://github.com/john1hsu/communication-graph/ontology#causedBy> <https://github.com/john1hsu/communication-graph/id/communication-apprehension> .
   <https://github.com/john1hsu/communication-graph/id/unequal-participation> <https://github.com/john1hsu/communication-graph/ontology#causedBy> <https://github.com/john1hsu/communication-graph/id/hybrid-meetings> .
   <https://github.com/john1hsu/communication-graph/id/unnecessary-meetings> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/meeting-agendas> .
+  <https://github.com/john1hsu/communication-graph/id/upward-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/blowing-the-whistle-on-troubled-software-projects> .
   <https://github.com/john1hsu/communication-graph/id/upward-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/deaf-effect> .
+  <https://github.com/john1hsu/communication-graph/id/upward-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/blowing-the-whistle-on-troubled-software-projects> .
   <https://github.com/john1hsu/communication-graph/id/upward-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/deaf-effect> .
   <https://github.com/john1hsu/communication-graph/id/upward-communication> <https://github.com/john1hsu/communication-graph/ontology#introducedIn> <https://github.com/john1hsu/communication-graph/id/mccallum-erie-railroad-report> .
   <https://github.com/john1hsu/communication-graph/id/upward-dissent/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .

@@ -96,7 +96,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:difficult-conversation` | `cm:role-reversal` |
 | `cm:difficult-conversation` | `cm:thomas-kilmann-conflict-modes` |
 
-…and 138 more.
+…and 139 more.
 
 ## Myths and contested advice
 
@@ -143,7 +143,6 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 
 | node | type |
 |---|---|
-| `cm:deaf-effect` | cmo:Barrier |
 | `cm:digital-communication` | cmo:Field |
 | `cm:email-subject-lines` | cmo:Technique |
 | `cm:emotion-regulation` | cmo:Skill |
@@ -173,8 +172,9 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:mixed-messages` | cmo:Barrier |
 | `cm:multicultural-team` | cmo:Context |
 | `cm:mum-effect` | cmo:Barrier |
+| `cm:narrative-persuasion` | cmo:Technique |
 
-…and 54 more.
+…and 53 more.
 
 ## Orphan articles (gap)
 
