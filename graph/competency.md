@@ -6,9 +6,7 @@ SPARQL queries in `queries/` run over the asserted graph, the OWL-RL inferences 
 
 _Which written barriers or anti-patterns have nothing in the graph that addresses them?_ — `queries/01-problems-without-fix.rq`
 
-| node | type |
-|---|---|
-| `cm:reading-lies-from-body-language` | cmo:AntiPattern |
+_No results._
 
 ## Skills with no practice technique (gap)
 
@@ -61,7 +59,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:anxiety-reappraisal` | 1 | Public speaking anxiety |
 | `cm:assertion-evidence-slides` | 1 | Death by PowerPoint |
 
-…and 52 more.
+…and 53 more.
 
 ## Toolkit by situation
 
@@ -100,7 +98,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:email` | `cm:bottom-line-up-front` |
 | `cm:email` | `cm:channel-selection` |
 
-…and 129 more.
+…and 130 more.
 
 ## Myths and contested advice
 
@@ -139,7 +137,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:acoustic-speech-analysis-coaching` | mixed |  |
 | `cm:active-listening` | mixed |  |
 
-…and 161 more.
+…and 162 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -159,6 +157,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:group-decision-making` | cmo:Context |
 | `cm:handling-questions` | cmo:Technique |
 | `cm:hybrid-meetings` | cmo:Context |
+| `cm:information-gathering-interview` | cmo:Technique |
 | `cm:informative-headings` | cmo:Technique |
 | `cm:intercultural-competence` | cmo:Skill |
 | `cm:interpersonal-communication` | cmo:Field |
@@ -176,9 +175,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:narrative-persuasion` | cmo:Technique |
 | `cm:negotiation` | cmo:Context |
 | `cm:negotiation-preparation` | cmo:Context |
-| `cm:nonverbal-communication` | cmo:Concept |
 
-…and 48 more.
+…and 49 more.
 
 ## Orphan articles (gap)
 

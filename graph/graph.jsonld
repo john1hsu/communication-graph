@@ -10784,6 +10784,102 @@
    ]
   },
   {
+   "@id": "cm:information-gathering-interview",
+   "@type": "cmo:Technique",
+   "cmo:addresses": {
+    "@id": "cm:reading-lies-from-body-language"
+   },
+   "cmo:appliedIn": {
+    "@id": "cm:workplace-investigation"
+   },
+   "cmo:challengedBy": {
+    "@id": "cm:levine-blair-carpenter-2018"
+   },
+   "cmo:complements": {
+    "@id": "cm:rapport"
+   },
+   "cmo:demonstratedBy": {
+    "@id": "cm:meissner-et-al-2014"
+   },
+   "cmo:domain": "questioning-and-conversation",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/information-gathering-interview/example"
+   },
+   "cmo:file": "articles/questioning-and-conversation/information-gathering-interview.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/information-gathering-interview/howto"
+   },
+   "cmo:level": "intermediate",
+   "cmo:requires": {
+    "@id": "cm:open-ended-questions"
+   },
+   "cmo:supportedBy": {
+    "@id": "cm:vrij-fisher-blank-2017"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/information-gathering-interview/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/information-gathering-interview/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/information-gathering-interview/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/information-gathering-interview/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/information-gathering-interview/s5"
+    }
+   ],
+   "rdfs:label": "Information-gathering interview",
+   "skos:altLabel": [
+    "information-gathering approach",
+    "information-gathering interviewing",
+    "non-accusatory interviewing"
+   ],
+   "skos:broader": {
+    "@id": "cm:questioning"
+   },
+   "skos:definition": "A fact-finding interview style for checking an account you have doubts about: build rapport, invite an uninterrupted narrative with open questions, probe for specific and verifiable details, and test the account against evidence, instead of confronting the person or reading their body language.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/questioning-and-conversation"
+   },
+   "skos:prefLabel": "Information-gathering interview",
+   "skos:related": [
+    {
+     "@id": "cm:active-listening"
+    },
+    {
+     "@id": "cm:cognitive-load"
+    },
+    {
+     "@id": "cm:follow-up-questions"
+    },
+    {
+     "@id": "cm:job-interview"
+    },
+    {
+     "@id": "cm:open-ended-questions"
+    },
+    {
+     "@id": "cm:perception-checking"
+    },
+    {
+     "@id": "cm:rapport"
+    },
+    {
+     "@id": "cm:reading-lies-from-body-language"
+    }
+   ]
+  },
+  {
    "@id": "cm:information-overload",
    "@type": "cmo:Barrier",
    "cmo:causes": {
@@ -29444,6 +29540,116 @@
    "schema:text": "Make a concrete, honest offer that trades something they value for what you need, then deliver on it and keep in touch afterwards so the relationship exists before you need it again."
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/information-gathering-interview/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:information-gathering-interview"
+   },
+   "rdfs:label": "Did I let them tell the whole story before I challenged anything?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/information-gathering-interview/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:information-gathering-interview"
+   },
+   "rdfs:label": "Which of their specific claims can I verify, and have I checked them?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/information-gathering-interview/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:information-gathering-interview"
+   },
+   "rdfs:label": "Am I treating nervousness or hesitation as evidence, rather than a conflict between their account and the record?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/information-gathering-interview/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:information-gathering-interview"
+   },
+   "rdfs:label": "Did I reveal my evidence too early, or frame the meeting as if the outcome were already decided?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/information-gathering-interview/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "Lead: 'I'm trying to piece together that night for the client review. Walk me through it from the first alert.' (silence while she talks) 'What time did you try the manager, on what number, and what did you do when he didn't answer? What would the paging system show?' The lead then checks the paging log, which shows two calls to an outdated number.",
+   "cmo:before": "Lead: 'The manager says you never called. You're not looking at me - just be straight, did you skip the escalation?'",
+   "cmo:situation": "A support team lead is reviewing a client complaint. An engineer's shift note says she escalated a night-time outage to the on-call manager, but the manager says no call came in.",
+   "cmo:why": "The first version presumes guilt and treats avoided eye contact as proof; the second gets a detailed account with checkable specifics, and the record resolves the dispute - here, revealing a process fault rather than a lie."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/information-gathering-interview/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Information-gathering interview",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/information-gathering-interview/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/information-gathering-interview/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/information-gathering-interview/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/information-gathering-interview/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/information-gathering-interview/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/information-gathering-interview/howto/6"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/information-gathering-interview/howto/7"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/information-gathering-interview/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Before the meeting, write down what you already know, which facts are disputed and what records could confirm them, and set your goal as learning what happened rather than getting an admission."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/information-gathering-interview/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Open by explaining neutrally who you are, why you are meeting and how notes will be used, and spend a minute establishing rapport."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/information-gathering-interview/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Ask for a full narrative with \"tell me\", \"describe\" or \"walk me through\", then stay quiet; do not interrupt or fill pauses."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/information-gathering-interview/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Funnel down with narrower follow-ups on times, sequence, people involved and where each step would have left a trace (logs, emails, tickets)."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/information-gathering-interview/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Add one or two questions the person is unlikely to have rehearsed, such as the order of events in reverse or what a named colleague would say about their role."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/information-gathering-interview/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "Only after the account is complete, raise any conflicting evidence one item at a time and ask the person to explain it."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/information-gathering-interview/howto/7",
+   "@type": "schema:HowToStep",
+   "schema:position": 7,
+   "schema:text": "Record the answers, check the verifiable details afterwards, and base your conclusion on what the account and evidence show, not on how nervous the person seemed."
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/information-overload/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -43820,6 +44026,76 @@
    "dcterms:title": "Third Edition of 'Influence Without Authority' Released",
    "schema:url": {
     "@id": "https://www.newswise.com/articles/third-edition-of-influence-without-authority-released"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/information-gathering-interview/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Meissner, Redlich, Michael et al., Journal of Experimental Criminology 10, 459-486 (2014), doi:10.1007/s11292-014-9207-6 (Springer)",
+   "dcterms:title": "Accusatorial and information-gathering interrogation methods and their effects on true and false confessions: a meta-analytic review",
+   "schema:url": {
+    "@id": "https://link.springer.com/article/10.1007/s11292-014-9207-6"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/information-gathering-interview/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Vrij, Fisher & Blank, Legal and Criminological Psychology 22(1), 1-21 (2017), doi:10.1111/lcrp.12088 (KrimDok, University of Tübingen)",
+   "dcterms:title": "A cognitive approach to lie detection: A meta-analysis",
+   "schema:url": {
+    "@id": "https://krimdok.uni-tuebingen.de/Record/1846275679"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/information-gathering-interview/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Levine, Blair & Carpenter, Legal and Criminological Psychology 23(1), 7-19 (2018), doi:10.1111/lcrp.12115 (KrimDok, University of Tübingen)",
+   "dcterms:title": "A critical look at meta-analytic evidence for the cognitive approach to lie detection: a re-examination of Vrij, Fisher, and Blank (2017)",
+   "schema:url": {
+    "@id": "https://krimdok.uni-tuebingen.de/Record/1846233585?lng=en"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/information-gathering-interview/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "High-Value Detainee Interrogation Group (FBI-hosted U.S. interagency unit), September 2016",
+   "dcterms:title": "Interrogation: A Review of the Science",
+   "schema:url": {
+    "@id": "https://www.fbi.gov/file-repository/hig-report-interrogation-a-review-of-the-science-september-2016.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/information-gathering-interview/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Acas (UK Advisory, Conciliation and Arbitration Service)",
+   "dcterms:title": "Step 4: Holding investigation meetings - Investigations at work",
+   "schema:url": {
+    "@id": "https://www.acas.org.uk/investigations-for-discipline-and-grievance-step-by-step/step-4-holding-investigation-meetings"
    }
   },
   {

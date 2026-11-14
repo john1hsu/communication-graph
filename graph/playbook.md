@@ -2529,6 +2529,30 @@ Ask yourself:
 - Who talked more in that conversation, and did I learn anything that changed my view?
 - Did I acknowledge what they said before telling them what I think?
 
+### [Information-gathering interview](../articles/questioning-and-conversation/information-gathering-interview.md) — Technique
+
+1. Before the meeting, write down what you already know, which facts are disputed and what records could confirm them, and set your goal as learning what happened rather than getting an admission.
+2. Open by explaining neutrally who you are, why you are meeting and how notes will be used, and spend a minute establishing rapport.
+3. Ask for a full narrative with "tell me", "describe" or "walk me through", then stay quiet; do not interrupt or fill pauses.
+4. Funnel down with narrower follow-ups on times, sequence, people involved and where each step would have left a trace (logs, emails, tickets).
+5. Add one or two questions the person is unlikely to have rehearsed, such as the order of events in reverse or what a named colleague would say about their role.
+6. Only after the account is complete, raise any conflicting evidence one item at a time and ask the person to explain it.
+7. Record the answers, check the verifiable details afterwards, and base your conclusion on what the account and evidence show, not on how nervous the person seemed.
+
+*A support team lead is reviewing a client complaint. An engineer's shift note says she escalated a night-time outage to the on-call manager, but the manager says no call came in.*
+
+| Before | After |
+|---|---|
+| Lead: 'The manager says you never called. You're not looking at me - just be straight, did you skip the escalation?' | Lead: 'I'm trying to piece together that night for the client review. Walk me through it from the first alert.' (silence while she talks) 'What time did you try the manager, on what number, and what did you do when he didn't answer? What would the paging system show?' The lead then checks the paging log, which shows two calls to an outdated number. |
+
+**Why:** The first version presumes guilt and treats avoided eye contact as proof; the second gets a detailed account with checkable specifics, and the record resolves the dispute - here, revealing a process fault rather than a lie.
+
+Ask yourself:
+- Did I let them tell the whole story before I challenged anything?
+- Which of their specific claims can I verify, and have I checked them?
+- Am I treating nervousness or hesitation as evidence, rather than a conflict between their account and the record?
+- Did I reveal my evidence too early, or frame the meeting as if the outcome were already decided?
+
 ### [Perspective-getting](../articles/questioning-and-conversation/perspective-getting.md) — Technique
 
 1. Before a decision that depends on someone else's view, write down your best guess of what they think and how confident you are.
