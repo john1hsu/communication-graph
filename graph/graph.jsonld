@@ -20551,6 +20551,98 @@
    ]
   },
   {
+   "@id": "cm:scqa-framework",
+   "@type": "cmo:Framework",
+   "cmo:appliedIn": {
+    "@id": "cm:presentation"
+   },
+   "cmo:complements": {
+    "@id": "cm:bottom-line-up-front"
+   },
+   "cmo:domain": "writing",
+   "cmo:evidenceStatus": "practitioner",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scqa-framework/example"
+   },
+   "cmo:file": "articles/writing/scqa-framework.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scqa-framework/howto"
+   },
+   "cmo:introducedBy": {
+    "@id": "cm:barbara-minto"
+   },
+   "cmo:level": "introductory",
+   "cmo:partOf": {
+    "@id": "cm:pyramid-principle"
+   },
+   "cmo:requires": {
+    "@id": "cm:audience-analysis"
+   },
+   "cmo:structures": {
+    "@id": "cm:business-report"
+   },
+   "cmo:supportedBy": {
+    "@id": "cm:meyer-poon-2001"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/scqa-framework/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/scqa-framework/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/scqa-framework/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/scqa-framework/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/scqa-framework/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/scqa-framework/s6"
+    }
+   ],
+   "rdfs:label": "SCQA framework",
+   "skos:altLabel": [
+    "SCQA",
+    "situation-complication-question-answer"
+   ],
+   "skos:broader": {
+    "@id": "cm:message-structure"
+   },
+   "skos:definition": "A four-part opening for a business document or presentation - situation, complication, question, answer - that moves the reader from facts they already accept to the problem, the question it raises, and your recommendation.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/writing"
+   },
+   "skos:prefLabel": "SCQA framework",
+   "skos:related": [
+    {
+     "@id": "cm:bottom-line-up-front"
+    },
+    {
+     "@id": "cm:executive-summary"
+    },
+    {
+     "@id": "cm:mece"
+    },
+    {
+     "@id": "cm:narrative-persuasion"
+    },
+    {
+     "@id": "cm:pyramid-principle"
+    },
+    {
+     "@id": "cm:signposting"
+    }
+   ]
+  },
+  {
    "@id": "cm:self-affirmation-before-feedback",
    "@type": "cmo:Technique",
    "cmo:addresses": {
@@ -34801,6 +34893,107 @@
    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/writing",
    "@type": "skos:ConceptScheme",
    "skos:prefLabel": "Business and professional writing"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/scqa-framework/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:scqa-framework"
+   },
+   "rdfs:label": "Would my reader agree with every sentence in my situation without needing proof?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/scqa-framework/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:scqa-framework"
+   },
+   "rdfs:label": "Does my complication raise exactly the question I answer, and not a different one?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/scqa-framework/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:scqa-framework"
+   },
+   "rdfs:label": "Is my question one this reader has the authority to decide?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/scqa-framework/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:scqa-framework"
+   },
+   "rdfs:label": "Could someone who stops after my opening paragraph say what I recommend?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/scqa-framework/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "Priya - Situation: our weekday queue meets the four-hour response target. Complication: since the March launch, weekend tickets have doubled and weekend response time is now eleven hours, with churn complaints rising. Question: how do we bring weekends back to target without new hires? Answer: move two agents to a Tuesday-Saturday rota from next month; details and costs below.",
+   "cmo:before": "Hi Priya, I wanted to share some thoughts on the weekend queue. We've been looking at the numbers over the last few months and there are a few things going on, including some changes in ticket mix, some staffing gaps and a couple of tooling issues. I've put together some options below for discussion...",
+   "cmo:situation": "A support team lead emails the head of customer operations to ask for a change to weekend staffing.",
+   "cmo:why": "The rewrite starts from facts Priya already accepts, names one quantified problem, and states the question and answer in the first paragraph, so she can approve or push back without reading the analysis."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/scqa-framework/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "SCQA framework",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/scqa-framework/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/scqa-framework/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/scqa-framework/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/scqa-framework/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/scqa-framework/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/scqa-framework/howto/6"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/scqa-framework/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Write the answer first, in one sentence - the recommendation you want the reader to accept or act on."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/scqa-framework/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Write the question that answer responds to, phrased as \"how should we...\" rather than \"should we...\", and pitched at a decision the reader can actually make."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/scqa-framework/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Write the situation - one to three sentences of facts the reader already knows and would not dispute, with a concrete figure or date."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/scqa-framework/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Write the complication - the specific change that makes the situation untenable, quantified where you can, and tight enough to raise only your one question."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/scqa-framework/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Read the four parts aloud in order; if the complication does not lead naturally to the question, or the answer does not answer it, fix the weak link before drafting the body."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/scqa-framework/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "Put the answer at the end of the opening paragraph or slide, then organise the rest of the document as support for it."
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/self-affirmation-before-feedback/check/1",
@@ -53553,6 +53746,90 @@
    "dcterms:title": "The Myth of Impoverished Signal: Dispelling the Spoken-Language Fallacy for Emoticons in Online Communication",
    "schema:url": {
     "@id": "https://collablab.northwestern.edu/CollabolabDistro/nucmc/Baron-TheMythOfImpoverishedSignal-EmotionAndICTs-InPress.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/scqa-framework/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Monash University, Student Academic Success (Excel at Writing)",
+   "dcterms:title": "Business paper using the Minto approach",
+   "schema:url": {
+    "@id": "https://www.monash.edu/student-academic-success/excel-at-writing/how-to-write/business-paper-using-the-minto-approach"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/scqa-framework/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Monash University, Student Academic Success (Excel at Writing)",
+   "dcterms:title": "How to structure your essay with the Minto approach",
+   "schema:url": {
+    "@id": "https://www.monash.edu/student-academic-success/excel-at-writing/how-to-write/business-paper-using-the-minto-approach/how-to-structure-your-essay-with-the-minto-approach"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/scqa-framework/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Monash University, Student Academic Success",
+   "dcterms:title": "Minto approach writing checklist",
+   "schema:url": {
+    "@id": "https://www.monash.edu/__data/assets/pdf_file/0012/4277559/Minto-approach-writing-checklist.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/scqa-framework/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "practitioner-journal",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "W. Frazier Pruitt, Quality Progress (ASQ), May 2020 (copy hosted by Texas Department of State Health Services)",
+   "dcterms:title": "Structured problem solving demands structured communication",
+   "schema:url": {
+    "@id": "https://www.dshs.texas.gov/sites/default/files/hivstd/qm/files/202107SomeAssemblyRequired.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/scqa-framework/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Bonnie J. F. Meyer & Leonard W. Poon, Journal of Educational Psychology 93(1), 141-159 (2001)",
+   "dcterms:title": "Effects of structure strategy training and signaling on recall of text",
+   "schema:url": {
+    "@id": "https://pure.psu.edu/en/publications/effects-of-structure-strategy-training-and-signaling-on-recall-of/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/scqa-framework/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Bonnie J. F. Meyer & Melissa N. Ray, International Electronic Journal of Elementary Education 4(1), 127-152 (2011)",
+   "dcterms:title": "Structure strategy interventions: Increasing reading comprehension of expository text",
+   "schema:url": {
+    "@id": "https://www.iejee.com/index.php/IEJEE/article/view/217"
    }
   },
   {

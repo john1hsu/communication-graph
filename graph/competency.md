@@ -71,6 +71,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:asynchronous-communication` | `cm:setting-reply-time-expectations` |
 | `cm:business-report` | `cm:informative-headings` |
 | `cm:business-report` | `cm:pyramid-principle` |
+| `cm:business-report` | `cm:scqa-framework` |
 | `cm:client-communication` | `cm:cognitive-reappraisal` |
 | `cm:client-communication` | `cm:service-recovery` |
 | `cm:client-communication` | `cm:trusted-advisor` |
@@ -94,9 +95,8 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:difficult-conversation` | `cm:perception-checking` |
 | `cm:difficult-conversation` | `cm:role-reversal` |
 | `cm:difficult-conversation` | `cm:thomas-kilmann-conflict-modes` |
-| `cm:elevator-pitch` | `cm:monroes-motivated-sequence` |
 
-…and 135 more.
+…and 137 more.
 
 ## Myths and contested advice
 

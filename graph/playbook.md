@@ -2960,6 +2960,29 @@ Ask yourself:
 - Which formula and tool produced this number, and did I strip headings and lists before scoring?
 - Has anyone from the intended audience tried to use this document, and what did they get wrong?
 
+### [SCQA framework](../articles/writing/scqa-framework.md) — Framework
+
+1. Write the answer first, in one sentence - the recommendation you want the reader to accept or act on.
+2. Write the question that answer responds to, phrased as "how should we..." rather than "should we...", and pitched at a decision the reader can actually make.
+3. Write the situation - one to three sentences of facts the reader already knows and would not dispute, with a concrete figure or date.
+4. Write the complication - the specific change that makes the situation untenable, quantified where you can, and tight enough to raise only your one question.
+5. Read the four parts aloud in order; if the complication does not lead naturally to the question, or the answer does not answer it, fix the weak link before drafting the body.
+6. Put the answer at the end of the opening paragraph or slide, then organise the rest of the document as support for it.
+
+*A support team lead emails the head of customer operations to ask for a change to weekend staffing.*
+
+| Before | After |
+|---|---|
+| Hi Priya, I wanted to share some thoughts on the weekend queue. We've been looking at the numbers over the last few months and there are a few things going on, including some changes in ticket mix, some staffing gaps and a couple of tooling issues. I've put together some options below for discussion... | Priya - Situation: our weekday queue meets the four-hour response target. Complication: since the March launch, weekend tickets have doubled and weekend response time is now eleven hours, with churn complaints rising. Question: how do we bring weekends back to target without new hires? Answer: move two agents to a Tuesday-Saturday rota from next month; details and costs below. |
+
+**Why:** The rewrite starts from facts Priya already accepts, names one quantified problem, and states the question and answer in the first paragraph, so she can approve or push back without reading the analysis.
+
+Ask yourself:
+- Would my reader agree with every sentence in my situation without needing proof?
+- Does my complication raise exactly the question I answer, and not a different one?
+- Is my question one this reader has the authority to decide?
+- Could someone who stops after my opening paragraph say what I recommend?
+
 ### [Wall of text](../articles/writing/wall-of-text.md) — AntiPattern
 
 *A project lead emails six stakeholders about a delayed data migration and needs two of them to act by Thursday.*

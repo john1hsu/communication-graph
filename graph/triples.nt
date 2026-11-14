@@ -11962,6 +11962,83 @@
 <https://github.com/john1hsu/communication-graph/id/scott-fahlman> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> .
 <https://github.com/john1hsu/communication-graph/id/scott-fahlman> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/emoticon> .
 <https://github.com/john1hsu/communication-graph/id/scott-fahlman> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Would my reader agree with every sentence in my situation without needing proof?" .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/scqa-framework> .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Does my complication raise exactly the question I answer, and not a different one?" .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/scqa-framework> .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Is my question one this reader has the authority to decide?" .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/scqa-framework> .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Could someone who stops after my opening paragraph say what I recommend?" .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/scqa-framework> .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework/example> <https://github.com/john1hsu/communication-graph/ontology#after> "Priya - Situation: our weekday queue meets the four-hour response target. Complication: since the March launch, weekend tickets have doubled and weekend response time is now eleven hours, with churn complaints rising. Question: how do we bring weekends back to target without new hires? Answer: move two agents to a Tuesday-Saturday rota from next month; details and costs below." .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework/example> <https://github.com/john1hsu/communication-graph/ontology#before> "Hi Priya, I wanted to share some thoughts on the weekend queue. We've been looking at the numbers over the last few months and there are a few things going on, including some changes in ticket mix, some staffing gaps and a couple of tooling issues. I've put together some options below for discussion..." .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "A support team lead emails the head of customer operations to ask for a change to weekend staffing." .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework/example> <https://github.com/john1hsu/communication-graph/ontology#why> "The rewrite starts from facts Priya already accepts, names one quantified problem, and states the question and answer in the first paragraph, so she can approve or push back without reading the analysis." .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework/howto/1> <https://schema.org/text> "Write the answer first, in one sentence - the recommendation you want the reader to accept or act on." .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework/howto/2> <https://schema.org/text> "Write the question that answer responds to, phrased as \"how should we...\" rather than \"should we...\", and pitched at a decision the reader can actually make." .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework/howto/3> <https://schema.org/text> "Write the situation - one to three sentences of facts the reader already knows and would not dispute, with a concrete figure or date." .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework/howto/4> <https://schema.org/text> "Write the complication - the specific change that makes the situation untenable, quantified where you can, and tight enough to raise only your one question." .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework/howto/5> <https://schema.org/text> "Read the four parts aloud in order; if the complication does not lead naturally to the question, or the answer does not answer it, fix the weak link before drafting the body." .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework/howto/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework/howto/6> <https://schema.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework/howto/6> <https://schema.org/text> "Put the answer at the end of the opening paragraph or slide, then organise the rest of the document as support for it." .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework/howto> <https://schema.org/name> "SCQA framework" .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/scqa-framework/howto/1> .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/scqa-framework/howto/2> .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/scqa-framework/howto/3> .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/scqa-framework/howto/4> .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/scqa-framework/howto/5> .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/scqa-framework/howto/6> .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework> <http://purl.org/dc/terms/created> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Framework> .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework> <http://www.w3.org/2000/01/rdf-schema#label> "SCQA framework" .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework> <http://www.w3.org/2004/02/skos/core#altLabel> "SCQA" .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework> <http://www.w3.org/2004/02/skos/core#altLabel> "situation-complication-question-answer" .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/message-structure> .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework> <http://www.w3.org/2004/02/skos/core#definition> "A four-part opening for a business document or presentation - situation, complication, question, answer - that moves the reader from facts they already accept to the problem, the question it raises, and your recommendation." .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/writing> .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework> <http://www.w3.org/2004/02/skos/core#prefLabel> "SCQA framework" .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/executive-summary> .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mece> .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/narrative-persuasion> .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/pyramid-principle> .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/signposting> .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/scqa-framework/s1> .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/scqa-framework/s2> .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/scqa-framework/s3> .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/scqa-framework/s4> .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/scqa-framework/s5> .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/scqa-framework/s6> .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/presentation> .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework> <https://github.com/john1hsu/communication-graph/ontology#domain> "writing" .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "practitioner" .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/scqa-framework/example> .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/writing/scqa-framework.md" .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/scqa-framework/howto> .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/barbara-minto> .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework> <https://github.com/john1hsu/communication-graph/ontology#partOf> <https://github.com/john1hsu/communication-graph/id/pyramid-principle> .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework> <https://github.com/john1hsu/communication-graph/ontology#structures> <https://github.com/john1hsu/communication-graph/id/business-report> .
+<https://github.com/john1hsu/communication-graph/id/scqa-framework> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/meyer-poon-2001> .
 <https://github.com/john1hsu/communication-graph/id/self-affirmation-before-feedback/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/self-affirmation-before-feedback/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Did I affirm a value unrelated to the work being judged, rather than reassuring myself that the work is fine?" .
 <https://github.com/john1hsu/communication-graph/id/self-affirmation-before-feedback/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/self-affirmation-before-feedback> .
@@ -20472,6 +20549,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/scott-fahlman/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/scott-fahlman/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
 <https://github.com/john1hsu/communication-graph/id/source/scott-fahlman/s5> <https://schema.org/url> <https://collablab.northwestern.edu/CollabolabDistro/nucmc/Baron-TheMythOfImpoverishedSignal-EmotionAndICTs-InPress.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/scqa-framework/s1> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/scqa-framework/s1> <http://purl.org/dc/terms/publisher> "Monash University, Student Academic Success (Excel at Writing)" .
+<https://github.com/john1hsu/communication-graph/id/source/scqa-framework/s1> <http://purl.org/dc/terms/title> "Business paper using the Minto approach" .
+<https://github.com/john1hsu/communication-graph/id/source/scqa-framework/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/scqa-framework/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/scqa-framework/s1> <https://schema.org/url> <https://www.monash.edu/student-academic-success/excel-at-writing/how-to-write/business-paper-using-the-minto-approach> .
+<https://github.com/john1hsu/communication-graph/id/source/scqa-framework/s2> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/scqa-framework/s2> <http://purl.org/dc/terms/publisher> "Monash University, Student Academic Success (Excel at Writing)" .
+<https://github.com/john1hsu/communication-graph/id/source/scqa-framework/s2> <http://purl.org/dc/terms/title> "How to structure your essay with the Minto approach" .
+<https://github.com/john1hsu/communication-graph/id/source/scqa-framework/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/scqa-framework/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/scqa-framework/s2> <https://schema.org/url> <https://www.monash.edu/student-academic-success/excel-at-writing/how-to-write/business-paper-using-the-minto-approach/how-to-structure-your-essay-with-the-minto-approach> .
+<https://github.com/john1hsu/communication-graph/id/source/scqa-framework/s3> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/scqa-framework/s3> <http://purl.org/dc/terms/publisher> "Monash University, Student Academic Success" .
+<https://github.com/john1hsu/communication-graph/id/source/scqa-framework/s3> <http://purl.org/dc/terms/title> "Minto approach writing checklist" .
+<https://github.com/john1hsu/communication-graph/id/source/scqa-framework/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/scqa-framework/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/scqa-framework/s3> <https://schema.org/url> <https://www.monash.edu/__data/assets/pdf_file/0012/4277559/Minto-approach-writing-checklist.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/scqa-framework/s4> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/scqa-framework/s4> <http://purl.org/dc/terms/publisher> "W. Frazier Pruitt, Quality Progress (ASQ), May 2020 (copy hosted by Texas Department of State Health Services)" .
+<https://github.com/john1hsu/communication-graph/id/source/scqa-framework/s4> <http://purl.org/dc/terms/title> "Structured problem solving demands structured communication" .
+<https://github.com/john1hsu/communication-graph/id/source/scqa-framework/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/scqa-framework/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "practitioner-journal" .
+<https://github.com/john1hsu/communication-graph/id/source/scqa-framework/s4> <https://schema.org/url> <https://www.dshs.texas.gov/sites/default/files/hivstd/qm/files/202107SomeAssemblyRequired.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/scqa-framework/s5> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/scqa-framework/s5> <http://purl.org/dc/terms/publisher> "Bonnie J. F. Meyer & Leonard W. Poon, Journal of Educational Psychology 93(1), 141-159 (2001)" .
+<https://github.com/john1hsu/communication-graph/id/source/scqa-framework/s5> <http://purl.org/dc/terms/title> "Effects of structure strategy training and signaling on recall of text" .
+<https://github.com/john1hsu/communication-graph/id/source/scqa-framework/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/scqa-framework/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/scqa-framework/s5> <https://schema.org/url> <https://pure.psu.edu/en/publications/effects-of-structure-strategy-training-and-signaling-on-recall-of/> .
+<https://github.com/john1hsu/communication-graph/id/source/scqa-framework/s6> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/scqa-framework/s6> <http://purl.org/dc/terms/publisher> "Bonnie J. F. Meyer & Melissa N. Ray, International Electronic Journal of Elementary Education 4(1), 127-152 (2011)" .
+<https://github.com/john1hsu/communication-graph/id/source/scqa-framework/s6> <http://purl.org/dc/terms/title> "Structure strategy interventions: Increasing reading comprehension of expository text" .
+<https://github.com/john1hsu/communication-graph/id/source/scqa-framework/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/scqa-framework/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/scqa-framework/s6> <https://schema.org/url> <https://www.iejee.com/index.php/IEJEE/article/view/217> .
 <https://github.com/john1hsu/communication-graph/id/source/self-affirmation-before-feedback/s1> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/self-affirmation-before-feedback/s1> <http://purl.org/dc/terms/publisher> "Geoffrey L. Cohen & David K. Sherman, Annual Review of Psychology 65, 333-371 (2014), doi:10.1146/annurev-psych-010213-115137" .
 <https://github.com/john1hsu/communication-graph/id/source/self-affirmation-before-feedback/s1> <http://purl.org/dc/terms/title> "The Psychology of Change: Self-Affirmation and Social Psychological Intervention" .
