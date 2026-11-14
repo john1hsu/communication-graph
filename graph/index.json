@@ -13753,6 +13753,84 @@
   ]
  },
  {
+  "id": "cm:john-whitmore",
+  "title": "John Whitmore",
+  "aliases": [
+   "Sir John Whitmore",
+   "Sir John Henry Douglas Whitmore"
+  ],
+  "type": "Person",
+  "domain": "thinkers-and-works",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/thinkers-and-works/john-whitmore.md",
+  "created": "2026-11-14",
+  "summary": "British racing driver turned coaching pioneer (1937-2017) who brought Timothy Gallwey's Inner Game approach into business, wrote Coaching for Performance (1992) and popularised the GROW model - framing coaching as raising awareness and responsibility so people improve their own performance rather than being told what to do.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "cm:grow-model"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:coaching-for-performance"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:coaching"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:graham-alexander"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:one-on-one-meetings"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:open-ended-questions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:solution-focused-coaching"
+   },
+   {
+    "predicate": "cmo:introduced",
+    "object": "cm:grow-model",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introduced",
+    "object": "cm:coaching",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:authored",
+    "object": "cm:coaching-for-performance",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:influencedBy",
+    "object": "cm:timothy-gallwey",
+    "source": "s2",
+    "confidence": "high"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://core.ac.uk/download/334599992.pdf",
+   "https://researchportal.coachingfederation.org/Document/Pdf/2965.pdf",
+   "https://www.hachette.co.uk/titles/john-whitmore/coaching-for-performance-5th-edition/9781473673885/",
+   "https://instituteofcoaching.org/memoriam-sir-john-whitmore-1937-2017"
+  ]
+ },
+ {
   "id": "cm:kluger-denisi-1996",
   "title": "The Effects of Feedback Interventions on Performance",
   "aliases": [

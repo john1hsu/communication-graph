@@ -1973,6 +1973,13 @@
 <https://github.com/john1hsu/communication-graph/id/irving-janis#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/irving-janis/s5> .
 <https://github.com/john1hsu/communication-graph/id/irving-janis#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/irving-janis/s6> .
 <https://github.com/john1hsu/communication-graph/id/irving-janis#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/irving-janis/s7> .
+<https://github.com/john1hsu/communication-graph/id/john-whitmore#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/john-whitmore#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/john-whitmore> .
+<https://github.com/john1hsu/communication-graph/id/john-whitmore#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/thinkers-and-works/john-whitmore.md" .
+<https://github.com/john1hsu/communication-graph/id/john-whitmore#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/john-whitmore/s1> .
+<https://github.com/john1hsu/communication-graph/id/john-whitmore#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/john-whitmore/s2> .
+<https://github.com/john1hsu/communication-graph/id/john-whitmore#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/john-whitmore/s3> .
+<https://github.com/john1hsu/communication-graph/id/john-whitmore#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/john-whitmore/s4> .
 <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996> .
 <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/thinkers-and-works/kluger-denisi-1996.md" .
@@ -23478,6 +23485,60 @@
   <https://github.com/john1hsu/communication-graph/id/source/irving-janis/s7> <https://schema.org/url> <https://csts.ua.edu/files/2024/06/psychic-defenses-against-high-fear-appeals.pdf> .
 }
 
+<https://github.com/john1hsu/communication-graph/id/john-whitmore#graph> {
+  <https://github.com/john1hsu/communication-graph/id/john-whitmore> <http://purl.org/dc/terms/created> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/john-whitmore> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+  <https://github.com/john1hsu/communication-graph/id/john-whitmore> <http://www.w3.org/2000/01/rdf-schema#label> "John Whitmore" .
+  <https://github.com/john1hsu/communication-graph/id/john-whitmore> <http://www.w3.org/2004/02/skos/core#altLabel> "Sir John Henry Douglas Whitmore" .
+  <https://github.com/john1hsu/communication-graph/id/john-whitmore> <http://www.w3.org/2004/02/skos/core#altLabel> "Sir John Whitmore" .
+  <https://github.com/john1hsu/communication-graph/id/john-whitmore> <http://www.w3.org/2004/02/skos/core#definition> "British racing driver turned coaching pioneer (1937-2017) who brought Timothy Gallwey's Inner Game approach into business, wrote Coaching for Performance (1992) and popularised the GROW model - framing coaching as raising awareness and responsibility so people improve their own performance rather than being told what to do." .
+  <https://github.com/john1hsu/communication-graph/id/john-whitmore> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works> .
+  <https://github.com/john1hsu/communication-graph/id/john-whitmore> <http://www.w3.org/2004/02/skos/core#prefLabel> "John Whitmore" .
+  <https://github.com/john1hsu/communication-graph/id/john-whitmore> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/coaching-for-performance> .
+  <https://github.com/john1hsu/communication-graph/id/john-whitmore> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/coaching> .
+  <https://github.com/john1hsu/communication-graph/id/john-whitmore> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/graham-alexander> .
+  <https://github.com/john1hsu/communication-graph/id/john-whitmore> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/grow-model> .
+  <https://github.com/john1hsu/communication-graph/id/john-whitmore> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> .
+  <https://github.com/john1hsu/communication-graph/id/john-whitmore> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/open-ended-questions> .
+  <https://github.com/john1hsu/communication-graph/id/john-whitmore> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/solution-focused-coaching> .
+  <https://github.com/john1hsu/communication-graph/id/john-whitmore> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/john-whitmore/s1> .
+  <https://github.com/john1hsu/communication-graph/id/john-whitmore> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/john-whitmore/s2> .
+  <https://github.com/john1hsu/communication-graph/id/john-whitmore> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/john-whitmore/s3> .
+  <https://github.com/john1hsu/communication-graph/id/john-whitmore> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/john-whitmore/s4> .
+  <https://github.com/john1hsu/communication-graph/id/john-whitmore> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/coaching-for-performance> .
+  <https://github.com/john1hsu/communication-graph/id/john-whitmore> <https://github.com/john1hsu/communication-graph/ontology#domain> "thinkers-and-works" .
+  <https://github.com/john1hsu/communication-graph/id/john-whitmore> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "historical" .
+  <https://github.com/john1hsu/communication-graph/id/john-whitmore> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/thinkers-and-works/john-whitmore.md" .
+  <https://github.com/john1hsu/communication-graph/id/john-whitmore> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/timothy-gallwey> .
+  <https://github.com/john1hsu/communication-graph/id/john-whitmore> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/coaching> .
+  <https://github.com/john1hsu/communication-graph/id/john-whitmore> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/grow-model> .
+  <https://github.com/john1hsu/communication-graph/id/john-whitmore> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+  <https://github.com/john1hsu/communication-graph/id/source/john-whitmore/s1> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/john-whitmore/s1> <http://purl.org/dc/terms/publisher> "Jonathan Passmore (Henley Business School), Christian van Nieuwerburgh & Margaret Barr (University of East London), 2019, via CORE" .
+  <https://github.com/john1hsu/communication-graph/id/source/john-whitmore/s1> <http://purl.org/dc/terms/title> "Workplace Coaching (Oxford Bibliographies - Management, pre-publication version, doi:10.1093/OBO/9780199846740-0164)" .
+  <https://github.com/john1hsu/communication-graph/id/source/john-whitmore/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/john-whitmore/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/communication-graph/id/source/john-whitmore/s1> <https://schema.org/url> <https://core.ac.uk/download/334599992.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/john-whitmore/s2> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/john-whitmore/s2> <http://purl.org/dc/terms/publisher> "David B. Drake, International Journal of Coaching in Organizations 7(1), 38-53 (2009), via the International Coaching Federation research portal" .
+  <https://github.com/john1hsu/communication-graph/id/source/john-whitmore/s2> <http://purl.org/dc/terms/title> "Coaching and the Freedom to Learn: A Conversation with Tim Gallwey and John Whitmore" .
+  <https://github.com/john1hsu/communication-graph/id/source/john-whitmore/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/john-whitmore/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "practitioner-journal" .
+  <https://github.com/john1hsu/communication-graph/id/source/john-whitmore/s2> <https://schema.org/url> <https://researchportal.coachingfederation.org/Document/Pdf/2965.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/john-whitmore/s3> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/john-whitmore/s3> <http://purl.org/dc/terms/publisher> "John Whitmore, John Murray Business / Hachette UK (publisher's page), 2017" .
+  <https://github.com/john1hsu/communication-graph/id/source/john-whitmore/s3> <http://purl.org/dc/terms/title> "Coaching for Performance, 5th Edition" .
+  <https://github.com/john1hsu/communication-graph/id/source/john-whitmore/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/john-whitmore/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/communication-graph/id/source/john-whitmore/s3> <https://schema.org/url> <https://www.hachette.co.uk/titles/john-whitmore/coaching-for-performance-5th-edition/9781473673885/> .
+  <https://github.com/john1hsu/communication-graph/id/source/john-whitmore/s4> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/john-whitmore/s4> <http://purl.org/dc/terms/publisher> "Institute of Coaching (McLean Hospital), 9 May 2017" .
+  <https://github.com/john1hsu/communication-graph/id/source/john-whitmore/s4> <http://purl.org/dc/terms/title> "In Memoriam: Sir John Whitmore, 1937-2017" .
+  <https://github.com/john1hsu/communication-graph/id/source/john-whitmore/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/john-whitmore/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+  <https://github.com/john1hsu/communication-graph/id/source/john-whitmore/s4> <https://schema.org/url> <https://instituteofcoaching.org/memoriam-sir-john-whitmore-1937-2017> .
+}
+
 <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996#graph> {
   <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996> <http://purl.org/dc/terms/created> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
   <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
@@ -27544,6 +27605,8 @@
   <https://github.com/john1hsu/communication-graph/id/closed-questions> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/open-ended-questions> .
   <https://github.com/john1hsu/communication-graph/id/coaching-for-performance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/coaching-for-performance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
+  <https://github.com/john1hsu/communication-graph/id/coaching-for-performance> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/john-whitmore> .
+  <https://github.com/john1hsu/communication-graph/id/coaching-for-performance> <https://github.com/john1hsu/communication-graph/ontology#authoredBy> <https://github.com/john1hsu/communication-graph/id/john-whitmore> .
   <https://github.com/john1hsu/communication-graph/id/coaching-for-performance> <https://github.com/john1hsu/communication-graph/ontology#introduces> <https://github.com/john1hsu/communication-graph/id/grow-model> .
   <https://github.com/john1hsu/communication-graph/id/coaching-psychology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/coaching-psychology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -27562,7 +27625,9 @@
   <https://github.com/john1hsu/communication-graph/id/coaching> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/solution-focused-coaching> .
   <https://github.com/john1hsu/communication-graph/id/coaching> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/grow-model> .
   <https://github.com/john1hsu/communication-graph/id/coaching> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/solution-focused-coaching> .
+  <https://github.com/john1hsu/communication-graph/id/coaching> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/john-whitmore> .
   <https://github.com/john1hsu/communication-graph/id/coaching> <https://github.com/john1hsu/communication-graph/ontology#developedBy> <https://github.com/john1hsu/communication-graph/id/solution-focused-coaching> .
+  <https://github.com/john1hsu/communication-graph/id/coaching> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/john-whitmore> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-bias> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-bias> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-bias> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> .
@@ -29342,6 +29407,7 @@
   <https://github.com/john1hsu/communication-graph/id/graduated-reciprocation-in-tension-reduction> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/charles-osgood> .
   <https://github.com/john1hsu/communication-graph/id/graham-alexander> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/graham-alexander> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+  <https://github.com/john1hsu/communication-graph/id/graham-alexander> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/john-whitmore> .
   <https://github.com/john1hsu/communication-graph/id/graham-alexander> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/grow-model> .
   <https://github.com/john1hsu/communication-graph/id/grant-gino-2010> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/praise-and-recognition> .
   <https://github.com/john1hsu/communication-graph/id/grant-oconnor-2010> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/solution-focused-coaching> .
@@ -29426,6 +29492,7 @@
   <https://github.com/john1hsu/communication-graph/id/grow-model> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/questioning> .
   <https://github.com/john1hsu/communication-graph/id/grow-model> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/grow-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/coaching> .
+  <https://github.com/john1hsu/communication-graph/id/grow-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/john-whitmore> .
   <https://github.com/john1hsu/communication-graph/id/grow-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/questioning> .
   <https://github.com/john1hsu/communication-graph/id/grow-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/solution-focused-coaching> .
   <https://github.com/john1hsu/communication-graph/id/guidelines-for-document-designers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -30336,8 +30403,6 @@
   <https://github.com/john1hsu/communication-graph/id/john-wallen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/john-wallen> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/perception-checking> .
   <https://github.com/john1hsu/communication-graph/id/john-whitmore> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
-  <https://github.com/john1hsu/communication-graph/id/john-whitmore> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
-  <https://github.com/john1hsu/communication-graph/id/john-whitmore> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/grow-model> .
   <https://github.com/john1hsu/communication-graph/id/johnson-deutsch-1966> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/johnson-deutsch-1966> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/johnson-deutsch-1966> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/role-reversal> .
@@ -31236,6 +31301,7 @@
   <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/feedback> .
   <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/grow-model> .
   <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> .
+  <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/john-whitmore> .
   <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996> .
   <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/praise-and-recognition> .
   <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/receiving-feedback> .
@@ -31278,6 +31344,7 @@
   <https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/information-gathering-interview> .
   <https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/interests-vs-positions> .
   <https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/job-interview> .
+  <https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/john-whitmore> .
   <https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/meeting-agendas> .
   <https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mirroring> .
   <https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/neil-rackham> .
@@ -32898,6 +32965,7 @@
   <https://github.com/john1hsu/communication-graph/id/solution-focused-coaching> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
   <https://github.com/john1hsu/communication-graph/id/solution-focused-coaching> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/questioning> .
   <https://github.com/john1hsu/communication-graph/id/solution-focused-coaching> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
+  <https://github.com/john1hsu/communication-graph/id/solution-focused-coaching> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/john-whitmore> .
   <https://github.com/john1hsu/communication-graph/id/soon-ang> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/soon-ang> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/soon-ang> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/cultural-intelligence> .
@@ -33274,6 +33342,7 @@
   <https://github.com/john1hsu/communication-graph/id/thought-groups> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/signposting> .
   <https://github.com/john1hsu/communication-graph/id/thought-groups> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/vocal-delivery> .
   <https://github.com/john1hsu/communication-graph/id/three-conversations-framework> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/difficult-conversation> .
+  <https://github.com/john1hsu/communication-graph/id/timothy-gallwey> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/john-whitmore> .
   <https://github.com/john1hsu/communication-graph/id/titsworth-2001> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/signposting> .
   <https://github.com/john1hsu/communication-graph/id/titsworth-et-al-2015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/titsworth-et-al-2015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .

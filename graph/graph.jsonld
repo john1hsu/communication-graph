@@ -12049,6 +12049,79 @@
    ]
   },
   {
+   "@id": "cm:john-whitmore",
+   "@type": "cmo:Person",
+   "cmo:authored": {
+    "@id": "cm:coaching-for-performance"
+   },
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "historical",
+   "cmo:file": "articles/thinkers-and-works/john-whitmore.md",
+   "cmo:influencedBy": {
+    "@id": "cm:timothy-gallwey"
+   },
+   "cmo:introduced": [
+    {
+     "@id": "cm:coaching"
+    },
+    {
+     "@id": "cm:grow-model"
+    }
+   ],
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/john-whitmore/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/john-whitmore/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/john-whitmore/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/john-whitmore/s4"
+    }
+   ],
+   "rdfs:label": "John Whitmore",
+   "skos:altLabel": [
+    "Sir John Henry Douglas Whitmore",
+    "Sir John Whitmore"
+   ],
+   "skos:definition": "British racing driver turned coaching pioneer (1937-2017) who brought Timothy Gallwey's Inner Game approach into business, wrote Coaching for Performance (1992) and popularised the GROW model - framing coaching as raising awareness and responsibility so people improve their own performance rather than being told what to do.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "John Whitmore",
+   "skos:related": [
+    {
+     "@id": "cm:coaching"
+    },
+    {
+     "@id": "cm:coaching-for-performance"
+    },
+    {
+     "@id": "cm:graham-alexander"
+    },
+    {
+     "@id": "cm:grow-model"
+    },
+    {
+     "@id": "cm:one-on-one-meetings"
+    },
+    {
+     "@id": "cm:open-ended-questions"
+    },
+    {
+     "@id": "cm:solution-focused-coaching"
+    }
+   ]
+  },
+  {
    "@id": "cm:kluger-denisi-1996",
    "@type": "cmo:Study",
    "cmo:appliedIn": {
@@ -45960,6 +46033,62 @@
    "dcterms:title": "Is Cognitive Ability the Best Predictor of Job Performance? New Research Says It's Time to Think Again",
    "schema:url": {
     "@id": "https://www.siop.org/tip-article/is-cognitive-ability-the-best-predictor-of-job-performance"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/john-whitmore/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Jonathan Passmore (Henley Business School), Christian van Nieuwerburgh & Margaret Barr (University of East London), 2019, via CORE",
+   "dcterms:title": "Workplace Coaching (Oxford Bibliographies - Management, pre-publication version, doi:10.1093/OBO/9780199846740-0164)",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/334599992.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/john-whitmore/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "practitioner-journal",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "David B. Drake, International Journal of Coaching in Organizations 7(1), 38-53 (2009), via the International Coaching Federation research portal",
+   "dcterms:title": "Coaching and the Freedom to Learn: A Conversation with Tim Gallwey and John Whitmore",
+   "schema:url": {
+    "@id": "https://researchportal.coachingfederation.org/Document/Pdf/2965.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/john-whitmore/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "John Whitmore, John Murray Business / Hachette UK (publisher's page), 2017",
+   "dcterms:title": "Coaching for Performance, 5th Edition",
+   "schema:url": {
+    "@id": "https://www.hachette.co.uk/titles/john-whitmore/coaching-for-performance-5th-edition/9781473673885/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/john-whitmore/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Institute of Coaching (McLean Hospital), 9 May 2017",
+   "dcterms:title": "In Memoriam: Sir John Whitmore, 1937-2017",
+   "schema:url": {
+    "@id": "https://instituteofcoaching.org/memoriam-sir-john-whitmore-1937-2017"
    }
   },
   {
