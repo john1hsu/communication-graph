@@ -12,7 +12,9 @@ _No results._
 
 _Which written skills or dispositions have no technique, framework or principle that develops them?_ — `queries/02-skills-without-practice.rq`
 
-_No results._
+| skill | type |
+|---|---|
+| `cm:coaching` | cmo:Skill |
 
 ## Situations, channels and formats with no guidance (gap)
 
@@ -135,7 +137,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:apology` | mixed |  |
 | `cm:assertion-evidence-slides` | mixed | `cm:alzayed-alzamel-2023` |
 
-…and 154 more.
+…and 155 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -143,6 +145,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 
 | node | type |
 |---|---|
+| `cm:coaching` | cmo:Skill |
 | `cm:digital-communication` | cmo:Field |
 | `cm:employee-silence` | cmo:Barrier |
 | `cm:escalation-communication` | cmo:Technique |
@@ -172,9 +175,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:nonverbal-communication` | cmo:Concept |
 | `cm:note-taking-while-listening` | cmo:Technique |
 | `cm:one-on-one-meetings` | cmo:Context |
-| `cm:one-remote-all-remote` | cmo:Technique |
 
-…and 43 more.
+…and 44 more.
 
 ## Orphan articles (gap)
 

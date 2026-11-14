@@ -3476,6 +3476,110 @@
   ]
  },
  {
+  "id": "cm:coaching",
+  "title": "Coaching",
+  "aliases": [
+   "workplace coaching",
+   "managerial coaching",
+   "manager as coach",
+   "leader as coach",
+   "coaching conversations"
+  ],
+  "type": "Skill",
+  "domain": "feedback-and-coaching",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/feedback-and-coaching/coaching.md",
+  "created": "2026-11-14",
+  "summary": "The learnable skill of helping someone improve their own performance mainly by asking, listening and supporting rather than telling - drawing out their goal, view of the situation, options and commitment, and adding your own expertise only when it helps. Meta-analyses find moderate positive effects of workplace coaching, though most studies are small and rely on self-report.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:interpersonal-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:grow-model"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:one-on-one-meetings"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:feedback"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:feedforward"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:humble-inquiry"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:receiving-feedback"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:performance-review"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:psychological-safety"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:active-listening"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:theeboom-beersma-van-vianen-2014",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:jones-woods-guillaume-2016",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:self-efficacy",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:studiedIn",
+    "object": "cm:coaching-psychology",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:open-ended-questions",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Did I ask what they had already thought of before offering my own answer?",
+   "Had I decided the answer in advance and then steered them towards it with leading questions?",
+   "Who did most of the talking - and who owns the next step now, me or them?",
+   "Was this a moment for coaching at all, or did they simply need information, a decision or to be left alone?"
+  ],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://dare.uva.nl/record/1/403451",
+   "https://livrepository.liverpool.ac.uk/id/eprint/3009891",
+   "https://discovery-pp.ucl.ac.uk/id/eprint/1506396/1/Coaching%20as%20a%20Developmental%20Intervention%20in%20Organisations%3A%20A%20Systematic%20Review%20of%20Its%20Effectiveness%20and%20the%20Mechanisms%20Underlying%20It.pdf",
+   "https://herminiaibarra.com/?p=895"
+  ]
+ },
+ {
   "id": "cm:cognitive-bias",
   "title": "Cognitive bias",
   "aliases": [

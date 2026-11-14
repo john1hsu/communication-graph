@@ -3070,6 +3070,94 @@
    ]
   },
   {
+   "@id": "cm:coaching",
+   "@type": "cmo:Skill",
+   "cmo:complements": {
+    "@id": "cm:open-ended-questions"
+   },
+   "cmo:domain": "feedback-and-coaching",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:explainedBy": {
+    "@id": "cm:self-efficacy"
+   },
+   "cmo:file": "articles/feedback-and-coaching/coaching.md",
+   "cmo:level": "intermediate",
+   "cmo:requires": {
+    "@id": "cm:active-listening"
+   },
+   "cmo:studiedIn": {
+    "@id": "cm:coaching-psychology"
+   },
+   "cmo:supportedBy": [
+    {
+     "@id": "cm:jones-woods-guillaume-2016"
+    },
+    {
+     "@id": "cm:theeboom-beersma-van-vianen-2014"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/coaching/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/coaching/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/coaching/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/coaching/s4"
+    }
+   ],
+   "rdfs:label": "Coaching",
+   "skos:altLabel": [
+    "coaching conversations",
+    "leader as coach",
+    "manager as coach",
+    "managerial coaching",
+    "workplace coaching"
+   ],
+   "skos:broader": {
+    "@id": "cm:interpersonal-communication"
+   },
+   "skos:definition": "The learnable skill of helping someone improve their own performance mainly by asking, listening and supporting rather than telling - drawing out their goal, view of the situation, options and commitment, and adding your own expertise only when it helps. Meta-analyses find moderate positive effects of workplace coaching, though most studies are small and rely on self-report.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/feedback-and-coaching"
+   },
+   "skos:prefLabel": "Coaching",
+   "skos:related": [
+    {
+     "@id": "cm:feedback"
+    },
+    {
+     "@id": "cm:feedforward"
+    },
+    {
+     "@id": "cm:grow-model"
+    },
+    {
+     "@id": "cm:humble-inquiry"
+    },
+    {
+     "@id": "cm:one-on-one-meetings"
+    },
+    {
+     "@id": "cm:performance-review"
+    },
+    {
+     "@id": "cm:psychological-safety"
+    },
+    {
+     "@id": "cm:receiving-feedback"
+    }
+   ]
+  },
+  {
    "@id": "cm:cognitive-bias",
    "@type": "cmo:Concept",
    "cmo:challengedBy": {
@@ -25109,6 +25197,38 @@
    "schema:text": "In email or chat, ask for a reply that restates the key detail or next step, and confirm or correct it in the thread."
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/coaching/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:coaching"
+   },
+   "rdfs:label": "Did I ask what they had already thought of before offering my own answer?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/coaching/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:coaching"
+   },
+   "rdfs:label": "Had I decided the answer in advance and then steered them towards it with leading questions?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/coaching/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:coaching"
+   },
+   "rdfs:label": "Who did most of the talking - and who owns the next step now, me or them?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/coaching/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:coaching"
+   },
+   "rdfs:label": "Was this a moment for coaching at all, or did they simply need information, a decision or to be left alone?"
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/communicating-across-languages/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -36205,6 +36325,62 @@
    "dcterms:title": "Communication in interdisciplinary teams: exploring closed-loop communication during in situ trauma team training (Härgestam et al., BMJ Open, 2013)",
    "schema:url": {
     "@id": "https://psnet.ahrq.gov/issue/communication-interdisciplinary-teams-exploring-closed-loop-communication-during-situ-trauma"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/coaching/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "University of Amsterdam (UvA-DARE repository record)",
+   "dcterms:title": "Does coaching work? A meta-analysis on the effects of coaching on individual level outcomes in an organizational context (Theeboom, Beersma & van Vianen, 2014, Journal of Positive Psychology 9(1), 1-18, doi:10.1080/17439760.2013.837499)",
+   "schema:url": {
+    "@id": "https://dare.uva.nl/record/1/403451"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/coaching/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "University of Liverpool Repository",
+   "dcterms:title": "The effectiveness of workplace coaching: A meta-analysis of learning and performance outcomes from coaching (Jones, Woods & Guillaume, 2016, Journal of Occupational and Organizational Psychology 89(2), 249-277, doi:10.1111/joop.12119)",
+   "schema:url": {
+    "@id": "https://livrepository.liverpool.ac.uk/id/eprint/3009891"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/coaching/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "UCL Discovery (University College London)",
+   "dcterms:title": "Coaching as a Developmental Intervention in Organisations: A Systematic Review of Its Effectiveness and the Mechanisms Underlying It (Grover & Furnham, 2016, PLOS ONE 11(7), doi:10.1371/journal.pone.0159137)",
+   "schema:url": {
+    "@id": "https://discovery-pp.ucl.ac.uk/id/eprint/1506396/1/Coaching%20as%20a%20Developmental%20Intervention%20in%20Organisations%3A%20A%20Systematic%20Review%20of%20Its%20Effectiveness%20and%20the%20Mechanisms%20Underlying%20It.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/coaching/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "practitioner-journal",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Herminia Ibarra (author's site)",
+   "dcterms:title": "The Leader as Coach (Ibarra & Scoular, Harvard Business Review, 2019, 97(6), 110-119)",
+   "schema:url": {
+    "@id": "https://herminiaibarra.com/?p=895"
    }
   },
   {

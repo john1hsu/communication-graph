@@ -913,6 +913,14 @@ Ask yourself:
 - What exact situation in the next two weeks will I use this in, and who will notice whether I did?
 - Is anything at work (my manager, our appraisal, team norms) rewarding the old way of handling this?
 
+### [Coaching](../articles/feedback-and-coaching/coaching.md) — Skill
+
+Ask yourself:
+- Did I ask what they had already thought of before offering my own answer?
+- Had I decided the answer in advance and then steered them towards it with leading questions?
+- Who did most of the talking - and who owns the next step now, me or them?
+- Was this a moment for coaching at all, or did they simply need information, a decision or to be left alone?
+
 ### [Feedback sandwich](../articles/feedback-and-coaching/feedback-sandwich.md) — Technique
 
 1. Decide whether a sandwich is needed at all - routine corrections in a healthy working relationship can be given on their own, and praise can be given separately when it is earned.
