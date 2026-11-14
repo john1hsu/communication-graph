@@ -6978,6 +6978,105 @@
    ]
   },
   {
+   "@id": "cm:employee-silence",
+   "@type": "cmo:Barrier",
+   "cmo:contrastsWith": {
+    "@id": "cm:employee-voice"
+   },
+   "cmo:demonstratedBy": {
+    "@id": "cm:milliken-morrison-hewlin-2003"
+   },
+   "cmo:domain": "barriers-and-psychology",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:explainedBy": [
+    {
+     "@id": "cm:implicit-voice-theories"
+    },
+    {
+     "@id": "cm:psychological-safety"
+    }
+   ],
+   "cmo:file": "articles/barriers-and-psychology/employee-silence.md",
+   "cmo:level": "introductory",
+   "cmo:supportedBy": {
+    "@id": "cm:hao-et-al-2022"
+   },
+   "cmo:undermines": {
+    "@id": "cm:group-decision-making"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/employee-silence/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/employee-silence/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/employee-silence/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/employee-silence/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/employee-silence/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/employee-silence/s6"
+    }
+   ],
+   "rdfs:label": "Employee silence",
+   "skos:altLabel": [
+    "keeping quiet at work",
+    "organizational silence",
+    "self-censorship at work",
+    "withholding voice at work"
+   ],
+   "skos:broader": {
+    "@id": "cm:organizational-communication"
+   },
+   "skos:definition": "Employees' choice to hold back ideas, concerns, problems or disagreement from people who could act on them - usually managers - out of fear, a sense that speaking up is futile, or taken-for-granted rules about hierarchy. It starves leaders of bad news and good ideas alike.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/barriers-and-psychology"
+   },
+   "skos:prefLabel": "Employee silence",
+   "skos:related": [
+    {
+     "@id": "cm:deaf-effect"
+    },
+    {
+     "@id": "cm:escalation-communication"
+    },
+    {
+     "@id": "cm:graded-assertiveness"
+    },
+    {
+     "@id": "cm:issue-selling"
+    },
+    {
+     "@id": "cm:managing-up"
+    },
+    {
+     "@id": "cm:mum-effect"
+    },
+    {
+     "@id": "cm:one-on-one-meetings"
+    },
+    {
+     "@id": "cm:power-distance"
+    },
+    {
+     "@id": "cm:psychological-safety"
+    },
+    {
+     "@id": "cm:upward-dissent"
+    }
+   ]
+  },
+  {
    "@id": "cm:erving-goffman",
    "@type": "cmo:Person",
    "cmo:authored": [
@@ -26739,6 +26838,38 @@
    "rdfs:label": "Am I explaining a tired or stressed colleague's slip as a character flaw when the situation may account for it?"
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/employee-silence/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:employee-silence"
+   },
+   "rdfs:label": "Is there something I know about this work - a risk, a mistake, a better idea - that the person who could fix it has not heard from me?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/employee-silence/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:employee-silence"
+   },
+   "rdfs:label": "Am I staying quiet because I have weighed the risk, or because \"you just don't say that here\" without ever testing it?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/employee-silence/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:employee-silence"
+   },
+   "rdfs:label": "If others on the team see the same problem, who is going to raise it, and when?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/employee-silence/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:employee-silence"
+   },
+   "rdfs:label": "As a manager, when did someone last bring me unwelcome news, and what did my reaction teach them?"
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/escalation-communication/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -39420,6 +39551,90 @@
    "dcterms:title": "Empathy gaps for social pain and children's bystander behavior in bullying episodes",
    "schema:url": {
     "@id": "https://udspace.udel.edu/server/api/core/bitstreams/d4747f7d-59d7-4c84-b130-1820a5454b22/content"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/employee-silence/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Milliken, F. J., Morrison, E. W. & Hewlin, P. F., Journal of Management Studies 40(6), 1453-1476, 2003 (NYU Stern manuscript copy)",
+   "dcterms:title": "An Exploratory Study of Employee Silence: Issues that Employees Don't Communicate Upward and Why",
+   "schema:url": {
+    "@id": "https://homepages.se.edu/cvonbergen/files/2012/12/AN-EXPLORATORY-STUDY-OF-EMPLOYEE-SILENCE_IISSUES-THAT-EMPLOYEES-DONT-COMMUNICATE-UPWARD-AND-WHY.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/employee-silence/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Detert, J. R. & Edmondson, A. C., Academy of Management Journal 54(3), 461-488, 2011, doi:10.5465/amj.2011.61967925 (Harvard Business School faculty page)",
+   "dcterms:title": "Implicit Voice Theories: Taken-for-granted Rules of Self-censorship at Work",
+   "schema:url": {
+    "@id": "https://www.hbs.edu/faculty/Pages/item.aspx?num=38244"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/employee-silence/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Hao, L., Zhu, H., He, Y. et al., Journal of Business and Psychology 37, 1039-1063, 2022, doi:10.1007/s10869-021-09788-7",
+   "dcterms:title": "When Is Silence Golden? A Meta-analysis on Antecedents and Outcomes of Employee Silence",
+   "schema:url": {
+    "@id": "https://link.springer.com/doi/10.1007/s10869-021-09788-7"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/employee-silence/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Sherf, E. N., Parke, M. R. & Isaakyan, S., Academy of Management Journal, 2021 (London Business School research page)",
+   "dcterms:title": "Distinguishing Voice and Silence at Work: Unique Relationships with Perceived Impact, Psychological Safety, and Burnout",
+   "schema:url": {
+    "@id": "https://www.london.edu/faculty-and-research/academic-research/d/distinguishing-voice-and-silence-at-work-unique-relationships-with-psychological-safety-impact-and-burnout"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/employee-silence/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "NYU Stern School of Business, September 4, 2014",
+   "dcterms:title": "Why Employees Often Don't Speak Up (on Morrison, See & Pan, An Approach-Inhibition Model of Employee Silence, Personnel Psychology)",
+   "schema:url": {
+    "@id": "https://www.stern.nyu.edu/experience-stern/faculty-research/morrison-see-employees-speak-up.md"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/employee-silence/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Harvard Business School Working Knowledge, interview with Amy C. Edmondson and James Detert, March 20, 2006",
+   "dcterms:title": "Do I Dare Say Something?",
+   "schema:url": {
+    "@id": "https://www.library.hbs.edu/working-knowledge/do-i-dare-say-something"
    }
   },
   {

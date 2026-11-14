@@ -7925,6 +7925,121 @@
   ]
  },
  {
+  "id": "cm:employee-silence",
+  "title": "Employee silence",
+  "aliases": [
+   "organizational silence",
+   "withholding voice at work",
+   "keeping quiet at work",
+   "self-censorship at work"
+  ],
+  "type": "Barrier",
+  "domain": "barriers-and-psychology",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/barriers-and-psychology/employee-silence.md",
+  "created": "2026-11-14",
+  "summary": "Employees' choice to hold back ideas, concerns, problems or disagreement from people who could act on them - usually managers - out of fear, a sense that speaking up is futile, or taken-for-granted rules about hierarchy. It starves leaders of bad news and good ideas alike.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:organizational-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:upward-dissent"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:psychological-safety"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:mum-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:escalation-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:graded-assertiveness"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:power-distance"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:issue-selling"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:managing-up"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:one-on-one-meetings"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:deaf-effect"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:milliken-morrison-hewlin-2003",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:implicit-voice-theories",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:psychological-safety",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:hao-et-al-2022",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:contrastsWith",
+    "object": "cm:employee-voice",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:undermines",
+    "object": "cm:group-decision-making",
+    "source": "s1",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Is there something I know about this work - a risk, a mistake, a better idea - that the person who could fix it has not heard from me?",
+   "Am I staying quiet because I have weighed the risk, or because \"you just don't say that here\" without ever testing it?",
+   "If others on the team see the same problem, who is going to raise it, and when?",
+   "As a manager, when did someone last bring me unwelcome news, and what did my reaction teach them?"
+  ],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://homepages.se.edu/cvonbergen/files/2012/12/AN-EXPLORATORY-STUDY-OF-EMPLOYEE-SILENCE_IISSUES-THAT-EMPLOYEES-DONT-COMMUNICATE-UPWARD-AND-WHY.pdf",
+   "https://www.hbs.edu/faculty/Pages/item.aspx?num=38244",
+   "https://link.springer.com/doi/10.1007/s10869-021-09788-7",
+   "https://www.london.edu/faculty-and-research/academic-research/d/distinguishing-voice-and-silence-at-work-unique-relationships-with-psychological-safety-impact-and-burnout",
+   "https://www.stern.nyu.edu/experience-stern/faculty-research/morrison-see-employees-speak-up.md",
+   "https://www.library.hbs.edu/working-knowledge/do-i-dare-say-something"
+  ]
+ },
+ {
   "id": "cm:erving-goffman",
   "title": "Erving Goffman",
   "aliases": [

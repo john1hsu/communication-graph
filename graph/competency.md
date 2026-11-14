@@ -36,9 +36,9 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:communicating-across-languages` | 2 | Unequal participation, language-barriers |
 | `cm:culture-assimilator` | 2 | Cultural intelligence, Intercultural competence |
 | `cm:describe-analyze-evaluate` | 2 | Ethnocentrism, Intercultural competence |
-| `cm:escalation-communication` | 2 | MUM effect, employee-silence |
+| `cm:escalation-communication` | 2 | Employee silence, MUM effect |
 | `cm:facilitation` | 2 | Interrupting, Unequal participation |
-| `cm:graded-assertiveness` | 2 | Upward dissent, employee-silence |
+| `cm:graded-assertiveness` | 2 | Employee silence, Upward dissent |
 | `cm:i-statements` | 2 | Defensiveness, accusatory-you-statements |
 | `cm:interests-vs-positions` | 2 | Mythical fixed-pie bias, positional-bargaining |
 | `cm:nominal-group-technique` | 2 | Unequal participation, production-blocking |
@@ -135,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:apology` | mixed |  |
 | `cm:assertion-evidence-slides` | mixed | `cm:alzayed-alzamel-2023` |
 
-…and 153 more.
+…and 154 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -144,6 +144,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | node | type |
 |---|---|
 | `cm:digital-communication` | cmo:Field |
+| `cm:employee-silence` | cmo:Barrier |
 | `cm:escalation-communication` | cmo:Technique |
 | `cm:executive-summary` | cmo:Genre |
 | `cm:gestures` | cmo:Skill |
@@ -172,9 +173,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:note-taking-while-listening` | cmo:Technique |
 | `cm:one-on-one-meetings` | cmo:Context |
 | `cm:one-remote-all-remote` | cmo:Technique |
-| `cm:open-ended-questions` | cmo:Technique |
 
-…and 42 more.
+…and 43 more.
 
 ## Orphan articles (gap)
 

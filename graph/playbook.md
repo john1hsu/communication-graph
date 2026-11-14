@@ -51,6 +51,14 @@ Ask yourself:
 - Before I say how much I did on this project, have I listed what each other person contributed?
 - Am I assuming my tone is obvious in this email because I can hear it in my own head?
 
+### [Employee silence](../articles/barriers-and-psychology/employee-silence.md) — Barrier
+
+Ask yourself:
+- Is there something I know about this work - a risk, a mistake, a better idea - that the person who could fix it has not heard from me?
+- Am I staying quiet because I have weighed the risk, or because "you just don't say that here" without ever testing it?
+- If others on the team see the same problem, who is going to raise it, and when?
+- As a manager, when did someone last bring me unwelcome news, and what did my reaction teach them?
+
 ### [Hot-cold empathy gap](../articles/barriers-and-psychology/empathy-gap.md) — Barrier
 
 Ask yourself:

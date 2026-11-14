@@ -4149,6 +4149,55 @@
 <https://github.com/john1hsu/communication-graph/id/empathy-gap> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/george-loewenstein> .
 <https://github.com/john1hsu/communication-graph/id/empathy-gap> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/communication-graph/id/empathy-gap> <https://github.com/john1hsu/communication-graph/ontology#undermines> <https://github.com/john1hsu/communication-graph/id/workplace-compassion> .
+<https://github.com/john1hsu/communication-graph/id/employee-silence/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/employee-silence/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Is there something I know about this work - a risk, a mistake, a better idea - that the person who could fix it has not heard from me?" .
+<https://github.com/john1hsu/communication-graph/id/employee-silence/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/employee-silence> .
+<https://github.com/john1hsu/communication-graph/id/employee-silence/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/employee-silence/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Am I staying quiet because I have weighed the risk, or because \"you just don't say that here\" without ever testing it?" .
+<https://github.com/john1hsu/communication-graph/id/employee-silence/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/employee-silence> .
+<https://github.com/john1hsu/communication-graph/id/employee-silence/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/employee-silence/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "If others on the team see the same problem, who is going to raise it, and when?" .
+<https://github.com/john1hsu/communication-graph/id/employee-silence/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/employee-silence> .
+<https://github.com/john1hsu/communication-graph/id/employee-silence/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/employee-silence/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "As a manager, when did someone last bring me unwelcome news, and what did my reaction teach them?" .
+<https://github.com/john1hsu/communication-graph/id/employee-silence/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/employee-silence> .
+<https://github.com/john1hsu/communication-graph/id/employee-silence> <http://purl.org/dc/terms/created> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/employee-silence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Barrier> .
+<https://github.com/john1hsu/communication-graph/id/employee-silence> <http://www.w3.org/2000/01/rdf-schema#label> "Employee silence" .
+<https://github.com/john1hsu/communication-graph/id/employee-silence> <http://www.w3.org/2004/02/skos/core#altLabel> "keeping quiet at work" .
+<https://github.com/john1hsu/communication-graph/id/employee-silence> <http://www.w3.org/2004/02/skos/core#altLabel> "organizational silence" .
+<https://github.com/john1hsu/communication-graph/id/employee-silence> <http://www.w3.org/2004/02/skos/core#altLabel> "self-censorship at work" .
+<https://github.com/john1hsu/communication-graph/id/employee-silence> <http://www.w3.org/2004/02/skos/core#altLabel> "withholding voice at work" .
+<https://github.com/john1hsu/communication-graph/id/employee-silence> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
+<https://github.com/john1hsu/communication-graph/id/employee-silence> <http://www.w3.org/2004/02/skos/core#definition> "Employees' choice to hold back ideas, concerns, problems or disagreement from people who could act on them - usually managers - out of fear, a sense that speaking up is futile, or taken-for-granted rules about hierarchy. It starves leaders of bad news and good ideas alike." .
+<https://github.com/john1hsu/communication-graph/id/employee-silence> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/barriers-and-psychology> .
+<https://github.com/john1hsu/communication-graph/id/employee-silence> <http://www.w3.org/2004/02/skos/core#prefLabel> "Employee silence" .
+<https://github.com/john1hsu/communication-graph/id/employee-silence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/deaf-effect> .
+<https://github.com/john1hsu/communication-graph/id/employee-silence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/escalation-communication> .
+<https://github.com/john1hsu/communication-graph/id/employee-silence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/graded-assertiveness> .
+<https://github.com/john1hsu/communication-graph/id/employee-silence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/issue-selling> .
+<https://github.com/john1hsu/communication-graph/id/employee-silence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/managing-up> .
+<https://github.com/john1hsu/communication-graph/id/employee-silence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mum-effect> .
+<https://github.com/john1hsu/communication-graph/id/employee-silence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> .
+<https://github.com/john1hsu/communication-graph/id/employee-silence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/power-distance> .
+<https://github.com/john1hsu/communication-graph/id/employee-silence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
+<https://github.com/john1hsu/communication-graph/id/employee-silence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/upward-dissent> .
+<https://github.com/john1hsu/communication-graph/id/employee-silence> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/employee-silence/s1> .
+<https://github.com/john1hsu/communication-graph/id/employee-silence> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/employee-silence/s2> .
+<https://github.com/john1hsu/communication-graph/id/employee-silence> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/employee-silence/s3> .
+<https://github.com/john1hsu/communication-graph/id/employee-silence> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/employee-silence/s4> .
+<https://github.com/john1hsu/communication-graph/id/employee-silence> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/employee-silence/s5> .
+<https://github.com/john1hsu/communication-graph/id/employee-silence> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/employee-silence/s6> .
+<https://github.com/john1hsu/communication-graph/id/employee-silence> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/employee-voice> .
+<https://github.com/john1hsu/communication-graph/id/employee-silence> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/milliken-morrison-hewlin-2003> .
+<https://github.com/john1hsu/communication-graph/id/employee-silence> <https://github.com/john1hsu/communication-graph/ontology#domain> "barriers-and-psychology" .
+<https://github.com/john1hsu/communication-graph/id/employee-silence> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/employee-silence> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/implicit-voice-theories> .
+<https://github.com/john1hsu/communication-graph/id/employee-silence> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
+<https://github.com/john1hsu/communication-graph/id/employee-silence> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/barriers-and-psychology/employee-silence.md" .
+<https://github.com/john1hsu/communication-graph/id/employee-silence> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/employee-silence> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/hao-et-al-2022> .
+<https://github.com/john1hsu/communication-graph/id/employee-silence> <https://github.com/john1hsu/communication-graph/ontology#undermines> <https://github.com/john1hsu/communication-graph/id/group-decision-making> .
 <https://github.com/john1hsu/communication-graph/id/erving-goffman> <http://purl.org/dc/terms/created> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/erving-goffman> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
 <https://github.com/john1hsu/communication-graph/id/erving-goffman> <http://www.w3.org/2000/01/rdf-schema#label> "Erving Goffman" .
@@ -14547,6 +14596,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/empathy-gap/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/empathy-gap/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
 <https://github.com/john1hsu/communication-graph/id/source/empathy-gap/s6> <https://schema.org/url> <https://udspace.udel.edu/server/api/core/bitstreams/d4747f7d-59d7-4c84-b130-1820a5454b22/content> .
+<https://github.com/john1hsu/communication-graph/id/source/employee-silence/s1> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/employee-silence/s1> <http://purl.org/dc/terms/publisher> "Milliken, F. J., Morrison, E. W. & Hewlin, P. F., Journal of Management Studies 40(6), 1453-1476, 2003 (NYU Stern manuscript copy)" .
+<https://github.com/john1hsu/communication-graph/id/source/employee-silence/s1> <http://purl.org/dc/terms/title> "An Exploratory Study of Employee Silence: Issues that Employees Don't Communicate Upward and Why" .
+<https://github.com/john1hsu/communication-graph/id/source/employee-silence/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/employee-silence/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/employee-silence/s1> <https://schema.org/url> <https://homepages.se.edu/cvonbergen/files/2012/12/AN-EXPLORATORY-STUDY-OF-EMPLOYEE-SILENCE_IISSUES-THAT-EMPLOYEES-DONT-COMMUNICATE-UPWARD-AND-WHY.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/employee-silence/s2> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/employee-silence/s2> <http://purl.org/dc/terms/publisher> "Detert, J. R. & Edmondson, A. C., Academy of Management Journal 54(3), 461-488, 2011, doi:10.5465/amj.2011.61967925 (Harvard Business School faculty page)" .
+<https://github.com/john1hsu/communication-graph/id/source/employee-silence/s2> <http://purl.org/dc/terms/title> "Implicit Voice Theories: Taken-for-granted Rules of Self-censorship at Work" .
+<https://github.com/john1hsu/communication-graph/id/source/employee-silence/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/employee-silence/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/employee-silence/s2> <https://schema.org/url> <https://www.hbs.edu/faculty/Pages/item.aspx?num=38244> .
+<https://github.com/john1hsu/communication-graph/id/source/employee-silence/s3> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/employee-silence/s3> <http://purl.org/dc/terms/publisher> "Hao, L., Zhu, H., He, Y. et al., Journal of Business and Psychology 37, 1039-1063, 2022, doi:10.1007/s10869-021-09788-7" .
+<https://github.com/john1hsu/communication-graph/id/source/employee-silence/s3> <http://purl.org/dc/terms/title> "When Is Silence Golden? A Meta-analysis on Antecedents and Outcomes of Employee Silence" .
+<https://github.com/john1hsu/communication-graph/id/source/employee-silence/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/employee-silence/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/employee-silence/s3> <https://schema.org/url> <https://link.springer.com/doi/10.1007/s10869-021-09788-7> .
+<https://github.com/john1hsu/communication-graph/id/source/employee-silence/s4> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/employee-silence/s4> <http://purl.org/dc/terms/publisher> "Sherf, E. N., Parke, M. R. & Isaakyan, S., Academy of Management Journal, 2021 (London Business School research page)" .
+<https://github.com/john1hsu/communication-graph/id/source/employee-silence/s4> <http://purl.org/dc/terms/title> "Distinguishing Voice and Silence at Work: Unique Relationships with Perceived Impact, Psychological Safety, and Burnout" .
+<https://github.com/john1hsu/communication-graph/id/source/employee-silence/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/employee-silence/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/employee-silence/s4> <https://schema.org/url> <https://www.london.edu/faculty-and-research/academic-research/d/distinguishing-voice-and-silence-at-work-unique-relationships-with-psychological-safety-impact-and-burnout> .
+<https://github.com/john1hsu/communication-graph/id/source/employee-silence/s5> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/employee-silence/s5> <http://purl.org/dc/terms/publisher> "NYU Stern School of Business, September 4, 2014" .
+<https://github.com/john1hsu/communication-graph/id/source/employee-silence/s5> <http://purl.org/dc/terms/title> "Why Employees Often Don't Speak Up (on Morrison, See & Pan, An Approach-Inhibition Model of Employee Silence, Personnel Psychology)" .
+<https://github.com/john1hsu/communication-graph/id/source/employee-silence/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/employee-silence/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/employee-silence/s5> <https://schema.org/url> <https://www.stern.nyu.edu/experience-stern/faculty-research/morrison-see-employees-speak-up.md> .
+<https://github.com/john1hsu/communication-graph/id/source/employee-silence/s6> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/employee-silence/s6> <http://purl.org/dc/terms/publisher> "Harvard Business School Working Knowledge, interview with Amy C. Edmondson and James Detert, March 20, 2006" .
+<https://github.com/john1hsu/communication-graph/id/source/employee-silence/s6> <http://purl.org/dc/terms/title> "Do I Dare Say Something?" .
+<https://github.com/john1hsu/communication-graph/id/source/employee-silence/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/employee-silence/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/employee-silence/s6> <https://schema.org/url> <https://www.library.hbs.edu/working-knowledge/do-i-dare-say-something> .
 <https://github.com/john1hsu/communication-graph/id/source/erving-goffman/s1> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/erving-goffman/s1> <http://purl.org/dc/terms/publisher> "Goffman, E., American Sociological Review 48(1), 1-17, 1983 (record of the authorised Portuguese translation, Dilemas 12(3), 2019, Federal University of Rio de Janeiro)" .
 <https://github.com/john1hsu/communication-graph/id/source/erving-goffman/s1> <http://purl.org/dc/terms/title> "The Interaction Order: American Sociological Association, 1982 Presidential Address" .
