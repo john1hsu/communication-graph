@@ -2191,6 +2191,57 @@
 <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/difficult-conversations-and-conflict/cognitive-reappraisal.md" .
 <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/howto> .
 <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/communication-graph/id/coherence-principle/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/coherence-principle/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "For each image, anecdote, clip or joke in this deck, can I say which point it helps the audience understand?" .
+<https://github.com/john1hsu/communication-graph/id/coherence-principle/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/coherence-principle> .
+<https://github.com/john1hsu/communication-graph/id/coherence-principle/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/coherence-principle/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Is anything amusing or vivid sitting right next to the chart or diagram I most need people to study?" .
+<https://github.com/john1hsu/communication-graph/id/coherence-principle/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/coherence-principle> .
+<https://github.com/john1hsu/communication-graph/id/coherence-principle/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/coherence-principle/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "If I removed this element, would the audience lose information or only decoration?" .
+<https://github.com/john1hsu/communication-graph/id/coherence-principle/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/coherence-principle> .
+<https://github.com/john1hsu/communication-graph/id/coherence-principle/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/coherence-principle/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Have I kept the engaging material that is relevant, rather than stripping the talk bare?" .
+<https://github.com/john1hsu/communication-graph/id/coherence-principle/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/coherence-principle> .
+<https://github.com/john1hsu/communication-graph/id/coherence-principle> <http://purl.org/dc/terms/created> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/coherence-principle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Principle> .
+<https://github.com/john1hsu/communication-graph/id/coherence-principle> <http://www.w3.org/2000/01/rdf-schema#label> "Coherence principle" .
+<https://github.com/john1hsu/communication-graph/id/coherence-principle> <http://www.w3.org/2004/02/skos/core#altLabel> "Mayer's coherence principle" .
+<https://github.com/john1hsu/communication-graph/id/coherence-principle> <http://www.w3.org/2004/02/skos/core#altLabel> "cutting seductive details" .
+<https://github.com/john1hsu/communication-graph/id/coherence-principle> <http://www.w3.org/2004/02/skos/core#altLabel> "exclude extraneous material" .
+<https://github.com/john1hsu/communication-graph/id/coherence-principle> <http://www.w3.org/2004/02/skos/core#altLabel> "seductive details effect" .
+<https://github.com/john1hsu/communication-graph/id/coherence-principle> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> .
+<https://github.com/john1hsu/communication-graph/id/coherence-principle> <http://www.w3.org/2004/02/skos/core#definition> "The multimedia-design principle that people understand a presentation or lesson more deeply when interesting but irrelevant words, images, clips and sounds are left out rather than added to make it more engaging." .
+<https://github.com/john1hsu/communication-graph/id/coherence-principle> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/presenting-and-public-speaking> .
+<https://github.com/john1hsu/communication-graph/id/coherence-principle> <http://www.w3.org/2004/02/skos/core#prefLabel> "Coherence principle" .
+<https://github.com/john1hsu/communication-graph/id/coherence-principle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> .
+<https://github.com/john1hsu/communication-graph/id/coherence-principle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/concise-writing> .
+<https://github.com/john1hsu/communication-graph/id/coherence-principle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/data-ink-ratio> .
+<https://github.com/john1hsu/communication-graph/id/coherence-principle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint> .
+<https://github.com/john1hsu/communication-graph/id/coherence-principle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/edward-tufte> .
+<https://github.com/john1hsu/communication-graph/id/coherence-principle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/signposting> .
+<https://github.com/john1hsu/communication-graph/id/coherence-principle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/slide-design> .
+<https://github.com/john1hsu/communication-graph/id/coherence-principle> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/coherence-principle/s1> .
+<https://github.com/john1hsu/communication-graph/id/coherence-principle> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/coherence-principle/s2> .
+<https://github.com/john1hsu/communication-graph/id/coherence-principle> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/coherence-principle/s3> .
+<https://github.com/john1hsu/communication-graph/id/coherence-principle> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/coherence-principle/s4> .
+<https://github.com/john1hsu/communication-graph/id/coherence-principle> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/coherence-principle/s5> .
+<https://github.com/john1hsu/communication-graph/id/coherence-principle> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/coherence-principle/s6> .
+<https://github.com/john1hsu/communication-graph/id/coherence-principle> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/information-overload> .
+<https://github.com/john1hsu/communication-graph/id/coherence-principle> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/presentation> .
+<https://github.com/john1hsu/communication-graph/id/coherence-principle> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/rey-2012> .
+<https://github.com/john1hsu/communication-graph/id/coherence-principle> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/strobel-grund-lindner-2018> .
+<https://github.com/john1hsu/communication-graph/id/coherence-principle> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/mayer-heiser-lonn-2001> .
+<https://github.com/john1hsu/communication-graph/id/coherence-principle> <https://github.com/john1hsu/communication-graph/ontology#develops> <https://github.com/john1hsu/communication-graph/id/slide-design> .
+<https://github.com/john1hsu/communication-graph/id/coherence-principle> <https://github.com/john1hsu/communication-graph/ontology#domain> "presenting-and-public-speaking" .
+<https://github.com/john1hsu/communication-graph/id/coherence-principle> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/coherence-principle> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/cognitive-load> .
+<https://github.com/john1hsu/communication-graph/id/coherence-principle> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> .
+<https://github.com/john1hsu/communication-graph/id/coherence-principle> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/presenting-and-public-speaking/coherence-principle.md" .
+<https://github.com/john1hsu/communication-graph/id/coherence-principle> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/richard-e-mayer> .
+<https://github.com/john1hsu/communication-graph/id/coherence-principle> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/communication-graph/id/coherence-principle> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
+<https://github.com/john1hsu/communication-graph/id/coherence-principle> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/sundararajan-adesope-2020> .
 <https://github.com/john1hsu/communication-graph/id/common-ground> <http://purl.org/dc/terms/created> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/common-ground> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Theory> .
 <https://github.com/john1hsu/communication-graph/id/common-ground> <http://www.w3.org/2000/01/rdf-schema#label> "Common ground and grounding theory" .
@@ -14504,6 +14555,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/cognitive-reappraisal/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/cognitive-reappraisal/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/communication-graph/id/source/cognitive-reappraisal/s6> <https://schema.org/url> <https://escholarship.org/content/qt5ws5w0h9/qt5ws5w0h9.pdf?t=rufpxh> .
+<https://github.com/john1hsu/communication-graph/id/source/coherence-principle/s1> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/coherence-principle/s1> <http://purl.org/dc/terms/publisher> "Mayer, R. E., in Overson, Hakala, Kordonowy & Benassi (eds.), In Their Own Words, Society for the Teaching of Psychology (APA Division 2), 2023, pp. 143-157 (University of New Hampshire copy)" .
+<https://github.com/john1hsu/communication-graph/id/source/coherence-principle/s1> <http://purl.org/dc/terms/title> "Research-based principles for designing multimedia instruction" .
+<https://github.com/john1hsu/communication-graph/id/source/coherence-principle/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/coherence-principle/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/coherence-principle/s1> <https://schema.org/url> <https://www.unh.edu/teaching-learning-resource-hub/sites/default/files/media/2023-06/itow-research-based-principles-for-designing-multimedia-instruction-mayer.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/coherence-principle/s2> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/coherence-principle/s2> <http://purl.org/dc/terms/publisher> "Mayer, R. E., Heiser, J. & Lonn, S., Journal of Educational Psychology 93(1), 187-198, 2001 (California State University, Sacramento copy)" .
+<https://github.com/john1hsu/communication-graph/id/source/coherence-principle/s2> <http://purl.org/dc/terms/title> "Cognitive constraints on multimedia learning: When presenting more material results in less understanding" .
+<https://github.com/john1hsu/communication-graph/id/source/coherence-principle/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/coherence-principle/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/coherence-principle/s2> <https://schema.org/url> <https://www.csus.edu/indiv/e/eppersonm/hist107/documents/mayer,%20heiser,%20&%20lonn%20(2001).pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/coherence-principle/s3> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/coherence-principle/s3> <http://purl.org/dc/terms/publisher> "Sundararajan, N. K. & Adesope, O., Educational Psychology Review 32(3), 707-734, 2020 (Washington State University research repository)" .
+<https://github.com/john1hsu/communication-graph/id/source/coherence-principle/s3> <http://purl.org/dc/terms/title> "Keep it coherent: A meta-analysis of the seductive details effect" .
+<https://github.com/john1hsu/communication-graph/id/source/coherence-principle/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/coherence-principle/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/coherence-principle/s3> <https://schema.org/url> <https://rex.libraries.wsu.edu/esploro/outputs/journalArticle/Keep-it-Coherent-A-Meta-Analysis-of/99900601155501842> .
+<https://github.com/john1hsu/communication-graph/id/source/coherence-principle/s4> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/coherence-principle/s4> <http://purl.org/dc/terms/publisher> "Washington State University News, 19 March 2020" .
+<https://github.com/john1hsu/communication-graph/id/source/coherence-principle/s4> <http://purl.org/dc/terms/title> "Seductive details inhibit learning" .
+<https://github.com/john1hsu/communication-graph/id/source/coherence-principle/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/coherence-principle/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/communication-graph/id/source/coherence-principle/s4> <https://schema.org/url> <https://news.wsu.edu/2020/03/19/seductive-details-inhibit-learning/> .
+<https://github.com/john1hsu/communication-graph/id/source/coherence-principle/s5> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/coherence-principle/s5> <http://purl.org/dc/terms/publisher> "Rey, G. D., Journal of Educational Multimedia and Hypermedia 21(3), 257-283, 2012 (LearnTechLib)" .
+<https://github.com/john1hsu/communication-graph/id/source/coherence-principle/s5> <http://purl.org/dc/terms/title> "How seductive are decorative elements in learning material?" .
+<https://github.com/john1hsu/communication-graph/id/source/coherence-principle/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/coherence-principle/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/coherence-principle/s5> <https://schema.org/url> <https://learntechlib.org/primary/p/39253> .
+<https://github.com/john1hsu/communication-graph/id/source/coherence-principle/s6> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/coherence-principle/s6> <http://purl.org/dc/terms/publisher> "Strobel, B., Grund, S. & Lindner, M. A., Applied Cognitive Psychology, 2018 (author copy)" .
+<https://github.com/john1hsu/communication-graph/id/source/coherence-principle/s6> <http://purl.org/dc/terms/title> "Do seductive details do their damage in the context of graph comprehension? Insights from eye movements" .
+<https://github.com/john1hsu/communication-graph/id/source/coherence-principle/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/coherence-principle/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/coherence-principle/s6> <https://schema.org/url> <https://simongrund1.github.io/publications/pdf/Strobel_etal_2018_ACP.pdf> .
 <https://github.com/john1hsu/communication-graph/id/source/common-ground/s1> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/common-ground/s1> <http://purl.org/dc/terms/publisher> "Herbert H. Clark & Susan E. Brennan, in Resnick, Levine & Teasley (eds.), Perspectives on Socially Shared Cognition, APA Books, 127-149 (1991) (author's copy, Stanford University)" .
 <https://github.com/john1hsu/communication-graph/id/source/common-ground/s1> <http://purl.org/dc/terms/title> "Grounding in communication" .

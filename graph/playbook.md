@@ -2292,6 +2292,14 @@ Ask yourself:
 - Am I planning to explain each visual, or am I going to read the headline and bullets aloud?
 - Is the material complex enough to need visual evidence, or would a simple spoken point serve the audience better?
 
+### [Coherence principle](../articles/presenting-and-public-speaking/coherence-principle.md) — Principle
+
+Ask yourself:
+- For each image, anecdote, clip or joke in this deck, can I say which point it helps the audience understand?
+- Is anything amusing or vivid sitting right next to the chart or diagram I most need people to study?
+- If I removed this element, would the audience lose information or only decoration?
+- Have I kept the engaging material that is relevant, rather than stripping the talk bare?
+
 ### [Death by PowerPoint](../articles/presenting-and-public-speaking/death-by-powerpoint.md) — AntiPattern
 
 *A team lead presents a quarterly operations review to the leadership team and needs approval to hire two support engineers.*

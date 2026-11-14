@@ -12,9 +12,7 @@ _No results._
 
 _Which written skills or dispositions have no technique, framework or principle that develops them?_ — `queries/02-skills-without-practice.rq`
 
-| skill | type |
-|---|---|
-| `cm:slide-design` | cmo:Skill |
+_No results._
 
 ## Situations, channels and formats with no guidance (gap)
 
@@ -36,6 +34,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:acoustic-speech-analysis-coaching` | 2 | Vocal delivery, monotone-delivery |
 | `cm:behavior-modeling-training` | 2 | Communication competence, assertiveness |
 | `cm:chat-etiquette` | 2 | Information overload, workplace-telepressure |
+| `cm:coherence-principle` | 2 | Information overload, Slide design |
 | `cm:communicating-across-languages` | 2 | Unequal participation, language-barriers |
 | `cm:culture-assimilator` | 2 | Cultural intelligence, Intercultural competence |
 | `cm:describe-analyze-evaluate` | 2 | Ethnocentrism, Intercultural competence |
@@ -57,9 +56,8 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:systematic-desensitization` | 2 | Communication apprehension, Public speaking anxiety |
 | `cm:thought-groups` | 2 | Filled pauses, Silence and pauses |
 | `cm:active-listening` | 1 | Defensiveness |
-| `cm:active-voice` | 1 | unclear-ownership |
 
-…and 56 more.
+…and 57 more.
 
 ## Toolkit by situation
 
@@ -98,7 +96,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:difficult-conversation` | `cm:perception-checking` |
 | `cm:difficult-conversation` | `cm:role-reversal` |
 
-…and 141 more.
+…and 142 more.
 
 ## Myths and contested advice
 
@@ -137,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:acoustic-speech-analysis-coaching` | mixed |  |
 | `cm:active-listening` | mixed |  |
 
-…and 175 more.
+…and 177 more.
 
 ## Concepts with no recorded origin (gap)
 
