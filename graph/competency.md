@@ -73,6 +73,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:asynchronous-communication` | `cm:setting-reply-time-expectations` |
 | `cm:business-report` | `cm:informative-headings` |
 | `cm:business-report` | `cm:pyramid-principle` |
+| `cm:client-communication` | `cm:cognitive-reappraisal` |
 | `cm:client-communication` | `cm:service-recovery` |
 | `cm:client-communication` | `cm:trusted-advisor` |
 | `cm:communication-plan` | `cm:raci-matrix` |
@@ -83,6 +84,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:delivering-bad-news` | `cm:message-structure` |
 | `cm:delivering-bad-news` | `cm:social-accounts` |
 | `cm:difficult-conversation` | `cm:active-listening` |
+| `cm:difficult-conversation` | `cm:cognitive-reappraisal` |
 | `cm:difficult-conversation` | `cm:conversational-receptiveness` |
 | `cm:difficult-conversation` | `cm:cooling-off-period` |
 | `cm:difficult-conversation` | `cm:de-escalation` |
@@ -95,10 +97,8 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:difficult-conversation` | `cm:thomas-kilmann-conflict-modes` |
 | `cm:elevator-pitch` | `cm:monroes-motivated-sequence` |
 | `cm:email` | `cm:audience-analysis` |
-| `cm:email` | `cm:bottom-line-up-front` |
-| `cm:email` | `cm:channel-selection` |
 
-…and 130 more.
+…and 132 more.
 
 ## Myths and contested advice
 
@@ -137,7 +137,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:acoustic-speech-analysis-coaching` | mixed |  |
 | `cm:active-listening` | mixed |  |
 
-…and 162 more.
+…and 164 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -146,6 +146,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | node | type |
 |---|---|
 | `cm:coaching` | cmo:Skill |
+| `cm:cognitive-reappraisal` | cmo:Technique |
 | `cm:deaf-effect` | cmo:Barrier |
 | `cm:digital-communication` | cmo:Field |
 | `cm:emotion-regulation` | cmo:Skill |
@@ -174,9 +175,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:mum-effect` | cmo:Barrier |
 | `cm:narrative-persuasion` | cmo:Technique |
 | `cm:negotiation` | cmo:Context |
-| `cm:negotiation-preparation` | cmo:Context |
 
-…and 49 more.
+…and 50 more.
 
 ## Orphan articles (gap)
 

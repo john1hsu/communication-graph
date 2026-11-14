@@ -257,6 +257,28 @@ Ask yourself:
 - Have I offered a concrete repair and a change with a date, and will I actually follow through?
 - Is this a lapse of skill, where apologizing helps, or an accusation about my honesty that I believe is false, where admitting it could backfire?
 
+### [Cognitive reappraisal](../articles/difficult-conversations-and-conflict/cognitive-reappraisal.md) — Technique
+
+1. Notice the trigger and the story you are telling yourself about it, in one sentence ("She is undermining me in front of the team").
+2. Ask whether the problem is one you can act on; if it is, plan the action first and use reappraisal only to cool down enough to take it.
+3. Generate at least one alternative reading that is still accurate - another cause, a neutral third party's view, or what good could come of it.
+4. Pick the reading that best fits the evidence and lets you pursue your goal for the conversation, and say your reply from that reading.
+5. Before a recurring tense meeting, write the reframe down in advance and plan how you will recall it when the trigger arrives.
+
+*A project lead receives a terse client email the night before a deadline, copying the client's director and listing three defects.*
+
+| Before | After |
+|---|---|
+| Noted. For the record, two of these were out of scope and we flagged the dependency on your team three weeks ago. | Thanks for listing these clearly - it helps. Item 1 we'll fix tonight. Items 2 and 3 depend on the data feed from your team; can we confirm a time tomorrow to sort that together? |
+
+**Why:** The lead first read the email as an attack staged for the director; reappraising it as a client under pressure from that same director let her answer the substance, keep the scope point as a joint next step, and avoid a defensive reply that would have escalated in front of the boss.
+
+Ask yourself:
+- What story am I telling myself about why this happened, and what is one other reading that fits the same facts?
+- How would a neutral colleague who wants the best for both of us describe this situation?
+- Is this something I can change - and if so, am I reframing it to feel better instead of acting on it?
+- Am I genuinely seeing it differently, or just keeping a straight face over the same anger?
+
 ### [Cooling-off period](../articles/difficult-conversations-and-conflict/cooling-off-period.md) — Technique
 
 1. Notice the trigger - a racing pulse, clenched jaw, or an urge to reply right now - and rate your anger from 1 to 10.

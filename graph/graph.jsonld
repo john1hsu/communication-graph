@@ -3350,6 +3350,104 @@
    ]
   },
   {
+   "@id": "cm:cognitive-reappraisal",
+   "@type": "cmo:Technique",
+   "cmo:appliedIn": [
+    {
+     "@id": "cm:client-communication"
+    },
+    {
+     "@id": "cm:difficult-conversation"
+    }
+   ],
+   "cmo:challengedBy": [
+    {
+     "@id": "cm:mcmanaman-2016"
+    },
+    {
+     "@id": "cm:troy-shallcross-mauss-2013"
+    }
+   ],
+   "cmo:contrastsWith": {
+    "@id": "cm:expressive-suppression"
+   },
+   "cmo:demonstratedBy": {
+    "@id": "cm:finkel-et-al-2013"
+   },
+   "cmo:domain": "difficult-conversations-and-conflict",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/example"
+   },
+   "cmo:explainedBy": {
+    "@id": "cm:process-model-of-emotion-regulation"
+   },
+   "cmo:file": "articles/difficult-conversations-and-conflict/cognitive-reappraisal.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/howto"
+   },
+   "cmo:level": "intermediate",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/cognitive-reappraisal/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/cognitive-reappraisal/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/cognitive-reappraisal/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/cognitive-reappraisal/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/cognitive-reappraisal/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/cognitive-reappraisal/s6"
+    }
+   ],
+   "rdfs:label": "Cognitive reappraisal",
+   "skos:altLabel": [
+    "conflict reappraisal",
+    "positive reappraisal",
+    "reappraisal",
+    "reframing a situation"
+   ],
+   "skos:broader": {
+    "@id": "cm:emotion-regulation"
+   },
+   "skos:definition": "Deliberately changing how you interpret a triggering situation - what it means, why it happened, what could come of it - so that the emotion it produces changes before it drives what you say, rather than hiding the feeling once it has fired.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/difficult-conversations-and-conflict"
+   },
+   "skos:prefLabel": "Cognitive reappraisal",
+   "skos:related": [
+    {
+     "@id": "cm:defensiveness"
+    },
+    {
+     "@id": "cm:labeling-emotions"
+    },
+    {
+     "@id": "cm:perception-checking"
+    },
+    {
+     "@id": "cm:perspective-taking"
+    },
+    {
+     "@id": "cm:receiving-feedback"
+    },
+    {
+     "@id": "cm:self-distancing"
+    }
+   ]
+  },
+  {
    "@id": "cm:common-ground",
    "@type": "cmo:Theory",
    "cmo:challengedBy": {
@@ -25898,6 +25996,98 @@
    "rdfs:label": "Was this a moment for coaching at all, or did they simply need information, a decision or to be left alone?"
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:cognitive-reappraisal"
+   },
+   "rdfs:label": "What story am I telling myself about why this happened, and what is one other reading that fits the same facts?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:cognitive-reappraisal"
+   },
+   "rdfs:label": "How would a neutral colleague who wants the best for both of us describe this situation?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:cognitive-reappraisal"
+   },
+   "rdfs:label": "Is this something I can change - and if so, am I reframing it to feel better instead of acting on it?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:cognitive-reappraisal"
+   },
+   "rdfs:label": "Am I genuinely seeing it differently, or just keeping a straight face over the same anger?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "Thanks for listing these clearly - it helps. Item 1 we'll fix tonight. Items 2 and 3 depend on the data feed from your team; can we confirm a time tomorrow to sort that together?",
+   "cmo:before": "Noted. For the record, two of these were out of scope and we flagged the dependency on your team three weeks ago.",
+   "cmo:situation": "A project lead receives a terse client email the night before a deadline, copying the client's director and listing three defects.",
+   "cmo:why": "The lead first read the email as an attack staged for the director; reappraising it as a client under pressure from that same director let her answer the substance, keep the scope point as a joint next step, and avoid a defensive reply that would have escalated in front of the boss."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Cognitive reappraisal",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/howto/5"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Notice the trigger and the story you are telling yourself about it, in one sentence (\"She is undermining me in front of the team\")."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Ask whether the problem is one you can act on; if it is, plan the action first and use reappraisal only to cool down enough to take it."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Generate at least one alternative reading that is still accurate - another cause, a neutral third party's view, or what good could come of it."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Pick the reading that best fits the evidence and lets you pursue your goal for the conversation, and say your reply from that reading."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Before a recurring tense meeting, write the reframe down in advance and plan how you will recall it when the trigger arrives."
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/communicating-across-languages/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -37642,6 +37832,90 @@
    "dcterms:title": "Writing for user interfaces",
    "schema:url": {
     "@id": "https://gov.uk/service-manual/design/writing-for-user-interfaces"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/cognitive-reappraisal/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Gross, J. J., Psychophysiology 39(3), 281-291, 2002, doi:10.1017/s0048577201393198 (PubMed record)",
+   "dcterms:title": "Emotion regulation: Affective, cognitive, and social consequences",
+   "schema:url": {
+    "@id": "https://pubmed.ncbi.nlm.nih.gov/12212647/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/cognitive-reappraisal/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Troy, A. S., Shallcross, A. J. & Mauss, I. B., Psychological Science, 2013, PMID 24145331 (QxMD Read record)",
+   "dcterms:title": "A person-by-situation approach to emotion regulation: Cognitive reappraisal can either help or hurt, depending on the context",
+   "schema:url": {
+    "@id": "https://read.qxmd.com/read/24145331/a-person-by-situation-approach-to-emotion-regulation-cognitive-reappraisal-can-either-help-or-hurt-depending-on-the-context"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/cognitive-reappraisal/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Hülsheger, U. R. & Schewe, A. F., Journal of Occupational Health Psychology 16(3), 361-389, 2011, doi:10.1037/a0022876 (Maastricht University repository copy)",
+   "dcterms:title": "On the costs and benefits of emotional labor: A meta-analysis of three decades of research",
+   "schema:url": {
+    "@id": "https://cris.maastrichtuniversity.nl/ws/files/74901261/Hulsheger_2011_On_the_costs_and_benefits_of_emotional.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/cognitive-reappraisal/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Finkel, E. J., Slotter, E. B., Luchies, L. B., Walton, G. M. & Gross, J. J., Psychological Science, 2013 (author's in-press copy, Northwestern University)",
+   "dcterms:title": "A brief intervention to promote conflict reappraisal preserves marital quality over time",
+   "schema:url": {
+    "@id": "https://faculty.wcas.northwestern.edu/eli-finkel/documents/InPress_FinkelSlotterLuchiesWaltonGross_PSci.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/cognitive-reappraisal/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "McManaman, M., PhD dissertation, Bryn Mawr College, 2016 (Bryn Mawr repository record)",
+   "dcterms:title": "Changing Perspectives: Can a Short-Term Intervention Promote Relationship Satisfaction?",
+   "schema:url": {
+    "@id": "https://repository.brynmawr.edu/dissertations/149"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/cognitive-reappraisal/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Troy, A. S., Ford, B. Q., McRae, K., Zarolia, P. & Mauss, I. B., Emotion 17(1), 141-154, 2017, doi:10.1037/emo0000210 (eScholarship copy)",
+   "dcterms:title": "Change the things you can: Emotion regulation is more beneficial for people from lower than from higher socioeconomic status",
+   "schema:url": {
+    "@id": "https://escholarship.org/content/qt5ws5w0h9/qt5ws5w0h9.pdf?t=rufpxh"
    }
   },
   {

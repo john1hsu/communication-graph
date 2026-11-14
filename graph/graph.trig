@@ -275,6 +275,15 @@
 <https://github.com/john1hsu/communication-graph/id/apology#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/apology/s4> .
 <https://github.com/john1hsu/communication-graph/id/apology#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/apology/s5> .
 <https://github.com/john1hsu/communication-graph/id/apology#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/apology/s6> .
+<https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> .
+<https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/difficult-conversations-and-conflict/cognitive-reappraisal.md" .
+<https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/cognitive-reappraisal/s1> .
+<https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/cognitive-reappraisal/s2> .
+<https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/cognitive-reappraisal/s3> .
+<https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/cognitive-reappraisal/s4> .
+<https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/cognitive-reappraisal/s5> .
+<https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/cognitive-reappraisal/s6> .
 <https://github.com/john1hsu/communication-graph/id/conflict-resolution#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/conflict-resolution#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/conflict-resolution> .
 <https://github.com/john1hsu/communication-graph/id/conflict-resolution#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/difficult-conversations-and-conflict/conflict-resolution.md" .
@@ -4943,6 +4952,120 @@
   <https://github.com/john1hsu/communication-graph/id/source/apology/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
   <https://github.com/john1hsu/communication-graph/id/source/apology/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
   <https://github.com/john1hsu/communication-graph/id/source/apology/s6> <https://schema.org/url> <https://www.psychologicalscience.org/news/minds-business/effective-apologies-include-six-elements.html> .
+}
+
+<https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal#graph> {
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "What story am I telling myself about why this happened, and what is one other reading that fits the same facts?" .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "How would a neutral colleague who wants the best for both of us describe this situation?" .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Is this something I can change - and if so, am I reframing it to feel better instead of acting on it?" .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Am I genuinely seeing it differently, or just keeping a straight face over the same anger?" .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/example> <https://github.com/john1hsu/communication-graph/ontology#after> "Thanks for listing these clearly - it helps. Item 1 we'll fix tonight. Items 2 and 3 depend on the data feed from your team; can we confirm a time tomorrow to sort that together?" .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/example> <https://github.com/john1hsu/communication-graph/ontology#before> "Noted. For the record, two of these were out of scope and we flagged the dependency on your team three weeks ago." .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "A project lead receives a terse client email the night before a deadline, copying the client's director and listing three defects." .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/example> <https://github.com/john1hsu/communication-graph/ontology#why> "The lead first read the email as an attack staged for the director; reappraising it as a client under pressure from that same director let her answer the substance, keep the scope point as a joint next step, and avoid a defensive reply that would have escalated in front of the boss." .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/howto/1> <https://schema.org/text> "Notice the trigger and the story you are telling yourself about it, in one sentence (\"She is undermining me in front of the team\")." .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/howto/2> <https://schema.org/text> "Ask whether the problem is one you can act on; if it is, plan the action first and use reappraisal only to cool down enough to take it." .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/howto/3> <https://schema.org/text> "Generate at least one alternative reading that is still accurate - another cause, a neutral third party's view, or what good could come of it." .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/howto/4> <https://schema.org/text> "Pick the reading that best fits the evidence and lets you pursue your goal for the conversation, and say your reply from that reading." .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/howto/5> <https://schema.org/text> "Before a recurring tense meeting, write the reframe down in advance and plan how you will recall it when the trigger arrives." .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/howto> <https://schema.org/name> "Cognitive reappraisal" .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/howto/1> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/howto/2> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/howto/3> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/howto/4> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/howto/5> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> <http://purl.org/dc/terms/created> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Technique> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> <http://www.w3.org/2000/01/rdf-schema#label> "Cognitive reappraisal" .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> <http://www.w3.org/2004/02/skos/core#altLabel> "conflict reappraisal" .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> <http://www.w3.org/2004/02/skos/core#altLabel> "positive reappraisal" .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> <http://www.w3.org/2004/02/skos/core#altLabel> "reappraisal" .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> <http://www.w3.org/2004/02/skos/core#altLabel> "reframing a situation" .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/emotion-regulation> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> <http://www.w3.org/2004/02/skos/core#definition> "Deliberately changing how you interpret a triggering situation - what it means, why it happened, what could come of it - so that the emotion it produces changes before it drives what you say, rather than hiding the feeling once it has fired." .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/difficult-conversations-and-conflict> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cognitive reappraisal" .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/defensiveness> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/labeling-emotions> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/perception-checking> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/perspective-taking> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/receiving-feedback> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/self-distancing> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/cognitive-reappraisal/s1> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/cognitive-reappraisal/s2> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/cognitive-reappraisal/s3> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/cognitive-reappraisal/s4> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/cognitive-reappraisal/s5> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/cognitive-reappraisal/s6> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/client-communication> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/difficult-conversation> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/mcmanaman-2016> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/troy-shallcross-mauss-2013> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/expressive-suppression> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/finkel-et-al-2013> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> <https://github.com/john1hsu/communication-graph/ontology#domain> "difficult-conversations-and-conflict" .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/example> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/process-model-of-emotion-regulation> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/difficult-conversations-and-conflict/cognitive-reappraisal.md" .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/howto> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-reappraisal/s1> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-reappraisal/s1> <http://purl.org/dc/terms/publisher> "Gross, J. J., Psychophysiology 39(3), 281-291, 2002, doi:10.1017/s0048577201393198 (PubMed record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-reappraisal/s1> <http://purl.org/dc/terms/title> "Emotion regulation: Affective, cognitive, and social consequences" .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-reappraisal/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-reappraisal/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-reappraisal/s1> <https://schema.org/url> <https://pubmed.ncbi.nlm.nih.gov/12212647/> .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-reappraisal/s2> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-reappraisal/s2> <http://purl.org/dc/terms/publisher> "Troy, A. S., Shallcross, A. J. & Mauss, I. B., Psychological Science, 2013, PMID 24145331 (QxMD Read record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-reappraisal/s2> <http://purl.org/dc/terms/title> "A person-by-situation approach to emotion regulation: Cognitive reappraisal can either help or hurt, depending on the context" .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-reappraisal/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-reappraisal/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-reappraisal/s2> <https://schema.org/url> <https://read.qxmd.com/read/24145331/a-person-by-situation-approach-to-emotion-regulation-cognitive-reappraisal-can-either-help-or-hurt-depending-on-the-context> .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-reappraisal/s3> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-reappraisal/s3> <http://purl.org/dc/terms/publisher> "Hülsheger, U. R. & Schewe, A. F., Journal of Occupational Health Psychology 16(3), 361-389, 2011, doi:10.1037/a0022876 (Maastricht University repository copy)" .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-reappraisal/s3> <http://purl.org/dc/terms/title> "On the costs and benefits of emotional labor: A meta-analysis of three decades of research" .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-reappraisal/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-reappraisal/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-reappraisal/s3> <https://schema.org/url> <https://cris.maastrichtuniversity.nl/ws/files/74901261/Hulsheger_2011_On_the_costs_and_benefits_of_emotional.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-reappraisal/s4> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-reappraisal/s4> <http://purl.org/dc/terms/publisher> "Finkel, E. J., Slotter, E. B., Luchies, L. B., Walton, G. M. & Gross, J. J., Psychological Science, 2013 (author's in-press copy, Northwestern University)" .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-reappraisal/s4> <http://purl.org/dc/terms/title> "A brief intervention to promote conflict reappraisal preserves marital quality over time" .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-reappraisal/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-reappraisal/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-reappraisal/s4> <https://schema.org/url> <https://faculty.wcas.northwestern.edu/eli-finkel/documents/InPress_FinkelSlotterLuchiesWaltonGross_PSci.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-reappraisal/s5> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-reappraisal/s5> <http://purl.org/dc/terms/publisher> "McManaman, M., PhD dissertation, Bryn Mawr College, 2016 (Bryn Mawr repository record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-reappraisal/s5> <http://purl.org/dc/terms/title> "Changing Perspectives: Can a Short-Term Intervention Promote Relationship Satisfaction?" .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-reappraisal/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-reappraisal/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-reappraisal/s5> <https://schema.org/url> <https://repository.brynmawr.edu/dissertations/149> .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-reappraisal/s6> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-reappraisal/s6> <http://purl.org/dc/terms/publisher> "Troy, A. S., Ford, B. Q., McRae, K., Zarolia, P. & Mauss, I. B., Emotion 17(1), 141-154, 2017, doi:10.1037/emo0000210 (eScholarship copy)" .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-reappraisal/s6> <http://purl.org/dc/terms/title> "Change the things you can: Emotion regulation is more beneficial for people from lower than from higher socioeconomic status" .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-reappraisal/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-reappraisal/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/cognitive-reappraisal/s6> <https://schema.org/url> <https://escholarship.org/content/qt5ws5w0h9/qt5ws5w0h9.pdf?t=rufpxh> .
 }
 
 <https://github.com/john1hsu/communication-graph/id/conflict-resolution#graph> {
@@ -26190,6 +26313,8 @@
   <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> .
+  <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/emotion-regulation> .
+  <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/emotional-intelligence> .
   <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/alison-wood-brooks> .
   <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communication-apprehension> .
   <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/emotion-regulation> .
@@ -26912,6 +27037,7 @@
   <https://github.com/john1hsu/communication-graph/id/client-communication> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/client-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/david-maister> .
   <https://github.com/john1hsu/communication-graph/id/client-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/service-recovery> .
+  <https://github.com/john1hsu/communication-graph/id/client-communication> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> .
   <https://github.com/john1hsu/communication-graph/id/client-communication> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/service-recovery> .
   <https://github.com/john1hsu/communication-graph/id/client-communication> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/trusted-advisor> .
   <https://github.com/john1hsu/communication-graph/id/client-communication> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/david-maister> .
@@ -27008,6 +27134,15 @@
   <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/mythical-fixed-pie> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/primacy-and-recency-effects> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/spotlight-effect> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/emotion-regulation> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/emotional-intelligence> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/emotion-regulation> .
@@ -27623,6 +27758,7 @@
   <https://github.com/john1hsu/communication-graph/id/defensiveness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/defensiveness> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-climate> .
   <https://github.com/john1hsu/communication-graph/id/defensiveness> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/apology> .
+  <https://github.com/john1hsu/communication-graph/id/defensiveness> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> .
   <https://github.com/john1hsu/communication-graph/id/defensiveness> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/de-escalation> .
   <https://github.com/john1hsu/communication-graph/id/defensiveness> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/deaf-effect> .
   <https://github.com/john1hsu/communication-graph/id/defensiveness> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/emotion-regulation> .
@@ -27748,6 +27884,7 @@
   <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/social-accounts> .
   <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/thomas-kilmann-conflict-modes> .
   <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+  <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> .
   <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/conversational-receptiveness> .
   <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/cooling-off-period> .
   <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/de-escalation> .
@@ -28061,8 +28198,11 @@
   <https://github.com/john1hsu/communication-graph/id/emotion-regulation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/emotion-regulation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/emotion-regulation> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/emotional-intelligence> .
+  <https://github.com/john1hsu/communication-graph/id/emotion-regulation> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> .
   <https://github.com/john1hsu/communication-graph/id/emotion-regulation> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/cooling-off-period> .
   <https://github.com/john1hsu/communication-graph/id/emotion-regulation> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/self-distancing> .
+  <https://github.com/john1hsu/communication-graph/id/emotion-regulation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> .
+  <https://github.com/john1hsu/communication-graph/id/emotion-regulation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> .
   <https://github.com/john1hsu/communication-graph/id/emotion-regulation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/cooling-off-period> .
   <https://github.com/john1hsu/communication-graph/id/emotion-regulation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/self-distancing> .
   <https://github.com/john1hsu/communication-graph/id/emotion-regulation> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/labeling-emotions> .
@@ -28075,6 +28215,8 @@
   <https://github.com/john1hsu/communication-graph/id/emotional-contagion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/emotion-regulation> .
   <https://github.com/john1hsu/communication-graph/id/emotional-contagion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/facial-expressions> .
   <https://github.com/john1hsu/communication-graph/id/emotional-intelligence> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/emotion-regulation> .
+  <https://github.com/john1hsu/communication-graph/id/emotional-intelligence> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> .
+  <https://github.com/john1hsu/communication-graph/id/emotional-intelligence> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> .
   <https://github.com/john1hsu/communication-graph/id/emotional-intelligence> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/cooling-off-period> .
   <https://github.com/john1hsu/communication-graph/id/emotional-intelligence> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/emotion-regulation> .
   <https://github.com/john1hsu/communication-graph/id/emotional-intelligence> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/self-distancing> .
@@ -28236,6 +28378,7 @@
   <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/client-communication> .
   <https://github.com/john1hsu/communication-graph/id/exposure-therapy> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/systematic-desensitization> .
   <https://github.com/john1hsu/communication-graph/id/exposure-therapy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/systematic-desensitization> .
+  <https://github.com/john1hsu/communication-graph/id/expressive-suppression> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> .
   <https://github.com/john1hsu/communication-graph/id/eyal-steffel-epley-2018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/eyal-steffel-epley-2018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/eyal-steffel-epley-2018> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/perspective-taking> .
@@ -28493,6 +28636,9 @@
   <https://github.com/john1hsu/communication-graph/id/filled-pauses> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/silence-and-pauses> .
   <https://github.com/john1hsu/communication-graph/id/filled-pauses> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/thought-groups> .
   <https://github.com/john1hsu/communication-graph/id/filled-pauses> <https://github.com/john1hsu/communication-graph/ontology#introducedIn> <https://github.com/john1hsu/communication-graph/id/maclay-osgood-1959> .
+  <https://github.com/john1hsu/communication-graph/id/finkel-et-al-2013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/finkel-et-al-2013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
+  <https://github.com/john1hsu/communication-graph/id/finkel-et-al-2013> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> .
   <https://github.com/john1hsu/communication-graph/id/first-offer/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/first-offer/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/first-offer/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -29803,6 +29949,7 @@
   <https://github.com/john1hsu/communication-graph/id/labeling-emotions> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/active-listening> .
   <https://github.com/john1hsu/communication-graph/id/labeling-emotions> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/listening> .
   <https://github.com/john1hsu/communication-graph/id/labeling-emotions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/avrim-fishkind> .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> .
   <https://github.com/john1hsu/communication-graph/id/labeling-emotions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cooling-off-period> .
   <https://github.com/john1hsu/communication-graph/id/labeling-emotions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/de-escalation> .
   <https://github.com/john1hsu/communication-graph/id/labeling-emotions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/de-ira> .
@@ -30018,6 +30165,7 @@
   <https://github.com/john1hsu/communication-graph/id/mccallum-erie-railroad-report> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/business-report> .
   <https://github.com/john1hsu/communication-graph/id/mccallum-erie-railroad-report> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/business-writing> .
   <https://github.com/john1hsu/communication-graph/id/mcdowell-jacobs-2017> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies> .
+  <https://github.com/john1hsu/communication-graph/id/mcmanaman-2016> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> .
   <https://github.com/john1hsu/communication-graph/id/mcsweeney-2002> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/hofstede-cultural-dimensions> .
   <https://github.com/john1hsu/communication-graph/id/mcwilliam-beattie-callow-2025> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/communication-apprehension> .
   <https://github.com/john1hsu/communication-graph/id/mcwilliam-beattie-callow-2025> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/systematic-desensitization> .
@@ -30786,6 +30934,7 @@
   <https://github.com/john1hsu/communication-graph/id/perception-checking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/perception-checking> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/active-listening> .
   <https://github.com/john1hsu/communication-graph/id/perception-checking> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/listening> .
+  <https://github.com/john1hsu/communication-graph/id/perception-checking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> .
   <https://github.com/john1hsu/communication-graph/id/perception-checking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/information-gathering-interview> .
   <https://github.com/john1hsu/communication-graph/id/perception-checking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> .
   <https://github.com/john1hsu/communication-graph/id/performance-management> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/performance-review> .
@@ -30856,6 +31005,7 @@
   <https://github.com/john1hsu/communication-graph/id/perspective-taking> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/perspective-taking> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/considering-others-contributions-first> .
   <https://github.com/john1hsu/communication-graph/id/perspective-taking> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/considering-others-contributions-first> .
+  <https://github.com/john1hsu/communication-graph/id/perspective-taking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> .
   <https://github.com/john1hsu/communication-graph/id/perspective-taking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cultural-intelligence> .
   <https://github.com/john1hsu/communication-graph/id/perspective-taking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/culture-assimilator> .
   <https://github.com/john1hsu/communication-graph/id/perspective-taking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/de-ira> .
@@ -31163,6 +31313,7 @@
   <https://github.com/john1hsu/communication-graph/id/principled-negotiation> <https://github.com/john1hsu/communication-graph/ontology#hasPart> <https://github.com/john1hsu/communication-graph/id/interests-vs-positions> .
   <https://github.com/john1hsu/communication-graph/id/principled-negotiation> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/open-ended-questions> .
   <https://github.com/john1hsu/communication-graph/id/problem-focused-questions> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/solution-focused-coaching> .
+  <https://github.com/john1hsu/communication-graph/id/process-model-of-emotion-regulation> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> .
   <https://github.com/john1hsu/communication-graph/id/process-model-of-emotion-regulation> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/emotion-regulation> .
   <https://github.com/john1hsu/communication-graph/id/prochazka-ovcari-durinik-2020> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/feedback-sandwich> .
   <https://github.com/john1hsu/communication-graph/id/production-blocking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/brainstorming> .
@@ -31458,6 +31609,7 @@
   <https://github.com/john1hsu/communication-graph/id/receiving-feedback> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/self-affirmation-before-feedback> .
   <https://github.com/john1hsu/communication-graph/id/receiving-feedback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> .
   <https://github.com/john1hsu/communication-graph/id/receiving-feedback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/coaching> .
+  <https://github.com/john1hsu/communication-graph/id/receiving-feedback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> .
   <https://github.com/john1hsu/communication-graph/id/receiving-feedback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communication-competence> .
   <https://github.com/john1hsu/communication-graph/id/receiving-feedback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/feedback> .
   <https://github.com/john1hsu/communication-graph/id/receiving-feedback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> .
@@ -31765,6 +31917,7 @@
   <https://github.com/john1hsu/communication-graph/id/self-distancing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/self-distancing> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/emotion-regulation> .
   <https://github.com/john1hsu/communication-graph/id/self-distancing> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/emotional-intelligence> .
+  <https://github.com/john1hsu/communication-graph/id/self-distancing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> .
   <https://github.com/john1hsu/communication-graph/id/self-distancing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cooling-off-period> .
   <https://github.com/john1hsu/communication-graph/id/self-distancing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/de-ira> .
   <https://github.com/john1hsu/communication-graph/id/self-distancing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/emotion-regulation> .
@@ -32542,6 +32695,7 @@
   <https://github.com/john1hsu/communication-graph/id/tobin-1987> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/wait-time> .
   <https://github.com/john1hsu/communication-graph/id/transactional-model-of-communication> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/shannon-weaver-model> .
   <https://github.com/john1hsu/communication-graph/id/troy-moua-van-boekel-2024> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/wise-feedback> .
+  <https://github.com/john1hsu/communication-graph/id/troy-shallcross-mauss-2013> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> .
   <https://github.com/john1hsu/communication-graph/id/trust-repair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/trust-repair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/trust-repair> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/difficult-conversation> .
