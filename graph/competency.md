@@ -98,7 +98,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:elevator-pitch` | `cm:monroes-motivated-sequence` |
 | `cm:email` | `cm:audience-analysis` |
 
-…and 132 more.
+…and 133 more.
 
 ## Myths and contested advice
 
@@ -137,7 +137,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:acoustic-speech-analysis-coaching` | mixed |  |
 | `cm:active-listening` | mixed |  |
 
-…and 164 more.
+…and 165 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -176,7 +176,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:narrative-persuasion` | cmo:Technique |
 | `cm:negotiation` | cmo:Context |
 
-…and 50 more.
+…and 51 more.
 
 ## Orphan articles (gap)
 

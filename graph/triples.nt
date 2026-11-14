@@ -11391,6 +11391,87 @@
 <https://github.com/john1hsu/communication-graph/id/role-reversal> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/jacob-l-moreno> .
 <https://github.com/john1hsu/communication-graph/id/role-reversal> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/communication-graph/id/role-reversal> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "If someone left the room and was asked why I recommended this, could they name my three reasons?" .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/rule-of-three> .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Are my three items in parallel form, and is the strongest or most concrete one placed last?" .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/rule-of-three> .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Did I add a fourth or fifth benefit just because I had it, rather than because the audience needed it?" .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/rule-of-three> .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Am I forcing a fake third point to fit the pattern when two strong ones would be more honest?" .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/rule-of-three> .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three/example> <https://github.com/john1hsu/communication-graph/ontology#after> "I'm recommending we switch for three reasons: it cuts test runs from 40 minutes to 12, it costs 20% less at our size, and it plugs into the tracker we already use. The other benefits are on the backup slide." .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three/example> <https://github.com/john1hsu/communication-graph/ontology#before> "The new tool is faster, it has better reporting, it integrates with our tracker, the vendor's support is responsive, it's cheaper at our scale, our sister team likes it, and it should help with onboarding too." .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "A product manager has five minutes at a quarterly review to argue for moving a team to a new testing tool." .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three/example> <https://github.com/john1hsu/communication-graph/ontology#why> "Seven unranked benefits blur together and start to sound like a sales pitch; three ranked, parallel reasons are easy to hold in mind and repeat to others, and nothing true is lost because the rest stays available." .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three/howto/1> <https://schema.org/text> "List every point or reason you could make, then rank them by how much each matters to this audience's decision." .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three/howto/2> <https://schema.org/text> "Keep the top three as your main points; fold the rest in as sub-points under one of them or move them to a backup slide or appendix." .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three/howto/3> <https://schema.org/text> "Phrase the three in parallel form - same grammar, similar length - so they sound like one set (\"faster, cheaper, safer\")." .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three/howto/4> <https://schema.org/text> "Preview the three in your opening and number them as you go (\"first\", \"second\", \"third\") so listeners can track where you are." .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three/howto/5> <https://schema.org/text> "When you want an idea to land, put the most important or most concrete item last, then pause after the third item." .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three/howto/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three/howto/6> <https://schema.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three/howto/6> <https://schema.org/text> "Before you present, check whether you are making a sales-style pitch; if so, resist adding a fourth or fifth benefit, because extra claims can read as overselling." .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three/howto> <https://schema.org/name> "Rule of three" .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/rule-of-three/howto/1> .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/rule-of-three/howto/2> .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/rule-of-three/howto/3> .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/rule-of-three/howto/4> .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/rule-of-three/howto/5> .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/rule-of-three/howto/6> .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three> <http://purl.org/dc/terms/created> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Technique> .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three> <http://www.w3.org/2000/01/rdf-schema#label> "Rule of three" .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three> <http://www.w3.org/2004/02/skos/core#altLabel> "charm of three" .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three> <http://www.w3.org/2004/02/skos/core#altLabel> "list of three" .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three> <http://www.w3.org/2004/02/skos/core#altLabel> "power of three" .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three> <http://www.w3.org/2004/02/skos/core#altLabel> "three-part list" .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three> <http://www.w3.org/2004/02/skos/core#altLabel> "tricolon" .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/message-structure> .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/persuasion> .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three> <http://www.w3.org/2004/02/skos/core#definition> "Grouping a talk's main points, supporting reasons or key phrases in sets of three so the message feels complete and is easy to follow and remember, without piling on so many claims that listeners start to doubt them." .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/presenting-and-public-speaking> .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rule of three" .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-load> .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/elevator-pitch> .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/presentation> .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/primacy-and-recency-effects> .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/pyramid-principle> .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/rhetoric> .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/rhetorical-appeals> .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/signposting> .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/rule-of-three/s1> .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/rule-of-three/s2> .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/rule-of-three/s3> .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/rule-of-three/s4> .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/rule-of-three/s5> .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/rule-of-three/s6> .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/presentation> .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/wang-et-al-2022> .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/signposting> .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/shu-carlson-2014> .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three> <https://github.com/john1hsu/communication-graph/ontology#domain> "presenting-and-public-speaking" .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/rule-of-three/example> .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/presenting-and-public-speaking/rule-of-three.md" .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/rule-of-three/howto> .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/rule-of-three> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/heritage-greatbatch-1986> .
 <https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://purl.org/dc/terms/created> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Context> .
 <https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://www.w3.org/2000/01/rdf-schema#label> "Salary negotiation" .
@@ -19869,6 +19950,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/role-reversal/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/role-reversal/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
 <https://github.com/john1hsu/communication-graph/id/source/role-reversal/s5> <https://schema.org/url> <https://business.columbia.edu/faculty/research/view-other-side-table> .
+<https://github.com/john1hsu/communication-graph/id/source/rule-of-three/s1> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/rule-of-three/s1> <http://purl.org/dc/terms/publisher> "Carlson & Shu, author working paper on SSRN (2013); published in Journal of Marketing, 2014" .
+<https://github.com/john1hsu/communication-graph/id/source/rule-of-three/s1> <http://purl.org/dc/terms/title> "When Three Charms But Four Alarms: Identifying the Optimal Number of Claims in Persuasion Settings" .
+<https://github.com/john1hsu/communication-graph/id/source/rule-of-three/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/rule-of-three/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/rule-of-three/s1> <https://schema.org/url> <https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2277117> .
+<https://github.com/john1hsu/communication-graph/id/source/rule-of-three/s2> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/rule-of-three/s2> <http://purl.org/dc/terms/publisher> "Wang, Chan, Chen, Lin & Shi, Journal of Consumer Psychology 32(3), 484-491, 2022 (University of Iowa research repository)" .
+<https://github.com/john1hsu/communication-graph/id/source/rule-of-three/s2> <http://purl.org/dc/terms/title> "When the 'Charm of Three' Fades: Mental Imagery Moderates the Impact of the Number of Ad Claims on Persuasion" .
+<https://github.com/john1hsu/communication-graph/id/source/rule-of-three/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/rule-of-three/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/rule-of-three/s2> <https://schema.org/url> <https://iro.uiowa.edu/esploro/outputs/journalArticle/When-the-Charm-of-Three-Fades/9984618641002771> .
+<https://github.com/john1hsu/communication-graph/id/source/rule-of-three/s3> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/rule-of-three/s3> <http://purl.org/dc/terms/publisher> "Bull & Waddle, Russian Journal of Linguistics (RUDN University), 2021" .
+<https://github.com/john1hsu/communication-graph/id/source/rule-of-three/s3> <http://purl.org/dc/terms/title> "'Stirring it up!' Emotionality in audience responses to political speeches" .
+<https://github.com/john1hsu/communication-graph/id/source/rule-of-three/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/rule-of-three/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/rule-of-three/s3> <https://schema.org/url> <https://journals.rudn.ru/linguistics/article/view/27475> .
+<https://github.com/john1hsu/communication-graph/id/source/rule-of-three/s4> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/rule-of-three/s4> <http://purl.org/dc/terms/publisher> "Silva Rhetoricae, Brigham Young University" .
+<https://github.com/john1hsu/communication-graph/id/source/rule-of-three/s4> <http://purl.org/dc/terms/title> "Tricolon (Silva Rhetoricae: The Forest of Rhetoric)" .
+<https://github.com/john1hsu/communication-graph/id/source/rule-of-three/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/rule-of-three/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/rule-of-three/s4> <https://schema.org/url> <https://rhetoric.byu.edu/Figures/T/tricolon.htm> .
+<https://github.com/john1hsu/communication-graph/id/source/rule-of-three/s5> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/rule-of-three/s5> <http://purl.org/dc/terms/publisher> "Department of Communication, University of Pittsburgh" .
+<https://github.com/john1hsu/communication-graph/id/source/rule-of-three/s5> <http://purl.org/dc/terms/title> "Structuring a Speech" .
+<https://github.com/john1hsu/communication-graph/id/source/rule-of-three/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/rule-of-three/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/rule-of-three/s5> <https://schema.org/url> <https://www.comm.pitt.edu/structuring-speech> .
+<https://github.com/john1hsu/communication-graph/id/source/rule-of-three/s6> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/rule-of-three/s6> <http://purl.org/dc/terms/publisher> "Samuel G. Lawrence, Communication Currents, National Communication Association, 2015" .
+<https://github.com/john1hsu/communication-graph/id/source/rule-of-three/s6> <http://purl.org/dc/terms/title> "Engaging Audiences Through Rhetorical Devices" .
+<https://github.com/john1hsu/communication-graph/id/source/rule-of-three/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/rule-of-three/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/communication-graph/id/source/rule-of-three/s6> <https://schema.org/url> <https://www.natcom.org/communication-currents/engaging-audiences-through-rhetorical-devices> .
 <https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s1> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s1> <http://purl.org/dc/terms/publisher> "Hart, E., Bear, J. B. & Ren, Z., Organizational Behavior and Human Decision Processes 181, 104319, 2024, doi:10.1016/j.obhdp.2024.104319 (Stony Brook University research portal record)" .
 <https://github.com/john1hsu/communication-graph/id/source/salary-negotiation/s1> <http://purl.org/dc/terms/title> "But what if I lose the offer? Negotiators' inflated perception of their likelihood of jeopardizing a deal" .

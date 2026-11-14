@@ -2333,6 +2333,29 @@ Ask yourself:
 - What is the one point I need them to leave with, if everything else goes badly?
 - Afterwards, am I judging the talk by how I felt or by what the audience actually did with it?
 
+### [Rule of three](../articles/presenting-and-public-speaking/rule-of-three.md) — Technique
+
+1. List every point or reason you could make, then rank them by how much each matters to this audience's decision.
+2. Keep the top three as your main points; fold the rest in as sub-points under one of them or move them to a backup slide or appendix.
+3. Phrase the three in parallel form - same grammar, similar length - so they sound like one set ("faster, cheaper, safer").
+4. Preview the three in your opening and number them as you go ("first", "second", "third") so listeners can track where you are.
+5. When you want an idea to land, put the most important or most concrete item last, then pause after the third item.
+6. Before you present, check whether you are making a sales-style pitch; if so, resist adding a fourth or fifth benefit, because extra claims can read as overselling.
+
+*A product manager has five minutes at a quarterly review to argue for moving a team to a new testing tool.*
+
+| Before | After |
+|---|---|
+| The new tool is faster, it has better reporting, it integrates with our tracker, the vendor's support is responsive, it's cheaper at our scale, our sister team likes it, and it should help with onboarding too. | I'm recommending we switch for three reasons: it cuts test runs from 40 minutes to 12, it costs 20% less at our size, and it plugs into the tracker we already use. The other benefits are on the backup slide. |
+
+**Why:** Seven unranked benefits blur together and start to sound like a sales pitch; three ranked, parallel reasons are easy to hold in mind and repeat to others, and nothing true is lost because the rest stays available.
+
+Ask yourself:
+- If someone left the room and was asked why I recommended this, could they name my three reasons?
+- Are my three items in parallel form, and is the strongest or most concrete one placed last?
+- Did I add a fourth or fifth benefit just because I had it, rather than because the audience needed it?
+- Am I forcing a fake third point to fit the pattern when two strong ones would be more honest?
+
 ### [Self-recording playback](../articles/presenting-and-public-speaking/self-recording-playback.md) — Technique
 
 1. Before you record, write a three-item checklist of delivery behaviours to look for, such as hand movement, eye contact and pace.

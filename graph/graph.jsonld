@@ -19732,6 +19732,106 @@
    ]
   },
   {
+   "@id": "cm:rule-of-three",
+   "@type": "cmo:Technique",
+   "cmo:appliedIn": {
+    "@id": "cm:presentation"
+   },
+   "cmo:challengedBy": {
+    "@id": "cm:wang-et-al-2022"
+   },
+   "cmo:complements": {
+    "@id": "cm:signposting"
+   },
+   "cmo:demonstratedBy": {
+    "@id": "cm:shu-carlson-2014"
+   },
+   "cmo:domain": "presenting-and-public-speaking",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/rule-of-three/example"
+   },
+   "cmo:file": "articles/presenting-and-public-speaking/rule-of-three.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/rule-of-three/howto"
+   },
+   "cmo:level": "introductory",
+   "cmo:supportedBy": {
+    "@id": "cm:heritage-greatbatch-1986"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/rule-of-three/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/rule-of-three/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/rule-of-three/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/rule-of-three/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/rule-of-three/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/rule-of-three/s6"
+    }
+   ],
+   "rdfs:label": "Rule of three",
+   "skos:altLabel": [
+    "charm of three",
+    "list of three",
+    "power of three",
+    "three-part list",
+    "tricolon"
+   ],
+   "skos:broader": [
+    {
+     "@id": "cm:message-structure"
+    },
+    {
+     "@id": "cm:persuasion"
+    }
+   ],
+   "skos:definition": "Grouping a talk's main points, supporting reasons or key phrases in sets of three so the message feels complete and is easy to follow and remember, without piling on so many claims that listeners start to doubt them.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/presenting-and-public-speaking"
+   },
+   "skos:prefLabel": "Rule of three",
+   "skos:related": [
+    {
+     "@id": "cm:cognitive-load"
+    },
+    {
+     "@id": "cm:elevator-pitch"
+    },
+    {
+     "@id": "cm:presentation"
+    },
+    {
+     "@id": "cm:primacy-and-recency-effects"
+    },
+    {
+     "@id": "cm:pyramid-principle"
+    },
+    {
+     "@id": "cm:rhetoric"
+    },
+    {
+     "@id": "cm:rhetorical-appeals"
+    },
+    {
+     "@id": "cm:signposting"
+    }
+   ]
+  },
+  {
    "@id": "cm:salary-negotiation",
    "@type": "cmo:Context",
    "cmo:demonstratedBy": [
@@ -33616,6 +33716,107 @@
    "@type": "schema:HowToStep",
    "schema:position": 6,
    "schema:text": "When preparing alone for a hard negotiation, write or rehearse the other party's brief in their voice and test which of your own arguments would actually move them."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/rule-of-three/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:rule-of-three"
+   },
+   "rdfs:label": "If someone left the room and was asked why I recommended this, could they name my three reasons?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/rule-of-three/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:rule-of-three"
+   },
+   "rdfs:label": "Are my three items in parallel form, and is the strongest or most concrete one placed last?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/rule-of-three/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:rule-of-three"
+   },
+   "rdfs:label": "Did I add a fourth or fifth benefit just because I had it, rather than because the audience needed it?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/rule-of-three/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:rule-of-three"
+   },
+   "rdfs:label": "Am I forcing a fake third point to fit the pattern when two strong ones would be more honest?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/rule-of-three/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "I'm recommending we switch for three reasons: it cuts test runs from 40 minutes to 12, it costs 20% less at our size, and it plugs into the tracker we already use. The other benefits are on the backup slide.",
+   "cmo:before": "The new tool is faster, it has better reporting, it integrates with our tracker, the vendor's support is responsive, it's cheaper at our scale, our sister team likes it, and it should help with onboarding too.",
+   "cmo:situation": "A product manager has five minutes at a quarterly review to argue for moving a team to a new testing tool.",
+   "cmo:why": "Seven unranked benefits blur together and start to sound like a sales pitch; three ranked, parallel reasons are easy to hold in mind and repeat to others, and nothing true is lost because the rest stays available."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/rule-of-three/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Rule of three",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/rule-of-three/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/rule-of-three/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/rule-of-three/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/rule-of-three/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/rule-of-three/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/rule-of-three/howto/6"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/rule-of-three/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "List every point or reason you could make, then rank them by how much each matters to this audience's decision."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/rule-of-three/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Keep the top three as your main points; fold the rest in as sub-points under one of them or move them to a backup slide or appendix."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/rule-of-three/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Phrase the three in parallel form - same grammar, similar length - so they sound like one set (\"faster, cheaper, safer\")."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/rule-of-three/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Preview the three in your opening and number them as you go (\"first\", \"second\", \"third\") so listeners can track where you are."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/rule-of-three/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "When you want an idea to land, put the most important or most concrete item last, then pause after the third item."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/rule-of-three/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "Before you present, check whether you are making a sales-style pitch; if so, resist adding a fourth or fifth benefit, because extra claims can read as overselling."
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/saying-no/check/1",
@@ -51986,6 +52187,90 @@
    "dcterms:title": "The view from the other side of the table",
    "schema:url": {
     "@id": "https://business.columbia.edu/faculty/research/view-other-side-table"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/rule-of-three/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Carlson & Shu, author working paper on SSRN (2013); published in Journal of Marketing, 2014",
+   "dcterms:title": "When Three Charms But Four Alarms: Identifying the Optimal Number of Claims in Persuasion Settings",
+   "schema:url": {
+    "@id": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2277117"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/rule-of-three/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Wang, Chan, Chen, Lin & Shi, Journal of Consumer Psychology 32(3), 484-491, 2022 (University of Iowa research repository)",
+   "dcterms:title": "When the 'Charm of Three' Fades: Mental Imagery Moderates the Impact of the Number of Ad Claims on Persuasion",
+   "schema:url": {
+    "@id": "https://iro.uiowa.edu/esploro/outputs/journalArticle/When-the-Charm-of-Three-Fades/9984618641002771"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/rule-of-three/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Bull & Waddle, Russian Journal of Linguistics (RUDN University), 2021",
+   "dcterms:title": "'Stirring it up!' Emotionality in audience responses to political speeches",
+   "schema:url": {
+    "@id": "https://journals.rudn.ru/linguistics/article/view/27475"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/rule-of-three/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Silva Rhetoricae, Brigham Young University",
+   "dcterms:title": "Tricolon (Silva Rhetoricae: The Forest of Rhetoric)",
+   "schema:url": {
+    "@id": "https://rhetoric.byu.edu/Figures/T/tricolon.htm"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/rule-of-three/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Department of Communication, University of Pittsburgh",
+   "dcterms:title": "Structuring a Speech",
+   "schema:url": {
+    "@id": "https://www.comm.pitt.edu/structuring-speech"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/rule-of-three/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Samuel G. Lawrence, Communication Currents, National Communication Association, 2015",
+   "dcterms:title": "Engaging Audiences Through Rhetorical Devices",
+   "schema:url": {
+    "@id": "https://www.natcom.org/communication-currents/engaging-audiences-through-rhetorical-devices"
    }
   },
   {
