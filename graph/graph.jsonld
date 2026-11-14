@@ -10990,6 +10990,103 @@
    ]
   },
   {
+   "@id": "cm:individualism-and-collectivism",
+   "@type": "cmo:Phenomenon",
+   "cmo:challengedBy": [
+    {
+     "@id": "cm:oyserman-coon-kemmelmeier-2002"
+    },
+    {
+     "@id": "cm:steel-taras-2010"
+    }
+   ],
+   "cmo:demonstratedBy": {
+    "@id": "cm:gudykunst-et-al-1996"
+   },
+   "cmo:domain": "cross-cultural-communication",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:file": "articles/cross-cultural-communication/individualism-and-collectivism.md",
+   "cmo:introducedBy": {
+    "@id": "cm:geert-hofstede"
+   },
+   "cmo:level": "introductory",
+   "cmo:partOf": {
+    "@id": "cm:hofstede-cultural-dimensions"
+   },
+   "cmo:supportedBy": {
+    "@id": "cm:triandis-gelfand-1998"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/individualism-and-collectivism/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/individualism-and-collectivism/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/individualism-and-collectivism/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/individualism-and-collectivism/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/individualism-and-collectivism/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/individualism-and-collectivism/s6"
+    }
+   ],
+   "rdfs:label": "Individualism and collectivism",
+   "skos:altLabel": [
+    "I-culture vs. we-culture",
+    "IND-COL",
+    "horizontal and vertical individualism and collectivism",
+    "individualism versus collectivism",
+    "individualism-collectivism"
+   ],
+   "skos:broader": {
+    "@id": "cm:intercultural-communication"
+   },
+   "skos:definition": "The contrast between putting personal goals, independence and the \"I\" first and putting the in-group's goals, harmony and the \"we\" first; it shapes how directly people speak, how credit and praise land and how decisions get made, but it varies far more within countries than between them.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/cross-cultural-communication"
+   },
+   "skos:prefLabel": "Individualism and collectivism",
+   "skos:related": [
+    {
+     "@id": "cm:direct-vs-indirect-feedback"
+    },
+    {
+     "@id": "cm:face-and-facework"
+    },
+    {
+     "@id": "cm:face-negotiation-theory"
+    },
+    {
+     "@id": "cm:group-decision-making"
+    },
+    {
+     "@id": "cm:high-and-low-context-cultures"
+    },
+    {
+     "@id": "cm:multicultural-team"
+    },
+    {
+     "@id": "cm:power-distance"
+    },
+    {
+     "@id": "cm:praise-and-recognition"
+    },
+    {
+     "@id": "cm:the-culture-map"
+    }
+   ]
+  },
+  {
    "@id": "cm:influence-without-authority",
    "@type": "cmo:Technique",
    "cmo:appliedIn": {
@@ -45713,6 +45810,90 @@
    "dcterms:title": "Humblebragging is a bad strategy, especially in a job interview",
    "schema:url": {
     "@id": "https://www.library.hbs.edu/working-knowledge/humblebragging-is-a-bad-strategy-especially-in-a-job-interview"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/individualism-and-collectivism/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Kyra Garson & Amie McLean, TRU Open Press, Thompson Rivers University (open textbook), 2025",
+   "dcterms:title": "Intercultural Communication in the Workplace (Launching Your Career, Chapter 13)",
+   "schema:url": {
+    "@id": "https://launchingyourcareer.pressbooks.tru.ca/?p=60"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/individualism-and-collectivism/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Triandis & Gelfand, Journal of Personality and Social Psychology 74(1), 1998, pp. 118-128 (author's copy, Michele Gelfand)",
+   "dcterms:title": "Converging Measurement of Horizontal and Vertical Individualism and Collectivism",
+   "schema:url": {
+    "@id": "https://michelegelfand.com/_files/ugd/6df109_82776c6a90564528b3d0a99ef3efd311.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/individualism-and-collectivism/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Gudykunst, Matsumoto, Ting-Toomey, Nishida, Kim & Heyman, Human Communication Research 22(4), 1996, pp. 510-543, doi:10.1111/j.1468-2958.1996.tb00377.x (Bavarian library network record)",
+   "dcterms:title": "The Influence of Cultural Individualism-Collectivism, Self Construals, and Individual Values on Communication Styles Across Cultures",
+   "schema:url": {
+    "@id": "https://bvbvf1.bib-bvb.de/vufind/PrimoRecord/cdi_proquest_miscellaneous_85617832"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/individualism-and-collectivism/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Oyserman, Coon & Kemmelmeier, Psychological Bulletin, 2002 (University of Nevada, Reno ScholarWolf record)",
+   "dcterms:title": "Rethinking Individualism and Collectivism: Evaluation of Theoretical Assumptions and Meta-Analyses",
+   "schema:url": {
+    "@id": "https://scholarwolf.unr.edu/entities/citation/95e7bc6b-5156-478e-88ce-b09d9e892466"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/individualism-and-collectivism/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Taras, Kirkman & Steel, Journal of Applied Psychology 95(3), 2010, pp. 405-439 (University of Calgary PRISM record)",
+   "dcterms:title": "Examining the Impact of Culture's Consequences: A Three-Decade, Multi-Level, Meta-Analytic Review of Hofstede's Cultural Value Dimensions",
+   "schema:url": {
+    "@id": "https://prism.ucalgary.ca/items/493650c4-2e30-4994-b2fd-38dc17686197/full"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/individualism-and-collectivism/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Steel & Taras, Journal of International Management 16(3), 2010, pp. 211-233 (CORE author copy)",
+   "dcterms:title": "Culture as a Consequence: A Multilevel Multivariate Meta-Analysis of the Effects of Individual and Country Characteristics on Work-Related Cultural Values",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/149233367.pdf"
    }
   },
   {
