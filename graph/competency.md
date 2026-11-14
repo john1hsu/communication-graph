@@ -96,7 +96,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:difficult-conversation` | `cm:role-reversal` |
 | `cm:difficult-conversation` | `cm:thomas-kilmann-conflict-modes` |
 
-…and 137 more.
+…and 138 more.
 
 ## Myths and contested advice
 
@@ -135,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:acoustic-speech-analysis-coaching` | mixed |  |
 | `cm:active-listening` | mixed |  |
 
-…and 169 more.
+…and 170 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -147,6 +147,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:digital-communication` | cmo:Field |
 | `cm:email-subject-lines` | cmo:Technique |
 | `cm:emotion-regulation` | cmo:Skill |
+| `cm:empathy` | cmo:Disposition |
 | `cm:employee-silence` | cmo:Barrier |
 | `cm:escalation-communication` | cmo:Technique |
 | `cm:executive-summary` | cmo:Genre |
@@ -172,9 +173,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:mixed-messages` | cmo:Barrier |
 | `cm:multicultural-team` | cmo:Context |
 | `cm:mum-effect` | cmo:Barrier |
-| `cm:narrative-persuasion` | cmo:Technique |
 
-…and 53 more.
+…and 54 more.
 
 ## Orphan articles (gap)
 

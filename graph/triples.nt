@@ -4435,6 +4435,61 @@
 <https://github.com/john1hsu/communication-graph/id/empathy-gap> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/george-loewenstein> .
 <https://github.com/john1hsu/communication-graph/id/empathy-gap> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/communication-graph/id/empathy-gap> <https://github.com/john1hsu/communication-graph/ontology#undermines> <https://github.com/john1hsu/communication-graph/id/workplace-compassion> .
+<https://github.com/john1hsu/communication-graph/id/empathy/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/empathy/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Before I reply, can I name what this person is feeling and why it matters to them, in their terms rather than mine?" .
+<https://github.com/john1hsu/communication-graph/id/empathy/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/empathy> .
+<https://github.com/john1hsu/communication-graph/id/empathy/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/empathy/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Did I check my read of their feelings with them, or did I assume I knew?" .
+<https://github.com/john1hsu/communication-graph/id/empathy/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/empathy> .
+<https://github.com/john1hsu/communication-graph/id/empathy/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/empathy/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Would they say they felt understood, or only that I was polite?" .
+<https://github.com/john1hsu/communication-graph/id/empathy/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/empathy> .
+<https://github.com/john1hsu/communication-graph/id/empathy/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/empathy/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Am I avoiding their frustration because it is uncomfortable or inconvenient for me to hear?" .
+<https://github.com/john1hsu/communication-graph/id/empathy/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/empathy> .
+<https://github.com/john1hsu/communication-graph/id/empathy/check/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/empathy/check/5> <http://www.w3.org/2000/01/rdf-schema#label> "Is my empathy for this one person pulling me toward a decision that is unfair to others who are not in the room?" .
+<https://github.com/john1hsu/communication-graph/id/empathy/check/5> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/empathy> .
+<https://github.com/john1hsu/communication-graph/id/empathy> <http://purl.org/dc/terms/created> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/empathy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Disposition> .
+<https://github.com/john1hsu/communication-graph/id/empathy> <http://www.w3.org/2000/01/rdf-schema#label> "Empathy" .
+<https://github.com/john1hsu/communication-graph/id/empathy> <http://www.w3.org/2004/02/skos/core#altLabel> "empathetic leadership" .
+<https://github.com/john1hsu/communication-graph/id/empathy> <http://www.w3.org/2004/02/skos/core#altLabel> "empathic communication" .
+<https://github.com/john1hsu/communication-graph/id/empathy> <http://www.w3.org/2004/02/skos/core#altLabel> "empathic understanding" .
+<https://github.com/john1hsu/communication-graph/id/empathy> <http://www.w3.org/2004/02/skos/core#altLabel> "showing empathy at work" .
+<https://github.com/john1hsu/communication-graph/id/empathy> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
+<https://github.com/john1hsu/communication-graph/id/empathy> <http://www.w3.org/2004/02/skos/core#definition> "The disposition to notice, understand and partly share what another person is feeling and thinking, and to show them that understanding in a way they recognise. It combines sharing the other's emotional state, inferring their thoughts and feelings, and acting on that understanding." .
+<https://github.com/john1hsu/communication-graph/id/empathy> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/listening> .
+<https://github.com/john1hsu/communication-graph/id/empathy> <http://www.w3.org/2004/02/skos/core#prefLabel> "Empathy" .
+<https://github.com/john1hsu/communication-graph/id/empathy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+<https://github.com/john1hsu/communication-graph/id/empathy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/carl-rogers> .
+<https://github.com/john1hsu/communication-graph/id/empathy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/emotional-contagion> .
+<https://github.com/john1hsu/communication-graph/id/empathy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/empathy-gap> .
+<https://github.com/john1hsu/communication-graph/id/empathy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/labeling-emotions> .
+<https://github.com/john1hsu/communication-graph/id/empathy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/nonviolent-communication> .
+<https://github.com/john1hsu/communication-graph/id/empathy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/paraphrasing> .
+<https://github.com/john1hsu/communication-graph/id/empathy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/perspective-getting> .
+<https://github.com/john1hsu/communication-graph/id/empathy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/perspective-taking> .
+<https://github.com/john1hsu/communication-graph/id/empathy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/rapport> .
+<https://github.com/john1hsu/communication-graph/id/empathy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/role-reversal> .
+<https://github.com/john1hsu/communication-graph/id/empathy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/support-response> .
+<https://github.com/john1hsu/communication-graph/id/empathy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/empathy/s1> .
+<https://github.com/john1hsu/communication-graph/id/empathy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/empathy/s2> .
+<https://github.com/john1hsu/communication-graph/id/empathy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/empathy/s3> .
+<https://github.com/john1hsu/communication-graph/id/empathy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/empathy/s4> .
+<https://github.com/john1hsu/communication-graph/id/empathy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/empathy/s5> .
+<https://github.com/john1hsu/communication-graph/id/empathy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/empathy/s6> .
+<https://github.com/john1hsu/communication-graph/id/empathy> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> .
+<https://github.com/john1hsu/communication-graph/id/empathy> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/bloom-2017> .
+<https://github.com/john1hsu/communication-graph/id/empathy> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+<https://github.com/john1hsu/communication-graph/id/empathy> <https://github.com/john1hsu/communication-graph/ontology#domain> "listening" .
+<https://github.com/john1hsu/communication-graph/id/empathy> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/empathy> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/listening/empathy.md" .
+<https://github.com/john1hsu/communication-graph/id/empathy> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/carl-rogers> .
+<https://github.com/john1hsu/communication-graph/id/empathy> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/empathy> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+<https://github.com/john1hsu/communication-graph/id/empathy> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/elliott-et-al-2018> .
+<https://github.com/john1hsu/communication-graph/id/empathy> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/teding-van-berkhout-malouff-2016> .
 <https://github.com/john1hsu/communication-graph/id/employee-silence/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/employee-silence/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Is there something I know about this work - a risk, a mistake, a better idea - that the person who could fix it has not heard from me?" .
 <https://github.com/john1hsu/communication-graph/id/employee-silence/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/employee-silence> .
@@ -15730,6 +15785,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/empathy-gap/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/empathy-gap/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
 <https://github.com/john1hsu/communication-graph/id/source/empathy-gap/s6> <https://schema.org/url> <https://udspace.udel.edu/server/api/core/bitstreams/d4747f7d-59d7-4c84-b130-1820a5454b22/content> .
+<https://github.com/john1hsu/communication-graph/id/source/empathy/s1> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/empathy/s1> <http://purl.org/dc/terms/publisher> "Cuff, Brown, Taylor and Howat, Emotion Review 8(2), 144-153, 2016 (University of Northampton research portal record)" .
+<https://github.com/john1hsu/communication-graph/id/source/empathy/s1> <http://purl.org/dc/terms/title> "Empathy: A review of the concept" .
+<https://github.com/john1hsu/communication-graph/id/source/empathy/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/empathy/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/empathy/s1> <https://schema.org/url> <https://pure.northampton.ac.uk/en/publications/empathy-a-review-of-the-concept/> .
+<https://github.com/john1hsu/communication-graph/id/source/empathy/s2> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/empathy/s2> <http://purl.org/dc/terms/publisher> "Zaki, Psychological Bulletin 140(6), 1608-1647, 2014 (author copy, Stanford Social Neuroscience Lab)" .
+<https://github.com/john1hsu/communication-graph/id/source/empathy/s2> <http://purl.org/dc/terms/title> "Empathy: A motivated account" .
+<https://github.com/john1hsu/communication-graph/id/source/empathy/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/empathy/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/empathy/s2> <https://schema.org/url> <https://www.ssnl.stanford.edu/_files/ugd/3ed582_d01d81760c2a4dd68bf15dcc2eeec464.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/empathy/s3> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/empathy/s3> <http://purl.org/dc/terms/publisher> "Teding van Berkhout and Malouff, Journal of Counseling Psychology, 32-41, 2016 (University of New England research repository record)" .
+<https://github.com/john1hsu/communication-graph/id/source/empathy/s3> <http://purl.org/dc/terms/title> "The efficacy of empathy training: A meta-analysis of randomized controlled trials" .
+<https://github.com/john1hsu/communication-graph/id/source/empathy/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/empathy/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/empathy/s3> <https://schema.org/url> <https://rune.une.edu.au/web/handle/1959.11/18592> .
+<https://github.com/john1hsu/communication-graph/id/source/empathy/s4> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/empathy/s4> <http://purl.org/dc/terms/publisher> "Elliott, Bohart, Watson and Murphy, Psychotherapy 55, 399-410, 2018 (author copy, University of Strathclyde)" .
+<https://github.com/john1hsu/communication-graph/id/source/empathy/s4> <http://purl.org/dc/terms/title> "Therapist empathy and client outcome: An updated meta-analysis" .
+<https://github.com/john1hsu/communication-graph/id/source/empathy/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/empathy/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/empathy/s4> <https://schema.org/url> <https://strathprints.strath.ac.uk/66200/1/Elliott_etal_Psychotherapy_2018_Therapist_empathy_and_client_outcome_an_updated.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/empathy/s5> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/empathy/s5> <http://purl.org/dc/terms/publisher> "Center for Creative Leadership (on research by William A. Gentry)" .
+<https://github.com/john1hsu/communication-graph/id/source/empathy/s5> <http://purl.org/dc/terms/title> "The Importance of Empathy in the Workplace" .
+<https://github.com/john1hsu/communication-graph/id/source/empathy/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/empathy/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/communication-graph/id/source/empathy/s5> <https://schema.org/url> <https://ccl.org/?p=49038> .
+<https://github.com/john1hsu/communication-graph/id/source/empathy/s6> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/empathy/s6> <http://purl.org/dc/terms/publisher> "Västfjäll, Erlandsson, Slovic and Tinghög, Frontiers in Psychology 8, 542, 2017" .
+<https://github.com/john1hsu/communication-graph/id/source/empathy/s6> <http://purl.org/dc/terms/title> "Commentary: Empathy and its discontents" .
+<https://github.com/john1hsu/communication-graph/id/source/empathy/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/empathy/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/empathy/s6> <https://schema.org/url> <https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2017.00542/full> .
 <https://github.com/john1hsu/communication-graph/id/source/employee-silence/s1> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/employee-silence/s1> <http://purl.org/dc/terms/publisher> "Milliken, F. J., Morrison, E. W. & Hewlin, P. F., Journal of Management Studies 40(6), 1453-1476, 2003 (NYU Stern manuscript copy)" .
 <https://github.com/john1hsu/communication-graph/id/source/employee-silence/s1> <http://purl.org/dc/terms/title> "An Exploratory Study of Employee Silence: Issues that Employees Don't Communicate Upward and Why" .

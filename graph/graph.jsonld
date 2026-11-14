@@ -7348,6 +7348,114 @@
    ]
   },
   {
+   "@id": "cm:empathy",
+   "@type": "cmo:Disposition",
+   "cmo:appliedIn": {
+    "@id": "cm:one-on-one-meetings"
+   },
+   "cmo:challengedBy": {
+    "@id": "cm:bloom-2017"
+   },
+   "cmo:complements": {
+    "@id": "cm:active-listening"
+   },
+   "cmo:domain": "listening",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:file": "articles/listening/empathy.md",
+   "cmo:influencedBy": {
+    "@id": "cm:carl-rogers"
+   },
+   "cmo:level": "introductory",
+   "cmo:requires": {
+    "@id": "cm:active-listening"
+   },
+   "cmo:supportedBy": [
+    {
+     "@id": "cm:elliott-et-al-2018"
+    },
+    {
+     "@id": "cm:teding-van-berkhout-malouff-2016"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/empathy/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/empathy/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/empathy/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/empathy/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/empathy/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/empathy/s6"
+    }
+   ],
+   "rdfs:label": "Empathy",
+   "skos:altLabel": [
+    "empathetic leadership",
+    "empathic communication",
+    "empathic understanding",
+    "showing empathy at work"
+   ],
+   "skos:broader": {
+    "@id": "cm:interpersonal-communication"
+   },
+   "skos:definition": "The disposition to notice, understand and partly share what another person is feeling and thinking, and to show them that understanding in a way they recognise. It combines sharing the other's emotional state, inferring their thoughts and feelings, and acting on that understanding.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/listening"
+   },
+   "skos:prefLabel": "Empathy",
+   "skos:related": [
+    {
+     "@id": "cm:active-listening"
+    },
+    {
+     "@id": "cm:carl-rogers"
+    },
+    {
+     "@id": "cm:emotional-contagion"
+    },
+    {
+     "@id": "cm:empathy-gap"
+    },
+    {
+     "@id": "cm:labeling-emotions"
+    },
+    {
+     "@id": "cm:nonviolent-communication"
+    },
+    {
+     "@id": "cm:paraphrasing"
+    },
+    {
+     "@id": "cm:perspective-getting"
+    },
+    {
+     "@id": "cm:perspective-taking"
+    },
+    {
+     "@id": "cm:rapport"
+    },
+    {
+     "@id": "cm:role-reversal"
+    },
+    {
+     "@id": "cm:support-response"
+    }
+   ]
+  },
+  {
    "@id": "cm:empathy-gap",
    "@type": "cmo:Barrier",
    "cmo:challengedBy": {
@@ -28705,6 +28813,46 @@
    "rdfs:label": "Am I explaining a tired or stressed colleague's slip as a character flaw when the situation may account for it?"
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/empathy/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:empathy"
+   },
+   "rdfs:label": "Before I reply, can I name what this person is feeling and why it matters to them, in their terms rather than mine?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/empathy/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:empathy"
+   },
+   "rdfs:label": "Did I check my read of their feelings with them, or did I assume I knew?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/empathy/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:empathy"
+   },
+   "rdfs:label": "Would they say they felt understood, or only that I was polite?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/empathy/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:empathy"
+   },
+   "rdfs:label": "Am I avoiding their frustration because it is uncomfortable or inconvenient for me to hear?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/empathy/check/5",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:empathy"
+   },
+   "rdfs:label": "Is my empathy for this one person pulling me toward a decision that is unfair to others who are not in the room?"
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/employee-silence/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -42513,6 +42661,90 @@
    "dcterms:title": "Empathy gaps for social pain and children's bystander behavior in bullying episodes",
    "schema:url": {
     "@id": "https://udspace.udel.edu/server/api/core/bitstreams/d4747f7d-59d7-4c84-b130-1820a5454b22/content"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/empathy/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Cuff, Brown, Taylor and Howat, Emotion Review 8(2), 144-153, 2016 (University of Northampton research portal record)",
+   "dcterms:title": "Empathy: A review of the concept",
+   "schema:url": {
+    "@id": "https://pure.northampton.ac.uk/en/publications/empathy-a-review-of-the-concept/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/empathy/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Zaki, Psychological Bulletin 140(6), 1608-1647, 2014 (author copy, Stanford Social Neuroscience Lab)",
+   "dcterms:title": "Empathy: A motivated account",
+   "schema:url": {
+    "@id": "https://www.ssnl.stanford.edu/_files/ugd/3ed582_d01d81760c2a4dd68bf15dcc2eeec464.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/empathy/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Teding van Berkhout and Malouff, Journal of Counseling Psychology, 32-41, 2016 (University of New England research repository record)",
+   "dcterms:title": "The efficacy of empathy training: A meta-analysis of randomized controlled trials",
+   "schema:url": {
+    "@id": "https://rune.une.edu.au/web/handle/1959.11/18592"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/empathy/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Elliott, Bohart, Watson and Murphy, Psychotherapy 55, 399-410, 2018 (author copy, University of Strathclyde)",
+   "dcterms:title": "Therapist empathy and client outcome: An updated meta-analysis",
+   "schema:url": {
+    "@id": "https://strathprints.strath.ac.uk/66200/1/Elliott_etal_Psychotherapy_2018_Therapist_empathy_and_client_outcome_an_updated.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/empathy/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Center for Creative Leadership (on research by William A. Gentry)",
+   "dcterms:title": "The Importance of Empathy in the Workplace",
+   "schema:url": {
+    "@id": "https://ccl.org/?p=49038"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/empathy/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Västfjäll, Erlandsson, Slovic and Tinghög, Frontiers in Psychology 8, 542, 2017",
+   "dcterms:title": "Commentary: Empathy and its discontents",
+   "schema:url": {
+    "@id": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2017.00542/full"
    }
   },
   {

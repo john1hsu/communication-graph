@@ -1299,6 +1299,15 @@ Ask yourself:
 - Did I ask a question only so that I could give my own answer to it?
 - Can I name one specific thing the other person said that I followed up on?
 
+### [Empathy](../articles/listening/empathy.md) — Disposition
+
+Ask yourself:
+- Before I reply, can I name what this person is feeling and why it matters to them, in their terms rather than mine?
+- Did I check my read of their feelings with them, or did I assume I knew?
+- Would they say they felt understood, or only that I was polite?
+- Am I avoiding their frustration because it is uncomfortable or inconvenient for me to hear?
+- Is my empathy for this one person pulling me toward a decision that is unfair to others who are not in the room?
+
 ### [Interrupting](../articles/listening/interrupting.md) — AntiPattern
 
 *In a weekly project meeting, a junior analyst starts explaining why the vendor data looks wrong, and the team lead jumps in.*
