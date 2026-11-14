@@ -92,6 +92,29 @@ Ask yourself:
 - Have I told my team when I do and do not expect replies, so nobody feels they must watch the inbox all day?
 - When I feel swamped, is it the volume of messages, or a lack of clear priorities behind them?
 
+### [Mindfulness training](../articles/barriers-and-psychology/mindfulness.md) — Technique
+
+1. Set a fixed slot of five to fifteen minutes a day - before your first meeting works well - and use a short guided audio or app rather than relying on willpower.
+2. Practise a three-minute breathing space twice a day - notice what you are thinking and feeling, narrow attention to the breath, then widen it to the whole body - so the skill exists before you need it.
+3. Pick one routine work task, such as opening your inbox or walking to a meeting room, and do it with full attention as an informal daily practice.
+4. In a tense conversation, use the trigger as a cue - feel your feet or one breath - and name the thought to yourself as a thought ("I'm having the thought she's blaming me") before you reply.
+5. From that pause, choose your next move deliberately - ask a question, restate the issue or propose a time to continue - rather than defending or going quiet.
+6. After a hard conversation, spend two minutes noting what you felt, where in the body, and what you did with it, to see whether your reactions are getting more spacious over weeks.
+
+*In a project review, a peer from another team says in front of the group that the analyst's forecast "clearly wasn't checked" before it went to the client.*
+
+| Before | After |
+|---|---|
+| That's not fair - I checked it twice. Maybe if your team had sent the data on time we wouldn't be here. | Let's look at it - which number worries you? If it's the Q3 line, I can walk through how I got it, and we can agree on a check before the next client send. |
+
+**Why:** After one breath and noticing the thought "I'm being blamed" as a thought, the analyst answered the substance; the pause turned an automatic counter-attack into a question and a joint next step, which is the shift from avoiding or fighting toward collaborating that Kay and Skarlicki found after brief mindfulness training.
+
+Ask yourself:
+- What am I feeling in my body right now, and what thought is riding on it?
+- Am I about to reply from the first story in my head, or have I taken one breath and looked at it as a thought?
+- Have I actually practised this week, or am I hoping the skill appears only when the meeting gets heated?
+- Am I using "staying present" to avoid raising a problem I should raise?
+
 ### [MUM effect](../articles/barriers-and-psychology/mum-effect.md) — Barrier
 
 Ask yourself:

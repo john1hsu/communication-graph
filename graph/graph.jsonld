@@ -13446,6 +13446,103 @@
    ]
   },
   {
+   "@id": "cm:mindfulness",
+   "@type": "cmo:Technique",
+   "cmo:addresses": {
+    "@id": "cm:workplace-stress"
+   },
+   "cmo:appliedIn": {
+    "@id": "cm:difficult-conversation"
+   },
+   "cmo:challengedBy": {
+    "@id": "cm:van-dam-et-al-2018"
+   },
+   "cmo:complements": {
+    "@id": "cm:cognitive-reappraisal"
+   },
+   "cmo:demonstratedBy": [
+    {
+     "@id": "cm:hulsheger-et-al-2013"
+    },
+    {
+     "@id": "cm:kay-skarlicki-2020"
+    }
+   ],
+   "cmo:develops": {
+    "@id": "cm:emotion-regulation"
+   },
+   "cmo:domain": "barriers-and-psychology",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/mindfulness/example"
+   },
+   "cmo:file": "articles/barriers-and-psychology/mindfulness.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/mindfulness/howto"
+   },
+   "cmo:level": "introductory",
+   "cmo:supportedBy": {
+    "@id": "cm:bartlett-et-al-2019"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/mindfulness/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/mindfulness/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/mindfulness/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/mindfulness/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/mindfulness/s5"
+    }
+   ],
+   "rdfs:label": "Mindfulness training",
+   "skos:altLabel": [
+    "mindfulness meditation at work",
+    "mindfulness practice",
+    "mindfulness",
+    "three-minute breathing space",
+    "workplace mindfulness training"
+   ],
+   "skos:broader": {
+    "@id": "cm:emotion-regulation"
+   },
+   "skos:definition": "Short, regular practice in noticing present-moment experience - breath, body sensations, thoughts and feelings - without judging it or acting on it at once, used at work to build the pause that lets you choose a response in a tense conversation instead of reacting.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/barriers-and-psychology"
+   },
+   "skos:prefLabel": "Mindfulness training",
+   "skos:related": [
+    {
+     "@id": "cm:cognitive-reappraisal"
+    },
+    {
+     "@id": "cm:conflict-resolution"
+    },
+    {
+     "@id": "cm:cooling-off-period"
+    },
+    {
+     "@id": "cm:defensiveness"
+    },
+    {
+     "@id": "cm:labeling-emotions"
+    },
+    {
+     "@id": "cm:self-distancing"
+    }
+   ]
+  },
+  {
    "@id": "cm:mirroring",
    "@type": "cmo:Technique",
    "cmo:appliedIn": {
@@ -30764,6 +30861,107 @@
    "schema:text": "Start the next meeting by checking the previous recap's actions before new business."
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/mindfulness/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:mindfulness"
+   },
+   "rdfs:label": "What am I feeling in my body right now, and what thought is riding on it?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/mindfulness/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:mindfulness"
+   },
+   "rdfs:label": "Am I about to reply from the first story in my head, or have I taken one breath and looked at it as a thought?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/mindfulness/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:mindfulness"
+   },
+   "rdfs:label": "Have I actually practised this week, or am I hoping the skill appears only when the meeting gets heated?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/mindfulness/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:mindfulness"
+   },
+   "rdfs:label": "Am I using \"staying present\" to avoid raising a problem I should raise?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/mindfulness/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "Let's look at it - which number worries you? If it's the Q3 line, I can walk through how I got it, and we can agree on a check before the next client send.",
+   "cmo:before": "That's not fair - I checked it twice. Maybe if your team had sent the data on time we wouldn't be here.",
+   "cmo:situation": "In a project review, a peer from another team says in front of the group that the analyst's forecast \"clearly wasn't checked\" before it went to the client.",
+   "cmo:why": "After one breath and noticing the thought \"I'm being blamed\" as a thought, the analyst answered the substance; the pause turned an automatic counter-attack into a question and a joint next step, which is the shift from avoiding or fighting toward collaborating that Kay and Skarlicki found after brief mindfulness training."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/mindfulness/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Mindfulness training",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/mindfulness/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/mindfulness/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/mindfulness/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/mindfulness/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/mindfulness/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/mindfulness/howto/6"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/mindfulness/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Set a fixed slot of five to fifteen minutes a day - before your first meeting works well - and use a short guided audio or app rather than relying on willpower."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/mindfulness/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Practise a three-minute breathing space twice a day - notice what you are thinking and feeling, narrow attention to the breath, then widen it to the whole body - so the skill exists before you need it."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/mindfulness/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Pick one routine work task, such as opening your inbox or walking to a meeting room, and do it with full attention as an informal daily practice."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/mindfulness/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "In a tense conversation, use the trigger as a cue - feel your feet or one breath - and name the thought to yourself as a thought (\"I'm having the thought she's blaming me\") before you reply."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/mindfulness/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "From that pause, choose your next move deliberately - ask a question, restate the issue or propose a time to continue - rather than defending or going quiet."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/mindfulness/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "After a hard conversation, spend two minutes noting what you felt, where in the body, and what you did with it, to see whether your reactions are getting more spacious over weeks."
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/mirroring/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -46741,6 +46939,76 @@
    "dcterms:title": "Dr. Mike Ross wins Career Contribution Award",
    "schema:url": {
     "@id": "https://uwaterloo.ca/psychology/news/dr-mike-ross-wins-career-contribution-award"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/mindfulness/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Hülsheger, U. R., Alberts, H. J. E. M., Feinholdt, A. & Lang, J. W. B., Journal of Applied Psychology 98(2), 310-325, 2013, doi:10.1037/a0031313 (author's copy, Maastricht University)",
+   "dcterms:title": "Benefits of mindfulness at work: The role of mindfulness in emotion regulation, emotional exhaustion, and job satisfaction",
+   "schema:url": {
+    "@id": "https://cris.maastrichtuniversity.nl/ws/portalfiles/portal/74901415/Hulsheger_2013_Benefits_of_mindfulness_at_work.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/mindfulness/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Bartlett, L., Martin, A., Neil, A. L., Memish, K., Otahal, P., Kilpatrick, M. & Sanderson, K., Journal of Occupational Health Psychology 24(1), 108-126, 2019, doi:10.1037/ocp0000146 (UEA repository record)",
+   "dcterms:title": "A systematic review and meta-analysis of workplace mindfulness training randomized controlled trials",
+   "schema:url": {
+    "@id": "https://ueaeprints.uea.ac.uk/id/eprint/70582/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/mindfulness/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Kay, A. A. & Skarlicki, D. P., Organizational Behavior and Human Decision Processes 159, 8-20, 2020, doi:10.1016/j.obhdp.2020.02.005 (RePEc record)",
+   "dcterms:title": "Cultivating a conflict-positive workplace: How mindfulness facilitates constructive conflict management",
+   "schema:url": {
+    "@id": "https://ideas.repec.org/a/eee/jobhdp/v159y2020icp8-20.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/mindfulness/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "University of British Columbia, UBC News, September 2020",
+   "dcterms:title": "Study says basic mindfulness can be key to solving workplace conflict",
+   "schema:url": {
+    "@id": "https://news.ubc.ca/2020/09/study-says-basic-mindfulness-can-be-key-to-solving-workplace-conflict/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/mindfulness/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Association for Psychological Science press release on Van Dam, N. T., et al., Mind the hype - a critical evaluation and prescriptive agenda for research on mindfulness and meditation, Perspectives on Psychological Science, 2018 (online October 2017)",
+   "dcterms:title": "Mindfulness and meditation need more rigorous study, less hype",
+   "schema:url": {
+    "@id": "https://www.psychologicalscience.org/news/releases/mindfulness-and-meditation-need-more-rigorous-study.html"
    }
   },
   {

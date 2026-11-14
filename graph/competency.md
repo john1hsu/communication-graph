@@ -12,9 +12,7 @@ _No results._
 
 _Which written skills or dispositions have no technique, framework or principle that develops them?_ — `queries/02-skills-without-practice.rq`
 
-| skill | type |
-|---|---|
-| `cm:emotion-regulation` | cmo:Skill |
+_No results._
 
 ## Situations, channels and formats with no guidance (gap)
 
@@ -44,6 +42,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:graded-assertiveness` | 2 | Employee silence, Upward dissent |
 | `cm:i-statements` | 2 | Defensiveness, accusatory-you-statements |
 | `cm:interests-vs-positions` | 2 | Mythical fixed-pie bias, positional-bargaining |
+| `cm:mindfulness` | 2 | Emotion regulation, workplace-stress |
 | `cm:nominal-group-technique` | 2 | Unequal participation, production-blocking |
 | `cm:plain-language` | 2 | Curse of knowledge, jargon |
 | `cm:presentation-rehearsal` | 2 | Public speaking anxiety, public-speaking |
@@ -57,9 +56,8 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:active-listening` | 1 | Defensiveness |
 | `cm:active-voice` | 1 | unclear-ownership |
 | `cm:anxiety-reappraisal` | 1 | Public speaking anxiety |
-| `cm:assertion-evidence-slides` | 1 | Death by PowerPoint |
 
-…and 53 more.
+…and 54 more.
 
 ## Toolkit by situation
 
@@ -91,14 +89,14 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:difficult-conversation` | `cm:emotion-regulation` |
 | `cm:difficult-conversation` | `cm:face-and-facework` |
 | `cm:difficult-conversation` | `cm:i-statements` |
+| `cm:difficult-conversation` | `cm:mindfulness` |
 | `cm:difficult-conversation` | `cm:paraphrasing` |
 | `cm:difficult-conversation` | `cm:perception-checking` |
 | `cm:difficult-conversation` | `cm:role-reversal` |
 | `cm:difficult-conversation` | `cm:thomas-kilmann-conflict-modes` |
 | `cm:elevator-pitch` | `cm:monroes-motivated-sequence` |
-| `cm:email` | `cm:audience-analysis` |
 
-…and 133 more.
+…and 134 more.
 
 ## Myths and contested advice
 
@@ -137,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:acoustic-speech-analysis-coaching` | mixed |  |
 | `cm:active-listening` | mixed |  |
 
-…and 165 more.
+…and 166 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -169,14 +167,14 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:meeting-agendas` | cmo:Technique |
 | `cm:meeting-recaps` | cmo:Technique |
 | `cm:message-structure` | cmo:Concept |
+| `cm:mindfulness` | cmo:Technique |
 | `cm:mirroring` | cmo:Technique |
 | `cm:mixed-messages` | cmo:Barrier |
 | `cm:multicultural-team` | cmo:Context |
 | `cm:mum-effect` | cmo:Barrier |
 | `cm:narrative-persuasion` | cmo:Technique |
-| `cm:negotiation` | cmo:Context |
 
-…and 51 more.
+…and 52 more.
 
 ## Orphan articles (gap)
 

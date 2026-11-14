@@ -15263,6 +15263,129 @@
   ]
  },
  {
+  "id": "cm:mindfulness",
+  "title": "Mindfulness training",
+  "aliases": [
+   "mindfulness",
+   "mindfulness practice",
+   "workplace mindfulness training",
+   "mindfulness meditation at work",
+   "three-minute breathing space"
+  ],
+  "type": "Technique",
+  "domain": "barriers-and-psychology",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/barriers-and-psychology/mindfulness.md",
+  "created": "2026-11-14",
+  "summary": "Short, regular practice in noticing present-moment experience - breath, body sensations, thoughts and feelings - without judging it or acting on it at once, used at work to build the pause that lets you choose a response in a tense conversation instead of reacting.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:emotion-regulation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:self-distancing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:cognitive-reappraisal"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:cooling-off-period"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:labeling-emotions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:defensiveness"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:conflict-resolution"
+   },
+   {
+    "predicate": "cmo:develops",
+    "object": "cm:emotion-regulation",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:hulsheger-et-al-2013",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:kay-skarlicki-2020",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:bartlett-et-al-2019",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:workplace-stress",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:cognitive-reappraisal",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:difficult-conversation",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:van-dam-et-al-2018",
+    "source": "s5",
+    "confidence": "high"
+   }
+  ],
+  "selfCheck": [
+   "What am I feeling in my body right now, and what thought is riding on it?",
+   "Am I about to reply from the first story in my head, or have I taken one breath and looked at it as a thought?",
+   "Have I actually practised this week, or am I hoping the skill appears only when the meeting gets heated?",
+   "Am I using \"staying present\" to avoid raising a problem I should raise?"
+  ],
+  "steps": [
+   "Set a fixed slot of five to fifteen minutes a day - before your first meeting works well - and use a short guided audio or app rather than relying on willpower.",
+   "Practise a three-minute breathing space twice a day - notice what you are thinking and feeling, narrow attention to the breath, then widen it to the whole body - so the skill exists before you need it.",
+   "Pick one routine work task, such as opening your inbox or walking to a meeting room, and do it with full attention as an informal daily practice.",
+   "In a tense conversation, use the trigger as a cue - feel your feet or one breath - and name the thought to yourself as a thought (\"I'm having the thought she's blaming me\") before you reply.",
+   "From that pause, choose your next move deliberately - ask a question, restate the issue or propose a time to continue - rather than defending or going quiet.",
+   "After a hard conversation, spend two minutes noting what you felt, where in the body, and what you did with it, to see whether your reactions are getting more spacious over weeks."
+  ],
+  "example": {
+   "situation": "In a project review, a peer from another team says in front of the group that the analyst's forecast \"clearly wasn't checked\" before it went to the client.",
+   "before": "That's not fair - I checked it twice. Maybe if your team had sent the data on time we wouldn't be here.",
+   "after": "Let's look at it - which number worries you? If it's the Q3 line, I can walk through how I got it, and we can agree on a check before the next client send.",
+   "why": "After one breath and noticing the thought \"I'm being blamed\" as a thought, the analyst answered the substance; the pause turned an automatic counter-attack into a question and a joint next step, which is the shift from avoiding or fighting toward collaborating that Kay and Skarlicki found after brief mindfulness training."
+  },
+  "source_urls": [
+   "https://cris.maastrichtuniversity.nl/ws/portalfiles/portal/74901415/Hulsheger_2013_Benefits_of_mindfulness_at_work.pdf",
+   "https://ueaeprints.uea.ac.uk/id/eprint/70582/",
+   "https://ideas.repec.org/a/eee/jobhdp/v159y2020icp8-20.html",
+   "https://news.ubc.ca/2020/09/study-says-basic-mindfulness-can-be-key-to-solving-workplace-conflict/",
+   "https://www.psychologicalscience.org/news/releases/mindfulness-and-meditation-need-more-rigorous-study.html"
+  ]
+ },
+ {
   "id": "cm:mirroring",
   "title": "Mirroring",
   "aliases": [

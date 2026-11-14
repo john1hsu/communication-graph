@@ -7805,6 +7805,86 @@
 <https://github.com/john1hsu/communication-graph/id/michael-ross> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/planning-fallacy> .
 <https://github.com/john1hsu/communication-graph/id/michael-ross> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/egocentric-bias> .
 <https://github.com/john1hsu/communication-graph/id/michael-ross> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/mindfulness/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/mindfulness/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "What am I feeling in my body right now, and what thought is riding on it?" .
+<https://github.com/john1hsu/communication-graph/id/mindfulness/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/mindfulness> .
+<https://github.com/john1hsu/communication-graph/id/mindfulness/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/mindfulness/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Am I about to reply from the first story in my head, or have I taken one breath and looked at it as a thought?" .
+<https://github.com/john1hsu/communication-graph/id/mindfulness/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/mindfulness> .
+<https://github.com/john1hsu/communication-graph/id/mindfulness/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/mindfulness/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Have I actually practised this week, or am I hoping the skill appears only when the meeting gets heated?" .
+<https://github.com/john1hsu/communication-graph/id/mindfulness/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/mindfulness> .
+<https://github.com/john1hsu/communication-graph/id/mindfulness/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/mindfulness/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Am I using \"staying present\" to avoid raising a problem I should raise?" .
+<https://github.com/john1hsu/communication-graph/id/mindfulness/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/mindfulness> .
+<https://github.com/john1hsu/communication-graph/id/mindfulness/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+<https://github.com/john1hsu/communication-graph/id/mindfulness/example> <https://github.com/john1hsu/communication-graph/ontology#after> "Let's look at it - which number worries you? If it's the Q3 line, I can walk through how I got it, and we can agree on a check before the next client send." .
+<https://github.com/john1hsu/communication-graph/id/mindfulness/example> <https://github.com/john1hsu/communication-graph/ontology#before> "That's not fair - I checked it twice. Maybe if your team had sent the data on time we wouldn't be here." .
+<https://github.com/john1hsu/communication-graph/id/mindfulness/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "In a project review, a peer from another team says in front of the group that the analyst's forecast \"clearly wasn't checked\" before it went to the client." .
+<https://github.com/john1hsu/communication-graph/id/mindfulness/example> <https://github.com/john1hsu/communication-graph/ontology#why> "After one breath and noticing the thought \"I'm being blamed\" as a thought, the analyst answered the substance; the pause turned an automatic counter-attack into a question and a joint next step, which is the shift from avoiding or fighting toward collaborating that Kay and Skarlicki found after brief mindfulness training." .
+<https://github.com/john1hsu/communication-graph/id/mindfulness/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/mindfulness/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/mindfulness/howto/1> <https://schema.org/text> "Set a fixed slot of five to fifteen minutes a day - before your first meeting works well - and use a short guided audio or app rather than relying on willpower." .
+<https://github.com/john1hsu/communication-graph/id/mindfulness/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/mindfulness/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/mindfulness/howto/2> <https://schema.org/text> "Practise a three-minute breathing space twice a day - notice what you are thinking and feeling, narrow attention to the breath, then widen it to the whole body - so the skill exists before you need it." .
+<https://github.com/john1hsu/communication-graph/id/mindfulness/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/mindfulness/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/mindfulness/howto/3> <https://schema.org/text> "Pick one routine work task, such as opening your inbox or walking to a meeting room, and do it with full attention as an informal daily practice." .
+<https://github.com/john1hsu/communication-graph/id/mindfulness/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/mindfulness/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/mindfulness/howto/4> <https://schema.org/text> "In a tense conversation, use the trigger as a cue - feel your feet or one breath - and name the thought to yourself as a thought (\"I'm having the thought she's blaming me\") before you reply." .
+<https://github.com/john1hsu/communication-graph/id/mindfulness/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/mindfulness/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/mindfulness/howto/5> <https://schema.org/text> "From that pause, choose your next move deliberately - ask a question, restate the issue or propose a time to continue - rather than defending or going quiet." .
+<https://github.com/john1hsu/communication-graph/id/mindfulness/howto/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/mindfulness/howto/6> <https://schema.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/mindfulness/howto/6> <https://schema.org/text> "After a hard conversation, spend two minutes noting what you felt, where in the body, and what you did with it, to see whether your reactions are getting more spacious over weeks." .
+<https://github.com/john1hsu/communication-graph/id/mindfulness/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+<https://github.com/john1hsu/communication-graph/id/mindfulness/howto> <https://schema.org/name> "Mindfulness training" .
+<https://github.com/john1hsu/communication-graph/id/mindfulness/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/mindfulness/howto/1> .
+<https://github.com/john1hsu/communication-graph/id/mindfulness/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/mindfulness/howto/2> .
+<https://github.com/john1hsu/communication-graph/id/mindfulness/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/mindfulness/howto/3> .
+<https://github.com/john1hsu/communication-graph/id/mindfulness/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/mindfulness/howto/4> .
+<https://github.com/john1hsu/communication-graph/id/mindfulness/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/mindfulness/howto/5> .
+<https://github.com/john1hsu/communication-graph/id/mindfulness/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/mindfulness/howto/6> .
+<https://github.com/john1hsu/communication-graph/id/mindfulness> <http://purl.org/dc/terms/created> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/mindfulness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Technique> .
+<https://github.com/john1hsu/communication-graph/id/mindfulness> <http://www.w3.org/2000/01/rdf-schema#label> "Mindfulness training" .
+<https://github.com/john1hsu/communication-graph/id/mindfulness> <http://www.w3.org/2004/02/skos/core#altLabel> "mindfulness meditation at work" .
+<https://github.com/john1hsu/communication-graph/id/mindfulness> <http://www.w3.org/2004/02/skos/core#altLabel> "mindfulness practice" .
+<https://github.com/john1hsu/communication-graph/id/mindfulness> <http://www.w3.org/2004/02/skos/core#altLabel> "mindfulness" .
+<https://github.com/john1hsu/communication-graph/id/mindfulness> <http://www.w3.org/2004/02/skos/core#altLabel> "three-minute breathing space" .
+<https://github.com/john1hsu/communication-graph/id/mindfulness> <http://www.w3.org/2004/02/skos/core#altLabel> "workplace mindfulness training" .
+<https://github.com/john1hsu/communication-graph/id/mindfulness> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/emotion-regulation> .
+<https://github.com/john1hsu/communication-graph/id/mindfulness> <http://www.w3.org/2004/02/skos/core#definition> "Short, regular practice in noticing present-moment experience - breath, body sensations, thoughts and feelings - without judging it or acting on it at once, used at work to build the pause that lets you choose a response in a tense conversation instead of reacting." .
+<https://github.com/john1hsu/communication-graph/id/mindfulness> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/barriers-and-psychology> .
+<https://github.com/john1hsu/communication-graph/id/mindfulness> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mindfulness training" .
+<https://github.com/john1hsu/communication-graph/id/mindfulness> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> .
+<https://github.com/john1hsu/communication-graph/id/mindfulness> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/conflict-resolution> .
+<https://github.com/john1hsu/communication-graph/id/mindfulness> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cooling-off-period> .
+<https://github.com/john1hsu/communication-graph/id/mindfulness> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/defensiveness> .
+<https://github.com/john1hsu/communication-graph/id/mindfulness> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/labeling-emotions> .
+<https://github.com/john1hsu/communication-graph/id/mindfulness> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/self-distancing> .
+<https://github.com/john1hsu/communication-graph/id/mindfulness> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/mindfulness/s1> .
+<https://github.com/john1hsu/communication-graph/id/mindfulness> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/mindfulness/s2> .
+<https://github.com/john1hsu/communication-graph/id/mindfulness> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/mindfulness/s3> .
+<https://github.com/john1hsu/communication-graph/id/mindfulness> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/mindfulness/s4> .
+<https://github.com/john1hsu/communication-graph/id/mindfulness> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/mindfulness/s5> .
+<https://github.com/john1hsu/communication-graph/id/mindfulness> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/workplace-stress> .
+<https://github.com/john1hsu/communication-graph/id/mindfulness> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/difficult-conversation> .
+<https://github.com/john1hsu/communication-graph/id/mindfulness> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/van-dam-et-al-2018> .
+<https://github.com/john1hsu/communication-graph/id/mindfulness> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> .
+<https://github.com/john1hsu/communication-graph/id/mindfulness> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/hulsheger-et-al-2013> .
+<https://github.com/john1hsu/communication-graph/id/mindfulness> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/kay-skarlicki-2020> .
+<https://github.com/john1hsu/communication-graph/id/mindfulness> <https://github.com/john1hsu/communication-graph/ontology#develops> <https://github.com/john1hsu/communication-graph/id/emotion-regulation> .
+<https://github.com/john1hsu/communication-graph/id/mindfulness> <https://github.com/john1hsu/communication-graph/ontology#domain> "barriers-and-psychology" .
+<https://github.com/john1hsu/communication-graph/id/mindfulness> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/mindfulness> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/mindfulness/example> .
+<https://github.com/john1hsu/communication-graph/id/mindfulness> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/barriers-and-psychology/mindfulness.md" .
+<https://github.com/john1hsu/communication-graph/id/mindfulness> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/mindfulness/howto> .
+<https://github.com/john1hsu/communication-graph/id/mindfulness> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/mindfulness> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/bartlett-et-al-2019> .
 <https://github.com/john1hsu/communication-graph/id/mirroring/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/mirroring/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Did I repeat their words with curiosity, or did it sound like an accusation or a parrot?" .
 <https://github.com/john1hsu/communication-graph/id/mirroring/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/mirroring> .
@@ -17616,6 +17696,36 @@
 <https://github.com/john1hsu/communication-graph/id/source/michael-ross/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/michael-ross/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
 <https://github.com/john1hsu/communication-graph/id/source/michael-ross/s4> <https://schema.org/url> <https://uwaterloo.ca/psychology/news/dr-mike-ross-wins-career-contribution-award> .
+<https://github.com/john1hsu/communication-graph/id/source/mindfulness/s1> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/mindfulness/s1> <http://purl.org/dc/terms/publisher> "Hülsheger, U. R., Alberts, H. J. E. M., Feinholdt, A. & Lang, J. W. B., Journal of Applied Psychology 98(2), 310-325, 2013, doi:10.1037/a0031313 (author's copy, Maastricht University)" .
+<https://github.com/john1hsu/communication-graph/id/source/mindfulness/s1> <http://purl.org/dc/terms/title> "Benefits of mindfulness at work: The role of mindfulness in emotion regulation, emotional exhaustion, and job satisfaction" .
+<https://github.com/john1hsu/communication-graph/id/source/mindfulness/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/mindfulness/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/mindfulness/s1> <https://schema.org/url> <https://cris.maastrichtuniversity.nl/ws/portalfiles/portal/74901415/Hulsheger_2013_Benefits_of_mindfulness_at_work.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/mindfulness/s2> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/mindfulness/s2> <http://purl.org/dc/terms/publisher> "Bartlett, L., Martin, A., Neil, A. L., Memish, K., Otahal, P., Kilpatrick, M. & Sanderson, K., Journal of Occupational Health Psychology 24(1), 108-126, 2019, doi:10.1037/ocp0000146 (UEA repository record)" .
+<https://github.com/john1hsu/communication-graph/id/source/mindfulness/s2> <http://purl.org/dc/terms/title> "A systematic review and meta-analysis of workplace mindfulness training randomized controlled trials" .
+<https://github.com/john1hsu/communication-graph/id/source/mindfulness/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/mindfulness/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/mindfulness/s2> <https://schema.org/url> <https://ueaeprints.uea.ac.uk/id/eprint/70582/> .
+<https://github.com/john1hsu/communication-graph/id/source/mindfulness/s3> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/mindfulness/s3> <http://purl.org/dc/terms/publisher> "Kay, A. A. & Skarlicki, D. P., Organizational Behavior and Human Decision Processes 159, 8-20, 2020, doi:10.1016/j.obhdp.2020.02.005 (RePEc record)" .
+<https://github.com/john1hsu/communication-graph/id/source/mindfulness/s3> <http://purl.org/dc/terms/title> "Cultivating a conflict-positive workplace: How mindfulness facilitates constructive conflict management" .
+<https://github.com/john1hsu/communication-graph/id/source/mindfulness/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/mindfulness/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/mindfulness/s3> <https://schema.org/url> <https://ideas.repec.org/a/eee/jobhdp/v159y2020icp8-20.html> .
+<https://github.com/john1hsu/communication-graph/id/source/mindfulness/s4> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/mindfulness/s4> <http://purl.org/dc/terms/publisher> "University of British Columbia, UBC News, September 2020" .
+<https://github.com/john1hsu/communication-graph/id/source/mindfulness/s4> <http://purl.org/dc/terms/title> "Study says basic mindfulness can be key to solving workplace conflict" .
+<https://github.com/john1hsu/communication-graph/id/source/mindfulness/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/mindfulness/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/mindfulness/s4> <https://schema.org/url> <https://news.ubc.ca/2020/09/study-says-basic-mindfulness-can-be-key-to-solving-workplace-conflict/> .
+<https://github.com/john1hsu/communication-graph/id/source/mindfulness/s5> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/mindfulness/s5> <http://purl.org/dc/terms/publisher> "Association for Psychological Science press release on Van Dam, N. T., et al., Mind the hype - a critical evaluation and prescriptive agenda for research on mindfulness and meditation, Perspectives on Psychological Science, 2018 (online October 2017)" .
+<https://github.com/john1hsu/communication-graph/id/source/mindfulness/s5> <http://purl.org/dc/terms/title> "Mindfulness and meditation need more rigorous study, less hype" .
+<https://github.com/john1hsu/communication-graph/id/source/mindfulness/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/mindfulness/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/communication-graph/id/source/mindfulness/s5> <https://schema.org/url> <https://www.psychologicalscience.org/news/releases/mindfulness-and-meditation-need-more-rigorous-study.html> .
 <https://github.com/john1hsu/communication-graph/id/source/mirroring/s1> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/mirroring/s1> <http://purl.org/dc/terms/publisher> "Maddux, Mullen & Galinsky, Journal of Experimental Social Psychology 44, 461-468 (2008) (author copy, University of North Carolina)" .
 <https://github.com/john1hsu/communication-graph/id/source/mirroring/s1> <http://purl.org/dc/terms/title> "Chameleons Bake Bigger Pies and Take Bigger Pieces: Strategic Behavioral Mimicry Facilitates Negotiation Outcomes" .
