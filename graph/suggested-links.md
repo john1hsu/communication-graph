@@ -4,7 +4,7 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 
 | Score | Node A | Node B | Shared neighbours |
 |---|---|---|---|
-| 4.84 | `cm:audience-analysis` | `cm:credibility` | `cm:aristotles-rhetoric`, `cm:charismatic-leadership-tactics`, `cm:client-communication`, `cm:communicating-uncertainty`, `cm:elaboration-likelihood-model` |
+| 4.83 | `cm:audience-analysis` | `cm:credibility` | `cm:aristotles-rhetoric`, `cm:charismatic-leadership-tactics`, `cm:client-communication`, `cm:communicating-uncertainty`, `cm:elaboration-likelihood-model` |
 | 3.81 | `cm:bottom-line-up-front` | `cm:presentation` | `cm:assertion-evidence-slides`, `cm:audience-analysis`, `cm:cognitive-load`, `cm:elevator-pitch`, `cm:executive-briefing` |
 | 3.81 | `cm:distributive-negotiation` | `cm:multiple-equivalent-simultaneous-offers` | `cm:anchoring-and-adjustment`, `cm:batna`, `cm:concession-strategy`, `cm:first-offer`, `cm:integrative-negotiation` |
 | 3.78 | `cm:integrative-negotiation` | `cm:negotiation-preparation` | `cm:batna`, `cm:concession-strategy`, `cm:distributive-negotiation`, `cm:first-offer`, `cm:interests-vs-positions` |
@@ -14,12 +14,12 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 3.47 | `cm:post-settlement-settlement` | `cm:zone-of-possible-agreement` | `cm:batna`, `cm:concession-strategy`, `cm:howard-raiffa`, `cm:integrative-negotiation`, `cm:interests-vs-positions` |
 | 3.46 | `cm:batna` | `cm:mythical-fixed-pie` | `cm:anchoring-and-adjustment`, `cm:distributive-negotiation`, `cm:integrative-negotiation`, `cm:interests-vs-positions`, `cm:multiple-equivalent-simultaneous-offers` |
 | 3.43 | `cm:bottom-line-up-front` | `cm:death-by-powerpoint` | `cm:assertion-evidence-slides`, `cm:bulleted-and-numbered-lists`, `cm:burying-the-lede`, `cm:clarity`, `cm:cognitive-load` |
-| 3.35 | `cm:audience-analysis` | `cm:organizational-communication` | `cm:change-communication`, `cm:channel-selection`, `cm:client-communication`, `cm:managing-up`, `cm:memorandum` |
+| 3.34 | `cm:audience-analysis` | `cm:organizational-communication` | `cm:change-communication`, `cm:channel-selection`, `cm:client-communication`, `cm:managing-up`, `cm:memorandum` |
 | 3.32 | `cm:active-listening` | `cm:interpersonal-communication` | `cm:client-communication`, `cm:coaching`, `cm:communication-competence`, `cm:empathy`, `cm:one-on-one-meetings` |
 | 3.32 | `cm:chat-etiquette` | `cm:email` | `cm:asynchronous-communication`, `cm:bottom-line-up-front`, `cm:channel-selection`, `cm:digital-communication`, `cm:emoji-and-tone-in-text` |
 | 3.25 | `cm:mythical-fixed-pie` | `cm:principled-negotiation` | `cm:distributive-negotiation`, `cm:integrative-negotiation`, `cm:interests-vs-positions`, `cm:multiple-equivalent-simultaneous-offers`, `cm:negotiation` |
 | 3.23 | `cm:culture-assimilator` | `cm:intercultural-communication` | `cm:cultural-intelligence`, `cm:describe-analyze-evaluate`, `cm:ethnocentrism`, `cm:intercultural-competence`, `cm:li-2021-cross-cultural-training-meta-analysis` |
-| 3.22 | `cm:delivering-bad-news` | `cm:managing-up` | `cm:bottom-line-up-front`, `cm:channel-selection`, `cm:client-communication`, `cm:communicating-uncertainty`, `cm:escalation-communication` |
+| 3.21 | `cm:delivering-bad-news` | `cm:managing-up` | `cm:bottom-line-up-front`, `cm:channel-selection`, `cm:client-communication`, `cm:communicating-uncertainty`, `cm:escalation-communication` |
 | 3.17 | `cm:conflict-resolution` | `cm:defensiveness` | `cm:accusatory-you-statements`, `cm:conversational-receptiveness`, `cm:de-escalation`, `cm:desc-script`, `cm:difficult-conversation` |
 | 3.14 | `cm:executive-briefing` | `cm:plain-language` | `cm:audience-analysis`, `cm:bottom-line-up-front`, `cm:business-report`, `cm:executive-summary`, `cm:information-overload` |
 | 3.13 | `cm:egocentric-bias` | `cm:email` | `cm:checking-understanding`, `cm:curse-of-knowledge`, `cm:digital-communication`, `cm:email-urgency-bias-study`, `cm:emoji-and-tone-in-text` |
@@ -27,5 +27,5 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 3.08 | `cm:performance-review` | `cm:praise-and-recognition` | `cm:feedback`, `cm:feedback-intervention-theory`, `cm:feedback-sandwich`, `cm:feedforward`, `cm:hattie-timperley-feedback-model` |
 | 3.08 | `cm:active-listening` | `cm:checking-understanding` | `cm:common-ground`, `cm:note-taking-while-listening`, `cm:open-ended-questions`, `cm:paraphrasing`, `cm:perception-checking` |
 | 3.07 | `cm:channel-selection` | `cm:egocentric-bias` | `cm:common-ground`, `cm:curse-of-knowledge`, `cm:digital-communication`, `cm:egocentrism-over-email-study`, `cm:emoji-and-tone-in-text` |
-| 3.05 | `cm:delivering-bad-news` | `cm:psychological-safety` | `cm:active-listening`, `cm:blowing-the-whistle-on-troubled-software-projects`, `cm:change-communication`, `cm:deaf-effect`, `cm:difficult-conversation` |
-| 2.99 | `cm:irving-janis` | `cm:premortem` | `cm:devils-advocacy`, `cm:facilitation`, `cm:group-decision-making`, `cm:groupthink`, `cm:psychological-safety` |
+| 3.04 | `cm:audience-analysis` | `cm:delivering-bad-news` | `cm:bottom-line-up-front`, `cm:change-communication`, `cm:channel-selection`, `cm:client-communication`, `cm:communicating-uncertainty` |
+| 3.03 | `cm:delivering-bad-news` | `cm:psychological-safety` | `cm:active-listening`, `cm:blowing-the-whistle-on-troubled-software-projects`, `cm:change-communication`, `cm:deaf-effect`, `cm:difficult-conversation` |

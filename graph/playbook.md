@@ -964,6 +964,29 @@ Ask yourself:
 - Does the first line tell a busy sponsor whether they need to act, and by when?
 - Am I reporting change against the approved baseline, or only selecting the numbers that look good this week?
 
+### [Realistic merger preview](../articles/executive-and-client-communication/realistic-merger-preview.md) — Technique
+
+1. Within days of the announcement, list the questions each affected group will ask (jobs, pay, reporting lines, location, systems, timing) and draft a plain answer to each.
+2. Sort every answer into "decided", "not decided yet - expected by <date>" and "will not change", and include the unwelcome decisions rather than leaving them out.
+3. Brief line managers first with the same facts and a short Q&A, so they can answer questions in their own team meetings the same day.
+4. Deliver the preview in person or live where possible, then send the written version and a named place to send questions.
+5. Set a fixed update rhythm (for example weekly) and keep it even when there is little news, saying so plainly.
+6. Collect the questions and rumours you hear, answer them in the next update, and correct anything you said earlier that has changed.
+
+*Telling a 40-person regional support team about the first month after their company is acquired.*
+
+| Before | After |
+|---|---|
+| We're thrilled to join forces with Northwind. Nothing changes for now, and we'll share more details when we can. | From 1 March you'll use Northwind's ticketing system; training is in February. Your pay, manager and shift pattern stay the same through June. Whether the two support teams merge is not decided yet; we expect a decision by 30 April, and you'll hear it from me first. Until then I'll update you every Thursday, even if the update is 'no change'. |
+
+**Why:** The rewrite separates what is decided, what is unchanged and what is still open, gives dates, and commits to a rhythm, so people have less room to fill the gaps with rumour.
+
+Ask yourself:
+- Have I told people at least one thing they would rather not hear, instead of saving it for later?
+- For each open question, have I given a date by which they will hear more?
+- Will every line manager be able to answer the same questions with the same facts today?
+- When did I last correct or update something I said in an earlier message?
+
 ### [Risk numbers as natural frequencies](../articles/executive-and-client-communication/risk-numbers-as-natural-frequencies.md) — Technique
 
 1. Pick one reference group large enough that every count comes out as a whole number (1,000 or 10,000 is usual) and name it in the first sentence.
