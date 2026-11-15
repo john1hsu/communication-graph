@@ -24664,6 +24664,84 @@
    ]
   },
   {
+   "@id": "cm:uptalk",
+   "@type": "cmo:Phenomenon",
+   "cmo:demonstratedBy": [
+    {
+     "@id": "cm:asano-et-al-2020"
+    },
+    {
+     "@id": "cm:linneman-2013"
+    },
+    {
+     "@id": "cm:ritchart-arvaniti-2014"
+    },
+    {
+     "@id": "cm:wollum-2019"
+    }
+   ],
+   "cmo:domain": "nonverbal-and-voice",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:file": "articles/nonverbal-and-voice/uptalk.md",
+   "cmo:level": "introductory",
+   "cmo:studiedIn": {
+    "@id": "cm:sociolinguistics"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/uptalk/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/uptalk/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/uptalk/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/uptalk/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/uptalk/s5"
+    }
+   ],
+   "rdfs:label": "Uptalk",
+   "skos:altLabel": [
+    "high rising terminal",
+    "rising intonation on statements",
+    "statement rise",
+    "upspeak"
+   ],
+   "skos:broader": {
+    "@id": "cm:paralanguage"
+   },
+   "skos:definition": "Ending a declarative statement with a rising pitch, so it can sound like a question. Linguists treat it as a systematic feature of several English varieties with real conversational jobs (holding the floor, checking understanding), while some listeners, especially outside the speaker's group, judge it as less competent.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/nonverbal-and-voice"
+   },
+   "skos:prefLabel": "Uptalk",
+   "skos:related": [
+    {
+     "@id": "cm:credibility"
+    },
+    {
+     "@id": "cm:executive-presence"
+    },
+    {
+     "@id": "cm:filled-pauses"
+    },
+    {
+     "@id": "cm:status-reporting"
+    },
+    {
+     "@id": "cm:vocal-delivery"
+    }
+   ]
+  },
+  {
    "@id": "cm:upward-dissent",
    "@type": "cmo:Skill",
    "cmo:appliedIn": {
@@ -58696,6 +58774,76 @@
    "dcterms:title": "Facilitating Group Discussions, section 6.1: Under-participation",
    "schema:url": {
     "@id": "https://www.open.edu/openlearn/money-business/facilitating-group-discussions/content-section-6.1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/uptalk/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Paul Warren, Cambridge University Press, 2016 (book page with chapter list)",
+   "dcterms:title": "Uptalk: The Phenomenon of Rising Intonation",
+   "schema:url": {
+    "@id": "https://www.cambridge.org/core/books/uptalk/BEBE51DEDAA4C410416DCBF15E636831"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/uptalk/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Amanda Ritchart & Amalia Arvaniti, Proceedings of Speech Prosody 7 (Dublin, 2014), pp. 331-335 (University of Kent repository)",
+   "dcterms:title": "The Form and Use of Uptalk in Southern California English",
+   "schema:url": {
+    "@id": "https://kar.kent.ac.uk/46707/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/uptalk/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Yuki Asano, Chen Yuan, Ann-Kathrin Grohe, Andrea Weber, Mark Antoniou & Anne Cutler, Proceedings of Speech Prosody 2020 (Max Planck repository)",
+   "dcterms:title": "Uptalk interpretation as a function of listening experience",
+   "schema:url": {
+    "@id": "https://pure.mpg.de/pubman/item/item_3231622_2/component/file_3231623/Asano_etal_2020_Uptalk%20interpretation%20as%20a%20function%20of%20listening%20experience.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/uptalk/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "William & Mary news, on Thomas Linneman, Gender & Society (online 2012, print 2013)",
+   "dcterms:title": "'Jeopardy!' offers professor insight into gender and speech",
+   "schema:url": {
+    "@id": "https://www.wm.edu/as/news/2012-2013/linneman_jeopardy.php"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/uptalk/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Emma Wollum, MA thesis in Linguistics, Te Herenga Waka-Victoria University of Wellington, 2019",
+   "dcterms:title": "The Uptalk Downgrade: Comparing age- and gender-based perceptions of uptalk in four highly-skilled professions",
+   "schema:url": {
+    "@id": "https://openaccess.wgtn.ac.nz/articles/thesis/The_Uptalk_Downgrade_Comparing_age-_and_gender-based_perceptions_of_uptalk_in_four_highly-skilled_professions/17143793"
    }
   },
   {

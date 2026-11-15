@@ -22493,6 +22493,36 @@
 <https://github.com/john1hsu/communication-graph/id/source/unequal-participation/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/unequal-participation/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
 <https://github.com/john1hsu/communication-graph/id/source/unequal-participation/s6> <https://schema.org/url> <https://www.open.edu/openlearn/money-business/facilitating-group-discussions/content-section-6.1> .
+<https://github.com/john1hsu/communication-graph/id/source/uptalk/s1> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/uptalk/s1> <http://purl.org/dc/terms/publisher> "Paul Warren, Cambridge University Press, 2016 (book page with chapter list)" .
+<https://github.com/john1hsu/communication-graph/id/source/uptalk/s1> <http://purl.org/dc/terms/title> "Uptalk: The Phenomenon of Rising Intonation" .
+<https://github.com/john1hsu/communication-graph/id/source/uptalk/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/uptalk/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/uptalk/s1> <https://schema.org/url> <https://www.cambridge.org/core/books/uptalk/BEBE51DEDAA4C410416DCBF15E636831> .
+<https://github.com/john1hsu/communication-graph/id/source/uptalk/s2> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/uptalk/s2> <http://purl.org/dc/terms/publisher> "Amanda Ritchart & Amalia Arvaniti, Proceedings of Speech Prosody 7 (Dublin, 2014), pp. 331-335 (University of Kent repository)" .
+<https://github.com/john1hsu/communication-graph/id/source/uptalk/s2> <http://purl.org/dc/terms/title> "The Form and Use of Uptalk in Southern California English" .
+<https://github.com/john1hsu/communication-graph/id/source/uptalk/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/uptalk/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/uptalk/s2> <https://schema.org/url> <https://kar.kent.ac.uk/46707/> .
+<https://github.com/john1hsu/communication-graph/id/source/uptalk/s3> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/uptalk/s3> <http://purl.org/dc/terms/publisher> "Yuki Asano, Chen Yuan, Ann-Kathrin Grohe, Andrea Weber, Mark Antoniou & Anne Cutler, Proceedings of Speech Prosody 2020 (Max Planck repository)" .
+<https://github.com/john1hsu/communication-graph/id/source/uptalk/s3> <http://purl.org/dc/terms/title> "Uptalk interpretation as a function of listening experience" .
+<https://github.com/john1hsu/communication-graph/id/source/uptalk/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/uptalk/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/uptalk/s3> <https://schema.org/url> <https://pure.mpg.de/pubman/item/item_3231622_2/component/file_3231623/Asano_etal_2020_Uptalk%20interpretation%20as%20a%20function%20of%20listening%20experience.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/uptalk/s4> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/uptalk/s4> <http://purl.org/dc/terms/publisher> "William & Mary news, on Thomas Linneman, Gender & Society (online 2012, print 2013)" .
+<https://github.com/john1hsu/communication-graph/id/source/uptalk/s4> <http://purl.org/dc/terms/title> "'Jeopardy!' offers professor insight into gender and speech" .
+<https://github.com/john1hsu/communication-graph/id/source/uptalk/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/uptalk/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/uptalk/s4> <https://schema.org/url> <https://www.wm.edu/as/news/2012-2013/linneman_jeopardy.php> .
+<https://github.com/john1hsu/communication-graph/id/source/uptalk/s5> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/uptalk/s5> <http://purl.org/dc/terms/publisher> "Emma Wollum, MA thesis in Linguistics, Te Herenga Waka-Victoria University of Wellington, 2019" .
+<https://github.com/john1hsu/communication-graph/id/source/uptalk/s5> <http://purl.org/dc/terms/title> "The Uptalk Downgrade: Comparing age- and gender-based perceptions of uptalk in four highly-skilled professions" .
+<https://github.com/john1hsu/communication-graph/id/source/uptalk/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/uptalk/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/uptalk/s5> <https://schema.org/url> <https://openaccess.wgtn.ac.nz/articles/thesis/The_Uptalk_Downgrade_Comparing_age-_and_gender-based_perceptions_of_uptalk_in_four_highly-skilled_professions/17143793> .
 <https://github.com/john1hsu/communication-graph/id/source/upward-dissent/s1> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/upward-dissent/s1> <http://purl.org/dc/terms/publisher> "Jeffrey W. Kassing & Todd A. Armstrong, Management Communication Quarterly 16(1), 39-65, 2002, doi:10.1177/0893318902161002 (Arizona State University research portal record)" .
 <https://github.com/john1hsu/communication-graph/id/source/upward-dissent/s1> <http://purl.org/dc/terms/title> "Someone's going to hear about this: Examining the association between dissent-triggering events and employees' dissent expression" .
@@ -24026,6 +24056,36 @@
 <https://github.com/john1hsu/communication-graph/id/unequal-participation> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/meetings-and-facilitation/unequal-participation.md" .
 <https://github.com/john1hsu/communication-graph/id/unequal-participation> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/unequal-participation> <https://github.com/john1hsu/communication-graph/ontology#undermines> <https://github.com/john1hsu/communication-graph/id/workplace-meetings> .
+<https://github.com/john1hsu/communication-graph/id/uptalk> <http://purl.org/dc/terms/created> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/uptalk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Phenomenon> .
+<https://github.com/john1hsu/communication-graph/id/uptalk> <http://www.w3.org/2000/01/rdf-schema#label> "Uptalk" .
+<https://github.com/john1hsu/communication-graph/id/uptalk> <http://www.w3.org/2004/02/skos/core#altLabel> "high rising terminal" .
+<https://github.com/john1hsu/communication-graph/id/uptalk> <http://www.w3.org/2004/02/skos/core#altLabel> "rising intonation on statements" .
+<https://github.com/john1hsu/communication-graph/id/uptalk> <http://www.w3.org/2004/02/skos/core#altLabel> "statement rise" .
+<https://github.com/john1hsu/communication-graph/id/uptalk> <http://www.w3.org/2004/02/skos/core#altLabel> "upspeak" .
+<https://github.com/john1hsu/communication-graph/id/uptalk> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/paralanguage> .
+<https://github.com/john1hsu/communication-graph/id/uptalk> <http://www.w3.org/2004/02/skos/core#definition> "Ending a declarative statement with a rising pitch, so it can sound like a question. Linguists treat it as a systematic feature of several English varieties with real conversational jobs (holding the floor, checking understanding), while some listeners, especially outside the speaker's group, judge it as less competent." .
+<https://github.com/john1hsu/communication-graph/id/uptalk> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/nonverbal-and-voice> .
+<https://github.com/john1hsu/communication-graph/id/uptalk> <http://www.w3.org/2004/02/skos/core#prefLabel> "Uptalk" .
+<https://github.com/john1hsu/communication-graph/id/uptalk> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/credibility> .
+<https://github.com/john1hsu/communication-graph/id/uptalk> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/executive-presence> .
+<https://github.com/john1hsu/communication-graph/id/uptalk> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/filled-pauses> .
+<https://github.com/john1hsu/communication-graph/id/uptalk> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/status-reporting> .
+<https://github.com/john1hsu/communication-graph/id/uptalk> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/vocal-delivery> .
+<https://github.com/john1hsu/communication-graph/id/uptalk> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/uptalk/s1> .
+<https://github.com/john1hsu/communication-graph/id/uptalk> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/uptalk/s2> .
+<https://github.com/john1hsu/communication-graph/id/uptalk> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/uptalk/s3> .
+<https://github.com/john1hsu/communication-graph/id/uptalk> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/uptalk/s4> .
+<https://github.com/john1hsu/communication-graph/id/uptalk> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/uptalk/s5> .
+<https://github.com/john1hsu/communication-graph/id/uptalk> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/asano-et-al-2020> .
+<https://github.com/john1hsu/communication-graph/id/uptalk> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/linneman-2013> .
+<https://github.com/john1hsu/communication-graph/id/uptalk> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/ritchart-arvaniti-2014> .
+<https://github.com/john1hsu/communication-graph/id/uptalk> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/wollum-2019> .
+<https://github.com/john1hsu/communication-graph/id/uptalk> <https://github.com/john1hsu/communication-graph/ontology#domain> "nonverbal-and-voice" .
+<https://github.com/john1hsu/communication-graph/id/uptalk> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/uptalk> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/nonverbal-and-voice/uptalk.md" .
+<https://github.com/john1hsu/communication-graph/id/uptalk> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/uptalk> <https://github.com/john1hsu/communication-graph/ontology#studiedIn> <https://github.com/john1hsu/communication-graph/id/sociolinguistics> .
 <https://github.com/john1hsu/communication-graph/id/upward-dissent/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/upward-dissent/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Am I taking this disagreement to the person who can actually change it, or am I venting it to colleagues instead?" .
 <https://github.com/john1hsu/communication-graph/id/upward-dissent/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/upward-dissent> .
