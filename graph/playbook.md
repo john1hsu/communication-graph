@@ -378,6 +378,30 @@ Ask yourself:
 - When I felt criticised just now, did I restate their point before I explained or justified myself?
 - Is the other person reacting to my content, or to a tone of superiority, certainty or hidden agenda they are picking up?
 
+### [DESC script](../articles/difficult-conversations-and-conflict/desc-script.md) — Technique
+
+1. Pick one specific, recent behaviour to raise, and plan a private moment to raise it rather than doing it in front of others.
+2. Describe: write one sentence stating what happened in observable facts - when, what, how often - with no labels or guesses about motive.
+3. Express: add one sentence on how it affects you or the work, starting with "I" rather than "you".
+4. Specify: state the concrete change you want, small enough to agree to now; if you are open to options, suggest one and ask for theirs.
+5. Consequences: say what will improve for both of you or for the team's goal if the change happens, and, only if needed, what you will do if it does not.
+6. Rehearse the four sentences aloud, then deliver them, stop, and listen to the reply before negotiating the specifics.
+
+*A project manager's colleague has twice changed the client deck the night before a review without telling her, and she has had to rework her talking points in the hour before the meeting.*
+
+| Before | After |
+|---|---|
+| You always do this. You clearly don't care whether I look prepared in front of the client. | On Tuesday and again this morning the deck changed after 9 p.m., and I found out at 8 a.m. (Describe). I end up rewriting my part in a rush, and I'm worried it shows in front of the client (Express). Could we freeze the deck at 5 p.m. the day before, with late changes flagged in our team chat? (Specify) Then we both walk in with the same story and a calmer morning (Consequences). What would make that work for you? |
+
+**Why:** The rewrite swaps a character judgement for two dated facts, owns the reaction, asks for one checkable change and names a shared benefit, so the colleague can agree to a fix instead of defending their motives.
+
+Ask yourself:
+- Could a neutral observer confirm every word of my Describe sentence?
+- Did my Express sentence start with "I", or did a "you" accusation sneak in?
+- Is my request specific enough that we would both know next week whether it happened?
+- Are my consequences about shared goals, or have they turned into a threat?
+- After I finished, did I stop and listen, or keep arguing my case?
+
 ### [Emotion regulation](../articles/difficult-conversations-and-conflict/emotion-regulation.md) — Skill
 
 Ask yourself:

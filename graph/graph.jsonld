@@ -6091,6 +6091,105 @@
    ]
   },
   {
+   "@id": "cm:desc-script",
+   "@type": "cmo:Technique",
+   "cmo:addresses": [
+    {
+     "@id": "cm:accusatory-you-statements"
+    },
+    {
+     "@id": "cm:defensiveness"
+    }
+   ],
+   "cmo:appliedIn": {
+    "@id": "cm:difficult-conversation"
+   },
+   "cmo:complements": {
+    "@id": "cm:graded-assertiveness"
+   },
+   "cmo:develops": {
+    "@id": "cm:assertive-communication"
+   },
+   "cmo:domain": "difficult-conversations-and-conflict",
+   "cmo:evidenceStatus": "practitioner",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/desc-script/example"
+   },
+   "cmo:file": "articles/difficult-conversations-and-conflict/desc-script.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/desc-script/howto"
+   },
+   "cmo:introducedIn": {
+    "@id": "cm:asserting-yourself"
+   },
+   "cmo:level": "introductory",
+   "cmo:requires": {
+    "@id": "cm:i-statements"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/desc-script/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/desc-script/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/desc-script/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/desc-script/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/desc-script/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/desc-script/s6"
+    }
+   ],
+   "rdfs:label": "DESC script",
+   "skos:altLabel": [
+    "DESC model",
+    "DESC scripting",
+    "DESC",
+    "describe-express-specify-consequences"
+   ],
+   "skos:broader": {
+    "@id": "cm:assertive-communication"
+   },
+   "skos:definition": "A four-part plan for an assertive request about someone's behaviour - Describe the situation in facts, Express its effect on you, Specify (or suggest) the change you want, and state the Consequences - created by Sharon Anthony Bower and Gordon H. Bower and later adopted in AHRQ's TeamSTEPPS conflict training.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/difficult-conversations-and-conflict"
+   },
+   "skos:prefLabel": "DESC script",
+   "skos:related": [
+    {
+     "@id": "cm:conflict-resolution"
+    },
+    {
+     "@id": "cm:graded-assertiveness"
+    },
+    {
+     "@id": "cm:i-statements"
+    },
+    {
+     "@id": "cm:nonviolent-communication"
+    },
+    {
+     "@id": "cm:saying-no"
+    },
+    {
+     "@id": "cm:situation-behavior-impact"
+    },
+    {
+     "@id": "cm:teamstepps"
+    }
+   ]
+  },
+  {
    "@id": "cm:describe-analyze-evaluate",
    "@type": "cmo:Technique",
    "cmo:addresses": {
@@ -29593,6 +29692,115 @@
    "rdfs:label": "Is the other person reacting to my content, or to a tone of superiority, certainty or hidden agenda they are picking up?"
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/desc-script/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:desc-script"
+   },
+   "rdfs:label": "Could a neutral observer confirm every word of my Describe sentence?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/desc-script/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:desc-script"
+   },
+   "rdfs:label": "Did my Express sentence start with \"I\", or did a \"you\" accusation sneak in?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/desc-script/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:desc-script"
+   },
+   "rdfs:label": "Is my request specific enough that we would both know next week whether it happened?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/desc-script/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:desc-script"
+   },
+   "rdfs:label": "Are my consequences about shared goals, or have they turned into a threat?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/desc-script/check/5",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:desc-script"
+   },
+   "rdfs:label": "After I finished, did I stop and listen, or keep arguing my case?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/desc-script/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "On Tuesday and again this morning the deck changed after 9 p.m., and I found out at 8 a.m. (Describe). I end up rewriting my part in a rush, and I'm worried it shows in front of the client (Express). Could we freeze the deck at 5 p.m. the day before, with late changes flagged in our team chat? (Specify) Then we both walk in with the same story and a calmer morning (Consequences). What would make that work for you?",
+   "cmo:before": "You always do this. You clearly don't care whether I look prepared in front of the client.",
+   "cmo:situation": "A project manager's colleague has twice changed the client deck the night before a review without telling her, and she has had to rework her talking points in the hour before the meeting.",
+   "cmo:why": "The rewrite swaps a character judgement for two dated facts, owns the reaction, asks for one checkable change and names a shared benefit, so the colleague can agree to a fix instead of defending their motives."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/desc-script/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "DESC script",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/desc-script/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/desc-script/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/desc-script/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/desc-script/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/desc-script/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/desc-script/howto/6"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/desc-script/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Pick one specific, recent behaviour to raise, and plan a private moment to raise it rather than doing it in front of others."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/desc-script/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Describe: write one sentence stating what happened in observable facts - when, what, how often - with no labels or guesses about motive."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/desc-script/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Express: add one sentence on how it affects you or the work, starting with \"I\" rather than \"you\"."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/desc-script/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Specify: state the concrete change you want, small enough to agree to now; if you are open to options, suggest one and ask for theirs."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/desc-script/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Consequences: say what will improve for both of you or for the team's goal if the change happens, and, only if needed, what you will do if it does not."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/desc-script/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "Rehearse the four sentences aloud, then deliver them, stop, and listen to the reply before negotiating the specifics."
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -43185,6 +43393,90 @@
    "dcterms:title": "The Delivery of Bad News in Organizations",
    "schema:url": {
     "@id": "https://www.scilit.net/publications/1ddb310ceca6a5b5e243da3d2ae23c81"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/desc-script/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Bower, S. A. & Bower, G. H., Da Capo Press / Balance (Hachette Book Group), 2004 (publisher's book page)",
+   "dcterms:title": "Asserting Yourself, Updated Edition: A Practical Guide for Positive Change",
+   "schema:url": {
+    "@id": "https://www.hachettebookgroup.com/titles/sharon-anthony-bower/asserting-yourself-updated-edition/9780738209715/?lens=balance"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/desc-script/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Agency for Healthcare Research and Quality (AHRQ), TeamSTEPPS curriculum, Module 4: Mutual Support",
+   "dcterms:title": "Tool: DESC",
+   "schema:url": {
+    "@id": "https://www.ahrq.gov/teamstepps-program/curriculum/mutual/tools/desc.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/desc-script/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Agency for Healthcare Research and Quality (AHRQ), TeamSTEPPS curriculum",
+   "dcterms:title": "Section 1: Overview of Mutual Support Key Concepts and Tools",
+   "schema:url": {
+    "@id": "https://www.ahrq.gov/teamstepps-program/curriculum/mutual/overview/index.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/desc-script/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Yale University, Advice for Managers (Best Practices)",
+   "dcterms:title": "Using DESC to make your difficult conversations more effective",
+   "schema:url": {
+    "@id": "https://your.yale.edu/sites/default/files/2025-03/adviformanagers_usingdesctomakeyourdifficultconversations.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/desc-script/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "AHRQ PSNet summary of Chen, H.-W. et al., Nurse Education Today 126, 105831 (2023), doi:10.1016/j.nedt.2023.105831",
+   "dcterms:title": "Assertive communication training for nurses to speak up in cases of medical errors: a systematic review and meta-analysis",
+   "schema:url": {
+    "@id": "https://psnet.ahrq.gov/issue/assertive-communication-training-nurses-speak-cases-medical-errors-systematic-review-and-meta"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/desc-script/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Chippewa Valley Technical College, Nursing Management and Professional Concepts, 2nd ed. (open textbook, CC BY 4.0)",
+   "dcterms:title": "3.3 Conflict Resolution",
+   "schema:url": {
+    "@id": "https://cod.pressbooks.pub/patientcenteredcare/?p=202"
    }
   },
   {

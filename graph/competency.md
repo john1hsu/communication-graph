@@ -12,9 +12,7 @@ _No results._
 
 _Which written skills or dispositions have no technique, framework or principle that develops them?_ — `queries/02-skills-without-practice.rq`
 
-| skill | type |
-|---|---|
-| `cm:assertive-communication` | cmo:Skill |
+_No results._
 
 ## Situations, channels and formats with no guidance (gap)
 
@@ -30,6 +28,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 |---|---|---|
 | `cm:1-2-4-all` | 3 | Facilitation, Unequal participation, production-blocking |
 | `cm:concise-writing` | 3 | Information overload, subtraction-neglect, wordiness |
+| `cm:desc-script` | 3 | Assertive communication, Defensiveness, accusatory-you-statements |
 | `cm:paramedic-method` | 3 | Concise writing, official-style, wordiness |
 | `cm:premortem` | 3 | Deaf effect, Employee silence, groupthink |
 | `cm:self-recording-playback` | 3 | Gesturing while speaking, Public speaking anxiety, public-speaking |
@@ -57,9 +56,8 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:support-response` | 2 | Active listening, Conversational narcissism |
 | `cm:systematic-desensitization` | 2 | Communication apprehension, Public speaking anxiety |
 | `cm:thought-groups` | 2 | Filled pauses, Silence and pauses |
-| `cm:active-listening` | 1 | Defensiveness |
 
-…and 58 more.
+…and 59 more.
 
 ## Toolkit by situation
 
@@ -92,13 +90,13 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:difficult-conversation` | `cm:conversational-receptiveness` |
 | `cm:difficult-conversation` | `cm:cooling-off-period` |
 | `cm:difficult-conversation` | `cm:de-escalation` |
+| `cm:difficult-conversation` | `cm:desc-script` |
 | `cm:difficult-conversation` | `cm:emotion-regulation` |
 | `cm:difficult-conversation` | `cm:face-and-facework` |
 | `cm:difficult-conversation` | `cm:i-statements` |
 | `cm:difficult-conversation` | `cm:mindfulness` |
-| `cm:difficult-conversation` | `cm:paraphrasing` |
 
-…and 148 more.
+…and 149 more.
 
 ## Myths and contested advice
 

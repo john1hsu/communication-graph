@@ -3654,6 +3654,89 @@
 <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/active-listening> .
 <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <https://github.com/john1hsu/communication-graph/ontology#studiedIn> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
+<https://github.com/john1hsu/communication-graph/id/desc-script/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/desc-script/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Could a neutral observer confirm every word of my Describe sentence?" .
+<https://github.com/john1hsu/communication-graph/id/desc-script/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/desc-script> .
+<https://github.com/john1hsu/communication-graph/id/desc-script/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/desc-script/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Did my Express sentence start with \"I\", or did a \"you\" accusation sneak in?" .
+<https://github.com/john1hsu/communication-graph/id/desc-script/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/desc-script> .
+<https://github.com/john1hsu/communication-graph/id/desc-script/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/desc-script/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Is my request specific enough that we would both know next week whether it happened?" .
+<https://github.com/john1hsu/communication-graph/id/desc-script/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/desc-script> .
+<https://github.com/john1hsu/communication-graph/id/desc-script/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/desc-script/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Are my consequences about shared goals, or have they turned into a threat?" .
+<https://github.com/john1hsu/communication-graph/id/desc-script/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/desc-script> .
+<https://github.com/john1hsu/communication-graph/id/desc-script/check/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/desc-script/check/5> <http://www.w3.org/2000/01/rdf-schema#label> "After I finished, did I stop and listen, or keep arguing my case?" .
+<https://github.com/john1hsu/communication-graph/id/desc-script/check/5> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/desc-script> .
+<https://github.com/john1hsu/communication-graph/id/desc-script/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+<https://github.com/john1hsu/communication-graph/id/desc-script/example> <https://github.com/john1hsu/communication-graph/ontology#after> "On Tuesday and again this morning the deck changed after 9 p.m., and I found out at 8 a.m. (Describe). I end up rewriting my part in a rush, and I'm worried it shows in front of the client (Express). Could we freeze the deck at 5 p.m. the day before, with late changes flagged in our team chat? (Specify) Then we both walk in with the same story and a calmer morning (Consequences). What would make that work for you?" .
+<https://github.com/john1hsu/communication-graph/id/desc-script/example> <https://github.com/john1hsu/communication-graph/ontology#before> "You always do this. You clearly don't care whether I look prepared in front of the client." .
+<https://github.com/john1hsu/communication-graph/id/desc-script/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "A project manager's colleague has twice changed the client deck the night before a review without telling her, and she has had to rework her talking points in the hour before the meeting." .
+<https://github.com/john1hsu/communication-graph/id/desc-script/example> <https://github.com/john1hsu/communication-graph/ontology#why> "The rewrite swaps a character judgement for two dated facts, owns the reaction, asks for one checkable change and names a shared benefit, so the colleague can agree to a fix instead of defending their motives." .
+<https://github.com/john1hsu/communication-graph/id/desc-script/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/desc-script/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/desc-script/howto/1> <https://schema.org/text> "Pick one specific, recent behaviour to raise, and plan a private moment to raise it rather than doing it in front of others." .
+<https://github.com/john1hsu/communication-graph/id/desc-script/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/desc-script/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/desc-script/howto/2> <https://schema.org/text> "Describe: write one sentence stating what happened in observable facts - when, what, how often - with no labels or guesses about motive." .
+<https://github.com/john1hsu/communication-graph/id/desc-script/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/desc-script/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/desc-script/howto/3> <https://schema.org/text> "Express: add one sentence on how it affects you or the work, starting with \"I\" rather than \"you\"." .
+<https://github.com/john1hsu/communication-graph/id/desc-script/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/desc-script/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/desc-script/howto/4> <https://schema.org/text> "Specify: state the concrete change you want, small enough to agree to now; if you are open to options, suggest one and ask for theirs." .
+<https://github.com/john1hsu/communication-graph/id/desc-script/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/desc-script/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/desc-script/howto/5> <https://schema.org/text> "Consequences: say what will improve for both of you or for the team's goal if the change happens, and, only if needed, what you will do if it does not." .
+<https://github.com/john1hsu/communication-graph/id/desc-script/howto/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/desc-script/howto/6> <https://schema.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/desc-script/howto/6> <https://schema.org/text> "Rehearse the four sentences aloud, then deliver them, stop, and listen to the reply before negotiating the specifics." .
+<https://github.com/john1hsu/communication-graph/id/desc-script/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+<https://github.com/john1hsu/communication-graph/id/desc-script/howto> <https://schema.org/name> "DESC script" .
+<https://github.com/john1hsu/communication-graph/id/desc-script/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/desc-script/howto/1> .
+<https://github.com/john1hsu/communication-graph/id/desc-script/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/desc-script/howto/2> .
+<https://github.com/john1hsu/communication-graph/id/desc-script/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/desc-script/howto/3> .
+<https://github.com/john1hsu/communication-graph/id/desc-script/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/desc-script/howto/4> .
+<https://github.com/john1hsu/communication-graph/id/desc-script/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/desc-script/howto/5> .
+<https://github.com/john1hsu/communication-graph/id/desc-script/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/desc-script/howto/6> .
+<https://github.com/john1hsu/communication-graph/id/desc-script> <http://purl.org/dc/terms/created> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/desc-script> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Technique> .
+<https://github.com/john1hsu/communication-graph/id/desc-script> <http://www.w3.org/2000/01/rdf-schema#label> "DESC script" .
+<https://github.com/john1hsu/communication-graph/id/desc-script> <http://www.w3.org/2004/02/skos/core#altLabel> "DESC model" .
+<https://github.com/john1hsu/communication-graph/id/desc-script> <http://www.w3.org/2004/02/skos/core#altLabel> "DESC scripting" .
+<https://github.com/john1hsu/communication-graph/id/desc-script> <http://www.w3.org/2004/02/skos/core#altLabel> "DESC" .
+<https://github.com/john1hsu/communication-graph/id/desc-script> <http://www.w3.org/2004/02/skos/core#altLabel> "describe-express-specify-consequences" .
+<https://github.com/john1hsu/communication-graph/id/desc-script> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/assertive-communication> .
+<https://github.com/john1hsu/communication-graph/id/desc-script> <http://www.w3.org/2004/02/skos/core#definition> "A four-part plan for an assertive request about someone's behaviour - Describe the situation in facts, Express its effect on you, Specify (or suggest) the change you want, and state the Consequences - created by Sharon Anthony Bower and Gordon H. Bower and later adopted in AHRQ's TeamSTEPPS conflict training." .
+<https://github.com/john1hsu/communication-graph/id/desc-script> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/difficult-conversations-and-conflict> .
+<https://github.com/john1hsu/communication-graph/id/desc-script> <http://www.w3.org/2004/02/skos/core#prefLabel> "DESC script" .
+<https://github.com/john1hsu/communication-graph/id/desc-script> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/conflict-resolution> .
+<https://github.com/john1hsu/communication-graph/id/desc-script> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/graded-assertiveness> .
+<https://github.com/john1hsu/communication-graph/id/desc-script> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/i-statements> .
+<https://github.com/john1hsu/communication-graph/id/desc-script> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/nonviolent-communication> .
+<https://github.com/john1hsu/communication-graph/id/desc-script> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/saying-no> .
+<https://github.com/john1hsu/communication-graph/id/desc-script> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> .
+<https://github.com/john1hsu/communication-graph/id/desc-script> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/teamstepps> .
+<https://github.com/john1hsu/communication-graph/id/desc-script> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/desc-script/s1> .
+<https://github.com/john1hsu/communication-graph/id/desc-script> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/desc-script/s2> .
+<https://github.com/john1hsu/communication-graph/id/desc-script> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/desc-script/s3> .
+<https://github.com/john1hsu/communication-graph/id/desc-script> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/desc-script/s4> .
+<https://github.com/john1hsu/communication-graph/id/desc-script> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/desc-script/s5> .
+<https://github.com/john1hsu/communication-graph/id/desc-script> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/desc-script/s6> .
+<https://github.com/john1hsu/communication-graph/id/desc-script> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements> .
+<https://github.com/john1hsu/communication-graph/id/desc-script> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/defensiveness> .
+<https://github.com/john1hsu/communication-graph/id/desc-script> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/difficult-conversation> .
+<https://github.com/john1hsu/communication-graph/id/desc-script> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/graded-assertiveness> .
+<https://github.com/john1hsu/communication-graph/id/desc-script> <https://github.com/john1hsu/communication-graph/ontology#develops> <https://github.com/john1hsu/communication-graph/id/assertive-communication> .
+<https://github.com/john1hsu/communication-graph/id/desc-script> <https://github.com/john1hsu/communication-graph/ontology#domain> "difficult-conversations-and-conflict" .
+<https://github.com/john1hsu/communication-graph/id/desc-script> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "practitioner" .
+<https://github.com/john1hsu/communication-graph/id/desc-script> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/desc-script/example> .
+<https://github.com/john1hsu/communication-graph/id/desc-script> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/difficult-conversations-and-conflict/desc-script.md" .
+<https://github.com/john1hsu/communication-graph/id/desc-script> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/desc-script/howto> .
+<https://github.com/john1hsu/communication-graph/id/desc-script> <https://github.com/john1hsu/communication-graph/ontology#introducedIn> <https://github.com/john1hsu/communication-graph/id/asserting-yourself> .
+<https://github.com/john1hsu/communication-graph/id/desc-script> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/desc-script> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/i-statements> .
 <https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Could someone who disagrees with me still accept my description of what happened as accurate?" .
 <https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate> .
@@ -15761,6 +15844,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/delivering-bad-news/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/delivering-bad-news/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/communication-graph/id/source/delivering-bad-news/s6> <https://schema.org/url> <https://www.scilit.net/publications/1ddb310ceca6a5b5e243da3d2ae23c81> .
+<https://github.com/john1hsu/communication-graph/id/source/desc-script/s1> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/desc-script/s1> <http://purl.org/dc/terms/publisher> "Bower, S. A. & Bower, G. H., Da Capo Press / Balance (Hachette Book Group), 2004 (publisher's book page)" .
+<https://github.com/john1hsu/communication-graph/id/source/desc-script/s1> <http://purl.org/dc/terms/title> "Asserting Yourself, Updated Edition: A Practical Guide for Positive Change" .
+<https://github.com/john1hsu/communication-graph/id/source/desc-script/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/desc-script/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/desc-script/s1> <https://schema.org/url> <https://www.hachettebookgroup.com/titles/sharon-anthony-bower/asserting-yourself-updated-edition/9780738209715/?lens=balance> .
+<https://github.com/john1hsu/communication-graph/id/source/desc-script/s2> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/desc-script/s2> <http://purl.org/dc/terms/publisher> "Agency for Healthcare Research and Quality (AHRQ), TeamSTEPPS curriculum, Module 4: Mutual Support" .
+<https://github.com/john1hsu/communication-graph/id/source/desc-script/s2> <http://purl.org/dc/terms/title> "Tool: DESC" .
+<https://github.com/john1hsu/communication-graph/id/source/desc-script/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/desc-script/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/communication-graph/id/source/desc-script/s2> <https://schema.org/url> <https://www.ahrq.gov/teamstepps-program/curriculum/mutual/tools/desc.html> .
+<https://github.com/john1hsu/communication-graph/id/source/desc-script/s3> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/desc-script/s3> <http://purl.org/dc/terms/publisher> "Agency for Healthcare Research and Quality (AHRQ), TeamSTEPPS curriculum" .
+<https://github.com/john1hsu/communication-graph/id/source/desc-script/s3> <http://purl.org/dc/terms/title> "Section 1: Overview of Mutual Support Key Concepts and Tools" .
+<https://github.com/john1hsu/communication-graph/id/source/desc-script/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/desc-script/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/communication-graph/id/source/desc-script/s3> <https://schema.org/url> <https://www.ahrq.gov/teamstepps-program/curriculum/mutual/overview/index.html> .
+<https://github.com/john1hsu/communication-graph/id/source/desc-script/s4> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/desc-script/s4> <http://purl.org/dc/terms/publisher> "Yale University, Advice for Managers (Best Practices)" .
+<https://github.com/john1hsu/communication-graph/id/source/desc-script/s4> <http://purl.org/dc/terms/title> "Using DESC to make your difficult conversations more effective" .
+<https://github.com/john1hsu/communication-graph/id/source/desc-script/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/desc-script/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/desc-script/s4> <https://schema.org/url> <https://your.yale.edu/sites/default/files/2025-03/adviformanagers_usingdesctomakeyourdifficultconversations.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/desc-script/s5> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/desc-script/s5> <http://purl.org/dc/terms/publisher> "AHRQ PSNet summary of Chen, H.-W. et al., Nurse Education Today 126, 105831 (2023), doi:10.1016/j.nedt.2023.105831" .
+<https://github.com/john1hsu/communication-graph/id/source/desc-script/s5> <http://purl.org/dc/terms/title> "Assertive communication training for nurses to speak up in cases of medical errors: a systematic review and meta-analysis" .
+<https://github.com/john1hsu/communication-graph/id/source/desc-script/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/desc-script/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/communication-graph/id/source/desc-script/s5> <https://schema.org/url> <https://psnet.ahrq.gov/issue/assertive-communication-training-nurses-speak-cases-medical-errors-systematic-review-and-meta> .
+<https://github.com/john1hsu/communication-graph/id/source/desc-script/s6> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/desc-script/s6> <http://purl.org/dc/terms/publisher> "Chippewa Valley Technical College, Nursing Management and Professional Concepts, 2nd ed. (open textbook, CC BY 4.0)" .
+<https://github.com/john1hsu/communication-graph/id/source/desc-script/s6> <http://purl.org/dc/terms/title> "3.3 Conflict Resolution" .
+<https://github.com/john1hsu/communication-graph/id/source/desc-script/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/desc-script/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/communication-graph/id/source/desc-script/s6> <https://schema.org/url> <https://cod.pressbooks.pub/patientcenteredcare/?p=202> .
 <https://github.com/john1hsu/communication-graph/id/source/describe-analyze-evaluate/s1> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/describe-analyze-evaluate/s1> <http://purl.org/dc/terms/publisher> "Nam & Condon, International Journal of Intercultural Relations 34, 2010, pp. 81-87 (Wake Forest University copy)" .
 <https://github.com/john1hsu/communication-graph/id/source/describe-analyze-evaluate/s1> <http://purl.org/dc/terms/title> "The DIE is cast: The continuing evolution of intercultural communication's favorite classroom exercise" .

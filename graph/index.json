@@ -6966,6 +6966,126 @@
   ]
  },
  {
+  "id": "cm:desc-script",
+  "title": "DESC script",
+  "aliases": [
+   "DESC",
+   "DESC model",
+   "describe-express-specify-consequences",
+   "DESC scripting"
+  ],
+  "type": "Technique",
+  "domain": "difficult-conversations-and-conflict",
+  "level": "introductory",
+  "evidenceStatus": "practitioner",
+  "file": "articles/difficult-conversations-and-conflict/desc-script.md",
+  "created": "2026-11-15",
+  "summary": "A four-part plan for an assertive request about someone's behaviour - Describe the situation in facts, Express its effect on you, Specify (or suggest) the change you want, and state the Consequences - created by Sharon Anthony Bower and Gordon H. Bower and later adopted in AHRQ's TeamSTEPPS conflict training.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:assertive-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:i-statements"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:situation-behavior-impact"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:nonviolent-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:graded-assertiveness"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:teamstepps"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:saying-no"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:conflict-resolution"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:i-statements"
+   },
+   {
+    "predicate": "cmo:develops",
+    "object": "cm:assertive-communication",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:defensiveness",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:accusatory-you-statements",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:difficult-conversation",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedIn",
+    "object": "cm:asserting-yourself",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:graded-assertiveness",
+    "source": "s3",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Could a neutral observer confirm every word of my Describe sentence?",
+   "Did my Express sentence start with \"I\", or did a \"you\" accusation sneak in?",
+   "Is my request specific enough that we would both know next week whether it happened?",
+   "Are my consequences about shared goals, or have they turned into a threat?",
+   "After I finished, did I stop and listen, or keep arguing my case?"
+  ],
+  "steps": [
+   "Pick one specific, recent behaviour to raise, and plan a private moment to raise it rather than doing it in front of others.",
+   "Describe: write one sentence stating what happened in observable facts - when, what, how often - with no labels or guesses about motive.",
+   "Express: add one sentence on how it affects you or the work, starting with \"I\" rather than \"you\".",
+   "Specify: state the concrete change you want, small enough to agree to now; if you are open to options, suggest one and ask for theirs.",
+   "Consequences: say what will improve for both of you or for the team's goal if the change happens, and, only if needed, what you will do if it does not.",
+   "Rehearse the four sentences aloud, then deliver them, stop, and listen to the reply before negotiating the specifics."
+  ],
+  "example": {
+   "situation": "A project manager's colleague has twice changed the client deck the night before a review without telling her, and she has had to rework her talking points in the hour before the meeting.",
+   "before": "You always do this. You clearly don't care whether I look prepared in front of the client.",
+   "after": "On Tuesday and again this morning the deck changed after 9 p.m., and I found out at 8 a.m. (Describe). I end up rewriting my part in a rush, and I'm worried it shows in front of the client (Express). Could we freeze the deck at 5 p.m. the day before, with late changes flagged in our team chat? (Specify) Then we both walk in with the same story and a calmer morning (Consequences). What would make that work for you?",
+   "why": "The rewrite swaps a character judgement for two dated facts, owns the reaction, asks for one checkable change and names a shared benefit, so the colleague can agree to a fix instead of defending their motives."
+  },
+  "source_urls": [
+   "https://www.hachettebookgroup.com/titles/sharon-anthony-bower/asserting-yourself-updated-edition/9780738209715/?lens=balance",
+   "https://www.ahrq.gov/teamstepps-program/curriculum/mutual/tools/desc.html",
+   "https://www.ahrq.gov/teamstepps-program/curriculum/mutual/overview/index.html",
+   "https://your.yale.edu/sites/default/files/2025-03/adviformanagers_usingdesctomakeyourdifficultconversations.pdf",
+   "https://psnet.ahrq.gov/issue/assertive-communication-training-nurses-speak-cases-medical-errors-systematic-review-and-meta",
+   "https://cod.pressbooks.pub/patientcenteredcare/?p=202"
+  ]
+ },
+ {
   "id": "cm:describe-analyze-evaluate",
   "title": "Describe-analyze-evaluate",
   "aliases": [
