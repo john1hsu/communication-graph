@@ -2017,6 +2017,22 @@ Ask yourself:
 - Is there an issue where we might want the same outcome that I have not checked out loud?
 - Am I discounting their proposal because of who made it rather than what it gives each of us?
 
+### [Positional bargaining](../articles/negotiation/positional-bargaining.md) — AntiPattern
+
+*Two team leads are splitting a shared contractor's time for next quarter; each opens with a fixed number of days.*
+
+| Before | After |
+|---|---|
+| Ops lead: 'I need her four days a week, minimum.' Product lead: 'Then I'm taking it to the director, because I need three.' Ops lead: 'Fine, three and a half, but that's my final offer.' | Ops lead: 'I asked for four days. What's driving your need for three?' Product lead: 'The API migration has a hard deadline in week six.' Ops lead: 'My need is mostly the month-end close. What if she's mine for the last week of each month and yours through week six, then we split the rest?' |
+
+**Why:** In the first version both leads argue over day counts and drift toward a split that fits neither real need; in the second, asking why surfaces two time-bound interests that can both be met by sequencing her time rather than halving it.
+
+Ask yourself:
+- Have I said why I want what I am asking for, or only what I want?
+- Do I know what is driving the other side's number, or am I guessing?
+- Am I holding my position because it is still right, or because backing down would look like losing?
+- Is this genuinely a one-issue split, or are there other terms, timings or options we could trade?
+
 ### [Post-settlement settlement](../articles/negotiation/post-settlement-settlement.md) — Technique
 
 1. Close and record the current deal first, so both sides know exactly what they keep if the follow-up talk goes nowhere.

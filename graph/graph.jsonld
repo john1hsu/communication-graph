@@ -18523,6 +18523,102 @@
    ]
   },
   {
+   "@id": "cm:positional-bargaining",
+   "@type": "cmo:AntiPattern",
+   "cmo:challengedBy": [
+    {
+     "@id": "cm:huffmeier-et-al-2014"
+    },
+    {
+     "@id": "cm:the-pros-and-cons-of-getting-to-yes"
+    }
+   ],
+   "cmo:contrastsWith": {
+    "@id": "cm:integrative-negotiation"
+   },
+   "cmo:domain": "negotiation",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/positional-bargaining/example"
+   },
+   "cmo:file": "articles/negotiation/positional-bargaining.md",
+   "cmo:introducedIn": {
+    "@id": "cm:getting-to-yes"
+   },
+   "cmo:level": "introductory",
+   "cmo:supportedBy": {
+    "@id": "cm:de-dreu-weingart-kwon-2000"
+   },
+   "cmo:undermines": {
+    "@id": "cm:rapport"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/positional-bargaining/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/positional-bargaining/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/positional-bargaining/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/positional-bargaining/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/positional-bargaining/s5"
+    }
+   ],
+   "rdfs:label": "Positional bargaining",
+   "skos:altLabel": [
+    "bargaining over positions",
+    "haggling over positions",
+    "position-based bargaining",
+    "positional negotiation"
+   ],
+   "skos:broader": {
+    "@id": "cm:negotiation"
+   },
+   "skos:definition": "The habit of negotiating by staking out a fixed demand, defending it and trading concessions until the sides meet somewhere in the middle, without exploring why each side wants what it asks for; it tends to be slow, to strain working relationships and to leave joint value on the table.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/negotiation"
+   },
+   "skos:prefLabel": "Positional bargaining",
+   "skos:related": [
+    {
+     "@id": "cm:batna"
+    },
+    {
+     "@id": "cm:concession-strategy"
+    },
+    {
+     "@id": "cm:distributive-negotiation"
+    },
+    {
+     "@id": "cm:first-offer"
+    },
+    {
+     "@id": "cm:integrative-negotiation"
+    },
+    {
+     "@id": "cm:interests-vs-positions"
+    },
+    {
+     "@id": "cm:mythical-fixed-pie"
+    },
+    {
+     "@id": "cm:open-ended-questions"
+    },
+    {
+     "@id": "cm:principled-negotiation"
+    }
+   ]
+  },
+  {
    "@id": "cm:post-settlement-settlement",
    "@type": "cmo:Technique",
    "cmo:appliedIn": {
@@ -35686,6 +35782,46 @@
     "@id": "cm:plain-language"
    },
    "rdfs:label": "Could a reader say in their own words what I want them to do next?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/positional-bargaining/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:positional-bargaining"
+   },
+   "rdfs:label": "Have I said why I want what I am asking for, or only what I want?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/positional-bargaining/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:positional-bargaining"
+   },
+   "rdfs:label": "Do I know what is driving the other side's number, or am I guessing?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/positional-bargaining/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:positional-bargaining"
+   },
+   "rdfs:label": "Am I holding my position because it is still right, or because backing down would look like losing?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/positional-bargaining/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:positional-bargaining"
+   },
+   "rdfs:label": "Is this genuinely a one-issue split, or are there other terms, timings or options we could trade?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/positional-bargaining/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "Ops lead: 'I asked for four days. What's driving your need for three?' Product lead: 'The API migration has a hard deadline in week six.' Ops lead: 'My need is mostly the month-end close. What if she's mine for the last week of each month and yours through week six, then we split the rest?'",
+   "cmo:before": "Ops lead: 'I need her four days a week, minimum.' Product lead: 'Then I'm taking it to the director, because I need three.' Ops lead: 'Fine, three and a half, but that's my final offer.'",
+   "cmo:situation": "Two team leads are splitting a shared contractor's time for next quarter; each opens with a fixed number of days.",
+   "cmo:why": "In the first version both leads argue over day counts and drift toward a split that fits neither real need; in the second, asking why surfaces two time-bound interests that can both be met by sequencing her time rather than halving it."
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/post-settlement-settlement/check/1",
@@ -54712,6 +54848,76 @@
    "dcterms:title": "Re-examining Politeness, Face and the Japanese Language",
    "schema:url": {
     "@id": "https://core.ac.uk/download/19090393.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/positional-bargaining/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Katie Shonk, Program on Negotiation at Harvard Law School (Daily Blog), July 2026",
+   "dcterms:title": "Positional Bargaining Pitfalls",
+   "schema:url": {
+    "@id": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/positional-bargaining-pitfalls/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/positional-bargaining/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Brad Spangler, Beyond Intractability, Conflict Information Consortium, University of Colorado (June 2003)",
+   "dcterms:title": "Positional Bargaining",
+   "schema:url": {
+    "@id": "https://www.beyondintractability.org/essay/positional-bargaining"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/positional-bargaining/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Hüffmeier, Freund, Zerres, Backhaus and Hertel, Journal of Management 40(3), 866-892, 2014 (doi:10.1177/0149206311423788; University of Amsterdam repository record)",
+   "dcterms:title": "Being tough or being nice? A meta-analysis on the impact of hard- and softline strategies in distributive negotiations",
+   "schema:url": {
+    "@id": "https://dare.uva.nl/id/801197e8-e374-4128-aeb3-c66c06cb8812"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/positional-bargaining/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "De Dreu, Weingart and Kwon, Journal of Personality and Social Psychology 78, 2000 (University of Amsterdam repository record)",
+   "dcterms:title": "Influence of social motives on integrative negotiation: a meta-analytic review and test of two theories",
+   "schema:url": {
+    "@id": "https://dare.uva.nl/id/403ebedc-c455-47a0-8a00-803afaed87b3"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/positional-bargaining/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "James J. White, Journal of Legal Education 34, 115-124, 1984 (University of Michigan Law School Scholarship Repository)",
+   "dcterms:title": "The Pros and Cons of Getting to YES",
+   "schema:url": {
+    "@id": "https://repository.law.umich.edu/reviews/82"
    }
   },
   {

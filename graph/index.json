@@ -21020,6 +21020,121 @@
   ]
  },
  {
+  "id": "cm:positional-bargaining",
+  "title": "Positional bargaining",
+  "aliases": [
+   "positional negotiation",
+   "bargaining over positions",
+   "haggling over positions",
+   "position-based bargaining"
+  ],
+  "type": "AntiPattern",
+  "domain": "negotiation",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/negotiation/positional-bargaining.md",
+  "created": "2026-11-15",
+  "summary": "The habit of negotiating by staking out a fixed demand, defending it and trading concessions until the sides meet somewhere in the middle, without exploring why each side wants what it asks for; it tends to be slow, to strain working relationships and to leave joint value on the table.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:negotiation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:distributive-negotiation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:interests-vs-positions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:principled-negotiation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:integrative-negotiation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:concession-strategy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:mythical-fixed-pie"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:first-offer"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:open-ended-questions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:batna"
+   },
+   {
+    "predicate": "cmo:introducedIn",
+    "object": "cm:getting-to-yes",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:contrastsWith",
+    "object": "cm:integrative-negotiation",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:undermines",
+    "object": "cm:rapport",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:de-dreu-weingart-kwon-2000",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:huffmeier-et-al-2014",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:the-pros-and-cons-of-getting-to-yes",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Have I said why I want what I am asking for, or only what I want?",
+   "Do I know what is driving the other side's number, or am I guessing?",
+   "Am I holding my position because it is still right, or because backing down would look like losing?",
+   "Is this genuinely a one-issue split, or are there other terms, timings or options we could trade?"
+  ],
+  "steps": [],
+  "example": {
+   "situation": "Two team leads are splitting a shared contractor's time for next quarter; each opens with a fixed number of days.",
+   "before": "Ops lead: 'I need her four days a week, minimum.' Product lead: 'Then I'm taking it to the director, because I need three.' Ops lead: 'Fine, three and a half, but that's my final offer.'",
+   "after": "Ops lead: 'I asked for four days. What's driving your need for three?' Product lead: 'The API migration has a hard deadline in week six.' Ops lead: 'My need is mostly the month-end close. What if she's mine for the last week of each month and yours through week six, then we split the rest?'",
+   "why": "In the first version both leads argue over day counts and drift toward a split that fits neither real need; in the second, asking why surfaces two time-bound interests that can both be met by sequencing her time rather than halving it."
+  },
+  "source_urls": [
+   "https://www.pon.harvard.edu/daily/negotiation-skills-daily/positional-bargaining-pitfalls/",
+   "https://www.beyondintractability.org/essay/positional-bargaining",
+   "https://dare.uva.nl/id/801197e8-e374-4128-aeb3-c66c06cb8812",
+   "https://dare.uva.nl/id/403ebedc-c455-47a0-8a00-803afaed87b3",
+   "https://repository.law.umich.edu/reviews/82"
+  ]
+ },
+ {
   "id": "cm:post-settlement-settlement",
   "title": "Post-settlement settlement",
   "aliases": [

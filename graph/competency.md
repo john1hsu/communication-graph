@@ -43,7 +43,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:facilitation` | 2 | Interrupting, Unequal participation |
 | `cm:graded-assertiveness` | 2 | Employee silence, Upward dissent |
 | `cm:i-statements` | 2 | Accusatory you-statements, Defensiveness |
-| `cm:interests-vs-positions` | 2 | Mythical fixed-pie bias, positional-bargaining |
+| `cm:interests-vs-positions` | 2 | Mythical fixed-pie bias, Positional bargaining |
 | `cm:mindfulness` | 2 | Emotion regulation, Workplace stress |
 | `cm:nominal-group-technique` | 2 | Production blocking, Unequal participation |
 | `cm:plain-language` | 2 | Curse of knowledge, jargon |
@@ -135,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:wise-feedback` | contested | `cm:troy-moua-van-boekel-2024` |
 | `cm:power-posing` | failed-replication | `cm:crede-2019` |
 
-…and 187 more.
+…and 189 more.
 
 ## Concepts with no recorded origin (gap)
 
