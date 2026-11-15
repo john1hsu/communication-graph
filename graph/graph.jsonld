@@ -13354,6 +13354,88 @@
    ]
   },
   {
+   "@id": "cm:joseph-wolpe",
+   "@type": "cmo:Person",
+   "cmo:authored": [
+    {
+     "@id": "cm:behavior-therapy-techniques"
+    },
+    {
+     "@id": "cm:psychotherapy-by-reciprocal-inhibition"
+    }
+   ],
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "historical",
+   "cmo:file": "articles/thinkers-and-works/joseph-wolpe.md",
+   "cmo:influencedBy": {
+    "@id": "cm:andrew-salter"
+   },
+   "cmo:introduced": {
+    "@id": "cm:assertive-communication"
+   },
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/joseph-wolpe/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/joseph-wolpe/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/joseph-wolpe/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/joseph-wolpe/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/joseph-wolpe/s5"
+    }
+   ],
+   "rdfs:label": "Joseph Wolpe",
+   "skos:altLabel": [
+    "Dr. Joseph Wolpe",
+    "Wolpe"
+   ],
+   "skos:definition": "South African-born psychiatrist (1915-1997) and a founder of behaviour therapy, who used assertive self-expression as a deliberate counter to social anxiety, drew the line between assertion and aggression, and devised systematic desensitization - the roots of modern assertiveness training and of graded-exposure methods for speaking anxiety.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "Joseph Wolpe",
+   "skos:related": [
+    {
+     "@id": "cm:aggressive-communication"
+    },
+    {
+     "@id": "cm:assertive-communication"
+    },
+    {
+     "@id": "cm:behavior-modeling-training"
+    },
+    {
+     "@id": "cm:carl-rogers"
+    },
+    {
+     "@id": "cm:communication-apprehension"
+    },
+    {
+     "@id": "cm:graded-assertiveness"
+    },
+    {
+     "@id": "cm:i-statements"
+    },
+    {
+     "@id": "cm:saying-no"
+    },
+    {
+     "@id": "cm:systematic-desensitization"
+    }
+   ]
+  },
+  {
    "@id": "cm:kluger-denisi-1996",
    "@type": "cmo:Study",
    "cmo:appliedIn": {
@@ -50150,6 +50232,76 @@
    "dcterms:title": "In Memoriam: Sir John Whitmore, 1937-2017",
    "schema:url": {
     "@id": "https://instituteofcoaching.org/memoriam-sir-john-whitmore-1937-2017"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/joseph-wolpe/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Speed, B. C., Goldstein, B. L. & Goldfried, M. R., Clinical Psychology: Science and Practice 25(1), 2018, doi:10.1111/cpsp.12216 (Stony Brook University copy)",
+   "dcterms:title": "Assertiveness training: A forgotten evidence-based treatment",
+   "schema:url": {
+    "@id": "https://ehs.stonybrook.edu/commcms/psychology/_pdfs/faculty/Speed_et_al-2017-Clinical_Psychology__Science_and_Practice.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/joseph-wolpe/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Gerald C. Davison, Encyclopedia of Behavior Modification and Cognitive Behavior Therapy (SAGE, 2005), doi:10.4135/9781412950534.n167",
+   "dcterms:title": "Wolpe, Joseph",
+   "schema:url": {
+    "@id": "https://sk.sagepub.com/ency/edvol/embed/cbt/chpt/wolpe-joseph"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/joseph-wolpe/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Athabasca University, Centre for Psychology open course materials",
+   "dcterms:title": "Joseph Wolpe (1915 - 1997)",
+   "schema:url": {
+    "@id": "https://psyc.athabascau.ca/open/wolpe/bio.php"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/joseph-wolpe/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Paul Salkovskis, Behavioural and Cognitive Psychotherapy 26(2), 189-191, 1998, doi:10.1017/S1352465898000216",
+   "dcterms:title": "Changing the face of psychotherapy and common sense: Joseph Wolpe, 20 April 1915 - 4 December 1997",
+   "schema:url": {
+    "@id": "https://cambridge.org/core/journals/behavioural-and-cognitive-psychotherapy/article/changing-the-face-of-psychotherapy-and-common-sense-joseph-wolpe-20-april-1915-4-december-1997/FD86F2EE3A1754598B7CF0FB76F1F00D"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/joseph-wolpe/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "APS Observer, Association for Psychological Science, 1 November 1996",
+   "dcterms:title": "Andrew Salter (1914-1996): Founding behavior therapist",
+   "schema:url": {
+    "@id": "https://www.psychologicalscience.org/?p=9874"
    }
   },
   {
