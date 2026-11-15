@@ -27157,6 +27157,104 @@
   ]
  },
  {
+  "id": "cm:the-emerging-field-of-emotion-regulation",
+  "title": "The emerging field of emotion regulation",
+  "aliases": [
+   "Gross 1998 integrative review",
+   "The Emerging Field of Emotion Regulation - An Integrative Review"
+  ],
+  "type": "Work",
+  "domain": "thinkers-and-works",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/thinkers-and-works/the-emerging-field-of-emotion-regulation.md",
+  "created": "2026-11-15",
+  "summary": "James J. Gross's 1998 integrative review in Review of General Psychology, which marked out emotion regulation as a research field of its own, separated it from coping, mood repair and defence, and set out the process model that sorts regulation by when it acts - from choosing a situation to reining in a response already under way.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:emotion-regulation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:cognitive-reappraisal"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:expressive-suppression"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:anxiety-reappraisal"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:self-distancing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:emotion-regulation-questionnaire"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:regulatory-flexibility"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:difficult-conversation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:defensiveness"
+   },
+   {
+    "predicate": "cmo:authoredBy",
+    "object": "cm:james-j-gross",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introduces",
+    "object": "cm:process-model-of-emotion-regulation",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introduces",
+    "object": "cm:emotion-regulation",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:influencedBy",
+    "object": "cm:richard-lazarus",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:webb-miles-sheeran-2012",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:studiedIn",
+    "object": "cm:psychology",
+    "source": "s1",
+    "confidence": "high"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://static1.squarespace.com/static/55917f64e4b0cd3b4705b68c/t/5c47fda9758d46280be433e9/1548221901394/Gross+%281998%29.pdf",
+   "https://researchgate.net/profile/Paschal_Sheeran/publication/224955638_Dealing_With_Feeling_A_Meta-Analysis_of_the_Effectiveness_of_Strategies_Derived_From_the_Process_Model_of_Emotion_Regulation/links/0912f504f09b780691000000.pdf",
+   "https://www.tc.edu/faculty/gab38/faculty-profile/files/2013_Bonanno_Burton_REGULATORY_FLEXIBLITY.pdf",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC6502417"
+  ]
+ },
+ {
   "id": "cm:the-network-nation",
   "title": "The Network Nation",
   "aliases": [
