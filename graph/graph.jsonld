@@ -2592,6 +2592,94 @@
    ]
   },
   {
+   "@id": "cm:change-communication",
+   "@type": "cmo:Context",
+   "cmo:demonstratedBy": [
+    {
+     "@id": "cm:schweiger-denisi-1991"
+    },
+    {
+     "@id": "cm:tourish-hobman-bordia-2004"
+    }
+   ],
+   "cmo:domain": "executive-and-client-communication",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:file": "articles/executive-and-client-communication/change-communication.md",
+   "cmo:influencedBy": {
+    "@id": "cm:john-p-kotter"
+   },
+   "cmo:level": "intermediate",
+   "cmo:requires": {
+    "@id": "cm:audience-analysis"
+   },
+   "cmo:supportedBy": {
+    "@id": "cm:oreg-vakola-armenakis-2011"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/change-communication/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/change-communication/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/change-communication/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/change-communication/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/change-communication/s5"
+    }
+   ],
+   "rdfs:label": "Communicating organisational change",
+   "skos:altLabel": [
+    "announcing a reorganisation",
+    "change announcement",
+    "change communication",
+    "communicating change",
+    "organizational change communication"
+   ],
+   "skos:broader": {
+    "@id": "cm:organizational-communication"
+   },
+   "skos:definition": "The recurring situation in which leaders announce and explain a reorganisation, merger, new system, restructuring or downsizing to the people it affects. It goes best when the message explains why the change is needed and right, what it means for each person, and what is still unknown, and when it is delivered early, repeatedly and with room for questions and participation.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/executive-and-client-communication"
+   },
+   "skos:prefLabel": "Communicating organisational change",
+   "skos:related": [
+    {
+     "@id": "cm:audience-analysis"
+    },
+    {
+     "@id": "cm:bottom-line-up-front"
+    },
+    {
+     "@id": "cm:channel-selection"
+    },
+    {
+     "@id": "cm:communicating-uncertainty"
+    },
+    {
+     "@id": "cm:delivering-bad-news"
+    },
+    {
+     "@id": "cm:layoff-conversation"
+    },
+    {
+     "@id": "cm:psychological-safety"
+    },
+    {
+     "@id": "cm:trust-repair"
+    }
+   ]
+  },
+  {
    "@id": "cm:channel-selection",
    "@type": "cmo:Technique",
    "cmo:appliedIn": {
@@ -28566,6 +28654,38 @@
    "schema:text": "When video is used, suggest hiding self-view once framing is set, and build in short audio-only breaks in meetings longer than about 45 minutes."
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/change-communication/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:change-communication"
+   },
+   "rdfs:label": "Can every person hearing this answer \"why are we changing, and why this way?\" in their own words?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/change-communication/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:change-communication"
+   },
+   "rdfs:label": "Have I said plainly what is still undecided and when people will hear more?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/change-communication/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:change-communication"
+   },
+   "rdfs:label": "Will front-line staff and middle managers hear this at the same time and in the same detail as senior leaders?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/change-communication/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:change-communication"
+   },
+   "rdfs:label": "Where can people ask questions or shape the details, and have I told them?"
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/channel-selection/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -41198,6 +41318,76 @@
    "dcterms:title": "The Demise of Trust: Trustworthiness, the Internet, and Self-Deception",
    "schema:url": {
     "@id": "https://sydneysymposium.unsw.edu.au/2025/chapters/CranoSSSP2025.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/change-communication/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Armenakis and Harris, Journal of Organizational Change Management 15(2), 169-183, 2002 (Emerald)",
+   "dcterms:title": "Crafting a change message to create transformational readiness",
+   "schema:url": {
+    "@id": "https://emerald.com/insight/content/doi/10.1108/09534810210423080/full/html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/change-communication/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Schweiger and DeNisi, Academy of Management Journal 34(1), 1991 (abstract record, Synapse Social)",
+   "dcterms:title": "Communication with employees following a merger: a longitudinal field experiment",
+   "schema:url": {
+    "@id": "https://synapsesocial.com/papers/W2091198520"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/change-communication/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Oreg, Vakola and Armenakis, Journal of Applied Behavioral Science 47(4), 461-524, 2011 (Hebrew University research portal)",
+   "dcterms:title": "Change Recipients' Reactions to Organizational Change: A 60-Year Review of Quantitative Studies",
+   "schema:url": {
+    "@id": "https://cris.huji.ac.il/en/publications/change-recipients-reactions-to-organizational-change-a-60-year-re/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/change-communication/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Tourish, Hobman and Bordia, Management Communication Quarterly 17(4), 485-516, 2004 (ANU research portal)",
+   "dcterms:title": "The downsides of downsizing: Communication processes and information needs in the aftermath of a workforce reduction strategy",
+   "schema:url": {
+    "@id": "https://researchportalplus.anu.edu.au/en/publications/the-downsides-of-downsizing-communication-processes-information-n/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/change-communication/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "practitioner-journal",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "John P. Kotter; listed as a classic by AHRQ Patient Safety Network (PSNet)",
+   "dcterms:title": "Leading change: why transformation efforts fail (Harvard Business Review 73(2), 1995)",
+   "schema:url": {
+    "@id": "https://psnet.ahrq.gov/issue/leading-change-why-transformation-efforts-fail"
    }
   },
   {

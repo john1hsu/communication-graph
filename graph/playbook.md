@@ -830,6 +830,14 @@ Ask yourself:
 
 ## executive-and-client-communication
 
+### [Communicating organisational change](../articles/executive-and-client-communication/change-communication.md) — Context
+
+Ask yourself:
+- Can every person hearing this answer "why are we changing, and why this way?" in their own words?
+- Have I said plainly what is still undecided and when people will hear more?
+- Will front-line staff and middle managers hear this at the same time and in the same detail as senior leaders?
+- Where can people ask questions or shape the details, and have I told them?
+
 ### [Communicating uncertainty to decision makers](../articles/executive-and-client-communication/communicating-uncertainty.md) — Skill
 
 *A product lead tells the leadership team how many customers a pricing change will cost.*
