@@ -2151,6 +2151,28 @@ Ask yourself:
 - Have I met the key people one-on-one to listen before asking them for anything?
 - Am I stating limits and uncertainty plainly, or overselling in a way that will cost me trust later?
 
+### [Gain-loss framing](../articles/persuasion-and-influence/gain-loss-framing.md) — Technique
+
+1. Write the core consequence of your recommendation once, as a plain fact with numbers - what changes, for whom, by how much, by when.
+2. Draft it both ways - what the audience gains by acting and what it loses by not acting - and check that the two versions describe the same facts at the same size.
+3. Pick the frame that fits your audience's actual decision (protecting something they already have, or adding something new), and say the other side once so the trade-off is visible.
+4. Spend most of your effort on the substance - evidence, cost, risk and the objections you expect - not on the wording of the frame.
+5. Where the message goes to many people and the stakes are real, test the two versions on a small group before deciding, rather than assuming loss frames win.
+
+*An operations lead wants budget for automated nightly backups of the team's shared drive and is writing to the department head.*
+
+| Before | After |
+|---|---|
+| If we don't fix our backups, we could lose everything overnight, and it will be on all of us. We can't afford to wait. | With nightly automated backups, any file can be restored to the previous day's version within an hour. Today, a failed drive would cost us up to a week of rework, as it did in March. Setup is about two days of IT time and a small monthly storage fee. |
+
+**Why:** The first version leans on an exaggerated loss frame and gives the reader nothing to weigh. The rewrite states the gain and the loss at their real size, with cost, so the case rests on its substance - which matters more than the frame, since meta-analyses find the frame alone adds little.
+
+Ask yourself:
+- Do my gain and loss statements describe the same facts at the same size, or have I inflated one side?
+- Am I relying on "people hate losses" to do work my evidence should be doing?
+- Would my audience feel misled if they saw the other framing of the same numbers?
+- Have I stated the cost of acting, not only the cost of doing nothing?
+
 ### [Influence without authority](../articles/persuasion-and-influence/influence-without-authority.md) — Technique
 
 1. Treat the person whose help you need as a potential ally, even if past dealings were tense, and drop any story that they are simply difficult.

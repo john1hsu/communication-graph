@@ -1523,6 +1523,15 @@
 <https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/elaboration-likelihood-model/s3> .
 <https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/elaboration-likelihood-model/s4> .
 <https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/elaboration-likelihood-model/s5> .
+<https://github.com/john1hsu/communication-graph/id/gain-loss-framing#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/gain-loss-framing#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> .
+<https://github.com/john1hsu/communication-graph/id/gain-loss-framing#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/persuasion-and-influence/gain-loss-framing.md" .
+<https://github.com/john1hsu/communication-graph/id/gain-loss-framing#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/gain-loss-framing/s1> .
+<https://github.com/john1hsu/communication-graph/id/gain-loss-framing#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/gain-loss-framing/s2> .
+<https://github.com/john1hsu/communication-graph/id/gain-loss-framing#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/gain-loss-framing/s3> .
+<https://github.com/john1hsu/communication-graph/id/gain-loss-framing#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/gain-loss-framing/s4> .
+<https://github.com/john1hsu/communication-graph/id/gain-loss-framing#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/gain-loss-framing/s5> .
+<https://github.com/john1hsu/communication-graph/id/gain-loss-framing#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/gain-loss-framing/s6> .
 <https://github.com/john1hsu/communication-graph/id/impression-management#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/impression-management#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/impression-management> .
 <https://github.com/john1hsu/communication-graph/id/impression-management#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/persuasion-and-influence/impression-management.md" .
@@ -18907,6 +18916,119 @@
   <https://github.com/john1hsu/communication-graph/id/source/elaboration-likelihood-model/s5> <https://schema.org/url> <https://u.osu.edu/petty> .
 }
 
+<https://github.com/john1hsu/communication-graph/id/gain-loss-framing#graph> {
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Do my gain and loss statements describe the same facts at the same size, or have I inflated one side?" .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Am I relying on \"people hate losses\" to do work my evidence should be doing?" .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Would my audience feel misled if they saw the other framing of the same numbers?" .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Have I stated the cost of acting, not only the cost of doing nothing?" .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing/example> <https://github.com/john1hsu/communication-graph/ontology#after> "With nightly automated backups, any file can be restored to the previous day's version within an hour. Today, a failed drive would cost us up to a week of rework, as it did in March. Setup is about two days of IT time and a small monthly storage fee." .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing/example> <https://github.com/john1hsu/communication-graph/ontology#before> "If we don't fix our backups, we could lose everything overnight, and it will be on all of us. We can't afford to wait." .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "An operations lead wants budget for automated nightly backups of the team's shared drive and is writing to the department head." .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing/example> <https://github.com/john1hsu/communication-graph/ontology#why> "The first version leans on an exaggerated loss frame and gives the reader nothing to weigh. The rewrite states the gain and the loss at their real size, with cost, so the case rests on its substance - which matters more than the frame, since meta-analyses find the frame alone adds little." .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing/howto/1> <https://schema.org/text> "Write the core consequence of your recommendation once, as a plain fact with numbers - what changes, for whom, by how much, by when." .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing/howto/2> <https://schema.org/text> "Draft it both ways - what the audience gains by acting and what it loses by not acting - and check that the two versions describe the same facts at the same size." .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing/howto/3> <https://schema.org/text> "Pick the frame that fits your audience's actual decision (protecting something they already have, or adding something new), and say the other side once so the trade-off is visible." .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing/howto/4> <https://schema.org/text> "Spend most of your effort on the substance - evidence, cost, risk and the objections you expect - not on the wording of the frame." .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing/howto/5> <https://schema.org/text> "Where the message goes to many people and the stakes are real, test the two versions on a small group before deciding, rather than assuming loss frames win." .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing/howto> <https://schema.org/name> "Gain-loss framing" .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/gain-loss-framing/howto/1> .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/gain-loss-framing/howto/2> .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/gain-loss-framing/howto/3> .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/gain-loss-framing/howto/4> .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/gain-loss-framing/howto/5> .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> <http://purl.org/dc/terms/created> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Technique> .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> <http://www.w3.org/2000/01/rdf-schema#label> "Gain-loss framing" .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> <http://www.w3.org/2004/02/skos/core#altLabel> "gain versus loss message framing" .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> <http://www.w3.org/2004/02/skos/core#altLabel> "gain-framed and loss-framed messages" .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> <http://www.w3.org/2004/02/skos/core#altLabel> "goal framing" .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/persuasion> .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> <http://www.w3.org/2004/02/skos/core#definition> "Choosing whether to present a recommendation in terms of what the audience gains by acting (a gain frame) or what it loses by not acting (a loss frame). Popular advice says loss frames persuade more, but meta-analyses find the choice of frame alone makes little or no difference." .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/persuasion-and-influence> .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gain-loss framing" .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-bias> .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/daniel-kahneman> .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/okeefe-hoeken-2021> .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/refutational-two-sided-messages> .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies> .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/gain-loss-framing/s1> .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/gain-loss-framing/s2> .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/gain-loss-framing/s3> .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/gain-loss-framing/s4> .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/gain-loss-framing/s5> .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/gain-loss-framing/s6> .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/okeefe-jensen-2007> .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/okeefe-wu-2012> .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/attribute-framing> .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> <https://github.com/john1hsu/communication-graph/ontology#develops> <https://github.com/john1hsu/communication-graph/id/persuasion> .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> <https://github.com/john1hsu/communication-graph/ontology#domain> "persuasion-and-influence" .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "contested" .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/gain-loss-framing/example> .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/persuasion-and-influence/gain-loss-framing.md" .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/gain-loss-framing/howto> .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/amos-tversky> .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/gallagher-updegraff-2012> .
+  <https://github.com/john1hsu/communication-graph/id/source/gain-loss-framing/s1> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/gain-loss-framing/s1> <http://purl.org/dc/terms/publisher> "Amos Tversky & Daniel Kahneman, Science 211(4481), 453-458, 1981, doi:10.1126/science.7455683 (NC State University course copy)" .
+  <https://github.com/john1hsu/communication-graph/id/source/gain-loss-framing/s1> <http://purl.org/dc/terms/title> "The framing of decisions and the psychology of choice" .
+  <https://github.com/john1hsu/communication-graph/id/source/gain-loss-framing/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/gain-loss-framing/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/communication-graph/id/source/gain-loss-framing/s1> <https://schema.org/url> <https://www.csc2.ncsu.edu/faculty/mpsingh/local/Social/f24/wrap/readings/Tversky+Kahneman-framing-1981.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/gain-loss-framing/s2> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/gain-loss-framing/s2> <http://purl.org/dc/terms/publisher> "Irwin P. Levin, Sandra L. Schneider & Gary J. Gaeth, Organizational Behavior and Human Decision Processes 76(2), 149-188, 1998, doi:10.1006/obhd.1998.2804 (University of South Florida Digital Commons)" .
+  <https://github.com/john1hsu/communication-graph/id/source/gain-loss-framing/s2> <http://purl.org/dc/terms/title> "All Frames Are Not Created Equal: A Typology of Framing Effects" .
+  <https://github.com/john1hsu/communication-graph/id/source/gain-loss-framing/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/gain-loss-framing/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/gain-loss-framing/s2> <https://schema.org/url> <https://digitalcommons.usf.edu/psy_facpub/1886/> .
+  <https://github.com/john1hsu/communication-graph/id/source/gain-loss-framing/s3> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/gain-loss-framing/s3> <http://purl.org/dc/terms/publisher> "Daniel J. O'Keefe & Jakob D. Jensen, Journal of Health Communication, 2007, PMID 17934940 (Read by QxMD abstract page)" .
+  <https://github.com/john1hsu/communication-graph/id/source/gain-loss-framing/s3> <http://purl.org/dc/terms/title> "The relative persuasiveness of gain-framed and loss-framed messages for encouraging disease prevention behaviors: a meta-analytic review" .
+  <https://github.com/john1hsu/communication-graph/id/source/gain-loss-framing/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/gain-loss-framing/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/gain-loss-framing/s3> <https://schema.org/url> <https://read.qxmd.com/read/17934940/the-relative-persuasiveness-of-gain-framed-and-loss-framed-messages-for-encouraging-disease-prevention-behaviors-a-meta-analytic-review> .
+  <https://github.com/john1hsu/communication-graph/id/source/gain-loss-framing/s4> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/gain-loss-framing/s4> <http://purl.org/dc/terms/publisher> "Kristel M. Gallagher & John A. Updegraff, Annals of Behavioral Medicine 43, 101-116, 2012, doi:10.1007/s12160-011-9308-7" .
+  <https://github.com/john1hsu/communication-graph/id/source/gain-loss-framing/s4> <http://purl.org/dc/terms/title> "Health Message Framing Effects on Attitudes, Intentions, and Behavior: A Meta-analytic Review" .
+  <https://github.com/john1hsu/communication-graph/id/source/gain-loss-framing/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/gain-loss-framing/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/gain-loss-framing/s4> <https://schema.org/url> <https://link.springer.com/content/pdf/10.1007/s12160-011-9308-7.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/gain-loss-framing/s5> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/gain-loss-framing/s5> <http://purl.org/dc/terms/publisher> "Daniel J. O'Keefe & Daisy Wu, International Journal of Environmental Research and Public Health 9(6), 2121-2133, 2012, doi:10.3390/ijerph9062121" .
+  <https://github.com/john1hsu/communication-graph/id/source/gain-loss-framing/s5> <http://purl.org/dc/terms/title> "Gain-Framed Messages Do Not Motivate Sun Protection: A Meta-Analytic Review of Randomized Trials Comparing Gain-Framed and Loss-Framed Appeals for Promoting Skin Cancer Prevention" .
+  <https://github.com/john1hsu/communication-graph/id/source/gain-loss-framing/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/gain-loss-framing/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/gain-loss-framing/s5> <https://schema.org/url> <https://pmc.ncbi.nlm.nih.gov/articles/PMC3397368> .
+  <https://github.com/john1hsu/communication-graph/id/source/gain-loss-framing/s6> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/gain-loss-framing/s6> <http://purl.org/dc/terms/publisher> "Daniel J. O'Keefe, Proceedings of the International Society for the Study of Argumentation (ISSA) 2006, republished by Rozenberg Quarterly" .
+  <https://github.com/john1hsu/communication-graph/id/source/gain-loss-framing/s6> <http://purl.org/dc/terms/title> "Normatively Responsible Advocacy: Some Provocations from Persuasion Effects Research" .
+  <https://github.com/john1hsu/communication-graph/id/source/gain-loss-framing/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/gain-loss-framing/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/communication-graph/id/source/gain-loss-framing/s6> <https://schema.org/url> <https://rozenbergquarterly.com/issa-proceedings-2006-normatively-responsible-advocacy-some-provocations-from-persuasion-effects-research/?print=pdf> .
+}
+
 <https://github.com/john1hsu/communication-graph/id/impression-management#graph> {
   <https://github.com/john1hsu/communication-graph/id/impression-management> <http://purl.org/dc/terms/created> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
   <https://github.com/john1hsu/communication-graph/id/impression-management> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Theory> .
@@ -28457,6 +28579,7 @@
   <https://github.com/john1hsu/communication-graph/id/ameseder-devetak-skubic-2026> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/burying-the-lede> .
   <https://github.com/john1hsu/communication-graph/id/amos-tversky> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/amos-tversky> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+  <https://github.com/john1hsu/communication-graph/id/amos-tversky> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> .
   <https://github.com/john1hsu/communication-graph/id/amos-tversky> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> .
   <https://github.com/john1hsu/communication-graph/id/amos-tversky> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/cognitive-bias> .
   <https://github.com/john1hsu/communication-graph/id/amy-cuddy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -28662,6 +28785,7 @@
   <https://github.com/john1hsu/communication-graph/id/attention-management> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> .
   <https://github.com/john1hsu/communication-graph/id/attention-management> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/scheduled-inbox-checks> .
   <https://github.com/john1hsu/communication-graph/id/attention-management> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> .
+  <https://github.com/john1hsu/communication-graph/id/attribute-framing> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> .
   <https://github.com/john1hsu/communication-graph/id/attribution-theory> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> .
   <https://github.com/john1hsu/communication-graph/id/attribution-theory> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/trust-repair> .
   <https://github.com/john1hsu/communication-graph/id/attributional-ambiguity> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/wise-feedback> .
@@ -28719,6 +28843,7 @@
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/executive-briefing> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/executive-presence> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/executive-summary> .
+  <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/grices-maxims> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/influence-without-authority> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/informative-headings> .
@@ -29385,6 +29510,7 @@
   <https://github.com/john1hsu/communication-graph/id/cognitive-bias> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/mythical-fixed-pie> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-bias> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/primacy-and-recency-effects> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-bias> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/spotlight-effect> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-legitimacy> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/elevator-pitch> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-load> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
@@ -29638,6 +29764,7 @@
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/first-offer> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/fm-6-0> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/follow-up-questions> .
+  <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/gestures> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/graded-assertiveness> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/grow-model> .
@@ -30032,6 +30159,7 @@
   <https://github.com/john1hsu/communication-graph/id/danescu-niculescu-mizil-et-al-2013> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/politeness-theory> .
   <https://github.com/john1hsu/communication-graph/id/daniel-kahneman> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/daniel-kahneman> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+  <https://github.com/john1hsu/communication-graph/id/daniel-kahneman> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> .
   <https://github.com/john1hsu/communication-graph/id/daniel-kahneman> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> .
   <https://github.com/john1hsu/communication-graph/id/daniel-kahneman> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/cognitive-bias> .
   <https://github.com/john1hsu/communication-graph/id/daniel-mccallum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -30458,6 +30586,7 @@
   <https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/persuasion> .
   <https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/carl-hovland> .
+  <https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> .
   <https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/gestures> .
   <https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/narrative-persuasion> .
   <https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/persuasion> .
@@ -31188,6 +31317,18 @@
   <https://github.com/john1hsu/communication-graph/id/g-versus-c-meta-analysis-2021> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/facilitation> .
   <https://github.com/john1hsu/communication-graph/id/g-versus-c-meta-analysis-2021> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/unequal-participation> .
   <https://github.com/john1hsu/communication-graph/id/gabbert-et-al-2021> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/rapport> .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/humanities> .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/persuasion> .
+  <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/galati-brennan-2010> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/audience-design> .
   <https://github.com/john1hsu/communication-graph/id/galinsky-maddux-gilin-white-2008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/galinsky-maddux-gilin-white-2008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
@@ -31199,6 +31340,7 @@
   <https://github.com/john1hsu/communication-graph/id/galinsky-mussweiler-medvec-2002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/galinsky-mussweiler-medvec-2002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/galinsky-mussweiler-medvec-2002> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/reservation-value> .
+  <https://github.com/john1hsu/communication-graph/id/gallagher-updegraff-2012> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> .
   <https://github.com/john1hsu/communication-graph/id/garner-alley-2013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/garner-alley-2013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/garner-alley-2013> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> .
@@ -31641,6 +31783,7 @@
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/first-offer> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/fm-6-0> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/follow-up-questions> .
+  <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/gestures> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/graded-assertiveness> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/grow-model> .
@@ -32173,6 +32316,7 @@
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/filled-pauses> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/first-offer> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/follow-up-questions> .
+  <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/gestures> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/graded-assertiveness> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/grow-model> .
@@ -33307,8 +33451,11 @@
   <https://github.com/john1hsu/communication-graph/id/oetzel-ting-toomey-2003> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/face-and-facework> .
   <https://github.com/john1hsu/communication-graph/id/official-style> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/paramedic-method> .
   <https://github.com/john1hsu/communication-graph/id/okeefe-1999> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/refutational-two-sided-messages> .
+  <https://github.com/john1hsu/communication-graph/id/okeefe-hoeken-2021> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> .
   <https://github.com/john1hsu/communication-graph/id/okeefe-hoeken-2021> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/refutational-two-sided-messages> .
   <https://github.com/john1hsu/communication-graph/id/okeefe-hoeken-2021> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/persuasion> .
+  <https://github.com/john1hsu/communication-graph/id/okeefe-jensen-2007> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> .
+  <https://github.com/john1hsu/communication-graph/id/okeefe-wu-2012> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> .
   <https://github.com/john1hsu/communication-graph/id/oliver-1980> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/oliver-1980> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/oliver-1980> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> .
@@ -33694,6 +33841,7 @@
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/credibility> .
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> .
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/elevator-pitch> .
+  <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> .
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/influence-without-authority> .
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/issue-selling> .
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/monroes-motivated-sequence> .
@@ -33708,6 +33856,7 @@
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/credibility> .
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> .
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/elevator-pitch> .
+  <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> .
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/influence-without-authority> .
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/issue-selling> .
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/monroes-motivated-sequence> .
@@ -33722,6 +33871,7 @@
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/irving-janis> .
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/rhetoric> .
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/social-psychology> .
+  <https://github.com/john1hsu/communication-graph/id/persuasion> <https://github.com/john1hsu/communication-graph/ontology#developedBy> <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> .
   <https://github.com/john1hsu/communication-graph/id/persuasion> <https://github.com/john1hsu/communication-graph/ontology#developedBy> <https://github.com/john1hsu/communication-graph/id/refutational-two-sided-messages> .
   <https://github.com/john1hsu/communication-graph/id/peterson-hohensee-xia-2011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/peterson-hohensee-xia-2011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
@@ -34344,6 +34494,7 @@
   <https://github.com/john1hsu/communication-graph/id/refutational-two-sided-messages> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
   <https://github.com/john1hsu/communication-graph/id/refutational-two-sided-messages> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/persuasion> .
   <https://github.com/john1hsu/communication-graph/id/refutational-two-sided-messages> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
+  <https://github.com/john1hsu/communication-graph/id/refutational-two-sided-messages> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> .
   <https://github.com/john1hsu/communication-graph/id/refutational-two-sided-messages> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/monroes-motivated-sequence> .
   <https://github.com/john1hsu/communication-graph/id/refutational-two-sided-messages> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/primacy-and-recency-effects> .
   <https://github.com/john1hsu/communication-graph/id/refutational-two-sided-messages> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/rhetorical-appeals> .
@@ -34452,6 +34603,7 @@
   <https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/risk-communication> .
+  <https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> .
   <https://github.com/john1hsu/communication-graph/id/ritchart-arvaniti-2014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/ritchart-arvaniti-2014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/ritchart-arvaniti-2014> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/uptalk> .
@@ -35004,6 +35156,7 @@
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/first-offer> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/fm-6-0> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/follow-up-questions> .
+  <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/gestures> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/graded-assertiveness> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/grow-model> .

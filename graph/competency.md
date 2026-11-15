@@ -59,7 +59,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:thought-groups` | 2 | Filled pauses, Silence and pauses |
 | `cm:active-listening` | 1 | Defensiveness |
 
-…and 57 more.
+…and 58 more.
 
 ## Toolkit by situation
 
@@ -117,6 +117,8 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:feedback-sandwich` | contested | `cm:parkes-abercrombie-mccarty-2013` |
 | `cm:filled-pauses` | contested | `cm:clark-fox-tree-2002` |
 | `cm:filled-pauses` | contested | `cm:fraundorf-watson-2011` |
+| `cm:gain-loss-framing` | contested | `cm:okeefe-jensen-2007` |
+| `cm:gain-loss-framing` | contested | `cm:okeefe-wu-2012` |
 | `cm:high-and-low-context-cultures` | contested | `cm:cardon-2008` |
 | `cm:high-and-low-context-cultures` | contested | `cm:kittler-rygl-mackinnon-2011` |
 | `cm:hofstede-cultural-dimensions` | contested | `cm:mcsweeney-2002` |
@@ -134,10 +136,8 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:wise-feedback` | contested | `cm:troy-moua-van-boekel-2024` |
 | `cm:power-posing` | failed-replication | `cm:crede-2019` |
 | `cm:power-posing` | failed-replication | `cm:ranehill-et-al-2015` |
-| `cm:acoustic-speech-analysis-coaching` | mixed |  |
-| `cm:active-listening` | mixed |  |
 
-…and 183 more.
+…and 185 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -150,6 +150,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:employee-silence` | cmo:Barrier |
 | `cm:escalation-communication` | cmo:Technique |
 | `cm:executive-summary` | cmo:Genre |
+| `cm:gain-loss-framing` | cmo:Technique |
 | `cm:gestures` | cmo:Skill |
 | `cm:graded-assertiveness` | cmo:Technique |
 | `cm:group-decision-making` | cmo:Context |
@@ -174,9 +175,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:mum-effect` | cmo:Barrier |
 | `cm:narrative-persuasion` | cmo:Technique |
 | `cm:negotiation` | cmo:Context |
-| `cm:negotiation-preparation` | cmo:Context |
 
-…and 53 more.
+…and 54 more.
 
 ## Orphan articles (gap)
 
