@@ -9232,6 +9232,106 @@
    ]
   },
   {
+   "@id": "cm:feedback-intervention-theory",
+   "@type": "cmo:Theory",
+   "cmo:complements": [
+    {
+     "@id": "cm:feedforward"
+    },
+    {
+     "@id": "cm:regulatory-focus-theory"
+    }
+   ],
+   "cmo:demonstratedBy": {
+    "@id": "cm:kluger-denisi-1996"
+   },
+   "cmo:domain": "feedback-and-coaching",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:file": "articles/feedback-and-coaching/feedback-intervention-theory.md",
+   "cmo:influencedBy": {
+    "@id": "cm:control-theory"
+   },
+   "cmo:introducedBy": [
+    {
+     "@id": "cm:angelo-denisi"
+    },
+    {
+     "@id": "cm:avraham-n-kluger"
+    }
+   ],
+   "cmo:level": "intermediate",
+   "cmo:requires": {
+    "@id": "cm:feedback"
+   },
+   "cmo:supportedBy": {
+    "@id": "cm:wisniewski-zierer-hattie-2020"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/feedback-intervention-theory/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/feedback-intervention-theory/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/feedback-intervention-theory/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/feedback-intervention-theory/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/feedback-intervention-theory/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/feedback-intervention-theory/s6"
+    }
+   ],
+   "rdfs:label": "Feedback intervention theory",
+   "skos:altLabel": [
+    "FIT",
+    "Kluger and DeNisi's feedback intervention theory",
+    "feedback intervention theory (FIT)"
+   ],
+   "skos:broader": {
+    "@id": "cm:feedback"
+   },
+   "skos:definition": "Kluger and DeNisi's 1996 theory of why feedback sometimes improves and sometimes worsens performance: feedback shifts the receiver's limited attention up or down a hierarchy running from task details, through task motivation, to the self, and it loses power the closer it pulls attention to the self.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/feedback-and-coaching"
+   },
+   "skos:prefLabel": "Feedback intervention theory",
+   "skos:related": [
+    {
+     "@id": "cm:feedback-sandwich"
+    },
+    {
+     "@id": "cm:feedforward"
+    },
+    {
+     "@id": "cm:hattie-timperley-feedback-model"
+    },
+    {
+     "@id": "cm:kluger-denisi-1996"
+    },
+    {
+     "@id": "cm:performance-review"
+    },
+    {
+     "@id": "cm:praise-and-recognition"
+    },
+    {
+     "@id": "cm:receiving-feedback"
+    },
+    {
+     "@id": "cm:situation-behavior-impact"
+    }
+   ]
+  },
+  {
    "@id": "cm:feedback-sandwich",
    "@type": "cmo:Technique",
    "cmo:addresses": {
@@ -45240,6 +45340,90 @@
    "dcterms:title": "David Straus (founder profile)",
    "schema:url": {
     "@id": "https://www.interactionassociates.com/team/dstraus"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/feedback-intervention-theory/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Kluger, A. N. & DeNisi, A., Psychological Bulletin 119(2), 254-284 (1996), doi:10.1037/0033-2909.119.2.254 (Hebrew University research portal)",
+   "dcterms:title": "The effects of feedback interventions on performance: a historical review, a meta-analysis, and a preliminary feedback intervention theory",
+   "schema:url": {
+    "@id": "https://cris.huji.ac.il/en/publications/the-effects-of-feedback-interventions-on-performance-a-historical/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/feedback-intervention-theory/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Kluger, A. N. & DeNisi, A., Current Directions in Psychological Science 7(3), 67-72 (1998) (University at Albany course copy)",
+   "dcterms:title": "Feedback Interventions: Toward the Understanding of a Double-Edged Sword",
+   "schema:url": {
+    "@id": "https://albany.edu/faculty/ts460/pad634/Files/2361-KlugerDeNisiFeedbackcapHighlighted.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/feedback-intervention-theory/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Hattie, J. & Timperley, H., Review of Educational Research 77(1), 81-112 (2007) (UC Riverside assessment office copy)",
+   "dcterms:title": "The Power of Feedback",
+   "schema:url": {
+    "@id": "https://assess.ucr.edu/media/746/download"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/feedback-intervention-theory/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Wisniewski, B., Zierer, K. & Hattie, J., Frontiers in Psychology 10:3087 (2020) (PubMed Central full text)",
+   "dcterms:title": "The Power of Feedback Revisited: A Meta-Analysis of Educational Feedback Research",
+   "schema:url": {
+    "@id": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6987456"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/feedback-intervention-theory/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Kluger, A. N. & Van Dijk, D., Medical Education 44(12), 1166-1174 (2010), doi:10.1111/j.1365-2923.2010.03849.x (Hebrew University research portal)",
+   "dcterms:title": "Feedback, the various tasks of the doctor, and the feedforward alternative",
+   "schema:url": {
+    "@id": "https://cris.huji.ac.il/en/publications/feedback-the-various-tasks-of-the-doctor-and-the-feedforward-alte/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/feedback-intervention-theory/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Schmidt, J.-A. H., master's thesis, Virginia Polytechnic Institute and State University (1998) (VTechWorks)",
+   "dcterms:title": "The Influence of Feedback Interventions on Attention to Task-Motivation and Meta-Task Processes: An Examination of Feedback Intervention Theory",
+   "schema:url": {
+    "@id": "https://vtechworks.lib.vt.edu/bitstreams/5702b5e0-a8f7-4784-8f67-9bdc013d8966/download"
    }
   },
   {

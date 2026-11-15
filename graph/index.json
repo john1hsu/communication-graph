@@ -10491,6 +10491,117 @@
   ]
  },
  {
+  "id": "cm:feedback-intervention-theory",
+  "title": "Feedback intervention theory",
+  "aliases": [
+   "FIT",
+   "Kluger and DeNisi's feedback intervention theory",
+   "feedback intervention theory (FIT)"
+  ],
+  "type": "Theory",
+  "domain": "feedback-and-coaching",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/feedback-and-coaching/feedback-intervention-theory.md",
+  "created": "2026-11-15",
+  "summary": "Kluger and DeNisi's 1996 theory of why feedback sometimes improves and sometimes worsens performance: feedback shifts the receiver's limited attention up or down a hierarchy running from task details, through task motivation, to the self, and it loses power the closer it pulls attention to the self.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:feedback"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:kluger-denisi-1996"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:hattie-timperley-feedback-model"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:feedforward"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:praise-and-recognition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:situation-behavior-impact"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:performance-review"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:feedback-sandwich"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:receiving-feedback"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:feedback"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:avraham-n-kluger",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:angelo-denisi",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:kluger-denisi-1996",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:influencedBy",
+    "object": "cm:control-theory",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:wisniewski-zierer-hattie-2020",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:feedforward",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:regulatory-focus-theory",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://cris.huji.ac.il/en/publications/the-effects-of-feedback-interventions-on-performance-a-historical/",
+   "https://albany.edu/faculty/ts460/pad634/Files/2361-KlugerDeNisiFeedbackcapHighlighted.pdf",
+   "https://assess.ucr.edu/media/746/download",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC6987456",
+   "https://cris.huji.ac.il/en/publications/feedback-the-various-tasks-of-the-doctor-and-the-feedforward-alte/",
+   "https://vtechworks.lib.vt.edu/bitstreams/5702b5e0-a8f7-4784-8f67-9bdc013d8966/download"
+  ]
+ },
+ {
   "id": "cm:feedback-sandwich",
   "title": "Feedback sandwich",
   "aliases": [
