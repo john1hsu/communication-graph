@@ -1450,6 +1450,15 @@ Ask yourself:
 - Could my label be heard as a criticism of them, and if so, did I reword it as a neutral observation?
 - After the label, did I stay quiet long enough for them to correct me?
 
+### [Listening](../articles/listening/listening.md) — Skill
+
+Ask yourself:
+- Before the conversation, did I put away the phone and close the screen that would compete for my attention?
+- While they were talking, was I working out what they meant, or rehearsing what I would say next?
+- Could I name the one thing they most needed me to understand, and did I check it with them?
+- Did I ask at least one question that helped them think, rather than one that steered them to my view?
+- If I asked them, would they say they felt listened to - not just that I was quiet?
+
 ### [Mirroring](../articles/listening/mirroring.md) — Technique
 
 1. Let the other person finish their point before you respond, and notice the one to three words that carry the most weight or the most ambiguity.

@@ -15704,6 +15704,91 @@
   ]
  },
  {
+  "id": "cm:listening",
+  "title": "Listening",
+  "aliases": [
+   "listening skills",
+   "listening competence"
+  ],
+  "type": "Skill",
+  "domain": "listening",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/listening/listening.md",
+  "created": "2026-11-15",
+  "summary": "The learned process of receiving, interpreting, remembering, evaluating and responding to what someone says and shows - as distinct from merely hearing it - judged in practice by whether the speaker feels attended to, understood and treated with goodwill.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:interpersonal-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:psychological-safety"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:perspective-taking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:support-response"
+   },
+   {
+    "predicate": "cmo:studiedIn",
+    "object": "cm:interpersonal-communication",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:kluger-et-al-2024",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:itzchakov-kluger-castro-2017",
+    "source": "s5",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:defensiveness",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:interrupting",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:open-ended-questions",
+    "source": "s3",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Before the conversation, did I put away the phone and close the screen that would compete for my attention?",
+   "While they were talking, was I working out what they meant, or rehearsing what I would say next?",
+   "Could I name the one thing they most needed me to understand, and did I check it with them?",
+   "Did I ask at least one question that helped them think, rather than one that steered them to my view?",
+   "If I asked them, would they say they felt listened to - not just that I was quiet?"
+  ],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://www.hermanaguinis.com/pdf/JBPlistening.pdf",
+   "https://courses.lumenlearning.com/suny-realworldcomm/chapter/5-1-understanding-how-and-why-we-listen/",
+   "https://zengerfolkman.com/articles/great-listeners/",
+   "https://www.bi.no/en/research/business-review/articles/2024/06/profitable-listening",
+   "https://cris.huji.ac.il/en/publications/i-am-aware-of-my-inconsistencies-but-can-tolerate-them-the-effect/"
+  ]
+ },
+ {
   "id": "cm:listening-styles",
   "title": "Listening styles",
   "aliases": [

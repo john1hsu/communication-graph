@@ -13768,6 +13768,81 @@
    ]
   },
   {
+   "@id": "cm:listening",
+   "@type": "cmo:Skill",
+   "cmo:addresses": [
+    {
+     "@id": "cm:defensiveness"
+    },
+    {
+     "@id": "cm:interrupting"
+    }
+   ],
+   "cmo:complements": {
+    "@id": "cm:open-ended-questions"
+   },
+   "cmo:domain": "listening",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:file": "articles/listening/listening.md",
+   "cmo:level": "introductory",
+   "cmo:studiedIn": {
+    "@id": "cm:interpersonal-communication"
+   },
+   "cmo:supportedBy": [
+    {
+     "@id": "cm:itzchakov-kluger-castro-2017"
+    },
+    {
+     "@id": "cm:kluger-et-al-2024"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/listening/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/listening/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/listening/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/listening/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/listening/s5"
+    }
+   ],
+   "rdfs:label": "Listening",
+   "skos:altLabel": [
+    "listening competence",
+    "listening skills"
+   ],
+   "skos:broader": {
+    "@id": "cm:interpersonal-communication"
+   },
+   "skos:definition": "The learned process of receiving, interpreting, remembering, evaluating and responding to what someone says and shows - as distinct from merely hearing it - judged in practice by whether the speaker feels attended to, understood and treated with goodwill.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/listening"
+   },
+   "skos:prefLabel": "Listening",
+   "skos:related": [
+    {
+     "@id": "cm:perspective-taking"
+    },
+    {
+     "@id": "cm:psychological-safety"
+    },
+    {
+     "@id": "cm:support-response"
+    }
+   ]
+  },
+  {
    "@id": "cm:listening-styles",
    "@type": "cmo:Framework",
    "cmo:appliedIn": [
@@ -34206,6 +34281,46 @@
    "schema:text": "Once they confirm the feeling, move to the substance - their facts, priorities and what happens next."
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/listening/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:listening"
+   },
+   "rdfs:label": "Before the conversation, did I put away the phone and close the screen that would compete for my attention?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/listening/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:listening"
+   },
+   "rdfs:label": "While they were talking, was I working out what they meant, or rehearsing what I would say next?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/listening/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:listening"
+   },
+   "rdfs:label": "Could I name the one thing they most needed me to understand, and did I check it with them?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/listening/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:listening"
+   },
+   "rdfs:label": "Did I ask at least one question that helped them think, rather than one that steered them to my view?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/listening/check/5",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:listening"
+   },
+   "rdfs:label": "If I asked them, would they say they felt listened to - not just that I was quiet?"
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/managing-up/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -51252,6 +51367,76 @@
    "dcterms:title": "11.3 Listening Styles (Introduction to Speech Communication)",
    "schema:url": {
     "@id": "https://open.library.okstate.edu/speech2713/chapter/4-2-listening-styles-2/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/listening/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Kluger, Lehmann, Aguinis, Itzchakov, Gordoni, Zyberaj & Bakaç, Journal of Business and Psychology 39, 295-344 (2024), doi:10.1007/s10869-023-09897-5 (author copy)",
+   "dcterms:title": "A Meta-analytic Systematic Review and Theory of the Effects of Perceived Listening on Work Outcomes",
+   "schema:url": {
+    "@id": "https://www.hermanaguinis.com/pdf/JBPlistening.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/listening/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "University of Minnesota Libraries Publishing (2016), open textbook hosted by SUNY / Lumen Learning, CC BY-NC-SA 4.0",
+   "dcterms:title": "Understanding How and Why We Listen (Communication in the Real World, ch. 5.1)",
+   "schema:url": {
+    "@id": "https://courses.lumenlearning.com/suny-realworldcomm/chapter/5-1-understanding-how-and-why-we-listen/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/listening/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "practitioner-journal",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Jack Zenger & Joseph Folkman, Harvard Business Review (July 2016), republished by Zenger Folkman (2020)",
+   "dcterms:title": "What Great Listeners Actually Do",
+   "schema:url": {
+    "@id": "https://zengerfolkman.com/articles/great-listeners/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/listening/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Christina G. L. Nerstad & Katrine Adair, BI Business Review, BI Norwegian Business School (17 June 2024)",
+   "dcterms:title": "Profitable listening",
+   "schema:url": {
+    "@id": "https://www.bi.no/en/research/business-review/articles/2024/06/profitable-listening"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/listening/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Itzchakov, Kluger & Castro, Personality and Social Psychology Bulletin 43(1), 105-120 (2017), doi:10.1177/0146167216675339 (Hebrew University research portal record)",
+   "dcterms:title": "I Am Aware of My Inconsistencies but Can Tolerate Them: The Effect of High Quality Listening on Speakers' Attitude Ambivalence",
+   "schema:url": {
+    "@id": "https://cris.huji.ac.il/en/publications/i-am-aware-of-my-inconsistencies-but-can-tolerate-them-the-effect/"
    }
   },
   {

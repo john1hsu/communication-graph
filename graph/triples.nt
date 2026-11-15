@@ -8055,6 +8055,48 @@
 <https://github.com/john1hsu/communication-graph/id/listening-styles> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
 <https://github.com/john1hsu/communication-graph/id/listening-styles> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/listening/listening-styles.md" .
 <https://github.com/john1hsu/communication-graph/id/listening-styles> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/communication-graph/id/listening/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/listening/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Before the conversation, did I put away the phone and close the screen that would compete for my attention?" .
+<https://github.com/john1hsu/communication-graph/id/listening/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/listening> .
+<https://github.com/john1hsu/communication-graph/id/listening/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/listening/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "While they were talking, was I working out what they meant, or rehearsing what I would say next?" .
+<https://github.com/john1hsu/communication-graph/id/listening/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/listening> .
+<https://github.com/john1hsu/communication-graph/id/listening/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/listening/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Could I name the one thing they most needed me to understand, and did I check it with them?" .
+<https://github.com/john1hsu/communication-graph/id/listening/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/listening> .
+<https://github.com/john1hsu/communication-graph/id/listening/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/listening/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Did I ask at least one question that helped them think, rather than one that steered them to my view?" .
+<https://github.com/john1hsu/communication-graph/id/listening/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/listening> .
+<https://github.com/john1hsu/communication-graph/id/listening/check/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/listening/check/5> <http://www.w3.org/2000/01/rdf-schema#label> "If I asked them, would they say they felt listened to - not just that I was quiet?" .
+<https://github.com/john1hsu/communication-graph/id/listening/check/5> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/listening> .
+<https://github.com/john1hsu/communication-graph/id/listening> <http://purl.org/dc/terms/created> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/listening> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Skill> .
+<https://github.com/john1hsu/communication-graph/id/listening> <http://www.w3.org/2000/01/rdf-schema#label> "Listening" .
+<https://github.com/john1hsu/communication-graph/id/listening> <http://www.w3.org/2004/02/skos/core#altLabel> "listening competence" .
+<https://github.com/john1hsu/communication-graph/id/listening> <http://www.w3.org/2004/02/skos/core#altLabel> "listening skills" .
+<https://github.com/john1hsu/communication-graph/id/listening> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
+<https://github.com/john1hsu/communication-graph/id/listening> <http://www.w3.org/2004/02/skos/core#definition> "The learned process of receiving, interpreting, remembering, evaluating and responding to what someone says and shows - as distinct from merely hearing it - judged in practice by whether the speaker feels attended to, understood and treated with goodwill." .
+<https://github.com/john1hsu/communication-graph/id/listening> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/listening> .
+<https://github.com/john1hsu/communication-graph/id/listening> <http://www.w3.org/2004/02/skos/core#prefLabel> "Listening" .
+<https://github.com/john1hsu/communication-graph/id/listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/perspective-taking> .
+<https://github.com/john1hsu/communication-graph/id/listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
+<https://github.com/john1hsu/communication-graph/id/listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/support-response> .
+<https://github.com/john1hsu/communication-graph/id/listening> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/listening/s1> .
+<https://github.com/john1hsu/communication-graph/id/listening> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/listening/s2> .
+<https://github.com/john1hsu/communication-graph/id/listening> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/listening/s3> .
+<https://github.com/john1hsu/communication-graph/id/listening> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/listening/s4> .
+<https://github.com/john1hsu/communication-graph/id/listening> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/listening/s5> .
+<https://github.com/john1hsu/communication-graph/id/listening> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/defensiveness> .
+<https://github.com/john1hsu/communication-graph/id/listening> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/interrupting> .
+<https://github.com/john1hsu/communication-graph/id/listening> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/open-ended-questions> .
+<https://github.com/john1hsu/communication-graph/id/listening> <https://github.com/john1hsu/communication-graph/ontology#domain> "listening" .
+<https://github.com/john1hsu/communication-graph/id/listening> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/listening> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/listening/listening.md" .
+<https://github.com/john1hsu/communication-graph/id/listening> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/listening> <https://github.com/john1hsu/communication-graph/ontology#studiedIn> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
+<https://github.com/john1hsu/communication-graph/id/listening> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/itzchakov-kluger-castro-2017> .
+<https://github.com/john1hsu/communication-graph/id/listening> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/kluger-et-al-2024> .
 <https://github.com/john1hsu/communication-graph/id/macinnis-mackinnon-macintyre-2010> <http://purl.org/dc/terms/created> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/macinnis-mackinnon-macintyre-2010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
 <https://github.com/john1hsu/communication-graph/id/macinnis-mackinnon-macintyre-2010> <http://www.w3.org/2000/01/rdf-schema#label> "The Illusion of Transparency and Normative Beliefs About Anxiety During Public Speaking" .
@@ -19128,6 +19170,36 @@
 <https://github.com/john1hsu/communication-graph/id/source/listening-styles/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/listening-styles/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "textbook" .
 <https://github.com/john1hsu/communication-graph/id/source/listening-styles/s4> <https://schema.org/url> <https://open.library.okstate.edu/speech2713/chapter/4-2-listening-styles-2/> .
+<https://github.com/john1hsu/communication-graph/id/source/listening/s1> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/listening/s1> <http://purl.org/dc/terms/publisher> "Kluger, Lehmann, Aguinis, Itzchakov, Gordoni, Zyberaj & Bakaç, Journal of Business and Psychology 39, 295-344 (2024), doi:10.1007/s10869-023-09897-5 (author copy)" .
+<https://github.com/john1hsu/communication-graph/id/source/listening/s1> <http://purl.org/dc/terms/title> "A Meta-analytic Systematic Review and Theory of the Effects of Perceived Listening on Work Outcomes" .
+<https://github.com/john1hsu/communication-graph/id/source/listening/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/listening/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/listening/s1> <https://schema.org/url> <https://www.hermanaguinis.com/pdf/JBPlistening.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/listening/s2> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/listening/s2> <http://purl.org/dc/terms/publisher> "University of Minnesota Libraries Publishing (2016), open textbook hosted by SUNY / Lumen Learning, CC BY-NC-SA 4.0" .
+<https://github.com/john1hsu/communication-graph/id/source/listening/s2> <http://purl.org/dc/terms/title> "Understanding How and Why We Listen (Communication in the Real World, ch. 5.1)" .
+<https://github.com/john1hsu/communication-graph/id/source/listening/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/listening/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/communication-graph/id/source/listening/s2> <https://schema.org/url> <https://courses.lumenlearning.com/suny-realworldcomm/chapter/5-1-understanding-how-and-why-we-listen/> .
+<https://github.com/john1hsu/communication-graph/id/source/listening/s3> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/listening/s3> <http://purl.org/dc/terms/publisher> "Jack Zenger & Joseph Folkman, Harvard Business Review (July 2016), republished by Zenger Folkman (2020)" .
+<https://github.com/john1hsu/communication-graph/id/source/listening/s3> <http://purl.org/dc/terms/title> "What Great Listeners Actually Do" .
+<https://github.com/john1hsu/communication-graph/id/source/listening/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/listening/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "practitioner-journal" .
+<https://github.com/john1hsu/communication-graph/id/source/listening/s3> <https://schema.org/url> <https://zengerfolkman.com/articles/great-listeners/> .
+<https://github.com/john1hsu/communication-graph/id/source/listening/s4> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/listening/s4> <http://purl.org/dc/terms/publisher> "Christina G. L. Nerstad & Katrine Adair, BI Business Review, BI Norwegian Business School (17 June 2024)" .
+<https://github.com/john1hsu/communication-graph/id/source/listening/s4> <http://purl.org/dc/terms/title> "Profitable listening" .
+<https://github.com/john1hsu/communication-graph/id/source/listening/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/listening/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/listening/s4> <https://schema.org/url> <https://www.bi.no/en/research/business-review/articles/2024/06/profitable-listening> .
+<https://github.com/john1hsu/communication-graph/id/source/listening/s5> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/listening/s5> <http://purl.org/dc/terms/publisher> "Itzchakov, Kluger & Castro, Personality and Social Psychology Bulletin 43(1), 105-120 (2017), doi:10.1177/0146167216675339 (Hebrew University research portal record)" .
+<https://github.com/john1hsu/communication-graph/id/source/listening/s5> <http://purl.org/dc/terms/title> "I Am Aware of My Inconsistencies but Can Tolerate Them: The Effect of High Quality Listening on Speakers' Attitude Ambivalence" .
+<https://github.com/john1hsu/communication-graph/id/source/listening/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/listening/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/listening/s5> <https://schema.org/url> <https://cris.huji.ac.il/en/publications/i-am-aware-of-my-inconsistencies-but-can-tolerate-them-the-effect/> .
 <https://github.com/john1hsu/communication-graph/id/source/macinnis-mackinnon-macintyre-2010/s1> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/macinnis-mackinnon-macintyre-2010/s1> <http://purl.org/dc/terms/publisher> "MacInnis, Mackinnon & MacIntyre, Current Research in Social Psychology 15(4) (2010), University of Iowa (full text)" .
 <https://github.com/john1hsu/communication-graph/id/source/macinnis-mackinnon-macintyre-2010/s1> <http://purl.org/dc/terms/title> "The Illusion of Transparency and Normative Beliefs About Anxiety During Public Speaking" .

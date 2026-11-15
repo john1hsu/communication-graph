@@ -12,7 +12,9 @@ _No results._
 
 _Which written skills or dispositions have no technique, framework or principle that develops them?_ — `queries/02-skills-without-practice.rq`
 
-_No results._
+| skill | type |
+|---|---|
+| `cm:listening` | cmo:Skill |
 
 ## Situations, channels and formats with no guidance (gap)
 
@@ -44,6 +46,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:graded-assertiveness` | 2 | Employee silence, Upward dissent |
 | `cm:i-statements` | 2 | Accusatory you-statements, Defensiveness |
 | `cm:interests-vs-positions` | 2 | Mythical fixed-pie bias, Positional bargaining |
+| `cm:listening` | 2 | Defensiveness, Interrupting |
 | `cm:mindfulness` | 2 | Emotion regulation, Workplace stress |
 | `cm:nominal-group-technique` | 2 | Production blocking, Unequal participation |
 | `cm:plain-language` | 2 | Curse of knowledge, jargon |
@@ -55,9 +58,8 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:slide-design` | 2 | Death by PowerPoint, Information overload |
 | `cm:support-response` | 2 | Active listening, Conversational narcissism |
 | `cm:systematic-desensitization` | 2 | Communication apprehension, Public speaking anxiety |
-| `cm:thought-groups` | 2 | Filled pauses, Silence and pauses |
 
-…and 61 more.
+…and 62 more.
 
 ## Toolkit by situation
 
@@ -135,7 +137,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:wise-feedback` | contested | `cm:troy-moua-van-boekel-2024` |
 | `cm:power-posing` | failed-replication | `cm:crede-2019` |
 
-…and 192 more.
+…and 193 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -162,6 +164,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:interrupting` | cmo:AntiPattern |
 | `cm:job-interview` | cmo:Context |
 | `cm:labeling-emotions` | cmo:Technique |
+| `cm:listening` | cmo:Skill |
 | `cm:listening-styles` | cmo:Framework |
 | `cm:meeting-agendas` | cmo:Technique |
 | `cm:meeting-recaps` | cmo:Technique |
@@ -172,9 +175,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:mixed-messages` | cmo:Barrier |
 | `cm:multicultural-team` | cmo:Context |
 | `cm:mum-effect` | cmo:Barrier |
-| `cm:narrative-persuasion` | cmo:Technique |
 
-…and 58 more.
+…and 59 more.
 
 ## Orphan articles (gap)
 
