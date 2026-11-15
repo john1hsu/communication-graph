@@ -8760,6 +8760,38 @@
 <https://github.com/john1hsu/communication-graph/id/mixed-messages> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/nonverbal-and-voice/mixed-messages.md" .
 <https://github.com/john1hsu/communication-graph/id/mixed-messages> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/mixed-messages> <https://github.com/john1hsu/communication-graph/ontology#undermines> <https://github.com/john1hsu/communication-graph/id/credibility> .
+<https://github.com/john1hsu/communication-graph/id/monochronic-and-polychronic-time> <http://purl.org/dc/terms/created> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/monochronic-and-polychronic-time> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Phenomenon> .
+<https://github.com/john1hsu/communication-graph/id/monochronic-and-polychronic-time> <http://www.w3.org/2000/01/rdf-schema#label> "Monochronic and polychronic time" .
+<https://github.com/john1hsu/communication-graph/id/monochronic-and-polychronic-time> <http://www.w3.org/2004/02/skos/core#altLabel> "M-time and P-time" .
+<https://github.com/john1hsu/communication-graph/id/monochronic-and-polychronic-time> <http://www.w3.org/2004/02/skos/core#altLabel> "monochronic time" .
+<https://github.com/john1hsu/communication-graph/id/monochronic-and-polychronic-time> <http://www.w3.org/2004/02/skos/core#altLabel> "monochronicity" .
+<https://github.com/john1hsu/communication-graph/id/monochronic-and-polychronic-time> <http://www.w3.org/2004/02/skos/core#altLabel> "polychronic time" .
+<https://github.com/john1hsu/communication-graph/id/monochronic-and-polychronic-time> <http://www.w3.org/2004/02/skos/core#altLabel> "polychronicity" .
+<https://github.com/john1hsu/communication-graph/id/monochronic-and-polychronic-time> <http://www.w3.org/2004/02/skos/core#altLabel> "time orientation" .
+<https://github.com/john1hsu/communication-graph/id/monochronic-and-polychronic-time> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/intercultural-communication> .
+<https://github.com/john1hsu/communication-graph/id/monochronic-and-polychronic-time> <http://www.w3.org/2004/02/skos/core#definition> "Edward T. Hall's contrast between treating time as linear blocks for one task at a time, with firm schedules (monochronic), and handling several activities at once, with flexible schedules and people put ahead of the clock (polychronic); useful for spotting clashes over punctuality, agendas and interruptions, though its national labels are weakly supported." .
+<https://github.com/john1hsu/communication-graph/id/monochronic-and-polychronic-time> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/cross-cultural-communication> .
+<https://github.com/john1hsu/communication-graph/id/monochronic-and-polychronic-time> <http://www.w3.org/2004/02/skos/core#prefLabel> "Monochronic and polychronic time" .
+<https://github.com/john1hsu/communication-graph/id/monochronic-and-polychronic-time> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> .
+<https://github.com/john1hsu/communication-graph/id/monochronic-and-polychronic-time> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/hofstede-cultural-dimensions> .
+<https://github.com/john1hsu/communication-graph/id/monochronic-and-polychronic-time> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/meeting-agendas> .
+<https://github.com/john1hsu/communication-graph/id/monochronic-and-polychronic-time> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/multicultural-team> .
+<https://github.com/john1hsu/communication-graph/id/monochronic-and-polychronic-time> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/proxemics> .
+<https://github.com/john1hsu/communication-graph/id/monochronic-and-polychronic-time> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations> .
+<https://github.com/john1hsu/communication-graph/id/monochronic-and-polychronic-time> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/monochronic-and-polychronic-time/s1> .
+<https://github.com/john1hsu/communication-graph/id/monochronic-and-polychronic-time> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/monochronic-and-polychronic-time/s2> .
+<https://github.com/john1hsu/communication-graph/id/monochronic-and-polychronic-time> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/monochronic-and-polychronic-time/s3> .
+<https://github.com/john1hsu/communication-graph/id/monochronic-and-polychronic-time> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/monochronic-and-polychronic-time/s4> .
+<https://github.com/john1hsu/communication-graph/id/monochronic-and-polychronic-time> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/konig-waller-2010> .
+<https://github.com/john1hsu/communication-graph/id/monochronic-and-polychronic-time> <https://github.com/john1hsu/communication-graph/ontology#confusedWith> <https://github.com/john1hsu/communication-graph/id/multitasking> .
+<https://github.com/john1hsu/communication-graph/id/monochronic-and-polychronic-time> <https://github.com/john1hsu/communication-graph/ontology#domain> "cross-cultural-communication" .
+<https://github.com/john1hsu/communication-graph/id/monochronic-and-polychronic-time> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "contested" .
+<https://github.com/john1hsu/communication-graph/id/monochronic-and-polychronic-time> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/cross-cultural-communication/monochronic-and-polychronic-time.md" .
+<https://github.com/john1hsu/communication-graph/id/monochronic-and-polychronic-time> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/edward-t-hall> .
+<https://github.com/john1hsu/communication-graph/id/monochronic-and-polychronic-time> <https://github.com/john1hsu/communication-graph/ontology#introducedIn> <https://github.com/john1hsu/communication-graph/id/the-silent-language> .
+<https://github.com/john1hsu/communication-graph/id/monochronic-and-polychronic-time> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/monochronic-and-polychronic-time> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/kirchberg-roe-van-eerde-2015> .
 <https://github.com/john1hsu/communication-graph/id/monroes-motivated-sequence> <http://purl.org/dc/terms/created> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/monroes-motivated-sequence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Framework> .
 <https://github.com/john1hsu/communication-graph/id/monroes-motivated-sequence> <http://www.w3.org/2000/01/rdf-schema#label> "Monroe's motivated sequence" .
@@ -19361,6 +19393,30 @@
 <https://github.com/john1hsu/communication-graph/id/source/mixed-messages/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/mixed-messages/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "textbook" .
 <https://github.com/john1hsu/communication-graph/id/source/mixed-messages/s6> <https://schema.org/url> <https://ecampusontario.pressbooks.pub/conflictmanagement/chapter/6-4-title/> .
+<https://github.com/john1hsu/communication-graph/id/source/monochronic-and-polychronic-time/s1> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/monochronic-and-polychronic-time/s1> <http://purl.org/dc/terms/publisher> "International Business open textbook, curated by Emily McWorthy, Kirkwood Community College Pressbooks (CC BY-NC-SA)" .
+<https://github.com/john1hsu/communication-graph/id/source/monochronic-and-polychronic-time/s1> <http://purl.org/dc/terms/title> "Cultural Dimensions – Hall, Verbal and Nonverbal" .
+<https://github.com/john1hsu/communication-graph/id/source/monochronic-and-polychronic-time/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/monochronic-and-polychronic-time/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/communication-graph/id/source/monochronic-and-polychronic-time/s1> <https://schema.org/url> <https://kirkwood.pressbooks.pub/emcworthy/chapter/cultural-dimensions/> .
+<https://github.com/john1hsu/communication-graph/id/source/monochronic-and-polychronic-time/s2> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/monochronic-and-polychronic-time/s2> <http://purl.org/dc/terms/publisher> "Kaufman-Scarborough & Lindquist, Journal of Managerial Psychology 14(3/4), 1999, pp. 288-312 (copy hosted by interruptions.net)" .
+<https://github.com/john1hsu/communication-graph/id/source/monochronic-and-polychronic-time/s2> <http://purl.org/dc/terms/title> "Time management and polychronicity: Comparisons, contrasts, and insights for the workplace" .
+<https://github.com/john1hsu/communication-graph/id/source/monochronic-and-polychronic-time/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/monochronic-and-polychronic-time/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/monochronic-and-polychronic-time/s2> <https://schema.org/url> <https://www.interruptions.net/literature/Kaufman-Scarborough-JMP99.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/monochronic-and-polychronic-time/s3> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/monochronic-and-polychronic-time/s3> <http://purl.org/dc/terms/publisher> "König & Waller, Human Performance 23, 2010, pp. 173-190 (author manuscript, Saarland University)" .
+<https://github.com/john1hsu/communication-graph/id/source/monochronic-and-polychronic-time/s3> <http://purl.org/dc/terms/title> "Time for reflection: A critical examination of polychronicity" .
+<https://github.com/john1hsu/communication-graph/id/source/monochronic-and-polychronic-time/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/monochronic-and-polychronic-time/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/monochronic-and-polychronic-time/s3> <https://schema.org/url> <https://www.uni-saarland.de/fileadmin/upload/lehrstuhl/koenig/PDFs-Publikationen/Koenig_Waller10.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/monochronic-and-polychronic-time/s4> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/monochronic-and-polychronic-time/s4> <http://purl.org/dc/terms/publisher> "Kirchberg, Roe & Van Eerde, Human Performance 28, 2015, pp. 112-136 (copy hosted by interruptions.net)" .
+<https://github.com/john1hsu/communication-graph/id/source/monochronic-and-polychronic-time/s4> <http://purl.org/dc/terms/title> "Polychronicity and multitasking: A diary study at work" .
+<https://github.com/john1hsu/communication-graph/id/source/monochronic-and-polychronic-time/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/monochronic-and-polychronic-time/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/monochronic-and-polychronic-time/s4> <https://schema.org/url> <https://www.interruptions.net/literature/Kirchberg-HumPerform15.pdf> .
 <https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s1> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s1> <http://purl.org/dc/terms/publisher> "Grand Valley State University, Speech Lab" .
 <https://github.com/john1hsu/communication-graph/id/source/monroes-motivated-sequence/s1> <http://purl.org/dc/terms/title> "Monroe's Motivated Sequence" .

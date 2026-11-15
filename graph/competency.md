@@ -125,6 +125,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:media-richness-theory` | contested | `cm:paradox-of-richness` |
 | `cm:mehrabian-myth` | contested | `cm:lapakko-2007` |
 | `cm:mehrabian-myth` | contested | `cm:zuckerman-et-al-1982` |
+| `cm:monochronic-and-polychronic-time` | contested | `cm:konig-waller-2010` |
 | `cm:monroes-motivated-sequence` | contested | `cm:micciche-pryor-butler-2000` |
 | `cm:readability-formulas` | contested | `cm:duffy-kabance-1982` |
 | `cm:readability-formulas` | contested | `cm:redish-selzer-1985` |
@@ -133,9 +134,8 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:reading-lies-from-body-language` | contested | `cm:hartwig-bond-2011` |
 | `cm:wise-feedback` | contested | `cm:troy-moua-van-boekel-2024` |
 | `cm:power-posing` | failed-replication | `cm:crede-2019` |
-| `cm:power-posing` | failed-replication | `cm:ranehill-et-al-2015` |
 
-…and 186 more.
+…and 187 more.
 
 ## Concepts with no recorded origin (gap)
 

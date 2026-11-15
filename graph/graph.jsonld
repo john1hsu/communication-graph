@@ -15214,6 +15214,84 @@
    ]
   },
   {
+   "@id": "cm:monochronic-and-polychronic-time",
+   "@type": "cmo:Phenomenon",
+   "cmo:challengedBy": {
+    "@id": "cm:konig-waller-2010"
+   },
+   "cmo:confusedWith": {
+    "@id": "cm:multitasking"
+   },
+   "cmo:domain": "cross-cultural-communication",
+   "cmo:evidenceStatus": "contested",
+   "cmo:file": "articles/cross-cultural-communication/monochronic-and-polychronic-time.md",
+   "cmo:introducedBy": {
+    "@id": "cm:edward-t-hall"
+   },
+   "cmo:introducedIn": {
+    "@id": "cm:the-silent-language"
+   },
+   "cmo:level": "introductory",
+   "cmo:supportedBy": {
+    "@id": "cm:kirchberg-roe-van-eerde-2015"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/monochronic-and-polychronic-time/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/monochronic-and-polychronic-time/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/monochronic-and-polychronic-time/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/monochronic-and-polychronic-time/s4"
+    }
+   ],
+   "rdfs:label": "Monochronic and polychronic time",
+   "skos:altLabel": [
+    "M-time and P-time",
+    "monochronic time",
+    "monochronicity",
+    "polychronic time",
+    "polychronicity",
+    "time orientation"
+   ],
+   "skos:broader": {
+    "@id": "cm:intercultural-communication"
+   },
+   "skos:definition": "Edward T. Hall's contrast between treating time as linear blocks for one task at a time, with firm schedules (monochronic), and handling several activities at once, with flexible schedules and people put ahead of the clock (polychronic); useful for spotting clashes over punctuality, agendas and interruptions, though its national labels are weakly supported.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/cross-cultural-communication"
+   },
+   "skos:prefLabel": "Monochronic and polychronic time",
+   "skos:related": [
+    {
+     "@id": "cm:high-and-low-context-cultures"
+    },
+    {
+     "@id": "cm:hofstede-cultural-dimensions"
+    },
+    {
+     "@id": "cm:meeting-agendas"
+    },
+    {
+     "@id": "cm:multicultural-team"
+    },
+    {
+     "@id": "cm:proxemics"
+    },
+    {
+     "@id": "cm:setting-reply-time-expectations"
+    }
+   ]
+  },
+  {
    "@id": "cm:monroes-motivated-sequence",
    "@type": "cmo:Framework",
    "cmo:appliedIn": {
@@ -51724,6 +51802,62 @@
    "dcterms:title": "Conflict Management, section 6.4: Examining our Perceptions in Conflict",
    "schema:url": {
     "@id": "https://ecampusontario.pressbooks.pub/conflictmanagement/chapter/6-4-title/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/monochronic-and-polychronic-time/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "International Business open textbook, curated by Emily McWorthy, Kirkwood Community College Pressbooks (CC BY-NC-SA)",
+   "dcterms:title": "Cultural Dimensions – Hall, Verbal and Nonverbal",
+   "schema:url": {
+    "@id": "https://kirkwood.pressbooks.pub/emcworthy/chapter/cultural-dimensions/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/monochronic-and-polychronic-time/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Kaufman-Scarborough & Lindquist, Journal of Managerial Psychology 14(3/4), 1999, pp. 288-312 (copy hosted by interruptions.net)",
+   "dcterms:title": "Time management and polychronicity: Comparisons, contrasts, and insights for the workplace",
+   "schema:url": {
+    "@id": "https://www.interruptions.net/literature/Kaufman-Scarborough-JMP99.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/monochronic-and-polychronic-time/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "König & Waller, Human Performance 23, 2010, pp. 173-190 (author manuscript, Saarland University)",
+   "dcterms:title": "Time for reflection: A critical examination of polychronicity",
+   "schema:url": {
+    "@id": "https://www.uni-saarland.de/fileadmin/upload/lehrstuhl/koenig/PDFs-Publikationen/Koenig_Waller10.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/monochronic-and-polychronic-time/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Kirchberg, Roe & Van Eerde, Human Performance 28, 2015, pp. 112-136 (copy hosted by interruptions.net)",
+   "dcterms:title": "Polychronicity and multitasking: A diary study at work",
+   "schema:url": {
+    "@id": "https://www.interruptions.net/literature/Kirchberg-HumPerform15.pdf"
    }
   },
   {

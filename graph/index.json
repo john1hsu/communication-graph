@@ -17301,6 +17301,94 @@
   ]
  },
  {
+  "id": "cm:monochronic-and-polychronic-time",
+  "title": "Monochronic and polychronic time",
+  "aliases": [
+   "M-time and P-time",
+   "monochronic time",
+   "polychronic time",
+   "polychronicity",
+   "monochronicity",
+   "time orientation"
+  ],
+  "type": "Phenomenon",
+  "domain": "cross-cultural-communication",
+  "level": "introductory",
+  "evidenceStatus": "contested",
+  "file": "articles/cross-cultural-communication/monochronic-and-polychronic-time.md",
+  "created": "2026-11-15",
+  "summary": "Edward T. Hall's contrast between treating time as linear blocks for one task at a time, with firm schedules (monochronic), and handling several activities at once, with flexible schedules and people put ahead of the clock (polychronic); useful for spotting clashes over punctuality, agendas and interruptions, though its national labels are weakly supported.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:intercultural-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:high-and-low-context-cultures"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:hofstede-cultural-dimensions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:multicultural-team"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:meeting-agendas"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:setting-reply-time-expectations"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:proxemics"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:edward-t-hall",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedIn",
+    "object": "cm:the-silent-language",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:konig-waller-2010",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:kirchberg-roe-van-eerde-2015",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:confusedWith",
+    "object": "cm:multitasking",
+    "source": "s3",
+    "confidence": "high"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://kirkwood.pressbooks.pub/emcworthy/chapter/cultural-dimensions/",
+   "https://www.interruptions.net/literature/Kaufman-Scarborough-JMP99.pdf",
+   "https://www.uni-saarland.de/fileadmin/upload/lehrstuhl/koenig/PDFs-Publikationen/Koenig_Waller10.pdf",
+   "https://www.interruptions.net/literature/Kirchberg-HumPerform15.pdf"
+  ]
+ },
+ {
   "id": "cm:monroes-motivated-sequence",
   "title": "Monroe's motivated sequence",
   "aliases": [
