@@ -13843,6 +13843,102 @@
    ]
   },
   {
+   "@id": "cm:listening-circle",
+   "@type": "cmo:Technique",
+   "cmo:addresses": [
+    {
+     "@id": "cm:interrupting"
+    },
+    {
+     "@id": "cm:unequal-participation"
+    }
+   ],
+   "cmo:appliedIn": {
+    "@id": "cm:workplace-meetings"
+   },
+   "cmo:demonstratedBy": {
+    "@id": "cm:itzchakov-kluger-2017-listening-circles"
+   },
+   "cmo:develops": [
+    {
+     "@id": "cm:active-listening"
+    },
+    {
+     "@id": "cm:listening"
+    }
+   ],
+   "cmo:domain": "listening",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/listening-circle/example"
+   },
+   "cmo:file": "articles/listening/listening-circle.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/listening-circle/howto"
+   },
+   "cmo:influencedBy": {
+    "@id": "cm:carl-rogers"
+   },
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/listening-circle/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/listening-circle/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/listening-circle/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/listening-circle/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/listening-circle/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/listening-circle/s6"
+    }
+   ],
+   "rdfs:label": "Listening circle",
+   "skos:altLabel": [
+    "council circle",
+    "talking-piece circle",
+    "talking-stick circle"
+   ],
+   "skos:broader": [
+    {
+     "@id": "cm:active-listening"
+    },
+    {
+     "@id": "cm:facilitation"
+    }
+   ],
+   "skos:definition": "A structured group practice in which people sit in a circle and speak one at a time while holding a talking object, and everyone else listens without interrupting, commenting or preparing a reply - used at work both to practise high-quality listening and to give every member an equal hearing on a shared topic.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/listening"
+   },
+   "skos:prefLabel": "Listening circle",
+   "skos:related": [
+    {
+     "@id": "cm:1-2-4-all"
+    },
+    {
+     "@id": "cm:listening"
+    },
+    {
+     "@id": "cm:nominal-group-technique"
+    },
+    {
+     "@id": "cm:psychological-safety"
+    }
+   ]
+  },
+  {
    "@id": "cm:listening-styles",
    "@type": "cmo:Framework",
    "cmo:appliedIn": [
@@ -34281,6 +34377,107 @@
    "schema:text": "Once they confirm the feeling, move to the substance - their facts, priorities and what happens next."
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/listening-circle/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:listening-circle"
+   },
+   "rdfs:label": "While someone else held the object, was I following what they meant or composing what I would say next?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/listening-circle/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:listening-circle"
+   },
+   "rdfs:label": "Did every person get a turn, including the quietest and the most junior?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/listening-circle/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:listening-circle"
+   },
+   "rdfs:label": "Did I keep my own turn short enough that others had time for theirs?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/listening-circle/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:listening-circle"
+   },
+   "rdfs:label": "Did I resist the urge to reply to or correct someone the moment the object moved on?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/listening-circle/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "Lead: \"One round, two minutes each, phone face down. Hold the marker to speak; everyone else just listens - no replies until the round ends. Prompt: what did you see go wrong from where you sat?\" The marker goes round; a junior tester describes test environments that broke every Friday.",
+   "cmo:before": "Lead: \"OK, what went wrong? Anyone?\" A senior engineer blames the vendor; a second disagrees and they debate for twenty minutes while four people say nothing.",
+   "cmo:situation": "A team lead runs a retrospective after a missed launch date; in past retros two senior engineers did most of the talking and others stayed quiet.",
+   "cmo:why": "Turn-taking with a talking object stops the loudest voices from dominating and stops rebuttals mid-turn, so people who would have stayed silent are heard and the team learns something new."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/listening-circle/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Listening circle",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/listening-circle/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/listening-circle/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/listening-circle/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/listening-circle/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/listening-circle/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/listening-circle/howto/6"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/listening-circle/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Pick one open, specific prompt (for example, what has made this quarter hard for you?) and agree the length - a set number of rounds or minutes - before you start."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/listening-circle/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Seat everyone in a circle, or on video post a fixed speaking order, and choose a talking object that passes easily from hand to hand."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/listening-circle/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "State the ground rules - only the holder speaks, everyone else listens without comment, anyone may pass, and what is said stays in the room - and ask for agreement."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/listening-circle/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Pass the object round in order; while others speak, put devices away and attend to their meaning instead of planning your own turn."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/listening-circle/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Speak briefly and from your own experience when the object reaches you, so others get their turn."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/listening-circle/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "Close with a short check-out round in which each person names one thing they heard that they had not known, then agree any follow-up outside the circle."
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/listening/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -51311,6 +51508,90 @@
    "dcterms:title": "How to Use Labels to Neutralize Negative Emotions in a Negotiation",
    "schema:url": {
     "@id": "https://www.blackswanltd.com/the-edge/how-to-use-labels-to-neutralize-negative-emotions-in-a-negotiation"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/listening-circle/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Itzchakov & Kluger, European Journal of Work and Organizational Psychology 26(5), 663-676 (2017), doi:10.1080/1359432X.2017.1351429 (University of Haifa research portal record)",
+   "dcterms:title": "Can holding a stick improve listening at work? The effect of Listening Circles on employees' emotions and cognitions",
+   "schema:url": {
+    "@id": "https://cris.haifa.ac.il/en/publications/can-holding-a-stick-improve-listening-at-work-the-effect-of-liste/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/listening-circle/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Yip & Fisher, Academy of Management Annals (2022), doi:10.5465/annals.2020.0367 (UCL Discovery author copy)",
+   "dcterms:title": "Listening in organizations: A synthesis and future agenda",
+   "schema:url": {
+    "@id": "https://discovery.ucl.ac.uk/id/eprint/10145261/3/Fisher_Yip&Fisher_2022_Listening_in_Organizations_AMA.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/listening-circle/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Itzchakov, Weinstein & Cheshin, Human Resource Management 62(4), 565-580 (2023), doi:10.1002/hrm.22103 (Israeli universities research portal record)",
+   "dcterms:title": "Learning to listen: Downstream effects of listening training on employees' relatedness, burnout, and turnover intentions",
+   "schema:url": {
+    "@id": "https://cris.iucc.ac.il/en/publications/learning-to-listen-downstream-effects-of-listening-training-on-em/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/listening-circle/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "The Center for Contemplative Mind in Society (practice guide, drawing on the Center for Council Training)",
+   "dcterms:title": "Council Circle",
+   "schema:url": {
+    "@id": "https://contemplativemind.org/practices/council-circle"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/listening-circle/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Department of Medicine News, University of Washington (26 November 2025)",
+   "dcterms:title": "Listening circles",
+   "schema:url": {
+    "@id": "https://mednews.uw.edu/news/listening-circles"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/listening-circle/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Coller School of Management, Tel Aviv University - Israel Organizational Behavior Conference (2018)",
+   "dcterms:title": "Symposium: Listening (IOBC 2018 conference abstracts)",
+   "schema:url": {
+    "@id": "https://en-coller.tau.ac.il/sites/coller-english.tau.ac.il/files/media_server/Recanati/management/IOBC/2018/symp5-listening.pdf"
    }
   },
   {

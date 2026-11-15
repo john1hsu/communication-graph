@@ -8028,6 +8028,83 @@
 <https://github.com/john1hsu/communication-graph/id/labeling-emotions> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/labeling-emotions/howto> .
 <https://github.com/john1hsu/communication-graph/id/labeling-emotions> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/communication-graph/id/labeling-emotions> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/shamay-tsoory-levy-gigi-2021> .
+<https://github.com/john1hsu/communication-graph/id/listening-circle/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/listening-circle/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "While someone else held the object, was I following what they meant or composing what I would say next?" .
+<https://github.com/john1hsu/communication-graph/id/listening-circle/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/listening-circle> .
+<https://github.com/john1hsu/communication-graph/id/listening-circle/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/listening-circle/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Did every person get a turn, including the quietest and the most junior?" .
+<https://github.com/john1hsu/communication-graph/id/listening-circle/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/listening-circle> .
+<https://github.com/john1hsu/communication-graph/id/listening-circle/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/listening-circle/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Did I keep my own turn short enough that others had time for theirs?" .
+<https://github.com/john1hsu/communication-graph/id/listening-circle/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/listening-circle> .
+<https://github.com/john1hsu/communication-graph/id/listening-circle/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/listening-circle/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Did I resist the urge to reply to or correct someone the moment the object moved on?" .
+<https://github.com/john1hsu/communication-graph/id/listening-circle/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/listening-circle> .
+<https://github.com/john1hsu/communication-graph/id/listening-circle/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+<https://github.com/john1hsu/communication-graph/id/listening-circle/example> <https://github.com/john1hsu/communication-graph/ontology#after> "Lead: \"One round, two minutes each, phone face down. Hold the marker to speak; everyone else just listens - no replies until the round ends. Prompt: what did you see go wrong from where you sat?\" The marker goes round; a junior tester describes test environments that broke every Friday." .
+<https://github.com/john1hsu/communication-graph/id/listening-circle/example> <https://github.com/john1hsu/communication-graph/ontology#before> "Lead: \"OK, what went wrong? Anyone?\" A senior engineer blames the vendor; a second disagrees and they debate for twenty minutes while four people say nothing." .
+<https://github.com/john1hsu/communication-graph/id/listening-circle/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "A team lead runs a retrospective after a missed launch date; in past retros two senior engineers did most of the talking and others stayed quiet." .
+<https://github.com/john1hsu/communication-graph/id/listening-circle/example> <https://github.com/john1hsu/communication-graph/ontology#why> "Turn-taking with a talking object stops the loudest voices from dominating and stops rebuttals mid-turn, so people who would have stayed silent are heard and the team learns something new." .
+<https://github.com/john1hsu/communication-graph/id/listening-circle/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/listening-circle/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/listening-circle/howto/1> <https://schema.org/text> "Pick one open, specific prompt (for example, what has made this quarter hard for you?) and agree the length - a set number of rounds or minutes - before you start." .
+<https://github.com/john1hsu/communication-graph/id/listening-circle/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/listening-circle/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/listening-circle/howto/2> <https://schema.org/text> "Seat everyone in a circle, or on video post a fixed speaking order, and choose a talking object that passes easily from hand to hand." .
+<https://github.com/john1hsu/communication-graph/id/listening-circle/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/listening-circle/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/listening-circle/howto/3> <https://schema.org/text> "State the ground rules - only the holder speaks, everyone else listens without comment, anyone may pass, and what is said stays in the room - and ask for agreement." .
+<https://github.com/john1hsu/communication-graph/id/listening-circle/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/listening-circle/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/listening-circle/howto/4> <https://schema.org/text> "Pass the object round in order; while others speak, put devices away and attend to their meaning instead of planning your own turn." .
+<https://github.com/john1hsu/communication-graph/id/listening-circle/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/listening-circle/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/listening-circle/howto/5> <https://schema.org/text> "Speak briefly and from your own experience when the object reaches you, so others get their turn." .
+<https://github.com/john1hsu/communication-graph/id/listening-circle/howto/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/listening-circle/howto/6> <https://schema.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/listening-circle/howto/6> <https://schema.org/text> "Close with a short check-out round in which each person names one thing they heard that they had not known, then agree any follow-up outside the circle." .
+<https://github.com/john1hsu/communication-graph/id/listening-circle/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+<https://github.com/john1hsu/communication-graph/id/listening-circle/howto> <https://schema.org/name> "Listening circle" .
+<https://github.com/john1hsu/communication-graph/id/listening-circle/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/listening-circle/howto/1> .
+<https://github.com/john1hsu/communication-graph/id/listening-circle/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/listening-circle/howto/2> .
+<https://github.com/john1hsu/communication-graph/id/listening-circle/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/listening-circle/howto/3> .
+<https://github.com/john1hsu/communication-graph/id/listening-circle/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/listening-circle/howto/4> .
+<https://github.com/john1hsu/communication-graph/id/listening-circle/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/listening-circle/howto/5> .
+<https://github.com/john1hsu/communication-graph/id/listening-circle/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/listening-circle/howto/6> .
+<https://github.com/john1hsu/communication-graph/id/listening-circle> <http://purl.org/dc/terms/created> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/listening-circle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Technique> .
+<https://github.com/john1hsu/communication-graph/id/listening-circle> <http://www.w3.org/2000/01/rdf-schema#label> "Listening circle" .
+<https://github.com/john1hsu/communication-graph/id/listening-circle> <http://www.w3.org/2004/02/skos/core#altLabel> "council circle" .
+<https://github.com/john1hsu/communication-graph/id/listening-circle> <http://www.w3.org/2004/02/skos/core#altLabel> "talking-piece circle" .
+<https://github.com/john1hsu/communication-graph/id/listening-circle> <http://www.w3.org/2004/02/skos/core#altLabel> "talking-stick circle" .
+<https://github.com/john1hsu/communication-graph/id/listening-circle> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+<https://github.com/john1hsu/communication-graph/id/listening-circle> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/facilitation> .
+<https://github.com/john1hsu/communication-graph/id/listening-circle> <http://www.w3.org/2004/02/skos/core#definition> "A structured group practice in which people sit in a circle and speak one at a time while holding a talking object, and everyone else listens without interrupting, commenting or preparing a reply - used at work both to practise high-quality listening and to give every member an equal hearing on a shared topic." .
+<https://github.com/john1hsu/communication-graph/id/listening-circle> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/listening> .
+<https://github.com/john1hsu/communication-graph/id/listening-circle> <http://www.w3.org/2004/02/skos/core#prefLabel> "Listening circle" .
+<https://github.com/john1hsu/communication-graph/id/listening-circle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/1-2-4-all> .
+<https://github.com/john1hsu/communication-graph/id/listening-circle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/listening> .
+<https://github.com/john1hsu/communication-graph/id/listening-circle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> .
+<https://github.com/john1hsu/communication-graph/id/listening-circle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
+<https://github.com/john1hsu/communication-graph/id/listening-circle> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/listening-circle/s1> .
+<https://github.com/john1hsu/communication-graph/id/listening-circle> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/listening-circle/s2> .
+<https://github.com/john1hsu/communication-graph/id/listening-circle> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/listening-circle/s3> .
+<https://github.com/john1hsu/communication-graph/id/listening-circle> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/listening-circle/s4> .
+<https://github.com/john1hsu/communication-graph/id/listening-circle> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/listening-circle/s5> .
+<https://github.com/john1hsu/communication-graph/id/listening-circle> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/listening-circle/s6> .
+<https://github.com/john1hsu/communication-graph/id/listening-circle> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/interrupting> .
+<https://github.com/john1hsu/communication-graph/id/listening-circle> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/unequal-participation> .
+<https://github.com/john1hsu/communication-graph/id/listening-circle> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/workplace-meetings> .
+<https://github.com/john1hsu/communication-graph/id/listening-circle> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/itzchakov-kluger-2017-listening-circles> .
+<https://github.com/john1hsu/communication-graph/id/listening-circle> <https://github.com/john1hsu/communication-graph/ontology#develops> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+<https://github.com/john1hsu/communication-graph/id/listening-circle> <https://github.com/john1hsu/communication-graph/ontology#develops> <https://github.com/john1hsu/communication-graph/id/listening> .
+<https://github.com/john1hsu/communication-graph/id/listening-circle> <https://github.com/john1hsu/communication-graph/ontology#domain> "listening" .
+<https://github.com/john1hsu/communication-graph/id/listening-circle> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/listening-circle> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/listening-circle/example> .
+<https://github.com/john1hsu/communication-graph/id/listening-circle> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/listening/listening-circle.md" .
+<https://github.com/john1hsu/communication-graph/id/listening-circle> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/listening-circle/howto> .
+<https://github.com/john1hsu/communication-graph/id/listening-circle> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/carl-rogers> .
+<https://github.com/john1hsu/communication-graph/id/listening-circle> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/listening-styles> <http://purl.org/dc/terms/created> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/listening-styles> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Framework> .
 <https://github.com/john1hsu/communication-graph/id/listening-styles> <http://www.w3.org/2000/01/rdf-schema#label> "Listening styles" .
@@ -19146,6 +19223,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/labeling-emotions/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/labeling-emotions/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "community" .
 <https://github.com/john1hsu/communication-graph/id/source/labeling-emotions/s6> <https://schema.org/url> <https://www.blackswanltd.com/the-edge/how-to-use-labels-to-neutralize-negative-emotions-in-a-negotiation> .
+<https://github.com/john1hsu/communication-graph/id/source/listening-circle/s1> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/listening-circle/s1> <http://purl.org/dc/terms/publisher> "Itzchakov & Kluger, European Journal of Work and Organizational Psychology 26(5), 663-676 (2017), doi:10.1080/1359432X.2017.1351429 (University of Haifa research portal record)" .
+<https://github.com/john1hsu/communication-graph/id/source/listening-circle/s1> <http://purl.org/dc/terms/title> "Can holding a stick improve listening at work? The effect of Listening Circles on employees' emotions and cognitions" .
+<https://github.com/john1hsu/communication-graph/id/source/listening-circle/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/listening-circle/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/listening-circle/s1> <https://schema.org/url> <https://cris.haifa.ac.il/en/publications/can-holding-a-stick-improve-listening-at-work-the-effect-of-liste/> .
+<https://github.com/john1hsu/communication-graph/id/source/listening-circle/s2> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/listening-circle/s2> <http://purl.org/dc/terms/publisher> "Yip & Fisher, Academy of Management Annals (2022), doi:10.5465/annals.2020.0367 (UCL Discovery author copy)" .
+<https://github.com/john1hsu/communication-graph/id/source/listening-circle/s2> <http://purl.org/dc/terms/title> "Listening in organizations: A synthesis and future agenda" .
+<https://github.com/john1hsu/communication-graph/id/source/listening-circle/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/listening-circle/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/listening-circle/s2> <https://schema.org/url> <https://discovery.ucl.ac.uk/id/eprint/10145261/3/Fisher_Yip&Fisher_2022_Listening_in_Organizations_AMA.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/listening-circle/s3> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/listening-circle/s3> <http://purl.org/dc/terms/publisher> "Itzchakov, Weinstein & Cheshin, Human Resource Management 62(4), 565-580 (2023), doi:10.1002/hrm.22103 (Israeli universities research portal record)" .
+<https://github.com/john1hsu/communication-graph/id/source/listening-circle/s3> <http://purl.org/dc/terms/title> "Learning to listen: Downstream effects of listening training on employees' relatedness, burnout, and turnover intentions" .
+<https://github.com/john1hsu/communication-graph/id/source/listening-circle/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/listening-circle/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/listening-circle/s3> <https://schema.org/url> <https://cris.iucc.ac.il/en/publications/learning-to-listen-downstream-effects-of-listening-training-on-em/> .
+<https://github.com/john1hsu/communication-graph/id/source/listening-circle/s4> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/listening-circle/s4> <http://purl.org/dc/terms/publisher> "The Center for Contemplative Mind in Society (practice guide, drawing on the Center for Council Training)" .
+<https://github.com/john1hsu/communication-graph/id/source/listening-circle/s4> <http://purl.org/dc/terms/title> "Council Circle" .
+<https://github.com/john1hsu/communication-graph/id/source/listening-circle/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/listening-circle/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/communication-graph/id/source/listening-circle/s4> <https://schema.org/url> <https://contemplativemind.org/practices/council-circle> .
+<https://github.com/john1hsu/communication-graph/id/source/listening-circle/s5> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/listening-circle/s5> <http://purl.org/dc/terms/publisher> "Department of Medicine News, University of Washington (26 November 2025)" .
+<https://github.com/john1hsu/communication-graph/id/source/listening-circle/s5> <http://purl.org/dc/terms/title> "Listening circles" .
+<https://github.com/john1hsu/communication-graph/id/source/listening-circle/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/listening-circle/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/listening-circle/s5> <https://schema.org/url> <https://mednews.uw.edu/news/listening-circles> .
+<https://github.com/john1hsu/communication-graph/id/source/listening-circle/s6> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/listening-circle/s6> <http://purl.org/dc/terms/publisher> "Coller School of Management, Tel Aviv University - Israel Organizational Behavior Conference (2018)" .
+<https://github.com/john1hsu/communication-graph/id/source/listening-circle/s6> <http://purl.org/dc/terms/title> "Symposium: Listening (IOBC 2018 conference abstracts)" .
+<https://github.com/john1hsu/communication-graph/id/source/listening-circle/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/listening-circle/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/listening-circle/s6> <https://schema.org/url> <https://en-coller.tau.ac.il/sites/coller-english.tau.ac.il/files/media_server/Recanati/management/IOBC/2018/symp5-listening.pdf> .
 <https://github.com/john1hsu/communication-graph/id/source/listening-styles/s1> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/listening-styles/s1> <http://purl.org/dc/terms/publisher> "Bodie, G. D., Worthington, D. L., & Gearhart, C. C. (2013), Communication Quarterly 61(1), 72-90, doi:10.1080/01463373.2012.720343 (authors' copy)" .
 <https://github.com/john1hsu/communication-graph/id/source/listening-styles/s1> <http://purl.org/dc/terms/title> "The Listening Styles Profile-Revised (LSP-R): A Scale Revision and Evidence for Validity" .

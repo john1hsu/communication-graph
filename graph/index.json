@@ -15789,6 +15789,118 @@
   ]
  },
  {
+  "id": "cm:listening-circle",
+  "title": "Listening circle",
+  "aliases": [
+   "council circle",
+   "talking-stick circle",
+   "talking-piece circle"
+  ],
+  "type": "Technique",
+  "domain": "listening",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/listening/listening-circle.md",
+  "created": "2026-11-15",
+  "summary": "A structured group practice in which people sit in a circle and speak one at a time while holding a talking object, and everyone else listens without interrupting, commenting or preparing a reply - used at work both to practise high-quality listening and to give every member an equal hearing on a shared topic.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:active-listening"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "cm:facilitation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:1-2-4-all"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:nominal-group-technique"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:psychological-safety"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:listening"
+   },
+   {
+    "predicate": "cmo:develops",
+    "object": "cm:listening",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:develops",
+    "object": "cm:active-listening",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:interrupting",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:unequal-participation",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:workplace-meetings",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:itzchakov-kluger-2017-listening-circles",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:influencedBy",
+    "object": "cm:carl-rogers",
+    "source": "s6",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "While someone else held the object, was I following what they meant or composing what I would say next?",
+   "Did every person get a turn, including the quietest and the most junior?",
+   "Did I keep my own turn short enough that others had time for theirs?",
+   "Did I resist the urge to reply to or correct someone the moment the object moved on?"
+  ],
+  "steps": [
+   "Pick one open, specific prompt (for example, what has made this quarter hard for you?) and agree the length - a set number of rounds or minutes - before you start.",
+   "Seat everyone in a circle, or on video post a fixed speaking order, and choose a talking object that passes easily from hand to hand.",
+   "State the ground rules - only the holder speaks, everyone else listens without comment, anyone may pass, and what is said stays in the room - and ask for agreement.",
+   "Pass the object round in order; while others speak, put devices away and attend to their meaning instead of planning your own turn.",
+   "Speak briefly and from your own experience when the object reaches you, so others get their turn.",
+   "Close with a short check-out round in which each person names one thing they heard that they had not known, then agree any follow-up outside the circle."
+  ],
+  "example": {
+   "situation": "A team lead runs a retrospective after a missed launch date; in past retros two senior engineers did most of the talking and others stayed quiet.",
+   "before": "Lead: \"OK, what went wrong? Anyone?\" A senior engineer blames the vendor; a second disagrees and they debate for twenty minutes while four people say nothing.",
+   "after": "Lead: \"One round, two minutes each, phone face down. Hold the marker to speak; everyone else just listens - no replies until the round ends. Prompt: what did you see go wrong from where you sat?\" The marker goes round; a junior tester describes test environments that broke every Friday.",
+   "why": "Turn-taking with a talking object stops the loudest voices from dominating and stops rebuttals mid-turn, so people who would have stayed silent are heard and the team learns something new."
+  },
+  "source_urls": [
+   "https://cris.haifa.ac.il/en/publications/can-holding-a-stick-improve-listening-at-work-the-effect-of-liste/",
+   "https://discovery.ucl.ac.uk/id/eprint/10145261/3/Fisher_Yip&Fisher_2022_Listening_in_Organizations_AMA.pdf",
+   "https://cris.iucc.ac.il/en/publications/learning-to-listen-downstream-effects-of-listening-training-on-em/",
+   "https://contemplativemind.org/practices/council-circle",
+   "https://mednews.uw.edu/news/listening-circles",
+   "https://en-coller.tau.ac.il/sites/coller-english.tau.ac.il/files/media_server/Recanati/management/IOBC/2018/symp5-listening.pdf"
+  ]
+ },
+ {
   "id": "cm:listening-styles",
   "title": "Listening styles",
   "aliases": [

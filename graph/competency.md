@@ -12,9 +12,7 @@ _No results._
 
 _Which written skills or dispositions have no technique, framework or principle that develops them?_ — `queries/02-skills-without-practice.rq`
 
-| skill | type |
-|---|---|
-| `cm:listening` | cmo:Skill |
+_No results._
 
 ## Situations, channels and formats with no guidance (gap)
 
@@ -28,6 +26,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 
 | technique | reach | targets |
 |---|---|---|
+| `cm:listening-circle` | 4 | Active listening, Interrupting, Listening, Unequal participation |
 | `cm:1-2-4-all` | 3 | Facilitation, Production blocking, Unequal participation |
 | `cm:concise-writing` | 3 | Information overload, subtraction-neglect, wordiness |
 | `cm:desc-script` | 3 | Accusatory you-statements, Assertive communication, Defensiveness |
@@ -57,9 +56,8 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:silence-and-pauses` | 2 | Filled pauses, Mythical fixed-pie bias |
 | `cm:slide-design` | 2 | Death by PowerPoint, Information overload |
 | `cm:support-response` | 2 | Active listening, Conversational narcissism |
-| `cm:systematic-desensitization` | 2 | Communication apprehension, Public speaking anxiety |
 
-…and 62 more.
+…and 63 more.
 
 ## Toolkit by situation
 
@@ -98,7 +96,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:difficult-conversation` | `cm:face-and-facework` |
 | `cm:difficult-conversation` | `cm:i-statements` |
 
-…and 151 more.
+…and 152 more.
 
 ## Myths and contested advice
 
@@ -137,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:wise-feedback` | contested | `cm:troy-moua-van-boekel-2024` |
 | `cm:power-posing` | failed-replication | `cm:crede-2019` |
 
-…and 193 more.
+…and 194 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -165,6 +163,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:job-interview` | cmo:Context |
 | `cm:labeling-emotions` | cmo:Technique |
 | `cm:listening` | cmo:Skill |
+| `cm:listening-circle` | cmo:Technique |
 | `cm:listening-styles` | cmo:Framework |
 | `cm:meeting-agendas` | cmo:Technique |
 | `cm:meeting-recaps` | cmo:Technique |
@@ -174,9 +173,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:mirroring` | cmo:Technique |
 | `cm:mixed-messages` | cmo:Barrier |
 | `cm:multicultural-team` | cmo:Context |
-| `cm:mum-effect` | cmo:Barrier |
 
-…and 59 more.
+…and 60 more.
 
 ## Orphan articles (gap)
 

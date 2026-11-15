@@ -1459,6 +1459,29 @@ Ask yourself:
 - Did I ask at least one question that helped them think, rather than one that steered them to my view?
 - If I asked them, would they say they felt listened to - not just that I was quiet?
 
+### [Listening circle](../articles/listening/listening-circle.md) — Technique
+
+1. Pick one open, specific prompt (for example, what has made this quarter hard for you?) and agree the length - a set number of rounds or minutes - before you start.
+2. Seat everyone in a circle, or on video post a fixed speaking order, and choose a talking object that passes easily from hand to hand.
+3. State the ground rules - only the holder speaks, everyone else listens without comment, anyone may pass, and what is said stays in the room - and ask for agreement.
+4. Pass the object round in order; while others speak, put devices away and attend to their meaning instead of planning your own turn.
+5. Speak briefly and from your own experience when the object reaches you, so others get their turn.
+6. Close with a short check-out round in which each person names one thing they heard that they had not known, then agree any follow-up outside the circle.
+
+*A team lead runs a retrospective after a missed launch date; in past retros two senior engineers did most of the talking and others stayed quiet.*
+
+| Before | After |
+|---|---|
+| Lead: "OK, what went wrong? Anyone?" A senior engineer blames the vendor; a second disagrees and they debate for twenty minutes while four people say nothing. | Lead: "One round, two minutes each, phone face down. Hold the marker to speak; everyone else just listens - no replies until the round ends. Prompt: what did you see go wrong from where you sat?" The marker goes round; a junior tester describes test environments that broke every Friday. |
+
+**Why:** Turn-taking with a talking object stops the loudest voices from dominating and stops rebuttals mid-turn, so people who would have stayed silent are heard and the team learns something new.
+
+Ask yourself:
+- While someone else held the object, was I following what they meant or composing what I would say next?
+- Did every person get a turn, including the quietest and the most junior?
+- Did I keep my own turn short enough that others had time for theirs?
+- Did I resist the urge to reply to or correct someone the moment the object moved on?
+
 ### [Mirroring](../articles/listening/mirroring.md) — Technique
 
 1. Let the other person finish their point before you respond, and notice the one to three words that carry the most weight or the most ambiguity.
