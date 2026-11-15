@@ -96,7 +96,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:difficult-conversation` | `cm:paraphrasing` |
 | `cm:difficult-conversation` | `cm:perception-checking` |
 
-…and 144 more.
+…and 145 more.
 
 ## Myths and contested advice
 
@@ -135,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:acoustic-speech-analysis-coaching` | mixed |  |
 | `cm:active-listening` | mixed |  |
 
-…and 179 more.
+…and 180 more.
 
 ## Concepts with no recorded origin (gap)
 

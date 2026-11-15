@@ -17790,6 +17790,88 @@
    ]
   },
   {
+   "@id": "cm:post-settlement-settlement",
+   "@type": "cmo:Technique",
+   "cmo:appliedIn": {
+    "@id": "cm:mediation"
+   },
+   "cmo:demonstratedBy": {
+    "@id": "cm:gettinger-filzmoser-koeszegi-2016"
+   },
+   "cmo:domain": "negotiation",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/post-settlement-settlement/example"
+   },
+   "cmo:file": "articles/negotiation/post-settlement-settlement.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/post-settlement-settlement/howto"
+   },
+   "cmo:introducedBy": {
+    "@id": "cm:howard-raiffa"
+   },
+   "cmo:introducedIn": {
+    "@id": "cm:the-art-and-science-of-negotiation"
+   },
+   "cmo:level": "intermediate",
+   "cmo:requires": {
+    "@id": "cm:interests-vs-positions"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/post-settlement-settlement/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/post-settlement-settlement/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/post-settlement-settlement/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/post-settlement-settlement/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/post-settlement-settlement/s5"
+    }
+   ],
+   "rdfs:label": "Post-settlement settlement",
+   "skos:altLabel": [
+    "PSS",
+    "improving a signed deal",
+    "post-settlement negotiation",
+    "postsettlement settlement"
+   ],
+   "skos:broader": {
+    "@id": "cm:integrative-negotiation"
+   },
+   "skos:definition": "Reopening talks after a deal is already agreed, on the explicit understanding that the existing agreement stands unless both sides find a revised package they each prefer.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/negotiation"
+   },
+   "skos:prefLabel": "Post-settlement settlement",
+   "skos:related": [
+    {
+     "@id": "cm:batna"
+    },
+    {
+     "@id": "cm:concession-strategy"
+    },
+    {
+     "@id": "cm:interests-vs-positions"
+    },
+    {
+     "@id": "cm:multiple-equivalent-simultaneous-offers"
+    },
+    {
+     "@id": "cm:mythical-fixed-pie"
+    }
+   ]
+  },
+  {
    "@id": "cm:power-distance",
    "@type": "cmo:Phenomenon",
    "cmo:causes": {
@@ -34173,6 +34255,115 @@
     "@id": "cm:plain-language"
    },
    "rdfs:label": "Could a reader say in their own words what I want them to do next?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/post-settlement-settlement/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:post-settlement-settlement"
+   },
+   "rdfs:label": "Have I made clear that the signed deal stands unless we both prefer a change?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/post-settlement-settlement/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:post-settlement-settlement"
+   },
+   "rdfs:label": "Am I looking for a trade that helps both sides, or quietly trying to win a concession I missed?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/post-settlement-settlement/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:post-settlement-settlement"
+   },
+   "rdfs:label": "Have I said what matters most to me and asked what matters most to them?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/post-settlement-settlement/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:post-settlement-settlement"
+   },
+   "rdfs:label": "Did the original deal leave obvious terms unexplored, or am I reopening for the sake of it?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/post-settlement-settlement/check/5",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:post-settlement-settlement"
+   },
+   "rdfs:label": "Would I be comfortable if the other side made this same proposal to me?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/post-settlement-settlement/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "We're happy with what we signed, and it stands either way. Before we file it, would you be open to a quick look at whether any terms could work better for both of us? For example, we'd value an earlier start more than the payment schedule - is there anything on your side that you'd trade for that?",
+   "cmo:before": "Great, we're signed. Actually, one more thing - can you knock another 5% off if we pay early?",
+   "cmo:situation": "A team lead has just agreed a 12-month software contract with a vendor's account manager at an agreed price with standard quarterly invoicing and a March start.",
+   "cmo:why": "The \"before\" reads as a last-minute squeeze for a one-sided concession; the \"after\" guarantees the vendor keeps the signed deal, shares a priority first and asks for theirs, which makes a trade that improves both sides possible."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/post-settlement-settlement/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Post-settlement settlement",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/post-settlement-settlement/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/post-settlement-settlement/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/post-settlement-settlement/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/post-settlement-settlement/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/post-settlement-settlement/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/post-settlement-settlement/howto/6"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/post-settlement-settlement/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Close and record the current deal first, so both sides know exactly what they keep if the follow-up talk goes nowhere."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/post-settlement-settlement/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Propose the follow-up in plain terms - the signed terms stand, and anything new replaces them only if both of you prefer it."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/post-settlement-settlement/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Name the terms that were settled quickly or by default (timing, payment schedule, scope, service levels, risk-sharing) and invite the other side to add their own."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/post-settlement-settlement/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Share which of those terms matter most to you and ask what matters most to them, now that neither side can lose the deal by being open."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/post-settlement-settlement/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Draft one or two revised packages that leave both parties at least as well off as the signed deal, and check each against both sides' stated priorities."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/post-settlement-settlement/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "Adopt a revision only with clear agreement from both sides; if either hesitates, keep the original deal and thank them for looking."
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/praise-and-recognition/check/1",
@@ -52470,6 +52661,76 @@
    "dcterms:title": "Re-examining Politeness, Face and the Japanese Language",
    "schema:url": {
     "@id": "https://core.ac.uk/download/19090393.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/post-settlement-settlement/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "PON Staff, Program on Negotiation at Harvard Law School, 2022 (first published 2013)",
+   "dcterms:title": "Business Negotiation Skills: How to Enhance Your Negotiated Agreement",
+   "schema:url": {
+    "@id": "https://www.pon.harvard.edu/daily/dealmaking-daily/enhancing-your-deal-in-business-negotiations/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/post-settlement-settlement/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "PON Staff, Program on Negotiation at Harvard Law School, 2010 (adapted from the Negotiation newsletter)",
+   "dcterms:title": "After the deal is inked",
+   "schema:url": {
+    "@id": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/after-the-deal-is-inked"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/post-settlement-settlement/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Gettinger, Filzmoser and Koeszegi, Journal of Business Economics 86(4), 413-440, 2016 (doi:10.1007/s11573-016-0809-5; RePEc record)",
+   "dcterms:title": "Why can't we settle again? Analysis of factors that influence agreement prospects in the post-settlement phase",
+   "schema:url": {
+    "@id": "https://ideas.repec.org/a/spr/jbecon/v86y2016i4d10.1007_s11573-016-0809-5.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/post-settlement-settlement/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Carrie Menkel-Meadow, Negotiation Journal 25(4), 415-429, 2009 (Georgetown Law author copy via CORE)",
+   "dcterms:title": "Chronicling the Complexification of Negotiation Theory and Practice",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/70373395.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/post-settlement-settlement/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Journal of Dispute Resolution, vol. 1996, iss. 1, University of Missouri School of Law Scholarship Repository",
+   "dcterms:title": "Post-Settlement Settlements: Agreeing to Make Resolutions Efficient",
+   "schema:url": {
+    "@id": "https://scholarship.law.missouri.edu/jdr/vol1996/iss1/6/"
    }
   },
   {

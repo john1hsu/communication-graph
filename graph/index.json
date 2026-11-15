@@ -20176,6 +20176,105 @@
   ]
  },
  {
+  "id": "cm:post-settlement-settlement",
+  "title": "Post-settlement settlement",
+  "aliases": [
+   "PSS",
+   "postsettlement settlement",
+   "post-settlement negotiation",
+   "improving a signed deal"
+  ],
+  "type": "Technique",
+  "domain": "negotiation",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/negotiation/post-settlement-settlement.md",
+  "created": "2026-11-15",
+  "summary": "Reopening talks after a deal is already agreed, on the explicit understanding that the existing agreement stands unless both sides find a revised package they each prefer.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:integrative-negotiation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:batna"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:interests-vs-positions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:multiple-equivalent-simultaneous-offers"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:mythical-fixed-pie"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:concession-strategy"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:interests-vs-positions"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:howard-raiffa",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedIn",
+    "object": "cm:the-art-and-science-of-negotiation",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:gettinger-filzmoser-koeszegi-2016",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:mediation",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Have I made clear that the signed deal stands unless we both prefer a change?",
+   "Am I looking for a trade that helps both sides, or quietly trying to win a concession I missed?",
+   "Have I said what matters most to me and asked what matters most to them?",
+   "Did the original deal leave obvious terms unexplored, or am I reopening for the sake of it?",
+   "Would I be comfortable if the other side made this same proposal to me?"
+  ],
+  "steps": [
+   "Close and record the current deal first, so both sides know exactly what they keep if the follow-up talk goes nowhere.",
+   "Propose the follow-up in plain terms - the signed terms stand, and anything new replaces them only if both of you prefer it.",
+   "Name the terms that were settled quickly or by default (timing, payment schedule, scope, service levels, risk-sharing) and invite the other side to add their own.",
+   "Share which of those terms matter most to you and ask what matters most to them, now that neither side can lose the deal by being open.",
+   "Draft one or two revised packages that leave both parties at least as well off as the signed deal, and check each against both sides' stated priorities.",
+   "Adopt a revision only with clear agreement from both sides; if either hesitates, keep the original deal and thank them for looking."
+  ],
+  "example": {
+   "situation": "A team lead has just agreed a 12-month software contract with a vendor's account manager at an agreed price with standard quarterly invoicing and a March start.",
+   "before": "Great, we're signed. Actually, one more thing - can you knock another 5% off if we pay early?",
+   "after": "We're happy with what we signed, and it stands either way. Before we file it, would you be open to a quick look at whether any terms could work better for both of us? For example, we'd value an earlier start more than the payment schedule - is there anything on your side that you'd trade for that?",
+   "why": "The \"before\" reads as a last-minute squeeze for a one-sided concession; the \"after\" guarantees the vendor keeps the signed deal, shares a priority first and asks for theirs, which makes a trade that improves both sides possible."
+  },
+  "source_urls": [
+   "https://www.pon.harvard.edu/daily/dealmaking-daily/enhancing-your-deal-in-business-negotiations/",
+   "https://www.pon.harvard.edu/daily/negotiation-skills-daily/after-the-deal-is-inked",
+   "https://ideas.repec.org/a/spr/jbecon/v86y2016i4d10.1007_s11573-016-0809-5.html",
+   "https://core.ac.uk/download/70373395.pdf",
+   "https://scholarship.law.missouri.edu/jdr/vol1996/iss1/6/"
+  ]
+ },
+ {
   "id": "cm:power-distance",
   "title": "Power distance",
   "aliases": [

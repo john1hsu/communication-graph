@@ -1960,6 +1960,30 @@ Ask yourself:
 - Is there an issue where we might want the same outcome that I have not checked out loud?
 - Am I discounting their proposal because of who made it rather than what it gives each of us?
 
+### [Post-settlement settlement](../articles/negotiation/post-settlement-settlement.md) — Technique
+
+1. Close and record the current deal first, so both sides know exactly what they keep if the follow-up talk goes nowhere.
+2. Propose the follow-up in plain terms - the signed terms stand, and anything new replaces them only if both of you prefer it.
+3. Name the terms that were settled quickly or by default (timing, payment schedule, scope, service levels, risk-sharing) and invite the other side to add their own.
+4. Share which of those terms matter most to you and ask what matters most to them, now that neither side can lose the deal by being open.
+5. Draft one or two revised packages that leave both parties at least as well off as the signed deal, and check each against both sides' stated priorities.
+6. Adopt a revision only with clear agreement from both sides; if either hesitates, keep the original deal and thank them for looking.
+
+*A team lead has just agreed a 12-month software contract with a vendor's account manager at an agreed price with standard quarterly invoicing and a March start.*
+
+| Before | After |
+|---|---|
+| Great, we're signed. Actually, one more thing - can you knock another 5% off if we pay early? | We're happy with what we signed, and it stands either way. Before we file it, would you be open to a quick look at whether any terms could work better for both of us? For example, we'd value an earlier start more than the payment schedule - is there anything on your side that you'd trade for that? |
+
+**Why:** The "before" reads as a last-minute squeeze for a one-sided concession; the "after" guarantees the vendor keeps the signed deal, shares a priority first and asks for theirs, which makes a trade that improves both sides possible.
+
+Ask yourself:
+- Have I made clear that the signed deal stands unless we both prefer a change?
+- Am I looking for a trade that helps both sides, or quietly trying to win a concession I missed?
+- Have I said what matters most to me and asked what matters most to them?
+- Did the original deal leave obvious terms unexplored, or am I reopening for the sake of it?
+- Would I be comfortable if the other side made this same proposal to me?
+
 ## nonverbal-and-voice
 
 ### [Acoustic speech-analysis coaching](../articles/nonverbal-and-voice/acoustic-speech-analysis-coaching.md) — Technique
