@@ -25801,6 +25801,133 @@
   ]
  },
  {
+  "id": "cm:spikes-protocol",
+  "title": "SPIKES protocol",
+  "aliases": [
+   "SPIKES",
+   "SPIKES model",
+   "S-P-I-K-E-S strategy",
+   "six-step protocol for breaking bad news"
+  ],
+  "type": "Technique",
+  "domain": "difficult-conversations-and-conflict",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/difficult-conversations-and-conflict/spikes-protocol.md",
+  "created": "2026-11-15",
+  "summary": "A six-step structure for breaking bad news - Setting, Perception, Invitation, Knowledge, Emotions and Strategy/summary - developed for oncologists and now adapted for workplace news such as layoffs, cancellations and rejected proposals.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:delivering-bad-news"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:social-accounts"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:feedback-sandwich"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:open-ended-questions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:perception-checking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:teach-back"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:difficult-conversation"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:active-listening"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:delivering-bad-news",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:layoff-conversation",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:walter-baile",
+    "source": "s6",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:rob-buckman",
+    "source": "s6",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:johnson-panagioti-2018",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:mirza-et-al-2019",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:checking-understanding",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:labeling-emotions",
+    "source": "s1",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Have I asked what they already know before telling them anything?",
+   "Can I state the news in one plain sentence without jargon or euphemism?",
+   "Am I ready to pause and acknowledge the reaction instead of rushing to reassure or justify?",
+   "Will the conversation end with a summary, a next step and a time to follow up?"
+  ],
+  "steps": [
+   "Setting: rehearse what you will say, book a private room with no interruptions, sit down, and say how much time you have.",
+   "Perception: before giving the news, ask an open question to learn what the person already knows or suspects, and note any misunderstanding.",
+   "Invitation: ask how much detail they want now, and offer to cover the rest later if they would rather wait.",
+   "Knowledge: give a brief warning, then state the news in plain words and small chunks, checking understanding after each one.",
+   "Emotions: notice the reaction, name it to yourself, identify what caused it, then make a short statement linking the feeling to its cause before moving on.",
+   "Strategy and summary: when they are ready, summarise, agree next steps and a follow-up time, and tell them how to reach you with questions."
+  ],
+  "example": {
+   "situation": "A team lead must tell an analyst that the product line she has worked on for two years is being shut down and her role will move to another team.",
+   "before": "Quick one before standup - leadership killed Atlas, so you'll be moving to the Data Platform team next month. HR will send details. Honestly it's not as bad as it sounds.",
+   "after": "Thanks for making time - I've booked 30 minutes so we won't be rushed. What have you been hearing about Atlas? ... I'm afraid I have difficult news: leadership has decided to close Atlas at the end of the quarter. Your role isn't being cut; it moves to Data Platform. [pause] I can see this is a real blow after two years building it. Would it help to go through what the move involves now, or would you rather we meet again on Thursday? Either way, here's what happens next and how to reach me.",
+   "why": "The private, unhurried setting and the opening question show what she already knows; the warning and plain statement avoid both bluntness and euphemism; the empathic statement comes before any reassurance; and the close leaves a concrete plan and a way back in."
+  },
+  "source_urls": [
+   "https://kamer.ku.edu.tr/wp-content/uploads/2022/03/2000-SPIKES-Giving-patients-bad-news.pdf",
+   "https://eprints.whiterose.ac.uk/131932/1/Interventions_to_Improve_the_Breaking_of_Bad_or.97887.pdf",
+   "https://experts.mcmaster.ca/scholarly-works/1619957",
+   "https://www.aafp.org/pubs/afp/issues/2018/0715/p99.html",
+   "https://dc.swosu.edu/aij/vol1/iss2/11",
+   "https://www.citedrive.com/en/discovery/spikesa-six-step-protocol-for-delivering-bad-news-application-to-the-patient-with-cancer/"
+  ]
+ },
+ {
   "id": "cm:spotlight-effect",
   "title": "Spotlight effect",
   "aliases": [

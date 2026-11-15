@@ -22684,6 +22684,112 @@
    ]
   },
   {
+   "@id": "cm:spikes-protocol",
+   "@type": "cmo:Technique",
+   "cmo:appliedIn": [
+    {
+     "@id": "cm:delivering-bad-news"
+    },
+    {
+     "@id": "cm:layoff-conversation"
+    }
+   ],
+   "cmo:complements": [
+    {
+     "@id": "cm:checking-understanding"
+    },
+    {
+     "@id": "cm:labeling-emotions"
+    }
+   ],
+   "cmo:demonstratedBy": {
+    "@id": "cm:johnson-panagioti-2018"
+   },
+   "cmo:domain": "difficult-conversations-and-conflict",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/spikes-protocol/example"
+   },
+   "cmo:file": "articles/difficult-conversations-and-conflict/spikes-protocol.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/spikes-protocol/howto"
+   },
+   "cmo:introducedBy": [
+    {
+     "@id": "cm:rob-buckman"
+    },
+    {
+     "@id": "cm:walter-baile"
+    }
+   ],
+   "cmo:level": "intermediate",
+   "cmo:requires": {
+    "@id": "cm:active-listening"
+   },
+   "cmo:supportedBy": {
+    "@id": "cm:mirza-et-al-2019"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/spikes-protocol/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/spikes-protocol/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/spikes-protocol/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/spikes-protocol/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/spikes-protocol/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/spikes-protocol/s6"
+    }
+   ],
+   "rdfs:label": "SPIKES protocol",
+   "skos:altLabel": [
+    "S-P-I-K-E-S strategy",
+    "SPIKES model",
+    "SPIKES",
+    "six-step protocol for breaking bad news"
+   ],
+   "skos:broader": {
+    "@id": "cm:delivering-bad-news"
+   },
+   "skos:definition": "A six-step structure for breaking bad news - Setting, Perception, Invitation, Knowledge, Emotions and Strategy/summary - developed for oncologists and now adapted for workplace news such as layoffs, cancellations and rejected proposals.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/difficult-conversations-and-conflict"
+   },
+   "skos:prefLabel": "SPIKES protocol",
+   "skos:related": [
+    {
+     "@id": "cm:difficult-conversation"
+    },
+    {
+     "@id": "cm:feedback-sandwich"
+    },
+    {
+     "@id": "cm:open-ended-questions"
+    },
+    {
+     "@id": "cm:perception-checking"
+    },
+    {
+     "@id": "cm:social-accounts"
+    },
+    {
+     "@id": "cm:teach-back"
+    }
+   ]
+  },
+  {
    "@id": "cm:spotlight-effect",
    "@type": "cmo:Barrier",
    "cmo:causes": {
@@ -56333,6 +56439,90 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/spikes-protocol/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Baile, W. F. et al., The Oncologist 5(4), 302-311, 2000 (copy hosted by Koc University)",
+   "dcterms:title": "SPIKES - A Six-Step Protocol for Delivering Bad News: Application to the Patient with Cancer",
+   "schema:url": {
+    "@id": "https://kamer.ku.edu.tr/wp-content/uploads/2022/03/2000-SPIKES-Giving-patients-bad-news.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/spikes-protocol/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Johnson, J. & Panagioti, M., Academic Medicine 93(9), 1400-1412, 2018 (White Rose Research Online accepted manuscript)",
+   "dcterms:title": "Interventions to Improve the Breaking of Bad or Difficult News by Physicians, Medical Students, and Interns/Residents: A Systematic Review and Meta-Analysis",
+   "schema:url": {
+    "@id": "https://eprints.whiterose.ac.uk/131932/1/Interventions_to_Improve_the_Breaking_of_Bad_or.97887.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/spikes-protocol/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Mirza, R. D., Ren, M., Agarwal, A. & Guyatt, G. H., AJOB Empirical Bioethics 10(1), 36-43, 2019, doi:10.1080/23294515.2018.1543218 (McMaster Experts record)",
+   "dcterms:title": "Assessing Patient Perspectives on Receiving Bad News: A Survey of 1337 Patients With Life-Changing Diagnoses",
+   "schema:url": {
+    "@id": "https://experts.mcmaster.ca/scholarly-works/1619957"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/spikes-protocol/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Berkey, F. J., Wiedemer, J. P. & Vithalani, N. D., American Family Physician 98(2), 99-104, 2018",
+   "dcterms:title": "Delivering Bad or Life-Altering News",
+   "schema:url": {
+    "@id": "https://www.aafp.org/pubs/afp/issues/2018/0715/p99.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/spikes-protocol/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "VonBergen, C. W., Stevens, R. E. & Loudon, D., Administrative Issues Journal 1(2), Article 11, 2011",
+   "dcterms:title": "Breaking Bad News in Healthcare Organizations: Application of the SPIKES Protocol",
+   "schema:url": {
+    "@id": "https://dc.swosu.edu/aij/vol1/iss2/11"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/spikes-protocol/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "CiteDrive record of Baile, Buckman, Lenzi, Glober, Beale & Kudelka, The Oncologist, doi:10.1634/theoncologist.5-4-302",
+   "dcterms:title": "SPIKES - A Six-Step Protocol for Delivering Bad News: Application to the Patient with Cancer (bibliographic record and abstract)",
+   "schema:url": {
+    "@id": "https://www.citedrive.com/en/discovery/spikesa-six-step-protocol-for-delivering-bad-news-application-to-the-patient-with-cancer/"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/source/spotlight-effect/s1",
    "@type": "cmo:Source",
    "cmo:sourceType": "peer-reviewed",
@@ -58611,6 +58801,107 @@
     "@id": "cm:speaking-anxiety"
    },
    "rdfs:label": "Afterwards, am I judging the talk by how I felt or by what the audience actually did with it?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/spikes-protocol/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:spikes-protocol"
+   },
+   "rdfs:label": "Have I asked what they already know before telling them anything?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/spikes-protocol/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:spikes-protocol"
+   },
+   "rdfs:label": "Can I state the news in one plain sentence without jargon or euphemism?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/spikes-protocol/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:spikes-protocol"
+   },
+   "rdfs:label": "Am I ready to pause and acknowledge the reaction instead of rushing to reassure or justify?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/spikes-protocol/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:spikes-protocol"
+   },
+   "rdfs:label": "Will the conversation end with a summary, a next step and a time to follow up?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/spikes-protocol/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "Thanks for making time - I've booked 30 minutes so we won't be rushed. What have you been hearing about Atlas? ... I'm afraid I have difficult news: leadership has decided to close Atlas at the end of the quarter. Your role isn't being cut; it moves to Data Platform. [pause] I can see this is a real blow after two years building it. Would it help to go through what the move involves now, or would you rather we meet again on Thursday? Either way, here's what happens next and how to reach me.",
+   "cmo:before": "Quick one before standup - leadership killed Atlas, so you'll be moving to the Data Platform team next month. HR will send details. Honestly it's not as bad as it sounds.",
+   "cmo:situation": "A team lead must tell an analyst that the product line she has worked on for two years is being shut down and her role will move to another team.",
+   "cmo:why": "The private, unhurried setting and the opening question show what she already knows; the warning and plain statement avoid both bluntness and euphemism; the empathic statement comes before any reassurance; and the close leaves a concrete plan and a way back in."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/spikes-protocol/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "SPIKES protocol",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/spikes-protocol/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/spikes-protocol/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/spikes-protocol/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/spikes-protocol/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/spikes-protocol/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/spikes-protocol/howto/6"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/spikes-protocol/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Setting: rehearse what you will say, book a private room with no interruptions, sit down, and say how much time you have."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/spikes-protocol/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Perception: before giving the news, ask an open question to learn what the person already knows or suspects, and note any misunderstanding."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/spikes-protocol/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Invitation: ask how much detail they want now, and offer to cover the rest later if they would rather wait."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/spikes-protocol/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Knowledge: give a brief warning, then state the news in plain words and small chunks, checking understanding after each one."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/spikes-protocol/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Emotions: notice the reaction, name it to yourself, identify what caused it, then make a short statement linking the feeling to its cause before moving on."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/spikes-protocol/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "Strategy and summary: when they are ready, summarise, agree next steps and a follow-up time, and tell them how to reach you with questions."
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/spotlight-effect/check/1",

@@ -431,6 +431,15 @@
 <https://github.com/john1hsu/communication-graph/id/social-accounts#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/social-accounts/s3> .
 <https://github.com/john1hsu/communication-graph/id/social-accounts#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/social-accounts/s4> .
 <https://github.com/john1hsu/communication-graph/id/social-accounts#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/social-accounts/s5> .
+<https://github.com/john1hsu/communication-graph/id/spikes-protocol#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/spikes-protocol#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/spikes-protocol> .
+<https://github.com/john1hsu/communication-graph/id/spikes-protocol#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/difficult-conversations-and-conflict/spikes-protocol.md" .
+<https://github.com/john1hsu/communication-graph/id/spikes-protocol#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/spikes-protocol/s1> .
+<https://github.com/john1hsu/communication-graph/id/spikes-protocol#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/spikes-protocol/s2> .
+<https://github.com/john1hsu/communication-graph/id/spikes-protocol#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/spikes-protocol/s3> .
+<https://github.com/john1hsu/communication-graph/id/spikes-protocol#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/spikes-protocol/s4> .
+<https://github.com/john1hsu/communication-graph/id/spikes-protocol#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/spikes-protocol/s5> .
+<https://github.com/john1hsu/communication-graph/id/spikes-protocol#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/spikes-protocol/s6> .
 <https://github.com/john1hsu/communication-graph/id/thomas-kilmann-conflict-modes#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/thomas-kilmann-conflict-modes#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/thomas-kilmann-conflict-modes> .
 <https://github.com/john1hsu/communication-graph/id/thomas-kilmann-conflict-modes#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/difficult-conversations-and-conflict/thomas-kilmann-conflict-modes.md" .
@@ -6899,6 +6908,126 @@
   <https://github.com/john1hsu/communication-graph/id/source/social-accounts/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
   <https://github.com/john1hsu/communication-graph/id/source/social-accounts/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
   <https://github.com/john1hsu/communication-graph/id/source/social-accounts/s5> <https://schema.org/url> <https://web.mit.edu/curhan/www/docs/Articles/15341_Readings/Justice/Brockner_Wiesenfeld_1996_An_integrative_framework.pdf> .
+}
+
+<https://github.com/john1hsu/communication-graph/id/spikes-protocol#graph> {
+  <https://github.com/john1hsu/communication-graph/id/source/spikes-protocol/s1> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/spikes-protocol/s1> <http://purl.org/dc/terms/publisher> "Baile, W. F. et al., The Oncologist 5(4), 302-311, 2000 (copy hosted by Koc University)" .
+  <https://github.com/john1hsu/communication-graph/id/source/spikes-protocol/s1> <http://purl.org/dc/terms/title> "SPIKES - A Six-Step Protocol for Delivering Bad News: Application to the Patient with Cancer" .
+  <https://github.com/john1hsu/communication-graph/id/source/spikes-protocol/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/spikes-protocol/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/communication-graph/id/source/spikes-protocol/s1> <https://schema.org/url> <https://kamer.ku.edu.tr/wp-content/uploads/2022/03/2000-SPIKES-Giving-patients-bad-news.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/spikes-protocol/s2> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/spikes-protocol/s2> <http://purl.org/dc/terms/publisher> "Johnson, J. & Panagioti, M., Academic Medicine 93(9), 1400-1412, 2018 (White Rose Research Online accepted manuscript)" .
+  <https://github.com/john1hsu/communication-graph/id/source/spikes-protocol/s2> <http://purl.org/dc/terms/title> "Interventions to Improve the Breaking of Bad or Difficult News by Physicians, Medical Students, and Interns/Residents: A Systematic Review and Meta-Analysis" .
+  <https://github.com/john1hsu/communication-graph/id/source/spikes-protocol/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/spikes-protocol/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/spikes-protocol/s2> <https://schema.org/url> <https://eprints.whiterose.ac.uk/131932/1/Interventions_to_Improve_the_Breaking_of_Bad_or.97887.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/spikes-protocol/s3> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/spikes-protocol/s3> <http://purl.org/dc/terms/publisher> "Mirza, R. D., Ren, M., Agarwal, A. & Guyatt, G. H., AJOB Empirical Bioethics 10(1), 36-43, 2019, doi:10.1080/23294515.2018.1543218 (McMaster Experts record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/spikes-protocol/s3> <http://purl.org/dc/terms/title> "Assessing Patient Perspectives on Receiving Bad News: A Survey of 1337 Patients With Life-Changing Diagnoses" .
+  <https://github.com/john1hsu/communication-graph/id/source/spikes-protocol/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/spikes-protocol/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/spikes-protocol/s3> <https://schema.org/url> <https://experts.mcmaster.ca/scholarly-works/1619957> .
+  <https://github.com/john1hsu/communication-graph/id/source/spikes-protocol/s4> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/spikes-protocol/s4> <http://purl.org/dc/terms/publisher> "Berkey, F. J., Wiedemer, J. P. & Vithalani, N. D., American Family Physician 98(2), 99-104, 2018" .
+  <https://github.com/john1hsu/communication-graph/id/source/spikes-protocol/s4> <http://purl.org/dc/terms/title> "Delivering Bad or Life-Altering News" .
+  <https://github.com/john1hsu/communication-graph/id/source/spikes-protocol/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/spikes-protocol/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/spikes-protocol/s4> <https://schema.org/url> <https://www.aafp.org/pubs/afp/issues/2018/0715/p99.html> .
+  <https://github.com/john1hsu/communication-graph/id/source/spikes-protocol/s5> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/spikes-protocol/s5> <http://purl.org/dc/terms/publisher> "VonBergen, C. W., Stevens, R. E. & Loudon, D., Administrative Issues Journal 1(2), Article 11, 2011" .
+  <https://github.com/john1hsu/communication-graph/id/source/spikes-protocol/s5> <http://purl.org/dc/terms/title> "Breaking Bad News in Healthcare Organizations: Application of the SPIKES Protocol" .
+  <https://github.com/john1hsu/communication-graph/id/source/spikes-protocol/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/spikes-protocol/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/communication-graph/id/source/spikes-protocol/s5> <https://schema.org/url> <https://dc.swosu.edu/aij/vol1/iss2/11> .
+  <https://github.com/john1hsu/communication-graph/id/source/spikes-protocol/s6> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/spikes-protocol/s6> <http://purl.org/dc/terms/publisher> "CiteDrive record of Baile, Buckman, Lenzi, Glober, Beale & Kudelka, The Oncologist, doi:10.1634/theoncologist.5-4-302" .
+  <https://github.com/john1hsu/communication-graph/id/source/spikes-protocol/s6> <http://purl.org/dc/terms/title> "SPIKES - A Six-Step Protocol for Delivering Bad News: Application to the Patient with Cancer (bibliographic record and abstract)" .
+  <https://github.com/john1hsu/communication-graph/id/source/spikes-protocol/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/spikes-protocol/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/communication-graph/id/source/spikes-protocol/s6> <https://schema.org/url> <https://www.citedrive.com/en/discovery/spikesa-six-step-protocol-for-delivering-bad-news-application-to-the-patient-with-cancer/> .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Have I asked what they already know before telling them anything?" .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/spikes-protocol> .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Can I state the news in one plain sentence without jargon or euphemism?" .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/spikes-protocol> .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Am I ready to pause and acknowledge the reaction instead of rushing to reassure or justify?" .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/spikes-protocol> .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Will the conversation end with a summary, a next step and a time to follow up?" .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/spikes-protocol> .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol/example> <https://github.com/john1hsu/communication-graph/ontology#after> "Thanks for making time - I've booked 30 minutes so we won't be rushed. What have you been hearing about Atlas? ... I'm afraid I have difficult news: leadership has decided to close Atlas at the end of the quarter. Your role isn't being cut; it moves to Data Platform. [pause] I can see this is a real blow after two years building it. Would it help to go through what the move involves now, or would you rather we meet again on Thursday? Either way, here's what happens next and how to reach me." .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol/example> <https://github.com/john1hsu/communication-graph/ontology#before> "Quick one before standup - leadership killed Atlas, so you'll be moving to the Data Platform team next month. HR will send details. Honestly it's not as bad as it sounds." .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "A team lead must tell an analyst that the product line she has worked on for two years is being shut down and her role will move to another team." .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol/example> <https://github.com/john1hsu/communication-graph/ontology#why> "The private, unhurried setting and the opening question show what she already knows; the warning and plain statement avoid both bluntness and euphemism; the empathic statement comes before any reassurance; and the close leaves a concrete plan and a way back in." .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol/howto/1> <https://schema.org/text> "Setting: rehearse what you will say, book a private room with no interruptions, sit down, and say how much time you have." .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol/howto/2> <https://schema.org/text> "Perception: before giving the news, ask an open question to learn what the person already knows or suspects, and note any misunderstanding." .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol/howto/3> <https://schema.org/text> "Invitation: ask how much detail they want now, and offer to cover the rest later if they would rather wait." .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol/howto/4> <https://schema.org/text> "Knowledge: give a brief warning, then state the news in plain words and small chunks, checking understanding after each one." .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol/howto/5> <https://schema.org/text> "Emotions: notice the reaction, name it to yourself, identify what caused it, then make a short statement linking the feeling to its cause before moving on." .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol/howto/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol/howto/6> <https://schema.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol/howto/6> <https://schema.org/text> "Strategy and summary: when they are ready, summarise, agree next steps and a follow-up time, and tell them how to reach you with questions." .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol/howto> <https://schema.org/name> "SPIKES protocol" .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/spikes-protocol/howto/1> .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/spikes-protocol/howto/2> .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/spikes-protocol/howto/3> .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/spikes-protocol/howto/4> .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/spikes-protocol/howto/5> .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/spikes-protocol/howto/6> .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol> <http://purl.org/dc/terms/created> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Technique> .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol> <http://www.w3.org/2000/01/rdf-schema#label> "SPIKES protocol" .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol> <http://www.w3.org/2004/02/skos/core#altLabel> "S-P-I-K-E-S strategy" .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol> <http://www.w3.org/2004/02/skos/core#altLabel> "SPIKES model" .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol> <http://www.w3.org/2004/02/skos/core#altLabel> "SPIKES" .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol> <http://www.w3.org/2004/02/skos/core#altLabel> "six-step protocol for breaking bad news" .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol> <http://www.w3.org/2004/02/skos/core#definition> "A six-step structure for breaking bad news - Setting, Perception, Invitation, Knowledge, Emotions and Strategy/summary - developed for oncologists and now adapted for workplace news such as layoffs, cancellations and rejected proposals." .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/difficult-conversations-and-conflict> .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol> <http://www.w3.org/2004/02/skos/core#prefLabel> "SPIKES protocol" .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/difficult-conversation> .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/feedback-sandwich> .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/open-ended-questions> .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/perception-checking> .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/social-accounts> .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/teach-back> .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/spikes-protocol/s1> .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/spikes-protocol/s2> .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/spikes-protocol/s3> .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/spikes-protocol/s4> .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/spikes-protocol/s5> .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/spikes-protocol/s6> .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/layoff-conversation> .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/checking-understanding> .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/labeling-emotions> .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/johnson-panagioti-2018> .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol> <https://github.com/john1hsu/communication-graph/ontology#domain> "difficult-conversations-and-conflict" .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/spikes-protocol/example> .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/difficult-conversations-and-conflict/spikes-protocol.md" .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/spikes-protocol/howto> .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/rob-buckman> .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/walter-baile> .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/mirza-et-al-2019> .
 }
 
 <https://github.com/john1hsu/communication-graph/id/thomas-kilmann-conflict-modes#graph> {
@@ -27549,6 +27678,7 @@
   <https://github.com/john1hsu/communication-graph/id/active-listening> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/premortem> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/role-reversal> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/service-recovery> .
+  <https://github.com/john1hsu/communication-graph/id/active-listening> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/spikes-protocol> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/trusted-advisor> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <https://github.com/john1hsu/communication-graph/ontology#underminedBy> <https://github.com/john1hsu/communication-graph/id/defensiveness> .
   <https://github.com/john1hsu/communication-graph/id/active-voice/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -28357,6 +28487,7 @@
   <https://github.com/john1hsu/communication-graph/id/checking-understanding> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening> .
   <https://github.com/john1hsu/communication-graph/id/checking-understanding> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/perception-checking> .
   <https://github.com/john1hsu/communication-graph/id/checking-understanding> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/phone-call> .
+  <https://github.com/john1hsu/communication-graph/id/checking-understanding> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/spikes-protocol> .
   <https://github.com/john1hsu/communication-graph/id/checking-understanding> <https://github.com/john1hsu/communication-graph/ontology#developedBy> <https://github.com/john1hsu/communication-graph/id/closed-loop-communication> .
   <https://github.com/john1hsu/communication-graph/id/checking-understanding> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/neil-rackham> .
   <https://github.com/john1hsu/communication-graph/id/chen-2002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -29243,6 +29374,8 @@
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/difficult-conversation> .
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-conflict> .
+  <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/spikes-protocol> .
+  <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/spikes-protocol> .
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/blowing-the-whistle-on-troubled-software-projects> .
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/burying-the-lede> .
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/client-communication> .
@@ -29264,6 +29397,7 @@
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/trust-repair> .
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/message-structure> .
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/social-accounts> .
+  <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/spikes-protocol> .
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/status-reporting> .
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/rob-buckman> .
   <https://github.com/john1hsu/communication-graph/id/delivery-confidence-assessment> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/status-reporting> .
@@ -29329,6 +29463,7 @@
   <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> .
   <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/service-recovery> .
   <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/social-accounts> .
+  <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/spikes-protocol> .
   <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/trust-repair> .
   <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/apology> .
   <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/avrim-fishkind> .
@@ -29343,6 +29478,7 @@
   <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/performance-review> .
   <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/rob-buckman> .
   <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/social-accounts> .
+  <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/spikes-protocol> .
   <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/thomas-kilmann-conflict-modes> .
   <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/active-listening> .
   <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> .
@@ -30044,6 +30180,7 @@
   <https://github.com/john1hsu/communication-graph/id/feedback-sandwich> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/performance-review> .
   <https://github.com/john1hsu/communication-graph/id/feedback-sandwich> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/praise-and-recognition> .
   <https://github.com/john1hsu/communication-graph/id/feedback-sandwich> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/radical-candor> .
+  <https://github.com/john1hsu/communication-graph/id/feedback-sandwich> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/spikes-protocol> .
   <https://github.com/john1hsu/communication-graph/id/feedback-sandwich> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/the-physician-as-teacher> .
   <https://github.com/john1hsu/communication-graph/id/feedback-sandwich> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/wise-feedback> .
   <https://github.com/john1hsu/communication-graph/id/feedback-sandwich> <https://github.com/john1hsu/communication-graph/ontology#alternativeTo> <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> .
@@ -31269,6 +31406,7 @@
   <https://github.com/john1hsu/communication-graph/id/interpersonal-conflict> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-conflict> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/service-recovery> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-conflict> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/social-accounts> .
+  <https://github.com/john1hsu/communication-graph/id/interpersonal-conflict> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/spikes-protocol> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-conflict> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/thomas-kilmann-conflict-modes> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-conflict> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/trust-repair> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-conflict> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/conflict-resolution> .
@@ -31403,6 +31541,7 @@
   <https://github.com/john1hsu/communication-graph/id/johnson-panagioti-2018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/johnson-panagioti-2018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/johnson-panagioti-2018> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> .
+  <https://github.com/john1hsu/communication-graph/id/johnson-panagioti-2018> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/spikes-protocol> .
   <https://github.com/john1hsu/communication-graph/id/jones-woods-guillaume-2016> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/coaching> .
   <https://github.com/john1hsu/communication-graph/id/joseph-s-valacich> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/joseph-s-valacich> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
@@ -31549,6 +31688,7 @@
   <https://github.com/john1hsu/communication-graph/id/labeling-emotions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/perception-checking> .
   <https://github.com/john1hsu/communication-graph/id/labeling-emotions> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/de-escalation> .
   <https://github.com/john1hsu/communication-graph/id/labeling-emotions> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/mirroring> .
+  <https://github.com/john1hsu/communication-graph/id/labeling-emotions> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/spikes-protocol> .
   <https://github.com/john1hsu/communication-graph/id/ladder-of-inference> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate> .
   <https://github.com/john1hsu/communication-graph/id/language-barriers> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/tsedal-neeley> .
   <https://github.com/john1hsu/communication-graph/id/language-barriers> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/communicating-across-languages> .
@@ -31560,6 +31700,7 @@
   <https://github.com/john1hsu/communication-graph/id/laura-giurge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/laura-giurge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/laura-giurge> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/email-urgency-bias-study> .
+  <https://github.com/john1hsu/communication-graph/id/layoff-conversation> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/spikes-protocol> .
   <https://github.com/john1hsu/communication-graph/id/leach-et-al-2009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/leach-et-al-2009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/leach-et-al-2009> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/meeting-agendas> .
@@ -31963,6 +32104,7 @@
   <https://github.com/john1hsu/communication-graph/id/mirroring> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> .
   <https://github.com/john1hsu/communication-graph/id/mirroring> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/emotional-contagion> .
   <https://github.com/john1hsu/communication-graph/id/mirroring> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/register-and-tone> .
+  <https://github.com/john1hsu/communication-graph/id/mirza-et-al-2019> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/spikes-protocol> .
   <https://github.com/john1hsu/communication-graph/id/mixed-messages/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/mixed-messages/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/mixed-messages/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -32377,6 +32519,7 @@
   <https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/receiving-feedback> .
   <https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/small-talk> .
   <https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/solution-focused-coaching> .
+  <https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/spikes-protocol> .
   <https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/summarizing> .
   <https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/support-response> .
   <https://github.com/john1hsu/communication-graph/id/open-ended-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/wait-time> .
@@ -32573,6 +32716,7 @@
   <https://github.com/john1hsu/communication-graph/id/perception-checking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> .
   <https://github.com/john1hsu/communication-graph/id/perception-checking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/information-gathering-interview> .
   <https://github.com/john1hsu/communication-graph/id/perception-checking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> .
+  <https://github.com/john1hsu/communication-graph/id/perception-checking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/spikes-protocol> .
   <https://github.com/john1hsu/communication-graph/id/performance-management> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/performance-review> .
   <https://github.com/john1hsu/communication-graph/id/performance-management> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/performance-review> .
   <https://github.com/john1hsu/communication-graph/id/performance-review> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
@@ -33850,6 +33994,7 @@
   <https://github.com/john1hsu/communication-graph/id/social-accounts> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/face-and-facework> .
   <https://github.com/john1hsu/communication-graph/id/social-accounts> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mea-culpa> .
   <https://github.com/john1hsu/communication-graph/id/social-accounts> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> .
+  <https://github.com/john1hsu/communication-graph/id/social-accounts> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/spikes-protocol> .
   <https://github.com/john1hsu/communication-graph/id/social-accounts> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/mea-culpa> .
   <https://github.com/john1hsu/communication-graph/id/social-anxiety> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/communication-apprehension> .
   <https://github.com/john1hsu/communication-graph/id/social-anxiety> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/communication-apprehension> .
@@ -34095,9 +34240,18 @@
   <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> <https://github.com/john1hsu/communication-graph/ontology#causedBy> <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> .
   <https://github.com/john1hsu/communication-graph/id/speech-act-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/pragmatics> .
   <https://github.com/john1hsu/communication-graph/id/speech-act-theory> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/pragmatics> .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/difficult-conversation> .
+  <https://github.com/john1hsu/communication-graph/id/spikes-protocol> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-conflict> .
   <https://github.com/john1hsu/communication-graph/id/spikes-protocol> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> .
   <https://github.com/john1hsu/communication-graph/id/spikes-protocol> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/rob-buckman> .
-  <https://github.com/john1hsu/communication-graph/id/spikes-protocol> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/rob-buckman> .
   <https://github.com/john1hsu/communication-graph/id/spin-selling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/spin-selling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
   <https://github.com/john1hsu/communication-graph/id/spin-selling> <https://github.com/john1hsu/communication-graph/ontology#authoredBy> <https://github.com/john1hsu/communication-graph/id/neil-rackham> .
@@ -34291,6 +34445,7 @@
   <https://github.com/john1hsu/communication-graph/id/teach-back> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communicating-across-languages> .
   <https://github.com/john1hsu/communication-graph/id/teach-back> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/norbert-wiener> .
   <https://github.com/john1hsu/communication-graph/id/teach-back> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/shannon-weaver-model> .
+  <https://github.com/john1hsu/communication-graph/id/teach-back> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/spikes-protocol> .
   <https://github.com/john1hsu/communication-graph/id/teach-back> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/summarizing> .
   <https://github.com/john1hsu/communication-graph/id/team-climate> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
   <https://github.com/john1hsu/communication-graph/id/team-climate> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
@@ -34700,6 +34855,9 @@
   <https://github.com/john1hsu/communication-graph/id/wall-of-text> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/slide-design> .
   <https://github.com/john1hsu/communication-graph/id/wall-of-text> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/bulleted-and-numbered-lists> .
   <https://github.com/john1hsu/communication-graph/id/wall-of-text> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/informative-headings> .
+  <https://github.com/john1hsu/communication-graph/id/walter-baile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/walter-baile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+  <https://github.com/john1hsu/communication-graph/id/walter-baile> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/spikes-protocol> .
   <https://github.com/john1hsu/communication-graph/id/wang-et-al-2011> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/cooling-off-period> .
   <https://github.com/john1hsu/communication-graph/id/wang-et-al-2011> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/de-ira> .
   <https://github.com/john1hsu/communication-graph/id/wang-et-al-2022> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/rule-of-three> .

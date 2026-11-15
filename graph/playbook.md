@@ -540,6 +540,29 @@ Ask yourself:
 - Did I explain how they will be treated from here, not only why it happened?
 - Is my explanation a short context for an apology, or has it become an excuse that replaces one?
 
+### [SPIKES protocol](../articles/difficult-conversations-and-conflict/spikes-protocol.md) — Technique
+
+1. Setting: rehearse what you will say, book a private room with no interruptions, sit down, and say how much time you have.
+2. Perception: before giving the news, ask an open question to learn what the person already knows or suspects, and note any misunderstanding.
+3. Invitation: ask how much detail they want now, and offer to cover the rest later if they would rather wait.
+4. Knowledge: give a brief warning, then state the news in plain words and small chunks, checking understanding after each one.
+5. Emotions: notice the reaction, name it to yourself, identify what caused it, then make a short statement linking the feeling to its cause before moving on.
+6. Strategy and summary: when they are ready, summarise, agree next steps and a follow-up time, and tell them how to reach you with questions.
+
+*A team lead must tell an analyst that the product line she has worked on for two years is being shut down and her role will move to another team.*
+
+| Before | After |
+|---|---|
+| Quick one before standup - leadership killed Atlas, so you'll be moving to the Data Platform team next month. HR will send details. Honestly it's not as bad as it sounds. | Thanks for making time - I've booked 30 minutes so we won't be rushed. What have you been hearing about Atlas? ... I'm afraid I have difficult news: leadership has decided to close Atlas at the end of the quarter. Your role isn't being cut; it moves to Data Platform. [pause] I can see this is a real blow after two years building it. Would it help to go through what the move involves now, or would you rather we meet again on Thursday? Either way, here's what happens next and how to reach me. |
+
+**Why:** The private, unhurried setting and the opening question show what she already knows; the warning and plain statement avoid both bluntness and euphemism; the empathic statement comes before any reassurance; and the close leaves a concrete plan and a way back in.
+
+Ask yourself:
+- Have I asked what they already know before telling them anything?
+- Can I state the news in one plain sentence without jargon or euphemism?
+- Am I ready to pause and acknowledge the reaction instead of rushing to reassure or justify?
+- Will the conversation end with a summary, a next step and a time to follow up?
+
 ### [Thomas-Kilmann Conflict Mode Instrument](../articles/difficult-conversations-and-conflict/thomas-kilmann-conflict-modes.md) — Framework
 
 *A product manager and an engineering lead disagree about whether to ship a feature on Friday with a known minor bug.*

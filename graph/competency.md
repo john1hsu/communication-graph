@@ -83,6 +83,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:cross-functional-collaboration` | `cm:persuasion` |
 | `cm:delivering-bad-news` | `cm:message-structure` |
 | `cm:delivering-bad-news` | `cm:social-accounts` |
+| `cm:delivering-bad-news` | `cm:spikes-protocol` |
 | `cm:difficult-conversation` | `cm:active-listening` |
 | `cm:difficult-conversation` | `cm:cognitive-reappraisal` |
 | `cm:difficult-conversation` | `cm:conversational-receptiveness` |
@@ -94,9 +95,8 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:difficult-conversation` | `cm:mindfulness` |
 | `cm:difficult-conversation` | `cm:paraphrasing` |
 | `cm:difficult-conversation` | `cm:perception-checking` |
-| `cm:difficult-conversation` | `cm:role-reversal` |
 
-…and 142 more.
+…and 144 more.
 
 ## Myths and contested advice
 
@@ -135,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:acoustic-speech-analysis-coaching` | mixed |  |
 | `cm:active-listening` | mixed |  |
 
-…and 177 more.
+…and 178 more.
 
 ## Concepts with no recorded origin (gap)
 

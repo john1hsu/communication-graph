@@ -18,6 +18,7 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 3.23 | `cm:culture-assimilator` | `cm:intercultural-communication` | `cm:cultural-intelligence`, `cm:describe-analyze-evaluate`, `cm:ethnocentrism`, `cm:intercultural-competence`, `cm:li-2021-cross-cultural-training-meta-analysis` |
 | 3.16 | `cm:egocentric-bias` | `cm:email` | `cm:checking-understanding`, `cm:curse-of-knowledge`, `cm:digital-communication`, `cm:email-urgency-bias-study`, `cm:emoji-and-tone-in-text` |
 | 3.10 | `cm:channel-selection` | `cm:egocentric-bias` | `cm:common-ground`, `cm:curse-of-knowledge`, `cm:digital-communication`, `cm:egocentrism-over-email-study`, `cm:emoji-and-tone-in-text` |
+| 3.09 | `cm:active-listening` | `cm:checking-understanding` | `cm:common-ground`, `cm:note-taking-while-listening`, `cm:open-ended-questions`, `cm:paraphrasing`, `cm:perception-checking` |
 | 3.00 | `cm:one-on-one-meetings` | `cm:situation-behavior-impact` | `cm:active-listening`, `cm:feedback`, `cm:feedforward`, `cm:grow-model`, `cm:hattie-timperley-feedback-model` |
 | 3.00 | `cm:irving-janis` | `cm:premortem` | `cm:devils-advocacy`, `cm:facilitation`, `cm:group-decision-making`, `cm:groupthink`, `cm:psychological-safety` |
 | 2.96 | `cm:pyramid-principle` | `cm:wall-of-text` | `cm:bottom-line-up-front`, `cm:burying-the-lede`, `cm:business-report`, `cm:executive-summary`, `cm:informative-headings` |
@@ -28,4 +29,3 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 2.81 | `cm:executive-briefing` | `cm:plain-language` | `cm:audience-analysis`, `cm:bottom-line-up-front`, `cm:business-report`, `cm:executive-summary`, `cm:information-overload` |
 | 2.80 | `cm:common-ground` | `cm:email` | `cm:asynchronous-communication`, `cm:audience-analysis`, `cm:channel-selection`, `cm:checking-understanding`, `cm:closed-loop-communication` |
 | 2.79 | `cm:presentation` | `cm:pyramid-principle` | `cm:assertion-evidence-slides`, `cm:audience-analysis`, `cm:executive-briefing`, `cm:message-structure`, `cm:monroes-motivated-sequence` |
-| 2.79 | `cm:active-listening` | `cm:job-interview` | `cm:alison-wood-brooks`, `cm:follow-up-questions`, `cm:information-gathering-interview`, `cm:note-taking-while-listening`, `cm:open-ended-questions` |
