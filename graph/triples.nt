@@ -759,6 +759,39 @@
 <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> .
 <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#introducedIn> <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> .
 <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/audience-design> <http://purl.org/dc/terms/created> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/audience-design> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Theory> .
+<https://github.com/john1hsu/communication-graph/id/audience-design> <http://www.w3.org/2000/01/rdf-schema#label> "Audience design" .
+<https://github.com/john1hsu/communication-graph/id/audience-design> <http://www.w3.org/2004/02/skos/core#altLabel> "audience design model" .
+<https://github.com/john1hsu/communication-graph/id/audience-design> <http://www.w3.org/2004/02/skos/core#altLabel> "audience design theory" .
+<https://github.com/john1hsu/communication-graph/id/audience-design> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/pragmatics> .
+<https://github.com/john1hsu/communication-graph/id/audience-design> <http://www.w3.org/2004/02/skos/core#definition> "The theory, from psycholinguistics and sociolinguistics, that speakers shape their wording, detail and speech style for the particular people they address, and to a lesser degree for others who can hear them, rather than producing one fixed message for everyone." .
+<https://github.com/john1hsu/communication-graph/id/audience-design> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/foundations> .
+<https://github.com/john1hsu/communication-graph/id/audience-design> <http://www.w3.org/2004/02/skos/core#prefLabel> "Audience design" .
+<https://github.com/john1hsu/communication-graph/id/audience-design> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
+<https://github.com/john1hsu/communication-graph/id/audience-design> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/common-ground> .
+<https://github.com/john1hsu/communication-graph/id/audience-design> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communicating-across-languages> .
+<https://github.com/john1hsu/communication-graph/id/audience-design> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communication-accommodation-theory> .
+<https://github.com/john1hsu/communication-graph/id/audience-design> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> .
+<https://github.com/john1hsu/communication-graph/id/audience-design> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> .
+<https://github.com/john1hsu/communication-graph/id/audience-design> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/perspective-taking> .
+<https://github.com/john1hsu/communication-graph/id/audience-design> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/register-and-tone> .
+<https://github.com/john1hsu/communication-graph/id/audience-design> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/audience-design/s1> .
+<https://github.com/john1hsu/communication-graph/id/audience-design> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/audience-design/s2> .
+<https://github.com/john1hsu/communication-graph/id/audience-design> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/audience-design/s3> .
+<https://github.com/john1hsu/communication-graph/id/audience-design> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/audience-design/s4> .
+<https://github.com/john1hsu/communication-graph/id/audience-design> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/egocentric-bias> .
+<https://github.com/john1hsu/communication-graph/id/audience-design> <https://github.com/john1hsu/communication-graph/ontology#domain> "foundations" .
+<https://github.com/john1hsu/communication-graph/id/audience-design> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/audience-design> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/common-ground> .
+<https://github.com/john1hsu/communication-graph/id/audience-design> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/foundations/audience-design.md" .
+<https://github.com/john1hsu/communication-graph/id/audience-design> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/allan-bell> .
+<https://github.com/john1hsu/communication-graph/id/audience-design> <https://github.com/john1hsu/communication-graph/ontology#introducedIn> <https://github.com/john1hsu/communication-graph/id/bell-1984> .
+<https://github.com/john1hsu/communication-graph/id/audience-design> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/communication-graph/id/audience-design> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/common-ground> .
+<https://github.com/john1hsu/communication-graph/id/audience-design> <https://github.com/john1hsu/communication-graph/ontology#studiedIn> <https://github.com/john1hsu/communication-graph/id/psycholinguistics> .
+<https://github.com/john1hsu/communication-graph/id/audience-design> <https://github.com/john1hsu/communication-graph/ontology#studiedIn> <https://github.com/john1hsu/communication-graph/id/sociolinguistics> .
+<https://github.com/john1hsu/communication-graph/id/audience-design> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/galati-brennan-2010> .
 <https://github.com/john1hsu/communication-graph/id/avrim-fishkind> <http://purl.org/dc/terms/created> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/avrim-fishkind> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
 <https://github.com/john1hsu/communication-graph/id/avrim-fishkind> <http://www.w3.org/2000/01/rdf-schema#label> "Avrim Fishkind" .
@@ -13685,6 +13718,30 @@
 <https://github.com/john1hsu/communication-graph/id/source/audience-analysis/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/audience-analysis/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "scholarly-encyclopedia" .
 <https://github.com/john1hsu/communication-graph/id/source/audience-analysis/s6> <https://schema.org/url> <https://plato.stanford.edu/archives/spr2026/entries/aristotle-rhetoric/> .
+<https://github.com/john1hsu/communication-graph/id/source/audience-design/s1> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/audience-design/s1> <http://purl.org/dc/terms/publisher> "Allan Bell, Language in Society (Cambridge University Press), 1984" .
+<https://github.com/john1hsu/communication-graph/id/source/audience-design/s1> <http://purl.org/dc/terms/title> "Language style as audience design" .
+<https://github.com/john1hsu/communication-graph/id/source/audience-design/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/audience-design/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/audience-design/s1> <https://schema.org/url> <https://www.cambridge.org/core/product/35677FBB8C9B7602DC20FDD354DB2ADD> .
+<https://github.com/john1hsu/communication-graph/id/source/audience-design/s2> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/audience-design/s2> <http://purl.org/dc/terms/publisher> "Alexia Galati & Susan E. Brennan, Journal of Memory and Language 62(1), 35-51 (2010), doi:10.1016/j.jml.2009.09.002 (Stony Brook University research portal)" .
+<https://github.com/john1hsu/communication-graph/id/source/audience-design/s2> <http://purl.org/dc/terms/title> "Attenuating information in spoken communication: For the speaker, or for the addressee?" .
+<https://github.com/john1hsu/communication-graph/id/source/audience-design/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/audience-design/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/audience-design/s2> <https://schema.org/url> <https://researchconnect.stonybrook.edu/en/publications/attenuating-information-in-spoken-communication-for-the-speaker-o/> .
+<https://github.com/john1hsu/communication-graph/id/source/audience-design/s3> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/audience-design/s3> <http://purl.org/dc/terms/publisher> "William S. Horton & Susan E. Brennan, Frontiers in Psychology 7, article 1111 (2016), doi:10.3389/fpsyg.2016.01111" .
+<https://github.com/john1hsu/communication-graph/id/source/audience-design/s3> <http://purl.org/dc/terms/title> "The Role of Metarepresentation in the Production and Resolution of Referring Expressions" .
+<https://github.com/john1hsu/communication-graph/id/source/audience-design/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/audience-design/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/audience-design/s3> <https://schema.org/url> <https://frontiersin.org/articles/10.3389/fpsyg.2016.01111/full> .
+<https://github.com/john1hsu/communication-graph/id/source/audience-design/s4> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/audience-design/s4> <http://purl.org/dc/terms/publisher> "Boaz Keysar, Intercultural Pragmatics 4(1), 71-84 (2007), doi:10.1515/IP.2007.004 (De Gruyter)" .
+<https://github.com/john1hsu/communication-graph/id/source/audience-design/s4> <http://purl.org/dc/terms/title> "Communication and miscommunication: The role of egocentric processes" .
+<https://github.com/john1hsu/communication-graph/id/source/audience-design/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/audience-design/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/audience-design/s4> <https://schema.org/url> <https://www.degruyterbrill.com/document/doi/10.1515/IP.2007.004/html> .
 <https://github.com/john1hsu/communication-graph/id/source/avrim-fishkind/s1> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/avrim-fishkind/s1> <http://purl.org/dc/terms/publisher> "Avrim Fishkind, Current Psychiatry 1(4), 33-39, April 2002 (publisher PDF, MDedge)" .
 <https://github.com/john1hsu/communication-graph/id/source/avrim-fishkind/s1> <http://purl.org/dc/terms/title> "Calming agitation with words, not drugs: 10 commandments for safety" .

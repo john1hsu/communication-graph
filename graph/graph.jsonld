@@ -1216,6 +1216,97 @@
    ]
   },
   {
+   "@id": "cm:audience-design",
+   "@type": "cmo:Theory",
+   "cmo:challengedBy": {
+    "@id": "cm:egocentric-bias"
+   },
+   "cmo:domain": "foundations",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:explainedBy": {
+    "@id": "cm:common-ground"
+   },
+   "cmo:file": "articles/foundations/audience-design.md",
+   "cmo:introducedBy": {
+    "@id": "cm:allan-bell"
+   },
+   "cmo:introducedIn": {
+    "@id": "cm:bell-1984"
+   },
+   "cmo:level": "intermediate",
+   "cmo:requires": {
+    "@id": "cm:common-ground"
+   },
+   "cmo:studiedIn": [
+    {
+     "@id": "cm:psycholinguistics"
+    },
+    {
+     "@id": "cm:sociolinguistics"
+    }
+   ],
+   "cmo:supportedBy": {
+    "@id": "cm:galati-brennan-2010"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/audience-design/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/audience-design/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/audience-design/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/audience-design/s4"
+    }
+   ],
+   "rdfs:label": "Audience design",
+   "skos:altLabel": [
+    "audience design model",
+    "audience design theory"
+   ],
+   "skos:broader": {
+    "@id": "cm:pragmatics"
+   },
+   "skos:definition": "The theory, from psycholinguistics and sociolinguistics, that speakers shape their wording, detail and speech style for the particular people they address, and to a lesser degree for others who can hear them, rather than producing one fixed message for everyone.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/foundations"
+   },
+   "skos:prefLabel": "Audience design",
+   "skos:related": [
+    {
+     "@id": "cm:audience-analysis"
+    },
+    {
+     "@id": "cm:common-ground"
+    },
+    {
+     "@id": "cm:communicating-across-languages"
+    },
+    {
+     "@id": "cm:communication-accommodation-theory"
+    },
+    {
+     "@id": "cm:curse-of-knowledge"
+    },
+    {
+     "@id": "cm:illusion-of-transparency"
+    },
+    {
+     "@id": "cm:perspective-taking"
+    },
+    {
+     "@id": "cm:register-and-tone"
+    }
+   ]
+  },
+  {
    "@id": "cm:avrim-fishkind",
    "@type": "cmo:Person",
    "cmo:authored": [
@@ -38099,6 +38190,62 @@
    "dcterms:title": "Aristotle's Rhetoric",
    "schema:url": {
     "@id": "https://plato.stanford.edu/archives/spr2026/entries/aristotle-rhetoric/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/audience-design/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Allan Bell, Language in Society (Cambridge University Press), 1984",
+   "dcterms:title": "Language style as audience design",
+   "schema:url": {
+    "@id": "https://www.cambridge.org/core/product/35677FBB8C9B7602DC20FDD354DB2ADD"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/audience-design/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Alexia Galati & Susan E. Brennan, Journal of Memory and Language 62(1), 35-51 (2010), doi:10.1016/j.jml.2009.09.002 (Stony Brook University research portal)",
+   "dcterms:title": "Attenuating information in spoken communication: For the speaker, or for the addressee?",
+   "schema:url": {
+    "@id": "https://researchconnect.stonybrook.edu/en/publications/attenuating-information-in-spoken-communication-for-the-speaker-o/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/audience-design/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "William S. Horton & Susan E. Brennan, Frontiers in Psychology 7, article 1111 (2016), doi:10.3389/fpsyg.2016.01111",
+   "dcterms:title": "The Role of Metarepresentation in the Production and Resolution of Referring Expressions",
+   "schema:url": {
+    "@id": "https://frontiersin.org/articles/10.3389/fpsyg.2016.01111/full"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/audience-design/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Boaz Keysar, Intercultural Pragmatics 4(1), 71-84 (2007), doi:10.1515/IP.2007.004 (De Gruyter)",
+   "dcterms:title": "Communication and miscommunication: The role of egocentric processes",
+   "schema:url": {
+    "@id": "https://www.degruyterbrill.com/document/doi/10.1515/IP.2007.004/html"
    }
   },
   {
