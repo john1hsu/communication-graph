@@ -23820,6 +23820,92 @@
    ]
   },
   {
+   "@id": "cm:transactional-model-of-communication",
+   "@type": "cmo:Theory",
+   "cmo:complements": {
+    "@id": "cm:common-ground"
+   },
+   "cmo:contrastsWith": {
+    "@id": "cm:interaction-model-of-communication"
+   },
+   "cmo:domain": "foundations",
+   "cmo:evidenceStatus": "theoretical",
+   "cmo:file": "articles/foundations/transactional-model-of-communication.md",
+   "cmo:introducedBy": {
+    "@id": "cm:dean-barnlund"
+   },
+   "cmo:introducedIn": {
+    "@id": "cm:a-transactional-model-of-communication"
+   },
+   "cmo:level": "introductory",
+   "cmo:requires": {
+    "@id": "cm:shannon-weaver-model"
+   },
+   "cmo:studiedIn": [
+    {
+     "@id": "cm:communication-studies"
+    },
+    {
+     "@id": "cm:interpersonal-communication"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/transactional-model-of-communication/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/transactional-model-of-communication/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/transactional-model-of-communication/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/transactional-model-of-communication/s4"
+    }
+   ],
+   "rdfs:label": "Transactional model of communication",
+   "skos:altLabel": [
+    "Barnlund's model of communication",
+    "Barnlund's transactional model",
+    "transaction model of communication"
+   ],
+   "skos:broader": {
+    "@id": "cm:communication-models"
+   },
+   "skos:definition": "Dean Barnlund's 1970 model, and the family of models it anchors, that treats communication as the joint creation of meaning: each person sends and receives at the same time, every message is read through social, relational and cultural context, and what is said cannot be repeated or taken back.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/foundations"
+   },
+   "skos:prefLabel": "Transactional model of communication",
+   "skos:related": [
+    {
+     "@id": "cm:checking-understanding"
+    },
+    {
+     "@id": "cm:communication-competence"
+    },
+    {
+     "@id": "cm:feedback"
+    },
+    {
+     "@id": "cm:high-and-low-context-cultures"
+    },
+    {
+     "@id": "cm:nonverbal-communication"
+    },
+    {
+     "@id": "cm:perception-checking"
+    },
+    {
+     "@id": "cm:shannon-weaver-model"
+    }
+   ]
+  },
+  {
    "@id": "cm:trust-repair",
    "@type": "cmo:Context",
    "cmo:contrastsWith": {
@@ -57388,6 +57474,62 @@
    "dcterms:title": "Thought Groups: Teacher's Corner",
    "schema:url": {
     "@id": "https://iastate.pressbooks.pub/oralcommunication/chapter/teachers-corner-5/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/transactional-model-of-communication/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Dean C. Barnlund, in K. K. Sereno and C. D. Mortensen (eds.), Foundations of Communication Theory, Harper & Row (1970), pp. 83-102 (World Radio History archive scan of the book)",
+   "dcterms:title": "A Transactional Model of Communication",
+   "schema:url": {
+    "@id": "https://worldradiohistory.com/Bookshelf/Commentary/Foundations-of-Communications-Theory-Sereno-Mortensen-1970.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/transactional-model-of-communication/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Professional Relationships in MRT, Loyalist College / eCampusOntario Pressbooks (adapted from Communication in the Real World, University of Minnesota; CC BY-NC 4.0)",
+   "dcterms:title": "Transaction Model of Communication",
+   "schema:url": {
+    "@id": "https://ecampusontario.pressbooks.pub/professionalrelationshipsinmrt/chapter/transaction-model-of-communication/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/transactional-model-of-communication/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Jessica Gasiorek and R. Kelly Aune, Message Processing - The Science of Creating Understanding, University of Hawai'i OER Pressbooks (2017, CC BY 4.0)",
+   "dcterms:title": "Chapter 4: Traditional Models of Human Communication",
+   "schema:url": {
+    "@id": "https://pressbooks.oer.hawaii.edu/messageprocessing/?p=56"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/transactional-model-of-communication/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Lisa Schreiber and Morgan Hartranft, Principles of Public Speaking, Millersville University via Lumen Learning (CC BY-NC-ND 4.0)",
+   "dcterms:title": "Models of Communication",
+   "schema:url": {
+    "@id": "https://courses.lumenlearning.com/publicspeakingprinciples/?p=354"
    }
   },
   {

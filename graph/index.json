@@ -27130,6 +27130,105 @@
   ]
  },
  {
+  "id": "cm:transactional-model-of-communication",
+  "title": "Transactional model of communication",
+  "aliases": [
+   "transaction model of communication",
+   "Barnlund's transactional model",
+   "Barnlund's model of communication"
+  ],
+  "type": "Theory",
+  "domain": "foundations",
+  "level": "introductory",
+  "evidenceStatus": "theoretical",
+  "file": "articles/foundations/transactional-model-of-communication.md",
+  "created": "2026-11-15",
+  "summary": "Dean Barnlund's 1970 model, and the family of models it anchors, that treats communication as the joint creation of meaning: each person sends and receives at the same time, every message is read through social, relational and cultural context, and what is said cannot be repeated or taken back.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:communication-models"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:shannon-weaver-model"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:checking-understanding"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:perception-checking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:communication-competence"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:nonverbal-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:feedback"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:high-and-low-context-cultures"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:shannon-weaver-model"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:dean-barnlund",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedIn",
+    "object": "cm:a-transactional-model-of-communication",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:contrastsWith",
+    "object": "cm:interaction-model-of-communication",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:common-ground",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:studiedIn",
+    "object": "cm:interpersonal-communication",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:studiedIn",
+    "object": "cm:communication-studies",
+    "source": "s3",
+    "confidence": "high"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://worldradiohistory.com/Bookshelf/Commentary/Foundations-of-Communications-Theory-Sereno-Mortensen-1970.pdf",
+   "https://ecampusontario.pressbooks.pub/professionalrelationshipsinmrt/chapter/transaction-model-of-communication/",
+   "https://pressbooks.oer.hawaii.edu/messageprocessing/?p=56",
+   "https://courses.lumenlearning.com/publicspeakingprinciples/?p=354"
+  ]
+ },
+ {
   "id": "cm:trust-repair",
   "title": "Trust repair",
   "aliases": [
