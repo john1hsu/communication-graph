@@ -22771,6 +22771,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/thomas-gilovich/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/thomas-gilovich/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
 <https://github.com/john1hsu/communication-graph/id/source/thomas-gilovich/s6> <https://schema.org/url> <https://www.amacad.org/person/thomas-d-gilovich> .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gordon/s1> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gordon/s1> <http://purl.org/dc/terms/publisher> "Thomas Gordon, Gordon Training International (author's own account)" .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gordon/s1> <http://purl.org/dc/terms/title> "Origins of the Gordon Model" .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gordon/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gordon/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gordon/s1> <https://schema.org/url> <https://www.gordontraining.com/thomasgordon/origins-of-the-gordon-model/> .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gordon/s2> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gordon/s2> <http://purl.org/dc/terms/publisher> "Gordon Training International" .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gordon/s2> <http://purl.org/dc/terms/title> "About Dr. Thomas Gordon" .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gordon/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gordon/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gordon/s2> <https://schema.org/url> <https://www.gordontraining.com/?p=69> .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gordon/s3> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gordon/s3> <http://purl.org/dc/terms/publisher> "Contemporary Authors (Gale), via Encyclopedia.com" .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gordon/s3> <http://purl.org/dc/terms/title> "Gordon, Thomas 1918-2002" .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gordon/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gordon/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "encyclopedia" .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gordon/s3> <https://schema.org/url> <https://www.encyclopedia.com/arts/educational-magazines/gordon-thomas-1918-2002> .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gordon/s4> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gordon/s4> <http://purl.org/dc/terms/publisher> "Linda C. Caterino, The SAGE Encyclopedia of Classroom Management (2014), pp. 359-360" .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gordon/s4> <http://purl.org/dc/terms/title> "Gordon, Thomas" .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gordon/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gordon/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gordon/s4> <https://schema.org/url> <https://sk.sagepub.com/ency/edvol/embed/the-sage-encyclopedia-of-classroom-management/chpt/gordon-thomas> .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gordon/s5> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gordon/s5> <http://purl.org/dc/terms/publisher> "Ken Breeding, Guidance for Young Children, Palomar College (Pressbooks open textbook)" .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gordon/s5> <http://purl.org/dc/terms/title> "Intentional Communication" .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gordon/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gordon/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gordon/s5> <https://schema.org/url> <https://pressbooks.palomar.edu/childguidance/chapter/intentional-communication/> .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gordon/s6> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gordon/s6> <http://purl.org/dc/terms/publisher> "California Evidence-Based Clearinghouse for Child Welfare (CEBC)" .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gordon/s6> <http://purl.org/dc/terms/title> "Parent Effectiveness Training (P.E.T.)" .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gordon/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gordon/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/communication-graph/id/source/thomas-gordon/s6> <https://schema.org/url> <https://cebc4cw.org/program/parent-effectiveness-training-p-e-t> .
 <https://github.com/john1hsu/communication-graph/id/source/thomas-kilmann-conflict-modes/s1> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/thomas-kilmann-conflict-modes/s1> <http://purl.org/dc/terms/publisher> "Ralph H. Kilmann, Kilmann Diagnostics (co-author's own account)" .
 <https://github.com/john1hsu/communication-graph/id/source/thomas-kilmann-conflict-modes/s1> <http://purl.org/dc/terms/title> "A Brief History of the Thomas-Kilmann Conflict Mode Instrument (TKI)" .
@@ -24244,6 +24280,39 @@
 <https://github.com/john1hsu/communication-graph/id/thomas-gilovich> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> .
 <https://github.com/john1hsu/communication-graph/id/thomas-gilovich> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/spotlight-effect> .
 <https://github.com/john1hsu/communication-graph/id/thomas-gilovich> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/thomas-gordon> <http://purl.org/dc/terms/created> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/thomas-gordon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+<https://github.com/john1hsu/communication-graph/id/thomas-gordon> <http://www.w3.org/2000/01/rdf-schema#label> "Thomas Gordon" .
+<https://github.com/john1hsu/communication-graph/id/thomas-gordon> <http://www.w3.org/2004/02/skos/core#altLabel> "Dr. Thomas Gordon" .
+<https://github.com/john1hsu/communication-graph/id/thomas-gordon> <http://www.w3.org/2004/02/skos/core#altLabel> "Thomas Gordon (psychologist)" .
+<https://github.com/john1hsu/communication-graph/id/thomas-gordon> <http://www.w3.org/2004/02/skos/core#definition> "American clinical psychologist (1918-2002), a student of Carl Rogers, who turned client-centred listening into everyday training courses for parents, teachers and managers (P.E.T., T.E.T., L.E.T.); he named the contrast between blaming you-messages and I-messages, the twelve communication roadblocks and the no-lose method of resolving conflicts." .
+<https://github.com/john1hsu/communication-graph/id/thomas-gordon> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works> .
+<https://github.com/john1hsu/communication-graph/id/thomas-gordon> <http://www.w3.org/2004/02/skos/core#prefLabel> "Thomas Gordon" .
+<https://github.com/john1hsu/communication-graph/id/thomas-gordon> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+<https://github.com/john1hsu/communication-graph/id/thomas-gordon> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/conflict-resolution> .
+<https://github.com/john1hsu/communication-graph/id/thomas-gordon> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/defensiveness> .
+<https://github.com/john1hsu/communication-graph/id/thomas-gordon> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/i-statements> .
+<https://github.com/john1hsu/communication-graph/id/thomas-gordon> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/integrative-negotiation> .
+<https://github.com/john1hsu/communication-graph/id/thomas-gordon> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/nonviolent-communication> .
+<https://github.com/john1hsu/communication-graph/id/thomas-gordon> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/problem-ownership> .
+<https://github.com/john1hsu/communication-graph/id/thomas-gordon> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> .
+<https://github.com/john1hsu/communication-graph/id/thomas-gordon> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/thomas-gordon/s1> .
+<https://github.com/john1hsu/communication-graph/id/thomas-gordon> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/thomas-gordon/s2> .
+<https://github.com/john1hsu/communication-graph/id/thomas-gordon> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/thomas-gordon/s3> .
+<https://github.com/john1hsu/communication-graph/id/thomas-gordon> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/thomas-gordon/s4> .
+<https://github.com/john1hsu/communication-graph/id/thomas-gordon> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/thomas-gordon/s5> .
+<https://github.com/john1hsu/communication-graph/id/thomas-gordon> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/thomas-gordon/s6> .
+<https://github.com/john1hsu/communication-graph/id/thomas-gordon> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/leader-effectiveness-training> .
+<https://github.com/john1hsu/communication-graph/id/thomas-gordon> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/parent-effectiveness-training> .
+<https://github.com/john1hsu/communication-graph/id/thomas-gordon> <https://github.com/john1hsu/communication-graph/ontology#domain> "thinkers-and-works" .
+<https://github.com/john1hsu/communication-graph/id/thomas-gordon> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "historical" .
+<https://github.com/john1hsu/communication-graph/id/thomas-gordon> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/thinkers-and-works/thomas-gordon.md" .
+<https://github.com/john1hsu/communication-graph/id/thomas-gordon> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/carl-rogers> .
+<https://github.com/john1hsu/communication-graph/id/thomas-gordon> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/john-dewey> .
+<https://github.com/john1hsu/communication-graph/id/thomas-gordon> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements> .
+<https://github.com/john1hsu/communication-graph/id/thomas-gordon> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/communication-roadblocks> .
+<https://github.com/john1hsu/communication-graph/id/thomas-gordon> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/no-lose-method> .
+<https://github.com/john1hsu/communication-graph/id/thomas-gordon> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/thomas-kilmann-conflict-modes/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/thomas-kilmann-conflict-modes/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Which mode am I about to use, and is it the one this issue calls for or just my habit?" .
 <https://github.com/john1hsu/communication-graph/id/thomas-kilmann-conflict-modes/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/thomas-kilmann-conflict-modes> .

@@ -143,7 +143,6 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 
 | node | type |
 |---|---|
-| `cm:accusatory-you-statements` | cmo:AntiPattern |
 | `cm:assertive-communication` | cmo:Skill |
 | `cm:empathy` | cmo:Disposition |
 | `cm:employee-silence` | cmo:Barrier |
@@ -173,8 +172,9 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:mixed-messages` | cmo:Barrier |
 | `cm:multicultural-team` | cmo:Context |
 | `cm:mum-effect` | cmo:Barrier |
+| `cm:narrative-persuasion` | cmo:Technique |
 
-…and 56 more.
+…and 55 more.
 
 ## Orphan articles (gap)
 

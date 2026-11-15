@@ -24611,6 +24611,101 @@
    ]
   },
   {
+   "@id": "cm:thomas-gordon",
+   "@type": "cmo:Person",
+   "cmo:authored": [
+    {
+     "@id": "cm:leader-effectiveness-training"
+    },
+    {
+     "@id": "cm:parent-effectiveness-training"
+    }
+   ],
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "historical",
+   "cmo:file": "articles/thinkers-and-works/thomas-gordon.md",
+   "cmo:influencedBy": [
+    {
+     "@id": "cm:carl-rogers"
+    },
+    {
+     "@id": "cm:john-dewey"
+    }
+   ],
+   "cmo:introduced": [
+    {
+     "@id": "cm:accusatory-you-statements"
+    },
+    {
+     "@id": "cm:communication-roadblocks"
+    },
+    {
+     "@id": "cm:no-lose-method"
+    }
+   ],
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/thomas-gordon/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/thomas-gordon/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/thomas-gordon/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/thomas-gordon/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/thomas-gordon/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/thomas-gordon/s6"
+    }
+   ],
+   "rdfs:label": "Thomas Gordon",
+   "skos:altLabel": [
+    "Dr. Thomas Gordon",
+    "Thomas Gordon (psychologist)"
+   ],
+   "skos:definition": "American clinical psychologist (1918-2002), a student of Carl Rogers, who turned client-centred listening into everyday training courses for parents, teachers and managers (P.E.T., T.E.T., L.E.T.); he named the contrast between blaming you-messages and I-messages, the twelve communication roadblocks and the no-lose method of resolving conflicts.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "Thomas Gordon",
+   "skos:related": [
+    {
+     "@id": "cm:active-listening"
+    },
+    {
+     "@id": "cm:conflict-resolution"
+    },
+    {
+     "@id": "cm:defensiveness"
+    },
+    {
+     "@id": "cm:i-statements"
+    },
+    {
+     "@id": "cm:integrative-negotiation"
+    },
+    {
+     "@id": "cm:nonviolent-communication"
+    },
+    {
+     "@id": "cm:problem-ownership"
+    },
+    {
+     "@id": "cm:weger-et-al-2014"
+    }
+   ]
+  },
+  {
    "@id": "cm:thomas-kilmann-conflict-modes",
    "@type": "cmo:Framework",
    "cmo:alternativeTo": {
@@ -59571,6 +59666,90 @@
    "dcterms:title": "Thomas D. Gilovich - member profile",
    "schema:url": {
     "@id": "https://www.amacad.org/person/thomas-d-gilovich"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/thomas-gordon/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Thomas Gordon, Gordon Training International (author's own account)",
+   "dcterms:title": "Origins of the Gordon Model",
+   "schema:url": {
+    "@id": "https://www.gordontraining.com/thomasgordon/origins-of-the-gordon-model/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/thomas-gordon/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Gordon Training International",
+   "dcterms:title": "About Dr. Thomas Gordon",
+   "schema:url": {
+    "@id": "https://www.gordontraining.com/?p=69"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/thomas-gordon/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Contemporary Authors (Gale), via Encyclopedia.com",
+   "dcterms:title": "Gordon, Thomas 1918-2002",
+   "schema:url": {
+    "@id": "https://www.encyclopedia.com/arts/educational-magazines/gordon-thomas-1918-2002"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/thomas-gordon/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Linda C. Caterino, The SAGE Encyclopedia of Classroom Management (2014), pp. 359-360",
+   "dcterms:title": "Gordon, Thomas",
+   "schema:url": {
+    "@id": "https://sk.sagepub.com/ency/edvol/embed/the-sage-encyclopedia-of-classroom-management/chpt/gordon-thomas"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/thomas-gordon/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Ken Breeding, Guidance for Young Children, Palomar College (Pressbooks open textbook)",
+   "dcterms:title": "Intentional Communication",
+   "schema:url": {
+    "@id": "https://pressbooks.palomar.edu/childguidance/chapter/intentional-communication/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/thomas-gordon/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "California Evidence-Based Clearinghouse for Child Welfare (CEBC)",
+   "dcterms:title": "Parent Effectiveness Training (P.E.T.)",
+   "schema:url": {
+    "@id": "https://cebc4cw.org/program/parent-effectiveness-training-p-e-t"
    }
   },
   {
