@@ -11325,6 +11325,65 @@
 <https://github.com/john1hsu/communication-graph/id/psychological-safety> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/amy-edmondson> .
 <https://github.com/john1hsu/communication-graph/id/psychological-safety> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/psychological-safety> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/project-aristotle> .
+<https://github.com/john1hsu/communication-graph/id/public-speaking/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/public-speaking/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Can I say in one sentence whether this talk is meant to inform, persuade or mark an occasion, and what I want the audience to do or remember?" .
+<https://github.com/john1hsu/communication-graph/id/public-speaking/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/public-speaking> .
+<https://github.com/john1hsu/communication-graph/id/public-speaking/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/public-speaking/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Does my opening tell listeners why the topic matters to them and why they should trust me on it?" .
+<https://github.com/john1hsu/communication-graph/id/public-speaking/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/public-speaking> .
+<https://github.com/john1hsu/communication-graph/id/public-speaking/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/public-speaking/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Would someone who heard only my conclusion know my main point and what happens next?" .
+<https://github.com/john1hsu/communication-graph/id/public-speaking/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/public-speaking> .
+<https://github.com/john1hsu/communication-graph/id/public-speaking/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/public-speaking/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Is every claim I will make backed by evidence I could name if someone asked?" .
+<https://github.com/john1hsu/communication-graph/id/public-speaking/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/public-speaking> .
+<https://github.com/john1hsu/communication-graph/id/public-speaking/check/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/public-speaking/check/5> <http://www.w3.org/2000/01/rdf-schema#label> "Have I rehearsed out loud, in front of at least one person or a camera, rather than only reading my notes?" .
+<https://github.com/john1hsu/communication-graph/id/public-speaking/check/5> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/public-speaking> .
+<https://github.com/john1hsu/communication-graph/id/public-speaking/check/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/public-speaking/check/6> <http://www.w3.org/2000/01/rdf-schema#label> "When I last spoke, which one competency (structure, voice, body, visuals, evidence) let me down most, and what am I practising to fix it?" .
+<https://github.com/john1hsu/communication-graph/id/public-speaking/check/6> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/public-speaking> .
+<https://github.com/john1hsu/communication-graph/id/public-speaking> <http://purl.org/dc/terms/created> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/public-speaking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Skill> .
+<https://github.com/john1hsu/communication-graph/id/public-speaking> <http://www.w3.org/2000/01/rdf-schema#label> "Public speaking" .
+<https://github.com/john1hsu/communication-graph/id/public-speaking> <http://www.w3.org/2004/02/skos/core#altLabel> "oral presentation skills" .
+<https://github.com/john1hsu/communication-graph/id/public-speaking> <http://www.w3.org/2004/02/skos/core#altLabel> "speaking to an audience" .
+<https://github.com/john1hsu/communication-graph/id/public-speaking> <http://www.w3.org/2004/02/skos/core#altLabel> "speaking to groups" .
+<https://github.com/john1hsu/communication-graph/id/public-speaking> <http://www.w3.org/2004/02/skos/core#altLabel> "speechmaking" .
+<https://github.com/john1hsu/communication-graph/id/public-speaking> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/communication-competence> .
+<https://github.com/john1hsu/communication-graph/id/public-speaking> <http://www.w3.org/2004/02/skos/core#definition> "The learnable skill of preparing and delivering a spoken message to a live or virtual group so that it informs, persuades or marks an occasion. Communication educators break it into about a dozen assessable competencies, from choosing a fitting topic and structure to vocal and nonverbal delivery, visual aids and sound reasoning, and treat it as distinct from (though often hampered by) speaking anxiety." .
+<https://github.com/john1hsu/communication-graph/id/public-speaking> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/presenting-and-public-speaking> .
+<https://github.com/john1hsu/communication-graph/id/public-speaking> <http://www.w3.org/2004/02/skos/core#prefLabel> "Public speaking" .
+<https://github.com/john1hsu/communication-graph/id/public-speaking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communication-apprehension> .
+<https://github.com/john1hsu/communication-graph/id/public-speaking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/credibility> .
+<https://github.com/john1hsu/communication-graph/id/public-speaking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/handling-questions> .
+<https://github.com/john1hsu/communication-graph/id/public-speaking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/persuasion> .
+<https://github.com/john1hsu/communication-graph/id/public-speaking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> .
+<https://github.com/john1hsu/communication-graph/id/public-speaking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/presentation> .
+<https://github.com/john1hsu/communication-graph/id/public-speaking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/rhetoric> .
+<https://github.com/john1hsu/communication-graph/id/public-speaking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/rhetorical-appeals> .
+<https://github.com/john1hsu/communication-graph/id/public-speaking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/self-recording-playback> .
+<https://github.com/john1hsu/communication-graph/id/public-speaking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/signposting> .
+<https://github.com/john1hsu/communication-graph/id/public-speaking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> .
+<https://github.com/john1hsu/communication-graph/id/public-speaking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/vocal-delivery> .
+<https://github.com/john1hsu/communication-graph/id/public-speaking> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/public-speaking/s1> .
+<https://github.com/john1hsu/communication-graph/id/public-speaking> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/public-speaking/s2> .
+<https://github.com/john1hsu/communication-graph/id/public-speaking> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/public-speaking/s3> .
+<https://github.com/john1hsu/communication-graph/id/public-speaking> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/public-speaking/s4> .
+<https://github.com/john1hsu/communication-graph/id/public-speaking> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/public-speaking/s5> .
+<https://github.com/john1hsu/communication-graph/id/public-speaking> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/public-speaking/s6> .
+<https://github.com/john1hsu/communication-graph/id/public-speaking> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> .
+<https://github.com/john1hsu/communication-graph/id/public-speaking> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/presentation> .
+<https://github.com/john1hsu/communication-graph/id/public-speaking> <https://github.com/john1hsu/communication-graph/ontology#domain> "presenting-and-public-speaking" .
+<https://github.com/john1hsu/communication-graph/id/public-speaking> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/public-speaking> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/presenting-and-public-speaking/public-speaking.md" .
+<https://github.com/john1hsu/communication-graph/id/public-speaking> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> .
+<https://github.com/john1hsu/communication-graph/id/public-speaking> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/public-speaking> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
+<https://github.com/john1hsu/communication-graph/id/public-speaking> <https://github.com/john1hsu/communication-graph/ontology#studiedIn> <https://github.com/john1hsu/communication-graph/id/rhetoric> .
+<https://github.com/john1hsu/communication-graph/id/public-speaking> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/hunter-westwick-haleta-2014> .
+<https://github.com/john1hsu/communication-graph/id/public-speaking> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/mcwilliam-beattie-callow-2025> .
+<https://github.com/john1hsu/communication-graph/id/public-speaking> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/schreiber-paul-shibley-2012> .
 <https://github.com/john1hsu/communication-graph/id/pyramid-principle/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/pyramid-principle/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Could my reader state my conclusion after reading only the first paragraph and the headings?" .
 <https://github.com/john1hsu/communication-graph/id/pyramid-principle/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/pyramid-principle> .
@@ -21313,6 +21372,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/psychological-safety/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/psychological-safety/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
 <https://github.com/john1hsu/communication-graph/id/source/psychological-safety/s6> <https://schema.org/url> <https://www.bps.org.uk/research-digest/psychologically-safe-teams-can-incubate-bad-behaviour-0> .
+<https://github.com/john1hsu/communication-graph/id/source/public-speaking/s1> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/public-speaking/s1> <http://purl.org/dc/terms/publisher> "Schreiber, L. M., Paul, G. D. & Shibley, L. R., Communication Education 61(3):205-233, 2012, doi:10.1080/03634523.2012.670709" .
+<https://github.com/john1hsu/communication-graph/id/source/public-speaking/s1> <http://purl.org/dc/terms/title> "The Development and Test of the Public Speaking Competence Rubric" .
+<https://github.com/john1hsu/communication-graph/id/source/public-speaking/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/public-speaking/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/public-speaking/s1> <https://schema.org/url> <https://informahealthcare.com/doi/full/10.1080/03634523.2012.670709> .
+<https://github.com/john1hsu/communication-graph/id/source/public-speaking/s2> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/public-speaking/s2> <http://purl.org/dc/terms/publisher> "Schreiber, L. & Hartranft, M., Millersville University / The Public Speaking Project, open textbook hosted by Lumen Learning" .
+<https://github.com/john1hsu/communication-graph/id/source/public-speaking/s2> <http://purl.org/dc/terms/title> "Speaking Competencies (Principles of Public Speaking, Module 1)" .
+<https://github.com/john1hsu/communication-graph/id/source/public-speaking/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/public-speaking/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/communication-graph/id/source/public-speaking/s2> <https://schema.org/url> <https://courses.lumenlearning.com/clinton-publicspeakingprinciples/chapter/speaking-competencies/> .
+<https://github.com/john1hsu/communication-graph/id/source/public-speaking/s3> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/public-speaking/s3> <http://purl.org/dc/terms/publisher> "McWilliam, A. M., Beattie, S. & Callow, N., The Journal of Psychology, 2025, doi:10.1080/00223980.2025.2459662 (Bangor University author copy)" .
+<https://github.com/john1hsu/communication-graph/id/source/public-speaking/s3> <http://purl.org/dc/terms/title> "Review and Analysis of Successful PSA Interventions: An Applied Perspective" .
+<https://github.com/john1hsu/communication-graph/id/source/public-speaking/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/public-speaking/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/public-speaking/s3> <https://schema.org/url> <https://research.bangor.ac.uk/portal/files/77857320/Review_and_Analysis_of_Successful_PSA_Interventions_An_Applied_Perspective.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/public-speaking/s4> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/public-speaking/s4> <http://purl.org/dc/terms/publisher> "Hunter, K. M., Westwick, J. N. & Haleta, L. L., Communication Education 63(2), 2014, doi:10.1080/03634523.2013.875213 (South Dakota State University repository)" .
+<https://github.com/john1hsu/communication-graph/id/source/public-speaking/s4> <http://purl.org/dc/terms/title> "Assessing Success: The Impacts of a Fundamentals of Speech Course on Decreasing Public Speaking Anxiety" .
+<https://github.com/john1hsu/communication-graph/id/source/public-speaking/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/public-speaking/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/public-speaking/s4> <https://schema.org/url> <https://openprairie.sdstate.edu/comm-theatre_pubs/5> .
+<https://github.com/john1hsu/communication-graph/id/source/public-speaking/s5> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/public-speaking/s5> <http://purl.org/dc/terms/publisher> "Paul, E., Maley, M., McCarthy, M. & Eckenrode, J., Bronfenbrenner Center for Translational Research, Cornell University, 2015" .
+<https://github.com/john1hsu/communication-graph/id/source/public-speaking/s5> <http://purl.org/dc/terms/title> "The Impact of 4-H Public Speaking Programs: A Systematic Translational Review" .
+<https://github.com/john1hsu/communication-graph/id/source/public-speaking/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/public-speaking/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/public-speaking/s5> <https://schema.org/url> <https://core.ac.uk/download/357306497.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/public-speaking/s6> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/public-speaking/s6> <http://purl.org/dc/terms/publisher> "Rapp, C., Stanford Encyclopedia of Philosophy (substantive revision 2022)" .
+<https://github.com/john1hsu/communication-graph/id/source/public-speaking/s6> <http://purl.org/dc/terms/title> "Aristotle's Rhetoric" .
+<https://github.com/john1hsu/communication-graph/id/source/public-speaking/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/public-speaking/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/communication-graph/id/source/public-speaking/s6> <https://schema.org/url> <https://plato.stanford.edu/ENTRIES/aristotle-rhetoric/> .
 <https://github.com/john1hsu/communication-graph/id/source/pyramid-principle/s1> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/pyramid-principle/s1> <http://purl.org/dc/terms/publisher> "McKinsey & Company Alumni News" .
 <https://github.com/john1hsu/communication-graph/id/source/pyramid-principle/s1> <http://purl.org/dc/terms/title> "Barbara Minto: MECE - I invented it, so I get to say how to pronounce it" .

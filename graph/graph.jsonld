@@ -19905,6 +19905,117 @@
    ]
   },
   {
+   "@id": "cm:public-speaking",
+   "@type": "cmo:Skill",
+   "cmo:addresses": {
+    "@id": "cm:speaking-anxiety"
+   },
+   "cmo:appliedIn": {
+    "@id": "cm:presentation"
+   },
+   "cmo:domain": "presenting-and-public-speaking",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:file": "articles/presenting-and-public-speaking/public-speaking.md",
+   "cmo:influencedBy": {
+    "@id": "cm:aristotles-rhetoric"
+   },
+   "cmo:level": "introductory",
+   "cmo:requires": {
+    "@id": "cm:audience-analysis"
+   },
+   "cmo:studiedIn": {
+    "@id": "cm:rhetoric"
+   },
+   "cmo:supportedBy": [
+    {
+     "@id": "cm:hunter-westwick-haleta-2014"
+    },
+    {
+     "@id": "cm:mcwilliam-beattie-callow-2025"
+    },
+    {
+     "@id": "cm:schreiber-paul-shibley-2012"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/public-speaking/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/public-speaking/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/public-speaking/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/public-speaking/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/public-speaking/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/public-speaking/s6"
+    }
+   ],
+   "rdfs:label": "Public speaking",
+   "skos:altLabel": [
+    "oral presentation skills",
+    "speaking to an audience",
+    "speaking to groups",
+    "speechmaking"
+   ],
+   "skos:broader": {
+    "@id": "cm:communication-competence"
+   },
+   "skos:definition": "The learnable skill of preparing and delivering a spoken message to a live or virtual group so that it informs, persuades or marks an occasion. Communication educators break it into about a dozen assessable competencies, from choosing a fitting topic and structure to vocal and nonverbal delivery, visual aids and sound reasoning, and treat it as distinct from (though often hampered by) speaking anxiety.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/presenting-and-public-speaking"
+   },
+   "skos:prefLabel": "Public speaking",
+   "skos:related": [
+    {
+     "@id": "cm:communication-apprehension"
+    },
+    {
+     "@id": "cm:credibility"
+    },
+    {
+     "@id": "cm:handling-questions"
+    },
+    {
+     "@id": "cm:persuasion"
+    },
+    {
+     "@id": "cm:presentation"
+    },
+    {
+     "@id": "cm:presentation-rehearsal"
+    },
+    {
+     "@id": "cm:rhetoric"
+    },
+    {
+     "@id": "cm:rhetorical-appeals"
+    },
+    {
+     "@id": "cm:self-recording-playback"
+    },
+    {
+     "@id": "cm:signposting"
+    },
+    {
+     "@id": "cm:speaking-anxiety"
+    },
+    {
+     "@id": "cm:vocal-delivery"
+    }
+   ]
+  },
+  {
    "@id": "cm:pyramid-principle",
    "@type": "cmo:Framework",
    "cmo:addresses": {
@@ -36495,6 +36606,54 @@
     "@id": "cm:production-blocking"
    },
    "rdfs:label": "For a big group, did I split people up or move contribution into writing rather than running one open floor?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/public-speaking/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:public-speaking"
+   },
+   "rdfs:label": "Can I say in one sentence whether this talk is meant to inform, persuade or mark an occasion, and what I want the audience to do or remember?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/public-speaking/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:public-speaking"
+   },
+   "rdfs:label": "Does my opening tell listeners why the topic matters to them and why they should trust me on it?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/public-speaking/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:public-speaking"
+   },
+   "rdfs:label": "Would someone who heard only my conclusion know my main point and what happens next?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/public-speaking/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:public-speaking"
+   },
+   "rdfs:label": "Is every claim I will make backed by evidence I could name if someone asked?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/public-speaking/check/5",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:public-speaking"
+   },
+   "rdfs:label": "Have I rehearsed out loud, in front of at least one person or a camera, rather than only reading my notes?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/public-speaking/check/6",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:public-speaking"
+   },
+   "rdfs:label": "When I last spoke, which one competency (structure, voice, body, visuals, evidence) let me down most, and what am I practising to fix it?"
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/pyramid-principle/check/1",
@@ -56329,6 +56488,90 @@
    "dcterms:title": "Psychologically safe teams can incubate bad behaviour",
    "schema:url": {
     "@id": "https://www.bps.org.uk/research-digest/psychologically-safe-teams-can-incubate-bad-behaviour-0"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/public-speaking/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Schreiber, L. M., Paul, G. D. & Shibley, L. R., Communication Education 61(3):205-233, 2012, doi:10.1080/03634523.2012.670709",
+   "dcterms:title": "The Development and Test of the Public Speaking Competence Rubric",
+   "schema:url": {
+    "@id": "https://informahealthcare.com/doi/full/10.1080/03634523.2012.670709"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/public-speaking/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Schreiber, L. & Hartranft, M., Millersville University / The Public Speaking Project, open textbook hosted by Lumen Learning",
+   "dcterms:title": "Speaking Competencies (Principles of Public Speaking, Module 1)",
+   "schema:url": {
+    "@id": "https://courses.lumenlearning.com/clinton-publicspeakingprinciples/chapter/speaking-competencies/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/public-speaking/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "McWilliam, A. M., Beattie, S. & Callow, N., The Journal of Psychology, 2025, doi:10.1080/00223980.2025.2459662 (Bangor University author copy)",
+   "dcterms:title": "Review and Analysis of Successful PSA Interventions: An Applied Perspective",
+   "schema:url": {
+    "@id": "https://research.bangor.ac.uk/portal/files/77857320/Review_and_Analysis_of_Successful_PSA_Interventions_An_Applied_Perspective.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/public-speaking/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Hunter, K. M., Westwick, J. N. & Haleta, L. L., Communication Education 63(2), 2014, doi:10.1080/03634523.2013.875213 (South Dakota State University repository)",
+   "dcterms:title": "Assessing Success: The Impacts of a Fundamentals of Speech Course on Decreasing Public Speaking Anxiety",
+   "schema:url": {
+    "@id": "https://openprairie.sdstate.edu/comm-theatre_pubs/5"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/public-speaking/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Paul, E., Maley, M., McCarthy, M. & Eckenrode, J., Bronfenbrenner Center for Translational Research, Cornell University, 2015",
+   "dcterms:title": "The Impact of 4-H Public Speaking Programs: A Systematic Translational Review",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/357306497.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/public-speaking/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Rapp, C., Stanford Encyclopedia of Philosophy (substantive revision 2022)",
+   "dcterms:title": "Aristotle's Rhetoric",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/ENTRIES/aristotle-rhetoric/"
    }
   },
   {

@@ -2577,6 +2577,16 @@ Ask yourself:
 - Has anyone other than me heard it and told me what was unclear?
 - Did I rehearse with the same slides, notes and setup I will use on the day?
 
+### [Public speaking](../articles/presenting-and-public-speaking/public-speaking.md) — Skill
+
+Ask yourself:
+- Can I say in one sentence whether this talk is meant to inform, persuade or mark an occasion, and what I want the audience to do or remember?
+- Does my opening tell listeners why the topic matters to them and why they should trust me on it?
+- Would someone who heard only my conclusion know my main point and what happens next?
+- Is every claim I will make backed by evidence I could name if someone asked?
+- Have I rehearsed out loud, in front of at least one person or a camera, rather than only reading my notes?
+- When I last spoke, which one competency (structure, voice, body, visuals, evidence) let me down most, and what am I practising to fix it?
+
 ### [Public speaking anxiety](../articles/presenting-and-public-speaking/speaking-anxiety.md) — Barrier
 
 Ask yourself:

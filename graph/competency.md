@@ -31,7 +31,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:desc-script` | 3 | Accusatory you-statements, Assertive communication, Defensiveness |
 | `cm:paramedic-method` | 3 | Concise writing, official-style, wordiness |
 | `cm:premortem` | 3 | Deaf effect, Employee silence, groupthink |
-| `cm:self-recording-playback` | 3 | Gesturing while speaking, Public speaking anxiety, public-speaking |
+| `cm:self-recording-playback` | 3 | Gesturing while speaking, Public speaking, Public speaking anxiety |
 | `cm:acoustic-speech-analysis-coaching` | 2 | Vocal delivery, monotone-delivery |
 | `cm:behavior-modeling-training` | 2 | Communication competence, assertiveness |
 | `cm:chat-etiquette` | 2 | Information overload, workplace-telepressure |
@@ -47,7 +47,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:mindfulness` | 2 | Emotion regulation, Workplace stress |
 | `cm:nominal-group-technique` | 2 | Production blocking, Unequal participation |
 | `cm:plain-language` | 2 | Curse of knowledge, jargon |
-| `cm:presentation-rehearsal` | 2 | Public speaking anxiety, public-speaking |
+| `cm:presentation-rehearsal` | 2 | Public speaking, Public speaking anxiety |
 | `cm:risk-numbers-as-natural-frequencies` | 2 | Communicating uncertainty to decision makers, base-rate-neglect |
 | `cm:self-affirmation-before-feedback` | 2 | Defensiveness, Receiving feedback |
 | `cm:self-distancing` | 2 | Public speaking anxiety, Spotlight effect |
@@ -57,7 +57,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:systematic-desensitization` | 2 | Communication apprehension, Public speaking anxiety |
 | `cm:thought-groups` | 2 | Filled pauses, Silence and pauses |
 
-…and 60 more.
+…and 61 more.
 
 ## Toolkit by situation
 
@@ -96,7 +96,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:difficult-conversation` | `cm:face-and-facework` |
 | `cm:difficult-conversation` | `cm:i-statements` |
 
-…and 150 more.
+…and 151 more.
 
 ## Myths and contested advice
 
@@ -135,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:wise-feedback` | contested | `cm:troy-moua-van-boekel-2024` |
 | `cm:power-posing` | failed-replication | `cm:crede-2019` |
 
-…and 191 more.
+…and 192 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -174,7 +174,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:mum-effect` | cmo:Barrier |
 | `cm:narrative-persuasion` | cmo:Technique |
 
-…and 57 more.
+…and 58 more.
 
 ## Orphan articles (gap)
 
