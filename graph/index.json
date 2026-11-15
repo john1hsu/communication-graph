@@ -23111,6 +23111,79 @@
   ]
  },
  {
+  "id": "cm:rfc-561",
+  "title": "RFC 561",
+  "aliases": [
+   "Standardizing Network Mail Headers",
+   "NIC 18516",
+   "first email header standard"
+  ],
+  "type": "Work",
+  "domain": "thinkers-and-works",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/thinkers-and-works/rfc-561.md",
+  "created": "2026-11-15",
+  "summary": "The September 1973 ARPANET Request for Comments \"Standardizing Network Mail Headers\" by Abhay Bhushan, Ken Pogran, Ray Tomlinson and Jim White, the first agreed format for email headers, which set out the From, Date and Subject fields and the blank line separating header from message.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:digital-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:email"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:ray-tomlinson"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:email-subject-lines"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:rfc-1855-netiquette-guidelines"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:the-network-nation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:asynchronous-communication"
+   },
+   {
+    "predicate": "cmo:authoredBy",
+    "object": "cm:ray-tomlinson",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introduces",
+    "object": "cm:email-subject-lines",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:email",
+    "source": "s1",
+    "confidence": "high"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://www.rfc-editor.org/rfc/rfc561.html",
+   "https://www.Gwern.net/doc/cs/2008-partridge.pdf",
+   "https://www.rfc-editor.org/rfc/rfc724.html",
+   "https://www.rfc-editor.org/rfc/rfc5322"
+  ]
+ },
+ {
   "id": "cm:rhetoric",
   "title": "Rhetorical studies",
   "aliases": [

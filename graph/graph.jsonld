@@ -20373,6 +20373,75 @@
    ]
   },
   {
+   "@id": "cm:rfc-561",
+   "@type": "cmo:Work",
+   "cmo:appliedIn": {
+    "@id": "cm:email"
+   },
+   "cmo:authoredBy": {
+    "@id": "cm:ray-tomlinson"
+   },
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "historical",
+   "cmo:file": "articles/thinkers-and-works/rfc-561.md",
+   "cmo:introduces": {
+    "@id": "cm:email-subject-lines"
+   },
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/rfc-561/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/rfc-561/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/rfc-561/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/rfc-561/s4"
+    }
+   ],
+   "rdfs:label": "RFC 561",
+   "skos:altLabel": [
+    "NIC 18516",
+    "Standardizing Network Mail Headers",
+    "first email header standard"
+   ],
+   "skos:broader": {
+    "@id": "cm:digital-communication"
+   },
+   "skos:definition": "The September 1973 ARPANET Request for Comments \"Standardizing Network Mail Headers\" by Abhay Bhushan, Ken Pogran, Ray Tomlinson and Jim White, the first agreed format for email headers, which set out the From, Date and Subject fields and the blank line separating header from message.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "RFC 561",
+   "skos:related": [
+    {
+     "@id": "cm:asynchronous-communication"
+    },
+    {
+     "@id": "cm:email"
+    },
+    {
+     "@id": "cm:email-subject-lines"
+    },
+    {
+     "@id": "cm:ray-tomlinson"
+    },
+    {
+     "@id": "cm:rfc-1855-netiquette-guidelines"
+    },
+    {
+     "@id": "cm:the-network-nation"
+    }
+   ]
+  },
+  {
    "@id": "cm:rhetoric",
    "@type": "cmo:Field",
    "cmo:challengedBy": {
@@ -54915,6 +54984,62 @@
    "dcterms:title": "Impact of Netiquette on Email communication",
    "schema:url": {
     "@id": "https://ideas.repec.org/a/zbw/hkjalm/175334.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/rfc-561/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Bhushan, A. (MIT-DMCG), Pogran, K. (MIT-Multics), Tomlinson, R. (BBN-TENEX) & White, J. (SRI-ARC), RFC Editor, 5 September 1973",
+   "dcterms:title": "RFC 561: Standardizing Network Mail Headers",
+   "schema:url": {
+    "@id": "https://www.rfc-editor.org/rfc/rfc561.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/rfc-561/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Partridge, C., IEEE Annals of the History of Computing 30(2), April-June 2008 (author's copy hosted by gwern.net)",
+   "dcterms:title": "The Technical Development of Internet Email",
+   "schema:url": {
+    "@id": "https://www.Gwern.net/doc/cs/2008-partridge.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/rfc-561/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Pogran, K., Vittal, J., Crocker, D. & Henderson, A., RFC Editor, 12 May 1977",
+   "dcterms:title": "RFC 724: Proposed Official Standard for the Format of ARPA Network Messages",
+   "schema:url": {
+    "@id": "https://www.rfc-editor.org/rfc/rfc724.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/rfc-561/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Resnick, P. (ed.), Internet Engineering Task Force, RFC Editor, October 2008",
+   "dcterms:title": "RFC 5322: Internet Message Format",
+   "schema:url": {
+    "@id": "https://www.rfc-editor.org/rfc/rfc5322"
    }
   },
   {
