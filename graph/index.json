@@ -21925,6 +21925,110 @@
   ]
  },
  {
+  "id": "cm:production-blocking",
+  "title": "Production blocking",
+  "aliases": [
+   "blocking effect",
+   "turn-taking blocking",
+   "idea blocking"
+  ],
+  "type": "Barrier",
+  "domain": "meetings-and-facilitation",
+  "level": "introductory",
+  "evidenceStatus": "robust",
+  "file": "articles/meetings-and-facilitation/production-blocking.md",
+  "created": "2026-11-15",
+  "summary": "The loss of ideas in spoken group idea generation that comes from turn-taking: because only one person can talk at a time, members wait, forget, hold back or stop developing their own ideas, so a talking group produces fewer ideas than the same people working separately. It is reduced by letting people contribute in parallel, in writing or on a shared screen.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:group-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:brainstorming"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:brainwriting"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:nominal-group-technique"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:1-2-4-all"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:unequal-participation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:conversational-turn-taking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:facilitation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:workplace-meetings"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:electronic-brainstorming"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:diehl-stroebe-1987",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:undermines",
+    "object": "cm:brainstorming",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:search-for-ideas-in-associative-memory",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:mullen-johnson-salas-1991",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:gallupe-et-al-1992",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "In this session, could more than one person put an idea forward at the same moment, or did every idea wait in a speaking queue?",
+   "Did people write their own ideas down before they heard anyone else's?",
+   "If I compared the number of ideas we captured with what each person might have listed alone in the same time, would the group come out ahead?",
+   "For a big group, did I split people up or move contribution into writing rather than running one open floor?"
+  ],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://homepages.se.edu/cvonbergen/files/2013/01/Productivity-Loss-In-Brainstorming_Toward-the-Solution-of-a-Riddle.pdf",
+   "https://informahealthcare.com/doi/full/10.1207/s15324834basp1201_1",
+   "https://www.sciencegate.app/document/10.1207/s15327957pspr1003_1",
+   "https://academicnewsletter.sufe.edu.cn/info/364050",
+   "https://econpapers.repec.org/RePEc:inm:orisre:v:10:y:1999:i:4:p:375-377",
+   "https://econpapers.repec.org/RePEc:inm:orisre:v:10:y:1999:i:4:p:378-380"
+  ]
+ },
+ {
   "id": "cm:proxemics",
   "title": "Proxemics",
   "aliases": [

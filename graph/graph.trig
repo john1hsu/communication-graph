@@ -1221,6 +1221,15 @@
 <https://github.com/john1hsu/communication-graph/id/premortem#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/premortem/s3> .
 <https://github.com/john1hsu/communication-graph/id/premortem#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/premortem/s4> .
 <https://github.com/john1hsu/communication-graph/id/premortem#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/premortem/s5> .
+<https://github.com/john1hsu/communication-graph/id/production-blocking#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/production-blocking#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/production-blocking> .
+<https://github.com/john1hsu/communication-graph/id/production-blocking#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/meetings-and-facilitation/production-blocking.md" .
+<https://github.com/john1hsu/communication-graph/id/production-blocking#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/production-blocking/s1> .
+<https://github.com/john1hsu/communication-graph/id/production-blocking#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/production-blocking/s2> .
+<https://github.com/john1hsu/communication-graph/id/production-blocking#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/production-blocking/s3> .
+<https://github.com/john1hsu/communication-graph/id/production-blocking#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/production-blocking/s4> .
+<https://github.com/john1hsu/communication-graph/id/production-blocking#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/production-blocking/s5> .
+<https://github.com/john1hsu/communication-graph/id/production-blocking#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/production-blocking/s6> .
 <https://github.com/john1hsu/communication-graph/id/psychological-safety#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/psychological-safety#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
 <https://github.com/john1hsu/communication-graph/id/psychological-safety#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/meetings-and-facilitation/psychological-safety.md" .
@@ -15835,6 +15844,91 @@
   <https://github.com/john1hsu/communication-graph/id/source/premortem/s5> <https://schema.org/url> <https://scholarworks.gsu.edu/cis_diss/32> .
 }
 
+<https://github.com/john1hsu/communication-graph/id/production-blocking#graph> {
+  <https://github.com/john1hsu/communication-graph/id/production-blocking/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/production-blocking/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "In this session, could more than one person put an idea forward at the same moment, or did every idea wait in a speaking queue?" .
+  <https://github.com/john1hsu/communication-graph/id/production-blocking/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/production-blocking> .
+  <https://github.com/john1hsu/communication-graph/id/production-blocking/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/production-blocking/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Did people write their own ideas down before they heard anyone else's?" .
+  <https://github.com/john1hsu/communication-graph/id/production-blocking/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/production-blocking> .
+  <https://github.com/john1hsu/communication-graph/id/production-blocking/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/production-blocking/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "If I compared the number of ideas we captured with what each person might have listed alone in the same time, would the group come out ahead?" .
+  <https://github.com/john1hsu/communication-graph/id/production-blocking/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/production-blocking> .
+  <https://github.com/john1hsu/communication-graph/id/production-blocking/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/production-blocking/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "For a big group, did I split people up or move contribution into writing rather than running one open floor?" .
+  <https://github.com/john1hsu/communication-graph/id/production-blocking/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/production-blocking> .
+  <https://github.com/john1hsu/communication-graph/id/production-blocking> <http://purl.org/dc/terms/created> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/production-blocking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Barrier> .
+  <https://github.com/john1hsu/communication-graph/id/production-blocking> <http://www.w3.org/2000/01/rdf-schema#label> "Production blocking" .
+  <https://github.com/john1hsu/communication-graph/id/production-blocking> <http://www.w3.org/2004/02/skos/core#altLabel> "blocking effect" .
+  <https://github.com/john1hsu/communication-graph/id/production-blocking> <http://www.w3.org/2004/02/skos/core#altLabel> "idea blocking" .
+  <https://github.com/john1hsu/communication-graph/id/production-blocking> <http://www.w3.org/2004/02/skos/core#altLabel> "turn-taking blocking" .
+  <https://github.com/john1hsu/communication-graph/id/production-blocking> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/group-communication> .
+  <https://github.com/john1hsu/communication-graph/id/production-blocking> <http://www.w3.org/2004/02/skos/core#definition> "The loss of ideas in spoken group idea generation that comes from turn-taking: because only one person can talk at a time, members wait, forget, hold back or stop developing their own ideas, so a talking group produces fewer ideas than the same people working separately. It is reduced by letting people contribute in parallel, in writing or on a shared screen." .
+  <https://github.com/john1hsu/communication-graph/id/production-blocking> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/meetings-and-facilitation> .
+  <https://github.com/john1hsu/communication-graph/id/production-blocking> <http://www.w3.org/2004/02/skos/core#prefLabel> "Production blocking" .
+  <https://github.com/john1hsu/communication-graph/id/production-blocking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/1-2-4-all> .
+  <https://github.com/john1hsu/communication-graph/id/production-blocking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/brainstorming> .
+  <https://github.com/john1hsu/communication-graph/id/production-blocking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/brainwriting> .
+  <https://github.com/john1hsu/communication-graph/id/production-blocking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> .
+  <https://github.com/john1hsu/communication-graph/id/production-blocking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/electronic-brainstorming> .
+  <https://github.com/john1hsu/communication-graph/id/production-blocking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/facilitation> .
+  <https://github.com/john1hsu/communication-graph/id/production-blocking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> .
+  <https://github.com/john1hsu/communication-graph/id/production-blocking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/unequal-participation> .
+  <https://github.com/john1hsu/communication-graph/id/production-blocking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/workplace-meetings> .
+  <https://github.com/john1hsu/communication-graph/id/production-blocking> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/production-blocking/s1> .
+  <https://github.com/john1hsu/communication-graph/id/production-blocking> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/production-blocking/s2> .
+  <https://github.com/john1hsu/communication-graph/id/production-blocking> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/production-blocking/s3> .
+  <https://github.com/john1hsu/communication-graph/id/production-blocking> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/production-blocking/s4> .
+  <https://github.com/john1hsu/communication-graph/id/production-blocking> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/production-blocking/s5> .
+  <https://github.com/john1hsu/communication-graph/id/production-blocking> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/production-blocking/s6> .
+  <https://github.com/john1hsu/communication-graph/id/production-blocking> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/mullen-johnson-salas-1991> .
+  <https://github.com/john1hsu/communication-graph/id/production-blocking> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/diehl-stroebe-1987> .
+  <https://github.com/john1hsu/communication-graph/id/production-blocking> <https://github.com/john1hsu/communication-graph/ontology#domain> "meetings-and-facilitation" .
+  <https://github.com/john1hsu/communication-graph/id/production-blocking> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "robust" .
+  <https://github.com/john1hsu/communication-graph/id/production-blocking> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/search-for-ideas-in-associative-memory> .
+  <https://github.com/john1hsu/communication-graph/id/production-blocking> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/meetings-and-facilitation/production-blocking.md" .
+  <https://github.com/john1hsu/communication-graph/id/production-blocking> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+  <https://github.com/john1hsu/communication-graph/id/production-blocking> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/gallupe-et-al-1992> .
+  <https://github.com/john1hsu/communication-graph/id/production-blocking> <https://github.com/john1hsu/communication-graph/ontology#undermines> <https://github.com/john1hsu/communication-graph/id/brainstorming> .
+  <https://github.com/john1hsu/communication-graph/id/source/production-blocking/s1> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/production-blocking/s1> <http://purl.org/dc/terms/publisher> "Michael Diehl & Wolfgang Stroebe, Journal of Personality and Social Psychology 53(3), 497-509, 1987 (author-paper copy hosted at Southeastern Oklahoma State University)" .
+  <https://github.com/john1hsu/communication-graph/id/source/production-blocking/s1> <http://purl.org/dc/terms/title> "Productivity Loss in Brainstorming Groups: Toward the Solution of a Riddle" .
+  <https://github.com/john1hsu/communication-graph/id/source/production-blocking/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/production-blocking/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/production-blocking/s1> <https://schema.org/url> <https://homepages.se.edu/cvonbergen/files/2013/01/Productivity-Loss-In-Brainstorming_Toward-the-Solution-of-a-Riddle.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/production-blocking/s2> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/production-blocking/s2> <http://purl.org/dc/terms/publisher> "Brian Mullen, Craig Johnson & Eduardo Salas, Basic and Applied Social Psychology 12(1), 3-23, 1991, doi:10.1207/s15324834basp1201_1 (Taylor & Francis abstract)" .
+  <https://github.com/john1hsu/communication-graph/id/source/production-blocking/s2> <http://purl.org/dc/terms/title> "Productivity Loss in Brainstorming Groups: A Meta-Analytic Integration" .
+  <https://github.com/john1hsu/communication-graph/id/source/production-blocking/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/production-blocking/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/production-blocking/s2> <https://schema.org/url> <https://informahealthcare.com/doi/full/10.1207/s15324834basp1201_1> .
+  <https://github.com/john1hsu/communication-graph/id/source/production-blocking/s3> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/production-blocking/s3> <http://purl.org/dc/terms/publisher> "Bernard A. Nijstad & Wolfgang Stroebe, Personality and Social Psychology Review 10(3), 186-213, 2006, doi:10.1207/s15327957pspr1003_1 (ScienceGate abstract)" .
+  <https://github.com/john1hsu/communication-graph/id/source/production-blocking/s3> <http://purl.org/dc/terms/title> "How the Group Affects the Mind: A Cognitive Model of Idea Generation in Groups" .
+  <https://github.com/john1hsu/communication-graph/id/source/production-blocking/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/production-blocking/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/production-blocking/s3> <https://schema.org/url> <https://www.sciencegate.app/document/10.1207/s15327957pspr1003_1> .
+  <https://github.com/john1hsu/communication-graph/id/source/production-blocking/s4> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/production-blocking/s4> <http://purl.org/dc/terms/publisher> "R. Brent Gallupe, Alan R. Dennis, William H. Cooper, Joseph S. Valacich, Lana M. Bastianutti & Jay F. Nunamaker, Academy of Management Journal 35(2), 350-369, 1992, doi:10.5465/256377 (abstract record, Shanghai University of Finance and Economics)" .
+  <https://github.com/john1hsu/communication-graph/id/source/production-blocking/s4> <http://purl.org/dc/terms/title> "Electronic Brainstorming and Group Size" .
+  <https://github.com/john1hsu/communication-graph/id/source/production-blocking/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/production-blocking/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/production-blocking/s4> <https://schema.org/url> <https://academicnewsletter.sufe.edu.cn/info/364050> .
+  <https://github.com/john1hsu/communication-graph/id/source/production-blocking/s5> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/production-blocking/s5> <http://purl.org/dc/terms/publisher> "Alan R. Dennis & Joseph S. Valacich, Information Systems Research 10(4), 375-377, 1999, doi:10.1287/isre.10.4.375 (RePEc EconPapers record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/production-blocking/s5> <http://purl.org/dc/terms/title> "Research Note. Electronic Brainstorming: Illusions and Patterns of Productivity" .
+  <https://github.com/john1hsu/communication-graph/id/source/production-blocking/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/production-blocking/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/production-blocking/s5> <https://schema.org/url> <https://econpapers.repec.org/RePEc:inm:orisre:v:10:y:1999:i:4:p:375-377> .
+  <https://github.com/john1hsu/communication-graph/id/source/production-blocking/s6> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/production-blocking/s6> <http://purl.org/dc/terms/publisher> "Alain Pinsonneault, Henri Barki, R. Brent Gallupe & Norberto Hoppen, Information Systems Research 10(4), 378-380, 1999, doi:10.1287/isre.10.4.378 (RePEc EconPapers record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/production-blocking/s6> <http://purl.org/dc/terms/title> "Research Note. The Illusion of Electronic Brainstorming Productivity: Theoretical and Empirical Issues" .
+  <https://github.com/john1hsu/communication-graph/id/source/production-blocking/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/production-blocking/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/production-blocking/s6> <https://schema.org/url> <https://econpapers.repec.org/RePEc:inm:orisre:v:10:y:1999:i:4:p:378-380> .
+}
+
 <https://github.com/john1hsu/communication-graph/id/psychological-safety#graph> {
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://purl.org/dc/terms/created> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Phenomenon> .
@@ -28768,6 +28862,7 @@
   <https://github.com/john1hsu/communication-graph/id/1-2-4-all> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/facilitation> .
   <https://github.com/john1hsu/communication-graph/id/1-2-4-all> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/group-communication> .
   <https://github.com/john1hsu/communication-graph/id/1-2-4-all> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/facilitators-guide-to-participatory-decision-making> .
+  <https://github.com/john1hsu/communication-graph/id/1-2-4-all> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/production-blocking> .
   <https://github.com/john1hsu/communication-graph/id/1-2-4-all> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/unequal-participation> .
   <https://github.com/john1hsu/communication-graph/id/a-behavioral-theory-of-labor-negotiations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/a-behavioral-theory-of-labor-negotiations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
@@ -29497,6 +29592,8 @@
   <https://github.com/john1hsu/communication-graph/id/brainstorming> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/premortem> .
   <https://github.com/john1hsu/communication-graph/id/brainstorming> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/question-formulation-technique> .
   <https://github.com/john1hsu/communication-graph/id/brainstorming> <https://github.com/john1hsu/communication-graph/ontology#alternativeTo> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> .
+  <https://github.com/john1hsu/communication-graph/id/brainstorming> <https://github.com/john1hsu/communication-graph/ontology#underminedBy> <https://github.com/john1hsu/communication-graph/id/production-blocking> .
+  <https://github.com/john1hsu/communication-graph/id/brainwriting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/production-blocking> .
   <https://github.com/john1hsu/communication-graph/id/brainwriting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/unequal-participation> .
   <https://github.com/john1hsu/communication-graph/id/brainwriting> <https://github.com/john1hsu/communication-graph/ontology#alternativeTo> <https://github.com/john1hsu/communication-graph/id/brainstorming> .
   <https://github.com/john1hsu/communication-graph/id/brett-pinkley-jackofsky-1996> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -30410,6 +30507,7 @@
   <https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/interrupting> .
   <https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/erving-goffman> .
   <https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/hybrid-meetings> .
+  <https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/production-blocking> .
   <https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/support-response> .
   <https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/video-call-communication> .
   <https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/interrupting> .
@@ -30788,7 +30886,10 @@
   <https://github.com/john1hsu/communication-graph/id/dibble-2017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/dibble-2017> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> .
   <https://github.com/john1hsu/communication-graph/id/dibble-2017> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/mum-effect> .
+  <https://github.com/john1hsu/communication-graph/id/diehl-stroebe-1987> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/diehl-stroebe-1987> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/diehl-stroebe-1987> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/brainstorming> .
+  <https://github.com/john1hsu/communication-graph/id/diehl-stroebe-1987> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/production-blocking> .
   <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-conflict> .
@@ -31035,6 +31136,7 @@
   <https://github.com/john1hsu/communication-graph/id/elaine-hatfield> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/elaine-hatfield> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/elaine-hatfield> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/emotional-contagion> .
+  <https://github.com/john1hsu/communication-graph/id/electronic-brainstorming> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/production-blocking> .
   <https://github.com/john1hsu/communication-graph/id/elevator-pitch/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/elevator-pitch/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/elevator-pitch/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -31502,6 +31604,7 @@
   <https://github.com/john1hsu/communication-graph/id/facilitation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/interrupting> .
   <https://github.com/john1hsu/communication-graph/id/facilitation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/irving-janis> .
   <https://github.com/john1hsu/communication-graph/id/facilitation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote> .
+  <https://github.com/john1hsu/communication-graph/id/facilitation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/production-blocking> .
   <https://github.com/john1hsu/communication-graph/id/facilitation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/unequal-participation> .
   <https://github.com/john1hsu/communication-graph/id/facilitation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/video-call-communication> .
   <https://github.com/john1hsu/communication-graph/id/facilitation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/workplace-meetings> .
@@ -31780,6 +31883,7 @@
   <https://github.com/john1hsu/communication-graph/id/galinsky-mussweiler-medvec-2002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/galinsky-mussweiler-medvec-2002> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/reservation-value> .
   <https://github.com/john1hsu/communication-graph/id/gallagher-updegraff-2012> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> .
+  <https://github.com/john1hsu/communication-graph/id/gallupe-et-al-1992> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/production-blocking> .
   <https://github.com/john1hsu/communication-graph/id/garner-alley-2013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/garner-alley-2013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/garner-alley-2013> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> .
@@ -31929,6 +32033,7 @@
   <https://github.com/john1hsu/communication-graph/id/group-cohesiveness> <https://github.com/john1hsu/communication-graph/ontology#confusedWith> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
   <https://github.com/john1hsu/communication-graph/id/group-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/facilitation> .
   <https://github.com/john1hsu/communication-graph/id/group-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/group-decision-making> .
+  <https://github.com/john1hsu/communication-graph/id/group-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/production-blocking> .
   <https://github.com/john1hsu/communication-graph/id/group-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/unequal-participation> .
   <https://github.com/john1hsu/communication-graph/id/group-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/workplace-meetings> .
   <https://github.com/john1hsu/communication-graph/id/group-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/1-2-4-all> .
@@ -31944,6 +32049,7 @@
   <https://github.com/john1hsu/communication-graph/id/group-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> .
   <https://github.com/john1hsu/communication-graph/id/group-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/performance-review> .
   <https://github.com/john1hsu/communication-graph/id/group-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/premortem> .
+  <https://github.com/john1hsu/communication-graph/id/group-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/production-blocking> .
   <https://github.com/john1hsu/communication-graph/id/group-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/unequal-participation> .
   <https://github.com/john1hsu/communication-graph/id/group-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/workplace-meetings> .
   <https://github.com/john1hsu/communication-graph/id/group-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> .
@@ -33609,6 +33715,7 @@
   <https://github.com/john1hsu/communication-graph/id/motivating-language-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
   <https://github.com/john1hsu/communication-graph/id/motivational-interviewing> <https://github.com/john1hsu/communication-graph/ontology#hasPart> <https://github.com/john1hsu/communication-graph/id/summarizing> .
   <https://github.com/john1hsu/communication-graph/id/mullen-johnson-salas-1991> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/brainstorming> .
+  <https://github.com/john1hsu/communication-graph/id/mullen-johnson-salas-1991> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/production-blocking> .
   <https://github.com/john1hsu/communication-graph/id/multicultural-team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/multicultural-team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/multicultural-team> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
@@ -33815,6 +33922,7 @@
   <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/meeting-agendas> .
   <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/murray-turoff> .
   <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/premortem> .
+  <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/production-blocking> .
   <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/unequal-participation> .
   <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/workplace-meetings> .
   <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -34626,7 +34734,13 @@
   <https://github.com/john1hsu/communication-graph/id/process-model-of-emotion-regulation> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/james-j-gross> .
   <https://github.com/john1hsu/communication-graph/id/process-model-of-emotion-regulation> <https://github.com/john1hsu/communication-graph/ontology#introducedIn> <https://github.com/john1hsu/communication-graph/id/the-emerging-field-of-emotion-regulation> .
   <https://github.com/john1hsu/communication-graph/id/prochazka-ovcari-durinik-2020> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/feedback-sandwich> .
-  <https://github.com/john1hsu/communication-graph/id/production-blocking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/brainstorming> .
+  <https://github.com/john1hsu/communication-graph/id/production-blocking/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/production-blocking/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/production-blocking/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/production-blocking/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/production-blocking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+  <https://github.com/john1hsu/communication-graph/id/production-blocking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/production-blocking> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/group-communication> .
   <https://github.com/john1hsu/communication-graph/id/production-blocking> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/1-2-4-all> .
   <https://github.com/john1hsu/communication-graph/id/production-blocking> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> .
   <https://github.com/john1hsu/communication-graph/id/project-aristotle> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
@@ -35267,6 +35381,7 @@
   <https://github.com/john1hsu/communication-graph/id/scqa-framework> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
   <https://github.com/john1hsu/communication-graph/id/scqa-framework> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/message-structure> .
   <https://github.com/john1hsu/communication-graph/id/scqa-framework> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
+  <https://github.com/john1hsu/communication-graph/id/search-for-ideas-in-associative-memory> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/production-blocking> .
   <https://github.com/john1hsu/communication-graph/id/seehausen-et-al-2012> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/paraphrasing> .
   <https://github.com/john1hsu/communication-graph/id/seki-2000> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/bulleted-and-numbered-lists> .
   <https://github.com/john1hsu/communication-graph/id/selective-accessibility-model> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> .
@@ -36229,6 +36344,7 @@
   <https://github.com/john1hsu/communication-graph/id/unequal-participation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/hybrid-meetings> .
   <https://github.com/john1hsu/communication-graph/id/unequal-participation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote> .
   <https://github.com/john1hsu/communication-graph/id/unequal-participation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/power-distance> .
+  <https://github.com/john1hsu/communication-graph/id/unequal-participation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/production-blocking> .
   <https://github.com/john1hsu/communication-graph/id/unequal-participation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/the-network-nation> .
   <https://github.com/john1hsu/communication-graph/id/unequal-participation> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/1-2-4-all> .
   <https://github.com/john1hsu/communication-graph/id/unequal-participation> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/communicating-across-languages> .
@@ -36555,6 +36671,7 @@
   <https://github.com/john1hsu/communication-graph/id/workplace-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/irving-janis> .
   <https://github.com/john1hsu/communication-graph/id/workplace-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/media-synchronicity-theory> .
   <https://github.com/john1hsu/communication-graph/id/workplace-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/premortem> .
+  <https://github.com/john1hsu/communication-graph/id/workplace-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/production-blocking> .
   <https://github.com/john1hsu/communication-graph/id/workplace-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/silence-and-pauses> .
   <https://github.com/john1hsu/communication-graph/id/workplace-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/unequal-participation> .
   <https://github.com/john1hsu/communication-graph/id/workplace-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/video-call-communication> .

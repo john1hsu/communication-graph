@@ -24,7 +24,7 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 3.08 | `cm:channel-selection` | `cm:egocentric-bias` | `cm:common-ground`, `cm:curse-of-knowledge`, `cm:digital-communication`, `cm:egocentrism-over-email-study`, `cm:emoji-and-tone-in-text` |
 | 3.08 | `cm:active-listening` | `cm:checking-understanding` | `cm:common-ground`, `cm:note-taking-while-listening`, `cm:open-ended-questions`, `cm:paraphrasing`, `cm:perception-checking` |
 | 3.08 | `cm:performance-review` | `cm:praise-and-recognition` | `cm:feedback`, `cm:feedback-intervention-theory`, `cm:feedback-sandwich`, `cm:feedforward`, `cm:hattie-timperley-feedback-model` |
-| 3.00 | `cm:irving-janis` | `cm:premortem` | `cm:devils-advocacy`, `cm:facilitation`, `cm:group-decision-making`, `cm:groupthink`, `cm:psychological-safety` |
+| 2.99 | `cm:irving-janis` | `cm:premortem` | `cm:devils-advocacy`, `cm:facilitation`, `cm:group-decision-making`, `cm:groupthink`, `cm:psychological-safety` |
 | 2.98 | `cm:one-on-one-meetings` | `cm:situation-behavior-impact` | `cm:active-listening`, `cm:feedback`, `cm:feedforward`, `cm:grow-model`, `cm:hattie-timperley-feedback-model` |
 | 2.97 | `cm:conflict-resolution` | `cm:integrative-negotiation` | `cm:charles-osgood`, `cm:interests-vs-positions`, `cm:morton-deutsch`, `cm:negotiation`, `cm:principled-negotiation` |
 | 2.96 | `cm:audience-analysis` | `cm:organizational-communication` | `cm:channel-selection`, `cm:client-communication`, `cm:managing-up`, `cm:memorandum`, `cm:message-equivocality-media-selection-and-manager-performance` |

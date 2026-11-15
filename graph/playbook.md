@@ -1814,6 +1814,14 @@ Ask yourself:
 - Which reasons changed the plan, and have I told the team what we are doing about them?
 - Is there someone who raised a concern quietly afterwards because the meeting still did not feel safe enough?
 
+### [Production blocking](../articles/meetings-and-facilitation/production-blocking.md) — Barrier
+
+Ask yourself:
+- In this session, could more than one person put an idea forward at the same moment, or did every idea wait in a speaking queue?
+- Did people write their own ideas down before they heard anyone else's?
+- If I compared the number of ideas we captured with what each person might have listed alone in the same time, would the group come out ahead?
+- For a big group, did I split people up or move contribution into writing rather than running one open floor?
+
 ### [RACI matrix](../articles/meetings-and-facilitation/raci-matrix.md) — Technique
 
 1. List the recurring tasks and decisions that cause confusion as rows, and the roles involved as columns.

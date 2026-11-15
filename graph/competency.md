@@ -26,7 +26,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 
 | technique | reach | targets |
 |---|---|---|
-| `cm:1-2-4-all` | 3 | Facilitation, Unequal participation, production-blocking |
+| `cm:1-2-4-all` | 3 | Facilitation, Production blocking, Unequal participation |
 | `cm:concise-writing` | 3 | Information overload, subtraction-neglect, wordiness |
 | `cm:desc-script` | 3 | Accusatory you-statements, Assertive communication, Defensiveness |
 | `cm:paramedic-method` | 3 | Concise writing, official-style, wordiness |
@@ -45,7 +45,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:i-statements` | 2 | Accusatory you-statements, Defensiveness |
 | `cm:interests-vs-positions` | 2 | Mythical fixed-pie bias, positional-bargaining |
 | `cm:mindfulness` | 2 | Emotion regulation, Workplace stress |
-| `cm:nominal-group-technique` | 2 | Unequal participation, production-blocking |
+| `cm:nominal-group-technique` | 2 | Production blocking, Unequal participation |
 | `cm:plain-language` | 2 | Curse of knowledge, jargon |
 | `cm:presentation-rehearsal` | 2 | Public speaking anxiety, public-speaking |
 | `cm:risk-numbers-as-natural-frequencies` | 2 | Communicating uncertainty to decision makers, base-rate-neglect |
@@ -174,7 +174,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:mum-effect` | cmo:Barrier |
 | `cm:narrative-persuasion` | cmo:Technique |
 
-…and 55 more.
+…and 56 more.
 
 ## Orphan articles (gap)
 
