@@ -166,15 +166,15 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:listening-styles` | cmo:Framework |
 | `cm:meeting-agendas` | cmo:Technique |
 | `cm:meeting-recaps` | cmo:Technique |
+| `cm:memorandum` | cmo:Genre |
 | `cm:message-structure` | cmo:Concept |
 | `cm:mindfulness` | cmo:Technique |
 | `cm:mirroring` | cmo:Technique |
 | `cm:mixed-messages` | cmo:Barrier |
 | `cm:multicultural-team` | cmo:Context |
 | `cm:mum-effect` | cmo:Barrier |
-| `cm:narrative-persuasion` | cmo:Technique |
 
-…and 55 more.
+…and 56 more.
 
 ## Orphan articles (gap)
 

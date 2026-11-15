@@ -1,10 +1,10 @@
 # Graph statistics
 
-- Articles (nodes written): **296**
-- Frontier nodes (referenced, unwritten): **912**
-- Asserted edges: **4027** (typed + evidenced: **1594**)
-- Asserted triples: **25229**; inferred by OWL-RL: **7858**
-- Citations: **1624**
+- Articles (nodes written): **297**
+- Frontier nodes (referenced, unwritten): **911**
+- Asserted edges: **4044** (typed + evidenced: **1598**)
+- Asserted triples: **25296**; inferred by OWL-RL: **7876**
+- Citations: **1629**
 - Self-check questions: **732**; procedures: **106**; before/after rewrites: **118**
 - Weakly connected components: **1**
 - Communities (Louvain): **13**; max k-core: **9**
@@ -15,21 +15,21 @@ PageRank = authority; betweenness = bridges between areas.
 
 | Node | PageRank | Betweenness | Written |
 |---|---|---|---|
-| `cm:audience-analysis` | 0.0063 | 0.0737 | yes |
-| `cm:active-listening` | 0.0060 | 0.0777 | yes |
-| `cm:bottom-line-up-front` | 0.0058 | 0.0463 | yes |
-| `cm:psychological-safety` | 0.0058 | 0.0909 | yes |
-| `cm:email` | 0.0046 | 0.0327 | yes |
-| `cm:open-ended-questions` | 0.0043 | 0.0337 | yes |
-| `cm:plain-language` | 0.0042 | 0.0315 | yes |
-| `cm:channel-selection` | 0.0042 | 0.0307 | yes |
+| `cm:audience-analysis` | 0.0064 | 0.0736 | yes |
+| `cm:active-listening` | 0.0060 | 0.0776 | yes |
+| `cm:bottom-line-up-front` | 0.0060 | 0.0441 | yes |
+| `cm:psychological-safety` | 0.0057 | 0.0909 | yes |
+| `cm:email` | 0.0047 | 0.0331 | yes |
+| `cm:plain-language` | 0.0044 | 0.0311 | yes |
+| `cm:open-ended-questions` | 0.0043 | 0.0336 | yes |
+| `cm:channel-selection` | 0.0042 | 0.0306 | yes |
 | `cm:curse-of-knowledge` | 0.0040 | 0.0222 | yes |
 | `cm:difficult-conversation` | 0.0040 | 0.0316 | yes |
 | `cm:feedback` | 0.0039 | 0.0298 | yes |
 | `cm:defensiveness` | 0.0037 | 0.0208 | yes |
-| `cm:illusion-of-transparency` | 0.0034 | 0.0219 | yes |
-| `cm:egocentric-bias` | 0.0033 | 0.0209 | yes |
-| `cm:paraphrasing` | 0.0032 | 0.0194 | yes |
+| `cm:illusion-of-transparency` | 0.0034 | 0.0218 | yes |
+| `cm:egocentric-bias` | 0.0033 | 0.0208 | yes |
+| `cm:paraphrasing` | 0.0032 | 0.0195 | yes |
 
 ## Communities
 
@@ -39,10 +39,10 @@ PageRank = authority; betweenness = bridges between areas.
 4. `cm:adhocracy`, `cm:alan-r-dennis`, `cm:alvin-toffler`, `cm:ask-in-person-study`, `cm:asynchronous-communication`, `cm:attention-management`, `cm:barley-meyerson-grodal-2011`, `cm:becker-et-al-2019`, `cm:bennett-et-al-2021`, `cm:bertram-gross`, `cm:boundary-theory`, `cm:brucks-levav-2022` …
 5. `cm:1-2-4-all`, `cm:alex-osborn`, `cm:amy-edmondson`, `cm:andre-delbecq`, `cm:andrew-van-de-ven`, `cm:bias-blind-spot`, `cm:boland-et-al-zoom-turn-taking`, `cm:bos-et-al-2004`, `cm:brainstorming`, `cm:brainwriting`, `cm:cannon-robinson-smith-lovin-2019`, `cm:cognitive-bias` …
 6. `cm:a-behavioral-theory-of-labor-negotiations`, `cm:adam-galinsky`, `cm:amos-tversky`, `cm:an-alternative-to-war-or-surrender`, `cm:anchoring-and-adjustment`, `cm:batna`, `cm:boothby-cooney-schweitzer-2023`, `cm:bowles-babcock-lai-2007`, `cm:bowles-babcock-mcginn-2005`, `cm:brett-pinkley-jackofsky-1996`, `cm:charles-osgood`, `cm:concession-strategy` …
-7. `cm:allan-bell`, `cm:ang-et-al-2007`, `cm:audience-design`, `cm:bell-1984`, `cm:beyond-culture`, `cm:bhawuk-1998`, `cm:brew-cairns-2004`, `cm:burgoon-1978`, `cm:cardon-2008`, `cm:charles-morris`, `cm:communicating-across-languages`, `cm:communication-accommodation-theory` …
-8. `cm:abi-esber-et-al-2022`, `cm:adler-et-al-2016`, `cm:angelo-denisi`, `cm:anseel-et-al-2015`, `cm:attributional-ambiguity`, `cm:avraham-n-kluger`, `cm:benedikt-wisniewski`, `cm:blunden-et-al-2025`, `cm:bottini-gillis-2021`, `cm:broaden-and-build-theory`, `cm:brown-sokal-friedman-2013`, `cm:budworth-latham-manroop-2015` …
+7. `cm:allan-r-cohen`, `cm:allen-et-al-1990`, `cm:alvin-gouldner`, `cm:aristotle`, `cm:aristotles-rhetoric`, `cm:asch-1946`, `cm:attribute-framing`, `cm:audience`, `cm:belief-adjustment-model`, `cm:bohner-schluter-2014`, `cm:braddock-dillard-2016`, `cm:bruine-de-bruin-2005` …
+8. `cm:allan-bell`, `cm:ang-et-al-2007`, `cm:audience-design`, `cm:bell-1984`, `cm:beyond-culture`, `cm:bhawuk-1998`, `cm:brew-cairns-2004`, `cm:burgoon-1978`, `cm:cardon-2008`, `cm:charles-morris`, `cm:communicating-across-languages`, `cm:communication-accommodation-theory` …
 9. `cm:accusatory-you-statements`, `cm:adriani-et-al-2024`, `cm:aggressive-communication`, `cm:ames-flynn-2007`, `cm:ames-wazlawek-2014`, `cm:asserting-yourself`, `cm:assertive-communication`, `cm:avrim-fishkind`, `cm:barsade-2002`, `cm:bartlett-et-al-2019`, `cm:baturaite-bunka-et-al-2024`, `cm:butler-et-al-2003` …
-10. `cm:allan-r-cohen`, `cm:allen-et-al-1990`, `cm:alvin-gouldner`, `cm:aristotle`, `cm:aristotles-rhetoric`, `cm:asch-1946`, `cm:attribute-framing`, `cm:audience`, `cm:belief-adjustment-model`, `cm:bohner-schluter-2014`, `cm:braddock-dillard-2016`, `cm:bruine-de-bruin-2005` …
+10. `cm:abi-esber-et-al-2022`, `cm:adler-et-al-2016`, `cm:angelo-denisi`, `cm:anseel-et-al-2015`, `cm:attributional-ambiguity`, `cm:avraham-n-kluger`, `cm:benedikt-wisniewski`, `cm:blunden-et-al-2025`, `cm:broaden-and-build-theory`, `cm:brown-sokal-friedman-2013`, `cm:budworth-latham-manroop-2015`, `cm:coaching` …
 
 ## By type
 
@@ -54,7 +54,7 @@ PageRank = authority; betweenness = bridges between areas.
 - Disposition: 1
 - Field: 9
 - Framework: 13
-- Genre: 5
+- Genre: 6
 - Person: 31
 - Phenomenon: 13
 - Principle: 4
@@ -81,12 +81,12 @@ PageRank = authority; betweenness = bridges between areas.
 - presenting-and-public-speaking: 16
 - questioning-and-conversation: 16
 - thinkers-and-works: 56
-- writing: 14
+- writing: 15
 
 ## By level
 
 - intermediate: 101
-- introductory: 195
+- introductory: 196
 
 ## By evidence status
 
@@ -94,13 +94,12 @@ PageRank = authority; betweenness = bridges between areas.
 - failed-replication: 1
 - historical: 46
 - mixed: 175
-- practitioner: 34
+- practitioner: 35
 - robust: 10
 - theoretical: 15
 
 ## Domain coverage (breadth runs pick the lowest)
 
-- writing: 14
 - cross-cultural-communication: 15
 - executive-and-client-communication: 15
 - listening: 15
@@ -108,6 +107,7 @@ PageRank = authority; betweenness = bridges between areas.
 - negotiation: 15
 - nonverbal-and-voice: 15
 - persuasion-and-influence: 15
+- writing: 15
 - digital-and-async-communication: 16
 - feedback-and-coaching: 16
 - foundations: 16

@@ -8400,6 +8400,43 @@
 <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/albert-mehrabian> .
 <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> <https://github.com/john1hsu/communication-graph/ontology#introducedIn> <https://github.com/john1hsu/communication-graph/id/silent-messages> .
 <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/memorandum> <http://purl.org/dc/terms/created> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/memorandum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Genre> .
+<https://github.com/john1hsu/communication-graph/id/memorandum> <http://www.w3.org/2000/01/rdf-schema#label> "Memorandum" .
+<https://github.com/john1hsu/communication-graph/id/memorandum> <http://www.w3.org/2004/02/skos/core#altLabel> "business memo" .
+<https://github.com/john1hsu/communication-graph/id/memorandum> <http://www.w3.org/2004/02/skos/core#altLabel> "internal memo" .
+<https://github.com/john1hsu/communication-graph/id/memorandum> <http://www.w3.org/2004/02/skos/core#altLabel> "interoffice memo" .
+<https://github.com/john1hsu/communication-graph/id/memorandum> <http://www.w3.org/2004/02/skos/core#altLabel> "memo" .
+<https://github.com/john1hsu/communication-graph/id/memorandum> <http://www.w3.org/2004/02/skos/core#altLabel> "staff memorandum" .
+<https://github.com/john1hsu/communication-graph/id/memorandum> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/business-writing> .
+<https://github.com/john1hsu/communication-graph/id/memorandum> <http://www.w3.org/2004/02/skos/core#definition> "A short internal document, headed To, From, Date and Subject, that tells colleagues in the same organisation about one matter or asks them to act on it. A good memo states its purpose and main point in the opening lines, keeps to about a page, and closes with a specific next step." .
+<https://github.com/john1hsu/communication-graph/id/memorandum> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/writing> .
+<https://github.com/john1hsu/communication-graph/id/memorandum> <http://www.w3.org/2004/02/skos/core#prefLabel> "Memorandum" .
+<https://github.com/john1hsu/communication-graph/id/memorandum> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/active-voice> .
+<https://github.com/john1hsu/communication-graph/id/memorandum> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
+<https://github.com/john1hsu/communication-graph/id/memorandum> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/burying-the-lede> .
+<https://github.com/john1hsu/communication-graph/id/memorandum> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/business-report> .
+<https://github.com/john1hsu/communication-graph/id/memorandum> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/effective-writing-for-army-leaders> .
+<https://github.com/john1hsu/communication-graph/id/memorandum> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/email> .
+<https://github.com/john1hsu/communication-graph/id/memorandum> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/executive-briefing> .
+<https://github.com/john1hsu/communication-graph/id/memorandum> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/executive-summary> .
+<https://github.com/john1hsu/communication-graph/id/memorandum> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/informative-headings> .
+<https://github.com/john1hsu/communication-graph/id/memorandum> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/plain-language> .
+<https://github.com/john1hsu/communication-graph/id/memorandum> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/status-reporting> .
+<https://github.com/john1hsu/communication-graph/id/memorandum> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/memorandum/s1> .
+<https://github.com/john1hsu/communication-graph/id/memorandum> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/memorandum/s2> .
+<https://github.com/john1hsu/communication-graph/id/memorandum> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/memorandum/s3> .
+<https://github.com/john1hsu/communication-graph/id/memorandum> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/memorandum/s4> .
+<https://github.com/john1hsu/communication-graph/id/memorandum> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/memorandum/s5> .
+<https://github.com/john1hsu/communication-graph/id/memorandum> <https://github.com/john1hsu/communication-graph/ontology#alternativeTo> <https://github.com/john1hsu/communication-graph/id/presentation> .
+<https://github.com/john1hsu/communication-graph/id/memorandum> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/plain-language> .
+<https://github.com/john1hsu/communication-graph/id/memorandum> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/email> .
+<https://github.com/john1hsu/communication-graph/id/memorandum> <https://github.com/john1hsu/communication-graph/ontology#domain> "writing" .
+<https://github.com/john1hsu/communication-graph/id/memorandum> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "practitioner" .
+<https://github.com/john1hsu/communication-graph/id/memorandum> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/writing/memorandum.md" .
+<https://github.com/john1hsu/communication-graph/id/memorandum> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/memorandum> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
+<https://github.com/john1hsu/communication-graph/id/memorandum> <https://github.com/john1hsu/communication-graph/ontology#studiedIn> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
 <https://github.com/john1hsu/communication-graph/id/message-equivocality-media-selection-and-manager-performance> <http://purl.org/dc/terms/created> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/message-equivocality-media-selection-and-manager-performance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
 <https://github.com/john1hsu/communication-graph/id/message-equivocality-media-selection-and-manager-performance> <http://www.w3.org/2000/01/rdf-schema#label> "Message Equivocality, Media Selection, and Manager Performance" .
@@ -19002,6 +19039,36 @@
 <https://github.com/john1hsu/communication-graph/id/source/mehrabian-myth/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/mehrabian-myth/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "community" .
 <https://github.com/john1hsu/communication-graph/id/source/mehrabian-myth/s5> <https://schema.org/url> <https://rolsi.net/2024/05/24/guest-blog-93-of-all-misinformation-is-nonverbal-how-a-zombie-statistic-came-and-stayed/> .
+<https://github.com/john1hsu/communication-graph/id/source/memorandum/s1> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/memorandum/s1> <http://purl.org/dc/terms/publisher> "Purdue Online Writing Lab (Purdue University)" .
+<https://github.com/john1hsu/communication-graph/id/source/memorandum/s1> <http://purl.org/dc/terms/title> "Parts of a Memo" .
+<https://github.com/john1hsu/communication-graph/id/source/memorandum/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/memorandum/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/memorandum/s1> <https://schema.org/url> <https://owl.purdue.edu/owl/subject_specific_writing/professional_technical_writing/memos/parts_of_a_memo.html> .
+<https://github.com/john1hsu/communication-graph/id/source/memorandum/s2> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/memorandum/s2> <http://purl.org/dc/terms/publisher> "Yates, J., Management Communication Quarterly 2, 1989 (bibliographic record, Genre Across Borders, University of Waterloo)" .
+<https://github.com/john1hsu/communication-graph/id/source/memorandum/s2> <http://purl.org/dc/terms/title> "The Emergence of the Memo as a Managerial Genre" .
+<https://github.com/john1hsu/communication-graph/id/source/memorandum/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/memorandum/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/memorandum/s2> <https://schema.org/url> <https://genreacrossborders.uwaterloo.ca/biblio/emergence-memo-managerial-genre> .
+<https://github.com/john1hsu/communication-graph/id/source/memorandum/s3> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/memorandum/s3> <http://purl.org/dc/terms/publisher> "Headquarters, Department of the Army (copy hosted by Maine Bureau of Veterans' Services)" .
+<https://github.com/john1hsu/communication-graph/id/source/memorandum/s3> <http://purl.org/dc/terms/title> "AR 25-50 Information Management: Records Management — Preparing and Managing Correspondence (10 October 2020)" .
+<https://github.com/john1hsu/communication-graph/id/source/memorandum/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/memorandum/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/communication-graph/id/source/memorandum/s3> <https://schema.org/url> <https://www.maine.gov/dvem/policies/documents/AR%2025-50%20(10%20October%202020).pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/memorandum/s4> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/memorandum/s4> <http://purl.org/dc/terms/publisher> "Bezos, J. P., Amazon.com, Inc., filed with the U.S. Securities and Exchange Commission, 2018" .
+<https://github.com/john1hsu/communication-graph/id/source/memorandum/s4> <http://purl.org/dc/terms/title> "2017 Letter to Shareholders (Exhibit 99.1)" .
+<https://github.com/john1hsu/communication-graph/id/source/memorandum/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/memorandum/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/memorandum/s4> <https://schema.org/url> <https://www.sec.gov/Archives/edgar/data/1018724/000119312518121161/d456916dex991.htm> .
+<https://github.com/john1hsu/communication-graph/id/source/memorandum/s5> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/memorandum/s5> <http://purl.org/dc/terms/publisher> "Smith, J., Communication@Work, open textbook (CC BY 4.0), Seneca Polytechnic Pressbooks, 2019" .
+<https://github.com/john1hsu/communication-graph/id/source/memorandum/s5> <http://purl.org/dc/terms/title> "Unit 36: Memos (Communication@Work)" .
+<https://github.com/john1hsu/communication-graph/id/source/memorandum/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/memorandum/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/communication-graph/id/source/memorandum/s5> <https://schema.org/url> <https://pressbooks.senecapolytechnic.ca/buscomm/?p=118> .
 <https://github.com/john1hsu/communication-graph/id/source/message-equivocality-media-selection-and-manager-performance/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/message-equivocality-media-selection-and-manager-performance/s1> <http://purl.org/dc/terms/publisher> "Daft, R. L., Lengel, R. H. & Trevino, L. K., MIS Quarterly 11(3), 355-366, 1987, doi:10.2307/248682 (Penn State research portal record)" .
 <https://github.com/john1hsu/communication-graph/id/source/message-equivocality-media-selection-and-manager-performance/s1> <http://purl.org/dc/terms/title> "Message equivocality, media selection, and manager performance: Implications for information systems" .

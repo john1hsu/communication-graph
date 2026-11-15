@@ -14510,6 +14510,101 @@
    ]
   },
   {
+   "@id": "cm:memorandum",
+   "@type": "cmo:Genre",
+   "cmo:alternativeTo": {
+    "@id": "cm:presentation"
+   },
+   "cmo:complements": {
+    "@id": "cm:plain-language"
+   },
+   "cmo:contrastsWith": {
+    "@id": "cm:email"
+   },
+   "cmo:domain": "writing",
+   "cmo:evidenceStatus": "practitioner",
+   "cmo:file": "articles/writing/memorandum.md",
+   "cmo:level": "introductory",
+   "cmo:requires": {
+    "@id": "cm:audience-analysis"
+   },
+   "cmo:studiedIn": {
+    "@id": "cm:organizational-communication"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/memorandum/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/memorandum/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/memorandum/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/memorandum/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/memorandum/s5"
+    }
+   ],
+   "rdfs:label": "Memorandum",
+   "skos:altLabel": [
+    "business memo",
+    "internal memo",
+    "interoffice memo",
+    "memo",
+    "staff memorandum"
+   ],
+   "skos:broader": {
+    "@id": "cm:business-writing"
+   },
+   "skos:definition": "A short internal document, headed To, From, Date and Subject, that tells colleagues in the same organisation about one matter or asks them to act on it. A good memo states its purpose and main point in the opening lines, keeps to about a page, and closes with a specific next step.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/writing"
+   },
+   "skos:prefLabel": "Memorandum",
+   "skos:related": [
+    {
+     "@id": "cm:active-voice"
+    },
+    {
+     "@id": "cm:bottom-line-up-front"
+    },
+    {
+     "@id": "cm:burying-the-lede"
+    },
+    {
+     "@id": "cm:business-report"
+    },
+    {
+     "@id": "cm:effective-writing-for-army-leaders"
+    },
+    {
+     "@id": "cm:email"
+    },
+    {
+     "@id": "cm:executive-briefing"
+    },
+    {
+     "@id": "cm:executive-summary"
+    },
+    {
+     "@id": "cm:informative-headings"
+    },
+    {
+     "@id": "cm:plain-language"
+    },
+    {
+     "@id": "cm:status-reporting"
+    }
+   ]
+  },
+  {
    "@id": "cm:message-equivocality-media-selection-and-manager-performance",
    "@type": "cmo:Work",
    "cmo:authoredBy": [
@@ -50768,6 +50863,76 @@
    "dcterms:title": "Guest Blog: 93% of all misinformation is nonverbal: How a zombie statistic came and stayed",
    "schema:url": {
     "@id": "https://rolsi.net/2024/05/24/guest-blog-93-of-all-misinformation-is-nonverbal-how-a-zombie-statistic-came-and-stayed/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/memorandum/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Purdue Online Writing Lab (Purdue University)",
+   "dcterms:title": "Parts of a Memo",
+   "schema:url": {
+    "@id": "https://owl.purdue.edu/owl/subject_specific_writing/professional_technical_writing/memos/parts_of_a_memo.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/memorandum/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Yates, J., Management Communication Quarterly 2, 1989 (bibliographic record, Genre Across Borders, University of Waterloo)",
+   "dcterms:title": "The Emergence of the Memo as a Managerial Genre",
+   "schema:url": {
+    "@id": "https://genreacrossborders.uwaterloo.ca/biblio/emergence-memo-managerial-genre"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/memorandum/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Headquarters, Department of the Army (copy hosted by Maine Bureau of Veterans' Services)",
+   "dcterms:title": "AR 25-50 Information Management: Records Management — Preparing and Managing Correspondence (10 October 2020)",
+   "schema:url": {
+    "@id": "https://www.maine.gov/dvem/policies/documents/AR%2025-50%20(10%20October%202020).pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/memorandum/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Bezos, J. P., Amazon.com, Inc., filed with the U.S. Securities and Exchange Commission, 2018",
+   "dcterms:title": "2017 Letter to Shareholders (Exhibit 99.1)",
+   "schema:url": {
+    "@id": "https://www.sec.gov/Archives/edgar/data/1018724/000119312518121161/d456916dex991.htm"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/memorandum/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Smith, J., Communication@Work, open textbook (CC BY 4.0), Seneca Polytechnic Pressbooks, 2019",
+   "dcterms:title": "Unit 36: Memos (Communication@Work)",
+   "schema:url": {
+    "@id": "https://pressbooks.senecapolytechnic.ca/buscomm/?p=118"
    }
   },
   {
