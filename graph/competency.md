@@ -28,7 +28,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 |---|---|---|
 | `cm:1-2-4-all` | 3 | Facilitation, Unequal participation, production-blocking |
 | `cm:concise-writing` | 3 | Information overload, subtraction-neglect, wordiness |
-| `cm:desc-script` | 3 | Assertive communication, Defensiveness, accusatory-you-statements |
+| `cm:desc-script` | 3 | Accusatory you-statements, Assertive communication, Defensiveness |
 | `cm:paramedic-method` | 3 | Concise writing, official-style, wordiness |
 | `cm:premortem` | 3 | Deaf effect, Employee silence, groupthink |
 | `cm:self-recording-playback` | 3 | Gesturing while speaking, Public speaking anxiety, public-speaking |
@@ -42,7 +42,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:escalation-communication` | 2 | Employee silence, MUM effect |
 | `cm:facilitation` | 2 | Interrupting, Unequal participation |
 | `cm:graded-assertiveness` | 2 | Employee silence, Upward dissent |
-| `cm:i-statements` | 2 | Defensiveness, accusatory-you-statements |
+| `cm:i-statements` | 2 | Accusatory you-statements, Defensiveness |
 | `cm:interests-vs-positions` | 2 | Mythical fixed-pie bias, positional-bargaining |
 | `cm:mindfulness` | 2 | Emotion regulation, Workplace stress |
 | `cm:nominal-group-technique` | 2 | Unequal participation, production-blocking |
@@ -135,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:power-posing` | failed-replication | `cm:crede-2019` |
 | `cm:power-posing` | failed-replication | `cm:ranehill-et-al-2015` |
 
-…and 185 more.
+…and 186 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -143,6 +143,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 
 | node | type |
 |---|---|
+| `cm:accusatory-you-statements` | cmo:AntiPattern |
 | `cm:assertive-communication` | cmo:Skill |
 | `cm:empathy` | cmo:Disposition |
 | `cm:employee-silence` | cmo:Barrier |
@@ -172,9 +173,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:multicultural-team` | cmo:Context |
 | `cm:mum-effect` | cmo:Barrier |
 | `cm:narrative-persuasion` | cmo:Technique |
-| `cm:negotiation` | cmo:Context |
 
-…and 54 more.
+…and 55 more.
 
 ## Orphan articles (gap)
 

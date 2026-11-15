@@ -265,6 +265,22 @@ Ask yourself:
 
 ## difficult-conversations-and-conflict
 
+### [Accusatory you-statements](../articles/difficult-conversations-and-conflict/accusatory-you-statements.md) — AntiPattern
+
+*An operations lead is frustrated that a colleague in finance keeps approving vendor invoices late, which has twice triggered late-payment fees.*
+
+| Before | After |
+|---|---|
+| You never get the approvals done on time. You obviously don't care that we're the ones who get yelled at by vendors. | The last two vendor invoices were approved after their due dates, and we paid about $400 in late fees. I'm worried it'll happen again at month-end. Could we look together at what's slowing approvals down and agree a cut-off? |
+
+**Why:** The rewrite drops the "never" and the guess about motive, names two checkable events and their cost, owns the speaker's concern, and invites joint problem solving, so the colleague can respond to the problem instead of defending their character.
+
+Ask yourself:
+- Is the subject of my sentence the other person ("you are…", "you always…") or what actually happened?
+- Have I used "always", "never" or a claim about their motives or attitude that I could not point to evidence for?
+- Could the other person agree with my first sentence without admitting they are a bad colleague?
+- Am I describing an effect on me or the work, or delivering a judgement and expecting them to accept it?
+
 ### [Apology](../articles/difficult-conversations-and-conflict/apology.md) — Genre
 
 1. Apologize as soon as you know you caused the problem; do not wait until legal, political or face-saving worries have shaped the message.

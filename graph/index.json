@@ -111,6 +111,104 @@
   ]
  },
  {
+  "id": "cm:accusatory-you-statements",
+  "title": "Accusatory you-statements",
+  "aliases": [
+   "you-statements",
+   "you-messages",
+   "accusatory you-language",
+   "blaming you-language",
+   "you-always and you-never statements"
+  ],
+  "type": "AntiPattern",
+  "domain": "difficult-conversations-and-conflict",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/difficult-conversations-and-conflict/accusatory-you-statements.md",
+  "created": "2026-11-15",
+  "summary": "Raising a problem as a verdict about the other person (\"You always…\", \"You don't care…\") rather than as a description of what happened and how it affected you; the blaming, evaluative framing reliably makes listeners defensive and turns a fixable issue into a fight about character.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:aggressive-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:i-statements"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:desc-script"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:situation-behavior-impact"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:nonviolent-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:difficult-conversation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:jack-gibb"
+   },
+   {
+    "predicate": "cmo:causes",
+    "object": "cm:defensiveness",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:rogers-et-al-2018",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:communication-climate",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:contrastsWith",
+    "object": "cm:i-statements",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:undermines",
+    "object": "cm:conflict-resolution",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Is the subject of my sentence the other person (\"you are…\", \"you always…\") or what actually happened?",
+   "Have I used \"always\", \"never\" or a claim about their motives or attitude that I could not point to evidence for?",
+   "Could the other person agree with my first sentence without admitting they are a bad colleague?",
+   "Am I describing an effect on me or the work, or delivering a judgement and expecting them to accept it?"
+  ],
+  "steps": [],
+  "example": {
+   "situation": "An operations lead is frustrated that a colleague in finance keeps approving vendor invoices late, which has twice triggered late-payment fees.",
+   "before": "You never get the approvals done on time. You obviously don't care that we're the ones who get yelled at by vendors.",
+   "after": "The last two vendor invoices were approved after their due dates, and we paid about $400 in late fees. I'm worried it'll happen again at month-end. Could we look together at what's slowing approvals down and agree a cut-off?",
+   "why": "The rewrite drops the \"never\" and the guess about motive, names two checkable events and their cost, owns the speaker's concern, and invites joint problem solving, so the colleague can respond to the problem instead of defending their character."
+  },
+  "source_urls": [
+   "https://peerj.com/articles/4831",
+   "https://reagle.org/joseph/2010/conflict/media/gibb-defensive-communication.html",
+   "https://socialsci.libretexts.org/Bookshelves/Communication/Interpersonal_Communication/Interpersonal_Communication%3A_Context_and_Connection-OERI/08%3A_Communication_Climate/8.04%3A_Supportive_vs_Defensive_Communication",
+   "https://digfir-published.macmillanusa.com/choicesconnections2e/choicesconnections2e_ch5_9.html",
+   "https://www.gottman.com/blog/what-is-criticism-the-four-horsemen/"
+  ]
+ },
+ {
   "id": "cm:acoustic-speech-analysis-coaching",
   "title": "Acoustic speech-analysis coaching",
   "aliases": [

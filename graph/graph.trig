@@ -291,6 +291,14 @@
 <https://github.com/john1hsu/communication-graph/id/power-distance#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/power-distance/s4> .
 <https://github.com/john1hsu/communication-graph/id/power-distance#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/power-distance/s5> .
 <https://github.com/john1hsu/communication-graph/id/power-distance#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/power-distance/s6> .
+<https://github.com/john1hsu/communication-graph/id/accusatory-you-statements#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/accusatory-you-statements#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements> .
+<https://github.com/john1hsu/communication-graph/id/accusatory-you-statements#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/difficult-conversations-and-conflict/accusatory-you-statements.md" .
+<https://github.com/john1hsu/communication-graph/id/accusatory-you-statements#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/accusatory-you-statements/s1> .
+<https://github.com/john1hsu/communication-graph/id/accusatory-you-statements#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/accusatory-you-statements/s2> .
+<https://github.com/john1hsu/communication-graph/id/accusatory-you-statements#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/accusatory-you-statements/s3> .
+<https://github.com/john1hsu/communication-graph/id/accusatory-you-statements#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/accusatory-you-statements/s4> .
+<https://github.com/john1hsu/communication-graph/id/accusatory-you-statements#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/accusatory-you-statements/s5> .
 <https://github.com/john1hsu/communication-graph/id/apology#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/apology#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/apology> .
 <https://github.com/john1hsu/communication-graph/id/apology#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/difficult-conversations-and-conflict/apology.md" .
@@ -5322,6 +5330,89 @@
   <https://github.com/john1hsu/communication-graph/id/source/power-distance/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
   <https://github.com/john1hsu/communication-graph/id/source/power-distance/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
   <https://github.com/john1hsu/communication-graph/id/source/power-distance/s6> <https://schema.org/url> <https://pubmed.ncbi.nlm.nih.gov/11543415> .
+}
+
+<https://github.com/john1hsu/communication-graph/id/accusatory-you-statements#graph> {
+  <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Is the subject of my sentence the other person (\"you are…\", \"you always…\") or what actually happened?" .
+  <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements> .
+  <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Have I used \"always\", \"never\" or a claim about their motives or attitude that I could not point to evidence for?" .
+  <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements> .
+  <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Could the other person agree with my first sentence without admitting they are a bad colleague?" .
+  <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements> .
+  <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Am I describing an effect on me or the work, or delivering a judgement and expecting them to accept it?" .
+  <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements> .
+  <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+  <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements/example> <https://github.com/john1hsu/communication-graph/ontology#after> "The last two vendor invoices were approved after their due dates, and we paid about $400 in late fees. I'm worried it'll happen again at month-end. Could we look together at what's slowing approvals down and agree a cut-off?" .
+  <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements/example> <https://github.com/john1hsu/communication-graph/ontology#before> "You never get the approvals done on time. You obviously don't care that we're the ones who get yelled at by vendors." .
+  <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "An operations lead is frustrated that a colleague in finance keeps approving vendor invoices late, which has twice triggered late-payment fees." .
+  <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements/example> <https://github.com/john1hsu/communication-graph/ontology#why> "The rewrite drops the \"never\" and the guess about motive, names two checkable events and their cost, owns the speaker's concern, and invites joint problem solving, so the colleague can respond to the problem instead of defending their character." .
+  <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements> <http://purl.org/dc/terms/created> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#AntiPattern> .
+  <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements> <http://www.w3.org/2000/01/rdf-schema#label> "Accusatory you-statements" .
+  <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements> <http://www.w3.org/2004/02/skos/core#altLabel> "accusatory you-language" .
+  <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements> <http://www.w3.org/2004/02/skos/core#altLabel> "blaming you-language" .
+  <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements> <http://www.w3.org/2004/02/skos/core#altLabel> "you-always and you-never statements" .
+  <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements> <http://www.w3.org/2004/02/skos/core#altLabel> "you-messages" .
+  <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements> <http://www.w3.org/2004/02/skos/core#altLabel> "you-statements" .
+  <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/aggressive-communication> .
+  <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements> <http://www.w3.org/2004/02/skos/core#definition> "Raising a problem as a verdict about the other person (\"You always…\", \"You don't care…\") rather than as a description of what happened and how it affected you; the blaming, evaluative framing reliably makes listeners defensive and turns a fixable issue into a fight about character." .
+  <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/difficult-conversations-and-conflict> .
+  <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements> <http://www.w3.org/2004/02/skos/core#prefLabel> "Accusatory you-statements" .
+  <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/desc-script> .
+  <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/difficult-conversation> .
+  <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/i-statements> .
+  <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/jack-gibb> .
+  <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/nonviolent-communication> .
+  <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> .
+  <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/accusatory-you-statements/s1> .
+  <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/accusatory-you-statements/s2> .
+  <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/accusatory-you-statements/s3> .
+  <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/accusatory-you-statements/s4> .
+  <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/accusatory-you-statements/s5> .
+  <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements> <https://github.com/john1hsu/communication-graph/ontology#causes> <https://github.com/john1hsu/communication-graph/id/defensiveness> .
+  <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/i-statements> .
+  <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/rogers-et-al-2018> .
+  <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements> <https://github.com/john1hsu/communication-graph/ontology#domain> "difficult-conversations-and-conflict" .
+  <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+  <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements/example> .
+  <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/communication-climate> .
+  <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/difficult-conversations-and-conflict/accusatory-you-statements.md" .
+  <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+  <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements> <https://github.com/john1hsu/communication-graph/ontology#undermines> <https://github.com/john1hsu/communication-graph/id/conflict-resolution> .
+  <https://github.com/john1hsu/communication-graph/id/source/accusatory-you-statements/s1> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/accusatory-you-statements/s1> <http://purl.org/dc/terms/publisher> "Rogers et al., PeerJ 6:e4831 (2018), doi:10.7717/peerj.4831" .
+  <https://github.com/john1hsu/communication-graph/id/source/accusatory-you-statements/s1> <http://purl.org/dc/terms/title> "I understand you feel that way, but I feel this way: the benefits of I-language and communicating perspective during conflict" .
+  <https://github.com/john1hsu/communication-graph/id/source/accusatory-you-statements/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/accusatory-you-statements/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/accusatory-you-statements/s1> <https://schema.org/url> <https://peerj.com/articles/4831> .
+  <https://github.com/john1hsu/communication-graph/id/source/accusatory-you-statements/s2> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/accusatory-you-statements/s2> <http://purl.org/dc/terms/publisher> "Jack R. Gibb (transcription of the original article, hosted by Joseph Reagle)" .
+  <https://github.com/john1hsu/communication-graph/id/source/accusatory-you-statements/s2> <http://purl.org/dc/terms/title> "Defensive Communication" .
+  <https://github.com/john1hsu/communication-graph/id/source/accusatory-you-statements/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/accusatory-you-statements/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/communication-graph/id/source/accusatory-you-statements/s2> <https://schema.org/url> <https://reagle.org/joseph/2010/conflict/media/gibb-defensive-communication.html> .
+  <https://github.com/john1hsu/communication-graph/id/source/accusatory-you-statements/s3> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/accusatory-you-statements/s3> <http://purl.org/dc/terms/publisher> "Kim Yee & Armeda Reitzel, Interpersonal Communication - Context and Connection (ASCCC OERI), LibreTexts Social Sciences" .
+  <https://github.com/john1hsu/communication-graph/id/source/accusatory-you-statements/s3> <http://purl.org/dc/terms/title> "8.4: Supportive vs Defensive Communication" .
+  <https://github.com/john1hsu/communication-graph/id/source/accusatory-you-statements/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/accusatory-you-statements/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "textbook" .
+  <https://github.com/john1hsu/communication-graph/id/source/accusatory-you-statements/s3> <https://schema.org/url> <https://socialsci.libretexts.org/Bookshelves/Communication/Interpersonal_Communication/Interpersonal_Communication%3A_Context_and_Connection-OERI/08%3A_Communication_Climate/8.04%3A_Supportive_vs_Defensive_Communication> .
+  <https://github.com/john1hsu/communication-graph/id/source/accusatory-you-statements/s4> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/accusatory-you-statements/s4> <http://purl.org/dc/terms/publisher> "Choices & Connections, 2nd ed., chapter 5 (Macmillan Learning e-book)" .
+  <https://github.com/john1hsu/communication-graph/id/source/accusatory-you-statements/s4> <http://purl.org/dc/terms/title> "Use 'I' and 'We' Language" .
+  <https://github.com/john1hsu/communication-graph/id/source/accusatory-you-statements/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/accusatory-you-statements/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "textbook" .
+  <https://github.com/john1hsu/communication-graph/id/source/accusatory-you-statements/s4> <https://schema.org/url> <https://digfir-published.macmillanusa.com/choicesconnections2e/choicesconnections2e_ch5_9.html> .
+  <https://github.com/john1hsu/communication-graph/id/source/accusatory-you-statements/s5> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/accusatory-you-statements/s5> <http://purl.org/dc/terms/publisher> "Ellie Wilde, The Gottman Institute (2025, updated 2026)" .
+  <https://github.com/john1hsu/communication-graph/id/source/accusatory-you-statements/s5> <http://purl.org/dc/terms/title> "What Is Criticism? The Four Horsemen" .
+  <https://github.com/john1hsu/communication-graph/id/source/accusatory-you-statements/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/accusatory-you-statements/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+  <https://github.com/john1hsu/communication-graph/id/source/accusatory-you-statements/s5> <https://schema.org/url> <https://www.gottman.com/blog/what-is-criticism-the-four-horsemen/> .
 }
 
 <https://github.com/john1hsu/communication-graph/id/apology#graph> {
@@ -28536,6 +28627,14 @@
   <https://github.com/john1hsu/communication-graph/id/abstract-language> <https://github.com/john1hsu/communication-graph/ontology#causedBy> <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> .
   <https://github.com/john1hsu/communication-graph/id/abstract> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/executive-summary> .
   <https://github.com/john1hsu/communication-graph/id/accessible-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/slide-design> .
+  <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+  <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/aggressive-communication> .
   <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/defensiveness> .
   <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/desc-script> .
   <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/i-statements> .
@@ -28665,6 +28764,8 @@
   <https://github.com/john1hsu/communication-graph/id/adriani-et-al-2024> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/nonviolent-communication> .
   <https://github.com/john1hsu/communication-graph/id/advice-giving> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/humble-inquiry> .
   <https://github.com/john1hsu/communication-graph/id/advice-giving> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> .
+  <https://github.com/john1hsu/communication-graph/id/aggressive-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements> .
+  <https://github.com/john1hsu/communication-graph/id/aggressive-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements> .
   <https://github.com/john1hsu/communication-graph/id/aggressive-communication> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/assertive-communication> .
   <https://github.com/john1hsu/communication-graph/id/alan-h-monroe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/alan-h-monroe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
@@ -29790,6 +29891,7 @@
   <https://github.com/john1hsu/communication-graph/id/communication-apprehension> <https://github.com/john1hsu/communication-graph/ontology#hasInstance> <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> .
   <https://github.com/john1hsu/communication-graph/id/communication-climate> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/defensiveness> .
   <https://github.com/john1hsu/communication-graph/id/communication-climate> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/defensiveness> .
+  <https://github.com/john1hsu/communication-graph/id/communication-climate> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements> .
   <https://github.com/john1hsu/communication-graph/id/communication-competence/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/communication-competence/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/communication-competence/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -30080,6 +30182,7 @@
   <https://github.com/john1hsu/communication-graph/id/conflict-resolution> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/desc-script> .
   <https://github.com/john1hsu/communication-graph/id/conflict-resolution> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mindfulness> .
   <https://github.com/john1hsu/communication-graph/id/conflict-resolution> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/morton-deutsch> .
+  <https://github.com/john1hsu/communication-graph/id/conflict-resolution> <https://github.com/john1hsu/communication-graph/ontology#underminedBy> <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements> .
   <https://github.com/john1hsu/communication-graph/id/consider-the-opposite> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-bias> .
   <https://github.com/john1hsu/communication-graph/id/considering-others-contributions-first/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/considering-others-contributions-first/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -30414,6 +30517,7 @@
   <https://github.com/john1hsu/communication-graph/id/defensiveness> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/receiving-feedback> .
   <https://github.com/john1hsu/communication-graph/id/defensiveness> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/self-affirmation-before-feedback> .
   <https://github.com/john1hsu/communication-graph/id/defensiveness> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> .
+  <https://github.com/john1hsu/communication-graph/id/defensiveness> <https://github.com/john1hsu/communication-graph/ontology#causedBy> <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements> .
   <https://github.com/john1hsu/communication-graph/id/deliberate-practice> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> .
   <https://github.com/john1hsu/communication-graph/id/deliberate-practice> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> .
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
@@ -30471,6 +30575,7 @@
   <https://github.com/john1hsu/communication-graph/id/desc-script> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/humanities> .
   <https://github.com/john1hsu/communication-graph/id/desc-script> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
   <https://github.com/john1hsu/communication-graph/id/desc-script> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
+  <https://github.com/john1hsu/communication-graph/id/desc-script> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements> .
   <https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -30525,6 +30630,7 @@
   <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/social-accounts> .
   <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/spikes-protocol> .
   <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/trust-repair> .
+  <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements> .
   <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/apology> .
   <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/avrim-fishkind> .
   <https://github.com/john1hsu/communication-graph/id/difficult-conversation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/conflict-resolution> .
@@ -32101,6 +32207,7 @@
   <https://github.com/john1hsu/communication-graph/id/i-statements> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/humanities> .
   <https://github.com/john1hsu/communication-graph/id/i-statements> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
   <https://github.com/john1hsu/communication-graph/id/i-statements> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
+  <https://github.com/john1hsu/communication-graph/id/i-statements> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements> .
   <https://github.com/john1hsu/communication-graph/id/i-statements> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/active-listening> .
   <https://github.com/john1hsu/communication-graph/id/i-statements> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/apology> .
   <https://github.com/john1hsu/communication-graph/id/i-statements> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/assertive-communication> .
@@ -32111,6 +32218,7 @@
   <https://github.com/john1hsu/communication-graph/id/i-statements> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/graded-assertiveness> .
   <https://github.com/john1hsu/communication-graph/id/i-statements> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/paraphrasing> .
   <https://github.com/john1hsu/communication-graph/id/i-statements> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/perception-checking> .
+  <https://github.com/john1hsu/communication-graph/id/i-statements> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements> .
   <https://github.com/john1hsu/communication-graph/id/i-statements> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/desc-script> .
   <https://github.com/john1hsu/communication-graph/id/i-was-wrong> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/mea-culpa> .
   <https://github.com/john1hsu/communication-graph/id/ignoring-stakeholders> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping> .
@@ -32629,6 +32737,7 @@
   <https://github.com/john1hsu/communication-graph/id/ivers-et-al-2025> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996> .
   <https://github.com/john1hsu/communication-graph/id/jack-gibb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/jack-gibb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+  <https://github.com/john1hsu/communication-graph/id/jack-gibb> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements> .
   <https://github.com/john1hsu/communication-graph/id/jack-gibb> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/defensiveness> .
   <https://github.com/john1hsu/communication-graph/id/jacob-l-moreno> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/jacob-l-moreno> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
@@ -33579,6 +33688,7 @@
   <https://github.com/john1hsu/communication-graph/id/nonviolent-communication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/nonviolent-communication> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/conflict-resolution> .
   <https://github.com/john1hsu/communication-graph/id/nonviolent-communication> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
+  <https://github.com/john1hsu/communication-graph/id/nonviolent-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements> .
   <https://github.com/john1hsu/communication-graph/id/nonviolent-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/assertive-communication> .
   <https://github.com/john1hsu/communication-graph/id/nonviolent-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/desc-script> .
   <https://github.com/john1hsu/communication-graph/id/nonviolent-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/empathy> .
@@ -34792,6 +34902,9 @@
   <https://github.com/john1hsu/communication-graph/id/roger-fisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/roger-fisher> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/batna> .
   <https://github.com/john1hsu/communication-graph/id/roger-fisher> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/principled-negotiation> .
+  <https://github.com/john1hsu/communication-graph/id/rogers-et-al-2018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/rogers-et-al-2018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
+  <https://github.com/john1hsu/communication-graph/id/rogers-et-al-2018> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements> .
   <https://github.com/john1hsu/communication-graph/id/rogers-et-al-2018> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/i-statements> .
   <https://github.com/john1hsu/communication-graph/id/rogers-norton-2011> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/handling-questions> .
   <https://github.com/john1hsu/communication-graph/id/role-ambiguity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/workplace-stress> .
@@ -35157,6 +35270,7 @@
   <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/humanities> .
   <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
   <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
+  <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements> .
   <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/defensiveness> .
   <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/desc-script> .
   <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/feedback-intervention-theory> .
