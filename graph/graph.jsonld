@@ -23496,6 +23496,77 @@
    ]
   },
   {
+   "@id": "cm:the-network-nation",
+   "@type": "cmo:Work",
+   "cmo:authoredBy": [
+    {
+     "@id": "cm:murray-turoff"
+    },
+    {
+     "@id": "cm:starr-roxanne-hiltz"
+    }
+   ],
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "historical",
+   "cmo:file": "articles/thinkers-and-works/the-network-nation.md",
+   "cmo:introduces": {
+    "@id": "cm:digital-communication"
+   },
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/the-network-nation/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/the-network-nation/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/the-network-nation/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/the-network-nation/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/the-network-nation/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/the-network-nation/s6"
+    }
+   ],
+   "rdfs:label": "The Network Nation",
+   "skos:altLabel": [
+    "Hiltz and Turoff 1978",
+    "Network Nation (Hiltz and Turoff)",
+    "The Network Nation: Human Communication via Computer"
+   ],
+   "skos:broader": {
+    "@id": "cm:digital-communication"
+   },
+   "skos:definition": "Starr Roxanne Hiltz and Murray Turoff's 1978 book (revised 1993), the first full-length study of how groups communicate, socialise and work together through computer conferencing, which framed computer-mediated communication as a subject of social research and anticipated email-, chat- and forum-based work along with its flaming, privacy and overload problems.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "The Network Nation",
+   "skos:related": [
+    {
+     "@id": "cm:asynchronous-communication"
+    },
+    {
+     "@id": "cm:computer-conferencing"
+    },
+    {
+     "@id": "cm:information-overload"
+    },
+    {
+     "@id": "cm:unequal-participation"
+    }
+   ]
+  },
+  {
    "@id": "cm:the-physician-as-teacher",
    "@type": "cmo:Work",
    "cmo:authoredBy": [
@@ -57208,6 +57279,90 @@
    "dcterms:title": "Erin Meyer - faculty profile",
    "schema:url": {
     "@id": "https://www.insead.edu/faculty/erin-meyer"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/the-network-nation/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Subramanian, R. & Haigh, T., IEEE Annals of the History of Computing 35(1), 2013 (Project MUSE)",
+   "dcterms:title": "Starr Roxanne Hiltz: Pioneer Digital Sociologist",
+   "schema:url": {
+    "@id": "https://muse.jhu.edu/journals/ieee_annals_of_the_history_of_computing/v035/35.1.subramanian01.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/the-network-nation/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "preprint",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Ramesh Subramanian, Quinnipiac University; SIGCIS work-in-progress workshop, 2011",
+   "dcterms:title": "Murray Turoff and the Birth of Computer-Mediated Communication (work-in-progress paper)",
+   "schema:url": {
+    "@id": "https://marhicks.com/SIGCISWIP2011/WIPSIGCIS2011RSubramanian-MurrayTuroffandHistofCMC.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/the-network-nation/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Robert V. Kozinets, SAGE Publications (sample chapter)",
+   "dcterms:title": "A History of Social Media (Chapter 2 of Netnography: The Essential Guide to Qualitative Social Media Research, 3rd ed.)",
+   "schema:url": {
+    "@id": "https://cmn-cdn-001.sagepub.com/books/titles/260905/att_sb1_107405.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/the-network-nation/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Starr Roxanne Hiltz & Murray Turoff, The MIT Press, 1993 (MIT Press Direct)",
+   "dcterms:title": "The Network Nation: Human Communication via Computer, Revised Edition (chapter record: Societal Impacts of Computerized Conferencing)",
+   "schema:url": {
+    "@id": "https://direct.mit.edu/books/book/3979/chapter/166081/Societal-Impacts-of-Computerized-Conferencing"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/the-network-nation/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Starr Roxanne Hiltz & Murray Turoff, Addison-Wesley, Reading, Mass., 1978 (Internet Archive)",
+   "dcterms:title": "The network nation: human communication via computer (1978 first edition, catalogue record)",
+   "schema:url": {
+    "@id": "https://archive.org/details/networknationhum00hiltrich"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/the-network-nation/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Turoff, M., Hiltz, S. R., Bieber, M., Fjermestad, J. & Rana, A., Journal of Computer-Mediated Communication 4(4), 1999 (Oxford Academic)",
+   "dcterms:title": "Collaborative Discourse Structures in Computer Mediated Group Communications",
+   "schema:url": {
+    "@id": "https://academic.oup.com/jcmc/article/4/4/JCMC441/4584400"
    }
   },
   {

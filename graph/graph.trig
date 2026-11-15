@@ -2255,6 +2255,15 @@
 <https://github.com/john1hsu/communication-graph/id/the-culture-map#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/the-culture-map/s4> .
 <https://github.com/john1hsu/communication-graph/id/the-culture-map#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/the-culture-map/s5> .
 <https://github.com/john1hsu/communication-graph/id/the-culture-map#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/the-culture-map/s6> .
+<https://github.com/john1hsu/communication-graph/id/the-network-nation#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/the-network-nation#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/the-network-nation> .
+<https://github.com/john1hsu/communication-graph/id/the-network-nation#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/thinkers-and-works/the-network-nation.md" .
+<https://github.com/john1hsu/communication-graph/id/the-network-nation#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/the-network-nation/s1> .
+<https://github.com/john1hsu/communication-graph/id/the-network-nation#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/the-network-nation/s2> .
+<https://github.com/john1hsu/communication-graph/id/the-network-nation#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/the-network-nation/s3> .
+<https://github.com/john1hsu/communication-graph/id/the-network-nation#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/the-network-nation/s4> .
+<https://github.com/john1hsu/communication-graph/id/the-network-nation#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/the-network-nation/s5> .
+<https://github.com/john1hsu/communication-graph/id/the-network-nation#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/the-network-nation/s6> .
 <https://github.com/john1hsu/communication-graph/id/the-physician-as-teacher#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/the-physician-as-teacher#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/the-physician-as-teacher> .
 <https://github.com/john1hsu/communication-graph/id/the-physician-as-teacher#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/thinkers-and-works/the-physician-as-teacher.md" .
@@ -25896,6 +25905,72 @@
   <https://github.com/john1hsu/communication-graph/id/the-culture-map> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 }
 
+<https://github.com/john1hsu/communication-graph/id/the-network-nation#graph> {
+  <https://github.com/john1hsu/communication-graph/id/source/the-network-nation/s1> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/the-network-nation/s1> <http://purl.org/dc/terms/publisher> "Subramanian, R. & Haigh, T., IEEE Annals of the History of Computing 35(1), 2013 (Project MUSE)" .
+  <https://github.com/john1hsu/communication-graph/id/source/the-network-nation/s1> <http://purl.org/dc/terms/title> "Starr Roxanne Hiltz: Pioneer Digital Sociologist" .
+  <https://github.com/john1hsu/communication-graph/id/source/the-network-nation/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/the-network-nation/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/the-network-nation/s1> <https://schema.org/url> <https://muse.jhu.edu/journals/ieee_annals_of_the_history_of_computing/v035/35.1.subramanian01.html> .
+  <https://github.com/john1hsu/communication-graph/id/source/the-network-nation/s2> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/the-network-nation/s2> <http://purl.org/dc/terms/publisher> "Ramesh Subramanian, Quinnipiac University; SIGCIS work-in-progress workshop, 2011" .
+  <https://github.com/john1hsu/communication-graph/id/source/the-network-nation/s2> <http://purl.org/dc/terms/title> "Murray Turoff and the Birth of Computer-Mediated Communication (work-in-progress paper)" .
+  <https://github.com/john1hsu/communication-graph/id/source/the-network-nation/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/the-network-nation/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "preprint" .
+  <https://github.com/john1hsu/communication-graph/id/source/the-network-nation/s2> <https://schema.org/url> <https://marhicks.com/SIGCISWIP2011/WIPSIGCIS2011RSubramanian-MurrayTuroffandHistofCMC.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/the-network-nation/s3> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/the-network-nation/s3> <http://purl.org/dc/terms/publisher> "Robert V. Kozinets, SAGE Publications (sample chapter)" .
+  <https://github.com/john1hsu/communication-graph/id/source/the-network-nation/s3> <http://purl.org/dc/terms/title> "A History of Social Media (Chapter 2 of Netnography: The Essential Guide to Qualitative Social Media Research, 3rd ed.)" .
+  <https://github.com/john1hsu/communication-graph/id/source/the-network-nation/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/the-network-nation/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "textbook" .
+  <https://github.com/john1hsu/communication-graph/id/source/the-network-nation/s3> <https://schema.org/url> <https://cmn-cdn-001.sagepub.com/books/titles/260905/att_sb1_107405.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/the-network-nation/s4> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/the-network-nation/s4> <http://purl.org/dc/terms/publisher> "Starr Roxanne Hiltz & Murray Turoff, The MIT Press, 1993 (MIT Press Direct)" .
+  <https://github.com/john1hsu/communication-graph/id/source/the-network-nation/s4> <http://purl.org/dc/terms/title> "The Network Nation: Human Communication via Computer, Revised Edition (chapter record: Societal Impacts of Computerized Conferencing)" .
+  <https://github.com/john1hsu/communication-graph/id/source/the-network-nation/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/the-network-nation/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/communication-graph/id/source/the-network-nation/s4> <https://schema.org/url> <https://direct.mit.edu/books/book/3979/chapter/166081/Societal-Impacts-of-Computerized-Conferencing> .
+  <https://github.com/john1hsu/communication-graph/id/source/the-network-nation/s5> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/the-network-nation/s5> <http://purl.org/dc/terms/publisher> "Starr Roxanne Hiltz & Murray Turoff, Addison-Wesley, Reading, Mass., 1978 (Internet Archive)" .
+  <https://github.com/john1hsu/communication-graph/id/source/the-network-nation/s5> <http://purl.org/dc/terms/title> "The network nation: human communication via computer (1978 first edition, catalogue record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/the-network-nation/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/the-network-nation/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/communication-graph/id/source/the-network-nation/s5> <https://schema.org/url> <https://archive.org/details/networknationhum00hiltrich> .
+  <https://github.com/john1hsu/communication-graph/id/source/the-network-nation/s6> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/the-network-nation/s6> <http://purl.org/dc/terms/publisher> "Turoff, M., Hiltz, S. R., Bieber, M., Fjermestad, J. & Rana, A., Journal of Computer-Mediated Communication 4(4), 1999 (Oxford Academic)" .
+  <https://github.com/john1hsu/communication-graph/id/source/the-network-nation/s6> <http://purl.org/dc/terms/title> "Collaborative Discourse Structures in Computer Mediated Group Communications" .
+  <https://github.com/john1hsu/communication-graph/id/source/the-network-nation/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/the-network-nation/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/the-network-nation/s6> <https://schema.org/url> <https://academic.oup.com/jcmc/article/4/4/JCMC441/4584400> .
+  <https://github.com/john1hsu/communication-graph/id/the-network-nation> <http://purl.org/dc/terms/created> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/the-network-nation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
+  <https://github.com/john1hsu/communication-graph/id/the-network-nation> <http://www.w3.org/2000/01/rdf-schema#label> "The Network Nation" .
+  <https://github.com/john1hsu/communication-graph/id/the-network-nation> <http://www.w3.org/2004/02/skos/core#altLabel> "Hiltz and Turoff 1978" .
+  <https://github.com/john1hsu/communication-graph/id/the-network-nation> <http://www.w3.org/2004/02/skos/core#altLabel> "Network Nation (Hiltz and Turoff)" .
+  <https://github.com/john1hsu/communication-graph/id/the-network-nation> <http://www.w3.org/2004/02/skos/core#altLabel> "The Network Nation: Human Communication via Computer" .
+  <https://github.com/john1hsu/communication-graph/id/the-network-nation> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/digital-communication> .
+  <https://github.com/john1hsu/communication-graph/id/the-network-nation> <http://www.w3.org/2004/02/skos/core#definition> "Starr Roxanne Hiltz and Murray Turoff's 1978 book (revised 1993), the first full-length study of how groups communicate, socialise and work together through computer conferencing, which framed computer-mediated communication as a subject of social research and anticipated email-, chat- and forum-based work along with its flaming, privacy and overload problems." .
+  <https://github.com/john1hsu/communication-graph/id/the-network-nation> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works> .
+  <https://github.com/john1hsu/communication-graph/id/the-network-nation> <http://www.w3.org/2004/02/skos/core#prefLabel> "The Network Nation" .
+  <https://github.com/john1hsu/communication-graph/id/the-network-nation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> .
+  <https://github.com/john1hsu/communication-graph/id/the-network-nation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/computer-conferencing> .
+  <https://github.com/john1hsu/communication-graph/id/the-network-nation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/information-overload> .
+  <https://github.com/john1hsu/communication-graph/id/the-network-nation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/unequal-participation> .
+  <https://github.com/john1hsu/communication-graph/id/the-network-nation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/the-network-nation/s1> .
+  <https://github.com/john1hsu/communication-graph/id/the-network-nation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/the-network-nation/s2> .
+  <https://github.com/john1hsu/communication-graph/id/the-network-nation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/the-network-nation/s3> .
+  <https://github.com/john1hsu/communication-graph/id/the-network-nation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/the-network-nation/s4> .
+  <https://github.com/john1hsu/communication-graph/id/the-network-nation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/the-network-nation/s5> .
+  <https://github.com/john1hsu/communication-graph/id/the-network-nation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/the-network-nation/s6> .
+  <https://github.com/john1hsu/communication-graph/id/the-network-nation> <https://github.com/john1hsu/communication-graph/ontology#authoredBy> <https://github.com/john1hsu/communication-graph/id/murray-turoff> .
+  <https://github.com/john1hsu/communication-graph/id/the-network-nation> <https://github.com/john1hsu/communication-graph/ontology#authoredBy> <https://github.com/john1hsu/communication-graph/id/starr-roxanne-hiltz> .
+  <https://github.com/john1hsu/communication-graph/id/the-network-nation> <https://github.com/john1hsu/communication-graph/ontology#domain> "thinkers-and-works" .
+  <https://github.com/john1hsu/communication-graph/id/the-network-nation> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "historical" .
+  <https://github.com/john1hsu/communication-graph/id/the-network-nation> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/thinkers-and-works/the-network-nation.md" .
+  <https://github.com/john1hsu/communication-graph/id/the-network-nation> <https://github.com/john1hsu/communication-graph/ontology#introduces> <https://github.com/john1hsu/communication-graph/id/digital-communication> .
+  <https://github.com/john1hsu/communication-graph/id/the-network-nation> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+}
+
 <https://github.com/john1hsu/communication-graph/id/the-physician-as-teacher#graph> {
   <https://github.com/john1hsu/communication-graph/id/source/the-physician-as-teacher/s1> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
   <https://github.com/john1hsu/communication-graph/id/source/the-physician-as-teacher/s1> <http://purl.org/dc/terms/publisher> "Anne Dohrenwend, Family Practice Management 9(10), 43-46 (Nov/Dec 2002), American Academy of Family Physicians" .
@@ -27986,6 +28061,7 @@
   <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/media-synchronicity-theory> .
   <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/ray-tomlinson> .
   <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/scheduled-inbox-checks> .
+  <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/the-network-nation> .
   <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/workplace-meetings> .
   <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/workplace-stress> .
   <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/conversational-receptiveness> .
@@ -29034,6 +29110,7 @@
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/status-reporting> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/teach-back> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/the-culture-map> .
+  <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/the-network-nation> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/the-physician-as-teacher> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/thought-groups> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/trusted-advisor> .
@@ -29051,6 +29128,7 @@
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/rhetoric> .
   <https://github.com/john1hsu/communication-graph/id/communication-theory-as-a-field> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
   <https://github.com/john1hsu/communication-graph/id/communicative-constitution-of-organizations> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
+  <https://github.com/john1hsu/communication-graph/id/computer-conferencing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/the-network-nation> .
   <https://github.com/john1hsu/communication-graph/id/computer-conferencing> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/murray-turoff> .
   <https://github.com/john1hsu/communication-graph/id/computer-support-for-learners-of-spoken-english> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/computer-support-for-learners-of-spoken-english> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
@@ -29584,6 +29662,7 @@
   <https://github.com/john1hsu/communication-graph/id/digital-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/instant-messaging> .
   <https://github.com/john1hsu/communication-graph/id/digital-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/media-synchronicity-theory> .
   <https://github.com/john1hsu/communication-graph/id/digital-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/rfc-1855-netiquette-guidelines> .
+  <https://github.com/john1hsu/communication-graph/id/digital-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/the-network-nation> .
   <https://github.com/john1hsu/communication-graph/id/digital-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/video-call-communication> .
   <https://github.com/john1hsu/communication-graph/id/digital-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> .
   <https://github.com/john1hsu/communication-graph/id/digital-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/camera-level-gaze> .
@@ -29595,9 +29674,11 @@
   <https://github.com/john1hsu/communication-graph/id/digital-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/instant-messaging> .
   <https://github.com/john1hsu/communication-graph/id/digital-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/media-synchronicity-theory> .
   <https://github.com/john1hsu/communication-graph/id/digital-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/rfc-1855-netiquette-guidelines> .
+  <https://github.com/john1hsu/communication-graph/id/digital-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/the-network-nation> .
   <https://github.com/john1hsu/communication-graph/id/digital-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/video-call-communication> .
   <https://github.com/john1hsu/communication-graph/id/digital-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> .
   <https://github.com/john1hsu/communication-graph/id/digital-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
+  <https://github.com/john1hsu/communication-graph/id/digital-communication> <https://github.com/john1hsu/communication-graph/ontology#introducedIn> <https://github.com/john1hsu/communication-graph/id/the-network-nation> .
   <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/direct-vs-indirect-feedback/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -30978,6 +31059,7 @@
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/status-reporting> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/teach-back> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/the-culture-map> .
+  <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/the-network-nation> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/the-physician-as-teacher> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/thought-groups> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/trusted-advisor> .
@@ -31181,6 +31263,7 @@
   <https://github.com/john1hsu/communication-graph/id/information-overload> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mccallum-erie-railroad-report> .
   <https://github.com/john1hsu/communication-graph/id/information-overload> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/murray-turoff> .
   <https://github.com/john1hsu/communication-graph/id/information-overload> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
+  <https://github.com/john1hsu/communication-graph/id/information-overload> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/the-network-nation> .
   <https://github.com/john1hsu/communication-graph/id/information-overload> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/wall-of-text> .
   <https://github.com/john1hsu/communication-graph/id/information-overload> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/workplace-stress> .
   <https://github.com/john1hsu/communication-graph/id/information-overload> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/chat-etiquette> .
@@ -34255,6 +34338,7 @@
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/status-reporting> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/teach-back> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/the-culture-map> .
+  <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/the-network-nation> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/the-physician-as-teacher> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/thomas-kilmann-conflict-modes> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/thought-groups> .
@@ -34390,6 +34474,9 @@
   <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/raci-matrix> .
   <https://github.com/john1hsu/communication-graph/id/stakeholder-salience-theory> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping> .
   <https://github.com/john1hsu/communication-graph/id/stakeholder-theory> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping> .
+  <https://github.com/john1hsu/communication-graph/id/starr-roxanne-hiltz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/starr-roxanne-hiltz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+  <https://github.com/john1hsu/communication-graph/id/starr-roxanne-hiltz> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/the-network-nation> .
   <https://github.com/john1hsu/communication-graph/id/starr-roxanne-hiltz> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/murray-turoff> .
   <https://github.com/john1hsu/communication-graph/id/start-stop-continue> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/performance-review> .
   <https://github.com/john1hsu/communication-graph/id/statistical-evidence> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/narrative-persuasion> .
@@ -34587,8 +34674,10 @@
   <https://github.com/john1hsu/communication-graph/id/the-language-of-global-success> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
   <https://github.com/john1hsu/communication-graph/id/the-language-of-global-success> <https://github.com/john1hsu/communication-graph/ontology#authoredBy> <https://github.com/john1hsu/communication-graph/id/tsedal-neeley> .
   <https://github.com/john1hsu/communication-graph/id/the-network-nation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
-  <https://github.com/john1hsu/communication-graph/id/the-network-nation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
-  <https://github.com/john1hsu/communication-graph/id/the-network-nation> <https://github.com/john1hsu/communication-graph/ontology#authoredBy> <https://github.com/john1hsu/communication-graph/id/murray-turoff> .
+  <https://github.com/john1hsu/communication-graph/id/the-network-nation> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
+  <https://github.com/john1hsu/communication-graph/id/the-network-nation> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/digital-communication> .
+  <https://github.com/john1hsu/communication-graph/id/the-network-nation> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/humanities> .
+  <https://github.com/john1hsu/communication-graph/id/the-network-nation> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/the-physician-as-teacher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/the-physician-as-teacher> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
   <https://github.com/john1hsu/communication-graph/id/the-physician-as-teacher> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/feedback> .
@@ -34742,6 +34831,7 @@
   <https://github.com/john1hsu/communication-graph/id/unequal-participation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/hybrid-meetings> .
   <https://github.com/john1hsu/communication-graph/id/unequal-participation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/one-remote-all-remote> .
   <https://github.com/john1hsu/communication-graph/id/unequal-participation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/power-distance> .
+  <https://github.com/john1hsu/communication-graph/id/unequal-participation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/the-network-nation> .
   <https://github.com/john1hsu/communication-graph/id/unequal-participation> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/1-2-4-all> .
   <https://github.com/john1hsu/communication-graph/id/unequal-participation> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/communicating-across-languages> .
   <https://github.com/john1hsu/communication-graph/id/unequal-participation> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/facilitation> .

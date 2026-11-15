@@ -143,7 +143,6 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 
 | node | type |
 |---|---|
-| `cm:digital-communication` | cmo:Field |
 | `cm:email-subject-lines` | cmo:Technique |
 | `cm:emotion-regulation` | cmo:Skill |
 | `cm:empathy` | cmo:Disposition |
@@ -173,8 +172,9 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:multicultural-team` | cmo:Context |
 | `cm:mum-effect` | cmo:Barrier |
 | `cm:narrative-persuasion` | cmo:Technique |
+| `cm:negotiation` | cmo:Context |
 
-…and 54 more.
+…and 53 more.
 
 ## Orphan articles (gap)
 

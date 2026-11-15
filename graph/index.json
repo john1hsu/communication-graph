@@ -26766,6 +26766,73 @@
   ]
  },
  {
+  "id": "cm:the-network-nation",
+  "title": "The Network Nation",
+  "aliases": [
+   "The Network Nation: Human Communication via Computer",
+   "Network Nation (Hiltz and Turoff)",
+   "Hiltz and Turoff 1978"
+  ],
+  "type": "Work",
+  "domain": "thinkers-and-works",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/thinkers-and-works/the-network-nation.md",
+  "created": "2026-11-15",
+  "summary": "Starr Roxanne Hiltz and Murray Turoff's 1978 book (revised 1993), the first full-length study of how groups communicate, socialise and work together through computer conferencing, which framed computer-mediated communication as a subject of social research and anticipated email-, chat- and forum-based work along with its flaming, privacy and overload problems.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:digital-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:asynchronous-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:computer-conferencing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:information-overload"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:unequal-participation"
+   },
+   {
+    "predicate": "cmo:authoredBy",
+    "object": "cm:murray-turoff",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:authoredBy",
+    "object": "cm:starr-roxanne-hiltz",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introduces",
+    "object": "cm:digital-communication",
+    "source": "s1",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://muse.jhu.edu/journals/ieee_annals_of_the_history_of_computing/v035/35.1.subramanian01.html",
+   "https://marhicks.com/SIGCISWIP2011/WIPSIGCIS2011RSubramanian-MurrayTuroffandHistofCMC.pdf",
+   "https://cmn-cdn-001.sagepub.com/books/titles/260905/att_sb1_107405.pdf",
+   "https://direct.mit.edu/books/book/3979/chapter/166081/Societal-Impacts-of-Computerized-Conferencing",
+   "https://archive.org/details/networknationhum00hiltrich",
+   "https://academic.oup.com/jcmc/article/4/4/JCMC441/4584400"
+  ]
+ },
+ {
   "id": "cm:the-physician-as-teacher",
   "title": "The Physician as Teacher",
   "aliases": [
