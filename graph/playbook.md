@@ -289,6 +289,15 @@ Ask yourself:
 - Have I offered a concrete repair and a change with a date, and will I actually follow through?
 - Is this a lapse of skill, where apologizing helps, or an accusation about my honesty that I believe is false, where admitting it could backfire?
 
+### [Assertive communication](../articles/difficult-conversations-and-conflict/assertive-communication.md) — Skill
+
+Ask yourself:
+- Have I said, in one plain sentence, what I actually want or will not do?
+- Am I describing the situation and its effect, or blaming the person?
+- Did I leave room for the other person to state their view and still keep my own?
+- Am I guessing how pushy I came across, or have I checked with someone who was there?
+- Would this be more effective framed as advocacy for my team or the shared goal?
+
 ### [Cognitive reappraisal](../articles/difficult-conversations-and-conflict/cognitive-reappraisal.md) — Technique
 
 1. Notice the trigger and the story you are telling yourself about it, in one sentence ("She is undermining me in front of the team").

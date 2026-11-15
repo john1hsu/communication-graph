@@ -12,7 +12,9 @@ _No results._
 
 _Which written skills or dispositions have no technique, framework or principle that develops them?_ — `queries/02-skills-without-practice.rq`
 
-_No results._
+| skill | type |
+|---|---|
+| `cm:assertive-communication` | cmo:Skill |
 
 ## Situations, channels and formats with no guidance (gap)
 
@@ -85,6 +87,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:delivering-bad-news` | `cm:social-accounts` |
 | `cm:delivering-bad-news` | `cm:spikes-protocol` |
 | `cm:difficult-conversation` | `cm:active-listening` |
+| `cm:difficult-conversation` | `cm:assertive-communication` |
 | `cm:difficult-conversation` | `cm:cognitive-reappraisal` |
 | `cm:difficult-conversation` | `cm:conversational-receptiveness` |
 | `cm:difficult-conversation` | `cm:cooling-off-period` |
@@ -94,9 +97,8 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:difficult-conversation` | `cm:i-statements` |
 | `cm:difficult-conversation` | `cm:mindfulness` |
 | `cm:difficult-conversation` | `cm:paraphrasing` |
-| `cm:difficult-conversation` | `cm:perception-checking` |
 
-…and 146 more.
+…and 148 more.
 
 ## Myths and contested advice
 
@@ -135,7 +137,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:acoustic-speech-analysis-coaching` | mixed |  |
 | `cm:active-listening` | mixed |  |
 
-…and 182 more.
+…and 183 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -143,6 +145,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 
 | node | type |
 |---|---|
+| `cm:assertive-communication` | cmo:Skill |
 | `cm:empathy` | cmo:Disposition |
 | `cm:employee-silence` | cmo:Barrier |
 | `cm:escalation-communication` | cmo:Technique |
@@ -172,9 +175,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:narrative-persuasion` | cmo:Technique |
 | `cm:negotiation` | cmo:Context |
 | `cm:negotiation-preparation` | cmo:Context |
-| `cm:nonverbal-communication` | cmo:Concept |
 
-…and 52 more.
+…and 53 more.
 
 ## Orphan articles (gap)
 
