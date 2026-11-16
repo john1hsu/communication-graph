@@ -9148,6 +9148,78 @@
   ]
  },
  {
+  "id": "cm:elizabeth-wolfe-morrison",
+  "title": "Elizabeth Wolfe Morrison",
+  "aliases": [
+   "Elizabeth W. Morrison",
+   "Elizabeth Morrison"
+  ],
+  "type": "Person",
+  "domain": "thinkers-and-works",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/thinkers-and-works/elizabeth-wolfe-morrison.md",
+  "created": "2026-11-16",
+  "summary": "American organizational-behaviour scholar at NYU Stern who, with Frances Milliken, named and theorised organizational silence in 2000 and went on to shape the research field on why employees speak up or stay quiet, and what managers can do about it.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "cm:milliken-morrison-hewlin-2003"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:employee-voice"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:psychological-safety"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:power-distance"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:upward-dissent"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:implicit-voice-theories"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:managing-up"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:organizational-communication"
+   },
+   {
+    "predicate": "cmo:introduced",
+    "object": "cm:employee-silence",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:influenced",
+    "object": "cm:huang-et-al-2005",
+    "source": "s4",
+    "confidence": "high"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://www.stern.nyu.edu/faculty/bio/elizabeth-morrison.md",
+   "https://w4.stern.nyu.edu/sternbusiness/spring_summer_2004/soundsofsilence.html",
+   "https://homepages.se.edu/cvonbergen/files/2012/12/AN-EXPLORATORY-STUDY-OF-EMPLOYEE-SILENCE_IISSUES-THAT-EMPLOYEES-DONT-COMMUNICATE-UPWARD-AND-WHY.pdf",
+   "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/75DD533AEE9FECE2404C42FF1AC42736/S1740877600001303a.pdf/breaking_the_silence_culture_stimulation_of_participation_andemployee_opinion_withholding_crossnationally.pdf",
+   "https://www.stern.nyu.edu/experience-stern/faculty-research/morrison-see-employees-speak-up.md",
+   "https://annualreviews.org/content/journals/10.1146/annurev-orgpsych-120920-054654"
+  ]
+ },
+ {
   "id": "cm:email",
   "title": "Email",
   "aliases": [
@@ -10136,6 +10208,10 @@
    {
     "predicate": "skos:related",
     "object": "cm:deaf-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:elizabeth-wolfe-morrison"
    },
    {
     "predicate": "cmo:demonstratedBy",

@@ -11,7 +11,7 @@ summary: >-
 level: introductory
 evidenceStatus: mixed
 broader: [cm:organizational-communication]
-related: [cm:upward-dissent, cm:psychological-safety, cm:mum-effect, cm:escalation-communication, cm:graded-assertiveness, cm:power-distance, cm:issue-selling, cm:managing-up, cm:one-on-one-meetings, cm:deaf-effect]
+related: [cm:upward-dissent, cm:psychological-safety, cm:mum-effect, cm:escalation-communication, cm:graded-assertiveness, cm:power-distance, cm:issue-selling, cm:managing-up, cm:one-on-one-meetings, cm:deaf-effect, cm:elizabeth-wolfe-morrison]
 requires: []
 relations:
   - {predicate: demonstratedBy, object: cm:milliken-morrison-hewlin-2003, source: s1, confidence: high}

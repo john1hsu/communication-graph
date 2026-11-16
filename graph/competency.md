@@ -143,7 +143,6 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 
 | node | type |
 |---|---|
-| `cm:employee-silence` | cmo:Barrier |
 | `cm:escalation-communication` | cmo:Technique |
 | `cm:executive-summary` | cmo:Genre |
 | `cm:gain-loss-framing` | cmo:Technique |
@@ -173,8 +172,9 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:mindfulness` | cmo:Technique |
 | `cm:mirroring` | cmo:Technique |
 | `cm:mixed-messages` | cmo:Barrier |
+| `cm:multicultural-team` | cmo:Context |
 
-…and 64 more.
+…and 63 more.
 
 ## Orphan articles (gap)
 

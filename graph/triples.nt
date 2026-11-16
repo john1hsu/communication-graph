@@ -4782,6 +4782,34 @@
 <https://github.com/john1hsu/communication-graph/id/elevator-pitch> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/elevator-pitch/howto> .
 <https://github.com/john1hsu/communication-graph/id/elevator-pitch> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/elevator-pitch> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
+<https://github.com/john1hsu/communication-graph/id/elizabeth-wolfe-morrison> <http://purl.org/dc/terms/created> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/elizabeth-wolfe-morrison> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+<https://github.com/john1hsu/communication-graph/id/elizabeth-wolfe-morrison> <http://www.w3.org/2000/01/rdf-schema#label> "Elizabeth Wolfe Morrison" .
+<https://github.com/john1hsu/communication-graph/id/elizabeth-wolfe-morrison> <http://www.w3.org/2004/02/skos/core#altLabel> "Elizabeth Morrison" .
+<https://github.com/john1hsu/communication-graph/id/elizabeth-wolfe-morrison> <http://www.w3.org/2004/02/skos/core#altLabel> "Elizabeth W. Morrison" .
+<https://github.com/john1hsu/communication-graph/id/elizabeth-wolfe-morrison> <http://www.w3.org/2004/02/skos/core#definition> "American organizational-behaviour scholar at NYU Stern who, with Frances Milliken, named and theorised organizational silence in 2000 and went on to shape the research field on why employees speak up or stay quiet, and what managers can do about it." .
+<https://github.com/john1hsu/communication-graph/id/elizabeth-wolfe-morrison> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works> .
+<https://github.com/john1hsu/communication-graph/id/elizabeth-wolfe-morrison> <http://www.w3.org/2004/02/skos/core#prefLabel> "Elizabeth Wolfe Morrison" .
+<https://github.com/john1hsu/communication-graph/id/elizabeth-wolfe-morrison> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/employee-voice> .
+<https://github.com/john1hsu/communication-graph/id/elizabeth-wolfe-morrison> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/implicit-voice-theories> .
+<https://github.com/john1hsu/communication-graph/id/elizabeth-wolfe-morrison> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/managing-up> .
+<https://github.com/john1hsu/communication-graph/id/elizabeth-wolfe-morrison> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/milliken-morrison-hewlin-2003> .
+<https://github.com/john1hsu/communication-graph/id/elizabeth-wolfe-morrison> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
+<https://github.com/john1hsu/communication-graph/id/elizabeth-wolfe-morrison> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/power-distance> .
+<https://github.com/john1hsu/communication-graph/id/elizabeth-wolfe-morrison> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
+<https://github.com/john1hsu/communication-graph/id/elizabeth-wolfe-morrison> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/upward-dissent> .
+<https://github.com/john1hsu/communication-graph/id/elizabeth-wolfe-morrison> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/elizabeth-wolfe-morrison/s1> .
+<https://github.com/john1hsu/communication-graph/id/elizabeth-wolfe-morrison> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/elizabeth-wolfe-morrison/s2> .
+<https://github.com/john1hsu/communication-graph/id/elizabeth-wolfe-morrison> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/elizabeth-wolfe-morrison/s3> .
+<https://github.com/john1hsu/communication-graph/id/elizabeth-wolfe-morrison> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/elizabeth-wolfe-morrison/s4> .
+<https://github.com/john1hsu/communication-graph/id/elizabeth-wolfe-morrison> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/elizabeth-wolfe-morrison/s5> .
+<https://github.com/john1hsu/communication-graph/id/elizabeth-wolfe-morrison> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/elizabeth-wolfe-morrison/s6> .
+<https://github.com/john1hsu/communication-graph/id/elizabeth-wolfe-morrison> <https://github.com/john1hsu/communication-graph/ontology#domain> "thinkers-and-works" .
+<https://github.com/john1hsu/communication-graph/id/elizabeth-wolfe-morrison> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "historical" .
+<https://github.com/john1hsu/communication-graph/id/elizabeth-wolfe-morrison> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/thinkers-and-works/elizabeth-wolfe-morrison.md" .
+<https://github.com/john1hsu/communication-graph/id/elizabeth-wolfe-morrison> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/huang-et-al-2005> .
+<https://github.com/john1hsu/communication-graph/id/elizabeth-wolfe-morrison> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/employee-silence> .
+<https://github.com/john1hsu/communication-graph/id/elizabeth-wolfe-morrison> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/email-subject-lines/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/email-subject-lines/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "If my reader saw only the subject line on a phone, would they know what I need and by when?" .
 <https://github.com/john1hsu/communication-graph/id/email-subject-lines/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/email-subject-lines> .
@@ -5232,6 +5260,7 @@
 <https://github.com/john1hsu/communication-graph/id/employee-silence> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/barriers-and-psychology> .
 <https://github.com/john1hsu/communication-graph/id/employee-silence> <http://www.w3.org/2004/02/skos/core#prefLabel> "Employee silence" .
 <https://github.com/john1hsu/communication-graph/id/employee-silence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/deaf-effect> .
+<https://github.com/john1hsu/communication-graph/id/employee-silence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/elizabeth-wolfe-morrison> .
 <https://github.com/john1hsu/communication-graph/id/employee-silence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/escalation-communication> .
 <https://github.com/john1hsu/communication-graph/id/employee-silence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/graded-assertiveness> .
 <https://github.com/john1hsu/communication-graph/id/employee-silence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/issue-selling> .
@@ -17991,6 +18020,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/elevator-pitch/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/elevator-pitch/s7> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "community" .
 <https://github.com/john1hsu/communication-graph/id/source/elevator-pitch/s7> <https://schema.org/url> <https://barrypopik.com/blog/elevator_pitch> .
+<https://github.com/john1hsu/communication-graph/id/source/elizabeth-wolfe-morrison/s1> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/elizabeth-wolfe-morrison/s1> <http://purl.org/dc/terms/publisher> "NYU Stern School of Business" .
+<https://github.com/john1hsu/communication-graph/id/source/elizabeth-wolfe-morrison/s1> <http://purl.org/dc/terms/title> "Elizabeth Wolfe Morrison (faculty biography)" .
+<https://github.com/john1hsu/communication-graph/id/source/elizabeth-wolfe-morrison/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/elizabeth-wolfe-morrison/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/elizabeth-wolfe-morrison/s1> <https://schema.org/url> <https://www.stern.nyu.edu/faculty/bio/elizabeth-morrison.md> .
+<https://github.com/john1hsu/communication-graph/id/source/elizabeth-wolfe-morrison/s2> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/elizabeth-wolfe-morrison/s2> <http://purl.org/dc/terms/publisher> "Elizabeth Wolfe Morrison and Frances J. Milliken, SternBusiness (NYU Stern), summary of their Academy of Management Review 25(4) article" .
+<https://github.com/john1hsu/communication-graph/id/source/elizabeth-wolfe-morrison/s2> <http://purl.org/dc/terms/title> "Sounds of Silence: Why Employees Don't Speak Up" .
+<https://github.com/john1hsu/communication-graph/id/source/elizabeth-wolfe-morrison/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/elizabeth-wolfe-morrison/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/elizabeth-wolfe-morrison/s2> <https://schema.org/url> <https://w4.stern.nyu.edu/sternbusiness/spring_summer_2004/soundsofsilence.html> .
+<https://github.com/john1hsu/communication-graph/id/source/elizabeth-wolfe-morrison/s3> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/elizabeth-wolfe-morrison/s3> <http://purl.org/dc/terms/publisher> "Milliken, F. J., Morrison, E. W. & Hewlin, P. F., Journal of Management Studies, 2003 (NYU Stern manuscript copy)" .
+<https://github.com/john1hsu/communication-graph/id/source/elizabeth-wolfe-morrison/s3> <http://purl.org/dc/terms/title> "An Exploratory Study of Employee Silence: Issues that Employees Don't Communicate Upward and Why" .
+<https://github.com/john1hsu/communication-graph/id/source/elizabeth-wolfe-morrison/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/elizabeth-wolfe-morrison/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/elizabeth-wolfe-morrison/s3> <https://schema.org/url> <https://homepages.se.edu/cvonbergen/files/2012/12/AN-EXPLORATORY-STUDY-OF-EMPLOYEE-SILENCE_IISSUES-THAT-EMPLOYEES-DONT-COMMUNICATE-UPWARD-AND-WHY.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/elizabeth-wolfe-morrison/s4> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/elizabeth-wolfe-morrison/s4> <http://purl.org/dc/terms/publisher> "Huang, X., Van de Vliert, E. & Van der Vegt, G., Management and Organization Review 1(3), 459-482, 2005 (Cambridge University Press)" .
+<https://github.com/john1hsu/communication-graph/id/source/elizabeth-wolfe-morrison/s4> <http://purl.org/dc/terms/title> "Breaking the Silence Culture: Stimulation of Participation and Employee Opinion Withholding Cross-nationally" .
+<https://github.com/john1hsu/communication-graph/id/source/elizabeth-wolfe-morrison/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/elizabeth-wolfe-morrison/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/elizabeth-wolfe-morrison/s4> <https://schema.org/url> <https://www.cambridge.org/core/services/aop-cambridge-core/content/view/75DD533AEE9FECE2404C42FF1AC42736/S1740877600001303a.pdf/breaking_the_silence_culture_stimulation_of_participation_andemployee_opinion_withholding_crossnationally.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/elizabeth-wolfe-morrison/s5> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/elizabeth-wolfe-morrison/s5> <http://purl.org/dc/terms/publisher> "NYU Stern School of Business, September 4, 2014" .
+<https://github.com/john1hsu/communication-graph/id/source/elizabeth-wolfe-morrison/s5> <http://purl.org/dc/terms/title> "Why Employees Often Don't Speak Up (on Morrison, See & Pan, An Approach-Inhibition Model of Employee Silence)" .
+<https://github.com/john1hsu/communication-graph/id/source/elizabeth-wolfe-morrison/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/elizabeth-wolfe-morrison/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/elizabeth-wolfe-morrison/s5> <https://schema.org/url> <https://www.stern.nyu.edu/experience-stern/faculty-research/morrison-see-employees-speak-up.md> .
+<https://github.com/john1hsu/communication-graph/id/source/elizabeth-wolfe-morrison/s6> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/elizabeth-wolfe-morrison/s6> <http://purl.org/dc/terms/publisher> "Elizabeth Wolfe Morrison, Annual Review of Organizational Psychology and Organizational Behavior, doi:10.1146/annurev-orgpsych-120920-054654" .
+<https://github.com/john1hsu/communication-graph/id/source/elizabeth-wolfe-morrison/s6> <http://purl.org/dc/terms/title> "Employee Voice and Silence: Taking Stock a Decade Later" .
+<https://github.com/john1hsu/communication-graph/id/source/elizabeth-wolfe-morrison/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/elizabeth-wolfe-morrison/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/elizabeth-wolfe-morrison/s6> <https://schema.org/url> <https://annualreviews.org/content/journals/10.1146/annurev-orgpsych-120920-054654> .
 <https://github.com/john1hsu/communication-graph/id/source/email-subject-lines/s1> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/email-subject-lines/s1> <http://purl.org/dc/terms/publisher> "Cox, A. L., Bird, J., Brumby, D. P., Cecchinato, M. E. & Gould, S. J. J., Human-Computer Interaction 36(5-6), 511-534, 2021 (UCL Discovery accepted manuscript)" .
 <https://github.com/john1hsu/communication-graph/id/source/email-subject-lines/s1> <http://purl.org/dc/terms/title> "Prioritizing unread e-mails: people send urgent responses before important or short ones" .

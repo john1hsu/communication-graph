@@ -8018,6 +8018,80 @@
    ]
   },
   {
+   "@id": "cm:elizabeth-wolfe-morrison",
+   "@type": "cmo:Person",
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "historical",
+   "cmo:file": "articles/thinkers-and-works/elizabeth-wolfe-morrison.md",
+   "cmo:influenced": {
+    "@id": "cm:huang-et-al-2005"
+   },
+   "cmo:introduced": {
+    "@id": "cm:employee-silence"
+   },
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/elizabeth-wolfe-morrison/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/elizabeth-wolfe-morrison/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/elizabeth-wolfe-morrison/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/elizabeth-wolfe-morrison/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/elizabeth-wolfe-morrison/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/elizabeth-wolfe-morrison/s6"
+    }
+   ],
+   "rdfs:label": "Elizabeth Wolfe Morrison",
+   "skos:altLabel": [
+    "Elizabeth Morrison",
+    "Elizabeth W. Morrison"
+   ],
+   "skos:definition": "American organizational-behaviour scholar at NYU Stern who, with Frances Milliken, named and theorised organizational silence in 2000 and went on to shape the research field on why employees speak up or stay quiet, and what managers can do about it.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "Elizabeth Wolfe Morrison",
+   "skos:related": [
+    {
+     "@id": "cm:employee-voice"
+    },
+    {
+     "@id": "cm:implicit-voice-theories"
+    },
+    {
+     "@id": "cm:managing-up"
+    },
+    {
+     "@id": "cm:milliken-morrison-hewlin-2003"
+    },
+    {
+     "@id": "cm:organizational-communication"
+    },
+    {
+     "@id": "cm:power-distance"
+    },
+    {
+     "@id": "cm:psychological-safety"
+    },
+    {
+     "@id": "cm:upward-dissent"
+    }
+   ]
+  },
+  {
    "@id": "cm:email",
    "@type": "cmo:Channel",
    "cmo:alternativeTo": {
@@ -8906,6 +8980,9 @@
    "skos:related": [
     {
      "@id": "cm:deaf-effect"
+    },
+    {
+     "@id": "cm:elizabeth-wolfe-morrison"
     },
     {
      "@id": "cm:escalation-communication"
@@ -48953,6 +49030,90 @@
    "dcterms:title": "Elevator Pitch (Elevator Speech; Elevator Statement)",
    "schema:url": {
     "@id": "https://barrypopik.com/blog/elevator_pitch"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/elizabeth-wolfe-morrison/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "NYU Stern School of Business",
+   "dcterms:title": "Elizabeth Wolfe Morrison (faculty biography)",
+   "schema:url": {
+    "@id": "https://www.stern.nyu.edu/faculty/bio/elizabeth-morrison.md"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/elizabeth-wolfe-morrison/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Elizabeth Wolfe Morrison and Frances J. Milliken, SternBusiness (NYU Stern), summary of their Academy of Management Review 25(4) article",
+   "dcterms:title": "Sounds of Silence: Why Employees Don't Speak Up",
+   "schema:url": {
+    "@id": "https://w4.stern.nyu.edu/sternbusiness/spring_summer_2004/soundsofsilence.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/elizabeth-wolfe-morrison/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Milliken, F. J., Morrison, E. W. & Hewlin, P. F., Journal of Management Studies, 2003 (NYU Stern manuscript copy)",
+   "dcterms:title": "An Exploratory Study of Employee Silence: Issues that Employees Don't Communicate Upward and Why",
+   "schema:url": {
+    "@id": "https://homepages.se.edu/cvonbergen/files/2012/12/AN-EXPLORATORY-STUDY-OF-EMPLOYEE-SILENCE_IISSUES-THAT-EMPLOYEES-DONT-COMMUNICATE-UPWARD-AND-WHY.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/elizabeth-wolfe-morrison/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Huang, X., Van de Vliert, E. & Van der Vegt, G., Management and Organization Review 1(3), 459-482, 2005 (Cambridge University Press)",
+   "dcterms:title": "Breaking the Silence Culture: Stimulation of Participation and Employee Opinion Withholding Cross-nationally",
+   "schema:url": {
+    "@id": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/75DD533AEE9FECE2404C42FF1AC42736/S1740877600001303a.pdf/breaking_the_silence_culture_stimulation_of_participation_andemployee_opinion_withholding_crossnationally.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/elizabeth-wolfe-morrison/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "NYU Stern School of Business, September 4, 2014",
+   "dcterms:title": "Why Employees Often Don't Speak Up (on Morrison, See & Pan, An Approach-Inhibition Model of Employee Silence)",
+   "schema:url": {
+    "@id": "https://www.stern.nyu.edu/experience-stern/faculty-research/morrison-see-employees-speak-up.md"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/elizabeth-wolfe-morrison/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Elizabeth Wolfe Morrison, Annual Review of Organizational Psychology and Organizational Behavior, doi:10.1146/annurev-orgpsych-120920-054654",
+   "dcterms:title": "Employee Voice and Silence: Taking Stock a Decade Later",
+   "schema:url": {
+    "@id": "https://annualreviews.org/content/journals/10.1146/annurev-orgpsych-120920-054654"
    }
   },
   {
