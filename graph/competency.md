@@ -6,7 +6,9 @@ SPARQL queries in `queries/` run over the asserted graph, the OWL-RL inferences 
 
 _Which written barriers or anti-patterns have nothing in the graph that addresses them?_ — `queries/01-problems-without-fix.rq`
 
-_No results._
+| node | type |
+|---|---|
+| `cm:social-anxiety` | cmo:Barrier |
 
 ## Skills with no practice technique (gap)
 
@@ -174,7 +176,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:mixed-messages` | cmo:Barrier |
 | `cm:multicultural-team` | cmo:Context |
 
-…and 60 more.
+…and 61 more.
 
 ## Orphan articles (gap)
 

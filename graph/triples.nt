@@ -14018,6 +14018,58 @@
 <https://github.com/john1hsu/communication-graph/id/social-accounts> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/social-accounts/howto> .
 <https://github.com/john1hsu/communication-graph/id/social-accounts> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/communication-graph/id/social-accounts> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/brockner-wiesenfeld-1996> .
+<https://github.com/john1hsu/communication-graph/id/social-anxiety/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/social-anxiety/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Am I staying quiet because I have nothing to add, or because I am afraid of how I will be judged?" .
+<https://github.com/john1hsu/communication-graph/id/social-anxiety/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/social-anxiety> .
+<https://github.com/john1hsu/communication-graph/id/social-anxiety/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/social-anxiety/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "What am I doing to \"stay safe\" in this conversation - saying little, rehearsing lines, avoiding eye contact - and could it be making me seem distant rather than competent?" .
+<https://github.com/john1hsu/communication-graph/id/social-anxiety/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/social-anxiety> .
+<https://github.com/john1hsu/communication-graph/id/social-anxiety/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/social-anxiety/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Am I judging how I came across from how anxious I felt, rather than from what others actually saw or said?" .
+<https://github.com/john1hsu/communication-graph/id/social-anxiety/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/social-anxiety> .
+<https://github.com/john1hsu/communication-graph/id/social-anxiety/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/social-anxiety/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Have I spent more time replaying this meeting than the meeting itself lasted?" .
+<https://github.com/john1hsu/communication-graph/id/social-anxiety/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/social-anxiety> .
+<https://github.com/john1hsu/communication-graph/id/social-anxiety/check/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/social-anxiety/check/5> <http://www.w3.org/2000/01/rdf-schema#label> "Is fear of judgement now steering which tasks, meetings or roles I accept at work?" .
+<https://github.com/john1hsu/communication-graph/id/social-anxiety/check/5> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/social-anxiety> .
+<https://github.com/john1hsu/communication-graph/id/social-anxiety> <http://purl.org/dc/terms/created> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/social-anxiety> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Barrier> .
+<https://github.com/john1hsu/communication-graph/id/social-anxiety> <http://www.w3.org/2000/01/rdf-schema#label> "Social anxiety" .
+<https://github.com/john1hsu/communication-graph/id/social-anxiety> <http://www.w3.org/2004/02/skos/core#altLabel> "SAD" .
+<https://github.com/john1hsu/communication-graph/id/social-anxiety> <http://www.w3.org/2004/02/skos/core#altLabel> "fear of negative evaluation" .
+<https://github.com/john1hsu/communication-graph/id/social-anxiety> <http://www.w3.org/2004/02/skos/core#altLabel> "social anxiety disorder" .
+<https://github.com/john1hsu/communication-graph/id/social-anxiety> <http://www.w3.org/2004/02/skos/core#altLabel> "social phobia" .
+<https://github.com/john1hsu/communication-graph/id/social-anxiety> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
+<https://github.com/john1hsu/communication-graph/id/social-anxiety> <http://www.w3.org/2004/02/skos/core#definition> "Fear of being watched, judged or evaluated by others in social and performance situations - from meetings and presentations to small talk and asking for help - which leads people to avoid, hold back or hide behind self-protective habits that make them come across worse." .
+<https://github.com/john1hsu/communication-graph/id/social-anxiety> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/barriers-and-psychology> .
+<https://github.com/john1hsu/communication-graph/id/social-anxiety> <http://www.w3.org/2004/02/skos/core#prefLabel> "Social anxiety" .
+<https://github.com/john1hsu/communication-graph/id/social-anxiety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> .
+<https://github.com/john1hsu/communication-graph/id/social-anxiety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communication-apprehension> .
+<https://github.com/john1hsu/communication-graph/id/social-anxiety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/exposure-therapy> .
+<https://github.com/john1hsu/communication-graph/id/social-anxiety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> .
+<https://github.com/john1hsu/communication-graph/id/social-anxiety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
+<https://github.com/john1hsu/communication-graph/id/social-anxiety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/rapport> .
+<https://github.com/john1hsu/communication-graph/id/social-anxiety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/self-recording-playback> .
+<https://github.com/john1hsu/communication-graph/id/social-anxiety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/small-talk> .
+<https://github.com/john1hsu/communication-graph/id/social-anxiety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> .
+<https://github.com/john1hsu/communication-graph/id/social-anxiety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/spotlight-effect> .
+<https://github.com/john1hsu/communication-graph/id/social-anxiety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/systematic-desensitization> .
+<https://github.com/john1hsu/communication-graph/id/social-anxiety> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/social-anxiety/s1> .
+<https://github.com/john1hsu/communication-graph/id/social-anxiety> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/social-anxiety/s2> .
+<https://github.com/john1hsu/communication-graph/id/social-anxiety> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/social-anxiety/s3> .
+<https://github.com/john1hsu/communication-graph/id/social-anxiety> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/social-anxiety/s4> .
+<https://github.com/john1hsu/communication-graph/id/social-anxiety> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/social-anxiety/s5> .
+<https://github.com/john1hsu/communication-graph/id/social-anxiety> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/social-anxiety/s6> .
+<https://github.com/john1hsu/communication-graph/id/social-anxiety> <https://github.com/john1hsu/communication-graph/ontology#causes> <https://github.com/john1hsu/communication-graph/id/safety-behaviours> .
+<https://github.com/john1hsu/communication-graph/id/social-anxiety> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/dabas-et-al-2023> .
+<https://github.com/john1hsu/communication-graph/id/social-anxiety> <https://github.com/john1hsu/communication-graph/ontology#domain> "barriers-and-psychology" .
+<https://github.com/john1hsu/communication-graph/id/social-anxiety> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "robust" .
+<https://github.com/john1hsu/communication-graph/id/social-anxiety> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/clark-wells-cognitive-model> .
+<https://github.com/john1hsu/communication-graph/id/social-anxiety> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/barriers-and-psychology/social-anxiety.md" .
+<https://github.com/john1hsu/communication-graph/id/social-anxiety> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/social-anxiety> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/mayo-wilson-et-al-2014> .
+<https://github.com/john1hsu/communication-graph/id/social-anxiety> <https://github.com/john1hsu/communication-graph/ontology#undermines> <https://github.com/john1hsu/communication-graph/id/rapport> .
 <https://github.com/john1hsu/communication-graph/id/social-proof> <http://purl.org/dc/terms/created> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/social-proof> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Phenomenon> .
 <https://github.com/john1hsu/communication-graph/id/social-proof> <http://www.w3.org/2000/01/rdf-schema#label> "Social proof" .
@@ -22967,6 +23019,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/social-accounts/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/social-accounts/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/communication-graph/id/source/social-accounts/s5> <https://schema.org/url> <https://web.mit.edu/curhan/www/docs/Articles/15341_Readings/Justice/Brockner_Wiesenfeld_1996_An_integrative_framework.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/social-anxiety/s1> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/social-anxiety/s1> <http://purl.org/dc/terms/publisher> "U.S. National Institute of Mental Health (NIMH)" .
+<https://github.com/john1hsu/communication-graph/id/source/social-anxiety/s1> <http://purl.org/dc/terms/title> "Social Anxiety Disorder: More Than Just Shyness" .
+<https://github.com/john1hsu/communication-graph/id/source/social-anxiety/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/social-anxiety/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/communication-graph/id/source/social-anxiety/s1> <https://schema.org/url> <https://www.nimh.nih.gov/health/publications/social-anxiety-disorder-more-than-just-shyness> .
+<https://github.com/john1hsu/communication-graph/id/source/social-anxiety/s2> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/social-anxiety/s2> <http://purl.org/dc/terms/publisher> "U.S. National Institute of Mental Health (NIMH), data from the National Comorbidity Survey Replication 2001-2003" .
+<https://github.com/john1hsu/communication-graph/id/source/social-anxiety/s2> <http://purl.org/dc/terms/title> "Social Anxiety Disorder (statistics)" .
+<https://github.com/john1hsu/communication-graph/id/source/social-anxiety/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/social-anxiety/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/communication-graph/id/source/social-anxiety/s2> <https://schema.org/url> <https://www.nimh.nih.gov/health/statistics/social-anxiety-disorder> .
+<https://github.com/john1hsu/communication-graph/id/source/social-anxiety/s3> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/social-anxiety/s3> <http://purl.org/dc/terms/publisher> "Mayo-Wilson, E. et al., The Lancet Psychiatry 1(5), 368-376, 2014, doi:10.1016/S2215-0366(14)70329-3 (PubMed record)" .
+<https://github.com/john1hsu/communication-graph/id/source/social-anxiety/s3> <http://purl.org/dc/terms/title> "Psychological and pharmacological interventions for social anxiety disorder in adults: a systematic review and network meta-analysis" .
+<https://github.com/john1hsu/communication-graph/id/source/social-anxiety/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/social-anxiety/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/social-anxiety/s3> <https://schema.org/url> <https://pubmed.ncbi.nlm.nih.gov/26361000/> .
+<https://github.com/john1hsu/communication-graph/id/source/social-anxiety/s4> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/social-anxiety/s4> <http://purl.org/dc/terms/publisher> "Dabas, G., Rowa, K., Milosevic, I., Moscovitch, D. A. & McCabe, R. E., Behavioural and Cognitive Psychotherapy 51(1), 46-60, 2023, doi:10.1017/S1352465822000492" .
+<https://github.com/john1hsu/communication-graph/id/source/social-anxiety/s4> <http://purl.org/dc/terms/title> "The impact of particular safety behaviours on perceived likeability and authenticity during interpersonal interactions in social anxiety disorder" .
+<https://github.com/john1hsu/communication-graph/id/source/social-anxiety/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/social-anxiety/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/social-anxiety/s4> <https://schema.org/url> <https://www.cambridge.org/core/product/DF904C2C3D6971111045C3C620C2C53B/core-reader> .
+<https://github.com/john1hsu/communication-graph/id/source/social-anxiety/s5> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/social-anxiety/s5> <http://purl.org/dc/terms/publisher> "Warnock-Parkes, E., Wild, J., Stott, R., Grey, N., Ehlers, A. & Clark, D. M., Cognitive and Behavioral Practice 24(2), 245-255, 2017, doi:10.1016/j.cbpra.2016.03.007" .
+<https://github.com/john1hsu/communication-graph/id/source/social-anxiety/s5> <http://purl.org/dc/terms/title> "Seeing is believing: Using video feedback in cognitive therapy for social anxiety disorder" .
+<https://github.com/john1hsu/communication-graph/id/source/social-anxiety/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/social-anxiety/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/social-anxiety/s5> <https://schema.org/url> <https://pmc.ncbi.nlm.nih.gov/articles/PMC5627505> .
+<https://github.com/john1hsu/communication-graph/id/source/social-anxiety/s6> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/social-anxiety/s6> <http://purl.org/dc/terms/publisher> "Himle, J. A. et al., Journal of Anxiety Disorders 104, 102875, 2024 (MEDLINE record via BVS)" .
+<https://github.com/john1hsu/communication-graph/id/source/social-anxiety/s6> <http://purl.org/dc/terms/title> "Work-Related Cognitive Behavioral Therapy for racially and economically diverse unemployed persons with social anxiety: A randomized clinical trial" .
+<https://github.com/john1hsu/communication-graph/id/source/social-anxiety/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/social-anxiety/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/social-anxiety/s6> <https://schema.org/url> <https://pesquisa.bvsalud.org/portal/resource/es/mdl-38763062> .
 <https://github.com/john1hsu/communication-graph/id/source/social-proof/s1> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/social-proof/s1> <http://purl.org/dc/terms/publisher> "Robert B. Cialdini, Harvard Business Review, October 2001 (reprint R0109D; copy hosted by Brandeis Heller School executive education)" .
 <https://github.com/john1hsu/communication-graph/id/source/social-proof/s1> <http://purl.org/dc/terms/title> "Harnessing the Science of Persuasion" .

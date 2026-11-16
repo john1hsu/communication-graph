@@ -23955,6 +23955,103 @@
    ]
   },
   {
+   "@id": "cm:social-anxiety",
+   "@type": "cmo:Barrier",
+   "cmo:causes": {
+    "@id": "cm:safety-behaviours"
+   },
+   "cmo:demonstratedBy": {
+    "@id": "cm:dabas-et-al-2023"
+   },
+   "cmo:domain": "barriers-and-psychology",
+   "cmo:evidenceStatus": "robust",
+   "cmo:explainedBy": {
+    "@id": "cm:clark-wells-cognitive-model"
+   },
+   "cmo:file": "articles/barriers-and-psychology/social-anxiety.md",
+   "cmo:level": "introductory",
+   "cmo:supportedBy": {
+    "@id": "cm:mayo-wilson-et-al-2014"
+   },
+   "cmo:undermines": {
+    "@id": "cm:rapport"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/social-anxiety/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/social-anxiety/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/social-anxiety/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/social-anxiety/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/social-anxiety/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/social-anxiety/s6"
+    }
+   ],
+   "rdfs:label": "Social anxiety",
+   "skos:altLabel": [
+    "SAD",
+    "fear of negative evaluation",
+    "social anxiety disorder",
+    "social phobia"
+   ],
+   "skos:broader": {
+    "@id": "cm:interpersonal-communication"
+   },
+   "skos:definition": "Fear of being watched, judged or evaluated by others in social and performance situations - from meetings and presentations to small talk and asking for help - which leads people to avoid, hold back or hide behind self-protective habits that make them come across worse.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/barriers-and-psychology"
+   },
+   "skos:prefLabel": "Social anxiety",
+   "skos:related": [
+    {
+     "@id": "cm:anxiety-reappraisal"
+    },
+    {
+     "@id": "cm:communication-apprehension"
+    },
+    {
+     "@id": "cm:exposure-therapy"
+    },
+    {
+     "@id": "cm:illusion-of-transparency"
+    },
+    {
+     "@id": "cm:psychological-safety"
+    },
+    {
+     "@id": "cm:rapport"
+    },
+    {
+     "@id": "cm:self-recording-playback"
+    },
+    {
+     "@id": "cm:small-talk"
+    },
+    {
+     "@id": "cm:speaking-anxiety"
+    },
+    {
+     "@id": "cm:spotlight-effect"
+    },
+    {
+     "@id": "cm:systematic-desensitization"
+    }
+   ]
+  },
+  {
    "@id": "cm:social-proof",
    "@type": "cmo:Phenomenon",
    "cmo:challengedBy": {
@@ -39587,6 +39684,46 @@
    "@type": "schema:HowToStep",
    "schema:position": 6,
    "schema:text": "If you caused the harm, put the account inside an apology - responsibility and repair first, explanation kept short."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/social-anxiety/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:social-anxiety"
+   },
+   "rdfs:label": "Am I staying quiet because I have nothing to add, or because I am afraid of how I will be judged?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/social-anxiety/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:social-anxiety"
+   },
+   "rdfs:label": "What am I doing to \"stay safe\" in this conversation - saying little, rehearsing lines, avoiding eye contact - and could it be making me seem distant rather than competent?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/social-anxiety/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:social-anxiety"
+   },
+   "rdfs:label": "Am I judging how I came across from how anxious I felt, rather than from what others actually saw or said?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/social-anxiety/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:social-anxiety"
+   },
+   "rdfs:label": "Have I spent more time replaying this meeting than the meeting itself lasted?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/social-anxiety/check/5",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:social-anxiety"
+   },
+   "rdfs:label": "Is fear of judgement now steering which tasks, meetings or roles I accept at work?"
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/solution-focused-coaching/check/1",
@@ -60244,6 +60381,90 @@
    "dcterms:title": "An Integrative Framework for Explaining Reactions to Decisions: Interactive Effects of Outcomes and Procedures",
    "schema:url": {
     "@id": "https://web.mit.edu/curhan/www/docs/Articles/15341_Readings/Justice/Brockner_Wiesenfeld_1996_An_integrative_framework.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/social-anxiety/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "U.S. National Institute of Mental Health (NIMH)",
+   "dcterms:title": "Social Anxiety Disorder: More Than Just Shyness",
+   "schema:url": {
+    "@id": "https://www.nimh.nih.gov/health/publications/social-anxiety-disorder-more-than-just-shyness"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/social-anxiety/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "U.S. National Institute of Mental Health (NIMH), data from the National Comorbidity Survey Replication 2001-2003",
+   "dcterms:title": "Social Anxiety Disorder (statistics)",
+   "schema:url": {
+    "@id": "https://www.nimh.nih.gov/health/statistics/social-anxiety-disorder"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/social-anxiety/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Mayo-Wilson, E. et al., The Lancet Psychiatry 1(5), 368-376, 2014, doi:10.1016/S2215-0366(14)70329-3 (PubMed record)",
+   "dcterms:title": "Psychological and pharmacological interventions for social anxiety disorder in adults: a systematic review and network meta-analysis",
+   "schema:url": {
+    "@id": "https://pubmed.ncbi.nlm.nih.gov/26361000/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/social-anxiety/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Dabas, G., Rowa, K., Milosevic, I., Moscovitch, D. A. & McCabe, R. E., Behavioural and Cognitive Psychotherapy 51(1), 46-60, 2023, doi:10.1017/S1352465822000492",
+   "dcterms:title": "The impact of particular safety behaviours on perceived likeability and authenticity during interpersonal interactions in social anxiety disorder",
+   "schema:url": {
+    "@id": "https://www.cambridge.org/core/product/DF904C2C3D6971111045C3C620C2C53B/core-reader"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/social-anxiety/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Warnock-Parkes, E., Wild, J., Stott, R., Grey, N., Ehlers, A. & Clark, D. M., Cognitive and Behavioral Practice 24(2), 245-255, 2017, doi:10.1016/j.cbpra.2016.03.007",
+   "dcterms:title": "Seeing is believing: Using video feedback in cognitive therapy for social anxiety disorder",
+   "schema:url": {
+    "@id": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5627505"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/social-anxiety/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Himle, J. A. et al., Journal of Anxiety Disorders 104, 102875, 2024 (MEDLINE record via BVS)",
+   "dcterms:title": "Work-Related Cognitive Behavioral Therapy for racially and economically diverse unemployed persons with social anxiety: A randomized clinical trial",
+   "schema:url": {
+    "@id": "https://pesquisa.bvsalud.org/portal/resource/es/mdl-38763062"
    }
   },
   {

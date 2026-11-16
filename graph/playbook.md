@@ -145,6 +145,15 @@ Ask yourself:
 - Am I replaying this slip in the first person, and what would an observer say mattered instead?
 - Have I turned the distanced view into one concrete next action?
 
+### [Social anxiety](../articles/barriers-and-psychology/social-anxiety.md) — Barrier
+
+Ask yourself:
+- Am I staying quiet because I have nothing to add, or because I am afraid of how I will be judged?
+- What am I doing to "stay safe" in this conversation - saying little, rehearsing lines, avoiding eye contact - and could it be making me seem distant rather than competent?
+- Am I judging how I came across from how anxious I felt, rather than from what others actually saw or said?
+- Have I spent more time replaying this meeting than the meeting itself lasted?
+- Is fear of judgement now steering which tasks, meetings or roles I accept at work?
+
 ### [Spotlight effect](../articles/barriers-and-psychology/spotlight-effect.md) — Barrier
 
 Ask yourself:
