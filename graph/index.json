@@ -14503,6 +14503,100 @@
   ]
  },
  {
+  "id": "cm:inoculation-theory",
+  "title": "Inoculation theory",
+  "aliases": [
+   "attitudinal inoculation",
+   "psychological inoculation",
+   "prebunking",
+   "McGuire's inoculation theory"
+  ],
+  "type": "Theory",
+  "domain": "persuasion-and-influence",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/persuasion-and-influence/inoculation-theory.md",
+  "created": "2026-11-16",
+  "summary": "William McGuire's theory that people can be made resistant to later persuasion by warning them that an attack on their view is coming and exposing them to a weakened version of the attacking arguments or tactics together with their refutation, much as a vaccine uses a weakened virus.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:persuasion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:refutational-two-sided-messages"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:elaboration-likelihood-model"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:credibility"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:change-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:workplace-rumours"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:social-proof"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:william-j-mcguire",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:banas-rains-2010",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:roozenbeek-et-al-2022",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:modirrousta-galian-higham-2023",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:maertens-et-al-2021",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:crisis-communication",
+    "source": "s6",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://informahealthcare.com/doi/abs/10.1080/03637751003758193",
+   "https://www.frontiersin.org/articles/10.3389/fpsyg.2016.00122/pdf",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC9401631",
+   "https://eprints.soton.ac.uk/475360/",
+   "https://www.apa.org/pubs/highlights/spotlight/issue-243",
+   "https://business.columbia.edu/sites/default/files-efs/pubfiles/5958/Einwiller%20Johar_Inoculation_PRR%202013.pdf"
+  ]
+ },
+ {
   "id": "cm:instant-messaging",
   "title": "Instant messaging",
   "aliases": [

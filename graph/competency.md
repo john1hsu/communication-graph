@@ -80,6 +80,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:communication-plan` | `cm:raci-matrix` |
 | `cm:communication-plan` | `cm:stakeholder-mapping` |
 | `cm:crisis-communication` | `cm:communicating-uncertainty` |
+| `cm:crisis-communication` | `cm:inoculation-theory` |
 | `cm:cross-functional-collaboration` | `cm:influence-without-authority` |
 | `cm:cross-functional-collaboration` | `cm:persuasion` |
 | `cm:delivering-bad-news` | `cm:message-structure` |
@@ -94,9 +95,8 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:difficult-conversation` | `cm:desc-script` |
 | `cm:difficult-conversation` | `cm:emotion-regulation` |
 | `cm:difficult-conversation` | `cm:face-and-facework` |
-| `cm:difficult-conversation` | `cm:i-statements` |
 
-…and 154 more.
+…and 155 more.
 
 ## Myths and contested advice
 
@@ -135,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:wise-feedback` | contested | `cm:troy-moua-van-boekel-2024` |
 | `cm:power-posing` | failed-replication | `cm:crede-2019` |
 
-…and 197 more.
+…and 198 more.
 
 ## Concepts with no recorded origin (gap)
 

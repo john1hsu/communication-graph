@@ -12684,6 +12684,93 @@
    ]
   },
   {
+   "@id": "cm:inoculation-theory",
+   "@type": "cmo:Theory",
+   "cmo:appliedIn": {
+    "@id": "cm:crisis-communication"
+   },
+   "cmo:challengedBy": {
+    "@id": "cm:modirrousta-galian-higham-2023"
+   },
+   "cmo:demonstratedBy": {
+    "@id": "cm:roozenbeek-et-al-2022"
+   },
+   "cmo:domain": "persuasion-and-influence",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:file": "articles/persuasion-and-influence/inoculation-theory.md",
+   "cmo:introducedBy": {
+    "@id": "cm:william-j-mcguire"
+   },
+   "cmo:level": "intermediate",
+   "cmo:supportedBy": [
+    {
+     "@id": "cm:banas-rains-2010"
+    },
+    {
+     "@id": "cm:maertens-et-al-2021"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/inoculation-theory/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/inoculation-theory/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/inoculation-theory/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/inoculation-theory/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/inoculation-theory/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/inoculation-theory/s6"
+    }
+   ],
+   "rdfs:label": "Inoculation theory",
+   "skos:altLabel": [
+    "McGuire's inoculation theory",
+    "attitudinal inoculation",
+    "prebunking",
+    "psychological inoculation"
+   ],
+   "skos:broader": {
+    "@id": "cm:persuasion"
+   },
+   "skos:definition": "William McGuire's theory that people can be made resistant to later persuasion by warning them that an attack on their view is coming and exposing them to a weakened version of the attacking arguments or tactics together with their refutation, much as a vaccine uses a weakened virus.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/persuasion-and-influence"
+   },
+   "skos:prefLabel": "Inoculation theory",
+   "skos:related": [
+    {
+     "@id": "cm:change-communication"
+    },
+    {
+     "@id": "cm:credibility"
+    },
+    {
+     "@id": "cm:elaboration-likelihood-model"
+    },
+    {
+     "@id": "cm:refutational-two-sided-messages"
+    },
+    {
+     "@id": "cm:social-proof"
+    },
+    {
+     "@id": "cm:workplace-rumours"
+    }
+   ]
+  },
+  {
    "@id": "cm:instant-messaging",
    "@type": "cmo:Channel",
    "cmo:alternativeTo": {
@@ -51170,6 +51257,90 @@
    "dcterms:title": "Make papers pop: headings (Policy Advice Masterclass, paper 15)",
    "schema:url": {
     "@id": "https://www.nzier.org.nz/hubfs/Masterclasses/Central%20Government/brief_15_make_papers_pop.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/inoculation-theory/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Banas, J. A. & Rains, S. A., Communication Monographs 77(3), 2010, doi:10.1080/03637751003758193 (Taylor & Francis abstract page)",
+   "dcterms:title": "A Meta-Analysis of Research on Inoculation Theory",
+   "schema:url": {
+    "@id": "https://informahealthcare.com/doi/abs/10.1080/03637751003758193"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/inoculation-theory/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Compton, J., Jackson, B. & Dimmock, J. A., Frontiers in Psychology 7, article 122, 2016",
+   "dcterms:title": "Persuading Others to Avoid Persuasion: Inoculation Theory and Resistant Health Attitudes",
+   "schema:url": {
+    "@id": "https://www.frontiersin.org/articles/10.3389/fpsyg.2016.00122/pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/inoculation-theory/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Roozenbeek, J., van der Linden, S., Goldberg, B., Rathje, S. & Lewandowsky, S., Science Advances 8(34), 2022 (PubMed Central)",
+   "dcterms:title": "Psychological inoculation improves resilience against misinformation on social media",
+   "schema:url": {
+    "@id": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9401631"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/inoculation-theory/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Modirrousta-Galian, A. & Higham, P. A., Journal of Experimental Psychology: General 152(9), 2411-2437, 2023 (University of Southampton ePrints record)",
+   "dcterms:title": "Gamified inoculation interventions do not improve discrimination between true and fake news: reanalyzing existing research with receiver operating characteristic analysis",
+   "schema:url": {
+    "@id": "https://eprints.soton.ac.uk/475360/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/inoculation-theory/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "American Psychological Association, summarising Maertens, Roozenbeek, Basol & van der Linden, Journal of Experimental Psychology: Applied 27(1), 1-16, 2021",
+   "dcterms:title": "Long-Term Effectiveness of Inoculation Against Misinformation: Three Longitudinal Experiments (Article Spotlight)",
+   "schema:url": {
+    "@id": "https://www.apa.org/pubs/highlights/spotlight/issue-243"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/inoculation-theory/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Einwiller, S. A. & Johar, G. V., Public Relations Review, 2013 (author copy hosted by Columbia Business School)",
+   "dcterms:title": "Countering accusations with inoculation: The moderating role of consumer-company identification",
+   "schema:url": {
+    "@id": "https://business.columbia.edu/sites/default/files-efs/pubfiles/5958/Einwiller%20Johar_Inoculation_PRR%202013.pdf"
    }
   },
   {
