@@ -13615,6 +13615,7 @@
 <https://github.com/john1hsu/communication-graph/id/scheduled-inbox-checks> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/email> .
 <https://github.com/john1hsu/communication-graph/id/scheduled-inbox-checks> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/information-overload> .
 <https://github.com/john1hsu/communication-graph/id/scheduled-inbox-checks> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations> .
+<https://github.com/john1hsu/communication-graph/id/scheduled-inbox-checks> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/workplace-telepressure> .
 <https://github.com/john1hsu/communication-graph/id/scheduled-inbox-checks> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> .
 <https://github.com/john1hsu/communication-graph/id/scheduled-inbox-checks> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/scheduled-inbox-checks/s1> .
 <https://github.com/john1hsu/communication-graph/id/scheduled-inbox-checks> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/scheduled-inbox-checks/s2> .
@@ -14170,6 +14171,7 @@
 <https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/email> .
 <https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> .
 <https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/information-overload> .
+<https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/workplace-telepressure> .
 <https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/setting-reply-time-expectations/s1> .
 <https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/setting-reply-time-expectations/s2> .
 <https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/setting-reply-time-expectations/s3> .
@@ -25269,6 +25271,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/workplace-stress/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/workplace-stress/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
 <https://github.com/john1hsu/communication-graph/id/source/workplace-stress/s5> <https://schema.org/url> <https://www.hse.gov.uk/STRESS/standards/overview.htm> .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-telepressure/s1> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-telepressure/s1> <http://purl.org/dc/terms/publisher> "Larissa K. Barber & Alecia M. Santuzzi, Journal of Occupational Health Psychology 20(2), 172-189 (PubMed record)" .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-telepressure/s1> <http://purl.org/dc/terms/title> "Please respond ASAP: Workplace telepressure and employee recovery" .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-telepressure/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-telepressure/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-telepressure/s1> <https://schema.org/url> <https://pubmed.ncbi.nlm.nih.gov/25365629/> .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-telepressure/s2> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-telepressure/s2> <http://purl.org/dc/terms/publisher> "Xiaoxiao Hu, Alecia M. Santuzzi & Larissa K. Barber, Journal of Work and Organizational Psychology 35, 9-15" .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-telepressure/s2> <http://purl.org/dc/terms/title> "Disconnecting to detach: The role of impaired recovery in negative consequences of workplace telepressure" .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-telepressure/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-telepressure/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-telepressure/s2> <https://schema.org/url> <https://journals.copmadrid.org/jwop/art/jwop2019a2> .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-telepressure/s3> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-telepressure/s3> <http://purl.org/dc/terms/publisher> "Larissa K. Barber, Alecia M. Santuzzi & Xiaoxiao Hu, Group & Organization Management (Roger Williams University repository)" .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-telepressure/s3> <http://purl.org/dc/terms/title> "Tackling the problem of workplace telepressure: Are disconnection policies helpful?" .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-telepressure/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-telepressure/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-telepressure/s3> <https://schema.org/url> <https://docs.rwu.edu/fcas_fp/1060> .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-telepressure/s4> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-telepressure/s4> <http://purl.org/dc/terms/publisher> "Allison M. Tedone, Occupational Health Science 6(1), 51-72 (PubMed Central)" .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-telepressure/s4> <http://purl.org/dc/terms/title> "Keeping up with work email after hours and employee wellbeing: Examining relationships during and prior to the COVID-19 pandemic" .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-telepressure/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-telepressure/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-telepressure/s4> <https://schema.org/url> <https://pmc.ncbi.nlm.nih.gov/articles/PMC8782676> .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-telepressure/s5> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-telepressure/s5> <http://purl.org/dc/terms/publisher> "William J. Becker, Liuba Y. Belkin, Samantha A. Conroy & Sarah Tuskey, Journal of Management (Virginia Tech repository)" .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-telepressure/s5> <http://purl.org/dc/terms/title> "Killing me softly: Organizational e-mail monitoring expectations' impact on employee and significant other well-being" .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-telepressure/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-telepressure/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-telepressure/s5> <https://schema.org/url> <https://vtechworks.lib.vt.edu/items/4cd5ca58-e780-4d07-90a0-d7cd365a5c6a/full> .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-telepressure/s6> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-telepressure/s6> <http://purl.org/dc/terms/publisher> "Cornell Chronicle, Cornell University (on Giurge & Bohns, Organizational Behavior and Human Decision Processes, 2021)" .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-telepressure/s6> <http://purl.org/dc/terms/title> "Set expectations to reduce email stress" .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-telepressure/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-telepressure/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/workplace-telepressure/s6> <https://schema.org/url> <https://news.cornell.edu/node/322477> .
 <https://github.com/john1hsu/communication-graph/id/source/zone-of-possible-agreement/s1> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/zone-of-possible-agreement/s1> <http://purl.org/dc/terms/publisher> "Katie Shonk, Program on Negotiation at Harvard Law School, 2026" .
 <https://github.com/john1hsu/communication-graph/id/source/zone-of-possible-agreement/s1> <http://purl.org/dc/terms/title> "How to Find the ZOPA in Business Negotiations" .
@@ -27120,6 +27158,51 @@
 <https://github.com/john1hsu/communication-graph/id/workplace-stress> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/workplace-stress> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/marzocchi-et-al-2024> .
 <https://github.com/john1hsu/communication-graph/id/workplace-stress> <https://github.com/john1hsu/communication-graph/ontology#undermines> <https://github.com/john1hsu/communication-graph/id/employee-engagement> .
+<https://github.com/john1hsu/communication-graph/id/workplace-telepressure/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/workplace-telepressure/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Am I replying now because this message needs it, or because leaving it unanswered makes me uneasy?" .
+<https://github.com/john1hsu/communication-graph/id/workplace-telepressure/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/workplace-telepressure> .
+<https://github.com/john1hsu/communication-graph/id/workplace-telepressure/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/workplace-telepressure/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Did the sender actually ask for a fast reply, or am I assuming they expect one?" .
+<https://github.com/john1hsu/communication-graph/id/workplace-telepressure/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/workplace-telepressure> .
+<https://github.com/john1hsu/communication-graph/id/workplace-telepressure/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/workplace-telepressure/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "When I send a message outside working hours, have I said plainly that it can wait?" .
+<https://github.com/john1hsu/communication-graph/id/workplace-telepressure/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/workplace-telepressure> .
+<https://github.com/john1hsu/communication-graph/id/workplace-telepressure/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/workplace-telepressure/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Does my team have an agreed norm for which channel means urgent, or does everyone guess?" .
+<https://github.com/john1hsu/communication-graph/id/workplace-telepressure/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/workplace-telepressure> .
+<https://github.com/john1hsu/communication-graph/id/workplace-telepressure> <http://purl.org/dc/terms/created> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/workplace-telepressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Barrier> .
+<https://github.com/john1hsu/communication-graph/id/workplace-telepressure> <http://www.w3.org/2000/01/rdf-schema#label> "Workplace telepressure" .
+<https://github.com/john1hsu/communication-graph/id/workplace-telepressure> <http://www.w3.org/2004/02/skos/core#altLabel> "always-on reply pressure" .
+<https://github.com/john1hsu/communication-graph/id/workplace-telepressure> <http://www.w3.org/2004/02/skos/core#altLabel> "telepressure" .
+<https://github.com/john1hsu/communication-graph/id/workplace-telepressure> <http://www.w3.org/2004/02/skos/core#altLabel> "urge to respond immediately" .
+<https://github.com/john1hsu/communication-graph/id/workplace-telepressure> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/workplace-stress> .
+<https://github.com/john1hsu/communication-graph/id/workplace-telepressure> <http://www.w3.org/2004/02/skos/core#definition> "A preoccupation with, and urge to respond quickly to, work messages such as email and chat, even when no fast reply is needed; it drives constant checking and after-hours replying, and is linked to burnout, poorer sleep and absence." .
+<https://github.com/john1hsu/communication-graph/id/workplace-telepressure> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/digital-and-async-communication> .
+<https://github.com/john1hsu/communication-graph/id/workplace-telepressure> <http://www.w3.org/2004/02/skos/core#prefLabel> "Workplace telepressure" .
+<https://github.com/john1hsu/communication-graph/id/workplace-telepressure> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> .
+<https://github.com/john1hsu/communication-graph/id/workplace-telepressure> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/email-urgency-bias-study> .
+<https://github.com/john1hsu/communication-graph/id/workplace-telepressure> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/email> .
+<https://github.com/john1hsu/communication-graph/id/workplace-telepressure> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/information-overload> .
+<https://github.com/john1hsu/communication-graph/id/workplace-telepressure> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/instant-messaging> .
+<https://github.com/john1hsu/communication-graph/id/workplace-telepressure> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> .
+<https://github.com/john1hsu/communication-graph/id/workplace-telepressure> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/scheduled-inbox-checks> .
+<https://github.com/john1hsu/communication-graph/id/workplace-telepressure> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations> .
+<https://github.com/john1hsu/communication-graph/id/workplace-telepressure> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/workplace-telepressure/s1> .
+<https://github.com/john1hsu/communication-graph/id/workplace-telepressure> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/workplace-telepressure/s2> .
+<https://github.com/john1hsu/communication-graph/id/workplace-telepressure> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/workplace-telepressure/s3> .
+<https://github.com/john1hsu/communication-graph/id/workplace-telepressure> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/workplace-telepressure/s4> .
+<https://github.com/john1hsu/communication-graph/id/workplace-telepressure> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/workplace-telepressure/s5> .
+<https://github.com/john1hsu/communication-graph/id/workplace-telepressure> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/workplace-telepressure/s6> .
+<https://github.com/john1hsu/communication-graph/id/workplace-telepressure> <https://github.com/john1hsu/communication-graph/ontology#causes> <https://github.com/john1hsu/communication-graph/id/burnout> .
+<https://github.com/john1hsu/communication-graph/id/workplace-telepressure> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/barber-santuzzi-2015> .
+<https://github.com/john1hsu/communication-graph/id/workplace-telepressure> <https://github.com/john1hsu/communication-graph/ontology#domain> "digital-and-async-communication" .
+<https://github.com/john1hsu/communication-graph/id/workplace-telepressure> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/workplace-telepressure> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/email-urgency-bias> .
+<https://github.com/john1hsu/communication-graph/id/workplace-telepressure> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/digital-and-async-communication/workplace-telepressure.md" .
+<https://github.com/john1hsu/communication-graph/id/workplace-telepressure> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/workplace-telepressure> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/becker-et-al-2019> .
+<https://github.com/john1hsu/communication-graph/id/workplace-telepressure> <https://github.com/john1hsu/communication-graph/ontology#undermines> <https://github.com/john1hsu/communication-graph/id/psychological-detachment> .
 <https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> <http://purl.org/dc/terms/created> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
 <https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> <http://www.w3.org/2000/01/rdf-schema#label> "Zone of possible agreement" .

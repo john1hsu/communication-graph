@@ -11,7 +11,7 @@ summary: >-
 level: introductory
 evidenceStatus: mixed
 broader: [cm:team-communication-norms]
-related: [cm:asynchronous-communication, cm:email, cm:bottom-line-up-front, cm:illusion-of-transparency, cm:information-overload, cm:channel-selection]
+related: [cm:asynchronous-communication, cm:email, cm:bottom-line-up-front, cm:illusion-of-transparency, cm:information-overload, cm:channel-selection, cm:workplace-telepressure]
 requires: []
 relations:
   - {predicate: addresses, object: cm:email-urgency-bias, source: s1, confidence: high}

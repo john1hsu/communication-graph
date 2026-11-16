@@ -851,6 +851,14 @@ Ask yourself:
 - Did I tell people at the start how to ask to speak and in what order I will take contributions?
 - After I asked a question, did I leave enough pause for the lag before filling the silence or moving on?
 
+### [Workplace telepressure](../articles/digital-and-async-communication/workplace-telepressure.md) — Barrier
+
+Ask yourself:
+- Am I replying now because this message needs it, or because leaving it unanswered makes me uneasy?
+- Did the sender actually ask for a fast reply, or am I assuming they expect one?
+- When I send a message outside working hours, have I said plainly that it can wait?
+- Does my team have an agreed norm for which channel means urgent, or does everyone guess?
+
 ### [Zoom fatigue](../articles/digital-and-async-communication/zoom-fatigue.md) — Barrier
 
 Ask yourself:

@@ -36,7 +36,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:acoustic-speech-analysis-coaching` | 2 | Vocal delivery, monotone-delivery |
 | `cm:behavior-modeling-training` | 2 | Communication competence, assertiveness |
 | `cm:characters-as-subjects-actions-as-verbs` | 2 | Concise writing, Nominalization |
-| `cm:chat-etiquette` | 2 | Information overload, workplace-telepressure |
+| `cm:chat-etiquette` | 2 | Information overload, Workplace telepressure |
 | `cm:coherence-principle` | 2 | Information overload, Slide design |
 | `cm:communicating-across-languages` | 2 | Unequal participation, language-barriers |
 | `cm:culture-assimilator` | 2 | Cultural intelligence, Intercultural competence |
@@ -135,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:wise-feedback` | contested | `cm:troy-moua-van-boekel-2024` |
 | `cm:power-posing` | failed-replication | `cm:crede-2019` |
 
-…and 204 more.
+…and 205 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -174,7 +174,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:mindfulness` | cmo:Technique |
 | `cm:mirroring` | cmo:Technique |
 
-…and 64 more.
+…and 65 more.
 
 ## Orphan articles (gap)
 

@@ -11,7 +11,7 @@ summary: >-
 level: introductory
 evidenceStatus: mixed
 broader: [cm:attention-management]
-related: [cm:information-overload, cm:email, cm:asynchronous-communication, cm:setting-reply-time-expectations, cm:channel-selection, cm:zoom-fatigue]
+related: [cm:information-overload, cm:email, cm:asynchronous-communication, cm:setting-reply-time-expectations, cm:channel-selection, cm:zoom-fatigue, cm:workplace-telepressure]
 requires: []
 relations:
   - {predicate: addresses, object: cm:information-overload, source: s1, confidence: medium}
