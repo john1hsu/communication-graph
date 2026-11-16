@@ -17218,6 +17218,103 @@
    ]
   },
   {
+   "@id": "cm:nominalization",
+   "@type": "cmo:AntiPattern",
+   "cmo:challengedBy": {
+    "@id": "cm:isakson-spyridakis-1995"
+   },
+   "cmo:demonstratedBy": {
+    "@id": "cm:spyridakis-isakson-1998"
+   },
+   "cmo:domain": "writing",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/nominalization/example"
+   },
+   "cmo:file": "articles/writing/nominalization.md",
+   "cmo:introducedBy": {
+    "@id": "cm:joseph-m-williams"
+   },
+   "cmo:level": "introductory",
+   "cmo:supportedBy": {
+    "@id": "cm:billig-2008"
+   },
+   "cmo:undermines": [
+    {
+     "@id": "cm:clarity"
+    },
+    {
+     "@id": "cm:concise-writing"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/nominalization/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/nominalization/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/nominalization/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/nominalization/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/nominalization/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/nominalization/s6"
+    }
+   ],
+   "rdfs:label": "Nominalization",
+   "skos:altLabel": [
+    "buried verbs",
+    "hidden verbs",
+    "nominalisation",
+    "smothered verbs",
+    "zombie nouns"
+   ],
+   "skos:broader": {
+    "@id": "cm:wordiness"
+   },
+   "skos:definition": "Turning the main action of a sentence into an abstract noun (decide becomes \"make a decision\", analyse becomes \"conduct an analysis\"), which adds words, hides who is doing what and makes business prose slower to read; the fix is to put the actor in the subject and the action in the verb.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/writing"
+   },
+   "skos:prefLabel": "Nominalization",
+   "skos:related": [
+    {
+     "@id": "cm:active-voice"
+    },
+    {
+     "@id": "cm:clarity"
+    },
+    {
+     "@id": "cm:concise-writing"
+    },
+    {
+     "@id": "cm:editing-for-clarity"
+    },
+    {
+     "@id": "cm:paramedic-method"
+    },
+    {
+     "@id": "cm:passive-voice"
+    },
+    {
+     "@id": "cm:plain-language"
+    },
+    {
+     "@id": "cm:register-and-tone"
+    }
+   ]
+  },
+  {
    "@id": "cm:nonverbal-communication",
    "@type": "cmo:Concept",
    "cmo:appliedIn": {
@@ -18193,6 +18290,9 @@
     },
     {
      "@id": "cm:concise-writing"
+    },
+    {
+     "@id": "cm:nominalization"
     },
     {
      "@id": "cm:passive-voice"
@@ -36187,6 +36287,46 @@
    "@type": "schema:HowToStep",
    "schema:position": 6,
    "schema:text": "Discuss the top-ranked items and the surprises in the tally, and, if the scores are close, run a second private vote before you commit to next steps."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/nominalization/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:nominalization"
+   },
+   "rdfs:label": "Can I point to who is doing the main action in each key sentence, and is that person or team the grammatical subject?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/nominalization/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:nominalization"
+   },
+   "rdfs:label": "Have I written \"make a decision\", \"conduct a review\" or \"provide an explanation\" where \"decide\", \"review\" or \"explain\" would do?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/nominalization/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:nominalization"
+   },
+   "rdfs:label": "Does any sentence string together several \"the ... of\" phrases or words ending in -tion, -ment or -ance?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/nominalization/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:nominalization"
+   },
+   "rdfs:label": "Where I kept a noun form, is it because readers already treat it as a named concept, not because it sounds more formal?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/nominalization/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "We reviewed invoice processing times and found that the new approval workflow has slowed throughput. We recommend dropping the second signature for invoices under $5,000. Dana, can you confirm by Friday that your team can run the training?",
+   "cmo:before": "Following the completion of a review of invoice processing times, a determination was made that the implementation of the new approval workflow has resulted in a reduction in throughput. A recommendation for the reconsideration of the two-signature requirement is under preparation, pending confirmation of the availability of resources for the provision of training.",
+   "cmo:situation": "An operations analyst emails the leadership team about a recurring invoice-processing delay and needs one director to act.",
+   "cmo:why": "The original turns every action (review, determine, implement, reduce, recommend, confirm, provide) into a noun, so nobody is shown doing anything and the request has no owner; the rewrite names the actors, makes the actions verbs, and is about half as long."
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/nonviolent-communication/check/1",
@@ -55412,6 +55552,90 @@
    "dcterms:title": "Building Timely Consensus Among Diverse Stakeholders: An Adapted Nominal Group Technique",
    "schema:url": {
     "@id": "https://www.annfammed.org/content/22/6/525.abstract"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/nominalization/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Digital.gov, U.S. General Services Administration (successor to plainlanguage.gov's Federal Plain Language Guidelines)",
+   "dcterms:title": "Plain Language Guide Series: Writing (Avoid hidden verbs)",
+   "schema:url": {
+    "@id": "https://digital.gov/guides/plain-language/writing"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/nominalization/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Purdue Online Writing Lab, Purdue University",
+   "dcterms:title": "Sentence Clarity: Nominalizations and Subject Position",
+   "schema:url": {
+    "@id": "https://owl.purdue.edu/owl/multilingual/multilingual_students/nominalizations_and_subject_position.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/nominalization/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Karin Gosselink, Yale Center for Teaching and Learning (handout adapted from Joseph M. Williams & Joseph Bizup, Style - The Basics of Clarity and Grace, 5th ed., Lessons 2-3)",
+   "dcterms:title": "Grammar and Style: Actions & Characters",
+   "schema:url": {
+    "@id": "https://yale-nus.edu.sg/academics/wp-content/uploads/sites/8/2021/12/Grammar-Style-Actions-Characters.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/nominalization/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "C. S. Isakson & J. H. Spyridakis, Proceedings of IPCC '95, IEEE International Professional Communication Conference, 203-206 (1995), doi:10.1109/IPCC.1995.554908 (catalogue record)",
+   "dcterms:title": "Nominalizations: effect on recall and comprehension",
+   "schema:url": {
+    "@id": "https://manuscript.isc.ac/Inventory/49/1580763.htm"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/nominalization/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "J. H. Spyridakis & C. S. Isakson, Journal of Technical Writing and Communication 28(2), 163-188 (1998), doi:10.2190/01hd-mhu1-qnx9-r3ye (catalogue record)",
+   "dcterms:title": "Study of nominalizations and denominalizations in technical prose",
+   "schema:url": {
+    "@id": "https://katalog.adlr.link/Record/ai-49-aHR0cDovL2R4LmRvaS5vcmcvMTAuMjE5MC8wMWhkLW1odTEtcW54OS1yM3ll"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/nominalization/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Michael Billig, Discourse & Society 19(6), 783-800 (2008), doi:10.1177/0957926508095894 (Loughborough University Institutional Repository)",
+   "dcterms:title": "The language of critical discourse analysis: the case of nominalization",
+   "schema:url": {
+    "@id": "https://dspace.lboro.ac.uk/dspace-jspui/handle/2134/13361"
    }
   },
   {

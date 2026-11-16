@@ -3181,6 +3181,22 @@ Ask yourself:
 - Could any of my headings sit unchanged on top of a different report, and if so, what specific point should it state instead?
 - Does the first sentence under each heading deliver what the heading promises?
 
+### [Nominalization](../articles/writing/nominalization.md) — AntiPattern
+
+*An operations analyst emails the leadership team about a recurring invoice-processing delay and needs one director to act.*
+
+| Before | After |
+|---|---|
+| Following the completion of a review of invoice processing times, a determination was made that the implementation of the new approval workflow has resulted in a reduction in throughput. A recommendation for the reconsideration of the two-signature requirement is under preparation, pending confirmation of the availability of resources for the provision of training. | We reviewed invoice processing times and found that the new approval workflow has slowed throughput. We recommend dropping the second signature for invoices under $5,000. Dana, can you confirm by Friday that your team can run the training? |
+
+**Why:** The original turns every action (review, determine, implement, reduce, recommend, confirm, provide) into a noun, so nobody is shown doing anything and the request has no owner; the rewrite names the actors, makes the actions verbs, and is about half as long.
+
+Ask yourself:
+- Can I point to who is doing the main action in each key sentence, and is that person or team the grammatical subject?
+- Have I written "make a decision", "conduct a review" or "provide an explanation" where "decide", "review" or "explain" would do?
+- Does any sentence string together several "the ... of" phrases or words ending in -tion, -ment or -ance?
+- Where I kept a noun form, is it because readers already treat it as a named concept, not because it sounds more formal?
+
 ### [Paramedic method for revising prose](../articles/writing/paramedic-method.md) — Technique
 
 1. Finish the draft first, then pick one long or important sentence to revise at a time.

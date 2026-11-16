@@ -11,7 +11,7 @@ summary: >-
 level: introductory
 evidenceStatus: practitioner
 broader: [cm:editing-for-clarity]
-related: [cm:concise-writing, cm:active-voice, cm:plain-language, cm:readability-formulas, cm:passive-voice]
+related: [cm:concise-writing, cm:active-voice, cm:plain-language, cm:readability-formulas, cm:passive-voice, cm:nominalization]
 requires: []
 relations:
   - {predicate: develops, object: cm:concise-writing, source: s1, confidence: high}
