@@ -2774,6 +2774,108 @@
    ]
   },
   {
+   "@id": "cm:characters-as-subjects-actions-as-verbs",
+   "@type": "cmo:Technique",
+   "cmo:addresses": {
+    "@id": "cm:nominalization"
+   },
+   "cmo:challengedBy": {
+    "@id": "cm:balling-2018"
+   },
+   "cmo:complements": {
+    "@id": "cm:active-voice"
+   },
+   "cmo:develops": {
+    "@id": "cm:concise-writing"
+   },
+   "cmo:domain": "writing",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/characters-as-subjects-actions-as-verbs/example"
+   },
+   "cmo:file": "articles/writing/characters-as-subjects-actions-as-verbs.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/characters-as-subjects-actions-as-verbs/howto"
+   },
+   "cmo:introducedBy": {
+    "@id": "cm:joseph-m-williams"
+   },
+   "cmo:introducedIn": {
+    "@id": "cm:style-lessons-in-clarity-and-grace"
+   },
+   "cmo:level": "introductory",
+   "cmo:supportedBy": {
+    "@id": "cm:spyridakis-isakson-1998"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/characters-as-subjects-actions-as-verbs/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/characters-as-subjects-actions-as-verbs/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/characters-as-subjects-actions-as-verbs/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/characters-as-subjects-actions-as-verbs/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/characters-as-subjects-actions-as-verbs/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/characters-as-subjects-actions-as-verbs/s6"
+    }
+   ],
+   "rdfs:label": "Make characters subjects and actions verbs",
+   "skos:altLabel": [
+    "Williams's principles of clarity",
+    "actions as verbs",
+    "characters and actions",
+    "characters as subjects",
+    "denominalizing",
+    "unburying verbs"
+   ],
+   "skos:broader": {
+    "@id": "cm:editing-for-clarity"
+   },
+   "skos:definition": "Joseph M. Williams's sentence-revision technique: find the main characters and the actions they perform, then rewrite so each character is a grammatical subject and each important action is a verb, which removes hidden verbs and makes clear who does what.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/writing"
+   },
+   "skos:prefLabel": "Make characters subjects and actions verbs",
+   "skos:related": [
+    {
+     "@id": "cm:active-voice"
+    },
+    {
+     "@id": "cm:clarity"
+    },
+    {
+     "@id": "cm:concise-writing"
+    },
+    {
+     "@id": "cm:nominalization"
+    },
+    {
+     "@id": "cm:paramedic-method"
+    },
+    {
+     "@id": "cm:passive-voice"
+    },
+    {
+     "@id": "cm:plain-language"
+    },
+    {
+     "@id": "cm:wordiness"
+    }
+   ]
+  },
+  {
    "@id": "cm:charismatic-leadership-tactics",
    "@type": "cmo:Technique",
    "cmo:appliedIn": {
@@ -29872,6 +29974,116 @@
    "schema:text": "Check the receiver's side - their familiarity with you and the topic, time zone, norms and access - and adjust the default; a lean channel works better between people who already share context."
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/characters-as-subjects-actions-as-verbs/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:characters-as-subjects-actions-as-verbs"
+   },
+   "rdfs:label": "In my most important sentences, is the subject a person or team who acts, rather than an abstract noun?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/characters-as-subjects-actions-as-verbs/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:characters-as-subjects-actions-as-verbs"
+   },
+   "rdfs:label": "Is the action the reader must notice expressed as a verb, not as a noun after \"make\", \"conduct\" or \"provide\"?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/characters-as-subjects-actions-as-verbs/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:characters-as-subjects-actions-as-verbs"
+   },
+   "rdfs:label": "Can a reader tell within the first few words who is doing what?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/characters-as-subjects-actions-as-verbs/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:characters-as-subjects-actions-as-verbs"
+   },
+   "rdfs:label": "Where I kept a noun form, does it name a familiar concept or link to the previous sentence, rather than just sound formal?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/characters-as-subjects-actions-as-verbs/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "Our infrastructure team found that a configuration error in Tuesday's patch caused the outage, and we restored service at 14:10. Finance, please rerun the payroll batch before the 17:00 payment cutoff.",
+   "cmo:before": "Following the identification of the root cause as a configuration error during the patch deployment, the restoration of service was achieved at 14:10. Re-execution of the payroll batch by the finance team is required prior to the cutoff for the processing of payments.",
+   "cmo:situation": "An IT service manager updates department heads after a payroll-system outage and needs finance to rerun a batch.",
+   "cmo:why": "The original makes identification, restoration and re-execution the subjects and shows no one acting, so finance could miss that the next step is theirs; the rewrite names who found, restored and must rerun, puts each action in a verb, and states the deadline."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/characters-as-subjects-actions-as-verbs/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Make characters subjects and actions verbs",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/characters-as-subjects-actions-as-verbs/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/characters-as-subjects-actions-as-verbs/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/characters-as-subjects-actions-as-verbs/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/characters-as-subjects-actions-as-verbs/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/characters-as-subjects-actions-as-verbs/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/characters-as-subjects-actions-as-verbs/howto/6"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/characters-as-subjects-actions-as-verbs/howto/7"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/characters-as-subjects-actions-as-verbs/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Pick a sentence that feels hard to read, usually a long one in a key paragraph such as the opening, the recommendation or the request."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/characters-as-subjects-actions-as-verbs/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Read its first seven or eight words and check whether the subject is an abstract noun and the verb arrives late or is a weak verb such as is, has, make or conduct."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/characters-as-subjects-actions-as-verbs/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Name the main characters, the people, teams or systems who act, even if the sentence never mentions them."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/characters-as-subjects-actions-as-verbs/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Find the important actions, especially those hidden in nouns ending in -tion, -ment or -ance, and in phrases like \"make a decision\" or \"conduct a review\"."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/characters-as-subjects-actions-as-verbs/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Rewrite with each character as the subject and each action as its verb, and keep the subject close to its verb."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/characters-as-subjects-actions-as-verbs/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "Join the resulting clauses with words that state the logic, such as because, if, when or although."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/characters-as-subjects-actions-as-verbs/howto/7",
+   "@type": "schema:HowToStep",
+   "schema:position": 7,
+   "schema:text": "Keep a noun form when it names a concept readers already know, or when it links back to the previous sentence."
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -43120,6 +43332,90 @@
    "dcterms:title": "Channel Expansion Theory: A Comprehensive Meta-Analysis, Literature Review, and Examination of Boundary Conditions",
    "schema:url": {
     "@id": "https://scholars.hkbu.edu.hk/en/publications/channel-expansion-theory-a-comprehensive-meta-analysis-literature/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/characters-as-subjects-actions-as-verbs/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Joseph M. Williams & Joseph Bizup, Pearson (2021); Part II \"Clarity\", lessons \"Actions\" and \"Characters\" (publisher page)",
+   "dcterms:title": "Style: Lessons in Clarity and Grace, 13th edition",
+   "schema:url": {
+    "@id": "https://www.pearson.com/en-ca/subject-catalog/p/style-lessons-in-clarity-and-grace/P200000002140/9780137536603"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/characters-as-subjects-actions-as-verbs/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Karin Gosselink, Yale Center for Teaching and Learning (handout adapted from Williams & Bizup, Style - The Basics of Clarity and Grace, 5th ed., Lessons 2-3)",
+   "dcterms:title": "Grammar and Style: Actions & Characters",
+   "schema:url": {
+    "@id": "https://yale-nus.edu.sg/academics/wp-content/uploads/sites/8/2021/12/Grammar-Style-Actions-Characters.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/characters-as-subjects-actions-as-verbs/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Digital.gov, U.S. General Services Administration",
+   "dcterms:title": "Plain Language Guide Series: Writing",
+   "schema:url": {
+    "@id": "https://digital.gov/guides/plain-language/writing"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/characters-as-subjects-actions-as-verbs/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "George D. Gopen & Judith A. Swan, American Scientist (1990), Sigma Xi (reprint hosted by Columbia University course page)",
+   "dcterms:title": "The Science of Scientific Writing",
+   "schema:url": {
+    "@id": "https://www.cs.columbia.edu/~djhsu/coms6998-f17/science-of-writing.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/characters-as-subjects-actions-as-verbs/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "J. H. Spyridakis & C. S. Isakson, Journal of Technical Writing and Communication 28(2), 163-188 (1998), doi:10.2190/01hd-mhu1-qnx9-r3ye (catalogue record)",
+   "dcterms:title": "Study of nominalizations and denominalizations in technical prose",
+   "schema:url": {
+    "@id": "https://katalog.adlr.link/Record/ai-49-aHR0cDovL2R4LmRvaS5vcmcvMTAuMjE5MC8wMWhkLW1odTEtcW54OS1yM3ll"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/characters-as-subjects-actions-as-verbs/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Laura Winther Balling, Journal of Technical Writing and Communication 48(1), 104-122 (2018), doi:10.1177/0047281617696983 (accepted manuscript, Copenhagen Business School)",
+   "dcterms:title": "No Effect of Writing Advice on Reading Comprehension",
+   "schema:url": {
+    "@id": "https://research-api.cbs.dk/ws/files/57294517/laura_winther_balling_no_effect_acceptedmanuscript.pdf"
    }
   },
   {

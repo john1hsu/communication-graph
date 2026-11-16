@@ -6,9 +6,7 @@ SPARQL queries in `queries/` run over the asserted graph, the OWL-RL inferences 
 
 _Which written barriers or anti-patterns have nothing in the graph that addresses them?_ — `queries/01-problems-without-fix.rq`
 
-| node | type |
-|---|---|
-| `cm:nominalization` | cmo:AntiPattern |
+_No results._
 
 ## Skills with no practice technique (gap)
 
@@ -37,6 +35,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:self-recording-playback` | 3 | Gesturing while speaking, Public speaking, Public speaking anxiety |
 | `cm:acoustic-speech-analysis-coaching` | 2 | Vocal delivery, monotone-delivery |
 | `cm:behavior-modeling-training` | 2 | Communication competence, assertiveness |
+| `cm:characters-as-subjects-actions-as-verbs` | 2 | Concise writing, Nominalization |
 | `cm:chat-etiquette` | 2 | Information overload, workplace-telepressure |
 | `cm:coherence-principle` | 2 | Information overload, Slide design |
 | `cm:communicating-across-languages` | 2 | Unequal participation, language-barriers |
@@ -57,9 +56,8 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:self-affirmation-before-feedback` | 2 | Defensiveness, Receiving feedback |
 | `cm:self-distancing` | 2 | Public speaking anxiety, Spotlight effect |
 | `cm:silence-and-pauses` | 2 | Filled pauses, Mythical fixed-pie bias |
-| `cm:slide-design` | 2 | Death by PowerPoint, Information overload |
 
-…and 64 more.
+…and 65 more.
 
 ## Toolkit by situation
 
@@ -137,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:wise-feedback` | contested | `cm:troy-moua-van-boekel-2024` |
 | `cm:power-posing` | failed-replication | `cm:crede-2019` |
 
-…and 200 more.
+…and 201 more.
 
 ## Concepts with no recorded origin (gap)
 

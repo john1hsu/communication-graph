@@ -3181,6 +3181,30 @@ Ask yourself:
 - Could any of my headings sit unchanged on top of a different report, and if so, what specific point should it state instead?
 - Does the first sentence under each heading deliver what the heading promises?
 
+### [Make characters subjects and actions verbs](../articles/writing/characters-as-subjects-actions-as-verbs.md) — Technique
+
+1. Pick a sentence that feels hard to read, usually a long one in a key paragraph such as the opening, the recommendation or the request.
+2. Read its first seven or eight words and check whether the subject is an abstract noun and the verb arrives late or is a weak verb such as is, has, make or conduct.
+3. Name the main characters, the people, teams or systems who act, even if the sentence never mentions them.
+4. Find the important actions, especially those hidden in nouns ending in -tion, -ment or -ance, and in phrases like "make a decision" or "conduct a review".
+5. Rewrite with each character as the subject and each action as its verb, and keep the subject close to its verb.
+6. Join the resulting clauses with words that state the logic, such as because, if, when or although.
+7. Keep a noun form when it names a concept readers already know, or when it links back to the previous sentence.
+
+*An IT service manager updates department heads after a payroll-system outage and needs finance to rerun a batch.*
+
+| Before | After |
+|---|---|
+| Following the identification of the root cause as a configuration error during the patch deployment, the restoration of service was achieved at 14:10. Re-execution of the payroll batch by the finance team is required prior to the cutoff for the processing of payments. | Our infrastructure team found that a configuration error in Tuesday's patch caused the outage, and we restored service at 14:10. Finance, please rerun the payroll batch before the 17:00 payment cutoff. |
+
+**Why:** The original makes identification, restoration and re-execution the subjects and shows no one acting, so finance could miss that the next step is theirs; the rewrite names who found, restored and must rerun, puts each action in a verb, and states the deadline.
+
+Ask yourself:
+- In my most important sentences, is the subject a person or team who acts, rather than an abstract noun?
+- Is the action the reader must notice expressed as a verb, not as a noun after "make", "conduct" or "provide"?
+- Can a reader tell within the first few words who is doing what?
+- Where I kept a noun form, does it name a familiar concept or link to the previous sentence, rather than just sound formal?
+
 ### [Nominalization](../articles/writing/nominalization.md) — AntiPattern
 
 *An operations analyst emails the leadership team about a recurring invoice-processing delay and needs one director to act.*
