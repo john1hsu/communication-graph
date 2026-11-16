@@ -1693,6 +1693,119 @@
   ]
  },
  {
+  "id": "cm:autonomy-supportive-language",
+  "title": "Autonomy-supportive language",
+  "aliases": [
+   "autonomy-supportive communication",
+   "non-controlling language",
+   "informational language",
+   "choice-preserving language",
+   "autonomy support"
+  ],
+  "type": "Technique",
+  "domain": "persuasion-and-influence",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/persuasion-and-influence/autonomy-supportive-language.md",
+  "created": "2026-11-16",
+  "summary": "Phrasing requests and guidance so that people can see the reason, the choices they still have and their own say in the matter - informational rather than pressuring words and tone - which lowers defiance and reactance while keeping the request clear.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:persuasion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:psychological-reactance"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:influence-without-authority"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:change-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:register-and-tone"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:paralanguage"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:i-statements"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:coaching"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:but-you-are-free-technique"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:psychological-reactance",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:self-determination-theory",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:weinstein-vansteenkiste-paulmann-2020",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:slemp-et-al-2018",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:paralanguage",
+    "source": "s3",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Have I told them why, or only what?",
+   "Which parts of this are truly fixed, and have I left every other part open for them to decide?",
+   "Would I bristle if someone said this to me in this tone of voice?",
+   "Am I offering a real choice, or one I would overrule if they took it?"
+  ],
+  "steps": [
+   "Before you write or say the request, separate what is truly fixed (the goal, a legal deadline) from what the other person can decide (how, when, in what order, with what help).",
+   "Lead with the reason - what the request achieves and for whom - in one or two plain sentences, before any instruction.",
+   "Replace pressuring words such as \"must\", \"have to\", \"no exceptions\" and all-caps with informational wording such as \"the deadline is\", \"you could\", \"one option is\" or \"consider\".",
+   "Name the real choices that remain and invite the person's input or concerns, then genuinely act on what they say.",
+   "If the request is a hard constraint, state it plainly and briefly, then close by restoring the freedom that does exist, such as \"how you get there is your call\".",
+   "Say it in a calm, warm voice; read spoken requests aloud first and soften a harsh or clipped delivery, because tone carries control even when the words do not."
+  ],
+  "example": {
+   "situation": "A team lead needs five analysts to move their weekly reports onto a new shared dashboard before the quarter closes.",
+   "before": "Everyone MUST move their reports to the new dashboard by the 30th. No exceptions. I don't want to see any more spreadsheets.",
+   "after": "Finance is consolidating reporting so leadership can compare teams in one view, which means the old spreadsheets close on the 30th. Until then, how and when you migrate is up to you - some people start with their simplest report. I'll hold an optional 20-minute session on Tuesday, and if the dashboard is missing something you rely on, tell me and I'll take it to Finance.",
+   "why": "The deadline survives intact, but the rewrite gives the reason, swaps pressuring words for informational ones, shows the choices that remain and invites concerns. That is the pattern experiments link to lower pressure and defiance, and leader autonomy support is associated with higher engagement and performance."
+  },
+  "source_urls": [
+   "https://selfdeterminationtheory.org/wp-content/uploads/2018/05/2018_SlempKernPatrickRyan_Leader-1.pdf",
+   "https://repository.essex.ac.uk/26421/",
+   "https://repository.essex.ac.uk/38504/",
+   "https://vufind-test.katalog.k.utb.cz/SummonRecord/FETCH-LOGICAL-c394t-8d6c9231af9270886cd223c69ebfa879dc7d0f204e3a7aa9915b2c41c25854403",
+   "https://open.lnu.se/index.php/metapsychology/article/view/2640"
+  ]
+ },
+ {
   "id": "cm:avrim-fishkind",
   "title": "Avrim Fishkind",
   "aliases": [
@@ -24571,6 +24684,10 @@
    {
     "predicate": "skos:related",
     "object": "cm:i-statements"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:autonomy-supportive-language"
    },
    {
     "predicate": "cmo:introducedBy",

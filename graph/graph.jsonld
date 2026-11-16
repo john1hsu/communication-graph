@@ -1491,6 +1491,100 @@
    ]
   },
   {
+   "@id": "cm:autonomy-supportive-language",
+   "@type": "cmo:Technique",
+   "cmo:addresses": {
+    "@id": "cm:psychological-reactance"
+   },
+   "cmo:complements": {
+    "@id": "cm:paralanguage"
+   },
+   "cmo:domain": "persuasion-and-influence",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/example"
+   },
+   "cmo:explainedBy": {
+    "@id": "cm:self-determination-theory"
+   },
+   "cmo:file": "articles/persuasion-and-influence/autonomy-supportive-language.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/howto"
+   },
+   "cmo:level": "introductory",
+   "cmo:supportedBy": [
+    {
+     "@id": "cm:slemp-et-al-2018"
+    },
+    {
+     "@id": "cm:weinstein-vansteenkiste-paulmann-2020"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/autonomy-supportive-language/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/autonomy-supportive-language/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/autonomy-supportive-language/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/autonomy-supportive-language/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/autonomy-supportive-language/s5"
+    }
+   ],
+   "rdfs:label": "Autonomy-supportive language",
+   "skos:altLabel": [
+    "autonomy support",
+    "autonomy-supportive communication",
+    "choice-preserving language",
+    "informational language",
+    "non-controlling language"
+   ],
+   "skos:broader": {
+    "@id": "cm:persuasion"
+   },
+   "skos:definition": "Phrasing requests and guidance so that people can see the reason, the choices they still have and their own say in the matter - informational rather than pressuring words and tone - which lowers defiance and reactance while keeping the request clear.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/persuasion-and-influence"
+   },
+   "skos:prefLabel": "Autonomy-supportive language",
+   "skos:related": [
+    {
+     "@id": "cm:but-you-are-free-technique"
+    },
+    {
+     "@id": "cm:change-communication"
+    },
+    {
+     "@id": "cm:coaching"
+    },
+    {
+     "@id": "cm:i-statements"
+    },
+    {
+     "@id": "cm:influence-without-authority"
+    },
+    {
+     "@id": "cm:paralanguage"
+    },
+    {
+     "@id": "cm:psychological-reactance"
+    },
+    {
+     "@id": "cm:register-and-tone"
+    }
+   ]
+  },
+  {
    "@id": "cm:avrim-fishkind",
    "@type": "cmo:Person",
    "cmo:authored": [
@@ -21701,6 +21795,9 @@
    "skos:prefLabel": "Psychological reactance",
    "skos:related": [
     {
+     "@id": "cm:autonomy-supportive-language"
+    },
+    {
      "@id": "cm:change-communication"
     },
     {
@@ -30355,6 +30452,107 @@
    "@type": "schema:HowToStep",
    "schema:position": 6,
    "schema:text": "Reread the draft as each audience in turn - including someone it might be forwarded to - and fix what would confuse or alienate them."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:autonomy-supportive-language"
+   },
+   "rdfs:label": "Have I told them why, or only what?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:autonomy-supportive-language"
+   },
+   "rdfs:label": "Which parts of this are truly fixed, and have I left every other part open for them to decide?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:autonomy-supportive-language"
+   },
+   "rdfs:label": "Would I bristle if someone said this to me in this tone of voice?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:autonomy-supportive-language"
+   },
+   "rdfs:label": "Am I offering a real choice, or one I would overrule if they took it?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "Finance is consolidating reporting so leadership can compare teams in one view, which means the old spreadsheets close on the 30th. Until then, how and when you migrate is up to you - some people start with their simplest report. I'll hold an optional 20-minute session on Tuesday, and if the dashboard is missing something you rely on, tell me and I'll take it to Finance.",
+   "cmo:before": "Everyone MUST move their reports to the new dashboard by the 30th. No exceptions. I don't want to see any more spreadsheets.",
+   "cmo:situation": "A team lead needs five analysts to move their weekly reports onto a new shared dashboard before the quarter closes.",
+   "cmo:why": "The deadline survives intact, but the rewrite gives the reason, swaps pressuring words for informational ones, shows the choices that remain and invites concerns. That is the pattern experiments link to lower pressure and defiance, and leader autonomy support is associated with higher engagement and performance."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Autonomy-supportive language",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/howto/6"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Before you write or say the request, separate what is truly fixed (the goal, a legal deadline) from what the other person can decide (how, when, in what order, with what help)."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Lead with the reason - what the request achieves and for whom - in one or two plain sentences, before any instruction."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Replace pressuring words such as \"must\", \"have to\", \"no exceptions\" and all-caps with informational wording such as \"the deadline is\", \"you could\", \"one option is\" or \"consider\"."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Name the real choices that remain and invite the person's input or concerns, then genuinely act on what they say."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "If the request is a hard constraint, state it plainly and briefly, then close by restoring the freedom that does exist, such as \"how you get there is your call\"."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "Say it in a calm, warm voice; read spoken requests aloud first and soften a harsh or clipped delivery, because tone carries control even when the words do not."
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/batna/check/1",
@@ -43746,6 +43944,76 @@
    "dcterms:title": "Communication and miscommunication: The role of egocentric processes",
    "schema:url": {
     "@id": "https://www.degruyterbrill.com/document/doi/10.1515/IP.2007.004/html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/autonomy-supportive-language/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Slemp, G. R., Kern, M. L., Patrick, K. J. & Ryan, R. M., Motivation and Emotion, 2018, doi:10.1007/s11031-018-9698-y (author copy hosted by the Center for Self-Determination Theory)",
+   "dcterms:title": "Leader autonomy support in the workplace: A meta-analytic review",
+   "schema:url": {
+    "@id": "https://selfdeterminationtheory.org/wp-content/uploads/2018/05/2018_SlempKernPatrickRyan_Leader-1.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/autonomy-supportive-language/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Weinstein, N., Vansteenkiste, M. & Paulmann, S., Journal of Experimental Social Psychology 88, 103949, 2020, doi:10.1016/j.jesp.2019.103949 (University of Essex repository record)",
+   "dcterms:title": "Don't You Say it that Way! Experimental Evidence that Controlling Voices Elicit Defiance",
+   "schema:url": {
+    "@id": "https://repository.essex.ac.uk/26421/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/autonomy-supportive-language/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Vrijders, B., Weinstein, N., Paulmann, S., Soenens, B., Waterschoot, J. & Vansteenkiste, M., Motivation Science 11(1), 49-66, 2025 (online 2024), doi:10.1037/mot0000357 (University of Essex repository record)",
+   "dcterms:title": "Your Prosody Matters! The Effect of Controlling Tone of Voice on Listeners' Experienced Pressure, Closeness, and Intention to Collaborate with the Speaker",
+   "schema:url": {
+    "@id": "https://repository.essex.ac.uk/38504/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/autonomy-supportive-language/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Richards, A. S., Bessarabova, E., Banas, J. A. & Bernard, D. R., Health Communication 37(3), 366-374, 2022, doi:10.1080/10410236.2020.1839203 (library catalogue record)",
+   "dcterms:title": "Reducing Psychological Reactance to Health Promotion Messages: Comparing Preemptive and Postscript Mitigation Strategies",
+   "schema:url": {
+    "@id": "https://vufind-test.katalog.k.utb.cz/SummonRecord/FETCH-LOGICAL-c394t-8d6c9231af9270886cd223c69ebfa879dc7d0f204e3a7aa9915b2c41c25854403"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/autonomy-supportive-language/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Fillon, A., Souchet, L., Pascual, A. & Girandola, F., Meta-Psychology 7, 2023, doi:10.15626/MP.2020.2640",
+   "dcterms:title": "The Effectiveness of the \"But-you-are-free\" technique: Meta-analysis and re-examination of the technique",
+   "schema:url": {
+    "@id": "https://open.lnu.se/index.php/metapsychology/article/view/2640"
    }
   },
   {

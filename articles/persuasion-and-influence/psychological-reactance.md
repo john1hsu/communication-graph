@@ -10,7 +10,7 @@ summary: >-
 level: intermediate
 evidenceStatus: mixed
 broader: [cm:persuasion]
-related: [cm:inoculation-theory, cm:refutational-two-sided-messages, cm:influence-without-authority, cm:change-communication, cm:defensiveness, cm:i-statements]
+related: [cm:inoculation-theory, cm:refutational-two-sided-messages, cm:influence-without-authority, cm:change-communication, cm:defensiveness, cm:i-statements, cm:autonomy-supportive-language]
 requires: []
 relations:
   - {predicate: introducedBy, object: cm:jack-w-brehm, source: s1, confidence: high}

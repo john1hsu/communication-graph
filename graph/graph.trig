@@ -1678,6 +1678,14 @@
 <https://github.com/john1hsu/communication-graph/id/uptalk#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/uptalk/s3> .
 <https://github.com/john1hsu/communication-graph/id/uptalk#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/uptalk/s4> .
 <https://github.com/john1hsu/communication-graph/id/uptalk#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/uptalk/s5> .
+<https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> .
+<https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/persuasion-and-influence/autonomy-supportive-language.md" .
+<https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/autonomy-supportive-language/s1> .
+<https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/autonomy-supportive-language/s2> .
+<https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/autonomy-supportive-language/s3> .
+<https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/autonomy-supportive-language/s4> .
+<https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/autonomy-supportive-language/s5> .
 <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> .
 <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/persuasion-and-influence/charismatic-leadership-tactics.md" .
@@ -20835,6 +20843,118 @@
   <https://github.com/john1hsu/communication-graph/id/uptalk> <https://github.com/john1hsu/communication-graph/ontology#studiedIn> <https://github.com/john1hsu/communication-graph/id/sociolinguistics> .
 }
 
+<https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language#graph> {
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Have I told them why, or only what?" .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Which parts of this are truly fixed, and have I left every other part open for them to decide?" .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Would I bristle if someone said this to me in this tone of voice?" .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Am I offering a real choice, or one I would overrule if they took it?" .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/example> <https://github.com/john1hsu/communication-graph/ontology#after> "Finance is consolidating reporting so leadership can compare teams in one view, which means the old spreadsheets close on the 30th. Until then, how and when you migrate is up to you - some people start with their simplest report. I'll hold an optional 20-minute session on Tuesday, and if the dashboard is missing something you rely on, tell me and I'll take it to Finance." .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/example> <https://github.com/john1hsu/communication-graph/ontology#before> "Everyone MUST move their reports to the new dashboard by the 30th. No exceptions. I don't want to see any more spreadsheets." .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "A team lead needs five analysts to move their weekly reports onto a new shared dashboard before the quarter closes." .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/example> <https://github.com/john1hsu/communication-graph/ontology#why> "The deadline survives intact, but the rewrite gives the reason, swaps pressuring words for informational ones, shows the choices that remain and invites concerns. That is the pattern experiments link to lower pressure and defiance, and leader autonomy support is associated with higher engagement and performance." .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/howto/1> <https://schema.org/text> "Before you write or say the request, separate what is truly fixed (the goal, a legal deadline) from what the other person can decide (how, when, in what order, with what help)." .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/howto/2> <https://schema.org/text> "Lead with the reason - what the request achieves and for whom - in one or two plain sentences, before any instruction." .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/howto/3> <https://schema.org/text> "Replace pressuring words such as \"must\", \"have to\", \"no exceptions\" and all-caps with informational wording such as \"the deadline is\", \"you could\", \"one option is\" or \"consider\"." .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/howto/4> <https://schema.org/text> "Name the real choices that remain and invite the person's input or concerns, then genuinely act on what they say." .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/howto/5> <https://schema.org/text> "If the request is a hard constraint, state it plainly and briefly, then close by restoring the freedom that does exist, such as \"how you get there is your call\"." .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/howto/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/howto/6> <https://schema.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/howto/6> <https://schema.org/text> "Say it in a calm, warm voice; read spoken requests aloud first and soften a harsh or clipped delivery, because tone carries control even when the words do not." .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/howto> <https://schema.org/name> "Autonomy-supportive language" .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/howto/1> .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/howto/2> .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/howto/3> .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/howto/4> .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/howto/5> .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/howto/6> .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> <http://purl.org/dc/terms/created> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Technique> .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> <http://www.w3.org/2000/01/rdf-schema#label> "Autonomy-supportive language" .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> <http://www.w3.org/2004/02/skos/core#altLabel> "autonomy support" .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> <http://www.w3.org/2004/02/skos/core#altLabel> "autonomy-supportive communication" .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> <http://www.w3.org/2004/02/skos/core#altLabel> "choice-preserving language" .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> <http://www.w3.org/2004/02/skos/core#altLabel> "informational language" .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> <http://www.w3.org/2004/02/skos/core#altLabel> "non-controlling language" .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/persuasion> .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> <http://www.w3.org/2004/02/skos/core#definition> "Phrasing requests and guidance so that people can see the reason, the choices they still have and their own say in the matter - informational rather than pressuring words and tone - which lowers defiance and reactance while keeping the request clear." .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/persuasion-and-influence> .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> <http://www.w3.org/2004/02/skos/core#prefLabel> "Autonomy-supportive language" .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/but-you-are-free-technique> .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/change-communication> .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/coaching> .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/i-statements> .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/influence-without-authority> .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/paralanguage> .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/psychological-reactance> .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/register-and-tone> .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/autonomy-supportive-language/s1> .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/autonomy-supportive-language/s2> .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/autonomy-supportive-language/s3> .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/autonomy-supportive-language/s4> .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/autonomy-supportive-language/s5> .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/psychological-reactance> .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/paralanguage> .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> <https://github.com/john1hsu/communication-graph/ontology#domain> "persuasion-and-influence" .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/example> .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/self-determination-theory> .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/persuasion-and-influence/autonomy-supportive-language.md" .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/howto> .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/slemp-et-al-2018> .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/weinstein-vansteenkiste-paulmann-2020> .
+  <https://github.com/john1hsu/communication-graph/id/source/autonomy-supportive-language/s1> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/autonomy-supportive-language/s1> <http://purl.org/dc/terms/publisher> "Slemp, G. R., Kern, M. L., Patrick, K. J. & Ryan, R. M., Motivation and Emotion, 2018, doi:10.1007/s11031-018-9698-y (author copy hosted by the Center for Self-Determination Theory)" .
+  <https://github.com/john1hsu/communication-graph/id/source/autonomy-supportive-language/s1> <http://purl.org/dc/terms/title> "Leader autonomy support in the workplace: A meta-analytic review" .
+  <https://github.com/john1hsu/communication-graph/id/source/autonomy-supportive-language/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/autonomy-supportive-language/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/autonomy-supportive-language/s1> <https://schema.org/url> <https://selfdeterminationtheory.org/wp-content/uploads/2018/05/2018_SlempKernPatrickRyan_Leader-1.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/autonomy-supportive-language/s2> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/autonomy-supportive-language/s2> <http://purl.org/dc/terms/publisher> "Weinstein, N., Vansteenkiste, M. & Paulmann, S., Journal of Experimental Social Psychology 88, 103949, 2020, doi:10.1016/j.jesp.2019.103949 (University of Essex repository record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/autonomy-supportive-language/s2> <http://purl.org/dc/terms/title> "Don't You Say it that Way! Experimental Evidence that Controlling Voices Elicit Defiance" .
+  <https://github.com/john1hsu/communication-graph/id/source/autonomy-supportive-language/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/autonomy-supportive-language/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/autonomy-supportive-language/s2> <https://schema.org/url> <https://repository.essex.ac.uk/26421/> .
+  <https://github.com/john1hsu/communication-graph/id/source/autonomy-supportive-language/s3> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/autonomy-supportive-language/s3> <http://purl.org/dc/terms/publisher> "Vrijders, B., Weinstein, N., Paulmann, S., Soenens, B., Waterschoot, J. & Vansteenkiste, M., Motivation Science 11(1), 49-66, 2025 (online 2024), doi:10.1037/mot0000357 (University of Essex repository record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/autonomy-supportive-language/s3> <http://purl.org/dc/terms/title> "Your Prosody Matters! The Effect of Controlling Tone of Voice on Listeners' Experienced Pressure, Closeness, and Intention to Collaborate with the Speaker" .
+  <https://github.com/john1hsu/communication-graph/id/source/autonomy-supportive-language/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/autonomy-supportive-language/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/autonomy-supportive-language/s3> <https://schema.org/url> <https://repository.essex.ac.uk/38504/> .
+  <https://github.com/john1hsu/communication-graph/id/source/autonomy-supportive-language/s4> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/autonomy-supportive-language/s4> <http://purl.org/dc/terms/publisher> "Richards, A. S., Bessarabova, E., Banas, J. A. & Bernard, D. R., Health Communication 37(3), 366-374, 2022, doi:10.1080/10410236.2020.1839203 (library catalogue record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/autonomy-supportive-language/s4> <http://purl.org/dc/terms/title> "Reducing Psychological Reactance to Health Promotion Messages: Comparing Preemptive and Postscript Mitigation Strategies" .
+  <https://github.com/john1hsu/communication-graph/id/source/autonomy-supportive-language/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/autonomy-supportive-language/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/autonomy-supportive-language/s4> <https://schema.org/url> <https://vufind-test.katalog.k.utb.cz/SummonRecord/FETCH-LOGICAL-c394t-8d6c9231af9270886cd223c69ebfa879dc7d0f204e3a7aa9915b2c41c25854403> .
+  <https://github.com/john1hsu/communication-graph/id/source/autonomy-supportive-language/s5> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/autonomy-supportive-language/s5> <http://purl.org/dc/terms/publisher> "Fillon, A., Souchet, L., Pascual, A. & Girandola, F., Meta-Psychology 7, 2023, doi:10.15626/MP.2020.2640" .
+  <https://github.com/john1hsu/communication-graph/id/source/autonomy-supportive-language/s5> <http://purl.org/dc/terms/title> "The Effectiveness of the \"But-you-are-free\" technique: Meta-analysis and re-examination of the technique" .
+  <https://github.com/john1hsu/communication-graph/id/source/autonomy-supportive-language/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/autonomy-supportive-language/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/autonomy-supportive-language/s5> <https://schema.org/url> <https://open.lnu.se/index.php/metapsychology/article/view/2640> .
+}
+
 <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics#graph> {
   <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
   <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Is every story, number and promise in my message true and something I would stand behind afterwards?" .
@@ -21969,6 +22089,7 @@
   <https://github.com/john1hsu/communication-graph/id/psychological-reactance> <http://www.w3.org/2004/02/skos/core#definition> "The motivational pushback people feel when a message threatens their freedom to choose, which shows up as anger and counterarguing and can make forceful or controlling persuasion backfire." .
   <https://github.com/john1hsu/communication-graph/id/psychological-reactance> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/persuasion-and-influence> .
   <https://github.com/john1hsu/communication-graph/id/psychological-reactance> <http://www.w3.org/2004/02/skos/core#prefLabel> "Psychological reactance" .
+  <https://github.com/john1hsu/communication-graph/id/psychological-reactance> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> .
   <https://github.com/john1hsu/communication-graph/id/psychological-reactance> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/change-communication> .
   <https://github.com/john1hsu/communication-graph/id/psychological-reactance> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/defensiveness> .
   <https://github.com/john1hsu/communication-graph/id/psychological-reactance> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/i-statements> .
@@ -32305,6 +32426,18 @@
   <https://github.com/john1hsu/communication-graph/id/audience> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
   <https://github.com/john1hsu/communication-graph/id/audience> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
   <https://github.com/john1hsu/communication-graph/id/audience> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/aristotles-rhetoric> .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/humanities> .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/persuasion> .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/aviezer-et-al-2012> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/facial-expressions> .
   <https://github.com/john1hsu/communication-graph/id/avraham-n-kluger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/avraham-n-kluger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
@@ -32641,6 +32774,7 @@
   <https://github.com/john1hsu/communication-graph/id/business-writing> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/mccallum-erie-railroad-report> .
   <https://github.com/john1hsu/communication-graph/id/business-writing> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/memorandum> .
   <https://github.com/john1hsu/communication-graph/id/business-writing> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/status-reporting> .
+  <https://github.com/john1hsu/communication-graph/id/but-you-are-free-technique> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> .
   <https://github.com/john1hsu/communication-graph/id/butler-et-al-2003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/butler-et-al-2003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/butler-et-al-2003> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/james-j-gross> .
@@ -32724,6 +32858,7 @@
   <https://github.com/john1hsu/communication-graph/id/change-communication> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/change-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/realistic-merger-preview> .
   <https://github.com/john1hsu/communication-graph/id/change-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/realistic-merger-preview> .
+  <https://github.com/john1hsu/communication-graph/id/change-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> .
   <https://github.com/john1hsu/communication-graph/id/change-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/inoculation-theory> .
   <https://github.com/john1hsu/communication-graph/id/change-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/john-p-kotter> .
   <https://github.com/john1hsu/communication-graph/id/change-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/psychological-reactance> .
@@ -33005,6 +33140,7 @@
   <https://github.com/john1hsu/communication-graph/id/coaching> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/solution-focused-coaching> .
   <https://github.com/john1hsu/communication-graph/id/coaching> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/grow-model> .
   <https://github.com/john1hsu/communication-graph/id/coaching> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/solution-focused-coaching> .
+  <https://github.com/john1hsu/communication-graph/id/coaching> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> .
   <https://github.com/john1hsu/communication-graph/id/coaching> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/john-whitmore> .
   <https://github.com/john1hsu/communication-graph/id/coaching> <https://github.com/john1hsu/communication-graph/ontology#developedBy> <https://github.com/john1hsu/communication-graph/id/solution-focused-coaching> .
   <https://github.com/john1hsu/communication-graph/id/coaching> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/john-whitmore> .
@@ -33275,6 +33411,7 @@
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/assertive-communication> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> .
+  <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/batna> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/brainstorming> .
@@ -35547,6 +35684,7 @@
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/assertive-communication> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> .
+  <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/batna> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/brainstorming> .
@@ -35810,6 +35948,7 @@
   <https://github.com/john1hsu/communication-graph/id/i-statements> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/active-listening> .
   <https://github.com/john1hsu/communication-graph/id/i-statements> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/apology> .
   <https://github.com/john1hsu/communication-graph/id/i-statements> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/assertive-communication> .
+  <https://github.com/john1hsu/communication-graph/id/i-statements> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> .
   <https://github.com/john1hsu/communication-graph/id/i-statements> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/conversational-receptiveness> .
   <https://github.com/john1hsu/communication-graph/id/i-statements> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/de-escalation> .
   <https://github.com/john1hsu/communication-graph/id/i-statements> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/defensiveness> .
@@ -35913,6 +36052,7 @@
   <https://github.com/john1hsu/communication-graph/id/influence-without-authority> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/persuasion> .
   <https://github.com/john1hsu/communication-graph/id/influence-without-authority> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/influence-without-authority> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/adam-galinsky> .
+  <https://github.com/john1hsu/communication-graph/id/influence-without-authority> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> .
   <https://github.com/john1hsu/communication-graph/id/influence-without-authority> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/credibility> .
   <https://github.com/john1hsu/communication-graph/id/influence-without-authority> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> .
   <https://github.com/john1hsu/communication-graph/id/influence-without-authority> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/issue-selling> .
@@ -36188,6 +36328,7 @@
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/active-listening> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/active-voice> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/assertive-communication> .
+  <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/batna> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/bulleted-and-numbered-lists> .
@@ -37759,6 +37900,7 @@
   <https://github.com/john1hsu/communication-graph/id/paralanguage> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/vocal-delivery> .
   <https://github.com/john1hsu/communication-graph/id/paralanguage> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/wait-time> .
   <https://github.com/john1hsu/communication-graph/id/paralanguage> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/acoustic-speech-analysis-coaching> .
+  <https://github.com/john1hsu/communication-graph/id/paralanguage> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> .
   <https://github.com/john1hsu/communication-graph/id/paralanguage> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> .
   <https://github.com/john1hsu/communication-graph/id/paralanguage> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/de-escalation> .
   <https://github.com/john1hsu/communication-graph/id/paralanguage> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> .
@@ -37771,6 +37913,7 @@
   <https://github.com/john1hsu/communication-graph/id/paralanguage> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> .
   <https://github.com/john1hsu/communication-graph/id/paralanguage> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/rebecca-hincks> .
   <https://github.com/john1hsu/communication-graph/id/paralanguage> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/scott-fahlman> .
+  <https://github.com/john1hsu/communication-graph/id/paralanguage> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> .
   <https://github.com/john1hsu/communication-graph/id/paramedic-method/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/paramedic-method/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/paramedic-method/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -37995,6 +38138,7 @@
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/humanities> .
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
+  <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> .
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> .
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/credibility> .
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> .
@@ -38012,6 +38156,7 @@
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/rule-of-three> .
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/social-proof> .
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping> .
+  <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> .
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/charismatic-leadership-tactics> .
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/credibility> .
   <https://github.com/john1hsu/communication-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> .
@@ -38412,6 +38557,7 @@
   <https://github.com/john1hsu/communication-graph/id/psychological-reactance> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
   <https://github.com/john1hsu/communication-graph/id/psychological-reactance> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/persuasion> .
   <https://github.com/john1hsu/communication-graph/id/psychological-reactance> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
+  <https://github.com/john1hsu/communication-graph/id/psychological-reactance> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/team-climate> .
@@ -38788,6 +38934,7 @@
   <https://github.com/john1hsu/communication-graph/id/refutational-two-sided-messages> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/rhetorical-appeals> .
   <https://github.com/john1hsu/communication-graph/id/register-and-tone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/register-and-tone> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/sociolinguistics> .
+  <https://github.com/john1hsu/communication-graph/id/register-and-tone> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> .
   <https://github.com/john1hsu/communication-graph/id/register-and-tone> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communicating-across-languages> .
   <https://github.com/john1hsu/communication-graph/id/register-and-tone> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communication-accommodation-theory> .
   <https://github.com/john1hsu/communication-graph/id/register-and-tone> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communication-competence> .
@@ -39131,6 +39278,7 @@
   <https://github.com/john1hsu/communication-graph/id/self-affirmation-before-feedback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/wise-feedback> .
   <https://github.com/john1hsu/communication-graph/id/self-affirmation-theory> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/defensiveness> .
   <https://github.com/john1hsu/communication-graph/id/self-affirmation-theory> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/self-affirmation-before-feedback> .
+  <https://github.com/john1hsu/communication-graph/id/self-determination-theory> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> .
   <https://github.com/john1hsu/communication-graph/id/self-determination-theory> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> .
   <https://github.com/john1hsu/communication-graph/id/self-disclosure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/self-disclosure> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
@@ -39338,6 +39486,7 @@
   <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> .
   <https://github.com/john1hsu/communication-graph/id/sleeper-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/credibility> .
   <https://github.com/john1hsu/communication-graph/id/sleeper-effect> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/carl-hovland> .
+  <https://github.com/john1hsu/communication-graph/id/slemp-et-al-2018> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> .
   <https://github.com/john1hsu/communication-graph/id/slide-design/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/slide-design/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/slide-design/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -39454,6 +39603,7 @@
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/assertive-communication> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> .
+  <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/batna> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/brainstorming> .
@@ -40463,6 +40613,7 @@
   <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/thomas-gordon> .
   <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/active-listening> .
   <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/paraphrasing> .
+  <https://github.com/john1hsu/communication-graph/id/weinstein-vansteenkiste-paulmann-2020> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> .
   <https://github.com/john1hsu/communication-graph/id/wilbur-schramm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/wilbur-schramm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/wilbur-schramm> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/communication-studies> .

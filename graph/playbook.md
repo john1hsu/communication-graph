@@ -2353,6 +2353,29 @@ Ask yourself:
 
 ## persuasion-and-influence
 
+### [Autonomy-supportive language](../articles/persuasion-and-influence/autonomy-supportive-language.md) — Technique
+
+1. Before you write or say the request, separate what is truly fixed (the goal, a legal deadline) from what the other person can decide (how, when, in what order, with what help).
+2. Lead with the reason - what the request achieves and for whom - in one or two plain sentences, before any instruction.
+3. Replace pressuring words such as "must", "have to", "no exceptions" and all-caps with informational wording such as "the deadline is", "you could", "one option is" or "consider".
+4. Name the real choices that remain and invite the person's input or concerns, then genuinely act on what they say.
+5. If the request is a hard constraint, state it plainly and briefly, then close by restoring the freedom that does exist, such as "how you get there is your call".
+6. Say it in a calm, warm voice; read spoken requests aloud first and soften a harsh or clipped delivery, because tone carries control even when the words do not.
+
+*A team lead needs five analysts to move their weekly reports onto a new shared dashboard before the quarter closes.*
+
+| Before | After |
+|---|---|
+| Everyone MUST move their reports to the new dashboard by the 30th. No exceptions. I don't want to see any more spreadsheets. | Finance is consolidating reporting so leadership can compare teams in one view, which means the old spreadsheets close on the 30th. Until then, how and when you migrate is up to you - some people start with their simplest report. I'll hold an optional 20-minute session on Tuesday, and if the dashboard is missing something you rely on, tell me and I'll take it to Finance. |
+
+**Why:** The deadline survives intact, but the rewrite gives the reason, swaps pressuring words for informational ones, shows the choices that remain and invites concerns. That is the pattern experiments link to lower pressure and defiance, and leader autonomy support is associated with higher engagement and performance.
+
+Ask yourself:
+- Have I told them why, or only what?
+- Which parts of this are truly fixed, and have I left every other part open for them to decide?
+- Would I bristle if someone said this to me in this tone of voice?
+- Am I offering a real choice, or one I would overrule if they took it?
+
 ### [Charismatic leadership tactics](../articles/persuasion-and-influence/charismatic-leadership-tactics.md) — Technique
 
 1. Write the one decision or goal your talk is about, and check that you believe it and can back it with facts.
