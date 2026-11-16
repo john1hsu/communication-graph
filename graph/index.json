@@ -7916,6 +7916,131 @@
   ]
  },
  {
+  "id": "cm:dropping-safety-behaviours",
+  "title": "Dropping safety behaviours",
+  "aliases": [
+   "safety behaviour reduction",
+   "safety-behaviour experiment",
+   "letting go of safety behaviours"
+  ],
+  "type": "Technique",
+  "domain": "barriers-and-psychology",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/barriers-and-psychology/dropping-safety-behaviours.md",
+  "created": "2026-11-16",
+  "summary": "Deliberately giving up the self-protective habits people use to hide anxiety in conversations - saying little, rehearsing lines, avoiding eye contact, steering talk away from themselves - and turning attention outward, so they come across warmer and learn that the judgement they feared does not happen.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:exposure-therapy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:social-anxiety"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:speaking-anxiety"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:communication-apprehension"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:systematic-desensitization"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:anxiety-reappraisal"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:spotlight-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:illusion-of-transparency"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:employee-silence"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:small-talk"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:rapport"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:social-anxiety",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:safety-behaviours",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:clark-wells-cognitive-model",
+    "source": "s5",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:gray-beierl-clark-2019",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:dabas-et-al-2023",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:self-recording-playback",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "What am I about to do mainly so that nobody notices I am anxious, and what do I predict would happen if I did not do it?",
+   "During the conversation, was my attention on the other person and the topic, or on checking how I was coming across?",
+   "Am I judging how it went by what people actually said and did, or by how anxious I felt?",
+   "Am I still keeping a \"smaller\" version of the safety behaviour that stops me from learning the fear was wrong?"
+  ],
+  "steps": [
+   "List what you do to stay safe in the situations you dread - staying quiet, scripting sentences, keeping answers short, avoiding eye contact, asking questions so you never talk about yourself - and ask of each one whether you would feel more anxious without it.",
+   "Pick one upcoming, real conversation and write down your specific prediction (for example, \"if I speak without notes, I will go blank and people will think I am incompetent\") and how strongly you believe it, out of 100.",
+   "Decide in advance what evidence would confirm or disconfirm the prediction, such as what people actually say or do, not how anxious you feel.",
+   "Have the conversation without the chosen safety behaviour, and put your attention on the other people and the topic rather than on monitoring yourself.",
+   "Afterwards, record what actually happened, compare it with your prediction and re-rate how much you believe it; if possible, check with a trusted colleague or a recording rather than your memory of how you felt.",
+   "Repeat with the next safety behaviour, dropping each as fully and as early as you can bear rather than keeping a reduced version indefinitely."
+  ],
+  "example": {
+   "situation": "A data analyst dreads the weekly team meeting and usually says one pre-scripted sentence, then stays quiet with camera angled away.",
+   "before": "(Reads from notes) Dashboard refresh is on track. (Says nothing else; when asked a follow-up, answers 'I'll check and email you'.)",
+   "after": "The refresh is on track - one thing I noticed, though: the churn numbers jumped in March, and I'm not sure it's real. Has anyone else seen that? (Looks at colleagues, answers the follow-up directly, admits the one detail she doesn't know.)",
+   "why": "The analyst tested her prediction that speaking unscripted would expose her; colleagues engaged with the point, she looked interested rather than distant, and she gained evidence the scripted version could never give her."
+  },
+  "source_urls": [
+   "https://www.cci.health.wa.gov.au/~/media/CCI/Consumer-Modules/Stepping-out-of-Social-Anxiety/Stepping-out-of-Social-Anxiety---Module-5---Safety-Behaviours.pdf",
+   "https://jonabram.web.unc.edu/wp-content/uploads/sites/2968/2012/07/Blakey-Abramowitz-2016-Safety-Behavior-Review.pdf",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC6773421/",
+   "https://www.cambridge.org/core/product/DF904C2C3D6971111045C3C620C2C53B/core-reader",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC5627505"
+  ]
+ },
+ {
   "id": "cm:eduardo-salas",
   "title": "Eduardo Salas",
   "aliases": [

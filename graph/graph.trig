@@ -60,6 +60,14 @@
 <https://github.com/john1hsu/communication-graph/id/deaf-effect#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/deaf-effect/s4> .
 <https://github.com/john1hsu/communication-graph/id/deaf-effect#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/deaf-effect/s5> .
 <https://github.com/john1hsu/communication-graph/id/deaf-effect#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/deaf-effect/s6> .
+<https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> .
+<https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/barriers-and-psychology/dropping-safety-behaviours.md" .
+<https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/dropping-safety-behaviours/s1> .
+<https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/dropping-safety-behaviours/s2> .
+<https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/dropping-safety-behaviours/s3> .
+<https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/dropping-safety-behaviours/s4> .
+<https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/dropping-safety-behaviours/s5> .
 <https://github.com/john1hsu/communication-graph/id/egocentric-bias#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/egocentric-bias#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/egocentric-bias> .
 <https://github.com/john1hsu/communication-graph/id/egocentric-bias#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/barriers-and-psychology/egocentric-bias.md" .
@@ -3184,6 +3192,119 @@
   <https://github.com/john1hsu/communication-graph/id/source/deaf-effect/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
   <https://github.com/john1hsu/communication-graph/id/source/deaf-effect/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "practitioner-journal" .
   <https://github.com/john1hsu/communication-graph/id/source/deaf-effect/s6> <https://schema.org/url> <https://cacm.acm.org/?p=5358> .
+}
+
+<https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours#graph> {
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "What am I about to do mainly so that nobody notices I am anxious, and what do I predict would happen if I did not do it?" .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "During the conversation, was my attention on the other person and the topic, or on checking how I was coming across?" .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Am I judging how it went by what people actually said and did, or by how anxious I felt?" .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Am I still keeping a \"smaller\" version of the safety behaviour that stops me from learning the fear was wrong?" .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/example> <https://github.com/john1hsu/communication-graph/ontology#after> "The refresh is on track - one thing I noticed, though: the churn numbers jumped in March, and I'm not sure it's real. Has anyone else seen that? (Looks at colleagues, answers the follow-up directly, admits the one detail she doesn't know.)" .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/example> <https://github.com/john1hsu/communication-graph/ontology#before> "(Reads from notes) Dashboard refresh is on track. (Says nothing else; when asked a follow-up, answers 'I'll check and email you'.)" .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "A data analyst dreads the weekly team meeting and usually says one pre-scripted sentence, then stays quiet with camera angled away." .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/example> <https://github.com/john1hsu/communication-graph/ontology#why> "The analyst tested her prediction that speaking unscripted would expose her; colleagues engaged with the point, she looked interested rather than distant, and she gained evidence the scripted version could never give her." .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/howto/1> <https://schema.org/text> "List what you do to stay safe in the situations you dread - staying quiet, scripting sentences, keeping answers short, avoiding eye contact, asking questions so you never talk about yourself - and ask of each one whether you would feel more anxious without it." .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/howto/2> <https://schema.org/text> "Pick one upcoming, real conversation and write down your specific prediction (for example, \"if I speak without notes, I will go blank and people will think I am incompetent\") and how strongly you believe it, out of 100." .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/howto/3> <https://schema.org/text> "Decide in advance what evidence would confirm or disconfirm the prediction, such as what people actually say or do, not how anxious you feel." .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/howto/4> <https://schema.org/text> "Have the conversation without the chosen safety behaviour, and put your attention on the other people and the topic rather than on monitoring yourself." .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/howto/5> <https://schema.org/text> "Afterwards, record what actually happened, compare it with your prediction and re-rate how much you believe it; if possible, check with a trusted colleague or a recording rather than your memory of how you felt." .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/howto/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/howto/6> <https://schema.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/howto/6> <https://schema.org/text> "Repeat with the next safety behaviour, dropping each as fully and as early as you can bear rather than keeping a reduced version indefinitely." .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/howto> <https://schema.org/name> "Dropping safety behaviours" .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/howto/1> .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/howto/2> .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/howto/3> .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/howto/4> .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/howto/5> .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/howto/6> .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> <http://purl.org/dc/terms/created> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Technique> .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> <http://www.w3.org/2000/01/rdf-schema#label> "Dropping safety behaviours" .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> <http://www.w3.org/2004/02/skos/core#altLabel> "letting go of safety behaviours" .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> <http://www.w3.org/2004/02/skos/core#altLabel> "safety behaviour reduction" .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> <http://www.w3.org/2004/02/skos/core#altLabel> "safety-behaviour experiment" .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/exposure-therapy> .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> <http://www.w3.org/2004/02/skos/core#definition> "Deliberately giving up the self-protective habits people use to hide anxiety in conversations - saying little, rehearsing lines, avoiding eye contact, steering talk away from themselves - and turning attention outward, so they come across warmer and learn that the judgement they feared does not happen." .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/barriers-and-psychology> .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dropping safety behaviours" .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communication-apprehension> .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/employee-silence> .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/rapport> .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/small-talk> .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/social-anxiety> .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/spotlight-effect> .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/systematic-desensitization> .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/dropping-safety-behaviours/s1> .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/dropping-safety-behaviours/s2> .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/dropping-safety-behaviours/s3> .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/dropping-safety-behaviours/s4> .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/dropping-safety-behaviours/s5> .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/safety-behaviours> .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/social-anxiety> .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/self-recording-playback> .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/gray-beierl-clark-2019> .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> <https://github.com/john1hsu/communication-graph/ontology#domain> "barriers-and-psychology" .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/example> .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/clark-wells-cognitive-model> .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/barriers-and-psychology/dropping-safety-behaviours.md" .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/howto> .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/dabas-et-al-2023> .
+  <https://github.com/john1hsu/communication-graph/id/source/dropping-safety-behaviours/s1> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/dropping-safety-behaviours/s1> <http://purl.org/dc/terms/publisher> "Centre for Clinical Interventions (Government of Western Australia, North Metropolitan Health Service); Bank, Burgess, Sng, Summers, Campbell & McEvoy, 2020" .
+  <https://github.com/john1hsu/communication-graph/id/source/dropping-safety-behaviours/s1> <http://purl.org/dc/terms/title> "Stepping Out of Social Anxiety, Module 5: Safety Behaviours" .
+  <https://github.com/john1hsu/communication-graph/id/source/dropping-safety-behaviours/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/dropping-safety-behaviours/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
+  <https://github.com/john1hsu/communication-graph/id/source/dropping-safety-behaviours/s1> <https://schema.org/url> <https://www.cci.health.wa.gov.au/~/media/CCI/Consumer-Modules/Stepping-out-of-Social-Anxiety/Stepping-out-of-Social-Anxiety---Module-5---Safety-Behaviours.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/dropping-safety-behaviours/s2> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/dropping-safety-behaviours/s2> <http://purl.org/dc/terms/publisher> "Blakey, S. M. & Abramowitz, J. S., Clinical Psychology Review 49, 1-15, 2016, doi:10.1016/j.cpr.2016.07.002 (author copy, UNC Chapel Hill)" .
+  <https://github.com/john1hsu/communication-graph/id/source/dropping-safety-behaviours/s2> <http://purl.org/dc/terms/title> "The effects of safety behaviors during exposure therapy for anxiety: Critical analysis from an inhibitory learning perspective" .
+  <https://github.com/john1hsu/communication-graph/id/source/dropping-safety-behaviours/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/dropping-safety-behaviours/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/dropping-safety-behaviours/s2> <https://schema.org/url> <https://jonabram.web.unc.edu/wp-content/uploads/sites/2968/2012/07/Blakey-Abramowitz-2016-Safety-Behavior-Review.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/dropping-safety-behaviours/s3> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/dropping-safety-behaviours/s3> <http://purl.org/dc/terms/publisher> "Gray, E., Beierl, E. T. & Clark, D. M., PLoS ONE 14(10), e0223165, 2019, doi:10.1371/journal.pone.0223165" .
+  <https://github.com/john1hsu/communication-graph/id/source/dropping-safety-behaviours/s3> <http://purl.org/dc/terms/title> "Sub-types of safety behaviours and their effects on social anxiety disorder" .
+  <https://github.com/john1hsu/communication-graph/id/source/dropping-safety-behaviours/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/dropping-safety-behaviours/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/dropping-safety-behaviours/s3> <https://schema.org/url> <https://pmc.ncbi.nlm.nih.gov/articles/PMC6773421/> .
+  <https://github.com/john1hsu/communication-graph/id/source/dropping-safety-behaviours/s4> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/dropping-safety-behaviours/s4> <http://purl.org/dc/terms/publisher> "Dabas, G., Rowa, K., Milosevic, I., Moscovitch, D. A. & McCabe, R. E., Behavioural and Cognitive Psychotherapy 51(1), 46-60, 2023, doi:10.1017/S1352465822000492" .
+  <https://github.com/john1hsu/communication-graph/id/source/dropping-safety-behaviours/s4> <http://purl.org/dc/terms/title> "The impact of particular safety behaviours on perceived likeability and authenticity during interpersonal interactions in social anxiety disorder" .
+  <https://github.com/john1hsu/communication-graph/id/source/dropping-safety-behaviours/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/dropping-safety-behaviours/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/dropping-safety-behaviours/s4> <https://schema.org/url> <https://www.cambridge.org/core/product/DF904C2C3D6971111045C3C620C2C53B/core-reader> .
+  <https://github.com/john1hsu/communication-graph/id/source/dropping-safety-behaviours/s5> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/dropping-safety-behaviours/s5> <http://purl.org/dc/terms/publisher> "Warnock-Parkes, E., Wild, J., Stott, R., Grey, N., Ehlers, A. & Clark, D. M., Cognitive and Behavioral Practice 24(2), 245-255, 2017, doi:10.1016/j.cbpra.2016.03.007 (PMC full text)" .
+  <https://github.com/john1hsu/communication-graph/id/source/dropping-safety-behaviours/s5> <http://purl.org/dc/terms/title> "Seeing is believing: Using video feedback in cognitive therapy for social anxiety disorder" .
+  <https://github.com/john1hsu/communication-graph/id/source/dropping-safety-behaviours/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/dropping-safety-behaviours/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/dropping-safety-behaviours/s5> <https://schema.org/url> <https://pmc.ncbi.nlm.nih.gov/articles/PMC5627505> .
 }
 
 <https://github.com/john1hsu/communication-graph/id/egocentric-bias#graph> {
@@ -30122,6 +30243,7 @@
   <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/emotional-intelligence> .
   <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/alison-wood-brooks> .
   <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communication-apprehension> .
+  <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> .
   <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/emotion-regulation> .
   <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/james-j-gross> .
   <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/labeling-emotions> .
@@ -30945,6 +31067,7 @@
   <https://github.com/john1hsu/communication-graph/id/clark-fox-tree-2002> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/filled-pauses> .
   <https://github.com/john1hsu/communication-graph/id/clark-fox-tree-2002> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/maclay-osgood-1959> .
   <https://github.com/john1hsu/communication-graph/id/clark-hull> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/carl-hovland> .
+  <https://github.com/john1hsu/communication-graph/id/clark-wells-cognitive-model> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> .
   <https://github.com/john1hsu/communication-graph/id/clark-wells-cognitive-model> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/social-anxiety> .
   <https://github.com/john1hsu/communication-graph/id/clark-wilkes-gibbs-1986> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/clark-wilkes-gibbs-1986> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
@@ -31179,6 +31302,7 @@
   <https://github.com/john1hsu/communication-graph/id/communication-apprehension> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/macinnis-mackinnon-macintyre-2010> .
   <https://github.com/john1hsu/communication-graph/id/communication-apprehension> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> .
   <https://github.com/john1hsu/communication-graph/id/communication-apprehension> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communication-competence> .
+  <https://github.com/john1hsu/communication-graph/id/communication-apprehension> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> .
   <https://github.com/john1hsu/communication-graph/id/communication-apprehension> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/joseph-wolpe> .
   <https://github.com/john1hsu/communication-graph/id/communication-apprehension> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/macinnis-mackinnon-macintyre-2010> .
   <https://github.com/john1hsu/communication-graph/id/communication-apprehension> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/public-speaking> .
@@ -31728,6 +31852,7 @@
   <https://github.com/john1hsu/communication-graph/id/dabas-et-al-2023> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/dabas-et-al-2023> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/dabas-et-al-2023> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/social-anxiety> .
+  <https://github.com/john1hsu/communication-graph/id/dabas-et-al-2023> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> .
   <https://github.com/john1hsu/communication-graph/id/dagley-gaskin-2014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/dagley-gaskin-2014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/dagley-gaskin-2014> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/executive-presence> .
@@ -32102,6 +32227,14 @@
   <https://github.com/john1hsu/communication-graph/id/drolet-morris-2000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/drolet-morris-2000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/drolet-morris-2000> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/rapport> .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/exposure-therapy> .
   <https://github.com/john1hsu/communication-graph/id/dual-process-theory> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/cognitive-bias> .
   <https://github.com/john1hsu/communication-graph/id/duffy-kabance-1982> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/readability-formulas> .
   <https://github.com/john1hsu/communication-graph/id/dutch-test-for-conflict-handling> <https://github.com/john1hsu/communication-graph/ontology#alternativeTo> <https://github.com/john1hsu/communication-graph/id/thomas-kilmann-conflict-modes> .
@@ -32438,6 +32571,7 @@
   <https://github.com/john1hsu/communication-graph/id/employee-silence> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/mum-effect> .
   <https://github.com/john1hsu/communication-graph/id/employee-silence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/assertive-communication> .
   <https://github.com/john1hsu/communication-graph/id/employee-silence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/blowing-the-whistle-on-troubled-software-projects> .
+  <https://github.com/john1hsu/communication-graph/id/employee-silence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> .
   <https://github.com/john1hsu/communication-graph/id/employee-silence> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/escalation-communication> .
   <https://github.com/john1hsu/communication-graph/id/employee-silence> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/graded-assertiveness> .
   <https://github.com/john1hsu/communication-graph/id/employee-silence> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/premortem> .
@@ -32572,7 +32706,9 @@
   <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
   <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/client-communication> .
+  <https://github.com/john1hsu/communication-graph/id/exposure-therapy> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> .
   <https://github.com/john1hsu/communication-graph/id/exposure-therapy> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/systematic-desensitization> .
+  <https://github.com/john1hsu/communication-graph/id/exposure-therapy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> .
   <https://github.com/john1hsu/communication-graph/id/exposure-therapy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/systematic-desensitization> .
   <https://github.com/john1hsu/communication-graph/id/exposure-therapy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/social-anxiety> .
   <https://github.com/john1hsu/communication-graph/id/expressive-suppression> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/james-j-gross> .
@@ -33092,6 +33228,9 @@
   <https://github.com/john1hsu/communication-graph/id/grant-gino-2010> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/praise-and-recognition> .
   <https://github.com/john1hsu/communication-graph/id/grant-oconnor-2010> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/solution-focused-coaching> .
   <https://github.com/john1hsu/communication-graph/id/grant-oconnor-2018> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/solution-focused-coaching> .
+  <https://github.com/john1hsu/communication-graph/id/gray-beierl-clark-2019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/gray-beierl-clark-2019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
+  <https://github.com/john1hsu/communication-graph/id/gray-beierl-clark-2019> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> .
   <https://github.com/john1hsu/communication-graph/id/green-brock-2000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/green-brock-2000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/green-brock-2000> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/narrative-persuasion> .
@@ -33665,6 +33804,7 @@
   <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/closed-loop-communication> .
   <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/common-ground> .
   <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communicating-uncertainty> .
+  <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> .
   <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/egocentric-bias> .
   <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/email-urgency-bias-study> .
   <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/emoji-and-tone-in-text> .
@@ -36282,6 +36422,7 @@
   <https://github.com/john1hsu/communication-graph/id/rapport> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/camera-level-gaze> .
   <https://github.com/john1hsu/communication-graph/id/rapport> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/client-communication> .
   <https://github.com/john1hsu/communication-graph/id/rapport> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/credibility> .
+  <https://github.com/john1hsu/communication-graph/id/rapport> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> .
   <https://github.com/john1hsu/communication-graph/id/rapport> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/empathy> .
   <https://github.com/john1hsu/communication-graph/id/rapport> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/eye-contact> .
   <https://github.com/john1hsu/communication-graph/id/rapport> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/face-to-face-conversation> .
@@ -36592,6 +36733,7 @@
   <https://github.com/john1hsu/communication-graph/id/sackett-zhang-berry-lievens-2022> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/sackett-zhang-berry-lievens-2022> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/sackett-zhang-berry-lievens-2022> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/job-interview> .
+  <https://github.com/john1hsu/communication-graph/id/safety-behaviours> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> .
   <https://github.com/john1hsu/communication-graph/id/safety-behaviours> <https://github.com/john1hsu/communication-graph/ontology#causedBy> <https://github.com/john1hsu/communication-graph/id/social-anxiety> .
   <https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/salary-negotiation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -36782,6 +36924,7 @@
   <https://github.com/john1hsu/communication-graph/id/self-recording-playback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/social-anxiety> .
   <https://github.com/john1hsu/communication-graph/id/self-recording-playback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/thought-groups> .
   <https://github.com/john1hsu/communication-graph/id/self-recording-playback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/vocal-delivery> .
+  <https://github.com/john1hsu/communication-graph/id/self-recording-playback> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> .
   <https://github.com/john1hsu/communication-graph/id/self-regulation-theory> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/grow-model> .
   <https://github.com/john1hsu/communication-graph/id/selling-issues-to-top-management> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/selling-issues-to-top-management> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
@@ -36969,6 +37112,7 @@
   <https://github.com/john1hsu/communication-graph/id/small-talk> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/small-talk> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/alison-wood-brooks> .
   <https://github.com/john1hsu/communication-graph/id/small-talk> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/conversational-narcissism> .
+  <https://github.com/john1hsu/communication-graph/id/small-talk> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> .
   <https://github.com/john1hsu/communication-graph/id/small-talk> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/erving-goffman> .
   <https://github.com/john1hsu/communication-graph/id/small-talk> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/follow-up-questions> .
   <https://github.com/john1hsu/communication-graph/id/small-talk> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/nicholas-epley> .
@@ -37010,6 +37154,8 @@
   <https://github.com/john1hsu/communication-graph/id/social-anxiety> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/communication-apprehension> .
   <https://github.com/john1hsu/communication-graph/id/social-anxiety> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/macinnis-mackinnon-macintyre-2010> .
   <https://github.com/john1hsu/communication-graph/id/social-anxiety> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> .
+  <https://github.com/john1hsu/communication-graph/id/social-anxiety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> .
+  <https://github.com/john1hsu/communication-graph/id/social-anxiety> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> .
   <https://github.com/john1hsu/communication-graph/id/social-anxiety> <https://github.com/john1hsu/communication-graph/ontology#causedBy> <https://github.com/john1hsu/communication-graph/id/spotlight-effect> .
   <https://github.com/john1hsu/communication-graph/id/social-information-processing-theory> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/digital-communication> .
   <https://github.com/john1hsu/communication-graph/id/social-judgment-theory> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/carl-hovland> .
@@ -37273,6 +37419,7 @@
   <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/macinnis-mackinnon-macintyre-2010> .
   <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/macinnis-mackinnon-macintyre-2010> .
   <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communication-apprehension> .
+  <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> .
   <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/executive-presence> .
   <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/eye-contact> .
   <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/filled-pauses> .
@@ -37321,6 +37468,7 @@
   <https://github.com/john1hsu/communication-graph/id/spotlight-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> .
   <https://github.com/john1hsu/communication-graph/id/spotlight-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/apology> .
   <https://github.com/john1hsu/communication-graph/id/spotlight-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/camera-optional-norm> .
+  <https://github.com/john1hsu/communication-graph/id/spotlight-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> .
   <https://github.com/john1hsu/communication-graph/id/spotlight-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/egocentric-bias> .
   <https://github.com/john1hsu/communication-graph/id/spotlight-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> .
   <https://github.com/john1hsu/communication-graph/id/spotlight-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/impression-management> .
@@ -37481,6 +37629,7 @@
   <https://github.com/john1hsu/communication-graph/id/systematic-desensitization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/systematic-desensitization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/systematic-desensitization> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/exposure-therapy> .
+  <https://github.com/john1hsu/communication-graph/id/systematic-desensitization> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> .
   <https://github.com/john1hsu/communication-graph/id/systematic-desensitization> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/joseph-wolpe> .
   <https://github.com/john1hsu/communication-graph/id/talevski-et-al-2020> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/teach-back> .
   <https://github.com/john1hsu/communication-graph/id/talk-maxims> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/alison-wood-brooks> .

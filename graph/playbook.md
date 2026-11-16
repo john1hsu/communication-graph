@@ -51,6 +51,29 @@ Ask yourself:
 - How much does my confidence that "I have this under control" depend on reports from people whose own work would look bad if they disagreed?
 - Is there a warning I have parked in a follow-up meeting, a procedure or a request for more data, without ever giving the messenger a decision?
 
+### [Dropping safety behaviours](../articles/barriers-and-psychology/dropping-safety-behaviours.md) — Technique
+
+1. List what you do to stay safe in the situations you dread - staying quiet, scripting sentences, keeping answers short, avoiding eye contact, asking questions so you never talk about yourself - and ask of each one whether you would feel more anxious without it.
+2. Pick one upcoming, real conversation and write down your specific prediction (for example, "if I speak without notes, I will go blank and people will think I am incompetent") and how strongly you believe it, out of 100.
+3. Decide in advance what evidence would confirm or disconfirm the prediction, such as what people actually say or do, not how anxious you feel.
+4. Have the conversation without the chosen safety behaviour, and put your attention on the other people and the topic rather than on monitoring yourself.
+5. Afterwards, record what actually happened, compare it with your prediction and re-rate how much you believe it; if possible, check with a trusted colleague or a recording rather than your memory of how you felt.
+6. Repeat with the next safety behaviour, dropping each as fully and as early as you can bear rather than keeping a reduced version indefinitely.
+
+*A data analyst dreads the weekly team meeting and usually says one pre-scripted sentence, then stays quiet with camera angled away.*
+
+| Before | After |
+|---|---|
+| (Reads from notes) Dashboard refresh is on track. (Says nothing else; when asked a follow-up, answers 'I'll check and email you'.) | The refresh is on track - one thing I noticed, though: the churn numbers jumped in March, and I'm not sure it's real. Has anyone else seen that? (Looks at colleagues, answers the follow-up directly, admits the one detail she doesn't know.) |
+
+**Why:** The analyst tested her prediction that speaking unscripted would expose her; colleagues engaged with the point, she looked interested rather than distant, and she gained evidence the scripted version could never give her.
+
+Ask yourself:
+- What am I about to do mainly so that nobody notices I am anxious, and what do I predict would happen if I did not do it?
+- During the conversation, was my attention on the other person and the topic, or on checking how I was coming across?
+- Am I judging how it went by what people actually said and did, or by how anxious I felt?
+- Am I still keeping a "smaller" version of the safety behaviour that stops me from learning the fear was wrong?
+
 ### [Egocentric bias](../articles/barriers-and-psychology/egocentric-bias.md) — Barrier
 
 Ask yourself:

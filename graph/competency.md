@@ -6,9 +6,7 @@ SPARQL queries in `queries/` run over the asserted graph, the OWL-RL inferences 
 
 _Which written barriers or anti-patterns have nothing in the graph that addresses them?_ — `queries/01-problems-without-fix.rq`
 
-| node | type |
-|---|---|
-| `cm:social-anxiety` | cmo:Barrier |
+_No results._
 
 ## Skills with no practice technique (gap)
 
@@ -42,6 +40,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:communicating-across-languages` | 2 | Unequal participation, language-barriers |
 | `cm:culture-assimilator` | 2 | Cultural intelligence, Intercultural competence |
 | `cm:describe-analyze-evaluate` | 2 | Ethnocentrism, Intercultural competence |
+| `cm:dropping-safety-behaviours` | 2 | Social anxiety, safety-behaviours |
 | `cm:escalation-communication` | 2 | Employee silence, MUM effect |
 | `cm:facilitation` | 2 | Interrupting, Unequal participation |
 | `cm:graded-assertiveness` | 2 | Employee silence, Upward dissent |
@@ -57,9 +56,8 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:self-distancing` | 2 | Public speaking anxiety, Spotlight effect |
 | `cm:silence-and-pauses` | 2 | Filled pauses, Mythical fixed-pie bias |
 | `cm:slide-design` | 2 | Death by PowerPoint, Information overload |
-| `cm:support-response` | 2 | Active listening, Conversational narcissism |
 
-…and 63 more.
+…and 64 more.
 
 ## Toolkit by situation
 
@@ -137,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:wise-feedback` | contested | `cm:troy-moua-van-boekel-2024` |
 | `cm:power-posing` | failed-replication | `cm:crede-2019` |
 
-…and 195 more.
+…and 196 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -146,6 +144,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | node | type |
 |---|---|
 | `cm:change-communication` | cmo:Context |
+| `cm:dropping-safety-behaviours` | cmo:Technique |
 | `cm:empathy` | cmo:Disposition |
 | `cm:employee-silence` | cmo:Barrier |
 | `cm:escalation-communication` | cmo:Technique |
@@ -174,9 +173,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:message-structure` | cmo:Concept |
 | `cm:mindfulness` | cmo:Technique |
 | `cm:mirroring` | cmo:Technique |
-| `cm:mixed-messages` | cmo:Barrier |
 
-…and 62 more.
+…and 63 more.
 
 ## Orphan articles (gap)
 

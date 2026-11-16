@@ -6916,6 +6916,107 @@
    ]
   },
   {
+   "@id": "cm:dropping-safety-behaviours",
+   "@type": "cmo:Technique",
+   "cmo:addresses": [
+    {
+     "@id": "cm:safety-behaviours"
+    },
+    {
+     "@id": "cm:social-anxiety"
+    }
+   ],
+   "cmo:complements": {
+    "@id": "cm:self-recording-playback"
+   },
+   "cmo:demonstratedBy": {
+    "@id": "cm:gray-beierl-clark-2019"
+   },
+   "cmo:domain": "barriers-and-psychology",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/example"
+   },
+   "cmo:explainedBy": {
+    "@id": "cm:clark-wells-cognitive-model"
+   },
+   "cmo:file": "articles/barriers-and-psychology/dropping-safety-behaviours.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/howto"
+   },
+   "cmo:level": "intermediate",
+   "cmo:supportedBy": {
+    "@id": "cm:dabas-et-al-2023"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/dropping-safety-behaviours/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/dropping-safety-behaviours/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/dropping-safety-behaviours/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/dropping-safety-behaviours/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/dropping-safety-behaviours/s5"
+    }
+   ],
+   "rdfs:label": "Dropping safety behaviours",
+   "skos:altLabel": [
+    "letting go of safety behaviours",
+    "safety behaviour reduction",
+    "safety-behaviour experiment"
+   ],
+   "skos:broader": {
+    "@id": "cm:exposure-therapy"
+   },
+   "skos:definition": "Deliberately giving up the self-protective habits people use to hide anxiety in conversations - saying little, rehearsing lines, avoiding eye contact, steering talk away from themselves - and turning attention outward, so they come across warmer and learn that the judgement they feared does not happen.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/barriers-and-psychology"
+   },
+   "skos:prefLabel": "Dropping safety behaviours",
+   "skos:related": [
+    {
+     "@id": "cm:anxiety-reappraisal"
+    },
+    {
+     "@id": "cm:communication-apprehension"
+    },
+    {
+     "@id": "cm:employee-silence"
+    },
+    {
+     "@id": "cm:illusion-of-transparency"
+    },
+    {
+     "@id": "cm:rapport"
+    },
+    {
+     "@id": "cm:small-talk"
+    },
+    {
+     "@id": "cm:social-anxiety"
+    },
+    {
+     "@id": "cm:speaking-anxiety"
+    },
+    {
+     "@id": "cm:spotlight-effect"
+    },
+    {
+     "@id": "cm:systematic-desensitization"
+    }
+   ]
+  },
+  {
    "@id": "cm:eduardo-salas",
    "@type": "cmo:Person",
    "cmo:authored": [
@@ -31484,6 +31585,107 @@
    "schema:text": "When asked for your bottom line, decline to disclose it rather than inventing a figure, and walk away if the best offer is worse than your BATNA."
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:dropping-safety-behaviours"
+   },
+   "rdfs:label": "What am I about to do mainly so that nobody notices I am anxious, and what do I predict would happen if I did not do it?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:dropping-safety-behaviours"
+   },
+   "rdfs:label": "During the conversation, was my attention on the other person and the topic, or on checking how I was coming across?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:dropping-safety-behaviours"
+   },
+   "rdfs:label": "Am I judging how it went by what people actually said and did, or by how anxious I felt?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:dropping-safety-behaviours"
+   },
+   "rdfs:label": "Am I still keeping a \"smaller\" version of the safety behaviour that stops me from learning the fear was wrong?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "The refresh is on track - one thing I noticed, though: the churn numbers jumped in March, and I'm not sure it's real. Has anyone else seen that? (Looks at colleagues, answers the follow-up directly, admits the one detail she doesn't know.)",
+   "cmo:before": "(Reads from notes) Dashboard refresh is on track. (Says nothing else; when asked a follow-up, answers 'I'll check and email you'.)",
+   "cmo:situation": "A data analyst dreads the weekly team meeting and usually says one pre-scripted sentence, then stays quiet with camera angled away.",
+   "cmo:why": "The analyst tested her prediction that speaking unscripted would expose her; colleagues engaged with the point, she looked interested rather than distant, and she gained evidence the scripted version could never give her."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Dropping safety behaviours",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/howto/6"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "List what you do to stay safe in the situations you dread - staying quiet, scripting sentences, keeping answers short, avoiding eye contact, asking questions so you never talk about yourself - and ask of each one whether you would feel more anxious without it."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Pick one upcoming, real conversation and write down your specific prediction (for example, \"if I speak without notes, I will go blank and people will think I am incompetent\") and how strongly you believe it, out of 100."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Decide in advance what evidence would confirm or disconfirm the prediction, such as what people actually say or do, not how anxious you feel."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Have the conversation without the chosen safety behaviour, and put your attention on the other people and the topic rather than on monitoring yourself."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Afterwards, record what actually happened, compare it with your prediction and re-rate how much you believe it; if possible, check with a trusted colleague or a recording rather than your memory of how you felt."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "Repeat with the next safety behaviour, dropping each as fully and as early as you can bear rather than keeping a reduced version indefinitely."
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/egocentric-bias/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -45926,6 +46128,76 @@
    "dcterms:title": "Deception in Negotiation",
    "schema:url": {
     "@id": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/when-you%E2%80%99re-tempted-to-deceive/?amp"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/dropping-safety-behaviours/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Centre for Clinical Interventions (Government of Western Australia, North Metropolitan Health Service); Bank, Burgess, Sng, Summers, Campbell & McEvoy, 2020",
+   "dcterms:title": "Stepping Out of Social Anxiety, Module 5: Safety Behaviours",
+   "schema:url": {
+    "@id": "https://www.cci.health.wa.gov.au/~/media/CCI/Consumer-Modules/Stepping-out-of-Social-Anxiety/Stepping-out-of-Social-Anxiety---Module-5---Safety-Behaviours.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/dropping-safety-behaviours/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Blakey, S. M. & Abramowitz, J. S., Clinical Psychology Review 49, 1-15, 2016, doi:10.1016/j.cpr.2016.07.002 (author copy, UNC Chapel Hill)",
+   "dcterms:title": "The effects of safety behaviors during exposure therapy for anxiety: Critical analysis from an inhibitory learning perspective",
+   "schema:url": {
+    "@id": "https://jonabram.web.unc.edu/wp-content/uploads/sites/2968/2012/07/Blakey-Abramowitz-2016-Safety-Behavior-Review.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/dropping-safety-behaviours/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Gray, E., Beierl, E. T. & Clark, D. M., PLoS ONE 14(10), e0223165, 2019, doi:10.1371/journal.pone.0223165",
+   "dcterms:title": "Sub-types of safety behaviours and their effects on social anxiety disorder",
+   "schema:url": {
+    "@id": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6773421/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/dropping-safety-behaviours/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Dabas, G., Rowa, K., Milosevic, I., Moscovitch, D. A. & McCabe, R. E., Behavioural and Cognitive Psychotherapy 51(1), 46-60, 2023, doi:10.1017/S1352465822000492",
+   "dcterms:title": "The impact of particular safety behaviours on perceived likeability and authenticity during interpersonal interactions in social anxiety disorder",
+   "schema:url": {
+    "@id": "https://www.cambridge.org/core/product/DF904C2C3D6971111045C3C620C2C53B/core-reader"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/dropping-safety-behaviours/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Warnock-Parkes, E., Wild, J., Stott, R., Grey, N., Ehlers, A. & Clark, D. M., Cognitive and Behavioral Practice 24(2), 245-255, 2017, doi:10.1016/j.cbpra.2016.03.007 (PMC full text)",
+   "dcterms:title": "Seeing is believing: Using video feedback in cognitive therapy for social anxiety disorder",
+   "schema:url": {
+    "@id": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5627505"
    }
   },
   {

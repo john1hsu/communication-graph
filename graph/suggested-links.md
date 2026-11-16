@@ -27,5 +27,5 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 3.08 | `cm:performance-review` | `cm:praise-and-recognition` | `cm:feedback`, `cm:feedback-intervention-theory`, `cm:feedback-sandwich`, `cm:feedforward`, `cm:hattie-timperley-feedback-model` |
 | 3.08 | `cm:active-listening` | `cm:checking-understanding` | `cm:common-ground`, `cm:note-taking-while-listening`, `cm:open-ended-questions`, `cm:paraphrasing`, `cm:perception-checking` |
 | 3.07 | `cm:channel-selection` | `cm:egocentric-bias` | `cm:common-ground`, `cm:curse-of-knowledge`, `cm:digital-communication`, `cm:egocentrism-over-email-study`, `cm:emoji-and-tone-in-text` |
-| 3.05 | `cm:interpersonal-communication` | `cm:psychological-safety` | `cm:coaching`, `cm:communication-apprehension`, `cm:emotional-contagion`, `cm:feedback`, `cm:listening` |
 | 3.04 | `cm:audience-analysis` | `cm:delivering-bad-news` | `cm:bottom-line-up-front`, `cm:change-communication`, `cm:channel-selection`, `cm:client-communication`, `cm:communicating-uncertainty` |
+| 3.03 | `cm:delivering-bad-news` | `cm:psychological-safety` | `cm:active-listening`, `cm:blowing-the-whistle-on-troubled-software-projects`, `cm:change-communication`, `cm:deaf-effect`, `cm:difficult-conversation` |
