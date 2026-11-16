@@ -10935,6 +10935,92 @@
    ]
   },
   {
+   "@id": "cm:group-communication",
+   "@type": "cmo:Field",
+   "cmo:challengedBy": {
+    "@id": "cm:g-versus-c-meta-analysis-2021"
+   },
+   "cmo:demonstratedBy": {
+    "@id": "cm:woolley-et-al-2010"
+   },
+   "cmo:domain": "meetings-and-facilitation",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:file": "articles/meetings-and-facilitation/group-communication.md",
+   "cmo:influencedBy": {
+    "@id": "cm:robert-f-bales"
+   },
+   "cmo:level": "introductory",
+   "cmo:supportedBy": {
+    "@id": "cm:riedl-et-al-2021"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/group-communication/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/group-communication/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/group-communication/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/group-communication/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/group-communication/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/group-communication/s6"
+    }
+   ],
+   "rdfs:label": "Group communication",
+   "skos:altLabel": [
+    "small group communication",
+    "small-group communication research"
+   ],
+   "skos:broader": {
+    "@id": "cm:communication-studies"
+   },
+   "skos:definition": "The study and practice of communication among three or more people who share a purpose, influence one another and see themselves as a group, such as a project team, committee or working session; it examines how size, structure, roles and the pattern of who speaks to whom shape what the group decides and achieves.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/meetings-and-facilitation"
+   },
+   "skos:prefLabel": "Group communication",
+   "skos:related": [
+    {
+     "@id": "cm:conversational-turn-taking"
+    },
+    {
+     "@id": "cm:facilitation"
+    },
+    {
+     "@id": "cm:group-decision-making"
+    },
+    {
+     "@id": "cm:interpersonal-communication"
+    },
+    {
+     "@id": "cm:organizational-communication"
+    },
+    {
+     "@id": "cm:production-blocking"
+    },
+    {
+     "@id": "cm:psychological-safety"
+    },
+    {
+     "@id": "cm:unequal-participation"
+    },
+    {
+     "@id": "cm:workplace-meetings"
+    }
+   ]
+  },
+  {
    "@id": "cm:group-decision-making",
    "@type": "cmo:Context",
    "cmo:complements": {
@@ -49614,6 +49700,90 @@
    "dcterms:title": "Grice and Universality: a Reappraisal",
    "schema:url": {
     "@id": "https://core.ac.uk/download/357524645.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/group-communication/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Chris Miller (ed.), College of DuPage open textbook (Pressbooks, CC BY-NC-SA 4.0), 2020",
+   "dcterms:title": "Exploring Communication in the Real World, 9.1: Understanding Small Groups",
+   "schema:url": {
+    "@id": "https://cod.pressbooks.pub/communication/chapter/9-1-understanding-small-groups/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/group-communication/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Anita Williams Woolley et al., Science 330(6004), 686-688 (2010), doi:10.1126/science.1193147 (PubMed record)",
+   "dcterms:title": "Evidence for a Collective Intelligence Factor in the Performance of Human Groups",
+   "schema:url": {
+    "@id": "https://pubmed.ncbi.nlm.nih.gov/20929725/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/group-communication/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Luke I. Rowe, John Hattie & Robert Hester, Cognitive Research: Principles and Implications 6:26 (2021)",
+   "dcterms:title": "g versus c: Comparing Individual and Collective Intelligence Across Two Meta-Analyses",
+   "schema:url": {
+    "@id": "https://link.springer.com/content/pdf/10.1186%2Fs41235-021-00285-2.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/group-communication/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Tepper School of Business, Carnegie Mellon University",
+   "dcterms:title": "New Research Quantifies Collective Intelligence in Human Groups (on Riedl, Kim, Gupta, Malone & Woolley, PNAS 2021)",
+   "schema:url": {
+    "@id": "https://www.cmu.edu/tepper/news/stories/2021/may/collective-intelligence-research.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/group-communication/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "John M. Levine & Michael A. Hogg (eds.), Encyclopedia of Group Processes & Intergroup Relations, SAGE (pp. 460-462)",
+   "dcterms:title": "Interaction Process Analysis",
+   "schema:url": {
+    "@id": "https://sk.sagepub.com/ency/edvol/embed/processes/chpt/interaction-process-analysis"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/group-communication/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Robert Mauro, Department of Psychology, University of Oregon",
+   "dcterms:title": "Group Processes laboratory exercise (Psychology 457/557): observing speech acts with Bales' categories",
+   "schema:url": {
+    "@id": "https://pages.uoregon.edu/mauro/psy457/labex1.htm"
    }
   },
   {

@@ -15,6 +15,7 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 3.47 | `cm:post-settlement-settlement` | `cm:zone-of-possible-agreement` | `cm:batna`, `cm:concession-strategy`, `cm:howard-raiffa`, `cm:integrative-negotiation`, `cm:interests-vs-positions` |
 | 3.45 | `cm:batna` | `cm:mythical-fixed-pie` | `cm:anchoring-and-adjustment`, `cm:distributive-negotiation`, `cm:integrative-negotiation`, `cm:interests-vs-positions`, `cm:multiple-equivalent-simultaneous-offers` |
 | 3.43 | `cm:bottom-line-up-front` | `cm:death-by-powerpoint` | `cm:assertion-evidence-slides`, `cm:bulleted-and-numbered-lists`, `cm:burying-the-lede`, `cm:clarity`, `cm:cognitive-load` |
+| 3.41 | `cm:interpersonal-communication` | `cm:psychological-safety` | `cm:coaching`, `cm:communication-apprehension`, `cm:emotional-contagion`, `cm:feedback`, `cm:group-communication` |
 | 3.33 | `cm:audience-analysis` | `cm:organizational-communication` | `cm:change-communication`, `cm:channel-selection`, `cm:client-communication`, `cm:managing-up`, `cm:memorandum` |
 | 3.32 | `cm:chat-etiquette` | `cm:email` | `cm:asynchronous-communication`, `cm:bottom-line-up-front`, `cm:channel-selection`, `cm:digital-communication`, `cm:emoji-and-tone-in-text` |
 | 3.24 | `cm:mythical-fixed-pie` | `cm:principled-negotiation` | `cm:distributive-negotiation`, `cm:integrative-negotiation`, `cm:interests-vs-positions`, `cm:multiple-equivalent-simultaneous-offers`, `cm:negotiation` |
@@ -28,4 +29,3 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 3.08 | `cm:active-listening` | `cm:checking-understanding` | `cm:common-ground`, `cm:note-taking-while-listening`, `cm:open-ended-questions`, `cm:paraphrasing`, `cm:perception-checking` |
 | 3.07 | `cm:channel-selection` | `cm:egocentric-bias` | `cm:common-ground`, `cm:curse-of-knowledge`, `cm:digital-communication`, `cm:egocentrism-over-email-study`, `cm:emoji-and-tone-in-text` |
 | 3.04 | `cm:audience-analysis` | `cm:delivering-bad-news` | `cm:bottom-line-up-front`, `cm:change-communication`, `cm:channel-selection`, `cm:client-communication`, `cm:communicating-uncertainty` |
-| 3.03 | `cm:delivering-bad-news` | `cm:psychological-safety` | `cm:active-listening`, `cm:blowing-the-whistle-on-troubled-software-projects`, `cm:change-communication`, `cm:deaf-effect`, `cm:difficult-conversation` |

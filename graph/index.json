@@ -12454,6 +12454,98 @@
   ]
  },
  {
+  "id": "cm:group-communication",
+  "title": "Group communication",
+  "aliases": [
+   "small group communication",
+   "small-group communication research"
+  ],
+  "type": "Field",
+  "domain": "meetings-and-facilitation",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/meetings-and-facilitation/group-communication.md",
+  "created": "2026-11-16",
+  "summary": "The study and practice of communication among three or more people who share a purpose, influence one another and see themselves as a group, such as a project team, committee or working session; it examines how size, structure, roles and the pattern of who speaks to whom shape what the group decides and achieves.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:communication-studies"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:interpersonal-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:organizational-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:workplace-meetings"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:facilitation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:group-decision-making"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:unequal-participation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:production-blocking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:conversational-turn-taking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:psychological-safety"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:woolley-et-al-2010",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:riedl-et-al-2021",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:g-versus-c-meta-analysis-2021",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:influencedBy",
+    "object": "cm:robert-f-bales",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://cod.pressbooks.pub/communication/chapter/9-1-understanding-small-groups/",
+   "https://pubmed.ncbi.nlm.nih.gov/20929725/",
+   "https://link.springer.com/content/pdf/10.1186%2Fs41235-021-00285-2.pdf",
+   "https://www.cmu.edu/tepper/news/stories/2021/may/collective-intelligence-research.html",
+   "https://sk.sagepub.com/ency/edvol/embed/processes/chpt/interaction-process-analysis",
+   "https://pages.uoregon.edu/mauro/psy457/labex1.htm"
+  ]
+ },
+ {
   "id": "cm:group-decision-making",
   "title": "Group decision making",
   "aliases": [
