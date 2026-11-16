@@ -21418,6 +21418,87 @@
    ]
   },
   {
+   "@id": "cm:psychology",
+   "@type": "cmo:Field",
+   "cmo:challengedBy": [
+    {
+     "@id": "cm:henrich-heine-norenzayan-2010"
+    },
+    {
+     "@id": "cm:open-science-collaboration-2015"
+    }
+   ],
+   "cmo:domain": "foundations",
+   "cmo:evidenceStatus": "theoretical",
+   "cmo:file": "articles/foundations/psychology.md",
+   "cmo:introducedBy": [
+    {
+     "@id": "cm:wilhelm-wundt"
+    },
+    {
+     "@id": "cm:william-james"
+    }
+   ],
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/psychology/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/psychology/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/psychology/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/psychology/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/psychology/s5"
+    }
+   ],
+   "rdfs:label": "Psychology",
+   "skos:altLabel": [
+    "psychological science",
+    "science of mind and behaviour"
+   ],
+   "skos:broader": {
+    "@id": "cm:social-sciences"
+   },
+   "skos:definition": "The scientific study of mind and behaviour in humans and other animals; through subfields such as social, cognitive and industrial-organizational psychology it supplies much of the experimental evidence behind workplace advice on listening, persuasion, feedback and emotion.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/foundations"
+   },
+   "skos:prefLabel": "Psychology",
+   "skos:related": [
+    {
+     "@id": "cm:carl-rogers"
+    },
+    {
+     "@id": "cm:cognitive-bias"
+    },
+    {
+     "@id": "cm:cognitive-psychology"
+    },
+    {
+     "@id": "cm:communication-studies"
+    },
+    {
+     "@id": "cm:emotion-regulation"
+    },
+    {
+     "@id": "cm:industrial-organizational-psychology"
+    },
+    {
+     "@id": "cm:social-psychology"
+    }
+   ]
+  },
+  {
    "@id": "cm:public-speaking",
    "@type": "cmo:Skill",
    "cmo:addresses": {
@@ -60358,6 +60439,76 @@
    "dcterms:title": "Psychologically safe teams can incubate bad behaviour",
    "schema:url": {
     "@id": "https://www.bps.org.uk/research-digest/psychologically-safe-teams-can-incubate-bad-behaviour-0"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/psychology/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Spielman, Jenkins & Lovett, OpenStax (Rice University), 2020",
+   "dcterms:title": "Psychology 2e, Section 1.1: What Is Psychology?",
+   "schema:url": {
+    "@id": "https://openstax.org/books/psychology-2e/pages/1-1-what-is-psychology"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/psychology/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Spielman, Jenkins & Lovett, OpenStax (Rice University), 2020",
+   "dcterms:title": "Psychology 2e, Section 1.2: History of Psychology",
+   "schema:url": {
+    "@id": "https://openstax.org/books/psychology-2e/pages/1-2-history-of-psychology"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/psychology/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Encyclopaedia Britannica",
+   "dcterms:title": "Psychology",
+   "schema:url": {
+    "@id": "https://www.britannica.com/science/psychology"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/psychology/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Open Science Collaboration, Science 349(6251) (2015), doi:10.1126/science.aac4716 (LSE Research Online record)",
+   "dcterms:title": "Estimating the reproducibility of psychological science",
+   "schema:url": {
+    "@id": "https://researchonline.lse.ac.uk/id/eprint/65159"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/psychology/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Henrich, Heine & Norenzayan, Behavioral and Brain Sciences 33(2-3), 61-83 (2010), doi:10.1017/S0140525X0999152X",
+   "dcterms:title": "The weirdest people in the world?",
+   "schema:url": {
+    "@id": "https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/abs/the-weirdest-people-in-the-world/BF84F7517D56AFF7B7EB58411A554C17"
    }
   },
   {

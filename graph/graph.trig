@@ -1031,6 +1031,14 @@
 <https://github.com/john1hsu/communication-graph/id/pragmatics#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/pragmatics/s2> .
 <https://github.com/john1hsu/communication-graph/id/pragmatics#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/pragmatics/s3> .
 <https://github.com/john1hsu/communication-graph/id/pragmatics#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/pragmatics/s4> .
+<https://github.com/john1hsu/communication-graph/id/psychology#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/psychology#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/psychology> .
+<https://github.com/john1hsu/communication-graph/id/psychology#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/foundations/psychology.md" .
+<https://github.com/john1hsu/communication-graph/id/psychology#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/psychology/s1> .
+<https://github.com/john1hsu/communication-graph/id/psychology#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/psychology/s2> .
+<https://github.com/john1hsu/communication-graph/id/psychology#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/psychology/s3> .
+<https://github.com/john1hsu/communication-graph/id/psychology#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/psychology/s4> .
+<https://github.com/john1hsu/communication-graph/id/psychology#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/psychology/s5> .
 <https://github.com/john1hsu/communication-graph/id/rapport#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/rapport#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/rapport> .
 <https://github.com/john1hsu/communication-graph/id/rapport#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/foundations/rapport.md" .
@@ -13772,6 +13780,68 @@
   <https://github.com/john1hsu/communication-graph/id/source/pragmatics/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
   <https://github.com/john1hsu/communication-graph/id/source/pragmatics/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
   <https://github.com/john1hsu/communication-graph/id/source/pragmatics/s4> <https://schema.org/url> <https://scielo.br/j/rbla/a/SzNXfVMCNGGmNsCYv8j8bCH/?lang=en> .
+}
+
+<https://github.com/john1hsu/communication-graph/id/psychology#graph> {
+  <https://github.com/john1hsu/communication-graph/id/psychology> <http://purl.org/dc/terms/created> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/psychology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Field> .
+  <https://github.com/john1hsu/communication-graph/id/psychology> <http://www.w3.org/2000/01/rdf-schema#label> "Psychology" .
+  <https://github.com/john1hsu/communication-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#altLabel> "psychological science" .
+  <https://github.com/john1hsu/communication-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#altLabel> "science of mind and behaviour" .
+  <https://github.com/john1hsu/communication-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
+  <https://github.com/john1hsu/communication-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#definition> "The scientific study of mind and behaviour in humans and other animals; through subfields such as social, cognitive and industrial-organizational psychology it supplies much of the experimental evidence behind workplace advice on listening, persuasion, feedback and emotion." .
+  <https://github.com/john1hsu/communication-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/foundations> .
+  <https://github.com/john1hsu/communication-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#prefLabel> "Psychology" .
+  <https://github.com/john1hsu/communication-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/carl-rogers> .
+  <https://github.com/john1hsu/communication-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-bias> .
+  <https://github.com/john1hsu/communication-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> .
+  <https://github.com/john1hsu/communication-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
+  <https://github.com/john1hsu/communication-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/emotion-regulation> .
+  <https://github.com/john1hsu/communication-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/industrial-organizational-psychology> .
+  <https://github.com/john1hsu/communication-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/social-psychology> .
+  <https://github.com/john1hsu/communication-graph/id/psychology> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/psychology/s1> .
+  <https://github.com/john1hsu/communication-graph/id/psychology> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/psychology/s2> .
+  <https://github.com/john1hsu/communication-graph/id/psychology> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/psychology/s3> .
+  <https://github.com/john1hsu/communication-graph/id/psychology> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/psychology/s4> .
+  <https://github.com/john1hsu/communication-graph/id/psychology> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/psychology/s5> .
+  <https://github.com/john1hsu/communication-graph/id/psychology> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/henrich-heine-norenzayan-2010> .
+  <https://github.com/john1hsu/communication-graph/id/psychology> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/open-science-collaboration-2015> .
+  <https://github.com/john1hsu/communication-graph/id/psychology> <https://github.com/john1hsu/communication-graph/ontology#domain> "foundations" .
+  <https://github.com/john1hsu/communication-graph/id/psychology> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "theoretical" .
+  <https://github.com/john1hsu/communication-graph/id/psychology> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/foundations/psychology.md" .
+  <https://github.com/john1hsu/communication-graph/id/psychology> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/wilhelm-wundt> .
+  <https://github.com/john1hsu/communication-graph/id/psychology> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/william-james> .
+  <https://github.com/john1hsu/communication-graph/id/psychology> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+  <https://github.com/john1hsu/communication-graph/id/source/psychology/s1> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/psychology/s1> <http://purl.org/dc/terms/publisher> "Spielman, Jenkins & Lovett, OpenStax (Rice University), 2020" .
+  <https://github.com/john1hsu/communication-graph/id/source/psychology/s1> <http://purl.org/dc/terms/title> "Psychology 2e, Section 1.1: What Is Psychology?" .
+  <https://github.com/john1hsu/communication-graph/id/source/psychology/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/psychology/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "textbook" .
+  <https://github.com/john1hsu/communication-graph/id/source/psychology/s1> <https://schema.org/url> <https://openstax.org/books/psychology-2e/pages/1-1-what-is-psychology> .
+  <https://github.com/john1hsu/communication-graph/id/source/psychology/s2> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/psychology/s2> <http://purl.org/dc/terms/publisher> "Spielman, Jenkins & Lovett, OpenStax (Rice University), 2020" .
+  <https://github.com/john1hsu/communication-graph/id/source/psychology/s2> <http://purl.org/dc/terms/title> "Psychology 2e, Section 1.2: History of Psychology" .
+  <https://github.com/john1hsu/communication-graph/id/source/psychology/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/psychology/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "textbook" .
+  <https://github.com/john1hsu/communication-graph/id/source/psychology/s2> <https://schema.org/url> <https://openstax.org/books/psychology-2e/pages/1-2-history-of-psychology> .
+  <https://github.com/john1hsu/communication-graph/id/source/psychology/s3> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/psychology/s3> <http://purl.org/dc/terms/publisher> "Encyclopaedia Britannica" .
+  <https://github.com/john1hsu/communication-graph/id/source/psychology/s3> <http://purl.org/dc/terms/title> "Psychology" .
+  <https://github.com/john1hsu/communication-graph/id/source/psychology/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/psychology/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "encyclopedia" .
+  <https://github.com/john1hsu/communication-graph/id/source/psychology/s3> <https://schema.org/url> <https://www.britannica.com/science/psychology> .
+  <https://github.com/john1hsu/communication-graph/id/source/psychology/s4> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/psychology/s4> <http://purl.org/dc/terms/publisher> "Open Science Collaboration, Science 349(6251) (2015), doi:10.1126/science.aac4716 (LSE Research Online record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/psychology/s4> <http://purl.org/dc/terms/title> "Estimating the reproducibility of psychological science" .
+  <https://github.com/john1hsu/communication-graph/id/source/psychology/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/psychology/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/psychology/s4> <https://schema.org/url> <https://researchonline.lse.ac.uk/id/eprint/65159> .
+  <https://github.com/john1hsu/communication-graph/id/source/psychology/s5> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/psychology/s5> <http://purl.org/dc/terms/publisher> "Henrich, Heine & Norenzayan, Behavioral and Brain Sciences 33(2-3), 61-83 (2010), doi:10.1017/S0140525X0999152X" .
+  <https://github.com/john1hsu/communication-graph/id/source/psychology/s5> <http://purl.org/dc/terms/title> "The weirdest people in the world?" .
+  <https://github.com/john1hsu/communication-graph/id/source/psychology/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/psychology/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/psychology/s5> <https://schema.org/url> <https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/abs/the-weirdest-people-in-the-world/BF84F7517D56AFF7B7EB58411A554C17> .
 }
 
 <https://github.com/john1hsu/communication-graph/id/rapport#graph> {
@@ -32242,6 +32312,7 @@
   <https://github.com/john1hsu/communication-graph/id/carl-rogers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/carl-rogers> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/empathy> .
   <https://github.com/john1hsu/communication-graph/id/carl-rogers> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/joseph-wolpe> .
+  <https://github.com/john1hsu/communication-graph/id/carl-rogers> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/psychology> .
   <https://github.com/john1hsu/communication-graph/id/carl-rogers> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/empathy> .
   <https://github.com/john1hsu/communication-graph/id/carl-rogers> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/listening-circle> .
   <https://github.com/john1hsu/communication-graph/id/carl-rogers> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/thomas-gordon> .
@@ -32568,6 +32639,7 @@
   <https://github.com/john1hsu/communication-graph/id/cognitive-bias> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/primacy-and-recency-effects> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-bias> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/spotlight-effect> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/gain-loss-framing> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/psychology> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-legitimacy> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/elevator-pitch> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-load> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
@@ -32602,6 +32674,7 @@
   <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/mythical-fixed-pie> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/primacy-and-recency-effects> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/spotlight-effect> .
+  <https://github.com/john1hsu/communication-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/psychology> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -33011,6 +33084,7 @@
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/workplace-telepressure> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> .
+  <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/psychology> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/rhetoric> .
   <https://github.com/john1hsu/communication-graph/id/communication-theory-as-a-field> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
   <https://github.com/john1hsu/communication-graph/id/communicative-constitution-of-organizations> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
@@ -33990,6 +34064,7 @@
   <https://github.com/john1hsu/communication-graph/id/emotion-regulation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/self-distancing> .
   <https://github.com/john1hsu/communication-graph/id/emotion-regulation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/the-emerging-field-of-emotion-regulation> .
   <https://github.com/john1hsu/communication-graph/id/emotion-regulation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/james-j-gross> .
+  <https://github.com/john1hsu/communication-graph/id/emotion-regulation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/psychology> .
   <https://github.com/john1hsu/communication-graph/id/emotion-regulation> <https://github.com/john1hsu/communication-graph/ontology#developedBy> <https://github.com/john1hsu/communication-graph/id/mindfulness> .
   <https://github.com/john1hsu/communication-graph/id/emotion-regulation> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/labeling-emotions> .
   <https://github.com/john1hsu/communication-graph/id/emotion-regulation> <https://github.com/john1hsu/communication-graph/ontology#introducedIn> <https://github.com/john1hsu/communication-graph/id/the-emerging-field-of-emotion-regulation> .
@@ -34942,6 +35017,7 @@
   <https://github.com/john1hsu/communication-graph/id/henri-lipmanowicz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/henri-lipmanowicz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/henri-lipmanowicz> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/1-2-4-all> .
+  <https://github.com/john1hsu/communication-graph/id/henrich-heine-norenzayan-2010> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/psychology> .
   <https://github.com/john1hsu/communication-graph/id/herbert-h-clark> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/herbert-h-clark> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/herbert-h-clark> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/common-ground> .
@@ -35401,6 +35477,8 @@
   <https://github.com/john1hsu/communication-graph/id/industrial-organizational-psychology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/industrial-organizational-psychology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/industrial-organizational-psychology> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/psychology> .
+  <https://github.com/john1hsu/communication-graph/id/industrial-organizational-psychology> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
+  <https://github.com/john1hsu/communication-graph/id/industrial-organizational-psychology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/psychology> .
   <https://github.com/john1hsu/communication-graph/id/influence-without-authority-book> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/influence-without-authority-book> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
   <https://github.com/john1hsu/communication-graph/id/influence-without-authority-book> <https://github.com/john1hsu/communication-graph/ontology#introduces> <https://github.com/john1hsu/communication-graph/id/influence-without-authority> .
@@ -37149,6 +37227,7 @@
   <https://github.com/john1hsu/communication-graph/id/open-ended-questions> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/post-settlement-settlement> .
   <https://github.com/john1hsu/communication-graph/id/open-ended-questions> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/principled-negotiation> .
   <https://github.com/john1hsu/communication-graph/id/open-ended-questions> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/solution-focused-coaching> .
+  <https://github.com/john1hsu/communication-graph/id/open-science-collaboration-2015> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/psychology> .
   <https://github.com/john1hsu/communication-graph/id/open-science-collaboration-2015> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/social-psychology> .
   <https://github.com/john1hsu/communication-graph/id/oppenheimer-2006> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/clarity> .
   <https://github.com/john1hsu/communication-graph/id/oreg-vakola-armenakis-2011> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/change-communication> .
@@ -37932,7 +38011,7 @@
   <https://github.com/john1hsu/communication-graph/id/psychology-and-industrial-efficiency> <https://github.com/john1hsu/communication-graph/ontology#introduces> <https://github.com/john1hsu/communication-graph/id/industrial-organizational-psychology> .
   <https://github.com/john1hsu/communication-graph/id/psychology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/psychology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
-  <https://github.com/john1hsu/communication-graph/id/psychology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Field> .
+  <https://github.com/john1hsu/communication-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/industrial-organizational-psychology> .
   <https://github.com/john1hsu/communication-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/social-psychology> .
   <https://github.com/john1hsu/communication-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/industrial-organizational-psychology> .
@@ -38880,16 +38959,19 @@
   <https://github.com/john1hsu/communication-graph/id/social-psychology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/social-psychology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/social-psychology> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/psychology> .
+  <https://github.com/john1hsu/communication-graph/id/social-psychology> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/social-psychology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/carl-hovland> .
   <https://github.com/john1hsu/communication-graph/id/social-psychology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
   <https://github.com/john1hsu/communication-graph/id/social-psychology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/industrial-organizational-psychology> .
   <https://github.com/john1hsu/communication-graph/id/social-psychology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/morton-deutsch> .
   <https://github.com/john1hsu/communication-graph/id/social-psychology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/power-posing> .
+  <https://github.com/john1hsu/communication-graph/id/social-psychology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/psychology> .
   <https://github.com/john1hsu/communication-graph/id/social-psychology> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
   <https://github.com/john1hsu/communication-graph/id/social-psychology> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/conflict-resolution> .
   <https://github.com/john1hsu/communication-graph/id/social-psychology> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/conflict-resolution> .
+  <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/psychology> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/1-2-4-all> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/acoustic-speech-analysis-coaching> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/active-listening> .
@@ -38981,6 +39063,7 @@
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/i-statements> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/impression-management> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/individualism-and-collectivism> .
+  <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/industrial-organizational-psychology> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/influence-without-authority> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/information-gathering-interview> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/information-overload> .
@@ -39047,6 +39130,7 @@
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/principled-negotiation> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/production-blocking> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/proxemics> .
+  <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/psychology> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/public-speaking> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/pyramid-principle> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/question-formulation-technique> .
@@ -39078,6 +39162,7 @@
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/small-talk> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/social-anxiety> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/social-proof> .
+  <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/social-psychology> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/solution-focused-coaching> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping> .
@@ -39898,7 +39983,10 @@
   <https://github.com/john1hsu/communication-graph/id/wilbur-schramm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/wilbur-schramm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/wilbur-schramm> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
+  <https://github.com/john1hsu/communication-graph/id/wilhelm-wundt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/wilhelm-wundt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/wilhelm-wundt> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/industrial-organizational-psychology> .
+  <https://github.com/john1hsu/communication-graph/id/wilhelm-wundt> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/psychology> .
   <https://github.com/john1hsu/communication-graph/id/willard-bleyer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/willard-bleyer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/willard-bleyer> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/bleyer-newspaper-writing-and-editing> .
@@ -39908,6 +39996,9 @@
   <https://github.com/john1hsu/communication-graph/id/william-j-mcguire> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/william-j-mcguire> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/william-j-mcguire> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/inoculation-theory> .
+  <https://github.com/john1hsu/communication-graph/id/william-james> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/william-james> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+  <https://github.com/john1hsu/communication-graph/id/william-james> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/psychology> .
   <https://github.com/john1hsu/communication-graph/id/william-strunk-jr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/william-strunk-jr> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/ginny-redish> .
   <https://github.com/john1hsu/communication-graph/id/william-strunk-jr> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/joseph-m-williams> .
