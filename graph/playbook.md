@@ -2464,6 +2464,13 @@ Ask yourself:
 - What would change my own mind, and am I willing to adjust the proposal if I hear it?
 - Would I be comfortable if they saw exactly how I prepared this pitch?
 
+### [Psychological reactance](../articles/persuasion-and-influence/psychological-reactance.md) — Barrier
+
+Ask yourself:
+- Does my message tell people what they must do, or does it give them the reasons and leave room to decide?
+- Have I asked for more than this audience will see as reasonable in one step?
+- If someone pushed back, did I treat it as a signal that they felt cornered rather than as stubbornness?
+
 ### [Refutational two-sided messages](../articles/persuasion-and-influence/refutational-two-sided-messages.md) — Technique
 
 1. List the objections your audience is most likely to raise - ask a sceptical colleague or two which ones they would lead with, and what your proposal costs others in time and money.

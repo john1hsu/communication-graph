@@ -12302,6 +12302,48 @@
 <https://github.com/john1hsu/communication-graph/id/proxemics> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/edward-t-hall> .
 <https://github.com/john1hsu/communication-graph/id/proxemics> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/proxemics> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/burgoon-1978> .
+<https://github.com/john1hsu/communication-graph/id/psychological-reactance/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/psychological-reactance/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Does my message tell people what they must do, or does it give them the reasons and leave room to decide?" .
+<https://github.com/john1hsu/communication-graph/id/psychological-reactance/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/psychological-reactance> .
+<https://github.com/john1hsu/communication-graph/id/psychological-reactance/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/psychological-reactance/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Have I asked for more than this audience will see as reasonable in one step?" .
+<https://github.com/john1hsu/communication-graph/id/psychological-reactance/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/psychological-reactance> .
+<https://github.com/john1hsu/communication-graph/id/psychological-reactance/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/psychological-reactance/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "If someone pushed back, did I treat it as a signal that they felt cornered rather than as stubbornness?" .
+<https://github.com/john1hsu/communication-graph/id/psychological-reactance/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/psychological-reactance> .
+<https://github.com/john1hsu/communication-graph/id/psychological-reactance> <http://purl.org/dc/terms/created> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/psychological-reactance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Barrier> .
+<https://github.com/john1hsu/communication-graph/id/psychological-reactance> <http://www.w3.org/2000/01/rdf-schema#label> "Psychological reactance" .
+<https://github.com/john1hsu/communication-graph/id/psychological-reactance> <http://www.w3.org/2004/02/skos/core#altLabel> "freedom threat" .
+<https://github.com/john1hsu/communication-graph/id/psychological-reactance> <http://www.w3.org/2004/02/skos/core#altLabel> "psychological reactance theory" .
+<https://github.com/john1hsu/communication-graph/id/psychological-reactance> <http://www.w3.org/2004/02/skos/core#altLabel> "reactance theory" .
+<https://github.com/john1hsu/communication-graph/id/psychological-reactance> <http://www.w3.org/2004/02/skos/core#altLabel> "reactance" .
+<https://github.com/john1hsu/communication-graph/id/psychological-reactance> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/persuasion> .
+<https://github.com/john1hsu/communication-graph/id/psychological-reactance> <http://www.w3.org/2004/02/skos/core#definition> "The motivational pushback people feel when a message threatens their freedom to choose, which shows up as anger and counterarguing and can make forceful or controlling persuasion backfire." .
+<https://github.com/john1hsu/communication-graph/id/psychological-reactance> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/persuasion-and-influence> .
+<https://github.com/john1hsu/communication-graph/id/psychological-reactance> <http://www.w3.org/2004/02/skos/core#prefLabel> "Psychological reactance" .
+<https://github.com/john1hsu/communication-graph/id/psychological-reactance> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/change-communication> .
+<https://github.com/john1hsu/communication-graph/id/psychological-reactance> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/defensiveness> .
+<https://github.com/john1hsu/communication-graph/id/psychological-reactance> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/i-statements> .
+<https://github.com/john1hsu/communication-graph/id/psychological-reactance> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/influence-without-authority> .
+<https://github.com/john1hsu/communication-graph/id/psychological-reactance> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/inoculation-theory> .
+<https://github.com/john1hsu/communication-graph/id/psychological-reactance> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/refutational-two-sided-messages> .
+<https://github.com/john1hsu/communication-graph/id/psychological-reactance> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/psychological-reactance/s1> .
+<https://github.com/john1hsu/communication-graph/id/psychological-reactance> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/psychological-reactance/s2> .
+<https://github.com/john1hsu/communication-graph/id/psychological-reactance> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/psychological-reactance/s3> .
+<https://github.com/john1hsu/communication-graph/id/psychological-reactance> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/psychological-reactance/s4> .
+<https://github.com/john1hsu/communication-graph/id/psychological-reactance> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/psychological-reactance/s5> .
+<https://github.com/john1hsu/communication-graph/id/psychological-reactance> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/psychological-reactance/s6> .
+<https://github.com/john1hsu/communication-graph/id/psychological-reactance> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/rains-turner-2007> .
+<https://github.com/john1hsu/communication-graph/id/psychological-reactance> <https://github.com/john1hsu/communication-graph/ontology#domain> "persuasion-and-influence" .
+<https://github.com/john1hsu/communication-graph/id/psychological-reactance> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/psychological-reactance> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/persuasion-and-influence/psychological-reactance.md" .
+<https://github.com/john1hsu/communication-graph/id/psychological-reactance> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/jack-w-brehm> .
+<https://github.com/john1hsu/communication-graph/id/psychological-reactance> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/communication-graph/id/psychological-reactance> <https://github.com/john1hsu/communication-graph/ontology#studiedIn> <https://github.com/john1hsu/communication-graph/id/social-psychology> .
+<https://github.com/john1hsu/communication-graph/id/psychological-reactance> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/li-shi-2025> .
+<https://github.com/john1hsu/communication-graph/id/psychological-reactance> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/rains-2013> .
+<https://github.com/john1hsu/communication-graph/id/psychological-reactance> <https://github.com/john1hsu/communication-graph/ontology#undermines> <https://github.com/john1hsu/communication-graph/id/persuasion> .
 <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://purl.org/dc/terms/created> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Phenomenon> .
 <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/2000/01/rdf-schema#label> "Psychological safety" .
@@ -23140,6 +23182,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/proxemics/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/proxemics/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
 <https://github.com/john1hsu/communication-graph/id/source/proxemics/s6> <https://schema.org/url> <https://thereader.mitpress.mit.edu/understanding-personal-space-proxemics> .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-reactance/s1> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-reactance/s1> <http://purl.org/dc/terms/publisher> "Steindl, C., Jonas, E., Sittenthaler, S., Traut-Mattausch, E. & Greenberg, J., Zeitschrift für Psychologie 223(4), 205-214, 2015 (PubMed record)" .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-reactance/s1> <http://purl.org/dc/terms/title> "Understanding Psychological Reactance: New Developments and Findings" .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-reactance/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-reactance/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-reactance/s1> <https://schema.org/url> <https://pubmed.ncbi.nlm.nih.gov/27453805/> .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-reactance/s2> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-reactance/s2> <http://purl.org/dc/terms/publisher> "Rains, S. A., Human Communication Research 39(1), 47-73, 2013, doi:10.1111/j.1468-2958.2012.01443.x (Oxford Academic abstract page)" .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-reactance/s2> <http://purl.org/dc/terms/title> "The Nature of Psychological Reactance Revisited: A Meta-Analytic Review" .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-reactance/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-reactance/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-reactance/s2> <https://schema.org/url> <https://academic.oup.com/hcr/article-abstract/39/1/47/4093682> .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-reactance/s3> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-reactance/s3> <http://purl.org/dc/terms/publisher> "Li, Z. & Shi, J., Human Communication Research 52(1), 38-52, 2026 (online 2025), doi:10.1093/hcr/hqaf016 (Hong Kong Baptist University research record)" .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-reactance/s3> <http://purl.org/dc/terms/title> "Message effects on psychological reactance: meta-analyses" .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-reactance/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-reactance/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-reactance/s3> <https://schema.org/url> <https://scholars.hkbu.edu.hk/en/publications/message-effects-on-psychological-reactance-meta-analyses/> .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-reactance/s4> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-reactance/s4> <http://purl.org/dc/terms/publisher> "Rosenberg, B. D. & Siegel, J. T., Motivation Science 4(4), 281-300, 2018, doi:10.1037/mot0000091 (Dominican University of California scholarship record)" .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-reactance/s4> <http://purl.org/dc/terms/title> "A 50-year review of psychological reactance theory: Do not read this article" .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-reactance/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-reactance/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-reactance/s4> <https://schema.org/url> <https://scholar.dominican.edu/psychology-faculty-scholarship/3> .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-reactance/s5> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-reactance/s5> <http://purl.org/dc/terms/publisher> "Rains, S. A. & Turner, M. M., Human Communication Research 33(2), 241-269, 2007, doi:10.1111/j.1468-2958.2007.00298.x (University of Arizona research record)" .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-reactance/s5> <http://purl.org/dc/terms/title> "Psychological reactance and persuasive health communication: A test and extension of the intertwined model" .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-reactance/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-reactance/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-reactance/s5> <https://schema.org/url> <https://experts.arizona.edu/en/publications/psychological-reactance-and-persuasive-health-communication-a-tes/> .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-reactance/s6> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-reactance/s6> <http://purl.org/dc/terms/publisher> "Legate, N. & Weinstein, N., Health Communication, 2021, doi:10.1080/10410236.2021.1921907 (author copy hosted by the Center for Self-Determination Theory)" .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-reactance/s6> <http://purl.org/dc/terms/title> "Can we communicate autonomy support and a mandate? How motivating messages relate to motivation for staying at home across time during the COVID-19 pandemic" .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-reactance/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-reactance/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/psychological-reactance/s6> <https://schema.org/url> <https://selfdeterminationtheory.org/wp-content/uploads/2021/05/2021_LegateWeinstein_CanWeCommunicate.pdf> .
 <https://github.com/john1hsu/communication-graph/id/source/psychological-safety/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/psychological-safety/s1> <http://purl.org/dc/terms/publisher> "Amy Edmondson, Administrative Science Quarterly 44(2), 350-383, 1999 (course-reading copy hosted at MIT)" .
 <https://github.com/john1hsu/communication-graph/id/source/psychological-safety/s1> <http://purl.org/dc/terms/title> "Psychological Safety and Learning Behavior in Work Teams" .

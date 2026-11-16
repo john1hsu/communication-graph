@@ -21634,6 +21634,93 @@
    ]
   },
   {
+   "@id": "cm:psychological-reactance",
+   "@type": "cmo:Barrier",
+   "cmo:demonstratedBy": {
+    "@id": "cm:rains-turner-2007"
+   },
+   "cmo:domain": "persuasion-and-influence",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:file": "articles/persuasion-and-influence/psychological-reactance.md",
+   "cmo:introducedBy": {
+    "@id": "cm:jack-w-brehm"
+   },
+   "cmo:level": "intermediate",
+   "cmo:studiedIn": {
+    "@id": "cm:social-psychology"
+   },
+   "cmo:supportedBy": [
+    {
+     "@id": "cm:li-shi-2025"
+    },
+    {
+     "@id": "cm:rains-2013"
+    }
+   ],
+   "cmo:undermines": {
+    "@id": "cm:persuasion"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/psychological-reactance/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/psychological-reactance/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/psychological-reactance/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/psychological-reactance/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/psychological-reactance/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/psychological-reactance/s6"
+    }
+   ],
+   "rdfs:label": "Psychological reactance",
+   "skos:altLabel": [
+    "freedom threat",
+    "psychological reactance theory",
+    "reactance theory",
+    "reactance"
+   ],
+   "skos:broader": {
+    "@id": "cm:persuasion"
+   },
+   "skos:definition": "The motivational pushback people feel when a message threatens their freedom to choose, which shows up as anger and counterarguing and can make forceful or controlling persuasion backfire.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/persuasion-and-influence"
+   },
+   "skos:prefLabel": "Psychological reactance",
+   "skos:related": [
+    {
+     "@id": "cm:change-communication"
+    },
+    {
+     "@id": "cm:defensiveness"
+    },
+    {
+     "@id": "cm:i-statements"
+    },
+    {
+     "@id": "cm:influence-without-authority"
+    },
+    {
+     "@id": "cm:inoculation-theory"
+    },
+    {
+     "@id": "cm:refutational-two-sided-messages"
+    }
+   ]
+  },
+  {
    "@id": "cm:psychological-safety",
    "@type": "cmo:Phenomenon",
    "cmo:causes": {
@@ -39561,6 +39648,30 @@
     "@id": "cm:production-blocking"
    },
    "rdfs:label": "For a big group, did I split people up or move contribution into writing rather than running one open floor?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/psychological-reactance/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:psychological-reactance"
+   },
+   "rdfs:label": "Does my message tell people what they must do, or does it give them the reasons and leave room to decide?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/psychological-reactance/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:psychological-reactance"
+   },
+   "rdfs:label": "Have I asked for more than this audience will see as reasonable in one step?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/psychological-reactance/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:psychological-reactance"
+   },
+   "rdfs:label": "If someone pushed back, did I treat it as a signal that they felt cornered rather than as stubbornness?"
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/public-speaking/check/1",
@@ -60995,6 +61106,90 @@
    "dcterms:title": "Proxemics 101: Understanding Personal Space Across Cultures",
    "schema:url": {
     "@id": "https://thereader.mitpress.mit.edu/understanding-personal-space-proxemics"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/psychological-reactance/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Steindl, C., Jonas, E., Sittenthaler, S., Traut-Mattausch, E. & Greenberg, J., Zeitschrift für Psychologie 223(4), 205-214, 2015 (PubMed record)",
+   "dcterms:title": "Understanding Psychological Reactance: New Developments and Findings",
+   "schema:url": {
+    "@id": "https://pubmed.ncbi.nlm.nih.gov/27453805/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/psychological-reactance/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Rains, S. A., Human Communication Research 39(1), 47-73, 2013, doi:10.1111/j.1468-2958.2012.01443.x (Oxford Academic abstract page)",
+   "dcterms:title": "The Nature of Psychological Reactance Revisited: A Meta-Analytic Review",
+   "schema:url": {
+    "@id": "https://academic.oup.com/hcr/article-abstract/39/1/47/4093682"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/psychological-reactance/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Li, Z. & Shi, J., Human Communication Research 52(1), 38-52, 2026 (online 2025), doi:10.1093/hcr/hqaf016 (Hong Kong Baptist University research record)",
+   "dcterms:title": "Message effects on psychological reactance: meta-analyses",
+   "schema:url": {
+    "@id": "https://scholars.hkbu.edu.hk/en/publications/message-effects-on-psychological-reactance-meta-analyses/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/psychological-reactance/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Rosenberg, B. D. & Siegel, J. T., Motivation Science 4(4), 281-300, 2018, doi:10.1037/mot0000091 (Dominican University of California scholarship record)",
+   "dcterms:title": "A 50-year review of psychological reactance theory: Do not read this article",
+   "schema:url": {
+    "@id": "https://scholar.dominican.edu/psychology-faculty-scholarship/3"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/psychological-reactance/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Rains, S. A. & Turner, M. M., Human Communication Research 33(2), 241-269, 2007, doi:10.1111/j.1468-2958.2007.00298.x (University of Arizona research record)",
+   "dcterms:title": "Psychological reactance and persuasive health communication: A test and extension of the intertwined model",
+   "schema:url": {
+    "@id": "https://experts.arizona.edu/en/publications/psychological-reactance-and-persuasive-health-communication-a-tes/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/psychological-reactance/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Legate, N. & Weinstein, N., Health Communication, 2021, doi:10.1080/10410236.2021.1921907 (author copy hosted by the Center for Self-Determination Theory)",
+   "dcterms:title": "Can we communicate autonomy support and a mandate? How motivating messages relate to motivation for staying at home across time during the COVID-19 pandemic",
+   "schema:url": {
+    "@id": "https://selfdeterminationtheory.org/wp-content/uploads/2021/05/2021_LegateWeinstein_CanWeCommunicate.pdf"
    }
   },
   {
