@@ -2149,6 +2149,15 @@
 <https://github.com/john1hsu/communication-graph/id/carl-hovland#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/carl-hovland/s2> .
 <https://github.com/john1hsu/communication-graph/id/carl-hovland#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/carl-hovland/s3> .
 <https://github.com/john1hsu/communication-graph/id/carl-hovland#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/carl-hovland/s4> .
+<https://github.com/john1hsu/communication-graph/id/carl-rogers#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/carl-rogers#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/carl-rogers> .
+<https://github.com/john1hsu/communication-graph/id/carl-rogers#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/thinkers-and-works/carl-rogers.md" .
+<https://github.com/john1hsu/communication-graph/id/carl-rogers#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/carl-rogers/s1> .
+<https://github.com/john1hsu/communication-graph/id/carl-rogers#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/carl-rogers/s2> .
+<https://github.com/john1hsu/communication-graph/id/carl-rogers#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/carl-rogers/s3> .
+<https://github.com/john1hsu/communication-graph/id/carl-rogers#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/carl-rogers/s4> .
+<https://github.com/john1hsu/communication-graph/id/carl-rogers#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/carl-rogers/s5> .
+<https://github.com/john1hsu/communication-graph/id/carl-rogers#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/carl-rogers/s6> .
 <https://github.com/john1hsu/communication-graph/id/charles-osgood#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/charles-osgood#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/charles-osgood> .
 <https://github.com/john1hsu/communication-graph/id/charles-osgood#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/thinkers-and-works/charles-osgood.md" .
@@ -26017,6 +26026,76 @@
   <https://github.com/john1hsu/communication-graph/id/source/carl-hovland/s4> <https://schema.org/url> <https://sydneysymposium.unsw.edu.au/2025/chapters/CranoSSSP2025.pdf> .
 }
 
+<https://github.com/john1hsu/communication-graph/id/carl-rogers#graph> {
+  <https://github.com/john1hsu/communication-graph/id/carl-rogers> <http://purl.org/dc/terms/created> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/carl-rogers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+  <https://github.com/john1hsu/communication-graph/id/carl-rogers> <http://www.w3.org/2000/01/rdf-schema#label> "Carl Rogers" .
+  <https://github.com/john1hsu/communication-graph/id/carl-rogers> <http://www.w3.org/2004/02/skos/core#altLabel> "Carl R. Rogers" .
+  <https://github.com/john1hsu/communication-graph/id/carl-rogers> <http://www.w3.org/2004/02/skos/core#altLabel> "Carl Ransom Rogers" .
+  <https://github.com/john1hsu/communication-graph/id/carl-rogers> <http://www.w3.org/2004/02/skos/core#definition> "American psychologist (1902-1987) who founded client-centred (nondirective) therapy and made empathic understanding, unconditional positive regard and genuineness the core of a helping relationship; with Richard Farson he carried this listening stance into management as \"active listening\"." .
+  <https://github.com/john1hsu/communication-graph/id/carl-rogers> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works> .
+  <https://github.com/john1hsu/communication-graph/id/carl-rogers> <http://www.w3.org/2004/02/skos/core#prefLabel> "Carl Rogers" .
+  <https://github.com/john1hsu/communication-graph/id/carl-rogers> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/defensiveness> .
+  <https://github.com/john1hsu/communication-graph/id/carl-rogers> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/elliott-et-al-2018> .
+  <https://github.com/john1hsu/communication-graph/id/carl-rogers> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/listening-circle> .
+  <https://github.com/john1hsu/communication-graph/id/carl-rogers> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> .
+  <https://github.com/john1hsu/communication-graph/id/carl-rogers> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/paraphrasing> .
+  <https://github.com/john1hsu/communication-graph/id/carl-rogers> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/reflective-listening> .
+  <https://github.com/john1hsu/communication-graph/id/carl-rogers> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/thomas-gordon> .
+  <https://github.com/john1hsu/communication-graph/id/carl-rogers> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> .
+  <https://github.com/john1hsu/communication-graph/id/carl-rogers> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/carl-rogers/s1> .
+  <https://github.com/john1hsu/communication-graph/id/carl-rogers> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/carl-rogers/s2> .
+  <https://github.com/john1hsu/communication-graph/id/carl-rogers> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/carl-rogers/s3> .
+  <https://github.com/john1hsu/communication-graph/id/carl-rogers> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/carl-rogers/s4> .
+  <https://github.com/john1hsu/communication-graph/id/carl-rogers> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/carl-rogers/s5> .
+  <https://github.com/john1hsu/communication-graph/id/carl-rogers> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/carl-rogers/s6> .
+  <https://github.com/john1hsu/communication-graph/id/carl-rogers> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/barriers-and-gateways-to-communication> .
+  <https://github.com/john1hsu/communication-graph/id/carl-rogers> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/on-becoming-a-person> .
+  <https://github.com/john1hsu/communication-graph/id/carl-rogers> <https://github.com/john1hsu/communication-graph/ontology#domain> "thinkers-and-works" .
+  <https://github.com/john1hsu/communication-graph/id/carl-rogers> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "historical" .
+  <https://github.com/john1hsu/communication-graph/id/carl-rogers> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/thinkers-and-works/carl-rogers.md" .
+  <https://github.com/john1hsu/communication-graph/id/carl-rogers> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+  <https://github.com/john1hsu/communication-graph/id/carl-rogers> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/empathy> .
+  <https://github.com/john1hsu/communication-graph/id/carl-rogers> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/unconditional-positive-regard> .
+  <https://github.com/john1hsu/communication-graph/id/carl-rogers> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+  <https://github.com/john1hsu/communication-graph/id/source/carl-rogers/s1> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/carl-rogers/s1> <http://purl.org/dc/terms/publisher> "Encyclopaedia Britannica" .
+  <https://github.com/john1hsu/communication-graph/id/source/carl-rogers/s1> <http://purl.org/dc/terms/title> "Carl Rogers" .
+  <https://github.com/john1hsu/communication-graph/id/source/carl-rogers/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/carl-rogers/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "encyclopedia" .
+  <https://github.com/john1hsu/communication-graph/id/source/carl-rogers/s1> <https://schema.org/url> <https://www.britannica.com:443/biography/Carl-Rogers> .
+  <https://github.com/john1hsu/communication-graph/id/source/carl-rogers/s2> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/carl-rogers/s2> <http://purl.org/dc/terms/publisher> "Carl R. Rogers, The Counseling Psychologist 5(2), 1975 (copy hosted by ISPA - Instituto Universitário, Lisbon)" .
+  <https://github.com/john1hsu/communication-graph/id/source/carl-rogers/s2> <http://purl.org/dc/terms/title> "Empathic: An Unappreciated Way of Being" .
+  <https://github.com/john1hsu/communication-graph/id/source/carl-rogers/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/carl-rogers/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/communication-graph/id/source/carl-rogers/s2> <https://schema.org/url> <https://clinica.ispa.pt/sites/default/files/83._carl_rogers_empathic.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/carl-rogers/s3> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/carl-rogers/s3> <http://purl.org/dc/terms/publisher> "Carl R. Rogers and Richard E. Farson, Industrial Relations Center, University of Chicago, 1957 (excerpt, Gordon Training International)" .
+  <https://github.com/john1hsu/communication-graph/id/source/carl-rogers/s3> <http://purl.org/dc/terms/title> "Active Listening" .
+  <https://github.com/john1hsu/communication-graph/id/source/carl-rogers/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/carl-rogers/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/communication-graph/id/source/carl-rogers/s3> <https://schema.org/url> <https://www.gordontraining.com/free-workplace-articles/active-listening/> .
+  <https://github.com/john1hsu/communication-graph/id/source/carl-rogers/s4> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/carl-rogers/s4> <http://purl.org/dc/terms/publisher> "Carl R. Rogers, Center for Studies of the Person" .
+  <https://github.com/john1hsu/communication-graph/id/source/carl-rogers/s4> <http://purl.org/dc/terms/title> "Barriers and Gateways to Communication (opening excerpt)" .
+  <https://github.com/john1hsu/communication-graph/id/source/carl-rogers/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/carl-rogers/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/communication-graph/id/source/carl-rogers/s4> <https://schema.org/url> <https://centerfortheperson.org/?p=1667> .
+  <https://github.com/john1hsu/communication-graph/id/source/carl-rogers/s5> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/carl-rogers/s5> <http://purl.org/dc/terms/publisher> "Elliott, Bohart, Watson and Murphy, Psychotherapy 55(4), 399-410, 2018 (University of Strathclyde repository record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/carl-rogers/s5> <http://purl.org/dc/terms/title> "Therapist empathy and client outcome: an updated meta-analysis" .
+  <https://github.com/john1hsu/communication-graph/id/source/carl-rogers/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/carl-rogers/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/carl-rogers/s5> <https://schema.org/url> <https://strathprints.strath.ac.uk/id/eprint/66200> .
+  <https://github.com/john1hsu/communication-graph/id/source/carl-rogers/s6> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/carl-rogers/s6> <http://purl.org/dc/terms/publisher> "PSY321 Theories of Personality, The American Women's College, Bay Path University (open textbook, CC BY 4.0, adapted from Kelland, Personality Theory)" .
+  <https://github.com/john1hsu/communication-graph/id/source/carl-rogers/s6> <http://purl.org/dc/terms/title> "Chapter 22: Rogers: Humanistic Psychology" .
+  <https://github.com/john1hsu/communication-graph/id/source/carl-rogers/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/carl-rogers/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "textbook" .
+  <https://github.com/john1hsu/communication-graph/id/source/carl-rogers/s6> <https://schema.org/url> <https://open.baypath.edu/psy321book/chapter/c22p3/> .
+}
+
 <https://github.com/john1hsu/communication-graph/id/charles-osgood#graph> {
   <https://github.com/john1hsu/communication-graph/id/charles-osgood> <http://purl.org/dc/terms/created> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
   <https://github.com/john1hsu/communication-graph/id/charles-osgood> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
@@ -31797,6 +31876,9 @@
   <https://github.com/john1hsu/communication-graph/id/barrick-shaffer-degrassi-2009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/barrick-shaffer-degrassi-2009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/barrick-shaffer-degrassi-2009> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/job-interview> .
+  <https://github.com/john1hsu/communication-graph/id/barriers-and-gateways-to-communication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/barriers-and-gateways-to-communication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
+  <https://github.com/john1hsu/communication-graph/id/barriers-and-gateways-to-communication> <https://github.com/john1hsu/communication-graph/ontology#authoredBy> <https://github.com/john1hsu/communication-graph/id/carl-rogers> .
   <https://github.com/john1hsu/communication-graph/id/barsade-2002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/barsade-2002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/barsade-2002> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/emotional-contagion> .
@@ -32158,14 +32240,12 @@
   <https://github.com/john1hsu/communication-graph/id/carl-hovland> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/refutational-two-sided-messages> .
   <https://github.com/john1hsu/communication-graph/id/carl-hovland> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/social-psychology> .
   <https://github.com/john1hsu/communication-graph/id/carl-rogers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
-  <https://github.com/john1hsu/communication-graph/id/carl-rogers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/carl-rogers> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/empathy> .
   <https://github.com/john1hsu/communication-graph/id/carl-rogers> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/joseph-wolpe> .
   <https://github.com/john1hsu/communication-graph/id/carl-rogers> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/empathy> .
   <https://github.com/john1hsu/communication-graph/id/carl-rogers> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/listening-circle> .
   <https://github.com/john1hsu/communication-graph/id/carl-rogers> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/thomas-gordon> .
   <https://github.com/john1hsu/communication-graph/id/carl-rogers> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> .
-  <https://github.com/john1hsu/communication-graph/id/carl-rogers> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/active-listening> .
   <https://github.com/john1hsu/communication-graph/id/carl-rogers> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/paraphrasing> .
   <https://github.com/john1hsu/communication-graph/id/carney-cuddy-yap-2010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/carney-cuddy-yap-2010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
@@ -33337,6 +33417,7 @@
   <https://github.com/john1hsu/communication-graph/id/defensiveness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/defensiveness> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-climate> .
   <https://github.com/john1hsu/communication-graph/id/defensiveness> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/apology> .
+  <https://github.com/john1hsu/communication-graph/id/defensiveness> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/carl-rogers> .
   <https://github.com/john1hsu/communication-graph/id/defensiveness> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-reappraisal> .
   <https://github.com/john1hsu/communication-graph/id/defensiveness> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/de-escalation> .
   <https://github.com/john1hsu/communication-graph/id/defensiveness> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/deaf-effect> .
@@ -33769,6 +33850,7 @@
   <https://github.com/john1hsu/communication-graph/id/elizabeth-dunn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/elizabeth-dunn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/elizabeth-dunn> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> .
+  <https://github.com/john1hsu/communication-graph/id/elliott-et-al-2018> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/carl-rogers> .
   <https://github.com/john1hsu/communication-graph/id/elliott-et-al-2018> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/empathy> .
   <https://github.com/john1hsu/communication-graph/id/elsbach-kramer-2003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/elsbach-kramer-2003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
@@ -33957,6 +34039,7 @@
   <https://github.com/john1hsu/communication-graph/id/empathy> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
   <https://github.com/john1hsu/communication-graph/id/empathy> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/empathy> <https://github.com/john1hsu/communication-graph/ontology#developedBy> <https://github.com/john1hsu/communication-graph/id/nonviolent-communication> .
+  <https://github.com/john1hsu/communication-graph/id/empathy> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/carl-rogers> .
   <https://github.com/john1hsu/communication-graph/id/employee-engagement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/employee-engagement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/employee-engagement> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/work-motivation> .
@@ -36165,6 +36248,7 @@
   <https://github.com/john1hsu/communication-graph/id/listening-circle> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
   <https://github.com/john1hsu/communication-graph/id/listening-circle> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/listening> .
   <https://github.com/john1hsu/communication-graph/id/listening-circle> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
+  <https://github.com/john1hsu/communication-graph/id/listening-circle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/carl-rogers> .
   <https://github.com/john1hsu/communication-graph/id/listening-styles> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/listening-styles> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/listening-styles> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
@@ -36965,6 +37049,9 @@
   <https://github.com/john1hsu/communication-graph/id/oliver-1980> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/oliver-1980> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/oliver-1980> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> .
+  <https://github.com/john1hsu/communication-graph/id/on-becoming-a-person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/on-becoming-a-person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
+  <https://github.com/john1hsu/communication-graph/id/on-becoming-a-person> <https://github.com/john1hsu/communication-graph/ontology#authoredBy> <https://github.com/john1hsu/communication-graph/id/carl-rogers> .
   <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
@@ -36974,6 +37061,7 @@
   <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
   <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/workplace-meetings> .
+  <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/carl-rogers> .
   <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/coaching> .
   <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/considering-others-contributions-first> .
   <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/employee-engagement> .
@@ -37190,6 +37278,7 @@
   <https://github.com/john1hsu/communication-graph/id/paraphrasing> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/listening> .
   <https://github.com/john1hsu/communication-graph/id/paraphrasing> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/paraphrasing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+  <https://github.com/john1hsu/communication-graph/id/paraphrasing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/carl-rogers> .
   <https://github.com/john1hsu/communication-graph/id/paraphrasing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/checking-understanding> .
   <https://github.com/john1hsu/communication-graph/id/paraphrasing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/closed-loop-communication> .
   <https://github.com/john1hsu/communication-graph/id/paraphrasing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/common-ground> .
@@ -38130,6 +38219,7 @@
   <https://github.com/john1hsu/communication-graph/id/reciprocity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/social-proof> .
   <https://github.com/john1hsu/communication-graph/id/redish-selzer-1985> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/readability-formulas> .
   <https://github.com/john1hsu/communication-graph/id/reflective-listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+  <https://github.com/john1hsu/communication-graph/id/reflective-listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/carl-rogers> .
   <https://github.com/john1hsu/communication-graph/id/refutational-two-sided-messages/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/refutational-two-sided-messages/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/refutational-two-sided-messages/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -39448,6 +39538,7 @@
   <https://github.com/john1hsu/communication-graph/id/thomas-gilovich> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/nicholas-epley> .
   <https://github.com/john1hsu/communication-graph/id/thomas-gilovich> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> .
   <https://github.com/john1hsu/communication-graph/id/thomas-gordon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/thomas-gordon> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/carl-rogers> .
   <https://github.com/john1hsu/communication-graph/id/thomas-gordon> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> .
   <https://github.com/john1hsu/communication-graph/id/thomas-gordon> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/i-statements> .
   <https://github.com/john1hsu/communication-graph/id/thomas-kilmann-conflict-modes/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -39543,6 +39634,7 @@
   <https://github.com/john1hsu/communication-graph/id/uncertainty-reduction-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
   <https://github.com/john1hsu/communication-graph/id/unclear-ownership> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/active-voice> .
   <https://github.com/john1hsu/communication-graph/id/unclear-ownership> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/meeting-recaps> .
+  <https://github.com/john1hsu/communication-graph/id/unconditional-positive-regard> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/carl-rogers> .
   <https://github.com/john1hsu/communication-graph/id/unequal-participation/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/unequal-participation/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/unequal-participation/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -39799,6 +39891,7 @@
   <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
   <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/listening> .
   <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
+  <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/carl-rogers> .
   <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/thomas-gordon> .
   <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/active-listening> .
   <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/paraphrasing> .

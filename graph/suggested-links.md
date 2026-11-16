@@ -26,6 +26,6 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 3.16 | `cm:conflict-resolution` | `cm:defensiveness` | `cm:accusatory-you-statements`, `cm:conversational-receptiveness`, `cm:de-escalation`, `cm:desc-script`, `cm:difficult-conversation` |
 | 3.14 | `cm:executive-briefing` | `cm:plain-language` | `cm:audience-analysis`, `cm:bottom-line-up-front`, `cm:business-report`, `cm:executive-summary`, `cm:information-overload` |
 | 3.09 | `cm:egocentric-bias` | `cm:email` | `cm:checking-understanding`, `cm:curse-of-knowledge`, `cm:digital-communication`, `cm:email-urgency-bias-study`, `cm:emoji-and-tone-in-text` |
-| 3.08 | `cm:performance-review` | `cm:praise-and-recognition` | `cm:feedback`, `cm:feedback-intervention-theory`, `cm:feedback-sandwich`, `cm:feedforward`, `cm:hattie-timperley-feedback-model` |
 | 3.08 | `cm:active-listening` | `cm:checking-understanding` | `cm:common-ground`, `cm:note-taking-while-listening`, `cm:open-ended-questions`, `cm:paraphrasing`, `cm:perception-checking` |
+| 3.07 | `cm:performance-review` | `cm:praise-and-recognition` | `cm:feedback`, `cm:feedback-intervention-theory`, `cm:feedback-sandwich`, `cm:feedforward`, `cm:hattie-timperley-feedback-model` |
 | 3.06 | `cm:bottom-line-up-front` | `cm:curse-of-knowledge` | `cm:assertion-evidence-slides`, `cm:audience-analysis`, `cm:channel-selection`, `cm:clarity`, `cm:cognitive-load` |

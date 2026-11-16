@@ -2592,6 +2592,93 @@
    ]
   },
   {
+   "@id": "cm:carl-rogers",
+   "@type": "cmo:Person",
+   "cmo:authored": [
+    {
+     "@id": "cm:barriers-and-gateways-to-communication"
+    },
+    {
+     "@id": "cm:on-becoming-a-person"
+    }
+   ],
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "historical",
+   "cmo:file": "articles/thinkers-and-works/carl-rogers.md",
+   "cmo:introduced": [
+    {
+     "@id": "cm:active-listening"
+    },
+    {
+     "@id": "cm:empathy"
+    },
+    {
+     "@id": "cm:unconditional-positive-regard"
+    }
+   ],
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/carl-rogers/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/carl-rogers/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/carl-rogers/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/carl-rogers/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/carl-rogers/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/carl-rogers/s6"
+    }
+   ],
+   "rdfs:label": "Carl Rogers",
+   "skos:altLabel": [
+    "Carl R. Rogers",
+    "Carl Ransom Rogers"
+   ],
+   "skos:definition": "American psychologist (1902-1987) who founded client-centred (nondirective) therapy and made empathic understanding, unconditional positive regard and genuineness the core of a helping relationship; with Richard Farson he carried this listening stance into management as \"active listening\".",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "Carl Rogers",
+   "skos:related": [
+    {
+     "@id": "cm:defensiveness"
+    },
+    {
+     "@id": "cm:elliott-et-al-2018"
+    },
+    {
+     "@id": "cm:listening-circle"
+    },
+    {
+     "@id": "cm:one-on-one-meetings"
+    },
+    {
+     "@id": "cm:paraphrasing"
+    },
+    {
+     "@id": "cm:reflective-listening"
+    },
+    {
+     "@id": "cm:thomas-gordon"
+    },
+    {
+     "@id": "cm:weger-et-al-2014"
+    }
+   ]
+  },
+  {
    "@id": "cm:change-communication",
    "@type": "cmo:Context",
    "cmo:demonstratedBy": [
@@ -44087,6 +44174,90 @@
    "dcterms:title": "The Demise of Trust: Trustworthiness, the Internet, and Self-Deception",
    "schema:url": {
     "@id": "https://sydneysymposium.unsw.edu.au/2025/chapters/CranoSSSP2025.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/carl-rogers/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Encyclopaedia Britannica",
+   "dcterms:title": "Carl Rogers",
+   "schema:url": {
+    "@id": "https://www.britannica.com:443/biography/Carl-Rogers"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/carl-rogers/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Carl R. Rogers, The Counseling Psychologist 5(2), 1975 (copy hosted by ISPA - Instituto Universitário, Lisbon)",
+   "dcterms:title": "Empathic: An Unappreciated Way of Being",
+   "schema:url": {
+    "@id": "https://clinica.ispa.pt/sites/default/files/83._carl_rogers_empathic.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/carl-rogers/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Carl R. Rogers and Richard E. Farson, Industrial Relations Center, University of Chicago, 1957 (excerpt, Gordon Training International)",
+   "dcterms:title": "Active Listening",
+   "schema:url": {
+    "@id": "https://www.gordontraining.com/free-workplace-articles/active-listening/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/carl-rogers/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Carl R. Rogers, Center for Studies of the Person",
+   "dcterms:title": "Barriers and Gateways to Communication (opening excerpt)",
+   "schema:url": {
+    "@id": "https://centerfortheperson.org/?p=1667"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/carl-rogers/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Elliott, Bohart, Watson and Murphy, Psychotherapy 55(4), 399-410, 2018 (University of Strathclyde repository record)",
+   "dcterms:title": "Therapist empathy and client outcome: an updated meta-analysis",
+   "schema:url": {
+    "@id": "https://strathprints.strath.ac.uk/id/eprint/66200"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/carl-rogers/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "PSY321 Theories of Personality, The American Women's College, Bay Path University (open textbook, CC BY 4.0, adapted from Kelland, Personality Theory)",
+   "dcterms:title": "Chapter 22: Rogers: Humanistic Psychology",
+   "schema:url": {
+    "@id": "https://open.baypath.edu/psy321book/chapter/c22p3/"
    }
   },
   {
