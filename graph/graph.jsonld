@@ -23348,6 +23348,89 @@
    ]
   },
   {
+   "@id": "cm:self-disclosure",
+   "@type": "cmo:Concept",
+   "cmo:contrastsWith": {
+    "@id": "cm:impression-management"
+   },
+   "cmo:demonstratedBy": {
+    "@id": "cm:tamir-mitchell-2012"
+   },
+   "cmo:domain": "questioning-and-conversation",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:explainedBy": {
+    "@id": "cm:social-penetration-theory"
+   },
+   "cmo:file": "articles/questioning-and-conversation/self-disclosure.md",
+   "cmo:level": "introductory",
+   "cmo:supportedBy": [
+    {
+     "@id": "cm:collins-miller-1994"
+    },
+    {
+     "@id": "cm:jiang-et-al-2022"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/self-disclosure/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/self-disclosure/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/self-disclosure/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/self-disclosure/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/self-disclosure/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/self-disclosure/s6"
+    }
+   ],
+   "rdfs:label": "Self-disclosure",
+   "skos:altLabel": [
+    "disclosing personal information",
+    "personal disclosure",
+    "sharing about yourself"
+   ],
+   "skos:broader": {
+    "@id": "cm:interpersonal-communication"
+   },
+   "skos:definition": "Deliberately revealing information about yourself - facts, opinions, feelings, experiences or weaknesses - that the other person would not otherwise know, and judging what, how much and when to share at work so that it builds trust rather than costing credibility.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/questioning-and-conversation"
+   },
+   "skos:prefLabel": "Self-disclosure",
+   "skos:related": [
+    {
+     "@id": "cm:conversational-narcissism"
+    },
+    {
+     "@id": "cm:johari-window"
+    },
+    {
+     "@id": "cm:psychological-safety"
+    },
+    {
+     "@id": "cm:rapport"
+    },
+    {
+     "@id": "cm:small-talk"
+    },
+    {
+     "@id": "cm:trusted-advisor"
+    }
+   ]
+  },
+  {
    "@id": "cm:self-distancing",
    "@type": "cmo:Technique",
    "cmo:addresses": [
@@ -60565,6 +60648,90 @@
    "dcterms:title": "The Impact of Self-Affirmation on Health-Behavior Change: a Meta-Analysis (conference abstract)",
    "schema:url": {
     "@id": "https://www.ehps.net/ehp/index.php/contents/article/view/271"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/self-disclosure/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Collins & Miller, Psychological Bulletin 116(3), 457-475 (1994) (PubMed record)",
+   "dcterms:title": "Self-disclosure and liking: a meta-analytic review",
+   "schema:url": {
+    "@id": "https://pubmed.ncbi.nlm.nih.gov/7809308/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/self-disclosure/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Tamir & Mitchell, Proceedings of the National Academy of Sciences 109(21), 8038-8043 (2012), doi:10.1073/pnas.1202129109 (Princeton University research record)",
+   "dcterms:title": "Disclosing information about the self is intrinsically rewarding",
+   "schema:url": {
+    "@id": "https://collaborate.princeton.edu/en/publications/disclosing-information-about-the-self-is-intrinsically-rewarding/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/self-disclosure/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Encyclopedia of Communication Theory, ed. Littlejohn & Foss (SAGE, 2009)",
+   "dcterms:title": "Social Penetration Theory",
+   "schema:url": {
+    "@id": "https://sk.sagepub.com/ency/edvol/embed/communicationtheory/chpt/social-penetration-theory"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/self-disclosure/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Lumen Learning, Introduction to Communication",
+   "dcterms:title": "Self Disclosure (from Survey of Communication Study, Paynton & Hahn, Humboldt State University, CC BY-SA)",
+   "schema:url": {
+    "@id": "https://courses.lumenlearning.com/zelicst110/chapter/self-disclosure-2/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/self-disclosure/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Jiang, John, Boghrati & Kouchaki, Journal of Experimental Psychology Applied 28(4), 898-915 (2022) (author copy, Harvard DASH)",
+   "dcterms:title": "Fostering perceptions of authenticity via sensitive self-disclosure",
+   "schema:url": {
+    "@id": "https://dash.harvard.edu/server/api/core/bitstreams/c4dc4408-2b76-4927-9364-6e9fcec80307/content"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/self-disclosure/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "practitioner-journal",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Rosh & Offermann, Harvard Business Review (October 2013) (reprint copy hosted by The Enterprisers Project)",
+   "dcterms:title": "Be Yourself, but Carefully: How to be authentic without oversharing",
+   "schema:url": {
+    "@id": "https://enterprisersproject.com/sites/default/files/Be%20Yourself%2C%20But%20Carefully.pdf"
    }
   },
   {

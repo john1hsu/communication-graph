@@ -13523,6 +13523,37 @@
 <https://github.com/john1hsu/communication-graph/id/self-affirmation-before-feedback> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/communication-graph/id/self-affirmation-before-feedback> <https://github.com/john1hsu/communication-graph/ontology#studiedIn> <https://github.com/john1hsu/communication-graph/id/social-psychology> .
 <https://github.com/john1hsu/communication-graph/id/self-affirmation-before-feedback> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/epton-et-al-2015> .
+<https://github.com/john1hsu/communication-graph/id/self-disclosure> <http://purl.org/dc/terms/created> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/self-disclosure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+<https://github.com/john1hsu/communication-graph/id/self-disclosure> <http://www.w3.org/2000/01/rdf-schema#label> "Self-disclosure" .
+<https://github.com/john1hsu/communication-graph/id/self-disclosure> <http://www.w3.org/2004/02/skos/core#altLabel> "disclosing personal information" .
+<https://github.com/john1hsu/communication-graph/id/self-disclosure> <http://www.w3.org/2004/02/skos/core#altLabel> "personal disclosure" .
+<https://github.com/john1hsu/communication-graph/id/self-disclosure> <http://www.w3.org/2004/02/skos/core#altLabel> "sharing about yourself" .
+<https://github.com/john1hsu/communication-graph/id/self-disclosure> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
+<https://github.com/john1hsu/communication-graph/id/self-disclosure> <http://www.w3.org/2004/02/skos/core#definition> "Deliberately revealing information about yourself - facts, opinions, feelings, experiences or weaknesses - that the other person would not otherwise know, and judging what, how much and when to share at work so that it builds trust rather than costing credibility." .
+<https://github.com/john1hsu/communication-graph/id/self-disclosure> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/questioning-and-conversation> .
+<https://github.com/john1hsu/communication-graph/id/self-disclosure> <http://www.w3.org/2004/02/skos/core#prefLabel> "Self-disclosure" .
+<https://github.com/john1hsu/communication-graph/id/self-disclosure> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/conversational-narcissism> .
+<https://github.com/john1hsu/communication-graph/id/self-disclosure> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/johari-window> .
+<https://github.com/john1hsu/communication-graph/id/self-disclosure> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
+<https://github.com/john1hsu/communication-graph/id/self-disclosure> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/rapport> .
+<https://github.com/john1hsu/communication-graph/id/self-disclosure> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/small-talk> .
+<https://github.com/john1hsu/communication-graph/id/self-disclosure> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/trusted-advisor> .
+<https://github.com/john1hsu/communication-graph/id/self-disclosure> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/self-disclosure/s1> .
+<https://github.com/john1hsu/communication-graph/id/self-disclosure> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/self-disclosure/s2> .
+<https://github.com/john1hsu/communication-graph/id/self-disclosure> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/self-disclosure/s3> .
+<https://github.com/john1hsu/communication-graph/id/self-disclosure> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/self-disclosure/s4> .
+<https://github.com/john1hsu/communication-graph/id/self-disclosure> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/self-disclosure/s5> .
+<https://github.com/john1hsu/communication-graph/id/self-disclosure> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/self-disclosure/s6> .
+<https://github.com/john1hsu/communication-graph/id/self-disclosure> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/impression-management> .
+<https://github.com/john1hsu/communication-graph/id/self-disclosure> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/tamir-mitchell-2012> .
+<https://github.com/john1hsu/communication-graph/id/self-disclosure> <https://github.com/john1hsu/communication-graph/ontology#domain> "questioning-and-conversation" .
+<https://github.com/john1hsu/communication-graph/id/self-disclosure> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/self-disclosure> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/social-penetration-theory> .
+<https://github.com/john1hsu/communication-graph/id/self-disclosure> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/questioning-and-conversation/self-disclosure.md" .
+<https://github.com/john1hsu/communication-graph/id/self-disclosure> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/self-disclosure> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/collins-miller-1994> .
+<https://github.com/john1hsu/communication-graph/id/self-disclosure> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/jiang-et-al-2022> .
 <https://github.com/john1hsu/communication-graph/id/self-distancing/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/self-distancing/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "If I described this moment to myself by name, what would I tell me to do next?" .
 <https://github.com/john1hsu/communication-graph/id/self-distancing/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/self-distancing> .
@@ -23072,6 +23103,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/self-affirmation-before-feedback/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/self-affirmation-before-feedback/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/communication-graph/id/source/self-affirmation-before-feedback/s6> <https://schema.org/url> <https://www.ehps.net/ehp/index.php/contents/article/view/271> .
+<https://github.com/john1hsu/communication-graph/id/source/self-disclosure/s1> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/self-disclosure/s1> <http://purl.org/dc/terms/publisher> "Collins & Miller, Psychological Bulletin 116(3), 457-475 (1994) (PubMed record)" .
+<https://github.com/john1hsu/communication-graph/id/source/self-disclosure/s1> <http://purl.org/dc/terms/title> "Self-disclosure and liking: a meta-analytic review" .
+<https://github.com/john1hsu/communication-graph/id/source/self-disclosure/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/self-disclosure/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/self-disclosure/s1> <https://schema.org/url> <https://pubmed.ncbi.nlm.nih.gov/7809308/> .
+<https://github.com/john1hsu/communication-graph/id/source/self-disclosure/s2> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/self-disclosure/s2> <http://purl.org/dc/terms/publisher> "Tamir & Mitchell, Proceedings of the National Academy of Sciences 109(21), 8038-8043 (2012), doi:10.1073/pnas.1202129109 (Princeton University research record)" .
+<https://github.com/john1hsu/communication-graph/id/source/self-disclosure/s2> <http://purl.org/dc/terms/title> "Disclosing information about the self is intrinsically rewarding" .
+<https://github.com/john1hsu/communication-graph/id/source/self-disclosure/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/self-disclosure/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/self-disclosure/s2> <https://schema.org/url> <https://collaborate.princeton.edu/en/publications/disclosing-information-about-the-self-is-intrinsically-rewarding/> .
+<https://github.com/john1hsu/communication-graph/id/source/self-disclosure/s3> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/self-disclosure/s3> <http://purl.org/dc/terms/publisher> "Encyclopedia of Communication Theory, ed. Littlejohn & Foss (SAGE, 2009)" .
+<https://github.com/john1hsu/communication-graph/id/source/self-disclosure/s3> <http://purl.org/dc/terms/title> "Social Penetration Theory" .
+<https://github.com/john1hsu/communication-graph/id/source/self-disclosure/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/self-disclosure/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/communication-graph/id/source/self-disclosure/s3> <https://schema.org/url> <https://sk.sagepub.com/ency/edvol/embed/communicationtheory/chpt/social-penetration-theory> .
+<https://github.com/john1hsu/communication-graph/id/source/self-disclosure/s4> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/self-disclosure/s4> <http://purl.org/dc/terms/publisher> "Lumen Learning, Introduction to Communication" .
+<https://github.com/john1hsu/communication-graph/id/source/self-disclosure/s4> <http://purl.org/dc/terms/title> "Self Disclosure (from Survey of Communication Study, Paynton & Hahn, Humboldt State University, CC BY-SA)" .
+<https://github.com/john1hsu/communication-graph/id/source/self-disclosure/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/self-disclosure/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/communication-graph/id/source/self-disclosure/s4> <https://schema.org/url> <https://courses.lumenlearning.com/zelicst110/chapter/self-disclosure-2/> .
+<https://github.com/john1hsu/communication-graph/id/source/self-disclosure/s5> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/self-disclosure/s5> <http://purl.org/dc/terms/publisher> "Jiang, John, Boghrati & Kouchaki, Journal of Experimental Psychology Applied 28(4), 898-915 (2022) (author copy, Harvard DASH)" .
+<https://github.com/john1hsu/communication-graph/id/source/self-disclosure/s5> <http://purl.org/dc/terms/title> "Fostering perceptions of authenticity via sensitive self-disclosure" .
+<https://github.com/john1hsu/communication-graph/id/source/self-disclosure/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/self-disclosure/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/self-disclosure/s5> <https://schema.org/url> <https://dash.harvard.edu/server/api/core/bitstreams/c4dc4408-2b76-4927-9364-6e9fcec80307/content> .
+<https://github.com/john1hsu/communication-graph/id/source/self-disclosure/s6> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/self-disclosure/s6> <http://purl.org/dc/terms/publisher> "Rosh & Offermann, Harvard Business Review (October 2013) (reprint copy hosted by The Enterprisers Project)" .
+<https://github.com/john1hsu/communication-graph/id/source/self-disclosure/s6> <http://purl.org/dc/terms/title> "Be Yourself, but Carefully: How to be authentic without oversharing" .
+<https://github.com/john1hsu/communication-graph/id/source/self-disclosure/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/self-disclosure/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "practitioner-journal" .
+<https://github.com/john1hsu/communication-graph/id/source/self-disclosure/s6> <https://schema.org/url> <https://enterprisersproject.com/sites/default/files/Be%20Yourself%2C%20But%20Carefully.pdf> .
 <https://github.com/john1hsu/communication-graph/id/source/self-distancing/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/self-distancing/s1> <http://purl.org/dc/terms/publisher> "Kross et al., Journal of Personality and Social Psychology 106(2), 304-324, 2014 (PubMed record)" .
 <https://github.com/john1hsu/communication-graph/id/source/self-distancing/s1> <http://purl.org/dc/terms/title> "Self-talk as a regulatory mechanism: How you do it matters" .
