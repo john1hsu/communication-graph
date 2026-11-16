@@ -12770,6 +12770,119 @@
   ]
  },
  {
+  "id": "cm:handshake",
+  "title": "Handshake",
+  "aliases": [
+   "handshaking",
+   "shaking hands",
+   "firm handshake"
+  ],
+  "type": "Technique",
+  "domain": "nonverbal-and-voice",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/nonverbal-and-voice/handshake.md",
+  "created": "2026-11-16",
+  "summary": "Greeting someone by clasping right hands and shaking briefly; a short touch ritual that feeds first impressions in interviews, client meetings and negotiations, done well when it is full-palm, moderately firm and paired with eye contact, and replaced gracefully when the other person prefers another greeting.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:nonverbal-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:eye-contact"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:proxemics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:rapport"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:gestures"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:job-interview"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:negotiation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:high-and-low-context-cultures"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:stewart-et-al-2008",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:chaplin-et-al-2000",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:schroeder-et-al-2019",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:job-interview",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:negotiation",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:eye-contact",
+    "source": "s3",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Did I let the other person signal how they wanted to greet before I pushed my hand forward?",
+   "Was my grip full-palm and matched to theirs, rather than limp or crushing?",
+   "Was I looking at them and saying something while we shook, or looking past them?",
+   "If someone did not shake hands, did I move on smoothly without remarking on it or holding it against them?"
+  ],
+  "steps": [
+   "Watch the other person's hands and posture as you approach, and let them show whether they are offering a hand, a nod or a wave.",
+   "If a handshake is on offer, extend your right hand with the thumb up and slide in until the web between thumb and forefinger meets theirs, so palms make full contact.",
+   "Grip with about the same firmness they use, enough to feel solid but never enough to squeeze, and give two or three short shakes.",
+   "Look at their face, smile and say your name or a short greeting while you shake, then release and step back to a comfortable distance.",
+   "If they decline or hesitate, switch at once to a nod, a small wave or a hand on your chest, say something warm, and carry on without comment."
+  ],
+  "example": {
+   "situation": "A project manager meets a prospective client's procurement lead in a hotel lobby before a contract discussion.",
+   "before": "The manager, focused on finding a seat, offers a quick fingertip grip while looking at the room, mumbles 'hi', then sits straight down; when the next attendee keeps her hands by her side, he jokes 'Oh, not a hand-shaker?'",
+   "after": "The manager stops, faces the procurement lead, offers a full-palm grip matched to hers with two short shakes, looks at her and says 'Hi Morgan, I'm Sam, thanks for making the time.' When the next attendee keeps her hands at her side, he nods, smiles and says 'Great to meet you,' and moves on.",
+   "why": "A full, matched grip with eye contact and a spoken greeting is what observers in the research rated as a good handshake, and treating a declined handshake as normal keeps the opening cooperative instead of awkward."
+  },
+  "source_urls": [
+   "https://iro.uiowa.edu/esploro/outputs/journalArticle/Exploring-the-handshake-in-employment-interviews/9984380502302771",
+   "https://pubmed.ncbi.nlm.nih.gov/10909881/",
+   "https://www.apa.org/news/press/releases/2000/07/hand-shake",
+   "https://www.library.hbs.edu/working-knowledge/shaky-business-how-handshakes-win-negotiations",
+   "https://manycoauthors.org/gino/31",
+   "https://www.shrm.org/ResourcesAndTools/hr-topics/employee-relations/Pages/coronavirus-Handshake-Alternatives.aspx"
+  ]
+ },
+ {
   "id": "cm:hattie-timperley-feedback-model",
   "title": "Hattie and Timperley's feedback model",
   "aliases": [

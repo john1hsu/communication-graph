@@ -11210,6 +11210,103 @@
    ]
   },
   {
+   "@id": "cm:handshake",
+   "@type": "cmo:Technique",
+   "cmo:appliedIn": [
+    {
+     "@id": "cm:job-interview"
+    },
+    {
+     "@id": "cm:negotiation"
+    }
+   ],
+   "cmo:complements": {
+    "@id": "cm:eye-contact"
+   },
+   "cmo:demonstratedBy": [
+    {
+     "@id": "cm:chaplin-et-al-2000"
+    },
+    {
+     "@id": "cm:schroeder-et-al-2019"
+    },
+    {
+     "@id": "cm:stewart-et-al-2008"
+    }
+   ],
+   "cmo:domain": "nonverbal-and-voice",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/handshake/example"
+   },
+   "cmo:file": "articles/nonverbal-and-voice/handshake.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/handshake/howto"
+   },
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/handshake/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/handshake/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/handshake/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/handshake/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/handshake/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/handshake/s6"
+    }
+   ],
+   "rdfs:label": "Handshake",
+   "skos:altLabel": [
+    "firm handshake",
+    "handshaking",
+    "shaking hands"
+   ],
+   "skos:broader": {
+    "@id": "cm:nonverbal-communication"
+   },
+   "skos:definition": "Greeting someone by clasping right hands and shaking briefly; a short touch ritual that feeds first impressions in interviews, client meetings and negotiations, done well when it is full-palm, moderately firm and paired with eye contact, and replaced gracefully when the other person prefers another greeting.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/nonverbal-and-voice"
+   },
+   "skos:prefLabel": "Handshake",
+   "skos:related": [
+    {
+     "@id": "cm:eye-contact"
+    },
+    {
+     "@id": "cm:gestures"
+    },
+    {
+     "@id": "cm:high-and-low-context-cultures"
+    },
+    {
+     "@id": "cm:job-interview"
+    },
+    {
+     "@id": "cm:negotiation"
+    },
+    {
+     "@id": "cm:proxemics"
+    },
+    {
+     "@id": "cm:rapport"
+    }
+   ]
+  },
+  {
    "@id": "cm:hattie-timperley-feedback-model",
    "@type": "cmo:Framework",
    "cmo:appliedIn": {
@@ -33283,6 +33380,98 @@
    "schema:text": "Spread the questions around the room rather than taking hands in order, and close the session with a one-sentence restatement of your key message."
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/handshake/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:handshake"
+   },
+   "rdfs:label": "Did I let the other person signal how they wanted to greet before I pushed my hand forward?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/handshake/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:handshake"
+   },
+   "rdfs:label": "Was my grip full-palm and matched to theirs, rather than limp or crushing?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/handshake/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:handshake"
+   },
+   "rdfs:label": "Was I looking at them and saying something while we shook, or looking past them?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/handshake/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:handshake"
+   },
+   "rdfs:label": "If someone did not shake hands, did I move on smoothly without remarking on it or holding it against them?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/handshake/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "The manager stops, faces the procurement lead, offers a full-palm grip matched to hers with two short shakes, looks at her and says 'Hi Morgan, I'm Sam, thanks for making the time.' When the next attendee keeps her hands at her side, he nods, smiles and says 'Great to meet you,' and moves on.",
+   "cmo:before": "The manager, focused on finding a seat, offers a quick fingertip grip while looking at the room, mumbles 'hi', then sits straight down; when the next attendee keeps her hands by her side, he jokes 'Oh, not a hand-shaker?'",
+   "cmo:situation": "A project manager meets a prospective client's procurement lead in a hotel lobby before a contract discussion.",
+   "cmo:why": "A full, matched grip with eye contact and a spoken greeting is what observers in the research rated as a good handshake, and treating a declined handshake as normal keeps the opening cooperative instead of awkward."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/handshake/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Handshake",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/handshake/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/handshake/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/handshake/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/handshake/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/handshake/howto/5"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/handshake/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Watch the other person's hands and posture as you approach, and let them show whether they are offering a hand, a nod or a wave."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/handshake/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "If a handshake is on offer, extend your right hand with the thumb up and slide in until the web between thumb and forefinger meets theirs, so palms make full contact."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/handshake/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Grip with about the same firmness they use, enough to feel solid but never enough to squeeze, and give two or three short shakes."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/handshake/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Look at their face, smile and say your name or a short greeting while you shake, then release and step back to a comfortable distance."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/handshake/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "If they decline or hesitate, switch at once to a nod, a small wave or a hand on your chest, say something warm, and carry on without comment."
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -49475,6 +49664,90 @@
    "dcterms:title": "The economic and interpersonal consequences of deflecting direct questions",
    "schema:url": {
     "@id": "https://pubmed.ncbi.nlm.nih.gov/31318228/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/handshake/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Greg L. Stewart, Susan L. Dustin, Murray R. Barrick & Todd C. Darnold, Journal of Applied Psychology 93(5), 2008, pp. 1139-1146 (University of Iowa research repository)",
+   "dcterms:title": "Exploring the handshake in employment interviews",
+   "schema:url": {
+    "@id": "https://iro.uiowa.edu/esploro/outputs/journalArticle/Exploring-the-handshake-in-employment-interviews/9984380502302771"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/handshake/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Journal of Personality and Social Psychology 79(1), 2000, pp. 110-117 (PubMed abstract)",
+   "dcterms:title": "Handshaking, gender, personality, and first impressions",
+   "schema:url": {
+    "@id": "https://pubmed.ncbi.nlm.nih.gov/10909881/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/handshake/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "American Psychological Association press release on Chaplin, Phillips, Brown, Clanton & Stein (2000), 9 July 2000",
+   "dcterms:title": "Your Handshake May Provide More Information to Others Than You Think",
+   "schema:url": {
+    "@id": "https://www.apa.org/news/press/releases/2000/07/hand-shake"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/handshake/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Michael Blanding, Harvard Business School Working Knowledge, 15 October 2018, on Schroeder, Risen, Gino & Norton, Journal of Personality and Social Psychology",
+   "dcterms:title": "Shaky Business: How Handshakes Win Negotiations",
+   "schema:url": {
+    "@id": "https://www.library.hbs.edu/working-knowledge/shaky-business-how-handshakes-win-negotiations"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/handshake/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "community",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Many Co-Authors project, statement by Juliana Schroeder and co-authors (updated March 2024)",
+   "dcterms:title": "Handshaking promotes deal-making by signaling cooperative intent: data provenance and co-author statement",
+   "schema:url": {
+    "@id": "https://manycoauthors.org/gino/31"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/handshake/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "John Egan, Society for Human Resource Management (SHRM), 27 April 2020",
+   "dcterms:title": "Coronavirus: Alternatives to Handshakes",
+   "schema:url": {
+    "@id": "https://www.shrm.org/ResourcesAndTools/hr-topics/employee-relations/Pages/coronavirus-Handshake-Alternatives.aspx"
    }
   },
   {

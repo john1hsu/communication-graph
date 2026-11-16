@@ -6574,6 +6574,80 @@
 <https://github.com/john1hsu/communication-graph/id/handling-questions> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/communication-graph/id/handling-questions> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/active-listening> .
 <https://github.com/john1hsu/communication-graph/id/handling-questions> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/rogers-norton-2011> .
+<https://github.com/john1hsu/communication-graph/id/handshake/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/handshake/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Did I let the other person signal how they wanted to greet before I pushed my hand forward?" .
+<https://github.com/john1hsu/communication-graph/id/handshake/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/handshake> .
+<https://github.com/john1hsu/communication-graph/id/handshake/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/handshake/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Was my grip full-palm and matched to theirs, rather than limp or crushing?" .
+<https://github.com/john1hsu/communication-graph/id/handshake/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/handshake> .
+<https://github.com/john1hsu/communication-graph/id/handshake/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/handshake/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Was I looking at them and saying something while we shook, or looking past them?" .
+<https://github.com/john1hsu/communication-graph/id/handshake/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/handshake> .
+<https://github.com/john1hsu/communication-graph/id/handshake/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/handshake/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "If someone did not shake hands, did I move on smoothly without remarking on it or holding it against them?" .
+<https://github.com/john1hsu/communication-graph/id/handshake/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/handshake> .
+<https://github.com/john1hsu/communication-graph/id/handshake/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+<https://github.com/john1hsu/communication-graph/id/handshake/example> <https://github.com/john1hsu/communication-graph/ontology#after> "The manager stops, faces the procurement lead, offers a full-palm grip matched to hers with two short shakes, looks at her and says 'Hi Morgan, I'm Sam, thanks for making the time.' When the next attendee keeps her hands at her side, he nods, smiles and says 'Great to meet you,' and moves on." .
+<https://github.com/john1hsu/communication-graph/id/handshake/example> <https://github.com/john1hsu/communication-graph/ontology#before> "The manager, focused on finding a seat, offers a quick fingertip grip while looking at the room, mumbles 'hi', then sits straight down; when the next attendee keeps her hands by her side, he jokes 'Oh, not a hand-shaker?'" .
+<https://github.com/john1hsu/communication-graph/id/handshake/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "A project manager meets a prospective client's procurement lead in a hotel lobby before a contract discussion." .
+<https://github.com/john1hsu/communication-graph/id/handshake/example> <https://github.com/john1hsu/communication-graph/ontology#why> "A full, matched grip with eye contact and a spoken greeting is what observers in the research rated as a good handshake, and treating a declined handshake as normal keeps the opening cooperative instead of awkward." .
+<https://github.com/john1hsu/communication-graph/id/handshake/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/handshake/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/handshake/howto/1> <https://schema.org/text> "Watch the other person's hands and posture as you approach, and let them show whether they are offering a hand, a nod or a wave." .
+<https://github.com/john1hsu/communication-graph/id/handshake/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/handshake/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/handshake/howto/2> <https://schema.org/text> "If a handshake is on offer, extend your right hand with the thumb up and slide in until the web between thumb and forefinger meets theirs, so palms make full contact." .
+<https://github.com/john1hsu/communication-graph/id/handshake/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/handshake/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/handshake/howto/3> <https://schema.org/text> "Grip with about the same firmness they use, enough to feel solid but never enough to squeeze, and give two or three short shakes." .
+<https://github.com/john1hsu/communication-graph/id/handshake/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/handshake/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/handshake/howto/4> <https://schema.org/text> "Look at their face, smile and say your name or a short greeting while you shake, then release and step back to a comfortable distance." .
+<https://github.com/john1hsu/communication-graph/id/handshake/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/handshake/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/handshake/howto/5> <https://schema.org/text> "If they decline or hesitate, switch at once to a nod, a small wave or a hand on your chest, say something warm, and carry on without comment." .
+<https://github.com/john1hsu/communication-graph/id/handshake/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+<https://github.com/john1hsu/communication-graph/id/handshake/howto> <https://schema.org/name> "Handshake" .
+<https://github.com/john1hsu/communication-graph/id/handshake/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/handshake/howto/1> .
+<https://github.com/john1hsu/communication-graph/id/handshake/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/handshake/howto/2> .
+<https://github.com/john1hsu/communication-graph/id/handshake/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/handshake/howto/3> .
+<https://github.com/john1hsu/communication-graph/id/handshake/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/handshake/howto/4> .
+<https://github.com/john1hsu/communication-graph/id/handshake/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/handshake/howto/5> .
+<https://github.com/john1hsu/communication-graph/id/handshake> <http://purl.org/dc/terms/created> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/handshake> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Technique> .
+<https://github.com/john1hsu/communication-graph/id/handshake> <http://www.w3.org/2000/01/rdf-schema#label> "Handshake" .
+<https://github.com/john1hsu/communication-graph/id/handshake> <http://www.w3.org/2004/02/skos/core#altLabel> "firm handshake" .
+<https://github.com/john1hsu/communication-graph/id/handshake> <http://www.w3.org/2004/02/skos/core#altLabel> "handshaking" .
+<https://github.com/john1hsu/communication-graph/id/handshake> <http://www.w3.org/2004/02/skos/core#altLabel> "shaking hands" .
+<https://github.com/john1hsu/communication-graph/id/handshake> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> .
+<https://github.com/john1hsu/communication-graph/id/handshake> <http://www.w3.org/2004/02/skos/core#definition> "Greeting someone by clasping right hands and shaking briefly; a short touch ritual that feeds first impressions in interviews, client meetings and negotiations, done well when it is full-palm, moderately firm and paired with eye contact, and replaced gracefully when the other person prefers another greeting." .
+<https://github.com/john1hsu/communication-graph/id/handshake> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/nonverbal-and-voice> .
+<https://github.com/john1hsu/communication-graph/id/handshake> <http://www.w3.org/2004/02/skos/core#prefLabel> "Handshake" .
+<https://github.com/john1hsu/communication-graph/id/handshake> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/eye-contact> .
+<https://github.com/john1hsu/communication-graph/id/handshake> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/gestures> .
+<https://github.com/john1hsu/communication-graph/id/handshake> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> .
+<https://github.com/john1hsu/communication-graph/id/handshake> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/job-interview> .
+<https://github.com/john1hsu/communication-graph/id/handshake> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/negotiation> .
+<https://github.com/john1hsu/communication-graph/id/handshake> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/proxemics> .
+<https://github.com/john1hsu/communication-graph/id/handshake> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/rapport> .
+<https://github.com/john1hsu/communication-graph/id/handshake> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/handshake/s1> .
+<https://github.com/john1hsu/communication-graph/id/handshake> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/handshake/s2> .
+<https://github.com/john1hsu/communication-graph/id/handshake> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/handshake/s3> .
+<https://github.com/john1hsu/communication-graph/id/handshake> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/handshake/s4> .
+<https://github.com/john1hsu/communication-graph/id/handshake> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/handshake/s5> .
+<https://github.com/john1hsu/communication-graph/id/handshake> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/handshake/s6> .
+<https://github.com/john1hsu/communication-graph/id/handshake> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/job-interview> .
+<https://github.com/john1hsu/communication-graph/id/handshake> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/negotiation> .
+<https://github.com/john1hsu/communication-graph/id/handshake> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/eye-contact> .
+<https://github.com/john1hsu/communication-graph/id/handshake> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/chaplin-et-al-2000> .
+<https://github.com/john1hsu/communication-graph/id/handshake> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/schroeder-et-al-2019> .
+<https://github.com/john1hsu/communication-graph/id/handshake> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/stewart-et-al-2008> .
+<https://github.com/john1hsu/communication-graph/id/handshake> <https://github.com/john1hsu/communication-graph/ontology#domain> "nonverbal-and-voice" .
+<https://github.com/john1hsu/communication-graph/id/handshake> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/handshake> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/handshake/example> .
+<https://github.com/john1hsu/communication-graph/id/handshake> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/nonverbal-and-voice/handshake.md" .
+<https://github.com/john1hsu/communication-graph/id/handshake> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/handshake/howto> .
+<https://github.com/john1hsu/communication-graph/id/handshake> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Could the other person state the goal of this work in one sentence after my feedback?" .
 <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> .
@@ -18345,6 +18419,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/handling-questions/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/handling-questions/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/communication-graph/id/source/handling-questions/s5> <https://schema.org/url> <https://pubmed.ncbi.nlm.nih.gov/31318228/> .
+<https://github.com/john1hsu/communication-graph/id/source/handshake/s1> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/handshake/s1> <http://purl.org/dc/terms/publisher> "Greg L. Stewart, Susan L. Dustin, Murray R. Barrick & Todd C. Darnold, Journal of Applied Psychology 93(5), 2008, pp. 1139-1146 (University of Iowa research repository)" .
+<https://github.com/john1hsu/communication-graph/id/source/handshake/s1> <http://purl.org/dc/terms/title> "Exploring the handshake in employment interviews" .
+<https://github.com/john1hsu/communication-graph/id/source/handshake/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/handshake/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/handshake/s1> <https://schema.org/url> <https://iro.uiowa.edu/esploro/outputs/journalArticle/Exploring-the-handshake-in-employment-interviews/9984380502302771> .
+<https://github.com/john1hsu/communication-graph/id/source/handshake/s2> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/handshake/s2> <http://purl.org/dc/terms/publisher> "Journal of Personality and Social Psychology 79(1), 2000, pp. 110-117 (PubMed abstract)" .
+<https://github.com/john1hsu/communication-graph/id/source/handshake/s2> <http://purl.org/dc/terms/title> "Handshaking, gender, personality, and first impressions" .
+<https://github.com/john1hsu/communication-graph/id/source/handshake/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/handshake/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/handshake/s2> <https://schema.org/url> <https://pubmed.ncbi.nlm.nih.gov/10909881/> .
+<https://github.com/john1hsu/communication-graph/id/source/handshake/s3> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/handshake/s3> <http://purl.org/dc/terms/publisher> "American Psychological Association press release on Chaplin, Phillips, Brown, Clanton & Stein (2000), 9 July 2000" .
+<https://github.com/john1hsu/communication-graph/id/source/handshake/s3> <http://purl.org/dc/terms/title> "Your Handshake May Provide More Information to Others Than You Think" .
+<https://github.com/john1hsu/communication-graph/id/source/handshake/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/handshake/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/communication-graph/id/source/handshake/s3> <https://schema.org/url> <https://www.apa.org/news/press/releases/2000/07/hand-shake> .
+<https://github.com/john1hsu/communication-graph/id/source/handshake/s4> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/handshake/s4> <http://purl.org/dc/terms/publisher> "Michael Blanding, Harvard Business School Working Knowledge, 15 October 2018, on Schroeder, Risen, Gino & Norton, Journal of Personality and Social Psychology" .
+<https://github.com/john1hsu/communication-graph/id/source/handshake/s4> <http://purl.org/dc/terms/title> "Shaky Business: How Handshakes Win Negotiations" .
+<https://github.com/john1hsu/communication-graph/id/source/handshake/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/handshake/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/handshake/s4> <https://schema.org/url> <https://www.library.hbs.edu/working-knowledge/shaky-business-how-handshakes-win-negotiations> .
+<https://github.com/john1hsu/communication-graph/id/source/handshake/s5> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/handshake/s5> <http://purl.org/dc/terms/publisher> "Many Co-Authors project, statement by Juliana Schroeder and co-authors (updated March 2024)" .
+<https://github.com/john1hsu/communication-graph/id/source/handshake/s5> <http://purl.org/dc/terms/title> "Handshaking promotes deal-making by signaling cooperative intent: data provenance and co-author statement" .
+<https://github.com/john1hsu/communication-graph/id/source/handshake/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/handshake/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "community" .
+<https://github.com/john1hsu/communication-graph/id/source/handshake/s5> <https://schema.org/url> <https://manycoauthors.org/gino/31> .
+<https://github.com/john1hsu/communication-graph/id/source/handshake/s6> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/handshake/s6> <http://purl.org/dc/terms/publisher> "John Egan, Society for Human Resource Management (SHRM), 27 April 2020" .
+<https://github.com/john1hsu/communication-graph/id/source/handshake/s6> <http://purl.org/dc/terms/title> "Coronavirus: Alternatives to Handshakes" .
+<https://github.com/john1hsu/communication-graph/id/source/handshake/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/handshake/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/communication-graph/id/source/handshake/s6> <https://schema.org/url> <https://www.shrm.org/ResourcesAndTools/hr-topics/employee-relations/Pages/coronavirus-Handshake-Alternatives.aspx> .
 <https://github.com/john1hsu/communication-graph/id/source/hattie-timperley-feedback-model/s1> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/hattie-timperley-feedback-model/s1> <http://purl.org/dc/terms/publisher> "John Hattie & Helen Timperley, Review of Educational Research 77(1), 81-112 (2007), doi:10.3102/003465430298487 (course copy, University of Kentucky)" .
 <https://github.com/john1hsu/communication-graph/id/source/hattie-timperley-feedback-model/s1> <http://purl.org/dc/terms/title> "The Power of Feedback" .

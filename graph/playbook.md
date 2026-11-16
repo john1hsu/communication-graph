@@ -2193,6 +2193,28 @@ Ask yourself:
 - Did I use any hand sign whose meaning might differ for someone from another culture in the room?
 - Was I relying on gestures to carry a point that people on audio or reading the slides afterwards would miss?
 
+### [Handshake](../articles/nonverbal-and-voice/handshake.md) — Technique
+
+1. Watch the other person's hands and posture as you approach, and let them show whether they are offering a hand, a nod or a wave.
+2. If a handshake is on offer, extend your right hand with the thumb up and slide in until the web between thumb and forefinger meets theirs, so palms make full contact.
+3. Grip with about the same firmness they use, enough to feel solid but never enough to squeeze, and give two or three short shakes.
+4. Look at their face, smile and say your name or a short greeting while you shake, then release and step back to a comfortable distance.
+5. If they decline or hesitate, switch at once to a nod, a small wave or a hand on your chest, say something warm, and carry on without comment.
+
+*A project manager meets a prospective client's procurement lead in a hotel lobby before a contract discussion.*
+
+| Before | After |
+|---|---|
+| The manager, focused on finding a seat, offers a quick fingertip grip while looking at the room, mumbles 'hi', then sits straight down; when the next attendee keeps her hands by her side, he jokes 'Oh, not a hand-shaker?' | The manager stops, faces the procurement lead, offers a full-palm grip matched to hers with two short shakes, looks at her and says 'Hi Morgan, I'm Sam, thanks for making the time.' When the next attendee keeps her hands at her side, he nods, smiles and says 'Great to meet you,' and moves on. |
+
+**Why:** A full, matched grip with eye contact and a spoken greeting is what observers in the research rated as a good handshake, and treating a declined handshake as normal keeps the opening cooperative instead of awkward.
+
+Ask yourself:
+- Did I let the other person signal how they wanted to greet before I pushed my hand forward?
+- Was my grip full-palm and matched to theirs, rather than limp or crushing?
+- Was I looking at them and saying something while we shook, or looking past them?
+- If someone did not shake hands, did I move on smoothly without remarking on it or holding it against them?
+
 ### [Mixed messages](../articles/nonverbal-and-voice/mixed-messages.md) — Barrier
 
 Ask yourself:
