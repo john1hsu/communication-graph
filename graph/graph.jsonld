@@ -14340,6 +14340,85 @@
    ]
   },
   {
+   "@id": "cm:joseph-m-williams",
+   "@type": "cmo:Person",
+   "cmo:authored": [
+    {
+     "@id": "cm:style-lessons-in-clarity-and-grace"
+    },
+    {
+     "@id": "cm:the-craft-of-research"
+    }
+   ],
+   "cmo:challengedBy": {
+    "@id": "cm:balling-2018"
+   },
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "historical",
+   "cmo:file": "articles/thinkers-and-works/joseph-m-williams.md",
+   "cmo:introduced": {
+    "@id": "cm:editing-for-clarity"
+   },
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/joseph-m-williams/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/joseph-m-williams/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/joseph-m-williams/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/joseph-m-williams/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/joseph-m-williams/s5"
+    }
+   ],
+   "rdfs:label": "Joseph M. Williams",
+   "skos:altLabel": [
+    "Joe Williams",
+    "Joseph Williams (linguist)"
+   ],
+   "skos:definition": "University of Chicago professor of English and linguistics (1933-2008) whose book Style: Ten Lessons in Clarity and Grace (1981) taught writers to revise from the reader's side, by making characters the subjects and actions the verbs, and who co-founded the Little Red Schoolhouse writing course.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "Joseph M. Williams",
+   "skos:related": [
+    {
+     "@id": "cm:characters-as-subjects-actions-as-verbs"
+    },
+    {
+     "@id": "cm:clarity"
+    },
+    {
+     "@id": "cm:concise-writing"
+    },
+    {
+     "@id": "cm:curse-of-knowledge"
+    },
+    {
+     "@id": "cm:nominalization"
+    },
+    {
+     "@id": "cm:paramedic-method"
+    },
+    {
+     "@id": "cm:plain-language"
+    },
+    {
+     "@id": "cm:william-strunk-jr"
+    }
+   ]
+  },
+  {
    "@id": "cm:joseph-wolpe",
    "@type": "cmo:Person",
    "cmo:authored": [
@@ -53767,6 +53846,76 @@
    "dcterms:title": "In Memoriam: Sir John Whitmore, 1937-2017",
    "schema:url": {
     "@id": "https://instituteofcoaching.org/memoriam-sir-john-whitmore-1937-2017"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/joseph-m-williams/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "UChicago News (University of Chicago News Office), 2008",
+   "dcterms:title": "Joseph M. Williams, Professor Emeritus of English and Linguistics, 1933-2008",
+   "schema:url": {
+    "@id": "https://news.uchicago.edu/story/joseph-m-williams-professor-emeritus-english-and-linguistics-1933-2008"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/joseph-m-williams/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Joseph M. Williams and Joseph Bizup, Pearson (publisher page), 2021",
+   "dcterms:title": "Style: Lessons in Clarity and Grace, 13th edition",
+   "schema:url": {
+    "@id": "https://www.pearson.com/en-us/subject-catalog/p/style-lessons-in-clarity-and-grace/P200000002140"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/joseph-m-williams/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "University of Chicago Press",
+   "dcterms:title": "Joseph M. Williams (author page)",
+   "schema:url": {
+    "@id": "https://press.uchicago.edu/ucp/books/author/W/J/au5387675.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/joseph-m-williams/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Joseph Williams, Journal of Basic Writing, City University of New York (archive copy, WAC Clearinghouse / Colorado State University)",
+   "dcterms:title": "Re-evaluating Evaluating (Journal of Basic Writing 1(4))",
+   "schema:url": {
+    "@id": "https://innovationtest1.colostate.edu/jbw/v1n4/williams.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/joseph-m-williams/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Laura Winther Balling, 2018 - accepted manuscript, Copenhagen Business School research repository",
+   "dcterms:title": "No Effect of Writing Advice on Reading Comprehension (Journal of Technical Writing and Communication 48(1), 104-122)",
+   "schema:url": {
+    "@id": "https://research-api.cbs.dk/ws/files/57294517/laura_winther_balling_no_effect_acceptedmanuscript.pdf"
    }
   },
   {
