@@ -5851,6 +5851,92 @@
    ]
   },
   {
+   "@id": "cm:david-m-clark",
+   "@type": "cmo:Person",
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "historical",
+   "cmo:file": "articles/thinkers-and-works/david-m-clark.md",
+   "cmo:introduced": [
+    {
+     "@id": "cm:clark-wells-cognitive-model"
+    },
+    {
+     "@id": "cm:cognitive-therapy-for-social-anxiety-disorder"
+    },
+    {
+     "@id": "cm:dropping-safety-behaviours"
+    }
+   ],
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/david-m-clark/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/david-m-clark/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/david-m-clark/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/david-m-clark/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/david-m-clark/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/david-m-clark/s6"
+    }
+   ],
+   "rdfs:label": "David M. Clark",
+   "skos:altLabel": [
+    "D. M. Clark",
+    "David Clark (Oxford psychologist)",
+    "Professor David M. Clark"
+   ],
+   "skos:definition": "Oxford clinical psychologist who, with Adrian Wells, built the cognitive model of social anxiety (1995) and the cognitive therapy that grew from it, which made dropping safety behaviours and shifting attention outward a standard way to beat the fear of being judged in conversation; he was also a principal architect of England's IAPT talking-therapies programme.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "David M. Clark",
+   "skos:related": [
+    {
+     "@id": "cm:anxiety-reappraisal"
+    },
+    {
+     "@id": "cm:communication-apprehension"
+    },
+    {
+     "@id": "cm:exposure-therapy"
+    },
+    {
+     "@id": "cm:gray-beierl-clark-2019"
+    },
+    {
+     "@id": "cm:illusion-of-transparency"
+    },
+    {
+     "@id": "cm:safety-behaviours"
+    },
+    {
+     "@id": "cm:self-recording-playback"
+    },
+    {
+     "@id": "cm:social-anxiety"
+    },
+    {
+     "@id": "cm:speaking-anxiety"
+    },
+    {
+     "@id": "cm:spotlight-effect"
+    }
+   ]
+  },
+  {
    "@id": "cm:david-maister",
    "@type": "cmo:Person",
    "cmo:authored": [
@@ -46144,6 +46230,90 @@
    "dcterms:title": "Paraphrase testing",
    "schema:url": {
     "@id": "https://digital.gov/guides/plain-language/test/paraphrase-testing"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/david-m-clark/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "University of Oxford Podcasts (lecture by David M. Clark, Calleva Research Symposium, 27 October 2012)",
+   "dcterms:title": "Developing and disseminating effective psychological therapies for anxiety disorders: science, policy and practice",
+   "schema:url": {
+    "@id": "https://live2.podcasts.ox.ac.uk/developing-and-disseminating-effective-psychological-therapies-anxiety-disorders-science-policy-and"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/david-m-clark/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Centre for Economic Performance, London School of Economics",
+   "dcterms:title": "David M. Clark - people profile",
+   "schema:url": {
+    "@id": "https://cep.lse.ac.uk/_new/people/person.asp?id=6058"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/david-m-clark/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Wells, A., Clark, D. M., Salkovskis, P., Ludgate, J., Hackmann, A. & Gelder, M., Behavior Therapy 26(1), 153-161, 1995, doi:10.1016/S0005-7894(05)80088-7 (University of Manchester research portal)",
+   "dcterms:title": "Social phobia: The role of in-situation safety behaviors in maintaining anxiety and negative beliefs",
+   "schema:url": {
+    "@id": "https://research.manchester.ac.uk/en/publications/social-phobia-the-role-of-in-situation-safety-behaviors-in-mainta/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/david-m-clark/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Clark, D. M., Ehlers, A., Hackmann, A., et al., Journal of Consulting and Clinical Psychology 74(3), 568-578, 2006, doi:10.1037/0022-006X.74.3.568 (Oxford Department of Experimental Psychology record)",
+   "dcterms:title": "Cognitive therapy versus exposure and applied relaxation in social phobia: A randomized controlled trial",
+   "schema:url": {
+    "@id": "https://www.psy.ox.ac.uk/publications/176716"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/david-m-clark/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Mayo-Wilson, E., Dias, S., Mavranezouli, I., Kew, K., Clark, D. M., Ades, A. E. & Pilling, S., Lancet Psychiatry 1(5), 368-376, 2014, doi:10.1016/S2215-0366(14)70329-3 (Oxford Neuroscience record)",
+   "dcterms:title": "Psychological and pharmacological interventions for social anxiety disorder in adults: a systematic review and network meta-analysis",
+   "schema:url": {
+    "@id": "https://www.neuroscience.ox.ac.uk/publications/491550"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/david-m-clark/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Warnock-Parkes, E., Wild, J., Stott, R., Grey, N., Ehlers, A. & Clark, D. M., Cognitive and Behavioral Practice 24(2), 245-255, 2017 (Oxford Research Archive author copy)",
+   "dcterms:title": "Seeing is believing: Using video feedback in cognitive therapy for social anxiety disorder",
+   "schema:url": {
+    "@id": "https://ora.ox.ac.uk/objects/uuid:5aff36c1-82c5-4539-815f-34000837bd42/files/rnv935468j"
    }
   },
   {

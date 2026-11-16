@@ -6712,6 +6712,93 @@
   ]
  },
  {
+  "id": "cm:david-m-clark",
+  "title": "David M. Clark",
+  "aliases": [
+   "David Clark (Oxford psychologist)",
+   "Professor David M. Clark",
+   "D. M. Clark"
+  ],
+  "type": "Person",
+  "domain": "thinkers-and-works",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/thinkers-and-works/david-m-clark.md",
+  "created": "2026-11-16",
+  "summary": "Oxford clinical psychologist who, with Adrian Wells, built the cognitive model of social anxiety (1995) and the cognitive therapy that grew from it, which made dropping safety behaviours and shifting attention outward a standard way to beat the fear of being judged in conversation; he was also a principal architect of England's IAPT talking-therapies programme.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "cm:social-anxiety"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:speaking-anxiety"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:communication-apprehension"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:self-recording-playback"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:safety-behaviours"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:exposure-therapy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:spotlight-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:illusion-of-transparency"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:anxiety-reappraisal"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:gray-beierl-clark-2019"
+   },
+   {
+    "predicate": "cmo:introduced",
+    "object": "cm:dropping-safety-behaviours",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:introduced",
+    "object": "cm:clark-wells-cognitive-model",
+    "source": "s6",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introduced",
+    "object": "cm:cognitive-therapy-for-social-anxiety-disorder",
+    "source": "s4",
+    "confidence": "high"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://live2.podcasts.ox.ac.uk/developing-and-disseminating-effective-psychological-therapies-anxiety-disorders-science-policy-and",
+   "https://cep.lse.ac.uk/_new/people/person.asp?id=6058",
+   "https://research.manchester.ac.uk/en/publications/social-phobia-the-role-of-in-situation-safety-behaviors-in-mainta/",
+   "https://www.psy.ox.ac.uk/publications/176716",
+   "https://www.neuroscience.ox.ac.uk/publications/491550",
+   "https://ora.ox.ac.uk/objects/uuid:5aff36c1-82c5-4539-815f-34000837bd42/files/rnv935468j"
+  ]
+ },
+ {
   "id": "cm:david-maister",
   "title": "David Maister",
   "aliases": [

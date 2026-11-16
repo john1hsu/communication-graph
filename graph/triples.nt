@@ -3543,6 +3543,38 @@
 <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/barriers-and-psychology/curse-of-knowledge.md" .
 <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <https://github.com/john1hsu/communication-graph/ontology#undermines> <https://github.com/john1hsu/communication-graph/id/clarity> .
+<https://github.com/john1hsu/communication-graph/id/david-m-clark> <http://purl.org/dc/terms/created> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/david-m-clark> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+<https://github.com/john1hsu/communication-graph/id/david-m-clark> <http://www.w3.org/2000/01/rdf-schema#label> "David M. Clark" .
+<https://github.com/john1hsu/communication-graph/id/david-m-clark> <http://www.w3.org/2004/02/skos/core#altLabel> "D. M. Clark" .
+<https://github.com/john1hsu/communication-graph/id/david-m-clark> <http://www.w3.org/2004/02/skos/core#altLabel> "David Clark (Oxford psychologist)" .
+<https://github.com/john1hsu/communication-graph/id/david-m-clark> <http://www.w3.org/2004/02/skos/core#altLabel> "Professor David M. Clark" .
+<https://github.com/john1hsu/communication-graph/id/david-m-clark> <http://www.w3.org/2004/02/skos/core#definition> "Oxford clinical psychologist who, with Adrian Wells, built the cognitive model of social anxiety (1995) and the cognitive therapy that grew from it, which made dropping safety behaviours and shifting attention outward a standard way to beat the fear of being judged in conversation; he was also a principal architect of England's IAPT talking-therapies programme." .
+<https://github.com/john1hsu/communication-graph/id/david-m-clark> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works> .
+<https://github.com/john1hsu/communication-graph/id/david-m-clark> <http://www.w3.org/2004/02/skos/core#prefLabel> "David M. Clark" .
+<https://github.com/john1hsu/communication-graph/id/david-m-clark> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/anxiety-reappraisal> .
+<https://github.com/john1hsu/communication-graph/id/david-m-clark> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communication-apprehension> .
+<https://github.com/john1hsu/communication-graph/id/david-m-clark> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/exposure-therapy> .
+<https://github.com/john1hsu/communication-graph/id/david-m-clark> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/gray-beierl-clark-2019> .
+<https://github.com/john1hsu/communication-graph/id/david-m-clark> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> .
+<https://github.com/john1hsu/communication-graph/id/david-m-clark> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/safety-behaviours> .
+<https://github.com/john1hsu/communication-graph/id/david-m-clark> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/self-recording-playback> .
+<https://github.com/john1hsu/communication-graph/id/david-m-clark> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/social-anxiety> .
+<https://github.com/john1hsu/communication-graph/id/david-m-clark> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> .
+<https://github.com/john1hsu/communication-graph/id/david-m-clark> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/spotlight-effect> .
+<https://github.com/john1hsu/communication-graph/id/david-m-clark> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/david-m-clark/s1> .
+<https://github.com/john1hsu/communication-graph/id/david-m-clark> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/david-m-clark/s2> .
+<https://github.com/john1hsu/communication-graph/id/david-m-clark> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/david-m-clark/s3> .
+<https://github.com/john1hsu/communication-graph/id/david-m-clark> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/david-m-clark/s4> .
+<https://github.com/john1hsu/communication-graph/id/david-m-clark> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/david-m-clark/s5> .
+<https://github.com/john1hsu/communication-graph/id/david-m-clark> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/david-m-clark/s6> .
+<https://github.com/john1hsu/communication-graph/id/david-m-clark> <https://github.com/john1hsu/communication-graph/ontology#domain> "thinkers-and-works" .
+<https://github.com/john1hsu/communication-graph/id/david-m-clark> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "historical" .
+<https://github.com/john1hsu/communication-graph/id/david-m-clark> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/thinkers-and-works/david-m-clark.md" .
+<https://github.com/john1hsu/communication-graph/id/david-m-clark> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/clark-wells-cognitive-model> .
+<https://github.com/john1hsu/communication-graph/id/david-m-clark> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/cognitive-therapy-for-social-anxiety-disorder> .
+<https://github.com/john1hsu/communication-graph/id/david-m-clark> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> .
+<https://github.com/john1hsu/communication-graph/id/david-m-clark> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/david-maister> <http://purl.org/dc/terms/created> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/david-maister> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
 <https://github.com/john1hsu/communication-graph/id/david-maister> <http://www.w3.org/2000/01/rdf-schema#label> "David Maister" .
@@ -16867,6 +16899,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
 <https://github.com/john1hsu/communication-graph/id/source/curse-of-knowledge/s6> <https://schema.org/url> <https://digital.gov/guides/plain-language/test/paraphrase-testing> .
+<https://github.com/john1hsu/communication-graph/id/source/david-m-clark/s1> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/david-m-clark/s1> <http://purl.org/dc/terms/publisher> "University of Oxford Podcasts (lecture by David M. Clark, Calleva Research Symposium, 27 October 2012)" .
+<https://github.com/john1hsu/communication-graph/id/source/david-m-clark/s1> <http://purl.org/dc/terms/title> "Developing and disseminating effective psychological therapies for anxiety disorders: science, policy and practice" .
+<https://github.com/john1hsu/communication-graph/id/source/david-m-clark/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/david-m-clark/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/communication-graph/id/source/david-m-clark/s1> <https://schema.org/url> <https://live2.podcasts.ox.ac.uk/developing-and-disseminating-effective-psychological-therapies-anxiety-disorders-science-policy-and> .
+<https://github.com/john1hsu/communication-graph/id/source/david-m-clark/s2> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/david-m-clark/s2> <http://purl.org/dc/terms/publisher> "Centre for Economic Performance, London School of Economics" .
+<https://github.com/john1hsu/communication-graph/id/source/david-m-clark/s2> <http://purl.org/dc/terms/title> "David M. Clark - people profile" .
+<https://github.com/john1hsu/communication-graph/id/source/david-m-clark/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/david-m-clark/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/david-m-clark/s2> <https://schema.org/url> <https://cep.lse.ac.uk/_new/people/person.asp?id=6058> .
+<https://github.com/john1hsu/communication-graph/id/source/david-m-clark/s3> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/david-m-clark/s3> <http://purl.org/dc/terms/publisher> "Wells, A., Clark, D. M., Salkovskis, P., Ludgate, J., Hackmann, A. & Gelder, M., Behavior Therapy 26(1), 153-161, 1995, doi:10.1016/S0005-7894(05)80088-7 (University of Manchester research portal)" .
+<https://github.com/john1hsu/communication-graph/id/source/david-m-clark/s3> <http://purl.org/dc/terms/title> "Social phobia: The role of in-situation safety behaviors in maintaining anxiety and negative beliefs" .
+<https://github.com/john1hsu/communication-graph/id/source/david-m-clark/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/david-m-clark/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/david-m-clark/s3> <https://schema.org/url> <https://research.manchester.ac.uk/en/publications/social-phobia-the-role-of-in-situation-safety-behaviors-in-mainta/> .
+<https://github.com/john1hsu/communication-graph/id/source/david-m-clark/s4> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/david-m-clark/s4> <http://purl.org/dc/terms/publisher> "Clark, D. M., Ehlers, A., Hackmann, A., et al., Journal of Consulting and Clinical Psychology 74(3), 568-578, 2006, doi:10.1037/0022-006X.74.3.568 (Oxford Department of Experimental Psychology record)" .
+<https://github.com/john1hsu/communication-graph/id/source/david-m-clark/s4> <http://purl.org/dc/terms/title> "Cognitive therapy versus exposure and applied relaxation in social phobia: A randomized controlled trial" .
+<https://github.com/john1hsu/communication-graph/id/source/david-m-clark/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/david-m-clark/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/david-m-clark/s4> <https://schema.org/url> <https://www.psy.ox.ac.uk/publications/176716> .
+<https://github.com/john1hsu/communication-graph/id/source/david-m-clark/s5> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/david-m-clark/s5> <http://purl.org/dc/terms/publisher> "Mayo-Wilson, E., Dias, S., Mavranezouli, I., Kew, K., Clark, D. M., Ades, A. E. & Pilling, S., Lancet Psychiatry 1(5), 368-376, 2014, doi:10.1016/S2215-0366(14)70329-3 (Oxford Neuroscience record)" .
+<https://github.com/john1hsu/communication-graph/id/source/david-m-clark/s5> <http://purl.org/dc/terms/title> "Psychological and pharmacological interventions for social anxiety disorder in adults: a systematic review and network meta-analysis" .
+<https://github.com/john1hsu/communication-graph/id/source/david-m-clark/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/david-m-clark/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/david-m-clark/s5> <https://schema.org/url> <https://www.neuroscience.ox.ac.uk/publications/491550> .
+<https://github.com/john1hsu/communication-graph/id/source/david-m-clark/s6> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/david-m-clark/s6> <http://purl.org/dc/terms/publisher> "Warnock-Parkes, E., Wild, J., Stott, R., Grey, N., Ehlers, A. & Clark, D. M., Cognitive and Behavioral Practice 24(2), 245-255, 2017 (Oxford Research Archive author copy)" .
+<https://github.com/john1hsu/communication-graph/id/source/david-m-clark/s6> <http://purl.org/dc/terms/title> "Seeing is believing: Using video feedback in cognitive therapy for social anxiety disorder" .
+<https://github.com/john1hsu/communication-graph/id/source/david-m-clark/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/david-m-clark/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/david-m-clark/s6> <https://schema.org/url> <https://ora.ox.ac.uk/objects/uuid:5aff36c1-82c5-4539-815f-34000837bd42/files/rnv935468j> .
 <https://github.com/john1hsu/communication-graph/id/source/david-maister/s1> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/david-maister/s1> <http://purl.org/dc/terms/publisher> "David H. Maister, davidmaister.com (author's own site)" .
 <https://github.com/john1hsu/communication-graph/id/source/david-maister/s1> <http://purl.org/dc/terms/title> "About David Maister (biography)" .
