@@ -10336,6 +10336,46 @@
 <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/nonverbal-and-voice/nonverbal-communication.md" .
 <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> <https://github.com/john1hsu/communication-graph/ontology#studiedIn> <https://github.com/john1hsu/communication-graph/id/social-psychology> .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-immediacy> <http://purl.org/dc/terms/created> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-immediacy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-immediacy> <http://www.w3.org/2000/01/rdf-schema#label> "Nonverbal immediacy" .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-immediacy> <http://www.w3.org/2004/02/skos/core#altLabel> "approachability cues" .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-immediacy> <http://www.w3.org/2004/02/skos/core#altLabel> "immediacy behaviors" .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-immediacy> <http://www.w3.org/2004/02/skos/core#altLabel> "immediacy behaviours" .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-immediacy> <http://www.w3.org/2004/02/skos/core#altLabel> "nonverbal warmth cues" .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-immediacy> <http://www.w3.org/2004/02/skos/core#altLabel> "the immediacy principle" .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-immediacy> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-immediacy> <http://www.w3.org/2004/02/skos/core#definition> "Nonverbal behaviours such as smiling, nodding, closer distance and an expressive voice that signal warmth and availability and reduce the felt psychological distance between people; a construct introduced by Albert Mehrabian and widely studied in teaching and supervisor-employee relationships." .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-immediacy> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/nonverbal-and-voice> .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-immediacy> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nonverbal immediacy" .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-immediacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/emotional-contagion> .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-immediacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/eye-contact> .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-immediacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/facial-expressions> .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-immediacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/gestures> .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-immediacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/intercultural-communication> .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-immediacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-immediacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mirroring> .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-immediacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/paralanguage> .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-immediacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/proxemics> .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-immediacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/rapport> .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-immediacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/video-call-communication> .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-immediacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/nonverbal-immediacy/s1> .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-immediacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/nonverbal-immediacy/s2> .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-immediacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/nonverbal-immediacy/s3> .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-immediacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/nonverbal-immediacy/s4> .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-immediacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/nonverbal-immediacy/s5> .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-immediacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/nonverbal-immediacy/s6> .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-immediacy> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-immediacy> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/richmond-mccroskey-2000> .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-immediacy> <https://github.com/john1hsu/communication-graph/ontology#domain> "nonverbal-and-voice" .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-immediacy> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-immediacy> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/communication-accommodation-theory> .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-immediacy> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/nonverbal-and-voice/nonverbal-immediacy.md" .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-immediacy> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/albert-mehrabian> .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-immediacy> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-immediacy> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-immediacy> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/allen-witt-wheeless-2006> .
+<https://github.com/john1hsu/communication-graph/id/nonverbal-immediacy> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/witt-wheeless-2001> .
 <https://github.com/john1hsu/communication-graph/id/nonviolent-communication/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/nonviolent-communication/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Could the other person agree my observation is accurate, or have I slipped in an evaluation?" .
 <https://github.com/john1hsu/communication-graph/id/nonviolent-communication/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/nonviolent-communication> .
@@ -21761,6 +21801,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/nonverbal-communication/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/nonverbal-communication/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
 <https://github.com/john1hsu/communication-graph/id/source/nonverbal-communication/s6> <https://schema.org/url> <https://core.ac.uk/download/212360777.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-immediacy/s1> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-immediacy/s1> <http://purl.org/dc/terms/publisher> "Albert Mehrabian, author's own publication list (kaaj.com), listing the 1966-1969 immediacy papers, Language within Language (1968) and Silent Messages (1971)" .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-immediacy/s1> <http://purl.org/dc/terms/title> "Albert Mehrabian: Publications" .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-immediacy/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-immediacy/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-immediacy/s1> <https://schema.org/url> <https://kaaj.com/psych/pub.html> .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-immediacy/s2> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-immediacy/s2> <http://purl.org/dc/terms/publisher> "Virginia P. Richmond & James C. McCroskey, Communication Monographs 67(1), 2000 (Taylor & Francis abstract page)" .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-immediacy/s2> <http://purl.org/dc/terms/title> "The impact of supervisor and subordinate immediacy on relational and organizational outcomes" .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-immediacy/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-immediacy/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-immediacy/s2> <https://schema.org/url> <https://informahealthcare.com/doi/abs/10.1080/03637750009376496> .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-immediacy/s3> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-immediacy/s3> <http://purl.org/dc/terms/publisher> "Institute for Public Relations research summary of Jia, Cheng & Hale, Management Communication Quarterly 31(1), 2017, pp. 69-87" .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-immediacy/s3> <http://purl.org/dc/terms/title> "Workplace emotion communication: Supervisor nonverbal immediacy, employees' emotion experience, and their communication motives" .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-immediacy/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-immediacy/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-immediacy/s3> <https://schema.org/url> <https://instituteforpr.org/workplace-emotion-communication-supervisor-nonverbal-immediacy-employees-emotion-experience-communication-motives/> .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-immediacy/s4> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-immediacy/s4> <http://purl.org/dc/terms/publisher> "Mike Allen, Paul L. Witt & Lawrence R. Wheeless, Communication Education 55(1), 2006 (Taylor & Francis abstract page)" .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-immediacy/s4> <http://purl.org/dc/terms/title> "The role of teacher immediacy as a motivational factor in student learning: Using meta-analysis to test a causal model" .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-immediacy/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-immediacy/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-immediacy/s4> <https://schema.org/url> <https://informahealthcare.com/doi/abs/10.1080/03634520500343368> .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-immediacy/s5> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-immediacy/s5> <http://purl.org/dc/terms/publisher> "Paul L. Witt & Lawrence R. Wheeless, Communication Education 50(4), 2001, pp. 327-342 (Taylor & Francis page)" .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-immediacy/s5> <http://purl.org/dc/terms/title> "An experimental study of teachers' verbal and nonverbal immediacy and students' affective and cognitive learning" .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-immediacy/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-immediacy/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-immediacy/s5> <https://schema.org/url> <https://informahealthcare.com/doi/full/10.1080/03634520109379259> .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-immediacy/s6> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-immediacy/s6> <http://purl.org/dc/terms/publisher> "Qin Zhang, John G. Oetzel, Xiaofang Gao, Richard G. Wilcox & Jiro Takai, Communication Education 56(2), 2007, pp. 228-248 (Fairfield University repository)" .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-immediacy/s6> <http://purl.org/dc/terms/title> "Teacher immediacy scales: Testing for validity across cultures" .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-immediacy/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-immediacy/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/nonverbal-immediacy/s6> <https://schema.org/url> <https://digitalcommons.fairfield.edu/communications-facultypubs/26> .
 <https://github.com/john1hsu/communication-graph/id/source/nonviolent-communication/s1> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/nonviolent-communication/s1> <http://purl.org/dc/terms/publisher> "The Center for Nonviolent Communication (CNVC)" .
 <https://github.com/john1hsu/communication-graph/id/source/nonviolent-communication/s1> <http://purl.org/dc/terms/title> "CNVC Founder: Marshall B. Rosenberg" .

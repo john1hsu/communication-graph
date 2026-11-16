@@ -18220,6 +18220,112 @@
    ]
   },
   {
+   "@id": "cm:nonverbal-immediacy",
+   "@type": "cmo:Concept",
+   "cmo:appliedIn": {
+    "@id": "cm:one-on-one-meetings"
+   },
+   "cmo:demonstratedBy": {
+    "@id": "cm:richmond-mccroskey-2000"
+   },
+   "cmo:domain": "nonverbal-and-voice",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:explainedBy": {
+    "@id": "cm:communication-accommodation-theory"
+   },
+   "cmo:file": "articles/nonverbal-and-voice/nonverbal-immediacy.md",
+   "cmo:introducedBy": {
+    "@id": "cm:albert-mehrabian"
+   },
+   "cmo:level": "introductory",
+   "cmo:requires": {
+    "@id": "cm:nonverbal-communication"
+   },
+   "cmo:supportedBy": [
+    {
+     "@id": "cm:allen-witt-wheeless-2006"
+    },
+    {
+     "@id": "cm:witt-wheeless-2001"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/nonverbal-immediacy/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/nonverbal-immediacy/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/nonverbal-immediacy/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/nonverbal-immediacy/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/nonverbal-immediacy/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/nonverbal-immediacy/s6"
+    }
+   ],
+   "rdfs:label": "Nonverbal immediacy",
+   "skos:altLabel": [
+    "approachability cues",
+    "immediacy behaviors",
+    "immediacy behaviours",
+    "nonverbal warmth cues",
+    "the immediacy principle"
+   ],
+   "skos:broader": {
+    "@id": "cm:nonverbal-communication"
+   },
+   "skos:definition": "Nonverbal behaviours such as smiling, nodding, closer distance and an expressive voice that signal warmth and availability and reduce the felt psychological distance between people; a construct introduced by Albert Mehrabian and widely studied in teaching and supervisor-employee relationships.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/nonverbal-and-voice"
+   },
+   "skos:prefLabel": "Nonverbal immediacy",
+   "skos:related": [
+    {
+     "@id": "cm:emotional-contagion"
+    },
+    {
+     "@id": "cm:eye-contact"
+    },
+    {
+     "@id": "cm:facial-expressions"
+    },
+    {
+     "@id": "cm:gestures"
+    },
+    {
+     "@id": "cm:intercultural-communication"
+    },
+    {
+     "@id": "cm:mehrabian-myth"
+    },
+    {
+     "@id": "cm:mirroring"
+    },
+    {
+     "@id": "cm:paralanguage"
+    },
+    {
+     "@id": "cm:proxemics"
+    },
+    {
+     "@id": "cm:rapport"
+    },
+    {
+     "@id": "cm:video-call-communication"
+    }
+   ]
+  },
+  {
    "@id": "cm:nonviolent-communication",
    "@type": "cmo:Framework",
    "cmo:appliedIn": {
@@ -57737,6 +57843,90 @@
    "dcterms:title": "Effectiveness of a short audiovisual emotion recognition training program in adults",
    "schema:url": {
     "@id": "https://core.ac.uk/download/212360777.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/nonverbal-immediacy/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Albert Mehrabian, author's own publication list (kaaj.com), listing the 1966-1969 immediacy papers, Language within Language (1968) and Silent Messages (1971)",
+   "dcterms:title": "Albert Mehrabian: Publications",
+   "schema:url": {
+    "@id": "https://kaaj.com/psych/pub.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/nonverbal-immediacy/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Virginia P. Richmond & James C. McCroskey, Communication Monographs 67(1), 2000 (Taylor & Francis abstract page)",
+   "dcterms:title": "The impact of supervisor and subordinate immediacy on relational and organizational outcomes",
+   "schema:url": {
+    "@id": "https://informahealthcare.com/doi/abs/10.1080/03637750009376496"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/nonverbal-immediacy/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Institute for Public Relations research summary of Jia, Cheng & Hale, Management Communication Quarterly 31(1), 2017, pp. 69-87",
+   "dcterms:title": "Workplace emotion communication: Supervisor nonverbal immediacy, employees' emotion experience, and their communication motives",
+   "schema:url": {
+    "@id": "https://instituteforpr.org/workplace-emotion-communication-supervisor-nonverbal-immediacy-employees-emotion-experience-communication-motives/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/nonverbal-immediacy/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Mike Allen, Paul L. Witt & Lawrence R. Wheeless, Communication Education 55(1), 2006 (Taylor & Francis abstract page)",
+   "dcterms:title": "The role of teacher immediacy as a motivational factor in student learning: Using meta-analysis to test a causal model",
+   "schema:url": {
+    "@id": "https://informahealthcare.com/doi/abs/10.1080/03634520500343368"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/nonverbal-immediacy/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Paul L. Witt & Lawrence R. Wheeless, Communication Education 50(4), 2001, pp. 327-342 (Taylor & Francis page)",
+   "dcterms:title": "An experimental study of teachers' verbal and nonverbal immediacy and students' affective and cognitive learning",
+   "schema:url": {
+    "@id": "https://informahealthcare.com/doi/full/10.1080/03634520109379259"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/nonverbal-immediacy/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Qin Zhang, John G. Oetzel, Xiaofang Gao, Richard G. Wilcox & Jiro Takai, Communication Education 56(2), 2007, pp. 228-248 (Fairfield University repository)",
+   "dcterms:title": "Teacher immediacy scales: Testing for validity across cultures",
+   "schema:url": {
+    "@id": "https://digitalcommons.fairfield.edu/communications-facultypubs/26"
    }
   },
   {

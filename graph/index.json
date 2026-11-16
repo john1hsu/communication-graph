@@ -20636,6 +20636,125 @@
   ]
  },
  {
+  "id": "cm:nonverbal-immediacy",
+  "title": "Nonverbal immediacy",
+  "aliases": [
+   "immediacy behaviours",
+   "immediacy behaviors",
+   "the immediacy principle",
+   "nonverbal warmth cues",
+   "approachability cues"
+  ],
+  "type": "Concept",
+  "domain": "nonverbal-and-voice",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/nonverbal-and-voice/nonverbal-immediacy.md",
+  "created": "2026-11-16",
+  "summary": "Nonverbal behaviours such as smiling, nodding, closer distance and an expressive voice that signal warmth and availability and reduce the felt psychological distance between people; a construct introduced by Albert Mehrabian and widely studied in teaching and supervisor-employee relationships.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:nonverbal-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:rapport"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:eye-contact"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:facial-expressions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:proxemics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:paralanguage"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:gestures"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:mehrabian-myth"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:emotional-contagion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:mirroring"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:video-call-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:intercultural-communication"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:nonverbal-communication"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:albert-mehrabian",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:richmond-mccroskey-2000",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:communication-accommodation-theory",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:one-on-one-meetings",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:allen-witt-wheeless-2006",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:witt-wheeless-2001",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://kaaj.com/psych/pub.html",
+   "https://informahealthcare.com/doi/abs/10.1080/03637750009376496",
+   "https://instituteforpr.org/workplace-emotion-communication-supervisor-nonverbal-immediacy-employees-emotion-experience-communication-motives/",
+   "https://informahealthcare.com/doi/abs/10.1080/03634520500343368",
+   "https://informahealthcare.com/doi/full/10.1080/03634520109379259",
+   "https://digitalcommons.fairfield.edu/communications-facultypubs/26"
+  ]
+ },
+ {
   "id": "cm:nonviolent-communication",
   "title": "Nonviolent Communication",
   "aliases": [
