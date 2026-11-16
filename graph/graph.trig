@@ -2234,6 +2234,14 @@
 <https://github.com/john1hsu/communication-graph/id/james-j-gross#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/james-j-gross/s4> .
 <https://github.com/john1hsu/communication-graph/id/james-j-gross#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/james-j-gross/s5> .
 <https://github.com/john1hsu/communication-graph/id/james-j-gross#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/james-j-gross/s6> .
+<https://github.com/john1hsu/communication-graph/id/john-p-kotter#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/john-p-kotter#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/john-p-kotter> .
+<https://github.com/john1hsu/communication-graph/id/john-p-kotter#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/thinkers-and-works/john-p-kotter.md" .
+<https://github.com/john1hsu/communication-graph/id/john-p-kotter#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/john-p-kotter/s1> .
+<https://github.com/john1hsu/communication-graph/id/john-p-kotter#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/john-p-kotter/s2> .
+<https://github.com/john1hsu/communication-graph/id/john-p-kotter#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/john-p-kotter/s3> .
+<https://github.com/john1hsu/communication-graph/id/john-p-kotter#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/john-p-kotter/s4> .
+<https://github.com/john1hsu/communication-graph/id/john-p-kotter#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/john-p-kotter/s5> .
 <https://github.com/john1hsu/communication-graph/id/john-whitmore#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/john-whitmore#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/john-whitmore> .
 <https://github.com/john1hsu/communication-graph/id/john-whitmore#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/thinkers-and-works/john-whitmore.md" .
@@ -26495,6 +26503,65 @@
   <https://github.com/john1hsu/communication-graph/id/source/james-j-gross/s6> <https://schema.org/url> <https://www.tc.edu/faculty/gab38/faculty-profile/files/2013_Bonanno_Burton_REGULATORY_FLEXIBLITY.pdf> .
 }
 
+<https://github.com/john1hsu/communication-graph/id/john-p-kotter#graph> {
+  <https://github.com/john1hsu/communication-graph/id/john-p-kotter> <http://purl.org/dc/terms/created> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/john-p-kotter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+  <https://github.com/john1hsu/communication-graph/id/john-p-kotter> <http://www.w3.org/2000/01/rdf-schema#label> "John P. Kotter" .
+  <https://github.com/john1hsu/communication-graph/id/john-p-kotter> <http://www.w3.org/2004/02/skos/core#altLabel> "J. P. Kotter" .
+  <https://github.com/john1hsu/communication-graph/id/john-p-kotter> <http://www.w3.org/2004/02/skos/core#altLabel> "John Kotter" .
+  <https://github.com/john1hsu/communication-graph/id/john-p-kotter> <http://www.w3.org/2004/02/skos/core#altLabel> "Kotter" .
+  <https://github.com/john1hsu/communication-graph/id/john-p-kotter> <http://www.w3.org/2004/02/skos/core#definition> "Harvard Business School leadership scholar (Konosuke Matsushita Professor of Leadership, Emeritus) whose 1995 article and 1996 book Leading Change made \"communicate the vision far more than feels necessary\" a core step of organisational change, and who co-wrote the 1980 classic on managing your boss." .
+  <https://github.com/john1hsu/communication-graph/id/john-p-kotter> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works> .
+  <https://github.com/john1hsu/communication-graph/id/john-p-kotter> <http://www.w3.org/2004/02/skos/core#prefLabel> "John P. Kotter" .
+  <https://github.com/john1hsu/communication-graph/id/john-p-kotter> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/change-communication> .
+  <https://github.com/john1hsu/communication-graph/id/john-p-kotter> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> .
+  <https://github.com/john1hsu/communication-graph/id/john-p-kotter> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/managing-up> .
+  <https://github.com/john1hsu/communication-graph/id/john-p-kotter> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
+  <https://github.com/john1hsu/communication-graph/id/john-p-kotter> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/realistic-merger-preview> .
+  <https://github.com/john1hsu/communication-graph/id/john-p-kotter> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/john-p-kotter/s1> .
+  <https://github.com/john1hsu/communication-graph/id/john-p-kotter> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/john-p-kotter/s2> .
+  <https://github.com/john1hsu/communication-graph/id/john-p-kotter> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/john-p-kotter/s3> .
+  <https://github.com/john1hsu/communication-graph/id/john-p-kotter> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/john-p-kotter/s4> .
+  <https://github.com/john1hsu/communication-graph/id/john-p-kotter> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/john-p-kotter/s5> .
+  <https://github.com/john1hsu/communication-graph/id/john-p-kotter> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/leading-change> .
+  <https://github.com/john1hsu/communication-graph/id/john-p-kotter> <https://github.com/john1hsu/communication-graph/ontology#authored> <https://github.com/john1hsu/communication-graph/id/managing-your-boss> .
+  <https://github.com/john1hsu/communication-graph/id/john-p-kotter> <https://github.com/john1hsu/communication-graph/ontology#domain> "thinkers-and-works" .
+  <https://github.com/john1hsu/communication-graph/id/john-p-kotter> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "historical" .
+  <https://github.com/john1hsu/communication-graph/id/john-p-kotter> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/thinkers-and-works/john-p-kotter.md" .
+  <https://github.com/john1hsu/communication-graph/id/john-p-kotter> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/change-communication> .
+  <https://github.com/john1hsu/communication-graph/id/john-p-kotter> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+  <https://github.com/john1hsu/communication-graph/id/source/john-p-kotter/s1> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/john-p-kotter/s1> <http://purl.org/dc/terms/publisher> "Harvard Business School faculty profile" .
+  <https://github.com/john1hsu/communication-graph/id/source/john-p-kotter/s1> <http://purl.org/dc/terms/title> "John P. Kotter - Faculty & Research" .
+  <https://github.com/john1hsu/communication-graph/id/source/john-p-kotter/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/john-p-kotter/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/communication-graph/id/source/john-p-kotter/s1> <https://schema.org/url> <https://www.hbs.edu/faculty/Pages/profile.aspx?facId=6495> .
+  <https://github.com/john1hsu/communication-graph/id/source/john-p-kotter/s2> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/john-p-kotter/s2> <http://purl.org/dc/terms/publisher> "John P. Kotter, Harvard Business Review 73(2), March-April 1995 (reprint 95204; NYU Stern executive education copy)" .
+  <https://github.com/john1hsu/communication-graph/id/source/john-p-kotter/s2> <http://purl.org/dc/terms/title> "Leading Change: Why Transformation Efforts Fail" .
+  <https://github.com/john1hsu/communication-graph/id/source/john-p-kotter/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/john-p-kotter/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/communication-graph/id/source/john-p-kotter/s2> <https://schema.org/url> <https://web-docs.stern.nyu.edu/executive/Leading%20Change_Kotter.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/john-p-kotter/s3> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/john-p-kotter/s3> <http://purl.org/dc/terms/publisher> "John J. Gabarro and John P. Kotter, Harvard Business Review, 1980 (January 2005 reprint; WELI course copy)" .
+  <https://github.com/john1hsu/communication-graph/id/source/john-p-kotter/s3> <http://purl.org/dc/terms/title> "Managing Your Boss" .
+  <https://github.com/john1hsu/communication-graph/id/source/john-p-kotter/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/john-p-kotter/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/communication-graph/id/source/john-p-kotter/s3> <https://schema.org/url> <https://weli.pedsanesthesia.org/wp-content/uploads/2020/03/Gabarro-and-Kotter-2005-Managing-your-boss.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/john-p-kotter/s4> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/john-p-kotter/s4> <http://purl.org/dc/terms/publisher> "Appelbaum, Habashy, Malo and Shafiq, Journal of Management Development 31(8), 764-782, 2012, doi:10.1108/02621711211253231 (Emerald)" .
+  <https://github.com/john1hsu/communication-graph/id/source/john-p-kotter/s4> <http://purl.org/dc/terms/title> "Back to the future: revisiting Kotter's 1996 change model" .
+  <https://github.com/john1hsu/communication-graph/id/source/john-p-kotter/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/john-p-kotter/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/john-p-kotter/s4> <https://schema.org/url> <https://www.emeraldinsight.com/doi/abs/10.1108/02621711211253231> .
+  <https://github.com/john1hsu/communication-graph/id/source/john-p-kotter/s5> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/john-p-kotter/s5> <http://purl.org/dc/terms/publisher> "Harvard Business School news release" .
+  <https://github.com/john1hsu/communication-graph/id/source/john-p-kotter/s5> <http://purl.org/dc/terms/title> "Professor John Kotter Details How Leaders Can Create and Sustain a Sense of Urgency" .
+  <https://github.com/john1hsu/communication-graph/id/source/john-p-kotter/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/john-p-kotter/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/communication-graph/id/source/john-p-kotter/s5> <https://schema.org/url> <https://www.hbs.edu/news/releases/Pages/kotterurgency.aspx> .
+}
+
 <https://github.com/john1hsu/communication-graph/id/john-whitmore#graph> {
   <https://github.com/john1hsu/communication-graph/id/john-whitmore> <http://purl.org/dc/terms/created> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
   <https://github.com/john1hsu/communication-graph/id/john-whitmore> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
@@ -31058,7 +31125,9 @@
   <https://github.com/john1hsu/communication-graph/id/change-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/realistic-merger-preview> .
   <https://github.com/john1hsu/communication-graph/id/change-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/realistic-merger-preview> .
   <https://github.com/john1hsu/communication-graph/id/change-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/inoculation-theory> .
+  <https://github.com/john1hsu/communication-graph/id/change-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/john-p-kotter> .
   <https://github.com/john1hsu/communication-graph/id/change-communication> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/realistic-merger-preview> .
+  <https://github.com/john1hsu/communication-graph/id/change-communication> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/john-p-kotter> .
   <https://github.com/john1hsu/communication-graph/id/channel-expansion-theory> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/media-richness-theory> .
   <https://github.com/john1hsu/communication-graph/id/channel-selection/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/channel-selection/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -32190,6 +32259,7 @@
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/empathy-gap> .
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/escalation-communication> .
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> .
+  <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/john-p-kotter> .
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mea-culpa> .
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mum-effect> .
   <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
@@ -34622,7 +34692,6 @@
   <https://github.com/john1hsu/communication-graph/id/john-j-gabarro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/john-j-gabarro> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/managing-up> .
   <https://github.com/john1hsu/communication-graph/id/john-p-kotter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
-  <https://github.com/john1hsu/communication-graph/id/john-p-kotter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/john-p-kotter> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/change-communication> .
   <https://github.com/john1hsu/communication-graph/id/john-p-kotter> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/managing-up> .
   <https://github.com/john1hsu/communication-graph/id/john-sweller> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -34816,6 +34885,9 @@
   <https://github.com/john1hsu/communication-graph/id/leader-effectiveness-training> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/leader-effectiveness-training> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
   <https://github.com/john1hsu/communication-graph/id/leader-effectiveness-training> <https://github.com/john1hsu/communication-graph/ontology#authoredBy> <https://github.com/john1hsu/communication-graph/id/thomas-gordon> .
+  <https://github.com/john1hsu/communication-graph/id/leading-change> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/leading-change> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
+  <https://github.com/john1hsu/communication-graph/id/leading-change> <https://github.com/john1hsu/communication-graph/ontology#authoredBy> <https://github.com/john1hsu/communication-graph/id/john-p-kotter> .
   <https://github.com/john1hsu/communication-graph/id/lee-et-al-2017> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/influence-without-authority> .
   <https://github.com/john1hsu/communication-graph/id/lee-et-al-2017> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/managing-up> .
   <https://github.com/john1hsu/communication-graph/id/lee-et-al-2017> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/persuasion> .
@@ -35007,6 +35079,7 @@
   <https://github.com/john1hsu/communication-graph/id/managing-up> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> .
   <https://github.com/john1hsu/communication-graph/id/managing-up> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/humble-inquiry> .
   <https://github.com/john1hsu/communication-graph/id/managing-up> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/impression-management> .
+  <https://github.com/john1hsu/communication-graph/id/managing-up> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/john-p-kotter> .
   <https://github.com/john1hsu/communication-graph/id/managing-up> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mum-effect> .
   <https://github.com/john1hsu/communication-graph/id/managing-up> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> .
   <https://github.com/john1hsu/communication-graph/id/managing-up> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
@@ -35019,6 +35092,7 @@
   <https://github.com/john1hsu/communication-graph/id/managing-up> <https://github.com/john1hsu/communication-graph/ontology#developedBy> <https://github.com/john1hsu/communication-graph/id/issue-selling> .
   <https://github.com/john1hsu/communication-graph/id/managing-your-boss> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/managing-your-boss> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
+  <https://github.com/john1hsu/communication-graph/id/managing-your-boss> <https://github.com/john1hsu/communication-graph/ontology#authoredBy> <https://github.com/john1hsu/communication-graph/id/john-p-kotter> .
   <https://github.com/john1hsu/communication-graph/id/managing-your-boss> <https://github.com/john1hsu/communication-graph/ontology#introduces> <https://github.com/john1hsu/communication-graph/id/managing-up> .
   <https://github.com/john1hsu/communication-graph/id/mandel-irwin-2021> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability> .
   <https://github.com/john1hsu/communication-graph/id/manipulation> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/persuasion> .
@@ -35793,6 +35867,7 @@
   <https://github.com/john1hsu/communication-graph/id/organizational-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
   <https://github.com/john1hsu/communication-graph/id/organizational-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/group-communication> .
   <https://github.com/john1hsu/communication-graph/id/organizational-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
+  <https://github.com/john1hsu/communication-graph/id/organizational-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/john-p-kotter> .
   <https://github.com/john1hsu/communication-graph/id/organizational-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mccallum-erie-railroad-report> .
   <https://github.com/john1hsu/communication-graph/id/organizational-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/social-psychology> .
   <https://github.com/john1hsu/communication-graph/id/organizational-justice> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> .
@@ -36727,6 +36802,7 @@
   <https://github.com/john1hsu/communication-graph/id/realistic-merger-preview> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/humanities> .
   <https://github.com/john1hsu/communication-graph/id/realistic-merger-preview> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
   <https://github.com/john1hsu/communication-graph/id/realistic-merger-preview> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
+  <https://github.com/john1hsu/communication-graph/id/realistic-merger-preview> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/john-p-kotter> .
   <https://github.com/john1hsu/communication-graph/id/rebecca-hincks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/receiving-feedback/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/receiving-feedback/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .

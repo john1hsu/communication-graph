@@ -13740,6 +13740,74 @@
    ]
   },
   {
+   "@id": "cm:john-p-kotter",
+   "@type": "cmo:Person",
+   "cmo:authored": [
+    {
+     "@id": "cm:leading-change"
+    },
+    {
+     "@id": "cm:managing-your-boss"
+    }
+   ],
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "historical",
+   "cmo:file": "articles/thinkers-and-works/john-p-kotter.md",
+   "cmo:introduced": {
+    "@id": "cm:change-communication"
+   },
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/john-p-kotter/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/john-p-kotter/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/john-p-kotter/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/john-p-kotter/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/john-p-kotter/s5"
+    }
+   ],
+   "rdfs:label": "John P. Kotter",
+   "skos:altLabel": [
+    "J. P. Kotter",
+    "John Kotter",
+    "Kotter"
+   ],
+   "skos:definition": "Harvard Business School leadership scholar (Konosuke Matsushita Professor of Leadership, Emeritus) whose 1995 article and 1996 book Leading Change made \"communicate the vision far more than feels necessary\" a core step of organisational change, and who co-wrote the 1980 classic on managing your boss.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "John P. Kotter",
+   "skos:related": [
+    {
+     "@id": "cm:change-communication"
+    },
+    {
+     "@id": "cm:delivering-bad-news"
+    },
+    {
+     "@id": "cm:managing-up"
+    },
+    {
+     "@id": "cm:organizational-communication"
+    },
+    {
+     "@id": "cm:realistic-merger-preview"
+    }
+   ]
+  },
+  {
    "@id": "cm:john-whitmore",
    "@type": "cmo:Person",
    "cmo:authored": {
@@ -52181,6 +52249,76 @@
    "dcterms:title": "Is Cognitive Ability the Best Predictor of Job Performance? New Research Says It's Time to Think Again",
    "schema:url": {
     "@id": "https://www.siop.org/tip-article/is-cognitive-ability-the-best-predictor-of-job-performance"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/john-p-kotter/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Harvard Business School faculty profile",
+   "dcterms:title": "John P. Kotter - Faculty & Research",
+   "schema:url": {
+    "@id": "https://www.hbs.edu/faculty/Pages/profile.aspx?facId=6495"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/john-p-kotter/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "John P. Kotter, Harvard Business Review 73(2), March-April 1995 (reprint 95204; NYU Stern executive education copy)",
+   "dcterms:title": "Leading Change: Why Transformation Efforts Fail",
+   "schema:url": {
+    "@id": "https://web-docs.stern.nyu.edu/executive/Leading%20Change_Kotter.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/john-p-kotter/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "John J. Gabarro and John P. Kotter, Harvard Business Review, 1980 (January 2005 reprint; WELI course copy)",
+   "dcterms:title": "Managing Your Boss",
+   "schema:url": {
+    "@id": "https://weli.pedsanesthesia.org/wp-content/uploads/2020/03/Gabarro-and-Kotter-2005-Managing-your-boss.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/john-p-kotter/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Appelbaum, Habashy, Malo and Shafiq, Journal of Management Development 31(8), 764-782, 2012, doi:10.1108/02621711211253231 (Emerald)",
+   "dcterms:title": "Back to the future: revisiting Kotter's 1996 change model",
+   "schema:url": {
+    "@id": "https://www.emeraldinsight.com/doi/abs/10.1108/02621711211253231"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/john-p-kotter/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Harvard Business School news release",
+   "dcterms:title": "Professor John Kotter Details How Leaders Can Create and Sustain a Sense of Urgency",
+   "schema:url": {
+    "@id": "https://www.hbs.edu/news/releases/Pages/kotterurgency.aspx"
    }
   },
   {
