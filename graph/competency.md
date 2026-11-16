@@ -44,6 +44,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:dropping-safety-behaviours` | 2 | Social anxiety, safety-behaviours |
 | `cm:editing-for-clarity` | 2 | Concise writing, Curse of knowledge |
 | `cm:escalation-communication` | 2 | Employee silence, MUM effect |
+| `cm:exposure-therapy` | 2 | Public speaking anxiety, Social anxiety |
 | `cm:facilitation` | 2 | Interrupting, Unequal participation |
 | `cm:graded-assertiveness` | 2 | Employee silence, Upward dissent |
 | `cm:i-statements` | 2 | Accusatory you-statements, Defensiveness |
@@ -55,9 +56,8 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:presentation-rehearsal` | 2 | Public speaking, Public speaking anxiety |
 | `cm:risk-numbers-as-natural-frequencies` | 2 | Communicating uncertainty to decision makers, base-rate-neglect |
 | `cm:self-affirmation-before-feedback` | 2 | Defensiveness, Receiving feedback |
-| `cm:self-distancing` | 2 | Public speaking anxiety, Spotlight effect |
 
-…and 66 more.
+…and 67 more.
 
 ## Toolkit by situation
 
@@ -96,7 +96,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:difficult-conversation` | `cm:emotion-regulation` |
 | `cm:difficult-conversation` | `cm:face-and-facework` |
 
-…and 157 more.
+…and 159 more.
 
 ## Myths and contested advice
 
@@ -145,6 +145,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 |---|---|
 | `cm:escalation-communication` | cmo:Technique |
 | `cm:executive-summary` | cmo:Genre |
+| `cm:exposure-therapy` | cmo:Technique |
 | `cm:gain-loss-framing` | cmo:Technique |
 | `cm:gestures` | cmo:Skill |
 | `cm:graded-assertiveness` | cmo:Technique |
@@ -172,9 +173,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:mindfulness` | cmo:Technique |
 | `cm:mirroring` | cmo:Technique |
 | `cm:mixed-messages` | cmo:Barrier |
-| `cm:multicultural-team` | cmo:Context |
 
-…and 63 more.
+…and 64 more.
 
 ## Orphan articles (gap)
 

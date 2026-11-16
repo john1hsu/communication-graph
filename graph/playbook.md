@@ -90,6 +90,30 @@ Ask yourself:
 - If others on the team see the same problem, who is going to raise it, and when?
 - As a manager, when did someone last bring me unwelcome news, and what did my reaction teach them?
 
+### [Exposure therapy](../articles/barriers-and-psychology/exposure-therapy.md) — Technique
+
+1. Name the communication goal you avoid (for example, presenting at the team meeting) and write the specific thing you fear will happen, such as "I'll say something wrong and colleagues will think I'm incompetent."
+2. Build a ladder of 6-10 real situations that lead toward that goal, rate each for anxiety from 1 to 10, and start with one you can do this week (replying to a group email with your own suggestion).
+3. Before each step, write your prediction and how you would know whether it came true, so the step is a test rather than an endurance trial.
+4. Do the step fully, without escape routes or safety behaviours such as reading from a script, staying silent after one sentence or asking a colleague to cover the hard question.
+5. Afterwards, compare what happened with what you predicted, note what you learned, and repeat the step soon - in different meetings, rooms and audiences - before moving up.
+6. Expect setbacks; if a step proves too big, add a smaller bridging step or repeat an earlier one, and get help from a qualified clinician if the fear is severe or spreads into everyday life.
+
+*An analyst who has avoided speaking in cross-team reviews for a year is told she will present her findings to the leadership group next quarter.*
+
+| Before | After |
+|---|---|
+| I'll keep quiet in the reviews until then, write out the whole talk word for word, and ask my manager to take the Q&A so I don't freeze. | This week I'll add one suggestion in the team chat thread, then say one sentence in Thursday's review. Next week I'll give the two-minute status item without notes, then run a practice presentation for three colleagues and take their questions myself. Before each one I'll write what I expect to go wrong and check it afterwards. |
+
+**Why:** The first plan avoids every feared situation and leans on safety behaviours (a full script, a stand-in for Q&A), so her fear is never tested and the leadership talk arrives as a cliff. The second turns the goal into graded exposures, each framed as a test of a specific prediction, which is how exposure produces lasting change.
+
+Ask yourself:
+- What exactly do I predict will happen when I speak up, and have I written it down so I can check it afterwards?
+- Which safety behaviour am I still using - a script, a stand-in, staying silent after one point - that stops me from learning the fear was wrong?
+- Have I practised this step in more than one meeting, room or audience, or only in the easiest setting?
+- Am I judging the step by how anxious I felt, or by what actually happened?
+- Is my fear severe enough that I should work through this with a professional rather than alone?
+
 ### [Hot-cold empathy gap](../articles/barriers-and-psychology/empathy-gap.md) — Barrier
 
 Ask yourself:
