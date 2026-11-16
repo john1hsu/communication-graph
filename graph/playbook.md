@@ -3160,6 +3160,29 @@ Ask yourself:
 - Did my last edit make this shorter, or did I only add caveats and background?
 - Have I cut so far that a reader new to the topic would now be missing context or find the tone curt?
 
+### [Editing for clarity](../articles/writing/editing-for-clarity.md) — Technique
+
+1. Set the draft aside, then write one sentence stating who the reader is and what they must know or do after reading.
+2. Do a structure pass first - check that the main point or request comes first, that each section serves the purpose, and that headings and order match the reader's questions.
+3. Do a paragraph pass - give each paragraph one job, open it with its point, and add the linking words or steps the reader cannot infer.
+4. Do a sentence pass - make the doer the subject and the action the verb, split sentences that carry two ideas, and cut wind-ups and repetition.
+5. Do a word pass last - replace jargon and undefined terms, then fix spelling and punctuation.
+6. Test high-stakes text with two or three people from the real audience - ask them to say in their own words what it means and what they would do next, and revise wherever their answer differs from your intent.
+
+*A team lead emails department managers about a change to how equipment is ordered.*
+
+| Before | After |
+|---|---|
+| Following the recent review of procurement workflows and in light of feedback received regarding processing delays, it has been determined that, effective from the start of next quarter, requests for equipment will be subject to an updated approval process, details of which are outlined in the attached document, which managers are asked to review. | From 1 January, send equipment requests to your finance partner instead of IT; they will approve them within three working days. Please tell your team before the holidays. The attached one-page guide shows the new form. |
+
+**Why:** The structure pass moved the change and the request to the front, the paragraph pass added the missing link (who approves and how fast), and the sentence and word passes replaced "it has been determined" and "subject to an updated approval process" with actors and verbs a manager can act on.
+
+Ask yourself:
+- Did I fix purpose, order and missing information before I started polishing words?
+- Could the intended reader restate my main point and next step in their own words after one reading?
+- Which term or step am I assuming the reader knows only because I know it?
+- Have I shown this to someone outside my own head, and did their paraphrase match what I meant?
+
 ### [Informative headings](../articles/writing/informative-headings.md) — Technique
 
 1. List the questions your reader will bring to the document, and draft one heading for each main answer before you write the body.

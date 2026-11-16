@@ -4355,6 +4355,86 @@
 <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours/howto> .
 <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/communication-graph/id/dropping-safety-behaviours> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/dabas-et-al-2023> .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Did I fix purpose, order and missing information before I started polishing words?" .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/editing-for-clarity> .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Could the intended reader restate my main point and next step in their own words after one reading?" .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/editing-for-clarity> .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Which term or step am I assuming the reader knows only because I know it?" .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/editing-for-clarity> .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Have I shown this to someone outside my own head, and did their paraphrase match what I meant?" .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/editing-for-clarity> .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity/example> <https://github.com/john1hsu/communication-graph/ontology#after> "From 1 January, send equipment requests to your finance partner instead of IT; they will approve them within three working days. Please tell your team before the holidays. The attached one-page guide shows the new form." .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity/example> <https://github.com/john1hsu/communication-graph/ontology#before> "Following the recent review of procurement workflows and in light of feedback received regarding processing delays, it has been determined that, effective from the start of next quarter, requests for equipment will be subject to an updated approval process, details of which are outlined in the attached document, which managers are asked to review." .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "A team lead emails department managers about a change to how equipment is ordered." .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity/example> <https://github.com/john1hsu/communication-graph/ontology#why> "The structure pass moved the change and the request to the front, the paragraph pass added the missing link (who approves and how fast), and the sentence and word passes replaced \"it has been determined\" and \"subject to an updated approval process\" with actors and verbs a manager can act on." .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity/howto/1> <https://schema.org/text> "Set the draft aside, then write one sentence stating who the reader is and what they must know or do after reading." .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity/howto/2> <https://schema.org/text> "Do a structure pass first - check that the main point or request comes first, that each section serves the purpose, and that headings and order match the reader's questions." .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity/howto/3> <https://schema.org/text> "Do a paragraph pass - give each paragraph one job, open it with its point, and add the linking words or steps the reader cannot infer." .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity/howto/4> <https://schema.org/text> "Do a sentence pass - make the doer the subject and the action the verb, split sentences that carry two ideas, and cut wind-ups and repetition." .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity/howto/5> <https://schema.org/text> "Do a word pass last - replace jargon and undefined terms, then fix spelling and punctuation." .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity/howto/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity/howto/6> <https://schema.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity/howto/6> <https://schema.org/text> "Test high-stakes text with two or three people from the real audience - ask them to say in their own words what it means and what they would do next, and revise wherever their answer differs from your intent." .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity/howto> <https://schema.org/name> "Editing for clarity" .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/editing-for-clarity/howto/1> .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/editing-for-clarity/howto/2> .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/editing-for-clarity/howto/3> .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/editing-for-clarity/howto/4> .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/editing-for-clarity/howto/5> .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/editing-for-clarity/howto/6> .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity> <http://purl.org/dc/terms/created> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Technique> .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity> <http://www.w3.org/2000/01/rdf-schema#label> "Editing for clarity" .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity> <http://www.w3.org/2004/02/skos/core#altLabel> "big-picture-first revision" .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity> <http://www.w3.org/2004/02/skos/core#altLabel> "clarity edit" .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity> <http://www.w3.org/2004/02/skos/core#altLabel> "revising for clarity" .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity> <http://www.w3.org/2004/02/skos/core#altLabel> "top-down editing" .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/clarity> .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity> <http://www.w3.org/2004/02/skos/core#definition> "Revising a finished draft in deliberate passes, from purpose and structure down to sentences and words, and then checking with real readers, so that the intended reader understands the message on first reading." .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/writing> .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity> <http://www.w3.org/2004/02/skos/core#prefLabel> "Editing for clarity" .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/characters-as-subjects-actions-as-verbs> .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/concise-writing> .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/informative-headings> .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/message-structure> .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/nominalization> .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/paramedic-method> .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/readability-formulas> .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/wall-of-text> .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/editing-for-clarity/s1> .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/editing-for-clarity/s2> .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/editing-for-clarity/s3> .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/editing-for-clarity/s4> .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/editing-for-clarity/s5> .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/plain-language> .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity> <https://github.com/john1hsu/communication-graph/ontology#develops> <https://github.com/john1hsu/communication-graph/id/concise-writing> .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity> <https://github.com/john1hsu/communication-graph/ontology#domain> "writing" .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/editing-for-clarity/example> .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/writing/editing-for-clarity.md" .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/editing-for-clarity/howto> .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/britton-gulgoz-1991> .
+<https://github.com/john1hsu/communication-graph/id/editing-for-clarity> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/sommers-1980> .
 <https://github.com/john1hsu/communication-graph/id/eduardo-salas> <http://purl.org/dc/terms/created> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/eduardo-salas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
 <https://github.com/john1hsu/communication-graph/id/eduardo-salas> <http://www.w3.org/2000/01/rdf-schema#label> "Eduardo Salas" .
@@ -17227,6 +17307,36 @@
 <https://github.com/john1hsu/communication-graph/id/source/dropping-safety-behaviours/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/dropping-safety-behaviours/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/communication-graph/id/source/dropping-safety-behaviours/s5> <https://schema.org/url> <https://pmc.ncbi.nlm.nih.gov/articles/PMC5627505> .
+<https://github.com/john1hsu/communication-graph/id/source/editing-for-clarity/s1> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/editing-for-clarity/s1> <http://purl.org/dc/terms/publisher> "Purdue Online Writing Lab (Purdue University)" .
+<https://github.com/john1hsu/communication-graph/id/source/editing-for-clarity/s1> <http://purl.org/dc/terms/title> "Higher Order Concerns (HOCs) and Lower Order Concerns (LOCs)" .
+<https://github.com/john1hsu/communication-graph/id/source/editing-for-clarity/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/editing-for-clarity/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/editing-for-clarity/s1> <https://schema.org/url> <https://owl.purdue.edu/owl/general_writing/mechanics/hocs_and_locs.html> .
+<https://github.com/john1hsu/communication-graph/id/source/editing-for-clarity/s2> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/editing-for-clarity/s2> <http://purl.org/dc/terms/publisher> "Sommers, N., National Council of Teachers of English, 1980 (copy hosted by CUNY City Tech OpenLab)" .
+<https://github.com/john1hsu/communication-graph/id/source/editing-for-clarity/s2> <http://purl.org/dc/terms/title> "Revision Strategies of Student Writers and Experienced Adult Writers (College Composition and Communication 31(4), 378-388)" .
+<https://github.com/john1hsu/communication-graph/id/source/editing-for-clarity/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/editing-for-clarity/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/editing-for-clarity/s2> <https://schema.org/url> <https://openlab.citytech.cuny.edu/fywpd/files/2019/01/sommors-revision-strategies.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/editing-for-clarity/s3> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/editing-for-clarity/s3> <http://purl.org/dc/terms/publisher> "Digital.gov, U.S. General Services Administration" .
+<https://github.com/john1hsu/communication-graph/id/source/editing-for-clarity/s3> <http://purl.org/dc/terms/title> "Paraphrase testing (Plain Language Guide Series)" .
+<https://github.com/john1hsu/communication-graph/id/source/editing-for-clarity/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/editing-for-clarity/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/communication-graph/id/source/editing-for-clarity/s3> <https://schema.org/url> <https://digital.gov/guides/plain-language/test/paraphrase-testing> .
+<https://github.com/john1hsu/communication-graph/id/source/editing-for-clarity/s4> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/editing-for-clarity/s4> <http://purl.org/dc/terms/publisher> "Joseph M. Williams and Joseph Bizup, Pearson (publisher page), 2021" .
+<https://github.com/john1hsu/communication-graph/id/source/editing-for-clarity/s4> <http://purl.org/dc/terms/title> "Style: Lessons in Clarity and Grace, 13th edition" .
+<https://github.com/john1hsu/communication-graph/id/source/editing-for-clarity/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/editing-for-clarity/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/communication-graph/id/source/editing-for-clarity/s4> <https://schema.org/url> <https://www.pearson.com/en-us/subject-catalog/p/Williams-Revel-for-Style-Lessons-in-Clarity-and-Grace-Instant-Access-13th-Edition/P200000002140/9780135203354> .
+<https://github.com/john1hsu/communication-graph/id/source/editing-for-clarity/s5> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/editing-for-clarity/s5> <http://purl.org/dc/terms/publisher> "John Benjamins, 1999 (DOI 10.1075/dd.1.2.04gul)" .
+<https://github.com/john1hsu/communication-graph/id/source/editing-for-clarity/s5> <http://purl.org/dc/terms/title> "Designing learnable texts: The effectiveness of revisions based on a text processing model (Document Design 1(2), 103-114)" .
+<https://github.com/john1hsu/communication-graph/id/source/editing-for-clarity/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/editing-for-clarity/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/editing-for-clarity/s5> <https://schema.org/url> <https://www.jbe-platform.com/content/journals/10.1075/dd.1.2.04gul> .
 <https://github.com/john1hsu/communication-graph/id/source/eduardo-salas/s1> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/eduardo-salas/s1> <http://purl.org/dc/terms/publisher> "Small Group Research (SAGE), author copy hosted by Helse Stavanger" .
 <https://github.com/john1hsu/communication-graph/id/source/eduardo-salas/s1> <http://purl.org/dc/terms/title> "Is There a \"Big Five\" in Teamwork? (Salas, Sims & Burke, Small Group Research 36(5), 555-599, 2005)" .

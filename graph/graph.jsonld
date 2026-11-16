@@ -7119,6 +7119,105 @@
    ]
   },
   {
+   "@id": "cm:editing-for-clarity",
+   "@type": "cmo:Technique",
+   "cmo:addresses": {
+    "@id": "cm:curse-of-knowledge"
+   },
+   "cmo:complements": {
+    "@id": "cm:plain-language"
+   },
+   "cmo:develops": {
+    "@id": "cm:concise-writing"
+   },
+   "cmo:domain": "writing",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/editing-for-clarity/example"
+   },
+   "cmo:file": "articles/writing/editing-for-clarity.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/editing-for-clarity/howto"
+   },
+   "cmo:level": "introductory",
+   "cmo:requires": {
+    "@id": "cm:audience-analysis"
+   },
+   "cmo:supportedBy": [
+    {
+     "@id": "cm:britton-gulgoz-1991"
+    },
+    {
+     "@id": "cm:sommers-1980"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/editing-for-clarity/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/editing-for-clarity/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/editing-for-clarity/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/editing-for-clarity/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/editing-for-clarity/s5"
+    }
+   ],
+   "rdfs:label": "Editing for clarity",
+   "skos:altLabel": [
+    "big-picture-first revision",
+    "clarity edit",
+    "revising for clarity",
+    "top-down editing"
+   ],
+   "skos:broader": {
+    "@id": "cm:clarity"
+   },
+   "skos:definition": "Revising a finished draft in deliberate passes, from purpose and structure down to sentences and words, and then checking with real readers, so that the intended reader understands the message on first reading.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/writing"
+   },
+   "skos:prefLabel": "Editing for clarity",
+   "skos:related": [
+    {
+     "@id": "cm:bottom-line-up-front"
+    },
+    {
+     "@id": "cm:characters-as-subjects-actions-as-verbs"
+    },
+    {
+     "@id": "cm:concise-writing"
+    },
+    {
+     "@id": "cm:informative-headings"
+    },
+    {
+     "@id": "cm:message-structure"
+    },
+    {
+     "@id": "cm:nominalization"
+    },
+    {
+     "@id": "cm:paramedic-method"
+    },
+    {
+     "@id": "cm:readability-formulas"
+    },
+    {
+     "@id": "cm:wall-of-text"
+    }
+   ]
+  },
+  {
    "@id": "cm:eduardo-salas",
    "@type": "cmo:Person",
    "cmo:authored": [
@@ -32322,6 +32421,107 @@
    "schema:text": "Repeat with the next safety behaviour, dropping each as fully and as early as you can bear rather than keeping a reduced version indefinitely."
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/editing-for-clarity/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:editing-for-clarity"
+   },
+   "rdfs:label": "Did I fix purpose, order and missing information before I started polishing words?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/editing-for-clarity/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:editing-for-clarity"
+   },
+   "rdfs:label": "Could the intended reader restate my main point and next step in their own words after one reading?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/editing-for-clarity/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:editing-for-clarity"
+   },
+   "rdfs:label": "Which term or step am I assuming the reader knows only because I know it?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/editing-for-clarity/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:editing-for-clarity"
+   },
+   "rdfs:label": "Have I shown this to someone outside my own head, and did their paraphrase match what I meant?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/editing-for-clarity/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "From 1 January, send equipment requests to your finance partner instead of IT; they will approve them within three working days. Please tell your team before the holidays. The attached one-page guide shows the new form.",
+   "cmo:before": "Following the recent review of procurement workflows and in light of feedback received regarding processing delays, it has been determined that, effective from the start of next quarter, requests for equipment will be subject to an updated approval process, details of which are outlined in the attached document, which managers are asked to review.",
+   "cmo:situation": "A team lead emails department managers about a change to how equipment is ordered.",
+   "cmo:why": "The structure pass moved the change and the request to the front, the paragraph pass added the missing link (who approves and how fast), and the sentence and word passes replaced \"it has been determined\" and \"subject to an updated approval process\" with actors and verbs a manager can act on."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/editing-for-clarity/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Editing for clarity",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/editing-for-clarity/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/editing-for-clarity/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/editing-for-clarity/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/editing-for-clarity/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/editing-for-clarity/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/editing-for-clarity/howto/6"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/editing-for-clarity/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Set the draft aside, then write one sentence stating who the reader is and what they must know or do after reading."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/editing-for-clarity/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Do a structure pass first - check that the main point or request comes first, that each section serves the purpose, and that headings and order match the reader's questions."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/editing-for-clarity/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Do a paragraph pass - give each paragraph one job, open it with its point, and add the linking words or steps the reader cannot infer."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/editing-for-clarity/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Do a sentence pass - make the doer the subject and the action the verb, split sentences that carry two ideas, and cut wind-ups and repetition."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/editing-for-clarity/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Do a word pass last - replace jargon and undefined terms, then fix spelling and punctuation."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/editing-for-clarity/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "Test high-stakes text with two or three people from the real audience - ask them to say in their own words what it means and what they would do next, and revise wherever their answer differs from your intent."
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/egocentric-bias/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -46958,6 +47158,76 @@
    "dcterms:title": "Seeing is believing: Using video feedback in cognitive therapy for social anxiety disorder",
    "schema:url": {
     "@id": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5627505"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/editing-for-clarity/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Purdue Online Writing Lab (Purdue University)",
+   "dcterms:title": "Higher Order Concerns (HOCs) and Lower Order Concerns (LOCs)",
+   "schema:url": {
+    "@id": "https://owl.purdue.edu/owl/general_writing/mechanics/hocs_and_locs.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/editing-for-clarity/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Sommers, N., National Council of Teachers of English, 1980 (copy hosted by CUNY City Tech OpenLab)",
+   "dcterms:title": "Revision Strategies of Student Writers and Experienced Adult Writers (College Composition and Communication 31(4), 378-388)",
+   "schema:url": {
+    "@id": "https://openlab.citytech.cuny.edu/fywpd/files/2019/01/sommors-revision-strategies.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/editing-for-clarity/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Digital.gov, U.S. General Services Administration",
+   "dcterms:title": "Paraphrase testing (Plain Language Guide Series)",
+   "schema:url": {
+    "@id": "https://digital.gov/guides/plain-language/test/paraphrase-testing"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/editing-for-clarity/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Joseph M. Williams and Joseph Bizup, Pearson (publisher page), 2021",
+   "dcterms:title": "Style: Lessons in Clarity and Grace, 13th edition",
+   "schema:url": {
+    "@id": "https://www.pearson.com/en-us/subject-catalog/p/Williams-Revel-for-Style-Lessons-in-Clarity-and-Grace-Instant-Access-13th-Edition/P200000002140/9780135203354"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/editing-for-clarity/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "John Benjamins, 1999 (DOI 10.1075/dd.1.2.04gul)",
+   "dcterms:title": "Designing learnable texts: The effectiveness of revisions based on a text processing model (Document Design 1(2), 103-114)",
+   "schema:url": {
+    "@id": "https://www.jbe-platform.com/content/journals/10.1075/dd.1.2.04gul"
    }
   },
   {

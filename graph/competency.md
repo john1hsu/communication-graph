@@ -42,6 +42,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:culture-assimilator` | 2 | Cultural intelligence, Intercultural competence |
 | `cm:describe-analyze-evaluate` | 2 | Ethnocentrism, Intercultural competence |
 | `cm:dropping-safety-behaviours` | 2 | Social anxiety, safety-behaviours |
+| `cm:editing-for-clarity` | 2 | Concise writing, Curse of knowledge |
 | `cm:escalation-communication` | 2 | Employee silence, MUM effect |
 | `cm:facilitation` | 2 | Interrupting, Unequal participation |
 | `cm:graded-assertiveness` | 2 | Employee silence, Upward dissent |
@@ -55,9 +56,8 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:risk-numbers-as-natural-frequencies` | 2 | Communicating uncertainty to decision makers, base-rate-neglect |
 | `cm:self-affirmation-before-feedback` | 2 | Defensiveness, Receiving feedback |
 | `cm:self-distancing` | 2 | Public speaking anxiety, Spotlight effect |
-| `cm:silence-and-pauses` | 2 | Filled pauses, Mythical fixed-pie bias |
 
-…and 65 more.
+…and 66 more.
 
 ## Toolkit by situation
 
@@ -135,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:wise-feedback` | contested | `cm:troy-moua-van-boekel-2024` |
 | `cm:power-posing` | failed-replication | `cm:crede-2019` |
 
-…and 201 more.
+…and 202 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -144,6 +144,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | node | type |
 |---|---|
 | `cm:dropping-safety-behaviours` | cmo:Technique |
+| `cm:editing-for-clarity` | cmo:Technique |
 | `cm:empathy` | cmo:Disposition |
 | `cm:employee-silence` | cmo:Barrier |
 | `cm:escalation-communication` | cmo:Technique |
@@ -172,9 +173,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:memorandum` | cmo:Genre |
 | `cm:message-structure` | cmo:Concept |
 | `cm:mindfulness` | cmo:Technique |
-| `cm:mirroring` | cmo:Technique |
 
-…and 64 more.
+…and 65 more.
 
 ## Orphan articles (gap)
 

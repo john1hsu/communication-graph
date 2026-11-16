@@ -8169,6 +8169,126 @@
   ]
  },
  {
+  "id": "cm:editing-for-clarity",
+  "title": "Editing for clarity",
+  "aliases": [
+   "revising for clarity",
+   "top-down editing",
+   "clarity edit",
+   "big-picture-first revision"
+  ],
+  "type": "Technique",
+  "domain": "writing",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/writing/editing-for-clarity.md",
+  "created": "2026-11-16",
+  "summary": "Revising a finished draft in deliberate passes, from purpose and structure down to sentences and words, and then checking with real readers, so that the intended reader understands the message on first reading.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:clarity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:paramedic-method"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:characters-as-subjects-actions-as-verbs"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:readability-formulas"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:nominalization"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:concise-writing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:message-structure"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:informative-headings"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:bottom-line-up-front"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:wall-of-text"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:audience-analysis"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:curse-of-knowledge",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:plain-language",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:develops",
+    "object": "cm:concise-writing",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:sommers-1980",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:britton-gulgoz-1991",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Did I fix purpose, order and missing information before I started polishing words?",
+   "Could the intended reader restate my main point and next step in their own words after one reading?",
+   "Which term or step am I assuming the reader knows only because I know it?",
+   "Have I shown this to someone outside my own head, and did their paraphrase match what I meant?"
+  ],
+  "steps": [
+   "Set the draft aside, then write one sentence stating who the reader is and what they must know or do after reading.",
+   "Do a structure pass first - check that the main point or request comes first, that each section serves the purpose, and that headings and order match the reader's questions.",
+   "Do a paragraph pass - give each paragraph one job, open it with its point, and add the linking words or steps the reader cannot infer.",
+   "Do a sentence pass - make the doer the subject and the action the verb, split sentences that carry two ideas, and cut wind-ups and repetition.",
+   "Do a word pass last - replace jargon and undefined terms, then fix spelling and punctuation.",
+   "Test high-stakes text with two or three people from the real audience - ask them to say in their own words what it means and what they would do next, and revise wherever their answer differs from your intent."
+  ],
+  "example": {
+   "situation": "A team lead emails department managers about a change to how equipment is ordered.",
+   "before": "Following the recent review of procurement workflows and in light of feedback received regarding processing delays, it has been determined that, effective from the start of next quarter, requests for equipment will be subject to an updated approval process, details of which are outlined in the attached document, which managers are asked to review.",
+   "after": "From 1 January, send equipment requests to your finance partner instead of IT; they will approve them within three working days. Please tell your team before the holidays. The attached one-page guide shows the new form.",
+   "why": "The structure pass moved the change and the request to the front, the paragraph pass added the missing link (who approves and how fast), and the sentence and word passes replaced \"it has been determined\" and \"subject to an updated approval process\" with actors and verbs a manager can act on."
+  },
+  "source_urls": [
+   "https://owl.purdue.edu/owl/general_writing/mechanics/hocs_and_locs.html",
+   "https://openlab.citytech.cuny.edu/fywpd/files/2019/01/sommors-revision-strategies.pdf",
+   "https://digital.gov/guides/plain-language/test/paraphrase-testing",
+   "https://www.pearson.com/en-us/subject-catalog/p/Williams-Revel-for-Style-Lessons-in-Clarity-and-Grace-Instant-Access-13th-Edition/P200000002140/9780135203354",
+   "https://www.jbe-platform.com/content/journals/10.1075/dd.1.2.04gul"
+  ]
+ },
+ {
   "id": "cm:eduardo-salas",
   "title": "Eduardo Salas",
   "aliases": [
