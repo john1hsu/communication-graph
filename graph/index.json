@@ -9901,6 +9901,92 @@
   ]
  },
  {
+  "id": "cm:employee-engagement",
+  "title": "Employee engagement",
+  "aliases": [
+   "work engagement",
+   "personal engagement at work"
+  ],
+  "type": "Phenomenon",
+  "domain": "feedback-and-coaching",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/feedback-and-coaching/employee-engagement.md",
+  "created": "2026-11-16",
+  "summary": "The degree to which people invest their physical, cognitive and emotional energy in their work role rather than withdrawing from it; widely measured by employee surveys and strongly shaped by how managers talk with, recognise and listen to their people.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:work-motivation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:one-on-one-meetings"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:praise-and-recognition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:feedback"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:employee-silence"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:workplace-stress"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:zoom-fatigue"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:william-a-kahn",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:psychological-safety",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:harter-schmidt-hayes-2002",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:christian-garza-slaughter-2011",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:studiedIn",
+    "object": "cm:industrial-organizational-psychology",
+    "source": "s2",
+    "confidence": "high"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://scilit.com/publications/b9cb098cbfb5b985dfc5a2fb689e1876",
+   "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/0517A938DBEDA2E0BE2FBE27A9DDC4DB/S175494260000002Xa.pdf/meaning_of_employee_engagement.pdf",
+   "https://pubmed.ncbi.nlm.nih.gov/12002955/",
+   "https://experts.arizona.edu/en/publications/work-engagement-a-quantitative-review-and-test-of-its-relations-w/",
+   "https://www.gallup.com/workplace/713033/managers-and-team-productivity.aspx",
+   "https://www.cipd.org/en/views-and-insights/thought-leadership/the-world-of-work/engagement-good-management/"
+  ]
+ },
+ {
   "id": "cm:employee-silence",
   "title": "Employee silence",
   "aliases": [
