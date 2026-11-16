@@ -14561,6 +14561,92 @@
   ]
  },
  {
+  "id": "cm:industrial-organizational-psychology",
+  "title": "Industrial-organizational psychology",
+  "aliases": [
+   "I-O psychology",
+   "I/O psychology",
+   "work psychology",
+   "occupational psychology"
+  ],
+  "type": "Field",
+  "domain": "foundations",
+  "level": "introductory",
+  "evidenceStatus": "theoretical",
+  "file": "articles/foundations/industrial-organizational-psychology.md",
+  "created": "2026-11-16",
+  "summary": "The scientific study of how people behave at work and how work affects them, applied to hiring, training, performance measurement, leadership, teams and well-being; it supplies much of the evidence behind workplace advice on feedback, interviews and team communication.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:psychology"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:social-psychology"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:organizational-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:feedback"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:job-interview"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:performance-review"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:employee-engagement"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:group-communication"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:hugo-munsterberg",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedIn",
+    "object": "cm:psychology-and-industrial-efficiency",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:influencedBy",
+    "object": "cm:wilhelm-wundt",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:influencedBy",
+    "object": "cm:hawthorne-studies",
+    "source": "s1",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://openstax.org/books/psychology-2e/pages/13-1-what-is-industrial-and-organizational-psychology",
+   "https://www.siop.org/about-siop/siop-history/early-history/",
+   "https://www.siop.org/about-siop/about-i-o-psychology/",
+   "https://www.apa.org/ed/graduate/specialize/industrial",
+   "https://www.nber.org/papers/w15016",
+   "https://www.psychologicalscience.org/journals/pspi/j.1529-1006.2006.00030.x/"
+  ]
+ },
+ {
   "id": "cm:influence-without-authority",
   "title": "Influence without authority",
   "aliases": [

@@ -12764,6 +12764,90 @@
    ]
   },
   {
+   "@id": "cm:industrial-organizational-psychology",
+   "@type": "cmo:Field",
+   "cmo:domain": "foundations",
+   "cmo:evidenceStatus": "theoretical",
+   "cmo:file": "articles/foundations/industrial-organizational-psychology.md",
+   "cmo:influencedBy": [
+    {
+     "@id": "cm:hawthorne-studies"
+    },
+    {
+     "@id": "cm:wilhelm-wundt"
+    }
+   ],
+   "cmo:introducedBy": {
+    "@id": "cm:hugo-munsterberg"
+   },
+   "cmo:introducedIn": {
+    "@id": "cm:psychology-and-industrial-efficiency"
+   },
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/industrial-organizational-psychology/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/industrial-organizational-psychology/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/industrial-organizational-psychology/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/industrial-organizational-psychology/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/industrial-organizational-psychology/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/industrial-organizational-psychology/s6"
+    }
+   ],
+   "rdfs:label": "Industrial-organizational psychology",
+   "skos:altLabel": [
+    "I-O psychology",
+    "I/O psychology",
+    "occupational psychology",
+    "work psychology"
+   ],
+   "skos:broader": {
+    "@id": "cm:psychology"
+   },
+   "skos:definition": "The scientific study of how people behave at work and how work affects them, applied to hiring, training, performance measurement, leadership, teams and well-being; it supplies much of the evidence behind workplace advice on feedback, interviews and team communication.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/foundations"
+   },
+   "skos:prefLabel": "Industrial-organizational psychology",
+   "skos:related": [
+    {
+     "@id": "cm:employee-engagement"
+    },
+    {
+     "@id": "cm:feedback"
+    },
+    {
+     "@id": "cm:group-communication"
+    },
+    {
+     "@id": "cm:job-interview"
+    },
+    {
+     "@id": "cm:organizational-communication"
+    },
+    {
+     "@id": "cm:performance-review"
+    },
+    {
+     "@id": "cm:social-psychology"
+    }
+   ]
+  },
+  {
    "@id": "cm:influence-without-authority",
    "@type": "cmo:Technique",
    "cmo:appliedIn": {
@@ -52502,6 +52586,90 @@
    "dcterms:title": "Culture as a Consequence: A Multilevel Multivariate Meta-Analysis of the Effects of Individual and Country Characteristics on Work-Related Cultural Values",
    "schema:url": {
     "@id": "https://core.ac.uk/download/149233367.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/industrial-organizational-psychology/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Spielman, Jenkins & Lovett, OpenStax (Rice University), 2020",
+   "dcterms:title": "Psychology 2e, Section 13.1: What Is Industrial and Organizational Psychology?",
+   "schema:url": {
+    "@id": "https://openstax.org/books/psychology-2e/pages/13-1-what-is-industrial-and-organizational-psychology"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/industrial-organizational-psychology/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Society for Industrial and Organizational Psychology (SIOP)",
+   "dcterms:title": "History of Industrial-Organizational Psychology: Early History",
+   "schema:url": {
+    "@id": "https://www.siop.org/about-siop/siop-history/early-history/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/industrial-organizational-psychology/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Society for Industrial and Organizational Psychology (SIOP)",
+   "dcterms:title": "What Is I-O Psychology?",
+   "schema:url": {
+    "@id": "https://www.siop.org/about-siop/about-i-o-psychology/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/industrial-organizational-psychology/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "American Psychological Association, Office of Graduate and Postgraduate Education",
+   "dcterms:title": "Industrial and Organizational Psychology (recognized specialty)",
+   "schema:url": {
+    "@id": "https://www.apa.org/ed/graduate/specialize/industrial"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/industrial-organizational-psychology/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Steven D. Levitt & John A. List, NBER Working Paper 15016 (2009); published in American Economic Journal, Applied Economics 3(1) (2011)",
+   "dcterms:title": "Was There Really a Hawthorne Effect at the Hawthorne Plant? An Analysis of the Original Illumination Experiments",
+   "schema:url": {
+    "@id": "https://www.nber.org/papers/w15016"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/industrial-organizational-psychology/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Kozlowski & Ilgen, Psychological Science in the Public Interest 7(3) (2006), Association for Psychological Science",
+   "dcterms:title": "Enhancing the Effectiveness of Work Groups and Teams",
+   "schema:url": {
+    "@id": "https://www.psychologicalscience.org/journals/pspi/j.1529-1006.2006.00030.x/"
    }
   },
   {
