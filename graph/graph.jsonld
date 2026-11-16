@@ -4386,6 +4386,98 @@
    ]
   },
   {
+   "@id": "cm:communication-accommodation-theory",
+   "@type": "cmo:Theory",
+   "cmo:appliedIn": {
+    "@id": "cm:instant-messaging"
+   },
+   "cmo:demonstratedBy": [
+    {
+     "@id": "cm:giles-taylor-bourhis-1973"
+    },
+    {
+     "@id": "cm:muir-et-al-2017"
+    }
+   ],
+   "cmo:domain": "cross-cultural-communication",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:file": "articles/cross-cultural-communication/communication-accommodation-theory.md",
+   "cmo:introducedBy": {
+    "@id": "cm:howard-giles"
+   },
+   "cmo:level": "intermediate",
+   "cmo:studiedIn": {
+    "@id": "cm:communication-studies"
+   },
+   "cmo:supportedBy": {
+    "@id": "cm:soliz-giles-2014"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/communication-accommodation-theory/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/communication-accommodation-theory/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/communication-accommodation-theory/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/communication-accommodation-theory/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/communication-accommodation-theory/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/communication-accommodation-theory/s6"
+    }
+   ],
+   "rdfs:label": "Communication accommodation theory",
+   "skos:altLabel": [
+    "CAT",
+    "accommodation theory",
+    "speech accommodation theory"
+   ],
+   "skos:broader": {
+    "@id": "cm:intercultural-communication"
+   },
+   "skos:definition": "Howard Giles's theory that people adjust their accent, pace, vocabulary and style towards a partner (convergence) or away from them (divergence) to manage social distance, and that how the partner reads those adjustments, as respectful, patronising or cold, shapes trust and satisfaction.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/cross-cultural-communication"
+   },
+   "skos:prefLabel": "Communication accommodation theory",
+   "skos:related": [
+    {
+     "@id": "cm:audience-design"
+    },
+    {
+     "@id": "cm:communicating-across-languages"
+    },
+    {
+     "@id": "cm:mirroring"
+    },
+    {
+     "@id": "cm:multicultural-team"
+    },
+    {
+     "@id": "cm:politeness-theory"
+    },
+    {
+     "@id": "cm:power-distance"
+    },
+    {
+     "@id": "cm:rapport"
+    },
+    {
+     "@id": "cm:register-and-tone"
+    }
+   ]
+  },
+  {
    "@id": "cm:communication-apprehension",
    "@type": "cmo:Barrier",
    "cmo:causes": {
@@ -44834,6 +44926,90 @@
    "dcterms:title": "CERC Overview for COVID-19",
    "schema:url": {
     "@id": "https://emergency-origin.cdc.gov/cerc/training/pdf/COVID19_CERC.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/communication-accommodation-theory/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Howard Giles, Donald M. Taylor & Richard Bourhis, Language in Society 2(2), 177-192 (1973), doi:10.1017/S0047404500000701 (Cambridge University Press)",
+   "dcterms:title": "Towards a theory of interpersonal accommodation through language: Some Canadian data",
+   "schema:url": {
+    "@id": "https://www.cambridge.org/core/journals/language-in-society/article/abs/towards-a-theory-of-interpersonal-accommodation-through-language-some-canadian-data1/D49327958892CB1D1EBBFB9B05F3C154"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/communication-accommodation-theory/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Jessica Gasiorek, Howard Giles & Jordan Soliz, Language & Communication 41 (2015), prologue to a special issue on communication accommodation theory (CORE open-access copy)",
+   "dcterms:title": "Accommodating new vistas",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/84309575.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/communication-accommodation-theory/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Jordan Soliz & Howard Giles, Communication Yearbook 38 (Routledge, 2014), doi:10.4324/9781315858470-6",
+   "dcterms:title": "Relational and identity processes in communication: A contextual and meta-analytical review of communication accommodation theory",
+   "schema:url": {
+    "@id": "https://www.taylorfrancis.com/chapters/edit/10.4324/9781315858470-6/relational-identity-processes-communication-jordan-soliz-howard-giles"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/communication-accommodation-theory/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Kate Muir, Adam Joinson, Rachel Cotterill & Nigel Dewdney, Human Communication Research 42(3), 462-484 (2016), doi:10.1111/hcre.12083 (University of Bath research portal)",
+   "dcterms:title": "Characterizing the linguistic chameleon: Personal and social correlates of linguistic style accommodation",
+   "schema:url": {
+    "@id": "https://researchportal.bath.ac.uk/en/publications/characterizing-the-linguistic-chameleon-personal-and-social-corre/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/communication-accommodation-theory/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Kate Muir, Adam Joinson, Rachel Cotterill & Nigel Dewdney, Journal of Language and Social Psychology 36(5), 525-548 (2017), author's accepted manuscript (Bath Spa University repository)",
+   "dcterms:title": "Linguistic style accommodation shapes impression formation and rapport in computer-mediated communication",
+   "schema:url": {
+    "@id": "https://researchspace.bathspa.ac.uk/13172/1/13172.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/communication-accommodation-theory/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Howard Giles, America L. Edwards & Joseph B. Walther, Language Sciences 99, 101571 (2023), doi:10.1016/j.langsci.2023.101571 (University of Kentucky research portal)",
+   "dcterms:title": "Communication accommodation theory: Past accomplishments, current trends, and future prospects",
+   "schema:url": {
+    "@id": "https://scholars.uky.edu/en/publications/communication-accommodation-theory-past-accomplishments-current-t/"
    }
   },
   {
