@@ -17156,6 +17156,114 @@
   ]
  },
  {
+  "id": "cm:logrolling",
+  "title": "Logrolling",
+  "aliases": [
+   "trading across issues",
+   "cross-issue trade-offs",
+   "issue trading"
+  ],
+  "type": "Technique",
+  "domain": "negotiation",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/negotiation/logrolling.md",
+  "created": "2026-11-16",
+  "summary": "Trading concessions across issues that the parties value differently - giving ground on what matters less to you in return for gains on what matters more - so that both sides end up better off than splitting the difference issue by issue.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:integrative-negotiation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:interests-vs-positions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:multiple-equivalent-simultaneous-offers"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:concession-strategy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:negotiation-preparation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:mythical-fixed-pie"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:positional-bargaining"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:interests-vs-positions"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:perspective-taking",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:first-offer",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:moran-ritov-2002",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:henderson-trope-2009",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:thompson-1990-naive-and-experienced-negotiators",
+    "source": "s3",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Do I know which issues matter most to me, and have I ranked them?",
+   "Have I asked about, rather than assumed, the other side's priorities?",
+   "Am I settling issues one at a time when I could still trade between them?",
+   "Is each concession I make on a low-priority issue linked to a gain on a high-priority one?"
+  ],
+  "steps": [
+   "Before the meeting, list every issue in play (price, timing, scope, staffing, payment terms, risk, duration) and rank them by how much each matters to you.",
+   "Estimate the other side's ranking, then test it with questions such as \"Which of these matters most to you this quarter?\"",
+   "Keep several issues open together rather than closing them one at a time, so trades remain possible.",
+   "Propose a trade explicitly - \"If I move on X, which matters less to me, can you move on Y?\" - and make the first offer a complete package.",
+   "Give larger concessions on your low-priority issues and hold firm on your high-priority ones.",
+   "Before signing, check whether any re-arrangement of the package would leave both sides better off."
+  ],
+  "example": {
+   "situation": "A project lead and a peer manager are negotiating how many of the peer's analysts will support a migration next quarter.",
+   "before": "I need four analysts for the full quarter. Can you do three? Fine, let's say three, and then let's talk about start dates separately.",
+   "after": "Full-time headcount matters less to me than having them in weeks 3 to 8, when the data cut-over happens. You said month-end close is your crunch. If I take three analysts only for weeks 3 to 8 and give them back for close, could you make one of them your senior data person?",
+   "why": "Haggling over headcount and then dates one at a time treats each issue as a fixed split; packaging timing, seniority and headcount lets each manager concede what they care less about and keep what they care most about."
+  },
+  "source_urls": [
+   "https://www.pon.harvard.edu/daily/mediation/mediation-breaking-a-partial-impasse-in-negotiations/",
+   "https://cris.huji.ac.il/en/publications/initial-perceptions-in-negotiations-evaluation-and-response-to-lo-2/",
+   "https://www.kellogg.northwestern.edu/academics-research/research/detail/1990/an-examination-of-na/",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC3152820",
+   "https://ideas.repec.org/a/spr/grdene/v10y2001i3d10.1023_a1011262625052.html",
+   "https://bibbase.org/network/publication/froman-cohen-researchreportscompromiseandlogrollcomparingtheefficiencyoftwobargainingprocesses-1970"
+  ]
+ },
+ {
   "id": "cm:macinnis-mackinnon-macintyre-2010",
   "title": "The Illusion of Transparency and Normative Beliefs About Anxiety During Public Speaking",
   "aliases": [

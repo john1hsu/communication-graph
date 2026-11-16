@@ -15069,6 +15069,100 @@
    ]
   },
   {
+   "@id": "cm:logrolling",
+   "@type": "cmo:Technique",
+   "cmo:complements": [
+    {
+     "@id": "cm:first-offer"
+    },
+    {
+     "@id": "cm:perspective-taking"
+    }
+   ],
+   "cmo:demonstratedBy": {
+    "@id": "cm:moran-ritov-2002"
+   },
+   "cmo:domain": "negotiation",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/logrolling/example"
+   },
+   "cmo:file": "articles/negotiation/logrolling.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/logrolling/howto"
+   },
+   "cmo:level": "intermediate",
+   "cmo:requires": {
+    "@id": "cm:interests-vs-positions"
+   },
+   "cmo:supportedBy": [
+    {
+     "@id": "cm:henderson-trope-2009"
+    },
+    {
+     "@id": "cm:thompson-1990-naive-and-experienced-negotiators"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/logrolling/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/logrolling/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/logrolling/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/logrolling/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/logrolling/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/logrolling/s6"
+    }
+   ],
+   "rdfs:label": "Logrolling",
+   "skos:altLabel": [
+    "cross-issue trade-offs",
+    "issue trading",
+    "trading across issues"
+   ],
+   "skos:broader": {
+    "@id": "cm:integrative-negotiation"
+   },
+   "skos:definition": "Trading concessions across issues that the parties value differently - giving ground on what matters less to you in return for gains on what matters more - so that both sides end up better off than splitting the difference issue by issue.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/negotiation"
+   },
+   "skos:prefLabel": "Logrolling",
+   "skos:related": [
+    {
+     "@id": "cm:concession-strategy"
+    },
+    {
+     "@id": "cm:interests-vs-positions"
+    },
+    {
+     "@id": "cm:multiple-equivalent-simultaneous-offers"
+    },
+    {
+     "@id": "cm:mythical-fixed-pie"
+    },
+    {
+     "@id": "cm:negotiation-preparation"
+    },
+    {
+     "@id": "cm:positional-bargaining"
+    }
+   ]
+  },
+  {
    "@id": "cm:macinnis-mackinnon-macintyre-2010",
    "@type": "cmo:Study",
    "cmo:domain": "thinkers-and-works",
@@ -36356,6 +36450,107 @@
    "rdfs:label": "If I asked them, would they say they felt listened to - not just that I was quiet?"
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/logrolling/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:logrolling"
+   },
+   "rdfs:label": "Do I know which issues matter most to me, and have I ranked them?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/logrolling/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:logrolling"
+   },
+   "rdfs:label": "Have I asked about, rather than assumed, the other side's priorities?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/logrolling/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:logrolling"
+   },
+   "rdfs:label": "Am I settling issues one at a time when I could still trade between them?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/logrolling/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:logrolling"
+   },
+   "rdfs:label": "Is each concession I make on a low-priority issue linked to a gain on a high-priority one?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/logrolling/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "Full-time headcount matters less to me than having them in weeks 3 to 8, when the data cut-over happens. You said month-end close is your crunch. If I take three analysts only for weeks 3 to 8 and give them back for close, could you make one of them your senior data person?",
+   "cmo:before": "I need four analysts for the full quarter. Can you do three? Fine, let's say three, and then let's talk about start dates separately.",
+   "cmo:situation": "A project lead and a peer manager are negotiating how many of the peer's analysts will support a migration next quarter.",
+   "cmo:why": "Haggling over headcount and then dates one at a time treats each issue as a fixed split; packaging timing, seniority and headcount lets each manager concede what they care less about and keep what they care most about."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/logrolling/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Logrolling",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/logrolling/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/logrolling/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/logrolling/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/logrolling/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/logrolling/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/logrolling/howto/6"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/logrolling/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Before the meeting, list every issue in play (price, timing, scope, staffing, payment terms, risk, duration) and rank them by how much each matters to you."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/logrolling/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Estimate the other side's ranking, then test it with questions such as \"Which of these matters most to you this quarter?\""
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/logrolling/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Keep several issues open together rather than closing them one at a time, so trades remain possible."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/logrolling/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Propose a trade explicitly - \"If I move on X, which matters less to me, can you move on Y?\" - and make the first offer a complete package."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/logrolling/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Give larger concessions on your low-priority issues and hold firm on your high-priority ones."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/logrolling/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "Before signing, check whether any re-arrangement of the package would leave both sides better off."
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/managing-up/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -54588,6 +54783,90 @@
    "dcterms:title": "I Am Aware of My Inconsistencies but Can Tolerate Them: The Effect of High Quality Listening on Speakers' Attitude Ambivalence",
    "schema:url": {
     "@id": "https://cris.huji.ac.il/en/publications/i-am-aware-of-my-inconsistencies-but-can-tolerate-them-the-effect/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/logrolling/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "PON Staff, Program on Negotiation at Harvard Law School (adapted from Negotiation newsletter, October 2011)",
+   "dcterms:title": "Negotiations and Logrolling: Discover Opportunities to Generate Mutual Gains",
+   "schema:url": {
+    "@id": "https://www.pon.harvard.edu/daily/mediation/mediation-breaking-a-partial-impasse-in-negotiations/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/logrolling/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Moran and Ritov, Journal of Behavioral Decision Making 15(2), 101-124, 2002 (Hebrew University of Jerusalem research record)",
+   "dcterms:title": "Initial perceptions in negotiations: Evaluation and response to 'logrolling' offers",
+   "schema:url": {
+    "@id": "https://cris.huji.ac.il/en/publications/initial-perceptions-in-negotiations-evaluation-and-response-to-lo-2/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/logrolling/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Leigh Thompson, Journal of Personality and Social Psychology, 82-90, 1990 (Kellogg School of Management research record)",
+   "dcterms:title": "An examination of naive and experienced negotiators",
+   "schema:url": {
+    "@id": "https://www.kellogg.northwestern.edu/academics-research/research/detail/1990/an-examination-of-na/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/logrolling/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Henderson and Trope, Social Cognition 27(3), 402-417, 2009 (PubMed Central)",
+   "dcterms:title": "The Effects of Abstraction on Integrative Agreements: When Seeing the Forest Helps Avoid Getting Tangled in the Trees",
+   "schema:url": {
+    "@id": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3152820"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/logrolling/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Tajima and Fraser, Group Decision and Negotiation 10(3), 217-235, 2001 (RePEc/IDEAS record)",
+   "dcterms:title": "Logrolling Procedure for Multi-Issue Negotiation",
+   "schema:url": {
+    "@id": "https://ideas.repec.org/a/spr/grdene/v10y2001i3d10.1023_a1011262625052.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/logrolling/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Froman and Cohen, Behavioral Science 15(2), 180-183, 1970 (BibBase record)",
+   "dcterms:title": "Research reports. Compromise and logroll: Comparing the efficiency of two bargaining processes",
+   "schema:url": {
+    "@id": "https://bibbase.org/network/publication/froman-cohen-researchreportscompromiseandlogrollcomparingtheefficiencyoftwobargainingprocesses-1970"
    }
   },
   {

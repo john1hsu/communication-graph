@@ -135,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:wise-feedback` | contested | `cm:troy-moua-van-boekel-2024` |
 | `cm:power-posing` | failed-replication | `cm:crede-2019` |
 
-…and 205 more.
+…and 206 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -166,15 +166,15 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:listening` | cmo:Skill |
 | `cm:listening-circle` | cmo:Technique |
 | `cm:listening-styles` | cmo:Framework |
+| `cm:logrolling` | cmo:Technique |
 | `cm:meeting-agendas` | cmo:Technique |
 | `cm:meeting-recaps` | cmo:Technique |
 | `cm:memorandum` | cmo:Genre |
 | `cm:message-structure` | cmo:Concept |
 | `cm:mindfulness` | cmo:Technique |
 | `cm:mirroring` | cmo:Technique |
-| `cm:mixed-messages` | cmo:Barrier |
 
-…and 64 more.
+…and 65 more.
 
 ## Orphan articles (gap)
 

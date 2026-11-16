@@ -2088,6 +2088,29 @@ Ask yourself:
 - Have I put at least two different options on the table that would meet the same interests?
 - Which parts of this deal are genuinely fixed-sum, so I still need a fair standard to divide them?
 
+### [Logrolling](../articles/negotiation/logrolling.md) — Technique
+
+1. Before the meeting, list every issue in play (price, timing, scope, staffing, payment terms, risk, duration) and rank them by how much each matters to you.
+2. Estimate the other side's ranking, then test it with questions such as "Which of these matters most to you this quarter?"
+3. Keep several issues open together rather than closing them one at a time, so trades remain possible.
+4. Propose a trade explicitly - "If I move on X, which matters less to me, can you move on Y?" - and make the first offer a complete package.
+5. Give larger concessions on your low-priority issues and hold firm on your high-priority ones.
+6. Before signing, check whether any re-arrangement of the package would leave both sides better off.
+
+*A project lead and a peer manager are negotiating how many of the peer's analysts will support a migration next quarter.*
+
+| Before | After |
+|---|---|
+| I need four analysts for the full quarter. Can you do three? Fine, let's say three, and then let's talk about start dates separately. | Full-time headcount matters less to me than having them in weeks 3 to 8, when the data cut-over happens. You said month-end close is your crunch. If I take three analysts only for weeks 3 to 8 and give them back for close, could you make one of them your senior data person? |
+
+**Why:** Haggling over headcount and then dates one at a time treats each issue as a fixed split; packaging timing, seniority and headcount lets each manager concede what they care less about and keep what they care most about.
+
+Ask yourself:
+- Do I know which issues matter most to me, and have I ranked them?
+- Have I asked about, rather than assumed, the other side's priorities?
+- Am I settling issues one at a time when I could still trade between them?
+- Is each concession I make on a low-priority issue linked to a gain on a high-priority one?
+
 ### [Multiple equivalent simultaneous offers](../articles/negotiation/multiple-equivalent-simultaneous-offers.md) — Technique
 
 1. List every issue that is genuinely negotiable (price, scope, timing, payment terms, support, duration) and give each a weight that reflects how much it matters to you.
