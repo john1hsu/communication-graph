@@ -20740,6 +20740,104 @@
    ]
   },
   {
+   "@id": "cm:pechakucha",
+   "@type": "cmo:Genre",
+   "cmo:causes": {
+    "@id": "cm:speaking-anxiety"
+   },
+   "cmo:complements": {
+    "@id": "cm:presentation-rehearsal"
+   },
+   "cmo:contrastsWith": {
+    "@id": "cm:death-by-powerpoint"
+   },
+   "cmo:demonstratedBy": [
+    {
+     "@id": "cm:bakcek-2020"
+    },
+    {
+     "@id": "cm:beyer-gaze-lazicki-2013"
+    }
+   ],
+   "cmo:domain": "presenting-and-public-speaking",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:file": "articles/presenting-and-public-speaking/pechakucha.md",
+   "cmo:introducedBy": [
+    {
+     "@id": "cm:astrid-klein"
+    },
+    {
+     "@id": "cm:mark-dytham"
+    }
+   ],
+   "cmo:level": "introductory",
+   "cmo:requires": {
+    "@id": "cm:slide-design"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/pechakucha/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/pechakucha/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/pechakucha/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/pechakucha/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/pechakucha/s5"
+    }
+   ],
+   "rdfs:label": "PechaKucha",
+   "skos:altLabel": [
+    "20-by-20 presentation",
+    "20x20 presentation",
+    "Pecha Kucha",
+    "PechaKucha 20x20"
+   ],
+   "skos:broader": {
+    "@id": "cm:presentation"
+   },
+   "skos:definition": "A fixed-format talk of 20 images shown for 20 seconds each, advancing automatically, so the whole presentation lasts 6 minutes 40 seconds. Controlled studies find audiences rate it more favourably than conventional slide talks but remember about the same amount.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/presenting-and-public-speaking"
+   },
+   "skos:prefLabel": "PechaKucha",
+   "skos:related": [
+    {
+     "@id": "cm:assertion-evidence-slides"
+    },
+    {
+     "@id": "cm:coherence-principle"
+    },
+    {
+     "@id": "cm:death-by-powerpoint"
+    },
+    {
+     "@id": "cm:elevator-pitch"
+    },
+    {
+     "@id": "cm:presentation-rehearsal"
+    },
+    {
+     "@id": "cm:public-speaking"
+    },
+    {
+     "@id": "cm:slide-design"
+    },
+    {
+     "@id": "cm:speaking-anxiety"
+    }
+   ]
+  },
+  {
    "@id": "cm:peer-review-of-writing",
    "@type": "cmo:Technique",
    "cmo:addresses": {
@@ -63636,6 +63734,76 @@
    "dcterms:title": "Health Literacy: What Do You Need to Do?",
    "schema:url": {
     "@id": "https://www.aafp.org/pubs/afp/issues/2015/0715/p84.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/pechakucha/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Klein Dytham architecture (the format's originators), Tokyo",
+   "dcterms:title": "PechaKucha",
+   "schema:url": {
+    "@id": "https://klein-dytham.com/pechakucha"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/pechakucha/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "news",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "NPR, 20 October 2010",
+   "dcterms:title": "Hate Long, Rambling Speeches? Try Pecha-Kucha",
+   "schema:url": {
+    "@id": "https://www.npr.org/2010/10/20/130698873/hate-long-rambling-speeches-try-pecha-kucha"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/pechakucha/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Alisa A. Beyer, Catherine Gaze & Julia Lazicki, Journal of Teaching and Learning with Technology 1(2), 26-42, 2013",
+   "dcterms:title": "Comparing students' evaluations and recall for student Pecha Kucha and PowerPoint presentations",
+   "schema:url": {
+    "@id": "https://scholarworks.iu.edu/journals/index.php/jotlt/article/view/3109"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/pechakucha/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Bakcek, Tastan, Iyigun, Kurtoglu & Tastan, Nurse Education in Practice 42, 2020, doi:10.1016/j.nepr.2020.102695 (Eastern Mediterranean University repository record)",
+   "dcterms:title": "Comparison of PechaKucha and traditional PowerPoint presentations in nursing education: A randomized controlled study",
+   "schema:url": {
+    "@id": "https://i-rep.emu.edu.tr/items/4c000965-42f1-4bc9-8619-8103cf93a34d/full"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/pechakucha/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Anna Gadd Colombi, IAFOR Journal of Education 5(3), 2017",
+   "dcterms:title": "The Impact of Pecha Kucha Presentations in the Assessment of a Translation Studies Unit at The University of Western Australia",
+   "schema:url": {
+    "@id": "https://iafor.org/archives/journals/iafor-journal-of-education/10.22492.ije.5.3.03.pdf"
    }
   },
   {

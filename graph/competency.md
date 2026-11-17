@@ -18,7 +18,9 @@ _No results._
 
 _Which written contexts, channels or genres have no technique, framework or principle applied in them or structuring them?_ — `queries/03-situations-without-guidance.rq`
 
-_No results._
+| node | type |
+|---|---|
+| `cm:pechakucha` | cmo:Genre |
 
 ## Highest-leverage techniques
 
@@ -135,7 +137,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:reading-lies-from-body-language` | contested | `cm:depaulo-et-al-2003` |
 | `cm:reading-lies-from-body-language` | contested | `cm:hartwig-bond-2011` |
 
-…and 229 more.
+…and 230 more.
 
 ## Concepts with no recorded origin (gap)
 

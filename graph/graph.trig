@@ -2026,6 +2026,14 @@
 <https://github.com/john1hsu/communication-graph/id/handling-questions#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/handling-questions/s3> .
 <https://github.com/john1hsu/communication-graph/id/handling-questions#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/handling-questions/s4> .
 <https://github.com/john1hsu/communication-graph/id/handling-questions#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/handling-questions/s5> .
+<https://github.com/john1hsu/communication-graph/id/pechakucha#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/pechakucha#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/pechakucha> .
+<https://github.com/john1hsu/communication-graph/id/pechakucha#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/presenting-and-public-speaking/pechakucha.md" .
+<https://github.com/john1hsu/communication-graph/id/pechakucha#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/pechakucha/s1> .
+<https://github.com/john1hsu/communication-graph/id/pechakucha#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/pechakucha/s2> .
+<https://github.com/john1hsu/communication-graph/id/pechakucha#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/pechakucha/s3> .
+<https://github.com/john1hsu/communication-graph/id/pechakucha#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/pechakucha/s4> .
+<https://github.com/john1hsu/communication-graph/id/pechakucha#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/pechakucha/s5> .
 <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> .
 <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/presenting-and-public-speaking/presentation-rehearsal.md" .
@@ -24974,6 +24982,75 @@
   <https://github.com/john1hsu/communication-graph/id/source/handling-questions/s5> <https://schema.org/url> <https://pubmed.ncbi.nlm.nih.gov/31318228/> .
 }
 
+<https://github.com/john1hsu/communication-graph/id/pechakucha#graph> {
+  <https://github.com/john1hsu/communication-graph/id/pechakucha> <http://purl.org/dc/terms/created> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/pechakucha> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Genre> .
+  <https://github.com/john1hsu/communication-graph/id/pechakucha> <http://www.w3.org/2000/01/rdf-schema#label> "PechaKucha" .
+  <https://github.com/john1hsu/communication-graph/id/pechakucha> <http://www.w3.org/2004/02/skos/core#altLabel> "20-by-20 presentation" .
+  <https://github.com/john1hsu/communication-graph/id/pechakucha> <http://www.w3.org/2004/02/skos/core#altLabel> "20x20 presentation" .
+  <https://github.com/john1hsu/communication-graph/id/pechakucha> <http://www.w3.org/2004/02/skos/core#altLabel> "Pecha Kucha" .
+  <https://github.com/john1hsu/communication-graph/id/pechakucha> <http://www.w3.org/2004/02/skos/core#altLabel> "PechaKucha 20x20" .
+  <https://github.com/john1hsu/communication-graph/id/pechakucha> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/presentation> .
+  <https://github.com/john1hsu/communication-graph/id/pechakucha> <http://www.w3.org/2004/02/skos/core#definition> "A fixed-format talk of 20 images shown for 20 seconds each, advancing automatically, so the whole presentation lasts 6 minutes 40 seconds. Controlled studies find audiences rate it more favourably than conventional slide talks but remember about the same amount." .
+  <https://github.com/john1hsu/communication-graph/id/pechakucha> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/presenting-and-public-speaking> .
+  <https://github.com/john1hsu/communication-graph/id/pechakucha> <http://www.w3.org/2004/02/skos/core#prefLabel> "PechaKucha" .
+  <https://github.com/john1hsu/communication-graph/id/pechakucha> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> .
+  <https://github.com/john1hsu/communication-graph/id/pechakucha> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/coherence-principle> .
+  <https://github.com/john1hsu/communication-graph/id/pechakucha> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint> .
+  <https://github.com/john1hsu/communication-graph/id/pechakucha> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/elevator-pitch> .
+  <https://github.com/john1hsu/communication-graph/id/pechakucha> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> .
+  <https://github.com/john1hsu/communication-graph/id/pechakucha> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/public-speaking> .
+  <https://github.com/john1hsu/communication-graph/id/pechakucha> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/slide-design> .
+  <https://github.com/john1hsu/communication-graph/id/pechakucha> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> .
+  <https://github.com/john1hsu/communication-graph/id/pechakucha> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/pechakucha/s1> .
+  <https://github.com/john1hsu/communication-graph/id/pechakucha> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/pechakucha/s2> .
+  <https://github.com/john1hsu/communication-graph/id/pechakucha> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/pechakucha/s3> .
+  <https://github.com/john1hsu/communication-graph/id/pechakucha> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/pechakucha/s4> .
+  <https://github.com/john1hsu/communication-graph/id/pechakucha> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/pechakucha/s5> .
+  <https://github.com/john1hsu/communication-graph/id/pechakucha> <https://github.com/john1hsu/communication-graph/ontology#causes> <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> .
+  <https://github.com/john1hsu/communication-graph/id/pechakucha> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> .
+  <https://github.com/john1hsu/communication-graph/id/pechakucha> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint> .
+  <https://github.com/john1hsu/communication-graph/id/pechakucha> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/bakcek-2020> .
+  <https://github.com/john1hsu/communication-graph/id/pechakucha> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/beyer-gaze-lazicki-2013> .
+  <https://github.com/john1hsu/communication-graph/id/pechakucha> <https://github.com/john1hsu/communication-graph/ontology#domain> "presenting-and-public-speaking" .
+  <https://github.com/john1hsu/communication-graph/id/pechakucha> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+  <https://github.com/john1hsu/communication-graph/id/pechakucha> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/presenting-and-public-speaking/pechakucha.md" .
+  <https://github.com/john1hsu/communication-graph/id/pechakucha> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/astrid-klein> .
+  <https://github.com/john1hsu/communication-graph/id/pechakucha> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/mark-dytham> .
+  <https://github.com/john1hsu/communication-graph/id/pechakucha> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+  <https://github.com/john1hsu/communication-graph/id/pechakucha> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/slide-design> .
+  <https://github.com/john1hsu/communication-graph/id/source/pechakucha/s1> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/pechakucha/s1> <http://purl.org/dc/terms/publisher> "Klein Dytham architecture (the format's originators), Tokyo" .
+  <https://github.com/john1hsu/communication-graph/id/source/pechakucha/s1> <http://purl.org/dc/terms/title> "PechaKucha" .
+  <https://github.com/john1hsu/communication-graph/id/source/pechakucha/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/pechakucha/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/communication-graph/id/source/pechakucha/s1> <https://schema.org/url> <https://klein-dytham.com/pechakucha> .
+  <https://github.com/john1hsu/communication-graph/id/source/pechakucha/s2> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/pechakucha/s2> <http://purl.org/dc/terms/publisher> "NPR, 20 October 2010" .
+  <https://github.com/john1hsu/communication-graph/id/source/pechakucha/s2> <http://purl.org/dc/terms/title> "Hate Long, Rambling Speeches? Try Pecha-Kucha" .
+  <https://github.com/john1hsu/communication-graph/id/source/pechakucha/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/pechakucha/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "news" .
+  <https://github.com/john1hsu/communication-graph/id/source/pechakucha/s2> <https://schema.org/url> <https://www.npr.org/2010/10/20/130698873/hate-long-rambling-speeches-try-pecha-kucha> .
+  <https://github.com/john1hsu/communication-graph/id/source/pechakucha/s3> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/pechakucha/s3> <http://purl.org/dc/terms/publisher> "Alisa A. Beyer, Catherine Gaze & Julia Lazicki, Journal of Teaching and Learning with Technology 1(2), 26-42, 2013" .
+  <https://github.com/john1hsu/communication-graph/id/source/pechakucha/s3> <http://purl.org/dc/terms/title> "Comparing students' evaluations and recall for student Pecha Kucha and PowerPoint presentations" .
+  <https://github.com/john1hsu/communication-graph/id/source/pechakucha/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/pechakucha/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/pechakucha/s3> <https://schema.org/url> <https://scholarworks.iu.edu/journals/index.php/jotlt/article/view/3109> .
+  <https://github.com/john1hsu/communication-graph/id/source/pechakucha/s4> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/pechakucha/s4> <http://purl.org/dc/terms/publisher> "Bakcek, Tastan, Iyigun, Kurtoglu & Tastan, Nurse Education in Practice 42, 2020, doi:10.1016/j.nepr.2020.102695 (Eastern Mediterranean University repository record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/pechakucha/s4> <http://purl.org/dc/terms/title> "Comparison of PechaKucha and traditional PowerPoint presentations in nursing education: A randomized controlled study" .
+  <https://github.com/john1hsu/communication-graph/id/source/pechakucha/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/pechakucha/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/pechakucha/s4> <https://schema.org/url> <https://i-rep.emu.edu.tr/items/4c000965-42f1-4bc9-8619-8103cf93a34d/full> .
+  <https://github.com/john1hsu/communication-graph/id/source/pechakucha/s5> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/pechakucha/s5> <http://purl.org/dc/terms/publisher> "Anna Gadd Colombi, IAFOR Journal of Education 5(3), 2017" .
+  <https://github.com/john1hsu/communication-graph/id/source/pechakucha/s5> <http://purl.org/dc/terms/title> "The Impact of Pecha Kucha Presentations in the Assessment of a Translation Studies Unit at The University of Western Australia" .
+  <https://github.com/john1hsu/communication-graph/id/source/pechakucha/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/pechakucha/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/pechakucha/s5> <https://schema.org/url> <https://iafor.org/archives/journals/iafor-journal-of-education/10.22492.ije.5.3.03.pdf> .
+}
+
 <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal#graph> {
   <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
   <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Have I said the whole talk out loud, standing, at least once from start to finish?" .
@@ -34584,6 +34661,7 @@
   <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/coherence-principle> .
   <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint> .
   <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/edward-tufte> .
+  <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/pechakucha> .
   <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/presentation> .
   <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/pyramid-principle> .
   <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/slide-design> .
@@ -34613,6 +34691,9 @@
   <https://github.com/john1hsu/communication-graph/id/assertive-communication> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/joseph-wolpe> .
   <https://github.com/john1hsu/communication-graph/id/assertiveness> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/assertive-communication> .
   <https://github.com/john1hsu/communication-graph/id/assertiveness> <https://github.com/john1hsu/communication-graph/ontology#developedBy> <https://github.com/john1hsu/communication-graph/id/behavior-modeling-training> .
+  <https://github.com/john1hsu/communication-graph/id/astrid-klein> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/astrid-klein> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+  <https://github.com/john1hsu/communication-graph/id/astrid-klein> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/pechakucha> .
   <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
@@ -34726,6 +34807,7 @@
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/monroes-motivated-sequence> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/narrative-persuasion> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/patient-education> .
+  <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/pechakucha> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/peer-review-of-writing> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/persuasion> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/plain-language> .
@@ -34787,6 +34869,9 @@
   <https://github.com/john1hsu/communication-graph/id/backchannel-responses> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
   <https://github.com/john1hsu/communication-graph/id/backchannel-responses> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/listening> .
   <https://github.com/john1hsu/communication-graph/id/backchannel-responses> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
+  <https://github.com/john1hsu/communication-graph/id/bakcek-2020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/bakcek-2020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
+  <https://github.com/john1hsu/communication-graph/id/bakcek-2020> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/pechakucha> .
   <https://github.com/john1hsu/communication-graph/id/baker-chaparro-shaikh-2005> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/wall-of-text> .
   <https://github.com/john1hsu/communication-graph/id/balling-2018> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/characters-as-subjects-actions-as-verbs> .
   <https://github.com/john1hsu/communication-graph/id/balling-2018> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/joseph-m-williams> .
@@ -34892,6 +34977,9 @@
   <https://github.com/john1hsu/communication-graph/id/bennett-et-al-2021> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> .
   <https://github.com/john1hsu/communication-graph/id/berg-et-al-2019> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/open-ended-questions> .
   <https://github.com/john1hsu/communication-graph/id/bertram-gross> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/alvin-toffler> .
+  <https://github.com/john1hsu/communication-graph/id/beyer-gaze-lazicki-2013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/beyer-gaze-lazicki-2013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
+  <https://github.com/john1hsu/communication-graph/id/beyer-gaze-lazicki-2013> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/pechakucha> .
   <https://github.com/john1hsu/communication-graph/id/beyond-culture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/beyond-culture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
   <https://github.com/john1hsu/communication-graph/id/beyond-culture> <https://github.com/john1hsu/communication-graph/ontology#introduces> <https://github.com/john1hsu/communication-graph/id/high-and-low-context-cultures> .
@@ -35647,6 +35735,7 @@
   <https://github.com/john1hsu/communication-graph/id/coherence-principle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/coherence-principle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/coherence-principle> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> .
+  <https://github.com/john1hsu/communication-graph/id/coherence-principle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/pechakucha> .
   <https://github.com/john1hsu/communication-graph/id/collins-miller-1994> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/reciprocal-self-disclosure> .
   <https://github.com/john1hsu/communication-graph/id/collins-miller-1994> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/self-disclosure> .
   <https://github.com/john1hsu/communication-graph/id/colquitt-scott-lepine-2007> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/trusted-advisor> .
@@ -35978,6 +36067,7 @@
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/paramedic-method> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/paraphrasing> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/patient-education> .
+  <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/pechakucha> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/peer-review-of-writing> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/perception-checking> .
@@ -36520,9 +36610,11 @@
   <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/coherence-principle> .
   <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/edward-tufte> .
   <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/fm-6-0> .
+  <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/pechakucha> .
   <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/slide-design> .
   <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> .
   <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/slide-design> .
+  <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/pechakucha> .
   <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/edward-tufte> .
   <https://github.com/john1hsu/communication-graph/id/deci-koestner-ryan-1999> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/self-determination-theory> .
   <https://github.com/john1hsu/communication-graph/id/decision-quality> <https://github.com/john1hsu/communication-graph/ontology#underminedBy> <https://github.com/john1hsu/communication-graph/id/information-overload> .
@@ -36996,6 +37088,7 @@
   <https://github.com/john1hsu/communication-graph/id/elevator-pitch> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/presentation> .
   <https://github.com/john1hsu/communication-graph/id/elevator-pitch> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/elevator-pitch> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/monroes-motivated-sequence> .
+  <https://github.com/john1hsu/communication-graph/id/elevator-pitch> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/pechakucha> .
   <https://github.com/john1hsu/communication-graph/id/elevator-pitch> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/philip-crosby> .
   <https://github.com/john1hsu/communication-graph/id/elevator-pitch> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/rule-of-three> .
   <https://github.com/john1hsu/communication-graph/id/elevator-pitch> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/philip-crosby> .
@@ -38438,6 +38531,7 @@
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/paramedic-method> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/paraphrasing> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/patient-education> .
+  <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/pechakucha> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/peer-review-of-writing> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/perception-checking> .
@@ -39795,6 +39889,9 @@
   <https://github.com/john1hsu/communication-graph/id/manipulation> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/persuasion> .
   <https://github.com/john1hsu/communication-graph/id/many-labs-2> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/social-psychology> .
   <https://github.com/john1hsu/communication-graph/id/many-labs-2> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/egocentric-bias> .
+  <https://github.com/john1hsu/communication-graph/id/mark-dytham> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/mark-dytham> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+  <https://github.com/john1hsu/communication-graph/id/mark-dytham> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/pechakucha> .
   <https://github.com/john1hsu/communication-graph/id/mark-et-al-2016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/mark-et-al-2016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/mark-et-al-2016> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> .
@@ -40664,6 +40761,7 @@
   <https://github.com/john1hsu/communication-graph/id/organizational-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> .
   <https://github.com/john1hsu/communication-graph/id/organizational-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/osatuke-et-al-2009> .
   <https://github.com/john1hsu/communication-graph/id/organizational-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/patient-education> .
+  <https://github.com/john1hsu/communication-graph/id/organizational-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/pechakucha> .
   <https://github.com/john1hsu/communication-graph/id/organizational-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/performance-review> .
   <https://github.com/john1hsu/communication-graph/id/organizational-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/presentation> .
   <https://github.com/john1hsu/communication-graph/id/organizational-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/realistic-merger-preview> .
@@ -40836,6 +40934,14 @@
   <https://github.com/john1hsu/communication-graph/id/paul-grice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/paul-grice> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/grices-maxims> .
   <https://github.com/john1hsu/communication-graph/id/pearsall-ellis-2011> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
+  <https://github.com/john1hsu/communication-graph/id/pechakucha> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+  <https://github.com/john1hsu/communication-graph/id/pechakucha> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/pechakucha> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
+  <https://github.com/john1hsu/communication-graph/id/pechakucha> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/humanities> .
+  <https://github.com/john1hsu/communication-graph/id/pechakucha> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
+  <https://github.com/john1hsu/communication-graph/id/pechakucha> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/presentation> .
+  <https://github.com/john1hsu/communication-graph/id/pechakucha> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
+  <https://github.com/john1hsu/communication-graph/id/pechakucha> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
   <https://github.com/john1hsu/communication-graph/id/peck-levashina-2017> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/impression-management> .
   <https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -41287,6 +41393,7 @@
   <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/fm-6-0> .
   <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/gestures> .
   <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/handling-questions> .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/pechakucha> .
   <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/presentation> .
   <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/public-speaking> .
   <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/self-distancing> .
@@ -41299,6 +41406,7 @@
   <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/vocal-delivery> .
   <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/executive-briefing> .
   <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> .
+  <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/pechakucha> .
   <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/presentation> .
   <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/self-recording-playback> .
   <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/thought-groups> .
@@ -41311,10 +41419,12 @@
   <https://github.com/john1hsu/communication-graph/id/presentation> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/organizational-communication> .
   <https://github.com/john1hsu/communication-graph/id/presentation> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/presentation> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/elevator-pitch> .
+  <https://github.com/john1hsu/communication-graph/id/presentation> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/pechakucha> .
   <https://github.com/john1hsu/communication-graph/id/presentation> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/slide-design> .
   <https://github.com/john1hsu/communication-graph/id/presentation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> .
   <https://github.com/john1hsu/communication-graph/id/presentation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint> .
   <https://github.com/john1hsu/communication-graph/id/presentation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/elevator-pitch> .
+  <https://github.com/john1hsu/communication-graph/id/presentation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/pechakucha> .
   <https://github.com/john1hsu/communication-graph/id/presentation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/slide-design> .
   <https://github.com/john1hsu/communication-graph/id/presentation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-load> .
   <https://github.com/john1hsu/communication-graph/id/presentation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/edward-tufte> .
@@ -41544,6 +41654,7 @@
   <https://github.com/john1hsu/communication-graph/id/public-speaking> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/self-recording-playback> .
   <https://github.com/john1hsu/communication-graph/id/public-speaking> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/signposting> .
   <https://github.com/john1hsu/communication-graph/id/public-speaking> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/vocal-delivery> .
+  <https://github.com/john1hsu/communication-graph/id/public-speaking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/pechakucha> .
   <https://github.com/john1hsu/communication-graph/id/public-speaking> <https://github.com/john1hsu/communication-graph/ontology#developedBy> <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> .
   <https://github.com/john1hsu/communication-graph/id/public-speaking> <https://github.com/john1hsu/communication-graph/ontology#developedBy> <https://github.com/john1hsu/communication-graph/id/self-recording-playback> .
   <https://github.com/john1hsu/communication-graph/id/pyramid-principle/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -42465,7 +42576,9 @@
   <https://github.com/john1hsu/communication-graph/id/slide-design> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> .
   <https://github.com/john1hsu/communication-graph/id/slide-design> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint> .
   <https://github.com/john1hsu/communication-graph/id/slide-design> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/coherence-principle> .
+  <https://github.com/john1hsu/communication-graph/id/slide-design> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/pechakucha> .
   <https://github.com/john1hsu/communication-graph/id/slide-design> <https://github.com/john1hsu/communication-graph/ontology#developedBy> <https://github.com/john1hsu/communication-graph/id/coherence-principle> .
+  <https://github.com/john1hsu/communication-graph/id/slide-design> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/pechakucha> .
   <https://github.com/john1hsu/communication-graph/id/small-talk/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/small-talk/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/small-talk/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -42723,6 +42836,7 @@
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/paramedic-method> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/paraphrasing> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/patient-education> .
+  <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/pechakucha> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/peer-review-of-writing> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/perception-checking> .
@@ -42872,6 +42986,7 @@
   <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> .
   <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/habit-reversal-training> .
   <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/job-interview> .
+  <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/pechakucha> .
   <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/power-posing> .
   <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/presentation> .
   <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/public-speaking> .
@@ -42885,6 +43000,7 @@
   <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/self-recording-playback> .
   <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/systematic-desensitization> .
   <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> <https://github.com/john1hsu/communication-graph/ontology#causedBy> <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> .
+  <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> <https://github.com/john1hsu/communication-graph/ontology#causedBy> <https://github.com/john1hsu/communication-graph/id/pechakucha> .
   <https://github.com/john1hsu/communication-graph/id/speech-act-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/pragmatics> .
   <https://github.com/john1hsu/communication-graph/id/speech-act-theory> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/pragmatics> .
   <https://github.com/john1hsu/communication-graph/id/speed-goldstein-goldfried-2018> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/assertive-communication> .

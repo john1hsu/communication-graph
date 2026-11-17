@@ -11919,6 +11919,42 @@
 <https://github.com/john1hsu/communication-graph/id/patient-education> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/plain-language> .
 <https://github.com/john1hsu/communication-graph/id/patient-education> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/kessels-2003> .
 <https://github.com/john1hsu/communication-graph/id/patient-education> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/sheridan-et-al-2011> .
+<https://github.com/john1hsu/communication-graph/id/pechakucha> <http://purl.org/dc/terms/created> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/pechakucha> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Genre> .
+<https://github.com/john1hsu/communication-graph/id/pechakucha> <http://www.w3.org/2000/01/rdf-schema#label> "PechaKucha" .
+<https://github.com/john1hsu/communication-graph/id/pechakucha> <http://www.w3.org/2004/02/skos/core#altLabel> "20-by-20 presentation" .
+<https://github.com/john1hsu/communication-graph/id/pechakucha> <http://www.w3.org/2004/02/skos/core#altLabel> "20x20 presentation" .
+<https://github.com/john1hsu/communication-graph/id/pechakucha> <http://www.w3.org/2004/02/skos/core#altLabel> "Pecha Kucha" .
+<https://github.com/john1hsu/communication-graph/id/pechakucha> <http://www.w3.org/2004/02/skos/core#altLabel> "PechaKucha 20x20" .
+<https://github.com/john1hsu/communication-graph/id/pechakucha> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/presentation> .
+<https://github.com/john1hsu/communication-graph/id/pechakucha> <http://www.w3.org/2004/02/skos/core#definition> "A fixed-format talk of 20 images shown for 20 seconds each, advancing automatically, so the whole presentation lasts 6 minutes 40 seconds. Controlled studies find audiences rate it more favourably than conventional slide talks but remember about the same amount." .
+<https://github.com/john1hsu/communication-graph/id/pechakucha> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/presenting-and-public-speaking> .
+<https://github.com/john1hsu/communication-graph/id/pechakucha> <http://www.w3.org/2004/02/skos/core#prefLabel> "PechaKucha" .
+<https://github.com/john1hsu/communication-graph/id/pechakucha> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> .
+<https://github.com/john1hsu/communication-graph/id/pechakucha> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/coherence-principle> .
+<https://github.com/john1hsu/communication-graph/id/pechakucha> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint> .
+<https://github.com/john1hsu/communication-graph/id/pechakucha> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/elevator-pitch> .
+<https://github.com/john1hsu/communication-graph/id/pechakucha> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> .
+<https://github.com/john1hsu/communication-graph/id/pechakucha> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/public-speaking> .
+<https://github.com/john1hsu/communication-graph/id/pechakucha> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/slide-design> .
+<https://github.com/john1hsu/communication-graph/id/pechakucha> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> .
+<https://github.com/john1hsu/communication-graph/id/pechakucha> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/pechakucha/s1> .
+<https://github.com/john1hsu/communication-graph/id/pechakucha> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/pechakucha/s2> .
+<https://github.com/john1hsu/communication-graph/id/pechakucha> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/pechakucha/s3> .
+<https://github.com/john1hsu/communication-graph/id/pechakucha> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/pechakucha/s4> .
+<https://github.com/john1hsu/communication-graph/id/pechakucha> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/pechakucha/s5> .
+<https://github.com/john1hsu/communication-graph/id/pechakucha> <https://github.com/john1hsu/communication-graph/ontology#causes> <https://github.com/john1hsu/communication-graph/id/speaking-anxiety> .
+<https://github.com/john1hsu/communication-graph/id/pechakucha> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> .
+<https://github.com/john1hsu/communication-graph/id/pechakucha> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint> .
+<https://github.com/john1hsu/communication-graph/id/pechakucha> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/bakcek-2020> .
+<https://github.com/john1hsu/communication-graph/id/pechakucha> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/beyer-gaze-lazicki-2013> .
+<https://github.com/john1hsu/communication-graph/id/pechakucha> <https://github.com/john1hsu/communication-graph/ontology#domain> "presenting-and-public-speaking" .
+<https://github.com/john1hsu/communication-graph/id/pechakucha> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/pechakucha> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/presenting-and-public-speaking/pechakucha.md" .
+<https://github.com/john1hsu/communication-graph/id/pechakucha> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/astrid-klein> .
+<https://github.com/john1hsu/communication-graph/id/pechakucha> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/mark-dytham> .
+<https://github.com/john1hsu/communication-graph/id/pechakucha> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/pechakucha> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/slide-design> .
 <https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Did I tell my reviewer who the real reader is and what kind of feedback I need at this stage?" .
 <https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/peer-review-of-writing> .
@@ -23947,6 +23983,36 @@
 <https://github.com/john1hsu/communication-graph/id/source/patient-education/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/patient-education/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "practitioner-journal" .
 <https://github.com/john1hsu/communication-graph/id/source/patient-education/s4> <https://schema.org/url> <https://www.aafp.org/pubs/afp/issues/2015/0715/p84.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/pechakucha/s1> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/pechakucha/s1> <http://purl.org/dc/terms/publisher> "Klein Dytham architecture (the format's originators), Tokyo" .
+<https://github.com/john1hsu/communication-graph/id/source/pechakucha/s1> <http://purl.org/dc/terms/title> "PechaKucha" .
+<https://github.com/john1hsu/communication-graph/id/source/pechakucha/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/pechakucha/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/pechakucha/s1> <https://schema.org/url> <https://klein-dytham.com/pechakucha> .
+<https://github.com/john1hsu/communication-graph/id/source/pechakucha/s2> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/pechakucha/s2> <http://purl.org/dc/terms/publisher> "NPR, 20 October 2010" .
+<https://github.com/john1hsu/communication-graph/id/source/pechakucha/s2> <http://purl.org/dc/terms/title> "Hate Long, Rambling Speeches? Try Pecha-Kucha" .
+<https://github.com/john1hsu/communication-graph/id/source/pechakucha/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/pechakucha/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "news" .
+<https://github.com/john1hsu/communication-graph/id/source/pechakucha/s2> <https://schema.org/url> <https://www.npr.org/2010/10/20/130698873/hate-long-rambling-speeches-try-pecha-kucha> .
+<https://github.com/john1hsu/communication-graph/id/source/pechakucha/s3> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/pechakucha/s3> <http://purl.org/dc/terms/publisher> "Alisa A. Beyer, Catherine Gaze & Julia Lazicki, Journal of Teaching and Learning with Technology 1(2), 26-42, 2013" .
+<https://github.com/john1hsu/communication-graph/id/source/pechakucha/s3> <http://purl.org/dc/terms/title> "Comparing students' evaluations and recall for student Pecha Kucha and PowerPoint presentations" .
+<https://github.com/john1hsu/communication-graph/id/source/pechakucha/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/pechakucha/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/pechakucha/s3> <https://schema.org/url> <https://scholarworks.iu.edu/journals/index.php/jotlt/article/view/3109> .
+<https://github.com/john1hsu/communication-graph/id/source/pechakucha/s4> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/pechakucha/s4> <http://purl.org/dc/terms/publisher> "Bakcek, Tastan, Iyigun, Kurtoglu & Tastan, Nurse Education in Practice 42, 2020, doi:10.1016/j.nepr.2020.102695 (Eastern Mediterranean University repository record)" .
+<https://github.com/john1hsu/communication-graph/id/source/pechakucha/s4> <http://purl.org/dc/terms/title> "Comparison of PechaKucha and traditional PowerPoint presentations in nursing education: A randomized controlled study" .
+<https://github.com/john1hsu/communication-graph/id/source/pechakucha/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/pechakucha/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/pechakucha/s4> <https://schema.org/url> <https://i-rep.emu.edu.tr/items/4c000965-42f1-4bc9-8619-8103cf93a34d/full> .
+<https://github.com/john1hsu/communication-graph/id/source/pechakucha/s5> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/pechakucha/s5> <http://purl.org/dc/terms/publisher> "Anna Gadd Colombi, IAFOR Journal of Education 5(3), 2017" .
+<https://github.com/john1hsu/communication-graph/id/source/pechakucha/s5> <http://purl.org/dc/terms/title> "The Impact of Pecha Kucha Presentations in the Assessment of a Translation Studies Unit at The University of Western Australia" .
+<https://github.com/john1hsu/communication-graph/id/source/pechakucha/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/pechakucha/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/pechakucha/s5> <https://schema.org/url> <https://iafor.org/archives/journals/iafor-journal-of-education/10.22492.ije.5.3.03.pdf> .
 <https://github.com/john1hsu/communication-graph/id/source/peer-review-of-writing/s1> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/peer-review-of-writing/s1> <http://purl.org/dc/terms/publisher> "Leiden University Scholarly Publications (author's copy)" .
 <https://github.com/john1hsu/communication-graph/id/source/peer-review-of-writing/s1> <http://purl.org/dc/terms/title> "The impact of formative peer feedback on higher education students' academic writing: a meta-analysis (Huisman, Saab, van den Broek & van Driel, Assessment & Evaluation in Higher Education 44(6), 2019)" .
