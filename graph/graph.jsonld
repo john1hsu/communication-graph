@@ -3793,6 +3793,88 @@
    ]
   },
   {
+   "@id": "cm:closed-questions",
+   "@type": "cmo:Technique",
+   "cmo:appliedIn": [
+    {
+     "@id": "cm:job-interview"
+    },
+    {
+     "@id": "cm:negotiation"
+    }
+   ],
+   "cmo:causes": {
+    "@id": "cm:acquiescence-bias"
+   },
+   "cmo:domain": "questioning-and-conversation",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/closed-questions/example"
+   },
+   "cmo:file": "articles/questioning-and-conversation/closed-questions.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/closed-questions/howto"
+   },
+   "cmo:level": "introductory",
+   "cmo:supportedBy": [
+    {
+     "@id": "cm:heritage-et-al-2007"
+    },
+    {
+     "@id": "cm:minson-et-al-2018"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/closed-questions/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/closed-questions/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/closed-questions/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/closed-questions/s4"
+    }
+   ],
+   "rdfs:label": "Closed questions",
+   "skos:altLabel": [
+    "closed-ended questions",
+    "restricted questions",
+    "yes/no questions"
+   ],
+   "skos:broader": {
+    "@id": "cm:questioning"
+   },
+   "skos:definition": "Questions that limit the answer to \"yes\" or \"no\", a choice among offered options or a single specific fact, used deliberately to confirm details, pin down commitments and narrow a discussion - while watching for the way their wording and options steer the answer.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/questioning-and-conversation"
+   },
+   "skos:prefLabel": "Closed questions",
+   "skos:related": [
+    {
+     "@id": "cm:checking-understanding"
+    },
+    {
+     "@id": "cm:follow-up-questions"
+    },
+    {
+     "@id": "cm:open-ended-questions"
+    },
+    {
+     "@id": "cm:summarizing"
+    },
+    {
+     "@id": "cm:teach-back"
+    }
+   ]
+  },
+  {
    "@id": "cm:coaching",
    "@type": "cmo:Skill",
    "cmo:complements": {
@@ -31914,6 +31996,107 @@
    "schema:text": "In email or chat, ask for a reply that restates the key detail or next step, and confirm or correct it in the thread."
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/closed-questions/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:closed-questions"
+   },
+   "rdfs:label": "Did I use closed questions only after I had explored the issue openly?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/closed-questions/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:closed-questions"
+   },
+   "rdfs:label": "Did my wording - \"right?\", \"anything\", or a short list of options - make one answer easier to give than the truthful one?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/closed-questions/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:closed-questions"
+   },
+   "rdfs:label": "Did I get an explicit commitment (who, what, by when) rather than a nod?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/closed-questions/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:closed-questions"
+   },
+   "rdfs:label": "When an answer surprised me, did I follow up with an open question before acting on it?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/closed-questions/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "Can you commit to delivering the test build by 14 March - yes or no? And is there something else that could put that date at risk?",
+   "cmo:before": "So everything's fine with the timeline, right? Anything else we should know?",
+   "cmo:situation": "A project manager closes a vendor call where a delivery date was discussed but never confirmed.",
+   "cmo:why": "The \"before\" version presumes there is no problem and uses \"anything\", which invites a polite \"no\". The \"after\" asks for a specific commitment and uses \"something\", which makes raising a risk feel expected rather than awkward."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/closed-questions/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Closed questions",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/closed-questions/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/closed-questions/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/closed-questions/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/closed-questions/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/closed-questions/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/closed-questions/howto/6"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/closed-questions/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Explore first with open questions; switch to closed ones once you know what you need to confirm, decide or quantify."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/closed-questions/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Ask for exactly the fact or commitment you need - a date, a number, a choice between named options, a yes or no."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/closed-questions/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Word the question so the honest answer is easy to give - \"Is there something else...?\" rather than \"Is there anything else...?\", and presume a problem exists when you suspect one."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/closed-questions/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "When you offer options, make them complete and balanced, and add \"or something else?\" so the list does not decide the answer for them."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/closed-questions/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Ask one thing per question, then stop and wait for the answer instead of stacking a second question on top."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/closed-questions/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "Follow a surprising \"yes\" or \"no\" with an open question (\"What makes you say that?\") before acting on it."
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/coaching/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -45974,6 +46157,62 @@
    "dcterms:title": "Communication in interdisciplinary teams: exploring closed-loop communication during in situ trauma team training (Härgestam et al., BMJ Open, 2013)",
    "schema:url": {
     "@id": "https://psnet.ahrq.gov/issue/communication-interdisciplinary-teams-exploring-closed-loop-communication-during-situ-trauma"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/closed-questions/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Heritage, Robinson, Elliott, Beckett & Wilkes, Journal of General Internal Medicine 22(10), 1429-1433 (2007) (PubMed Central)",
+   "dcterms:title": "Reducing Patients' Unmet Concerns in Primary Care: the Difference One Word Can Make",
+   "schema:url": {
+    "@id": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2305862"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/closed-questions/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Minson, VanEpps, Yip & Schweitzer, Organizational Behavior and Human Decision Processes 147, 76-93 (2018) (Wharton author copy)",
+   "dcterms:title": "Eliciting the Truth, the Whole Truth, and Nothing but the Truth: The Effect of Question Phrasing on Deception",
+   "schema:url": {
+    "@id": "https://faculty.wharton.upenn.edu/wp-content/uploads/2018/04/Minson-VanEpps-Yip-Schweitzer.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/closed-questions/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Pew Research Center (methods guide, 2021)",
+   "dcterms:title": "Writing Survey Questions",
+   "schema:url": {
+    "@id": "https://www.pewresearch.org/writing-survey-questions/markdown"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/closed-questions/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "practitioner-journal",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Brooks & John, Harvard Business Review (May-June 2018) (UC Merced HR copy)",
+   "dcterms:title": "The Surprising Power of Questions",
+   "schema:url": {
+    "@id": "https://hr.ucmerced.edu/sites/hr.ucmerced.edu/files/documents/how_to_ask_great_questions.pdf"
    }
   },
   {

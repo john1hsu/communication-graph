@@ -4312,6 +4312,104 @@
   ]
  },
  {
+  "id": "cm:closed-questions",
+  "title": "Closed questions",
+  "aliases": [
+   "closed-ended questions",
+   "yes/no questions",
+   "restricted questions"
+  ],
+  "type": "Technique",
+  "domain": "questioning-and-conversation",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/questioning-and-conversation/closed-questions.md",
+  "created": "2026-11-17",
+  "summary": "Questions that limit the answer to \"yes\" or \"no\", a choice among offered options or a single specific fact, used deliberately to confirm details, pin down commitments and narrow a discussion - while watching for the way their wording and options steer the answer.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:questioning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:open-ended-questions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:follow-up-questions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:checking-understanding"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:summarizing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:teach-back"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:heritage-et-al-2007",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:minson-et-al-2018",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:job-interview",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:negotiation",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:causes",
+    "object": "cm:acquiescence-bias",
+    "source": "s3",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Did I use closed questions only after I had explored the issue openly?",
+   "Did my wording - \"right?\", \"anything\", or a short list of options - make one answer easier to give than the truthful one?",
+   "Did I get an explicit commitment (who, what, by when) rather than a nod?",
+   "When an answer surprised me, did I follow up with an open question before acting on it?"
+  ],
+  "steps": [
+   "Explore first with open questions; switch to closed ones once you know what you need to confirm, decide or quantify.",
+   "Ask for exactly the fact or commitment you need - a date, a number, a choice between named options, a yes or no.",
+   "Word the question so the honest answer is easy to give - \"Is there something else...?\" rather than \"Is there anything else...?\", and presume a problem exists when you suspect one.",
+   "When you offer options, make them complete and balanced, and add \"or something else?\" so the list does not decide the answer for them.",
+   "Ask one thing per question, then stop and wait for the answer instead of stacking a second question on top.",
+   "Follow a surprising \"yes\" or \"no\" with an open question (\"What makes you say that?\") before acting on it."
+  ],
+  "example": {
+   "situation": "A project manager closes a vendor call where a delivery date was discussed but never confirmed.",
+   "before": "So everything's fine with the timeline, right? Anything else we should know?",
+   "after": "Can you commit to delivering the test build by 14 March - yes or no? And is there something else that could put that date at risk?",
+   "why": "The \"before\" version presumes there is no problem and uses \"anything\", which invites a polite \"no\". The \"after\" asks for a specific commitment and uses \"something\", which makes raising a risk feel expected rather than awkward."
+  },
+  "source_urls": [
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC2305862",
+   "https://faculty.wharton.upenn.edu/wp-content/uploads/2018/04/Minson-VanEpps-Yip-Schweitzer.pdf",
+   "https://www.pewresearch.org/writing-survey-questions/markdown",
+   "https://hr.ucmerced.edu/sites/hr.ucmerced.edu/files/documents/how_to_ask_great_questions.pdf"
+  ]
+ },
+ {
   "id": "cm:coaching",
   "title": "Coaching",
   "aliases": [

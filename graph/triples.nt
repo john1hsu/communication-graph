@@ -2376,6 +2376,79 @@
 <https://github.com/john1hsu/communication-graph/id/closed-loop-communication> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/closed-loop-communication> <https://github.com/john1hsu/communication-graph/ontology#partOf> <https://github.com/john1hsu/communication-graph/id/teamstepps> .
 <https://github.com/john1hsu/communication-graph/id/closed-loop-communication> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/espevik-et-al-2021> .
+<https://github.com/john1hsu/communication-graph/id/closed-questions/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/closed-questions/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Did I use closed questions only after I had explored the issue openly?" .
+<https://github.com/john1hsu/communication-graph/id/closed-questions/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/closed-questions> .
+<https://github.com/john1hsu/communication-graph/id/closed-questions/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/closed-questions/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Did my wording - \"right?\", \"anything\", or a short list of options - make one answer easier to give than the truthful one?" .
+<https://github.com/john1hsu/communication-graph/id/closed-questions/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/closed-questions> .
+<https://github.com/john1hsu/communication-graph/id/closed-questions/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/closed-questions/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Did I get an explicit commitment (who, what, by when) rather than a nod?" .
+<https://github.com/john1hsu/communication-graph/id/closed-questions/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/closed-questions> .
+<https://github.com/john1hsu/communication-graph/id/closed-questions/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/closed-questions/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "When an answer surprised me, did I follow up with an open question before acting on it?" .
+<https://github.com/john1hsu/communication-graph/id/closed-questions/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/closed-questions> .
+<https://github.com/john1hsu/communication-graph/id/closed-questions/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+<https://github.com/john1hsu/communication-graph/id/closed-questions/example> <https://github.com/john1hsu/communication-graph/ontology#after> "Can you commit to delivering the test build by 14 March - yes or no? And is there something else that could put that date at risk?" .
+<https://github.com/john1hsu/communication-graph/id/closed-questions/example> <https://github.com/john1hsu/communication-graph/ontology#before> "So everything's fine with the timeline, right? Anything else we should know?" .
+<https://github.com/john1hsu/communication-graph/id/closed-questions/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "A project manager closes a vendor call where a delivery date was discussed but never confirmed." .
+<https://github.com/john1hsu/communication-graph/id/closed-questions/example> <https://github.com/john1hsu/communication-graph/ontology#why> "The \"before\" version presumes there is no problem and uses \"anything\", which invites a polite \"no\". The \"after\" asks for a specific commitment and uses \"something\", which makes raising a risk feel expected rather than awkward." .
+<https://github.com/john1hsu/communication-graph/id/closed-questions/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/closed-questions/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/closed-questions/howto/1> <https://schema.org/text> "Explore first with open questions; switch to closed ones once you know what you need to confirm, decide or quantify." .
+<https://github.com/john1hsu/communication-graph/id/closed-questions/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/closed-questions/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/closed-questions/howto/2> <https://schema.org/text> "Ask for exactly the fact or commitment you need - a date, a number, a choice between named options, a yes or no." .
+<https://github.com/john1hsu/communication-graph/id/closed-questions/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/closed-questions/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/closed-questions/howto/3> <https://schema.org/text> "Word the question so the honest answer is easy to give - \"Is there something else...?\" rather than \"Is there anything else...?\", and presume a problem exists when you suspect one." .
+<https://github.com/john1hsu/communication-graph/id/closed-questions/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/closed-questions/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/closed-questions/howto/4> <https://schema.org/text> "When you offer options, make them complete and balanced, and add \"or something else?\" so the list does not decide the answer for them." .
+<https://github.com/john1hsu/communication-graph/id/closed-questions/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/closed-questions/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/closed-questions/howto/5> <https://schema.org/text> "Ask one thing per question, then stop and wait for the answer instead of stacking a second question on top." .
+<https://github.com/john1hsu/communication-graph/id/closed-questions/howto/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/closed-questions/howto/6> <https://schema.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/closed-questions/howto/6> <https://schema.org/text> "Follow a surprising \"yes\" or \"no\" with an open question (\"What makes you say that?\") before acting on it." .
+<https://github.com/john1hsu/communication-graph/id/closed-questions/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+<https://github.com/john1hsu/communication-graph/id/closed-questions/howto> <https://schema.org/name> "Closed questions" .
+<https://github.com/john1hsu/communication-graph/id/closed-questions/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/closed-questions/howto/1> .
+<https://github.com/john1hsu/communication-graph/id/closed-questions/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/closed-questions/howto/2> .
+<https://github.com/john1hsu/communication-graph/id/closed-questions/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/closed-questions/howto/3> .
+<https://github.com/john1hsu/communication-graph/id/closed-questions/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/closed-questions/howto/4> .
+<https://github.com/john1hsu/communication-graph/id/closed-questions/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/closed-questions/howto/5> .
+<https://github.com/john1hsu/communication-graph/id/closed-questions/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/closed-questions/howto/6> .
+<https://github.com/john1hsu/communication-graph/id/closed-questions> <http://purl.org/dc/terms/created> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/closed-questions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Technique> .
+<https://github.com/john1hsu/communication-graph/id/closed-questions> <http://www.w3.org/2000/01/rdf-schema#label> "Closed questions" .
+<https://github.com/john1hsu/communication-graph/id/closed-questions> <http://www.w3.org/2004/02/skos/core#altLabel> "closed-ended questions" .
+<https://github.com/john1hsu/communication-graph/id/closed-questions> <http://www.w3.org/2004/02/skos/core#altLabel> "restricted questions" .
+<https://github.com/john1hsu/communication-graph/id/closed-questions> <http://www.w3.org/2004/02/skos/core#altLabel> "yes/no questions" .
+<https://github.com/john1hsu/communication-graph/id/closed-questions> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/questioning> .
+<https://github.com/john1hsu/communication-graph/id/closed-questions> <http://www.w3.org/2004/02/skos/core#definition> "Questions that limit the answer to \"yes\" or \"no\", a choice among offered options or a single specific fact, used deliberately to confirm details, pin down commitments and narrow a discussion - while watching for the way their wording and options steer the answer." .
+<https://github.com/john1hsu/communication-graph/id/closed-questions> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/questioning-and-conversation> .
+<https://github.com/john1hsu/communication-graph/id/closed-questions> <http://www.w3.org/2004/02/skos/core#prefLabel> "Closed questions" .
+<https://github.com/john1hsu/communication-graph/id/closed-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/checking-understanding> .
+<https://github.com/john1hsu/communication-graph/id/closed-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/follow-up-questions> .
+<https://github.com/john1hsu/communication-graph/id/closed-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/open-ended-questions> .
+<https://github.com/john1hsu/communication-graph/id/closed-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/summarizing> .
+<https://github.com/john1hsu/communication-graph/id/closed-questions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/teach-back> .
+<https://github.com/john1hsu/communication-graph/id/closed-questions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/closed-questions/s1> .
+<https://github.com/john1hsu/communication-graph/id/closed-questions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/closed-questions/s2> .
+<https://github.com/john1hsu/communication-graph/id/closed-questions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/closed-questions/s3> .
+<https://github.com/john1hsu/communication-graph/id/closed-questions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/closed-questions/s4> .
+<https://github.com/john1hsu/communication-graph/id/closed-questions> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/job-interview> .
+<https://github.com/john1hsu/communication-graph/id/closed-questions> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/negotiation> .
+<https://github.com/john1hsu/communication-graph/id/closed-questions> <https://github.com/john1hsu/communication-graph/ontology#causes> <https://github.com/john1hsu/communication-graph/id/acquiescence-bias> .
+<https://github.com/john1hsu/communication-graph/id/closed-questions> <https://github.com/john1hsu/communication-graph/ontology#domain> "questioning-and-conversation" .
+<https://github.com/john1hsu/communication-graph/id/closed-questions> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/closed-questions> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/closed-questions/example> .
+<https://github.com/john1hsu/communication-graph/id/closed-questions> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/questioning-and-conversation/closed-questions.md" .
+<https://github.com/john1hsu/communication-graph/id/closed-questions> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/closed-questions/howto> .
+<https://github.com/john1hsu/communication-graph/id/closed-questions> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/closed-questions> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/heritage-et-al-2007> .
+<https://github.com/john1hsu/communication-graph/id/closed-questions> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/minson-et-al-2018> .
 <https://github.com/john1hsu/communication-graph/id/coaching/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/coaching/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Did I ask what they had already thought of before offering my own answer?" .
 <https://github.com/john1hsu/communication-graph/id/coaching/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/coaching> .
@@ -16692,6 +16765,30 @@
 <https://github.com/john1hsu/communication-graph/id/source/closed-loop-communication/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/closed-loop-communication/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
 <https://github.com/john1hsu/communication-graph/id/source/closed-loop-communication/s6> <https://schema.org/url> <https://psnet.ahrq.gov/issue/communication-interdisciplinary-teams-exploring-closed-loop-communication-during-situ-trauma> .
+<https://github.com/john1hsu/communication-graph/id/source/closed-questions/s1> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/closed-questions/s1> <http://purl.org/dc/terms/publisher> "Heritage, Robinson, Elliott, Beckett & Wilkes, Journal of General Internal Medicine 22(10), 1429-1433 (2007) (PubMed Central)" .
+<https://github.com/john1hsu/communication-graph/id/source/closed-questions/s1> <http://purl.org/dc/terms/title> "Reducing Patients' Unmet Concerns in Primary Care: the Difference One Word Can Make" .
+<https://github.com/john1hsu/communication-graph/id/source/closed-questions/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/closed-questions/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/closed-questions/s1> <https://schema.org/url> <https://pmc.ncbi.nlm.nih.gov/articles/PMC2305862> .
+<https://github.com/john1hsu/communication-graph/id/source/closed-questions/s2> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/closed-questions/s2> <http://purl.org/dc/terms/publisher> "Minson, VanEpps, Yip & Schweitzer, Organizational Behavior and Human Decision Processes 147, 76-93 (2018) (Wharton author copy)" .
+<https://github.com/john1hsu/communication-graph/id/source/closed-questions/s2> <http://purl.org/dc/terms/title> "Eliciting the Truth, the Whole Truth, and Nothing but the Truth: The Effect of Question Phrasing on Deception" .
+<https://github.com/john1hsu/communication-graph/id/source/closed-questions/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/closed-questions/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/closed-questions/s2> <https://schema.org/url> <https://faculty.wharton.upenn.edu/wp-content/uploads/2018/04/Minson-VanEpps-Yip-Schweitzer.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/closed-questions/s3> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/closed-questions/s3> <http://purl.org/dc/terms/publisher> "Pew Research Center (methods guide, 2021)" .
+<https://github.com/john1hsu/communication-graph/id/source/closed-questions/s3> <http://purl.org/dc/terms/title> "Writing Survey Questions" .
+<https://github.com/john1hsu/communication-graph/id/source/closed-questions/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/closed-questions/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/communication-graph/id/source/closed-questions/s3> <https://schema.org/url> <https://www.pewresearch.org/writing-survey-questions/markdown> .
+<https://github.com/john1hsu/communication-graph/id/source/closed-questions/s4> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/closed-questions/s4> <http://purl.org/dc/terms/publisher> "Brooks & John, Harvard Business Review (May-June 2018) (UC Merced HR copy)" .
+<https://github.com/john1hsu/communication-graph/id/source/closed-questions/s4> <http://purl.org/dc/terms/title> "The Surprising Power of Questions" .
+<https://github.com/john1hsu/communication-graph/id/source/closed-questions/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/closed-questions/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "practitioner-journal" .
+<https://github.com/john1hsu/communication-graph/id/source/closed-questions/s4> <https://schema.org/url> <https://hr.ucmerced.edu/sites/hr.ucmerced.edu/files/documents/how_to_ask_great_questions.pdf> .
 <https://github.com/john1hsu/communication-graph/id/source/coaching/s1> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/coaching/s1> <http://purl.org/dc/terms/publisher> "University of Amsterdam (UvA-DARE repository record)" .
 <https://github.com/john1hsu/communication-graph/id/source/coaching/s1> <http://purl.org/dc/terms/title> "Does coaching work? A meta-analysis on the effects of coaching on individual level outcomes in an organizational context (Theeboom, Beersma & van Vianen, 2014, Journal of Positive Psychology 9(1), 1-18, doi:10.1080/17439760.2013.837499)" .

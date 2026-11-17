@@ -2891,6 +2891,29 @@ Ask yourself:
 - Did I invite questions with an open phrase that assumes they exist, rather than a yes/no "any questions"?
 - For anything sent in writing, did I ask for a reply that shows understanding, not just receipt?
 
+### [Closed questions](../articles/questioning-and-conversation/closed-questions.md) — Technique
+
+1. Explore first with open questions; switch to closed ones once you know what you need to confirm, decide or quantify.
+2. Ask for exactly the fact or commitment you need - a date, a number, a choice between named options, a yes or no.
+3. Word the question so the honest answer is easy to give - "Is there something else...?" rather than "Is there anything else...?", and presume a problem exists when you suspect one.
+4. When you offer options, make them complete and balanced, and add "or something else?" so the list does not decide the answer for them.
+5. Ask one thing per question, then stop and wait for the answer instead of stacking a second question on top.
+6. Follow a surprising "yes" or "no" with an open question ("What makes you say that?") before acting on it.
+
+*A project manager closes a vendor call where a delivery date was discussed but never confirmed.*
+
+| Before | After |
+|---|---|
+| So everything's fine with the timeline, right? Anything else we should know? | Can you commit to delivering the test build by 14 March - yes or no? And is there something else that could put that date at risk? |
+
+**Why:** The "before" version presumes there is no problem and uses "anything", which invites a polite "no". The "after" asks for a specific commitment and uses "something", which makes raising a risk feel expected rather than awkward.
+
+Ask yourself:
+- Did I use closed questions only after I had explored the issue openly?
+- Did my wording - "right?", "anything", or a short list of options - make one answer easier to give than the truthful one?
+- Did I get an explicit commitment (who, what, by when) rather than a nod?
+- When an answer surprised me, did I follow up with an open question before acting on it?
+
 ### [Closed-loop communication](../articles/questioning-and-conversation/closed-loop-communication.md) — Technique
 
 1. Decide which messages need a closed loop - instructions, numbers, names, deadlines or decisions where a mishearing would cause real harm - and use the full exchange only for those.
