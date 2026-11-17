@@ -12,7 +12,9 @@ _No results._
 
 _Which written skills or dispositions have no technique, framework or principle that develops them?_ — `queries/02-skills-without-practice.rq`
 
-_No results._
+| skill | type |
+|---|---|
+| `cm:sensegiving` | cmo:Skill |
 
 ## Situations, channels and formats with no guidance (gap)
 
@@ -73,6 +75,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:business-report` | `cm:pyramid-principle` |
 | `cm:business-report` | `cm:scqa-framework` |
 | `cm:change-communication` | `cm:realistic-merger-preview` |
+| `cm:change-communication` | `cm:sensegiving` |
 | `cm:client-communication` | `cm:cognitive-reappraisal` |
 | `cm:client-communication` | `cm:expectation-disconfirmation-theory` |
 | `cm:client-communication` | `cm:service-recovery` |
@@ -94,9 +97,8 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:difficult-conversation` | `cm:cooling-off-period` |
 | `cm:difficult-conversation` | `cm:de-escalation` |
 | `cm:difficult-conversation` | `cm:desc-script` |
-| `cm:difficult-conversation` | `cm:emotion-regulation` |
 
-…and 163 more.
+…and 165 more.
 
 ## Myths and contested advice
 
@@ -135,7 +137,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:wise-feedback` | contested | `cm:troy-moua-van-boekel-2024` |
 | `cm:power-posing` | failed-replication | `cm:crede-2019` |
 
-…and 215 more.
+…and 216 more.
 
 ## Concepts with no recorded origin (gap)
 

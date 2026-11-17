@@ -25494,6 +25494,120 @@
    ]
   },
   {
+   "@id": "cm:sensegiving",
+   "@type": "cmo:Skill",
+   "cmo:appliedIn": [
+    {
+     "@id": "cm:change-communication"
+    },
+    {
+     "@id": "cm:one-on-one-meetings"
+    }
+   ],
+   "cmo:complements": [
+    {
+     "@id": "cm:narrative-persuasion"
+    },
+    {
+     "@id": "cm:sensemaking"
+    }
+   ],
+   "cmo:demonstratedBy": [
+    {
+     "@id": "cm:gioia-chittipeddi-1991"
+    },
+    {
+     "@id": "cm:maitlis-lawrence-2007"
+    }
+   ],
+   "cmo:domain": "executive-and-client-communication",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/sensegiving/example"
+   },
+   "cmo:file": "articles/executive-and-client-communication/sensegiving.md",
+   "cmo:introducedBy": {
+    "@id": "cm:dennis-gioia"
+   },
+   "cmo:level": "intermediate",
+   "cmo:requires": {
+    "@id": "cm:audience-analysis"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/sensegiving/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/sensegiving/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/sensegiving/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/sensegiving/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/sensegiving/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/sensegiving/s6"
+    }
+   ],
+   "rdfs:label": "Sensegiving",
+   "skos:altLabel": [
+    "giving sense to change",
+    "leader sensegiving",
+    "sense-giving",
+    "shaping how people interpret change"
+   ],
+   "skos:broader": [
+    {
+     "@id": "cm:change-communication"
+    },
+    {
+     "@id": "cm:organizational-communication"
+    }
+   ],
+   "skos:definition": "The leadership communication skill of deliberately shaping how others interpret a change, event or strategy - offering frames, stories and explanations that help them make sense of it - while listening to the sense they are already making; named by Dennis Gioia and Kumar Chittipeddi in 1991.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/executive-and-client-communication"
+   },
+   "skos:prefLabel": "Sensegiving",
+   "skos:related": [
+    {
+     "@id": "cm:active-listening"
+    },
+    {
+     "@id": "cm:communicating-uncertainty"
+    },
+    {
+     "@id": "cm:gain-loss-framing"
+    },
+    {
+     "@id": "cm:issue-selling"
+    },
+    {
+     "@id": "cm:managing-up"
+    },
+    {
+     "@id": "cm:narrative-persuasion"
+    },
+    {
+     "@id": "cm:one-on-one-meetings"
+    },
+    {
+     "@id": "cm:sensemaking"
+    },
+    {
+     "@id": "cm:stakeholder-mapping"
+    }
+   ]
+  },
+  {
    "@id": "cm:service-recovery",
    "@type": "cmo:Technique",
    "cmo:appliedIn": {
@@ -42764,6 +42878,62 @@
    "@type": "schema:HowToStep",
    "schema:position": 6,
    "schema:text": "Record a second run, check whether those two habits changed, and ask a colleague to watch one clip if you can."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/sensegiving/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:sensegiving"
+   },
+   "rdfs:label": "Can I state in one or two sentences what this change means for the people hearing it, in their terms rather than the strategy deck's?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/sensegiving/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:sensegiving"
+   },
+   "rdfs:label": "Have I found out how people are already interpreting it - including the rumours - before I try to reframe it?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/sensegiving/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:sensegiving"
+   },
+   "rdfs:label": "Am I combining a clear frame with a concrete story or example, rather than relying on a slogan?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/sensegiving/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:sensegiving"
+   },
+   "rdfs:label": "Have I said plainly what I don't know yet and when I will know it?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/sensegiving/check/5",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:sensegiving"
+   },
+   "rdfs:label": "Is there a forum (one-to-ones, team sessions, a roadshow) where people can push back and where my account can be revised?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/sensegiving/check/6",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:sensegiving"
+   },
+   "rdfs:label": "Am I offering a way to make sense of the change, or trying to impose a finished meaning that no one has had a chance to question?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/sensegiving/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "Here's what's changing and why: customers in both regions are waiting up to two days because cases bounce between teams, and one team fixes that. Here's what isn't changing: nobody's role is being cut, and your current customers stay with you through March. What I don't know yet is the new shift pattern - I'll have a draft by the 15th and want your input before it's final. I'll be holding 20-minute one-to-ones this week; what's the first question on your mind?",
+   "cmo:before": "As you'll have seen in the all-hands deck, we're consolidating support into a single national team to drive synergies. HR will be in touch with next steps. Thanks for your flexibility.",
+   "cmo:situation": "A department head announces that two regional support teams will merge into one national team over the next quarter.",
+   "cmo:why": "The rewrite gives people a concrete frame (a customer problem being solved), a short story they can repeat, a clear line between what is and isn't changing, an honest gap, and a channel for their own sense-making - instead of jargon and a hand-off to HR, which leaves the rumour mill to supply the meaning."
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/service-recovery/check/1",
@@ -65539,6 +65709,90 @@
    "dcterms:title": "Nonverbal Aspects of Speech Delivery",
    "schema:url": {
     "@id": "https://sunyempirepublicspeaking.pressbooks.sunycreate.cloud/?p=408"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/sensegiving/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Dennis A. Gioia & Kumar Chittipeddi, Strategic Management Journal 12(6), 433-448, 1991, doi:10.1002/smj.4250120604 (Penn State research portal record)",
+   "dcterms:title": "Sensemaking and sensegiving in strategic change initiation",
+   "schema:url": {
+    "@id": "https://pure.psu.edu/en/publications/sensemaking-and-sensegiving-in-strategic-change-initiation/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/sensegiving/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Sally Maitlis & Thomas B. Lawrence, Academy of Management Journal, 57-84, 2007 (abstract record, Shanghai University of Finance and Economics academic newsletter)",
+   "dcterms:title": "Triggers and enablers of sensegiving in organizations",
+   "schema:url": {
+    "@id": "https://academicnewsletter.sufe.edu.cn/info/361988"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/sensegiving/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Linda Rouleau, Journal of Management Studies 42(7), 1413-1441, 2005, doi:10.1111/j.1467-6486.2005.00549.x (RePEc/IDEAS record)",
+   "dcterms:title": "Micro-practices of strategic sensemaking and sensegiving: How middle managers interpret and sell change every day",
+   "schema:url": {
+    "@id": "https://ideas.repec.org/a/bla/jomstd/v42y2005i7p1413-1441.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/sensegiving/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Linda Rouleau & Julia Balogun, Journal of Management Studies 48(5), 953-983, 2011, doi:10.1111/j.1467-6486.2010.00941.x (Lancaster University ePrints author copy)",
+   "dcterms:title": "Middle managers, strategic sensemaking, and discursive competence",
+   "schema:url": {
+    "@id": "https://eprints.lancs.ac.uk/id/eprint/51519/1/10.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/sensegiving/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Minna Logemann, Rebecca Piekkari & Joep Cornelissen, Long Range Planning 52(5), 101852, 2019 (Aalto University research portal record)",
+   "dcterms:title": "The sense of it all: Framing and narratives in sensegiving about a strategic change",
+   "schema:url": {
+    "@id": "https://research.aalto.fi/en/publications/the-sense-of-it-all-framing-and-narratives-in-sensegiving-about-a/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/sensegiving/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Institute for Public Relations research summary of Anna Kraft, Jennifer L. Sparr & Claudia Peus, Journal of Business and Psychology 33(1), 71-87, 2018",
+   "dcterms:title": "Giving and Making Sense about Change: The Back and Forth between Leaders and Employees",
+   "schema:url": {
+    "@id": "https://instituteforpr.org/giving-and-making-sense-about-change-the-back-and-forth-between-leaders-and-employees"
    }
   },
   {

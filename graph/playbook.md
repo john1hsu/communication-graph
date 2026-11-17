@@ -1135,6 +1135,24 @@ Ask yourself:
 - Does every number in my sentence clearly belong to one named group?
 - If someone asked "so of the ones flagged, how many are real?", have I already answered it?
 
+### [Sensegiving](../articles/executive-and-client-communication/sensegiving.md) — Skill
+
+*A department head announces that two regional support teams will merge into one national team over the next quarter.*
+
+| Before | After |
+|---|---|
+| As you'll have seen in the all-hands deck, we're consolidating support into a single national team to drive synergies. HR will be in touch with next steps. Thanks for your flexibility. | Here's what's changing and why: customers in both regions are waiting up to two days because cases bounce between teams, and one team fixes that. Here's what isn't changing: nobody's role is being cut, and your current customers stay with you through March. What I don't know yet is the new shift pattern - I'll have a draft by the 15th and want your input before it's final. I'll be holding 20-minute one-to-ones this week; what's the first question on your mind? |
+
+**Why:** The rewrite gives people a concrete frame (a customer problem being solved), a short story they can repeat, a clear line between what is and isn't changing, an honest gap, and a channel for their own sense-making - instead of jargon and a hand-off to HR, which leaves the rumour mill to supply the meaning.
+
+Ask yourself:
+- Can I state in one or two sentences what this change means for the people hearing it, in their terms rather than the strategy deck's?
+- Have I found out how people are already interpreting it - including the rumours - before I try to reframe it?
+- Am I combining a clear frame with a concrete story or example, rather than relying on a slogan?
+- Have I said plainly what I don't know yet and when I will know it?
+- Is there a forum (one-to-ones, team sessions, a roadshow) where people can push back and where my account can be revised?
+- Am I offering a way to make sense of the change, or trying to impose a finished meaning that no one has had a chance to question?
+
 ### [Service recovery](../articles/executive-and-client-communication/service-recovery.md) — Technique
 
 1. Thank the client for raising it and listen to the whole complaint before defending, explaining or offering anything; then restate the problem and its impact on them in your own words.

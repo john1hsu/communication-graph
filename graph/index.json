@@ -28953,6 +28953,138 @@
   ]
  },
  {
+  "id": "cm:sensegiving",
+  "title": "Sensegiving",
+  "aliases": [
+   "sense-giving",
+   "leader sensegiving",
+   "giving sense to change",
+   "shaping how people interpret change"
+  ],
+  "type": "Skill",
+  "domain": "executive-and-client-communication",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/executive-and-client-communication/sensegiving.md",
+  "created": "2026-11-17",
+  "summary": "The leadership communication skill of deliberately shaping how others interpret a change, event or strategy - offering frames, stories and explanations that help them make sense of it - while listening to the sense they are already making; named by Dennis Gioia and Kumar Chittipeddi in 1991.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:organizational-communication"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "cm:change-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:sensemaking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:narrative-persuasion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:gain-loss-framing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:issue-selling"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:communicating-uncertainty"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:one-on-one-meetings"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:active-listening"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:managing-up"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:stakeholder-mapping"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:audience-analysis"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:dennis-gioia",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:gioia-chittipeddi-1991",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:maitlis-lawrence-2007",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:sensemaking",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:change-communication",
+    "source": "s6",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:one-on-one-meetings",
+    "source": "s6",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:narrative-persuasion",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Can I state in one or two sentences what this change means for the people hearing it, in their terms rather than the strategy deck's?",
+   "Have I found out how people are already interpreting it - including the rumours - before I try to reframe it?",
+   "Am I combining a clear frame with a concrete story or example, rather than relying on a slogan?",
+   "Have I said plainly what I don't know yet and when I will know it?",
+   "Is there a forum (one-to-ones, team sessions, a roadshow) where people can push back and where my account can be revised?",
+   "Am I offering a way to make sense of the change, or trying to impose a finished meaning that no one has had a chance to question?"
+  ],
+  "steps": [],
+  "example": {
+   "situation": "A department head announces that two regional support teams will merge into one national team over the next quarter.",
+   "before": "As you'll have seen in the all-hands deck, we're consolidating support into a single national team to drive synergies. HR will be in touch with next steps. Thanks for your flexibility.",
+   "after": "Here's what's changing and why: customers in both regions are waiting up to two days because cases bounce between teams, and one team fixes that. Here's what isn't changing: nobody's role is being cut, and your current customers stay with you through March. What I don't know yet is the new shift pattern - I'll have a draft by the 15th and want your input before it's final. I'll be holding 20-minute one-to-ones this week; what's the first question on your mind?",
+   "why": "The rewrite gives people a concrete frame (a customer problem being solved), a short story they can repeat, a clear line between what is and isn't changing, an honest gap, and a channel for their own sense-making - instead of jargon and a hand-off to HR, which leaves the rumour mill to supply the meaning."
+  },
+  "source_urls": [
+   "https://pure.psu.edu/en/publications/sensemaking-and-sensegiving-in-strategic-change-initiation/",
+   "https://academicnewsletter.sufe.edu.cn/info/361988",
+   "https://ideas.repec.org/a/bla/jomstd/v42y2005i7p1413-1441.html",
+   "https://eprints.lancs.ac.uk/id/eprint/51519/1/10.pdf",
+   "https://research.aalto.fi/en/publications/the-sense-of-it-all-framing-and-narratives-in-sensegiving-about-a/",
+   "https://instituteforpr.org/giving-and-making-sense-about-change-the-back-and-forth-between-leaders-and-employees"
+  ]
+ },
+ {
   "id": "cm:service-recovery",
   "title": "Service recovery",
   "aliases": [
