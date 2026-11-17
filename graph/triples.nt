@@ -26379,6 +26379,42 @@
 <https://github.com/john1hsu/communication-graph/id/source/status-reporting/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/status-reporting/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
 <https://github.com/john1hsu/communication-graph/id/source/status-reporting/s6> <https://schema.org/url> <https://www.pmi.org/learning/library/bearer-bad-news-9840> .
+<https://github.com/john1hsu/communication-graph/id/source/subjective-value/s1> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/subjective-value/s1> <http://purl.org/dc/terms/publisher> "Curhan, J. R., Elfenbein, H. A. & Xu, H., Journal of Personality and Social Psychology 91(3), 493-512, 2006, doi:10.1037/0022-3514.91.3.493 (Washington University in St. Louis research profile)" .
+<https://github.com/john1hsu/communication-graph/id/source/subjective-value/s1> <http://purl.org/dc/terms/title> "What do people value when they negotiate? Mapping the domain of subjective value in negotiation" .
+<https://github.com/john1hsu/communication-graph/id/source/subjective-value/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/subjective-value/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/subjective-value/s1> <https://schema.org/url> <https://profiles.wustl.edu/en/publications/what-do-people-value-when-they-negotiate-mapping-the-domain-of-su/> .
+<https://github.com/john1hsu/communication-graph/id/source/subjective-value/s2> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/subjective-value/s2> <http://purl.org/dc/terms/publisher> "Curhan, J. R., Elfenbein, H. A. & Kilduff, G. J., Journal of Applied Psychology 94, 524-534, 2009 (DSpace@MIT)" .
+<https://github.com/john1hsu/communication-graph/id/source/subjective-value/s2> <http://purl.org/dc/terms/title> "Getting off on the right foot: Subjective value versus economic value in predicting longitudinal job outcomes from job offer negotiations" .
+<https://github.com/john1hsu/communication-graph/id/source/subjective-value/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/subjective-value/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/subjective-value/s2> <https://schema.org/url> <https://dspace.mit.edu/handle/1721.1/52329> .
+<https://github.com/john1hsu/communication-graph/id/source/subjective-value/s3> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/subjective-value/s3> <http://purl.org/dc/terms/publisher> "Curhan, J. R., Elfenbein, H. A. & Eisenkraft, N., Journal of Applied Social Psychology 40(3), 690-709, 2010, doi:10.1111/j.1559-1816.2010.00593.x (Washington University in St. Louis research profile)" .
+<https://github.com/john1hsu/communication-graph/id/source/subjective-value/s3> <http://purl.org/dc/terms/title> "The objective value of subjective value: A multi-round negotiation study" .
+<https://github.com/john1hsu/communication-graph/id/source/subjective-value/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/subjective-value/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/subjective-value/s3> <https://schema.org/url> <https://profiles.wustl.edu/en/publications/the-objective-value-of-subjective-value-a-multi-round-negotiation/> .
+<https://github.com/john1hsu/communication-graph/id/source/subjective-value/s4> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/subjective-value/s4> <http://purl.org/dc/terms/publisher> "PON Staff, Program on Negotiation at Harvard Law School (adapted from the Negotiation newsletter, February 2007)" .
+<https://github.com/john1hsu/communication-graph/id/source/subjective-value/s4> <http://purl.org/dc/terms/title> "The Value of Satisfaction" .
+<https://github.com/john1hsu/communication-graph/id/source/subjective-value/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/subjective-value/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/subjective-value/s4> <https://schema.org/url> <https://www.pon.harvard.edu/daily/negotiation-skills-daily/the-value-of-satisfaction/> .
+<https://github.com/john1hsu/communication-graph/id/source/subjective-value/s5> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/subjective-value/s5> <http://purl.org/dc/terms/publisher> "MIT Sloan School of Management, Ideas Made to Matter, 13 October 2017 (on Becker and Curhan, Journal of Applied Psychology)" .
+<https://github.com/john1hsu/communication-graph/id/source/subjective-value/s5> <http://purl.org/dc/terms/title> "When negotiating, pride goeth before destruction" .
+<https://github.com/john1hsu/communication-graph/id/source/subjective-value/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/subjective-value/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/subjective-value/s5> <https://schema.org/url> <https://mitsloan.mit.edu/ideas-made-to-matter/when-negotiating-pride-goeth-destruction> .
+<https://github.com/john1hsu/communication-graph/id/source/subjective-value/s6> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/subjective-value/s6> <http://purl.org/dc/terms/publisher> "Becker, W. J., Cropanzano, R. & Goldman, B., Academy of Management Proceedings 2014, 471-476, doi:10.5465/AMBPP.2014.82 (University of Arizona research profile)" .
+<https://github.com/john1hsu/communication-graph/id/source/subjective-value/s6> <http://purl.org/dc/terms/title> "Subjective value during sequential negotiations: The mediating effect of anger" .
+<https://github.com/john1hsu/communication-graph/id/source/subjective-value/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/subjective-value/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/subjective-value/s6> <https://schema.org/url> <https://experts.arizona.edu/en/publications/subjective-value-during-sequential-negotiations-the-mediating-eff-2/> .
 <https://github.com/john1hsu/communication-graph/id/source/summarizing/s1> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/summarizing/s1> <http://purl.org/dc/terms/publisher> "Rackham & Carlisle, Journal of European Industrial Training 2(6), 6-11 (1978), Emerald, doi:10.1108/eb002297" .
 <https://github.com/john1hsu/communication-graph/id/source/summarizing/s1> <http://purl.org/dc/terms/title> "The Effective Negotiator, Part I: The Behaviour of Successful Negotiators" .
@@ -27864,6 +27900,39 @@
 <https://github.com/john1hsu/communication-graph/id/status-reporting> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/status-reporting/howto> .
 <https://github.com/john1hsu/communication-graph/id/status-reporting> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/communication-graph/id/status-reporting> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
+<https://github.com/john1hsu/communication-graph/id/subjective-value> <http://purl.org/dc/terms/created> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/subjective-value> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+<https://github.com/john1hsu/communication-graph/id/subjective-value> <http://www.w3.org/2000/01/rdf-schema#label> "Subjective value in negotiation" .
+<https://github.com/john1hsu/communication-graph/id/subjective-value> <http://www.w3.org/2004/02/skos/core#altLabel> "SVI" .
+<https://github.com/john1hsu/communication-graph/id/subjective-value> <http://www.w3.org/2004/02/skos/core#altLabel> "Subjective Value Inventory" .
+<https://github.com/john1hsu/communication-graph/id/subjective-value> <http://www.w3.org/2004/02/skos/core#altLabel> "negotiator satisfaction" .
+<https://github.com/john1hsu/communication-graph/id/subjective-value> <http://www.w3.org/2004/02/skos/core#altLabel> "subjective value" .
+<https://github.com/john1hsu/communication-graph/id/subjective-value> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/negotiation> .
+<https://github.com/john1hsu/communication-graph/id/subjective-value> <http://www.w3.org/2004/02/skos/core#definition> "The social, perceptual and emotional results people take away from a negotiation - how they feel about the deal, about themselves, about the process and about the relationship - as distinct from its economic terms. Measured by Curhan, Elfenbein and Xu's Subjective Value Inventory (SVI)." .
+<https://github.com/john1hsu/communication-graph/id/subjective-value> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/negotiation> .
+<https://github.com/john1hsu/communication-graph/id/subjective-value> <http://www.w3.org/2004/02/skos/core#prefLabel> "Subjective value in negotiation" .
+<https://github.com/john1hsu/communication-graph/id/subjective-value> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/distributive-negotiation> .
+<https://github.com/john1hsu/communication-graph/id/subjective-value> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/face-and-facework> .
+<https://github.com/john1hsu/communication-graph/id/subjective-value> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/integrative-negotiation> .
+<https://github.com/john1hsu/communication-graph/id/subjective-value> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/post-settlement-settlement> .
+<https://github.com/john1hsu/communication-graph/id/subjective-value> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/rapport> .
+<https://github.com/john1hsu/communication-graph/id/subjective-value> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/reservation-value> .
+<https://github.com/john1hsu/communication-graph/id/subjective-value> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/salary-negotiation> .
+<https://github.com/john1hsu/communication-graph/id/subjective-value> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/subjective-value/s1> .
+<https://github.com/john1hsu/communication-graph/id/subjective-value> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/subjective-value/s2> .
+<https://github.com/john1hsu/communication-graph/id/subjective-value> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/subjective-value/s3> .
+<https://github.com/john1hsu/communication-graph/id/subjective-value> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/subjective-value/s4> .
+<https://github.com/john1hsu/communication-graph/id/subjective-value> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/subjective-value/s5> .
+<https://github.com/john1hsu/communication-graph/id/subjective-value> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/subjective-value/s6> .
+<https://github.com/john1hsu/communication-graph/id/subjective-value> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/face-and-facework> .
+<https://github.com/john1hsu/communication-graph/id/subjective-value> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/curhan-elfenbein-eisenkraft-2010> .
+<https://github.com/john1hsu/communication-graph/id/subjective-value> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/curhan-elfenbein-kilduff-2009> .
+<https://github.com/john1hsu/communication-graph/id/subjective-value> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/curhan-elfenbein-xu-2006> .
+<https://github.com/john1hsu/communication-graph/id/subjective-value> <https://github.com/john1hsu/communication-graph/ontology#domain> "negotiation" .
+<https://github.com/john1hsu/communication-graph/id/subjective-value> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/subjective-value> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/negotiation/subjective-value.md" .
+<https://github.com/john1hsu/communication-graph/id/subjective-value> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/jared-curhan> .
+<https://github.com/john1hsu/communication-graph/id/subjective-value> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/communication-graph/id/summarizing/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/summarizing/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Did my summary cover the several points they made, or only the last or loudest one?" .
 <https://github.com/john1hsu/communication-graph/id/summarizing/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/summarizing> .

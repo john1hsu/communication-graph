@@ -27985,6 +27985,93 @@
    ]
   },
   {
+   "@id": "cm:subjective-value",
+   "@type": "cmo:Concept",
+   "cmo:complements": {
+    "@id": "cm:face-and-facework"
+   },
+   "cmo:demonstratedBy": [
+    {
+     "@id": "cm:curhan-elfenbein-eisenkraft-2010"
+    },
+    {
+     "@id": "cm:curhan-elfenbein-kilduff-2009"
+    },
+    {
+     "@id": "cm:curhan-elfenbein-xu-2006"
+    }
+   ],
+   "cmo:domain": "negotiation",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:file": "articles/negotiation/subjective-value.md",
+   "cmo:introducedBy": {
+    "@id": "cm:jared-curhan"
+   },
+   "cmo:level": "intermediate",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/subjective-value/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/subjective-value/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/subjective-value/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/subjective-value/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/subjective-value/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/subjective-value/s6"
+    }
+   ],
+   "rdfs:label": "Subjective value in negotiation",
+   "skos:altLabel": [
+    "SVI",
+    "Subjective Value Inventory",
+    "negotiator satisfaction",
+    "subjective value"
+   ],
+   "skos:broader": {
+    "@id": "cm:negotiation"
+   },
+   "skos:definition": "The social, perceptual and emotional results people take away from a negotiation - how they feel about the deal, about themselves, about the process and about the relationship - as distinct from its economic terms. Measured by Curhan, Elfenbein and Xu's Subjective Value Inventory (SVI).",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/negotiation"
+   },
+   "skos:prefLabel": "Subjective value in negotiation",
+   "skos:related": [
+    {
+     "@id": "cm:distributive-negotiation"
+    },
+    {
+     "@id": "cm:face-and-facework"
+    },
+    {
+     "@id": "cm:integrative-negotiation"
+    },
+    {
+     "@id": "cm:post-settlement-settlement"
+    },
+    {
+     "@id": "cm:rapport"
+    },
+    {
+     "@id": "cm:reservation-value"
+    },
+    {
+     "@id": "cm:salary-negotiation"
+    }
+   ]
+  },
+  {
    "@id": "cm:summarizing",
    "@type": "cmo:Technique",
    "cmo:appliedIn": [
@@ -69065,6 +69152,90 @@
    "dcterms:title": "Bearer of Bad News",
    "schema:url": {
     "@id": "https://www.pmi.org/learning/library/bearer-bad-news-9840"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/subjective-value/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Curhan, J. R., Elfenbein, H. A. & Xu, H., Journal of Personality and Social Psychology 91(3), 493-512, 2006, doi:10.1037/0022-3514.91.3.493 (Washington University in St. Louis research profile)",
+   "dcterms:title": "What do people value when they negotiate? Mapping the domain of subjective value in negotiation",
+   "schema:url": {
+    "@id": "https://profiles.wustl.edu/en/publications/what-do-people-value-when-they-negotiate-mapping-the-domain-of-su/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/subjective-value/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Curhan, J. R., Elfenbein, H. A. & Kilduff, G. J., Journal of Applied Psychology 94, 524-534, 2009 (DSpace@MIT)",
+   "dcterms:title": "Getting off on the right foot: Subjective value versus economic value in predicting longitudinal job outcomes from job offer negotiations",
+   "schema:url": {
+    "@id": "https://dspace.mit.edu/handle/1721.1/52329"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/subjective-value/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Curhan, J. R., Elfenbein, H. A. & Eisenkraft, N., Journal of Applied Social Psychology 40(3), 690-709, 2010, doi:10.1111/j.1559-1816.2010.00593.x (Washington University in St. Louis research profile)",
+   "dcterms:title": "The objective value of subjective value: A multi-round negotiation study",
+   "schema:url": {
+    "@id": "https://profiles.wustl.edu/en/publications/the-objective-value-of-subjective-value-a-multi-round-negotiation/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/subjective-value/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "PON Staff, Program on Negotiation at Harvard Law School (adapted from the Negotiation newsletter, February 2007)",
+   "dcterms:title": "The Value of Satisfaction",
+   "schema:url": {
+    "@id": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/the-value-of-satisfaction/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/subjective-value/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "MIT Sloan School of Management, Ideas Made to Matter, 13 October 2017 (on Becker and Curhan, Journal of Applied Psychology)",
+   "dcterms:title": "When negotiating, pride goeth before destruction",
+   "schema:url": {
+    "@id": "https://mitsloan.mit.edu/ideas-made-to-matter/when-negotiating-pride-goeth-destruction"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/subjective-value/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Becker, W. J., Cropanzano, R. & Goldman, B., Academy of Management Proceedings 2014, 471-476, doi:10.5465/AMBPP.2014.82 (University of Arizona research profile)",
+   "dcterms:title": "Subjective value during sequential negotiations: The mediating effect of anger",
+   "schema:url": {
+    "@id": "https://experts.arizona.edu/en/publications/subjective-value-during-sequential-negotiations-the-mediating-eff-2/"
    }
   },
   {
