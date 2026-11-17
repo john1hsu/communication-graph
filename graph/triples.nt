@@ -11888,6 +11888,37 @@
 <https://github.com/john1hsu/communication-graph/id/paraphrasing> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/paraphrasing> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/seehausen-et-al-2012> .
 <https://github.com/john1hsu/communication-graph/id/paraphrasing> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> .
+<https://github.com/john1hsu/communication-graph/id/patient-education> <http://purl.org/dc/terms/created> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/patient-education> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Context> .
+<https://github.com/john1hsu/communication-graph/id/patient-education> <http://www.w3.org/2000/01/rdf-schema#label> "Patient education" .
+<https://github.com/john1hsu/communication-graph/id/patient-education> <http://www.w3.org/2004/02/skos/core#altLabel> "explaining care to patients" .
+<https://github.com/john1hsu/communication-graph/id/patient-education> <http://www.w3.org/2004/02/skos/core#altLabel> "health education conversations" .
+<https://github.com/john1hsu/communication-graph/id/patient-education> <http://www.w3.org/2004/02/skos/core#altLabel> "patient teaching" .
+<https://github.com/john1hsu/communication-graph/id/patient-education> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/client-communication> .
+<https://github.com/john1hsu/communication-graph/id/patient-education> <http://www.w3.org/2004/02/skos/core#definition> "The recurring situation in which clinicians, pharmacists and other health workers explain a diagnosis, treatment or self-care plan so that patients and families can understand it, remember it and act on it once they leave." .
+<https://github.com/john1hsu/communication-graph/id/patient-education> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/executive-and-client-communication> .
+<https://github.com/john1hsu/communication-graph/id/patient-education> <http://www.w3.org/2004/02/skos/core#prefLabel> "Patient education" .
+<https://github.com/john1hsu/communication-graph/id/patient-education> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/checking-understanding> .
+<https://github.com/john1hsu/communication-graph/id/patient-education> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/delivering-bad-news> .
+<https://github.com/john1hsu/communication-graph/id/patient-education> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/illusion-of-transparency> .
+<https://github.com/john1hsu/communication-graph/id/patient-education> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/information-overload> .
+<https://github.com/john1hsu/communication-graph/id/patient-education> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/open-ended-questions> .
+<https://github.com/john1hsu/communication-graph/id/patient-education> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/plain-language> .
+<https://github.com/john1hsu/communication-graph/id/patient-education> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies> .
+<https://github.com/john1hsu/communication-graph/id/patient-education> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/teach-back> .
+<https://github.com/john1hsu/communication-graph/id/patient-education> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> .
+<https://github.com/john1hsu/communication-graph/id/patient-education> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/patient-education/s1> .
+<https://github.com/john1hsu/communication-graph/id/patient-education> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/patient-education/s2> .
+<https://github.com/john1hsu/communication-graph/id/patient-education> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/patient-education/s3> .
+<https://github.com/john1hsu/communication-graph/id/patient-education> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/patient-education/s4> .
+<https://github.com/john1hsu/communication-graph/id/patient-education> <https://github.com/john1hsu/communication-graph/ontology#domain> "executive-and-client-communication" .
+<https://github.com/john1hsu/communication-graph/id/patient-education> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/patient-education> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> .
+<https://github.com/john1hsu/communication-graph/id/patient-education> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/executive-and-client-communication/patient-education.md" .
+<https://github.com/john1hsu/communication-graph/id/patient-education> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/patient-education> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/plain-language> .
+<https://github.com/john1hsu/communication-graph/id/patient-education> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/kessels-2003> .
+<https://github.com/john1hsu/communication-graph/id/patient-education> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/sheridan-et-al-2011> .
 <https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Did I tell my reviewer who the real reader is and what kind of feedback I need at this stage?" .
 <https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/peer-review-of-writing> .
@@ -23892,6 +23923,30 @@
 <https://github.com/john1hsu/communication-graph/id/source/paraphrasing/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/paraphrasing/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/communication-graph/id/source/paraphrasing/s5> <https://schema.org/url> <https://cris.huji.ac.il/en/publications/a-meta-analytic-systematic-review-and-theory-of-the-effects-of-pe/> .
+<https://github.com/john1hsu/communication-graph/id/source/patient-education/s1> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/patient-education/s1> <http://purl.org/dc/terms/publisher> "Roy P. C. Kessels, Journal of the Royal Society of Medicine 96(5), 2003 (PubMed Central)" .
+<https://github.com/john1hsu/communication-graph/id/source/patient-education/s1> <http://purl.org/dc/terms/title> "Patients' memory for medical information" .
+<https://github.com/john1hsu/communication-graph/id/source/patient-education/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/patient-education/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/patient-education/s1> <https://schema.org/url> <https://pmc.ncbi.nlm.nih.gov/articles/PMC539473> .
+<https://github.com/john1hsu/communication-graph/id/source/patient-education/s2> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/patient-education/s2> <http://purl.org/dc/terms/publisher> "Sheridan, Halpern, Viera, Berkman, Donahue & Crotty, Journal of Health Communication 16 Suppl 3, 2011 (Duke Scholars record)" .
+<https://github.com/john1hsu/communication-graph/id/source/patient-education/s2> <http://purl.org/dc/terms/title> "Interventions for individuals with low health literacy: a systematic review" .
+<https://github.com/john1hsu/communication-graph/id/source/patient-education/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/patient-education/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/patient-education/s2> <https://schema.org/url> <https://scholars.duke.edu/publication/882693> .
+<https://github.com/john1hsu/communication-graph/id/source/patient-education/s3> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/patient-education/s3> <http://purl.org/dc/terms/publisher> "Agency for Healthcare Research and Quality (AHRQ), U.S. Department of Health and Human Services" .
+<https://github.com/john1hsu/communication-graph/id/source/patient-education/s3> <http://purl.org/dc/terms/title> "Health Literacy Universal Precautions Toolkit, 3rd Edition" .
+<https://github.com/john1hsu/communication-graph/id/source/patient-education/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/patient-education/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/communication-graph/id/source/patient-education/s3> <https://schema.org/url> <https://www.ahrq.gov:443/sites/default/files/publications2/files/health-literacy-universal-precautions-toolkit-3rd-edition.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/patient-education/s4> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/patient-education/s4> <http://purl.org/dc/terms/publisher> "Barry D. Weiss, American Family Physician 92(2), 2015" .
+<https://github.com/john1hsu/communication-graph/id/source/patient-education/s4> <http://purl.org/dc/terms/title> "Health Literacy: What Do You Need to Do?" .
+<https://github.com/john1hsu/communication-graph/id/source/patient-education/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/patient-education/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "practitioner-journal" .
+<https://github.com/john1hsu/communication-graph/id/source/patient-education/s4> <https://schema.org/url> <https://www.aafp.org/pubs/afp/issues/2015/0715/p84.pdf> .
 <https://github.com/john1hsu/communication-graph/id/source/peer-review-of-writing/s1> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/peer-review-of-writing/s1> <http://purl.org/dc/terms/publisher> "Leiden University Scholarly Publications (author's copy)" .
 <https://github.com/john1hsu/communication-graph/id/source/peer-review-of-writing/s1> <http://purl.org/dc/terms/title> "The impact of formative peer feedback on higher education students' academic writing: a meta-analysis (Huisman, Saab, van den Broek & van Driel, Assessment & Evaluation in Higher Education 44(6), 2019)" .

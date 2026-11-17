@@ -23423,6 +23423,95 @@
   ]
  },
  {
+  "id": "cm:patient-education",
+  "title": "Patient education",
+  "aliases": [
+   "patient teaching",
+   "explaining care to patients",
+   "health education conversations"
+  ],
+  "type": "Context",
+  "domain": "executive-and-client-communication",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/executive-and-client-communication/patient-education.md",
+  "created": "2026-11-17",
+  "summary": "The recurring situation in which clinicians, pharmacists and other health workers explain a diagnosis, treatment or self-care plan so that patients and families can understand it, remember it and act on it once they leave.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:client-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:teach-back"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:checking-understanding"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:plain-language"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:risk-numbers-as-natural-frequencies"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:working-with-interpreters"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:open-ended-questions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:information-overload"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:delivering-bad-news"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:illusion-of-transparency"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:plain-language"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:kessels-2003",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:sheridan-et-al-2011",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:curse-of-knowledge",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC539473",
+   "https://scholars.duke.edu/publication/882693",
+   "https://www.ahrq.gov:443/sites/default/files/publications2/files/health-literacy-universal-precautions-toolkit-3rd-edition.pdf",
+   "https://www.aafp.org/pubs/afp/issues/2015/0715/p84.pdf"
+  ]
+ },
+ {
   "id": "cm:peer-review-of-writing",
   "title": "Peer review of writing",
   "aliases": [

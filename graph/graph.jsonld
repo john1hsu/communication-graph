@@ -20657,6 +20657,89 @@
    ]
   },
   {
+   "@id": "cm:patient-education",
+   "@type": "cmo:Context",
+   "cmo:domain": "executive-and-client-communication",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:explainedBy": {
+    "@id": "cm:curse-of-knowledge"
+   },
+   "cmo:file": "articles/executive-and-client-communication/patient-education.md",
+   "cmo:level": "introductory",
+   "cmo:requires": {
+    "@id": "cm:plain-language"
+   },
+   "cmo:supportedBy": [
+    {
+     "@id": "cm:kessels-2003"
+    },
+    {
+     "@id": "cm:sheridan-et-al-2011"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/patient-education/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/patient-education/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/patient-education/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/patient-education/s4"
+    }
+   ],
+   "rdfs:label": "Patient education",
+   "skos:altLabel": [
+    "explaining care to patients",
+    "health education conversations",
+    "patient teaching"
+   ],
+   "skos:broader": {
+    "@id": "cm:client-communication"
+   },
+   "skos:definition": "The recurring situation in which clinicians, pharmacists and other health workers explain a diagnosis, treatment or self-care plan so that patients and families can understand it, remember it and act on it once they leave.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/executive-and-client-communication"
+   },
+   "skos:prefLabel": "Patient education",
+   "skos:related": [
+    {
+     "@id": "cm:checking-understanding"
+    },
+    {
+     "@id": "cm:delivering-bad-news"
+    },
+    {
+     "@id": "cm:illusion-of-transparency"
+    },
+    {
+     "@id": "cm:information-overload"
+    },
+    {
+     "@id": "cm:open-ended-questions"
+    },
+    {
+     "@id": "cm:plain-language"
+    },
+    {
+     "@id": "cm:risk-numbers-as-natural-frequencies"
+    },
+    {
+     "@id": "cm:teach-back"
+    },
+    {
+     "@id": "cm:working-with-interpreters"
+    }
+   ]
+  },
+  {
    "@id": "cm:peer-review-of-writing",
    "@type": "cmo:Technique",
    "cmo:addresses": {
@@ -63497,6 +63580,62 @@
    "dcterms:title": "A Meta-analytic Systematic Review and Theory of the Effects of Perceived Listening on Work Outcomes",
    "schema:url": {
     "@id": "https://cris.huji.ac.il/en/publications/a-meta-analytic-systematic-review-and-theory-of-the-effects-of-pe/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/patient-education/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Roy P. C. Kessels, Journal of the Royal Society of Medicine 96(5), 2003 (PubMed Central)",
+   "dcterms:title": "Patients' memory for medical information",
+   "schema:url": {
+    "@id": "https://pmc.ncbi.nlm.nih.gov/articles/PMC539473"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/patient-education/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Sheridan, Halpern, Viera, Berkman, Donahue & Crotty, Journal of Health Communication 16 Suppl 3, 2011 (Duke Scholars record)",
+   "dcterms:title": "Interventions for individuals with low health literacy: a systematic review",
+   "schema:url": {
+    "@id": "https://scholars.duke.edu/publication/882693"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/patient-education/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Agency for Healthcare Research and Quality (AHRQ), U.S. Department of Health and Human Services",
+   "dcterms:title": "Health Literacy Universal Precautions Toolkit, 3rd Edition",
+   "schema:url": {
+    "@id": "https://www.ahrq.gov:443/sites/default/files/publications2/files/health-literacy-universal-precautions-toolkit-3rd-edition.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/patient-education/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "practitioner-journal",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Barry D. Weiss, American Family Physician 92(2), 2015",
+   "dcterms:title": "Health Literacy: What Do You Need to Do?",
+   "schema:url": {
+    "@id": "https://www.aafp.org/pubs/afp/issues/2015/0715/p84.pdf"
    }
   },
   {
