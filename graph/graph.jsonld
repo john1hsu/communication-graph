@@ -7744,6 +7744,74 @@
    ]
   },
   {
+   "@id": "cm:edward-l-deci",
+   "@type": "cmo:Person",
+   "cmo:domain": "thinkers-and-works",
+   "cmo:evidenceStatus": "historical",
+   "cmo:file": "articles/thinkers-and-works/edward-l-deci.md",
+   "cmo:introduced": [
+    {
+     "@id": "cm:autonomy-supportive-language"
+    },
+    {
+     "@id": "cm:self-determination-theory"
+    }
+   ],
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/edward-l-deci/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/edward-l-deci/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/edward-l-deci/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/edward-l-deci/s4"
+    }
+   ],
+   "rdfs:label": "Edward L. Deci",
+   "skos:altLabel": [
+    "E. L. Deci",
+    "Ed Deci",
+    "Edward Deci"
+   ],
+   "skos:definition": "American motivation psychologist at the University of Rochester (c. 1942-2026) who, with Richard Ryan, founded self-determination theory and showed that how managers, teachers and parents talk - informational and choice-giving or pressuring and controlling - shapes people's motivation.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/thinkers-and-works"
+   },
+   "skos:prefLabel": "Edward L. Deci",
+   "skos:related": [
+    {
+     "@id": "cm:autonomy-supportive-language"
+    },
+    {
+     "@id": "cm:coaching"
+    },
+    {
+     "@id": "cm:employee-engagement"
+    },
+    {
+     "@id": "cm:feedback-intervention-theory"
+    },
+    {
+     "@id": "cm:one-on-one-meetings"
+    },
+    {
+     "@id": "cm:psychological-reactance"
+    },
+    {
+     "@id": "cm:work-motivation"
+    }
+   ]
+  },
+  {
    "@id": "cm:edward-tufte",
    "@type": "cmo:Person",
    "cmo:authored": [
@@ -49573,6 +49641,62 @@
    "dcterms:title": "In Conversation With... Eduardo Salas, PhD",
    "schema:url": {
     "@id": "https://psnet.ahrq.gov/perspective/conversation-eduardo-salas-phd"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/edward-l-deci/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "University of Rochester NewsCenter, February 17, 2026",
+   "dcterms:title": "Edward Deci remembered: Self-determination theory and human motivation",
+   "schema:url": {
+    "@id": "https://www.rochester.edu/newscenter/edward-deci-remembered-self-determination-theory-human-motivation-694612"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/edward-l-deci/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Deci, E. L., Connell, J. P. & Ryan, R. M., Journal of Applied Psychology 74(4), 580-590, 1989 (CORE open-access copy)",
+   "dcterms:title": "Self-Determination in a Work Organization",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/208438078.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/edward-l-deci/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Gagné, M. & Deci, E. L., Journal of Organizational Behavior 26, 331-362, 2005, doi:10.1002/job.322 (course copy, Appalachian State University)",
+   "dcterms:title": "Self-determination theory and work motivation",
+   "schema:url": {
+    "@id": "https://classdat.appstate.edu/COB/MGT/VillanPD/OB%20Fall%202021/Unit%202%20-%20Tension/Motivation%20Articles/Gagne%20&%20Deci-Self-determination%20theory%20&%20work%20motivation%202005.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/edward-l-deci/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Deci, E. L., Koestner, R. & Ryan, R. M., Review of Educational Research 71(1), 1-27, 2001 (Center for Self-Determination Theory copy)",
+   "dcterms:title": "Extrinsic Rewards and Intrinsic Motivation in Education: Reconsidered Once Again",
+   "schema:url": {
+    "@id": "https://selfdeterminationtheory.org/SDT/documents/2001_DeciKoestnerRyan.pdf"
    }
   },
   {
