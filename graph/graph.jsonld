@@ -6117,6 +6117,108 @@
    ]
   },
   {
+   "@id": "cm:cyber-incivility",
+   "@type": "cmo:AntiPattern",
+   "cmo:causes": {
+    "@id": "cm:work-rumination"
+   },
+   "cmo:demonstratedBy": {
+    "@id": "cm:giumetti-et-al-2013"
+   },
+   "cmo:domain": "digital-and-async-communication",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/cyber-incivility/example"
+   },
+   "cmo:explainedBy": {
+    "@id": "cm:online-disinhibition-effect"
+   },
+   "cmo:file": "articles/digital-and-async-communication/cyber-incivility.md",
+   "cmo:instanceOf": {
+    "@id": "cm:workplace-incivility"
+   },
+   "cmo:level": "introductory",
+   "cmo:supportedBy": {
+    "@id": "cm:yuan-park-sliter-2020"
+   },
+   "cmo:undermines": {
+    "@id": "cm:work-engagement"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/cyber-incivility/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/cyber-incivility/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/cyber-incivility/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/cyber-incivility/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/cyber-incivility/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/cyber-incivility/s6"
+    }
+   ],
+   "rdfs:label": "Cyber incivility",
+   "skos:altLabel": [
+    "digital incivility",
+    "email incivility",
+    "rude emails"
+   ],
+   "skos:broader": {
+    "@id": "cm:workplace-incivility"
+   },
+   "skos:definition": "Low-intensity rudeness in work email, chat and other digital channels - demeaning, sarcastic or all-caps messages (active) or ignoring requests and skipping the questions asked (passive) - that breaks norms of mutual respect, whether or not the sender meant harm.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/digital-and-async-communication"
+   },
+   "skos:prefLabel": "Cyber incivility",
+   "skos:related": [
+    {
+     "@id": "cm:channel-selection"
+    },
+    {
+     "@id": "cm:chat-etiquette"
+    },
+    {
+     "@id": "cm:cooling-off-period"
+    },
+    {
+     "@id": "cm:email"
+    },
+    {
+     "@id": "cm:emoji-and-tone-in-text"
+    },
+    {
+     "@id": "cm:emotional-contagion"
+    },
+    {
+     "@id": "cm:instant-messaging"
+    },
+    {
+     "@id": "cm:psychological-detachment"
+    },
+    {
+     "@id": "cm:rfc-1855-netiquette-guidelines"
+    },
+    {
+     "@id": "cm:setting-reply-time-expectations"
+    },
+    {
+     "@id": "cm:workplace-telepressure"
+    }
+   ]
+  },
+  {
    "@id": "cm:david-m-clark",
    "@type": "cmo:Person",
    "cmo:domain": "thinkers-and-works",
@@ -33402,6 +33504,54 @@
    "rdfs:label": "Have I asked someone outside the work to restate my point in their own words, or am I only judging clarity myself?"
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/cyber-incivility/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:cyber-incivility"
+   },
+   "rdfs:label": "If I read this message aloud to the recipient's face with their manager present, would it still sound respectful?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/cyber-incivility/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:cyber-incivility"
+   },
+   "rdfs:label": "Have I answered every question and request in the message I am replying to, or at least acknowledged it with a date?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/cyber-incivility/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:cyber-incivility"
+   },
+   "rdfs:label": "Am I copying anyone who does not need to see this, especially when it contains criticism?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/cyber-incivility/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:cyber-incivility"
+   },
+   "rdfs:label": "Am I writing this while angry, and would it be better sent after a pause or said in a call?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/cyber-incivility/check/5",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:cyber-incivility"
+   },
+   "rdfs:label": "Is there a message waiting in my inbox or chat that someone could reasonably read my silence on as being ignored?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/cyber-incivility/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "Direct to the analyst only: \"Hi Sam, the Q3 total on tab 2 looks off by about 4K - I think the returns line is double-counted. Could you send a corrected version by 3 pm so I can forward it to Finance? Happy to look at the formula with you if that's quicker. Thanks.\" Then, at their next one-on-one, the lead raises the pattern of errors in person.",
+   "cmo:before": "Reply-all: WHY are the totals wrong AGAIN?? This is the third time. Please actually check your work before sending things out.",
+   "cmo:situation": "A team lead replies on a shared thread after an analyst's weekly report arrives with a wrong total, copying the analyst's peers and their director.",
+   "cmo:why": "The original shouts in capitals, uses sarcasm and criticises in front of an audience, all markers of active email incivility; the rewrite names the specific problem, the needed action and deadline privately, offers help, and moves the recurring-pattern conversation to a richer channel where tone can be read."
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/de-escalation/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -48271,6 +48421,90 @@
    "dcterms:title": "Paraphrase testing",
    "schema:url": {
     "@id": "https://digital.gov/guides/plain-language/test/paraphrase-testing"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/cyber-incivility/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Vivien K. G. Lim & Thompson S. H. Teo, Information & Management 46, 419-425 (2009) (author copy, NUS Business School)",
+   "dcterms:title": "Mind your E-manners: Impact of cyber incivility on employees' work attitude and behavior",
+   "schema:url": {
+    "@id": "https://web2-bschool.nus.edu.sg/wp-content/uploads/media_rp/publications/na9vz1422936628.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/cyber-incivility/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Gary W. Giumetti et al., Journal of Occupational Health Psychology 18(3), 297-309 (2013), doi:10.1037/a0032851 (author copy, UNC Wilmington)",
+   "dcterms:title": "What a Rude E-Mail! Examining the Differential Effects of Incivility Versus Support on Mood, Energy, Engagement, and Performance in an Online Context",
+   "schema:url": {
+    "@id": "https://people.uncw.edu/hakanr/documents/rudetexts.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/cyber-incivility/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "YoungAh Park, Charlotte Fritz & Steve M. Jex, Journal of Management 44(7), 2535-2557 (2018) (CDC Stacks record)",
+   "dcterms:title": "Daily Cyber Incivility and Distress: The Moderating Roles of Resources at Work and Home",
+   "schema:url": {
+    "@id": "https://stacks.cdc.gov/view/cdc/210527"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/cyber-incivility/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Zhenyu Yuan, YoungAh Park & Michael T. Sliter, Journal of Occupational Health Psychology 25(5), 330-344 (2020), doi:10.1037/ocp0000215 (PubMed Central)",
+   "dcterms:title": "Put You Down versus Tune You Out: Further Understanding Active and Passive Email Incivility",
+   "schema:url": {
+    "@id": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8362923"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/cyber-incivility/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Muhammad Salman Rashid & Jarrod Haar, Personnel Review (accepted 2026), doi:10.1108/PR-10-2025-1133 (author copy, Massey University Research Online)",
+   "dcterms:title": "Resource-draining inbox: exploring how email incivility leads to job anxiety and depression",
+   "schema:url": {
+    "@id": "https://mro.massey.ac.nz/bitstreams/30f99512-3838-4708-b879-9752612bf5b9/download"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/cyber-incivility/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Roy Maurer, SHRM (22 August 2024)",
+   "dcterms:title": "When Workplace Incivility Goes Virtual",
+   "schema:url": {
+    "@id": "https://www.shrm.org/topics-tools/news/employee-relations/when-workplace-incivility-goes-virtual"
    }
   },
   {

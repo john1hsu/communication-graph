@@ -6,7 +6,9 @@ SPARQL queries in `queries/` run over the asserted graph, the OWL-RL inferences 
 
 _Which written barriers or anti-patterns have nothing in the graph that addresses them?_ — `queries/01-problems-without-fix.rq`
 
-_No results._
+| node | type |
+|---|---|
+| `cm:cyber-incivility` | cmo:AntiPattern |
 
 ## Skills with no practice technique (gap)
 
@@ -135,7 +137,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:wise-feedback` | contested | `cm:troy-moua-van-boekel-2024` |
 | `cm:power-posing` | failed-replication | `cm:crede-2019` |
 
-…and 212 more.
+…and 213 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -144,6 +146,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | node | type |
 |---|---|
 | `cm:closed-questions` | cmo:Technique |
+| `cm:cyber-incivility` | cmo:AntiPattern |
 | `cm:escalation-communication` | cmo:Technique |
 | `cm:executive-summary` | cmo:Genre |
 | `cm:exposure-therapy` | cmo:Technique |
@@ -172,9 +175,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:meeting-recaps` | cmo:Technique |
 | `cm:memorandum` | cmo:Genre |
 | `cm:message-structure` | cmo:Concept |
-| `cm:mindfulness` | cmo:Technique |
 
-…and 67 more.
+…and 68 more.
 
 ## Orphan articles (gap)
 

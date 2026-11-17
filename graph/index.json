@@ -7017,6 +7017,130 @@
   ]
  },
  {
+  "id": "cm:cyber-incivility",
+  "title": "Cyber incivility",
+  "aliases": [
+   "email incivility",
+   "rude emails",
+   "digital incivility"
+  ],
+  "type": "AntiPattern",
+  "domain": "digital-and-async-communication",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/digital-and-async-communication/cyber-incivility.md",
+  "created": "2026-11-17",
+  "summary": "Low-intensity rudeness in work email, chat and other digital channels - demeaning, sarcastic or all-caps messages (active) or ignoring requests and skipping the questions asked (passive) - that breaks norms of mutual respect, whether or not the sender meant harm.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:workplace-incivility"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:email"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:instant-messaging"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:emoji-and-tone-in-text"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:setting-reply-time-expectations"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:chat-etiquette"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:workplace-telepressure"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:cooling-off-period"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:channel-selection"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:emotional-contagion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:psychological-detachment"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:rfc-1855-netiquette-guidelines"
+   },
+   {
+    "predicate": "cmo:instanceOf",
+    "object": "cm:workplace-incivility",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:giumetti-et-al-2013",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:yuan-park-sliter-2020",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:undermines",
+    "object": "cm:work-engagement",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:causes",
+    "object": "cm:work-rumination",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:online-disinhibition-effect",
+    "source": "s6",
+    "confidence": "low"
+   }
+  ],
+  "selfCheck": [
+   "If I read this message aloud to the recipient's face with their manager present, would it still sound respectful?",
+   "Have I answered every question and request in the message I am replying to, or at least acknowledged it with a date?",
+   "Am I copying anyone who does not need to see this, especially when it contains criticism?",
+   "Am I writing this while angry, and would it be better sent after a pause or said in a call?",
+   "Is there a message waiting in my inbox or chat that someone could reasonably read my silence on as being ignored?"
+  ],
+  "steps": [],
+  "example": {
+   "situation": "A team lead replies on a shared thread after an analyst's weekly report arrives with a wrong total, copying the analyst's peers and their director.",
+   "before": "Reply-all: WHY are the totals wrong AGAIN?? This is the third time. Please actually check your work before sending things out.",
+   "after": "Direct to the analyst only: \"Hi Sam, the Q3 total on tab 2 looks off by about 4K - I think the returns line is double-counted. Could you send a corrected version by 3 pm so I can forward it to Finance? Happy to look at the formula with you if that's quicker. Thanks.\" Then, at their next one-on-one, the lead raises the pattern of errors in person.",
+   "why": "The original shouts in capitals, uses sarcasm and criticises in front of an audience, all markers of active email incivility; the rewrite names the specific problem, the needed action and deadline privately, offers help, and moves the recurring-pattern conversation to a richer channel where tone can be read."
+  },
+  "source_urls": [
+   "https://web2-bschool.nus.edu.sg/wp-content/uploads/media_rp/publications/na9vz1422936628.pdf",
+   "https://people.uncw.edu/hakanr/documents/rudetexts.pdf",
+   "https://stacks.cdc.gov/view/cdc/210527",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC8362923",
+   "https://mro.massey.ac.nz/bitstreams/30f99512-3838-4708-b879-9752612bf5b9/download",
+   "https://www.shrm.org/topics-tools/news/employee-relations/when-workplace-incivility-goes-virtual"
+  ]
+ },
+ {
   "id": "cm:david-m-clark",
   "title": "David M. Clark",
   "aliases": [

@@ -782,6 +782,23 @@ Ask yourself:
 - Am I about to alert more people than actually need to see this right now?
 - Have I said when I need a reply, and that it can wait if it can?
 
+### [Cyber incivility](../articles/digital-and-async-communication/cyber-incivility.md) — AntiPattern
+
+*A team lead replies on a shared thread after an analyst's weekly report arrives with a wrong total, copying the analyst's peers and their director.*
+
+| Before | After |
+|---|---|
+| Reply-all: WHY are the totals wrong AGAIN?? This is the third time. Please actually check your work before sending things out. | Direct to the analyst only: "Hi Sam, the Q3 total on tab 2 looks off by about 4K - I think the returns line is double-counted. Could you send a corrected version by 3 pm so I can forward it to Finance? Happy to look at the formula with you if that's quicker. Thanks." Then, at their next one-on-one, the lead raises the pattern of errors in person. |
+
+**Why:** The original shouts in capitals, uses sarcasm and criticises in front of an audience, all markers of active email incivility; the rewrite names the specific problem, the needed action and deadline privately, offers help, and moves the recurring-pattern conversation to a richer channel where tone can be read.
+
+Ask yourself:
+- If I read this message aloud to the recipient's face with their manager present, would it still sound respectful?
+- Have I answered every question and request in the message I am replying to, or at least acknowledged it with a date?
+- Am I copying anyone who does not need to see this, especially when it contains criticism?
+- Am I writing this while angry, and would it be better sent after a pause or said in a call?
+- Is there a message waiting in my inbox or chat that someone could reasonably read my silence on as being ignored?
+
 ### [Email subject lines](../articles/digital-and-async-communication/email-subject-lines.md) — Technique
 
 1. Before writing the subject, decide what you need from the reader - an action, a decision, a signature or nothing - and by when.
