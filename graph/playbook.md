@@ -1261,6 +1261,29 @@ Ask yourself:
 
 ## feedback-and-coaching
 
+### [360-degree feedback](../articles/feedback-and-coaching/360-degree-feedback.md) — Technique
+
+1. Decide and announce the purpose before anyone rates - development only, or input to appraisal - and say who will see the report.
+2. Agree a set of raters with the recipient and their manager, choosing people who see the work often enough to give examples; aim for several per group rather than two or three.
+3. Use a short questionnaire of observable behaviours, and brief raters on what to rate and on common rating errors.
+4. Keep peer and direct-report ratings anonymous and aggregated, and give the recipient the report with a trained coach or facilitator rather than by email.
+5. Help the recipient pick one or two development areas - especially where their self-rating is well above others' - and write a specific action plan with dates.
+6. Have the recipient thank raters, share the chosen focus and ask for suggestions, then check progress every few months and re-survey after about a year.
+
+*A team lead receives her first 360 report, which shows that her direct reports rate her much lower than she rates herself on "involves the team in decisions".*
+
+| Before | After |
+|---|---|
+| Thanks all for doing my 360. I saw some low scores on decision-making - I think people didn't realise how many of those calls came from above me. Anyway, it was useful to see. | Thanks for the honest input on my 360. The clearest message was that you'd like more say in decisions that affect your work. For the next six months I'll bring open decisions to our Monday meeting before I settle them. If you have one idea for how I could do that well, I'd like to hear it - and I'll check back with you in March. |
+
+**Why:** The first reply explains the gap away, which tells raters their input will be argued with and discourages candour next time. The rewrite names one behaviour, commits to a visible change with a date, and invites suggestions and follow-up, which is what the research links to improvement.
+
+Ask yourself:
+- Does everyone involved know whether these ratings will feed pay or promotion decisions?
+- Where is the biggest gap between how I rated myself and how others rated me, and have I resisted explaining it away?
+- Have I chosen one or two behaviours to work on, rather than trying to fix every low score?
+- Have I told my raters what I am working on and when I will check back with them?
+
 ### [Behavior modeling training](../articles/feedback-and-coaching/behavior-modeling-training.md) — Technique
 
 1. Pick one recurring conversation (for example, raising a missed deadline) and write four to six learning points as rules that say what to do and why.

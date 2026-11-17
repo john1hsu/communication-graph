@@ -105,6 +105,99 @@
    ]
   },
   {
+   "@id": "cm:360-degree-feedback",
+   "@type": "cmo:Technique",
+   "cmo:appliedIn": {
+    "@id": "cm:performance-review"
+   },
+   "cmo:challengedBy": {
+    "@id": "cm:denisi-kluger-2000"
+   },
+   "cmo:complements": {
+    "@id": "cm:coaching"
+   },
+   "cmo:domain": "feedback-and-coaching",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/360-degree-feedback/example"
+   },
+   "cmo:file": "articles/feedback-and-coaching/360-degree-feedback.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/360-degree-feedback/howto"
+   },
+   "cmo:introducedBy": [
+    {
+     "@id": "cm:ann-j-ewen"
+    },
+    {
+     "@id": "cm:mark-r-edwards"
+    }
+   ],
+   "cmo:level": "intermediate",
+   "cmo:requires": {
+    "@id": "cm:receiving-feedback"
+   },
+   "cmo:supportedBy": {
+    "@id": "cm:smither-london-reilly-2005"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/360-degree-feedback/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/360-degree-feedback/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/360-degree-feedback/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/360-degree-feedback/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/360-degree-feedback/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/360-degree-feedback/s6"
+    }
+   ],
+   "rdfs:label": "360-degree feedback",
+   "skos:altLabel": [
+    "360 assessment",
+    "360 review",
+    "multi-rater feedback",
+    "multisource feedback"
+   ],
+   "skos:broader": {
+    "@id": "cm:feedback"
+   },
+   "skos:definition": "A structured process in which a person's work behaviour is rated on a common questionnaire by several groups who see it from different angles - their manager, peers, direct reports, sometimes clients - and compared with their own self-rating, so they can see how others experience them and choose what to develop.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/feedback-and-coaching"
+   },
+   "skos:prefLabel": "360-degree feedback",
+   "skos:related": [
+    {
+     "@id": "cm:feedback-intervention-theory"
+    },
+    {
+     "@id": "cm:feedforward"
+    },
+    {
+     "@id": "cm:kluger-denisi-1996"
+    },
+    {
+     "@id": "cm:one-on-one-meetings"
+    },
+    {
+     "@id": "cm:receiving-feedback"
+    }
+   ]
+  },
+  {
    "@id": "cm:accusatory-you-statements",
    "@type": "cmo:AntiPattern",
    "cmo:causes": {
@@ -30679,6 +30772,107 @@
    "schema:text": "Close by naming what the group will do with the ideas - prioritise them, assign owners or feed them into a decision - and debrief briefly with a co-host on how the process went."
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/360-degree-feedback/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:360-degree-feedback"
+   },
+   "rdfs:label": "Does everyone involved know whether these ratings will feed pay or promotion decisions?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/360-degree-feedback/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:360-degree-feedback"
+   },
+   "rdfs:label": "Where is the biggest gap between how I rated myself and how others rated me, and have I resisted explaining it away?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/360-degree-feedback/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:360-degree-feedback"
+   },
+   "rdfs:label": "Have I chosen one or two behaviours to work on, rather than trying to fix every low score?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/360-degree-feedback/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:360-degree-feedback"
+   },
+   "rdfs:label": "Have I told my raters what I am working on and when I will check back with them?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/360-degree-feedback/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "Thanks for the honest input on my 360. The clearest message was that you'd like more say in decisions that affect your work. For the next six months I'll bring open decisions to our Monday meeting before I settle them. If you have one idea for how I could do that well, I'd like to hear it - and I'll check back with you in March.",
+   "cmo:before": "Thanks all for doing my 360. I saw some low scores on decision-making - I think people didn't realise how many of those calls came from above me. Anyway, it was useful to see.",
+   "cmo:situation": "A team lead receives her first 360 report, which shows that her direct reports rate her much lower than she rates herself on \"involves the team in decisions\".",
+   "cmo:why": "The first reply explains the gap away, which tells raters their input will be argued with and discourages candour next time. The rewrite names one behaviour, commits to a visible change with a date, and invites suggestions and follow-up, which is what the research links to improvement."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/360-degree-feedback/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "360-degree feedback",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/360-degree-feedback/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/360-degree-feedback/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/360-degree-feedback/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/360-degree-feedback/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/360-degree-feedback/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/360-degree-feedback/howto/6"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/360-degree-feedback/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Decide and announce the purpose before anyone rates - development only, or input to appraisal - and say who will see the report."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/360-degree-feedback/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Agree a set of raters with the recipient and their manager, choosing people who see the work often enough to give examples; aim for several per group rather than two or three."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/360-degree-feedback/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Use a short questionnaire of observable behaviours, and brief raters on what to rate and on common rating errors."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/360-degree-feedback/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Keep peer and direct-report ratings anonymous and aggregated, and give the recipient the report with a trained coach or facilitator rather than by email."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/360-degree-feedback/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Help the recipient pick one or two development areas - especially where their self-rating is well above others' - and write a specific action plan with dates."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/360-degree-feedback/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "Have the recipient thank raters, share the chosen focus and ask for suggestions, then check progress every few months and re-survey after about a year."
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/accusatory-you-statements/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -44129,6 +44323,90 @@
    "dcterms:title": "There's a Better Way to Brainstorm",
    "schema:url": {
     "@id": "https://psychologicalscience.org/?p=121811"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/360-degree-feedback/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Smither, London & Reilly, Personnel Psychology 58(1), 33-66 (2005), Stony Brook University research portal",
+   "dcterms:title": "Does performance improve following multisource feedback? A theoretical model, meta-analysis, and review of empirical findings",
+   "schema:url": {
+    "@id": "https://researchconnect.stonybrook.edu/en/publications/does-performance-improve-following-multisource-feedback-a-theoret/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/360-degree-feedback/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Bracken, Rose & Church, Industrial and Organizational Psychology 9(4), 761-794 (2016), Cambridge University Press",
+   "dcterms:title": "The evolution and devolution of 360° feedback",
+   "schema:url": {
+    "@id": "https://core-prod.cambridgecore.org/core/services/aop-cambridge-core/content/view/84B3B38380487D6C269AADF4B2230E17/S1754942616000936a.pdf/evolution_and_devolution_of_360_feedback.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/360-degree-feedback/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "DeNisi & Kluger, Academy of Management Executive 14(1), 129-138 (2000), Hebrew University research portal",
+   "dcterms:title": "Feedback effectiveness: Can 360-degree appraisals be improved?",
+   "schema:url": {
+    "@id": "https://cris.huji.ac.il/en/publications/feedback-effectiveness-can-360-degree-appraisals-be-improved/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/360-degree-feedback/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Jean Leslie, Center for Creative Leadership (2008)",
+   "dcterms:title": "360-Degree Feedback: Best Practices to Ensure Impact",
+   "schema:url": {
+    "@id": "https://www.ccl.org/wp-content/uploads/2026/02/360-degree-feedback-best-practices-research-paper-center-for-creative-leadership.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/360-degree-feedback/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "practitioner-journal",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Harriet Edleson, Monitor on Psychology 43(10), American Psychological Association (November 2012)",
+   "dcterms:title": "Do 360 evaluations work?",
+   "schema:url": {
+    "@id": "https://www.apa.org/monitor/2012/11/360-evaluations"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/360-degree-feedback/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Smither, London, Reilly, Flautt, Vargas & Kucine, Journal of Management Development 23(5), 456-468 (2004), Stony Brook University research portal",
+   "dcterms:title": "Discussing multisource feedback with raters and performance improvement",
+   "schema:url": {
+    "@id": "https://researchconnect.stonybrook.edu/en/publications/discussing-multisource-feedback-with-raters-and-performance-impro/"
    }
   },
   {

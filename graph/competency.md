@@ -98,7 +98,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:difficult-conversation` | `cm:cooling-off-period` |
 | `cm:difficult-conversation` | `cm:de-escalation` |
 
-…and 168 more.
+…and 169 more.
 
 ## Myths and contested advice
 
@@ -137,7 +137,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:wise-feedback` | contested | `cm:troy-moua-van-boekel-2024` |
 | `cm:power-posing` | failed-replication | `cm:crede-2019` |
 
-…and 217 more.
+…and 218 more.
 
 ## Concepts with no recorded origin (gap)
 

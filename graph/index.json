@@ -111,6 +111,117 @@
   ]
  },
  {
+  "id": "cm:360-degree-feedback",
+  "title": "360-degree feedback",
+  "aliases": [
+   "multisource feedback",
+   "multi-rater feedback",
+   "360 review",
+   "360 assessment"
+  ],
+  "type": "Technique",
+  "domain": "feedback-and-coaching",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/feedback-and-coaching/360-degree-feedback.md",
+  "created": "2026-11-17",
+  "summary": "A structured process in which a person's work behaviour is rated on a common questionnaire by several groups who see it from different angles - their manager, peers, direct reports, sometimes clients - and compared with their own self-rating, so they can see how others experience them and choose what to develop.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:feedback"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:receiving-feedback"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:feedforward"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:feedback-intervention-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:kluger-denisi-1996"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:one-on-one-meetings"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:receiving-feedback"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:mark-r-edwards",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:ann-j-ewen",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:smither-london-reilly-2005",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:denisi-kluger-2000",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:performance-review",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:coaching",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Does everyone involved know whether these ratings will feed pay or promotion decisions?",
+   "Where is the biggest gap between how I rated myself and how others rated me, and have I resisted explaining it away?",
+   "Have I chosen one or two behaviours to work on, rather than trying to fix every low score?",
+   "Have I told my raters what I am working on and when I will check back with them?"
+  ],
+  "steps": [
+   "Decide and announce the purpose before anyone rates - development only, or input to appraisal - and say who will see the report.",
+   "Agree a set of raters with the recipient and their manager, choosing people who see the work often enough to give examples; aim for several per group rather than two or three.",
+   "Use a short questionnaire of observable behaviours, and brief raters on what to rate and on common rating errors.",
+   "Keep peer and direct-report ratings anonymous and aggregated, and give the recipient the report with a trained coach or facilitator rather than by email.",
+   "Help the recipient pick one or two development areas - especially where their self-rating is well above others' - and write a specific action plan with dates.",
+   "Have the recipient thank raters, share the chosen focus and ask for suggestions, then check progress every few months and re-survey after about a year."
+  ],
+  "example": {
+   "situation": "A team lead receives her first 360 report, which shows that her direct reports rate her much lower than she rates herself on \"involves the team in decisions\".",
+   "before": "Thanks all for doing my 360. I saw some low scores on decision-making - I think people didn't realise how many of those calls came from above me. Anyway, it was useful to see.",
+   "after": "Thanks for the honest input on my 360. The clearest message was that you'd like more say in decisions that affect your work. For the next six months I'll bring open decisions to our Monday meeting before I settle them. If you have one idea for how I could do that well, I'd like to hear it - and I'll check back with you in March.",
+   "why": "The first reply explains the gap away, which tells raters their input will be argued with and discourages candour next time. The rewrite names one behaviour, commits to a visible change with a date, and invites suggestions and follow-up, which is what the research links to improvement."
+  },
+  "source_urls": [
+   "https://researchconnect.stonybrook.edu/en/publications/does-performance-improve-following-multisource-feedback-a-theoret/",
+   "https://core-prod.cambridgecore.org/core/services/aop-cambridge-core/content/view/84B3B38380487D6C269AADF4B2230E17/S1754942616000936a.pdf/evolution_and_devolution_of_360_feedback.pdf",
+   "https://cris.huji.ac.il/en/publications/feedback-effectiveness-can-360-degree-appraisals-be-improved/",
+   "https://www.ccl.org/wp-content/uploads/2026/02/360-degree-feedback-best-practices-research-paper-center-for-creative-leadership.pdf",
+   "https://www.apa.org/monitor/2012/11/360-evaluations",
+   "https://researchconnect.stonybrook.edu/en/publications/discussing-multisource-feedback-with-raters-and-performance-impro/"
+  ]
+ },
+ {
   "id": "cm:accusatory-you-statements",
   "title": "Accusatory you-statements",
   "aliases": [
