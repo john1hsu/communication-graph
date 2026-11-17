@@ -32481,6 +32481,132 @@
   ]
  },
  {
+  "id": "cm:team-communication-norms",
+  "title": "Team communication norms",
+  "aliases": [
+   "team communication charter",
+   "team communication agreement",
+   "team working agreement",
+   "communication ground rules"
+  ],
+  "type": "Technique",
+  "domain": "digital-and-async-communication",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/digital-and-async-communication/team-communication-norms.md",
+  "created": "2026-11-17",
+  "summary": "Explicit, written agreements a team makes early about how it will communicate - which channel to use for what, how fast replies are expected, when people are offline, how meetings run and what behaviour is off limits - then revisits as the work and membership change.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:group-communication"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "cm:digital-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:setting-reply-time-expectations"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:chat-etiquette"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:camera-optional-norm"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:crew-civility-intervention"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:channel-selection"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:psychological-safety"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:meeting-agendas"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:hybrid-meetings"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:asynchronous-communication"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:mathieu-rapp-2009",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:courtright-et-al-2017",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:workplace-telepressure",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:interrupting",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:multicultural-team",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:asynchronous-communication",
+    "source": "s6",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Could a new teammate find out, in writing, which channel to use for a decision and how fast a reply is expected?",
+   "When did we last check whether our agreed norms still match how we actually work?",
+   "Do I, as a lead, follow the norms myself - including the offline hours and the no-interrupting rule?"
+  ],
+  "steps": [
+   "In the first weeks of a project (or when membership changes), book a short session to agree how the team will communicate, rather than letting habits form by default.",
+   "Map channels to message types - for example chat for quick coordination, email or the project tool for decisions and records, a call or live meeting for sensitive or interpersonal issues.",
+   "Agree default reply windows per channel and each person's working hours and time zone, plus how to flag something genuinely urgent.",
+   "Name a short list of always-do and never-do behaviours for meetings and threads (start on time, give everyone a turn, no talking over people), and how anyone can call out a breach.",
+   "Write the agreement in one shared place, ask new joiners to read it, and have leads model it visibly.",
+   "Put a recurring five-minute \"how are we working?\" check on the team agenda and revise any norm that is being ignored or no longer fits."
+  ],
+  "example": {
+   "situation": "A product team split across London and Singapore keeps missing hand-offs; some people answer chat at midnight, others feel ignored, and a tense design disagreement escalates in a long email thread.",
+   "before": "No agreement. Requests arrive by chat, email and comments at all hours; whoever replies fastest gets the work; the design dispute runs to 40 emails before anyone talks.",
+   "after": "One-page charter in the team wiki - Chat: same working day. Email/tracker: decisions and anything others must find later, reply within two working days. Urgent: phone the on-call owner. Core overlap 08:00-10:00 London. Disagreements about people or direction: move to a call after two replies. Reviewed monthly in the retro.",
+   "why": "Each person no longer has to guess the urgency, channel or hours others expect, so hand-offs land, off-hours pressure drops, and conflict moves to a channel that can carry it."
+  },
+  "source_urls": [
+   "https://academicnewsletter.sufe.edu.cn/info/371622",
+   "https://pure.psu.edu/en/publications/quality-charters-or-quality-members-a-control-theory-perspective-/",
+   "https://pressbooks.pub/smallgroup/chapter/norms/",
+   "https://ombuds.columbia.edu/sites/default/files/content/pics/30%20Anniv/The%20Secrets%20of%20Great%20Teamwork.pdf",
+   "https://www.dourish.com/classes/readings/PerlowPorter-TimeOff-HBR.pdf",
+   "https://rhsmith.umd.edu/research/how-can-remote-teams-communicate-better"
+  ]
+ },
+ {
   "id": "cm:the-culture-map",
   "title": "The Culture Map",
   "aliases": [

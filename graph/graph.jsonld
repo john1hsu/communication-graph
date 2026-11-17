@@ -28507,6 +28507,117 @@
    ]
   },
   {
+   "@id": "cm:team-communication-norms",
+   "@type": "cmo:Technique",
+   "cmo:addresses": [
+    {
+     "@id": "cm:interrupting"
+    },
+    {
+     "@id": "cm:workplace-telepressure"
+    }
+   ],
+   "cmo:appliedIn": [
+    {
+     "@id": "cm:asynchronous-communication"
+    },
+    {
+     "@id": "cm:multicultural-team"
+    }
+   ],
+   "cmo:domain": "digital-and-async-communication",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/team-communication-norms/example"
+   },
+   "cmo:file": "articles/digital-and-async-communication/team-communication-norms.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/team-communication-norms/howto"
+   },
+   "cmo:level": "intermediate",
+   "cmo:supportedBy": [
+    {
+     "@id": "cm:courtright-et-al-2017"
+    },
+    {
+     "@id": "cm:mathieu-rapp-2009"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/team-communication-norms/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/team-communication-norms/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/team-communication-norms/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/team-communication-norms/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/team-communication-norms/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/team-communication-norms/s6"
+    }
+   ],
+   "rdfs:label": "Team communication norms",
+   "skos:altLabel": [
+    "communication ground rules",
+    "team communication agreement",
+    "team communication charter",
+    "team working agreement"
+   ],
+   "skos:broader": [
+    {
+     "@id": "cm:digital-communication"
+    },
+    {
+     "@id": "cm:group-communication"
+    }
+   ],
+   "skos:definition": "Explicit, written agreements a team makes early about how it will communicate - which channel to use for what, how fast replies are expected, when people are offline, how meetings run and what behaviour is off limits - then revisits as the work and membership change.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/digital-and-async-communication"
+   },
+   "skos:prefLabel": "Team communication norms",
+   "skos:related": [
+    {
+     "@id": "cm:asynchronous-communication"
+    },
+    {
+     "@id": "cm:camera-optional-norm"
+    },
+    {
+     "@id": "cm:channel-selection"
+    },
+    {
+     "@id": "cm:chat-etiquette"
+    },
+    {
+     "@id": "cm:crew-civility-intervention"
+    },
+    {
+     "@id": "cm:hybrid-meetings"
+    },
+    {
+     "@id": "cm:meeting-agendas"
+    },
+    {
+     "@id": "cm:psychological-safety"
+    },
+    {
+     "@id": "cm:setting-reply-time-expectations"
+    }
+   ]
+  },
+  {
    "@id": "cm:the-culture-map",
    "@type": "cmo:Work",
    "cmo:appliedIn": {
@@ -69695,6 +69806,90 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/team-communication-norms/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Mathieu, J. E. & Rapp, T. L., Journal of Applied Psychology 94(1), 90-103, 2009 (bibliographic record and abstract, SUFE Academic Newsletter)",
+   "dcterms:title": "Laying the foundation for successful team performance trajectories: The roles of team charters and performance strategies",
+   "schema:url": {
+    "@id": "https://academicnewsletter.sufe.edu.cn/info/371622"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/team-communication-norms/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Courtright, S. H., McCormick, B. W., Mistry, S. & Wang, J., Journal of Applied Psychology 102(10), 1462-1470, 2017 (Penn State research record)",
+   "dcterms:title": "Quality charters or quality members? A control theory perspective on team charters and team performance",
+   "schema:url": {
+    "@id": "https://pure.psu.edu/en/publications/quality-charters-or-quality-members-a-control-theory-perspective-/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/team-communication-norms/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Linabary, J. R., Small Group Communication (open textbook, Pressbooks), chapter 4",
+   "dcterms:title": "Establishing and Maintaining Group Norms",
+   "schema:url": {
+    "@id": "https://pressbooks.pub/smallgroup/chapter/norms/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/team-communication-norms/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "practitioner-journal",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Haas, M. & Mortensen, M., Harvard Business Review, June 2016 (reprint hosted by Columbia University Ombuds Office)",
+   "dcterms:title": "The Secrets of Great Teamwork",
+   "schema:url": {
+    "@id": "https://ombuds.columbia.edu/sites/default/files/content/pics/30%20Anniv/The%20Secrets%20of%20Great%20Teamwork.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/team-communication-norms/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "practitioner-journal",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Perlow, L. A. & Porter, J. L., Harvard Business Review, October 2009 (course-reading copy, UC Irvine)",
+   "dcterms:title": "Making Time Off Predictable - and Required",
+   "schema:url": {
+    "@id": "https://www.dourish.com/classes/readings/PerlowPorter-TimeOff-HBR.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/team-communication-norms/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "University of Maryland Robert H. Smith School of Business, March 2019 (on research by N. Sharon Hill and Kathryn M. Bartol)",
+   "dcterms:title": "How Can Remote Teams Communicate Better?",
+   "schema:url": {
+    "@id": "https://rhsmith.umd.edu/research/how-can-remote-teams-communicate-better"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/source/the-culture-map/s1",
    "@type": "cmo:Source",
    "cmo:sourceType": "academic",
@@ -72888,6 +73083,99 @@
    "@type": "schema:HowToStep",
    "schema:position": 6,
    "schema:text": "Close by confirming the agreed version in writing where it matters (a recap message or ticket)."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/team-communication-norms/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:team-communication-norms"
+   },
+   "rdfs:label": "Could a new teammate find out, in writing, which channel to use for a decision and how fast a reply is expected?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/team-communication-norms/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:team-communication-norms"
+   },
+   "rdfs:label": "When did we last check whether our agreed norms still match how we actually work?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/team-communication-norms/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:team-communication-norms"
+   },
+   "rdfs:label": "Do I, as a lead, follow the norms myself - including the offline hours and the no-interrupting rule?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/team-communication-norms/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "One-page charter in the team wiki - Chat: same working day. Email/tracker: decisions and anything others must find later, reply within two working days. Urgent: phone the on-call owner. Core overlap 08:00-10:00 London. Disagreements about people or direction: move to a call after two replies. Reviewed monthly in the retro.",
+   "cmo:before": "No agreement. Requests arrive by chat, email and comments at all hours; whoever replies fastest gets the work; the design dispute runs to 40 emails before anyone talks.",
+   "cmo:situation": "A product team split across London and Singapore keeps missing hand-offs; some people answer chat at midnight, others feel ignored, and a tense design disagreement escalates in a long email thread.",
+   "cmo:why": "Each person no longer has to guess the urgency, channel or hours others expect, so hand-offs land, off-hours pressure drops, and conflict moves to a channel that can carry it."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/team-communication-norms/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Team communication norms",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/team-communication-norms/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/team-communication-norms/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/team-communication-norms/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/team-communication-norms/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/team-communication-norms/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/team-communication-norms/howto/6"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/team-communication-norms/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "In the first weeks of a project (or when membership changes), book a short session to agree how the team will communicate, rather than letting habits form by default."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/team-communication-norms/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Map channels to message types - for example chat for quick coordination, email or the project tool for decisions and records, a call or live meeting for sensitive or interpersonal issues."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/team-communication-norms/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Agree default reply windows per channel and each person's working hours and time zone, plus how to flag something genuinely urgent."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/team-communication-norms/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Name a short list of always-do and never-do behaviours for meetings and threads (start on time, give everyone a turn, no talking over people), and how anyone can call out a breach."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/team-communication-norms/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Write the agreement in one shared place, ask new joiners to read it, and have leads model it visibly."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/team-communication-norms/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "Put a recurring five-minute \"how are we working?\" check on the team agenda and revise any norm that is being ignored or no longer fits."
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/thomas-kilmann-conflict-modes/check/1",

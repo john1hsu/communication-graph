@@ -926,6 +926,28 @@ Ask yourself:
 - Is the urgency I am signalling the urgency I actually have?
 - Would my team know our default reply window for this channel without asking?
 
+### [Team communication norms](../articles/digital-and-async-communication/team-communication-norms.md) — Technique
+
+1. In the first weeks of a project (or when membership changes), book a short session to agree how the team will communicate, rather than letting habits form by default.
+2. Map channels to message types - for example chat for quick coordination, email or the project tool for decisions and records, a call or live meeting for sensitive or interpersonal issues.
+3. Agree default reply windows per channel and each person's working hours and time zone, plus how to flag something genuinely urgent.
+4. Name a short list of always-do and never-do behaviours for meetings and threads (start on time, give everyone a turn, no talking over people), and how anyone can call out a breach.
+5. Write the agreement in one shared place, ask new joiners to read it, and have leads model it visibly.
+6. Put a recurring five-minute "how are we working?" check on the team agenda and revise any norm that is being ignored or no longer fits.
+
+*A product team split across London and Singapore keeps missing hand-offs; some people answer chat at midnight, others feel ignored, and a tense design disagreement escalates in a long email thread.*
+
+| Before | After |
+|---|---|
+| No agreement. Requests arrive by chat, email and comments at all hours; whoever replies fastest gets the work; the design dispute runs to 40 emails before anyone talks. | One-page charter in the team wiki - Chat: same working day. Email/tracker: decisions and anything others must find later, reply within two working days. Urgent: phone the on-call owner. Core overlap 08:00-10:00 London. Disagreements about people or direction: move to a call after two replies. Reviewed monthly in the retro. |
+
+**Why:** Each person no longer has to guess the urgency, channel or hours others expect, so hand-offs land, off-hours pressure drops, and conflict moves to a channel that can carry it.
+
+Ask yourself:
+- Could a new teammate find out, in writing, which channel to use for a decision and how fast a reply is expected?
+- When did we last check whether our agreed norms still match how we actually work?
+- Do I, as a lead, follow the norms myself - including the offline hours and the no-interrupting rule?
+
 ### [Video call communication](../articles/digital-and-async-communication/video-call-communication.md) — Channel
 
 Ask yourself:

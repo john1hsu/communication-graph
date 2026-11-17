@@ -57,7 +57,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:peer-review-of-writing` | 2 | Business writing, Curse of knowledge |
 | `cm:plain-language` | 2 | Curse of knowledge, jargon |
 
-…and 75 more.
+…and 76 more.
 
 ## Toolkit by situation
 
@@ -69,6 +69,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:asynchronous-communication` | `cm:conversational-receptiveness` |
 | `cm:asynchronous-communication` | `cm:media-synchronicity-theory` |
 | `cm:asynchronous-communication` | `cm:setting-reply-time-expectations` |
+| `cm:asynchronous-communication` | `cm:team-communication-norms` |
 | `cm:business-report` | `cm:informative-headings` |
 | `cm:business-report` | `cm:peer-review-of-writing` |
 | `cm:business-report` | `cm:pyramid-principle` |
@@ -94,9 +95,8 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:difficult-conversation` | `cm:assertive-communication` |
 | `cm:difficult-conversation` | `cm:cognitive-reappraisal` |
 | `cm:difficult-conversation` | `cm:conversational-receptiveness` |
-| `cm:difficult-conversation` | `cm:cooling-off-period` |
 
-…and 171 more.
+…and 173 more.
 
 ## Myths and contested advice
 
@@ -135,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:wise-feedback` | contested | `cm:troy-moua-van-boekel-2024` |
 | `cm:power-posing` | failed-replication | `cm:crede-2019` |
 
-…and 224 more.
+…and 225 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -174,7 +174,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:meeting-recaps` | cmo:Technique |
 | `cm:memorandum` | cmo:Genre |
 
-…and 72 more.
+…and 73 more.
 
 ## Orphan articles (gap)
 
