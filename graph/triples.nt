@@ -10503,6 +10503,61 @@
 <https://github.com/john1hsu/communication-graph/id/mixed-messages> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/nonverbal-and-voice/mixed-messages.md" .
 <https://github.com/john1hsu/communication-graph/id/mixed-messages> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/mixed-messages> <https://github.com/john1hsu/communication-graph/ontology#undermines> <https://github.com/john1hsu/communication-graph/id/credibility> .
+<https://github.com/john1hsu/communication-graph/id/modality-principle/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/modality-principle/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "On my most important chart or diagram, are the explaining words coming from my voice or from text the audience must read?" .
+<https://github.com/john1hsu/communication-graph/id/modality-principle/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/modality-principle> .
+<https://github.com/john1hsu/communication-graph/id/modality-principle/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/modality-principle/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Am I about to read aloud a sentence that is already printed on the slide?" .
+<https://github.com/john1hsu/communication-graph/id/modality-principle/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/modality-principle> .
+<https://github.com/john1hsu/communication-graph/id/modality-principle/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/modality-principle/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Is the pace mine (live, auto-advancing) or the reader's (a deck sent ahead), and have I adjusted the amount of text to match?" .
+<https://github.com/john1hsu/communication-graph/id/modality-principle/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/modality-principle> .
+<https://github.com/john1hsu/communication-graph/id/modality-principle/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/modality-principle/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Have I kept on screen the technical terms, numbers or names my audience will need to see written down?" .
+<https://github.com/john1hsu/communication-graph/id/modality-principle/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/modality-principle> .
+<https://github.com/john1hsu/communication-graph/id/modality-principle> <http://purl.org/dc/terms/created> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/modality-principle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Principle> .
+<https://github.com/john1hsu/communication-graph/id/modality-principle> <http://www.w3.org/2000/01/rdf-schema#label> "Modality principle" .
+<https://github.com/john1hsu/communication-graph/id/modality-principle> <http://www.w3.org/2004/02/skos/core#altLabel> "Mayer's modality principle" .
+<https://github.com/john1hsu/communication-graph/id/modality-principle> <http://www.w3.org/2004/02/skos/core#altLabel> "modality effect" .
+<https://github.com/john1hsu/communication-graph/id/modality-principle> <http://www.w3.org/2004/02/skos/core#altLabel> "narrate the visuals" .
+<https://github.com/john1hsu/communication-graph/id/modality-principle> <http://www.w3.org/2004/02/skos/core#altLabel> "spoken words with graphics" .
+<https://github.com/john1hsu/communication-graph/id/modality-principle> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> .
+<https://github.com/john1hsu/communication-graph/id/modality-principle> <http://www.w3.org/2004/02/skos/core#definition> "The multimedia-design principle that people understand a chart, diagram or image better when it is explained in spoken words than in printed text beside it. Meta-analyses find a real but smaller and more conditional benefit than early studies suggested, strongest when the presenter sets the pace." .
+<https://github.com/john1hsu/communication-graph/id/modality-principle> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/presenting-and-public-speaking> .
+<https://github.com/john1hsu/communication-graph/id/modality-principle> <http://www.w3.org/2004/02/skos/core#prefLabel> "Modality principle" .
+<https://github.com/john1hsu/communication-graph/id/modality-principle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> .
+<https://github.com/john1hsu/communication-graph/id/modality-principle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-load> .
+<https://github.com/john1hsu/communication-graph/id/modality-principle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/coherence-principle> .
+<https://github.com/john1hsu/communication-graph/id/modality-principle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint> .
+<https://github.com/john1hsu/communication-graph/id/modality-principle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/pechakucha> .
+<https://github.com/john1hsu/communication-graph/id/modality-principle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/presentation-rehearsal> .
+<https://github.com/john1hsu/communication-graph/id/modality-principle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/slide-design> .
+<https://github.com/john1hsu/communication-graph/id/modality-principle> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/modality-principle/s1> .
+<https://github.com/john1hsu/communication-graph/id/modality-principle> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/modality-principle/s2> .
+<https://github.com/john1hsu/communication-graph/id/modality-principle> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/modality-principle/s3> .
+<https://github.com/john1hsu/communication-graph/id/modality-principle> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/modality-principle/s4> .
+<https://github.com/john1hsu/communication-graph/id/modality-principle> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/modality-principle/s5> .
+<https://github.com/john1hsu/communication-graph/id/modality-principle> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/modality-principle/s6> .
+<https://github.com/john1hsu/communication-graph/id/modality-principle> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/modality-principle/s7> .
+<https://github.com/john1hsu/communication-graph/id/modality-principle> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint> .
+<https://github.com/john1hsu/communication-graph/id/modality-principle> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/pechakucha> .
+<https://github.com/john1hsu/communication-graph/id/modality-principle> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/presentation> .
+<https://github.com/john1hsu/communication-graph/id/modality-principle> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/tabbers-van-der-spoel-2011> .
+<https://github.com/john1hsu/communication-graph/id/modality-principle> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/coherence-principle> .
+<https://github.com/john1hsu/communication-graph/id/modality-principle> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/mousavi-low-sweller-1995> .
+<https://github.com/john1hsu/communication-graph/id/modality-principle> <https://github.com/john1hsu/communication-graph/ontology#develops> <https://github.com/john1hsu/communication-graph/id/slide-design> .
+<https://github.com/john1hsu/communication-graph/id/modality-principle> <https://github.com/john1hsu/communication-graph/ontology#domain> "presenting-and-public-speaking" .
+<https://github.com/john1hsu/communication-graph/id/modality-principle> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/modality-principle> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/cognitive-load> .
+<https://github.com/john1hsu/communication-graph/id/modality-principle> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/cognitive-theory-of-multimedia-learning> .
+<https://github.com/john1hsu/communication-graph/id/modality-principle> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/presenting-and-public-speaking/modality-principle.md" .
+<https://github.com/john1hsu/communication-graph/id/modality-principle> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/john-sweller> .
+<https://github.com/john1hsu/communication-graph/id/modality-principle> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/richard-e-mayer> .
+<https://github.com/john1hsu/communication-graph/id/modality-principle> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/communication-graph/id/modality-principle> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/slide-design> .
+<https://github.com/john1hsu/communication-graph/id/modality-principle> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/ginns-2005> .
+<https://github.com/john1hsu/communication-graph/id/modality-principle> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/wang-xie-li-2016> .
 <https://github.com/john1hsu/communication-graph/id/monochronic-and-polychronic-time> <http://purl.org/dc/terms/created> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/monochronic-and-polychronic-time> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Phenomenon> .
 <https://github.com/john1hsu/communication-graph/id/monochronic-and-polychronic-time> <http://www.w3.org/2000/01/rdf-schema#label> "Monochronic and polychronic time" .
@@ -22999,6 +23054,48 @@
 <https://github.com/john1hsu/communication-graph/id/source/mixed-messages/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/mixed-messages/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "textbook" .
 <https://github.com/john1hsu/communication-graph/id/source/mixed-messages/s6> <https://schema.org/url> <https://ecampusontario.pressbooks.pub/conflictmanagement/chapter/6-4-title/> .
+<https://github.com/john1hsu/communication-graph/id/source/modality-principle/s1> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/modality-principle/s1> <http://purl.org/dc/terms/publisher> "Mayer, R. E., in Overson, Hakala, Kordonowy & Benassi (eds.), In Their Own Words, Society for the Teaching of Psychology (APA Division 2), 2023, pp. 143-157 (University of New Hampshire copy)" .
+<https://github.com/john1hsu/communication-graph/id/source/modality-principle/s1> <http://purl.org/dc/terms/title> "Research-based principles for designing multimedia instruction" .
+<https://github.com/john1hsu/communication-graph/id/source/modality-principle/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/modality-principle/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/modality-principle/s1> <https://schema.org/url> <https://www.unh.edu/teaching-learning-resource-hub/sites/default/files/media/2023-06/itow-research-based-principles-for-designing-multimedia-instruction-mayer.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/modality-principle/s2> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/modality-principle/s2> <http://purl.org/dc/terms/publisher> "Sweller, J., Ayres, P. & Kalyuga, S., Cognitive Load Theory, ch. 10, pp. 129-140, Springer, 2011" .
+<https://github.com/john1hsu/communication-graph/id/source/modality-principle/s2> <http://purl.org/dc/terms/title> "The Modality Effect" .
+<https://github.com/john1hsu/communication-graph/id/source/modality-principle/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/modality-principle/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/communication-graph/id/source/modality-principle/s2> <https://schema.org/url> <https://rd.springer.com/chapter/10.1007/978-1-4419-8126-4_10> .
+<https://github.com/john1hsu/communication-graph/id/source/modality-principle/s3> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/modality-principle/s3> <http://purl.org/dc/terms/publisher> "Wang Fuxing, Xie Heping & Li Hui, Advances in Psychological Science 24(3), 335-350, 2016" .
+<https://github.com/john1hsu/communication-graph/id/source/modality-principle/s3> <http://purl.org/dc/terms/title> "Visual text or narration? Meta-analysis of the modality effect in multimedia learning" .
+<https://github.com/john1hsu/communication-graph/id/source/modality-principle/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/modality-principle/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/modality-principle/s3> <https://schema.org/url> <https://journal.psych.ac.cn/xlkxjz/EN/Y2016/V24/I3/335> .
+<https://github.com/john1hsu/communication-graph/id/source/modality-principle/s4> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/modality-principle/s4> <http://purl.org/dc/terms/publisher> "Tabbers, H. K. & van der Spoel, W., Zeitschrift fur Padagogische Psychologie 25(4), 221-230, 2011, doi:10.1024/1010-0652/a000047 (Erasmus University Rotterdam repository)" .
+<https://github.com/john1hsu/communication-graph/id/source/modality-principle/s4> <http://purl.org/dc/terms/title> "Where did the modality principle in multimedia learning go? A double replication failure that questions both theory and practical use" .
+<https://github.com/john1hsu/communication-graph/id/source/modality-principle/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/modality-principle/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/modality-principle/s4> <https://schema.org/url> <https://repub.eur.nl/pub/74771> .
+<https://github.com/john1hsu/communication-graph/id/source/modality-principle/s5> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/modality-principle/s5> <http://purl.org/dc/terms/publisher> "INSPIRE, Australian Catholic University (Designing Presentations series)" .
+<https://github.com/john1hsu/communication-graph/id/source/modality-principle/s5> <http://purl.org/dc/terms/title> "Modality and multimedia" .
+<https://github.com/john1hsu/communication-graph/id/source/modality-principle/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/modality-principle/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/modality-principle/s5> <https://schema.org/url> <https://inspire.acu.edu.au/articles/modality-and-multimedia> .
+<https://github.com/john1hsu/communication-graph/id/source/modality-principle/s6> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/modality-principle/s6> <http://purl.org/dc/terms/publisher> "Sumeracki, M., The Learning Scientists, 29 May 2025 (on Mousavi, Low & Sweller, Journal of Educational Psychology 87(2), 1995)" .
+<https://github.com/john1hsu/communication-graph/id/source/modality-principle/s6> <http://purl.org/dc/terms/title> "Dual Coding and Cognitive Load" .
+<https://github.com/john1hsu/communication-graph/id/source/modality-principle/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/modality-principle/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/communication-graph/id/source/modality-principle/s6> <https://schema.org/url> <https://www.learningscientists.org/blog/2025/5/29> .
+<https://github.com/john1hsu/communication-graph/id/source/modality-principle/s7> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/modality-principle/s7> <http://purl.org/dc/terms/publisher> "Beyer, A. A., Gaze, C. & Lazicki, J., Journal of Teaching and Learning with Technology 1(2), 26-42, 2013" .
+<https://github.com/john1hsu/communication-graph/id/source/modality-principle/s7> <http://purl.org/dc/terms/title> "Comparing students' evaluations and recall for student Pecha Kucha and PowerPoint presentations" .
+<https://github.com/john1hsu/communication-graph/id/source/modality-principle/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/modality-principle/s7> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/modality-principle/s7> <https://schema.org/url> <https://scholarworks.iu.edu/journals/index.php/jotlt/article/view/3109> .
 <https://github.com/john1hsu/communication-graph/id/source/monochronic-and-polychronic-time/s1> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/monochronic-and-polychronic-time/s1> <http://purl.org/dc/terms/publisher> "International Business open textbook, curated by Emily McWorthy, Kirkwood Community College Pressbooks (CC BY-NC-SA)" .
 <https://github.com/john1hsu/communication-graph/id/source/monochronic-and-polychronic-time/s1> <http://purl.org/dc/terms/title> "Cultural Dimensions – Hall, Verbal and Nonverbal" .

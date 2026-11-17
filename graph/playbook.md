@@ -2948,6 +2948,14 @@ Ask yourself:
 - When I could not answer, did I give the real reason and a follow-up date?
 - Did the questions I took come from across the room, or only from the first hands up?
 
+### [Modality principle](../articles/presenting-and-public-speaking/modality-principle.md) — Principle
+
+Ask yourself:
+- On my most important chart or diagram, are the explaining words coming from my voice or from text the audience must read?
+- Am I about to read aloud a sentence that is already printed on the slide?
+- Is the pace mine (live, auto-advancing) or the reader's (a deck sent ahead), and have I adjusted the amount of text to match?
+- Have I kept on screen the technical terms, numbers or names my audience will need to see written down?
+
 ### [Presentation rehearsal](../articles/presenting-and-public-speaking/presentation-rehearsal.md) — Technique
 
 1. Start at least several days ahead and split practice into short sessions (opening, body, close) rather than one late-night cram.

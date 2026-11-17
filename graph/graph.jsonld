@@ -18080,6 +18080,129 @@
    ]
   },
   {
+   "@id": "cm:modality-principle",
+   "@type": "cmo:Principle",
+   "cmo:addresses": {
+    "@id": "cm:death-by-powerpoint"
+   },
+   "cmo:appliedIn": [
+    {
+     "@id": "cm:pechakucha"
+    },
+    {
+     "@id": "cm:presentation"
+    }
+   ],
+   "cmo:challengedBy": {
+    "@id": "cm:tabbers-van-der-spoel-2011"
+   },
+   "cmo:complements": {
+    "@id": "cm:coherence-principle"
+   },
+   "cmo:demonstratedBy": {
+    "@id": "cm:mousavi-low-sweller-1995"
+   },
+   "cmo:develops": {
+    "@id": "cm:slide-design"
+   },
+   "cmo:domain": "presenting-and-public-speaking",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:explainedBy": [
+    {
+     "@id": "cm:cognitive-load"
+    },
+    {
+     "@id": "cm:cognitive-theory-of-multimedia-learning"
+    }
+   ],
+   "cmo:file": "articles/presenting-and-public-speaking/modality-principle.md",
+   "cmo:introducedBy": [
+    {
+     "@id": "cm:john-sweller"
+    },
+    {
+     "@id": "cm:richard-e-mayer"
+    }
+   ],
+   "cmo:level": "intermediate",
+   "cmo:requires": {
+    "@id": "cm:slide-design"
+   },
+   "cmo:supportedBy": [
+    {
+     "@id": "cm:ginns-2005"
+    },
+    {
+     "@id": "cm:wang-xie-li-2016"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/modality-principle/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/modality-principle/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/modality-principle/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/modality-principle/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/modality-principle/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/modality-principle/s6"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/modality-principle/s7"
+    }
+   ],
+   "rdfs:label": "Modality principle",
+   "skos:altLabel": [
+    "Mayer's modality principle",
+    "modality effect",
+    "narrate the visuals",
+    "spoken words with graphics"
+   ],
+   "skos:broader": {
+    "@id": "cm:cognitive-theory-of-multimedia-learning"
+   },
+   "skos:definition": "The multimedia-design principle that people understand a chart, diagram or image better when it is explained in spoken words than in printed text beside it. Meta-analyses find a real but smaller and more conditional benefit than early studies suggested, strongest when the presenter sets the pace.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/presenting-and-public-speaking"
+   },
+   "skos:prefLabel": "Modality principle",
+   "skos:related": [
+    {
+     "@id": "cm:assertion-evidence-slides"
+    },
+    {
+     "@id": "cm:cognitive-load"
+    },
+    {
+     "@id": "cm:coherence-principle"
+    },
+    {
+     "@id": "cm:death-by-powerpoint"
+    },
+    {
+     "@id": "cm:pechakucha"
+    },
+    {
+     "@id": "cm:presentation-rehearsal"
+    },
+    {
+     "@id": "cm:slide-design"
+    }
+   ]
+  },
+  {
    "@id": "cm:monochronic-and-polychronic-time",
    "@type": "cmo:Phenomenon",
    "cmo:challengedBy": {
@@ -40789,6 +40912,38 @@
    "rdfs:label": "Would this listener's culture lead them to weigh my tone more, or my words more, than I expect?"
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/modality-principle/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:modality-principle"
+   },
+   "rdfs:label": "On my most important chart or diagram, are the explaining words coming from my voice or from text the audience must read?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/modality-principle/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:modality-principle"
+   },
+   "rdfs:label": "Am I about to read aloud a sentence that is already printed on the slide?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/modality-principle/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:modality-principle"
+   },
+   "rdfs:label": "Is the pace mine (live, auto-advancing) or the reader's (a deck sent ahead), and have I adjusted the amount of text to match?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/modality-principle/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:modality-principle"
+   },
+   "rdfs:label": "Have I kept on screen the technical terms, numbers or names my audience will need to see written down?"
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/multiple-equivalent-simultaneous-offers/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -61438,6 +61593,104 @@
    "dcterms:title": "Conflict Management, section 6.4: Examining our Perceptions in Conflict",
    "schema:url": {
     "@id": "https://ecampusontario.pressbooks.pub/conflictmanagement/chapter/6-4-title/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/modality-principle/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Mayer, R. E., in Overson, Hakala, Kordonowy & Benassi (eds.), In Their Own Words, Society for the Teaching of Psychology (APA Division 2), 2023, pp. 143-157 (University of New Hampshire copy)",
+   "dcterms:title": "Research-based principles for designing multimedia instruction",
+   "schema:url": {
+    "@id": "https://www.unh.edu/teaching-learning-resource-hub/sites/default/files/media/2023-06/itow-research-based-principles-for-designing-multimedia-instruction-mayer.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/modality-principle/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Sweller, J., Ayres, P. & Kalyuga, S., Cognitive Load Theory, ch. 10, pp. 129-140, Springer, 2011",
+   "dcterms:title": "The Modality Effect",
+   "schema:url": {
+    "@id": "https://rd.springer.com/chapter/10.1007/978-1-4419-8126-4_10"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/modality-principle/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Wang Fuxing, Xie Heping & Li Hui, Advances in Psychological Science 24(3), 335-350, 2016",
+   "dcterms:title": "Visual text or narration? Meta-analysis of the modality effect in multimedia learning",
+   "schema:url": {
+    "@id": "https://journal.psych.ac.cn/xlkxjz/EN/Y2016/V24/I3/335"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/modality-principle/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Tabbers, H. K. & van der Spoel, W., Zeitschrift fur Padagogische Psychologie 25(4), 221-230, 2011, doi:10.1024/1010-0652/a000047 (Erasmus University Rotterdam repository)",
+   "dcterms:title": "Where did the modality principle in multimedia learning go? A double replication failure that questions both theory and practical use",
+   "schema:url": {
+    "@id": "https://repub.eur.nl/pub/74771"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/modality-principle/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "INSPIRE, Australian Catholic University (Designing Presentations series)",
+   "dcterms:title": "Modality and multimedia",
+   "schema:url": {
+    "@id": "https://inspire.acu.edu.au/articles/modality-and-multimedia"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/modality-principle/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Sumeracki, M., The Learning Scientists, 29 May 2025 (on Mousavi, Low & Sweller, Journal of Educational Psychology 87(2), 1995)",
+   "dcterms:title": "Dual Coding and Cognitive Load",
+   "schema:url": {
+    "@id": "https://www.learningscientists.org/blog/2025/5/29"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/modality-principle/s7",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Beyer, A. A., Gaze, C. & Lazicki, J., Journal of Teaching and Learning with Technology 1(2), 26-42, 2013",
+   "dcterms:title": "Comparing students' evaluations and recall for student Pecha Kucha and PowerPoint presentations",
+   "schema:url": {
+    "@id": "https://scholarworks.iu.edu/journals/index.php/jotlt/article/view/3109"
    }
   },
   {

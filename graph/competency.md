@@ -18,9 +18,7 @@ _No results._
 
 _Which written contexts, channels or genres have no technique, framework or principle applied in them or structuring them?_ — `queries/03-situations-without-guidance.rq`
 
-| node | type |
-|---|---|
-| `cm:pechakucha` | cmo:Genre |
+_No results._
 
 ## Highest-leverage techniques
 
@@ -55,11 +53,11 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:interests-vs-positions` | 2 | Mythical fixed-pie bias, Positional bargaining |
 | `cm:listening` | 2 | Defensiveness, Interrupting |
 | `cm:mindfulness` | 2 | Emotion regulation, Workplace stress |
+| `cm:modality-principle` | 2 | Death by PowerPoint, Slide design |
 | `cm:nominal-group-technique` | 2 | Production blocking, Unequal participation |
 | `cm:peer-review-of-writing` | 2 | Business writing, Curse of knowledge |
-| `cm:plain-language` | 2 | Curse of knowledge, jargon |
 
-…and 77 more.
+…and 78 more.
 
 ## Toolkit by situation
 
@@ -98,7 +96,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:difficult-conversation` | `cm:cognitive-reappraisal` |
 | `cm:difficult-conversation` | `cm:conversational-receptiveness` |
 
-…and 174 more.
+…and 176 more.
 
 ## Myths and contested advice
 
@@ -137,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:reading-lies-from-body-language` | contested | `cm:depaulo-et-al-2003` |
 | `cm:reading-lies-from-body-language` | contested | `cm:hartwig-bond-2011` |
 
-…and 230 more.
+…and 231 more.
 
 ## Concepts with no recorded origin (gap)
 
