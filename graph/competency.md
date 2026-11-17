@@ -18,7 +18,9 @@ _No results._
 
 _Which written contexts, channels or genres have no technique, framework or principle applied in them or structuring them?_ — `queries/03-situations-without-guidance.rq`
 
-_No results._
+| node | type |
+|---|---|
+| `cm:written-communication` | cmo:Channel |
 
 ## Highest-leverage techniques
 
@@ -135,7 +137,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:wise-feedback` | contested | `cm:troy-moua-van-boekel-2024` |
 | `cm:power-posing` | failed-replication | `cm:crede-2019` |
 
-…and 219 more.
+…and 220 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -174,7 +176,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:meeting-agendas` | cmo:Technique |
 | `cm:meeting-recaps` | cmo:Technique |
 
-…and 71 more.
+…and 72 more.
 
 ## Orphan articles (gap)
 

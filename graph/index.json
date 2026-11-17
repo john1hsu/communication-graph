@@ -34817,6 +34817,117 @@
   ]
  },
  {
+  "id": "cm:written-communication",
+  "title": "Written communication",
+  "aliases": [
+   "writing as a channel",
+   "the written channel",
+   "text-based communication"
+  ],
+  "type": "Channel",
+  "domain": "writing",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/writing/written-communication.md",
+  "created": "2026-11-17",
+  "summary": "Communicating through written text - emails, chat messages, reports, documents and comments - rather than through speech; it gives the writer time to draft and leaves a permanent record, but strips out voice and instant feedback, so meaning and tone depend entirely on the words on the page.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:communication-studies"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:business-writing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:email"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:asynchronous-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:channel-selection"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:emoji-and-tone-in-text"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:plain-language"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:egocentric-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:illusion-of-transparency"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:media-richness-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:phone-call"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:bottom-line-up-front"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:audience-analysis"
+   },
+   {
+    "predicate": "cmo:alternativeTo",
+    "object": "cm:face-to-face-conversation",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:egocentrism-over-email-study",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:schroeder-kardas-epley-2017",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:schroeder-epley-2015",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:bottom-line-up-front",
+    "source": "s6",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://courses.lumenlearning.com/epcc-introductiontocommunication/chapter/spoken-versus-written-communication/",
+   "https://escholarship.org/content/qt4bd9d03k/qt4bd9d03k.pdf",
+   "https://stern.nyu.edu/experience-stern/faculty-research/justin-kruger-email-research",
+   "https://www.chicagobooth.edu/review/when-job-hunting-pick-up-the-phone",
+   "https://academicnewsletter.sufe.edu.cn/info/367005",
+   "https://digital.gov/guides/plain-language/principles/organize"
+  ]
+ },
+ {
   "id": "cm:zone-of-possible-agreement",
   "title": "Zone of possible agreement",
   "aliases": [

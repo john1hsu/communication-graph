@@ -30584,6 +30584,107 @@
    ]
   },
   {
+   "@id": "cm:written-communication",
+   "@type": "cmo:Channel",
+   "cmo:alternativeTo": {
+    "@id": "cm:face-to-face-conversation"
+   },
+   "cmo:complements": {
+    "@id": "cm:bottom-line-up-front"
+   },
+   "cmo:demonstratedBy": [
+    {
+     "@id": "cm:egocentrism-over-email-study"
+    },
+    {
+     "@id": "cm:schroeder-epley-2015"
+    },
+    {
+     "@id": "cm:schroeder-kardas-epley-2017"
+    }
+   ],
+   "cmo:domain": "writing",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:file": "articles/writing/written-communication.md",
+   "cmo:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/written-communication/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/written-communication/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/written-communication/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/written-communication/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/written-communication/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/written-communication/s6"
+    }
+   ],
+   "rdfs:label": "Written communication",
+   "skos:altLabel": [
+    "text-based communication",
+    "the written channel",
+    "writing as a channel"
+   ],
+   "skos:broader": {
+    "@id": "cm:communication-studies"
+   },
+   "skos:definition": "Communicating through written text - emails, chat messages, reports, documents and comments - rather than through speech; it gives the writer time to draft and leaves a permanent record, but strips out voice and instant feedback, so meaning and tone depend entirely on the words on the page.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/writing"
+   },
+   "skos:prefLabel": "Written communication",
+   "skos:related": [
+    {
+     "@id": "cm:asynchronous-communication"
+    },
+    {
+     "@id": "cm:audience-analysis"
+    },
+    {
+     "@id": "cm:bottom-line-up-front"
+    },
+    {
+     "@id": "cm:business-writing"
+    },
+    {
+     "@id": "cm:channel-selection"
+    },
+    {
+     "@id": "cm:egocentric-bias"
+    },
+    {
+     "@id": "cm:email"
+    },
+    {
+     "@id": "cm:emoji-and-tone-in-text"
+    },
+    {
+     "@id": "cm:illusion-of-transparency"
+    },
+    {
+     "@id": "cm:media-richness-theory"
+    },
+    {
+     "@id": "cm:phone-call"
+    },
+    {
+     "@id": "cm:plain-language"
+    }
+   ]
+  },
+  {
    "@id": "cm:zone-of-possible-agreement",
    "@type": "cmo:Concept",
    "cmo:complements": {
@@ -70680,6 +70781,90 @@
    "dcterms:title": "Set expectations to reduce email stress",
    "schema:url": {
     "@id": "https://news.cornell.edu/node/322477"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/written-communication/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Paynton, S. T. & Hahn, L. K., Survey of Communication Study (Humboldt State University; Introduction to Communication course, Lumen Learning, CC BY-SA)",
+   "dcterms:title": "Spoken Versus Written Communication",
+   "schema:url": {
+    "@id": "https://courses.lumenlearning.com/epcc-introductiontocommunication/chapter/spoken-versus-written-communication/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/written-communication/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Schroeder, J., Kardas, M. & Epley, N., Psychological Science 28(12), 2017 (author copy, eScholarship, University of California)",
+   "dcterms:title": "The Humanizing Voice: Speech Reveals, and Text Conceals, a More Thoughtful Mind in the Midst of Disagreement",
+   "schema:url": {
+    "@id": "https://escholarship.org/content/qt4bd9d03k/qt4bd9d03k.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/written-communication/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "NYU Stern School of Business, Faculty Research Highlights",
+   "dcterms:title": "E-mail Etiquette: More Critical than You Might Think (on Kruger, Epley, Parker & Ng, Egocentrism over E-mail)",
+   "schema:url": {
+    "@id": "https://stern.nyu.edu/experience-stern/faculty-research/justin-kruger-email-research"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/written-communication/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Chicago Booth Review, University of Chicago Booth School of Business, 2015",
+   "dcterms:title": "When Job Hunting, Pick Up the Phone (on Schroeder & Epley, The Sound of Intellect)",
+   "schema:url": {
+    "@id": "https://www.chicagobooth.edu/review/when-job-hunting-pick-up-the-phone"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/written-communication/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Byron, K., Academy of Management Review 33(2), 309-327, 2008 (abstract, Shanghai University of Finance and Economics academic newsletter)",
+   "dcterms:title": "Carrying too heavy a load? The communication and miscommunication of emotion by email",
+   "schema:url": {
+    "@id": "https://academicnewsletter.sufe.edu.cn/info/367005"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/written-communication/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Digital.gov, U.S. General Services Administration",
+   "dcterms:title": "Plain Language Guide Series: Organize",
+   "schema:url": {
+    "@id": "https://digital.gov/guides/plain-language/principles/organize"
    }
   },
   {
