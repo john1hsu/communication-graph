@@ -2486,6 +2486,14 @@ Ask yourself:
 - Was I looking at them and saying something while we shook, or looking past them?
 - If someone did not shake hands, did I move on smoothly without remarking on it or holding it against them?
 
+### [Interpersonal accuracy](../articles/nonverbal-and-voice/interpersonal-accuracy.md) — Skill
+
+Ask yourself:
+- What exactly did I see or hear that made me think this person was frustrated, bored or on board, and is there another reading of the same cue?
+- Did I check my read with a question or a tentative label before acting on it?
+- Am I more confident about this judgement than my track record with this kind of person justifies?
+- Was I busy enough with my own agenda or status in this conversation that I stopped paying attention to theirs?
+
 ### [Mixed messages](../articles/nonverbal-and-voice/mixed-messages.md) — Barrier
 
 Ask yourself:

@@ -12,7 +12,9 @@ _No results._
 
 _Which written skills or dispositions have no technique, framework or principle that develops them?_ — `queries/02-skills-without-practice.rq`
 
-_No results._
+| skill | type |
+|---|---|
+| `cm:interpersonal-accuracy` | cmo:Skill |
 
 ## Situations, channels and formats with no guidance (gap)
 
@@ -96,7 +98,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:difficult-conversation` | `cm:cognitive-reappraisal` |
 | `cm:difficult-conversation` | `cm:conversational-receptiveness` |
 
-…and 173 more.
+…and 174 more.
 
 ## Myths and contested advice
 
@@ -135,7 +137,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:wise-feedback` | contested | `cm:troy-moua-van-boekel-2024` |
 | `cm:power-posing` | failed-replication | `cm:crede-2019` |
 
-…and 225 more.
+…and 226 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -161,6 +163,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:informative-headings` | cmo:Technique |
 | `cm:instant-messaging` | cmo:Channel |
 | `cm:intercultural-competence` | cmo:Skill |
+| `cm:interpersonal-accuracy` | cmo:Skill |
 | `cm:interpersonal-communication` | cmo:Field |
 | `cm:interpersonal-conflict` | cmo:Phenomenon |
 | `cm:interrupting` | cmo:AntiPattern |
@@ -172,9 +175,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:logrolling` | cmo:Technique |
 | `cm:meeting-agendas` | cmo:Technique |
 | `cm:meeting-recaps` | cmo:Technique |
-| `cm:memorandum` | cmo:Genre |
 
-…and 73 more.
+…and 74 more.
 
 ## Orphan articles (gap)
 
