@@ -29353,6 +29353,119 @@
   ]
  },
  {
+  "id": "cm:self-determination-theory",
+  "title": "Self-determination theory",
+  "aliases": [
+   "SDT",
+   "Deci and Ryan's self-determination theory",
+   "basic psychological needs theory"
+  ],
+  "type": "Theory",
+  "domain": "feedback-and-coaching",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/feedback-and-coaching/self-determination-theory.md",
+  "created": "2026-11-17",
+  "summary": "Deci and Ryan's theory of human motivation, which holds that people work with more energy, persistence and well-being when their needs for autonomy, competence and relatedness are supported, and that how managers frame direction, feedback and rewards - informational or controlling - shifts motivation between self-endorsed and pressured forms.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:work-motivation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:autonomy-supportive-language"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:one-on-one-meetings"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:employee-engagement"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:praise-and-recognition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:feedback-intervention-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:coaching"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:psychological-reactance"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:edward-l-deci"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:edward-l-deci",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:richard-m-ryan",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:studiedIn",
+    "object": "cm:industrial-organizational-psychology",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:slemp-et-al-2018",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:van-den-broeck-et-al-2016",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:deci-koestner-ryan-1999",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:eisenberger-cameron-1996",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:challengedBy",
+    "object": "cm:gerhart-fang-2015",
+    "source": "s6",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [],
+  "steps": [],
+  "example": null,
+  "source_urls": [
+   "https://mycourses.aalto.fi/pluginfile.php/1814006/mod_folder/intro/Self-determination%20theory__Deci%20et%20al.%2C%202017%20%281%29.pdf",
+   "https://pubmed.ncbi.nlm.nih.gov/11392867/",
+   "https://lirias.kuleuven.be/753979",
+   "https://selfdeterminationtheory.org/wp-content/uploads/2018/05/2018_SlempKernPatrickRyan_Leader-1.pdf",
+   "https://selfdeterminationtheory.org/SDT/documents/2001_DeciKoestnerRyan.pdf",
+   "https://www.annualreviews.org/content/journals/10.1146/annurev-orgpsych-032414-111418"
+  ]
+ },
+ {
   "id": "cm:self-disclosure",
   "title": "Self-disclosure",
   "aliases": [

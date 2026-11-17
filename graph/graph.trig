@@ -987,6 +987,15 @@
 <https://github.com/john1hsu/communication-graph/id/self-affirmation-before-feedback#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/self-affirmation-before-feedback/s4> .
 <https://github.com/john1hsu/communication-graph/id/self-affirmation-before-feedback#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/self-affirmation-before-feedback/s5> .
 <https://github.com/john1hsu/communication-graph/id/self-affirmation-before-feedback#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/self-affirmation-before-feedback/s6> .
+<https://github.com/john1hsu/communication-graph/id/self-determination-theory#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/self-determination-theory#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/self-determination-theory> .
+<https://github.com/john1hsu/communication-graph/id/self-determination-theory#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/feedback-and-coaching/self-determination-theory.md" .
+<https://github.com/john1hsu/communication-graph/id/self-determination-theory#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/self-determination-theory/s1> .
+<https://github.com/john1hsu/communication-graph/id/self-determination-theory#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/self-determination-theory/s2> .
+<https://github.com/john1hsu/communication-graph/id/self-determination-theory#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/self-determination-theory/s3> .
+<https://github.com/john1hsu/communication-graph/id/self-determination-theory#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/self-determination-theory/s4> .
+<https://github.com/john1hsu/communication-graph/id/self-determination-theory#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/self-determination-theory/s5> .
+<https://github.com/john1hsu/communication-graph/id/self-determination-theory#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/self-determination-theory/s6> .
 <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> .
 <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/feedback-and-coaching/situation-behavior-impact.md" .
@@ -13664,6 +13673,81 @@
   <https://github.com/john1hsu/communication-graph/id/source/self-affirmation-before-feedback/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
   <https://github.com/john1hsu/communication-graph/id/source/self-affirmation-before-feedback/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
   <https://github.com/john1hsu/communication-graph/id/source/self-affirmation-before-feedback/s6> <https://schema.org/url> <https://www.ehps.net/ehp/index.php/contents/article/view/271> .
+}
+
+<https://github.com/john1hsu/communication-graph/id/self-determination-theory#graph> {
+  <https://github.com/john1hsu/communication-graph/id/self-determination-theory> <http://purl.org/dc/terms/created> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/self-determination-theory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Theory> .
+  <https://github.com/john1hsu/communication-graph/id/self-determination-theory> <http://www.w3.org/2000/01/rdf-schema#label> "Self-determination theory" .
+  <https://github.com/john1hsu/communication-graph/id/self-determination-theory> <http://www.w3.org/2004/02/skos/core#altLabel> "Deci and Ryan's self-determination theory" .
+  <https://github.com/john1hsu/communication-graph/id/self-determination-theory> <http://www.w3.org/2004/02/skos/core#altLabel> "SDT" .
+  <https://github.com/john1hsu/communication-graph/id/self-determination-theory> <http://www.w3.org/2004/02/skos/core#altLabel> "basic psychological needs theory" .
+  <https://github.com/john1hsu/communication-graph/id/self-determination-theory> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/work-motivation> .
+  <https://github.com/john1hsu/communication-graph/id/self-determination-theory> <http://www.w3.org/2004/02/skos/core#definition> "Deci and Ryan's theory of human motivation, which holds that people work with more energy, persistence and well-being when their needs for autonomy, competence and relatedness are supported, and that how managers frame direction, feedback and rewards - informational or controlling - shifts motivation between self-endorsed and pressured forms." .
+  <https://github.com/john1hsu/communication-graph/id/self-determination-theory> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/feedback-and-coaching> .
+  <https://github.com/john1hsu/communication-graph/id/self-determination-theory> <http://www.w3.org/2004/02/skos/core#prefLabel> "Self-determination theory" .
+  <https://github.com/john1hsu/communication-graph/id/self-determination-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> .
+  <https://github.com/john1hsu/communication-graph/id/self-determination-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/coaching> .
+  <https://github.com/john1hsu/communication-graph/id/self-determination-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/edward-l-deci> .
+  <https://github.com/john1hsu/communication-graph/id/self-determination-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/employee-engagement> .
+  <https://github.com/john1hsu/communication-graph/id/self-determination-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/feedback-intervention-theory> .
+  <https://github.com/john1hsu/communication-graph/id/self-determination-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> .
+  <https://github.com/john1hsu/communication-graph/id/self-determination-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/praise-and-recognition> .
+  <https://github.com/john1hsu/communication-graph/id/self-determination-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/psychological-reactance> .
+  <https://github.com/john1hsu/communication-graph/id/self-determination-theory> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/self-determination-theory/s1> .
+  <https://github.com/john1hsu/communication-graph/id/self-determination-theory> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/self-determination-theory/s2> .
+  <https://github.com/john1hsu/communication-graph/id/self-determination-theory> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/self-determination-theory/s3> .
+  <https://github.com/john1hsu/communication-graph/id/self-determination-theory> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/self-determination-theory/s4> .
+  <https://github.com/john1hsu/communication-graph/id/self-determination-theory> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/self-determination-theory/s5> .
+  <https://github.com/john1hsu/communication-graph/id/self-determination-theory> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/self-determination-theory/s6> .
+  <https://github.com/john1hsu/communication-graph/id/self-determination-theory> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/eisenberger-cameron-1996> .
+  <https://github.com/john1hsu/communication-graph/id/self-determination-theory> <https://github.com/john1hsu/communication-graph/ontology#challengedBy> <https://github.com/john1hsu/communication-graph/id/gerhart-fang-2015> .
+  <https://github.com/john1hsu/communication-graph/id/self-determination-theory> <https://github.com/john1hsu/communication-graph/ontology#domain> "feedback-and-coaching" .
+  <https://github.com/john1hsu/communication-graph/id/self-determination-theory> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+  <https://github.com/john1hsu/communication-graph/id/self-determination-theory> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/feedback-and-coaching/self-determination-theory.md" .
+  <https://github.com/john1hsu/communication-graph/id/self-determination-theory> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/edward-l-deci> .
+  <https://github.com/john1hsu/communication-graph/id/self-determination-theory> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/richard-m-ryan> .
+  <https://github.com/john1hsu/communication-graph/id/self-determination-theory> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+  <https://github.com/john1hsu/communication-graph/id/self-determination-theory> <https://github.com/john1hsu/communication-graph/ontology#studiedIn> <https://github.com/john1hsu/communication-graph/id/industrial-organizational-psychology> .
+  <https://github.com/john1hsu/communication-graph/id/self-determination-theory> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/deci-koestner-ryan-1999> .
+  <https://github.com/john1hsu/communication-graph/id/self-determination-theory> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/slemp-et-al-2018> .
+  <https://github.com/john1hsu/communication-graph/id/self-determination-theory> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/van-den-broeck-et-al-2016> .
+  <https://github.com/john1hsu/communication-graph/id/source/self-determination-theory/s1> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/self-determination-theory/s1> <http://purl.org/dc/terms/publisher> "Deci, E. L., Olafsen, A. H. & Ryan, R. M., Annual Review of Organizational Psychology and Organizational Behavior 4, 19-43 (2017), doi:10.1146/annurev-orgpsych-032516-113108 (Aalto University course copy)" .
+  <https://github.com/john1hsu/communication-graph/id/source/self-determination-theory/s1> <http://purl.org/dc/terms/title> "Self-Determination Theory in Work Organizations: The State of a Science" .
+  <https://github.com/john1hsu/communication-graph/id/source/self-determination-theory/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/self-determination-theory/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/self-determination-theory/s1> <https://schema.org/url> <https://mycourses.aalto.fi/pluginfile.php/1814006/mod_folder/intro/Self-determination%20theory__Deci%20et%20al.%2C%202017%20%281%29.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/self-determination-theory/s2> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/self-determination-theory/s2> <http://purl.org/dc/terms/publisher> "Ryan, R. M. & Deci, E. L., American Psychologist 55(1), 68-78 (2000), doi:10.1037//0003-066x.55.1.68 (PubMed)" .
+  <https://github.com/john1hsu/communication-graph/id/source/self-determination-theory/s2> <http://purl.org/dc/terms/title> "Self-determination theory and the facilitation of intrinsic motivation, social development, and well-being" .
+  <https://github.com/john1hsu/communication-graph/id/source/self-determination-theory/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/self-determination-theory/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/self-determination-theory/s2> <https://schema.org/url> <https://pubmed.ncbi.nlm.nih.gov/11392867/> .
+  <https://github.com/john1hsu/communication-graph/id/source/self-determination-theory/s3> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/self-determination-theory/s3> <http://purl.org/dc/terms/publisher> "Van den Broeck, A. et al., Journal of Management 42, 1195-1229 (2016) (KU Leuven Lirias repository)" .
+  <https://github.com/john1hsu/communication-graph/id/source/self-determination-theory/s3> <http://purl.org/dc/terms/title> "A Review of Self-Determination Theory's Basic Psychological Needs at Work" .
+  <https://github.com/john1hsu/communication-graph/id/source/self-determination-theory/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/self-determination-theory/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/self-determination-theory/s3> <https://schema.org/url> <https://lirias.kuleuven.be/753979> .
+  <https://github.com/john1hsu/communication-graph/id/source/self-determination-theory/s4> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/self-determination-theory/s4> <http://purl.org/dc/terms/publisher> "Slemp, G. R., Kern, M. L., Patrick, K. J. & Ryan, R. M., Motivation and Emotion (2018), doi:10.1007/s11031-018-9698-y (author copy, selfdeterminationtheory.org)" .
+  <https://github.com/john1hsu/communication-graph/id/source/self-determination-theory/s4> <http://purl.org/dc/terms/title> "Leader autonomy support in the workplace: A meta-analytic review" .
+  <https://github.com/john1hsu/communication-graph/id/source/self-determination-theory/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/self-determination-theory/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/self-determination-theory/s4> <https://schema.org/url> <https://selfdeterminationtheory.org/wp-content/uploads/2018/05/2018_SlempKernPatrickRyan_Leader-1.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/self-determination-theory/s5> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/self-determination-theory/s5> <http://purl.org/dc/terms/publisher> "Deci, E. L., Koestner, R. & Ryan, R. M., Review of Educational Research 71(1), 1-27 (2001) (author copy, selfdeterminationtheory.org)" .
+  <https://github.com/john1hsu/communication-graph/id/source/self-determination-theory/s5> <http://purl.org/dc/terms/title> "Extrinsic Rewards and Intrinsic Motivation in Education: Reconsidered Once Again" .
+  <https://github.com/john1hsu/communication-graph/id/source/self-determination-theory/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/self-determination-theory/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/self-determination-theory/s5> <https://schema.org/url> <https://selfdeterminationtheory.org/SDT/documents/2001_DeciKoestnerRyan.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/self-determination-theory/s6> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/self-determination-theory/s6> <http://purl.org/dc/terms/publisher> "Gerhart, B. & Fang, M., Annual Review of Organizational Psychology and Organizational Behavior 2 (2015), doi:10.1146/annurev-orgpsych-032414-111418" .
+  <https://github.com/john1hsu/communication-graph/id/source/self-determination-theory/s6> <http://purl.org/dc/terms/title> "Pay, Intrinsic Motivation, Extrinsic Motivation, Performance, and Creativity in the Workplace: Revisiting Long-Held Beliefs" .
+  <https://github.com/john1hsu/communication-graph/id/source/self-determination-theory/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/self-determination-theory/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/self-determination-theory/s6> <https://schema.org/url> <https://www.annualreviews.org/content/journals/10.1146/annurev-orgpsych-032414-111418> .
 }
 
 <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact#graph> {
@@ -34108,6 +34192,7 @@
   <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/persuasion> .
   <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/edward-l-deci> .
+  <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/self-determination-theory> .
   <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/edward-l-deci> .
   <https://github.com/john1hsu/communication-graph/id/aviezer-et-al-2012> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/facial-expressions> .
   <https://github.com/john1hsu/communication-graph/id/avraham-n-kluger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -34885,6 +34970,7 @@
   <https://github.com/john1hsu/communication-graph/id/coaching> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> .
   <https://github.com/john1hsu/communication-graph/id/coaching> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/edward-l-deci> .
   <https://github.com/john1hsu/communication-graph/id/coaching> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/john-whitmore> .
+  <https://github.com/john1hsu/communication-graph/id/coaching> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/self-determination-theory> .
   <https://github.com/john1hsu/communication-graph/id/coaching> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/360-degree-feedback> .
   <https://github.com/john1hsu/communication-graph/id/coaching> <https://github.com/john1hsu/communication-graph/ontology#developedBy> <https://github.com/john1hsu/communication-graph/id/solution-focused-coaching> .
   <https://github.com/john1hsu/communication-graph/id/coaching> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/john-whitmore> .
@@ -35830,6 +35916,7 @@
   <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/assertion-evidence-slides> .
   <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/slide-design> .
   <https://github.com/john1hsu/communication-graph/id/death-by-powerpoint> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/edward-tufte> .
+  <https://github.com/john1hsu/communication-graph/id/deci-koestner-ryan-1999> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/self-determination-theory> .
   <https://github.com/john1hsu/communication-graph/id/decision-quality> <https://github.com/john1hsu/communication-graph/ontology#underminedBy> <https://github.com/john1hsu/communication-graph/id/information-overload> .
   <https://github.com/john1hsu/communication-graph/id/decision-rights> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/raci-matrix> .
   <https://github.com/john1hsu/communication-graph/id/decision-rights> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/raci-matrix> .
@@ -36188,6 +36275,7 @@
   <https://github.com/john1hsu/communication-graph/id/educational-psychology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/educational-psychology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Field> .
   <https://github.com/john1hsu/communication-graph/id/edward-l-deci> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/edward-l-deci> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/self-determination-theory> .
   <https://github.com/john1hsu/communication-graph/id/edward-t-hall> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/edward-t-hall> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/edward-t-hall> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/the-culture-map> .
@@ -36251,6 +36339,7 @@
   <https://github.com/john1hsu/communication-graph/id/egocentrism-over-email-study> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/written-communication> .
   <https://github.com/john1hsu/communication-graph/id/egocentrism-over-email-study> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/channel-selection> .
   <https://github.com/john1hsu/communication-graph/id/egocentrism-over-email-study> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/face-to-face-conversation> .
+  <https://github.com/john1hsu/communication-graph/id/eisenberger-cameron-1996> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/self-determination-theory> .
   <https://github.com/john1hsu/communication-graph/id/el-shafy-et-al-2018> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/closed-loop-communication> .
   <https://github.com/john1hsu/communication-graph/id/el-shafy-et-al-2018> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/checking-understanding> .
   <https://github.com/john1hsu/communication-graph/id/elaboration-likelihood-model> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
@@ -36505,6 +36594,7 @@
   <https://github.com/john1hsu/communication-graph/id/employee-engagement> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/work-motivation> .
   <https://github.com/john1hsu/communication-graph/id/employee-engagement> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/edward-l-deci> .
   <https://github.com/john1hsu/communication-graph/id/employee-engagement> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/industrial-organizational-psychology> .
+  <https://github.com/john1hsu/communication-graph/id/employee-engagement> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/self-determination-theory> .
   <https://github.com/john1hsu/communication-graph/id/employee-engagement> <https://github.com/john1hsu/communication-graph/ontology#causedBy> <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> .
   <https://github.com/john1hsu/communication-graph/id/employee-engagement> <https://github.com/john1hsu/communication-graph/ontology#underminedBy> <https://github.com/john1hsu/communication-graph/id/workplace-stress> .
   <https://github.com/john1hsu/communication-graph/id/employee-engagement> <https://github.com/john1hsu/communication-graph/ontology#underminedBy> <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> .
@@ -36836,6 +36926,7 @@
   <https://github.com/john1hsu/communication-graph/id/feedback-intervention-theory> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/feedback-intervention-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/360-degree-feedback> .
   <https://github.com/john1hsu/communication-graph/id/feedback-intervention-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/edward-l-deci> .
+  <https://github.com/john1hsu/communication-graph/id/feedback-intervention-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/self-determination-theory> .
   <https://github.com/john1hsu/communication-graph/id/feedback-intervention-theory> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/feedback> .
   <https://github.com/john1hsu/communication-graph/id/feedback-intervention-theory> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> .
   <https://github.com/john1hsu/communication-graph/id/feedback-sandwich/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -37136,6 +37227,7 @@
   <https://github.com/john1hsu/communication-graph/id/gerd-gigerenzer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/gerd-gigerenzer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/gerd-gigerenzer> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/risk-numbers-as-natural-frequencies> .
+  <https://github.com/john1hsu/communication-graph/id/gerhart-fang-2015> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/self-determination-theory> .
   <https://github.com/john1hsu/communication-graph/id/gestures/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/gestures/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/gestures/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -39748,6 +39840,7 @@
   <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996> .
   <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/praise-and-recognition> .
   <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/receiving-feedback> .
+  <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/self-determination-theory> .
   <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/sensegiving> .
   <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/solution-focused-coaching> .
   <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/upward-dissent> .
@@ -40425,6 +40518,7 @@
   <https://github.com/john1hsu/communication-graph/id/praise-and-recognition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/feedback-intervention-theory> .
   <https://github.com/john1hsu/communication-graph/id/praise-and-recognition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/individualism-and-collectivism> .
   <https://github.com/john1hsu/communication-graph/id/praise-and-recognition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/radical-candor> .
+  <https://github.com/john1hsu/communication-graph/id/praise-and-recognition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/self-determination-theory> .
   <https://github.com/john1hsu/communication-graph/id/praise-and-recognition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/solution-focused-coaching> .
   <https://github.com/john1hsu/communication-graph/id/praise-and-recognition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/the-physician-as-teacher> .
   <https://github.com/john1hsu/communication-graph/id/premortem/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -40617,6 +40711,7 @@
   <https://github.com/john1hsu/communication-graph/id/psychological-reactance> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/persuasion> .
   <https://github.com/john1hsu/communication-graph/id/psychological-reactance> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/psychological-reactance> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/edward-l-deci> .
+  <https://github.com/john1hsu/communication-graph/id/psychological-reactance> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/self-determination-theory> .
   <https://github.com/john1hsu/communication-graph/id/psychological-reactance> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/psychological-safety> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -41110,6 +41205,9 @@
   <https://github.com/john1hsu/communication-graph/id/richard-lanham> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/paramedic-method> .
   <https://github.com/john1hsu/communication-graph/id/richard-lazarus> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/james-j-gross> .
   <https://github.com/john1hsu/communication-graph/id/richard-lazarus> <https://github.com/john1hsu/communication-graph/ontology#influenced> <https://github.com/john1hsu/communication-graph/id/the-emerging-field-of-emotion-regulation> .
+  <https://github.com/john1hsu/communication-graph/id/richard-m-ryan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/richard-m-ryan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+  <https://github.com/john1hsu/communication-graph/id/richard-m-ryan> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/self-determination-theory> .
   <https://github.com/john1hsu/communication-graph/id/richmond-mccroskey-2000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/richmond-mccroskey-2000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/richmond-mccroskey-2000> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/nonverbal-immediacy> .
@@ -41366,9 +41464,11 @@
   <https://github.com/john1hsu/communication-graph/id/self-affirmation-before-feedback> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/wise-feedback> .
   <https://github.com/john1hsu/communication-graph/id/self-affirmation-theory> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/defensiveness> .
   <https://github.com/john1hsu/communication-graph/id/self-affirmation-theory> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/self-affirmation-before-feedback> .
+  <https://github.com/john1hsu/communication-graph/id/self-determination-theory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+  <https://github.com/john1hsu/communication-graph/id/self-determination-theory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/self-determination-theory> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/work-motivation> .
   <https://github.com/john1hsu/communication-graph/id/self-determination-theory> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> .
   <https://github.com/john1hsu/communication-graph/id/self-determination-theory> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> .
-  <https://github.com/john1hsu/communication-graph/id/self-determination-theory> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/edward-l-deci> .
   <https://github.com/john1hsu/communication-graph/id/self-disclosure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/self-disclosure> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
   <https://github.com/john1hsu/communication-graph/id/self-disclosure> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/humanities> .
@@ -41602,6 +41702,7 @@
   <https://github.com/john1hsu/communication-graph/id/sleeper-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/credibility> .
   <https://github.com/john1hsu/communication-graph/id/sleeper-effect> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/carl-hovland> .
   <https://github.com/john1hsu/communication-graph/id/slemp-et-al-2018> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> .
+  <https://github.com/john1hsu/communication-graph/id/slemp-et-al-2018> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/self-determination-theory> .
   <https://github.com/john1hsu/communication-graph/id/slide-design/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/slide-design/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/slide-design/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -42598,6 +42699,7 @@
   <https://github.com/john1hsu/communication-graph/id/van-de-ven-delbecq-1974> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/van-de-ven-delbecq-1974> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/van-de-ven-delbecq-1974> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/nominal-group-technique> .
+  <https://github.com/john1hsu/communication-graph/id/van-den-broeck-et-al-2016> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/self-determination-theory> .
   <https://github.com/john1hsu/communication-graph/id/van-der-bles-et-al-2019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/van-der-bles-et-al-2019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
   <https://github.com/john1hsu/communication-graph/id/van-der-bles-et-al-2019> <https://github.com/john1hsu/communication-graph/ontology#introduces> <https://github.com/john1hsu/communication-graph/id/communicating-uncertainty> .
@@ -42879,7 +42981,9 @@
   <https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/status-reporting> .
   <https://github.com/john1hsu/communication-graph/id/work-engagement> <https://github.com/john1hsu/communication-graph/ontology#underminedBy> <https://github.com/john1hsu/communication-graph/id/cyber-incivility> .
   <https://github.com/john1hsu/communication-graph/id/work-motivation> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/employee-engagement> .
+  <https://github.com/john1hsu/communication-graph/id/work-motivation> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/self-determination-theory> .
   <https://github.com/john1hsu/communication-graph/id/work-motivation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/employee-engagement> .
+  <https://github.com/john1hsu/communication-graph/id/work-motivation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/self-determination-theory> .
   <https://github.com/john1hsu/communication-graph/id/work-motivation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/edward-l-deci> .
   <https://github.com/john1hsu/communication-graph/id/work-rumination> <https://github.com/john1hsu/communication-graph/ontology#causedBy> <https://github.com/john1hsu/communication-graph/id/cyber-incivility> .
   <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
