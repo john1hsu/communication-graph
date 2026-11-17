@@ -12,7 +12,7 @@ summary: >-
 level: introductory
 evidenceStatus: mixed
 broader: [cm:clarity]
-related: [cm:bottom-line-up-front, cm:pyramid-principle, cm:informative-headings, cm:signposting, cm:wall-of-text, cm:burying-the-lede, cm:executive-summary, cm:business-report]
+related: [cm:bottom-line-up-front, cm:pyramid-principle, cm:informative-headings, cm:signposting, cm:wall-of-text, cm:burying-the-lede, cm:executive-summary, cm:business-report, cm:reverse-outlining]
 requires: [cm:audience-analysis]
 relations:
   - {predicate: complements, object: cm:plain-language, source: s1, confidence: high}

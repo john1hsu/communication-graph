@@ -3629,6 +3629,28 @@ Ask yourself:
 - Which formula and tool produced this number, and did I strip headings and lists before scoring?
 - Has anyone from the intended audience tried to use this document, and what did they get wrong?
 
+### [Reverse outlining](../articles/writing/reverse-outlining.md) — Technique
+
+1. Write the document's purpose at the top of a blank page, copying the sentence from your draft that states it, or note that no such sentence exists.
+2. Read the draft one paragraph or section at a time and write its main point in a short phrase, using only what is actually on the page.
+3. Beside each point, write in a few words how it serves the purpose; flag any paragraph you cannot summarise briefly or link to the purpose.
+4. Read the list of points on its own and mark repeats, paragraphs carrying two ideas, gaps in the logic and anything placed later than the reader needs it.
+5. Reorder, merge, split or cut on the outline first, then rebuild the draft to match, adding headings and transitions where the new structure needs them.
+6. Only after the structure works, move on to sentence-level editing and proofreading.
+
+*An operations analyst has drafted a one-page email asking the facilities manager to switch office-cleaning suppliers, and reverse-outlines it before sending.*
+
+| Before | After |
+|---|---|
+| Reverse outline of the draft: 1. History of the current contract since 2021. 2. Complaints from staff, plus the new supplier's prices. 3. More staff complaints. 4. Contract renewal date. 5. Recommendation to switch, and a request to approve by Friday. (Purpose sentence: none found.) | Rebuilt draft: 1. Please approve switching cleaning suppliers by Friday; the current contract auto-renews on 1 March. 2. Why: missed cleans and staff complaints, merged into one paragraph with figures. 3. Cost: the new supplier's price compared with the current one. 4. What happens next if you approve. |
+
+**Why:** The outline showed there was no stated purpose, that the request sat at the end, that complaints were split across two paragraphs and that one paragraph mixed complaints with prices; fixing the order before polishing sentences put the decision and deadline where a busy reader sees them.
+
+Ask yourself:
+- Can I state the main point of every paragraph in one short phrase, and does each one clearly serve the document's purpose?
+- If my reader saw only my list of paragraph points, would the order make sense to them without the background I carry in my head?
+- Have I fixed the structure before spending time on word choice?
+
 ### [SCQA framework](../articles/writing/scqa-framework.md) — Framework
 
 1. Write the answer first, in one sentence - the recommendation you want the reader to accept or act on.

@@ -18,9 +18,7 @@ _No results._
 
 _Which written contexts, channels or genres have no technique, framework or principle applied in them or structuring them?_ — `queries/03-situations-without-guidance.rq`
 
-| node | type |
-|---|---|
-| `cm:written-communication` | cmo:Channel |
+_No results._
 
 ## Highest-leverage techniques
 
@@ -59,7 +57,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:peer-review-of-writing` | 2 | Business writing, Curse of knowledge |
 | `cm:plain-language` | 2 | Curse of knowledge, jargon |
 
-…and 74 more.
+…and 75 more.
 
 ## Toolkit by situation
 
@@ -98,7 +96,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:difficult-conversation` | `cm:conversational-receptiveness` |
 | `cm:difficult-conversation` | `cm:cooling-off-period` |
 
-…and 170 more.
+…and 171 more.
 
 ## Myths and contested advice
 
@@ -176,7 +174,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:meeting-agendas` | cmo:Technique |
 | `cm:meeting-recaps` | cmo:Technique |
 
-…and 72 more.
+…and 73 more.
 
 ## Orphan articles (gap)
 

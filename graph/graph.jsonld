@@ -17452,6 +17452,9 @@
      "@id": "cm:pyramid-principle"
     },
     {
+     "@id": "cm:reverse-outlining"
+    },
+    {
      "@id": "cm:signposting"
     },
     {
@@ -24466,6 +24469,108 @@
     },
     {
      "@id": "cm:salary-negotiation"
+    }
+   ]
+  },
+  {
+   "@id": "cm:reverse-outlining",
+   "@type": "cmo:Technique",
+   "cmo:addresses": [
+    {
+     "@id": "cm:curse-of-knowledge"
+    },
+    {
+     "@id": "cm:wall-of-text"
+    }
+   ],
+   "cmo:appliedIn": {
+    "@id": "cm:written-communication"
+   },
+   "cmo:contrastsWith": {
+    "@id": "cm:paramedic-method"
+   },
+   "cmo:domain": "writing",
+   "cmo:evidenceStatus": "practitioner",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/reverse-outlining/example"
+   },
+   "cmo:file": "articles/writing/reverse-outlining.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/reverse-outlining/howto"
+   },
+   "cmo:level": "introductory",
+   "cmo:requires": {
+    "@id": "cm:audience-analysis"
+   },
+   "cmo:supportedBy": {
+    "@id": "cm:sommers-1980"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/reverse-outlining/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/reverse-outlining/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/reverse-outlining/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/reverse-outlining/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/reverse-outlining/s5"
+    }
+   ],
+   "rdfs:label": "Reverse outlining",
+   "skos:altLabel": [
+    "after-the-fact outline",
+    "backward outlining",
+    "post-draft outline",
+    "reverse outline"
+   ],
+   "skos:broader": {
+    "@id": "cm:editing-for-clarity"
+   },
+   "skos:definition": "A revision technique in which you outline a draft after writing it, summarising what each paragraph or section actually says and how it serves the document's purpose, then use that list to spot misordered, overloaded, repeated or missing points before editing sentences.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/writing"
+   },
+   "skos:prefLabel": "Reverse outlining",
+   "skos:related": [
+    {
+     "@id": "cm:bottom-line-up-front"
+    },
+    {
+     "@id": "cm:business-writing"
+    },
+    {
+     "@id": "cm:curse-of-knowledge"
+    },
+    {
+     "@id": "cm:informative-headings"
+    },
+    {
+     "@id": "cm:message-structure"
+    },
+    {
+     "@id": "cm:paramedic-method"
+    },
+    {
+     "@id": "cm:peer-review-of-writing"
+    },
+    {
+     "@id": "cm:pyramid-principle"
+    },
+    {
+     "@id": "cm:summarizing"
+    },
+    {
+     "@id": "cm:wall-of-text"
     }
    ]
   },
@@ -42822,6 +42927,99 @@
    "@type": "schema:HowToStep",
    "schema:position": 6,
    "schema:text": "Afterwards, note which objections actually came up and add any you missed to your list for next time."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/reverse-outlining/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:reverse-outlining"
+   },
+   "rdfs:label": "Can I state the main point of every paragraph in one short phrase, and does each one clearly serve the document's purpose?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/reverse-outlining/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:reverse-outlining"
+   },
+   "rdfs:label": "If my reader saw only my list of paragraph points, would the order make sense to them without the background I carry in my head?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/reverse-outlining/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:reverse-outlining"
+   },
+   "rdfs:label": "Have I fixed the structure before spending time on word choice?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/reverse-outlining/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "Rebuilt draft: 1. Please approve switching cleaning suppliers by Friday; the current contract auto-renews on 1 March. 2. Why: missed cleans and staff complaints, merged into one paragraph with figures. 3. Cost: the new supplier's price compared with the current one. 4. What happens next if you approve.",
+   "cmo:before": "Reverse outline of the draft: 1. History of the current contract since 2021. 2. Complaints from staff, plus the new supplier's prices. 3. More staff complaints. 4. Contract renewal date. 5. Recommendation to switch, and a request to approve by Friday. (Purpose sentence: none found.)",
+   "cmo:situation": "An operations analyst has drafted a one-page email asking the facilities manager to switch office-cleaning suppliers, and reverse-outlines it before sending.",
+   "cmo:why": "The outline showed there was no stated purpose, that the request sat at the end, that complaints were split across two paragraphs and that one paragraph mixed complaints with prices; fixing the order before polishing sentences put the decision and deadline where a busy reader sees them."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/reverse-outlining/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Reverse outlining",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/reverse-outlining/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/reverse-outlining/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/reverse-outlining/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/reverse-outlining/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/reverse-outlining/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/reverse-outlining/howto/6"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/reverse-outlining/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Write the document's purpose at the top of a blank page, copying the sentence from your draft that states it, or note that no such sentence exists."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/reverse-outlining/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Read the draft one paragraph or section at a time and write its main point in a short phrase, using only what is actually on the page."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/reverse-outlining/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Beside each point, write in a few words how it serves the purpose; flag any paragraph you cannot summarise briefly or link to the purpose."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/reverse-outlining/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Read the list of points on its own and mark repeats, paragraphs carrying two ideas, gaps in the logic and anything placed later than the reader needs it."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/reverse-outlining/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Reorder, merge, split or cut on the outline first, then rebuild the draft to match, adding headings and transitions where the new structure needs them."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/reverse-outlining/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "Only after the structure works, move on to sentence-level editing and proofreading."
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/rhetorical-appeals/check/1",
@@ -65853,6 +66051,76 @@
    "dcterms:title": "The Art and Science of Negotiation",
    "schema:url": {
     "@id": "https://www.pon.harvard.edu/shop/art-science-of-negotiation-the/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/reverse-outlining/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "The Writing Center, University of Virginia (F. Riopelle, 2019)",
+   "dcterms:title": "Reverse Outlining (an Organization Strategy)",
+   "schema:url": {
+    "@id": "https://writingcenter.virginia.edu/reverse-outlining-organization-strategy"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/reverse-outlining/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Hixon Writing Center, California Institute of Technology",
+   "dcterms:title": "Revising with Reverse Outlines",
+   "schema:url": {
+    "@id": "https://writing.caltech.edu/documents/29881/Revising_with_Reverse_Outlines.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/reverse-outlining/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "University Writing & Speaking Center, University of Nevada, Reno",
+   "dcterms:title": "Reverse outlines",
+   "schema:url": {
+    "@id": "https://www.unr.edu/writing-speaking-center/writing-speaking-resources/reverse-outlines"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/reverse-outlining/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Sommers, N., College Composition and Communication 31(4), 378-388, 1980 (National Council of Teachers of English; copy hosted by CUNY City Tech OpenLab)",
+   "dcterms:title": "Revision Strategies of Student Writers and Experienced Adult Writers",
+   "schema:url": {
+    "@id": "https://openlab.citytech.cuny.edu/fywpd/files/2019/01/sommors-revision-strategies.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/reverse-outlining/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Cruthers, A., Business Writing For Everyone, Kwantlen Polytechnic University Pressbooks, 2021 (CC BY-NC 4.0)",
+   "dcterms:title": "Reverse Outlining (Business Writing For Everyone)",
+   "schema:url": {
+    "@id": "https://kpu.pressbooks.pub/businesswriting/chapter/reverse-outlining/"
    }
   },
   {

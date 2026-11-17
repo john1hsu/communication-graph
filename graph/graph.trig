@@ -2905,6 +2905,14 @@
 <https://github.com/john1hsu/communication-graph/id/readability-formulas#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/readability-formulas/s3> .
 <https://github.com/john1hsu/communication-graph/id/readability-formulas#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/readability-formulas/s4> .
 <https://github.com/john1hsu/communication-graph/id/readability-formulas#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/readability-formulas/s5> .
+<https://github.com/john1hsu/communication-graph/id/reverse-outlining#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/reverse-outlining#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/reverse-outlining> .
+<https://github.com/john1hsu/communication-graph/id/reverse-outlining#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/writing/reverse-outlining.md" .
+<https://github.com/john1hsu/communication-graph/id/reverse-outlining#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/reverse-outlining/s1> .
+<https://github.com/john1hsu/communication-graph/id/reverse-outlining#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/reverse-outlining/s2> .
+<https://github.com/john1hsu/communication-graph/id/reverse-outlining#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/reverse-outlining/s3> .
+<https://github.com/john1hsu/communication-graph/id/reverse-outlining#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/reverse-outlining/s4> .
+<https://github.com/john1hsu/communication-graph/id/reverse-outlining#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/reverse-outlining/s5> .
 <https://github.com/john1hsu/communication-graph/id/scqa-framework#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/scqa-framework#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/scqa-framework> .
 <https://github.com/john1hsu/communication-graph/id/scqa-framework#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/writing/scqa-framework.md" .
@@ -32439,6 +32447,7 @@
   <https://github.com/john1hsu/communication-graph/id/message-structure> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/executive-summary> .
   <https://github.com/john1hsu/communication-graph/id/message-structure> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/informative-headings> .
   <https://github.com/john1hsu/communication-graph/id/message-structure> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/pyramid-principle> .
+  <https://github.com/john1hsu/communication-graph/id/message-structure> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/reverse-outlining> .
   <https://github.com/john1hsu/communication-graph/id/message-structure> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/signposting> .
   <https://github.com/john1hsu/communication-graph/id/message-structure> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/wall-of-text> .
   <https://github.com/john1hsu/communication-graph/id/message-structure> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/message-structure/s1> .
@@ -33102,6 +33111,117 @@
   <https://github.com/john1hsu/communication-graph/id/source/readability-formulas/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
   <https://github.com/john1hsu/communication-graph/id/source/readability-formulas/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
   <https://github.com/john1hsu/communication-graph/id/source/readability-formulas/s5> <https://schema.org/url> <https://www.sydneyhealthliteracylab.org.au/health-literacy-editor-publications/1-y9tp7-9mdxz-thy7z> .
+}
+
+<https://github.com/john1hsu/communication-graph/id/reverse-outlining#graph> {
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Can I state the main point of every paragraph in one short phrase, and does each one clearly serve the document's purpose?" .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/reverse-outlining> .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "If my reader saw only my list of paragraph points, would the order make sense to them without the background I carry in my head?" .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/reverse-outlining> .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Have I fixed the structure before spending time on word choice?" .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/reverse-outlining> .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining/example> <https://github.com/john1hsu/communication-graph/ontology#after> "Rebuilt draft: 1. Please approve switching cleaning suppliers by Friday; the current contract auto-renews on 1 March. 2. Why: missed cleans and staff complaints, merged into one paragraph with figures. 3. Cost: the new supplier's price compared with the current one. 4. What happens next if you approve." .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining/example> <https://github.com/john1hsu/communication-graph/ontology#before> "Reverse outline of the draft: 1. History of the current contract since 2021. 2. Complaints from staff, plus the new supplier's prices. 3. More staff complaints. 4. Contract renewal date. 5. Recommendation to switch, and a request to approve by Friday. (Purpose sentence: none found.)" .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "An operations analyst has drafted a one-page email asking the facilities manager to switch office-cleaning suppliers, and reverse-outlines it before sending." .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining/example> <https://github.com/john1hsu/communication-graph/ontology#why> "The outline showed there was no stated purpose, that the request sat at the end, that complaints were split across two paragraphs and that one paragraph mixed complaints with prices; fixing the order before polishing sentences put the decision and deadline where a busy reader sees them." .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining/howto/1> <https://schema.org/text> "Write the document's purpose at the top of a blank page, copying the sentence from your draft that states it, or note that no such sentence exists." .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining/howto/2> <https://schema.org/text> "Read the draft one paragraph or section at a time and write its main point in a short phrase, using only what is actually on the page." .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining/howto/3> <https://schema.org/text> "Beside each point, write in a few words how it serves the purpose; flag any paragraph you cannot summarise briefly or link to the purpose." .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining/howto/4> <https://schema.org/text> "Read the list of points on its own and mark repeats, paragraphs carrying two ideas, gaps in the logic and anything placed later than the reader needs it." .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining/howto/5> <https://schema.org/text> "Reorder, merge, split or cut on the outline first, then rebuild the draft to match, adding headings and transitions where the new structure needs them." .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining/howto/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining/howto/6> <https://schema.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining/howto/6> <https://schema.org/text> "Only after the structure works, move on to sentence-level editing and proofreading." .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining/howto> <https://schema.org/name> "Reverse outlining" .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/reverse-outlining/howto/1> .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/reverse-outlining/howto/2> .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/reverse-outlining/howto/3> .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/reverse-outlining/howto/4> .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/reverse-outlining/howto/5> .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/reverse-outlining/howto/6> .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining> <http://purl.org/dc/terms/created> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Technique> .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining> <http://www.w3.org/2000/01/rdf-schema#label> "Reverse outlining" .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining> <http://www.w3.org/2004/02/skos/core#altLabel> "after-the-fact outline" .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining> <http://www.w3.org/2004/02/skos/core#altLabel> "backward outlining" .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining> <http://www.w3.org/2004/02/skos/core#altLabel> "post-draft outline" .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining> <http://www.w3.org/2004/02/skos/core#altLabel> "reverse outline" .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/editing-for-clarity> .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining> <http://www.w3.org/2004/02/skos/core#definition> "A revision technique in which you outline a draft after writing it, summarising what each paragraph or section actually says and how it serves the document's purpose, then use that list to spot misordered, overloaded, repeated or missing points before editing sentences." .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/writing> .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining> <http://www.w3.org/2004/02/skos/core#prefLabel> "Reverse outlining" .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/business-writing> .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/informative-headings> .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/message-structure> .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/paramedic-method> .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/peer-review-of-writing> .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/pyramid-principle> .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/summarizing> .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/wall-of-text> .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/reverse-outlining/s1> .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/reverse-outlining/s2> .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/reverse-outlining/s3> .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/reverse-outlining/s4> .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/reverse-outlining/s5> .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/wall-of-text> .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/written-communication> .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/paramedic-method> .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining> <https://github.com/john1hsu/communication-graph/ontology#domain> "writing" .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "practitioner" .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/reverse-outlining/example> .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/writing/reverse-outlining.md" .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/reverse-outlining/howto> .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/sommers-1980> .
+  <https://github.com/john1hsu/communication-graph/id/source/reverse-outlining/s1> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/reverse-outlining/s1> <http://purl.org/dc/terms/publisher> "The Writing Center, University of Virginia (F. Riopelle, 2019)" .
+  <https://github.com/john1hsu/communication-graph/id/source/reverse-outlining/s1> <http://purl.org/dc/terms/title> "Reverse Outlining (an Organization Strategy)" .
+  <https://github.com/john1hsu/communication-graph/id/source/reverse-outlining/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/reverse-outlining/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/communication-graph/id/source/reverse-outlining/s1> <https://schema.org/url> <https://writingcenter.virginia.edu/reverse-outlining-organization-strategy> .
+  <https://github.com/john1hsu/communication-graph/id/source/reverse-outlining/s2> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/reverse-outlining/s2> <http://purl.org/dc/terms/publisher> "Hixon Writing Center, California Institute of Technology" .
+  <https://github.com/john1hsu/communication-graph/id/source/reverse-outlining/s2> <http://purl.org/dc/terms/title> "Revising with Reverse Outlines" .
+  <https://github.com/john1hsu/communication-graph/id/source/reverse-outlining/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/reverse-outlining/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/communication-graph/id/source/reverse-outlining/s2> <https://schema.org/url> <https://writing.caltech.edu/documents/29881/Revising_with_Reverse_Outlines.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/reverse-outlining/s3> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/reverse-outlining/s3> <http://purl.org/dc/terms/publisher> "University Writing & Speaking Center, University of Nevada, Reno" .
+  <https://github.com/john1hsu/communication-graph/id/source/reverse-outlining/s3> <http://purl.org/dc/terms/title> "Reverse outlines" .
+  <https://github.com/john1hsu/communication-graph/id/source/reverse-outlining/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/reverse-outlining/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/communication-graph/id/source/reverse-outlining/s3> <https://schema.org/url> <https://www.unr.edu/writing-speaking-center/writing-speaking-resources/reverse-outlines> .
+  <https://github.com/john1hsu/communication-graph/id/source/reverse-outlining/s4> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/reverse-outlining/s4> <http://purl.org/dc/terms/publisher> "Sommers, N., College Composition and Communication 31(4), 378-388, 1980 (National Council of Teachers of English; copy hosted by CUNY City Tech OpenLab)" .
+  <https://github.com/john1hsu/communication-graph/id/source/reverse-outlining/s4> <http://purl.org/dc/terms/title> "Revision Strategies of Student Writers and Experienced Adult Writers" .
+  <https://github.com/john1hsu/communication-graph/id/source/reverse-outlining/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/reverse-outlining/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/reverse-outlining/s4> <https://schema.org/url> <https://openlab.citytech.cuny.edu/fywpd/files/2019/01/sommors-revision-strategies.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/reverse-outlining/s5> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/reverse-outlining/s5> <http://purl.org/dc/terms/publisher> "Cruthers, A., Business Writing For Everyone, Kwantlen Polytechnic University Pressbooks, 2021 (CC BY-NC 4.0)" .
+  <https://github.com/john1hsu/communication-graph/id/source/reverse-outlining/s5> <http://purl.org/dc/terms/title> "Reverse Outlining (Business Writing For Everyone)" .
+  <https://github.com/john1hsu/communication-graph/id/source/reverse-outlining/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/reverse-outlining/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "textbook" .
+  <https://github.com/john1hsu/communication-graph/id/source/reverse-outlining/s5> <https://schema.org/url> <https://kpu.pressbooks.pub/businesswriting/chapter/reverse-outlining/> .
 }
 
 <https://github.com/john1hsu/communication-graph/id/scqa-framework#graph> {
@@ -33958,6 +34078,7 @@
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/realistic-merger-preview> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/refutational-two-sided-messages> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/register-and-tone> .
+  <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/reverse-outlining> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/rhetorical-appeals> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/scqa-framework> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/sensegiving> .
@@ -34204,6 +34325,7 @@
   <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/plain-language> .
   <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/primacy-and-recency-effects> .
   <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/ray-tomlinson> .
+  <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/reverse-outlining> .
   <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/scqa-framework> .
   <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/setting-reply-time-expectations> .
   <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/signposting> .
@@ -34361,6 +34483,7 @@
   <https://github.com/john1hsu/communication-graph/id/business-writing> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/memorandum> .
   <https://github.com/john1hsu/communication-graph/id/business-writing> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/status-reporting> .
   <https://github.com/john1hsu/communication-graph/id/business-writing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/peer-review-of-writing> .
+  <https://github.com/john1hsu/communication-graph/id/business-writing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/reverse-outlining> .
   <https://github.com/john1hsu/communication-graph/id/business-writing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/written-communication> .
   <https://github.com/john1hsu/communication-graph/id/business-writing> <https://github.com/john1hsu/communication-graph/ontology#developedBy> <https://github.com/john1hsu/communication-graph/id/peer-review-of-writing> .
   <https://github.com/john1hsu/communication-graph/id/but-you-are-free-technique> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> .
@@ -34644,6 +34767,7 @@
   <https://github.com/john1hsu/communication-graph/id/clarity> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/plain-language> .
   <https://github.com/john1hsu/communication-graph/id/clarity> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/pyramid-principle> .
   <https://github.com/john1hsu/communication-graph/id/clarity> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/readability-formulas> .
+  <https://github.com/john1hsu/communication-graph/id/clarity> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/reverse-outlining> .
   <https://github.com/john1hsu/communication-graph/id/clarity> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/rule-of-three> .
   <https://github.com/john1hsu/communication-graph/id/clarity> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/scqa-framework> .
   <https://github.com/john1hsu/communication-graph/id/clarity> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/signposting> .
@@ -34996,6 +35120,7 @@
   <https://github.com/john1hsu/communication-graph/id/communication-competence> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/public-speaking> .
   <https://github.com/john1hsu/communication-graph/id/communication-competence> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/pyramid-principle> .
   <https://github.com/john1hsu/communication-graph/id/communication-competence> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/readability-formulas> .
+  <https://github.com/john1hsu/communication-graph/id/communication-competence> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/reverse-outlining> .
   <https://github.com/john1hsu/communication-graph/id/communication-competence> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/rule-of-three> .
   <https://github.com/john1hsu/communication-graph/id/communication-competence> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/saying-no> .
   <https://github.com/john1hsu/communication-graph/id/communication-competence> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/scqa-framework> .
@@ -35213,6 +35338,7 @@
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/reciprocal-self-disclosure> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/refutational-two-sided-messages> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/reservation-value> .
+  <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/reverse-outlining> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/rfc-1855-netiquette-guidelines> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/rfc-561> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/rhetorical-appeals> .
@@ -35568,6 +35694,7 @@
   <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/gilovich-savitsky-medvec-1998> .
   <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/joseph-m-williams> .
   <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/michael-ross> .
+  <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/reverse-outlining> .
   <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/spotlight-effect> .
   <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/teach-back> .
   <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/thomas-gilovich> .
@@ -35575,6 +35702,7 @@
   <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/editing-for-clarity> .
   <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/peer-review-of-writing> .
   <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/plain-language> .
+  <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/reverse-outlining> .
   <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <https://github.com/john1hsu/communication-graph/ontology#causedBy> <https://github.com/john1hsu/communication-graph/id/anchoring-and-adjustment> .
   <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/george-loewenstein> .
   <https://github.com/john1hsu/communication-graph/id/cyber-incivility/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -36045,10 +36173,12 @@
   <https://github.com/john1hsu/communication-graph/id/editing-for-clarity> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/paramedic-method> .
   <https://github.com/john1hsu/communication-graph/id/editing-for-clarity> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/peer-review-of-writing> .
   <https://github.com/john1hsu/communication-graph/id/editing-for-clarity> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/readability-formulas> .
+  <https://github.com/john1hsu/communication-graph/id/editing-for-clarity> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/reverse-outlining> .
   <https://github.com/john1hsu/communication-graph/id/editing-for-clarity> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/characters-as-subjects-actions-as-verbs> .
   <https://github.com/john1hsu/communication-graph/id/editing-for-clarity> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/paramedic-method> .
   <https://github.com/john1hsu/communication-graph/id/editing-for-clarity> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/peer-review-of-writing> .
   <https://github.com/john1hsu/communication-graph/id/editing-for-clarity> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/readability-formulas> .
+  <https://github.com/john1hsu/communication-graph/id/editing-for-clarity> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/reverse-outlining> .
   <https://github.com/john1hsu/communication-graph/id/editing-for-clarity> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/joseph-m-williams> .
   <https://github.com/john1hsu/communication-graph/id/edmondson-1999> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/edmondson-1999> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
@@ -37616,6 +37746,7 @@
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/reciprocal-self-disclosure> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/refutational-two-sided-messages> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/reservation-value> .
+  <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/reverse-outlining> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/rfc-1855-netiquette-guidelines> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/rfc-561> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/rhetoric> .
@@ -37918,6 +38049,7 @@
   <https://github.com/john1hsu/communication-graph/id/informative-headings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/email-subject-lines> .
   <https://github.com/john1hsu/communication-graph/id/informative-headings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/memorandum> .
   <https://github.com/john1hsu/communication-graph/id/informative-headings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/message-structure> .
+  <https://github.com/john1hsu/communication-graph/id/informative-headings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/reverse-outlining> .
   <https://github.com/john1hsu/communication-graph/id/inhibitory-learning> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/exposure-therapy> .
   <https://github.com/john1hsu/communication-graph/id/inoculation-theory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/inoculation-theory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -38242,6 +38374,7 @@
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/reciprocal-self-disclosure> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/refutational-two-sided-messages> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/reservation-value> .
+  <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/reverse-outlining> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/rhetorical-appeals> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/rule-of-three> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/salary-negotiation> .
@@ -39820,6 +39953,8 @@
   <https://github.com/john1hsu/communication-graph/id/paramedic-method> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/characters-as-subjects-actions-as-verbs> .
   <https://github.com/john1hsu/communication-graph/id/paramedic-method> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/editing-for-clarity> .
   <https://github.com/john1hsu/communication-graph/id/paramedic-method> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/joseph-m-williams> .
+  <https://github.com/john1hsu/communication-graph/id/paramedic-method> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/reverse-outlining> .
+  <https://github.com/john1hsu/communication-graph/id/paramedic-method> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/reverse-outlining> .
   <https://github.com/john1hsu/communication-graph/id/paraphrase-testing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/ginny-redish> .
   <https://github.com/john1hsu/communication-graph/id/paraphrase-testing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/plain-language> .
   <https://github.com/john1hsu/communication-graph/id/paraphrasing/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -39904,6 +40039,7 @@
   <https://github.com/john1hsu/communication-graph/id/peer-review-of-writing> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/humanities> .
   <https://github.com/john1hsu/communication-graph/id/peer-review-of-writing> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
   <https://github.com/john1hsu/communication-graph/id/peer-review-of-writing> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
+  <https://github.com/john1hsu/communication-graph/id/peer-review-of-writing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/reverse-outlining> .
   <https://github.com/john1hsu/communication-graph/id/penance-and-restitution/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/penance-and-restitution/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/penance-and-restitution/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -40610,6 +40746,7 @@
   <https://github.com/john1hsu/communication-graph/id/pyramid-principle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/informative-headings> .
   <https://github.com/john1hsu/communication-graph/id/pyramid-principle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/message-structure> .
   <https://github.com/john1hsu/communication-graph/id/pyramid-principle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/monroes-motivated-sequence> .
+  <https://github.com/john1hsu/communication-graph/id/pyramid-principle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/reverse-outlining> .
   <https://github.com/john1hsu/communication-graph/id/pyramid-principle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/rule-of-three> .
   <https://github.com/john1hsu/communication-graph/id/pyramid-principle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/signposting> .
   <https://github.com/john1hsu/communication-graph/id/pyramid-principle> <https://github.com/john1hsu/communication-graph/ontology#hasPart> <https://github.com/john1hsu/communication-graph/id/scqa-framework> .
@@ -40892,6 +41029,19 @@
   <https://github.com/john1hsu/communication-graph/id/reservation-value> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/distributive-negotiation> .
   <https://github.com/john1hsu/communication-graph/id/reservation-value> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/negotiation-preparation> .
   <https://github.com/john1hsu/communication-graph/id/reservation-value> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/clarity> .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-competence> .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/editing-for-clarity> .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/humanities> .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
+  <https://github.com/john1hsu/communication-graph/id/reverse-outlining> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/revising-prose> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/revising-prose> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
   <https://github.com/john1hsu/communication-graph/id/revising-prose> <https://github.com/john1hsu/communication-graph/ontology#introduces> <https://github.com/john1hsu/communication-graph/id/paramedic-method> .
@@ -41758,6 +41908,7 @@
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/reciprocal-self-disclosure> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/refutational-two-sided-messages> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/reservation-value> .
+  <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/reverse-outlining> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/rfc-1855-netiquette-guidelines> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/rfc-561> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/rhetorical-appeals> .
@@ -41836,6 +41987,7 @@
   <https://github.com/john1hsu/communication-graph/id/solution-focused-coaching> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/solution-focused-coaching> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/john-whitmore> .
   <https://github.com/john1hsu/communication-graph/id/sommers-1980> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/editing-for-clarity> .
+  <https://github.com/john1hsu/communication-graph/id/sommers-1980> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/reverse-outlining> .
   <https://github.com/john1hsu/communication-graph/id/soon-ang> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/soon-ang> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/soon-ang> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/cultural-intelligence> .
@@ -42040,6 +42192,7 @@
   <https://github.com/john1hsu/communication-graph/id/summarizing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/closed-questions> .
   <https://github.com/john1hsu/communication-graph/id/summarizing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/neil-rackham> .
   <https://github.com/john1hsu/communication-graph/id/summarizing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/note-taking-while-listening> .
+  <https://github.com/john1hsu/communication-graph/id/summarizing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/reverse-outlining> .
   <https://github.com/john1hsu/communication-graph/id/summarizing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/signposting> .
   <https://github.com/john1hsu/communication-graph/id/sundararajan-adesope-2020> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/coherence-principle> .
   <https://github.com/john1hsu/communication-graph/id/support-response/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -42607,10 +42760,12 @@
   <https://github.com/john1hsu/communication-graph/id/wall-of-text> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/editing-for-clarity> .
   <https://github.com/john1hsu/communication-graph/id/wall-of-text> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/executive-summary> .
   <https://github.com/john1hsu/communication-graph/id/wall-of-text> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/message-structure> .
+  <https://github.com/john1hsu/communication-graph/id/wall-of-text> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/reverse-outlining> .
   <https://github.com/john1hsu/communication-graph/id/wall-of-text> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/slide-design> .
   <https://github.com/john1hsu/communication-graph/id/wall-of-text> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/bulleted-and-numbered-lists> .
   <https://github.com/john1hsu/communication-graph/id/wall-of-text> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/business-writing> .
   <https://github.com/john1hsu/communication-graph/id/wall-of-text> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/informative-headings> .
+  <https://github.com/john1hsu/communication-graph/id/wall-of-text> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/reverse-outlining> .
   <https://github.com/john1hsu/communication-graph/id/walter-baile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/walter-baile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/walter-baile> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/spikes-protocol> .
@@ -42859,6 +43014,7 @@
   <https://github.com/john1hsu/communication-graph/id/written-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/mccallum-erie-railroad-report> .
   <https://github.com/john1hsu/communication-graph/id/written-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/memorandum> .
   <https://github.com/john1hsu/communication-graph/id/written-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/status-reporting> .
+  <https://github.com/john1hsu/communication-graph/id/written-communication> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/reverse-outlining> .
   <https://github.com/john1hsu/communication-graph/id/yang-et-al-2022> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/yang-et-al-2022> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/yang-et-al-2022> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> .
