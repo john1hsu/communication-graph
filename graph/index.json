@@ -17764,6 +17764,130 @@
   ]
  },
  {
+  "id": "cm:leadership-framing",
+  "title": "Leadership framing",
+  "aliases": [
+   "framing in leadership communication",
+   "managing the language of leadership",
+   "Fairhurst framing",
+   "framing the situation here and now"
+  ],
+  "type": "Technique",
+  "domain": "executive-and-client-communication",
+  "level": "intermediate",
+  "evidenceStatus": "practitioner",
+  "file": "articles/executive-and-client-communication/leadership-framing.md",
+  "created": "2026-11-17",
+  "summary": "A leader's deliberate choice of words, metaphors, contrasts and stories to define what a situation means for the people involved, so they can see it the same way and know what to do next; set out by Gail Fairhurst and Robert Sarr in The Art of Framing and revised in Fairhurst's The Power of Framing (2011).",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:sensegiving"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "cm:persuasion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:change-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:narrative-persuasion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:gain-loss-framing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:sensemaking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:audience-analysis"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:credibility"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:apology"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:audience-analysis"
+   },
+   {
+    "predicate": "cmo:develops",
+    "object": "cm:sensegiving",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:gail-fairhurst",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedIn",
+    "object": "cm:the-art-of-framing",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:change-communication",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:narrative-persuasion",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:fiss-zajac-2006",
+    "source": "s3",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Can I say in one sentence what this situation means for the people hearing it, in their words rather than mine?",
+   "Which competing frames are already circulating, and does mine answer them?",
+   "Have I chosen one or two devices (metaphor, contrast, story) rather than piling them up?",
+   "Would my frame still hold if someone checked it against what actually happens next?",
+   "Am I using active language that shows who decided and who owns the next step?"
+  ],
+  "steps": [
+   "Before you speak, write down the competing readings of the situation people already hold, including the rumour version and the worst case.",
+   "Write the frame in one sentence that defines the situation here and now in the listener's terms - what is happening, why, and what it asks of them.",
+   "Pick one or two framing devices that make that sentence vivid and repeatable - a metaphor, a contrast with the old way, or a short true story - and drop the rest.",
+   "Test the frame against the facts and against the toughest listener; cut any claim you could not defend if it were checked later.",
+   "Prime yourself for unplanned moments by rehearsing how you would answer the two or three questions you most expect, so hallway and one-to-one conversations carry the same frame.",
+   "Use the frame consistently across channels, then listen for the frames others play back and revise yours when they expose something you missed."
+  ],
+  "example": {
+   "situation": "A product director has to explain why a planned feature launch is slipping six weeks after a security review found problems.",
+   "before": "Due to some unforeseen challenges identified during the review process, the launch timeline has been adjusted. We remain committed to delivering value and appreciate everyone's patience.",
+   "after": "We're moving the launch six weeks because the security review found two flaws we would rather fix now than explain to customers later. Think of it as finishing the brakes before we sell the car. The work isn't wasted - the features are done; what changes is the hardening sprint, which Priya's team will scope by Friday. I made the call, and I'll update you every Monday until we ship.",
+   "why": "The rewrite replaces passive, blame-free fog with an active frame (a deliberate trade-off for customer safety), one memorable metaphor, a contrast between what is and isn't lost, and a named owner - so people repeat a defensible account instead of inventing one."
+  },
+  "source_urls": [
+   "https://content.e-bookshelf.de/media/reading/L-581079-1dc999b001.pdf",
+   "https://www.powells.com/book/art-of-framing-managing-the-language-of-leadership-9780787901813",
+   "https://www.kellogg.northwestern.edu/academics-research/research/detail/2006/the-symbolic-management-of-strategic-change-sensegiving-via-framing",
+   "https://research.vu.nl/en/publications/putting-framing-in-perspective-a-review-of-framing-and-frame-anal/",
+   "https://research.vu.nl/en/publications/framing-the-change-switching-and-blending-frames-and-their-role-i/",
+   "https://www.uc.edu/news/articles/2024/11/uc-distinguished-research-professor-discusses-value-of-framing-issues.html"
+  ]
+ },
+ {
   "id": "cm:listening",
   "title": "Listening",
   "aliases": [

@@ -1055,6 +1055,30 @@ Ask yourself:
 - Could someone who never opens the report make a sound decision from this summary alone?
 - Have I put methods and background where they belong, after the findings, or cut them?
 
+### [Leadership framing](../articles/executive-and-client-communication/leadership-framing.md) — Technique
+
+1. Before you speak, write down the competing readings of the situation people already hold, including the rumour version and the worst case.
+2. Write the frame in one sentence that defines the situation here and now in the listener's terms - what is happening, why, and what it asks of them.
+3. Pick one or two framing devices that make that sentence vivid and repeatable - a metaphor, a contrast with the old way, or a short true story - and drop the rest.
+4. Test the frame against the facts and against the toughest listener; cut any claim you could not defend if it were checked later.
+5. Prime yourself for unplanned moments by rehearsing how you would answer the two or three questions you most expect, so hallway and one-to-one conversations carry the same frame.
+6. Use the frame consistently across channels, then listen for the frames others play back and revise yours when they expose something you missed.
+
+*A product director has to explain why a planned feature launch is slipping six weeks after a security review found problems.*
+
+| Before | After |
+|---|---|
+| Due to some unforeseen challenges identified during the review process, the launch timeline has been adjusted. We remain committed to delivering value and appreciate everyone's patience. | We're moving the launch six weeks because the security review found two flaws we would rather fix now than explain to customers later. Think of it as finishing the brakes before we sell the car. The work isn't wasted - the features are done; what changes is the hardening sprint, which Priya's team will scope by Friday. I made the call, and I'll update you every Monday until we ship. |
+
+**Why:** The rewrite replaces passive, blame-free fog with an active frame (a deliberate trade-off for customer safety), one memorable metaphor, a contrast between what is and isn't lost, and a named owner - so people repeat a defensible account instead of inventing one.
+
+Ask yourself:
+- Can I say in one sentence what this situation means for the people hearing it, in their words rather than mine?
+- Which competing frames are already circulating, and does mine answer them?
+- Have I chosen one or two devices (metaphor, contrast, story) rather than piling them up?
+- Would my frame still hold if someone checked it against what actually happens next?
+- Am I using active language that shows who decided and who owns the next step?
+
 ### [Managing up](../articles/executive-and-client-communication/managing-up.md) — Skill
 
 Ask yourself:

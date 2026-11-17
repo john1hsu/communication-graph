@@ -12,9 +12,7 @@ _No results._
 
 _Which written skills or dispositions have no technique, framework or principle that develops them?_ — `queries/02-skills-without-practice.rq`
 
-| skill | type |
-|---|---|
-| `cm:sensegiving` | cmo:Skill |
+_No results._
 
 ## Situations, channels and formats with no guidance (gap)
 
@@ -59,7 +57,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:presentation-rehearsal` | 2 | Public speaking, Public speaking anxiety |
 | `cm:risk-numbers-as-natural-frequencies` | 2 | Communicating uncertainty to decision makers, base-rate-neglect |
 
-…and 70 more.
+…and 71 more.
 
 ## Toolkit by situation
 
@@ -74,6 +72,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:business-report` | `cm:informative-headings` |
 | `cm:business-report` | `cm:pyramid-principle` |
 | `cm:business-report` | `cm:scqa-framework` |
+| `cm:change-communication` | `cm:leadership-framing` |
 | `cm:change-communication` | `cm:realistic-merger-preview` |
 | `cm:change-communication` | `cm:sensegiving` |
 | `cm:client-communication` | `cm:cognitive-reappraisal` |
@@ -96,9 +95,8 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:difficult-conversation` | `cm:conversational-receptiveness` |
 | `cm:difficult-conversation` | `cm:cooling-off-period` |
 | `cm:difficult-conversation` | `cm:de-escalation` |
-| `cm:difficult-conversation` | `cm:desc-script` |
 
-…and 165 more.
+…and 166 more.
 
 ## Myths and contested advice
 
