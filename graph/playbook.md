@@ -2494,6 +2494,28 @@ Ask yourself:
 - Am I more confident about this judgement than my track record with this kind of person justifies?
 - Was I busy enough with my own agenda or status in this conversation that I stopped paying attention to theirs?
 
+### [Microexpression training](../articles/nonverbal-and-voice/microexpression-training.md) — Technique
+
+1. Take a validated recognition course that shows brief expressions, explains the cues for each emotion and gives right-or-wrong feedback on every item, and record your pre-test score.
+2. Practise in short sessions and retest after a couple of weeks, because the gains are measured over weeks, not years.
+3. In real conversations, treat a fleeting expression as a prompt to pay attention, not as a verdict about what the person feels or whether they are honest.
+4. Check the read out loud with a tentative, open question or label, and let the other person correct you.
+5. Compare the read with voice, words and context before acting on it, and drop it if they do not line up.
+
+*In a one-on-one, a team lead announces that a project the analyst built is being handed to another team; the analyst says "sure, makes sense" and a brief tightening crosses their face.*
+
+| Before | After |
+|---|---|
+| Great, glad you're fine with it. Let's move on to your sprint tasks. | You said it makes sense, but I'm not sure it lands well. What's your honest reaction to the handover? |
+
+**Why:** The lead uses the fleeting cue only to open a door, with a question the analyst can decline, rather than ignoring it or claiming to know what the analyst feels.
+
+Ask yourself:
+- Did I turn what I noticed into a question, or did I act as if I already knew what they felt?
+- Am I tempted to treat a fleeting expression as evidence that someone is lying?
+- Did the voice, the words and the situation point the same way as the face before I acted?
+- Is my confidence in my reads based on feedback I have actually received, or only on having done a course?
+
 ### [Mixed messages](../articles/nonverbal-and-voice/mixed-messages.md) — Barrier
 
 Ask yourself:

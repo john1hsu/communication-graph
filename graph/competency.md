@@ -12,9 +12,7 @@ _No results._
 
 _Which written skills or dispositions have no technique, framework or principle that develops them?_ — `queries/02-skills-without-practice.rq`
 
-| skill | type |
-|---|---|
-| `cm:interpersonal-accuracy` | cmo:Skill |
+_No results._
 
 ## Situations, channels and formats with no guidance (gap)
 
@@ -59,7 +57,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:peer-review-of-writing` | 2 | Business writing, Curse of knowledge |
 | `cm:plain-language` | 2 | Curse of knowledge, jargon |
 
-…and 76 more.
+…and 77 more.
 
 ## Toolkit by situation
 
@@ -127,6 +125,8 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:media-richness-theory` | contested | `cm:paradox-of-richness` |
 | `cm:mehrabian-myth` | contested | `cm:lapakko-2007` |
 | `cm:mehrabian-myth` | contested | `cm:zuckerman-et-al-1982` |
+| `cm:microexpression-training` | contested | `cm:jordan-et-al-2019` |
+| `cm:microexpression-training` | contested | `cm:porter-ten-brinke-2008` |
 | `cm:monochronic-and-polychronic-time` | contested | `cm:konig-waller-2010` |
 | `cm:monroes-motivated-sequence` | contested | `cm:micciche-pryor-butler-2000` |
 | `cm:readability-formulas` | contested | `cm:duffy-kabance-1982` |
@@ -134,10 +134,8 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:reading-lies-from-body-language` | contested | `cm:bond-depaulo-2006` |
 | `cm:reading-lies-from-body-language` | contested | `cm:depaulo-et-al-2003` |
 | `cm:reading-lies-from-body-language` | contested | `cm:hartwig-bond-2011` |
-| `cm:wise-feedback` | contested | `cm:troy-moua-van-boekel-2024` |
-| `cm:power-posing` | failed-replication | `cm:crede-2019` |
 
-…and 226 more.
+…and 228 more.
 
 ## Concepts with no recorded origin (gap)
 
