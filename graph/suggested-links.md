@@ -5,7 +5,7 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | Score | Node A | Node B | Shared neighbours |
 |---|---|---|---|
 | 5.49 | `cm:audience-analysis` | `cm:credibility` | `cm:aristotles-rhetoric`, `cm:charismatic-leadership-tactics`, `cm:client-communication`, `cm:communicating-uncertainty`, `cm:elaboration-likelihood-model` |
-| 4.47 | `cm:interpersonal-communication` | `cm:psychological-safety` | `cm:coaching`, `cm:communication-apprehension`, `cm:emotional-contagion`, `cm:feedback`, `cm:group-communication` |
+| 4.45 | `cm:interpersonal-communication` | `cm:psychological-safety` | `cm:coaching`, `cm:communication-apprehension`, `cm:emotional-contagion`, `cm:feedback`, `cm:group-communication` |
 | 4.18 | `cm:audience-analysis` | `cm:wall-of-text` | `cm:bottom-line-up-front`, `cm:business-report`, `cm:business-writing`, `cm:clarity`, `cm:concise-writing` |
 | 4.15 | `cm:integrative-negotiation` | `cm:negotiation-preparation` | `cm:batna`, `cm:concession-strategy`, `cm:distributive-negotiation`, `cm:first-offer`, `cm:interests-vs-positions` |
 | 3.97 | `cm:audience-analysis` | `cm:organizational-communication` | `cm:business-writing`, `cm:change-communication`, `cm:channel-selection`, `cm:client-communication`, `cm:managing-up` |
@@ -13,8 +13,9 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 3.79 | `cm:bottom-line-up-front` | `cm:presentation` | `cm:assertion-evidence-slides`, `cm:audience-analysis`, `cm:cognitive-load`, `cm:elevator-pitch`, `cm:executive-briefing` |
 | 3.77 | `cm:distributive-negotiation` | `cm:multiple-equivalent-simultaneous-offers` | `cm:anchoring-and-adjustment`, `cm:batna`, `cm:concession-strategy`, `cm:first-offer`, `cm:integrative-negotiation` |
 | 3.69 | `cm:delivering-bad-news` | `cm:managing-up` | `cm:bottom-line-up-front`, `cm:channel-selection`, `cm:client-communication`, `cm:communicating-uncertainty`, `cm:escalation-communication` |
-| 3.65 | `cm:active-listening` | `cm:interpersonal-communication` | `cm:client-communication`, `cm:coaching`, `cm:communication-competence`, `cm:empathy`, `cm:listening` |
+| 3.64 | `cm:active-listening` | `cm:interpersonal-communication` | `cm:client-communication`, `cm:coaching`, `cm:communication-competence`, `cm:empathy`, `cm:listening` |
 | 3.56 | `cm:active-listening` | `cm:feedback` | `cm:coaching`, `cm:communication-competence`, `cm:defensiveness`, `cm:difficult-conversation`, `cm:feedforward` |
+| 3.46 | `cm:active-listening` | `cm:checking-understanding` | `cm:backchannel-responses`, `cm:common-ground`, `cm:note-taking-while-listening`, `cm:open-ended-questions`, `cm:paraphrasing` |
 | 3.45 | `cm:post-settlement-settlement` | `cm:zone-of-possible-agreement` | `cm:batna`, `cm:concession-strategy`, `cm:howard-raiffa`, `cm:integrative-negotiation`, `cm:interests-vs-positions` |
 | 3.42 | `cm:batna` | `cm:mythical-fixed-pie` | `cm:anchoring-and-adjustment`, `cm:distributive-negotiation`, `cm:integrative-negotiation`, `cm:interests-vs-positions`, `cm:multiple-equivalent-simultaneous-offers` |
 | 3.42 | `cm:egocentric-bias` | `cm:email` | `cm:checking-understanding`, `cm:curse-of-knowledge`, `cm:digital-communication`, `cm:email-urgency-bias-study`, `cm:emoji-and-tone-in-text` |
@@ -28,4 +29,3 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 3.21 | `cm:concession-strategy` | `cm:interests-vs-positions` | `cm:batna`, `cm:distributive-negotiation`, `cm:integrative-negotiation`, `cm:logrolling`, `cm:negotiation-preparation` |
 | 3.19 | `cm:interests-vs-positions` | `cm:multiple-equivalent-simultaneous-offers` | `cm:batna`, `cm:integrative-negotiation`, `cm:logrolling`, `cm:mythical-fixed-pie`, `cm:negotiation-preparation` |
 | 3.18 | `cm:feedback-intervention-theory` | `cm:one-on-one-meetings` | `cm:360-degree-feedback`, `cm:edward-l-deci`, `cm:feedback`, `cm:feedforward`, `cm:hattie-timperley-feedback-model` |
-| 3.15 | `cm:conflict-resolution` | `cm:defensiveness` | `cm:accusatory-you-statements`, `cm:conversational-receptiveness`, `cm:de-escalation`, `cm:desc-script`, `cm:difficult-conversation` |

@@ -1749,6 +1749,101 @@
    ]
   },
   {
+   "@id": "cm:backchannel-responses",
+   "@type": "cmo:Technique",
+   "cmo:complements": {
+    "@id": "cm:eye-contact"
+   },
+   "cmo:demonstratedBy": {
+    "@id": "cm:bavelas-coates-johnson-2000"
+   },
+   "cmo:develops": {
+    "@id": "cm:active-listening"
+   },
+   "cmo:domain": "listening",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/backchannel-responses/example"
+   },
+   "cmo:explainedBy": {
+    "@id": "cm:communication-accommodation-theory"
+   },
+   "cmo:file": "articles/listening/backchannel-responses.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/backchannel-responses/howto"
+   },
+   "cmo:introducedBy": {
+    "@id": "cm:victor-yngve"
+   },
+   "cmo:level": "introductory",
+   "cmo:requires": {
+    "@id": "cm:listening"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/backchannel-responses/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/backchannel-responses/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/backchannel-responses/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/backchannel-responses/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/backchannel-responses/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/backchannel-responses/s6"
+    }
+   ],
+   "rdfs:label": "Backchannel responses",
+   "skos:altLabel": [
+    "back channel",
+    "backchanneling",
+    "backchannels",
+    "listener responses",
+    "minimal encouragers"
+   ],
+   "skos:broader": {
+    "@id": "cm:active-listening"
+   },
+   "skos:definition": "The brief signals a listener gives while someone else holds the floor - \"mm-hm\", \"right\", a nod, a wince, a finished phrase - which show attention and understanding without taking the turn. Research by Janet Bavelas and colleagues shows they shape how well the speaker talks, and cross-cultural studies show their frequency and meaning vary, so they need calibrating.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/listening"
+   },
+   "skos:prefLabel": "Backchannel responses",
+   "skos:related": [
+    {
+     "@id": "cm:checking-understanding"
+    },
+    {
+     "@id": "cm:conversational-turn-taking"
+    },
+    {
+     "@id": "cm:eye-contact"
+    },
+    {
+     "@id": "cm:interrupting"
+    },
+    {
+     "@id": "cm:paraphrasing"
+    },
+    {
+     "@id": "cm:support-response"
+    },
+    {
+     "@id": "cm:video-call-communication"
+    }
+   ]
+  },
+  {
    "@id": "cm:batna",
    "@type": "cmo:Technique",
    "cmo:challengedBy": {
@@ -31887,6 +31982,107 @@
    "schema:text": "Say it in a calm, warm voice; read spoken requests aloud first and soften a harsh or clipped delivery, because tone carries control even when the words do not."
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/backchannel-responses/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:backchannel-responses"
+   },
+   "rdfs:label": "Was I doing anything else while they talked that would have thinned out my responses?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/backchannel-responses/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:backchannel-responses"
+   },
+   "rdfs:label": "Did any of my responses show I had understood a specific point, or were they all \"mm-hm\"?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/backchannel-responses/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:backchannel-responses"
+   },
+   "rdfs:label": "Could the other person have mistaken my \"yes\" or \"OK\" for agreement I did not intend?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/backchannel-responses/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:backchannel-responses"
+   },
+   "rdfs:label": "Did I confirm the key point or decision explicitly at the end instead of relying on my nods?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/backchannel-responses/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "Lead closes the email, looks at the camera: 'Mm-hm.' ... 'Wait - the rollback failed too?' ... 'Ouch.' At the end: 'So the rollback script is the piece we need to fix first - have I got that right?' The engineer adds the detail about the expired credential that broke it.",
+   "cmo:before": "Lead (typing, camera on, eyes on the other screen): '...yeah... yeah... OK.' Engineer speeds up, skips the part about the failed rollback, and ends with 'so, um, yeah, that's basically it, I guess.'",
+   "cmo:situation": "A support engineer is walking a team lead through the timeline of a weekend outage on a call, while the lead finishes an email.",
+   "cmo:why": "In the first version the lead's generic, mistimed \"yeah\"s show only that sound is reaching her, so the engineer cuts the story short and fumbles the ending - the pattern Bavelas's experiments found with distracted listeners. Specific responses and a closing check keep the speaker on track and surface the root cause."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/backchannel-responses/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Backchannel responses",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/backchannel-responses/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/backchannel-responses/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/backchannel-responses/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/backchannel-responses/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/backchannel-responses/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/backchannel-responses/howto/6"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/backchannel-responses/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Before the other person starts, put away the laptop or second task; distracted listeners give far fewer responses, and the speaker feels it."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/backchannel-responses/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "Use short generic signals (\"mm-hm\", \"right\", a nod) to show you are following, timed to the moments when the speaker looks at you or pauses at the end of a point."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/backchannel-responses/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Add specific responses at the moments that matter - a wince at the bad news, \"wow, three days?\", finishing a phrase they are searching for - so they can see you understood, not just heard."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/backchannel-responses/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Keep each response short enough that the speaker can carry on without stopping; if you need more than a few words, wait for the turn to end."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/backchannel-responses/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Never let a backchannel stand in for agreement or understanding; when a decision or instruction is involved, check it explicitly with a paraphrase or question at the end."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/backchannel-responses/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "Calibrate to the person and culture - if your counterpart backchannels much more or much less than you, adjust towards their rhythm and ask rather than assume what their \"yes\" meant."
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/batna/check/1",
    "@type": "cmo:SelfCheckQuestion",
    "cmo:questionFor": {
@@ -46057,6 +46253,90 @@
    "dcterms:title": "Realistic law enforcement de-escalation: Learning from the mental health profession",
    "schema:url": {
     "@id": "https://www.police1.com/police-training/articles/realistic-law-enforcement-de-escalation-learning-from-the-mental-health-profession-GHHSl3vKkyCNZ27e/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/backchannel-responses/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Janet Beavin Bavelas, Linda Coates & Trudy Johnson, Journal of Personality and Social Psychology 79(6), 941-952 (2000), doi:10.1037/0022-3514.79.6.941 - authors' copy",
+   "dcterms:title": "Listeners as Co-Narrators",
+   "schema:url": {
+    "@id": "https://www.responsebasedpractice.com/wp-content/uploads/2020/04/Listeners-as-Co-Narrators.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/backchannel-responses/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Janet Beavin Bavelas, Linda Coates & Trudy Johnson, Journal of Communication, 566-580 (2002) - TalkBank conversation-analysis library copy",
+   "dcterms:title": "Listener Responses as a Collaborative Process: The Role of Gaze",
+   "schema:url": {
+    "@id": "https://talkbank.org/ca/access/0docs/bavelas2002.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/backchannel-responses/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Sheida White, Language in Society (Cambridge University Press, 1989)",
+   "dcterms:title": "Backchannels Across Cultures: A Study of Americans and Japanese",
+   "schema:url": {
+    "@id": "https://core-cms.cambridgecore.org/core/journals/language-in-society/article/backchannels-across-cultures-a-study-of-americans-and-japanese1/B26AC3C44C237B9A380A5494EA5693ED"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/backchannel-responses/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Han Z. Li, Journal of Intercultural Communication Research (2006), doi:10.1080/17475750600909253",
+   "dcterms:title": "Backchannel Responses as Misleading Feedback in Intercultural Discourse",
+   "schema:url": {
+    "@id": "https://informahealthcare.com/doi/abs/10.1080/17475750600909253"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/backchannel-responses/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Han Z. Li, Yanping Cui & Zhizhang Wang, International Journal of Psychological Studies 2(1) (2010) - RePEc/IDEAS record",
+   "dcterms:title": "Backchannel Responses and Enjoyment of the Conversation: The More Does Not Necessarily Mean the Better",
+   "schema:url": {
+    "@id": "https://ideas.repec.org/a/ibn/ijpsjl/v2y2010i1p25.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/backchannel-responses/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "G. Ko, S. Collins & Y. Yasynskyy (eds.), A Practical Guide for Counsellors: Co-Creating Safe and Culturally Responsive Relational Spaces (open textbook, Pressbooks, 2023)",
+   "dcterms:title": "Responsive Microskills Techniques",
+   "schema:url": {
+    "@id": "https://pressbooks.pub/app/uploads/sites/2296/2023/05/Responsive_microskills_techniques.pdf"
    }
   },
   {

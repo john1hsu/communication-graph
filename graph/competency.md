@@ -59,7 +59,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:peer-review-of-writing` | 2 | Business writing, Curse of knowledge |
 | `cm:plain-language` | 2 | Curse of knowledge, jargon |
 
-…and 73 more.
+…and 74 more.
 
 ## Toolkit by situation
 
@@ -137,7 +137,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:wise-feedback` | contested | `cm:troy-moua-van-boekel-2024` |
 | `cm:power-posing` | failed-replication | `cm:crede-2019` |
 
-…and 220 more.
+…and 221 more.
 
 ## Concepts with no recorded origin (gap)
 

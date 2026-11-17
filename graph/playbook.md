@@ -1575,6 +1575,29 @@ Ask yourself:
 - Did I ask at least one question that drew out something they had not yet said?
 - Would they leave this conversation feeling heard, even if I did not agree with them?
 
+### [Backchannel responses](../articles/listening/backchannel-responses.md) — Technique
+
+1. Before the other person starts, put away the laptop or second task; distracted listeners give far fewer responses, and the speaker feels it.
+2. Use short generic signals ("mm-hm", "right", a nod) to show you are following, timed to the moments when the speaker looks at you or pauses at the end of a point.
+3. Add specific responses at the moments that matter - a wince at the bad news, "wow, three days?", finishing a phrase they are searching for - so they can see you understood, not just heard.
+4. Keep each response short enough that the speaker can carry on without stopping; if you need more than a few words, wait for the turn to end.
+5. Never let a backchannel stand in for agreement or understanding; when a decision or instruction is involved, check it explicitly with a paraphrase or question at the end.
+6. Calibrate to the person and culture - if your counterpart backchannels much more or much less than you, adjust towards their rhythm and ask rather than assume what their "yes" meant.
+
+*A support engineer is walking a team lead through the timeline of a weekend outage on a call, while the lead finishes an email.*
+
+| Before | After |
+|---|---|
+| Lead (typing, camera on, eyes on the other screen): '...yeah... yeah... OK.' Engineer speeds up, skips the part about the failed rollback, and ends with 'so, um, yeah, that's basically it, I guess.' | Lead closes the email, looks at the camera: 'Mm-hm.' ... 'Wait - the rollback failed too?' ... 'Ouch.' At the end: 'So the rollback script is the piece we need to fix first - have I got that right?' The engineer adds the detail about the expired credential that broke it. |
+
+**Why:** In the first version the lead's generic, mistimed "yeah"s show only that sound is reaching her, so the engineer cuts the story short and fumbles the ending - the pattern Bavelas's experiments found with distracted listeners. Specific responses and a closing check keep the speaker on track and surface the root cause.
+
+Ask yourself:
+- Was I doing anything else while they talked that would have thinned out my responses?
+- Did any of my responses show I had understood a specific point, or were they all "mm-hm"?
+- Could the other person have mistaken my "yes" or "OK" for agreement I did not intend?
+- Did I confirm the key point or decision explicitly at the end instead of relying on my nods?
+
 ### [Conversational narcissism](../articles/listening/conversational-narcissism.md) — AntiPattern
 
 *In a Monday one-on-one, a team member tells her manager that the client workshop on Friday went badly because the client's finance lead challenged every number.*

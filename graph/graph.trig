@@ -1168,6 +1168,15 @@
 <https://github.com/john1hsu/communication-graph/id/active-listening#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/active-listening/s3> .
 <https://github.com/john1hsu/communication-graph/id/active-listening#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/active-listening/s4> .
 <https://github.com/john1hsu/communication-graph/id/active-listening#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/active-listening/s5> .
+<https://github.com/john1hsu/communication-graph/id/backchannel-responses#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/backchannel-responses#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/backchannel-responses> .
+<https://github.com/john1hsu/communication-graph/id/backchannel-responses#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/listening/backchannel-responses.md" .
+<https://github.com/john1hsu/communication-graph/id/backchannel-responses#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/backchannel-responses/s1> .
+<https://github.com/john1hsu/communication-graph/id/backchannel-responses#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/backchannel-responses/s2> .
+<https://github.com/john1hsu/communication-graph/id/backchannel-responses#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/backchannel-responses/s3> .
+<https://github.com/john1hsu/communication-graph/id/backchannel-responses#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/backchannel-responses/s4> .
+<https://github.com/john1hsu/communication-graph/id/backchannel-responses#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/backchannel-responses/s5> .
+<https://github.com/john1hsu/communication-graph/id/backchannel-responses#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/backchannel-responses/s6> .
 <https://github.com/john1hsu/communication-graph/id/conversational-narcissism#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/conversational-narcissism#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/conversational-narcissism> .
 <https://github.com/john1hsu/communication-graph/id/conversational-narcissism#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/listening/conversational-narcissism.md" .
@@ -15360,6 +15369,125 @@
   <https://github.com/john1hsu/communication-graph/id/source/active-listening/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
   <https://github.com/john1hsu/communication-graph/id/source/active-listening/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
   <https://github.com/john1hsu/communication-graph/id/source/active-listening/s5> <https://schema.org/url> <https://www.pon.harvard.edu/glossary/active-listening/> .
+}
+
+<https://github.com/john1hsu/communication-graph/id/backchannel-responses#graph> {
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Was I doing anything else while they talked that would have thinned out my responses?" .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/backchannel-responses> .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Did any of my responses show I had understood a specific point, or were they all \"mm-hm\"?" .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/backchannel-responses> .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Could the other person have mistaken my \"yes\" or \"OK\" for agreement I did not intend?" .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/backchannel-responses> .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Did I confirm the key point or decision explicitly at the end instead of relying on my nods?" .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/backchannel-responses> .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses/example> <https://github.com/john1hsu/communication-graph/ontology#after> "Lead closes the email, looks at the camera: 'Mm-hm.' ... 'Wait - the rollback failed too?' ... 'Ouch.' At the end: 'So the rollback script is the piece we need to fix first - have I got that right?' The engineer adds the detail about the expired credential that broke it." .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses/example> <https://github.com/john1hsu/communication-graph/ontology#before> "Lead (typing, camera on, eyes on the other screen): '...yeah... yeah... OK.' Engineer speeds up, skips the part about the failed rollback, and ends with 'so, um, yeah, that's basically it, I guess.'" .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "A support engineer is walking a team lead through the timeline of a weekend outage on a call, while the lead finishes an email." .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses/example> <https://github.com/john1hsu/communication-graph/ontology#why> "In the first version the lead's generic, mistimed \"yeah\"s show only that sound is reaching her, so the engineer cuts the story short and fumbles the ending - the pattern Bavelas's experiments found with distracted listeners. Specific responses and a closing check keep the speaker on track and surface the root cause." .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses/howto/1> <https://schema.org/text> "Before the other person starts, put away the laptop or second task; distracted listeners give far fewer responses, and the speaker feels it." .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses/howto/2> <https://schema.org/text> "Use short generic signals (\"mm-hm\", \"right\", a nod) to show you are following, timed to the moments when the speaker looks at you or pauses at the end of a point." .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses/howto/3> <https://schema.org/text> "Add specific responses at the moments that matter - a wince at the bad news, \"wow, three days?\", finishing a phrase they are searching for - so they can see you understood, not just heard." .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses/howto/4> <https://schema.org/text> "Keep each response short enough that the speaker can carry on without stopping; if you need more than a few words, wait for the turn to end." .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses/howto/5> <https://schema.org/text> "Never let a backchannel stand in for agreement or understanding; when a decision or instruction is involved, check it explicitly with a paraphrase or question at the end." .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses/howto/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses/howto/6> <https://schema.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses/howto/6> <https://schema.org/text> "Calibrate to the person and culture - if your counterpart backchannels much more or much less than you, adjust towards their rhythm and ask rather than assume what their \"yes\" meant." .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses/howto> <https://schema.org/name> "Backchannel responses" .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/backchannel-responses/howto/1> .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/backchannel-responses/howto/2> .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/backchannel-responses/howto/3> .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/backchannel-responses/howto/4> .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/backchannel-responses/howto/5> .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/backchannel-responses/howto/6> .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses> <http://purl.org/dc/terms/created> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Technique> .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses> <http://www.w3.org/2000/01/rdf-schema#label> "Backchannel responses" .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses> <http://www.w3.org/2004/02/skos/core#altLabel> "back channel" .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses> <http://www.w3.org/2004/02/skos/core#altLabel> "backchanneling" .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses> <http://www.w3.org/2004/02/skos/core#altLabel> "backchannels" .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses> <http://www.w3.org/2004/02/skos/core#altLabel> "listener responses" .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses> <http://www.w3.org/2004/02/skos/core#altLabel> "minimal encouragers" .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses> <http://www.w3.org/2004/02/skos/core#definition> "The brief signals a listener gives while someone else holds the floor - \"mm-hm\", \"right\", a nod, a wince, a finished phrase - which show attention and understanding without taking the turn. Research by Janet Bavelas and colleagues shows they shape how well the speaker talks, and cross-cultural studies show their frequency and meaning vary, so they need calibrating." .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/listening> .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses> <http://www.w3.org/2004/02/skos/core#prefLabel> "Backchannel responses" .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/checking-understanding> .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/eye-contact> .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/interrupting> .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/paraphrasing> .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/support-response> .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/video-call-communication> .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/backchannel-responses/s1> .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/backchannel-responses/s2> .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/backchannel-responses/s3> .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/backchannel-responses/s4> .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/backchannel-responses/s5> .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/backchannel-responses/s6> .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/eye-contact> .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/bavelas-coates-johnson-2000> .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses> <https://github.com/john1hsu/communication-graph/ontology#develops> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses> <https://github.com/john1hsu/communication-graph/ontology#domain> "listening" .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/backchannel-responses/example> .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses> <https://github.com/john1hsu/communication-graph/ontology#explainedBy> <https://github.com/john1hsu/communication-graph/id/communication-accommodation-theory> .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/listening/backchannel-responses.md" .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/backchannel-responses/howto> .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/victor-yngve> .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/listening> .
+  <https://github.com/john1hsu/communication-graph/id/source/backchannel-responses/s1> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/backchannel-responses/s1> <http://purl.org/dc/terms/publisher> "Janet Beavin Bavelas, Linda Coates & Trudy Johnson, Journal of Personality and Social Psychology 79(6), 941-952 (2000), doi:10.1037/0022-3514.79.6.941 - authors' copy" .
+  <https://github.com/john1hsu/communication-graph/id/source/backchannel-responses/s1> <http://purl.org/dc/terms/title> "Listeners as Co-Narrators" .
+  <https://github.com/john1hsu/communication-graph/id/source/backchannel-responses/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/backchannel-responses/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/backchannel-responses/s1> <https://schema.org/url> <https://www.responsebasedpractice.com/wp-content/uploads/2020/04/Listeners-as-Co-Narrators.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/backchannel-responses/s2> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/backchannel-responses/s2> <http://purl.org/dc/terms/publisher> "Janet Beavin Bavelas, Linda Coates & Trudy Johnson, Journal of Communication, 566-580 (2002) - TalkBank conversation-analysis library copy" .
+  <https://github.com/john1hsu/communication-graph/id/source/backchannel-responses/s2> <http://purl.org/dc/terms/title> "Listener Responses as a Collaborative Process: The Role of Gaze" .
+  <https://github.com/john1hsu/communication-graph/id/source/backchannel-responses/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/backchannel-responses/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/backchannel-responses/s2> <https://schema.org/url> <https://talkbank.org/ca/access/0docs/bavelas2002.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/source/backchannel-responses/s3> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/backchannel-responses/s3> <http://purl.org/dc/terms/publisher> "Sheida White, Language in Society (Cambridge University Press, 1989)" .
+  <https://github.com/john1hsu/communication-graph/id/source/backchannel-responses/s3> <http://purl.org/dc/terms/title> "Backchannels Across Cultures: A Study of Americans and Japanese" .
+  <https://github.com/john1hsu/communication-graph/id/source/backchannel-responses/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/backchannel-responses/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/backchannel-responses/s3> <https://schema.org/url> <https://core-cms.cambridgecore.org/core/journals/language-in-society/article/backchannels-across-cultures-a-study-of-americans-and-japanese1/B26AC3C44C237B9A380A5494EA5693ED> .
+  <https://github.com/john1hsu/communication-graph/id/source/backchannel-responses/s4> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/backchannel-responses/s4> <http://purl.org/dc/terms/publisher> "Han Z. Li, Journal of Intercultural Communication Research (2006), doi:10.1080/17475750600909253" .
+  <https://github.com/john1hsu/communication-graph/id/source/backchannel-responses/s4> <http://purl.org/dc/terms/title> "Backchannel Responses as Misleading Feedback in Intercultural Discourse" .
+  <https://github.com/john1hsu/communication-graph/id/source/backchannel-responses/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/backchannel-responses/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/backchannel-responses/s4> <https://schema.org/url> <https://informahealthcare.com/doi/abs/10.1080/17475750600909253> .
+  <https://github.com/john1hsu/communication-graph/id/source/backchannel-responses/s5> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/backchannel-responses/s5> <http://purl.org/dc/terms/publisher> "Han Z. Li, Yanping Cui & Zhizhang Wang, International Journal of Psychological Studies 2(1) (2010) - RePEc/IDEAS record" .
+  <https://github.com/john1hsu/communication-graph/id/source/backchannel-responses/s5> <http://purl.org/dc/terms/title> "Backchannel Responses and Enjoyment of the Conversation: The More Does Not Necessarily Mean the Better" .
+  <https://github.com/john1hsu/communication-graph/id/source/backchannel-responses/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/backchannel-responses/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/backchannel-responses/s5> <https://schema.org/url> <https://ideas.repec.org/a/ibn/ijpsjl/v2y2010i1p25.html> .
+  <https://github.com/john1hsu/communication-graph/id/source/backchannel-responses/s6> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/backchannel-responses/s6> <http://purl.org/dc/terms/publisher> "G. Ko, S. Collins & Y. Yasynskyy (eds.), A Practical Guide for Counsellors: Co-Creating Safe and Culturally Responsive Relational Spaces (open textbook, Pressbooks, 2023)" .
+  <https://github.com/john1hsu/communication-graph/id/source/backchannel-responses/s6> <http://purl.org/dc/terms/title> "Responsive Microskills Techniques" .
+  <https://github.com/john1hsu/communication-graph/id/source/backchannel-responses/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/backchannel-responses/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "textbook" .
+  <https://github.com/john1hsu/communication-graph/id/source/backchannel-responses/s6> <https://schema.org/url> <https://pressbooks.pub/app/uploads/sites/2296/2023/05/Responsive_microskills_techniques.pdf> .
 }
 
 <https://github.com/john1hsu/communication-graph/id/conversational-narcissism#graph> {
@@ -33343,6 +33471,7 @@
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/listening> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
+  <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/backchannel-responses> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/labeling-emotions> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/listening-circle> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/mirroring> .
@@ -33352,6 +33481,7 @@
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/summarizing> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/support-response> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> .
+  <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/backchannel-responses> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/labeling-emotions> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/listening-circle> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/mirroring> .
@@ -33406,6 +33536,7 @@
   <https://github.com/john1hsu/communication-graph/id/active-listening> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/rapport> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/reciprocal-self-disclosure> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/situation-behavior-impact> .
+  <https://github.com/john1hsu/communication-graph/id/active-listening> <https://github.com/john1hsu/communication-graph/ontology#developedBy> <https://github.com/john1hsu/communication-graph/id/backchannel-responses> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <https://github.com/john1hsu/communication-graph/ontology#developedBy> <https://github.com/john1hsu/communication-graph/id/listening-circle> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <https://github.com/john1hsu/communication-graph/ontology#developedBy> <https://github.com/john1hsu/communication-graph/id/paraphrasing> .
   <https://github.com/john1hsu/communication-graph/id/active-listening> <https://github.com/john1hsu/communication-graph/ontology#developedBy> <https://github.com/john1hsu/communication-graph/id/summarizing> .
@@ -33863,6 +33994,19 @@
   <https://github.com/john1hsu/communication-graph/id/avraham-n-kluger> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/feedback-intervention-theory> .
   <https://github.com/john1hsu/communication-graph/id/avraham-n-kluger> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/kluger-denisi-1996> .
   <https://github.com/john1hsu/communication-graph/id/avrim-fishkind> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/humanities> .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/listening> .
+  <https://github.com/john1hsu/communication-graph/id/backchannel-responses> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/baker-chaparro-shaikh-2005> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/wall-of-text> .
   <https://github.com/john1hsu/communication-graph/id/balling-2018> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/characters-as-subjects-actions-as-verbs> .
   <https://github.com/john1hsu/communication-graph/id/balling-2018> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/joseph-m-williams> .
@@ -33929,6 +34073,9 @@
   <https://github.com/john1hsu/communication-graph/id/batna> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/salary-negotiation> .
   <https://github.com/john1hsu/communication-graph/id/batna> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/zone-of-possible-agreement> .
   <https://github.com/john1hsu/communication-graph/id/baturaite-bunka-et-al-2024> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/nonviolent-communication> .
+  <https://github.com/john1hsu/communication-graph/id/bavelas-coates-johnson-2000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/bavelas-coates-johnson-2000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
+  <https://github.com/john1hsu/communication-graph/id/bavelas-coates-johnson-2000> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/backchannel-responses> .
   <https://github.com/john1hsu/communication-graph/id/becker-et-al-2019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/becker-et-al-2019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/becker-et-al-2019> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/workplace-stress> .
@@ -34437,6 +34584,7 @@
   <https://github.com/john1hsu/communication-graph/id/checking-understanding> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/teach-back> .
   <https://github.com/john1hsu/communication-graph/id/checking-understanding> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/closed-loop-communication> .
   <https://github.com/john1hsu/communication-graph/id/checking-understanding> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/teach-back> .
+  <https://github.com/john1hsu/communication-graph/id/checking-understanding> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/backchannel-responses> .
   <https://github.com/john1hsu/communication-graph/id/checking-understanding> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/closed-questions> .
   <https://github.com/john1hsu/communication-graph/id/checking-understanding> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/eduardo-salas> .
   <https://github.com/john1hsu/communication-graph/id/checking-understanding> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/mixed-messages> .
@@ -34769,6 +34917,7 @@
   <https://github.com/john1hsu/communication-graph/id/communication-accommodation-theory> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/humanities> .
   <https://github.com/john1hsu/communication-graph/id/communication-accommodation-theory> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/intercultural-communication> .
   <https://github.com/john1hsu/communication-graph/id/communication-accommodation-theory> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
+  <https://github.com/john1hsu/communication-graph/id/communication-accommodation-theory> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/backchannel-responses> .
   <https://github.com/john1hsu/communication-graph/id/communication-accommodation-theory> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/communicating-across-languages> .
   <https://github.com/john1hsu/communication-graph/id/communication-accommodation-theory> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/nonverbal-immediacy> .
   <https://github.com/john1hsu/communication-graph/id/communication-accommodation-theory> <https://github.com/john1hsu/communication-graph/ontology#explains> <https://github.com/john1hsu/communication-graph/id/register-and-tone> .
@@ -34890,6 +35039,7 @@
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/assertive-communication> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> .
+  <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/backchannel-responses> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/batna> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/brainstorming> .
@@ -35256,6 +35406,7 @@
   <https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/interrupting> .
   <https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/conversational-narcissism> .
   <https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/interrupting> .
+  <https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/backchannel-responses> .
   <https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/erving-goffman> .
   <https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/group-communication> .
   <https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/hybrid-meetings> .
@@ -36417,6 +36568,7 @@
   <https://github.com/john1hsu/communication-graph/id/eye-contact> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
   <https://github.com/john1hsu/communication-graph/id/eye-contact> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/nonverbal-communication> .
   <https://github.com/john1hsu/communication-graph/id/eye-contact> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
+  <https://github.com/john1hsu/communication-graph/id/eye-contact> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/backchannel-responses> .
   <https://github.com/john1hsu/communication-graph/id/eye-contact> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/camera-level-gaze> .
   <https://github.com/john1hsu/communication-graph/id/eye-contact> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/chen-2002> .
   <https://github.com/john1hsu/communication-graph/id/eye-contact> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cognitive-load> .
@@ -36429,6 +36581,7 @@
   <https://github.com/john1hsu/communication-graph/id/eye-contact> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/nonverbal-immediacy> .
   <https://github.com/john1hsu/communication-graph/id/eye-contact> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/reading-lies-from-body-language> .
   <https://github.com/john1hsu/communication-graph/id/eye-contact> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/self-recording-playback> .
+  <https://github.com/john1hsu/communication-graph/id/eye-contact> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/backchannel-responses> .
   <https://github.com/john1hsu/communication-graph/id/eye-contact> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/handshake> .
   <https://github.com/john1hsu/communication-graph/id/eye-contact> <https://github.com/john1hsu/communication-graph/ontology#developedBy> <https://github.com/john1hsu/communication-graph/id/camera-level-gaze> .
   <https://github.com/john1hsu/communication-graph/id/eye-contact> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/michael-argyle> .
@@ -37288,6 +37441,7 @@
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/assertive-communication> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> .
+  <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/backchannel-responses> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/batna> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/brainstorming> .
@@ -37965,6 +38119,7 @@
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/apology> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/assertive-communication> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> .
+  <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/backchannel-responses> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/batna> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
   <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/bulleted-and-numbered-lists> .
@@ -38162,6 +38317,7 @@
   <https://github.com/john1hsu/communication-graph/id/interrupting> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/humanities> .
   <https://github.com/john1hsu/communication-graph/id/interrupting> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
   <https://github.com/john1hsu/communication-graph/id/interrupting> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
+  <https://github.com/john1hsu/communication-graph/id/interrupting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/backchannel-responses> .
   <https://github.com/john1hsu/communication-graph/id/interrupting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/conversational-narcissism> .
   <https://github.com/john1hsu/communication-graph/id/interrupting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/conversational-turn-taking> .
   <https://github.com/john1hsu/communication-graph/id/interrupting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/phone-call> .
@@ -38603,6 +38759,7 @@
   <https://github.com/john1hsu/communication-graph/id/listening> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/active-listening> .
   <https://github.com/john1hsu/communication-graph/id/listening> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/listening-styles> .
   <https://github.com/john1hsu/communication-graph/id/listening> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+  <https://github.com/john1hsu/communication-graph/id/listening> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/backchannel-responses> .
   <https://github.com/john1hsu/communication-graph/id/listening> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/labeling-emotions> .
   <https://github.com/john1hsu/communication-graph/id/listening> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/listening-circle> .
   <https://github.com/john1hsu/communication-graph/id/listening> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/listening-styles> .
@@ -38615,6 +38772,7 @@
   <https://github.com/john1hsu/communication-graph/id/listening> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> .
   <https://github.com/john1hsu/communication-graph/id/listening> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/listening-circle> .
   <https://github.com/john1hsu/communication-graph/id/listening> <https://github.com/john1hsu/communication-graph/ontology#developedBy> <https://github.com/john1hsu/communication-graph/id/listening-circle> .
+  <https://github.com/john1hsu/communication-graph/id/listening> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/backchannel-responses> .
   <https://github.com/john1hsu/communication-graph/id/logic-and-conversation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/logic-and-conversation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
   <https://github.com/john1hsu/communication-graph/id/logic-and-conversation> <https://github.com/john1hsu/communication-graph/ontology#introduces> <https://github.com/john1hsu/communication-graph/id/grices-maxims> .
@@ -39678,6 +39836,7 @@
   <https://github.com/john1hsu/communication-graph/id/paraphrasing> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/listening> .
   <https://github.com/john1hsu/communication-graph/id/paraphrasing> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
   <https://github.com/john1hsu/communication-graph/id/paraphrasing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/active-listening> .
+  <https://github.com/john1hsu/communication-graph/id/paraphrasing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/backchannel-responses> .
   <https://github.com/john1hsu/communication-graph/id/paraphrasing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/carl-rogers> .
   <https://github.com/john1hsu/communication-graph/id/paraphrasing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/checking-understanding> .
   <https://github.com/john1hsu/communication-graph/id/paraphrasing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/closed-loop-communication> .
@@ -41417,6 +41576,7 @@
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/assertive-communication> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/asynchronous-communication> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/autonomy-supportive-language> .
+  <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/backchannel-responses> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/batna> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/bottom-line-up-front> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/brainstorming> .
@@ -41895,6 +42055,7 @@
   <https://github.com/john1hsu/communication-graph/id/support-response> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/interpersonal-communication> .
   <https://github.com/john1hsu/communication-graph/id/support-response> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/listening> .
   <https://github.com/john1hsu/communication-graph/id/support-response> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
+  <https://github.com/john1hsu/communication-graph/id/support-response> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/backchannel-responses> .
   <https://github.com/john1hsu/communication-graph/id/support-response> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/empathy-gap> .
   <https://github.com/john1hsu/communication-graph/id/support-response> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/empathy> .
   <https://github.com/john1hsu/communication-graph/id/support-response> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/listening-styles> .
@@ -42313,6 +42474,9 @@
   <https://github.com/john1hsu/communication-graph/id/victims-of-groupthink> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/victims-of-groupthink> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Work> .
   <https://github.com/john1hsu/communication-graph/id/victims-of-groupthink> <https://github.com/john1hsu/communication-graph/ontology#authoredBy> <https://github.com/john1hsu/communication-graph/id/irving-janis> .
+  <https://github.com/john1hsu/communication-graph/id/victor-yngve> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/victor-yngve> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
+  <https://github.com/john1hsu/communication-graph/id/victor-yngve> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/backchannel-responses> .
   <https://github.com/john1hsu/communication-graph/id/victoria-medvec> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/victoria-medvec> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/victoria-medvec> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/thomas-gilovich> .
@@ -42336,6 +42500,7 @@
   <https://github.com/john1hsu/communication-graph/id/video-call-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/camera-level-gaze> .
   <https://github.com/john1hsu/communication-graph/id/video-call-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/chen-2002> .
   <https://github.com/john1hsu/communication-graph/id/video-call-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/zoom-fatigue> .
+  <https://github.com/john1hsu/communication-graph/id/video-call-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/backchannel-responses> .
   <https://github.com/john1hsu/communication-graph/id/video-call-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communicating-across-languages> .
   <https://github.com/john1hsu/communication-graph/id/video-call-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communication-apprehension> .
   <https://github.com/john1hsu/communication-graph/id/video-call-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/digital-communication> .

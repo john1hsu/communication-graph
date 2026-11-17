@@ -1987,6 +1987,120 @@
   ]
  },
  {
+  "id": "cm:backchannel-responses",
+  "title": "Backchannel responses",
+  "aliases": [
+   "backchannels",
+   "backchanneling",
+   "back channel",
+   "listener responses",
+   "minimal encouragers"
+  ],
+  "type": "Technique",
+  "domain": "listening",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/listening/backchannel-responses.md",
+  "created": "2026-11-17",
+  "summary": "The brief signals a listener gives while someone else holds the floor - \"mm-hm\", \"right\", a nod, a wince, a finished phrase - which show attention and understanding without taking the turn. Research by Janet Bavelas and colleagues shows they shape how well the speaker talks, and cross-cultural studies show their frequency and meaning vary, so they need calibrating.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:active-listening"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:conversational-turn-taking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:support-response"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:eye-contact"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:interrupting"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:paraphrasing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:checking-understanding"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:video-call-communication"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:listening"
+   },
+   {
+    "predicate": "cmo:develops",
+    "object": "cm:active-listening",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:demonstratedBy",
+    "object": "cm:bavelas-coates-johnson-2000",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:introducedBy",
+    "object": "cm:victor-yngve",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:complements",
+    "object": "cm:eye-contact",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:explainedBy",
+    "object": "cm:communication-accommodation-theory",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "selfCheck": [
+   "Was I doing anything else while they talked that would have thinned out my responses?",
+   "Did any of my responses show I had understood a specific point, or were they all \"mm-hm\"?",
+   "Could the other person have mistaken my \"yes\" or \"OK\" for agreement I did not intend?",
+   "Did I confirm the key point or decision explicitly at the end instead of relying on my nods?"
+  ],
+  "steps": [
+   "Before the other person starts, put away the laptop or second task; distracted listeners give far fewer responses, and the speaker feels it.",
+   "Use short generic signals (\"mm-hm\", \"right\", a nod) to show you are following, timed to the moments when the speaker looks at you or pauses at the end of a point.",
+   "Add specific responses at the moments that matter - a wince at the bad news, \"wow, three days?\", finishing a phrase they are searching for - so they can see you understood, not just heard.",
+   "Keep each response short enough that the speaker can carry on without stopping; if you need more than a few words, wait for the turn to end.",
+   "Never let a backchannel stand in for agreement or understanding; when a decision or instruction is involved, check it explicitly with a paraphrase or question at the end.",
+   "Calibrate to the person and culture - if your counterpart backchannels much more or much less than you, adjust towards their rhythm and ask rather than assume what their \"yes\" meant."
+  ],
+  "example": {
+   "situation": "A support engineer is walking a team lead through the timeline of a weekend outage on a call, while the lead finishes an email.",
+   "before": "Lead (typing, camera on, eyes on the other screen): '...yeah... yeah... OK.' Engineer speeds up, skips the part about the failed rollback, and ends with 'so, um, yeah, that's basically it, I guess.'",
+   "after": "Lead closes the email, looks at the camera: 'Mm-hm.' ... 'Wait - the rollback failed too?' ... 'Ouch.' At the end: 'So the rollback script is the piece we need to fix first - have I got that right?' The engineer adds the detail about the expired credential that broke it.",
+   "why": "In the first version the lead's generic, mistimed \"yeah\"s show only that sound is reaching her, so the engineer cuts the story short and fumbles the ending - the pattern Bavelas's experiments found with distracted listeners. Specific responses and a closing check keep the speaker on track and surface the root cause."
+  },
+  "source_urls": [
+   "https://www.responsebasedpractice.com/wp-content/uploads/2020/04/Listeners-as-Co-Narrators.pdf",
+   "https://talkbank.org/ca/access/0docs/bavelas2002.pdf",
+   "https://core-cms.cambridgecore.org/core/journals/language-in-society/article/backchannels-across-cultures-a-study-of-americans-and-japanese1/B26AC3C44C237B9A380A5494EA5693ED",
+   "https://informahealthcare.com/doi/abs/10.1080/17475750600909253",
+   "https://ideas.repec.org/a/ibn/ijpsjl/v2y2010i1p25.html",
+   "https://pressbooks.pub/app/uploads/sites/2296/2023/05/Responsive_microskills_techniques.pdf"
+  ]
+ },
+ {
   "id": "cm:batna",
   "title": "BATNA",
   "aliases": [
