@@ -57,7 +57,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:risk-numbers-as-natural-frequencies` | 2 | Communicating uncertainty to decision makers, base-rate-neglect |
 | `cm:self-affirmation-before-feedback` | 2 | Defensiveness, Receiving feedback |
 
-…and 68 more.
+…and 69 more.
 
 ## Toolkit by situation
 
@@ -77,6 +77,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:client-communication` | `cm:expectation-disconfirmation-theory` |
 | `cm:client-communication` | `cm:service-recovery` |
 | `cm:client-communication` | `cm:trusted-advisor` |
+| `cm:client-communication` | `cm:working-with-interpreters` |
 | `cm:communication-plan` | `cm:raci-matrix` |
 | `cm:communication-plan` | `cm:stakeholder-mapping` |
 | `cm:crisis-communication` | `cm:communicating-uncertainty` |
@@ -94,9 +95,8 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:difficult-conversation` | `cm:de-escalation` |
 | `cm:difficult-conversation` | `cm:desc-script` |
 | `cm:difficult-conversation` | `cm:emotion-regulation` |
-| `cm:difficult-conversation` | `cm:face-and-facework` |
 
-…and 161 more.
+…and 163 more.
 
 ## Myths and contested advice
 
@@ -135,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:wise-feedback` | contested | `cm:troy-moua-van-boekel-2024` |
 | `cm:power-posing` | failed-replication | `cm:crede-2019` |
 
-…and 210 more.
+…and 211 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -174,7 +174,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:message-structure` | cmo:Concept |
 | `cm:mindfulness` | cmo:Technique |
 
-…and 66 more.
+…and 67 more.
 
 ## Orphan articles (gap)
 

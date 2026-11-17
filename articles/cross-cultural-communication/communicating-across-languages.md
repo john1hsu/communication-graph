@@ -12,7 +12,7 @@ summary: >-
 level: intermediate
 evidenceStatus: practitioner
 broader: [cm:intercultural-communication]
-related: [cm:multicultural-team, cm:plain-language, cm:teach-back, cm:paraphrasing, cm:curse-of-knowledge, cm:register-and-tone, cm:unequal-participation, cm:intercultural-competence, cm:video-call-communication]
+related: [cm:multicultural-team, cm:plain-language, cm:teach-back, cm:paraphrasing, cm:curse-of-knowledge, cm:register-and-tone, cm:unequal-participation, cm:intercultural-competence, cm:video-call-communication, cm:working-with-interpreters]
 requires: [cm:plain-language]
 relations:
   - {predicate: appliedIn, object: cm:multicultural-team, source: s1, confidence: high}

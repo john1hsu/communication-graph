@@ -319,6 +319,32 @@ Ask yourself:
 - Is my goal here both effective (I got what we needed) and appropriate (they would see how I behaved as acceptable)?
 - What did I learn in this conversation that I will test, rather than generalise, next time?
 
+### [Working with interpreters](../articles/cross-cultural-communication/working-with-interpreters.md) — Technique
+
+1. Book a qualified, independent interpreter early - not a bilingual colleague, the client's relative or the other side's interpreter - and check for any conflict of interest.
+2. Choose the mode with the interpreter (consecutive for small meetings, simultaneous with a team of two for long or large ones) and plan for the meeting to take up to twice as long.
+3. Brief the interpreter beforehand on the purpose, who will attend, sensitive topics and technical terms, and send the agenda, slides or documents in advance.
+4. At the start, introduce the interpreter, explain that they will render everything faithfully and confidentially, and make clear that you, not the interpreter, run the meeting.
+5. Look at and speak to the other person in the first person ("What do you need from us?"), never "Ask him what he needs".
+6. Speak one or two complete sentences at a time, pause, and avoid idioms, jargon, acronyms and jokes that do not translate.
+7. Assume every word in the room will be interpreted, including asides to your own team, and ask for the other side's side-discussions to be interpreted too.
+8. Check understanding by asking the other person to restate key decisions or next steps, then debrief the interpreter afterwards on anything they noticed or found difficult.
+
+*A UK operations manager meets a supplier's production director in Japan to agree a corrective-action plan, with an interpreter the supplier arranged.*
+
+| Before | After |
+|---|---|
+| (To the interpreter) Can you tell him that, frankly, the last two shipments were a bit of a car crash and we need them to get their act together on QA, or we'll have to look elsewhere? And ask whether he thinks the March date is realistic. | (Having brought her own briefed interpreter, looking at the director) The last two shipments had defects in 4% of units. (pause) We need that below 1% by March. (pause) What would you need from us to reach that? ... Could you tell me the three actions we have agreed, so I am sure I have understood them? |
+
+**Why:** The rewrite uses her own briefed interpreter, speaks to the director rather than about him, replaces idioms with numbers, delivers one idea per segment, and checks shared understanding by restatement instead of assuming that "yes" means agreement.
+
+Ask yourself:
+- Did I use a qualified interpreter whom I briefed, rather than whoever happened to be bilingual?
+- Did I speak to the other person in the first person, or did I talk to the interpreter about them?
+- Were my segments short enough that the interpreter never had to ask me to repeat or summarise?
+- Did I say anything to my own team that I would not want interpreted?
+- How do I know the other side understood the decisions, beyond hearing "yes"?
+
 ## difficult-conversations-and-conflict
 
 ### [Accusatory you-statements](../articles/difficult-conversations-and-conflict/accusatory-you-statements.md) — AntiPattern

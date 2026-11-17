@@ -332,6 +332,15 @@
 <https://github.com/john1hsu/communication-graph/id/power-distance#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/power-distance/s4> .
 <https://github.com/john1hsu/communication-graph/id/power-distance#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/power-distance/s5> .
 <https://github.com/john1hsu/communication-graph/id/power-distance#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/power-distance/s6> .
+<https://github.com/john1hsu/communication-graph/id/working-with-interpreters#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/communication-graph/id/working-with-interpreters#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> .
+<https://github.com/john1hsu/communication-graph/id/working-with-interpreters#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/cross-cultural-communication/working-with-interpreters.md" .
+<https://github.com/john1hsu/communication-graph/id/working-with-interpreters#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/working-with-interpreters/s1> .
+<https://github.com/john1hsu/communication-graph/id/working-with-interpreters#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/working-with-interpreters/s2> .
+<https://github.com/john1hsu/communication-graph/id/working-with-interpreters#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/working-with-interpreters/s3> .
+<https://github.com/john1hsu/communication-graph/id/working-with-interpreters#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/working-with-interpreters/s4> .
+<https://github.com/john1hsu/communication-graph/id/working-with-interpreters#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/working-with-interpreters/s5> .
+<https://github.com/john1hsu/communication-graph/id/working-with-interpreters#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/working-with-interpreters/s6> .
 <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements> .
 <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/communication-graph/blob/main/articles/difficult-conversations-and-conflict/accusatory-you-statements.md" .
@@ -4801,6 +4810,7 @@
   <https://github.com/john1hsu/communication-graph/id/communicating-across-languages> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/teach-back> .
   <https://github.com/john1hsu/communication-graph/id/communicating-across-languages> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/unequal-participation> .
   <https://github.com/john1hsu/communication-graph/id/communicating-across-languages> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/video-call-communication> .
+  <https://github.com/john1hsu/communication-graph/id/communicating-across-languages> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> .
   <https://github.com/john1hsu/communication-graph/id/communicating-across-languages> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/communicating-across-languages/s1> .
   <https://github.com/john1hsu/communication-graph/id/communicating-across-languages> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/communicating-across-languages/s2> .
   <https://github.com/john1hsu/communication-graph/id/communicating-across-languages> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/communicating-across-languages/s3> .
@@ -6093,6 +6103,134 @@
   <https://github.com/john1hsu/communication-graph/id/source/power-distance/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
   <https://github.com/john1hsu/communication-graph/id/source/power-distance/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
   <https://github.com/john1hsu/communication-graph/id/source/power-distance/s6> <https://schema.org/url> <https://pubmed.ncbi.nlm.nih.gov/11543415> .
+}
+
+<https://github.com/john1hsu/communication-graph/id/working-with-interpreters#graph> {
+  <https://github.com/john1hsu/communication-graph/id/source/working-with-interpreters/s1> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/working-with-interpreters/s1> <http://purl.org/dc/terms/publisher> "NAATI (National Accreditation Authority for Translators and Interpreters, Australia), Online Directory resource, 14 January 2026" .
+  <https://github.com/john1hsu/communication-graph/id/source/working-with-interpreters/s1> <http://purl.org/dc/terms/title> "Preparing for an interpreted appointment or meeting" .
+  <https://github.com/john1hsu/communication-graph/id/source/working-with-interpreters/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/working-with-interpreters/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+  <https://github.com/john1hsu/communication-graph/id/source/working-with-interpreters/s1> <https://schema.org/url> <https://directory.naati.com.au/resource/preparing-for-an-interpreter-appointment-or-meeting/> .
+  <https://github.com/john1hsu/communication-graph/id/source/working-with-interpreters/s2> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/working-with-interpreters/s2> <http://purl.org/dc/terms/publisher> "Program on Negotiation at Harvard Law School, Negotiation Daily (originally posted 2010, updated 13 May 2026)" .
+  <https://github.com/john1hsu/communication-graph/id/source/working-with-interpreters/s2> <http://purl.org/dc/terms/title> "Cross Cultural Communication: Translation and Negotiation (adapted from Jeswald W. Salacuse, The Global Negotiator)" .
+  <https://github.com/john1hsu/communication-graph/id/source/working-with-interpreters/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/working-with-interpreters/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/communication-graph/id/source/working-with-interpreters/s2> <https://schema.org/url> <https://www.pon.harvard.edu/daily/international-negotiation-daily/negotiating-in-translation/> .
+  <https://github.com/john1hsu/communication-graph/id/source/working-with-interpreters/s3> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/working-with-interpreters/s3> <http://purl.org/dc/terms/publisher> "Program on Negotiation at Harvard Law School, Negotiation Daily, 13 December 2022" .
+  <https://github.com/john1hsu/communication-graph/id/source/working-with-interpreters/s3> <http://purl.org/dc/terms/title> "Dear Negotiation Coach: Negotiation Interpreters Leave Space for Interpretation (interview with Sanda Kaufman)" .
+  <https://github.com/john1hsu/communication-graph/id/source/working-with-interpreters/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/working-with-interpreters/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/communication-graph/id/source/working-with-interpreters/s3> <https://schema.org/url> <https://www.pon.harvard.edu/daily/international-negotiation-daily/ask-a-negotiation-expert-space-for-interpretation-nb> .
+  <https://github.com/john1hsu/communication-graph/id/source/working-with-interpreters/s4> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/working-with-interpreters/s4> <http://purl.org/dc/terms/publisher> "Karliner, L., Jacobs, E., Chen, A. & Mutha, S., 2007 (UCSF Healthforce Center publication record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/working-with-interpreters/s4> <http://purl.org/dc/terms/title> "Do Professional Interpreters Improve Clinical Care for Patients with Limited English Proficiency? A Systematic Review of the Literature" .
+  <https://github.com/john1hsu/communication-graph/id/source/working-with-interpreters/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/working-with-interpreters/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/communication-graph/id/source/working-with-interpreters/s4> <https://schema.org/url> <https://healthforce.ucsf.edu/publications/do-professional-interpreters-improve-clinical-care-patients-limited-english-proficiency> .
+  <https://github.com/john1hsu/communication-graph/id/source/working-with-interpreters/s5> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/working-with-interpreters/s5> <http://purl.org/dc/terms/publisher> "Flores, G., Laws, M. B., Mayo, S. J., Zuckerman, B., Abreu, M., Medina, L. & Hardt, E. J., Pediatrics, January 2003, PMID 12509547 (QxMD abstract record)" .
+  <https://github.com/john1hsu/communication-graph/id/source/working-with-interpreters/s5> <http://purl.org/dc/terms/title> "Errors in medical interpretation and their potential clinical consequences in pediatric encounters" .
+  <https://github.com/john1hsu/communication-graph/id/source/working-with-interpreters/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/working-with-interpreters/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/communication-graph/id/source/working-with-interpreters/s5> <https://schema.org/url> <https://read.qxmd.com/read/12509547/errors-in-medical-interpretation-and-their-potential-clinical-consequences-in-pediatric-encounters> .
+  <https://github.com/john1hsu/communication-graph/id/source/working-with-interpreters/s6> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/source/working-with-interpreters/s6> <http://purl.org/dc/terms/publisher> "VITS (vits.com.au), hosted by the Victorian Department of Education (Australia)" .
+  <https://github.com/john1hsu/communication-graph/id/source/working-with-interpreters/s6> <http://purl.org/dc/terms/title> "How to Work with an Onsite Interpreter" .
+  <https://github.com/john1hsu/communication-graph/id/source/working-with-interpreters/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+  <https://github.com/john1hsu/communication-graph/id/source/working-with-interpreters/s6> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "institutional" .
+  <https://github.com/john1hsu/communication-graph/id/source/working-with-interpreters/s6> <https://schema.org/url> <https://www.education.vic.gov.au/Documents/childhood/providers/comms/vitsonsiteinterptips.pdf> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Did I use a qualified interpreter whom I briefed, rather than whoever happened to be bilingual?" .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Did I speak to the other person in the first person, or did I talk to the interpreter about them?" .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Were my segments short enough that the interpreter never had to ask me to repeat or summarise?" .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Did I say anything to my own team that I would not want interpreted?" .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/check/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/check/5> <http://www.w3.org/2000/01/rdf-schema#label> "How do I know the other side understood the decisions, beyond hearing \"yes\"?" .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/check/5> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/example> <https://github.com/john1hsu/communication-graph/ontology#after> "(Having brought her own briefed interpreter, looking at the director) The last two shipments had defects in 4% of units. (pause) We need that below 1% by March. (pause) What would you need from us to reach that? ... Could you tell me the three actions we have agreed, so I am sure I have understood them?" .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/example> <https://github.com/john1hsu/communication-graph/ontology#before> "(To the interpreter) Can you tell him that, frankly, the last two shipments were a bit of a car crash and we need them to get their act together on QA, or we'll have to look elsewhere? And ask whether he thinks the March date is realistic." .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "A UK operations manager meets a supplier's production director in Japan to agree a corrective-action plan, with an interpreter the supplier arranged." .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/example> <https://github.com/john1hsu/communication-graph/ontology#why> "The rewrite uses her own briefed interpreter, speaks to the director rather than about him, replaces idioms with numbers, delivers one idea per segment, and checks shared understanding by restatement instead of assuming that \"yes\" means agreement." .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/howto/1> <https://schema.org/text> "Book a qualified, independent interpreter early - not a bilingual colleague, the client's relative or the other side's interpreter - and check for any conflict of interest." .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/howto/2> <https://schema.org/text> "Choose the mode with the interpreter (consecutive for small meetings, simultaneous with a team of two for long or large ones) and plan for the meeting to take up to twice as long." .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/howto/3> <https://schema.org/text> "Brief the interpreter beforehand on the purpose, who will attend, sensitive topics and technical terms, and send the agenda, slides or documents in advance." .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/howto/4> <https://schema.org/text> "At the start, introduce the interpreter, explain that they will render everything faithfully and confidentially, and make clear that you, not the interpreter, run the meeting." .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/howto/5> <https://schema.org/text> "Look at and speak to the other person in the first person (\"What do you need from us?\"), never \"Ask him what he needs\"." .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/howto/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/howto/6> <https://schema.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/howto/6> <https://schema.org/text> "Speak one or two complete sentences at a time, pause, and avoid idioms, jargon, acronyms and jokes that do not translate." .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/howto/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/howto/7> <https://schema.org/position> "7"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/howto/7> <https://schema.org/text> "Assume every word in the room will be interpreted, including asides to your own team, and ask for the other side's side-discussions to be interpreted too." .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/howto/8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/howto/8> <https://schema.org/position> "8"^^<http://www.w3.org/2001/XMLSchema#integer> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/howto/8> <https://schema.org/text> "Check understanding by asking the other person to restate key decisions or next steps, then debrief the interpreter afterwards on anything they noticed or found difficult." .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/howto> <https://schema.org/name> "Working with interpreters" .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/howto/1> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/howto/2> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/howto/3> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/howto/4> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/howto/5> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/howto/6> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/howto/7> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/howto/8> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> <http://purl.org/dc/terms/created> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Technique> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> <http://www.w3.org/2000/01/rdf-schema#label> "Working with interpreters" .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> <http://www.w3.org/2004/02/skos/core#altLabel> "interpreter-mediated meetings" .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> <http://www.w3.org/2004/02/skos/core#altLabel> "speaking through an interpreter" .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> <http://www.w3.org/2004/02/skos/core#altLabel> "using an interpreter" .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/intercultural-communication> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> <http://www.w3.org/2004/02/skos/core#definition> "Preparing, briefing and speaking through a professional interpreter when the people in a meeting, negotiation or client appointment do not share a language: choose a qualified interpreter rather than an ad hoc bilingual helper, brief them on purpose and terminology, address the other party directly in short segments, and keep control of the conversation yourself." .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/cross-cultural-communication> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> <http://www.w3.org/2004/02/skos/core#prefLabel> "Working with interpreters" .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communicating-across-languages> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/multicultural-team> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/negotiation-preparation> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/plain-language> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/silence-and-pauses> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/teach-back> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/working-with-interpreters/s1> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/working-with-interpreters/s2> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/working-with-interpreters/s3> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/working-with-interpreters/s4> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/working-with-interpreters/s5> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/working-with-interpreters/s6> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/language-barriers> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/client-communication> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/negotiation> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/communicating-across-languages> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> <https://github.com/john1hsu/communication-graph/ontology#demonstratedBy> <https://github.com/john1hsu/communication-graph/id/flores-et-al-2003> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> <https://github.com/john1hsu/communication-graph/ontology#domain> "cross-cultural-communication" .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/example> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/cross-cultural-communication/working-with-interpreters.md" .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/howto> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> <https://github.com/john1hsu/communication-graph/ontology#level> "intermediate" .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/plain-language> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/karliner-et-al-2007> .
 }
 
 <https://github.com/john1hsu/communication-graph/id/accusatory-you-statements#graph> {
@@ -32526,6 +32664,7 @@
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/stakeholder-mapping> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/status-reporting> .
   <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/upward-dissent> .
+  <https://github.com/john1hsu/communication-graph/id/audience-analysis> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> .
   <https://github.com/john1hsu/communication-graph/id/audience-design> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/audience-design> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/audience-design> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/linguistics> .
@@ -33201,6 +33340,7 @@
   <https://github.com/john1hsu/communication-graph/id/client-communication> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/expectation-disconfirmation-theory> .
   <https://github.com/john1hsu/communication-graph/id/client-communication> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/service-recovery> .
   <https://github.com/john1hsu/communication-graph/id/client-communication> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/trusted-advisor> .
+  <https://github.com/john1hsu/communication-graph/id/client-communication> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> .
   <https://github.com/john1hsu/communication-graph/id/client-communication> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/david-maister> .
   <https://github.com/john1hsu/communication-graph/id/clingingsmith-shane-2018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/clingingsmith-shane-2018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
@@ -33389,6 +33529,7 @@
   <https://github.com/john1hsu/communication-graph/id/communicating-across-languages> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/checking-understanding> .
   <https://github.com/john1hsu/communication-graph/id/communicating-across-languages> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communication-accommodation-theory> .
   <https://github.com/john1hsu/communication-graph/id/communicating-across-languages> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/tsedal-neeley> .
+  <https://github.com/john1hsu/communication-graph/id/communicating-across-languages> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> .
   <https://github.com/john1hsu/communication-graph/id/communicating-across-languages> <https://github.com/john1hsu/communication-graph/ontology#introducedBy> <https://github.com/john1hsu/communication-graph/id/tsedal-neeley> .
   <https://github.com/john1hsu/communication-graph/id/communicating-across-languages> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
   <https://github.com/john1hsu/communication-graph/id/communicating-uncertainty/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -33732,6 +33873,7 @@
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/wise-feedback> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> .
+  <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/workplace-meetings> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/workplace-stress> .
   <https://github.com/john1hsu/communication-graph/id/communication-studies> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/workplace-telepressure> .
@@ -35275,6 +35417,9 @@
   <https://github.com/john1hsu/communication-graph/id/fitz-et-al-2019> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/kushlev-dunn-2015> .
   <https://github.com/john1hsu/communication-graph/id/fleischmann-aritz-cardon-2019> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/media-synchronicity-theory> .
   <https://github.com/john1hsu/communication-graph/id/flinchum-2022> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/one-on-one-meetings> .
+  <https://github.com/john1hsu/communication-graph/id/flores-et-al-2003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/flores-et-al-2003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
+  <https://github.com/john1hsu/communication-graph/id/flores-et-al-2003> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> .
   <https://github.com/john1hsu/communication-graph/id/floyd-allport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/floyd-allport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Person> .
   <https://github.com/john1hsu/communication-graph/id/floyd-allport> <https://github.com/john1hsu/communication-graph/ontology#introduced> <https://github.com/john1hsu/communication-graph/id/social-psychology> .
@@ -36010,6 +36155,7 @@
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/wise-feedback> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> .
+  <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/workplace-meetings> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/workplace-stress> .
   <https://github.com/john1hsu/communication-graph/id/humanities> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/workplace-telepressure> .
@@ -36354,6 +36500,7 @@
   <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/politeness-theory> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/power-distance> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/the-culture-map> .
+  <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/communicating-across-languages> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/communication-accommodation-theory> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate> .
@@ -36368,6 +36515,7 @@
   <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/politeness-theory> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/power-distance> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/the-culture-map> .
+  <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/cultural-intelligence> .
   <https://github.com/john1hsu/communication-graph/id/intercultural-communication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/eye-contact> .
@@ -36788,6 +36936,7 @@
   <https://github.com/john1hsu/communication-graph/id/kardas-kumar-epley-2021> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/nicholas-epley> .
   <https://github.com/john1hsu/communication-graph/id/kardas-kumar-epley-2021> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/difficult-conversation> .
   <https://github.com/john1hsu/communication-graph/id/kardas-kumar-epley-2021> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/small-talk> .
+  <https://github.com/john1hsu/communication-graph/id/karliner-et-al-2007> <https://github.com/john1hsu/communication-graph/ontology#supports> <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> .
   <https://github.com/john1hsu/communication-graph/id/karpowitz-mendelberg-shaker-2012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/karpowitz-mendelberg-shaker-2012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
   <https://github.com/john1hsu/communication-graph/id/karpowitz-mendelberg-shaker-2012> <https://github.com/john1hsu/communication-graph/ontology#demonstrates> <https://github.com/john1hsu/communication-graph/id/unequal-participation> .
@@ -36932,6 +37081,7 @@
   <https://github.com/john1hsu/communication-graph/id/ladder-of-inference> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/describe-analyze-evaluate> .
   <https://github.com/john1hsu/communication-graph/id/language-barriers> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/tsedal-neeley> .
   <https://github.com/john1hsu/communication-graph/id/language-barriers> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/communicating-across-languages> .
+  <https://github.com/john1hsu/communication-graph/id/language-barriers> <https://github.com/john1hsu/communication-graph/ontology#addressedBy> <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> .
   <https://github.com/john1hsu/communication-graph/id/lapakko-2007> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/mehrabian-myth> .
   <https://github.com/john1hsu/communication-graph/id/larrick-wu-2007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
   <https://github.com/john1hsu/communication-graph/id/larrick-wu-2007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Study> .
@@ -37501,6 +37651,7 @@
   <https://github.com/john1hsu/communication-graph/id/multicultural-team> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/monochronic-and-polychronic-time> .
   <https://github.com/john1hsu/communication-graph/id/multicultural-team> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/politeness-theory> .
   <https://github.com/john1hsu/communication-graph/id/multicultural-team> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/tsedal-neeley> .
+  <https://github.com/john1hsu/communication-graph/id/multicultural-team> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> .
   <https://github.com/john1hsu/communication-graph/id/multicultural-team> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/communicating-across-languages> .
   <https://github.com/john1hsu/communication-graph/id/multicultural-team> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/cultural-intelligence> .
   <https://github.com/john1hsu/communication-graph/id/multicultural-team> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/culture-assimilator> .
@@ -37619,6 +37770,7 @@
   <https://github.com/john1hsu/communication-graph/id/negotiation-preparation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/negotiation> .
   <https://github.com/john1hsu/communication-graph/id/negotiation-preparation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/neil-rackham> .
   <https://github.com/john1hsu/communication-graph/id/negotiation-preparation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/principled-negotiation> .
+  <https://github.com/john1hsu/communication-graph/id/negotiation-preparation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> .
   <https://github.com/john1hsu/communication-graph/id/negotiation-preparation> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/role-reversal> .
   <https://github.com/john1hsu/communication-graph/id/negotiation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
   <https://github.com/john1hsu/communication-graph/id/negotiation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -37661,6 +37813,7 @@
   <https://github.com/john1hsu/communication-graph/id/negotiation> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/questioning> .
   <https://github.com/john1hsu/communication-graph/id/negotiation> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/saying-no> .
   <https://github.com/john1hsu/communication-graph/id/negotiation> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/summarizing> .
+  <https://github.com/john1hsu/communication-graph/id/negotiation> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> .
   <https://github.com/john1hsu/communication-graph/id/negotiation> <https://github.com/john1hsu/communication-graph/ontology#hasPart> <https://github.com/john1hsu/communication-graph/id/negotiation-preparation> .
   <https://github.com/john1hsu/communication-graph/id/negotiation> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/mythical-fixed-pie> .
   <https://github.com/john1hsu/communication-graph/id/negotiator-dilemma> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/integrative-negotiation> .
@@ -38379,6 +38532,7 @@
   <https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/wall-of-text> .
   <https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/william-strunk-jr> .
   <https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability> .
+  <https://github.com/john1hsu/communication-graph/id/plain-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> .
   <https://github.com/john1hsu/communication-graph/id/plain-language> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/business-report> .
   <https://github.com/john1hsu/communication-graph/id/plain-language> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/cognitive-load> .
   <https://github.com/john1hsu/communication-graph/id/plain-language> <https://github.com/john1hsu/communication-graph/ontology#complements> <https://github.com/john1hsu/communication-graph/id/communicating-across-languages> .
@@ -38393,6 +38547,7 @@
   <https://github.com/john1hsu/communication-graph/id/plain-language> <https://github.com/john1hsu/communication-graph/ontology#hasPart> <https://github.com/john1hsu/communication-graph/id/bulleted-and-numbered-lists> .
   <https://github.com/john1hsu/communication-graph/id/plain-language> <https://github.com/john1hsu/communication-graph/ontology#hasPart> <https://github.com/john1hsu/communication-graph/id/concise-writing> .
   <https://github.com/john1hsu/communication-graph/id/plain-language> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/communicating-across-languages> .
+  <https://github.com/john1hsu/communication-graph/id/plain-language> <https://github.com/john1hsu/communication-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> .
   <https://github.com/john1hsu/communication-graph/id/planning-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/michael-ross> .
   <https://github.com/john1hsu/communication-graph/id/planning-fallacy> <https://github.com/john1hsu/communication-graph/ontology#influencedBy> <https://github.com/john1hsu/communication-graph/id/michael-ross> .
   <https://github.com/john1hsu/communication-graph/id/plato> <https://github.com/john1hsu/communication-graph/ontology#challenges> <https://github.com/john1hsu/communication-graph/id/rhetoric> .
@@ -39583,6 +39738,7 @@
   <https://github.com/john1hsu/communication-graph/id/silence-and-pauses> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/maclay-osgood-1959> .
   <https://github.com/john1hsu/communication-graph/id/silence-and-pauses> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/phone-call> .
   <https://github.com/john1hsu/communication-graph/id/silence-and-pauses> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/thought-groups> .
+  <https://github.com/john1hsu/communication-graph/id/silence-and-pauses> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> .
   <https://github.com/john1hsu/communication-graph/id/silence-and-pauses> <https://github.com/john1hsu/communication-graph/ontology#contrastsWith> <https://github.com/john1hsu/communication-graph/id/filled-pauses> .
   <https://github.com/john1hsu/communication-graph/id/silence-and-pauses> <https://github.com/john1hsu/communication-graph/ontology#developedBy> <https://github.com/john1hsu/communication-graph/id/thought-groups> .
   <https://github.com/john1hsu/communication-graph/id/silent-messages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
@@ -39946,6 +40102,7 @@
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/wise-feedback> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/wisniewski-zierer-hattie-2020> .
+  <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/workplace-meetings> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/workplace-stress> .
   <https://github.com/john1hsu/communication-graph/id/social-sciences> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/workplace-telepressure> .
@@ -40266,6 +40423,7 @@
   <https://github.com/john1hsu/communication-graph/id/teach-back> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/shannon-weaver-model> .
   <https://github.com/john1hsu/communication-graph/id/teach-back> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/spikes-protocol> .
   <https://github.com/john1hsu/communication-graph/id/teach-back> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/summarizing> .
+  <https://github.com/john1hsu/communication-graph/id/teach-back> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> .
   <https://github.com/john1hsu/communication-graph/id/team-climate> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
   <https://github.com/john1hsu/communication-graph/id/team-climate> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/psychological-safety> .
   <https://github.com/john1hsu/communication-graph/id/team-communication-norms> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/chat-etiquette> .
@@ -40834,6 +40992,19 @@
   <https://github.com/john1hsu/communication-graph/id/words-of-estimative-probability> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/status-reporting> .
   <https://github.com/john1hsu/communication-graph/id/work-motivation> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/communication-graph/id/employee-engagement> .
   <https://github.com/john1hsu/communication-graph/id/work-motivation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/communication-graph/id/employee-engagement> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/check/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Concept> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Entity> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/communication-studies> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/humanities> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/intercultural-communication> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/communication-graph/id/social-sciences> .
+  <https://github.com/john1hsu/communication-graph/id/working-with-interpreters> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
   <https://github.com/john1hsu/communication-graph/id/workplace-based-assessment> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/hattie-timperley-feedback-model> .
   <https://github.com/john1hsu/communication-graph/id/workplace-compassion> <https://github.com/john1hsu/communication-graph/ontology#underminedBy> <https://github.com/john1hsu/communication-graph/id/empathy-gap> .
   <https://github.com/john1hsu/communication-graph/id/workplace-investigation> <https://github.com/john1hsu/communication-graph/ontology#benefitsFrom> <https://github.com/john1hsu/communication-graph/id/information-gathering-interview> .
