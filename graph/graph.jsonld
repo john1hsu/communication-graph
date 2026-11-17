@@ -14375,6 +14375,78 @@
    ]
   },
   {
+   "@id": "cm:interpersonal-conflict",
+   "@type": "cmo:Phenomenon",
+   "cmo:demonstratedBy": [
+    {
+     "@id": "cm:de-dreu-weingart-2003"
+    },
+    {
+     "@id": "cm:de-wit-greer-jehn-2012"
+    }
+   ],
+   "cmo:domain": "difficult-conversations-and-conflict",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:file": "articles/difficult-conversations-and-conflict/interpersonal-conflict.md",
+   "cmo:level": "introductory",
+   "cmo:studiedIn": {
+    "@id": "cm:conflict-resolution"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/interpersonal-conflict/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/interpersonal-conflict/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/interpersonal-conflict/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/interpersonal-conflict/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/interpersonal-conflict/s5"
+    }
+   ],
+   "rdfs:label": "Interpersonal conflict",
+   "skos:altLabel": [
+    "intragroup conflict",
+    "task vs. relationship conflict",
+    "team conflict",
+    "workplace conflict"
+   ],
+   "skos:broader": {
+    "@id": "cm:interpersonal-communication"
+   },
+   "skos:definition": "A dynamic process between interdependent people who perceive a disagreement and interference with their goals and react with negative emotion; at work it is usually split into task conflict (what to do), process conflict (who does what, how) and relationship conflict (personal friction).",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/difficult-conversations-and-conflict"
+   },
+   "skos:prefLabel": "Interpersonal conflict",
+   "skos:related": [
+    {
+     "@id": "cm:conflict-resolution"
+    },
+    {
+     "@id": "cm:de-escalation"
+    },
+    {
+     "@id": "cm:interests-vs-positions"
+    },
+    {
+     "@id": "cm:perspective-taking"
+    },
+    {
+     "@id": "cm:psychological-safety"
+    }
+   ]
+  },
+  {
    "@id": "cm:interrupting",
    "@type": "cmo:AntiPattern",
    "cmo:contrastsWith": {
@@ -55339,6 +55411,76 @@
    "dcterms:title": "Interpersonal Communication (SAGE Benchmarks in Communication, 4 vols.)",
    "schema:url": {
     "@id": "https://www.sagepub.com/shop/buy-a-book/interpersonal-communication-1-233412"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/interpersonal-conflict/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Frank R. C. de Wit, Lindred L. Greer & Karen A. Jehn, Journal of Applied Psychology 97(2), 360-390, 2012, doi:10.1037/a0024844 (Erasmus University repository)",
+   "dcterms:title": "The paradox of intragroup conflict: A meta-analysis",
+   "schema:url": {
+    "@id": "https://repub.eur.nl/pub/37902"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/interpersonal-conflict/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Carsten K. W. De Dreu & Laurie R. Weingart, Journal of Applied Psychology 88(4), 741-749, 2003, doi:10.1037/0021-9010.88.4.741 (University of Amsterdam repository)",
+   "dcterms:title": "Task versus relationship conflict, team performance and team member satisfaction: a meta-analysis",
+   "schema:url": {
+    "@id": "https://dare.uva.nl/id/512d789b-a9ce-4c32-82a2-892972a4dd9a"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/interpersonal-conflict/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Henri Barki & Jon Hartwick, International Journal of Conflict Management 15(3), 216-244, 2004, doi:10.1108/eb022913 (Emerald)",
+   "dcterms:title": "Conceptualizing the construct of interpersonal conflict",
+   "schema:url": {
+    "@id": "https://www.emerald.com/ijcma/article/15/3/216/114907/CONCEPTUALIZING-THE-CONSTRUCT-OF-INTERPERSONAL"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/interpersonal-conflict/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Nick Redding, Morton Deutsch International Center for Cooperation and Conflict Resolution, Teachers College, Columbia University, 2013",
+   "dcterms:title": "It's Nothing Personal: The Constructive Potential of Conflict Within Teams",
+   "schema:url": {
+    "@id": "https://icccr.tc.columbia.edu/its-nothing-personal-the-constructive-potential-of-conflict-within-teams"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/interpersonal-conflict/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Katie Shonk, Program on Negotiation at Harvard Law School, 2026",
+   "dcterms:title": "3 Types of Conflict and How to Address Them",
+   "schema:url": {
+    "@id": "https://www.pon.harvard.edu/daily/conflict-resolution/types-conflict/?amp"
    }
   },
   {
