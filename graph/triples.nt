@@ -11654,6 +11654,88 @@
 <https://github.com/john1hsu/communication-graph/id/paraphrasing> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/communication-graph/id/paraphrasing> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/seehausen-et-al-2012> .
 <https://github.com/john1hsu/communication-graph/id/paraphrasing> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/weger-et-al-2014> .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Did I tell my reviewer who the real reader is and what kind of feedback I need at this stage?" .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/peer-review-of-writing> .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/check/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/check/2> <http://www.w3.org/2000/01/rdf-schema#label> "Can I, as reviewer, state the writer's main point and request in one sentence after a single read?" .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/check/2> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/peer-review-of-writing> .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/check/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/check/3> <http://www.w3.org/2000/01/rdf-schema#label> "Are my comments mostly about meaning and organisation, or did I drift into line edits on a draft that will still change?" .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/check/3> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/peer-review-of-writing> .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/check/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/check/4> <http://www.w3.org/2000/01/rdf-schema#label> "Does each comment say what I noticed, where, and why it matters to the reader?" .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/check/4> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/peer-review-of-writing> .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Rewrite> .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/example> <https://github.com/john1hsu/communication-graph/ontology#after> "I read it as the department head would. After page one I still wasn't sure what you were asking for - the $18K request only shows up on page two. Could you lead with it? The cost comparison table is convincing; keep it. Wording fixes can wait until the structure is settled." .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/example> <https://github.com/john1hsu/communication-graph/ontology#before> "Looks good! Change 'utilize' to 'use' in para 3, add a comma after 'However', and I'd make the table font bigger." .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/example> <https://github.com/john1hsu/communication-graph/ontology#situation> "An analyst asks a teammate to review a two-page proposal asking a department head to fund a reporting tool." .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/example> <https://github.com/john1hsu/communication-graph/ontology#why> "The revised comment reports how a reader actually experienced the draft, puts the structural problem first, explains why it matters, and names a strength, which gives the writer something to revise rather than just copy-edits to accept." .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/howto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/howto/1> <https://schema.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/howto/1> <https://schema.org/text> "Before sending a draft, tell the reviewer who the real reader is, what that reader must do after reading, and what kind of comments you want now (structure, argument or polish)." .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/howto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/howto/2> <https://schema.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/howto/2> <https://schema.org/text> "As reviewer, read the whole draft once for meaning without marking grammar or word choice." .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/howto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/howto/3> <https://schema.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/howto/3> <https://schema.org/text> "Write down in one sentence what you think the main point and the request are, and compare that with what the writer intended." .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/howto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/howto/4> <https://schema.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/howto/4> <https://schema.org/text> "Comment first on purpose, organisation, missing evidence and anything the intended reader would not understand; leave wording and typos for the final pass." .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/howto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/howto/5> <https://schema.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/howto/5> <https://schema.org/text> "Make every comment specific and explained - anchor it to a passage, say how it affected you as a reader, and say why it matters." .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/howto/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/howto/6> <https://schema.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/howto/6> <https://schema.org/text> "Name at least one thing that works so the writer knows what to keep." .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/howto/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowToStep> .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/howto/7> <https://schema.org/position> "7"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/howto/7> <https://schema.org/text> "As writer, sort the comments, decide which to act on, revise, and if possible swap roles on the next document." .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/howto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/HowTo> .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/howto> <https://schema.org/name> "Peer review of writing" .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/howto/1> .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/howto/2> .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/howto/3> .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/howto/4> .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/howto/5> .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/howto/6> .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/howto> <https://schema.org/step> <https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/howto/7> .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing> <http://purl.org/dc/terms/created> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Technique> .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing> <http://www.w3.org/2000/01/rdf-schema#label> "Peer review of writing" .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing> <http://www.w3.org/2004/02/skos/core#altLabel> "colleague read-through" .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing> <http://www.w3.org/2004/02/skos/core#altLabel> "draft review by colleagues" .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing> <http://www.w3.org/2004/02/skos/core#altLabel> "peer feedback on writing" .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing> <http://www.w3.org/2004/02/skos/core#altLabel> "peer response" .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/editing-for-clarity> .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/communication-graph/id/feedback> .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing> <http://www.w3.org/2004/02/skos/core#definition> "Exchanging drafts with colleagues who read them as the intended reader would and give structured, big-picture-first comments before the document goes out, so the writer can revise and the reviewer sharpens their own writing judgement in the process." .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/communication-graph/id/scheme/writing> .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing> <http://www.w3.org/2004/02/skos/core#prefLabel> "Peer review of writing" .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/business-writing> .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/plain-language> .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/readability-formulas> .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/receiving-feedback> .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/communication-graph/id/usability-testing> .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/peer-review-of-writing/s1> .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/peer-review-of-writing/s2> .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/peer-review-of-writing/s3> .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/peer-review-of-writing/s4> .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/communication-graph/id/source/peer-review-of-writing/s5> .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing> <https://github.com/john1hsu/communication-graph/ontology#addresses> <https://github.com/john1hsu/communication-graph/id/curse-of-knowledge> .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing> <https://github.com/john1hsu/communication-graph/ontology#appliedIn> <https://github.com/john1hsu/communication-graph/id/business-report> .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing> <https://github.com/john1hsu/communication-graph/ontology#develops> <https://github.com/john1hsu/communication-graph/id/business-writing> .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing> <https://github.com/john1hsu/communication-graph/ontology#domain> "writing" .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing> <https://github.com/john1hsu/communication-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing> <https://github.com/john1hsu/communication-graph/ontology#example> <https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/example> .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing> <https://github.com/john1hsu/communication-graph/ontology#file> "articles/writing/peer-review-of-writing.md" .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing> <https://github.com/john1hsu/communication-graph/ontology#howTo> <https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/howto> .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing> <https://github.com/john1hsu/communication-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing> <https://github.com/john1hsu/communication-graph/ontology#requires> <https://github.com/john1hsu/communication-graph/id/audience-analysis> .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/double-mcgrane-hopfenbeck-2020> .
+<https://github.com/john1hsu/communication-graph/id/peer-review-of-writing> <https://github.com/john1hsu/communication-graph/ontology#supportedBy> <https://github.com/john1hsu/communication-graph/id/huisman-et-al-2019> .
 <https://github.com/john1hsu/communication-graph/id/penance-and-restitution/check/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#SelfCheckQuestion> .
 <https://github.com/john1hsu/communication-graph/id/penance-and-restitution/check/1> <http://www.w3.org/2000/01/rdf-schema#label> "Have I named what this cost them, not just that I am sorry?" .
 <https://github.com/john1hsu/communication-graph/id/penance-and-restitution/check/1> <https://github.com/john1hsu/communication-graph/ontology#questionFor> <https://github.com/john1hsu/communication-graph/id/penance-and-restitution> .
@@ -23318,6 +23400,36 @@
 <https://github.com/john1hsu/communication-graph/id/source/paraphrasing/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
 <https://github.com/john1hsu/communication-graph/id/source/paraphrasing/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/communication-graph/id/source/paraphrasing/s5> <https://schema.org/url> <https://cris.huji.ac.il/en/publications/a-meta-analytic-systematic-review-and-theory-of-the-effects-of-pe/> .
+<https://github.com/john1hsu/communication-graph/id/source/peer-review-of-writing/s1> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/peer-review-of-writing/s1> <http://purl.org/dc/terms/publisher> "Leiden University Scholarly Publications (author's copy)" .
+<https://github.com/john1hsu/communication-graph/id/source/peer-review-of-writing/s1> <http://purl.org/dc/terms/title> "The impact of formative peer feedback on higher education students' academic writing: a meta-analysis (Huisman, Saab, van den Broek & van Driel, Assessment & Evaluation in Higher Education 44(6), 2019)" .
+<https://github.com/john1hsu/communication-graph/id/source/peer-review-of-writing/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/peer-review-of-writing/s1> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/peer-review-of-writing/s1> <https://schema.org/url> <https://scholarlypublications.universiteitleiden.nl/access/item%3A3144658/view> .
+<https://github.com/john1hsu/communication-graph/id/source/peer-review-of-writing/s2> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/peer-review-of-writing/s2> <http://purl.org/dc/terms/publisher> "The Writing Center, George Mason University" .
+<https://github.com/john1hsu/communication-graph/id/source/peer-review-of-writing/s2> <http://purl.org/dc/terms/title> "Providing Feedback to Writers" .
+<https://github.com/john1hsu/communication-graph/id/source/peer-review-of-writing/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/peer-review-of-writing/s2> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/communication-graph/id/source/peer-review-of-writing/s2> <https://schema.org/url> <https://writingcenter.gmu.edu/guides/providing-feedback-to-writers> .
+<https://github.com/john1hsu/communication-graph/id/source/peer-review-of-writing/s3> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/peer-review-of-writing/s3> <http://purl.org/dc/terms/publisher> "Learning Research and Development Center, University of Pittsburgh (author's copy)" .
+<https://github.com/john1hsu/communication-graph/id/source/peer-review-of-writing/s3> <http://purl.org/dc/terms/title> "Developing writing skills through students giving instructional explanations (Cho & Schunn, book chapter)" .
+<https://github.com/john1hsu/communication-graph/id/source/peer-review-of-writing/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/peer-review-of-writing/s3> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/communication-graph/id/source/peer-review-of-writing/s3> <https://schema.org/url> <https://www.lrdc.pitt.edu/Schunn/papers/Cho-Schunn-instructionalexplanations.pdf> .
+<https://github.com/john1hsu/communication-graph/id/source/peer-review-of-writing/s4> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/peer-review-of-writing/s4> <http://purl.org/dc/terms/publisher> "King County, Washington, Editorial Style Guide" .
+<https://github.com/john1hsu/communication-graph/id/source/peer-review-of-writing/s4> <http://purl.org/dc/terms/title> "Plain Writing: Testing for clarity" .
+<https://github.com/john1hsu/communication-graph/id/source/peer-review-of-writing/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/peer-review-of-writing/s4> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/communication-graph/id/source/peer-review-of-writing/s4> <https://schema.org/url> <https://kingcounty.gov/help/editorial-style-guide/plainwriting/testingclarity.aspx> .
+<https://github.com/john1hsu/communication-graph/id/source/peer-review-of-writing/s5> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/communication-graph/id/source/peer-review-of-writing/s5> <http://purl.org/dc/terms/publisher> "Oxford University Research Archive (ORA) record, DOI 10.1007/s10648-019-09510-3" .
+<https://github.com/john1hsu/communication-graph/id/source/peer-review-of-writing/s5> <http://purl.org/dc/terms/title> "The Impact of Peer Assessment on Academic Performance: A Meta-analysis of Control Group Studies (Double, McGrane & Hopfenbeck, Educational Psychology Review 32(2), 2020)" .
+<https://github.com/john1hsu/communication-graph/id/source/peer-review-of-writing/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/communication-graph/ontology#Source> .
+<https://github.com/john1hsu/communication-graph/id/source/peer-review-of-writing/s5> <https://github.com/john1hsu/communication-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/communication-graph/id/source/peer-review-of-writing/s5> <https://schema.org/url> <https://ora.ox.ac.uk/objects/uuid:0a09975c-e7e6-416f-b888-977230b29ba4> .
 <https://github.com/john1hsu/communication-graph/id/source/penance-and-restitution/s1> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/communication-graph/id/source/penance-and-restitution/s1> <http://purl.org/dc/terms/publisher> "Bottom, Gibson, Daniels & Murnighan, Organization Science 13(5), 497-513 (2002) (CORE open-access copy)" .
 <https://github.com/john1hsu/communication-graph/id/source/penance-and-restitution/s1> <http://purl.org/dc/terms/title> "When Talk Is Not Cheap: Substantive Penance and Expressions of Intent in Rebuilding Cooperation" .

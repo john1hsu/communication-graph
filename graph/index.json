@@ -22999,6 +22999,119 @@
   ]
  },
  {
+  "id": "cm:peer-review-of-writing",
+  "title": "Peer review of writing",
+  "aliases": [
+   "peer feedback on writing",
+   "peer response",
+   "draft review by colleagues",
+   "colleague read-through"
+  ],
+  "type": "Technique",
+  "domain": "writing",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/writing/peer-review-of-writing.md",
+  "created": "2026-11-17",
+  "summary": "Exchanging drafts with colleagues who read them as the intended reader would and give structured, big-picture-first comments before the document goes out, so the writer can revise and the reviewer sharpens their own writing judgement in the process.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "cm:editing-for-clarity"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "cm:feedback"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:business-writing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:receiving-feedback"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:plain-language"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:usability-testing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:audience-analysis"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "cm:readability-formulas"
+   },
+   {
+    "predicate": "cmo:requires",
+    "object": "cm:audience-analysis"
+   },
+   {
+    "predicate": "cmo:develops",
+    "object": "cm:business-writing",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:addresses",
+    "object": "cm:curse-of-knowledge",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:appliedIn",
+    "object": "cm:business-report",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:huisman-et-al-2019",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cmo:supportedBy",
+    "object": "cm:double-mcgrane-hopfenbeck-2020",
+    "source": "s5",
+    "confidence": "high"
+   }
+  ],
+  "selfCheck": [
+   "Did I tell my reviewer who the real reader is and what kind of feedback I need at this stage?",
+   "Can I, as reviewer, state the writer's main point and request in one sentence after a single read?",
+   "Are my comments mostly about meaning and organisation, or did I drift into line edits on a draft that will still change?",
+   "Does each comment say what I noticed, where, and why it matters to the reader?"
+  ],
+  "steps": [
+   "Before sending a draft, tell the reviewer who the real reader is, what that reader must do after reading, and what kind of comments you want now (structure, argument or polish).",
+   "As reviewer, read the whole draft once for meaning without marking grammar or word choice.",
+   "Write down in one sentence what you think the main point and the request are, and compare that with what the writer intended.",
+   "Comment first on purpose, organisation, missing evidence and anything the intended reader would not understand; leave wording and typos for the final pass.",
+   "Make every comment specific and explained - anchor it to a passage, say how it affected you as a reader, and say why it matters.",
+   "Name at least one thing that works so the writer knows what to keep.",
+   "As writer, sort the comments, decide which to act on, revise, and if possible swap roles on the next document."
+  ],
+  "example": {
+   "situation": "An analyst asks a teammate to review a two-page proposal asking a department head to fund a reporting tool.",
+   "before": "Looks good! Change 'utilize' to 'use' in para 3, add a comma after 'However', and I'd make the table font bigger.",
+   "after": "I read it as the department head would. After page one I still wasn't sure what you were asking for - the $18K request only shows up on page two. Could you lead with it? The cost comparison table is convincing; keep it. Wording fixes can wait until the structure is settled.",
+   "why": "The revised comment reports how a reader actually experienced the draft, puts the structural problem first, explains why it matters, and names a strength, which gives the writer something to revise rather than just copy-edits to accept."
+  },
+  "source_urls": [
+   "https://scholarlypublications.universiteitleiden.nl/access/item%3A3144658/view",
+   "https://writingcenter.gmu.edu/guides/providing-feedback-to-writers",
+   "https://www.lrdc.pitt.edu/Schunn/papers/Cho-Schunn-instructionalexplanations.pdf",
+   "https://kingcounty.gov/help/editorial-style-guide/plainwriting/testingclarity.aspx",
+   "https://ora.ox.ac.uk/objects/uuid:0a09975c-e7e6-416f-b888-977230b29ba4"
+  ]
+ },
+ {
   "id": "cm:penance-and-restitution",
   "title": "Penance and restitution after a breach",
   "aliases": [

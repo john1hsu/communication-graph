@@ -6,7 +6,7 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 |---|---|---|---|
 | 5.49 | `cm:audience-analysis` | `cm:credibility` | `cm:aristotles-rhetoric`, `cm:charismatic-leadership-tactics`, `cm:client-communication`, `cm:communicating-uncertainty`, `cm:elaboration-likelihood-model` |
 | 4.47 | `cm:interpersonal-communication` | `cm:psychological-safety` | `cm:coaching`, `cm:communication-apprehension`, `cm:emotional-contagion`, `cm:feedback`, `cm:group-communication` |
-| 4.21 | `cm:audience-analysis` | `cm:wall-of-text` | `cm:bottom-line-up-front`, `cm:business-report`, `cm:business-writing`, `cm:clarity`, `cm:concise-writing` |
+| 4.18 | `cm:audience-analysis` | `cm:wall-of-text` | `cm:bottom-line-up-front`, `cm:business-report`, `cm:business-writing`, `cm:clarity`, `cm:concise-writing` |
 | 4.15 | `cm:integrative-negotiation` | `cm:negotiation-preparation` | `cm:batna`, `cm:concession-strategy`, `cm:distributive-negotiation`, `cm:first-offer`, `cm:interests-vs-positions` |
 | 3.98 | `cm:audience-analysis` | `cm:organizational-communication` | `cm:business-writing`, `cm:change-communication`, `cm:channel-selection`, `cm:client-communication`, `cm:managing-up` |
 | 3.95 | `cm:chat-etiquette` | `cm:email` | `cm:asynchronous-communication`, `cm:bottom-line-up-front`, `cm:channel-selection`, `cm:cyber-incivility`, `cm:digital-communication` |
@@ -17,15 +17,15 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 3.56 | `cm:active-listening` | `cm:feedback` | `cm:coaching`, `cm:communication-competence`, `cm:defensiveness`, `cm:difficult-conversation`, `cm:feedforward` |
 | 3.45 | `cm:post-settlement-settlement` | `cm:zone-of-possible-agreement` | `cm:batna`, `cm:concession-strategy`, `cm:howard-raiffa`, `cm:integrative-negotiation`, `cm:interests-vs-positions` |
 | 3.42 | `cm:batna` | `cm:mythical-fixed-pie` | `cm:anchoring-and-adjustment`, `cm:distributive-negotiation`, `cm:integrative-negotiation`, `cm:interests-vs-positions`, `cm:multiple-equivalent-simultaneous-offers` |
-| 3.39 | `cm:clarity` | `cm:email` | `cm:audience-analysis`, `cm:bottom-line-up-front`, `cm:bulleted-and-numbered-lists`, `cm:burying-the-lede`, `cm:concise-writing` |
 | 3.39 | `cm:bottom-line-up-front` | `cm:death-by-powerpoint` | `cm:assertion-evidence-slides`, `cm:bulleted-and-numbered-lists`, `cm:burying-the-lede`, `cm:clarity`, `cm:cognitive-load` |
+| 3.39 | `cm:clarity` | `cm:email` | `cm:audience-analysis`, `cm:bottom-line-up-front`, `cm:bulleted-and-numbered-lists`, `cm:burying-the-lede`, `cm:concise-writing` |
 | 3.36 | `cm:organizational-communication` | `cm:psychological-safety` | `cm:change-communication`, `cm:elizabeth-wolfe-morrison`, `cm:employee-silence`, `cm:group-communication`, `cm:managing-up` |
-| 3.24 | `cm:pyramid-principle` | `cm:wall-of-text` | `cm:bottom-line-up-front`, `cm:burying-the-lede`, `cm:business-report`, `cm:business-writing`, `cm:executive-summary` |
+| 3.23 | `cm:pyramid-principle` | `cm:wall-of-text` | `cm:bottom-line-up-front`, `cm:burying-the-lede`, `cm:business-report`, `cm:business-writing`, `cm:executive-summary` |
 | 3.22 | `cm:culture-assimilator` | `cm:intercultural-communication` | `cm:cultural-intelligence`, `cm:describe-analyze-evaluate`, `cm:ethnocentrism`, `cm:intercultural-competence`, `cm:li-2021-cross-cultural-training-meta-analysis` |
 | 3.21 | `cm:mythical-fixed-pie` | `cm:principled-negotiation` | `cm:distributive-negotiation`, `cm:integrative-negotiation`, `cm:interests-vs-positions`, `cm:multiple-equivalent-simultaneous-offers`, `cm:negotiation` |
 | 3.21 | `cm:concession-strategy` | `cm:interests-vs-positions` | `cm:batna`, `cm:distributive-negotiation`, `cm:integrative-negotiation`, `cm:logrolling`, `cm:negotiation-preparation` |
 | 3.19 | `cm:interests-vs-positions` | `cm:multiple-equivalent-simultaneous-offers` | `cm:batna`, `cm:integrative-negotiation`, `cm:logrolling`, `cm:mythical-fixed-pie`, `cm:negotiation-preparation` |
-| 3.19 | `cm:feedback-intervention-theory` | `cm:one-on-one-meetings` | `cm:360-degree-feedback`, `cm:edward-l-deci`, `cm:feedback`, `cm:feedforward`, `cm:hattie-timperley-feedback-model` |
+| 3.18 | `cm:feedback-intervention-theory` | `cm:one-on-one-meetings` | `cm:360-degree-feedback`, `cm:edward-l-deci`, `cm:feedback`, `cm:feedforward`, `cm:hattie-timperley-feedback-model` |
 | 3.15 | `cm:conflict-resolution` | `cm:defensiveness` | `cm:accusatory-you-statements`, `cm:conversational-receptiveness`, `cm:de-escalation`, `cm:desc-script`, `cm:difficult-conversation` |
-| 3.13 | `cm:executive-briefing` | `cm:plain-language` | `cm:audience-analysis`, `cm:bottom-line-up-front`, `cm:business-report`, `cm:executive-summary`, `cm:information-overload` |
-| 3.08 | `cm:egocentric-bias` | `cm:email` | `cm:checking-understanding`, `cm:curse-of-knowledge`, `cm:digital-communication`, `cm:email-urgency-bias-study`, `cm:emoji-and-tone-in-text` |
+| 3.12 | `cm:executive-briefing` | `cm:plain-language` | `cm:audience-analysis`, `cm:bottom-line-up-front`, `cm:business-report`, `cm:executive-summary`, `cm:information-overload` |
+| 3.07 | `cm:egocentric-bias` | `cm:email` | `cm:checking-understanding`, `cm:curse-of-knowledge`, `cm:digital-communication`, `cm:email-urgency-bias-study`, `cm:emoji-and-tone-in-text` |

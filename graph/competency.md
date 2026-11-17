@@ -12,9 +12,7 @@ _No results._
 
 _Which written skills or dispositions have no technique, framework or principle that develops them?_ — `queries/02-skills-without-practice.rq`
 
-| skill | type |
-|---|---|
-| `cm:business-writing` | cmo:Skill |
+_No results._
 
 ## Situations, channels and formats with no guidance (gap)
 
@@ -56,10 +54,10 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:listening` | 2 | Defensiveness, Interrupting |
 | `cm:mindfulness` | 2 | Emotion regulation, Workplace stress |
 | `cm:nominal-group-technique` | 2 | Production blocking, Unequal participation |
+| `cm:peer-review-of-writing` | 2 | Business writing, Curse of knowledge |
 | `cm:plain-language` | 2 | Curse of knowledge, jargon |
-| `cm:presentation-rehearsal` | 2 | Public speaking, Public speaking anxiety |
 
-…and 72 more.
+…and 73 more.
 
 ## Toolkit by situation
 
@@ -72,6 +70,7 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:asynchronous-communication` | `cm:media-synchronicity-theory` |
 | `cm:asynchronous-communication` | `cm:setting-reply-time-expectations` |
 | `cm:business-report` | `cm:informative-headings` |
+| `cm:business-report` | `cm:peer-review-of-writing` |
 | `cm:business-report` | `cm:pyramid-principle` |
 | `cm:business-report` | `cm:scqa-framework` |
 | `cm:change-communication` | `cm:leadership-framing` |
@@ -96,9 +95,8 @@ _For each situation, channel or format, which techniques apply or give it struct
 | `cm:difficult-conversation` | `cm:cognitive-reappraisal` |
 | `cm:difficult-conversation` | `cm:conversational-receptiveness` |
 | `cm:difficult-conversation` | `cm:cooling-off-period` |
-| `cm:difficult-conversation` | `cm:de-escalation` |
 
-…and 169 more.
+…and 170 more.
 
 ## Myths and contested advice
 
@@ -137,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:wise-feedback` | contested | `cm:troy-moua-van-boekel-2024` |
 | `cm:power-posing` | failed-replication | `cm:crede-2019` |
 
-…and 218 more.
+…and 219 more.
 
 ## Concepts with no recorded origin (gap)
 
@@ -176,7 +174,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named or p
 | `cm:meeting-agendas` | cmo:Technique |
 | `cm:meeting-recaps` | cmo:Technique |
 
-…and 70 more.
+…and 71 more.
 
 ## Orphan articles (gap)
 

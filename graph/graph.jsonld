@@ -20289,6 +20289,101 @@
    ]
   },
   {
+   "@id": "cm:peer-review-of-writing",
+   "@type": "cmo:Technique",
+   "cmo:addresses": {
+    "@id": "cm:curse-of-knowledge"
+   },
+   "cmo:appliedIn": {
+    "@id": "cm:business-report"
+   },
+   "cmo:develops": {
+    "@id": "cm:business-writing"
+   },
+   "cmo:domain": "writing",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/example"
+   },
+   "cmo:file": "articles/writing/peer-review-of-writing.md",
+   "cmo:howTo": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/howto"
+   },
+   "cmo:level": "introductory",
+   "cmo:requires": {
+    "@id": "cm:audience-analysis"
+   },
+   "cmo:supportedBy": [
+    {
+     "@id": "cm:double-mcgrane-hopfenbeck-2020"
+    },
+    {
+     "@id": "cm:huisman-et-al-2019"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/peer-review-of-writing/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/peer-review-of-writing/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/peer-review-of-writing/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/peer-review-of-writing/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/peer-review-of-writing/s5"
+    }
+   ],
+   "rdfs:label": "Peer review of writing",
+   "skos:altLabel": [
+    "colleague read-through",
+    "draft review by colleagues",
+    "peer feedback on writing",
+    "peer response"
+   ],
+   "skos:broader": [
+    {
+     "@id": "cm:editing-for-clarity"
+    },
+    {
+     "@id": "cm:feedback"
+    }
+   ],
+   "skos:definition": "Exchanging drafts with colleagues who read them as the intended reader would and give structured, big-picture-first comments before the document goes out, so the writer can revise and the reviewer sharpens their own writing judgement in the process.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/writing"
+   },
+   "skos:prefLabel": "Peer review of writing",
+   "skos:related": [
+    {
+     "@id": "cm:audience-analysis"
+    },
+    {
+     "@id": "cm:business-writing"
+    },
+    {
+     "@id": "cm:plain-language"
+    },
+    {
+     "@id": "cm:readability-formulas"
+    },
+    {
+     "@id": "cm:receiving-feedback"
+    },
+    {
+     "@id": "cm:usability-testing"
+    }
+   ]
+  },
+  {
    "@id": "cm:penance-and-restitution",
    "@type": "cmo:Technique",
    "cmo:appliedIn": {
@@ -40419,6 +40514,116 @@
    "@type": "schema:HowToStep",
    "schema:position": 6,
    "schema:text": "Only once they confirm you have understood, give your own perspective, answer or proposal."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:peer-review-of-writing"
+   },
+   "rdfs:label": "Did I tell my reviewer who the real reader is and what kind of feedback I need at this stage?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:peer-review-of-writing"
+   },
+   "rdfs:label": "Can I, as reviewer, state the writer's main point and request in one sentence after a single read?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:peer-review-of-writing"
+   },
+   "rdfs:label": "Are my comments mostly about meaning and organisation, or did I drift into line edits on a draft that will still change?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:peer-review-of-writing"
+   },
+   "rdfs:label": "Does each comment say what I noticed, where, and why it matters to the reader?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "I read it as the department head would. After page one I still wasn't sure what you were asking for - the $18K request only shows up on page two. Could you lead with it? The cost comparison table is convincing; keep it. Wording fixes can wait until the structure is settled.",
+   "cmo:before": "Looks good! Change 'utilize' to 'use' in para 3, add a comma after 'However', and I'd make the table font bigger.",
+   "cmo:situation": "An analyst asks a teammate to review a two-page proposal asking a department head to fund a reporting tool.",
+   "cmo:why": "The revised comment reports how a reader actually experienced the draft, puts the structural problem first, explains why it matters, and names a strength, which gives the writer something to revise rather than just copy-edits to accept."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/howto",
+   "@type": "schema:HowTo",
+   "schema:name": "Peer review of writing",
+   "schema:step": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/howto/1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/howto/2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/howto/3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/howto/4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/howto/5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/howto/6"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/howto/7"
+    }
+   ]
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/howto/1",
+   "@type": "schema:HowToStep",
+   "schema:position": 1,
+   "schema:text": "Before sending a draft, tell the reviewer who the real reader is, what that reader must do after reading, and what kind of comments you want now (structure, argument or polish)."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/howto/2",
+   "@type": "schema:HowToStep",
+   "schema:position": 2,
+   "schema:text": "As reviewer, read the whole draft once for meaning without marking grammar or word choice."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/howto/3",
+   "@type": "schema:HowToStep",
+   "schema:position": 3,
+   "schema:text": "Write down in one sentence what you think the main point and the request are, and compare that with what the writer intended."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/howto/4",
+   "@type": "schema:HowToStep",
+   "schema:position": 4,
+   "schema:text": "Comment first on purpose, organisation, missing evidence and anything the intended reader would not understand; leave wording and typos for the final pass."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/howto/5",
+   "@type": "schema:HowToStep",
+   "schema:position": 5,
+   "schema:text": "Make every comment specific and explained - anchor it to a passage, say how it affected you as a reader, and say why it matters."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/howto/6",
+   "@type": "schema:HowToStep",
+   "schema:position": 6,
+   "schema:text": "Name at least one thing that works so the writer knows what to keep."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/peer-review-of-writing/howto/7",
+   "@type": "schema:HowToStep",
+   "schema:position": 7,
+   "schema:text": "As writer, sort the comments, decide which to act on, revise, and if possible swap roles on the next document."
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/penance-and-restitution/check/1",
@@ -61767,6 +61972,76 @@
    "dcterms:title": "A Meta-analytic Systematic Review and Theory of the Effects of Perceived Listening on Work Outcomes",
    "schema:url": {
     "@id": "https://cris.huji.ac.il/en/publications/a-meta-analytic-systematic-review-and-theory-of-the-effects-of-pe/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/peer-review-of-writing/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Leiden University Scholarly Publications (author's copy)",
+   "dcterms:title": "The impact of formative peer feedback on higher education students' academic writing: a meta-analysis (Huisman, Saab, van den Broek & van Driel, Assessment & Evaluation in Higher Education 44(6), 2019)",
+   "schema:url": {
+    "@id": "https://scholarlypublications.universiteitleiden.nl/access/item%3A3144658/view"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/peer-review-of-writing/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "The Writing Center, George Mason University",
+   "dcterms:title": "Providing Feedback to Writers",
+   "schema:url": {
+    "@id": "https://writingcenter.gmu.edu/guides/providing-feedback-to-writers"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/peer-review-of-writing/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Learning Research and Development Center, University of Pittsburgh (author's copy)",
+   "dcterms:title": "Developing writing skills through students giving instructional explanations (Cho & Schunn, book chapter)",
+   "schema:url": {
+    "@id": "https://www.lrdc.pitt.edu/Schunn/papers/Cho-Schunn-instructionalexplanations.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/peer-review-of-writing/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "King County, Washington, Editorial Style Guide",
+   "dcterms:title": "Plain Writing: Testing for clarity",
+   "schema:url": {
+    "@id": "https://kingcounty.gov/help/editorial-style-guide/plainwriting/testingclarity.aspx"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/peer-review-of-writing/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Oxford University Research Archive (ORA) record, DOI 10.1007/s10648-019-09510-3",
+   "dcterms:title": "The Impact of Peer Assessment on Academic Performance: A Meta-analysis of Control Group Studies (Double, McGrane & Hopfenbeck, Educational Psychology Review 32(2), 2020)",
+   "schema:url": {
+    "@id": "https://ora.ox.ac.uk/objects/uuid:0a09975c-e7e6-416f-b888-977230b29ba4"
    }
   },
   {

@@ -3532,6 +3532,30 @@ Ask yourself:
 - Does my first sentence start with its subject, or with a wind-up I could delete?
 - After cutting, does the message still carry the context and tone this particular reader needs?
 
+### [Peer review of writing](../articles/writing/peer-review-of-writing.md) — Technique
+
+1. Before sending a draft, tell the reviewer who the real reader is, what that reader must do after reading, and what kind of comments you want now (structure, argument or polish).
+2. As reviewer, read the whole draft once for meaning without marking grammar or word choice.
+3. Write down in one sentence what you think the main point and the request are, and compare that with what the writer intended.
+4. Comment first on purpose, organisation, missing evidence and anything the intended reader would not understand; leave wording and typos for the final pass.
+5. Make every comment specific and explained - anchor it to a passage, say how it affected you as a reader, and say why it matters.
+6. Name at least one thing that works so the writer knows what to keep.
+7. As writer, sort the comments, decide which to act on, revise, and if possible swap roles on the next document.
+
+*An analyst asks a teammate to review a two-page proposal asking a department head to fund a reporting tool.*
+
+| Before | After |
+|---|---|
+| Looks good! Change 'utilize' to 'use' in para 3, add a comma after 'However', and I'd make the table font bigger. | I read it as the department head would. After page one I still wasn't sure what you were asking for - the $18K request only shows up on page two. Could you lead with it? The cost comparison table is convincing; keep it. Wording fixes can wait until the structure is settled. |
+
+**Why:** The revised comment reports how a reader actually experienced the draft, puts the structural problem first, explains why it matters, and names a strength, which gives the writer something to revise rather than just copy-edits to accept.
+
+Ask yourself:
+- Did I tell my reviewer who the real reader is and what kind of feedback I need at this stage?
+- Can I, as reviewer, state the writer's main point and request in one sentence after a single read?
+- Are my comments mostly about meaning and organisation, or did I drift into line edits on a draft that will still change?
+- Does each comment say what I noticed, where, and why it matters to the reader?
+
 ### [Plain language](../articles/writing/plain-language.md) — Principle
 
 Ask yourself:
