@@ -209,6 +209,23 @@ Ask yourself:
 - Am I about to spend the first minute of my talk apologising for something the audience has not noticed?
 - If I picture this meeting from the back of the room instead of through my own eyes, how big does my moment really look?
 
+### [Workplace incivility](../articles/barriers-and-psychology/workplace-incivility.md) — AntiPattern
+
+*In a weekly project meeting, a junior analyst raises a risk in the vendor timeline while the senior lead is mid-update.*
+
+| Before | After |
+|---|---|
+| The lead keeps looking at their laptop, cuts in with "Yeah, we've been over this," moves to the next item without answering, and later presents the same risk to the director as their own catch. | The lead looks up and says: "Good catch - give me thirty seconds to finish this point and then let's take it." They return to it, ask the analyst to walk the team through the dates, and in the director update say: "Priya flagged a vendor slip this week; here's what we're doing about it." |
+
+**Why:** The original stacks four classic uncivil acts (inattention, interrupting, dismissing and taking credit) that each look trivial but tell the analyst their input is unwelcome; the rewrite costs the lead under a minute, keeps the meeting on track, credits the source and makes it more likely that people keep raising risks.
+
+Ask yourself:
+- In my last few meetings and threads, did I interrupt, dismiss, ignore or talk down to anyone, even briefly?
+- Would I have said this the same way to someone more senior than me?
+- Did I give credit by name to the person whose idea or work I used?
+- When someone was curt with me, did I pass the rudeness on to the next person instead of pausing?
+- If I saw someone being belittled, did I say or do anything, in the moment or afterwards?
+
 ### [Workplace stress](../articles/barriers-and-psychology/workplace-stress.md) — Barrier
 
 Ask yourself:

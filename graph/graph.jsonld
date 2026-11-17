@@ -29684,6 +29684,120 @@
    ]
   },
   {
+   "@id": "cm:workplace-incivility",
+   "@type": "cmo:AntiPattern",
+   "cmo:causes": [
+    {
+     "@id": "cm:interpersonal-conflict"
+    },
+    {
+     "@id": "cm:workplace-stress"
+    }
+   ],
+   "cmo:contrastsWith": {
+    "@id": "cm:workplace-bullying"
+   },
+   "cmo:demonstratedBy": [
+    {
+     "@id": "cm:cortina-et-al-2001"
+    },
+    {
+     "@id": "cm:porath-erez-2007"
+    }
+   ],
+   "cmo:domain": "barriers-and-psychology",
+   "cmo:evidenceStatus": "mixed",
+   "cmo:example": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/workplace-incivility/example"
+   },
+   "cmo:explainedBy": {
+    "@id": "cm:norm-of-reciprocity"
+   },
+   "cmo:file": "articles/barriers-and-psychology/workplace-incivility.md",
+   "cmo:introducedBy": {
+    "@id": "cm:christine-pearson"
+   },
+   "cmo:level": "introductory",
+   "cmo:supportedBy": {
+    "@id": "cm:han-et-al-2022"
+   },
+   "cmo:undermines": {
+    "@id": "cm:psychological-safety"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/workplace-incivility/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/workplace-incivility/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/workplace-incivility/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/workplace-incivility/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/workplace-incivility/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/communication-graph/id/source/workplace-incivility/s6"
+    }
+   ],
+   "rdfs:label": "Workplace incivility",
+   "skos:altLabel": [
+    "incivility at work",
+    "rudeness at work",
+    "workplace rudeness"
+   ],
+   "skos:broader": [
+    {
+     "@id": "cm:interpersonal-communication"
+    },
+    {
+     "@id": "cm:organizational-communication"
+    }
+   ],
+   "skos:definition": "Low-intensity rude, condescending or excluding behaviour at work - talking down to people, interrupting, ignoring greetings or requests, taking credit, curt replies - that breaks norms of mutual respect while leaving the intent to harm ambiguous.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/communication-graph/id/scheme/barriers-and-psychology"
+   },
+   "skos:prefLabel": "Workplace incivility",
+   "skos:related": [
+    {
+     "@id": "cm:crew-civility-intervention"
+    },
+    {
+     "@id": "cm:cyber-incivility"
+    },
+    {
+     "@id": "cm:defensiveness"
+    },
+    {
+     "@id": "cm:emotional-contagion"
+    },
+    {
+     "@id": "cm:employee-silence"
+    },
+    {
+     "@id": "cm:interpersonal-conflict"
+    },
+    {
+     "@id": "cm:norm-of-reciprocity"
+    },
+    {
+     "@id": "cm:psychological-safety"
+    },
+    {
+     "@id": "cm:workplace-stress"
+    }
+   ]
+  },
+  {
    "@id": "cm:workplace-meetings",
    "@type": "cmo:Context",
    "cmo:causes": {
@@ -68928,6 +69042,90 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/workplace-incivility/s1",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Lynne M. Andersson & Christine M. Pearson, Academy of Management Review 24(3), 452-471 (1999), doi:10.2307/259136 (bibliographic record, SUFE academic newsletter)",
+   "dcterms:title": "Tit for tat? The spiraling effect of incivility in the workplace",
+   "schema:url": {
+    "@id": "https://academicnewsletter.sufe.edu.cn/info/368012"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/workplace-incivility/s2",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "University of Michigan News, on Cortina, Magley, Williams & Langhout, Incivility in the workplace - Incidence and impact, Journal of Occupational Health Psychology 6, 64-80 (2001)",
+   "dcterms:title": "Rudeness at work: common and costly",
+   "schema:url": {
+    "@id": "https://news.umich.edu/?p=4048"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/workplace-incivility/s3",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Christine L. Porath & Amir Erez, Academy of Management Journal 50(5), 1181-1197 (2007) (copy hosted at UNC Wilmington)",
+   "dcterms:title": "Does rudeness really matter? The effects of rudeness on task performance and helpfulness",
+   "schema:url": {
+    "@id": "https://people.uncw.edu/hakanr/documents/EffectsofRudeness.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/workplace-incivility/s4",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Han, Harold, Oh, Kim & Agolli, Journal of Organizational Behavior 43(3), 497-523 (2022), doi:10.1002/job.2568 (University of St. Thomas repository record)",
+   "dcterms:title": "A meta-analysis integrating 20 years of workplace incivility research: Antecedents, consequences, and boundary conditions",
+   "schema:url": {
+    "@id": "https://researchonline.stthomas.edu/esploro/outputs/journalArticle/A-meta-analysis-integrating-20-years-of/991015223601203691"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/workplace-incivility/s5",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Cortina, Kabat-Farr, Magley & Nelson, Journal of Occupational Health Psychology 22(3), 299-313 (2017) (CDC Stacks public-access copy)",
+   "dcterms:title": "Researching rudeness: The past, present, and future of the science of incivility",
+   "schema:url": {
+    "@id": "https://stacks.cdc.gov/view/cdc/222503"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/source/workplace-incivility/s6",
+   "@type": "cmo:Source",
+   "cmo:sourceType": "practitioner-journal",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Christine Porath, McKinsey Quarterly (December 2016)",
+   "dcterms:title": "The hidden toll of workplace incivility",
+   "schema:url": {
+    "@id": "https://www.mckinsey.com/~/media/McKinsey/Business%20Functions/Organization/Our%20Insights/The%20hidden%20toll%20of%20workplace%20incivility/The-hidden-toll-of-workplace-incivility-Dec-2016.pdf"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/communication-graph/id/source/workplace-meetings/s1",
    "@type": "cmo:Source",
    "cmo:sourceType": "peer-reviewed",
@@ -70946,6 +71144,54 @@
    "@type": "schema:HowToStep",
    "schema:position": 8,
    "schema:text": "Check understanding by asking the other person to restate key decisions or next steps, then debrief the interpreter afterwards on anything they noticed or found difficult."
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/workplace-incivility/check/1",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:workplace-incivility"
+   },
+   "rdfs:label": "In my last few meetings and threads, did I interrupt, dismiss, ignore or talk down to anyone, even briefly?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/workplace-incivility/check/2",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:workplace-incivility"
+   },
+   "rdfs:label": "Would I have said this the same way to someone more senior than me?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/workplace-incivility/check/3",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:workplace-incivility"
+   },
+   "rdfs:label": "Did I give credit by name to the person whose idea or work I used?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/workplace-incivility/check/4",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:workplace-incivility"
+   },
+   "rdfs:label": "When someone was curt with me, did I pass the rudeness on to the next person instead of pausing?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/workplace-incivility/check/5",
+   "@type": "cmo:SelfCheckQuestion",
+   "cmo:questionFor": {
+    "@id": "cm:workplace-incivility"
+   },
+   "rdfs:label": "If I saw someone being belittled, did I say or do anything, in the moment or afterwards?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/communication-graph/id/workplace-incivility/example",
+   "@type": "cmo:Rewrite",
+   "cmo:after": "The lead looks up and says: \"Good catch - give me thirty seconds to finish this point and then let's take it.\" They return to it, ask the analyst to walk the team through the dates, and in the director update say: \"Priya flagged a vendor slip this week; here's what we're doing about it.\"",
+   "cmo:before": "The lead keeps looking at their laptop, cuts in with \"Yeah, we've been over this,\" moves to the next item without answering, and later presents the same risk to the director as their own catch.",
+   "cmo:situation": "In a weekly project meeting, a junior analyst raises a risk in the vendor timeline while the senior lead is mid-update.",
+   "cmo:why": "The original stacks four classic uncivil acts (inattention, interrupting, dismissing and taking credit) that each look trivial but tell the analyst their input is unwelcome; the rewrite costs the lead under a minute, keeps the meeting on track, credits the source and makes it more likely that people keep raising risks."
   },
   {
    "@id": "https://github.com/john1hsu/communication-graph/id/workplace-stress/check/1",

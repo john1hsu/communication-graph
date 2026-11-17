@@ -39,7 +39,7 @@ _Which techniques, frameworks and principles fix the most problems or build the 
 | `cm:chat-etiquette` | 2 | Information overload, Workplace telepressure |
 | `cm:coherence-principle` | 2 | Information overload, Slide design |
 | `cm:communicating-across-languages` | 2 | Unequal participation, language-barriers |
-| `cm:crew-civility-intervention` | 2 | Cyber incivility, workplace-incivility |
+| `cm:crew-civility-intervention` | 2 | Cyber incivility, Workplace incivility |
 | `cm:culture-assimilator` | 2 | Cultural intelligence, Intercultural competence |
 | `cm:describe-analyze-evaluate` | 2 | Ethnocentrism, Intercultural competence |
 | `cm:dropping-safety-behaviours` | 2 | Social anxiety, safety-behaviours |
@@ -135,7 +135,7 @@ _Which pieces of communication advice are contested, mixed or failed to replicat
 | `cm:wise-feedback` | contested | `cm:troy-moua-van-boekel-2024` |
 | `cm:power-posing` | failed-replication | `cm:crede-2019` |
 
-…and 214 more.
+…and 215 more.
 
 ## Concepts with no recorded origin (gap)
 
